@@ -87,7 +87,7 @@ namespace NUnit::Framework::Constraints {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageWriter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Constraints").WithContext("MessageWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::MessageWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageWriter*, creationType>()));
     }
   }; // NUnit.Framework.Constraints.MessageWriter

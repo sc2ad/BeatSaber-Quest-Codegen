@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     template<class T>
     T Get() {
       static_assert(std::is_convertible_v<T, GlobalNamespace::SceneSetupData*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ScenesTransitionSetupDataSO").WithContext("Get");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ScenesTransitionSetupDataSO::Get");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Get", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScenesTransitionSetupDataSO* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ScenesTransitionSetupDataSO").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScenesTransitionSetupDataSO*, creationType>()));
     }
   }; // ScenesTransitionSetupDataSO

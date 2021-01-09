@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DroppedFramesLabel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("DroppedFramesLabel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DroppedFramesLabel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DroppedFramesLabel*, creationType>()));
     }
   }; // DroppedFramesLabel

@@ -62,13 +62,13 @@ namespace System::Linq {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Enumerable::WhereSelectListIterator_2<TSource, TResult>* New_ctor(System::Collections::Generic::List_1<TSource>* source, System::Func_2<TSource, bool>* predicate, System::Func_2<TSource, TResult>* selector) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("WhereSelectListIterator_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereSelectListIterator_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Enumerable::WhereSelectListIterator_2<TSource, TResult>*, creationType>(source, predicate, selector)));
     }
     // public System.Linq.Enumerable/Iterator`1<TResult> Clone()
     // Offset: 0xFFFFFFFF
     System::Linq::Enumerable::Iterator_1<TResult>* Clone() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("WhereSelectListIterator_2").WithContext("Clone");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereSelectListIterator_2::Clone");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Clone", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Linq::Enumerable::Iterator_1<TResult>*, false>(this, ___internal__method);
     }
@@ -76,7 +76,7 @@ namespace System::Linq {
     // Offset: 0xFFFFFFFF
     template<class TResult2>
     System::Collections::Generic::IEnumerable_1<TResult2>* Select(System::Func_2<TResult, TResult2>* selector) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("WhereSelectListIterator_2").WithContext("Select");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereSelectListIterator_2::Select");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Select", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult2>::get()}, ::il2cpp_utils::ExtractTypes(selector)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult2>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<TResult2>*, false>(this, ___internal__method, selector);
@@ -84,7 +84,7 @@ namespace System::Linq {
     // public System.Collections.Generic.IEnumerable`1<TResult> Where(System.Func`2<TResult,System.Boolean> predicate)
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<TResult>* Where(System::Func_2<TResult, bool>* predicate) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("WhereSelectListIterator_2").WithContext("Where");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereSelectListIterator_2::Where");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Where", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(predicate)));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<TResult>*, false>(this, ___internal__method, predicate);
     }
@@ -93,7 +93,7 @@ namespace System::Linq {
     // Implemented from: System.Linq.Enumerable/Iterator`1
     // Base method: System.Boolean Iterator_1::MoveNext()
     bool MoveNext() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("WhereSelectListIterator_2").WithContext("MoveNext");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereSelectListIterator_2::MoveNext");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }

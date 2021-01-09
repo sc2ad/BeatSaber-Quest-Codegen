@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A13E84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlickeringNeonSign::$FlickeringCoroutine$d__12* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$FlickeringCoroutine$d__12").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FlickeringNeonSign::$FlickeringCoroutine$d__12::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlickeringNeonSign::$FlickeringCoroutine$d__12*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

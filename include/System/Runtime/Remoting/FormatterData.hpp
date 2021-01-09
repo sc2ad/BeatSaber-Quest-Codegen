@@ -26,7 +26,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FormatterData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting").WithContext("FormatterData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::FormatterData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FormatterData*, creationType>()));
     }
   }; // System.Runtime.Remoting.FormatterData

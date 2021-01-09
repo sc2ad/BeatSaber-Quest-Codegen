@@ -67,7 +67,7 @@ namespace Mono::Net {
     // Offset: 0x1261A88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFProxySettings* New_ctor(Mono::Net::CFDictionary* settings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Net").WithContext("CFProxySettings").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFProxySettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFProxySettings*, creationType>(settings)));
     }
     // public Mono.Net.CFDictionary get_Dictionary()

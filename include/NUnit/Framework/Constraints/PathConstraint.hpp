@@ -35,7 +35,7 @@ namespace NUnit::Framework::Constraints {
     // Base method: System.Void StringConstraint::.ctor(System.String expected)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PathConstraint* New_ctor(::Il2CppString* expected) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Constraints").WithContext("PathConstraint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::PathConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PathConstraint*, creationType>(expected)));
     }
     // protected override System.String GetStringRepresentation()

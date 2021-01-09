@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomValueToShader* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RandomValueToShader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RandomValueToShader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomValueToShader*, creationType>()));
     }
     // static private System.Void .cctor()

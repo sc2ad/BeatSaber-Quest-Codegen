@@ -119,7 +119,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerLevelFailController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MultiplayerConnectedPlayerLevelFailController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerLevelFailController*, creationType>()));
     }
   }; // MultiplayerConnectedPlayerLevelFailController

@@ -44,7 +44,7 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWellFormedWriter::AttributeValueCache::Item* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("Item").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlWellFormedWriter::AttributeValueCache::Item::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter::AttributeValueCache::Item*, creationType>()));
     }
   }; // System.Xml.XmlWellFormedWriter/AttributeValueCache/Item

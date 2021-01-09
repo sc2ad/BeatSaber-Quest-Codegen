@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x191D68C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRRenderModels::_FreeTextureD3D11* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_FreeTextureD3D11").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRRenderModels::_FreeTextureD3D11::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRRenderModels::_FreeTextureD3D11*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.IntPtr pD3D11Texture2D)

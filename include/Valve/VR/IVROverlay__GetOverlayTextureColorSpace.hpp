@@ -42,7 +42,7 @@ namespace Valve::VR {
     // Offset: 0x18F46F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_GetOverlayTextureColorSpace* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetOverlayTextureColorSpace").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVROverlay::_GetOverlayTextureColorSpace::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_GetOverlayTextureColorSpace*, creationType>(object, method)));
     }
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref Valve.VR.EColorSpace peTextureColorSpace)

@@ -89,7 +89,7 @@ namespace System::Globalization {
     // Offset: 0x162D644
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GregorianCalendarHelper* New_ctor(System::Globalization::Calendar* cal, ::Array<System::Globalization::EraInfo*>* eraInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("GregorianCalendarHelper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::GregorianCalendarHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GregorianCalendarHelper*, creationType>(cal, eraInfo)));
     }
     // System.Int32 GetGregorianYear(System.Int32 year, System.Int32 era)

@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OneTimeLightColorEffect* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OneTimeLightColorEffect").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OneTimeLightColorEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OneTimeLightColorEffect*, creationType>()));
     }
   }; // OneTimeLightColorEffect

@@ -83,7 +83,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Encoder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("Encoder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::Encoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoder*, creationType>()));
     }
   }; // System.Text.Encoder

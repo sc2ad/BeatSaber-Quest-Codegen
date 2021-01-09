@@ -169,7 +169,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SymmetricAlgorithm* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("SymmetricAlgorithm").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::SymmetricAlgorithm::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SymmetricAlgorithm*, creationType>()));
     }
     // public System.Void Dispose()

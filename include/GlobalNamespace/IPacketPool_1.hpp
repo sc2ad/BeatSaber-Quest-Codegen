@@ -25,14 +25,14 @@ namespace GlobalNamespace {
     // public T Obtain()
     // Offset: 0xFFFFFFFF
     T Obtain() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("IPacketPool_1").WithContext("Obtain");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IPacketPool_1::Obtain");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Obtain", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void Release(T t)
     // Offset: 0xFFFFFFFF
     void Release(T t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("IPacketPool_1").WithContext("Release");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IPacketPool_1::Release");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(t)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, t);
     }

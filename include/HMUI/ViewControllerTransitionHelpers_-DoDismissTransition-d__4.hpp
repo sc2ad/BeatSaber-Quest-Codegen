@@ -78,7 +78,7 @@ namespace HMUI {
     // Offset: 0x1982194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewControllerTransitionHelpers::$DoDismissTransition$d__4* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("$DoDismissTransition$d__4").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ViewControllerTransitionHelpers::$DoDismissTransition$d__4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewControllerTransitionHelpers::$DoDismissTransition$d__4*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

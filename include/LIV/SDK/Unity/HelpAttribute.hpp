@@ -34,7 +34,7 @@ namespace LIV::SDK::Unity {
     // Offset: 0x1A0D0D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HelpAttribute* New_ctor(::Il2CppString* text) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LIV::SDK::Unity").WithContext("HelpAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LIV::SDK::Unity::HelpAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HelpAttribute*, creationType>(text)));
     }
   }; // LIV.SDK.Unity.HelpAttribute

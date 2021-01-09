@@ -52,7 +52,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverTrigonometric::TrigonometricBone* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("TrigonometricBone").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverTrigonometric::TrigonometricBone*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolverTrigonometric/TrigonometricBone

@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Offset: 0xF1E828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardTableView::ScoreData* New_ctor(int score, ::Il2CppString* playerName, int rank, bool fullCombo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ScoreData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LeaderboardTableView::ScoreData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardTableView::ScoreData*, creationType>(score, playerName, rank, fullCombo)));
     }
   }; // LeaderboardTableView/ScoreData

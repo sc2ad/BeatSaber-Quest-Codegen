@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A2D644
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::SpecialEventKeywordFiltersData* New_ctor(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>* keywords) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SpecialEventKeywordFiltersData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::SpecialEventKeywordFiltersData*, creationType>(keywords)));
     }
   }; // BeatmapSaveData/SpecialEventKeywordFiltersData

@@ -53,7 +53,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PointerInputModule::MouseButtonEventData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("MouseButtonEventData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PointerInputModule::MouseButtonEventData*, creationType>()));
     }
   }; // UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData

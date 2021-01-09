@@ -55,7 +55,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x12029E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpHeaders::HeaderBucket* New_ctor(::Il2CppObject* parsed, System::Func_2<::Il2CppObject*, ::Il2CppString*>* converter) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HeaderBucket").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaders::HeaderBucket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpHeaders::HeaderBucket*, creationType>(parsed, converter)));
     }
     // public System.Boolean get_HasStringValues()

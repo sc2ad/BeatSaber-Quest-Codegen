@@ -69,7 +69,7 @@ namespace System::Reflection {
     // Offset: 0x15D1958
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StrongNameKeyPair* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("StrongNameKeyPair").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::StrongNameKeyPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StrongNameKeyPair*, creationType>(info, context)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

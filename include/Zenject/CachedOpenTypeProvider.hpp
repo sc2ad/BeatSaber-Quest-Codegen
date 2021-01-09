@@ -67,7 +67,7 @@ namespace Zenject {
     // Offset: 0x10EE438
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CachedOpenTypeProvider* New_ctor(Zenject::IProvider* creator) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("CachedOpenTypeProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::CachedOpenTypeProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CachedOpenTypeProvider*, creationType>(creator)));
     }
     // public System.Int32 get_NumInstances()

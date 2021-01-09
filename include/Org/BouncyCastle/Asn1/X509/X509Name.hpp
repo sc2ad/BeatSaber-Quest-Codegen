@@ -257,7 +257,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x1582BB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Name* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X509").WithContext("X509Name").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::X509Name::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Name*, creationType>(seq)));
     }
     // private System.Void AppendValue(System.Text.StringBuilder buf, System.Collections.IDictionary oidSymbols, Org.BouncyCastle.Asn1.DerObjectIdentifier oid, System.String val)

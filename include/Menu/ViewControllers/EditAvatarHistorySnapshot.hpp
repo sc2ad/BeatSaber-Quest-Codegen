@@ -52,7 +52,7 @@ namespace Menu::ViewControllers {
     // Offset: 0x1A71E3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditAvatarHistorySnapshot* New_ctor(GlobalNamespace::AvatarData* avatarData, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Menu::ViewControllers").WithContext("EditAvatarHistorySnapshot").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Menu::ViewControllers::EditAvatarHistorySnapshot::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditAvatarHistorySnapshot*, creationType>(avatarData, avatarEditPart)));
     }
   }; // Menu.ViewControllers.EditAvatarHistorySnapshot

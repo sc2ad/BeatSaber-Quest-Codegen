@@ -146,7 +146,7 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWriter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("XmlWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlWriter*, creationType>()));
     }
   }; // System.Xml.XmlWriter

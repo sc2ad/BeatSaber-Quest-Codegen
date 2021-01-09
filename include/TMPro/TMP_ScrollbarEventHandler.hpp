@@ -79,7 +79,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_ScrollbarEventHandler* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMP_ScrollbarEventHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_ScrollbarEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_ScrollbarEventHandler*, creationType>()));
     }
   }; // TMPro.TMP_ScrollbarEventHandler

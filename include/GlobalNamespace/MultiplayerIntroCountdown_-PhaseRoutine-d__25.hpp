@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Offset: 0xFB4128
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerIntroCountdown::$PhaseRoutine$d__25* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$PhaseRoutine$d__25").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerIntroCountdown::$PhaseRoutine$d__25::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdown::$PhaseRoutine$d__25*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

@@ -76,7 +76,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x144477C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationInfoEnumerator* New_ctor(::Array<::Il2CppString*>* members, ::Array<::Il2CppObject*>* info, ::Array<System::Type*>* types, int numItems) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("SerializationInfoEnumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationInfoEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationInfoEnumerator*, creationType>(members, info, types, numItems)));
     }
     // public System.Runtime.Serialization.SerializationEntry get_Current()

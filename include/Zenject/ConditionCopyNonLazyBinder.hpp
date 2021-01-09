@@ -67,7 +67,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     Zenject::CopyNonLazyBinder* WhenInjectedInto() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConditionCopyNonLazyBinder").WithContext("WhenInjectedInto");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConditionCopyNonLazyBinder::WhenInjectedInto");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "WhenInjectedInto", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::CopyNonLazyBinder*, false>(this, ___internal__method);
@@ -76,7 +76,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     Zenject::CopyNonLazyBinder* WhenNotInjectedInto() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConditionCopyNonLazyBinder").WithContext("WhenNotInjectedInto");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConditionCopyNonLazyBinder::WhenNotInjectedInto");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "WhenNotInjectedInto", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::CopyNonLazyBinder*, false>(this, ___internal__method);
@@ -89,7 +89,7 @@ namespace Zenject {
     // Base method: System.Void IfNotBoundBinder::.ctor(Zenject.BindInfo bindInfo)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConditionCopyNonLazyBinder* New_ctor(Zenject::BindInfo* bindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConditionCopyNonLazyBinder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConditionCopyNonLazyBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConditionCopyNonLazyBinder*, creationType>(bindInfo)));
     }
   }; // Zenject.ConditionCopyNonLazyBinder

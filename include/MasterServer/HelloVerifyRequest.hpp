@@ -86,7 +86,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HelloVerifyRequest* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("HelloVerifyRequest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::HelloVerifyRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HelloVerifyRequest*, creationType>()));
     }
   }; // MasterServer.HelloVerifyRequest

@@ -99,7 +99,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaCoreEngine* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Engines").WithContext("RsaCoreEngine").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaCoreEngine*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Engines.RsaCoreEngine

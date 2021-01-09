@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArcadeFlowCoordinator::$$c__DisplayClass26_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass26_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ArcadeFlowCoordinator::$$c__DisplayClass26_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArcadeFlowCoordinator::$$c__DisplayClass26_0*, creationType>()));
     }
   }; // ArcadeFlowCoordinator/<>c__DisplayClass26_0

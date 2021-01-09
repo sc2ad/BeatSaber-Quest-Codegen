@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x18E4548
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_ClearSkyboxOverride* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_ClearSkyboxOverride").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRCompositor::_ClearSkyboxOverride::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_ClearSkyboxOverride*, creationType>(object, method)));
     }
     // public System.Void Invoke()

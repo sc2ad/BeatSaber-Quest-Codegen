@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1865674
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRInput::_GetSkeletalActionData* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetSkeletalActionData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRInput::_GetSkeletalActionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRInput::_GetSkeletalActionData*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVRInputError Invoke(System.UInt64 action, ref OVR.OpenVR.InputSkeletalActionData_t pActionData, System.UInt32 unActionDataSize, System.UInt64 ulRestrictToDevice)

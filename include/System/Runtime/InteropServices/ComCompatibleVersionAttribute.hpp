@@ -49,7 +49,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x116443C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ComCompatibleVersionAttribute* New_ctor(int major, int minor, int build, int revision) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("ComCompatibleVersionAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::ComCompatibleVersionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComCompatibleVersionAttribute*, creationType>(major, minor, build, revision)));
     }
   }; // System.Runtime.InteropServices.ComCompatibleVersionAttribute

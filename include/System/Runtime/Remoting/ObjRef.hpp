@@ -103,7 +103,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x1330F24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjRef* New_ctor(::Il2CppString* uri, System::Runtime::Remoting::IChannelInfo* cinfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting").WithContext("ObjRef").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ObjRef::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjRef*, creationType>(uri, cinfo)));
     }
     // System.Runtime.Remoting.ObjRef DeserializeInTheCurrentDomain(System.Int32 domainId, System.Byte[] tInfo)
@@ -116,14 +116,14 @@ namespace System::Runtime::Remoting {
     // Offset: 0x133113C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjRef* New_ctor(System::Type* type, ::Il2CppString* url, ::Il2CppObject* remoteChannelData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting").WithContext("ObjRef").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ObjRef::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjRef*, creationType>(type, url, remoteChannelData)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1331668
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjRef* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting").WithContext("ObjRef").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ObjRef::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjRef*, creationType>(info, context)));
     }
     // System.Boolean get_IsReferenceToWellKnow()
@@ -165,7 +165,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjRef* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting").WithContext("ObjRef").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ObjRef::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjRef*, creationType>()));
     }
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

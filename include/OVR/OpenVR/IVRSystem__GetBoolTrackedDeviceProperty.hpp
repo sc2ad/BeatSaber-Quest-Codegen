@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x191072C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetBoolTrackedDeviceProperty* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetBoolTrackedDeviceProperty").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_GetBoolTrackedDeviceProperty::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetBoolTrackedDeviceProperty*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError)

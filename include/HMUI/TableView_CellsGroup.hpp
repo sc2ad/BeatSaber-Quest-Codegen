@@ -56,7 +56,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TableView::CellsGroup* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("CellsGroup").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::TableView::CellsGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TableView::CellsGroup*, creationType>()));
     }
   }; // HMUI.TableView/CellsGroup

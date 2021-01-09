@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A86E84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelDataSO::DifficultyBeatmapSet* New_ctor(::Il2CppString* beatmapCharacteristicSerializedName, ::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>* difficultyBeatmaps) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("DifficultyBeatmapSet").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelDataSO::DifficultyBeatmapSet*, creationType>(beatmapCharacteristicSerializedName, difficultyBeatmaps)));
     }
   }; // BeatmapLevelDataSO/DifficultyBeatmapSet

@@ -35,7 +35,7 @@ namespace System::Text {
     // Base method: System.Void Encoding::.ctor(System.Int32 codePage)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncodingNLS* New_ctor(int codePage) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("EncodingNLS").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncodingNLS::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncodingNLS*, creationType>(codePage)));
     }
     // public override System.Int32 GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count)

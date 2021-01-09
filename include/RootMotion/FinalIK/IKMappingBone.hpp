@@ -58,7 +58,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x170CB28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKMappingBone* New_ctor(UnityEngine::Transform* bone) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("IKMappingBone").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKMappingBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKMappingBone*, creationType>(bone)));
     }
     // public System.Void StoreDefaultLocalState()
@@ -85,7 +85,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKMappingBone* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("IKMappingBone").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKMappingBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKMappingBone*, creationType>()));
     }
     // public override System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)

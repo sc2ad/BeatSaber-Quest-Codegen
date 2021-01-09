@@ -52,7 +52,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalVariableInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("LocalVariableInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::LocalVariableInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalVariableInfo*, creationType>()));
     }
     // public override System.String ToString()

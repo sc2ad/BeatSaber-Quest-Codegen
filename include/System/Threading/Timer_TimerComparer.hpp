@@ -39,7 +39,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Timer::TimerComparer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("TimerComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Timer::TimerComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Timer::TimerComparer*, creationType>()));
     }
   }; // System.Threading.Timer/TimerComparer

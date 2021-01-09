@@ -43,7 +43,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeWritableSelfAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("NativeWritableSelfAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeWritableSelfAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeWritableSelfAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.NativeWritableSelfAttribute

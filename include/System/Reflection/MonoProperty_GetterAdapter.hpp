@@ -34,7 +34,7 @@ namespace System::Reflection {
     // Offset: 0x15CEE2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoProperty::GetterAdapter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("GetterAdapter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::GetterAdapter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoProperty::GetterAdapter*, creationType>(object, method)));
     }
     // public System.Object Invoke(System.Object _this)

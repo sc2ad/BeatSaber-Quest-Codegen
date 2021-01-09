@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x136F380
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRChaperoneSetup::_ExportLiveToBuffer* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_ExportLiveToBuffer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRChaperoneSetup::_ExportLiveToBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRChaperoneSetup::_ExportLiveToBuffer*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.Text.StringBuilder pBuffer, ref System.UInt32 pnBufferLength)

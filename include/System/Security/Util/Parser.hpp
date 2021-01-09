@@ -61,14 +61,14 @@ namespace System::Security::Util {
     // Offset: 0x1288120
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Parser* New_ctor(System::Security::Util::Tokenizer* t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Util").WithContext("Parser").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Parser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Parser*, creationType>(t)));
     }
     // System.Void .ctor(System.String input)
     // Offset: 0x1288234
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Parser* New_ctor(::Il2CppString* input) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Util").WithContext("Parser").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Parser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Parser*, creationType>(input)));
     }
   }; // System.Security.Util.Parser

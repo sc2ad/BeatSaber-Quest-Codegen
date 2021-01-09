@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainMenuDestinationRequestControler* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MainMenuDestinationRequestControler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MainMenuDestinationRequestControler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainMenuDestinationRequestControler*, creationType>()));
     }
   }; // MainMenuDestinationRequestControler

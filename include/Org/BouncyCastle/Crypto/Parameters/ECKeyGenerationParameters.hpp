@@ -54,7 +54,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1046174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECKeyGenerationParameters* New_ctor(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParameters, Org::BouncyCastle::Security::SecureRandom* random) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("ECKeyGenerationParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECKeyGenerationParameters*, creationType>(domainParameters, random)));
     }
     // public Org.BouncyCastle.Crypto.Parameters.ECDomainParameters get_DomainParameters()

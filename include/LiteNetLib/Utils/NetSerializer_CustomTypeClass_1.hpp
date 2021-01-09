@@ -48,7 +48,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer::CustomTypeClass_1<TProperty>* New_ctor(System::Func_1<TProperty>* constructor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("CustomTypeClass_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::CustomTypeClass_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::CustomTypeClass_1<TProperty>*, creationType>(constructor)));
     }
     // public override LiteNetLib.Utils.NetSerializer/FastCall`1<T> Get()
@@ -57,7 +57,7 @@ namespace LiteNetLib::Utils {
     // Base method: LiteNetLib.Utils.NetSerializer/FastCall`1<T> CustomType::Get()
     template<class T>
     LiteNetLib::Utils::NetSerializer::FastCall_1<T>* Get() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("CustomTypeClass_1").WithContext("Get");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::CustomTypeClass_1::Get");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Get", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<LiteNetLib::Utils::NetSerializer::FastCall_1<T>*, false>(this, ___internal__method);

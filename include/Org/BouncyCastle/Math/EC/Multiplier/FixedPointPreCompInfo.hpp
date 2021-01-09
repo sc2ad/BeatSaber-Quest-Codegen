@@ -74,7 +74,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixedPointPreCompInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Multiplier").WithContext("FixedPointPreCompInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixedPointPreCompInfo*, creationType>()));
     }
   }; // Org.BouncyCastle.Math.EC.Multiplier.FixedPointPreCompInfo

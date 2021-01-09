@@ -42,7 +42,7 @@ namespace Valve::VR {
     // Offset: 0x1917E5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_SetOverlayIntersectionMask* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_SetOverlayIntersectionMask").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVROverlay::_SetOverlayIntersectionMask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_SetOverlayIntersectionMask*, creationType>(object, method)));
     }
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref Valve.VR.VROverlayIntersectionMaskPrimitive_t pMaskPrimitives, System.UInt32 unNumMaskPrimitives, System.UInt32 unPrimitiveSize)

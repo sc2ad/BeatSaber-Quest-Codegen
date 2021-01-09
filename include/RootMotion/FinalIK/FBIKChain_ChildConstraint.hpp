@@ -111,7 +111,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x1754E98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBIKChain::ChildConstraint* New_ctor(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, float pushElasticity, float pullElasticity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("ChildConstraint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::FBIKChain::ChildConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBIKChain::ChildConstraint*, creationType>(bone1, bone2, pushElasticity, pullElasticity)));
     }
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)

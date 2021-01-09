@@ -52,7 +52,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F9458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRTrackedCamera* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("CVRTrackedCamera").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRTrackedCamera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRTrackedCamera*, creationType>(pInterface)));
     }
     // public System.String GetCameraErrorNameFromEnum(OVR.OpenVR.EVRTrackedCameraError eCameraError)

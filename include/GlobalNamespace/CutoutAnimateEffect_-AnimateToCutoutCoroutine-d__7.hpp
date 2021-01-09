@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A5787C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$AnimateToCutoutCoroutine$d__7").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

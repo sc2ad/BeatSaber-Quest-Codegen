@@ -143,7 +143,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentOverrideSettingsPanelController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("EnvironmentOverrideSettingsPanelController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentOverrideSettingsPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentOverrideSettingsPanelController*, creationType>()));
     }
   }; // EnvironmentOverrideSettingsPanelController

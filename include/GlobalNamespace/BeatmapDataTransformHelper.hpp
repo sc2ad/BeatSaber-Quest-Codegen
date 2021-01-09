@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataTransformHelper* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BeatmapDataTransformHelper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapDataTransformHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataTransformHelper*, creationType>()));
     }
   }; // BeatmapDataTransformHelper

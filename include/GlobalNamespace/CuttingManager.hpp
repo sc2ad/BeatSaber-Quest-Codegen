@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CuttingManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("CuttingManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CuttingManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CuttingManager*, creationType>()));
     }
   }; // CuttingManager

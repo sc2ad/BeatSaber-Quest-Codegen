@@ -52,7 +52,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12F4580
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectMapInfo* New_ctor(int objectId, int numMembers, ::Array<::Il2CppString*>* memberNames, ::Array<System::Type*>* memberTypes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization::Formatters::Binary").WithContext("ObjectMapInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectMapInfo*, creationType>(objectId, numMembers, memberNames, memberTypes)));
     }
     // System.Boolean isCompatible(System.Int32 numMembers, System.String[] memberNames, System.Type[] memberTypes)

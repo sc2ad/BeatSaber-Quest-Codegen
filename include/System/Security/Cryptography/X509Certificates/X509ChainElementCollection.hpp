@@ -78,7 +78,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainElementCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509ChainElementCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainElementCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainElementCollection*, creationType>()));
     }
     // public System.Int32 get_Count()

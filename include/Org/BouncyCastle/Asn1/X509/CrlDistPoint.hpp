@@ -50,7 +50,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x15797E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrlDistPoint* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X509").WithContext("CrlDistPoint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::CrlDistPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrlDistPoint*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.X509.DistributionPoint[] GetDistributionPoints()

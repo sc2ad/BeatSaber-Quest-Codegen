@@ -61,7 +61,7 @@ namespace System::Collections {
     // Offset: 0x152B2E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator* New_ctor(System::Collections::ListDictionaryInternal* list, bool isKeys) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("NodeKeyValueEnumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*, creationType>(list, isKeys)));
     }
     // public System.Object get_Current()

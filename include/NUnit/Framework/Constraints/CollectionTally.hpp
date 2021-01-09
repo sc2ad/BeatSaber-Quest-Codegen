@@ -51,7 +51,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13DAD24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CollectionTally* New_ctor(NUnit::Framework::Constraints::NUnitEqualityComparer* comparer, System::Collections::IEnumerable* c) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Constraints").WithContext("CollectionTally").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::CollectionTally::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CollectionTally*, creationType>(comparer, c)));
     }
     // public System.Int32 get_Count()

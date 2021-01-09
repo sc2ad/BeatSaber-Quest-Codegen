@@ -84,7 +84,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenModeController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("ScreenModeController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ScreenModeController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenModeController*, creationType>()));
     }
   }; // HMUI.ScreenModeController

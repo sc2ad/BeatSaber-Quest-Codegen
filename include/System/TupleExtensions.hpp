@@ -30,7 +30,7 @@ namespace System {
     // Offset: 0xFFFFFFFF
     template<class T1, class T2>
     static void Deconstruct(System::Tuple_2<T1, T2>* value, T1& item1, T2& item2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TupleExtensions").WithContext("Deconstruct");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TupleExtensions::Deconstruct");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "TupleExtensions", "Deconstruct", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get()}, ::il2cpp_utils::ExtractTypes(value, item1, item2))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get()})));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value, item1, item2);

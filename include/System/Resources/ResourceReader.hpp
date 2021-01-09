@@ -157,7 +157,7 @@ namespace System::Resources {
     // Offset: 0x15D885C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceReader* New_ctor(System::IO::Stream* stream, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* resCache) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("ResourceReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceReader*, creationType>(stream, resCache)));
     }
     // private System.Void Dispose(System.Boolean disposing)

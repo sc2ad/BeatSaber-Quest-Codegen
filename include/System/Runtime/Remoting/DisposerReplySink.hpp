@@ -53,7 +53,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x1174D2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposerReplySink* New_ctor(System::Runtime::Remoting::Messaging::IMessageSink* next, System::IDisposable* disposable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting").WithContext("DisposerReplySink").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::DisposerReplySink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisposerReplySink*, creationType>(next, disposable)));
     }
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)

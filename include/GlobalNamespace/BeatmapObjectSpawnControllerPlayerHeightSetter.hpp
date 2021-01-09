@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectSpawnControllerPlayerHeightSetter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BeatmapObjectSpawnControllerPlayerHeightSetter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectSpawnControllerPlayerHeightSetter*, creationType>()));
     }
   }; // BeatmapObjectSpawnControllerPlayerHeightSetter

@@ -32,7 +32,7 @@ namespace System::Net::Configuration {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SettingsSection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Configuration").WithContext("SettingsSection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Configuration::SettingsSection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SettingsSection*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()

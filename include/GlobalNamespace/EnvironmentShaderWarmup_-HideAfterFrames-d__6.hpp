@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A0E4D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentShaderWarmup::$HideAfterFrames$d__6* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$HideAfterFrames$d__6").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentShaderWarmup::$HideAfterFrames$d__6::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentShaderWarmup::$HideAfterFrames$d__6*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

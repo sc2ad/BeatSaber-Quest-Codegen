@@ -289,7 +289,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_ExternalCamera* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SteamVR_ExternalCamera").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_ExternalCamera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_ExternalCamera*, creationType>()));
     }
   }; // SteamVR_ExternalCamera

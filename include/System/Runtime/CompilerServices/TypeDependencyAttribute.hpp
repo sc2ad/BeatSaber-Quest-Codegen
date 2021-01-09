@@ -34,7 +34,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x11638E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeDependencyAttribute* New_ctor(::Il2CppString* typeName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("TypeDependencyAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::TypeDependencyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeDependencyAttribute*, creationType>(typeName)));
     }
   }; // System.Runtime.CompilerServices.TypeDependencyAttribute

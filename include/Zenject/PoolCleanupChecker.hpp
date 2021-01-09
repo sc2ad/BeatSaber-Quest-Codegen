@@ -59,7 +59,7 @@ namespace Zenject {
     // Offset: 0x134891C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolCleanupChecker* New_ctor(System::Collections::Generic::List_1<Zenject::IMemoryPool*>* poolFactories, System::Collections::Generic::List_1<System::Type*>* ignoredPools) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PoolCleanupChecker").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolCleanupChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolCleanupChecker*, creationType>(poolFactories, ignoredPools)));
     }
     // public System.Void LateDispose()

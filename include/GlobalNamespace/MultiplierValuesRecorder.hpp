@@ -110,7 +110,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplierValuesRecorder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MultiplierValuesRecorder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplierValuesRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplierValuesRecorder*, creationType>()));
     }
   }; // MultiplierValuesRecorder

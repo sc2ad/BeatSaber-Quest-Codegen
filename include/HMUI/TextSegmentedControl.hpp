@@ -143,7 +143,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextSegmentedControl* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("TextSegmentedControl").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::TextSegmentedControl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextSegmentedControl*, creationType>()));
     }
   }; // HMUI.TextSegmentedControl

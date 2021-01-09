@@ -151,7 +151,7 @@ namespace GlobalNamespace {
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
       // Base method: System.Void IAsyncStateMachine::MoveNext()
       void MoveNext() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$LoadAsync$d__7").WithContext("MoveNext");
+        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncCachedLoader_2::$LoadAsync$d__7::MoveNext");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
       }
@@ -160,7 +160,7 @@ namespace GlobalNamespace {
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
       // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
       void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$LoadAsync$d__7").WithContext("SetStateMachine");
+        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncCachedLoader_2::$LoadAsync$d__7::SetStateMachine");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(stateMachine)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, stateMachine);
       }
@@ -215,7 +215,7 @@ namespace GlobalNamespace {
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
       // Base method: System.Void IAsyncStateMachine::MoveNext()
       void MoveNext() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$LoadAllAsync$d__8").WithContext("MoveNext");
+        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncCachedLoader_2::$LoadAllAsync$d__8::MoveNext");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
       }
@@ -224,7 +224,7 @@ namespace GlobalNamespace {
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
       // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
       void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$LoadAllAsync$d__8").WithContext("SetStateMachine");
+        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncCachedLoader_2::$LoadAllAsync$d__8::SetStateMachine");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(stateMachine)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, stateMachine);
       }
@@ -259,7 +259,7 @@ namespace GlobalNamespace {
     // public System.Void ClearCache()
     // Offset: 0xFFFFFFFF
     void ClearCache() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AsyncCachedLoader_2").WithContext("ClearCache");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncCachedLoader_2::ClearCache");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ClearCache", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
@@ -267,20 +267,20 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncCachedLoader_2<TKey, TValue>* New_ctor(int maxNumberCachedElements, System::Func_3<TKey, System::Threading::CancellationToken, System::Threading::Tasks::Task_1<TValue>*>* resultValueFunc) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AsyncCachedLoader_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncCachedLoader_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncCachedLoader_2<TKey, TValue>*, creationType>(maxNumberCachedElements, resultValueFunc)));
     }
     // public System.Threading.Tasks.Task`1<TValue> LoadAsync(TKey keyId, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<TValue>* LoadAsync(TKey keyId, System::Threading::CancellationToken cancellationToken) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AsyncCachedLoader_2").WithContext("LoadAsync");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncCachedLoader_2::LoadAsync");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "LoadAsync", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(keyId, cancellationToken)));
       return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TValue>*, false>(this, ___internal__method, keyId, cancellationToken);
     }
     // private System.Void LoadAllAsync()
     // Offset: 0xFFFFFFFF
     void LoadAllAsync() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AsyncCachedLoader_2").WithContext("LoadAllAsync");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncCachedLoader_2::LoadAllAsync");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "LoadAllAsync", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }

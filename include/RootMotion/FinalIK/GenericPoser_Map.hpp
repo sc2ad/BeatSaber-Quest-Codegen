@@ -58,7 +58,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x16FA550
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericPoser::Map* New_ctor(UnityEngine::Transform* bone, UnityEngine::Transform* target) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("Map").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::GenericPoser::Map::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericPoser::Map*, creationType>(bone, target)));
     }
     // public System.Void StoreDefaultState()

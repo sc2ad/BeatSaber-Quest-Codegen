@@ -35,7 +35,7 @@ namespace System::Collections::Specialized {
     // Offset: 0x147E3F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase::NameObjectEntry* New_ctor(::Il2CppString* name, ::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Specialized").WithContext("NameObjectEntry").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameObjectCollectionBase::NameObjectEntry*, creationType>(name, value)));
     }
   }; // System.Collections.Specialized.NameObjectCollectionBase/NameObjectEntry

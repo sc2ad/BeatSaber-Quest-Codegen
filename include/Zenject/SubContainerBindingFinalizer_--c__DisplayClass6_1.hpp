@@ -57,7 +57,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerBindingFinalizer::$$c__DisplayClass6_1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass6_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerBindingFinalizer::$$c__DisplayClass6_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerBindingFinalizer::$$c__DisplayClass6_1*, creationType>()));
     }
   }; // Zenject.SubContainerBindingFinalizer/<>c__DisplayClass6_1

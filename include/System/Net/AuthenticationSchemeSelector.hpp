@@ -39,7 +39,7 @@ namespace System::Net {
     // Offset: 0x130A700
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AuthenticationSchemeSelector* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("AuthenticationSchemeSelector").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::AuthenticationSchemeSelector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticationSchemeSelector*, creationType>(object, method)));
     }
     // public System.Net.AuthenticationSchemes Invoke(System.Net.HttpListenerRequest httpRequest)

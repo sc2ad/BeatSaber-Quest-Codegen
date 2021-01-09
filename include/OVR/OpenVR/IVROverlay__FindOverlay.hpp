@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1869470
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_FindOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_FindOverlay").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVROverlay::_FindOverlay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_FindOverlay*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVROverlayError Invoke(System.String pchOverlayKey, ref System.UInt64 pOverlayHandle)

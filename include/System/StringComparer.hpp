@@ -119,7 +119,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringComparer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("StringComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::StringComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringComparer*, creationType>()));
     }
   }; // System.StringComparer

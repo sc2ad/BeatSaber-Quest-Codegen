@@ -45,7 +45,7 @@ namespace Valve::VR {
     // Offset: 0x1925188
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSettings::_GetString* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetString").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRSettings::_GetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSettings::_GetString*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String pchSection, System.String pchSettingsKey, System.Text.StringBuilder pchValue, System.UInt32 unValueLen, ref Valve.VR.EVRSettingsError peError)

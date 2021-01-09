@@ -50,7 +50,7 @@ namespace HMUI {
     // Offset: 0x1079FA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputFieldView::$BlinkingCaretCoroutine$d__43* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("$BlinkingCaretCoroutine$d__43").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldView::$BlinkingCaretCoroutine$d__43*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

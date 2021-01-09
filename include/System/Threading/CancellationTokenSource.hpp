@@ -185,7 +185,7 @@ namespace System::Threading {
     // Offset: 0x16B32A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CancellationTokenSource* New_ctor(bool set) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("CancellationTokenSource").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::CancellationTokenSource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CancellationTokenSource*, creationType>(set)));
     }
     // public System.Void Cancel()
@@ -245,7 +245,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CancellationTokenSource* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("CancellationTokenSource").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::CancellationTokenSource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CancellationTokenSource*, creationType>()));
     }
     // public System.Void Dispose()

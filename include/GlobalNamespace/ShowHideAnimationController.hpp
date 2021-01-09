@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShowHideAnimationController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ShowHideAnimationController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShowHideAnimationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShowHideAnimationController*, creationType>()));
     }
   }; // ShowHideAnimationController

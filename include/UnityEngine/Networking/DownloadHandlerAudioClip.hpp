@@ -49,7 +49,7 @@ namespace UnityEngine::Networking {
     // Offset: 0x1A0B184
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DownloadHandlerAudioClip* New_ctor(::Il2CppString* url, UnityEngine::AudioType audioType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Networking").WithContext("DownloadHandlerAudioClip").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::DownloadHandlerAudioClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DownloadHandlerAudioClip*, creationType>(url, audioType)));
     }
     // public UnityEngine.AudioClip get_audioClip()

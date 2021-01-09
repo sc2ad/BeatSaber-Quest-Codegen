@@ -34,7 +34,7 @@ namespace UnityEngine::Analytics {
     // Offset: 0x1A09E5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnalyticsSessionInfo::IdentityTokenChanged* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Analytics").WithContext("IdentityTokenChanged").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnalyticsSessionInfo::IdentityTokenChanged*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String token)

@@ -43,7 +43,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullConsoleDriver* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("NullConsoleDriver").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::NullConsoleDriver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullConsoleDriver*, creationType>()));
     }
   }; // System.NullConsoleDriver

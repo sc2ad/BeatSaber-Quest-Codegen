@@ -219,7 +219,7 @@ namespace RootMotion::Demos {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Navigator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::Demos").WithContext("Navigator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Demos::Navigator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Navigator*, creationType>()));
     }
   }; // RootMotion.Demos.Navigator

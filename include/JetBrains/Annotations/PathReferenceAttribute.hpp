@@ -35,7 +35,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE7F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PathReferenceAttribute* New_ctor(::Il2CppString* basePath) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("PathReferenceAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::PathReferenceAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PathReferenceAttribute*, creationType>(basePath)));
     }
     // public System.String get_BasePath()
@@ -51,7 +51,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PathReferenceAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("PathReferenceAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::PathReferenceAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PathReferenceAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.PathReferenceAttribute

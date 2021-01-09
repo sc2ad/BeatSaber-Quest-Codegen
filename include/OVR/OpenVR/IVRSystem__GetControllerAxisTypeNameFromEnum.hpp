@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1910E3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetControllerAxisTypeNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetControllerAxisTypeNameFromEnum").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_GetControllerAxisTypeNameFromEnum::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetControllerAxisTypeNameFromEnum*, creationType>(object, method)));
     }
     // public System.IntPtr Invoke(OVR.OpenVR.EVRControllerAxisType eAxisType)

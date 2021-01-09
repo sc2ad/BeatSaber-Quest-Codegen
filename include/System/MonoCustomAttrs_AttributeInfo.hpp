@@ -42,7 +42,7 @@ namespace System {
     // Offset: 0x1711DF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoCustomAttrs::AttributeInfo* New_ctor(System::AttributeUsageAttribute* usage, int inheritanceLevel) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AttributeInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::MonoCustomAttrs::AttributeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoCustomAttrs::AttributeInfo*, creationType>(usage, inheritanceLevel)));
     }
     // public System.AttributeUsageAttribute get_Usage()

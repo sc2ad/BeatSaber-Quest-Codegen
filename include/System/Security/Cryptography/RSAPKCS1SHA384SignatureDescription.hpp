@@ -26,7 +26,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSAPKCS1SHA384SignatureDescription* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("RSAPKCS1SHA384SignatureDescription").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RSAPKCS1SHA384SignatureDescription::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RSAPKCS1SHA384SignatureDescription*, creationType>()));
     }
   }; // System.Security.Cryptography.RSAPKCS1SHA384SignatureDescription

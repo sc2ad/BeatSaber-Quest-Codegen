@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetEaseLeaderboardModel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NetEaseLeaderboardModel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetEaseLeaderboardModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetEaseLeaderboardModel*, creationType>()));
     }
   }; // NetEaseLeaderboardModel

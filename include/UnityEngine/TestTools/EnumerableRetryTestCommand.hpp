@@ -56,7 +56,7 @@ namespace UnityEngine::TestTools {
     // Offset: 0x1185A00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableRetryTestCommand* New_ctor(NUnit::Framework::RetryAttribute::RetryCommand* commandToReplace) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools").WithContext("EnumerableRetryTestCommand").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::EnumerableRetryTestCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableRetryTestCommand*, creationType>(commandToReplace)));
     }
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)

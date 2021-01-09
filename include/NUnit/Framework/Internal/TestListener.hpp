@@ -58,7 +58,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestListener* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("TestListener").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestListener*, creationType>()));
     }
   }; // NUnit.Framework.Internal.TestListener

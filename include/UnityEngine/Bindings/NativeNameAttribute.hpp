@@ -40,7 +40,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x1A043D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeNameAttribute* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("NativeNameAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeNameAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeNameAttribute*, creationType>(name)));
     }
   }; // UnityEngine.Bindings.NativeNameAttribute

@@ -52,7 +52,7 @@ namespace System::Collections {
     // Offset: 0x152D9AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortedList::KeyList* New_ctor(System::Collections::SortedList* sortedList) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("KeyList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::SortedList::KeyList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortedList::KeyList*, creationType>(sortedList)));
     }
     // public System.Int32 get_Count()

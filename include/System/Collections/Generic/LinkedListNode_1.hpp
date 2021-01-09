@@ -51,27 +51,27 @@ namespace System::Collections::Generic {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinkedListNode_1<T>* New_ctor(System::Collections::Generic::LinkedList_1<T>* list, T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedListNode_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedListNode_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinkedListNode_1<T>*, creationType>(list, value)));
     }
     // public System.Collections.Generic.LinkedListNode`1<T> get_Next()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::LinkedListNode_1<T>* get_Next() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedListNode_1").WithContext("get_Next");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedListNode_1::get_Next");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Next", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method);
     }
     // public T get_Value()
     // Offset: 0xFFFFFFFF
     T get_Value() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedListNode_1").WithContext("get_Value");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedListNode_1::get_Value");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Value", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // System.Void Invalidate()
     // Offset: 0xFFFFFFFF
     void Invalidate() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedListNode_1").WithContext("Invalidate");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedListNode_1::Invalidate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invalidate", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }

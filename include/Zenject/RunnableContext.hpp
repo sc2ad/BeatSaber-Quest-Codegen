@@ -64,7 +64,7 @@ namespace Zenject {
     template<class T>
     static T CreateComponent(UnityEngine::GameObject* gameObject) {
       static_assert(std::is_convertible_v<T, Zenject::RunnableContext*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("RunnableContext").WithContext("CreateComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::RunnableContext::CreateComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("Zenject", "RunnableContext", "CreateComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObject)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, gameObject);
@@ -80,7 +80,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RunnableContext* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("RunnableContext").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::RunnableContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RunnableContext*, creationType>()));
     }
     // static private System.Void .cctor()

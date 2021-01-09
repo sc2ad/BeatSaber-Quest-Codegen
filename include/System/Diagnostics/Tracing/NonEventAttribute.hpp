@@ -27,7 +27,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NonEventAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("NonEventAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::NonEventAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NonEventAttribute*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.NonEventAttribute

@@ -46,7 +46,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryCrossAppDomainMap* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization::Formatters::Binary").WithContext("BinaryCrossAppDomainMap").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryCrossAppDomainMap*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryCrossAppDomainMap

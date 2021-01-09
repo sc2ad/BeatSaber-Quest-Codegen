@@ -125,63 +125,63 @@ namespace UnityEngine {
     // Offset: 0x173B7A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenderTexture* New_ctor(UnityEngine::RenderTextureDescriptor desc) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RenderTexture").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RenderTexture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RenderTexture*, creationType>(desc)));
     }
     // public System.Void .ctor(UnityEngine.RenderTexture textureToCopy)
     // Offset: 0x173BAE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenderTexture* New_ctor(UnityEngine::RenderTexture* textureToCopy) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RenderTexture").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RenderTexture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RenderTexture*, creationType>(textureToCopy)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.DefaultFormat format)
     // Offset: 0x173BCFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenderTexture* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::DefaultFormat format) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RenderTexture").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RenderTexture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RenderTexture*, creationType>(width, height, depth, format)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.GraphicsFormat format)
     // Offset: 0x173BD4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenderTexture* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::GraphicsFormat format) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RenderTexture").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RenderTexture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RenderTexture*, creationType>(width, height, depth, format)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.GraphicsFormat format, System.Int32 mipCount)
     // Offset: 0x173BF08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenderTexture* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, int mipCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RenderTexture").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RenderTexture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RenderTexture*, creationType>(width, height, depth, format, mipCount)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.RenderTextureFormat format, UnityEngine.RenderTextureReadWrite readWrite)
     // Offset: 0x173C26C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenderTexture* New_ctor(int width, int height, int depth, UnityEngine::RenderTextureFormat format, UnityEngine::RenderTextureReadWrite readWrite) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RenderTexture").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RenderTexture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RenderTexture*, creationType>(width, height, depth, format, readWrite)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.RenderTextureFormat format)
     // Offset: 0x173C404
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenderTexture* New_ctor(int width, int height, int depth, UnityEngine::RenderTextureFormat format) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RenderTexture").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RenderTexture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RenderTexture*, creationType>(width, height, depth, format)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth)
     // Offset: 0x173C454
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenderTexture* New_ctor(int width, int height, int depth) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RenderTexture").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RenderTexture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RenderTexture*, creationType>(width, height, depth)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.RenderTextureFormat format, System.Int32 mipCount)
     // Offset: 0x173C4A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenderTexture* New_ctor(int width, int height, int depth, UnityEngine::RenderTextureFormat format, int mipCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RenderTexture").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RenderTexture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RenderTexture*, creationType>(width, height, depth, format, mipCount)));
     }
     // public UnityEngine.RenderTextureDescriptor get_descriptor()
@@ -259,7 +259,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenderTexture* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RenderTexture").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RenderTexture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RenderTexture*, creationType>()));
     }
   }; // UnityEngine.RenderTexture

@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizationKeyAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LocalizationKeyAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalizationKeyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizationKeyAttribute*, creationType>()));
     }
   }; // LocalizationKeyAttribute

@@ -38,7 +38,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x1208B00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeItemHeaderValue* New_ctor(System::Nullable_1<int64_t> from, System::Nullable_1<int64_t> to) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("RangeItemHeaderValue").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::RangeItemHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeItemHeaderValue*, creationType>(from, to)));
     }
     // public System.Nullable`1<System.Int64> get_From()

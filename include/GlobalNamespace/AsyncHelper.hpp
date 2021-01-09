@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T RunSync(System::Func_1<System::Threading::Tasks::Task_1<T>*>* asyncTask) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AsyncHelper").WithContext("RunSync");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncHelper::RunSync");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "AsyncHelper", "RunSync", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(asyncTask)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, asyncTask);

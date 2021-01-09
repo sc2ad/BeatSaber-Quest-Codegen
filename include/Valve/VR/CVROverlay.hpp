@@ -89,7 +89,7 @@ namespace Valve::VR {
     // Offset: 0x1369CEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVROverlay* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("CVROverlay").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVROverlay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVROverlay*, creationType>(pInterface)));
     }
     // public Valve.VR.EVROverlayError FindOverlay(System.String pchOverlayKey, ref System.UInt64 pOverlayHandle)

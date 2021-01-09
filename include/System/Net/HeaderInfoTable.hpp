@@ -66,7 +66,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfoTable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("HeaderInfoTable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HeaderInfoTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderInfoTable*, creationType>()));
     }
   }; // System.Net.HeaderInfoTable

@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x18E948C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_IsMirrorWindowVisible* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_IsMirrorWindowVisible").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRCompositor::_IsMirrorWindowVisible::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_IsMirrorWindowVisible*, creationType>(object, method)));
     }
     // public System.Boolean Invoke()

@@ -72,7 +72,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Offset: 0x149B618
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CbcBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Modes").WithContext("CbcBlockCipher").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CbcBlockCipher*, creationType>(cipher)));
     }
     // public Org.BouncyCastle.Crypto.IBlockCipher GetUnderlyingCipher()

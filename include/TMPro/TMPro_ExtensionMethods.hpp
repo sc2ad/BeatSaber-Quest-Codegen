@@ -53,7 +53,7 @@ namespace TMPro {
     template<class T>
     static int FindInstanceID(System::Collections::Generic::List_1<T>* list, T target) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMPro_ExtensionMethods").WithContext("FindInstanceID");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMPro_ExtensionMethods::FindInstanceID");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("TMPro", "TMPro_ExtensionMethods", "FindInstanceID", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list, target)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list, target);

@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x18E64C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_GetCurrentGridAlpha* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetCurrentGridAlpha").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRCompositor::_GetCurrentGridAlpha::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_GetCurrentGridAlpha*, creationType>(object, method)));
     }
     // public System.Single Invoke()

@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedHoverHint* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LocalizedHoverHint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalizedHoverHint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedHoverHint*, creationType>()));
     }
   }; // LocalizedHoverHint

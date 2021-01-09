@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Security {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncryptionException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Security").WithContext("EncryptionException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::EncryptionException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncryptionException*, creationType>(message)));
     }
   }; // Org.BouncyCastle.Security.EncryptionException

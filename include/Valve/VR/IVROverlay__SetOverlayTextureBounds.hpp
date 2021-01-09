@@ -42,7 +42,7 @@ namespace Valve::VR {
     // Offset: 0x191A230
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_SetOverlayTextureBounds* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_SetOverlayTextureBounds").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVROverlay::_SetOverlayTextureBounds::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_SetOverlayTextureBounds*, creationType>(object, method)));
     }
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref Valve.VR.VRTextureBounds_t pOverlayTextureBounds)

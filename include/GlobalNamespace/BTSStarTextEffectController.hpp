@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSStarTextEffectController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BTSStarTextEffectController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BTSStarTextEffectController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEffectController*, creationType>()));
     }
   }; // BTSStarTextEffectController

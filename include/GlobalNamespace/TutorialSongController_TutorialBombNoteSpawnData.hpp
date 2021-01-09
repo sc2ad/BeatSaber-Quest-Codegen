@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Base method: System.Void TutorialJumpingNoteSpawnData::.ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::TutorialBombNoteSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TutorialBombNoteSpawnData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialSongController::TutorialBombNoteSpawnData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialSongController::TutorialBombNoteSpawnData*, creationType>(signal, firstTimeBeatOffset, beatOffset, lineIndex, noteLineLayer)));
     }
   }; // TutorialSongController/TutorialBombNoteSpawnData

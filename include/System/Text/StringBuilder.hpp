@@ -117,35 +117,35 @@ namespace System::Text {
     // Offset: 0x159A070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringBuilder* New_ctor(int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("StringBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>(capacity)));
     }
     // public System.Void .ctor(System.String value)
     // Offset: 0x15A7EB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringBuilder* New_ctor(::Il2CppString* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("StringBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>(value)));
     }
     // public System.Void .ctor(System.String value, System.Int32 capacity)
     // Offset: 0x15A7E8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringBuilder* New_ctor(::Il2CppString* value, int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("StringBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>(value, capacity)));
     }
     // public System.Void .ctor(System.String value, System.Int32 startIndex, System.Int32 length, System.Int32 capacity)
     // Offset: 0x15A7EC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringBuilder* New_ctor(::Il2CppString* value, int startIndex, int length, int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("StringBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>(value, startIndex, length, capacity)));
     }
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x15A8238
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringBuilder* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("StringBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>(info, context)));
     }
     // public System.Int32 get_Capacity()
@@ -313,7 +313,7 @@ namespace System::Text {
     // Offset: 0x15AB27C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringBuilder* New_ctor(System::Text::StringBuilder* from) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("StringBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>(from)));
     }
     // private System.Void MakeRoom(System.Int32 index, System.Int32 count, out System.Text.StringBuilder chunk, out System.Int32 indexInChunk, System.Boolean doneMoveFollowingChars)
@@ -323,7 +323,7 @@ namespace System::Text {
     // Offset: 0x15AB2E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringBuilder* New_ctor(int size, int maxCapacity, System::Text::StringBuilder* previousBlock) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("StringBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>(size, maxCapacity, previousBlock)));
     }
     // private System.Void Remove(System.Int32 startIndex, System.Int32 count, out System.Text.StringBuilder chunk, out System.Int32 indexInChunk)
@@ -335,7 +335,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringBuilder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("StringBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>()));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

@@ -243,7 +243,7 @@ namespace MasterServer {
     // Offset: 0x1AE087C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserMessageHandler* New_ctor(MasterServer::MessageHandler::IMessageSender* sender, GlobalNamespace::PacketEncryptionLayer* encryptionLayer, GlobalNamespace::MasterServerEndPoint* endPoint, GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("UserMessageHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::UserMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserMessageHandler*, creationType>(sender, encryptionLayer, endPoint, authenticationTokenProvider)));
     }
     // private System.Void UpdateServerHeartbeat()

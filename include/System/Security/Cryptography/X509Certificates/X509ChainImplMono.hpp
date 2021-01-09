@@ -157,7 +157,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x14665EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainImplMono* New_ctor(bool useMachineContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509ChainImplMono").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainImplMono::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainImplMono*, creationType>(useMachineContext)));
     }
     // private System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_Roots()

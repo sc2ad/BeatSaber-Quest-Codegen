@@ -103,28 +103,28 @@ namespace UnityEngine {
     // Offset: 0x16C4640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture2D* New_ctor(int width, int height, UnityEngine::TextureFormat textureFormat, int mipCount, bool linear, System::IntPtr nativeTex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture2D").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture2D*, creationType>(width, height, textureFormat, mipCount, linear, nativeTex)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain, System.Boolean linear)
     // Offset: 0x16C4750
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture2D* New_ctor(int width, int height, UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture2D").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture2D*, creationType>(width, height, textureFormat, mipChain, linear)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain)
     // Offset: 0x16C47E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture2D* New_ctor(int width, int height, UnityEngine::TextureFormat textureFormat, bool mipChain) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture2D").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture2D*, creationType>(width, height, textureFormat, mipChain)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height)
     // Offset: 0x16C4874
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture2D* New_ctor(int width, int height) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture2D").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture2D*, creationType>(width, height)));
     }
     // static public UnityEngine.Texture2D CreateExternalTexture(System.Int32 width, System.Int32 height, UnityEngine.TextureFormat format, System.Boolean mipChain, System.Boolean linear, System.IntPtr nativeTex)
@@ -144,7 +144,7 @@ namespace UnityEngine {
     template<class T>
     Unity::Collections::NativeArray_1<T> GetRawTextureData() {
       static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture2D").WithContext("GetRawTextureData");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture2D::GetRawTextureData");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetRawTextureData", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Unity::Collections::NativeArray_1<T>, false>(this, ___internal__method);

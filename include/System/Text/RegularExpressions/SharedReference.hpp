@@ -40,7 +40,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SharedReference* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text::RegularExpressions").WithContext("SharedReference").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::SharedReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SharedReference*, creationType>()));
     }
   }; // System.Text.RegularExpressions.SharedReference

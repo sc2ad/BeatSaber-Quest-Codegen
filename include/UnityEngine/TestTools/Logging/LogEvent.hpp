@@ -82,7 +82,7 @@ namespace UnityEngine::TestTools::Logging {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LogEvent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::Logging").WithContext("LogEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Logging::LogEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LogEvent*, creationType>()));
     }
   }; // UnityEngine.TestTools.Logging.LogEvent

@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x104924C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaKeyParameters* New_ctor(bool isPrivate, Org::BouncyCastle::Math::BigInteger* modulus, Org::BouncyCastle::Math::BigInteger* exponent) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("RsaKeyParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaKeyParameters*, creationType>(isPrivate, modulus, exponent)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_Modulus()

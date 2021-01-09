@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockBeatmapProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MockBeatmapProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockBeatmapProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockBeatmapProvider*, creationType>()));
     }
   }; // MockBeatmapProvider

@@ -85,7 +85,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x1122458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeAnalysis* New_ctor(System::Type* dataType, System::Diagnostics::Tracing::EventDataAttribute* eventAttrib, System::Collections::Generic::List_1<System::Type*>* recursionCheck) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("TypeAnalysis").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::TypeAnalysis::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeAnalysis*, creationType>(dataType, eventAttrib, recursionCheck)));
     }
   }; // System.Diagnostics.Tracing.TypeAnalysis

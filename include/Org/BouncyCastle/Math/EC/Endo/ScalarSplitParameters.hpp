@@ -73,7 +73,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Offset: 0x193DBD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScalarSplitParameters* New_ctor(::Array<Org::BouncyCastle::Math::BigInteger*>* v1, ::Array<Org::BouncyCastle::Math::BigInteger*>* v2, Org::BouncyCastle::Math::BigInteger* g1, Org::BouncyCastle::Math::BigInteger* g2, int bits) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Endo").WithContext("ScalarSplitParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScalarSplitParameters*, creationType>(v1, v2, g1, g2, bits)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_V1A()

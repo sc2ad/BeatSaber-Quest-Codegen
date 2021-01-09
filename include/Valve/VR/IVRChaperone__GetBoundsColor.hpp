@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x136EE4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRChaperone::_GetBoundsColor* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetBoundsColor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRChaperone::_GetBoundsColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRChaperone::_GetBoundsColor*, creationType>(object, method)));
     }
     // public System.Void Invoke(ref Valve.VR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, ref Valve.VR.HmdColor_t pOutputCameraColor)

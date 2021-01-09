@@ -63,42 +63,42 @@ namespace System::Net {
     // Offset: 0x121DC0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor(::Il2CppString* message, System::Net::WebExceptionStatus status) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message, status)));
     }
     // System.Void .ctor(System.String message, System.Net.WebExceptionStatus status, System.Net.WebExceptionInternalStatus internalStatus, System.Exception innerException)
     // Offset: 0x1223188
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor(::Il2CppString* message, System::Net::WebExceptionStatus status, System::Net::WebExceptionInternalStatus internalStatus, System::Exception* innerException) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message, status, internalStatus, innerException)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException, System.Net.WebExceptionStatus status, System.Net.WebResponse response)
     // Offset: 0x121C8C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor(::Il2CppString* message, System::Exception* innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse* response) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message, innerException, status, response)));
     }
     // System.Void .ctor(System.String message, System.String data, System.Exception innerException, System.Net.WebExceptionStatus status, System.Net.WebResponse response)
     // Offset: 0x12239EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor(::Il2CppString* message, ::Il2CppString* data, System::Exception* innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse* response) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message, data, innerException, status, response)));
     }
     // System.Void .ctor(System.String message, System.Exception innerException, System.Net.WebExceptionStatus status, System.Net.WebResponse response, System.Net.WebExceptionInternalStatus internalStatus)
     // Offset: 0x12239D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor(::Il2CppString* message, System::Exception* innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse* response, System::Net::WebExceptionInternalStatus internalStatus) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message, innerException, status, response, internalStatus)));
     }
     // System.Void .ctor(System.String message, System.String data, System.Exception innerException, System.Net.WebExceptionStatus status, System.Net.WebResponse response, System.Net.WebExceptionInternalStatus internalStatus)
     // Offset: 0x1223ACC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor(::Il2CppString* message, ::Il2CppString* data, System::Exception* innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse* response, System::Net::WebExceptionInternalStatus internalStatus) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message, data, innerException, status, response, internalStatus)));
     }
     // public System.Net.WebExceptionStatus get_Status()
@@ -113,7 +113,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -124,7 +124,7 @@ namespace System::Net {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
@@ -135,7 +135,7 @@ namespace System::Net {
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor(::Il2CppString* message, System::Exception* innerException) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
@@ -146,7 +146,7 @@ namespace System::Net {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(serializationInfo, streamingContext)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)

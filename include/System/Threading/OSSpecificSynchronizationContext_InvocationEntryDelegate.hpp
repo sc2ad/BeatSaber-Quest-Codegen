@@ -34,7 +34,7 @@ namespace System::Threading {
     // Offset: 0x1D085E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OSSpecificSynchronizationContext::InvocationEntryDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("InvocationEntryDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OSSpecificSynchronizationContext::InvocationEntryDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.IntPtr arg)

@@ -64,7 +64,7 @@ namespace Zenject {
     // Offset: 0x1294EEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyGameObjectProvider* New_ctor(Zenject::DiContainer* container, Zenject::GameObjectCreationParameters* gameObjectBindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("EmptyGameObjectProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::EmptyGameObjectProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyGameObjectProvider*, creationType>(container, gameObjectBindInfo)));
     }
     // public System.Boolean get_IsCached()

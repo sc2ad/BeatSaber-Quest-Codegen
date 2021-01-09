@@ -380,42 +380,42 @@ namespace System::Globalization {
     // Offset: 0x1616EF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CultureInfo* New_ctor(int culture) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("CultureInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CultureInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureInfo*, creationType>(culture)));
     }
     // public System.Void .ctor(System.Int32 culture, System.Boolean useUserOverride)
     // Offset: 0x16185E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CultureInfo* New_ctor(int culture, bool useUserOverride) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("CultureInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CultureInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureInfo*, creationType>(culture, useUserOverride)));
     }
     // private System.Void .ctor(System.Int32 culture, System.Boolean useUserOverride, System.Boolean read_only)
     // Offset: 0x16185EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CultureInfo* New_ctor(int culture, bool useUserOverride, bool read_only) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("CultureInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CultureInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureInfo*, creationType>(culture, useUserOverride, read_only)));
     }
     // public System.Void .ctor(System.String name)
     // Offset: 0x1616EE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CultureInfo* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("CultureInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CultureInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureInfo*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.Boolean useUserOverride)
     // Offset: 0x1618888
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CultureInfo* New_ctor(::Il2CppString* name, bool useUserOverride) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("CultureInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CultureInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureInfo*, creationType>(name, useUserOverride)));
     }
     // private System.Void .ctor(System.String name, System.Boolean useUserOverride, System.Boolean read_only)
     // Offset: 0x1618894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CultureInfo* New_ctor(::Il2CppString* name, bool useUserOverride, bool read_only) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("CultureInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CultureInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureInfo*, creationType>(name, useUserOverride, read_only)));
     }
     // static private System.Void insert_into_shared_tables(System.Globalization.CultureInfo c)
@@ -506,7 +506,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CultureInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("CultureInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CultureInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureInfo*, creationType>()));
     }
   }; // System.Globalization.CultureInfo

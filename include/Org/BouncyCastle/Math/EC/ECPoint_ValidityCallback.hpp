@@ -54,7 +54,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0x193C46C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPoint::ValidityCallback* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* outer, bool decompressed, bool checkOrder) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC").WithContext("ValidityCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPoint::ValidityCallback*, creationType>(outer, decompressed, checkOrder)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)

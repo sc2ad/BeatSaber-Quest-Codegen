@@ -25,7 +25,7 @@ namespace Microsoft::Win32::SafeHandles {
     // Base method: System.Void SafeHandle::.ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeRegistryHandle* New_ctor(System::IntPtr preexistingHandle, bool ownsHandle) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Microsoft::Win32::SafeHandles").WithContext("SafeRegistryHandle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::SafeHandles::SafeRegistryHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeRegistryHandle*, creationType>(preexistingHandle, ownsHandle)));
     }
     // protected override System.Boolean ReleaseHandle()

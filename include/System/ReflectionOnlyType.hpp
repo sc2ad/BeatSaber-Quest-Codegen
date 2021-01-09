@@ -35,7 +35,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionOnlyType* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ReflectionOnlyType").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ReflectionOnlyType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionOnlyType*, creationType>()));
     }
     // public override System.RuntimeTypeHandle get_TypeHandle()

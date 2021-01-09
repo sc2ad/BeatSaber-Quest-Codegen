@@ -62,7 +62,7 @@ namespace RootMotion {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hierarchy* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion").WithContext("Hierarchy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Hierarchy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hierarchy*, creationType>()));
     }
   }; // RootMotion.Hierarchy

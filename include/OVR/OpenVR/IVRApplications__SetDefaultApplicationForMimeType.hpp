@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11FABB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRApplications::_SetDefaultApplicationForMimeType* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_SetDefaultApplicationForMimeType").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRApplications::_SetDefaultApplicationForMimeType*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVRApplicationError Invoke(System.String pchAppKey, System.String pchMimeType)

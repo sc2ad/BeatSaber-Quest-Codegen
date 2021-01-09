@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Offset: 0xF74174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerMockSettings::$get_mockServers$d__21* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$get_mockServers$d__21").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerMockSettings::$get_mockServers$d__21::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerMockSettings::$get_mockServers$d__21*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

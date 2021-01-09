@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x18ECF3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRExtendedDisplay::_GetWindowBounds* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetWindowBounds").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRExtendedDisplay::_GetWindowBounds::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRExtendedDisplay::_GetWindowBounds*, creationType>(object, method)));
     }
     // public System.Void Invoke(ref System.Int32 pnX, ref System.Int32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)

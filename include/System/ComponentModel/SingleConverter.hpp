@@ -27,7 +27,7 @@ namespace System::ComponentModel {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SingleConverter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("SingleConverter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::SingleConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SingleConverter*, creationType>()));
     }
   }; // System.ComponentModel.SingleConverter

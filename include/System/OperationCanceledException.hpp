@@ -49,14 +49,14 @@ namespace System {
     // Offset: 0x171B2CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OperationCanceledException* New_ctor(System::Threading::CancellationToken token) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("OperationCanceledException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::OperationCanceledException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OperationCanceledException*, creationType>(token)));
     }
     // public System.Void .ctor(System.String message, System.Threading.CancellationToken token)
     // Offset: 0x171B2FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OperationCanceledException* New_ctor(::Il2CppString* message, System::Threading::CancellationToken token) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("OperationCanceledException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::OperationCanceledException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OperationCanceledException*, creationType>(message, token)));
     }
     // public System.Void .ctor()
@@ -67,7 +67,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OperationCanceledException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("OperationCanceledException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::OperationCanceledException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OperationCanceledException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -77,7 +77,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OperationCanceledException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("OperationCanceledException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::OperationCanceledException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OperationCanceledException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -87,7 +87,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OperationCanceledException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("OperationCanceledException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::OperationCanceledException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OperationCanceledException*, creationType>(info, context)));
     }
   }; // System.OperationCanceledException

@@ -49,7 +49,7 @@ namespace Mono::Net::Security {
     // Offset: 0x126C1BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertValidationCallbackWrapper* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Net::Security").WithContext("ServerCertValidationCallbackWrapper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::ServerCertValidationCallbackWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertValidationCallbackWrapper*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.Net.ServerCertValidationCallback callback, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, Mono.Security.Interface.MonoSslPolicyErrors sslPolicyErrors)

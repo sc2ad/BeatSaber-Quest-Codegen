@@ -169,7 +169,7 @@ namespace UnityEngine::TextCore::LowLevel {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FontEngine* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TextCore::LowLevel").WithContext("FontEngine").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TextCore::LowLevel::FontEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FontEngine*, creationType>()));
     }
   }; // UnityEngine.TextCore.LowLevel.FontEngine

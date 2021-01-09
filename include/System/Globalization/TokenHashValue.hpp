@@ -41,7 +41,7 @@ namespace System::Globalization {
     // Offset: 0x142CA44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TokenHashValue* New_ctor(::Il2CppString* tokenString, System::TokenType tokenType, int tokenValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("TokenHashValue").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::TokenHashValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TokenHashValue*, creationType>(tokenString, tokenType, tokenValue)));
     }
   }; // System.Globalization.TokenHashValue

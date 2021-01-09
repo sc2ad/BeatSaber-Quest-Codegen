@@ -179,7 +179,7 @@ namespace RootMotion::FinalIK {
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static InteractionObject::WeightCurve* New_ctor() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("WeightCurve").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionObject::WeightCurve::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::WeightCurve*, creationType>()));
       }
     }; // RootMotion.FinalIK.InteractionObject/WeightCurve
@@ -341,7 +341,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("InteractionObject").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionObject

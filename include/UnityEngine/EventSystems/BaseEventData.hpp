@@ -47,7 +47,7 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x114A444
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseEventData* New_ctor(UnityEngine::EventSystems::EventSystem* eventSystem) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("BaseEventData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::BaseEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseEventData*, creationType>(eventSystem)));
     }
     // public UnityEngine.EventSystems.BaseInputModule get_currentInputModule()

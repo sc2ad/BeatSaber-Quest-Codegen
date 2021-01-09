@@ -39,7 +39,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1048D20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KdfParameters* New_ctor(::Array<uint8_t>* shared, ::Array<uint8_t>* iv) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("KdfParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::KdfParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KdfParameters*, creationType>(shared, iv)));
     }
     // public System.Byte[] GetSharedSecret()

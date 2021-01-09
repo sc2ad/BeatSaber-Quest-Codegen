@@ -37,7 +37,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackedReference* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("TrackedReference").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TrackedReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackedReference*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object o)

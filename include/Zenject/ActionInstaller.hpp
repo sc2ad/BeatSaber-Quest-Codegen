@@ -43,7 +43,7 @@ namespace Zenject {
     // Offset: 0x10E9894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActionInstaller* New_ctor(System::Action_1<Zenject::DiContainer*>* installMethod) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ActionInstaller").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ActionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActionInstaller*, creationType>(installMethod)));
     }
     // public override System.Void InstallBindings()

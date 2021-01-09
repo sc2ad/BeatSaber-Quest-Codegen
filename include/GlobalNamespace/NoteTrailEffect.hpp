@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteTrailEffect* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NoteTrailEffect").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteTrailEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteTrailEffect*, creationType>()));
     }
   }; // NoteTrailEffect

@@ -106,7 +106,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::ContingentProperties* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("ContingentProperties").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::ContingentProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::ContingentProperties*, creationType>()));
     }
   }; // System.Threading.Tasks.Task/ContingentProperties

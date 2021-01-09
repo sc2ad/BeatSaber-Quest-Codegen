@@ -53,7 +53,7 @@ namespace UnityEngine::Events {
     // Offset: 0x16866C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvokableCall* New_ctor(UnityEngine::Events::UnityAction* action) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("InvokableCall").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::InvokableCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvokableCall*, creationType>(action)));
     }
     // public System.Void Invoke()
@@ -65,7 +65,7 @@ namespace UnityEngine::Events {
     // Base method: System.Void BaseInvokableCall::.ctor(System.Object target, System.Reflection.MethodInfo theFunction)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvokableCall* New_ctor(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("InvokableCall").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::InvokableCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvokableCall*, creationType>(target, theFunction)));
     }
     // public override System.Void Invoke(System.Object[] args)

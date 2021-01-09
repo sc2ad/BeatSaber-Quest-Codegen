@@ -33,7 +33,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12CB498
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventProvider::MonoPInvokeCallbackAttribute* New_ctor(System::Type* t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("MonoPInvokeCallbackAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventProvider::MonoPInvokeCallbackAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventProvider::MonoPInvokeCallbackAttribute*, creationType>(t)));
     }
   }; // System.Diagnostics.Tracing.EventProvider/MonoPInvokeCallbackAttribute

@@ -137,7 +137,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C3060
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActivityFilter* New_ctor(System::Diagnostics::Tracing::EventSource* source, int perEventSourceSessionId, int eventId, int samplingFreq, System::Diagnostics::Tracing::ActivityFilter* existingFilter) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("ActivityFilter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ActivityFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActivityFilter*, creationType>(source, perEventSourceSessionId, eventId, samplingFreq, existingFilter)));
     }
     // static private System.Void EnsureActivityCleanupDelegate(System.Diagnostics.Tracing.ActivityFilter filterList)

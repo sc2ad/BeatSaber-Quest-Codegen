@@ -38,7 +38,7 @@ namespace System::Security {
     // Offset: 0x1282FCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityDocument* New_ctor(int numData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security").WithContext("SecurityDocument").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityDocument::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityDocument*, creationType>(numData)));
     }
     // public System.Void GuaranteeSize(System.Int32 size)

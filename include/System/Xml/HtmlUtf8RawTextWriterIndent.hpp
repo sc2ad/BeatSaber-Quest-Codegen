@@ -69,7 +69,7 @@ namespace System::Xml {
     // Base method: System.Void XmlUtf8RawTextWriter::.ctor(System.IO.Stream stream, System.Xml.XmlWriterSettings settings)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HtmlUtf8RawTextWriterIndent* New_ctor(System::IO::Stream* stream, System::Xml::XmlWriterSettings* settings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("HtmlUtf8RawTextWriterIndent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::HtmlUtf8RawTextWriterIndent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HtmlUtf8RawTextWriterIndent*, creationType>(stream, settings)));
     }
     // public override System.Void WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)

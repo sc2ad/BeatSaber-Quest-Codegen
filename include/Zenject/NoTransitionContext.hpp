@@ -58,7 +58,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoTransitionContext* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("NoTransitionContext").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::NoTransitionContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionContext*, creationType>()));
     }
   }; // Zenject.NoTransitionContext

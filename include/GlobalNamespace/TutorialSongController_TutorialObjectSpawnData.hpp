@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Offset: 0xFF3EA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::TutorialObjectSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TutorialObjectSpawnData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialSongController::TutorialObjectSpawnData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialSongController::TutorialObjectSpawnData*, creationType>(signal, firstTimeBeatOffset, beatOffset, lineIndex)));
     }
   }; // TutorialSongController/TutorialObjectSpawnData

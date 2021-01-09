@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1901E2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_ShowDashboard* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_ShowDashboard").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVROverlay::_ShowDashboard::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_ShowDashboard*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String pchOverlayToShow)

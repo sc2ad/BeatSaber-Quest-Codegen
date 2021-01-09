@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleTextTableCell* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SimpleTextTableCell").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SimpleTextTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleTextTableCell*, creationType>()));
     }
   }; // SimpleTextTableCell

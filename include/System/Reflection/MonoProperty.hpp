@@ -107,7 +107,7 @@ namespace System::Reflection {
     // Offset: 0xFFFFFFFF
     template<class T, class R>
     static ::Il2CppObject* GetterAdapterFrame(System::Reflection::MonoProperty::Getter_2<T, R>* getter, ::Il2CppObject* obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("MonoProperty").WithContext("GetterAdapterFrame");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::GetterAdapterFrame");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Reflection", "MonoProperty", "GetterAdapterFrame", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()}, ::il2cpp_utils::ExtractTypes(getter, obj))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()})));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, getter, obj);
@@ -116,7 +116,7 @@ namespace System::Reflection {
     // Offset: 0xFFFFFFFF
     template<class R>
     static ::Il2CppObject* StaticGetterAdapterFrame(System::Reflection::MonoProperty::StaticGetter_1<R>* getter, ::Il2CppObject* obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("MonoProperty").WithContext("StaticGetterAdapterFrame");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::StaticGetterAdapterFrame");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Reflection", "MonoProperty", "StaticGetterAdapterFrame", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()}, ::il2cpp_utils::ExtractTypes(getter, obj)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()}));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, getter, obj);
@@ -243,7 +243,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoProperty* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("MonoProperty").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoProperty*, creationType>()));
     }
   }; // System.Reflection.MonoProperty

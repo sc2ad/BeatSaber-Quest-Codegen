@@ -167,14 +167,14 @@ namespace System::Threading {
     // Offset: 0x1D1A27C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Thread* New_ctor(System::Threading::ThreadStart* start) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("Thread").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Thread::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Thread*, creationType>(start)));
     }
     // public System.Void .ctor(System.Threading.ParameterizedThreadStart start)
     // Offset: 0x1D19DEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Thread* New_ctor(System::Threading::ParameterizedThreadStart* start) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("Thread").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Thread::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Thread*, creationType>(start)));
     }
     // public System.Void Start()

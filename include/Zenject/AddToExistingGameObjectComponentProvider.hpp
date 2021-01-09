@@ -62,7 +62,7 @@ namespace Zenject {
     // Offset: 0x10EA070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddToExistingGameObjectComponentProvider* New_ctor(UnityEngine::GameObject* gameObject, Zenject::DiContainer* container, System::Type* componentType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArguments, ::Il2CppObject* concreteIdentifier, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("AddToExistingGameObjectComponentProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::AddToExistingGameObjectComponentProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddToExistingGameObjectComponentProvider*, creationType>(gameObject, container, componentType, extraArguments, concreteIdentifier, instantiateCallback)));
     }
     // protected override System.Boolean get_ShouldToggleActive()

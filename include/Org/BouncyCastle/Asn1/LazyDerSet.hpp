@@ -45,7 +45,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x13F5670
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LazyDerSet* New_ctor(::Array<uint8_t>* encoded) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("LazyDerSet").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::LazyDerSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LazyDerSet*, creationType>(encoded)));
     }
     // private System.Void Parse()

@@ -37,7 +37,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1164410
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClassInterfaceAttribute* New_ctor(System::Runtime::InteropServices::ClassInterfaceType classInterfaceType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("ClassInterfaceAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::ClassInterfaceAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClassInterfaceAttribute*, creationType>(classInterfaceType)));
     }
   }; // System.Runtime.InteropServices.ClassInterfaceAttribute

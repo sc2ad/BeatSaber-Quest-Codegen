@@ -194,7 +194,7 @@ namespace Mono::Xml {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmallXmlParser* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Xml").WithContext("SmallXmlParser").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Xml::SmallXmlParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SmallXmlParser*, creationType>()));
     }
   }; // Mono.Xml.SmallXmlParser

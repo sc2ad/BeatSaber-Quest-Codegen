@@ -52,7 +52,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x15E3300
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RagdollUtility::Child* New_ctor(UnityEngine::Transform* transform) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("Child").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RagdollUtility::Child::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RagdollUtility::Child*, creationType>(transform)));
     }
     // public System.Void FixTransform(System.Single weight)

@@ -47,7 +47,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Offset: 0x18BD41C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnmodifiableDictionaryProxy* New_ctor(System::Collections::IDictionary* d) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Utilities::Collections").WithContext("UnmodifiableDictionaryProxy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnmodifiableDictionaryProxy*, creationType>(d)));
     }
     // public override System.Boolean Contains(System.Object k)

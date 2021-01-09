@@ -54,7 +54,7 @@ namespace LiteNetLib {
     // Offset: 0x1DC6C8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketReader* New_ctor(LiteNetLib::NetManager* manager, LiteNetLib::NetEvent* evt) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib").WithContext("NetPacketReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetPacketReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketReader*, creationType>(manager, evt)));
     }
     // System.Void SetSource(LiteNetLib.NetPacket packet)

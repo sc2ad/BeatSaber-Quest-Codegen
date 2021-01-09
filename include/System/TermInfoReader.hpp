@@ -62,14 +62,14 @@ namespace System {
     // Offset: 0x1592274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoReader* New_ctor(::Il2CppString* term, ::Il2CppString* filename) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TermInfoReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoReader*, creationType>(term, filename)));
     }
     // public System.Void .ctor(System.String term, System.Byte[] buffer)
     // Offset: 0x15924D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoReader* New_ctor(::Il2CppString* term, ::Array<uint8_t>* buffer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TermInfoReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoReader*, creationType>(term, buffer)));
     }
     // private System.Void ReadHeader(System.Byte[] buffer, ref System.Int32 position)

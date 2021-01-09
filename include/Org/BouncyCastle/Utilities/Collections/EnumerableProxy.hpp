@@ -44,7 +44,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Offset: 0x10E1664
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableProxy* New_ctor(System::Collections::IEnumerable* inner) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Utilities::Collections").WithContext("EnumerableProxy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Collections::EnumerableProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableProxy*, creationType>(inner)));
     }
     // public System.Collections.IEnumerator GetEnumerator()

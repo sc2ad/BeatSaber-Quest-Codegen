@@ -28,7 +28,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadStaticAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ThreadStaticAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ThreadStaticAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadStaticAttribute*, creationType>()));
     }
   }; // System.ThreadStaticAttribute

@@ -45,7 +45,7 @@ namespace System::ComponentModel::Design::Serialization {
     // Offset: 0x1481010
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RootDesignerSerializerAttribute* New_ctor(::Il2CppString* serializerTypeName, ::Il2CppString* baseSerializerTypeName, bool reloadable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel::Design::Serialization").WithContext("RootDesignerSerializerAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RootDesignerSerializerAttribute*, creationType>(serializerTypeName, baseSerializerTypeName, reloadable)));
     }
   }; // System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute

@@ -104,7 +104,7 @@ namespace Mono::Net::Security {
     // Offset: 0x126B8AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoTlsStream* New_ctor(System::Net::HttpWebRequest* request, System::Net::Sockets::NetworkStream* networkStream) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Net::Security").WithContext("MonoTlsStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::MonoTlsStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTlsStream*, creationType>(request, networkStream)));
     }
     // System.IO.Stream CreateStream(System.Byte[] buffer)

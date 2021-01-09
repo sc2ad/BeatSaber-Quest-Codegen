@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Offset: 0x102A440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlphabetScrollInfo::Data* New_ctor(::Il2CppChar character, int cellIdx) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("Data").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AlphabetScrollInfo::Data::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AlphabetScrollInfo::Data*, creationType>(character, cellIdx)));
     }
   }; // AlphabetScrollInfo/Data

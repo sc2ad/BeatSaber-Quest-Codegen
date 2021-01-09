@@ -31,7 +31,7 @@ namespace NUnit::Compatibility {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongLivedMarshalByRefObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Compatibility").WithContext("LongLivedMarshalByRefObject").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Compatibility::LongLivedMarshalByRefObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongLivedMarshalByRefObject*, creationType>()));
     }
   }; // NUnit.Compatibility.LongLivedMarshalByRefObject

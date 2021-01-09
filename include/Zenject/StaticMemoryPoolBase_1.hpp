@@ -34,7 +34,7 @@ namespace Zenject {
     // Base method: System.Void StaticMemoryPoolBaseBase_1::.ctor(System.Action`1<TValue> onDespawnedMethod)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StaticMemoryPoolBase_1<TValue>* New_ctor(System::Action_1<TValue>* onDespawnedMethod) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("StaticMemoryPoolBase_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::StaticMemoryPoolBase_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StaticMemoryPoolBase_1<TValue>*, creationType>(onDespawnedMethod)));
     }
     // protected override TValue Alloc()
@@ -42,7 +42,7 @@ namespace Zenject {
     // Implemented from: Zenject.StaticMemoryPoolBaseBase`1
     // Base method: TValue StaticMemoryPoolBaseBase_1::Alloc()
     TValue Alloc() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("StaticMemoryPoolBase_1").WithContext("Alloc");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::StaticMemoryPoolBase_1::Alloc");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Alloc", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method);
     }

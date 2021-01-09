@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkPlayerEntitlementChecker::CachedTcs* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("CachedTcs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayerEntitlementChecker::CachedTcs*, creationType>()));
     }
   }; // NetworkPlayerEntitlementChecker/CachedTcs

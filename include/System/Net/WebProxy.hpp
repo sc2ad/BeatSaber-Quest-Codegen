@@ -128,7 +128,7 @@ namespace System::Net {
     // Offset: 0x1226178
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebProxy* New_ctor(System::Uri* Address, bool BypassOnLocal, ::Array<::Il2CppString*>* BypassList, System::Net::ICredentials* Credentials) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebProxy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxy*, creationType>(Address, BypassOnLocal, BypassList, Credentials)));
     }
     // public System.Boolean get_UseDefaultCredentials()
@@ -156,7 +156,7 @@ namespace System::Net {
     // Offset: 0x122704C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebProxy* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebProxy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxy*, creationType>(serializationInfo, streamingContext)));
     }
     // protected System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
@@ -172,7 +172,7 @@ namespace System::Net {
     // Offset: 0x12274B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebProxy* New_ctor(bool enableAutoproxy) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebProxy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxy*, creationType>(enableAutoproxy)));
     }
     // System.Void UnsafeUpdateFromRegistry()
@@ -196,7 +196,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebProxy* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebProxy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxy*, creationType>()));
     }
     // public System.Net.ICredentials get_Credentials()

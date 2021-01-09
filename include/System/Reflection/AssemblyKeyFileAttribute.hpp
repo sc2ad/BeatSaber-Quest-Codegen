@@ -35,7 +35,7 @@ namespace System::Reflection {
     // Offset: 0x1720788
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyKeyFileAttribute* New_ctor(::Il2CppString* keyFile) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("AssemblyKeyFileAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyKeyFileAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyKeyFileAttribute*, creationType>(keyFile)));
     }
   }; // System.Reflection.AssemblyKeyFileAttribute

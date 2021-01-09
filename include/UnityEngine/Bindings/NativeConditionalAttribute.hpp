@@ -47,7 +47,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x1A04158
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeConditionalAttribute* New_ctor(::Il2CppString* condition) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("NativeConditionalAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeConditionalAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeConditionalAttribute*, creationType>(condition)));
     }
   }; // UnityEngine.Bindings.NativeConditionalAttribute

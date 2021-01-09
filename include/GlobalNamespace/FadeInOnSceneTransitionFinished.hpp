@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FadeInOnSceneTransitionFinished* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("FadeInOnSceneTransitionFinished").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FadeInOnSceneTransitionFinished::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FadeInOnSceneTransitionFinished*, creationType>()));
     }
   }; // FadeInOnSceneTransitionFinished

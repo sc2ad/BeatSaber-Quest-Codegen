@@ -336,7 +336,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyPlayersDataModel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LobbyPlayersDataModel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LobbyPlayersDataModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyPlayersDataModel*, creationType>()));
     }
   }; // LobbyPlayersDataModel

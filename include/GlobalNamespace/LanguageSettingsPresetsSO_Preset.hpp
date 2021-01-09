@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LanguageSettingsPresetsSO::Preset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("Preset").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LanguageSettingsPresetsSO::Preset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LanguageSettingsPresetsSO::Preset*, creationType>()));
     }
   }; // LanguageSettingsPresetsSO/Preset

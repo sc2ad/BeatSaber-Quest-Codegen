@@ -45,7 +45,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x16965AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DSASignatureDeformatter* New_ctor(System::Security::Cryptography::AsymmetricAlgorithm* key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("DSASignatureDeformatter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::DSASignatureDeformatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DSASignatureDeformatter*, creationType>(key)));
     }
     // public System.Void .ctor()
@@ -55,7 +55,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DSASignatureDeformatter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("DSASignatureDeformatter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::DSASignatureDeformatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DSASignatureDeformatter*, creationType>()));
     }
     // public override System.Void SetKey(System.Security.Cryptography.AsymmetricAlgorithm key)

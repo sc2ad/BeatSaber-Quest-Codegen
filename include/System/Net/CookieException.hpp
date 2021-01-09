@@ -39,7 +39,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("CookieException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieException*, creationType>()));
     }
     // System.Void .ctor(System.String message)
@@ -50,7 +50,7 @@ namespace System::Net {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("CookieException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieException*, creationType>(message)));
     }
     // System.Void .ctor(System.String message, System.Exception inner)
@@ -61,7 +61,7 @@ namespace System::Net {
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieException* New_ctor(::Il2CppString* message, System::Exception* inner) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("CookieException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieException*, creationType>(message, inner)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
@@ -72,7 +72,7 @@ namespace System::Net {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieException* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("CookieException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieException*, creationType>(serializationInfo, streamingContext)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)

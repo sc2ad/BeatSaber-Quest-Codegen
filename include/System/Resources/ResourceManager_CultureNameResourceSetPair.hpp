@@ -44,7 +44,7 @@ namespace System::Resources {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManager::CultureNameResourceSetPair* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("CultureNameResourceSetPair").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceManager::CultureNameResourceSetPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManager::CultureNameResourceSetPair*, creationType>()));
     }
   }; // System.Resources.ResourceManager/CultureNameResourceSetPair

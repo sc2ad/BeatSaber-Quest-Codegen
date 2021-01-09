@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Offset: 0x1110F68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_PlayArea::$UpdateBounds$d__14* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$UpdateBounds$d__14").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_PlayArea::$UpdateBounds$d__14::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_PlayArea::$UpdateBounds$d__14*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

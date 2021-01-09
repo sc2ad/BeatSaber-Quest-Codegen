@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Offset: 0xF7A198
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsTableView::Data* New_ctor(GlobalNamespace::IConnectedPlayer* connectedPlayer, GlobalNamespace::LevelCompletionResults* levelCompletionResults) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("Data").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerResultsTableView::Data::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsTableView::Data*, creationType>(connectedPlayer, levelCompletionResults)));
     }
     // public System.Int32 CompareTo(System.Object obj)

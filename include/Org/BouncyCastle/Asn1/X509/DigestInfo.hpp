@@ -47,7 +47,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x157A548
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestInfo* New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::Array<uint8_t>* digest) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X509").WithContext("DigestInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::DigestInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestInfo*, creationType>(algID, digest)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()

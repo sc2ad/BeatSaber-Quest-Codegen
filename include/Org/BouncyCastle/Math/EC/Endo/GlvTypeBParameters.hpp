@@ -51,7 +51,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Offset: 0x193DAB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GlvTypeBParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* beta, Org::BouncyCastle::Math::BigInteger* lambda, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Endo").WithContext("GlvTypeBParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GlvTypeBParameters*, creationType>(beta, lambda, splitParams)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_Beta()

@@ -44,7 +44,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Int16ArrayTypeInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("Int16ArrayTypeInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::Int16ArrayTypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Int16ArrayTypeInfo*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.Int16ArrayTypeInfo

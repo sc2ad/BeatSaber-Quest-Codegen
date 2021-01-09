@@ -56,7 +56,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Offset: 0x13F255C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueMatchFilter* New_ctor(::Il2CppString* expectedValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Filters").WithContext("ValueMatchFilter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Filters::ValueMatchFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueMatchFilter*, creationType>(expectedValue)));
     }
     // protected System.Boolean Match(System.String input)

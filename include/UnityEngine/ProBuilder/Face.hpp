@@ -180,28 +180,28 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1634420
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Face* New_ctor(System::Collections::Generic::IEnumerable_1<int>* indices) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("Face").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Face::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Face*, creationType>(indices)));
     }
     // System.Void .ctor(System.Int32[] triangles, UnityEngine.Material m, UnityEngine.ProBuilder.AutoUnwrapSettings u, System.Int32 smoothing, System.Int32 texture, System.Int32 element, System.Boolean manualUVs)
     // Offset: 0x16344EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Face* New_ctor(::Array<int>* triangles, UnityEngine::Material* m, UnityEngine::ProBuilder::AutoUnwrapSettings u, int smoothing, int texture, int element, bool manualUVs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("Face").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Face::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Face*, creationType>(triangles, m, u, smoothing, texture, element, manualUVs)));
     }
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Int32> triangles, System.Int32 submeshIndex, UnityEngine.ProBuilder.AutoUnwrapSettings u, System.Int32 smoothing, System.Int32 texture, System.Int32 element, System.Boolean manualUVs)
     // Offset: 0x16345A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Face* New_ctor(System::Collections::Generic::IEnumerable_1<int>* triangles, int submeshIndex, UnityEngine::ProBuilder::AutoUnwrapSettings u, int smoothing, int texture, int element, bool manualUVs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("Face").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Face::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Face*, creationType>(triangles, submeshIndex, u, smoothing, texture, element, manualUVs)));
     }
     // public System.Void .ctor(UnityEngine.ProBuilder.Face other)
     // Offset: 0x1634654
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Face* New_ctor(UnityEngine::ProBuilder::Face* other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("Face").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Face::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Face*, creationType>(other)));
     }
     // public System.Void CopyFrom(UnityEngine.ProBuilder.Face other)
@@ -252,7 +252,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Face* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("Face").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Face::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Face*, creationType>()));
     }
     // public override System.String ToString()

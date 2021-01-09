@@ -27,7 +27,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ItemCanBeNullAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("ItemCanBeNullAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::ItemCanBeNullAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ItemCanBeNullAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.ItemCanBeNullAttribute

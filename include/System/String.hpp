@@ -164,7 +164,7 @@ namespace System {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::Il2CppString* Join(::Il2CppString* separator, System::Collections::Generic::IEnumerable_1<T>* values) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("String").WithContext("Join");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::String::Join");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System", "String", "Join", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(separator, values)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, separator, values);
@@ -291,21 +291,21 @@ namespace System {
     // Offset: 0x128C624
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ::Il2CppString* New_ctor(::Il2CppChar* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("String").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<::Il2CppString*, creationType>(value)));
     }
     // public System.Void .ctor(System.Char* value, System.Int32 startIndex, System.Int32 length)
     // Offset: 0x128C628
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ::Il2CppString* New_ctor(::Il2CppChar* value, int startIndex, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("String").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<::Il2CppString*, creationType>(value, startIndex, length)));
     }
     // public System.Void .ctor(System.SByte* value, System.Int32 startIndex, System.Int32 length, System.Text.Encoding enc)
     // Offset: 0x128C62C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ::Il2CppString* New_ctor(int8_t* value, int startIndex, int length, System::Text::Encoding* enc) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("String").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<::Il2CppString*, creationType>(value, startIndex, length, enc)));
     }
     // static System.String CreateStringFromEncoding(System.Byte* bytes, System.Int32 byteLength, System.Text.Encoding encoding)
@@ -324,14 +324,14 @@ namespace System {
     // Offset: 0x128C894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ::Il2CppString* New_ctor(::Array<::Il2CppChar>* value, int startIndex, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("String").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<::Il2CppString*, creationType>(value, startIndex, length)));
     }
     // public System.Void .ctor(System.Char[] value)
     // Offset: 0x128C898
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ::Il2CppString* New_ctor(::Array<::Il2CppChar>* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("String").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<::Il2CppString*, creationType>(value)));
     }
     // static System.Void wstrcpy(System.Char* dmem, System.Char* smem, System.Int32 charCount)
@@ -356,7 +356,7 @@ namespace System {
     // Offset: 0x128CF4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ::Il2CppString* New_ctor(::Il2CppChar c, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("String").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<::Il2CppString*, creationType>(c, count)));
     }
     // static public System.Int32 Compare(System.String strA, System.String strB)

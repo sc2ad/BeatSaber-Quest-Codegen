@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0xF3DDC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelFailedController::InitData* New_ctor(bool autoRestart) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InitData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelFailedController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelFailedController::InitData*, creationType>(autoRestart)));
     }
   }; // StandardLevelFailedController/InitData

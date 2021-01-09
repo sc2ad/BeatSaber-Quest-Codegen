@@ -49,7 +49,7 @@ namespace Mono::Security::X509 {
     // Offset: 0x19C2250
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ExtensionCollection* New_ctor(Mono::Security::ASN1* asn1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::X509").WithContext("X509ExtensionCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509ExtensionCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ExtensionCollection*, creationType>(asn1)));
     }
     // public System.Int32 IndexOf(System.String oid)
@@ -65,7 +65,7 @@ namespace Mono::Security::X509 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ExtensionCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::X509").WithContext("X509ExtensionCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509ExtensionCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ExtensionCollection*, creationType>()));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()

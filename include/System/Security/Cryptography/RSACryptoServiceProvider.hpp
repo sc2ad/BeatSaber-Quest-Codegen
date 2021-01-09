@@ -106,21 +106,21 @@ namespace System::Security::Cryptography {
     // Offset: 0x169EEC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSACryptoServiceProvider* New_ctor(System::Security::Cryptography::CspParameters* parameters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("RSACryptoServiceProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RSACryptoServiceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RSACryptoServiceProvider*, creationType>(parameters)));
     }
     // public System.Void .ctor(System.Int32 dwKeySize)
     // Offset: 0x169EE84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSACryptoServiceProvider* New_ctor(int dwKeySize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("RSACryptoServiceProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RSACryptoServiceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RSACryptoServiceProvider*, creationType>(dwKeySize)));
     }
     // public System.Void .ctor(System.Int32 dwKeySize, System.Security.Cryptography.CspParameters parameters)
     // Offset: 0x169EECC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSACryptoServiceProvider* New_ctor(int dwKeySize, System::Security::Cryptography::CspParameters* parameters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("RSACryptoServiceProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RSACryptoServiceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RSACryptoServiceProvider*, creationType>(dwKeySize, parameters)));
     }
     // private System.Void Common(System.Int32 dwKeySize, System.Boolean parameters)
@@ -159,7 +159,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSACryptoServiceProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("RSACryptoServiceProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RSACryptoServiceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RSACryptoServiceProvider*, creationType>()));
     }
     // protected override System.Void Finalize()

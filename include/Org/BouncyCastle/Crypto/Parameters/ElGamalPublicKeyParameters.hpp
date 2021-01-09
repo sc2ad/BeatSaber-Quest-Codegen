@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1048474
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElGamalPublicKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* y, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("ElGamalPublicKeyParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElGamalPublicKeyParameters*, creationType>(y, parameters)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_Y()

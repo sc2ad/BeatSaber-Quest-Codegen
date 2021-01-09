@@ -27,7 +27,7 @@ namespace System::Runtime::CompilerServices {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExtensionAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("ExtensionAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ExtensionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExtensionAttribute*, creationType>()));
     }
   }; // System.Runtime.CompilerServices.ExtensionAttribute

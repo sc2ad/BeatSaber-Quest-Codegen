@@ -358,35 +358,35 @@ namespace Zenject {
     // Offset: 0x10F3850
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer* New_ctor(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* parentContainersEnumerable, bool isValidating) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer*, creationType>(parentContainersEnumerable, isValidating)));
     }
     // public System.Void .ctor(System.Boolean isValidating)
     // Offset: 0x10F46F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer* New_ctor(bool isValidating) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer*, creationType>(isValidating)));
     }
     // public System.Void .ctor(Zenject.DiContainer parentContainer, System.Boolean isValidating)
     // Offset: 0x10F48B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer* New_ctor(Zenject::DiContainer* parentContainer, bool isValidating) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer*, creationType>(parentContainer, isValidating)));
     }
     // public System.Void .ctor(Zenject.DiContainer parentContainer)
     // Offset: 0x10F4978
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer* New_ctor(Zenject::DiContainer* parentContainer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer*, creationType>(parentContainer)));
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> parentContainers)
     // Offset: 0x10F4A38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer* New_ctor(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* parentContainers) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer*, creationType>(parentContainers)));
     }
     // public Zenject.ZenjectSettings get_Settings()
@@ -474,7 +474,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T LazyInject(T instance) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("LazyInject");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::LazyInject");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "LazyInject", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(instance)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, instance);
@@ -505,7 +505,7 @@ namespace Zenject {
     template<class TInstaller>
     void Install() {
       static_assert(std::is_convertible_v<TInstaller, Zenject::Installer*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("Install");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::Install");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Install", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
@@ -515,7 +515,7 @@ namespace Zenject {
     template<class TInstaller>
     void Install(::Array<::Il2CppObject*>* extraArgs) {
       static_assert(std::is_convertible_v<TInstaller, Zenject::Installer*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("Install");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::Install");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Install", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}, ::il2cpp_utils::ExtractTypes(extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, extraArgs);
@@ -533,7 +533,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     System::Type* ResolveType() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("ResolveType");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::ResolveType");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ResolveType", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Type*, false>(this, ___internal__method);
@@ -566,7 +566,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     Zenject::DecoratorToChoiceFromBinder_1<TContract>* Decorate() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("Decorate");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::Decorate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Decorate", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::DecoratorToChoiceFromBinder_1<TContract>*, false>(this, ___internal__method);
@@ -587,7 +587,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     System::Collections::Generic::IEnumerable_1<System::Type*>* GetDependencyContracts() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("GetDependencyContracts");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::GetDependencyContracts");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetDependencyContracts", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<System::Type*>*, false>(this, ___internal__method);
@@ -648,7 +648,7 @@ namespace Zenject {
     template<class T>
     T InjectGameObjectForComponent(UnityEngine::GameObject* gameObject) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InjectGameObjectForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InjectGameObjectForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InjectGameObjectForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObject)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, gameObject);
@@ -658,7 +658,7 @@ namespace Zenject {
     template<class T>
     T InjectGameObjectForComponent(UnityEngine::GameObject* gameObject, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InjectGameObjectForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InjectGameObjectForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InjectGameObjectForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObject, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, gameObject, extraArgs);
@@ -679,7 +679,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     TContract Resolve() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("Resolve");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::Resolve");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Resolve", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<TContract, false>(this, ___internal__method);
@@ -691,7 +691,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     TContract ResolveId(::Il2CppObject* identifier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("ResolveId");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::ResolveId");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ResolveId", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes(identifier)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<TContract, false>(this, ___internal__method, identifier);
@@ -703,7 +703,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     TContract TryResolve() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("TryResolve");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::TryResolve");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TryResolve", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<TContract, false>(this, ___internal__method);
@@ -715,7 +715,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     TContract TryResolveId(::Il2CppObject* identifier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("TryResolveId");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::TryResolveId");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TryResolveId", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes(identifier)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<TContract, false>(this, ___internal__method, identifier);
@@ -727,7 +727,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     System::Collections::Generic::List_1<TContract>* ResolveAll() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("ResolveAll");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::ResolveAll");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ResolveAll", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<TContract>*, false>(this, ___internal__method);
@@ -739,7 +739,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     System::Collections::Generic::List_1<TContract>* ResolveIdAll(::Il2CppObject* identifier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("ResolveIdAll");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::ResolveIdAll");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ResolveIdAll", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes(identifier)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<TContract>*, false>(this, ___internal__method, identifier);
@@ -754,7 +754,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     bool Unbind() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("Unbind");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::Unbind");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Unbind", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
@@ -766,7 +766,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     bool UnbindId(::Il2CppObject* identifier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("UnbindId");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::UnbindId");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "UnbindId", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes(identifier)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, identifier);
@@ -778,7 +778,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TConcrete>
     void UnbindInterfacesTo() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("UnbindInterfacesTo");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::UnbindInterfacesTo");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "UnbindInterfacesTo", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
@@ -790,7 +790,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract, class TConcrete>
     bool Unbind() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("Unbind");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::Unbind");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Unbind", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
@@ -802,7 +802,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract, class TConcrete>
     bool UnbindId(::Il2CppObject* identifier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("UnbindId");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::UnbindId");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UnbindId", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}, ::il2cpp_utils::ExtractTypes(identifier))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, identifier);
@@ -814,7 +814,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     bool HasBinding() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("HasBinding");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::HasBinding");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "HasBinding", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
@@ -826,7 +826,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     bool HasBindingId(::Il2CppObject* identifier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("HasBindingId");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::HasBindingId");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "HasBindingId", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes(identifier)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, identifier);
@@ -853,7 +853,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     Zenject::ConcreteBinderGeneric_1<TContract>* Rebind() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("Rebind");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::Rebind");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Rebind", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::ConcreteBinderGeneric_1<TContract>*, false>(this, ___internal__method);
@@ -862,7 +862,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     Zenject::ConcreteBinderGeneric_1<TContract>* RebindId(::Il2CppObject* identifier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("RebindId");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::RebindId");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "RebindId", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes(identifier)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::ConcreteBinderGeneric_1<TContract>*, false>(this, ___internal__method, identifier);
@@ -877,7 +877,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     Zenject::ConcreteIdBinderGeneric_1<TContract>* Bind() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("Bind");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::Bind");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Bind", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::ConcreteIdBinderGeneric_1<TContract>*, false>(this, ___internal__method);
@@ -886,7 +886,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     Zenject::ConcreteIdBinderGeneric_1<TContract>* BindNoFlush() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindNoFlush");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindNoFlush");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BindNoFlush", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::ConcreteIdBinderGeneric_1<TContract>*, false>(this, ___internal__method);
@@ -895,7 +895,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     Zenject::ConcreteIdBinderGeneric_1<TContract>* Bind(Zenject::BindStatement* bindStatement) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("Bind");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::Bind");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Bind", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes(bindStatement)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::ConcreteIdBinderGeneric_1<TContract>*, false>(this, ___internal__method, bindStatement);
@@ -923,7 +923,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     Zenject::FromBinderNonGeneric* BindInterfacesTo() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindInterfacesTo");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindInterfacesTo");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BindInterfacesTo", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderNonGeneric*, false>(this, ___internal__method);
@@ -935,7 +935,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     Zenject::FromBinderNonGeneric* BindInterfacesAndSelfTo() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindInterfacesAndSelfTo");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindInterfacesAndSelfTo");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BindInterfacesAndSelfTo", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderNonGeneric*, false>(this, ___internal__method);
@@ -947,7 +947,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder* BindInstance(TContract instance) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindInstance");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindInstance");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BindInstance", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes(instance)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___internal__method, instance);
@@ -968,7 +968,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_1<TContract>* BindFactoryInternal() {
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
       static_assert(std::is_convertible_v<TFactoryConcrete, TFactoryContract> && std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryConcrete>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryInternal");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryInternal", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_1<TContract>*, false>(this, ___internal__method);
@@ -977,7 +977,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     Zenject::FactoryToChoiceIdBinder_1<TContract>* BindIFactory() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindIFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindIFactory");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BindIFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_1<TContract>*, false>(this, ___internal__method);
@@ -987,7 +987,7 @@ namespace Zenject {
     template<class TContract, class TFactory>
     Zenject::FactoryToChoiceIdBinder_1<TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, Zenject::PlaceholderFactory_1<TContract>*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_1<TContract>*, false>(this, ___internal__method);
@@ -998,7 +998,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_1<TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, Zenject::PlaceholderFactory_1<TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryCustomInterface");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryCustomInterface");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryCustomInterface", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_1<TContract>*, false>(this, ___internal__method);
@@ -1007,7 +1007,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TItemContract>
     Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPool() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindMemoryPool");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindMemoryPool");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BindMemoryPool", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TItemContract>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TItemContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>*, false>(this, ___internal__method);
@@ -1017,7 +1017,7 @@ namespace Zenject {
     template<class TItemContract, class TPool>
     Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPool() {
       static_assert(std::is_base_of_v<Zenject::IMemoryPool, std::remove_pointer_t<TPool>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindMemoryPool");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindMemoryPool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindMemoryPool", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TItemContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPool>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TItemContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPool>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>*, false>(this, ___internal__method);
@@ -1028,7 +1028,7 @@ namespace Zenject {
     Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPoolCustomInterface(bool includeConcreteType) {
       static_assert(std::is_convertible_v<TPoolConcrete, TPoolContract> && std::is_base_of_v<Zenject::IMemoryPool, std::remove_pointer_t<TPoolConcrete>>);
       static_assert(std::is_base_of_v<Zenject::IMemoryPool, std::remove_pointer_t<TPoolContract>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindMemoryPoolCustomInterface");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindMemoryPoolCustomInterface");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindMemoryPoolCustomInterface", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TItemContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPoolConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPoolContract>::get()}, ::il2cpp_utils::ExtractTypes(includeConcreteType))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TItemContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPoolConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPoolContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>*, false>(this, ___internal__method, includeConcreteType);
@@ -1039,7 +1039,7 @@ namespace Zenject {
     Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPoolCustomInterfaceNoFlush(bool includeConcreteType) {
       static_assert(std::is_convertible_v<TPoolConcrete, TPoolContract> && std::is_base_of_v<Zenject::IMemoryPool, std::remove_pointer_t<TPoolConcrete>>);
       static_assert(std::is_base_of_v<Zenject::IMemoryPool, std::remove_pointer_t<TPoolContract>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindMemoryPoolCustomInterfaceNoFlush");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindMemoryPoolCustomInterfaceNoFlush");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindMemoryPoolCustomInterfaceNoFlush", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TItemContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPoolConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPoolContract>::get()}, ::il2cpp_utils::ExtractTypes(includeConcreteType))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TItemContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPoolConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPoolContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>*, false>(this, ___internal__method, includeConcreteType);
@@ -1050,7 +1050,7 @@ namespace Zenject {
     Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPoolCustomInterfaceInternal(bool includeConcreteType, Zenject::BindStatement* statement) {
       static_assert(std::is_convertible_v<TPoolConcrete, TPoolContract> && std::is_base_of_v<Zenject::IMemoryPool, std::remove_pointer_t<TPoolConcrete>>);
       static_assert(std::is_base_of_v<Zenject::IMemoryPool, std::remove_pointer_t<TPoolContract>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindMemoryPoolCustomInterfaceInternal");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindMemoryPoolCustomInterfaceInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindMemoryPoolCustomInterfaceInternal", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TItemContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPoolConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPoolContract>::get()}, ::il2cpp_utils::ExtractTypes(includeConcreteType, statement))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TItemContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPoolConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPoolContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>*, false>(this, ___internal__method, includeConcreteType, statement);
@@ -1061,7 +1061,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* BindFactoryInternal() {
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
       static_assert(std::is_convertible_v<TFactoryConcrete, TFactoryContract> && std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryConcrete>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryInternal");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryInternal", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>*, false>(this, ___internal__method);
@@ -1070,7 +1070,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TContract>
     Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* BindIFactory() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindIFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindIFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindIFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>*, false>(this, ___internal__method);
@@ -1080,7 +1080,7 @@ namespace Zenject {
     template<class TParam1, class TContract, class TFactory>
     Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, Zenject::PlaceholderFactory_2<TParam1, TContract>*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>*, false>(this, ___internal__method);
@@ -1091,7 +1091,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, Zenject::PlaceholderFactory_2<TParam1, TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryCustomInterface");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryCustomInterface");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryCustomInterface", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>*, false>(this, ___internal__method);
@@ -1102,7 +1102,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* BindFactoryInternal() {
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
       static_assert(std::is_convertible_v<TFactoryConcrete, TFactoryContract> && std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryConcrete>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryInternal");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryInternal", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>*, false>(this, ___internal__method);
@@ -1111,7 +1111,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TContract>
     Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* BindIFactory() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindIFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindIFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindIFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>*, false>(this, ___internal__method);
@@ -1121,7 +1121,7 @@ namespace Zenject {
     template<class TParam1, class TParam2, class TContract, class TFactory>
     Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, Zenject::PlaceholderFactory_3<TParam1, TParam2, TContract>*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>*, false>(this, ___internal__method);
@@ -1132,7 +1132,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, Zenject::PlaceholderFactory_3<TParam1, TParam2, TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryCustomInterface");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryCustomInterface");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryCustomInterface", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>*, false>(this, ___internal__method);
@@ -1143,7 +1143,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>* BindFactoryInternal() {
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
       static_assert(std::is_convertible_v<TFactoryConcrete, TFactoryContract> && std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryConcrete>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryInternal");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryInternal", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___internal__method);
@@ -1152,7 +1152,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TContract>
     Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>* BindIFactory() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindIFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindIFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindIFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___internal__method);
@@ -1162,7 +1162,7 @@ namespace Zenject {
     template<class TParam1, class TParam2, class TParam3, class TContract, class TFactory>
     Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, Zenject::PlaceholderFactory_4<TParam1, TParam2, TParam3, TContract>*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___internal__method);
@@ -1173,7 +1173,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, Zenject::PlaceholderFactory_4<TParam1, TParam2, TParam3, TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryCustomInterface");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryCustomInterface");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryCustomInterface", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___internal__method);
@@ -1184,7 +1184,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* BindFactoryInternal() {
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
       static_assert(std::is_convertible_v<TFactoryConcrete, TFactoryContract> && std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryConcrete>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryInternal");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryInternal", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*, false>(this, ___internal__method);
@@ -1193,7 +1193,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TContract>
     Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* BindIFactory() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindIFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindIFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindIFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*, false>(this, ___internal__method);
@@ -1203,7 +1203,7 @@ namespace Zenject {
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TContract, class TFactory>
     Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, Zenject::PlaceholderFactory_5<TParam1, TParam2, TParam3, TParam4, TContract>*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*, false>(this, ___internal__method);
@@ -1214,7 +1214,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, Zenject::PlaceholderFactory_5<TParam1, TParam2, TParam3, TParam4, TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryCustomInterface");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryCustomInterface");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryCustomInterface", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*, false>(this, ___internal__method);
@@ -1225,7 +1225,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* BindFactoryInternal() {
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
       static_assert(std::is_convertible_v<TFactoryConcrete, TFactoryContract> && std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryConcrete>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryInternal");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryInternal", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*, false>(this, ___internal__method);
@@ -1234,7 +1234,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TContract>
     Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* BindIFactory() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindIFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindIFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindIFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*, false>(this, ___internal__method);
@@ -1244,7 +1244,7 @@ namespace Zenject {
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TContract, class TFactory>
     Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, Zenject::PlaceholderFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*, false>(this, ___internal__method);
@@ -1255,7 +1255,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, Zenject::PlaceholderFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryCustomInterface");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryCustomInterface");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryCustomInterface", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*, false>(this, ___internal__method);
@@ -1266,7 +1266,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* BindFactoryInternal() {
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
       static_assert(std::is_convertible_v<TFactoryConcrete, TFactoryContract> && std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryConcrete>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryInternal");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryInternal", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, false>(this, ___internal__method);
@@ -1275,7 +1275,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TContract>
     Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* BindIFactory() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindIFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindIFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindIFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, false>(this, ___internal__method);
@@ -1285,7 +1285,7 @@ namespace Zenject {
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TContract, class TFactory>
     Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, false>(this, ___internal__method);
@@ -1296,7 +1296,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryCustomInterface");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryCustomInterface");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryCustomInterface", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, false>(this, ___internal__method);
@@ -1307,7 +1307,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* BindFactoryInternal() {
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
       static_assert(std::is_convertible_v<TFactoryConcrete, TFactoryContract> && std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryConcrete>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryInternal");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryInternal", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam7>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam8>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam9>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam10>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam7>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam8>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam9>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam10>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*, false>(this, ___internal__method);
@@ -1316,7 +1316,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TParam7, class TParam8, class TParam9, class TParam10, class TContract>
     Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* BindIFactory() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindIFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindIFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindIFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam7>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam8>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam9>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam10>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam7>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam8>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam9>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam10>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*, false>(this, ___internal__method);
@@ -1326,7 +1326,7 @@ namespace Zenject {
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TParam7, class TParam8, class TParam9, class TParam10, class TContract, class TFactory>
     Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, Zenject::PlaceholderFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactory");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam7>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam8>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam9>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam10>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam7>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam8>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam9>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam10>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*, false>(this, ___internal__method);
@@ -1337,7 +1337,7 @@ namespace Zenject {
     Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, Zenject::PlaceholderFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
       static_assert(std::is_base_of_v<Zenject::IFactory, std::remove_pointer_t<TFactoryContract>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFactoryCustomInterface");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFactoryCustomInterface");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFactoryCustomInterface", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam7>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam8>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam9>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam10>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()}, ::il2cpp_utils::ExtractTypes())));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam7>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam8>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam9>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam10>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryConcrete>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactoryContract>::get()})));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*, false>(this, ___internal__method);
@@ -1346,7 +1346,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T InstantiateExplicit(System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiateExplicit");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiateExplicit");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateExplicit", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, extraArgs);
@@ -1382,7 +1382,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     void BindExecutionOrder(int order) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindExecutionOrder");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindExecutionOrder");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BindExecutionOrder", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(order)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, order);
@@ -1395,7 +1395,7 @@ namespace Zenject {
     template<class T>
     Zenject::CopyNonLazyBinder* BindTickableExecutionOrder(int order) {
       static_assert(std::is_base_of_v<Zenject::ITickable, std::remove_pointer_t<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindTickableExecutionOrder");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindTickableExecutionOrder");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BindTickableExecutionOrder", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(order)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::CopyNonLazyBinder*, false>(this, ___internal__method, order);
@@ -1408,7 +1408,7 @@ namespace Zenject {
     template<class T>
     Zenject::CopyNonLazyBinder* BindInitializableExecutionOrder(int order) {
       static_assert(std::is_base_of_v<Zenject::IInitializable, std::remove_pointer_t<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindInitializableExecutionOrder");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindInitializableExecutionOrder");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BindInitializableExecutionOrder", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(order)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::CopyNonLazyBinder*, false>(this, ___internal__method, order);
@@ -1421,7 +1421,7 @@ namespace Zenject {
     template<class T>
     Zenject::CopyNonLazyBinder* BindDisposableExecutionOrder(int order) {
       static_assert(std::is_base_of_v<System::IDisposable, std::remove_pointer_t<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindDisposableExecutionOrder");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindDisposableExecutionOrder");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BindDisposableExecutionOrder", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(order)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::CopyNonLazyBinder*, false>(this, ___internal__method, order);
@@ -1431,7 +1431,7 @@ namespace Zenject {
     template<class T>
     Zenject::CopyNonLazyBinder* BindLateDisposableExecutionOrder(int order) {
       static_assert(std::is_base_of_v<Zenject::ILateDisposable, std::remove_pointer_t<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindLateDisposableExecutionOrder");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindLateDisposableExecutionOrder");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BindLateDisposableExecutionOrder", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(order)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::CopyNonLazyBinder*, false>(this, ___internal__method, order);
@@ -1447,7 +1447,7 @@ namespace Zenject {
     template<class T>
     Zenject::CopyNonLazyBinder* BindFixedTickableExecutionOrder(int order) {
       static_assert(std::is_base_of_v<Zenject::IFixedTickable, std::remove_pointer_t<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindFixedTickableExecutionOrder");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindFixedTickableExecutionOrder");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BindFixedTickableExecutionOrder", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(order)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::CopyNonLazyBinder*, false>(this, ___internal__method, order);
@@ -1460,7 +1460,7 @@ namespace Zenject {
     template<class T>
     Zenject::CopyNonLazyBinder* BindLateTickableExecutionOrder(int order) {
       static_assert(std::is_base_of_v<Zenject::ILateTickable, std::remove_pointer_t<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindLateTickableExecutionOrder");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindLateTickableExecutionOrder");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BindLateTickableExecutionOrder", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(order)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::CopyNonLazyBinder*, false>(this, ___internal__method, order);
@@ -1473,7 +1473,7 @@ namespace Zenject {
     template<class T>
     Zenject::CopyNonLazyBinder* BindPoolableExecutionOrder(int order) {
       static_assert(std::is_base_of_v<Zenject::IPoolable, std::remove_pointer_t<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("BindPoolableExecutionOrder");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::BindPoolableExecutionOrder");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BindPoolableExecutionOrder", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(order)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::CopyNonLazyBinder*, false>(this, ___internal__method, order);
@@ -1487,7 +1487,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer*, creationType>()));
     }
     // public UnityEngine.GameObject CreateEmptyGameObject(System.String name)
@@ -1501,7 +1501,7 @@ namespace Zenject {
     // Base method: T IInstantiator::Instantiate()
     template<class T>
     T Instantiate() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("Instantiate");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::Instantiate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Instantiate", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
@@ -1512,7 +1512,7 @@ namespace Zenject {
     // Base method: T IInstantiator::Instantiate(System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
     template<class T>
     T Instantiate(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("Instantiate");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::Instantiate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Instantiate", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, extraArgs);
@@ -1534,7 +1534,7 @@ namespace Zenject {
     template<class TContract>
     TContract InstantiateComponent(UnityEngine::GameObject* gameObject) {
       static_assert(std::is_convertible_v<TContract, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiateComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiateComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes(gameObject)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<TContract, false>(this, ___internal__method, gameObject);
@@ -1546,7 +1546,7 @@ namespace Zenject {
     template<class TContract>
     TContract InstantiateComponent(UnityEngine::GameObject* gameObject, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static_assert(std::is_convertible_v<TContract, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiateComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiateComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes(gameObject, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<TContract, false>(this, ___internal__method, gameObject, extraArgs);
@@ -1568,7 +1568,7 @@ namespace Zenject {
     template<class T>
     T InstantiateComponentOnNewGameObject() {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiateComponentOnNewGameObject");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiateComponentOnNewGameObject");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateComponentOnNewGameObject", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
@@ -1580,7 +1580,7 @@ namespace Zenject {
     template<class T>
     T InstantiateComponentOnNewGameObject(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiateComponentOnNewGameObject");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiateComponentOnNewGameObject");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateComponentOnNewGameObject", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, extraArgs);
@@ -1592,7 +1592,7 @@ namespace Zenject {
     template<class T>
     T InstantiateComponentOnNewGameObject(::Il2CppString* gameObjectName) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiateComponentOnNewGameObject");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiateComponentOnNewGameObject");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateComponentOnNewGameObject", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObjectName)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, gameObjectName);
@@ -1604,7 +1604,7 @@ namespace Zenject {
     template<class T>
     T InstantiateComponentOnNewGameObject(::Il2CppString* gameObjectName, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiateComponentOnNewGameObject");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiateComponentOnNewGameObject");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateComponentOnNewGameObject", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObjectName, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, gameObjectName, extraArgs);
@@ -1645,7 +1645,7 @@ namespace Zenject {
     // Base method: T IInstantiator::InstantiatePrefabForComponent(UnityEngine.Object prefab)
     template<class T>
     T InstantiatePrefabForComponent(UnityEngine::Object* prefab) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiatePrefabForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiatePrefabForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(prefab)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefab);
@@ -1656,7 +1656,7 @@ namespace Zenject {
     // Base method: T IInstantiator::InstantiatePrefabForComponent(UnityEngine.Object prefab, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
     template<class T>
     T InstantiatePrefabForComponent(UnityEngine::Object* prefab, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiatePrefabForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiatePrefabForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(prefab, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefab, extraArgs);
@@ -1667,7 +1667,7 @@ namespace Zenject {
     // Base method: T IInstantiator::InstantiatePrefabForComponent(UnityEngine.Object prefab, UnityEngine.Transform parentTransform)
     template<class T>
     T InstantiatePrefabForComponent(UnityEngine::Object* prefab, UnityEngine::Transform* parentTransform) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiatePrefabForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiatePrefabForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(prefab, parentTransform)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefab, parentTransform);
@@ -1678,7 +1678,7 @@ namespace Zenject {
     // Base method: T IInstantiator::InstantiatePrefabForComponent(UnityEngine.Object prefab, UnityEngine.Transform parentTransform, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
     template<class T>
     T InstantiatePrefabForComponent(UnityEngine::Object* prefab, UnityEngine::Transform* parentTransform, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiatePrefabForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiatePrefabForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(prefab, parentTransform, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefab, parentTransform, extraArgs);
@@ -1689,7 +1689,7 @@ namespace Zenject {
     // Base method: T IInstantiator::InstantiatePrefabForComponent(UnityEngine.Object prefab, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parentTransform)
     template<class T>
     T InstantiatePrefabForComponent(UnityEngine::Object* prefab, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parentTransform) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiatePrefabForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiatePrefabForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(prefab, position, rotation, parentTransform)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefab, position, rotation, parentTransform);
@@ -1700,7 +1700,7 @@ namespace Zenject {
     // Base method: T IInstantiator::InstantiatePrefabForComponent(UnityEngine.Object prefab, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parentTransform, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
     template<class T>
     T InstantiatePrefabForComponent(UnityEngine::Object* prefab, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parentTransform, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiatePrefabForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiatePrefabForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(prefab, position, rotation, parentTransform, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefab, position, rotation, parentTransform, extraArgs);
@@ -1716,7 +1716,7 @@ namespace Zenject {
     // Base method: T IInstantiator::InstantiatePrefabResourceForComponent(System.String resourcePath)
     template<class T>
     T InstantiatePrefabResourceForComponent(::Il2CppString* resourcePath) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiatePrefabResourceForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiatePrefabResourceForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath);
@@ -1727,7 +1727,7 @@ namespace Zenject {
     // Base method: T IInstantiator::InstantiatePrefabResourceForComponent(System.String resourcePath, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
     template<class T>
     T InstantiatePrefabResourceForComponent(::Il2CppString* resourcePath, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiatePrefabResourceForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiatePrefabResourceForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath, extraArgs);
@@ -1738,7 +1738,7 @@ namespace Zenject {
     // Base method: T IInstantiator::InstantiatePrefabResourceForComponent(System.String resourcePath, UnityEngine.Transform parentTransform)
     template<class T>
     T InstantiatePrefabResourceForComponent(::Il2CppString* resourcePath, UnityEngine::Transform* parentTransform) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiatePrefabResourceForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiatePrefabResourceForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath, parentTransform)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath, parentTransform);
@@ -1749,7 +1749,7 @@ namespace Zenject {
     // Base method: T IInstantiator::InstantiatePrefabResourceForComponent(System.String resourcePath, UnityEngine.Transform parentTransform, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
     template<class T>
     T InstantiatePrefabResourceForComponent(::Il2CppString* resourcePath, UnityEngine::Transform* parentTransform, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiatePrefabResourceForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiatePrefabResourceForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath, parentTransform, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath, parentTransform, extraArgs);
@@ -1760,7 +1760,7 @@ namespace Zenject {
     // Base method: T IInstantiator::InstantiatePrefabResourceForComponent(System.String resourcePath, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parentTransform)
     template<class T>
     T InstantiatePrefabResourceForComponent(::Il2CppString* resourcePath, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parentTransform) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiatePrefabResourceForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiatePrefabResourceForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath, position, rotation, parentTransform)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath, position, rotation, parentTransform);
@@ -1771,7 +1771,7 @@ namespace Zenject {
     // Base method: T IInstantiator::InstantiatePrefabResourceForComponent(System.String resourcePath, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parentTransform, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
     template<class T>
     T InstantiatePrefabResourceForComponent(::Il2CppString* resourcePath, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parentTransform, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiatePrefabResourceForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiatePrefabResourceForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath, position, rotation, parentTransform, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath, position, rotation, parentTransform, extraArgs);
@@ -1788,7 +1788,7 @@ namespace Zenject {
     template<class T>
     T InstantiateScriptableObjectResource(::Il2CppString* resourcePath) {
       static_assert(std::is_convertible_v<T, UnityEngine::ScriptableObject*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiateScriptableObjectResource");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiateScriptableObjectResource");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath);
@@ -1800,7 +1800,7 @@ namespace Zenject {
     template<class T>
     T InstantiateScriptableObjectResource(::Il2CppString* resourcePath, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static_assert(std::is_convertible_v<T, UnityEngine::ScriptableObject*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DiContainer").WithContext("InstantiateScriptableObjectResource");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::InstantiateScriptableObjectResource");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath, extraArgs);

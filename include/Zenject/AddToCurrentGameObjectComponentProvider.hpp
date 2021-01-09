@@ -88,7 +88,7 @@ namespace Zenject {
     // Offset: 0x10E995C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddToCurrentGameObjectComponentProvider* New_ctor(Zenject::DiContainer* container, System::Type* componentType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArguments, ::Il2CppObject* concreteIdentifier, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("AddToCurrentGameObjectComponentProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::AddToCurrentGameObjectComponentProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddToCurrentGameObjectComponentProvider*, creationType>(container, componentType, extraArguments, concreteIdentifier, instantiateCallback)));
     }
     // protected Zenject.DiContainer get_Container()

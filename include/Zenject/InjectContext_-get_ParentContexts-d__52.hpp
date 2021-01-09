@@ -76,7 +76,7 @@ namespace Zenject {
     // Offset: 0x12A0950
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InjectContext::$get_ParentContexts$d__52* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$get_ParentContexts$d__52").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectContext::$get_ParentContexts$d__52::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InjectContext::$get_ParentContexts$d__52*, creationType>($$1__state)));
     }
     // private System.Void <>m__Finally1()

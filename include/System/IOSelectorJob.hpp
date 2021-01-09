@@ -64,7 +64,7 @@ namespace System {
     // Offset: 0x1490E58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOSelectorJob* New_ctor(System::IOOperation operation, System::IOAsyncCallback* callback, System::IOAsyncResult* state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("IOSelectorJob").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IOSelectorJob::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOSelectorJob*, creationType>(operation, callback, state)));
     }
     // public System.Void MarkDisposed()

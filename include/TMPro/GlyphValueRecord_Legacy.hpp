@@ -53,7 +53,7 @@ namespace TMPro {
     // Offset: 0xC92A10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GlyphValueRecord_Legacy(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("GlyphValueRecord_Legacy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphValueRecord_Legacy::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(valueRecord)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, valueRecord);
     }

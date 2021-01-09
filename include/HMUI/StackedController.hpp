@@ -72,7 +72,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackedController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("StackedController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::StackedController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackedController*, creationType>()));
     }
   }; // HMUI.StackedController

@@ -39,7 +39,7 @@ namespace UnityEngineInternal::Input {
     // Offset: 0x1A0BDAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeUpdateCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngineInternal::Input").WithContext("NativeUpdateCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngineInternal::Input::NativeUpdateCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeUpdateCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngineInternal.Input.NativeInputUpdateType updateType, UnityEngineInternal.Input.NativeInputEventBuffer* buffer)

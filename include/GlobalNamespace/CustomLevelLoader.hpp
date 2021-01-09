@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomLevelLoader* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("CustomLevelLoader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomLevelLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomLevelLoader*, creationType>()));
     }
   }; // CustomLevelLoader

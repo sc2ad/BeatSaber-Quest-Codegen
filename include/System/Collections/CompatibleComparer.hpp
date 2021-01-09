@@ -48,7 +48,7 @@ namespace System::Collections {
     // Offset: 0x1CB5274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompatibleComparer* New_ctor(System::Collections::IComparer* comparer, System::Collections::IHashCodeProvider* hashCodeProvider) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("CompatibleComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::CompatibleComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompatibleComparer*, creationType>(comparer, hashCodeProvider)));
     }
     // public System.Int32 Compare(System.Object a, System.Object b)

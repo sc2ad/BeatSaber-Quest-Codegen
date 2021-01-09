@@ -27,7 +27,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("InternalException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::InternalException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalException*, creationType>()));
     }
   }; // System.Net.InternalException

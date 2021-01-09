@@ -50,7 +50,7 @@ namespace System::Collections {
     // Offset: 0x1CB262C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayList::ReadOnlyArrayList* New_ctor(System::Collections::ArrayList* l) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("ReadOnlyArrayList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ArrayList::ReadOnlyArrayList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayList::ReadOnlyArrayList*, creationType>(l)));
     }
     // public override System.Int32 get_Count()

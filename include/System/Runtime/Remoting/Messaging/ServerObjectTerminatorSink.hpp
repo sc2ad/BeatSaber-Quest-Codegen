@@ -46,7 +46,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x132EE78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerObjectTerminatorSink* New_ctor(System::Runtime::Remoting::Messaging::IMessageSink* nextSink) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("ServerObjectTerminatorSink").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerObjectTerminatorSink*, creationType>(nextSink)));
     }
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)

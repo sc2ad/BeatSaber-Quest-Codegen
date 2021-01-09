@@ -39,7 +39,7 @@ namespace Zenject {
     // Offset: 0x129FB88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IdBinder* New_ctor(Zenject::BindInfo* bindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IdBinder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IdBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IdBinder*, creationType>(bindInfo)));
     }
     // public System.Void WithId(System.Object identifier)

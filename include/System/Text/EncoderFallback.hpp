@@ -67,7 +67,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderFallback* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("EncoderFallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallback*, creationType>()));
     }
   }; // System.Text.EncoderFallback

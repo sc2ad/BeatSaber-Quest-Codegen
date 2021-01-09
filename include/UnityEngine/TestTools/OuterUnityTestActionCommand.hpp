@@ -65,7 +65,7 @@ namespace UnityEngine::TestTools {
     // Base method: System.Void DelegatingTestCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OuterUnityTestActionCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools").WithContext("OuterUnityTestActionCommand").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::OuterUnityTestActionCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OuterUnityTestActionCommand*, creationType>(innerCommand)));
     }
     // protected override UnityEngine.TestTools.BeforeAfterTestCommandState GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)

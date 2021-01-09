@@ -42,7 +42,7 @@ namespace System::ComponentModel {
     // Offset: 0x1481A98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumConverter* New_ctor(System::Type* type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("EnumConverter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::EnumConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumConverter*, creationType>(type)));
     }
   }; // System.ComponentModel.EnumConverter

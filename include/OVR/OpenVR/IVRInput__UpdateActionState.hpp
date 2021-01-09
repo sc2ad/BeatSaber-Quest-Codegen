@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1867250
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRInput::_UpdateActionState* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_UpdateActionState").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRInput::_UpdateActionState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRInput::_UpdateActionState*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVRInputError Invoke(in OVR.OpenVR.VRActiveActionSet_t[] pSets, System.UInt32 unSizeOfVRSelectedActionSet_t, System.UInt32 unSetCount)

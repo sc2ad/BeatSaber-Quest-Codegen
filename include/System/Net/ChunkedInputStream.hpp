@@ -71,7 +71,7 @@ namespace System::Net {
     // Offset: 0x130BCF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChunkedInputStream* New_ctor(System::Net::HttpListenerContext* context, System::IO::Stream* stream, ::Array<uint8_t>* buffer, int offset, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("ChunkedInputStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ChunkedInputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChunkedInputStream*, creationType>(context, stream, buffer, offset, length)));
     }
     // private System.Void OnRead(System.IAsyncResult base_ares)

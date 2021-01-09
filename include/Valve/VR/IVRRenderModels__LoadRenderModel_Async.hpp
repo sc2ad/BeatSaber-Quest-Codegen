@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x1920A4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRRenderModels::_LoadRenderModel_Async* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_LoadRenderModel_Async").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRRenderModels::_LoadRenderModel_Async::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRRenderModels::_LoadRenderModel_Async*, creationType>(object, method)));
     }
     // public Valve.VR.EVRRenderModelError Invoke(System.String pchRenderModelName, ref System.IntPtr ppRenderModel)

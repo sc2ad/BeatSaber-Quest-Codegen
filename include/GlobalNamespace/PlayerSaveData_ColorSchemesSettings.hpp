@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Offset: 0xF252CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::ColorSchemesSettings* New_ctor(bool overrideDefaultColors, ::Il2CppString* selectedColorSchemeId, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ColorSchemesSettings").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveData::ColorSchemesSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::ColorSchemesSettings*, creationType>(overrideDefaultColors, selectedColorSchemeId, colorSchemes)));
     }
   }; // PlayerSaveData/ColorSchemesSettings

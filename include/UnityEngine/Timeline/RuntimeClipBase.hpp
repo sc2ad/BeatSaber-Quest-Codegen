@@ -42,7 +42,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeClipBase* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("RuntimeClipBase").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::RuntimeClipBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeClipBase*, creationType>()));
     }
   }; // UnityEngine.Timeline.RuntimeClipBase

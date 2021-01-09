@@ -24,14 +24,14 @@ namespace System::Security::Cryptography {
     // Offset: 0x1697C6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMACSHA1* New_ctor(::Array<uint8_t>* key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("HMACSHA1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::HMACSHA1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMACSHA1*, creationType>(key)));
     }
     // public System.Void .ctor(System.Byte[] key, System.Boolean useManagedSha1)
     // Offset: 0x1697C74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMACSHA1* New_ctor(::Array<uint8_t>* key, bool useManagedSha1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("HMACSHA1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::HMACSHA1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMACSHA1*, creationType>(key, useManagedSha1)));
     }
     // public System.Void .ctor()
@@ -43,7 +43,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMACSHA1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("HMACSHA1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::HMACSHA1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMACSHA1*, creationType>()));
     }
   }; // System.Security.Cryptography.HMACSHA1

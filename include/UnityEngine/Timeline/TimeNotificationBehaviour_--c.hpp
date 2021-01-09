@@ -48,7 +48,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeNotificationBehaviour::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimeNotificationBehaviour::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeNotificationBehaviour::$$c*, creationType>()));
     }
   }; // UnityEngine.Timeline.TimeNotificationBehaviour/<>c

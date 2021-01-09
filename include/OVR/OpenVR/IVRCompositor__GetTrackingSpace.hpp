@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x185C604
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_GetTrackingSpace* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetTrackingSpace").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_GetTrackingSpace::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_GetTrackingSpace*, creationType>(object, method)));
     }
     // public OVR.OpenVR.ETrackingUniverseOrigin Invoke()

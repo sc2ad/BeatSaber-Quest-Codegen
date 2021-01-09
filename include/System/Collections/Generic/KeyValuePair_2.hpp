@@ -41,14 +41,14 @@ namespace System::Collections::Generic {
     // public TKey get_Key()
     // Offset: 0xFFFFFFFF
     TKey get_Key() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("KeyValuePair_2").WithContext("get_Key");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::KeyValuePair_2::get_Key");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "get_Key", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TKey, false>(*this, ___internal__method);
     }
     // public TValue get_Value()
     // Offset: 0xFFFFFFFF
     TValue get_Value() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("KeyValuePair_2").WithContext("get_Value");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::KeyValuePair_2::get_Value");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "get_Value", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(*this, ___internal__method);
     }
@@ -57,7 +57,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("KeyValuePair_2").WithContext("ToString");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::KeyValuePair_2::ToString");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "ToString", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(*this, ___internal__method);
     }

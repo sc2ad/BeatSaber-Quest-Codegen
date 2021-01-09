@@ -61,7 +61,7 @@ namespace Zenject {
     // Offset: 0x129EAE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuiRenderableManager* New_ctor(System::Collections::Generic::List_1<Zenject::IGuiRenderable*>* renderables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("GuiRenderableManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::GuiRenderableManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuiRenderableManager*, creationType>(renderables, priorities)));
     }
     // public System.Void OnGui()

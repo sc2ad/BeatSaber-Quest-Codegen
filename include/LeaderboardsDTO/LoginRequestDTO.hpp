@@ -59,7 +59,7 @@ namespace LeaderboardsDTO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LoginRequestDTO* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LeaderboardsDTO").WithContext("LoginRequestDTO").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LeaderboardsDTO::LoginRequestDTO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LoginRequestDTO*, creationType>()));
     }
   }; // LeaderboardsDTO.LoginRequestDTO

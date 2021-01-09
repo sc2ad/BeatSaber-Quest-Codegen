@@ -57,21 +57,21 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Offset: 0x158B5F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* p, bool compressed) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X9").WithContext("X9ECPoint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9ECPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECPoint*, creationType>(p, compressed)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve c, System.Byte[] encoding)
     // Offset: 0x1585A0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* c, ::Array<uint8_t>* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X9").WithContext("X9ECPoint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9ECPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECPoint*, creationType>(c, encoding)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve c, Org.BouncyCastle.Asn1.Asn1OctetString s)
     // Offset: 0x158ADA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* c, Org::BouncyCastle::Asn1::Asn1OctetString* s) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X9").WithContext("X9ECPoint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9ECPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECPoint*, creationType>(c, s)));
     }
     // public Org.BouncyCastle.Math.EC.ECPoint get_Point()

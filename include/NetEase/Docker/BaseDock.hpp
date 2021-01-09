@@ -131,7 +131,7 @@ namespace NetEase::Docker {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseDock* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NetEase::Docker").WithContext("BaseDock").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NetEase::Docker::BaseDock::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseDock*, creationType>()));
     }
   }; // NetEase.Docker.BaseDock

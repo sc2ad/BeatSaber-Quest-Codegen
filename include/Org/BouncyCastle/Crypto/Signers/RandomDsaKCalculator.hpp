@@ -73,7 +73,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomDsaKCalculator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Signers").WithContext("RandomDsaKCalculator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomDsaKCalculator*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Signers.RandomDsaKCalculator

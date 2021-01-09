@@ -96,7 +96,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x1200540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpHeaders* New_ctor(System::Net::Http::Headers::HttpHeaderKind headerKind) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HttpHeaders").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaders::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpHeaders*, creationType>(headerKind)));
     }
     // private System.Boolean AddInternal(System.String name, System.Collections.Generic.IEnumerable`1<System.String> values, System.Net.Http.Headers.HeaderInfo headerInfo, System.Boolean ignoreInvalid)
@@ -124,7 +124,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0xFFFFFFFF
     template<class T>
     T GetValue(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HttpHeaders").WithContext("GetValue");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaders::GetValue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetValue", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(name)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, name);
@@ -133,7 +133,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0xFFFFFFFF
     template<class T>
     System::Net::Http::Headers::HttpHeaderValueCollection_1<T>* GetValues(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HttpHeaders").WithContext("GetValues");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaders::GetValues");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetValues", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(name)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Net::Http::Headers::HttpHeaderValueCollection_1<T>*, false>(this, ___internal__method, name);
@@ -142,7 +142,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0xFFFFFFFF
     template<class T>
     void SetValue(::Il2CppString* name, T value, System::Func_2<::Il2CppObject*, ::Il2CppString*>* toStringConverter) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HttpHeaders").WithContext("SetValue");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaders::SetValue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SetValue", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(name, value, toStringConverter)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, name, value, toStringConverter);
@@ -153,7 +153,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpHeaders* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HttpHeaders").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaders::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpHeaders*, creationType>()));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()

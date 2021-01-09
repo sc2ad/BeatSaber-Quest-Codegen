@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_UpdatePoses* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SteamVR_UpdatePoses").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_UpdatePoses::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_UpdatePoses*, creationType>()));
     }
   }; // SteamVR_UpdatePoses

@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardScoreUploader::ScoresToUploadData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ScoresToUploadData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LeaderboardScoreUploader::ScoresToUploadData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardScoreUploader::ScoresToUploadData*, creationType>()));
     }
   }; // LeaderboardScoreUploader/ScoresToUploadData

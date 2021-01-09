@@ -156,7 +156,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionTarget* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("InteractionTarget").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionTarget::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionTarget*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionTarget

@@ -81,7 +81,7 @@ namespace UnityEngine::UI::CoroutineTween {
       // Offset: 0xFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename TweenRunner_1<T>::$Start$d__2* New_ctor(int $$1__state) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI::CoroutineTween").WithContext("$Start$d__2").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::CoroutineTween::TweenRunner_1::$Start$d__2::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename TweenRunner_1<T>::$Start$d__2*, creationType>($$1__state)));
       }
       // private System.Void System.IDisposable.Dispose()
@@ -89,7 +89,7 @@ namespace UnityEngine::UI::CoroutineTween {
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void System_IDisposable_Dispose() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI::CoroutineTween").WithContext("$Start$d__2").WithContext("System.IDisposable.Dispose");
+        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::CoroutineTween::TweenRunner_1::$Start$d__2::System.IDisposable.Dispose");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
@@ -98,7 +98,7 @@ namespace UnityEngine::UI::CoroutineTween {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI::CoroutineTween").WithContext("$Start$d__2").WithContext("MoveNext");
+        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::CoroutineTween::TweenRunner_1::$Start$d__2::MoveNext");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
       }
@@ -112,7 +112,7 @@ namespace UnityEngine::UI::CoroutineTween {
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator_1::get_Current()
       ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI::CoroutineTween").WithContext("$Start$d__2").WithContext("System.Collections.Generic.IEnumerator<System.Object>.get_Current");
+        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::CoroutineTween::TweenRunner_1::$Start$d__2::System.Collections.Generic.IEnumerator<System.Object>.get_Current");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
         return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
       }
@@ -121,7 +121,7 @@ namespace UnityEngine::UI::CoroutineTween {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI::CoroutineTween").WithContext("$Start$d__2").WithContext("System.Collections.IEnumerator.Reset");
+        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::CoroutineTween::TweenRunner_1::$Start$d__2::System.Collections.IEnumerator.Reset");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
@@ -130,7 +130,7 @@ namespace UnityEngine::UI::CoroutineTween {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI::CoroutineTween").WithContext("$Start$d__2").WithContext("System.Collections.IEnumerator.get_Current");
+        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::CoroutineTween::TweenRunner_1::$Start$d__2::System.Collections.IEnumerator.get_Current");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
       }
@@ -153,28 +153,28 @@ namespace UnityEngine::UI::CoroutineTween {
     // static private System.Collections.IEnumerator Start(T tweenInfo)
     // Offset: 0xFFFFFFFF
     static System::Collections::IEnumerator* Start(T tweenInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI::CoroutineTween").WithContext("TweenRunner_1").WithContext("Start");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::CoroutineTween::TweenRunner_1::Start");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TweenRunner_1<T>*>::get(), "Start", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(tweenInfo))));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, tweenInfo);
     }
     // public System.Void Init(UnityEngine.MonoBehaviour coroutineContainer)
     // Offset: 0xFFFFFFFF
     void Init(UnityEngine::MonoBehaviour* coroutineContainer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI::CoroutineTween").WithContext("TweenRunner_1").WithContext("Init");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::CoroutineTween::TweenRunner_1::Init");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(coroutineContainer)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, coroutineContainer);
     }
     // public System.Void StartTween(T info)
     // Offset: 0xFFFFFFFF
     void StartTween(T info) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI::CoroutineTween").WithContext("TweenRunner_1").WithContext("StartTween");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::CoroutineTween::TweenRunner_1::StartTween");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "StartTween", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(info)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, info);
     }
     // public System.Void StopTween()
     // Offset: 0xFFFFFFFF
     void StopTween() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI::CoroutineTween").WithContext("TweenRunner_1").WithContext("StopTween");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::CoroutineTween::TweenRunner_1::StopTween");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "StopTween", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
@@ -184,7 +184,7 @@ namespace UnityEngine::UI::CoroutineTween {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TweenRunner_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI::CoroutineTween").WithContext("TweenRunner_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::CoroutineTween::TweenRunner_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TweenRunner_1<T>*, creationType>()));
     }
   }; // UnityEngine.UI.CoroutineTween.TweenRunner`1

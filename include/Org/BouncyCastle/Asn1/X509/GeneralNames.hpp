@@ -58,7 +58,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x157BD70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralNames* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X509").WithContext("GeneralNames").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::GeneralNames::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneralNames*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.X509.GeneralName[] GetNames()

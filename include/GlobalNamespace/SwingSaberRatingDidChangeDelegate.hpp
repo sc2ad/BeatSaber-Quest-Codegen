@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Offset: 0x19A7DAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SwingSaberRatingDidChangeDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SwingSaberRatingDidChangeDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SwingSaberRatingDidChangeDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SwingSaberRatingDidChangeDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(ISaberSwingRatingCounter afterCutRating, System.Single rating)

@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Offset: 0xFEE934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrailElementCollection* New_ctor(int capacity, UnityEngine::Vector3 defaultStartPosition, UnityEngine::Vector3 defaultEndPosition, float time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TrailElementCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TrailElementCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrailElementCollection*, creationType>(capacity, defaultStartPosition, defaultEndPosition, time)));
     }
     // public System.Void InitSnapshots(UnityEngine.Vector3 defaultStartPosition, UnityEngine.Vector3 defaultEndPosition, System.Single time)

@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissMissionObjectiveChecker* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MissMissionObjectiveChecker").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissMissionObjectiveChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissMissionObjectiveChecker*, creationType>()));
     }
   }; // MissMissionObjectiveChecker

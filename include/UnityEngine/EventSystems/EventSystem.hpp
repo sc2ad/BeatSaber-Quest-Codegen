@@ -205,7 +205,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventSystem* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("EventSystem").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::EventSystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventSystem*, creationType>()));
     }
     // protected override System.Void OnEnable()

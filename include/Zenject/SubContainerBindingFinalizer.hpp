@@ -79,7 +79,7 @@ namespace Zenject {
     // Offset: 0x1353368
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo, ::Il2CppObject* subIdentifier, bool resolveAll, System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>* creatorFactory) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SubContainerBindingFinalizer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerBindingFinalizer*, creationType>(bindInfo, subIdentifier, resolveAll, creatorFactory)));
     }
     // private System.Void FinalizeBindingConcrete(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes)

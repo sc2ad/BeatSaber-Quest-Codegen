@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11FBCFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRChaperoneSetup::_RevertWorkingCopy* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_RevertWorkingCopy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRChaperoneSetup::_RevertWorkingCopy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRChaperoneSetup::_RevertWorkingCopy*, creationType>(object, method)));
     }
     // public System.Void Invoke()

@@ -310,7 +310,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Enum* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Enum").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Enum::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Enum*, creationType>()));
     }
   }; // System.Enum

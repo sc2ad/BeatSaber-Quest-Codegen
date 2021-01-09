@@ -44,7 +44,7 @@ namespace System::IO {
     // Offset: 0x13AB8A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringReader* New_ctor(::Il2CppString* s) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StringReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StringReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringReader*, creationType>(s)));
     }
     // public override System.Void Close()

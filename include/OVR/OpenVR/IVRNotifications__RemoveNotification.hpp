@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1867A30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRNotifications::_RemoveNotification* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_RemoveNotification").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRNotifications::_RemoveNotification::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRNotifications::_RemoveNotification*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVRNotificationError Invoke(System.UInt32 notificationId)

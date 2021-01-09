@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningSceneSetup* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("HealthWarningSceneSetup").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HealthWarningSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningSceneSetup*, creationType>()));
     }
   }; // HealthWarningSceneSetup

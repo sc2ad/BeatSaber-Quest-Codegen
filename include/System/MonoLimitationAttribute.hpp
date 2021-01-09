@@ -26,7 +26,7 @@ namespace System {
     // Base method: System.Void MonoTODOAttribute::.ctor(System.String comment)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoLimitationAttribute* New_ctor(::Il2CppString* comment) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("MonoLimitationAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::MonoLimitationAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoLimitationAttribute*, creationType>(comment)));
     }
   }; // System.MonoLimitationAttribute

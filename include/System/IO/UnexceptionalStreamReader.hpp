@@ -54,7 +54,7 @@ namespace System::IO {
     // Base method: System.Void StreamReader::.ctor(System.IO.Stream stream, System.Text.Encoding encoding)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnexceptionalStreamReader* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("UnexceptionalStreamReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::UnexceptionalStreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnexceptionalStreamReader*, creationType>(stream, encoding)));
     }
     // public override System.Int32 Peek()

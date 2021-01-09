@@ -48,7 +48,7 @@ namespace System::Collections {
     // Offset: 0x1CB3F14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CaseInsensitiveHashCodeProvider* New_ctor(System::Globalization::CultureInfo* culture) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("CaseInsensitiveHashCodeProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::CaseInsensitiveHashCodeProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CaseInsensitiveHashCodeProvider*, creationType>(culture)));
     }
     // static public System.Collections.CaseInsensitiveHashCodeProvider get_Default()
@@ -60,7 +60,7 @@ namespace System::Collections {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CaseInsensitiveHashCodeProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("CaseInsensitiveHashCodeProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::CaseInsensitiveHashCodeProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CaseInsensitiveHashCodeProvider*, creationType>()));
     }
     // public System.Int32 GetHashCode(System.Object obj)

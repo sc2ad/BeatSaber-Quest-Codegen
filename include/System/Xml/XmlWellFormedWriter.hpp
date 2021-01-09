@@ -739,7 +739,7 @@ namespace System::Xml {
     // Offset: 0x14F2718
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWellFormedWriter* New_ctor(System::Xml::XmlWriter* writer, System::Xml::XmlWriterSettings* settings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("XmlWellFormedWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlWellFormedWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter*, creationType>(writer, settings)));
     }
     // System.Xml.XmlRawWriter get_RawWriter()

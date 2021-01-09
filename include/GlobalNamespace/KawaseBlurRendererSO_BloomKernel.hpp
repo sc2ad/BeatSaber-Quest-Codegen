@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KawaseBlurRendererSO::BloomKernel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BloomKernel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::KawaseBlurRendererSO::BloomKernel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KawaseBlurRendererSO::BloomKernel*, creationType>()));
     }
   }; // KawaseBlurRendererSO/BloomKernel

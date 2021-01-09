@@ -34,7 +34,7 @@ namespace TMPro {
     // Offset: 0xF82DA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_InputField::OnValidateInput* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("OnValidateInput").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_InputField::OnValidateInput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_InputField::OnValidateInput*, creationType>(object, method)));
     }
     // public System.Char Invoke(System.String text, System.Int32 charIndex, System.Char addedChar)

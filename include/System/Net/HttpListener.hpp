@@ -266,7 +266,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListener* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("HttpListener").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListener*, creationType>()));
     }
     // private System.Void System.IDisposable.Dispose()

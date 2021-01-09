@@ -36,7 +36,7 @@ namespace UnityEngine::TestTools {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCommandPcHelper* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools").WithContext("TestCommandPcHelper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestCommandPcHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestCommandPcHelper*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestCommandPcHelper

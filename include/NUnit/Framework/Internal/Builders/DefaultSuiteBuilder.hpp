@@ -83,7 +83,7 @@ namespace NUnit::Framework::Internal::Builders {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultSuiteBuilder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Builders").WithContext("DefaultSuiteBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultSuiteBuilder*, creationType>()));
     }
   }; // NUnit.Framework.Internal.Builders.DefaultSuiteBuilder

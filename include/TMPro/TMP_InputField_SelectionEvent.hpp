@@ -28,7 +28,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_InputField::SelectionEvent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("SelectionEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_InputField::SelectionEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_InputField::SelectionEvent*, creationType>()));
     }
   }; // TMPro.TMP_InputField/SelectionEvent

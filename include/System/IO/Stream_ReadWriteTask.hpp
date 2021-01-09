@@ -100,7 +100,7 @@ namespace System::IO {
     // Offset: 0x13A60E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::ReadWriteTask* New_ctor(bool isRead, System::Func_2<::Il2CppObject*, int>* function, ::Il2CppObject* state, System::IO::Stream* stream, ::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("ReadWriteTask").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::ReadWriteTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::ReadWriteTask*, creationType>(isRead, function, state, stream, buffer, offset, count, callback)));
     }
     // static private System.Void InvokeAsyncCallback(System.Object completedTask)

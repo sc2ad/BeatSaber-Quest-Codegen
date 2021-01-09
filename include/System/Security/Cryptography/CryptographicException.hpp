@@ -35,7 +35,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x1693080
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptographicException* New_ctor(::Il2CppString* format, ::Il2CppString* insert) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("CryptographicException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CryptographicException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptographicException*, creationType>(format, insert)));
     }
     // public System.Void .ctor()
@@ -46,7 +46,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptographicException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("CryptographicException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CryptographicException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptographicException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -56,7 +56,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptographicException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("CryptographicException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CryptographicException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptographicException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception inner)
@@ -66,7 +66,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptographicException* New_ctor(::Il2CppString* message, System::Exception* inner) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("CryptographicException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CryptographicException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptographicException*, creationType>(message, inner)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -76,7 +76,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptographicException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("CryptographicException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CryptographicException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptographicException*, creationType>(info, context)));
     }
   }; // System.Security.Cryptography.CryptographicException

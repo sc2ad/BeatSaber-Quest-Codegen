@@ -46,7 +46,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1446650
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueTypeFixupInfo* New_ctor(int64_t containerID, System::Reflection::FieldInfo* member, ::Array<int>* parentIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("ValueTypeFixupInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ValueTypeFixupInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueTypeFixupInfo*, creationType>(containerID, member, parentIndex)));
     }
     // public System.Int64 get_ContainerID()

@@ -85,14 +85,14 @@ namespace System::Security {
     // Offset: 0x1283F60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityElement* New_ctor(::Il2CppString* tag) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security").WithContext("SecurityElement").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityElement*, creationType>(tag)));
     }
     // public System.Void .ctor(System.String tag, System.String text)
     // Offset: 0x12841D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityElement* New_ctor(::Il2CppString* tag, ::Il2CppString* text) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security").WithContext("SecurityElement").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityElement*, creationType>(tag, text)));
     }
     // public System.Collections.Hashtable get_Attributes()

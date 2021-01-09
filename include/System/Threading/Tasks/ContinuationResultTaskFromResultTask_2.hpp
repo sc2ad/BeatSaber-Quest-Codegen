@@ -36,7 +36,7 @@ namespace System::Threading::Tasks {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>* New_ctor(System::Threading::Tasks::Task_1<TAntecedentResult>* antecedent, System::Delegate* function, ::Il2CppObject* state, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::StackCrawlMark& stackMark) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("ContinuationResultTaskFromResultTask_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::ContinuationResultTaskFromResultTask_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>*, creationType>(antecedent, function, state, creationOptions, internalOptions, stackMark)));
     }
     // override System.Void InnerInvoke()
@@ -44,7 +44,7 @@ namespace System::Threading::Tasks {
     // Implemented from: System.Threading.Tasks.Task`1
     // Base method: System.Void Task_1::InnerInvoke()
     void InnerInvoke() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("ContinuationResultTaskFromResultTask_2").WithContext("InnerInvoke");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::ContinuationResultTaskFromResultTask_2::InnerInvoke");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InnerInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }

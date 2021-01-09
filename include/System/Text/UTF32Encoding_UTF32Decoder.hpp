@@ -37,7 +37,7 @@ namespace System::Text {
     // Offset: 0x16A6A48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF32Encoding::UTF32Decoder* New_ctor(System::Text::UTF32Encoding* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("UTF32Decoder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF32Encoding::UTF32Decoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF32Encoding::UTF32Decoder*, creationType>(encoding)));
     }
     // public override System.Void Reset()

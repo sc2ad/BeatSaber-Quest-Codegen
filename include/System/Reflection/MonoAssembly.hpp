@@ -64,7 +64,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoAssembly* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("MonoAssembly").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoAssembly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoAssembly*, creationType>()));
     }
   }; // System.Reflection.MonoAssembly

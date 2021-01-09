@@ -68,7 +68,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x1199E60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnixIPInterfaceProperties* New_ctor(System::Net::NetworkInformation::UnixNetworkInterface* iface, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("UnixIPInterfaceProperties").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::UnixIPInterfaceProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnixIPInterfaceProperties*, creationType>(iface, addresses)));
     }
     // static private System.Void .cctor()

@@ -38,7 +38,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClipProperties* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("AudioClipProperties").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::AudioClipProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipProperties*, creationType>()));
     }
   }; // UnityEngine.Timeline.AudioClipProperties

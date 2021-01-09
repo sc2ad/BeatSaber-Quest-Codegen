@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A185B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameCoreSceneSetupData* New_ctor(GlobalNamespace::ColorScheme* colorScheme) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("GameCoreSceneSetupData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameCoreSceneSetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameCoreSceneSetupData*, creationType>(colorScheme)));
     }
   }; // GameCoreSceneSetupData

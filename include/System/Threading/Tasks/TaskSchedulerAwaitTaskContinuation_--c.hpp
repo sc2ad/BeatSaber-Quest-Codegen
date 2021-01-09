@@ -48,7 +48,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskSchedulerAwaitTaskContinuation::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskSchedulerAwaitTaskContinuation::$$c*, creationType>()));
     }
   }; // System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation/<>c

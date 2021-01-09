@@ -76,7 +76,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x188A154
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Changelog* New_ctor(::Il2CppString* log) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("Changelog").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Changelog::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Changelog*, creationType>(log)));
     }
     // private UnityEngine.ProBuilder.ChangelogEntry CreateEntry(System.String version, System.String contents)

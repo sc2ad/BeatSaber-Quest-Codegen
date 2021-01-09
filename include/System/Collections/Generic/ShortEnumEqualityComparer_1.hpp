@@ -38,7 +38,7 @@ namespace System::Collections::Generic {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShortEnumEqualityComparer_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ShortEnumEqualityComparer_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ShortEnumEqualityComparer_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShortEnumEqualityComparer_1<T>*, creationType>()));
     }
     // public System.Void .ctor(System.Runtime.Serialization.SerializationInfo information, System.Runtime.Serialization.StreamingContext context)
@@ -47,7 +47,7 @@ namespace System::Collections::Generic {
     // Base method: System.Void EnumEqualityComparer_1::.ctor(System.Runtime.Serialization.SerializationInfo information, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShortEnumEqualityComparer_1<T>* New_ctor(System::Runtime::Serialization::SerializationInfo* information, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ShortEnumEqualityComparer_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ShortEnumEqualityComparer_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShortEnumEqualityComparer_1<T>*, creationType>(information, context)));
     }
     // public override System.Int32 GetHashCode(T obj)
@@ -55,7 +55,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.Generic.EnumEqualityComparer`1
     // Base method: System.Int32 EnumEqualityComparer_1::GetHashCode(T obj)
     int GetHashCode(T obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ShortEnumEqualityComparer_1").WithContext("GetHashCode");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ShortEnumEqualityComparer_1::GetHashCode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(obj)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, obj);
     }

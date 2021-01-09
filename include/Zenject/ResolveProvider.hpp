@@ -90,7 +90,7 @@ namespace Zenject {
     // Offset: 0x134EE10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResolveProvider* New_ctor(System::Type* contractType, Zenject::DiContainer* container, ::Il2CppObject* identifier, bool isOptional, Zenject::InjectSources source, bool matchAll) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ResolveProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ResolveProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResolveProvider*, creationType>(contractType, container, identifier, isOptional, source, matchAll)));
     }
     // private Zenject.InjectContext GetSubContext(Zenject.InjectContext parent)

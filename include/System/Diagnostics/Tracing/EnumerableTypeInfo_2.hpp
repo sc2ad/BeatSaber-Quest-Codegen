@@ -51,7 +51,7 @@ namespace System::Diagnostics::Tracing {
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EnumerableTypeInfo_2").WithContext("WriteMetadata");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EnumerableTypeInfo_2::WriteMetadata");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "WriteMetadata", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(collector, name, format)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collector, name, format);
     }
@@ -60,7 +60,7 @@ namespace System::Diagnostics::Tracing {
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo_1::WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref IterableType value)
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, IterableType& value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EnumerableTypeInfo_2").WithContext("WriteData");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EnumerableTypeInfo_2::WriteData");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "WriteData", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(collector, value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collector, value);
     }

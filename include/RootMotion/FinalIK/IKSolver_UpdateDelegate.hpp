@@ -34,7 +34,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x16DF100
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::UpdateDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("UpdateDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolver::UpdateDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::UpdateDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke()

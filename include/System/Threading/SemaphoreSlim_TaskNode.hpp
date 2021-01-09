@@ -47,7 +47,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SemaphoreSlim::TaskNode* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("TaskNode").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SemaphoreSlim::TaskNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SemaphoreSlim::TaskNode*, creationType>()));
     }
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()

@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Offset: 0x106BE80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRComposition* New_ctor(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OVRComposition").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRComposition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRComposition*, creationType>(parentObject, mainCamera)));
     }
     // public OVRManager/CompositionMethod CompositionMethod()

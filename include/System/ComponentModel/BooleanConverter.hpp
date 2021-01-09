@@ -30,7 +30,7 @@ namespace System::ComponentModel {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BooleanConverter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("BooleanConverter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::BooleanConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BooleanConverter*, creationType>()));
     }
   }; // System.ComponentModel.BooleanConverter

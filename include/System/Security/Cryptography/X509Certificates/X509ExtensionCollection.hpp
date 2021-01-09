@@ -68,7 +68,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x1461DA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ExtensionCollection* New_ctor(Mono::Security::X509::X509Certificate* cert) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509ExtensionCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ExtensionCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ExtensionCollection*, creationType>(cert)));
     }
     // public System.Security.Cryptography.X509Certificates.X509Extension get_Item(System.String oid)

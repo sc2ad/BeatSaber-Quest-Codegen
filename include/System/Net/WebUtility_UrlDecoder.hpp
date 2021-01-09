@@ -71,7 +71,7 @@ namespace System::Net {
     // Offset: 0x122A4E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebUtility::UrlDecoder* New_ctor(int bufferSize, System::Text::Encoding* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("UrlDecoder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebUtility::UrlDecoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebUtility::UrlDecoder*, creationType>(bufferSize, encoding)));
     }
     // System.Void AddChar(System.Char ch)

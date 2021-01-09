@@ -60,7 +60,7 @@ namespace System::Threading {
     // Offset: 0x1D1A814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadHelper* New_ctor(System::Delegate* start) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("ThreadHelper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadHelper*, creationType>(start)));
     }
     // System.Void SetExecutionContextHelper(System.Threading.ExecutionContext ec)

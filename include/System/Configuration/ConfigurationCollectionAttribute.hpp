@@ -31,7 +31,7 @@ namespace System::Configuration {
     // Offset: 0x1A0B418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConfigurationCollectionAttribute* New_ctor(System::Type* itemType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Configuration").WithContext("ConfigurationCollectionAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Configuration::ConfigurationCollectionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConfigurationCollectionAttribute*, creationType>(itemType)));
     }
   }; // System.Configuration.ConfigurationCollectionAttribute

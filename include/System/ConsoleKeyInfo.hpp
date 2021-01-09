@@ -52,7 +52,7 @@ namespace System {
     // Offset: 0xCA2150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ConsoleKeyInfo(::Il2CppChar keyChar, System::ConsoleKey key, bool shift, bool alt, bool control) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ConsoleKeyInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ConsoleKeyInfo::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(keyChar, key, shift, alt, control)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, keyChar, key, shift, alt, control);
     }

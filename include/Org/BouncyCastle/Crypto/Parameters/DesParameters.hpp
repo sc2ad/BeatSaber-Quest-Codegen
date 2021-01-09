@@ -44,7 +44,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DesParameters* New_ctor(::Array<uint8_t>* key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("DesParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DesParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DesParameters*, creationType>(key)));
     }
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DesParameters* New_ctor(::Array<uint8_t>* key, int keyOff, int keyLen) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("DesParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DesParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DesParameters*, creationType>(key, keyOff, keyLen)));
     }
   }; // Org.BouncyCastle.Crypto.Parameters.DesParameters

@@ -181,7 +181,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Poly1305* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Macs").WithContext("Poly1305").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::Poly1305::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Poly1305*, creationType>()));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)

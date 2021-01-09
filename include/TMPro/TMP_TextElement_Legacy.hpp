@@ -77,7 +77,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_TextElement_Legacy* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMP_TextElement_Legacy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_TextElement_Legacy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_TextElement_Legacy*, creationType>()));
     }
   }; // TMPro.TMP_TextElement_Legacy

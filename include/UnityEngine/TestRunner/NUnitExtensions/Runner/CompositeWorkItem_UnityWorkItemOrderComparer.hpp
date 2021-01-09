@@ -43,7 +43,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeWorkItem::UnityWorkItemOrderComparer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner").WithContext("UnityWorkItemOrderComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::UnityWorkItemOrderComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeWorkItem::UnityWorkItemOrderComparer*, creationType>()));
     }
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/UnityWorkItemOrderComparer

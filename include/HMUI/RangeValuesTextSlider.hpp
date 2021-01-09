@@ -145,7 +145,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeValuesTextSlider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("RangeValuesTextSlider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::RangeValuesTextSlider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeValuesTextSlider*, creationType>()));
     }
   }; // HMUI.RangeValuesTextSlider

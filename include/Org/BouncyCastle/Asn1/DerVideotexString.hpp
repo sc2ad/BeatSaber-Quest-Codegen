@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x13747D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerVideotexString* New_ctor(::Array<uint8_t>* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerVideotexString").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerVideotexString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerVideotexString*, creationType>(encoding)));
     }
     // public override System.String GetString()

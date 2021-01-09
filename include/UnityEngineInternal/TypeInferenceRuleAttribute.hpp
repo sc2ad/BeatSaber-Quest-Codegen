@@ -36,14 +36,14 @@ namespace UnityEngineInternal {
     // Offset: 0x16CE694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeInferenceRuleAttribute* New_ctor(UnityEngineInternal::TypeInferenceRules rule) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngineInternal").WithContext("TypeInferenceRuleAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngineInternal::TypeInferenceRuleAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeInferenceRuleAttribute*, creationType>(rule)));
     }
     // public System.Void .ctor(System.String rule)
     // Offset: 0x16CE73C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeInferenceRuleAttribute* New_ctor(::Il2CppString* rule) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngineInternal").WithContext("TypeInferenceRuleAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngineInternal::TypeInferenceRuleAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeInferenceRuleAttribute*, creationType>(rule)));
     }
     // public override System.String ToString()

@@ -40,14 +40,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x1340988
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryAssemblyInfo* New_ctor(::Il2CppString* assemblyString) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization::Formatters::Binary").WithContext("BinaryAssemblyInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryAssemblyInfo*, creationType>(assemblyString)));
     }
     // System.Void .ctor(System.String assemblyString, System.Reflection.Assembly assembly)
     // Offset: 0x13409BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryAssemblyInfo* New_ctor(::Il2CppString* assemblyString, System::Reflection::Assembly* assembly) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization::Formatters::Binary").WithContext("BinaryAssemblyInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryAssemblyInfo*, creationType>(assemblyString, assembly)));
     }
     // System.Reflection.Assembly GetAssembly()

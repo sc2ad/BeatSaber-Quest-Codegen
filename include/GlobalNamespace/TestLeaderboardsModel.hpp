@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestLeaderboardsModel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TestLeaderboardsModel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TestLeaderboardsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestLeaderboardsModel*, creationType>()));
     }
   }; // TestLeaderboardsModel

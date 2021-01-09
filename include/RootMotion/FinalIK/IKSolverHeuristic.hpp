@@ -148,7 +148,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverHeuristic* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("IKSolverHeuristic").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverHeuristic::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverHeuristic*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolverHeuristic

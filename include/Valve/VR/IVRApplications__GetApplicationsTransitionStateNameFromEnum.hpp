@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x136E378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRApplications::_GetApplicationsTransitionStateNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetApplicationsTransitionStateNameFromEnum").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRApplications::_GetApplicationsTransitionStateNameFromEnum*, creationType>(object, method)));
     }
     // public System.IntPtr Invoke(Valve.VR.EVRApplicationTransitionState state)

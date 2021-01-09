@@ -94,7 +94,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SynchronizationContext* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SynchronizationContext").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SynchronizationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SynchronizationContext*, creationType>()));
     }
   }; // System.Threading.SynchronizationContext

@@ -67,14 +67,14 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x1118BEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FieldMetadata* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::TraceLoggingDataType type, System::Diagnostics::Tracing::EventFieldTags tags, bool variableCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("FieldMetadata").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::FieldMetadata::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FieldMetadata*, creationType>(name, type, tags, variableCount)));
     }
     // private System.Void .ctor(System.String name, System.Diagnostics.Tracing.TraceLoggingDataType dataType, System.Diagnostics.Tracing.EventFieldTags tags, System.Byte countFlags, System.UInt16 fixedCount, System.Byte[] custom)
     // Offset: 0x1118C14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FieldMetadata* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::TraceLoggingDataType dataType, System::Diagnostics::Tracing::EventFieldTags tags, uint8_t countFlags, uint16_t fixedCount, ::Array<uint8_t>* custom) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("FieldMetadata").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::FieldMetadata::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FieldMetadata*, creationType>(name, dataType, tags, countFlags, fixedCount, custom)));
     }
     // public System.Void IncrementStructFieldCount()

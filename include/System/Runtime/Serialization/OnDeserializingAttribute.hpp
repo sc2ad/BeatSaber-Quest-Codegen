@@ -28,7 +28,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OnDeserializingAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("OnDeserializingAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::OnDeserializingAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OnDeserializingAttribute*, creationType>()));
     }
   }; // System.Runtime.Serialization.OnDeserializingAttribute

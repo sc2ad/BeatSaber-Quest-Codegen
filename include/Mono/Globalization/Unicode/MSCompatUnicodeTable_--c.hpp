@@ -53,7 +53,7 @@ namespace Mono::Globalization::Unicode {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MSCompatUnicodeTable::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Globalization::Unicode").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MSCompatUnicodeTable::$$c*, creationType>()));
     }
   }; // Mono.Globalization.Unicode.MSCompatUnicodeTable/<>c

@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A35044
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CentralLeaderboardViewController::LeaderboardPanel* New_ctor(::Il2CppString* title, ::Il2CppString* hint, bool mixed) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LeaderboardPanel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CentralLeaderboardViewController::LeaderboardPanel*, creationType>(title, hint, mixed)));
     }
   }; // CentralLeaderboardViewController/LeaderboardPanel

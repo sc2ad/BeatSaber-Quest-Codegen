@@ -44,7 +44,7 @@ namespace System::Threading::Tasks {
     // Offset: 0x1D16764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::WhenAllPromise* New_ctor(::Array<System::Threading::Tasks::Task*>* tasks) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("WhenAllPromise").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::WhenAllPromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::WhenAllPromise*, creationType>(tasks)));
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completedTask)

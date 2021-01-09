@@ -215,7 +215,7 @@ namespace Mono::Net::Security {
     // Offset: 0x12672E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MobileAuthenticatedStream* New_ctor(System::IO::Stream* innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream* owner, Mono::Security::Interface::MonoTlsSettings* settings, Mono::Security::Interface::MonoTlsProvider* provider) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Net::Security").WithContext("MobileAuthenticatedStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::MobileAuthenticatedStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MobileAuthenticatedStream*, creationType>(innerStream, leaveInnerStreamOpen, owner, settings, provider)));
     }
     // public Mono.Security.Interface.MonoTlsSettings get_Settings()

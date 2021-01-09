@@ -53,14 +53,14 @@ namespace Mono::Security::X509 {
     // Offset: 0x19C51EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(Mono::Security::ASN1* asn1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::X509").WithContext("X509Extension").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(asn1)));
     }
     // public System.Void .ctor(Mono.Security.X509.X509Extension extension)
     // Offset: 0x19C54CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(Mono::Security::X509::X509Extension* extension) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::X509").WithContext("X509Extension").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(extension)));
     }
     // protected System.Void Decode()

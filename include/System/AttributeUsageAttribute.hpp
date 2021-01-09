@@ -49,7 +49,7 @@ namespace System {
     // Offset: 0x1CAAABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AttributeUsageAttribute* New_ctor(System::AttributeTargets validOn) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AttributeUsageAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::AttributeUsageAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttributeUsageAttribute*, creationType>(validOn)));
     }
     // public System.Boolean get_AllowMultiple()

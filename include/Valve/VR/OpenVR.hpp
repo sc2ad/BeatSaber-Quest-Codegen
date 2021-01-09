@@ -1267,7 +1267,7 @@ namespace Valve::VR {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenVR* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("OpenVR").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::OpenVR::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenVR*, creationType>()));
     }
   }; // Valve.VR.OpenVR

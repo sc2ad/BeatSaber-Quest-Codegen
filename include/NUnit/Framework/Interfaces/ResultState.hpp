@@ -100,21 +100,21 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0x13E6BF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultState* New_ctor(NUnit::Framework::Interfaces::TestStatus status) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Interfaces").WithContext("ResultState").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::ResultState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultState*, creationType>(status)));
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.TestStatus status, System.String label)
     // Offset: 0x13E6CF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultState* New_ctor(NUnit::Framework::Interfaces::TestStatus status, ::Il2CppString* label) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Interfaces").WithContext("ResultState").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::ResultState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultState*, creationType>(status, label)));
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.TestStatus status, System.String label, NUnit.Framework.Interfaces.FailureSite site)
     // Offset: 0x13E6C60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultState* New_ctor(NUnit::Framework::Interfaces::TestStatus status, ::Il2CppString* label, NUnit::Framework::Interfaces::FailureSite site) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Interfaces").WithContext("ResultState").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::ResultState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultState*, creationType>(status, label, site)));
     }
     // public NUnit.Framework.Interfaces.TestStatus get_Status()

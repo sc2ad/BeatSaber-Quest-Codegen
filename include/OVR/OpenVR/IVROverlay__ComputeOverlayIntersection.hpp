@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x18682FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_ComputeOverlayIntersection* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_ComputeOverlayIntersection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVROverlay::_ComputeOverlayIntersection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_ComputeOverlayIntersection*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VROverlayIntersectionParams_t pParams, ref OVR.OpenVR.VROverlayIntersectionResults_t pResults)

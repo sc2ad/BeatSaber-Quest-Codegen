@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Offset: 0xF1C03C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IntroTutorialController::$ShowFinishAnimationCoroutine$d__21* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$ShowFinishAnimationCoroutine$d__21").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IntroTutorialController::$ShowFinishAnimationCoroutine$d__21::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IntroTutorialController::$ShowFinishAnimationCoroutine$d__21*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

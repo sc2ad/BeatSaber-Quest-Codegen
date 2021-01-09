@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassRendererSO::PreallocationData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("PreallocationData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomPrePassRendererSO::PreallocationData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassRendererSO::PreallocationData*, creationType>()));
     }
   }; // BloomPrePassRendererSO/PreallocationData

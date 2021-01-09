@@ -74,7 +74,7 @@ namespace Mono::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ARC4Managed* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::Cryptography").WithContext("ARC4Managed").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::ARC4Managed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ARC4Managed*, creationType>()));
     }
     // protected override System.Void Finalize()

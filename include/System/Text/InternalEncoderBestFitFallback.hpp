@@ -48,7 +48,7 @@ namespace System::Text {
     // Offset: 0x159E8B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalEncoderBestFitFallback* New_ctor(System::Text::Encoding* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("InternalEncoderBestFitFallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::InternalEncoderBestFitFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalEncoderBestFitFallback*, creationType>(encoding)));
     }
     // public override System.Text.EncoderFallbackBuffer CreateFallbackBuffer()

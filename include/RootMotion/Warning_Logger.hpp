@@ -34,7 +34,7 @@ namespace RootMotion {
     // Offset: 0x15F6018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Warning::Logger* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion").WithContext("Logger").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Warning::Logger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Warning::Logger*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String message)

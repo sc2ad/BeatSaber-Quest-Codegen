@@ -35,7 +35,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageWithPlatformInitialize* New_ctor(System::IntPtr c_message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("MessageWithPlatformInitialize").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::MessageWithPlatformInitialize::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithPlatformInitialize*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.PlatformInitialize GetPlatformInitialize()

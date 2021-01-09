@@ -25,7 +25,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpResponseHeaders* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HttpResponseHeaders").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpResponseHeaders::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpResponseHeaders*, creationType>()));
     }
   }; // System.Net.Http.Headers.HttpResponseHeaders

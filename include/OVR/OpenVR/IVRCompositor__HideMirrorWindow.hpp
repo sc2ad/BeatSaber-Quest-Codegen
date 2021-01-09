@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x185D124
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_HideMirrorWindow* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_HideMirrorWindow").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_HideMirrorWindow::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_HideMirrorWindow*, creationType>(object, method)));
     }
     // public System.Void Invoke()

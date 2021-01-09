@@ -305,7 +305,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSkeletonRenderer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OVRSkeletonRenderer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRSkeletonRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSkeletonRenderer*, creationType>()));
     }
     // static private System.Void .cctor()

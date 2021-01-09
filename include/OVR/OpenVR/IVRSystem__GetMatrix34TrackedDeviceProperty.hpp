@@ -44,7 +44,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1913808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetMatrix34TrackedDeviceProperty* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetMatrix34TrackedDeviceProperty").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_GetMatrix34TrackedDeviceProperty::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetMatrix34TrackedDeviceProperty*, creationType>(object, method)));
     }
     // public OVR.OpenVR.HmdMatrix34_t Invoke(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError)

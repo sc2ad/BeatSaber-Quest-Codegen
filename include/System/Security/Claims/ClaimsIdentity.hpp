@@ -145,35 +145,35 @@ namespace System::Security::Claims {
     // Offset: 0x1452758
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClaimsIdentity* New_ctor(System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* claims) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Claims").WithContext("ClaimsIdentity").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::ClaimsIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClaimsIdentity*, creationType>(claims)));
     }
     // public System.Void .ctor(System.Security.Principal.IIdentity identity, System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim> claims, System.String authenticationType, System.String nameType, System.String roleType)
     // Offset: 0x1452774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClaimsIdentity* New_ctor(System::Security::Principal::IIdentity* identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* claims, ::Il2CppString* authenticationType, ::Il2CppString* nameType, ::Il2CppString* roleType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Claims").WithContext("ClaimsIdentity").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::ClaimsIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClaimsIdentity*, creationType>(identity, claims, authenticationType, nameType, roleType)));
     }
     // System.Void .ctor(System.Security.Principal.IIdentity identity, System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim> claims, System.String authenticationType, System.String nameType, System.String roleType, System.Boolean checkAuthType)
     // Offset: 0x145277C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClaimsIdentity* New_ctor(System::Security::Principal::IIdentity* identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* claims, ::Il2CppString* authenticationType, ::Il2CppString* nameType, ::Il2CppString* roleType, bool checkAuthType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Claims").WithContext("ClaimsIdentity").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::ClaimsIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClaimsIdentity*, creationType>(identity, claims, authenticationType, nameType, roleType, checkAuthType)));
     }
     // protected System.Void .ctor(System.Security.Claims.ClaimsIdentity other)
     // Offset: 0x14531E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClaimsIdentity* New_ctor(System::Security::Claims::ClaimsIdentity* other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Claims").WithContext("ClaimsIdentity").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::ClaimsIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClaimsIdentity*, creationType>(other)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x14533E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClaimsIdentity* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Claims").WithContext("ClaimsIdentity").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::ClaimsIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClaimsIdentity*, creationType>(info, context)));
     }
     // public System.Security.Claims.ClaimsIdentity get_Actor()
@@ -233,7 +233,7 @@ namespace System::Security::Claims {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClaimsIdentity* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Claims").WithContext("ClaimsIdentity").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::ClaimsIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClaimsIdentity*, creationType>()));
     }
     // public System.String get_AuthenticationType()

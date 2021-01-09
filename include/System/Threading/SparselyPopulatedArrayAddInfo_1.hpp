@@ -50,14 +50,14 @@ namespace System::Threading {
     // System.Threading.SparselyPopulatedArrayFragment`1<T> get_Source()
     // Offset: 0xFFFFFFFF
     System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Source() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArrayAddInfo_1").WithContext("get_Source");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArrayAddInfo_1::get_Source");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "get_Source", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Threading::SparselyPopulatedArrayFragment_1<T>*, false>(*this, ___internal__method);
     }
     // System.Int32 get_Index()
     // Offset: 0xFFFFFFFF
     int get_Index() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArrayAddInfo_1").WithContext("get_Index");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArrayAddInfo_1::get_Index");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "get_Index", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
     }

@@ -49,7 +49,7 @@ namespace Tweening {
     // private System.Void Init(T fromValue, T toValue, System.Action`1<T> onUpdate, System.Single duration, Tweening.InterpolationType interpolationType, Tweening.EaseType easeType, UnityEngine.AnimationCurve animationCurve, System.Single delay)
     // Offset: 0xFFFFFFFF
     void Init(T fromValue, T toValue, System::Action_1<T>* onUpdate, float duration, Tweening::InterpolationType interpolationType, Tweening::EaseType easeType, UnityEngine::AnimationCurve* animationCurve, float delay) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Tweening").WithContext("Tween_1").WithContext("Init");
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween_1::Init");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(fromValue, toValue, onUpdate, duration, interpolationType, easeType, animationCurve, delay)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, fromValue, toValue, onUpdate, duration, interpolationType, easeType, animationCurve, delay);
     }
@@ -57,20 +57,20 @@ namespace Tweening {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tween_1<T>* New_ctor(T fromValue, T toValue, System::Action_1<T>* onUpdate, float duration, Tweening::EaseType easeType, float delay) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Tweening").WithContext("Tween_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tween_1<T>*, creationType>(fromValue, toValue, onUpdate, duration, easeType, delay)));
     }
     // public System.Void .ctor(T fromValue, T toValue, System.Action`1<T> onUpdate, System.Single duration, UnityEngine.AnimationCurve animationCurve, System.Single delay)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tween_1<T>* New_ctor(T fromValue, T toValue, System::Action_1<T>* onUpdate, float duration, UnityEngine::AnimationCurve* animationCurve, float delay) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Tweening").WithContext("Tween_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tween_1<T>*, creationType>(fromValue, toValue, onUpdate, duration, animationCurve, delay)));
     }
     // public T GetValue(System.Single t)
     // Offset: 0xFFFFFFFF
     T GetValue(float t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Tweening").WithContext("Tween_1").WithContext("GetValue");
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween_1::GetValue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetValue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(t)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, t);
     }
@@ -79,7 +79,7 @@ namespace Tweening {
     // Implemented from: Tweening.Tween
     // Base method: System.Void Tween::Update(System.Single deltaTime)
     void Update(float deltaTime) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Tweening").WithContext("Tween_1").WithContext("Update");
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween_1::Update");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Update", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(deltaTime)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, deltaTime);
     }
@@ -88,7 +88,7 @@ namespace Tweening {
     // Implemented from: Tweening.Tween
     // Base method: System.Void Tween::Sample(System.Single t)
     void Sample(float t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Tweening").WithContext("Tween_1").WithContext("Sample");
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween_1::Sample");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Sample", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(t)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, t);
     }

@@ -129,7 +129,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultBinder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("DefaultBinder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::DefaultBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultBinder*, creationType>()));
     }
   }; // System.DefaultBinder

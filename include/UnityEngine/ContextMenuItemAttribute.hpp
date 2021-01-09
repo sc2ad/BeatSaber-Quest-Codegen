@@ -36,7 +36,7 @@ namespace UnityEngine {
     // Offset: 0x1682EC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextMenuItemAttribute* New_ctor(::Il2CppString* name, ::Il2CppString* function) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("ContextMenuItemAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ContextMenuItemAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextMenuItemAttribute*, creationType>(name, function)));
     }
   }; // UnityEngine.ContextMenuItemAttribute

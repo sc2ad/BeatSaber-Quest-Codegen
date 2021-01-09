@@ -60,7 +60,7 @@ namespace System {
     // Offset: 0x171E380
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Random* New_ctor(int Seed) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Random").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Random::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Random*, creationType>(Seed)));
     }
     // protected System.Double Sample()
@@ -90,7 +90,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Random* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Random").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Random::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Random*, creationType>()));
     }
   }; // System.Random

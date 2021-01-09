@@ -46,7 +46,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECParametersHolder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X9").WithContext("X9ECParametersHolder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECParametersHolder*, creationType>()));
     }
   }; // Org.BouncyCastle.Asn1.X9.X9ECParametersHolder

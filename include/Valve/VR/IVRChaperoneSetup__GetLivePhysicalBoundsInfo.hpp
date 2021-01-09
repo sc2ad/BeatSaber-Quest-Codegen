@@ -37,7 +37,7 @@ namespace Valve::VR {
     // Offset: 0x18E0BA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRChaperoneSetup::_GetLivePhysicalBoundsInfo* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetLivePhysicalBoundsInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(in Valve.VR.HmdQuad_t[] pQuadsBuffer, ref System.UInt32 punQuadsCount)

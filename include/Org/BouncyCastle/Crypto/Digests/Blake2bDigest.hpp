@@ -109,7 +109,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Offset: 0x1757F48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Blake2bDigest* New_ctor(int digestSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Digests").WithContext("Blake2bDigest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::Blake2bDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Blake2bDigest*, creationType>(digestSize)));
     }
     // private System.Void Init()

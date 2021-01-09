@@ -52,7 +52,7 @@ namespace LiteNetLib::Utils {
     // System.Void <SubscribeReusable>b__0(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
     // Offset: 0xFFFFFFFF
     void $SubscribeReusable$b__0(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("$$c__DisplayClass28_0_2").WithContext("<SubscribeReusable>b__0");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass28_0_2::<SubscribeReusable>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<SubscribeReusable>b__0", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(reader, userData))));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, reader, userData);
     }
@@ -62,7 +62,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketProcessor::$$c__DisplayClass28_0_2<T, TUserData>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("$$c__DisplayClass28_0_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass28_0_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketProcessor::$$c__DisplayClass28_0_2<T, TUserData>*, creationType>()));
     }
   }; // LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass28_0`2

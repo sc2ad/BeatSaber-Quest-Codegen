@@ -196,7 +196,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHeadsetEmulator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OVRHeadsetEmulator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHeadsetEmulator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHeadsetEmulator*, creationType>()));
     }
   }; // OVRHeadsetEmulator

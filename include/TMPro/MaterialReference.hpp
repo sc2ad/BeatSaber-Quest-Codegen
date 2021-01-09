@@ -109,7 +109,7 @@ namespace TMPro {
     // Offset: 0xC92A64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     MaterialReference(int index, TMPro::TMP_FontAsset* fontAsset, TMPro::TMP_SpriteAsset* spriteAsset, UnityEngine::Material* material, float padding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("MaterialReference").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::MaterialReference::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index, fontAsset, spriteAsset, material, padding)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, index, fontAsset, spriteAsset, material, padding);
     }

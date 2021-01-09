@@ -49,7 +49,7 @@ namespace System {
     // Offset: 0x171E280
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PointerSpec* New_ctor(int pointer_level) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("PointerSpec").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::PointerSpec::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PointerSpec*, creationType>(pointer_level)));
     }
     // public System.Type Resolve(System.Type type)

@@ -71,7 +71,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x119D0EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32NetworkInterface2* New_ctor(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("Win32NetworkInterface2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::Win32NetworkInterface2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32NetworkInterface2*, creationType>(addr)));
     }
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()

@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x185B4A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_GetLastFrameRenderer* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetLastFrameRenderer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_GetLastFrameRenderer*, creationType>(object, method)));
     }
     // public System.UInt32 Invoke()

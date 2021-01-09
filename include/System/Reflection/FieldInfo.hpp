@@ -128,7 +128,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FieldInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("FieldInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::FieldInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FieldInfo*, creationType>()));
     }
     // public override System.Reflection.MemberTypes get_MemberType()

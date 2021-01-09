@@ -53,7 +53,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x144626C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationObjectManager* New_ctor(System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("SerializationObjectManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationObjectManager*, creationType>(context)));
     }
     // public System.Void RegisterObject(System.Object obj)

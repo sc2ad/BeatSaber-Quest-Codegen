@@ -54,7 +54,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Offset: 0x13FADF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PbeS2Parameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::Pkcs").WithContext("PbeS2Parameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PbeS2Parameters*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc get_KeyDerivationFunc()

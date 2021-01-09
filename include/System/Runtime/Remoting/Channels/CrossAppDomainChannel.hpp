@@ -77,7 +77,7 @@ namespace System::Runtime::Remoting::Channels {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrossAppDomainChannel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Channels").WithContext("CrossAppDomainChannel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Channels::CrossAppDomainChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrossAppDomainChannel*, creationType>()));
     }
   }; // System.Runtime.Remoting.Channels.CrossAppDomainChannel

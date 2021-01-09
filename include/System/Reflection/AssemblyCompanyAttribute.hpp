@@ -35,7 +35,7 @@ namespace System::Reflection {
     // Offset: 0x172057C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyCompanyAttribute* New_ctor(::Il2CppString* company) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("AssemblyCompanyAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyCompanyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyCompanyAttribute*, creationType>(company)));
     }
   }; // System.Reflection.AssemblyCompanyAttribute

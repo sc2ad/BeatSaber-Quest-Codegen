@@ -43,7 +43,7 @@ namespace RootMotion {
     // Offset: 0x1741C4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedLimbOrientations::LimbOrientation* New_ctor(UnityEngine::Vector3 upperBoneForwardAxis, UnityEngine::Vector3 lowerBoneForwardAxis, UnityEngine::Vector3 lastBoneLeftAxis) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion").WithContext("LimbOrientation").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BipedLimbOrientations::LimbOrientation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BipedLimbOrientations::LimbOrientation*, creationType>(upperBoneForwardAxis, lowerBoneForwardAxis, lastBoneLeftAxis)));
     }
   }; // RootMotion.BipedLimbOrientations/LimbOrientation

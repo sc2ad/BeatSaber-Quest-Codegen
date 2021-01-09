@@ -28,7 +28,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityEngineModuleAssembly* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("UnityEngineModuleAssembly").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UnityEngineModuleAssembly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityEngineModuleAssembly*, creationType>()));
     }
   }; // UnityEngine.UnityEngineModuleAssembly

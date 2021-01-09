@@ -107,21 +107,21 @@ namespace System::IO {
     // Offset: 0x142FC98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryReader* New_ctor(System::IO::Stream* input) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("BinaryReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::BinaryReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryReader*, creationType>(input)));
     }
     // public System.Void .ctor(System.IO.Stream input, System.Text.Encoding encoding)
     // Offset: 0x142FF8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryReader* New_ctor(System::IO::Stream* input, System::Text::Encoding* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("BinaryReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::BinaryReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryReader*, creationType>(input, encoding)));
     }
     // public System.Void .ctor(System.IO.Stream input, System.Text.Encoding encoding, System.Boolean leaveOpen)
     // Offset: 0x142FD10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryReader* New_ctor(System::IO::Stream* input, System::Text::Encoding* encoding, bool leaveOpen) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("BinaryReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::BinaryReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryReader*, creationType>(input, encoding, leaveOpen)));
     }
     // public System.IO.Stream get_BaseStream()

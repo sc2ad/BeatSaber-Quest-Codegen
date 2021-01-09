@@ -48,7 +48,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x157B5AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralName* New_ctor(int tag, Org::BouncyCastle::Asn1::Asn1Encodable* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X509").WithContext("GeneralName").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::GeneralName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneralName*, creationType>(tag, name)));
     }
     // static public Org.BouncyCastle.Asn1.X509.GeneralName GetInstance(System.Object obj)

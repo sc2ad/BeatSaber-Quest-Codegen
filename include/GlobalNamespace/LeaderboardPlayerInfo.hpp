@@ -105,7 +105,7 @@ namespace GlobalNamespace {
     // Offset: 0xF1D1EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardPlayerInfo* New_ctor(bool succeeded, ::Il2CppString* playerId, ::Il2CppString* playerName, ::Il2CppString* playerKey, ::Il2CppString* authType, ::Il2CppString* playerFriends) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LeaderboardPlayerInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LeaderboardPlayerInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardPlayerInfo*, creationType>(succeeded, playerId, playerName, playerKey, authType, playerFriends)));
     }
   }; // LeaderboardPlayerInfo

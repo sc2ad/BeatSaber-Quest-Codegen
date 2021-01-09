@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x19143A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetProjectionRaw* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetProjectionRaw").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_GetProjectionRaw::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetProjectionRaw*, creationType>(object, method)));
     }
     // public System.Void Invoke(OVR.OpenVR.EVREye eEye, ref System.Single pfLeft, ref System.Single pfRight, ref System.Single pfTop, ref System.Single pfBottom)

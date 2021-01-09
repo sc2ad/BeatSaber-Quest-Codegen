@@ -60,7 +60,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x19AB750
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AdvancingFrontNode* New_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("AdvancingFrontNode").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AdvancingFrontNode*, creationType>(point)));
     }
     // public System.Boolean get_HasNext()

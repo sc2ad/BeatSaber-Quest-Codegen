@@ -71,7 +71,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C631C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EtwSession* New_ctor(int etwSessionId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EtwSession").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EtwSession::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EtwSession*, creationType>(etwSessionId)));
     }
     // static private System.Void .cctor()

@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Security {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignatureException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Security").WithContext("SignatureException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::SignatureException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignatureException*, creationType>()));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
@@ -43,7 +43,7 @@ namespace Org::BouncyCastle::Security {
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignatureException* New_ctor(::Il2CppString* message, System::Exception* exception) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Security").WithContext("SignatureException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::SignatureException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignatureException*, creationType>(message, exception)));
     }
   }; // Org.BouncyCastle.Security.SignatureException

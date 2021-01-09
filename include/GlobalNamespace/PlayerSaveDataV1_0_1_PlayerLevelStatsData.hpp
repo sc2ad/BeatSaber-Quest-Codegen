@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveDataV1_0_1::PlayerLevelStatsData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("PlayerLevelStatsData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveDataV1_0_1::PlayerLevelStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveDataV1_0_1::PlayerLevelStatsData*, creationType>()));
     }
   }; // PlayerSaveDataV1_0_1/PlayerLevelStatsData

@@ -46,7 +46,7 @@ namespace System {
     // Offset: 0x1CA2320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArgumentOutOfRangeException* New_ctor(::Il2CppString* paramName, ::Il2CppObject* actualValue, ::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArgumentOutOfRangeException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ArgumentOutOfRangeException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentOutOfRangeException*, creationType>(paramName, actualValue, message)));
     }
     // public System.Void .ctor()
@@ -58,7 +58,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArgumentOutOfRangeException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArgumentOutOfRangeException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ArgumentOutOfRangeException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentOutOfRangeException*, creationType>()));
     }
     // public System.Void .ctor(System.String paramName)
@@ -69,7 +69,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.String paramName)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArgumentOutOfRangeException* New_ctor(::Il2CppString* paramName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArgumentOutOfRangeException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ArgumentOutOfRangeException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentOutOfRangeException*, creationType>(paramName)));
     }
     // public System.Void .ctor(System.String paramName, System.String message)
@@ -78,7 +78,7 @@ namespace System {
     // Base method: System.Void ArgumentException::.ctor(System.String paramName, System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArgumentOutOfRangeException* New_ctor(::Il2CppString* paramName, ::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArgumentOutOfRangeException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ArgumentOutOfRangeException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentOutOfRangeException*, creationType>(paramName, message)));
     }
     // public override System.String get_Message()
@@ -102,7 +102,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArgumentOutOfRangeException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArgumentOutOfRangeException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ArgumentOutOfRangeException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentOutOfRangeException*, creationType>(info, context)));
     }
   }; // System.ArgumentOutOfRangeException

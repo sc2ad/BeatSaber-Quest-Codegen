@@ -40,14 +40,14 @@ namespace System::Security::Authentication::ExtendedProtection {
     // Offset: 0x122AD88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExtendedProtectionPolicy* New_ctor(System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Authentication::ExtendedProtection").WithContext("ExtendedProtectionPolicy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExtendedProtectionPolicy*, creationType>(policyEnforcement)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x122AD90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExtendedProtectionPolicy* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Authentication::ExtendedProtection").WithContext("ExtendedProtectionPolicy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExtendedProtectionPolicy*, creationType>(info, context)));
     }
     // public override System.String ToString()

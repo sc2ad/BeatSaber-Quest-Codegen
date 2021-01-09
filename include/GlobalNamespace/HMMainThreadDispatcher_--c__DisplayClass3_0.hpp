@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMMainThreadDispatcher::$$c__DisplayClass3_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass3_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMMainThreadDispatcher::$$c__DisplayClass3_0*, creationType>()));
     }
   }; // HMMainThreadDispatcher/<>c__DisplayClass3_0

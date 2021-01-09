@@ -42,7 +42,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x119AFB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MacOsNetworkInterface* New_ctor(::Il2CppString* name, uint ifa_flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("MacOsNetworkInterface").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::MacOsNetworkInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MacOsNetworkInterface*, creationType>(name, ifa_flags)));
     }
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()

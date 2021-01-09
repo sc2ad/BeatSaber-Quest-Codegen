@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeadBodyOffsetSO* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("HeadBodyOffsetSO").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HeadBodyOffsetSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeadBodyOffsetSO*, creationType>()));
     }
   }; // HeadBodyOffsetSO

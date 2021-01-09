@@ -37,7 +37,7 @@ namespace UnityEngine {
     // Offset: 0x167E12C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BootConfigData* New_ctor(System::IntPtr nativeHandle) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("BootConfigData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::BootConfigData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BootConfigData*, creationType>(nativeHandle)));
     }
   }; // UnityEngine.BootConfigData

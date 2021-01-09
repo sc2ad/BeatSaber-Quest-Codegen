@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MipMapBiasSpriteSetter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MipMapBiasSpriteSetter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MipMapBiasSpriteSetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MipMapBiasSpriteSetter*, creationType>()));
     }
   }; // MipMapBiasSpriteSetter

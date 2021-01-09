@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BTSResultCharacterPlaceWithAnimation").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*, creationType>()));
     }
   }; // BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation

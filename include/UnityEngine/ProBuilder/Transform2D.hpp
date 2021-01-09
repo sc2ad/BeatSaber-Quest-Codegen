@@ -41,7 +41,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x194D818
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Transform2D* New_ctor(UnityEngine::Vector2 position, float rotation, UnityEngine::Vector2 scale) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("Transform2D").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Transform2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Transform2D*, creationType>(position, rotation, scale)));
     }
     // public UnityEngine.Vector2 TransformPoint(UnityEngine.Vector2 p)

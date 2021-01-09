@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1914B04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetRawZeroPoseToStandingAbsoluteTrackingPose").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*, creationType>(object, method)));
     }
     // public OVR.OpenVR.HmdMatrix34_t Invoke()

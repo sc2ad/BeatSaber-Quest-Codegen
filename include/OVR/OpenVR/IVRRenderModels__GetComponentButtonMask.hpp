@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1903C84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRRenderModels::_GetComponentButtonMask* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetComponentButtonMask").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRRenderModels::_GetComponentButtonMask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRRenderModels::_GetComponentButtonMask*, creationType>(object, method)));
     }
     // public System.UInt64 Invoke(System.String pchRenderModelName, System.String pchComponentName)

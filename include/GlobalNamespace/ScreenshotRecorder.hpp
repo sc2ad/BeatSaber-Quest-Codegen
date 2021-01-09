@@ -240,7 +240,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenshotRecorder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ScreenshotRecorder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ScreenshotRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenshotRecorder*, creationType>()));
     }
   }; // ScreenshotRecorder

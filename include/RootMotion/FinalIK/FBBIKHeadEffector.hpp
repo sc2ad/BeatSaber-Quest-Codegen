@@ -408,7 +408,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBBIKHeadEffector* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("FBBIKHeadEffector").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::FBBIKHeadEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBBIKHeadEffector*, creationType>()));
     }
   }; // RootMotion.FinalIK.FBBIKHeadEffector

@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E18E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Pid* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("Pid").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Pid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pid*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.Pid

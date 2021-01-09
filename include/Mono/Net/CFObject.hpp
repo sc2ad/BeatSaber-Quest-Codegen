@@ -55,7 +55,7 @@ namespace Mono::Net {
     // Offset: 0x125FCA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFObject* New_ctor(System::IntPtr handle, bool own) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Net").WithContext("CFObject").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFObject*, creationType>(handle, own)));
     }
     // public System.IntPtr get_Handle()

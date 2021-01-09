@@ -35,7 +35,7 @@ namespace System::Reflection {
     // Offset: 0x1720754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyInformationalVersionAttribute* New_ctor(::Il2CppString* informationalVersion) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("AssemblyInformationalVersionAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyInformationalVersionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyInformationalVersionAttribute*, creationType>(informationalVersion)));
     }
   }; // System.Reflection.AssemblyInformationalVersionAttribute

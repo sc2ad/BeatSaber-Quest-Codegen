@@ -54,7 +54,7 @@ namespace Zenject {
     // Offset: 0x1351D9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneContextRegistryAdderAndRemover* New_ctor(Zenject::SceneContext* sceneContext, Zenject::SceneContextRegistry* registry) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SceneContextRegistryAdderAndRemover").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SceneContextRegistryAdderAndRemover::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneContextRegistryAdderAndRemover*, creationType>(sceneContext, registry)));
     }
     // public System.Void Initialize()

@@ -34,7 +34,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x13EDCFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelegatingTestCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Commands").WithContext("DelegatingTestCommand").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::DelegatingTestCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelegatingTestCommand*, creationType>(innerCommand)));
     }
   }; // NUnit.Framework.Internal.Commands.DelegatingTestCommand

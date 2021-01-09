@@ -57,7 +57,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x111EF64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameInfo* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags, int typeMetadataSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("NameInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::NameInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameInfo*, creationType>(name, tags, typeMetadataSize)));
     }
     // public System.Int32 Compare(System.Diagnostics.Tracing.NameInfo other)

@@ -34,7 +34,7 @@ namespace System {
     // Offset: 0x1530DA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Console::InternalCancelHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("InternalCancelHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Console::InternalCancelHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Console::InternalCancelHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke()

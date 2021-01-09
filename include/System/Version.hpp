@@ -96,28 +96,28 @@ namespace System {
     // Offset: 0x1660BD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Version* New_ctor(int major, int minor, int build, int revision) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Version").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Version::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Version*, creationType>(major, minor, build, revision)));
     }
     // public System.Void .ctor(System.Int32 major, System.Int32 minor, System.Int32 build)
     // Offset: 0x1660D60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Version* New_ctor(int major, int minor, int build) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Version").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Version::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Version*, creationType>(major, minor, build)));
     }
     // public System.Void .ctor(System.Int32 major, System.Int32 minor)
     // Offset: 0x1660EB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Version* New_ctor(int major, int minor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Version").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Version::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Version*, creationType>(major, minor)));
     }
     // public System.Void .ctor(System.String version)
     // Offset: 0x1660FB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Version* New_ctor(::Il2CppString* version) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Version").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Version::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Version*, creationType>(version)));
     }
     // public System.Int32 get_Major()
@@ -156,7 +156,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Version* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Version").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Version::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Version*, creationType>()));
     }
     // public System.Object Clone()

@@ -41,14 +41,14 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1374780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerUtf8String* New_ctor(::Array<uint8_t>* str) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerUtf8String").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerUtf8String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerUtf8String*, creationType>(str)));
     }
     // public System.Void .ctor(System.String str)
     // Offset: 0x1385F64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerUtf8String* New_ctor(::Il2CppString* str) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerUtf8String").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerUtf8String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerUtf8String*, creationType>(str)));
     }
     // public override System.String GetString()

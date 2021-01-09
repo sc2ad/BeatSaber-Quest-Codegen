@@ -46,7 +46,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x1414C9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InfiniteRuntimeClip* New_ctor(UnityEngine::Playables::Playable playable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("InfiniteRuntimeClip").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::InfiniteRuntimeClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InfiniteRuntimeClip*, creationType>(playable)));
     }
     // static private System.Void .cctor()

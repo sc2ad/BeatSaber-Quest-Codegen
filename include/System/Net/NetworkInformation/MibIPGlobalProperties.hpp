@@ -63,7 +63,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x1199C54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MibIPGlobalProperties* New_ctor(::Il2CppString* procDir) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("MibIPGlobalProperties").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::MibIPGlobalProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MibIPGlobalProperties*, creationType>(procDir)));
     }
     // static private System.Void .cctor()

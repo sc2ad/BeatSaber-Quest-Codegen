@@ -101,7 +101,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionBindInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConventionBindInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConventionBindInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionBindInfo*, creationType>()));
     }
   }; // Zenject.ConventionBindInfo

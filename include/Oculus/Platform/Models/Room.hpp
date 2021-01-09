@@ -187,7 +187,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DC5F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Room* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("Room").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Room::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Room*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.Room

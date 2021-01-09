@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x1017044
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionCompletionResults* New_ctor(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::Array<GlobalNamespace::MissionObjectiveResult*>* missionObjectiveResults) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MissionCompletionResults").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionCompletionResults::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionCompletionResults*, creationType>(levelCompletionResults, missionObjectiveResults)));
     }
   }; // MissionCompletionResults

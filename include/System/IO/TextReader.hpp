@@ -89,7 +89,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextReader* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("TextReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::TextReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextReader*, creationType>()));
     }
     // public System.Void Dispose()

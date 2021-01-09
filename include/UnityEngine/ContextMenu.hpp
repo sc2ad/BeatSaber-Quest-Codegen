@@ -45,21 +45,21 @@ namespace UnityEngine {
     // Offset: 0x1682DD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextMenu* New_ctor(::Il2CppString* itemName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("ContextMenu").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ContextMenu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextMenu*, creationType>(itemName)));
     }
     // public System.Void .ctor(System.String itemName, System.Boolean isValidateFunction)
     // Offset: 0x1682E1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextMenu* New_ctor(::Il2CppString* itemName, bool isValidateFunction) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("ContextMenu").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ContextMenu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextMenu*, creationType>(itemName, isValidateFunction)));
     }
     // public System.Void .ctor(System.String itemName, System.Boolean isValidateFunction, System.Int32 priority)
     // Offset: 0x1682E74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextMenu* New_ctor(::Il2CppString* itemName, bool isValidateFunction, int priority) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("ContextMenu").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ContextMenu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextMenu*, creationType>(itemName, isValidateFunction, priority)));
     }
   }; // UnityEngine.ContextMenu

@@ -40,7 +40,7 @@ namespace Mono::Security::X509 {
     // Offset: 0x19C0A30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeBag* New_ctor(::Il2CppString* bagOID, Mono::Security::ASN1* asn1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::X509").WithContext("SafeBag").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::SafeBag::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeBag*, creationType>(bagOID, asn1)));
     }
     // public System.String get_BagOID()

@@ -23,7 +23,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     template<class T>
     LiteNetLib::Utils::NetSerializer::FastCall_1<T>* Get() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("CustomType").WithContext("Get");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::CustomType::Get");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Get", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<LiteNetLib::Utils::NetSerializer::FastCall_1<T>*, false>(this, ___internal__method);
@@ -34,7 +34,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer::CustomType* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("CustomType").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::CustomType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::CustomType*, creationType>()));
     }
   }; // LiteNetLib.Utils.NetSerializer/CustomType

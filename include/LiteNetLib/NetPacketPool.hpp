@@ -70,7 +70,7 @@ namespace LiteNetLib {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketPool* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib").WithContext("NetPacketPool").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetPacketPool::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketPool*, creationType>()));
     }
   }; // LiteNetLib.NetPacketPool

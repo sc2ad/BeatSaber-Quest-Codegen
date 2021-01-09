@@ -54,14 +54,14 @@ namespace System::ComponentModel {
     // Offset: 0x1481DB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Exception* New_ctor(int error) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("Win32Exception").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Win32Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(error)));
     }
     // public System.Void .ctor(System.Int32 error, System.String message)
     // Offset: 0x1481F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Exception* New_ctor(int error, ::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("Win32Exception").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Win32Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(error, message)));
     }
     // public System.Int32 get_NativeErrorCode()
@@ -82,7 +82,7 @@ namespace System::ComponentModel {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Exception* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("Win32Exception").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Win32Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>()));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -93,7 +93,7 @@ namespace System::ComponentModel {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Exception* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("Win32Exception").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Win32Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(info, context)));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

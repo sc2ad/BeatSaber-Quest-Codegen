@@ -34,7 +34,7 @@ namespace Mono::Util {
     // Offset: 0x147AC94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoPInvokeCallbackAttribute* New_ctor(System::Type* t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Util").WithContext("MonoPInvokeCallbackAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Util::MonoPInvokeCallbackAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoPInvokeCallbackAttribute*, creationType>(t)));
     }
   }; // Mono.Util.MonoPInvokeCallbackAttribute

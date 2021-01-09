@@ -119,7 +119,7 @@ namespace RootMotion::FinalIK {
       // Offset: 0xCA684C
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       AxisDirection(UnityEngine::Vector3 direction, UnityEngine::Vector3 axis) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("AxisDirection").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverLimb::AxisDirection::.ctor");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(direction, axis)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, direction, axis);
       }
@@ -240,7 +240,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x16EE764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverLimb* New_ctor(UnityEngine::AvatarIKGoal goal) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("IKSolverLimb").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverLimb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLimb*, creationType>(goal)));
     }
     // private RootMotion.FinalIK.IKSolverLimb/AxisDirection[] get_axisDirections()
@@ -275,7 +275,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverLimb* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("IKSolverLimb").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverLimb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLimb*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolverLimb

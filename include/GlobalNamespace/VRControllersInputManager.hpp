@@ -132,7 +132,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersInputManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("VRControllersInputManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersInputManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersInputManager*, creationType>()));
     }
   }; // VRControllersInputManager

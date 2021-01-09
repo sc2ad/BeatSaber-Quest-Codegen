@@ -68,7 +68,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WTauNafMultiplier* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Multiplier").WithContext("WTauNafMultiplier").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WTauNafMultiplier*, creationType>()));
     }
   }; // Org.BouncyCastle.Math.EC.Multiplier.WTauNafMultiplier

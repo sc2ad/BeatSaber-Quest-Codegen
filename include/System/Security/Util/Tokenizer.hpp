@@ -211,7 +211,7 @@ namespace System::Security::Util {
     // Offset: 0x12882A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tokenizer* New_ctor(::Il2CppString* input) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Util").WithContext("Tokenizer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Tokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer*, creationType>(input)));
     }
     // System.Void ChangeFormat(System.Text.Encoding encoding)

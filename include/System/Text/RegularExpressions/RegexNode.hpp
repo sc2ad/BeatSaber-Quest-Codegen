@@ -83,35 +83,35 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x1548C60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text::RegularExpressions").WithContext("RegexNode").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options)));
     }
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.Char ch)
     // Offset: 0x1548C9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, ::Il2CppChar ch) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text::RegularExpressions").WithContext("RegexNode").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options, ch)));
     }
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.String str)
     // Offset: 0x1548CE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, ::Il2CppString* str) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text::RegularExpressions").WithContext("RegexNode").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options, str)));
     }
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.Int32 m)
     // Offset: 0x1548D2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, int m) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text::RegularExpressions").WithContext("RegexNode").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options, m)));
     }
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.Int32 m, System.Int32 n)
     // Offset: 0x1548D70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, int m, int n) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text::RegularExpressions").WithContext("RegexNode").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options, m, n)));
     }
     // System.Boolean UseOptionR()

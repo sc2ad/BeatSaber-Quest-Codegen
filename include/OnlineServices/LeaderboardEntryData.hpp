@@ -58,7 +58,7 @@ namespace OnlineServices {
     // Offset: 0xEFDF68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntryData* New_ctor(int score, int rank, ::Il2CppString* displayName, ::Il2CppString* playerId, GlobalNamespace::GameplayModifiers* gameplayModifiers) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OnlineServices").WithContext("LeaderboardEntryData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::LeaderboardEntryData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntryData*, creationType>(score, rank, displayName, playerId, gameplayModifiers)));
     }
     // public override System.String ToString()

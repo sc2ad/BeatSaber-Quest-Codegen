@@ -86,7 +86,7 @@ namespace Zenject {
     // Offset: 0x13497A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo, Zenject::GameObjectCreationParameters* gameObjectBindInfo, UnityEngine::Object* prefab, System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>* providerFactory) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PrefabBindingFinalizer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabBindingFinalizer*, creationType>(bindInfo, gameObjectBindInfo, prefab, providerFactory)));
     }
     // private System.Void FinalizeBindingConcrete(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes)

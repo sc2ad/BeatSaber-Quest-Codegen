@@ -128,7 +128,7 @@ namespace HMUI {
     // Offset: 0x107D3CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PanelAnimation::$AnimationCoroutine$d__1* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("$AnimationCoroutine$d__1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::PanelAnimation::$AnimationCoroutine$d__1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PanelAnimation::$AnimationCoroutine$d__1*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

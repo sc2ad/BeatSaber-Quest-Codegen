@@ -44,7 +44,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x157FED0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(bool critical, Org::BouncyCastle::Asn1::Asn1OctetString* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X509").WithContext("X509Extension").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(critical, value)));
     }
     // public System.Boolean get_IsCritical()

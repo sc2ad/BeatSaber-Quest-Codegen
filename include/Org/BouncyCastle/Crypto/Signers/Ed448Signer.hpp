@@ -78,7 +78,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Offset: 0x104EC78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed448Signer* New_ctor(::Array<uint8_t>* context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Signers").WithContext("Ed448Signer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::Ed448Signer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed448Signer*, creationType>(context)));
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)

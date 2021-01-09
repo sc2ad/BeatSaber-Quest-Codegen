@@ -34,7 +34,7 @@ namespace System::Net {
     // Offset: 0x1216510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimerThread::Callback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("Callback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::TimerThread::Callback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimerThread::Callback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Net.TimerThread/Timer timer, System.Int32 timeNoticed, System.Object context)

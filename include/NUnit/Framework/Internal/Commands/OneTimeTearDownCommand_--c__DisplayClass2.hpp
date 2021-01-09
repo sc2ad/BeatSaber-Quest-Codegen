@@ -46,7 +46,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OneTimeTearDownCommand::$$c__DisplayClass2* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Commands").WithContext("$$c__DisplayClass2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OneTimeTearDownCommand::$$c__DisplayClass2*, creationType>()));
     }
   }; // NUnit.Framework.Internal.Commands.OneTimeTearDownCommand/<>c__DisplayClass2

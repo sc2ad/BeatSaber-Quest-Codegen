@@ -51,7 +51,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1048688
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410KeyParameters* New_ctor(bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("Gost3410KeyParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410KeyParameters*, creationType>(isPrivate, publicKeyParamSet)));
     }
     // public Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters get_Parameters()

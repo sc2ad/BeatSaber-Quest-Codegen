@@ -63,21 +63,21 @@ namespace System::Net::Mail {
     // Offset: 0x12BEB14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MailAddress* New_ctor(::Il2CppString* address) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Mail").WithContext("MailAddress").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Mail::MailAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MailAddress*, creationType>(address)));
     }
     // public System.Void .ctor(System.String address, System.String displayName)
     // Offset: 0x12BEB48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MailAddress* New_ctor(::Il2CppString* address, ::Il2CppString* displayName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Mail").WithContext("MailAddress").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Mail::MailAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MailAddress*, creationType>(address, displayName)));
     }
     // public System.Void .ctor(System.String address, System.String displayName, System.Text.Encoding displayNameEncoding)
     // Offset: 0x12BEB88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MailAddress* New_ctor(::Il2CppString* address, ::Il2CppString* displayName, System::Text::Encoding* displayNameEncoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Mail").WithContext("MailAddress").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Mail::MailAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MailAddress*, creationType>(address, displayName, displayNameEncoding)));
     }
     // private System.Void ParseAddress(System.String address)

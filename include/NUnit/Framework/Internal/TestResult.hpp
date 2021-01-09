@@ -143,7 +143,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x195BC54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestResult* New_ctor(NUnit::Framework::Interfaces::ITest* test) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("TestResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestResult*, creationType>(test)));
     }
     // private System.Void set_Test(NUnit.Framework.Interfaces.ITest value)

@@ -48,7 +48,7 @@ namespace System::Runtime::Remoting::Activation {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstructionLevelActivator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Activation").WithContext("ConstructionLevelActivator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Activation::ConstructionLevelActivator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstructionLevelActivator*, creationType>()));
     }
   }; // System.Runtime.Remoting.Activation.ConstructionLevelActivator

@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Offset: 0x1B4B334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiffieHellmanUtility::OperationTimer* New_ctor(::Il2CppString* operationName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OperationTimer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DiffieHellmanUtility::OperationTimer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiffieHellmanUtility::OperationTimer*, creationType>(operationName)));
     }
     // static public DiffieHellmanUtility/OperationTimer Time(System.String operation)

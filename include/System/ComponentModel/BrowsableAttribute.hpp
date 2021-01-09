@@ -46,7 +46,7 @@ namespace System::ComponentModel {
     // Offset: 0x1480010
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BrowsableAttribute* New_ctor(bool browsable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("BrowsableAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::BrowsableAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BrowsableAttribute*, creationType>(browsable)));
     }
     // public System.Boolean get_Browsable()

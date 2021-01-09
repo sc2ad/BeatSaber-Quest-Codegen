@@ -48,7 +48,7 @@ namespace LiteNetLib {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetManager::IPEndPointComparer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib").WithContext("IPEndPointComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetManager::IPEndPointComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetManager::IPEndPointComparer*, creationType>()));
     }
   }; // LiteNetLib.NetManager/IPEndPointComparer

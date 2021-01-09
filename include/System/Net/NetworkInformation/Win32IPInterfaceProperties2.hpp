@@ -58,7 +58,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x119DB98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32IPInterfaceProperties2* New_ctor(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr, System::Net::NetworkInformation::Win32_MIB_IFROW mib4, System::Net::NetworkInformation::Win32_MIB_IFROW mib6) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("Win32IPInterfaceProperties2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::Win32IPInterfaceProperties2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32IPInterfaceProperties2*, creationType>(addr, mib4, mib6)));
     }
     // static private System.Net.NetworkInformation.UnicastIPAddressInformationCollection Win32FromUnicast(System.IntPtr ptr)

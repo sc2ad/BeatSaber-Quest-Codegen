@@ -40,7 +40,7 @@ namespace System::Reflection {
     // Offset: 0x15CD748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoParameterInfo* New_ctor(System::Reflection::ParameterInfo* pinfo, System::Reflection::MemberInfo* member) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("MonoParameterInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoParameterInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoParameterInfo*, creationType>(pinfo, member)));
     }
     // public override System.Object get_DefaultValue()

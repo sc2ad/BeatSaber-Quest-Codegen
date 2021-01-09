@@ -27,7 +27,7 @@ namespace UnityEngine::Scripting {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneratedByOldBindingsGeneratorAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Scripting").WithContext("GeneratedByOldBindingsGeneratorAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Scripting::GeneratedByOldBindingsGeneratorAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneratedByOldBindingsGeneratorAttribute*, creationType>()));
     }
   }; // UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute

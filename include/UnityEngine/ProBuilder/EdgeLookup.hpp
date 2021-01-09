@@ -86,7 +86,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xCA34F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     EdgeLookup(int cx, int cy, int x, int y) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("EdgeLookup").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::EdgeLookup::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(cx, cy, x, y)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, cx, cy, x, y);
     }

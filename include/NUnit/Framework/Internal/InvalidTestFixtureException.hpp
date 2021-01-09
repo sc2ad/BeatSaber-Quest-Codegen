@@ -33,7 +33,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidTestFixtureException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("InvalidTestFixtureException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::InvalidTestFixtureException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidTestFixtureException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -42,7 +42,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidTestFixtureException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("InvalidTestFixtureException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::InvalidTestFixtureException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidTestFixtureException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -51,7 +51,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidTestFixtureException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("InvalidTestFixtureException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::InvalidTestFixtureException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidTestFixtureException*, creationType>(info, context)));
     }
   }; // NUnit.Framework.Internal.InvalidTestFixtureException

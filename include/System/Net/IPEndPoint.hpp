@@ -77,7 +77,7 @@ namespace System::Net {
     // Offset: 0x12BCBE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPEndPoint* New_ctor(System::Net::IPAddress* address, int port) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("IPEndPoint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::IPEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPEndPoint*, creationType>(address, port)));
     }
     // public System.Net.IPAddress get_Address()

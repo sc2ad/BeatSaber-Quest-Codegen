@@ -46,7 +46,7 @@ namespace Valve::VR {
     // Offset: 0x18ED300
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRNotifications::_CreateNotification* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_CreateNotification").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRNotifications::_CreateNotification::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRNotifications::_CreateNotification*, creationType>(object, method)));
     }
     // public Valve.VR.EVRNotificationError Invoke(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, Valve.VR.EVRNotificationType type, System.String pchText, Valve.VR.EVRNotificationStyle style, ref Valve.VR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId)

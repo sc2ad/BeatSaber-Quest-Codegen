@@ -48,7 +48,7 @@ namespace VRUIControls {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRGraphicRaycaster::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("VRUIControls").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("VRUIControls::VRGraphicRaycaster::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRGraphicRaycaster::$$c*, creationType>()));
     }
   }; // VRUIControls.VRGraphicRaycaster/<>c

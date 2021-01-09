@@ -116,7 +116,7 @@ namespace Mono::Unity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTlsProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Unity").WithContext("UnityTlsProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Unity::UnityTlsProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTlsProvider*, creationType>()));
     }
   }; // Mono.Unity.UnityTlsProvider

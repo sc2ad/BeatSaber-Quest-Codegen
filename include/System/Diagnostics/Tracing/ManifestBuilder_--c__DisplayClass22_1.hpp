@@ -43,7 +43,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ManifestBuilder::$$c__DisplayClass22_1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("$$c__DisplayClass22_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ManifestBuilder::$$c__DisplayClass22_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ManifestBuilder::$$c__DisplayClass22_1*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.ManifestBuilder/<>c__DisplayClass22_1

@@ -45,7 +45,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1383630
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerNull* New_ctor(int dummy) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerNull").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerNull::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerNull*, creationType>(dummy)));
     }
     // static private System.Void .cctor()

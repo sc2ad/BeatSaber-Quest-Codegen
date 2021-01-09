@@ -56,14 +56,14 @@ namespace System::IO {
     // Offset: 0x13AC078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringWriter* New_ctor(System::Text::StringBuilder* sb) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StringWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StringWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringWriter*, creationType>(sb)));
     }
     // public System.Void .ctor(System.Text.StringBuilder sb, System.IFormatProvider formatProvider)
     // Offset: 0x13ABF10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringWriter* New_ctor(System::Text::StringBuilder* sb, System::IFormatProvider* formatProvider) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StringWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StringWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringWriter*, creationType>(sb, formatProvider)));
     }
     // public System.Void .ctor()
@@ -74,7 +74,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringWriter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StringWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StringWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringWriter*, creationType>()));
     }
     // public System.Void .ctor(System.IFormatProvider formatProvider)
@@ -83,7 +83,7 @@ namespace System::IO {
     // Base method: System.Void TextWriter::.ctor(System.IFormatProvider formatProvider)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringWriter* New_ctor(System::IFormatProvider* formatProvider) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StringWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StringWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringWriter*, creationType>(formatProvider)));
     }
     // public override System.Void Close()

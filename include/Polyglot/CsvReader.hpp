@@ -39,7 +39,7 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CsvReader* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("CsvReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::CsvReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CsvReader*, creationType>()));
     }
   }; // Polyglot.CsvReader

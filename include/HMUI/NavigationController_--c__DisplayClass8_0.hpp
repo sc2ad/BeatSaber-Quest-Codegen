@@ -60,7 +60,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NavigationController::$$c__DisplayClass8_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("$$c__DisplayClass8_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::NavigationController::$$c__DisplayClass8_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NavigationController::$$c__DisplayClass8_0*, creationType>()));
     }
   }; // HMUI.NavigationController/<>c__DisplayClass8_0

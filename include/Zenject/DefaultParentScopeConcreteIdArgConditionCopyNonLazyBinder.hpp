@@ -40,7 +40,7 @@ namespace Zenject {
     // Offset: 0x10F37D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, Zenject::BindInfo* bindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*, creationType>(subContainerBindInfo, bindInfo)));
     }
     // protected Zenject.SubContainerCreatorBindInfo get_SubContainerCreatorBindInfo()

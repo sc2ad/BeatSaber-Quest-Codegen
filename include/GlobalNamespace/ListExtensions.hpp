@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static int IndexOf(System::Collections::Generic::IReadOnlyList_1<T>* self, T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ListExtensions").WithContext("IndexOf");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListExtensions::IndexOf");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "ListExtensions", "IndexOf", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(self, item)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, self, item);
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void ShuffleInPlace(System::Collections::Generic::IList_1<T>* list) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ListExtensions").WithContext("ShuffleInPlace");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListExtensions::ShuffleInPlace");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "ListExtensions", "ShuffleInPlace", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list);

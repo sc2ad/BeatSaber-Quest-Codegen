@@ -30,7 +30,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x1697E84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMACSHA384* New_ctor(::Array<uint8_t>* key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("HMACSHA384").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::HMACSHA384::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMACSHA384*, creationType>(key)));
     }
     // private System.Int32 get_BlockSize()
@@ -45,7 +45,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMACSHA384* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("HMACSHA384").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::HMACSHA384::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMACSHA384*, creationType>()));
     }
   }; // System.Security.Cryptography.HMACSHA384

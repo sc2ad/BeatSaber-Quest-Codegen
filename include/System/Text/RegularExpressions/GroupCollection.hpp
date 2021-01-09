@@ -67,7 +67,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x146D014
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GroupCollection* New_ctor(System::Text::RegularExpressions::Match* match, System::Collections::Hashtable* caps) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text::RegularExpressions").WithContext("GroupCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::GroupCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GroupCollection*, creationType>(match, caps)));
     }
     // public System.Text.RegularExpressions.Group get_Item(System.Int32 groupnum)
@@ -109,7 +109,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GroupCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text::RegularExpressions").WithContext("GroupCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::GroupCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GroupCollection*, creationType>()));
     }
   }; // System.Text.RegularExpressions.GroupCollection

@@ -67,14 +67,14 @@ namespace System::Text {
     // Offset: 0x16AD9A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnicodeEncoding* New_ctor(bool bigEndian, bool byteOrderMark) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("UnicodeEncoding").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UnicodeEncoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnicodeEncoding*, creationType>(bigEndian, byteOrderMark)));
     }
     // public System.Void .ctor(System.Boolean bigEndian, System.Boolean byteOrderMark, System.Boolean throwOnInvalidBytes)
     // Offset: 0x16AD9B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnicodeEncoding* New_ctor(bool bigEndian, bool byteOrderMark, bool throwOnInvalidBytes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("UnicodeEncoding").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UnicodeEncoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnicodeEncoding*, creationType>(bigEndian, byteOrderMark, throwOnInvalidBytes)));
     }
     // static private System.Void .cctor()
@@ -87,7 +87,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnicodeEncoding* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("UnicodeEncoding").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UnicodeEncoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnicodeEncoding*, creationType>()));
     }
     // private System.Void OnDeserializing(System.Runtime.Serialization.StreamingContext ctx)

@@ -100,7 +100,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Offset: 0x14A1238
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SipHash* New_ctor(int c, int d) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Macs").WithContext("SipHash").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::SipHash::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SipHash*, creationType>(c, d)));
     }
     // public System.Int64 DoFinal()
@@ -121,7 +121,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SipHash* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Macs").WithContext("SipHash").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::SipHash::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SipHash*, creationType>()));
     }
     // public System.Int32 GetMacSize()

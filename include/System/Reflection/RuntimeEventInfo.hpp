@@ -81,7 +81,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeEventInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("RuntimeEventInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::RuntimeEventInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeEventInfo*, creationType>()));
     }
   }; // System.Reflection.RuntimeEventInfo

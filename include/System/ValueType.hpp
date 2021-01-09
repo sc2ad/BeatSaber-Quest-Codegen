@@ -39,7 +39,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueType* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ValueType").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ValueType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueType*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)

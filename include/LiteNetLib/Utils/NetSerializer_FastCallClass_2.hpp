@@ -48,7 +48,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer::FastCallClass_2<TClass, TProperty>* New_ctor(System::Func_1<TProperty>* constructor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("FastCallClass_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCallClass_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::FastCallClass_2<TClass, TProperty>*, creationType>(constructor)));
     }
     // public override System.Void Read(TClass inf, LiteNetLib.Utils.NetDataReader r)
@@ -56,7 +56,7 @@ namespace LiteNetLib::Utils {
     // Implemented from: LiteNetLib.Utils.NetSerializer/FastCall`1
     // Base method: System.Void FastCall_1::Read(TClass inf, LiteNetLib.Utils.NetDataReader r)
     void Read(TClass inf, LiteNetLib::Utils::NetDataReader* r) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("FastCallClass_2").WithContext("Read");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCallClass_2::Read");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Read", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(inf, r)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, r);
     }
@@ -65,7 +65,7 @@ namespace LiteNetLib::Utils {
     // Implemented from: LiteNetLib.Utils.NetSerializer/FastCall`1
     // Base method: System.Void FastCall_1::Write(TClass inf, LiteNetLib.Utils.NetDataWriter w)
     void Write(TClass inf, LiteNetLib::Utils::NetDataWriter* w) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("FastCallClass_2").WithContext("Write");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCallClass_2::Write");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Write", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(inf, w)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, w);
     }
@@ -74,7 +74,7 @@ namespace LiteNetLib::Utils {
     // Implemented from: LiteNetLib.Utils.NetSerializer/FastCall`1
     // Base method: System.Void FastCall_1::ReadArray(TClass inf, LiteNetLib.Utils.NetDataReader r)
     void ReadArray(TClass inf, LiteNetLib::Utils::NetDataReader* r) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("FastCallClass_2").WithContext("ReadArray");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCallClass_2::ReadArray");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ReadArray", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(inf, r)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, r);
     }
@@ -83,7 +83,7 @@ namespace LiteNetLib::Utils {
     // Implemented from: LiteNetLib.Utils.NetSerializer/FastCall`1
     // Base method: System.Void FastCall_1::WriteArray(TClass inf, LiteNetLib.Utils.NetDataWriter w)
     void WriteArray(TClass inf, LiteNetLib::Utils::NetDataWriter* w) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("FastCallClass_2").WithContext("WriteArray");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCallClass_2::WriteArray");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "WriteArray", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(inf, w)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, w);
     }

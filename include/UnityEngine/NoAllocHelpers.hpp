@@ -35,7 +35,7 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void ResizeList(System::Collections::Generic::List_1<T>* list, int size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("NoAllocHelpers").WithContext("ResizeList");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::NoAllocHelpers::ResizeList");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "NoAllocHelpers", "ResizeList", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list, size)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list, size);
@@ -44,7 +44,7 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void EnsureListElemCount(System::Collections::Generic::List_1<T>* list, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("NoAllocHelpers").WithContext("EnsureListElemCount");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::NoAllocHelpers::EnsureListElemCount");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "NoAllocHelpers", "EnsureListElemCount", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list, count)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list, count);
@@ -56,7 +56,7 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     template<class T>
     static int SafeLength(System::Collections::Generic::List_1<T>* values) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("NoAllocHelpers").WithContext("SafeLength");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::NoAllocHelpers::SafeLength");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "NoAllocHelpers", "SafeLength", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(values)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, values);
@@ -65,7 +65,7 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::Array<T>* ExtractArrayFromListT(System::Collections::Generic::List_1<T>* list) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("NoAllocHelpers").WithContext("ExtractArrayFromListT");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::NoAllocHelpers::ExtractArrayFromListT");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "NoAllocHelpers", "ExtractArrayFromListT", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list);

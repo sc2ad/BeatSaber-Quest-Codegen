@@ -43,7 +43,7 @@ namespace Zenject::Internal {
     // Offset: 0x12A25F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LookupId* New_ctor(Zenject::IProvider* provider, Zenject::BindingId bindingId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject::Internal").WithContext("LookupId").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::LookupId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LookupId*, creationType>(provider, bindingId)));
     }
     // public System.Void .ctor()
@@ -52,7 +52,7 @@ namespace Zenject::Internal {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LookupId* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject::Internal").WithContext("LookupId").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::LookupId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LookupId*, creationType>()));
     }
     // public override System.Int32 GetHashCode()

@@ -46,7 +46,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1373360
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerSequenceParser* New_ctor(Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("BerSequenceParser").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerSequenceParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerSequenceParser*, creationType>(parser)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()

@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F500C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRDriverManager* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("CVRDriverManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRDriverManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRDriverManager*, creationType>(pInterface)));
     }
     // public System.UInt32 GetDriverCount()

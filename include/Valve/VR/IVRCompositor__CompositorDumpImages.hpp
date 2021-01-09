@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x18E49F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_CompositorDumpImages* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_CompositorDumpImages").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRCompositor::_CompositorDumpImages::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_CompositorDumpImages*, creationType>(object, method)));
     }
     // public System.Void Invoke()

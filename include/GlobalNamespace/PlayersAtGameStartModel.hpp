@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Offset: 0x1E52D74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayersAtGameStartModel* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("PlayersAtGameStartModel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayersAtGameStartModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayersAtGameStartModel*, creationType>(multiplayerSessionManager)));
     }
     // public System.Void SaveConnectedPlayersContainedIn(System.Collections.Generic.HashSet`1<System.String> playerIds)

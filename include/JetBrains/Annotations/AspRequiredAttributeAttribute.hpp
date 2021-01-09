@@ -35,7 +35,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE2EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AspRequiredAttributeAttribute* New_ctor(::Il2CppString* attribute) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("AspRequiredAttributeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::AspRequiredAttributeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AspRequiredAttributeAttribute*, creationType>(attribute)));
     }
     // public System.String get_Attribute()

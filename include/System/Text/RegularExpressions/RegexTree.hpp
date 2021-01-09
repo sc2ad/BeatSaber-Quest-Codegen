@@ -77,7 +77,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x154AA58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexTree* New_ctor(System::Text::RegularExpressions::RegexNode* root, System::Collections::Hashtable* caps, ::Array<int>* capnumlist, int captop, System::Collections::Hashtable* capnames, ::Array<::Il2CppString*>* capslist, System::Text::RegularExpressions::RegexOptions opts) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text::RegularExpressions").WithContext("RegexTree").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexTree::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexTree*, creationType>(root, caps, capnumlist, captop, capnames, capslist, opts)));
     }
   }; // System.Text.RegularExpressions.RegexTree

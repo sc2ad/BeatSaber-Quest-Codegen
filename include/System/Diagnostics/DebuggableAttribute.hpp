@@ -95,7 +95,7 @@ namespace System::Diagnostics {
     // Offset: 0x167769C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DebuggableAttribute* New_ctor(System::Diagnostics::DebuggableAttribute::DebuggingModes modes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("DebuggableAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::DebuggableAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DebuggableAttribute*, creationType>(modes)));
     }
   }; // System.Diagnostics.DebuggableAttribute

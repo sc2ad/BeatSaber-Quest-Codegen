@@ -53,14 +53,14 @@ namespace System::Security::Principal {
     // Offset: 0x1281920
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericIdentity* New_ctor(::Il2CppString* name, ::Il2CppString* type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Principal").WithContext("GenericIdentity").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Principal::GenericIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericIdentity*, creationType>(name, type)));
     }
     // protected System.Void .ctor(System.Security.Principal.GenericIdentity identity)
     // Offset: 0x1281ABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericIdentity* New_ctor(System::Security::Principal::GenericIdentity* identity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Principal").WithContext("GenericIdentity").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Principal::GenericIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericIdentity*, creationType>(identity)));
     }
     // private System.Void AddNameClaim()
@@ -73,7 +73,7 @@ namespace System::Security::Principal {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericIdentity* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Principal").WithContext("GenericIdentity").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Principal::GenericIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericIdentity*, creationType>()));
     }
     // public override System.Security.Claims.ClaimsIdentity Clone()

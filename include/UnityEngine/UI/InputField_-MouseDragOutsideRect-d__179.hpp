@@ -63,7 +63,7 @@ namespace UnityEngine::UI {
     // Offset: 0x155F4A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputField::$MouseDragOutsideRect$d__179* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("$MouseDragOutsideRect$d__179").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::InputField::$MouseDragOutsideRect$d__179::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputField::$MouseDragOutsideRect$d__179*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

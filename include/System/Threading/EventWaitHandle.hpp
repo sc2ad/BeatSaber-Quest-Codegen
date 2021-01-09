@@ -26,14 +26,14 @@ namespace System::Threading {
     // Offset: 0x16B1BC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventWaitHandle* New_ctor(bool initialState, System::Threading::EventResetMode mode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("EventWaitHandle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::EventWaitHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventWaitHandle*, creationType>(initialState, mode)));
     }
     // public System.Void .ctor(System.Boolean initialState, System.Threading.EventResetMode mode, System.String name)
     // Offset: 0x16B483C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventWaitHandle* New_ctor(bool initialState, System::Threading::EventResetMode mode, ::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("EventWaitHandle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::EventWaitHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventWaitHandle*, creationType>(initialState, mode, name)));
     }
     // public System.Boolean Reset()

@@ -35,7 +35,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageWithApplicationVersion* New_ctor(System::IntPtr c_message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("MessageWithApplicationVersion").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::MessageWithApplicationVersion::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithApplicationVersion*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.ApplicationVersion GetApplicationVersion()

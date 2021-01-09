@@ -101,7 +101,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x1410418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationOutputWeightProcessor* New_ctor(UnityEngine::Animations::AnimationPlayableOutput output) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("AnimationOutputWeightProcessor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::AnimationOutputWeightProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationOutputWeightProcessor*, creationType>(output)));
     }
     // private System.Void FindMixers()

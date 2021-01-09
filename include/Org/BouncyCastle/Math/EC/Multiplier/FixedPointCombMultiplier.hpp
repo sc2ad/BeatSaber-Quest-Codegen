@@ -43,7 +43,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixedPointCombMultiplier* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Multiplier").WithContext("FixedPointCombMultiplier").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixedPointCombMultiplier*, creationType>()));
     }
   }; // Org.BouncyCastle.Math.EC.Multiplier.FixedPointCombMultiplier

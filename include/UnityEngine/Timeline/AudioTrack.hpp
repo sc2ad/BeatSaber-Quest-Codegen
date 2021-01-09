@@ -91,7 +91,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioTrack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("AudioTrack").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::AudioTrack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioTrack*, creationType>()));
     }
   }; // UnityEngine.Timeline.AudioTrack

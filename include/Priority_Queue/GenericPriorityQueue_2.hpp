@@ -89,7 +89,7 @@ namespace Priority_Queue {
       // Offset: 0xFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename GenericPriorityQueue_2<TItem, TPriority>::$GetEnumerator$d__25* New_ctor(int $$1__state) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("$GetEnumerator$d__25").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::$GetEnumerator$d__25::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename GenericPriorityQueue_2<TItem, TPriority>::$GetEnumerator$d__25*, creationType>($$1__state)));
       }
       // private System.Void System.IDisposable.Dispose()
@@ -97,7 +97,7 @@ namespace Priority_Queue {
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void System_IDisposable_Dispose() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("$GetEnumerator$d__25").WithContext("System.IDisposable.Dispose");
+        static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::$GetEnumerator$d__25::System.IDisposable.Dispose");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
@@ -106,7 +106,7 @@ namespace Priority_Queue {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("$GetEnumerator$d__25").WithContext("MoveNext");
+        static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::$GetEnumerator$d__25::MoveNext");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
       }
@@ -120,7 +120,7 @@ namespace Priority_Queue {
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator_1::get_Current()
       TItem System_Collections_Generic_IEnumerator_1_get_Current() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("$GetEnumerator$d__25").WithContext("System.Collections.Generic.IEnumerator<TItem>.get_Current");
+        static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::$GetEnumerator$d__25::System.Collections.Generic.IEnumerator<TItem>.get_Current");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerator<TItem>.get_Current", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
         return ::il2cpp_utils::RunMethodThrow<TItem, false>(this, ___internal__method);
       }
@@ -129,7 +129,7 @@ namespace Priority_Queue {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("$GetEnumerator$d__25").WithContext("System.Collections.IEnumerator.Reset");
+        static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::$GetEnumerator$d__25::System.Collections.IEnumerator.Reset");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
@@ -138,7 +138,7 @@ namespace Priority_Queue {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("$GetEnumerator$d__25").WithContext("System.Collections.IEnumerator.get_Current");
+        static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::$GetEnumerator$d__25::System.Collections.IEnumerator.get_Current");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
       }
@@ -178,62 +178,62 @@ namespace Priority_Queue {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericPriorityQueue_2<TItem, TPriority>* New_ctor(int maxNodes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericPriorityQueue_2<TItem, TPriority>*, creationType>(maxNodes)));
     }
     // public System.Void .ctor(System.Int32 maxNodes, System.Collections.Generic.IComparer`1<TPriority> comparer)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericPriorityQueue_2<TItem, TPriority>* New_ctor(int maxNodes, System::Collections::Generic::IComparer_1<TPriority>* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericPriorityQueue_2<TItem, TPriority>*, creationType>(maxNodes, comparer)));
     }
     // public System.Void .ctor(System.Int32 maxNodes, System.Comparison`1<TPriority> comparer)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericPriorityQueue_2<TItem, TPriority>* New_ctor(int maxNodes, System::Comparison_1<TPriority>* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericPriorityQueue_2<TItem, TPriority>*, creationType>(maxNodes, comparer)));
     }
     // private System.Void CascadeUp(TItem node)
     // Offset: 0xFFFFFFFF
     void CascadeUp(TItem node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("CascadeUp");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::CascadeUp");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CascadeUp", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node);
     }
     // private System.Void CascadeDown(TItem node)
     // Offset: 0xFFFFFFFF
     void CascadeDown(TItem node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("CascadeDown");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::CascadeDown");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CascadeDown", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node);
     }
     // private System.Boolean HasHigherPriority(TItem higher, TItem lower)
     // Offset: 0xFFFFFFFF
     bool HasHigherPriority(TItem higher, TItem lower) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("HasHigherPriority");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::HasHigherPriority");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "HasHigherPriority", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(higher, lower)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, higher, lower);
     }
     // private System.Void OnNodeUpdated(TItem node)
     // Offset: 0xFFFFFFFF
     void OnNodeUpdated(TItem node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("OnNodeUpdated");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::OnNodeUpdated");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnNodeUpdated", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node);
     }
     // public System.Collections.Generic.IEnumerator`1<TItem> GetEnumerator()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerator_1<TItem>* GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("GetEnumerator");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::GetEnumerator");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<TItem>*, false>(this, ___internal__method);
     }
     // public System.Boolean IsValidQueue()
     // Offset: 0xFFFFFFFF
     bool IsValidQueue() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("IsValidQueue");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::IsValidQueue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "IsValidQueue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
@@ -242,7 +242,7 @@ namespace Priority_Queue {
     // Implemented from: Priority_Queue.IPriorityQueue`2
     // Base method: System.Int32 IPriorityQueue_2::get_Count()
     int get_Count() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("get_Count");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::get_Count");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
@@ -251,7 +251,7 @@ namespace Priority_Queue {
     // Implemented from: Priority_Queue.IFixedSizePriorityQueue`2
     // Base method: System.Int32 IFixedSizePriorityQueue_2::get_MaxSize()
     int get_MaxSize() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("get_MaxSize");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::get_MaxSize");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_MaxSize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
@@ -260,7 +260,7 @@ namespace Priority_Queue {
     // Implemented from: Priority_Queue.IPriorityQueue`2
     // Base method: System.Void IPriorityQueue_2::Clear()
     void Clear() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("Clear");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::Clear");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
@@ -269,7 +269,7 @@ namespace Priority_Queue {
     // Implemented from: Priority_Queue.IPriorityQueue`2
     // Base method: System.Boolean IPriorityQueue_2::Contains(TItem node)
     bool Contains(TItem node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("Contains");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::Contains");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Contains", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, node);
     }
@@ -278,7 +278,7 @@ namespace Priority_Queue {
     // Implemented from: Priority_Queue.IPriorityQueue`2
     // Base method: System.Void IPriorityQueue_2::Enqueue(TItem node, TPriority priority)
     void Enqueue(TItem node, TPriority priority) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("Enqueue");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::Enqueue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Enqueue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node, priority)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node, priority);
     }
@@ -287,7 +287,7 @@ namespace Priority_Queue {
     // Implemented from: Priority_Queue.IPriorityQueue`2
     // Base method: TItem IPriorityQueue_2::Dequeue()
     TItem Dequeue() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("Dequeue");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::Dequeue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Dequeue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TItem, false>(this, ___internal__method);
     }
@@ -296,7 +296,7 @@ namespace Priority_Queue {
     // Implemented from: Priority_Queue.IFixedSizePriorityQueue`2
     // Base method: System.Void IFixedSizePriorityQueue_2::Resize(System.Int32 maxNodes)
     void Resize(int maxNodes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("Resize");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::Resize");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Resize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(maxNodes)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, maxNodes);
     }
@@ -305,7 +305,7 @@ namespace Priority_Queue {
     // Implemented from: Priority_Queue.IPriorityQueue`2
     // Base method: TItem IPriorityQueue_2::get_First()
     TItem get_First() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("get_First");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::get_First");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_First", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TItem, false>(this, ___internal__method);
     }
@@ -314,7 +314,7 @@ namespace Priority_Queue {
     // Implemented from: Priority_Queue.IPriorityQueue`2
     // Base method: System.Void IPriorityQueue_2::UpdatePriority(TItem node, TPriority priority)
     void UpdatePriority(TItem node, TPriority priority) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("UpdatePriority");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::UpdatePriority");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "UpdatePriority", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node, priority)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node, priority);
     }
@@ -323,7 +323,7 @@ namespace Priority_Queue {
     // Implemented from: Priority_Queue.IPriorityQueue`2
     // Base method: System.Void IPriorityQueue_2::Remove(TItem node)
     void Remove(TItem node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("Remove");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::Remove");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node);
     }
@@ -332,7 +332,7 @@ namespace Priority_Queue {
     // Implemented from: Priority_Queue.IFixedSizePriorityQueue`2
     // Base method: System.Void IFixedSizePriorityQueue_2::ResetNode(TItem node)
     void ResetNode(TItem node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("ResetNode");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::ResetNode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ResetNode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node);
     }
@@ -341,7 +341,7 @@ namespace Priority_Queue {
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("GenericPriorityQueue_2").WithContext("System.Collections.IEnumerable.GetEnumerator");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::GenericPriorityQueue_2::System.Collections.IEnumerable.GetEnumerator");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
     }

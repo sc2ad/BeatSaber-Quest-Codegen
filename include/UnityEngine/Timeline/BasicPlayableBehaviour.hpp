@@ -117,7 +117,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicPlayableBehaviour* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("BasicPlayableBehaviour").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::BasicPlayableBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicPlayableBehaviour*, creationType>()));
     }
   }; // UnityEngine.Timeline.BasicPlayableBehaviour

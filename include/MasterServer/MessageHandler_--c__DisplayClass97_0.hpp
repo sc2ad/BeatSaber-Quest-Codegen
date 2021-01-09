@@ -74,7 +74,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler::$$c__DisplayClass97_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("$$c__DisplayClass97_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::$$c__DisplayClass97_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler::$$c__DisplayClass97_0*, creationType>()));
     }
   }; // MasterServer.MessageHandler/<>c__DisplayClass97_0

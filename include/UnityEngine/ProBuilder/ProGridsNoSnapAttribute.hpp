@@ -27,7 +27,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProGridsNoSnapAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("ProGridsNoSnapAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ProGridsNoSnapAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProGridsNoSnapAttribute*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.ProGridsNoSnapAttribute

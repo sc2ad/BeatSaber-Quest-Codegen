@@ -29,7 +29,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T UnsafeCast(::Il2CppObject* o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("JitHelpers").WithContext("UnsafeCast");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::JitHelpers::UnsafeCast");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "JitHelpers", "UnsafeCast", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(o)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, o);
@@ -39,7 +39,7 @@ namespace System::Runtime::CompilerServices {
     template<class T>
     static int UnsafeEnumCast(T val) {
       static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("JitHelpers").WithContext("UnsafeEnumCast");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::JitHelpers::UnsafeEnumCast");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "JitHelpers", "UnsafeEnumCast", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(val)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, val);
@@ -49,7 +49,7 @@ namespace System::Runtime::CompilerServices {
     template<class T>
     static int64_t UnsafeEnumCastLong(T val) {
       static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("JitHelpers").WithContext("UnsafeEnumCastLong");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::JitHelpers::UnsafeEnumCastLong");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "JitHelpers", "UnsafeEnumCastLong", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(val)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<int64_t, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, val);

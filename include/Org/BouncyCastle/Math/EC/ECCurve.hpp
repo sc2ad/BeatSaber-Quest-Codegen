@@ -115,7 +115,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0x1939840
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECCurve* New_ctor(Org::BouncyCastle::Math::Field::IFiniteField* field) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC").WithContext("ECCurve").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ECCurve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECCurve*, creationType>(field)));
     }
     // public System.Int32 get_FieldSize()

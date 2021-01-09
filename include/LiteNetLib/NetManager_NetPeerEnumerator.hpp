@@ -55,7 +55,7 @@ namespace LiteNetLib {
     // Offset: 0xE8C510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     NetPeerEnumerator(LiteNetLib::NetPeer* p) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib").WithContext("NetPeerEnumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetManager::NetPeerEnumerator::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(p)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, p);
     }

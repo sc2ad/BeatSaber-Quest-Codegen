@@ -60,7 +60,7 @@ namespace Mono::Unity {
     // Base method: System.Void MobileAuthenticatedStream::.ctor(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, System.Net.Security.SslStream owner, Mono.Security.Interface.MonoTlsSettings settings, Mono.Security.Interface.MonoTlsProvider provider)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTlsStream* New_ctor(System::IO::Stream* innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream* owner, Mono::Security::Interface::MonoTlsSettings* settings, Mono::Security::Interface::MonoTlsProvider* provider) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Unity").WithContext("UnityTlsStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Unity::UnityTlsStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTlsStream*, creationType>(innerStream, leaveInnerStreamOpen, owner, settings, provider)));
     }
     // protected override Mono.Net.Security.MobileTlsContext CreateContext(System.Boolean serverMode, System.String targetHost, System.Security.Authentication.SslProtocols enabledProtocols, System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, System.Boolean askForClientCert)

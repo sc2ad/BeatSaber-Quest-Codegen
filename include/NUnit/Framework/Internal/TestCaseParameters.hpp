@@ -51,7 +51,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCaseParameters* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("TestCaseParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestCaseParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestCaseParameters*, creationType>()));
     }
     // public System.Void .ctor(System.Object[] args)
@@ -60,7 +60,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void TestParameters::.ctor(System.Object[] args)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCaseParameters* New_ctor(::Array<::Il2CppObject*>* args) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("TestCaseParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestCaseParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestCaseParameters*, creationType>(args)));
     }
   }; // NUnit.Framework.Internal.TestCaseParameters

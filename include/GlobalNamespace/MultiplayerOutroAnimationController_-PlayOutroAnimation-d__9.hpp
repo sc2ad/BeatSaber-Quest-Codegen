@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Offset: 0xF792FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerOutroAnimationController::$PlayOutroAnimation$d__9* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$PlayOutroAnimation$d__9").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerOutroAnimationController::$PlayOutroAnimation$d__9::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerOutroAnimationController::$PlayOutroAnimation$d__9*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x185FF8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_WaitGetPoses* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_WaitGetPoses").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_WaitGetPoses::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_WaitGetPoses*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVRCompositorError Invoke(in OVR.OpenVR.TrackedDevicePose_t[] pRenderPoseArray, System.UInt32 unRenderPoseArrayCount, in OVR.OpenVR.TrackedDevicePose_t[] pGamePoseArray, System.UInt32 unGamePoseArrayCount)

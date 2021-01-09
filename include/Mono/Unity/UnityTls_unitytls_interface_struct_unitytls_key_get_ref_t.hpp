@@ -37,7 +37,7 @@ namespace Mono::Unity {
     // Offset: 0x126DC34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTls::unitytls_interface_struct::unitytls_key_get_ref_t* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Unity").WithContext("unitytls_key_get_ref_t").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_get_ref_t::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTls::unitytls_interface_struct::unitytls_key_get_ref_t*, creationType>(object, method)));
     }
     // public Mono.Unity.UnityTls/unitytls_key_ref Invoke(Mono.Unity.UnityTls/unitytls_key* key, Mono.Unity.UnityTls/unitytls_errorstate* errorState)

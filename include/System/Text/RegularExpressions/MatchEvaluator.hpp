@@ -37,7 +37,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x146E604
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchEvaluator* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text::RegularExpressions").WithContext("MatchEvaluator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::MatchEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MatchEvaluator*, creationType>(object, method)));
     }
     // public System.String Invoke(System.Text.RegularExpressions.Match match)

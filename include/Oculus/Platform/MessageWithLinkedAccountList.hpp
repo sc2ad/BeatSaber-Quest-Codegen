@@ -35,7 +35,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageWithLinkedAccountList* New_ctor(System::IntPtr c_message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("MessageWithLinkedAccountList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::MessageWithLinkedAccountList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLinkedAccountList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.LinkedAccountList GetLinkedAccountList()

@@ -39,7 +39,7 @@ namespace System {
     // Offset: 0x1711E24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ::Il2CppObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Object").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Object::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<::Il2CppObject*, creationType>()));
     }
     // protected System.Void Finalize()

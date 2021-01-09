@@ -43,14 +43,14 @@ namespace UnityEngine::Timeline {
     // Offset: 0x1972968
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackClipTypeAttribute* New_ctor(System::Type* clipClass) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TrackClipTypeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TrackClipTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackClipTypeAttribute*, creationType>(clipClass)));
     }
     // public System.Void .ctor(System.Type clipClass, System.Boolean allowAutoCreate)
     // Offset: 0x19729A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackClipTypeAttribute* New_ctor(System::Type* clipClass, bool allowAutoCreate) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TrackClipTypeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TrackClipTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackClipTypeAttribute*, creationType>(clipClass, allowAutoCreate)));
     }
   }; // UnityEngine.Timeline.TrackClipTypeAttribute

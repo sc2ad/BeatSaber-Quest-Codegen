@@ -43,14 +43,14 @@ namespace System {
     // Offset: 0x15D2300
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResolveEventArgs* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ResolveEventArgs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ResolveEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResolveEventArgs*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.Reflection.Assembly requestingAssembly)
     // Offset: 0x15D2384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResolveEventArgs* New_ctor(::Il2CppString* name, System::Reflection::Assembly* requestingAssembly) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ResolveEventArgs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ResolveEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResolveEventArgs*, creationType>(name, requestingAssembly)));
     }
   }; // System.ResolveEventArgs

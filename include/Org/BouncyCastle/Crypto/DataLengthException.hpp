@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DataLengthException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto").WithContext("DataLengthException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::DataLengthException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataLengthException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -37,7 +37,7 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DataLengthException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto").WithContext("DataLengthException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::DataLengthException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataLengthException*, creationType>(message)));
     }
   }; // Org.BouncyCastle.Crypto.DataLengthException

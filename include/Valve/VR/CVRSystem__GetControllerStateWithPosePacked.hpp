@@ -44,7 +44,7 @@ namespace Valve::VR {
     // Offset: 0x136D3E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRSystem::_GetControllerStateWithPosePacked* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetControllerStateWithPosePacked").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRSystem::_GetControllerStateWithPosePacked::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRSystem::_GetControllerStateWithPosePacked*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(Valve.VR.ETrackingUniverseOrigin eOrigin, System.UInt32 unControllerDeviceIndex, ref Valve.VR.VRControllerState_t_Packed pControllerState, System.UInt32 unControllerStateSize, ref Valve.VR.TrackedDevicePose_t pTrackedDevicePose)

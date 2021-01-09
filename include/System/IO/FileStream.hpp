@@ -183,70 +183,70 @@ namespace System::IO {
     // Offset: 0x14396EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStream* New_ctor(System::IntPtr handle, System::IO::FileAccess access, bool ownsHandle, int bufferSize, bool isAsync, bool isConsoleWrapper) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(handle, access, ownsHandle, bufferSize, isAsync, isConsoleWrapper)));
     }
     // public System.Void .ctor(System.String path, System.IO.FileMode mode)
     // Offset: 0x1439B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode)));
     }
     // public System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access)
     // Offset: 0x143A2E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access)));
     }
     // public System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share)
     // Offset: 0x1436C10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access, share)));
     }
     // public System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize)
     // Offset: 0x1436514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access, share, bufferSize)));
     }
     // public System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync)
     // Offset: 0x143A344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, bool useAsync) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access, share, bufferSize, useAsync)));
     }
     // public System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options)
     // Offset: 0x143A378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, System::IO::FileOptions options) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access, share, bufferSize, options)));
     }
     // System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options, System.String msgPath, System.Boolean bFromProxy, System.Boolean useLongPath, System.Boolean checkHost)
     // Offset: 0x143A39C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, System::IO::FileOptions options, ::Il2CppString* msgPath, bool bFromProxy, bool useLongPath, bool checkHost) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access, share, bufferSize, options, msgPath, bFromProxy, useLongPath, checkHost)));
     }
     // System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous)
     // Offset: 0x143A31C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, bool isAsync, bool anonymous) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access, share, bufferSize, isAsync, anonymous)));
     }
     // System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options)
     // Offset: 0x1439BB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, bool anonymous, System::IO::FileOptions options) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access, share, bufferSize, anonymous, options)));
     }
     // private System.Void Init(Microsoft.Win32.SafeHandles.SafeFileHandle safeHandle, System.IO.FileAccess access, System.Boolean ownsHandle, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean isConsoleWrapper)

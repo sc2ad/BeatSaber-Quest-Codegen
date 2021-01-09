@@ -42,7 +42,7 @@ namespace Zenject {
     // Base method: System.Void FactoryFromBinderBase::.ctor(Zenject.DiContainer bindContainer, System.Type contractType, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FactoryFromBinderUntyped* New_ctor(Zenject::DiContainer* bindContainer, System::Type* contractType, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("FactoryFromBinderUntyped").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinderUntyped::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FactoryFromBinderUntyped*, creationType>(bindContainer, contractType, bindInfo, factoryBindInfo)));
     }
   }; // Zenject.FactoryFromBinderUntyped

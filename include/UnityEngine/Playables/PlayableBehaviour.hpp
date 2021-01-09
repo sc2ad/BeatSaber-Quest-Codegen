@@ -45,7 +45,7 @@ namespace UnityEngine::Playables {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayableBehaviour* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Playables").WithContext("PlayableBehaviour").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayableBehaviour*, creationType>()));
     }
     // public System.Void OnGraphStart(UnityEngine.Playables.Playable playable)

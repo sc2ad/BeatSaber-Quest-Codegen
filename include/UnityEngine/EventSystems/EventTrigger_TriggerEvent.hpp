@@ -35,7 +35,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventTrigger::TriggerEvent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("TriggerEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::EventTrigger::TriggerEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventTrigger::TriggerEvent*, creationType>()));
     }
   }; // UnityEngine.EventSystems.EventTrigger/TriggerEvent

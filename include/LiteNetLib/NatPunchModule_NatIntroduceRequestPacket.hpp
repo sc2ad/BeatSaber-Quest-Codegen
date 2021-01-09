@@ -58,7 +58,7 @@ namespace LiteNetLib {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NatPunchModule::NatIntroduceRequestPacket* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib").WithContext("NatIntroduceRequestPacket").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NatPunchModule::NatIntroduceRequestPacket*, creationType>()));
     }
   }; // LiteNetLib.NatPunchModule/NatIntroduceRequestPacket

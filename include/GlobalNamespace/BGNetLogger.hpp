@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x1B4314C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BGNetLogger* New_ctor(::Array<Microsoft::Extensions::Logging::ILogger*>* loggers) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BGNetLogger").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BGNetLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BGNetLogger*, creationType>(loggers)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(params Microsoft.Extensions.Logging.ILogger[] loggers)

@@ -99,7 +99,7 @@ namespace System::IO {
     // Offset: 0x143C688
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStreamAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileStreamAsyncResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStreamAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStreamAsyncResult*, creationType>(cb, state)));
     }
     // static private System.Void CBWrapper(System.IAsyncResult ares)

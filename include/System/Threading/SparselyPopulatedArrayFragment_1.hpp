@@ -46,41 +46,41 @@ namespace System::Threading {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SparselyPopulatedArrayFragment_1<T>* New_ctor(int size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArrayFragment_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArrayFragment_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SparselyPopulatedArrayFragment_1<T>*, creationType>(size)));
     }
     // System.Void .ctor(System.Int32 size, System.Threading.SparselyPopulatedArrayFragment`1<T> prev)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SparselyPopulatedArrayFragment_1<T>* New_ctor(int size, System::Threading::SparselyPopulatedArrayFragment_1<T>* prev) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArrayFragment_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArrayFragment_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SparselyPopulatedArrayFragment_1<T>*, creationType>(size, prev)));
     }
     // T get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF
     T get_Item(int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArrayFragment_1").WithContext("get_Item");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArrayFragment_1::get_Item");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Item", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, index);
     }
     // System.Int32 get_Length()
     // Offset: 0xFFFFFFFF
     int get_Length() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArrayFragment_1").WithContext("get_Length");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArrayFragment_1::get_Length");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Length", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // System.Threading.SparselyPopulatedArrayFragment`1<T> get_Prev()
     // Offset: 0xFFFFFFFF
     System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Prev() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArrayFragment_1").WithContext("get_Prev");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArrayFragment_1::get_Prev");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Prev", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Threading::SparselyPopulatedArrayFragment_1<T>*, false>(this, ___internal__method);
     }
     // T SafeAtomicRemove(System.Int32 index, T expectedElement)
     // Offset: 0xFFFFFFFF
     T SafeAtomicRemove(int index, T expectedElement) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArrayFragment_1").WithContext("SafeAtomicRemove");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArrayFragment_1::SafeAtomicRemove");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SafeAtomicRemove", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index, expectedElement)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, index, expectedElement);
     }

@@ -41,7 +41,7 @@ namespace System::IO {
     // Offset: 0x13ABD84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringResultHandler* New_ctor(bool includeFiles, bool includeDirs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StringResultHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StringResultHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringResultHandler*, creationType>(includeFiles, includeDirs)));
     }
     // System.String CreateObject(System.IO.SearchResult result)

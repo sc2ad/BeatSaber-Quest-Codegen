@@ -26,7 +26,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeModule* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("RuntimeModule").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::RuntimeModule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeModule*, creationType>()));
     }
   }; // System.Reflection.RuntimeModule

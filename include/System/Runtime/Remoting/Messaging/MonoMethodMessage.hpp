@@ -170,14 +170,14 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x132CD10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoMethodMessage* New_ctor(System::Reflection::MethodBase* method, ::Array<::Il2CppObject*>* out_args) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("MonoMethodMessage").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MonoMethodMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoMethodMessage*, creationType>(method, out_args)));
     }
     // System.Void .ctor(System.Reflection.MethodInfo minfo, System.Object[] in_args, System.Object[] out_args)
     // Offset: 0x132CDE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoMethodMessage* New_ctor(System::Reflection::MethodInfo* minfo, ::Array<::Il2CppObject*>* in_args, ::Array<::Il2CppObject*>* out_args) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("MonoMethodMessage").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MonoMethodMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoMethodMessage*, creationType>(minfo, in_args, out_args)));
     }
     // static private System.Reflection.MethodInfo GetMethodInfo(System.Type type, System.String methodName)
@@ -187,7 +187,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x132D028
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoMethodMessage* New_ctor(System::Type* type, ::Il2CppString* methodName, ::Array<::Il2CppObject*>* in_args) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("MonoMethodMessage").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MonoMethodMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoMethodMessage*, creationType>(type, methodName, in_args)));
     }
     // public System.Void set_LogicalCallContext(System.Runtime.Remoting.Messaging.LogicalCallContext value)

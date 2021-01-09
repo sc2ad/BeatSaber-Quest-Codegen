@@ -68,7 +68,7 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0x1A03278
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoroutineRunner::$ExMethod$d__11* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::Utils").WithContext("$ExMethod$d__11").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::CoroutineRunner::$ExMethod$d__11::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoroutineRunner::$ExMethod$d__11*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

@@ -35,7 +35,7 @@ namespace OnlineServices::API {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPAdminLeaderboardsHelper::ServerStatusResultDto* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OnlineServices::API").WithContext("ServerStatusResultDto").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::API::HTTPAdminLeaderboardsHelper::ServerStatusResultDto::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPAdminLeaderboardsHelper::ServerStatusResultDto*, creationType>()));
     }
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/ServerStatusResultDto

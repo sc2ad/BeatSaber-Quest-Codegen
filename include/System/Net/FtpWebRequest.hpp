@@ -338,7 +338,7 @@ namespace System::Net {
     // Offset: 0x1320C34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpWebRequest* New_ctor(System::Uri* uri) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("FtpWebRequest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpWebRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpWebRequest*, creationType>(uri)));
     }
     // static private System.Exception GetMustImplement()

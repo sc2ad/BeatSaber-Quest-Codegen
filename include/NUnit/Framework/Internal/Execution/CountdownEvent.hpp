@@ -52,7 +52,7 @@ namespace NUnit::Framework::Internal::Execution {
     // Offset: 0x13F15F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CountdownEvent* New_ctor(int initialCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Execution").WithContext("CountdownEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Execution::CountdownEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CountdownEvent*, creationType>(initialCount)));
     }
     // public System.Int32 get_CurrentCount()

@@ -27,7 +27,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextReader::NullTextReader* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("NullTextReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::TextReader::NullTextReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextReader::NullTextReader*, creationType>()));
     }
     // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)

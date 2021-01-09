@@ -52,14 +52,14 @@ namespace System::Globalization {
     // Offset: 0x142881C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortKey* New_ctor(int lcid, ::Il2CppString* source, System::Globalization::CompareOptions opt) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("SortKey").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::SortKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortKey*, creationType>(lcid, source, opt)));
     }
     // System.Void .ctor(System.Int32 lcid, System.String source, System.Byte[] buffer, System.Globalization.CompareOptions opt, System.Int32 lv1Length, System.Int32 lv2Length, System.Int32 lv3Length, System.Int32 kanaSmallLength, System.Int32 markTypeLength, System.Int32 katakanaLength, System.Int32 kanaWidthLength, System.Int32 identLength)
     // Offset: 0x142886C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortKey* New_ctor(int lcid, ::Il2CppString* source, ::Array<uint8_t>* buffer, System::Globalization::CompareOptions opt, int lv1Length, int lv2Length, int lv3Length, int kanaSmallLength, int markTypeLength, int katakanaLength, int kanaWidthLength, int identLength) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("SortKey").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::SortKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortKey*, creationType>(lcid, source, buffer, opt, lv1Length, lv2Length, lv3Length, kanaSmallLength, markTypeLength, katakanaLength, kanaWidthLength, identLength)));
     }
     // public System.String get_OriginalString()
@@ -89,7 +89,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortKey* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("SortKey").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::SortKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortKey*, creationType>()));
     }
   }; // System.Globalization.SortKey

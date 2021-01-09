@@ -38,7 +38,7 @@ namespace NUnit::Framework {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IgnoreException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework").WithContext("IgnoreException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::IgnoreException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IgnoreException*, creationType>(info, context)));
     }
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()

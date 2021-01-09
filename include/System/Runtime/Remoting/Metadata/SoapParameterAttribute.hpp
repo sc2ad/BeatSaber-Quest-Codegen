@@ -29,7 +29,7 @@ namespace System::Runtime::Remoting::Metadata {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SoapParameterAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Metadata").WithContext("SoapParameterAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Metadata::SoapParameterAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SoapParameterAttribute*, creationType>()));
     }
   }; // System.Runtime.Remoting.Metadata.SoapParameterAttribute

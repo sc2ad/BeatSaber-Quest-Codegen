@@ -39,7 +39,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11D3FA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Error* New_ctor(int code, ::Il2CppString* message, int httpCode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("Error").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Error::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Error*, creationType>(code, message, httpCode)));
     }
   }; // Oculus.Platform.Models.Error

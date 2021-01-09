@@ -68,7 +68,7 @@ namespace Zenject {
     // Offset: 0x12965A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstanceProvider* New_ctor(System::Type* instanceType, ::Il2CppObject* instance, Zenject::DiContainer* container) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("InstanceProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InstanceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstanceProvider*, creationType>(instanceType, instance, container)));
     }
     // private System.Void <GetAllInstancesWithInjectSplit>b__9_0()

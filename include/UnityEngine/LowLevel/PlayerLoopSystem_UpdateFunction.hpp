@@ -34,7 +34,7 @@ namespace UnityEngine::LowLevel {
     // Offset: 0x168E7F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerLoopSystem::UpdateFunction* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::LowLevel").WithContext("UpdateFunction").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerLoopSystem::UpdateFunction*, creationType>(object, method)));
     }
     // public System.Void Invoke()

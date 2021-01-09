@@ -102,7 +102,7 @@ namespace OVRSimpleJSON {
     // Offset: 0xC9BFBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Enumerator(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVRSimpleJSON").WithContext("Enumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONNode::Enumerator::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(aArrayEnum)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, aArrayEnum);
     }
@@ -110,7 +110,7 @@ namespace OVRSimpleJSON {
     // Offset: 0xC9C004
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Enumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVRSimpleJSON").WithContext("Enumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONNode::Enumerator::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(aDictEnum)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, aDictEnum);
     }

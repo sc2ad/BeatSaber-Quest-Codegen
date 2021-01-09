@@ -103,7 +103,7 @@ namespace System::ComponentModel {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Component* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("Component").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Component::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Component*, creationType>()));
     }
   }; // System.ComponentModel.Component

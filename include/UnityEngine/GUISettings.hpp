@@ -76,7 +76,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUISettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("GUISettings").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUISettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUISettings*, creationType>()));
     }
   }; // UnityEngine.GUISettings

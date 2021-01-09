@@ -37,7 +37,7 @@ namespace Assets::OVR::Scripts {
     // Offset: 0x11E83DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixMethodDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Assets::OVR::Scripts").WithContext("FixMethodDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Assets::OVR::Scripts::FixMethodDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixMethodDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Object obj, System.Boolean isLastInSet, System.Int32 selectedIndex)

@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x18610B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRExtendedDisplay::_GetEyeOutputViewport* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetEyeOutputViewport").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRExtendedDisplay::_GetEyeOutputViewport::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRExtendedDisplay::_GetEyeOutputViewport*, creationType>(object, method)));
     }
     // public System.Void Invoke(OVR.OpenVR.EVREye eEye, ref System.UInt32 pnX, ref System.UInt32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)

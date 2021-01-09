@@ -70,14 +70,14 @@ namespace System {
     // Offset: 0x171AC74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OperatingSystem* New_ctor(System::PlatformID platform, System::Version* version) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("OperatingSystem").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::OperatingSystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OperatingSystem*, creationType>(platform, version)));
     }
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo information, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x171ADD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OperatingSystem* New_ctor(System::Runtime::Serialization::SerializationInfo* information, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("OperatingSystem").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::OperatingSystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OperatingSystem*, creationType>(information, context)));
     }
     // public System.PlatformID get_Platform()

@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarEditHistory* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AvatarEditHistory").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarEditHistory::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarEditHistory*, creationType>()));
     }
   }; // AvatarEditHistory

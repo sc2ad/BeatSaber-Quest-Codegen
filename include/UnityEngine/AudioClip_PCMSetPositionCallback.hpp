@@ -34,7 +34,7 @@ namespace UnityEngine {
     // Offset: 0x19EC5F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClip::PCMSetPositionCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("PCMSetPositionCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AudioClip::PCMSetPositionCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClip::PCMSetPositionCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Int32 position)

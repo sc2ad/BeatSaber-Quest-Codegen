@@ -46,7 +46,7 @@ namespace Mono::Security::X509 {
     // Offset: 0x19C3A94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateCollection::X509CertificateEnumerator* New_ctor(Mono::Security::X509::X509CertificateCollection* mappings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::X509").WithContext("X509CertificateEnumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509CertificateCollection::X509CertificateEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateCollection::X509CertificateEnumerator*, creationType>(mappings)));
     }
     // public Mono.Security.X509.X509Certificate get_Current()

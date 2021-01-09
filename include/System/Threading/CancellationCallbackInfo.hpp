@@ -74,7 +74,7 @@ namespace System::Threading {
     // Offset: 0x16B1C00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CancellationCallbackInfo* New_ctor(System::Action_1<::Il2CppObject*>* callback, ::Il2CppObject* stateForCallback, System::Threading::SynchronizationContext* targetSyncContext, System::Threading::ExecutionContext* targetExecutionContext, System::Threading::CancellationTokenSource* cancellationTokenSource) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("CancellationCallbackInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::CancellationCallbackInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CancellationCallbackInfo*, creationType>(callback, stateForCallback, targetSyncContext, targetExecutionContext, cancellationTokenSource)));
     }
     // System.Void ExecuteCallback()

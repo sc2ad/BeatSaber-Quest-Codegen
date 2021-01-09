@@ -256,21 +256,21 @@ namespace System::Xml {
     // Offset: 0x14EAE38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlEncodedRawTextWriter* New_ctor(System::Xml::XmlWriterSettings* settings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("XmlEncodedRawTextWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlEncodedRawTextWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlEncodedRawTextWriter*, creationType>(settings)));
     }
     // public System.Void .ctor(System.IO.TextWriter writer, System.Xml.XmlWriterSettings settings)
     // Offset: 0x14DFB38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlEncodedRawTextWriter* New_ctor(System::IO::TextWriter* writer, System::Xml::XmlWriterSettings* settings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("XmlEncodedRawTextWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlEncodedRawTextWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlEncodedRawTextWriter*, creationType>(writer, settings)));
     }
     // public System.Void .ctor(System.IO.Stream stream, System.Xml.XmlWriterSettings settings)
     // Offset: 0x14DFE04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlEncodedRawTextWriter* New_ctor(System::IO::Stream* stream, System::Xml::XmlWriterSettings* settings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("XmlEncodedRawTextWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlEncodedRawTextWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlEncodedRawTextWriter*, creationType>(stream, settings)));
     }
     // protected System.Void FlushBuffer()

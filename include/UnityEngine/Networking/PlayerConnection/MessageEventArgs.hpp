@@ -37,7 +37,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageEventArgs* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Networking::PlayerConnection").WithContext("MessageEventArgs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::PlayerConnection::MessageEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageEventArgs*, creationType>()));
     }
   }; // UnityEngine.Networking.PlayerConnection.MessageEventArgs

@@ -84,7 +84,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DesEdeEngine* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Engines").WithContext("DesEdeEngine").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::DesEdeEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DesEdeEngine*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Engines.DesEdeEngine

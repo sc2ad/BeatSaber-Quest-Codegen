@@ -109,7 +109,7 @@ namespace System::Net {
     // Offset: 0x131EA40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpAsyncResult* New_ctor(System::AsyncCallback* callback, ::Il2CppObject* state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("FtpAsyncResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpAsyncResult*, creationType>(callback, state)));
     }
     // System.Boolean get_GotException()

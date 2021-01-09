@@ -49,7 +49,7 @@ namespace System {
     // Offset: 0x13B4774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStoreSlot* New_ctor(System::LocalDataStoreMgr* mgr, int slot, int64_t cookie) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("LocalDataStoreSlot").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::LocalDataStoreSlot::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalDataStoreSlot*, creationType>(mgr, slot, cookie)));
     }
     // System.LocalDataStoreMgr get_Manager()

@@ -35,7 +35,7 @@ namespace UnityEngine::XR {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XRDisplaySubsystemDescriptor* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::XR").WithContext("XRDisplaySubsystemDescriptor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::XR::XRDisplaySubsystemDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XRDisplaySubsystemDescriptor*, creationType>()));
     }
   }; // UnityEngine.XR.XRDisplaySubsystemDescriptor

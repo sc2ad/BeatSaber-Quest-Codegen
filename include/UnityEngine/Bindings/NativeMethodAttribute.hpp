@@ -80,21 +80,21 @@ namespace UnityEngine::Bindings {
     // Offset: 0x1A042D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeMethodAttribute* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("NativeMethodAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeMethodAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeMethodAttribute*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.Boolean isFreeFunction)
     // Offset: 0x1A04090
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeMethodAttribute* New_ctor(::Il2CppString* name, bool isFreeFunction) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("NativeMethodAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeMethodAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeMethodAttribute*, creationType>(name, isFreeFunction)));
     }
     // public System.Void .ctor(System.String name, System.Boolean isFreeFunction, System.Boolean isThreadSafe)
     // Offset: 0x1A040F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeMethodAttribute* New_ctor(::Il2CppString* name, bool isFreeFunction, bool isThreadSafe) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("NativeMethodAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeMethodAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeMethodAttribute*, creationType>(name, isFreeFunction, isThreadSafe)));
     }
     // public System.Void .ctor()
@@ -104,7 +104,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeMethodAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("NativeMethodAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeMethodAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeMethodAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.NativeMethodAttribute

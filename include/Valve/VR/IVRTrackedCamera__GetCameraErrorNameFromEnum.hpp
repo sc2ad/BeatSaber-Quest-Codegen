@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x1931B38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRTrackedCamera::_GetCameraErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetCameraErrorNameFromEnum").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRTrackedCamera::_GetCameraErrorNameFromEnum*, creationType>(object, method)));
     }
     // public System.IntPtr Invoke(Valve.VR.EVRTrackedCameraError eCameraError)

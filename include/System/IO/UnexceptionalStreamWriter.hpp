@@ -37,7 +37,7 @@ namespace System::IO {
     // Base method: System.Void StreamWriter::.ctor(System.IO.Stream stream, System.Text.Encoding encoding)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnexceptionalStreamWriter* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("UnexceptionalStreamWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::UnexceptionalStreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnexceptionalStreamWriter*, creationType>(stream, encoding)));
     }
     // public override System.Void Flush()

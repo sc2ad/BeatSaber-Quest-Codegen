@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1911CC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetD3D9AdapterIndex* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetD3D9AdapterIndex").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_GetD3D9AdapterIndex::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetD3D9AdapterIndex*, creationType>(object, method)));
     }
     // public System.Int32 Invoke()

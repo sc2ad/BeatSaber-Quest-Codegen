@@ -49,7 +49,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HandshakeMultipartMessage* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("HandshakeMultipartMessage").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::HandshakeMultipartMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HandshakeMultipartMessage*, creationType>()));
     }
   }; // MasterServer.HandshakeMultipartMessage

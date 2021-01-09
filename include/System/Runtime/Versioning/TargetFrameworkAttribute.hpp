@@ -36,7 +36,7 @@ namespace System::Runtime::Versioning {
     // Offset: 0x1446854
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TargetFrameworkAttribute* New_ctor(::Il2CppString* frameworkName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Versioning").WithContext("TargetFrameworkAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Versioning::TargetFrameworkAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TargetFrameworkAttribute*, creationType>(frameworkName)));
     }
     // public System.Void set_FrameworkDisplayName(System.String value)

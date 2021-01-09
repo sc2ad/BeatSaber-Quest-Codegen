@@ -51,7 +51,7 @@ namespace Org::BouncyCastle::Asn1::Oiw {
     // Offset: 0x13F8610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElGamalParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::Oiw").WithContext("ElGamalParameter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Oiw::ElGamalParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElGamalParameter*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_P()

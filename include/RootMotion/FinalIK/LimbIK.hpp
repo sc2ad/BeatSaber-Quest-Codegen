@@ -71,7 +71,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LimbIK* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("LimbIK").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::LimbIK::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LimbIK*, creationType>()));
     }
   }; // RootMotion.FinalIK.LimbIK

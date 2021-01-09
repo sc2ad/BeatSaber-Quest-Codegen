@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizationProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LocalizationProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalizationProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizationProvider*, creationType>()));
     }
   }; // LocalizationProvider

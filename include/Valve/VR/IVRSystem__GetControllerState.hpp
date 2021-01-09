@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x1929BC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetControllerState* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetControllerState").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRSystem::_GetControllerState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetControllerState*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.UInt32 unControllerDeviceIndex, ref Valve.VR.VRControllerState_t pControllerState, System.UInt32 unControllerStateSize)

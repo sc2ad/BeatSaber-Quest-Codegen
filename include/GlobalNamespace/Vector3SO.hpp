@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Vector3SO* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("Vector3SO").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::Vector3SO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Vector3SO*, creationType>()));
     }
   }; // Vector3SO

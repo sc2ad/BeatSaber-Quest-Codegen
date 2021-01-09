@@ -295,7 +295,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelFilteringNavigationController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LevelFilteringNavigationController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelFilteringNavigationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelFilteringNavigationController*, creationType>()));
     }
   }; // LevelFilteringNavigationController

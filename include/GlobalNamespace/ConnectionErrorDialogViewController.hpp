@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectionErrorDialogViewController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ConnectionErrorDialogViewController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ConnectionErrorDialogViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectionErrorDialogViewController*, creationType>()));
     }
   }; // ConnectionErrorDialogViewController

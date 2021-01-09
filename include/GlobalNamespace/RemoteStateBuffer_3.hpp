@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Implemented from: StateBuffer`3
     // Base method: System.Void StateBuffer_3::PushState(TStateTable state, System.Single time)
     void PushState(TStateTable state, float time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteStateBuffer_3").WithContext("PushState");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteStateBuffer_3::PushState");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "PushState", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(state, time)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, state, time);
     }
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Base method: System.Void StateBuffer_3::.ctor(System.Int32 size, StateBuffer`3/InterpolationDelegate<TStateTable,TType,TState> interpolator, StateBuffer`3/SmoothingDelegate<TStateTable,TType,TState> smoother)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteStateBuffer_3<TStateTable, TType, TState>* New_ctor(int size, typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::InterpolationDelegate* interpolator, typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::SmoothingDelegate* smoother) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteStateBuffer_3").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteStateBuffer_3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteStateBuffer_3<TStateTable, TType, TState>*, creationType>(size, interpolator, smoother)));
     }
   }; // RemoteStateBuffer`3

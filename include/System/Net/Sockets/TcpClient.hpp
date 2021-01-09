@@ -77,14 +77,14 @@ namespace System::Net::Sockets {
     // Offset: 0x1215064
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TcpClient* New_ctor(System::Net::Sockets::AddressFamily family) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Sockets").WithContext("TcpClient").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::TcpClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TcpClient*, creationType>(family)));
     }
     // System.Void .ctor(System.Net.Sockets.Socket acceptedSocket)
     // Offset: 0x1215204
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TcpClient* New_ctor(System::Net::Sockets::Socket* acceptedSocket) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Sockets").WithContext("TcpClient").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::TcpClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TcpClient*, creationType>(acceptedSocket)));
     }
     // public System.Net.Sockets.Socket get_Client()

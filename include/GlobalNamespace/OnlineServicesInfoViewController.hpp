@@ -118,7 +118,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OnlineServicesInfoViewController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OnlineServicesInfoViewController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OnlineServicesInfoViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OnlineServicesInfoViewController*, creationType>()));
     }
   }; // OnlineServicesInfoViewController

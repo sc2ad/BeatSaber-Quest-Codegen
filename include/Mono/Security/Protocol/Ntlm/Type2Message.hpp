@@ -41,7 +41,7 @@ namespace Mono::Security::Protocol::Ntlm {
     // Offset: 0x17BBF20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Type2Message* New_ctor(::Array<uint8_t>* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::Protocol::Ntlm").WithContext("Type2Message").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Protocol::Ntlm::Type2Message::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Type2Message*, creationType>(message)));
     }
     // public System.Byte[] get_Nonce()

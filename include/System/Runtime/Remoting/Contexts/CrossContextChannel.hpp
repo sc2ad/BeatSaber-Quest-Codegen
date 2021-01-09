@@ -53,7 +53,7 @@ namespace System::Runtime::Remoting::Contexts {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrossContextChannel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Contexts").WithContext("CrossContextChannel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Contexts::CrossContextChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrossContextChannel*, creationType>()));
     }
   }; // System.Runtime.Remoting.Contexts.CrossContextChannel

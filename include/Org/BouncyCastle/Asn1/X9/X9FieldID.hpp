@@ -51,28 +51,28 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Offset: 0x158ADE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldID* New_ctor(Org::BouncyCastle::Math::BigInteger* primeP) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X9").WithContext("X9FieldID").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9FieldID::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldID*, creationType>(primeP)));
     }
     // public System.Void .ctor(System.Int32 m, System.Int32 k1)
     // Offset: 0x158AEA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldID* New_ctor(int m, int k1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X9").WithContext("X9FieldID").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9FieldID::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldID*, creationType>(m, k1)));
     }
     // public System.Void .ctor(System.Int32 m, System.Int32 k1, System.Int32 k2, System.Int32 k3)
     // Offset: 0x158AEAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldID* New_ctor(int m, int k1, int k2, int k3) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X9").WithContext("X9FieldID").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9FieldID::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldID*, creationType>(m, k1, k2, k3)));
     }
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x158B8B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldID* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X9").WithContext("X9FieldID").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9FieldID::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldID*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X9.X9FieldID GetInstance(System.Object obj)

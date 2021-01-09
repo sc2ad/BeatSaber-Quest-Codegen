@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuLightsPresetSO::LightIdColorPair* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LightIdColorPair").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuLightsPresetSO::LightIdColorPair*, creationType>()));
     }
   }; // MenuLightsPresetSO/LightIdColorPair

@@ -76,7 +76,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void Random::.ctor(System.Int32 seed)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Randomizer* New_ctor(int seed) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("Randomizer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Randomizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Randomizer*, creationType>(seed)));
     }
   }; // NUnit.Framework.Internal.Randomizer

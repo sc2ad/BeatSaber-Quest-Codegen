@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x190C980
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSettings::_SetBool* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_SetBool").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSettings::_SetBool::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSettings::_SetBool*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String pchSection, System.String pchSettingsKey, System.Boolean bValue, ref OVR.OpenVR.EVRSettingsError peError)

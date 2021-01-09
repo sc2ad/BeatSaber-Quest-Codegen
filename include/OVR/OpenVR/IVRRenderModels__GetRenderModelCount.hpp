@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1905B3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRRenderModels::_GetRenderModelCount* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetRenderModelCount").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRRenderModels::_GetRenderModelCount::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRRenderModels::_GetRenderModelCount*, creationType>(object, method)));
     }
     // public System.UInt32 Invoke()

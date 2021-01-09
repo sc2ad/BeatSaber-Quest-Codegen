@@ -35,7 +35,7 @@ namespace System::Net::Security {
     // Offset: 0x11A0E14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AuthenticatedStream* New_ctor(System::IO::Stream* innerStream, bool leaveInnerStreamOpen) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Security").WithContext("AuthenticatedStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Security::AuthenticatedStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticatedStream*, creationType>(innerStream, leaveInnerStreamOpen)));
     }
     // protected System.IO.Stream get_InnerStream()

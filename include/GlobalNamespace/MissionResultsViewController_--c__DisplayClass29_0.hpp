@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionResultsViewController::$$c__DisplayClass29_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass29_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionResultsViewController::$$c__DisplayClass29_0*, creationType>()));
     }
   }; // MissionResultsViewController/<>c__DisplayClass29_0

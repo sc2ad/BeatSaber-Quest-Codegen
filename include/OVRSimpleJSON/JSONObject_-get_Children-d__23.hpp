@@ -76,7 +76,7 @@ namespace OVRSimpleJSON {
     // Offset: 0x12EE628
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONObject::$get_Children$d__23* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVRSimpleJSON").WithContext("$get_Children$d__23").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONObject::$get_Children$d__23::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONObject::$get_Children$d__23*, creationType>($$1__state)));
     }
     // private System.Void <>m__Finally1()

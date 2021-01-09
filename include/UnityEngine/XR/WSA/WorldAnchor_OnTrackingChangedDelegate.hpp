@@ -34,7 +34,7 @@ namespace UnityEngine::XR::WSA {
     // Offset: 0x1A08AA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WorldAnchor::OnTrackingChangedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::XR::WSA").WithContext("OnTrackingChangedDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WorldAnchor::OnTrackingChangedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.XR.WSA.WorldAnchor worldAnchor, System.Boolean located)

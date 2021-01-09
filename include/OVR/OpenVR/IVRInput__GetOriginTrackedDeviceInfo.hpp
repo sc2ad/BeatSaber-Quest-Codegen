@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1864E60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRInput::_GetOriginTrackedDeviceInfo* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetOriginTrackedDeviceInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRInput::_GetOriginTrackedDeviceInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRInput::_GetOriginTrackedDeviceInfo*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVRInputError Invoke(System.UInt64 origin, ref OVR.OpenVR.InputOriginInfo_t pOriginInfo, System.UInt32 unOriginInfoSize)

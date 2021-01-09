@@ -32,7 +32,7 @@ namespace System::Net::Configuration {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketElement* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Configuration").WithContext("SocketElement").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Configuration::SocketElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketElement*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()

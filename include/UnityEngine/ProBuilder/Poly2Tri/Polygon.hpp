@@ -78,14 +78,14 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x19B13A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Polygon* New_ctor(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("Polygon").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::Polygon::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Polygon*, creationType>(points)));
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Poly2Tri.PolygonPoint> points)
     // Offset: 0x19B1748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Polygon* New_ctor(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("Polygon").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::Polygon::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Polygon*, creationType>(points)));
     }
     // public System.Void AddHole(UnityEngine.ProBuilder.Poly2Tri.Polygon poly)

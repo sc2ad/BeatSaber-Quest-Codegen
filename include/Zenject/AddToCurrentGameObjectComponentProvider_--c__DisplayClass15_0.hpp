@@ -68,7 +68,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass15_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0*, creationType>()));
     }
   }; // Zenject.AddToCurrentGameObjectComponentProvider/<>c__DisplayClass15_0

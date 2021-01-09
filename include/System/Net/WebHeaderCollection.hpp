@@ -208,7 +208,7 @@ namespace System::Net {
     // Offset: 0x12251B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebHeaderCollection* New_ctor(System::Net::WebHeaderCollectionType type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebHeaderCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebHeaderCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebHeaderCollection*, creationType>(type)));
     }
     // public override System.Void Add(System.String name, System.String value)
@@ -244,7 +244,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebHeaderCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebHeaderCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebHeaderCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebHeaderCollection*, creationType>()));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
@@ -254,7 +254,7 @@ namespace System::Net {
     // Base method: System.Void NameObjectCollectionBase::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebHeaderCollection* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebHeaderCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebHeaderCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebHeaderCollection*, creationType>(serializationInfo, streamingContext)));
     }
     // public override System.Void OnDeserialization(System.Object sender)

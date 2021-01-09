@@ -77,7 +77,7 @@ namespace Zenject::Internal {
     // Offset: 0x134611C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenUtilInternal::$GetAllSceneContexts$d__3* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject::Internal").WithContext("$GetAllSceneContexts$d__3").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ZenUtilInternal::$GetAllSceneContexts$d__3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenUtilInternal::$GetAllSceneContexts$d__3*, creationType>($$1__state)));
     }
     // private System.Void <>m__Finally1()

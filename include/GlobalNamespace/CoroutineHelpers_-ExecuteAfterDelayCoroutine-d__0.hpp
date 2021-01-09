@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Offset: 0x102C23C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$ExecuteAfterDelayCoroutine$d__0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

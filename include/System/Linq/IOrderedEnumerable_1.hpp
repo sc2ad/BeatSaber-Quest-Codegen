@@ -40,7 +40,7 @@ namespace System::Linq {
     // Offset: 0xFFFFFFFF
     template<class TKey>
     System::Linq::IOrderedEnumerable_1<TElement>* System_Linq_IOrderedEnumerable_1_CreateOrderedEnumerable(System::Func_2<TElement, TKey>* keySelector, System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("IOrderedEnumerable_1").WithContext("CreateOrderedEnumerable");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::IOrderedEnumerable_1::CreateOrderedEnumerable");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CreateOrderedEnumerable", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, ::il2cpp_utils::ExtractTypes(keySelector, comparer, descending)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Linq::IOrderedEnumerable_1<TElement>*, false>(this, ___internal__method, keySelector, comparer, descending);

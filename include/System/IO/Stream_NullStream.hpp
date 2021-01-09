@@ -63,7 +63,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::NullStream* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("NullStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::NullStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::NullStream*, creationType>()));
     }
     // public override System.Boolean get_CanRead()

@@ -89,7 +89,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TouchInputModule* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("TouchInputModule").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::TouchInputModule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TouchInputModule*, creationType>()));
     }
     // public override System.Void UpdateModule()

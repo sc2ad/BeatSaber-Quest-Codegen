@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Offset: 0xF251FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::ColorScheme* New_ctor(::Il2CppString* colorSchemeId, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color obstaclesColor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ColorScheme").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveData::ColorScheme::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::ColorScheme*, creationType>(colorSchemeId, saberAColor, saberBColor, environmentColor0, environmentColor1, obstaclesColor)));
     }
   }; // PlayerSaveData/ColorScheme

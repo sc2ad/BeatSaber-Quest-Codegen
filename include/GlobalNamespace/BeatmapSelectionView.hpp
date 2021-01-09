@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSelectionView* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BeatmapSelectionView").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSelectionView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSelectionView*, creationType>()));
     }
   }; // BeatmapSelectionView

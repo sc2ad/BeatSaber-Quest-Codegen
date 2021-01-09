@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Offset: 0xF050AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PatternFightSceneSetupData* New_ctor(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("PatternFightSceneSetupData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PatternFightSceneSetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightSceneSetupData*, creationType>(playerSpecificSettings)));
     }
   }; // PatternFightSceneSetupData

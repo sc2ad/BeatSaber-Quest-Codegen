@@ -218,7 +218,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CircleSlider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("CircleSlider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::CircleSlider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CircleSlider*, creationType>()));
     }
     // private UnityEngine.Transform UnityEngine.UI.ICanvasElement.get_transform()

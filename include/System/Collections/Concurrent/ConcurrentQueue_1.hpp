@@ -123,41 +123,41 @@ namespace System::Collections::Concurrent {
       // Offset: 0xFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename ConcurrentQueue_1<T>::Segment* New_ctor(int boundedLength) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("Segment").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::Segment::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename ConcurrentQueue_1<T>::Segment*, creationType>(boundedLength)));
       }
       // System.Int32 get_Capacity()
       // Offset: 0xFFFFFFFF
       int get_Capacity() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("Segment").WithContext("get_Capacity");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::Segment::get_Capacity");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Capacity", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
       }
       // System.Int32 get_FreezeOffset()
       // Offset: 0xFFFFFFFF
       int get_FreezeOffset() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("Segment").WithContext("get_FreezeOffset");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::Segment::get_FreezeOffset");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_FreezeOffset", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
       }
       // System.Void EnsureFrozenForEnqueues()
       // Offset: 0xFFFFFFFF
       void EnsureFrozenForEnqueues() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("Segment").WithContext("EnsureFrozenForEnqueues");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::Segment::EnsureFrozenForEnqueues");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EnsureFrozenForEnqueues", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
       // public System.Boolean TryDequeue(out T item)
       // Offset: 0xFFFFFFFF
       bool TryDequeue(T& item) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("Segment").WithContext("TryDequeue");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::Segment::TryDequeue");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TryDequeue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
         return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
       }
       // public System.Boolean TryEnqueue(T item)
       // Offset: 0xFFFFFFFF
       bool TryEnqueue(T item) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("Segment").WithContext("TryEnqueue");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::Segment::TryEnqueue");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TryEnqueue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
         return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
       }
@@ -269,7 +269,7 @@ namespace System::Collections::Concurrent {
       // Offset: 0xFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename ConcurrentQueue_1<T>::$Enumerate$d__27* New_ctor(int $$1__state) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("$Enumerate$d__27").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::$Enumerate$d__27::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename ConcurrentQueue_1<T>::$Enumerate$d__27*, creationType>($$1__state)));
       }
       // private System.Void System.IDisposable.Dispose()
@@ -277,7 +277,7 @@ namespace System::Collections::Concurrent {
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void System_IDisposable_Dispose() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("$Enumerate$d__27").WithContext("System.IDisposable.Dispose");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::$Enumerate$d__27::System.IDisposable.Dispose");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
@@ -286,7 +286,7 @@ namespace System::Collections::Concurrent {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("$Enumerate$d__27").WithContext("MoveNext");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::$Enumerate$d__27::MoveNext");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
       }
@@ -300,7 +300,7 @@ namespace System::Collections::Concurrent {
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator_1::get_Current()
       T System_Collections_Generic_IEnumerator_1_get_Current() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("$Enumerate$d__27").WithContext("System.Collections.Generic.IEnumerator<T>.get_Current");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::$Enumerate$d__27::System.Collections.Generic.IEnumerator<T>.get_Current");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerator<T>.get_Current", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
         return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
       }
@@ -309,7 +309,7 @@ namespace System::Collections::Concurrent {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("$Enumerate$d__27").WithContext("System.Collections.IEnumerator.Reset");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::$Enumerate$d__27::System.Collections.IEnumerator.Reset");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
@@ -318,7 +318,7 @@ namespace System::Collections::Concurrent {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("$Enumerate$d__27").WithContext("System.Collections.IEnumerator.get_Current");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::$Enumerate$d__27::System.Collections.IEnumerator.get_Current");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
       }
@@ -355,77 +355,77 @@ namespace System::Collections::Concurrent {
     // public T[] ToArray()
     // Offset: 0xFFFFFFFF
     ::Array<T>* ToArray() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext("ToArray");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::ToArray");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ToArray", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(this, ___internal__method);
     }
     // static private System.Int32 GetCount(System.Collections.Concurrent.ConcurrentQueue`1/Segment<T> s, System.Int32 head, System.Int32 tail)
     // Offset: 0xFFFFFFFF
     static int GetCount(typename System::Collections::Concurrent::ConcurrentQueue_1<T>::Segment* s, int head, int tail) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext("GetCount");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::GetCount");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConcurrentQueue_1<T>*>::get(), "GetCount", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(s, head, tail))));
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, s, head, tail);
     }
     // static private System.Int64 GetCount(System.Collections.Concurrent.ConcurrentQueue`1/Segment<T> head, System.Int32 headHead, System.Collections.Concurrent.ConcurrentQueue`1/Segment<T> tail, System.Int32 tailTail)
     // Offset: 0xFFFFFFFF
     static int64_t GetCount(typename System::Collections::Concurrent::ConcurrentQueue_1<T>::Segment* head, int headHead, typename System::Collections::Concurrent::ConcurrentQueue_1<T>::Segment* tail, int tailTail) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext("GetCount");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::GetCount");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConcurrentQueue_1<T>*>::get(), "GetCount", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(head, headHead, tail, tailTail))));
       return ::il2cpp_utils::RunMethodThrow<int64_t, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, head, headHead, tail, tailTail);
     }
     // public System.Void CopyTo(T[] array, System.Int32 index)
     // Offset: 0xFFFFFFFF
     void CopyTo(::Array<T>* array, int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext("CopyTo");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::CopyTo");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(array, index)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, array, index);
     }
     // private System.Void SnapForObservation(out System.Collections.Concurrent.ConcurrentQueue`1/Segment<T> head, out System.Int32 headHead, out System.Collections.Concurrent.ConcurrentQueue`1/Segment<T> tail, out System.Int32 tailTail)
     // Offset: 0xFFFFFFFF
     void SnapForObservation(typename System::Collections::Concurrent::ConcurrentQueue_1<T>::Segment*& head, int& headHead, typename System::Collections::Concurrent::ConcurrentQueue_1<T>::Segment*& tail, int& tailTail) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext("SnapForObservation");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::SnapForObservation");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SnapForObservation", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(head, headHead, tail, tailTail)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, head, headHead, tail, tailTail);
     }
     // private T GetItemWhenAvailable(System.Collections.Concurrent.ConcurrentQueue`1/Segment<T> segment, System.Int32 i)
     // Offset: 0xFFFFFFFF
     T GetItemWhenAvailable(typename System::Collections::Concurrent::ConcurrentQueue_1<T>::Segment* segment, int i) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext("GetItemWhenAvailable");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::GetItemWhenAvailable");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetItemWhenAvailable", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(segment, i)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, segment, i);
     }
     // private System.Collections.Generic.IEnumerator`1<T> Enumerate(System.Collections.Concurrent.ConcurrentQueue`1/Segment<T> head, System.Int32 headHead, System.Collections.Concurrent.ConcurrentQueue`1/Segment<T> tail, System.Int32 tailTail)
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerator_1<T>* Enumerate(typename System::Collections::Concurrent::ConcurrentQueue_1<T>::Segment* head, int headHead, typename System::Collections::Concurrent::ConcurrentQueue_1<T>::Segment* tail, int tailTail) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext("Enumerate");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::Enumerate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Enumerate", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(head, headHead, tail, tailTail)));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal__method, head, headHead, tail, tailTail);
     }
     // public System.Void Enqueue(T item)
     // Offset: 0xFFFFFFFF
     void Enqueue(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext("Enqueue");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::Enqueue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Enqueue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // private System.Void EnqueueSlow(T item)
     // Offset: 0xFFFFFFFF
     void EnqueueSlow(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext("EnqueueSlow");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::EnqueueSlow");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EnqueueSlow", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // public System.Boolean TryDequeue(out T result)
     // Offset: 0xFFFFFFFF
     bool TryDequeue(T& result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext("TryDequeue");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::TryDequeue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TryDequeue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, result);
     }
     // private System.Boolean TryDequeueSlow(out T item)
     // Offset: 0xFFFFFFFF
     bool TryDequeueSlow(T& item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext("TryDequeueSlow");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::TryDequeueSlow");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TryDequeueSlow", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
     }
@@ -435,7 +435,7 @@ namespace System::Collections::Concurrent {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConcurrentQueue_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConcurrentQueue_1<T>*, creationType>()));
     }
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
@@ -443,7 +443,7 @@ namespace System::Collections::Concurrent {
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext("System.Collections.ICollection.CopyTo");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::System.Collections.ICollection.CopyTo");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.ICollection.CopyTo", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(array, index)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, array, index);
     }
@@ -452,7 +452,7 @@ namespace System::Collections::Concurrent {
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext("System.Collections.IEnumerable.GetEnumerator");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::System.Collections.IEnumerable.GetEnumerator");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
     }
@@ -462,7 +462,7 @@ namespace System::Collections::Concurrent {
     // Base method: System.Int32 ICollection::get_Count()
     // Base method: System.Int32 IReadOnlyCollection_1::get_Count()
     int get_Count() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext("get_Count");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::get_Count");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
@@ -476,7 +476,7 @@ namespace System::Collections::Concurrent {
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<T>* GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Concurrent").WithContext("ConcurrentQueue_1").WithContext("GetEnumerator");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::GetEnumerator");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal__method);
     }

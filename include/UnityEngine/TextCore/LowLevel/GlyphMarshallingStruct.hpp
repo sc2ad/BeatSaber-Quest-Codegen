@@ -69,7 +69,7 @@ namespace UnityEngine::TextCore::LowLevel {
     // Offset: 0xCB8168
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GlyphMarshallingStruct(UnityEngine::TextCore::Glyph* glyph) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TextCore::LowLevel").WithContext("GlyphMarshallingStruct").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(glyph)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, glyph);
     }

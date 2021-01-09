@@ -285,7 +285,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverVR::Locomotion* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("Locomotion").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverVR::Locomotion::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR::Locomotion*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolverVR/Locomotion

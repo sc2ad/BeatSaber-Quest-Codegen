@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Offset: 0x1E53AB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfanityFilter* New_ctor(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* wordList) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ProfanityFilter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ProfanityFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfanityFilter*, creationType>(wordList)));
     }
     // public System.Boolean IsProfane(System.String word)

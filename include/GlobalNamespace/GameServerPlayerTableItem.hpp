@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A1DDE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerPlayerTableItem* New_ctor(::Il2CppString* playerName, ::Il2CppString* suggestedLevel, ::Il2CppString* suggestedModifiers, bool isReady) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("GameServerPlayerTableItem").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameServerPlayerTableItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerPlayerTableItem*, creationType>(playerName, suggestedLevel, suggestedModifiers, isReady)));
     }
   }; // GameServerPlayerTableItem

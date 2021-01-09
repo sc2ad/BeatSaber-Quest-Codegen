@@ -231,7 +231,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0xFFFFFFFF
     template<class T>
     System::Collections::Generic::IList_1<T>* GetComponent(UnityEngine::GameObject* gameObject) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("ControlPlayableAsset").WithContext("GetComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::ControlPlayableAsset::GetComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObject)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IList_1<T>*, false>(this, ___internal__method, gameObject);
@@ -289,7 +289,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ControlPlayableAsset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("ControlPlayableAsset").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::ControlPlayableAsset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ControlPlayableAsset*, creationType>()));
     }
     // static private System.Void .cctor()

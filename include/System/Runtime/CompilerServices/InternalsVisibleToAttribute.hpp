@@ -36,7 +36,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x11631E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalsVisibleToAttribute* New_ctor(::Il2CppString* assemblyName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("InternalsVisibleToAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::InternalsVisibleToAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalsVisibleToAttribute*, creationType>(assemblyName)));
     }
     // public System.String get_AssemblyName()

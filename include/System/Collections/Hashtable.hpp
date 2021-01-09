@@ -253,63 +253,63 @@ namespace System::Collections {
     // Offset: 0x1CB6C34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable* New_ctor(bool trash) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Hashtable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable*, creationType>(trash)));
     }
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0x1CB6EE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable* New_ctor(int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Hashtable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable*, creationType>(capacity)));
     }
     // public System.Void .ctor(System.Int32 capacity, System.Single loadFactor)
     // Offset: 0x1CB6C3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable* New_ctor(int capacity, float loadFactor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Hashtable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable*, creationType>(capacity, loadFactor)));
     }
     // public System.Void .ctor(System.Int32 capacity, System.Single loadFactor, System.Collections.IHashCodeProvider hcp, System.Collections.IComparer comparer)
     // Offset: 0x1CB6EEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable* New_ctor(int capacity, float loadFactor, System::Collections::IHashCodeProvider* hcp, System::Collections::IComparer* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Hashtable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable*, creationType>(capacity, loadFactor, hcp, comparer)));
     }
     // public System.Void .ctor(System.Int32 capacity, System.Single loadFactor, System.Collections.IEqualityComparer equalityComparer)
     // Offset: 0x1CB6FA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable* New_ctor(int capacity, float loadFactor, System::Collections::IEqualityComparer* equalityComparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Hashtable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable*, creationType>(capacity, loadFactor, equalityComparer)));
     }
     // public System.Void .ctor(System.Collections.IHashCodeProvider hcp, System.Collections.IComparer comparer)
     // Offset: 0x1CB6FD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable* New_ctor(System::Collections::IHashCodeProvider* hcp, System::Collections::IComparer* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Hashtable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable*, creationType>(hcp, comparer)));
     }
     // public System.Void .ctor(System.Collections.IEqualityComparer equalityComparer)
     // Offset: 0x1CB6FEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable* New_ctor(System::Collections::IEqualityComparer* equalityComparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Hashtable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable*, creationType>(equalityComparer)));
     }
     // public System.Void .ctor(System.Int32 capacity, System.Collections.IEqualityComparer equalityComparer)
     // Offset: 0x1CB7024
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable* New_ctor(int capacity, System::Collections::IEqualityComparer* equalityComparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Hashtable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable*, creationType>(capacity, equalityComparer)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1CB7058
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Hashtable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable*, creationType>(info, context)));
     }
     // private System.UInt32 InitHash(System.Object key, System.Int32 hashsize, out System.UInt32 seed, out System.UInt32 incr)
@@ -372,7 +372,7 @@ namespace System::Collections {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Hashtable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable*, creationType>()));
     }
     // public System.Void Add(System.Object key, System.Object value)

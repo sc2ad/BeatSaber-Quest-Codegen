@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A27CC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BombExecutionRating* New_ctor(float time, GlobalNamespace::BombExecutionRating::Rating rating) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BombExecutionRating").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BombExecutionRating::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BombExecutionRating*, creationType>(time, rating)));
     }
   }; // BombExecutionRating

@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Offset: 0x14B5A9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Sha384Digest* New_ctor(Org::BouncyCastle::Crypto::Digests::Sha384Digest* t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Digests").WithContext("Sha384Digest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::Sha384Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Sha384Digest*, creationType>(t)));
     }
     // public System.Void .ctor()
@@ -39,7 +39,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Sha384Digest* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Digests").WithContext("Sha384Digest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::Sha384Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Sha384Digest*, creationType>()));
     }
     // public override System.String get_AlgorithmName()

@@ -48,7 +48,7 @@ namespace Zenject::Internal {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject::Internal").WithContext("$$c__DisplayClass8_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_1*, creationType>()));
     }
   }; // Zenject.Internal.ReflectionInfoTypeInfoConverter/<>c__DisplayClass8_1

@@ -37,7 +37,7 @@ namespace System::Net {
     // Offset: 0x1320D4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpStatus* New_ctor(System::Net::FtpStatusCode statusCode, ::Il2CppString* statusDescription) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("FtpStatus").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpStatus::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpStatus*, creationType>(statusCode, statusDescription)));
     }
     // public System.Net.FtpStatusCode get_StatusCode()

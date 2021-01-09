@@ -105,7 +105,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetSaberGlowColor* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SetSaberGlowColor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SetSaberGlowColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetSaberGlowColor*, creationType>()));
     }
   }; // SetSaberGlowColor

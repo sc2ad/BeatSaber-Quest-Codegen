@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Offset: 0x11B277C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRGearVrControllerTest::BoolMonitor* New_ctor(::Il2CppString* name, GlobalNamespace::OVRGearVrControllerTest::BoolMonitor::BoolGenerator* generator, float displayTimeout) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BoolMonitor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRGearVrControllerTest::BoolMonitor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRGearVrControllerTest::BoolMonitor*, creationType>(name, generator, displayTimeout)));
     }
     // public System.Void Update()

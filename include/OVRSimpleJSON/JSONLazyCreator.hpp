@@ -54,14 +54,14 @@ namespace OVRSimpleJSON {
     // Offset: 0x12E6E00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONLazyCreator* New_ctor(OVRSimpleJSON::JSONNode* aNode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVRSimpleJSON").WithContext("JSONLazyCreator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONLazyCreator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONLazyCreator*, creationType>(aNode)));
     }
     // public System.Void .ctor(OVRSimpleJSON.JSONNode aNode, System.String aKey)
     // Offset: 0x12E7E0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONLazyCreator* New_ctor(OVRSimpleJSON::JSONNode* aNode, ::Il2CppString* aKey) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVRSimpleJSON").WithContext("JSONLazyCreator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONLazyCreator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONLazyCreator*, creationType>(aNode, aKey)));
     }
     // private T Set(T aVal)
@@ -69,7 +69,7 @@ namespace OVRSimpleJSON {
     template<class T>
     T Set(T aVal) {
       static_assert(std::is_convertible_v<T, OVRSimpleJSON::JSONNode*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVRSimpleJSON").WithContext("JSONLazyCreator").WithContext("Set");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONLazyCreator::Set");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Set", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(aVal)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, aVal);

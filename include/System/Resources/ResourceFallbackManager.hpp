@@ -68,7 +68,7 @@ namespace System::Resources {
     // Offset: 0x15D5D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceFallbackManager* New_ctor(System::Globalization::CultureInfo* startingCulture, System::Globalization::CultureInfo* neutralResourcesCulture, bool useParents) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("ResourceFallbackManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceFallbackManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceFallbackManager*, creationType>(startingCulture, neutralResourcesCulture, useParents)));
     }
     // public System.Collections.Generic.IEnumerator`1<System.Globalization.CultureInfo> GetEnumerator()

@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x190FB08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_ComputeDistortion* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_ComputeDistortion").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_ComputeDistortion::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_ComputeDistortion*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(OVR.OpenVR.EVREye eEye, System.Single fU, System.Single fV, ref OVR.OpenVR.DistortionCoordinates_t pDistortionCoordinates)

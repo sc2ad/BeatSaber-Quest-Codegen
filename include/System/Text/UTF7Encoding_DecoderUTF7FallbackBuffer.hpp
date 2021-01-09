@@ -45,7 +45,7 @@ namespace System::Text {
     // Offset: 0x16A94E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF7Encoding::DecoderUTF7FallbackBuffer* New_ctor(System::Text::UTF7Encoding::DecoderUTF7Fallback* fallback) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("DecoderUTF7FallbackBuffer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF7Encoding::DecoderUTF7FallbackBuffer*, creationType>(fallback)));
     }
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)

@@ -188,7 +188,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIK::References* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("References").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::VRIK::References::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRIK::References*, creationType>()));
     }
   }; // RootMotion.FinalIK.VRIK/References

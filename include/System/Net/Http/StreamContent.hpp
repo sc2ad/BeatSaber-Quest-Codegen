@@ -74,21 +74,21 @@ namespace System::Net::Http {
     // Offset: 0x1210D78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamContent* New_ctor(System::IO::Stream* content) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http").WithContext("StreamContent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::StreamContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamContent*, creationType>(content)));
     }
     // public System.Void .ctor(System.IO.Stream content, System.Int32 bufferSize)
     // Offset: 0x1210D80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamContent* New_ctor(System::IO::Stream* content, int bufferSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http").WithContext("StreamContent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::StreamContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamContent*, creationType>(content, bufferSize)));
     }
     // System.Void .ctor(System.IO.Stream content, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x120DBFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamContent* New_ctor(System::IO::Stream* content, System::Threading::CancellationToken cancellationToken) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http").WithContext("StreamContent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::StreamContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamContent*, creationType>(content, cancellationToken)));
     }
     // protected override System.Void Dispose(System.Boolean disposing)

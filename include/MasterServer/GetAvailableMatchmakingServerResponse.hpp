@@ -207,7 +207,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GetAvailableMatchmakingServerResponse* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("GetAvailableMatchmakingServerResponse").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::GetAvailableMatchmakingServerResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GetAvailableMatchmakingServerResponse*, creationType>()));
     }
   }; // MasterServer.GetAvailableMatchmakingServerResponse

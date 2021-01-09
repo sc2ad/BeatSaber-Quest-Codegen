@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Offset: 0xFD4668
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerSpectatorController::$SwitchToDefaultSpotCoroutine$d__18* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$SwitchToDefaultSpotCoroutine$d__18").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerSpectatorController::$SwitchToDefaultSpotCoroutine$d__18::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSpectatorController::$SwitchToDefaultSpotCoroutine$d__18*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

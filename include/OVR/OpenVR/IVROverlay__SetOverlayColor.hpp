@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x18FCF1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_SetOverlayColor* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_SetOverlayColor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVROverlay::_SetOverlayColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_SetOverlayColor*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.Single fRed, System.Single fGreen, System.Single fBlue)

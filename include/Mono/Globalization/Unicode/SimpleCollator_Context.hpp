@@ -78,7 +78,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0xCA0B04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Context(System::Globalization::CompareOptions opt, uint8_t* alwaysMatchFlags, uint8_t* neverMatchFlags, uint8_t* buffer1, uint8_t* buffer2, uint8_t* prev1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Globalization::Unicode").WithContext("Context").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::SimpleCollator::Context::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(opt, alwaysMatchFlags, neverMatchFlags, buffer1, buffer2, prev1)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, opt, alwaysMatchFlags, neverMatchFlags, buffer1, buffer2, prev1);
     }

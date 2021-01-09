@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleShadowController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SimpleShadowController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SimpleShadowController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleShadowController*, creationType>()));
     }
   }; // SimpleShadowController

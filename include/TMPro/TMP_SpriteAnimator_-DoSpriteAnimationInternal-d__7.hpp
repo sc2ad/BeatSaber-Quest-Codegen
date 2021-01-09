@@ -137,7 +137,7 @@ namespace TMPro {
     // Offset: 0xF89E7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("$DoSpriteAnimationInternal$d__7").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

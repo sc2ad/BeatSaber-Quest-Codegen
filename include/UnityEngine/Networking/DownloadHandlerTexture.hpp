@@ -67,7 +67,7 @@ namespace UnityEngine::Networking {
     // Offset: 0x1A0BF0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DownloadHandlerTexture* New_ctor(bool readable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Networking").WithContext("DownloadHandlerTexture").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::DownloadHandlerTexture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DownloadHandlerTexture*, creationType>(readable)));
     }
     // public UnityEngine.Texture2D get_texture()

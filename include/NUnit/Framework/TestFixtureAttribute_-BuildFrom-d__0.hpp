@@ -88,7 +88,7 @@ namespace NUnit::Framework {
     // Offset: 0x1965530
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestFixtureAttribute::$BuildFrom$d__0* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework").WithContext("$BuildFrom$d__0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestFixtureAttribute::$BuildFrom$d__0*, creationType>($$1__state)));
     }
     // private System.Collections.Generic.IEnumerator`1<NUnit.Framework.Internal.TestSuite> System.Collections.Generic.IEnumerable<NUnit.Framework.Internal.TestSuite>.GetEnumerator()

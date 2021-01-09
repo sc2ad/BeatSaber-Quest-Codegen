@@ -135,7 +135,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x17DCFB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverVR::Footstep* New_ctor(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation, UnityEngine::Vector3 characterSpaceOffset) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("Footstep").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverVR::Footstep::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR::Footstep*, creationType>(rootRotation, footPosition, footRotation, characterSpaceOffset)));
     }
     // public System.Void Reset(UnityEngine.Quaternion rootRotation, UnityEngine.Vector3 footPosition, UnityEngine.Quaternion footRotation)

@@ -132,7 +132,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HorizontalOrVerticalLayoutGroup* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("HorizontalOrVerticalLayoutGroup").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::HorizontalOrVerticalLayoutGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HorizontalOrVerticalLayoutGroup*, creationType>()));
     }
   }; // UnityEngine.UI.HorizontalOrVerticalLayoutGroup

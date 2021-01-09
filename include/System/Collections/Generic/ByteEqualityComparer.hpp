@@ -47,7 +47,7 @@ namespace System::Collections::Generic {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteEqualityComparer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ByteEqualityComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ByteEqualityComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteEqualityComparer*, creationType>()));
     }
   }; // System.Collections.Generic.ByteEqualityComparer

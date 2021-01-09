@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Base method: System.Void DerInteger::.ctor(Org.BouncyCastle.Math.BigInteger number)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrlNumber* New_ctor(Org::BouncyCastle::Math::BigInteger* number) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X509").WithContext("CrlNumber").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::CrlNumber::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrlNumber*, creationType>(number)));
     }
     // public override System.String ToString()

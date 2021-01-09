@@ -44,7 +44,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubsystemDescriptor* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("SubsystemDescriptor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::SubsystemDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubsystemDescriptor*, creationType>()));
     }
   }; // UnityEngine.SubsystemDescriptor

@@ -77,14 +77,14 @@ namespace System::Text {
     // Offset: 0x159D10C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderNLS* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("EncoderNLS").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderNLS::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderNLS*, creationType>(info, context)));
     }
     // System.Void .ctor(System.Text.Encoding encoding)
     // Offset: 0x15997D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderNLS* New_ctor(System::Text::Encoding* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("EncoderNLS").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderNLS::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderNLS*, creationType>(encoding)));
     }
     // public System.Text.Encoding get_Encoding()
@@ -111,7 +111,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderNLS* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("EncoderNLS").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderNLS::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderNLS*, creationType>()));
     }
     // public override System.Void Reset()

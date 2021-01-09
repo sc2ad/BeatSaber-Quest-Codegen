@@ -74,7 +74,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DedicatedServerHeartbeatResponse* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("DedicatedServerHeartbeatResponse").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::DedicatedServerHeartbeatResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerHeartbeatResponse*, creationType>()));
     }
   }; // MasterServer.DedicatedServerHeartbeatResponse

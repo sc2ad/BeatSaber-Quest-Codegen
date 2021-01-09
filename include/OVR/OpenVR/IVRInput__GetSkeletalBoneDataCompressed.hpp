@@ -44,7 +44,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1865E7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRInput::_GetSkeletalBoneDataCompressed* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetSkeletalBoneDataCompressed").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRInput::_GetSkeletalBoneDataCompressed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRInput::_GetSkeletalBoneDataCompressed*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVRInputError Invoke(System.UInt64 action, OVR.OpenVR.EVRSkeletalTransformSpace eTransformSpace, OVR.OpenVR.EVRSkeletalMotionRange eMotionRange, System.IntPtr pvCompressedData, System.UInt32 unCompressedSize, ref System.UInt32 punRequiredCompressedSize, System.UInt64 ulRestrictToDevice)

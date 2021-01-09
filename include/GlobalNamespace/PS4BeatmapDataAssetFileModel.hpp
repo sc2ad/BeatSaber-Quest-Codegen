@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4BeatmapDataAssetFileModel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("PS4BeatmapDataAssetFileModel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PS4BeatmapDataAssetFileModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4BeatmapDataAssetFileModel*, creationType>()));
     }
   }; // PS4BeatmapDataAssetFileModel

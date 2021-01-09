@@ -53,7 +53,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestResultSender::QueueData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::TestRunner::Callbacks").WithContext("QueueData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestResultSender::QueueData*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender/QueueData

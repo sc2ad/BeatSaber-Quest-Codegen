@@ -25,7 +25,7 @@ namespace System::Linq {
     // public TKey get_Key()
     // Offset: 0xFFFFFFFF
     TKey get_Key() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("IGrouping_2").WithContext("get_Key");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::IGrouping_2::get_Key");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Key", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TKey, false>(this, ___internal__method);
     }

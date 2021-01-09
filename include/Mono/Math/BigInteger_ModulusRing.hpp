@@ -35,7 +35,7 @@ namespace Mono::Math {
     // Offset: 0x17AD614
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger::ModulusRing* New_ctor(Mono::Math::BigInteger* modulus) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Math").WithContext("ModulusRing").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Math::BigInteger::ModulusRing::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger::ModulusRing*, creationType>(modulus)));
     }
     // public System.Void BarrettReduction(Mono.Math.BigInteger x)

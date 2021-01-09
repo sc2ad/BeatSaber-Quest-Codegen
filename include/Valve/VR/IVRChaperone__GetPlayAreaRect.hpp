@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x136EFE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRChaperone::_GetPlayAreaRect* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetPlayAreaRect").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRChaperone::_GetPlayAreaRect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRChaperone::_GetPlayAreaRect*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(ref Valve.VR.HmdQuad_t rect)

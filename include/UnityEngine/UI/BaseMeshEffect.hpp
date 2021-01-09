@@ -87,7 +87,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseMeshEffect* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("BaseMeshEffect").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::BaseMeshEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseMeshEffect*, creationType>()));
     }
   }; // UnityEngine.UI.BaseMeshEffect

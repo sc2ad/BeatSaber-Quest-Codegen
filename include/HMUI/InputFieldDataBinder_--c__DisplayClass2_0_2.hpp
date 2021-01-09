@@ -66,14 +66,14 @@ namespace HMUI {
     // System.Void <AddBindings>b__0(System.String value)
     // Offset: 0xFFFFFFFF
     void $AddBindings$b__0(::Il2CppString* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("$$c__DisplayClass2_0_2").WithContext("<AddBindings>b__0");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldDataBinder::$$c__DisplayClass2_0_2::<AddBindings>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<AddBindings>b__0", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value))));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // System.Void <AddBindings>b__1()
     // Offset: 0xFFFFFFFF
     void $AddBindings$b__1() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("$$c__DisplayClass2_0_2").WithContext("<AddBindings>b__1");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldDataBinder::$$c__DisplayClass2_0_2::<AddBindings>b__1");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<AddBindings>b__1", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
@@ -83,7 +83,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputFieldDataBinder::$$c__DisplayClass2_0_2<T0, T1>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("$$c__DisplayClass2_0_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldDataBinder::$$c__DisplayClass2_0_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldDataBinder::$$c__DisplayClass2_0_2<T0, T1>*, creationType>()));
     }
   }; // HMUI.InputFieldDataBinder/<>c__DisplayClass2_0`2

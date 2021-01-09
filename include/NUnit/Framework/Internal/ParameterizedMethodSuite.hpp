@@ -42,7 +42,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.IMethodInfo method)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParameterizedMethodSuite* New_ctor(NUnit::Framework::Interfaces::IMethodInfo* method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("ParameterizedMethodSuite").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::ParameterizedMethodSuite::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParameterizedMethodSuite*, creationType>(method)));
     }
     // public override System.String get_TestType()

@@ -62,7 +62,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Offset: 0x13F8ED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CertificationRequest* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::Pkcs").WithContext("CertificationRequest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CertificationRequest*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()

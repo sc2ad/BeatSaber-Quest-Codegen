@@ -43,14 +43,14 @@ namespace System::ComponentModel {
     // Offset: 0x1481070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DesignerAttribute* New_ctor(::Il2CppString* designerTypeName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("DesignerAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::DesignerAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DesignerAttribute*, creationType>(designerTypeName)));
     }
     // public System.Void .ctor(System.String designerTypeName, System.Type designerBaseType)
     // Offset: 0x1481170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DesignerAttribute* New_ctor(::Il2CppString* designerTypeName, System::Type* designerBaseType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("DesignerAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::DesignerAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DesignerAttribute*, creationType>(designerTypeName, designerBaseType)));
     }
     // public override System.Boolean Equals(System.Object obj)

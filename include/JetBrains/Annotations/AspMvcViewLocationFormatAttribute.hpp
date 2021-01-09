@@ -35,7 +35,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE2A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AspMvcViewLocationFormatAttribute* New_ctor(::Il2CppString* format) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("AspMvcViewLocationFormatAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::AspMvcViewLocationFormatAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AspMvcViewLocationFormatAttribute*, creationType>(format)));
     }
     // public System.String get_Format()

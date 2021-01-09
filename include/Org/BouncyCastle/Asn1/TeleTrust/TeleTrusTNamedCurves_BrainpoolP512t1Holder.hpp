@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TeleTrusTNamedCurves::BrainpoolP512t1Holder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::TeleTrust").WithContext("BrainpoolP512t1Holder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::BrainpoolP512t1Holder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TeleTrusTNamedCurves::BrainpoolP512t1Holder*, creationType>()));
     }
     // protected override Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()

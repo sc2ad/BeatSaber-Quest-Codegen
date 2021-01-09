@@ -53,7 +53,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfo::CollectionHeaderTypeInfo_2<T, U>* New_ctor(::Il2CppString* name, System::Net::Http::Headers::TryParseListDelegate_1<T>* parser, System::Net::Http::Headers::HttpHeaderKind headerKind, int minimalCount, ::Il2CppString* separator) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("CollectionHeaderTypeInfo_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::CollectionHeaderTypeInfo_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderInfo::CollectionHeaderTypeInfo_2<T, U>*, creationType>(name, parser, headerKind, minimalCount, separator)));
     }
     // public override System.String get_Separator()
@@ -61,7 +61,7 @@ namespace System::Net::Http::Headers {
     // Implemented from: System.Net.Http.Headers.HeaderInfo
     // Base method: System.String HeaderInfo::get_Separator()
     ::Il2CppString* get_Separator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("CollectionHeaderTypeInfo_2").WithContext("get_Separator");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::CollectionHeaderTypeInfo_2::get_Separator");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Separator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
     }
@@ -70,7 +70,7 @@ namespace System::Net::Http::Headers {
     // Implemented from: System.Net.Http.Headers.HeaderInfo/HeaderTypeInfo`2
     // Base method: System.Boolean HeaderTypeInfo_2::TryParse(System.String value, out System.Object result)
     bool TryParse(::Il2CppString* value, ::Il2CppObject*& result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("CollectionHeaderTypeInfo_2").WithContext("TryParse");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::CollectionHeaderTypeInfo_2::TryParse");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TryParse", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value, result)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value, result);
     }

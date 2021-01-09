@@ -43,7 +43,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x119AD04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MacOsIPInterfaceProperties* New_ctor(System::Net::NetworkInformation::MacOsNetworkInterface* iface, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("MacOsIPInterfaceProperties").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::MacOsIPInterfaceProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MacOsIPInterfaceProperties*, creationType>(iface, addresses)));
     }
     // static private System.Boolean ParseRouteInfo_internal(System.String iface, out System.String[] gw_addr_list)

@@ -123,7 +123,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EffectPoolsManualInstaller* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("EffectPoolsManualInstaller").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EffectPoolsManualInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EffectPoolsManualInstaller*, creationType>()));
     }
   }; // EffectPoolsManualInstaller

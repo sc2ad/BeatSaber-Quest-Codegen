@@ -54,21 +54,21 @@ namespace System {
     // Offset: 0x19E115C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WeakReference* New_ctor(::Il2CppObject* target) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("WeakReference").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::WeakReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WeakReference*, creationType>(target)));
     }
     // public System.Void .ctor(System.Object target, System.Boolean trackResurrection)
     // Offset: 0x19E1190
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WeakReference* New_ctor(::Il2CppObject* target, bool trackResurrection) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("WeakReference").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::WeakReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WeakReference*, creationType>(target, trackResurrection)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x19E11D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WeakReference* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("WeakReference").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::WeakReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WeakReference*, creationType>(info, context)));
     }
     // public System.Boolean get_IsAlive()
@@ -89,7 +89,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WeakReference* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("WeakReference").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::WeakReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WeakReference*, creationType>()));
     }
     // protected override System.Void Finalize()

@@ -52,7 +52,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AtomicBoolean* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("AtomicBoolean").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AtomicBoolean::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AtomicBoolean*, creationType>()));
     }
   }; // System.Threading.AtomicBoolean

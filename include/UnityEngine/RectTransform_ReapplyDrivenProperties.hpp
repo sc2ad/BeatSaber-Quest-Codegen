@@ -34,7 +34,7 @@ namespace UnityEngine {
     // Offset: 0x173AC2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RectTransform::ReapplyDrivenProperties* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("ReapplyDrivenProperties").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RectTransform::ReapplyDrivenProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectTransform::ReapplyDrivenProperties*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.RectTransform driven)

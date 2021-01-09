@@ -93,7 +93,7 @@ namespace System::Security::Claims {
     // Offset: 0x1453DAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClaimsIdentity::$get_Claims$d__51* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Claims").WithContext("$get_Claims$d__51").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClaimsIdentity::$get_Claims$d__51*, creationType>($$1__state)));
     }
     // private System.Void <>m__Finally1()

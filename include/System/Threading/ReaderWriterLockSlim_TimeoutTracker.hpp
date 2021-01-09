@@ -42,7 +42,7 @@ namespace System::Threading {
     // Offset: 0xCB6978
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TimeoutTracker(int millisecondsTimeout) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("TimeoutTracker").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ReaderWriterLockSlim::TimeoutTracker::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(millisecondsTimeout)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, millisecondsTimeout);
     }

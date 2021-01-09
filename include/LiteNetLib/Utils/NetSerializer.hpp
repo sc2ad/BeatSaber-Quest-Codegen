@@ -155,7 +155,7 @@ namespace LiteNetLib::Utils {
     template<class T>
     void RegisterNestedType() {
       static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>> && is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("NetSerializer").WithContext("RegisterNestedType");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::RegisterNestedType");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "RegisterNestedType", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
@@ -165,7 +165,7 @@ namespace LiteNetLib::Utils {
     template<class T>
     void RegisterNestedType(System::Func_1<T>* constructor) {
       static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("NetSerializer").WithContext("RegisterNestedType");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::RegisterNestedType");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "RegisterNestedType", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(constructor)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, constructor);
@@ -174,7 +174,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     template<class T>
     void RegisterNestedType(System::Action_2<LiteNetLib::Utils::NetDataWriter*, T>* writer, System::Func_2<LiteNetLib::Utils::NetDataReader*, T>* reader) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("NetSerializer").WithContext("RegisterNestedType");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::RegisterNestedType");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "RegisterNestedType", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(writer, reader)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, writer, reader);
@@ -183,14 +183,14 @@ namespace LiteNetLib::Utils {
     // Offset: 0x22B5010
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer* New_ctor(int maxStringLength) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("NetSerializer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer*, creationType>(maxStringLength)));
     }
     // private LiteNetLib.Utils.NetSerializer/ClassInfo`1<T> RegisterInternal()
     // Offset: 0xFFFFFFFF
     template<class T>
     LiteNetLib::Utils::NetSerializer::ClassInfo_1<T>* RegisterInternal() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("NetSerializer").WithContext("RegisterInternal");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::RegisterInternal");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "RegisterInternal", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<LiteNetLib::Utils::NetSerializer::ClassInfo_1<T>*, false>(this, ___internal__method);
@@ -199,7 +199,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     template<class T>
     void Register() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("NetSerializer").WithContext("Register");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::Register");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Register", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
@@ -208,7 +208,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     template<class T>
     T Deserialize(LiteNetLib::Utils::NetDataReader* reader) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("NetSerializer").WithContext("Deserialize");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::Deserialize");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Deserialize", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(reader)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, reader);
@@ -217,7 +217,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     template<class T>
     bool Deserialize(LiteNetLib::Utils::NetDataReader* reader, T target) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("NetSerializer").WithContext("Deserialize");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::Deserialize");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Deserialize", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(reader, target)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, reader, target);
@@ -226,7 +226,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     template<class T>
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer, T obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("NetSerializer").WithContext("Serialize");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::Serialize");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Serialize", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(writer, obj)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, writer, obj);
@@ -235,7 +235,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     template<class T>
     ::Array<uint8_t>* Serialize(T obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("NetSerializer").WithContext("Serialize");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::Serialize");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Serialize", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(obj)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<::Array<uint8_t>*, false>(this, ___internal__method, obj);
@@ -246,7 +246,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("NetSerializer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer*, creationType>()));
     }
   }; // LiteNetLib.Utils.NetSerializer

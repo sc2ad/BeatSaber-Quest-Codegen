@@ -169,7 +169,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SwitchView* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("SwitchView").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::SwitchView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SwitchView*, creationType>()));
     }
   }; // HMUI.SwitchView

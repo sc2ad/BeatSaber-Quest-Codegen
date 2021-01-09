@@ -63,21 +63,21 @@ namespace Zenject {
     // private System.Void Construct(Zenject.IProvider provider, Zenject.InjectContext injectContext)
     // Offset: 0xFFFFFFFF
     void Construct(Zenject::IProvider* provider, Zenject::InjectContext* injectContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PlaceholderFactoryBase_1").WithContext("Construct");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactoryBase_1::Construct");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Construct", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(provider, injectContext)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, provider, injectContext);
     }
     // protected TValue CreateInternal(System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs)
     // Offset: 0xFFFFFFFF
     TValue CreateInternal(System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PlaceholderFactoryBase_1").WithContext("CreateInternal");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactoryBase_1::CreateInternal");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CreateInternal", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(extraArgs)));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, extraArgs);
     }
     // protected System.Collections.Generic.IEnumerable`1<System.Type> get_ParamTypes()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<System::Type*>* get_ParamTypes() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PlaceholderFactoryBase_1").WithContext("get_ParamTypes");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactoryBase_1::get_ParamTypes");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_ParamTypes", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<System::Type*>*, false>(this, ___internal__method);
     }
@@ -86,7 +86,7 @@ namespace Zenject {
     // Implemented from: Zenject.IValidatable
     // Base method: System.Void IValidatable::Validate()
     void Validate() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PlaceholderFactoryBase_1").WithContext("Validate");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactoryBase_1::Validate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Validate", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
@@ -101,7 +101,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaceholderFactoryBase_1<TValue>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PlaceholderFactoryBase_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactoryBase_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaceholderFactoryBase_1<TValue>*, creationType>()));
     }
   }; // Zenject.PlaceholderFactoryBase`1

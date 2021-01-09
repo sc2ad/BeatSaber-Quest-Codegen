@@ -47,7 +47,7 @@ namespace OVRSimpleJSON {
     // Offset: 0x12E86F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONString* New_ctor(::Il2CppString* aData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVRSimpleJSON").WithContext("JSONString").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONString*, creationType>(aData)));
     }
     // public override OVRSimpleJSON.JSONNodeType get_Tag()

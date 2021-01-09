@@ -26,7 +26,7 @@ namespace System::Diagnostics {
     // Base method: System.Void DescriptionAttribute::.ctor(System.String description)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonitoringDescriptionAttribute* New_ctor(::Il2CppString* description) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("MonitoringDescriptionAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::MonitoringDescriptionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonitoringDescriptionAttribute*, creationType>(description)));
     }
     // public override System.String get_Description()

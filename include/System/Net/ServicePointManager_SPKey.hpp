@@ -48,7 +48,7 @@ namespace System::Net {
     // Offset: 0x11A4FDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServicePointManager::SPKey* New_ctor(System::Uri* uri, System::Uri* proxy, bool use_connect) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("SPKey").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServicePointManager::SPKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServicePointManager::SPKey*, creationType>(uri, proxy, use_connect)));
     }
     // public System.Boolean get_UsesProxy()

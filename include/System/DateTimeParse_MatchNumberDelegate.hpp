@@ -36,7 +36,7 @@ namespace System {
     // Offset: 0x166DA18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DateTimeParse::MatchNumberDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("MatchNumberDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::DateTimeParse::MatchNumberDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeParse::MatchNumberDelegate*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(ref System.__DTString str, System.Int32 digitLen, out System.Int32 result)

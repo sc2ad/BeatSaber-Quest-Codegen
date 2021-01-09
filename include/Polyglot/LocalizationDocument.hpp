@@ -94,7 +94,7 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizationDocument* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizationDocument").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::LocalizationDocument::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizationDocument*, creationType>()));
     }
   }; // Polyglot.LocalizationDocument

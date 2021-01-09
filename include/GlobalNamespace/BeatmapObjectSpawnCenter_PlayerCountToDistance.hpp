@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectSpawnCenter::PlayerCountToDistance* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("PlayerCountToDistance").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectSpawnCenter::PlayerCountToDistance*, creationType>()));
     }
   }; // BeatmapObjectSpawnCenter/PlayerCountToDistance

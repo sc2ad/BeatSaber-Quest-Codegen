@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AutomaticSFXVolumeParamsSO* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AutomaticSFXVolumeParamsSO").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AutomaticSFXVolumeParamsSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AutomaticSFXVolumeParamsSO*, creationType>()));
     }
   }; // AutomaticSFXVolumeParamsSO

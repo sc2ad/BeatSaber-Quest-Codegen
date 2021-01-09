@@ -94,7 +94,7 @@ namespace System::Security::Claims {
     // Offset: 0x1455914
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClaimsPrincipal* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Claims").WithContext("ClaimsPrincipal").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::ClaimsPrincipal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClaimsPrincipal*, creationType>(info, context)));
     }
     // private System.Void OnSerializingMethod(System.Runtime.Serialization.StreamingContext context)
@@ -121,7 +121,7 @@ namespace System::Security::Claims {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClaimsPrincipal* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Claims").WithContext("ClaimsPrincipal").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::ClaimsPrincipal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClaimsPrincipal*, creationType>()));
     }
   }; // System.Security.Claims.ClaimsPrincipal

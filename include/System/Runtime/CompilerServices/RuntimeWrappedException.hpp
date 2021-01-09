@@ -40,7 +40,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x116333C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeWrappedException* New_ctor(::Il2CppObject* thrownObject) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("RuntimeWrappedException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::RuntimeWrappedException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeWrappedException*, creationType>(thrownObject)));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -57,7 +57,7 @@ namespace System::Runtime::CompilerServices {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeWrappedException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("RuntimeWrappedException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::RuntimeWrappedException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeWrappedException*, creationType>(info, context)));
     }
     // System.Void .ctor()
@@ -67,7 +67,7 @@ namespace System::Runtime::CompilerServices {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeWrappedException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("RuntimeWrappedException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::RuntimeWrappedException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeWrappedException*, creationType>()));
     }
   }; // System.Runtime.CompilerServices.RuntimeWrappedException

@@ -72,7 +72,7 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0x116D8E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrossAppDomainSink* New_ctor(int domainID) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Channels").WithContext("CrossAppDomainSink").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Channels::CrossAppDomainSink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrossAppDomainSink*, creationType>(domainID)));
     }
     // static System.Runtime.Remoting.Channels.CrossAppDomainSink GetSink(System.Int32 domainID)

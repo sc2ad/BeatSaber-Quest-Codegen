@@ -39,7 +39,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x19729E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackColorAttribute* New_ctor(float r, float g, float b) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TrackColorAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TrackColorAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackColorAttribute*, creationType>(r, g, b)));
     }
   }; // UnityEngine.Timeline.TrackColorAttribute

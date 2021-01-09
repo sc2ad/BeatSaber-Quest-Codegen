@@ -36,7 +36,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexCharClass::SingleRangeComparer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text::RegularExpressions").WithContext("SingleRangeComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexCharClass::SingleRangeComparer*, creationType>()));
     }
   }; // System.Text.RegularExpressions.RegexCharClass/SingleRangeComparer

@@ -41,7 +41,7 @@ namespace UnityEngine::Events {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CachedInvokableCall_1<T>* New_ctor(UnityEngine::Object* target, System::Reflection::MethodInfo* theFunction, T argument) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("CachedInvokableCall_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::CachedInvokableCall_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CachedInvokableCall_1<T>*, creationType>(target, theFunction, argument)));
     }
     // public override System.Void Invoke(System.Object[] args)
@@ -49,7 +49,7 @@ namespace UnityEngine::Events {
     // Implemented from: UnityEngine.Events.InvokableCall`1
     // Base method: System.Void InvokableCall_1::Invoke(System.Object[] args)
     void Invoke(::Array<::Il2CppObject*>* args) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("CachedInvokableCall_1").WithContext("Invoke");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::CachedInvokableCall_1::Invoke");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(args)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, args);
     }
@@ -58,7 +58,7 @@ namespace UnityEngine::Events {
     // Implemented from: UnityEngine.Events.InvokableCall`1
     // Base method: System.Void InvokableCall_1::Invoke(T arg0)
     void Invoke(T arg0) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("CachedInvokableCall_1").WithContext("Invoke");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::CachedInvokableCall_1::Invoke");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(arg0)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, arg0);
     }

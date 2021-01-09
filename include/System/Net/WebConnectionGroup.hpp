@@ -93,7 +93,7 @@ namespace System::Net {
     // Offset: 0x121F2C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionGroup* New_ctor(System::Net::ServicePoint* sPoint, ::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebConnectionGroup").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnectionGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionGroup*, creationType>(sPoint, name)));
     }
     // public System.Void add_ConnectionClosed(System.EventHandler value)

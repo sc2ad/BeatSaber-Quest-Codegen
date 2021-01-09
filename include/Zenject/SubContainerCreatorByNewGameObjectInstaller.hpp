@@ -60,7 +60,7 @@ namespace Zenject {
     // Offset: 0x1354AAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByNewGameObjectInstaller* New_ctor(Zenject::DiContainer* container, Zenject::GameObjectCreationParameters* gameObjectBindInfo, System::Type* installerType, System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SubContainerCreatorByNewGameObjectInstaller").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByNewGameObjectInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByNewGameObjectInstaller*, creationType>(container, gameObjectBindInfo, installerType, extraArgs)));
     }
     // protected override System.Void AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)

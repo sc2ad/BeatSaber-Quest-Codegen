@@ -61,7 +61,7 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ISO10126d2Padding* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Paddings").WithContext("ISO10126d2Padding").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ISO10126d2Padding*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Paddings.ISO10126d2Padding

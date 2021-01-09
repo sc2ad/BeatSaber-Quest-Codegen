@@ -148,14 +148,14 @@ namespace RootMotion {
     // Offset: 0x173EE90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerHumanoidQT* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion").WithContext("BakerHumanoidQT").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerHumanoidQT::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerHumanoidQT*, creationType>(name)));
     }
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.AvatarIKGoal goal, System.String name)
     // Offset: 0x173F188
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerHumanoidQT* New_ctor(UnityEngine::Transform* transform, UnityEngine::AvatarIKGoal goal, ::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion").WithContext("BakerHumanoidQT").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerHumanoidQT::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerHumanoidQT*, creationType>(transform, goal, name)));
     }
     // public System.Void Reset()

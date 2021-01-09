@@ -37,7 +37,7 @@ namespace System {
     // Offset: 0x1531D4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConsoleCancelEventArgs* New_ctor(System::ConsoleSpecialKey type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ConsoleCancelEventArgs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ConsoleCancelEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConsoleCancelEventArgs*, creationType>(type)));
     }
     // public System.Boolean get_Cancel()
@@ -50,7 +50,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConsoleCancelEventArgs* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ConsoleCancelEventArgs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ConsoleCancelEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConsoleCancelEventArgs*, creationType>()));
     }
   }; // System.ConsoleCancelEventArgs

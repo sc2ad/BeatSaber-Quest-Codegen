@@ -64,7 +64,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_MaterialManager::FallbackMaterial* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("FallbackMaterial").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_MaterialManager::FallbackMaterial::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_MaterialManager::FallbackMaterial*, creationType>()));
     }
   }; // TMPro.TMP_MaterialManager/FallbackMaterial

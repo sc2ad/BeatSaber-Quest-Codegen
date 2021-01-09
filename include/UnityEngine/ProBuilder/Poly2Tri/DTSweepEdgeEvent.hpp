@@ -42,7 +42,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DTSweepEdgeEvent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("DTSweepEdgeEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DTSweepEdgeEvent*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweepEdgeEvent

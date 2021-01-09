@@ -57,7 +57,7 @@ namespace System::Net {
     // Offset: 0x122814C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebRequestPrefixElement* New_ctor(::Il2CppString* P, System::Net::IWebRequestCreate* C) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WebRequestPrefixElement").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebRequestPrefixElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebRequestPrefixElement*, creationType>(P, C)));
     }
   }; // System.Net.WebRequestPrefixElement

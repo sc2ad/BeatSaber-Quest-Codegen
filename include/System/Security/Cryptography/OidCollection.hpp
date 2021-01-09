@@ -65,7 +65,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OidCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("OidCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::OidCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OidCollection*, creationType>()));
     }
     // public System.Int32 get_Count()

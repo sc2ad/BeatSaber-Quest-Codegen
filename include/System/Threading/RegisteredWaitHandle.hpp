@@ -93,7 +93,7 @@ namespace System::Threading {
     // Offset: 0x1D0946C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegisteredWaitHandle* New_ctor(System::Threading::WaitHandle* waitObject, System::Threading::WaitOrTimerCallback* callback, ::Il2CppObject* state, System::TimeSpan timeout, bool executeOnlyOnce) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("RegisteredWaitHandle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::RegisteredWaitHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegisteredWaitHandle*, creationType>(waitObject, callback, state, timeout, executeOnlyOnce)));
     }
     // System.Void Wait(System.Object state)

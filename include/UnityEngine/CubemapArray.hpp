@@ -38,42 +38,42 @@ namespace UnityEngine {
     // Offset: 0x1683B2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CubemapArray* New_ctor(int width, int cubemapCount, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("CubemapArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::CubemapArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CubemapArray*, creationType>(width, cubemapCount, format, flags)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 cubemapCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
     // Offset: 0x1683B7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CubemapArray* New_ctor(int width, int cubemapCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("CubemapArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::CubemapArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CubemapArray*, creationType>(width, cubemapCount, format, flags)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 cubemapCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags, System.Int32 mipCount)
     // Offset: 0x1683C1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CubemapArray* New_ctor(int width, int cubemapCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int mipCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("CubemapArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::CubemapArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CubemapArray*, creationType>(width, cubemapCount, format, flags, mipCount)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 cubemapCount, UnityEngine.TextureFormat textureFormat, System.Int32 mipCount, System.Boolean linear)
     // Offset: 0x1683CFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CubemapArray* New_ctor(int width, int cubemapCount, UnityEngine::TextureFormat textureFormat, int mipCount, bool linear) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("CubemapArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::CubemapArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CubemapArray*, creationType>(width, cubemapCount, textureFormat, mipCount, linear)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 cubemapCount, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain, System.Boolean linear)
     // Offset: 0x1683E24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CubemapArray* New_ctor(int width, int cubemapCount, UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("CubemapArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::CubemapArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CubemapArray*, creationType>(width, cubemapCount, textureFormat, mipChain, linear)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 cubemapCount, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain)
     // Offset: 0x1683E48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CubemapArray* New_ctor(int width, int cubemapCount, UnityEngine::TextureFormat textureFormat, bool mipChain) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("CubemapArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::CubemapArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CubemapArray*, creationType>(width, cubemapCount, textureFormat, mipChain)));
     }
     // public override System.Boolean get_isReadable()

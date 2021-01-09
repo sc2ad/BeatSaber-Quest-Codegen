@@ -141,7 +141,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneDecoratorContext* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SceneDecoratorContext").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SceneDecoratorContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneDecoratorContext*, creationType>()));
     }
   }; // Zenject.SceneDecoratorContext

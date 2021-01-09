@@ -60,7 +60,7 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0x17571C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferedIesCipher* New_ctor(Org::BouncyCastle::Crypto::Engines::IesEngine* engine) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto").WithContext("BufferedIesCipher").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::BufferedIesCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferedIesCipher*, creationType>(engine)));
     }
     // public override System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)

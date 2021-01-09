@@ -68,7 +68,7 @@ namespace Zenject {
     // Offset: 0x12951F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FactoryBindInfo* New_ctor(System::Type* factoryType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("FactoryBindInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryBindInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FactoryBindInfo*, creationType>(factoryType)));
     }
     // public System.Type get_FactoryType()

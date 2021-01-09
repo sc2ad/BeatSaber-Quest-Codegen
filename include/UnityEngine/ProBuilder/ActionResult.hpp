@@ -107,7 +107,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1883EB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActionResult* New_ctor(UnityEngine::ProBuilder::ActionResult::Status status, ::Il2CppString* notification) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("ActionResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ActionResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActionResult*, creationType>(status, notification)));
     }
     // public System.Boolean ToBool()

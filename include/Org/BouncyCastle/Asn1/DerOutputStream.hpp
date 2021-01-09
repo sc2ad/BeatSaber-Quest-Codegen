@@ -62,7 +62,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream os)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerOutputStream* New_ctor(System::IO::Stream* os) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerOutputStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerOutputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerOutputStream*, creationType>(os)));
     }
   }; // Org.BouncyCastle.Asn1.DerOutputStream

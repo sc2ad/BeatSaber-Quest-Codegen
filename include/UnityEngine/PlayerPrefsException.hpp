@@ -25,7 +25,7 @@ namespace UnityEngine {
     // Base method: System.Void Exception::.ctor(System.String error)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerPrefsException* New_ctor(::Il2CppString* error) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("PlayerPrefsException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::PlayerPrefsException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerPrefsException*, creationType>(error)));
     }
   }; // UnityEngine.PlayerPrefsException

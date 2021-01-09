@@ -148,14 +148,14 @@ namespace UnityEngine::Networking {
     // Offset: 0x19DE264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityWebRequest* New_ctor(::Il2CppString* url, ::Il2CppString* method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Networking").WithContext("UnityWebRequest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::UnityWebRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityWebRequest*, creationType>(url, method)));
     }
     // public System.Void .ctor(System.String url, System.String method, UnityEngine.Networking.DownloadHandler downloadHandler, UnityEngine.Networking.UploadHandler uploadHandler)
     // Offset: 0x19DE4D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityWebRequest* New_ctor(::Il2CppString* url, ::Il2CppString* method, UnityEngine::Networking::DownloadHandler* downloadHandler, UnityEngine::Networking::UploadHandler* uploadHandler) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Networking").WithContext("UnityWebRequest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::UnityWebRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityWebRequest*, creationType>(url, method, downloadHandler, uploadHandler)));
     }
     // private System.Void DisposeHandlers()

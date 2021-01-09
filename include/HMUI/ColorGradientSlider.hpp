@@ -142,7 +142,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorGradientSlider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("ColorGradientSlider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ColorGradientSlider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorGradientSlider*, creationType>()));
     }
     // static private System.Void .cctor()

@@ -196,7 +196,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NavigationController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("NavigationController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::NavigationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NavigationController*, creationType>()));
     }
   }; // HMUI.NavigationController

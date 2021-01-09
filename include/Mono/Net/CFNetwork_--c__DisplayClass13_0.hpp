@@ -55,7 +55,7 @@ namespace Mono::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFNetwork::$$c__DisplayClass13_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Net").WithContext("$$c__DisplayClass13_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFNetwork::$$c__DisplayClass13_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFNetwork::$$c__DisplayClass13_0*, creationType>()));
     }
   }; // Mono.Net.CFNetwork/<>c__DisplayClass13_0

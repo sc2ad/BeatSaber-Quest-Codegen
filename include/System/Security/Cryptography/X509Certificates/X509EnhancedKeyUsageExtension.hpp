@@ -49,7 +49,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x146A138
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509EnhancedKeyUsageExtension* New_ctor(System::Security::Cryptography::AsnEncodedData* encodedEnhancedKeyUsages, bool critical) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509EnhancedKeyUsageExtension").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509EnhancedKeyUsageExtension*, creationType>(encodedEnhancedKeyUsages, critical)));
     }
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)

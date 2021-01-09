@@ -46,7 +46,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1957178
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XYZColor* New_ctor(float x, float y, float z) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("XYZColor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::XYZColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XYZColor*, creationType>(x, y, z)));
     }
     // static public UnityEngine.ProBuilder.XYZColor FromRGB(UnityEngine.Color col)

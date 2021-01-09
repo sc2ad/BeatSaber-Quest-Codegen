@@ -35,7 +35,7 @@ namespace Zenject {
     // public TBase Create(TKey key, TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4)
     // Offset: 0xFFFFFFFF
     TBase Create(TKey key, TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("KeyedFactory_6").WithContext("Create");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_6::Create");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key, param1, param2, param3, param4)));
       return ::il2cpp_utils::RunMethodThrow<TBase, false>(this, ___internal__method, key, param1, param2, param3, param4);
     }
@@ -44,7 +44,7 @@ namespace Zenject {
     // Implemented from: Zenject.KeyedFactoryBase`2
     // Base method: System.Collections.Generic.IEnumerable`1<System.Type> KeyedFactoryBase_2::get_ProvidedTypes()
     System::Collections::Generic::IEnumerable_1<System::Type*>* get_ProvidedTypes() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("KeyedFactory_6").WithContext("get_ProvidedTypes");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_6::get_ProvidedTypes");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_ProvidedTypes", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<System::Type*>*, false>(this, ___internal__method);
     }
@@ -55,7 +55,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("KeyedFactory_6").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_6::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>*, creationType>()));
     }
   }; // Zenject.KeyedFactory`6

@@ -33,7 +33,7 @@ namespace UnityEngine::Assertions {
     // Offset: 0x167C628
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssertionException* New_ctor(::Il2CppString* message, ::Il2CppString* userMessage) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Assertions").WithContext("AssertionException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Assertions::AssertionException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssertionException*, creationType>(message, userMessage)));
     }
     // public override System.String get_Message()

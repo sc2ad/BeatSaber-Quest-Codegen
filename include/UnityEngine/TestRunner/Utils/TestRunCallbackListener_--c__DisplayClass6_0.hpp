@@ -51,7 +51,7 @@ namespace UnityEngine::TestRunner::Utils {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestRunCallbackListener::$$c__DisplayClass6_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestRunner::Utils").WithContext("$$c__DisplayClass6_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass6_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestRunCallbackListener::$$c__DisplayClass6_0*, creationType>()));
     }
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener/<>c__DisplayClass6_0

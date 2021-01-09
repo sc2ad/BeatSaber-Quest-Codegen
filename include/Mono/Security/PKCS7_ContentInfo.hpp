@@ -42,21 +42,21 @@ namespace Mono::Security {
     // Offset: 0x17B8878
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::ContentInfo* New_ctor(::Il2CppString* oid) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security").WithContext("ContentInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::ContentInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::ContentInfo*, creationType>(oid)));
     }
     // public System.Void .ctor(System.Byte[] data)
     // Offset: 0x17B88A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::ContentInfo* New_ctor(::Array<uint8_t>* data) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security").WithContext("ContentInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::ContentInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::ContentInfo*, creationType>(data)));
     }
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
     // Offset: 0x17B8918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::ContentInfo* New_ctor(Mono::Security::ASN1* asn1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security").WithContext("ContentInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::ContentInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::ContentInfo*, creationType>(asn1)));
     }
     // public Mono.Security.ASN1 get_ASN1()
@@ -83,7 +83,7 @@ namespace Mono::Security {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::ContentInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security").WithContext("ContentInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::ContentInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::ContentInfo*, creationType>()));
     }
   }; // Mono.Security.PKCS7/ContentInfo

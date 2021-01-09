@@ -46,21 +46,21 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1046D28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPublicKeyParameters* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* q, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("ECPublicKeyParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPublicKeyParameters*, creationType>(q, parameters)));
     }
     // public System.Void .ctor(System.String algorithm, Org.BouncyCastle.Math.EC.ECPoint q, Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters)
     // Offset: 0x1046D90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPublicKeyParameters* New_ctor(::Il2CppString* algorithm, Org::BouncyCastle::Math::EC::ECPoint* q, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("ECPublicKeyParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPublicKeyParameters*, creationType>(algorithm, q, parameters)));
     }
     // public System.Void .ctor(System.String algorithm, Org.BouncyCastle.Math.EC.ECPoint q, Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
     // Offset: 0x1046E44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPublicKeyParameters* New_ctor(::Il2CppString* algorithm, Org::BouncyCastle::Math::EC::ECPoint* q, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("ECPublicKeyParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPublicKeyParameters*, creationType>(algorithm, q, publicKeyParamSet)));
     }
     // public Org.BouncyCastle.Math.EC.ECPoint get_Q()

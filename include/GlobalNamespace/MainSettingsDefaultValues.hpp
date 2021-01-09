@@ -195,7 +195,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSettingsDefaultValues* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MainSettingsDefaultValues").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MainSettingsDefaultValues::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsDefaultValues*, creationType>()));
     }
   }; // MainSettingsDefaultValues

@@ -42,7 +42,7 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0x116A048
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncRequest* New_ctor(System::Runtime::Remoting::Messaging::IMessage* msgRequest, System::Runtime::Remoting::Messaging::IMessageSink* replySink) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Channels").WithContext("AsyncRequest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Channels::AsyncRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncRequest*, creationType>(msgRequest, replySink)));
     }
   }; // System.Runtime.Remoting.Channels.AsyncRequest

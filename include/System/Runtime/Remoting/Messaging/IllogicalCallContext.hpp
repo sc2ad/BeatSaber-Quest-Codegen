@@ -71,7 +71,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IllogicalCallContext* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("IllogicalCallContext").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::IllogicalCallContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IllogicalCallContext*, creationType>()));
     }
   }; // System.Runtime.Remoting.Messaging.IllogicalCallContext

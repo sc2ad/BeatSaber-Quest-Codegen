@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomAnimationStartTime* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RandomAnimationStartTime").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RandomAnimationStartTime::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomAnimationStartTime*, creationType>()));
     }
   }; // RandomAnimationStartTime

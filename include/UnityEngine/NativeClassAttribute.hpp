@@ -47,14 +47,14 @@ namespace UnityEngine {
     // Offset: 0x1A0481C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeClassAttribute* New_ctor(::Il2CppString* qualifiedCppName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("NativeClassAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::NativeClassAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeClassAttribute*, creationType>(qualifiedCppName)));
     }
     // public System.Void .ctor(System.String qualifiedCppName, System.String declaration)
     // Offset: 0x1A048A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeClassAttribute* New_ctor(::Il2CppString* qualifiedCppName, ::Il2CppString* declaration) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("NativeClassAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::NativeClassAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeClassAttribute*, creationType>(qualifiedCppName, declaration)));
     }
   }; // UnityEngine.NativeClassAttribute

@@ -36,7 +36,7 @@ namespace Oculus::Platform {
     // Offset: 0x11D060C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Request* New_ctor(uint64_t requestID) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("Request").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Request::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Request*, creationType>(requestID)));
     }
     // public System.UInt64 get_RequestID()

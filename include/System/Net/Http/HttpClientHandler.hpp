@@ -178,7 +178,7 @@ namespace System::Net::Http {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpClientHandler* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http").WithContext("HttpClientHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpClientHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpClientHandler*, creationType>()));
     }
     // protected override System.Void Dispose(System.Boolean disposing)

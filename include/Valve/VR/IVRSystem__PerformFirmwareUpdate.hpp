@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x192FEA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_PerformFirmwareUpdate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_PerformFirmwareUpdate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRSystem::_PerformFirmwareUpdate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_PerformFirmwareUpdate*, creationType>(object, method)));
     }
     // public Valve.VR.EVRFirmwareError Invoke(System.UInt32 unDeviceIndex)

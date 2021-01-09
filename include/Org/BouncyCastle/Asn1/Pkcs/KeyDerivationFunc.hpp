@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Base method: System.Void AlgorithmIdentifier::.ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyDerivationFunc* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::Pkcs").WithContext("KeyDerivationFunc").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyDerivationFunc*, creationType>(seq)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier id, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
@@ -44,7 +44,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Base method: System.Void AlgorithmIdentifier::.ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier id, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyDerivationFunc* New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier* id, Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::Pkcs").WithContext("KeyDerivationFunc").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyDerivationFunc*, creationType>(id, parameters)));
     }
   }; // Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc

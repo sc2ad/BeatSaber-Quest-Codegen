@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A75D5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicBeatmapObjectManager* New_ctor(GlobalNamespace::BasicBeatmapObjectManager::InitData* initData, GlobalNamespace::GameNoteController::Pool* gameNotePool, GlobalNamespace::BombNoteController::Pool* bombNotePool, GlobalNamespace::ObstacleController::Pool* obstaclePool) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BasicBeatmapObjectManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BasicBeatmapObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicBeatmapObjectManager*, creationType>(initData, gameNotePool, bombNotePool, obstaclePool)));
     }
     // public System.Single GetMaxYForRangeInMiddleTwoLanes(System.Single zStart, System.Single zEnd)

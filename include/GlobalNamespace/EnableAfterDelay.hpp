@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnableAfterDelay* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("EnableAfterDelay").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnableAfterDelay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnableAfterDelay*, creationType>()));
     }
   }; // EnableAfterDelay

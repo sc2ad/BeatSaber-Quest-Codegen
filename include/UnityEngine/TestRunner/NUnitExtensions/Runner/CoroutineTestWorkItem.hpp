@@ -75,7 +75,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Offset: 0x1182704
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoroutineTestWorkItem* New_ctor(NUnit::Framework::Internal::TestMethod* test, NUnit::Framework::Interfaces::ITestFilter* filter) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner").WithContext("CoroutineTestWorkItem").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoroutineTestWorkItem*, creationType>(test, filter)));
     }
     // protected override System.Collections.IEnumerable PerformWork()

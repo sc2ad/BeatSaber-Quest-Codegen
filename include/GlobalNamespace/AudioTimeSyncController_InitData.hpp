@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A429D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioTimeSyncController::InitData* New_ctor(UnityEngine::AudioClip* audioClip, float startSongTime, float songTimeOffset, float timeScale) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InitData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AudioTimeSyncController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioTimeSyncController::InitData*, creationType>(audioClip, startSongTime, songTimeOffset, timeScale)));
     }
   }; // AudioTimeSyncController/InitData

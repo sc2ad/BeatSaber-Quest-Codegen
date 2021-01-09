@@ -119,7 +119,7 @@ namespace System {
     // Offset: 0x1654F84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeZoneInfo::AdjustmentRule* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AdjustmentRule").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeZoneInfo::AdjustmentRule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeZoneInfo::AdjustmentRule*, creationType>(info, context)));
     }
     // public System.Boolean Equals(System.TimeZoneInfo/AdjustmentRule other)
@@ -138,7 +138,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeZoneInfo::AdjustmentRule* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AdjustmentRule").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeZoneInfo::AdjustmentRule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeZoneInfo::AdjustmentRule*, creationType>()));
     }
     // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)

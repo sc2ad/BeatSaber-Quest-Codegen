@@ -34,7 +34,7 @@ namespace Mono::Net {
     // Offset: 0x1261368
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFNetwork::CFProxyAutoConfigurationResultCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Net").WithContext("CFProxyAutoConfigurationResultCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFNetwork::CFProxyAutoConfigurationResultCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error)

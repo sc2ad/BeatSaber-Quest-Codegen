@@ -100,7 +100,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost28147Mac* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Macs").WithContext("Gost28147Mac").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::Gost28147Mac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost28147Mac*, creationType>()));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)

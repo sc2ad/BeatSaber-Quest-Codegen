@@ -37,7 +37,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FormatterConverter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("FormatterConverter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::FormatterConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FormatterConverter*, creationType>()));
     }
     // public System.Object Convert(System.Object value, System.Type type)

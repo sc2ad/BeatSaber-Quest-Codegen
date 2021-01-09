@@ -53,7 +53,7 @@ namespace TMPro {
     // Offset: 0xCA67D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     VertexGradient(UnityEngine::Color color) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("VertexGradient").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::VertexGradient::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(color)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, color);
     }

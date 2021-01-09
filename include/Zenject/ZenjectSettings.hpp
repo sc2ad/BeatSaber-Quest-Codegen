@@ -72,7 +72,7 @@ namespace Zenject {
     // Offset: 0x19D3894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectSettings* New_ctor(Zenject::ValidationErrorResponses validationErrorResponse, Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall, bool ensureDeterministicDestructionOrderOnApplicationQuit, Zenject::ZenjectSettings::SignalSettings* signalSettings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ZenjectSettings").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenjectSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSettings*, creationType>(validationErrorResponse, validationRootResolveMethod, displayWarningWhenResolvingDuringInstall, ensureDeterministicDestructionOrderOnApplicationQuit, signalSettings)));
     }
     // public Zenject.ZenjectSettings/SignalSettings get_Signals()
@@ -99,7 +99,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ZenjectSettings").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenjectSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSettings*, creationType>()));
     }
   }; // Zenject.ZenjectSettings

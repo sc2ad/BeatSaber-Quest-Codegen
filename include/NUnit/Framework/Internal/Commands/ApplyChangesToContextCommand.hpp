@@ -53,7 +53,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x13EDCCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ApplyChangesToContextCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>* changes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Commands").WithContext("ApplyChangesToContextCommand").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ApplyChangesToContextCommand*, creationType>(innerCommand, changes)));
     }
     // public System.Void ApplyChanges(NUnit.Framework.Internal.ITestExecutionContext context)

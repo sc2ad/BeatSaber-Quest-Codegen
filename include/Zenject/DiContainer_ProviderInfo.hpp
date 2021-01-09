@@ -58,7 +58,7 @@ namespace Zenject {
     // Offset: 0x12934B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer::ProviderInfo* New_ctor(Zenject::IProvider* provider, Zenject::BindingCondition* condition, bool nonLazy, Zenject::DiContainer* container) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ProviderInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::ProviderInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer::ProviderInfo*, creationType>(provider, condition, nonLazy, container)));
     }
   }; // Zenject.DiContainer/ProviderInfo

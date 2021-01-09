@@ -48,7 +48,7 @@ namespace System::Security {
     // Offset: 0x1282CD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecureString* New_ctor(::Il2CppChar* value, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security").WithContext("SecureString").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecureString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecureString*, creationType>(value, length)));
     }
     // public System.Int32 get_Length()
@@ -72,7 +72,7 @@ namespace System::Security {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecureString* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security").WithContext("SecureString").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecureString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecureString*, creationType>()));
     }
     // public System.Void Dispose()

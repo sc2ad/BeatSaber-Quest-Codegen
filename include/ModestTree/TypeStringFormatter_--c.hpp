@@ -50,7 +50,7 @@ namespace ModestTree {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeStringFormatter::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::TypeStringFormatter::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeStringFormatter::$$c*, creationType>()));
     }
   }; // ModestTree.TypeStringFormatter/<>c

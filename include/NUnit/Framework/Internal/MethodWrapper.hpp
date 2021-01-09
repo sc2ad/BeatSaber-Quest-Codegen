@@ -61,7 +61,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x1957B88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodWrapper* New_ctor(System::Type* type, System::Reflection::MethodInfo* method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("MethodWrapper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::MethodWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodWrapper*, creationType>(type, method)));
     }
     // private System.Void set_TypeInfo(NUnit.Framework.Interfaces.ITypeInfo value)
@@ -133,7 +133,7 @@ namespace NUnit::Framework::Internal {
     // Base method: T[] IReflectionInfo::GetCustomAttributes(System.Boolean inherit)
     template<class T>
     ::Array<T>* GetCustomAttributes(bool inherit) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("MethodWrapper").WithContext("GetCustomAttributes");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::MethodWrapper::GetCustomAttributes");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetCustomAttributes", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(inherit)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(this, ___internal__method, inherit);
@@ -144,7 +144,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Boolean IReflectionInfo::IsDefined(System.Boolean inherit)
     template<class T>
     bool IsDefined(bool inherit) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("MethodWrapper").WithContext("IsDefined");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::MethodWrapper::IsDefined");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "IsDefined", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(inherit)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, inherit);

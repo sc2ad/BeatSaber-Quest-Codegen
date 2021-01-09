@@ -73,7 +73,7 @@ namespace UnityEngine::AI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NavMeshPath* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::AI").WithContext("NavMeshPath").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AI::NavMeshPath::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NavMeshPath*, creationType>()));
     }
     // protected override System.Void Finalize()

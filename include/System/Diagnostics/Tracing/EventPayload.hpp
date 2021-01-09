@@ -62,7 +62,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C7A4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventPayload* New_ctor(System::Collections::Generic::List_1<::Il2CppString*>* payloadNames, System::Collections::Generic::List_1<::Il2CppObject*>* payloadValues) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EventPayload").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventPayload::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventPayload*, creationType>(payloadNames, payloadValues)));
     }
     // public System.Collections.Generic.ICollection`1<System.String> get_Keys()

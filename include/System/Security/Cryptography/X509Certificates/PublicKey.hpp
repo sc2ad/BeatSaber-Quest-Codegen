@@ -69,7 +69,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x145C3F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PublicKey* New_ctor(Mono::Security::X509::X509Certificate* certificate) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("PublicKey").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::PublicKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PublicKey*, creationType>(certificate)));
     }
     // public System.Security.Cryptography.AsnEncodedData get_EncodedKeyValue()

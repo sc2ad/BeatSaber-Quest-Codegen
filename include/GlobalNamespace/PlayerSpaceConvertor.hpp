@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSpaceConvertor* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("PlayerSpaceConvertor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSpaceConvertor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSpaceConvertor*, creationType>()));
     }
   }; // PlayerSpaceConvertor

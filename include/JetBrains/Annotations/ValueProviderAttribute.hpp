@@ -35,7 +35,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EEBA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueProviderAttribute* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("ValueProviderAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::ValueProviderAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueProviderAttribute*, creationType>(name)));
     }
     // public System.String get_Name()

@@ -34,7 +34,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Exception* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("Asn1Exception").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Exception*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -45,7 +45,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Exception* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("Asn1Exception").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Exception*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
@@ -56,7 +56,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Exception* New_ctor(::Il2CppString* message, System::Exception* exception) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("Asn1Exception").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Exception*, creationType>(message, exception)));
     }
   }; // Org.BouncyCastle.Asn1.Asn1Exception

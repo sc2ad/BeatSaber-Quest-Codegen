@@ -37,7 +37,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemotingServices::CACD* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting").WithContext("CACD").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::RemotingServices::CACD::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemotingServices::CACD*, creationType>()));
     }
   }; // System.Runtime.Remoting.RemotingServices/CACD

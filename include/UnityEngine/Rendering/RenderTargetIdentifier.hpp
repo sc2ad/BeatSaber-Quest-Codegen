@@ -91,7 +91,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0xCA5E64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderTargetIdentifier(UnityEngine::Rendering::BuiltinRenderTextureType type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Rendering").WithContext("RenderTargetIdentifier").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(type)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, type);
     }
@@ -99,7 +99,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0xCA5ECC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderTargetIdentifier(int nameID) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Rendering").WithContext("RenderTargetIdentifier").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(nameID)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, nameID);
     }
@@ -107,7 +107,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0xCA5F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderTargetIdentifier(UnityEngine::Texture* tex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Rendering").WithContext("RenderTargetIdentifier").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(tex)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, tex);
     }

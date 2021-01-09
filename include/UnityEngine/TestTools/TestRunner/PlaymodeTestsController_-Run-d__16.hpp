@@ -50,7 +50,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0x1196BD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaymodeTestsController::$Run$d__16* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::TestRunner").WithContext("$Run$d__16").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$Run$d__16::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaymodeTestsController::$Run$d__16*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

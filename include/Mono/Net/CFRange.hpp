@@ -42,7 +42,7 @@ namespace Mono::Net {
     // Offset: 0xC99EE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CFRange(int loc, int len) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Net").WithContext("CFRange").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFRange::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(loc, len)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, loc, len);
     }

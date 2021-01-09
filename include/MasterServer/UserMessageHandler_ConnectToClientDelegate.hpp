@@ -39,7 +39,7 @@ namespace MasterServer {
     // Offset: 0x1AE4768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserMessageHandler::ConnectToClientDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("ConnectToClientDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::UserMessageHandler::ConnectToClientDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserMessageHandler::ConnectToClientDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String userId, System.String userName, System.Net.IPEndPoint remoteEndPoint, System.Byte[] preMasterSecret, System.Byte[] myRandom, System.Byte[] remoteRandom, System.Boolean isConnectionOwner, System.Boolean isDedicatedServer)

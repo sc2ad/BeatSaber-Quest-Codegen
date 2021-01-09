@@ -42,7 +42,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1305E24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectHolderList* New_ctor(int startingSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("ObjectHolderList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolderList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolderList*, creationType>(startingSize)));
     }
     // System.Void Add(System.Runtime.Serialization.ObjectHolder value)
@@ -66,7 +66,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectHolderList* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("ObjectHolderList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolderList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolderList*, creationType>()));
     }
   }; // System.Runtime.Serialization.ObjectHolderList

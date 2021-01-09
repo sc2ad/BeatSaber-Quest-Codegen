@@ -28,7 +28,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static STAThreadAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("STAThreadAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::STAThreadAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<STAThreadAttribute*, creationType>()));
     }
   }; // System.STAThreadAttribute

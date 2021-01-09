@@ -53,7 +53,7 @@ namespace UnityEngine::TestTools {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetUpTearDownCommand::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::SetUpTearDownCommand::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetUpTearDownCommand::$$c*, creationType>()));
     }
   }; // UnityEngine.TestTools.SetUpTearDownCommand/<>c

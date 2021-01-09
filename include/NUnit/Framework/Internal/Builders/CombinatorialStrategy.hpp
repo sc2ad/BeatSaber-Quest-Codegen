@@ -52,7 +52,7 @@ namespace NUnit::Framework::Internal::Builders {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CombinatorialStrategy* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Builders").WithContext("CombinatorialStrategy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Builders::CombinatorialStrategy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CombinatorialStrategy*, creationType>()));
     }
   }; // NUnit.Framework.Internal.Builders.CombinatorialStrategy

@@ -91,21 +91,21 @@ namespace System::IO {
     // Offset: 0x143197C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryWriter* New_ctor(System::IO::Stream* output) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("BinaryWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::BinaryWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryWriter*, creationType>(output)));
     }
     // public System.Void .ctor(System.IO.Stream output, System.Text.Encoding encoding)
     // Offset: 0x1431BA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryWriter* New_ctor(System::IO::Stream* output, System::Text::Encoding* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("BinaryWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::BinaryWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryWriter*, creationType>(output, encoding)));
     }
     // public System.Void .ctor(System.IO.Stream output, System.Text.Encoding encoding, System.Boolean leaveOpen)
     // Offset: 0x14319FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryWriter* New_ctor(System::IO::Stream* output, System::Text::Encoding* encoding, bool leaveOpen) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("BinaryWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::BinaryWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryWriter*, creationType>(output, encoding, leaveOpen)));
     }
     // protected System.Void Dispose(System.Boolean disposing)
@@ -171,7 +171,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryWriter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("BinaryWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::BinaryWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryWriter*, creationType>()));
     }
     // public System.Void Dispose()

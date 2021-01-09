@@ -42,7 +42,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1304A40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemberHolder* New_ctor(System::Type* type, System::Runtime::Serialization::StreamingContext ctx) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("MemberHolder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::MemberHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemberHolder*, creationType>(type, ctx)));
     }
     // public override System.Int32 GetHashCode()

@@ -56,7 +56,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorIkHandlerManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("AnimatorIkHandlerManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::AnimatorIkHandlerManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorIkHandlerManager*, creationType>()));
     }
   }; // Zenject.AnimatorIkHandlerManager

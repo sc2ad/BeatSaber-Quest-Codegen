@@ -49,7 +49,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RC2CryptoServiceProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("RC2CryptoServiceProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RC2CryptoServiceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2CryptoServiceProvider*, creationType>()));
     }
     // public override System.Int32 get_EffectiveKeySize()

@@ -48,7 +48,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeZoneInfo::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeZoneInfo::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeZoneInfo::$$c*, creationType>()));
     }
   }; // System.TimeZoneInfo/<>c

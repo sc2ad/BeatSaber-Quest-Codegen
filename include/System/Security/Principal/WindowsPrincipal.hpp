@@ -41,7 +41,7 @@ namespace System::Security::Principal {
     // Offset: 0x1282A50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WindowsPrincipal* New_ctor(System::Security::Principal::WindowsIdentity* ntIdentity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Principal").WithContext("WindowsPrincipal").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Principal::WindowsPrincipal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WindowsPrincipal*, creationType>(ntIdentity)));
     }
   }; // System.Security.Principal.WindowsPrincipal

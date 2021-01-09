@@ -52,7 +52,7 @@ namespace System::ComponentModel {
     // Offset: 0x14815E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DesignerSerializationVisibilityAttribute* New_ctor(System::ComponentModel::DesignerSerializationVisibility visibility) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("DesignerSerializationVisibilityAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::DesignerSerializationVisibilityAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DesignerSerializationVisibilityAttribute*, creationType>(visibility)));
     }
     // public System.ComponentModel.DesignerSerializationVisibility get_Visibility()

@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1917AE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_PollNextEvent* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_PollNextEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_PollNextEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_PollNextEvent*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(ref OVR.OpenVR.VREvent_t pEvent, System.UInt32 uncbVREvent)

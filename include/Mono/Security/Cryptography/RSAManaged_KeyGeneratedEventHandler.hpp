@@ -36,7 +36,7 @@ namespace Mono::Security::Cryptography {
     // Offset: 0x17B7480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSAManaged::KeyGeneratedEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::Cryptography").WithContext("KeyGeneratedEventHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RSAManaged::KeyGeneratedEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.EventArgs e)

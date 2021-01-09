@@ -34,7 +34,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CommonUnixIPGlobalProperties* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("CommonUnixIPGlobalProperties").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::CommonUnixIPGlobalProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CommonUnixIPGlobalProperties*, creationType>()));
     }
   }; // System.Net.NetworkInformation.CommonUnixIPGlobalProperties

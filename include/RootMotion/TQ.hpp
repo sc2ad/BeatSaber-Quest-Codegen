@@ -37,7 +37,7 @@ namespace RootMotion {
     // Offset: 0x15F4828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TQ* New_ctor(UnityEngine::Vector3 translation, UnityEngine::Quaternion rotation) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion").WithContext("TQ").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::TQ::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TQ*, creationType>(translation, rotation)));
     }
   }; // RootMotion.TQ

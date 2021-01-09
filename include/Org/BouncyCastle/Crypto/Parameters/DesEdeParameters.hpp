@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DesEdeParameters* New_ctor(::Array<uint8_t>* key, int keyOff, int keyLen) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("DesEdeParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DesEdeParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DesEdeParameters*, creationType>(key, keyOff, keyLen)));
     }
     // static public System.Boolean IsWeakKey(System.Byte[] key)

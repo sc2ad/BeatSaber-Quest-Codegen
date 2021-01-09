@@ -48,7 +48,7 @@ namespace System::Security::Util {
     // Offset: 0x1288470
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tokenizer::StreamTokenReader* New_ctor(System::IO::StreamReader* input) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Util").WithContext("StreamTokenReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Tokenizer::StreamTokenReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer::StreamTokenReader*, creationType>(input)));
     }
     // System.Int32 get_NumCharEncountered()

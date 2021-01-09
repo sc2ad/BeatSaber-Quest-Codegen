@@ -40,7 +40,7 @@ namespace System::Text {
     // Offset: 0x159DF98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderReplacementFallback* New_ctor(::Il2CppString* replacement) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("EncoderReplacementFallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderReplacementFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderReplacementFallback*, creationType>(replacement)));
     }
     // public System.String get_DefaultString()
@@ -53,7 +53,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderReplacementFallback* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("EncoderReplacementFallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderReplacementFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderReplacementFallback*, creationType>()));
     }
     // public override System.Text.EncoderFallbackBuffer CreateFallbackBuffer()

@@ -33,7 +33,7 @@ namespace System::Runtime::Remoting::Contexts {
     // Offset: 0x1174964
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrossContextDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Contexts").WithContext("CrossContextDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Contexts::CrossContextDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrossContextDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke()

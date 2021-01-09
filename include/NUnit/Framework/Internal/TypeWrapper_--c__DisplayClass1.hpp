@@ -51,7 +51,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeWrapper::$$c__DisplayClass1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("$$c__DisplayClass1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeWrapper::$$c__DisplayClass1*, creationType>()));
     }
   }; // NUnit.Framework.Internal.TypeWrapper/<>c__DisplayClass1

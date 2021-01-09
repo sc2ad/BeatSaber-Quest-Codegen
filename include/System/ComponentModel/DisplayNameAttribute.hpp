@@ -38,7 +38,7 @@ namespace System::ComponentModel {
     // Offset: 0x148180C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisplayNameAttribute* New_ctor(::Il2CppString* displayName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("DisplayNameAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::DisplayNameAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisplayNameAttribute*, creationType>(displayName)));
     }
     // public System.String get_DisplayName()
@@ -57,7 +57,7 @@ namespace System::ComponentModel {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisplayNameAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("DisplayNameAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::DisplayNameAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisplayNameAttribute*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)

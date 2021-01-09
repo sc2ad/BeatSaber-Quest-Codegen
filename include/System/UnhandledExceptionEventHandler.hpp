@@ -35,7 +35,7 @@ namespace System {
     // Offset: 0x165EE78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnhandledExceptionEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("UnhandledExceptionEventHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::UnhandledExceptionEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnhandledExceptionEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.UnhandledExceptionEventArgs e)

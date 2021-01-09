@@ -35,7 +35,7 @@ namespace Oculus::Platform {
     // Offset: 0x19FC164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WindowsPlatform::UnityLogDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("UnityLogDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::WindowsPlatform::UnityLogDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WindowsPlatform::UnityLogDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.IntPtr tag, System.IntPtr msg)

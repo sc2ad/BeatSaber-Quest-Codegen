@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Offset: 0xF6CE78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActiveLevelFailController::$PlayerFailedCoroutine$d__8* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$PlayerFailedCoroutine$d__8").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerLocalActiveLevelFailController::$PlayerFailedCoroutine$d__8::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActiveLevelFailController::$PlayerFailedCoroutine$d__8*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

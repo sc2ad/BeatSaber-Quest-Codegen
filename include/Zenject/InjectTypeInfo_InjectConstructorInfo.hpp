@@ -45,7 +45,7 @@ namespace Zenject {
     // Offset: 0x19EEEEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InjectTypeInfo::InjectConstructorInfo* New_ctor(Zenject::ZenFactoryMethod* factory, ::Array<Zenject::InjectableInfo*>* parameters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("InjectConstructorInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectTypeInfo::InjectConstructorInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InjectTypeInfo::InjectConstructorInfo*, creationType>(factory, parameters)));
     }
   }; // Zenject.InjectTypeInfo/InjectConstructorInfo

@@ -65,7 +65,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Offset: 0x1764C50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RipeMD128Digest* New_ctor(Org::BouncyCastle::Crypto::Digests::RipeMD128Digest* t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Digests").WithContext("RipeMD128Digest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::RipeMD128Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RipeMD128Digest*, creationType>(t)));
     }
     // private System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.RipeMD128Digest t)
@@ -120,7 +120,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RipeMD128Digest* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Digests").WithContext("RipeMD128Digest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::RipeMD128Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RipeMD128Digest*, creationType>()));
     }
     // public override System.String get_AlgorithmName()

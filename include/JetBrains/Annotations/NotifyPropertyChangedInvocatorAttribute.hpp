@@ -35,7 +35,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE7A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NotifyPropertyChangedInvocatorAttribute* New_ctor(::Il2CppString* parameterName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("NotifyPropertyChangedInvocatorAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NotifyPropertyChangedInvocatorAttribute*, creationType>(parameterName)));
     }
     // public System.String get_ParameterName()
@@ -51,7 +51,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NotifyPropertyChangedInvocatorAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("NotifyPropertyChangedInvocatorAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NotifyPropertyChangedInvocatorAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.NotifyPropertyChangedInvocatorAttribute

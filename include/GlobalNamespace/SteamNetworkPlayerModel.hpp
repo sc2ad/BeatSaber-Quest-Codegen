@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamNetworkPlayerModel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SteamNetworkPlayerModel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamNetworkPlayerModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamNetworkPlayerModel*, creationType>()));
     }
   }; // SteamNetworkPlayerModel

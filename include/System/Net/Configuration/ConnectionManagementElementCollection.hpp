@@ -27,7 +27,7 @@ namespace System::Net::Configuration {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectionManagementElementCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Configuration").WithContext("ConnectionManagementElementCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Configuration::ConnectionManagementElementCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectionManagementElementCollection*, creationType>()));
     }
   }; // System.Net.Configuration.ConnectionManagementElementCollection

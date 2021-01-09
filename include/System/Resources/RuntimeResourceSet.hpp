@@ -82,14 +82,14 @@ namespace System::Resources {
     // Offset: 0x15D35D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeResourceSet* New_ctor(::Il2CppString* fileName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("RuntimeResourceSet").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::RuntimeResourceSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeResourceSet*, creationType>(fileName)));
     }
     // System.Void .ctor(System.IO.Stream stream)
     // Offset: 0x15D5300
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeResourceSet* New_ctor(System::IO::Stream* stream) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("RuntimeResourceSet").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::RuntimeResourceSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeResourceSet*, creationType>(stream)));
     }
     // private System.Object GetObject(System.String key, System.Boolean ignoreCase, System.Boolean isString)

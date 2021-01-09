@@ -293,7 +293,7 @@ namespace UnityEngine::Timeline {
     template<class T>
     T CreateTrack(UnityEngine::Timeline::TrackAsset* parent, ::Il2CppString* trackName) {
       static_assert(std::is_convertible_v<T, UnityEngine::Timeline::TrackAsset*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TimelineAsset").WithContext("CreateTrack");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimelineAsset::CreateTrack");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CreateTrack", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(parent, trackName)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, parent, trackName);
@@ -303,7 +303,7 @@ namespace UnityEngine::Timeline {
     template<class T>
     T CreateTrack(::Il2CppString* trackName) {
       static_assert(std::is_convertible_v<T, UnityEngine::Timeline::TrackAsset*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TimelineAsset").WithContext("CreateTrack");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimelineAsset::CreateTrack");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CreateTrack", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(trackName)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, trackName);
@@ -313,7 +313,7 @@ namespace UnityEngine::Timeline {
     template<class T>
     T CreateTrack() {
       static_assert(std::is_convertible_v<T, UnityEngine::Timeline::TrackAsset*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TimelineAsset").WithContext("CreateTrack");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimelineAsset::CreateTrack");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CreateTrack", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
@@ -380,7 +380,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelineAsset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TimelineAsset").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimelineAsset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimelineAsset*, creationType>()));
     }
   }; // UnityEngine.Timeline.TimelineAsset

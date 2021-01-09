@@ -47,7 +47,7 @@ namespace System::Collections {
     // Offset: 0x1CB3A3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CaseInsensitiveComparer* New_ctor(System::Globalization::CultureInfo* culture) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("CaseInsensitiveComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::CaseInsensitiveComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CaseInsensitiveComparer*, creationType>(culture)));
     }
     // static public System.Collections.CaseInsensitiveComparer get_Default()
@@ -59,7 +59,7 @@ namespace System::Collections {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CaseInsensitiveComparer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("CaseInsensitiveComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::CaseInsensitiveComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CaseInsensitiveComparer*, creationType>()));
     }
     // public System.Int32 Compare(System.Object a, System.Object b)

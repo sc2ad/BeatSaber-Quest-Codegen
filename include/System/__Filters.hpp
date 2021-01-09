@@ -46,7 +46,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static __Filters* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("__Filters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::__Filters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<__Filters*, creationType>()));
     }
   }; // System.__Filters

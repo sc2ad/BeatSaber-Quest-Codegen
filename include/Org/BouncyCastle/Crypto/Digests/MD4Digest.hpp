@@ -65,7 +65,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Offset: 0x1762B70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MD4Digest* New_ctor(Org::BouncyCastle::Crypto::Digests::MD4Digest* t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Digests").WithContext("MD4Digest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::MD4Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MD4Digest*, creationType>(t)));
     }
     // private System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.MD4Digest t)
@@ -93,7 +93,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MD4Digest* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Digests").WithContext("MD4Digest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::MD4Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MD4Digest*, creationType>()));
     }
     // public override System.String get_AlgorithmName()

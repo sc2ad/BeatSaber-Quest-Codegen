@@ -61,7 +61,7 @@ namespace System::Net::Http {
     // Offset: 0x120B964
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpMessageInvoker* New_ctor(System::Net::Http::HttpMessageHandler* handler, bool disposeHandler) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http").WithContext("HttpMessageInvoker").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpMessageInvoker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpMessageInvoker*, creationType>(handler, disposeHandler)));
     }
     // protected System.Void Dispose(System.Boolean disposing)

@@ -34,7 +34,7 @@ namespace UnityEngine {
     // Offset: 0x16C11C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpaceAttribute* New_ctor(float height) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("SpaceAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::SpaceAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpaceAttribute*, creationType>(height)));
     }
     // public System.Void .ctor()
@@ -45,7 +45,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpaceAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("SpaceAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::SpaceAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpaceAttribute*, creationType>()));
     }
   }; // UnityEngine.SpaceAttribute

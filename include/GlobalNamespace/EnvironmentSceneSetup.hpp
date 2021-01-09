@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentSceneSetup* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("EnvironmentSceneSetup").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentSceneSetup*, creationType>()));
     }
   }; // EnvironmentSceneSetup

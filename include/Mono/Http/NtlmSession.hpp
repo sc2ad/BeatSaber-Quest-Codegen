@@ -52,7 +52,7 @@ namespace Mono::Http {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NtlmSession* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Http").WithContext("NtlmSession").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Http::NtlmSession::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NtlmSession*, creationType>()));
     }
   }; // Mono.Http.NtlmSession

@@ -47,7 +47,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x169FC50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSASignaturePadding* New_ctor(System::Security::Cryptography::RSASignaturePaddingMode mode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("RSASignaturePadding").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RSASignaturePadding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RSASignaturePadding*, creationType>(mode)));
     }
     // static public System.Security.Cryptography.RSASignaturePadding get_Pkcs1()

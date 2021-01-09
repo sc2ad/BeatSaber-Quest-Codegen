@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x1929880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetControllerRoleForTrackedDeviceIndex* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetControllerRoleForTrackedDeviceIndex").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRSystem::_GetControllerRoleForTrackedDeviceIndex::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetControllerRoleForTrackedDeviceIndex*, creationType>(object, method)));
     }
     // public Valve.VR.ETrackedControllerRole Invoke(System.UInt32 unDeviceIndex)

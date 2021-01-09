@@ -28,7 +28,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeContainerSupportsDeallocateOnJobCompletionAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Unity::Collections::LowLevel::Unsafe").WithContext("NativeContainerSupportsDeallocateOnJobCompletionAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeallocateOnJobCompletionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeContainerSupportsDeallocateOnJobCompletionAttribute*, creationType>()));
     }
   }; // Unity.Collections.LowLevel.Unsafe.NativeContainerSupportsDeallocateOnJobCompletionAttribute

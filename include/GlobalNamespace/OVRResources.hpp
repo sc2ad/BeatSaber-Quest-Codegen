@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     template<class T>
     static T Load(::Il2CppString* path) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OVRResources").WithContext("Load");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRResources::Load");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "OVRResources", "Load", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(path)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, path);
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRResources* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OVRResources").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRResources::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRResources*, creationType>()));
     }
   }; // OVRResources

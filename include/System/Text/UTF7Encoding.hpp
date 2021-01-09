@@ -75,7 +75,7 @@ namespace System::Text {
     // Offset: 0x16A6FA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF7Encoding* New_ctor(bool allowOptionals) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("UTF7Encoding").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF7Encoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF7Encoding*, creationType>(allowOptionals)));
     }
     // private System.Void MakeTables()
@@ -88,7 +88,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF7Encoding* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("UTF7Encoding").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF7Encoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF7Encoding*, creationType>()));
     }
     // override System.Void SetDefaultFallbacks()

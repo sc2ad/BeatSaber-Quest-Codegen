@@ -146,7 +146,7 @@ namespace OVRSimpleJSON {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVRSimpleJSON").WithContext("JSONObject").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONObject*, creationType>()));
     }
   }; // OVRSimpleJSON.JSONObject

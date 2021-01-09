@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusRichPresencePlatformHandler* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OculusRichPresencePlatformHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusRichPresencePlatformHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusRichPresencePlatformHandler*, creationType>()));
     }
   }; // OculusRichPresencePlatformHandler

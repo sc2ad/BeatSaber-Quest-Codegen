@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HorizontalCameraFov* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("HorizontalCameraFov").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HorizontalCameraFov::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HorizontalCameraFov*, creationType>()));
     }
   }; // HorizontalCameraFov

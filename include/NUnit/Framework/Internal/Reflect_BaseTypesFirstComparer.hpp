@@ -43,7 +43,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Reflect::BaseTypesFirstComparer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("BaseTypesFirstComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Reflect::BaseTypesFirstComparer*, creationType>()));
     }
   }; // NUnit.Framework.Internal.Reflect/BaseTypesFirstComparer

@@ -51,7 +51,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1889CE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CIELabColor* New_ctor(float L, float a, float b) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("CIELabColor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::CIELabColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CIELabColor*, creationType>(L, a, b)));
     }
     // static public UnityEngine.ProBuilder.CIELabColor FromXYZ(UnityEngine.ProBuilder.XYZColor xyz)

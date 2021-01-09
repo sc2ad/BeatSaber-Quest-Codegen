@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0xFC944C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreUIController::InitData* New_ctor(GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InitData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ScoreUIController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreUIController::InitData*, creationType>(scoreDisplayType)));
     }
   }; // ScoreUIController/InitData

@@ -47,7 +47,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollToTopOnEnable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("ScrollToTopOnEnable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ScrollToTopOnEnable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScrollToTopOnEnable*, creationType>()));
     }
   }; // HMUI.ScrollToTopOnEnable

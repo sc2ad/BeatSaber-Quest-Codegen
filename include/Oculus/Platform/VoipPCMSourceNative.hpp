@@ -59,7 +59,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VoipPCMSourceNative* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("VoipPCMSourceNative").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::VoipPCMSourceNative::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VoipPCMSourceNative*, creationType>()));
     }
   }; // Oculus.Platform.VoipPCMSourceNative

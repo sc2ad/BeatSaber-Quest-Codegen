@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void DerApplicationSpecific::.ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1EncodableVector vec)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerApplicationSpecific* New_ctor(int tagNo, Org::BouncyCastle::Asn1::Asn1EncodableVector* vec) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("BerApplicationSpecific").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerApplicationSpecific::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerApplicationSpecific*, creationType>(tagNo, vec)));
     }
   }; // Org.BouncyCastle.Asn1.BerApplicationSpecific

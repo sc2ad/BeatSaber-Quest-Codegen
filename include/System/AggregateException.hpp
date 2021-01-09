@@ -62,14 +62,14 @@ namespace System {
     // Offset: 0x1C9EDD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AggregateException* New_ctor(System::Collections::Generic::IEnumerable_1<System::Exception*>* innerExceptions) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AggregateException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::AggregateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AggregateException*, creationType>(innerExceptions)));
     }
     // public System.Void .ctor(params System.Exception[] innerExceptions)
     // Offset: 0x1C9EEF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AggregateException* New_ctor(::Array<System::Exception*>* innerExceptions) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AggregateException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::AggregateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AggregateException*, creationType>(innerExceptions)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(params System.Exception[] innerExceptions)
@@ -86,14 +86,14 @@ namespace System {
     // Offset: 0x1C9EE40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AggregateException* New_ctor(::Il2CppString* message, System::Collections::Generic::IEnumerable_1<System::Exception*>* innerExceptions) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AggregateException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::AggregateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AggregateException*, creationType>(message, innerExceptions)));
     }
     // public System.Void .ctor(System.String message, params System.Exception[] innerExceptions)
     // Offset: 0x1C9EF60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AggregateException* New_ctor(::Il2CppString* message, ::Array<System::Exception*>* innerExceptions) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AggregateException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::AggregateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AggregateException*, creationType>(message, innerExceptions)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.String message, params System.Exception[] innerExceptions)
@@ -110,28 +110,28 @@ namespace System {
     // Offset: 0x1C9EF64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AggregateException* New_ctor(::Il2CppString* message, System::Collections::Generic::IList_1<System::Exception*>* innerExceptions) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AggregateException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::AggregateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AggregateException*, creationType>(message, innerExceptions)));
     }
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> innerExceptionInfos)
     // Offset: 0x1C9F3EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AggregateException* New_ctor(System::Collections::Generic::IEnumerable_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AggregateException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::AggregateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AggregateException*, creationType>(innerExceptionInfos)));
     }
     // System.Void .ctor(System.String message, System.Collections.Generic.IEnumerable`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> innerExceptionInfos)
     // Offset: 0x1C9F458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AggregateException* New_ctor(::Il2CppString* message, System::Collections::Generic::IEnumerable_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AggregateException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::AggregateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AggregateException*, creationType>(message, innerExceptionInfos)));
     }
     // private System.Void .ctor(System.String message, System.Collections.Generic.IList`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> innerExceptionInfos)
     // Offset: 0x1C9F50C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AggregateException* New_ctor(::Il2CppString* message, System::Collections::Generic::IList_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AggregateException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::AggregateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AggregateException*, creationType>(message, innerExceptionInfos)));
     }
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception> get_InnerExceptions()
@@ -147,7 +147,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AggregateException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AggregateException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::AggregateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AggregateException*, creationType>()));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -156,7 +156,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AggregateException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AggregateException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::AggregateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AggregateException*, creationType>(info, context)));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

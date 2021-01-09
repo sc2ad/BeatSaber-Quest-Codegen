@@ -46,7 +46,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x1252860
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectFaceRebuildData* New_ctor(UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData, System::Collections::Generic::List_1<int>* newVertexIndexes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::MeshOperations").WithContext("ConnectFaceRebuildData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectFaceRebuildData*, creationType>(faceRebuildData, newVertexIndexes)));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData

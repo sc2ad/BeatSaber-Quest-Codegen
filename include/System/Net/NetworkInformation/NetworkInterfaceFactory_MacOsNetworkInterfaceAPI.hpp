@@ -41,7 +41,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkInterfaceFactory::MacOsNetworkInterfaceAPI* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("MacOsNetworkInterfaceAPI").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInterfaceFactory::MacOsNetworkInterfaceAPI*, creationType>()));
     }
   }; // System.Net.NetworkInformation.NetworkInterfaceFactory/MacOsNetworkInterfaceAPI

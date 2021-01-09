@@ -144,7 +144,7 @@ namespace System::Net::Http {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpContent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http").WithContext("HttpContent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpContent*, creationType>()));
     }
   }; // System.Net.Http.HttpContent

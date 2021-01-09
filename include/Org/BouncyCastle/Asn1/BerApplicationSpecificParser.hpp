@@ -50,7 +50,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1372F98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerApplicationSpecificParser* New_ctor(int tag, Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("BerApplicationSpecificParser").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerApplicationSpecificParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerApplicationSpecificParser*, creationType>(tag, parser)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()

@@ -34,7 +34,7 @@ namespace UnityEngine::AI {
     // Offset: 0x1A0A8D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NavMesh::OnNavMeshPreUpdate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::AI").WithContext("OnNavMeshPreUpdate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AI::NavMesh::OnNavMeshPreUpdate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NavMesh::OnNavMeshPreUpdate*, creationType>(object, method)));
     }
     // public System.Void Invoke()

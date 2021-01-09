@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x18E9F80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_ReleaseSharedGLTexture* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_ReleaseSharedGLTexture").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRCompositor::_ReleaseSharedGLTexture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_ReleaseSharedGLTexture*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.UInt32 glTextureId, System.IntPtr glSharedTextureHandle)

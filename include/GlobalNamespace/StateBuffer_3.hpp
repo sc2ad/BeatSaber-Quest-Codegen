@@ -81,7 +81,7 @@ namespace GlobalNamespace {
       // public System.Boolean Equals(ref StateBuffer`3/TimestampedStateTable<TStateTable,TType,TState> other)
       // Offset: 0xFFFFFFFF
       bool Equals(typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::TimestampedStateTable& other) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TimestampedStateTable").WithContext("Equals");
+        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::TimestampedStateTable::Equals");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(other)));
         return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, other);
       }
@@ -104,27 +104,27 @@ namespace GlobalNamespace {
       // Offset: 0xFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename StateBuffer_3<TStateTable, TType, TState>::InterpolationDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InterpolationDelegate").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::InterpolationDelegate::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename StateBuffer_3<TStateTable, TType, TState>::InterpolationDelegate*, creationType>(object, method)));
       }
       // public TState Invoke(TState a, System.Single timeA, TState b, System.Single timeB, System.Single time)
       // Offset: 0xFFFFFFFF
       TState Invoke(TState a, float timeA, TState b, float timeB, float time) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InterpolationDelegate").WithContext("Invoke");
+        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::InterpolationDelegate::Invoke");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(a, timeA, b, timeB, time)));
         return ::il2cpp_utils::RunMethodThrow<TState, false>(this, ___internal__method, a, timeA, b, timeB, time);
       }
       // public System.IAsyncResult BeginInvoke(TState a, System.Single timeA, TState b, System.Single timeB, System.Single time, System.AsyncCallback callback, System.Object object)
       // Offset: 0xFFFFFFFF
       System::IAsyncResult* BeginInvoke(TState a, float timeA, TState b, float timeB, float time, System::AsyncCallback* callback, ::Il2CppObject* object) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InterpolationDelegate").WithContext("BeginInvoke");
+        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::InterpolationDelegate::BeginInvoke");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(a, timeA, b, timeB, time, callback, object)));
         return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, a, timeA, b, timeB, time, callback, object);
       }
       // public TState EndInvoke(System.IAsyncResult result)
       // Offset: 0xFFFFFFFF
       TState EndInvoke(System::IAsyncResult* result) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InterpolationDelegate").WithContext("EndInvoke");
+        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::InterpolationDelegate::EndInvoke");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
         return ::il2cpp_utils::RunMethodThrow<TState, false>(this, ___internal__method, result);
       }
@@ -143,27 +143,27 @@ namespace GlobalNamespace {
       // Offset: 0xFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename StateBuffer_3<TStateTable, TType, TState>::SmoothingDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SmoothingDelegate").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::SmoothingDelegate::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename StateBuffer_3<TStateTable, TType, TState>::SmoothingDelegate*, creationType>(object, method)));
       }
       // public TState Invoke(TState a, TState b, System.Single smooth)
       // Offset: 0xFFFFFFFF
       TState Invoke(TState a, TState b, float smooth) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SmoothingDelegate").WithContext("Invoke");
+        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::SmoothingDelegate::Invoke");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(a, b, smooth)));
         return ::il2cpp_utils::RunMethodThrow<TState, false>(this, ___internal__method, a, b, smooth);
       }
       // public System.IAsyncResult BeginInvoke(TState a, TState b, System.Single smooth, System.AsyncCallback callback, System.Object object)
       // Offset: 0xFFFFFFFF
       System::IAsyncResult* BeginInvoke(TState a, TState b, float smooth, System::AsyncCallback* callback, ::Il2CppObject* object) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SmoothingDelegate").WithContext("BeginInvoke");
+        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::SmoothingDelegate::BeginInvoke");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(a, b, smooth, callback, object)));
         return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, a, b, smooth, callback, object);
       }
       // public TState EndInvoke(System.IAsyncResult result)
       // Offset: 0xFFFFFFFF
       TState EndInvoke(System::IAsyncResult* result) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SmoothingDelegate").WithContext("EndInvoke");
+        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::SmoothingDelegate::EndInvoke");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
         return ::il2cpp_utils::RunMethodThrow<TState, false>(this, ___internal__method, result);
       }
@@ -199,48 +199,48 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StateBuffer_3<TStateTable, TType, TState>* New_ctor(int size, typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::InterpolationDelegate* interpolator, typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::SmoothingDelegate* smoother) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("StateBuffer_3").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StateBuffer_3<TStateTable, TType, TState>*, creationType>(size, interpolator, smoother)));
     }
     // private System.Int32 GetPreviousIndex(System.Int32 offset)
     // Offset: 0xFFFFFFFF
     int GetPreviousIndex(int offset) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("StateBuffer_3").WithContext("GetPreviousIndex");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::GetPreviousIndex");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetPreviousIndex", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(offset)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, offset);
     }
     // protected System.Void PushState(TStateTable state, System.Single time)
     // Offset: 0xFFFFFFFF
     void PushState(TStateTable state, float time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("StateBuffer_3").WithContext("PushState");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::PushState");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "PushState", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(state, time)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, state, time);
     }
     // public TState GetState(TType type, System.Single time)
     // Offset: 0xFFFFFFFF
     TState GetState(TType type, float time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("StateBuffer_3").WithContext("GetState");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::GetState");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetState", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(type, time)));
       return ::il2cpp_utils::RunMethodThrow<TState, false>(this, ___internal__method, type, time);
     }
     // public TState GetLatestState(TType type)
     // Offset: 0xFFFFFFFF
     TState GetLatestState(TType type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("StateBuffer_3").WithContext("GetLatestState");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::GetLatestState");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetLatestState", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(type)));
       return ::il2cpp_utils::RunMethodThrow<TState, false>(this, ___internal__method, type);
     }
     // public System.Single GetLatestTime()
     // Offset: 0xFFFFFFFF
     float GetLatestTime() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("StateBuffer_3").WithContext("GetLatestTime");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::GetLatestTime");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetLatestTime", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<float, false>(this, ___internal__method);
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("StateBuffer_3").WithContext("Clear");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::Clear");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }

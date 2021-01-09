@@ -48,7 +48,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     static Zenject::TypeValuePair CreateTypePair(T param) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("InjectUtil").WithContext("CreateTypePair");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectUtil::CreateTypePair");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("Zenject", "InjectUtil", "CreateTypePair", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(param)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::TypeValuePair, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, param);
@@ -57,7 +57,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateArgListExplicit(T param) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("InjectUtil").WithContext("CreateArgListExplicit");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectUtil::CreateArgListExplicit");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("Zenject", "InjectUtil", "CreateArgListExplicit", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(param)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<Zenject::TypeValuePair>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, param);
@@ -66,7 +66,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2>
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateArgListExplicit(TParam1 param1, TParam2 param2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("InjectUtil").WithContext("CreateArgListExplicit");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectUtil::CreateArgListExplicit");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "InjectUtil", "CreateArgListExplicit", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get()}, ::il2cpp_utils::ExtractTypes(param1, param2))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get()})));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<Zenject::TypeValuePair>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, param1, param2);
@@ -75,7 +75,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3>
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateArgListExplicit(TParam1 param1, TParam2 param2, TParam3 param3) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("InjectUtil").WithContext("CreateArgListExplicit");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectUtil::CreateArgListExplicit");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "InjectUtil", "CreateArgListExplicit", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get()}, ::il2cpp_utils::ExtractTypes(param1, param2, param3))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get()})));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<Zenject::TypeValuePair>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, param1, param2, param3);
@@ -84,7 +84,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4>
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateArgListExplicit(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("InjectUtil").WithContext("CreateArgListExplicit");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectUtil::CreateArgListExplicit");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "InjectUtil", "CreateArgListExplicit", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get()}, ::il2cpp_utils::ExtractTypes(param1, param2, param3, param4))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get()})));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<Zenject::TypeValuePair>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, param1, param2, param3, param4);
@@ -93,7 +93,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5>
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateArgListExplicit(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("InjectUtil").WithContext("CreateArgListExplicit");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectUtil::CreateArgListExplicit");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "InjectUtil", "CreateArgListExplicit", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get()}, ::il2cpp_utils::ExtractTypes(param1, param2, param3, param4, param5))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get()})));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<Zenject::TypeValuePair>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, param1, param2, param3, param4, param5);
@@ -102,7 +102,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6>
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateArgListExplicit(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("InjectUtil").WithContext("CreateArgListExplicit");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectUtil::CreateArgListExplicit");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "InjectUtil", "CreateArgListExplicit", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get()}, ::il2cpp_utils::ExtractTypes(param1, param2, param3, param4, param5, param6))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get()})));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<Zenject::TypeValuePair>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, param1, param2, param3, param4, param5, param6);

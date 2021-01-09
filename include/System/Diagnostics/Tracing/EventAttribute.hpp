@@ -106,7 +106,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C6808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventAttribute* New_ctor(int eventId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EventAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventAttribute*, creationType>(eventId)));
     }
     // public System.Int32 get_EventId()

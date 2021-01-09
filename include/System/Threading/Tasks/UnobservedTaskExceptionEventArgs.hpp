@@ -42,7 +42,7 @@ namespace System::Threading::Tasks {
     // Offset: 0x1D1803C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnobservedTaskExceptionEventArgs* New_ctor(System::AggregateException* exception) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("UnobservedTaskExceptionEventArgs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::UnobservedTaskExceptionEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnobservedTaskExceptionEventArgs*, creationType>(exception)));
     }
   }; // System.Threading.Tasks.UnobservedTaskExceptionEventArgs

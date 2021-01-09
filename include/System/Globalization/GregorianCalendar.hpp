@@ -68,7 +68,7 @@ namespace System::Globalization {
     // Offset: 0x161B29C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GregorianCalendar* New_ctor(System::Globalization::GregorianCalendarTypes type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("GregorianCalendar").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::GregorianCalendar::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GregorianCalendar*, creationType>(type)));
     }
     // System.Int32 GetDatePart(System.Int64 ticks, System.Int32 part)
@@ -94,7 +94,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GregorianCalendar* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("GregorianCalendar").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::GregorianCalendar::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GregorianCalendar*, creationType>()));
     }
     // override System.Int32 get_ID()

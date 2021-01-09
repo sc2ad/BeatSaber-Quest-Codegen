@@ -246,7 +246,7 @@ namespace LiteNetLib {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBasedNetListener* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib").WithContext("EventBasedNetListener").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::EventBasedNetListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBasedNetListener*, creationType>()));
     }
   }; // LiteNetLib.EventBasedNetListener

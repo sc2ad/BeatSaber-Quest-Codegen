@@ -39,7 +39,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DFCDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemPermission* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("SystemPermission").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::SystemPermission::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SystemPermission*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.SystemPermission

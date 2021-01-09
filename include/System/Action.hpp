@@ -33,7 +33,7 @@ namespace System {
     // Offset: 0x15C5130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Action* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Action").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Action::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Action*, creationType>(object, method)));
     }
     // public System.Void Invoke()

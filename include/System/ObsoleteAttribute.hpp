@@ -37,14 +37,14 @@ namespace System {
     // Offset: 0x171ABE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObsoleteAttribute* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ObsoleteAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ObsoleteAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObsoleteAttribute*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Boolean error)
     // Offset: 0x171AC20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObsoleteAttribute* New_ctor(::Il2CppString* message, bool error) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ObsoleteAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ObsoleteAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObsoleteAttribute*, creationType>(message, error)));
     }
     // public System.String get_Message()
@@ -57,7 +57,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObsoleteAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ObsoleteAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ObsoleteAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObsoleteAttribute*, creationType>()));
     }
   }; // System.ObsoleteAttribute

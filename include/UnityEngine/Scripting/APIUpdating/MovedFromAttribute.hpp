@@ -36,14 +36,14 @@ namespace UnityEngine::Scripting::APIUpdating {
     // Offset: 0x16C0348
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MovedFromAttribute* New_ctor(bool autoUpdateAPI, ::Il2CppString* sourceNamespace, ::Il2CppString* sourceAssembly, ::Il2CppString* sourceClassName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Scripting::APIUpdating").WithContext("MovedFromAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Scripting::APIUpdating::MovedFromAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MovedFromAttribute*, creationType>(autoUpdateAPI, sourceNamespace, sourceAssembly, sourceClassName)));
     }
     // public System.Void .ctor(System.String sourceNamespace)
     // Offset: 0x16C0440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MovedFromAttribute* New_ctor(::Il2CppString* sourceNamespace) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Scripting::APIUpdating").WithContext("MovedFromAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Scripting::APIUpdating::MovedFromAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MovedFromAttribute*, creationType>(sourceNamespace)));
     }
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttribute

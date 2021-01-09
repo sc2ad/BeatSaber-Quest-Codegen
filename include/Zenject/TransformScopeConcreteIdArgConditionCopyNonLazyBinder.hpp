@@ -53,7 +53,7 @@ namespace Zenject {
     // Offset: 0x1348748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TransformScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(Zenject::BindInfo* bindInfo, Zenject::GameObjectCreationParameters* gameObjectInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("TransformScopeConcreteIdArgConditionCopyNonLazyBinder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TransformScopeConcreteIdArgConditionCopyNonLazyBinder*, creationType>(bindInfo, gameObjectInfo)));
     }
     // protected Zenject.GameObjectCreationParameters get_GameObjectInfo()

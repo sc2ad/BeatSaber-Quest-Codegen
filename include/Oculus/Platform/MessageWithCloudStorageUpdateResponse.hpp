@@ -35,7 +35,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageWithCloudStorageUpdateResponse* New_ctor(System::IntPtr c_message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("MessageWithCloudStorageUpdateResponse").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::MessageWithCloudStorageUpdateResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithCloudStorageUpdateResponse*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.CloudStorageUpdateResponse GetCloudStorageUpdateResponse()

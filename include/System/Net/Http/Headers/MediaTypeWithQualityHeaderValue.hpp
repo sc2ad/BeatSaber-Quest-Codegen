@@ -46,7 +46,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MediaTypeWithQualityHeaderValue* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("MediaTypeWithQualityHeaderValue").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MediaTypeWithQualityHeaderValue*, creationType>()));
     }
   }; // System.Net.Http.Headers.MediaTypeWithQualityHeaderValue

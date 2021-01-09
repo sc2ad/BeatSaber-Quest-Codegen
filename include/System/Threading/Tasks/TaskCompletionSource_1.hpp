@@ -45,56 +45,56 @@ namespace System::Threading::Tasks {
     // public System.Threading.Tasks.Task`1<TResult> get_Task()
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<TResult>* get_Task() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("TaskCompletionSource_1").WithContext("get_Task");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskCompletionSource_1::get_Task");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Task", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(this, ___internal__method);
     }
     // private System.Void SpinUntilCompleted()
     // Offset: 0xFFFFFFFF
     void SpinUntilCompleted() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("TaskCompletionSource_1").WithContext("SpinUntilCompleted");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskCompletionSource_1::SpinUntilCompleted");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SpinUntilCompleted", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Boolean TrySetException(System.Exception exception)
     // Offset: 0xFFFFFFFF
     bool TrySetException(System::Exception* exception) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("TaskCompletionSource_1").WithContext("TrySetException");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskCompletionSource_1::TrySetException");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TrySetException", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(exception)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, exception);
     }
     // public System.Boolean TrySetResult(TResult result)
     // Offset: 0xFFFFFFFF
     bool TrySetResult(TResult result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("TaskCompletionSource_1").WithContext("TrySetResult");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskCompletionSource_1::TrySetResult");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TrySetResult", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, result);
     }
     // public System.Void SetResult(TResult result)
     // Offset: 0xFFFFFFFF
     void SetResult(TResult result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("TaskCompletionSource_1").WithContext("SetResult");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskCompletionSource_1::SetResult");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SetResult", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
     }
     // public System.Boolean TrySetCanceled()
     // Offset: 0xFFFFFFFF
     bool TrySetCanceled() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("TaskCompletionSource_1").WithContext("TrySetCanceled");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskCompletionSource_1::TrySetCanceled");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TrySetCanceled", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
     // public System.Boolean TrySetCanceled(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
     bool TrySetCanceled(System::Threading::CancellationToken cancellationToken) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("TaskCompletionSource_1").WithContext("TrySetCanceled");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskCompletionSource_1::TrySetCanceled");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TrySetCanceled", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(cancellationToken)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, cancellationToken);
     }
     // public System.Void SetCanceled()
     // Offset: 0xFFFFFFFF
     void SetCanceled() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("TaskCompletionSource_1").WithContext("SetCanceled");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskCompletionSource_1::SetCanceled");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SetCanceled", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
@@ -104,7 +104,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskCompletionSource_1<TResult>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("TaskCompletionSource_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskCompletionSource_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskCompletionSource_1<TResult>*, creationType>()));
     }
   }; // System.Threading.Tasks.TaskCompletionSource`1

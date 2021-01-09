@@ -48,7 +48,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x13743C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerGeneralizedTime* New_ctor(::Array<uint8_t>* bytes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerGeneralizedTime").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerGeneralizedTime::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerGeneralizedTime*, creationType>(bytes)));
     }
     // public System.String GetTime()

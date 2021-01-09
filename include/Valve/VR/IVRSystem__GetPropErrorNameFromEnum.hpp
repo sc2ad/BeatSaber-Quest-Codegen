@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x192CEC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetPropErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetPropErrorNameFromEnum").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRSystem::_GetPropErrorNameFromEnum::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetPropErrorNameFromEnum*, creationType>(object, method)));
     }
     // public System.IntPtr Invoke(Valve.VR.ETrackedPropertyError error)

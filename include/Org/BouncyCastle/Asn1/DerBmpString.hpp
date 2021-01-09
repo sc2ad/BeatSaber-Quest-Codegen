@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1373C78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerBmpString* New_ctor(::Array<::Il2CppChar>* str) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerBmpString").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerBmpString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerBmpString*, creationType>(str)));
     }
     // public override System.String GetString()

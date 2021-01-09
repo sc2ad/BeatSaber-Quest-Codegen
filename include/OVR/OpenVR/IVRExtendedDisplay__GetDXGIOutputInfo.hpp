@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1860D60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRExtendedDisplay::_GetDXGIOutputInfo* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetDXGIOutputInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRExtendedDisplay::_GetDXGIOutputInfo*, creationType>(object, method)));
     }
     // public System.Void Invoke(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex)

@@ -86,7 +86,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Offset: 0x14A8FFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GOfbBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Modes").WithContext("GOfbBlockCipher").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GOfbBlockCipher*, creationType>(cipher)));
     }
     // private System.Int32 bytesToint(System.Byte[] inBytes, System.Int32 inOff)

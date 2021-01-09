@@ -84,7 +84,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Button* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("Button").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Button::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Button*, creationType>()));
     }
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)

@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayableDirectorTimer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("PlayableDirectorTimer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayableDirectorTimer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayableDirectorTimer*, creationType>()));
     }
   }; // PlayableDirectorTimer

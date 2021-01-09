@@ -25,7 +25,7 @@ namespace System::Net::Configuration {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSectionGroup* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Configuration").WithContext("NetSectionGroup").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Configuration::NetSectionGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSectionGroup*, creationType>()));
     }
   }; // System.Net.Configuration.NetSectionGroup

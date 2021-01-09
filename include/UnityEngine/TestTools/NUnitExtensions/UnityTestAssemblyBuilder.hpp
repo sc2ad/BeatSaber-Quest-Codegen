@@ -74,7 +74,7 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTestAssemblyBuilder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::NUnitExtensions").WithContext("UnityTestAssemblyBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTestAssemblyBuilder*, creationType>()));
     }
   }; // UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder

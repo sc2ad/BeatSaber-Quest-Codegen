@@ -63,7 +63,7 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     // Offset: 0x137EA98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410ParamSetParameters* New_ctor(int keySize, Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* q, Org::BouncyCastle::Math::BigInteger* a) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::CryptoPro").WithContext("Gost3410ParamSetParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410ParamSetParameters*, creationType>(keySize, p, q, a)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_P()

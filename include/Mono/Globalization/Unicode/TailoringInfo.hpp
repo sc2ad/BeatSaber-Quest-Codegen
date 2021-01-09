@@ -45,7 +45,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x151A874
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TailoringInfo* New_ctor(int lcid, int tailoringIndex, int tailoringCount, bool frenchSort) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Globalization::Unicode").WithContext("TailoringInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::TailoringInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TailoringInfo*, creationType>(lcid, tailoringIndex, tailoringCount, frenchSort)));
     }
   }; // Mono.Globalization.Unicode.TailoringInfo

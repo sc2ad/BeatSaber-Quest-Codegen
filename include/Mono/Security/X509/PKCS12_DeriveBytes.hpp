@@ -93,7 +93,7 @@ namespace Mono::Security::X509 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS12::DeriveBytes* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::X509").WithContext("DeriveBytes").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::PKCS12::DeriveBytes::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS12::DeriveBytes*, creationType>()));
     }
   }; // Mono.Security.X509.PKCS12/DeriveBytes

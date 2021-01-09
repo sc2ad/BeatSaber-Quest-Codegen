@@ -33,7 +33,7 @@ namespace System::Threading {
     // Offset: 0x1D088F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OSSpecificSynchronizationContext::MonoPInvokeCallbackAttribute* New_ctor(System::Type* t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("MonoPInvokeCallbackAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::OSSpecificSynchronizationContext::MonoPInvokeCallbackAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OSSpecificSynchronizationContext::MonoPInvokeCallbackAttribute*, creationType>(t)));
     }
   }; // System.Threading.OSSpecificSynchronizationContext/MonoPInvokeCallbackAttribute

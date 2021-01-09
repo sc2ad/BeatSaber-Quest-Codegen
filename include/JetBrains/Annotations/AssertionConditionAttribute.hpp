@@ -37,7 +37,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE374
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssertionConditionAttribute* New_ctor(JetBrains::Annotations::AssertionConditionType conditionType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("AssertionConditionAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::AssertionConditionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssertionConditionAttribute*, creationType>(conditionType)));
     }
     // public JetBrains.Annotations.AssertionConditionType get_ConditionType()

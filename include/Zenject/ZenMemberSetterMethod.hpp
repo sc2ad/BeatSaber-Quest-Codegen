@@ -32,7 +32,7 @@ namespace Zenject {
     // Offset: 0x19EF8F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenMemberSetterMethod* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ZenMemberSetterMethod").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenMemberSetterMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenMemberSetterMethod*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object obj, System.Object value)

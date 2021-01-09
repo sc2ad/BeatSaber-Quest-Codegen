@@ -46,7 +46,7 @@ namespace Mono::Security::Interface {
     // Offset: 0x17B8780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidationResult* New_ctor(bool trusted, bool user_denied, int error_code, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::Interface").WithContext("ValidationResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::ValidationResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValidationResult*, creationType>(trusted, user_denied, error_code, policy_errors)));
     }
     // public System.Boolean get_Trusted()

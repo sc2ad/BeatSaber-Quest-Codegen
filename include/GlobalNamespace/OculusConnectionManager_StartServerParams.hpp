@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusConnectionManager::StartServerParams* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("StartServerParams").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusConnectionManager::StartServerParams::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusConnectionManager::StartServerParams*, creationType>()));
     }
   }; // OculusConnectionManager/StartServerParams

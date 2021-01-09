@@ -34,7 +34,7 @@ namespace UnityEngine {
     // Offset: 0x172C86C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MinAttribute* New_ctor(float min) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("MinAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::MinAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MinAttribute*, creationType>(min)));
     }
   }; // UnityEngine.MinAttribute

@@ -44,7 +44,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x1679CB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UsedImplicitlyAttribute* New_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags targetFlags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("UsedImplicitlyAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::UsedImplicitlyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UsedImplicitlyAttribute*, creationType>(useKindFlags, targetFlags)));
     }
     // public System.Void .ctor()
@@ -54,7 +54,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UsedImplicitlyAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("UsedImplicitlyAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::UsedImplicitlyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UsedImplicitlyAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.UsedImplicitlyAttribute

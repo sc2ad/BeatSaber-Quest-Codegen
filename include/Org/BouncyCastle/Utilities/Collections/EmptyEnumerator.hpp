@@ -36,7 +36,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyEnumerator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Utilities::Collections").WithContext("EmptyEnumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyEnumerator*, creationType>()));
     }
     // public System.Boolean MoveNext()

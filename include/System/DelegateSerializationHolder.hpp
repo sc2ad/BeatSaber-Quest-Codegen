@@ -59,7 +59,7 @@ namespace System {
     // Offset: 0x1676FEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelegateSerializationHolder* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext ctx) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("DelegateSerializationHolder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::DelegateSerializationHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelegateSerializationHolder*, creationType>(info, ctx)));
     }
     // static public System.Void GetDelegateData(System.Delegate instance, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext ctx)

@@ -28,7 +28,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NonSerializedAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("NonSerializedAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::NonSerializedAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NonSerializedAttribute*, creationType>()));
     }
   }; // System.NonSerializedAttribute

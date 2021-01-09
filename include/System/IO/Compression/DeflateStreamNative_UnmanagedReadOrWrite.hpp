@@ -35,7 +35,7 @@ namespace System::IO::Compression {
     // Offset: 0x148AB60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeflateStreamNative::UnmanagedReadOrWrite* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO::Compression").WithContext("UnmanagedReadOrWrite").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeflateStreamNative::UnmanagedReadOrWrite*, creationType>(object, method)));
     }
     // public System.Int32 Invoke(System.IntPtr buffer, System.Int32 length, System.IntPtr data)

@@ -39,7 +39,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Void MessageDictionary::.ctor(System.Runtime.Remoting.Messaging.IMethodMessage message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MCMDictionary* New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("MCMDictionary").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MCMDictionary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MCMDictionary*, creationType>(message)));
     }
   }; // System.Runtime.Remoting.Messaging.MCMDictionary

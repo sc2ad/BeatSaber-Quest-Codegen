@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0x11060B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Events::ActionNoArgs* New_ctor(GlobalNamespace::SteamVR_Events::Event* _event, UnityEngine::Events::UnityAction* action) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ActionNoArgs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Events::ActionNoArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Events::ActionNoArgs*, creationType>(_event, action)));
     }
     // public override System.Void Enable(System.Boolean enabled)

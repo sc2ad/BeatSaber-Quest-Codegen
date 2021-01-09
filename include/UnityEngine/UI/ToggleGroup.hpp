@@ -96,7 +96,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ToggleGroup* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("ToggleGroup").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ToggleGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ToggleGroup*, creationType>()));
     }
     // protected override System.Void Start()

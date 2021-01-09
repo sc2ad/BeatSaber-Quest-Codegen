@@ -103,35 +103,35 @@ namespace Mono::Math {
     // Offset: 0x17AA1EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger* New_ctor(Mono::Math::BigInteger::Sign sign, uint len) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Math").WithContext("BigInteger").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(sign, len)));
     }
     // public System.Void .ctor(Mono.Math.BigInteger bi)
     // Offset: 0x17AA274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger* New_ctor(Mono::Math::BigInteger* bi) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Math").WithContext("BigInteger").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(bi)));
     }
     // public System.Void .ctor(Mono.Math.BigInteger bi, System.UInt32 len)
     // Offset: 0x17AA334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger* New_ctor(Mono::Math::BigInteger* bi, uint len) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Math").WithContext("BigInteger").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(bi, len)));
     }
     // public System.Void .ctor(System.Byte[] inData)
     // Offset: 0x17AA42C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger* New_ctor(::Array<uint8_t>* inData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Math").WithContext("BigInteger").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(inData)));
     }
     // public System.Void .ctor(System.UInt32 ui)
     // Offset: 0x17AA730
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger* New_ctor(uint ui) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Math").WithContext("BigInteger").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(ui)));
     }
     // static private System.Security.Cryptography.RandomNumberGenerator get_Rng()

@@ -54,7 +54,7 @@ namespace Zenject {
     // Offset: 0x1356724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByNewPrefabDynamicContext* New_ctor(Zenject::DiContainer* container, Zenject::IPrefabProvider* prefabProvider, Zenject::GameObjectCreationParameters* gameObjectBindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SubContainerCreatorByNewPrefabDynamicContext").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByNewPrefabDynamicContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByNewPrefabDynamicContext*, creationType>(container, prefabProvider, gameObjectBindInfo)));
     }
     // protected override UnityEngine.GameObject CreateGameObject(out System.Boolean shouldMakeActive)

@@ -296,7 +296,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatedSwitchView* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("AnimatedSwitchView").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::AnimatedSwitchView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatedSwitchView*, creationType>()));
     }
   }; // HMUI.AnimatedSwitchView

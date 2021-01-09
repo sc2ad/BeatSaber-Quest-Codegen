@@ -350,14 +350,14 @@ namespace System {
     // Offset: 0x165334C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeZoneInfo* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TimeZoneInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeZoneInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeZoneInfo*, creationType>(info, context)));
     }
     // private System.Void .ctor(System.String id, System.TimeSpan baseUtcOffset, System.String displayName, System.String standardDisplayName, System.String daylightDisplayName, System.TimeZoneInfo/AdjustmentRule[] adjustmentRules, System.Boolean disableDaylightSavingTime)
     // Offset: 0x164DB64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeZoneInfo* New_ctor(::Il2CppString* id, System::TimeSpan baseUtcOffset, ::Il2CppString* displayName, ::Il2CppString* standardDisplayName, ::Il2CppString* daylightDisplayName, ::Array<System::TimeZoneInfo::AdjustmentRule*>* adjustmentRules, bool disableDaylightSavingTime) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TimeZoneInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeZoneInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeZoneInfo*, creationType>(id, baseUtcOffset, displayName, standardDisplayName, daylightDisplayName, adjustmentRules, disableDaylightSavingTime)));
     }
     // private System.TimeZoneInfo/AdjustmentRule GetApplicableRule(System.DateTime dateTime)
@@ -444,7 +444,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeZoneInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TimeZoneInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeZoneInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeZoneInfo*, creationType>()));
     }
   }; // System.TimeZoneInfo

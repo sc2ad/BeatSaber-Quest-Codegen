@@ -133,7 +133,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLeaderboardPanelItem* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MultiplayerLeaderboardPanelItem").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerLeaderboardPanelItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLeaderboardPanelItem*, creationType>()));
     }
   }; // MultiplayerLeaderboardPanelItem

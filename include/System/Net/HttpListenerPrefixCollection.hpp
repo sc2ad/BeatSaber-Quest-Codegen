@@ -60,7 +60,7 @@ namespace System::Net {
     // Offset: 0x12ADD94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerPrefixCollection* New_ctor(System::Net::HttpListener* listener) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("HttpListenerPrefixCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerPrefixCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerPrefixCollection*, creationType>(listener)));
     }
     // public System.Void CopyTo(System.String[] array, System.Int32 offset)

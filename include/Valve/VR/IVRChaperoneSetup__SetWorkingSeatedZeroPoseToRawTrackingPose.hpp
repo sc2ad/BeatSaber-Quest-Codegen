@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x18E3A2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRChaperoneSetup::_SetWorkingSeatedZeroPoseToRawTrackingPose* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_SetWorkingSeatedZeroPoseToRawTrackingPose").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRChaperoneSetup::_SetWorkingSeatedZeroPoseToRawTrackingPose::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRChaperoneSetup::_SetWorkingSeatedZeroPoseToRawTrackingPose*, creationType>(object, method)));
     }
     // public System.Void Invoke(ref Valve.VR.HmdMatrix34_t pMatSeatedZeroPoseToRawTrackingPose)

@@ -41,7 +41,7 @@ namespace System::Runtime::Remoting::Lifetime {
     // Offset: 0x1175E24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Lease::RenewalDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Lifetime").WithContext("RenewalDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Lease::RenewalDelegate*, creationType>(object, method)));
     }
     // public System.TimeSpan Invoke(System.Runtime.Remoting.Lifetime.ILease lease)

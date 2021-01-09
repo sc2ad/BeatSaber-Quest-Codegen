@@ -67,7 +67,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0xC9F690
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DiscreteTime(double time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("DiscreteTime").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::DiscreteTime::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(time)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time);
     }
@@ -75,7 +75,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0xC9F698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DiscreteTime(float time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("DiscreteTime").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::DiscreteTime::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(time)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time);
     }
@@ -83,7 +83,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0xC9F6A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DiscreteTime(int time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("DiscreteTime").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::DiscreteTime::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(time)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time);
     }
@@ -91,7 +91,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0xC9F6A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DiscreteTime(int frame, double fps) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("DiscreteTime").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::DiscreteTime::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(frame, fps)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, frame, fps);
     }

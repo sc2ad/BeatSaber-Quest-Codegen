@@ -41,7 +41,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Dropdown::$$c__DisplayClass60_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("$$c__DisplayClass60_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Dropdown::$$c__DisplayClass60_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::$$c__DisplayClass60_0*, creationType>()));
     }
   }; // TMPro.TMP_Dropdown/<>c__DisplayClass60_0

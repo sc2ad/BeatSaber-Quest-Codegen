@@ -47,7 +47,7 @@ namespace Mono::Math::Prime::Generator {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SequentialSearchPrimeGeneratorBase* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Math::Prime::Generator").WithContext("SequentialSearchPrimeGeneratorBase").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SequentialSearchPrimeGeneratorBase*, creationType>()));
     }
   }; // Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase

@@ -91,7 +91,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C3FF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActivityTracker::ActivityInfo* New_ctor(::Il2CppString* name, int64_t uniqueId, System::Diagnostics::Tracing::ActivityTracker::ActivityInfo* creator, System::Guid activityIDToRestore, System::Diagnostics::Tracing::EventActivityOptions options) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("ActivityInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ActivityTracker::ActivityInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActivityTracker::ActivityInfo*, creationType>(name, uniqueId, creator, activityIDToRestore, options)));
     }
     // public System.Guid get_ActivityId()

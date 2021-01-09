@@ -55,48 +55,48 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PriorityQueue_2<TItem, TPriority>* New_ctor(int capacity, UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* priorityMath) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("PriorityQueue_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PriorityQueue_2<TItem, TPriority>*, creationType>(capacity, priorityMath)));
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
     int get_Count() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("PriorityQueue_2").WithContext("get_Count");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::get_Count");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // private System.Void ExpandCapacity()
     // Offset: 0xFFFFFFFF
     void ExpandCapacity() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("PriorityQueue_2").WithContext("ExpandCapacity");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::ExpandCapacity");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ExpandCapacity", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Void Enqueue(TItem item, TPriority priority)
     // Offset: 0xFFFFFFFF
     void Enqueue(TItem item, TPriority priority) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("PriorityQueue_2").WithContext("Enqueue");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::Enqueue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Enqueue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item, priority)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item, priority);
     }
     // public TItem Dequeue()
     // Offset: 0xFFFFFFFF
     TItem Dequeue() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("PriorityQueue_2").WithContext("Dequeue");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::Dequeue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Dequeue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TItem, false>(this, ___internal__method);
     }
     // private System.Void ReorderItem(System.Int32 index, System.Int32 direction)
     // Offset: 0xFFFFFFFF
     void ReorderItem(int index, int direction) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("PriorityQueue_2").WithContext("ReorderItem");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::ReorderItem");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ReorderItem", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index, direction)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, index, direction);
     }
     // public TPriority GetHighestPriority()
     // Offset: 0xFFFFFFFF
     TPriority GetHighestPriority() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("PriorityQueue_2").WithContext("GetHighestPriority");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::GetHighestPriority");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetHighestPriority", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TPriority, false>(this, ___internal__method);
     }

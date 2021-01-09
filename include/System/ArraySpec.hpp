@@ -51,7 +51,7 @@ namespace System {
     // Offset: 0x1CA8CF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArraySpec* New_ctor(int dimensions, bool bound) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySpec").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ArraySpec::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArraySpec*, creationType>(dimensions, bound)));
     }
     // public System.Type Resolve(System.Type type)

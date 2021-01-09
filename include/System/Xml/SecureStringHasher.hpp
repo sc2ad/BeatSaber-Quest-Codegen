@@ -56,7 +56,7 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecureStringHasher* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("SecureStringHasher").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::SecureStringHasher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecureStringHasher*, creationType>()));
     }
     // public System.Boolean Equals(System.String x, System.String y)

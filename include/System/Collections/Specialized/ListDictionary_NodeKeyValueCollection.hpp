@@ -58,7 +58,7 @@ namespace System::Collections::Specialized {
     // Offset: 0x147C89C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionary::NodeKeyValueCollection* New_ctor(System::Collections::Specialized::ListDictionary* list, bool isKeys) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Specialized").WithContext("NodeKeyValueCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::ListDictionary::NodeKeyValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionary::NodeKeyValueCollection*, creationType>(list, isKeys)));
     }
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)

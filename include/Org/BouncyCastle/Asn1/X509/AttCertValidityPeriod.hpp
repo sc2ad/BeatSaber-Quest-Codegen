@@ -49,7 +49,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x157771C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AttCertValidityPeriod* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X509").WithContext("AttCertValidityPeriod").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttCertValidityPeriod*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.DerGeneralizedTime get_NotBeforeTime()

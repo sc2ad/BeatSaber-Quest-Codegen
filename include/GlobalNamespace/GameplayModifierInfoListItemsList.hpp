@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifierInfoListItemsList* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("GameplayModifierInfoListItemsList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayModifierInfoListItemsList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifierInfoListItemsList*, creationType>()));
     }
   }; // GameplayModifierInfoListItemsList

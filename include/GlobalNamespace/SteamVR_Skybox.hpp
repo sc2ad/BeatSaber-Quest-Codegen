@@ -160,7 +160,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Skybox* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SteamVR_Skybox").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Skybox::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Skybox*, creationType>()));
     }
   }; // SteamVR_Skybox

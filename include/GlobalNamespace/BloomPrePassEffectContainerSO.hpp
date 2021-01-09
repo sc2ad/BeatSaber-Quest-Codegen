@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassEffectContainerSO* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BloomPrePassEffectContainerSO").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomPrePassEffectContainerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassEffectContainerSO*, creationType>()));
     }
   }; // BloomPrePassEffectContainerSO

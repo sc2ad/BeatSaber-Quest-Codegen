@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1374434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerGraphicString* New_ctor(::Array<uint8_t>* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerGraphicString").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerGraphicString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerGraphicString*, creationType>(encoding)));
     }
     // public override System.String GetString()

@@ -84,7 +84,7 @@ namespace Zenject::Internal {
     // Offset: 0x12A4328
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionTypeInfo* New_ctor(System::Type* type, System::Type* baseType, Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo* injectConstructor, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>* injectMethods, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo*>* injectFields, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo*>* injectProperties) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject::Internal").WithContext("ReflectionTypeInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ReflectionTypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionTypeInfo*, creationType>(type, baseType, injectConstructor, injectMethods, injectFields, injectProperties)));
     }
   }; // Zenject.Internal.ReflectionTypeInfo

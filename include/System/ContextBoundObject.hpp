@@ -27,7 +27,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextBoundObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ContextBoundObject").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ContextBoundObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextBoundObject*, creationType>()));
     }
   }; // System.ContextBoundObject

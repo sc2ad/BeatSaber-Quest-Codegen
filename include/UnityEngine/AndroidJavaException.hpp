@@ -33,7 +33,7 @@ namespace UnityEngine {
     // Offset: 0x199A960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaException* New_ctor(::Il2CppString* message, ::Il2CppString* javaStackTrace) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("AndroidJavaException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaException*, creationType>(message, javaStackTrace)));
     }
     // public override System.String get_StackTrace()

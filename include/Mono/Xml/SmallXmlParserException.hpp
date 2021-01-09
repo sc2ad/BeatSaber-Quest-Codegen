@@ -35,7 +35,7 @@ namespace Mono::Xml {
     // Offset: 0x15C346C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmallXmlParserException* New_ctor(::Il2CppString* msg, int line, int column) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Xml").WithContext("SmallXmlParserException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Xml::SmallXmlParserException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SmallXmlParserException*, creationType>(msg, line, column)));
     }
   }; // Mono.Xml.SmallXmlParserException

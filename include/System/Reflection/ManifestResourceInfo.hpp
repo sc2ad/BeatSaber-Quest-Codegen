@@ -49,7 +49,7 @@ namespace System::Reflection {
     // Offset: 0x15C7980
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ManifestResourceInfo* New_ctor(System::Reflection::Assembly* containingAssembly, ::Il2CppString* containingFileName, System::Reflection::ResourceLocation resourceLocation) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("ManifestResourceInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::ManifestResourceInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ManifestResourceInfo*, creationType>(containingAssembly, containingFileName, resourceLocation)));
     }
     // public System.Reflection.Assembly get_ReferencedAssembly()

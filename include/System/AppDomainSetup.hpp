@@ -171,7 +171,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppDomainSetup* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AppDomainSetup").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::AppDomainSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppDomainSetup*, creationType>()));
     }
   }; // System.AppDomainSetup

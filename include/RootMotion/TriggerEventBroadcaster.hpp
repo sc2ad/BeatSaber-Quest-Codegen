@@ -55,7 +55,7 @@ namespace RootMotion {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriggerEventBroadcaster* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion").WithContext("TriggerEventBroadcaster").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::TriggerEventBroadcaster::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TriggerEventBroadcaster*, creationType>()));
     }
   }; // RootMotion.TriggerEventBroadcaster

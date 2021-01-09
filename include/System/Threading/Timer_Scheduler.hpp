@@ -89,7 +89,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Timer::Scheduler* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("Scheduler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Timer::Scheduler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Timer::Scheduler*, creationType>()));
     }
   }; // System.Threading.Timer/Scheduler

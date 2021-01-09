@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     // Offset: 0x1973CDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderData* New_ctor(::Array<GlobalNamespace::VRControllersRecorderData::NodeInfo*>* nodesInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("VRControllersRecorderData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorderData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorderData*, creationType>(nodesInfo)));
     }
     // public System.Void AddKeyFrame(VRControllersRecorderData/PositionAndRotation[] positionsAndRotations, System.Single time)

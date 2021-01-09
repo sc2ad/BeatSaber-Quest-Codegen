@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneLoadedCallbacksOrderDebug* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SceneLoadedCallbacksOrderDebug").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SceneLoadedCallbacksOrderDebug::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneLoadedCallbacksOrderDebug*, creationType>()));
     }
   }; // SceneLoadedCallbacksOrderDebug

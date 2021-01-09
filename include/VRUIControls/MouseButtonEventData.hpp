@@ -51,7 +51,7 @@ namespace VRUIControls {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MouseButtonEventData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("VRUIControls").WithContext("MouseButtonEventData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("VRUIControls::MouseButtonEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MouseButtonEventData*, creationType>()));
     }
   }; // VRUIControls.MouseButtonEventData

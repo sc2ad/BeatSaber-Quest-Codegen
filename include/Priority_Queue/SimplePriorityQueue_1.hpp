@@ -37,14 +37,14 @@ namespace Priority_Queue {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimplePriorityQueue_1<TItem>* New_ctor(System::Collections::Generic::IComparer_1<float>* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("SimplePriorityQueue_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::SimplePriorityQueue_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimplePriorityQueue_1<TItem>*, creationType>(comparer)));
     }
     // public System.Void .ctor(System.Comparison`1<System.Single> comparer)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimplePriorityQueue_1<TItem>* New_ctor(System::Comparison_1<float>* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("SimplePriorityQueue_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::SimplePriorityQueue_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimplePriorityQueue_1<TItem>*, creationType>(comparer)));
     }
     // public System.Void .ctor()
@@ -54,7 +54,7 @@ namespace Priority_Queue {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimplePriorityQueue_1<TItem>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("SimplePriorityQueue_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::SimplePriorityQueue_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimplePriorityQueue_1<TItem>*, creationType>()));
     }
   }; // Priority_Queue.SimplePriorityQueue`1

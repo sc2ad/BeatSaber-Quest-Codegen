@@ -134,7 +134,7 @@ namespace GlobalNamespace {
     // Offset: 0x19A6BE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutInfoNetSerializable* New_ctor(GlobalNamespace::NoteCutInfo* noteCutInfo, GlobalNamespace::NoteData* noteData, UnityEngine::Vector3 notePosition, UnityEngine::Quaternion noteRotation, UnityEngine::Vector3 moveVec) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NoteCutInfoNetSerializable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteCutInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutInfoNetSerializable*, creationType>(noteCutInfo, noteData, notePosition, noteRotation, moveVec)));
     }
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
@@ -153,7 +153,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutInfoNetSerializable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NoteCutInfoNetSerializable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteCutInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutInfoNetSerializable*, creationType>()));
     }
   }; // NoteCutInfoNetSerializable

@@ -36,7 +36,7 @@ namespace UnityEngine::XR {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XRMeshSubsystemDescriptor* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::XR").WithContext("XRMeshSubsystemDescriptor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::XR::XRMeshSubsystemDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XRMeshSubsystemDescriptor*, creationType>()));
     }
   }; // UnityEngine.XR.XRMeshSubsystemDescriptor

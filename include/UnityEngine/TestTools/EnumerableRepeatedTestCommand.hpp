@@ -56,7 +56,7 @@ namespace UnityEngine::TestTools {
     // Offset: 0x11858E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableRepeatedTestCommand* New_ctor(NUnit::Framework::RepeatAttribute::RepeatedTestCommand* commandToReplace) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools").WithContext("EnumerableRepeatedTestCommand").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::EnumerableRepeatedTestCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableRepeatedTestCommand*, creationType>(commandToReplace)));
     }
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)

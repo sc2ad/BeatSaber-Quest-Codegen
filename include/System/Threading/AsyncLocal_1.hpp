@@ -47,20 +47,20 @@ namespace System::Threading {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncLocal_1<T>* New_ctor(System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>>* valueChangedHandler) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("AsyncLocal_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocal_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncLocal_1<T>*, creationType>(valueChangedHandler)));
     }
     // public T get_Value()
     // Offset: 0xFFFFFFFF
     T get_Value() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("AsyncLocal_1").WithContext("get_Value");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocal_1::get_Value");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Value", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void set_Value(T value)
     // Offset: 0xFFFFFFFF
     void set_Value(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("AsyncLocal_1").WithContext("set_Value");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocal_1::set_Value");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "set_Value", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
@@ -69,7 +69,7 @@ namespace System::Threading {
     // Implemented from: System.Threading.IAsyncLocal
     // Base method: System.Void IAsyncLocal::OnValueChanged(System.Object previousValueObj, System.Object currentValueObj, System.Boolean contextChanged)
     void System_Threading_IAsyncLocal_OnValueChanged(::Il2CppObject* previousValueObj, ::Il2CppObject* currentValueObj, bool contextChanged) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("AsyncLocal_1").WithContext("System.Threading.IAsyncLocal.OnValueChanged");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocal_1::System.Threading.IAsyncLocal.OnValueChanged");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Threading.IAsyncLocal.OnValueChanged", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(previousValueObj, currentValueObj, contextChanged)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, previousValueObj, currentValueObj, contextChanged);
     }

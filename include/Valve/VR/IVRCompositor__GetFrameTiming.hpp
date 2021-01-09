@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x18E6C44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_GetFrameTiming* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetFrameTiming").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRCompositor::_GetFrameTiming::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_GetFrameTiming*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(ref Valve.VR.Compositor_FrameTiming pTiming, System.UInt32 unFramesAgo)

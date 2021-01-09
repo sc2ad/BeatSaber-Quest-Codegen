@@ -35,7 +35,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProtocolViolationException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("ProtocolViolationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ProtocolViolationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProtocolViolationException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -46,7 +46,7 @@ namespace System::Net {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProtocolViolationException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("ProtocolViolationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ProtocolViolationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProtocolViolationException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
@@ -57,7 +57,7 @@ namespace System::Net {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProtocolViolationException* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("ProtocolViolationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ProtocolViolationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProtocolViolationException*, creationType>(serializationInfo, streamingContext)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)

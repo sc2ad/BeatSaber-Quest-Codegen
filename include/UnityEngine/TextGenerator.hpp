@@ -138,7 +138,7 @@ namespace UnityEngine {
     // Offset: 0x19F7AAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextGenerator* New_ctor(int initialCapacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("TextGenerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TextGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextGenerator*, creationType>(initialCapacity)));
     }
     // public System.Int32 get_characterCountVisible()
@@ -228,7 +228,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextGenerator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("TextGenerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TextGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextGenerator*, creationType>()));
     }
     // protected override System.Void Finalize()

@@ -93,7 +93,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationClip* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("AnimationClip").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AnimationClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationClip*, creationType>()));
     }
   }; // UnityEngine.AnimationClip

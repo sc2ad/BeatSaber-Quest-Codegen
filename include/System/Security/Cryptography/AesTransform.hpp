@@ -92,7 +92,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x19B2FDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AesTransform* New_ctor(System::Security::Cryptography::Aes* algo, bool encryption, ::Array<uint8_t>* key, ::Array<uint8_t>* iv) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("AesTransform").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::AesTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AesTransform*, creationType>(algo, encryption, key, iv)));
     }
     // private System.UInt32 SubByte(System.UInt32 a)

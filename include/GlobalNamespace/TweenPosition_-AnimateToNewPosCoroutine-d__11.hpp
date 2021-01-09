@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Offset: 0x19CF230
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TweenPosition::$AnimateToNewPosCoroutine$d__11* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$AnimateToNewPosCoroutine$d__11").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TweenPosition::$AnimateToNewPosCoroutine$d__11::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TweenPosition::$AnimateToNewPosCoroutine$d__11*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

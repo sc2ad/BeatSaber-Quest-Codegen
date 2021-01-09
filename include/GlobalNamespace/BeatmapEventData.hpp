@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Offset: 0x19F5B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventData* New_ctor(float time, GlobalNamespace::BeatmapEventType type, int value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BeatmapEventData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventData*, creationType>(time, type, value)));
     }
   }; // BeatmapEventData

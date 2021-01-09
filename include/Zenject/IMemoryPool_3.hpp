@@ -25,7 +25,7 @@ namespace Zenject {
     // public TValue Spawn(TParam1 param1, TParam2 param2)
     // Offset: 0xFFFFFFFF
     TValue Spawn(TParam1 param1, TParam2 param2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IMemoryPool_3").WithContext("Spawn");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IMemoryPool_3::Spawn");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(param1, param2)));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, param1, param2);
     }

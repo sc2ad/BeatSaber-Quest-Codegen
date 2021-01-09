@@ -19,28 +19,28 @@ namespace GlobalNamespace {
     // public System.Single get_time()
     // Offset: 0xFFFFFFFF
     float GlobalNamespace_ISyncStateSerializable_1_get_time() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ISyncStateSerializable_1").WithContext("get_time");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateSerializable_1::get_time");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_time", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<float, false>(this, ___internal__method);
     }
     // public System.Void set_time(System.Single value)
     // Offset: 0xFFFFFFFF
     void GlobalNamespace_ISyncStateSerializable_1_set_time(float value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ISyncStateSerializable_1").WithContext("set_time");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateSerializable_1::set_time");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "set_time", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public T get_state()
     // Offset: 0xFFFFFFFF
     T GlobalNamespace_ISyncStateSerializable_1_get_state() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ISyncStateSerializable_1").WithContext("get_state");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateSerializable_1::get_state");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_state", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void set_state(T value)
     // Offset: 0xFFFFFFFF
     void GlobalNamespace_ISyncStateSerializable_1_set_state(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ISyncStateSerializable_1").WithContext("set_state");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateSerializable_1::set_state");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "set_state", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }

@@ -58,7 +58,7 @@ namespace System::Net::Http {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpClientHandler::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpClientHandler::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpClientHandler::$$c*, creationType>()));
     }
   }; // System.Net.Http.HttpClientHandler/<>c

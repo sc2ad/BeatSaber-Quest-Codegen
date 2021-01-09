@@ -87,7 +87,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Offset: 0x11845E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FailCommand::$ExecuteEnumerable$d__4* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner").WithContext("$ExecuteEnumerable$d__4").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::FailCommand::$ExecuteEnumerable$d__4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FailCommand::$ExecuteEnumerable$d__4*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

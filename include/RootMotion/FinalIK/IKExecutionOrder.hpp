@@ -81,7 +81,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKExecutionOrder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("IKExecutionOrder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKExecutionOrder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKExecutionOrder*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKExecutionOrder

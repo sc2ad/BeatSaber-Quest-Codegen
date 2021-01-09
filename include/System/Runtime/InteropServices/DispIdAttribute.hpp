@@ -35,7 +35,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1164520
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DispIdAttribute* New_ctor(int dispId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("DispIdAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::DispIdAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DispIdAttribute*, creationType>(dispId)));
     }
   }; // System.Runtime.InteropServices.DispIdAttribute

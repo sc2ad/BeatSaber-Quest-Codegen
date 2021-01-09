@@ -48,7 +48,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningTable::$$c__DisplayClass5_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("$$c__DisplayClass5_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningTable::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningTable::$$c__DisplayClass5_0*, creationType>()));
     }
   }; // TMPro.KerningTable/<>c__DisplayClass5_0

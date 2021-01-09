@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamedIntListSettingsController::TextValuePair* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TextValuePair").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NamedIntListSettingsController::TextValuePair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamedIntListSettingsController::TextValuePair*, creationType>()));
     }
   }; // NamedIntListSettingsController/TextValuePair

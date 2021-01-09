@@ -37,7 +37,7 @@ namespace System::Runtime::Remoting::Contexts {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextCallbackObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Contexts").WithContext("ContextCallbackObject").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Contexts::ContextCallbackObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextCallbackObject*, creationType>()));
     }
   }; // System.Runtime.Remoting.Contexts.ContextCallbackObject

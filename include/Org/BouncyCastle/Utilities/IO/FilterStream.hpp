@@ -36,7 +36,7 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Offset: 0x18BF14C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FilterStream* New_ctor(System::IO::Stream* s) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Utilities::IO").WithContext("FilterStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::IO::FilterStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FilterStream*, creationType>(s)));
     }
     // public override System.Boolean get_CanRead()

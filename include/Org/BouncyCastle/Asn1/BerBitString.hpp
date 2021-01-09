@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void DerBitString::.ctor(System.Byte[] data, System.Int32 padBits)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerBitString* New_ctor(::Array<uint8_t>* data, int padBits) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("BerBitString").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerBitString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerBitString*, creationType>(data, padBits)));
     }
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)

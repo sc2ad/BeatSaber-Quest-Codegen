@@ -46,7 +46,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x194ABB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WingedEdgeEnumerator* New_ctor(UnityEngine::ProBuilder::WingedEdge* start) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("WingedEdgeEnumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::WingedEdgeEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WingedEdgeEnumerator*, creationType>(start)));
     }
     // public System.Boolean MoveNext()

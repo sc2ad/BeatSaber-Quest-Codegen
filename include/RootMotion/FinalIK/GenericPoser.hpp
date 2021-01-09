@@ -77,7 +77,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericPoser* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("GenericPoser").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::GenericPoser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericPoser*, creationType>()));
     }
   }; // RootMotion.FinalIK.GenericPoser

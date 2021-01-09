@@ -56,7 +56,7 @@ namespace System {
       // Offset: 0xCA6A58
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       FormatParam(int value) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("FormatParam").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::ParameterizedStrings::FormatParam::.ctor");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
       }

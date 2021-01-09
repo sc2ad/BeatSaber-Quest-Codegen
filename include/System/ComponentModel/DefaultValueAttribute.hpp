@@ -34,21 +34,21 @@ namespace System::ComponentModel {
     // Offset: 0x1480BD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultValueAttribute* New_ctor(bool value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("DefaultValueAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::DefaultValueAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultValueAttribute*, creationType>(value)));
     }
     // public System.Void .ctor(System.String value)
     // Offset: 0x1480C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultValueAttribute* New_ctor(::Il2CppString* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("DefaultValueAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::DefaultValueAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultValueAttribute*, creationType>(value)));
     }
     // public System.Void .ctor(System.Object value)
     // Offset: 0x1480C8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultValueAttribute* New_ctor(::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("DefaultValueAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::DefaultValueAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultValueAttribute*, creationType>(value)));
     }
     // public System.Object get_Value()

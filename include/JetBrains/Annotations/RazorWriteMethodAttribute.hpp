@@ -27,7 +27,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RazorWriteMethodAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("RazorWriteMethodAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::RazorWriteMethodAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RazorWriteMethodAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.RazorWriteMethodAttribute

@@ -64,7 +64,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EntityBehaviour* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("EntityBehaviour").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::EntityBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EntityBehaviour*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.EntityBehaviour

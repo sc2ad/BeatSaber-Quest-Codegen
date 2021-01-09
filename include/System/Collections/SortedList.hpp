@@ -129,21 +129,21 @@ namespace System::Collections {
     // Offset: 0x152CA88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortedList* New_ctor(int initialCapacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("SortedList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::SortedList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortedList*, creationType>(initialCapacity)));
     }
     // public System.Void .ctor(System.Collections.IComparer comparer)
     // Offset: 0x152CBE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortedList* New_ctor(System::Collections::IComparer* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("SortedList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::SortedList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortedList*, creationType>(comparer)));
     }
     // public System.Void .ctor(System.Collections.IComparer comparer, System.Int32 capacity)
     // Offset: 0x152CC2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortedList* New_ctor(System::Collections::IComparer* comparer, int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("SortedList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::SortedList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortedList*, creationType>(comparer, capacity)));
     }
     // public System.Int32 get_Capacity()
@@ -200,7 +200,7 @@ namespace System::Collections {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortedList* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("SortedList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::SortedList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortedList*, creationType>()));
     }
     // public System.Void Add(System.Object key, System.Object value)

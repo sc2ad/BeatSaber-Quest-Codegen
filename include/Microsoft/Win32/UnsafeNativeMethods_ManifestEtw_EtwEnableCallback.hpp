@@ -36,7 +36,7 @@ namespace Microsoft::Win32 {
     // Offset: 0x151761C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnsafeNativeMethods::ManifestEtw::EtwEnableCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Microsoft::Win32").WithContext("EtwEnableCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EtwEnableCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnsafeNativeMethods::ManifestEtw::EtwEnableCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(in System.Guid sourceId, in System.Int32 isEnabled, in System.Byte level, in System.Int64 matchAnyKeywords, in System.Int64 matchAllKeywords, in Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_FILTER_DESCRIPTOR* filterData, in System.Void* callbackContext)

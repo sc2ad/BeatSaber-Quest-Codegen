@@ -35,7 +35,7 @@ namespace System::Reflection {
     // Offset: 0x15C6A48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventInfo::AddEventAdapter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("AddEventAdapter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::EventInfo::AddEventAdapter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventInfo::AddEventAdapter*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object _this, System.Delegate dele)

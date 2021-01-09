@@ -90,7 +90,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FaceRebuildData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("FaceRebuildData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::FaceRebuildData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FaceRebuildData*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.FaceRebuildData

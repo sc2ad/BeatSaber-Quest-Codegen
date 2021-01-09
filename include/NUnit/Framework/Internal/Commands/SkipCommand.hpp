@@ -42,7 +42,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Base method: System.Void TestCommand::.ctor(NUnit.Framework.Internal.Test test)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SkipCommand* New_ctor(NUnit::Framework::Internal::Test* test) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Commands").WithContext("SkipCommand").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::SkipCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SkipCommand*, creationType>(test)));
     }
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)

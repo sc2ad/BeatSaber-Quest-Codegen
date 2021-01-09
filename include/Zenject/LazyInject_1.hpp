@@ -60,13 +60,13 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LazyInject_1<T>* New_ctor(Zenject::DiContainer* container, Zenject::InjectContext* context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("LazyInject_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::LazyInject_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LazyInject_1<T>*, creationType>(container, context)));
     }
     // public T get_Value()
     // Offset: 0xFFFFFFFF
     T get_Value() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("LazyInject_1").WithContext("get_Value");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::LazyInject_1::get_Value");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Value", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
@@ -75,7 +75,7 @@ namespace Zenject {
     // Implemented from: Zenject.IValidatable
     // Base method: System.Void IValidatable::Validate()
     void Zenject_IValidatable_Validate() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("LazyInject_1").WithContext("Zenject.IValidatable.Validate");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::LazyInject_1::Zenject.IValidatable.Validate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Zenject.IValidatable.Validate", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }

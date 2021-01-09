@@ -142,7 +142,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentSizeFitter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("ContentSizeFitter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ContentSizeFitter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentSizeFitter*, creationType>()));
     }
     // protected override System.Void OnEnable()

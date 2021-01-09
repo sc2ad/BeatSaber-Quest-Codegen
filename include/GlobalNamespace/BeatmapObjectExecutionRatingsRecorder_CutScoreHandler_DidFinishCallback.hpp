@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A27590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("DidFinishCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler)

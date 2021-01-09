@@ -44,7 +44,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x16360A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HandleConstraint2D* New_ctor(int x, int y) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("HandleConstraint2D").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::HandleConstraint2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HandleConstraint2D*, creationType>(x, y)));
     }
     // public UnityEngine.ProBuilder.HandleConstraint2D Inverse()

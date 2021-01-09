@@ -19,7 +19,7 @@ namespace System::Collections::Generic {
     // public System.Int32 Compare(T x, T y)
     // Offset: 0xFFFFFFFF
     int Compare(T x, T y) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IComparer_1").WithContext("Compare");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IComparer_1::Compare");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Compare", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(x, y)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, x, y);
     }

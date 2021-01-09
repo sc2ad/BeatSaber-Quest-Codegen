@@ -64,7 +64,7 @@ namespace Zenject {
     // Base method: System.Void PoolableMemoryPoolProviderBase_1::.ctor(Zenject.DiContainer container, System.Guid poolId)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolableMemoryPoolProvider_5<TParam1, TParam2, TParam3, TContract, TMemoryPool>* New_ctor(Zenject::DiContainer* container, System::Guid poolId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PoolableMemoryPoolProvider_5").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPoolProvider_5::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolableMemoryPoolProvider_5<TParam1, TParam2, TParam3, TContract, TMemoryPool>*, creationType>(container, poolId)));
     }
     // public System.Void Validate()
@@ -72,7 +72,7 @@ namespace Zenject {
     // Implemented from: Zenject.IValidatable
     // Base method: System.Void IValidatable::Validate()
     void Validate() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PoolableMemoryPoolProvider_5").WithContext("Validate");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPoolProvider_5::Validate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Validate", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
@@ -86,7 +86,7 @@ namespace Zenject {
     // Implemented from: Zenject.PoolableMemoryPoolProviderBase`1
     // Base method: System.Void PoolableMemoryPoolProviderBase_1::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PoolableMemoryPoolProvider_5").WithContext("GetAllInstancesWithInjectSplit");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPoolProvider_5::GetAllInstancesWithInjectSplit");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(context, args, injectAction, buffer)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, context, args, injectAction, buffer);
     }

@@ -55,7 +55,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Offset: 0x1783DB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixedPointUtilities::FixedPointCallback* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* p) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Multiplier").WithContext("FixedPointCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixedPointUtilities::FixedPointCallback*, creationType>(p)));
     }
     // private System.Boolean CheckExisting(Org.BouncyCastle.Math.EC.Multiplier.FixedPointPreCompInfo existingFP, System.Int32 n)

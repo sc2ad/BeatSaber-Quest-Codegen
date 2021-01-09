@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream s)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PushbackStream* New_ctor(System::IO::Stream* s) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Utilities::IO").WithContext("PushbackStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::IO::PushbackStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PushbackStream*, creationType>(s)));
     }
     // public override System.Int32 ReadByte()

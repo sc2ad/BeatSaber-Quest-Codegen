@@ -155,7 +155,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AuthenticateDedicatedServerResponse* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("AuthenticateDedicatedServerResponse").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::AuthenticateDedicatedServerResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticateDedicatedServerResponse*, creationType>()));
     }
   }; // MasterServer.AuthenticateDedicatedServerResponse

@@ -316,7 +316,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRCameraRig* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OVRCameraRig").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRCameraRig::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRCameraRig*, creationType>()));
     }
   }; // OVRCameraRig

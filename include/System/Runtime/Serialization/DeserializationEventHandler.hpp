@@ -32,7 +32,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x133CF78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeserializationEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("DeserializationEventHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::DeserializationEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeserializationEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender)

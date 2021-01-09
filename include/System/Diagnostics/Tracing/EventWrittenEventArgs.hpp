@@ -103,7 +103,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12D17D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventWrittenEventArgs* New_ctor(System::Diagnostics::Tracing::EventSource* eventSource) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EventWrittenEventArgs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventWrittenEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventWrittenEventArgs*, creationType>(eventSource)));
     }
   }; // System.Diagnostics.Tracing.EventWrittenEventArgs

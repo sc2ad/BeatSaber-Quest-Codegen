@@ -43,7 +43,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x14215A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SupportsChildTracksAttribute* New_ctor(System::Type* childType, int levels) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("SupportsChildTracksAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::SupportsChildTracksAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SupportsChildTracksAttribute*, creationType>(childType, levels)));
     }
   }; // UnityEngine.Timeline.SupportsChildTracksAttribute

@@ -32,7 +32,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
     // Base method: System.Void ValueMatchFilter::.ctor(System.String assemblyName)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyNameFilter* New_ctor(::Il2CppString* assemblyName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestRunner::NUnitExtensions::Filters").WithContext("AssemblyNameFilter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyNameFilter*, creationType>(assemblyName)));
     }
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)

@@ -39,7 +39,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestFixture* New_ctor(NUnit::Framework::Interfaces::ITypeInfo* fixtureType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("TestFixture").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestFixture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestFixture*, creationType>(fixtureType)));
     }
   }; // NUnit.Framework.Internal.TestFixture

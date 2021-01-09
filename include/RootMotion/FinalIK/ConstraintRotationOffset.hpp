@@ -68,7 +68,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x174D8AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintRotationOffset* New_ctor(UnityEngine::Transform* transform) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("ConstraintRotationOffset").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::ConstraintRotationOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintRotationOffset*, creationType>(transform)));
     }
     // private System.Boolean get_rotationChanged()
@@ -86,7 +86,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintRotationOffset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("ConstraintRotationOffset").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::ConstraintRotationOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintRotationOffset*, creationType>()));
     }
   }; // RootMotion.FinalIK.ConstraintRotationOffset

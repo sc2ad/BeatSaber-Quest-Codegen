@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ImmediateRankUIPanel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ImmediateRankUIPanel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ImmediateRankUIPanel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ImmediateRankUIPanel*, creationType>()));
     }
   }; // ImmediateRankUIPanel

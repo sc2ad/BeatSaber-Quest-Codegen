@@ -71,7 +71,7 @@ namespace UnityEngine::UI {
     // Offset: 0x157122C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Scrollbar::$ClickRepeat$d__58* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("$ClickRepeat$d__58").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Scrollbar::$ClickRepeat$d__58*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

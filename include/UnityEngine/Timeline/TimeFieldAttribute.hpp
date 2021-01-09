@@ -83,7 +83,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x1421880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeFieldAttribute* New_ctor(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TimeFieldAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimeFieldAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeFieldAttribute*, creationType>(useEditMode)));
     }
   }; // UnityEngine.Timeline.TimeFieldAttribute

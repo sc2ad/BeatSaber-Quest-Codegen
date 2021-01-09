@@ -49,7 +49,7 @@ namespace System::Threading::Tasks {
     // Offset: 0x1D13EA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskSchedulerAwaitTaskContinuation* New_ctor(System::Threading::Tasks::TaskScheduler* scheduler, System::Action* action, bool flowExecutionContext, System::Threading::StackCrawlMark& stackMark) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("TaskSchedulerAwaitTaskContinuation").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskSchedulerAwaitTaskContinuation*, creationType>(scheduler, action, flowExecutionContext, stackMark)));
     }
     // override System.Void Run(System.Threading.Tasks.Task ignored, System.Boolean canInlineContinuationTask)

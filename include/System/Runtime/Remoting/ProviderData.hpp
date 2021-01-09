@@ -65,7 +65,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProviderData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting").WithContext("ProviderData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ProviderData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProviderData*, creationType>()));
     }
   }; // System.Runtime.Remoting.ProviderData

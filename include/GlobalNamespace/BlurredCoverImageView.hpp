@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BlurredCoverImageView* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BlurredCoverImageView").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BlurredCoverImageView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BlurredCoverImageView*, creationType>()));
     }
   }; // BlurredCoverImageView

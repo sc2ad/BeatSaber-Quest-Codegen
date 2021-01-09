@@ -34,7 +34,7 @@ namespace Mono::Net::Security {
     // Base method: System.Void AsyncProtocolRequest::.ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncHandshakeRequest* New_ctor(Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Net::Security").WithContext("AsyncHandshakeRequest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::AsyncHandshakeRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncHandshakeRequest*, creationType>(parent, sync)));
     }
     // protected override Mono.Net.Security.AsyncOperationStatus Run(Mono.Net.Security.AsyncOperationStatus status)

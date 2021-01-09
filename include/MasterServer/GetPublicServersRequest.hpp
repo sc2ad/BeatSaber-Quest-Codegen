@@ -128,7 +128,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GetPublicServersRequest* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("GetPublicServersRequest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::GetPublicServersRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GetPublicServersRequest*, creationType>()));
     }
   }; // MasterServer.GetPublicServersRequest

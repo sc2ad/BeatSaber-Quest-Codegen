@@ -45,7 +45,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EDF90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AspChildControlTypeAttribute* New_ctor(::Il2CppString* tagName, System::Type* controlType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("AspChildControlTypeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::AspChildControlTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AspChildControlTypeAttribute*, creationType>(tagName, controlType)));
     }
     // public System.String get_TagName()

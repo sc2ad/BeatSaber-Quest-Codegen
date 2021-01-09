@@ -49,7 +49,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x1465F64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainElementEnumerator* New_ctor(System::Collections::IEnumerable* enumerable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509ChainElementEnumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainElementEnumerator*, creationType>(enumerable)));
     }
     // public System.Security.Cryptography.X509Certificates.X509ChainElement get_Current()

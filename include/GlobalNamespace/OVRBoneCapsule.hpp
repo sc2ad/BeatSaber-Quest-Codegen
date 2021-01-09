@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Offset: 0x1068E8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRBoneCapsule* New_ctor(int16_t boneIndex, UnityEngine::Rigidbody* capsuleRigidBody, UnityEngine::CapsuleCollider* capsuleCollider) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OVRBoneCapsule").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRBoneCapsule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRBoneCapsule*, creationType>(boneIndex, capsuleRigidBody, capsuleCollider)));
     }
   }; // OVRBoneCapsule

@@ -83,7 +83,7 @@ namespace NUnit::Framework {
     // Offset: 0x13DA018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CombiningStrategyAttribute* New_ctor(NUnit::Framework::Interfaces::ICombiningStrategy* strategy, NUnit::Framework::Interfaces::IParameterDataProvider* provider) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework").WithContext("CombiningStrategyAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::CombiningStrategyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CombiningStrategyAttribute*, creationType>(strategy, provider)));
     }
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestMethod> BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)

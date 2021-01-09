@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Offset: 0x1E53118
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayersAtGameStartNetSerializable* New_ctor(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* playersAtGameStart) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("PlayersAtGameStartNetSerializable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayersAtGameStartNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayersAtGameStartNetSerializable*, creationType>(playersAtGameStart)));
     }
     // public System.Void .ctor()
@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayersAtGameStartNetSerializable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("PlayersAtGameStartNetSerializable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayersAtGameStartNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayersAtGameStartNetSerializable*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)

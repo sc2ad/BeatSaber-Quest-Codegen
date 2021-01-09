@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A4A0F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterMaterialSwitcher::RendererMaterialsPairs* New_ctor(UnityEngine::Renderer* renderer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RendererMaterialsPairs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterMaterialSwitcher::RendererMaterialsPairs*, creationType>(renderer)));
     }
   }; // BTSCharacterMaterialSwitcher/RendererMaterialsPairs

@@ -76,7 +76,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MD5CryptoServiceProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("MD5CryptoServiceProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::MD5CryptoServiceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MD5CryptoServiceProvider*, creationType>()));
     }
     // protected override System.Void Finalize()

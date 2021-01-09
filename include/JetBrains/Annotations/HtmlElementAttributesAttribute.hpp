@@ -35,7 +35,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HtmlElementAttributesAttribute* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("HtmlElementAttributesAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::HtmlElementAttributesAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HtmlElementAttributesAttribute*, creationType>(name)));
     }
     // public System.String get_Name()
@@ -51,7 +51,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HtmlElementAttributesAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("HtmlElementAttributesAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::HtmlElementAttributesAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HtmlElementAttributesAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.HtmlElementAttributesAttribute

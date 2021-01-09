@@ -33,7 +33,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x169F77C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSAPKCS1SignatureDescription* New_ctor(::Il2CppString* hashAlgorithm, ::Il2CppString* digestAlgorithm) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("RSAPKCS1SignatureDescription").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RSAPKCS1SignatureDescription::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RSAPKCS1SignatureDescription*, creationType>(hashAlgorithm, digestAlgorithm)));
     }
   }; // System.Security.Cryptography.RSAPKCS1SignatureDescription

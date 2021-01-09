@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0x149AFD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyGenerationParameters* New_ctor(Org::BouncyCastle::Security::SecureRandom* random, int strength) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto").WithContext("KeyGenerationParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::KeyGenerationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyGenerationParameters*, creationType>(random, strength)));
     }
     // public Org.BouncyCastle.Security.SecureRandom get_Random()

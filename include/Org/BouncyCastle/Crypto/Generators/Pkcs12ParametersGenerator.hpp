@@ -52,7 +52,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Offset: 0x1499108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Pkcs12ParametersGenerator* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Generators").WithContext("Pkcs12ParametersGenerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pkcs12ParametersGenerator*, creationType>(digest)));
     }
     // private System.Void Adjust(System.Byte[] a, System.Int32 aOff, System.Byte[] b)

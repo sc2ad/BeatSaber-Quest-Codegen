@@ -73,7 +73,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x119A70C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnixNetworkInterface* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("UnixNetworkInterface").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::UnixNetworkInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnixNetworkInterface*, creationType>(name)));
     }
     // System.Void AddAddress(System.Net.IPAddress address)

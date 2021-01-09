@@ -80,7 +80,7 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class T>
     bool IsPlayableOutputOfType() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Playables").WithContext("PlayableOutputHandle").WithContext("IsPlayableOutputOfType");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableOutputHandle::IsPlayableOutputOfType");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "IsPlayableOutputOfType", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);

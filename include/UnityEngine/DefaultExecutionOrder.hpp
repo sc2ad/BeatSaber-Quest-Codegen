@@ -35,7 +35,7 @@ namespace UnityEngine {
     // Offset: 0x1685528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultExecutionOrder* New_ctor(int order) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("DefaultExecutionOrder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::DefaultExecutionOrder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultExecutionOrder*, creationType>(order)));
     }
     // public System.Int32 get_order()

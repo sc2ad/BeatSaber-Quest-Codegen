@@ -98,7 +98,7 @@ namespace System {
     // Offset: 0x19D3E20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor(::Il2CppString* uri) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("UriBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(uri)));
     }
     // private System.Void Init(System.Uri uri)
@@ -108,14 +108,14 @@ namespace System {
     // Offset: 0x19D43D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor(::Il2CppString* schemeName, ::Il2CppString* hostName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("UriBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(schemeName, hostName)));
     }
     // public System.Void .ctor(System.String scheme, System.String host, System.Int32 portNumber)
     // Offset: 0x19D4780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor(::Il2CppString* scheme, ::Il2CppString* host, int portNumber) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("UriBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(scheme, host, portNumber)));
     }
     // public System.Void set_Host(System.String value)
@@ -145,7 +145,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("UriBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object rparam)

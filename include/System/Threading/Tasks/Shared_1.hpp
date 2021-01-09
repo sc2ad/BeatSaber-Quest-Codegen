@@ -25,7 +25,7 @@ namespace System::Threading::Tasks {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Shared_1<T>* New_ctor(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("Shared_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Shared_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Shared_1<T>*, creationType>(value)));
     }
   }; // System.Threading.Tasks.Shared`1

@@ -127,7 +127,7 @@ namespace System::Globalization {
     // Offset: 0x14294B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextInfo* New_ctor(System::Globalization::CultureData* cultureData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("TextInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::TextInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextInfo*, creationType>(cultureData)));
     }
     // private System.Void OnDeserializing(System.Runtime.Serialization.StreamingContext ctx)
@@ -248,7 +248,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("TextInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::TextInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextInfo*, creationType>()));
     }
   }; // System.Globalization.TextInfo

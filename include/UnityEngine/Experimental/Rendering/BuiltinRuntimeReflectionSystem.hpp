@@ -52,7 +52,7 @@ namespace UnityEngine::Experimental::Rendering {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BuiltinRuntimeReflectionSystem* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Experimental::Rendering").WithContext("BuiltinRuntimeReflectionSystem").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BuiltinRuntimeReflectionSystem*, creationType>()));
     }
   }; // UnityEngine.Experimental.Rendering.BuiltinRuntimeReflectionSystem

@@ -42,7 +42,7 @@ namespace Zenject {
     // Offset: 0x1293BA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposableManager::LateDisposableInfo* New_ctor(Zenject::ILateDisposable* lateDisposable, int priority) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("LateDisposableInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DisposableManager::LateDisposableInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisposableManager::LateDisposableInfo*, creationType>(lateDisposable, priority)));
     }
   }; // Zenject.DisposableManager/LateDisposableInfo

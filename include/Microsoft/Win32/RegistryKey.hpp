@@ -96,21 +96,21 @@ namespace Microsoft::Win32 {
     // Offset: 0x15158E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegistryKey* New_ctor(Microsoft::Win32::RegistryHive hiveId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Microsoft::Win32").WithContext("RegistryKey").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::RegistryKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegistryKey*, creationType>(hiveId)));
     }
     // System.Void .ctor(Microsoft.Win32.RegistryHive hiveId, System.IntPtr keyHandle, System.Boolean remoteRoot)
     // Offset: 0x1515A6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegistryKey* New_ctor(Microsoft::Win32::RegistryHive hiveId, System::IntPtr keyHandle, bool remoteRoot) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Microsoft::Win32").WithContext("RegistryKey").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::RegistryKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegistryKey*, creationType>(hiveId, keyHandle, remoteRoot)));
     }
     // System.Void .ctor(System.Object data, System.String keyName, System.Boolean writable)
     // Offset: 0x15127B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegistryKey* New_ctor(::Il2CppObject* data, ::Il2CppString* keyName, bool writable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Microsoft::Win32").WithContext("RegistryKey").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::RegistryKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegistryKey*, creationType>(data, keyName, writable)));
     }
     // static System.Boolean IsEquals(Microsoft.Win32.RegistryKey a, Microsoft.Win32.RegistryKey b)

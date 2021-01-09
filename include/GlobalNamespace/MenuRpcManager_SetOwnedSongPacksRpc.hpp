@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuRpcManager::SetOwnedSongPacksRpc* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SetOwnedSongPacksRpc").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MenuRpcManager::SetOwnedSongPacksRpc::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuRpcManager::SetOwnedSongPacksRpc*, creationType>()));
     }
   }; // MenuRpcManager/SetOwnedSongPacksRpc

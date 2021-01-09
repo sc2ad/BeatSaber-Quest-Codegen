@@ -182,7 +182,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PolyShape* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("PolyShape").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::PolyShape::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PolyShape*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.PolyShape

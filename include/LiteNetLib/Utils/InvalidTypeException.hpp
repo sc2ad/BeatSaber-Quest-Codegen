@@ -27,7 +27,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidTypeException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("InvalidTypeException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::InvalidTypeException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidTypeException*, creationType>(message)));
     }
   }; // LiteNetLib.Utils.InvalidTypeException

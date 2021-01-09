@@ -62,7 +62,7 @@ namespace UnityEngine::UI {
     // Offset: 0x11569D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Button::$OnFinishSubmit$d__9* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("$OnFinishSubmit$d__9").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Button::$OnFinishSubmit$d__9::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Button::$OnFinishSubmit$d__9*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

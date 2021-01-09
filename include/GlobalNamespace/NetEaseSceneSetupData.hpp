@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0xFD9EE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetEaseSceneSetupData* New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NetEaseSceneSetupData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetEaseSceneSetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetEaseSceneSetupData*, creationType>(nextScenesTransitionSetupData)));
     }
   }; // NetEaseSceneSetupData

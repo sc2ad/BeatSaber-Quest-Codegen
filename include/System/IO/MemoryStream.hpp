@@ -106,42 +106,42 @@ namespace System::IO {
     // Offset: 0x143E348
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryStream* New_ctor(int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("MemoryStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::MemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryStream*, creationType>(capacity)));
     }
     // public System.Void .ctor(System.Byte[] buffer)
     // Offset: 0x143E450
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryStream* New_ctor(::Array<uint8_t>* buffer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("MemoryStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::MemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryStream*, creationType>(buffer)));
     }
     // public System.Void .ctor(System.Byte[] buffer, System.Boolean writable)
     // Offset: 0x143E458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryStream* New_ctor(::Array<uint8_t>* buffer, bool writable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("MemoryStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::MemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryStream*, creationType>(buffer, writable)));
     }
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x143E560
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryStream* New_ctor(::Array<uint8_t>* buffer, int index, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("MemoryStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::MemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryStream*, creationType>(buffer, index, count)));
     }
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 index, System.Int32 count, System.Boolean writable)
     // Offset: 0x143E778
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryStream* New_ctor(::Array<uint8_t>* buffer, int index, int count, bool writable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("MemoryStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::MemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryStream*, creationType>(buffer, index, count, writable)));
     }
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 index, System.Int32 count, System.Boolean writable, System.Boolean publiclyVisible)
     // Offset: 0x143E56C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryStream* New_ctor(::Array<uint8_t>* buffer, int index, int count, bool writable, bool publiclyVisible) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("MemoryStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::MemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryStream*, creationType>(buffer, index, count, writable, publiclyVisible)));
     }
     // private System.Void EnsureWriteable()
@@ -185,7 +185,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryStream* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("MemoryStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::MemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryStream*, creationType>()));
     }
     // public override System.Boolean get_CanRead()

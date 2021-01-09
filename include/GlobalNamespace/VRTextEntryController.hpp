@@ -168,7 +168,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRTextEntryController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("VRTextEntryController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRTextEntryController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRTextEntryController*, creationType>()));
     }
   }; // VRTextEntryController

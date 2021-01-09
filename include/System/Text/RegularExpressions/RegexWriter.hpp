@@ -163,7 +163,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexWriter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text::RegularExpressions").WithContext("RegexWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexWriter*, creationType>()));
     }
   }; // System.Text.RegularExpressions.RegexWriter

@@ -99,7 +99,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusDeeplinkManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OculusDeeplinkManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusDeeplinkManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusDeeplinkManager*, creationType>()));
     }
   }; // OculusDeeplinkManager

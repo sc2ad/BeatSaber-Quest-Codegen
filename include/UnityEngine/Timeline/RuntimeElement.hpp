@@ -72,7 +72,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeElement* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("RuntimeElement").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::RuntimeElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeElement*, creationType>()));
     }
   }; // UnityEngine.Timeline.RuntimeElement

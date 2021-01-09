@@ -113,21 +113,21 @@ namespace System::Runtime::Remoting::Proxies {
     // Offset: 0x133295C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RealProxy* New_ctor(System::Type* classToProxy) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Proxies").WithContext("RealProxy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Proxies::RealProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RealProxy*, creationType>(classToProxy)));
     }
     // System.Void .ctor(System.Type classToProxy, System.Runtime.Remoting.ClientIdentity identity)
     // Offset: 0x1332ACC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RealProxy* New_ctor(System::Type* classToProxy, System::Runtime::Remoting::ClientIdentity* identity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Proxies").WithContext("RealProxy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Proxies::RealProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RealProxy*, creationType>(classToProxy, identity)));
     }
     // protected System.Void .ctor(System.Type classToProxy, System.IntPtr stub, System.Object stubData)
     // Offset: 0x13329B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RealProxy* New_ctor(System::Type* classToProxy, System::IntPtr stub, ::Il2CppObject* stubData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Proxies").WithContext("RealProxy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Proxies::RealProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RealProxy*, creationType>(classToProxy, stub, stubData)));
     }
     // static private System.Type InternalGetProxyType(System.Object transparentProxy)
@@ -175,7 +175,7 @@ namespace System::Runtime::Remoting::Proxies {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RealProxy* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Proxies").WithContext("RealProxy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Proxies::RealProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RealProxy*, creationType>()));
     }
   }; // System.Runtime.Remoting.Proxies.RealProxy

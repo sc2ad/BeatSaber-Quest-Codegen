@@ -47,7 +47,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventProvider::$$c__DisplayClass44_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("$$c__DisplayClass44_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventProvider::$$c__DisplayClass44_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventProvider::$$c__DisplayClass44_0*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.EventProvider/<>c__DisplayClass44_0

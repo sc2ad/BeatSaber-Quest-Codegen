@@ -45,7 +45,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Offset: 0x158511C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHPublicKey* New_ctor(Org::BouncyCastle::Asn1::DerInteger* y) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X9").WithContext("DHPublicKey").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::DHPublicKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHPublicKey*, creationType>(y)));
     }
     // public Org.BouncyCastle.Asn1.DerInteger get_Y()

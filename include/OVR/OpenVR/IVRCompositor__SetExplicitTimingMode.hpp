@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x185E474
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_SetExplicitTimingMode* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_SetExplicitTimingMode").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_SetExplicitTimingMode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_SetExplicitTimingMode*, creationType>(object, method)));
     }
     // public System.Void Invoke(OVR.OpenVR.EVRCompositorTimingMode eTimingMode)

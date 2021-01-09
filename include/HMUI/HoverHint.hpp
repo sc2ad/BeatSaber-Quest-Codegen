@@ -104,7 +104,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverHint* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("HoverHint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::HoverHint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverHint*, creationType>()));
     }
   }; // HMUI.HoverHint

@@ -35,7 +35,7 @@ namespace Mono::Unity {
     // Offset: 0x12734D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTls::unitytls_tlsctx_trace_callback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Unity").WithContext("unitytls_tlsctx_trace_callback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Unity::UnityTls::unitytls_tlsctx_trace_callback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTls::unitytls_tlsctx_trace_callback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Void* userData, Mono.Unity.UnityTls/unitytls_tlsctx* ctx, System.Byte* traceMessage, System.IntPtr traceMessageLen)

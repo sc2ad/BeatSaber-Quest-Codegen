@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x190F770
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_ApplyTransform* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_ApplyTransform").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_ApplyTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_ApplyTransform*, creationType>(object, method)));
     }
     // public System.Void Invoke(ref OVR.OpenVR.TrackedDevicePose_t pOutputPose, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose, ref OVR.OpenVR.HmdMatrix34_t pTransform)

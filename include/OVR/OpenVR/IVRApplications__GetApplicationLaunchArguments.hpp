@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F9B48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRApplications::_GetApplicationLaunchArguments* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetApplicationLaunchArguments").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRApplications::_GetApplicationLaunchArguments::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRApplications::_GetApplicationLaunchArguments*, creationType>(object, method)));
     }
     // public System.UInt32 Invoke(System.UInt32 unHandle, System.Text.StringBuilder pchArgs, System.UInt32 unArgs)

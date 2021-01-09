@@ -41,42 +41,42 @@ namespace UnityEngine {
     // Offset: 0x16C5168
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture2DArray* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture2DArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture2DArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture2DArray*, creationType>(width, height, depth, format, flags)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
     // Offset: 0x16C51F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture2DArray* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture2DArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture2DArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture2DArray*, creationType>(width, height, depth, format, flags)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags, System.Int32 mipCount)
     // Offset: 0x16C52A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture2DArray* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int mipCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture2DArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture2DArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture2DArray*, creationType>(width, height, depth, format, flags, mipCount)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.TextureFormat textureFormat, System.Int32 mipCount, System.Boolean linear)
     // Offset: 0x16C5380
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture2DArray* New_ctor(int width, int height, int depth, UnityEngine::TextureFormat textureFormat, int mipCount, bool linear) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture2DArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture2DArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture2DArray*, creationType>(width, height, depth, textureFormat, mipCount, linear)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain, System.Boolean linear)
     // Offset: 0x16C5490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture2DArray* New_ctor(int width, int height, int depth, UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture2DArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture2DArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture2DArray*, creationType>(width, height, depth, textureFormat, mipChain, linear)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain)
     // Offset: 0x16C54B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture2DArray* New_ctor(int width, int height, int depth, UnityEngine::TextureFormat textureFormat, bool mipChain) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture2DArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture2DArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture2DArray*, creationType>(width, height, depth, textureFormat, mipChain)));
     }
     // public override System.Boolean get_isReadable()

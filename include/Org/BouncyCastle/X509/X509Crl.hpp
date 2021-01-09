@@ -87,7 +87,7 @@ namespace Org::BouncyCastle::X509 {
     // Offset: 0x18C3238
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Crl* New_ctor(Org::BouncyCastle::Asn1::X509::CertificateList* c) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::X509").WithContext("X509Crl").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::X509Crl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Crl*, creationType>(c)));
     }
     // public System.Int32 get_Version()

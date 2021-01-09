@@ -121,7 +121,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoTransitionsButton* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("NoTransitionsButton").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::NoTransitionsButton::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionsButton*, creationType>()));
     }
   }; // HMUI.NoTransitionsButton

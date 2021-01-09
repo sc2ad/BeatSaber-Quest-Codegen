@@ -44,7 +44,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0xCA0BEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     PreviousInfo(bool dummy) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Globalization::Unicode").WithContext("PreviousInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::SimpleCollator::PreviousInfo::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(dummy)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, dummy);
     }

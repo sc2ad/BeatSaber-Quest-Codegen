@@ -46,7 +46,7 @@ namespace Zenject {
     // System.Void <OnInstantiated>b__0(Zenject.InjectContext ctx, System.Object obj)
     // Offset: 0xFFFFFFFF
     void $OnInstantiated$b__0(Zenject::InjectContext* ctx, ::Il2CppObject* obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass2_0_1").WithContext("<OnInstantiated>b__0");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InstantiateCallbackConditionCopyNonLazyBinder::$$c__DisplayClass2_0_1::<OnInstantiated>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<OnInstantiated>b__0", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(ctx, obj))));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, ctx, obj);
     }
@@ -56,7 +56,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstantiateCallbackConditionCopyNonLazyBinder::$$c__DisplayClass2_0_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass2_0_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InstantiateCallbackConditionCopyNonLazyBinder::$$c__DisplayClass2_0_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstantiateCallbackConditionCopyNonLazyBinder::$$c__DisplayClass2_0_1<T>*, creationType>()));
     }
   }; // Zenject.InstantiateCallbackConditionCopyNonLazyBinder/<>c__DisplayClass2_0`1

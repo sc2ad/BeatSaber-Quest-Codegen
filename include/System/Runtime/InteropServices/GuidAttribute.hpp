@@ -35,7 +35,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1164FC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuidAttribute* New_ctor(::Il2CppString* guid) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("GuidAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::GuidAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuidAttribute*, creationType>(guid)));
     }
   }; // System.Runtime.InteropServices.GuidAttribute

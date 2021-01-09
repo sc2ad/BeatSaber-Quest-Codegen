@@ -235,7 +235,7 @@ namespace UnityEngine::Rendering {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CommandBuffer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Rendering").WithContext("CommandBuffer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::CommandBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CommandBuffer*, creationType>()));
     }
   }; // UnityEngine.Rendering.CommandBuffer

@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A48C60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarVisualController::HighlighterDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("HighlighterDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarVisualController::HighlighterDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarVisualController::HighlighterDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Boolean highlighted, System.Int32 uvSegmentNumber)

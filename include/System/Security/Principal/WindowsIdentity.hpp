@@ -100,14 +100,14 @@ namespace System::Security::Principal {
     // Offset: 0x1281FDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WindowsIdentity* New_ctor(System::IntPtr userToken, ::Il2CppString* type, System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Principal").WithContext("WindowsIdentity").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Principal::WindowsIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WindowsIdentity*, creationType>(userToken, type, acctType, isAuthenticated)));
     }
     // System.Void .ctor(System.Security.Claims.ClaimsIdentity claimsIdentity, System.IntPtr userToken)
     // Offset: 0x12821DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WindowsIdentity* New_ctor(System::Security::Claims::ClaimsIdentity* claimsIdentity, System::IntPtr userToken) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Principal").WithContext("WindowsIdentity").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Principal::WindowsIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WindowsIdentity*, creationType>(claimsIdentity, userToken)));
     }
     // static public System.Security.Principal.WindowsIdentity GetCurrent()
@@ -140,7 +140,7 @@ namespace System::Security::Principal {
     // Base method: System.Void ClaimsIdentity::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WindowsIdentity* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Principal").WithContext("WindowsIdentity").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Principal::WindowsIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WindowsIdentity*, creationType>(info, context)));
     }
     // public System.Void Dispose()

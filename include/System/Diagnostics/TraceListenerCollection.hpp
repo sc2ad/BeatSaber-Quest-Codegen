@@ -65,7 +65,7 @@ namespace System::Diagnostics {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceListenerCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("TraceListenerCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::TraceListenerCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceListenerCollection*, creationType>()));
     }
     // public System.Int32 get_Count()

@@ -35,7 +35,7 @@ namespace UnityEngine {
     // Offset: 0x168D7D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HelpURLAttribute* New_ctor(::Il2CppString* url) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("HelpURLAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::HelpURLAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HelpURLAttribute*, creationType>(url)));
     }
   }; // UnityEngine.HelpURLAttribute

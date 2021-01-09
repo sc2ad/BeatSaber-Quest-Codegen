@@ -291,7 +291,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalThread* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("InternalThread").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::InternalThread::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalThread*, creationType>()));
     }
   }; // System.Threading.InternalThread

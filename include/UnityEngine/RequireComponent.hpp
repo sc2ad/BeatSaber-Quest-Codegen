@@ -50,14 +50,14 @@ namespace UnityEngine {
     // Offset: 0x16BE9C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RequireComponent* New_ctor(System::Type* requiredComponent) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RequireComponent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RequireComponent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RequireComponent*, creationType>(requiredComponent)));
     }
     // public System.Void .ctor(System.Type requiredComponent, System.Type requiredComponent2)
     // Offset: 0x16BE9F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RequireComponent* New_ctor(System::Type* requiredComponent, System::Type* requiredComponent2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RequireComponent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RequireComponent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RequireComponent*, creationType>(requiredComponent, requiredComponent2)));
     }
   }; // UnityEngine.RequireComponent

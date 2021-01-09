@@ -229,7 +229,7 @@ namespace System::Resources {
     // Offset: 0x15D63D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManager* New_ctor(::Il2CppString* baseName, System::Reflection::Assembly* assembly) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("ResourceManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManager*, creationType>(baseName, assembly)));
     }
     // private System.Void OnDeserializing(System.Runtime.Serialization.StreamingContext ctx)
@@ -289,7 +289,7 @@ namespace System::Resources {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("ResourceManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManager*, creationType>()));
     }
   }; // System.Resources.ResourceManager

@@ -34,7 +34,7 @@ namespace System::Net {
     // Offset: 0x131FDE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpDataStream::WriteDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("WriteDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpDataStream::WriteDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpDataStream::WriteDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Byte[] buffer, System.Int32 offset, System.Int32 size)

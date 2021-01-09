@@ -87,7 +87,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x116E95C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Identity* New_ctor(::Il2CppString* objectUri) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting").WithContext("Identity").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Identity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Identity*, creationType>(objectUri)));
     }
     // public System.Runtime.Remoting.ObjRef CreateObjRef(System.Type requestedType)

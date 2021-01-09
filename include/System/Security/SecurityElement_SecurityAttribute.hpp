@@ -35,7 +35,7 @@ namespace System::Security {
     // Offset: 0x1284E28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityElement::SecurityAttribute* New_ctor(::Il2CppString* name, ::Il2CppString* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security").WithContext("SecurityAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityElement::SecurityAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityElement::SecurityAttribute*, creationType>(name, value)));
     }
     // public System.String get_Name()

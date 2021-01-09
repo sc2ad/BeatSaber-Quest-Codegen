@@ -163,7 +163,7 @@ namespace System::Net {
     // Offset: 0x12B002C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerRequest* New_ctor(System::Net::HttpListenerContext* context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("HttpListenerRequest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerRequest*, creationType>(context)));
     }
     // System.Void SetRequestLine(System.String req)

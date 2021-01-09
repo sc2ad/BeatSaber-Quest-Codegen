@@ -44,7 +44,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SelectionCaret* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMP_SelectionCaret").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_SelectionCaret::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SelectionCaret*, creationType>()));
     }
   }; // TMPro.TMP_SelectionCaret

@@ -43,7 +43,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed25519Signer::Buffer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Signers").WithContext("Buffer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed25519Signer::Buffer*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Signers.Ed25519Signer/Buffer

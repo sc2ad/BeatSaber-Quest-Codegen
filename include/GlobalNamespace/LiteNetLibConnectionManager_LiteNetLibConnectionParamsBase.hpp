@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LiteNetLibConnectionParamsBase").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase*, creationType>()));
     }
   }; // LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase

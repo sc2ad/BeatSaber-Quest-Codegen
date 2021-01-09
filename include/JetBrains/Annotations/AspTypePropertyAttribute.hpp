@@ -41,7 +41,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AspTypePropertyAttribute* New_ctor(bool createConstructorReferences) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("AspTypePropertyAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::AspTypePropertyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AspTypePropertyAttribute*, creationType>(createConstructorReferences)));
     }
   }; // JetBrains.Annotations.AspTypePropertyAttribute

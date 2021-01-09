@@ -50,7 +50,7 @@ namespace System::Net::Sockets {
     // Offset: 0x1213E18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketException* New_ctor(System::Net::Sockets::SocketError socketError) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Sockets").WithContext("SocketException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::SocketException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketException*, creationType>(socketError)));
     }
     // public System.Net.Sockets.SocketError get_SocketErrorCode()
@@ -66,7 +66,7 @@ namespace System::Net::Sockets {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Sockets").WithContext("SocketException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::SocketException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketException*, creationType>()));
     }
     // System.Void .ctor(System.Int32 error, System.String message)
@@ -75,7 +75,7 @@ namespace System::Net::Sockets {
     // Base method: System.Void Win32Exception::.ctor(System.Int32 error, System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketException* New_ctor(int error, ::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Sockets").WithContext("SocketException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::SocketException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketException*, creationType>(error, message)));
     }
     // public System.Void .ctor(System.Int32 errorCode)
@@ -84,7 +84,7 @@ namespace System::Net::Sockets {
     // Base method: System.Void Win32Exception::.ctor(System.Int32 errorCode)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketException* New_ctor(int errorCode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Sockets").WithContext("SocketException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::SocketException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketException*, creationType>(errorCode)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
@@ -96,7 +96,7 @@ namespace System::Net::Sockets {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketException* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Sockets").WithContext("SocketException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::SocketException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketException*, creationType>(serializationInfo, streamingContext)));
     }
     // public override System.String get_Message()

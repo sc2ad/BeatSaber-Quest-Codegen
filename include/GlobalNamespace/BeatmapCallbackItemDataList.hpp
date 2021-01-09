@@ -152,7 +152,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A78F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbackItemDataList* New_ctor(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback* spawnBasicNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback* spawnBombNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback* spawnObstacleCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processEarlyBeatmapEventCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processLateBeatmapEventCallback, System::Action* earlyEventsWereProcessedCallback, GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* getRelativeNoteOffsetCallback) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BeatmapCallbackItemDataList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapCallbackItemDataList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbackItemDataList*, creationType>(spawnBasicNoteCallback, spawnBombNoteCallback, spawnObstacleCallback, processEarlyBeatmapEventCallback, processLateBeatmapEventCallback, earlyEventsWereProcessedCallback, getRelativeNoteOffsetCallback)));
     }
     // public System.Void InsertBeatmapObjectData(BeatmapObjectData beatmapObjectData)

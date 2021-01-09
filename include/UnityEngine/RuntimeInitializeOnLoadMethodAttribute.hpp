@@ -37,7 +37,7 @@ namespace UnityEngine {
     // Offset: 0x16BEED0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeInitializeOnLoadMethodAttribute* New_ctor(UnityEngine::RuntimeInitializeLoadType loadType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RuntimeInitializeOnLoadMethodAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RuntimeInitializeOnLoadMethodAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeInitializeOnLoadMethodAttribute*, creationType>(loadType)));
     }
     // private System.Void set_loadType(UnityEngine.RuntimeInitializeLoadType value)
@@ -51,7 +51,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeInitializeOnLoadMethodAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RuntimeInitializeOnLoadMethodAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RuntimeInitializeOnLoadMethodAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeInitializeOnLoadMethodAttribute*, creationType>()));
     }
   }; // UnityEngine.RuntimeInitializeOnLoadMethodAttribute

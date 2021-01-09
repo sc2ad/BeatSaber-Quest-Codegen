@@ -62,7 +62,7 @@ namespace System::Resources {
     // Offset: 0x15D2DB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBasedResourceGroveler* New_ctor(System::Resources::ResourceManager::ResourceManagerMediator* mediator) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("FileBasedResourceGroveler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::FileBasedResourceGroveler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileBasedResourceGroveler*, creationType>(mediator)));
     }
     // private System.String FindResourceFile(System.Globalization.CultureInfo culture, System.String fileName)

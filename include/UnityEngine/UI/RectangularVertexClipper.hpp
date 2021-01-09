@@ -51,7 +51,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RectangularVertexClipper* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("RectangularVertexClipper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::RectangularVertexClipper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectangularVertexClipper*, creationType>()));
     }
   }; // UnityEngine.UI.RectangularVertexClipper

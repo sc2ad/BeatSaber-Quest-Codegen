@@ -125,63 +125,63 @@ namespace System::IO {
     // Offset: 0x13AA720
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamWriter* New_ctor(System::IO::Stream* stream) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamWriter*, creationType>(stream)));
     }
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)
     // Offset: 0x13AA94C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamWriter* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamWriter*, creationType>(stream, encoding)));
     }
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding, System.Int32 bufferSize)
     // Offset: 0x13AA958
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamWriter* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding, int bufferSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamWriter*, creationType>(stream, encoding, bufferSize)));
     }
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding, System.Int32 bufferSize, System.Boolean leaveOpen)
     // Offset: 0x13AA7A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamWriter* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding, int bufferSize, bool leaveOpen) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamWriter*, creationType>(stream, encoding, bufferSize, leaveOpen)));
     }
     // public System.Void .ctor(System.String path)
     // Offset: 0x13AAADC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamWriter* New_ctor(::Il2CppString* path) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamWriter*, creationType>(path)));
     }
     // public System.Void .ctor(System.String path, System.Boolean append)
     // Offset: 0x13AAB70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamWriter* New_ctor(::Il2CppString* path, bool append) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamWriter*, creationType>(path, append)));
     }
     // public System.Void .ctor(System.String path, System.Boolean append, System.Text.Encoding encoding)
     // Offset: 0x13AABFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamWriter* New_ctor(::Il2CppString* path, bool append, System::Text::Encoding* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamWriter*, creationType>(path, append, encoding)));
     }
     // public System.Void .ctor(System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize)
     // Offset: 0x13AAB64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamWriter* New_ctor(::Il2CppString* path, bool append, System::Text::Encoding* encoding, int bufferSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamWriter*, creationType>(path, append, encoding, bufferSize)));
     }
     // System.Void .ctor(System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize, System.Boolean checkHost)
     // Offset: 0x13AAC0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamWriter* New_ctor(::Il2CppString* path, bool append, System::Text::Encoding* encoding, int bufferSize, bool checkHost) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamWriter*, creationType>(path, append, encoding, bufferSize, checkHost)));
     }
     // private System.Void Init(System.IO.Stream streamArg, System.Text.Encoding encodingArg, System.Int32 bufferSize, System.Boolean shouldLeaveOpen)
@@ -207,7 +207,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamWriter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamWriter*, creationType>()));
     }
     // public override System.Void Close()

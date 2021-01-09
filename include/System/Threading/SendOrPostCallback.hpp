@@ -32,7 +32,7 @@ namespace System::Threading {
     // Offset: 0x1D0C700
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SendOrPostCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SendOrPostCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SendOrPostCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SendOrPostCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object state)

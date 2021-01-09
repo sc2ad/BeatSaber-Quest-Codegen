@@ -212,7 +212,7 @@ namespace UnityEngine::TestTools::Logging {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LogScope* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::Logging").WithContext("LogScope").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Logging::LogScope::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LogScope*, creationType>()));
     }
     // public System.Void Dispose()

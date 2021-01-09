@@ -42,7 +42,7 @@ namespace System::Diagnostics {
     // Offset: 0x16778F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DebuggerTypeProxyAttribute* New_ctor(System::Type* type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("DebuggerTypeProxyAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::DebuggerTypeProxyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DebuggerTypeProxyAttribute*, creationType>(type)));
     }
   }; // System.Diagnostics.DebuggerTypeProxyAttribute

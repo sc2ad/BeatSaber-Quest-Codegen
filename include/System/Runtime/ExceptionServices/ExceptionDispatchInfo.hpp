@@ -40,7 +40,7 @@ namespace System::Runtime::ExceptionServices {
     // Offset: 0x1163F74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExceptionDispatchInfo* New_ctor(System::Exception* exception) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::ExceptionServices").WithContext("ExceptionDispatchInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::ExceptionServices::ExceptionDispatchInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExceptionDispatchInfo*, creationType>(exception)));
     }
     // System.Object get_BinaryStackTraceArray()

@@ -63,7 +63,7 @@ namespace System {
     // Offset: 0xCA4018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     UIntPtr(uint64_t value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("UIntPtr").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::UIntPtr::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
@@ -71,7 +71,7 @@ namespace System {
     // Offset: 0xCA4020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     UIntPtr(uint value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("UIntPtr").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::UIntPtr::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }

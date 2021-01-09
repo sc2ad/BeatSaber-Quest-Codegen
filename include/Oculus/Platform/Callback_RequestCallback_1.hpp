@@ -41,7 +41,7 @@ namespace Oculus::Platform {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Callback::RequestCallback_1<T>* New_ctor(typename Oculus::Platform::Message_1<T>::Callback* callback) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("RequestCallback_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Callback::RequestCallback_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Callback::RequestCallback_1<T>*, creationType>(callback)));
     }
     // public override System.Void HandleMessage(Oculus.Platform.Message msg)
@@ -49,7 +49,7 @@ namespace Oculus::Platform {
     // Implemented from: Oculus.Platform.Callback/RequestCallback
     // Base method: System.Void RequestCallback::HandleMessage(Oculus.Platform.Message msg)
     void HandleMessage(Oculus::Platform::Message* msg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("RequestCallback_1").WithContext("HandleMessage");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Callback::RequestCallback_1::HandleMessage");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "HandleMessage", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(msg)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, msg);
     }

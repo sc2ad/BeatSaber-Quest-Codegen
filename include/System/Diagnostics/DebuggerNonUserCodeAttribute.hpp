@@ -28,7 +28,7 @@ namespace System::Diagnostics {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DebuggerNonUserCodeAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("DebuggerNonUserCodeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::DebuggerNonUserCodeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DebuggerNonUserCodeAttribute*, creationType>()));
     }
   }; // System.Diagnostics.DebuggerNonUserCodeAttribute

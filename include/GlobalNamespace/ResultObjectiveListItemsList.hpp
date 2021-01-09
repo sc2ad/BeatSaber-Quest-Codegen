@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultObjectiveListItemsList* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ResultObjectiveListItemsList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ResultObjectiveListItemsList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultObjectiveListItemsList*, creationType>()));
     }
   }; // ResultObjectiveListItemsList

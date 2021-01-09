@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A83B40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelData* New_ctor(UnityEngine::AudioClip* audioClip, ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BeatmapLevelData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelData*, creationType>(audioClip, difficultyBeatmapSets)));
     }
     // public UnityEngine.AudioClip get_audioClip()

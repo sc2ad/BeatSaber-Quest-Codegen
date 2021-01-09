@@ -36,7 +36,7 @@ namespace UnityEngine {
     // Offset: 0x1738104
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeAttribute* New_ctor(float min, float max) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RangeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RangeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeAttribute*, creationType>(min, max)));
     }
   }; // UnityEngine.RangeAttribute

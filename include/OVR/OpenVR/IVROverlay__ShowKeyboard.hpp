@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1902228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_ShowKeyboard* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_ShowKeyboard").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVROverlay::_ShowKeyboard::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_ShowKeyboard*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVROverlayError Invoke(System.Int32 eInputMode, System.Int32 eLineInputMode, System.String pchDescription, System.UInt32 unCharMax, System.String pchExistingText, System.Boolean bUseMinimalMode, System.UInt64 uUserValue)

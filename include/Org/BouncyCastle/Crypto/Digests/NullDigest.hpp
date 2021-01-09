@@ -81,7 +81,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullDigest* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Digests").WithContext("NullDigest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::NullDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullDigest*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Digests.NullDigest

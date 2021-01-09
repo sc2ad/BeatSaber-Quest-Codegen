@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Offset: 0xF4912C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StubMatchmakingServer* New_ctor(GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("StubMatchmakingServer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StubMatchmakingServer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StubMatchmakingServer*, creationType>(unifiedNetworkPlayerModel, configuration, secret)));
     }
     // public System.String get_userId()

@@ -88,14 +88,14 @@ namespace GlobalNamespace {
     // Offset: 0x102D248
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DrawIfAttribute* New_ctor(::Il2CppString* propertyName, ::Il2CppObject* value, GlobalNamespace::DrawIfAttribute::DisablingType disablingType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("DrawIfAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DrawIfAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DrawIfAttribute*, creationType>(propertyName, value, disablingType)));
     }
     // public System.Void .ctor(System.String propertyName, System.Object value, System.Object orValue, DrawIfAttribute/DisablingType disablingType)
     // Offset: 0x102D2A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DrawIfAttribute* New_ctor(::Il2CppString* propertyName, ::Il2CppObject* value, ::Il2CppObject* orValue, GlobalNamespace::DrawIfAttribute::DisablingType disablingType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("DrawIfAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DrawIfAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DrawIfAttribute*, creationType>(propertyName, value, orValue, disablingType)));
     }
   }; // DrawIfAttribute

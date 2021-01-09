@@ -112,7 +112,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x112113C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceLoggingEventTypes* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags, ::Array<System::Type*>* types) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("TraceLoggingEventTypes").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::TraceLoggingEventTypes::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceLoggingEventTypes*, creationType>(name, tags, types)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, params System.Type[] types)
@@ -129,14 +129,14 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x1121528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceLoggingEventTypes* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags, ::Array<System::Reflection::ParameterInfo*>* paramInfos) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("TraceLoggingEventTypes").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::TraceLoggingEventTypes::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceLoggingEventTypes*, creationType>(name, tags, paramInfos)));
     }
     // private System.Void .ctor(System.Diagnostics.Tracing.EventTags tags, System.String defaultName, System.Diagnostics.Tracing.TraceLoggingTypeInfo[] typeInfos)
     // Offset: 0x1121328
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceLoggingEventTypes* New_ctor(System::Diagnostics::Tracing::EventTags tags, ::Il2CppString* defaultName, ::Array<System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* typeInfos) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("TraceLoggingEventTypes").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::TraceLoggingEventTypes::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceLoggingEventTypes*, creationType>(tags, defaultName, typeInfos)));
     }
     // System.String get_Name()

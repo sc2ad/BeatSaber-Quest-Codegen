@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0x158D8C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsymmetricCipherKeyPair* New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter, Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto").WithContext("AsymmetricCipherKeyPair").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsymmetricCipherKeyPair*, creationType>(publicParameter, privateParameter)));
     }
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter get_Public()

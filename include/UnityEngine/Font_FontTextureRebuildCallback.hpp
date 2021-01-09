@@ -34,7 +34,7 @@ namespace UnityEngine {
     // Offset: 0x19F75E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Font::FontTextureRebuildCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("FontTextureRebuildCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Font::FontTextureRebuildCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Font::FontTextureRebuildCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke()

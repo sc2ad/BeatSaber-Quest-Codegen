@@ -459,14 +459,14 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12CDAAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventSource* New_ctor(System::Diagnostics::Tracing::EventSourceSettings settings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EventSource").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventSource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventSource*, creationType>(settings)));
     }
     // protected System.Void .ctor(System.Diagnostics.Tracing.EventSourceSettings settings, params System.String[] traits)
     // Offset: 0x12CDAB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventSource* New_ctor(System::Diagnostics::Tracing::EventSourceSettings settings, ::Array<::Il2CppString*>* traits) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EventSource").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventSource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventSource*, creationType>(settings, traits)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.Diagnostics.Tracing.EventSourceSettings settings, params System.String[] traits)
@@ -675,7 +675,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventSource* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EventSource").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventSource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventSource*, creationType>()));
     }
     // public System.Void Dispose()

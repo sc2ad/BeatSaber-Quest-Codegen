@@ -35,7 +35,7 @@ namespace System::Reflection {
     // Offset: 0x15CB550
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TargetInvocationException* New_ctor(System::Exception* inner) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("TargetInvocationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::TargetInvocationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TargetInvocationException*, creationType>(inner)));
     }
     // private System.Void .ctor()
@@ -46,7 +46,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TargetInvocationException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("TargetInvocationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::TargetInvocationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TargetInvocationException*, creationType>()));
     }
     // public System.Void .ctor(System.String message, System.Exception inner)
@@ -56,7 +56,7 @@ namespace System::Reflection {
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TargetInvocationException* New_ctor(::Il2CppString* message, System::Exception* inner) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("TargetInvocationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::TargetInvocationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TargetInvocationException*, creationType>(message, inner)));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -66,7 +66,7 @@ namespace System::Reflection {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TargetInvocationException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("TargetInvocationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::TargetInvocationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TargetInvocationException*, creationType>(info, context)));
     }
   }; // System.Reflection.TargetInvocationException

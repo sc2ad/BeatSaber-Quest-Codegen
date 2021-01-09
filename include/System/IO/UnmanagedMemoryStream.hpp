@@ -106,14 +106,14 @@ namespace System::IO {
     // Offset: 0x13AF15C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnmanagedMemoryStream* New_ctor(uint8_t* pointer, int64_t length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("UnmanagedMemoryStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::UnmanagedMemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnmanagedMemoryStream*, creationType>(pointer, length)));
     }
     // System.Void .ctor(System.Byte* pointer, System.Int64 length, System.Int64 capacity, System.IO.FileAccess access, System.Boolean skipSecurityCheck)
     // Offset: 0x13AF1F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnmanagedMemoryStream* New_ctor(uint8_t* pointer, int64_t length, int64_t capacity, System::IO::FileAccess access, bool skipSecurityCheck) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("UnmanagedMemoryStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::UnmanagedMemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnmanagedMemoryStream*, creationType>(pointer, length, capacity, access, skipSecurityCheck)));
     }
     // System.Void Initialize(System.Byte* pointer, System.Int64 length, System.Int64 capacity, System.IO.FileAccess access, System.Boolean skipSecurityCheck)
@@ -130,7 +130,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnmanagedMemoryStream* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("UnmanagedMemoryStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::UnmanagedMemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnmanagedMemoryStream*, creationType>()));
     }
     // public override System.Boolean get_CanRead()

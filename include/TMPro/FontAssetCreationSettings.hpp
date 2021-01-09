@@ -128,7 +128,7 @@ namespace TMPro {
     // Offset: 0xC929B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     FontAssetCreationSettings(::Il2CppString* sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, ::Il2CppString* characterSet, int renderMode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("FontAssetCreationSettings").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::FontAssetCreationSettings::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(sourceFontFileGUID, pointSize, pointSizeSamplingMode, padding, packingMode, atlasWidth, atlasHeight, characterSelectionMode, characterSet, renderMode)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, sourceFontFileGUID, pointSize, pointSizeSamplingMode, padding, packingMode, atlasWidth, atlasHeight, characterSelectionMode, characterSet, renderMode);
     }

@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelInfoSaveData::VersionCheck* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("VersionCheck").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelInfoSaveData::VersionCheck::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelInfoSaveData::VersionCheck*, creationType>()));
     }
   }; // StandardLevelInfoSaveData/VersionCheck

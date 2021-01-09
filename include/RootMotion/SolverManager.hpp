@@ -123,7 +123,7 @@ namespace RootMotion {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SolverManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion").WithContext("SolverManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::SolverManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SolverManager*, creationType>()));
     }
   }; // RootMotion.SolverManager

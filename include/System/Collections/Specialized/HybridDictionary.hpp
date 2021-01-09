@@ -79,7 +79,7 @@ namespace System::Collections::Specialized {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HybridDictionary* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Specialized").WithContext("HybridDictionary").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::HybridDictionary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HybridDictionary*, creationType>()));
     }
     // public System.Object get_Item(System.Object key)

@@ -78,7 +78,7 @@ namespace System::Collections {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReadOnlyCollectionBase* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("ReadOnlyCollectionBase").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ReadOnlyCollectionBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReadOnlyCollectionBase*, creationType>()));
     }
   }; // System.Collections.ReadOnlyCollectionBase

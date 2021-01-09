@@ -51,7 +51,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyWebProxy* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("EmptyWebProxy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::EmptyWebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyWebProxy*, creationType>()));
     }
     // public System.Uri GetProxy(System.Uri uri)

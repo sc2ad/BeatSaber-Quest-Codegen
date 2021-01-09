@@ -70,7 +70,7 @@ namespace System::Security::Policy {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Evidence* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Policy").WithContext("Evidence").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Policy::Evidence::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Evidence*, creationType>()));
     }
     // public System.Int32 get_Count()

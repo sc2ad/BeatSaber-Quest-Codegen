@@ -23,7 +23,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPv4InterfaceStatistics* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("IPv4InterfaceStatistics").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::IPv4InterfaceStatistics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPv4InterfaceStatistics*, creationType>()));
     }
   }; // System.Net.NetworkInformation.IPv4InterfaceStatistics

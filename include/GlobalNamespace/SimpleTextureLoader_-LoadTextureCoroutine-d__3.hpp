@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     // Offset: 0xFD0374
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleTextureLoader::$LoadTextureCoroutine$d__3* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$LoadTextureCoroutine$d__3").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleTextureLoader::$LoadTextureCoroutine$d__3*, creationType>($$1__state)));
     }
     // private System.Void <>m__Finally1()

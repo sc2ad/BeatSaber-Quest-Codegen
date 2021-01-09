@@ -35,7 +35,7 @@ namespace System::Security::Util {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TokenizerStringBlock* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Util").WithContext("TokenizerStringBlock").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::TokenizerStringBlock::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TokenizerStringBlock*, creationType>()));
     }
   }; // System.Security.Util.TokenizerStringBlock

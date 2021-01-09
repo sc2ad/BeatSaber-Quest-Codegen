@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // System.Void <SetupValuePicker>b__0(System.Int32 idx)
     // Offset: 0xFFFFFFFF
     void $SetupValuePicker$b__0(int idx) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass57_0_1").WithContext("<SetupValuePicker>b__0");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EditAvatarViewController::$$c__DisplayClass57_0_1::<SetupValuePicker>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<SetupValuePicker>b__0", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(idx))));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, idx);
     }
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditAvatarViewController::$$c__DisplayClass57_0_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass57_0_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EditAvatarViewController::$$c__DisplayClass57_0_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditAvatarViewController::$$c__DisplayClass57_0_1<T>*, creationType>()));
     }
   }; // EditAvatarViewController/<>c__DisplayClass57_0`1

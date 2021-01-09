@@ -29,7 +29,7 @@ namespace NUnit::Framework::Interfaces {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AttributeDictionary* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Interfaces").WithContext("AttributeDictionary").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::AttributeDictionary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttributeDictionary*, creationType>()));
     }
   }; // NUnit.Framework.Interfaces.AttributeDictionary

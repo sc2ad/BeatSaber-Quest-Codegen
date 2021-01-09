@@ -46,14 +46,14 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1635E70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HSVColor* New_ctor(float h, float s, float v) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("HSVColor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::HSVColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HSVColor*, creationType>(h, s, v)));
     }
     // public System.Void .ctor(System.Single h, System.Single s, System.Single v, System.Single sv_modifier)
     // Offset: 0x1635EB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HSVColor* New_ctor(float h, float s, float v, float sv_modifier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("HSVColor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::HSVColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HSVColor*, creationType>(h, s, v, sv_modifier)));
     }
     // static public UnityEngine.ProBuilder.HSVColor FromRGB(UnityEngine.Color col)

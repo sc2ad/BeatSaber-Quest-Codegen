@@ -39,7 +39,7 @@ namespace OnlineServices {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelScoreUploader::LevelScoreResultsDataUploadInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OnlineServices").WithContext("LevelScoreResultsDataUploadInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelScoreUploader::LevelScoreResultsDataUploadInfo*, creationType>()));
     }
   }; // OnlineServices.LevelScoreUploader/LevelScoreResultsDataUploadInfo

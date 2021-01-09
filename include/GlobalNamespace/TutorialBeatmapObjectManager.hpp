@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Offset: 0xFEFC74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialBeatmapObjectManager* New_ctor(GlobalNamespace::TutorialNoteController::Pool* tutorialNotePool, GlobalNamespace::BombNoteController::Pool* bombNotePool, GlobalNamespace::ObstacleController::Pool* obstaclePool) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TutorialBeatmapObjectManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialBeatmapObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialBeatmapObjectManager*, creationType>(tutorialNotePool, bombNotePool, obstaclePool)));
     }
     // public override System.Collections.Generic.HashSet`1<ObstacleController> get_activeObstacleControllers()

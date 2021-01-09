@@ -64,7 +64,7 @@ namespace NUnit::Framework::Internal::Builders {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NUnitTestCaseBuilder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Builders").WithContext("NUnitTestCaseBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NUnitTestCaseBuilder*, creationType>()));
     }
   }; // NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder

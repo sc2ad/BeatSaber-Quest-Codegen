@@ -57,7 +57,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TripleDES* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("TripleDES").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::TripleDES::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TripleDES*, creationType>()));
     }
     // public override System.Byte[] get_Key()

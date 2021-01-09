@@ -86,7 +86,7 @@ namespace System::Net {
     // Offset: 0x12BD4E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KnownHttpVerb* New_ctor(::Il2CppString* name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("KnownHttpVerb").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::KnownHttpVerb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KnownHttpVerb*, creationType>(name, requireContentBody, contentBodyNotAllowed, connectRequest, expectNoContentResponse)));
     }
     // static private System.Void .cctor()

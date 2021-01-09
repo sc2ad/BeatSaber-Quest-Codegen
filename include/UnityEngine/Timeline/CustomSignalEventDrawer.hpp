@@ -27,7 +27,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomSignalEventDrawer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("CustomSignalEventDrawer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::CustomSignalEventDrawer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomSignalEventDrawer*, creationType>()));
     }
   }; // UnityEngine.Timeline.CustomSignalEventDrawer

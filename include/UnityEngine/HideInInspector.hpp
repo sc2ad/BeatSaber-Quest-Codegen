@@ -27,7 +27,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HideInInspector* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("HideInInspector").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::HideInInspector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HideInInspector*, creationType>()));
     }
   }; // UnityEngine.HideInInspector

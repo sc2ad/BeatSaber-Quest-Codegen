@@ -40,7 +40,7 @@ namespace System::Runtime::CompilerServices {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeCompatibilityAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("RuntimeCompatibilityAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::RuntimeCompatibilityAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeCompatibilityAttribute*, creationType>()));
     }
   }; // System.Runtime.CompilerServices.RuntimeCompatibilityAttribute

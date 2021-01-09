@@ -45,7 +45,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1906A00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRRenderModels::_GetRenderModelThumbnailURL* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetRenderModelThumbnailURL").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRRenderModels::_GetRenderModelThumbnailURL::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRRenderModels::_GetRenderModelThumbnailURL*, creationType>(object, method)));
     }
     // public System.UInt32 Invoke(System.String pchRenderModelName, System.Text.StringBuilder pchThumbnailURL, System.UInt32 unThumbnailURLLen, ref OVR.OpenVR.EVRRenderModelError peError)

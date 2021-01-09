@@ -42,7 +42,7 @@ namespace System::IO {
     // Offset: 0x14383A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileInfo* New_ctor(::Il2CppString* fileName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileInfo*, creationType>(fileName)));
     }
     // private System.Void Init(System.String fileName, System.Boolean checkHost)
@@ -66,7 +66,7 @@ namespace System::IO {
     // Base method: System.Void FileSystemInfo::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileInfo* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileInfo*, creationType>(info, context)));
     }
     // public override System.String get_Name()

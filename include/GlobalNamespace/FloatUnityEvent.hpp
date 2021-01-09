@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloatUnityEvent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("FloatUnityEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FloatUnityEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloatUnityEvent*, creationType>()));
     }
   }; // FloatUnityEvent

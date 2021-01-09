@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1063528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRTrackedCamera::_AcquireVideoStreamingService* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_AcquireVideoStreamingService").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRTrackedCamera::_AcquireVideoStreamingService::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRTrackedCamera::_AcquireVideoStreamingService*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVRTrackedCameraError Invoke(System.UInt32 nDeviceIndex, ref System.UInt64 pHandle)

@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x1931420
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_TriggerHapticPulse* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_TriggerHapticPulse").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRSystem::_TriggerHapticPulse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_TriggerHapticPulse*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.UInt32 unControllerDeviceIndex, System.UInt32 unAxisId, System.Char usDurationMicroSec)

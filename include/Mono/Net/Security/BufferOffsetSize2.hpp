@@ -35,7 +35,7 @@ namespace Mono::Net::Security {
     // Offset: 0x1265D50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferOffsetSize2* New_ctor(int size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Net::Security").WithContext("BufferOffsetSize2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::BufferOffsetSize2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferOffsetSize2*, creationType>(size)));
     }
     // public System.Void Reset()

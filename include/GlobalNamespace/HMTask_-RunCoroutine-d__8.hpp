@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Offset: 0x1035D04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMTask::$RunCoroutine$d__8* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$RunCoroutine$d__8").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HMTask::$RunCoroutine$d__8::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMTask::$RunCoroutine$d__8*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

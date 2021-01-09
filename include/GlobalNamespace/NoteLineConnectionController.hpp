@@ -156,7 +156,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteLineConnectionController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NoteLineConnectionController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteLineConnectionController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteLineConnectionController*, creationType>()));
     }
   }; // NoteLineConnectionController

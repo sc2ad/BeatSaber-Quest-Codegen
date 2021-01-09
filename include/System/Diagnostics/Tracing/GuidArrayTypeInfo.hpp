@@ -46,7 +46,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuidArrayTypeInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("GuidArrayTypeInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::GuidArrayTypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuidArrayTypeInfo*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.GuidArrayTypeInfo

@@ -98,7 +98,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0xC9F7AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     MarkerList(int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("MarkerList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::MarkerList::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(capacity)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, capacity);
     }

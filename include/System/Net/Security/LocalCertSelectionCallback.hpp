@@ -39,7 +39,7 @@ namespace System::Net::Security {
     // Offset: 0x11A1084
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalCertSelectionCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Security").WithContext("LocalCertSelectionCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Security::LocalCertSelectionCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalCertSelectionCallback*, creationType>(object, method)));
     }
     // public System.Security.Cryptography.X509Certificates.X509Certificate Invoke(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers)

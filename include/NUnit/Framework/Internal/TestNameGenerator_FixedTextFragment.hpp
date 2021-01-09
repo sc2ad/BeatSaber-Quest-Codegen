@@ -42,7 +42,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x195DD8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator::FixedTextFragment* New_ctor(::Il2CppString* text) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("FixedTextFragment").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestNameGenerator::FixedTextFragment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::FixedTextFragment*, creationType>(text)));
     }
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)

@@ -68,7 +68,7 @@ namespace GlobalNamespace {
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static SimpleVRNodeRecorder::SavedData* New_ctor() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SavedData").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SimpleVRNodeRecorder::SavedData::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<SimpleVRNodeRecorder::SavedData*, creationType>()));
       }
     }; // SimpleVRNodeRecorder/SavedData
@@ -221,7 +221,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleVRNodeRecorder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SimpleVRNodeRecorder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SimpleVRNodeRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleVRNodeRecorder*, creationType>()));
     }
   }; // SimpleVRNodeRecorder

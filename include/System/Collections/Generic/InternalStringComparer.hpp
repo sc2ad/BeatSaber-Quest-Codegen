@@ -34,7 +34,7 @@ namespace System::Collections::Generic {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalStringComparer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("InternalStringComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::InternalStringComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalStringComparer*, creationType>()));
     }
   }; // System.Collections.Generic.InternalStringComparer

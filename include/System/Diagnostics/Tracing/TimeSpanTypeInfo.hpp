@@ -46,7 +46,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeSpanTypeInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("TimeSpanTypeInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::TimeSpanTypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeSpanTypeInfo*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.TimeSpanTypeInfo

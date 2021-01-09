@@ -43,7 +43,7 @@ namespace System::Collections::Specialized {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionary::DictionaryNode* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Specialized").WithContext("DictionaryNode").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::ListDictionary::DictionaryNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionary::DictionaryNode*, creationType>()));
     }
   }; // System.Collections.Specialized.ListDictionary/DictionaryNode

@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuRpcManager::SetIsInLobbyRpc* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SetIsInLobbyRpc").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MenuRpcManager::SetIsInLobbyRpc::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuRpcManager::SetIsInLobbyRpc*, creationType>()));
     }
   }; // MenuRpcManager/SetIsInLobbyRpc

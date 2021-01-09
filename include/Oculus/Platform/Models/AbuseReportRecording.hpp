@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11D7994
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbuseReportRecording* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("AbuseReportRecording").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AbuseReportRecording::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbuseReportRecording*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.AbuseReportRecording

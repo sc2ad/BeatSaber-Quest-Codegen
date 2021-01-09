@@ -29,7 +29,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Glyph* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMP_Glyph").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Glyph::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Glyph*, creationType>()));
     }
   }; // TMPro.TMP_Glyph

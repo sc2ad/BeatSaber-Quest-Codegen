@@ -31,7 +31,7 @@ namespace System {
     // Offset: 0x1CA8F30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AsyncCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::AsyncCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.IAsyncResult ar)

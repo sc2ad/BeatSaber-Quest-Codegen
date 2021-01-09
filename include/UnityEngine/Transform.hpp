@@ -292,7 +292,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Transform* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Transform").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Transform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Transform*, creationType>()));
     }
     // public System.Collections.IEnumerator GetEnumerator()

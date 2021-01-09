@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F90EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRSystem::_GetControllerStatePacked* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetControllerStatePacked").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRSystem::_GetControllerStatePacked::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRSystem::_GetControllerStatePacked*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.UInt32 unControllerDeviceIndex, ref OVR.OpenVR.VRControllerState_t_Packed pControllerState, System.UInt32 unControllerStateSize)

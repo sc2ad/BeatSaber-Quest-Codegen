@@ -98,7 +98,7 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0x11835F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoroutineRunner* New_ctor(UnityEngine::MonoBehaviour* playmodeTestsController, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::Utils").WithContext("CoroutineRunner").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::CoroutineRunner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoroutineRunner*, creationType>(playmodeTestsController, context)));
     }
     // public System.Collections.IEnumerator HandleEnumerableTest(System.Collections.IEnumerator testEnumerator)

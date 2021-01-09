@@ -30,7 +30,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoInstaller* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MonoInstaller").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoInstaller*, creationType>()));
     }
   }; // Zenject.MonoInstaller

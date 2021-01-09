@@ -27,7 +27,7 @@ namespace System::ComponentModel {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Int64Converter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("Int64Converter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Int64Converter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Int64Converter*, creationType>()));
     }
   }; // System.ComponentModel.Int64Converter

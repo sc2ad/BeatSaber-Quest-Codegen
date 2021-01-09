@@ -57,7 +57,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlowCoordinator::$$c__DisplayClass35_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("$$c__DisplayClass35_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::FlowCoordinator::$$c__DisplayClass35_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlowCoordinator::$$c__DisplayClass35_0*, creationType>()));
     }
   }; // HMUI.FlowCoordinator/<>c__DisplayClass35_0

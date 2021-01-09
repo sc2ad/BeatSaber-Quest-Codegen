@@ -52,7 +52,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomAttributeData::LazyCAttrData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("LazyCAttrData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::CustomAttributeData::LazyCAttrData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomAttributeData::LazyCAttrData*, creationType>()));
     }
   }; // System.Reflection.CustomAttributeData/LazyCAttrData

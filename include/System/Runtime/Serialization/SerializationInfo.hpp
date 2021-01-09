@@ -140,14 +140,14 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1444308
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationInfo* New_ctor(System::Type* type, System::Runtime::Serialization::IFormatterConverter* converter) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("SerializationInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationInfo*, creationType>(type, converter)));
     }
     // public System.Void .ctor(System.Type type, System.Runtime.Serialization.IFormatterConverter converter, System.Boolean requireSameTokenInPartialTrust)
     // Offset: 0x1444310
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationInfo* New_ctor(System::Type* type, System::Runtime::Serialization::IFormatterConverter* converter, bool requireSameTokenInPartialTrust) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("SerializationInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationInfo*, creationType>(type, converter, requireSameTokenInPartialTrust)));
     }
     // public System.String get_FullTypeName()

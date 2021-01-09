@@ -48,14 +48,14 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Offset: 0x177B7AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecP160R1FieldElement* New_ctor(Org::BouncyCastle::Math::BigInteger* x) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Custom::Sec").WithContext("SecP160R1FieldElement").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R1FieldElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecP160R1FieldElement*, creationType>(x)));
     }
     // protected internal System.Void .ctor(System.UInt32[] x)
     // Offset: 0x177BDF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecP160R1FieldElement* New_ctor(::Array<uint>* x) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Custom::Sec").WithContext("SecP160R1FieldElement").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R1FieldElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecP160R1FieldElement*, creationType>(x)));
     }
     // public System.Boolean Equals(Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R1FieldElement other)

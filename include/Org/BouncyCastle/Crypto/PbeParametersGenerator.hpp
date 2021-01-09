@@ -66,7 +66,7 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PbeParametersGenerator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto").WithContext("PbeParametersGenerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::PbeParametersGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PbeParametersGenerator*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.PbeParametersGenerator

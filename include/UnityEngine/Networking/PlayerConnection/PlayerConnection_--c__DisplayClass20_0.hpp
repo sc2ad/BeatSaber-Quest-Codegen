@@ -46,7 +46,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerConnection::$$c__DisplayClass20_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Networking::PlayerConnection").WithContext("$$c__DisplayClass20_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerConnection::$$c__DisplayClass20_0*, creationType>()));
     }
   }; // UnityEngine.Networking.PlayerConnection.PlayerConnection/<>c__DisplayClass20_0

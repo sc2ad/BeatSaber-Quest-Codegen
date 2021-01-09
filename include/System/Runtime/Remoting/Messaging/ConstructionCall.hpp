@@ -104,7 +104,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x116774C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstructionCall* New_ctor(System::Type* type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("ConstructionCall").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::ConstructionCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstructionCall*, creationType>(type)));
     }
     // System.Boolean get_IsContextOk()
@@ -128,7 +128,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Void MethodCall::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstructionCall* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("ConstructionCall").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::ConstructionCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstructionCall*, creationType>(info, context)));
     }
     // override System.Void InitDictionary()

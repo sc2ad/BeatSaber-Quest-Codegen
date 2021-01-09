@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Crypto::EC {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomNamedCurves::SecT163R1Holder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::EC").WithContext("SecT163R1Holder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT163R1Holder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomNamedCurves::SecT163R1Holder*, creationType>()));
     }
     // protected override Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()

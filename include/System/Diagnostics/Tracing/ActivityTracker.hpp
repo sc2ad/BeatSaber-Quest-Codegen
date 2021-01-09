@@ -90,7 +90,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActivityTracker* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("ActivityTracker").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ActivityTracker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActivityTracker*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.ActivityTracker

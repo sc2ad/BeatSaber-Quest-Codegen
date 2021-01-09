@@ -31,7 +31,7 @@ namespace System::Xml {
     // Offset: 0x14E1E34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TernaryTreeReadOnly* New_ctor(::Array<uint8_t>* nodeBuffer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("TernaryTreeReadOnly").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::TernaryTreeReadOnly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TernaryTreeReadOnly*, creationType>(nodeBuffer)));
     }
     // public System.Byte FindCaseInsensitiveString(System.String stringToFind)

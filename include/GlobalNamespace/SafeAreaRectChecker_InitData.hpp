@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0xFC4F8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeAreaRectChecker::InitData* New_ctor(bool checkingEnabled) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InitData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SafeAreaRectChecker::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeAreaRectChecker::InitData*, creationType>(checkingEnabled)));
     }
   }; // SafeAreaRectChecker/InitData

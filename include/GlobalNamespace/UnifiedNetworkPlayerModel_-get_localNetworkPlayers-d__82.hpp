@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Offset: 0xFF80A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnifiedNetworkPlayerModel::$get_localNetworkPlayers$d__82* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$get_localNetworkPlayers$d__82").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UnifiedNetworkPlayerModel::$get_localNetworkPlayers$d__82::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnifiedNetworkPlayerModel::$get_localNetworkPlayers$d__82*, creationType>($$1__state)));
     }
     // private System.Void <>m__Finally1()

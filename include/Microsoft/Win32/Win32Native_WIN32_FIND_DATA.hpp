@@ -39,7 +39,7 @@ namespace Microsoft::Win32 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Native::WIN32_FIND_DATA* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Microsoft::Win32").WithContext("WIN32_FIND_DATA").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::Win32Native::WIN32_FIND_DATA::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Native::WIN32_FIND_DATA*, creationType>()));
     }
   }; // Microsoft.Win32.Win32Native/WIN32_FIND_DATA

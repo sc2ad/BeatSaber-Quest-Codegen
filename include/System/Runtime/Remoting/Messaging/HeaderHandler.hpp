@@ -38,7 +38,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x117C694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("HeaderHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::HeaderHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderHandler*, creationType>(object, method)));
     }
     // public System.Object Invoke(System.Runtime.Remoting.Messaging.Header[] headers)

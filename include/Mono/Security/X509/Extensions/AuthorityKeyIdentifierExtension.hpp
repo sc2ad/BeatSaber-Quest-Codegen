@@ -38,7 +38,7 @@ namespace Mono::Security::X509::Extensions {
     // Base method: System.Void X509Extension::.ctor(Mono.Security.X509.X509Extension extension)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AuthorityKeyIdentifierExtension* New_ctor(Mono::Security::X509::X509Extension* extension) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::X509::Extensions").WithContext("AuthorityKeyIdentifierExtension").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AuthorityKeyIdentifierExtension*, creationType>(extension)));
     }
     // protected override System.Void Decode()

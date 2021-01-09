@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x18F75DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_IsHoverTargetOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_IsHoverTargetOverlay").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVROverlay::_IsHoverTargetOverlay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_IsHoverTargetOverlay*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.UInt64 ulOverlayHandle)

@@ -52,7 +52,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidationUtil::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ValidationUtil::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValidationUtil::$$c*, creationType>()));
     }
   }; // Zenject.ValidationUtil/<>c

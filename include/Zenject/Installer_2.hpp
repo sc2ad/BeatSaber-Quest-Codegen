@@ -29,7 +29,7 @@ namespace Zenject {
     // static public System.Void Install(Zenject.DiContainer container, TParam1 p1)
     // Offset: 0xFFFFFFFF
     static void Install(Zenject::DiContainer* container, TParam1 p1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("Installer_2").WithContext("Install");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Installer_2::Install");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Installer_2<TParam1, TDerived>*>::get(), "Install", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(container, p1))));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, container, p1);
     }
@@ -40,7 +40,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Installer_2<TParam1, TDerived>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("Installer_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Installer_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Installer_2<TParam1, TDerived>*, creationType>()));
     }
   }; // Zenject.Installer`2

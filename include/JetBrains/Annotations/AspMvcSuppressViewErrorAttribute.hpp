@@ -27,7 +27,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AspMvcSuppressViewErrorAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("AspMvcSuppressViewErrorAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::AspMvcSuppressViewErrorAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AspMvcSuppressViewErrorAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.AspMvcSuppressViewErrorAttribute

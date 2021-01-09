@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x18680A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_CloseMessageOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_CloseMessageOverlay").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVROverlay::_CloseMessageOverlay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_CloseMessageOverlay*, creationType>(object, method)));
     }
     // public System.Void Invoke()

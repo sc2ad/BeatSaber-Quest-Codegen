@@ -34,7 +34,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextWriter::NullTextWriter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("NullTextWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::TextWriter::NullTextWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextWriter::NullTextWriter*, creationType>()));
     }
     // public override System.Text.Encoding get_Encoding()

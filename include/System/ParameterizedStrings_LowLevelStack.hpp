@@ -46,7 +46,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParameterizedStrings::LowLevelStack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("LowLevelStack").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ParameterizedStrings::LowLevelStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParameterizedStrings::LowLevelStack*, creationType>()));
     }
   }; // System.ParameterizedStrings/LowLevelStack

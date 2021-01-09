@@ -80,7 +80,7 @@ namespace System::Net {
     // Offset: 0x119FC0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResponseStream* New_ctor(System::IO::Stream* stream, System::Net::HttpListenerResponse* response, bool ignore_errors) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("ResponseStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ResponseStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResponseStream*, creationType>(stream, response, ignore_errors)));
     }
     // private System.IO.MemoryStream GetHeaders(System.Boolean closing)

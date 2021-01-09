@@ -121,7 +121,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSceneSampleController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OVRSceneSampleController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRSceneSampleController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSceneSampleController*, creationType>()));
     }
   }; // OVRSceneSampleController

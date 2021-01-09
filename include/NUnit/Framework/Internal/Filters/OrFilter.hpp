@@ -36,7 +36,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrFilter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Filters").WithContext("OrFilter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Filters::OrFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OrFilter*, creationType>()));
     }
     // public System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
@@ -45,7 +45,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Base method: System.Void CompositeFilter::.ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrFilter* New_ctor(::Array<NUnit::Framework::Interfaces::ITestFilter*>* filters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Filters").WithContext("OrFilter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Filters::OrFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OrFilter*, creationType>(filters)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)

@@ -26,7 +26,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x1A04804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VisibleToOtherModulesAttribute* New_ctor(::Array<::Il2CppString*>* modules) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("VisibleToOtherModulesAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::VisibleToOtherModulesAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VisibleToOtherModulesAttribute*, creationType>(modules)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(params System.String[] modules)
@@ -46,7 +46,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VisibleToOtherModulesAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("VisibleToOtherModulesAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::VisibleToOtherModulesAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VisibleToOtherModulesAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.VisibleToOtherModulesAttribute

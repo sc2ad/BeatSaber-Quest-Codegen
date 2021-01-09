@@ -51,7 +51,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x119E23C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32UnicastIPAddressInformation* New_ctor(System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS info) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("Win32UnicastIPAddressInformation").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::Win32UnicastIPAddressInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32UnicastIPAddressInformation*, creationType>(info)));
     }
     // static private System.Net.IPAddress PrefixLengthToSubnetMask(System.Byte prefixLength, System.Net.Sockets.AddressFamily family)

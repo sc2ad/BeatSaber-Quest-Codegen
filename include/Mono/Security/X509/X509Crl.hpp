@@ -111,7 +111,7 @@ namespace Mono::Security::X509 {
     // Offset: 0x19C3F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Crl* New_ctor(::Array<uint8_t>* crl) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::X509").WithContext("X509Crl").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Crl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Crl*, creationType>(crl)));
     }
     // private System.Void Parse(System.Byte[] crl)

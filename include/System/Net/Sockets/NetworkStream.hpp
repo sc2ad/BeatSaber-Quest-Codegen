@@ -96,14 +96,14 @@ namespace System::Net::Sockets {
     // Offset: 0x11A72C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkStream* New_ctor(System::Net::Sockets::Socket* socket) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Sockets").WithContext("NetworkStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::NetworkStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkStream*, creationType>(socket)));
     }
     // public System.Void .ctor(System.Net.Sockets.Socket socket, System.Boolean ownsSocket)
     // Offset: 0x11A74B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkStream* New_ctor(System::Net::Sockets::Socket* socket, bool ownsSocket) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Sockets").WithContext("NetworkStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::NetworkStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkStream*, creationType>(socket, ownsSocket)));
     }
     // public System.Boolean get_DataAvailable()

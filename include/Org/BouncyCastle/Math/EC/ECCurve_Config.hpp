@@ -61,7 +61,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0x193991C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECCurve::Config* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* outer, int coord, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* multiplier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC").WithContext("Config").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ECCurve::Config::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECCurve::Config*, creationType>(outer, coord, endomorphism, multiplier)));
     }
     // public Org.BouncyCastle.Math.EC.ECCurve/Config SetEndomorphism(Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism)

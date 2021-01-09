@@ -48,7 +48,7 @@ namespace RootMotion {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DemoGUIMessage* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion").WithContext("DemoGUIMessage").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::DemoGUIMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DemoGUIMessage*, creationType>()));
     }
   }; // RootMotion.DemoGUIMessage

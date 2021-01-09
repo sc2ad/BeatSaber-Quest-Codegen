@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Offset: 0x1B4E274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayServerFiniteStateMachine* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::IServerBeatmapProvider* beatmapProvider) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("GameplayServerFiniteStateMachine").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayServerFiniteStateMachine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayServerFiniteStateMachine*, creationType>(multiplayerSessionManager, configuration, beatmapProvider)));
     }
     // public System.Void Dispose()

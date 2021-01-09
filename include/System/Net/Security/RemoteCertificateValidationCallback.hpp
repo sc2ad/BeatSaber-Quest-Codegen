@@ -44,7 +44,7 @@ namespace System::Net::Security {
     // Offset: 0x11A152C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteCertificateValidationCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Security").WithContext("RemoteCertificateValidationCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Security::RemoteCertificateValidationCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteCertificateValidationCallback*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.Object sender, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)

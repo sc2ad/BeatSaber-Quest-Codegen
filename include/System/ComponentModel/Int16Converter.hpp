@@ -27,7 +27,7 @@ namespace System::ComponentModel {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Int16Converter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("Int16Converter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Int16Converter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Int16Converter*, creationType>()));
     }
   }; // System.ComponentModel.Int16Converter

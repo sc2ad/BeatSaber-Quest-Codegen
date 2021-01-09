@@ -41,14 +41,14 @@ namespace System::Net {
     // Offset: 0x130AB24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Authorization* New_ctor(::Il2CppString* token) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("Authorization").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Authorization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Authorization*, creationType>(token)));
     }
     // public System.Void .ctor(System.String token, System.Boolean finished)
     // Offset: 0x130ABC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Authorization* New_ctor(::Il2CppString* token, bool finished) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("Authorization").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Authorization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Authorization*, creationType>(token, finished)));
     }
     // public System.String get_Message()

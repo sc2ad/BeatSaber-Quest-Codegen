@@ -37,7 +37,7 @@ namespace Oculus::Platform {
     // Offset: 0x11CDA38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CAPI::FilterCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("FilterCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::FilterCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CAPI::FilterCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(in System.Int16[] pcmData, System.UIntPtr pcmDataLength, System.Int32 frequency, System.Int32 numChannels)

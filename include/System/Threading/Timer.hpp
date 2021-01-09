@@ -93,14 +93,14 @@ namespace System::Threading {
     // Offset: 0x1D15CC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Timer* New_ctor(System::Threading::TimerCallback* callback, ::Il2CppObject* state, int dueTime, int period) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("Timer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Timer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Timer*, creationType>(callback, state, dueTime, period)));
     }
     // public System.Void .ctor(System.Threading.TimerCallback callback, System.Object state, System.TimeSpan dueTime, System.TimeSpan period)
     // Offset: 0x1D1DF28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Timer* New_ctor(System::Threading::TimerCallback* callback, ::Il2CppObject* state, System::TimeSpan dueTime, System::TimeSpan period) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("Timer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Timer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Timer*, creationType>(callback, state, dueTime, period)));
     }
     // private System.Void Init(System.Threading.TimerCallback callback, System.Object state, System.Int64 dueTime, System.Int64 period)

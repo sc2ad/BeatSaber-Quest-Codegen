@@ -36,7 +36,7 @@ namespace UnityEngine {
     // Offset: 0x16C33D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextAreaAttribute* New_ctor(int minLines, int maxLines) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("TextAreaAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TextAreaAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextAreaAttribute*, creationType>(minLines, maxLines)));
     }
   }; // UnityEngine.TextAreaAttribute

@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A3FB6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* New_ctor(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AppInitSceneSetupData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*, creationType>(appInitOverrideStartType)));
     }
   }; // AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData

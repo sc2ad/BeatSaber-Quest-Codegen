@@ -38,7 +38,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Base method: System.Void DelegatingTestCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand command)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TheoryResultCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* command) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Commands").WithContext("TheoryResultCommand").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::TheoryResultCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TheoryResultCommand*, creationType>(command)));
     }
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)

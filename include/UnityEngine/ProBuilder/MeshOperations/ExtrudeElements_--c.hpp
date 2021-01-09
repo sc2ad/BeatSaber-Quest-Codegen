@@ -62,7 +62,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExtrudeElements::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::MeshOperations").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExtrudeElements::$$c*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.ExtrudeElements/<>c

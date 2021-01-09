@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarPoseRestrictions* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AvatarPoseRestrictions").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPoseRestrictions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarPoseRestrictions*, creationType>()));
     }
   }; // AvatarPoseRestrictions

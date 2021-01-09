@@ -35,7 +35,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1163840
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TupleElementNamesAttribute* New_ctor(::Array<::Il2CppString*>* transformNames) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("TupleElementNamesAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::TupleElementNamesAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TupleElementNamesAttribute*, creationType>(transformNames)));
     }
   }; // System.Runtime.CompilerServices.TupleElementNamesAttribute

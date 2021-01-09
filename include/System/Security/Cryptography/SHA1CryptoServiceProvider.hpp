@@ -47,7 +47,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SHA1CryptoServiceProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("SHA1CryptoServiceProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::SHA1CryptoServiceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SHA1CryptoServiceProvider*, creationType>()));
     }
     // protected override System.Void Finalize()

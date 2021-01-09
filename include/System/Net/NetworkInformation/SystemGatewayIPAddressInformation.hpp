@@ -47,7 +47,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x119D294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemGatewayIPAddressInformation* New_ctor(System::Net::IPAddress* address) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("SystemGatewayIPAddressInformation").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::SystemGatewayIPAddressInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SystemGatewayIPAddressInformation*, creationType>(address)));
     }
     // static System.Net.NetworkInformation.GatewayIPAddressInformationCollection ToGatewayIpAddressInformationCollection(System.Net.NetworkInformation.IPAddressCollection addresses)

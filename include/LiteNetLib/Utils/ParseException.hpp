@@ -25,7 +25,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParseException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("ParseException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::ParseException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParseException*, creationType>(message)));
     }
   }; // LiteNetLib.Utils.ParseException

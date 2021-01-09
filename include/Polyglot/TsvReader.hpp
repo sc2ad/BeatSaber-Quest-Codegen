@@ -34,7 +34,7 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TsvReader* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("TsvReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::TsvReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TsvReader*, creationType>()));
     }
   }; // Polyglot.TsvReader

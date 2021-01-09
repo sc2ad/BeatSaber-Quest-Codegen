@@ -39,7 +39,7 @@ namespace LiteNetLib {
     // Offset: 0x1DC3B80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBasedNetListener::OnConnectionRequest* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib").WithContext("OnConnectionRequest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::EventBasedNetListener::OnConnectionRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBasedNetListener::OnConnectionRequest*, creationType>(object, method)));
     }
     // public System.Void Invoke(LiteNetLib.ConnectionRequest request)

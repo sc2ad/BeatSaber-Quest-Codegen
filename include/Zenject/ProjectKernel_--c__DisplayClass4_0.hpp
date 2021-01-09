@@ -62,7 +62,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProjectKernel::$$c__DisplayClass4_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass4_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ProjectKernel::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProjectKernel::$$c__DisplayClass4_0*, creationType>()));
     }
   }; // Zenject.ProjectKernel/<>c__DisplayClass4_0

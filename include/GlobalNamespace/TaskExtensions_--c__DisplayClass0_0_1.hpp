@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // System.Void <WithCancellation>b__0()
     // Offset: 0xFFFFFFFF
     void $WithCancellation$b__0() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass0_0_1").WithContext("<WithCancellation>b__0");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::$$c__DisplayClass0_0_1::<WithCancellation>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<WithCancellation>b__0", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskExtensions::$$c__DisplayClass0_0_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass0_0_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::$$c__DisplayClass0_0_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskExtensions::$$c__DisplayClass0_0_1<T>*, creationType>()));
     }
   }; // TaskExtensions/<>c__DisplayClass0_0`1

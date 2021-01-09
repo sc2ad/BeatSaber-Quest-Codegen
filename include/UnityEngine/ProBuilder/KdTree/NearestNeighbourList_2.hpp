@@ -50,48 +50,48 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NearestNeighbourList_2<TItem, TDistance>* New_ctor(int maxCapacity, UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* distanceMath) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("NearestNeighbourList_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NearestNeighbourList_2<TItem, TDistance>*, creationType>(maxCapacity, distanceMath)));
     }
     // public System.Int32 get_MaxCapacity()
     // Offset: 0xFFFFFFFF
     int get_MaxCapacity() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("NearestNeighbourList_2").WithContext("get_MaxCapacity");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::get_MaxCapacity");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_MaxCapacity", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
     int get_Count() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("NearestNeighbourList_2").WithContext("get_Count");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::get_Count");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // public System.Boolean Add(TItem item, TDistance distance)
     // Offset: 0xFFFFFFFF
     bool Add(TItem item, TDistance distance) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("NearestNeighbourList_2").WithContext("Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::Add");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item, distance)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item, distance);
     }
     // public TDistance GetFurtherestDistance()
     // Offset: 0xFFFFFFFF
     TDistance GetFurtherestDistance() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("NearestNeighbourList_2").WithContext("GetFurtherestDistance");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::GetFurtherestDistance");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetFurtherestDistance", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TDistance, false>(this, ___internal__method);
     }
     // public TItem RemoveFurtherest()
     // Offset: 0xFFFFFFFF
     TItem RemoveFurtherest() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("NearestNeighbourList_2").WithContext("RemoveFurtherest");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::RemoveFurtherest");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "RemoveFurtherest", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TItem, false>(this, ___internal__method);
     }
     // public System.Boolean get_IsCapacityReached()
     // Offset: 0xFFFFFFFF
     bool get_IsCapacityReached() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("NearestNeighbourList_2").WithContext("get_IsCapacityReached");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::get_IsCapacityReached");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_IsCapacityReached", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }

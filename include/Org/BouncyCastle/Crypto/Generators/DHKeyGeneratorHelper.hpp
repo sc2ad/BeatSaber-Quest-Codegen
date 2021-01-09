@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHKeyGeneratorHelper* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Generators").WithContext("DHKeyGeneratorHelper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHKeyGeneratorHelper*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Generators.DHKeyGeneratorHelper

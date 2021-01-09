@@ -80,7 +80,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CircleTouchable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("CircleTouchable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::CircleTouchable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CircleTouchable*, creationType>()));
     }
   }; // HMUI.CircleTouchable

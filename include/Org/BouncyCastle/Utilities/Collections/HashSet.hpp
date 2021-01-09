@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HashSet* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Utilities::Collections").WithContext("HashSet").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Collections::HashSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HashSet*, creationType>()));
     }
     // public System.Void Add(System.Object o)

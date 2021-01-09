@@ -46,7 +46,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11EFC74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRChaperone* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("CVRChaperone").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRChaperone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRChaperone*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.ChaperoneCalibrationState GetCalibrationState()

@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListSettingsController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ListSettingsController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListSettingsController*, creationType>()));
     }
   }; // ListSettingsController

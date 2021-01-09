@@ -51,13 +51,13 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StaticMemoryPool_2<TParam1, TValue>* New_ctor(System::Action_2<TParam1, TValue>* onSpawnMethod, System::Action_1<TValue>* onDespawnedMethod) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("StaticMemoryPool_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::StaticMemoryPool_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StaticMemoryPool_2<TParam1, TValue>*, creationType>(onSpawnMethod, onDespawnedMethod)));
     }
     // public System.Void set_OnSpawnMethod(System.Action`2<TParam1,TValue> value)
     // Offset: 0xFFFFFFFF
     void set_OnSpawnMethod(System::Action_2<TParam1, TValue>* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("StaticMemoryPool_2").WithContext("set_OnSpawnMethod");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::StaticMemoryPool_2::set_OnSpawnMethod");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "set_OnSpawnMethod", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
@@ -66,7 +66,7 @@ namespace Zenject {
     // Implemented from: Zenject.IMemoryPool`2
     // Base method: TValue IMemoryPool_2::Spawn(TParam1 param)
     TValue Spawn(TParam1 param) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("StaticMemoryPool_2").WithContext("Spawn");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::StaticMemoryPool_2::Spawn");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(param)));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, param);
     }

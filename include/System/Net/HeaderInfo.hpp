@@ -60,7 +60,7 @@ namespace System::Net {
     // Offset: 0x12A7878
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfo* New_ctor(::Il2CppString* name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser* p) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("HeaderInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HeaderInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderInfo*, creationType>(name, requestRestricted, responseRestricted, multi, p)));
     }
   }; // System.Net.HeaderInfo

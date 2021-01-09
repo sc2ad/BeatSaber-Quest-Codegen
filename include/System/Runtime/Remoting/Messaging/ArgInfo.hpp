@@ -50,7 +50,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x11772F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArgInfo* New_ctor(System::Reflection::MethodBase* method, System::Runtime::Remoting::Messaging::ArgInfoType type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("ArgInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::ArgInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgInfo*, creationType>(method, type)));
     }
     // public System.Object[] GetInOutArgs(System.Object[] args)

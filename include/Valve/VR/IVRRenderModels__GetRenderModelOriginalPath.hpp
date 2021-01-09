@@ -45,7 +45,7 @@ namespace Valve::VR {
     // Offset: 0x191FC00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRRenderModels::_GetRenderModelOriginalPath* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetRenderModelOriginalPath").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRRenderModels::_GetRenderModelOriginalPath::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRRenderModels::_GetRenderModelOriginalPath*, creationType>(object, method)));
     }
     // public System.UInt32 Invoke(System.String pchRenderModelName, System.Text.StringBuilder pchOriginalPath, System.UInt32 unOriginalPathLen, ref Valve.VR.EVRRenderModelError peError)

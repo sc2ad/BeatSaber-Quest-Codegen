@@ -86,7 +86,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClientKeyExchangeRequest* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("ClientKeyExchangeRequest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::ClientKeyExchangeRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClientKeyExchangeRequest*, creationType>()));
     }
   }; // MasterServer.ClientKeyExchangeRequest

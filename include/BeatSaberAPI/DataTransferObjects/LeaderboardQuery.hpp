@@ -73,7 +73,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardQuery* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("BeatSaberAPI::DataTransferObjects").WithContext("LeaderboardQuery").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("BeatSaberAPI::DataTransferObjects::LeaderboardQuery::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardQuery*, creationType>()));
     }
   }; // BeatSaberAPI.DataTransferObjects.LeaderboardQuery

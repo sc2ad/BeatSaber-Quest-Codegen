@@ -59,7 +59,7 @@ namespace System::Threading::Tasks {
     // Offset: 0x1D19950
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskToApm::TaskWrapperAsyncResult* New_ctor(System::Threading::Tasks::Task* task, ::Il2CppObject* state, bool completedSynchronously) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("TaskWrapperAsyncResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskToApm::TaskWrapperAsyncResult*, creationType>(task, state, completedSynchronously)));
     }
     // private System.Object System.IAsyncResult.get_AsyncState()

@@ -138,14 +138,14 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x1461844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate2ImplMono* New_ctor(Mono::Security::X509::X509Certificate* cert) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509Certificate2ImplMono").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2ImplMono*, creationType>(cert)));
     }
     // private System.Void .ctor(System.Security.Cryptography.X509Certificates.X509Certificate2ImplMono other)
     // Offset: 0x1461878
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate2ImplMono* New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono* other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509Certificate2ImplMono").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2ImplMono*, creationType>(other)));
     }
     // private Mono.Security.ASN1 Find(System.Byte[] oid, Mono.Security.ASN1 dn)
@@ -224,7 +224,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate2ImplMono* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509Certificate2ImplMono").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2ImplMono*, creationType>()));
     }
     // public override System.Security.Cryptography.X509Certificates.X509ExtensionCollection get_Extensions()

@@ -39,7 +39,7 @@ namespace UnityEngine {
     // Offset: 0x1684130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CullingGroup::StateChanged* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("StateChanged").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::CullingGroup::StateChanged::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CullingGroup::StateChanged*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.CullingGroupEvent sphere)

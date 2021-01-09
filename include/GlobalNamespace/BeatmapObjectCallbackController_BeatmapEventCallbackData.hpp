@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A2701C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectCallbackController::BeatmapEventCallbackData* New_ctor(GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallback* callback, float aheadTime) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BeatmapEventCallbackData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectCallbackController::BeatmapEventCallbackData*, creationType>(callback, aheadTime)));
     }
   }; // BeatmapObjectCallbackController/BeatmapEventCallbackData

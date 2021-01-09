@@ -24,7 +24,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x1697D7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMACSHA256* New_ctor(::Array<uint8_t>* key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("HMACSHA256").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::HMACSHA256::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMACSHA256*, creationType>(key)));
     }
     // public System.Void .ctor()
@@ -36,7 +36,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMACSHA256* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("HMACSHA256").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::HMACSHA256::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMACSHA256*, creationType>()));
     }
   }; // System.Security.Cryptography.HMACSHA256

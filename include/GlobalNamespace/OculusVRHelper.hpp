@@ -239,7 +239,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusVRHelper* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OculusVRHelper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusVRHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusVRHelper*, creationType>()));
     }
   }; // OculusVRHelper

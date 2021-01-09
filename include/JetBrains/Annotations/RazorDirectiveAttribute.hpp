@@ -35,7 +35,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RazorDirectiveAttribute* New_ctor(::Il2CppString* directive) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("RazorDirectiveAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::RazorDirectiveAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RazorDirectiveAttribute*, creationType>(directive)));
     }
     // public System.String get_Directive()

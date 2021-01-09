@@ -98,34 +98,34 @@ namespace System::Linq {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Set_1<TElement>* New_ctor(System::Collections::Generic::IEqualityComparer_1<TElement>* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("Set_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Set_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Set_1<TElement>*, creationType>(comparer)));
     }
     // public System.Boolean Add(TElement value)
     // Offset: 0xFFFFFFFF
     bool Add(TElement value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("Set_1").WithContext("Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Set_1::Add");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value);
     }
     // private System.Boolean Find(TElement value, System.Boolean add)
     // Offset: 0xFFFFFFFF
     bool Find(TElement value, bool add) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("Set_1").WithContext("Find");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Set_1::Find");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Find", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value, add)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value, add);
     }
     // private System.Void Resize()
     // Offset: 0xFFFFFFFF
     void Resize() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("Set_1").WithContext("Resize");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Set_1::Resize");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Resize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // System.Int32 InternalGetHashCode(TElement value)
     // Offset: 0xFFFFFFFF
     int InternalGetHashCode(TElement value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("Set_1").WithContext("InternalGetHashCode");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Set_1::InternalGetHashCode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InternalGetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, value);
     }

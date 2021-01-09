@@ -85,7 +85,7 @@ namespace HMUI {
     // Offset: 0x1980C1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewController::$DismissViewControllerCoroutine$d__62* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("$DismissViewControllerCoroutine$d__62").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ViewController::$DismissViewControllerCoroutine$d__62::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewController::$DismissViewControllerCoroutine$d__62*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

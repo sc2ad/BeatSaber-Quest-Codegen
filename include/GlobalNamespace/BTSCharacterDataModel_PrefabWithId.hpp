@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterDataModel::PrefabWithId* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("PrefabWithId").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BTSCharacterDataModel::PrefabWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterDataModel::PrefabWithId*, creationType>()));
     }
   }; // BTSCharacterDataModel/PrefabWithId

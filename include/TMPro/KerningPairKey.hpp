@@ -45,7 +45,7 @@ namespace TMPro {
     // Offset: 0xC92A18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     KerningPairKey(uint ascii_left, uint ascii_right) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("KerningPairKey").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPairKey::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(ascii_left, ascii_right)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ascii_left, ascii_right);
     }

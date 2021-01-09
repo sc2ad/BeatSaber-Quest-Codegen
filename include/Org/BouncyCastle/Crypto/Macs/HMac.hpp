@@ -83,7 +83,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Offset: 0x149A5C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMac* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Macs").WithContext("HMac").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::HMac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMac*, creationType>(digest)));
     }
     // static private System.Void XorPad(System.Byte[] pad, System.Int32 len, System.Byte n)

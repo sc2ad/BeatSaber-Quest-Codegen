@@ -27,7 +27,7 @@ namespace System::Runtime::ExceptionServices {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HandleProcessCorruptedStateExceptionsAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::ExceptionServices").WithContext("HandleProcessCorruptedStateExceptionsAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HandleProcessCorruptedStateExceptionsAttribute*, creationType>()));
     }
   }; // System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute

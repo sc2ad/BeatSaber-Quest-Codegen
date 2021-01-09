@@ -164,7 +164,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Overlay* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SteamVR_Overlay").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Overlay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Overlay*, creationType>()));
     }
   }; // SteamVR_Overlay

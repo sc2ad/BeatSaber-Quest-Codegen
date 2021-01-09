@@ -51,7 +51,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x1464FE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateImplCollection* New_ctor(System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509CertificateImplCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateImplCollection*, creationType>(other)));
     }
     // public System.Int32 get_Count()
@@ -75,7 +75,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateImplCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509CertificateImplCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateImplCollection*, creationType>()));
     }
     // public System.Void Dispose()

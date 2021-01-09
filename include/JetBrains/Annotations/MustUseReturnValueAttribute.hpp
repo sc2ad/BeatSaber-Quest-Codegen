@@ -35,7 +35,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE744
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MustUseReturnValueAttribute* New_ctor(::Il2CppString* justification) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("MustUseReturnValueAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::MustUseReturnValueAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MustUseReturnValueAttribute*, creationType>(justification)));
     }
     // public System.String get_Justification()
@@ -51,7 +51,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MustUseReturnValueAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("MustUseReturnValueAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::MustUseReturnValueAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MustUseReturnValueAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.MustUseReturnValueAttribute

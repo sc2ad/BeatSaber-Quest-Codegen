@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1905DBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRRenderModels::_GetRenderModelErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetRenderModelErrorNameFromEnum").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRRenderModels::_GetRenderModelErrorNameFromEnum*, creationType>(object, method)));
     }
     // public System.IntPtr Invoke(OVR.OpenVR.EVRRenderModelError error)

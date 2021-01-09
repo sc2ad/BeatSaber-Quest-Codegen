@@ -55,14 +55,14 @@ namespace System::Text {
     // Offset: 0x16A99D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF8Encoding* New_ctor(bool encoderShouldEmitUTF8Identifier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("UTF8Encoding").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF8Encoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF8Encoding*, creationType>(encoderShouldEmitUTF8Identifier)));
     }
     // public System.Void .ctor(System.Boolean encoderShouldEmitUTF8Identifier, System.Boolean throwOnInvalidBytes)
     // Offset: 0x16A9A10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF8Encoding* New_ctor(bool encoderShouldEmitUTF8Identifier, bool throwOnInvalidBytes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("UTF8Encoding").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF8Encoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF8Encoding*, creationType>(encoderShouldEmitUTF8Identifier, throwOnInvalidBytes)));
     }
     // static private System.Int32 PtrDiff(System.Char* a, System.Char* b)
@@ -90,7 +90,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF8Encoding* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("UTF8Encoding").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF8Encoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF8Encoding*, creationType>()));
     }
     // override System.Void SetDefaultFallbacks()

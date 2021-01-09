@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Offset: 0xFCA5D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectLevelPackDestination* New_ctor(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SelectLevelPackDestination").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectLevelPackDestination::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectLevelPackDestination*, creationType>(beatmapLevelPack)));
     }
   }; // SelectLevelPackDestination

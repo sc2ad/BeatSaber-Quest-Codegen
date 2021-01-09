@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisableComponentOnNonSteam* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("DisableComponentOnNonSteam").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DisableComponentOnNonSteam::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisableComponentOnNonSteam*, creationType>()));
     }
   }; // DisableComponentOnNonSteam

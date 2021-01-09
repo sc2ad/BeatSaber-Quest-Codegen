@@ -54,7 +54,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C6E4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventDispatcher* New_ctor(System::Diagnostics::Tracing::EventDispatcher* next, ::Array<bool>* eventEnabled, System::Diagnostics::Tracing::EventListener* listener) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EventDispatcher").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventDispatcher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventDispatcher*, creationType>(next, eventEnabled, listener)));
     }
   }; // System.Diagnostics.Tracing.EventDispatcher

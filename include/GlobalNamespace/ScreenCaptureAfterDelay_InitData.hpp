@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0x198DA5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenCaptureAfterDelay::InitData* New_ctor(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType, float screenCaptureTime, int pixelsWidth, int pixelsHeight) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InitData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ScreenCaptureAfterDelay::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenCaptureAfterDelay::InitData*, creationType>(screenshotType, screenCaptureTime, pixelsWidth, pixelsHeight)));
     }
   }; // ScreenCaptureAfterDelay/InitData

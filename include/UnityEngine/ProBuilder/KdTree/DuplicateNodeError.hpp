@@ -26,7 +26,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DuplicateNodeError* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("DuplicateNodeError").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::DuplicateNodeError::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DuplicateNodeError*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.KdTree.DuplicateNodeError

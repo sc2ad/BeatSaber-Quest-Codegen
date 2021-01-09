@@ -67,7 +67,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F54A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRInput* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("CVRInput").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRInput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRInput*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.EVRInputError SetActionManifestPath(System.String pchActionManifestPath)

@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Offset: 0xF39F04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPackMasksModel* New_ctor(GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SongPackMasksModel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPackMasksModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPackMasksModel*, creationType>(beatmapLevelsModel)));
     }
     // public SongPackMask GetAllSongsMask()

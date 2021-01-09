@@ -30,7 +30,7 @@ namespace System::Collections::Generic {
     // Offset: 0xFFFFFFFF
     template<class TKey, class TValue>
     static TValue GetValueOrDefault(System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary, TKey key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("CollectionExtensions").WithContext("GetValueOrDefault");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::CollectionExtensions::GetValueOrDefault");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Collections.Generic", "CollectionExtensions", "GetValueOrDefault", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, ::il2cpp_utils::ExtractTypes(dictionary, key))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()})));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, dictionary, key);
@@ -39,7 +39,7 @@ namespace System::Collections::Generic {
     // Offset: 0xFFFFFFFF
     template<class TKey, class TValue>
     static TValue GetValueOrDefault(System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary, TKey key, TValue defaultValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("CollectionExtensions").WithContext("GetValueOrDefault");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::CollectionExtensions::GetValueOrDefault");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Collections.Generic", "CollectionExtensions", "GetValueOrDefault", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, ::il2cpp_utils::ExtractTypes(dictionary, key, defaultValue))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()})));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, dictionary, key, defaultValue);

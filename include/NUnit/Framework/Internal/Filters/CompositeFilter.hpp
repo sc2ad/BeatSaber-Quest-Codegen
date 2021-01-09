@@ -51,7 +51,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Offset: 0x13F1B20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeFilter* New_ctor(::Array<NUnit::Framework::Interfaces::ITestFilter*>* filters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Filters").WithContext("CompositeFilter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Filters::CompositeFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeFilter*, creationType>(filters)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
@@ -80,7 +80,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeFilter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Filters").WithContext("CompositeFilter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Filters::CompositeFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeFilter*, creationType>()));
     }
     // public override System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)

@@ -107,7 +107,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BombCutSoundEffectManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BombCutSoundEffectManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BombCutSoundEffectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BombCutSoundEffectManager*, creationType>()));
     }
   }; // BombCutSoundEffectManager

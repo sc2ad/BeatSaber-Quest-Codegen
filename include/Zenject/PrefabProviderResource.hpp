@@ -45,7 +45,7 @@ namespace Zenject {
     // Offset: 0x134BA8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabProviderResource* New_ctor(::Il2CppString* resourcePath) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PrefabProviderResource").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabProviderResource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabProviderResource*, creationType>(resourcePath)));
     }
     // public UnityEngine.Object GetPrefab()

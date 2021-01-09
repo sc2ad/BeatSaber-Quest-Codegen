@@ -615,21 +615,21 @@ namespace System {
     // Offset: 0x1553020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Uri* New_ctor(::Il2CppString* uriString) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Uri").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Uri::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Uri*, creationType>(uriString)));
     }
     // public System.Void .ctor(System.String uriString, System.UriKind uriKind)
     // Offset: 0x1553298
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Uri* New_ctor(::Il2CppString* uriString, System::UriKind uriKind) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Uri").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Uri::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Uri*, creationType>(uriString, uriKind)));
     }
     // public System.Void .ctor(System.Uri baseUri, System.String relativeUri)
     // Offset: 0x1553344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Uri* New_ctor(System::Uri* baseUri, ::Il2CppString* relativeUri) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Uri").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Uri::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Uri*, creationType>(baseUri, relativeUri)));
     }
     // private System.Void CreateUri(System.Uri baseUri, System.String relativeUri, System.Boolean dontEscape)
@@ -639,7 +639,7 @@ namespace System {
     // Offset: 0x1553C6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Uri* New_ctor(System::Uri* baseUri, System::Uri* relativeUri) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Uri").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Uri::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Uri*, creationType>(baseUri, relativeUri)));
     }
     // static private System.ParsingError GetCombinedString(System.Uri baseUri, System.String relativeStr, System.Boolean dontEscape, ref System.String result)
@@ -652,7 +652,7 @@ namespace System {
     // Offset: 0x1554E48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Uri* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Uri").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Uri::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Uri*, creationType>(serializationInfo, streamingContext)));
     }
     // protected System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
@@ -896,7 +896,7 @@ namespace System {
     // Offset: 0x155EEF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Uri* New_ctor(System::Uri::Flags flags, System::UriParser* uriParser, ::Il2CppString* uri) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Uri").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Uri::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Uri*, creationType>(flags, uriParser, uri)));
     }
     // static System.Uri CreateHelper(System.String uriString, System.Boolean dontEscape, System.UriKind uriKind, ref System.UriFormatException e)

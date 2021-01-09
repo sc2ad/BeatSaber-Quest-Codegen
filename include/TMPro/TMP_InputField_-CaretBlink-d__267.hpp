@@ -50,7 +50,7 @@ namespace TMPro {
     // Offset: 0xF82858
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_InputField::$CaretBlink$d__267* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("$CaretBlink$d__267").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_InputField::$CaretBlink$d__267::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_InputField::$CaretBlink$d__267*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

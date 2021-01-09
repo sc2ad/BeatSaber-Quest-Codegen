@@ -51,7 +51,7 @@ namespace System::Threading {
     // Offset: 0xE8BD54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     SpinLock(bool enableThreadOwnerTracking) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SpinLock").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SpinLock::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(enableThreadOwnerTracking)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, enableThreadOwnerTracking);
     }

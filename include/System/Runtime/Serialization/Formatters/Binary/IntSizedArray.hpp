@@ -40,7 +40,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12F26F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IntSizedArray* New_ctor(System::Runtime::Serialization::Formatters::Binary::IntSizedArray* sizedArray) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization::Formatters::Binary").WithContext("IntSizedArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::IntSizedArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IntSizedArray*, creationType>(sizedArray)));
     }
     // System.Int32 get_Item(System.Int32 index)
@@ -58,7 +58,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IntSizedArray* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization::Formatters::Binary").WithContext("IntSizedArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::IntSizedArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IntSizedArray*, creationType>()));
     }
     // public System.Object Clone()

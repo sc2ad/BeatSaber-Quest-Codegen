@@ -28,7 +28,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Toggle::ToggleEvent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("ToggleEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Toggle::ToggleEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Toggle::ToggleEvent*, creationType>()));
     }
   }; // UnityEngine.UI.Toggle/ToggleEvent

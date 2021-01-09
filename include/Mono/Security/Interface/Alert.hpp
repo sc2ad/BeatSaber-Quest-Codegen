@@ -43,7 +43,7 @@ namespace Mono::Security::Interface {
     // Offset: 0x17B74E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Alert* New_ctor(Mono::Security::Interface::AlertDescription description) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::Interface").WithContext("Alert").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::Alert::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Alert*, creationType>(description)));
     }
     // private System.Void inferAlertLevel()

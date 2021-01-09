@@ -99,21 +99,21 @@ namespace System::Globalization {
     // Offset: 0x142810C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegionInfo* New_ctor(int culture) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("RegionInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::RegionInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegionInfo*, creationType>(culture)));
     }
     // public System.Void .ctor(System.String name)
     // Offset: 0x14282EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegionInfo* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("RegionInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::RegionInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegionInfo*, creationType>(name)));
     }
     // private System.Void .ctor(System.Globalization.CultureInfo ci)
     // Offset: 0x1427F5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegionInfo* New_ctor(System::Globalization::CultureInfo* ci) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("RegionInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::RegionInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegionInfo*, creationType>(ci)));
     }
     // private System.Boolean GetByTerritory(System.Globalization.CultureInfo ci)

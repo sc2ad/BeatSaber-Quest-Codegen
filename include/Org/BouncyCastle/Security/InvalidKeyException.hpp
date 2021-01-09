@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Security {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidKeyException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Security").WithContext("InvalidKeyException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::InvalidKeyException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidKeyException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -39,7 +39,7 @@ namespace Org::BouncyCastle::Security {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidKeyException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Security").WithContext("InvalidKeyException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::InvalidKeyException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidKeyException*, creationType>(message)));
     }
   }; // Org.BouncyCastle.Security.InvalidKeyException

@@ -43,7 +43,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x145D39C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X500DistinguishedName* New_ctor(::Array<uint8_t>* encodedDistinguishedName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X500DistinguishedName").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X500DistinguishedName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X500DistinguishedName*, creationType>(encodedDistinguishedName)));
     }
     // public System.String Decode(System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags flag)

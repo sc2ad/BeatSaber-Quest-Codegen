@@ -51,14 +51,14 @@ namespace System::Linq {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Buffer_1(System::Collections::Generic::IEnumerable_1<TElement>* source) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("Buffer_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Buffer_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(source)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, source);
     }
     // TElement[] ToArray()
     // Offset: 0xFFFFFFFF
     ::Array<TElement>* ToArray() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("Buffer_1").WithContext("ToArray");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Buffer_1::ToArray");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "ToArray", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Array<TElement>*, false>(*this, ___internal__method);
     }

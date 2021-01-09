@@ -39,7 +39,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0x22B56D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketProcessor::SubscribeDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("SubscribeDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketProcessor::SubscribeDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(LiteNetLib.Utils.NetDataReader reader, System.Object userData)

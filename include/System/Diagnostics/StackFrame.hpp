@@ -98,7 +98,7 @@ namespace System::Diagnostics {
     // Offset: 0x1677A44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackFrame* New_ctor(int skipFrames, bool fNeedFileInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("StackFrame").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::StackFrame::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackFrame*, creationType>(skipFrames, fNeedFileInfo)));
     }
     // public System.Int32 GetFileLineNumber()
@@ -134,7 +134,7 @@ namespace System::Diagnostics {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackFrame* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("StackFrame").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::StackFrame::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackFrame*, creationType>()));
     }
     // public override System.String ToString()

@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x185D37C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_IsFullscreen* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_IsFullscreen").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_IsFullscreen::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_IsFullscreen*, creationType>(object, method)));
     }
     // public System.Boolean Invoke()

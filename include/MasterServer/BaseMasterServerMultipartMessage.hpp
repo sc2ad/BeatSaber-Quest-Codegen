@@ -149,7 +149,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseMasterServerMultipartMessage* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("BaseMasterServerMultipartMessage").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::BaseMasterServerMultipartMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseMasterServerMultipartMessage*, creationType>()));
     }
   }; // MasterServer.BaseMasterServerMultipartMessage

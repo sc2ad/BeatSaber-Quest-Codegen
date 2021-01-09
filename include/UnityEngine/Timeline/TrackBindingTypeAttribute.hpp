@@ -45,14 +45,14 @@ namespace UnityEngine::Timeline {
     // Offset: 0x19728E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackBindingTypeAttribute* New_ctor(System::Type* type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TrackBindingTypeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TrackBindingTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackBindingTypeAttribute*, creationType>(type)));
     }
     // public System.Void .ctor(System.Type type, UnityEngine.Timeline.TrackBindingFlags flags)
     // Offset: 0x1972920
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackBindingTypeAttribute* New_ctor(System::Type* type, UnityEngine::Timeline::TrackBindingFlags flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TrackBindingTypeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TrackBindingTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackBindingTypeAttribute*, creationType>(type, flags)));
     }
   }; // UnityEngine.Timeline.TrackBindingTypeAttribute

@@ -51,7 +51,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11D9E8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudStorageUpdateResponse* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("CloudStorageUpdateResponse").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CloudStorageUpdateResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CloudStorageUpdateResponse*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.CloudStorageUpdateResponse

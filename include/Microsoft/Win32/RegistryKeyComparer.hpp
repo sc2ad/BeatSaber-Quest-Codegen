@@ -46,7 +46,7 @@ namespace Microsoft::Win32 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegistryKeyComparer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Microsoft::Win32").WithContext("RegistryKeyComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::RegistryKeyComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegistryKeyComparer*, creationType>()));
     }
   }; // Microsoft.Win32.RegistryKeyComparer

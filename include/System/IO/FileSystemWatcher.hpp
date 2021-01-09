@@ -197,7 +197,7 @@ namespace System::IO {
     // Offset: 0x148F094
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileSystemWatcher* New_ctor(::Il2CppString* path, ::Il2CppString* filter) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileSystemWatcher").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemWatcher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileSystemWatcher*, creationType>(path, filter)));
     }
     // private System.Void InitWatcher()

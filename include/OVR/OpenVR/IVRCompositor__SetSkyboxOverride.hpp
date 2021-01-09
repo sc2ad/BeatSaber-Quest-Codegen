@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x185E78C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_SetSkyboxOverride* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_SetSkyboxOverride").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_SetSkyboxOverride*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVRCompositorError Invoke(in OVR.OpenVR.Texture_t[] pTextures, System.UInt32 unTextureCount)

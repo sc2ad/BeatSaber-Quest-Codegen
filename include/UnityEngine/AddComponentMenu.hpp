@@ -35,14 +35,14 @@ namespace UnityEngine {
     // Offset: 0x1679DF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddComponentMenu* New_ctor(::Il2CppString* menuName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("AddComponentMenu").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddComponentMenu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddComponentMenu*, creationType>(menuName)));
     }
     // public System.Void .ctor(System.String menuName, System.Int32 order)
     // Offset: 0x1679E2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddComponentMenu* New_ctor(::Il2CppString* menuName, int order) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("AddComponentMenu").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddComponentMenu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddComponentMenu*, creationType>(menuName, order)));
     }
   }; // UnityEngine.AddComponentMenu

@@ -49,7 +49,7 @@ namespace Zenject {
     // public Zenject.DiContainer get_Container()
     // Offset: 0xFFFFFFFF
     Zenject::DiContainer* get_Container() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PrefabFactory_4").WithContext("get_Container");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabFactory_4::get_Container");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Container", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<Zenject::DiContainer*, false>(this, ___internal__method);
     }
@@ -58,7 +58,7 @@ namespace Zenject {
     // Implemented from: Zenject.IFactory`5
     // Base method: TValue IFactory_5::Create(UnityEngine.Object prefab, P1 param, P2 param2, P3 param3)
     T Create(UnityEngine::Object* prefab, P1 param, P2 param2, P3 param3) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PrefabFactory_4").WithContext("Create");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabFactory_4::Create");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(prefab, param, param2, param3)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefab, param, param2, param3);
     }
@@ -73,7 +73,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabFactory_4<P1, P2, P3, T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PrefabFactory_4").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabFactory_4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabFactory_4<P1, P2, P3, T>*, creationType>()));
     }
   }; // Zenject.PrefabFactory`4

@@ -27,7 +27,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AspMvcViewComponentAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("AspMvcViewComponentAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::AspMvcViewComponentAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AspMvcViewComponentAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.AspMvcViewComponentAttribute

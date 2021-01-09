@@ -37,7 +37,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x1169F74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChannelInfo* New_ctor(::Il2CppObject* remoteChannelData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting").WithContext("ChannelInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ChannelInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChannelInfo*, creationType>(remoteChannelData)));
     }
     // public System.Void .ctor()
@@ -46,7 +46,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChannelInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting").WithContext("ChannelInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ChannelInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChannelInfo*, creationType>()));
     }
     // public System.Object[] get_ChannelData()

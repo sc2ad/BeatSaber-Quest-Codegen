@@ -55,7 +55,7 @@ namespace Mono::Security::X509 {
     // Offset: 0x19C4730
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Crl::X509CrlEntry* New_ctor(Mono::Security::ASN1* entry) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::X509").WithContext("X509CrlEntry").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Crl::X509CrlEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Crl::X509CrlEntry*, creationType>(entry)));
     }
     // public System.Byte[] get_SerialNumber()

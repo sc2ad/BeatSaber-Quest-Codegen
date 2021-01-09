@@ -37,7 +37,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE40C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CollectionAccessAttribute* New_ctor(JetBrains::Annotations::CollectionAccessType collectionAccessType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("CollectionAccessAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::CollectionAccessAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CollectionAccessAttribute*, creationType>(collectionAccessType)));
     }
     // public JetBrains.Annotations.CollectionAccessType get_CollectionAccessType()

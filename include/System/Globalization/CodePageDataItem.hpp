@@ -49,7 +49,7 @@ namespace System::Globalization {
     // Offset: 0x112F354
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CodePageDataItem* New_ctor(int dataIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("CodePageDataItem").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CodePageDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CodePageDataItem*, creationType>(dataIndex)));
     }
     // static System.String CreateString(System.String pStrings, System.UInt32 index)

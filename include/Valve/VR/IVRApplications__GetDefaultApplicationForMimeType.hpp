@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x136E4B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRApplications::_GetDefaultApplicationForMimeType* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetDefaultApplicationForMimeType").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRApplications::_GetDefaultApplicationForMimeType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRApplications::_GetDefaultApplicationForMimeType*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.String pchMimeType, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)

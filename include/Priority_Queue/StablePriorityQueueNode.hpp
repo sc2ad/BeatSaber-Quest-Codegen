@@ -43,7 +43,7 @@ namespace Priority_Queue {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StablePriorityQueueNode* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("StablePriorityQueueNode").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::StablePriorityQueueNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StablePriorityQueueNode*, creationType>()));
     }
   }; // Priority_Queue.StablePriorityQueueNode

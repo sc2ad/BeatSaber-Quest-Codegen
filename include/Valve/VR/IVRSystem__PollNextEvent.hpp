@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x19301E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_PollNextEvent* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_PollNextEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRSystem::_PollNextEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_PollNextEvent*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(ref Valve.VR.VREvent_t pEvent, System.UInt32 uncbVREvent)

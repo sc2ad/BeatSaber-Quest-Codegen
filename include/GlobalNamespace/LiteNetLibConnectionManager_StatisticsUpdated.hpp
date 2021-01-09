@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x1B52450
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LiteNetLibConnectionManager::StatisticsUpdated* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("StatisticsUpdated").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager::StatisticsUpdated*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Int64 packetsSent, System.Int64 packetsReceived, System.Int64 bytesSent, System.Int64 bytesReceived, System.Int64 packetsLost, System.Int64 packetsSentEncrypted, System.Int64 packetsSentPlaintext, System.Int64 packetsSentRejected, System.Int64 packetsReceivedEncrypted, System.Int64 packetsReceivedPlaintext, System.Int64 packetsReceivedRejected, System.Int64 encryptionProcessingTime, System.Int64 decryptionProcessingTime)

@@ -38,7 +38,7 @@ namespace LiteNetLib::Layers {
     // Offset: 0x1DC4050
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PacketLayerBase* New_ctor(int extraPacketSizeForLayer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Layers").WithContext("PacketLayerBase").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Layers::PacketLayerBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PacketLayerBase*, creationType>(extraPacketSizeForLayer)));
     }
     // public System.Void ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)

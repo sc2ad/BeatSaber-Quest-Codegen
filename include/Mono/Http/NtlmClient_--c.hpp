@@ -54,7 +54,7 @@ namespace Mono::Http {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NtlmClient::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Http").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Http::NtlmClient::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NtlmClient::$$c*, creationType>()));
     }
   }; // Mono.Http.NtlmClient/<>c

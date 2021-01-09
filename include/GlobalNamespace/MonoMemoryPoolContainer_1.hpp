@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.HashSet`1<T> get_activeItems()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::HashSet_1<T>* get_activeItems() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MonoMemoryPoolContainer_1").WithContext("get_activeItems");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MonoMemoryPoolContainer_1::get_activeItems");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_activeItems", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::HashSet_1<T>*, false>(this, ___internal__method);
     }
@@ -59,20 +59,20 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoMemoryPoolContainer_1<T>* New_ctor(Zenject::MonoMemoryPool_1<T>* memoryPool) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MonoMemoryPoolContainer_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MonoMemoryPoolContainer_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoMemoryPoolContainer_1<T>*, creationType>(memoryPool)));
     }
     // public T Spawn()
     // Offset: 0xFFFFFFFF
     T Spawn() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MonoMemoryPoolContainer_1").WithContext("Spawn");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MonoMemoryPoolContainer_1::Spawn");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void Despawn(T item)
     // Offset: 0xFFFFFFFF
     void Despawn(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MonoMemoryPoolContainer_1").WithContext("Despawn");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MonoMemoryPoolContainer_1::Despawn");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Despawn", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }

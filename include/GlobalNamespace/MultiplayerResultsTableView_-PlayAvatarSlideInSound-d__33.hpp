@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Offset: 0xF7E5BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsTableView::$PlayAvatarSlideInSound$d__33* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$PlayAvatarSlideInSound$d__33").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerResultsTableView::$PlayAvatarSlideInSound$d__33::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsTableView::$PlayAvatarSlideInSound$d__33*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

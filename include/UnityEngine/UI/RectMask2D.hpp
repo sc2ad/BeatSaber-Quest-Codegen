@@ -162,7 +162,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RectMask2D* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("RectMask2D").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::RectMask2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectMask2D*, creationType>()));
     }
     // protected override System.Void OnEnable()

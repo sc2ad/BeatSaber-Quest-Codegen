@@ -70,7 +70,7 @@ namespace UnityEngine::Playables {
     bool Connect(U source, int sourceOutputPort, V destination, int destinationInputPort) {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayable, std::remove_pointer_t<U>> && is_value_type_v<U>);
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayable, std::remove_pointer_t<V>> && is_value_type_v<V>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Playables").WithContext("PlayableGraph").WithContext("Connect");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableGraph::Connect");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Connect", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<V>::get()}, ::il2cpp_utils::ExtractTypes(source, sourceOutputPort, destination, destinationInputPort))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<V>::get()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, source, sourceOutputPort, destination, destinationInputPort);

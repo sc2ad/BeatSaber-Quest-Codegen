@@ -469,7 +469,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Image* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("Image").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Image::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Image*, creationType>()));
     }
     // public override UnityEngine.Texture get_mainTexture()

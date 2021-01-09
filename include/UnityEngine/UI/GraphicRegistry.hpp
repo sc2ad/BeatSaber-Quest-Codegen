@@ -86,7 +86,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GraphicRegistry* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("GraphicRegistry").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::GraphicRegistry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GraphicRegistry*, creationType>()));
     }
   }; // UnityEngine.UI.GraphicRegistry

@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0xFC138C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberModelController::InitData* New_ctor(UnityEngine::Color trailTintColor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InitData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SaberModelController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberModelController::InitData*, creationType>(trailTintColor)));
     }
     // public System.Void .ctor()
@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberModelController::InitData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InitData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SaberModelController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberModelController::InitData*, creationType>()));
     }
   }; // SaberModelController/InitData

@@ -208,7 +208,7 @@ namespace System::Net {
     // Offset: 0x11A2E58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServicePoint* New_ctor(System::Uri* uri, int connectionLimit, int maxIdleTime) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("ServicePoint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServicePoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServicePoint*, creationType>(uri, connectionLimit, maxIdleTime)));
     }
     // public System.Uri get_Address()

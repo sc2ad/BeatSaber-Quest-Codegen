@@ -78,7 +78,7 @@ namespace UnityEngine {
     // Offset: 0xCA772C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Rect(UnityEngine::Vector2 position, UnityEngine::Vector2 size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Rect").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rect::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(position, size)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, position, size);
     }

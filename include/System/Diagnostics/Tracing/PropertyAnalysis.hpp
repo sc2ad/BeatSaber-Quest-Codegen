@@ -59,7 +59,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x111F3C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PropertyAnalysis* New_ctor(::Il2CppString* name, System::Reflection::MethodInfo* getterInfo, System::Diagnostics::Tracing::TraceLoggingTypeInfo* typeInfo, System::Diagnostics::Tracing::EventFieldAttribute* fieldAttribute) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("PropertyAnalysis").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::PropertyAnalysis::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PropertyAnalysis*, creationType>(name, getterInfo, typeInfo, fieldAttribute)));
     }
   }; // System.Diagnostics.Tracing.PropertyAnalysis

@@ -31,7 +31,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x1177D10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADArgHolder* New_ctor(int i) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("CADArgHolder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADArgHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADArgHolder*, creationType>(i)));
     }
   }; // System.Runtime.Remoting.Messaging.CADArgHolder

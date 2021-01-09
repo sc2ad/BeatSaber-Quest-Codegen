@@ -68,7 +68,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OffsetPose::EffectorLink* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("EffectorLink").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::OffsetPose::EffectorLink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OffsetPose::EffectorLink*, creationType>()));
     }
   }; // RootMotion.FinalIK.OffsetPose/EffectorLink

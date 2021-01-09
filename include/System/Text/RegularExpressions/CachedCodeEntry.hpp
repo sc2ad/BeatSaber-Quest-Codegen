@@ -95,7 +95,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x146CB0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CachedCodeEntry* New_ctor(::Il2CppString* key, System::Collections::Hashtable* capnames, ::Array<::Il2CppString*>* capslist, System::Text::RegularExpressions::RegexCode* code, System::Collections::Hashtable* caps, int capsize, System::Text::RegularExpressions::ExclusiveReference* runner, System::Text::RegularExpressions::SharedReference* repl) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text::RegularExpressions").WithContext("CachedCodeEntry").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::CachedCodeEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CachedCodeEntry*, creationType>(key, capnames, capslist, code, caps, capsize, runner, repl)));
     }
   }; // System.Text.RegularExpressions.CachedCodeEntry

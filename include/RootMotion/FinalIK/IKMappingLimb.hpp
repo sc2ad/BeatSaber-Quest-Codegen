@@ -117,7 +117,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x170D2D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKMappingLimb* New_ctor(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3, UnityEngine::Transform* parentBone) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("IKMappingLimb").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKMappingLimb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKMappingLimb*, creationType>(bone1, bone2, bone3, parentBone)));
     }
     // public System.Void SetBones(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, UnityEngine.Transform parentBone)
@@ -147,7 +147,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKMappingLimb* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("IKMappingLimb").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKMappingLimb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKMappingLimb*, creationType>()));
     }
     // public override System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)

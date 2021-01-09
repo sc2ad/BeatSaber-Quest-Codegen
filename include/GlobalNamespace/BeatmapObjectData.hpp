@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Offset: 0x19F5EF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectData* New_ctor(float time, int lineIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BeatmapObjectData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectData*, creationType>(time, lineIndex)));
     }
     // public System.Void MirrorLineIndex(System.Int32 lineCount)

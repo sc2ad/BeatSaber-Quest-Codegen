@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MasterServerAvailabilityData::UserMessage* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("UserMessage").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MasterServerAvailabilityData::UserMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MasterServerAvailabilityData::UserMessage*, creationType>()));
     }
   }; // MasterServerAvailabilityData/UserMessage

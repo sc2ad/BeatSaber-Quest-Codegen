@@ -42,7 +42,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x1A044DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativePropertyAttribute* New_ctor(::Il2CppString* name, bool isFree, UnityEngine::Bindings::TargetType targetType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("NativePropertyAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativePropertyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativePropertyAttribute*, creationType>(name, isFree, targetType)));
     }
     // public System.Void .ctor()
@@ -53,7 +53,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativePropertyAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("NativePropertyAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativePropertyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativePropertyAttribute*, creationType>()));
     }
     // public System.Void .ctor(System.String name)
@@ -62,7 +62,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void NativeMethodAttribute::.ctor(System.String name)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativePropertyAttribute* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("NativePropertyAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativePropertyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativePropertyAttribute*, creationType>(name)));
     }
   }; // UnityEngine.Bindings.NativePropertyAttribute

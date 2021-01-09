@@ -43,7 +43,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Offset: 0x18BF708
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemReader* New_ctor(System::IO::TextReader* reader) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Utilities::IO::Pem").WithContext("PemReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::IO::Pem::PemReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemReader*, creationType>(reader)));
     }
     // public Org.BouncyCastle.Utilities.IO.Pem.PemObject ReadPemObject()

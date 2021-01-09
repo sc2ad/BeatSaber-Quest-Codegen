@@ -50,7 +50,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NtlmClient* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("NtlmClient").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NtlmClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NtlmClient*, creationType>()));
     }
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)

@@ -33,13 +33,13 @@ namespace ModestTree::Util {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValuePair_3<T1, T2, T3>* New_ctor(T1 first, T2 second, T3 third) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("ValuePair_3").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::ValuePair_3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValuePair_3<T1, T2, T3>*, creationType>(first, second, third)));
     }
     // public System.Boolean Equals(ModestTree.Util.ValuePair`3<T1,T2,T3> that)
     // Offset: 0xFFFFFFFF
     bool Equals(ModestTree::Util::ValuePair_3<T1, T2, T3>* that) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("ValuePair_3").WithContext("Equals");
+      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::ValuePair_3::Equals");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(that)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, that);
     }
@@ -49,7 +49,7 @@ namespace ModestTree::Util {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValuePair_3<T1, T2, T3>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("ValuePair_3").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::ValuePair_3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValuePair_3<T1, T2, T3>*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
@@ -57,7 +57,7 @@ namespace ModestTree::Util {
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("ValuePair_3").WithContext("Equals");
+      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::ValuePair_3::Equals");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(obj)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, obj);
     }
@@ -66,7 +66,7 @@ namespace ModestTree::Util {
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("ValuePair_3").WithContext("GetHashCode");
+      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::ValuePair_3::GetHashCode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }

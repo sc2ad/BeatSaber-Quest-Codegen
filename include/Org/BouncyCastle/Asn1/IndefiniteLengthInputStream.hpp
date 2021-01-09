@@ -52,7 +52,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void LimitedInputStream::.ctor(System.IO.Stream inStream, System.Int32 limit)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IndefiniteLengthInputStream* New_ctor(System::IO::Stream* inStream, int limit) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("IndefiniteLengthInputStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IndefiniteLengthInputStream*, creationType>(inStream, limit)));
     }
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)

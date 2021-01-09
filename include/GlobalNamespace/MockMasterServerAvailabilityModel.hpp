@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockMasterServerAvailabilityModel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MockMasterServerAvailabilityModel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockMasterServerAvailabilityModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockMasterServerAvailabilityModel*, creationType>()));
     }
   }; // MockMasterServerAvailabilityModel

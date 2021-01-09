@@ -51,7 +51,7 @@ namespace System::Collections {
     // Offset: 0x1529050
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::KeyCollection* New_ctor(System::Collections::Hashtable* hashtable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("KeyCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::KeyCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::KeyCollection*, creationType>(hashtable)));
     }
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)

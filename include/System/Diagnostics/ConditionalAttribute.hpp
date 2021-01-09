@@ -35,7 +35,7 @@ namespace System::Diagnostics {
     // Offset: 0x1677668
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConditionalAttribute* New_ctor(::Il2CppString* conditionString) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("ConditionalAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::ConditionalAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConditionalAttribute*, creationType>(conditionString)));
     }
   }; // System.Diagnostics.ConditionalAttribute

@@ -76,7 +76,7 @@ namespace MasterServer {
     // Offset: 0x1ADF680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertificateRequest::$get_certificateList$d__5* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("$get_certificateList$d__5").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::ServerCertificateRequest::$get_certificateList$d__5::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertificateRequest::$get_certificateList$d__5*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

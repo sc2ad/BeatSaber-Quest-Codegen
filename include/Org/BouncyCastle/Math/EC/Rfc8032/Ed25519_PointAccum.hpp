@@ -55,7 +55,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed25519::PointAccum* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Rfc8032").WithContext("PointAccum").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed25519::PointAccum*, creationType>()));
     }
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/PointAccum

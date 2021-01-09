@@ -63,7 +63,7 @@ namespace System::Text {
     // Offset: 0x15A4E80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalEncoderBestFitFallbackBuffer* New_ctor(System::Text::InternalEncoderBestFitFallback* fallback) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("InternalEncoderBestFitFallbackBuffer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::InternalEncoderBestFitFallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalEncoderBestFitFallbackBuffer*, creationType>(fallback)));
     }
     // private System.Char TryBestFit(System.Char cUnknown)

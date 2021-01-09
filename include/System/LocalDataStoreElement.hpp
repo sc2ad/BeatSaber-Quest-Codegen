@@ -33,7 +33,7 @@ namespace System {
     // Offset: 0x13B4304
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStoreElement* New_ctor(int64_t cookie) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("LocalDataStoreElement").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::LocalDataStoreElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalDataStoreElement*, creationType>(cookie)));
     }
     // public System.Object get_Value()

@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Offset: 0x1E54418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfanityFilter::$GetLookalikeLetters$d__4* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$GetLookalikeLetters$d__4").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ProfanityFilter::$GetLookalikeLetters$d__4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfanityFilter::$GetLookalikeLetters$d__4*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

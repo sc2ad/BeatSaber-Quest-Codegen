@@ -20,14 +20,14 @@ namespace System::Diagnostics::Tracing {
     // public System.Int32 Compare(ItemType other)
     // Offset: 0xFFFFFFFF
     int Compare(ItemType other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("ConcurrentSetItem_2").WithContext("Compare");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ConcurrentSetItem_2::Compare");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Compare", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(other)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, other);
     }
     // public System.Int32 Compare(KeyType key)
     // Offset: 0xFFFFFFFF
     int Compare(KeyType key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("ConcurrentSetItem_2").WithContext("Compare");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ConcurrentSetItem_2::Compare");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Compare", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, key);
     }
@@ -37,7 +37,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConcurrentSetItem_2<KeyType, ItemType>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("ConcurrentSetItem_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ConcurrentSetItem_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConcurrentSetItem_2<KeyType, ItemType>*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.ConcurrentSetItem`2

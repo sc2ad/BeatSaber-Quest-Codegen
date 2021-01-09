@@ -72,7 +72,7 @@ namespace UnityEngine::ProBuilder {
     template<class T>
     static T GetMeshChannel(UnityEngine::GameObject* gameObject, System::Func_2<UnityEngine::Mesh*, T>* attributeGetter) {
       static_assert(std::is_base_of_v<System::Collections::IList, std::remove_pointer_t<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("MeshUtility").WithContext("GetMeshChannel");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshUtility::GetMeshChannel");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "MeshUtility", "GetMeshChannel", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObject, attributeGetter)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, gameObject, attributeGetter);

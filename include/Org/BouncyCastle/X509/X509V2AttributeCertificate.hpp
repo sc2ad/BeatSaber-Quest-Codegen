@@ -66,21 +66,21 @@ namespace Org::BouncyCastle::X509 {
     // Offset: 0x18C6430
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509V2AttributeCertificate* New_ctor(System::IO::Stream* encIn) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::X509").WithContext("X509V2AttributeCertificate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::X509V2AttributeCertificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509V2AttributeCertificate*, creationType>(encIn)));
     }
     // public System.Void .ctor(System.Byte[] encoded)
     // Offset: 0x18C65F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509V2AttributeCertificate* New_ctor(::Array<uint8_t>* encoded) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::X509").WithContext("X509V2AttributeCertificate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::X509V2AttributeCertificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509V2AttributeCertificate*, creationType>(encoded)));
     }
     // System.Void .ctor(Org.BouncyCastle.Asn1.X509.AttributeCertificate cert)
     // Offset: 0x18C645C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509V2AttributeCertificate* New_ctor(Org::BouncyCastle::Asn1::X509::AttributeCertificate* cert) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::X509").WithContext("X509V2AttributeCertificate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::X509V2AttributeCertificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509V2AttributeCertificate*, creationType>(cert)));
     }
     // protected override Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()

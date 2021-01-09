@@ -50,7 +50,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13E5E44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringConstraint* New_ctor(::Il2CppString* expected) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Constraints").WithContext("StringConstraint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::StringConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringConstraint*, creationType>(expected)));
     }
     // protected System.Boolean Matches(System.String actual)

@@ -105,7 +105,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x12F533C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectManager* New_ctor(System::Runtime::Serialization::ISurrogateSelector* selector, System::Runtime::Serialization::StreamingContext context, bool checkSecurity, bool isCrossAppDomain) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("ObjectManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectManager*, creationType>(selector, context, checkSecurity, isCrossAppDomain)));
     }
     // private System.Boolean CanCallGetType(System.Object obj)

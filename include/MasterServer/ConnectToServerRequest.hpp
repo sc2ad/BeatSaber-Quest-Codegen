@@ -93,7 +93,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectToServerRequest* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("ConnectToServerRequest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::ConnectToServerRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectToServerRequest*, creationType>()));
     }
   }; // MasterServer.ConnectToServerRequest

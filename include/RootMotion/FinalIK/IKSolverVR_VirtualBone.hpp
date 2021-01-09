@@ -69,7 +69,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x17D91BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverVR::VirtualBone* New_ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("VirtualBone").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverVR::VirtualBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR::VirtualBone*, creationType>(position, rotation)));
     }
     // public System.Void Read(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)

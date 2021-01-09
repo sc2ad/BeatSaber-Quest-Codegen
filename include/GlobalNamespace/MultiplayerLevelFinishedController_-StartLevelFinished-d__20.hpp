@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Offset: 0xFB6AB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLevelFinishedController::$StartLevelFinished$d__20* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$StartLevelFinished$d__20").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__20::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLevelFinishedController::$StartLevelFinished$d__20*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

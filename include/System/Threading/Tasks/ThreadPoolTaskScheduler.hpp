@@ -45,7 +45,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadPoolTaskScheduler* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("ThreadPoolTaskScheduler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::ThreadPoolTaskScheduler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadPoolTaskScheduler*, creationType>()));
     }
     // protected internal override System.Void QueueTask(System.Threading.Tasks.Task task)

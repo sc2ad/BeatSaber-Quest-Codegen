@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x185C884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_GetVulkanDeviceExtensionsRequired* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetVulkanDeviceExtensionsRequired").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_GetVulkanDeviceExtensionsRequired*, creationType>(object, method)));
     }
     // public System.UInt32 Invoke(System.IntPtr pPhysicalDevice, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)

@@ -31,7 +31,7 @@ namespace System::Net::Http {
     // Offset: 0x120F5E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpContent::FixedMemoryStream* New_ctor(int64_t maxSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http").WithContext("FixedMemoryStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpContent::FixedMemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpContent::FixedMemoryStream*, creationType>(maxSize)));
     }
     // private System.Void CheckOverflow(System.Int32 count)

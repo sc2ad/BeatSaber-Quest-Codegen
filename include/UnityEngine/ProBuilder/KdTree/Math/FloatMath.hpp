@@ -55,7 +55,7 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloatMath* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree::Math").WithContext("FloatMath").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::Math::FloatMath::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloatMath*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.KdTree.Math.FloatMath

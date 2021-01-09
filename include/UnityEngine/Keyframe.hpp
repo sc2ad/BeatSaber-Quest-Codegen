@@ -70,7 +70,7 @@ namespace UnityEngine {
     // Offset: 0xCA51C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Keyframe(float time, float value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Keyframe").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Keyframe::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(time, value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time, value);
     }
@@ -78,7 +78,7 @@ namespace UnityEngine {
     // Offset: 0xCA51D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Keyframe(float time, float value, float inTangent, float outTangent) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Keyframe").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Keyframe::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(time, value, inTangent, outTangent)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time, value, inTangent, outTangent);
     }

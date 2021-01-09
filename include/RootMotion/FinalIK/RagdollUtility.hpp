@@ -215,7 +215,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RagdollUtility* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("RagdollUtility").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RagdollUtility::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RagdollUtility*, creationType>()));
     }
   }; // RootMotion.FinalIK.RagdollUtility

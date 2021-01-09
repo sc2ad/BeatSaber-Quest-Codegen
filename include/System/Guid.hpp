@@ -155,7 +155,7 @@ namespace System {
     // Offset: 0xC9FC70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Guid(::Array<uint8_t>* b) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Guid").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Guid::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(b)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, b);
     }
@@ -163,7 +163,7 @@ namespace System {
     // Offset: 0xC9FC78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Guid(uint a, uint16_t b, uint16_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Guid").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Guid::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(a, b, c, d, e, f, g, h, i, j, k)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, a, b, c, d, e, f, g, h, i, j, k);
     }
@@ -175,7 +175,7 @@ namespace System {
     // Offset: 0xC9FCF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Guid(::Il2CppString* g) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Guid").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Guid::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(g)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, g);
     }

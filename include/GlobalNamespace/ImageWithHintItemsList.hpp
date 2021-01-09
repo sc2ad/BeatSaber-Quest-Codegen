@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ImageWithHintItemsList* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ImageWithHintItemsList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ImageWithHintItemsList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ImageWithHintItemsList*, creationType>()));
     }
   }; // ImageWithHintItemsList

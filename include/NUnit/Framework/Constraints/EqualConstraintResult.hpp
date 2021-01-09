@@ -120,7 +120,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13DCE24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EqualConstraintResult* New_ctor(NUnit::Framework::Constraints::EqualConstraint* constraint, ::Il2CppObject* actual, bool hasSucceeded) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Constraints").WithContext("EqualConstraintResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::EqualConstraintResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EqualConstraintResult*, creationType>(constraint, actual, hasSucceeded)));
     }
     // private System.Void DisplayDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.Object expected, System.Object actual, System.Int32 depth)

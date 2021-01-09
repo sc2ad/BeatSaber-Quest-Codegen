@@ -68,7 +68,7 @@ namespace System::Resources {
     // Offset: 0x15DC864
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceSet* New_ctor(bool junk) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("ResourceSet").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceSet*, creationType>(junk)));
     }
     // private System.Void CommonInit()
@@ -107,7 +107,7 @@ namespace System::Resources {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceSet* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("ResourceSet").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceSet*, creationType>()));
     }
     // public System.Void Dispose()

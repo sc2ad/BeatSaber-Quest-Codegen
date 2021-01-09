@@ -30,7 +30,7 @@ namespace Zenject {
     // protected System.Void OnDespawned(TValue item)
     // Offset: 0xFFFFFFFF
     void OnDespawned(TValue item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PoolableMemoryPool_2").WithContext("OnDespawned");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPool_2::OnDespawned");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnDespawned", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
@@ -39,7 +39,7 @@ namespace Zenject {
     // Implemented from: Zenject.MemoryPool`2
     // Base method: System.Void MemoryPool_2::Reinitialize(TParam1 p1, TValue item)
     void Reinitialize(TParam1 p1, TValue item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PoolableMemoryPool_2").WithContext("Reinitialize");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPool_2::Reinitialize");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Reinitialize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(p1, item)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, p1, item);
     }
@@ -51,7 +51,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolableMemoryPool_2<TParam1, TValue>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PoolableMemoryPool_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPool_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolableMemoryPool_2<TParam1, TValue>*, creationType>()));
     }
   }; // Zenject.PoolableMemoryPool`2

@@ -48,7 +48,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x12004B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpContentHeaders* New_ctor(System::Net::Http::HttpContent* content) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HttpContentHeaders").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpContentHeaders::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpContentHeaders*, creationType>(content)));
     }
     // public System.Nullable`1<System.Int64> get_ContentLength()

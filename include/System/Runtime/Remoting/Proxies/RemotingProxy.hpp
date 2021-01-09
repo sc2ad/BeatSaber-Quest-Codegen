@@ -87,7 +87,7 @@ namespace System::Runtime::Remoting::Proxies {
     // Offset: 0x1332788
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemotingProxy* New_ctor(System::Type* type, ::Il2CppString* activationUrl, ::Array<::Il2CppObject*>* activationAttributes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Proxies").WithContext("RemotingProxy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Proxies::RemotingProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemotingProxy*, creationType>(type, activationUrl, activationAttributes)));
     }
     // System.Void AttachIdentity(System.Runtime.Remoting.Identity identity)
@@ -105,7 +105,7 @@ namespace System::Runtime::Remoting::Proxies {
     // Base method: System.Void RealProxy::.ctor(System.Type type, System.Runtime.Remoting.ClientIdentity identity)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemotingProxy* New_ctor(System::Type* type, System::Runtime::Remoting::ClientIdentity* identity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Proxies").WithContext("RemotingProxy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Proxies::RemotingProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemotingProxy*, creationType>(type, identity)));
     }
     // public override System.Runtime.Remoting.Messaging.IMessage Invoke(System.Runtime.Remoting.Messaging.IMessage request)

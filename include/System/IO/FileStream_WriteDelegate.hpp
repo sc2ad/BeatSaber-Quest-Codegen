@@ -34,7 +34,7 @@ namespace System::IO {
     // Offset: 0x143C778
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStream::WriteDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("WriteDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::WriteDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream::WriteDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Byte[] buffer, System.Int32 offset, System.Int32 count)

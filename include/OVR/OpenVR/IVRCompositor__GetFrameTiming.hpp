@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x185ADB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_GetFrameTiming* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetFrameTiming").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_GetFrameTiming::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_GetFrameTiming*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(ref OVR.OpenVR.Compositor_FrameTiming pTiming, System.UInt32 unFramesAgo)

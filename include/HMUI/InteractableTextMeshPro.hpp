@@ -80,7 +80,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractableTextMeshPro* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("InteractableTextMeshPro").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InteractableTextMeshPro::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractableTextMeshPro*, creationType>()));
     }
   }; // HMUI.InteractableTextMeshPro

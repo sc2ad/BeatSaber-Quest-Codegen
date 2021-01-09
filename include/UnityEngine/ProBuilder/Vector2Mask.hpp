@@ -71,7 +71,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xCB58C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Vector2Mask(UnityEngine::Vector3 v, float epsilon) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("Vector2Mask").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Vector2Mask::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(v, epsilon)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, v, epsilon);
     }

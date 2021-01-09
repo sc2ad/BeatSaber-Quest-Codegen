@@ -128,7 +128,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieContainer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("CookieContainer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieContainer*, creationType>()));
     }
   }; // System.Net.CookieContainer

@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Security::Certificates {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CertificateException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Security::Certificates").WithContext("CertificateException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::Certificates::CertificateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CertificateException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -43,7 +43,7 @@ namespace Org::BouncyCastle::Security::Certificates {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CertificateException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Security::Certificates").WithContext("CertificateException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::Certificates::CertificateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CertificateException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::Security::Certificates {
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CertificateException* New_ctor(::Il2CppString* message, System::Exception* exception) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Security::Certificates").WithContext("CertificateException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::Certificates::CertificateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CertificateException*, creationType>(message, exception)));
     }
   }; // Org.BouncyCastle.Security.Certificates.CertificateException

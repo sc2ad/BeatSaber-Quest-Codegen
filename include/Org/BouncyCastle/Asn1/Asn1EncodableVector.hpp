@@ -63,14 +63,14 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x13704EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1EncodableVector* New_ctor(int initialCapacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("Asn1EncodableVector").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1EncodableVector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1EncodableVector*, creationType>(initialCapacity)));
     }
     // public System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] v)
     // Offset: 0x13705F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1EncodableVector* New_ctor(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* v) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("Asn1EncodableVector").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1EncodableVector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1EncodableVector*, creationType>(v)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] v)
@@ -136,7 +136,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1EncodableVector* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("Asn1EncodableVector").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1EncodableVector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1EncodableVector*, creationType>()));
     }
     // public System.Collections.IEnumerator GetEnumerator()

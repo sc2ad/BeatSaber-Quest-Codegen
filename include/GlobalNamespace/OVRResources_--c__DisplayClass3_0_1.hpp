@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // System.Boolean <Load>b__0(System.String s)
     // Offset: 0xFFFFFFFF
     bool $Load$b__0(::Il2CppString* s) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass3_0_1").WithContext("<Load>b__0");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRResources::$$c__DisplayClass3_0_1::<Load>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<Load>b__0", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(s))));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, s);
     }
@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRResources::$$c__DisplayClass3_0_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass3_0_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRResources::$$c__DisplayClass3_0_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRResources::$$c__DisplayClass3_0_1<T>*, creationType>()));
     }
   }; // OVRResources/<>c__DisplayClass3_0`1

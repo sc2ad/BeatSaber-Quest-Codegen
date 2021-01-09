@@ -71,7 +71,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LookAtIK* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("LookAtIK").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::LookAtIK::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LookAtIK*, creationType>()));
     }
   }; // RootMotion.FinalIK.LookAtIK

@@ -58,7 +58,7 @@ namespace Mono::Net::Security::Private {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CallbackHelpers::$$c__DisplayClass0_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Net::Security::Private").WithContext("$$c__DisplayClass0_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CallbackHelpers::$$c__DisplayClass0_0*, creationType>()));
     }
   }; // Mono.Net.Security.Private.CallbackHelpers/<>c__DisplayClass0_0

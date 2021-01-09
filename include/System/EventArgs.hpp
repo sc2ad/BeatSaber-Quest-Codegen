@@ -31,7 +31,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventArgs* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("EventArgs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::EventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventArgs*, creationType>()));
     }
   }; // System.EventArgs

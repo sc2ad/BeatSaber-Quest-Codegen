@@ -40,14 +40,14 @@ namespace LiteNetLib::Layers {
     // Offset: 0x1DC47B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XorEncryptLayer* New_ctor(::Array<uint8_t>* key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Layers").WithContext("XorEncryptLayer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Layers::XorEncryptLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XorEncryptLayer*, creationType>(key)));
     }
     // public System.Void .ctor(System.String key)
     // Offset: 0x1DC4894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XorEncryptLayer* New_ctor(::Il2CppString* key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Layers").WithContext("XorEncryptLayer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Layers::XorEncryptLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XorEncryptLayer*, creationType>(key)));
     }
     // public System.Void SetKey(System.String key)
@@ -62,7 +62,7 @@ namespace LiteNetLib::Layers {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XorEncryptLayer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Layers").WithContext("XorEncryptLayer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Layers::XorEncryptLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XorEncryptLayer*, creationType>()));
     }
     // public override System.Void ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)

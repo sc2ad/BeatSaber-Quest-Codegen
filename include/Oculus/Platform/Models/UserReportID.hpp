@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E09D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserReportID* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("UserReportID").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::UserReportID::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserReportID*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.UserReportID

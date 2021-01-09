@@ -329,7 +329,7 @@ namespace System {
     // Offset: 0x1591EC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoDriver* New_ctor(::Il2CppString* term) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TermInfoDriver").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoDriver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoDriver*, creationType>(term)));
     }
     // public System.Boolean get_Initialized()

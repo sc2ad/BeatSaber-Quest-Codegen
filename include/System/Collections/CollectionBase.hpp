@@ -84,7 +84,7 @@ namespace System::Collections {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CollectionBase* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("CollectionBase").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::CollectionBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CollectionBase*, creationType>()));
     }
     // public System.Int32 get_Count()

@@ -222,7 +222,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelDetailView* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("StandardLevelDetailView").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelDetailView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelDetailView*, creationType>()));
     }
   }; // StandardLevelDetailView

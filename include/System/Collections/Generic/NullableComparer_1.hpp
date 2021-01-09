@@ -33,7 +33,7 @@ namespace System::Collections::Generic {
     // public System.Int32 Compare(System.Nullable`1<T> x, System.Nullable`1<T> y)
     // Offset: 0xFFFFFFFF
     int Compare(System::Nullable_1<T> x, System::Nullable_1<T> y) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("NullableComparer_1").WithContext("Compare");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::NullableComparer_1::Compare");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Compare", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(x, y)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, x, y);
     }
@@ -42,7 +42,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("NullableComparer_1").WithContext("Equals");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::NullableComparer_1::Equals");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(obj)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, obj);
     }
@@ -51,7 +51,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("NullableComparer_1").WithContext("GetHashCode");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::NullableComparer_1::GetHashCode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
@@ -62,7 +62,7 @@ namespace System::Collections::Generic {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullableComparer_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("NullableComparer_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::NullableComparer_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullableComparer_1<T>*, creationType>()));
     }
   }; // System.Collections.Generic.NullableComparer`1

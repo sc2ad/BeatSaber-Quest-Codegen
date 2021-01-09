@@ -25,7 +25,7 @@ namespace Zenject {
     // public System.Void Despawn(TValue item)
     // Offset: 0xFFFFFFFF
     void Despawn(TValue item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IDespawnableMemoryPool_1").WithContext("Despawn");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IDespawnableMemoryPool_1::Despawn");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Despawn", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }

@@ -26,7 +26,7 @@ namespace UnityEngine::Internal {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExcludeFromDocsAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Internal").WithContext("ExcludeFromDocsAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Internal::ExcludeFromDocsAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExcludeFromDocsAttribute*, creationType>()));
     }
   }; // UnityEngine.Internal.ExcludeFromDocsAttribute

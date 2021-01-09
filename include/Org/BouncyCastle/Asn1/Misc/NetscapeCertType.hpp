@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Asn1::Misc {
     // Offset: 0x13F66A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetscapeCertType* New_ctor(Org::BouncyCastle::Asn1::DerBitString* usage) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::Misc").WithContext("NetscapeCertType").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Misc::NetscapeCertType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetscapeCertType*, creationType>(usage)));
     }
     // public override System.String ToString()

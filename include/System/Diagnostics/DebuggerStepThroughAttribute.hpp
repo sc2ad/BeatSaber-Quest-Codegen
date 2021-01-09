@@ -28,7 +28,7 @@ namespace System::Diagnostics {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DebuggerStepThroughAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("DebuggerStepThroughAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::DebuggerStepThroughAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DebuggerStepThroughAttribute*, creationType>()));
     }
   }; // System.Diagnostics.DebuggerStepThroughAttribute

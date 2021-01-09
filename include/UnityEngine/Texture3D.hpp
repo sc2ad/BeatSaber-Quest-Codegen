@@ -50,35 +50,35 @@ namespace UnityEngine {
     // Offset: 0x16C5790
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture3D* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture3D").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture3D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture3D*, creationType>(width, height, depth, format, flags)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
     // Offset: 0x16C5818
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture3D* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture3D").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture3D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture3D*, creationType>(width, height, depth, format, flags)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags, System.Int32 mipCount)
     // Offset: 0x16C58C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture3D* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int mipCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture3D").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture3D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture3D*, creationType>(width, height, depth, format, flags, mipCount)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.TextureFormat textureFormat, System.Int32 mipCount)
     // Offset: 0x16C59A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture3D* New_ctor(int width, int height, int depth, UnityEngine::TextureFormat textureFormat, int mipCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture3D").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture3D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture3D*, creationType>(width, height, depth, textureFormat, mipCount)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain)
     // Offset: 0x16C5AB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture3D* New_ctor(int width, int height, int depth, UnityEngine::TextureFormat textureFormat, bool mipChain) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture3D").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture3D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture3D*, creationType>(width, height, depth, textureFormat, mipChain)));
     }
     // public System.Void Apply(System.Boolean updateMipmaps, System.Boolean makeNoLongerReadable)

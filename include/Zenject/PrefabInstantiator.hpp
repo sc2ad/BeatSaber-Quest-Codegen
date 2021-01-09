@@ -111,7 +111,7 @@ namespace Zenject {
     // Offset: 0x134A6D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabInstantiator* New_ctor(Zenject::DiContainer* container, Zenject::GameObjectCreationParameters* gameObjectBindInfo, System::Type* argumentTarget, System::Collections::Generic::IEnumerable_1<System::Type*>* instantiateCallbackTypes, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArguments, Zenject::IPrefabProvider* prefabProvider, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PrefabInstantiator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabInstantiator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabInstantiator*, creationType>(container, gameObjectBindInfo, argumentTarget, instantiateCallbackTypes, extraArguments, prefabProvider, instantiateCallback)));
     }
     // public Zenject.GameObjectCreationParameters get_GameObjectCreationParameters()

@@ -166,7 +166,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     template<class T>
     bool HasKey(::Il2CppString* key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("PreferenceDictionary").WithContext("HasKey");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::PreferenceDictionary::HasKey");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "HasKey", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(key)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key);
@@ -178,7 +178,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     template<class T>
     T Get(::Il2CppString* key, T fallback) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("PreferenceDictionary").WithContext("Get");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::PreferenceDictionary::Get");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Get", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(key, fallback)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, key, fallback);
@@ -187,7 +187,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     template<class T>
     void Set(::Il2CppString* key, T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("PreferenceDictionary").WithContext("Set");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::PreferenceDictionary::Set");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Set", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(key, value)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, key, value);
@@ -278,7 +278,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreferenceDictionary* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("PreferenceDictionary").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::PreferenceDictionary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PreferenceDictionary*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.PreferenceDictionary

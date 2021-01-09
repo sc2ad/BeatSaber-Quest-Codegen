@@ -97,7 +97,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SHA384Managed* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("SHA384Managed").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::SHA384Managed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SHA384Managed*, creationType>()));
     }
     // public override System.Void Initialize()

@@ -84,7 +84,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionObject::InteractionEvent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("InteractionEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionObject::InteractionEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::InteractionEvent*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionObject/InteractionEvent

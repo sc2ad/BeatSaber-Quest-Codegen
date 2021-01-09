@@ -157,14 +157,14 @@ namespace System::Threading {
     // Offset: 0x16B6D10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ManualResetEventSlim* New_ctor(bool initialState) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("ManualResetEventSlim").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ManualResetEventSlim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ManualResetEventSlim*, creationType>(initialState)));
     }
     // public System.Void .ctor(System.Boolean initialState, System.Int32 spinCount)
     // Offset: 0x16B6DBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ManualResetEventSlim* New_ctor(bool initialState, int spinCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("ManualResetEventSlim").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ManualResetEventSlim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ManualResetEventSlim*, creationType>(initialState, spinCount)));
     }
     // private System.Void Initialize(System.Boolean initialState, System.Int32 spinCount)

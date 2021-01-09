@@ -46,7 +46,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Offset: 0x18BF5D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemObject* New_ctor(::Il2CppString* type, System::Collections::IList* headers, ::Array<uint8_t>* content) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Utilities::IO::Pem").WithContext("PemObject").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::IO::Pem::PemObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemObject*, creationType>(type, headers, content)));
     }
     // public System.String get_Type()

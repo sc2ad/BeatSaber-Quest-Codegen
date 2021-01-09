@@ -62,21 +62,21 @@ namespace System::Security::Cryptography {
     // Offset: 0x169331C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CspParameters* New_ctor(int dwTypeIn) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("CspParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CspParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CspParameters*, creationType>(dwTypeIn)));
     }
     // public System.Void .ctor(System.Int32 dwTypeIn, System.String strProviderNameIn, System.String strContainerNameIn)
     // Offset: 0x1693314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CspParameters* New_ctor(int dwTypeIn, ::Il2CppString* strProviderNameIn, ::Il2CppString* strContainerNameIn) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("CspParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CspParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CspParameters*, creationType>(dwTypeIn, strProviderNameIn, strContainerNameIn)));
     }
     // System.Void .ctor(System.Int32 providerType, System.String providerName, System.String keyContainerName, System.Security.Cryptography.CspProviderFlags flags)
     // Offset: 0x169332C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CspParameters* New_ctor(int providerType, ::Il2CppString* providerName, ::Il2CppString* keyContainerName, System::Security::Cryptography::CspProviderFlags flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("CspParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CspParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CspParameters*, creationType>(providerType, providerName, keyContainerName, flags)));
     }
     // public System.Void .ctor()
@@ -85,7 +85,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CspParameters* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("CspParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CspParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CspParameters*, creationType>()));
     }
   }; // System.Security.Cryptography.CspParameters

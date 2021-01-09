@@ -35,7 +35,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE18C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AspMvcControllerAttribute* New_ctor(::Il2CppString* anonymousProperty) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("AspMvcControllerAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::AspMvcControllerAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AspMvcControllerAttribute*, creationType>(anonymousProperty)));
     }
     // public System.String get_AnonymousProperty()
@@ -51,7 +51,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AspMvcControllerAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("AspMvcControllerAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::AspMvcControllerAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AspMvcControllerAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.AspMvcControllerAttribute

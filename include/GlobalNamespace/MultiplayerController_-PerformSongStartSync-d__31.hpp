@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Offset: 0xFAF118
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerController::$PerformSongStartSync$d__31* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$PerformSongStartSync$d__31").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerController::$PerformSongStartSync$d__31::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerController::$PerformSongStartSync$d__31*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

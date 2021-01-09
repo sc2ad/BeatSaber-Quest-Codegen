@@ -112,7 +112,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void PtrToStructure(System::IntPtr ptr, T structure) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("Marshal").WithContext("PtrToStructure");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::Marshal::PtrToStructure");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Runtime.InteropServices", "Marshal", "PtrToStructure", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(ptr, structure)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, ptr, structure);
@@ -121,7 +121,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T PtrToStructure(System::IntPtr ptr) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("Marshal").WithContext("PtrToStructure");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::Marshal::PtrToStructure");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Runtime.InteropServices", "Marshal", "PtrToStructure", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(ptr)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, ptr);
@@ -157,7 +157,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0xFFFFFFFF
     template<class T>
     static int SizeOf(T structure) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("Marshal").WithContext("SizeOf");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::Marshal::SizeOf");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Runtime.InteropServices", "Marshal", "SizeOf", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(structure)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, structure);
@@ -175,7 +175,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void StructureToPtr(T structure, System::IntPtr ptr, bool fDeleteOld) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("Marshal").WithContext("StructureToPtr");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::Marshal::StructureToPtr");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Runtime.InteropServices", "Marshal", "StructureToPtr", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(structure, ptr, fDeleteOld)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, structure, ptr, fDeleteOld);
@@ -187,7 +187,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0xFFFFFFFF
     template<class T>
     static System::IntPtr UnsafeAddrOfPinnedArrayElement(::Array<T>* arr, int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("Marshal").WithContext("UnsafeAddrOfPinnedArrayElement");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::Marshal::UnsafeAddrOfPinnedArrayElement");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Runtime.InteropServices", "Marshal", "UnsafeAddrOfPinnedArrayElement", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(arr, index)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::IntPtr, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, arr, index);
@@ -202,7 +202,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0xFFFFFFFF
     template<class TDelegate>
     static System::IntPtr GetFunctionPointerForDelegate(TDelegate d) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("Marshal").WithContext("GetFunctionPointerForDelegate");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::Marshal::GetFunctionPointerForDelegate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Runtime.InteropServices", "Marshal", "GetFunctionPointerForDelegate", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDelegate>::get()}, ::il2cpp_utils::ExtractTypes(d)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDelegate>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::IntPtr, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, d);

@@ -26,7 +26,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Installer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("Installer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Installer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Installer*, creationType>()));
     }
   }; // Zenject.Installer

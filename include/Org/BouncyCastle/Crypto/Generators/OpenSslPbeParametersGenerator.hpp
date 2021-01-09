@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenSslPbeParametersGenerator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Generators").WithContext("OpenSslPbeParametersGenerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenSslPbeParametersGenerator*, creationType>()));
     }
     // public override System.Void Init(System.Byte[] password, System.Byte[] salt, System.Int32 iterationCount)

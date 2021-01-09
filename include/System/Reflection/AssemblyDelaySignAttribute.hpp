@@ -35,7 +35,7 @@ namespace System::Reflection {
     // Offset: 0x172064C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyDelaySignAttribute* New_ctor(bool delaySign) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("AssemblyDelaySignAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyDelaySignAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyDelaySignAttribute*, creationType>(delaySign)));
     }
   }; // System.Reflection.AssemblyDelaySignAttribute

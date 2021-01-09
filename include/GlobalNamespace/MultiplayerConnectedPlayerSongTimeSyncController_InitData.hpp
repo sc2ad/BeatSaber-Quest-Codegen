@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Offset: 0xFAB858
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerSongTimeSyncController::InitData* New_ctor(float startSongTime, float songTimeOffset, float timeScale) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InitData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerSongTimeSyncController::InitData*, creationType>(startSongTime, songTimeOffset, timeScale)));
     }
   }; // MultiplayerConnectedPlayerSongTimeSyncController/InitData

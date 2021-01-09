@@ -166,7 +166,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodBase* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("MethodBase").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MethodBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodBase*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)

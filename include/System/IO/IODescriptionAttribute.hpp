@@ -26,7 +26,7 @@ namespace System::IO {
     // Base method: System.Void DescriptionAttribute::.ctor(System.String description)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IODescriptionAttribute* New_ctor(::Il2CppString* description) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("IODescriptionAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::IODescriptionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IODescriptionAttribute*, creationType>(description)));
     }
     // public override System.String get_Description()

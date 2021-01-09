@@ -72,7 +72,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x196CF64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackAsset::$get_outputs$d__65* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("$get_outputs$d__65").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TrackAsset::$get_outputs$d__65::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackAsset::$get_outputs$d__65*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

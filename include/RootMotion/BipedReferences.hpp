@@ -214,7 +214,7 @@ namespace RootMotion {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedReferences* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion").WithContext("BipedReferences").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BipedReferences::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BipedReferences*, creationType>()));
     }
   }; // RootMotion.BipedReferences

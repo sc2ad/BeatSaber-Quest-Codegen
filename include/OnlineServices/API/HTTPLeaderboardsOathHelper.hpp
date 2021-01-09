@@ -131,7 +131,7 @@ namespace OnlineServices::API {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPLeaderboardsOathHelper* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OnlineServices::API").WithContext("HTTPLeaderboardsOathHelper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::API::HTTPLeaderboardsOathHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPLeaderboardsOathHelper*, creationType>()));
     }
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper

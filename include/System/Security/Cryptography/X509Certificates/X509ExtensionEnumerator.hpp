@@ -49,7 +49,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x146ACD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ExtensionEnumerator* New_ctor(System::Collections::ArrayList* list) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509ExtensionEnumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ExtensionEnumerator*, creationType>(list)));
     }
     // public System.Security.Cryptography.X509Certificates.X509Extension get_Current()

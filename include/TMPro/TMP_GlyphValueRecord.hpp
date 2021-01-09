@@ -81,7 +81,7 @@ namespace TMPro {
     // Offset: 0xC92D14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TMP_GlyphValueRecord(TMPro::GlyphValueRecord_Legacy valueRecord) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMP_GlyphValueRecord").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_GlyphValueRecord::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(valueRecord)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, valueRecord);
     }
@@ -89,7 +89,7 @@ namespace TMPro {
     // Offset: 0xC92D20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TMP_GlyphValueRecord(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMP_GlyphValueRecord").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_GlyphValueRecord::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(valueRecord)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, valueRecord);
     }

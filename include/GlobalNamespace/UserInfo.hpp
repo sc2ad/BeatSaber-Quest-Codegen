@@ -93,7 +93,7 @@ namespace GlobalNamespace {
     // Offset: 0xFEC6AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserInfo* New_ctor(GlobalNamespace::UserInfo::Platform platform, ::Il2CppString* platformUserId, ::Il2CppString* userName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("UserInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UserInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserInfo*, creationType>(platform, platformUserId, userName)));
     }
   }; // UserInfo

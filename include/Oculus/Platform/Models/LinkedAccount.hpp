@@ -45,7 +45,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E11A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinkedAccount* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("LinkedAccount").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LinkedAccount::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinkedAccount*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.LinkedAccount

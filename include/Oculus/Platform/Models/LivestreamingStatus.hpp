@@ -55,7 +55,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DBA44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LivestreamingStatus* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("LivestreamingStatus").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LivestreamingStatus::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LivestreamingStatus*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.LivestreamingStatus

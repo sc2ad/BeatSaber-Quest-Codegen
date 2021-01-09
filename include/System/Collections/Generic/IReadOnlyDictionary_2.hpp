@@ -28,7 +28,7 @@ namespace System::Collections::Generic {
     // public System.Boolean TryGetValue(TKey key, out TValue value)
     // Offset: 0xFFFFFFFF
     bool TryGetValue(TKey key, TValue& value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IReadOnlyDictionary_2").WithContext("TryGetValue");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IReadOnlyDictionary_2::TryGetValue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TryGetValue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key, value)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key, value);
     }

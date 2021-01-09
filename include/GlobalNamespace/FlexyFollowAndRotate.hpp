@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlexyFollowAndRotate* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("FlexyFollowAndRotate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FlexyFollowAndRotate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlexyFollowAndRotate*, creationType>()));
     }
   }; // FlexyFollowAndRotate

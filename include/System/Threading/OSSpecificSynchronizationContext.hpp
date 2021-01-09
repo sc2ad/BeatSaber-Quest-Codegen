@@ -63,7 +63,7 @@ namespace System::Threading {
     // Offset: 0x16B7F84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OSSpecificSynchronizationContext* New_ctor(::Il2CppObject* osContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("OSSpecificSynchronizationContext").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::OSSpecificSynchronizationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OSSpecificSynchronizationContext*, creationType>(osContext)));
     }
     // static public System.Threading.OSSpecificSynchronizationContext Get()

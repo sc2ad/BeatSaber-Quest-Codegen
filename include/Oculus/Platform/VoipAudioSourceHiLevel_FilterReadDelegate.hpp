@@ -51,7 +51,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VoipAudioSourceHiLevel::FilterReadDelegate* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("FilterReadDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VoipAudioSourceHiLevel::FilterReadDelegate*, creationType>()));
     }
   }; // Oculus.Platform.VoipAudioSourceHiLevel/FilterReadDelegate

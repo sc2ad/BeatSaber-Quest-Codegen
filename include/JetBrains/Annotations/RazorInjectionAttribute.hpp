@@ -38,7 +38,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RazorInjectionAttribute* New_ctor(::Il2CppString* type, ::Il2CppString* fieldName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("RazorInjectionAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::RazorInjectionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RazorInjectionAttribute*, creationType>(type, fieldName)));
     }
     // public System.String get_Type()

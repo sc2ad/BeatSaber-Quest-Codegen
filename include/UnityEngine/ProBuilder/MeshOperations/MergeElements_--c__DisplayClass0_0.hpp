@@ -52,7 +52,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MergeElements::$$c__DisplayClass0_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::MeshOperations").WithContext("$$c__DisplayClass0_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MergeElements::$$c__DisplayClass0_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c__DisplayClass0_0

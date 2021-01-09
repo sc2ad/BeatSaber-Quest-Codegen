@@ -162,7 +162,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x151CAC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortKeyBuffer* New_ctor(int lcid) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Globalization::Unicode").WithContext("SortKeyBuffer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::SortKeyBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortKeyBuffer*, creationType>(lcid)));
     }
     // public System.Void Reset()

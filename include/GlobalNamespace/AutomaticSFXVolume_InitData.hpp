@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A43348
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AutomaticSFXVolume::InitData* New_ctor(float volumeOffset, bool adaptiveSfx) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InitData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AutomaticSFXVolume::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AutomaticSFXVolume::InitData*, creationType>(volumeOffset, adaptiveSfx)));
     }
   }; // AutomaticSFXVolume/InitData

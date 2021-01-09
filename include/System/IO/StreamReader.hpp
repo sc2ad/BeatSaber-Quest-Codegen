@@ -153,63 +153,63 @@ namespace System::IO {
     // Offset: 0x13A89F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamReader* New_ctor(System::IO::Stream* stream) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader*, creationType>(stream)));
     }
     // public System.Void .ctor(System.IO.Stream stream, System.Boolean detectEncodingFromByteOrderMarks)
     // Offset: 0x13A8A00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamReader* New_ctor(System::IO::Stream* stream, bool detectEncodingFromByteOrderMarks) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader*, creationType>(stream, detectEncodingFromByteOrderMarks)));
     }
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)
     // Offset: 0x13A8C50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamReader* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader*, creationType>(stream, encoding)));
     }
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean leaveOpen)
     // Offset: 0x13A8A98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamReader* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool leaveOpen) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader*, creationType>(stream, encoding, detectEncodingFromByteOrderMarks, bufferSize, leaveOpen)));
     }
     // public System.Void .ctor(System.String path)
     // Offset: 0x13A8E58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamReader* New_ctor(::Il2CppString* path) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader*, creationType>(path)));
     }
     // public System.Void .ctor(System.String path, System.Boolean detectEncodingFromByteOrderMarks)
     // Offset: 0x13A8E60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamReader* New_ctor(::Il2CppString* path, bool detectEncodingFromByteOrderMarks) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader*, creationType>(path, detectEncodingFromByteOrderMarks)));
     }
     // public System.Void .ctor(System.String path, System.Text.Encoding encoding)
     // Offset: 0x13A8F04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamReader* New_ctor(::Il2CppString* path, System::Text::Encoding* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader*, creationType>(path, encoding)));
     }
     // public System.Void .ctor(System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize)
     // Offset: 0x13A8EF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamReader* New_ctor(::Il2CppString* path, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader*, creationType>(path, encoding, detectEncodingFromByteOrderMarks, bufferSize)));
     }
     // System.Void .ctor(System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost)
     // Offset: 0x13A8F8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamReader* New_ctor(::Il2CppString* path, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool checkHost) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader*, creationType>(path, encoding, detectEncodingFromByteOrderMarks, bufferSize, checkHost)));
     }
     // private System.Void Init(System.IO.Stream stream, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean leaveOpen)
@@ -256,7 +256,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamReader* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("StreamReader").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader*, creationType>()));
     }
     // public override System.Void Close()

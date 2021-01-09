@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BoolSettingsController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BoolSettingsController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BoolSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BoolSettingsController*, creationType>()));
     }
   }; // BoolSettingsController

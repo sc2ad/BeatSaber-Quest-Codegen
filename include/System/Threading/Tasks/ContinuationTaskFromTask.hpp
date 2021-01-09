@@ -42,7 +42,7 @@ namespace System::Threading::Tasks {
     // Offset: 0x1D0E8CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContinuationTaskFromTask* New_ctor(System::Threading::Tasks::Task* antecedent, System::Delegate* action, ::Il2CppObject* state, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::StackCrawlMark& stackMark) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("ContinuationTaskFromTask").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::ContinuationTaskFromTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContinuationTaskFromTask*, creationType>(antecedent, action, state, creationOptions, internalOptions, stackMark)));
     }
     // override System.Void InnerInvoke()

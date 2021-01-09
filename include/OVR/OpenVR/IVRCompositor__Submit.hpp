@@ -48,7 +48,7 @@ namespace OVR::OpenVR {
     // Offset: 0x185F2D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_Submit* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_Submit").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_Submit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_Submit*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVRCompositorError Invoke(OVR.OpenVR.EVREye eEye, ref OVR.OpenVR.Texture_t pTexture, ref OVR.OpenVR.VRTextureBounds_t pBounds, OVR.OpenVR.EVRSubmitFlags nSubmitFlags)

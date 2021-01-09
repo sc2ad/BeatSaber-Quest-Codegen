@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x19165C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetTrackedDeviceIndexForControllerRole* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetTrackedDeviceIndexForControllerRole").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetTrackedDeviceIndexForControllerRole*, creationType>(object, method)));
     }
     // public System.UInt32 Invoke(OVR.OpenVR.ETrackedControllerRole unDeviceType)

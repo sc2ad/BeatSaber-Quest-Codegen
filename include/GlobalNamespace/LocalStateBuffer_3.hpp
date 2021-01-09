@@ -72,41 +72,41 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalStateBuffer_3<TStateTable, TType, TState>* New_ctor(float reliableUpdateFrequency, float unreliableUpdateFrequency, int size, typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::InterpolationDelegate* interpolator, typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::SmoothingDelegate* smoother) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LocalStateBuffer_3").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalStateBuffer_3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalStateBuffer_3<TStateTable, TType, TState>*, creationType>(reliableUpdateFrequency, unreliableUpdateFrequency, size, interpolator, smoother)));
     }
     // public System.Void MarkDirty()
     // Offset: 0xFFFFFFFF
     void MarkDirty() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LocalStateBuffer_3").WithContext("MarkDirty");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalStateBuffer_3::MarkDirty");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "MarkDirty", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Boolean TryGetSerialized(System.Boolean reliable, out TStateTable state)
     // Offset: 0xFFFFFFFF
     bool TryGetSerialized(bool reliable, TStateTable& state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LocalStateBuffer_3").WithContext("TryGetSerialized");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalStateBuffer_3::TryGetSerialized");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TryGetSerialized", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(reliable, state)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, reliable, state);
     }
     // public System.Void SetTime(System.Single time)
     // Offset: 0xFFFFFFFF
     void SetTime(float time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LocalStateBuffer_3").WithContext("SetTime");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalStateBuffer_3::SetTime");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SetTime", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(time)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, time);
     }
     // public System.Void SetState(TType type, TState state)
     // Offset: 0xFFFFFFFF
     void SetState(TType type, TState state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LocalStateBuffer_3").WithContext("SetState");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalStateBuffer_3::SetState");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SetState", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(type, state)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, type, state);
     }
     // public TState GetState(TType type)
     // Offset: 0xFFFFFFFF
     TState GetState(TType type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LocalStateBuffer_3").WithContext("GetState");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalStateBuffer_3::GetState");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetState", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(type)));
       return ::il2cpp_utils::RunMethodThrow<TState, false>(this, ___internal__method, type);
     }

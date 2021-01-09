@@ -45,7 +45,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyedHashAlgorithm* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("KeyedHashAlgorithm").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::KeyedHashAlgorithm::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyedHashAlgorithm*, creationType>()));
     }
     // protected override System.Void Dispose(System.Boolean disposing)

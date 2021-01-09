@@ -41,14 +41,14 @@ namespace System {
     // Offset: 0x13B61E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissingMethodException* New_ctor(::Il2CppString* className, ::Il2CppString* methodName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("MissingMethodException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::MissingMethodException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissingMethodException*, creationType>(className, methodName)));
     }
     // private System.Void .ctor(System.String className, System.String methodName, System.String signature, System.String message)
     // Offset: 0x13B6230
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissingMethodException* New_ctor(::Il2CppString* className, ::Il2CppString* methodName, ::Il2CppString* signature, ::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("MissingMethodException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::MissingMethodException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissingMethodException*, creationType>(className, methodName, signature, message)));
     }
     // public System.Void .ctor()
@@ -61,7 +61,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissingMethodException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("MissingMethodException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::MissingMethodException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissingMethodException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -73,7 +73,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissingMethodException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("MissingMethodException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::MissingMethodException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissingMethodException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -85,7 +85,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissingMethodException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("MissingMethodException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::MissingMethodException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissingMethodException*, creationType>(info, context)));
     }
     // public override System.String get_Message()

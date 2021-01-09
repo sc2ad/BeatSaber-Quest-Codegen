@@ -35,7 +35,7 @@ namespace System::Reflection {
     // Offset: 0x1720618
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyDefaultAliasAttribute* New_ctor(::Il2CppString* defaultAlias) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("AssemblyDefaultAliasAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyDefaultAliasAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyDefaultAliasAttribute*, creationType>(defaultAlias)));
     }
   }; // System.Reflection.AssemblyDefaultAliasAttribute

@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderWarmupSceneSetup* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ShaderWarmupSceneSetup").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShaderWarmupSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShaderWarmupSceneSetup*, creationType>()));
     }
   }; // ShaderWarmupSceneSetup

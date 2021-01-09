@@ -59,7 +59,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebRequest::$$c__DisplayClass78_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("$$c__DisplayClass78_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebRequest::$$c__DisplayClass78_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebRequest::$$c__DisplayClass78_0*, creationType>()));
     }
   }; // System.Net.WebRequest/<>c__DisplayClass78_0

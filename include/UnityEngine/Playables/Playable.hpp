@@ -80,7 +80,7 @@ namespace UnityEngine::Playables {
     template<class T>
     bool IsPlayableOfType() {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayable, std::remove_pointer_t<T>> && is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Playables").WithContext("Playable").WithContext("IsPlayableOfType");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::Playable::IsPlayableOfType");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "IsPlayableOfType", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);

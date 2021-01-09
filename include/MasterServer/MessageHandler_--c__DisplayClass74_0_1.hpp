@@ -48,7 +48,7 @@ namespace MasterServer {
     // System.Void <CustomResponseHandler>b__0(T packet, MasterServer.MessageHandler/MessageOrigin origin)
     // Offset: 0xFFFFFFFF
     void $CustomResponseHandler$b__0(T packet, MasterServer::MessageHandler::MessageOrigin origin) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("$$c__DisplayClass74_0_1").WithContext("<CustomResponseHandler>b__0");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::$$c__DisplayClass74_0_1::<CustomResponseHandler>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CustomResponseHandler>b__0", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(packet, origin))));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, packet, origin);
     }
@@ -58,7 +58,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler::$$c__DisplayClass74_0_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("$$c__DisplayClass74_0_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::$$c__DisplayClass74_0_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler::$$c__DisplayClass74_0_1<T>*, creationType>()));
     }
   }; // MasterServer.MessageHandler/<>c__DisplayClass74_0`1

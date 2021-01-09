@@ -40,7 +40,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPGlobalProperties* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("IPGlobalProperties").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::IPGlobalProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPGlobalProperties*, creationType>()));
     }
   }; // System.Net.NetworkInformation.IPGlobalProperties

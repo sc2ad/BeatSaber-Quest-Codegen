@@ -35,7 +35,7 @@ namespace System {
     // Offset: 0x1CAEA98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CLSCompliantAttribute* New_ctor(bool isCompliant) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("CLSCompliantAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::CLSCompliantAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CLSCompliantAttribute*, creationType>(isCompliant)));
     }
   }; // System.CLSCompliantAttribute

@@ -37,7 +37,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x1972A54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackMediaType* New_ctor(UnityEngine::Timeline::TimelineAsset::MediaType mt) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TrackMediaType").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TrackMediaType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackMediaType*, creationType>(mt)));
     }
   }; // UnityEngine.Timeline.TrackMediaType

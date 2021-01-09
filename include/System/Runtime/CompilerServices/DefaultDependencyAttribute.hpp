@@ -36,7 +36,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1163150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultDependencyAttribute* New_ctor(System::Runtime::CompilerServices::LoadHint loadHintArgument) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("DefaultDependencyAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::DefaultDependencyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultDependencyAttribute*, creationType>(loadHintArgument)));
     }
   }; // System.Runtime.CompilerServices.DefaultDependencyAttribute

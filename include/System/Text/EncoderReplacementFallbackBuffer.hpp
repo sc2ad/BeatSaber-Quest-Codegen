@@ -48,7 +48,7 @@ namespace System::Text {
     // Offset: 0x159E1E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderReplacementFallbackBuffer* New_ctor(System::Text::EncoderReplacementFallback* fallback) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("EncoderReplacementFallbackBuffer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderReplacementFallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderReplacementFallbackBuffer*, creationType>(fallback)));
     }
     // public override System.Boolean Fallback(System.Char charUnknown, System.Int32 index)

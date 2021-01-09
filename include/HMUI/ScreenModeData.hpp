@@ -69,7 +69,7 @@ namespace HMUI {
     // Offset: 0x107EFE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenModeData* New_ctor(UnityEngine::Vector3 position, UnityEngine::Vector3 rotation, float scale, float radius, bool offsetHeightByHeadPos, float yOffsetRelativeToHead, float minYPos) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("ScreenModeData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ScreenModeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenModeData*, creationType>(position, rotation, scale, radius, offsetHeightByHeadPos, yOffsetRelativeToHead, minYPos)));
     }
   }; // HMUI.ScreenModeData

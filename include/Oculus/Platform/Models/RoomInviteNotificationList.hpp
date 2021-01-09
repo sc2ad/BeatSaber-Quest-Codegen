@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DEFF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RoomInviteNotificationList* New_ctor(System::IntPtr a) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("RoomInviteNotificationList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::RoomInviteNotificationList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RoomInviteNotificationList*, creationType>(a)));
     }
   }; // Oculus.Platform.Models.RoomInviteNotificationList

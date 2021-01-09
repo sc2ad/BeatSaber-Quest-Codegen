@@ -45,7 +45,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x169F958
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSAPKCS1SignatureDeformatter* New_ctor(System::Security::Cryptography::AsymmetricAlgorithm* key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("RSAPKCS1SignatureDeformatter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RSAPKCS1SignatureDeformatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RSAPKCS1SignatureDeformatter*, creationType>(key)));
     }
     // public System.Void .ctor()
@@ -55,7 +55,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSAPKCS1SignatureDeformatter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("RSAPKCS1SignatureDeformatter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RSAPKCS1SignatureDeformatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RSAPKCS1SignatureDeformatter*, creationType>()));
     }
     // public override System.Void SetHashAlgorithm(System.String strName)

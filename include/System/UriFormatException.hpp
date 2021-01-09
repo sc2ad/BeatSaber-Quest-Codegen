@@ -35,7 +35,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriFormatException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("UriFormatException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::UriFormatException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriFormatException*, creationType>()));
     }
     // public System.Void .ctor(System.String textString)
@@ -46,7 +46,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.String textString)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriFormatException* New_ctor(::Il2CppString* textString) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("UriFormatException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::UriFormatException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriFormatException*, creationType>(textString)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
@@ -57,7 +57,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriFormatException* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("UriFormatException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::UriFormatException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriFormatException*, creationType>(serializationInfo, streamingContext)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)

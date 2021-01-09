@@ -54,7 +54,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x1465814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainElement* New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509ChainElement").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainElement*, creationType>(certificate)));
     }
     // public System.Security.Cryptography.X509Certificates.X509Certificate2 get_Certificate()

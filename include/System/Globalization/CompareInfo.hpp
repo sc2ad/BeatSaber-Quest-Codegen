@@ -206,7 +206,7 @@ namespace System::Globalization {
     // Offset: 0x112F67C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompareInfo* New_ctor(System::Globalization::CultureInfo* culture) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("CompareInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CompareInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompareInfo*, creationType>(culture)));
     }
     // static public System.Globalization.CompareInfo GetCompareInfo(System.String name)
@@ -322,7 +322,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompareInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("CompareInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CompareInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompareInfo*, creationType>()));
     }
   }; // System.Globalization.CompareInfo

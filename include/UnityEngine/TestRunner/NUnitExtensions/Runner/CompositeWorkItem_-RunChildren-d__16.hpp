@@ -94,7 +94,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Offset: 0x117F5F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeWorkItem::$RunChildren$d__16* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner").WithContext("$RunChildren$d__16").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::$RunChildren$d__16::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeWorkItem::$RunChildren$d__16*, creationType>($$1__state)));
     }
     // private System.Void <>m__Finally1()

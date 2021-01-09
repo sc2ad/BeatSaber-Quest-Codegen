@@ -33,7 +33,7 @@ namespace System::IO::Compression {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeflateStreamNative::SafeDeflateStreamHandle* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO::Compression").WithContext("SafeDeflateStreamHandle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeflateStreamNative::SafeDeflateStreamHandle*, creationType>()));
     }
     // protected override System.Boolean ReleaseHandle()

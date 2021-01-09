@@ -43,14 +43,14 @@ namespace System::IO {
     // Offset: 0x143597C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DirectoryInfo* New_ctor(::Il2CppString* path) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("DirectoryInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::DirectoryInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DirectoryInfo*, creationType>(path)));
     }
     // System.Void .ctor(System.String path, System.Boolean simpleOriginalPath)
     // Offset: 0x1434200
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DirectoryInfo* New_ctor(::Il2CppString* path, bool simpleOriginalPath) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("DirectoryInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::DirectoryInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DirectoryInfo*, creationType>(path, simpleOriginalPath)));
     }
     // private System.Void Initialize()
@@ -77,7 +77,7 @@ namespace System::IO {
     // Base method: System.Void FileSystemInfo::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DirectoryInfo* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("DirectoryInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::DirectoryInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DirectoryInfo*, creationType>(info, context)));
     }
     // public override System.Boolean get_Exists()

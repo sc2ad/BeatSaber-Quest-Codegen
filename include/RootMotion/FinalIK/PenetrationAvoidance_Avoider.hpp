@@ -122,7 +122,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PenetrationAvoidance::Avoider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("Avoider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::PenetrationAvoidance::Avoider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PenetrationAvoidance::Avoider*, creationType>()));
     }
   }; // RootMotion.FinalIK.PenetrationAvoidance/Avoider

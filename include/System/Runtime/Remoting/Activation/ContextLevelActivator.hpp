@@ -46,7 +46,7 @@ namespace System::Runtime::Remoting::Activation {
     // Offset: 0x1167808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextLevelActivator* New_ctor(System::Runtime::Remoting::Activation::IActivator* next) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Activation").WithContext("ContextLevelActivator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Activation::ContextLevelActivator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextLevelActivator*, creationType>(next)));
     }
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()

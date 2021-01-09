@@ -45,7 +45,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0x118F810
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestEnumeratorWrapper* New_ctor(NUnit::Framework::Internal::TestMethod* testMethod) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::TestRunner").WithContext("TestEnumeratorWrapper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestEnumeratorWrapper*, creationType>(testMethod)));
     }
     // public System.Collections.IEnumerator GetEnumerator(NUnit.Framework.Internal.ITestExecutionContext context)

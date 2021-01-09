@@ -52,7 +52,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeInitializationException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TypeInitializationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TypeInitializationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeInitializationException*, creationType>()));
     }
     // public System.Void .ctor(System.String fullTypeName, System.Exception innerException)
@@ -62,7 +62,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.String fullTypeName, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeInitializationException* New_ctor(::Il2CppString* fullTypeName, System::Exception* innerException) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TypeInitializationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TypeInitializationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeInitializationException*, creationType>(fullTypeName, innerException)));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -72,7 +72,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeInitializationException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TypeInitializationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TypeInitializationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeInitializationException*, creationType>(info, context)));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

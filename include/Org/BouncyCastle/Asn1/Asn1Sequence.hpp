@@ -62,14 +62,14 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1375AF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Sequence* New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable* element) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("Asn1Sequence").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1Sequence::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Sequence*, creationType>(element)));
     }
     // protected internal System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] elements)
     // Offset: 0x1375BFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Sequence* New_ctor(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* elements) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("Asn1Sequence").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1Sequence::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Sequence*, creationType>(elements)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] elements)
@@ -86,7 +86,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1375CF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Sequence* New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("Asn1Sequence").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1Sequence::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Sequence*, creationType>(elementVector)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Encodable get_Item(System.Int32 index)
@@ -103,7 +103,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Sequence* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("Asn1Sequence").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1Sequence::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Sequence*, creationType>()));
     }
     // public System.Collections.IEnumerator GetEnumerator()

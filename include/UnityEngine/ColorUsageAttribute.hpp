@@ -66,7 +66,7 @@ namespace UnityEngine {
     // Offset: 0x168237C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorUsageAttribute* New_ctor(bool showAlpha) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("ColorUsageAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ColorUsageAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorUsageAttribute*, creationType>(showAlpha)));
     }
   }; // UnityEngine.ColorUsageAttribute

@@ -37,7 +37,7 @@ namespace UnityEngine::UI {
     template<class T>
     static bool SetStruct(T& currentValue, T newValue) {
       static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("SetPropertyUtility").WithContext("SetStruct");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::SetPropertyUtility::SetStruct");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.UI", "SetPropertyUtility", "SetStruct", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(currentValue, newValue)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, currentValue, newValue);
@@ -46,7 +46,7 @@ namespace UnityEngine::UI {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool SetClass(T& currentValue, T newValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("SetPropertyUtility").WithContext("SetClass");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::SetPropertyUtility::SetClass");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.UI", "SetPropertyUtility", "SetClass", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(currentValue, newValue)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, currentValue, newValue);

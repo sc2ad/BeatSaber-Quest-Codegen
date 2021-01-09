@@ -51,7 +51,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryPoolBindingFinalizer_1<TContract>* New_ctor(Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo, Zenject::MemoryPoolBindInfo* poolBindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MemoryPoolBindingFinalizer_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBindingFinalizer_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryPoolBindingFinalizer_1<TContract>*, creationType>(bindInfo, factoryBindInfo, poolBindInfo)));
     }
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
@@ -59,7 +59,7 @@ namespace Zenject {
     // Implemented from: Zenject.ProviderBindingFinalizer
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(Zenject::DiContainer* container) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MemoryPoolBindingFinalizer_1").WithContext("OnFinalizeBinding");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBindingFinalizer_1::OnFinalizeBinding");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnFinalizeBinding", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(container)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, container);
     }

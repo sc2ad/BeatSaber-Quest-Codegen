@@ -103,7 +103,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingTextSpawner* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("FlyingTextSpawner").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FlyingTextSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingTextSpawner*, creationType>()));
     }
   }; // FlyingTextSpawner

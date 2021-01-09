@@ -74,7 +74,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1371BC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerExternal* New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector* vector) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerExternal").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerExternal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerExternal*, creationType>(vector)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Object get_DataValueDescriptor()

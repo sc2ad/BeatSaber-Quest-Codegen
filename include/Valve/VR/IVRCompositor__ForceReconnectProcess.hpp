@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x18E5BAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_ForceReconnectProcess* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_ForceReconnectProcess").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRCompositor::_ForceReconnectProcess::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_ForceReconnectProcess*, creationType>(object, method)));
     }
     // public System.Void Invoke()

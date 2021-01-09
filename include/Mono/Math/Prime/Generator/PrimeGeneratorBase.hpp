@@ -49,7 +49,7 @@ namespace Mono::Math::Prime::Generator {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrimeGeneratorBase* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Math::Prime::Generator").WithContext("PrimeGeneratorBase").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Math::Prime::Generator::PrimeGeneratorBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrimeGeneratorBase*, creationType>()));
     }
   }; // Mono.Math.Prime.Generator.PrimeGeneratorBase

@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Offset: 0xC9C920
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RigidTransform(UnityEngine::Transform* t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RigidTransform").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Utils::RigidTransform::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(t)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, t);
     }
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Offset: 0xC9C928
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RigidTransform(UnityEngine::Transform* from, UnityEngine::Transform* to) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RigidTransform").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Utils::RigidTransform::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(from, to)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, from, to);
     }
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     // Offset: 0xC9C930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RigidTransform(Valve::VR::HmdMatrix34_t pose) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RigidTransform").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Utils::RigidTransform::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(pose)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, pose);
     }
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     // Offset: 0xC9C964
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RigidTransform(Valve::VR::HmdMatrix44_t pose) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RigidTransform").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Utils::RigidTransform::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(pose)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, pose);
     }

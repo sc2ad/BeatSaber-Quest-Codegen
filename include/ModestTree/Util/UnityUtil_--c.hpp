@@ -94,7 +94,7 @@ namespace ModestTree::Util {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityUtil::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::UnityUtil::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityUtil::$$c*, creationType>()));
     }
   }; // ModestTree.Util.UnityUtil/<>c

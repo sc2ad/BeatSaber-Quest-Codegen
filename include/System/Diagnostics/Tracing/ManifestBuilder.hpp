@@ -168,7 +168,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x111A4A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ManifestBuilder* New_ctor(::Il2CppString* providerName, System::Guid providerGuid, ::Il2CppString* dllName, System::Resources::ResourceManager* resources, System::Diagnostics::Tracing::EventManifestOptions flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("ManifestBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ManifestBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ManifestBuilder*, creationType>(providerName, providerGuid, dllName, resources, flags)));
     }
     // public System.Void AddOpcode(System.String name, System.Int32 value)

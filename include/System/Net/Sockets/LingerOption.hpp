@@ -35,7 +35,7 @@ namespace System::Net::Sockets {
     // Offset: 0x11A7274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LingerOption* New_ctor(bool enable, int seconds) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Sockets").WithContext("LingerOption").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::LingerOption::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LingerOption*, creationType>(enable, seconds)));
     }
     // public System.Void set_Enabled(System.Boolean value)

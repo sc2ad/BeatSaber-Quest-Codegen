@@ -139,7 +139,7 @@ namespace OVRSimpleJSON {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONArray* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVRSimpleJSON").WithContext("JSONArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONArray*, creationType>()));
     }
   }; // OVRSimpleJSON.JSONArray

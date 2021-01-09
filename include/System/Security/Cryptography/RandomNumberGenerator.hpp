@@ -39,7 +39,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomNumberGenerator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("RandomNumberGenerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RandomNumberGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomNumberGenerator*, creationType>()));
     }
     // public System.Void Dispose()

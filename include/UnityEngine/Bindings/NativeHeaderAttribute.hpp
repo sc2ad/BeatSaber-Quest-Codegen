@@ -40,7 +40,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x1A041A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeHeaderAttribute* New_ctor(::Il2CppString* header) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("NativeHeaderAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeHeaderAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeHeaderAttribute*, creationType>(header)));
     }
   }; // UnityEngine.Bindings.NativeHeaderAttribute

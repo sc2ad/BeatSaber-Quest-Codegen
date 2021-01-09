@@ -50,7 +50,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkInterfaceFactory::Win32NetworkInterfaceAPI* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("Win32NetworkInterfaceAPI").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInterfaceFactory::Win32NetworkInterfaceAPI*, creationType>()));
     }
   }; // System.Net.NetworkInformation.NetworkInterfaceFactory/Win32NetworkInterfaceAPI

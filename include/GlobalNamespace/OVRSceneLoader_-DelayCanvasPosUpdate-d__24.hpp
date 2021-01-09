@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Offset: 0x12E4CB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSceneLoader::$DelayCanvasPosUpdate$d__24* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$DelayCanvasPosUpdate$d__24").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRSceneLoader::$DelayCanvasPosUpdate$d__24::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSceneLoader::$DelayCanvasPosUpdate$d__24*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

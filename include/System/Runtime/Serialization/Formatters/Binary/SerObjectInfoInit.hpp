@@ -55,7 +55,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerObjectInfoInit* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization::Formatters::Binary").WithContext("SerObjectInfoInit").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerObjectInfoInit*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit

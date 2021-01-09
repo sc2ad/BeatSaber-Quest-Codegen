@@ -195,7 +195,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Parametric3SliceSpriteController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("Parametric3SliceSpriteController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::Parametric3SliceSpriteController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Parametric3SliceSpriteController*, creationType>()));
     }
     // static private System.Void .cctor()

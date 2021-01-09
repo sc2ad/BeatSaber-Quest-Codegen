@@ -175,7 +175,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkPlayersTableView* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NetworkPlayersTableView").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPlayersTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayersTableView*, creationType>()));
     }
   }; // NetworkPlayersTableView

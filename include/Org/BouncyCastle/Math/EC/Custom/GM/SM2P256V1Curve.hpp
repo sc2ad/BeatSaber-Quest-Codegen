@@ -75,7 +75,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::GM {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SM2P256V1Curve* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Custom::GM").WithContext("SM2P256V1Curve").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SM2P256V1Curve*, creationType>()));
     }
     // protected override Org.BouncyCastle.Math.EC.ECCurve CloneCurve()

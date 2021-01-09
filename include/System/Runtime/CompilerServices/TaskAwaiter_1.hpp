@@ -59,14 +59,14 @@ namespace System::Runtime::CompilerServices {
     // public System.Boolean get_IsCompleted()
     // Offset: 0xFFFFFFFF
     bool get_IsCompleted() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("TaskAwaiter_1").WithContext("get_IsCompleted");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::TaskAwaiter_1::get_IsCompleted");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "get_IsCompleted", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
     }
     // public TResult GetResult()
     // Offset: 0xFFFFFFFF
     TResult GetResult() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("TaskAwaiter_1").WithContext("GetResult");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::TaskAwaiter_1::GetResult");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "GetResult", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TResult, false>(*this, ___internal__method);
     }
@@ -75,7 +75,7 @@ namespace System::Runtime::CompilerServices {
     // Implemented from: System.Runtime.CompilerServices.INotifyCompletion
     // Base method: System.Void INotifyCompletion::OnCompleted(System.Action continuation)
     void OnCompleted(System::Action* continuation) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("TaskAwaiter_1").WithContext("OnCompleted");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::TaskAwaiter_1::OnCompleted");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "OnCompleted", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(continuation)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, continuation);
     }
@@ -84,7 +84,7 @@ namespace System::Runtime::CompilerServices {
     // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion
     // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
     void UnsafeOnCompleted(System::Action* continuation) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("TaskAwaiter_1").WithContext("UnsafeOnCompleted");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::TaskAwaiter_1::UnsafeOnCompleted");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "UnsafeOnCompleted", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(continuation)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, continuation);
     }

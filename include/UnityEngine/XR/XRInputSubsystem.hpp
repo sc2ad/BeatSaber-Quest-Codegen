@@ -65,7 +65,7 @@ namespace UnityEngine::XR {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XRInputSubsystem* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::XR").WithContext("XRInputSubsystem").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::XR::XRInputSubsystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XRInputSubsystem*, creationType>()));
     }
   }; // UnityEngine.XR.XRInputSubsystem

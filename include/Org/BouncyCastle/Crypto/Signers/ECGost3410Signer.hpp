@@ -92,7 +92,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECGost3410Signer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Signers").WithContext("ECGost3410Signer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECGost3410Signer*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Signers.ECGost3410Signer

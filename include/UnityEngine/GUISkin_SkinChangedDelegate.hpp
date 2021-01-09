@@ -34,7 +34,7 @@ namespace UnityEngine {
     // Offset: 0x160D44C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUISkin::SkinChangedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("SkinChangedDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUISkin::SkinChangedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUISkin::SkinChangedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke()

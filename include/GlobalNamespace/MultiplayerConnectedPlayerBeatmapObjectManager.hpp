@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     // Offset: 0xFA8474
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerBeatmapObjectManager* New_ctor(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData* initData, GlobalNamespace::IConnectedPlayerNoteEventManager* noteEventManager, GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool* gameNotePool, GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::Pool* bombNotePool) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MultiplayerConnectedPlayerBeatmapObjectManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerBeatmapObjectManager*, creationType>(initData, noteEventManager, gameNotePool, bombNotePool)));
     }
     // private System.Void HandleMultiplayerNoteEventManagerNoteWasCut(NoteCutInfoNetSerializable noteCutInfo)

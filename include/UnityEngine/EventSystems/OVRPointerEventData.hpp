@@ -47,7 +47,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRPointerEventData* New_ctor(UnityEngine::EventSystems::EventSystem* eventSystem) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("OVRPointerEventData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::OVRPointerEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRPointerEventData*, creationType>(eventSystem)));
     }
     // public override System.String ToString()

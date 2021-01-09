@@ -36,7 +36,7 @@ namespace UnityEngine {
     // Offset: 0x16C94E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityAPICompatibilityVersionAttribute* New_ctor(::Il2CppString* version, ::Array<::Il2CppString*>* configurationAssembliesHashes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("UnityAPICompatibilityVersionAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UnityAPICompatibilityVersionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityAPICompatibilityVersionAttribute*, creationType>(version, configurationAssembliesHashes)));
     }
   }; // UnityEngine.UnityAPICompatibilityVersionAttribute

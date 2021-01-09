@@ -94,14 +94,14 @@ namespace UnityEngine::TextCore {
     // Offset: 0x19E77C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Glyph* New_ctor(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TextCore").WithContext("Glyph").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TextCore::Glyph::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Glyph*, creationType>(glyphStruct)));
     }
     // public System.Void .ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex)
     // Offset: 0x19E7830
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Glyph* New_ctor(uint index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float scale, int atlasIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TextCore").WithContext("Glyph").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TextCore::Glyph::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Glyph*, creationType>(index, metrics, glyphRect, scale, atlasIndex)));
     }
     // public System.Void .ctor()
@@ -110,7 +110,7 @@ namespace UnityEngine::TextCore {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Glyph* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TextCore").WithContext("Glyph").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TextCore::Glyph::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Glyph*, creationType>()));
     }
   }; // UnityEngine.TextCore.Glyph

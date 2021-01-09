@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SleepRigidbody2DWhenInvisible* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SleepRigidbody2DWhenInvisible").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SleepRigidbody2DWhenInvisible::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SleepRigidbody2DWhenInvisible*, creationType>()));
     }
   }; // SleepRigidbody2DWhenInvisible

@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E1618
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingEnqueuedUserList* New_ctor(System::IntPtr a) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("MatchmakingEnqueuedUserList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingEnqueuedUserList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MatchmakingEnqueuedUserList*, creationType>(a)));
     }
   }; // Oculus.Platform.Models.MatchmakingEnqueuedUserList

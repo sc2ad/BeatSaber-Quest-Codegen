@@ -75,7 +75,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("PlatformSettings").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::PlatformSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformSettings*, creationType>()));
     }
   }; // Oculus.Platform.PlatformSettings

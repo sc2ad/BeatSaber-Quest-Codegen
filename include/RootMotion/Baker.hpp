@@ -259,7 +259,7 @@ namespace RootMotion {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Baker* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion").WithContext("Baker").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Baker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Baker*, creationType>()));
     }
   }; // RootMotion.Baker

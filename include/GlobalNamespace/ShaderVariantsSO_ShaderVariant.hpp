@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Offset: 0x198DBE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderVariantsSO::ShaderVariant* New_ctor(UnityEngine::Shader* shader, ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* variants) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ShaderVariant").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShaderVariantsSO::ShaderVariant::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShaderVariantsSO::ShaderVariant*, creationType>(shader, variants)));
     }
   }; // ShaderVariantsSO/ShaderVariant

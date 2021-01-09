@@ -44,7 +44,7 @@ namespace System {
     // Offset: 0x13B3B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStore* New_ctor(System::LocalDataStoreMgr* mgr, int InitialCapacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("LocalDataStore").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::LocalDataStore::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalDataStore*, creationType>(mgr, InitialCapacity)));
     }
     // System.Void Dispose()

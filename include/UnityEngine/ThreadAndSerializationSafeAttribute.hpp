@@ -28,7 +28,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadAndSerializationSafeAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("ThreadAndSerializationSafeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ThreadAndSerializationSafeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadAndSerializationSafeAttribute*, creationType>()));
     }
   }; // UnityEngine.ThreadAndSerializationSafeAttribute

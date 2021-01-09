@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x18624E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRIOBuffer::_Read* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_Read").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRIOBuffer::_Read::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRIOBuffer::_Read*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EIOBufferError Invoke(System.UInt64 ulBuffer, System.IntPtr pDst, System.UInt32 unBytes, ref System.UInt32 punRead)

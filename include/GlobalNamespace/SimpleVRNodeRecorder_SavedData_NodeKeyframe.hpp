@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Offset: 0xFD0F28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleVRNodeRecorder::SavedData::NodeKeyframe* New_ctor(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot, float time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NodeKeyframe").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleVRNodeRecorder::SavedData::NodeKeyframe*, creationType>(pos, rot, time)));
     }
   }; // SimpleVRNodeRecorder/SavedData/NodeKeyframe

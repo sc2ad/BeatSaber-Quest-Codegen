@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Offset: 0x1E58F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::RSACertificateEncryptionProvider* New_ctor(Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privateKey) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RSACertificateEncryptionProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::RSACertificateEncryptionProvider*, creationType>(privateKey)));
     }
     // public System.Void Dispose()

@@ -84,7 +84,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemberInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("MemberInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MemberInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemberInfo*, creationType>()));
     }
     // public System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)

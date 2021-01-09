@@ -33,7 +33,7 @@ namespace System::Runtime::CompilerServices {
     // Base method: System.Void StateMachineAttribute::.ctor(System.Type stateMachineType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IteratorStateMachineAttribute* New_ctor(System::Type* stateMachineType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("IteratorStateMachineAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::IteratorStateMachineAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IteratorStateMachineAttribute*, creationType>(stateMachineType)));
     }
   }; // System.Runtime.CompilerServices.IteratorStateMachineAttribute

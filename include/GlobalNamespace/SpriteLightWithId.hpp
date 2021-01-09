@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpriteLightWithId* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SpriteLightWithId").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SpriteLightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpriteLightWithId*, creationType>()));
     }
   }; // SpriteLightWithId

@@ -27,7 +27,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstantHandleAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("InstantHandleAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::InstantHandleAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstantHandleAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.InstantHandleAttribute

@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11FAED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRChaperone::_GetPlayAreaRect* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetPlayAreaRect").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRChaperone::_GetPlayAreaRect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRChaperone::_GetPlayAreaRect*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(ref OVR.OpenVR.HmdQuad_t rect)

@@ -39,7 +39,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FormatException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("FormatException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::FormatException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FormatException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -49,7 +49,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FormatException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("FormatException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::FormatException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FormatException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
@@ -59,7 +59,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FormatException* New_ctor(::Il2CppString* message, System::Exception* innerException) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("FormatException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::FormatException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FormatException*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -69,7 +69,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FormatException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("FormatException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::FormatException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FormatException*, creationType>(info, context)));
     }
   }; // System.FormatException

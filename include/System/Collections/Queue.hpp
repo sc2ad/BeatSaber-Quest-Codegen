@@ -88,21 +88,21 @@ namespace System::Collections {
     // Offset: 0x152B9D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Queue* New_ctor(int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Queue").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Queue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Queue*, creationType>(capacity)));
     }
     // public System.Void .ctor(System.Int32 capacity, System.Single growFactor)
     // Offset: 0x152B7EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Queue* New_ctor(int capacity, float growFactor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Queue").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Queue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Queue*, creationType>(capacity, growFactor)));
     }
     // public System.Void .ctor(System.Collections.ICollection col)
     // Offset: 0x152B9DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Queue* New_ctor(System::Collections::ICollection* col) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Queue").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Queue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Queue*, creationType>(col)));
     }
     // public System.Void Clear()
@@ -132,7 +132,7 @@ namespace System::Collections {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Queue* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Queue").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Queue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Queue*, creationType>()));
     }
     // public System.Int32 get_Count()

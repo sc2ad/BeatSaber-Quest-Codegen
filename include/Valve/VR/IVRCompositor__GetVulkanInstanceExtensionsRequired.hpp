@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x18E8AA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_GetVulkanInstanceExtensionsRequired* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetVulkanInstanceExtensionsRequired").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRCompositor::_GetVulkanInstanceExtensionsRequired::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_GetVulkanInstanceExtensionsRequired*, creationType>(object, method)));
     }
     // public System.UInt32 Invoke(System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)

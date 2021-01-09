@@ -37,14 +37,14 @@ namespace Tweening {
     // Offset: 0xFF3F04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorTween* New_ctor(UnityEngine::Color fromValue, UnityEngine::Color toValue, System::Action_1<UnityEngine::Color>* onUpdate, float duration, Tweening::EaseType easeType, float delay) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Tweening").WithContext("ColorTween").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::ColorTween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorTween*, creationType>(fromValue, toValue, onUpdate, duration, easeType, delay)));
     }
     // public System.Void .ctor(UnityEngine.Color fromValue, UnityEngine.Color toValue, System.Action`1<UnityEngine.Color> onUpdate, System.Single duration, UnityEngine.AnimationCurve animationCurve, System.Single delay)
     // Offset: 0xFF3FDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorTween* New_ctor(UnityEngine::Color fromValue, UnityEngine::Color toValue, System::Action_1<UnityEngine::Color>* onUpdate, float duration, UnityEngine::AnimationCurve* animationCurve, float delay) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Tweening").WithContext("ColorTween").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::ColorTween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorTween*, creationType>(fromValue, toValue, onUpdate, duration, animationCurve, delay)));
     }
     // public UnityEngine.Color GetValue(System.Single t)

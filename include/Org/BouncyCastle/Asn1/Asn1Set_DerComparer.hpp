@@ -39,7 +39,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Set::DerComparer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1Set::DerComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Set::DerComparer*, creationType>()));
     }
   }; // Org.BouncyCastle.Asn1.Asn1Set/DerComparer

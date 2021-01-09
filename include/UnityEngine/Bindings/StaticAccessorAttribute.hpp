@@ -49,14 +49,14 @@ namespace UnityEngine::Bindings {
     // Offset: 0x1A0474C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StaticAccessorAttribute* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("StaticAccessorAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::StaticAccessorAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StaticAccessorAttribute*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, UnityEngine.Bindings.StaticAccessorType type)
     // Offset: 0x1A04780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StaticAccessorAttribute* New_ctor(::Il2CppString* name, UnityEngine::Bindings::StaticAccessorType type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("StaticAccessorAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::StaticAccessorAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StaticAccessorAttribute*, creationType>(name, type)));
     }
   }; // UnityEngine.Bindings.StaticAccessorAttribute

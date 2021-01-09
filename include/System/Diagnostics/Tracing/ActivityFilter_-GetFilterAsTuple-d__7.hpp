@@ -96,7 +96,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C3028
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActivityFilter::$GetFilterAsTuple$d__7* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("$GetFilterAsTuple$d__7").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ActivityFilter::$GetFilterAsTuple$d__7::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActivityFilter::$GetFilterAsTuple$d__7*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

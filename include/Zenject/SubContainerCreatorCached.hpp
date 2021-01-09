@@ -63,7 +63,7 @@ namespace Zenject {
     // Offset: 0x1355650
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorCached* New_ctor(Zenject::ISubContainerCreator* subCreator) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SubContainerCreatorCached").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorCached::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorCached*, creationType>(subCreator)));
     }
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)

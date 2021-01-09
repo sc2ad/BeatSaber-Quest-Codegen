@@ -48,7 +48,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x19AE7EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PointOnEdgeException* New_ctor(::Il2CppString* message, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("PointOnEdgeException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PointOnEdgeException*, creationType>(message, a, b, c)));
     }
   }; // UnityEngine.ProBuilder.Poly2Tri.PointOnEdgeException

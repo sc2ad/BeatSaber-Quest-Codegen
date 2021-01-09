@@ -40,7 +40,7 @@ namespace System::Xml {
     // Offset: 0x14EFC50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlRawWriterBase64Encoder* New_ctor(System::Xml::XmlRawWriter* rawWriter) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("XmlRawWriterBase64Encoder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlRawWriterBase64Encoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlRawWriterBase64Encoder*, creationType>(rawWriter)));
     }
     // override System.Void WriteChars(System.Char[] chars, System.Int32 index, System.Int32 count)

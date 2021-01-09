@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A41E3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioPitchGainEffect::$StartEffectCoroutine$d__8* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$StartEffectCoroutine$d__8").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AudioPitchGainEffect::$StartEffectCoroutine$d__8::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioPitchGainEffect::$StartEffectCoroutine$d__8*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

@@ -80,7 +80,7 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferedCipherBase* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto").WithContext("BufferedCipherBase").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::BufferedCipherBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferedCipherBase*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.BufferedCipherBase

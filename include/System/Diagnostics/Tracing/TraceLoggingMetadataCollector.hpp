@@ -59,7 +59,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x1121BEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceLoggingMetadataCollector* New_ctor(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* other, System::Diagnostics::Tracing::FieldMetadata* group) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("TraceLoggingMetadataCollector").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::TraceLoggingMetadataCollector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceLoggingMetadataCollector*, creationType>(other, group)));
     }
     // System.Diagnostics.Tracing.EventFieldTags get_Tags()
@@ -110,7 +110,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceLoggingMetadataCollector* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("TraceLoggingMetadataCollector").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::TraceLoggingMetadataCollector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceLoggingMetadataCollector*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.TraceLoggingMetadataCollector

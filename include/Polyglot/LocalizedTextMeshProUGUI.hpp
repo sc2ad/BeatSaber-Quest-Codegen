@@ -59,7 +59,7 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedTextMeshProUGUI* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextMeshProUGUI").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::LocalizedTextMeshProUGUI::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedTextMeshProUGUI*, creationType>()));
     }
   }; // Polyglot.LocalizedTextMeshProUGUI

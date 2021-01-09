@@ -34,7 +34,7 @@ namespace UnityEngine {
     // Offset: 0x167C3F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Application::LowMemoryCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("LowMemoryCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Application::LowMemoryCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Application::LowMemoryCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke()

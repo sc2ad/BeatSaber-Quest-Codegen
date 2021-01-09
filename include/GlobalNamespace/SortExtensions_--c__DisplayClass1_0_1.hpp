@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // System.Int32 <Sort>b__0(T a, T b)
     // Offset: 0xFFFFFFFF
     int $Sort$b__0(T a, T b) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass1_0_1").WithContext("<Sort>b__0");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SortExtensions::$$c__DisplayClass1_0_1::<Sort>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<Sort>b__0", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(a, b))));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, a, b);
     }
@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortExtensions::$$c__DisplayClass1_0_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass1_0_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SortExtensions::$$c__DisplayClass1_0_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortExtensions::$$c__DisplayClass1_0_1<T>*, creationType>()));
     }
   }; // SortExtensions/<>c__DisplayClass1_0`1

@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0x1E52C20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyMessageHandler::ServerStatusUpdatedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ServerStatusUpdatedDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler::ServerStatusUpdatedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String serverName, System.String password, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, System.Int32 maxPlayerCount, GameplayServerConfiguration configuration)

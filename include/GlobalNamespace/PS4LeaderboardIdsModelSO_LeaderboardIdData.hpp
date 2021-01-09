@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0xF02C6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LeaderboardIdsModelSO::LeaderboardIdData* New_ctor(uint ps4LeaderboardId, ::Il2CppString* leaderboardId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LeaderboardIdData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4LeaderboardIdsModelSO::LeaderboardIdData*, creationType>(ps4LeaderboardId, leaderboardId)));
     }
   }; // PS4LeaderboardIdsModelSO/LeaderboardIdData

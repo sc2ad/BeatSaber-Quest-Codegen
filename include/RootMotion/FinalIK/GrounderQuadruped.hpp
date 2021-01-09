@@ -79,7 +79,7 @@ namespace RootMotion::FinalIK {
       // Offset: 0xCA689C
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       Foot(RootMotion::FinalIK::IKSolver* solver, UnityEngine::Transform* transform) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("Foot").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::GrounderQuadruped::Foot::.ctor");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(solver, transform)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solver, transform);
       }
@@ -357,7 +357,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GrounderQuadruped* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("GrounderQuadruped").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::GrounderQuadruped::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GrounderQuadruped*, creationType>()));
     }
   }; // RootMotion.FinalIK.GrounderQuadruped

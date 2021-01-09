@@ -34,7 +34,7 @@ namespace Il2CppDummyDll {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FieldOffsetAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Il2CppDummyDll").WithContext("FieldOffsetAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Il2CppDummyDll::FieldOffsetAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FieldOffsetAttribute*, creationType>()));
     }
   }; // Il2CppDummyDll.FieldOffsetAttribute

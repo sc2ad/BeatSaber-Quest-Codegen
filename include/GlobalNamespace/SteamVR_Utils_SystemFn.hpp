@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Offset: 0x135FCD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Utils::SystemFn* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SystemFn").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Utils::SystemFn::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Utils::SystemFn*, creationType>(object, method)));
     }
     // public System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)

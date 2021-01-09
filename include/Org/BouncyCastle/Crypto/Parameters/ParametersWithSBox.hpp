@@ -39,7 +39,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1048F40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParametersWithSBox* New_ctor(Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Array<uint8_t>* sBox) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("ParametersWithSBox").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParametersWithSBox*, creationType>(parameters, sBox)));
     }
     // public System.Byte[] GetSBox()

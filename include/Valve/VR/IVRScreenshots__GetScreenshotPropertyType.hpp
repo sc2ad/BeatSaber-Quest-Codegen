@@ -42,7 +42,7 @@ namespace Valve::VR {
     // Offset: 0x1922980
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRScreenshots::_GetScreenshotPropertyType* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetScreenshotPropertyType").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRScreenshots::_GetScreenshotPropertyType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRScreenshots::_GetScreenshotPropertyType*, creationType>(object, method)));
     }
     // public Valve.VR.EVRScreenshotType Invoke(System.UInt32 screenshotHandle, ref Valve.VR.EVRScreenshotError pError)

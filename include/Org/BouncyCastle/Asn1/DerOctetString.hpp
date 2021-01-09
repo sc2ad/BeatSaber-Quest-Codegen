@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1384B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerOctetString* New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable* obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerOctetString").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerOctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerOctetString*, creationType>(obj)));
     }
     // public System.Void .ctor(System.Byte[] str)
@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void Asn1OctetString::.ctor(System.Byte[] str)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerOctetString* New_ctor(::Array<uint8_t>* str) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerOctetString").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerOctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerOctetString*, creationType>(str)));
     }
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)

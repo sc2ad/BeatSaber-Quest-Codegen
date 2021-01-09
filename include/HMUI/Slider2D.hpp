@@ -224,7 +224,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Slider2D* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("Slider2D").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::Slider2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Slider2D*, creationType>()));
     }
     // private UnityEngine.Transform UnityEngine.UI.ICanvasElement.get_transform()

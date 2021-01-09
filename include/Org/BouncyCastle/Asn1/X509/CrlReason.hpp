@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x157A07C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrlReason* New_ctor(Org::BouncyCastle::Asn1::DerEnumerated* reason) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X509").WithContext("CrlReason").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::CrlReason::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrlReason*, creationType>(reason)));
     }
     // public override System.String ToString()

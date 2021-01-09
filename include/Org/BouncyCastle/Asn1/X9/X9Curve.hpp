@@ -67,14 +67,14 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Offset: 0x1589CB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9Curve* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, ::Array<uint8_t>* seed) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X9").WithContext("X9Curve").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9Curve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9Curve*, creationType>(curve, seed)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X9.X9FieldID fieldID, Org.BouncyCastle.Math.BigInteger order, Org.BouncyCastle.Math.BigInteger cofactor, Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x1589E48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9Curve* New_ctor(Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID, Org::BouncyCastle::Math::BigInteger* order, Org::BouncyCastle::Math::BigInteger* cofactor, Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X9").WithContext("X9Curve").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9Curve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9Curve*, creationType>(fieldID, order, cofactor, seq)));
     }
     // public Org.BouncyCastle.Math.EC.ECCurve get_Curve()

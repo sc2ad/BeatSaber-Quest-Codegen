@@ -35,7 +35,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IndexOutOfRangeException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("IndexOutOfRangeException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IndexOutOfRangeException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IndexOutOfRangeException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -45,7 +45,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IndexOutOfRangeException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("IndexOutOfRangeException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IndexOutOfRangeException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IndexOutOfRangeException*, creationType>(message)));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -55,7 +55,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IndexOutOfRangeException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("IndexOutOfRangeException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IndexOutOfRangeException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IndexOutOfRangeException*, creationType>(info, context)));
     }
   }; // System.IndexOutOfRangeException

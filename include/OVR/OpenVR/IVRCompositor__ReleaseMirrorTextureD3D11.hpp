@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x185DDE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_ReleaseMirrorTextureD3D11* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_ReleaseMirrorTextureD3D11").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_ReleaseMirrorTextureD3D11::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_ReleaseMirrorTextureD3D11*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.IntPtr pD3D11ShaderResourceView)

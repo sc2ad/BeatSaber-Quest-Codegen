@@ -139,7 +139,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriangulationContext* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("TriangulationContext").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TriangulationContext*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationContext

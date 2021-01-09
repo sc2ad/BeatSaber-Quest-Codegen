@@ -33,7 +33,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x1519138
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Level2Map* New_ctor(uint8_t source, uint8_t replace) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Globalization::Unicode").WithContext("Level2Map").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::Level2Map::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Level2Map*, creationType>(source, replace)));
     }
   }; // Mono.Globalization.Unicode.Level2Map

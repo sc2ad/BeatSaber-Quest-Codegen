@@ -30,7 +30,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ControlTrack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("ControlTrack").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::ControlTrack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ControlTrack*, creationType>()));
     }
   }; // UnityEngine.Timeline.ControlTrack

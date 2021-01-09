@@ -105,7 +105,7 @@ namespace Org::BouncyCastle::X509 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateParser* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::X509").WithContext("X509CertificateParser").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::X509CertificateParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateParser*, creationType>()));
     }
   }; // Org.BouncyCastle.X509.X509CertificateParser

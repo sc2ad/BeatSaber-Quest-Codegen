@@ -28,7 +28,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExtensionOfNativeClassAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("ExtensionOfNativeClassAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ExtensionOfNativeClassAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExtensionOfNativeClassAttribute*, creationType>()));
     }
   }; // UnityEngine.ExtensionOfNativeClassAttribute

@@ -56,14 +56,14 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1380A54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerBoolean* New_ctor(::Array<uint8_t>* val) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerBoolean").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerBoolean::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerBoolean*, creationType>(val)));
     }
     // private System.Void .ctor(System.Boolean value)
     // Offset: 0x1380B10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerBoolean* New_ctor(bool value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerBoolean").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerBoolean::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerBoolean*, creationType>(value)));
     }
     // public System.Boolean get_IsTrue()

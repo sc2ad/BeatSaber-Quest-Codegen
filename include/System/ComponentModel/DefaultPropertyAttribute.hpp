@@ -38,7 +38,7 @@ namespace System::ComponentModel {
     // Offset: 0x1480A88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultPropertyAttribute* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("DefaultPropertyAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::DefaultPropertyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultPropertyAttribute*, creationType>(name)));
     }
     // public System.String get_Name()

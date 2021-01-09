@@ -44,7 +44,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F9204
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRSystem::_GetControllerStateWithPosePacked* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetControllerStateWithPosePacked").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRSystem::_GetControllerStateWithPosePacked*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.UInt32 unControllerDeviceIndex, ref OVR.OpenVR.VRControllerState_t_Packed pControllerState, System.UInt32 unControllerStateSize, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose)

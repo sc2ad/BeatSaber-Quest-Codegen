@@ -35,7 +35,7 @@ namespace System::Net {
     // Offset: 0x12C00E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoChunkStream::Chunk* New_ctor(::Array<uint8_t>* chunk) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("Chunk").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::MonoChunkStream::Chunk::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoChunkStream::Chunk*, creationType>(chunk)));
     }
     // public System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)

@@ -74,7 +74,7 @@ namespace Zenject {
     // Offset: 0x1296800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GetFromGameObjectGetterComponentProvider* New_ctor(System::Type* componentType, System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* gameObjectGetter, bool matchSingle) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("GetFromGameObjectGetterComponentProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::GetFromGameObjectGetterComponentProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GetFromGameObjectGetterComponentProvider*, creationType>(componentType, gameObjectGetter, matchSingle)));
     }
     // public System.Boolean get_IsCached()

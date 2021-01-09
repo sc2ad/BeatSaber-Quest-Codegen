@@ -43,7 +43,7 @@ namespace System::Diagnostics {
     // Offset: 0x1677830
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DebuggerDisplayAttribute* New_ctor(::Il2CppString* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("DebuggerDisplayAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::DebuggerDisplayAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DebuggerDisplayAttribute*, creationType>(value)));
     }
   }; // System.Diagnostics.DebuggerDisplayAttribute

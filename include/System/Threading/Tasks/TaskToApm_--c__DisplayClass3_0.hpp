@@ -50,7 +50,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskToApm::$$c__DisplayClass3_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("$$c__DisplayClass3_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskToApm::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskToApm::$$c__DisplayClass3_0*, creationType>()));
     }
   }; // System.Threading.Tasks.TaskToApm/<>c__DisplayClass3_0

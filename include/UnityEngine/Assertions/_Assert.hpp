@@ -43,7 +43,7 @@ namespace UnityEngine::Assertions {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void AreEqual(T expected, T actual, ::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Assertions").WithContext("_Assert").WithContext("AreEqual");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Assertions::_Assert::AreEqual");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Assertions", "Assert", "AreEqual", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(expected, actual, message)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, expected, actual, message);
@@ -52,7 +52,7 @@ namespace UnityEngine::Assertions {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void AreEqual(T expected, T actual, ::Il2CppString* message, System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Assertions").WithContext("_Assert").WithContext("AreEqual");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Assertions::_Assert::AreEqual");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Assertions", "Assert", "AreEqual", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(expected, actual, message, comparer)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, expected, actual, message, comparer);

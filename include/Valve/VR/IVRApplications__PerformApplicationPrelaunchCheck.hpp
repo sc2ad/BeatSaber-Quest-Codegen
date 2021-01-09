@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x136EB18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRApplications::_PerformApplicationPrelaunchCheck* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_PerformApplicationPrelaunchCheck").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRApplications::_PerformApplicationPrelaunchCheck::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRApplications::_PerformApplicationPrelaunchCheck*, creationType>(object, method)));
     }
     // public Valve.VR.EVRApplicationError Invoke(System.String pchAppKey)

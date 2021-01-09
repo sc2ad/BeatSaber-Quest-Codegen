@@ -38,7 +38,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x132C128
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodReturnDictionary* New_ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("MethodReturnDictionary").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MethodReturnDictionary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodReturnDictionary*, creationType>(message)));
     }
     // static private System.Void .cctor()

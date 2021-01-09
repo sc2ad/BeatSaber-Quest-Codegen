@@ -34,7 +34,7 @@ namespace LiteNetLib {
     // Base method: System.Void BaseChannel::.ctor(LiteNetLib.NetPeer peer)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleChannel* New_ctor(LiteNetLib::NetPeer* peer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib").WithContext("SimpleChannel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::SimpleChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleChannel*, creationType>(peer)));
     }
     // public override System.Void SendNextPackets()

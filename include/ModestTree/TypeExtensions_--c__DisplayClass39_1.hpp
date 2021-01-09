@@ -48,7 +48,7 @@ namespace ModestTree {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeExtensions::$$c__DisplayClass39_1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("$$c__DisplayClass39_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::TypeExtensions::$$c__DisplayClass39_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeExtensions::$$c__DisplayClass39_1*, creationType>()));
     }
   }; // ModestTree.TypeExtensions/<>c__DisplayClass39_1

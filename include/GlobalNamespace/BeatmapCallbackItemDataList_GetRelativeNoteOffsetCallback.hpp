@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A7B2E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("GetRelativeNoteOffsetCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback*, creationType>(object, method)));
     }
     // public UnityEngine.Vector2 Invoke(System.Int32 lineIndex, NoteLineLayer noteLineLayer)

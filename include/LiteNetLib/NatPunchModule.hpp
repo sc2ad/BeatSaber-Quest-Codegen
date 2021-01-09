@@ -180,7 +180,7 @@ namespace LiteNetLib {
     // Offset: 0x1DC4A4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NatPunchModule* New_ctor(LiteNetLib::NetSocket* socket) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib").WithContext("NatPunchModule").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NatPunchModule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NatPunchModule*, creationType>(socket)));
     }
     // System.Void ProcessMessage(System.Net.IPEndPoint senderEndPoint, LiteNetLib.NetPacket packet)
@@ -193,7 +193,7 @@ namespace LiteNetLib {
     // Offset: 0xFFFFFFFF
     template<class T>
     void Send(T packet, System::Net::IPEndPoint* target) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib").WithContext("NatPunchModule").WithContext("Send");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NatPunchModule::Send");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Send", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(packet, target)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, packet, target);

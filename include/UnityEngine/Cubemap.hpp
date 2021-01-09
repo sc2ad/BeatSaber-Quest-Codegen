@@ -69,49 +69,49 @@ namespace UnityEngine {
     // Offset: 0x1683400
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Cubemap* New_ctor(int width, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Cubemap").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Cubemap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Cubemap*, creationType>(width, format, flags)));
     }
     // public System.Void .ctor(System.Int32 width, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
     // Offset: 0x1683448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Cubemap* New_ctor(int width, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Cubemap").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Cubemap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Cubemap*, creationType>(width, format, flags)));
     }
     // public System.Void .ctor(System.Int32 width, UnityEngine.TextureFormat format, System.Int32 mipCount)
     // Offset: 0x1683534
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Cubemap* New_ctor(int width, UnityEngine::TextureFormat format, int mipCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Cubemap").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Cubemap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Cubemap*, creationType>(width, format, mipCount)));
     }
     // public System.Void .ctor(System.Int32 width, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags, System.Int32 mipCount)
     // Offset: 0x16836B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Cubemap* New_ctor(int width, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int mipCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Cubemap").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Cubemap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Cubemap*, creationType>(width, format, flags, mipCount)));
     }
     // System.Void .ctor(System.Int32 width, UnityEngine.TextureFormat textureFormat, System.Int32 mipCount, System.IntPtr nativeTex)
     // Offset: 0x16835A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Cubemap* New_ctor(int width, UnityEngine::TextureFormat textureFormat, int mipCount, System::IntPtr nativeTex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Cubemap").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Cubemap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Cubemap*, creationType>(width, textureFormat, mipCount, nativeTex)));
     }
     // System.Void .ctor(System.Int32 width, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain, System.IntPtr nativeTex)
     // Offset: 0x16837FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Cubemap* New_ctor(int width, UnityEngine::TextureFormat textureFormat, bool mipChain, System::IntPtr nativeTex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Cubemap").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Cubemap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Cubemap*, creationType>(width, textureFormat, mipChain, nativeTex)));
     }
     // public System.Void .ctor(System.Int32 width, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain)
     // Offset: 0x168381C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Cubemap* New_ctor(int width, UnityEngine::TextureFormat textureFormat, bool mipChain) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Cubemap").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Cubemap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Cubemap*, creationType>(width, textureFormat, mipChain)));
     }
     // static public UnityEngine.Cubemap CreateExternalTexture(System.Int32 width, UnityEngine.TextureFormat format, System.Boolean mipmap, System.IntPtr nativeTex)

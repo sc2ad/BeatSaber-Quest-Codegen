@@ -45,7 +45,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x1199DE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinuxIPInterfaceProperties* New_ctor(System::Net::NetworkInformation::LinuxNetworkInterface* iface, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("LinuxIPInterfaceProperties").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::LinuxIPInterfaceProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinuxIPInterfaceProperties*, creationType>(iface, addresses)));
     }
     // private System.Net.NetworkInformation.IPAddressCollection ParseRouteInfo(System.String iface)

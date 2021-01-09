@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void ThreefishCipher::.ctor(System.UInt64[] kw, System.UInt64[] t)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreefishEngine::Threefish256Cipher* New_ctor(::Array<uint64_t>* kw, ::Array<uint64_t>* t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Engines").WithContext("Threefish256Cipher").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish256Cipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreefishEngine::Threefish256Cipher*, creationType>(kw, t)));
     }
     // override System.Void EncryptBlock(System.UInt64[] block, System.UInt64[] outWords)

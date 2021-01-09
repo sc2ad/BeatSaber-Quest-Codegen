@@ -59,7 +59,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DecoderFallbackBuffer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("DecoderFallbackBuffer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::DecoderFallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DecoderFallbackBuffer*, creationType>()));
     }
   }; // System.Text.DecoderFallbackBuffer

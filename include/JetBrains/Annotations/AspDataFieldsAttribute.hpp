@@ -27,7 +27,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AspDataFieldsAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("AspDataFieldsAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::AspDataFieldsAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AspDataFieldsAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.AspDataFieldsAttribute

@@ -191,7 +191,7 @@ namespace LiteNetLib {
     // Offset: 0x1DC6C08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetEvent* New_ctor(LiteNetLib::NetManager* manager) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib").WithContext("NetEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetEvent*, creationType>(manager)));
     }
   }; // LiteNetLib.NetEvent

@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x10631A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_TriggerHapticPulse* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_TriggerHapticPulse").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_TriggerHapticPulse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_TriggerHapticPulse*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.UInt32 unControllerDeviceIndex, System.UInt32 unAxisId, System.UInt16 usDurationMicroSec)

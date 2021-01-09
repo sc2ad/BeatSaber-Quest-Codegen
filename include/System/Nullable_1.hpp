@@ -42,49 +42,49 @@ namespace System {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Nullable_1(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // public System.Boolean get_HasValue()
     // Offset: 0xFFFFFFFF
     bool get_HasValue() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("get_HasValue");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::get_HasValue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "get_HasValue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
     }
     // public T get_Value()
     // Offset: 0xFFFFFFFF
     T get_Value() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("get_Value");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::get_Value");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "get_Value", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method);
     }
     // private System.Boolean Equals(System.Nullable`1<T> other)
     // Offset: 0xFFFFFFFF
     bool Equals(System::Nullable_1<T> other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("Equals");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::Equals");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(other)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, other);
     }
     // public T GetValueOrDefault()
     // Offset: 0xFFFFFFFF
     T GetValueOrDefault() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("GetValueOrDefault");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::GetValueOrDefault");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "GetValueOrDefault", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method);
     }
     // static private System.Object Box(System.Nullable`1<T> o)
     // Offset: 0xFFFFFFFF
     static ::Il2CppObject* Box(System::Nullable_1<T> o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("Box");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::Box");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), "Box", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(o))));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, o);
     }
     // static private System.Nullable`1<T> Unbox(System.Object o)
     // Offset: 0xFFFFFFFF
     static System::Nullable_1<T> Unbox(::Il2CppObject* o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("Unbox");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::Unbox");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), "Unbox", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(o))));
       return ::il2cpp_utils::RunMethodThrow<System::Nullable_1<T>, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, o);
     }
@@ -93,7 +93,7 @@ namespace System {
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("Equals");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::Equals");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(other)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, other);
     }
@@ -102,7 +102,7 @@ namespace System {
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("GetHashCode");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::GetHashCode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
     }
@@ -111,7 +111,7 @@ namespace System {
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("ToString");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::ToString");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "ToString", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(*this, ___internal__method);
     }

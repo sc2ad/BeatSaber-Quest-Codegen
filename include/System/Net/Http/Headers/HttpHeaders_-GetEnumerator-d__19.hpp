@@ -61,7 +61,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x1202D70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpHeaders::$GetEnumerator$d__19* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("$GetEnumerator$d__19").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaders::$GetEnumerator$d__19::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpHeaders::$GetEnumerator$d__19*, creationType>($$1__state)));
     }
     // private System.Void <>m__Finally1()

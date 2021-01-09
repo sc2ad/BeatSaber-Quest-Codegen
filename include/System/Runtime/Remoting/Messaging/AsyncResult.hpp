@@ -169,7 +169,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x1177608
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncResult* New_ctor(System::Threading::WaitCallback* cb, ::Il2CppObject* state, bool capture_context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("AsyncResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::AsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncResult*, creationType>(cb, state, capture_context)));
     }
     // static private System.Void WaitCallback_Context(System.Object state)
@@ -220,7 +220,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncResult* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("AsyncResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::AsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncResult*, creationType>()));
     }
     // public System.Object get_AsyncState()

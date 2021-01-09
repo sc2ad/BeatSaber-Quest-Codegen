@@ -83,14 +83,14 @@ namespace GlobalNamespace {
     // Offset: 0x1A0D290
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullAllowed* New_ctor(GlobalNamespace::NullAllowed::Context context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NullAllowed").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NullAllowed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>(context)));
     }
     // public System.Void .ctor(System.String propertyName, System.Object ifNotValue)
     // Offset: 0x1A0D2BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullAllowed* New_ctor(::Il2CppString* propertyName, ::Il2CppObject* ifNotValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NullAllowed").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NullAllowed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>(propertyName, ifNotValue)));
     }
     // public System.Void .ctor()
@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullAllowed* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NullAllowed").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NullAllowed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>()));
     }
   }; // NullAllowed

@@ -30,7 +30,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SHA1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("SHA1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::SHA1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SHA1*, creationType>()));
     }
   }; // System.Security.Cryptography.SHA1

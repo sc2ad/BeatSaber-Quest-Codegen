@@ -74,7 +74,7 @@ namespace System::Net::Security {
     // Offset: 0x11A1B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SslStream* New_ctor(System::IO::Stream* innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsProvider* provider, Mono::Security::Interface::MonoTlsSettings* settings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Security").WithContext("SslStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Security::SslStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SslStream*, creationType>(innerStream, leaveInnerStreamOpen, provider, settings)));
     }
     // static Mono.Security.Interface.IMonoSslStream CreateMonoSslStream(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, Mono.Security.Interface.MonoTlsProvider provider, Mono.Security.Interface.MonoTlsSettings settings)

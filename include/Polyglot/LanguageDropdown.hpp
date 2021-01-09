@@ -67,7 +67,7 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LanguageDropdown* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LanguageDropdown").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::LanguageDropdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LanguageDropdown*, creationType>()));
     }
   }; // Polyglot.LanguageDropdown

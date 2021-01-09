@@ -286,7 +286,7 @@ namespace System::Globalization {
     // Offset: 0x16179C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NumberFormatInfo* New_ctor(System::Globalization::CultureData* cultureData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("NumberFormatInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::NumberFormatInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NumberFormatInfo*, creationType>(cultureData)));
     }
     // private System.Void VerifyWritable()
@@ -403,7 +403,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NumberFormatInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("NumberFormatInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::NumberFormatInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NumberFormatInfo*, creationType>()));
     }
     // public System.Object Clone()

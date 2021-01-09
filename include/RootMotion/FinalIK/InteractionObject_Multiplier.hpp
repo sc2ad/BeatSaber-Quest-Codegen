@@ -49,7 +49,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionObject::Multiplier* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("Multiplier").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionObject::Multiplier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::Multiplier*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionObject/Multiplier

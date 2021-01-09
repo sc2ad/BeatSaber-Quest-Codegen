@@ -162,7 +162,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BroadcastServerStatusResponse* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("BroadcastServerStatusResponse").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::BroadcastServerStatusResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BroadcastServerStatusResponse*, creationType>()));
     }
   }; // MasterServer.BroadcastServerStatusResponse

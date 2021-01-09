@@ -125,7 +125,7 @@ namespace UnityEngine {
     // Offset: 0x15F785C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Event* New_ctor(int displayIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Event").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Event::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Event*, creationType>(displayIndex)));
     }
     // public System.Boolean get_shift()
@@ -170,7 +170,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Event* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Event").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Event::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Event*, creationType>()));
     }
     // protected override System.Void Finalize()

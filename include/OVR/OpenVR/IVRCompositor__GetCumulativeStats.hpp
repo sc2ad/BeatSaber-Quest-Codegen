@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1859F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_GetCumulativeStats* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetCumulativeStats").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_GetCumulativeStats::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_GetCumulativeStats*, creationType>(object, method)));
     }
     // public System.Void Invoke(ref OVR.OpenVR.Compositor_CumulativeStats pStats, System.UInt32 nStatsSizeInBytes)

@@ -43,7 +43,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x1280394
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateImplMono* New_ctor(Mono::Security::X509::X509Certificate* x509) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509CertificateImplMono").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509CertificateImplMono::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateImplMono*, creationType>(x509)));
     }
     // public override System.Boolean get_IsValid()

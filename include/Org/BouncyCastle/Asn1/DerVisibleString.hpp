@@ -41,14 +41,14 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1374868
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerVisibleString* New_ctor(::Array<uint8_t>* str) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerVisibleString").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerVisibleString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerVisibleString*, creationType>(str)));
     }
     // public System.Void .ctor(System.String str)
     // Offset: 0x138628C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerVisibleString* New_ctor(::Il2CppString* str) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerVisibleString").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerVisibleString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerVisibleString*, creationType>(str)));
     }
     // public System.Byte[] GetOctets()

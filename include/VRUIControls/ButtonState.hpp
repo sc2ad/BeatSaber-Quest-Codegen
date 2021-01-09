@@ -70,7 +70,7 @@ namespace VRUIControls {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ButtonState* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("VRUIControls").WithContext("ButtonState").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("VRUIControls::ButtonState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ButtonState*, creationType>()));
     }
   }; // VRUIControls.ButtonState

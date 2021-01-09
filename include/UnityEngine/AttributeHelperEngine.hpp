@@ -67,7 +67,7 @@ namespace UnityEngine {
     template<class T>
     static T GetCustomAttributeOfType(System::Type* klass) {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("AttributeHelperEngine").WithContext("GetCustomAttributeOfType");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AttributeHelperEngine::GetCustomAttributeOfType");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "AttributeHelperEngine", "GetCustomAttributeOfType", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(klass)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, klass);

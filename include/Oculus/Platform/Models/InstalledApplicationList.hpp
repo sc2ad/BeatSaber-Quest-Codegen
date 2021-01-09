@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DA5D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstalledApplicationList* New_ctor(System::IntPtr a) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("InstalledApplicationList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::InstalledApplicationList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstalledApplicationList*, creationType>(a)));
     }
   }; // Oculus.Platform.Models.InstalledApplicationList

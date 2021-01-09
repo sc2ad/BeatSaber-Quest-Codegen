@@ -35,7 +35,7 @@ namespace System {
     // Offset: 0x1CA8EE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyLoadEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("AssemblyLoadEventHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::AssemblyLoadEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyLoadEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.AssemblyLoadEventArgs args)

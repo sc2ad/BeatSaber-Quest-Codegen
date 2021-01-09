@@ -108,7 +108,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x15E3150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RagdollUtility::Rigidbone* New_ctor(UnityEngine::Rigidbody* r) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("Rigidbone").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RagdollUtility::Rigidbone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RagdollUtility::Rigidbone*, creationType>(r)));
     }
     // public System.Void RecordVelocity()

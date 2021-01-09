@@ -153,7 +153,7 @@ namespace System::Text {
     // Offset: 0x1596FD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Encoding* New_ctor(int codePage) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("Encoding").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::Encoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoding*, creationType>(codePage)));
     }
     // System.Void SetDefaultFallbacks()
@@ -345,7 +345,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Encoding* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("Encoding").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::Encoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoding*, creationType>()));
     }
     // public System.Object Clone()

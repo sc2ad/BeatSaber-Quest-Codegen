@@ -35,7 +35,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x119E2B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32IPv4InterfaceStatistics* New_ctor(System::Net::NetworkInformation::Win32_MIB_IFROW info) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("Win32IPv4InterfaceStatistics").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::Win32IPv4InterfaceStatistics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32IPv4InterfaceStatistics*, creationType>(info)));
     }
   }; // System.Net.NetworkInformation.Win32IPv4InterfaceStatistics

@@ -28,7 +28,7 @@ namespace System::Runtime::InteropServices {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreserveSigAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("PreserveSigAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::PreserveSigAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PreserveSigAttribute*, creationType>()));
     }
   }; // System.Runtime.InteropServices.PreserveSigAttribute

@@ -58,27 +58,27 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KdTreeNode_2<TKey, TValue>* New_ctor(::Array<TKey>* point, TValue value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTreeNode_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTreeNode_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KdTreeNode_2<TKey, TValue>*, creationType>(point, value)));
     }
     // UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> get_Item(System.Int32 compare)
     // Offset: 0xFFFFFFFF
     UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* get_Item(int compare) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTreeNode_2").WithContext("get_Item");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTreeNode_2::get_Item");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Item", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(compare)));
       return ::il2cpp_utils::RunMethodThrow<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, false>(this, ___internal__method, compare);
     }
     // System.Void set_Item(System.Int32 compare, UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> value)
     // Offset: 0xFFFFFFFF
     void set_Item(int compare, UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTreeNode_2").WithContext("set_Item");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTreeNode_2::set_Item");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "set_Item", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(compare, value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, compare, value);
     }
     // public System.Void AddDuplicate(TValue value)
     // Offset: 0xFFFFFFFF
     void AddDuplicate(TValue value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTreeNode_2").WithContext("AddDuplicate");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTreeNode_2::AddDuplicate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AddDuplicate", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
@@ -88,7 +88,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KdTreeNode_2<TKey, TValue>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTreeNode_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTreeNode_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KdTreeNode_2<TKey, TValue>*, creationType>()));
     }
     // public override System.String ToString()
@@ -96,7 +96,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTreeNode_2").WithContext("ToString");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTreeNode_2::ToString");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ToString", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
     }

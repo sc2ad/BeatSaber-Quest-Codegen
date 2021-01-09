@@ -47,7 +47,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x1518FB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Contraction* New_ctor(int index, ::Array<::Il2CppChar>* source, ::Il2CppString* replacement, ::Array<uint8_t>* sortkey) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Globalization::Unicode").WithContext("Contraction").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::Contraction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Contraction*, creationType>(index, source, replacement, sortkey)));
     }
   }; // Mono.Globalization.Unicode.Contraction

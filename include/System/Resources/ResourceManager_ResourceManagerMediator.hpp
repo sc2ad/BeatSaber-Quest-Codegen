@@ -59,7 +59,7 @@ namespace System::Resources {
     // Offset: 0x15D632C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManager::ResourceManagerMediator* New_ctor(System::Resources::ResourceManager* rm) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("ResourceManagerMediator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceManager::ResourceManagerMediator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManager::ResourceManagerMediator*, creationType>(rm)));
     }
     // System.String get_ModuleDir()

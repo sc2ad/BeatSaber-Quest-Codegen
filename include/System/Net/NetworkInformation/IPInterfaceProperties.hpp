@@ -38,7 +38,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPInterfaceProperties* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("IPInterfaceProperties").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::IPInterfaceProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPInterfaceProperties*, creationType>()));
     }
   }; // System.Net.NetworkInformation.IPInterfaceProperties

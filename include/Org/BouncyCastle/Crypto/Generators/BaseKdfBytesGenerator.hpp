@@ -62,7 +62,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Offset: 0x1497644
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseKdfBytesGenerator* New_ctor(int counterStart, Org::BouncyCastle::Crypto::IDigest* digest) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Generators").WithContext("BaseKdfBytesGenerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseKdfBytesGenerator*, creationType>(counterStart, digest)));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.IDerivationParameters parameters)

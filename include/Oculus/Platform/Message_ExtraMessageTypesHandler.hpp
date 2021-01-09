@@ -34,7 +34,7 @@ namespace Oculus::Platform {
     // Offset: 0x11D7504
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Message::ExtraMessageTypesHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("ExtraMessageTypesHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Message::ExtraMessageTypesHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Message::ExtraMessageTypesHandler*, creationType>(object, method)));
     }
     // public Oculus.Platform.Message Invoke(System.IntPtr messageHandle, Oculus.Platform.Message/MessageType message_type)

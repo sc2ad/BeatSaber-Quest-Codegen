@@ -46,7 +46,7 @@ namespace Zenject {
     // Offset: 0x13561BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByNewGameObjectDynamicContext* New_ctor(Zenject::DiContainer* container, Zenject::GameObjectCreationParameters* gameObjectBindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SubContainerCreatorByNewGameObjectDynamicContext").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByNewGameObjectDynamicContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByNewGameObjectDynamicContext*, creationType>(container, gameObjectBindInfo)));
     }
     // protected override UnityEngine.GameObject CreateGameObject(out System.Boolean shouldMakeActive)

@@ -149,7 +149,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FaceInfo_Legacy* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("FaceInfo_Legacy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::FaceInfo_Legacy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FaceInfo_Legacy*, creationType>()));
     }
   }; // TMPro.FaceInfo_Legacy

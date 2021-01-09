@@ -70,7 +70,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Offset: 0x13F9230
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CertificationRequestInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::Pkcs").WithContext("CertificationRequestInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CertificationRequestInfo*, creationType>(seq)));
     }
     // static private System.Void ValidateAttributes(Org.BouncyCastle.Asn1.Asn1Set attributes)

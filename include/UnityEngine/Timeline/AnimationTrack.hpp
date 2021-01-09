@@ -505,7 +505,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationTrack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("AnimationTrack").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::AnimationTrack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationTrack*, creationType>()));
     }
     // static private System.Void .cctor()

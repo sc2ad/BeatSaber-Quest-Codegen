@@ -30,7 +30,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x19AFBD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DTSweepConstraint* New_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("DTSweepConstraint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DTSweepConstraint*, creationType>(p1, p2)));
     }
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint

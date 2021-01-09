@@ -49,7 +49,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x146EA08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchSparse* New_ctor(System::Text::RegularExpressions::Regex* regex, System::Collections::Hashtable* caps, int capcount, ::Il2CppString* text, int begpos, int len, int startpos) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text::RegularExpressions").WithContext("MatchSparse").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::MatchSparse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MatchSparse*, creationType>(regex, caps, capcount, text, begpos, len, startpos)));
     }
     // public override System.Text.RegularExpressions.GroupCollection get_Groups()

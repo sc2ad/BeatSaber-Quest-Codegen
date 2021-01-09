@@ -65,7 +65,7 @@ namespace UnityEngine {
     template<class T>
     T LoadAsset(::Il2CppString* name) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("AssetBundle").WithContext("LoadAsset");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AssetBundle::LoadAsset");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "LoadAsset", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(name)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, name);
@@ -80,7 +80,7 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     template<class T>
     UnityEngine::AssetBundleRequest* LoadAssetAsync(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("AssetBundle").WithContext("LoadAssetAsync");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AssetBundle::LoadAssetAsync");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "LoadAssetAsync", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(name)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<UnityEngine::AssetBundleRequest*, false>(this, ___internal__method, name);
@@ -107,7 +107,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetBundle* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("AssetBundle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AssetBundle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetBundle*, creationType>()));
     }
   }; // UnityEngine.AssetBundle

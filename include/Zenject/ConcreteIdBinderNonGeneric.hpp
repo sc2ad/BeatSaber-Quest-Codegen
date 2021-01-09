@@ -42,7 +42,7 @@ namespace Zenject {
     // Base method: System.Void FromBinder::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConcreteIdBinderNonGeneric* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::BindStatement* bindStatement) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConcreteIdBinderNonGeneric").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteIdBinderNonGeneric::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConcreteIdBinderNonGeneric*, creationType>(bindContainer, bindInfo, bindStatement)));
     }
   }; // Zenject.ConcreteIdBinderNonGeneric

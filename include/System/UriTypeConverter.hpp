@@ -26,7 +26,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriTypeConverter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("UriTypeConverter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::UriTypeConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriTypeConverter*, creationType>()));
     }
   }; // System.UriTypeConverter

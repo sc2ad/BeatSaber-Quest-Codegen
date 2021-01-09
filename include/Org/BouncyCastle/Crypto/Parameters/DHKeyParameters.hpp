@@ -51,14 +51,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1042874
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHKeyParameters* New_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("DHKeyParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHKeyParameters*, creationType>(isPrivate, parameters)));
     }
     // protected System.Void .ctor(System.Boolean isPrivate, Org.BouncyCastle.Crypto.Parameters.DHParameters parameters, Org.BouncyCastle.Asn1.DerObjectIdentifier algorithmOid)
     // Offset: 0x10428FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHKeyParameters* New_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("DHKeyParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHKeyParameters*, creationType>(isPrivate, parameters, algorithmOid)));
     }
     // public Org.BouncyCastle.Crypto.Parameters.DHParameters get_Parameters()

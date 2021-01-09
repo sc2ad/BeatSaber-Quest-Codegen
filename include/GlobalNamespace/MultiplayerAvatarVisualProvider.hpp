@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerAvatarVisualProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MultiplayerAvatarVisualProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerAvatarVisualProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerAvatarVisualProvider*, creationType>()));
     }
   }; // MultiplayerAvatarVisualProvider

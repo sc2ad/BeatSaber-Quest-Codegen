@@ -45,7 +45,7 @@ namespace Zenject {
     // System.Boolean <WithAttributeWhere>b__0(System.Type t)
     // Offset: 0xFFFFFFFF
     bool $WithAttributeWhere$b__0(System::Type* t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass9_0_1").WithContext("<WithAttributeWhere>b__0");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConventionFilterTypesBinder::$$c__DisplayClass9_0_1::<WithAttributeWhere>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<WithAttributeWhere>b__0", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(t))));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, t);
     }
@@ -55,7 +55,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionFilterTypesBinder::$$c__DisplayClass9_0_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass9_0_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConventionFilterTypesBinder::$$c__DisplayClass9_0_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionFilterTypesBinder::$$c__DisplayClass9_0_1<T>*, creationType>()));
     }
   }; // Zenject.ConventionFilterTypesBinder/<>c__DisplayClass9_0`1

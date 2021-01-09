@@ -26,7 +26,7 @@ namespace System::Net::Http {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http").WithContext("HttpRequestException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpRequestException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -35,7 +35,7 @@ namespace System::Net::Http {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http").WithContext("HttpRequestException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpRequestException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception inner)
@@ -44,7 +44,7 @@ namespace System::Net::Http {
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestException* New_ctor(::Il2CppString* message, System::Exception* inner) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http").WithContext("HttpRequestException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpRequestException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestException*, creationType>(message, inner)));
     }
   }; // System.Net.Http.HttpRequestException

@@ -35,7 +35,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE848
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PublicAPIAttribute* New_ctor(::Il2CppString* comment) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("PublicAPIAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::PublicAPIAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PublicAPIAttribute*, creationType>(comment)));
     }
     // public System.String get_Comment()
@@ -51,7 +51,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PublicAPIAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("PublicAPIAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::PublicAPIAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PublicAPIAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.PublicAPIAttribute

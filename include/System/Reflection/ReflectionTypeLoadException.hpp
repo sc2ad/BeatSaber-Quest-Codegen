@@ -49,7 +49,7 @@ namespace System::Reflection {
     // Offset: 0x15D01A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionTypeLoadException* New_ctor(::Array<System::Type*>* classes, ::Array<System::Exception*>* exceptions) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("ReflectionTypeLoadException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::ReflectionTypeLoadException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionTypeLoadException*, creationType>(classes, exceptions)));
     }
     // private System.Void .ctor()
@@ -60,7 +60,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionTypeLoadException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("ReflectionTypeLoadException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::ReflectionTypeLoadException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionTypeLoadException*, creationType>()));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -70,7 +70,7 @@ namespace System::Reflection {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionTypeLoadException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("ReflectionTypeLoadException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::ReflectionTypeLoadException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionTypeLoadException*, creationType>(info, context)));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

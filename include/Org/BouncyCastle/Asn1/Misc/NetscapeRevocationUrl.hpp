@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Asn1::Misc {
     // Offset: 0x13F6800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetscapeRevocationUrl* New_ctor(Org::BouncyCastle::Asn1::DerIA5String* str) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::Misc").WithContext("NetscapeRevocationUrl").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetscapeRevocationUrl*, creationType>(str)));
     }
     // public override System.String ToString()

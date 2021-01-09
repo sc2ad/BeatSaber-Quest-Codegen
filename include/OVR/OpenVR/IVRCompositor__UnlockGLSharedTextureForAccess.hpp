@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x185FC80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_UnlockGLSharedTextureForAccess* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_UnlockGLSharedTextureForAccess").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_UnlockGLSharedTextureForAccess::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_UnlockGLSharedTextureForAccess*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.IntPtr glSharedTextureHandle)

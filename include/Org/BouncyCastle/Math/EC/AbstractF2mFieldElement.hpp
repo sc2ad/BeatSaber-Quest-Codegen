@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbstractF2mFieldElement* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC").WithContext("AbstractF2mFieldElement").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbstractF2mFieldElement*, creationType>()));
     }
   }; // Org.BouncyCastle.Math.EC.AbstractF2mFieldElement

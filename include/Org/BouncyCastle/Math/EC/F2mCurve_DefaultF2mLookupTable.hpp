@@ -50,7 +50,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0x193E8D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static F2mCurve::DefaultF2mLookupTable* New_ctor(Org::BouncyCastle::Math::EC::F2mCurve* outer, ::Array<int64_t>* table, int size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC").WithContext("DefaultF2mLookupTable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::F2mCurve::DefaultF2mLookupTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<F2mCurve::DefaultF2mLookupTable*, creationType>(outer, table, size)));
     }
     // private Org.BouncyCastle.Math.EC.ECPoint CreatePoint(System.Int64[] x, System.Int64[] y)

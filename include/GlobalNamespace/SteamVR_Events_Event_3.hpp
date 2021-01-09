@@ -32,21 +32,21 @@ namespace GlobalNamespace {
     // public System.Void Listen(UnityEngine.Events.UnityAction`3<T0,T1,T2> action)
     // Offset: 0xFFFFFFFF
     void Listen(UnityEngine::Events::UnityAction_3<T0, T1, T2>* action) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("Event_3").WithContext("Listen");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Events::Event_3::Listen");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Listen", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(action)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, action);
     }
     // public System.Void Remove(UnityEngine.Events.UnityAction`3<T0,T1,T2> action)
     // Offset: 0xFFFFFFFF
     void Remove(UnityEngine::Events::UnityAction_3<T0, T1, T2>* action) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("Event_3").WithContext("Remove");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Events::Event_3::Remove");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(action)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, action);
     }
     // public System.Void Send(T0 arg0, T1 arg1, T2 arg2)
     // Offset: 0xFFFFFFFF
     void Send(T0 arg0, T1 arg1, T2 arg2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("Event_3").WithContext("Send");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Events::Event_3::Send");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Send", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(arg0, arg1, arg2)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, arg0, arg1, arg2);
     }
@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Events::Event_3<T0, T1, T2>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("Event_3").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Events::Event_3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Events::Event_3<T0, T1, T2>*, creationType>()));
     }
   }; // SteamVR_Events/Event`3

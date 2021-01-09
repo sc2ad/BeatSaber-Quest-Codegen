@@ -28,7 +28,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputField::SubmitEvent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("SubmitEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::InputField::SubmitEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputField::SubmitEvent*, creationType>()));
     }
   }; // UnityEngine.UI.InputField/SubmitEvent

@@ -45,7 +45,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x13EFA78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestActionItem* New_ctor(NUnit::Framework::ITestAction* action) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Commands").WithContext("TestActionItem").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::TestActionItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestActionItem*, creationType>(action)));
     }
     // public System.Void BeforeTest(NUnit.Framework.Interfaces.ITest test)

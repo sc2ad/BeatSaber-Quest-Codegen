@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0xFF1B8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::InitData* New_ctor(float songBpm) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InitData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialSongController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialSongController::InitData*, creationType>(songBpm)));
     }
   }; // TutorialSongController/InitData

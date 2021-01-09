@@ -45,7 +45,7 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0x1198140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyWrapper* New_ctor(System::Reflection::Assembly* assembly) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::Utils").WithContext("AssemblyWrapper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::AssemblyWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyWrapper*, creationType>(assembly)));
     }
     // public System.Reflection.Assembly get_Assembly()

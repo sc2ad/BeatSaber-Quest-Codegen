@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     // Offset: 0x1003730
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleExecutionRating* New_ctor(float time, GlobalNamespace::ObstacleExecutionRating::Rating rating) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ObstacleExecutionRating").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ObstacleExecutionRating::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleExecutionRating*, creationType>(time, rating)));
     }
   }; // ObstacleExecutionRating

@@ -54,7 +54,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DecoratorToChoiceFromBinder_1<TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DecoratorToChoiceFromBinder_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DecoratorToChoiceFromBinder_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DecoratorToChoiceFromBinder_1<TContract>*, creationType>(bindContainer, bindInfo, factoryBindInfo)));
     }
     // public Zenject.FactoryFromBinder`2<TContract,TConcrete> With()
@@ -62,7 +62,7 @@ namespace Zenject {
     template<class TConcrete>
     Zenject::FactoryFromBinder_2<TContract, TConcrete>* With() {
       static_assert(std::is_convertible_v<TConcrete, TContract>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DecoratorToChoiceFromBinder_1").WithContext("With");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DecoratorToChoiceFromBinder_1::With");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "With", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryFromBinder_2<TContract, TConcrete>*, false>(this, ___internal__method);

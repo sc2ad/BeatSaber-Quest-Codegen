@@ -53,7 +53,7 @@ namespace System::Reflection {
     // Offset: 0xCA6C74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CustomAttributeNamedArgument(System::Reflection::MemberInfo* memberInfo, ::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("CustomAttributeNamedArgument").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::CustomAttributeNamedArgument::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(memberInfo, value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, memberInfo, value);
     }

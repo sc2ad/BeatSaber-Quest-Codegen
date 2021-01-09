@@ -99,7 +99,7 @@ namespace System::Collections::Specialized {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameValueCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Specialized").WithContext("NameValueCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameValueCollection*, creationType>()));
     }
     // public System.Void .ctor(System.Int32 capacity)
@@ -108,7 +108,7 @@ namespace System::Collections::Specialized {
     // Base method: System.Void NameObjectCollectionBase::.ctor(System.Int32 capacity)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameValueCollection* New_ctor(int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Specialized").WithContext("NameValueCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameValueCollection*, creationType>(capacity)));
     }
     // public System.Void .ctor(System.Int32 capacity, System.Collections.IEqualityComparer equalityComparer)
@@ -117,7 +117,7 @@ namespace System::Collections::Specialized {
     // Base method: System.Void NameObjectCollectionBase::.ctor(System.Int32 capacity, System.Collections.IEqualityComparer equalityComparer)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameValueCollection* New_ctor(int capacity, System::Collections::IEqualityComparer* equalityComparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Specialized").WithContext("NameValueCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameValueCollection*, creationType>(capacity, equalityComparer)));
     }
     // System.Void .ctor(System.DBNull dummy)
@@ -126,7 +126,7 @@ namespace System::Collections::Specialized {
     // Base method: System.Void NameObjectCollectionBase::.ctor(System.DBNull dummy)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameValueCollection* New_ctor(System::DBNull* dummy) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Specialized").WithContext("NameValueCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameValueCollection*, creationType>(dummy)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -135,7 +135,7 @@ namespace System::Collections::Specialized {
     // Base method: System.Void NameObjectCollectionBase::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameValueCollection* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Specialized").WithContext("NameValueCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameValueCollection*, creationType>(info, context)));
     }
   }; // System.Collections.Specialized.NameValueCollection

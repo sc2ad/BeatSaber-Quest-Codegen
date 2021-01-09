@@ -170,7 +170,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ModalView* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("ModalView").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ModalView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ModalView*, creationType>()));
     }
   }; // HMUI.ModalView

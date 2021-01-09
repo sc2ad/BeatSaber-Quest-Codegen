@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayRpcManager::GetGameplaySongReadyRpc* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("GetGameplaySongReadyRpc").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayRpcManager::GetGameplaySongReadyRpc::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayRpcManager::GetGameplaySongReadyRpc*, creationType>()));
     }
   }; // GameplayRpcManager/GetGameplaySongReadyRpc

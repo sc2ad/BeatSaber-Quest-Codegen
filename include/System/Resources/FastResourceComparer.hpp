@@ -106,7 +106,7 @@ namespace System::Resources {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FastResourceComparer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("FastResourceComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::FastResourceComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FastResourceComparer*, creationType>()));
     }
   }; // System.Resources.FastResourceComparer

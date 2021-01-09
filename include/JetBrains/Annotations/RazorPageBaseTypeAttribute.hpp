@@ -38,14 +38,14 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE99C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RazorPageBaseTypeAttribute* New_ctor(::Il2CppString* baseType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("RazorPageBaseTypeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::RazorPageBaseTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RazorPageBaseTypeAttribute*, creationType>(baseType)));
     }
     // public System.Void .ctor(System.String baseType, System.String pageName)
     // Offset: 0x19EE9D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RazorPageBaseTypeAttribute* New_ctor(::Il2CppString* baseType, ::Il2CppString* pageName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("RazorPageBaseTypeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::RazorPageBaseTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RazorPageBaseTypeAttribute*, creationType>(baseType, pageName)));
     }
     // public System.String get_BaseType()

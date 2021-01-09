@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LevelProductsModelSO::LevelPackProductData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LevelPackProductData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4LevelProductsModelSO::LevelPackProductData*, creationType>()));
     }
   }; // PS4LevelProductsModelSO/LevelPackProductData

@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Offset: 0x1876754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassLight::LightsDataItem* New_ctor(GlobalNamespace::BloomPrePassLightTypeSO* lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LightsDataItem").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomPrePassLight::LightsDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassLight::LightsDataItem*, creationType>(lightType, lights)));
     }
   }; // BloomPrePassLight/LightsDataItem

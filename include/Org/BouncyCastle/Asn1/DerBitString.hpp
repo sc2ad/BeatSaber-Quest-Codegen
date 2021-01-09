@@ -55,14 +55,14 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1378AE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerBitString* New_ctor(::Array<uint8_t>* data, int padBits) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerBitString").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerBitString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerBitString*, creationType>(data, padBits)));
     }
     // public System.Void .ctor(System.Byte[] data)
     // Offset: 0x13800D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerBitString* New_ctor(::Array<uint8_t>* data) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerBitString").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerBitString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerBitString*, creationType>(data)));
     }
     // public System.Byte[] GetOctets()

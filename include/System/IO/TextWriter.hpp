@@ -104,7 +104,7 @@ namespace System::IO {
     // Offset: 0x13AA674
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextWriter* New_ctor(System::IFormatProvider* formatProvider) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("TextWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::TextWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextWriter*, creationType>(formatProvider)));
     }
     // public System.IFormatProvider get_FormatProvider()
@@ -181,7 +181,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextWriter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("TextWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::TextWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextWriter*, creationType>()));
     }
     // public System.Void Dispose()

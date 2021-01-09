@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A780F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatEffectSpawner::InitData* New_ctor(bool hideNoteSpawnEffect) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InitData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatEffectSpawner::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatEffectSpawner::InitData*, creationType>(hideNoteSpawnEffect)));
     }
   }; // BeatEffectSpawner/InitData

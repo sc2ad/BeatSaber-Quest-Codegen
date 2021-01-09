@@ -72,7 +72,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidityPreCompInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Multiplier").WithContext("ValidityPreCompInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValidityPreCompInfo*, creationType>()));
     }
   }; // Org.BouncyCastle.Math.EC.Multiplier.ValidityPreCompInfo

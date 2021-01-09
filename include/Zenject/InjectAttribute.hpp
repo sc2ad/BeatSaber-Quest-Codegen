@@ -29,7 +29,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InjectAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("InjectAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InjectAttribute*, creationType>()));
     }
   }; // Zenject.InjectAttribute

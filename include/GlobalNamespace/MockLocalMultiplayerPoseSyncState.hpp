@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Offset: 0x1022574
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockLocalMultiplayerPoseSyncState* New_ctor(GlobalNamespace::IConnectedPlayer* player, float reliableUpdateFrequency, float unreliableUpdateFrequency, int size, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>::InterpolationDelegate* interpolator, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>::SmoothingDelegate* smoother) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MockLocalMultiplayerPoseSyncState").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockLocalMultiplayerPoseSyncState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockLocalMultiplayerPoseSyncState*, creationType>(player, reliableUpdateFrequency, unreliableUpdateFrequency, size, interpolator, smoother)));
     }
   }; // MockLocalMultiplayerPoseSyncState

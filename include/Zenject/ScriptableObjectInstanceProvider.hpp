@@ -107,7 +107,7 @@ namespace Zenject {
     // Offset: 0x13526BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScriptableObjectInstanceProvider* New_ctor(UnityEngine::Object* resource, System::Type* resourceType, Zenject::DiContainer* container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArguments, bool createNew, ::Il2CppObject* concreteIdentifier, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ScriptableObjectInstanceProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ScriptableObjectInstanceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScriptableObjectInstanceProvider*, creationType>(resource, resourceType, container, extraArguments, createNew, concreteIdentifier, instantiateCallback)));
     }
     // public System.Boolean get_IsCached()

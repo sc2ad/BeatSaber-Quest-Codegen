@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Offset: 0x101B23C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionMapAnimationController::$UpdateStageCoroutine$d__14* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$UpdateStageCoroutine$d__14").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionMapAnimationController::$UpdateStageCoroutine$d__14::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionMapAnimationController::$UpdateStageCoroutine$d__14*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

@@ -52,7 +52,7 @@ namespace RootMotion {
     // Offset: 0x1741954
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedLimbOrientations* New_ctor(RootMotion::BipedLimbOrientations::LimbOrientation* leftArm, RootMotion::BipedLimbOrientations::LimbOrientation* rightArm, RootMotion::BipedLimbOrientations::LimbOrientation* leftLeg, RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion").WithContext("BipedLimbOrientations").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BipedLimbOrientations::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BipedLimbOrientations*, creationType>(leftArm, rightArm, leftLeg, rightLeg)));
     }
     // static public RootMotion.BipedLimbOrientations get_UMA()

@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1910AFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetButtonIdNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetButtonIdNameFromEnum").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_GetButtonIdNameFromEnum::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetButtonIdNameFromEnum*, creationType>(object, method)));
     }
     // public System.IntPtr Invoke(OVR.OpenVR.EVRButtonId eButtonId)

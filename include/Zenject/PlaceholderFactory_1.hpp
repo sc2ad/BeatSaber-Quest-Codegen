@@ -80,7 +80,7 @@ namespace Zenject {
       // Offset: 0xFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename PlaceholderFactory_1<TValue>::$get_ParamTypes$d__2* New_ctor(int $$1__state) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$get_ParamTypes$d__2").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename PlaceholderFactory_1<TValue>::$get_ParamTypes$d__2*, creationType>($$1__state)));
       }
       // private System.Void System.IDisposable.Dispose()
@@ -88,7 +88,7 @@ namespace Zenject {
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void System_IDisposable_Dispose() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$get_ParamTypes$d__2").WithContext("System.IDisposable.Dispose");
+        static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::System.IDisposable.Dispose");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
@@ -97,7 +97,7 @@ namespace Zenject {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$get_ParamTypes$d__2").WithContext("MoveNext");
+        static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::MoveNext");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
       }
@@ -111,7 +111,7 @@ namespace Zenject {
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator_1::get_Current()
       System::Type* System_Collections_Generic_IEnumerator_1_get_Current() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$get_ParamTypes$d__2").WithContext("System.Collections.Generic.IEnumerator<System.Type>.get_Current");
+        static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::System.Collections.Generic.IEnumerator<System.Type>.get_Current");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerator<System.Type>.get_Current", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
         return ::il2cpp_utils::RunMethodThrow<System::Type*, false>(this, ___internal__method);
       }
@@ -120,7 +120,7 @@ namespace Zenject {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$get_ParamTypes$d__2").WithContext("System.Collections.IEnumerator.Reset");
+        static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::System.Collections.IEnumerator.Reset");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
@@ -129,7 +129,7 @@ namespace Zenject {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$get_ParamTypes$d__2").WithContext("System.Collections.IEnumerator.get_Current");
+        static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::System.Collections.IEnumerator.get_Current");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
       }
@@ -138,7 +138,7 @@ namespace Zenject {
       // Implemented from: System.Collections.Generic.IEnumerable`1
       // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
       System::Collections::Generic::IEnumerator_1<System::Type*>* System_Collections_Generic_IEnumerable_1_GetEnumerator() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$get_ParamTypes$d__2").WithContext("System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator");
+        static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
         return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<System::Type*>*, false>(this, ___internal__method);
       }
@@ -147,7 +147,7 @@ namespace Zenject {
       // Implemented from: System.Collections.IEnumerable
       // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
       System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$get_ParamTypes$d__2").WithContext("System.Collections.IEnumerable.GetEnumerator");
+        static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::System.Collections.IEnumerable.GetEnumerator");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
       }
@@ -164,7 +164,7 @@ namespace Zenject {
     // Implemented from: Zenject.IFactory`1
     // Base method: TValue IFactory_1::Create()
     TValue Create() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PlaceholderFactory_1").WithContext("Create");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::Create");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method);
     }
@@ -178,7 +178,7 @@ namespace Zenject {
     // Implemented from: Zenject.PlaceholderFactoryBase`1
     // Base method: System.Collections.Generic.IEnumerable`1<System.Type> PlaceholderFactoryBase_1::get_ParamTypes()
     System::Collections::Generic::IEnumerable_1<System::Type*>* get_ParamTypes() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PlaceholderFactory_1").WithContext("get_ParamTypes");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::get_ParamTypes");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_ParamTypes", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<System::Type*>*, false>(this, ___internal__method);
     }
@@ -189,7 +189,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaceholderFactory_1<TValue>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PlaceholderFactory_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaceholderFactory_1<TValue>*, creationType>()));
     }
   }; // Zenject.PlaceholderFactory`1

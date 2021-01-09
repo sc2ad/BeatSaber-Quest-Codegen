@@ -221,7 +221,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandaloneInputModule* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("StandaloneInputModule").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::StandaloneInputModule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandaloneInputModule*, creationType>()));
     }
     // public override System.Void UpdateModule()

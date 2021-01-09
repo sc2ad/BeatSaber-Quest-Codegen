@@ -41,7 +41,7 @@ namespace System {
     // Offset: 0x171A7D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectDisposedException* New_ctor(::Il2CppString* objectName, ::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ObjectDisposedException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ObjectDisposedException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectDisposedException*, creationType>(objectName, message)));
     }
     // public System.String get_ObjectName()
@@ -56,7 +56,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectDisposedException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ObjectDisposedException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ObjectDisposedException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectDisposedException*, creationType>()));
     }
     // public System.Void .ctor(System.String objectName)
@@ -67,7 +67,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.String objectName)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectDisposedException* New_ctor(::Il2CppString* objectName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ObjectDisposedException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ObjectDisposedException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectDisposedException*, creationType>(objectName)));
     }
     // public override System.String get_Message()
@@ -83,7 +83,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectDisposedException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ObjectDisposedException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ObjectDisposedException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectDisposedException*, creationType>(info, context)));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

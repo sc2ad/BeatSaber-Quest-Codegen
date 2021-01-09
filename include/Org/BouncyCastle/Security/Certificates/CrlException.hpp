@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Security::Certificates {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrlException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Security::Certificates").WithContext("CrlException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::Certificates::CrlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrlException*, creationType>()));
     }
     // public System.Void .ctor(System.String msg)
@@ -37,7 +37,7 @@ namespace Org::BouncyCastle::Security::Certificates {
     // Base method: System.Void Exception::.ctor(System.String msg)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrlException* New_ctor(::Il2CppString* msg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Security::Certificates").WithContext("CrlException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::Certificates::CrlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrlException*, creationType>(msg)));
     }
   }; // Org.BouncyCastle.Security.Certificates.CrlException

@@ -48,7 +48,7 @@ namespace Zenject::Internal {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenUtilInternal::$$c__DisplayClass10_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject::Internal").WithContext("$$c__DisplayClass10_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenUtilInternal::$$c__DisplayClass10_0*, creationType>()));
     }
   }; // Zenject.Internal.ZenUtilInternal/<>c__DisplayClass10_0

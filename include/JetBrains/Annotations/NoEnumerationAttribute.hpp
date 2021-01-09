@@ -27,7 +27,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoEnumerationAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("NoEnumerationAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::NoEnumerationAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoEnumerationAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.NoEnumerationAttribute

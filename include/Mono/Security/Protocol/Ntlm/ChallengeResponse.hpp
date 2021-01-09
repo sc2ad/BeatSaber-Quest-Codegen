@@ -62,7 +62,7 @@ namespace Mono::Security::Protocol::Ntlm {
     // Offset: 0x17B8FFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChallengeResponse* New_ctor(::Il2CppString* password, ::Array<uint8_t>* challenge) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::Protocol::Ntlm").WithContext("ChallengeResponse").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Protocol::Ntlm::ChallengeResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChallengeResponse*, creationType>(password, challenge)));
     }
     // public System.Void set_Password(System.String value)
@@ -98,7 +98,7 @@ namespace Mono::Security::Protocol::Ntlm {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChallengeResponse* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::Protocol::Ntlm").WithContext("ChallengeResponse").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Protocol::Ntlm::ChallengeResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChallengeResponse*, creationType>()));
     }
     // protected override System.Void Finalize()

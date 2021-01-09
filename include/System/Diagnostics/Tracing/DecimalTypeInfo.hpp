@@ -46,7 +46,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DecimalTypeInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("DecimalTypeInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::DecimalTypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DecimalTypeInfo*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.DecimalTypeInfo

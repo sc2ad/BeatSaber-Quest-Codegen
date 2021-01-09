@@ -82,7 +82,7 @@ namespace System::Reflection {
     // Offset: 0x1721B78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomAttributeData* New_ctor(System::Reflection::ConstructorInfo* ctorInfo, System::Reflection::Assembly* assembly, System::IntPtr data, uint data_length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("CustomAttributeData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::CustomAttributeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomAttributeData*, creationType>(ctorInfo, assembly, data, data_length)));
     }
     // static private System.Void ResolveArgumentsInternal(System.Reflection.ConstructorInfo ctor, System.Reflection.Assembly assembly, System.IntPtr data, System.UInt32 data_length, out System.Object[] ctorArgs, out System.Object[] namedArgs)
@@ -122,7 +122,7 @@ namespace System::Reflection {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::Array<T>* UnboxValues(::Array<::Il2CppObject*>* values) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("CustomAttributeData").WithContext("UnboxValues");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::CustomAttributeData::UnboxValues");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Reflection", "CustomAttributeData", "UnboxValues", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(values)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, values);
@@ -133,7 +133,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomAttributeData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("CustomAttributeData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::CustomAttributeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomAttributeData*, creationType>()));
     }
     // public override System.String ToString()

@@ -46,7 +46,7 @@ namespace System::Runtime::Remoting::Lifetime {
     // Offset: 0x11739E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaseSink* New_ctor(System::Runtime::Remoting::Messaging::IMessageSink* nextSink) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Lifetime").WithContext("LeaseSink").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Lifetime::LeaseSink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaseSink*, creationType>(nextSink)));
     }
     // private System.Void RenewLease(System.Runtime.Remoting.Messaging.IMessage msg)

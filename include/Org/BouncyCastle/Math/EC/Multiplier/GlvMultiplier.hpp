@@ -54,7 +54,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Offset: 0x17843CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GlvMultiplier* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Multiplier").WithContext("GlvMultiplier").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GlvMultiplier*, creationType>(curve, glvEndomorphism)));
     }
     // protected override Org.BouncyCastle.Math.EC.ECPoint MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)

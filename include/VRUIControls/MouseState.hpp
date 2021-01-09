@@ -60,7 +60,7 @@ namespace VRUIControls {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MouseState* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("VRUIControls").WithContext("MouseState").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("VRUIControls::MouseState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MouseState*, creationType>()));
     }
   }; // VRUIControls.MouseState

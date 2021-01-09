@@ -70,21 +70,21 @@ namespace System::Net {
     // Offset: 0x11A6670
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketAddress* New_ctor(System::Net::Sockets::AddressFamily family, int size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("SocketAddress").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::SocketAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketAddress*, creationType>(family, size)));
     }
     // System.Void .ctor(System.Net.IPAddress ipAddress)
     // Offset: 0x11A67A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketAddress* New_ctor(System::Net::IPAddress* ipAddress) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("SocketAddress").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::SocketAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketAddress*, creationType>(ipAddress)));
     }
     // System.Void .ctor(System.Net.IPAddress ipaddress, System.Int32 port)
     // Offset: 0x11A69F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketAddress* New_ctor(System::Net::IPAddress* ipaddress, int port) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("SocketAddress").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::SocketAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketAddress*, creationType>(ipaddress, port)));
     }
     // System.Net.IPAddress GetIPAddress()

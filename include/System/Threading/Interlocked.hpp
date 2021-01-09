@@ -67,7 +67,7 @@ namespace System::Threading {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T CompareExchange(T& location1, T value, T comparand) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("Interlocked").WithContext("CompareExchange");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Interlocked::CompareExchange");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Threading", "Interlocked", "CompareExchange", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(location1, value, comparand)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, location1, value, comparand);
@@ -85,7 +85,7 @@ namespace System::Threading {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T Exchange(T& location1, T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("Interlocked").WithContext("Exchange");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Interlocked::Exchange");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Threading", "Interlocked", "Exchange", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(location1, value)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, location1, value);

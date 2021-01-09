@@ -88,7 +88,7 @@ namespace Zenject {
     // Offset: 0x1359B18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TransientProvider* New_ctor(System::Type* concreteType, Zenject::DiContainer* container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArguments, ::Il2CppString* bindingContext, ::Il2CppObject* concreteIdentifier, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("TransientProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TransientProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TransientProvider*, creationType>(concreteType, container, extraArguments, bindingContext, concreteIdentifier, instantiateCallback)));
     }
     // private System.Type GetTypeToCreate(System.Type contractType)

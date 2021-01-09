@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1909CAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRScreenshots::_SubmitScreenshot* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_SubmitScreenshot").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRScreenshots::_SubmitScreenshot::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRScreenshots::_SubmitScreenshot*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVRScreenshotError Invoke(System.UInt32 screenshotHandle, OVR.OpenVR.EVRScreenshotType type, System.String pchSourcePreviewFilename, System.String pchSourceVRFilename)

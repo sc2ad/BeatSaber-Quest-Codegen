@@ -51,7 +51,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NonGenericProperytWriter_1<ContainerType>* New_ctor(System::Diagnostics::Tracing::PropertyAnalysis* property) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("NonGenericProperytWriter_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::NonGenericProperytWriter_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NonGenericProperytWriter_1<ContainerType>*, creationType>(property)));
     }
     // public override System.Void Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType container)
@@ -59,7 +59,7 @@ namespace System::Diagnostics::Tracing {
     // Implemented from: System.Diagnostics.Tracing.PropertyAccessor`1
     // Base method: System.Void PropertyAccessor_1::Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType container)
     void Write(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ContainerType& container) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("NonGenericProperytWriter_1").WithContext("Write");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::NonGenericProperytWriter_1::Write");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Write", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(collector, container)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collector, container);
     }
@@ -68,7 +68,7 @@ namespace System::Diagnostics::Tracing {
     // Implemented from: System.Diagnostics.Tracing.PropertyAccessor`1
     // Base method: System.Object PropertyAccessor_1::GetData(ContainerType container)
     ::Il2CppObject* GetData(ContainerType container) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("NonGenericProperytWriter_1").WithContext("GetData");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::NonGenericProperytWriter_1::GetData");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetData", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(container)));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method, container);
     }

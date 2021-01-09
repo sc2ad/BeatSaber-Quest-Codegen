@@ -69,7 +69,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestHeaders* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HttpRequestHeaders").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpRequestHeaders::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestHeaders*, creationType>()));
     }
   }; // System.Net.Http.Headers.HttpRequestHeaders

@@ -370,7 +370,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Calendar* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("Calendar").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::Calendar::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Calendar*, creationType>()));
     }
     // public System.Object Clone()

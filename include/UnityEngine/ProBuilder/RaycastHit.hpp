@@ -47,7 +47,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x13C5680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RaycastHit* New_ctor(float distance, UnityEngine::Vector3 point, UnityEngine::Vector3 normal, int face) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("RaycastHit").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::RaycastHit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RaycastHit*, creationType>(distance, point, normal, face)));
     }
   }; // UnityEngine.ProBuilder.RaycastHit

@@ -51,7 +51,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfo::HeaderTypeInfo_2<T, U>* New_ctor(::Il2CppString* name, System::Net::Http::Headers::TryParseDelegate_1<T>* parser, System::Net::Http::Headers::HttpHeaderKind headerKind) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HeaderTypeInfo_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderInfo::HeaderTypeInfo_2<T, U>*, creationType>(name, parser, headerKind)));
     }
     // public override System.Void AddToCollection(System.Object collection, System.Object value)
@@ -59,7 +59,7 @@ namespace System::Net::Http::Headers {
     // Implemented from: System.Net.Http.Headers.HeaderInfo
     // Base method: System.Void HeaderInfo::AddToCollection(System.Object collection, System.Object value)
     void AddToCollection(::Il2CppObject* collection, ::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HeaderTypeInfo_2").WithContext("AddToCollection");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::AddToCollection");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AddToCollection", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(collection, value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collection, value);
     }
@@ -68,7 +68,7 @@ namespace System::Net::Http::Headers {
     // Implemented from: System.Net.Http.Headers.HeaderInfo
     // Base method: System.Object HeaderInfo::CreateCollection(System.Net.Http.Headers.HttpHeaders headers, System.Net.Http.Headers.HeaderInfo headerInfo)
     ::Il2CppObject* CreateCollection(System::Net::Http::Headers::HttpHeaders* headers, System::Net::Http::Headers::HeaderInfo* headerInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HeaderTypeInfo_2").WithContext("CreateCollection");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::CreateCollection");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CreateCollection", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(headers, headerInfo)));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method, headers, headerInfo);
     }
@@ -77,7 +77,7 @@ namespace System::Net::Http::Headers {
     // Implemented from: System.Net.Http.Headers.HeaderInfo
     // Base method: System.Collections.Generic.List`1<System.String> HeaderInfo::ToStringCollection(System.Object collection)
     System::Collections::Generic::List_1<::Il2CppString*>* ToStringCollection(::Il2CppObject* collection) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HeaderTypeInfo_2").WithContext("ToStringCollection");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::ToStringCollection");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ToStringCollection", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(collection)));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<::Il2CppString*>*, false>(this, ___internal__method, collection);
     }
@@ -86,7 +86,7 @@ namespace System::Net::Http::Headers {
     // Implemented from: System.Net.Http.Headers.HeaderInfo
     // Base method: System.Boolean HeaderInfo::TryParse(System.String value, out System.Object result)
     bool TryParse(::Il2CppString* value, ::Il2CppObject*& result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HeaderTypeInfo_2").WithContext("TryParse");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::TryParse");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TryParse", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value, result)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value, result);
     }

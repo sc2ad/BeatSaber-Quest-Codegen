@@ -70,7 +70,7 @@ namespace System::Runtime::CompilerServices {
     template<class TStateMachine>
     void Start(TStateMachine& stateMachine) {
       static_assert(std::is_base_of_v<System::Runtime::CompilerServices::IAsyncStateMachine, std::remove_pointer_t<TStateMachine>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("AsyncTaskMethodBuilder").WithContext("Start");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::AsyncTaskMethodBuilder::Start");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "Start", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, ::il2cpp_utils::ExtractTypes(stateMachine)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, stateMachine);
@@ -84,7 +84,7 @@ namespace System::Runtime::CompilerServices {
     void AwaitOnCompleted(TAwaiter& awaiter, TStateMachine& stateMachine) {
       static_assert(std::is_base_of_v<System::Runtime::CompilerServices::INotifyCompletion, std::remove_pointer_t<TAwaiter>>);
       static_assert(std::is_base_of_v<System::Runtime::CompilerServices::IAsyncStateMachine, std::remove_pointer_t<TStateMachine>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("AsyncTaskMethodBuilder").WithContext("AwaitOnCompleted");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::AsyncTaskMethodBuilder::AwaitOnCompleted");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "AwaitOnCompleted", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, ::il2cpp_utils::ExtractTypes(awaiter, stateMachine))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()})));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, awaiter, stateMachine);
@@ -95,7 +95,7 @@ namespace System::Runtime::CompilerServices {
     void AwaitUnsafeOnCompleted(TAwaiter& awaiter, TStateMachine& stateMachine) {
       static_assert(std::is_base_of_v<System::Runtime::CompilerServices::ICriticalNotifyCompletion, std::remove_pointer_t<TAwaiter>>);
       static_assert(std::is_base_of_v<System::Runtime::CompilerServices::IAsyncStateMachine, std::remove_pointer_t<TStateMachine>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("AsyncTaskMethodBuilder").WithContext("AwaitUnsafeOnCompleted");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "AwaitUnsafeOnCompleted", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, ::il2cpp_utils::ExtractTypes(awaiter, stateMachine))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()})));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, awaiter, stateMachine);

@@ -79,7 +79,7 @@ namespace OnlineServices::API {
     // Offset: 0x1014640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPAdminLeaderboardsHelper* New_ctor(::Il2CppString* uri, ::Il2CppString* secret) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OnlineServices::API").WithContext("HTTPAdminLeaderboardsHelper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::API::HTTPAdminLeaderboardsHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPAdminLeaderboardsHelper*, creationType>(uri, secret)));
     }
     // public System.Threading.Tasks.Task`1<System.String> ServerStatus(System.Threading.CancellationToken cancellationToken)

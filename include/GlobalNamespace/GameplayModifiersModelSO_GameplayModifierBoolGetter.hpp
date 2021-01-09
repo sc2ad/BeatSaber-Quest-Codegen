@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0xF0EAC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifiersModelSO::GameplayModifierBoolGetter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("GameplayModifierBoolGetter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiersModelSO::GameplayModifierBoolGetter*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(GameplayModifiers gameplayModifiers)

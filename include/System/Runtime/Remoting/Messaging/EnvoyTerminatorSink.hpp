@@ -55,7 +55,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvoyTerminatorSink* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("EnvoyTerminatorSink").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvoyTerminatorSink*, creationType>()));
     }
   }; // System.Runtime.Remoting.Messaging.EnvoyTerminatorSink

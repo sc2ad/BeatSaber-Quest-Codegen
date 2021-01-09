@@ -53,7 +53,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x1179E0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMethodCallMessage* New_ctor(System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("CADMethodCallMessage").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADMethodCallMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMethodCallMessage*, creationType>(callMsg)));
     }
     // System.Collections.ArrayList GetArguments()

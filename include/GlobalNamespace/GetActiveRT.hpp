@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GetActiveRT* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("GetActiveRT").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GetActiveRT::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GetActiveRT*, creationType>()));
     }
   }; // GetActiveRT

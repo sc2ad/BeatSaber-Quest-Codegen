@@ -105,7 +105,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CommandBufferBlurryScreenGrab* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("CommandBufferBlurryScreenGrab").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CommandBufferBlurryScreenGrab::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CommandBufferBlurryScreenGrab*, creationType>()));
     }
     // static private System.Void .cctor()

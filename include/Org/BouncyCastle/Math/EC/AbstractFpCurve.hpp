@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0x176DC64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbstractFpCurve* New_ctor(Org::BouncyCastle::Math::BigInteger* q) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC").WithContext("AbstractFpCurve").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::AbstractFpCurve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbstractFpCurve*, creationType>(q)));
     }
     // static private Org.BouncyCastle.Math.BigInteger ImplRandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r, Org.BouncyCastle.Math.BigInteger p)

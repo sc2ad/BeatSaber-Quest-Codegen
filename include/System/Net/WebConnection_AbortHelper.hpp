@@ -45,7 +45,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnection::AbortHelper* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("AbortHelper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnection::AbortHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnection::AbortHelper*, creationType>()));
     }
   }; // System.Net.WebConnection/AbortHelper

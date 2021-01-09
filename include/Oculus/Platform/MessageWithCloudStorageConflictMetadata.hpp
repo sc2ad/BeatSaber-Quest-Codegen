@@ -35,7 +35,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageWithCloudStorageConflictMetadata* New_ctor(System::IntPtr c_message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("MessageWithCloudStorageConflictMetadata").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::MessageWithCloudStorageConflictMetadata::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithCloudStorageConflictMetadata*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.CloudStorageConflictMetadata GetCloudStorageConflictMetadata()

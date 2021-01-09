@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Asn1::Anssi {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnssiNamedCurves::Frp256v1Holder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::Anssi").WithContext("Frp256v1Holder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::Frp256v1Holder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnssiNamedCurves::Frp256v1Holder*, creationType>()));
     }
     // protected override Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()

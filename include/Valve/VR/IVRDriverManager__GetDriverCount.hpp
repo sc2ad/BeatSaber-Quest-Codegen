@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x18EC1AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRDriverManager::_GetDriverCount* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetDriverCount").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRDriverManager::_GetDriverCount::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRDriverManager::_GetDriverCount*, creationType>(object, method)));
     }
     // public System.UInt32 Invoke()

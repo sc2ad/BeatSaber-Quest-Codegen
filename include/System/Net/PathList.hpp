@@ -71,7 +71,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PathList* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("PathList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::PathList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PathList*, creationType>()));
     }
   }; // System.Net.PathList

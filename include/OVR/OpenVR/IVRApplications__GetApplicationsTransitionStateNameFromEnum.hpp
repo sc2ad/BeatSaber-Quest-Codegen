@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11FA26C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRApplications::_GetApplicationsTransitionStateNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetApplicationsTransitionStateNameFromEnum").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRApplications::_GetApplicationsTransitionStateNameFromEnum*, creationType>(object, method)));
     }
     // public System.IntPtr Invoke(OVR.OpenVR.EVRApplicationTransitionState state)

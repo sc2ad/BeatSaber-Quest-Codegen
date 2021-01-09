@@ -144,7 +144,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GrounderBipedIK* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("GrounderBipedIK").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::GrounderBipedIK::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GrounderBipedIK*, creationType>()));
     }
   }; // RootMotion.FinalIK.GrounderBipedIK

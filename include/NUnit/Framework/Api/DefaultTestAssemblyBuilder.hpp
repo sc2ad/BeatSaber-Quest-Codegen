@@ -97,7 +97,7 @@ namespace NUnit::Framework::Api {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultTestAssemblyBuilder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Api").WithContext("DefaultTestAssemblyBuilder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Api::DefaultTestAssemblyBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTestAssemblyBuilder*, creationType>()));
     }
   }; // NUnit.Framework.Api.DefaultTestAssemblyBuilder

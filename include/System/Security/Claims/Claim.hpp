@@ -96,21 +96,21 @@ namespace System::Security::Claims {
     // Offset: 0x1451F54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(::Il2CppString* type, ::Il2CppString* value, ::Il2CppString* valueType, ::Il2CppString* issuer, ::Il2CppString* originalIssuer, System::Security::Claims::ClaimsIdentity* subject) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Claims").WithContext("Claim").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(type, value, valueType, issuer, originalIssuer, subject)));
     }
     // System.Void .ctor(System.String type, System.String value, System.String valueType, System.String issuer, System.String originalIssuer, System.Security.Claims.ClaimsIdentity subject, System.String propertyKey, System.String propertyValue)
     // Offset: 0x1451F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(::Il2CppString* type, ::Il2CppString* value, ::Il2CppString* valueType, ::Il2CppString* issuer, ::Il2CppString* originalIssuer, System::Security::Claims::ClaimsIdentity* subject, ::Il2CppString* propertyKey, ::Il2CppString* propertyValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Claims").WithContext("Claim").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(type, value, valueType, issuer, originalIssuer, subject, propertyKey, propertyValue)));
     }
     // protected System.Void .ctor(System.Security.Claims.Claim other, System.Security.Claims.ClaimsIdentity subject)
     // Offset: 0x1452314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(System::Security::Claims::Claim* other, System::Security::Claims::ClaimsIdentity* subject) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Claims").WithContext("Claim").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(other, subject)));
     }
     // private System.Void OnDeserializedMethod(System.Runtime.Serialization.StreamingContext context)

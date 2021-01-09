@@ -152,7 +152,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSchemeDropdown* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ColorSchemeDropdown").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorSchemeDropdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemeDropdown*, creationType>()));
     }
   }; // ColorSchemeDropdown

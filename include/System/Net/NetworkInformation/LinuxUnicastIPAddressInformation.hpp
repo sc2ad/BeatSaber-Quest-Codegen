@@ -40,7 +40,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x119ACC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinuxUnicastIPAddressInformation* New_ctor(System::Net::IPAddress* address) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("LinuxUnicastIPAddressInformation").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinuxUnicastIPAddressInformation*, creationType>(address)));
     }
     // public override System.Net.IPAddress get_Address()

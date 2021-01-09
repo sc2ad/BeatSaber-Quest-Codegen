@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GaussianSeparableBlurRendererSO* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("GaussianSeparableBlurRendererSO").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GaussianSeparableBlurRendererSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GaussianSeparableBlurRendererSO*, creationType>()));
     }
   }; // GaussianSeparableBlurRendererSO

@@ -29,14 +29,14 @@ namespace Zenject {
     // static public TDerived InstallFromResource(Zenject.DiContainer container, TParam1 p1)
     // Offset: 0xFFFFFFFF
     static TDerived InstallFromResource(Zenject::DiContainer* container, TParam1 p1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ScriptableObjectInstaller_2").WithContext("InstallFromResource");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ScriptableObjectInstaller_2::InstallFromResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptableObjectInstaller_2<TParam1, TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(container, p1))));
       return ::il2cpp_utils::RunMethodThrow<TDerived, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, container, p1);
     }
     // static public TDerived InstallFromResource(System.String resourcePath, Zenject.DiContainer container, TParam1 p1)
     // Offset: 0xFFFFFFFF
     static TDerived InstallFromResource(::Il2CppString* resourcePath, Zenject::DiContainer* container, TParam1 p1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ScriptableObjectInstaller_2").WithContext("InstallFromResource");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ScriptableObjectInstaller_2::InstallFromResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptableObjectInstaller_2<TParam1, TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(resourcePath, container, p1))));
       return ::il2cpp_utils::RunMethodThrow<TDerived, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, resourcePath, container, p1);
     }
@@ -49,7 +49,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScriptableObjectInstaller_2<TParam1, TDerived>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ScriptableObjectInstaller_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ScriptableObjectInstaller_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScriptableObjectInstaller_2<TParam1, TDerived>*, creationType>()));
     }
   }; // Zenject.ScriptableObjectInstaller`2

@@ -28,7 +28,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeContainerAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Unity::Collections::LowLevel::Unsafe").WithContext("NativeContainerAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeContainerAttribute*, creationType>()));
     }
   }; // Unity.Collections.LowLevel.Unsafe.NativeContainerAttribute

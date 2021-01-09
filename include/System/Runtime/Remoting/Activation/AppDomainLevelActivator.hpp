@@ -48,7 +48,7 @@ namespace System::Runtime::Remoting::Activation {
     // Offset: 0x11677B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppDomainLevelActivator* New_ctor(::Il2CppString* activationUrl, System::Runtime::Remoting::Activation::IActivator* next) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Activation").WithContext("AppDomainLevelActivator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Activation::AppDomainLevelActivator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppDomainLevelActivator*, creationType>(activationUrl, next)));
     }
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()

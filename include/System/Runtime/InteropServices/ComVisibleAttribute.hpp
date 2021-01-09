@@ -35,7 +35,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x11644C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ComVisibleAttribute* New_ctor(bool visibility) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("ComVisibleAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::ComVisibleAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComVisibleAttribute*, creationType>(visibility)));
     }
   }; // System.Runtime.InteropServices.ComVisibleAttribute

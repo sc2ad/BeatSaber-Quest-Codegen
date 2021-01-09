@@ -60,21 +60,21 @@ namespace UnityEngine::Bindings {
     // Offset: 0x1A04590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeTypeAttribute* New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("NativeTypeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeTypeAttribute*, creationType>(codegenOptions)));
     }
     // public System.Void .ctor(System.String header)
     // Offset: 0x1A045BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeTypeAttribute* New_ctor(::Il2CppString* header) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("NativeTypeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeTypeAttribute*, creationType>(header)));
     }
     // public System.Void .ctor(UnityEngine.Bindings.CodegenOptions codegenOptions, System.String intermediateStructName)
     // Offset: 0x1A046B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeTypeAttribute* New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions, ::Il2CppString* intermediateStructName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("NativeTypeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeTypeAttribute*, creationType>(codegenOptions, intermediateStructName)));
     }
     // public System.Void .ctor()
@@ -84,7 +84,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeTypeAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("NativeTypeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeTypeAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.NativeTypeAttribute

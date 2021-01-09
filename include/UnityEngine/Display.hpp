@@ -58,7 +58,7 @@ namespace UnityEngine {
     // Offset: 0x168559C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Display* New_ctor(System::IntPtr nativeDisplay) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Display").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Display::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Display*, creationType>(nativeDisplay)));
     }
     // public System.Int32 get_renderingWidth()
@@ -103,7 +103,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Display* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Display").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Display::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Display*, creationType>()));
     }
   }; // UnityEngine.Display

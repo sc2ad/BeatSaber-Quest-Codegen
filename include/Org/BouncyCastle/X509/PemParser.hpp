@@ -57,7 +57,7 @@ namespace Org::BouncyCastle::X509 {
     // Offset: 0x18C0CD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemParser* New_ctor(::Il2CppString* type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::X509").WithContext("PemParser").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::PemParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemParser*, creationType>(type)));
     }
     // private System.String ReadLine(System.IO.Stream inStream)

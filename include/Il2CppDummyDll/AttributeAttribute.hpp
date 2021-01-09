@@ -42,7 +42,7 @@ namespace Il2CppDummyDll {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AttributeAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Il2CppDummyDll").WithContext("AttributeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Il2CppDummyDll::AttributeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttributeAttribute*, creationType>()));
     }
   }; // Il2CppDummyDll.AttributeAttribute

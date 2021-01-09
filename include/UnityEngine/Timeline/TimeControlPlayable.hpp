@@ -78,7 +78,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeControlPlayable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TimeControlPlayable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimeControlPlayable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeControlPlayable*, creationType>()));
     }
   }; // UnityEngine.Timeline.TimeControlPlayable

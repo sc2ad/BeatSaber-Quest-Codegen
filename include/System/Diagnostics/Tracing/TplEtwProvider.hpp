@@ -54,7 +54,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TplEtwProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("TplEtwProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::TplEtwProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TplEtwProvider*, creationType>()));
     }
     // static private System.Void .cctor()

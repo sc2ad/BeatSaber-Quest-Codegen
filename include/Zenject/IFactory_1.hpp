@@ -25,7 +25,7 @@ namespace Zenject {
     // public TValue Create()
     // Offset: 0xFFFFFFFF
     TValue Zenject_IFactory_1_Create() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IFactory_1").WithContext("Create");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IFactory_1::Create");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method);
     }

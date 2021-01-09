@@ -30,7 +30,7 @@ namespace System::Diagnostics {
     // Offset: 0x1484A9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProcessWaitHandle* New_ctor(Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("ProcessWaitHandle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::ProcessWaitHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProcessWaitHandle*, creationType>(processHandle)));
     }
   }; // System.Diagnostics.ProcessWaitHandle

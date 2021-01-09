@@ -33,7 +33,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x1464830
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateCollection* New_ctor(System::Security::Cryptography::X509Certificates::X509CertificateCollection* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509CertificateCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509CertificateCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateCollection*, creationType>(value)));
     }
     // public System.Security.Cryptography.X509Certificates.X509Certificate get_Item(System.Int32 index)
@@ -55,7 +55,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509CertificateCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509CertificateCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateCollection*, creationType>()));
     }
     // public override System.Int32 GetHashCode()

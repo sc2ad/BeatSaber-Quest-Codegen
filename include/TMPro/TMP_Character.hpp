@@ -30,14 +30,14 @@ namespace TMPro {
     // Offset: 0xF527B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Character* New_ctor(uint unicode, UnityEngine::TextCore::Glyph* glyph) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMP_Character").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Character::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Character*, creationType>(unicode, glyph)));
     }
     // System.Void .ctor(System.UInt32 unicode, System.UInt32 glyphIndex)
     // Offset: 0xF5281C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Character* New_ctor(uint unicode, uint glyphIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMP_Character").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Character::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Character*, creationType>(unicode, glyphIndex)));
     }
     // public System.Void .ctor()
@@ -47,7 +47,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Character* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMP_Character").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Character::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Character*, creationType>()));
     }
   }; // TMPro.TMP_Character

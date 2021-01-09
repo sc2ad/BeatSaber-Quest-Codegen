@@ -181,21 +181,21 @@ namespace System {
     // Offset: 0x112A6C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Exception* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Exception").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Exception*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
     // Offset: 0x112A704
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Exception* New_ctor(::Il2CppString* message, System::Exception* innerException) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Exception").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Exception*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x112A75C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Exception* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Exception").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Exception*, creationType>(info, context)));
     }
     // public System.String get_Message()
@@ -264,7 +264,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Exception* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Exception").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Exception*, creationType>()));
     }
     // public override System.String ToString()

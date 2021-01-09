@@ -51,7 +51,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Lightmapping::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Experimental::GlobalIllumination").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Lightmapping::$$c*, creationType>()));
     }
   }; // UnityEngine.Experimental.GlobalIllumination.Lightmapping/<>c

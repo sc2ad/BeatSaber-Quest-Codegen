@@ -43,14 +43,14 @@ namespace TMPro {
     // Offset: 0xF4D674
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Compute_DT_EventArgs* New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, float progress) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("Compute_DT_EventArgs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::Compute_DT_EventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Compute_DT_EventArgs*, creationType>(type, progress)));
     }
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, UnityEngine.Color[] colors)
     // Offset: 0xF4D6B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Compute_DT_EventArgs* New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, ::Array<UnityEngine::Color>* colors) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("Compute_DT_EventArgs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::Compute_DT_EventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Compute_DT_EventArgs*, creationType>(type, colors)));
     }
   }; // TMPro.Compute_DT_EventArgs

@@ -65,7 +65,7 @@ namespace UnityEngine {
     // Offset: 0x19CC220
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HumanPoseHandler* New_ctor(UnityEngine::Avatar* avatar, UnityEngine::Transform* root) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("HumanPoseHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::HumanPoseHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HumanPoseHandler*, creationType>(avatar, root)));
     }
     // public System.Void GetHumanPose(ref UnityEngine.HumanPose humanPose)

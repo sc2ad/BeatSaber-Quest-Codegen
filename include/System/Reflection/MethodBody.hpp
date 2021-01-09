@@ -75,7 +75,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodBody* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("MethodBody").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MethodBody::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodBody*, creationType>()));
     }
   }; // System.Reflection.MethodBody

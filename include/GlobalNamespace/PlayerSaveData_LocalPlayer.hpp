@@ -159,7 +159,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::LocalPlayer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LocalPlayer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveData::LocalPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::LocalPlayer*, creationType>()));
     }
   }; // PlayerSaveData/LocalPlayer

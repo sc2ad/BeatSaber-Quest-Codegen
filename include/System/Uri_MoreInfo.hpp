@@ -63,7 +63,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Uri::MoreInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("MoreInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Uri::MoreInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Uri::MoreInfo*, creationType>()));
     }
   }; // System.Uri/MoreInfo

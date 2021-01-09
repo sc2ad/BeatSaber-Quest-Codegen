@@ -147,14 +147,14 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x132DF98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReturnMessage* New_ctor(::Il2CppObject* ret, ::Array<::Il2CppObject*>* outArgs, int outArgsCount, System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage* mcm) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("ReturnMessage").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::ReturnMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReturnMessage*, creationType>(ret, outArgs, outArgsCount, callCtx, mcm)));
     }
     // public System.Void .ctor(System.Exception e, System.Runtime.Remoting.Messaging.IMethodCallMessage mcm)
     // Offset: 0x132E178
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReturnMessage* New_ctor(System::Exception* e, System::Runtime::Remoting::Messaging::IMethodCallMessage* mcm) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("ReturnMessage").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::ReturnMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReturnMessage*, creationType>(e, mcm)));
     }
     // public System.Void set_Uri(System.String value)

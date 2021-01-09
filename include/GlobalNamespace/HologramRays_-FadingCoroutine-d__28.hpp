@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Offset: 0xF149C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HologramRays::$FadingCoroutine$d__28* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$FadingCoroutine$d__28").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HologramRays::$FadingCoroutine$d__28::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HologramRays::$FadingCoroutine$d__28*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

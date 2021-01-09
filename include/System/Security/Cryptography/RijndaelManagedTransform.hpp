@@ -170,7 +170,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x16A04C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RijndaelManagedTransform* New_ctor(::Array<uint8_t>* rgbKey, System::Security::Cryptography::CipherMode mode, ::Array<uint8_t>* rgbIV, int blockSize, int feedbackSize, System::Security::Cryptography::PaddingMode PaddingValue, System::Security::Cryptography::RijndaelManagedTransformMode transformMode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("RijndaelManagedTransform").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RijndaelManagedTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RijndaelManagedTransform*, creationType>(rgbKey, mode, rgbIV, blockSize, feedbackSize, PaddingValue, transformMode)));
     }
     // private System.Void Dispose(System.Boolean disposing)

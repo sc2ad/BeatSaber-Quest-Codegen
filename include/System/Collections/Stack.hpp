@@ -70,7 +70,7 @@ namespace System::Collections {
     // Offset: 0x1530078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stack* New_ctor(int initialCapacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Stack").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Stack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stack*, creationType>(initialCapacity)));
     }
     // public System.Void Clear()
@@ -91,7 +91,7 @@ namespace System::Collections {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("Stack").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Stack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stack*, creationType>()));
     }
     // public System.Int32 get_Count()

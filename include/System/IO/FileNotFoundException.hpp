@@ -45,7 +45,7 @@ namespace System::IO {
     // Offset: 0x14373E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileNotFoundException* New_ctor(::Il2CppString* message, ::Il2CppString* fileName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileNotFoundException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileNotFoundException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileNotFoundException*, creationType>(message, fileName)));
     }
     // private System.Void SetMessageField()
@@ -63,7 +63,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileNotFoundException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileNotFoundException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileNotFoundException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileNotFoundException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -74,7 +74,7 @@ namespace System::IO {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileNotFoundException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileNotFoundException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileNotFoundException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileNotFoundException*, creationType>(message)));
     }
     // public override System.String get_Message()
@@ -95,7 +95,7 @@ namespace System::IO {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileNotFoundException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileNotFoundException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileNotFoundException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileNotFoundException*, creationType>(info, context)));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

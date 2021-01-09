@@ -37,7 +37,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
     // Base method: System.Void ValueMatchFilter::.ctor(System.String name)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CategoryFilterExtended* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestRunner::NUnitExtensions::Filters").WithContext("CategoryFilterExtended").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CategoryFilterExtended*, creationType>(name)));
     }
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)

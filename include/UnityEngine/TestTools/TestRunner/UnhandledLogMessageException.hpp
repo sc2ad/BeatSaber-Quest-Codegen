@@ -47,7 +47,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0x117F434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnhandledLogMessageException* New_ctor(UnityEngine::TestTools::Logging::LogEvent* log) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::TestRunner").WithContext("UnhandledLogMessageException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnhandledLogMessageException*, creationType>(log)));
     }
     // static private System.String BuildMessage(UnityEngine.TestTools.Logging.LogEvent log)

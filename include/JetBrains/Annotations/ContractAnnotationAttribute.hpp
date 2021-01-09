@@ -38,14 +38,14 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContractAnnotationAttribute* New_ctor(::Il2CppString* contract) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("ContractAnnotationAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::ContractAnnotationAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContractAnnotationAttribute*, creationType>(contract)));
     }
     // public System.Void .ctor(System.String contract, System.Boolean forceFullStates)
     // Offset: 0x19EE484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContractAnnotationAttribute* New_ctor(::Il2CppString* contract, bool forceFullStates) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("ContractAnnotationAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::ContractAnnotationAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContractAnnotationAttribute*, creationType>(contract, forceFullStates)));
     }
     // public System.String get_Contract()

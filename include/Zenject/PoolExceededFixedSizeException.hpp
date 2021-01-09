@@ -26,7 +26,7 @@ namespace Zenject {
     // Base method: System.Void Exception::.ctor(System.String errorMessage)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolExceededFixedSizeException* New_ctor(::Il2CppString* errorMessage) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PoolExceededFixedSizeException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolExceededFixedSizeException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolExceededFixedSizeException*, creationType>(errorMessage)));
     }
   }; // Zenject.PoolExceededFixedSizeException

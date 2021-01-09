@@ -47,7 +47,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool IsReferenceOrContainsReferences() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("RuntimeHelpers").WithContext("IsReferenceOrContainsReferences");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::RuntimeHelpers::IsReferenceOrContainsReferences");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "RuntimeHelpers", "IsReferenceOrContainsReferences", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);

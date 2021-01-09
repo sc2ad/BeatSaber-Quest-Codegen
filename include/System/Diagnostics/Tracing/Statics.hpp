@@ -138,7 +138,7 @@ namespace System::Diagnostics::Tracing {
     template<class AttributeType>
     static AttributeType GetCustomAttribute(System::Reflection::PropertyInfo* propInfo) {
       static_assert(std::is_convertible_v<AttributeType, System::Attribute*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("Statics").WithContext("GetCustomAttribute");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::Statics::GetCustomAttribute");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Diagnostics.Tracing", "Statics", "GetCustomAttribute", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AttributeType>::get()}, ::il2cpp_utils::ExtractTypes(propInfo)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AttributeType>::get()}));
       return ::il2cpp_utils::RunMethodThrow<AttributeType, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, propInfo);
@@ -148,7 +148,7 @@ namespace System::Diagnostics::Tracing {
     template<class AttributeType>
     static AttributeType GetCustomAttribute(System::Type* type) {
       static_assert(std::is_convertible_v<AttributeType, System::Attribute*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("Statics").WithContext("GetCustomAttribute");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::Statics::GetCustomAttribute");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Diagnostics.Tracing", "Statics", "GetCustomAttribute", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AttributeType>::get()}, ::il2cpp_utils::ExtractTypes(type)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AttributeType>::get()}));
       return ::il2cpp_utils::RunMethodThrow<AttributeType, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, type);
@@ -172,7 +172,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xFFFFFFFF
     template<class DataType>
     static System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>* CreateDefaultTypeInfo(System::Collections::Generic::List_1<System::Type*>* recursionCheck) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("Statics").WithContext("CreateDefaultTypeInfo");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::Statics::CreateDefaultTypeInfo");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Diagnostics.Tracing", "Statics", "CreateDefaultTypeInfo", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DataType>::get()}, ::il2cpp_utils::ExtractTypes(recursionCheck)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DataType>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, recursionCheck);

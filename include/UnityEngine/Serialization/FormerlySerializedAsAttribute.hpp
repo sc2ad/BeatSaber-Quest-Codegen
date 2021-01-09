@@ -35,7 +35,7 @@ namespace UnityEngine::Serialization {
     // Offset: 0x16C05C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FormerlySerializedAsAttribute* New_ctor(::Il2CppString* oldName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Serialization").WithContext("FormerlySerializedAsAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Serialization::FormerlySerializedAsAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FormerlySerializedAsAttribute*, creationType>(oldName)));
     }
   }; // UnityEngine.Serialization.FormerlySerializedAsAttribute

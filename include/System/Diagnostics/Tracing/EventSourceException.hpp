@@ -30,7 +30,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12D3870
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventSourceException* New_ctor(System::Exception* innerException) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EventSourceException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventSourceException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventSourceException*, creationType>(innerException)));
     }
     // public System.Void .ctor()
@@ -40,7 +40,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventSourceException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EventSourceException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventSourceException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventSourceException*, creationType>()));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
@@ -49,7 +49,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventSourceException* New_ctor(::Il2CppString* message, System::Exception* innerException) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EventSourceException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventSourceException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventSourceException*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -58,7 +58,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventSourceException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EventSourceException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventSourceException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventSourceException*, creationType>(info, context)));
     }
   }; // System.Diagnostics.Tracing.EventSourceException

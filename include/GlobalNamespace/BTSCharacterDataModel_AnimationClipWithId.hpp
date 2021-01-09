@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterDataModel::AnimationClipWithId* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AnimationClipWithId").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterDataModel::AnimationClipWithId*, creationType>()));
     }
   }; // BTSCharacterDataModel/AnimationClipWithId

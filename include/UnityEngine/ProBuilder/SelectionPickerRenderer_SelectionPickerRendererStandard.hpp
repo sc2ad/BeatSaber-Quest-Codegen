@@ -47,7 +47,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectionPickerRenderer::SelectionPickerRendererStandard* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("SelectionPickerRendererStandard").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererStandard::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectionPickerRenderer::SelectionPickerRendererStandard*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.SelectionPickerRenderer/SelectionPickerRendererStandard

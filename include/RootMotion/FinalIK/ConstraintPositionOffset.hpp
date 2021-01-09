@@ -56,7 +56,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x174D49C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintPositionOffset* New_ctor(UnityEngine::Transform* transform) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("ConstraintPositionOffset").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::ConstraintPositionOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintPositionOffset*, creationType>(transform)));
     }
     // private System.Boolean get_positionChanged()
@@ -74,7 +74,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintPositionOffset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("ConstraintPositionOffset").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::ConstraintPositionOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintPositionOffset*, creationType>()));
     }
   }; // RootMotion.FinalIK.ConstraintPositionOffset

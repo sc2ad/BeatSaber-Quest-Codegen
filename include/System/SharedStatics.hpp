@@ -48,7 +48,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SharedStatics* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("SharedStatics").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::SharedStatics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SharedStatics*, creationType>()));
     }
   }; // System.SharedStatics

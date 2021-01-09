@@ -42,7 +42,7 @@ namespace System::Security::Principal {
     // Offset: 0x12823B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WindowsImpersonationContext* New_ctor(System::IntPtr token) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Principal").WithContext("WindowsImpersonationContext").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Principal::WindowsImpersonationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WindowsImpersonationContext*, creationType>(token)));
     }
     // public System.Void Undo()

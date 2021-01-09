@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x18E545C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_FadeToColor* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_FadeToColor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRCompositor::_FadeToColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_FadeToColor*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Single fSeconds, System.Single fRed, System.Single fGreen, System.Single fBlue, System.Single fAlpha, System.Boolean bBackground)

@@ -518,7 +518,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Type* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Type").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Type::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Type*, creationType>()));
     }
     // public override System.Reflection.MemberTypes get_MemberType()

@@ -27,7 +27,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexPatternAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("RegexPatternAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::RegexPatternAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexPatternAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.RegexPatternAttribute

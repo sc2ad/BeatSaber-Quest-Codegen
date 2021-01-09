@@ -51,7 +51,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T Instantiate() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("Instantiate");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::Instantiate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Instantiate", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
@@ -60,7 +60,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T Instantiate(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("Instantiate");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::Instantiate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Instantiate", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, extraArgs);
@@ -76,7 +76,7 @@ namespace Zenject {
     template<class TContract>
     TContract InstantiateComponent(UnityEngine::GameObject* gameObject) {
       static_assert(std::is_convertible_v<TContract, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiateComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiateComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes(gameObject)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<TContract, false>(this, ___internal__method, gameObject);
@@ -86,7 +86,7 @@ namespace Zenject {
     template<class TContract>
     TContract InstantiateComponent(UnityEngine::GameObject* gameObject, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static_assert(std::is_convertible_v<TContract, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiateComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiateComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes(gameObject, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       return ::il2cpp_utils::RunMethodThrow<TContract, false>(this, ___internal__method, gameObject, extraArgs);
@@ -102,7 +102,7 @@ namespace Zenject {
     template<class T>
     T InstantiateComponentOnNewGameObject() {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiateComponentOnNewGameObject");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiateComponentOnNewGameObject");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateComponentOnNewGameObject", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
@@ -112,7 +112,7 @@ namespace Zenject {
     template<class T>
     T InstantiateComponentOnNewGameObject(::Il2CppString* gameObjectName) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiateComponentOnNewGameObject");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiateComponentOnNewGameObject");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateComponentOnNewGameObject", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObjectName)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, gameObjectName);
@@ -122,7 +122,7 @@ namespace Zenject {
     template<class T>
     T InstantiateComponentOnNewGameObject(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiateComponentOnNewGameObject");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiateComponentOnNewGameObject");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateComponentOnNewGameObject", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, extraArgs);
@@ -132,7 +132,7 @@ namespace Zenject {
     template<class T>
     T InstantiateComponentOnNewGameObject(::Il2CppString* gameObjectName, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiateComponentOnNewGameObject");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiateComponentOnNewGameObject");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateComponentOnNewGameObject", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObjectName, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, gameObjectName, extraArgs);
@@ -159,7 +159,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T InstantiatePrefabForComponent(UnityEngine::Object* prefab) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiatePrefabForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiatePrefabForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(prefab)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefab);
@@ -168,7 +168,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T InstantiatePrefabForComponent(UnityEngine::Object* prefab, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiatePrefabForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiatePrefabForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(prefab, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefab, extraArgs);
@@ -177,7 +177,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T InstantiatePrefabForComponent(UnityEngine::Object* prefab, UnityEngine::Transform* parentTransform) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiatePrefabForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiatePrefabForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(prefab, parentTransform)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefab, parentTransform);
@@ -186,7 +186,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T InstantiatePrefabForComponent(UnityEngine::Object* prefab, UnityEngine::Transform* parentTransform, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiatePrefabForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiatePrefabForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(prefab, parentTransform, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefab, parentTransform, extraArgs);
@@ -195,7 +195,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T InstantiatePrefabForComponent(UnityEngine::Object* prefab, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parentTransform) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiatePrefabForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiatePrefabForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(prefab, position, rotation, parentTransform)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefab, position, rotation, parentTransform);
@@ -204,7 +204,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T InstantiatePrefabForComponent(UnityEngine::Object* prefab, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parentTransform, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiatePrefabForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiatePrefabForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(prefab, position, rotation, parentTransform, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefab, position, rotation, parentTransform, extraArgs);
@@ -216,7 +216,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T InstantiatePrefabResourceForComponent(::Il2CppString* resourcePath) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiatePrefabResourceForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiatePrefabResourceForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath);
@@ -225,7 +225,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T InstantiatePrefabResourceForComponent(::Il2CppString* resourcePath, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiatePrefabResourceForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiatePrefabResourceForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath, extraArgs);
@@ -234,7 +234,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T InstantiatePrefabResourceForComponent(::Il2CppString* resourcePath, UnityEngine::Transform* parentTransform) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiatePrefabResourceForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiatePrefabResourceForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath, parentTransform)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath, parentTransform);
@@ -243,7 +243,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T InstantiatePrefabResourceForComponent(::Il2CppString* resourcePath, UnityEngine::Transform* parentTransform, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiatePrefabResourceForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiatePrefabResourceForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath, parentTransform, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath, parentTransform, extraArgs);
@@ -252,7 +252,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T InstantiatePrefabResourceForComponent(::Il2CppString* resourcePath, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parentTransform) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiatePrefabResourceForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiatePrefabResourceForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath, position, rotation, parentTransform)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath, position, rotation, parentTransform);
@@ -261,7 +261,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     T InstantiatePrefabResourceForComponent(::Il2CppString* resourcePath, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parentTransform, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiatePrefabResourceForComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiatePrefabResourceForComponent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath, position, rotation, parentTransform, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath, position, rotation, parentTransform, extraArgs);
@@ -274,7 +274,7 @@ namespace Zenject {
     template<class T>
     T InstantiateScriptableObjectResource(::Il2CppString* resourcePath) {
       static_assert(std::is_convertible_v<T, UnityEngine::ScriptableObject*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiateScriptableObjectResource");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiateScriptableObjectResource");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath);
@@ -284,7 +284,7 @@ namespace Zenject {
     template<class T>
     T InstantiateScriptableObjectResource(::Il2CppString* resourcePath, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static_assert(std::is_convertible_v<T, UnityEngine::ScriptableObject*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IInstantiator").WithContext("InstantiateScriptableObjectResource");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IInstantiator::InstantiateScriptableObjectResource");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath, extraArgs)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resourcePath, extraArgs);

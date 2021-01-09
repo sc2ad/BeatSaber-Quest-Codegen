@@ -33,7 +33,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidSignatureException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::TestRunner").WithContext("InvalidSignatureException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::InvalidSignatureException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidSignatureException*, creationType>(message)));
     }
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()

@@ -67,7 +67,7 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     template<class ArrayType>
     static ArrayType ConvertFromJNIArray(System::IntPtr array) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("_AndroidJNIHelper").WithContext("ConvertFromJNIArray");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::_AndroidJNIHelper::ConvertFromJNIArray");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "_AndroidJNIHelper", "ConvertFromJNIArray", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayType>::get()}, ::il2cpp_utils::ExtractTypes(array)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayType>::get()}));
       return ::il2cpp_utils::RunMethodThrow<ArrayType, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, array);
@@ -82,7 +82,7 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     template<class ReturnType>
     static System::IntPtr GetMethodID(System::IntPtr jclass, ::Il2CppString* methodName, ::Array<::Il2CppObject*>* args, bool isStatic) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("_AndroidJNIHelper").WithContext("GetMethodID");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::_AndroidJNIHelper::GetMethodID");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "_AndroidJNIHelper", "GetMethodID", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, ::il2cpp_utils::ExtractTypes(jclass, methodName, args, isStatic)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::IntPtr, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, jclass, methodName, args, isStatic);
@@ -91,7 +91,7 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     template<class ReturnType>
     static System::IntPtr GetFieldID(System::IntPtr jclass, ::Il2CppString* fieldName, bool isStatic) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("_AndroidJNIHelper").WithContext("GetFieldID");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::_AndroidJNIHelper::GetFieldID");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "_AndroidJNIHelper", "GetFieldID", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, ::il2cpp_utils::ExtractTypes(jclass, fieldName, isStatic)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::IntPtr, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, jclass, fieldName, isStatic);
@@ -118,7 +118,7 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     template<class ReturnType>
     static ::Il2CppString* GetSignature(::Array<::Il2CppObject*>* args) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("_AndroidJNIHelper").WithContext("GetSignature");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::_AndroidJNIHelper::GetSignature");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "_AndroidJNIHelper", "GetSignature", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, ::il2cpp_utils::ExtractTypes(args)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, args);
@@ -129,7 +129,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static _AndroidJNIHelper* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("_AndroidJNIHelper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::_AndroidJNIHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<_AndroidJNIHelper*, creationType>()));
     }
   }; // UnityEngine._AndroidJNIHelper

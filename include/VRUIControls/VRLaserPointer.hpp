@@ -66,7 +66,7 @@ namespace VRUIControls {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRLaserPointer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("VRUIControls").WithContext("VRLaserPointer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("VRUIControls::VRLaserPointer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRLaserPointer*, creationType>()));
     }
     // static private System.Void .cctor()

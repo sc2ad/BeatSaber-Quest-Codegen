@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1859274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_FadeGrid* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_FadeGrid").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_FadeGrid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_FadeGrid*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Single fSeconds, System.Boolean bFadeIn)

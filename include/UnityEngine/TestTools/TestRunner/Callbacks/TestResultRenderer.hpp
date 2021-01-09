@@ -71,7 +71,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Offset: 0x1193440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestResultRenderer* New_ctor(NUnit::Framework::Interfaces::ITestResult* testResults) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::TestRunner::Callbacks").WithContext("TestResultRenderer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestResultRenderer*, creationType>(testResults)));
     }
     // private System.Void GetFailedTests(NUnit.Framework.Interfaces.ITestResult testResults)

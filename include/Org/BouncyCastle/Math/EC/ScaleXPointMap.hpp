@@ -46,7 +46,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0x1791CA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScaleXPointMap* New_ctor(Org::BouncyCastle::Math::EC::ECFieldElement* scale) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC").WithContext("ScaleXPointMap").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ScaleXPointMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScaleXPointMap*, creationType>(scale)));
     }
     // public Org.BouncyCastle.Math.EC.ECPoint Map(Org.BouncyCastle.Math.EC.ECPoint p)

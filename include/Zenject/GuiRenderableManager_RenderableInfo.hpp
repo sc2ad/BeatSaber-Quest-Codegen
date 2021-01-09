@@ -42,7 +42,7 @@ namespace Zenject {
     // Offset: 0x129EF68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuiRenderableManager::RenderableInfo* New_ctor(Zenject::IGuiRenderable* renderable, int priority) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("RenderableInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::GuiRenderableManager::RenderableInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuiRenderableManager::RenderableInfo*, creationType>(renderable, priority)));
     }
   }; // Zenject.GuiRenderableManager/RenderableInfo

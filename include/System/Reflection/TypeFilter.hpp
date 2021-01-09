@@ -35,7 +35,7 @@ namespace System::Reflection {
     // Offset: 0x15CA9E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeFilter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("TypeFilter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::TypeFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeFilter*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.Type m, System.Object filterCriteria)

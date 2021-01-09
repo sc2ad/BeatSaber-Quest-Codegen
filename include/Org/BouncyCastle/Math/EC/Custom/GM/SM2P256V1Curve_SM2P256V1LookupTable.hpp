@@ -50,7 +50,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::GM {
     // Offset: 0x1772C1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SM2P256V1Curve::SM2P256V1LookupTable* New_ctor(Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve* outer, ::Array<uint>* table, int size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Custom::GM").WithContext("SM2P256V1LookupTable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::SM2P256V1LookupTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SM2P256V1Curve::SM2P256V1LookupTable*, creationType>(outer, table, size)));
     }
     // private Org.BouncyCastle.Math.EC.ECPoint CreatePoint(System.UInt32[] x, System.UInt32[] y)

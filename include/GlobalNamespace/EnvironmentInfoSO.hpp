@@ -115,7 +115,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentInfoSO* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("EnvironmentInfoSO").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentInfoSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentInfoSO*, creationType>()));
     }
   }; // EnvironmentInfoSO

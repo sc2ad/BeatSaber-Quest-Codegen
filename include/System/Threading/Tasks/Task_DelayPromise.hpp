@@ -53,7 +53,7 @@ namespace System::Threading::Tasks {
     // Offset: 0x1D15BCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::DelayPromise* New_ctor(System::Threading::CancellationToken token) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("DelayPromise").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::DelayPromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::DelayPromise*, creationType>(token)));
     }
     // System.Void Complete()

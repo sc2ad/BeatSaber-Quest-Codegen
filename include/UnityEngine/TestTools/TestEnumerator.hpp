@@ -52,7 +52,7 @@ namespace UnityEngine::TestTools {
     // Offset: 0x118FD88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestEnumerator* New_ctor(NUnit::Framework::Internal::ITestExecutionContext* context, System::Collections::IEnumerator* testEnumerator) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools").WithContext("TestEnumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestEnumerator*, creationType>(context, testEnumerator)));
     }
     // public System.Collections.IEnumerator Execute()

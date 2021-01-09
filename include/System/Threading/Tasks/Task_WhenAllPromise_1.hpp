@@ -43,7 +43,7 @@ namespace System::Threading::Tasks {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::WhenAllPromise_1<T>* New_ctor(::Array<System::Threading::Tasks::Task_1<T>*>* tasks) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("WhenAllPromise_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::WhenAllPromise_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::WhenAllPromise_1<T>*, creationType>(tasks)));
     }
     // public System.Void Invoke(System.Threading.Tasks.Task ignored)
@@ -51,7 +51,7 @@ namespace System::Threading::Tasks {
     // Implemented from: System.Threading.Tasks.ITaskCompletionAction
     // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task ignored)
     void Invoke(System::Threading::Tasks::Task* ignored) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("WhenAllPromise_1").WithContext("Invoke");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::WhenAllPromise_1::Invoke");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(ignored)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, ignored);
     }
@@ -65,7 +65,7 @@ namespace System::Threading::Tasks {
     // Implemented from: System.Threading.Tasks.Task
     // Base method: System.Boolean Task::get_ShouldNotifyDebuggerOfWaitCompletion()
     bool get_ShouldNotifyDebuggerOfWaitCompletion() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("WhenAllPromise_1").WithContext("get_ShouldNotifyDebuggerOfWaitCompletion");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::WhenAllPromise_1::get_ShouldNotifyDebuggerOfWaitCompletion");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_ShouldNotifyDebuggerOfWaitCompletion", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }

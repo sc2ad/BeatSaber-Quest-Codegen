@@ -89,14 +89,14 @@ namespace UnityEngine::ProBuilder::KdTree {
       // System.Void <GetEnumerator>b__0(UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> node)
       // Offset: 0xFFFFFFFF
       void $GetEnumerator$b__0(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("$$c__DisplayClass33_0").WithContext("<GetEnumerator>b__0");
+        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::$$c__DisplayClass33_0::<GetEnumerator>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<GetEnumerator>b__0", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node))));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node);
       }
       // System.Void <GetEnumerator>b__1(UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> node)
       // Offset: 0xFFFFFFFF
       void $GetEnumerator$b__1(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("$$c__DisplayClass33_0").WithContext("<GetEnumerator>b__1");
+        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::$$c__DisplayClass33_0::<GetEnumerator>b__1");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<GetEnumerator>b__1", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node))));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node);
       }
@@ -106,7 +106,7 @@ namespace UnityEngine::ProBuilder::KdTree {
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename KdTree_2<TKey, TValue>::$$c__DisplayClass33_0* New_ctor() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("$$c__DisplayClass33_0").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::$$c__DisplayClass33_0::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename KdTree_2<TKey, TValue>::$$c__DisplayClass33_0*, creationType>()));
       }
     }; // UnityEngine.ProBuilder.KdTree.KdTree`2/<>c__DisplayClass33_0
@@ -165,7 +165,7 @@ namespace UnityEngine::ProBuilder::KdTree {
       // Offset: 0xFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename KdTree_2<TKey, TValue>::$GetEnumerator$d__33* New_ctor(int $$1__state) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("$GetEnumerator$d__33").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::$GetEnumerator$d__33::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename KdTree_2<TKey, TValue>::$GetEnumerator$d__33*, creationType>($$1__state)));
       }
       // private System.Void System.IDisposable.Dispose()
@@ -173,7 +173,7 @@ namespace UnityEngine::ProBuilder::KdTree {
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void System_IDisposable_Dispose() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("$GetEnumerator$d__33").WithContext("System.IDisposable.Dispose");
+        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::$GetEnumerator$d__33::System.IDisposable.Dispose");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
@@ -182,7 +182,7 @@ namespace UnityEngine::ProBuilder::KdTree {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("$GetEnumerator$d__33").WithContext("MoveNext");
+        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::$GetEnumerator$d__33::MoveNext");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
       }
@@ -196,7 +196,7 @@ namespace UnityEngine::ProBuilder::KdTree {
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator_1::get_Current()
       UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* System_Collections_Generic_IEnumerator_1_get_Current() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("$GetEnumerator$d__33").WithContext("System.Collections.Generic.IEnumerator<UnityEngine.ProBuilder.KdTree.KdTreeNode<TKey,TValue>>.get_Current");
+        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::$GetEnumerator$d__33::System.Collections.Generic.IEnumerator<UnityEngine.ProBuilder.KdTree.KdTreeNode<TKey,TValue>>.get_Current");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerator<UnityEngine.ProBuilder.KdTree.KdTreeNode<TKey,TValue>>.get_Current", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
         return ::il2cpp_utils::RunMethodThrow<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, false>(this, ___internal__method);
       }
@@ -205,7 +205,7 @@ namespace UnityEngine::ProBuilder::KdTree {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("$GetEnumerator$d__33").WithContext("System.Collections.IEnumerator.Reset");
+        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::$GetEnumerator$d__33::System.Collections.IEnumerator.Reset");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
@@ -214,7 +214,7 @@ namespace UnityEngine::ProBuilder::KdTree {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("$GetEnumerator$d__33").WithContext("System.Collections.IEnumerator.get_Current");
+        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::$GetEnumerator$d__33::System.Collections.IEnumerator.get_Current");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
       }
@@ -262,76 +262,76 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KdTree_2<TKey, TValue>* New_ctor(int dimensions, UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* typeMath) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTree_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KdTree_2<TKey, TValue>*, creationType>(dimensions, typeMath)));
     }
     // public System.Void .ctor(System.Int32 dimensions, UnityEngine.ProBuilder.KdTree.ITypeMath`1<TKey> typeMath, UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior addDuplicateBehavior)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KdTree_2<TKey, TValue>* New_ctor(int dimensions, UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* typeMath, UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior addDuplicateBehavior) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTree_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KdTree_2<TKey, TValue>*, creationType>(dimensions, typeMath, addDuplicateBehavior)));
     }
     // public UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior get_AddDuplicateBehavior()
     // Offset: 0xFFFFFFFF
     UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior get_AddDuplicateBehavior() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTree_2").WithContext("get_AddDuplicateBehavior");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::get_AddDuplicateBehavior");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_AddDuplicateBehavior", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior, false>(this, ___internal__method);
     }
     // private System.Void set_AddDuplicateBehavior(UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior value)
     // Offset: 0xFFFFFFFF
     void set_AddDuplicateBehavior(UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTree_2").WithContext("set_AddDuplicateBehavior");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::set_AddDuplicateBehavior");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "set_AddDuplicateBehavior", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public System.Boolean Add(TKey[] point, TValue value)
     // Offset: 0xFFFFFFFF
     bool Add(::Array<TKey>* point, TValue value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTree_2").WithContext("Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::Add");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(point, value)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, point, value);
     }
     // private System.Void AddNearestNeighbours(UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> node, TKey[] target, UnityEngine.ProBuilder.KdTree.HyperRect`1<TKey> rect, System.Int32 depth, UnityEngine.ProBuilder.KdTree.NearestNeighbourList`2<UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue>,TKey> nearestNeighbours, TKey maxSearchRadiusSquared)
     // Offset: 0xFFFFFFFF
     void AddNearestNeighbours(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node, ::Array<TKey>* target, UnityEngine::ProBuilder::KdTree::HyperRect_1<TKey> rect, int depth, UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, TKey>* nearestNeighbours, TKey maxSearchRadiusSquared) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTree_2").WithContext("AddNearestNeighbours");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::AddNearestNeighbours");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AddNearestNeighbours", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node, target, rect, depth, nearestNeighbours, maxSearchRadiusSquared)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node, target, rect, depth, nearestNeighbours, maxSearchRadiusSquared);
     }
     // public UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue>[] RadialSearch(TKey[] center, TKey radius, System.Int32 count)
     // Offset: 0xFFFFFFFF
     ::Array<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* RadialSearch(::Array<TKey>* center, TKey radius, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTree_2").WithContext("RadialSearch");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::RadialSearch");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "RadialSearch", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(center, radius, count)));
       return ::il2cpp_utils::RunMethodThrow<::Array<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*, false>(this, ___internal__method, center, radius, count);
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
     int get_Count() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTree_2").WithContext("get_Count");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::get_Count");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // private System.Void set_Count(System.Int32 value)
     // Offset: 0xFFFFFFFF
     void set_Count(int value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTree_2").WithContext("set_Count");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::set_Count");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "set_Count", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // private System.Void AddNodeToStringBuilder(UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> node, System.Text.StringBuilder sb, System.Int32 depth)
     // Offset: 0xFFFFFFFF
     void AddNodeToStringBuilder(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node, System::Text::StringBuilder* sb, int depth) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTree_2").WithContext("AddNodeToStringBuilder");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::AddNodeToStringBuilder");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AddNodeToStringBuilder", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node, sb, depth)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node, sb, depth);
     }
     // public System.Collections.Generic.IEnumerator`1<UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue>> GetEnumerator()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTree_2").WithContext("GetEnumerator");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::GetEnumerator");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*, false>(this, ___internal__method);
     }
@@ -340,7 +340,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTree_2").WithContext("ToString");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::ToString");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ToString", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
     }
@@ -349,7 +349,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("KdTree_2").WithContext("System.Collections.IEnumerable.GetEnumerator");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::System.Collections.IEnumerable.GetEnumerator");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
     }

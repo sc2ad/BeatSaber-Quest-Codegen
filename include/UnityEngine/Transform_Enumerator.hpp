@@ -41,7 +41,7 @@ namespace UnityEngine {
     // Offset: 0x16C8D04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Transform::Enumerator* New_ctor(UnityEngine::Transform* outer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Enumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Transform::Enumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Transform::Enumerator*, creationType>(outer)));
     }
     // public System.Object get_Current()

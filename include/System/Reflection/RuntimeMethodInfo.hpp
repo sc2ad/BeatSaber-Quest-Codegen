@@ -92,7 +92,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeMethodInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("RuntimeMethodInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::RuntimeMethodInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeMethodInfo*, creationType>()));
     }
   }; // System.Reflection.RuntimeMethodInfo

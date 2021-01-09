@@ -75,14 +75,14 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1947F3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SharedVertex* New_ctor(System::Collections::Generic::IEnumerable_1<int>* indexes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("SharedVertex").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::SharedVertex::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SharedVertex*, creationType>(indexes)));
     }
     // public System.Void .ctor(UnityEngine.ProBuilder.SharedVertex sharedVertex)
     // Offset: 0x1947FF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SharedVertex* New_ctor(UnityEngine::ProBuilder::SharedVertex* sharedVertex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("SharedVertex").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::SharedVertex::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SharedVertex*, creationType>(sharedVertex)));
     }
     // public System.Int32 get_Item(System.Int32 i)

@@ -120,7 +120,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskScheduler* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("TaskScheduler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskScheduler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskScheduler*, creationType>()));
     }
   }; // System.Threading.Tasks.TaskScheduler

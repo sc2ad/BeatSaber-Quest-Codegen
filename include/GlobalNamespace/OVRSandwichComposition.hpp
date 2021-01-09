@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSandwichComposition* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OVRSandwichComposition").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRSandwichComposition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSandwichComposition*, creationType>()));
     }
   }; // OVRSandwichComposition

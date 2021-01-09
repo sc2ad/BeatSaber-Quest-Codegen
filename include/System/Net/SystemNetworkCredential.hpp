@@ -32,7 +32,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemNetworkCredential* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("SystemNetworkCredential").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::SystemNetworkCredential::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SystemNetworkCredential*, creationType>()));
     }
   }; // System.Net.SystemNetworkCredential

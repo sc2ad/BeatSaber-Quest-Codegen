@@ -41,7 +41,7 @@ namespace UnityEngine {
     // Offset: 0x19C6F3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Animation::Enumerator* New_ctor(UnityEngine::Animation* outer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Enumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Animation::Enumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Animation::Enumerator*, creationType>(outer)));
     }
     // public System.Object get_Current()

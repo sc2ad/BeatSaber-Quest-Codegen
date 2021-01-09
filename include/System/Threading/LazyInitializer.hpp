@@ -29,7 +29,7 @@ namespace System::Threading {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T EnsureInitialized(T& target, System::Func_1<T>* valueFactory) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("LazyInitializer").WithContext("EnsureInitialized");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::LazyInitializer::EnsureInitialized");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Threading", "LazyInitializer", "EnsureInitialized", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(target, valueFactory)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, target, valueFactory);
@@ -38,7 +38,7 @@ namespace System::Threading {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T EnsureInitializedCore(T& target, System::Func_1<T>* valueFactory) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("LazyInitializer").WithContext("EnsureInitializedCore");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::LazyInitializer::EnsureInitializedCore");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Threading", "LazyInitializer", "EnsureInitializedCore", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(target, valueFactory)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, target, valueFactory);

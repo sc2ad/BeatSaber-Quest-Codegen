@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1048FDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RC2Parameters* New_ctor(::Array<uint8_t>* key, int keyOff, int keyLen, int bits) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("RC2Parameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::RC2Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2Parameters*, creationType>(key, keyOff, keyLen, bits)));
     }
     // public System.Int32 get_EffectiveKeyBits()
@@ -43,7 +43,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RC2Parameters* New_ctor(::Array<uint8_t>* key, int keyOff, int keyLen) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("RC2Parameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::RC2Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2Parameters*, creationType>(key, keyOff, keyLen)));
     }
   }; // Org.BouncyCastle.Crypto.Parameters.RC2Parameters

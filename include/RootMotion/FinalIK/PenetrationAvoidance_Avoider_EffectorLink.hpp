@@ -41,7 +41,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PenetrationAvoidance::Avoider::EffectorLink* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("EffectorLink").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PenetrationAvoidance::Avoider::EffectorLink*, creationType>()));
     }
   }; // RootMotion.FinalIK.PenetrationAvoidance/Avoider/EffectorLink

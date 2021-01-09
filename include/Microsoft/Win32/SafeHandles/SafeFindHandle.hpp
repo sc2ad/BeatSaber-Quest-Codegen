@@ -23,7 +23,7 @@ namespace Microsoft::Win32::SafeHandles {
     // Offset: 0x15169A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeFindHandle* New_ctor(System::IntPtr preexistingHandle) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Microsoft::Win32::SafeHandles").WithContext("SafeFindHandle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::SafeHandles::SafeFindHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeFindHandle*, creationType>(preexistingHandle)));
     }
     // protected override System.Boolean ReleaseHandle()

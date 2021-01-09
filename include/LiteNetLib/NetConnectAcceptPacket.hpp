@@ -54,7 +54,7 @@ namespace LiteNetLib {
     // Offset: 0x1DC5F20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetConnectAcceptPacket* New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib").WithContext("NetConnectAcceptPacket").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetConnectAcceptPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetConnectAcceptPacket*, creationType>(connectionId, connectionNumber, isReusedPeer)));
     }
     // static public LiteNetLib.NetConnectAcceptPacket FromData(LiteNetLib.NetPacket packet)

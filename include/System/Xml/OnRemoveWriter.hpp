@@ -37,7 +37,7 @@ namespace System::Xml {
     // Offset: 0x14E5CA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OnRemoveWriter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("OnRemoveWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::OnRemoveWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OnRemoveWriter*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Xml.XmlRawWriter writer)

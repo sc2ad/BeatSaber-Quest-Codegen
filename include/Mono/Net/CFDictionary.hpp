@@ -46,7 +46,7 @@ namespace Mono::Net {
     // Base method: System.Void CFObject::.ctor(System.IntPtr handle, System.Boolean own)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFDictionary* New_ctor(System::IntPtr handle, bool own) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Net").WithContext("CFDictionary").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFDictionary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFDictionary*, creationType>(handle, own)));
     }
   }; // Mono.Net.CFDictionary

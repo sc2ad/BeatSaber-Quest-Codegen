@@ -44,7 +44,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserAuthenticationResult* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("BeatSaberAPI::DataTransferObjects").WithContext("UserAuthenticationResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("BeatSaberAPI::DataTransferObjects::UserAuthenticationResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserAuthenticationResult*, creationType>()));
     }
   }; // BeatSaberAPI.DataTransferObjects.UserAuthenticationResult

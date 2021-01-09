@@ -87,7 +87,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Offset: 0x118304C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoroutineTestWorkItem::$PerformWork$d__6* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner").WithContext("$PerformWork$d__6").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::$PerformWork$d__6::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoroutineTestWorkItem::$PerformWork$d__6*, creationType>($$1__state)));
     }
     // private System.Void <>m__Finally1()

@@ -42,14 +42,14 @@ namespace Mono::Security::Interface {
     // Offset: 0x17B867C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsException* New_ctor(Mono::Security::Interface::Alert* alert, ::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::Interface").WithContext("TlsException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::TlsException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TlsException*, creationType>(alert, message)));
     }
     // public System.Void .ctor(Mono.Security.Interface.AlertDescription description, System.String message)
     // Offset: 0x17B8708
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsException* New_ctor(Mono::Security::Interface::AlertDescription description, ::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::Interface").WithContext("TlsException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::TlsException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TlsException*, creationType>(description, message)));
     }
   }; // Mono.Security.Interface.TlsException

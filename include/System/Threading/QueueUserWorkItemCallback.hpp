@@ -67,7 +67,7 @@ namespace System::Threading {
     // Offset: 0x1D08E50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QueueUserWorkItemCallback* New_ctor(System::Threading::WaitCallback* waitCallback, ::Il2CppObject* stateObj, bool compressStack, System::Threading::StackCrawlMark& stackMark) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("QueueUserWorkItemCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::QueueUserWorkItemCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QueueUserWorkItemCallback*, creationType>(waitCallback, stateObj, compressStack, stackMark)));
     }
     // static private System.Void WaitCallback_Context(System.Object state)

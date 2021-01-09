@@ -49,7 +49,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageEnd* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization::Formatters::Binary").WithContext("MessageEnd").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::MessageEnd::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageEnd*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.MessageEnd

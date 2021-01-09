@@ -82,7 +82,7 @@ namespace HMUI {
     template<class T0, class T1>
     void AddBindings(System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, T0, System::Func_2<::Il2CppString*, T1>*, System::Func_2<T1, ::Il2CppString*>*>*>* bindingData) {
       static_assert(std::is_base_of_v<GlobalNamespace::IObservableChange, std::remove_pointer_t<T0>> && std::is_base_of_v<GlobalNamespace::IValue_1<T1>, std::remove_pointer_t<T0>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("InputFieldDataBinder").WithContext("AddBindings");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldDataBinder::AddBindings");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddBindings", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T0>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get()}, ::il2cpp_utils::ExtractTypes(bindingData))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T0>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get()})));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, bindingData);
@@ -92,7 +92,7 @@ namespace HMUI {
     template<class T>
     void AddStringBindings(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::InputField*, T>*>* bindingData) {
       static_assert(std::is_base_of_v<GlobalNamespace::IObservableChange, std::remove_pointer_t<T>> && std::is_base_of_v<GlobalNamespace::IValue_1<::Il2CppString*>, std::remove_pointer_t<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("InputFieldDataBinder").WithContext("AddStringBindings");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldDataBinder::AddStringBindings");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AddStringBindings", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(bindingData)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, bindingData);
@@ -106,7 +106,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputFieldDataBinder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("InputFieldDataBinder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldDataBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldDataBinder*, creationType>()));
     }
   }; // HMUI.InputFieldDataBinder

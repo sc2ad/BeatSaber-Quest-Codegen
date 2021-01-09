@@ -44,7 +44,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BooleanArrayTypeInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("BooleanArrayTypeInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::BooleanArrayTypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BooleanArrayTypeInfo*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.BooleanArrayTypeInfo

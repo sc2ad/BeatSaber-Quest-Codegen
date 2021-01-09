@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x1927C1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_AcknowledgeQuit_UserPrompt* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_AcknowledgeQuit_UserPrompt").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_AcknowledgeQuit_UserPrompt*, creationType>(object, method)));
     }
     // public System.Void Invoke()

@@ -30,7 +30,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollRect::ScrollRectEvent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("ScrollRectEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ScrollRect::ScrollRectEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScrollRect::ScrollRectEvent*, creationType>()));
     }
   }; // UnityEngine.UI.ScrollRect/ScrollRectEvent

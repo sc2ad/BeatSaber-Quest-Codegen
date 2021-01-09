@@ -70,7 +70,7 @@ namespace System::Net::Sockets {
     // Offset: 0x121577C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TcpListener* New_ctor(System::Net::IPAddress* localaddr, int port) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Sockets").WithContext("TcpListener").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::TcpListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TcpListener*, creationType>(localaddr, port)));
     }
     // public System.Net.EndPoint get_LocalEndpoint()

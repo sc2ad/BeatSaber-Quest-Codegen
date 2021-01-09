@@ -34,7 +34,7 @@ namespace UnityEngine::Networking {
     // Offset: 0x19DFC94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UploadHandlerRaw* New_ctor(::Array<uint8_t>* data) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Networking").WithContext("UploadHandlerRaw").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::UploadHandlerRaw::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UploadHandlerRaw*, creationType>(data)));
     }
   }; // UnityEngine.Networking.UploadHandlerRaw

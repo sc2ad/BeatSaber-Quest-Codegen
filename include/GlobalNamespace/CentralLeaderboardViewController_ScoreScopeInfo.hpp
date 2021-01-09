@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A350A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CentralLeaderboardViewController::ScoreScopeInfo* New_ctor(OnlineServices::ScoresScope scoreScope, UnityEngine::Sprite* icon, ::Il2CppString* localizedTitle) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ScoreScopeInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CentralLeaderboardViewController::ScoreScopeInfo*, creationType>(scoreScope, icon, localizedTitle)));
     }
   }; // CentralLeaderboardViewController/ScoreScopeInfo

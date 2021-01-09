@@ -63,14 +63,14 @@ namespace System::IO::Compression {
     // Offset: 0x148B5A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GZipStream* New_ctor(System::IO::Stream* stream, System::IO::Compression::CompressionMode mode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO::Compression").WithContext("GZipStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Compression::GZipStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GZipStream*, creationType>(stream, mode)));
     }
     // public System.Void .ctor(System.IO.Stream stream, System.IO.Compression.CompressionMode mode, System.Boolean leaveOpen)
     // Offset: 0x148B5A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GZipStream* New_ctor(System::IO::Stream* stream, System::IO::Compression::CompressionMode mode, bool leaveOpen) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO::Compression").WithContext("GZipStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Compression::GZipStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GZipStream*, creationType>(stream, mode, leaveOpen)));
     }
     // private System.Void CheckDeflateStream()

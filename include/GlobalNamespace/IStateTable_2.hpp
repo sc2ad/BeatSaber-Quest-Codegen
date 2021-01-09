@@ -28,14 +28,14 @@ namespace GlobalNamespace {
     // public TState GetState(TType type)
     // Offset: 0xFFFFFFFF
     TState GetState(TType type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("IStateTable_2").WithContext("GetState");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IStateTable_2::GetState");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetState", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(type)));
       return ::il2cpp_utils::RunMethodThrow<TState, false>(this, ___internal__method, type);
     }
     // public System.Void SetState(TType type, TState state)
     // Offset: 0xFFFFFFFF
     void SetState(TType type, TState state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("IStateTable_2").WithContext("SetState");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IStateTable_2::SetState");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SetState", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(type, state)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, type, state);
     }

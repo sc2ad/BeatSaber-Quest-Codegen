@@ -57,7 +57,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TConcrete>
     Zenject::FromBinderNonGeneric* To() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConcreteBinderNonGeneric").WithContext("To");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteBinderNonGeneric::To");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "To", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderNonGeneric*, false>(this, ___internal__method);
@@ -88,7 +88,7 @@ namespace Zenject {
     // Base method: System.Void FromBinder::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConcreteBinderNonGeneric* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::BindStatement* bindStatement) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConcreteBinderNonGeneric").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteBinderNonGeneric::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConcreteBinderNonGeneric*, creationType>(bindContainer, bindInfo, bindStatement)));
     }
   }; // Zenject.ConcreteBinderNonGeneric

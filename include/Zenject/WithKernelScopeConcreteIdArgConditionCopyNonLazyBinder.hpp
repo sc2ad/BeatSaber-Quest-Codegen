@@ -41,7 +41,7 @@ namespace Zenject {
     // Offset: 0x19D2A40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, Zenject::BindInfo* bindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder*, creationType>(subContainerBindInfo, bindInfo)));
     }
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
@@ -52,7 +52,7 @@ namespace Zenject {
     template<class TKernel>
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel() {
       static_assert(std::is_convertible_v<TKernel, Zenject::Kernel*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder").WithContext("WithKernel");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::WithKernel");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "WithKernel", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKernel>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKernel>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___internal__method);

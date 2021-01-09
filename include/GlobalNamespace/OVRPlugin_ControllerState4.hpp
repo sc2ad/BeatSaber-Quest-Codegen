@@ -298,7 +298,7 @@ namespace GlobalNamespace {
     // Offset: 0xC99254
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ControllerState4(GlobalNamespace::OVRPlugin::ControllerState2 cs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ControllerState4").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::ControllerState4::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(cs)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, cs);
     }

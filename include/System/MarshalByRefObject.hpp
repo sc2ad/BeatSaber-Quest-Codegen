@@ -61,7 +61,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MarshalByRefObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("MarshalByRefObject").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::MarshalByRefObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MarshalByRefObject*, creationType>()));
     }
   }; // System.MarshalByRefObject

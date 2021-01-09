@@ -74,7 +74,7 @@ namespace System {
     // Offset: 0xCA00FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RuntimeTypeHandle(System::RuntimeType* type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("RuntimeTypeHandle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::RuntimeTypeHandle::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(type)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, type);
     }
@@ -82,7 +82,7 @@ namespace System {
     // Offset: 0xCA0118
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RuntimeTypeHandle(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("RuntimeTypeHandle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::RuntimeTypeHandle::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(info, context)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, info, context);
     }

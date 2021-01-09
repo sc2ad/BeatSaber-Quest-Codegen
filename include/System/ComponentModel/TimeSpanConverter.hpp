@@ -26,7 +26,7 @@ namespace System::ComponentModel {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeSpanConverter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("TimeSpanConverter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::TimeSpanConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeSpanConverter*, creationType>()));
     }
   }; // System.ComponentModel.TimeSpanConverter

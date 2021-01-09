@@ -69,7 +69,7 @@ namespace System {
     // Offset: 0xCA6B20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ParamsArray(::Il2CppObject* arg0) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ParamsArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ParamsArray::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(arg0)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, arg0);
     }
@@ -77,7 +77,7 @@ namespace System {
     // Offset: 0xCA6B28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ParamsArray(::Il2CppObject* arg0, ::Il2CppObject* arg1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ParamsArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ParamsArray::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(arg0, arg1)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, arg0, arg1);
     }
@@ -85,7 +85,7 @@ namespace System {
     // Offset: 0xCA6B30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ParamsArray(::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ParamsArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ParamsArray::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(arg0, arg1, arg2)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, arg0, arg1, arg2);
     }
@@ -93,7 +93,7 @@ namespace System {
     // Offset: 0xCA6B38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ParamsArray(::Array<::Il2CppObject*>* args) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ParamsArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ParamsArray::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(args)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, args);
     }

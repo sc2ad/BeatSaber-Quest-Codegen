@@ -43,35 +43,35 @@ namespace System::Threading {
     // public T get_PreviousValue()
     // Offset: 0xFFFFFFFF
     T get_PreviousValue() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("AsyncLocalValueChangedArgs_1").WithContext("get_PreviousValue");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocalValueChangedArgs_1::get_PreviousValue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "get_PreviousValue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method);
     }
     // private System.Void set_PreviousValue(T value)
     // Offset: 0xFFFFFFFF
     void set_PreviousValue(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("AsyncLocalValueChangedArgs_1").WithContext("set_PreviousValue");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocalValueChangedArgs_1::set_PreviousValue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "set_PreviousValue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // public T get_CurrentValue()
     // Offset: 0xFFFFFFFF
     T get_CurrentValue() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("AsyncLocalValueChangedArgs_1").WithContext("get_CurrentValue");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocalValueChangedArgs_1::get_CurrentValue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "get_CurrentValue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method);
     }
     // private System.Void set_CurrentValue(T value)
     // Offset: 0xFFFFFFFF
     void set_CurrentValue(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("AsyncLocalValueChangedArgs_1").WithContext("set_CurrentValue");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocalValueChangedArgs_1::set_CurrentValue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "set_CurrentValue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private System.Void set_ThreadContextChanged(System.Boolean value)
     // Offset: 0xFFFFFFFF
     void set_ThreadContextChanged(bool value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("AsyncLocalValueChangedArgs_1").WithContext("set_ThreadContextChanged");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocalValueChangedArgs_1::set_ThreadContextChanged");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "set_ThreadContextChanged", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }

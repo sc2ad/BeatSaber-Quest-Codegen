@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneCameraBloomPrePass* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SceneCameraBloomPrePass").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SceneCameraBloomPrePass::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneCameraBloomPrePass*, creationType>()));
     }
   }; // SceneCameraBloomPrePass

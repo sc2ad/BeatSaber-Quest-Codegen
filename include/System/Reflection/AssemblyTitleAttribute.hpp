@@ -35,7 +35,7 @@ namespace System::Reflection {
     // Offset: 0x1721918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyTitleAttribute* New_ctor(::Il2CppString* title) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("AssemblyTitleAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyTitleAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyTitleAttribute*, creationType>(title)));
     }
   }; // System.Reflection.AssemblyTitleAttribute

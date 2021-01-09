@@ -32,27 +32,27 @@ namespace System {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventHandler_1<TEventArgs>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("EventHandler_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::EventHandler_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventHandler_1<TEventArgs>*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, TEventArgs e)
     // Offset: 0xFFFFFFFF
     void Invoke(::Il2CppObject* sender, TEventArgs e) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("EventHandler_1").WithContext("Invoke");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::EventHandler_1::Invoke");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(sender, e)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, sender, e);
     }
     // public System.IAsyncResult BeginInvoke(System.Object sender, TEventArgs e, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, TEventArgs e, System::AsyncCallback* callback, ::Il2CppObject* object) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("EventHandler_1").WithContext("BeginInvoke");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::EventHandler_1::BeginInvoke");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(sender, e, callback, object)));
       return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, sender, e, callback, object);
     }
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
     void EndInvoke(System::IAsyncResult* result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("EventHandler_1").WithContext("EndInvoke");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::EventHandler_1::EndInvoke");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
     }

@@ -204,7 +204,7 @@ namespace Tweening {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tween* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Tweening").WithContext("Tween").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tween*, creationType>()));
     }
   }; // Tweening.Tween

@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X962NamedCurves::C2pnb208w1Holder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X9").WithContext("C2pnb208w1Holder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X962NamedCurves::C2pnb208w1Holder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X962NamedCurves::C2pnb208w1Holder*, creationType>()));
     }
     // protected override Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()

@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$WaitForTask$d__1_1").WithContext("MoveNext");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::MoveNext");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
     }
@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$WaitForTask$d__1_1").WithContext("SetStateMachine");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::SetStateMachine");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(stateMachine)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, stateMachine);
     }

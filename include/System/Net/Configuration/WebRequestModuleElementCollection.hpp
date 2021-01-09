@@ -27,7 +27,7 @@ namespace System::Net::Configuration {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebRequestModuleElementCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Configuration").WithContext("WebRequestModuleElementCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Configuration::WebRequestModuleElementCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebRequestModuleElementCollection*, creationType>()));
     }
   }; // System.Net.Configuration.WebRequestModuleElementCollection

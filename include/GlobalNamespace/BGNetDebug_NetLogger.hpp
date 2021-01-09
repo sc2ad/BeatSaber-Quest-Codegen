@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BGNetDebug::NetLogger* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NetLogger").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BGNetDebug::NetLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BGNetDebug::NetLogger*, creationType>()));
     }
   }; // BGNetDebug/NetLogger

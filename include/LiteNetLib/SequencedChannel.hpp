@@ -84,7 +84,7 @@ namespace LiteNetLib {
     // Offset: 0x1DCDED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SequencedChannel* New_ctor(LiteNetLib::NetPeer* peer, bool reliable, uint8_t id) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib").WithContext("SequencedChannel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::SequencedChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SequencedChannel*, creationType>(peer, reliable, id)));
     }
     // public override System.Void SendNextPackets()

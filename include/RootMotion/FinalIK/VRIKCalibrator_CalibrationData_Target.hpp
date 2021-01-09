@@ -54,7 +54,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x15EE140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIKCalibrator::CalibrationData::Target* New_ctor(UnityEngine::Transform* t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("Target").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRIKCalibrator::CalibrationData::Target*, creationType>(t)));
     }
     // public System.Void SetTo(UnityEngine.Transform t)

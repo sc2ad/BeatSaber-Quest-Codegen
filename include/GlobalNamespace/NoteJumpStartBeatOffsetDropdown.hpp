@@ -106,7 +106,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteJumpStartBeatOffsetDropdown* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NoteJumpStartBeatOffsetDropdown").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteJumpStartBeatOffsetDropdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteJumpStartBeatOffsetDropdown*, creationType>()));
     }
   }; // NoteJumpStartBeatOffsetDropdown

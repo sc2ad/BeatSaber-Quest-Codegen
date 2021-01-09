@@ -36,7 +36,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkInformationException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("NetworkInformationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::NetworkInformationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInformationException*, creationType>()));
     }
     // public System.Void .ctor(System.Int32 errorCode)
@@ -45,7 +45,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Void Win32Exception::.ctor(System.Int32 errorCode)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkInformationException* New_ctor(int errorCode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("NetworkInformationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::NetworkInformationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInformationException*, creationType>(errorCode)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
@@ -57,7 +57,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkInformationException* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::NetworkInformation").WithContext("NetworkInformationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::NetworkInformationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInformationException*, creationType>(serializationInfo, streamingContext)));
     }
   }; // System.Net.NetworkInformation.NetworkInformationException

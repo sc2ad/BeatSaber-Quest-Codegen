@@ -100,7 +100,7 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseInputStream* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Utilities::IO").WithContext("BaseInputStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::IO::BaseInputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseInputStream*, creationType>()));
     }
   }; // Org.BouncyCastle.Utilities.IO.BaseInputStream

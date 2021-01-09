@@ -59,7 +59,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1166388
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnmanagedFunctionPointerAttribute* New_ctor(System::Runtime::InteropServices::CallingConvention callingConvention) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("UnmanagedFunctionPointerAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnmanagedFunctionPointerAttribute*, creationType>(callingConvention)));
     }
   }; // System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute

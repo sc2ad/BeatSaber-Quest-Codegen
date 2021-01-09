@@ -44,7 +44,7 @@ namespace Org::BouncyCastle::Math::Field {
     // Offset: 0x17920D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrimeField* New_ctor(Org::BouncyCastle::Math::BigInteger* characteristic) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::Field").WithContext("PrimeField").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::Field::PrimeField::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrimeField*, creationType>(characteristic)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_Characteristic()

@@ -66,7 +66,7 @@ namespace Zenject {
     // Offset: 0x134F05C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceProvider* New_ctor(::Il2CppString* resourcePath, System::Type* resourceType, bool matchSingle) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ResourceProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ResourceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceProvider*, creationType>(resourcePath, resourceType, matchSingle)));
     }
     // public System.Boolean get_IsCached()

@@ -132,7 +132,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FirstPersonFlyingController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("FirstPersonFlyingController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FirstPersonFlyingController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FirstPersonFlyingController*, creationType>()));
     }
   }; // FirstPersonFlyingController

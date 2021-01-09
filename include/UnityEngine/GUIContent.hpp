@@ -80,21 +80,21 @@ namespace UnityEngine {
     // Offset: 0x16038D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUIContent* New_ctor(::Il2CppString* text) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("GUIContent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUIContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIContent*, creationType>(text)));
     }
     // public System.Void .ctor(System.String text, UnityEngine.Texture image, System.String tooltip)
     // Offset: 0x1603940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUIContent* New_ctor(::Il2CppString* text, UnityEngine::Texture* image, ::Il2CppString* tooltip) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("GUIContent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUIContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIContent*, creationType>(text, image, tooltip)));
     }
     // public System.Void .ctor(UnityEngine.GUIContent src)
     // Offset: 0x1603A14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUIContent* New_ctor(UnityEngine::GUIContent* src) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("GUIContent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUIContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIContent*, creationType>(src)));
     }
     // static UnityEngine.GUIContent Temp(System.String t)
@@ -115,7 +115,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUIContent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("GUIContent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUIContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIContent*, creationType>()));
     }
   }; // UnityEngine.GUIContent

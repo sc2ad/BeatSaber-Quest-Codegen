@@ -37,14 +37,14 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Offset: 0x1056F90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsFatalAlert* New_ctor(uint8_t alertDescription) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Tls").WithContext("TlsFatalAlert").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TlsFatalAlert*, creationType>(alertDescription)));
     }
     // public System.Void .ctor(System.Byte alertDescription, System.Exception alertCause)
     // Offset: 0x1057130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsFatalAlert* New_ctor(uint8_t alertDescription, System::Exception* alertCause) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Tls").WithContext("TlsFatalAlert").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TlsFatalAlert*, creationType>(alertDescription, alertCause)));
     }
   }; // Org.BouncyCastle.Crypto.Tls.TlsFatalAlert

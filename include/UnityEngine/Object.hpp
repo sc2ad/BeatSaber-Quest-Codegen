@@ -105,7 +105,7 @@ namespace UnityEngine {
     template<class T>
     static T Instantiate(T original) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Object").WithContext("Instantiate");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::Instantiate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "Object", "Instantiate", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(original)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, original);
@@ -115,7 +115,7 @@ namespace UnityEngine {
     template<class T>
     static T Instantiate(T original, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Object").WithContext("Instantiate");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::Instantiate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "Object", "Instantiate", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(original, position, rotation)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, original, position, rotation);
@@ -125,7 +125,7 @@ namespace UnityEngine {
     template<class T>
     static T Instantiate(T original, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parent) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Object").WithContext("Instantiate");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::Instantiate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "Object", "Instantiate", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(original, position, rotation, parent)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, original, position, rotation, parent);
@@ -135,7 +135,7 @@ namespace UnityEngine {
     template<class T>
     static T Instantiate(T original, UnityEngine::Transform* parent) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Object").WithContext("Instantiate");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::Instantiate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "Object", "Instantiate", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(original, parent)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, original, parent);
@@ -145,7 +145,7 @@ namespace UnityEngine {
     template<class T>
     static T Instantiate(T original, UnityEngine::Transform* parent, bool worldPositionStays) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Object").WithContext("Instantiate");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::Instantiate");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "Object", "Instantiate", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(original, parent, worldPositionStays)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, original, parent, worldPositionStays);
@@ -179,7 +179,7 @@ namespace UnityEngine {
     template<class T>
     static ::Array<T>* FindObjectsOfType() {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Object").WithContext("FindObjectsOfType");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::FindObjectsOfType");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "Object", "FindObjectsOfType", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
@@ -189,7 +189,7 @@ namespace UnityEngine {
     template<class T>
     static T FindObjectOfType() {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Object").WithContext("FindObjectOfType");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::FindObjectOfType");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine", "Object", "FindObjectOfType", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
@@ -257,7 +257,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Object* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Object").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Object*, creationType>()));
     }
   }; // UnityEngine.Object

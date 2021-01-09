@@ -110,7 +110,7 @@ namespace UnityEngine::Events {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityEventBase* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("UnityEventBase").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityEventBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityEventBase*, creationType>()));
     }
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()

@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PatternFightNoTransitionInstaller* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("PatternFightNoTransitionInstaller").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PatternFightNoTransitionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightNoTransitionInstaller*, creationType>()));
     }
   }; // PatternFightNoTransitionInstaller

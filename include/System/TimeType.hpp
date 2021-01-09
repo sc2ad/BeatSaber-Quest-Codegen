@@ -41,7 +41,7 @@ namespace System {
     // Offset: 0x164B8D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeType* New_ctor(int offset, bool is_dst, ::Il2CppString* abbrev) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TimeType").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeType*, creationType>(offset, is_dst, abbrev)));
     }
     // public override System.String ToString()

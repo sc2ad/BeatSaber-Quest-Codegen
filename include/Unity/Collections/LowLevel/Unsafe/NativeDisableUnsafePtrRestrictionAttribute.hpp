@@ -28,7 +28,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeDisableUnsafePtrRestrictionAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Unity::Collections::LowLevel::Unsafe").WithContext("NativeDisableUnsafePtrRestrictionAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeDisableUnsafePtrRestrictionAttribute*, creationType>()));
     }
   }; // Unity.Collections.LowLevel.Unsafe.NativeDisableUnsafePtrRestrictionAttribute

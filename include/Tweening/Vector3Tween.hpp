@@ -37,14 +37,14 @@ namespace Tweening {
     // Offset: 0xFF5294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Vector3Tween* New_ctor(UnityEngine::Vector3 fromValue, UnityEngine::Vector3 toValue, System::Action_1<UnityEngine::Vector3>* onUpdate, float duration, Tweening::EaseType easeType, float delay) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Tweening").WithContext("Vector3Tween").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Vector3Tween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Vector3Tween*, creationType>(fromValue, toValue, onUpdate, duration, easeType, delay)));
     }
     // public System.Void .ctor(UnityEngine.Vector3 fromValue, UnityEngine.Vector3 toValue, System.Action`1<UnityEngine.Vector3> onUpdate, System.Single duration, UnityEngine.AnimationCurve animationCurve, System.Single delay)
     // Offset: 0xFF535C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Vector3Tween* New_ctor(UnityEngine::Vector3 fromValue, UnityEngine::Vector3 toValue, System::Action_1<UnityEngine::Vector3>* onUpdate, float duration, UnityEngine::AnimationCurve* animationCurve, float delay) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Tweening").WithContext("Vector3Tween").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Vector3Tween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Vector3Tween*, creationType>(fromValue, toValue, onUpdate, duration, animationCurve, delay)));
     }
     // public UnityEngine.Vector3 GetValue(System.Single t)

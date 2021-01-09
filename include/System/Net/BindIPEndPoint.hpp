@@ -39,7 +39,7 @@ namespace System::Net {
     // Offset: 0x130B21C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BindIPEndPoint* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("BindIPEndPoint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::BindIPEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BindIPEndPoint*, creationType>(object, method)));
     }
     // public System.Net.IPEndPoint Invoke(System.Net.ServicePoint servicePoint, System.Net.IPEndPoint remoteEndPoint, System.Int32 retryCount)

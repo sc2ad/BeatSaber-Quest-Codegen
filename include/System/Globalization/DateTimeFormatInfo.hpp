@@ -624,7 +624,7 @@ namespace System::Globalization {
     // Offset: 0x1618110
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DateTimeFormatInfo* New_ctor(System::Globalization::CultureData* cultureData, System::Globalization::Calendar* cal) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("DateTimeFormatInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::DateTimeFormatInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeFormatInfo*, creationType>(cultureData, cal)));
     }
     // private System.Void InitializeOverridableProperties(System.Globalization.CultureData cultureData, System.Int32 calendarID)
@@ -882,7 +882,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DateTimeFormatInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("DateTimeFormatInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::DateTimeFormatInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeFormatInfo*, creationType>()));
     }
     // public System.Object GetFormat(System.Type formatType)

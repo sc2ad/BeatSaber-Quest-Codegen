@@ -37,7 +37,7 @@ namespace Zenject {
     // Offset: 0x10F3568
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultGameObjectParentInstaller* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DefaultGameObjectParentInstaller").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DefaultGameObjectParentInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultGameObjectParentInstaller*, creationType>(name)));
     }
     // public override System.Void InstallBindings()

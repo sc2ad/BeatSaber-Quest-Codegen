@@ -87,14 +87,14 @@ namespace TMPro {
     // Offset: 0xF4E108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningPair* New_ctor(uint left, uint right, float offset) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("KerningPair").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>(left, right, offset)));
     }
     // public System.Void .ctor(System.UInt32 firstGlyph, TMPro.GlyphValueRecord_Legacy firstGlyphAdjustments, System.UInt32 secondGlyph, TMPro.GlyphValueRecord_Legacy secondGlyphAdjustments)
     // Offset: 0xF4E154
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningPair* New_ctor(uint firstGlyph, TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint secondGlyph, TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("KerningPair").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>(firstGlyph, firstGlyphAdjustments, secondGlyph, secondGlyphAdjustments)));
     }
     // System.Void ConvertLegacyKerningData()
@@ -109,7 +109,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningPair* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("KerningPair").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>()));
     }
   }; // TMPro.KerningPair

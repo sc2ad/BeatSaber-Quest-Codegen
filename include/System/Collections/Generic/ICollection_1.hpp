@@ -30,49 +30,49 @@ namespace System::Collections::Generic {
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
     int System_Collections_Generic_ICollection_1_get_Count() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ICollection_1").WithContext("get_Count");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ICollection_1::get_Count");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // public System.Boolean get_IsReadOnly()
     // Offset: 0xFFFFFFFF
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ICollection_1").WithContext("get_IsReadOnly");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ICollection_1::get_IsReadOnly");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_IsReadOnly", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
     // public System.Void Add(T item)
     // Offset: 0xFFFFFFFF
     void System_Collections_Generic_ICollection_1_Add(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ICollection_1").WithContext("Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ICollection_1::Add");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void System_Collections_Generic_ICollection_1_Clear() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ICollection_1").WithContext("Clear");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ICollection_1::Clear");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Boolean Contains(T item)
     // Offset: 0xFFFFFFFF
     bool System_Collections_Generic_ICollection_1_Contains(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ICollection_1").WithContext("Contains");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ICollection_1::Contains");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Contains", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
     }
     // public System.Void CopyTo(T[] array, System.Int32 arrayIndex)
     // Offset: 0xFFFFFFFF
     void System_Collections_Generic_ICollection_1_CopyTo(::Array<T>* array, int arrayIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ICollection_1").WithContext("CopyTo");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ICollection_1::CopyTo");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(array, arrayIndex)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, array, arrayIndex);
     }
     // public System.Boolean Remove(T item)
     // Offset: 0xFFFFFFFF
     bool System_Collections_Generic_ICollection_1_Remove(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ICollection_1").WithContext("Remove");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ICollection_1::Remove");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
     }

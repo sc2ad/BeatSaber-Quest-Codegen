@@ -89,7 +89,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceLoggingMetadataCollector::Impl* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("Impl").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::TraceLoggingMetadataCollector::Impl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceLoggingMetadataCollector::Impl*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.TraceLoggingMetadataCollector/Impl

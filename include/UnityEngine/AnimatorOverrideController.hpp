@@ -52,7 +52,7 @@ namespace UnityEngine {
     // Offset: 0x19CB334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorOverrideController* New_ctor(UnityEngine::RuntimeAnimatorController* controller) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("AnimatorOverrideController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AnimatorOverrideController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorOverrideController*, creationType>(controller)));
     }
     // static private System.Void Internal_Create(UnityEngine.AnimatorOverrideController self, UnityEngine.RuntimeAnimatorController controller)

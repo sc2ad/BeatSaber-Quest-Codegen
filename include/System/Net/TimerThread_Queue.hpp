@@ -33,7 +33,7 @@ namespace System::Net {
     // Offset: 0x1216A20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimerThread::Queue* New_ctor(int durationMilliseconds) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("Queue").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::TimerThread::Queue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimerThread::Queue*, creationType>(durationMilliseconds)));
     }
   }; // System.Net.TimerThread/Queue

@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1871F1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_MoveGamepadFocusToNeighbor* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_MoveGamepadFocusToNeighbor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_MoveGamepadFocusToNeighbor*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVROverlayError Invoke(OVR.OpenVR.EOverlayDirection eDirection, System.UInt64 ulFrom)

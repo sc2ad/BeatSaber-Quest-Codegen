@@ -56,7 +56,7 @@ namespace Libraries::HM::HMLib::VR {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HapticPresetSO* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Libraries::HM::HMLib::VR").WithContext("HapticPresetSO").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Libraries::HM::HMLib::VR::HapticPresetSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HapticPresetSO*, creationType>()));
     }
   }; // Libraries.HM.HMLib.VR.HapticPresetSO

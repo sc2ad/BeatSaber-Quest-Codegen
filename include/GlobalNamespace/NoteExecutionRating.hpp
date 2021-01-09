@@ -125,7 +125,7 @@ namespace GlobalNamespace {
     // Offset: 0xFE66AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteExecutionRating* New_ctor(float time, GlobalNamespace::NoteExecutionRating::Rating rating, int cutScore, float cutTimeDeviation, float cutDirDeviation) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NoteExecutionRating").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteExecutionRating::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteExecutionRating*, creationType>(time, rating, cutScore, cutTimeDeviation, cutDirDeviation)));
     }
   }; // NoteExecutionRating

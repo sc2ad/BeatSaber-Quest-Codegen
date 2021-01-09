@@ -30,7 +30,7 @@ namespace UnityEngine::UI::CoroutineTween {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorTween::ColorTweenCallback* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI::CoroutineTween").WithContext("ColorTweenCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorTween::ColorTweenCallback*, creationType>()));
     }
   }; // UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenCallback

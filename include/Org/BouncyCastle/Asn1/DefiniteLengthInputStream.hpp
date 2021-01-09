@@ -45,7 +45,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x137146C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefiniteLengthInputStream* New_ctor(System::IO::Stream* inStream, int length, int limit) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DefiniteLengthInputStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DefiniteLengthInputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefiniteLengthInputStream*, creationType>(inStream, length, limit)));
     }
     // System.Int32 get_Remaining()

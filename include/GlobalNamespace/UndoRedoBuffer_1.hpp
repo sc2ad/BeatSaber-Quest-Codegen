@@ -47,34 +47,34 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UndoRedoBuffer_1<T>* New_ctor(int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("UndoRedoBuffer_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UndoRedoBuffer_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UndoRedoBuffer_1<T>*, creationType>(capacity)));
     }
     // public System.Void Add(T item)
     // Offset: 0xFFFFFFFF
     void Add(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("UndoRedoBuffer_1").WithContext("Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UndoRedoBuffer_1::Add");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // public T Undo()
     // Offset: 0xFFFFFFFF
     T Undo() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("UndoRedoBuffer_1").WithContext("Undo");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UndoRedoBuffer_1::Undo");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Undo", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public T Redo()
     // Offset: 0xFFFFFFFF
     T Redo() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("UndoRedoBuffer_1").WithContext("Redo");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UndoRedoBuffer_1::Redo");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Redo", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("UndoRedoBuffer_1").WithContext("Clear");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UndoRedoBuffer_1::Clear");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }

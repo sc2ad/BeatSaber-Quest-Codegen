@@ -116,7 +116,7 @@ namespace System::Threading {
     // Offset: 0x1D0A474
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SemaphoreSlim* New_ctor(int initialCount, int maxCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SemaphoreSlim").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SemaphoreSlim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SemaphoreSlim*, creationType>(initialCount, maxCount)));
     }
     // public System.Void Wait()

@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DE350
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PingResult* New_ctor(uint64_t id, System::Nullable_1<uint64_t> pingTimeUsec) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("PingResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::PingResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PingResult*, creationType>(id, pingTimeUsec)));
     }
     // public System.UInt64 get_ID()

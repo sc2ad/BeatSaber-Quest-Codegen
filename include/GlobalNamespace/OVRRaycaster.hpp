@@ -159,7 +159,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRRaycaster* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OVRRaycaster").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRRaycaster::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRRaycaster*, creationType>()));
     }
     // private UnityEngine.Canvas get_canvas()

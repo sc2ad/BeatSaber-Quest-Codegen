@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VmpcKsa3Engine* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Engines").WithContext("VmpcKsa3Engine").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VmpcKsa3Engine*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Engines.VmpcKsa3Engine

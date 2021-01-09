@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x192E64C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetTrackedDeviceActivityLevel* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetTrackedDeviceActivityLevel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetTrackedDeviceActivityLevel*, creationType>(object, method)));
     }
     // public Valve.VR.EDeviceActivityLevel Invoke(System.UInt32 unDeviceId)

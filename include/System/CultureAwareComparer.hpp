@@ -55,7 +55,7 @@ namespace System {
     // Offset: 0x153CB3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CultureAwareComparer* New_ctor(System::Globalization::CultureInfo* culture, bool ignoreCase) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("CultureAwareComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::CultureAwareComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureAwareComparer*, creationType>(culture, ignoreCase)));
     }
     // public override System.Int32 Compare(System.String x, System.String y)

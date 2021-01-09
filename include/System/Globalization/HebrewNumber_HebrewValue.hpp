@@ -37,7 +37,7 @@ namespace System::Globalization {
     // Offset: 0x162FCC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HebrewNumber::HebrewValue* New_ctor(System::Globalization::HebrewNumber::HebrewToken token, int value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("HebrewValue").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::HebrewNumber::HebrewValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HebrewNumber::HebrewValue*, creationType>(token, value)));
     }
   }; // System.Globalization.HebrewNumber/HebrewValue

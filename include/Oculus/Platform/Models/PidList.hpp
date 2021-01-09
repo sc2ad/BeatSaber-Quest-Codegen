@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DE018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PidList* New_ctor(System::IntPtr a) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("PidList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::PidList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PidList*, creationType>(a)));
     }
   }; // Oculus.Platform.Models.PidList

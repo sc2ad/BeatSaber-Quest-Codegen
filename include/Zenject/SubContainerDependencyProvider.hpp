@@ -76,7 +76,7 @@ namespace Zenject {
     // Offset: 0x1355750
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerDependencyProvider* New_ctor(System::Type* dependencyType, ::Il2CppObject* identifier, Zenject::ISubContainerCreator* subContainerCreator, bool resolveAll) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SubContainerDependencyProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerDependencyProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerDependencyProvider*, creationType>(dependencyType, identifier, subContainerCreator, resolveAll)));
     }
     // private Zenject.InjectContext CreateSubContext(Zenject.InjectContext parent, Zenject.DiContainer subContainer)

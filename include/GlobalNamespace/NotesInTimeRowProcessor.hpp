@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Offset: 0x19F6664
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NotesInTimeRowProcessor* New_ctor(int numberOfLines) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NotesInTimeRowProcessor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NotesInTimeRowProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NotesInTimeRowProcessor*, creationType>(numberOfLines)));
     }
     // public System.Void ProcessNote(NoteData noteData)

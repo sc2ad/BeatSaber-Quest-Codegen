@@ -32,27 +32,27 @@ namespace System {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Predicate_1<T>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Predicate_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Predicate_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Predicate_1<T>*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(T obj)
     // Offset: 0xFFFFFFFF
     bool Invoke(T obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Predicate_1").WithContext("Invoke");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Predicate_1::Invoke");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(obj)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, obj);
     }
     // public System.IAsyncResult BeginInvoke(T obj, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(T obj, System::AsyncCallback* callback, ::Il2CppObject* object) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Predicate_1").WithContext("BeginInvoke");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Predicate_1::BeginInvoke");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(obj, callback, object)));
       return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, obj, callback, object);
     }
     // public System.Boolean EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
     bool EndInvoke(System::IAsyncResult* result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Predicate_1").WithContext("EndInvoke");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Predicate_1::EndInvoke");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, result);
     }

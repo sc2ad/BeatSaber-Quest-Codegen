@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A0E07C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentSceneSetupData* New_ctor(bool hideBranding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("EnvironmentSceneSetupData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentSceneSetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentSceneSetupData*, creationType>(hideBranding)));
     }
   }; // EnvironmentSceneSetupData

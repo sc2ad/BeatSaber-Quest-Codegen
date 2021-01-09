@@ -55,7 +55,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKMapping* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("IKMapping").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKMapping::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKMapping*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKMapping

@@ -94,7 +94,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate2Impl* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509Certificate2Impl").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate2Impl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2Impl*, creationType>()));
     }
   }; // System.Security.Cryptography.X509Certificates.X509Certificate2Impl

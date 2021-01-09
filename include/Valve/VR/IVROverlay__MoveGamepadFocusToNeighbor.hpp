@@ -42,7 +42,7 @@ namespace Valve::VR {
     // Offset: 0x18F7C4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_MoveGamepadFocusToNeighbor* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_MoveGamepadFocusToNeighbor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_MoveGamepadFocusToNeighbor*, creationType>(object, method)));
     }
     // public Valve.VR.EVROverlayError Invoke(Valve.VR.EOverlayDirection eDirection, System.UInt64 ulFrom)

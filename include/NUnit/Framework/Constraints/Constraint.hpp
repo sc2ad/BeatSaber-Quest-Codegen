@@ -70,7 +70,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13DC118
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Constraint* New_ctor(::Array<::Il2CppObject*>* args) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Constraints").WithContext("Constraint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Constraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Constraint*, creationType>(args)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(params System.Object[] args)

@@ -46,14 +46,14 @@ namespace UnityEngine {
     // Offset: 0x1738E94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RectOffset* New_ctor(::Il2CppObject* sourceStyle, System::IntPtr source) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RectOffset").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RectOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectOffset*, creationType>(sourceStyle, source)));
     }
     // public System.Void .ctor(System.Int32 left, System.Int32 right, System.Int32 top, System.Int32 bottom)
     // Offset: 0x1738FDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RectOffset* New_ctor(int left, int right, int top, int bottom) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RectOffset").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RectOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectOffset*, creationType>(left, right, top, bottom)));
     }
     // private System.Void Destroy()
@@ -107,7 +107,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RectOffset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("RectOffset").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RectOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectOffset*, creationType>()));
     }
     // protected override System.Void Finalize()

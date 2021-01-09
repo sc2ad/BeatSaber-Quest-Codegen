@@ -41,7 +41,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x116654C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActivatedServiceTypeEntry* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting").WithContext("ActivatedServiceTypeEntry").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ActivatedServiceTypeEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActivatedServiceTypeEntry*, creationType>(typeName, assemblyName)));
     }
     // public System.Type get_ObjectType()

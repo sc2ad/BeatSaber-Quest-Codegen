@@ -51,7 +51,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tables8kGcmMultiplier* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Modes::Gcm").WithContext("Tables8kGcmMultiplier").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tables8kGcmMultiplier*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.Tables8kGcmMultiplier

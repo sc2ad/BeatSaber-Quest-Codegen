@@ -240,7 +240,7 @@ namespace System {
     // Offset: 0x19D7B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriParser* New_ctor(System::UriSyntaxFlags flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("UriParser").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::UriParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriParser*, creationType>(flags)));
     }
     // static System.UriParser FindOrFetchAsUnknownV1Syntax(System.String lwrCaseScheme)

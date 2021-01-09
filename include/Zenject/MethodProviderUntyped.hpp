@@ -65,7 +65,7 @@ namespace Zenject {
     // Offset: 0x13482E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodProviderUntyped* New_ctor(System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>* method, Zenject::DiContainer* container) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MethodProviderUntyped").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MethodProviderUntyped::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodProviderUntyped*, creationType>(method, container)));
     }
     // public System.Boolean get_IsCached()

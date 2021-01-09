@@ -50,14 +50,14 @@ namespace Mono::Net::Security {
     // Offset: 0x12654D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncProtocolResult* New_ctor(int result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Net::Security").WithContext("AsyncProtocolResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::AsyncProtocolResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncProtocolResult*, creationType>(result)));
     }
     // public System.Void .ctor(System.Runtime.ExceptionServices.ExceptionDispatchInfo error)
     // Offset: 0x1265678
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncProtocolResult* New_ctor(System::Runtime::ExceptionServices::ExceptionDispatchInfo* error) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Net::Security").WithContext("AsyncProtocolResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::AsyncProtocolResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncProtocolResult*, creationType>(error)));
     }
   }; // Mono.Net.Security.AsyncProtocolResult

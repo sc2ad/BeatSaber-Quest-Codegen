@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x19317A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRTrackedCamera::_AcquireVideoStreamingService* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_AcquireVideoStreamingService").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRTrackedCamera::_AcquireVideoStreamingService::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRTrackedCamera::_AcquireVideoStreamingService*, creationType>(object, method)));
     }
     // public Valve.VR.EVRTrackedCameraError Invoke(System.UInt32 nDeviceIndex, ref System.UInt64 pHandle)

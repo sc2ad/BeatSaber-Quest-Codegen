@@ -27,7 +27,7 @@ namespace ModestTree::Util {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreserveAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("PreserveAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::PreserveAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PreserveAttribute*, creationType>()));
     }
   }; // ModestTree.Util.PreserveAttribute

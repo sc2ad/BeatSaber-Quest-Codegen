@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuRpcManager::CancelStartGameTimeRpc* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("CancelStartGameTimeRpc").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MenuRpcManager::CancelStartGameTimeRpc::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuRpcManager::CancelStartGameTimeRpc*, creationType>()));
     }
   }; // MenuRpcManager/CancelStartGameTimeRpc

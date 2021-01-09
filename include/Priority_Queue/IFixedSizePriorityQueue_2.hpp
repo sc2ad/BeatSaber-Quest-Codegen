@@ -33,21 +33,21 @@ namespace Priority_Queue {
     // public System.Void Resize(System.Int32 maxNodes)
     // Offset: 0xFFFFFFFF
     void Resize(int maxNodes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("IFixedSizePriorityQueue_2").WithContext("Resize");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IFixedSizePriorityQueue_2::Resize");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Resize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(maxNodes)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, maxNodes);
     }
     // public System.Int32 get_MaxSize()
     // Offset: 0xFFFFFFFF
     int get_MaxSize() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("IFixedSizePriorityQueue_2").WithContext("get_MaxSize");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IFixedSizePriorityQueue_2::get_MaxSize");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_MaxSize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // public System.Void ResetNode(TItem node)
     // Offset: 0xFFFFFFFF
     void ResetNode(TItem node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("IFixedSizePriorityQueue_2").WithContext("ResetNode");
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IFixedSizePriorityQueue_2::ResetNode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ResetNode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node);
     }

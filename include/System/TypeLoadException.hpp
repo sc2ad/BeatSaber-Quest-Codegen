@@ -58,14 +58,14 @@ namespace System {
     // Offset: 0x165A208
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeLoadException* New_ctor(::Il2CppString* className, ::Il2CppString* assemblyName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TypeLoadException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TypeLoadException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeLoadException*, creationType>(className, assemblyName)));
     }
     // private System.Void .ctor(System.String className, System.String assemblyName, System.String messageArg, System.Int32 resourceId)
     // Offset: 0x165A214
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeLoadException* New_ctor(::Il2CppString* className, ::Il2CppString* assemblyName, ::Il2CppString* messageArg, int resourceId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TypeLoadException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TypeLoadException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeLoadException*, creationType>(className, assemblyName, messageArg, resourceId)));
     }
     // public System.Void .ctor()
@@ -76,7 +76,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeLoadException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TypeLoadException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TypeLoadException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeLoadException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -86,7 +86,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeLoadException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TypeLoadException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TypeLoadException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeLoadException*, creationType>(message)));
     }
     // public override System.String get_Message()
@@ -101,7 +101,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeLoadException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TypeLoadException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TypeLoadException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeLoadException*, creationType>(info, context)));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

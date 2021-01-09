@@ -35,7 +35,7 @@ namespace Mono::Unity {
     // Offset: 0x1272D80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTls::unitytls_tlsctx_certificate_callback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Unity").WithContext("unitytls_tlsctx_certificate_callback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTls::unitytls_tlsctx_certificate_callback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Void* userData, Mono.Unity.UnityTls/unitytls_tlsctx* ctx, System.Byte* cn, System.IntPtr cnLen, Mono.Unity.UnityTls/unitytls_x509name* caList, System.IntPtr caListLen, Mono.Unity.UnityTls/unitytls_x509list_ref* chain, Mono.Unity.UnityTls/unitytls_key_ref* key, Mono.Unity.UnityTls/unitytls_errorstate* errorState)

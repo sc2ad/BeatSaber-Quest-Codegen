@@ -39,7 +39,7 @@ namespace HMUI {
     // Offset: 0x10A7A70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatedSwitchView::GetColorDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("GetColorDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::AnimatedSwitchView::GetColorDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatedSwitchView::GetColorDelegate*, creationType>(object, method)));
     }
     // public UnityEngine.Color Invoke(HMUI.AnimatedSwitchView/ColorBlock colorBlock)

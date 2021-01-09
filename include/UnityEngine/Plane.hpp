@@ -61,7 +61,7 @@ namespace UnityEngine {
     // Offset: 0xCA6E38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Plane(UnityEngine::Vector3 inNormal, UnityEngine::Vector3 inPoint) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Plane").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Plane::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(inNormal, inPoint)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, inNormal, inPoint);
     }
@@ -69,7 +69,7 @@ namespace UnityEngine {
     // Offset: 0xCA6E40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Plane(UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3 c) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Plane").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Plane::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(a, b, c)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, a, b, c);
     }

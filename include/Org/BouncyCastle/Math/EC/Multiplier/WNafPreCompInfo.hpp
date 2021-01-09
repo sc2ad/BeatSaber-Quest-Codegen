@@ -114,7 +114,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WNafPreCompInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Multiplier").WithContext("WNafPreCompInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WNafPreCompInfo*, creationType>()));
     }
   }; // Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo

@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A2B310
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectSpawnController::InitData* New_ctor(float beatsPerMinute, int noteLinesCount, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, float jumpOffsetY) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InitData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectSpawnController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectSpawnController::InitData*, creationType>(beatsPerMinute, noteLinesCount, noteJumpMovementSpeed, noteJumpStartBeatOffset, jumpOffsetY)));
     }
   }; // BeatmapObjectSpawnController/InitData

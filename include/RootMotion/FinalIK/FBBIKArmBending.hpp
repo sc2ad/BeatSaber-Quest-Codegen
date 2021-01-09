@@ -95,7 +95,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBBIKArmBending* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("FBBIKArmBending").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::FBBIKArmBending::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBBIKArmBending*, creationType>()));
     }
   }; // RootMotion.FinalIK.FBBIKArmBending

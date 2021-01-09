@@ -48,7 +48,7 @@ namespace System::Xml {
     // Offset: 0x14DF3F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CharEntityEncoderFallbackBuffer* New_ctor(System::Xml::CharEntityEncoderFallback* parent) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("CharEntityEncoderFallbackBuffer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::CharEntityEncoderFallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CharEntityEncoderFallbackBuffer*, creationType>(parent)));
     }
     // private System.Int32 SurrogateCharToUtf32(System.Char highSurrogate, System.Char lowSurrogate)

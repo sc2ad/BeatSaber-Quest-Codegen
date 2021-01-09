@@ -35,7 +35,7 @@ namespace System::Reflection {
     // Offset: 0x172194C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyTrademarkAttribute* New_ctor(::Il2CppString* trademark) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("AssemblyTrademarkAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyTrademarkAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyTrademarkAttribute*, creationType>(trademark)));
     }
   }; // System.Reflection.AssemblyTrademarkAttribute

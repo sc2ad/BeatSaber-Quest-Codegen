@@ -57,7 +57,7 @@ namespace UnityEngine::UI {
     // Offset: 0x1561978
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LayoutGroup::$DelayedSetDirty$d__56* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("$DelayedSetDirty$d__56").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LayoutGroup::$DelayedSetDirty$d__56*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

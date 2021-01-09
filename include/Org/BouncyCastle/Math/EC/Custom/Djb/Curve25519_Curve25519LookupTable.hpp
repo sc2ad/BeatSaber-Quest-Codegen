@@ -50,7 +50,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
     // Offset: 0x176EBB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Curve25519::Curve25519LookupTable* New_ctor(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519* outer, ::Array<uint>* table, int size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Custom::Djb").WithContext("Curve25519LookupTable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Curve25519::Curve25519LookupTable*, creationType>(outer, table, size)));
     }
     // private Org.BouncyCastle.Math.EC.ECPoint CreatePoint(System.UInt32[] x, System.UInt32[] y)

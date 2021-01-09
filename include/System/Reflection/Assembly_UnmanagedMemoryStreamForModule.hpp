@@ -38,7 +38,7 @@ namespace System::Reflection {
     // Offset: 0x171F190
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Assembly::UnmanagedMemoryStreamForModule* New_ctor(uint8_t* pointer, int64_t length, System::Reflection::Module* module) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("UnmanagedMemoryStreamForModule").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::Assembly::UnmanagedMemoryStreamForModule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Assembly::UnmanagedMemoryStreamForModule*, creationType>(pointer, length, module)));
     }
     // protected override System.Void Dispose(System.Boolean disposing)

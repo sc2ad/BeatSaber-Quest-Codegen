@@ -67,7 +67,7 @@ namespace System::Runtime::Remoting::Contexts {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DynamicPropertyCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Contexts").WithContext("DynamicPropertyCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Contexts::DynamicPropertyCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DynamicPropertyCollection*, creationType>()));
     }
   }; // System.Runtime.Remoting.Contexts.DynamicPropertyCollection

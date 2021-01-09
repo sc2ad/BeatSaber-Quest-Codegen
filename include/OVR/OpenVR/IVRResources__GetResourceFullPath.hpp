@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x19083A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRResources::_GetResourceFullPath* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetResourceFullPath").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRResources::_GetResourceFullPath::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRResources::_GetResourceFullPath*, creationType>(object, method)));
     }
     // public System.UInt32 Invoke(System.String pchResourceName, System.String pchResourceTypeDirectory, System.Text.StringBuilder pchPathBuffer, System.UInt32 unBufferLen)

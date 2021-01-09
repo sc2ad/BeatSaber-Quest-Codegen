@@ -49,21 +49,21 @@ namespace Mono::Security {
     // Offset: 0x17AECE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ASN1* New_ctor(uint8_t tag) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security").WithContext("ASN1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::ASN1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ASN1*, creationType>(tag)));
     }
     // public System.Void .ctor(System.Byte tag, System.Byte[] data)
     // Offset: 0x17AED1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ASN1* New_ctor(uint8_t tag, ::Array<uint8_t>* data) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security").WithContext("ASN1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::ASN1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ASN1*, creationType>(tag, data)));
     }
     // public System.Void .ctor(System.Byte[] data)
     // Offset: 0x17AED60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ASN1* New_ctor(::Array<uint8_t>* data) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security").WithContext("ASN1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::ASN1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ASN1*, creationType>(data)));
     }
     // public System.Int32 get_Count()

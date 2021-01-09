@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static UnityEngine::Coroutine* StartUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_2<T, System::Collections::IEnumerator*>* func, T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ExtensionMethods").WithContext("StartUniqueCoroutine");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExtensionMethods::StartUniqueCoroutine");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "ExtensionMethods", "StartUniqueCoroutine", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(m, func, value)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<UnityEngine::Coroutine*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, m, func, value);
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void StopUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_2<T, System::Collections::IEnumerator*>* func) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ExtensionMethods").WithContext("StopUniqueCoroutine");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExtensionMethods::StopUniqueCoroutine");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "ExtensionMethods", "StopUniqueCoroutine", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(m, func)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, m, func);

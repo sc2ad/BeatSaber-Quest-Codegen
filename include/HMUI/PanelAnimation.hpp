@@ -59,7 +59,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PanelAnimation* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("PanelAnimation").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::PanelAnimation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PanelAnimation*, creationType>()));
     }
   }; // HMUI.PanelAnimation

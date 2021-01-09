@@ -127,7 +127,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::$$c*, creationType>()));
     }
   }; // System.IO.Stream/<>c

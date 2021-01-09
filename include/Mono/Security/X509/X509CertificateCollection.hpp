@@ -50,7 +50,7 @@ namespace Mono::Security::X509 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::X509").WithContext("X509CertificateCollection").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509CertificateCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateCollection*, creationType>()));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()

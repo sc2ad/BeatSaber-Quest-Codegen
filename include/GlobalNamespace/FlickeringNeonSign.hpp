@@ -126,7 +126,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlickeringNeonSign* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("FlickeringNeonSign").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FlickeringNeonSign::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlickeringNeonSign*, creationType>()));
     }
   }; // FlickeringNeonSign

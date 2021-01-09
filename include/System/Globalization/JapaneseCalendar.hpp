@@ -98,7 +98,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JapaneseCalendar* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("JapaneseCalendar").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::JapaneseCalendar::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JapaneseCalendar*, creationType>()));
     }
     // override System.Int32 get_ID()

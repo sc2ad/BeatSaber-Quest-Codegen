@@ -41,7 +41,7 @@ namespace Assets::OVR::Scripts {
     // Offset: 0x11E89F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangedRecord* New_ctor(::Il2CppString* cat, ::Il2CppString* msg, float val, float minVal, float maxVal) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Assets::OVR::Scripts").WithContext("RangedRecord").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Assets::OVR::Scripts::RangedRecord::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangedRecord*, creationType>(cat, msg, val, minVal, maxVal)));
     }
   }; // Assets.OVR.Scripts.RangedRecord

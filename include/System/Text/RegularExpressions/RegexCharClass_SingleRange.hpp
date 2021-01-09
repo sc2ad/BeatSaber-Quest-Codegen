@@ -35,7 +35,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x1544B44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexCharClass::SingleRange* New_ctor(::Il2CppChar first, ::Il2CppChar last) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text::RegularExpressions").WithContext("SingleRange").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexCharClass::SingleRange::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexCharClass::SingleRange*, creationType>(first, last)));
     }
   }; // System.Text.RegularExpressions.RegexCharClass/SingleRange

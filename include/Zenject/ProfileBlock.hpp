@@ -40,14 +40,14 @@ namespace Zenject {
     // Offset: 0x134C614
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfileBlock* New_ctor(::Il2CppString* sampleName, bool rootBlock) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ProfileBlock").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ProfileBlock::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfileBlock*, creationType>(sampleName, rootBlock)));
     }
     // private System.Void .ctor(System.String sampleName)
     // Offset: 0x134C61C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfileBlock* New_ctor(::Il2CppString* sampleName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ProfileBlock").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ProfileBlock::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfileBlock*, creationType>(sampleName)));
     }
     // static public System.Text.RegularExpressions.Regex get_ProfilePattern()

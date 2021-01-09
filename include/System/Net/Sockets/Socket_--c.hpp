@@ -96,7 +96,7 @@ namespace System::Net::Sockets {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Socket::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Sockets").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::Socket::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Socket::$$c*, creationType>()));
     }
   }; // System.Net.Sockets.Socket/<>c

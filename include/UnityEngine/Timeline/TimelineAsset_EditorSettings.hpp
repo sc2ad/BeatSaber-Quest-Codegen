@@ -66,7 +66,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelineAsset::EditorSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("EditorSettings").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimelineAsset::EditorSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimelineAsset::EditorSettings*, creationType>()));
     }
   }; // UnityEngine.Timeline.TimelineAsset/EditorSettings

@@ -42,21 +42,21 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE6BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeansImplicitUseAttribute* New_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("MeansImplicitUseAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::MeansImplicitUseAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeansImplicitUseAttribute*, creationType>(useKindFlags)));
     }
     // public System.Void .ctor(JetBrains.Annotations.ImplicitUseTargetFlags targetFlags)
     // Offset: 0x19EE6EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeansImplicitUseAttribute* New_ctor(JetBrains::Annotations::ImplicitUseTargetFlags targetFlags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("MeansImplicitUseAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::MeansImplicitUseAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeansImplicitUseAttribute*, creationType>(targetFlags)));
     }
     // public System.Void .ctor(JetBrains.Annotations.ImplicitUseKindFlags useKindFlags, JetBrains.Annotations.ImplicitUseTargetFlags targetFlags)
     // Offset: 0x19EE684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeansImplicitUseAttribute* New_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags targetFlags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("MeansImplicitUseAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::MeansImplicitUseAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeansImplicitUseAttribute*, creationType>(useKindFlags, targetFlags)));
     }
     // public JetBrains.Annotations.ImplicitUseKindFlags get_UseKindFlags()
@@ -78,7 +78,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeansImplicitUseAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("MeansImplicitUseAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::MeansImplicitUseAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeansImplicitUseAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.MeansImplicitUseAttribute

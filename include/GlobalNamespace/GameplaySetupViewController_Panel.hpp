@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Offset: 0xF10B88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplaySetupViewController::Panel* New_ctor(::Il2CppString* title, GlobalNamespace::IRefreshable* refreshable, UnityEngine::GameObject* gameObject) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("Panel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplaySetupViewController::Panel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplaySetupViewController::Panel*, creationType>(title, refreshable, gameObject)));
     }
   }; // GameplaySetupViewController/Panel

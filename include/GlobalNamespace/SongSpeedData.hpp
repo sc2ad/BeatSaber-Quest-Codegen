@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0xF3B7D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongSpeedData* New_ctor(float speedMul) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SongSpeedData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongSpeedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongSpeedData*, creationType>(speedMul)));
     }
   }; // SongSpeedData

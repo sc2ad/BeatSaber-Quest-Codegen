@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelFilteringNavigationController::$$c__DisplayClass41_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass41_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass41_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelFilteringNavigationController::$$c__DisplayClass41_0*, creationType>()));
     }
   }; // LevelFilteringNavigationController/<>c__DisplayClass41_0

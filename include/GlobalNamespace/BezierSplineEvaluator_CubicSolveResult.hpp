@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Offset: 0xE7F364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CubicSolveResult(float solution1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("CubicSolveResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(solution1)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solution1);
     }
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Offset: 0xE7F378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CubicSolveResult(float solution1, float solution2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("CubicSolveResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(solution1, solution2)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solution1, solution2);
     }
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Offset: 0xE7F38C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CubicSolveResult(float solution1, float solution2, float solution3) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("CubicSolveResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(solution1, solution2, solution3)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solution1, solution2, solution3);
     }

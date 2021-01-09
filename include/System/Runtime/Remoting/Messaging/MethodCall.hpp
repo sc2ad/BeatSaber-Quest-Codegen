@@ -144,14 +144,14 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x1329108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodCall* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("MethodCall").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MethodCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodCall*, creationType>(info, context)));
     }
     // System.Void .ctor(System.Runtime.Remoting.Messaging.CADMethodCallMessage msg)
     // Offset: 0x13291A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodCall* New_ctor(System::Runtime::Remoting::Messaging::CADMethodCallMessage* msg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("MethodCall").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MethodCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodCall*, creationType>(msg)));
     }
     // System.Void CopyFrom(System.Runtime.Remoting.Messaging.IMethodMessage call)
@@ -187,7 +187,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodCall* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("MethodCall").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MethodCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodCall*, creationType>()));
     }
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

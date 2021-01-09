@@ -26,7 +26,7 @@ namespace UnityEngineInternal {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericStack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngineInternal").WithContext("GenericStack").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngineInternal::GenericStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericStack*, creationType>()));
     }
   }; // UnityEngineInternal.GenericStack

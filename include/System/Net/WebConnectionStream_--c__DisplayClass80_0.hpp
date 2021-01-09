@@ -78,7 +78,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionStream::$$c__DisplayClass80_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("$$c__DisplayClass80_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnectionStream::$$c__DisplayClass80_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionStream::$$c__DisplayClass80_0*, creationType>()));
     }
   }; // System.Net.WebConnectionStream/<>c__DisplayClass80_0

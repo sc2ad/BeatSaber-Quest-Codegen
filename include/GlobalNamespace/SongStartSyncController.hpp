@@ -176,7 +176,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongStartSyncController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SongStartSyncController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongStartSyncController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongStartSyncController*, creationType>()));
     }
   }; // SongStartSyncController

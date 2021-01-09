@@ -307,7 +307,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TableViewScroller* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("TableViewScroller").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::TableViewScroller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TableViewScroller*, creationType>()));
     }
   }; // HMUI.TableViewScroller

@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x104525C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DsaPrivateKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* x, Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("DsaPrivateKeyParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DsaPrivateKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DsaPrivateKeyParameters*, creationType>(x, parameters)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_X()

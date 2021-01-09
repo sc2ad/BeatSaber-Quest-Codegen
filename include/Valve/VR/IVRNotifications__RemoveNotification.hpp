@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x18ED760
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRNotifications::_RemoveNotification* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_RemoveNotification").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRNotifications::_RemoveNotification::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRNotifications::_RemoveNotification*, creationType>(object, method)));
     }
     // public Valve.VR.EVRNotificationError Invoke(System.UInt32 notificationId)

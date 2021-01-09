@@ -27,7 +27,7 @@ namespace System::Runtime::CompilerServices {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompilerGeneratedAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("CompilerGeneratedAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::CompilerGeneratedAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompilerGeneratedAttribute*, creationType>()));
     }
   }; // System.Runtime.CompilerServices.CompilerGeneratedAttribute

@@ -46,7 +46,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelineCreateUtilities::$$c__DisplayClass0_1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("$$c__DisplayClass0_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimelineCreateUtilities::$$c__DisplayClass0_1*, creationType>()));
     }
   }; // UnityEngine.Timeline.TimelineCreateUtilities/<>c__DisplayClass0_1

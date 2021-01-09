@@ -35,7 +35,7 @@ namespace System::Resources {
     // Offset: 0x15DE00C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SatelliteContractVersionAttribute* New_ctor(::Il2CppString* version) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("SatelliteContractVersionAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::SatelliteContractVersionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SatelliteContractVersionAttribute*, creationType>(version)));
     }
     // public System.String get_Version()

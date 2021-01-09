@@ -204,7 +204,7 @@ namespace System::Net {
     // Offset: 0x131B4F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileWebRequest* New_ctor(System::Uri* uri) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("FileWebRequest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FileWebRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileWebRequest*, creationType>(uri)));
     }
     // System.Boolean get_Aborted()
@@ -228,7 +228,7 @@ namespace System::Net {
     // Base method: System.Void WebRequest::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileWebRequest* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("FileWebRequest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FileWebRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileWebRequest*, creationType>(serializationInfo, streamingContext)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)

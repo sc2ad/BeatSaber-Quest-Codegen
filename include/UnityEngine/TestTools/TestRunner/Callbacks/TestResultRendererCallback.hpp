@@ -66,7 +66,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestResultRendererCallback* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::TestRunner::Callbacks").WithContext("TestResultRendererCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestResultRendererCallback*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRendererCallback

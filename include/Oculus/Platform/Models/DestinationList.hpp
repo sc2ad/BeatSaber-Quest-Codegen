@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DA044
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DestinationList* New_ctor(System::IntPtr a) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("DestinationList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DestinationList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DestinationList*, creationType>(a)));
     }
   }; // Oculus.Platform.Models.DestinationList

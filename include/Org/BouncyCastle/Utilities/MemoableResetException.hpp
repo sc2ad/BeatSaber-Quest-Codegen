@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Utilities {
     // Base method: System.Void Exception::.ctor(System.String msg)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoableResetException* New_ctor(::Il2CppString* msg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Utilities").WithContext("MemoableResetException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::MemoableResetException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoableResetException*, creationType>(msg)));
     }
   }; // Org.BouncyCastle.Utilities.MemoableResetException

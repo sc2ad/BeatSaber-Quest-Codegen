@@ -41,7 +41,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DTSweepPointComparator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("DTSweepPointComparator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DTSweepPointComparator*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweepPointComparator

@@ -35,7 +35,7 @@ namespace System::Net {
     // Base method: System.Void GenericIdentity::.ctor(System.String username, System.String password)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerBasicIdentity* New_ctor(::Il2CppString* username, ::Il2CppString* password) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("HttpListenerBasicIdentity").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerBasicIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerBasicIdentity*, creationType>(username, password)));
     }
   }; // System.Net.HttpListenerBasicIdentity

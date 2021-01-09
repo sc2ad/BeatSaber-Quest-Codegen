@@ -45,7 +45,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1642CB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshHandle* New_ctor(UnityEngine::Transform* transform, UnityEngine::Mesh* mesh) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("MeshHandle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshHandle*, creationType>(transform, mesh)));
     }
     // public System.Void DrawMeshNow(System.Int32 submeshIndex)

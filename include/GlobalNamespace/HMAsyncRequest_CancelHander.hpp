@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x103541C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMAsyncRequest::CancelHander* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("CancelHander").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HMAsyncRequest::CancelHander::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMAsyncRequest::CancelHander*, creationType>(object, method)));
     }
     // public System.Void Invoke(HMAsyncRequest request)

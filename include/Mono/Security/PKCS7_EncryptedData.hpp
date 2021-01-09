@@ -56,7 +56,7 @@ namespace Mono::Security {
     // Offset: 0x17B8BEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::EncryptedData* New_ctor(Mono::Security::ASN1* asn1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security").WithContext("EncryptedData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::EncryptedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::EncryptedData*, creationType>(asn1)));
     }
     // public Mono.Security.PKCS7/ContentInfo get_EncryptionAlgorithm()
@@ -71,7 +71,7 @@ namespace Mono::Security {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::EncryptedData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security").WithContext("EncryptedData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::EncryptedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::EncryptedData*, creationType>()));
     }
   }; // Mono.Security.PKCS7/EncryptedData

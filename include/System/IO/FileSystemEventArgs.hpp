@@ -45,7 +45,7 @@ namespace System::IO {
     // Offset: 0x148EB98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileSystemEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::Il2CppString* directory, ::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileSystemEventArgs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileSystemEventArgs*, creationType>(changeType, directory, name)));
     }
   }; // System.IO.FileSystemEventArgs

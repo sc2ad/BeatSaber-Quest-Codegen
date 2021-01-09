@@ -98,7 +98,7 @@ namespace System {
     // Offset: 0xCA3660
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TimeSpan(int hours, int minutes, int seconds) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TimeSpan").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeSpan::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(hours, minutes, seconds)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, hours, minutes, seconds);
     }
@@ -106,7 +106,7 @@ namespace System {
     // Offset: 0xCA3668
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TimeSpan(int days, int hours, int minutes, int seconds, int milliseconds) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TimeSpan").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeSpan::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(days, hours, minutes, seconds, milliseconds)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, days, hours, minutes, seconds, milliseconds);
     }

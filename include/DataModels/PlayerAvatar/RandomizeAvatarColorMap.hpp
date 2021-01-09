@@ -43,7 +43,7 @@ namespace DataModels::PlayerAvatar {
     // Offset: 0x1A58D18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomizeAvatarColorMap* New_ctor(int headTopPrimaryColorIndex, int headTopSecondaryColorIndex, int glassesColorIndex, int facialHairColorIndex, int handsColorIndex, int clothesPrimaryColorIndex, int clothesSecondaryColorIndex, int clothesDetailColorIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("DataModels::PlayerAvatar").WithContext("RandomizeAvatarColorMap").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("DataModels::PlayerAvatar::RandomizeAvatarColorMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomizeAvatarColorMap*, creationType>(headTopPrimaryColorIndex, headTopSecondaryColorIndex, glassesColorIndex, facialHairColorIndex, handsColorIndex, clothesPrimaryColorIndex, clothesSecondaryColorIndex, clothesDetailColorIndex)));
     }
   }; // DataModels.PlayerAvatar.RandomizeAvatarColorMap

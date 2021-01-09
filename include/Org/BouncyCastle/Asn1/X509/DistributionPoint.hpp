@@ -67,7 +67,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x157A6C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DistributionPoint* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X509").WithContext("DistributionPoint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::DistributionPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DistributionPoint*, creationType>(seq)));
     }
     // private System.Void appendObject(System.Text.StringBuilder buf, System.String sep, System.String name, System.String val)

@@ -167,7 +167,7 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlRawWriter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("XmlRawWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlRawWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlRawWriter*, creationType>()));
     }
   }; // System.Xml.XmlRawWriter

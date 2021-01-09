@@ -33,7 +33,7 @@ namespace System {
     // Offset: 0x171B34C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrdinalComparer* New_ctor(bool ignoreCase) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("OrdinalComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::OrdinalComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OrdinalComparer*, creationType>(ignoreCase)));
     }
     // public override System.Int32 Compare(System.String x, System.String y)

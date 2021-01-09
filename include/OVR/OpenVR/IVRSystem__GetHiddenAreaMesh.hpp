@@ -44,7 +44,7 @@ namespace OVR::OpenVR {
     // Offset: 0x19130BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetHiddenAreaMesh* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetHiddenAreaMesh").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetHiddenAreaMesh*, creationType>(object, method)));
     }
     // public OVR.OpenVR.HiddenAreaMesh_t Invoke(OVR.OpenVR.EVREye eEye, OVR.OpenVR.EHiddenAreaMeshType type)

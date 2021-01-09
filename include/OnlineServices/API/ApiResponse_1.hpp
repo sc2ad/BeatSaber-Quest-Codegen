@@ -40,7 +40,7 @@ namespace OnlineServices::API {
     // public System.Boolean get_isError()
     // Offset: 0xFFFFFFFF
     bool get_isError() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OnlineServices::API").WithContext("ApiResponse_1").WithContext("get_isError");
+      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::API::ApiResponse_1::get_isError");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "get_isError", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
     }

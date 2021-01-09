@@ -32,7 +32,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Base method: System.Void ValueMatchFilter::.ctor(System.String expectedValue)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FullNameFilter* New_ctor(::Il2CppString* expectedValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Filters").WithContext("FullNameFilter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Filters::FullNameFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FullNameFilter*, creationType>(expectedValue)));
     }
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)

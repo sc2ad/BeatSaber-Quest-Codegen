@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A24488
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectAvoidanceTiltEvaluator* New_ctor(GlobalNamespace::IAudioTimeSource* audioTimeSource, GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator, UnityEngine::Vector2 gravity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BeatmapObjectAvoidanceTiltEvaluator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidanceTiltEvaluator*, creationType>(audioTimeSource, bezierSplineEvaluator, gravity)));
     }
     // public System.Void ManualUpdate(System.Single deltaTime)

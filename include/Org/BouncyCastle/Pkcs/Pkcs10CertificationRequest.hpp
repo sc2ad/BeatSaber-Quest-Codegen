@@ -71,7 +71,7 @@ namespace Org::BouncyCastle::Pkcs {
     // Offset: 0x109C1EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Pkcs10CertificationRequest* New_ctor(::Array<uint8_t>* encoded) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Pkcs").WithContext("Pkcs10CertificationRequest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pkcs10CertificationRequest*, creationType>(encoded)));
     }
   }; // Org.BouncyCastle.Pkcs.Pkcs10CertificationRequest

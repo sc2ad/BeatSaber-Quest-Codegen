@@ -50,7 +50,7 @@ namespace Zenject {
     // Offset: 0x1347918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LazyInstanceInjector* New_ctor(Zenject::DiContainer* container) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("LazyInstanceInjector").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::LazyInstanceInjector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LazyInstanceInjector*, creationType>(container)));
     }
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Instances()

@@ -107,7 +107,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderFallbackBuffer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("EncoderFallbackBuffer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderFallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallbackBuffer*, creationType>()));
     }
   }; // System.Text.EncoderFallbackBuffer

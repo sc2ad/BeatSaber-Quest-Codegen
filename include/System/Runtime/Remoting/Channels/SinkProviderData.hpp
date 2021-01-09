@@ -53,7 +53,7 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0x116E308
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SinkProviderData* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Channels").WithContext("SinkProviderData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Channels::SinkProviderData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SinkProviderData*, creationType>(name)));
     }
     // public System.Collections.IList get_Children()

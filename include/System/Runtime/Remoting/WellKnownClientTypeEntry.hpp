@@ -49,7 +49,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x133CA9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WellKnownClientTypeEntry* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName, ::Il2CppString* objectUrl) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting").WithContext("WellKnownClientTypeEntry").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::WellKnownClientTypeEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WellKnownClientTypeEntry*, creationType>(typeName, assemblyName, objectUrl)));
     }
     // public System.String get_ApplicationUrl()

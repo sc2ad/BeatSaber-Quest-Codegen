@@ -75,14 +75,14 @@ namespace System::Net {
     // Offset: 0x119EF48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RequestStream* New_ctor(System::IO::Stream* stream, ::Array<uint8_t>* buffer, int offset, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("RequestStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::RequestStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RequestStream*, creationType>(stream, buffer, offset, length)));
     }
     // System.Void .ctor(System.IO.Stream stream, System.Byte[] buffer, System.Int32 offset, System.Int32 length, System.Int64 contentlength)
     // Offset: 0x119EF50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RequestStream* New_ctor(System::IO::Stream* stream, ::Array<uint8_t>* buffer, int offset, int length, int64_t contentlength) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("RequestStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::RequestStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RequestStream*, creationType>(stream, buffer, offset, length, contentlength)));
     }
     // private System.Int32 FillFromBuffer(System.Byte[] buffer, System.Int32 off, System.Int32 count)

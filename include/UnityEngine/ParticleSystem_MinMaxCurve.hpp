@@ -76,7 +76,7 @@ namespace UnityEngine {
     // Offset: 0xCB9220
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     MinMaxCurve(float min, float max) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("MinMaxCurve").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ParticleSystem::MinMaxCurve::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(min, max)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, min, max);
     }

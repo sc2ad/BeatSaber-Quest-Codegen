@@ -45,7 +45,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Offset: 0x158A844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldElement* New_ctor(Org::BouncyCastle::Math::EC::ECFieldElement* f) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X9").WithContext("X9FieldElement").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9FieldElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldElement*, creationType>(f)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()

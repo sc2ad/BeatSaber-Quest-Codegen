@@ -70,7 +70,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x169A904
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RC2Transform* New_ctor(System::Security::Cryptography::RC2* rc2Algo, bool encryption, ::Array<uint8_t>* key, ::Array<uint8_t>* iv) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("RC2Transform").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RC2Transform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2Transform*, creationType>(rc2Algo, encryption, key, iv)));
     }
     // static private System.Void .cctor()

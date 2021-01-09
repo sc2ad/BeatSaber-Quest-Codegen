@@ -41,7 +41,7 @@ namespace System::Resources {
     // Offset: 0x15D5B50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissingSatelliteAssemblyException* New_ctor(::Il2CppString* message, ::Il2CppString* cultureName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("MissingSatelliteAssemblyException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::MissingSatelliteAssemblyException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissingSatelliteAssemblyException*, creationType>(message, cultureName)));
     }
     // public System.Void .ctor()
@@ -52,7 +52,7 @@ namespace System::Resources {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissingSatelliteAssemblyException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("MissingSatelliteAssemblyException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::MissingSatelliteAssemblyException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissingSatelliteAssemblyException*, creationType>()));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -62,7 +62,7 @@ namespace System::Resources {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissingSatelliteAssemblyException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("MissingSatelliteAssemblyException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::MissingSatelliteAssemblyException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissingSatelliteAssemblyException*, creationType>(info, context)));
     }
   }; // System.Resources.MissingSatelliteAssemblyException

@@ -44,7 +44,7 @@ namespace Zenject {
     // public Zenject.DiContainer get_Container()
     // Offset: 0xFFFFFFFF
     Zenject::DiContainer* get_Container() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PrefabResourceFactory_1").WithContext("get_Container");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabResourceFactory_1::get_Container");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Container", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<Zenject::DiContainer*, false>(this, ___internal__method);
     }
@@ -53,7 +53,7 @@ namespace Zenject {
     // Implemented from: Zenject.IFactory`2
     // Base method: TValue IFactory_2::Create(System.String prefabResourceName)
     T Create(::Il2CppString* prefabResourceName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PrefabResourceFactory_1").WithContext("Create");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabResourceFactory_1::Create");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(prefabResourceName)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefabResourceName);
     }
@@ -68,7 +68,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabResourceFactory_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PrefabResourceFactory_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabResourceFactory_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabResourceFactory_1<T>*, creationType>()));
     }
   }; // Zenject.PrefabResourceFactory`1

@@ -60,14 +60,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x10469D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECNamedDomainParameters* New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier* name, Org::BouncyCastle::Asn1::X9::X9ECParameters* x9) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("ECNamedDomainParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECNamedDomainParameters*, creationType>(name, x9)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier name, Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECPoint g, Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger h, System.Byte[] seed)
     // Offset: 0x1046130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECNamedDomainParameters* New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier* name, Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECPoint* g, Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* h, ::Array<uint8_t>* seed) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("ECNamedDomainParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECNamedDomainParameters*, creationType>(name, curve, g, n, h, seed)));
     }
   }; // Org.BouncyCastle.Crypto.Parameters.ECNamedDomainParameters

@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRTrackersRecorder::Keyframe::KeyframeTransform* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("KeyframeTransform").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRTrackersRecorder::Keyframe::KeyframeTransform*, creationType>()));
     }
   }; // VRTrackersRecorder/Keyframe/KeyframeTransform

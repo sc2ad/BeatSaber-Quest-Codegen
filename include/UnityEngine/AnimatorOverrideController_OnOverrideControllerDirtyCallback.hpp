@@ -34,7 +34,7 @@ namespace UnityEngine {
     // Offset: 0x19CB978
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorOverrideController::OnOverrideControllerDirtyCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("OnOverrideControllerDirtyCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorOverrideController::OnOverrideControllerDirtyCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke()

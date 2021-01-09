@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Events::Action_3<T0, T1, T2>* New_ctor(GlobalNamespace::SteamVR_Events::Event_3<T0, T1, T2>* _event, UnityEngine::Events::UnityAction_3<T0, T1, T2>* action) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("Action_3").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Events::Action_3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Events::Action_3<T0, T1, T2>*, creationType>(_event, action)));
     }
     // public override System.Void Enable(System.Boolean enabled)
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Implemented from: SteamVR_Events/Action
     // Base method: System.Void Action::Enable(System.Boolean enabled)
     void Enable(bool enabled) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("Action_3").WithContext("Enable");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Events::Action_3::Enable");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Enable", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(enabled)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, enabled);
     }

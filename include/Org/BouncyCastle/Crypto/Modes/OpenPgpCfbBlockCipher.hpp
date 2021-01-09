@@ -76,7 +76,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Offset: 0x103F880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenPgpCfbBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Modes").WithContext("OpenPgpCfbBlockCipher").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::OpenPgpCfbBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenPgpCfbBlockCipher*, creationType>(cipher)));
     }
     // private System.Byte EncryptByte(System.Byte data, System.Int32 blockOff)

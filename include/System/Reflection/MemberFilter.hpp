@@ -38,7 +38,7 @@ namespace System::Reflection {
     // Offset: 0x15C79F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemberFilter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("MemberFilter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MemberFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemberFilter*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.Reflection.MemberInfo m, System.Object filterCriteria)

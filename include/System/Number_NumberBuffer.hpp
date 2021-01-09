@@ -65,7 +65,7 @@ namespace System {
     // Offset: 0xCA6990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     NumberBuffer(uint8_t* stackBuffer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("NumberBuffer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Number::NumberBuffer::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(stackBuffer)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, stackBuffer);
     }

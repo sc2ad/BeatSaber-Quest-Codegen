@@ -23,49 +23,49 @@ namespace UnityEngine::ProBuilder::KdTree {
     // public System.Int32 Compare(T a, T b)
     // Offset: 0xFFFFFFFF
     int Compare(T a, T b) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("ITypeMath_1").WithContext("Compare");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::ITypeMath_1::Compare");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Compare", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(a, b)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, a, b);
     }
     // public T get_MinValue()
     // Offset: 0xFFFFFFFF
     T get_MinValue() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("ITypeMath_1").WithContext("get_MinValue");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::ITypeMath_1::get_MinValue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_MinValue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Boolean AreEqual(T[] a, T[] b)
     // Offset: 0xFFFFFFFF
     bool AreEqual(::Array<T>* a, ::Array<T>* b) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("ITypeMath_1").WithContext("AreEqual");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::ITypeMath_1::AreEqual");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AreEqual", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(a, b)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, a, b);
     }
     // public T Multiply(T a, T b)
     // Offset: 0xFFFFFFFF
     T Multiply(T a, T b) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("ITypeMath_1").WithContext("Multiply");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::ITypeMath_1::Multiply");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Multiply", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(a, b)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, a, b);
     }
     // public T get_NegativeInfinity()
     // Offset: 0xFFFFFFFF
     T get_NegativeInfinity() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("ITypeMath_1").WithContext("get_NegativeInfinity");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::ITypeMath_1::get_NegativeInfinity");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_NegativeInfinity", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public T get_PositiveInfinity()
     // Offset: 0xFFFFFFFF
     T get_PositiveInfinity() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("ITypeMath_1").WithContext("get_PositiveInfinity");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::ITypeMath_1::get_PositiveInfinity");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_PositiveInfinity", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public T DistanceSquaredBetweenPoints(T[] a, T[] b)
     // Offset: 0xFFFFFFFF
     T DistanceSquaredBetweenPoints(::Array<T>* a, ::Array<T>* b) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("ITypeMath_1").WithContext("DistanceSquaredBetweenPoints");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::ITypeMath_1::DistanceSquaredBetweenPoints");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "DistanceSquaredBetweenPoints", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(a, b)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, a, b);
     }

@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // Offset: 0x176A410
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZTauElement* New_ctor(Org::BouncyCastle::Math::BigInteger* u, Org::BouncyCastle::Math::BigInteger* v) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Abc").WithContext("ZTauElement").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Abc::ZTauElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZTauElement*, creationType>(u, v)));
     }
   }; // Org.BouncyCastle.Math.EC.Abc.ZTauElement

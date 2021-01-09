@@ -54,27 +54,27 @@ namespace System::Diagnostics::Tracing {
       // Offset: 0xFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename ClassPropertyWriter_2<ContainerType, ValueType>::Getter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("Getter").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ClassPropertyWriter_2::Getter::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename ClassPropertyWriter_2<ContainerType, ValueType>::Getter*, creationType>(object, method)));
       }
       // public ValueType Invoke(ContainerType container)
       // Offset: 0xFFFFFFFF
       ValueType Invoke(ContainerType container) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("Getter").WithContext("Invoke");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ClassPropertyWriter_2::Getter::Invoke");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(container)));
         return ::il2cpp_utils::RunMethodThrow<ValueType, false>(this, ___internal__method, container);
       }
       // public System.IAsyncResult BeginInvoke(ContainerType container, System.AsyncCallback callback, System.Object object)
       // Offset: 0xFFFFFFFF
       System::IAsyncResult* BeginInvoke(ContainerType container, System::AsyncCallback* callback, ::Il2CppObject* object) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("Getter").WithContext("BeginInvoke");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ClassPropertyWriter_2::Getter::BeginInvoke");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(container, callback, object)));
         return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, container, callback, object);
       }
       // public ValueType EndInvoke(System.IAsyncResult result)
       // Offset: 0xFFFFFFFF
       ValueType EndInvoke(System::IAsyncResult* result) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("Getter").WithContext("EndInvoke");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ClassPropertyWriter_2::Getter::EndInvoke");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
         return ::il2cpp_utils::RunMethodThrow<ValueType, false>(this, ___internal__method, result);
       }
@@ -98,7 +98,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClassPropertyWriter_2<ContainerType, ValueType>* New_ctor(System::Diagnostics::Tracing::PropertyAnalysis* property) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("ClassPropertyWriter_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ClassPropertyWriter_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClassPropertyWriter_2<ContainerType, ValueType>*, creationType>(property)));
     }
     // public override System.Void Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType container)
@@ -106,7 +106,7 @@ namespace System::Diagnostics::Tracing {
     // Implemented from: System.Diagnostics.Tracing.PropertyAccessor`1
     // Base method: System.Void PropertyAccessor_1::Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType container)
     void Write(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ContainerType& container) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("ClassPropertyWriter_2").WithContext("Write");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ClassPropertyWriter_2::Write");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Write", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(collector, container)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collector, container);
     }
@@ -115,7 +115,7 @@ namespace System::Diagnostics::Tracing {
     // Implemented from: System.Diagnostics.Tracing.PropertyAccessor`1
     // Base method: System.Object PropertyAccessor_1::GetData(ContainerType container)
     ::Il2CppObject* GetData(ContainerType container) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("ClassPropertyWriter_2").WithContext("GetData");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ClassPropertyWriter_2::GetData");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetData", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(container)));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method, container);
     }

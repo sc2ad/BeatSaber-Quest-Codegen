@@ -63,14 +63,14 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1376928
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Set* New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable* element) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("Asn1Set").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1Set::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Set*, creationType>(element)));
     }
     // protected internal System.Void .ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector)
     // Offset: 0x1376A30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Set* New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("Asn1Set").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1Set::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Set*, creationType>(elementVector)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Encodable get_Item(System.Int32 index)
@@ -90,7 +90,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Set* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("Asn1Set").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1Set::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Set*, creationType>()));
     }
     // public System.Collections.IEnumerator GetEnumerator()

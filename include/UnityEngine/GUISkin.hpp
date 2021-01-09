@@ -398,7 +398,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUISkin* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("GUISkin").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUISkin::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUISkin*, creationType>()));
     }
   }; // UnityEngine.GUISkin

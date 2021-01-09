@@ -229,7 +229,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightSwitchEventEffect* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LightSwitchEventEffect").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LightSwitchEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightSwitchEventEffect*, creationType>()));
     }
   }; // LightSwitchEventEffect

@@ -35,7 +35,7 @@ namespace System::Collections::Generic {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyNotFoundException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("KeyNotFoundException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::KeyNotFoundException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyNotFoundException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -45,7 +45,7 @@ namespace System::Collections::Generic {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyNotFoundException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("KeyNotFoundException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::KeyNotFoundException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyNotFoundException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -55,7 +55,7 @@ namespace System::Collections::Generic {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyNotFoundException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("KeyNotFoundException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::KeyNotFoundException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyNotFoundException*, creationType>(info, context)));
     }
   }; // System.Collections.Generic.KeyNotFoundException

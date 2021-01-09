@@ -24,7 +24,7 @@ namespace System::Threading {
     // Offset: 0x16B1BB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AutoResetEvent* New_ctor(bool initialState) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("AutoResetEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AutoResetEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AutoResetEvent*, creationType>(initialState)));
     }
   }; // System.Threading.AutoResetEvent

@@ -32,7 +32,7 @@ namespace System::Net::Configuration {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProxyElement* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Configuration").WithContext("ProxyElement").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Configuration::ProxyElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProxyElement*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()

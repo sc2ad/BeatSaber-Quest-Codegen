@@ -33,7 +33,7 @@ namespace UnityEngine::Events {
     // Offset: 0x1686330
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseInvokableCall* New_ctor(::Il2CppObject* target, System::Reflection::MethodInfo* function) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("BaseInvokableCall").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::BaseInvokableCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseInvokableCall*, creationType>(target, function)));
     }
     // public System.Void Invoke(System.Object[] args)
@@ -43,7 +43,7 @@ namespace UnityEngine::Events {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void ThrowOnInvalidArg(::Il2CppObject* arg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("BaseInvokableCall").WithContext("ThrowOnInvalidArg");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::BaseInvokableCall::ThrowOnInvalidArg");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Events", "BaseInvokableCall", "ThrowOnInvalidArg", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(arg)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, arg);
@@ -60,7 +60,7 @@ namespace UnityEngine::Events {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseInvokableCall* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("BaseInvokableCall").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::BaseInvokableCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseInvokableCall*, creationType>()));
     }
   }; // UnityEngine.Events.BaseInvokableCall

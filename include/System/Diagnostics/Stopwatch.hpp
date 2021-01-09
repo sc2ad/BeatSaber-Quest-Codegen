@@ -83,7 +83,7 @@ namespace System::Diagnostics {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stopwatch* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("Stopwatch").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Stopwatch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stopwatch*, creationType>()));
     }
   }; // System.Diagnostics.Stopwatch

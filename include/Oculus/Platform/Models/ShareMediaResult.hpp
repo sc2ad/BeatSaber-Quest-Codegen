@@ -35,7 +35,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DFA68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShareMediaResult* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("ShareMediaResult").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::ShareMediaResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShareMediaResult*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.ShareMediaResult

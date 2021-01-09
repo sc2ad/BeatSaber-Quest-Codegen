@@ -92,7 +92,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DD80C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Party* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("Party").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Party::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Party*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.Party

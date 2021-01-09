@@ -44,7 +44,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xCA033C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     X509ChainStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography::X509Certificates").WithContext("X509ChainStatus").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainStatus::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(flag)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, flag);
     }

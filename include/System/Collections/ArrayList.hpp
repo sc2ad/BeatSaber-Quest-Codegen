@@ -86,14 +86,14 @@ namespace System::Collections {
     // Offset: 0x1CB14EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayList* New_ctor(int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("ArrayList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ArrayList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayList*, creationType>(capacity)));
     }
     // public System.Void .ctor(System.Collections.ICollection c)
     // Offset: 0x1CB1634
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayList* New_ctor(System::Collections::ICollection* c) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("ArrayList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ArrayList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayList*, creationType>(c)));
     }
     // public System.Void set_Capacity(System.Int32 value)
@@ -144,7 +144,7 @@ namespace System::Collections {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayList* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("ArrayList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ArrayList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayList*, creationType>()));
     }
     // public System.Int32 get_Count()

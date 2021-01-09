@@ -31,7 +31,7 @@ namespace Zenject {
     template<class TInstaller>
     static ::Il2CppString* GetDefaultResourcePath() {
       static_assert(std::is_convertible_v<TInstaller, Zenject::MonoInstallerBase*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MonoInstallerUtil").WithContext("GetDefaultResourcePath");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoInstallerUtil::GetDefaultResourcePath");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("Zenject", "MonoInstallerUtil", "GetDefaultResourcePath", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
@@ -41,7 +41,7 @@ namespace Zenject {
     template<class TInstaller>
     static TInstaller CreateInstaller(::Il2CppString* resourcePath, Zenject::DiContainer* container) {
       static_assert(std::is_convertible_v<TInstaller, Zenject::MonoInstallerBase*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MonoInstallerUtil").WithContext("CreateInstaller");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoInstallerUtil::CreateInstaller");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("Zenject", "MonoInstallerUtil", "CreateInstaller", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath, container)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}));
       return ::il2cpp_utils::RunMethodThrow<TInstaller, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, resourcePath, container);

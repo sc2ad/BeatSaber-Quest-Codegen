@@ -40,14 +40,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12FF150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SizedArray* New_ctor(int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization::Formatters::Binary").WithContext("SizedArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SizedArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SizedArray*, creationType>(length)));
     }
     // private System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.SizedArray sizedArray)
     // Offset: 0x12FF1E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SizedArray* New_ctor(System::Runtime::Serialization::Formatters::Binary::SizedArray* sizedArray) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization::Formatters::Binary").WithContext("SizedArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SizedArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SizedArray*, creationType>(sizedArray)));
     }
     // System.Object get_Item(System.Int32 index)
@@ -65,7 +65,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SizedArray* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization::Formatters::Binary").WithContext("SizedArray").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SizedArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SizedArray*, creationType>()));
     }
     // public System.Object Clone()

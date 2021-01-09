@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1905590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRRenderModels::_GetComponentStateForDevicePath* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetComponentStateForDevicePath").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRRenderModels::_GetComponentStateForDevicePath::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRRenderModels::_GetComponentStateForDevicePath*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.String pchRenderModelName, System.String pchComponentName, System.UInt64 devicePath, ref OVR.OpenVR.RenderModel_ControllerMode_State_t pState, ref OVR.OpenVR.RenderModel_ComponentState_t pComponentState)

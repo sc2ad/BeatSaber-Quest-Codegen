@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x18581E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_CanRenderScene* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_CanRenderScene").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_CanRenderScene::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_CanRenderScene*, creationType>(object, method)));
     }
     // public System.Boolean Invoke()

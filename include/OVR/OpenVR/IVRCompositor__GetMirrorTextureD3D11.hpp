@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x185BE7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_GetMirrorTextureD3D11* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetMirrorTextureD3D11").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_GetMirrorTextureD3D11::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_GetMirrorTextureD3D11*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVRCompositorError Invoke(OVR.OpenVR.EVREye eEye, System.IntPtr pD3D11DeviceOrResource, ref System.IntPtr ppD3D11ShaderResourceView)

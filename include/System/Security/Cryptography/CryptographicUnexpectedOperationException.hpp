@@ -36,7 +36,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptographicUnexpectedOperationException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("CryptographicUnexpectedOperationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CryptographicUnexpectedOperationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptographicUnexpectedOperationException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -47,7 +47,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptographicUnexpectedOperationException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("CryptographicUnexpectedOperationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CryptographicUnexpectedOperationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptographicUnexpectedOperationException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -58,7 +58,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptographicUnexpectedOperationException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("CryptographicUnexpectedOperationException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CryptographicUnexpectedOperationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptographicUnexpectedOperationException*, creationType>(info, context)));
     }
   }; // System.Security.Cryptography.CryptographicUnexpectedOperationException

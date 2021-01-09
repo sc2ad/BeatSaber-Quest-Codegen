@@ -56,7 +56,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CallContextRemotingData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("CallContextRemotingData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CallContextRemotingData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CallContextRemotingData*, creationType>()));
     }
   }; // System.Runtime.Remoting.Messaging.CallContextRemotingData

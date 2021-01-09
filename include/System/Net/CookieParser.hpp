@@ -40,7 +40,7 @@ namespace System::Net {
     // Offset: 0x1312EE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieParser* New_ctor(::Il2CppString* cookieString) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("CookieParser").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieParser*, creationType>(cookieString)));
     }
     // System.Net.Cookie Get()

@@ -55,7 +55,7 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     // Offset: 0x137F0E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410PublicKeyAlgParameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::CryptoPro").WithContext("Gost3410PublicKeyAlgParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410PublicKeyAlgParameters*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_PublicKeyParamSet()

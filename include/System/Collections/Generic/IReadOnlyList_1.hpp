@@ -27,7 +27,7 @@ namespace System::Collections::Generic {
     // public T get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF
     T System_Collections_Generic_IReadOnlyList_1_get_Item(int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IReadOnlyList_1").WithContext("get_Item");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IReadOnlyList_1::get_Item");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Item", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, index);
     }

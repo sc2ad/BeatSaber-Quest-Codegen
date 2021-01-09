@@ -49,7 +49,7 @@ namespace System::Diagnostics::Tracing {
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref System.Nullable`1<T> value)
     // Offset: 0xFFFFFFFF
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, System::Nullable_1<T>& value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("NullableTypeInfo_1").WithContext("WriteData");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::NullableTypeInfo_1::WriteData");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "WriteData", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(collector, value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collector, value);
     }
@@ -58,7 +58,7 @@ namespace System::Diagnostics::Tracing {
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("NullableTypeInfo_1").WithContext("WriteMetadata");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::NullableTypeInfo_1::WriteMetadata");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "WriteMetadata", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(collector, name, format)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collector, name, format);
     }

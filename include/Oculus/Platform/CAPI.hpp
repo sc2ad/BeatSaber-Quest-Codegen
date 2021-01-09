@@ -187,7 +187,7 @@ namespace Oculus::Platform {
       // Offset: 0xC96214
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       ovrKeyValuePair(::Il2CppString* key, ::Il2CppString* value) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("ovrKeyValuePair").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrKeyValuePair::.ctor");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key, value)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key, value);
       }
@@ -195,7 +195,7 @@ namespace Oculus::Platform {
       // Offset: 0xC96258
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       ovrKeyValuePair(::Il2CppString* key, int value) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("ovrKeyValuePair").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrKeyValuePair::.ctor");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key, value)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key, value);
       }
@@ -203,7 +203,7 @@ namespace Oculus::Platform {
       // Offset: 0xC962A0
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       ovrKeyValuePair(::Il2CppString* key, double value) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("ovrKeyValuePair").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrKeyValuePair::.ctor");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key, value)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key, value);
       }
@@ -2940,7 +2940,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CAPI* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("CAPI").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CAPI*, creationType>()));
     }
   }; // Oculus.Platform.CAPI

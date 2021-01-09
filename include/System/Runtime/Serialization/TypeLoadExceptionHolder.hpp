@@ -31,7 +31,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1446614
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeLoadExceptionHolder* New_ctor(::Il2CppString* typeName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("TypeLoadExceptionHolder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::TypeLoadExceptionHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeLoadExceptionHolder*, creationType>(typeName)));
     }
     // System.String get_TypeName()

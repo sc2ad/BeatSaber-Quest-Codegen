@@ -69,7 +69,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElementSelection::$$c__DisplayClass23_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::MeshOperations").WithContext("$$c__DisplayClass23_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass23_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElementSelection::$$c__DisplayClass23_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass23_0

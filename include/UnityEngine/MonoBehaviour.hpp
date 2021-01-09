@@ -129,7 +129,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoBehaviour* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("MonoBehaviour").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::MonoBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoBehaviour*, creationType>()));
     }
   }; // UnityEngine.MonoBehaviour

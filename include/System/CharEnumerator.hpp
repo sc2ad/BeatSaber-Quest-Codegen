@@ -52,7 +52,7 @@ namespace System {
     // Offset: 0x1CB11AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CharEnumerator* New_ctor(::Il2CppString* str) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("CharEnumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::CharEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CharEnumerator*, creationType>(str)));
     }
     // public System.Object Clone()
@@ -106,7 +106,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CharEnumerator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("CharEnumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::CharEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CharEnumerator*, creationType>()));
     }
   }; // System.CharEnumerator

@@ -224,7 +224,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelGameplayManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MissionLevelGameplayManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionLevelGameplayManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelGameplayManager*, creationType>()));
     }
   }; // MissionLevelGameplayManager

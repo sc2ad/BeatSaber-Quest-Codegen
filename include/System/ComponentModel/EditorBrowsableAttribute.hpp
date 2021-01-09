@@ -36,7 +36,7 @@ namespace System::ComponentModel {
     // Offset: 0x14819C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditorBrowsableAttribute* New_ctor(System::ComponentModel::EditorBrowsableState state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("EditorBrowsableAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::EditorBrowsableAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditorBrowsableAttribute*, creationType>(state)));
     }
     // public override System.Boolean Equals(System.Object obj)

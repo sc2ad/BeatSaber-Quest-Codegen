@@ -26,7 +26,7 @@ namespace Org::BouncyCastle::Security {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityUtilityException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Security").WithContext("SecurityUtilityException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::SecurityUtilityException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityUtilityException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Security {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityUtilityException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Security").WithContext("SecurityUtilityException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::SecurityUtilityException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityUtilityException*, creationType>(message)));
     }
   }; // Org.BouncyCastle.Security.SecurityUtilityException

@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Utilities::Date {
     // Offset: 0x18BD8B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DateTimeObject* New_ctor(System::DateTime dt) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Utilities::Date").WithContext("DateTimeObject").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Date::DateTimeObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeObject*, creationType>(dt)));
     }
     // public override System.String ToString()

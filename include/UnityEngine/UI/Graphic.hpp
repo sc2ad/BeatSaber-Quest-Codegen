@@ -355,7 +355,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Graphic* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("Graphic").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Graphic::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Graphic*, creationType>()));
     }
     // protected override System.Void OnRectTransformDimensionsChange()

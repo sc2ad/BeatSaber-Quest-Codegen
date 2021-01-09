@@ -43,7 +43,7 @@ namespace System::IO {
     // Offset: 0x1435920
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Directory::SearchData* New_ctor(::Il2CppString* fullPath, ::Il2CppString* userPath, System::IO::SearchOption searchOption) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("SearchData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Directory::SearchData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Directory::SearchData*, creationType>(fullPath, userPath, searchOption)));
     }
   }; // System.IO.Directory/SearchData

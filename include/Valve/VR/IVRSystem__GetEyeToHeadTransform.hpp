@@ -42,7 +42,7 @@ namespace Valve::VR {
     // Offset: 0x192B060
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetEyeToHeadTransform* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetEyeToHeadTransform").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRSystem::_GetEyeToHeadTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetEyeToHeadTransform*, creationType>(object, method)));
     }
     // public Valve.VR.HmdMatrix34_t Invoke(Valve.VR.EVREye eEye)

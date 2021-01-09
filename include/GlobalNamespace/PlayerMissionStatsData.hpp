@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Offset: 0xF26DE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerMissionStatsData* New_ctor(::Il2CppString* missionId, bool cleared) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("PlayerMissionStatsData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerMissionStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerMissionStatsData*, creationType>(missionId, cleared)));
     }
   }; // PlayerMissionStatsData

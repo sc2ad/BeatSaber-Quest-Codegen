@@ -69,7 +69,7 @@ namespace System::Resources {
     // Offset: 0x15D5EB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceFallbackManager::$GetEnumerator$d__5* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("$GetEnumerator$d__5").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceFallbackManager::$GetEnumerator$d__5::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceFallbackManager::$GetEnumerator$d__5*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

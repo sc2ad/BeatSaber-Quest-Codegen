@@ -64,7 +64,7 @@ namespace Zenject {
     // Offset: 0x10F157C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionAssemblySelectionBinder* New_ctor(Zenject::ConventionBindInfo* bindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConventionAssemblySelectionBinder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConventionAssemblySelectionBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionAssemblySelectionBinder*, creationType>(bindInfo)));
     }
     // protected Zenject.ConventionBindInfo get_BindInfo()
@@ -80,7 +80,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     void FromAssemblyContaining() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConventionAssemblySelectionBinder").WithContext("FromAssemblyContaining");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConventionAssemblySelectionBinder::FromAssemblyContaining");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "FromAssemblyContaining", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);

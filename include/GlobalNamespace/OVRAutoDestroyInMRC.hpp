@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRAutoDestroyInMRC* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OVRAutoDestroyInMRC").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRAutoDestroyInMRC::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRAutoDestroyInMRC*, creationType>()));
     }
   }; // OVRAutoDestroyInMRC

@@ -34,7 +34,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Comparer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("Comparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Comparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Comparer*, creationType>()));
     }
   }; // System.Net.Comparer

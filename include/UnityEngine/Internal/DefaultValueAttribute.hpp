@@ -34,7 +34,7 @@ namespace UnityEngine::Internal {
     // Offset: 0x168D820
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultValueAttribute* New_ctor(::Il2CppString* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Internal").WithContext("DefaultValueAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Internal::DefaultValueAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultValueAttribute*, creationType>(value)));
     }
     // public System.Object get_Value()

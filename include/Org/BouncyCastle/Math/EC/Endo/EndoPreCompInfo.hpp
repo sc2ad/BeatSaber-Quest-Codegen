@@ -65,7 +65,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EndoPreCompInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Endo").WithContext("EndoPreCompInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EndoPreCompInfo*, creationType>()));
     }
   }; // Org.BouncyCastle.Math.EC.Endo.EndoPreCompInfo

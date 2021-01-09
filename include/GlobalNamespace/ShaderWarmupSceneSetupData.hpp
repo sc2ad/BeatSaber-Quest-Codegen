@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Offset: 0xFCD520
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderWarmupSceneSetupData* New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ShaderWarmupSceneSetupData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShaderWarmupSceneSetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShaderWarmupSceneSetupData*, creationType>(nextScenesTransitionSetupData)));
     }
   }; // ShaderWarmupSceneSetupData

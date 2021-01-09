@@ -53,7 +53,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestData::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestRunner::TestLaunchers").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestData::$$c*, creationType>()));
     }
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestData/<>c

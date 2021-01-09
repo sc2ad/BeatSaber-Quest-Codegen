@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1062940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_SetDisplayVisibility* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_SetDisplayVisibility").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_SetDisplayVisibility::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_SetDisplayVisibility*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.Boolean bIsVisibleOnDesktop)

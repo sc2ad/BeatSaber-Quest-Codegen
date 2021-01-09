@@ -42,7 +42,7 @@ namespace Valve::VR {
     // Offset: 0x192820C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_ComputeDistortion* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_ComputeDistortion").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRSystem::_ComputeDistortion::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_ComputeDistortion*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(Valve.VR.EVREye eEye, System.Single fU, System.Single fV, ref Valve.VR.DistortionCoordinates_t pDistortionCoordinates)

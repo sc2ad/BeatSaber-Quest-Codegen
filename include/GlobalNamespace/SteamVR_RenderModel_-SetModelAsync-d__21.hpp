@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Offset: 0x1112F14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_RenderModel::$SetModelAsync$d__21* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$SetModelAsync$d__21").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_RenderModel::$SetModelAsync$d__21::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_RenderModel::$SetModelAsync$d__21*, creationType>($$1__state)));
     }
     // private System.Void <>m__Finally1()

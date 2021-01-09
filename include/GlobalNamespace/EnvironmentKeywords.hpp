@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A0D468
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentKeywords* New_ctor(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* environmentKeywords) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("EnvironmentKeywords").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentKeywords::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentKeywords*, creationType>(environmentKeywords)));
     }
     // public System.Boolean HasKeyword(System.String keyword)

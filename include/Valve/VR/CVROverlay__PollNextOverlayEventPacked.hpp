@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x136AC20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVROverlay::_PollNextOverlayEventPacked* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_PollNextOverlayEventPacked").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVROverlay::_PollNextOverlayEventPacked::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVROverlay::_PollNextOverlayEventPacked*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.UInt64 ulOverlayHandle, ref Valve.VR.VREvent_t_Packed pEvent, System.UInt32 uncbVREvent)

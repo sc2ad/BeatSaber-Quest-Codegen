@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TubeBloomPrePassLightUpdater* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TubeBloomPrePassLightUpdater").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TubeBloomPrePassLightUpdater::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TubeBloomPrePassLightUpdater*, creationType>()));
     }
   }; // TubeBloomPrePassLightUpdater

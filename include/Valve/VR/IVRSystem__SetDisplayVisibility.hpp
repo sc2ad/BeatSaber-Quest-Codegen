@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x1930BC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_SetDisplayVisibility* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_SetDisplayVisibility").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRSystem::_SetDisplayVisibility::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_SetDisplayVisibility*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.Boolean bIsVisibleOnDesktop)

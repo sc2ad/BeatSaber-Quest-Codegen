@@ -52,21 +52,21 @@ namespace TMPro {
     // public System.Void Add(System.Action`3<A,B,C> rhs)
     // Offset: 0xFFFFFFFF
     void Add(System::Action_3<A, B, C>* rhs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("FastAction_3").WithContext("Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::FastAction_3::Add");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(rhs)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, rhs);
     }
     // public System.Void Remove(System.Action`3<A,B,C> rhs)
     // Offset: 0xFFFFFFFF
     void Remove(System::Action_3<A, B, C>* rhs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("FastAction_3").WithContext("Remove");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::FastAction_3::Remove");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(rhs)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, rhs);
     }
     // public System.Void Call(A a, B b, C c)
     // Offset: 0xFFFFFFFF
     void Call(A a, B b, C c) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("FastAction_3").WithContext("Call");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::FastAction_3::Call");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Call", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(a, b, c)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, a, b, c);
     }
@@ -76,7 +76,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FastAction_3<A, B, C>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("FastAction_3").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::FastAction_3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FastAction_3<A, B, C>*, creationType>()));
     }
   }; // TMPro.FastAction`3

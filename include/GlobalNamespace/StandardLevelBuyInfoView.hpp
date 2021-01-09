@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelBuyInfoView* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("StandardLevelBuyInfoView").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelBuyInfoView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelBuyInfoView*, creationType>()));
     }
   }; // StandardLevelBuyInfoView

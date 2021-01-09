@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0xF13C7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningSceneSetupData* New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("HealthWarningSceneSetupData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HealthWarningSceneSetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningSceneSetupData*, creationType>(nextScenesTransitionSetupData)));
     }
   }; // HealthWarningSceneSetupData

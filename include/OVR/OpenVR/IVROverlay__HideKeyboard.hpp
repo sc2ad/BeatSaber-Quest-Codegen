@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1870D64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_HideKeyboard* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_HideKeyboard").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVROverlay::_HideKeyboard::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_HideKeyboard*, creationType>(object, method)));
     }
     // public System.Void Invoke()

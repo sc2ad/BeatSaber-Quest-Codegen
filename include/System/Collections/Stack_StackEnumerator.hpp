@@ -59,7 +59,7 @@ namespace System::Collections {
     // Offset: 0x1530564
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stack::StackEnumerator* New_ctor(System::Collections::Stack* stack) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections").WithContext("StackEnumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Stack::StackEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stack::StackEnumerator*, creationType>(stack)));
     }
     // public System.Object Clone()

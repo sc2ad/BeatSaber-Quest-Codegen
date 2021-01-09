@@ -80,7 +80,7 @@ namespace System::Security::Util {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tokenizer::StringMaker* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Util").WithContext("StringMaker").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Tokenizer::StringMaker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer::StringMaker*, creationType>()));
     }
   }; // System.Security.Util.Tokenizer/StringMaker

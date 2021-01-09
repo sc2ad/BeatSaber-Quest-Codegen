@@ -108,7 +108,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECFieldElement* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC").WithContext("ECFieldElement").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ECFieldElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECFieldElement*, creationType>()));
     }
   }; // Org.BouncyCastle.Math.EC.ECFieldElement

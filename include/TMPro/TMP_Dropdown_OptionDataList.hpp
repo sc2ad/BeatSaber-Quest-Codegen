@@ -49,7 +49,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Dropdown::OptionDataList* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("OptionDataList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Dropdown::OptionDataList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::OptionDataList*, creationType>()));
     }
   }; // TMPro.TMP_Dropdown/OptionDataList

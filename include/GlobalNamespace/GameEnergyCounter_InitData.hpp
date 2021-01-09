@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A18EB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameEnergyCounter::InitData* New_ctor(GlobalNamespace::GameplayModifiers::EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InitData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameEnergyCounter::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameEnergyCounter::InitData*, creationType>(energyType, noFail, instaFail, failOnSaberClash)));
     }
   }; // GameEnergyCounter/InitData

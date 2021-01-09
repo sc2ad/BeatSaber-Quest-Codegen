@@ -46,7 +46,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x145C12C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OidEnumerator* New_ctor(System::Security::Cryptography::OidCollection* oids) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("OidEnumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::OidEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OidEnumerator*, creationType>(oids)));
     }
     // private System.Object System.Collections.IEnumerator.get_Current()

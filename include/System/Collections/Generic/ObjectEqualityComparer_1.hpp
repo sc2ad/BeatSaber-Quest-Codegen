@@ -24,7 +24,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Boolean EqualityComparer_1::Equals(T x, T y)
     bool Equals(T x, T y) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ObjectEqualityComparer_1").WithContext("Equals");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ObjectEqualityComparer_1::Equals");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(x, y)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, x, y);
     }
@@ -33,7 +33,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Int32 EqualityComparer_1::GetHashCode(T obj)
     int GetHashCode(T obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ObjectEqualityComparer_1").WithContext("GetHashCode");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ObjectEqualityComparer_1::GetHashCode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(obj)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, obj);
     }
@@ -42,7 +42,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Int32 EqualityComparer_1::IndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     int IndexOf(::Array<T>* array, T value, int startIndex, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ObjectEqualityComparer_1").WithContext("IndexOf");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ObjectEqualityComparer_1::IndexOf");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "IndexOf", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(array, value, startIndex, count)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, array, value, startIndex, count);
     }
@@ -51,7 +51,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Int32 EqualityComparer_1::LastIndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     int LastIndexOf(::Array<T>* array, T value, int startIndex, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ObjectEqualityComparer_1").WithContext("LastIndexOf");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ObjectEqualityComparer_1::LastIndexOf");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "LastIndexOf", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(array, value, startIndex, count)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, array, value, startIndex, count);
     }
@@ -60,7 +60,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ObjectEqualityComparer_1").WithContext("Equals");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ObjectEqualityComparer_1::Equals");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(obj)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, obj);
     }
@@ -69,7 +69,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ObjectEqualityComparer_1").WithContext("GetHashCode");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ObjectEqualityComparer_1::GetHashCode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
@@ -80,7 +80,7 @@ namespace System::Collections::Generic {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectEqualityComparer_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ObjectEqualityComparer_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ObjectEqualityComparer_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectEqualityComparer_1<T>*, creationType>()));
     }
   }; // System.Collections.Generic.ObjectEqualityComparer`1

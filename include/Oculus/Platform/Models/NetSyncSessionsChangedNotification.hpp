@@ -42,7 +42,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DD16C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSyncSessionsChangedNotification* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("NetSyncSessionsChangedNotification").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::NetSyncSessionsChangedNotification::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSyncSessionsChangedNotification*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.NetSyncSessionsChangedNotification

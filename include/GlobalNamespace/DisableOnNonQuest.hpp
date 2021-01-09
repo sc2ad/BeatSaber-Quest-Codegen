@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisableOnNonQuest* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("DisableOnNonQuest").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DisableOnNonQuest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisableOnNonQuest*, creationType>()));
     }
   }; // DisableOnNonQuest

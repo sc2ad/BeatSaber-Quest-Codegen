@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     // Offset: 0x189C370
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferedAudioStream* New_ctor(UnityEngine::AudioSource* audio) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BufferedAudioStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BufferedAudioStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferedAudioStream*, creationType>(audio)));
     }
     // public System.Void Update()

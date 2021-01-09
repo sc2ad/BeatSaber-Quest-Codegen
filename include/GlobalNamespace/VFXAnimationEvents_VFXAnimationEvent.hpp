@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VFXAnimationEvents::VFXAnimationEvent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("VFXAnimationEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VFXAnimationEvents::VFXAnimationEvent*, creationType>()));
     }
   }; // VFXAnimationEvents/VFXAnimationEvent

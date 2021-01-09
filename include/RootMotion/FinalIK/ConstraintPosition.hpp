@@ -42,7 +42,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x174D208
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintPosition* New_ctor(UnityEngine::Transform* transform) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("ConstraintPosition").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::ConstraintPosition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintPosition*, creationType>(transform)));
     }
     // public override System.Void UpdateConstraint()
@@ -57,7 +57,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintPosition* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("ConstraintPosition").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::ConstraintPosition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintPosition*, creationType>()));
     }
   }; // RootMotion.FinalIK.ConstraintPosition

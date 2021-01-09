@@ -77,14 +77,14 @@ namespace Zenject {
     // Offset: 0x13559FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByInstaller* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo, System::Type* installerType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArgs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SubContainerCreatorByInstaller").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByInstaller*, creationType>(container, containerBindInfo, installerType, extraArgs)));
     }
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo, System.Type installerType)
     // Offset: 0x1354734
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByInstaller* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo, System::Type* installerType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SubContainerCreatorByInstaller").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByInstaller*, creationType>(container, containerBindInfo, installerType)));
     }
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)

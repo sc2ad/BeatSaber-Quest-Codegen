@@ -35,7 +35,7 @@ namespace System::Reflection {
     // Offset: 0x17205E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyCopyrightAttribute* New_ctor(::Il2CppString* copyright) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("AssemblyCopyrightAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyCopyrightAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyCopyrightAttribute*, creationType>(copyright)));
     }
   }; // System.Reflection.AssemblyCopyrightAttribute

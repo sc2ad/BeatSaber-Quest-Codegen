@@ -32,7 +32,7 @@ namespace System::Net::Configuration {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ipv6Element* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Configuration").WithContext("Ipv6Element").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Configuration::Ipv6Element::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ipv6Element*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()

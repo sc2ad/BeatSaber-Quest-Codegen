@@ -63,7 +63,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0xC9FE8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     SerializationEntry(::Il2CppString* entryName, ::Il2CppObject* entryValue, System::Type* entryType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("SerializationEntry").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationEntry::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(entryName, entryValue, entryType)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, entryName, entryValue, entryType);
     }

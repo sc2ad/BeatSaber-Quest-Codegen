@@ -25,7 +25,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.Void TriangulationPoint::.ctor(System.Double x, System.Double y, System.Int32 index)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PolygonPoint* New_ctor(double x, double y, int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("PolygonPoint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PolygonPoint*, creationType>(x, y, index)));
     }
   }; // UnityEngine.ProBuilder.Poly2Tri.PolygonPoint

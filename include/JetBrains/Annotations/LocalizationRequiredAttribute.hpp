@@ -35,7 +35,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE5D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizationRequiredAttribute* New_ctor(bool required) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("LocalizationRequiredAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::LocalizationRequiredAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizationRequiredAttribute*, creationType>(required)));
     }
     // public System.Boolean get_Required()
@@ -51,7 +51,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizationRequiredAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("LocalizationRequiredAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::LocalizationRequiredAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizationRequiredAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.LocalizationRequiredAttribute

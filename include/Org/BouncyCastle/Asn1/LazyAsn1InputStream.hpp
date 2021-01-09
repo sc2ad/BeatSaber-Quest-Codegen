@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void Asn1InputStream::.ctor(System.Byte[] input)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LazyAsn1InputStream* New_ctor(::Array<uint8_t>* input) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("LazyAsn1InputStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::LazyAsn1InputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LazyAsn1InputStream*, creationType>(input)));
     }
     // public System.Void .ctor(System.IO.Stream inputStream)
@@ -50,7 +50,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream inputStream)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LazyAsn1InputStream* New_ctor(System::IO::Stream* inputStream) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("LazyAsn1InputStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::LazyAsn1InputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LazyAsn1InputStream*, creationType>(inputStream)));
     }
     // override Org.BouncyCastle.Asn1.DerSequence CreateDerSequence(Org.BouncyCastle.Asn1.DefiniteLengthInputStream dIn)

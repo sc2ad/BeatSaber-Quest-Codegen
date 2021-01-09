@@ -50,7 +50,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x15E1110
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OffsetModifier::$Initiate$d__8* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("$Initiate$d__8").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::OffsetModifier::$Initiate$d__8::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OffsetModifier::$Initiate$d__8*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

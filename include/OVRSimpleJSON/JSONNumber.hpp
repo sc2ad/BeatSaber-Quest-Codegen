@@ -47,14 +47,14 @@ namespace OVRSimpleJSON {
     // Offset: 0x12E8338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONNumber* New_ctor(double aData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVRSimpleJSON").WithContext("JSONNumber").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONNumber::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONNumber*, creationType>(aData)));
     }
     // public System.Void .ctor(System.String aData)
     // Offset: 0x12ED920
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONNumber* New_ctor(::Il2CppString* aData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVRSimpleJSON").WithContext("JSONNumber").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONNumber::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONNumber*, creationType>(aData)));
     }
     // static private System.Boolean IsNumeric(System.Object value)

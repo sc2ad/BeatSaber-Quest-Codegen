@@ -87,7 +87,7 @@ namespace ModestTree::Util {
     // Offset: 0x10E7D9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityUtil::$GetDirectChildrenAndSelf$d__20* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("$GetDirectChildrenAndSelf$d__20").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::UnityUtil::$GetDirectChildrenAndSelf$d__20::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityUtil::$GetDirectChildrenAndSelf$d__20*, creationType>($$1__state)));
     }
     // private System.Void <>m__Finally1()

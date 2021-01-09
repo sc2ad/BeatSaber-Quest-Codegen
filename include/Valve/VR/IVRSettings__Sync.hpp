@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x192761C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSettings::_Sync* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_Sync").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRSettings::_Sync::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSettings::_Sync*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.Boolean bForce, ref Valve.VR.EVRSettingsError peError)

@@ -34,7 +34,7 @@ namespace UnityEngine::Experimental::Audio {
     // Offset: 0x19EDED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioSampleProvider::SampleFramesHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Experimental::Audio").WithContext("SampleFramesHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioSampleProvider::SampleFramesHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Experimental.Audio.AudioSampleProvider provider, System.UInt32 sampleFrameCount)

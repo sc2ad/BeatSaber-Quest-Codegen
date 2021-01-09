@@ -52,7 +52,7 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Base64Encoder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("Base64Encoder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Base64Encoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Base64Encoder*, creationType>()));
     }
   }; // System.Xml.Base64Encoder

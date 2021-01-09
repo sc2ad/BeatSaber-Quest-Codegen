@@ -56,7 +56,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1306060
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectHolderListEnumerator* New_ctor(System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("ObjectHolderListEnumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolderListEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolderListEnumerator*, creationType>(list, isFixupEnumerator)));
     }
     // System.Boolean MoveNext()

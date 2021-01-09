@@ -28,42 +28,42 @@ namespace System::Collections::Generic {
     // public TValue get_Item(TKey key)
     // Offset: 0xFFFFFFFF
     TValue get_Item(TKey key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IDictionary_2").WithContext("get_Item");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IDictionary_2::get_Item");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Item", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key)));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, key);
     }
     // public System.Void set_Item(TKey key, TValue value)
     // Offset: 0xFFFFFFFF
     void set_Item(TKey key, TValue value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IDictionary_2").WithContext("set_Item");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IDictionary_2::set_Item");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "set_Item", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key, value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, key, value);
     }
     // public System.Boolean ContainsKey(TKey key)
     // Offset: 0xFFFFFFFF
     bool ContainsKey(TKey key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IDictionary_2").WithContext("ContainsKey");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IDictionary_2::ContainsKey");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ContainsKey", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key);
     }
     // public System.Void Add(TKey key, TValue value)
     // Offset: 0xFFFFFFFF
     void System_Collections_Generic_IDictionary_2_Add(TKey key, TValue value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IDictionary_2").WithContext("Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IDictionary_2::Add");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key, value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, key, value);
     }
     // public System.Boolean Remove(TKey key)
     // Offset: 0xFFFFFFFF
     bool System_Collections_Generic_IDictionary_2_Remove(TKey key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IDictionary_2").WithContext("Remove");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IDictionary_2::Remove");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key);
     }
     // public System.Boolean TryGetValue(TKey key, out TValue value)
     // Offset: 0xFFFFFFFF
     bool TryGetValue(TKey key, TValue& value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IDictionary_2").WithContext("TryGetValue");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IDictionary_2::TryGetValue");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TryGetValue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key, value)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key, value);
     }

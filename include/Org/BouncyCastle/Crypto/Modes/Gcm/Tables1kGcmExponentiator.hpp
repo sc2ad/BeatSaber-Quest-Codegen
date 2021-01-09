@@ -59,7 +59,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tables1kGcmExponentiator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Modes::Gcm").WithContext("Tables1kGcmExponentiator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tables1kGcmExponentiator*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.Tables1kGcmExponentiator

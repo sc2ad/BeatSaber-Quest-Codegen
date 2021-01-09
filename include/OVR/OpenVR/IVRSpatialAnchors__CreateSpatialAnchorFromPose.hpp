@@ -44,7 +44,7 @@ namespace OVR::OpenVR {
     // Offset: 0x190E750
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSpatialAnchors::_CreateSpatialAnchorFromPose* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_CreateSpatialAnchorFromPose").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromPose::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSpatialAnchors::_CreateSpatialAnchorFromPose*, creationType>(object, method)));
     }
     // public OVR.OpenVR.EVRSpatialAnchorError Invoke(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackingUniverseOrigin eOrigin, ref OVR.OpenVR.SpatialAnchorPose_t pPose, ref System.UInt32 pHandleOut)

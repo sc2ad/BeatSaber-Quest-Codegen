@@ -44,7 +44,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0xC948C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GCHandle(System::IntPtr h) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("GCHandle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::GCHandle::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(h)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, h);
     }
@@ -52,7 +52,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0xC948F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GCHandle(::Il2CppObject* obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("GCHandle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::GCHandle::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(obj)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, obj);
     }
@@ -60,7 +60,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0xC94924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GCHandle(::Il2CppObject* value, System::Runtime::InteropServices::GCHandleType type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("GCHandle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::GCHandle::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value, type)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value, type);
     }

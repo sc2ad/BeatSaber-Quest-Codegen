@@ -73,7 +73,7 @@ namespace LIV::SDK::Unity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LIV* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LIV::SDK::Unity").WithContext("LIV").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LIV::SDK::Unity::LIV::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LIV*, creationType>()));
     }
   }; // LIV.SDK.Unity.LIV

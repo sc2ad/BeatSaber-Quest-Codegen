@@ -83,7 +83,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaiwanCalendar* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Globalization").WithContext("TaiwanCalendar").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::TaiwanCalendar::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaiwanCalendar*, creationType>()));
     }
     // override System.Int32 get_ID()

@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Offset: 0x1978CA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSkeletonRenderer::CapsuleVisualization* New_ctor(UnityEngine::GameObject* rootGO, UnityEngine::Material* renderMat, UnityEngine::Material* systemGestureMat, float scale, GlobalNamespace::OVRBoneCapsule* boneCapsule) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("CapsuleVisualization").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSkeletonRenderer::CapsuleVisualization*, creationType>(rootGO, renderMat, systemGestureMat, scale, boneCapsule)));
     }
     // public System.Void Update(System.Single scale, System.Boolean shouldRender, System.Boolean shouldUseSystemGestureMaterial, OVRSkeletonRenderer/ConfidenceBehavior confidenceBehavior, OVRSkeletonRenderer/SystemGestureBehavior systemGestureBehavior)

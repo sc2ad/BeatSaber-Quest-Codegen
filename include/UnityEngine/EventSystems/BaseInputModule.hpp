@@ -163,7 +163,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseInputModule* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("BaseInputModule").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::BaseInputModule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseInputModule*, creationType>()));
     }
   }; // UnityEngine.EventSystems.BaseInputModule

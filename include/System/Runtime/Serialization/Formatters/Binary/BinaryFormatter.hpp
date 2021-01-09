@@ -126,7 +126,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x1338314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryFormatter* New_ctor(System::Runtime::Serialization::ISurrogateSelector* selector, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization::Formatters::Binary").WithContext("BinaryFormatter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryFormatter*, creationType>(selector, context)));
     }
     // public System.Object Deserialize(System.IO.Stream serializationStream)
@@ -159,7 +159,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryFormatter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization::Formatters::Binary").WithContext("BinaryFormatter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryFormatter*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryFormatter

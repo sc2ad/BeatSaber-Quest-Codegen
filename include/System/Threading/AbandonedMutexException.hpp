@@ -52,7 +52,7 @@ namespace System::Threading {
     // Offset: 0x16B1958
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbandonedMutexException* New_ctor(int location, System::Threading::WaitHandle* handle) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("AbandonedMutexException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AbandonedMutexException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbandonedMutexException*, creationType>(location, handle)));
     }
     // private System.Void SetupException(System.Int32 location, System.Threading.WaitHandle handle)
@@ -66,7 +66,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbandonedMutexException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("AbandonedMutexException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AbandonedMutexException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbandonedMutexException*, creationType>()));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -76,7 +76,7 @@ namespace System::Threading {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbandonedMutexException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("AbandonedMutexException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AbandonedMutexException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbandonedMutexException*, creationType>(info, context)));
     }
   }; // System.Threading.AbandonedMutexException

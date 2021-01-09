@@ -41,20 +41,20 @@ namespace System::Threading {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SparselyPopulatedArray_1<T>* New_ctor(int initialSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArray_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArray_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SparselyPopulatedArray_1<T>*, creationType>(initialSize)));
     }
     // System.Threading.SparselyPopulatedArrayFragment`1<T> get_Tail()
     // Offset: 0xFFFFFFFF
     System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Tail() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArray_1").WithContext("get_Tail");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArray_1::get_Tail");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Tail", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Threading::SparselyPopulatedArrayFragment_1<T>*, false>(this, ___internal__method);
     }
     // System.Threading.SparselyPopulatedArrayAddInfo`1<T> Add(T element)
     // Offset: 0xFFFFFFFF
     System::Threading::SparselyPopulatedArrayAddInfo_1<T> Add(T element) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArray_1").WithContext("Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArray_1::Add");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(element)));
       return ::il2cpp_utils::RunMethodThrow<System::Threading::SparselyPopulatedArrayAddInfo_1<T>, false>(this, ___internal__method, element);
     }

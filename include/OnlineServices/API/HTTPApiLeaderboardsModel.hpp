@@ -105,7 +105,7 @@ namespace OnlineServices::API {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPApiLeaderboardsModel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OnlineServices::API").WithContext("HTTPApiLeaderboardsModel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::API::HTTPApiLeaderboardsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPApiLeaderboardsModel*, creationType>()));
     }
   }; // OnlineServices.API.HTTPApiLeaderboardsModel

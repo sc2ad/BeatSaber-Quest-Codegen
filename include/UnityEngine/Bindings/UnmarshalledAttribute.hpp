@@ -28,7 +28,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnmarshalledAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Bindings").WithContext("UnmarshalledAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::UnmarshalledAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnmarshalledAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.UnmarshalledAttribute

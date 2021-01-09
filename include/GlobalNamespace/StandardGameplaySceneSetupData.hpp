@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     // Offset: 0xF3DDFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardGameplaySceneSetupData* New_ctor(bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::Il2CppString* backButtonText) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("StandardGameplaySceneSetupData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardGameplaySceneSetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardGameplaySceneSetupData*, creationType>(autoRestart, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, backButtonText)));
     }
   }; // StandardGameplaySceneSetupData

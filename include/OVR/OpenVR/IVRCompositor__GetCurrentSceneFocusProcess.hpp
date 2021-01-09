@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x185A8B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_GetCurrentSceneFocusProcess* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetCurrentSceneFocusProcess").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRCompositor::_GetCurrentSceneFocusProcess::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_GetCurrentSceneFocusProcess*, creationType>(object, method)));
     }
     // public System.UInt32 Invoke()

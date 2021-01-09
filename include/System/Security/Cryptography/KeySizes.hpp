@@ -49,7 +49,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x1693DF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeySizes* New_ctor(int minSize, int maxSize, int skipSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("KeySizes").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::KeySizes::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeySizes*, creationType>(minSize, maxSize, skipSize)));
     }
     // System.Boolean IsLegal(System.Int32 keySize)

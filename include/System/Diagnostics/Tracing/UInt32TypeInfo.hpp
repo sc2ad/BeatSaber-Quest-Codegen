@@ -44,7 +44,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UInt32TypeInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("UInt32TypeInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::UInt32TypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UInt32TypeInfo*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.UInt32TypeInfo

@@ -35,7 +35,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1164A80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FieldOffsetAttribute* New_ctor(int offset) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("FieldOffsetAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::FieldOffsetAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FieldOffsetAttribute*, creationType>(offset)));
     }
   }; // System.Runtime.InteropServices.FieldOffsetAttribute

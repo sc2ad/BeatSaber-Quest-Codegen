@@ -71,7 +71,7 @@ namespace Oculus::Platform {
       // Offset: 0xC963F0
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       Criterion(::Il2CppString* key_, Oculus::Platform::MatchmakingCriterionImportance importance_) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("Criterion").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Matchmaking::CustomQuery::Criterion::.ctor");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key_, importance_)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key_, importance_);
       }
@@ -101,7 +101,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Matchmaking::CustomQuery* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("CustomQuery").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Matchmaking::CustomQuery::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Matchmaking::CustomQuery*, creationType>()));
     }
   }; // Oculus.Platform.Matchmaking/CustomQuery

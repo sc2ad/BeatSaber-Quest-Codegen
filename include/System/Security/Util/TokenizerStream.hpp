@@ -114,7 +114,7 @@ namespace System::Security::Util {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TokenizerStream* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Util").WithContext("TokenizerStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::TokenizerStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TokenizerStream*, creationType>()));
     }
   }; // System.Security.Util.TokenizerStream

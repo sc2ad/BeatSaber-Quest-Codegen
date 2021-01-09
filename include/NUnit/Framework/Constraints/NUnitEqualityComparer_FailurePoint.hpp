@@ -55,7 +55,7 @@ namespace NUnit::Framework::Constraints {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NUnitEqualityComparer::FailurePoint* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Constraints").WithContext("FailurePoint").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NUnitEqualityComparer::FailurePoint*, creationType>()));
     }
   }; // NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint

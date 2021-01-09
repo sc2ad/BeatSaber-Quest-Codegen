@@ -28,7 +28,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializableAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("SerializableAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::SerializableAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializableAttribute*, creationType>()));
     }
   }; // System.SerializableAttribute

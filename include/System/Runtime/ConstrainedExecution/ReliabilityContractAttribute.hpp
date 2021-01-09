@@ -40,7 +40,7 @@ namespace System::Runtime::ConstrainedExecution {
     // Offset: 0x1163F3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReliabilityContractAttribute* New_ctor(System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, System::Runtime::ConstrainedExecution::Cer cer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::ConstrainedExecution").WithContext("ReliabilityContractAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReliabilityContractAttribute*, creationType>(consistencyGuarantee, cer)));
     }
   }; // System.Runtime.ConstrainedExecution.ReliabilityContractAttribute

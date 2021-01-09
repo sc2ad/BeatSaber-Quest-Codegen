@@ -50,7 +50,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolWrapperFactory_1<T>* New_ctor(Zenject::IMemoryPool_1<T>* pool) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PoolWrapperFactory_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolWrapperFactory_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolWrapperFactory_1<T>*, creationType>(pool)));
     }
     // public T Create()
@@ -58,7 +58,7 @@ namespace Zenject {
     // Implemented from: Zenject.IFactory`1
     // Base method: TValue IFactory_1::Create()
     T Create() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PoolWrapperFactory_1").WithContext("Create");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolWrapperFactory_1::Create");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }

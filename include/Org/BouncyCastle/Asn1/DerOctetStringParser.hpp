@@ -51,7 +51,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1377A1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerOctetStringParser* New_ctor(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* stream) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1").WithContext("DerOctetStringParser").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerOctetStringParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerOctetStringParser*, creationType>(stream)));
     }
     // public System.IO.Stream GetOctetStream()

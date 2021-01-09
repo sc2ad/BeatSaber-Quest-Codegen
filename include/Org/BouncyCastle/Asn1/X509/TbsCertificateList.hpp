@@ -103,7 +103,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x157E268
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TbsCertificateList* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X509").WithContext("TbsCertificateList").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::TbsCertificateList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TbsCertificateList*, creationType>(seq)));
     }
     // public System.Int32 get_Version()

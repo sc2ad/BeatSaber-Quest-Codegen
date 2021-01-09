@@ -63,7 +63,7 @@ namespace Zenject {
     // Offset: 0x129FC78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializableManager* New_ctor(System::Collections::Generic::List_1<Zenject::IInitializable*>* initializables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("InitializableManager").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InitializableManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InitializableManager*, creationType>(initializables, priorities)));
     }
     // public System.Void Add(Zenject.IInitializable initializable)

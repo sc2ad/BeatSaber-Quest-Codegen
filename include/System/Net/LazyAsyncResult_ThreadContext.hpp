@@ -35,7 +35,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LazyAsyncResult::ThreadContext* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("ThreadContext").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::LazyAsyncResult::ThreadContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LazyAsyncResult::ThreadContext*, creationType>()));
     }
   }; // System.Net.LazyAsyncResult/ThreadContext

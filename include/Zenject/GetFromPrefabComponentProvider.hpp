@@ -68,7 +68,7 @@ namespace Zenject {
     // Offset: 0x1296DB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GetFromPrefabComponentProvider* New_ctor(System::Type* componentType, Zenject::IPrefabInstantiator* prefabInstantiator, bool matchSingle) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("GetFromPrefabComponentProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::GetFromPrefabComponentProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GetFromPrefabComponentProvider*, creationType>(componentType, prefabInstantiator, matchSingle)));
     }
     // public System.Boolean get_IsCached()

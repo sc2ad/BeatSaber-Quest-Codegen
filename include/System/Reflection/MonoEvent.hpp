@@ -120,7 +120,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoEvent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("MonoEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoEvent*, creationType>()));
     }
   }; // System.Reflection.MonoEvent

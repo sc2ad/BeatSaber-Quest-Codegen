@@ -94,7 +94,7 @@ namespace System::Text {
     // Offset: 0x15A2E84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Encoding::EncodingCharBuffer* New_ctor(System::Text::Encoding* enc, System::Text::DecoderNLS* decoder, ::Il2CppChar* charStart, int charCount, uint8_t* byteStart, int byteCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("EncodingCharBuffer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::Encoding::EncodingCharBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoding::EncodingCharBuffer*, creationType>(enc, decoder, charStart, charCount, byteStart, byteCount)));
     }
     // System.Boolean AddChar(System.Char ch, System.Int32 numBytes)

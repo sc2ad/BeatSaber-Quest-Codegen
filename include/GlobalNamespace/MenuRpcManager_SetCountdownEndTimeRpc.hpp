@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuRpcManager::SetCountdownEndTimeRpc* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SetCountdownEndTimeRpc").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MenuRpcManager::SetCountdownEndTimeRpc::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuRpcManager::SetCountdownEndTimeRpc*, creationType>()));
     }
   }; // MenuRpcManager/SetCountdownEndTimeRpc

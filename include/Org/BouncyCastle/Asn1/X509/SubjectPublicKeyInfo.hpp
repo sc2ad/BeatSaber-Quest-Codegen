@@ -54,14 +54,14 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x157E084
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubjectPublicKeyInfo* New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::Array<uint8_t>* publicKey) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X509").WithContext("SubjectPublicKeyInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubjectPublicKeyInfo*, creationType>(algID, publicKey)));
     }
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x157DF04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubjectPublicKeyInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X509").WithContext("SubjectPublicKeyInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubjectPublicKeyInfo*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_AlgorithmID()

@@ -53,7 +53,7 @@ namespace System::Threading {
     // Offset: 0x1D1C040
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadPoolWorkQueueThreadLocals* New_ctor(System::Threading::ThreadPoolWorkQueue* tpq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("ThreadPoolWorkQueueThreadLocals").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadPoolWorkQueueThreadLocals::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadPoolWorkQueueThreadLocals*, creationType>(tpq)));
     }
     // private System.Void CleanUp()

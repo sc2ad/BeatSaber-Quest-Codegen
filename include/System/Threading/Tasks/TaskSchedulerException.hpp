@@ -30,7 +30,7 @@ namespace System::Threading::Tasks {
     // Offset: 0x1D11A5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskSchedulerException* New_ctor(System::Exception* innerException) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("TaskSchedulerException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskSchedulerException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskSchedulerException*, creationType>(innerException)));
     }
     // public System.Void .ctor()
@@ -40,7 +40,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskSchedulerException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("TaskSchedulerException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskSchedulerException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskSchedulerException*, creationType>()));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -49,7 +49,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskSchedulerException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("TaskSchedulerException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskSchedulerException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskSchedulerException*, creationType>(info, context)));
     }
   }; // System.Threading.Tasks.TaskSchedulerException

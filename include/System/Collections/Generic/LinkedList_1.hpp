@@ -115,7 +115,7 @@ namespace System::Collections::Generic {
       // Offset: 0xFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       Enumerator(System::Collections::Generic::LinkedList_1<T>* list) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("Enumerator").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(list)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, list);
       }
@@ -123,7 +123,7 @@ namespace System::Collections::Generic {
       // Offset: 0xFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       Enumerator(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("Enumerator").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(info, context)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, info, context);
       }
@@ -132,7 +132,7 @@ namespace System::Collections::Generic {
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator_1::get_Current()
       T get_Current() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("Enumerator").WithContext("get_Current");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Enumerator::get_Current");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "get_Current", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method);
       }
@@ -146,7 +146,7 @@ namespace System::Collections::Generic {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("Enumerator").WithContext("System.Collections.IEnumerator.get_Current");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Enumerator::System.Collections.IEnumerator.get_Current");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(*this, ___internal__method);
       }
@@ -155,7 +155,7 @@ namespace System::Collections::Generic {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("Enumerator").WithContext("MoveNext");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Enumerator::MoveNext");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
       }
@@ -169,7 +169,7 @@ namespace System::Collections::Generic {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("Enumerator").WithContext("System.Collections.IEnumerator.Reset");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Enumerator::System.Collections.IEnumerator.Reset");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
       }
@@ -178,7 +178,7 @@ namespace System::Collections::Generic {
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void Dispose() {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("Enumerator").WithContext("Dispose");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Enumerator::Dispose");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "Dispose", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
       }
@@ -192,7 +192,7 @@ namespace System::Collections::Generic {
       // Implemented from: System.Runtime.Serialization.ISerializable
       // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
       void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("Enumerator").WithContext("System.Runtime.Serialization.ISerializable.GetObjectData");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Enumerator::System.Runtime.Serialization.ISerializable.GetObjectData");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(info, context)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, info, context);
       }
@@ -201,7 +201,7 @@ namespace System::Collections::Generic {
       // Implemented from: System.Runtime.Serialization.IDeserializationCallback
       // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
       void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("Enumerator").WithContext("System.Runtime.Serialization.IDeserializationCallback.OnDeserialization");
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Enumerator::System.Runtime.Serialization.IDeserializationCallback.OnDeserialization");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(sender)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, sender);
       }
@@ -262,148 +262,148 @@ namespace System::Collections::Generic {
     // Autogenerated static field getter
     // Get static field: static private System.String VersionName
     static ::Il2CppString* _get_VersionName() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("_get_VersionName");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::_get_VersionName");
       return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Il2CppString*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LinkedList_1<T>*>::get(), "VersionName"));
     }
     // Autogenerated static field setter
     // Set static field: static private System.String VersionName
     static void _set_VersionName(::Il2CppString* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("_set_VersionName");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::_set_VersionName");
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LinkedList_1<T>*>::get(), "VersionName", value));
     }
     // Autogenerated static field getter
     // Get static field: static private System.String CountName
     static ::Il2CppString* _get_CountName() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("_get_CountName");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::_get_CountName");
       return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Il2CppString*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LinkedList_1<T>*>::get(), "CountName"));
     }
     // Autogenerated static field setter
     // Set static field: static private System.String CountName
     static void _set_CountName(::Il2CppString* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("_set_CountName");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::_set_CountName");
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LinkedList_1<T>*>::get(), "CountName", value));
     }
     // Autogenerated static field getter
     // Get static field: static private System.String ValuesName
     static ::Il2CppString* _get_ValuesName() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("_get_ValuesName");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::_get_ValuesName");
       return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Il2CppString*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LinkedList_1<T>*>::get(), "ValuesName"));
     }
     // Autogenerated static field setter
     // Set static field: static private System.String ValuesName
     static void _set_ValuesName(::Il2CppString* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("_set_ValuesName");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::_set_ValuesName");
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LinkedList_1<T>*>::get(), "ValuesName", value));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinkedList_1<T>* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinkedList_1<T>*, creationType>(info, context)));
     }
     // public System.Collections.Generic.LinkedListNode`1<T> get_First()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::LinkedListNode_1<T>* get_First() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("get_First");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::get_First");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_First", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method);
     }
     // public System.Collections.Generic.LinkedListNode`1<T> get_Last()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::LinkedListNode_1<T>* get_Last() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("get_Last");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::get_Last");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Last", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method);
     }
     // public System.Collections.Generic.LinkedListNode`1<T> AddBefore(System.Collections.Generic.LinkedListNode`1<T> node, T value)
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::LinkedListNode_1<T>* AddBefore(System::Collections::Generic::LinkedListNode_1<T>* node, T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("AddBefore");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::AddBefore");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AddBefore", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node, value)));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method, node, value);
     }
     // public System.Collections.Generic.LinkedListNode`1<T> AddFirst(T value)
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::LinkedListNode_1<T>* AddFirst(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("AddFirst");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::AddFirst");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AddFirst", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method, value);
     }
     // public System.Void AddFirst(System.Collections.Generic.LinkedListNode`1<T> node)
     // Offset: 0xFFFFFFFF
     void AddFirst(System::Collections::Generic::LinkedListNode_1<T>* node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("AddFirst");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::AddFirst");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AddFirst", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node);
     }
     // public System.Collections.Generic.LinkedListNode`1<T> AddLast(T value)
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::LinkedListNode_1<T>* AddLast(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("AddLast");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::AddLast");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AddLast", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method, value);
     }
     // public System.Collections.Generic.LinkedListNode`1<T> Find(T value)
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::LinkedListNode_1<T>* Find(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("Find");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Find");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Find", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method, value);
     }
     // public System.Collections.Generic.LinkedList`1/Enumerator<T> GetEnumerator()
     // Offset: 0xFFFFFFFF
     typename System::Collections::Generic::LinkedList_1<T>::Enumerator GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("GetEnumerator");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::GetEnumerator");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<typename System::Collections::Generic::LinkedList_1<T>::Enumerator, false>(this, ___internal__method);
     }
     // public System.Void Remove(System.Collections.Generic.LinkedListNode`1<T> node)
     // Offset: 0xFFFFFFFF
     void Remove(System::Collections::Generic::LinkedListNode_1<T>* node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("Remove");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Remove");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node);
     }
     // public System.Void RemoveLast()
     // Offset: 0xFFFFFFFF
     void RemoveLast() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("RemoveLast");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::RemoveLast");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "RemoveLast", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // private System.Void InternalInsertNodeBefore(System.Collections.Generic.LinkedListNode`1<T> node, System.Collections.Generic.LinkedListNode`1<T> newNode)
     // Offset: 0xFFFFFFFF
     void InternalInsertNodeBefore(System::Collections::Generic::LinkedListNode_1<T>* node, System::Collections::Generic::LinkedListNode_1<T>* newNode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("InternalInsertNodeBefore");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::InternalInsertNodeBefore");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InternalInsertNodeBefore", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node, newNode)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node, newNode);
     }
     // private System.Void InternalInsertNodeToEmptyList(System.Collections.Generic.LinkedListNode`1<T> newNode)
     // Offset: 0xFFFFFFFF
     void InternalInsertNodeToEmptyList(System::Collections::Generic::LinkedListNode_1<T>* newNode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("InternalInsertNodeToEmptyList");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::InternalInsertNodeToEmptyList");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InternalInsertNodeToEmptyList", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(newNode)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, newNode);
     }
     // System.Void InternalRemoveNode(System.Collections.Generic.LinkedListNode`1<T> node)
     // Offset: 0xFFFFFFFF
     void InternalRemoveNode(System::Collections::Generic::LinkedListNode_1<T>* node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("InternalRemoveNode");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::InternalRemoveNode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InternalRemoveNode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node);
     }
     // System.Void ValidateNewNode(System.Collections.Generic.LinkedListNode`1<T> node)
     // Offset: 0xFFFFFFFF
     void ValidateNewNode(System::Collections::Generic::LinkedListNode_1<T>* node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("ValidateNewNode");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::ValidateNewNode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ValidateNewNode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node);
     }
     // System.Void ValidateNode(System.Collections.Generic.LinkedListNode`1<T> node)
     // Offset: 0xFFFFFFFF
     void ValidateNode(System::Collections::Generic::LinkedListNode_1<T>* node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("ValidateNode");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::ValidateNode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ValidateNode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node);
     }
@@ -413,7 +413,7 @@ namespace System::Collections::Generic {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinkedList_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinkedList_1<T>*, creationType>()));
     }
     // public System.Int32 get_Count()
@@ -423,7 +423,7 @@ namespace System::Collections::Generic {
     // Base method: System.Int32 ICollection::get_Count()
     // Base method: System.Int32 IReadOnlyCollection_1::get_Count()
     int get_Count() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("get_Count");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::get_Count");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
@@ -442,7 +442,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::get_IsReadOnly()
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("System.Collections.Generic.ICollection<T>.get_IsReadOnly");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::System.Collections.Generic.ICollection<T>.get_IsReadOnly");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.ICollection<T>.get_IsReadOnly", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
@@ -451,7 +451,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Add(T value)
     void System_Collections_Generic_ICollection_1_Add(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("System.Collections.Generic.ICollection<T>.Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::System.Collections.Generic.ICollection<T>.Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.ICollection<T>.Add", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value))));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
@@ -460,7 +460,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Clear()
     void Clear() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("Clear");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Clear");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
@@ -474,7 +474,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Contains(T value)
     bool Contains(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("Contains");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Contains");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Contains", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value);
     }
@@ -488,7 +488,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::CopyTo(T[] array, System.Int32 index)
     void CopyTo(::Array<T>* array, int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("CopyTo");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::CopyTo");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(array, index)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, array, index);
     }
@@ -502,7 +502,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_1_GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("System.Collections.Generic.IEnumerable<T>.GetEnumerator");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::System.Collections.Generic.IEnumerable<T>.GetEnumerator");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerable<T>.GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal__method);
     }
@@ -511,7 +511,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Remove(T value)
     bool Remove(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("Remove");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Remove");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value);
     }
@@ -525,7 +525,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("GetObjectData");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::GetObjectData");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetObjectData", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(info, context)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, info, context);
     }
@@ -539,7 +539,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void OnDeserialization(::Il2CppObject* sender) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("OnDeserialization");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::OnDeserialization");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnDeserialization", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(sender)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, sender);
     }
@@ -553,7 +553,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("System.Collections.ICollection.CopyTo");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::System.Collections.ICollection.CopyTo");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.ICollection.CopyTo", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(array, index)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, array, index);
     }
@@ -562,7 +562,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedList_1").WithContext("System.Collections.IEnumerable.GetEnumerator");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::System.Collections.IEnumerable.GetEnumerator");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
     }

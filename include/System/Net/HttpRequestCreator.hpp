@@ -41,7 +41,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestCreator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("HttpRequestCreator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpRequestCreator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestCreator*, creationType>()));
     }
     // public System.Net.WebRequest Create(System.Uri uri)

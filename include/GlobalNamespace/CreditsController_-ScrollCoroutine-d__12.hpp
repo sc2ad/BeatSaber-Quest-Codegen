@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A55934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsController::$ScrollCoroutine$d__12* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$ScrollCoroutine$d__12").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CreditsController::$ScrollCoroutine$d__12::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreditsController::$ScrollCoroutine$d__12*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

@@ -50,7 +50,7 @@ namespace UnityEngine {
     // public T Resolve(UnityEngine.IExposedPropertyTable resolver)
     // Offset: 0xFFFFFFFF
     T Resolve(UnityEngine::IExposedPropertyTable* resolver) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("ExposedReference_1").WithContext("Resolve");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ExposedReference_1::Resolve");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "Resolve", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(resolver)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method, resolver);
     }

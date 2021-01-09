@@ -39,7 +39,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x133D374
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixupHolder* New_ctor(int64_t id, ::Il2CppObject* fixupInfo, int fixupType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("FixupHolder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::FixupHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixupHolder*, creationType>(id, fixupInfo, fixupType)));
     }
   }; // System.Runtime.Serialization.FixupHolder

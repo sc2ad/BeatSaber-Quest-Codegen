@@ -37,14 +37,14 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1162DFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompilationRelaxationsAttribute* New_ctor(int relaxations) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("CompilationRelaxationsAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::CompilationRelaxationsAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompilationRelaxationsAttribute*, creationType>(relaxations)));
     }
     // public System.Void .ctor(System.Runtime.CompilerServices.CompilationRelaxations relaxations)
     // Offset: 0x1162E28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompilationRelaxationsAttribute* New_ctor(System::Runtime::CompilerServices::CompilationRelaxations relaxations) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("CompilationRelaxationsAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::CompilationRelaxationsAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompilationRelaxationsAttribute*, creationType>(relaxations)));
     }
     // public System.Int32 get_CompilationRelaxations()

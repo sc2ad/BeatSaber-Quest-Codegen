@@ -41,7 +41,7 @@ namespace Mono::Net::Security {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MobileAuthenticatedStream::$$c__DisplayClass66_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Net::Security").WithContext("$$c__DisplayClass66_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MobileAuthenticatedStream::$$c__DisplayClass66_0*, creationType>()));
     }
   }; // Mono.Net.Security.MobileAuthenticatedStream/<>c__DisplayClass66_0

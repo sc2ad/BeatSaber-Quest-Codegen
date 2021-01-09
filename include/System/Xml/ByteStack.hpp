@@ -45,7 +45,7 @@ namespace System::Xml {
     // Offset: 0x14DF1A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteStack* New_ctor(int growthRate) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("ByteStack").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::ByteStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteStack*, creationType>(growthRate)));
     }
     // public System.Void Push(System.Byte data)

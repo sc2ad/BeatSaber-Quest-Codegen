@@ -48,7 +48,7 @@ namespace Il2CppDummyDll {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Il2CppDummyDll").WithContext("AddressAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Il2CppDummyDll::AddressAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressAttribute*, creationType>()));
     }
   }; // Il2CppDummyDll.AddressAttribute

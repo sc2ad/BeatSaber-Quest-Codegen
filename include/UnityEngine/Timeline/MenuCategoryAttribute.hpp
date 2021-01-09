@@ -34,7 +34,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x141E104
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuCategoryAttribute* New_ctor(::Il2CppString* category) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("MenuCategoryAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::MenuCategoryAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuCategoryAttribute*, creationType>(category)));
     }
   }; // UnityEngine.Timeline.MenuCategoryAttribute

@@ -39,7 +39,7 @@ namespace System::Resources {
     // Offset: 0x15D5CB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NeutralResourcesLanguageAttribute* New_ctor(::Il2CppString* cultureName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("NeutralResourcesLanguageAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::NeutralResourcesLanguageAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NeutralResourcesLanguageAttribute*, creationType>(cultureName)));
     }
     // public System.String get_CultureName()

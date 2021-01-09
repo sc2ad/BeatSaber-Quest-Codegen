@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x18E2AEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRChaperoneSetup::_RevertWorkingCopy* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_RevertWorkingCopy").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRChaperoneSetup::_RevertWorkingCopy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRChaperoneSetup::_RevertWorkingCopy*, creationType>(object, method)));
     }
     // public System.Void Invoke()

@@ -25,7 +25,7 @@ namespace Microsoft::Win32::SafeHandles {
     // Base method: System.Void SafeHandle::.ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeWaitHandle* New_ctor(System::IntPtr existingHandle, bool ownsHandle) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Microsoft::Win32::SafeHandles").WithContext("SafeWaitHandle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::SafeHandles::SafeWaitHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeWaitHandle*, creationType>(existingHandle, ownsHandle)));
     }
     // protected override System.Boolean ReleaseHandle()

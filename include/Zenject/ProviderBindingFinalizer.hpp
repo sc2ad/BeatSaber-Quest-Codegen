@@ -70,7 +70,7 @@ namespace Zenject {
     // Offset: 0x1349824
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProviderBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ProviderBindingFinalizer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ProviderBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProviderBindingFinalizer*, creationType>(bindInfo)));
     }
     // protected Zenject.BindInfo get_BindInfo()
@@ -89,7 +89,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     void RegisterProvider(Zenject::DiContainer* container, Zenject::IProvider* provider) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ProviderBindingFinalizer").WithContext("RegisterProvider");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ProviderBindingFinalizer::RegisterProvider");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "RegisterProvider", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes(container, provider)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, container, provider);

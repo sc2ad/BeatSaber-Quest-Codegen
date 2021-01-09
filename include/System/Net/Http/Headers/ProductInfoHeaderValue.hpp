@@ -56,7 +56,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x1207588
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProductInfoHeaderValue* New_ctor(System::Net::Http::Headers::ProductHeaderValue* product) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("ProductInfoHeaderValue").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::ProductInfoHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProductInfoHeaderValue*, creationType>(product)));
     }
     // public System.String get_Comment()
@@ -83,7 +83,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProductInfoHeaderValue* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("ProductInfoHeaderValue").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::ProductInfoHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProductInfoHeaderValue*, creationType>()));
     }
     // private System.Object System.ICloneable.Clone()

@@ -58,7 +58,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x132F1DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackBuilderSink* New_ctor(System::MarshalByRefObject* obj, bool forceInternalExecute) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Messaging").WithContext("StackBuilderSink").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::StackBuilderSink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackBuilderSink*, creationType>(obj, forceInternalExecute)));
     }
     // private System.Void ExecuteAsyncMessage(System.Object ob)

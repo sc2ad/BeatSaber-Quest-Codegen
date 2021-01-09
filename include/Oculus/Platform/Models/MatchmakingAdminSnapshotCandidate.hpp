@@ -55,7 +55,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E1434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingAdminSnapshotCandidate* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("MatchmakingAdminSnapshotCandidate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingAdminSnapshotCandidate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MatchmakingAdminSnapshotCandidate*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.MatchmakingAdminSnapshotCandidate

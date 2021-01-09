@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A24770
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectAvoidanceYOffsetEvaluator* New_ctor(GlobalNamespace::IAudioTimeSource* audioTimeSource, GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController, float moveToPlayerHeadTParam, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BeatmapObjectAvoidanceYOffsetEvaluator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidanceYOffsetEvaluator*, creationType>(audioTimeSource, beatmapObjectSpawnController, moveToPlayerHeadTParam, noteSpawnData)));
     }
     // public System.Void ManualUpdate()

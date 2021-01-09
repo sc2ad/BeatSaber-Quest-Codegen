@@ -56,7 +56,7 @@ namespace Mono::Security::Authenticode {
     // Offset: 0x17B0C20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivateKey* New_ctor(::Array<uint8_t>* data, ::Il2CppString* password) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::Authenticode").WithContext("PrivateKey").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Authenticode::PrivateKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKey*, creationType>(data, password)));
     }
     // public System.Security.Cryptography.RSA get_RSA()

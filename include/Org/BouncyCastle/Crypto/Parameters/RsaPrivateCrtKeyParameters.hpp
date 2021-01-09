@@ -66,7 +66,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1049B38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaPrivateCrtKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* modulus, Org::BouncyCastle::Math::BigInteger* publicExponent, Org::BouncyCastle::Math::BigInteger* privateExponent, Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* q, Org::BouncyCastle::Math::BigInteger* dP, Org::BouncyCastle::Math::BigInteger* dQ, Org::BouncyCastle::Math::BigInteger* qInv) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("RsaPrivateCrtKeyParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaPrivateCrtKeyParameters*, creationType>(modulus, publicExponent, privateExponent, p, q, dP, dQ, qInv)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_PublicExponent()

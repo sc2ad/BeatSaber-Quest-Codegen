@@ -193,14 +193,14 @@ namespace System::Reflection {
     // Offset: 0x17207C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyName* New_ctor(::Il2CppString* assemblyName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("AssemblyName").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyName*, creationType>(assemblyName)));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext sc)
     // Offset: 0x17209E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyName* New_ctor(System::Runtime::Serialization::SerializationInfo* si, System::Runtime::Serialization::StreamingContext sc) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("AssemblyName").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyName*, creationType>(si, sc)));
     }
     // public System.String get_Name()
@@ -266,7 +266,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyName* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("AssemblyName").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyName*, creationType>()));
     }
     // public override System.String ToString()

@@ -81,14 +81,14 @@ namespace System::Diagnostics {
     // Offset: 0x1677F8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackTrace* New_ctor(bool fNeedFileInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("StackTrace").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::StackTrace::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackTrace*, creationType>(fNeedFileInfo)));
     }
     // public System.Void .ctor(System.Int32 skipFrames, System.Boolean fNeedFileInfo)
     // Offset: 0x1677FC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackTrace* New_ctor(int skipFrames, bool fNeedFileInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("StackTrace").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::StackTrace::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackTrace*, creationType>(skipFrames, fNeedFileInfo)));
     }
     // private System.Void init_frames(System.Int32 skipFrames, System.Boolean fNeedFileInfo)
@@ -101,14 +101,14 @@ namespace System::Diagnostics {
     // Offset: 0x1678008
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackTrace* New_ctor(System::Exception* e, bool fNeedFileInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("StackTrace").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::StackTrace::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackTrace*, creationType>(e, fNeedFileInfo)));
     }
     // public System.Void .ctor(System.Exception e, System.Int32 skipFrames, System.Boolean fNeedFileInfo)
     // Offset: 0x1678014
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackTrace* New_ctor(System::Exception* e, int skipFrames, bool fNeedFileInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("StackTrace").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::StackTrace::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackTrace*, creationType>(e, skipFrames, fNeedFileInfo)));
     }
     // public System.Int32 get_FrameCount()
@@ -135,7 +135,7 @@ namespace System::Diagnostics {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackTrace* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("StackTrace").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::StackTrace::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackTrace*, creationType>()));
     }
     // public override System.String ToString()

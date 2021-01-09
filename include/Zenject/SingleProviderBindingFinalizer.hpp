@@ -51,7 +51,7 @@ namespace Zenject {
     // Offset: 0x1352FB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SingleProviderBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFactory) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SingleProviderBindingFinalizer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SingleProviderBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SingleProviderBindingFinalizer*, creationType>(bindInfo, providerFactory)));
     }
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)

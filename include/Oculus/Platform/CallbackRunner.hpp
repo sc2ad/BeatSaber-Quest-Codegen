@@ -52,7 +52,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CallbackRunner* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("CallbackRunner").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CallbackRunner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CallbackRunner*, creationType>()));
     }
   }; // Oculus.Platform.CallbackRunner

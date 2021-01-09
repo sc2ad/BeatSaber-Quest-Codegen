@@ -35,7 +35,7 @@ namespace OnlineServices::API {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OnlineServices::API").WithContext("LeaderboardsInfoDto").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*, creationType>()));
     }
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/LeaderboardsInfoDto

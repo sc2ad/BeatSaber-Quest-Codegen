@@ -26,7 +26,7 @@ namespace NUnit::Framework {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NUnitAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework").WithContext("NUnitAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::NUnitAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NUnitAttribute*, creationType>()));
     }
   }; // NUnit.Framework.NUnitAttribute

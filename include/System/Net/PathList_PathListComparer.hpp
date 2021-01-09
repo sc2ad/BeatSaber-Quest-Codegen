@@ -43,7 +43,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PathList::PathListComparer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("PathListComparer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::PathList::PathListComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PathList::PathListComparer*, creationType>()));
     }
   }; // System.Net.PathList/PathListComparer

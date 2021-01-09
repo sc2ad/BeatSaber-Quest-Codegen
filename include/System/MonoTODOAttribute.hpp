@@ -34,7 +34,7 @@ namespace System {
     // Offset: 0x1711E6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoTODOAttribute* New_ctor(::Il2CppString* comment) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("MonoTODOAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::MonoTODOAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTODOAttribute*, creationType>(comment)));
     }
     // public System.Void .ctor()
@@ -44,7 +44,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoTODOAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("MonoTODOAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::MonoTODOAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTODOAttribute*, creationType>()));
     }
   }; // System.MonoTODOAttribute

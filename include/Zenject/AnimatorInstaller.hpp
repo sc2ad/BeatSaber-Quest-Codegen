@@ -37,7 +37,7 @@ namespace Zenject {
     // Offset: 0x10EAAD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorInstaller* New_ctor(UnityEngine::Animator* animator) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("AnimatorInstaller").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::AnimatorInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorInstaller*, creationType>(animator)));
     }
     // public override System.Void InstallBindings()

@@ -33,7 +33,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeZoneNotFoundException* New_ctor(::Il2CppString* message, System::Exception* innerException) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TimeZoneNotFoundException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeZoneNotFoundException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeZoneNotFoundException*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -42,7 +42,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeZoneNotFoundException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TimeZoneNotFoundException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeZoneNotFoundException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeZoneNotFoundException*, creationType>(info, context)));
     }
     // public System.Void .ctor()
@@ -52,7 +52,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeZoneNotFoundException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("TimeZoneNotFoundException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeZoneNotFoundException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeZoneNotFoundException*, creationType>()));
     }
   }; // System.TimeZoneNotFoundException

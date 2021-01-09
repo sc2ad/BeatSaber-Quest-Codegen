@@ -75,7 +75,7 @@ namespace System::Resources {
     // Offset: 0x15D36FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ManifestBasedResourceGroveler* New_ctor(System::Resources::ResourceManager::ResourceManagerMediator* mediator) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Resources").WithContext("ManifestBasedResourceGroveler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ManifestBasedResourceGroveler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ManifestBasedResourceGroveler*, creationType>(mediator)));
     }
     // private System.Globalization.CultureInfo UltimateFallbackFixup(System.Globalization.CultureInfo lookForCulture)

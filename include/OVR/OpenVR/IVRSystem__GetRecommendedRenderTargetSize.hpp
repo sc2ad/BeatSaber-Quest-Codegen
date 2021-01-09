@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1914DC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetRecommendedRenderTargetSize* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetRecommendedRenderTargetSize").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_GetRecommendedRenderTargetSize::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetRecommendedRenderTargetSize*, creationType>(object, method)));
     }
     // public System.Void Invoke(ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)

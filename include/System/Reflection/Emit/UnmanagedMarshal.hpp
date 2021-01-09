@@ -25,7 +25,7 @@ namespace System::Reflection::Emit {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnmanagedMarshal* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection::Emit").WithContext("UnmanagedMarshal").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::Emit::UnmanagedMarshal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnmanagedMarshal*, creationType>()));
     }
   }; // System.Reflection.Emit.UnmanagedMarshal

@@ -41,7 +41,7 @@ namespace UnityEngine {
     // Offset: 0x16CE140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaitUntil* New_ctor(System::Func_1<bool>* predicate) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("WaitUntil").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::WaitUntil::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaitUntil*, creationType>(predicate)));
     }
     // public override System.Boolean get_keepWaiting()

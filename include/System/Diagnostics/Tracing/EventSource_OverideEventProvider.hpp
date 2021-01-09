@@ -50,7 +50,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12D1858
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventSource::OverideEventProvider* New_ctor(System::Diagnostics::Tracing::EventSource* eventSource) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("OverideEventProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventSource::OverideEventProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventSource::OverideEventProvider*, creationType>(eventSource)));
     }
     // protected override System.Void OnControllerCommand(System.Diagnostics.Tracing.ControllerCommand command, System.Collections.Generic.IDictionary`2<System.String,System.String> arguments, System.Int32 perEventSourceSessionId, System.Int32 etwSessionId)

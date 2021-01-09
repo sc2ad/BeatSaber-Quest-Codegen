@@ -53,7 +53,7 @@ namespace System::Threading::Tasks {
     // Offset: 0x1D0E7C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompletionActionInvoker* New_ctor(System::Threading::Tasks::ITaskCompletionAction* action, System::Threading::Tasks::Task* completingTask) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("CompletionActionInvoker").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::CompletionActionInvoker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompletionActionInvoker*, creationType>(action, completingTask)));
     }
     // public System.Void ExecuteWorkItem()

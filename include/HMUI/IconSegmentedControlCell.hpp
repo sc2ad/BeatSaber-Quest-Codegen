@@ -85,7 +85,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IconSegmentedControlCell* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("IconSegmentedControlCell").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::IconSegmentedControlCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IconSegmentedControlCell*, creationType>()));
     }
   }; // HMUI.IconSegmentedControlCell

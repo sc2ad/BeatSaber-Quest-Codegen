@@ -131,7 +131,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollViewItemsVisibilityController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("ScrollViewItemsVisibilityController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ScrollViewItemsVisibilityController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScrollViewItemsVisibilityController*, creationType>()));
     }
   }; // HMUI.ScrollViewItemsVisibilityController

@@ -55,7 +55,7 @@ namespace UnityEngine {
     // Offset: 0x16C61E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TouchScreenKeyboard* New_ctor(::Il2CppString* text, UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, ::Il2CppString* textPlaceholder, int characterLimit) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("TouchScreenKeyboard").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TouchScreenKeyboard::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TouchScreenKeyboard*, creationType>(text, keyboardType, autocorrection, multiline, secure, alert, textPlaceholder, characterLimit)));
     }
     // static private System.IntPtr TouchScreenKeyboard_InternalConstructorHelper(ref UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments arguments, System.String text, System.String textPlaceholder)

@@ -24,7 +24,7 @@ namespace System::Runtime::ConstrainedExecution {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CriticalFinalizerObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::ConstrainedExecution").WithContext("CriticalFinalizerObject").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::ConstrainedExecution::CriticalFinalizerObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CriticalFinalizerObject*, creationType>()));
     }
     // protected override System.Void Finalize()

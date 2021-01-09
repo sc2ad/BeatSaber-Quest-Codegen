@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Offset: 0xF70444
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalPlayerOutroAudio::InitData* New_ctor(UnityEngine::AudioClip* audioClip, float previewStartTime, float previewDuration) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("InitData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerLocalPlayerOutroAudio::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalPlayerOutroAudio::InitData*, creationType>(audioClip, previewStartTime, previewDuration)));
     }
   }; // MultiplayerLocalPlayerOutroAudio/InitData

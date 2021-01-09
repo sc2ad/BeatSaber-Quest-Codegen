@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x1920F40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRRenderModels::_LoadTextureD3D11_Async* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_LoadTextureD3D11_Async").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRRenderModels::_LoadTextureD3D11_Async::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRRenderModels::_LoadTextureD3D11_Async*, creationType>(object, method)));
     }
     // public Valve.VR.EVRRenderModelError Invoke(System.Int32 textureId, System.IntPtr pD3D11Device, ref System.IntPtr ppD3D11Texture2D)

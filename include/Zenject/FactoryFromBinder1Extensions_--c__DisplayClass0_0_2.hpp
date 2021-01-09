@@ -44,7 +44,7 @@ namespace Zenject {
     // Zenject.IProvider <FromIFactory>b__0(Zenject.DiContainer container)
     // Offset: 0xFFFFFFFF
     Zenject::IProvider* $FromIFactory$b__0(Zenject::DiContainer* container) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass0_0_2").WithContext("<FromIFactory>b__0");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder1Extensions::$$c__DisplayClass0_0_2::<FromIFactory>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<FromIFactory>b__0", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(container))));
       return ::il2cpp_utils::RunMethodThrow<Zenject::IProvider*, false>(this, ___internal__method, container);
     }
@@ -54,7 +54,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FactoryFromBinder1Extensions::$$c__DisplayClass0_0_2<TParam1, TContract>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass0_0_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder1Extensions::$$c__DisplayClass0_0_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FactoryFromBinder1Extensions::$$c__DisplayClass0_0_2<TParam1, TContract>*, creationType>()));
     }
   }; // Zenject.FactoryFromBinder1Extensions/<>c__DisplayClass0_0`2

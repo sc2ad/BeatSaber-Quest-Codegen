@@ -49,7 +49,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Offset: 0x1589B64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X962Parameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Object* obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X9").WithContext("X962Parameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X962Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X962Parameters*, creationType>(obj)));
     }
     // public System.Boolean get_IsNamedCurve()

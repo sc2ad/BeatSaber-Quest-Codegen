@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A2CD70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BezierSplineEvaluator* New_ctor(GlobalNamespace::BezierSpline* spline) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BezierSplineEvaluator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BezierSplineEvaluator*, creationType>(spline)));
     }
     // public UnityEngine.Vector3 EvaluatePosition(System.Single time)

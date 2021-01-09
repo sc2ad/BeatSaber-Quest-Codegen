@@ -125,7 +125,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationTriggers* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("AnimationTriggers").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::AnimationTriggers::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationTriggers*, creationType>()));
     }
   }; // UnityEngine.UI.AnimationTriggers

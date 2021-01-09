@@ -90,21 +90,21 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0x13E7340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TNode* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Interfaces").WithContext("TNode").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TNode*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.String value)
     // Offset: 0x13E73F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TNode* New_ctor(::Il2CppString* name, ::Il2CppString* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Interfaces").WithContext("TNode").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TNode*, creationType>(name, value)));
     }
     // public System.Void .ctor(System.String name, System.String value, System.Boolean valueIsCDATA)
     // Offset: 0x13E742C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TNode* New_ctor(::Il2CppString* name, ::Il2CppString* value, bool valueIsCDATA) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Interfaces").WithContext("TNode").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TNode*, creationType>(name, value, valueIsCDATA)));
     }
     // public System.String get_Name()

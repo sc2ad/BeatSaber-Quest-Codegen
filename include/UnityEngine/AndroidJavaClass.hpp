@@ -23,7 +23,7 @@ namespace UnityEngine {
     // Offset: 0x199DF34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaClass* New_ctor(::Il2CppString* className) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("AndroidJavaClass").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaClass::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaClass*, creationType>(className)));
     }
     // private System.Void _AndroidJavaClass(System.String className)
@@ -35,7 +35,7 @@ namespace UnityEngine {
     // Base method: System.Void AndroidJavaObject::.ctor(System.IntPtr jclass)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaClass* New_ctor(System::IntPtr jclass) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("AndroidJavaClass").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaClass::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaClass*, creationType>(jclass)));
     }
   }; // UnityEngine.AndroidJavaClass

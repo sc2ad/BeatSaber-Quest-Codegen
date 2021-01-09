@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Offset: 0xF4376C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelGameplayManager::$Start$d__13* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$Start$d__13").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelGameplayManager::$Start$d__13::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelGameplayManager::$Start$d__13*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

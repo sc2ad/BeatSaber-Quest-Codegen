@@ -45,7 +45,7 @@ namespace System::IO {
     // Offset: 0x1490648
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2::Op* New_ctor(System::IO::SearchPattern2::OpCode code) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("Op").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::Op::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchPattern2::Op*, creationType>(code)));
     }
   }; // System.IO.SearchPattern2/Op

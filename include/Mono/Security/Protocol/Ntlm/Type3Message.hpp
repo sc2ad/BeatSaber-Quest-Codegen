@@ -88,7 +88,7 @@ namespace Mono::Security::Protocol::Ntlm {
     // Offset: 0x17BC2BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Type3Message* New_ctor(Mono::Security::Protocol::Ntlm::Type2Message* type2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::Protocol::Ntlm").WithContext("Type3Message").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Protocol::Ntlm::Type3Message::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Type3Message*, creationType>(type2)));
     }
     // public System.Void set_Domain(System.String value)

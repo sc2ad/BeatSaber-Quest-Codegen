@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Asn1::Sec {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecNamedCurves::Sect193r1Holder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::Sec").WithContext("Sect193r1Holder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Sec::SecNamedCurves::Sect193r1Holder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecNamedCurves::Sect193r1Holder*, creationType>()));
     }
     // protected override Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()

@@ -62,7 +62,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x19620CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextMessageWriter* New_ctor(::Il2CppString* userMessage, ::Array<::Il2CppObject*>* args) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("TextMessageWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TextMessageWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextMessageWriter*, creationType>(userMessage, args)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.String userMessage, params System.Object[] args)

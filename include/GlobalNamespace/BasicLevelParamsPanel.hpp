@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicLevelParamsPanel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BasicLevelParamsPanel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BasicLevelParamsPanel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicLevelParamsPanel*, creationType>()));
     }
   }; // BasicLevelParamsPanel

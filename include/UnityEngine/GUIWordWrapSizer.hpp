@@ -52,7 +52,7 @@ namespace UnityEngine {
     // Offset: 0x160B20C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUIWordWrapSizer* New_ctor(UnityEngine::GUIStyle* style, UnityEngine::GUIContent* content, ::Array<UnityEngine::GUILayoutOption*>* options) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("GUIWordWrapSizer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUIWordWrapSizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIWordWrapSizer*, creationType>(style, content, options)));
     }
     // public override System.Void CalcWidth()

@@ -82,7 +82,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x19B0A9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixedBitArray3::$Enumerate$d__10* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("$Enumerate$d__10").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::$Enumerate$d__10::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixedBitArray3::$Enumerate$d__10*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

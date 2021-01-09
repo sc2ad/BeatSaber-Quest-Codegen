@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1913FA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetProjectionMatrix* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetProjectionMatrix").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_GetProjectionMatrix::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetProjectionMatrix*, creationType>(object, method)));
     }
     // public OVR.OpenVR.HmdMatrix44_t Invoke(OVR.OpenVR.EVREye eEye, System.Single fNearZ, System.Single fFarZ)

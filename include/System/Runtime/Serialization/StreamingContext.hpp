@@ -43,7 +43,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0xCA004C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     StreamingContext(System::Runtime::Serialization::StreamingContextStates state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("StreamingContext").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::StreamingContext::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(state)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, state);
     }
@@ -51,7 +51,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0xCA005C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     StreamingContext(System::Runtime::Serialization::StreamingContextStates state, ::Il2CppObject* additional) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("StreamingContext").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::StreamingContext::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(state, additional)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, state, additional);
     }

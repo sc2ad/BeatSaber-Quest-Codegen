@@ -45,7 +45,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Rijndael* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("Rijndael").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Rijndael::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Rijndael*, creationType>()));
     }
   }; // System.Security.Cryptography.Rijndael

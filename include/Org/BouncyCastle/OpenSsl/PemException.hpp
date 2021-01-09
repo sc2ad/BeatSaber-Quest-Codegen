@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::OpenSsl {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::OpenSsl").WithContext("PemException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::OpenSsl::PemException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemException*, creationType>(message)));
     }
   }; // Org.BouncyCastle.OpenSsl.PemException

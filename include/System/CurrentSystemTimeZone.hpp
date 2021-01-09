@@ -50,7 +50,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CurrentSystemTimeZone* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("CurrentSystemTimeZone").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::CurrentSystemTimeZone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CurrentSystemTimeZone*, creationType>()));
     }
     // public override System.TimeSpan GetUtcOffset(System.DateTime dateTime)

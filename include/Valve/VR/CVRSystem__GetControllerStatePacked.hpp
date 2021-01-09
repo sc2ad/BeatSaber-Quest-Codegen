@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x136D2D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRSystem::_GetControllerStatePacked* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetControllerStatePacked").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRSystem::_GetControllerStatePacked::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRSystem::_GetControllerStatePacked*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.UInt32 unControllerDeviceIndex, ref Valve.VR.VRControllerState_t_Packed pControllerState, System.UInt32 unControllerStateSize)

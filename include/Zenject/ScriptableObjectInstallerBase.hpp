@@ -62,7 +62,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScriptableObjectInstallerBase* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ScriptableObjectInstallerBase").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ScriptableObjectInstallerBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScriptableObjectInstallerBase*, creationType>()));
     }
   }; // Zenject.ScriptableObjectInstallerBase

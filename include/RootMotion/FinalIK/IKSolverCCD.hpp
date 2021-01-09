@@ -59,7 +59,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverCCD* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("IKSolverCCD").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverCCD::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverCCD*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolverCCD

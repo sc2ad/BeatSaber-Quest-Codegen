@@ -40,7 +40,7 @@ namespace TMPro {
     template<class T>
     static bool SetEquatableStruct(T& currentValue, T newValue) {
       static_assert(std::is_base_of_v<System::IEquatable_1<T>, std::remove_pointer_t<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("SetPropertyUtility").WithContext("SetEquatableStruct");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::SetPropertyUtility::SetEquatableStruct");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("TMPro", "SetPropertyUtility", "SetEquatableStruct", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(currentValue, newValue)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, currentValue, newValue);
@@ -50,7 +50,7 @@ namespace TMPro {
     template<class T>
     static bool SetStruct(T& currentValue, T newValue) {
       static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("SetPropertyUtility").WithContext("SetStruct");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::SetPropertyUtility::SetStruct");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("TMPro", "SetPropertyUtility", "SetStruct", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(currentValue, newValue)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, currentValue, newValue);
@@ -59,7 +59,7 @@ namespace TMPro {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool SetClass(T& currentValue, T newValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("SetPropertyUtility").WithContext("SetClass");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::SetPropertyUtility::SetClass");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("TMPro", "SetPropertyUtility", "SetClass", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(currentValue, newValue)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, currentValue, newValue);

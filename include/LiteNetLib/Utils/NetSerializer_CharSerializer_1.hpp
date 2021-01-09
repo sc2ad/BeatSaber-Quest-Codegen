@@ -33,14 +33,14 @@ namespace LiteNetLib::Utils {
     // protected System.Void ElementWrite(LiteNetLib.Utils.NetDataWriter w, ref System.Char prop)
     // Offset: 0xFFFFFFFF
     void ElementWrite(LiteNetLib::Utils::NetDataWriter* w, ::Il2CppChar& prop) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("CharSerializer_1").WithContext("ElementWrite");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::CharSerializer_1::ElementWrite");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ElementWrite", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(w, prop)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, w, prop);
     }
     // protected System.Void ElementRead(LiteNetLib.Utils.NetDataReader r, out System.Char prop)
     // Offset: 0xFFFFFFFF
     void ElementRead(LiteNetLib::Utils::NetDataReader* r, ::Il2CppChar& prop) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("CharSerializer_1").WithContext("ElementRead");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::CharSerializer_1::ElementRead");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ElementRead", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(r, prop)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, r, prop);
     }
@@ -53,7 +53,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer::CharSerializer_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("CharSerializer_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::CharSerializer_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::CharSerializer_1<T>*, creationType>()));
     }
   }; // LiteNetLib.Utils.NetSerializer/CharSerializer`1

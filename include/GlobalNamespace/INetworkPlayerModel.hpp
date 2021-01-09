@@ -110,7 +110,7 @@ namespace GlobalNamespace {
     template<class T>
     bool CreateParty(GlobalNamespace::INetworkPlayerModelPartyConfig_1<T>* config) {
       static_assert(std::is_base_of_v<GlobalNamespace::INetworkPlayerModel, std::remove_pointer_t<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("INetworkPlayerModel").WithContext("CreateParty");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPlayerModel::CreateParty");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CreateParty", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(config)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, config);

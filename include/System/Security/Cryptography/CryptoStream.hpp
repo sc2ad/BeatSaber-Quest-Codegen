@@ -129,7 +129,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x1458ED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptoStream* New_ctor(System::IO::Stream* stream, System::Security::Cryptography::ICryptoTransform* transform, System::Security::Cryptography::CryptoStreamMode mode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("CryptoStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CryptoStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptoStream*, creationType>(stream, transform, mode)));
     }
     // public System.Boolean get_HasFlushedFinalBlock()

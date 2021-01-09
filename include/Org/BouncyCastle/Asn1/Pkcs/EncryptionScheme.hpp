@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Base method: System.Void AlgorithmIdentifier::.ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier objectID, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncryptionScheme* New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID, Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::Pkcs").WithContext("EncryptionScheme").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncryptionScheme*, creationType>(objectID, parameters)));
     }
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
@@ -49,7 +49,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Base method: System.Void AlgorithmIdentifier::.ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncryptionScheme* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::Pkcs").WithContext("EncryptionScheme").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncryptionScheme*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()

@@ -86,7 +86,7 @@ namespace System::Net {
     // Offset: 0x121FE40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionGroup::ConnectionState* New_ctor(System::Net::WebConnectionGroup* group) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("ConnectionState").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnectionGroup::ConnectionState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionGroup::ConnectionState*, creationType>(group)));
     }
     // public System.Net.WebConnectionGroup get_Group()

@@ -469,7 +469,7 @@ namespace GlobalNamespace {
     template<class T>
     static ::Array<GlobalNamespace::NamedIntListController::TextValuePair*>* CreateTextValuePairsForAvatarPartCollection(GlobalNamespace::AvatarPartCollection_1<T>* partCollection) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*> && std::is_base_of_v<GlobalNamespace::IAvatarPart, std::remove_pointer_t<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("EditAvatarViewController").WithContext("CreateTextValuePairsForAvatarPartCollection");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EditAvatarViewController::CreateTextValuePairsForAvatarPartCollection");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "EditAvatarViewController", "CreateTextValuePairsForAvatarPartCollection", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(partCollection)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<::Array<GlobalNamespace::NamedIntListController::TextValuePair*>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, partCollection);
@@ -485,7 +485,7 @@ namespace GlobalNamespace {
     template<class T>
     void SetupValuePicker(GlobalNamespace::AvatarPartCollection_1<T>* partCollection, GlobalNamespace::NamedIntListController* valuePicker, System::Action_1<::Il2CppString*>* setIdAction, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*> && std::is_base_of_v<GlobalNamespace::IAvatarPart, std::remove_pointer_t<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("EditAvatarViewController").WithContext("SetupValuePicker");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EditAvatarViewController::SetupValuePicker");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SetupValuePicker", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(partCollection, valuePicker, setIdAction, avatarEditPart)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, partCollection, valuePicker, setIdAction, avatarEditPart);
@@ -551,7 +551,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditAvatarViewController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("EditAvatarViewController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EditAvatarViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditAvatarViewController*, creationType>()));
     }
   }; // EditAvatarViewController

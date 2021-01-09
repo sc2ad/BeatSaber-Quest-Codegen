@@ -28,7 +28,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Factory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("Factory_7").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Factory_7::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Factory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*, creationType>()));
     }
   }; // Zenject.Factory`7

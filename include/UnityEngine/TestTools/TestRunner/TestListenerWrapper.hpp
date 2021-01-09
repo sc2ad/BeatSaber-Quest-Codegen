@@ -57,7 +57,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0x1197510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestListenerWrapper* New_ctor(UnityEngine::TestTools::TestRunner::TestStartedEvent* testStartedEvent, UnityEngine::TestTools::TestRunner::TestFinishedEvent* testFinishedEvent) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::TestRunner").WithContext("TestListenerWrapper").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::TestListenerWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestListenerWrapper*, creationType>(testStartedEvent, testFinishedEvent)));
     }
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)

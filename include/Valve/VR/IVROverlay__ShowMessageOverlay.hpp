@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x191C84C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_ShowMessageOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_ShowMessageOverlay").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVROverlay::_ShowMessageOverlay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_ShowMessageOverlay*, creationType>(object, method)));
     }
     // public Valve.VR.VRMessageOverlayResponse Invoke(System.String pchText, System.String pchCaption, System.String pchButton0Text, System.String pchButton1Text, System.String pchButton2Text, System.String pchButton3Text)

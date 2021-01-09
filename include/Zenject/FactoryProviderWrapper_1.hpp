@@ -48,7 +48,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FactoryProviderWrapper_1<TContract>* New_ctor(Zenject::IProvider* provider, Zenject::InjectContext* injectContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("FactoryProviderWrapper_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryProviderWrapper_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FactoryProviderWrapper_1<TContract>*, creationType>(provider, injectContext)));
     }
     // public TContract Create()
@@ -56,7 +56,7 @@ namespace Zenject {
     // Implemented from: Zenject.IFactory`1
     // Base method: TValue IFactory_1::Create()
     TContract Create() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("FactoryProviderWrapper_1").WithContext("Create");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryProviderWrapper_1::Create");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TContract, false>(this, ___internal__method);
     }

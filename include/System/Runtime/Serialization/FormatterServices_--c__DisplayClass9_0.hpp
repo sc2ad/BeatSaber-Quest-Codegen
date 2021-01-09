@@ -56,7 +56,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FormatterServices::$$c__DisplayClass9_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("$$c__DisplayClass9_0").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FormatterServices::$$c__DisplayClass9_0*, creationType>()));
     }
   }; // System.Runtime.Serialization.FormatterServices/<>c__DisplayClass9_0

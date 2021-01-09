@@ -56,7 +56,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Offset: 0x13FAAEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PbeParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::Pkcs").WithContext("PbeParameter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::PbeParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PbeParameter*, creationType>(seq)));
     }
     // public System.Byte[] GetSalt()

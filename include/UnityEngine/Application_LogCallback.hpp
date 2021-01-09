@@ -39,7 +39,7 @@ namespace UnityEngine {
     // Offset: 0x167C330
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Application::LogCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("LogCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Application::LogCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Application::LogCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String condition, System.String stackTrace, UnityEngine.LogType type)

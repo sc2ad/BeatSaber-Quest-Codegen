@@ -28,7 +28,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaskableGraphic::CullStateChangedEvent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("CullStateChangedEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::MaskableGraphic::CullStateChangedEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaskableGraphic::CullStateChangedEvent*, creationType>()));
     }
   }; // UnityEngine.UI.MaskableGraphic/CullStateChangedEvent

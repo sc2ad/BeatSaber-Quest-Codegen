@@ -44,7 +44,7 @@ namespace Mono::Security::Interface {
     // Offset: 0x17B7BE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoRemoteCertificateValidationCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::Interface").WithContext("MonoRemoteCertificateValidationCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::MonoRemoteCertificateValidationCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoRemoteCertificateValidationCallback*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.String targetHost, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, Mono.Security.Interface.MonoSslPolicyErrors sslPolicyErrors)

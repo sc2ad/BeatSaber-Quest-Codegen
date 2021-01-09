@@ -41,7 +41,7 @@ namespace System::Xml {
     // Offset: 0x19D96CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWellFormedWriter::AttributeValueCache::BufferChunk* New_ctor(::Array<::Il2CppChar>* buffer, int index, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Xml").WithContext("BufferChunk").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter::AttributeValueCache::BufferChunk*, creationType>(buffer, index, count)));
     }
   }; // System.Xml.XmlWellFormedWriter/AttributeValueCache/BufferChunk

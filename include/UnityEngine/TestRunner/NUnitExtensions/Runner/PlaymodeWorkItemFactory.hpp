@@ -50,7 +50,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaymodeWorkItemFactory* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner").WithContext("PlaymodeWorkItemFactory").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaymodeWorkItemFactory*, creationType>()));
     }
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.PlaymodeWorkItemFactory

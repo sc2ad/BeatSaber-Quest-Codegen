@@ -63,7 +63,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventSourceAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EventSourceAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventSourceAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventSourceAttribute*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.EventSourceAttribute

@@ -37,7 +37,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x104A488
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X448PublicKeyParameters* New_ctor(::Array<uint8_t>* buf, int off) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Parameters").WithContext("X448PublicKeyParameters").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X448PublicKeyParameters*, creationType>(buf, off)));
     }
     // static private System.Void .cctor()

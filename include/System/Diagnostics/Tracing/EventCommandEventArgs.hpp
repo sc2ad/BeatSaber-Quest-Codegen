@@ -130,7 +130,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C68E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventCommandEventArgs* New_ctor(System::Diagnostics::Tracing::EventCommand command, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* arguments, System::Diagnostics::Tracing::EventSource* eventSource, System::Diagnostics::Tracing::EventListener* listener, int perEventSourceSessionId, int etwSessionId, bool enable, System::Diagnostics::Tracing::EventLevel level, System::Diagnostics::Tracing::EventKeywords matchAnyKeyword) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EventCommandEventArgs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventCommandEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventCommandEventArgs*, creationType>(command, arguments, eventSource, listener, perEventSourceSessionId, etwSessionId, enable, level, matchAnyKeyword)));
     }
   }; // System.Diagnostics.Tracing.EventCommandEventArgs

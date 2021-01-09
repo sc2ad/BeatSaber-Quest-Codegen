@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutScoreSpawner* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("NoteCutScoreSpawner").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteCutScoreSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutScoreSpawner*, creationType>()));
     }
   }; // NoteCutScoreSpawner

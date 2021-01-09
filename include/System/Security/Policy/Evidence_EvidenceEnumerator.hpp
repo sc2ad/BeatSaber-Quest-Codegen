@@ -47,7 +47,7 @@ namespace System::Security::Policy {
     // Offset: 0x128154C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Evidence::EvidenceEnumerator* New_ctor(System::Collections::IEnumerator* hostenum, System::Collections::IEnumerator* assemblyenum) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Policy").WithContext("EvidenceEnumerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Policy::Evidence::EvidenceEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Evidence::EvidenceEnumerator*, creationType>(hostenum, assemblyenum)));
     }
     // public System.Boolean MoveNext()

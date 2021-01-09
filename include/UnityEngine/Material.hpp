@@ -54,21 +54,21 @@ namespace UnityEngine {
     // Offset: 0x168EF0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Material* New_ctor(UnityEngine::Shader* shader) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Material").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Material::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Material*, creationType>(shader)));
     }
     // public System.Void .ctor(UnityEngine.Material source)
     // Offset: 0x168EFAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Material* New_ctor(UnityEngine::Material* source) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Material").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Material::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Material*, creationType>(source)));
     }
     // public System.Void .ctor(System.String contents)
     // Offset: 0x168F04C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Material* New_ctor(::Il2CppString* contents) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Material").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Material::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Material*, creationType>(contents)));
     }
     // public UnityEngine.Shader get_shader()

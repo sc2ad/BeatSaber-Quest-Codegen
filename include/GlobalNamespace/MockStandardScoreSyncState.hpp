@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Offset: 0xFA4CAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockStandardScoreSyncState* New_ctor(GlobalNamespace::IConnectedPlayer* player, float reliableUpdateFrequency, float unreliableUpdateFrequency, int size, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>::InterpolationDelegate* interpolator, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>::SmoothingDelegate* smoother) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MockStandardScoreSyncState").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockStandardScoreSyncState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockStandardScoreSyncState*, creationType>(player, reliableUpdateFrequency, unreliableUpdateFrequency, size, interpolator, smoother)));
     }
   }; // MockStandardScoreSyncState

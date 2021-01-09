@@ -74,28 +74,28 @@ namespace System {
     // public T1 get_Item1()
     // Offset: 0xFFFFFFFF
     T1 get_Item1() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Tuple_4").WithContext("get_Item1");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Tuple_4::get_Item1");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Item1", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T1, false>(this, ___internal__method);
     }
     // public T2 get_Item2()
     // Offset: 0xFFFFFFFF
     T2 get_Item2() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Tuple_4").WithContext("get_Item2");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Tuple_4::get_Item2");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Item2", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T2, false>(this, ___internal__method);
     }
     // public T3 get_Item3()
     // Offset: 0xFFFFFFFF
     T3 get_Item3() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Tuple_4").WithContext("get_Item3");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Tuple_4::get_Item3");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Item3", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T3, false>(this, ___internal__method);
     }
     // public T4 get_Item4()
     // Offset: 0xFFFFFFFF
     T4 get_Item4() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Tuple_4").WithContext("get_Item4");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Tuple_4::get_Item4");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Item4", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T4, false>(this, ___internal__method);
     }
@@ -103,7 +103,7 @@ namespace System {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tuple_4<T1, T2, T3, T4>* New_ctor(T1 item1, T2 item2, T3 item3, T4 item4) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Tuple_4").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Tuple_4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tuple_4<T1, T2, T3, T4>*, creationType>(item1, item2, item3, item4)));
     }
     // public override System.Boolean Equals(System.Object obj)
@@ -111,7 +111,7 @@ namespace System {
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Tuple_4").WithContext("Equals");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Tuple_4::Equals");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(obj)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, obj);
     }
@@ -120,7 +120,7 @@ namespace System {
     // Implemented from: System.Collections.IStructuralEquatable
     // Base method: System.Boolean IStructuralEquatable::Equals(System.Object other, System.Collections.IEqualityComparer comparer)
     bool System_Collections_IStructuralEquatable_Equals(::Il2CppObject* other, System::Collections::IEqualityComparer* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Tuple_4").WithContext("System.Collections.IStructuralEquatable.Equals");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Tuple_4::System.Collections.IStructuralEquatable.Equals");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IStructuralEquatable.Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(other, comparer)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, other, comparer);
     }
@@ -129,7 +129,7 @@ namespace System {
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object obj)
     int System_IComparable_CompareTo(::Il2CppObject* obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Tuple_4").WithContext("System.IComparable.CompareTo");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Tuple_4::System.IComparable.CompareTo");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.IComparable.CompareTo", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(obj)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, obj);
     }
@@ -138,7 +138,7 @@ namespace System {
     // Implemented from: System.Collections.IStructuralComparable
     // Base method: System.Int32 IStructuralComparable::CompareTo(System.Object other, System.Collections.IComparer comparer)
     int System_Collections_IStructuralComparable_CompareTo(::Il2CppObject* other, System::Collections::IComparer* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Tuple_4").WithContext("System.Collections.IStructuralComparable.CompareTo");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Tuple_4::System.Collections.IStructuralComparable.CompareTo");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IStructuralComparable.CompareTo", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(other, comparer)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, other, comparer);
     }
@@ -147,7 +147,7 @@ namespace System {
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Tuple_4").WithContext("GetHashCode");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Tuple_4::GetHashCode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
@@ -156,7 +156,7 @@ namespace System {
     // Implemented from: System.Collections.IStructuralEquatable
     // Base method: System.Int32 IStructuralEquatable::GetHashCode(System.Collections.IEqualityComparer comparer)
     int System_Collections_IStructuralEquatable_GetHashCode(System::Collections::IEqualityComparer* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Tuple_4").WithContext("System.Collections.IStructuralEquatable.GetHashCode");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Tuple_4::System.Collections.IStructuralEquatable.GetHashCode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IStructuralEquatable.GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(comparer)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, comparer);
     }
@@ -165,7 +165,7 @@ namespace System {
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Tuple_4").WithContext("ToString");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Tuple_4::ToString");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ToString", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
     }
@@ -174,7 +174,7 @@ namespace System {
     // Implemented from: System.ITupleInternal
     // Base method: System.String ITupleInternal::ToString(System.Text.StringBuilder sb)
     ::Il2CppString* System_ITupleInternal_ToString(System::Text::StringBuilder* sb) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Tuple_4").WithContext("System.ITupleInternal.ToString");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Tuple_4::System.ITupleInternal.ToString");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.ITupleInternal.ToString", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(sb)));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method, sb);
     }

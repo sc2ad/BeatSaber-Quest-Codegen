@@ -37,7 +37,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11FB52C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRChaperoneSetup::_GetLivePhysicalBoundsInfo* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetLivePhysicalBoundsInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(in OVR.OpenVR.HmdQuad_t[] pQuadsBuffer, ref System.UInt32 punQuadsCount)

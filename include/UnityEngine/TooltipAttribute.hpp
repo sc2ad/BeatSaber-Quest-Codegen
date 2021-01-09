@@ -34,7 +34,7 @@ namespace UnityEngine {
     // Offset: 0x16C6054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TooltipAttribute* New_ctor(::Il2CppString* tooltip) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("TooltipAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TooltipAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TooltipAttribute*, creationType>(tooltip)));
     }
   }; // UnityEngine.TooltipAttribute

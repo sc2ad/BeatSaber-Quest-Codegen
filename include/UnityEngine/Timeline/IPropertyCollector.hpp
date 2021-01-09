@@ -55,7 +55,7 @@ namespace UnityEngine::Timeline {
     template<class T>
     void AddFromName(::Il2CppString* name) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("IPropertyCollector").WithContext("AddFromName");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IPropertyCollector::AddFromName");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AddFromName", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(name)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, name);
@@ -74,7 +74,7 @@ namespace UnityEngine::Timeline {
     template<class T>
     void AddFromName(UnityEngine::GameObject* obj, ::Il2CppString* name) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("IPropertyCollector").WithContext("AddFromName");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IPropertyCollector::AddFromName");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AddFromName", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(obj, name)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, obj, name);

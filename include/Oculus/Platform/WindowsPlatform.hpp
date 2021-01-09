@@ -55,7 +55,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WindowsPlatform* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("WindowsPlatform").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::WindowsPlatform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WindowsPlatform*, creationType>()));
     }
   }; // Oculus.Platform.WindowsPlatform

@@ -47,7 +47,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TransferCodingWithQualityHeaderValue* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("TransferCodingWithQualityHeaderValue").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TransferCodingWithQualityHeaderValue*, creationType>()));
     }
   }; // System.Net.Http.Headers.TransferCodingWithQualityHeaderValue

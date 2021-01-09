@@ -75,7 +75,7 @@ namespace OnlineServices {
     // Offset: 0xEFF5B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformServicesAvailabilityInfo* New_ctor(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability availability, ::Il2CppString* localizedMessage) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OnlineServices").WithContext("PlatformServicesAvailabilityInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::PlatformServicesAvailabilityInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformServicesAvailabilityInfo*, creationType>(availability, localizedMessage)));
     }
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_everythingOK()

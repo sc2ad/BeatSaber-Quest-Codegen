@@ -43,7 +43,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE3B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseTypeRequiredAttribute* New_ctor(System::Type* baseType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("BaseTypeRequiredAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::BaseTypeRequiredAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseTypeRequiredAttribute*, creationType>(baseType)));
     }
     // public System.Type get_BaseType()

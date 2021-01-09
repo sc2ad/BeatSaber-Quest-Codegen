@@ -36,7 +36,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TexturePacker* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro::SpriteAssetUtilities").WithContext("TexturePacker").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::SpriteAssetUtilities::TexturePacker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TexturePacker*, creationType>()));
     }
   }; // TMPro.SpriteAssetUtilities.TexturePacker

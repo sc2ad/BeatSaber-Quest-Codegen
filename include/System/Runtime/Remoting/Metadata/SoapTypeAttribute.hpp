@@ -88,7 +88,7 @@ namespace System::Runtime::Remoting::Metadata {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SoapTypeAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting::Metadata").WithContext("SoapTypeAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Metadata::SoapTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SoapTypeAttribute*, creationType>()));
     }
     // public override System.Boolean get_UseAttribute()

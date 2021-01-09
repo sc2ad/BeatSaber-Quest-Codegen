@@ -51,7 +51,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x157E7A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TbsCertificateList::RevokedCertificatesEnumeration* New_ctor(System::Collections::IEnumerable* en) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::X509").WithContext("RevokedCertificatesEnumeration").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TbsCertificateList::RevokedCertificatesEnumeration*, creationType>(en)));
     }
     // public System.Collections.IEnumerator GetEnumerator()

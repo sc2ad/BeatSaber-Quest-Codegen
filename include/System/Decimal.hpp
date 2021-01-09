@@ -191,7 +191,7 @@ namespace System {
     // Offset: 0xCA44A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(int value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Decimal").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
@@ -199,7 +199,7 @@ namespace System {
     // Offset: 0xCA44C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(uint value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Decimal").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
@@ -207,7 +207,7 @@ namespace System {
     // Offset: 0xCA44D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(int64_t value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Decimal").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
@@ -215,7 +215,7 @@ namespace System {
     // Offset: 0xCA44F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(uint64_t value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Decimal").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
@@ -223,7 +223,7 @@ namespace System {
     // Offset: 0xCA4508
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(float value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Decimal").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
@@ -231,7 +231,7 @@ namespace System {
     // Offset: 0xCA4510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(double value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Decimal").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
@@ -239,7 +239,7 @@ namespace System {
     // Offset: 0xCA4518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(::Array<int>* bits) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Decimal").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(bits)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, bits);
     }
@@ -250,7 +250,7 @@ namespace System {
     // Offset: 0xCA4528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(int lo, int mid, int hi, bool isNegative, uint8_t scale) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Decimal").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(lo, mid, hi, isNegative, scale)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, lo, mid, hi, isNegative, scale);
     }

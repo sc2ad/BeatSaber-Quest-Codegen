@@ -76,7 +76,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     Zenject::ConventionFilterTypesBinder* DerivingFromOrEqual() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConventionFilterTypesBinder").WithContext("DerivingFromOrEqual");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConventionFilterTypesBinder::DerivingFromOrEqual");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "DerivingFromOrEqual", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::ConventionFilterTypesBinder*, false>(this, ___internal__method);
@@ -88,7 +88,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     Zenject::ConventionFilterTypesBinder* DerivingFrom() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConventionFilterTypesBinder").WithContext("DerivingFrom");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConventionFilterTypesBinder::DerivingFrom");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "DerivingFrom", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::ConventionFilterTypesBinder*, false>(this, ___internal__method);
@@ -101,7 +101,7 @@ namespace Zenject {
     template<class T>
     Zenject::ConventionFilterTypesBinder* WithAttribute() {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConventionFilterTypesBinder").WithContext("WithAttribute");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConventionFilterTypesBinder::WithAttribute");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "WithAttribute", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::ConventionFilterTypesBinder*, false>(this, ___internal__method);
@@ -114,7 +114,7 @@ namespace Zenject {
     template<class T>
     Zenject::ConventionFilterTypesBinder* WithoutAttribute() {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConventionFilterTypesBinder").WithContext("WithoutAttribute");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConventionFilterTypesBinder::WithoutAttribute");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "WithoutAttribute", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::ConventionFilterTypesBinder*, false>(this, ___internal__method);
@@ -127,7 +127,7 @@ namespace Zenject {
     template<class T>
     Zenject::ConventionFilterTypesBinder* WithAttributeWhere(System::Func_2<T, bool>* predicate) {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConventionFilterTypesBinder").WithContext("WithAttributeWhere");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConventionFilterTypesBinder::WithAttributeWhere");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "WithAttributeWhere", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(predicate)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Zenject::ConventionFilterTypesBinder*, false>(this, ___internal__method, predicate);
@@ -175,7 +175,7 @@ namespace Zenject {
     // Base method: System.Void ConventionAssemblySelectionBinder::.ctor(Zenject.ConventionBindInfo bindInfo)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionFilterTypesBinder* New_ctor(Zenject::ConventionBindInfo* bindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConventionFilterTypesBinder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConventionFilterTypesBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionFilterTypesBinder*, creationType>(bindInfo)));
     }
   }; // Zenject.ConventionFilterTypesBinder

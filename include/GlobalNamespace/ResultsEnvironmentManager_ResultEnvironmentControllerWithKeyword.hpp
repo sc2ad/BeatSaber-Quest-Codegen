@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ResultEnvironmentControllerWithKeyword").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*, creationType>()));
     }
   }; // ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword

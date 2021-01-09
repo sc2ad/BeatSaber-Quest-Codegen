@@ -328,7 +328,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Slider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("Slider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Slider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Slider*, creationType>()));
     }
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate executing)

@@ -35,14 +35,14 @@ namespace RootMotion {
     // Offset: 0x15F1E64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InspectorComment* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion").WithContext("InspectorComment").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::InspectorComment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InspectorComment*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.String color)
     // Offset: 0x15F1EF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InspectorComment* New_ctor(::Il2CppString* name, ::Il2CppString* color) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion").WithContext("InspectorComment").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::InspectorComment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InspectorComment*, creationType>(name, color)));
     }
   }; // RootMotion.InspectorComment

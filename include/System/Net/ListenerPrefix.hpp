@@ -68,7 +68,7 @@ namespace System::Net {
     // Offset: 0x12BE6D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListenerPrefix* New_ctor(::Il2CppString* prefix) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net").WithContext("ListenerPrefix").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ListenerPrefix::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListenerPrefix*, creationType>(prefix)));
     }
     // public System.Boolean get_Secure()

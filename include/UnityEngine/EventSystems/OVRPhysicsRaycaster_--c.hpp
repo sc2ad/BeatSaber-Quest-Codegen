@@ -57,7 +57,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRPhysicsRaycaster::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRPhysicsRaycaster::$$c*, creationType>()));
     }
   }; // UnityEngine.EventSystems.OVRPhysicsRaycaster/<>c

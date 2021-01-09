@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x186A1E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_GetKeyboardText* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetKeyboardText").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVROverlay::_GetKeyboardText::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_GetKeyboardText*, creationType>(object, method)));
     }
     // public System.UInt32 Invoke(System.Text.StringBuilder pchText, System.UInt32 cchText)

@@ -58,14 +58,14 @@ namespace System::Text {
     // Offset: 0x159C4E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderFallbackException* New_ctor(::Il2CppString* message, ::Il2CppChar charUnknown, int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("EncoderFallbackException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderFallbackException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallbackException*, creationType>(message, charUnknown, index)));
     }
     // System.Void .ctor(System.String message, System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
     // Offset: 0x159C8A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderFallbackException* New_ctor(::Il2CppString* message, ::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("EncoderFallbackException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderFallbackException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallbackException*, creationType>(message, charUnknownHigh, charUnknownLow, index)));
     }
     // public System.Void .ctor()
@@ -77,7 +77,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderFallbackException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("EncoderFallbackException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderFallbackException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallbackException*, creationType>()));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -88,7 +88,7 @@ namespace System::Text {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderFallbackException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("EncoderFallbackException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderFallbackException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallbackException*, creationType>(info, context)));
     }
   }; // System.Text.EncoderFallbackException

@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x136ED9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRChaperone::_ForceBoundsVisible* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_ForceBoundsVisible").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRChaperone::_ForceBoundsVisible::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRChaperone::_ForceBoundsVisible*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Boolean bForce)

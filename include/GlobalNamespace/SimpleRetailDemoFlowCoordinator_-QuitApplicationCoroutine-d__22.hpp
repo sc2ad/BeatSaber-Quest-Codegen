@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Offset: 0xFCFB48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$QuitApplicationCoroutine$d__22").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

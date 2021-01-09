@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0x19153E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_GetSortedTrackedDeviceIndicesOfClass* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_GetSortedTrackedDeviceIndicesOfClass").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*, creationType>(object, method)));
     }
     // public System.UInt32 Invoke(OVR.OpenVR.ETrackedDeviceClass eTrackedDeviceClass, in System.UInt32[] punTrackedDeviceIndexArray, System.UInt32 unTrackedDeviceIndexArrayCount, System.UInt32 unRelativeToTrackedDeviceIndex)

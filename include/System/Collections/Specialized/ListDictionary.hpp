@@ -78,7 +78,7 @@ namespace System::Collections::Specialized {
     // Offset: 0x147BB00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionary* New_ctor(System::Collections::IComparer* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Specialized").WithContext("ListDictionary").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::ListDictionary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionary*, creationType>(comparer)));
     }
     // public System.Collections.ICollection get_Values()
@@ -90,7 +90,7 @@ namespace System::Collections::Specialized {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionary* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Specialized").WithContext("ListDictionary").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::ListDictionary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionary*, creationType>()));
     }
     // public System.Object get_Item(System.Object key)

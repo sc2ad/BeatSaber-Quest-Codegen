@@ -105,7 +105,7 @@ namespace VRUIControls {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PhysicsRaycasterWithCache* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("VRUIControls").WithContext("PhysicsRaycasterWithCache").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("VRUIControls::PhysicsRaycasterWithCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PhysicsRaycasterWithCache*, creationType>()));
     }
   }; // VRUIControls.PhysicsRaycasterWithCache

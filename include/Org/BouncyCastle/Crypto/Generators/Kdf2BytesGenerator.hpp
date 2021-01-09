@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Offset: 0x1498A44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Kdf2BytesGenerator* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Generators").WithContext("Kdf2BytesGenerator").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Kdf2BytesGenerator*, creationType>(digest)));
     }
   }; // Org.BouncyCastle.Crypto.Generators.Kdf2BytesGenerator

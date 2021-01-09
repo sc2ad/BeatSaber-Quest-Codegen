@@ -28,7 +28,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TerminatesProgramAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("TerminatesProgramAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::TerminatesProgramAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TerminatesProgramAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.TerminatesProgramAttribute

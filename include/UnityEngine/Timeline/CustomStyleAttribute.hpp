@@ -34,7 +34,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x141AF90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomStyleAttribute* New_ctor(::Il2CppString* ussStyle) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("CustomStyleAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::CustomStyleAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomStyleAttribute*, creationType>(ussStyle)));
     }
   }; // UnityEngine.Timeline.CustomStyleAttribute

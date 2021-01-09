@@ -49,7 +49,7 @@ namespace UnityEngine::ProBuilder {
     // System.Boolean <DistinctBy>b__0(TSource x)
     // Offset: 0xFFFFFFFF
     bool $DistinctBy$b__0(TSource x) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("$$c__DisplayClass21_0_2").WithContext("<DistinctBy>b__0");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::$$c__DisplayClass21_0_2::<DistinctBy>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<DistinctBy>b__0", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(x))));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, x);
     }
@@ -59,7 +59,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayUtility::$$c__DisplayClass21_0_2<TSource, TKey>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("$$c__DisplayClass21_0_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::$$c__DisplayClass21_0_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayUtility::$$c__DisplayClass21_0_2<TSource, TKey>*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.ArrayUtility/<>c__DisplayClass21_0`2

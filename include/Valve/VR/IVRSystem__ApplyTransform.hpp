@@ -42,7 +42,7 @@ namespace Valve::VR {
     // Offset: 0x1927E74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRSystem::_ApplyTransform* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_ApplyTransform").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRSystem::_ApplyTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRSystem::_ApplyTransform*, creationType>(object, method)));
     }
     // public System.Void Invoke(ref Valve.VR.TrackedDevicePose_t pOutputPose, ref Valve.VR.TrackedDevicePose_t pTrackedDevicePose, ref Valve.VR.HmdMatrix34_t pTransform)

@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Offset: 0xFB7D50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLevelSceneSetupData* New_ctor(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool hasSong) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MultiplayerLevelSceneSetupData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerLevelSceneSetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLevelSceneSetupData*, creationType>(previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, hasSong)));
     }
   }; // MultiplayerLevelSceneSetupData

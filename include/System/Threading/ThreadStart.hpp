@@ -33,7 +33,7 @@ namespace System::Threading {
     // Offset: 0x1D1A848
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadStart* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("ThreadStart").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadStart::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadStart*, creationType>(object, method)));
     }
     // public System.Void Invoke()

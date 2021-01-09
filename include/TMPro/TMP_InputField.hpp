@@ -1577,7 +1577,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_InputField* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMP_InputField").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_InputField::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_InputField*, creationType>()));
     }
     // private System.Boolean get_hasSelection()

@@ -23,7 +23,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static __ComObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("__ComObject").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::__ComObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<__ComObject*, creationType>()));
     }
   }; // System.__ComObject

@@ -54,7 +54,7 @@ namespace UnityEngine::Events {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PersistentCallGroup* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("PersistentCallGroup").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::PersistentCallGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PersistentCallGroup*, creationType>()));
     }
   }; // UnityEngine.Events.PersistentCallGroup

@@ -45,14 +45,14 @@ namespace System::IO {
     // Offset: 0x143E2BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOException* New_ctor(::Il2CppString* message, int hresult) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("IOException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::IOException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOException*, creationType>(message, hresult)));
     }
     // System.Void .ctor(System.String message, System.Int32 hresult, System.String maybeFullPath)
     // Offset: 0x143E2F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOException* New_ctor(::Il2CppString* message, int hresult, ::Il2CppString* maybeFullPath) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("IOException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::IOException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOException*, creationType>(message, hresult, maybeFullPath)));
     }
     // public System.Void .ctor()
@@ -63,7 +63,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("IOException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::IOException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -73,7 +73,7 @@ namespace System::IO {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("IOException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::IOException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
@@ -83,7 +83,7 @@ namespace System::IO {
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOException* New_ctor(::Il2CppString* message, System::Exception* innerException) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("IOException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::IOException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOException*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -93,7 +93,7 @@ namespace System::IO {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("IOException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::IOException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOException*, creationType>(info, context)));
     }
   }; // System.IO.IOException

@@ -40,7 +40,7 @@ namespace Zenject {
     // Offset: 0x129FC14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IfNotBoundBinder* New_ctor(Zenject::BindInfo* bindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IfNotBoundBinder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IfNotBoundBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IfNotBoundBinder*, creationType>(bindInfo)));
     }
     // public Zenject.BindInfo get_BindInfo()

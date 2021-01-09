@@ -85,7 +85,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x1695FD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DSACryptoServiceProvider* New_ctor(int dwKeySize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("DSACryptoServiceProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::DSACryptoServiceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DSACryptoServiceProvider*, creationType>(dwKeySize)));
     }
     // private System.Void Common(System.Int32 dwKeySize, System.Boolean parameters)
@@ -105,7 +105,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DSACryptoServiceProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("DSACryptoServiceProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::DSACryptoServiceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DSACryptoServiceProvider*, creationType>()));
     }
     // protected override System.Void Finalize()

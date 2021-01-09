@@ -43,7 +43,7 @@ namespace UnityEngine {
     // Offset: 0x16CE0A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaitForSecondsRealtime* New_ctor(float time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("WaitForSecondsRealtime").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::WaitForSecondsRealtime::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaitForSecondsRealtime*, creationType>(time)));
     }
     // public override System.Boolean get_keepWaiting()

@@ -70,35 +70,35 @@ namespace System::Collections::ObjectModel {
     // protected System.Void ClearItems()
     // Offset: 0xFFFFFFFF
     void ClearItems() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("ClearItems");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::ClearItems");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ClearItems", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // protected System.Void InsertItem(System.Int32 index, T item)
     // Offset: 0xFFFFFFFF
     void InsertItem(int index, T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("InsertItem");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::InsertItem");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InsertItem", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index, item)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, index, item);
     }
     // protected System.Void RemoveItem(System.Int32 index)
     // Offset: 0xFFFFFFFF
     void RemoveItem(int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("RemoveItem");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::RemoveItem");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "RemoveItem", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, index);
     }
     // protected System.Void SetItem(System.Int32 index, T item)
     // Offset: 0xFFFFFFFF
     void SetItem(int index, T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("SetItem");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::SetItem");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SetItem", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index, item)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, index, item);
     }
     // static private System.Boolean IsCompatibleObject(System.Object value)
     // Offset: 0xFFFFFFFF
     static bool IsCompatibleObject(::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("IsCompatibleObject");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::IsCompatibleObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Collection_1<T>*>::get(), "IsCompatibleObject", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value))));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
     }
@@ -108,7 +108,7 @@ namespace System::Collections::ObjectModel {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Collection_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Collection_1<T>*, creationType>()));
     }
     // public System.Int32 get_Count()
@@ -118,7 +118,7 @@ namespace System::Collections::ObjectModel {
     // Base method: System.Int32 ICollection::get_Count()
     // Base method: System.Int32 IReadOnlyCollection_1::get_Count()
     int get_Count() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("get_Count");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::get_Count");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
@@ -138,7 +138,7 @@ namespace System::Collections::ObjectModel {
     // Base method: T IList_1::get_Item(System.Int32 index)
     // Base method: T IReadOnlyList_1::get_Item(System.Int32 index)
     T get_Item(int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("get_Item");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::get_Item");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Item", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, index);
     }
@@ -157,7 +157,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Void IList_1::set_Item(System.Int32 index, T value)
     void set_Item(int index, T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("set_Item");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::set_Item");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "set_Item", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index, value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, index, value);
     }
@@ -171,7 +171,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Add(T item)
     void Add(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::Add");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
@@ -186,7 +186,7 @@ namespace System::Collections::ObjectModel {
     // Base method: System.Void ICollection_1::Clear()
     // Base method: System.Void IList::Clear()
     void Clear() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("Clear");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::Clear");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
@@ -205,7 +205,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::CopyTo(T[] array, System.Int32 index)
     void CopyTo(::Array<T>* array, int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("CopyTo");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::CopyTo");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(array, index)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, array, index);
     }
@@ -219,7 +219,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Contains(T item)
     bool Contains(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("Contains");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::Contains");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Contains", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
     }
@@ -233,7 +233,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<T>* GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("GetEnumerator");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::GetEnumerator");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal__method);
     }
@@ -247,7 +247,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Int32 IList_1::IndexOf(T item)
     int IndexOf(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("IndexOf");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::IndexOf");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "IndexOf", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, item);
     }
@@ -261,7 +261,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Void IList_1::Insert(System.Int32 index, T item)
     void Insert(int index, T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("Insert");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::Insert");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Insert", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index, item)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, index, item);
     }
@@ -275,7 +275,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Remove(T item)
     bool Remove(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("Remove");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::Remove");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
     }
@@ -290,7 +290,7 @@ namespace System::Collections::ObjectModel {
     // Base method: System.Void IList_1::RemoveAt(System.Int32 index)
     // Base method: System.Void IList::RemoveAt(System.Int32 index)
     void RemoveAt(int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("RemoveAt");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::RemoveAt");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "RemoveAt", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, index);
     }
@@ -309,7 +309,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::get_IsReadOnly()
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("System.Collections.Generic.ICollection<T>.get_IsReadOnly");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::System.Collections.Generic.ICollection<T>.get_IsReadOnly");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.ICollection<T>.get_IsReadOnly", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
@@ -318,7 +318,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("System.Collections.IEnumerable.GetEnumerator");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::System.Collections.IEnumerable.GetEnumerator");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
     }
@@ -327,7 +327,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("System.Collections.ICollection.CopyTo");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::System.Collections.ICollection.CopyTo");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.ICollection.CopyTo", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(array, index)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, array, index);
     }
@@ -336,7 +336,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.IList
     // Base method: System.Object IList::get_Item(System.Int32 index)
     ::Il2CppObject* System_Collections_IList_get_Item(int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("System.Collections.IList.get_Item");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::System.Collections.IList.get_Item");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IList.get_Item", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index)));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method, index);
     }
@@ -345,7 +345,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.IList
     // Base method: System.Void IList::set_Item(System.Int32 index, System.Object value)
     void System_Collections_IList_set_Item(int index, ::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("System.Collections.IList.set_Item");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::System.Collections.IList.set_Item");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IList.set_Item", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index, value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, index, value);
     }
@@ -354,7 +354,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.IList
     // Base method: System.Boolean IList::get_IsReadOnly()
     bool System_Collections_IList_get_IsReadOnly() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("System.Collections.IList.get_IsReadOnly");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::System.Collections.IList.get_IsReadOnly");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IList.get_IsReadOnly", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
@@ -363,7 +363,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.IList
     // Base method: System.Int32 IList::Add(System.Object value)
     int System_Collections_IList_Add(::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("System.Collections.IList.Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::System.Collections.IList.Add");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IList.Add", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, value);
     }
@@ -372,7 +372,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.IList
     // Base method: System.Boolean IList::Contains(System.Object value)
     bool System_Collections_IList_Contains(::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("System.Collections.IList.Contains");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::System.Collections.IList.Contains");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IList.Contains", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value);
     }
@@ -381,7 +381,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.IList
     // Base method: System.Int32 IList::IndexOf(System.Object value)
     int System_Collections_IList_IndexOf(::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("System.Collections.IList.IndexOf");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::System.Collections.IList.IndexOf");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IList.IndexOf", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, value);
     }
@@ -390,7 +390,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.IList
     // Base method: System.Void IList::Insert(System.Int32 index, System.Object value)
     void System_Collections_IList_Insert(int index, ::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("System.Collections.IList.Insert");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::System.Collections.IList.Insert");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IList.Insert", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index, value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, index, value);
     }
@@ -399,7 +399,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Collections.IList
     // Base method: System.Void IList::Remove(System.Object value)
     void System_Collections_IList_Remove(::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::ObjectModel").WithContext("Collection_1").WithContext("System.Collections.IList.Remove");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ObjectModel::Collection_1::System.Collections.IList.Remove");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IList.Remove", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }

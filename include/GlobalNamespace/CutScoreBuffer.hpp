@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A5734C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CutScoreBuffer* New_ctor(GlobalNamespace::NoteCutInfo* noteCutInfo, int multiplier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("CutScoreBuffer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CutScoreBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CutScoreBuffer*, creationType>(noteCutInfo, multiplier)));
     }
     // private System.Void HandleSwingRatingCounterDidChangeEvent(ISaberSwingRatingCounter swingRatingCounter, System.Single rating)

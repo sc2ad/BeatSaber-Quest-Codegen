@@ -90,7 +90,7 @@ namespace Microsoft::Win32 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnixRegistryApi* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Microsoft::Win32").WithContext("UnixRegistryApi").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::UnixRegistryApi::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnixRegistryApi*, creationType>()));
     }
   }; // Microsoft.Win32.UnixRegistryApi

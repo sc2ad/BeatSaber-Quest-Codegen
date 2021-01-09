@@ -43,7 +43,7 @@ namespace System::Linq {
     // System.Boolean <CombinePredicates>b__0(TSource x)
     // Offset: 0xFFFFFFFF
     bool $CombinePredicates$b__0(TSource x) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("$$c__DisplayClass6_0_1").WithContext("<CombinePredicates>b__0");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::$$c__DisplayClass6_0_1::<CombinePredicates>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CombinePredicates>b__0", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(x))));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, x);
     }
@@ -53,7 +53,7 @@ namespace System::Linq {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Enumerable::$$c__DisplayClass6_0_1<TSource>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("$$c__DisplayClass6_0_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::$$c__DisplayClass6_0_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Enumerable::$$c__DisplayClass6_0_1<TSource>*, creationType>()));
     }
   }; // System.Linq.Enumerable/<>c__DisplayClass6_0`1

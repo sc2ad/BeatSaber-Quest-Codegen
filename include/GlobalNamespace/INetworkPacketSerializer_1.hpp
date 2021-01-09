@@ -30,14 +30,14 @@ namespace GlobalNamespace {
     // public System.Void ProcessAllPackets(LiteNetLib.Utils.NetDataReader reader, TData data)
     // Offset: 0xFFFFFFFF
     void ProcessAllPackets(LiteNetLib::Utils::NetDataReader* reader, TData data) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("INetworkPacketSerializer_1").WithContext("ProcessAllPackets");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPacketSerializer_1::ProcessAllPackets");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ProcessAllPackets", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(reader, data)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, reader, data);
     }
     // public System.Void SerializePacket(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.Utils.INetSerializable packet)
     // Offset: 0xFFFFFFFF
     void SerializePacket(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::Utils::INetSerializable* packet) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("INetworkPacketSerializer_1").WithContext("SerializePacket");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPacketSerializer_1::SerializePacket");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SerializePacket", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(writer, packet)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, writer, packet);
     }

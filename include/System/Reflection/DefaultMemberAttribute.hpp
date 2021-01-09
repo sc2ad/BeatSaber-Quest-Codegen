@@ -35,7 +35,7 @@ namespace System::Reflection {
     // Offset: 0x172372C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultMemberAttribute* New_ctor(::Il2CppString* memberName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("DefaultMemberAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::DefaultMemberAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultMemberAttribute*, creationType>(memberName)));
     }
     // public System.String get_MemberName()

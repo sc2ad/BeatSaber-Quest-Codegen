@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalOnUIButtonClick* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SignalOnUIButtonClick").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SignalOnUIButtonClick::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalOnUIButtonClick*, creationType>()));
     }
   }; // SignalOnUIButtonClick

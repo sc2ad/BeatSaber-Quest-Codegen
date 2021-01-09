@@ -251,7 +251,7 @@ namespace UnityEngine {
     // Offset: 0x160E62C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUIStyle* New_ctor(UnityEngine::GUIStyle* other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("GUIStyle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUIStyle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIStyle*, creationType>(other)));
     }
     // public System.String get_name()
@@ -377,7 +377,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUIStyle* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("GUIStyle").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUIStyle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIStyle*, creationType>()));
     }
     // protected override System.Void Finalize()

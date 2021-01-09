@@ -48,7 +48,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12FF6B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeInformation* New_ctor(::Il2CppString* fullTypeName, ::Il2CppString* assemblyString, bool hasTypeForwardedFrom) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization::Formatters::Binary").WithContext("TypeInformation").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::TypeInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeInformation*, creationType>(fullTypeName, assemblyString, hasTypeForwardedFrom)));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.TypeInformation

@@ -27,14 +27,14 @@ namespace HMUI {
     // public System.Void add_valueChangedEvent(System.Action`1<T> value)
     // Offset: 0xFFFFFFFF
     void add_valueChangedEvent(System::Action_1<T>* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("IValueChanger_1").WithContext("add_valueChangedEvent");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::IValueChanger_1::add_valueChangedEvent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "add_valueChangedEvent", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void remove_valueChangedEvent(System.Action`1<T> value)
     // Offset: 0xFFFFFFFF
     void remove_valueChangedEvent(System::Action_1<T>* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("IValueChanger_1").WithContext("remove_valueChangedEvent");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::IValueChanger_1::remove_valueChangedEvent");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "remove_valueChangedEvent", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }

@@ -115,7 +115,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRNetwork::OVRNetworkTcpClient* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OVRNetworkTcpClient").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRNetwork::OVRNetworkTcpClient*, creationType>()));
     }
   }; // OVRNetwork/OVRNetworkTcpClient

@@ -86,7 +86,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChannelData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting").WithContext("ChannelData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ChannelData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChannelData*, creationType>()));
     }
   }; // System.Runtime.Remoting.ChannelData

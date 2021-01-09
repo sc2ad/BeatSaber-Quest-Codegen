@@ -55,7 +55,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriggerBehaviour* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("TriggerBehaviour").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::TriggerBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TriggerBehaviour*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.TriggerBehaviour

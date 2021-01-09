@@ -44,7 +44,7 @@ namespace System::Text {
     // Offset: 0x16B0DA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnicodeEncoding::Decoder* New_ctor(System::Text::UnicodeEncoding* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("Decoder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UnicodeEncoding::Decoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnicodeEncoding::Decoder*, creationType>(encoding)));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -53,7 +53,7 @@ namespace System::Text {
     // Base method: System.Void DecoderNLS::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnicodeEncoding::Decoder* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Text").WithContext("Decoder").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UnicodeEncoding::Decoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnicodeEncoding::Decoder*, creationType>(info, context)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

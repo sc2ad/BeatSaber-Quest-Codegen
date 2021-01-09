@@ -35,7 +35,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE4F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HtmlAttributeValueAttribute* New_ctor(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("HtmlAttributeValueAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::HtmlAttributeValueAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HtmlAttributeValueAttribute*, creationType>(name)));
     }
     // public System.String get_Name()

@@ -54,7 +54,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x127D18C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TailStream* New_ctor(int bufferSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("TailStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::TailStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TailStream*, creationType>(bufferSize)));
     }
     // public System.Void Clear()

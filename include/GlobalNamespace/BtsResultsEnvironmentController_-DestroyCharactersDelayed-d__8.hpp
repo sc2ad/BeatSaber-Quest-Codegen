@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A32488
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BtsResultsEnvironmentController::$DestroyCharactersDelayed$d__8* New_ctor(int $$1__state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$DestroyCharactersDelayed$d__8").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BtsResultsEnvironmentController::$DestroyCharactersDelayed$d__8::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BtsResultsEnvironmentController::$DestroyCharactersDelayed$d__8*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()

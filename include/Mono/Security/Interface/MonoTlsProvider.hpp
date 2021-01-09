@@ -93,7 +93,7 @@ namespace Mono::Security::Interface {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoTlsProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Security::Interface").WithContext("MonoTlsProvider").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::MonoTlsProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTlsProvider*, creationType>()));
     }
   }; // Mono.Security.Interface.MonoTlsProvider

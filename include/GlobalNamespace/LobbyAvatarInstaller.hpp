@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyAvatarInstaller* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LobbyAvatarInstaller").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LobbyAvatarInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyAvatarInstaller*, creationType>()));
     }
   }; // LobbyAvatarInstaller

@@ -82,7 +82,7 @@ namespace UnityEngine {
     // Offset: 0x167A338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationCurve* New_ctor(::Array<UnityEngine::Keyframe>* keys) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("AnimationCurve").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AnimationCurve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationCurve*, creationType>(keys)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(params UnityEngine.Keyframe[] keys)
@@ -106,7 +106,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationCurve* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("AnimationCurve").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AnimationCurve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationCurve*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object o)

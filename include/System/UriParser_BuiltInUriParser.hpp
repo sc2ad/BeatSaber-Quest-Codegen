@@ -25,7 +25,7 @@ namespace System {
     // Offset: 0x19D7A10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriParser::BuiltInUriParser* New_ctor(::Il2CppString* lwrCaseScheme, int defaultPort, System::UriSyntaxFlags syntaxFlags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("BuiltInUriParser").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::UriParser::BuiltInUriParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriParser::BuiltInUriParser*, creationType>(lwrCaseScheme, defaultPort, syntaxFlags)));
     }
   }; // System.UriParser/BuiltInUriParser

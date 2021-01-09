@@ -34,7 +34,7 @@ namespace UnityEngine {
     // Offset: 0x168D7A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderAttribute* New_ctor(::Il2CppString* header) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("HeaderAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::HeaderAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderAttribute*, creationType>(header)));
     }
   }; // UnityEngine.HeaderAttribute

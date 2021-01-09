@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Offset: 0x17852A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WNafUtilities::ConfigureBasepointCallback* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, int confWidth) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Multiplier").WithContext("ConfigureBasepointCallback").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepointCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WNafUtilities::ConfigureBasepointCallback*, creationType>(curve, confWidth)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)

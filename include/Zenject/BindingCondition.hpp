@@ -37,7 +37,7 @@ namespace Zenject {
     // Offset: 0x10EB8C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BindingCondition* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("BindingCondition").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::BindingCondition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BindingCondition*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(Zenject.InjectContext c)

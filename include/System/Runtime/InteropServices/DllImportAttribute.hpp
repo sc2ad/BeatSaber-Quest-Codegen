@@ -98,14 +98,14 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x116473C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DllImportAttribute* New_ctor(::Il2CppString* dllName, ::Il2CppString* entryPoint, System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("DllImportAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::DllImportAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DllImportAttribute*, creationType>(dllName, entryPoint, charSet, exactSpelling, setLastError, preserveSig, callingConvention, bestFitMapping, throwOnUnmappableChar)));
     }
     // public System.Void .ctor(System.String dllName)
     // Offset: 0x1164820
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DllImportAttribute* New_ctor(::Il2CppString* dllName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::InteropServices").WithContext("DllImportAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::DllImportAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DllImportAttribute*, creationType>(dllName)));
     }
     // public System.String get_Value()

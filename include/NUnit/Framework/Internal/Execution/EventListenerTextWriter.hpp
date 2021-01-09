@@ -42,7 +42,7 @@ namespace NUnit::Framework::Internal::Execution {
     // Offset: 0x13F1748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventListenerTextWriter* New_ctor(::Il2CppString* streamName, System::IO::TextWriter* defaultWriter) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal::Execution").WithContext("EventListenerTextWriter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Execution::EventListenerTextWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventListenerTextWriter*, creationType>(streamName, defaultWriter)));
     }
     // private System.Boolean TrySendToListener(System.String text)

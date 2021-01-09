@@ -331,7 +331,7 @@ namespace System::Diagnostics {
     // Offset: 0x1484114
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Process* New_ctor(::Il2CppString* machineName, bool isRemoteMachine, int processId, System::Diagnostics::ProcessInfo* processInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics").WithContext("Process").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Process::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Process*, creationType>(machineName, isRemoteMachine, processId, processInfo)));
     }
     // private System.Boolean get_Associated()

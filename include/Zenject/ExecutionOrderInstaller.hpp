@@ -43,7 +43,7 @@ namespace Zenject {
     // Offset: 0x1295074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExecutionOrderInstaller* New_ctor(System::Collections::Generic::List_1<System::Type*>* typeOrder) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ExecutionOrderInstaller").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ExecutionOrderInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExecutionOrderInstaller*, creationType>(typeOrder)));
     }
     // public override System.Void InstallBindings()

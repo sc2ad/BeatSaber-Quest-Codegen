@@ -49,14 +49,14 @@ namespace System::Net::Http::Headers {
     // Offset: 0x1207B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeConditionHeaderValue* New_ctor(System::DateTimeOffset date) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("RangeConditionHeaderValue").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::RangeConditionHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeConditionHeaderValue*, creationType>(date)));
     }
     // public System.Void .ctor(System.Net.Http.Headers.EntityTagHeaderValue entityTag)
     // Offset: 0x1207BB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeConditionHeaderValue* New_ctor(System::Net::Http::Headers::EntityTagHeaderValue* entityTag) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("RangeConditionHeaderValue").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::RangeConditionHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeConditionHeaderValue*, creationType>(entityTag)));
     }
     // public System.Nullable`1<System.DateTimeOffset> get_Date()

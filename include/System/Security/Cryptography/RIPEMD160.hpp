@@ -30,7 +30,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RIPEMD160* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Cryptography").WithContext("RIPEMD160").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RIPEMD160::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RIPEMD160*, creationType>()));
     }
   }; // System.Security.Cryptography.RIPEMD160

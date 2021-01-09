@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Void BufferedBlockCipher::.ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CtsBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Modes").WithContext("CtsBlockCipher").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CtsBlockCipher*, creationType>(cipher)));
     }
     // public override System.Int32 GetUpdateOutputSize(System.Int32 length)

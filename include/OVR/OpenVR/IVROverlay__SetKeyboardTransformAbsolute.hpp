@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x18FC498
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVROverlay::_SetKeyboardTransformAbsolute* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVR::OpenVR").WithContext("_SetKeyboardTransformAbsolute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::IVROverlay::_SetKeyboardTransformAbsolute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVROverlay::_SetKeyboardTransformAbsolute*, creationType>(object, method)));
     }
     // public System.Void Invoke(OVR.OpenVR.ETrackingUniverseOrigin eTrackingOrigin, ref OVR.OpenVR.HmdMatrix34_t pmatTrackingOriginToKeyboardTransform)

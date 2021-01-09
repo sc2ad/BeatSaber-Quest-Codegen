@@ -157,7 +157,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaymodeTestsController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::TestRunner").WithContext("PlaymodeTestsController").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::PlaymodeTestsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaymodeTestsController*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.PlaymodeTestsController

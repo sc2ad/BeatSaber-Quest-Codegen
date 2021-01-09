@@ -43,7 +43,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1163184
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixedBufferAttribute* New_ctor(System::Type* elementType, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("FixedBufferAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::FixedBufferAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixedBufferAttribute*, creationType>(elementType, length)));
     }
     // public System.Type get_ElementType()

@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionNodeUpdatePositionInEditMode* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MissionNodeUpdatePositionInEditMode").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionNodeUpdatePositionInEditMode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionNodeUpdatePositionInEditMode*, creationType>()));
     }
   }; // MissionNodeUpdatePositionInEditMode

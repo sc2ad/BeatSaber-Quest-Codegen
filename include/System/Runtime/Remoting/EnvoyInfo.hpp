@@ -44,7 +44,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x1174F0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvoyInfo* New_ctor(System::Runtime::Remoting::Messaging::IMessageSink* sinks) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Remoting").WithContext("EnvoyInfo").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::EnvoyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvoyInfo*, creationType>(sinks)));
     }
     // public System.Runtime.Remoting.Messaging.IMessageSink get_EnvoySinks()

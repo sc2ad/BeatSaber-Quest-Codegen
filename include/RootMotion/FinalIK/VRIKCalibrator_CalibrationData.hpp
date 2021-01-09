@@ -108,7 +108,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIKCalibrator::CalibrationData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("CalibrationData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::VRIKCalibrator::CalibrationData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRIKCalibrator::CalibrationData*, creationType>()));
     }
   }; // RootMotion.FinalIK.VRIKCalibrator/CalibrationData

@@ -63,7 +63,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator::NameFragment* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("NameFragment").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestNameGenerator::NameFragment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::NameFragment*, creationType>()));
     }
   }; // NUnit.Framework.Internal.TestNameGenerator/NameFragment

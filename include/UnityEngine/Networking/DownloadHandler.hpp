@@ -73,7 +73,7 @@ namespace UnityEngine::Networking {
     template<class T>
     static T GetCheckedDownloader(UnityEngine::Networking::UnityWebRequest* www) {
       static_assert(std::is_convertible_v<T, UnityEngine::Networking::DownloadHandler*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Networking").WithContext("DownloadHandler").WithContext("GetCheckedDownloader");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::DownloadHandler::GetCheckedDownloader");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Networking", "DownloadHandler", "GetCheckedDownloader", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(www)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, www);
@@ -87,7 +87,7 @@ namespace UnityEngine::Networking {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DownloadHandler* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Networking").WithContext("DownloadHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::DownloadHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DownloadHandler*, creationType>()));
     }
     // protected override System.Void Finalize()

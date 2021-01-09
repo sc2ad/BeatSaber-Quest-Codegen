@@ -57,7 +57,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E0B38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementProgress* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform::Models").WithContext("AchievementProgress").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AchievementProgress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AchievementProgress*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.AchievementProgress

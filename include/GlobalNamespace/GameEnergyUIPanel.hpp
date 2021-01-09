@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameEnergyUIPanel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("GameEnergyUIPanel").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameEnergyUIPanel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameEnergyUIPanel*, creationType>()));
     }
   }; // GameEnergyUIPanel

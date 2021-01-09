@@ -50,7 +50,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1441590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeSerializationEventArgs* New_ctor(System::Runtime::Serialization::StreamingContext streamingContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::Serialization").WithContext("SafeSerializationEventArgs").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SafeSerializationEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeSerializationEventArgs*, creationType>(streamingContext)));
     }
     // System.Collections.Generic.IList`1<System.Object> get_SerializedStates()

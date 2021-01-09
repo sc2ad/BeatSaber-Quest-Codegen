@@ -34,7 +34,7 @@ namespace HMUI {
     // Offset: 0x1981FB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewController::DidActivateDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("DidActivateDelegate").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ViewController::DidActivateDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewController::DidActivateDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)

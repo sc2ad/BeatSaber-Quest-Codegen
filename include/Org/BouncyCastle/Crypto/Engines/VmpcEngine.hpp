@@ -88,7 +88,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VmpcEngine* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Crypto::Engines").WithContext("VmpcEngine").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::VmpcEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VmpcEngine*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Engines.VmpcEngine

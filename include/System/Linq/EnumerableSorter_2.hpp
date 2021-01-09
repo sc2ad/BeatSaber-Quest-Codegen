@@ -67,7 +67,7 @@ namespace System::Linq {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableSorter_2<TElement, TKey>* New_ctor(System::Func_2<TElement, TKey>* keySelector, System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending, System::Linq::EnumerableSorter_1<TElement>* next) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("EnumerableSorter_2").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::EnumerableSorter_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableSorter_2<TElement, TKey>*, creationType>(keySelector, comparer, descending, next)));
     }
     // override System.Void ComputeKeys(TElement[] elements, System.Int32 count)
@@ -75,7 +75,7 @@ namespace System::Linq {
     // Implemented from: System.Linq.EnumerableSorter`1
     // Base method: System.Void EnumerableSorter_1::ComputeKeys(TElement[] elements, System.Int32 count)
     void ComputeKeys(::Array<TElement>* elements, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("EnumerableSorter_2").WithContext("ComputeKeys");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::EnumerableSorter_2::ComputeKeys");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ComputeKeys", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(elements, count)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, elements, count);
     }
@@ -84,7 +84,7 @@ namespace System::Linq {
     // Implemented from: System.Linq.EnumerableSorter`1
     // Base method: System.Int32 EnumerableSorter_1::CompareKeys(System.Int32 index1, System.Int32 index2)
     int CompareKeys(int index1, int index2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("EnumerableSorter_2").WithContext("CompareKeys");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::EnumerableSorter_2::CompareKeys");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CompareKeys", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index1, index2)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, index1, index2);
     }

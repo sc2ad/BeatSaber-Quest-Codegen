@@ -35,7 +35,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EEA70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringFormatMethodAttribute* New_ctor(::Il2CppString* formatParameterName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("JetBrains::Annotations").WithContext("StringFormatMethodAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::StringFormatMethodAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringFormatMethodAttribute*, creationType>(formatParameterName)));
     }
     // public System.String get_FormatParameterName()

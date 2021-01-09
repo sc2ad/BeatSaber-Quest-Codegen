@@ -42,7 +42,7 @@ namespace Valve::VR {
     // Offset: 0x136B79C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRResources* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("CVRResources").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRResources::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRResources*, creationType>(pInterface)));
     }
     // public System.UInt32 LoadSharedResource(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen)

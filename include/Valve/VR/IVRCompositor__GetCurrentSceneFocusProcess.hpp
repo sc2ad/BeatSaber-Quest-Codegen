@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Offset: 0x18E6744
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IVRCompositor::_GetCurrentSceneFocusProcess* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Valve::VR").WithContext("_GetCurrentSceneFocusProcess").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IVRCompositor::_GetCurrentSceneFocusProcess*, creationType>(object, method)));
     }
     // public System.UInt32 Invoke()

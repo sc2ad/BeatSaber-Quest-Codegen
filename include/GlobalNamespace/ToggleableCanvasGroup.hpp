@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ToggleableCanvasGroup* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ToggleableCanvasGroup").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ToggleableCanvasGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ToggleableCanvasGroup*, creationType>()));
     }
   }; // ToggleableCanvasGroup

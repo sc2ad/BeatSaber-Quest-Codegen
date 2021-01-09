@@ -64,7 +64,7 @@ namespace Mono::Globalization::Unicode {
       // Offset: 0xCA0AEC
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       TableRange(int start, int end, int indexStart) {
-        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Globalization::Unicode").WithContext("TableRange").WithContext(".ctor");
+        static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::CodePointIndexer::TableRange::.ctor");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(start, end, indexStart)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, start, end, indexStart);
       }
@@ -101,7 +101,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x1518D88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CodePointIndexer* New_ctor(::Array<int>* starts, ::Array<int>* ends, int defaultIndex, int defaultCP) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Mono::Globalization::Unicode").WithContext("CodePointIndexer").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::CodePointIndexer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CodePointIndexer*, creationType>(starts, ends, defaultIndex, defaultCP)));
     }
     // public System.Int32 ToIndex(System.Int32 cp)

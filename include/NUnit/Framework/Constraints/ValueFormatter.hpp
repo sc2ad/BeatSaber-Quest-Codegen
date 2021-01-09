@@ -32,7 +32,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13DF938
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueFormatter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Constraints").WithContext("ValueFormatter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::ValueFormatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueFormatter*, creationType>(object, method)));
     }
     // public System.String Invoke(System.Object val)

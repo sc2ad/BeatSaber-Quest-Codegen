@@ -50,7 +50,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Offset: 0x17A1FBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecP224R1Curve::SecP224R1LookupTable* New_ctor(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1Curve* outer, ::Array<uint>* table, int size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Math::EC::Custom::Sec").WithContext("SecP224R1LookupTable").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1Curve::SecP224R1LookupTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecP224R1Curve::SecP224R1LookupTable*, creationType>(outer, table, size)));
     }
     // private Org.BouncyCastle.Math.EC.ECPoint CreatePoint(System.UInt32[] x, System.UInt32[] y)

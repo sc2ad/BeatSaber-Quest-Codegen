@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionHelpViewController::MissionHelpGameObjectPair* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MissionHelpGameObjectPair").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionHelpViewController::MissionHelpGameObjectPair*, creationType>()));
     }
   }; // MissionHelpViewController/MissionHelpGameObjectPair

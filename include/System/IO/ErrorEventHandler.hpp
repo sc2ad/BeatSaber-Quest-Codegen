@@ -37,7 +37,7 @@ namespace System::IO {
     // Offset: 0x148E744
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ErrorEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("ErrorEventHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::ErrorEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ErrorEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.IO.ErrorEventArgs e)

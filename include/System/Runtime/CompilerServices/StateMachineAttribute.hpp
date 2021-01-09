@@ -45,7 +45,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1162680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StateMachineAttribute* New_ctor(System::Type* stateMachineType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("StateMachineAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::StateMachineAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StateMachineAttribute*, creationType>(stateMachineType)));
     }
   }; // System.Runtime.CompilerServices.StateMachineAttribute

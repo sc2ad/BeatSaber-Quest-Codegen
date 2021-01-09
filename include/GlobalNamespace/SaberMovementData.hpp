@@ -141,7 +141,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberMovementData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SaberMovementData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SaberMovementData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberMovementData*, creationType>()));
     }
   }; // SaberMovementData

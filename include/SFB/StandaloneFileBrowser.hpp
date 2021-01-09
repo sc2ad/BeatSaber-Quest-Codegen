@@ -76,7 +76,7 @@ namespace SFB {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandaloneFileBrowser* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("SFB").WithContext("StandaloneFileBrowser").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("SFB::StandaloneFileBrowser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandaloneFileBrowser*, creationType>()));
     }
   }; // SFB.StandaloneFileBrowser

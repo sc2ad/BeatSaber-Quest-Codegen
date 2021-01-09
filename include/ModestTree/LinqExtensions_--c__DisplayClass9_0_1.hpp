@@ -27,7 +27,7 @@ namespace ModestTree {
     // System.Boolean <ContainsItem>b__0(T x)
     // Offset: 0xFFFFFFFF
     bool $ContainsItem$b__0(T x) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("$$c__DisplayClass9_0_1").WithContext("<ContainsItem>b__0");
+      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::LinqExtensions::$$c__DisplayClass9_0_1::<ContainsItem>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ContainsItem>b__0", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(x))));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, x);
     }
@@ -37,7 +37,7 @@ namespace ModestTree {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinqExtensions::$$c__DisplayClass9_0_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("$$c__DisplayClass9_0_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::LinqExtensions::$$c__DisplayClass9_0_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinqExtensions::$$c__DisplayClass9_0_1<T>*, creationType>()));
     }
   }; // ModestTree.LinqExtensions/<>c__DisplayClass9_0`1

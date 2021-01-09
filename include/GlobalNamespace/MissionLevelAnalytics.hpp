@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelAnalytics* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MissionLevelAnalytics").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionLevelAnalytics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelAnalytics*, creationType>()));
     }
   }; // MissionLevelAnalytics

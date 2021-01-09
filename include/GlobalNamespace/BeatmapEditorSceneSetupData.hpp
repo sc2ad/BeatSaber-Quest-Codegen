@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A82E5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEditorSceneSetupData* New_ctor(::Il2CppString* levelDirPath, ::Il2CppString* levelAssetPath) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BeatmapEditorSceneSetupData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapEditorSceneSetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEditorSceneSetupData*, creationType>(levelDirPath, levelAssetPath)));
     }
   }; // BeatmapEditorSceneSetupData

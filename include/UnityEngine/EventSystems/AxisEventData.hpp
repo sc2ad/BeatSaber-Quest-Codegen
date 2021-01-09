@@ -62,7 +62,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AxisEventData* New_ctor(UnityEngine::EventSystems::EventSystem* eventSystem) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("AxisEventData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::AxisEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AxisEventData*, creationType>(eventSystem)));
     }
   }; // UnityEngine.EventSystems.AxisEventData

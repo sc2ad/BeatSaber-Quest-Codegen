@@ -33,27 +33,27 @@ namespace System::Threading {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadPoolWorkQueue::SparseArray_1<T>* New_ctor(int initialSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparseArray_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadPoolWorkQueue::SparseArray_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadPoolWorkQueue::SparseArray_1<T>*, creationType>(initialSize)));
     }
     // T[] get_Current()
     // Offset: 0xFFFFFFFF
     ::Array<T>* get_Current() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparseArray_1").WithContext("get_Current");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadPoolWorkQueue::SparseArray_1::get_Current");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Current", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(this, ___internal__method);
     }
     // System.Int32 Add(T e)
     // Offset: 0xFFFFFFFF
     int Add(T e) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparseArray_1").WithContext("Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadPoolWorkQueue::SparseArray_1::Add");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(e)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, e);
     }
     // System.Void Remove(T e)
     // Offset: 0xFFFFFFFF
     void Remove(T e) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparseArray_1").WithContext("Remove");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadPoolWorkQueue::SparseArray_1::Remove");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(e)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, e);
     }

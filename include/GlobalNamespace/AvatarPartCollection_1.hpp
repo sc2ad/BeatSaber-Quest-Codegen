@@ -56,14 +56,14 @@ namespace GlobalNamespace {
     // public System.Int32 get_count()
     // Offset: 0xFFFFFFFF
     int get_count() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AvatarPartCollection_1").WithContext("get_count");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartCollection_1::get_count");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_count", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // public T[] get_parts()
     // Offset: 0xFFFFFFFF
     ::Array<T>* get_parts() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AvatarPartCollection_1").WithContext("get_parts");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartCollection_1::get_parts");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_parts", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(this, ___internal__method);
     }
@@ -71,41 +71,41 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarPartCollection_1<T>* New_ctor(::Array<T>* parts) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AvatarPartCollection_1").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartCollection_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarPartCollection_1<T>*, creationType>(parts)));
     }
     // public T GetById(System.String id)
     // Offset: 0xFFFFFFFF
     T GetById(::Il2CppString* id) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AvatarPartCollection_1").WithContext("GetById");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartCollection_1::GetById");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetById", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(id)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, id);
     }
     // public T GetRandom()
     // Offset: 0xFFFFFFFF
     T GetRandom() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AvatarPartCollection_1").WithContext("GetRandom");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartCollection_1::GetRandom");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetRandom", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public T GetByIndex(System.Int32 index)
     // Offset: 0xFFFFFFFF
     T GetByIndex(int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AvatarPartCollection_1").WithContext("GetByIndex");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartCollection_1::GetByIndex");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetByIndex", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, index);
     }
     // public System.Int32 GetIndexById(System.String id)
     // Offset: 0xFFFFFFFF
     int GetIndexById(::Il2CppString* id) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AvatarPartCollection_1").WithContext("GetIndexById");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartCollection_1::GetIndexById");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetIndexById", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(id)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, id);
     }
     // public T GetDefault()
     // Offset: 0xFFFFFFFF
     T GetDefault() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AvatarPartCollection_1").WithContext("GetDefault");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartCollection_1::GetDefault");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetDefault", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }

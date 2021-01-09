@@ -74,7 +74,7 @@ namespace UnityEngine {
     // Offset: 0xCB92A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     MinMaxGradient(UnityEngine::Color color) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("MinMaxGradient").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ParticleSystem::MinMaxGradient::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(color)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, color);
     }

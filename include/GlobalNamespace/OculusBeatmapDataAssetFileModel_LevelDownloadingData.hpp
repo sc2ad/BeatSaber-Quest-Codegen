@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Offset: 0x1005A7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusBeatmapDataAssetFileModel::LevelDownloadingData* New_ctor(::Il2CppString* levelId, ::Il2CppString* assetBundlePath) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LevelDownloadingData").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusBeatmapDataAssetFileModel::LevelDownloadingData*, creationType>(levelId, assetBundlePath)));
     }
   }; // OculusBeatmapDataAssetFileModel/LevelDownloadingData

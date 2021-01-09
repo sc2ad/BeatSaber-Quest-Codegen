@@ -45,7 +45,7 @@ namespace System::ComponentModel {
     // Offset: 0x1481BD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeConverterAttribute* New_ctor(System::Type* type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("TypeConverterAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::TypeConverterAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeConverterAttribute*, creationType>(type)));
     }
     // public System.String get_ConverterTypeName()
@@ -61,7 +61,7 @@ namespace System::ComponentModel {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeConverterAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::ComponentModel").WithContext("TypeConverterAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::TypeConverterAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeConverterAttribute*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)

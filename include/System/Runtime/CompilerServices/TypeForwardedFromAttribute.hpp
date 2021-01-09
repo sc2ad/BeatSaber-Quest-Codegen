@@ -34,7 +34,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1163988
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeForwardedFromAttribute* New_ctor(::Il2CppString* assemblyFullName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("TypeForwardedFromAttribute").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::TypeForwardedFromAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeForwardedFromAttribute*, creationType>(assemblyFullName)));
     }
     // public System.String get_AssemblyFullName()

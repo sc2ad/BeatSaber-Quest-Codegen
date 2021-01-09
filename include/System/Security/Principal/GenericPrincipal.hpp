@@ -43,7 +43,7 @@ namespace System::Security::Principal {
     // Offset: 0x1281E50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericPrincipal* New_ctor(System::Security::Principal::IIdentity* identity, ::Array<::Il2CppString*>* roles) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security::Principal").WithContext("GenericPrincipal").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Principal::GenericPrincipal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericPrincipal*, creationType>(identity, roles)));
     }
   }; // System.Security.Principal.GenericPrincipal

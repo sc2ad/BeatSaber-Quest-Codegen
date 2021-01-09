@@ -37,7 +37,7 @@ namespace System::IO {
     // Offset: 0x148EC40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileSystemEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("FileSystemEventHandler").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileSystemEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.IO.FileSystemEventArgs e)

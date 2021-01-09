@@ -60,7 +60,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningTable::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("$$c").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningTable::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningTable::$$c*, creationType>()));
     }
   }; // TMPro.KerningTable/<>c

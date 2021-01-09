@@ -37,7 +37,7 @@ namespace System::IO {
     // Offset: 0x13A50E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PinnedBufferMemoryStream* New_ctor(::Array<uint8_t>* array) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::IO").WithContext("PinnedBufferMemoryStream").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::PinnedBufferMemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PinnedBufferMemoryStream*, creationType>(array)));
     }
     // protected override System.Void Finalize()

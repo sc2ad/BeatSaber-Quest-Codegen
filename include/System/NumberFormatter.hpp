@@ -235,7 +235,7 @@ namespace System {
     // Offset: 0x1716088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NumberFormatter* New_ctor(System::Threading::Thread* current) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("NumberFormatter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::NumberFormatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NumberFormatter*, creationType>(current)));
     }
     // private System.Void Init(System.String format)

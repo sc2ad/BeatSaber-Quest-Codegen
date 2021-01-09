@@ -33,7 +33,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RunStartedEvent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::TestTools::TestRunner").WithContext("RunStartedEvent").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::RunStartedEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RunStartedEvent*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.RunStartedEvent

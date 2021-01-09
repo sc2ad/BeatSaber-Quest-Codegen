@@ -49,7 +49,7 @@ namespace System::Security {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security").WithContext("SecurityException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -59,7 +59,7 @@ namespace System::Security {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityException* New_ctor(::Il2CppString* message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security").WithContext("SecurityException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -69,7 +69,7 @@ namespace System::Security {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security").WithContext("SecurityException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityException*, creationType>(info, context)));
     }
     // public System.Void .ctor(System.String message, System.Exception inner)
@@ -79,7 +79,7 @@ namespace System::Security {
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityException* New_ctor(::Il2CppString* message, System::Exception* inner) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Security").WithContext("SecurityException").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityException*, creationType>(message, inner)));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

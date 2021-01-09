@@ -127,7 +127,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RotationLimitPolygonal* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("RootMotion::FinalIK").WithContext("RotationLimitPolygonal").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RotationLimitPolygonal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RotationLimitPolygonal*, creationType>()));
     }
   }; // RootMotion.FinalIK.RotationLimitPolygonal

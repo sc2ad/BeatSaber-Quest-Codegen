@@ -51,7 +51,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Offset: 0x13FE49C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RC2CbcParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Org::BouncyCastle::Asn1::Pkcs").WithContext("RC2CbcParameter").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2CbcParameter*, creationType>(seq)));
     }
     // public System.Byte[] GetIV()
