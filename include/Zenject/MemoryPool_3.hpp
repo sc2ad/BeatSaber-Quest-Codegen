@@ -10,7 +10,9 @@
 #include "Zenject/IMemoryPool_3.hpp"
 // Including type: Zenject.IFactory`3
 #include "Zenject/IFactory_3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: Zenject

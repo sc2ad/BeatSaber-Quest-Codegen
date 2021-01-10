@@ -9,7 +9,9 @@
 #include "RootMotion/FinalIK/IKSolverTrigonometric.hpp"
 // Including type: RootMotion.FinalIK.IKSolver/Bone
 #include "RootMotion/FinalIK/IKSolver_Bone.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: RootMotion.FinalIK

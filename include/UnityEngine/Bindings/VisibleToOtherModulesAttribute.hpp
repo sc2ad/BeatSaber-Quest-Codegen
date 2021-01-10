@@ -8,7 +8,9 @@
 #include <initializer_list>
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine.Bindings
@@ -32,12 +34,12 @@ namespace UnityEngine::Bindings {
     // Creating initializer_list -> params proxy for: System.Void .ctor(params System.String[] modules)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VisibleToOtherModulesAttribute* New_ctor(std::initializer_list<::Il2CppString*> modules) {
-      return New_ctor(::Array<::Il2CppString*>::New(modules));
+      return New_ctor<creationType>(::Array<::Il2CppString*>::New(modules));
     }
     // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params System.String[] modules)
-    template<class ...TParams, ::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
     static VisibleToOtherModulesAttribute* New_ctor(TParams&&... modules) {
-      return New_ctor({modules...});
+      return New_ctor<creationType>({modules...});
     }
     // public System.Void .ctor()
     // Offset: 0x1A047FC

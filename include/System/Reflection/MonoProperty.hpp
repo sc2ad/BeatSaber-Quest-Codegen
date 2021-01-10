@@ -14,7 +14,9 @@
 #include "System/Reflection/MonoPropertyInfo.hpp"
 // Including type: System.Reflection.PInfo
 #include "System/Reflection/PInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -110,7 +112,7 @@ namespace System::Reflection {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::GetterAdapterFrame");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Reflection", "MonoProperty", "GetterAdapterFrame", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()}, ::il2cpp_utils::ExtractTypes(getter, obj))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()})));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, getter, obj);
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, getter, obj);
     }
     // static private System.Object StaticGetterAdapterFrame(System.Reflection.MonoProperty/StaticGetter`1<R> getter, System.Object obj)
     // Offset: 0xFFFFFFFF
@@ -119,7 +121,7 @@ namespace System::Reflection {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::StaticGetterAdapterFrame");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Reflection", "MonoProperty", "StaticGetterAdapterFrame", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()}, ::il2cpp_utils::ExtractTypes(getter, obj)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, getter, obj);
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, getter, obj);
     }
     // static private System.Reflection.MonoProperty/GetterAdapter CreateGetterDelegate(System.Reflection.MethodInfo method)
     // Offset: 0x15CE594

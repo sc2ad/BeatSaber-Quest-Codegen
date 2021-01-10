@@ -9,7 +9,9 @@
 #include "GlobalNamespace/MockMultiplayerSessionManager.hpp"
 // Including type: IMultiplayerSessionManager
 #include "GlobalNamespace/IMultiplayerSessionManager.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -342,7 +344,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockMultiplayerSessionManager::MockedPlayerMultiplayerSessionManager::Send");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Send", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(message)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, message);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, message);
     }
     // public System.Void SendUnreliable(T message)
     // Offset: 0xFFFFFFFF
@@ -354,7 +356,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockMultiplayerSessionManager::MockedPlayerMultiplayerSessionManager::SendUnreliable");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SendUnreliable", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(message)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, message);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, message);
     }
     // public System.Void RegisterCallback(MultiplayerSessionManager/MessageType serializerType, System.Action`2<T,IConnectedPlayer> callback, System.Func`1<T> constructor)
     // Offset: 0xFFFFFFFF
@@ -366,7 +368,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockMultiplayerSessionManager::MockedPlayerMultiplayerSessionManager::RegisterCallback");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "RegisterCallback", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(serializerType, callback, constructor)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, serializerType, callback, constructor);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, serializerType, callback, constructor);
     }
     // public System.Void UnregisterCallback(MultiplayerSessionManager/MessageType serializerType)
     // Offset: 0xFFFFFFFF
@@ -378,7 +380,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockMultiplayerSessionManager::MockedPlayerMultiplayerSessionManager::UnregisterCallback");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "UnregisterCallback", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(serializerType)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, serializerType);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, serializerType);
     }
     // public System.Void SetLocalPlayerState(System.String state, System.Boolean hasState)
     // Offset: 0x1024604

@@ -14,7 +14,9 @@
 #include "System/Runtime/InteropServices/_ParameterInfo.hpp"
 // Including type: System.Reflection.ParameterAttributes
 #include "System/Reflection/ParameterAttributes.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares

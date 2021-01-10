@@ -6,7 +6,9 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.IValidatable
 #include "Zenject/IValidatable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -226,7 +228,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactoryBase_2::AddBindingInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<KeyedFactoryBase_2<TBase, TKey>*>::get(), "AddBindingInternal", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDerived>::get()}, ::il2cpp_utils::ExtractTypes(container, key))));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDerived>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::ConditionCopyNonLazyBinder*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, container, key);
+      return ::il2cpp_utils::RunMethodThrow<Zenject::ConditionCopyNonLazyBinder*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, container, key);
     }
     // public System.Void Validate()
     // Offset: 0xFFFFFFFF

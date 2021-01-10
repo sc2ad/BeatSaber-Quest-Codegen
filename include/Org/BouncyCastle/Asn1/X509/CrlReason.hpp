@@ -7,7 +7,9 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Org.BouncyCastle.Asn1.DerEnumerated
 #include "Org/BouncyCastle/Asn1/DerEnumerated.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Asn1.X509

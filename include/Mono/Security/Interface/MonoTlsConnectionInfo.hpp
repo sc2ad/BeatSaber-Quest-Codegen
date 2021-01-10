@@ -9,7 +9,9 @@
 #include "Mono/Security/Interface/CipherSuiteCode.hpp"
 // Including type: Mono.Security.Interface.TlsProtocols
 #include "Mono/Security/Interface/TlsProtocols.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: Mono.Security.Interface

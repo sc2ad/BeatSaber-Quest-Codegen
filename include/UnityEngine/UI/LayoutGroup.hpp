@@ -17,7 +17,9 @@
 #include "UnityEngine/DrivenRectTransformTracker.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -182,7 +184,7 @@ namespace UnityEngine::UI {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::LayoutGroup::SetProperty");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SetProperty", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(currentValue, newValue)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, currentValue, newValue);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, currentValue, newValue);
     }
     // protected System.Void SetDirty()
     // Offset: 0x1560F10

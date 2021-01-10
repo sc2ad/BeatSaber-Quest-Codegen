@@ -9,7 +9,9 @@
 #include "GlobalNamespace/StandaloneMonobehavior.hpp"
 // Including type: IMultiplayerSessionManager
 #include "GlobalNamespace/IMultiplayerSessionManager.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -311,7 +313,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerSessionManager::StartSession");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "StartSession", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(sessionType, initParams)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, sessionType, initParams);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, sessionType, initParams);
     }
     // private System.Void InitInternal(MultiplayerSessionManager/SessionType sessionType)
     // Offset: 0x1E4A7DC
@@ -525,7 +527,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerSessionManager::RegisterCallback");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "RegisterCallback", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(serializerType, callback, constructor)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, serializerType, callback, constructor);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, serializerType, callback, constructor);
     }
     // public System.Void UnregisterCallback(MultiplayerSessionManager/MessageType serializerType)
     // Offset: 0xFFFFFFFF
@@ -537,7 +539,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerSessionManager::UnregisterCallback");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "UnregisterCallback", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(serializerType)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, serializerType);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, serializerType);
     }
     // public System.Void StartSession(ConnectedPlayerManager connectedPlayerManager)
     // Offset: 0x1E4A76C
@@ -569,7 +571,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerSessionManager::Send");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Send", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(message)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, message);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, message);
     }
     // public System.Void SendUnreliable(T message)
     // Offset: 0xFFFFFFFF
@@ -581,7 +583,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerSessionManager::SendUnreliable");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SendUnreliable", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(message)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, message);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, message);
     }
     // public System.Void PerformAtSyncTime(System.Single syncTime, System.Action action)
     // Offset: 0x1E4AC4C

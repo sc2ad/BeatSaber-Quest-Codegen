@@ -9,7 +9,9 @@
 #include "Org/BouncyCastle/Asn1/Asn1Object.hpp"
 // Including type: Org.BouncyCastle.Asn1.IAsn1String
 #include "Org/BouncyCastle/Asn1/IAsn1String.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Asn1

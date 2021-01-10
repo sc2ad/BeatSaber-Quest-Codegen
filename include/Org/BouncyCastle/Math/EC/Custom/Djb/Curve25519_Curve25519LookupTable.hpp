@@ -9,7 +9,9 @@
 #include "Org/BouncyCastle/Math/EC/Custom/Djb/Curve25519.hpp"
 // Including type: Org.BouncyCastle.Math.EC.AbstractECLookupTable
 #include "Org/BouncyCastle/Math/EC/AbstractECLookupTable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares

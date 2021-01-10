@@ -5,7 +5,9 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System.Threading
@@ -30,7 +32,7 @@ namespace System::Threading {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Volatile::Read");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Threading", "Volatile", "Read", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(location)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, location);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, location);
     }
     // static public System.Void Write(ref System.Boolean location, System.Boolean value)
     // Offset: 0x1D1F5DC
@@ -45,7 +47,7 @@ namespace System::Threading {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Volatile::Write");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Threading", "Volatile", "Write", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(location, value)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, location, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, location, value);
     }
   }; // System.Threading.Volatile
 }

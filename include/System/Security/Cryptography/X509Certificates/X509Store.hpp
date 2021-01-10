@@ -13,7 +13,9 @@
 #include "System/Security/Cryptography/X509Certificates/OpenFlags.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.StoreName
 #include "System/Security/Cryptography/X509Certificates/StoreName.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares

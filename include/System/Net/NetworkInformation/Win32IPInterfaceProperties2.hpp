@@ -11,7 +11,9 @@
 #include "System/Net/NetworkInformation/Win32_IP_ADAPTER_ADDRESSES.hpp"
 // Including type: System.Net.NetworkInformation.Win32_MIB_IFROW
 #include "System/Net/NetworkInformation/Win32_MIB_IFROW.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares

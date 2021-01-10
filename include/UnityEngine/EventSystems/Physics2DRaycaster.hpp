@@ -9,7 +9,9 @@
 #include "UnityEngine/EventSystems/PhysicsRaycaster.hpp"
 // Including type: UnityEngine.RaycastHit2D
 #include "UnityEngine/RaycastHit2D.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares

@@ -8,7 +8,9 @@
 #include <initializer_list>
 // Including type: System.Collections.IEnumerable
 #include "System/Collections/IEnumerable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -76,12 +78,12 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating initializer_list -> params proxy for: System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] v)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1EncodableVector* New_ctor(std::initializer_list<Org::BouncyCastle::Asn1::Asn1Encodable*> v) {
-      return New_ctor(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>::New(v));
+      return New_ctor<creationType>(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>::New(v));
     }
     // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] v)
-    template<class ...TParams, ::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
     static Asn1EncodableVector* New_ctor(TParams&&... v) {
-      return New_ctor({v...});
+      return New_ctor<creationType>({v...});
     }
     // public System.Void Add(Org.BouncyCastle.Asn1.Asn1Encodable element)
     // Offset: 0x13706A0

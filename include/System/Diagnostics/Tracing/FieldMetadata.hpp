@@ -9,7 +9,9 @@
 #include "System/Diagnostics/Tracing/EventFieldTags.hpp"
 // Including type: System.Diagnostics.Tracing.TraceLoggingDataType
 #include "System/Diagnostics/Tracing/TraceLoggingDataType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System.Diagnostics.Tracing

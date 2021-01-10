@@ -9,7 +9,9 @@
 #include "GlobalNamespace/BeatmapLevelDataLoaderSO.hpp"
 // Including type: IBeatmapLevel
 #include "GlobalNamespace/IBeatmapLevel.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares

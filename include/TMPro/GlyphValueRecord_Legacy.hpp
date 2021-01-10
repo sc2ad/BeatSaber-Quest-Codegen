@@ -9,7 +9,9 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.TextCore.LowLevel.GlyphValueRecord
 #include "UnityEngine/TextCore/LowLevel/GlyphValueRecord.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: TMPro

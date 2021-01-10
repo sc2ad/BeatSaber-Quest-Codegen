@@ -38,7 +38,9 @@
 #include "TMPro/TMP_CharacterInfo.hpp"
 // Including type: TMPro.WordWrapState
 #include "TMPro/WordWrapState.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -1995,7 +1997,7 @@ namespace TMPro {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Text::ResizeInternalArray");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ResizeInternalArray", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(array)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, array);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, array);
     }
     // protected System.Void AddFloatToCharArray(System.Double number, ref System.Int32 index, System.Int32 precision)
     // Offset: 0xF92F64

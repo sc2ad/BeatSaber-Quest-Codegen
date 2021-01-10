@@ -22,7 +22,9 @@
 #include "System/Int32.hpp"
 // Including type: UnityEngine.Playables.Playable
 #include "UnityEngine/Playables/Playable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -412,7 +414,7 @@ namespace UnityEngine::Timeline {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TrackAsset::CreateClip");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CreateClip", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Timeline::TimelineClip*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Timeline::TimelineClip*, false>(this, ___generic__method);
     }
     // public System.Boolean DeleteClip(UnityEngine.Timeline.TimelineClip clip)
     // Offset: 0x196D9D0
@@ -428,7 +430,7 @@ namespace UnityEngine::Timeline {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TrackAsset::CreateMarker");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CreateMarker", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(time)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, time);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___generic__method, time);
     }
     // public System.Boolean DeleteMarker(UnityEngine.Timeline.IMarker marker)
     // Offset: 0x196DAF8

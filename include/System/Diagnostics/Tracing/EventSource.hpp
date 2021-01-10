@@ -22,7 +22,9 @@
 #include "System/Diagnostics/Tracing/SessionMask.hpp"
 // Including type: System.Diagnostics.Tracing.EventSourceOptions
 #include "System/Diagnostics/Tracing/EventSourceOptions.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -472,12 +474,12 @@ namespace System::Diagnostics::Tracing {
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.Diagnostics.Tracing.EventSourceSettings settings, params System.String[] traits)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventSource* New_ctor(System::Diagnostics::Tracing::EventSourceSettings settings, std::initializer_list<::Il2CppString*> traits) {
-      return New_ctor(settings, ::Array<::Il2CppString*>::New(traits));
+      return New_ctor<creationType>(settings, ::Array<::Il2CppString*>::New(traits));
     }
     // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.Diagnostics.Tracing.EventSourceSettings settings, params System.String[] traits)
-    template<class ...TParams, ::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
     static EventSource* New_ctor(System::Diagnostics::Tracing::EventSourceSettings settings, TParams&&... traits) {
-      return New_ctor(settings, {traits...});
+      return New_ctor<creationType>(settings, {traits...});
     }
     // protected System.Void OnEventCommand(System.Diagnostics.Tracing.EventCommandEventArgs command)
     // Offset: 0x12CE25C

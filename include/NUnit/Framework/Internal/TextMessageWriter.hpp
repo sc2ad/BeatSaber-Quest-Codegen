@@ -8,7 +8,9 @@
 #include <initializer_list>
 // Including type: NUnit.Framework.Constraints.MessageWriter
 #include "NUnit/Framework/Constraints/MessageWriter.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -68,12 +70,12 @@ namespace NUnit::Framework::Internal {
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.String userMessage, params System.Object[] args)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextMessageWriter* New_ctor(::Il2CppString* userMessage, std::initializer_list<::Il2CppObject*> args) {
-      return New_ctor(userMessage, ::Array<::Il2CppObject*>::New(args));
+      return New_ctor<creationType>(userMessage, ::Array<::Il2CppObject*>::New(args));
     }
     // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.String userMessage, params System.Object[] args)
-    template<class ...TParams, ::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
     static TextMessageWriter* New_ctor(::Il2CppString* userMessage, TParams&&... args) {
-      return New_ctor(userMessage, {args...});
+      return New_ctor<creationType>(userMessage, {args...});
     }
     // private System.Void WriteExpectedLine(NUnit.Framework.Constraints.ConstraintResult result)
     // Offset: 0x19622E0

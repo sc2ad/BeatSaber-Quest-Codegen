@@ -7,7 +7,9 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Collections.Generic.KeyValuePair`2
 #include "System/Collections/Generic/KeyValuePair_2.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -163,7 +165,7 @@ namespace NUnit::Framework::Constraints {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::NUnitEqualityComparer::CheckGameObjectReference");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("NUnit.Framework.Constraints", "NUnitEqualityComparer", "CheckGameObjectReference", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(value)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, value);
     }
     // static private System.Void .cctor()
     // Offset: 0x13E49F8

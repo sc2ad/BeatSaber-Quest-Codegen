@@ -13,7 +13,9 @@
 #include "System/Diagnostics/Tracing/ConcurrentSet_2.hpp"
 // Including type: System.Collections.Generic.KeyValuePair`2
 #include "System/Collections/Generic/KeyValuePair_2.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -118,12 +120,12 @@ namespace System::Diagnostics::Tracing {
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, params System.Type[] types)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceLoggingEventTypes* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags, std::initializer_list<System::Type*> types) {
-      return New_ctor(name, tags, ::Array<System::Type*>::New(types));
+      return New_ctor<creationType>(name, tags, ::Array<System::Type*>::New(types));
     }
     // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, params System.Type[] types)
-    template<class ...TParams, ::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
     static TraceLoggingEventTypes* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags, TParams&&... types) {
-      return New_ctor(name, tags, {types...});
+      return New_ctor<creationType>(name, tags, {types...});
     }
     // System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, System.Reflection.ParameterInfo[] paramInfos)
     // Offset: 0x1121528

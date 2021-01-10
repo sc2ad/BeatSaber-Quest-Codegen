@@ -13,7 +13,9 @@
 #include "GlobalNamespace/NamedIntListController.hpp"
 // Including type: NamedColorListController
 #include "GlobalNamespace/NamedColorListController.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -472,7 +474,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EditAvatarViewController::CreateTextValuePairsForAvatarPartCollection");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "EditAvatarViewController", "CreateTextValuePairsForAvatarPartCollection", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(partCollection)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::Array<GlobalNamespace::NamedIntListController::TextValuePair*>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, partCollection);
+      return ::il2cpp_utils::RunMethodThrow<::Array<GlobalNamespace::NamedIntListController::TextValuePair*>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, partCollection);
     }
     // private NamedColorListController/ColorValuePair[] CreateColorValuePairsForAvatarPartCollection(SkinColorSO[] colors)
     // Offset: 0x1A5D748
@@ -488,7 +490,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EditAvatarViewController::SetupValuePicker");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SetupValuePicker", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(partCollection, valuePicker, setIdAction, avatarEditPart)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, partCollection, valuePicker, setIdAction, avatarEditPart);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, partCollection, valuePicker, setIdAction, avatarEditPart);
     }
     // private System.Void <DidActivate>b__40_0(UnityEngine.Color color)
     // Offset: 0x1A5E150

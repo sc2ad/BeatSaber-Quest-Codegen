@@ -14,7 +14,9 @@
 #include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable_1.hpp"
 // Including type: System.Threading.Tasks.TaskContinuationOptions
 #include "System/Threading/Tasks/TaskContinuationOptions.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -261,7 +263,7 @@ namespace System::Threading::Tasks {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task_1::ContinueWith");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ContinueWith", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TNewResult>::get()}, ::il2cpp_utils::ExtractTypes(continuationFunction)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TNewResult>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TNewResult>*, false>(this, ___internal__method, continuationFunction);
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TNewResult>*, false>(this, ___generic__method, continuationFunction);
     }
     // System.Threading.Tasks.Task`1<TNewResult> ContinueWith(System.Func`2<System.Threading.Tasks.Task`1<TResult>,TNewResult> continuationFunction, System.Threading.Tasks.TaskScheduler scheduler, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskContinuationOptions continuationOptions, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0xFFFFFFFF
@@ -270,7 +272,7 @@ namespace System::Threading::Tasks {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task_1::ContinueWith");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ContinueWith", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TNewResult>::get()}, ::il2cpp_utils::ExtractTypes(continuationFunction, scheduler, cancellationToken, continuationOptions, stackMark)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TNewResult>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TNewResult>*, false>(this, ___internal__method, continuationFunction, scheduler, cancellationToken, continuationOptions, stackMark);
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TNewResult>*, false>(this, ___generic__method, continuationFunction, scheduler, cancellationToken, continuationOptions, stackMark);
     }
     // System.Void .ctor()
     // Offset: 0xFFFFFFFF

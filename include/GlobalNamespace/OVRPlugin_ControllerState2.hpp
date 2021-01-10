@@ -14,7 +14,9 @@
 #include "GlobalNamespace/OVRPlugin_Vector2f.hpp"
 // Including type: OVRPlugin/ControllerState
 #include "GlobalNamespace/OVRPlugin_ControllerState.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: 

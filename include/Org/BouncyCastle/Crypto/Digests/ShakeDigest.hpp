@@ -9,7 +9,9 @@
 #include "Org/BouncyCastle/Crypto/Digests/KeccakDigest.hpp"
 // Including type: Org.BouncyCastle.Crypto.IXof
 #include "Org/BouncyCastle/Crypto/IXof.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares

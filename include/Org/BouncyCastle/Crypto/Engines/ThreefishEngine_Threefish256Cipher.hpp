@@ -9,7 +9,9 @@
 #include "Org/BouncyCastle/Crypto/Engines/ThreefishEngine.hpp"
 // Including type: Org.BouncyCastle.Crypto.Engines.ThreefishEngine/ThreefishCipher
 #include "Org/BouncyCastle/Crypto/Engines/ThreefishEngine_ThreefishCipher.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Crypto.Engines

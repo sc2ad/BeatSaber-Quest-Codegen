@@ -8,7 +8,9 @@
 #include "GlobalNamespace/NoteDebris.hpp"
 // Including type: Zenject.MonoMemoryPool`1
 #include "Zenject/MonoMemoryPool_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: 

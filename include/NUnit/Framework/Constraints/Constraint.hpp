@@ -8,7 +8,9 @@
 #include <initializer_list>
 // Including type: NUnit.Framework.Constraints.IConstraint
 #include "NUnit/Framework/Constraints/IConstraint.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -76,12 +78,12 @@ namespace NUnit::Framework::Constraints {
     // Creating initializer_list -> params proxy for: System.Void .ctor(params System.Object[] args)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Constraint* New_ctor(std::initializer_list<::Il2CppObject*> args) {
-      return New_ctor(::Array<::Il2CppObject*>::New(args));
+      return New_ctor<creationType>(::Array<::Il2CppObject*>::New(args));
     }
     // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params System.Object[] args)
-    template<class ...TParams, ::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
     static Constraint* New_ctor(TParams&&... args) {
-      return New_ctor({args...});
+      return New_ctor<creationType>({args...});
     }
     // public System.String get_DisplayName()
     // Offset: 0x13DC1F0

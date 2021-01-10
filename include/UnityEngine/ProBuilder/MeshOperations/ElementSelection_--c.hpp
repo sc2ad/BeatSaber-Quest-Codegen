@@ -15,7 +15,9 @@
 #include "UnityEngine/ProBuilder/EdgeLookup.hpp"
 // Including type: UnityEngine.ProBuilder.SimpleTuple`2
 #include "UnityEngine/ProBuilder/SimpleTuple_2.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares

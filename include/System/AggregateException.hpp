@@ -8,7 +8,9 @@
 #include <initializer_list>
 // Including type: System.Exception
 #include "System/Exception.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -75,12 +77,12 @@ namespace System {
     // Creating initializer_list -> params proxy for: System.Void .ctor(params System.Exception[] innerExceptions)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AggregateException* New_ctor(std::initializer_list<System::Exception*> innerExceptions) {
-      return New_ctor(::Array<System::Exception*>::New(innerExceptions));
+      return New_ctor<creationType>(::Array<System::Exception*>::New(innerExceptions));
     }
     // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params System.Exception[] innerExceptions)
-    template<class ...TParams, ::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
     static AggregateException* New_ctor(TParams&&... innerExceptions) {
-      return New_ctor({innerExceptions...});
+      return New_ctor<creationType>({innerExceptions...});
     }
     // public System.Void .ctor(System.String message, System.Collections.Generic.IEnumerable`1<System.Exception> innerExceptions)
     // Offset: 0x1C9EE40
@@ -99,12 +101,12 @@ namespace System {
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.String message, params System.Exception[] innerExceptions)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AggregateException* New_ctor(::Il2CppString* message, std::initializer_list<System::Exception*> innerExceptions) {
-      return New_ctor(message, ::Array<System::Exception*>::New(innerExceptions));
+      return New_ctor<creationType>(message, ::Array<System::Exception*>::New(innerExceptions));
     }
     // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.String message, params System.Exception[] innerExceptions)
-    template<class ...TParams, ::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
     static AggregateException* New_ctor(::Il2CppString* message, TParams&&... innerExceptions) {
-      return New_ctor(message, {innerExceptions...});
+      return New_ctor<creationType>(message, {innerExceptions...});
     }
     // private System.Void .ctor(System.String message, System.Collections.Generic.IList`1<System.Exception> innerExceptions)
     // Offset: 0x1C9EF64

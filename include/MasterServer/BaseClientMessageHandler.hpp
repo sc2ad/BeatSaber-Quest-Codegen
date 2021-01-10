@@ -7,7 +7,9 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: MasterServer.MessageHandler
 #include "MasterServer/MessageHandler.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -155,7 +157,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::BaseClientMessageHandler::SendAuthenticatedRequestAsync");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SendAuthenticatedRequestAsync", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(message, cancellationToken)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___internal__method, message, cancellationToken);
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, message, cancellationToken);
     }
     // protected System.Threading.Tasks.Task SendAuthenticatedRequestAsync(MasterServer.IMasterServerReliableRequest message, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1B53128
@@ -171,7 +173,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::BaseClientMessageHandler::OnSendFailedAwaitResponse");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnSendFailedAwaitResponse", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(protocolVersion, remoteEndPoint, message, cancellationToken)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___internal__method, protocolVersion, remoteEndPoint, message, cancellationToken);
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, protocolVersion, remoteEndPoint, message, cancellationToken);
     }
     // private System.Threading.Tasks.Task ReauthenticateWithMasterServer()
     // Offset: 0x1B533E4

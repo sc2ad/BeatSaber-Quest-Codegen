@@ -15,7 +15,9 @@
 #include "UnityEngine/Playables/PlayableTraversalMode.hpp"
 // Including type: UnityEngine.Playables.DirectorWrapMode
 #include "UnityEngine/Playables/DirectorWrapMode.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -46,7 +48,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::IsValid");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "IsValid", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable);
     }
     // static public UnityEngine.Playables.PlayableGraph GetGraph(U playable)
     // Offset: 0xFFFFFFFF
@@ -56,7 +58,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetGraph");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetGraph", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::PlayableGraph, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::PlayableGraph, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable);
     }
     // static public UnityEngine.Playables.PlayState GetPlayState(U playable)
     // Offset: 0xFFFFFFFF
@@ -66,7 +68,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetPlayState");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetPlayState", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::PlayState, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::PlayState, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable);
     }
     // static public System.Void Play(U playable)
     // Offset: 0xFFFFFFFF
@@ -76,7 +78,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::Play");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "Play", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable);
     }
     // static public System.Void Pause(U playable)
     // Offset: 0xFFFFFFFF
@@ -86,7 +88,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::Pause");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "Pause", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable);
     }
     // static public System.Void SetSpeed(U playable, System.Double value)
     // Offset: 0xFFFFFFFF
@@ -96,7 +98,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetSpeed");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetSpeed", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable, value)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable, value);
     }
     // static public System.Void SetDuration(U playable, System.Double value)
     // Offset: 0xFFFFFFFF
@@ -106,7 +108,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetDuration");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetDuration", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable, value)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable, value);
     }
     // static public System.Double GetDuration(U playable)
     // Offset: 0xFFFFFFFF
@@ -116,7 +118,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetDuration");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetDuration", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<double, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable);
+      return ::il2cpp_utils::RunMethodThrow<double, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable);
     }
     // static public System.Void SetTime(U playable, System.Double value)
     // Offset: 0xFFFFFFFF
@@ -126,7 +128,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetTime");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetTime", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable, value)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable, value);
     }
     // static public System.Double GetTime(U playable)
     // Offset: 0xFFFFFFFF
@@ -136,7 +138,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetTime");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetTime", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<double, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable);
+      return ::il2cpp_utils::RunMethodThrow<double, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable);
     }
     // static public System.Double GetPreviousTime(U playable)
     // Offset: 0xFFFFFFFF
@@ -146,7 +148,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetPreviousTime");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetPreviousTime", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<double, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable);
+      return ::il2cpp_utils::RunMethodThrow<double, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable);
     }
     // static public System.Boolean IsDone(U playable)
     // Offset: 0xFFFFFFFF
@@ -156,7 +158,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::IsDone");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "IsDone", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable);
     }
     // static public System.Void SetPropagateSetTime(U playable, System.Boolean value)
     // Offset: 0xFFFFFFFF
@@ -166,7 +168,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetPropagateSetTime");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetPropagateSetTime", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable, value)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable, value);
     }
     // static public System.Void SetInputCount(U playable, System.Int32 value)
     // Offset: 0xFFFFFFFF
@@ -176,7 +178,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetInputCount");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetInputCount", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable, value)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable, value);
     }
     // static public System.Int32 GetInputCount(U playable)
     // Offset: 0xFFFFFFFF
@@ -186,7 +188,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetInputCount");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetInputCount", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable);
+      return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable);
     }
     // static public UnityEngine.Playables.Playable GetInput(U playable, System.Int32 inputPort)
     // Offset: 0xFFFFFFFF
@@ -196,7 +198,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetInput");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetInput", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable, inputPort)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::Playable, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable, inputPort);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::Playable, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable, inputPort);
     }
     // static public System.Void SetInputWeight(U playable, System.Int32 inputIndex, System.Single weight)
     // Offset: 0xFFFFFFFF
@@ -206,7 +208,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetInputWeight");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetInputWeight", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable, inputIndex, weight)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable, inputIndex, weight);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable, inputIndex, weight);
     }
     // static public System.Void SetInputWeight(U playable, V input, System.Single weight)
     // Offset: 0xFFFFFFFF
@@ -217,7 +219,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetInputWeight");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetInputWeight", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<V>::get()}, ::il2cpp_utils::ExtractTypes(playable, input, weight))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<V>::get()})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable, input, weight);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable, input, weight);
     }
     // static public System.Single GetInputWeight(U playable, System.Int32 inputIndex)
     // Offset: 0xFFFFFFFF
@@ -227,7 +229,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetInputWeight");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetInputWeight", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable, inputIndex)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable, inputIndex);
+      return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable, inputIndex);
     }
     // static public System.Void SetTraversalMode(U playable, UnityEngine.Playables.PlayableTraversalMode mode)
     // Offset: 0xFFFFFFFF
@@ -237,7 +239,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetTraversalMode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetTraversalMode", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable, mode)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable, mode);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable, mode);
     }
     // static UnityEngine.Playables.DirectorWrapMode GetTimeWrapMode(U playable)
     // Offset: 0xFFFFFFFF
@@ -247,7 +249,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetTimeWrapMode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetTimeWrapMode", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::DirectorWrapMode, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::DirectorWrapMode, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable);
     }
     // static System.Void SetTimeWrapMode(U playable, UnityEngine.Playables.DirectorWrapMode value)
     // Offset: 0xFFFFFFFF
@@ -257,7 +259,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetTimeWrapMode");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetTimeWrapMode", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable, value)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, playable, value);
     }
   }; // UnityEngine.Playables.PlayableExtensions
 }

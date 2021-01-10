@@ -9,7 +9,9 @@
 #include "NUnit/Framework/Constraints/Constraint.hpp"
 // Including type: NUnit.Framework.Constraints.NUnitEqualityComparer
 #include "NUnit/Framework/Constraints/NUnitEqualityComparer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -90,7 +92,7 @@ namespace NUnit::Framework::Constraints {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::EqualConstraint::AdjustArgumentIfNeeded");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AdjustArgumentIfNeeded", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(arg)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, arg);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, arg);
     }
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
     // Offset: 0x13DCD68

@@ -12,7 +12,9 @@
 #include "System/Threading/Tasks/TaskContinuationOptions.hpp"
 // Including type: System.Threading.Tasks.Task`1
 #include "System/Threading/Tasks/Task_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -285,7 +287,7 @@ namespace System::Threading::Tasks {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskFactory_1::FromAsyncTrim");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TaskFactory_1<TResult>*>::get(), "FromAsyncTrim", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstance>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArgs>::get()}, ::il2cpp_utils::ExtractTypes(thisRef, args, beginMethod, endMethod))));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstance>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArgs>::get()})));
-      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, thisRef, args, beginMethod, endMethod);
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, thisRef, args, beginMethod, endMethod);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

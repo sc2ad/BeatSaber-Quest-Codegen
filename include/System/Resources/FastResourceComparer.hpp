@@ -13,7 +13,9 @@
 #include "System/Collections/Generic/IComparer_1.hpp"
 // Including type: System.Collections.Generic.IEqualityComparer`1
 #include "System/Collections/Generic/IEqualityComparer_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System.Resources

@@ -9,7 +9,9 @@
 #include "System/IO/SearchPattern2.hpp"
 // Including type: System.IO.SearchPattern2/OpCode
 #include "System/IO/SearchPattern2_OpCode.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System.IO

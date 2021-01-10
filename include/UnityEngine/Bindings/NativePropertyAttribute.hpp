@@ -9,7 +9,9 @@
 #include "UnityEngine/Bindings/NativeMethodAttribute.hpp"
 // Including type: UnityEngine.Bindings.TargetType
 #include "UnityEngine/Bindings/TargetType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine.Bindings

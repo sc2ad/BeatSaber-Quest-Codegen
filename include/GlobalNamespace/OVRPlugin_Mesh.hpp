@@ -18,7 +18,9 @@
 #include "GlobalNamespace/OVRPlugin_Vector4s.hpp"
 // Including type: OVRPlugin/Vector4f
 #include "GlobalNamespace/OVRPlugin_Vector4f.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: 

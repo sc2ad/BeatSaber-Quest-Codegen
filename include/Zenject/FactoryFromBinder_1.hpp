@@ -8,7 +8,9 @@
 #include "Zenject/FactoryFromBinderBase.hpp"
 // Including type: Zenject.InjectSources
 #include "Zenject/InjectSources.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -348,7 +350,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder_1::FromResolveGetter");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "FromResolveGetter", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObj>::get()}, ::il2cpp_utils::ExtractTypes(method)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObj>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::ConditionCopyNonLazyBinder*, false>(this, ___internal__method, method);
+      return ::il2cpp_utils::RunMethodThrow<Zenject::ConditionCopyNonLazyBinder*, false>(this, ___generic__method, method);
     }
     // public Zenject.ConditionCopyNonLazyBinder FromResolveGetter(System.Object subIdentifier, System.Func`2<TObj,TContract> method)
     // Offset: 0xFFFFFFFF
@@ -357,7 +359,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder_1::FromResolveGetter");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "FromResolveGetter", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObj>::get()}, ::il2cpp_utils::ExtractTypes(subIdentifier, method)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObj>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::ConditionCopyNonLazyBinder*, false>(this, ___internal__method, subIdentifier, method);
+      return ::il2cpp_utils::RunMethodThrow<Zenject::ConditionCopyNonLazyBinder*, false>(this, ___generic__method, subIdentifier, method);
     }
     // public Zenject.ConditionCopyNonLazyBinder FromResolveGetter(System.Object subIdentifier, System.Func`2<TObj,TContract> method, Zenject.InjectSources source)
     // Offset: 0xFFFFFFFF
@@ -366,7 +368,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder_1::FromResolveGetter");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "FromResolveGetter", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObj>::get()}, ::il2cpp_utils::ExtractTypes(subIdentifier, method, source)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObj>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::ConditionCopyNonLazyBinder*, false>(this, ___internal__method, subIdentifier, method, source);
+      return ::il2cpp_utils::RunMethodThrow<Zenject::ConditionCopyNonLazyBinder*, false>(this, ___generic__method, subIdentifier, method, source);
     }
     // public Zenject.ConditionCopyNonLazyBinder FromMethod(System.Func`2<Zenject.DiContainer,TContract> method)
     // Offset: 0xFFFFFFFF
@@ -383,7 +385,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder_1::FromFactory");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "FromFactory", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSubFactory>::get()}, ::il2cpp_utils::ExtractTypes()));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSubFactory>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::ArgConditionCopyNonLazyBinder*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<Zenject::ArgConditionCopyNonLazyBinder*, false>(this, ___generic__method);
     }
     // public Zenject.FactorySubContainerBinder`1<TContract> FromSubContainerResolve()
     // Offset: 0xFFFFFFFF

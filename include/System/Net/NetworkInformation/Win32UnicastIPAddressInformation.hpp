@@ -9,7 +9,9 @@
 #include "System/Net/NetworkInformation/UnicastIPAddressInformation.hpp"
 // Including type: System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS
 #include "System/Net/NetworkInformation/Win32_IP_ADAPTER_UNICAST_ADDRESS.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares

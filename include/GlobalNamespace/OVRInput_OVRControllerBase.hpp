@@ -9,7 +9,9 @@
 #include "GlobalNamespace/OVRInput.hpp"
 // Including type: OVRPlugin/ControllerState4
 #include "GlobalNamespace/OVRPlugin_ControllerState4.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares

@@ -8,7 +8,9 @@
 #include "System/Threading/IAsyncLocal.hpp"
 // Including type: System.Threading.AsyncLocalValueChangedArgs`1
 #include "System/Threading/AsyncLocalValueChangedArgs_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares

@@ -8,7 +8,9 @@
 #include <initializer_list>
 // Including type: NUnit.Framework.Internal.Filters.CompositeFilter
 #include "NUnit/Framework/Internal/Filters/CompositeFilter.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -51,12 +53,12 @@ namespace NUnit::Framework::Internal::Filters {
     // Creating initializer_list -> params proxy for: System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndFilter* New_ctor(std::initializer_list<NUnit::Framework::Interfaces::ITestFilter*> filters) {
-      return New_ctor(::Array<NUnit::Framework::Interfaces::ITestFilter*>::New(filters));
+      return New_ctor<creationType>(::Array<NUnit::Framework::Interfaces::ITestFilter*>::New(filters));
     }
     // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
-    template<class ...TParams, ::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
     static AndFilter* New_ctor(TParams&&... filters) {
-      return New_ctor({filters...});
+      return New_ctor<creationType>({filters...});
     }
     // public override System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0x13F1BCC

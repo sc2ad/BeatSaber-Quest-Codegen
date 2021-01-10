@@ -7,7 +7,9 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Net.Http.Headers.HttpHeaderKind
 #include "System/Net/Http/Headers/HttpHeaderKind.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -91,7 +93,7 @@ namespace System::Net::Http::Headers {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::CreateSingle");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Net.Http.Headers", "HeaderInfo", "CreateSingle", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(name, parser, headerKind, toString)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<System::Net::Http::Headers::HeaderInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, name, parser, headerKind, toString);
+      return ::il2cpp_utils::RunMethodThrow<System::Net::Http::Headers::HeaderInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, name, parser, headerKind, toString);
     }
     // static public System.Net.Http.Headers.HeaderInfo CreateMulti(System.String name, System.Net.Http.Headers.TryParseListDelegate`1<T> elementParser, System.Net.Http.Headers.HttpHeaderKind headerKind, System.Int32 minimalCount, System.String separator)
     // Offset: 0xFFFFFFFF
@@ -100,7 +102,7 @@ namespace System::Net::Http::Headers {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::CreateMulti");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Net.Http.Headers", "HeaderInfo", "CreateMulti", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(name, elementParser, headerKind, minimalCount, separator)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<System::Net::Http::Headers::HeaderInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, name, elementParser, headerKind, minimalCount, separator);
+      return ::il2cpp_utils::RunMethodThrow<System::Net::Http::Headers::HeaderInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, name, elementParser, headerKind, minimalCount, separator);
     }
     // public System.Object CreateCollection(System.Net.Http.Headers.HttpHeaders headers)
     // Offset: 0x1200438

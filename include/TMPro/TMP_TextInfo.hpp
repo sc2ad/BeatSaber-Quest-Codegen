@@ -19,7 +19,9 @@
 #include "TMPro/TMP_MeshInfo.hpp"
 // Including type: TMPro.MaterialReference
 #include "TMPro/MaterialReference.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -177,7 +179,7 @@ namespace TMPro {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_TextInfo::Resize");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("TMPro", "TMP_TextInfo", "Resize", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(array, size)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, array, size);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, size);
     }
     // static public System.Void Resize(ref T[] array, System.Int32 size, System.Boolean isBlockAllocated)
     // Offset: 0xFFFFFFFF
@@ -186,7 +188,7 @@ namespace TMPro {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_TextInfo::Resize");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("TMPro", "TMP_TextInfo", "Resize", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(array, size, isBlockAllocated)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, array, size, isBlockAllocated);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, size, isBlockAllocated);
     }
     // static private System.Void .cctor()
     // Offset: 0x1133DA0

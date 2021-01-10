@@ -13,7 +13,9 @@
 #include "System/IntPtr.hpp"
 // Including type: UnityEngine.Keyframe
 #include "UnityEngine/Keyframe.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine
@@ -88,12 +90,12 @@ namespace UnityEngine {
     // Creating initializer_list -> params proxy for: System.Void .ctor(params UnityEngine.Keyframe[] keys)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationCurve* New_ctor(std::initializer_list<UnityEngine::Keyframe> keys) {
-      return New_ctor(::Array<UnityEngine::Keyframe>::New(keys));
+      return New_ctor<creationType>(::Array<UnityEngine::Keyframe>::New(keys));
     }
     // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params UnityEngine.Keyframe[] keys)
-    template<class ...TParams, ::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
     static AnimationCurve* New_ctor(TParams&&... keys) {
-      return New_ctor({keys...});
+      return New_ctor<creationType>({keys...});
     }
     // protected override System.Void Finalize()
     // Offset: 0x1679F44

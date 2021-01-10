@@ -9,7 +9,9 @@
 #include "System/Xml/XmlWellFormedWriter_AttributeValueCache.hpp"
 // Including type: System.Xml.XmlWellFormedWriter/AttributeValueCache/ItemType
 #include "System/Xml/XmlWellFormedWriter_AttributeValueCache_ItemType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System.Xml

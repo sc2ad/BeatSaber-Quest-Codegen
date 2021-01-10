@@ -9,7 +9,9 @@
 #include "System/Collections/Specialized/NameValueCollection.hpp"
 // Including type: System.Net.WebHeaderCollectionType
 #include "System/Net/WebHeaderCollectionType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares

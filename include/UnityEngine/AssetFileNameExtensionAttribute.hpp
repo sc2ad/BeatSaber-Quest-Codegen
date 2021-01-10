@@ -8,7 +8,9 @@
 #include <initializer_list>
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -56,12 +58,12 @@ namespace UnityEngine {
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.String preferredExtension, params System.String[] otherExtensions)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetFileNameExtensionAttribute* New_ctor(::Il2CppString* preferredExtension, std::initializer_list<::Il2CppString*> otherExtensions) {
-      return New_ctor(preferredExtension, ::Array<::Il2CppString*>::New(otherExtensions));
+      return New_ctor<creationType>(preferredExtension, ::Array<::Il2CppString*>::New(otherExtensions));
     }
     // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.String preferredExtension, params System.String[] otherExtensions)
-    template<class ...TParams, ::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
     static AssetFileNameExtensionAttribute* New_ctor(::Il2CppString* preferredExtension, TParams&&... otherExtensions) {
-      return New_ctor(preferredExtension, {otherExtensions...});
+      return New_ctor<creationType>(preferredExtension, {otherExtensions...});
     }
   }; // UnityEngine.AssetFileNameExtensionAttribute
   static check_size<sizeof(AssetFileNameExtensionAttribute), 24 + sizeof(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)> __UnityEngine_AssetFileNameExtensionAttributeSizeCheck;

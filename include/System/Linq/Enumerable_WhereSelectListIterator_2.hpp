@@ -10,7 +10,9 @@
 #include "System/Linq/Enumerable_Iterator_1.hpp"
 // Including type: System.Collections.Generic.List`1/Enumerator
 #include "System/Collections/Generic/List_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -79,7 +81,7 @@ namespace System::Linq {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereSelectListIterator_2::Select");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Select", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult2>::get()}, ::il2cpp_utils::ExtractTypes(selector)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult2>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<TResult2>*, false>(this, ___internal__method, selector);
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<TResult2>*, false>(this, ___generic__method, selector);
     }
     // public System.Collections.Generic.IEnumerable`1<TResult> Where(System.Func`2<TResult,System.Boolean> predicate)
     // Offset: 0xFFFFFFFF

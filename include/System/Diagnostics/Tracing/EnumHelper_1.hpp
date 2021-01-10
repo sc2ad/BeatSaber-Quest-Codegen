@@ -6,7 +6,9 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -134,7 +136,7 @@ namespace System::Diagnostics::Tracing {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EnumHelper_1::Cast");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EnumHelper_1<UnderlyingType>*>::get(), "Cast", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ValueType>::get()}, ::il2cpp_utils::ExtractTypes(value))));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ValueType>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<UnderlyingType, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
+      return ::il2cpp_utils::RunMethodThrow<UnderlyingType, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, value);
     }
     // static private System.Void .cctor()
     // Offset: 0xFFFFFFFF

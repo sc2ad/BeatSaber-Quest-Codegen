@@ -13,7 +13,9 @@
 #include "System/Diagnostics/Tracing/EventLevel.hpp"
 // Including type: System.Diagnostics.Tracing.EventKeywords
 #include "System/Diagnostics/Tracing/EventKeywords.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares

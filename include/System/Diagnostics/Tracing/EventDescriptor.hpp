@@ -8,7 +8,9 @@
 #include <stdint.h>
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
@@ -21,26 +23,6 @@ namespace System::Diagnostics::Tracing {
   // [] Offset: FFFFFFFF
   struct EventDescriptor/*, public System::ValueType*/ {
     public:
-    struct SmallCollection {
-      // private System.UInt16 m_id
-      // Size: 0x2
-      // Offset: 0x0
-      uint16_t m_id;
-      // Field size check
-      static_assert(sizeof(uint16_t) == 0x2);
-      // private System.Byte m_version
-      // Size: 0x1
-      // Offset: 0x2
-      uint8_t m_version;
-      // Field size check
-      static_assert(sizeof(uint8_t) == 0x1);
-      // private System.Byte m_channel
-      // Size: 0x1
-      // Offset: 0x3
-      uint8_t m_channel;
-      // Field size check
-      static_assert(sizeof(uint8_t) == 0x1);
-    };
     // Creating union for fields at offset: 0x0
     union {
       // private System.Int32 m_traceloggingId
@@ -49,11 +31,25 @@ namespace System::Diagnostics::Tracing {
       int m_traceloggingId;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      // WARNING: Manual field
-      SmallCollection data;
-      // WARNING: Manual field size check
-      static_assert(sizeof(SmallCollection) == 0x4);
+      // private System.UInt16 m_id
+      // Size: 0x2
+      // Offset: 0x0
+      uint16_t m_id;
+      // Field size check
+      static_assert(sizeof(uint16_t) == 0x2);
     };
+    // private System.Byte m_version
+    // Size: 0x1
+    // Offset: 0x2
+    uint8_t m_version;
+    // Field size check
+    static_assert(sizeof(uint8_t) == 0x1);
+    // private System.Byte m_channel
+    // Size: 0x1
+    // Offset: 0x3
+    uint8_t m_channel;
+    // Field size check
+    static_assert(sizeof(uint8_t) == 0x1);
     // private System.Byte m_level
     // Size: 0x1
     // Offset: 0x4
@@ -79,7 +75,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
     // Creating value type constructor for type: EventDescriptor
-    constexpr EventDescriptor(int m_traceloggingId_ = {}, uint8_t m_level_ = {}, uint8_t m_opcode_ = {}, uint16_t m_task_ = {}, int64_t m_keywords_ = {}) noexcept : m_traceloggingId{m_traceloggingId_}, m_level{m_level_}, m_opcode{m_opcode_}, m_task{m_task_}, m_keywords{m_keywords_} {}
+    constexpr EventDescriptor(int m_traceloggingId_ = {}, uint8_t m_version_ = {}, uint8_t m_channel_ = {}, uint8_t m_level_ = {}, uint8_t m_opcode_ = {}, uint16_t m_task_ = {}, int64_t m_keywords_ = {}) noexcept : m_traceloggingId{m_traceloggingId_}, m_version{m_version_}, m_channel{m_channel_}, m_level{m_level_}, m_opcode{m_opcode_}, m_task{m_task_}, m_keywords{m_keywords_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

@@ -9,7 +9,9 @@
 #include "System/Int32.hpp"
 // Including type: LiteNetLib.NatAddressType
 #include "LiteNetLib/NatAddressType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -196,7 +198,7 @@ namespace LiteNetLib {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NatPunchModule::Send");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Send", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(packet, target)));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, packet, target);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, packet, target);
     }
     // public System.Void NatIntroduce(System.Net.IPEndPoint hostInternal, System.Net.IPEndPoint hostExternal, System.Net.IPEndPoint clientInternal, System.Net.IPEndPoint clientExternal, System.String additionalInfo)
     // Offset: 0x1DC4DFC

@@ -10,7 +10,9 @@
 #include "System/Collections/Generic/KeyValuePair_2.hpp"
 // Including type: System.Diagnostics.Tracing.EventFieldFormat
 #include "System/Diagnostics/Tracing/EventFieldFormat.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares

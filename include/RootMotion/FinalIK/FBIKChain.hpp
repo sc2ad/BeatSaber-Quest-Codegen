@@ -10,7 +10,9 @@
 #include "RootMotion/FinalIK/IKSolver.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
@@ -240,12 +242,12 @@ namespace RootMotion::FinalIK {
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.Single pin, System.Single pull, params UnityEngine.Transform[] nodeTransforms)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBIKChain* New_ctor(float pin, float pull, std::initializer_list<UnityEngine::Transform*> nodeTransforms) {
-      return New_ctor(pin, pull, ::Array<UnityEngine::Transform*>::New(nodeTransforms));
+      return New_ctor<creationType>(pin, pull, ::Array<UnityEngine::Transform*>::New(nodeTransforms));
     }
     // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.Single pin, System.Single pull, params UnityEngine.Transform[] nodeTransforms)
-    template<class ...TParams, ::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
     static FBIKChain* New_ctor(float pin, float pull, TParams&&... nodeTransforms) {
-      return New_ctor(pin, pull, {nodeTransforms...});
+      return New_ctor<creationType>(pin, pull, {nodeTransforms...});
     }
     // public System.Void SetNodes(params UnityEngine.Transform[] boneTransforms)
     // Offset: 0x17521BC
