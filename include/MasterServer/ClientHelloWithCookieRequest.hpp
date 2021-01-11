@@ -102,8 +102,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ClientHelloWithCookieRequest*, creationType>()));
     }
   }; // MasterServer.ClientHelloWithCookieRequest
+  #pragma pack(pop)
   static check_size<sizeof(ClientHelloWithCookieRequest), 32 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_ClientHelloWithCookieRequestSizeCheck;
   static_assert(sizeof(ClientHelloWithCookieRequest) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ClientHelloWithCookieRequest*, "MasterServer", "ClientHelloWithCookieRequest");

@@ -79,8 +79,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
   }; // System.Runtime.Serialization.Formatters.Binary.SizedArray
+  #pragma pack(pop)
   static check_size<sizeof(SizedArray), 24 + sizeof(::Array<::Il2CppObject*>*)> __System_Runtime_Serialization_Formatters_Binary_SizedArraySizeCheck;
   static_assert(sizeof(SizedArray) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SizedArray*, "System.Runtime.Serialization.Formatters.Binary", "SizedArray");

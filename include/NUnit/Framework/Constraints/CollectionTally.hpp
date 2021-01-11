@@ -69,8 +69,8 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13DBE58
     bool TryRemove(System::Collections::IEnumerable* c);
   }; // NUnit.Framework.Constraints.CollectionTally
+  #pragma pack(pop)
   static check_size<sizeof(CollectionTally), 24 + sizeof(NUnit::Framework::Constraints::NUnitEqualityComparer*)> __NUnit_Framework_Constraints_CollectionTallySizeCheck;
   static_assert(sizeof(CollectionTally) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::CollectionTally*, "NUnit.Framework.Constraints", "CollectionTally");

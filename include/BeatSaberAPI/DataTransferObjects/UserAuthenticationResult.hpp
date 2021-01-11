@@ -50,8 +50,8 @@ namespace BeatSaberAPI::DataTransferObjects {
       return THROW_UNLESS((::il2cpp_utils::New<UserAuthenticationResult*, creationType>()));
     }
   }; // BeatSaberAPI.DataTransferObjects.UserAuthenticationResult
+  #pragma pack(pop)
   static check_size<sizeof(UserAuthenticationResult), 24 + sizeof(BeatSaberAPI::DataTransferObjects::AccessToken*)> __BeatSaberAPI_DataTransferObjects_UserAuthenticationResultSizeCheck;
   static_assert(sizeof(UserAuthenticationResult) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserAuthenticationResult*, "BeatSaberAPI.DataTransferObjects", "UserAuthenticationResult");

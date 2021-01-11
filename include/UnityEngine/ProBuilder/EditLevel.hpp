@@ -56,9 +56,9 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.EditLevel Plugin
     static void _set_Plugin(UnityEngine::ProBuilder::EditLevel value);
   }; // UnityEngine.ProBuilder.EditLevel
+  #pragma pack(pop)
   static check_size<sizeof(EditLevel), 0 + sizeof(int)> __UnityEngine_ProBuilder_EditLevelSizeCheck;
   static_assert(sizeof(EditLevel) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EditLevel, "UnityEngine.ProBuilder", "EditLevel");

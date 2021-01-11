@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0x1E4C808
     static ::Il2CppString* GenerateId();
   }; // NetworkUtility
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkUtility*, "", "NetworkUtility");

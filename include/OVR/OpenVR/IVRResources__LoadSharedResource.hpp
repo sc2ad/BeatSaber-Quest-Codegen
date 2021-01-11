@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1908DD0
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRResources/_LoadSharedResource
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRResources::_LoadSharedResource*, "OVR.OpenVR", "IVRResources/_LoadSharedResource");

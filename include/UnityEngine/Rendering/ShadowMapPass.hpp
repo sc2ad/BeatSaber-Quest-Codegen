@@ -117,9 +117,9 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.ShadowMapPass All
     static void _set_All(UnityEngine::Rendering::ShadowMapPass value);
   }; // UnityEngine.Rendering.ShadowMapPass
+  #pragma pack(pop)
   static check_size<sizeof(ShadowMapPass), 0 + sizeof(int)> __UnityEngine_Rendering_ShadowMapPassSizeCheck;
   static_assert(sizeof(ShadowMapPass) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ShadowMapPass, "UnityEngine.Rendering", "ShadowMapPass");

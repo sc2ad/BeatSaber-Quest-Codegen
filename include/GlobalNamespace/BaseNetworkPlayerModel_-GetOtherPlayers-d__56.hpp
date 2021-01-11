@@ -111,8 +111,8 @@ namespace GlobalNamespace {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // BaseNetworkPlayerModel/<GetOtherPlayers>d__56
+  #pragma pack(pop)
   static check_size<sizeof(BaseNetworkPlayerModel::$GetOtherPlayers$d__56), 32 + sizeof(int)> __GlobalNamespace_BaseNetworkPlayerModel_$GetOtherPlayers$d__56SizeCheck;
   static_assert(sizeof(BaseNetworkPlayerModel::$GetOtherPlayers$d__56) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNetworkPlayerModel::$GetOtherPlayers$d__56*, "", "BaseNetworkPlayerModel/<GetOtherPlayers>d__56");

@@ -107,8 +107,8 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Vector2Int
+  #pragma pack(pop)
   static check_size<sizeof(Vector2Int), 4 + sizeof(int)> __UnityEngine_Vector2IntSizeCheck;
   static_assert(sizeof(Vector2Int) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector2Int, "UnityEngine", "Vector2Int");

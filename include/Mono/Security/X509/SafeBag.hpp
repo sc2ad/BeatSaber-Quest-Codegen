@@ -52,8 +52,8 @@ namespace Mono::Security::X509 {
     // Offset: 0x19C0A88
     Mono::Security::ASN1* get_ASN1();
   }; // Mono.Security.X509.SafeBag
+  #pragma pack(pop)
   static check_size<sizeof(SafeBag), 24 + sizeof(Mono::Security::ASN1*)> __Mono_Security_X509_SafeBagSizeCheck;
   static_assert(sizeof(SafeBag) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::SafeBag*, "Mono.Security.X509", "SafeBag");

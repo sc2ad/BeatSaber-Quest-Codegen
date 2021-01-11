@@ -42,8 +42,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<RangeAttribute*, creationType>(min, max)));
     }
   }; // UnityEngine.RangeAttribute
+  #pragma pack(pop)
   static check_size<sizeof(RangeAttribute), 20 + sizeof(float)> __UnityEngine_RangeAttributeSizeCheck;
   static_assert(sizeof(RangeAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RangeAttribute*, "UnityEngine", "RangeAttribute");

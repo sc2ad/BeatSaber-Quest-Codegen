@@ -46,9 +46,9 @@ namespace System::Net {
     // Set static field: static public System.Net.HttpListenerRequestUriBuilder/EncodingType Secondary
     static void _set_Secondary(System::Net::HttpListenerRequestUriBuilder::EncodingType value);
   }; // System.Net.HttpListenerRequestUriBuilder/EncodingType
+  #pragma pack(pop)
   static check_size<sizeof(HttpListenerRequestUriBuilder::EncodingType), 0 + sizeof(int)> __System_Net_HttpListenerRequestUriBuilder_EncodingTypeSizeCheck;
   static_assert(sizeof(HttpListenerRequestUriBuilder::EncodingType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerRequestUriBuilder::EncodingType, "System.Net", "HttpListenerRequestUriBuilder/EncodingType");

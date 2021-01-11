@@ -73,9 +73,9 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.FrameTiming
+  #pragma pack(pop)
   static check_size<sizeof(FrameTiming), 40 + sizeof(uint)> __UnityEngine_FrameTimingSizeCheck;
   static_assert(sizeof(FrameTiming) == 0x2C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FrameTiming, "UnityEngine", "FrameTiming");

@@ -77,8 +77,8 @@ namespace Mono::Security {
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::EncryptedData*, creationType>()));
     }
   }; // Mono.Security.PKCS7/EncryptedData
+  #pragma pack(pop)
   static check_size<sizeof(PKCS7::EncryptedData), 40 + sizeof(::Array<uint8_t>*)> __Mono_Security_PKCS7_EncryptedDataSizeCheck;
   static_assert(sizeof(PKCS7::EncryptedData) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7::EncryptedData*, "Mono.Security", "PKCS7/EncryptedData");

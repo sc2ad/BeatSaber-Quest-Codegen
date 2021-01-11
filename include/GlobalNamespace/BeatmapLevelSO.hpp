@@ -120,6 +120,7 @@ namespace GlobalNamespace {
         // Set static field: static public BeatmapLevelSO/GetBeatmapLevelDataResult/Result Fail
         static void _set_Fail(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result value);
       }; // BeatmapLevelSO/GetBeatmapLevelDataResult/Result
+      #pragma pack(pop)
       static check_size<sizeof(BeatmapLevelSO::GetBeatmapLevelDataResult::Result), 0 + sizeof(int)> __GlobalNamespace_BeatmapLevelSO_GetBeatmapLevelDataResult_ResultSizeCheck;
       static_assert(sizeof(BeatmapLevelSO::GetBeatmapLevelDataResult::Result) == 0x4);
       // public readonly BeatmapLevelSO/GetBeatmapLevelDataResult/Result result
@@ -147,6 +148,7 @@ namespace GlobalNamespace {
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  GetBeatmapLevelDataResult(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result result, GlobalNamespace::IBeatmapLevelData* beatmapLevelData)
     }; // BeatmapLevelSO/GetBeatmapLevelDataResult
+    #pragma pack(pop)
     static check_size<sizeof(BeatmapLevelSO::GetBeatmapLevelDataResult), 8 + sizeof(GlobalNamespace::IBeatmapLevelData*)> __GlobalNamespace_BeatmapLevelSO_GetBeatmapLevelDataResultSizeCheck;
     static_assert(sizeof(BeatmapLevelSO::GetBeatmapLevelDataResult) == 0x10);
     // private System.String _levelID
@@ -420,10 +422,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelSO*, creationType>()));
     }
   }; // BeatmapLevelSO
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapLevelSO), 168 + sizeof(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult)> __GlobalNamespace_BeatmapLevelSOSizeCheck;
   static_assert(sizeof(BeatmapLevelSO) == 0xB8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO*, "", "BeatmapLevelSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult, "", "BeatmapLevelSO/GetBeatmapLevelDataResult");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result, "", "BeatmapLevelSO/GetBeatmapLevelDataResult/Result");

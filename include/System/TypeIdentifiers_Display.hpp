@@ -62,8 +62,8 @@ namespace System {
     // Base method: System.String TypeIdentifier::get_InternalName()
     ::Il2CppString* get_InternalName();
   }; // System.TypeIdentifiers/Display
+  #pragma pack(pop)
   static check_size<sizeof(TypeIdentifiers::Display), 24 + sizeof(::Il2CppString*)> __System_TypeIdentifiers_DisplaySizeCheck;
   static_assert(sizeof(TypeIdentifiers::Display) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::TypeIdentifiers::Display*, "System", "TypeIdentifiers/Display");

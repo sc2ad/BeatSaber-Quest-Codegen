@@ -87,6 +87,7 @@ namespace GlobalNamespace {
       // Set static field: static public DynamicBone/UpdateMode UnscaledTime
       static void _set_UnscaledTime(GlobalNamespace::DynamicBone::UpdateMode value);
     }; // DynamicBone/UpdateMode
+    #pragma pack(pop)
     static check_size<sizeof(DynamicBone::UpdateMode), 0 + sizeof(int)> __GlobalNamespace_DynamicBone_UpdateModeSizeCheck;
     static_assert(sizeof(DynamicBone::UpdateMode) == 0x4);
     // Size: 0x4
@@ -136,6 +137,7 @@ namespace GlobalNamespace {
       // Set static field: static public DynamicBone/FreezeAxis Z
       static void _set_Z(GlobalNamespace::DynamicBone::FreezeAxis value);
     }; // DynamicBone/FreezeAxis
+    #pragma pack(pop)
     static check_size<sizeof(DynamicBone::FreezeAxis), 0 + sizeof(int)> __GlobalNamespace_DynamicBone_FreezeAxisSizeCheck;
     static_assert(sizeof(DynamicBone::FreezeAxis) == 0x4);
     // public UnityEngine.Transform m_Root
@@ -435,10 +437,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DynamicBone*, creationType>()));
     }
   }; // DynamicBone
+  #pragma pack(pop)
   static check_size<sizeof(DynamicBone), 256 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::DynamicBone::Particle*>*)> __GlobalNamespace_DynamicBoneSizeCheck;
   static_assert(sizeof(DynamicBone) == 0x108);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone*, "", "DynamicBone");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone::UpdateMode, "", "DynamicBone/UpdateMode");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone::FreezeAxis, "", "DynamicBone/FreezeAxis");

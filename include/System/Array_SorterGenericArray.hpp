@@ -85,8 +85,8 @@ namespace System {
     // Offset: 0xE8B50C
     void InsertionSort(int lo, int hi);
   }; // System.Array/SorterGenericArray
+  #pragma pack(pop)
   static check_size<sizeof(Array::SorterGenericArray), 16 + sizeof(System::Collections::IComparer*)> __System_Array_SorterGenericArraySizeCheck;
   static_assert(sizeof(Array::SorterGenericArray) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterGenericArray, "System", "Array/SorterGenericArray");

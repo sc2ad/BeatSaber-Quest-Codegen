@@ -179,8 +179,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerPositionDisplay*, creationType>()));
     }
   }; // MultiplayerPositionDisplay
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerPositionDisplay), 152 + sizeof(float)> __GlobalNamespace_MultiplayerPositionDisplaySizeCheck;
   static_assert(sizeof(MultiplayerPositionDisplay) == 0x9C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPositionDisplay*, "", "MultiplayerPositionDisplay");

@@ -71,8 +71,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdown::$$c__DisplayClass25_0*, creationType>()));
     }
   }; // MultiplayerIntroCountdown/<>c__DisplayClass25_0
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerIntroCountdown::$$c__DisplayClass25_0), 24 + sizeof(GlobalNamespace::MultiplayerIntroCountdown*)> __GlobalNamespace_MultiplayerIntroCountdown_$$c__DisplayClass25_0SizeCheck;
   static_assert(sizeof(MultiplayerIntroCountdown::$$c__DisplayClass25_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*, "", "MultiplayerIntroCountdown/<>c__DisplayClass25_0");

@@ -125,8 +125,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiersDropdown*, creationType>()));
     }
   }; // GameplayModifiersDropdown
+  #pragma pack(pop)
   static check_size<sizeof(GameplayModifiersDropdown), 48 + sizeof(System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>*)> __GlobalNamespace_GameplayModifiersDropdownSizeCheck;
   static_assert(sizeof(GameplayModifiersDropdown) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersDropdown*, "", "GameplayModifiersDropdown");

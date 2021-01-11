@@ -58,9 +58,9 @@ namespace RootMotion::FinalIK {
     // Set static field: static public RootMotion.FinalIK.IKMappingLimb/BoneMapType Bone3
     static void _set_Bone3(RootMotion::FinalIK::IKMappingLimb::BoneMapType value);
   }; // RootMotion.FinalIK.IKMappingLimb/BoneMapType
+  #pragma pack(pop)
   static check_size<sizeof(IKMappingLimb::BoneMapType), 0 + sizeof(int)> __RootMotion_FinalIK_IKMappingLimb_BoneMapTypeSizeCheck;
   static_assert(sizeof(IKMappingLimb::BoneMapType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMappingLimb::BoneMapType, "RootMotion.FinalIK", "IKMappingLimb/BoneMapType");

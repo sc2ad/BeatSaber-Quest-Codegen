@@ -52,6 +52,6 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamRichPresencePlatformHandler*, creationType>()));
     }
   }; // SteamRichPresencePlatformHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamRichPresencePlatformHandler*, "", "SteamRichPresencePlatformHandler");

@@ -98,8 +98,8 @@ namespace TMPro {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // TMPro.TMP_ColorGradient
+  #pragma pack(pop)
   static check_size<sizeof(TMP_ColorGradient), 76 + sizeof(UnityEngine::Color)> __TMPro_TMP_ColorGradientSizeCheck;
   static_assert(sizeof(TMP_ColorGradient) == 0x5C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_ColorGradient*, "TMPro", "TMP_ColorGradient");

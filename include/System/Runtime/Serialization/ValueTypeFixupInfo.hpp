@@ -61,8 +61,8 @@ namespace System::Runtime::Serialization {
     // Offset: 0x14467EC
     ::Array<int>* get_ParentIndex();
   }; // System.Runtime.Serialization.ValueTypeFixupInfo
+  #pragma pack(pop)
   static check_size<sizeof(ValueTypeFixupInfo), 32 + sizeof(::Array<int>*)> __System_Runtime_Serialization_ValueTypeFixupInfoSizeCheck;
   static_assert(sizeof(ValueTypeFixupInfo) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ValueTypeFixupInfo*, "System.Runtime.Serialization", "ValueTypeFixupInfo");

@@ -130,9 +130,9 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.MethodImplAttributes MaxMethodImplVal
     static void _set_MaxMethodImplVal(System::Reflection::MethodImplAttributes value);
   }; // System.Reflection.MethodImplAttributes
+  #pragma pack(pop)
   static check_size<sizeof(MethodImplAttributes), 0 + sizeof(int)> __System_Reflection_MethodImplAttributesSizeCheck;
   static_assert(sizeof(MethodImplAttributes) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodImplAttributes, "System.Reflection", "MethodImplAttributes");

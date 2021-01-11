@@ -84,8 +84,8 @@ namespace System {
     // Maps to method: GetRealObject
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
   }; // System.DelegateSerializationHolder
+  #pragma pack(pop)
   static check_size<sizeof(DelegateSerializationHolder), 16 + sizeof(System::Delegate*)> __System_DelegateSerializationHolderSizeCheck;
   static_assert(sizeof(DelegateSerializationHolder) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::DelegateSerializationHolder*, "System", "DelegateSerializationHolder");

@@ -59,8 +59,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AnchorIntoParent*, creationType>()));
     }
   }; // AnchorIntoParent
+  #pragma pack(pop)
   static check_size<sizeof(AnchorIntoParent), 32 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_AnchorIntoParentSizeCheck;
   static_assert(sizeof(AnchorIntoParent) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnchorIntoParent*, "", "AnchorIntoParent");

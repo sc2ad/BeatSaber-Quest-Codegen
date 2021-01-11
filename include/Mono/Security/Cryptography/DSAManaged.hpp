@@ -188,8 +188,8 @@ namespace Mono::Security::Cryptography {
     // Base method: System.Void AsymmetricAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // Mono.Security.Cryptography.DSAManaged
+  #pragma pack(pop)
   static check_size<sizeof(DSAManaged), 112 + sizeof(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*)> __Mono_Security_Cryptography_DSAManagedSizeCheck;
   static_assert(sizeof(DSAManaged) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::DSAManaged*, "Mono.Security.Cryptography", "DSAManaged");

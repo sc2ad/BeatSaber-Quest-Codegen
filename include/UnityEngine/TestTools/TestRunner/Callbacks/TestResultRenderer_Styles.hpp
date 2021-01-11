@@ -40,7 +40,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Offset: 0x1195254
     static void _cctor();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer/Styles
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::Styles*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRenderer/Styles");

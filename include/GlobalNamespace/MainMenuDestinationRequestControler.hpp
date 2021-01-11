@@ -117,8 +117,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainMenuDestinationRequestControler*, creationType>()));
     }
   }; // MainMenuDestinationRequestControler
+  #pragma pack(pop)
   static check_size<sizeof(MainMenuDestinationRequestControler), 40 + sizeof(System::Threading::CancellationTokenSource*)> __GlobalNamespace_MainMenuDestinationRequestControlerSizeCheck;
   static_assert(sizeof(MainMenuDestinationRequestControler) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuDestinationRequestControler*, "", "MainMenuDestinationRequestControler");

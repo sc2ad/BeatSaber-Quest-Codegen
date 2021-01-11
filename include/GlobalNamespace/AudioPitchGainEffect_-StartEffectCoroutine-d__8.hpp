@@ -117,8 +117,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // AudioPitchGainEffect/<StartEffectCoroutine>d__8
+  #pragma pack(pop)
   static check_size<sizeof(AudioPitchGainEffect::$StartEffectCoroutine$d__8), 60 + sizeof(float)> __GlobalNamespace_AudioPitchGainEffect_$StartEffectCoroutine$d__8SizeCheck;
   static_assert(sizeof(AudioPitchGainEffect::$StartEffectCoroutine$d__8) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioPitchGainEffect::$StartEffectCoroutine$d__8*, "", "AudioPitchGainEffect/<StartEffectCoroutine>d__8");

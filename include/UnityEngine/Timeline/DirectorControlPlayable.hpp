@@ -111,8 +111,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<DirectorControlPlayable*, creationType>()));
     }
   }; // UnityEngine.Timeline.DirectorControlPlayable
+  #pragma pack(pop)
   static check_size<sizeof(DirectorControlPlayable), 32 + sizeof(double)> __UnityEngine_Timeline_DirectorControlPlayableSizeCheck;
   static_assert(sizeof(DirectorControlPlayable) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::DirectorControlPlayable*, "UnityEngine.Timeline", "DirectorControlPlayable");

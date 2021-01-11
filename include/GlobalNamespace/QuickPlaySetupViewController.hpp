@@ -170,8 +170,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<QuickPlaySetupViewController*, creationType>()));
     }
   }; // QuickPlaySetupViewController
+  #pragma pack(pop)
   static check_size<sizeof(QuickPlaySetupViewController), 172 + sizeof(bool)> __GlobalNamespace_QuickPlaySetupViewControllerSizeCheck;
   static_assert(sizeof(QuickPlaySetupViewController) == 0xAD);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySetupViewController*, "", "QuickPlaySetupViewController");

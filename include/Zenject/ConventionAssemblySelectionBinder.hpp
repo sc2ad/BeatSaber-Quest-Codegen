@@ -123,8 +123,8 @@ namespace Zenject {
     // Offset: 0x10F19A4
     void FromAssembliesWhere(System::Func_2<System::Reflection::Assembly*, bool>* predicate);
   }; // Zenject.ConventionAssemblySelectionBinder
+  #pragma pack(pop)
   static check_size<sizeof(ConventionAssemblySelectionBinder), 16 + sizeof(Zenject::ConventionBindInfo*)> __Zenject_ConventionAssemblySelectionBinderSizeCheck;
   static_assert(sizeof(ConventionAssemblySelectionBinder) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionAssemblySelectionBinder*, "Zenject", "ConventionAssemblySelectionBinder");

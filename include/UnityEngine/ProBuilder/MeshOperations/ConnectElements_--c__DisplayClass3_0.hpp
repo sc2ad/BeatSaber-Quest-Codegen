@@ -58,8 +58,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectElements::$$c__DisplayClass3_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c__DisplayClass3_0
+  #pragma pack(pop)
   static check_size<sizeof(ConnectElements::$$c__DisplayClass3_0), 16 + sizeof(System::Collections::Generic::HashSet_1<int>*)> __UnityEngine_ProBuilder_MeshOperations_ConnectElements_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(ConnectElements::$$c__DisplayClass3_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c__DisplayClass3_0");

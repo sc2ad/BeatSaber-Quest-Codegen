@@ -41,8 +41,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<LaunchBlockFlowResult*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.LaunchBlockFlowResult
+  #pragma pack(pop)
   static check_size<sizeof(LaunchBlockFlowResult), 17 + sizeof(bool)> __Oculus_Platform_Models_LaunchBlockFlowResultSizeCheck;
   static_assert(sizeof(LaunchBlockFlowResult) == 0x12);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchBlockFlowResult*, "Oculus.Platform.Models", "LaunchBlockFlowResult");

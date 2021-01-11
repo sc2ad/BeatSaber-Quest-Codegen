@@ -19,7 +19,7 @@ namespace NUnit::Framework {
     // Creating value type constructor for type: TearDownAttribute
     TearDownAttribute() noexcept {}
   }; // NUnit.Framework.TearDownAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TearDownAttribute*, "NUnit.Framework", "TearDownAttribute");

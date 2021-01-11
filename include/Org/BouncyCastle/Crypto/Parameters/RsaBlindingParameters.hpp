@@ -36,9 +36,9 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1049014
     Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* get_PublicKey();
   }; // Org.BouncyCastle.Crypto.Parameters.RsaBlindingParameters
+  #pragma pack(pop)
   static check_size<sizeof(RsaBlindingParameters), 16 + sizeof(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*)> __Org_BouncyCastle_Crypto_Parameters_RsaBlindingParametersSizeCheck;
   static_assert(sizeof(RsaBlindingParameters) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters*, "Org.BouncyCastle.Crypto.Parameters", "RsaBlindingParameters");

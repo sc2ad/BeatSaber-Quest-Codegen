@@ -100,6 +100,7 @@ namespace GlobalNamespace {
       // Set static field: static public PlatformLeaderboardsModel/State Initialized
       static void _set_Initialized(GlobalNamespace::PlatformLeaderboardsModel::State value);
     }; // PlatformLeaderboardsModel/State
+    #pragma pack(pop)
     static check_size<sizeof(PlatformLeaderboardsModel::State), 0 + sizeof(int)> __GlobalNamespace_PlatformLeaderboardsModel_StateSizeCheck;
     static_assert(sizeof(PlatformLeaderboardsModel::State) == 0x4);
     // private GameplayModifiersModelSO _gameplayModifiersModel
@@ -201,9 +202,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlatformLeaderboardsModel*, creationType>()));
     }
   }; // PlatformLeaderboardsModel
+  #pragma pack(pop)
   static check_size<sizeof(PlatformLeaderboardsModel), 72 + sizeof(::Il2CppString*)> __GlobalNamespace_PlatformLeaderboardsModelSizeCheck;
   static_assert(sizeof(PlatformLeaderboardsModel) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel*, "", "PlatformLeaderboardsModel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::State, "", "PlatformLeaderboardsModel/State");

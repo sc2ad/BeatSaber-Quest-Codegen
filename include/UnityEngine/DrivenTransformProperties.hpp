@@ -183,9 +183,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.DrivenTransformProperties Pivot
     static void _set_Pivot(UnityEngine::DrivenTransformProperties value);
   }; // UnityEngine.DrivenTransformProperties
+  #pragma pack(pop)
   static check_size<sizeof(DrivenTransformProperties), 0 + sizeof(int)> __UnityEngine_DrivenTransformPropertiesSizeCheck;
   static_assert(sizeof(DrivenTransformProperties) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DrivenTransformProperties, "UnityEngine", "DrivenTransformProperties");

@@ -68,9 +68,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRSubmitFlags Submit_TextureWithDepth
     static void _set_Submit_TextureWithDepth(Valve::VR::EVRSubmitFlags value);
   }; // Valve.VR.EVRSubmitFlags
+  #pragma pack(pop)
   static check_size<sizeof(EVRSubmitFlags), 0 + sizeof(int)> __Valve_VR_EVRSubmitFlagsSizeCheck;
   static_assert(sizeof(EVRSubmitFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRSubmitFlags, "Valve.VR", "EVRSubmitFlags");

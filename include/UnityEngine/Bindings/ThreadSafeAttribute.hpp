@@ -35,6 +35,6 @@ namespace UnityEngine::Bindings {
       return THROW_UNLESS((::il2cpp_utils::New<ThreadSafeAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.ThreadSafeAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::ThreadSafeAttribute*, "UnityEngine.Bindings", "ThreadSafeAttribute");

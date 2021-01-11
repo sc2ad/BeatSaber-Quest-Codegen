@@ -84,8 +84,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction::HitPointEffector*, creationType>()));
     }
   }; // RootMotion.FinalIK.HitReaction/HitPointEffector
+  #pragma pack(pop)
   static check_size<sizeof(HitReaction::HitPointEffector), 96 + sizeof(::Array<RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*>*)> __RootMotion_FinalIK_HitReaction_HitPointEffectorSizeCheck;
   static_assert(sizeof(HitReaction::HitPointEffector) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPointEffector*, "RootMotion.FinalIK", "HitReaction/HitPointEffector");

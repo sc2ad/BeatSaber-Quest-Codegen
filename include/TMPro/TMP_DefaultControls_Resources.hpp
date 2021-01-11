@@ -74,9 +74,9 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // TMPro.TMP_DefaultControls/Resources
+  #pragma pack(pop)
   static check_size<sizeof(TMP_DefaultControls::Resources), 48 + sizeof(UnityEngine::Sprite*)> __TMPro_TMP_DefaultControls_ResourcesSizeCheck;
   static_assert(sizeof(TMP_DefaultControls::Resources) == 0x38);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_DefaultControls::Resources, "TMPro", "TMP_DefaultControls/Resources");

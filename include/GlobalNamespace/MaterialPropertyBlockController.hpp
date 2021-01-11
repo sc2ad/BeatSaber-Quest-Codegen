@@ -67,8 +67,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockController*, creationType>()));
     }
   }; // MaterialPropertyBlockController
+  #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyBlockController), 32 + sizeof(UnityEngine::MaterialPropertyBlock*)> __GlobalNamespace_MaterialPropertyBlockControllerSizeCheck;
   static_assert(sizeof(MaterialPropertyBlockController) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockController*, "", "MaterialPropertyBlockController");

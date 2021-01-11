@@ -47,8 +47,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410PublicKeyParameters*, creationType>(y, publicKeyParamSet)));
     }
   }; // Org.BouncyCastle.Crypto.Parameters.Gost3410PublicKeyParameters
+  #pragma pack(pop)
   static check_size<sizeof(Gost3410PublicKeyParameters), 40 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Crypto_Parameters_Gost3410PublicKeyParametersSizeCheck;
   static_assert(sizeof(Gost3410PublicKeyParameters) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Gost3410PublicKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "Gost3410PublicKeyParameters");

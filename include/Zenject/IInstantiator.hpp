@@ -301,6 +301,6 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     UnityEngine::GameObject* CreateEmptyGameObject(::Il2CppString* name);
   }; // Zenject.IInstantiator
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IInstantiator*, "Zenject", "IInstantiator");

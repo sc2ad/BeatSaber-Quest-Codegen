@@ -79,8 +79,8 @@ namespace GlobalNamespace {
     // Offset: 0x1E5314C
     void SaveFromNetSerializable(GlobalNamespace::PlayersAtGameStartNetSerializable* playersAtGameStartNetSerializable);
   }; // PlayersAtGameStartModel
+  #pragma pack(pop)
   static check_size<sizeof(PlayersAtGameStartModel), 24 + sizeof(GlobalNamespace::IMultiplayerSessionManager*)> __GlobalNamespace_PlayersAtGameStartModelSizeCheck;
   static_assert(sizeof(PlayersAtGameStartModel) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayersAtGameStartModel*, "", "PlayersAtGameStartModel");

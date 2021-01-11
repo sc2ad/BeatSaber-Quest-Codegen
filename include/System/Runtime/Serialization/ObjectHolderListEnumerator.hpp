@@ -68,8 +68,8 @@ namespace System::Runtime::Serialization {
     // Offset: 0x130618C
     System::Runtime::Serialization::ObjectHolder* get_Current();
   }; // System.Runtime.Serialization.ObjectHolderListEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(ObjectHolderListEnumerator), 36 + sizeof(int)> __System_Runtime_Serialization_ObjectHolderListEnumeratorSizeCheck;
   static_assert(sizeof(ObjectHolderListEnumerator) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectHolderListEnumerator*, "System.Runtime.Serialization", "ObjectHolderListEnumerator");

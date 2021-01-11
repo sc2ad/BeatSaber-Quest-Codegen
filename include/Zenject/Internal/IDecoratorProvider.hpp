@@ -36,7 +36,7 @@ namespace Zenject::Internal {
     // Offset: 0xFFFFFFFF
     void GetAllInstances(Zenject::IProvider* provider, Zenject::InjectContext* context, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.Internal.IDecoratorProvider
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::IDecoratorProvider*, "Zenject.Internal", "IDecoratorProvider");

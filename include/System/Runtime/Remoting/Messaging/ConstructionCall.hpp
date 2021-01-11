@@ -187,8 +187,8 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Collections.IDictionary MethodCall::get_Properties()
     System::Collections::IDictionary* get_Properties();
   }; // System.Runtime.Remoting.Messaging.ConstructionCall
+  #pragma pack(pop)
   static check_size<sizeof(ConstructionCall), 152 + sizeof(System::Runtime::Remoting::Proxies::RemotingProxy*)> __System_Runtime_Remoting_Messaging_ConstructionCallSizeCheck;
   static_assert(sizeof(ConstructionCall) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ConstructionCall*, "System.Runtime.Remoting.Messaging", "ConstructionCall");

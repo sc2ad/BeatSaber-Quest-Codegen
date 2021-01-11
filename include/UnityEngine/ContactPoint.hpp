@@ -57,9 +57,9 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.ContactPoint
+  #pragma pack(pop)
   static check_size<sizeof(ContactPoint), 32 + sizeof(float)> __UnityEngine_ContactPointSizeCheck;
   static_assert(sizeof(ContactPoint) == 0x24);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContactPoint, "UnityEngine", "ContactPoint");

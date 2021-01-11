@@ -58,8 +58,8 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // Org.BouncyCastle.Utilities.IO.Pem.PemHeader
+  #pragma pack(pop)
   static check_size<sizeof(PemHeader), 24 + sizeof(::Il2CppString*)> __Org_BouncyCastle_Utilities_IO_Pem_PemHeaderSizeCheck;
   static_assert(sizeof(PemHeader) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemHeader");

@@ -241,8 +241,8 @@ namespace Mono::Unity {
     // Base method: System.Void MobileTlsContext::FinishHandshake()
     void FinishHandshake();
   }; // Mono.Unity.UnityTlsContext
+  #pragma pack(pop)
   static check_size<sizeof(UnityTlsContext), 200 + sizeof(System::Exception*)> __Mono_Unity_UnityTlsContextSizeCheck;
   static_assert(sizeof(UnityTlsContext) == 0xD0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsContext*, "Mono.Unity", "UnityTlsContext");

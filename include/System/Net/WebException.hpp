@@ -165,8 +165,8 @@ namespace System::Net {
     // Maps to method: GetObjectData
     // Skipping redundant proxy method: System_Runtime_Serialization_ISerializable_GetObjectData
   }; // System.Net.WebException
+  #pragma pack(pop)
   static check_size<sizeof(WebException), 152 + sizeof(System::Net::WebExceptionInternalStatus)> __System_Net_WebExceptionSizeCheck;
   static_assert(sizeof(WebException) == 0x9C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebException*, "System.Net", "WebException");

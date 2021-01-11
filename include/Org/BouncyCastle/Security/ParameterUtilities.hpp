@@ -66,7 +66,7 @@ namespace Org::BouncyCastle::Security {
     // Offset: 0x10C9300
     static Org::BouncyCastle::Crypto::Parameters::KeyParameter* CreateKeyParameter(::Il2CppString* algorithm, ::Array<uint8_t>* keyBytes, int offset, int length);
   }; // Org.BouncyCastle.Security.ParameterUtilities
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::ParameterUtilities*, "Org.BouncyCastle.Security", "ParameterUtilities");

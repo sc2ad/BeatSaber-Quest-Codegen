@@ -33,6 +33,6 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SOVariableAttribute*, creationType>()));
     }
   }; // SOVariableAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SOVariableAttribute*, "", "SOVariableAttribute");

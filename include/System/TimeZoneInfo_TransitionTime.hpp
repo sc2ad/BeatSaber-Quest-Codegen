@@ -160,11 +160,11 @@ namespace System {
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.TimeZoneInfo/TransitionTime
+  #pragma pack(pop)
   static check_size<sizeof(TimeZoneInfo::TransitionTime), 16 + sizeof(bool)> __System_TimeZoneInfo_TransitionTimeSizeCheck;
   static_assert(sizeof(TimeZoneInfo::TransitionTime) == 0x11);
   // static public System.Boolean op_Inequality(System.TimeZoneInfo/TransitionTime t1, System.TimeZoneInfo/TransitionTime t2)
   // Offset: 0x1654714
   bool operator !=(const System::TimeZoneInfo::TransitionTime& t1, const System::TimeZoneInfo::TransitionTime& t2);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::TransitionTime, "System", "TimeZoneInfo/TransitionTime");

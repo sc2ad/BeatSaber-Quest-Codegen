@@ -101,9 +101,9 @@ namespace UnityEngine::Experimental::GlobalIllumination {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.Experimental.GlobalIllumination.RectangleLight
+  #pragma pack(pop)
   static check_size<sizeof(RectangleLight), 80 + sizeof(UnityEngine::Experimental::GlobalIllumination::FalloffType)> __UnityEngine_Experimental_GlobalIllumination_RectangleLightSizeCheck;
   static_assert(sizeof(RectangleLight) == 0x51);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::RectangleLight, "UnityEngine.Experimental.GlobalIllumination", "RectangleLight");

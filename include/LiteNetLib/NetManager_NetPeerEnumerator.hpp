@@ -99,8 +99,8 @@ namespace LiteNetLib {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // LiteNetLib.NetManager/NetPeerEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(NetManager::NetPeerEnumerator), 8 + sizeof(LiteNetLib::NetPeer*)> __LiteNetLib_NetManager_NetPeerEnumeratorSizeCheck;
   static_assert(sizeof(NetManager::NetPeerEnumerator) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager::NetPeerEnumerator, "LiteNetLib", "NetManager/NetPeerEnumerator");

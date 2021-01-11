@@ -124,8 +124,8 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // Base method: System.Byte[] IAsymmetricBlockCipher::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* input, int inOff, int length);
   }; // Org.BouncyCastle.Crypto.Encodings.ISO9796d1Encoding
+  #pragma pack(pop)
   static check_size<sizeof(ISO9796d1Encoding), 40 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Crypto_Encodings_ISO9796d1EncodingSizeCheck;
   static_assert(sizeof(ISO9796d1Encoding) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding*, "Org.BouncyCastle.Crypto.Encodings", "ISO9796d1Encoding");

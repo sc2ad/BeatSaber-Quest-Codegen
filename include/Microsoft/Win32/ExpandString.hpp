@@ -45,8 +45,8 @@ namespace Microsoft::Win32 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Microsoft.Win32.ExpandString
+  #pragma pack(pop)
   static check_size<sizeof(ExpandString), 16 + sizeof(::Il2CppString*)> __Microsoft_Win32_ExpandStringSizeCheck;
   static_assert(sizeof(ExpandString) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::ExpandString*, "Microsoft.Win32", "ExpandString");

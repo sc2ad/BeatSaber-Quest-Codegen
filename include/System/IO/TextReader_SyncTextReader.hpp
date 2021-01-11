@@ -72,8 +72,8 @@ namespace System::IO {
     // Base method: System.String TextReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();
   }; // System.IO.TextReader/SyncTextReader
+  #pragma pack(pop)
   static check_size<sizeof(TextReader::SyncTextReader), 24 + sizeof(System::IO::TextReader*)> __System_IO_TextReader_SyncTextReaderSizeCheck;
   static_assert(sizeof(TextReader::SyncTextReader) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::SyncTextReader*, "System.IO", "TextReader/SyncTextReader");

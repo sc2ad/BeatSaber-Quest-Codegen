@@ -100,8 +100,8 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Offset: 0x193DD48
     int get_Bits();
   }; // Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters
+  #pragma pack(pop)
   static check_size<sizeof(ScalarSplitParameters), 64 + sizeof(int)> __Org_BouncyCastle_Math_EC_Endo_ScalarSplitParametersSizeCheck;
   static_assert(sizeof(ScalarSplitParameters) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*, "Org.BouncyCastle.Math.EC.Endo", "ScalarSplitParameters");

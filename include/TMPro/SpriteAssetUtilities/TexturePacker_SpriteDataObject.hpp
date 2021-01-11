@@ -51,8 +51,8 @@ namespace TMPro::SpriteAssetUtilities {
       return THROW_UNLESS((::il2cpp_utils::New<TexturePacker::SpriteDataObject*, creationType>()));
     }
   }; // TMPro.SpriteAssetUtilities.TexturePacker/SpriteDataObject
+  #pragma pack(pop)
   static check_size<sizeof(TexturePacker::SpriteDataObject), 16 + sizeof(System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*)> __TMPro_SpriteAssetUtilities_TexturePacker_SpriteDataObjectSizeCheck;
   static_assert(sizeof(TexturePacker::SpriteDataObject) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject*, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteDataObject");

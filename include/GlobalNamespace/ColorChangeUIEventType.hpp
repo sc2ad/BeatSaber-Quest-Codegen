@@ -44,9 +44,9 @@ namespace GlobalNamespace {
     // Set static field: static public ColorChangeUIEventType PointerUp
     static void _set_PointerUp(GlobalNamespace::ColorChangeUIEventType value);
   }; // ColorChangeUIEventType
+  #pragma pack(pop)
   static check_size<sizeof(ColorChangeUIEventType), 0 + sizeof(int)> __GlobalNamespace_ColorChangeUIEventTypeSizeCheck;
   static_assert(sizeof(ColorChangeUIEventType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorChangeUIEventType, "", "ColorChangeUIEventType");

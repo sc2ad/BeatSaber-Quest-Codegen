@@ -114,8 +114,8 @@ namespace System::Text {
     // Base method: System.Int32 Decoder::GetChars(System.Byte* bytes, System.Int32 byteCount, System.Char* chars, System.Int32 charCount, System.Boolean flush)
     int GetChars(uint8_t* bytes, int byteCount, ::Il2CppChar* chars, int charCount, bool flush);
   }; // System.Text.Encoding/DefaultDecoder
+  #pragma pack(pop)
   static check_size<sizeof(Encoding::DefaultDecoder), 40 + sizeof(bool)> __System_Text_Encoding_DefaultDecoderSizeCheck;
   static_assert(sizeof(Encoding::DefaultDecoder) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::DefaultDecoder*, "System.Text", "Encoding/DefaultDecoder");

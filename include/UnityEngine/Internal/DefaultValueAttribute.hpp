@@ -53,8 +53,8 @@ namespace UnityEngine::Internal {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.Internal.DefaultValueAttribute
+  #pragma pack(pop)
   static check_size<sizeof(DefaultValueAttribute), 16 + sizeof(::Il2CppObject*)> __UnityEngine_Internal_DefaultValueAttributeSizeCheck;
   static_assert(sizeof(DefaultValueAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal::DefaultValueAttribute*, "UnityEngine.Internal", "DefaultValueAttribute");

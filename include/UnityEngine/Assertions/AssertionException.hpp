@@ -44,8 +44,8 @@ namespace UnityEngine::Assertions {
     // Base method: System.String Exception::get_Message()
     ::Il2CppString* get_Message();
   }; // UnityEngine.Assertions.AssertionException
+  #pragma pack(pop)
   static check_size<sizeof(AssertionException), 136 + sizeof(::Il2CppString*)> __UnityEngine_Assertions_AssertionExceptionSizeCheck;
   static_assert(sizeof(AssertionException) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::AssertionException*, "UnityEngine.Assertions", "AssertionException");

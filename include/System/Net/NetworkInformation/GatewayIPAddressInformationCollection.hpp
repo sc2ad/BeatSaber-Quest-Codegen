@@ -132,8 +132,8 @@ namespace System::Net::NetworkInformation {
     // Maps to method: Clear
     void System_Collections_Generic_ICollection_1_Clear();
   }; // System.Net.NetworkInformation.GatewayIPAddressInformationCollection
+  #pragma pack(pop)
   static check_size<sizeof(GatewayIPAddressInformationCollection), 16 + sizeof(System::Collections::ObjectModel::Collection_1<System::Net::NetworkInformation::GatewayIPAddressInformation*>*)> __System_Net_NetworkInformation_GatewayIPAddressInformationCollectionSizeCheck;
   static_assert(sizeof(GatewayIPAddressInformationCollection) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::GatewayIPAddressInformationCollection*, "System.Net.NetworkInformation", "GatewayIPAddressInformationCollection");

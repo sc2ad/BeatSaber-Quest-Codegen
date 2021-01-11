@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x191D048
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_ShowOverlay
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_ShowOverlay*, "Valve.VR", "IVROverlay/_ShowOverlay");

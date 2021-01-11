@@ -62,6 +62,6 @@ namespace System::Runtime::CompilerServices {
       return THROW_UNLESS((::il2cpp_utils::New<AsyncMethodBuilderCore::$$c*, creationType>()));
     }
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/<>c");

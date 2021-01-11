@@ -86,8 +86,8 @@ namespace UnityEngine::Events {
       return THROW_UNLESS((::il2cpp_utils::New<InvokableCallList*, creationType>()));
     }
   }; // UnityEngine.Events.InvokableCallList
+  #pragma pack(pop)
   static check_size<sizeof(InvokableCallList), 40 + sizeof(bool)> __UnityEngine_Events_InvokableCallListSizeCheck;
   static_assert(sizeof(InvokableCallList) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::InvokableCallList*, "UnityEngine.Events", "InvokableCallList");

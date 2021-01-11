@@ -112,8 +112,8 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> TestResult::get_Children()
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestResult*>* get_Children();
   }; // NUnit.Framework.Internal.TestSuiteResult
+  #pragma pack(pop)
   static check_size<sizeof(TestSuiteResult), 112 + sizeof(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>*)> __NUnit_Framework_Internal_TestSuiteResultSizeCheck;
   static_assert(sizeof(TestSuiteResult) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestSuiteResult*, "NUnit.Framework.Internal", "TestSuiteResult");

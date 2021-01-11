@@ -51,9 +51,9 @@ namespace UnityEngine::AI {
     // Set static field: static public UnityEngine.AI.NavMeshPathStatus PathInvalid
     static void _set_PathInvalid(UnityEngine::AI::NavMeshPathStatus value);
   }; // UnityEngine.AI.NavMeshPathStatus
+  #pragma pack(pop)
   static check_size<sizeof(NavMeshPathStatus), 0 + sizeof(int)> __UnityEngine_AI_NavMeshPathStatusSizeCheck;
   static_assert(sizeof(NavMeshPathStatus) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshPathStatus, "UnityEngine.AI", "NavMeshPathStatus");

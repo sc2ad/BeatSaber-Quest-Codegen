@@ -117,8 +117,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerOutroAnimator*, creationType>()));
     }
   }; // MultiplayerConnectedPlayerOutroAnimator
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerOutroAnimator), 64 + sizeof(Tweening::Tween_1<UnityEngine::Color>*)> __GlobalNamespace_MultiplayerConnectedPlayerOutroAnimatorSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerOutroAnimator) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerOutroAnimator*, "", "MultiplayerConnectedPlayerOutroAnimator");

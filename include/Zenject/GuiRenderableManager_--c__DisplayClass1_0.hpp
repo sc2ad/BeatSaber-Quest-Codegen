@@ -63,8 +63,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<GuiRenderableManager::$$c__DisplayClass1_0*, creationType>()));
     }
   }; // Zenject.GuiRenderableManager/<>c__DisplayClass1_0
+  #pragma pack(pop)
   static check_size<sizeof(GuiRenderableManager::$$c__DisplayClass1_0), 16 + sizeof(Zenject::IGuiRenderable*)> __Zenject_GuiRenderableManager_$$c__DisplayClass1_0SizeCheck;
   static_assert(sizeof(GuiRenderableManager::$$c__DisplayClass1_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager::$$c__DisplayClass1_0*, "Zenject", "GuiRenderableManager/<>c__DisplayClass1_0");

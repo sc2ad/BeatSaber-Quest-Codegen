@@ -93,8 +93,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0*, creationType>()));
     }
   }; // Zenject.AddToGameObjectComponentProviderBase/<>c__DisplayClass17_0
+  #pragma pack(pop)
   static check_size<sizeof(AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0), 56 + sizeof(UnityEngine::GameObject*)> __Zenject_AddToGameObjectComponentProviderBase_$$c__DisplayClass17_0SizeCheck;
   static_assert(sizeof(AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0*, "Zenject", "AddToGameObjectComponentProviderBase/<>c__DisplayClass17_0");

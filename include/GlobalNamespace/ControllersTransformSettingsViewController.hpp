@@ -131,8 +131,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ControllersTransformSettingsViewController*, creationType>()));
     }
   }; // ControllersTransformSettingsViewController
+  #pragma pack(pop)
   static check_size<sizeof(ControllersTransformSettingsViewController), 168 + sizeof(HMUI::RangeValuesTextSlider*)> __GlobalNamespace_ControllersTransformSettingsViewControllerSizeCheck;
   static_assert(sizeof(ControllersTransformSettingsViewController) == 0xB0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ControllersTransformSettingsViewController*, "", "ControllersTransformSettingsViewController");

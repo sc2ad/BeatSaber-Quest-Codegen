@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x18E9F74
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_ReleaseMirrorTextureD3D11
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11*, "Valve.VR", "IVRCompositor/_ReleaseMirrorTextureD3D11");

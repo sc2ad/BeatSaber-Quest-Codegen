@@ -144,6 +144,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<ElementSelection::$$c*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c");

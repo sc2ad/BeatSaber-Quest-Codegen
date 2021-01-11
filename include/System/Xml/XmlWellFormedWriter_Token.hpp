@@ -124,9 +124,9 @@ namespace System::Xml {
     // Set static field: static public System.Xml.XmlWellFormedWriter/Token Whitespace
     static void _set_Whitespace(System::Xml::XmlWellFormedWriter::Token value);
   }; // System.Xml.XmlWellFormedWriter/Token
+  #pragma pack(pop)
   static check_size<sizeof(XmlWellFormedWriter::Token), 0 + sizeof(int)> __System_Xml_XmlWellFormedWriter_TokenSizeCheck;
   static_assert(sizeof(XmlWellFormedWriter::Token) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::Token, "System.Xml", "XmlWellFormedWriter/Token");

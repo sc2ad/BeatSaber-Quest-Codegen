@@ -105,9 +105,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TouchScreenKeyboardType DecimalPad
     static void _set_DecimalPad(UnityEngine::TouchScreenKeyboardType value);
   }; // UnityEngine.TouchScreenKeyboardType
+  #pragma pack(pop)
   static check_size<sizeof(TouchScreenKeyboardType), 0 + sizeof(int)> __UnityEngine_TouchScreenKeyboardTypeSizeCheck;
   static_assert(sizeof(TouchScreenKeyboardType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchScreenKeyboardType, "UnityEngine", "TouchScreenKeyboardType");

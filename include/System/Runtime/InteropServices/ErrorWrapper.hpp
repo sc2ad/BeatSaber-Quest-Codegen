@@ -27,9 +27,9 @@ namespace System::Runtime::InteropServices {
       return m_ErrorCode;
     }
   }; // System.Runtime.InteropServices.ErrorWrapper
+  #pragma pack(pop)
   static check_size<sizeof(ErrorWrapper), 16 + sizeof(int)> __System_Runtime_InteropServices_ErrorWrapperSizeCheck;
   static_assert(sizeof(ErrorWrapper) == 0x14);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ErrorWrapper*, "System.Runtime.InteropServices", "ErrorWrapper");

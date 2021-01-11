@@ -26,7 +26,7 @@ namespace NUnit::Framework {
     // Creating value type constructor for type: RepeatAttribute
     RepeatAttribute() noexcept {}
   }; // NUnit.Framework.RepeatAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::RepeatAttribute*, "NUnit.Framework", "RepeatAttribute");

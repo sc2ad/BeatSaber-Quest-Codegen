@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x192C680
     void EndInvoke(uint64_t& pnDevice, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetOutputDevice
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetOutputDevice*, "Valve.VR", "IVRSystem/_GetOutputDevice");

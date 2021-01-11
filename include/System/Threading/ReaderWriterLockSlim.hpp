@@ -369,8 +369,8 @@ namespace System::Threading {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Threading.ReaderWriterLockSlim
+  #pragma pack(pop)
   static check_size<sizeof(ReaderWriterLockSlim), 104 + sizeof(bool)> __System_Threading_ReaderWriterLockSlimSizeCheck;
   static_assert(sizeof(ReaderWriterLockSlim) == 0x69);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim*, "System.Threading", "ReaderWriterLockSlim");

@@ -50,7 +50,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0xFFFFFFFF
     UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
   }; // UnityEngine.ProBuilder.Poly2Tri.Triangulatable
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*, "UnityEngine.ProBuilder.Poly2Tri", "Triangulatable");

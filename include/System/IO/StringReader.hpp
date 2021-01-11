@@ -85,8 +85,8 @@ namespace System::IO {
     // Base method: System.String TextReader::ReadLine()
     ::Il2CppString* ReadLine();
   }; // System.IO.StringReader
+  #pragma pack(pop)
   static check_size<sizeof(StringReader), 36 + sizeof(int)> __System_IO_StringReaderSizeCheck;
   static_assert(sizeof(StringReader) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StringReader*, "System.IO", "StringReader");

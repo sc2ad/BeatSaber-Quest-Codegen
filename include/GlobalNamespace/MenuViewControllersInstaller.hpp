@@ -61,8 +61,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MenuViewControllersInstaller*, creationType>()));
     }
   }; // MenuViewControllersInstaller
+  #pragma pack(pop)
   static check_size<sizeof(MenuViewControllersInstaller), 40 + sizeof(GlobalNamespace::ServerPlayerListController*)> __GlobalNamespace_MenuViewControllersInstallerSizeCheck;
   static_assert(sizeof(MenuViewControllersInstaller) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuViewControllersInstaller*, "", "MenuViewControllersInstaller");

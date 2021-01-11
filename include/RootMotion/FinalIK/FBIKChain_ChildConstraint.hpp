@@ -126,8 +126,8 @@ namespace RootMotion::FinalIK {
     // Offset: 0x1754B70
     void Solve(RootMotion::FinalIK::IKSolverFullBody* solver);
   }; // RootMotion.FinalIK.FBIKChain/ChildConstraint
+  #pragma pack(pop)
   static check_size<sizeof(FBIKChain::ChildConstraint), 60 + sizeof(int)> __RootMotion_FinalIK_FBIKChain_ChildConstraintSizeCheck;
   static_assert(sizeof(FBIKChain::ChildConstraint) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain::ChildConstraint*, "RootMotion.FinalIK", "FBIKChain/ChildConstraint");

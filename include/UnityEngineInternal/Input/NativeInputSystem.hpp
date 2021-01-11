@@ -75,7 +75,7 @@ namespace UnityEngineInternal::Input {
     // Offset: 0x1A0B878
     static void set_hasDeviceDiscoveredCallback(bool value);
   }; // UnityEngineInternal.Input.NativeInputSystem
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeInputSystem*, "UnityEngineInternal.Input", "NativeInputSystem");

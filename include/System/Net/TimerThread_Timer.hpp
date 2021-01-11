@@ -58,8 +58,8 @@ namespace System::Net {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Net.TimerThread/Timer
+  #pragma pack(pop)
   static check_size<sizeof(TimerThread::Timer), 20 + sizeof(int)> __System_Net_TimerThread_TimerSizeCheck;
   static_assert(sizeof(TimerThread::Timer) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::Timer*, "System.Net", "TimerThread/Timer");

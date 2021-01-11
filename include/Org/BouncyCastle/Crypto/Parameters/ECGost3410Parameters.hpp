@@ -56,8 +56,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return THROW_UNLESS((::il2cpp_utils::New<ECGost3410Parameters*, creationType>(dp, publicKeyParamSet, digestParamSet, encryptionParamSet)));
     }
   }; // Org.BouncyCastle.Crypto.Parameters.ECGost3410Parameters
+  #pragma pack(pop)
   static check_size<sizeof(ECGost3410Parameters), 88 + sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*)> __Org_BouncyCastle_Crypto_Parameters_ECGost3410ParametersSizeCheck;
   static_assert(sizeof(ECGost3410Parameters) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters*, "Org.BouncyCastle.Crypto.Parameters", "ECGost3410Parameters");

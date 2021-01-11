@@ -93,8 +93,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameServersFilter*, creationType>()));
     }
   }; // GameServersFilter
+  #pragma pack(pop)
   static check_size<sizeof(GameServersFilter), 42 + sizeof(bool)> __GlobalNamespace_GameServersFilterSizeCheck;
   static_assert(sizeof(GameServersFilter) == 0x2B);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersFilter*, "", "GameServersFilter");

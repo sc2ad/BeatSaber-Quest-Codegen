@@ -108,8 +108,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::Bone*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolver/Bone
+  #pragma pack(pop)
   static check_size<sizeof(IKSolver::Bone), 112 + sizeof(bool)> __RootMotion_FinalIK_IKSolver_BoneSizeCheck;
   static_assert(sizeof(IKSolver::Bone) == 0x71);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Bone*, "RootMotion.FinalIK", "IKSolver/Bone");

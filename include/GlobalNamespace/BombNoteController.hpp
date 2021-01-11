@@ -120,8 +120,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BombNoteController*, creationType>()));
     }
   }; // BombNoteController
+  #pragma pack(pop)
   static check_size<sizeof(BombNoteController), 136 + sizeof(bool)> __GlobalNamespace_BombNoteControllerSizeCheck;
   static_assert(sizeof(BombNoteController) == 0x89);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombNoteController*, "", "BombNoteController");

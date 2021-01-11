@@ -84,8 +84,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ConditionalImageMaterialSwitcher*, creationType>()));
     }
   }; // ConditionalImageMaterialSwitcher
+  #pragma pack(pop)
   static check_size<sizeof(ConditionalImageMaterialSwitcher), 48 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_ConditionalImageMaterialSwitcherSizeCheck;
   static_assert(sizeof(ConditionalImageMaterialSwitcher) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalImageMaterialSwitcher*, "", "ConditionalImageMaterialSwitcher");

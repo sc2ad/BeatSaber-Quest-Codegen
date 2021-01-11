@@ -116,8 +116,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HSVPanelController*, creationType>()));
     }
   }; // HSVPanelController
+  #pragma pack(pop)
   static check_size<sizeof(HSVPanelController), 48 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_HSVPanelControllerSizeCheck;
   static_assert(sizeof(HSVPanelController) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HSVPanelController*, "", "HSVPanelController");

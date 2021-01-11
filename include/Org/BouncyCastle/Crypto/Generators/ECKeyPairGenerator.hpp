@@ -113,8 +113,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
       return THROW_UNLESS((::il2cpp_utils::New<ECKeyPairGenerator*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Generators.ECKeyPairGenerator
+  #pragma pack(pop)
   static check_size<sizeof(ECKeyPairGenerator), 40 + sizeof(Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Generators_ECKeyPairGeneratorSizeCheck;
   static_assert(sizeof(ECKeyPairGenerator) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator*, "Org.BouncyCastle.Crypto.Generators", "ECKeyPairGenerator");

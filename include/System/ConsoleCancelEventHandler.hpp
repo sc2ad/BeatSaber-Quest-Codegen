@@ -49,6 +49,6 @@ namespace System {
     // Offset: 0x15329D8
     void EndInvoke(System::IAsyncResult* result);
   }; // System.ConsoleCancelEventHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleCancelEventHandler*, "System", "ConsoleCancelEventHandler");

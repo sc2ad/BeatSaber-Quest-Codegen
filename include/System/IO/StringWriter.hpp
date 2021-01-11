@@ -124,8 +124,8 @@ namespace System::IO {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.IO.StringWriter
+  #pragma pack(pop)
   static check_size<sizeof(StringWriter), 48 + sizeof(bool)> __System_IO_StringWriterSizeCheck;
   static_assert(sizeof(StringWriter) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StringWriter*, "System.IO", "StringWriter");

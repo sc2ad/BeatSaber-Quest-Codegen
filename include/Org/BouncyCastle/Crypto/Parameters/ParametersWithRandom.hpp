@@ -47,9 +47,9 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1048F38
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithRandom
+  #pragma pack(pop)
   static check_size<sizeof(ParametersWithRandom), 24 + sizeof(Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Parameters_ParametersWithRandomSizeCheck;
   static_assert(sizeof(ParametersWithRandom) == 0x20);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom*, "Org.BouncyCastle.Crypto.Parameters", "ParametersWithRandom");

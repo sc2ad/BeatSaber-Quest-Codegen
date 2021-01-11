@@ -126,8 +126,8 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Diagnostics.Tracing.ActivityTracker/ActivityInfo
+  #pragma pack(pop)
   static check_size<sizeof(ActivityTracker::ActivityInfo), 88 + sizeof(System::Guid)> __System_Diagnostics_Tracing_ActivityTracker_ActivityInfoSizeCheck;
   static_assert(sizeof(ActivityTracker::ActivityInfo) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ActivityTracker::ActivityInfo*, "System.Diagnostics.Tracing", "ActivityTracker/ActivityInfo");

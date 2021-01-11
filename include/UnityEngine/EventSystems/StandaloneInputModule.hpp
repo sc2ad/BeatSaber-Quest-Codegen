@@ -257,8 +257,8 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void BaseInputModule::Process()
     void Process();
   }; // UnityEngine.EventSystems.StandaloneInputModule
+  #pragma pack(pop)
   static check_size<sizeof(StandaloneInputModule), 176 + sizeof(bool)> __UnityEngine_EventSystems_StandaloneInputModuleSizeCheck;
   static_assert(sizeof(StandaloneInputModule) == 0xB1);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::StandaloneInputModule*, "UnityEngine.EventSystems", "StandaloneInputModule");

@@ -18,7 +18,7 @@ namespace System::Collections {
     // Creating value type constructor for type: HashtableDebugView
     HashtableDebugView() noexcept {}
   }; // System.Collections.Hashtable/HashtableDebugView
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::HashtableDebugView*, "System.Collections", "Hashtable/HashtableDebugView");

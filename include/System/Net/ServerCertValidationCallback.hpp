@@ -71,8 +71,8 @@ namespace System::Net {
     // Offset: 0x11A2C10
     bool Invoke(::Il2CppObject* request, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Net::Security::SslPolicyErrors sslPolicyErrors);
   }; // System.Net.ServerCertValidationCallback
+  #pragma pack(pop)
   static check_size<sizeof(ServerCertValidationCallback), 24 + sizeof(System::Threading::ExecutionContext*)> __System_Net_ServerCertValidationCallbackSizeCheck;
   static_assert(sizeof(ServerCertValidationCallback) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServerCertValidationCallback*, "System.Net", "ServerCertValidationCallback");

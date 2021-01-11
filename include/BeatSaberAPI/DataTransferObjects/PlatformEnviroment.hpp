@@ -50,9 +50,9 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Set static field: static public BeatSaberAPI.DataTransferObjects.PlatformEnviroment Production
     static void _set_Production(BeatSaberAPI::DataTransferObjects::PlatformEnviroment value);
   }; // BeatSaberAPI.DataTransferObjects.PlatformEnviroment
+  #pragma pack(pop)
   static check_size<sizeof(PlatformEnviroment), 0 + sizeof(uint8_t)> __BeatSaberAPI_DataTransferObjects_PlatformEnviromentSizeCheck;
   static_assert(sizeof(PlatformEnviroment) == 0x1);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::PlatformEnviroment, "BeatSaberAPI.DataTransferObjects", "PlatformEnviroment");

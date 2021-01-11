@@ -21,7 +21,7 @@ namespace Zenject {
       return *reinterpret_cast<Zenject::IValidatable*>(this);
     }
   }; // Zenject.IPlaceholderFactory
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IPlaceholderFactory*, "Zenject", "IPlaceholderFactory");

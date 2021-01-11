@@ -83,8 +83,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_TextElement_Legacy*, creationType>()));
     }
   }; // TMPro.TMP_TextElement_Legacy
+  #pragma pack(pop)
   static check_size<sizeof(TMP_TextElement_Legacy), 48 + sizeof(float)> __TMPro_TMP_TextElement_LegacySizeCheck;
   static_assert(sizeof(TMP_TextElement_Legacy) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement_Legacy*, "TMPro", "TMP_TextElement_Legacy");

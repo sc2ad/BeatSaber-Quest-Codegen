@@ -173,8 +173,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // KawaseBloomMainEffectSO
+  #pragma pack(pop)
   static check_size<sizeof(KawaseBloomMainEffectSO), 88 + sizeof(UnityEngine::Material*)> __GlobalNamespace_KawaseBloomMainEffectSOSizeCheck;
   static_assert(sizeof(KawaseBloomMainEffectSO) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBloomMainEffectSO*, "", "KawaseBloomMainEffectSO");

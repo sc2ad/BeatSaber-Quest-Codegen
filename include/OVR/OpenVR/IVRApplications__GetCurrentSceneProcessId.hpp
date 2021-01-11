@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x11FA378
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_GetCurrentSceneProcessId
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRApplications::_GetCurrentSceneProcessId*, "OVR.OpenVR", "IVRApplications/_GetCurrentSceneProcessId");

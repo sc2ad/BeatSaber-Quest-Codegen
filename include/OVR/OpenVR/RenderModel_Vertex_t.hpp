@@ -48,9 +48,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.RenderModel_Vertex_t
+  #pragma pack(pop)
   static check_size<sizeof(RenderModel_Vertex_t), 28 + sizeof(float)> __OVR_OpenVR_RenderModel_Vertex_tSizeCheck;
   static_assert(sizeof(RenderModel_Vertex_t) == 0x20);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_Vertex_t, "OVR.OpenVR", "RenderModel_Vertex_t");

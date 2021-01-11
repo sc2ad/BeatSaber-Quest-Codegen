@@ -56,9 +56,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.AvatarIKGoal RightHand
     static void _set_RightHand(UnityEngine::AvatarIKGoal value);
   }; // UnityEngine.AvatarIKGoal
+  #pragma pack(pop)
   static check_size<sizeof(AvatarIKGoal), 0 + sizeof(int)> __UnityEngine_AvatarIKGoalSizeCheck;
   static_assert(sizeof(AvatarIKGoal) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AvatarIKGoal, "UnityEngine", "AvatarIKGoal");

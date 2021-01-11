@@ -110,8 +110,8 @@ namespace System::Xml {
     // Base method: System.Void HtmlUtf8RawTextWriter::Init(System.Xml.XmlWriterSettings settings)
     void Init(System::Xml::XmlWriterSettings* settings);
   }; // System.Xml.HtmlUtf8RawTextWriterIndent
+  #pragma pack(pop)
   static check_size<sizeof(HtmlUtf8RawTextWriterIndent), 200 + sizeof(bool)> __System_Xml_HtmlUtf8RawTextWriterIndentSizeCheck;
   static_assert(sizeof(HtmlUtf8RawTextWriterIndent) == 0xC9);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlUtf8RawTextWriterIndent*, "System.Xml", "HtmlUtf8RawTextWriterIndent");

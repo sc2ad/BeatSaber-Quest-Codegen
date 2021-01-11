@@ -133,6 +133,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.ProBuilder.Vector3Mask
+  #pragma pack(pop)
   static check_size<sizeof(Vector3Mask), 0 + sizeof(uint8_t)> __UnityEngine_ProBuilder_Vector3MaskSizeCheck;
   static_assert(sizeof(Vector3Mask) == 0x1);
   // static public UnityEngine.ProBuilder.Vector3Mask op_BitwiseOr(UnityEngine.ProBuilder.Vector3Mask left, UnityEngine.ProBuilder.Vector3Mask right)
@@ -160,5 +161,4 @@ namespace UnityEngine::ProBuilder {
   // Offset: 0x1950CA0
   bool operator !=(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vector3Mask, "UnityEngine.ProBuilder", "Vector3Mask");

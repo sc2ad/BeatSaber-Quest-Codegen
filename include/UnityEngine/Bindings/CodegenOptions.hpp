@@ -51,9 +51,9 @@ namespace UnityEngine::Bindings {
     // Set static field: static public UnityEngine.Bindings.CodegenOptions Force
     static void _set_Force(UnityEngine::Bindings::CodegenOptions value);
   }; // UnityEngine.Bindings.CodegenOptions
+  #pragma pack(pop)
   static check_size<sizeof(CodegenOptions), 0 + sizeof(int)> __UnityEngine_Bindings_CodegenOptionsSizeCheck;
   static_assert(sizeof(CodegenOptions) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::CodegenOptions, "UnityEngine.Bindings", "CodegenOptions");

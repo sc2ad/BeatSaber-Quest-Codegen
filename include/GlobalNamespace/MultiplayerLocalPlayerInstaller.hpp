@@ -74,8 +74,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalPlayerInstaller*, creationType>()));
     }
   }; // MultiplayerLocalPlayerInstaller
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalPlayerInstaller), 48 + sizeof(GlobalNamespace::MultiplayerPlayerStartState)> __GlobalNamespace_MultiplayerLocalPlayerInstallerSizeCheck;
   static_assert(sizeof(MultiplayerLocalPlayerInstaller) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerInstaller*, "", "MultiplayerLocalPlayerInstaller");

@@ -57,8 +57,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::ColorSchemesSettings*, creationType>(overrideDefaultColors, selectedColorSchemeId, colorSchemes)));
     }
   }; // PlayerSaveData/ColorSchemesSettings
+  #pragma pack(pop)
   static check_size<sizeof(PlayerSaveData::ColorSchemesSettings), 32 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>*)> __GlobalNamespace_PlayerSaveData_ColorSchemesSettingsSizeCheck;
   static_assert(sizeof(PlayerSaveData::ColorSchemesSettings) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::ColorSchemesSettings*, "", "PlayerSaveData/ColorSchemesSettings");

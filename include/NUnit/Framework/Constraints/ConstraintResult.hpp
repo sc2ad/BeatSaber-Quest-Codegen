@@ -89,8 +89,8 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13DCB20
     void WriteActualValueTo(NUnit::Framework::Constraints::MessageWriter* writer);
   }; // NUnit.Framework.Constraints.ConstraintResult
+  #pragma pack(pop)
   static check_size<sizeof(ConstraintResult), 32 + sizeof(NUnit::Framework::Constraints::ConstraintStatus)> __NUnit_Framework_Constraints_ConstraintResultSizeCheck;
   static_assert(sizeof(ConstraintResult) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintResult*, "NUnit.Framework.Constraints", "ConstraintResult");

@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1869F38
     uint64_t EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetGamepadFocusOverlay
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetGamepadFocusOverlay*, "OVR.OpenVR", "IVROverlay/_GetGamepadFocusOverlay");

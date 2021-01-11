@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x185D5D4
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_IsFullscreen
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_IsFullscreen*, "OVR.OpenVR", "IVRCompositor/_IsFullscreen");

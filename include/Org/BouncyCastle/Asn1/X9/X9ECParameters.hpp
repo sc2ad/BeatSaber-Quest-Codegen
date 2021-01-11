@@ -130,8 +130,8 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.X9.X9ECParameters
+  #pragma pack(pop)
   static check_size<sizeof(X9ECParameters), 56 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Asn1_X9_X9ECParametersSizeCheck;
   static_assert(sizeof(X9ECParameters) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9ECParameters*, "Org.BouncyCastle.Asn1.X9", "X9ECParameters");

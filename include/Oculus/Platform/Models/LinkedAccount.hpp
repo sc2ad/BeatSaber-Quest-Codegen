@@ -51,8 +51,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<LinkedAccount*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.LinkedAccount
+  #pragma pack(pop)
   static check_size<sizeof(LinkedAccount), 32 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_LinkedAccountSizeCheck;
   static_assert(sizeof(LinkedAccount) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LinkedAccount*, "Oculus.Platform.Models", "LinkedAccount");

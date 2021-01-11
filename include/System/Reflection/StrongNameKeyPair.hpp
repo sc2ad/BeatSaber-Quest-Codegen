@@ -85,8 +85,8 @@ namespace System::Reflection {
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
   }; // System.Reflection.StrongNameKeyPair
+  #pragma pack(pop)
   static check_size<sizeof(StrongNameKeyPair), 40 + sizeof(::Array<uint8_t>*)> __System_Reflection_StrongNameKeyPairSizeCheck;
   static_assert(sizeof(StrongNameKeyPair) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::StrongNameKeyPair*, "System.Reflection", "StrongNameKeyPair");

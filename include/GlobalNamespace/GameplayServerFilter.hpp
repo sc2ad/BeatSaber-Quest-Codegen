@@ -190,8 +190,8 @@ namespace GlobalNamespace {
     // Maps to method: CreateFromSerializedData
     GlobalNamespace::GameplayServerFilter LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
   }; // GameplayServerFilter
+  #pragma pack(pop)
   static check_size<sizeof(GameplayServerFilter), 24 + sizeof(GlobalNamespace::SongPackMask)> __GlobalNamespace_GameplayServerFilterSizeCheck;
   static_assert(sizeof(GameplayServerFilter) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerFilter, "", "GameplayServerFilter");

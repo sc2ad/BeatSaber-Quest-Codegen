@@ -75,8 +75,8 @@ namespace UnityEngine::TestTools::TestRunner {
       return THROW_UNLESS((::il2cpp_utils::New<PlaymodeTestsControllerSettings*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.PlaymodeTestsControllerSettings
+  #pragma pack(pop)
   static check_size<sizeof(PlaymodeTestsControllerSettings), 40 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_TestRunner_PlaymodeTestsControllerSettingsSizeCheck;
   static_assert(sizeof(PlaymodeTestsControllerSettings) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsControllerSettings");

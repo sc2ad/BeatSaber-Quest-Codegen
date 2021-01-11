@@ -111,6 +111,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.Slider/Direction TopToBottom
       static void _set_TopToBottom(UnityEngine::UI::Slider::Direction value);
     }; // UnityEngine.UI.Slider/Direction
+    #pragma pack(pop)
     static check_size<sizeof(Slider::Direction), 0 + sizeof(int)> __UnityEngine_UI_Slider_DirectionSizeCheck;
     static_assert(sizeof(Slider::Direction) == 0x4);
     // private UnityEngine.RectTransform m_FillRect
@@ -415,9 +416,9 @@ namespace UnityEngine::UI {
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
   }; // UnityEngine.UI.Slider
+  #pragma pack(pop)
   static check_size<sizeof(Slider), 337 + sizeof(bool)> __UnityEngine_UI_SliderSizeCheck;
   static_assert(sizeof(Slider) == 0x152);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider*, "UnityEngine.UI", "Slider");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider::Direction, "UnityEngine.UI", "Slider/Direction");

@@ -82,8 +82,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<GUISettings*, creationType>()));
     }
   }; // UnityEngine.GUISettings
+  #pragma pack(pop)
   static check_size<sizeof(GUISettings), 40 + sizeof(UnityEngine::Color)> __UnityEngine_GUISettingsSizeCheck;
   static_assert(sizeof(GUISettings) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISettings*, "UnityEngine", "GUISettings");

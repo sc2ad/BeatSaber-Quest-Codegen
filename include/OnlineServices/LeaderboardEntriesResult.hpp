@@ -77,8 +77,8 @@ namespace OnlineServices {
     // Offset: 0xEFDEE0
     static OnlineServices::LeaderboardEntriesResult* FromGetLeaderboardEntriesResult(OnlineServices::GetLeaderboardEntriesResult getLeaderboardEntriesResult);
   }; // OnlineServices.LeaderboardEntriesResult
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardEntriesResult), 40 + sizeof(int)> __OnlineServices_LeaderboardEntriesResultSizeCheck;
   static_assert(sizeof(LeaderboardEntriesResult) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LeaderboardEntriesResult*, "OnlineServices", "LeaderboardEntriesResult");

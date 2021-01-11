@@ -44,9 +44,9 @@ namespace GlobalNamespace {
     // Set static field: static public SaberType SaberB
     static void _set_SaberB(GlobalNamespace::SaberType value);
   }; // SaberType
+  #pragma pack(pop)
   static check_size<sizeof(SaberType), 0 + sizeof(int)> __GlobalNamespace_SaberTypeSizeCheck;
   static_assert(sizeof(SaberType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberType, "", "SaberType");

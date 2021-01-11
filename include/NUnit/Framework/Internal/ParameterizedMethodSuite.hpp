@@ -53,8 +53,8 @@ namespace NUnit::Framework::Internal {
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();
   }; // NUnit.Framework.Internal.ParameterizedMethodSuite
+  #pragma pack(pop)
   static check_size<sizeof(ParameterizedMethodSuite), 137 + sizeof(bool)> __NUnit_Framework_Internal_ParameterizedMethodSuiteSizeCheck;
   static_assert(sizeof(ParameterizedMethodSuite) == 0x8A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ParameterizedMethodSuite*, "NUnit.Framework.Internal", "ParameterizedMethodSuite");

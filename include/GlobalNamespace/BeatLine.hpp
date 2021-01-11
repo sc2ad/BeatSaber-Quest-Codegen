@@ -78,6 +78,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // BeatLine/HighlightData
+    #pragma pack(pop)
     static check_size<sizeof(BeatLine::HighlightData), 8 + sizeof(float)> __GlobalNamespace_BeatLine_HighlightDataSizeCheck;
     static_assert(sizeof(BeatLine::HighlightData) == 0xC);
     // private TubeBloomPrePassLight _tubeBloomPrePassLight
@@ -165,9 +166,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatLine*, creationType>()));
     }
   }; // BeatLine
+  #pragma pack(pop)
   static check_size<sizeof(BeatLine), 104 + sizeof(float)> __GlobalNamespace_BeatLineSizeCheck;
   static_assert(sizeof(BeatLine) == 0x6C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine*, "", "BeatLine");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine::HighlightData, "", "BeatLine/HighlightData");

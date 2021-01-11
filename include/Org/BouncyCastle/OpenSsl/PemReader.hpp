@@ -114,8 +114,8 @@ namespace Org::BouncyCastle::OpenSsl {
       return THROW_UNLESS((::il2cpp_utils::New<PemReader*, creationType>(reader)));
     }
   }; // Org.BouncyCastle.OpenSsl.PemReader
+  #pragma pack(pop)
   static check_size<sizeof(PemReader), 24 + sizeof(Org::BouncyCastle::OpenSsl::IPasswordFinder*)> __Org_BouncyCastle_OpenSsl_PemReaderSizeCheck;
   static_assert(sizeof(PemReader) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::PemReader*, "Org.BouncyCastle.OpenSsl", "PemReader");

@@ -103,8 +103,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectSpawnCenter*, creationType>()));
     }
   }; // BeatmapObjectSpawnCenter
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectSpawnCenter), 52 + sizeof(float)> __GlobalNamespace_BeatmapObjectSpawnCenterSizeCheck;
   static_assert(sizeof(BeatmapObjectSpawnCenter) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnCenter*, "", "BeatmapObjectSpawnCenter");

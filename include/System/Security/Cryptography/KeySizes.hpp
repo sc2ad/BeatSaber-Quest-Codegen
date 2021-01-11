@@ -61,8 +61,8 @@ namespace System::Security::Cryptography {
     // Offset: 0x1698830
     static bool IsLegalKeySize(::Array<System::Security::Cryptography::KeySizes*>* legalKeys, int size);
   }; // System.Security.Cryptography.KeySizes
+  #pragma pack(pop)
   static check_size<sizeof(KeySizes), 24 + sizeof(int)> __System_Security_Cryptography_KeySizesSizeCheck;
   static_assert(sizeof(KeySizes) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::KeySizes*, "System.Security.Cryptography", "KeySizes");

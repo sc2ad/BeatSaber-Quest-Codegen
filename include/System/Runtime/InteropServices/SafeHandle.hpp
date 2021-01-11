@@ -128,8 +128,8 @@ namespace System::Runtime::InteropServices {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Runtime.InteropServices.SafeHandle
+  #pragma pack(pop)
   static check_size<sizeof(SafeHandle), 29 + sizeof(bool)> __System_Runtime_InteropServices_SafeHandleSizeCheck;
   static_assert(sizeof(SafeHandle) == 0x1E);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeHandle*, "System.Runtime.InteropServices", "SafeHandle");

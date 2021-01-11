@@ -198,8 +198,8 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x15212B4
     System::Globalization::SortKey* GetResult();
   }; // Mono.Globalization.Unicode.SortKeyBuffer
+  #pragma pack(pop)
   static check_size<sizeof(SortKeyBuffer), 130 + sizeof(bool)> __Mono_Globalization_Unicode_SortKeyBufferSizeCheck;
   static_assert(sizeof(SortKeyBuffer) == 0x83);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SortKeyBuffer*, "Mono.Globalization.Unicode", "SortKeyBuffer");

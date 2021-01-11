@@ -151,8 +151,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerSongTimeSyncController*, creationType>()));
     }
   }; // MultiplayerConnectedPlayerSongTimeSyncController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerSongTimeSyncController), 76 + sizeof(bool)> __GlobalNamespace_MultiplayerConnectedPlayerSongTimeSyncControllerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerSongTimeSyncController) == 0x4D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*, "", "MultiplayerConnectedPlayerSongTimeSyncController");

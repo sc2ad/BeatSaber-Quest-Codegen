@@ -295,8 +295,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteController*, creationType>()));
     }
   }; // NoteController
+  #pragma pack(pop)
   static check_size<sizeof(NoteController), 112 + sizeof(bool)> __GlobalNamespace_NoteControllerSizeCheck;
   static_assert(sizeof(NoteController) == 0x71);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteController*, "", "NoteController");

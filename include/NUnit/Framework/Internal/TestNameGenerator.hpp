@@ -94,8 +94,8 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator*, creationType>()));
     }
   }; // NUnit.Framework.Internal.TestNameGenerator
+  #pragma pack(pop)
   static check_size<sizeof(TestNameGenerator), 24 + sizeof(System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>*)> __NUnit_Framework_Internal_TestNameGeneratorSizeCheck;
   static_assert(sizeof(TestNameGenerator) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator*, "NUnit.Framework.Internal", "TestNameGenerator");

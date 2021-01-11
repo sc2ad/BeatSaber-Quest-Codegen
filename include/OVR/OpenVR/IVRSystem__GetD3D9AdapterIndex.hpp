@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1911F14
     int EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetD3D9AdapterIndex
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetD3D9AdapterIndex*, "OVR.OpenVR", "IVRSystem/_GetD3D9AdapterIndex");

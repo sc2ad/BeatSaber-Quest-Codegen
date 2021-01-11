@@ -119,8 +119,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelScenesTransitionSetupDataSO*, creationType>()));
     }
   }; // StandardLevelScenesTransitionSetupDataSO
+  #pragma pack(pop)
   static check_size<sizeof(StandardLevelScenesTransitionSetupDataSO), 72 + sizeof(GlobalNamespace::IDifficultyBeatmap*)> __GlobalNamespace_StandardLevelScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(StandardLevelScenesTransitionSetupDataSO) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, "", "StandardLevelScenesTransitionSetupDataSO");

@@ -22,7 +22,7 @@ namespace System::ComponentModel::Design {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
   }; // System.ComponentModel.Design.IDesigner
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::IDesigner*, "System.ComponentModel.Design", "IDesigner");

@@ -43,8 +43,8 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1163A38
     ::Il2CppString* get_AssemblyFullName();
   }; // System.Runtime.CompilerServices.TypeForwardedFromAttribute
+  #pragma pack(pop)
   static check_size<sizeof(TypeForwardedFromAttribute), 16 + sizeof(::Il2CppString*)> __System_Runtime_CompilerServices_TypeForwardedFromAttributeSizeCheck;
   static_assert(sizeof(TypeForwardedFromAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TypeForwardedFromAttribute*, "System.Runtime.CompilerServices", "TypeForwardedFromAttribute");

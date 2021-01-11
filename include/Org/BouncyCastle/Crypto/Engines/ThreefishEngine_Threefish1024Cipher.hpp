@@ -43,6 +43,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void ThreefishCipher::DecryptBlock(System.UInt64[] block, System.UInt64[] state)
     void DecryptBlock(::Array<uint64_t>* block, ::Array<uint64_t>* state);
   }; // Org.BouncyCastle.Crypto.Engines.ThreefishEngine/Threefish1024Cipher
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish1024Cipher*, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/Threefish1024Cipher");

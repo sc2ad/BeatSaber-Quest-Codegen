@@ -64,8 +64,8 @@ namespace Zenject::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionTypeAnalyzer::$$c__DisplayClass7_0*, creationType>()));
     }
   }; // Zenject.Internal.ReflectionTypeAnalyzer/<>c__DisplayClass7_0
+  #pragma pack(pop)
   static check_size<sizeof(ReflectionTypeAnalyzer::$$c__DisplayClass7_0), 24 + sizeof(System::Func_2<System::Reflection::ParameterInfo*, Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*)> __Zenject_Internal_ReflectionTypeAnalyzer_$$c__DisplayClass7_0SizeCheck;
   static_assert(sizeof(ReflectionTypeAnalyzer::$$c__DisplayClass7_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass7_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass7_0");

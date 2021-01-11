@@ -77,8 +77,8 @@ namespace System::Runtime::Remoting::Messaging {
       return THROW_UNLESS((::il2cpp_utils::New<IllogicalCallContext*, creationType>()));
     }
   }; // System.Runtime.Remoting.Messaging.IllogicalCallContext
+  #pragma pack(pop)
   static check_size<sizeof(IllogicalCallContext), 24 + sizeof(::Il2CppObject*)> __System_Runtime_Remoting_Messaging_IllogicalCallContextSizeCheck;
   static_assert(sizeof(IllogicalCallContext) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IllogicalCallContext*, "System.Runtime.Remoting.Messaging", "IllogicalCallContext");

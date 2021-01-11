@@ -61,8 +61,8 @@ namespace UnityEngine::TestTools {
     // Offset: 0x118FE0C
     System::Collections::IEnumerator* Execute();
   }; // UnityEngine.TestTools.TestEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(TestEnumerator), 16 + sizeof(NUnit::Framework::Internal::ITestExecutionContext*)> __UnityEngine_TestTools_TestEnumeratorSizeCheck;
   static_assert(sizeof(TestEnumerator) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestEnumerator*, "UnityEngine.TestTools", "TestEnumerator");

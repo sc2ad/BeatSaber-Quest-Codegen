@@ -123,8 +123,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<RotationLimit*, creationType>()));
     }
   }; // RootMotion.FinalIK.RotationLimit
+  #pragma pack(pop)
   static check_size<sizeof(RotationLimit), 55 + sizeof(bool)> __RootMotion_FinalIK_RotationLimitSizeCheck;
   static_assert(sizeof(RotationLimit) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimit*, "RootMotion.FinalIK", "RotationLimit");

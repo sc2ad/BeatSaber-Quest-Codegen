@@ -112,8 +112,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MenuLightsManager*, creationType>()));
     }
   }; // MenuLightsManager
+  #pragma pack(pop)
   static check_size<sizeof(MenuLightsManager), 48 + sizeof(GlobalNamespace::MenuLightsPresetSO*)> __GlobalNamespace_MenuLightsManagerSizeCheck;
   static_assert(sizeof(MenuLightsManager) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsManager*, "", "MenuLightsManager");

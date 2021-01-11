@@ -56,9 +56,9 @@ namespace GlobalNamespace {
     // Set static field: static public EntitlementsStatus Ok
     static void _set_Ok(GlobalNamespace::EntitlementsStatus value);
   }; // EntitlementsStatus
+  #pragma pack(pop)
   static check_size<sizeof(EntitlementsStatus), 0 + sizeof(int)> __GlobalNamespace_EntitlementsStatusSizeCheck;
   static_assert(sizeof(EntitlementsStatus) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EntitlementsStatus, "", "EntitlementsStatus");

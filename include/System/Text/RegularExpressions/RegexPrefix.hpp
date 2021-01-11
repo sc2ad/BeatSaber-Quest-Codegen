@@ -55,8 +55,8 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x154F1B0
     static void _cctor();
   }; // System.Text.RegularExpressions.RegexPrefix
+  #pragma pack(pop)
   static check_size<sizeof(RegexPrefix), 24 + sizeof(bool)> __System_Text_RegularExpressions_RegexPrefixSizeCheck;
   static_assert(sizeof(RegexPrefix) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexPrefix*, "System.Text.RegularExpressions", "RegexPrefix");

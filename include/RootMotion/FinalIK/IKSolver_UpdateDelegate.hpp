@@ -49,6 +49,6 @@ namespace RootMotion::FinalIK {
     // Offset: 0x16DF34C
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.FinalIK.IKSolver/UpdateDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::UpdateDelegate*, "RootMotion.FinalIK", "IKSolver/UpdateDelegate");

@@ -99,8 +99,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<EventSystemListener*, creationType>()));
     }
   }; // HMUI.EventSystemListener
+  #pragma pack(pop)
   static check_size<sizeof(EventSystemListener), 32 + sizeof(System::Action_1<UnityEngine::EventSystems::PointerEventData*>*)> __HMUI_EventSystemListenerSizeCheck;
   static_assert(sizeof(EventSystemListener) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::EventSystemListener*, "HMUI", "EventSystemListener");

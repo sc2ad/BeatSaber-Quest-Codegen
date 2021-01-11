@@ -239,8 +239,8 @@ namespace Mono::Security::X509 {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
   }; // Mono.Security.X509.PKCS12
+  #pragma pack(pop)
   static check_size<sizeof(PKCS12), 64 + sizeof(System::Security::Cryptography::RandomNumberGenerator*)> __Mono_Security_X509_PKCS12SizeCheck;
   static_assert(sizeof(PKCS12) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::PKCS12*, "Mono.Security.X509", "PKCS12");

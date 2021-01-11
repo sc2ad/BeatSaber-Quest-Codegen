@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x136D3B0
     bool EndInvoke(Valve::VR::VRControllerState_t_Packed& pControllerState, System::IAsyncResult* result);
   }; // Valve.VR.CVRSystem/_GetControllerStatePacked
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSystem::_GetControllerStatePacked*, "Valve.VR", "CVRSystem/_GetControllerStatePacked");

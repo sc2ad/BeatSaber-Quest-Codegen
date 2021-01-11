@@ -48,6 +48,6 @@ namespace System::Threading {
     // Offset: 0x1D1F650
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Threading.WaitCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::WaitCallback*, "System.Threading", "WaitCallback");

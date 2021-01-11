@@ -368,9 +368,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.HumanBodyBones LastBone
     static void _set_LastBone(UnityEngine::HumanBodyBones value);
   }; // UnityEngine.HumanBodyBones
+  #pragma pack(pop)
   static check_size<sizeof(HumanBodyBones), 0 + sizeof(int)> __UnityEngine_HumanBodyBonesSizeCheck;
   static_assert(sizeof(HumanBodyBones) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanBodyBones, "UnityEngine", "HumanBodyBones");

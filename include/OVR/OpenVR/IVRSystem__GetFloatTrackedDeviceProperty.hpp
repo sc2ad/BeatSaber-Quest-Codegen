@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1913084
     float EndInvoke(OVR::OpenVR::ETrackedPropertyError& pError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetFloatTrackedDeviceProperty
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetFloatTrackedDeviceProperty*, "OVR.OpenVR", "IVRSystem/_GetFloatTrackedDeviceProperty");

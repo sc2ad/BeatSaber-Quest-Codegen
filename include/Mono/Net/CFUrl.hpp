@@ -37,6 +37,6 @@ namespace Mono::Net {
       return THROW_UNLESS((::il2cpp_utils::New<CFUrl*, creationType>(handle, own)));
     }
   }; // Mono.Net.CFUrl
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFUrl*, "Mono.Net", "CFUrl");

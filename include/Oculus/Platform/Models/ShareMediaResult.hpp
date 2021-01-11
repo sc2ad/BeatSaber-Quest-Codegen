@@ -41,8 +41,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<ShareMediaResult*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.ShareMediaResult
+  #pragma pack(pop)
   static check_size<sizeof(ShareMediaResult), 16 + sizeof(Oculus::Platform::ShareMediaStatus)> __Oculus_Platform_Models_ShareMediaResultSizeCheck;
   static_assert(sizeof(ShareMediaResult) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ShareMediaResult*, "Oculus.Platform.Models", "ShareMediaResult");

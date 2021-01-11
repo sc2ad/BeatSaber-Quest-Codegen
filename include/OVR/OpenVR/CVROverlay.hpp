@@ -341,8 +341,8 @@ namespace OVR::OpenVR {
     // Offset: 0x11F6864
     void CloseMessageOverlay();
   }; // OVR.OpenVR.CVROverlay
+  #pragma pack(pop)
   static check_size<sizeof(CVROverlay), 16 + sizeof(OVR::OpenVR::IVROverlay)> __OVR_OpenVR_CVROverlaySizeCheck;
   static_assert(sizeof(CVROverlay) == 0x2A0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVROverlay*, "OVR.OpenVR", "CVROverlay");

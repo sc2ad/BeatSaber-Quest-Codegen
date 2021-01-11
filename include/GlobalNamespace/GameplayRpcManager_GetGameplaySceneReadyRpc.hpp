@@ -34,6 +34,6 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameplayRpcManager::GetGameplaySceneReadyRpc*, creationType>()));
     }
   }; // GameplayRpcManager/GetGameplaySceneReadyRpc
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::GetGameplaySceneReadyRpc*, "", "GameplayRpcManager/GetGameplaySceneReadyRpc");

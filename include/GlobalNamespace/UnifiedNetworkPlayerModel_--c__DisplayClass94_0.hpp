@@ -67,8 +67,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*, creationType>()));
     }
   }; // UnifiedNetworkPlayerModel/<>c__DisplayClass94_0
+  #pragma pack(pop)
   static check_size<sizeof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0), 24 + sizeof(GlobalNamespace::UnifiedNetworkPlayerModel*)> __GlobalNamespace_UnifiedNetworkPlayerModel_$$c__DisplayClass94_0SizeCheck;
   static_assert(sizeof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*, "", "UnifiedNetworkPlayerModel/<>c__DisplayClass94_0");

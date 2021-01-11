@@ -59,6 +59,6 @@ namespace GlobalNamespace {
     // Offset: 0x1A7B3A0
     UnityEngine::Vector2 EndInvoke(System::IAsyncResult* result);
   }; // BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback*, "", "BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback");

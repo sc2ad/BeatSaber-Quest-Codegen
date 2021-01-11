@@ -59,6 +59,6 @@ namespace LiteNetLib {
     // Offset: 0x1DC3CC4
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/OnNetworkError
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener::OnNetworkError*, "LiteNetLib", "EventBasedNetListener/OnNetworkError");

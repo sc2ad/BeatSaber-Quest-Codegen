@@ -47,8 +47,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEditorSceneSetupData*, creationType>(levelDirPath, levelAssetPath)));
     }
   }; // BeatmapEditorSceneSetupData
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapEditorSceneSetupData), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_BeatmapEditorSceneSetupDataSizeCheck;
   static_assert(sizeof(BeatmapEditorSceneSetupData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEditorSceneSetupData*, "", "BeatmapEditorSceneSetupData");

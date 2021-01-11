@@ -76,6 +76,6 @@ namespace System::Security::Cryptography {
     // Base method: System.Void SymmetricAlgorithm::set_Key(System.Byte[] value)
     void set_Key(::Array<uint8_t>* value);
   }; // System.Security.Cryptography.DES
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DES*, "System.Security.Cryptography", "DES");

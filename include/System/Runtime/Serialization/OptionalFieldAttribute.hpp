@@ -47,8 +47,8 @@ namespace System::Runtime::Serialization {
       return THROW_UNLESS((::il2cpp_utils::New<OptionalFieldAttribute*, creationType>()));
     }
   }; // System.Runtime.Serialization.OptionalFieldAttribute
+  #pragma pack(pop)
   static check_size<sizeof(OptionalFieldAttribute), 16 + sizeof(int)> __System_Runtime_Serialization_OptionalFieldAttributeSizeCheck;
   static_assert(sizeof(OptionalFieldAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::OptionalFieldAttribute*, "System.Runtime.Serialization", "OptionalFieldAttribute");

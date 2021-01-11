@@ -56,8 +56,8 @@ namespace GlobalNamespace {
     // Offset: 0x1A0D570
     bool HasKeyword(::Il2CppString* keyword);
   }; // EnvironmentKeywords
+  #pragma pack(pop)
   static check_size<sizeof(EnvironmentKeywords), 24 + sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*)> __GlobalNamespace_EnvironmentKeywordsSizeCheck;
   static_assert(sizeof(EnvironmentKeywords) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentKeywords*, "", "EnvironmentKeywords");

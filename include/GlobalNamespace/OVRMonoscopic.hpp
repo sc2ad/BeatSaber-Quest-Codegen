@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRMonoscopic*, creationType>()));
     }
   }; // OVRMonoscopic
+  #pragma pack(pop)
   static check_size<sizeof(OVRMonoscopic), 28 + sizeof(bool)> __GlobalNamespace_OVRMonoscopicSizeCheck;
   static_assert(sizeof(OVRMonoscopic) == 0x1D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMonoscopic*, "", "OVRMonoscopic");

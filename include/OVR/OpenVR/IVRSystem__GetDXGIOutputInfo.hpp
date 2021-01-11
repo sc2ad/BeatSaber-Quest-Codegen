@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1912238
     void EndInvoke(int& pnAdapterIndex, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetDXGIOutputInfo
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetDXGIOutputInfo*, "OVR.OpenVR", "IVRSystem/_GetDXGIOutputInfo");

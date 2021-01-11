@@ -107,8 +107,8 @@ namespace System::Net {
     // Base method: System.Void IWebConnectionState::SetIdle()
     void SetIdle();
   }; // System.Net.WebConnectionGroup/ConnectionState
+  #pragma pack(pop)
   static check_size<sizeof(WebConnectionGroup::ConnectionState), 40 + sizeof(System::DateTime)> __System_Net_WebConnectionGroup_ConnectionStateSizeCheck;
   static_assert(sizeof(WebConnectionGroup::ConnectionState) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionGroup::ConnectionState*, "System.Net", "WebConnectionGroup/ConnectionState");

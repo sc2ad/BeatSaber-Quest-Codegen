@@ -69,6 +69,6 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<GuiRenderableManager::$$c*, creationType>()));
     }
   }; // Zenject.GuiRenderableManager/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager::$$c*, "Zenject", "GuiRenderableManager/<>c");

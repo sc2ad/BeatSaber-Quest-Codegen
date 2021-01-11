@@ -27,7 +27,7 @@ namespace System::Xml {
     // Offset: 0x14E2F54
     static void _cctor();
   }; // System.Xml.HtmlTernaryTree
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlTernaryTree*, "System.Xml", "HtmlTernaryTree");

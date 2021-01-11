@@ -105,8 +105,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MockNodePoseSyncStateManager*, creationType>()));
     }
   }; // MockNodePoseSyncStateManager
+  #pragma pack(pop)
   static check_size<sizeof(MockNodePoseSyncStateManager), 32 + sizeof(GlobalNamespace::LocalMultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>*)> __GlobalNamespace_MockNodePoseSyncStateManagerSizeCheck;
   static_assert(sizeof(MockNodePoseSyncStateManager) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockNodePoseSyncStateManager*, "", "MockNodePoseSyncStateManager");

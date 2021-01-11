@@ -84,8 +84,8 @@ namespace System::Reflection {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Reflection.ReflectionTypeLoadException
+  #pragma pack(pop)
   static check_size<sizeof(ReflectionTypeLoadException), 144 + sizeof(::Array<System::Exception*>*)> __System_Reflection_ReflectionTypeLoadExceptionSizeCheck;
   static_assert(sizeof(ReflectionTypeLoadException) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ReflectionTypeLoadException*, "System.Reflection", "ReflectionTypeLoadException");

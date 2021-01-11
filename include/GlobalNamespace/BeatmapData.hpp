@@ -228,8 +228,8 @@ namespace GlobalNamespace {
     // Base method: BeatmapData IReadonlyBeatmapData::GetCopyWithoutBeatmapObjects()
     GlobalNamespace::BeatmapData* GetCopyWithoutBeatmapObjects();
   }; // BeatmapData
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapData), 68 + sizeof(float)> __GlobalNamespace_BeatmapDataSizeCheck;
   static_assert(sizeof(BeatmapData) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapData*, "", "BeatmapData");

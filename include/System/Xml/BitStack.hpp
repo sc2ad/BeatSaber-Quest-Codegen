@@ -62,8 +62,8 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<BitStack*, creationType>()));
     }
   }; // System.Xml.BitStack
+  #pragma pack(pop)
   static check_size<sizeof(BitStack), 28 + sizeof(uint)> __System_Xml_BitStackSizeCheck;
   static_assert(sizeof(BitStack) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::BitStack*, "System.Xml", "BitStack");

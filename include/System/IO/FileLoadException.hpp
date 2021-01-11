@@ -105,8 +105,8 @@ namespace System::IO {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.IO.FileLoadException
+  #pragma pack(pop)
   static check_size<sizeof(FileLoadException), 152 + sizeof(::Il2CppString*)> __System_IO_FileLoadExceptionSizeCheck;
   static_assert(sizeof(FileLoadException) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileLoadException*, "System.IO", "FileLoadException");

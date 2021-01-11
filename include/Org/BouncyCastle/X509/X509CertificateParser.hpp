@@ -111,8 +111,8 @@ namespace Org::BouncyCastle::X509 {
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateParser*, creationType>()));
     }
   }; // Org.BouncyCastle.X509.X509CertificateParser
+  #pragma pack(pop)
   static check_size<sizeof(X509CertificateParser), 32 + sizeof(System::IO::Stream*)> __Org_BouncyCastle_X509_X509CertificateParserSizeCheck;
   static_assert(sizeof(X509CertificateParser) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509CertificateParser*, "Org.BouncyCastle.X509", "X509CertificateParser");

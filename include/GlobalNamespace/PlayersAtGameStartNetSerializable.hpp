@@ -96,8 +96,8 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // PlayersAtGameStartNetSerializable
+  #pragma pack(pop)
   static check_size<sizeof(PlayersAtGameStartNetSerializable), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>*)> __GlobalNamespace_PlayersAtGameStartNetSerializableSizeCheck;
   static_assert(sizeof(PlayersAtGameStartNetSerializable) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayersAtGameStartNetSerializable*, "", "PlayersAtGameStartNetSerializable");

@@ -141,8 +141,8 @@ namespace System::Security::Cryptography {
     // Base method: System.Void AsymmetricAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Security.Cryptography.DSACryptoServiceProvider
+  #pragma pack(pop)
   static check_size<sizeof(DSACryptoServiceProvider), 48 + sizeof(Mono::Security::Cryptography::DSAManaged*)> __System_Security_Cryptography_DSACryptoServiceProviderSizeCheck;
   static_assert(sizeof(DSACryptoServiceProvider) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSACryptoServiceProvider*, "System.Security.Cryptography", "DSACryptoServiceProvider");

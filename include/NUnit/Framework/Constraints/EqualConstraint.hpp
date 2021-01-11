@@ -105,8 +105,8 @@ namespace NUnit::Framework::Constraints {
     // Base method: System.String Constraint::get_Description()
     ::Il2CppString* get_Description();
   }; // NUnit.Framework.Constraints.EqualConstraint
+  #pragma pack(pop)
   static check_size<sizeof(EqualConstraint), 72 + sizeof(bool)> __NUnit_Framework_Constraints_EqualConstraintSizeCheck;
   static_assert(sizeof(EqualConstraint) == 0x49);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraint*, "NUnit.Framework.Constraints", "EqualConstraint");

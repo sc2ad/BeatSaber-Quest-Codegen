@@ -163,8 +163,8 @@ namespace Mono::Security::Cryptography {
     // Offset: 0x15B1AB4
     static void _cctor();
   }; // Mono.Security.Cryptography.KeyPairPersistence
+  #pragma pack(pop)
   static check_size<sizeof(KeyPairPersistence), 40 + sizeof(::Il2CppString*)> __Mono_Security_Cryptography_KeyPairPersistenceSizeCheck;
   static_assert(sizeof(KeyPairPersistence) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::KeyPairPersistence*, "Mono.Security.Cryptography", "KeyPairPersistence");

@@ -200,9 +200,9 @@ namespace Polyglot {
     // Set static field: static public Polyglot.Language Bosnian
     static void _set_Bosnian(Polyglot::Language value);
   }; // Polyglot.Language
+  #pragma pack(pop)
   static check_size<sizeof(Language), 0 + sizeof(int)> __Polyglot_LanguageSizeCheck;
   static_assert(sizeof(Language) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::Language, "Polyglot", "Language");

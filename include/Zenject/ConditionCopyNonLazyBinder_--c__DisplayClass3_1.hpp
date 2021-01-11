@@ -57,8 +57,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ConditionCopyNonLazyBinder::$$c__DisplayClass3_1*, creationType>()));
     }
   }; // Zenject.ConditionCopyNonLazyBinder/<>c__DisplayClass3_1
+  #pragma pack(pop)
   static check_size<sizeof(ConditionCopyNonLazyBinder::$$c__DisplayClass3_1), 16 + sizeof(Zenject::InjectContext*)> __Zenject_ConditionCopyNonLazyBinder_$$c__DisplayClass3_1SizeCheck;
   static_assert(sizeof(ConditionCopyNonLazyBinder::$$c__DisplayClass3_1) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass3_1*, "Zenject", "ConditionCopyNonLazyBinder/<>c__DisplayClass3_1");

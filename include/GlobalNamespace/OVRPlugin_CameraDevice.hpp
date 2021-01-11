@@ -58,9 +58,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/CameraDevice ZEDCamera
     static void _set_ZEDCamera(GlobalNamespace::OVRPlugin::CameraDevice value);
   }; // OVRPlugin/CameraDevice
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::CameraDevice), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_CameraDeviceSizeCheck;
   static_assert(sizeof(OVRPlugin::CameraDevice) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::CameraDevice, "", "OVRPlugin/CameraDevice");

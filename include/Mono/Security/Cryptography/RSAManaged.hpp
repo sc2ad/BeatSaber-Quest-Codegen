@@ -129,9 +129,9 @@ namespace Mono::Security::Cryptography {
     // Base method: System.Void RSA::ImportParameters(System.Security.Cryptography.RSAParameters parameters)
     void ImportParameters(System::Security::Cryptography::RSAParameters parameters);
   }; // Mono.Security.Cryptography.RSAManaged
+  #pragma pack(pop)
   static check_size<sizeof(RSAManaged), 104 + sizeof(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler*)> __Mono_Security_Cryptography_RSAManagedSizeCheck;
   static_assert(sizeof(RSAManaged) == 0x70);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::RSAManaged*, "Mono.Security.Cryptography", "RSAManaged");

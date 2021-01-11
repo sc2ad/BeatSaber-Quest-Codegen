@@ -105,8 +105,8 @@ namespace UnityEngine::TextCore {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.TextCore.GlyphRect other)
     bool Equals(UnityEngine::TextCore::GlyphRect other);
   }; // UnityEngine.TextCore.GlyphRect
+  #pragma pack(pop)
   static check_size<sizeof(GlyphRect), 12 + sizeof(int)> __UnityEngine_TextCore_GlyphRectSizeCheck;
   static_assert(sizeof(GlyphRect) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphRect, "UnityEngine.TextCore", "GlyphRect");

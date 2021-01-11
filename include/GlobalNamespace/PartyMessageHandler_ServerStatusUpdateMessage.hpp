@@ -131,8 +131,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler::ServerStatusUpdateMessage*, creationType>()));
     }
   }; // PartyMessageHandler/ServerStatusUpdateMessage
+  #pragma pack(pop)
   static check_size<sizeof(PartyMessageHandler::ServerStatusUpdateMessage), 48 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __GlobalNamespace_PartyMessageHandler_ServerStatusUpdateMessageSizeCheck;
   static_assert(sizeof(PartyMessageHandler::ServerStatusUpdateMessage) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*, "", "PartyMessageHandler/ServerStatusUpdateMessage");

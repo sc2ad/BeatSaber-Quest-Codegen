@@ -51,6 +51,6 @@ namespace Mono::Net {
       return THROW_UNLESS((::il2cpp_utils::New<CFArray*, creationType>(handle, own)));
     }
   }; // Mono.Net.CFArray
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFArray*, "Mono.Net", "CFArray");

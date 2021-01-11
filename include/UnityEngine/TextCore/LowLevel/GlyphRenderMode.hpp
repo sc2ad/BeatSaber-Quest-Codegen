@@ -93,9 +93,9 @@ namespace UnityEngine::TextCore::LowLevel {
     // Set static field: static public UnityEngine.TextCore.LowLevel.GlyphRenderMode SDFAA
     static void _set_SDFAA(UnityEngine::TextCore::LowLevel::GlyphRenderMode value);
   }; // UnityEngine.TextCore.LowLevel.GlyphRenderMode
+  #pragma pack(pop)
   static check_size<sizeof(GlyphRenderMode), 0 + sizeof(int)> __UnityEngine_TextCore_LowLevel_GlyphRenderModeSizeCheck;
   static_assert(sizeof(GlyphRenderMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphRenderMode, "UnityEngine.TextCore.LowLevel", "GlyphRenderMode");

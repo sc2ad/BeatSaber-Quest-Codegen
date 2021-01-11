@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x190B184
     float EndInvoke(OVR::OpenVR::EVRSettingsError& peError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSettings/_GetFloat
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSettings::_GetFloat*, "OVR.OpenVR", "IVRSettings/_GetFloat");

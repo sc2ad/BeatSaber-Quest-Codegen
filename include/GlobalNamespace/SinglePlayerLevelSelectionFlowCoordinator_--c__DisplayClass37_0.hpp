@@ -71,8 +71,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0*, creationType>()));
     }
   }; // SinglePlayerLevelSelectionFlowCoordinator/<>c__DisplayClass37_0
+  #pragma pack(pop)
   static check_size<sizeof(SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0), 40 + sizeof(System::Action*)> __GlobalNamespace_SinglePlayerLevelSelectionFlowCoordinator_$$c__DisplayClass37_0SizeCheck;
   static_assert(sizeof(SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0*, "", "SinglePlayerLevelSelectionFlowCoordinator/<>c__DisplayClass37_0");

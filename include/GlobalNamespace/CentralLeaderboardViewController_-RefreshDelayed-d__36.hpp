@@ -98,8 +98,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // CentralLeaderboardViewController/<RefreshDelayed>d__36
+  #pragma pack(pop)
   static check_size<sizeof(CentralLeaderboardViewController::$RefreshDelayed$d__36), 48 + sizeof(bool)> __GlobalNamespace_CentralLeaderboardViewController_$RefreshDelayed$d__36SizeCheck;
   static_assert(sizeof(CentralLeaderboardViewController::$RefreshDelayed$d__36) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::$RefreshDelayed$d__36*, "", "CentralLeaderboardViewController/<RefreshDelayed>d__36");

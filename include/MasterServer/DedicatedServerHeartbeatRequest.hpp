@@ -131,8 +131,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerHeartbeatRequest*, creationType>()));
     }
   }; // MasterServer.DedicatedServerHeartbeatRequest
+  #pragma pack(pop)
   static check_size<sizeof(DedicatedServerHeartbeatRequest), 40 + sizeof(int)> __MasterServer_DedicatedServerHeartbeatRequestSizeCheck;
   static_assert(sizeof(DedicatedServerHeartbeatRequest) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerHeartbeatRequest*, "MasterServer", "DedicatedServerHeartbeatRequest");

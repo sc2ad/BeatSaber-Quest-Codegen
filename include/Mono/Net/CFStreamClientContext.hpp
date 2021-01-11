@@ -55,9 +55,9 @@ namespace Mono::Net {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Mono.Net.CFStreamClientContext
+  #pragma pack(pop)
   static check_size<sizeof(CFStreamClientContext), 32 + sizeof(System::IntPtr)> __Mono_Net_CFStreamClientContextSizeCheck;
   static_assert(sizeof(CFStreamClientContext) == 0x28);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFStreamClientContext, "Mono.Net", "CFStreamClientContext");

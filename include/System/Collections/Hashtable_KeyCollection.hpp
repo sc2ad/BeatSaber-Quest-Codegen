@@ -81,8 +81,8 @@ namespace System::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
   }; // System.Collections.Hashtable/KeyCollection
+  #pragma pack(pop)
   static check_size<sizeof(Hashtable::KeyCollection), 16 + sizeof(System::Collections::Hashtable*)> __System_Collections_Hashtable_KeyCollectionSizeCheck;
   static_assert(sizeof(Hashtable::KeyCollection) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::KeyCollection*, "System.Collections", "Hashtable/KeyCollection");

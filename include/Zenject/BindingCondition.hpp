@@ -52,6 +52,6 @@ namespace Zenject {
     // Offset: 0x10EBCBC
     bool EndInvoke(System::IAsyncResult* result);
   }; // Zenject.BindingCondition
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingCondition*, "Zenject", "BindingCondition");

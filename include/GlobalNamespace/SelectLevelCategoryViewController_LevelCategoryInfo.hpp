@@ -58,8 +58,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SelectLevelCategoryViewController::LevelCategoryInfo*, creationType>()));
     }
   }; // SelectLevelCategoryViewController/LevelCategoryInfo
+  #pragma pack(pop)
   static check_size<sizeof(SelectLevelCategoryViewController::LevelCategoryInfo), 32 + sizeof(UnityEngine::Sprite*)> __GlobalNamespace_SelectLevelCategoryViewController_LevelCategoryInfoSizeCheck;
   static_assert(sizeof(SelectLevelCategoryViewController::LevelCategoryInfo) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, "", "SelectLevelCategoryViewController/LevelCategoryInfo");

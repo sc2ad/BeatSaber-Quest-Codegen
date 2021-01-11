@@ -70,8 +70,8 @@ namespace Zenject {
     // Offset: 0x129EFB0
     void OnGui();
   }; // Zenject.GuiRenderableManager
+  #pragma pack(pop)
   static check_size<sizeof(GuiRenderableManager), 16 + sizeof(System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*)> __Zenject_GuiRenderableManagerSizeCheck;
   static_assert(sizeof(GuiRenderableManager) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager*, "Zenject", "GuiRenderableManager");

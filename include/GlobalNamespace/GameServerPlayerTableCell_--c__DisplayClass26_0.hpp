@@ -60,8 +60,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameServerPlayerTableCell::$$c__DisplayClass26_0*, creationType>()));
     }
   }; // GameServerPlayerTableCell/<>c__DisplayClass26_0
+  #pragma pack(pop)
   static check_size<sizeof(GameServerPlayerTableCell::$$c__DisplayClass26_0), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*)> __GlobalNamespace_GameServerPlayerTableCell_$$c__DisplayClass26_0SizeCheck;
   static_assert(sizeof(GameServerPlayerTableCell::$$c__DisplayClass26_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass26_0*, "", "GameServerPlayerTableCell/<>c__DisplayClass26_0");

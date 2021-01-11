@@ -34,6 +34,6 @@ namespace Org::BouncyCastle::Asn1::Misc {
     // Base method: System.String DerStringBase::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.Misc.NetscapeRevocationUrl
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl*, "Org.BouncyCastle.Asn1.Misc", "NetscapeRevocationUrl");

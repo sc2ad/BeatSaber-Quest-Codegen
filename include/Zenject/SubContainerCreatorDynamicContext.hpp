@@ -80,8 +80,8 @@ namespace Zenject {
     // Base method: Zenject.DiContainer ISubContainerCreator::CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext parentContext)
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* parentContext);
   }; // Zenject.SubContainerCreatorDynamicContext
+  #pragma pack(pop)
   static check_size<sizeof(SubContainerCreatorDynamicContext), 16 + sizeof(Zenject::DiContainer*)> __Zenject_SubContainerCreatorDynamicContextSizeCheck;
   static_assert(sizeof(SubContainerCreatorDynamicContext) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorDynamicContext*, "Zenject", "SubContainerCreatorDynamicContext");

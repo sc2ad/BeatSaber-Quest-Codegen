@@ -72,8 +72,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TutorialNoteCutEffectSpawner*, creationType>()));
     }
   }; // TutorialNoteCutEffectSpawner
+  #pragma pack(pop)
   static check_size<sizeof(TutorialNoteCutEffectSpawner), 32 + sizeof(GlobalNamespace::BeatmapObjectManager*)> __GlobalNamespace_TutorialNoteCutEffectSpawnerSizeCheck;
   static_assert(sizeof(TutorialNoteCutEffectSpawner) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialNoteCutEffectSpawner*, "", "TutorialNoteCutEffectSpawner");

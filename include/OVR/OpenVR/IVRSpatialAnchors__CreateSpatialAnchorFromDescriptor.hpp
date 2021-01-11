@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x190E718
     OVR::OpenVR::EVRSpatialAnchorError EndInvoke(uint& pHandleOut, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSpatialAnchors/_CreateSpatialAnchorFromDescriptor
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor*, "OVR.OpenVR", "IVRSpatialAnchors/_CreateSpatialAnchorFromDescriptor");

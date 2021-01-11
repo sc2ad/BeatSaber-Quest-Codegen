@@ -73,9 +73,9 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.TimeZoneInfo/TIME_ZONE_INFORMATION
+  #pragma pack(pop)
   static check_size<sizeof(TimeZoneInfo::TIME_ZONE_INFORMATION), 64 + sizeof(int)> __System_TimeZoneInfo_TIME_ZONE_INFORMATIONSizeCheck;
   static_assert(sizeof(TimeZoneInfo::TIME_ZONE_INFORMATION) == 0x44);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::TIME_ZONE_INFORMATION, "System", "TimeZoneInfo/TIME_ZONE_INFORMATION");

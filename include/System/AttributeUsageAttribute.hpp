@@ -70,8 +70,8 @@ namespace System {
     // Offset: 0x1CAAB20
     static void _cctor();
   }; // System.AttributeUsageAttribute
+  #pragma pack(pop)
   static check_size<sizeof(AttributeUsageAttribute), 21 + sizeof(bool)> __System_AttributeUsageAttributeSizeCheck;
   static_assert(sizeof(AttributeUsageAttribute) == 0x16);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::AttributeUsageAttribute*, "System", "AttributeUsageAttribute");

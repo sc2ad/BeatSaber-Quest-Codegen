@@ -52,9 +52,9 @@ namespace System {
     // Set static field: static public System.Environment/SpecialFolderOption Create
     static void _set_Create(System::Environment::SpecialFolderOption value);
   }; // System.Environment/SpecialFolderOption
+  #pragma pack(pop)
   static check_size<sizeof(Environment::SpecialFolderOption), 0 + sizeof(int)> __System_Environment_SpecialFolderOptionSizeCheck;
   static_assert(sizeof(Environment::SpecialFolderOption) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Environment::SpecialFolderOption, "System", "Environment/SpecialFolderOption");

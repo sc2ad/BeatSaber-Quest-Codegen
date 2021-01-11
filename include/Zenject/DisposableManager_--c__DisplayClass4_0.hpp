@@ -60,8 +60,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<DisposableManager::$$c__DisplayClass4_0*, creationType>()));
     }
   }; // Zenject.DisposableManager/<>c__DisplayClass4_0
+  #pragma pack(pop)
   static check_size<sizeof(DisposableManager::$$c__DisplayClass4_0), 16 + sizeof(System::IDisposable*)> __Zenject_DisposableManager_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(DisposableManager::$$c__DisplayClass4_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::$$c__DisplayClass4_0*, "Zenject", "DisposableManager/<>c__DisplayClass4_0");

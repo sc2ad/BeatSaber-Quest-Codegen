@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x1927E68
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_AcknowledgeQuit_UserPrompt
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt*, "Valve.VR", "IVRSystem/_AcknowledgeQuit_UserPrompt");

@@ -105,8 +105,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<KeyboardShortcutsManager*, creationType>()));
     }
   }; // KeyboardShortcutsManager
+  #pragma pack(pop)
   static check_size<sizeof(KeyboardShortcutsManager), 24 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Collections::Generic::List_1<System::Action*>*>*)> __GlobalNamespace_KeyboardShortcutsManagerSizeCheck;
   static_assert(sizeof(KeyboardShortcutsManager) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KeyboardShortcutsManager*, "", "KeyboardShortcutsManager");

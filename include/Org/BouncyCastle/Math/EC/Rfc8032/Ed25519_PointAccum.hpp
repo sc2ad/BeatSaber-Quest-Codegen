@@ -61,8 +61,8 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
       return THROW_UNLESS((::il2cpp_utils::New<Ed25519::PointAccum*, creationType>()));
     }
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/PointAccum
+  #pragma pack(pop)
   static check_size<sizeof(Ed25519::PointAccum), 48 + sizeof(::Array<int>*)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed25519_PointAccumSizeCheck;
   static_assert(sizeof(Ed25519::PointAccum) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointAccum");

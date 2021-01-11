@@ -52,7 +52,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x151B6E4
     static int MapIdx(int cp);
   }; // Mono.Globalization.Unicode.NormalizationTableUtil
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::NormalizationTableUtil*, "Mono.Globalization.Unicode", "NormalizationTableUtil");

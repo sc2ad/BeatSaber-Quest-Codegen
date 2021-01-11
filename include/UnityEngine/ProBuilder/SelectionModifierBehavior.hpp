@@ -50,9 +50,9 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.SelectionModifierBehavior Difference
     static void _set_Difference(UnityEngine::ProBuilder::SelectionModifierBehavior value);
   }; // UnityEngine.ProBuilder.SelectionModifierBehavior
+  #pragma pack(pop)
   static check_size<sizeof(SelectionModifierBehavior), 0 + sizeof(int)> __UnityEngine_ProBuilder_SelectionModifierBehaviorSizeCheck;
   static_assert(sizeof(SelectionModifierBehavior) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionModifierBehavior, "UnityEngine.ProBuilder", "SelectionModifierBehavior");

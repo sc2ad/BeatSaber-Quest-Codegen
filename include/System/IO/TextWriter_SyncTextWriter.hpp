@@ -145,8 +145,8 @@ namespace System::IO {
       WriteLine(format, {arg...});
     }
   }; // System.IO.TextWriter/SyncTextWriter
+  #pragma pack(pop)
   static check_size<sizeof(TextWriter::SyncTextWriter), 40 + sizeof(System::IO::TextWriter*)> __System_IO_TextWriter_SyncTextWriterSizeCheck;
   static_assert(sizeof(TextWriter::SyncTextWriter) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter::SyncTextWriter*, "System.IO", "TextWriter/SyncTextWriter");

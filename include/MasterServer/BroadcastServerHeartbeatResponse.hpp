@@ -85,6 +85,7 @@ namespace MasterServer {
       // Set static field: static public MasterServer.BroadcastServerHeartbeatResponse/Result UnknownError
       static void _set_UnknownError(MasterServer::BroadcastServerHeartbeatResponse::Result value);
     }; // MasterServer.BroadcastServerHeartbeatResponse/Result
+    #pragma pack(pop)
     static check_size<sizeof(BroadcastServerHeartbeatResponse::Result), 0 + sizeof(int)> __MasterServer_BroadcastServerHeartbeatResponse_ResultSizeCheck;
     static_assert(sizeof(BroadcastServerHeartbeatResponse::Result) == 0x4);
     // public MasterServer.BroadcastServerHeartbeatResponse/Result result
@@ -144,9 +145,9 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<BroadcastServerHeartbeatResponse*, creationType>()));
     }
   }; // MasterServer.BroadcastServerHeartbeatResponse
+  #pragma pack(pop)
   static check_size<sizeof(BroadcastServerHeartbeatResponse), 16 + sizeof(MasterServer::BroadcastServerHeartbeatResponse::Result)> __MasterServer_BroadcastServerHeartbeatResponseSizeCheck;
   static_assert(sizeof(BroadcastServerHeartbeatResponse) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BroadcastServerHeartbeatResponse*, "MasterServer", "BroadcastServerHeartbeatResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BroadcastServerHeartbeatResponse::Result, "MasterServer", "BroadcastServerHeartbeatResponse/Result");

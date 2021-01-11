@@ -27,7 +27,7 @@ namespace System::Reflection::Emit {
     // Offset: 0x15C6770
     static System::Type* MakeGenericType(System::Type* type, ::Array<System::Type*>* typeArguments);
   }; // System.Reflection.Emit.TypeBuilderInstantiation
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::TypeBuilderInstantiation*, "System.Reflection.Emit", "TypeBuilderInstantiation");

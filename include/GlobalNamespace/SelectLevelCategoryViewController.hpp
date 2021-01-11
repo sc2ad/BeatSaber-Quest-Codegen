@@ -105,6 +105,7 @@ namespace GlobalNamespace {
       // Set static field: static public SelectLevelCategoryViewController/LevelCategory All
       static void _set_All(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory value);
     }; // SelectLevelCategoryViewController/LevelCategory
+    #pragma pack(pop)
     static check_size<sizeof(SelectLevelCategoryViewController::LevelCategory), 0 + sizeof(int)> __GlobalNamespace_SelectLevelCategoryViewController_LevelCategorySizeCheck;
     static_assert(sizeof(SelectLevelCategoryViewController::LevelCategory) == 0x4);
     // private SelectLevelCategoryViewController/LevelCategoryInfo[] _allLevelCategoryInfos
@@ -182,9 +183,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SelectLevelCategoryViewController*, creationType>()));
     }
   }; // SelectLevelCategoryViewController
+  #pragma pack(pop)
   static check_size<sizeof(SelectLevelCategoryViewController), 144 + sizeof(::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*>*)> __GlobalNamespace_SelectLevelCategoryViewControllerSizeCheck;
   static_assert(sizeof(SelectLevelCategoryViewController) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController*, "", "SelectLevelCategoryViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory, "", "SelectLevelCategoryViewController/LevelCategory");

@@ -56,8 +56,8 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<SelectionPickerRenderer::$$c__DisplayClass19_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.SelectionPickerRenderer/<>c__DisplayClass19_0
+  #pragma pack(pop)
   static check_size<sizeof(SelectionPickerRenderer::$$c__DisplayClass19_0), 24 + sizeof(::Array<UnityEngine::ProBuilder::SharedVertex*>*)> __UnityEngine_ProBuilder_SelectionPickerRenderer_$$c__DisplayClass19_0SizeCheck;
   static_assert(sizeof(SelectionPickerRenderer::$$c__DisplayClass19_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0*, "UnityEngine.ProBuilder", "SelectionPickerRenderer/<>c__DisplayClass19_0");

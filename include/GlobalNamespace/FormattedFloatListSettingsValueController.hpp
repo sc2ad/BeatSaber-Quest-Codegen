@@ -69,6 +69,7 @@ namespace GlobalNamespace {
       // Set static field: static public FormattedFloatListSettingsValueController/ValueType InvertedNormalized
       static void _set_InvertedNormalized(GlobalNamespace::FormattedFloatListSettingsValueController::ValueType value);
     }; // FormattedFloatListSettingsValueController/ValueType
+    #pragma pack(pop)
     static check_size<sizeof(FormattedFloatListSettingsValueController::ValueType), 0 + sizeof(int)> __GlobalNamespace_FormattedFloatListSettingsValueController_ValueTypeSizeCheck;
     static_assert(sizeof(FormattedFloatListSettingsValueController::ValueType) == 0x4);
     // private FloatSO _settingsValue
@@ -140,9 +141,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FormattedFloatListSettingsValueController*, creationType>()));
     }
   }; // FormattedFloatListSettingsValueController
+  #pragma pack(pop)
   static check_size<sizeof(FormattedFloatListSettingsValueController), 72 + sizeof(float)> __GlobalNamespace_FormattedFloatListSettingsValueControllerSizeCheck;
   static_assert(sizeof(FormattedFloatListSettingsValueController) == 0x4C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsValueController*, "", "FormattedFloatListSettingsValueController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsValueController::ValueType, "", "FormattedFloatListSettingsValueController/ValueType");

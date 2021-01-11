@@ -62,9 +62,9 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.SocketOptionLevel Udp
     static void _set_Udp(System::Net::Sockets::SocketOptionLevel value);
   }; // System.Net.Sockets.SocketOptionLevel
+  #pragma pack(pop)
   static check_size<sizeof(SocketOptionLevel), 0 + sizeof(int)> __System_Net_Sockets_SocketOptionLevelSizeCheck;
   static_assert(sizeof(SocketOptionLevel) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketOptionLevel, "System.Net.Sockets", "SocketOptionLevel");

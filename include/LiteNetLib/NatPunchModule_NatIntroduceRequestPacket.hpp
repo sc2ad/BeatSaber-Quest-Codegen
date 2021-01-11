@@ -64,8 +64,8 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<NatPunchModule::NatIntroduceRequestPacket*, creationType>()));
     }
   }; // LiteNetLib.NatPunchModule/NatIntroduceRequestPacket
+  #pragma pack(pop)
   static check_size<sizeof(NatPunchModule::NatIntroduceRequestPacket), 24 + sizeof(::Il2CppString*)> __LiteNetLib_NatPunchModule_NatIntroduceRequestPacketSizeCheck;
   static_assert(sizeof(NatPunchModule::NatIntroduceRequestPacket) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*, "LiteNetLib", "NatPunchModule/NatIntroduceRequestPacket");

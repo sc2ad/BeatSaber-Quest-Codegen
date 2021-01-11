@@ -69,6 +69,6 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
       return THROW_UNLESS((::il2cpp_utils::New<SynchronousFilter*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.GUI.SynchronousFilter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*, "UnityEngine.TestTools.TestRunner.GUI", "SynchronousFilter");

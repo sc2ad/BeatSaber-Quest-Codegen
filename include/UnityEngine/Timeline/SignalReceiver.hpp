@@ -117,8 +117,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<SignalReceiver*, creationType>()));
     }
   }; // UnityEngine.Timeline.SignalReceiver
+  #pragma pack(pop)
   static check_size<sizeof(SignalReceiver), 24 + sizeof(UnityEngine::Timeline::SignalReceiver::EventKeyValue*)> __UnityEngine_Timeline_SignalReceiverSizeCheck;
   static_assert(sizeof(SignalReceiver) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalReceiver*, "UnityEngine.Timeline", "SignalReceiver");

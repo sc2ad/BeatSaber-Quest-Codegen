@@ -56,8 +56,8 @@ namespace Mono::Math {
     // Offset: 0x17ADEA4
     Mono::Math::BigInteger* Pow(uint b, Mono::Math::BigInteger* exp);
   }; // Mono.Math.BigInteger/ModulusRing
+  #pragma pack(pop)
   static check_size<sizeof(BigInteger::ModulusRing), 24 + sizeof(Mono::Math::BigInteger*)> __Mono_Math_BigInteger_ModulusRingSizeCheck;
   static_assert(sizeof(BigInteger::ModulusRing) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::ModulusRing*, "Mono.Math", "BigInteger/ModulusRing");

@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x11FAE40
     void EndInvoke(OVR::OpenVR::HmdColor_t& pOutputColorArray, OVR::OpenVR::HmdColor_t& pOutputCameraColor, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperone/_GetBoundsColor
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperone::_GetBoundsColor*, "OVR.OpenVR", "IVRChaperone/_GetBoundsColor");

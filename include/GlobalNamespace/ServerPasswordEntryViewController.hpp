@@ -107,8 +107,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ServerPasswordEntryViewController*, creationType>()));
     }
   }; // ServerPasswordEntryViewController
+  #pragma pack(pop)
   static check_size<sizeof(ServerPasswordEntryViewController), 136 + sizeof(GlobalNamespace::INetworkPlayer*)> __GlobalNamespace_ServerPasswordEntryViewControllerSizeCheck;
   static_assert(sizeof(ServerPasswordEntryViewController) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerPasswordEntryViewController*, "", "ServerPasswordEntryViewController");

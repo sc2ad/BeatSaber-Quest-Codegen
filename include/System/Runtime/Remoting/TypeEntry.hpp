@@ -54,8 +54,8 @@ namespace System::Runtime::Remoting {
       return THROW_UNLESS((::il2cpp_utils::New<TypeEntry*, creationType>()));
     }
   }; // System.Runtime.Remoting.TypeEntry
+  #pragma pack(pop)
   static check_size<sizeof(TypeEntry), 24 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_TypeEntrySizeCheck;
   static_assert(sizeof(TypeEntry) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::TypeEntry*, "System.Runtime.Remoting", "TypeEntry");

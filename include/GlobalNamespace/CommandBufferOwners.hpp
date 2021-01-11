@@ -71,8 +71,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CommandBufferOwners*, creationType>()));
     }
   }; // CommandBufferOwners
+  #pragma pack(pop)
   static check_size<sizeof(CommandBufferOwners), 24 + sizeof(UnityEngine::Rendering::CommandBuffer*)> __GlobalNamespace_CommandBufferOwnersSizeCheck;
   static_assert(sizeof(CommandBufferOwners) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferOwners*, "", "CommandBufferOwners");

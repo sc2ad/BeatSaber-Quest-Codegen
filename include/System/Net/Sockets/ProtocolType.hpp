@@ -182,9 +182,9 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.ProtocolType Unknown
     static void _set_Unknown(System::Net::Sockets::ProtocolType value);
   }; // System.Net.Sockets.ProtocolType
+  #pragma pack(pop)
   static check_size<sizeof(ProtocolType), 0 + sizeof(int)> __System_Net_Sockets_ProtocolTypeSizeCheck;
   static_assert(sizeof(ProtocolType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::ProtocolType, "System.Net.Sockets", "ProtocolType");

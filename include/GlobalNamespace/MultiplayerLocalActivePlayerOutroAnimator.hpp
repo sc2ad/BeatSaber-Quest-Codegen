@@ -174,8 +174,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActivePlayerOutroAnimator*, creationType>()));
     }
   }; // MultiplayerLocalActivePlayerOutroAnimator
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActivePlayerOutroAnimator), 128 + sizeof(Tweening::Tween_1<UnityEngine::Vector3>*)> __GlobalNamespace_MultiplayerLocalActivePlayerOutroAnimatorSizeCheck;
   static_assert(sizeof(MultiplayerLocalActivePlayerOutroAnimator) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerOutroAnimator*, "", "MultiplayerLocalActivePlayerOutroAnimator");

@@ -121,8 +121,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x138CC48
     static void _cctor();
   }; // UnityEngine.ProBuilder.MeshOperations.MeshImporter
+  #pragma pack(pop)
   static check_size<sizeof(MeshImporter), 40 + sizeof(::Array<UnityEngine::ProBuilder::Vertex*>*)> __UnityEngine_ProBuilder_MeshOperations_MeshImporterSizeCheck;
   static_assert(sizeof(MeshImporter) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImporter*, "UnityEngine.ProBuilder.MeshOperations", "MeshImporter");

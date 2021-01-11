@@ -56,9 +56,9 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.LightProbeUsage CustomProvided
     static void _set_CustomProvided(UnityEngine::Rendering::LightProbeUsage value);
   }; // UnityEngine.Rendering.LightProbeUsage
+  #pragma pack(pop)
   static check_size<sizeof(LightProbeUsage), 0 + sizeof(int)> __UnityEngine_Rendering_LightProbeUsageSizeCheck;
   static_assert(sizeof(LightProbeUsage) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::LightProbeUsage, "UnityEngine.Rendering", "LightProbeUsage");

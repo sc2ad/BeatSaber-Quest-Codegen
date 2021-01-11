@@ -122,6 +122,7 @@ namespace System::Net {
       // Set static field: static public System.Net.HttpConnection/InputState Headers
       static void _set_Headers(System::Net::HttpConnection::InputState value);
     }; // System.Net.HttpConnection/InputState
+    #pragma pack(pop)
     static check_size<sizeof(HttpConnection::InputState), 0 + sizeof(int)> __System_Net_HttpConnection_InputStateSizeCheck;
     static_assert(sizeof(HttpConnection::InputState) == 0x4);
     // Size: 0x4
@@ -165,6 +166,7 @@ namespace System::Net {
       // Set static field: static public System.Net.HttpConnection/LineState LF
       static void _set_LF(System::Net::HttpConnection::LineState value);
     }; // System.Net.HttpConnection/LineState
+    #pragma pack(pop)
     static check_size<sizeof(HttpConnection::LineState), 0 + sizeof(int)> __System_Net_HttpConnection_LineStateSizeCheck;
     static_assert(sizeof(HttpConnection::LineState) == 0x4);
     // private System.Net.Sockets.Socket sock
@@ -400,10 +402,10 @@ namespace System::Net {
     // Offset: 0x12AD42C
     bool $_ctor$b__24_0(::Il2CppObject* t, System::Security::Cryptography::X509Certificates::X509Certificate* c, System::Security::Cryptography::X509Certificates::X509Chain* ch, System::Net::Security::SslPolicyErrors e);
   }; // System.Net.HttpConnection
+  #pragma pack(pop)
   static check_size<sizeof(HttpConnection), 184 + sizeof(int)> __System_Net_HttpConnectionSizeCheck;
   static_assert(sizeof(HttpConnection) == 0xBC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection*, "System.Net", "HttpConnection");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection::InputState, "System.Net", "HttpConnection/InputState");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection::LineState, "System.Net", "HttpConnection/LineState");

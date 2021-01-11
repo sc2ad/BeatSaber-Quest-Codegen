@@ -108,8 +108,8 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x1544D08
     static bool OpcodeBacktracks(int Op);
   }; // System.Text.RegularExpressions.RegexCode
+  #pragma pack(pop)
   static check_size<sizeof(RegexCode), 76 + sizeof(bool)> __System_Text_RegularExpressions_RegexCodeSizeCheck;
   static_assert(sizeof(RegexCode) == 0x4D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCode*, "System.Text.RegularExpressions", "RegexCode");

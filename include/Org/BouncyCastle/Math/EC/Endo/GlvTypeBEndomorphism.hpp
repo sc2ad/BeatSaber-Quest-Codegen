@@ -79,8 +79,8 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Base method: System.Boolean ECEndomorphism::get_HasEfficientPointMap()
     bool get_HasEfficientPointMap();
   }; // Org.BouncyCastle.Math.EC.Endo.GlvTypeBEndomorphism
+  #pragma pack(pop)
   static check_size<sizeof(GlvTypeBEndomorphism), 24 + sizeof(Org::BouncyCastle::Math::EC::ECPointMap*)> __Org_BouncyCastle_Math_EC_Endo_GlvTypeBEndomorphismSizeCheck;
   static_assert(sizeof(GlvTypeBEndomorphism) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism*, "Org.BouncyCastle.Math.EC.Endo", "GlvTypeBEndomorphism");

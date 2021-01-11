@@ -171,9 +171,9 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Net.NetworkInformation.Win32_MIB_IFROW
+  #pragma pack(pop)
   static check_size<sizeof(Win32_MIB_IFROW), 104 + sizeof(::Array<uint8_t>*)> __System_Net_NetworkInformation_Win32_MIB_IFROWSizeCheck;
   static_assert(sizeof(Win32_MIB_IFROW) == 0x70);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_MIB_IFROW, "System.Net.NetworkInformation", "Win32_MIB_IFROW");

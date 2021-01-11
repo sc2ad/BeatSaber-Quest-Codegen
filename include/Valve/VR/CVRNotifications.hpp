@@ -60,8 +60,8 @@ namespace Valve::VR {
     // Offset: 0x1369CD0
     Valve::VR::EVRNotificationError RemoveNotification(uint notificationId);
   }; // Valve.VR.CVRNotifications
+  #pragma pack(pop)
   static check_size<sizeof(CVRNotifications), 16 + sizeof(Valve::VR::IVRNotifications)> __Valve_VR_CVRNotificationsSizeCheck;
   static_assert(sizeof(CVRNotifications) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRNotifications*, "Valve.VR", "CVRNotifications");

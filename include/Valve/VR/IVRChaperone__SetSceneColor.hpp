@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x136F2A8
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperone/_SetSceneColor
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone::_SetSceneColor*, "Valve.VR", "IVRChaperone/_SetSceneColor");

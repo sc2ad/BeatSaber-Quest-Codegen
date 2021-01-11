@@ -63,8 +63,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassLightTypeSO*, creationType>()));
     }
   }; // BloomPrePassLightTypeSO
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePassLightTypeSO), 32 + sizeof(UnityEngine::Material*)> __GlobalNamespace_BloomPrePassLightTypeSOSizeCheck;
   static_assert(sizeof(BloomPrePassLightTypeSO) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLightTypeSO*, "", "BloomPrePassLightTypeSO");

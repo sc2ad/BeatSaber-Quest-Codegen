@@ -123,9 +123,9 @@ namespace System::Threading::Tasks {
     // Set static field: static public System.Threading.Tasks.TaskContinuationOptions ExecuteSynchronously
     static void _set_ExecuteSynchronously(System::Threading::Tasks::TaskContinuationOptions value);
   }; // System.Threading.Tasks.TaskContinuationOptions
+  #pragma pack(pop)
   static check_size<sizeof(TaskContinuationOptions), 0 + sizeof(int)> __System_Threading_Tasks_TaskContinuationOptionsSizeCheck;
   static_assert(sizeof(TaskContinuationOptions) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskContinuationOptions, "System.Threading.Tasks", "TaskContinuationOptions");

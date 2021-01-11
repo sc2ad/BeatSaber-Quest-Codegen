@@ -85,8 +85,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PhysicsFollow*, creationType>()));
     }
   }; // PhysicsFollow
+  #pragma pack(pop)
   static check_size<sizeof(PhysicsFollow), 56 + sizeof(UnityEngine::Rigidbody2D*)> __GlobalNamespace_PhysicsFollowSizeCheck;
   static_assert(sizeof(PhysicsFollow) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PhysicsFollow*, "", "PhysicsFollow");

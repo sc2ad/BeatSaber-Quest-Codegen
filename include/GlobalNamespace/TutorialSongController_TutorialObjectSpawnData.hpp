@@ -60,8 +60,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TutorialSongController::TutorialObjectSpawnData*, creationType>(signal, firstTimeBeatOffset, beatOffset, lineIndex)));
     }
   }; // TutorialSongController/TutorialObjectSpawnData
+  #pragma pack(pop)
   static check_size<sizeof(TutorialSongController::TutorialObjectSpawnData), 32 + sizeof(int)> __GlobalNamespace_TutorialSongController_TutorialObjectSpawnDataSizeCheck;
   static_assert(sizeof(TutorialSongController::TutorialObjectSpawnData) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*, "", "TutorialSongController/TutorialObjectSpawnData");

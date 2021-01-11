@@ -57,8 +57,8 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TypeWrapper::$$c__DisplayClass1*, creationType>()));
     }
   }; // NUnit.Framework.Internal.TypeWrapper/<>c__DisplayClass1
+  #pragma pack(pop)
   static check_size<sizeof(TypeWrapper::$$c__DisplayClass1), 16 + sizeof(::Array<System::Type*>*)> __NUnit_Framework_Internal_TypeWrapper_$$c__DisplayClass1SizeCheck;
   static_assert(sizeof(TypeWrapper::$$c__DisplayClass1) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass1*, "NUnit.Framework.Internal", "TypeWrapper/<>c__DisplayClass1");

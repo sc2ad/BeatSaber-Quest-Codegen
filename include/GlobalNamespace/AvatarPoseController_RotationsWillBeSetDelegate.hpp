@@ -54,6 +54,6 @@ namespace GlobalNamespace {
     // Offset: 0x1A460EC
     void EndInvoke(UnityEngine::Quaternion& newHeadRotation, UnityEngine::Quaternion& newLeftHandRotation, UnityEngine::Quaternion& newRightHandRotation, System::IAsyncResult* result);
   }; // AvatarPoseController/RotationsWillBeSetDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate*, "", "AvatarPoseController/RotationsWillBeSetDelegate");

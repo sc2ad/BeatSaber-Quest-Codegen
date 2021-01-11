@@ -123,9 +123,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.IVRTrackedCamera
+  #pragma pack(pop)
   static check_size<sizeof(IVRTrackedCamera), 88 + sizeof(OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*)> __OVR_OpenVR_IVRTrackedCameraSizeCheck;
   static_assert(sizeof(IVRTrackedCamera) == 0x60);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRTrackedCamera, "OVR.OpenVR", "IVRTrackedCamera");

@@ -285,11 +285,11 @@ namespace UnityEngine::Playables {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.Playables.PlayableHandle
+  #pragma pack(pop)
   static check_size<sizeof(PlayableHandle), 8 + sizeof(uint)> __UnityEngine_Playables_PlayableHandleSizeCheck;
   static_assert(sizeof(PlayableHandle) == 0xC);
   // static public System.Boolean op_Equality(UnityEngine.Playables.PlayableHandle x, UnityEngine.Playables.PlayableHandle y)
   // Offset: 0x1731228
   bool operator ==(const UnityEngine::Playables::PlayableHandle& x, const UnityEngine::Playables::PlayableHandle& y);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableHandle, "UnityEngine.Playables", "PlayableHandle");

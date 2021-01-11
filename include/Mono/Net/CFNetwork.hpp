@@ -124,7 +124,7 @@ namespace Mono::Net {
     // Offset: 0x1261B20
     static void _cctor();
   }; // Mono.Net.CFNetwork
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork*, "Mono.Net", "CFNetwork");

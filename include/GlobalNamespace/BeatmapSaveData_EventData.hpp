@@ -71,8 +71,8 @@ namespace GlobalNamespace {
     // Base method: System.Void ITime::MoveTime(System.Single offset)
     void MoveTime(float offset);
   }; // BeatmapSaveData/EventData
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::EventData), 24 + sizeof(int)> __GlobalNamespace_BeatmapSaveData_EventDataSizeCheck;
   static_assert(sizeof(BeatmapSaveData::EventData) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::EventData*, "", "BeatmapSaveData/EventData");

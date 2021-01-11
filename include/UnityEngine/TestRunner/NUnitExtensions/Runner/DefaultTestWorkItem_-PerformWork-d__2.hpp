@@ -143,8 +143,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.DefaultTestWorkItem/<PerformWork>d__2
+  #pragma pack(pop)
   static check_size<sizeof(DefaultTestWorkItem::$PerformWork$d__2), 64 + sizeof(System::Collections::IEnumerator*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_DefaultTestWorkItem_$PerformWork$d__2SizeCheck;
   static_assert(sizeof(DefaultTestWorkItem::$PerformWork$d__2) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::$PerformWork$d__2*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "DefaultTestWorkItem/<PerformWork>d__2");

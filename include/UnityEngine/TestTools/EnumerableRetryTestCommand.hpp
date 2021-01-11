@@ -72,8 +72,8 @@ namespace UnityEngine::TestTools {
     // Base method: System.Collections.IEnumerable IEnumerableTestMethodCommand::ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
     System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestTools.EnumerableRetryTestCommand
+  #pragma pack(pop)
   static check_size<sizeof(EnumerableRetryTestCommand), 32 + sizeof(int)> __UnityEngine_TestTools_EnumerableRetryTestCommandSizeCheck;
   static_assert(sizeof(EnumerableRetryTestCommand) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableRetryTestCommand*, "UnityEngine.TestTools", "EnumerableRetryTestCommand");

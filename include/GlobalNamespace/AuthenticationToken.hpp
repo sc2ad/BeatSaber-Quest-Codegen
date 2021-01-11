@@ -95,6 +95,7 @@ namespace GlobalNamespace {
       // Set static field: static public AuthenticationToken/Platform Oculus
       static void _set_Oculus(GlobalNamespace::AuthenticationToken::Platform value);
     }; // AuthenticationToken/Platform
+    #pragma pack(pop)
     static check_size<sizeof(AuthenticationToken::Platform), 0 + sizeof(int)> __GlobalNamespace_AuthenticationToken_PlatformSizeCheck;
     static_assert(sizeof(AuthenticationToken::Platform) == 0x4);
     // public readonly AuthenticationToken/Platform platform
@@ -154,9 +155,9 @@ namespace GlobalNamespace {
     // Maps to method: CreateFromSerializedData
     GlobalNamespace::AuthenticationToken LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
   }; // AuthenticationToken
+  #pragma pack(pop)
   static check_size<sizeof(AuthenticationToken), 24 + sizeof(::Array<uint8_t>*)> __GlobalNamespace_AuthenticationTokenSizeCheck;
   static_assert(sizeof(AuthenticationToken) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationToken, "", "AuthenticationToken");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationToken::Platform, "", "AuthenticationToken/Platform");

@@ -117,8 +117,8 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Modes.CbcBlockCipher
+  #pragma pack(pop)
   static check_size<sizeof(CbcBlockCipher), 56 + sizeof(bool)> __Org_BouncyCastle_Crypto_Modes_CbcBlockCipherSizeCheck;
   static_assert(sizeof(CbcBlockCipher) == 0x39);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "CbcBlockCipher");

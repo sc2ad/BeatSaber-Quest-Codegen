@@ -60,9 +60,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.PeerConnectionState Closed
     static void _set_Closed(Oculus::Platform::PeerConnectionState value);
   }; // Oculus.Platform.PeerConnectionState
+  #pragma pack(pop)
   static check_size<sizeof(PeerConnectionState), 0 + sizeof(int)> __Oculus_Platform_PeerConnectionStateSizeCheck;
   static_assert(sizeof(PeerConnectionState) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PeerConnectionState, "Oculus.Platform", "PeerConnectionState");

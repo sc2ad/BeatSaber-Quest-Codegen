@@ -58,9 +58,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.DistortionCoordinates_t
+  #pragma pack(pop)
   static check_size<sizeof(DistortionCoordinates_t), 20 + sizeof(float)> __Valve_VR_DistortionCoordinates_tSizeCheck;
   static_assert(sizeof(DistortionCoordinates_t) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::DistortionCoordinates_t, "Valve.VR", "DistortionCoordinates_t");

@@ -83,9 +83,9 @@ namespace UnityEngine::Rendering {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.Rendering.BatchRendererCullingOutput
+  #pragma pack(pop)
   static check_size<sizeof(BatchRendererCullingOutput), 48 + sizeof(int)> __UnityEngine_Rendering_BatchRendererCullingOutputSizeCheck;
   static_assert(sizeof(BatchRendererCullingOutput) == 0x34);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererCullingOutput, "UnityEngine.Rendering", "BatchRendererCullingOutput");

@@ -124,6 +124,7 @@ namespace GlobalNamespace {
       // Set static field: static public OpenVRHelper/VRControllerManufacturerName Undefined
       static void _set_Undefined(GlobalNamespace::OpenVRHelper::VRControllerManufacturerName value);
     }; // OpenVRHelper/VRControllerManufacturerName
+    #pragma pack(pop)
     static check_size<sizeof(OpenVRHelper::VRControllerManufacturerName), 0 + sizeof(int)> __GlobalNamespace_OpenVRHelper_VRControllerManufacturerNameSizeCheck;
     static_assert(sizeof(OpenVRHelper::VRControllerManufacturerName) == 0x4);
     // [InjectAttribute] Offset: 0xD99528
@@ -384,9 +385,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OpenVRHelper*, creationType>()));
     }
   }; // OpenVRHelper
+  #pragma pack(pop)
   static check_size<sizeof(OpenVRHelper), 124 + sizeof(bool)> __GlobalNamespace_OpenVRHelperSizeCheck;
   static_assert(sizeof(OpenVRHelper) == 0x7D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OpenVRHelper*, "", "OpenVRHelper");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OpenVRHelper::VRControllerManufacturerName, "", "OpenVRHelper/VRControllerManufacturerName");

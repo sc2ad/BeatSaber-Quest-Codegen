@@ -233,8 +233,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // HologramRays
+  #pragma pack(pop)
   static check_size<sizeof(HologramRays), 156 + sizeof(bool)> __GlobalNamespace_HologramRaysSizeCheck;
   static_assert(sizeof(HologramRays) == 0x9D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HologramRays*, "", "HologramRays");

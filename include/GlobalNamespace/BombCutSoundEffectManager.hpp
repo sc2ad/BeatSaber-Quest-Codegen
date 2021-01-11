@@ -113,8 +113,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BombCutSoundEffectManager*, creationType>()));
     }
   }; // BombCutSoundEffectManager
+  #pragma pack(pop)
   static check_size<sizeof(BombCutSoundEffectManager), 64 + sizeof(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*)> __GlobalNamespace_BombCutSoundEffectManagerSizeCheck;
   static_assert(sizeof(BombCutSoundEffectManager) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombCutSoundEffectManager*, "", "BombCutSoundEffectManager");

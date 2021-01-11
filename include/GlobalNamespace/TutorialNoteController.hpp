@@ -129,8 +129,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TutorialNoteController*, creationType>()));
     }
   }; // TutorialNoteController
+  #pragma pack(pop)
   static check_size<sizeof(TutorialNoteController), 145 + sizeof(bool)> __GlobalNamespace_TutorialNoteControllerSizeCheck;
   static_assert(sizeof(TutorialNoteController) == 0x92);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialNoteController*, "", "TutorialNoteController");

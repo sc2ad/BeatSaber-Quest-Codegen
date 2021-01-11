@@ -40,9 +40,9 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // TMPro.TMP_SpriteInfo
+  #pragma pack(pop)
   static check_size<sizeof(TMP_SpriteInfo), 8 + sizeof(int)> __TMPro_TMP_SpriteInfoSizeCheck;
   static_assert(sizeof(TMP_SpriteInfo) == 0xC);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteInfo, "TMPro", "TMP_SpriteInfo");

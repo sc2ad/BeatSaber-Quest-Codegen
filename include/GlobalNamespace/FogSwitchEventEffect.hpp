@@ -99,8 +99,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FogSwitchEventEffect*, creationType>()));
     }
   }; // FogSwitchEventEffect
+  #pragma pack(pop)
   static check_size<sizeof(FogSwitchEventEffect), 40 + sizeof(GlobalNamespace::BeatmapObjectCallbackController*)> __GlobalNamespace_FogSwitchEventEffectSizeCheck;
   static_assert(sizeof(FogSwitchEventEffect) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FogSwitchEventEffect*, "", "FogSwitchEventEffect");

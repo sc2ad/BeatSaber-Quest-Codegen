@@ -169,8 +169,8 @@ namespace System::Text::RegularExpressions {
       return THROW_UNLESS((::il2cpp_utils::New<RegexWriter*, creationType>()));
     }
   }; // System.Text.RegularExpressions.RegexWriter
+  #pragma pack(pop)
   static check_size<sizeof(RegexWriter), 80 + sizeof(System::Collections::Hashtable*)> __System_Text_RegularExpressions_RegexWriterSizeCheck;
   static_assert(sizeof(RegexWriter) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexWriter*, "System.Text.RegularExpressions", "RegexWriter");

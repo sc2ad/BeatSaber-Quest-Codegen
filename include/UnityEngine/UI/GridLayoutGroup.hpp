@@ -81,6 +81,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.GridLayoutGroup/Corner LowerRight
       static void _set_LowerRight(UnityEngine::UI::GridLayoutGroup::Corner value);
     }; // UnityEngine.UI.GridLayoutGroup/Corner
+    #pragma pack(pop)
     static check_size<sizeof(GridLayoutGroup::Corner), 0 + sizeof(int)> __UnityEngine_UI_GridLayoutGroup_CornerSizeCheck;
     static_assert(sizeof(GridLayoutGroup::Corner) == 0x4);
     // Size: 0x4
@@ -118,6 +119,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.GridLayoutGroup/Axis Vertical
       static void _set_Vertical(UnityEngine::UI::GridLayoutGroup::Axis value);
     }; // UnityEngine.UI.GridLayoutGroup/Axis
+    #pragma pack(pop)
     static check_size<sizeof(GridLayoutGroup::Axis), 0 + sizeof(int)> __UnityEngine_UI_GridLayoutGroup_AxisSizeCheck;
     static_assert(sizeof(GridLayoutGroup::Axis) == 0x4);
     // Size: 0x4
@@ -161,6 +163,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.GridLayoutGroup/Constraint FixedRowCount
       static void _set_FixedRowCount(UnityEngine::UI::GridLayoutGroup::Constraint value);
     }; // UnityEngine.UI.GridLayoutGroup/Constraint
+    #pragma pack(pop)
     static check_size<sizeof(GridLayoutGroup::Constraint), 0 + sizeof(int)> __UnityEngine_UI_GridLayoutGroup_ConstraintSizeCheck;
     static_assert(sizeof(GridLayoutGroup::Constraint) == 0x4);
     // protected UnityEngine.UI.GridLayoutGroup/Corner m_StartCorner
@@ -276,10 +279,10 @@ namespace UnityEngine::UI {
     // Base method: System.Void LayoutGroup::SetLayoutVertical()
     void SetLayoutVertical();
   }; // UnityEngine.UI.GridLayoutGroup
+  #pragma pack(pop)
   static check_size<sizeof(GridLayoutGroup), 116 + sizeof(int)> __UnityEngine_UI_GridLayoutGroupSizeCheck;
   static_assert(sizeof(GridLayoutGroup) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup*, "UnityEngine.UI", "GridLayoutGroup");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Corner, "UnityEngine.UI", "GridLayoutGroup/Corner");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Axis, "UnityEngine.UI", "GridLayoutGroup/Axis");

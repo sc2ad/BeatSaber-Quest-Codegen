@@ -171,8 +171,8 @@ namespace TMPro {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // TMPro.TMP_SpriteAnimator/<DoSpriteAnimationInternal>d__7
+  #pragma pack(pop)
   static check_size<sizeof(TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7), 500 + sizeof(float)> __TMPro_TMP_SpriteAnimator_$DoSpriteAnimationInternal$d__7SizeCheck;
   static_assert(sizeof(TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7) == 0x1F8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7*, "TMPro", "TMP_SpriteAnimator/<DoSpriteAnimationInternal>d__7");

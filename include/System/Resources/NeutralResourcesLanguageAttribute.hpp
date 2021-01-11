@@ -51,8 +51,8 @@ namespace System::Resources {
     // Offset: 0x15D5D64
     System::Resources::UltimateResourceFallbackLocation get_Location();
   }; // System.Resources.NeutralResourcesLanguageAttribute
+  #pragma pack(pop)
   static check_size<sizeof(NeutralResourcesLanguageAttribute), 24 + sizeof(System::Resources::UltimateResourceFallbackLocation)> __System_Resources_NeutralResourcesLanguageAttributeSizeCheck;
   static_assert(sizeof(NeutralResourcesLanguageAttribute) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::NeutralResourcesLanguageAttribute*, "System.Resources", "NeutralResourcesLanguageAttribute");

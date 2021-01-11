@@ -50,9 +50,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.AnimationEventSource Animator
     static void _set_Animator(UnityEngine::AnimationEventSource value);
   }; // UnityEngine.AnimationEventSource
+  #pragma pack(pop)
   static check_size<sizeof(AnimationEventSource), 0 + sizeof(int)> __UnityEngine_AnimationEventSourceSizeCheck;
   static_assert(sizeof(AnimationEventSource) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationEventSource, "UnityEngine", "AnimationEventSource");

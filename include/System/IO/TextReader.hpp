@@ -103,6 +103,6 @@ namespace System::IO {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.IO.TextReader
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader*, "System.IO", "TextReader");

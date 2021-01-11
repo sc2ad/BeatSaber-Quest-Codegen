@@ -226,8 +226,8 @@ namespace UnityEngine::TestTools::Logging {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // UnityEngine.TestTools.Logging.LogScope
+  #pragma pack(pop)
   static check_size<sizeof(LogScope), 64 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_Logging_LogScopeSizeCheck;
   static_assert(sizeof(LogScope) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogScope*, "UnityEngine.TestTools.Logging", "LogScope");

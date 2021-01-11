@@ -39,8 +39,8 @@ namespace Mono::Globalization::Unicode {
       return THROW_UNLESS((::il2cpp_utils::New<Level2Map*, creationType>(source, replace)));
     }
   }; // Mono.Globalization.Unicode.Level2Map
+  #pragma pack(pop)
   static check_size<sizeof(Level2Map), 17 + sizeof(uint8_t)> __Mono_Globalization_Unicode_Level2MapSizeCheck;
   static_assert(sizeof(Level2Map) == 0x12);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Level2Map*, "Mono.Globalization.Unicode", "Level2Map");

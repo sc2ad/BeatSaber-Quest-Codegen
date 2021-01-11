@@ -58,8 +58,8 @@ namespace UnityEngine::Experimental::Rendering {
       return THROW_UNLESS((::il2cpp_utils::New<ScriptableRuntimeReflectionSystemWrapper*, creationType>()));
     }
   }; // UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper
+  #pragma pack(pop)
   static check_size<sizeof(ScriptableRuntimeReflectionSystemWrapper), 16 + sizeof(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*)> __UnityEngine_Experimental_Rendering_ScriptableRuntimeReflectionSystemWrapperSizeCheck;
   static_assert(sizeof(ScriptableRuntimeReflectionSystemWrapper) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper*, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemWrapper");

@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x192E960
     Valve::VR::EDeviceActivityLevel EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetTrackedDeviceActivityLevel
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel*, "Valve.VR", "IVRSystem/_GetTrackedDeviceActivityLevel");

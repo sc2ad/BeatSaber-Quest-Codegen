@@ -234,8 +234,8 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<Stream*, creationType>()));
     }
   }; // System.IO.Stream
+  #pragma pack(pop)
   static check_size<sizeof(Stream), 32 + sizeof(System::Threading::SemaphoreSlim*)> __System_IO_StreamSizeCheck;
   static_assert(sizeof(Stream) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream*, "System.IO", "Stream");

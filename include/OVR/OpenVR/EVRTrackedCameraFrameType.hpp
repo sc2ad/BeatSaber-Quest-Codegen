@@ -56,9 +56,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRTrackedCameraFrameType MAX_CAMERA_FRAME_TYPES
     static void _set_MAX_CAMERA_FRAME_TYPES(OVR::OpenVR::EVRTrackedCameraFrameType value);
   }; // OVR.OpenVR.EVRTrackedCameraFrameType
+  #pragma pack(pop)
   static check_size<sizeof(EVRTrackedCameraFrameType), 0 + sizeof(int)> __OVR_OpenVR_EVRTrackedCameraFrameTypeSizeCheck;
   static_assert(sizeof(EVRTrackedCameraFrameType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRTrackedCameraFrameType, "OVR.OpenVR", "EVRTrackedCameraFrameType");

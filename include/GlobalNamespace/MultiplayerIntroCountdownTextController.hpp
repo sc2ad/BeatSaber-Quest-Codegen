@@ -71,8 +71,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdownTextController*, creationType>()));
     }
   }; // MultiplayerIntroCountdownTextController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerIntroCountdownTextController), 24 + sizeof(::Array<TMPro::TextMeshPro*>*)> __GlobalNamespace_MultiplayerIntroCountdownTextControllerSizeCheck;
   static_assert(sizeof(MultiplayerIntroCountdownTextController) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdownTextController*, "", "MultiplayerIntroCountdownTextController");

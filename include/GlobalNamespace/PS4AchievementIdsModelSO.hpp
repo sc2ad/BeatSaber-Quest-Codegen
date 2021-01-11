@@ -84,8 +84,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4AchievementIdsModelSO*, creationType>()));
     }
   }; // PS4AchievementIdsModelSO
+  #pragma pack(pop)
   static check_size<sizeof(PS4AchievementIdsModelSO), 40 + sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*)> __GlobalNamespace_PS4AchievementIdsModelSOSizeCheck;
   static_assert(sizeof(PS4AchievementIdsModelSO) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AchievementIdsModelSO*, "", "PS4AchievementIdsModelSO");

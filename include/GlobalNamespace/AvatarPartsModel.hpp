@@ -146,8 +146,8 @@ namespace GlobalNamespace {
     // Offset: 0x1A43F44
     GlobalNamespace::SkinColorSO* GetRandomColor();
   }; // AvatarPartsModel
+  #pragma pack(pop)
   static check_size<sizeof(AvatarPartsModel), 80 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*)> __GlobalNamespace_AvatarPartsModelSizeCheck;
   static_assert(sizeof(AvatarPartsModel) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPartsModel*, "", "AvatarPartsModel");

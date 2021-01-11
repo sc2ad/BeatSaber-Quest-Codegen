@@ -45,9 +45,9 @@ namespace System::Runtime::Serialization::Formatters {
     // Set static field: static public System.Runtime.Serialization.Formatters.TypeFilterLevel Full
     static void _set_Full(System::Runtime::Serialization::Formatters::TypeFilterLevel value);
   }; // System.Runtime.Serialization.Formatters.TypeFilterLevel
+  #pragma pack(pop)
   static check_size<sizeof(TypeFilterLevel), 0 + sizeof(int)> __System_Runtime_Serialization_Formatters_TypeFilterLevelSizeCheck;
   static_assert(sizeof(TypeFilterLevel) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::TypeFilterLevel, "System.Runtime.Serialization.Formatters", "TypeFilterLevel");

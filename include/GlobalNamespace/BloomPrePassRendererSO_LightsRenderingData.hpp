@@ -68,8 +68,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassRendererSO::LightsRenderingData*, creationType>()));
     }
   }; // BloomPrePassRendererSO/LightsRenderingData
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePassRendererSO::LightsRenderingData), 40 + sizeof(::Array<UnityEngine::Vector4>*)> __GlobalNamespace_BloomPrePassRendererSO_LightsRenderingDataSizeCheck;
   static_assert(sizeof(BloomPrePassRendererSO::LightsRenderingData) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData*, "", "BloomPrePassRendererSO/LightsRenderingData");

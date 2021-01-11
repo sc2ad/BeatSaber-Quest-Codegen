@@ -33,7 +33,7 @@ namespace System {
     // Offset: 0xFFFFFFFF
     System::Text::StringBuilder* Append(System::Text::StringBuilder* sb);
   }; // System.ModifierSpec
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ModifierSpec*, "System", "ModifierSpec");

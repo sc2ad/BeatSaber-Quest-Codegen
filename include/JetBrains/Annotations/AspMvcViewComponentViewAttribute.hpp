@@ -33,6 +33,6 @@ namespace JetBrains::Annotations {
       return THROW_UNLESS((::il2cpp_utils::New<AspMvcViewComponentViewAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.AspMvcViewComponentViewAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcViewComponentViewAttribute*, "JetBrains.Annotations", "AspMvcViewComponentViewAttribute");

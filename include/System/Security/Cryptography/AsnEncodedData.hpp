@@ -104,8 +104,8 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<AsnEncodedData*, creationType>()));
     }
   }; // System.Security.Cryptography.AsnEncodedData
+  #pragma pack(pop)
   static check_size<sizeof(AsnEncodedData), 24 + sizeof(::Array<uint8_t>*)> __System_Security_Cryptography_AsnEncodedDataSizeCheck;
   static_assert(sizeof(AsnEncodedData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsnEncodedData*, "System.Security.Cryptography", "AsnEncodedData");

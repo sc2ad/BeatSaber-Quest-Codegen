@@ -41,8 +41,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<HelpURLAttribute*, creationType>(url)));
     }
   }; // UnityEngine.HelpURLAttribute
+  #pragma pack(pop)
   static check_size<sizeof(HelpURLAttribute), 16 + sizeof(::Il2CppString*)> __UnityEngine_HelpURLAttributeSizeCheck;
   static_assert(sizeof(HelpURLAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HelpURLAttribute*, "UnityEngine", "HelpURLAttribute");

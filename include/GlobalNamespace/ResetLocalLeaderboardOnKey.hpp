@@ -61,8 +61,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ResetLocalLeaderboardOnKey*, creationType>()));
     }
   }; // ResetLocalLeaderboardOnKey
+  #pragma pack(pop)
   static check_size<sizeof(ResetLocalLeaderboardOnKey), 32 + sizeof(UnityEngine::KeyCode)> __GlobalNamespace_ResetLocalLeaderboardOnKeySizeCheck;
   static_assert(sizeof(ResetLocalLeaderboardOnKey) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResetLocalLeaderboardOnKey*, "", "ResetLocalLeaderboardOnKey");

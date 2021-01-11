@@ -93,8 +93,8 @@ namespace OVRSimpleJSON {
     // Base method: System.Int32 JSONNode::GetHashCode()
     int GetHashCode();
   }; // OVRSimpleJSON.JSONString
+  #pragma pack(pop)
   static check_size<sizeof(JSONString), 16 + sizeof(::Il2CppString*)> __OVRSimpleJSON_JSONStringSizeCheck;
   static_assert(sizeof(JSONString) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONString*, "OVRSimpleJSON", "JSONString");

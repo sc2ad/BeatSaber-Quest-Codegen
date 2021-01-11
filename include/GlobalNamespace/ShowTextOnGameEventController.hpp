@@ -64,8 +64,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ShowTextOnGameEventController*, creationType>()));
     }
   }; // ShowTextOnGameEventController
+  #pragma pack(pop)
   static check_size<sizeof(ShowTextOnGameEventController), 32 + sizeof(::Array<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>*)> __GlobalNamespace_ShowTextOnGameEventControllerSizeCheck;
   static_assert(sizeof(ShowTextOnGameEventController) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowTextOnGameEventController*, "", "ShowTextOnGameEventController");

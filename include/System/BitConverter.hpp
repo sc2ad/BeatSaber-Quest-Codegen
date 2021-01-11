@@ -83,7 +83,7 @@ namespace System {
     // Offset: 0x1CAC200
     static void _cctor();
   }; // System.BitConverter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::BitConverter*, "System", "BitConverter");

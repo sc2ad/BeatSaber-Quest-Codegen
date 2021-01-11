@@ -36,7 +36,7 @@ namespace LiteNetLib {
     // Offset: 0xFFFFFFFF
     void LiteNetLib_INatPunchListener_OnNatIntroductionSuccess(System::Net::IPEndPoint* targetEndPoint, LiteNetLib::NatAddressType type, ::Il2CppString* token);
   }; // LiteNetLib.INatPunchListener
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::INatPunchListener*, "LiteNetLib", "INatPunchListener");

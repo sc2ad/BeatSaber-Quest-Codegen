@@ -51,6 +51,6 @@ namespace UnityEngine::UI {
     // Base method: System.Void Shadow::ModifyMesh(UnityEngine.UI.VertexHelper vh)
     void ModifyMesh(UnityEngine::UI::VertexHelper* vh);
   }; // UnityEngine.UI.Outline
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Outline*, "UnityEngine.UI", "Outline");

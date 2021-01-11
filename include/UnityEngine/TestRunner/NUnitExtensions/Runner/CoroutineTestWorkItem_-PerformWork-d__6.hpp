@@ -134,8 +134,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CoroutineTestWorkItem/<PerformWork>d__6
+  #pragma pack(pop)
   static check_size<sizeof(CoroutineTestWorkItem::$PerformWork$d__6), 56 + sizeof(UnityEngine::TestTools::Utils::CoroutineRunner*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_CoroutineTestWorkItem_$PerformWork$d__6SizeCheck;
   static_assert(sizeof(CoroutineTestWorkItem::$PerformWork$d__6) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::$PerformWork$d__6*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CoroutineTestWorkItem/<PerformWork>d__6");

@@ -82,8 +82,8 @@ namespace System::Resources {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Resources.ResourceFallbackManager
+  #pragma pack(pop)
   static check_size<sizeof(ResourceFallbackManager), 32 + sizeof(bool)> __System_Resources_ResourceFallbackManagerSizeCheck;
   static_assert(sizeof(ResourceFallbackManager) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceFallbackManager*, "System.Resources", "ResourceFallbackManager");

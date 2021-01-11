@@ -104,8 +104,8 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Security.Cryptography.X509Certificates.X509Chain
+  #pragma pack(pop)
   static check_size<sizeof(X509Chain), 16 + sizeof(System::Security::Cryptography::X509Certificates::X509ChainImpl*)> __System_Security_Cryptography_X509Certificates_X509ChainSizeCheck;
   static_assert(sizeof(X509Chain) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Chain*, "System.Security.Cryptography.X509Certificates", "X509Chain");

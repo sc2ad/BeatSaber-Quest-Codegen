@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x136F180
     bool EndInvoke(float& pSizeX, float& pSizeZ, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperone/_GetPlayAreaSize
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone::_GetPlayAreaSize*, "Valve.VR", "IVRChaperone/_GetPlayAreaSize");

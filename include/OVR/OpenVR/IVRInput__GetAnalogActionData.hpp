@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x18641BC
     OVR::OpenVR::EVRInputError EndInvoke(OVR::OpenVR::InputAnalogActionData_t& pActionData, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_GetAnalogActionData
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_GetAnalogActionData*, "OVR.OpenVR", "IVRInput/_GetAnalogActionData");

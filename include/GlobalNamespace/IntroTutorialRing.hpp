@@ -180,8 +180,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<IntroTutorialRing*, creationType>()));
     }
   }; // IntroTutorialRing
+  #pragma pack(pop)
   static check_size<sizeof(IntroTutorialRing), 104 + sizeof(bool)> __GlobalNamespace_IntroTutorialRingSizeCheck;
   static_assert(sizeof(IntroTutorialRing) == 0x69);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialRing*, "", "IntroTutorialRing");

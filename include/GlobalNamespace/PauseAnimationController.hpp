@@ -83,8 +83,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PauseAnimationController*, creationType>()));
     }
   }; // PauseAnimationController
+  #pragma pack(pop)
   static check_size<sizeof(PauseAnimationController), 32 + sizeof(System::Action*)> __GlobalNamespace_PauseAnimationControllerSizeCheck;
   static_assert(sizeof(PauseAnimationController) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseAnimationController*, "", "PauseAnimationController");

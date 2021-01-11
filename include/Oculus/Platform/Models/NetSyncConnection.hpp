@@ -67,8 +67,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<NetSyncConnection*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.NetSyncConnection
+  #pragma pack(pop)
   static check_size<sizeof(NetSyncConnection), 48 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_NetSyncConnectionSizeCheck;
   static_assert(sizeof(NetSyncConnection) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncConnection*, "Oculus.Platform.Models", "NetSyncConnection");

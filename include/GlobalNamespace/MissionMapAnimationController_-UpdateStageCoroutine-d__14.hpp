@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MissionMapAnimationController/<UpdateStageCoroutine>d__14
+  #pragma pack(pop)
   static check_size<sizeof(MissionMapAnimationController::$UpdateStageCoroutine$d__14), 32 + sizeof(GlobalNamespace::MissionMapAnimationController*)> __GlobalNamespace_MissionMapAnimationController_$UpdateStageCoroutine$d__14SizeCheck;
   static_assert(sizeof(MissionMapAnimationController::$UpdateStageCoroutine$d__14) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController::$UpdateStageCoroutine$d__14*, "", "MissionMapAnimationController/<UpdateStageCoroutine>d__14");

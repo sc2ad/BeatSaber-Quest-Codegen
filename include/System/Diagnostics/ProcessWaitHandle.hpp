@@ -36,6 +36,6 @@ namespace System::Diagnostics {
       return THROW_UNLESS((::il2cpp_utils::New<ProcessWaitHandle*, creationType>(processHandle)));
     }
   }; // System.Diagnostics.ProcessWaitHandle
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessWaitHandle*, "System.Diagnostics", "ProcessWaitHandle");

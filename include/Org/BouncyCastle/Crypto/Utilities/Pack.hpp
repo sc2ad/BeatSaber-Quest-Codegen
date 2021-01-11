@@ -76,7 +76,7 @@ namespace Org::BouncyCastle::Crypto::Utilities {
     // Offset: 0x1058B44
     static uint64_t LE_To_UInt64(::Array<uint8_t>* bs, int off);
   }; // Org.BouncyCastle.Crypto.Utilities.Pack
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Utilities::Pack*, "Org.BouncyCastle.Crypto.Utilities", "Pack");

@@ -55,8 +55,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x13F5C44
     void SetParentEofDetect(bool on);
   }; // Org.BouncyCastle.Asn1.LimitedInputStream
+  #pragma pack(pop)
   static check_size<sizeof(LimitedInputStream), 56 + sizeof(int)> __Org_BouncyCastle_Asn1_LimitedInputStreamSizeCheck;
   static_assert(sizeof(LimitedInputStream) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::LimitedInputStream*, "Org.BouncyCastle.Asn1", "LimitedInputStream");

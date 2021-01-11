@@ -100,8 +100,8 @@ namespace UnityEngine::UI {
     // Base method: System.Void ISubmitHandler::OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     void OnSubmit(UnityEngine::EventSystems::BaseEventData* eventData);
   }; // UnityEngine.UI.Button
+  #pragma pack(pop)
   static check_size<sizeof(Button), 240 + sizeof(UnityEngine::UI::Button::ButtonClickedEvent*)> __UnityEngine_UI_ButtonSizeCheck;
   static_assert(sizeof(Button) == 0xF8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Button*, "UnityEngine.UI", "Button");

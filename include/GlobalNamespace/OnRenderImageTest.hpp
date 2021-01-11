@@ -64,8 +64,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OnRenderImageTest*, creationType>()));
     }
   }; // OnRenderImageTest
+  #pragma pack(pop)
   static check_size<sizeof(OnRenderImageTest), 32 + sizeof(UnityEngine::Material*)> __GlobalNamespace_OnRenderImageTestSizeCheck;
   static_assert(sizeof(OnRenderImageTest) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnRenderImageTest*, "", "OnRenderImageTest");

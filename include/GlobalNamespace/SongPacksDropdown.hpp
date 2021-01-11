@@ -117,8 +117,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SongPacksDropdown*, creationType>()));
     }
   }; // SongPacksDropdown
+  #pragma pack(pop)
   static check_size<sizeof(SongPacksDropdown), 40 + sizeof(System::Action_1<int>*)> __GlobalNamespace_SongPacksDropdownSizeCheck;
   static_assert(sizeof(SongPacksDropdown) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPacksDropdown*, "", "SongPacksDropdown");

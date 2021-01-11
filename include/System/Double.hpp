@@ -279,9 +279,9 @@ namespace System {
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.Double
+  #pragma pack(pop)
   static check_size<sizeof(Double), 0 + sizeof(double)> __System_DoubleSizeCheck;
   static_assert(sizeof(Double) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Double, "System", "Double");

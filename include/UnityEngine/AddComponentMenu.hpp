@@ -48,8 +48,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<AddComponentMenu*, creationType>(menuName, order)));
     }
   }; // UnityEngine.AddComponentMenu
+  #pragma pack(pop)
   static check_size<sizeof(AddComponentMenu), 24 + sizeof(int)> __UnityEngine_AddComponentMenuSizeCheck;
   static_assert(sizeof(AddComponentMenu) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddComponentMenu*, "UnityEngine", "AddComponentMenu");

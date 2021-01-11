@@ -116,8 +116,8 @@ namespace UnityEngine::TextCore {
       return THROW_UNLESS((::il2cpp_utils::New<Glyph*, creationType>()));
     }
   }; // UnityEngine.TextCore.Glyph
+  #pragma pack(pop)
   static check_size<sizeof(Glyph), 60 + sizeof(int)> __UnityEngine_TextCore_GlyphSizeCheck;
   static_assert(sizeof(Glyph) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Glyph*, "UnityEngine.TextCore", "Glyph");

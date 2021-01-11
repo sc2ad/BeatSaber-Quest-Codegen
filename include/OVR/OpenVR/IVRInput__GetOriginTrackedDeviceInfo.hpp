@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x18651E0
     OVR::OpenVR::EVRInputError EndInvoke(OVR::OpenVR::InputOriginInfo_t& pOriginInfo, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_GetOriginTrackedDeviceInfo
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_GetOriginTrackedDeviceInfo*, "OVR.OpenVR", "IVRInput/_GetOriginTrackedDeviceInfo");

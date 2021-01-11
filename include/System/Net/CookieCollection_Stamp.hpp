@@ -58,9 +58,9 @@ namespace System::Net {
     // Set static field: static public System.Net.CookieCollection/Stamp SetToMaxUsed
     static void _set_SetToMaxUsed(System::Net::CookieCollection::Stamp value);
   }; // System.Net.CookieCollection/Stamp
+  #pragma pack(pop)
   static check_size<sizeof(CookieCollection::Stamp), 0 + sizeof(int)> __System_Net_CookieCollection_StampSizeCheck;
   static_assert(sizeof(CookieCollection::Stamp) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieCollection::Stamp, "System.Net", "CookieCollection/Stamp");

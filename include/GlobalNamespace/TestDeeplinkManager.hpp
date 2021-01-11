@@ -87,8 +87,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TestDeeplinkManager*, creationType>()));
     }
   }; // TestDeeplinkManager
+  #pragma pack(pop)
   static check_size<sizeof(TestDeeplinkManager), 24 + sizeof(GlobalNamespace::Deeplink*)> __GlobalNamespace_TestDeeplinkManagerSizeCheck;
   static_assert(sizeof(TestDeeplinkManager) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestDeeplinkManager*, "", "TestDeeplinkManager");

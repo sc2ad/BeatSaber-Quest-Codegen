@@ -122,8 +122,8 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0x1198338
     void $ExMethod$b__11_0();
   }; // UnityEngine.TestTools.Utils.CoroutineRunner
+  #pragma pack(pop)
   static check_size<sizeof(CoroutineRunner), 48 + sizeof(System::Collections::IEnumerator*)> __UnityEngine_TestTools_Utils_CoroutineRunnerSizeCheck;
   static_assert(sizeof(CoroutineRunner) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::CoroutineRunner*, "UnityEngine.TestTools.Utils", "CoroutineRunner");

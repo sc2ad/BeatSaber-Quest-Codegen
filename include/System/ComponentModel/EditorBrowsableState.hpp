@@ -50,9 +50,9 @@ namespace System::ComponentModel {
     // Set static field: static public System.ComponentModel.EditorBrowsableState Advanced
     static void _set_Advanced(System::ComponentModel::EditorBrowsableState value);
   }; // System.ComponentModel.EditorBrowsableState
+  #pragma pack(pop)
   static check_size<sizeof(EditorBrowsableState), 0 + sizeof(int)> __System_ComponentModel_EditorBrowsableStateSizeCheck;
   static_assert(sizeof(EditorBrowsableState) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EditorBrowsableState, "System.ComponentModel", "EditorBrowsableState");

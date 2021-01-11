@@ -28,7 +28,7 @@ namespace System {
     // Offset: 0x1659A9C
     static System::TypeIdentifier* FromDisplay(::Il2CppString* displayName);
   }; // System.TypeIdentifiers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypeIdentifiers*, "System", "TypeIdentifiers");

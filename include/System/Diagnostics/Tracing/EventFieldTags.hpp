@@ -39,9 +39,9 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.EventFieldTags None
     static void _set_None(System::Diagnostics::Tracing::EventFieldTags value);
   }; // System.Diagnostics.Tracing.EventFieldTags
+  #pragma pack(pop)
   static check_size<sizeof(EventFieldTags), 0 + sizeof(int)> __System_Diagnostics_Tracing_EventFieldTagsSizeCheck;
   static_assert(sizeof(EventFieldTags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventFieldTags, "System.Diagnostics.Tracing", "EventFieldTags");

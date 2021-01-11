@@ -103,8 +103,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Int32 RsaKeyParameters::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.Parameters.RsaPrivateCrtKeyParameters
+  #pragma pack(pop)
   static check_size<sizeof(RsaPrivateCrtKeyParameters), 80 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Crypto_Parameters_RsaPrivateCrtKeyParametersSizeCheck;
   static_assert(sizeof(RsaPrivateCrtKeyParameters) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "RsaPrivateCrtKeyParameters");

@@ -74,6 +74,7 @@ namespace GlobalNamespace {
       // Set static field: static public TextFadeTransitions/State FadingIn
       static void _set_FadingIn(GlobalNamespace::TextFadeTransitions::State value);
     }; // TextFadeTransitions/State
+    #pragma pack(pop)
     static check_size<sizeof(TextFadeTransitions::State), 0 + sizeof(int)> __GlobalNamespace_TextFadeTransitions_StateSizeCheck;
     static_assert(sizeof(TextFadeTransitions::State) == 0x4);
     // private TMPro.TextMeshProUGUI _textLabel
@@ -146,9 +147,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TextFadeTransitions*, creationType>()));
     }
   }; // TextFadeTransitions
+  #pragma pack(pop)
   static check_size<sizeof(TextFadeTransitions), 56 + sizeof(float)> __GlobalNamespace_TextFadeTransitionsSizeCheck;
   static_assert(sizeof(TextFadeTransitions) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions*, "", "TextFadeTransitions");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions::State, "", "TextFadeTransitions/State");

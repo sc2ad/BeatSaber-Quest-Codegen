@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x192E614
     bool EndInvoke(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetTimeSinceLastVsync
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetTimeSinceLastVsync*, "Valve.VR", "IVRSystem/_GetTimeSinceLastVsync");

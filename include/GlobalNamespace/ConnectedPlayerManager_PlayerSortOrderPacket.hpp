@@ -97,8 +97,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::PlayerSortOrderPacket*, creationType>()));
     }
   }; // ConnectedPlayerManager/PlayerSortOrderPacket
+  #pragma pack(pop)
   static check_size<sizeof(ConnectedPlayerManager::PlayerSortOrderPacket), 24 + sizeof(int)> __GlobalNamespace_ConnectedPlayerManager_PlayerSortOrderPacketSizeCheck;
   static_assert(sizeof(ConnectedPlayerManager::PlayerSortOrderPacket) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket*, "", "ConnectedPlayerManager/PlayerSortOrderPacket");

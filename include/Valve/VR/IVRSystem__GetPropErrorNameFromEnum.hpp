@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x192D1DC
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetPropErrorNameFromEnum
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetPropErrorNameFromEnum*, "Valve.VR", "IVRSystem/_GetPropErrorNameFromEnum");

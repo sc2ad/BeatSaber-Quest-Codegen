@@ -72,8 +72,8 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
       return THROW_UNLESS((::il2cpp_utils::New<TestResultRendererCallback*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRendererCallback
+  #pragma pack(pop)
   static check_size<sizeof(TestResultRendererCallback), 24 + sizeof(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*)> __UnityEngine_TestTools_TestRunner_Callbacks_TestResultRendererCallbackSizeCheck;
   static_assert(sizeof(TestResultRendererCallback) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRendererCallback");

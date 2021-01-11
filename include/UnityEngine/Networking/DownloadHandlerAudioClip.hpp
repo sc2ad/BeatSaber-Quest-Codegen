@@ -74,6 +74,6 @@ namespace UnityEngine::Networking {
     // Base method: System.String DownloadHandler::GetText()
     ::Il2CppString* GetText();
   }; // UnityEngine.Networking.DownloadHandlerAudioClip
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerAudioClip*, "UnityEngine.Networking", "DownloadHandlerAudioClip");

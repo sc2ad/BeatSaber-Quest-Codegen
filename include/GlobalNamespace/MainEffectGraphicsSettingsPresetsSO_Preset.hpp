@@ -49,8 +49,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainEffectGraphicsSettingsPresetsSO::Preset*, creationType>()));
     }
   }; // MainEffectGraphicsSettingsPresetsSO/Preset
+  #pragma pack(pop)
   static check_size<sizeof(MainEffectGraphicsSettingsPresetsSO::Preset), 24 + sizeof(GlobalNamespace::MainEffectSO*)> __GlobalNamespace_MainEffectGraphicsSettingsPresetsSO_PresetSizeCheck;
   static_assert(sizeof(MainEffectGraphicsSettingsPresetsSO::Preset) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*, "", "MainEffectGraphicsSettingsPresetsSO/Preset");

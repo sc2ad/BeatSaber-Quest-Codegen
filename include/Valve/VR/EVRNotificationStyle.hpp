@@ -62,9 +62,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRNotificationStyle Contact_Active
     static void _set_Contact_Active(Valve::VR::EVRNotificationStyle value);
   }; // Valve.VR.EVRNotificationStyle
+  #pragma pack(pop)
   static check_size<sizeof(EVRNotificationStyle), 0 + sizeof(int)> __Valve_VR_EVRNotificationStyleSizeCheck;
   static_assert(sizeof(EVRNotificationStyle) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRNotificationStyle, "Valve.VR", "EVRNotificationStyle");

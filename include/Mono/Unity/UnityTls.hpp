@@ -81,7 +81,7 @@ namespace Mono::Unity {
     // Offset: 0x126C754
     static Mono::Unity::UnityTls::unitytls_interface_struct* get_NativeInterface();
   }; // Mono.Unity.UnityTls
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls*, "Mono.Unity", "UnityTls");

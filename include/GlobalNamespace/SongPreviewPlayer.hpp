@@ -153,8 +153,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SongPreviewPlayer*, creationType>()));
     }
   }; // SongPreviewPlayer
+  #pragma pack(pop)
   static check_size<sizeof(SongPreviewPlayer), 88 + sizeof(float)> __GlobalNamespace_SongPreviewPlayerSizeCheck;
   static_assert(sizeof(SongPreviewPlayer) == 0x5C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer*, "", "SongPreviewPlayer");

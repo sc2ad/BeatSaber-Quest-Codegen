@@ -84,8 +84,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BezierSpline*, creationType>()));
     }
   }; // BezierSpline
+  #pragma pack(pop)
   static check_size<sizeof(BezierSpline), 24 + sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*)> __GlobalNamespace_BezierSplineSizeCheck;
   static_assert(sizeof(BezierSpline) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline*, "", "BezierSpline");

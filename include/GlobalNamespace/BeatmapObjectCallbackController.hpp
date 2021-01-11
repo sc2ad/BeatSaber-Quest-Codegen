@@ -200,8 +200,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectCallbackController*, creationType>()));
     }
   }; // BeatmapObjectCallbackController
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectCallbackController), 104 + sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*)> __GlobalNamespace_BeatmapObjectCallbackControllerSizeCheck;
   static_assert(sizeof(BeatmapObjectCallbackController) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectCallbackController*, "", "BeatmapObjectCallbackController");

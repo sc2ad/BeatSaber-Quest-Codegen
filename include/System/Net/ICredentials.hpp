@@ -33,7 +33,7 @@ namespace System::Net {
     // Offset: 0xFFFFFFFF
     System::Net::NetworkCredential* GetCredential(System::Uri* uri, ::Il2CppString* authType);
   }; // System.Net.ICredentials
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ICredentials*, "System.Net", "ICredentials");

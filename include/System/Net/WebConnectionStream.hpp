@@ -449,8 +449,8 @@ namespace System::Net {
     // Base method: System.Void Stream::.cctor()
     static void _cctor();
   }; // System.Net.WebConnectionStream
+  #pragma pack(pop)
   static check_size<sizeof(WebConnectionStream), 209 + sizeof(bool)> __System_Net_WebConnectionStreamSizeCheck;
   static_assert(sizeof(WebConnectionStream) == 0xD2);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionStream*, "System.Net", "WebConnectionStream");

@@ -74,6 +74,7 @@ namespace UnityEngine::ProBuilder {
       // Set static field: static public UnityEngine.ProBuilder.ActionResult/Status NoChange
       static void _set_NoChange(UnityEngine::ProBuilder::ActionResult::Status value);
     }; // UnityEngine.ProBuilder.ActionResult/Status
+    #pragma pack(pop)
     static check_size<sizeof(ActionResult::Status), 0 + sizeof(int)> __UnityEngine_ProBuilder_ActionResult_StatusSizeCheck;
     static_assert(sizeof(ActionResult::Status) == 0x4);
     // [CompilerGeneratedAttribute] Offset: 0xDE324C
@@ -129,9 +130,9 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18840C0
     static UnityEngine::ProBuilder::ActionResult* get_UserCanceled();
   }; // UnityEngine.ProBuilder.ActionResult
+  #pragma pack(pop)
   static check_size<sizeof(ActionResult), 24 + sizeof(::Il2CppString*)> __UnityEngine_ProBuilder_ActionResultSizeCheck;
   static_assert(sizeof(ActionResult) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult*, "UnityEngine.ProBuilder", "ActionResult");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult::Status, "UnityEngine.ProBuilder", "ActionResult/Status");

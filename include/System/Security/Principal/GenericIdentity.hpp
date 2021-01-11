@@ -104,8 +104,8 @@ namespace System::Security::Principal {
     // Base method: System.Void ClaimsIdentity::OnDeserializedMethod(System.Runtime.Serialization.StreamingContext context)
     void OnDeserializedMethod(System::Runtime::Serialization::StreamingContext context);
   }; // System.Security.Principal.GenericIdentity
+  #pragma pack(pop)
   static check_size<sizeof(GenericIdentity), 128 + sizeof(::Il2CppString*)> __System_Security_Principal_GenericIdentitySizeCheck;
   static_assert(sizeof(GenericIdentity) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::GenericIdentity*, "System.Security.Principal", "GenericIdentity");

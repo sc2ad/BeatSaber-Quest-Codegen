@@ -316,6 +316,7 @@ namespace System {
       // Set static field: static public System.DateTimeParse/DS DX_NNY
       static void _set_DX_NNY(System::DateTimeParse::DS value);
     }; // System.DateTimeParse/DS
+    #pragma pack(pop)
     static check_size<sizeof(DateTimeParse::DS), 0 + sizeof(int)> __System_DateTimeParse_DSSizeCheck;
     static_assert(sizeof(DateTimeParse::DS) == 0x4);
     // Creating value type constructor for type: DateTimeParse
@@ -548,8 +549,8 @@ namespace System {
     // Offset: 0x166D250
     static void _cctor();
   }; // System.DateTimeParse
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeParse*, "System", "DateTimeParse");
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeParse::DS, "System", "DateTimeParse/DS");

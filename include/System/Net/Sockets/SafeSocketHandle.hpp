@@ -102,8 +102,8 @@ namespace System::Net::Sockets {
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();
   }; // System.Net.Sockets.SafeSocketHandle
+  #pragma pack(pop)
   static check_size<sizeof(SafeSocketHandle), 48 + sizeof(bool)> __System_Net_Sockets_SafeSocketHandleSizeCheck;
   static_assert(sizeof(SafeSocketHandle) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SafeSocketHandle*, "System.Net.Sockets", "SafeSocketHandle");

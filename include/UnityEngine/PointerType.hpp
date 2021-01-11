@@ -50,9 +50,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.PointerType Pen
     static void _set_Pen(UnityEngine::PointerType value);
   }; // UnityEngine.PointerType
+  #pragma pack(pop)
   static check_size<sizeof(PointerType), 0 + sizeof(int)> __UnityEngine_PointerTypeSizeCheck;
   static_assert(sizeof(PointerType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PointerType, "UnityEngine", "PointerType");

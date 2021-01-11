@@ -64,8 +64,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelMissionParser*, creationType>()));
     }
   }; // LevelMissionParser
+  #pragma pack(pop)
   static check_size<sizeof(LevelMissionParser), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelMissionParser::ParserFunction*>*)> __GlobalNamespace_LevelMissionParserSizeCheck;
   static_assert(sizeof(LevelMissionParser) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelMissionParser*, "", "LevelMissionParser");

@@ -107,8 +107,8 @@ namespace System::Diagnostics {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Diagnostics.TraceListener
+  #pragma pack(pop)
   static check_size<sizeof(TraceListener), 40 + sizeof(::Il2CppString*)> __System_Diagnostics_TraceListenerSizeCheck;
   static_assert(sizeof(TraceListener) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceListener*, "System.Diagnostics", "TraceListener");

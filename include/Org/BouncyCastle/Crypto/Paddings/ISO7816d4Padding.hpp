@@ -57,6 +57,6 @@ namespace Org::BouncyCastle::Crypto::Paddings {
       return THROW_UNLESS((::il2cpp_utils::New<ISO7816d4Padding*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Paddings.ISO7816d4Padding
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::ISO7816d4Padding*, "Org.BouncyCastle.Crypto.Paddings", "ISO7816d4Padding");

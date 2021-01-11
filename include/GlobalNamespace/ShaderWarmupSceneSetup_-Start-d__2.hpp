@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // ShaderWarmupSceneSetup/<Start>d__2
+  #pragma pack(pop)
   static check_size<sizeof(ShaderWarmupSceneSetup::$Start$d__2), 32 + sizeof(GlobalNamespace::ShaderWarmupSceneSetup*)> __GlobalNamespace_ShaderWarmupSceneSetup_$Start$d__2SizeCheck;
   static_assert(sizeof(ShaderWarmupSceneSetup::$Start$d__2) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneSetup::$Start$d__2*, "", "ShaderWarmupSceneSetup/<Start>d__2");

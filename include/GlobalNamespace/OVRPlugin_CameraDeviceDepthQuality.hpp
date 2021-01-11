@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/CameraDeviceDepthQuality High
     static void _set_High(GlobalNamespace::OVRPlugin::CameraDeviceDepthQuality value);
   }; // OVRPlugin/CameraDeviceDepthQuality
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::CameraDeviceDepthQuality), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_CameraDeviceDepthQualitySizeCheck;
   static_assert(sizeof(OVRPlugin::CameraDeviceDepthQuality) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::CameraDeviceDepthQuality, "", "OVRPlugin/CameraDeviceDepthQuality");

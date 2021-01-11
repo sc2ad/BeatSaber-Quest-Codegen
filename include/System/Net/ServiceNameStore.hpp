@@ -54,8 +54,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<ServiceNameStore*, creationType>()));
     }
   }; // System.Net.ServiceNameStore
+  #pragma pack(pop)
   static check_size<sizeof(ServiceNameStore), 24 + sizeof(System::Security::Authentication::ExtendedProtection::ServiceNameCollection*)> __System_Net_ServiceNameStoreSizeCheck;
   static_assert(sizeof(ServiceNameStore) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServiceNameStore*, "System.Net", "ServiceNameStore");

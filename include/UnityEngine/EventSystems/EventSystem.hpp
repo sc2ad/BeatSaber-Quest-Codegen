@@ -231,8 +231,8 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.EventSystems.EventSystem
+  #pragma pack(pop)
   static check_size<sizeof(EventSystem), 72 + sizeof(UnityEngine::EventSystems::BaseEventData*)> __UnityEngine_EventSystems_EventSystemSizeCheck;
   static_assert(sizeof(EventSystem) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventSystem*, "UnityEngine.EventSystems", "EventSystem");

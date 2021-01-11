@@ -116,8 +116,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TabBarViewController*, creationType>()));
     }
   }; // TabBarViewController
+  #pragma pack(pop)
   static check_size<sizeof(TabBarViewController), 144 + sizeof(bool)> __GlobalNamespace_TabBarViewControllerSizeCheck;
   static_assert(sizeof(TabBarViewController) == 0x91);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TabBarViewController*, "", "TabBarViewController");

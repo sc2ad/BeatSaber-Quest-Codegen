@@ -63,6 +63,6 @@ namespace Valve::VR {
     // Offset: 0x18EB528
     Valve::VR::EVRCompositorError EndInvoke(Valve::VR::Texture_t& pTexture, Valve::VR::VRTextureBounds_t& pBounds, System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_Submit
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_Submit*, "Valve.VR", "IVRCompositor/_Submit");

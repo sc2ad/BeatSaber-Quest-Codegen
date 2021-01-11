@@ -97,8 +97,8 @@ namespace TMPro {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // TMPro.TMP_InputField/<MouseDragOutsideRect>d__285
+  #pragma pack(pop)
   static check_size<sizeof(TMP_InputField::$MouseDragOutsideRect$d__285), 40 + sizeof(UnityEngine::EventSystems::PointerEventData*)> __TMPro_TMP_InputField_$MouseDragOutsideRect$d__285SizeCheck;
   static_assert(sizeof(TMP_InputField::$MouseDragOutsideRect$d__285) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::$MouseDragOutsideRect$d__285*, "TMPro", "TMP_InputField/<MouseDragOutsideRect>d__285");

@@ -130,7 +130,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x133FAD4
     static ::Il2CppString* GetClrTypeFullNameForNonArrayTypes(System::Type* type);
   }; // System.Runtime.Serialization.FormatterServices
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FormatterServices*, "System.Runtime.Serialization", "FormatterServices");

@@ -101,8 +101,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicsDropdown*, creationType>()));
     }
   }; // BeatmapCharacteristicsDropdown
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapCharacteristicsDropdown), 40 + sizeof(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>*)> __GlobalNamespace_BeatmapCharacteristicsDropdownSizeCheck;
   static_assert(sizeof(BeatmapCharacteristicsDropdown) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicsDropdown*, "", "BeatmapCharacteristicsDropdown");

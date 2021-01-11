@@ -80,9 +80,9 @@ namespace System::Threading::Tasks {
     // Set static field: static public System.Threading.Tasks.TaskStatus Faulted
     static void _set_Faulted(System::Threading::Tasks::TaskStatus value);
   }; // System.Threading.Tasks.TaskStatus
+  #pragma pack(pop)
   static check_size<sizeof(TaskStatus), 0 + sizeof(int)> __System_Threading_Tasks_TaskStatusSizeCheck;
   static_assert(sizeof(TaskStatus) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskStatus, "System.Threading.Tasks", "TaskStatus");

@@ -53,9 +53,9 @@ namespace UnityEngine::Timeline {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.Timeline.IntervalTreeNode
+  #pragma pack(pop)
   static check_size<sizeof(IntervalTreeNode), 20 + sizeof(int)> __UnityEngine_Timeline_IntervalTreeNodeSizeCheck;
   static_assert(sizeof(IntervalTreeNode) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IntervalTreeNode, "UnityEngine.Timeline", "IntervalTreeNode");

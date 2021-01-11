@@ -90,8 +90,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlatformAchievementsModelSO*, creationType>()));
     }
   }; // PlatformAchievementsModelSO
+  #pragma pack(pop)
   static check_size<sizeof(PlatformAchievementsModelSO), 40 + sizeof(GlobalNamespace::PlatformAchievementsHandler*)> __GlobalNamespace_PlatformAchievementsModelSOSizeCheck;
   static_assert(sizeof(PlatformAchievementsModelSO) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAchievementsModelSO*, "", "PlatformAchievementsModelSO");

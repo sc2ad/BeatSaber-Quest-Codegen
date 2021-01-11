@@ -145,8 +145,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatEffectSpawner*, creationType>()));
     }
   }; // BeatEffectSpawner
+  #pragma pack(pop)
   static check_size<sizeof(BeatEffectSpawner), 96 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatEffect*>*)> __GlobalNamespace_BeatEffectSpawnerSizeCheck;
   static_assert(sizeof(BeatEffectSpawner) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffectSpawner*, "", "BeatEffectSpawner");

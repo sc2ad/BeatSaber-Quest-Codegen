@@ -49,9 +49,9 @@ namespace NetEase::Docker {
     // Offset: 0xCB9AB0
     void set_InitializeCode(int value);
   }; // NetEase.Docker.InitializeData
+  #pragma pack(pop)
   static check_size<sizeof(InitializeData), 4 + sizeof(int)> __NetEase_Docker_InitializeDataSizeCheck;
   static_assert(sizeof(InitializeData) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::InitializeData, "NetEase.Docker", "InitializeData");

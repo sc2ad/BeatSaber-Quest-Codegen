@@ -64,8 +64,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterDataModel*, creationType>()));
     }
   }; // BTSCharacterDataModel
+  #pragma pack(pop)
   static check_size<sizeof(BTSCharacterDataModel), 32 + sizeof(::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>*)> __GlobalNamespace_BTSCharacterDataModelSizeCheck;
   static_assert(sizeof(BTSCharacterDataModel) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel*, "", "BTSCharacterDataModel");

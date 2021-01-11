@@ -39,8 +39,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<OrgScopedID*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.OrgScopedID
+  #pragma pack(pop)
   static check_size<sizeof(OrgScopedID), 16 + sizeof(uint64_t)> __Oculus_Platform_Models_OrgScopedIDSizeCheck;
   static_assert(sizeof(OrgScopedID) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::OrgScopedID*, "Oculus.Platform.Models", "OrgScopedID");

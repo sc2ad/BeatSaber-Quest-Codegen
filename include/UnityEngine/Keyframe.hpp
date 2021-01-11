@@ -109,8 +109,8 @@ namespace UnityEngine {
     // Offset: 0xCA5224
     void set_outTangent(float value);
   }; // UnityEngine.Keyframe
+  #pragma pack(pop)
   static check_size<sizeof(Keyframe), 24 + sizeof(float)> __UnityEngine_KeyframeSizeCheck;
   static_assert(sizeof(Keyframe) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Keyframe, "UnityEngine", "Keyframe");

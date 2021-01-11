@@ -85,8 +85,8 @@ namespace System {
     // Base method: System.ConsoleKeyInfo IConsoleDriver::ReadKey(System.Boolean intercept)
     System::ConsoleKeyInfo ReadKey(bool intercept);
   }; // System.WindowsConsoleDriver
+  #pragma pack(pop)
   static check_size<sizeof(WindowsConsoleDriver), 32 + sizeof(int16_t)> __System_WindowsConsoleDriverSizeCheck;
   static_assert(sizeof(WindowsConsoleDriver) == 0x22);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::WindowsConsoleDriver*, "System", "WindowsConsoleDriver");

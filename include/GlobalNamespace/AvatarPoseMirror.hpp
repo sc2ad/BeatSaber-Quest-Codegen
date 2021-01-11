@@ -71,8 +71,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AvatarPoseMirror*, creationType>()));
     }
   }; // AvatarPoseMirror
+  #pragma pack(pop)
   static check_size<sizeof(AvatarPoseMirror), 24 + sizeof(GlobalNamespace::AvatarPoseController*)> __GlobalNamespace_AvatarPoseMirrorSizeCheck;
   static_assert(sizeof(AvatarPoseMirror) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseMirror*, "", "AvatarPoseMirror");

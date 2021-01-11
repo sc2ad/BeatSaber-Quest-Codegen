@@ -44,9 +44,9 @@ namespace OVRSimpleJSON {
     // Set static field: static public OVRSimpleJSON.JSONContainerType Object
     static void _set_Object(OVRSimpleJSON::JSONContainerType value);
   }; // OVRSimpleJSON.JSONContainerType
+  #pragma pack(pop)
   static check_size<sizeof(JSONContainerType), 0 + sizeof(int)> __OVRSimpleJSON_JSONContainerTypeSizeCheck;
   static_assert(sizeof(JSONContainerType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONContainerType, "OVRSimpleJSON", "JSONContainerType");

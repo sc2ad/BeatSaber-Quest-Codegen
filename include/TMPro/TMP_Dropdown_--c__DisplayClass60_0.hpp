@@ -47,8 +47,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::$$c__DisplayClass60_0*, creationType>()));
     }
   }; // TMPro.TMP_Dropdown/<>c__DisplayClass60_0
+  #pragma pack(pop)
   static check_size<sizeof(TMP_Dropdown::$$c__DisplayClass60_0), 24 + sizeof(TMPro::TMP_Dropdown*)> __TMPro_TMP_Dropdown_$$c__DisplayClass60_0SizeCheck;
   static_assert(sizeof(TMP_Dropdown::$$c__DisplayClass60_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::$$c__DisplayClass60_0*, "TMPro", "TMP_Dropdown/<>c__DisplayClass60_0");

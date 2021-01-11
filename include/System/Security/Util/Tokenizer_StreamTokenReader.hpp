@@ -62,8 +62,8 @@ namespace System::Security::Util {
     // Base method: System.Int32 ITokenReader::Read()
     int Read();
   }; // System.Security.Util.Tokenizer/StreamTokenReader
+  #pragma pack(pop)
   static check_size<sizeof(Tokenizer::StreamTokenReader), 24 + sizeof(int)> __System_Security_Util_Tokenizer_StreamTokenReaderSizeCheck;
   static_assert(sizeof(Tokenizer::StreamTokenReader) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::StreamTokenReader*, "System.Security.Util", "Tokenizer/StreamTokenReader");

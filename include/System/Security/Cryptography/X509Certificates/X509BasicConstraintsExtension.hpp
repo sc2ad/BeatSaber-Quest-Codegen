@@ -125,8 +125,8 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::Il2CppString* ToString(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension
+  #pragma pack(pop)
   static check_size<sizeof(X509BasicConstraintsExtension), 40 + sizeof(System::Security::Cryptography::AsnDecodeStatus)> __System_Security_Cryptography_X509Certificates_X509BasicConstraintsExtensionSizeCheck;
   static_assert(sizeof(X509BasicConstraintsExtension) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension*, "System.Security.Cryptography.X509Certificates", "X509BasicConstraintsExtension");

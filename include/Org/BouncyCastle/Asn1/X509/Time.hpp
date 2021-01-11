@@ -76,8 +76,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.X509.Time
+  #pragma pack(pop)
   static check_size<sizeof(Time), 16 + sizeof(Org::BouncyCastle::Asn1::Asn1Object*)> __Org_BouncyCastle_Asn1_X509_TimeSizeCheck;
   static_assert(sizeof(Time) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::Time*, "Org.BouncyCastle.Asn1.X509", "Time");

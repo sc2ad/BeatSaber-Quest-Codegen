@@ -171,8 +171,8 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: System.Int32 ECFieldElement::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.EC.FpFieldElement
+  #pragma pack(pop)
   static check_size<sizeof(FpFieldElement), 32 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Math_EC_FpFieldElementSizeCheck;
   static_assert(sizeof(FpFieldElement) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::FpFieldElement*, "Org.BouncyCastle.Math.EC", "FpFieldElement");

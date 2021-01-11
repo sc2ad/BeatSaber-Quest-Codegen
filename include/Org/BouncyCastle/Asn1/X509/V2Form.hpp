@@ -78,8 +78,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.X509.V2Form
+  #pragma pack(pop)
   static check_size<sizeof(V2Form), 32 + sizeof(Org::BouncyCastle::Asn1::X509::ObjectDigestInfo*)> __Org_BouncyCastle_Asn1_X509_V2FormSizeCheck;
   static_assert(sizeof(V2Form) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::V2Form*, "Org.BouncyCastle.Asn1.X509", "V2Form");

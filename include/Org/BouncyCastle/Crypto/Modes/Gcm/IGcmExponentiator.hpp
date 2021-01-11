@@ -26,7 +26,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // Offset: 0xFFFFFFFF
     void ExponentiateX(int64_t pow, ::Array<uint8_t>* output);
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.IGcmExponentiator
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*, "Org.BouncyCastle.Crypto.Modes.Gcm", "IGcmExponentiator");

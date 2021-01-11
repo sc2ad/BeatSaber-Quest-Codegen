@@ -112,8 +112,8 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<Task::ContingentProperties*, creationType>()));
     }
   }; // System.Threading.Tasks.Task/ContingentProperties
+  #pragma pack(pop)
   static check_size<sizeof(Task::ContingentProperties), 64 + sizeof(System::Collections::Generic::List_1<System::Threading::Tasks::Task*>*)> __System_Threading_Tasks_Task_ContingentPropertiesSizeCheck;
   static_assert(sizeof(Task::ContingentProperties) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::ContingentProperties*, "System.Threading.Tasks", "Task/ContingentProperties");

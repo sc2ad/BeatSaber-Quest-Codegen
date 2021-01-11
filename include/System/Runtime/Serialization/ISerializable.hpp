@@ -28,7 +28,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0xFFFFFFFF
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Runtime.Serialization.ISerializable
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ISerializable*, "System.Runtime.Serialization", "ISerializable");

@@ -173,6 +173,7 @@ namespace GlobalNamespace {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // BloomFilter
+  #pragma pack(pop)
   static check_size<sizeof(BloomFilter), 8 + sizeof(uint64_t)> __GlobalNamespace_BloomFilterSizeCheck;
   static_assert(sizeof(BloomFilter) == 0x10);
   // static public BloomFilter op_BitwiseOr(BloomFilter a, BloomFilter b)
@@ -188,5 +189,4 @@ namespace GlobalNamespace {
   // Offset: 0x19A30B0
   bool operator !=(const GlobalNamespace::BloomFilter& a, const GlobalNamespace::BloomFilter& b);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFilter, "", "BloomFilter");

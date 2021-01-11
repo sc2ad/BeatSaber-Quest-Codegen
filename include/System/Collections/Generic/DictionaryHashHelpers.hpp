@@ -40,7 +40,7 @@ namespace System::Collections::Generic {
     // Offset: 0x1CB6394
     static void _cctor();
   }; // System.Collections.Generic.DictionaryHashHelpers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::DictionaryHashHelpers*, "System.Collections.Generic", "DictionaryHashHelpers");

@@ -80,8 +80,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlyingGameHUDRotation*, creationType>()));
     }
   }; // FlyingGameHUDRotation
+  #pragma pack(pop)
   static check_size<sizeof(FlyingGameHUDRotation), 48 + sizeof(float)> __GlobalNamespace_FlyingGameHUDRotationSizeCheck;
   static_assert(sizeof(FlyingGameHUDRotation) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingGameHUDRotation*, "", "FlyingGameHUDRotation");

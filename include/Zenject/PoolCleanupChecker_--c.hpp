@@ -56,6 +56,6 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<PoolCleanupChecker::$$c*, creationType>()));
     }
   }; // Zenject.PoolCleanupChecker/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolCleanupChecker::$$c*, "Zenject", "PoolCleanupChecker/<>c");

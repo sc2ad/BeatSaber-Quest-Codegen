@@ -68,8 +68,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionClearedEnvironmentEffect*, creationType>()));
     }
   }; // MissionClearedEnvironmentEffect
+  #pragma pack(pop)
   static check_size<sizeof(MissionClearedEnvironmentEffect), 32 + sizeof(GlobalNamespace::BeatmapObjectCallbackController*)> __GlobalNamespace_MissionClearedEnvironmentEffectSizeCheck;
   static_assert(sizeof(MissionClearedEnvironmentEffect) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionClearedEnvironmentEffect*, "", "MissionClearedEnvironmentEffect");

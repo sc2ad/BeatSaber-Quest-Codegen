@@ -97,8 +97,8 @@ namespace GlobalNamespace {
     // Offset: 0x1A5759C
     void HandleSwingRatingCounterDidFinishEvent(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
   }; // CutScoreBuffer
+  #pragma pack(pop)
   static check_size<sizeof(CutScoreBuffer), 48 + sizeof(GlobalNamespace::NoteCutInfo*)> __GlobalNamespace_CutScoreBufferSizeCheck;
   static_assert(sizeof(CutScoreBuffer) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutScoreBuffer*, "", "CutScoreBuffer");

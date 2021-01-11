@@ -72,8 +72,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerNoteController*, creationType>()));
     }
   }; // MultiplayerConnectedPlayerNoteController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerNoteController), 128 + sizeof(bool)> __GlobalNamespace_MultiplayerConnectedPlayerNoteControllerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerNoteController) == 0x81);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerNoteController*, "", "MultiplayerConnectedPlayerNoteController");

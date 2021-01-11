@@ -103,8 +103,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightWithIds*, creationType>()));
     }
   }; // LightWithIds
+  #pragma pack(pop)
   static check_size<sizeof(LightWithIds), 48 + sizeof(bool)> __GlobalNamespace_LightWithIdsSizeCheck;
   static_assert(sizeof(LightWithIds) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIds*, "", "LightWithIds");

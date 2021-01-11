@@ -99,8 +99,8 @@ namespace Org::BouncyCastle::Crypto::Prng {
     // Base method: System.Void IRandomGenerator::NextBytes(System.Byte[] bytes)
     void NextBytes(::Array<uint8_t>* bytes);
   }; // Org.BouncyCastle.Crypto.Prng.DigestRandomGenerator
+  #pragma pack(pop)
   static check_size<sizeof(DigestRandomGenerator), 48 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Prng_DigestRandomGeneratorSizeCheck;
   static_assert(sizeof(DigestRandomGenerator) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator*, "Org.BouncyCastle.Crypto.Prng", "DigestRandomGenerator");

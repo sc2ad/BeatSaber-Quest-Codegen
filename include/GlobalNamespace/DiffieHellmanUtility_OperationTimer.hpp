@@ -65,8 +65,8 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // DiffieHellmanUtility/OperationTimer
+  #pragma pack(pop)
   static check_size<sizeof(DiffieHellmanUtility::OperationTimer), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_DiffieHellmanUtility_OperationTimerSizeCheck;
   static_assert(sizeof(DiffieHellmanUtility::OperationTimer) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::OperationTimer*, "", "DiffieHellmanUtility/OperationTimer");

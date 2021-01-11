@@ -51,9 +51,9 @@ namespace System::Globalization {
     // Set static field: static public System.Globalization.MonthNameStyles LeapYear
     static void _set_LeapYear(System::Globalization::MonthNameStyles value);
   }; // System.Globalization.MonthNameStyles
+  #pragma pack(pop)
   static check_size<sizeof(MonthNameStyles), 0 + sizeof(int)> __System_Globalization_MonthNameStylesSizeCheck;
   static_assert(sizeof(MonthNameStyles) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::MonthNameStyles, "System.Globalization", "MonthNameStyles");

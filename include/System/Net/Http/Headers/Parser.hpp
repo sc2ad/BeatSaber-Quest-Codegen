@@ -39,7 +39,7 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: Parser
     Parser() noexcept {}
   }; // System.Net.Http.Headers.Parser
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser*, "System.Net.Http.Headers", "Parser");

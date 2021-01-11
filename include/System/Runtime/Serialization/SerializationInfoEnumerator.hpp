@@ -115,8 +115,8 @@ namespace System::Runtime::Serialization {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Runtime.Serialization.SerializationInfoEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(SerializationInfoEnumerator), 48 + sizeof(bool)> __System_Runtime_Serialization_SerializationInfoEnumeratorSizeCheck;
   static_assert(sizeof(SerializationInfoEnumerator) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationInfoEnumerator*, "System.Runtime.Serialization", "SerializationInfoEnumerator");

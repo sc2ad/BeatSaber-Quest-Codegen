@@ -80,8 +80,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintPositionOffset*, creationType>()));
     }
   }; // RootMotion.FinalIK.ConstraintPositionOffset
+  #pragma pack(pop)
   static check_size<sizeof(ConstraintPositionOffset), 64 + sizeof(bool)> __RootMotion_FinalIK_ConstraintPositionOffsetSizeCheck;
   static_assert(sizeof(ConstraintPositionOffset) == 0x41);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintPositionOffset*, "RootMotion.FinalIK", "ConstraintPositionOffset");

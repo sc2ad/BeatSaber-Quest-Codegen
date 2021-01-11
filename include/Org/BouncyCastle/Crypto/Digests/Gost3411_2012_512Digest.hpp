@@ -68,6 +68,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Void Gost3411_2012Digest::.cctor()
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Digests.Gost3411_2012_512Digest
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest*, "Org.BouncyCastle.Crypto.Digests", "Gost3411_2012_512Digest");

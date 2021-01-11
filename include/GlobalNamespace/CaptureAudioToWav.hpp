@@ -94,8 +94,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CaptureAudioToWav*, creationType>()));
     }
   }; // CaptureAudioToWav
+  #pragma pack(pop)
   static check_size<sizeof(CaptureAudioToWav), 48 + sizeof(System::IO::FileStream*)> __GlobalNamespace_CaptureAudioToWavSizeCheck;
   static_assert(sizeof(CaptureAudioToWav) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CaptureAudioToWav*, "", "CaptureAudioToWav");

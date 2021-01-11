@@ -84,8 +84,8 @@ namespace System::Text {
     // Base method: System.Void EncoderFallbackBuffer::Reset()
     void Reset();
   }; // System.Text.EncoderReplacementFallbackBuffer
+  #pragma pack(pop)
   static check_size<sizeof(EncoderReplacementFallbackBuffer), 60 + sizeof(int)> __System_Text_EncoderReplacementFallbackBufferSizeCheck;
   static_assert(sizeof(EncoderReplacementFallbackBuffer) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderReplacementFallbackBuffer*, "System.Text", "EncoderReplacementFallbackBuffer");

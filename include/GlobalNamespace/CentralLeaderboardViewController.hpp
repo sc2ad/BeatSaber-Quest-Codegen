@@ -285,8 +285,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CentralLeaderboardViewController*, creationType>()));
     }
   }; // CentralLeaderboardViewController
+  #pragma pack(pop)
   static check_size<sizeof(CentralLeaderboardViewController), 256 + sizeof(GlobalNamespace::GameplayModifiers*)> __GlobalNamespace_CentralLeaderboardViewControllerSizeCheck;
   static_assert(sizeof(CentralLeaderboardViewController) == 0x108);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController*, "", "CentralLeaderboardViewController");

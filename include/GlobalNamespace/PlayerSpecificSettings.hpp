@@ -179,8 +179,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSpecificSettings*, creationType>()));
     }
   }; // PlayerSpecificSettings
+  #pragma pack(pop)
   static check_size<sizeof(PlayerSpecificSettings), 49 + sizeof(bool)> __GlobalNamespace_PlayerSpecificSettingsSizeCheck;
   static_assert(sizeof(PlayerSpecificSettings) == 0x32);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpecificSettings*, "", "PlayerSpecificSettings");

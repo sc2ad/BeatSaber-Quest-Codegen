@@ -120,8 +120,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlyingScoreEffect*, creationType>()));
     }
   }; // FlyingScoreEffect
+  #pragma pack(pop)
   static check_size<sizeof(FlyingScoreEffect), 176 + sizeof(GlobalNamespace::NoteCutInfo*)> __GlobalNamespace_FlyingScoreEffectSizeCheck;
   static_assert(sizeof(FlyingScoreEffect) == 0xB8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreEffect*, "", "FlyingScoreEffect");

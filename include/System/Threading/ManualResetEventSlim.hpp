@@ -217,8 +217,8 @@ namespace System::Threading {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Threading.ManualResetEventSlim
+  #pragma pack(pop)
   static check_size<sizeof(ManualResetEventSlim), 32 + sizeof(int)> __System_Threading_ManualResetEventSlimSizeCheck;
   static_assert(sizeof(ManualResetEventSlim) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ManualResetEventSlim*, "System.Threading", "ManualResetEventSlim");

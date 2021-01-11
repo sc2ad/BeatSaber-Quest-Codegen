@@ -165,8 +165,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjectiveGameUIView*, creationType>()));
     }
   }; // MissionObjectiveGameUIView
+  #pragma pack(pop)
   static check_size<sizeof(MissionObjectiveGameUIView), 152 + sizeof(GlobalNamespace::MissionObjectiveChecker*)> __GlobalNamespace_MissionObjectiveGameUIViewSizeCheck;
   static_assert(sizeof(MissionObjectiveGameUIView) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveGameUIView*, "", "MissionObjectiveGameUIView");

@@ -1273,6 +1273,6 @@ namespace Valve::VR {
       return THROW_UNLESS((::il2cpp_utils::New<OpenVR*, creationType>()));
     }
   }; // Valve.VR.OpenVR
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::OpenVR*, "Valve.VR", "OpenVR");

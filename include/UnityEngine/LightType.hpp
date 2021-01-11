@@ -68,9 +68,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.LightType Disc
     static void _set_Disc(UnityEngine::LightType value);
   }; // UnityEngine.LightType
+  #pragma pack(pop)
   static check_size<sizeof(LightType), 0 + sizeof(int)> __UnityEngine_LightTypeSizeCheck;
   static_assert(sizeof(LightType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightType, "UnityEngine", "LightType");

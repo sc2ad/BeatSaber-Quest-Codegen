@@ -49,6 +49,6 @@ namespace Mono::Net {
     // Offset: 0x12620BC
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Net.CFNetwork/CFProxyAutoConfigurationResultCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*, "Mono.Net", "CFNetwork/CFProxyAutoConfigurationResultCallback");

@@ -43,9 +43,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.InputSkeletalActionData_t
+  #pragma pack(pop)
   static check_size<sizeof(InputSkeletalActionData_t), 16 + sizeof(uint)> __OVR_OpenVR_InputSkeletalActionData_tSizeCheck;
   static_assert(sizeof(InputSkeletalActionData_t) == 0x14);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::InputSkeletalActionData_t, "OVR.OpenVR", "InputSkeletalActionData_t");

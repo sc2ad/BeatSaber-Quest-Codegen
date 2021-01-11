@@ -66,6 +66,6 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<AxisTools*, creationType>()));
     }
   }; // RootMotion.AxisTools
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::AxisTools*, "RootMotion", "AxisTools");

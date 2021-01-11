@@ -108,8 +108,8 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.WeakReference
+  #pragma pack(pop)
   static check_size<sizeof(WeakReference), 20 + sizeof(System::Runtime::InteropServices::GCHandle)> __System_WeakReferenceSizeCheck;
   static_assert(sizeof(WeakReference) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::WeakReference*, "System", "WeakReference");

@@ -76,6 +76,7 @@ namespace RootMotion::FinalIK {
       // Set static field: static public RootMotion.FinalIK.Recoil/Handedness Left
       static void _set_Left(RootMotion::FinalIK::Recoil::Handedness value);
     }; // RootMotion.FinalIK.Recoil/Handedness
+    #pragma pack(pop)
     static check_size<sizeof(Recoil::Handedness), 0 + sizeof(int)> __RootMotion_FinalIK_Recoil_HandednessSizeCheck;
     static_assert(sizeof(Recoil::Handedness) == 0x4);
     // [TooltipAttribute] Offset: 0xDB8770
@@ -290,9 +291,9 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Recoil*, creationType>()));
     }
   }; // RootMotion.FinalIK.Recoil
+  #pragma pack(pop)
   static check_size<sizeof(Recoil), 228 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_RecoilSizeCheck;
   static_assert(sizeof(Recoil) == 0xF0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil*, "RootMotion.FinalIK", "Recoil");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::Handedness, "RootMotion.FinalIK", "Recoil/Handedness");

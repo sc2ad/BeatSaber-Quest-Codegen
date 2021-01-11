@@ -72,7 +72,7 @@ namespace Microsoft::Win32 {
     // Offset: 0x1517558
     static int EnumerateTraceGuidsEx(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::TRACE_QUERY_INFO_CLASS TraceQueryInfoClass, void* InBuffer, int InBufferSize, void* OutBuffer, int OutBufferSize, int& ReturnLength);
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw*, "Microsoft.Win32", "UnsafeNativeMethods/ManifestEtw");

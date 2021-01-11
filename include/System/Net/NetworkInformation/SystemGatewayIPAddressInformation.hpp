@@ -56,8 +56,8 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x119A3B4
     static System::Net::NetworkInformation::GatewayIPAddressInformationCollection* ToGatewayIpAddressInformationCollection(System::Net::NetworkInformation::IPAddressCollection* addresses);
   }; // System.Net.NetworkInformation.SystemGatewayIPAddressInformation
+  #pragma pack(pop)
   static check_size<sizeof(SystemGatewayIPAddressInformation), 16 + sizeof(System::Net::IPAddress*)> __System_Net_NetworkInformation_SystemGatewayIPAddressInformationSizeCheck;
   static_assert(sizeof(SystemGatewayIPAddressInformation) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::SystemGatewayIPAddressInformation*, "System.Net.NetworkInformation", "SystemGatewayIPAddressInformation");

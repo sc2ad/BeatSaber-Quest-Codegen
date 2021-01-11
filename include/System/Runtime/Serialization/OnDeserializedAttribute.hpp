@@ -34,6 +34,6 @@ namespace System::Runtime::Serialization {
       return THROW_UNLESS((::il2cpp_utils::New<OnDeserializedAttribute*, creationType>()));
     }
   }; // System.Runtime.Serialization.OnDeserializedAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::OnDeserializedAttribute*, "System.Runtime.Serialization", "OnDeserializedAttribute");

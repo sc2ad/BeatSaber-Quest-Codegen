@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MenuLightsManager/<Start>d__4
+  #pragma pack(pop)
   static check_size<sizeof(MenuLightsManager::$Start$d__4), 32 + sizeof(GlobalNamespace::MenuLightsManager*)> __GlobalNamespace_MenuLightsManager_$Start$d__4SizeCheck;
   static_assert(sizeof(MenuLightsManager::$Start$d__4) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsManager::$Start$d__4*, "", "MenuLightsManager/<Start>d__4");

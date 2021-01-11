@@ -133,8 +133,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<PrepareForConnectionRequest*, creationType>()));
     }
   }; // MasterServer.PrepareForConnectionRequest
+  #pragma pack(pop)
   static check_size<sizeof(PrepareForConnectionRequest), 65 + sizeof(bool)> __MasterServer_PrepareForConnectionRequestSizeCheck;
   static_assert(sizeof(PrepareForConnectionRequest) == 0x42);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::PrepareForConnectionRequest*, "MasterServer", "PrepareForConnectionRequest");

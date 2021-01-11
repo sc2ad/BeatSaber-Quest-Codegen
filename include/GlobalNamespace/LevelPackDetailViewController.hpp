@@ -188,8 +188,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelPackDetailViewController*, creationType>()));
     }
   }; // LevelPackDetailViewController
+  #pragma pack(pop)
   static check_size<sizeof(LevelPackDetailViewController), 200 + sizeof(UnityEngine::Sprite*)> __GlobalNamespace_LevelPackDetailViewControllerSizeCheck;
   static_assert(sizeof(LevelPackDetailViewController) == 0xD0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController*, "", "LevelPackDetailViewController");

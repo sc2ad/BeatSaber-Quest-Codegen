@@ -71,8 +71,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EventsTestSceneSetup*, creationType>()));
     }
   }; // EventsTestSceneSetup
+  #pragma pack(pop)
   static check_size<sizeof(EventsTestSceneSetup), 48 + sizeof(GlobalNamespace::BeatmapDifficulty)> __GlobalNamespace_EventsTestSceneSetupSizeCheck;
   static_assert(sizeof(EventsTestSceneSetup) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventsTestSceneSetup*, "", "EventsTestSceneSetup");

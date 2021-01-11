@@ -52,6 +52,6 @@ namespace Oculus::Platform {
     // Offset: 0x11CDDB4
     void EndInvoke(System::IAsyncResult* result);
   }; // Oculus.Platform.CAPI/FilterCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::FilterCallback*, "Oculus.Platform", "CAPI/FilterCallback");

@@ -108,8 +108,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MultiplayerIntroCountdown/<PhaseRoutine>d__25
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerIntroCountdown::$PhaseRoutine$d__25), 56 + sizeof(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*)> __GlobalNamespace_MultiplayerIntroCountdown_$PhaseRoutine$d__25SizeCheck;
   static_assert(sizeof(MultiplayerIntroCountdown::$PhaseRoutine$d__25) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown::$PhaseRoutine$d__25*, "", "MultiplayerIntroCountdown/<PhaseRoutine>d__25");

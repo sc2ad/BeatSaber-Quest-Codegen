@@ -38,6 +38,6 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4NetworkPlayerModel*, creationType>()));
     }
   }; // PS4NetworkPlayerModel
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4NetworkPlayerModel*, "", "PS4NetworkPlayerModel");

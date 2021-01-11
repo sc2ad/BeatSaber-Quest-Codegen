@@ -49,6 +49,6 @@ namespace GlobalNamespace {
     // Offset: 0x1B525E8
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLibConnectionManager/StatisticsUpdated
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*, "", "LiteNetLibConnectionManager/StatisticsUpdated");

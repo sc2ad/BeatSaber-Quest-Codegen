@@ -127,8 +127,8 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<BezierShape*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.BezierShape
+  #pragma pack(pop)
   static check_size<sizeof(BezierShape), 56 + sizeof(UnityEngine::ProBuilder::ProBuilderMesh*)> __UnityEngine_ProBuilder_BezierShapeSizeCheck;
   static_assert(sizeof(BezierShape) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BezierShape*, "UnityEngine.ProBuilder", "BezierShape");

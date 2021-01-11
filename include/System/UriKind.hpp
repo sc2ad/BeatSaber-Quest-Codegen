@@ -50,9 +50,9 @@ namespace System {
     // Set static field: static public System.UriKind Relative
     static void _set_Relative(System::UriKind value);
   }; // System.UriKind
+  #pragma pack(pop)
   static check_size<sizeof(UriKind), 0 + sizeof(int)> __System_UriKindSizeCheck;
   static_assert(sizeof(UriKind) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriKind, "System", "UriKind");

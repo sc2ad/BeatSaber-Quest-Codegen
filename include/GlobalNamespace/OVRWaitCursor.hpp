@@ -46,8 +46,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRWaitCursor*, creationType>()));
     }
   }; // OVRWaitCursor
+  #pragma pack(pop)
   static check_size<sizeof(OVRWaitCursor), 24 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_OVRWaitCursorSizeCheck;
   static_assert(sizeof(OVRWaitCursor) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRWaitCursor*, "", "OVRWaitCursor");

@@ -109,8 +109,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ButtonSpriteSwap*, creationType>()));
     }
   }; // HMUI.ButtonSpriteSwap
+  #pragma pack(pop)
   static check_size<sizeof(ButtonSpriteSwap), 72 + sizeof(bool)> __HMUI_ButtonSpriteSwapSizeCheck;
   static_assert(sizeof(ButtonSpriteSwap) == 0x49);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonSpriteSwap*, "HMUI", "ButtonSpriteSwap");

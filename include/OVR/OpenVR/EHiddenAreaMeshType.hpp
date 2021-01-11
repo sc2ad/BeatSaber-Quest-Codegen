@@ -56,9 +56,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EHiddenAreaMeshType k_eHiddenAreaMesh_Max
     static void _set_k_eHiddenAreaMesh_Max(OVR::OpenVR::EHiddenAreaMeshType value);
   }; // OVR.OpenVR.EHiddenAreaMeshType
+  #pragma pack(pop)
   static check_size<sizeof(EHiddenAreaMeshType), 0 + sizeof(int)> __OVR_OpenVR_EHiddenAreaMeshTypeSizeCheck;
   static_assert(sizeof(EHiddenAreaMeshType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EHiddenAreaMeshType, "OVR.OpenVR", "EHiddenAreaMeshType");

@@ -69,8 +69,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentsListSO*, creationType>()));
     }
   }; // EnvironmentsListSO
+  #pragma pack(pop)
   static check_size<sizeof(EnvironmentsListSO), 24 + sizeof(::Array<GlobalNamespace::EnvironmentInfoSO*>*)> __GlobalNamespace_EnvironmentsListSOSizeCheck;
   static_assert(sizeof(EnvironmentsListSO) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentsListSO*, "", "EnvironmentsListSO");

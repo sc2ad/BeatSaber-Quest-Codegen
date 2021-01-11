@@ -97,8 +97,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleShadowController*, creationType>()));
     }
   }; // SimpleShadowController
+  #pragma pack(pop)
   static check_size<sizeof(SimpleShadowController), 56 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_SimpleShadowControllerSizeCheck;
   static_assert(sizeof(SimpleShadowController) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleShadowController*, "", "SimpleShadowController");

@@ -48,8 +48,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       return THROW_UNLESS((::il2cpp_utils::New<TriangulationConstraint*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationConstraint
+  #pragma pack(pop)
   static check_size<sizeof(TriangulationConstraint), 24 + sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)> __UnityEngine_ProBuilder_Poly2Tri_TriangulationConstraintSizeCheck;
   static_assert(sizeof(TriangulationConstraint) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationConstraint");

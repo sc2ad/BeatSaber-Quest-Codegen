@@ -74,6 +74,7 @@ namespace GlobalNamespace {
       // Set static field: static public PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType ReturnToMenu
       static void _set_ReturnToMenu(GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType value);
     }; // PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType
+    #pragma pack(pop)
     static check_size<sizeof(PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType), 0 + sizeof(int)> __GlobalNamespace_PatternFightScenesTransitionSetupDataSO_PatternFightEndStateTypeSizeCheck;
     static_assert(sizeof(PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType) == 0x4);
     // private EnvironmentInfoSO _environmentInfo
@@ -129,9 +130,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightScenesTransitionSetupDataSO*, creationType>()));
     }
   }; // PatternFightScenesTransitionSetupDataSO
+  #pragma pack(pop)
   static check_size<sizeof(PatternFightScenesTransitionSetupDataSO), 64 + sizeof(System::Action_2<GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>*)> __GlobalNamespace_PatternFightScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(PatternFightScenesTransitionSetupDataSO) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, "", "PatternFightScenesTransitionSetupDataSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType, "", "PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType");

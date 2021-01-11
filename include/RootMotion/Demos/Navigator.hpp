@@ -80,6 +80,7 @@ namespace RootMotion::Demos {
       // Set static field: static public RootMotion.Demos.Navigator/State OnPath
       static void _set_OnPath(RootMotion::Demos::Navigator::State value);
     }; // RootMotion.Demos.Navigator/State
+    #pragma pack(pop)
     static check_size<sizeof(Navigator::State), 0 + sizeof(int)> __RootMotion_Demos_Navigator_StateSizeCheck;
     static_assert(sizeof(Navigator::State) == 0x4);
     // [TooltipAttribute] Offset: 0xDB54D0
@@ -226,9 +227,9 @@ namespace RootMotion::Demos {
       return THROW_UNLESS((::il2cpp_utils::New<Navigator*, creationType>()));
     }
   }; // RootMotion.Demos.Navigator
+  #pragma pack(pop)
   static check_size<sizeof(Navigator), 104 + sizeof(float)> __RootMotion_Demos_NavigatorSizeCheck;
   static_assert(sizeof(Navigator) == 0x6C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Demos::Navigator*, "RootMotion.Demos", "Navigator");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Demos::Navigator::State, "RootMotion.Demos", "Navigator/State");

@@ -40,8 +40,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<MenuCategoryAttribute*, creationType>(category)));
     }
   }; // UnityEngine.Timeline.MenuCategoryAttribute
+  #pragma pack(pop)
   static check_size<sizeof(MenuCategoryAttribute), 16 + sizeof(::Il2CppString*)> __UnityEngine_Timeline_MenuCategoryAttributeSizeCheck;
   static_assert(sizeof(MenuCategoryAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MenuCategoryAttribute*, "UnityEngine.Timeline", "MenuCategoryAttribute");

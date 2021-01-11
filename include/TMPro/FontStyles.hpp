@@ -98,9 +98,9 @@ namespace TMPro {
     // Set static field: static public TMPro.FontStyles Highlight
     static void _set_Highlight(TMPro::FontStyles value);
   }; // TMPro.FontStyles
+  #pragma pack(pop)
   static check_size<sizeof(FontStyles), 0 + sizeof(int)> __TMPro_FontStylesSizeCheck;
   static_assert(sizeof(FontStyles) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FontStyles, "TMPro", "FontStyles");

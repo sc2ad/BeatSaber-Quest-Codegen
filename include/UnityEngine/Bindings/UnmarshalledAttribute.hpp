@@ -34,6 +34,6 @@ namespace UnityEngine::Bindings {
       return THROW_UNLESS((::il2cpp_utils::New<UnmarshalledAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.UnmarshalledAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::UnmarshalledAttribute*, "UnityEngine.Bindings", "UnmarshalledAttribute");

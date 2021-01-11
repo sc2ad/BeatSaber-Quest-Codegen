@@ -41,8 +41,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<MonoListItem*, creationType>()));
     }
   }; // System.MonoListItem
+  #pragma pack(pop)
   static check_size<sizeof(MonoListItem), 24 + sizeof(::Il2CppObject*)> __System_MonoListItemSizeCheck;
   static_assert(sizeof(MonoListItem) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::MonoListItem*, "System", "MonoListItem");

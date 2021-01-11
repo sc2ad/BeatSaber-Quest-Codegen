@@ -125,8 +125,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TrackLaneRingsRotationEffect*, creationType>()));
     }
   }; // TrackLaneRingsRotationEffect
+  #pragma pack(pop)
   static check_size<sizeof(TrackLaneRingsRotationEffect), 64 + sizeof(System::Collections::Generic::List_1<int>*)> __GlobalNamespace_TrackLaneRingsRotationEffectSizeCheck;
   static_assert(sizeof(TrackLaneRingsRotationEffect) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffect*, "", "TrackLaneRingsRotationEffect");

@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x19270BC
     void EndInvoke(Valve::VR::EVRSettingsError& peError, System::IAsyncResult* result);
   }; // Valve.VR.IVRSettings/_SetInt32
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings::_SetInt32*, "Valve.VR", "IVRSettings/_SetInt32");

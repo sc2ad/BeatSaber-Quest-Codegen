@@ -76,8 +76,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<UnifiedNetworkPlayerModel::CreatePartyConfig*, creationType>()));
     }
   }; // UnifiedNetworkPlayerModel/CreatePartyConfig
+  #pragma pack(pop)
   static check_size<sizeof(UnifiedNetworkPlayerModel::CreatePartyConfig), 80 + sizeof(::Il2CppString*)> __GlobalNamespace_UnifiedNetworkPlayerModel_CreatePartyConfigSizeCheck;
   static_assert(sizeof(UnifiedNetworkPlayerModel::CreatePartyConfig) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*, "", "UnifiedNetworkPlayerModel/CreatePartyConfig");

@@ -55,6 +55,6 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<TaskSchedulerException*, creationType>(info, context)));
     }
   }; // System.Threading.Tasks.TaskSchedulerException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskSchedulerException*, "System.Threading.Tasks", "TaskSchedulerException");

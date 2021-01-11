@@ -200,8 +200,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberTrail*, creationType>()));
     }
   }; // SaberTrail
+  #pragma pack(pop)
   static check_size<sizeof(SaberTrail), 112 + sizeof(bool)> __GlobalNamespace_SaberTrailSizeCheck;
   static_assert(sizeof(SaberTrail) == 0x71);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTrail*, "", "SaberTrail");

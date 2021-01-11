@@ -31,7 +31,7 @@ namespace UnityEngine::EventSystems {
     // Offset: 0xFFFFFFFF
     void OnScroll(UnityEngine::EventSystems::PointerEventData* eventData);
   }; // UnityEngine.EventSystems.IScrollHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IScrollHandler*, "UnityEngine.EventSystems", "IScrollHandler");

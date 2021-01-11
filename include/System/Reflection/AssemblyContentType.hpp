@@ -45,9 +45,9 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.AssemblyContentType WindowsRuntime
     static void _set_WindowsRuntime(System::Reflection::AssemblyContentType value);
   }; // System.Reflection.AssemblyContentType
+  #pragma pack(pop)
   static check_size<sizeof(AssemblyContentType), 0 + sizeof(int)> __System_Reflection_AssemblyContentTypeSizeCheck;
   static_assert(sizeof(AssemblyContentType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyContentType, "System.Reflection", "AssemblyContentType");

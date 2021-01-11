@@ -69,8 +69,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<Uri::UriInfo*, creationType>()));
     }
   }; // System.Uri/UriInfo
+  #pragma pack(pop)
   static check_size<sizeof(Uri::UriInfo), 64 + sizeof(System::Uri::MoreInfo*)> __System_Uri_UriInfoSizeCheck;
   static_assert(sizeof(Uri::UriInfo) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Uri::UriInfo*, "System", "Uri/UriInfo");

@@ -41,8 +41,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerBeatmapObjectManager::InitData*, creationType>(disappearingArrows, ghostNotes)));
     }
   }; // MultiplayerConnectedPlayerBeatmapObjectManager/InitData
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerBeatmapObjectManager::InitData), 17 + sizeof(bool)> __GlobalNamespace_MultiplayerConnectedPlayerBeatmapObjectManager_InitDataSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerBeatmapObjectManager::InitData) == 0x12);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*, "", "MultiplayerConnectedPlayerBeatmapObjectManager/InitData");

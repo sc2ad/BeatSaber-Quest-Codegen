@@ -47,8 +47,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PromoViewController::$$c__DisplayClass5_0*, creationType>()));
     }
   }; // PromoViewController/<>c__DisplayClass5_0
+  #pragma pack(pop)
   static check_size<sizeof(PromoViewController::$$c__DisplayClass5_0), 24 + sizeof(GlobalNamespace::PromoViewController*)> __GlobalNamespace_PromoViewController_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(PromoViewController::$$c__DisplayClass5_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController::$$c__DisplayClass5_0*, "", "PromoViewController/<>c__DisplayClass5_0");

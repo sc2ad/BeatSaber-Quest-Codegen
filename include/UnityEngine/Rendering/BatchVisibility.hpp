@@ -40,9 +40,9 @@ namespace UnityEngine::Rendering {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.Rendering.BatchVisibility
+  #pragma pack(pop)
   static check_size<sizeof(BatchVisibility), 8 + sizeof(int)> __UnityEngine_Rendering_BatchVisibilitySizeCheck;
   static_assert(sizeof(BatchVisibility) == 0xC);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchVisibility, "UnityEngine.Rendering", "BatchVisibility");

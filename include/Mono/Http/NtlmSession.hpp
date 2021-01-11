@@ -58,8 +58,8 @@ namespace Mono::Http {
       return THROW_UNLESS((::il2cpp_utils::New<NtlmSession*, creationType>()));
     }
   }; // Mono.Http.NtlmSession
+  #pragma pack(pop)
   static check_size<sizeof(NtlmSession), 16 + sizeof(Mono::Security::Protocol::Ntlm::MessageBase*)> __Mono_Http_NtlmSessionSizeCheck;
   static_assert(sizeof(NtlmSession) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmSession*, "Mono.Http", "NtlmSession");

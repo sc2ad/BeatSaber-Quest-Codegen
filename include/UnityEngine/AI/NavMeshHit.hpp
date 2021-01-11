@@ -59,9 +59,9 @@ namespace UnityEngine::AI {
     // Offset: 0xCBCAA4
     UnityEngine::Vector3 get_position();
   }; // UnityEngine.AI.NavMeshHit
+  #pragma pack(pop)
   static check_size<sizeof(NavMeshHit), 32 + sizeof(int)> __UnityEngine_AI_NavMeshHitSizeCheck;
   static_assert(sizeof(NavMeshHit) == 0x24);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshHit, "UnityEngine.AI", "NavMeshHit");

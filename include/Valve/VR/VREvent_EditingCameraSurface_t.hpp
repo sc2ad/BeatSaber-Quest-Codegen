@@ -35,9 +35,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.VREvent_EditingCameraSurface_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_EditingCameraSurface_t), 8 + sizeof(uint)> __Valve_VR_VREvent_EditingCameraSurface_tSizeCheck;
   static_assert(sizeof(VREvent_EditingCameraSurface_t) == 0xC);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_EditingCameraSurface_t, "Valve.VR", "VREvent_EditingCameraSurface_t");

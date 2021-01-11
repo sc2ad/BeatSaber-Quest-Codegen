@@ -75,8 +75,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FileBrowserModel::$$c__DisplayClass0_0*, creationType>()));
     }
   }; // FileBrowserModel/<>c__DisplayClass0_0
+  #pragma pack(pop)
   static check_size<sizeof(FileBrowserModel::$$c__DisplayClass0_0), 40 + sizeof(System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>*)> __GlobalNamespace_FileBrowserModel_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(FileBrowserModel::$$c__DisplayClass0_0) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0*, "", "FileBrowserModel/<>c__DisplayClass0_0");

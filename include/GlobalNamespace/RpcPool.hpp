@@ -61,6 +61,6 @@ namespace GlobalNamespace {
     // Offset: 0x1E54988
     static void Release(GlobalNamespace::IRemoteProcedureCall* t);
   }; // RpcPool
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RpcPool*, "", "RpcPool");

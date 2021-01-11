@@ -88,8 +88,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainAudioEffects*, creationType>()));
     }
   }; // MainAudioEffects
+  #pragma pack(pop)
   static check_size<sizeof(MainAudioEffects), 36 + sizeof(float)> __GlobalNamespace_MainAudioEffectsSizeCheck;
   static_assert(sizeof(MainAudioEffects) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainAudioEffects*, "", "MainAudioEffects");

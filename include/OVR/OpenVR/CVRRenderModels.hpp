@@ -120,8 +120,8 @@ namespace OVR::OpenVR {
     // Offset: 0x11F7244
     ::Il2CppString* GetRenderModelErrorNameFromEnum(OVR::OpenVR::EVRRenderModelError error);
   }; // OVR.OpenVR.CVRRenderModels
+  #pragma pack(pop)
   static check_size<sizeof(CVRRenderModels), 16 + sizeof(OVR::OpenVR::IVRRenderModels)> __OVR_OpenVR_CVRRenderModelsSizeCheck;
   static_assert(sizeof(CVRRenderModels) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRRenderModels*, "OVR.OpenVR", "CVRRenderModels");

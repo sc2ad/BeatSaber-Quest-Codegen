@@ -55,8 +55,8 @@ namespace Zenject::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionTypeInfo::InjectMethodInfo*, creationType>(methodInfo, parameters)));
     }
   }; // Zenject.Internal.ReflectionTypeInfo/InjectMethodInfo
+  #pragma pack(pop)
   static check_size<sizeof(ReflectionTypeInfo::InjectMethodInfo), 24 + sizeof(System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*)> __Zenject_Internal_ReflectionTypeInfo_InjectMethodInfoSizeCheck;
   static_assert(sizeof(ReflectionTypeInfo::InjectMethodInfo) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*, "Zenject.Internal", "ReflectionTypeInfo/InjectMethodInfo");

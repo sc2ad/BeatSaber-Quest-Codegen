@@ -61,8 +61,8 @@ namespace NUnit::Framework::Constraints {
       return THROW_UNLESS((::il2cpp_utils::New<NUnitEqualityComparer::FailurePoint*, creationType>()));
     }
   }; // NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint
+  #pragma pack(pop)
   static check_size<sizeof(NUnitEqualityComparer::FailurePoint), 41 + sizeof(bool)> __NUnit_Framework_Constraints_NUnitEqualityComparer_FailurePointSizeCheck;
   static_assert(sizeof(NUnitEqualityComparer::FailurePoint) == 0x2A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*, "NUnit.Framework.Constraints", "NUnitEqualityComparer/FailurePoint");

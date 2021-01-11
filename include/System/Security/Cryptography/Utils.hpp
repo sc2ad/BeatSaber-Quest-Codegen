@@ -72,7 +72,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x127F110
     static bool _ProduceLegacyHmacValues();
   }; // System.Security.Cryptography.Utils
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Utils*, "System.Security.Cryptography", "Utils");

@@ -44,9 +44,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.ParticleSystemStopBehavior StopEmitting
     static void _set_StopEmitting(UnityEngine::ParticleSystemStopBehavior value);
   }; // UnityEngine.ParticleSystemStopBehavior
+  #pragma pack(pop)
   static check_size<sizeof(ParticleSystemStopBehavior), 0 + sizeof(int)> __UnityEngine_ParticleSystemStopBehaviorSizeCheck;
   static_assert(sizeof(ParticleSystemStopBehavior) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystemStopBehavior, "UnityEngine", "ParticleSystemStopBehavior");

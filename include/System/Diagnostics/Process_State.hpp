@@ -82,9 +82,9 @@ namespace System::Diagnostics {
     // Set static field: static public System.Diagnostics.Process/State HaveNtProcessInfo
     static void _set_HaveNtProcessInfo(System::Diagnostics::Process::State value);
   }; // System.Diagnostics.Process/State
+  #pragma pack(pop)
   static check_size<sizeof(Process::State), 0 + sizeof(int)> __System_Diagnostics_Process_StateSizeCheck;
   static_assert(sizeof(Process::State) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::State, "System.Diagnostics", "Process/State");

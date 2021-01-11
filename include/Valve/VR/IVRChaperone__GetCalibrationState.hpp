@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x136EFB4
     Valve::VR::ChaperoneCalibrationState EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperone/_GetCalibrationState
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone::_GetCalibrationState*, "Valve.VR", "IVRChaperone/_GetCalibrationState");

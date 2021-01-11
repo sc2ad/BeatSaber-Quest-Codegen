@@ -110,6 +110,7 @@ namespace UnityEngine::Timeline {
       // Set static field: static public UnityEngine.Timeline.TimelineClip/ClipExtrapolation Continue
       static void _set_Continue(UnityEngine::Timeline::TimelineClip::ClipExtrapolation value);
     }; // UnityEngine.Timeline.TimelineClip/ClipExtrapolation
+    #pragma pack(pop)
     static check_size<sizeof(TimelineClip::ClipExtrapolation), 0 + sizeof(int)> __UnityEngine_Timeline_TimelineClip_ClipExtrapolationSizeCheck;
     static_assert(sizeof(TimelineClip::ClipExtrapolation) == 0x4);
     // Size: 0x4
@@ -147,6 +148,7 @@ namespace UnityEngine::Timeline {
       // Set static field: static public UnityEngine.Timeline.TimelineClip/BlendCurveMode Manual
       static void _set_Manual(UnityEngine::Timeline::TimelineClip::BlendCurveMode value);
     }; // UnityEngine.Timeline.TimelineClip/BlendCurveMode
+    #pragma pack(pop)
     static check_size<sizeof(TimelineClip::BlendCurveMode), 0 + sizeof(int)> __UnityEngine_Timeline_TimelineClip_BlendCurveModeSizeCheck;
     static_assert(sizeof(TimelineClip::BlendCurveMode) == 0x4);
     // [HideInInspector] Offset: 0xD8D908
@@ -630,10 +632,10 @@ namespace UnityEngine::Timeline {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Timeline.TimelineClip
+  #pragma pack(pop)
   static check_size<sizeof(TimelineClip), 176 + sizeof(::Il2CppString*)> __UnityEngine_Timeline_TimelineClipSizeCheck;
   static_assert(sizeof(TimelineClip) == 0xB8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip*, "UnityEngine.Timeline", "TimelineClip");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::ClipExtrapolation, "UnityEngine.Timeline", "TimelineClip/ClipExtrapolation");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::BlendCurveMode, "UnityEngine.Timeline", "TimelineClip/BlendCurveMode");

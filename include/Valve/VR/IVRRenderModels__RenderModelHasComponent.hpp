@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x1921AE4
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_RenderModelHasComponent
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRRenderModels::_RenderModelHasComponent*, "Valve.VR", "IVRRenderModels/_RenderModelHasComponent");

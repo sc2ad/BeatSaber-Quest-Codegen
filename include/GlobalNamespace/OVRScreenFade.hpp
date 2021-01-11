@@ -160,8 +160,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRScreenFade*, creationType>()));
     }
   }; // OVRScreenFade
+  #pragma pack(pop)
   static check_size<sizeof(OVRScreenFade), 84 + sizeof(float)> __GlobalNamespace_OVRScreenFadeSizeCheck;
   static_assert(sizeof(OVRScreenFade) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRScreenFade*, "", "OVRScreenFade");

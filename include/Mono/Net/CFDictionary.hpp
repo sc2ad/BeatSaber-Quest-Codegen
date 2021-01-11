@@ -52,6 +52,6 @@ namespace Mono::Net {
       return THROW_UNLESS((::il2cpp_utils::New<CFDictionary*, creationType>(handle, own)));
     }
   }; // Mono.Net.CFDictionary
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFDictionary*, "Mono.Net", "CFDictionary");

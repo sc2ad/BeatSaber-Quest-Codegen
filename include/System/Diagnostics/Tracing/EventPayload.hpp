@@ -164,8 +164,8 @@ namespace System::Diagnostics::Tracing {
     // Maps to method: Remove
     bool System_Collections_Generic_ICollection_1_Remove(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*> entry);
   }; // System.Diagnostics.Tracing.EventPayload
+  #pragma pack(pop)
   static check_size<sizeof(EventPayload), 24 + sizeof(System::Collections::Generic::List_1<::Il2CppObject*>*)> __System_Diagnostics_Tracing_EventPayloadSizeCheck;
   static_assert(sizeof(EventPayload) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventPayload*, "System.Diagnostics.Tracing", "EventPayload");

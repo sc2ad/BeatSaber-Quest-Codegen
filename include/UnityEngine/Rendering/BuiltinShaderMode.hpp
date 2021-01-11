@@ -50,9 +50,9 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.BuiltinShaderMode UseCustom
     static void _set_UseCustom(UnityEngine::Rendering::BuiltinShaderMode value);
   }; // UnityEngine.Rendering.BuiltinShaderMode
+  #pragma pack(pop)
   static check_size<sizeof(BuiltinShaderMode), 0 + sizeof(int)> __UnityEngine_Rendering_BuiltinShaderModeSizeCheck;
   static_assert(sizeof(BuiltinShaderMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BuiltinShaderMode, "UnityEngine.Rendering", "BuiltinShaderMode");

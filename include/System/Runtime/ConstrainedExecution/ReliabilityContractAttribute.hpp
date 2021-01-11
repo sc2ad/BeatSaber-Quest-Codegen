@@ -46,8 +46,8 @@ namespace System::Runtime::ConstrainedExecution {
       return THROW_UNLESS((::il2cpp_utils::New<ReliabilityContractAttribute*, creationType>(consistencyGuarantee, cer)));
     }
   }; // System.Runtime.ConstrainedExecution.ReliabilityContractAttribute
+  #pragma pack(pop)
   static check_size<sizeof(ReliabilityContractAttribute), 20 + sizeof(System::Runtime::ConstrainedExecution::Cer)> __System_Runtime_ConstrainedExecution_ReliabilityContractAttributeSizeCheck;
   static_assert(sizeof(ReliabilityContractAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::ReliabilityContractAttribute*, "System.Runtime.ConstrainedExecution", "ReliabilityContractAttribute");

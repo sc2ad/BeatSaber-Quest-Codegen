@@ -33,6 +33,6 @@ namespace Org::BouncyCastle::OpenSsl {
       return THROW_UNLESS((::il2cpp_utils::New<PemException*, creationType>(message)));
     }
   }; // Org.BouncyCastle.OpenSsl.PemException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::PemException*, "Org.BouncyCastle.OpenSsl", "PemException");

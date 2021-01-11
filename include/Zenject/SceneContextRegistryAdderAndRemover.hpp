@@ -73,8 +73,8 @@ namespace Zenject {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Zenject.SceneContextRegistryAdderAndRemover
+  #pragma pack(pop)
   static check_size<sizeof(SceneContextRegistryAdderAndRemover), 24 + sizeof(Zenject::SceneContext*)> __Zenject_SceneContextRegistryAdderAndRemoverSizeCheck;
   static_assert(sizeof(SceneContextRegistryAdderAndRemover) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContextRegistryAdderAndRemover*, "Zenject", "SceneContextRegistryAdderAndRemover");

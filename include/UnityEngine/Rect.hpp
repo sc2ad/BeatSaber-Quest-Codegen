@@ -202,6 +202,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Rect
+  #pragma pack(pop)
   static check_size<sizeof(Rect), 12 + sizeof(float)> __UnityEngine_RectSizeCheck;
   static_assert(sizeof(Rect) == 0x10);
   // static public System.Boolean op_Inequality(UnityEngine.Rect lhs, UnityEngine.Rect rhs)
@@ -211,5 +212,4 @@ namespace UnityEngine {
   // Offset: 0x1738A34
   bool operator ==(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rect, "UnityEngine", "Rect");

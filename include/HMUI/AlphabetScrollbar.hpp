@@ -207,8 +207,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<AlphabetScrollbar*, creationType>()));
     }
   }; // HMUI.AlphabetScrollbar
+  #pragma pack(pop)
   static check_size<sizeof(AlphabetScrollbar), 108 + sizeof(bool)> __HMUI_AlphabetScrollbarSizeCheck;
   static_assert(sizeof(AlphabetScrollbar) == 0x6D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AlphabetScrollbar*, "HMUI", "AlphabetScrollbar");

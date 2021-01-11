@@ -70,8 +70,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_MaterialManager::FallbackMaterial*, creationType>()));
     }
   }; // TMPro.TMP_MaterialManager/FallbackMaterial
+  #pragma pack(pop)
   static check_size<sizeof(TMP_MaterialManager::FallbackMaterial), 48 + sizeof(int)> __TMPro_TMP_MaterialManager_FallbackMaterialSizeCheck;
   static_assert(sizeof(TMP_MaterialManager::FallbackMaterial) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager::FallbackMaterial*, "TMPro", "TMP_MaterialManager/FallbackMaterial");

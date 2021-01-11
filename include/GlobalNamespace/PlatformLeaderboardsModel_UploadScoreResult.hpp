@@ -46,9 +46,9 @@ namespace GlobalNamespace {
     // Set static field: static public PlatformLeaderboardsModel/UploadScoreResult Failed
     static void _set_Failed(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult value);
   }; // PlatformLeaderboardsModel/UploadScoreResult
+  #pragma pack(pop)
   static check_size<sizeof(PlatformLeaderboardsModel::UploadScoreResult), 0 + sizeof(int)> __GlobalNamespace_PlatformLeaderboardsModel_UploadScoreResultSizeCheck;
   static_assert(sizeof(PlatformLeaderboardsModel::UploadScoreResult) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult, "", "PlatformLeaderboardsModel/UploadScoreResult");

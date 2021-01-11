@@ -88,9 +88,9 @@ namespace System::Runtime::Serialization {
     // Set static field: static public System.Runtime.Serialization.StreamingContextStates All
     static void _set_All(System::Runtime::Serialization::StreamingContextStates value);
   }; // System.Runtime.Serialization.StreamingContextStates
+  #pragma pack(pop)
   static check_size<sizeof(StreamingContextStates), 0 + sizeof(int)> __System_Runtime_Serialization_StreamingContextStatesSizeCheck;
   static_assert(sizeof(StreamingContextStates) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::StreamingContextStates, "System.Runtime.Serialization", "StreamingContextStates");

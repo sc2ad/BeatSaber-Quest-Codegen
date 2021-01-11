@@ -25,7 +25,7 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0xFFFFFFFF
     void ApplyToTest(NUnit::Framework::Internal::Test* test);
   }; // NUnit.Framework.Interfaces.IApplyToTest
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IApplyToTest*, "NUnit.Framework.Interfaces", "IApplyToTest");

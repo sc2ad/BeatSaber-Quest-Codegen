@@ -64,8 +64,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<Signal*, creationType>()));
     }
   }; // Signal
+  #pragma pack(pop)
   static check_size<sizeof(Signal), 24 + sizeof(System::Action*)> __GlobalNamespace_SignalSizeCheck;
   static_assert(sizeof(Signal) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Signal*, "", "Signal");

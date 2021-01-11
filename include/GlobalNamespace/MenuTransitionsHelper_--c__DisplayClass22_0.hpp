@@ -67,8 +67,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MenuTransitionsHelper::$$c__DisplayClass22_0*, creationType>()));
     }
   }; // MenuTransitionsHelper/<>c__DisplayClass22_0
+  #pragma pack(pop)
   static check_size<sizeof(MenuTransitionsHelper::$$c__DisplayClass22_0), 32 + sizeof(GlobalNamespace::LevelCompletionResults*)> __GlobalNamespace_MenuTransitionsHelper_$$c__DisplayClass22_0SizeCheck;
   static_assert(sizeof(MenuTransitionsHelper::$$c__DisplayClass22_0) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass22_0*, "", "MenuTransitionsHelper/<>c__DisplayClass22_0");

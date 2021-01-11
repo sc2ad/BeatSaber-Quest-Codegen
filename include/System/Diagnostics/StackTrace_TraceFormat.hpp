@@ -52,9 +52,9 @@ namespace System::Diagnostics {
     // Set static field: static public System.Diagnostics.StackTrace/TraceFormat NoResourceLookup
     static void _set_NoResourceLookup(System::Diagnostics::StackTrace::TraceFormat value);
   }; // System.Diagnostics.StackTrace/TraceFormat
+  #pragma pack(pop)
   static check_size<sizeof(StackTrace::TraceFormat), 0 + sizeof(int)> __System_Diagnostics_StackTrace_TraceFormatSizeCheck;
   static_assert(sizeof(StackTrace::TraceFormat) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackTrace::TraceFormat, "System.Diagnostics", "StackTrace/TraceFormat");

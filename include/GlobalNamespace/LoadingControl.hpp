@@ -159,8 +159,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LoadingControl*, creationType>()));
     }
   }; // LoadingControl
+  #pragma pack(pop)
   static check_size<sizeof(LoadingControl), 96 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_LoadingControlSizeCheck;
   static_assert(sizeof(LoadingControl) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LoadingControl*, "", "LoadingControl");

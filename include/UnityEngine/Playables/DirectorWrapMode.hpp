@@ -50,9 +50,9 @@ namespace UnityEngine::Playables {
     // Set static field: static public UnityEngine.Playables.DirectorWrapMode None
     static void _set_None(UnityEngine::Playables::DirectorWrapMode value);
   }; // UnityEngine.Playables.DirectorWrapMode
+  #pragma pack(pop)
   static check_size<sizeof(DirectorWrapMode), 0 + sizeof(int)> __UnityEngine_Playables_DirectorWrapModeSizeCheck;
   static_assert(sizeof(DirectorWrapMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::DirectorWrapMode, "UnityEngine.Playables", "DirectorWrapMode");

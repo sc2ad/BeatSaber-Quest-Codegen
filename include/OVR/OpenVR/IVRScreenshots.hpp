@@ -83,9 +83,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.IVRScreenshots
+  #pragma pack(pop)
   static check_size<sizeof(IVRScreenshots), 48 + sizeof(OVR::OpenVR::IVRScreenshots::_SubmitScreenshot*)> __OVR_OpenVR_IVRScreenshotsSizeCheck;
   static_assert(sizeof(IVRScreenshots) == 0x38);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRScreenshots, "OVR.OpenVR", "IVRScreenshots");

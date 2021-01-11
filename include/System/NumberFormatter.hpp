@@ -439,8 +439,8 @@ namespace System {
     // Offset: 0x1718DB4
     System::NumberFormatter* GetClone();
   }; // System.NumberFormatter
+  #pragma pack(pop)
   static check_size<sizeof(NumberFormatter), 76 + sizeof(int)> __System_NumberFormatterSizeCheck;
   static_assert(sizeof(NumberFormatter) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter*, "System", "NumberFormatter");

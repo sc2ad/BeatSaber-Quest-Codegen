@@ -65,8 +65,8 @@ namespace System::Net::Configuration {
       return THROW_UNLESS((::il2cpp_utils::New<DefaultProxySectionInternal*, creationType>()));
     }
   }; // System.Net.Configuration.DefaultProxySectionInternal
+  #pragma pack(pop)
   static check_size<sizeof(DefaultProxySectionInternal), 16 + sizeof(System::Net::IWebProxy*)> __System_Net_Configuration_DefaultProxySectionInternalSizeCheck;
   static_assert(sizeof(DefaultProxySectionInternal) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::DefaultProxySectionInternal*, "System.Net.Configuration", "DefaultProxySectionInternal");

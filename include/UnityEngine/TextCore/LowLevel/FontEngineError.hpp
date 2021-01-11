@@ -116,9 +116,9 @@ namespace UnityEngine::TextCore::LowLevel {
     // Set static field: static public UnityEngine.TextCore.LowLevel.FontEngineError Invalid_SharedTextureData
     static void _set_Invalid_SharedTextureData(UnityEngine::TextCore::LowLevel::FontEngineError value);
   }; // UnityEngine.TextCore.LowLevel.FontEngineError
+  #pragma pack(pop)
   static check_size<sizeof(FontEngineError), 0 + sizeof(int)> __UnityEngine_TextCore_LowLevel_FontEngineErrorSizeCheck;
   static_assert(sizeof(FontEngineError) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::FontEngineError, "UnityEngine.TextCore.LowLevel", "FontEngineError");

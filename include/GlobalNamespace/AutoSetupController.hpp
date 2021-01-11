@@ -150,8 +150,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AutoSetupController*, creationType>()));
     }
   }; // AutoSetupController
+  #pragma pack(pop)
   static check_size<sizeof(AutoSetupController), 88 + sizeof(GlobalNamespace::AutoSetupData*)> __GlobalNamespace_AutoSetupControllerSizeCheck;
   static_assert(sizeof(AutoSetupController) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutoSetupController*, "", "AutoSetupController");

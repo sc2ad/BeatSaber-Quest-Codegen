@@ -46,9 +46,9 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.Image/OriginHorizontal Right
     static void _set_Right(UnityEngine::UI::Image::OriginHorizontal value);
   }; // UnityEngine.UI.Image/OriginHorizontal
+  #pragma pack(pop)
   static check_size<sizeof(Image::OriginHorizontal), 0 + sizeof(int)> __UnityEngine_UI_Image_OriginHorizontalSizeCheck;
   static_assert(sizeof(Image::OriginHorizontal) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::OriginHorizontal, "UnityEngine.UI", "Image/OriginHorizontal");

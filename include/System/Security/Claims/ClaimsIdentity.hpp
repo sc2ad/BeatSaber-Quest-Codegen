@@ -249,8 +249,8 @@ namespace System::Security::Claims {
     // Base method: System.String IIdentity::get_Name()
     ::Il2CppString* get_Name();
   }; // System.Security.Claims.ClaimsIdentity
+  #pragma pack(pop)
   static check_size<sizeof(ClaimsIdentity), 112 + sizeof(::Il2CppString*)> __System_Security_Claims_ClaimsIdentitySizeCheck;
   static_assert(sizeof(ClaimsIdentity) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::ClaimsIdentity*, "System.Security.Claims", "ClaimsIdentity");

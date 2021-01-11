@@ -83,8 +83,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<CloudStorageMetadata*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.CloudStorageMetadata
+  #pragma pack(pop)
   static check_size<sizeof(CloudStorageMetadata), 72 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_CloudStorageMetadataSizeCheck;
   static_assert(sizeof(CloudStorageMetadata) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageMetadata*, "Oculus.Platform.Models", "CloudStorageMetadata");

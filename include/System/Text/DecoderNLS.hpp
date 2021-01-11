@@ -141,8 +141,8 @@ namespace System::Text {
     // Base method: System.Int32 Decoder::GetChars(System.Byte* bytes, System.Int32 byteCount, System.Char* chars, System.Int32 charCount, System.Boolean flush)
     int GetChars(uint8_t* bytes, int byteCount, ::Il2CppChar* chars, int charCount, bool flush);
   }; // System.Text.DecoderNLS
+  #pragma pack(pop)
   static check_size<sizeof(DecoderNLS), 44 + sizeof(int)> __System_Text_DecoderNLSSizeCheck;
   static_assert(sizeof(DecoderNLS) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderNLS*, "System.Text", "DecoderNLS");

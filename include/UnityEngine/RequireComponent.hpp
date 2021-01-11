@@ -63,8 +63,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<RequireComponent*, creationType>(requiredComponent, requiredComponent2)));
     }
   }; // UnityEngine.RequireComponent
+  #pragma pack(pop)
   static check_size<sizeof(RequireComponent), 32 + sizeof(System::Type*)> __UnityEngine_RequireComponentSizeCheck;
   static_assert(sizeof(RequireComponent) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RequireComponent*, "UnityEngine", "RequireComponent");

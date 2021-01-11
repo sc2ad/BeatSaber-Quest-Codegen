@@ -67,8 +67,8 @@ namespace Zenject {
     // Offset: 0x10F30CC
     Zenject::ConventionFilterTypesBinder* AllInterfaces();
   }; // Zenject.ConventionSelectTypesBinder
+  #pragma pack(pop)
   static check_size<sizeof(ConventionSelectTypesBinder), 16 + sizeof(Zenject::ConventionBindInfo*)> __Zenject_ConventionSelectTypesBinderSizeCheck;
   static_assert(sizeof(ConventionSelectTypesBinder) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionSelectTypesBinder*, "Zenject", "ConventionSelectTypesBinder");

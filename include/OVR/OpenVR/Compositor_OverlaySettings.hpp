@@ -110,9 +110,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.Compositor_OverlaySettings
+  #pragma pack(pop)
   static check_size<sizeof(Compositor_OverlaySettings), 48 + sizeof(OVR::OpenVR::HmdMatrix44_t)> __OVR_OpenVR_Compositor_OverlaySettingsSizeCheck;
   static_assert(sizeof(Compositor_OverlaySettings) == 0x70);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Compositor_OverlaySettings, "OVR.OpenVR", "Compositor_OverlaySettings");

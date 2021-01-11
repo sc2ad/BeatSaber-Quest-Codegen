@@ -134,9 +134,9 @@ namespace System::Net::NetworkInformation {
     // Set static field: static public System.Net.NetworkInformation.LinuxArpHardware IP6GRE
     static void _set_IP6GRE(System::Net::NetworkInformation::LinuxArpHardware value);
   }; // System.Net.NetworkInformation.LinuxArpHardware
+  #pragma pack(pop)
   static check_size<sizeof(LinuxArpHardware), 0 + sizeof(int)> __System_Net_NetworkInformation_LinuxArpHardwareSizeCheck;
   static_assert(sizeof(LinuxArpHardware) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxArpHardware, "System.Net.NetworkInformation", "LinuxArpHardware");

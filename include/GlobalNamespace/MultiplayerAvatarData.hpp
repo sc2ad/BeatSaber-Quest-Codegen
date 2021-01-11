@@ -193,8 +193,8 @@ namespace GlobalNamespace {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // MultiplayerAvatarData
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerAvatarData), 104 + sizeof(::Il2CppString*)> __GlobalNamespace_MultiplayerAvatarDataSizeCheck;
   static_assert(sizeof(MultiplayerAvatarData) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarData, "", "MultiplayerAvatarData");

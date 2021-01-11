@@ -48,8 +48,8 @@ namespace System::Runtime::Remoting::Channels {
       return THROW_UNLESS((::il2cpp_utils::New<AsyncRequest*, creationType>(msgRequest, replySink)));
     }
   }; // System.Runtime.Remoting.Channels.AsyncRequest
+  #pragma pack(pop)
   static check_size<sizeof(AsyncRequest), 24 + sizeof(System::Runtime::Remoting::Messaging::IMessage*)> __System_Runtime_Remoting_Channels_AsyncRequestSizeCheck;
   static_assert(sizeof(AsyncRequest) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::AsyncRequest*, "System.Runtime.Remoting.Channels", "AsyncRequest");

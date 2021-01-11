@@ -70,8 +70,8 @@ namespace System::Runtime::Serialization {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, entryName, entryValue, entryType);
     }
   }; // System.Runtime.Serialization.SerializationEntry
+  #pragma pack(pop)
   static check_size<sizeof(SerializationEntry), 16 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_SerializationEntrySizeCheck;
   static_assert(sizeof(SerializationEntry) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEntry, "System.Runtime.Serialization", "SerializationEntry");

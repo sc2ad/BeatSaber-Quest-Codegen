@@ -49,6 +49,6 @@ namespace System {
     // Offset: 0x1490BB8
     void EndInvoke(System::IAsyncResult* result);
   }; // System.IOAsyncCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IOAsyncCallback*, "System", "IOAsyncCallback");

@@ -87,8 +87,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TrailerGameplayManager*, creationType>()));
     }
   }; // TrailerGameplayManager
+  #pragma pack(pop)
   static check_size<sizeof(TrailerGameplayManager), 48 + sizeof(GlobalNamespace::MainCamera*)> __GlobalNamespace_TrailerGameplayManagerSizeCheck;
   static_assert(sizeof(TrailerGameplayManager) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailerGameplayManager*, "", "TrailerGameplayManager");

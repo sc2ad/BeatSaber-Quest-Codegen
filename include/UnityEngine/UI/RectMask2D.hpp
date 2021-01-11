@@ -198,8 +198,8 @@ namespace UnityEngine::UI {
     // Base method: System.Void UIBehaviour::OnCanvasHierarchyChanged()
     void OnCanvasHierarchyChanged();
   }; // UnityEngine.UI.RectMask2D
+  #pragma pack(pop)
   static check_size<sizeof(RectMask2D), 104 + sizeof(::Array<UnityEngine::Vector3>*)> __UnityEngine_UI_RectMask2DSizeCheck;
   static_assert(sizeof(RectMask2D) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RectMask2D*, "UnityEngine.UI", "RectMask2D");

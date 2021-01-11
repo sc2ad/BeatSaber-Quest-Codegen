@@ -78,8 +78,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeElement*, creationType>()));
     }
   }; // UnityEngine.Timeline.RuntimeElement
+  #pragma pack(pop)
   static check_size<sizeof(RuntimeElement), 16 + sizeof(int)> __UnityEngine_Timeline_RuntimeElementSizeCheck;
   static_assert(sizeof(RuntimeElement) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeElement*, "UnityEngine.Timeline", "RuntimeElement");

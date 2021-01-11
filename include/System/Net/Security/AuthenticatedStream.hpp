@@ -52,8 +52,8 @@ namespace System::Net::Security {
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Net.Security.AuthenticatedStream
+  #pragma pack(pop)
   static check_size<sizeof(AuthenticatedStream), 48 + sizeof(bool)> __System_Net_Security_AuthenticatedStreamSizeCheck;
   static_assert(sizeof(AuthenticatedStream) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::AuthenticatedStream*, "System.Net.Security", "AuthenticatedStream");

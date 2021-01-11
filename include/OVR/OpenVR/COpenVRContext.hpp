@@ -121,9 +121,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.COpenVRContext
+  #pragma pack(pop)
   static check_size<sizeof(COpenVRContext), 120 + sizeof(System::IntPtr)> __OVR_OpenVR_COpenVRContextSizeCheck;
   static_assert(sizeof(COpenVRContext) == 0x80);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::COpenVRContext, "OVR.OpenVR", "COpenVRContext");

@@ -47,9 +47,9 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.SmallRect
+  #pragma pack(pop)
   static check_size<sizeof(SmallRect), 6 + sizeof(int16_t)> __System_SmallRectSizeCheck;
   static_assert(sizeof(SmallRect) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::SmallRect, "System", "SmallRect");

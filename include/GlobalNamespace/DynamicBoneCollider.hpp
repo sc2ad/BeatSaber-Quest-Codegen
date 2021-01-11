@@ -78,8 +78,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DynamicBoneCollider*, creationType>()));
     }
   }; // DynamicBoneCollider
+  #pragma pack(pop)
   static check_size<sizeof(DynamicBoneCollider), 48 + sizeof(float)> __GlobalNamespace_DynamicBoneColliderSizeCheck;
   static_assert(sizeof(DynamicBoneCollider) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneCollider*, "", "DynamicBoneCollider");

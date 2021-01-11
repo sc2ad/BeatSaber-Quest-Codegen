@@ -64,8 +64,8 @@ namespace GlobalNamespace {
     // Offset: 0x11163A4
     void set_material(UnityEngine::Material* value);
   }; // SteamVR_RenderModel/RenderModel
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_RenderModel::RenderModel), 24 + sizeof(UnityEngine::Material*)> __GlobalNamespace_SteamVR_RenderModel_RenderModelSizeCheck;
   static_assert(sizeof(SteamVR_RenderModel::RenderModel) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::RenderModel*, "", "SteamVR_RenderModel/RenderModel");

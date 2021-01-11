@@ -49,9 +49,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVRPlugin/Fovf
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Fovf), 12 + sizeof(float)> __GlobalNamespace_OVRPlugin_FovfSizeCheck;
   static_assert(sizeof(OVRPlugin::Fovf) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Fovf, "", "OVRPlugin/Fovf");

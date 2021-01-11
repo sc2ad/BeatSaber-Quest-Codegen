@@ -165,9 +165,9 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.PInvokeAttributes MaxValue
     static void _set_MaxValue(System::Reflection::PInvokeAttributes value);
   }; // System.Reflection.PInvokeAttributes
+  #pragma pack(pop)
   static check_size<sizeof(PInvokeAttributes), 0 + sizeof(int)> __System_Reflection_PInvokeAttributesSizeCheck;
   static_assert(sizeof(PInvokeAttributes) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::PInvokeAttributes, "System.Reflection", "PInvokeAttributes");

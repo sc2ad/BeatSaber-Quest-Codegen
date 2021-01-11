@@ -140,8 +140,8 @@ namespace System::IO {
     // Maps to method: get_IsCompleted
     bool System_IAsyncResult_get_IsCompleted();
   }; // System.IO.FileStreamAsyncResult
+  #pragma pack(pop)
   static check_size<sizeof(FileStreamAsyncResult), 64 + sizeof(System::AsyncCallback*)> __System_IO_FileStreamAsyncResultSizeCheck;
   static_assert(sizeof(FileStreamAsyncResult) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileStreamAsyncResult*, "System.IO", "FileStreamAsyncResult");

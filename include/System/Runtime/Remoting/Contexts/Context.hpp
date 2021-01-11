@@ -271,8 +271,8 @@ namespace System::Runtime::Remoting::Contexts {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Runtime.Remoting.Contexts.Context
+  #pragma pack(pop)
   static check_size<sizeof(Context), 80 + sizeof(System::Runtime::Remoting::Contexts::ContextCallbackObject*)> __System_Runtime_Remoting_Contexts_ContextSizeCheck;
   static_assert(sizeof(Context) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::Context*, "System.Runtime.Remoting.Contexts", "Context");

@@ -116,6 +116,7 @@ namespace GlobalNamespace {
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  GetBeatmapLevelResult(bool isError, GlobalNamespace::IBeatmapLevel* beatmapLevel)
     }; // BeatmapLevelsModel/GetBeatmapLevelResult
+    #pragma pack(pop)
     static check_size<sizeof(BeatmapLevelsModel::GetBeatmapLevelResult), 8 + sizeof(GlobalNamespace::IBeatmapLevel*)> __GlobalNamespace_BeatmapLevelsModel_GetBeatmapLevelResultSizeCheck;
     static_assert(sizeof(BeatmapLevelsModel::GetBeatmapLevelResult) == 0x10);
     // Size: 0x14
@@ -168,6 +169,7 @@ namespace GlobalNamespace {
         // Set static field: static public BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState Completed
         static void _set_Completed(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState value);
       }; // BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState
+      #pragma pack(pop)
       static check_size<sizeof(BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState), 0 + sizeof(int)> __GlobalNamespace_BeatmapLevelsModel_LevelDownloadingUpdate_DownloadingStateSizeCheck;
       static_assert(sizeof(BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState) == 0x4);
       // public readonly System.String levelID
@@ -205,6 +207,7 @@ namespace GlobalNamespace {
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  LevelDownloadingUpdate(::Il2CppString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState downloadingState)
     }; // BeatmapLevelsModel/LevelDownloadingUpdate
+    #pragma pack(pop)
     static check_size<sizeof(BeatmapLevelsModel::LevelDownloadingUpdate), 16 + sizeof(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState)> __GlobalNamespace_BeatmapLevelsModel_LevelDownloadingUpdateSizeCheck;
     static_assert(sizeof(BeatmapLevelsModel::LevelDownloadingUpdate) == 0x14);
     // private BeatmapLevelPackCollectionContainerSO _dlcLevelPackCollectionContainer
@@ -371,10 +374,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelsModel*, creationType>()));
     }
   }; // BeatmapLevelsModel
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapLevelsModel), 120 + sizeof(GlobalNamespace::BeatmapLevelLoader*)> __GlobalNamespace_BeatmapLevelsModelSizeCheck;
   static_assert(sizeof(BeatmapLevelsModel) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel*, "", "BeatmapLevelsModel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult, "", "BeatmapLevelsModel/GetBeatmapLevelResult");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate, "", "BeatmapLevelsModel/LevelDownloadingUpdate");

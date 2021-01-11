@@ -31,6 +31,6 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<ExitGUIException*, creationType>(message)));
     }
   }; // UnityEngine.ExitGUIException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ExitGUIException*, "UnityEngine", "ExitGUIException");

@@ -98,9 +98,9 @@ namespace System::Net {
     // Set static field: static public System.Net.WebHeaderCollectionType FileWebResponse
     static void _set_FileWebResponse(System::Net::WebHeaderCollectionType value);
   }; // System.Net.WebHeaderCollectionType
+  #pragma pack(pop)
   static check_size<sizeof(WebHeaderCollectionType), 0 + sizeof(uint16_t)> __System_Net_WebHeaderCollectionTypeSizeCheck;
   static_assert(sizeof(WebHeaderCollectionType) == 0x2);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebHeaderCollectionType, "System.Net", "WebHeaderCollectionType");

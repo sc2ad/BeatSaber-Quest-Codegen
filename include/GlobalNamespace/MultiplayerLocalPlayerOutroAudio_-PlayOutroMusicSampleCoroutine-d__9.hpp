@@ -96,8 +96,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MultiplayerLocalPlayerOutroAudio/<PlayOutroMusicSampleCoroutine>d__9
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalPlayerOutroAudio::$PlayOutroMusicSampleCoroutine$d__9), 44 + sizeof(float)> __GlobalNamespace_MultiplayerLocalPlayerOutroAudio_$PlayOutroMusicSampleCoroutine$d__9SizeCheck;
   static_assert(sizeof(MultiplayerLocalPlayerOutroAudio::$PlayOutroMusicSampleCoroutine$d__9) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerOutroAudio::$PlayOutroMusicSampleCoroutine$d__9*, "", "MultiplayerLocalPlayerOutroAudio/<PlayOutroMusicSampleCoroutine>d__9");

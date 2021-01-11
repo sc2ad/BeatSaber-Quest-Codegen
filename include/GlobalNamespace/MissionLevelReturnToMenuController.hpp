@@ -77,8 +77,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelReturnToMenuController*, creationType>()));
     }
   }; // MissionLevelReturnToMenuController
+  #pragma pack(pop)
   static check_size<sizeof(MissionLevelReturnToMenuController), 40 + sizeof(GlobalNamespace::MissionObjectiveCheckersManager*)> __GlobalNamespace_MissionLevelReturnToMenuControllerSizeCheck;
   static_assert(sizeof(MissionLevelReturnToMenuController) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelReturnToMenuController*, "", "MissionLevelReturnToMenuController");

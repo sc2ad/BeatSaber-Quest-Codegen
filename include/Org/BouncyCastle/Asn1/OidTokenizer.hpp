@@ -45,8 +45,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x13F8580
     ::Il2CppString* NextToken();
   }; // Org.BouncyCastle.Asn1.OidTokenizer
+  #pragma pack(pop)
   static check_size<sizeof(OidTokenizer), 24 + sizeof(int)> __Org_BouncyCastle_Asn1_OidTokenizerSizeCheck;
   static_assert(sizeof(OidTokenizer) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::OidTokenizer*, "Org.BouncyCastle.Asn1", "OidTokenizer");

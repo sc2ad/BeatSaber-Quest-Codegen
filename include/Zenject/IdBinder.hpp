@@ -48,8 +48,8 @@ namespace Zenject {
     // Offset: 0x129FBBC
     void WithId(::Il2CppObject* identifier);
   }; // Zenject.IdBinder
+  #pragma pack(pop)
   static check_size<sizeof(IdBinder), 16 + sizeof(Zenject::BindInfo*)> __Zenject_IdBinderSizeCheck;
   static_assert(sizeof(IdBinder) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IdBinder*, "Zenject", "IdBinder");

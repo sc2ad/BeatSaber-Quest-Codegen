@@ -427,8 +427,8 @@ namespace System {
     // Base method: System.ConsoleKeyInfo IConsoleDriver::ReadKey(System.Boolean intercept)
     System::ConsoleKeyInfo ReadKey(bool intercept);
   }; // System.TermInfoDriver
+  #pragma pack(pop)
   static check_size<sizeof(TermInfoDriver), 280 + sizeof(int)> __System_TermInfoDriverSizeCheck;
   static_assert(sizeof(TermInfoDriver) == 0x11C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::TermInfoDriver*, "System", "TermInfoDriver");

@@ -70,8 +70,8 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Oculus.Platform.UserOptions
+  #pragma pack(pop)
   static check_size<sizeof(UserOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_UserOptionsSizeCheck;
   static_assert(sizeof(UserOptions) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::UserOptions*, "Oculus.Platform", "UserOptions");

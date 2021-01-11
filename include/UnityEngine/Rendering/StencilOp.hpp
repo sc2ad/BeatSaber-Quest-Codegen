@@ -80,9 +80,9 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.StencilOp DecrementWrap
     static void _set_DecrementWrap(UnityEngine::Rendering::StencilOp value);
   }; // UnityEngine.Rendering.StencilOp
+  #pragma pack(pop)
   static check_size<sizeof(StencilOp), 0 + sizeof(int)> __UnityEngine_Rendering_StencilOpSizeCheck;
   static_assert(sizeof(StencilOp) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::StencilOp, "UnityEngine.Rendering", "StencilOp");

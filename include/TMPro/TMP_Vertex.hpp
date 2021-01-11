@@ -59,9 +59,9 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // TMPro.TMP_Vertex
+  #pragma pack(pop)
   static check_size<sizeof(TMP_Vertex), 36 + sizeof(UnityEngine::Color32)> __TMPro_TMP_VertexSizeCheck;
   static_assert(sizeof(TMP_Vertex) == 0x28);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Vertex, "TMPro", "TMP_Vertex");

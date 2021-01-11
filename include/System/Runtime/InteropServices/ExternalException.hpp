@@ -66,6 +66,6 @@ namespace System::Runtime::InteropServices {
     // Base method: System.String Exception::ToString()
     ::Il2CppString* ToString();
   }; // System.Runtime.InteropServices.ExternalException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ExternalException*, "System.Runtime.InteropServices", "ExternalException");

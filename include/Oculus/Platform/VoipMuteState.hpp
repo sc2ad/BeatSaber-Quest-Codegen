@@ -53,9 +53,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.VoipMuteState Unmuted
     static void _set_Unmuted(Oculus::Platform::VoipMuteState value);
   }; // Oculus.Platform.VoipMuteState
+  #pragma pack(pop)
   static check_size<sizeof(VoipMuteState), 0 + sizeof(int)> __Oculus_Platform_VoipMuteStateSizeCheck;
   static_assert(sizeof(VoipMuteState) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipMuteState, "Oculus.Platform", "VoipMuteState");

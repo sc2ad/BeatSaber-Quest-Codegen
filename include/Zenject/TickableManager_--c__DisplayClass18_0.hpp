@@ -63,8 +63,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<TickableManager::$$c__DisplayClass18_0*, creationType>()));
     }
   }; // Zenject.TickableManager/<>c__DisplayClass18_0
+  #pragma pack(pop)
   static check_size<sizeof(TickableManager::$$c__DisplayClass18_0), 16 + sizeof(Zenject::ITickable*)> __Zenject_TickableManager_$$c__DisplayClass18_0SizeCheck;
   static_assert(sizeof(TickableManager::$$c__DisplayClass18_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TickableManager::$$c__DisplayClass18_0*, "Zenject", "TickableManager/<>c__DisplayClass18_0");

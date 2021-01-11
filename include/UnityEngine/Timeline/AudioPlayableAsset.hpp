@@ -138,8 +138,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<AudioPlayableAsset*, creationType>()));
     }
   }; // UnityEngine.Timeline.AudioPlayableAsset
+  #pragma pack(pop)
   static check_size<sizeof(AudioPlayableAsset), 40 + sizeof(UnityEngine::Timeline::AudioClipProperties*)> __UnityEngine_Timeline_AudioPlayableAssetSizeCheck;
   static_assert(sizeof(AudioPlayableAsset) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioPlayableAsset*, "UnityEngine.Timeline", "AudioPlayableAsset");

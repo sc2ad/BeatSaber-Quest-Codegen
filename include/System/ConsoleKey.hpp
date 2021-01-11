@@ -896,9 +896,9 @@ namespace System {
     // Set static field: static public System.ConsoleKey OemClear
     static void _set_OemClear(System::ConsoleKey value);
   }; // System.ConsoleKey
+  #pragma pack(pop)
   static check_size<sizeof(ConsoleKey), 0 + sizeof(int)> __System_ConsoleKeySizeCheck;
   static_assert(sizeof(ConsoleKey) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleKey, "System", "ConsoleKey");

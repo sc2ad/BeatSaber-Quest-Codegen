@@ -87,9 +87,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.HideFlags HideAndDontSave
     static void _set_HideAndDontSave(UnityEngine::HideFlags value);
   }; // UnityEngine.HideFlags
+  #pragma pack(pop)
   static check_size<sizeof(HideFlags), 0 + sizeof(int)> __UnityEngine_HideFlagsSizeCheck;
   static_assert(sizeof(HideFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HideFlags, "UnityEngine", "HideFlags");

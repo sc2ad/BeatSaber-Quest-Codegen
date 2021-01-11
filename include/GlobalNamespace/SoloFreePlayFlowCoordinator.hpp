@@ -165,8 +165,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SoloFreePlayFlowCoordinator*, creationType>()));
     }
   }; // SoloFreePlayFlowCoordinator
+  #pragma pack(pop)
   static check_size<sizeof(SoloFreePlayFlowCoordinator), 320 + sizeof(GlobalNamespace::PlatformLeaderboardsModel*)> __GlobalNamespace_SoloFreePlayFlowCoordinatorSizeCheck;
   static_assert(sizeof(SoloFreePlayFlowCoordinator) == 0x148);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloFreePlayFlowCoordinator*, "", "SoloFreePlayFlowCoordinator");

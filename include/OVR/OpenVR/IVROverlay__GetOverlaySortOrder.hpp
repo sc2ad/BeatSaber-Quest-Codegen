@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x186DDC4
     OVR::OpenVR::EVROverlayError EndInvoke(uint& punSortOrder, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlaySortOrder
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlaySortOrder*, "OVR.OpenVR", "IVROverlay/_GetOverlaySortOrder");

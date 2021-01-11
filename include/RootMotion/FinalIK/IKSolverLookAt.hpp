@@ -242,8 +242,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLookAt*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolverLookAt
+  #pragma pack(pop)
   static check_size<sizeof(IKSolverLookAt), 192 + sizeof(::Array<UnityEngine::Vector3>*)> __RootMotion_FinalIK_IKSolverLookAtSizeCheck;
   static_assert(sizeof(IKSolverLookAt) == 0xC8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLookAt*, "RootMotion.FinalIK", "IKSolverLookAt");

@@ -109,8 +109,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DeeplinkManagerToDestinationRequestManagerAdapter*, creationType>()));
     }
   }; // DeeplinkManagerToDestinationRequestManagerAdapter
+  #pragma pack(pop)
   static check_size<sizeof(DeeplinkManagerToDestinationRequestManagerAdapter), 40 + sizeof(GlobalNamespace::MenuDestination*)> __GlobalNamespace_DeeplinkManagerToDestinationRequestManagerAdapterSizeCheck;
   static_assert(sizeof(DeeplinkManagerToDestinationRequestManagerAdapter) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*, "", "DeeplinkManagerToDestinationRequestManagerAdapter");

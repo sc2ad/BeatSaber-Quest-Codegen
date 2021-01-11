@@ -65,6 +65,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<MergeElements::$$c*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c*, "UnityEngine.ProBuilder.MeshOperations", "MergeElements/<>c");

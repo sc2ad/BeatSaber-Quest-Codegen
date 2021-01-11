@@ -60,7 +60,7 @@ namespace System {
     // Offset: 0x1CAD290
     static void Memcpy(uint8_t* dest, uint8_t* src, int size);
   }; // System.Buffer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Buffer*, "System", "Buffer");

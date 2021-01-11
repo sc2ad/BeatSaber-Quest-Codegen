@@ -82,8 +82,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionGameplaySceneSetupData*, creationType>(missionObjectives, autoRestart, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, backButtonText)));
     }
   }; // MissionGameplaySceneSetupData
+  #pragma pack(pop)
   static check_size<sizeof(MissionGameplaySceneSetupData), 56 + sizeof(::Il2CppString*)> __GlobalNamespace_MissionGameplaySceneSetupDataSizeCheck;
   static_assert(sizeof(MissionGameplaySceneSetupData) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionGameplaySceneSetupData*, "", "MissionGameplaySceneSetupData");

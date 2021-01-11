@@ -87,8 +87,8 @@ namespace System::IO {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.IO.FileInfo
+  #pragma pack(pop)
   static check_size<sizeof(FileInfo), 96 + sizeof(::Il2CppString*)> __System_IO_FileInfoSizeCheck;
   static_assert(sizeof(FileInfo) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileInfo*, "System.IO", "FileInfo");

@@ -61,8 +61,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CreditsScenesTransitionSetupDataSO*, creationType>()));
     }
   }; // CreditsScenesTransitionSetupDataSO
+  #pragma pack(pop)
   static check_size<sizeof(CreditsScenesTransitionSetupDataSO), 48 + sizeof(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>*)> __GlobalNamespace_CreditsScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(CreditsScenesTransitionSetupDataSO) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsScenesTransitionSetupDataSO*, "", "CreditsScenesTransitionSetupDataSO");

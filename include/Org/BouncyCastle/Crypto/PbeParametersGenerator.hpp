@@ -72,8 +72,8 @@ namespace Org::BouncyCastle::Crypto {
       return THROW_UNLESS((::il2cpp_utils::New<PbeParametersGenerator*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.PbeParametersGenerator
+  #pragma pack(pop)
   static check_size<sizeof(PbeParametersGenerator), 32 + sizeof(int)> __Org_BouncyCastle_Crypto_PbeParametersGeneratorSizeCheck;
   static_assert(sizeof(PbeParametersGenerator) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::PbeParametersGenerator*, "Org.BouncyCastle.Crypto", "PbeParametersGenerator");

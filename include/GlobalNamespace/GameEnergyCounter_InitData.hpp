@@ -55,8 +55,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameEnergyCounter::InitData*, creationType>(energyType, noFail, instaFail, failOnSaberClash)));
     }
   }; // GameEnergyCounter/InitData
+  #pragma pack(pop)
   static check_size<sizeof(GameEnergyCounter::InitData), 22 + sizeof(bool)> __GlobalNamespace_GameEnergyCounter_InitDataSizeCheck;
   static_assert(sizeof(GameEnergyCounter::InitData) == 0x17);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyCounter::InitData*, "", "GameEnergyCounter/InitData");

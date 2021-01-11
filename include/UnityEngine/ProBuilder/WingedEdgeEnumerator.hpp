@@ -89,8 +89,8 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // UnityEngine.ProBuilder.WingedEdgeEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(WingedEdgeEnumerator), 24 + sizeof(UnityEngine::ProBuilder::WingedEdge*)> __UnityEngine_ProBuilder_WingedEdgeEnumeratorSizeCheck;
   static_assert(sizeof(WingedEdgeEnumerator) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::WingedEdgeEnumerator*, "UnityEngine.ProBuilder", "WingedEdgeEnumerator");

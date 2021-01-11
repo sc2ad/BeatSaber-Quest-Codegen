@@ -349,8 +349,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerModeSelectionFlowCoordinator*, creationType>()));
     }
   }; // MultiplayerModeSelectionFlowCoordinator
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerModeSelectionFlowCoordinator), 328 + sizeof(System::Threading::Tasks::TaskCompletionSource_1<bool>*)> __GlobalNamespace_MultiplayerModeSelectionFlowCoordinatorSizeCheck;
   static_assert(sizeof(MultiplayerModeSelectionFlowCoordinator) == 0x150);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*, "", "MultiplayerModeSelectionFlowCoordinator");

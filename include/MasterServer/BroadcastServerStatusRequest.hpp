@@ -184,8 +184,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<BroadcastServerStatusRequest*, creationType>()));
     }
   }; // MasterServer.BroadcastServerStatusRequest
+  #pragma pack(pop)
   static check_size<sizeof(BroadcastServerStatusRequest), 112 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_BroadcastServerStatusRequestSizeCheck;
   static_assert(sizeof(BroadcastServerStatusRequest) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BroadcastServerStatusRequest*, "MasterServer", "BroadcastServerStatusRequest");

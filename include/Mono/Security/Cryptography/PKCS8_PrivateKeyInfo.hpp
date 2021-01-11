@@ -109,8 +109,8 @@ namespace Mono::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<PKCS8::PrivateKeyInfo*, creationType>()));
     }
   }; // Mono.Security.Cryptography.PKCS8/PrivateKeyInfo
+  #pragma pack(pop)
   static check_size<sizeof(PKCS8::PrivateKeyInfo), 40 + sizeof(System::Collections::ArrayList*)> __Mono_Security_Cryptography_PKCS8_PrivateKeyInfoSizeCheck;
   static_assert(sizeof(PKCS8::PrivateKeyInfo) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo*, "Mono.Security.Cryptography", "PKCS8/PrivateKeyInfo");

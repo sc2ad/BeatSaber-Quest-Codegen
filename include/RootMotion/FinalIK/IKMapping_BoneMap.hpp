@@ -256,8 +256,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKMapping::BoneMap*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKMapping/BoneMap
+  #pragma pack(pop)
   static check_size<sizeof(IKMapping::BoneMap), 204 + sizeof(int)> __RootMotion_FinalIK_IKMapping_BoneMapSizeCheck;
   static_assert(sizeof(IKMapping::BoneMap) == 0xD0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMapping::BoneMap*, "RootMotion.FinalIK", "IKMapping/BoneMap");

@@ -34,9 +34,9 @@ namespace OVR::OpenVR {
       return mDeviceToAbsoluteTracking;
     }
   }; // OVR.OpenVR.VRTextureWithPose_t
+  #pragma pack(pop)
   static check_size<sizeof(VRTextureWithPose_t), 0 + sizeof(OVR::OpenVR::HmdMatrix34_t)> __OVR_OpenVR_VRTextureWithPose_tSizeCheck;
   static_assert(sizeof(VRTextureWithPose_t) == 0x30);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRTextureWithPose_t, "OVR.OpenVR", "VRTextureWithPose_t");

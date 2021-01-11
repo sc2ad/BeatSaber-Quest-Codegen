@@ -187,8 +187,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameNoteController*, creationType>()));
     }
   }; // GameNoteController
+  #pragma pack(pop)
   static check_size<sizeof(GameNoteController), 164 + sizeof(bool)> __GlobalNamespace_GameNoteControllerSizeCheck;
   static_assert(sizeof(GameNoteController) == 0xA5);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameNoteController*, "", "GameNoteController");

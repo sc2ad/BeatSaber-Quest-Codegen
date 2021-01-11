@@ -167,6 +167,7 @@ namespace System::Globalization {
       // Set static field: static public System.Globalization.HebrewNumber/HS END
       static void _set_END(System::Globalization::HebrewNumber::HS value);
     }; // System.Globalization.HebrewNumber/HS
+    #pragma pack(pop)
     static check_size<sizeof(HebrewNumber::HS), 0 + sizeof(int)> __System_Globalization_HebrewNumber_HSSizeCheck;
     static_assert(sizeof(HebrewNumber::HS) == 0x4);
     // Creating value type constructor for type: HebrewNumber
@@ -196,8 +197,8 @@ namespace System::Globalization {
     // Offset: 0x162ED38
     static void _cctor();
   }; // System.Globalization.HebrewNumber
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber*, "System.Globalization", "HebrewNumber");
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber::HS, "System.Globalization", "HebrewNumber/HS");

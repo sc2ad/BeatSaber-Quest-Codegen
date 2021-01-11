@@ -35,9 +35,9 @@ namespace OVR::OpenVR {
       return m_pSettings;
     }
   }; // OVR.OpenVR.CVRSettingHelper
+  #pragma pack(pop)
   static check_size<sizeof(CVRSettingHelper), 0 + sizeof(System::IntPtr)> __OVR_OpenVR_CVRSettingHelperSizeCheck;
   static_assert(sizeof(CVRSettingHelper) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSettingHelper, "OVR.OpenVR", "CVRSettingHelper");

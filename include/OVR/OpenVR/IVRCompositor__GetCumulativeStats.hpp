@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x185A2AC
     void EndInvoke(OVR::OpenVR::Compositor_CumulativeStats& pStats, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_GetCumulativeStats
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_GetCumulativeStats*, "OVR.OpenVR", "IVRCompositor/_GetCumulativeStats");

@@ -28,7 +28,7 @@ namespace System {
     // Set static field: static public readonly System.Boolean PreserveEventListnerObjectIdentity
     static void _set_PreserveEventListnerObjectIdentity(bool value);
   }; // System.AppContextSwitches
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::AppContextSwitches*, "System", "AppContextSwitches");

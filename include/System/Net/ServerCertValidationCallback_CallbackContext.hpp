@@ -70,8 +70,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertValidationCallback::CallbackContext*, creationType>(request, certificate, chain, sslPolicyErrors)));
     }
   }; // System.Net.ServerCertValidationCallback/CallbackContext
+  #pragma pack(pop)
   static check_size<sizeof(ServerCertValidationCallback::CallbackContext), 44 + sizeof(bool)> __System_Net_ServerCertValidationCallback_CallbackContextSizeCheck;
   static_assert(sizeof(ServerCertValidationCallback::CallbackContext) == 0x2D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServerCertValidationCallback::CallbackContext*, "System.Net", "ServerCertValidationCallback/CallbackContext");

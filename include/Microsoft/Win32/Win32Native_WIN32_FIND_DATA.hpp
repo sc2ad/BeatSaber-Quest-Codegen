@@ -45,8 +45,8 @@ namespace Microsoft::Win32 {
       return THROW_UNLESS((::il2cpp_utils::New<Win32Native::WIN32_FIND_DATA*, creationType>()));
     }
   }; // Microsoft.Win32.Win32Native/WIN32_FIND_DATA
+  #pragma pack(pop)
   static check_size<sizeof(Win32Native::WIN32_FIND_DATA), 24 + sizeof(::Il2CppString*)> __Microsoft_Win32_Win32Native_WIN32_FIND_DATASizeCheck;
   static_assert(sizeof(Win32Native::WIN32_FIND_DATA) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*, "Microsoft.Win32", "Win32Native/WIN32_FIND_DATA");

@@ -64,8 +64,8 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Base method: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo IPreCompCallback::Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
   }; // Org.BouncyCastle.Math.EC.Multiplier.WNafUtilities/ConfigureBasepointCallback
+  #pragma pack(pop)
   static check_size<sizeof(WNafUtilities::ConfigureBasepointCallback), 24 + sizeof(int)> __Org_BouncyCastle_Math_EC_Multiplier_WNafUtilities_ConfigureBasepointCallbackSizeCheck;
   static_assert(sizeof(WNafUtilities::ConfigureBasepointCallback) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepointCallback*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafUtilities/ConfigureBasepointCallback");

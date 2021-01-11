@@ -255,8 +255,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRGrabber*, creationType>()));
     }
   }; // OVRGrabber
+  #pragma pack(pop)
   static check_size<sizeof(OVRGrabber), 192 + sizeof(bool)> __GlobalNamespace_OVRGrabberSizeCheck;
   static_assert(sizeof(OVRGrabber) == 0xC1);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGrabber*, "", "OVRGrabber");

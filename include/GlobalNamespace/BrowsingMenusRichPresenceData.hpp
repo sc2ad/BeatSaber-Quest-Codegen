@@ -72,8 +72,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BrowsingMenusRichPresenceData*, creationType>()));
     }
   }; // BrowsingMenusRichPresenceData
+  #pragma pack(pop)
   static check_size<sizeof(BrowsingMenusRichPresenceData), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_BrowsingMenusRichPresenceDataSizeCheck;
   static_assert(sizeof(BrowsingMenusRichPresenceData) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BrowsingMenusRichPresenceData*, "", "BrowsingMenusRichPresenceData");

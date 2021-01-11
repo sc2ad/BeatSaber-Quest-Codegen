@@ -95,8 +95,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.Asn1TaggedObject
+  #pragma pack(pop)
   static check_size<sizeof(Asn1TaggedObject), 24 + sizeof(Org::BouncyCastle::Asn1::Asn1Encodable*)> __Org_BouncyCastle_Asn1_Asn1TaggedObjectSizeCheck;
   static_assert(sizeof(Asn1TaggedObject) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1TaggedObject*, "Org.BouncyCastle.Asn1", "Asn1TaggedObject");

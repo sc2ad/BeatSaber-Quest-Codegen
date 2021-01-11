@@ -180,8 +180,8 @@ namespace System::Net {
     // Base method: System.Void Stream::.cctor()
     static void _cctor();
   }; // System.Net.ResponseStream
+  #pragma pack(pop)
   static check_size<sizeof(ResponseStream), 56 + sizeof(System::IO::Stream*)> __System_Net_ResponseStreamSizeCheck;
   static_assert(sizeof(ResponseStream) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ResponseStream*, "System.Net", "ResponseStream");

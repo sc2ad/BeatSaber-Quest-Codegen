@@ -88,8 +88,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<IntListSettingsController*, creationType>()));
     }
   }; // IntListSettingsController
+  #pragma pack(pop)
   static check_size<sizeof(IntListSettingsController), 48 + sizeof(System::Action_1<int>*)> __GlobalNamespace_IntListSettingsControllerSizeCheck;
   static_assert(sizeof(IntListSettingsController) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntListSettingsController*, "", "IntListSettingsController");

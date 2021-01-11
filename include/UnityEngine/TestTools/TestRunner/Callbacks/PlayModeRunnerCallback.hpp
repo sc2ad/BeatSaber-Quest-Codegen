@@ -81,8 +81,8 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
       return THROW_UNLESS((::il2cpp_utils::New<PlayModeRunnerCallback*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
+  #pragma pack(pop)
   static check_size<sizeof(PlayModeRunnerCallback), 24 + sizeof(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*)> __UnityEngine_TestTools_TestRunner_Callbacks_PlayModeRunnerCallbackSizeCheck;
   static_assert(sizeof(PlayModeRunnerCallback) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*, "UnityEngine.TestTools.TestRunner.Callbacks", "PlayModeRunnerCallback");

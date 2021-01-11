@@ -146,8 +146,8 @@ namespace LiteNetLib {
     // Offset: 0x1DC0394
     void Reject(LiteNetLib::Utils::NetDataWriter* rejectData);
   }; // LiteNetLib.ConnectionRequest
+  #pragma pack(pop)
   static check_size<sizeof(ConnectionRequest), 64 + sizeof(System::Net::IPEndPoint*)> __LiteNetLib_ConnectionRequestSizeCheck;
   static_assert(sizeof(ConnectionRequest) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ConnectionRequest*, "LiteNetLib", "ConnectionRequest");

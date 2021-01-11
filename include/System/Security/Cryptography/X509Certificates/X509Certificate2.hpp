@@ -203,8 +203,8 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.String X509Certificate::ToString(System.Boolean verbose)
     ::Il2CppString* ToString(bool verbose);
   }; // System.Security.Cryptography.X509Certificates.X509Certificate2
+  #pragma pack(pop)
   static check_size<sizeof(X509Certificate2), 48 + sizeof(::Il2CppString*)> __System_Security_Cryptography_X509Certificates_X509Certificate2SizeCheck;
   static_assert(sizeof(X509Certificate2) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Certificate2*, "System.Security.Cryptography.X509Certificates", "X509Certificate2");

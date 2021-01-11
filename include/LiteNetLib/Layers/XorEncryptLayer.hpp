@@ -78,8 +78,8 @@ namespace LiteNetLib::Layers {
     // Base method: System.Void PacketLayerBase::ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
   }; // LiteNetLib.Layers.XorEncryptLayer
+  #pragma pack(pop)
   static check_size<sizeof(XorEncryptLayer), 24 + sizeof(::Array<uint8_t>*)> __LiteNetLib_Layers_XorEncryptLayerSizeCheck;
   static_assert(sizeof(XorEncryptLayer) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Layers::XorEncryptLayer*, "LiteNetLib.Layers", "XorEncryptLayer");

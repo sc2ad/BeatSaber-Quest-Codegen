@@ -53,8 +53,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleColorSO*, creationType>()));
     }
   }; // SimpleColorSO
+  #pragma pack(pop)
   static check_size<sizeof(SimpleColorSO), 24 + sizeof(UnityEngine::Color)> __GlobalNamespace_SimpleColorSOSizeCheck;
   static_assert(sizeof(SimpleColorSO) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleColorSO*, "", "SimpleColorSO");

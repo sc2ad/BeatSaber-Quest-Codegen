@@ -81,6 +81,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<MeshValidation::$$c*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c*, "UnityEngine.ProBuilder.MeshOperations", "MeshValidation/<>c");

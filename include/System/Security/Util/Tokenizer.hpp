@@ -104,6 +104,7 @@ namespace System::Security::Util {
       // Set static field: static public System.Security.Util.Tokenizer/TokenSource Other
       static void _set_Other(System::Security::Util::Tokenizer::TokenSource value);
     }; // System.Security.Util.Tokenizer/TokenSource
+    #pragma pack(pop)
     static check_size<sizeof(Tokenizer::TokenSource), 0 + sizeof(int)> __System_Security_Util_Tokenizer_TokenSourceSizeCheck;
     static_assert(sizeof(Tokenizer::TokenSource) == 0x4);
     // public System.Int32 LineNo
@@ -227,9 +228,9 @@ namespace System::Security::Util {
     // Offset: 0x12889DC
     ::Il2CppString* GetStringToken();
   }; // System.Security.Util.Tokenizer
+  #pragma pack(pop)
   static check_size<sizeof(Tokenizer), 104 + sizeof(::Il2CppString*)> __System_Security_Util_TokenizerSizeCheck;
   static_assert(sizeof(Tokenizer) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer*, "System.Security.Util", "Tokenizer");
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::TokenSource, "System.Security.Util", "Tokenizer/TokenSource");

@@ -53,8 +53,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VRTrackersRecorder::Keyframe::KeyframeTransform*, creationType>()));
     }
   }; // VRTrackersRecorder/Keyframe/KeyframeTransform
+  #pragma pack(pop)
   static check_size<sizeof(VRTrackersRecorder::Keyframe::KeyframeTransform), 44 + sizeof(bool)> __GlobalNamespace_VRTrackersRecorder_Keyframe_KeyframeTransformSizeCheck;
   static_assert(sizeof(VRTrackersRecorder::Keyframe::KeyframeTransform) == 0x2D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*, "", "VRTrackersRecorder/Keyframe/KeyframeTransform");

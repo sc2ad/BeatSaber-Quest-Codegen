@@ -83,8 +83,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteDebrisRigidbodyPhysics*, creationType>()));
     }
   }; // NoteDebrisRigidbodyPhysics
+  #pragma pack(pop)
   static check_size<sizeof(NoteDebrisRigidbodyPhysics), 40 + sizeof(bool)> __GlobalNamespace_NoteDebrisRigidbodyPhysicsSizeCheck;
   static_assert(sizeof(NoteDebrisRigidbodyPhysics) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisRigidbodyPhysics*, "", "NoteDebrisRigidbodyPhysics");

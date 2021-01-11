@@ -56,9 +56,9 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Set static field: static public UnityEngine.Experimental.GlobalIllumination.LightMode Unknown
     static void _set_Unknown(UnityEngine::Experimental::GlobalIllumination::LightMode value);
   }; // UnityEngine.Experimental.GlobalIllumination.LightMode
+  #pragma pack(pop)
   static check_size<sizeof(LightMode), 0 + sizeof(uint8_t)> __UnityEngine_Experimental_GlobalIllumination_LightModeSizeCheck;
   static_assert(sizeof(LightMode) == 0x1);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LightMode, "UnityEngine.Experimental.GlobalIllumination", "LightMode");

@@ -36,7 +36,7 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0xFFFFFFFF
     System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::Il2CppString* url, ::Il2CppObject* remoteChannelData, ::Il2CppString*& objectURI);
   }; // System.Runtime.Remoting.Channels.IChannelSender
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::IChannelSender*, "System.Runtime.Remoting.Channels", "IChannelSender");

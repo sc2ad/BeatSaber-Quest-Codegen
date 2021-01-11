@@ -155,8 +155,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<BaseMasterServerMultipartMessage*, creationType>()));
     }
   }; // MasterServer.BaseMasterServerMultipartMessage
+  #pragma pack(pop)
   static check_size<sizeof(BaseMasterServerMultipartMessage), 40 + sizeof(::Array<uint8_t>*)> __MasterServer_BaseMasterServerMultipartMessageSizeCheck;
   static_assert(sizeof(BaseMasterServerMultipartMessage) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseMasterServerMultipartMessage*, "MasterServer", "BaseMasterServerMultipartMessage");

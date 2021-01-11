@@ -56,7 +56,7 @@ namespace System::Collections {
     // Offset: 0xFFFFFFFF
     void System_Collections_IList_RemoveAt(int index);
   }; // System.Collections.IList
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IList*, "System.Collections", "IList");

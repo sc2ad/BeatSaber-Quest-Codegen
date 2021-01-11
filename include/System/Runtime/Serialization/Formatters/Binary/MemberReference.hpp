@@ -60,8 +60,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return THROW_UNLESS((::il2cpp_utils::New<MemberReference*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.MemberReference
+  #pragma pack(pop)
   static check_size<sizeof(MemberReference), 16 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_MemberReferenceSizeCheck;
   static_assert(sizeof(MemberReference) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MemberReference*, "System.Runtime.Serialization.Formatters.Binary", "MemberReference");

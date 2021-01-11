@@ -178,8 +178,8 @@ namespace System::Net {
     // Maps to method: get_IsCompleted
     bool System_IAsyncResult_get_IsCompleted();
   }; // System.Net.ListenerAsyncResult
+  #pragma pack(pop)
   static check_size<sizeof(ListenerAsyncResult), 81 + sizeof(bool)> __System_Net_ListenerAsyncResultSizeCheck;
   static_assert(sizeof(ListenerAsyncResult) == 0x52);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ListenerAsyncResult*, "System.Net", "ListenerAsyncResult");

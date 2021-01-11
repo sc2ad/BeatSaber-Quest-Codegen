@@ -45,9 +45,9 @@ namespace System::IO {
     // Set static field: static public System.IO.SearchOption AllDirectories
     static void _set_AllDirectories(System::IO::SearchOption value);
   }; // System.IO.SearchOption
+  #pragma pack(pop)
   static check_size<sizeof(SearchOption), 0 + sizeof(int)> __System_IO_SearchOptionSizeCheck;
   static_assert(sizeof(SearchOption) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchOption, "System.IO", "SearchOption");

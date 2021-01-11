@@ -134,8 +134,8 @@ namespace UnityEngine::Rendering {
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // UnityEngine.Rendering.RenderTargetIdentifier
+  #pragma pack(pop)
   static check_size<sizeof(RenderTargetIdentifier), 32 + sizeof(int)> __UnityEngine_Rendering_RenderTargetIdentifierSizeCheck;
   static_assert(sizeof(RenderTargetIdentifier) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderTargetIdentifier, "UnityEngine.Rendering", "RenderTargetIdentifier");

@@ -92,8 +92,8 @@ namespace System::Globalization {
     // Offset: 0x112C220
     ::Il2CppString* Decode(::Il2CppString* s, int offset);
   }; // System.Globalization.Bootstring
+  #pragma pack(pop)
   static check_size<sizeof(Bootstring), 44 + sizeof(int)> __System_Globalization_BootstringSizeCheck;
   static_assert(sizeof(Bootstring) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Bootstring*, "System.Globalization", "Bootstring");

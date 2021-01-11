@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x19077A0
     OVR::OpenVR::EVRRenderModelError EndInvoke(System::IntPtr& ppRenderModel, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_LoadRenderModel_Async
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async*, "OVR.OpenVR", "IVRRenderModels/_LoadRenderModel_Async");

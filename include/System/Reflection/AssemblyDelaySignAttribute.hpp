@@ -41,8 +41,8 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyDelaySignAttribute*, creationType>(delaySign)));
     }
   }; // System.Reflection.AssemblyDelaySignAttribute
+  #pragma pack(pop)
   static check_size<sizeof(AssemblyDelaySignAttribute), 16 + sizeof(bool)> __System_Reflection_AssemblyDelaySignAttributeSizeCheck;
   static_assert(sizeof(AssemblyDelaySignAttribute) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyDelaySignAttribute*, "System.Reflection", "AssemblyDelaySignAttribute");

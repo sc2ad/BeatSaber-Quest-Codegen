@@ -274,8 +274,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSettingsPanelController*, creationType>()));
     }
   }; // PlayerSettingsPanelController
+  #pragma pack(pop)
   static check_size<sizeof(PlayerSettingsPanelController), 161 + sizeof(bool)> __GlobalNamespace_PlayerSettingsPanelControllerSizeCheck;
   static_assert(sizeof(PlayerSettingsPanelController) == 0xA2);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSettingsPanelController*, "", "PlayerSettingsPanelController");

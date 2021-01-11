@@ -79,9 +79,9 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.InputRecord
+  #pragma pack(pop)
   static check_size<sizeof(InputRecord), 20 + sizeof(bool)> __System_InputRecordSizeCheck;
   static_assert(sizeof(InputRecord) == 0x15);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::InputRecord, "System", "InputRecord");

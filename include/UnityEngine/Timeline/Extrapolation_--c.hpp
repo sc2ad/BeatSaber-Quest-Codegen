@@ -59,6 +59,6 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<Extrapolation::$$c*, creationType>()));
     }
   }; // UnityEngine.Timeline.Extrapolation/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::Extrapolation::$$c*, "UnityEngine.Timeline", "Extrapolation/<>c");

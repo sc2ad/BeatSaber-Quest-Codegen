@@ -86,8 +86,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteTrailEffect*, creationType>()));
     }
   }; // NoteTrailEffect
+  #pragma pack(pop)
   static check_size<sizeof(NoteTrailEffect), 40 + sizeof(GlobalNamespace::NoteTrailParticleSystem*)> __GlobalNamespace_NoteTrailEffectSizeCheck;
   static_assert(sizeof(NoteTrailEffect) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteTrailEffect*, "", "NoteTrailEffect");

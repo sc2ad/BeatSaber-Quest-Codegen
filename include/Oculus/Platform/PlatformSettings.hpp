@@ -81,8 +81,8 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<PlatformSettings*, creationType>()));
     }
   }; // Oculus.Platform.PlatformSettings
+  #pragma pack(pop)
   static check_size<sizeof(PlatformSettings), 40 + sizeof(bool)> __Oculus_Platform_PlatformSettingsSizeCheck;
   static_assert(sizeof(PlatformSettings) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformSettings*, "Oculus.Platform", "PlatformSettings");

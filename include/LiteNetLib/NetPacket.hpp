@@ -120,8 +120,8 @@ namespace LiteNetLib {
     // Offset: 0x1DCD75C
     static void _cctor();
   }; // LiteNetLib.NetPacket
+  #pragma pack(pop)
   static check_size<sizeof(NetPacket), 32 + sizeof(::Il2CppObject*)> __LiteNetLib_NetPacketSizeCheck;
   static_assert(sizeof(NetPacket) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacket*, "LiteNetLib", "NetPacket");

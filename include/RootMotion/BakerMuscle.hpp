@@ -74,8 +74,8 @@ namespace RootMotion {
     // Offset: 0x17409B8
     void SetLoopFrame(float time);
   }; // RootMotion.BakerMuscle
+  #pragma pack(pop)
   static check_size<sizeof(BakerMuscle), 32 + sizeof(::Il2CppString*)> __RootMotion_BakerMuscleSizeCheck;
   static_assert(sizeof(BakerMuscle) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerMuscle*, "RootMotion", "BakerMuscle");

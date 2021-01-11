@@ -48,7 +48,7 @@ namespace UnityEngine {
     // Offset: 0x19F19D8
     void get_center_Injected(UnityEngine::Vector3& ret);
   }; // UnityEngine.CharacterController
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CharacterController*, "UnityEngine", "CharacterController");

@@ -110,7 +110,7 @@ namespace Org::BouncyCastle::Asn1::Eac {
     // Offset: 0x1386450
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Eac.EacObjectIdentifiers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers*, "Org.BouncyCastle.Asn1.Eac", "EacObjectIdentifiers");

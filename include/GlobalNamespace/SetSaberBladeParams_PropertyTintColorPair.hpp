@@ -45,8 +45,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SetSaberBladeParams::PropertyTintColorPair*, creationType>()));
     }
   }; // SetSaberBladeParams/PropertyTintColorPair
+  #pragma pack(pop)
   static check_size<sizeof(SetSaberBladeParams::PropertyTintColorPair), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_SetSaberBladeParams_PropertyTintColorPairSizeCheck;
   static_assert(sizeof(SetSaberBladeParams::PropertyTintColorPair) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*, "", "SetSaberBladeParams/PropertyTintColorPair");

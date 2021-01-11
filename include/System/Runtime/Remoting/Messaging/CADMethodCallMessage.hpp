@@ -68,8 +68,8 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x117A12C
     int get_PropertiesCount();
   }; // System.Runtime.Remoting.Messaging.CADMethodCallMessage
+  #pragma pack(pop)
   static check_size<sizeof(CADMethodCallMessage), 56 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_Messaging_CADMethodCallMessageSizeCheck;
   static_assert(sizeof(CADMethodCallMessage) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodCallMessage*, "System.Runtime.Remoting.Messaging", "CADMethodCallMessage");

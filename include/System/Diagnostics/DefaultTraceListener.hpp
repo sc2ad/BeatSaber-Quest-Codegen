@@ -97,8 +97,8 @@ namespace System::Diagnostics {
     // Base method: System.Void TraceListener::WriteLine(System.String message)
     void WriteLine(::Il2CppString* message);
   }; // System.Diagnostics.DefaultTraceListener
+  #pragma pack(pop)
   static check_size<sizeof(DefaultTraceListener), 48 + sizeof(::Il2CppString*)> __System_Diagnostics_DefaultTraceListenerSizeCheck;
   static_assert(sizeof(DefaultTraceListener) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DefaultTraceListener*, "System.Diagnostics", "DefaultTraceListener");

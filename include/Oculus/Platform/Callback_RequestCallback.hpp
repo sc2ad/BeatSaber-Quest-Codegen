@@ -53,8 +53,8 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<Callback::RequestCallback*, creationType>()));
     }
   }; // Oculus.Platform.Callback/RequestCallback
+  #pragma pack(pop)
   static check_size<sizeof(Callback::RequestCallback), 16 + sizeof(Oculus::Platform::Message::Callback*)> __Oculus_Platform_Callback_RequestCallbackSizeCheck;
   static_assert(sizeof(Callback::RequestCallback) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Callback::RequestCallback*, "Oculus.Platform", "Callback/RequestCallback");

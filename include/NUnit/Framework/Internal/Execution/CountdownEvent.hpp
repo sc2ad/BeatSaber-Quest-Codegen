@@ -64,8 +64,8 @@ namespace NUnit::Framework::Internal::Execution {
     // Offset: 0x13F16B0
     void Signal();
   }; // NUnit.Framework.Internal.Execution.CountdownEvent
+  #pragma pack(pop)
   static check_size<sizeof(CountdownEvent), 32 + sizeof(System::Threading::ManualResetEvent*)> __NUnit_Framework_Internal_Execution_CountdownEventSizeCheck;
   static_assert(sizeof(CountdownEvent) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::CountdownEvent*, "NUnit.Framework.Internal.Execution", "CountdownEvent");

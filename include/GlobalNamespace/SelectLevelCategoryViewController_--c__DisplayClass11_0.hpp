@@ -45,8 +45,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SelectLevelCategoryViewController::$$c__DisplayClass11_0*, creationType>()));
     }
   }; // SelectLevelCategoryViewController/<>c__DisplayClass11_0
+  #pragma pack(pop)
   static check_size<sizeof(SelectLevelCategoryViewController::$$c__DisplayClass11_0), 16 + sizeof(::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>*)> __GlobalNamespace_SelectLevelCategoryViewController_$$c__DisplayClass11_0SizeCheck;
   static_assert(sizeof(SelectLevelCategoryViewController::$$c__DisplayClass11_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass11_0*, "", "SelectLevelCategoryViewController/<>c__DisplayClass11_0");

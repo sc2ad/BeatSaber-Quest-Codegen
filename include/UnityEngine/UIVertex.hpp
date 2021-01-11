@@ -95,9 +95,9 @@ namespace UnityEngine {
     // Offset: 0x19F8F40
     static void _cctor();
   }; // UnityEngine.UIVertex
+  #pragma pack(pop)
   static check_size<sizeof(UIVertex), 68 + sizeof(UnityEngine::Vector2)> __UnityEngine_UIVertexSizeCheck;
   static_assert(sizeof(UIVertex) == 0x4C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIVertex, "UnityEngine", "UIVertex");

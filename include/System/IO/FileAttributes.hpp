@@ -130,9 +130,9 @@ namespace System::IO {
     // Set static field: static public System.IO.FileAttributes NoScrubData
     static void _set_NoScrubData(System::IO::FileAttributes value);
   }; // System.IO.FileAttributes
+  #pragma pack(pop)
   static check_size<sizeof(FileAttributes), 0 + sizeof(int)> __System_IO_FileAttributesSizeCheck;
   static_assert(sizeof(FileAttributes) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileAttributes, "System.IO", "FileAttributes");

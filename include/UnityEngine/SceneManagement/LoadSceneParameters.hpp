@@ -51,8 +51,8 @@ namespace UnityEngine::SceneManagement {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, mode);
     }
   }; // UnityEngine.SceneManagement.LoadSceneParameters
+  #pragma pack(pop)
   static check_size<sizeof(LoadSceneParameters), 4 + sizeof(UnityEngine::SceneManagement::LocalPhysicsMode)> __UnityEngine_SceneManagement_LoadSceneParametersSizeCheck;
   static_assert(sizeof(LoadSceneParameters) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::LoadSceneParameters, "UnityEngine.SceneManagement", "LoadSceneParameters");

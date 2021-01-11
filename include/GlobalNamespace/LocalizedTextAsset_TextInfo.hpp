@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedTextAsset::TextInfo*, creationType>()));
     }
   }; // LocalizedTextAsset/TextInfo
+  #pragma pack(pop)
   static check_size<sizeof(LocalizedTextAsset::TextInfo), 24 + sizeof(UnityEngine::TextAsset*)> __GlobalNamespace_LocalizedTextAsset_TextInfoSizeCheck;
   static_assert(sizeof(LocalizedTextAsset::TextInfo) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::TextInfo*, "", "LocalizedTextAsset/TextInfo");

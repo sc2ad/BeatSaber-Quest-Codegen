@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x18FC7E8
     void EndInvoke(OVR::OpenVR::HmdMatrix34_t& pmatTrackingOriginToKeyboardTransform, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_SetKeyboardTransformAbsolute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_SetKeyboardTransformAbsolute*, "OVR.OpenVR", "IVROverlay/_SetKeyboardTransformAbsolute");

@@ -77,8 +77,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<ArmIK*, creationType>()));
     }
   }; // RootMotion.FinalIK.ArmIK
+  #pragma pack(pop)
   static check_size<sizeof(ArmIK), 56 + sizeof(RootMotion::FinalIK::IKSolverArm*)> __RootMotion_FinalIK_ArmIKSizeCheck;
   static_assert(sizeof(ArmIK) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ArmIK*, "RootMotion.FinalIK", "ArmIK");

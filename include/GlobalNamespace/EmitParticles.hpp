@@ -53,8 +53,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EmitParticles*, creationType>()));
     }
   }; // EmitParticles
+  #pragma pack(pop)
   static check_size<sizeof(EmitParticles), 24 + sizeof(UnityEngine::ParticleSystem*)> __GlobalNamespace_EmitParticlesSizeCheck;
   static_assert(sizeof(EmitParticles) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmitParticles*, "", "EmitParticles");

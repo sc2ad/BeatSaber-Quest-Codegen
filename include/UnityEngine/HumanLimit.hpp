@@ -58,9 +58,9 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.HumanLimit
+  #pragma pack(pop)
   static check_size<sizeof(HumanLimit), 40 + sizeof(int)> __UnityEngine_HumanLimitSizeCheck;
   static_assert(sizeof(HumanLimit) == 0x2C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanLimit, "UnityEngine", "HumanLimit");

@@ -52,8 +52,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<TextPageScrollView*, creationType>()));
     }
   }; // HMUI.TextPageScrollView
+  #pragma pack(pop)
   static check_size<sizeof(TextPageScrollView), 144 + sizeof(TMPro::TextMeshProUGUI*)> __HMUI_TextPageScrollViewSizeCheck;
   static_assert(sizeof(TextPageScrollView) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextPageScrollView*, "HMUI", "TextPageScrollView");

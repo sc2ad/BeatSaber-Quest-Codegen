@@ -214,8 +214,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HttpWebResponse*, creationType>()));
     }
   }; // System.Net.HttpWebResponse
+  #pragma pack(pop)
   static check_size<sizeof(HttpWebResponse), 112 + sizeof(System::IO::Stream*)> __System_Net_HttpWebResponseSizeCheck;
   static_assert(sizeof(HttpWebResponse) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebResponse*, "System.Net", "HttpWebResponse");

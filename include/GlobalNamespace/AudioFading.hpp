@@ -82,8 +82,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AudioFading*, creationType>()));
     }
   }; // AudioFading
+  #pragma pack(pop)
   static check_size<sizeof(AudioFading), 40 + sizeof(float)> __GlobalNamespace_AudioFadingSizeCheck;
   static_assert(sizeof(AudioFading) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioFading*, "", "AudioFading");

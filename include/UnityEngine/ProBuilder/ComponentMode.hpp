@@ -50,9 +50,9 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.ComponentMode Face
     static void _set_Face(UnityEngine::ProBuilder::ComponentMode value);
   }; // UnityEngine.ProBuilder.ComponentMode
+  #pragma pack(pop)
   static check_size<sizeof(ComponentMode), 0 + sizeof(int)> __UnityEngine_ProBuilder_ComponentModeSizeCheck;
   static_assert(sizeof(ComponentMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ComponentMode, "UnityEngine.ProBuilder", "ComponentMode");

@@ -147,8 +147,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<VRIKCalibrator::Settings*, creationType>()));
     }
   }; // RootMotion.FinalIK.VRIKCalibrator/Settings
+  #pragma pack(pop)
   static check_size<sizeof(VRIKCalibrator::Settings), 156 + sizeof(float)> __RootMotion_FinalIK_VRIKCalibrator_SettingsSizeCheck;
   static_assert(sizeof(VRIKCalibrator::Settings) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::Settings*, "RootMotion.FinalIK", "VRIKCalibrator/Settings");

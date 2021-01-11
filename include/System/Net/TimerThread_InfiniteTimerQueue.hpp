@@ -33,6 +33,6 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<TimerThread::InfiniteTimerQueue*, creationType>()));
     }
   }; // System.Net.TimerThread/InfiniteTimerQueue
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::InfiniteTimerQueue*, "System.Net", "TimerThread/InfiniteTimerQueue");

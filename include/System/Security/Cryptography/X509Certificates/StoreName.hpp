@@ -80,9 +80,9 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static public System.Security.Cryptography.X509Certificates.StoreName TrustedPublisher
     static void _set_TrustedPublisher(System::Security::Cryptography::X509Certificates::StoreName value);
   }; // System.Security.Cryptography.X509Certificates.StoreName
+  #pragma pack(pop)
   static check_size<sizeof(StoreName), 0 + sizeof(int)> __System_Security_Cryptography_X509Certificates_StoreNameSizeCheck;
   static_assert(sizeof(StoreName) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::StoreName, "System.Security.Cryptography.X509Certificates", "StoreName");

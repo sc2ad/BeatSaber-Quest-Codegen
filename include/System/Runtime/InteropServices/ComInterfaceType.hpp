@@ -58,9 +58,9 @@ namespace System::Runtime::InteropServices {
     // Set static field: static public System.Runtime.InteropServices.ComInterfaceType InterfaceIsIInspectable
     static void _set_InterfaceIsIInspectable(System::Runtime::InteropServices::ComInterfaceType value);
   }; // System.Runtime.InteropServices.ComInterfaceType
+  #pragma pack(pop)
   static check_size<sizeof(ComInterfaceType), 0 + sizeof(int)> __System_Runtime_InteropServices_ComInterfaceTypeSizeCheck;
   static_assert(sizeof(ComInterfaceType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComInterfaceType, "System.Runtime.InteropServices", "ComInterfaceType");

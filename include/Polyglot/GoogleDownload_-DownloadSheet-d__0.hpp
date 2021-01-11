@@ -140,8 +140,8 @@ namespace Polyglot {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // Polyglot.GoogleDownload/<DownloadSheet>d__0
+  #pragma pack(pop)
   static check_size<sizeof(GoogleDownload::$DownloadSheet$d__0), 80 + sizeof(UnityEngine::Networking::UnityWebRequest*)> __Polyglot_GoogleDownload_$DownloadSheet$d__0SizeCheck;
   static_assert(sizeof(GoogleDownload::$DownloadSheet$d__0) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::GoogleDownload::$DownloadSheet$d__0*, "Polyglot", "GoogleDownload/<DownloadSheet>d__0");

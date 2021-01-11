@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1870934
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetPrimaryDashboardDevice
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetPrimaryDashboardDevice*, "OVR.OpenVR", "IVROverlay/_GetPrimaryDashboardDevice");

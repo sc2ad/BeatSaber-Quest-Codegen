@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // FadeInOnSceneTransitionFinished/<FadeInAfterSceneTransitionCoroutine>d__3
+  #pragma pack(pop)
   static check_size<sizeof(FadeInOnSceneTransitionFinished::$FadeInAfterSceneTransitionCoroutine$d__3), 32 + sizeof(GlobalNamespace::FadeInOnSceneTransitionFinished*)> __GlobalNamespace_FadeInOnSceneTransitionFinished_$FadeInAfterSceneTransitionCoroutine$d__3SizeCheck;
   static_assert(sizeof(FadeInOnSceneTransitionFinished::$FadeInAfterSceneTransitionCoroutine$d__3) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOnSceneTransitionFinished::$FadeInAfterSceneTransitionCoroutine$d__3*, "", "FadeInOnSceneTransitionFinished/<FadeInAfterSceneTransitionCoroutine>d__3");

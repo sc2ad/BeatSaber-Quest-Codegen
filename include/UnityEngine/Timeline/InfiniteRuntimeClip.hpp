@@ -75,8 +75,8 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
   }; // UnityEngine.Timeline.InfiniteRuntimeClip
+  #pragma pack(pop)
   static check_size<sizeof(InfiniteRuntimeClip), 24 + sizeof(UnityEngine::Playables::Playable)> __UnityEngine_Timeline_InfiniteRuntimeClipSizeCheck;
   static_assert(sizeof(InfiniteRuntimeClip) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::InfiniteRuntimeClip*, "UnityEngine.Timeline", "InfiniteRuntimeClip");

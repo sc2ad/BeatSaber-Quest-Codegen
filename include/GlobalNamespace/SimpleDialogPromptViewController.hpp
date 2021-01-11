@@ -108,8 +108,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleDialogPromptViewController*, creationType>()));
     }
   }; // SimpleDialogPromptViewController
+  #pragma pack(pop)
   static check_size<sizeof(SimpleDialogPromptViewController), 144 + sizeof(System::Action_1<int>*)> __GlobalNamespace_SimpleDialogPromptViewControllerSizeCheck;
   static_assert(sizeof(SimpleDialogPromptViewController) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleDialogPromptViewController*, "", "SimpleDialogPromptViewController");

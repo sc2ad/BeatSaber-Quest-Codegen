@@ -69,8 +69,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningNoTransitionInstaller*, creationType>()));
     }
   }; // HealthWarningNoTransitionInstaller
+  #pragma pack(pop)
   static check_size<sizeof(HealthWarningNoTransitionInstaller), 32 + sizeof(GlobalNamespace::HealthWarningScenesTransitionSetupDataSO*)> __GlobalNamespace_HealthWarningNoTransitionInstallerSizeCheck;
   static_assert(sizeof(HealthWarningNoTransitionInstaller) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningNoTransitionInstaller*, "", "HealthWarningNoTransitionInstaller");

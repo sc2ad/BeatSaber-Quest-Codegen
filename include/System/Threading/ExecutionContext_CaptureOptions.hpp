@@ -53,9 +53,9 @@ namespace System::Threading {
     // Set static field: static public System.Threading.ExecutionContext/CaptureOptions OptimizeDefaultCase
     static void _set_OptimizeDefaultCase(System::Threading::ExecutionContext::CaptureOptions value);
   }; // System.Threading.ExecutionContext/CaptureOptions
+  #pragma pack(pop)
   static check_size<sizeof(ExecutionContext::CaptureOptions), 0 + sizeof(int)> __System_Threading_ExecutionContext_CaptureOptionsSizeCheck;
   static_assert(sizeof(ExecutionContext::CaptureOptions) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::CaptureOptions, "System.Threading", "ExecutionContext/CaptureOptions");

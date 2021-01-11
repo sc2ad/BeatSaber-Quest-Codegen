@@ -83,8 +83,8 @@ namespace NUnit::Framework::Internal::Builders {
       return THROW_UNLESS((::il2cpp_utils::New<NUnitTestFixtureBuilder*, creationType>()));
     }
   }; // NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder
+  #pragma pack(pop)
   static check_size<sizeof(NUnitTestFixtureBuilder), 16 + sizeof(NUnit::Framework::Interfaces::ITestCaseBuilder*)> __NUnit_Framework_Internal_Builders_NUnitTestFixtureBuilderSizeCheck;
   static_assert(sizeof(NUnitTestFixtureBuilder) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*, "NUnit.Framework.Internal.Builders", "NUnitTestFixtureBuilder");

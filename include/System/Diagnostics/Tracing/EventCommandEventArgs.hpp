@@ -136,8 +136,8 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EventCommandEventArgs*, creationType>(command, arguments, eventSource, listener, perEventSourceSessionId, etwSessionId, enable, level, matchAnyKeyword)));
     }
   }; // System.Diagnostics.Tracing.EventCommandEventArgs
+  #pragma pack(pop)
   static check_size<sizeof(EventCommandEventArgs), 80 + sizeof(System::Diagnostics::Tracing::EventCommandEventArgs*)> __System_Diagnostics_Tracing_EventCommandEventArgsSizeCheck;
   static_assert(sizeof(EventCommandEventArgs) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventCommandEventArgs*, "System.Diagnostics.Tracing", "EventCommandEventArgs");

@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Asn1::Asn1Object* GetConvertedValue(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Il2CppString* value);
   }; // Org.BouncyCastle.Asn1.X509.X509NameEntryConverter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*, "Org.BouncyCastle.Asn1.X509", "X509NameEntryConverter");

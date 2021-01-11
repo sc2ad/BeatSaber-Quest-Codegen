@@ -51,8 +51,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<WebConnection::AbortHelper*, creationType>()));
     }
   }; // System.Net.WebConnection/AbortHelper
+  #pragma pack(pop)
   static check_size<sizeof(WebConnection::AbortHelper), 16 + sizeof(System::Net::WebConnection*)> __System_Net_WebConnection_AbortHelperSizeCheck;
   static_assert(sizeof(WebConnection::AbortHelper) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection::AbortHelper*, "System.Net", "WebConnection/AbortHelper");

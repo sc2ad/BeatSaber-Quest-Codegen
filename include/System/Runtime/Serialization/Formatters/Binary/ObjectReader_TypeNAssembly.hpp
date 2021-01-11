@@ -50,8 +50,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return THROW_UNLESS((::il2cpp_utils::New<ObjectReader::TypeNAssembly*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectReader/TypeNAssembly
+  #pragma pack(pop)
   static check_size<sizeof(ObjectReader::TypeNAssembly), 24 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_Formatters_Binary_ObjectReader_TypeNAssemblySizeCheck;
   static_assert(sizeof(ObjectReader::TypeNAssembly) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectReader::TypeNAssembly*, "System.Runtime.Serialization.Formatters.Binary", "ObjectReader/TypeNAssembly");

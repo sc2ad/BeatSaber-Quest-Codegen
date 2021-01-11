@@ -64,9 +64,9 @@ namespace GlobalNamespace {
     // Set static field: static public SteamVR_Controller/DeviceRelation FarthestRight
     static void _set_FarthestRight(GlobalNamespace::SteamVR_Controller::DeviceRelation value);
   }; // SteamVR_Controller/DeviceRelation
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_Controller::DeviceRelation), 0 + sizeof(int)> __GlobalNamespace_SteamVR_Controller_DeviceRelationSizeCheck;
   static_assert(sizeof(SteamVR_Controller::DeviceRelation) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller::DeviceRelation, "", "SteamVR_Controller/DeviceRelation");

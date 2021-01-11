@@ -53,9 +53,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.VREvent_HapticVibration_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_HapticVibration_t), 24 + sizeof(float)> __OVR_OpenVR_VREvent_HapticVibration_tSizeCheck;
   static_assert(sizeof(VREvent_HapticVibration_t) == 0x1C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_HapticVibration_t, "OVR.OpenVR", "VREvent_HapticVibration_t");

@@ -167,7 +167,7 @@ namespace Org::BouncyCastle::Math::Raw {
     // Offset: 0x108FA58
     static void Zero(int len, ::Array<uint>* z);
   }; // Org.BouncyCastle.Math.Raw.Nat
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Nat*, "Org.BouncyCastle.Math.Raw", "Nat");

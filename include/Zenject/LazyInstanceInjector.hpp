@@ -71,8 +71,8 @@ namespace Zenject {
     // Offset: 0x1347B18
     void LazyInjectAll();
   }; // Zenject.LazyInstanceInjector
+  #pragma pack(pop)
   static check_size<sizeof(LazyInstanceInjector), 24 + sizeof(System::Collections::Generic::HashSet_1<::Il2CppObject*>*)> __Zenject_LazyInstanceInjectorSizeCheck;
   static_assert(sizeof(LazyInstanceInjector) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::LazyInstanceInjector*, "Zenject", "LazyInstanceInjector");

@@ -106,8 +106,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SmoothCamera*, creationType>()));
     }
   }; // SmoothCamera
+  #pragma pack(pop)
   static check_size<sizeof(SmoothCamera), 72 + sizeof(float)> __GlobalNamespace_SmoothCameraSizeCheck;
   static_assert(sizeof(SmoothCamera) == 0x4C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothCamera*, "", "SmoothCamera");

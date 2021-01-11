@@ -81,8 +81,8 @@ namespace UnityEngine::TestTools {
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestTools.EnumerableTestMethodCommand
+  #pragma pack(pop)
   static check_size<sizeof(EnumerableTestMethodCommand), 24 + sizeof(NUnit::Framework::Internal::TestMethod*)> __UnityEngine_TestTools_EnumerableTestMethodCommandSizeCheck;
   static_assert(sizeof(EnumerableTestMethodCommand) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableTestMethodCommand*, "UnityEngine.TestTools", "EnumerableTestMethodCommand");

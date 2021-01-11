@@ -46,8 +46,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningFlowCoordinator::InitData*, creationType>(nextScenesTransitionSetupData)));
     }
   }; // HealthWarningFlowCoordinator/InitData
+  #pragma pack(pop)
   static check_size<sizeof(HealthWarningFlowCoordinator::InitData), 16 + sizeof(GlobalNamespace::ScenesTransitionSetupDataSO*)> __GlobalNamespace_HealthWarningFlowCoordinator_InitDataSizeCheck;
   static_assert(sizeof(HealthWarningFlowCoordinator::InitData) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningFlowCoordinator::InitData*, "", "HealthWarningFlowCoordinator/InitData");

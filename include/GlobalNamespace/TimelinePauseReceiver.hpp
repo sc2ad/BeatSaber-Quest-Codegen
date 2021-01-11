@@ -75,8 +75,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TimelinePauseReceiver*, creationType>()));
     }
   }; // TimelinePauseReceiver
+  #pragma pack(pop)
   static check_size<sizeof(TimelinePauseReceiver), 24 + sizeof(System::Action*)> __GlobalNamespace_TimelinePauseReceiverSizeCheck;
   static_assert(sizeof(TimelinePauseReceiver) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimelinePauseReceiver*, "", "TimelinePauseReceiver");

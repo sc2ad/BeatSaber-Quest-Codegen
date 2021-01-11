@@ -93,8 +93,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RemoteProcedureCall*, creationType>()));
     }
   }; // RemoteProcedureCall
+  #pragma pack(pop)
   static check_size<sizeof(RemoteProcedureCall), 16 + sizeof(float)> __GlobalNamespace_RemoteProcedureCallSizeCheck;
   static_assert(sizeof(RemoteProcedureCall) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RemoteProcedureCall*, "", "RemoteProcedureCall");

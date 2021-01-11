@@ -73,8 +73,8 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<DecoderFallbackException*, creationType>(info, context)));
     }
   }; // System.Text.DecoderFallbackException
+  #pragma pack(pop)
   static check_size<sizeof(DecoderFallbackException), 152 + sizeof(int)> __System_Text_DecoderFallbackExceptionSizeCheck;
   static_assert(sizeof(DecoderFallbackException) == 0x9C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderFallbackException*, "System.Text", "DecoderFallbackException");

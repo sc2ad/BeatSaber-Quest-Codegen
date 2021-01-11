@@ -45,8 +45,8 @@ namespace OnlineServices {
       return THROW_UNLESS((::il2cpp_utils::New<LevelScoreUploader::LevelScoreResultsDataUploadInfo*, creationType>()));
     }
   }; // OnlineServices.LevelScoreUploader/LevelScoreResultsDataUploadInfo
+  #pragma pack(pop)
   static check_size<sizeof(LevelScoreUploader::LevelScoreResultsDataUploadInfo), 64 + sizeof(int)> __OnlineServices_LevelScoreUploader_LevelScoreResultsDataUploadInfoSizeCheck;
   static_assert(sizeof(LevelScoreUploader::LevelScoreResultsDataUploadInfo) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*, "OnlineServices", "LevelScoreUploader/LevelScoreResultsDataUploadInfo");

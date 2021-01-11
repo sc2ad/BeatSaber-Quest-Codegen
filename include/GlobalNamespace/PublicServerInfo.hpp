@@ -103,8 +103,8 @@ namespace GlobalNamespace {
     // Maps to method: CreateFromSerializedData
     GlobalNamespace::PublicServerInfo LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
   }; // PublicServerInfo
+  #pragma pack(pop)
   static check_size<sizeof(PublicServerInfo), 32 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __GlobalNamespace_PublicServerInfoSizeCheck;
   static_assert(sizeof(PublicServerInfo) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PublicServerInfo, "", "PublicServerInfo");

@@ -63,9 +63,9 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.EventChannel Debug
     static void _set_Debug(System::Diagnostics::Tracing::EventChannel value);
   }; // System.Diagnostics.Tracing.EventChannel
+  #pragma pack(pop)
   static check_size<sizeof(EventChannel), 0 + sizeof(uint8_t)> __System_Diagnostics_Tracing_EventChannelSizeCheck;
   static_assert(sizeof(EventChannel) == 0x1);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventChannel, "System.Diagnostics.Tracing", "EventChannel");

@@ -76,8 +76,8 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketPool*, creationType>()));
     }
   }; // LiteNetLib.NetPacketPool
+  #pragma pack(pop)
   static check_size<sizeof(NetPacketPool), 32 + sizeof(int)> __LiteNetLib_NetPacketPoolSizeCheck;
   static_assert(sizeof(NetPacketPool) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketPool*, "LiteNetLib", "NetPacketPool");

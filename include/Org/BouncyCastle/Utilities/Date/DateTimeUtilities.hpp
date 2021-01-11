@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Utilities::Date {
     // Offset: 0x18BDAF4
     static void _cctor();
   }; // Org.BouncyCastle.Utilities.Date.DateTimeUtilities
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Date::DateTimeUtilities*, "Org.BouncyCastle.Utilities.Date", "DateTimeUtilities");

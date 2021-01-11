@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x136F1F8
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperone/_ReloadInfo
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone::_ReloadInfo*, "Valve.VR", "IVRChaperone/_ReloadInfo");

@@ -41,7 +41,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x19B1FB8
     static void _cctor();
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationUtil
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationUtil");

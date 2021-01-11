@@ -98,8 +98,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.Parameters.DsaParameters
+  #pragma pack(pop)
   static check_size<sizeof(DsaParameters), 40 + sizeof(Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters*)> __Org_BouncyCastle_Crypto_Parameters_DsaParametersSizeCheck;
   static_assert(sizeof(DsaParameters) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DsaParameters*, "Org.BouncyCastle.Crypto.Parameters", "DsaParameters");

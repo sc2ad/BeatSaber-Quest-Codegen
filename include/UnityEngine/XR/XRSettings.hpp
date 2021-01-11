@@ -57,7 +57,7 @@ namespace UnityEngine::XR {
     // Offset: 0x1A09044
     static ::Il2CppString* get_loadedDeviceName();
   }; // UnityEngine.XR.XRSettings
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRSettings*, "UnityEngine.XR", "XRSettings");

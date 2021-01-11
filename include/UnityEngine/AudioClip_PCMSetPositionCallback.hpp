@@ -49,6 +49,6 @@ namespace UnityEngine {
     // Offset: 0x19EC694
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AudioClip/PCMSetPositionCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioClip::PCMSetPositionCallback*, "UnityEngine", "AudioClip/PCMSetPositionCallback");

@@ -143,8 +143,8 @@ namespace Microsoft::Win32 {
       return THROW_UNLESS((::il2cpp_utils::New<Win32RegistryApi*, creationType>()));
     }
   }; // Microsoft.Win32.Win32RegistryApi
+  #pragma pack(pop)
   static check_size<sizeof(Win32RegistryApi), 16 + sizeof(int)> __Microsoft_Win32_Win32RegistryApiSizeCheck;
   static_assert(sizeof(Win32RegistryApi) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32RegistryApi*, "Microsoft.Win32", "Win32RegistryApi");

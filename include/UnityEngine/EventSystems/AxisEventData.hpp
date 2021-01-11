@@ -68,8 +68,8 @@ namespace UnityEngine::EventSystems {
       return THROW_UNLESS((::il2cpp_utils::New<AxisEventData*, creationType>(eventSystem)));
     }
   }; // UnityEngine.EventSystems.AxisEventData
+  #pragma pack(pop)
   static check_size<sizeof(AxisEventData), 40 + sizeof(UnityEngine::EventSystems::MoveDirection)> __UnityEngine_EventSystems_AxisEventDataSizeCheck;
   static_assert(sizeof(AxisEventData) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::AxisEventData*, "UnityEngine.EventSystems", "AxisEventData");

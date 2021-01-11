@@ -89,8 +89,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LobbyPlayerDataModel*, creationType>()));
     }
   }; // LobbyPlayerDataModel
+  #pragma pack(pop)
   static check_size<sizeof(LobbyPlayerDataModel), 46 + sizeof(bool)> __GlobalNamespace_LobbyPlayerDataModelSizeCheck;
   static_assert(sizeof(LobbyPlayerDataModel) == 0x2F);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayerDataModel*, "", "LobbyPlayerDataModel");

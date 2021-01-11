@@ -218,8 +218,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ShowcaseFlowCoordinator*, creationType>()));
     }
   }; // ShowcaseFlowCoordinator
+  #pragma pack(pop)
   static check_size<sizeof(ShowcaseFlowCoordinator), 344 + sizeof(GlobalNamespace::MenuTransitionsHelper*)> __GlobalNamespace_ShowcaseFlowCoordinatorSizeCheck;
   static_assert(sizeof(ShowcaseFlowCoordinator) == 0x160);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowcaseFlowCoordinator*, "", "ShowcaseFlowCoordinator");

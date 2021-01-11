@@ -34,9 +34,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.VREvent_ApplicationLaunch_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_ApplicationLaunch_t), 4 + sizeof(uint)> __Valve_VR_VREvent_ApplicationLaunch_tSizeCheck;
   static_assert(sizeof(VREvent_ApplicationLaunch_t) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_ApplicationLaunch_t, "Valve.VR", "VREvent_ApplicationLaunch_t");

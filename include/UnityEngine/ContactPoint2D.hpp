@@ -105,9 +105,9 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.ContactPoint2D
+  #pragma pack(pop)
   static check_size<sizeof(ContactPoint2D), 52 + sizeof(int)> __UnityEngine_ContactPoint2DSizeCheck;
   static_assert(sizeof(ContactPoint2D) == 0x38);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContactPoint2D, "UnityEngine", "ContactPoint2D");

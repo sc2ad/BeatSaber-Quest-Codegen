@@ -130,8 +130,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MenuNeonLightsGenerator*, creationType>()));
     }
   }; // MenuNeonLightsGenerator
+  #pragma pack(pop)
   static check_size<sizeof(MenuNeonLightsGenerator), 96 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_MenuNeonLightsGeneratorSizeCheck;
   static_assert(sizeof(MenuNeonLightsGenerator) == 0x6C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuNeonLightsGenerator*, "", "MenuNeonLightsGenerator");

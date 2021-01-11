@@ -279,6 +279,6 @@ namespace ModestTree {
     // Offset: 0x10E6210
     static void _cctor();
   }; // ModestTree.TypeExtensions
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions*, "ModestTree", "TypeExtensions");

@@ -101,8 +101,8 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Security.Cryptography.X509Certificates.X509ExtensionCollection
+  #pragma pack(pop)
   static check_size<sizeof(X509ExtensionCollection), 16 + sizeof(System::Collections::ArrayList*)> __System_Security_Cryptography_X509Certificates_X509ExtensionCollectionSizeCheck;
   static_assert(sizeof(X509ExtensionCollection) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ExtensionCollection*, "System.Security.Cryptography.X509Certificates", "X509ExtensionCollection");

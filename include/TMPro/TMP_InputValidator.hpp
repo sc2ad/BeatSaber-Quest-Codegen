@@ -36,6 +36,6 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_InputValidator*, creationType>()));
     }
   }; // TMPro.TMP_InputValidator
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputValidator*, "TMPro", "TMP_InputValidator");

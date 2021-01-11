@@ -89,8 +89,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<ShoulderRotator*, creationType>()));
     }
   }; // RootMotion.FinalIK.ShoulderRotator
+  #pragma pack(pop)
   static check_size<sizeof(ShoulderRotator), 40 + sizeof(bool)> __RootMotion_FinalIK_ShoulderRotatorSizeCheck;
   static_assert(sizeof(ShoulderRotator) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ShoulderRotator*, "RootMotion.FinalIK", "ShoulderRotator");

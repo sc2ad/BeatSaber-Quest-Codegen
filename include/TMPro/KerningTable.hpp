@@ -80,8 +80,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<KerningTable*, creationType>()));
     }
   }; // TMPro.KerningTable
+  #pragma pack(pop)
   static check_size<sizeof(KerningTable), 16 + sizeof(System::Collections::Generic::List_1<TMPro::KerningPair*>*)> __TMPro_KerningTableSizeCheck;
   static_assert(sizeof(KerningTable) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable*, "TMPro", "KerningTable");

@@ -49,9 +49,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVRPlugin/Colorf
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Colorf), 12 + sizeof(float)> __GlobalNamespace_OVRPlugin_ColorfSizeCheck;
   static_assert(sizeof(OVRPlugin::Colorf) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Colorf, "", "OVRPlugin/Colorf");

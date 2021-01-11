@@ -182,7 +182,7 @@ namespace Org::BouncyCastle::Asn1::Misc {
     // Offset: 0x13F5CE8
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Misc.MiscObjectIdentifiers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Misc::MiscObjectIdentifiers*, "Org.BouncyCastle.Asn1.Misc", "MiscObjectIdentifiers");

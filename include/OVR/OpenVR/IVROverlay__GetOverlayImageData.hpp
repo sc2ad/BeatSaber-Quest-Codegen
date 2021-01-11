@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x186C454
     OVR::OpenVR::EVROverlayError EndInvoke(uint& punWidth, uint& punHeight, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayImageData
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayImageData*, "OVR.OpenVR", "IVROverlay/_GetOverlayImageData");

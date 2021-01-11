@@ -149,8 +149,8 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainPolicy*, creationType>()));
     }
   }; // System.Security.Cryptography.X509Certificates.X509ChainPolicy
+  #pragma pack(pop)
   static check_size<sizeof(X509ChainPolicy), 72 + sizeof(System::DateTime)> __System_Security_Cryptography_X509Certificates_X509ChainPolicySizeCheck;
   static_assert(sizeof(X509ChainPolicy) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainPolicy*, "System.Security.Cryptography.X509Certificates", "X509ChainPolicy");

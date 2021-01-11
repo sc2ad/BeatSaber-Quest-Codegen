@@ -21,7 +21,7 @@ namespace NUnit::Framework::Interfaces {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestData*>(this);
     }
   }; // NUnit.Framework.Interfaces.ITestCaseData
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestCaseData*, "NUnit.Framework.Interfaces", "ITestCaseData");

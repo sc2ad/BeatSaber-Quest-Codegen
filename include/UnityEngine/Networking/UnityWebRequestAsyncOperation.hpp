@@ -59,8 +59,8 @@ namespace UnityEngine::Networking {
       return THROW_UNLESS((::il2cpp_utils::New<UnityWebRequestAsyncOperation*, creationType>()));
     }
   }; // UnityEngine.Networking.UnityWebRequestAsyncOperation
+  #pragma pack(pop)
   static check_size<sizeof(UnityWebRequestAsyncOperation), 32 + sizeof(UnityEngine::Networking::UnityWebRequest*)> __UnityEngine_Networking_UnityWebRequestAsyncOperationSizeCheck;
   static_assert(sizeof(UnityWebRequestAsyncOperation) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAsyncOperation*, "UnityEngine.Networking", "UnityWebRequestAsyncOperation");

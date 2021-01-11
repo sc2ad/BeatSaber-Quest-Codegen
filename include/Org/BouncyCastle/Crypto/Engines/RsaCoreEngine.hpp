@@ -105,8 +105,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<RsaCoreEngine*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Engines.RsaCoreEngine
+  #pragma pack(pop)
   static check_size<sizeof(RsaCoreEngine), 28 + sizeof(int)> __Org_BouncyCastle_Crypto_Engines_RsaCoreEngineSizeCheck;
   static_assert(sizeof(RsaCoreEngine) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RsaCoreEngine*, "Org.BouncyCastle.Crypto.Engines", "RsaCoreEngine");

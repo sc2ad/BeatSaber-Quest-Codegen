@@ -71,8 +71,8 @@ namespace System::Runtime::Remoting {
       return THROW_UNLESS((::il2cpp_utils::New<ProviderData*, creationType>()));
     }
   }; // System.Runtime.Remoting.ProviderData
+  #pragma pack(pop)
   static check_size<sizeof(ProviderData), 48 + sizeof(System::Collections::IList*)> __System_Runtime_Remoting_ProviderDataSizeCheck;
   static_assert(sizeof(ProviderData) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ProviderData*, "System.Runtime.Remoting", "ProviderData");

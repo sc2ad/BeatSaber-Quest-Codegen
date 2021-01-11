@@ -50,9 +50,9 @@ namespace System::Xml {
     // Set static field: static public System.Xml.ConformanceLevel Document
     static void _set_Document(System::Xml::ConformanceLevel value);
   }; // System.Xml.ConformanceLevel
+  #pragma pack(pop)
   static check_size<sizeof(ConformanceLevel), 0 + sizeof(int)> __System_Xml_ConformanceLevelSizeCheck;
   static_assert(sizeof(ConformanceLevel) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::ConformanceLevel, "System.Xml", "ConformanceLevel");

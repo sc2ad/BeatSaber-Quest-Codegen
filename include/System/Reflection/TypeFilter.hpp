@@ -50,6 +50,6 @@ namespace System::Reflection {
     // Offset: 0x15D2184
     bool EndInvoke(System::IAsyncResult* result);
   }; // System.Reflection.TypeFilter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TypeFilter*, "System.Reflection", "TypeFilter");

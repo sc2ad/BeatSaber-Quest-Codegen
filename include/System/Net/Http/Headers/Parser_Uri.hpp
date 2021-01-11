@@ -28,7 +28,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x12070E0
     static bool TryParse(::Il2CppString* input, System::Uri*& result);
   }; // System.Net.Http.Headers.Parser/Uri
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::Uri*, "System.Net.Http.Headers", "Parser/Uri");

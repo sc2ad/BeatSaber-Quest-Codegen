@@ -49,6 +49,6 @@ namespace System::IO::Compression {
     // Offset: 0x1489D64
     int EndInvoke(System::IAsyncResult* result);
   }; // System.IO.Compression.DeflateStream/ReadMethod
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStream::ReadMethod*, "System.IO.Compression", "DeflateStream/ReadMethod");

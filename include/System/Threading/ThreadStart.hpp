@@ -48,6 +48,6 @@ namespace System::Threading {
     // Offset: 0x1D1DD58
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Threading.ThreadStart
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadStart*, "System.Threading", "ThreadStart");

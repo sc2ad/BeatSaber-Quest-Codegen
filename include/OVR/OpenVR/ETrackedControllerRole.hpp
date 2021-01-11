@@ -62,9 +62,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.ETrackedControllerRole Max
     static void _set_Max(OVR::OpenVR::ETrackedControllerRole value);
   }; // OVR.OpenVR.ETrackedControllerRole
+  #pragma pack(pop)
   static check_size<sizeof(ETrackedControllerRole), 0 + sizeof(int)> __OVR_OpenVR_ETrackedControllerRoleSizeCheck;
   static_assert(sizeof(ETrackedControllerRole) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ETrackedControllerRole, "OVR.OpenVR", "ETrackedControllerRole");

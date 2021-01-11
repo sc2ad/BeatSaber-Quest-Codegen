@@ -127,8 +127,8 @@ namespace System::Security::Claims {
       return THROW_UNLESS((::il2cpp_utils::New<ClaimsPrincipal*, creationType>()));
     }
   }; // System.Security.Claims.ClaimsPrincipal
+  #pragma pack(pop)
   static check_size<sizeof(ClaimsPrincipal), 32 + sizeof(System::Collections::Generic::List_1<System::Security::Claims::ClaimsIdentity*>*)> __System_Security_Claims_ClaimsPrincipalSizeCheck;
   static_assert(sizeof(ClaimsPrincipal) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::ClaimsPrincipal*, "System.Security.Claims", "ClaimsPrincipal");

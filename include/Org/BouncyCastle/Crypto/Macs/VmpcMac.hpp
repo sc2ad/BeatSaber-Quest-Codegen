@@ -145,8 +145,8 @@ namespace Org::BouncyCastle::Crypto::Macs {
       return THROW_UNLESS((::il2cpp_utils::New<VmpcMac*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Macs.VmpcMac
+  #pragma pack(pop)
   static check_size<sizeof(VmpcMac), 67 + sizeof(uint8_t)> __Org_BouncyCastle_Crypto_Macs_VmpcMacSizeCheck;
   static_assert(sizeof(VmpcMac) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::VmpcMac*, "Org.BouncyCastle.Crypto.Macs", "VmpcMac");

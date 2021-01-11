@@ -109,8 +109,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // RectangleFakeGlow
+  #pragma pack(pop)
   static check_size<sizeof(RectangleFakeGlow), 56 + sizeof(GlobalNamespace::MaterialPropertyBlockController*)> __GlobalNamespace_RectangleFakeGlowSizeCheck;
   static_assert(sizeof(RectangleFakeGlow) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RectangleFakeGlow*, "", "RectangleFakeGlow");

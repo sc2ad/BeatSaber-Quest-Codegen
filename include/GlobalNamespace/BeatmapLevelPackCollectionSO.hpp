@@ -79,8 +79,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelPackCollectionSO*, creationType>()));
     }
   }; // BeatmapLevelPackCollectionSO
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapLevelPackCollectionSO), 40 + sizeof(::Array<GlobalNamespace::IBeatmapLevelPack*>*)> __GlobalNamespace_BeatmapLevelPackCollectionSOSizeCheck;
   static_assert(sizeof(BeatmapLevelPackCollectionSO) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelPackCollectionSO*, "", "BeatmapLevelPackCollectionSO");

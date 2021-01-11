@@ -50,8 +50,8 @@ namespace LiteNetLib::Layers {
     // Offset: 0xFFFFFFFF
     void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
   }; // LiteNetLib.Layers.PacketLayerBase
+  #pragma pack(pop)
   static check_size<sizeof(PacketLayerBase), 16 + sizeof(int)> __LiteNetLib_Layers_PacketLayerBaseSizeCheck;
   static_assert(sizeof(PacketLayerBase) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Layers::PacketLayerBase*, "LiteNetLib.Layers", "PacketLayerBase");

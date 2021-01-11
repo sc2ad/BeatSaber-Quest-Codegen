@@ -141,8 +141,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerHeightDetector*, creationType>()));
     }
   }; // PlayerHeightDetector
+  #pragma pack(pop)
   static check_size<sizeof(PlayerHeightDetector), 76 + sizeof(float)> __GlobalNamespace_PlayerHeightDetectorSizeCheck;
   static_assert(sizeof(PlayerHeightDetector) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeightDetector*, "", "PlayerHeightDetector");

@@ -76,8 +76,8 @@ namespace OVR::OpenVR {
     // Offset: 0x11F0E90
     void ForceBoundsVisible(bool bForce);
   }; // OVR.OpenVR.CVRChaperone
+  #pragma pack(pop)
   static check_size<sizeof(CVRChaperone), 16 + sizeof(OVR::OpenVR::IVRChaperone)> __OVR_OpenVR_CVRChaperoneSizeCheck;
   static_assert(sizeof(CVRChaperone) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRChaperone*, "OVR.OpenVR", "CVRChaperone");

@@ -182,9 +182,9 @@ namespace Mono::Security::Interface {
     // Set static field: static public Mono.Security.Interface.AlertDescription UnsupportedExtension
     static void _set_UnsupportedExtension(Mono::Security::Interface::AlertDescription value);
   }; // Mono.Security.Interface.AlertDescription
+  #pragma pack(pop)
   static check_size<sizeof(AlertDescription), 0 + sizeof(uint8_t)> __Mono_Security_Interface_AlertDescriptionSizeCheck;
   static_assert(sizeof(AlertDescription) == 0x1);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::AlertDescription, "Mono.Security.Interface", "AlertDescription");

@@ -44,9 +44,9 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Set static field: static public UnityEngine.Experimental.GlobalIllumination.AngularFalloffType AnalyticAndInnerAngle
     static void _set_AnalyticAndInnerAngle(UnityEngine::Experimental::GlobalIllumination::AngularFalloffType value);
   }; // UnityEngine.Experimental.GlobalIllumination.AngularFalloffType
+  #pragma pack(pop)
   static check_size<sizeof(AngularFalloffType), 0 + sizeof(uint8_t)> __UnityEngine_Experimental_GlobalIllumination_AngularFalloffTypeSizeCheck;
   static_assert(sizeof(AngularFalloffType) == 0x1);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::AngularFalloffType, "UnityEngine.Experimental.GlobalIllumination", "AngularFalloffType");

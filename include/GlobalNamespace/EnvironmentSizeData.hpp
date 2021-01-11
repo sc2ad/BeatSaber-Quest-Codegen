@@ -65,6 +65,7 @@ namespace GlobalNamespace {
       // Set static field: static public EnvironmentSizeData/FloorType CloseTo0
       static void _set_CloseTo0(GlobalNamespace::EnvironmentSizeData::FloorType value);
     }; // EnvironmentSizeData/FloorType
+    #pragma pack(pop)
     static check_size<sizeof(EnvironmentSizeData::FloorType), 0 + sizeof(int)> __GlobalNamespace_EnvironmentSizeData_FloorTypeSizeCheck;
     static_assert(sizeof(EnvironmentSizeData::FloorType) == 0x4);
     // Size: 0x4
@@ -102,6 +103,7 @@ namespace GlobalNamespace {
       // Set static field: static public EnvironmentSizeData/CeilingType LowCeiling
       static void _set_LowCeiling(GlobalNamespace::EnvironmentSizeData::CeilingType value);
     }; // EnvironmentSizeData/CeilingType
+    #pragma pack(pop)
     static check_size<sizeof(EnvironmentSizeData::CeilingType), 0 + sizeof(int)> __GlobalNamespace_EnvironmentSizeData_CeilingTypeSizeCheck;
     static_assert(sizeof(EnvironmentSizeData::CeilingType) == 0x4);
     // private EnvironmentSizeData/FloorType _floorType
@@ -134,10 +136,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentSizeData*, creationType>()));
     }
   }; // EnvironmentSizeData
+  #pragma pack(pop)
   static check_size<sizeof(EnvironmentSizeData), 20 + sizeof(GlobalNamespace::EnvironmentSizeData::CeilingType)> __GlobalNamespace_EnvironmentSizeDataSizeCheck;
   static_assert(sizeof(EnvironmentSizeData) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData*, "", "EnvironmentSizeData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData::FloorType, "", "EnvironmentSizeData/FloorType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData::CeilingType, "", "EnvironmentSizeData/CeilingType");

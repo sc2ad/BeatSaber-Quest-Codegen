@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1860D34
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRDriverManager/_GetDriverName
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRDriverManager::_GetDriverName*, "OVR.OpenVR", "IVRDriverManager/_GetDriverName");

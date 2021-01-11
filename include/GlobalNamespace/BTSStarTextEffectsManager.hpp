@@ -85,8 +85,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEffectsManager*, creationType>()));
     }
   }; // BTSStarTextEffectsManager
+  #pragma pack(pop)
   static check_size<sizeof(BTSStarTextEffectsManager), 32 + sizeof(GlobalNamespace::BTSStarTextEffectController::Pool*)> __GlobalNamespace_BTSStarTextEffectsManagerSizeCheck;
   static_assert(sizeof(BTSStarTextEffectsManager) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectsManager*, "", "BTSStarTextEffectsManager");

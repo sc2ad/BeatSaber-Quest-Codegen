@@ -68,9 +68,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRSubmitFlags Submit_TextureWithDepth
     static void _set_Submit_TextureWithDepth(OVR::OpenVR::EVRSubmitFlags value);
   }; // OVR.OpenVR.EVRSubmitFlags
+  #pragma pack(pop)
   static check_size<sizeof(EVRSubmitFlags), 0 + sizeof(int)> __OVR_OpenVR_EVRSubmitFlagsSizeCheck;
   static_assert(sizeof(EVRSubmitFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRSubmitFlags, "OVR.OpenVR", "EVRSubmitFlags");

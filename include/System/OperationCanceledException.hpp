@@ -93,8 +93,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<OperationCanceledException*, creationType>(info, context)));
     }
   }; // System.OperationCanceledException
+  #pragma pack(pop)
   static check_size<sizeof(OperationCanceledException), 136 + sizeof(System::Threading::CancellationToken)> __System_OperationCanceledExceptionSizeCheck;
   static_assert(sizeof(OperationCanceledException) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::OperationCanceledException*, "System", "OperationCanceledException");

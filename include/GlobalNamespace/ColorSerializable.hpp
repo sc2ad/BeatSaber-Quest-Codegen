@@ -103,8 +103,8 @@ namespace GlobalNamespace {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // ColorSerializable
+  #pragma pack(pop)
   static check_size<sizeof(ColorSerializable), 0 + sizeof(UnityEngine::Color)> __GlobalNamespace_ColorSerializableSizeCheck;
   static_assert(sizeof(ColorSerializable) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSerializable, "", "ColorSerializable");

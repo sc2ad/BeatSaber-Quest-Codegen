@@ -87,8 +87,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<AsyncOperation*, creationType>()));
     }
   }; // UnityEngine.AsyncOperation
+  #pragma pack(pop)
   static check_size<sizeof(AsyncOperation), 24 + sizeof(System::Action_1<UnityEngine::AsyncOperation*>*)> __UnityEngine_AsyncOperationSizeCheck;
   static_assert(sizeof(AsyncOperation) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AsyncOperation*, "UnityEngine", "AsyncOperation");

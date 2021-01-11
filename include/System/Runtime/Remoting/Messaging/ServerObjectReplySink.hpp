@@ -69,8 +69,8 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl IMessageSink::AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
   }; // System.Runtime.Remoting.Messaging.ServerObjectReplySink
+  #pragma pack(pop)
   static check_size<sizeof(ServerObjectReplySink), 24 + sizeof(System::Runtime::Remoting::ServerIdentity*)> __System_Runtime_Remoting_Messaging_ServerObjectReplySinkSizeCheck;
   static_assert(sizeof(ServerObjectReplySink) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ServerObjectReplySink*, "System.Runtime.Remoting.Messaging", "ServerObjectReplySink");

@@ -69,8 +69,8 @@ namespace Mono::Security::Protocol::Ntlm {
     // Offset: 0x17BB8A0
     static void _cctor();
   }; // Mono.Security.Protocol.Ntlm.MessageBase
+  #pragma pack(pop)
   static check_size<sizeof(MessageBase), 20 + sizeof(Mono::Security::Protocol::Ntlm::NtlmFlags)> __Mono_Security_Protocol_Ntlm_MessageBaseSizeCheck;
   static_assert(sizeof(MessageBase) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::MessageBase*, "Mono.Security.Protocol.Ntlm", "MessageBase");

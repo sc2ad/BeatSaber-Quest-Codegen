@@ -32,9 +32,9 @@ namespace System {
       return value;
     }
   }; // System.ByteEnum
+  #pragma pack(pop)
   static check_size<sizeof(ByteEnum), 0 + sizeof(uint8_t)> __System_ByteEnumSizeCheck;
   static_assert(sizeof(ByteEnum) == 0x1);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ByteEnum, "System", "ByteEnum");

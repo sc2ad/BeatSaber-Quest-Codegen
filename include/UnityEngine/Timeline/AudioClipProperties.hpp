@@ -44,8 +44,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipProperties*, creationType>()));
     }
   }; // UnityEngine.Timeline.AudioClipProperties
+  #pragma pack(pop)
   static check_size<sizeof(AudioClipProperties), 16 + sizeof(float)> __UnityEngine_Timeline_AudioClipPropertiesSizeCheck;
   static_assert(sizeof(AudioClipProperties) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioClipProperties*, "UnityEngine.Timeline", "AudioClipProperties");

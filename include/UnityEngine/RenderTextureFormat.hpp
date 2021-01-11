@@ -200,9 +200,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RenderTextureFormat R16
     static void _set_R16(UnityEngine::RenderTextureFormat value);
   }; // UnityEngine.RenderTextureFormat
+  #pragma pack(pop)
   static check_size<sizeof(RenderTextureFormat), 0 + sizeof(int)> __UnityEngine_RenderTextureFormatSizeCheck;
   static_assert(sizeof(RenderTextureFormat) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTextureFormat, "UnityEngine", "RenderTextureFormat");

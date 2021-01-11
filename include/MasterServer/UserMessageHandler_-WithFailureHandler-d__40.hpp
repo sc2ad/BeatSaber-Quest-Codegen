@@ -95,9 +95,9 @@ namespace MasterServer {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMessageHandler/<WithFailureHandler>d__40
+  #pragma pack(pop)
   static check_size<sizeof(UserMessageHandler::$WithFailureHandler$d__40), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)> __MasterServer_UserMessageHandler_$WithFailureHandler$d__40SizeCheck;
   static_assert(sizeof(UserMessageHandler::$WithFailureHandler$d__40) == 0x40);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$WithFailureHandler$d__40, "MasterServer", "UserMessageHandler/<WithFailureHandler>d__40");

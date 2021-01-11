@@ -66,8 +66,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnableEmmisionOnVisible*, creationType>()));
     }
   }; // EnableEmmisionOnVisible
+  #pragma pack(pop)
   static check_size<sizeof(EnableEmmisionOnVisible), 32 + sizeof(::Array<UnityEngine::ParticleSystem::EmissionModule>*)> __GlobalNamespace_EnableEmmisionOnVisibleSizeCheck;
   static_assert(sizeof(EnableEmmisionOnVisible) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableEmmisionOnVisible*, "", "EnableEmmisionOnVisible");

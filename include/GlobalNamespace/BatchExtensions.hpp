@@ -47,6 +47,6 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::List_1<T>*>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, enumerable, batchSize);
     }
   }; // BatchExtensions
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BatchExtensions*, "", "BatchExtensions");

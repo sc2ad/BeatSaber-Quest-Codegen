@@ -111,6 +111,7 @@ namespace HMUI {
       // Set static field: static public HMUI.ScrollView/ScrollType FocusItems
       static void _set_FocusItems(HMUI::ScrollView::ScrollType value);
     }; // HMUI.ScrollView/ScrollType
+    #pragma pack(pop)
     static check_size<sizeof(ScrollView::ScrollType), 0 + sizeof(int)> __HMUI_ScrollView_ScrollTypeSizeCheck;
     static_assert(sizeof(ScrollView::ScrollType) == 0x4);
     // Size: 0x4
@@ -154,6 +155,7 @@ namespace HMUI {
       // Set static field: static public HMUI.ScrollView/ScrollDirection Down
       static void _set_Down(HMUI::ScrollView::ScrollDirection value);
     }; // HMUI.ScrollView/ScrollDirection
+    #pragma pack(pop)
     static check_size<sizeof(ScrollView::ScrollDirection), 0 + sizeof(int)> __HMUI_ScrollView_ScrollDirectionSizeCheck;
     static_assert(sizeof(ScrollView::ScrollDirection) == 0x4);
     // private UnityEngine.RectTransform _viewport
@@ -363,10 +365,10 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ScrollView*, creationType>()));
     }
   }; // HMUI.ScrollView
+  #pragma pack(pop)
   static check_size<sizeof(ScrollView), 140 + sizeof(float)> __HMUI_ScrollViewSizeCheck;
   static_assert(sizeof(ScrollView) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView*, "HMUI", "ScrollView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollType, "HMUI", "ScrollView/ScrollType");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollDirection, "HMUI", "ScrollView/ScrollDirection");

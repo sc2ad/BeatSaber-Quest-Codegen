@@ -47,8 +47,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboard::$$c__DisplayClass21_0*, creationType>()));
     }
   }; // UIKeyboard/<>c__DisplayClass21_0
+  #pragma pack(pop)
   static check_size<sizeof(UIKeyboard::$$c__DisplayClass21_0), 24 + sizeof(GlobalNamespace::UIKeyboard*)> __GlobalNamespace_UIKeyboard_$$c__DisplayClass21_0SizeCheck;
   static_assert(sizeof(UIKeyboard::$$c__DisplayClass21_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0*, "", "UIKeyboard/<>c__DisplayClass21_0");

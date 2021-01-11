@@ -124,8 +124,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OnlineServicesInfoViewController*, creationType>()));
     }
   }; // OnlineServicesInfoViewController
+  #pragma pack(pop)
   static check_size<sizeof(OnlineServicesInfoViewController), 160 + sizeof(System::Text::StringBuilder*)> __GlobalNamespace_OnlineServicesInfoViewControllerSizeCheck;
   static_assert(sizeof(OnlineServicesInfoViewController) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnlineServicesInfoViewController*, "", "OnlineServicesInfoViewController");

@@ -33,6 +33,6 @@ namespace UnityEngine::Scripting {
       return THROW_UNLESS((::il2cpp_utils::New<GeneratedByOldBindingsGeneratorAttribute*, creationType>()));
     }
   }; // UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::GeneratedByOldBindingsGeneratorAttribute*, "UnityEngine.Scripting", "GeneratedByOldBindingsGeneratorAttribute");

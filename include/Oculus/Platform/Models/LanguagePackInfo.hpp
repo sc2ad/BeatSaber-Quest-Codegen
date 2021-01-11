@@ -47,8 +47,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<LanguagePackInfo*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.LanguagePackInfo
+  #pragma pack(pop)
   static check_size<sizeof(LanguagePackInfo), 32 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_LanguagePackInfoSizeCheck;
   static_assert(sizeof(LanguagePackInfo) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LanguagePackInfo*, "Oculus.Platform.Models", "LanguagePackInfo");

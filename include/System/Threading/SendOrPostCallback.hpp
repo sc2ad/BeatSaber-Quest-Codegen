@@ -47,6 +47,6 @@ namespace System::Threading {
     // Offset: 0x1D0C738
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Threading.SendOrPostCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SendOrPostCallback*, "System.Threading", "SendOrPostCallback");

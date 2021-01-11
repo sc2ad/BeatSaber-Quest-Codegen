@@ -57,7 +57,7 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::ICollection_1<::Il2CppString*>* get_Keys();
   }; // NUnit.Framework.Interfaces.IPropertyBag
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IPropertyBag*, "NUnit.Framework.Interfaces", "IPropertyBag");

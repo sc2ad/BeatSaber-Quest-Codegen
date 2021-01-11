@@ -66,8 +66,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer::$$c__DisplayClass178_0*, creationType>()));
     }
   }; // Zenject.DiContainer/<>c__DisplayClass178_0
+  #pragma pack(pop)
   static check_size<sizeof(DiContainer::$$c__DisplayClass178_0), 40 + sizeof(System::Type*)> __Zenject_DiContainer_$$c__DisplayClass178_0SizeCheck;
   static_assert(sizeof(DiContainer::$$c__DisplayClass178_0) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::$$c__DisplayClass178_0*, "Zenject", "DiContainer/<>c__DisplayClass178_0");

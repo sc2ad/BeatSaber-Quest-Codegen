@@ -94,8 +94,8 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallbackException*, creationType>(info, context)));
     }
   }; // System.Text.EncoderFallbackException
+  #pragma pack(pop)
   static check_size<sizeof(EncoderFallbackException), 152 + sizeof(int)> __System_Text_EncoderFallbackExceptionSizeCheck;
   static_assert(sizeof(EncoderFallbackException) == 0x9C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderFallbackException*, "System.Text", "EncoderFallbackException");

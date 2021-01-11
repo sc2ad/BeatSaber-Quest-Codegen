@@ -43,7 +43,7 @@ namespace Org::BouncyCastle::X509 {
     // Offset: 0x18C627C
     static void _cctor();
   }; // Org.BouncyCastle.X509.X509SignatureUtilities
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509SignatureUtilities*, "Org.BouncyCastle.X509", "X509SignatureUtilities");

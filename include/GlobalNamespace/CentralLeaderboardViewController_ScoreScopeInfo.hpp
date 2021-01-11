@@ -64,8 +64,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CentralLeaderboardViewController::ScoreScopeInfo*, creationType>(scoreScope, icon, localizedTitle)));
     }
   }; // CentralLeaderboardViewController/ScoreScopeInfo
+  #pragma pack(pop)
   static check_size<sizeof(CentralLeaderboardViewController::ScoreScopeInfo), 40 + sizeof(int)> __GlobalNamespace_CentralLeaderboardViewController_ScoreScopeInfoSizeCheck;
   static_assert(sizeof(CentralLeaderboardViewController::ScoreScopeInfo) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, "", "CentralLeaderboardViewController/ScoreScopeInfo");

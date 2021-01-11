@@ -53,9 +53,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.UserOrdering PresenceAlphabetical
     static void _set_PresenceAlphabetical(Oculus::Platform::UserOrdering value);
   }; // Oculus.Platform.UserOrdering
+  #pragma pack(pop)
   static check_size<sizeof(UserOrdering), 0 + sizeof(int)> __Oculus_Platform_UserOrderingSizeCheck;
   static_assert(sizeof(UserOrdering) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::UserOrdering, "Oculus.Platform", "UserOrdering");

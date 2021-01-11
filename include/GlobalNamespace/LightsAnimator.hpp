@@ -103,8 +103,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightsAnimator*, creationType>()));
     }
   }; // LightsAnimator
+  #pragma pack(pop)
   static check_size<sizeof(LightsAnimator), 48 + sizeof(Tweening::ColorTween*)> __GlobalNamespace_LightsAnimatorSizeCheck;
   static_assert(sizeof(LightsAnimator) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightsAnimator*, "", "LightsAnimator");

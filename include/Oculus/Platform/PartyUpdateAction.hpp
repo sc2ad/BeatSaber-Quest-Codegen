@@ -67,9 +67,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.PartyUpdateAction Uninvite
     static void _set_Uninvite(Oculus::Platform::PartyUpdateAction value);
   }; // Oculus.Platform.PartyUpdateAction
+  #pragma pack(pop)
   static check_size<sizeof(PartyUpdateAction), 0 + sizeof(int)> __Oculus_Platform_PartyUpdateActionSizeCheck;
   static_assert(sizeof(PartyUpdateAction) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PartyUpdateAction, "Oculus.Platform", "PartyUpdateAction");

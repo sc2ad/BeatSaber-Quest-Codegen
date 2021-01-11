@@ -90,8 +90,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // NoteController/<DissolveCoroutine>d__71
+  #pragma pack(pop)
   static check_size<sizeof(NoteController::$DissolveCoroutine$d__71), 40 + sizeof(float)> __GlobalNamespace_NoteController_$DissolveCoroutine$d__71SizeCheck;
   static_assert(sizeof(NoteController::$DissolveCoroutine$d__71) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteController::$DissolveCoroutine$d__71*, "", "NoteController/<DissolveCoroutine>d__71");

@@ -263,8 +263,8 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Object LongLivedMarshalByRefObject::InitializeLifetimeService()
     ::Il2CppObject* InitializeLifetimeService();
   }; // NUnit.Framework.Internal.TestExecutionContext
+  #pragma pack(pop)
   static check_size<sizeof(TestExecutionContext), 128 + sizeof(bool)> __NUnit_Framework_Internal_TestExecutionContextSizeCheck;
   static_assert(sizeof(TestExecutionContext) == 0x81);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestExecutionContext*, "NUnit.Framework.Internal", "TestExecutionContext");

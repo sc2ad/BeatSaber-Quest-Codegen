@@ -123,8 +123,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkConfigSO*, creationType>()));
     }
   }; // NetworkConfigSO
+  #pragma pack(pop)
   static check_size<sizeof(NetworkConfigSO), 56 + sizeof(::Il2CppString*)> __GlobalNamespace_NetworkConfigSOSizeCheck;
   static_assert(sizeof(NetworkConfigSO) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkConfigSO*, "", "NetworkConfigSO");

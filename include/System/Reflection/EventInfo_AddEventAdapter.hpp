@@ -50,6 +50,6 @@ namespace System::Reflection {
     // Offset: 0x15C6E90
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Reflection.EventInfo/AddEventAdapter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::EventInfo::AddEventAdapter*, "System.Reflection", "EventInfo/AddEventAdapter");

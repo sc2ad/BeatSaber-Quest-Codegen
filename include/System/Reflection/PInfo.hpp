@@ -69,9 +69,9 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.PInfo Name
     static void _set_Name(System::Reflection::PInfo value);
   }; // System.Reflection.PInfo
+  #pragma pack(pop)
   static check_size<sizeof(PInfo), 0 + sizeof(int)> __System_Reflection_PInfoSizeCheck;
   static_assert(sizeof(PInfo) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::PInfo, "System.Reflection", "PInfo");

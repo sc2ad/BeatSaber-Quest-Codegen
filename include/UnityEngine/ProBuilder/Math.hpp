@@ -361,6 +361,6 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1642BE4
     static float MakeNonZero(float value, float min);
   }; // UnityEngine.ProBuilder.Math
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Math*, "UnityEngine.ProBuilder", "Math");

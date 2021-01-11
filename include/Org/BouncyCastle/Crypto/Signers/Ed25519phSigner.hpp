@@ -101,8 +101,8 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Base method: System.Void ISigner::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Signers.Ed25519phSigner
+  #pragma pack(pop)
   static check_size<sizeof(Ed25519phSigner), 48 + sizeof(Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*)> __Org_BouncyCastle_Crypto_Signers_Ed25519phSignerSizeCheck;
   static_assert(sizeof(Ed25519phSigner) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::Ed25519phSigner*, "Org.BouncyCastle.Crypto.Signers", "Ed25519phSigner");

@@ -175,8 +175,8 @@ namespace System::Xml {
     // Base method: System.String Exception::get_Message()
     ::Il2CppString* get_Message();
   }; // System.Xml.XmlException
+  #pragma pack(pop)
   static check_size<sizeof(XmlException), 168 + sizeof(::Il2CppString*)> __System_Xml_XmlExceptionSizeCheck;
   static_assert(sizeof(XmlException) == 0xB0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlException*, "System.Xml", "XmlException");

@@ -185,8 +185,8 @@ namespace OVR::OpenVR {
       return THROW_UNLESS((::il2cpp_utils::New<OpenVR::COpenVRContext*, creationType>()));
     }
   }; // OVR.OpenVR.OpenVR/COpenVRContext
+  #pragma pack(pop)
   static check_size<sizeof(OpenVR::COpenVRContext), 112 + sizeof(OVR::OpenVR::CVRSpatialAnchors*)> __OVR_OpenVR_OpenVR_COpenVRContextSizeCheck;
   static_assert(sizeof(OpenVR::COpenVRContext) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OpenVR::COpenVRContext*, "OVR.OpenVR", "OpenVR/COpenVRContext");

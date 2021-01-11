@@ -39,8 +39,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<UserProof*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.UserProof
+  #pragma pack(pop)
   static check_size<sizeof(UserProof), 16 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_UserProofSizeCheck;
   static_assert(sizeof(UserProof) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::UserProof*, "Oculus.Platform.Models", "UserProof");

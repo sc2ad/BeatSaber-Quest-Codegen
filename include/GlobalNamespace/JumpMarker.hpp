@@ -74,8 +74,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<JumpMarker*, creationType>()));
     }
   }; // JumpMarker
+  #pragma pack(pop)
   static check_size<sizeof(JumpMarker), 48 + sizeof(UnityEngine::PropertyName)> __GlobalNamespace_JumpMarkerSizeCheck;
   static_assert(sizeof(JumpMarker) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JumpMarker*, "", "JumpMarker");

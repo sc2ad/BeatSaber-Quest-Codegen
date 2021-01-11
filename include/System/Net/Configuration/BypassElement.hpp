@@ -18,7 +18,7 @@ namespace System::Net::Configuration {
     // Creating value type constructor for type: BypassElement
     BypassElement() noexcept {}
   }; // System.Net.Configuration.BypassElement
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::BypassElement*, "System.Net.Configuration", "BypassElement");

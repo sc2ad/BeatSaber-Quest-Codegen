@@ -75,8 +75,8 @@ namespace OnlineServices {
       return THROW_UNLESS((::il2cpp_utils::New<PlatformOnlineServicesAvailabilityModel*, creationType>()));
     }
   }; // OnlineServices.PlatformOnlineServicesAvailabilityModel
+  #pragma pack(pop)
   static check_size<sizeof(PlatformOnlineServicesAvailabilityModel), 16 + sizeof(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*)> __OnlineServices_PlatformOnlineServicesAvailabilityModelSizeCheck;
   static_assert(sizeof(PlatformOnlineServicesAvailabilityModel) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformOnlineServicesAvailabilityModel*, "OnlineServices", "PlatformOnlineServicesAvailabilityModel");

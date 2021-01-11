@@ -53,6 +53,6 @@ namespace System::Net::Http::Headers {
     // Offset: 0x11FE8F0
     static bool TryParseStringElement(System::Net::Http::Headers::Lexer* lexer, ::Il2CppString*& parsedValue, System::Net::Http::Headers::Token& t);
   }; // System.Net.Http.Headers.CollectionParser
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::CollectionParser*, "System.Net.Http.Headers", "CollectionParser");

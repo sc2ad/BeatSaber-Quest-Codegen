@@ -88,6 +88,7 @@ namespace HMUI {
       // Set static field: static public HMUI.ToggleWithCallbacks/SelectionState Disabled
       static void _set_Disabled(HMUI::ToggleWithCallbacks::SelectionState value);
     }; // HMUI.ToggleWithCallbacks/SelectionState
+    #pragma pack(pop)
     static check_size<sizeof(ToggleWithCallbacks::SelectionState), 0 + sizeof(int)> __HMUI_ToggleWithCallbacks_SelectionStateSizeCheck;
     static_assert(sizeof(ToggleWithCallbacks::SelectionState) == 0x4);
     // [CompilerGeneratedAttribute] Offset: 0xDA8400
@@ -130,9 +131,9 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ToggleWithCallbacks*, creationType>()));
     }
   }; // HMUI.ToggleWithCallbacks
+  #pragma pack(pop)
   static check_size<sizeof(ToggleWithCallbacks), 280 + sizeof(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*)> __HMUI_ToggleWithCallbacksSizeCheck;
   static_assert(sizeof(ToggleWithCallbacks) == 0x120);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks*, "HMUI", "ToggleWithCallbacks");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks::SelectionState, "HMUI", "ToggleWithCallbacks/SelectionState");

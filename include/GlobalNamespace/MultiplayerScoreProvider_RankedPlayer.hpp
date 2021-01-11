@@ -92,8 +92,8 @@ namespace GlobalNamespace {
     // Base method: System.Int32 IComparable_1::CompareTo(MultiplayerScoreProvider/RankedPlayer other)
     int CompareTo(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* other);
   }; // MultiplayerScoreProvider/RankedPlayer
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerScoreProvider::RankedPlayer), 24 + sizeof(GlobalNamespace::MultiplayerScoreProvider*)> __GlobalNamespace_MultiplayerScoreProvider_RankedPlayerSizeCheck;
   static_assert(sizeof(MultiplayerScoreProvider::RankedPlayer) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*, "", "MultiplayerScoreProvider/RankedPlayer");

@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x18E5874
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_FadeToColor
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_FadeToColor*, "Valve.VR", "IVRCompositor/_FadeToColor");

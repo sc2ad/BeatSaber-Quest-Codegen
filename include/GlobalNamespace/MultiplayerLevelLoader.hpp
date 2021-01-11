@@ -105,6 +105,7 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerLevelLoader/MultiplayerBeatmapLoaderState WaitingForCountdown
       static void _set_WaitingForCountdown(GlobalNamespace::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState value);
     }; // MultiplayerLevelLoader/MultiplayerBeatmapLoaderState
+    #pragma pack(pop)
     static check_size<sizeof(MultiplayerLevelLoader::MultiplayerBeatmapLoaderState), 0 + sizeof(int)> __GlobalNamespace_MultiplayerLevelLoader_MultiplayerBeatmapLoaderStateSizeCheck;
     static_assert(sizeof(MultiplayerLevelLoader::MultiplayerBeatmapLoaderState) == 0x4);
     // [InjectAttribute] Offset: 0xDCECD0
@@ -242,9 +243,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLevelLoader*, creationType>()));
     }
   }; // MultiplayerLevelLoader
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLevelLoader), 116 + sizeof(bool)> __GlobalNamespace_MultiplayerLevelLoaderSizeCheck;
   static_assert(sizeof(MultiplayerLevelLoader) == 0x75);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelLoader*, "", "MultiplayerLevelLoader");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState, "", "MultiplayerLevelLoader/MultiplayerBeatmapLoaderState");

@@ -69,8 +69,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ResultsEnvironmentManager*, creationType>()));
     }
   }; // ResultsEnvironmentManager
+  #pragma pack(pop)
   static check_size<sizeof(ResultsEnvironmentManager), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_ResultsEnvironmentManagerSizeCheck;
   static_assert(sizeof(ResultsEnvironmentManager) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager*, "", "ResultsEnvironmentManager");

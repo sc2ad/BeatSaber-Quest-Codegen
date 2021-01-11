@@ -52,8 +52,8 @@ namespace Polyglot {
       return THROW_UNLESS((::il2cpp_utils::New<LocalizationImporter::$$c__DisplayClass5_0*, creationType>()));
     }
   }; // Polyglot.LocalizationImporter/<>c__DisplayClass5_0
+  #pragma pack(pop)
   static check_size<sizeof(LocalizationImporter::$$c__DisplayClass5_0), 16 + sizeof(Polyglot::Localization*)> __Polyglot_LocalizationImporter_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(LocalizationImporter::$$c__DisplayClass5_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationImporter::$$c__DisplayClass5_0*, "Polyglot", "LocalizationImporter/<>c__DisplayClass5_0");

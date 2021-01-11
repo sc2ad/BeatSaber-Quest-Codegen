@@ -52,8 +52,8 @@ namespace UnityEngine {
     // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();
   }; // UnityEngine.WaitUntil
+  #pragma pack(pop)
   static check_size<sizeof(WaitUntil), 16 + sizeof(System::Func_1<bool>*)> __UnityEngine_WaitUntilSizeCheck;
   static_assert(sizeof(WaitUntil) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitUntil*, "UnityEngine", "WaitUntil");

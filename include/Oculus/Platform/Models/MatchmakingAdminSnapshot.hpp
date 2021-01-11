@@ -48,8 +48,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<MatchmakingAdminSnapshot*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.MatchmakingAdminSnapshot
+  #pragma pack(pop)
   static check_size<sizeof(MatchmakingAdminSnapshot), 24 + sizeof(double)> __Oculus_Platform_Models_MatchmakingAdminSnapshotSizeCheck;
   static_assert(sizeof(MatchmakingAdminSnapshot) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingAdminSnapshot*, "Oculus.Platform.Models", "MatchmakingAdminSnapshot");

@@ -170,8 +170,8 @@ namespace System::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.Queue
+  #pragma pack(pop)
   static check_size<sizeof(Queue), 40 + sizeof(int)> __System_Collections_QueueSizeCheck;
   static_assert(sizeof(Queue) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Queue*, "System.Collections", "Queue");

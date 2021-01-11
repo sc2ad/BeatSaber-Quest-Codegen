@@ -56,9 +56,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.ThreadPriority High
     static void _set_High(UnityEngine::ThreadPriority value);
   }; // UnityEngine.ThreadPriority
+  #pragma pack(pop)
   static check_size<sizeof(ThreadPriority), 0 + sizeof(int)> __UnityEngine_ThreadPrioritySizeCheck;
   static_assert(sizeof(ThreadPriority) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ThreadPriority, "UnityEngine", "ThreadPriority");

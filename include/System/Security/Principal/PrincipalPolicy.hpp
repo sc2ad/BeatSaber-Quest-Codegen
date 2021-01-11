@@ -51,9 +51,9 @@ namespace System::Security::Principal {
     // Set static field: static public System.Security.Principal.PrincipalPolicy WindowsPrincipal
     static void _set_WindowsPrincipal(System::Security::Principal::PrincipalPolicy value);
   }; // System.Security.Principal.PrincipalPolicy
+  #pragma pack(pop)
   static check_size<sizeof(PrincipalPolicy), 0 + sizeof(int)> __System_Security_Principal_PrincipalPolicySizeCheck;
   static_assert(sizeof(PrincipalPolicy) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::PrincipalPolicy, "System.Security.Principal", "PrincipalPolicy");

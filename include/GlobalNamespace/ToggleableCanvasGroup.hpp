@@ -81,8 +81,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ToggleableCanvasGroup*, creationType>()));
     }
   }; // ToggleableCanvasGroup
+  #pragma pack(pop)
   static check_size<sizeof(ToggleableCanvasGroup), 40 + sizeof(bool)> __GlobalNamespace_ToggleableCanvasGroupSizeCheck;
   static_assert(sizeof(ToggleableCanvasGroup) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ToggleableCanvasGroup*, "", "ToggleableCanvasGroup");

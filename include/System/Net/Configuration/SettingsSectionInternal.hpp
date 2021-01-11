@@ -58,8 +58,8 @@ namespace System::Net::Configuration {
       return THROW_UNLESS((::il2cpp_utils::New<SettingsSectionInternal*, creationType>()));
     }
   }; // System.Net.Configuration.SettingsSectionInternal
+  #pragma pack(pop)
   static check_size<sizeof(SettingsSectionInternal), 20 + sizeof(System::Net::Sockets::IPProtectionLevel)> __System_Net_Configuration_SettingsSectionInternalSizeCheck;
   static_assert(sizeof(SettingsSectionInternal) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SettingsSectionInternal*, "System.Net.Configuration", "SettingsSectionInternal");

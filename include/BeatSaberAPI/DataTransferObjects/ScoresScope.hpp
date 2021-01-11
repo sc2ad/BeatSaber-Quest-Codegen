@@ -50,9 +50,9 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Set static field: static public BeatSaberAPI.DataTransferObjects.ScoresScope Friends
     static void _set_Friends(BeatSaberAPI::DataTransferObjects::ScoresScope value);
   }; // BeatSaberAPI.DataTransferObjects.ScoresScope
+  #pragma pack(pop)
   static check_size<sizeof(ScoresScope), 0 + sizeof(int)> __BeatSaberAPI_DataTransferObjects_ScoresScopeSizeCheck;
   static_assert(sizeof(ScoresScope) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::ScoresScope, "BeatSaberAPI.DataTransferObjects", "ScoresScope");

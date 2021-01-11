@@ -110,8 +110,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<SignalEmitter*, creationType>()));
     }
   }; // UnityEngine.Timeline.SignalEmitter
+  #pragma pack(pop)
   static check_size<sizeof(SignalEmitter), 48 + sizeof(UnityEngine::Timeline::SignalAsset*)> __UnityEngine_Timeline_SignalEmitterSizeCheck;
   static_assert(sizeof(SignalEmitter) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalEmitter*, "UnityEngine.Timeline", "SignalEmitter");

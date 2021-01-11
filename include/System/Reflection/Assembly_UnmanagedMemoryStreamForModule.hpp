@@ -49,8 +49,8 @@ namespace System::Reflection {
     // Base method: System.Void UnmanagedMemoryStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Reflection.Assembly/UnmanagedMemoryStreamForModule
+  #pragma pack(pop)
   static check_size<sizeof(Assembly::UnmanagedMemoryStreamForModule), 104 + sizeof(System::Reflection::Module*)> __System_Reflection_Assembly_UnmanagedMemoryStreamForModuleSizeCheck;
   static_assert(sizeof(Assembly::UnmanagedMemoryStreamForModule) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Assembly::UnmanagedMemoryStreamForModule*, "System.Reflection", "Assembly/UnmanagedMemoryStreamForModule");

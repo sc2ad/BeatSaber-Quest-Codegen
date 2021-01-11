@@ -64,6 +64,7 @@ namespace UnityEngine::Timeline {
       // Set static field: static public UnityEngine.Timeline.TimeFieldAttribute/UseEditMode ApplyEditMode
       static void _set_ApplyEditMode(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode value);
     }; // UnityEngine.Timeline.TimeFieldAttribute/UseEditMode
+    #pragma pack(pop)
     static check_size<sizeof(TimeFieldAttribute::UseEditMode), 0 + sizeof(int)> __UnityEngine_Timeline_TimeFieldAttribute_UseEditModeSizeCheck;
     static_assert(sizeof(TimeFieldAttribute::UseEditMode) == 0x4);
     // [CompilerGeneratedAttribute] Offset: 0xD8E190
@@ -90,9 +91,9 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<TimeFieldAttribute*, creationType>(useEditMode)));
     }
   }; // UnityEngine.Timeline.TimeFieldAttribute
+  #pragma pack(pop)
   static check_size<sizeof(TimeFieldAttribute), 16 + sizeof(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode)> __UnityEngine_Timeline_TimeFieldAttributeSizeCheck;
   static_assert(sizeof(TimeFieldAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeFieldAttribute*, "UnityEngine.Timeline", "TimeFieldAttribute");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode, "UnityEngine.Timeline", "TimeFieldAttribute/UseEditMode");

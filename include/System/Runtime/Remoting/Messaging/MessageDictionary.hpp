@@ -176,8 +176,8 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: GetEnumerator
     System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator();
   }; // System.Runtime.Remoting.Messaging.MessageDictionary
+  #pragma pack(pop)
   static check_size<sizeof(MessageDictionary), 40 + sizeof(bool)> __System_Runtime_Remoting_Messaging_MessageDictionarySizeCheck;
   static_assert(sizeof(MessageDictionary) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MessageDictionary*, "System.Runtime.Remoting.Messaging", "MessageDictionary");

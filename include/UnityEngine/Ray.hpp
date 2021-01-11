@@ -65,8 +65,8 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Ray
+  #pragma pack(pop)
   static check_size<sizeof(Ray), 12 + sizeof(UnityEngine::Vector3)> __UnityEngine_RaySizeCheck;
   static_assert(sizeof(Ray) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Ray, "UnityEngine", "Ray");

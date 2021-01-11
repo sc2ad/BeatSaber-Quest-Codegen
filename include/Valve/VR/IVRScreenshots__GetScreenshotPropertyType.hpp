@@ -57,6 +57,6 @@ namespace Valve::VR {
     // Offset: 0x1922CD8
     Valve::VR::EVRScreenshotType EndInvoke(Valve::VR::EVRScreenshotError& pError, System::IAsyncResult* result);
   }; // Valve.VR.IVRScreenshots/_GetScreenshotPropertyType
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRScreenshots::_GetScreenshotPropertyType*, "Valve.VR", "IVRScreenshots/_GetScreenshotPropertyType");

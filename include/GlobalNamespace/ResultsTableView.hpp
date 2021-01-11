@@ -119,8 +119,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ResultsTableView*, creationType>()));
     }
   }; // ResultsTableView
+  #pragma pack(pop)
   static check_size<sizeof(ResultsTableView), 48 + sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerResultsTableView::Data*>*)> __GlobalNamespace_ResultsTableViewSizeCheck;
   static_assert(sizeof(ResultsTableView) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsTableView*, "", "ResultsTableView");

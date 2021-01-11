@@ -71,6 +71,7 @@ namespace RootMotion::FinalIK {
       // Set static field: static public RootMotion.FinalIK.IKSolverVR/Arm/ShoulderRotationMode FromTo
       static void _set_FromTo(RootMotion::FinalIK::IKSolverVR::Arm::ShoulderRotationMode value);
     }; // RootMotion.FinalIK.IKSolverVR/Arm/ShoulderRotationMode
+    #pragma pack(pop)
     static check_size<sizeof(IKSolverVR::Arm::ShoulderRotationMode), 0 + sizeof(int)> __RootMotion_FinalIK_IKSolverVR_Arm_ShoulderRotationModeSizeCheck;
     static_assert(sizeof(IKSolverVR::Arm::ShoulderRotationMode) == 0x4);
     // [TooltipAttribute] Offset: 0xDB8F24
@@ -352,9 +353,9 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR::Arm*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolverVR/Arm
+  #pragma pack(pop)
   static check_size<sizeof(IKSolverVR::Arm), 316 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_IKSolverVR_ArmSizeCheck;
   static_assert(sizeof(IKSolverVR::Arm) == 0x148);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Arm*, "RootMotion.FinalIK", "IKSolverVR/Arm");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Arm::ShoulderRotationMode, "RootMotion.FinalIK", "IKSolverVR/Arm/ShoulderRotationMode");

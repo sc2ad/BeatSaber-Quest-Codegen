@@ -95,8 +95,8 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Net.NetworkInformation.NetworkInterfaceType NetworkInterface::get_NetworkInterfaceType()
     System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
   }; // System.Net.NetworkInformation.UnixNetworkInterface
+  #pragma pack(pop)
   static check_size<sizeof(UnixNetworkInterface), 48 + sizeof(System::Net::NetworkInformation::NetworkInterfaceType)> __System_Net_NetworkInformation_UnixNetworkInterfaceSizeCheck;
   static_assert(sizeof(UnixNetworkInterface) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixNetworkInterface*, "System.Net.NetworkInformation", "UnixNetworkInterface");

@@ -217,8 +217,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // KawaseBlurRendererSO
+  #pragma pack(pop)
   static check_size<sizeof(KawaseBlurRendererSO), 96 + sizeof(::Array<UnityEngine::RenderTexture*>*)> __GlobalNamespace_KawaseBlurRendererSOSizeCheck;
   static_assert(sizeof(KawaseBlurRendererSO) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBlurRendererSO*, "", "KawaseBlurRendererSO");

@@ -68,9 +68,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.PrimitiveType Quad
     static void _set_Quad(UnityEngine::PrimitiveType value);
   }; // UnityEngine.PrimitiveType
+  #pragma pack(pop)
   static check_size<sizeof(PrimitiveType), 0 + sizeof(int)> __UnityEngine_PrimitiveTypeSizeCheck;
   static_assert(sizeof(PrimitiveType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PrimitiveType, "UnityEngine", "PrimitiveType");

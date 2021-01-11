@@ -58,8 +58,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterMaterialSwitcher::MaterialPairs*, creationType>()));
     }
   }; // BTSCharacterMaterialSwitcher/MaterialPairs
+  #pragma pack(pop)
   static check_size<sizeof(BTSCharacterMaterialSwitcher::MaterialPairs), 32 + sizeof(UnityEngine::Material*)> __GlobalNamespace_BTSCharacterMaterialSwitcher_MaterialPairsSizeCheck;
   static_assert(sizeof(BTSCharacterMaterialSwitcher::MaterialPairs) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*, "", "BTSCharacterMaterialSwitcher/MaterialPairs");

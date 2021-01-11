@@ -175,8 +175,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<Saber*, creationType>()));
     }
   }; // Saber
+  #pragma pack(pop)
   static check_size<sizeof(Saber), 100 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_SaberSizeCheck;
   static_assert(sizeof(Saber) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Saber*, "", "Saber");

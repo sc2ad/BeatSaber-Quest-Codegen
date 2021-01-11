@@ -177,8 +177,8 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // PacketEncryptionLayer/EncryptionState
+  #pragma pack(pop)
   static check_size<sizeof(PacketEncryptionLayer::EncryptionState), 88 + sizeof(System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>*)> __GlobalNamespace_PacketEncryptionLayer_EncryptionStateSizeCheck;
   static_assert(sizeof(PacketEncryptionLayer::EncryptionState) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::EncryptionState*, "", "PacketEncryptionLayer/EncryptionState");

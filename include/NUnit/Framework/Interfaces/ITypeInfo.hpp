@@ -111,7 +111,7 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* Construct(::Array<::Il2CppObject*>* args);
   }; // NUnit.Framework.Interfaces.ITypeInfo
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITypeInfo*, "NUnit.Framework.Interfaces", "ITypeInfo");

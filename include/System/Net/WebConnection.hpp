@@ -118,6 +118,7 @@ namespace System::Net {
       // Set static field: static public System.Net.WebConnection/NtlmAuthState Response
       static void _set_Response(System::Net::WebConnection::NtlmAuthState value);
     }; // System.Net.WebConnection/NtlmAuthState
+    #pragma pack(pop)
     static check_size<sizeof(WebConnection::NtlmAuthState), 0 + sizeof(int)> __System_Net_WebConnection_NtlmAuthStateSizeCheck;
     static_assert(sizeof(WebConnection::NtlmAuthState) == 0x4);
     // private System.Net.ServicePoint sPoint
@@ -387,9 +388,9 @@ namespace System::Net {
     // Offset: 0x121F0F4
     void $SendRequest$b__41_0(::Il2CppObject* o);
   }; // System.Net.WebConnection
+  #pragma pack(pop)
   static check_size<sizeof(WebConnection), 168 + sizeof(Mono::Net::Security::MonoTlsStream*)> __System_Net_WebConnectionSizeCheck;
   static_assert(sizeof(WebConnection) == 0xB0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection*, "System.Net", "WebConnection");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection::NtlmAuthState, "System.Net", "WebConnection/NtlmAuthState");

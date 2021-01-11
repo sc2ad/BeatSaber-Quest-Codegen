@@ -149,8 +149,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorManager*, creationType>()));
     }
   }; // ColorManager
+  #pragma pack(pop)
   static check_size<sizeof(ColorManager), 96 + sizeof(System::Action*)> __GlobalNamespace_ColorManagerSizeCheck;
   static_assert(sizeof(ColorManager) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorManager*, "", "ColorManager");

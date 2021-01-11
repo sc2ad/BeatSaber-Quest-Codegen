@@ -67,8 +67,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusMRCManager*, creationType>()));
     }
   }; // OculusMRCManager
+  #pragma pack(pop)
   static check_size<sizeof(OculusMRCManager), 24 + sizeof(GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_OculusMRCManagerSizeCheck;
   static_assert(sizeof(OculusMRCManager) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusMRCManager*, "", "OculusMRCManager");

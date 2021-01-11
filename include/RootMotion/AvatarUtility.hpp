@@ -56,6 +56,6 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<AvatarUtility*, creationType>()));
     }
   }; // RootMotion.AvatarUtility
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::AvatarUtility*, "RootMotion", "AvatarUtility");

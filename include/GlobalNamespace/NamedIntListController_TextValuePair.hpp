@@ -46,8 +46,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NamedIntListController::TextValuePair*, creationType>()));
     }
   }; // NamedIntListController/TextValuePair
+  #pragma pack(pop)
   static check_size<sizeof(NamedIntListController::TextValuePair), 24 + sizeof(int)> __GlobalNamespace_NamedIntListController_TextValuePairSizeCheck;
   static_assert(sizeof(NamedIntListController::TextValuePair) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListController::TextValuePair*, "", "NamedIntListController/TextValuePair");

@@ -64,8 +64,8 @@ namespace Org::BouncyCastle::Crypto::Prng {
     // Base method: System.Void IRandomGenerator::NextBytes(System.Byte[] bytes)
     void NextBytes(::Array<uint8_t>* bytes);
   }; // Org.BouncyCastle.Crypto.Prng.CryptoApiRandomGenerator
+  #pragma pack(pop)
   static check_size<sizeof(CryptoApiRandomGenerator), 16 + sizeof(System::Security::Cryptography::RandomNumberGenerator*)> __Org_BouncyCastle_Crypto_Prng_CryptoApiRandomGeneratorSizeCheck;
   static_assert(sizeof(CryptoApiRandomGenerator) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator*, "Org.BouncyCastle.Crypto.Prng", "CryptoApiRandomGenerator");

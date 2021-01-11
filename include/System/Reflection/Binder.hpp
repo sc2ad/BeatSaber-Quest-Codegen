@@ -74,6 +74,6 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<Binder*, creationType>()));
     }
   }; // System.Reflection.Binder
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Binder*, "System.Reflection", "Binder");

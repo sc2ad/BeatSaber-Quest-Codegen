@@ -159,6 +159,6 @@ namespace Zenject {
     // Offset: 0x19D2650
     static void _cctor();
   }; // Zenject.TypeAnalyzer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeAnalyzer*, "Zenject", "TypeAnalyzer");

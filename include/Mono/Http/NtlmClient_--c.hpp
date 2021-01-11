@@ -60,6 +60,6 @@ namespace Mono::Http {
       return THROW_UNLESS((::il2cpp_utils::New<NtlmClient::$$c*, creationType>()));
     }
   }; // Mono.Http.NtlmClient/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmClient::$$c*, "Mono.Http", "NtlmClient/<>c");

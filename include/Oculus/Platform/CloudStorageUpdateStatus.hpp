@@ -60,9 +60,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.CloudStorageUpdateStatus ManualMergeRequired
     static void _set_ManualMergeRequired(Oculus::Platform::CloudStorageUpdateStatus value);
   }; // Oculus.Platform.CloudStorageUpdateStatus
+  #pragma pack(pop)
   static check_size<sizeof(CloudStorageUpdateStatus), 0 + sizeof(int)> __Oculus_Platform_CloudStorageUpdateStatusSizeCheck;
   static_assert(sizeof(CloudStorageUpdateStatus) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CloudStorageUpdateStatus, "Oculus.Platform", "CloudStorageUpdateStatus");

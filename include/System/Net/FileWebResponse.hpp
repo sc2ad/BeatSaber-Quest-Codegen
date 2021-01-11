@@ -152,8 +152,8 @@ namespace System::Net {
     // Base method: System.IO.Stream WebResponse::GetResponseStream()
     System::IO::Stream* GetResponseStream();
   }; // System.Net.FileWebResponse
+  #pragma pack(pop)
   static check_size<sizeof(FileWebResponse), 64 + sizeof(System::Uri*)> __System_Net_FileWebResponseSizeCheck;
   static_assert(sizeof(FileWebResponse) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FileWebResponse*, "System.Net", "FileWebResponse");

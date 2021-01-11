@@ -474,8 +474,8 @@ namespace Org::BouncyCastle::Math {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Math.BigInteger
+  #pragma pack(pop)
   static check_size<sizeof(BigInteger), 36 + sizeof(int)> __Org_BouncyCastle_Math_BigIntegerSizeCheck;
   static_assert(sizeof(BigInteger) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::BigInteger*, "Org.BouncyCastle.Math", "BigInteger");

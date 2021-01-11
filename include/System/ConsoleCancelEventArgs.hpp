@@ -56,8 +56,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<ConsoleCancelEventArgs*, creationType>()));
     }
   }; // System.ConsoleCancelEventArgs
+  #pragma pack(pop)
   static check_size<sizeof(ConsoleCancelEventArgs), 20 + sizeof(bool)> __System_ConsoleCancelEventArgsSizeCheck;
   static_assert(sizeof(ConsoleCancelEventArgs) == 0x15);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleCancelEventArgs*, "System", "ConsoleCancelEventArgs");

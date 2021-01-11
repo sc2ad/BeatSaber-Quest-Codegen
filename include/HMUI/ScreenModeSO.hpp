@@ -51,8 +51,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ScreenModeSO*, creationType>()));
     }
   }; // HMUI.ScreenModeSO
+  #pragma pack(pop)
   static check_size<sizeof(ScreenModeSO), 24 + sizeof(HMUI::ScreenModeData*)> __HMUI_ScreenModeSOSizeCheck;
   static_assert(sizeof(ScreenModeSO) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeSO*, "HMUI", "ScreenModeSO");

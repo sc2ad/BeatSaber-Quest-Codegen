@@ -153,8 +153,8 @@ namespace UnityEngine::Networking::PlayerConnection {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerConnection*, creationType>()));
     }
   }; // UnityEngine.Networking.PlayerConnection.PlayerConnection
+  #pragma pack(pop)
   static check_size<sizeof(PlayerConnection), 40 + sizeof(bool)> __UnityEngine_Networking_PlayerConnection_PlayerConnectionSizeCheck;
   static_assert(sizeof(PlayerConnection) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerConnection*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection");

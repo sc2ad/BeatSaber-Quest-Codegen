@@ -132,8 +132,8 @@ namespace System::Threading::Tasks {
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.Threading.Tasks.AwaitTaskContinuation
+  #pragma pack(pop)
   static check_size<sizeof(AwaitTaskContinuation), 24 + sizeof(System::Action*)> __System_Threading_Tasks_AwaitTaskContinuationSizeCheck;
   static_assert(sizeof(AwaitTaskContinuation) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AwaitTaskContinuation*, "System.Threading.Tasks", "AwaitTaskContinuation");

@@ -54,8 +54,8 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<DemoGUIMessage*, creationType>()));
     }
   }; // RootMotion.DemoGUIMessage
+  #pragma pack(pop)
   static check_size<sizeof(DemoGUIMessage), 32 + sizeof(UnityEngine::Color)> __RootMotion_DemoGUIMessageSizeCheck;
   static_assert(sizeof(DemoGUIMessage) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::DemoGUIMessage*, "RootMotion", "DemoGUIMessage");

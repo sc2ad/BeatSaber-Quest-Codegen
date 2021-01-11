@@ -37,7 +37,7 @@ namespace MasterServer {
     // Offset: 0xFFFFFFFF
     MasterServer::IMasterServerResponse* MasterServer_IMasterServerResponse_WithResponseId(uint responseId);
   }; // MasterServer.IMasterServerResponse
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerResponse*, "MasterServer", "IMasterServerResponse");

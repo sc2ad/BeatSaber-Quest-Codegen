@@ -161,8 +161,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<GameObjectContext*, creationType>()));
     }
   }; // Zenject.GameObjectContext
+  #pragma pack(pop)
   static check_size<sizeof(GameObjectContext), 112 + sizeof(Zenject::DiContainer*)> __Zenject_GameObjectContextSizeCheck;
   static_assert(sizeof(GameObjectContext) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GameObjectContext*, "Zenject", "GameObjectContext");

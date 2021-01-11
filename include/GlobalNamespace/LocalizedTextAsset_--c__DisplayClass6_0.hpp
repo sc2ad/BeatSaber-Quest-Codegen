@@ -47,8 +47,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedTextAsset::$$c__DisplayClass6_0*, creationType>()));
     }
   }; // LocalizedTextAsset/<>c__DisplayClass6_0
+  #pragma pack(pop)
   static check_size<sizeof(LocalizedTextAsset::$$c__DisplayClass6_0), 16 + sizeof(Polyglot::Language)> __GlobalNamespace_LocalizedTextAsset_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(LocalizedTextAsset::$$c__DisplayClass6_0) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0*, "", "LocalizedTextAsset/<>c__DisplayClass6_0");

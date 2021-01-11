@@ -72,7 +72,7 @@ namespace TMPro {
     // Offset: 0xF86448
     static void _cctor();
   }; // TMPro.TMP_Math
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Math*, "TMPro", "TMP_Math");

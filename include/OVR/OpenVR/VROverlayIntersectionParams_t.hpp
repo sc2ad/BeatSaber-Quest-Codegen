@@ -45,9 +45,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.VROverlayIntersectionParams_t
+  #pragma pack(pop)
   static check_size<sizeof(VROverlayIntersectionParams_t), 24 + sizeof(OVR::OpenVR::ETrackingUniverseOrigin)> __OVR_OpenVR_VROverlayIntersectionParams_tSizeCheck;
   static_assert(sizeof(VROverlayIntersectionParams_t) == 0x1C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayIntersectionParams_t, "OVR.OpenVR", "VROverlayIntersectionParams_t");

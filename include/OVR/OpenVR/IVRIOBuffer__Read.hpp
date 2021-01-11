@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x186288C
     OVR::OpenVR::EIOBufferError EndInvoke(uint& punRead, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRIOBuffer/_Read
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRIOBuffer::_Read*, "OVR.OpenVR", "IVRIOBuffer/_Read");

@@ -60,8 +60,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterMaterialSwitcher::RendererMaterialsPairs*, creationType>(renderer)));
     }
   }; // BTSCharacterMaterialSwitcher/RendererMaterialsPairs
+  #pragma pack(pop)
   static check_size<sizeof(BTSCharacterMaterialSwitcher::RendererMaterialsPairs), 24 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*)> __GlobalNamespace_BTSCharacterMaterialSwitcher_RendererMaterialsPairsSizeCheck;
   static_assert(sizeof(BTSCharacterMaterialSwitcher::RendererMaterialsPairs) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*, "", "BTSCharacterMaterialSwitcher/RendererMaterialsPairs");

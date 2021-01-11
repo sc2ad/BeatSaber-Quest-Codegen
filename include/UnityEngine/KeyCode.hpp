@@ -1988,9 +1988,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.KeyCode Joystick8Button19
     static void _set_Joystick8Button19(UnityEngine::KeyCode value);
   }; // UnityEngine.KeyCode
+  #pragma pack(pop)
   static check_size<sizeof(KeyCode), 0 + sizeof(int)> __UnityEngine_KeyCodeSizeCheck;
   static_assert(sizeof(KeyCode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::KeyCode, "UnityEngine", "KeyCode");

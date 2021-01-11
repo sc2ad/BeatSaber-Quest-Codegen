@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<QuickPlayLobbyFlowCoordinator::$$c__DisplayClass55_0*, creationType>()));
     }
   }; // QuickPlayLobbyFlowCoordinator/<>c__DisplayClass55_0
+  #pragma pack(pop)
   static check_size<sizeof(QuickPlayLobbyFlowCoordinator::$$c__DisplayClass55_0), 24 + sizeof(System::Action*)> __GlobalNamespace_QuickPlayLobbyFlowCoordinator_$$c__DisplayClass55_0SizeCheck;
   static_assert(sizeof(QuickPlayLobbyFlowCoordinator::$$c__DisplayClass55_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlayLobbyFlowCoordinator::$$c__DisplayClass55_0*, "", "QuickPlayLobbyFlowCoordinator/<>c__DisplayClass55_0");

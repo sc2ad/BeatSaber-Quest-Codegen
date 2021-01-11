@@ -323,8 +323,8 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // SteamVR
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR), 80 + sizeof(Valve::VR::ETextureType)> __GlobalNamespace_SteamVRSizeCheck;
   static_assert(sizeof(SteamVR) == 0x54);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR*, "", "SteamVR");

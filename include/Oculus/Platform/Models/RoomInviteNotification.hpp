@@ -55,8 +55,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<RoomInviteNotification*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.RoomInviteNotification
+  #pragma pack(pop)
   static check_size<sizeof(RoomInviteNotification), 40 + sizeof(System::DateTime)> __Oculus_Platform_Models_RoomInviteNotificationSizeCheck;
   static_assert(sizeof(RoomInviteNotification) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::RoomInviteNotification*, "Oculus.Platform.Models", "RoomInviteNotification");

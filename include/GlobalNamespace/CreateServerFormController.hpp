@@ -78,8 +78,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CreateServerFormController*, creationType>()));
     }
   }; // CreateServerFormController
+  #pragma pack(pop)
   static check_size<sizeof(CreateServerFormController), 32 + sizeof(bool)> __GlobalNamespace_CreateServerFormControllerSizeCheck;
   static_assert(sizeof(CreateServerFormController) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerFormController*, "", "CreateServerFormController");

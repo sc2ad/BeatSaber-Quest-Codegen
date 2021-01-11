@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/PlatformUI GlobalMenuTutorial
     static void _set_GlobalMenuTutorial(GlobalNamespace::OVRPlugin::PlatformUI value);
   }; // OVRPlugin/PlatformUI
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::PlatformUI), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_PlatformUISizeCheck;
   static_assert(sizeof(OVRPlugin::PlatformUI) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::PlatformUI, "", "OVRPlugin/PlatformUI");

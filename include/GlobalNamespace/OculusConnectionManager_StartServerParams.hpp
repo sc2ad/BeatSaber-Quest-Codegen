@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusConnectionManager::StartServerParams*, creationType>()));
     }
   }; // OculusConnectionManager/StartServerParams
+  #pragma pack(pop)
   static check_size<sizeof(OculusConnectionManager::StartServerParams), 16 + sizeof(GlobalNamespace::OculusNetworkPlayerModel*)> __GlobalNamespace_OculusConnectionManager_StartServerParamsSizeCheck;
   static_assert(sizeof(OculusConnectionManager::StartServerParams) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::StartServerParams*, "", "OculusConnectionManager/StartServerParams");

@@ -71,8 +71,8 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.Pkcs.PbeS2Parameters
+  #pragma pack(pop)
   static check_size<sizeof(PbeS2Parameters), 24 + sizeof(Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*)> __Org_BouncyCastle_Asn1_Pkcs_PbeS2ParametersSizeCheck;
   static_assert(sizeof(PbeS2Parameters) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters*, "Org.BouncyCastle.Asn1.Pkcs", "PbeS2Parameters");

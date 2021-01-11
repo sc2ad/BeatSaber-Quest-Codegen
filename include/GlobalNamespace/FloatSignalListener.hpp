@@ -67,8 +67,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FloatSignalListener*, creationType>()));
     }
   }; // FloatSignalListener
+  #pragma pack(pop)
   static check_size<sizeof(FloatSignalListener), 32 + sizeof(GlobalNamespace::FloatUnityEvent*)> __GlobalNamespace_FloatSignalListenerSizeCheck;
   static_assert(sizeof(FloatSignalListener) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloatSignalListener*, "", "FloatSignalListener");

@@ -63,6 +63,6 @@ namespace GlobalNamespace {
     // Offset: 0x1AC8604
     static void _cctor();
   }; // ListExtensions
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ListExtensions*, "", "ListExtensions");

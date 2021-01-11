@@ -54,8 +54,8 @@ namespace System {
     // Offset: 0x1711E30
     int get_InheritanceLevel();
   }; // System.MonoCustomAttrs/AttributeInfo
+  #pragma pack(pop)
   static check_size<sizeof(MonoCustomAttrs::AttributeInfo), 24 + sizeof(int)> __System_MonoCustomAttrs_AttributeInfoSizeCheck;
   static_assert(sizeof(MonoCustomAttrs::AttributeInfo) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::MonoCustomAttrs::AttributeInfo*, "System", "MonoCustomAttrs/AttributeInfo");

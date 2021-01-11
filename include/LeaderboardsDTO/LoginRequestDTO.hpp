@@ -65,8 +65,8 @@ namespace LeaderboardsDTO {
       return THROW_UNLESS((::il2cpp_utils::New<LoginRequestDTO*, creationType>()));
     }
   }; // LeaderboardsDTO.LoginRequestDTO
+  #pragma pack(pop)
   static check_size<sizeof(LoginRequestDTO), 56 + sizeof(::Il2CppString*)> __LeaderboardsDTO_LoginRequestDTOSizeCheck;
   static_assert(sizeof(LoginRequestDTO) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LoginRequestDTO*, "LeaderboardsDTO", "LoginRequestDTO");

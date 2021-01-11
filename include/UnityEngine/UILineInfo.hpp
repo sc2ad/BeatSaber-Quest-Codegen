@@ -47,9 +47,9 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.UILineInfo
+  #pragma pack(pop)
   static check_size<sizeof(UILineInfo), 12 + sizeof(float)> __UnityEngine_UILineInfoSizeCheck;
   static_assert(sizeof(UILineInfo) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UILineInfo, "UnityEngine", "UILineInfo");

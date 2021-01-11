@@ -44,9 +44,9 @@ namespace Mono {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Mono.RuntimeStructs/GPtrArray
+  #pragma pack(pop)
   static check_size<sizeof(RuntimeStructs::GPtrArray), 8 + sizeof(int)> __Mono_RuntimeStructs_GPtrArraySizeCheck;
   static_assert(sizeof(RuntimeStructs::GPtrArray) == 0xC);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GPtrArray, "Mono", "RuntimeStructs/GPtrArray");

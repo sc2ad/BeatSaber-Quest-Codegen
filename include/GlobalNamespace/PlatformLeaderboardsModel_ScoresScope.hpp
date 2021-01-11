@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // Set static field: static public PlatformLeaderboardsModel/ScoresScope Friends
     static void _set_Friends(GlobalNamespace::PlatformLeaderboardsModel::ScoresScope value);
   }; // PlatformLeaderboardsModel/ScoresScope
+  #pragma pack(pop)
   static check_size<sizeof(PlatformLeaderboardsModel::ScoresScope), 0 + sizeof(int)> __GlobalNamespace_PlatformLeaderboardsModel_ScoresScopeSizeCheck;
   static_assert(sizeof(PlatformLeaderboardsModel::ScoresScope) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::ScoresScope, "", "PlatformLeaderboardsModel/ScoresScope");

@@ -44,9 +44,9 @@ namespace UnityEngine::TestRunner {
     // Offset: 0x118C5BC
     UnityEngine::TestRunner::ITestRunCallback* ConstructCallback();
   }; // UnityEngine.TestRunner.TestRunCallbackAttribute
+  #pragma pack(pop)
   static check_size<sizeof(TestRunCallbackAttribute), 16 + sizeof(System::Type*)> __UnityEngine_TestRunner_TestRunCallbackAttributeSizeCheck;
   static_assert(sizeof(TestRunCallbackAttribute) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestRunCallbackAttribute*, "UnityEngine.TestRunner", "TestRunCallbackAttribute");

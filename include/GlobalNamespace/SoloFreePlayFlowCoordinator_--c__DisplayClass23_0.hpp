@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0*, creationType>()));
     }
   }; // SoloFreePlayFlowCoordinator/<>c__DisplayClass23_0
+  #pragma pack(pop)
   static check_size<sizeof(SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0), 24 + sizeof(GlobalNamespace::ResultsViewController*)> __GlobalNamespace_SoloFreePlayFlowCoordinator_$$c__DisplayClass23_0SizeCheck;
   static_assert(sizeof(SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass23_0");

@@ -61,8 +61,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ScopableBindingFinalizer::$$c__DisplayClass3_0*, creationType>()));
     }
   }; // Zenject.ScopableBindingFinalizer/<>c__DisplayClass3_0
+  #pragma pack(pop)
   static check_size<sizeof(ScopableBindingFinalizer::$$c__DisplayClass3_0), 24 + sizeof(Zenject::DiContainer*)> __Zenject_ScopableBindingFinalizer_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(ScopableBindingFinalizer::$$c__DisplayClass3_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopableBindingFinalizer::$$c__DisplayClass3_0*, "Zenject", "ScopableBindingFinalizer/<>c__DisplayClass3_0");

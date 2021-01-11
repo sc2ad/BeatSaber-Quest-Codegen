@@ -61,8 +61,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicCollectionSO*, creationType>()));
     }
   }; // BeatmapCharacteristicCollectionSO
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapCharacteristicCollectionSO), 24 + sizeof(::Array<GlobalNamespace::BeatmapCharacteristicSO*>*)> __GlobalNamespace_BeatmapCharacteristicCollectionSOSizeCheck;
   static_assert(sizeof(BeatmapCharacteristicCollectionSO) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicCollectionSO*, "", "BeatmapCharacteristicCollectionSO");

@@ -92,7 +92,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc7748 {
     // Offset: 0x1788F88
     static void _cctor();
   }; // Org.BouncyCastle.Math.EC.Rfc7748.X25519Field
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc7748::X25519Field*, "Org.BouncyCastle.Math.EC.Rfc7748", "X25519Field");

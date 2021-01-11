@@ -50,8 +50,8 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter::AttributeValueCache::Item*, creationType>()));
     }
   }; // System.Xml.XmlWellFormedWriter/AttributeValueCache/Item
+  #pragma pack(pop)
   static check_size<sizeof(XmlWellFormedWriter::AttributeValueCache::Item), 24 + sizeof(::Il2CppObject*)> __System_Xml_XmlWellFormedWriter_AttributeValueCache_ItemSizeCheck;
   static_assert(sizeof(XmlWellFormedWriter::AttributeValueCache::Item) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/Item");

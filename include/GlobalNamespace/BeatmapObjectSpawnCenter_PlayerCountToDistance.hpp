@@ -49,8 +49,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectSpawnCenter::PlayerCountToDistance*, creationType>()));
     }
   }; // BeatmapObjectSpawnCenter/PlayerCountToDistance
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectSpawnCenter::PlayerCountToDistance), 20 + sizeof(float)> __GlobalNamespace_BeatmapObjectSpawnCenter_PlayerCountToDistanceSizeCheck;
   static_assert(sizeof(BeatmapObjectSpawnCenter::PlayerCountToDistance) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*, "", "BeatmapObjectSpawnCenter/PlayerCountToDistance");

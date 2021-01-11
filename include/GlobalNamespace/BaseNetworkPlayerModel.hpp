@@ -337,8 +337,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BaseNetworkPlayerModel*, creationType>()));
     }
   }; // BaseNetworkPlayerModel
+  #pragma pack(pop)
   static check_size<sizeof(BaseNetworkPlayerModel), 112 + sizeof(System::Action_1<GlobalNamespace::INetworkPlayerModel*>*)> __GlobalNamespace_BaseNetworkPlayerModelSizeCheck;
   static_assert(sizeof(BaseNetworkPlayerModel) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNetworkPlayerModel*, "", "BaseNetworkPlayerModel");

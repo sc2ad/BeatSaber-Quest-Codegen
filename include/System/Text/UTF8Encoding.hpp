@@ -211,8 +211,8 @@ namespace System::Text {
     // Base method: System.Int32 Encoding::GetHashCode()
     int GetHashCode();
   }; // System.Text.UTF8Encoding
+  #pragma pack(pop)
   static check_size<sizeof(UTF8Encoding), 57 + sizeof(bool)> __System_Text_UTF8EncodingSizeCheck;
   static_assert(sizeof(UTF8Encoding) == 0x3A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF8Encoding*, "System.Text", "UTF8Encoding");

@@ -64,9 +64,9 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.Selectable/SelectionState Disabled
     static void _set_Disabled(UnityEngine::UI::Selectable::SelectionState value);
   }; // UnityEngine.UI.Selectable/SelectionState
+  #pragma pack(pop)
   static check_size<sizeof(Selectable::SelectionState), 0 + sizeof(int)> __UnityEngine_UI_Selectable_SelectionStateSizeCheck;
   static_assert(sizeof(Selectable::SelectionState) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable::SelectionState, "UnityEngine.UI", "Selectable/SelectionState");

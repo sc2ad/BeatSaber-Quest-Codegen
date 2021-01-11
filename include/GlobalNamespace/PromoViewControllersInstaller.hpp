@@ -55,8 +55,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PromoViewControllersInstaller*, creationType>()));
     }
   }; // PromoViewControllersInstaller
+  #pragma pack(pop)
   static check_size<sizeof(PromoViewControllersInstaller), 32 + sizeof(GlobalNamespace::PromoViewController*)> __GlobalNamespace_PromoViewControllersInstallerSizeCheck;
   static_assert(sizeof(PromoViewControllersInstaller) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewControllersInstaller*, "", "PromoViewControllersInstaller");

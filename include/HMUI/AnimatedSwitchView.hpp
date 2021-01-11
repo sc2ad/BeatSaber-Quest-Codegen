@@ -115,6 +115,7 @@ namespace HMUI {
       // Set static field: static public HMUI.AnimatedSwitchView/AnimationState DisablingOff
       static void _set_DisablingOff(HMUI::AnimatedSwitchView::AnimationState value);
     }; // HMUI.AnimatedSwitchView/AnimationState
+    #pragma pack(pop)
     static check_size<sizeof(AnimatedSwitchView::AnimationState), 0 + sizeof(int)> __HMUI_AnimatedSwitchView_AnimationStateSizeCheck;
     static_assert(sizeof(AnimatedSwitchView::AnimationState) == 0x4);
     // private UnityEngine.RectTransform _knobRectTransform
@@ -303,9 +304,9 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<AnimatedSwitchView*, creationType>()));
     }
   }; // HMUI.AnimatedSwitchView
+  #pragma pack(pop)
   static check_size<sizeof(AnimatedSwitchView), 152 + sizeof(HMUI::ToggleWithCallbacks*)> __HMUI_AnimatedSwitchViewSizeCheck;
   static_assert(sizeof(AnimatedSwitchView) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView*, "HMUI", "AnimatedSwitchView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::AnimationState, "HMUI", "AnimatedSwitchView/AnimationState");

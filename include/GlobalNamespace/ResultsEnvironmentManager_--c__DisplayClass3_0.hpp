@@ -45,8 +45,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ResultsEnvironmentManager::$$c__DisplayClass3_0*, creationType>()));
     }
   }; // ResultsEnvironmentManager/<>c__DisplayClass3_0
+  #pragma pack(pop)
   static check_size<sizeof(ResultsEnvironmentManager::$$c__DisplayClass3_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_ResultsEnvironmentManager_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(ResultsEnvironmentManager::$$c__DisplayClass3_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0*, "", "ResultsEnvironmentManager/<>c__DisplayClass3_0");

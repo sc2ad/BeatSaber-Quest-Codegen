@@ -68,6 +68,7 @@ namespace GlobalNamespace {
       // Set static field: static public PlayerSaveData/GameplayModifiers/EnabledObstacleType None
       static void _set_None(GlobalNamespace::PlayerSaveData::GameplayModifiers::EnabledObstacleType value);
     }; // PlayerSaveData/GameplayModifiers/EnabledObstacleType
+    #pragma pack(pop)
     static check_size<sizeof(PlayerSaveData::GameplayModifiers::EnabledObstacleType), 0 + sizeof(int)> __GlobalNamespace_PlayerSaveData_GameplayModifiers_EnabledObstacleTypeSizeCheck;
     static_assert(sizeof(PlayerSaveData::GameplayModifiers::EnabledObstacleType) == 0x4);
     // Size: 0x4
@@ -105,6 +106,7 @@ namespace GlobalNamespace {
       // Set static field: static public PlayerSaveData/GameplayModifiers/EnergyType Battery
       static void _set_Battery(GlobalNamespace::PlayerSaveData::GameplayModifiers::EnergyType value);
     }; // PlayerSaveData/GameplayModifiers/EnergyType
+    #pragma pack(pop)
     static check_size<sizeof(PlayerSaveData::GameplayModifiers::EnergyType), 0 + sizeof(int)> __GlobalNamespace_PlayerSaveData_GameplayModifiers_EnergyTypeSizeCheck;
     static_assert(sizeof(PlayerSaveData::GameplayModifiers::EnergyType) == 0x4);
     // Size: 0x4
@@ -148,6 +150,7 @@ namespace GlobalNamespace {
       // Set static field: static public PlayerSaveData/GameplayModifiers/SongSpeed Slower
       static void _set_Slower(GlobalNamespace::PlayerSaveData::GameplayModifiers::SongSpeed value);
     }; // PlayerSaveData/GameplayModifiers/SongSpeed
+    #pragma pack(pop)
     static check_size<sizeof(PlayerSaveData::GameplayModifiers::SongSpeed), 0 + sizeof(int)> __GlobalNamespace_PlayerSaveData_GameplayModifiers_SongSpeedSizeCheck;
     static_assert(sizeof(PlayerSaveData::GameplayModifiers::SongSpeed) == 0x4);
     // public PlayerSaveData/GameplayModifiers/EnergyType energyType
@@ -238,10 +241,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::GameplayModifiers*, creationType>()));
     }
   }; // PlayerSaveData/GameplayModifiers
+  #pragma pack(pop)
   static check_size<sizeof(PlayerSaveData::GameplayModifiers), 40 + sizeof(bool)> __GlobalNamespace_PlayerSaveData_GameplayModifiersSizeCheck;
   static_assert(sizeof(PlayerSaveData::GameplayModifiers) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::GameplayModifiers*, "", "PlayerSaveData/GameplayModifiers");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::GameplayModifiers::EnabledObstacleType, "", "PlayerSaveData/GameplayModifiers/EnabledObstacleType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::GameplayModifiers::EnergyType, "", "PlayerSaveData/GameplayModifiers/EnergyType");

@@ -195,8 +195,8 @@ namespace System::Security::Cryptography {
     // Base method: System.Void AsymmetricAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Security.Cryptography.RSACryptoServiceProvider
+  #pragma pack(pop)
   static check_size<sizeof(RSACryptoServiceProvider), 48 + sizeof(Mono::Security::Cryptography::RSAManaged*)> __System_Security_Cryptography_RSACryptoServiceProviderSizeCheck;
   static_assert(sizeof(RSACryptoServiceProvider) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSACryptoServiceProvider*, "System.Security.Cryptography", "RSACryptoServiceProvider");

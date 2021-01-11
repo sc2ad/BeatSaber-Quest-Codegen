@@ -107,8 +107,8 @@ namespace System::Net::Sockets {
     // Base method: System.String Exception::get_Message()
     ::Il2CppString* get_Message();
   }; // System.Net.Sockets.SocketException
+  #pragma pack(pop)
   static check_size<sizeof(SocketException), 144 + sizeof(System::Net::EndPoint*)> __System_Net_Sockets_SocketExceptionSizeCheck;
   static_assert(sizeof(SocketException) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketException*, "System.Net.Sockets", "SocketException");

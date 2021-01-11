@@ -90,8 +90,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ClientHelloRequest*, creationType>()));
     }
   }; // MasterServer.ClientHelloRequest
+  #pragma pack(pop)
   static check_size<sizeof(ClientHelloRequest), 24 + sizeof(::Array<uint8_t>*)> __MasterServer_ClientHelloRequestSizeCheck;
   static_assert(sizeof(ClientHelloRequest) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ClientHelloRequest*, "MasterServer", "ClientHelloRequest");

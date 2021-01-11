@@ -47,9 +47,9 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Net.NetworkInformation.Win32_IP_ADAPTER_GATEWAY_ADDRESS
+  #pragma pack(pop)
   static check_size<sizeof(Win32_IP_ADAPTER_GATEWAY_ADDRESS), 16 + sizeof(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS)> __System_Net_NetworkInformation_Win32_IP_ADAPTER_GATEWAY_ADDRESSSizeCheck;
   static_assert(sizeof(Win32_IP_ADAPTER_GATEWAY_ADDRESS) == 0x1C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADAPTER_GATEWAY_ADDRESS, "System.Net.NetworkInformation", "Win32_IP_ADAPTER_GATEWAY_ADDRESS");

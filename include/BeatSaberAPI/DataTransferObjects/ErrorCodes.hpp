@@ -71,7 +71,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Set static field: static public System.String kLoginTimeOut
     static void _set_kLoginTimeOut(::Il2CppString* value);
   }; // BeatSaberAPI.DataTransferObjects.ErrorCodes
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::ErrorCodes*, "BeatSaberAPI.DataTransferObjects", "ErrorCodes");

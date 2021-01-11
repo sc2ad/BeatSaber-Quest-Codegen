@@ -54,9 +54,9 @@ namespace System::Reflection::Emit {
     // Creating value type constructor for type: LocalBuilder
     LocalBuilder(::Il2CppString* name_ = {}, System::Reflection::Emit::ILGenerator* ilgen_ = {}, int startOffset_ = {}, int endOffset_ = {}) noexcept : name{name_}, ilgen{ilgen_}, startOffset{startOffset_}, endOffset{endOffset_} {}
   }; // System.Reflection.Emit.LocalBuilder
+  #pragma pack(pop)
   static check_size<sizeof(LocalBuilder), 52 + sizeof(int)> __System_Reflection_Emit_LocalBuilderSizeCheck;
   static_assert(sizeof(LocalBuilder) == 0x38);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::LocalBuilder*, "System.Reflection.Emit", "LocalBuilder");

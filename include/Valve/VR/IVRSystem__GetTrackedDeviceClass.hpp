@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x192ECA0
     Valve::VR::ETrackedDeviceClass EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetTrackedDeviceClass
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetTrackedDeviceClass*, "Valve.VR", "IVRSystem/_GetTrackedDeviceClass");

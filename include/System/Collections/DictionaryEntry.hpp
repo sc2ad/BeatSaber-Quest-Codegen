@@ -51,8 +51,8 @@ namespace System::Collections {
     // Offset: 0xE8BC14
     ::Il2CppObject* get_Value();
   }; // System.Collections.DictionaryEntry
+  #pragma pack(pop)
   static check_size<sizeof(DictionaryEntry), 8 + sizeof(::Il2CppObject*)> __System_Collections_DictionaryEntrySizeCheck;
   static_assert(sizeof(DictionaryEntry) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::DictionaryEntry, "System.Collections", "DictionaryEntry");

@@ -81,6 +81,6 @@ namespace System::Threading::Tasks {
     // Base method: System.Void TaskScheduler::.cctor()
     static void _cctor();
   }; // System.Threading.Tasks.ThreadPoolTaskScheduler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::ThreadPoolTaskScheduler*, "System.Threading.Tasks", "ThreadPoolTaskScheduler");

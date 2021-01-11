@@ -59,6 +59,6 @@ namespace OVR::OpenVR {
     // Offset: 0x186F474
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::ETrackingUniverseOrigin& peTrackingOrigin, OVR::OpenVR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayTransformAbsolute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayTransformAbsolute*, "OVR.OpenVR", "IVROverlay/_GetOverlayTransformAbsolute");

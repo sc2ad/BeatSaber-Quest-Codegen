@@ -42,8 +42,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<ContextMenuItemAttribute*, creationType>(name, function)));
     }
   }; // UnityEngine.ContextMenuItemAttribute
+  #pragma pack(pop)
   static check_size<sizeof(ContextMenuItemAttribute), 24 + sizeof(::Il2CppString*)> __UnityEngine_ContextMenuItemAttributeSizeCheck;
   static_assert(sizeof(ContextMenuItemAttribute) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContextMenuItemAttribute*, "UnityEngine", "ContextMenuItemAttribute");

@@ -119,8 +119,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<BroadcastServerRemoveRequest*, creationType>()));
     }
   }; // MasterServer.BroadcastServerRemoveRequest
+  #pragma pack(pop)
   static check_size<sizeof(BroadcastServerRemoveRequest), 32 + sizeof(::Il2CppString*)> __MasterServer_BroadcastServerRemoveRequestSizeCheck;
   static_assert(sizeof(BroadcastServerRemoveRequest) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BroadcastServerRemoveRequest*, "MasterServer", "BroadcastServerRemoveRequest");

@@ -55,9 +55,9 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C6EC0
     System::Diagnostics::Tracing::EventFieldFormat get_Format();
   }; // System.Diagnostics.Tracing.EventFieldAttribute
+  #pragma pack(pop)
   static check_size<sizeof(EventFieldAttribute), 32 + sizeof(System::Diagnostics::Tracing::EventFieldFormat)> __System_Diagnostics_Tracing_EventFieldAttributeSizeCheck;
   static_assert(sizeof(EventFieldAttribute) == 0x24);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventFieldAttribute*, "System.Diagnostics.Tracing", "EventFieldAttribute");

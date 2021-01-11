@@ -56,9 +56,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRControllerAxisType k_eControllerAxis_Trigger
     static void _set_k_eControllerAxis_Trigger(OVR::OpenVR::EVRControllerAxisType value);
   }; // OVR.OpenVR.EVRControllerAxisType
+  #pragma pack(pop)
   static check_size<sizeof(EVRControllerAxisType), 0 + sizeof(int)> __OVR_OpenVR_EVRControllerAxisTypeSizeCheck;
   static_assert(sizeof(EVRControllerAxisType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRControllerAxisType, "OVR.OpenVR", "EVRControllerAxisType");

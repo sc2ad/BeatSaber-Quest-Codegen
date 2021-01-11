@@ -41,8 +41,8 @@ namespace System::Runtime::InteropServices {
       return THROW_UNLESS((::il2cpp_utils::New<FieldOffsetAttribute*, creationType>(offset)));
     }
   }; // System.Runtime.InteropServices.FieldOffsetAttribute
+  #pragma pack(pop)
   static check_size<sizeof(FieldOffsetAttribute), 16 + sizeof(int)> __System_Runtime_InteropServices_FieldOffsetAttributeSizeCheck;
   static_assert(sizeof(FieldOffsetAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::FieldOffsetAttribute*, "System.Runtime.InteropServices", "FieldOffsetAttribute");

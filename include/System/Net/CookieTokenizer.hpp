@@ -57,6 +57,7 @@ namespace System::Net {
       // Offset: 0xC9C6FC
       bool IsEqualTo(::Il2CppString* value);
     }; // System.Net.CookieTokenizer/RecognizedAttribute
+    #pragma pack(pop)
     static check_size<sizeof(CookieTokenizer::RecognizedAttribute), 8 + sizeof(System::Net::CookieToken)> __System_Net_CookieTokenizer_RecognizedAttributeSizeCheck;
     static_assert(sizeof(CookieTokenizer::RecognizedAttribute) == 0xC);
     // private System.Boolean m_eofCookie
@@ -194,9 +195,9 @@ namespace System::Net {
     // Offset: 0x1314DF4
     static void _cctor();
   }; // System.Net.CookieTokenizer
+  #pragma pack(pop)
   static check_size<sizeof(CookieTokenizer), 64 + sizeof(::Il2CppString*)> __System_Net_CookieTokenizerSizeCheck;
   static_assert(sizeof(CookieTokenizer) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieTokenizer*, "System.Net", "CookieTokenizer");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieTokenizer::RecognizedAttribute, "System.Net", "CookieTokenizer/RecognizedAttribute");

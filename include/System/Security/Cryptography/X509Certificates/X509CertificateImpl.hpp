@@ -117,8 +117,8 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateImpl*, creationType>()));
     }
   }; // System.Security.Cryptography.X509Certificates.X509CertificateImpl
+  #pragma pack(pop)
   static check_size<sizeof(X509CertificateImpl), 16 + sizeof(::Array<uint8_t>*)> __System_Security_Cryptography_X509Certificates_X509CertificateImplSizeCheck;
   static_assert(sizeof(X509CertificateImpl) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509CertificateImpl*, "System.Security.Cryptography.X509Certificates", "X509CertificateImpl");

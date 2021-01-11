@@ -55,8 +55,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SpawnChevronObjectPoolsInstaller*, creationType>()));
     }
   }; // SpawnChevronObjectPoolsInstaller
+  #pragma pack(pop)
   static check_size<sizeof(SpawnChevronObjectPoolsInstaller), 32 + sizeof(GlobalNamespace::SpawnRotationChevron*)> __GlobalNamespace_SpawnChevronObjectPoolsInstallerSizeCheck;
   static_assert(sizeof(SpawnChevronObjectPoolsInstaller) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnChevronObjectPoolsInstaller*, "", "SpawnChevronObjectPoolsInstaller");

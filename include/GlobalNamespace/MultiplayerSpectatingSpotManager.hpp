@@ -83,8 +83,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSpectatingSpotManager*, creationType>()));
     }
   }; // MultiplayerSpectatingSpotManager
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerSpectatingSpotManager), 24 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::IMultiplayerSpectatingSpot*, int>*)> __GlobalNamespace_MultiplayerSpectatingSpotManagerSizeCheck;
   static_assert(sizeof(MultiplayerSpectatingSpotManager) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatingSpotManager*, "", "MultiplayerSpectatingSpotManager");

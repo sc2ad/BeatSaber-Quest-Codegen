@@ -50,9 +50,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.VROverlayIntersectionResults_t
+  #pragma pack(pop)
   static check_size<sizeof(VROverlayIntersectionResults_t), 32 + sizeof(float)> __Valve_VR_VROverlayIntersectionResults_tSizeCheck;
   static_assert(sizeof(VROverlayIntersectionResults_t) == 0x24);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VROverlayIntersectionResults_t, "Valve.VR", "VROverlayIntersectionResults_t");

@@ -39,7 +39,7 @@ namespace UnityEngine {
     // Offset: 0x16C0240
     static ::Array<UnityEngine::Resolution>* get_resolutions();
   }; // UnityEngine.Screen
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Screen*, "UnityEngine", "Screen");

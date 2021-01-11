@@ -56,9 +56,9 @@ namespace JetBrains::Annotations {
     // Set static field: static public JetBrains.Annotations.AssertionConditionType IS_NOT_NULL
     static void _set_IS_NOT_NULL(JetBrains::Annotations::AssertionConditionType value);
   }; // JetBrains.Annotations.AssertionConditionType
+  #pragma pack(pop)
   static check_size<sizeof(AssertionConditionType), 0 + sizeof(int)> __JetBrains_Annotations_AssertionConditionTypeSizeCheck;
   static_assert(sizeof(AssertionConditionType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AssertionConditionType, "JetBrains.Annotations", "AssertionConditionType");

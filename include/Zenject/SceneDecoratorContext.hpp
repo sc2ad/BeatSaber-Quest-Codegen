@@ -147,8 +147,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<SceneDecoratorContext*, creationType>()));
     }
   }; // Zenject.SceneDecoratorContext
+  #pragma pack(pop)
   static check_size<sizeof(SceneDecoratorContext), 104 + sizeof(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)> __Zenject_SceneDecoratorContextSizeCheck;
   static_assert(sizeof(SceneDecoratorContext) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneDecoratorContext*, "Zenject", "SceneDecoratorContext");

@@ -316,8 +316,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainFlowCoordinator*, creationType>()));
     }
   }; // MainFlowCoordinator
+  #pragma pack(pop)
   static check_size<sizeof(MainFlowCoordinator), 320 + sizeof(HMUI::FlowCoordinator*)> __GlobalNamespace_MainFlowCoordinatorSizeCheck;
   static_assert(sizeof(MainFlowCoordinator) == 0x148);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainFlowCoordinator*, "", "MainFlowCoordinator");

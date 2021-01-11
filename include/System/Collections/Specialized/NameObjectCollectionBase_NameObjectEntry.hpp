@@ -41,8 +41,8 @@ namespace System::Collections::Specialized {
       return THROW_UNLESS((::il2cpp_utils::New<NameObjectCollectionBase::NameObjectEntry*, creationType>(name, value)));
     }
   }; // System.Collections.Specialized.NameObjectCollectionBase/NameObjectEntry
+  #pragma pack(pop)
   static check_size<sizeof(NameObjectCollectionBase::NameObjectEntry), 24 + sizeof(::Il2CppObject*)> __System_Collections_Specialized_NameObjectCollectionBase_NameObjectEntrySizeCheck;
   static_assert(sizeof(NameObjectCollectionBase::NameObjectEntry) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry*, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectEntry");

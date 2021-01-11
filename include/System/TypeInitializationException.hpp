@@ -86,8 +86,8 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.TypeInitializationException
+  #pragma pack(pop)
   static check_size<sizeof(TypeInitializationException), 136 + sizeof(::Il2CppString*)> __System_TypeInitializationExceptionSizeCheck;
   static_assert(sizeof(TypeInitializationException) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::TypeInitializationException*, "System", "TypeInitializationException");

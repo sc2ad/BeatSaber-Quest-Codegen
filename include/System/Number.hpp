@@ -149,7 +149,7 @@ namespace System {
     // Offset: 0x1715534
     static bool TryStringToNumber(::Il2CppString* str, System::Globalization::NumberStyles options, System::Number::NumberBuffer& number, System::Text::StringBuilder* sb, System::Globalization::NumberFormatInfo* numfmt, bool parseDecimal);
   }; // System.Number
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Number*, "System", "Number");

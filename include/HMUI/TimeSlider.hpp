@@ -55,6 +55,7 @@ namespace HMUI {
       // Set static field: static public HMUI.TimeSlider/TimeType Miliseconds
       static void _set_Miliseconds(HMUI::TimeSlider::TimeType value);
     }; // HMUI.TimeSlider/TimeType
+    #pragma pack(pop)
     static check_size<sizeof(TimeSlider::TimeType), 0 + sizeof(int)> __HMUI_TimeSlider_TimeTypeSizeCheck;
     static_assert(sizeof(TimeSlider::TimeType) == 0x4);
     // private HMUI.TimeSlider/TimeType _timeType

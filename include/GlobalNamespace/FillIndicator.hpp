@@ -62,8 +62,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FillIndicator*, creationType>()));
     }
   }; // FillIndicator
+  #pragma pack(pop)
   static check_size<sizeof(FillIndicator), 32 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_FillIndicatorSizeCheck;
   static_assert(sizeof(FillIndicator) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FillIndicator*, "", "FillIndicator");

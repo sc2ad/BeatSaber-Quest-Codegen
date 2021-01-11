@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x185BAB0
     OVR::OpenVR::EVRCompositorError EndInvoke(OVR::OpenVR::TrackedDevicePose_t& pOutputPose, OVR::OpenVR::TrackedDevicePose_t& pOutputGamePose, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_GetLastPoseForTrackedDeviceIndex
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_GetLastPoseForTrackedDeviceIndex*, "OVR.OpenVR", "IVRCompositor/_GetLastPoseForTrackedDeviceIndex");

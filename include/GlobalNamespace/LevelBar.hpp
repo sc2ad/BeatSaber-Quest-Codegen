@@ -141,8 +141,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelBar*, creationType>()));
     }
   }; // LevelBar
+  #pragma pack(pop)
   static check_size<sizeof(LevelBar), 88 + sizeof(System::Threading::CancellationTokenSource*)> __GlobalNamespace_LevelBarSizeCheck;
   static_assert(sizeof(LevelBar) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelBar*, "", "LevelBar");

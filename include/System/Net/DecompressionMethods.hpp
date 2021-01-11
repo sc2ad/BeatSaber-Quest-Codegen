@@ -51,9 +51,9 @@ namespace System::Net {
     // Set static field: static public System.Net.DecompressionMethods Deflate
     static void _set_Deflate(System::Net::DecompressionMethods value);
   }; // System.Net.DecompressionMethods
+  #pragma pack(pop)
   static check_size<sizeof(DecompressionMethods), 0 + sizeof(int)> __System_Net_DecompressionMethodsSizeCheck;
   static_assert(sizeof(DecompressionMethods) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::DecompressionMethods, "System.Net", "DecompressionMethods");

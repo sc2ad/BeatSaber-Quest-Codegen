@@ -16,7 +16,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Creating value type constructor for type: DsaValidationParameters
     DsaValidationParameters() noexcept {}
   }; // Org.BouncyCastle.Crypto.Parameters.DsaValidationParameters
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters*, "Org.BouncyCastle.Crypto.Parameters", "DsaValidationParameters");

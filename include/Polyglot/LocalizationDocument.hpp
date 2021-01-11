@@ -100,8 +100,8 @@ namespace Polyglot {
       return THROW_UNLESS((::il2cpp_utils::New<LocalizationDocument*, creationType>()));
     }
   }; // Polyglot.LocalizationDocument
+  #pragma pack(pop)
   static check_size<sizeof(LocalizationDocument), 48 + sizeof(bool)> __Polyglot_LocalizationDocumentSizeCheck;
   static_assert(sizeof(LocalizationDocument) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationDocument*, "Polyglot", "LocalizationDocument");

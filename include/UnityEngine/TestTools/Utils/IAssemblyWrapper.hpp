@@ -25,7 +25,7 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0xFFFFFFFF
     System::Reflection::Assembly* get_Assembly();
   }; // UnityEngine.TestTools.Utils.IAssemblyWrapper
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::IAssemblyWrapper*, "UnityEngine.TestTools.Utils", "IAssemblyWrapper");

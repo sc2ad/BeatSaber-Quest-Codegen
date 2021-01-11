@@ -48,8 +48,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<InitializableManager::InitializableInfo*, creationType>(initializable, priority)));
     }
   }; // Zenject.InitializableManager/InitializableInfo
+  #pragma pack(pop)
   static check_size<sizeof(InitializableManager::InitializableInfo), 24 + sizeof(int)> __Zenject_InitializableManager_InitializableInfoSizeCheck;
   static_assert(sizeof(InitializableManager::InitializableInfo) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InitializableManager::InitializableInfo*, "Zenject", "InitializableManager/InitializableInfo");

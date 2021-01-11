@@ -51,9 +51,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.FocusType Passive
     static void _set_Passive(UnityEngine::FocusType value);
   }; // UnityEngine.FocusType
+  #pragma pack(pop)
   static check_size<sizeof(FocusType), 0 + sizeof(int)> __UnityEngine_FocusTypeSizeCheck;
   static_assert(sizeof(FocusType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FocusType, "UnityEngine", "FocusType");

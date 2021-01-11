@@ -25,7 +25,7 @@ namespace Mono::Security {
     // Creating value type constructor for type: PKCS7
     PKCS7() noexcept {}
   }; // Mono.Security.PKCS7
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7*, "Mono.Security", "PKCS7");

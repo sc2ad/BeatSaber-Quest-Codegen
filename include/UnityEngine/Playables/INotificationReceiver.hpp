@@ -31,7 +31,7 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
   }; // UnityEngine.Playables.INotificationReceiver
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::INotificationReceiver*, "UnityEngine.Playables", "INotificationReceiver");

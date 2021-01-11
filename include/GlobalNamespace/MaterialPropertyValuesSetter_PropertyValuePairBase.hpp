@@ -53,8 +53,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyValuesSetter::PropertyValuePairBase*, creationType>()));
     }
   }; // MaterialPropertyValuesSetter/PropertyValuePairBase
+  #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyValuesSetter::PropertyValuePairBase), 24 + sizeof(int)> __GlobalNamespace_MaterialPropertyValuesSetter_PropertyValuePairBaseSizeCheck;
   static_assert(sizeof(MaterialPropertyValuesSetter::PropertyValuePairBase) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase*, "", "MaterialPropertyValuesSetter/PropertyValuePairBase");

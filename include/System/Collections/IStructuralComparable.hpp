@@ -28,7 +28,7 @@ namespace System::Collections {
     // Offset: 0xFFFFFFFF
     int System_Collections_IStructuralComparable_CompareTo(::Il2CppObject* other, System::Collections::IComparer* comparer);
   }; // System.Collections.IStructuralComparable
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IStructuralComparable*, "System.Collections", "IStructuralComparable");

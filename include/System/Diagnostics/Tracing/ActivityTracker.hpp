@@ -96,8 +96,8 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<ActivityTracker*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.ActivityTracker
+  #pragma pack(pop)
   static check_size<sizeof(ActivityTracker), 24 + sizeof(bool)> __System_Diagnostics_Tracing_ActivityTrackerSizeCheck;
   static_assert(sizeof(ActivityTracker) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ActivityTracker*, "System.Diagnostics.Tracing", "ActivityTracker");

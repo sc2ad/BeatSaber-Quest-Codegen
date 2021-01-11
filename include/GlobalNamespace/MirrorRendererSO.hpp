@@ -109,6 +109,7 @@ namespace GlobalNamespace {
       // Base method: System.Int32 ValueType::GetHashCode()
       int GetHashCode();
     }; // MirrorRendererSO/CameraTransformData
+    #pragma pack(pop)
     static check_size<sizeof(MirrorRendererSO::CameraTransformData), 32 + sizeof(bool)> __GlobalNamespace_MirrorRendererSO_CameraTransformDataSizeCheck;
     static_assert(sizeof(MirrorRendererSO::CameraTransformData) == 0x21);
     // private UnityEngine.LayerMask _reflectLayers
@@ -283,9 +284,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MirrorRendererSO*, creationType>()));
     }
   }; // MirrorRendererSO
+  #pragma pack(pop)
   static check_size<sizeof(MirrorRendererSO), 144 + sizeof(UnityEngine::Rect)> __GlobalNamespace_MirrorRendererSOSizeCheck;
   static_assert(sizeof(MirrorRendererSO) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO*, "", "MirrorRendererSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO::CameraTransformData, "", "MirrorRendererSO/CameraTransformData");

@@ -68,6 +68,6 @@ namespace Mono::Net {
       return THROW_UNLESS((::il2cpp_utils::New<CFRunLoop*, creationType>(handle, own)));
     }
   }; // Mono.Net.CFRunLoop
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFRunLoop*, "Mono.Net", "CFRunLoop");

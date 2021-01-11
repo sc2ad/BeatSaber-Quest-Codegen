@@ -160,8 +160,8 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C68BC
     void set_ActivityOptions(System::Diagnostics::Tracing::EventActivityOptions value);
   }; // System.Diagnostics.Tracing.EventAttribute
+  #pragma pack(pop)
   static check_size<sizeof(EventAttribute), 60 + sizeof(bool)> __System_Diagnostics_Tracing_EventAttributeSizeCheck;
   static_assert(sizeof(EventAttribute) == 0x3D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventAttribute*, "System.Diagnostics.Tracing", "EventAttribute");

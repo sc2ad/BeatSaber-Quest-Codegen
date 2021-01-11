@@ -155,8 +155,8 @@ namespace UnityEngine::TestRunner::TestLaunchers {
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestData*, creationType>(test)));
     }
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestData
+  #pragma pack(pop)
   static check_size<sizeof(RemoteTestData), 128 + sizeof(::Il2CppString*)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestDataSizeCheck;
   static_assert(sizeof(RemoteTestData) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestData");

@@ -26,7 +26,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // Offset: 0xFFFFFFFF
     void MultiplyH(::Array<uint8_t>* x);
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.IGcmMultiplier
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*, "Org.BouncyCastle.Crypto.Modes.Gcm", "IGcmMultiplier");

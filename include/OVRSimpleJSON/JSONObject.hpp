@@ -152,8 +152,8 @@ namespace OVRSimpleJSON {
       return THROW_UNLESS((::il2cpp_utils::New<JSONObject*, creationType>()));
     }
   }; // OVRSimpleJSON.JSONObject
+  #pragma pack(pop)
   static check_size<sizeof(JSONObject), 24 + sizeof(bool)> __OVRSimpleJSON_JSONObjectSizeCheck;
   static_assert(sizeof(JSONObject) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONObject*, "OVRSimpleJSON", "JSONObject");

@@ -81,9 +81,9 @@ namespace UnityEngine {
     // Offset: 0xCB6D98
     float get_normalizedTime();
   }; // UnityEngine.AnimatorStateInfo
+  #pragma pack(pop)
   static check_size<sizeof(AnimatorStateInfo), 32 + sizeof(int)> __UnityEngine_AnimatorStateInfoSizeCheck;
   static_assert(sizeof(AnimatorStateInfo) == 0x24);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorStateInfo, "UnityEngine", "AnimatorStateInfo");

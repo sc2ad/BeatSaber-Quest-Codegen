@@ -134,8 +134,8 @@ namespace ModestTree::Util {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // ModestTree.Util.UnityUtil/<GetDirectChildrenAndSelf>d__20
+  #pragma pack(pop)
   static check_size<sizeof(UnityUtil::$GetDirectChildrenAndSelf$d__20), 56 + sizeof(System::Collections::IEnumerator*)> __ModestTree_Util_UnityUtil_$GetDirectChildrenAndSelf$d__20SizeCheck;
   static_assert(sizeof(UnityUtil::$GetDirectChildrenAndSelf$d__20) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil::$GetDirectChildrenAndSelf$d__20*, "ModestTree.Util", "UnityUtil/<GetDirectChildrenAndSelf>d__20");

@@ -213,6 +213,6 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1165B84
     static void _cctor();
   }; // System.Runtime.InteropServices.Marshal
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::Marshal*, "System.Runtime.InteropServices", "Marshal");

@@ -91,9 +91,9 @@ namespace System {
     // Offset: 0xCA6BB4
     void Init();
   }; // System.ParsingInfo
+  #pragma pack(pop)
   static check_size<sizeof(ParsingInfo), 24 + sizeof(System::DateTimeParse::MatchNumberDelegate*)> __System_ParsingInfoSizeCheck;
   static_assert(sizeof(ParsingInfo) == 0x20);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParsingInfo, "System", "ParsingInfo");

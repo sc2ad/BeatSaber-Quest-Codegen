@@ -272,8 +272,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ResultsViewController*, creationType>()));
     }
   }; // ResultsViewController
+  #pragma pack(pop)
   static check_size<sizeof(ResultsViewController), 273 + sizeof(bool)> __GlobalNamespace_ResultsViewControllerSizeCheck;
   static_assert(sizeof(ResultsViewController) == 0x112);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsViewController*, "", "ResultsViewController");

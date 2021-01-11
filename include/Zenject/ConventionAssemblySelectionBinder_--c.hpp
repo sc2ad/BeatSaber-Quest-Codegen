@@ -61,6 +61,6 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ConventionAssemblySelectionBinder::$$c*, creationType>()));
     }
   }; // Zenject.ConventionAssemblySelectionBinder/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionAssemblySelectionBinder::$$c*, "Zenject", "ConventionAssemblySelectionBinder/<>c");

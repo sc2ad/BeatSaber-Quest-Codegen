@@ -122,8 +122,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // BloomPrePassBackgroundColor
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePassBackgroundColor), 56 + sizeof(UnityEngine::Color)> __GlobalNamespace_BloomPrePassBackgroundColorSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundColor) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColor*, "", "BloomPrePassBackgroundColor");

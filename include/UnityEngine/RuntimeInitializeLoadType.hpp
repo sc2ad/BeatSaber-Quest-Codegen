@@ -62,9 +62,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RuntimeInitializeLoadType SubsystemRegistration
     static void _set_SubsystemRegistration(UnityEngine::RuntimeInitializeLoadType value);
   }; // UnityEngine.RuntimeInitializeLoadType
+  #pragma pack(pop)
   static check_size<sizeof(RuntimeInitializeLoadType), 0 + sizeof(int)> __UnityEngine_RuntimeInitializeLoadTypeSizeCheck;
   static_assert(sizeof(RuntimeInitializeLoadType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RuntimeInitializeLoadType, "UnityEngine", "RuntimeInitializeLoadType");

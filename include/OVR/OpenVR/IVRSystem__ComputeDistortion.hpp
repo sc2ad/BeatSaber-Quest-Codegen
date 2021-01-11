@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x190FED4
     bool EndInvoke(OVR::OpenVR::DistortionCoordinates_t& pDistortionCoordinates, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_ComputeDistortion
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_ComputeDistortion*, "OVR.OpenVR", "IVRSystem/_ComputeDistortion");

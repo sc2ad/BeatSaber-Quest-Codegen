@@ -72,8 +72,8 @@ namespace System {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.ArraySpec
+  #pragma pack(pop)
   static check_size<sizeof(ArraySpec), 20 + sizeof(bool)> __System_ArraySpecSizeCheck;
   static_assert(sizeof(ArraySpec) == 0x15);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ArraySpec*, "System", "ArraySpec");

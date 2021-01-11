@@ -56,9 +56,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.StateInfoIndex InterruptedState
     static void _set_InterruptedState(UnityEngine::StateInfoIndex value);
   }; // UnityEngine.StateInfoIndex
+  #pragma pack(pop)
   static check_size<sizeof(StateInfoIndex), 0 + sizeof(int)> __UnityEngine_StateInfoIndexSizeCheck;
   static_assert(sizeof(StateInfoIndex) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::StateInfoIndex, "UnityEngine", "StateInfoIndex");

@@ -147,8 +147,8 @@ namespace System::Runtime::Remoting::Lifetime {
     // Base method: System.TimeSpan ILease::Renew(System.TimeSpan renewalTime)
     System::TimeSpan Renew(System::TimeSpan renewalTime);
   }; // System.Runtime.Remoting.Lifetime.Lease
+  #pragma pack(pop)
   static check_size<sizeof(Lease), 80 + sizeof(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*)> __System_Runtime_Remoting_Lifetime_LeaseSizeCheck;
   static_assert(sizeof(Lease) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::Lease*, "System.Runtime.Remoting.Lifetime", "Lease");

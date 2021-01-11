@@ -65,8 +65,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PrivacyPolicyViewController*, creationType>()));
     }
   }; // PrivacyPolicyViewController
+  #pragma pack(pop)
   static check_size<sizeof(PrivacyPolicyViewController), 120 + sizeof(GlobalNamespace::LocalizedTextAsset*)> __GlobalNamespace_PrivacyPolicyViewControllerSizeCheck;
   static_assert(sizeof(PrivacyPolicyViewController) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PrivacyPolicyViewController*, "", "PrivacyPolicyViewController");

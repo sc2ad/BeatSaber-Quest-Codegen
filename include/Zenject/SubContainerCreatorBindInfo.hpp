@@ -78,8 +78,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorBindInfo*, creationType>()));
     }
   }; // Zenject.SubContainerCreatorBindInfo
+  #pragma pack(pop)
   static check_size<sizeof(SubContainerCreatorBindInfo), 32 + sizeof(System::Type*)> __Zenject_SubContainerCreatorBindInfoSizeCheck;
   static_assert(sizeof(SubContainerCreatorBindInfo) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorBindInfo*, "Zenject", "SubContainerCreatorBindInfo");

@@ -79,6 +79,7 @@ namespace GlobalNamespace {
       // Set static field: static public ScreenCaptureCache/ScreenshotType Other
       static void _set_Other(GlobalNamespace::ScreenCaptureCache::ScreenshotType value);
     }; // ScreenCaptureCache/ScreenshotType
+    #pragma pack(pop)
     static check_size<sizeof(ScreenCaptureCache::ScreenshotType), 0 + sizeof(int)> __GlobalNamespace_ScreenCaptureCache_ScreenshotTypeSizeCheck;
     static_assert(sizeof(ScreenCaptureCache::ScreenshotType) == 0x4);
     // private System.Collections.Generic.Dictionary`2<ScreenCaptureCache/ScreenshotType,UnityEngine.Texture2D> _cache
@@ -109,9 +110,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ScreenCaptureCache*, creationType>()));
     }
   }; // ScreenCaptureCache
+  #pragma pack(pop)
   static check_size<sizeof(ScreenCaptureCache), 16 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>*)> __GlobalNamespace_ScreenCaptureCacheSizeCheck;
   static_assert(sizeof(ScreenCaptureCache) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache*, "", "ScreenCaptureCache");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache::ScreenshotType, "", "ScreenCaptureCache/ScreenshotType");

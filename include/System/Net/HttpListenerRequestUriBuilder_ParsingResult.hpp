@@ -52,9 +52,9 @@ namespace System::Net {
     // Set static field: static public System.Net.HttpListenerRequestUriBuilder/ParsingResult EncodingError
     static void _set_EncodingError(System::Net::HttpListenerRequestUriBuilder::ParsingResult value);
   }; // System.Net.HttpListenerRequestUriBuilder/ParsingResult
+  #pragma pack(pop)
   static check_size<sizeof(HttpListenerRequestUriBuilder::ParsingResult), 0 + sizeof(int)> __System_Net_HttpListenerRequestUriBuilder_ParsingResultSizeCheck;
   static_assert(sizeof(HttpListenerRequestUriBuilder::ParsingResult) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerRequestUriBuilder::ParsingResult, "System.Net", "HttpListenerRequestUriBuilder/ParsingResult");

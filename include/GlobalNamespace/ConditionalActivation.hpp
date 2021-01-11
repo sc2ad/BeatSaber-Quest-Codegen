@@ -59,8 +59,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ConditionalActivation*, creationType>()));
     }
   }; // ConditionalActivation
+  #pragma pack(pop)
   static check_size<sizeof(ConditionalActivation), 32 + sizeof(bool)> __GlobalNamespace_ConditionalActivationSizeCheck;
   static_assert(sizeof(ConditionalActivation) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalActivation*, "", "ConditionalActivation");

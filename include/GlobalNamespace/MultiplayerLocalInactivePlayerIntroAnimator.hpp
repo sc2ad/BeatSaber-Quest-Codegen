@@ -62,8 +62,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactivePlayerIntroAnimator*, creationType>()));
     }
   }; // MultiplayerLocalInactivePlayerIntroAnimator
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalInactivePlayerIntroAnimator), 32 + sizeof(::Array<GlobalNamespace::LightsAnimator*>*)> __GlobalNamespace_MultiplayerLocalInactivePlayerIntroAnimatorSizeCheck;
   static_assert(sizeof(MultiplayerLocalInactivePlayerIntroAnimator) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerIntroAnimator*, "", "MultiplayerLocalInactivePlayerIntroAnimator");

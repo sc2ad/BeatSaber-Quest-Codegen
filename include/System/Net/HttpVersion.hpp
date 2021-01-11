@@ -34,7 +34,7 @@ namespace System::Net {
     // Offset: 0x12B4C20
     static void _cctor();
   }; // System.Net.HttpVersion
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpVersion*, "System.Net", "HttpVersion");

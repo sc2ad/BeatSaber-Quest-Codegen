@@ -59,8 +59,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionStream::$$c__DisplayClass76_0*, creationType>()));
     }
   }; // System.Net.WebConnectionStream/<>c__DisplayClass76_0
+  #pragma pack(pop)
   static check_size<sizeof(WebConnectionStream::$$c__DisplayClass76_0), 24 + sizeof(System::Net::SimpleAsyncResult*)> __System_Net_WebConnectionStream_$$c__DisplayClass76_0SizeCheck;
   static_assert(sizeof(WebConnectionStream::$$c__DisplayClass76_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionStream::$$c__DisplayClass76_0*, "System.Net", "WebConnectionStream/<>c__DisplayClass76_0");

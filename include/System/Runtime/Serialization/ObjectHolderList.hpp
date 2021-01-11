@@ -72,8 +72,8 @@ namespace System::Runtime::Serialization {
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolderList*, creationType>()));
     }
   }; // System.Runtime.Serialization.ObjectHolderList
+  #pragma pack(pop)
   static check_size<sizeof(ObjectHolderList), 24 + sizeof(int)> __System_Runtime_Serialization_ObjectHolderListSizeCheck;
   static_assert(sizeof(ObjectHolderList) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectHolderList*, "System.Runtime.Serialization", "ObjectHolderList");

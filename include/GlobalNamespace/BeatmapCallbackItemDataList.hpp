@@ -173,8 +173,8 @@ namespace GlobalNamespace {
     // Offset: 0x1A7A48C
     void SpawnNoteOrLongNote(GlobalNamespace::NoteData* noteData, float cutDirectionAngleOffset);
   }; // BeatmapCallbackItemDataList
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapCallbackItemDataList), 128 + sizeof(float)> __GlobalNamespace_BeatmapCallbackItemDataListSizeCheck;
   static_assert(sizeof(BeatmapCallbackItemDataList) == 0x84);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList*, "", "BeatmapCallbackItemDataList");

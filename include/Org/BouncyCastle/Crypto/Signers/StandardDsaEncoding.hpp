@@ -65,6 +65,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return THROW_UNLESS((::il2cpp_utils::New<StandardDsaEncoding*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Signers.StandardDsaEncoding
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding*, "Org.BouncyCastle.Crypto.Signers", "StandardDsaEncoding");

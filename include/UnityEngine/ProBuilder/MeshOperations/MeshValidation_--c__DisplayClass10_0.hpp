@@ -54,8 +54,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<MeshValidation::$$c__DisplayClass10_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c__DisplayClass10_0
+  #pragma pack(pop)
   static check_size<sizeof(MeshValidation::$$c__DisplayClass10_0), 16 + sizeof(UnityEngine::ProBuilder::ProBuilderMesh*)> __UnityEngine_ProBuilder_MeshOperations_MeshValidation_$$c__DisplayClass10_0SizeCheck;
   static_assert(sizeof(MeshValidation::$$c__DisplayClass10_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass10_0*, "UnityEngine.ProBuilder.MeshOperations", "MeshValidation/<>c__DisplayClass10_0");

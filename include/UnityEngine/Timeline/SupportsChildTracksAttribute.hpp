@@ -49,8 +49,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<SupportsChildTracksAttribute*, creationType>(childType, levels)));
     }
   }; // UnityEngine.Timeline.SupportsChildTracksAttribute
+  #pragma pack(pop)
   static check_size<sizeof(SupportsChildTracksAttribute), 24 + sizeof(int)> __UnityEngine_Timeline_SupportsChildTracksAttributeSizeCheck;
   static_assert(sizeof(SupportsChildTracksAttribute) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SupportsChildTracksAttribute*, "UnityEngine.Timeline", "SupportsChildTracksAttribute");

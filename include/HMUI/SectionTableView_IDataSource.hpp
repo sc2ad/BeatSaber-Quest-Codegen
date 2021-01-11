@@ -39,7 +39,7 @@ namespace HMUI {
     // Offset: 0xFFFFFFFF
     HMUI::TableCell* CellForRowInSection(int section, int row);
   }; // HMUI.SectionTableView/IDataSource
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::IDataSource*, "HMUI", "SectionTableView/IDataSource");

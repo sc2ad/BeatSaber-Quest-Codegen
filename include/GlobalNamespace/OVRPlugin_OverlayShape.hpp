@@ -64,9 +64,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/OverlayShape Equirect
     static void _set_Equirect(GlobalNamespace::OVRPlugin::OverlayShape value);
   }; // OVRPlugin/OverlayShape
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::OverlayShape), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_OverlayShapeSizeCheck;
   static_assert(sizeof(OVRPlugin::OverlayShape) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OverlayShape, "", "OVRPlugin/OverlayShape");

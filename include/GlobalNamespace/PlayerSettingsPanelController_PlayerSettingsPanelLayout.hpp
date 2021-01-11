@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // Set static field: static public PlayerSettingsPanelController/PlayerSettingsPanelLayout Multiplayer
     static void _set_Multiplayer(GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout value);
   }; // PlayerSettingsPanelController/PlayerSettingsPanelLayout
+  #pragma pack(pop)
   static check_size<sizeof(PlayerSettingsPanelController::PlayerSettingsPanelLayout), 0 + sizeof(int)> __GlobalNamespace_PlayerSettingsPanelController_PlayerSettingsPanelLayoutSizeCheck;
   static_assert(sizeof(PlayerSettingsPanelController::PlayerSettingsPanelLayout) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout, "", "PlayerSettingsPanelController/PlayerSettingsPanelLayout");

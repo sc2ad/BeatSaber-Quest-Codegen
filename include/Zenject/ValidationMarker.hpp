@@ -70,8 +70,8 @@ namespace Zenject {
     // Offset: 0x19D27F0
     void set_MarkedType(System::Type* value);
   }; // Zenject.ValidationMarker
+  #pragma pack(pop)
   static check_size<sizeof(ValidationMarker), 24 + sizeof(System::Type*)> __Zenject_ValidationMarkerSizeCheck;
   static_assert(sizeof(ValidationMarker) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ValidationMarker*, "Zenject", "ValidationMarker");

@@ -66,8 +66,8 @@ namespace Mono::Net::Security {
     // Base method: System.String AsyncProtocolRequest::ToString()
     ::Il2CppString* ToString();
   }; // Mono.Net.Security.AsyncReadOrWriteRequest
+  #pragma pack(pop)
   static check_size<sizeof(AsyncReadOrWriteRequest), 64 + sizeof(int)> __Mono_Net_Security_AsyncReadOrWriteRequestSizeCheck;
   static_assert(sizeof(AsyncReadOrWriteRequest) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncReadOrWriteRequest*, "Mono.Net.Security", "AsyncReadOrWriteRequest");

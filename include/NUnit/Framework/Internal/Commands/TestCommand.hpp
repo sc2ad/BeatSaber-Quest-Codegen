@@ -58,8 +58,8 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Internal.Commands.TestCommand
+  #pragma pack(pop)
   static check_size<sizeof(TestCommand), 16 + sizeof(NUnit::Framework::Internal::Test*)> __NUnit_Framework_Internal_Commands_TestCommandSizeCheck;
   static_assert(sizeof(TestCommand) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TestCommand*, "NUnit.Framework.Internal.Commands", "TestCommand");

@@ -41,8 +41,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlyingScoreSpawner::InitData*, creationType>(spawnPosition)));
     }
   }; // FlyingScoreSpawner/InitData
+  #pragma pack(pop)
   static check_size<sizeof(FlyingScoreSpawner::InitData), 16 + sizeof(GlobalNamespace::FlyingScoreSpawner::SpawnPosition)> __GlobalNamespace_FlyingScoreSpawner_InitDataSizeCheck;
   static_assert(sizeof(FlyingScoreSpawner::InitData) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreSpawner::InitData*, "", "FlyingScoreSpawner/InitData");

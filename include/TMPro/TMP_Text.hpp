@@ -151,6 +151,7 @@ namespace TMPro {
       // Set static field: static public TMPro.TMP_Text/TextInputSources String
       static void _set_String(TMPro::TMP_Text::TextInputSources value);
     }; // TMPro.TMP_Text/TextInputSources
+    #pragma pack(pop)
     static check_size<sizeof(TMP_Text::TextInputSources), 0 + sizeof(int)> __TMPro_TMP_Text_TextInputSourcesSizeCheck;
     static_assert(sizeof(TMP_Text::TextInputSources) == 0x4);
     // Size: 0xC
@@ -185,6 +186,7 @@ namespace TMPro {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // TMPro.TMP_Text/UnicodeChar
+    #pragma pack(pop)
     static check_size<sizeof(TMP_Text::UnicodeChar), 8 + sizeof(int)> __TMPro_TMP_Text_UnicodeCharSizeCheck;
     static_assert(sizeof(TMP_Text::UnicodeChar) == 0xC);
     // [TextAreaAttribute] Offset: 0xD8BFDC

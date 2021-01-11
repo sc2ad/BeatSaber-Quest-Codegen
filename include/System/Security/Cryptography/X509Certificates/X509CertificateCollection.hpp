@@ -66,6 +66,6 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Security.Cryptography.X509Certificates.X509CertificateCollection
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509CertificateCollection*, "System.Security.Cryptography.X509Certificates", "X509CertificateCollection");

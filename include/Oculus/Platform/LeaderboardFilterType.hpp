@@ -53,9 +53,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.LeaderboardFilterType Unknown
     static void _set_Unknown(Oculus::Platform::LeaderboardFilterType value);
   }; // Oculus.Platform.LeaderboardFilterType
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardFilterType), 0 + sizeof(int)> __Oculus_Platform_LeaderboardFilterTypeSizeCheck;
   static_assert(sizeof(LeaderboardFilterType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LeaderboardFilterType, "Oculus.Platform", "LeaderboardFilterType");

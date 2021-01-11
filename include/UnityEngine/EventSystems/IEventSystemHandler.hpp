@@ -15,7 +15,7 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: IEventSystemHandler
     IEventSystemHandler() noexcept {}
   }; // UnityEngine.EventSystems.IEventSystemHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IEventSystemHandler*, "UnityEngine.EventSystems", "IEventSystemHandler");

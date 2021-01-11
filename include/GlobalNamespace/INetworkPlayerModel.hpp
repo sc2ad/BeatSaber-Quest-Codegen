@@ -124,6 +124,6 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void Disconnect();
   }; // INetworkPlayerModel
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INetworkPlayerModel*, "", "INetworkPlayerModel");

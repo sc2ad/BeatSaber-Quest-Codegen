@@ -79,6 +79,7 @@ namespace GlobalNamespace {
       // Set static field: static public FullVRControllersRecorder/Mode Off
       static void _set_Off(GlobalNamespace::FullVRControllersRecorder::Mode value);
     }; // FullVRControllersRecorder/Mode
+    #pragma pack(pop)
     static check_size<sizeof(FullVRControllersRecorder::Mode), 0 + sizeof(int)> __GlobalNamespace_FullVRControllersRecorder_ModeSizeCheck;
     static_assert(sizeof(FullVRControllersRecorder::Mode) == 0x4);
     // private System.String _recordingFilePath
@@ -196,9 +197,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FullVRControllersRecorder*, creationType>()));
     }
   }; // FullVRControllersRecorder
+  #pragma pack(pop)
   static check_size<sizeof(FullVRControllersRecorder), 88 + sizeof(GlobalNamespace::VRControllersRecorderData*)> __GlobalNamespace_FullVRControllersRecorderSizeCheck;
   static_assert(sizeof(FullVRControllersRecorder) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullVRControllersRecorder*, "", "FullVRControllersRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullVRControllersRecorder::Mode, "", "FullVRControllersRecorder/Mode");

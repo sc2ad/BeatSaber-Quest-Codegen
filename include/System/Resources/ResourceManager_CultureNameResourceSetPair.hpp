@@ -50,8 +50,8 @@ namespace System::Resources {
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManager::CultureNameResourceSetPair*, creationType>()));
     }
   }; // System.Resources.ResourceManager/CultureNameResourceSetPair
+  #pragma pack(pop)
   static check_size<sizeof(ResourceManager::CultureNameResourceSetPair), 24 + sizeof(System::Resources::ResourceSet*)> __System_Resources_ResourceManager_CultureNameResourceSetPairSizeCheck;
   static_assert(sizeof(ResourceManager::CultureNameResourceSetPair) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager::CultureNameResourceSetPair*, "System.Resources", "ResourceManager/CultureNameResourceSetPair");

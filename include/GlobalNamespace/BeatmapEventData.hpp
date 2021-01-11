@@ -47,8 +47,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventData*, creationType>(time, type, value)));
     }
   }; // BeatmapEventData
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapEventData), 24 + sizeof(int)> __GlobalNamespace_BeatmapEventDataSizeCheck;
   static_assert(sizeof(BeatmapEventData) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventData*, "", "BeatmapEventData");

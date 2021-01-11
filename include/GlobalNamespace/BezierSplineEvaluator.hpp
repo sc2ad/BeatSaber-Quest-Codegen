@@ -102,8 +102,8 @@ namespace GlobalNamespace {
     // Offset: 0x1A2EB44
     static GlobalNamespace::BezierSplineEvaluator::CubicSolveResult SolveCubic(float a, float b, float c, float d);
   }; // BezierSplineEvaluator
+  #pragma pack(pop)
   static check_size<sizeof(BezierSplineEvaluator), 24 + sizeof(int)> __GlobalNamespace_BezierSplineEvaluatorSizeCheck;
   static_assert(sizeof(BezierSplineEvaluator) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSplineEvaluator*, "", "BezierSplineEvaluator");

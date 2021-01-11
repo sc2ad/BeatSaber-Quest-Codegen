@@ -118,9 +118,9 @@ namespace UnityEngine::UI::CoroutineTween {
     // Base method: System.Boolean ITweenValue::ValidTarget()
     bool ValidTarget();
   }; // UnityEngine.UI.CoroutineTween.FloatTween
+  #pragma pack(pop)
   static check_size<sizeof(FloatTween), 20 + sizeof(bool)> __UnityEngine_UI_CoroutineTween_FloatTweenSizeCheck;
   static_assert(sizeof(FloatTween) == 0x15);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::FloatTween, "UnityEngine.UI.CoroutineTween", "FloatTween");

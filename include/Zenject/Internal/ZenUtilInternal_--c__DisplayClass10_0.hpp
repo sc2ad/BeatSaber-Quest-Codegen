@@ -54,8 +54,8 @@ namespace Zenject::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<ZenUtilInternal::$$c__DisplayClass10_0*, creationType>()));
     }
   }; // Zenject.Internal.ZenUtilInternal/<>c__DisplayClass10_0
+  #pragma pack(pop)
   static check_size<sizeof(ZenUtilInternal::$$c__DisplayClass10_0), 16 + sizeof(UnityEngine::SceneManagement::Scene)> __Zenject_Internal_ZenUtilInternal_$$c__DisplayClass10_0SizeCheck;
   static_assert(sizeof(ZenUtilInternal::$$c__DisplayClass10_0) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0*, "Zenject.Internal", "ZenUtilInternal/<>c__DisplayClass10_0");

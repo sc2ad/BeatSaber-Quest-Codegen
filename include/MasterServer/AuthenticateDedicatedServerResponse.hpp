@@ -87,6 +87,7 @@ namespace MasterServer {
       // Set static field: static public MasterServer.AuthenticateDedicatedServerResponse/Result UnknownError
       static void _set_UnknownError(MasterServer::AuthenticateDedicatedServerResponse::Result value);
     }; // MasterServer.AuthenticateDedicatedServerResponse/Result
+    #pragma pack(pop)
     static check_size<sizeof(AuthenticateDedicatedServerResponse::Result), 0 + sizeof(int)> __MasterServer_AuthenticateDedicatedServerResponse_ResultSizeCheck;
     static_assert(sizeof(AuthenticateDedicatedServerResponse::Result) == 0x4);
     // public MasterServer.AuthenticateDedicatedServerResponse/Result result
@@ -162,9 +163,9 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticateDedicatedServerResponse*, creationType>()));
     }
   }; // MasterServer.AuthenticateDedicatedServerResponse
+  #pragma pack(pop)
   static check_size<sizeof(AuthenticateDedicatedServerResponse), 24 + sizeof(MasterServer::AuthenticateDedicatedServerResponse::Result)> __MasterServer_AuthenticateDedicatedServerResponseSizeCheck;
   static_assert(sizeof(AuthenticateDedicatedServerResponse) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AuthenticateDedicatedServerResponse*, "MasterServer", "AuthenticateDedicatedServerResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AuthenticateDedicatedServerResponse::Result, "MasterServer", "AuthenticateDedicatedServerResponse/Result");

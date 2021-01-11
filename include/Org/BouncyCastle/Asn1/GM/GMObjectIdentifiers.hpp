@@ -286,7 +286,7 @@ namespace Org::BouncyCastle::Asn1::GM {
     // Offset: 0x1387864
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.GM.GMObjectIdentifiers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::GM::GMObjectIdentifiers*, "Org.BouncyCastle.Asn1.GM", "GMObjectIdentifiers");

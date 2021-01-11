@@ -40,9 +40,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.VREvent_Scroll_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_Scroll_t), 8 + sizeof(uint)> __OVR_OpenVR_VREvent_Scroll_tSizeCheck;
   static_assert(sizeof(VREvent_Scroll_t) == 0xC);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Scroll_t, "OVR.OpenVR", "VREvent_Scroll_t");

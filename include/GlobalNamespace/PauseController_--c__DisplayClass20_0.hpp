@@ -45,8 +45,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PauseController::$$c__DisplayClass20_0*, creationType>()));
     }
   }; // PauseController/<>c__DisplayClass20_0
+  #pragma pack(pop)
   static check_size<sizeof(PauseController::$$c__DisplayClass20_0), 16 + sizeof(bool)> __GlobalNamespace_PauseController_$$c__DisplayClass20_0SizeCheck;
   static_assert(sizeof(PauseController::$$c__DisplayClass20_0) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseController::$$c__DisplayClass20_0*, "", "PauseController/<>c__DisplayClass20_0");

@@ -85,6 +85,7 @@ namespace GlobalNamespace {
       // Set static field: static public LocalLeaderboardsModel/LeaderboardType Daily
       static void _set_Daily(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType value);
     }; // LocalLeaderboardsModel/LeaderboardType
+    #pragma pack(pop)
     static check_size<sizeof(LocalLeaderboardsModel::LeaderboardType), 0 + sizeof(int)> __GlobalNamespace_LocalLeaderboardsModel_LeaderboardTypeSizeCheck;
     static_assert(sizeof(LocalLeaderboardsModel::LeaderboardType) == 0x4);
     // private System.Int32 _maxNumberOfScoresInLeaderboard
@@ -226,9 +227,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LocalLeaderboardsModel*, creationType>()));
     }
   }; // LocalLeaderboardsModel
+  #pragma pack(pop)
   static check_size<sizeof(LocalLeaderboardsModel), 64 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*)> __GlobalNamespace_LocalLeaderboardsModelSizeCheck;
   static_assert(sizeof(LocalLeaderboardsModel) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel*, "", "LocalLeaderboardsModel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType, "", "LocalLeaderboardsModel/LeaderboardType");

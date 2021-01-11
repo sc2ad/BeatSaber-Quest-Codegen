@@ -182,8 +182,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler::ConnectionState*, creationType>()));
     }
   }; // MasterServer.MessageHandler/ConnectionState
+  #pragma pack(pop)
   static check_size<sizeof(MessageHandler::ConnectionState), 76 + sizeof(uint)> __MasterServer_MessageHandler_ConnectionStateSizeCheck;
   static_assert(sizeof(MessageHandler::ConnectionState) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::ConnectionState*, "MasterServer", "MessageHandler/ConnectionState");

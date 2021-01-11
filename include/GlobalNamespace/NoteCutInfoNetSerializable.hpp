@@ -159,8 +159,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutInfoNetSerializable*, creationType>()));
     }
   }; // NoteCutInfoNetSerializable
+  #pragma pack(pop)
   static check_size<sizeof(NoteCutInfoNetSerializable), 108 + sizeof(GlobalNamespace::Vector3Serializable)> __GlobalNamespace_NoteCutInfoNetSerializableSizeCheck;
   static_assert(sizeof(NoteCutInfoNetSerializable) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutInfoNetSerializable*, "", "NoteCutInfoNetSerializable");

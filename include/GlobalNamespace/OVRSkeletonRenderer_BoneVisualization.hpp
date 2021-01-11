@@ -81,8 +81,8 @@ namespace GlobalNamespace {
     // Offset: 0x197906C
     void Update(float scale, bool shouldRender, bool shouldUseSystemGestureMaterial, GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior confidenceBehavior, GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior systemGestureBehavior);
   }; // OVRSkeletonRenderer/BoneVisualization
+  #pragma pack(pop)
   static check_size<sizeof(OVRSkeletonRenderer::BoneVisualization), 56 + sizeof(UnityEngine::Material*)> __GlobalNamespace_OVRSkeletonRenderer_BoneVisualizationSizeCheck;
   static_assert(sizeof(OVRSkeletonRenderer::BoneVisualization) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::BoneVisualization*, "", "OVRSkeletonRenderer/BoneVisualization");

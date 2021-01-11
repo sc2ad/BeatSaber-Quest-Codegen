@@ -79,8 +79,8 @@ namespace GlobalNamespace {
     // Offset: 0x1E54C74
     void Reset();
   }; // RollingAverage
+  #pragma pack(pop)
   static check_size<sizeof(RollingAverage), 44 + sizeof(int)> __GlobalNamespace_RollingAverageSizeCheck;
   static_assert(sizeof(RollingAverage) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RollingAverage*, "", "RollingAverage");

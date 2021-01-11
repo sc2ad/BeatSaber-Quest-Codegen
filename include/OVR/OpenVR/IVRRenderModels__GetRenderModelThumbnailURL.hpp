@@ -60,6 +60,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1906F30
     uint EndInvoke(OVR::OpenVR::EVRRenderModelError& peError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_GetRenderModelThumbnailURL
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRRenderModels::_GetRenderModelThumbnailURL*, "OVR.OpenVR", "IVRRenderModels/_GetRenderModelThumbnailURL");

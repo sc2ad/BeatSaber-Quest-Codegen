@@ -125,8 +125,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionData*, creationType>()));
     }
   }; // System.Net.WebConnectionData
+  #pragma pack(pop)
   static check_size<sizeof(WebConnectionData), 80 + sizeof(System::Net::ReadState)> __System_Net_WebConnectionDataSizeCheck;
   static_assert(sizeof(WebConnectionData) == 0x54);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionData*, "System.Net", "WebConnectionData");

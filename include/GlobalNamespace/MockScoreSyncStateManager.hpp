@@ -159,8 +159,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MockScoreSyncStateManager*, creationType>()));
     }
   }; // MockScoreSyncStateManager
+  #pragma pack(pop)
   static check_size<sizeof(MockScoreSyncStateManager), 72 + sizeof(float)> __GlobalNamespace_MockScoreSyncStateManagerSizeCheck;
   static_assert(sizeof(MockScoreSyncStateManager) == 0x4C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockScoreSyncStateManager*, "", "MockScoreSyncStateManager");

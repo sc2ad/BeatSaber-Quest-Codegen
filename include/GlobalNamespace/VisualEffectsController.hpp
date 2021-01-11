@@ -70,8 +70,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VisualEffectsController*, creationType>()));
     }
   }; // VisualEffectsController
+  #pragma pack(pop)
   static check_size<sizeof(VisualEffectsController), 24 + sizeof(GlobalNamespace::BoolSO*)> __GlobalNamespace_VisualEffectsControllerSizeCheck;
   static_assert(sizeof(VisualEffectsController) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisualEffectsController*, "", "VisualEffectsController");

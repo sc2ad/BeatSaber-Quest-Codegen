@@ -99,6 +99,6 @@ namespace UnityEngine::Playables {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
   }; // UnityEngine.Playables.PlayableBehaviour
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBehaviour*, "UnityEngine.Playables", "PlayableBehaviour");

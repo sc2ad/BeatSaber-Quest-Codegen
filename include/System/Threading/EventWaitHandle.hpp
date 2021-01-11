@@ -45,6 +45,6 @@ namespace System::Threading {
     // Offset: 0x16B3A70
     bool Set();
   }; // System.Threading.EventWaitHandle
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::EventWaitHandle*, "System.Threading", "EventWaitHandle");

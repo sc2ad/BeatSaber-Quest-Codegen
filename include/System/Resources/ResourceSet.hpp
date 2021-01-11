@@ -126,8 +126,8 @@ namespace System::Resources {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Resources.ResourceSet
+  #pragma pack(pop)
   static check_size<sizeof(ResourceSet), 32 + sizeof(System::Collections::Hashtable*)> __System_Resources_ResourceSetSizeCheck;
   static_assert(sizeof(ResourceSet) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceSet*, "System.Resources", "ResourceSet");

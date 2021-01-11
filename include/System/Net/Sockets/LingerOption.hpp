@@ -47,8 +47,8 @@ namespace System::Net::Sockets {
     // Offset: 0x11A72C0
     void set_LingerTime(int value);
   }; // System.Net.Sockets.LingerOption
+  #pragma pack(pop)
   static check_size<sizeof(LingerOption), 20 + sizeof(int)> __System_Net_Sockets_LingerOptionSizeCheck;
   static_assert(sizeof(LingerOption) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::LingerOption*, "System.Net.Sockets", "LingerOption");

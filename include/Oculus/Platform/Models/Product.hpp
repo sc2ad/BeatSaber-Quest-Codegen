@@ -53,8 +53,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<Product*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.Product
+  #pragma pack(pop)
   static check_size<sizeof(Product), 40 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_ProductSizeCheck;
   static_assert(sizeof(Product) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Product*, "Oculus.Platform.Models", "Product");

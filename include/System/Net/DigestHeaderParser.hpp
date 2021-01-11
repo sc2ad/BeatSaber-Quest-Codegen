@@ -85,8 +85,8 @@ namespace System::Net {
     // Offset: 0x1316EA4
     static void _cctor();
   }; // System.Net.DigestHeaderParser
+  #pragma pack(pop)
   static check_size<sizeof(DigestHeaderParser), 32 + sizeof(::Array<::Il2CppString*>*)> __System_Net_DigestHeaderParserSizeCheck;
   static_assert(sizeof(DigestHeaderParser) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestHeaderParser*, "System.Net", "DigestHeaderParser");

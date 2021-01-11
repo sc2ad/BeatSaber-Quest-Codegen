@@ -188,8 +188,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterSpawnEventEffect*, creationType>()));
     }
   }; // BTSCharacterSpawnEventEffect
+  #pragma pack(pop)
   static check_size<sizeof(BTSCharacterSpawnEventEffect), 112 + sizeof(GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData*)> __GlobalNamespace_BTSCharacterSpawnEventEffectSizeCheck;
   static_assert(sizeof(BTSCharacterSpawnEventEffect) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnEventEffect*, "", "BTSCharacterSpawnEventEffect");

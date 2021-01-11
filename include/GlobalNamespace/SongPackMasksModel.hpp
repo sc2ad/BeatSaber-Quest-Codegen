@@ -71,8 +71,8 @@ namespace GlobalNamespace {
     // Offset: 0xF3A1D4
     ::Il2CppString* GetSongPackMaskText(GlobalNamespace::SongPackMask songPackMask);
   }; // SongPackMasksModel
+  #pragma pack(pop)
   static check_size<sizeof(SongPackMasksModel), 16 + sizeof(System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::SongPackMask, ::Il2CppString*>*>*)> __GlobalNamespace_SongPackMasksModelSizeCheck;
   static_assert(sizeof(SongPackMasksModel) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMasksModel*, "", "SongPackMasksModel");

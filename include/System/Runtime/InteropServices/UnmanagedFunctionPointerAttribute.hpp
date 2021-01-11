@@ -65,8 +65,8 @@ namespace System::Runtime::InteropServices {
       return THROW_UNLESS((::il2cpp_utils::New<UnmanagedFunctionPointerAttribute*, creationType>(callingConvention)));
     }
   }; // System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute
+  #pragma pack(pop)
   static check_size<sizeof(UnmanagedFunctionPointerAttribute), 26 + sizeof(bool)> __System_Runtime_InteropServices_UnmanagedFunctionPointerAttributeSizeCheck;
   static_assert(sizeof(UnmanagedFunctionPointerAttribute) == 0x1B);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*, "System.Runtime.InteropServices", "UnmanagedFunctionPointerAttribute");

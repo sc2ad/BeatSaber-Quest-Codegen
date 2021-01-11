@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HeadBodyOffsetSO*, creationType>()));
     }
   }; // HeadBodyOffsetSO
+  #pragma pack(pop)
   static check_size<sizeof(HeadBodyOffsetSO), 36 + sizeof(float)> __GlobalNamespace_HeadBodyOffsetSOSizeCheck;
   static_assert(sizeof(HeadBodyOffsetSO) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HeadBodyOffsetSO*, "", "HeadBodyOffsetSO");

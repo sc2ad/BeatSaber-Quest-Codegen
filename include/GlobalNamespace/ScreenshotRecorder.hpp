@@ -91,6 +91,7 @@ namespace GlobalNamespace {
       // Set static field: static public ScreenshotRecorder/RecordingType ScreenshotOnPause
       static void _set_ScreenshotOnPause(GlobalNamespace::ScreenshotRecorder::RecordingType value);
     }; // ScreenshotRecorder/RecordingType
+    #pragma pack(pop)
     static check_size<sizeof(ScreenshotRecorder::RecordingType), 0 + sizeof(int)> __GlobalNamespace_ScreenshotRecorder_RecordingTypeSizeCheck;
     static_assert(sizeof(ScreenshotRecorder::RecordingType) == 0x4);
     // private System.String _folder
@@ -247,9 +248,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ScreenshotRecorder*, creationType>()));
     }
   }; // ScreenshotRecorder
+  #pragma pack(pop)
   static check_size<sizeof(ScreenshotRecorder), 112 + sizeof(UnityEngine::RenderTexture*)> __GlobalNamespace_ScreenshotRecorderSizeCheck;
   static_assert(sizeof(ScreenshotRecorder) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenshotRecorder*, "", "ScreenshotRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenshotRecorder::RecordingType, "", "ScreenshotRecorder/RecordingType");

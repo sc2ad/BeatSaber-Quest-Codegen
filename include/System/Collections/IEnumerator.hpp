@@ -29,7 +29,7 @@ namespace System::Collections {
     // Offset: 0xFFFFFFFF
     void System_Collections_IEnumerator_Reset();
   }; // System.Collections.IEnumerator
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IEnumerator*, "System.Collections", "IEnumerator");

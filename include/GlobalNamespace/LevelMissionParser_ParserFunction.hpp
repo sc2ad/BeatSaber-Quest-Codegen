@@ -49,6 +49,6 @@ namespace GlobalNamespace {
     // Offset: 0x1AC1FC4
     bool EndInvoke(System::IAsyncResult* result);
   }; // LevelMissionParser/ParserFunction
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelMissionParser::ParserFunction*, "", "LevelMissionParser/ParserFunction");

@@ -56,8 +56,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SleepRigidbody2DWhenInvisible*, creationType>()));
     }
   }; // SleepRigidbody2DWhenInvisible
+  #pragma pack(pop)
   static check_size<sizeof(SleepRigidbody2DWhenInvisible), 24 + sizeof(UnityEngine::Rigidbody2D*)> __GlobalNamespace_SleepRigidbody2DWhenInvisibleSizeCheck;
   static_assert(sizeof(SleepRigidbody2DWhenInvisible) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SleepRigidbody2DWhenInvisible*, "", "SleepRigidbody2DWhenInvisible");

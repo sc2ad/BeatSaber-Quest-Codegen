@@ -116,8 +116,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<FingerRig*, creationType>()));
     }
   }; // RootMotion.FinalIK.FingerRig
+  #pragma pack(pop)
   static check_size<sizeof(FingerRig), 64 + sizeof(bool)> __RootMotion_FinalIK_FingerRigSizeCheck;
   static_assert(sizeof(FingerRig) == 0x41);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FingerRig*, "RootMotion.FinalIK", "FingerRig");

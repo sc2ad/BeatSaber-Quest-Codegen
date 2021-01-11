@@ -323,8 +323,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteJump*, creationType>()));
     }
   }; // NoteJump
+  #pragma pack(pop)
   static check_size<sizeof(NoteJump), 268 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_NoteJumpSizeCheck;
   static_assert(sizeof(NoteJump) == 0x11C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJump*, "", "NoteJump");

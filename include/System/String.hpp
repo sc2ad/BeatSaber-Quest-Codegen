@@ -848,6 +848,7 @@ namespace System {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.String
+  #pragma pack(pop)
   static check_size<sizeof(String), 20 + sizeof(::Il2CppChar)> __System_StringSizeCheck;
   static_assert(sizeof(String) == 0x16);
   // static public System.Boolean op_Equality(System.String a, System.String b)
@@ -857,5 +858,4 @@ namespace System {
   // Offset: 0x12827A4
   bool operator !=(::Il2CppString* a, ::Il2CppString& b);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::String*, "System", "String");

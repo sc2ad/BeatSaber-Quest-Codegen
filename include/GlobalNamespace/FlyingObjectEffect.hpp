@@ -146,8 +146,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlyingObjectEffect*, creationType>()));
     }
   }; // FlyingObjectEffect
+  #pragma pack(pop)
   static check_size<sizeof(FlyingObjectEffect), 124 + sizeof(bool)> __GlobalNamespace_FlyingObjectEffectSizeCheck;
   static_assert(sizeof(FlyingObjectEffect) == 0x7D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingObjectEffect*, "", "FlyingObjectEffect");

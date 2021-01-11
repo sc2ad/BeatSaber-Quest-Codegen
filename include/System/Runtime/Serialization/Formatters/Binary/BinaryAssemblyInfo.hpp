@@ -56,8 +56,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x1340A0C
     System::Reflection::Assembly* GetAssembly();
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo
+  #pragma pack(pop)
   static check_size<sizeof(BinaryAssemblyInfo), 24 + sizeof(System::Reflection::Assembly*)> __System_Runtime_Serialization_Formatters_Binary_BinaryAssemblyInfoSizeCheck;
   static_assert(sizeof(BinaryAssemblyInfo) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, "System.Runtime.Serialization.Formatters.Binary", "BinaryAssemblyInfo");

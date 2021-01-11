@@ -79,6 +79,7 @@ namespace GlobalNamespace {
       // Offset: 0x1974030
       static GlobalNamespace::VRControllersRecorderData::PositionAndRotation Lerp(GlobalNamespace::VRControllersRecorderData::PositionAndRotation a, GlobalNamespace::VRControllersRecorderData::PositionAndRotation b, float t);
     }; // VRControllersRecorderData/PositionAndRotation
+    #pragma pack(pop)
     static check_size<sizeof(VRControllersRecorderData::PositionAndRotation), 12 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_VRControllersRecorderData_PositionAndRotationSizeCheck;
     static_assert(sizeof(VRControllersRecorderData::PositionAndRotation) == 0x1C);
     // public readonly VRControllersRecorderData/NodeInfo[] nodesInfo
@@ -118,9 +119,9 @@ namespace GlobalNamespace {
     // Offset: 0x197420C
     int get_numberOfKeyframes();
   }; // VRControllersRecorderData
+  #pragma pack(pop)
   static check_size<sizeof(VRControllersRecorderData), 24 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>*)> __GlobalNamespace_VRControllersRecorderDataSizeCheck;
   static_assert(sizeof(VRControllersRecorderData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData*, "", "VRControllersRecorderData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::PositionAndRotation, "", "VRControllersRecorderData/PositionAndRotation");

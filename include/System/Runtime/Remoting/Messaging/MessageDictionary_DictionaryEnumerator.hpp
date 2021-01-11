@@ -108,8 +108,8 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: get_Value
     ::Il2CppObject* System_Collections_IDictionaryEnumerator_get_Value();
   }; // System.Runtime.Remoting.Messaging.MessageDictionary/DictionaryEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(MessageDictionary::DictionaryEnumerator), 32 + sizeof(int)> __System_Runtime_Remoting_Messaging_MessageDictionary_DictionaryEnumeratorSizeCheck;
   static_assert(sizeof(MessageDictionary::DictionaryEnumerator) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MessageDictionary::DictionaryEnumerator*, "System.Runtime.Remoting.Messaging", "MessageDictionary/DictionaryEnumerator");

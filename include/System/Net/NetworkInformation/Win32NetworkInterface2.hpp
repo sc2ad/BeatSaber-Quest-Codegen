@@ -97,8 +97,8 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
   }; // System.Net.NetworkInformation.Win32NetworkInterface2
+  #pragma pack(pop)
   static check_size<sizeof(Win32NetworkInterface2), 512 + sizeof(System::Net::NetworkInformation::IPInterfaceProperties*)> __System_Net_NetworkInformation_Win32NetworkInterface2SizeCheck;
   static_assert(sizeof(Win32NetworkInterface2) == 0x208);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32NetworkInterface2*, "System.Net.NetworkInformation", "Win32NetworkInterface2");

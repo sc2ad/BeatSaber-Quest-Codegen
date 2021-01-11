@@ -52,8 +52,8 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<ProBuilderMesh::$$c__DisplayClass150_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.ProBuilderMesh/<>c__DisplayClass150_0
+  #pragma pack(pop)
   static check_size<sizeof(ProBuilderMesh::$$c__DisplayClass150_0), 16 + sizeof(int)> __UnityEngine_ProBuilder_ProBuilderMesh_$$c__DisplayClass150_0SizeCheck;
   static_assert(sizeof(ProBuilderMesh::$$c__DisplayClass150_0) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0*, "UnityEngine.ProBuilder", "ProBuilderMesh/<>c__DisplayClass150_0");

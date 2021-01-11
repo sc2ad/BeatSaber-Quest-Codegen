@@ -94,8 +94,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<VmpcEngine*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Engines.VmpcEngine
+  #pragma pack(pop)
   static check_size<sizeof(VmpcEngine), 48 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Engines_VmpcEngineSizeCheck;
   static_assert(sizeof(VmpcEngine) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::VmpcEngine*, "Org.BouncyCastle.Crypto.Engines", "VmpcEngine");

@@ -110,9 +110,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.AudioType AUDIOQUEUE
     static void _set_AUDIOQUEUE(UnityEngine::AudioType value);
   }; // UnityEngine.AudioType
+  #pragma pack(pop)
   static check_size<sizeof(AudioType), 0 + sizeof(int)> __UnityEngine_AudioTypeSizeCheck;
   static_assert(sizeof(AudioType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioType, "UnityEngine", "AudioType");

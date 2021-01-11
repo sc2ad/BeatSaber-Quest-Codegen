@@ -49,8 +49,8 @@ namespace DataModels::PlayerAvatar {
       return THROW_UNLESS((::il2cpp_utils::New<RandomizeAvatarColorMap*, creationType>(headTopPrimaryColorIndex, headTopSecondaryColorIndex, glassesColorIndex, facialHairColorIndex, handsColorIndex, clothesPrimaryColorIndex, clothesSecondaryColorIndex, clothesDetailColorIndex)));
     }
   }; // DataModels.PlayerAvatar.RandomizeAvatarColorMap
+  #pragma pack(pop)
   static check_size<sizeof(RandomizeAvatarColorMap), 24 + sizeof(::Array<int>*)> __DataModels_PlayerAvatar_RandomizeAvatarColorMapSizeCheck;
   static_assert(sizeof(RandomizeAvatarColorMap) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(DataModels::PlayerAvatar::RandomizeAvatarColorMap*, "DataModels.PlayerAvatar", "RandomizeAvatarColorMap");

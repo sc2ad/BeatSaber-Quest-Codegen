@@ -61,8 +61,8 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void EventProvider::OnControllerCommand(System.Diagnostics.Tracing.ControllerCommand command, System.Collections.Generic.IDictionary`2<System.String,System.String> arguments, System.Int32 perEventSourceSessionId, System.Int32 etwSessionId)
     void OnControllerCommand(System::Diagnostics::Tracing::ControllerCommand command, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* arguments, int perEventSourceSessionId, int etwSessionId);
   }; // System.Diagnostics.Tracing.EventSource/OverideEventProvider
+  #pragma pack(pop)
   static check_size<sizeof(EventSource::OverideEventProvider), 96 + sizeof(System::Diagnostics::Tracing::EventSource*)> __System_Diagnostics_Tracing_EventSource_OverideEventProviderSizeCheck;
   static_assert(sizeof(EventSource::OverideEventProvider) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource::OverideEventProvider*, "System.Diagnostics.Tracing", "EventSource/OverideEventProvider");

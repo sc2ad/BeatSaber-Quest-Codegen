@@ -54,8 +54,8 @@ namespace UnityEngineInternal {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngineInternal.TypeInferenceRuleAttribute
+  #pragma pack(pop)
   static check_size<sizeof(TypeInferenceRuleAttribute), 16 + sizeof(::Il2CppString*)> __UnityEngineInternal_TypeInferenceRuleAttributeSizeCheck;
   static_assert(sizeof(TypeInferenceRuleAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::TypeInferenceRuleAttribute*, "UnityEngineInternal", "TypeInferenceRuleAttribute");

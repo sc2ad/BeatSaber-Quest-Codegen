@@ -50,9 +50,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.NetworkReachability ReachableViaLocalAreaNetwork
     static void _set_ReachableViaLocalAreaNetwork(UnityEngine::NetworkReachability value);
   }; // UnityEngine.NetworkReachability
+  #pragma pack(pop)
   static check_size<sizeof(NetworkReachability), 0 + sizeof(int)> __UnityEngine_NetworkReachabilitySizeCheck;
   static_assert(sizeof(NetworkReachability) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::NetworkReachability, "UnityEngine", "NetworkReachability");

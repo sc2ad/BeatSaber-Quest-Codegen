@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x18FE4F4
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t& pMaskPrimitives, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_SetOverlayIntersectionMask
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_SetOverlayIntersectionMask*, "OVR.OpenVR", "IVROverlay/_SetOverlayIntersectionMask");

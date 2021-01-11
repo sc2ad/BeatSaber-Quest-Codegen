@@ -51,8 +51,8 @@ namespace System::Xml {
     // Base method: System.Void Base64Encoder::WriteChars(System.Char[] chars, System.Int32 index, System.Int32 count)
     void WriteChars(::Array<::Il2CppChar>* chars, int index, int count);
   }; // System.Xml.XmlRawWriterBase64Encoder
+  #pragma pack(pop)
   static check_size<sizeof(XmlRawWriterBase64Encoder), 40 + sizeof(System::Xml::XmlRawWriter*)> __System_Xml_XmlRawWriterBase64EncoderSizeCheck;
   static_assert(sizeof(XmlRawWriterBase64Encoder) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlRawWriterBase64Encoder*, "System.Xml", "XmlRawWriterBase64Encoder");

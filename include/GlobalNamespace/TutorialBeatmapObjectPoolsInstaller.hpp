@@ -79,8 +79,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TutorialBeatmapObjectPoolsInstaller*, creationType>()));
     }
   }; // TutorialBeatmapObjectPoolsInstaller
+  #pragma pack(pop)
   static check_size<sizeof(TutorialBeatmapObjectPoolsInstaller), 56 + sizeof(GlobalNamespace::NoteLineConnectionController*)> __GlobalNamespace_TutorialBeatmapObjectPoolsInstallerSizeCheck;
   static_assert(sizeof(TutorialBeatmapObjectPoolsInstaller) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialBeatmapObjectPoolsInstaller*, "", "TutorialBeatmapObjectPoolsInstaller");

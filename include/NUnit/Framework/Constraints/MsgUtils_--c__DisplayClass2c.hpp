@@ -52,8 +52,8 @@ namespace NUnit::Framework::Constraints {
       return THROW_UNLESS((::il2cpp_utils::New<MsgUtils::$$c__DisplayClass2c*, creationType>()));
     }
   }; // NUnit.Framework.Constraints.MsgUtils/<>c__DisplayClass2c
+  #pragma pack(pop)
   static check_size<sizeof(MsgUtils::$$c__DisplayClass2c), 16 + sizeof(NUnit::Framework::Constraints::ValueFormatter*)> __NUnit_Framework_Constraints_MsgUtils_$$c__DisplayClass2cSizeCheck;
   static_assert(sizeof(MsgUtils::$$c__DisplayClass2c) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass2c*, "NUnit.Framework.Constraints", "MsgUtils/<>c__DisplayClass2c");

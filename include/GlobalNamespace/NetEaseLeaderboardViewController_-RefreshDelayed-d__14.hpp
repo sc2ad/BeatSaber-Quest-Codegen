@@ -96,8 +96,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // NetEaseLeaderboardViewController/<RefreshDelayed>d__14
+  #pragma pack(pop)
   static check_size<sizeof(NetEaseLeaderboardViewController::$RefreshDelayed$d__14), 41 + sizeof(bool)> __GlobalNamespace_NetEaseLeaderboardViewController_$RefreshDelayed$d__14SizeCheck;
   static_assert(sizeof(NetEaseLeaderboardViewController::$RefreshDelayed$d__14) == 0x2A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLeaderboardViewController::$RefreshDelayed$d__14*, "", "NetEaseLeaderboardViewController/<RefreshDelayed>d__14");

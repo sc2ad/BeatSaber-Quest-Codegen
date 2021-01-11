@@ -55,9 +55,9 @@ namespace Mono::Globalization::Unicode {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Mono.Globalization.Unicode.SimpleCollator/Escape
+  #pragma pack(pop)
   static check_size<sizeof(SimpleCollator::Escape), 20 + sizeof(int)> __Mono_Globalization_Unicode_SimpleCollator_EscapeSizeCheck;
   static_assert(sizeof(SimpleCollator::Escape) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Escape, "Mono.Globalization.Unicode", "SimpleCollator/Escape");

@@ -209,6 +209,7 @@ namespace GlobalNamespace {
       // Set static field: static public EditAvatarViewController/AvatarEditPart ClothesModelDetailColor
       static void _set_ClothesModelDetailColor(GlobalNamespace::EditAvatarViewController::AvatarEditPart value);
     }; // EditAvatarViewController/AvatarEditPart
+    #pragma pack(pop)
     static check_size<sizeof(EditAvatarViewController::AvatarEditPart), 0 + sizeof(int)> __GlobalNamespace_EditAvatarViewController_AvatarEditPartSizeCheck;
     static_assert(sizeof(EditAvatarViewController::AvatarEditPart) == 0x4);
     // private NamedColorListController _skinColorValuePicker
@@ -558,9 +559,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EditAvatarViewController*, creationType>()));
     }
   }; // EditAvatarViewController
+  #pragma pack(pop)
   static check_size<sizeof(EditAvatarViewController), 320 + sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart)> __GlobalNamespace_EditAvatarViewControllerSizeCheck;
   static_assert(sizeof(EditAvatarViewController) == 0x144);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController*, "", "EditAvatarViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::AvatarEditPart, "", "EditAvatarViewController/AvatarEditPart");

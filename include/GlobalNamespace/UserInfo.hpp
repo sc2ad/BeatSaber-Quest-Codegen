@@ -68,6 +68,7 @@ namespace GlobalNamespace {
       // Set static field: static public UserInfo/Platform PS4
       static void _set_PS4(GlobalNamespace::UserInfo::Platform value);
     }; // UserInfo/Platform
+    #pragma pack(pop)
     static check_size<sizeof(UserInfo::Platform), 0 + sizeof(int)> __GlobalNamespace_UserInfo_PlatformSizeCheck;
     static_assert(sizeof(UserInfo::Platform) == 0x4);
     // public readonly UserInfo/Platform platform
@@ -100,9 +101,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<UserInfo*, creationType>(platform, platformUserId, userName)));
     }
   }; // UserInfo
+  #pragma pack(pop)
   static check_size<sizeof(UserInfo), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_UserInfoSizeCheck;
   static_assert(sizeof(UserInfo) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserInfo*, "", "UserInfo");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserInfo::Platform, "", "UserInfo/Platform");

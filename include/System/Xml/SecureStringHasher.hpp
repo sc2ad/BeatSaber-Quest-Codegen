@@ -72,8 +72,8 @@ namespace System::Xml {
     // Base method: System.Int32 IEqualityComparer_1::GetHashCode(System.String key)
     int GetHashCode(::Il2CppString* key);
   }; // System.Xml.SecureStringHasher
+  #pragma pack(pop)
   static check_size<sizeof(SecureStringHasher), 16 + sizeof(int)> __System_Xml_SecureStringHasherSizeCheck;
   static_assert(sizeof(SecureStringHasher) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::SecureStringHasher*, "System.Xml", "SecureStringHasher");

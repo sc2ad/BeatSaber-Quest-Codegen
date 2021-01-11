@@ -122,8 +122,8 @@ namespace Org::BouncyCastle::X509 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.X509.X509CrlEntry
+  #pragma pack(pop)
   static check_size<sizeof(X509CrlEntry), 52 + sizeof(int)> __Org_BouncyCastle_X509_X509CrlEntrySizeCheck;
   static_assert(sizeof(X509CrlEntry) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509CrlEntry*, "Org.BouncyCastle.X509", "X509CrlEntry");

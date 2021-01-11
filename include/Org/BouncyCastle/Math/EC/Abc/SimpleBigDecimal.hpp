@@ -91,8 +91,8 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal
+  #pragma pack(pop)
   static check_size<sizeof(SimpleBigDecimal), 24 + sizeof(int)> __Org_BouncyCastle_Math_EC_Abc_SimpleBigDecimalSizeCheck;
   static_assert(sizeof(SimpleBigDecimal) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*, "Org.BouncyCastle.Math.EC.Abc", "SimpleBigDecimal");

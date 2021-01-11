@@ -65,8 +65,8 @@ namespace Mono {
     // Offset: 0x15270B0
     static void DestroyAndFree(Mono::RuntimeGPtrArrayHandle& h);
   }; // Mono.RuntimeGPtrArrayHandle
+  #pragma pack(pop)
   static check_size<sizeof(RuntimeGPtrArrayHandle), 0 + sizeof(Mono::RuntimeStructs::GPtrArray*)> __Mono_RuntimeGPtrArrayHandleSizeCheck;
   static_assert(sizeof(RuntimeGPtrArrayHandle) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGPtrArrayHandle, "Mono", "RuntimeGPtrArrayHandle");

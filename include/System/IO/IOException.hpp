@@ -99,8 +99,8 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<IOException*, creationType>(info, context)));
     }
   }; // System.IO.IOException
+  #pragma pack(pop)
   static check_size<sizeof(IOException), 136 + sizeof(::Il2CppString*)> __System_IO_IOExceptionSizeCheck;
   static_assert(sizeof(IOException) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::IOException*, "System.IO", "IOException");

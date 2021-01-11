@@ -111,8 +111,8 @@ namespace Zenject {
     // Offset: 0x19EEED4
     static System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>* $get_AllInjectables$b__1(Zenject::InjectTypeInfo::InjectMethodInfo* x);
   }; // Zenject.InjectTypeInfo
+  #pragma pack(pop)
   static check_size<sizeof(InjectTypeInfo), 48 + sizeof(Zenject::InjectTypeInfo*)> __Zenject_InjectTypeInfoSizeCheck;
   static_assert(sizeof(InjectTypeInfo) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectTypeInfo*, "Zenject", "InjectTypeInfo");

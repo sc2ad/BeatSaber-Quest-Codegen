@@ -40,8 +40,8 @@ namespace NUnit::Framework::Internal::Commands {
       return THROW_UNLESS((::il2cpp_utils::New<DelegatingTestCommand*, creationType>(innerCommand)));
     }
   }; // NUnit.Framework.Internal.Commands.DelegatingTestCommand
+  #pragma pack(pop)
   static check_size<sizeof(DelegatingTestCommand), 24 + sizeof(NUnit::Framework::Internal::Commands::TestCommand*)> __NUnit_Framework_Internal_Commands_DelegatingTestCommandSizeCheck;
   static_assert(sizeof(DelegatingTestCommand) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::DelegatingTestCommand*, "NUnit.Framework.Internal.Commands", "DelegatingTestCommand");

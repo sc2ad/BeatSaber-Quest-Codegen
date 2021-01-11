@@ -58,7 +58,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x19642E8
     static void _cctor();
   }; // NUnit.Framework.Internal.TypeHelper
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeHelper*, "NUnit.Framework.Internal", "TypeHelper");

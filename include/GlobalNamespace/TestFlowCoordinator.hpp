@@ -82,8 +82,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TestFlowCoordinator*, creationType>()));
     }
   }; // TestFlowCoordinator
+  #pragma pack(pop)
   static check_size<sizeof(TestFlowCoordinator), 200 + sizeof(HMUI::ViewController*)> __GlobalNamespace_TestFlowCoordinatorSizeCheck;
   static_assert(sizeof(TestFlowCoordinator) == 0xD0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestFlowCoordinator*, "", "TestFlowCoordinator");

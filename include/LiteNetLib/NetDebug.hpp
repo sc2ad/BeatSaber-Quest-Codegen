@@ -97,7 +97,7 @@ namespace LiteNetLib {
     // Offset: 0x1DC6B84
     static void _cctor();
   }; // LiteNetLib.NetDebug
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetDebug*, "LiteNetLib", "NetDebug");

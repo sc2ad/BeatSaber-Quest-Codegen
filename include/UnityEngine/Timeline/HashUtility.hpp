@@ -38,7 +38,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x141CE64
     static int CombineHash(::Array<int>* hashes);
   }; // UnityEngine.Timeline.HashUtility
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::HashUtility*, "UnityEngine.Timeline", "HashUtility");

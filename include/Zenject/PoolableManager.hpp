@@ -80,8 +80,8 @@ namespace Zenject {
     // Offset: 0x13494F4
     void TriggerOnDespawned();
   }; // Zenject.PoolableManager
+  #pragma pack(pop)
   static check_size<sizeof(PoolableManager), 24 + sizeof(bool)> __Zenject_PoolableManagerSizeCheck;
   static_assert(sizeof(PoolableManager) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager*, "Zenject", "PoolableManager");

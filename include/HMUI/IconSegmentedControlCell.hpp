@@ -91,8 +91,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<IconSegmentedControlCell*, creationType>()));
     }
   }; // HMUI.IconSegmentedControlCell
+  #pragma pack(pop)
   static check_size<sizeof(IconSegmentedControlCell), 88 + sizeof(UnityEngine::GameObject*)> __HMUI_IconSegmentedControlCellSizeCheck;
   static_assert(sizeof(IconSegmentedControlCell) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControlCell*, "HMUI", "IconSegmentedControlCell");

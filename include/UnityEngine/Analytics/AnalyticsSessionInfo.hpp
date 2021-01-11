@@ -48,7 +48,7 @@ namespace UnityEngine::Analytics {
     // Offset: 0x1A09A3C
     static void CallIdentityTokenChanged(::Il2CppString* token);
   }; // UnityEngine.Analytics.AnalyticsSessionInfo
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Analytics::AnalyticsSessionInfo*, "UnityEngine.Analytics", "AnalyticsSessionInfo");

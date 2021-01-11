@@ -63,8 +63,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12FDDE8
     bool IsEmpty();
   }; // System.Runtime.Serialization.Formatters.Binary.SerStack
+  #pragma pack(pop)
   static check_size<sizeof(SerStack), 32 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_SerStackSizeCheck;
   static_assert(sizeof(SerStack) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerStack*, "System.Runtime.Serialization.Formatters.Binary", "SerStack");

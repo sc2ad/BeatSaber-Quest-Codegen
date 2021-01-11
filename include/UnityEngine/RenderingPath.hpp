@@ -62,9 +62,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RenderingPath DeferredShading
     static void _set_DeferredShading(UnityEngine::RenderingPath value);
   }; // UnityEngine.RenderingPath
+  #pragma pack(pop)
   static check_size<sizeof(RenderingPath), 0 + sizeof(int)> __UnityEngine_RenderingPathSizeCheck;
   static_assert(sizeof(RenderingPath) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderingPath, "UnityEngine", "RenderingPath");

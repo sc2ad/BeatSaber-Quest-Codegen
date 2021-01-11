@@ -77,6 +77,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRControllerHelper/ControllerType Rift
       static void _set_Rift(GlobalNamespace::OVRControllerHelper::ControllerType value);
     }; // OVRControllerHelper/ControllerType
+    #pragma pack(pop)
     static check_size<sizeof(OVRControllerHelper::ControllerType), 0 + sizeof(int)> __GlobalNamespace_OVRControllerHelper_ControllerTypeSizeCheck;
     static_assert(sizeof(OVRControllerHelper::ControllerType) == 0x4);
     // public UnityEngine.GameObject m_modelGearVrController
@@ -163,9 +164,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRControllerHelper*, creationType>()));
     }
   }; // OVRControllerHelper
+  #pragma pack(pop)
   static check_size<sizeof(OVRControllerHelper), 81 + sizeof(bool)> __GlobalNamespace_OVRControllerHelperSizeCheck;
   static_assert(sizeof(OVRControllerHelper) == 0x52);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerHelper*, "", "OVRControllerHelper");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerHelper::ControllerType, "", "OVRControllerHelper/ControllerType");

@@ -50,9 +50,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RenderTextureReadWrite sRGB
     static void _set_sRGB(UnityEngine::RenderTextureReadWrite value);
   }; // UnityEngine.RenderTextureReadWrite
+  #pragma pack(pop)
   static check_size<sizeof(RenderTextureReadWrite), 0 + sizeof(int)> __UnityEngine_RenderTextureReadWriteSizeCheck;
   static_assert(sizeof(RenderTextureReadWrite) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTextureReadWrite, "UnityEngine", "RenderTextureReadWrite");

@@ -50,9 +50,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.ETrackingUniverseOrigin TrackingUniverseRawAndUncalibrated
     static void _set_TrackingUniverseRawAndUncalibrated(Valve::VR::ETrackingUniverseOrigin value);
   }; // Valve.VR.ETrackingUniverseOrigin
+  #pragma pack(pop)
   static check_size<sizeof(ETrackingUniverseOrigin), 0 + sizeof(int)> __Valve_VR_ETrackingUniverseOriginSizeCheck;
   static_assert(sizeof(ETrackingUniverseOrigin) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::ETrackingUniverseOrigin, "Valve.VR", "ETrackingUniverseOrigin");

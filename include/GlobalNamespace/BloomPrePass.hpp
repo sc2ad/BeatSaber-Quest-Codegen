@@ -70,6 +70,7 @@ namespace GlobalNamespace {
       // Set static field: static public BloomPrePass/Mode SetDataOnly
       static void _set_SetDataOnly(GlobalNamespace::BloomPrePass::Mode value);
     }; // BloomPrePass/Mode
+    #pragma pack(pop)
     static check_size<sizeof(BloomPrePass::Mode), 0 + sizeof(int)> __GlobalNamespace_BloomPrePass_ModeSizeCheck;
     static_assert(sizeof(BloomPrePass::Mode) == 0x4);
     // private BloomPrePassRendererSO _bloomPrepassRenderer
@@ -142,9 +143,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePass*, creationType>()));
     }
   }; // BloomPrePass
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePass), 56 + sizeof(GlobalNamespace::BloomPrePassRenderDataSO::Data*)> __GlobalNamespace_BloomPrePassSizeCheck;
   static_assert(sizeof(BloomPrePass) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePass*, "", "BloomPrePass");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePass::Mode, "", "BloomPrePass/Mode");

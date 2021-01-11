@@ -54,8 +54,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<DelegateData*, creationType>()));
     }
   }; // System.DelegateData
+  #pragma pack(pop)
   static check_size<sizeof(DelegateData), 32 + sizeof(bool)> __System_DelegateDataSizeCheck;
   static_assert(sizeof(DelegateData) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::DelegateData*, "System", "DelegateData");

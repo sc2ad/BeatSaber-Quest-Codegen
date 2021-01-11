@@ -105,8 +105,8 @@ namespace UnityEngine::Animations {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationOffsetPlayable other)
     bool Equals(UnityEngine::Animations::AnimationOffsetPlayable other);
   }; // UnityEngine.Animations.AnimationOffsetPlayable
+  #pragma pack(pop)
   static check_size<sizeof(AnimationOffsetPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Animations_AnimationOffsetPlayableSizeCheck;
   static_assert(sizeof(AnimationOffsetPlayable) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationOffsetPlayable, "UnityEngine.Animations", "AnimationOffsetPlayable");

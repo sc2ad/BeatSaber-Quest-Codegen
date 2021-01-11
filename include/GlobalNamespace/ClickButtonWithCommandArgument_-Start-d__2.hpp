@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // ClickButtonWithCommandArgument/<Start>d__2
+  #pragma pack(pop)
   static check_size<sizeof(ClickButtonWithCommandArgument::$Start$d__2), 32 + sizeof(GlobalNamespace::ClickButtonWithCommandArgument*)> __GlobalNamespace_ClickButtonWithCommandArgument_$Start$d__2SizeCheck;
   static_assert(sizeof(ClickButtonWithCommandArgument::$Start$d__2) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClickButtonWithCommandArgument::$Start$d__2*, "", "ClickButtonWithCommandArgument/<Start>d__2");

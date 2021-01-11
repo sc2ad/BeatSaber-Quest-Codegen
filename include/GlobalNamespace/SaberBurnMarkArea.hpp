@@ -215,8 +215,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberBurnMarkArea*, creationType>()));
     }
   }; // SaberBurnMarkArea
+  #pragma pack(pop)
   static check_size<sizeof(SaberBurnMarkArea), 304 + sizeof(UnityEngine::Material*)> __GlobalNamespace_SaberBurnMarkAreaSizeCheck;
   static_assert(sizeof(SaberBurnMarkArea) == 0x138);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberBurnMarkArea*, "", "SaberBurnMarkArea");

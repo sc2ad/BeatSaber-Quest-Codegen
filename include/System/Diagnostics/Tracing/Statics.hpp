@@ -183,6 +183,6 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x11202A8
     static void _cctor();
   }; // System.Diagnostics.Tracing.Statics
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::Statics*, "System.Diagnostics.Tracing", "Statics");

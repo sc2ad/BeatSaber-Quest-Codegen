@@ -123,9 +123,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.IVRTrackedCamera
+  #pragma pack(pop)
   static check_size<sizeof(IVRTrackedCamera), 88 + sizeof(Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*)> __Valve_VR_IVRTrackedCameraSizeCheck;
   static_assert(sizeof(IVRTrackedCamera) == 0x60);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera, "Valve.VR", "IVRTrackedCamera");

@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // TrailerGameplayManager/<Start>d__4
+  #pragma pack(pop)
   static check_size<sizeof(TrailerGameplayManager::$Start$d__4), 32 + sizeof(GlobalNamespace::TrailerGameplayManager*)> __GlobalNamespace_TrailerGameplayManager_$Start$d__4SizeCheck;
   static_assert(sizeof(TrailerGameplayManager::$Start$d__4) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailerGameplayManager::$Start$d__4*, "", "TrailerGameplayManager/<Start>d__4");

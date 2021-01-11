@@ -53,8 +53,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelFailedTextEffect*, creationType>()));
     }
   }; // LevelFailedTextEffect
+  #pragma pack(pop)
   static check_size<sizeof(LevelFailedTextEffect), 24 + sizeof(UnityEngine::Animator*)> __GlobalNamespace_LevelFailedTextEffectSizeCheck;
   static_assert(sizeof(LevelFailedTextEffect) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFailedTextEffect*, "", "LevelFailedTextEffect");

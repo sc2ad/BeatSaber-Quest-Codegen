@@ -203,8 +203,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_TextInfo*, creationType>()));
     }
   }; // TMPro.TMP_TextInfo
+  #pragma pack(pop)
   static check_size<sizeof(TMP_TextInfo), 104 + sizeof(::Array<TMPro::TMP_MeshInfo>*)> __TMPro_TMP_TextInfoSizeCheck;
   static_assert(sizeof(TMP_TextInfo) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextInfo*, "TMPro", "TMP_TextInfo");

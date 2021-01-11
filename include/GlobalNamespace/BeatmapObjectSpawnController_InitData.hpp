@@ -59,8 +59,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectSpawnController::InitData*, creationType>(beatsPerMinute, noteLinesCount, noteJumpMovementSpeed, noteJumpStartBeatOffset, jumpOffsetY)));
     }
   }; // BeatmapObjectSpawnController/InitData
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectSpawnController::InitData), 32 + sizeof(float)> __GlobalNamespace_BeatmapObjectSpawnController_InitDataSizeCheck;
   static_assert(sizeof(BeatmapObjectSpawnController::InitData) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnController::InitData*, "", "BeatmapObjectSpawnController/InitData");

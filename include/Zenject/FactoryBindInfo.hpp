@@ -92,8 +92,8 @@ namespace Zenject {
     // Offset: 0x12952B4
     void set_Arguments(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
   }; // Zenject.FactoryBindInfo
+  #pragma pack(pop)
   static check_size<sizeof(FactoryBindInfo), 32 + sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*)> __Zenject_FactoryBindInfoSizeCheck;
   static_assert(sizeof(FactoryBindInfo) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryBindInfo*, "Zenject", "FactoryBindInfo");

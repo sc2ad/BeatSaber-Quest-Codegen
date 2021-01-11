@@ -62,9 +62,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRComponentProperty IsScrolled
     static void _set_IsScrolled(OVR::OpenVR::EVRComponentProperty value);
   }; // OVR.OpenVR.EVRComponentProperty
+  #pragma pack(pop)
   static check_size<sizeof(EVRComponentProperty), 0 + sizeof(int)> __OVR_OpenVR_EVRComponentPropertySizeCheck;
   static_assert(sizeof(EVRComponentProperty) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRComponentProperty, "OVR.OpenVR", "EVRComponentProperty");

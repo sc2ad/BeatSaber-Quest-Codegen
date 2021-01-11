@@ -131,8 +131,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.FailCommand/<ExecuteEnumerable>d__4
+  #pragma pack(pop)
   static check_size<sizeof(FailCommand::$ExecuteEnumerable$d__4), 56 + sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::FailCommand*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_FailCommand_$ExecuteEnumerable$d__4SizeCheck;
   static_assert(sizeof(FailCommand::$ExecuteEnumerable$d__4) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::FailCommand::$ExecuteEnumerable$d__4*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "FailCommand/<ExecuteEnumerable>d__4");

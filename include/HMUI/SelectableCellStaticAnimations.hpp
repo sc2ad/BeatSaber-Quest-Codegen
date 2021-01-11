@@ -95,8 +95,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<SelectableCellStaticAnimations*, creationType>()));
     }
   }; // HMUI.SelectableCellStaticAnimations
+  #pragma pack(pop)
   static check_size<sizeof(SelectableCellStaticAnimations), 56 + sizeof(UnityEngine::AnimationClip*)> __HMUI_SelectableCellStaticAnimationsSizeCheck;
   static_assert(sizeof(SelectableCellStaticAnimations) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCellStaticAnimations*, "HMUI", "SelectableCellStaticAnimations");

@@ -87,8 +87,8 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     // Base method: System.Int32 BufferedBlockCipher::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* output, int outOff);
   }; // Org.BouncyCastle.Crypto.Paddings.PaddedBufferedBlockCipher
+  #pragma pack(pop)
   static check_size<sizeof(PaddedBufferedBlockCipher), 40 + sizeof(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*)> __Org_BouncyCastle_Crypto_Paddings_PaddedBufferedBlockCipherSizeCheck;
   static_assert(sizeof(PaddedBufferedBlockCipher) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher*, "Org.BouncyCastle.Crypto.Paddings", "PaddedBufferedBlockCipher");

@@ -42,7 +42,7 @@ namespace UnityEngine {
     // Offset: 0x16C2D00
     static void _cctor();
   }; // UnityEngine.StackTraceUtility
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::StackTraceUtility*, "UnityEngine", "StackTraceUtility");

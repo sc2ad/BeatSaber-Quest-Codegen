@@ -162,8 +162,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActivePlayerGameplayManager*, creationType>()));
     }
   }; // MultiplayerLocalActivePlayerGameplayManager
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActivePlayerGameplayManager), 96 + sizeof(bool)> __GlobalNamespace_MultiplayerLocalActivePlayerGameplayManagerSizeCheck;
   static_assert(sizeof(MultiplayerLocalActivePlayerGameplayManager) == 0x61);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager*, "", "MultiplayerLocalActivePlayerGameplayManager");

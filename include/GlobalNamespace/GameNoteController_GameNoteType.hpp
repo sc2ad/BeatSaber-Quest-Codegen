@@ -50,9 +50,9 @@ namespace GlobalNamespace {
     // Set static field: static public GameNoteController/GameNoteType Ghost
     static void _set_Ghost(GlobalNamespace::GameNoteController_GameNoteType value);
   }; // GameNoteController/GameNoteType
+  #pragma pack(pop)
   static check_size<sizeof(GameNoteController_GameNoteType), 0 + sizeof(int)> __GlobalNamespace_GameNoteController_GameNoteTypeSizeCheck;
   static_assert(sizeof(GameNoteController_GameNoteType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameNoteController_GameNoteType, "", "GameNoteController/GameNoteType");

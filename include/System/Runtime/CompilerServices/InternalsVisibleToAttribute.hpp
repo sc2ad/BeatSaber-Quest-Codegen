@@ -51,8 +51,8 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1163230
     void set_AllInternalsVisible(bool value);
   }; // System.Runtime.CompilerServices.InternalsVisibleToAttribute
+  #pragma pack(pop)
   static check_size<sizeof(InternalsVisibleToAttribute), 24 + sizeof(bool)> __System_Runtime_CompilerServices_InternalsVisibleToAttributeSizeCheck;
   static_assert(sizeof(InternalsVisibleToAttribute) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::InternalsVisibleToAttribute*, "System.Runtime.CompilerServices", "InternalsVisibleToAttribute");

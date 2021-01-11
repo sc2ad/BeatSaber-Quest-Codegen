@@ -77,8 +77,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<LegIK*, creationType>()));
     }
   }; // RootMotion.FinalIK.LegIK
+  #pragma pack(pop)
   static check_size<sizeof(LegIK), 56 + sizeof(RootMotion::FinalIK::IKSolverLeg*)> __RootMotion_FinalIK_LegIKSizeCheck;
   static_assert(sizeof(LegIK) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LegIK*, "RootMotion.FinalIK", "LegIK");

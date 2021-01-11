@@ -49,6 +49,6 @@ namespace RootMotion::FinalIK {
     // Offset: 0x16FB258
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.FinalIK.Grounder/GrounderDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounder::GrounderDelegate*, "RootMotion.FinalIK", "Grounder/GrounderDelegate");

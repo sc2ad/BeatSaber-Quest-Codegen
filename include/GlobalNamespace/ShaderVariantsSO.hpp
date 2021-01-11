@@ -56,8 +56,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ShaderVariantsSO*, creationType>()));
     }
   }; // ShaderVariantsSO
+  #pragma pack(pop)
   static check_size<sizeof(ShaderVariantsSO), 24 + sizeof(::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>*)> __GlobalNamespace_ShaderVariantsSOSizeCheck;
   static_assert(sizeof(ShaderVariantsSO) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO*, "", "ShaderVariantsSO");

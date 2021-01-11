@@ -56,6 +56,6 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<Context::$$c*, creationType>()));
     }
   }; // Zenject.Context/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Context::$$c*, "Zenject", "Context/<>c");

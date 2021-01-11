@@ -249,8 +249,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MenuTransitionsHelper*, creationType>()));
     }
   }; // MenuTransitionsHelper
+  #pragma pack(pop)
   static check_size<sizeof(MenuTransitionsHelper), 120 + sizeof(System::Action*)> __GlobalNamespace_MenuTransitionsHelperSizeCheck;
   static_assert(sizeof(MenuTransitionsHelper) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuTransitionsHelper*, "", "MenuTransitionsHelper");

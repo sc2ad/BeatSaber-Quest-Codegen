@@ -203,8 +203,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<LookAtController*, creationType>()));
     }
   }; // RootMotion.FinalIK.LookAtController
+  #pragma pack(pop)
   static check_size<sizeof(LookAtController), 148 + sizeof(bool)> __RootMotion_FinalIK_LookAtControllerSizeCheck;
   static_assert(sizeof(LookAtController) == 0x95);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LookAtController*, "RootMotion.FinalIK", "LookAtController");

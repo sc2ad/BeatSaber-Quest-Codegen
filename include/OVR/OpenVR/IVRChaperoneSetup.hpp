@@ -187,9 +187,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.IVRChaperoneSetup
+  #pragma pack(pop)
   static check_size<sizeof(IVRChaperoneSetup), 152 + sizeof(OVR::OpenVR::IVRChaperoneSetup::_ImportFromBufferToWorking*)> __OVR_OpenVR_IVRChaperoneSetupSizeCheck;
   static_assert(sizeof(IVRChaperoneSetup) == 0xA0);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperoneSetup, "OVR.OpenVR", "IVRChaperoneSetup");

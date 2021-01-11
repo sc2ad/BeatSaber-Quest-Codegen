@@ -76,8 +76,8 @@ namespace Mono::Security::X509 {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // Mono.Security.X509.X509ExtensionCollection
+  #pragma pack(pop)
   static check_size<sizeof(X509ExtensionCollection), 24 + sizeof(bool)> __Mono_Security_X509_X509ExtensionCollectionSizeCheck;
   static_assert(sizeof(X509ExtensionCollection) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509ExtensionCollection*, "Mono.Security.X509", "X509ExtensionCollection");

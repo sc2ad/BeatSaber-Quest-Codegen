@@ -119,8 +119,8 @@ namespace GlobalNamespace {
     // Base method: System.Void BeatmapObjectManager::PauseAllBeatmapObjects(System.Boolean pause)
     void PauseAllBeatmapObjects(bool pause);
   }; // TutorialBeatmapObjectManager
+  #pragma pack(pop)
   static check_size<sizeof(TutorialBeatmapObjectManager), 96 + sizeof(GlobalNamespace::MonoMemoryPoolContainer_1<GlobalNamespace::ObstacleController*>*)> __GlobalNamespace_TutorialBeatmapObjectManagerSizeCheck;
   static_assert(sizeof(TutorialBeatmapObjectManager) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialBeatmapObjectManager*, "", "TutorialBeatmapObjectManager");

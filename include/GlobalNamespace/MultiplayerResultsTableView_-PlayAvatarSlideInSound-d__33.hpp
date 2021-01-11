@@ -92,8 +92,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MultiplayerResultsTableView/<PlayAvatarSlideInSound>d__33
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsTableView::$PlayAvatarSlideInSound$d__33), 40 + sizeof(GlobalNamespace::MultiplayerResultsTableView*)> __GlobalNamespace_MultiplayerResultsTableView_$PlayAvatarSlideInSound$d__33SizeCheck;
   static_assert(sizeof(MultiplayerResultsTableView::$PlayAvatarSlideInSound$d__33) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableView::$PlayAvatarSlideInSound$d__33*, "", "MultiplayerResultsTableView/<PlayAvatarSlideInSound>d__33");

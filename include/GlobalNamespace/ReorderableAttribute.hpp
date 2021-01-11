@@ -79,8 +79,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ReorderableAttribute*, creationType>()));
     }
   }; // ReorderableAttribute
+  #pragma pack(pop)
   static check_size<sizeof(ReorderableAttribute), 25 + sizeof(bool)> __GlobalNamespace_ReorderableAttributeSizeCheck;
   static_assert(sizeof(ReorderableAttribute) == 0x1A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReorderableAttribute*, "", "ReorderableAttribute");

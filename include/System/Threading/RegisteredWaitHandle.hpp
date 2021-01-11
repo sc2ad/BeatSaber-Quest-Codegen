@@ -108,8 +108,8 @@ namespace System::Threading {
     // Offset: 0x1D0A2FC
     bool Unregister(System::Threading::WaitHandle* waitObject);
   }; // System.Threading.RegisteredWaitHandle
+  #pragma pack(pop)
   static check_size<sizeof(RegisteredWaitHandle), 77 + sizeof(bool)> __System_Threading_RegisteredWaitHandleSizeCheck;
   static_assert(sizeof(RegisteredWaitHandle) == 0x4E);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::RegisteredWaitHandle*, "System.Threading", "RegisteredWaitHandle");

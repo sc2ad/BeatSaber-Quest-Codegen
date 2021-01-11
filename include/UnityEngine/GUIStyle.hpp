@@ -393,8 +393,8 @@ namespace UnityEngine {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.GUIStyle
+  #pragma pack(pop)
   static check_size<sizeof(GUIStyle), 120 + sizeof(::Il2CppString*)> __UnityEngine_GUIStyleSizeCheck;
   static_assert(sizeof(GUIStyle) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyle*, "UnityEngine", "GUIStyle");

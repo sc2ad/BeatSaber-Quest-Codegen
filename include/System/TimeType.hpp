@@ -52,8 +52,8 @@ namespace System {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.TimeType
+  #pragma pack(pop)
   static check_size<sizeof(TimeType), 24 + sizeof(::Il2CppString*)> __System_TimeTypeSizeCheck;
   static_assert(sizeof(TimeType) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::TimeType*, "System", "TimeType");

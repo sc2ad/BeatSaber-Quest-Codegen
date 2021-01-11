@@ -55,8 +55,8 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<Dropdown::OptionDataList*, creationType>()));
     }
   }; // UnityEngine.UI.Dropdown/OptionDataList
+  #pragma pack(pop)
   static check_size<sizeof(Dropdown::OptionDataList), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*)> __UnityEngine_UI_Dropdown_OptionDataListSizeCheck;
   static_assert(sizeof(Dropdown::OptionDataList) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::OptionDataList*, "UnityEngine.UI", "Dropdown/OptionDataList");

@@ -73,8 +73,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberModelContainer*, creationType>()));
     }
   }; // SaberModelContainer
+  #pragma pack(pop)
   static check_size<sizeof(SaberModelContainer), 40 + sizeof(Zenject::DiContainer*)> __GlobalNamespace_SaberModelContainerSizeCheck;
   static_assert(sizeof(SaberModelContainer) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberModelContainer*, "", "SaberModelContainer");

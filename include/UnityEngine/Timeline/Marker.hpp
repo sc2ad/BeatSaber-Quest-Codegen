@@ -89,8 +89,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<Marker*, creationType>()));
     }
   }; // UnityEngine.Timeline.Marker
+  #pragma pack(pop)
   static check_size<sizeof(Marker), 32 + sizeof(UnityEngine::Timeline::TrackAsset*)> __UnityEngine_Timeline_MarkerSizeCheck;
   static_assert(sizeof(Marker) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::Marker*, "UnityEngine.Timeline", "Marker");

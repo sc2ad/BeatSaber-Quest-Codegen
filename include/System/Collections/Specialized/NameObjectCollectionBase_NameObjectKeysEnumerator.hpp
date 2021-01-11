@@ -79,8 +79,8 @@ namespace System::Collections::Specialized {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // System.Collections.Specialized.NameObjectCollectionBase/NameObjectKeysEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(NameObjectCollectionBase::NameObjectKeysEnumerator), 32 + sizeof(int)> __System_Collections_Specialized_NameObjectCollectionBase_NameObjectKeysEnumeratorSizeCheck;
   static_assert(sizeof(NameObjectCollectionBase::NameObjectKeysEnumerator) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator*, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectKeysEnumerator");

@@ -72,8 +72,8 @@ namespace Valve::VR {
     // Offset: 0xCB6814
     void Unpack(Valve::VR::RenderModel_t& unpacked);
   }; // Valve.VR.RenderModel_t_Packed
+  #pragma pack(pop)
   static check_size<sizeof(RenderModel_t_Packed), 24 + sizeof(int)> __Valve_VR_RenderModel_t_PackedSizeCheck;
   static_assert(sizeof(RenderModel_t_Packed) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_t_Packed, "Valve.VR", "RenderModel_t_Packed");

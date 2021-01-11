@@ -77,8 +77,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();
   }; // Org.BouncyCastle.Asn1.ConstructedOctetStream
+  #pragma pack(pop)
   static check_size<sizeof(ConstructedOctetStream), 64 + sizeof(System::IO::Stream*)> __Org_BouncyCastle_Asn1_ConstructedOctetStreamSizeCheck;
   static_assert(sizeof(ConstructedOctetStream) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::ConstructedOctetStream*, "Org.BouncyCastle.Asn1", "ConstructedOctetStream");

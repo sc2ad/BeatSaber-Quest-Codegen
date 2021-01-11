@@ -237,8 +237,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TubeBloomPrePassLight*, creationType>()));
     }
   }; // TubeBloomPrePassLight
+  #pragma pack(pop)
   static check_size<sizeof(TubeBloomPrePassLight), 136 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_TubeBloomPrePassLightSizeCheck;
   static_assert(sizeof(TubeBloomPrePassLight) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeBloomPrePassLight*, "", "TubeBloomPrePassLight");

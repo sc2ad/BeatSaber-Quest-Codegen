@@ -93,8 +93,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BombCutSoundEffect*, creationType>()));
     }
   }; // BombCutSoundEffect
+  #pragma pack(pop)
   static check_size<sizeof(BombCutSoundEffect), 40 + sizeof(GlobalNamespace::Saber*)> __GlobalNamespace_BombCutSoundEffectSizeCheck;
   static_assert(sizeof(BombCutSoundEffect) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombCutSoundEffect*, "", "BombCutSoundEffect");

@@ -86,9 +86,9 @@ namespace RootMotion::FinalIK {
     // Set static field: static public RootMotion.FinalIK.FullBodyBipedEffector RightFoot
     static void _set_RightFoot(RootMotion::FinalIK::FullBodyBipedEffector value);
   }; // RootMotion.FinalIK.FullBodyBipedEffector
+  #pragma pack(pop)
   static check_size<sizeof(FullBodyBipedEffector), 0 + sizeof(int)> __RootMotion_FinalIK_FullBodyBipedEffectorSizeCheck;
   static_assert(sizeof(FullBodyBipedEffector) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FullBodyBipedEffector, "RootMotion.FinalIK", "FullBodyBipedEffector");

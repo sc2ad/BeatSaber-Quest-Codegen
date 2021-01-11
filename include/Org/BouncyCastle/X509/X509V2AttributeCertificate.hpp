@@ -101,8 +101,8 @@ namespace Org::BouncyCastle::X509 {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.X509.X509V2AttributeCertificate
+  #pragma pack(pop)
   static check_size<sizeof(X509V2AttributeCertificate), 32 + sizeof(System::DateTime)> __Org_BouncyCastle_X509_X509V2AttributeCertificateSizeCheck;
   static_assert(sizeof(X509V2AttributeCertificate) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509V2AttributeCertificate*, "Org.BouncyCastle.X509", "X509V2AttributeCertificate");

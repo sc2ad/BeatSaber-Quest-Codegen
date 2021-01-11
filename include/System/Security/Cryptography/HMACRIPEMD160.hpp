@@ -42,6 +42,6 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<HMACRIPEMD160*, creationType>()));
     }
   }; // System.Security.Cryptography.HMACRIPEMD160
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACRIPEMD160*, "System.Security.Cryptography", "HMACRIPEMD160");

@@ -41,7 +41,7 @@ namespace Mono::Security::Interface {
     // Offset: 0x17B76B0
     static Mono::Security::Interface::ICertificateValidator2* GetInternalValidator(Mono::Security::Interface::MonoTlsSettings* settings, Mono::Security::Interface::MonoTlsProvider* provider);
   }; // Mono.Security.Interface.CertificateValidationHelper
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::CertificateValidationHelper*, "Mono.Security.Interface", "CertificateValidationHelper");

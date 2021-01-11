@@ -58,8 +58,8 @@ namespace OVRSimpleJSON {
       return THROW_UNLESS((::il2cpp_utils::New<JSONObject::$$c__DisplayClass21_0*, creationType>()));
     }
   }; // OVRSimpleJSON.JSONObject/<>c__DisplayClass21_0
+  #pragma pack(pop)
   static check_size<sizeof(JSONObject::$$c__DisplayClass21_0), 16 + sizeof(OVRSimpleJSON::JSONNode*)> __OVRSimpleJSON_JSONObject_$$c__DisplayClass21_0SizeCheck;
   static_assert(sizeof(JSONObject::$$c__DisplayClass21_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONObject::$$c__DisplayClass21_0*, "OVRSimpleJSON", "JSONObject/<>c__DisplayClass21_0");

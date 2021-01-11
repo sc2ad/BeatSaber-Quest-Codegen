@@ -77,8 +77,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Int32 DerStringBase::Asn1GetHashCode()
     int Asn1GetHashCode();
   }; // Org.BouncyCastle.Asn1.DerVisibleString
+  #pragma pack(pop)
   static check_size<sizeof(DerVisibleString), 16 + sizeof(::Il2CppString*)> __Org_BouncyCastle_Asn1_DerVisibleStringSizeCheck;
   static_assert(sizeof(DerVisibleString) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerVisibleString*, "Org.BouncyCastle.Asn1", "DerVisibleString");

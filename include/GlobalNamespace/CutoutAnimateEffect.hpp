@@ -96,8 +96,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CutoutAnimateEffect*, creationType>()));
     }
   }; // CutoutAnimateEffect
+  #pragma pack(pop)
   static check_size<sizeof(CutoutAnimateEffect), 40 + sizeof(bool)> __GlobalNamespace_CutoutAnimateEffectSizeCheck;
   static_assert(sizeof(CutoutAnimateEffect) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutAnimateEffect*, "", "CutoutAnimateEffect");

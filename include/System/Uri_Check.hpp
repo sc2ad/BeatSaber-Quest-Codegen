@@ -89,9 +89,9 @@ namespace System {
     // Set static field: static public System.Uri/Check FoundNonAscii
     static void _set_FoundNonAscii(System::Uri::Check value);
   }; // System.Uri/Check
+  #pragma pack(pop)
   static check_size<sizeof(Uri::Check), 0 + sizeof(int)> __System_Uri_CheckSizeCheck;
   static_assert(sizeof(Uri::Check) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Uri::Check, "System", "Uri/Check");

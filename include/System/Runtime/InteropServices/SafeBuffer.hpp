@@ -34,9 +34,9 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1165EC0
     void ReleasePointer();
   }; // System.Runtime.InteropServices.SafeBuffer
+  #pragma pack(pop)
   static check_size<sizeof(SafeBuffer), 30 + sizeof(bool)> __System_Runtime_InteropServices_SafeBufferSizeCheck;
   static_assert(sizeof(SafeBuffer) == 0x1F);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeBuffer*, "System.Runtime.InteropServices", "SafeBuffer");

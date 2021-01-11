@@ -66,8 +66,8 @@ namespace LiteNetLib {
     // Offset: 0x1DC6078
     static LiteNetLib::NetPacket* Make(int64_t connectId, uint8_t connectNum, bool reusedPeer);
   }; // LiteNetLib.NetConnectAcceptPacket
+  #pragma pack(pop)
   static check_size<sizeof(NetConnectAcceptPacket), 25 + sizeof(bool)> __LiteNetLib_NetConnectAcceptPacketSizeCheck;
   static_assert(sizeof(NetConnectAcceptPacket) == 0x1A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectAcceptPacket*, "LiteNetLib", "NetConnectAcceptPacket");

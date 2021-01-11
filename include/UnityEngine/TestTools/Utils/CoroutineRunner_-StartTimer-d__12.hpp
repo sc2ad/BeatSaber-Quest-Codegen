@@ -115,8 +115,8 @@ namespace UnityEngine::TestTools::Utils {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.TestTools.Utils.CoroutineRunner/<StartTimer>d__12
+  #pragma pack(pop)
   static check_size<sizeof(CoroutineRunner::$StartTimer$d__12), 56 + sizeof(System::Action*)> __UnityEngine_TestTools_Utils_CoroutineRunner_$StartTimer$d__12SizeCheck;
   static_assert(sizeof(CoroutineRunner::$StartTimer$d__12) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::CoroutineRunner::$StartTimer$d__12*, "UnityEngine.TestTools.Utils", "CoroutineRunner/<StartTimer>d__12");

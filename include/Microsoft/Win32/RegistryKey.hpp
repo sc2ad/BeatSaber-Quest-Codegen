@@ -183,8 +183,8 @@ namespace Microsoft::Win32 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Microsoft.Win32.RegistryKey
+  #pragma pack(pop)
   static check_size<sizeof(RegistryKey), 57 + sizeof(bool)> __Microsoft_Win32_RegistryKeySizeCheck;
   static_assert(sizeof(RegistryKey) == 0x3A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryKey*, "Microsoft.Win32", "RegistryKey");

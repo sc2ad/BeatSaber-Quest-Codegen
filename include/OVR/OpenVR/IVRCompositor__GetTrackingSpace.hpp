@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x185C858
     OVR::OpenVR::ETrackingUniverseOrigin EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_GetTrackingSpace
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_GetTrackingSpace*, "OVR.OpenVR", "IVRCompositor/_GetTrackingSpace");

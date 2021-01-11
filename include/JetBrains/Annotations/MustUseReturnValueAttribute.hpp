@@ -57,8 +57,8 @@ namespace JetBrains::Annotations {
       return THROW_UNLESS((::il2cpp_utils::New<MustUseReturnValueAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.MustUseReturnValueAttribute
+  #pragma pack(pop)
   static check_size<sizeof(MustUseReturnValueAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_MustUseReturnValueAttributeSizeCheck;
   static_assert(sizeof(MustUseReturnValueAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MustUseReturnValueAttribute*, "JetBrains.Annotations", "MustUseReturnValueAttribute");

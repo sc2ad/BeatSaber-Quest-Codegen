@@ -50,8 +50,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassRendererSO::PreallocationData*, creationType>()));
     }
   }; // BloomPrePassRendererSO/PreallocationData
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePassRendererSO::PreallocationData), 24 + sizeof(int)> __GlobalNamespace_BloomPrePassRendererSO_PreallocationDataSizeCheck;
   static_assert(sizeof(BloomPrePassRendererSO::PreallocationData) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRendererSO::PreallocationData*, "", "BloomPrePassRendererSO/PreallocationData");

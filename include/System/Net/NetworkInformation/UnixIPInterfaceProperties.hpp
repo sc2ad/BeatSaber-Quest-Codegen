@@ -82,8 +82,8 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Net.NetworkInformation.UnicastIPAddressInformationCollection IPInterfaceProperties::get_UnicastAddresses()
     System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();
   }; // System.Net.NetworkInformation.UnixIPInterfaceProperties
+  #pragma pack(pop)
   static check_size<sizeof(UnixIPInterfaceProperties), 24 + sizeof(System::Collections::Generic::List_1<System::Net::IPAddress*>*)> __System_Net_NetworkInformation_UnixIPInterfacePropertiesSizeCheck;
   static_assert(sizeof(UnixIPInterfaceProperties) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixIPInterfaceProperties*, "System.Net.NetworkInformation", "UnixIPInterfaceProperties");

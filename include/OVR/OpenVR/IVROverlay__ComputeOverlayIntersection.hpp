@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1868680
     bool EndInvoke(OVR::OpenVR::VROverlayIntersectionParams_t& pParams, OVR::OpenVR::VROverlayIntersectionResults_t& pResults, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_ComputeOverlayIntersection
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_ComputeOverlayIntersection*, "OVR.OpenVR", "IVROverlay/_ComputeOverlayIntersection");

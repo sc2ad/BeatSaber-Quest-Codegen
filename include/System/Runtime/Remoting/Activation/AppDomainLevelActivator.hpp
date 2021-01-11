@@ -64,8 +64,8 @@ namespace System::Runtime::Remoting::Activation {
     // Base method: System.Runtime.Remoting.Activation.IConstructionReturnMessage IActivator::Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
     System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
   }; // System.Runtime.Remoting.Activation.AppDomainLevelActivator
+  #pragma pack(pop)
   static check_size<sizeof(AppDomainLevelActivator), 24 + sizeof(System::Runtime::Remoting::Activation::IActivator*)> __System_Runtime_Remoting_Activation_AppDomainLevelActivatorSizeCheck;
   static_assert(sizeof(AppDomainLevelActivator) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::AppDomainLevelActivator*, "System.Runtime.Remoting.Activation", "AppDomainLevelActivator");

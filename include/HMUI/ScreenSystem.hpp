@@ -157,8 +157,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ScreenSystem*, creationType>()));
     }
   }; // HMUI.ScreenSystem
+  #pragma pack(pop)
   static check_size<sizeof(ScreenSystem), 96 + sizeof(HMUI::ButtonBinder*)> __HMUI_ScreenSystemSizeCheck;
   static_assert(sizeof(ScreenSystem) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenSystem*, "HMUI", "ScreenSystem");

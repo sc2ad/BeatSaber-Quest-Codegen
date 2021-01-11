@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Offset: 0x193D688
     static void _cctor();
   }; // Org.BouncyCastle.Math.EC.Endo.EndoUtilities
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::EndoUtilities*, "Org.BouncyCastle.Math.EC.Endo", "EndoUtilities");

@@ -90,8 +90,8 @@ namespace OVR::OpenVR {
     // Offset: 0xC93900
     void Unpack(OVR::OpenVR::VRControllerState_t& unpacked);
   }; // OVR.OpenVR.VRControllerState_t_Packed
+  #pragma pack(pop)
   static check_size<sizeof(VRControllerState_t_Packed), 52 + sizeof(OVR::OpenVR::VRControllerAxis_t)> __OVR_OpenVR_VRControllerState_t_PackedSizeCheck;
   static_assert(sizeof(VRControllerState_t_Packed) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRControllerState_t_Packed, "OVR.OpenVR", "VRControllerState_t_Packed");

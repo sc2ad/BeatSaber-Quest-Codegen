@@ -37,8 +37,8 @@ namespace System::Runtime::Remoting::Messaging {
       return THROW_UNLESS((::il2cpp_utils::New<CADArgHolder*, creationType>(i)));
     }
   }; // System.Runtime.Remoting.Messaging.CADArgHolder
+  #pragma pack(pop)
   static check_size<sizeof(CADArgHolder), 16 + sizeof(int)> __System_Runtime_Remoting_Messaging_CADArgHolderSizeCheck;
   static_assert(sizeof(CADArgHolder) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADArgHolder*, "System.Runtime.Remoting.Messaging", "CADArgHolder");

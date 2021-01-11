@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x190FADC
     void EndInvoke(OVR::OpenVR::TrackedDevicePose_t& pOutputPose, OVR::OpenVR::TrackedDevicePose_t& pTrackedDevicePose, OVR::OpenVR::HmdMatrix34_t& pTransform, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_ApplyTransform
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_ApplyTransform*, "OVR.OpenVR", "IVRSystem/_ApplyTransform");

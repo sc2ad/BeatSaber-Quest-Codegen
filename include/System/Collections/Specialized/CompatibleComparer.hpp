@@ -91,8 +91,8 @@ namespace System::Collections::Specialized {
     // Maps to method: GetHashCode
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj);
   }; // System.Collections.Specialized.CompatibleComparer
+  #pragma pack(pop)
   static check_size<sizeof(CompatibleComparer), 24 + sizeof(System::Collections::IHashCodeProvider*)> __System_Collections_Specialized_CompatibleComparerSizeCheck;
   static_assert(sizeof(CompatibleComparer) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::CompatibleComparer*, "System.Collections.Specialized", "CompatibleComparer");

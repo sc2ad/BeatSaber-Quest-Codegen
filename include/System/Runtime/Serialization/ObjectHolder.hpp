@@ -267,8 +267,8 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1305154
     int64_t get_ContainerID();
   }; // System.Runtime.Serialization.ObjectHolder
+  #pragma pack(pop)
   static check_size<sizeof(ObjectHolder), 104 + sizeof(bool)> __System_Runtime_Serialization_ObjectHolderSizeCheck;
   static_assert(sizeof(ObjectHolder) == 0x69);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectHolder*, "System.Runtime.Serialization", "ObjectHolder");

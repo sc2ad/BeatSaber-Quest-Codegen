@@ -83,8 +83,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ShockwaveEffect*, creationType>()));
     }
   }; // ShockwaveEffect
+  #pragma pack(pop)
   static check_size<sizeof(ShockwaveEffect), 184 + sizeof(float)> __GlobalNamespace_ShockwaveEffectSizeCheck;
   static_assert(sizeof(ShockwaveEffect) == 0xBC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShockwaveEffect*, "", "ShockwaveEffect");

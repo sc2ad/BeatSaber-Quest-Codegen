@@ -44,9 +44,9 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.UnconnectedMessageType Broadcast
     static void _set_Broadcast(LiteNetLib::UnconnectedMessageType value);
   }; // LiteNetLib.UnconnectedMessageType
+  #pragma pack(pop)
   static check_size<sizeof(UnconnectedMessageType), 0 + sizeof(int)> __LiteNetLib_UnconnectedMessageTypeSizeCheck;
   static_assert(sizeof(UnconnectedMessageType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::UnconnectedMessageType, "LiteNetLib", "UnconnectedMessageType");

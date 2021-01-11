@@ -130,8 +130,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TrackLaneRing*, creationType>()));
     }
   }; // TrackLaneRing
+  #pragma pack(pop)
   static check_size<sizeof(TrackLaneRing), 72 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_TrackLaneRingSizeCheck;
   static_assert(sizeof(TrackLaneRing) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRing*, "", "TrackLaneRing");

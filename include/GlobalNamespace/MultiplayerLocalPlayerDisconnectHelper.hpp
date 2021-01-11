@@ -84,8 +84,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalPlayerDisconnectHelper*, creationType>()));
     }
   }; // MultiplayerLocalPlayerDisconnectHelper
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalPlayerDisconnectHelper), 32 + sizeof(GlobalNamespace::IMultiplayerLevelEndActionsListener*)> __GlobalNamespace_MultiplayerLocalPlayerDisconnectHelperSizeCheck;
   static_assert(sizeof(MultiplayerLocalPlayerDisconnectHelper) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*, "", "MultiplayerLocalPlayerDisconnectHelper");

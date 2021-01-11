@@ -70,8 +70,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ShaderWarmupSceneSetup*, creationType>()));
     }
   }; // ShaderWarmupSceneSetup
+  #pragma pack(pop)
   static check_size<sizeof(ShaderWarmupSceneSetup), 32 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_ShaderWarmupSceneSetupSizeCheck;
   static_assert(sizeof(ShaderWarmupSceneSetup) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneSetup*, "", "ShaderWarmupSceneSetup");

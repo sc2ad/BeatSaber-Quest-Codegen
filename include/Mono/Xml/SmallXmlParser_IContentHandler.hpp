@@ -39,7 +39,7 @@ namespace Mono::Xml {
     // Offset: 0xFFFFFFFF
     void OnIgnorableWhitespace(::Il2CppString* text);
   }; // Mono.Xml.SmallXmlParser/IContentHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::IContentHandler*, "Mono.Xml", "SmallXmlParser/IContentHandler");

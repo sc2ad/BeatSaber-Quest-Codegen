@@ -210,8 +210,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // PyramidBloomMainEffectSO
+  #pragma pack(pop)
   static check_size<sizeof(PyramidBloomMainEffectSO), 112 + sizeof(UnityEngine::Material*)> __GlobalNamespace_PyramidBloomMainEffectSOSizeCheck;
   static_assert(sizeof(PyramidBloomMainEffectSO) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomMainEffectSO*, "", "PyramidBloomMainEffectSO");

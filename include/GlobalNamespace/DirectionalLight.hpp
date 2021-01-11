@@ -94,8 +94,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // DirectionalLight
+  #pragma pack(pop)
   static check_size<sizeof(DirectionalLight), 40 + sizeof(float)> __GlobalNamespace_DirectionalLightSizeCheck;
   static_assert(sizeof(DirectionalLight) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLight*, "", "DirectionalLight");

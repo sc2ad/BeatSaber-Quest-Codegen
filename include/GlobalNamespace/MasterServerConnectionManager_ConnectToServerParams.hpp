@@ -77,8 +77,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MasterServerConnectionManager::ConnectToServerParams*, creationType>()));
     }
   }; // MasterServerConnectionManager/ConnectToServerParams
+  #pragma pack(pop)
   static check_size<sizeof(MasterServerConnectionManager::ConnectToServerParams), 88 + sizeof(::Il2CppString*)> __GlobalNamespace_MasterServerConnectionManager_ConnectToServerParamsSizeCheck;
   static_assert(sizeof(MasterServerConnectionManager::ConnectToServerParams) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams*, "", "MasterServerConnectionManager/ConnectToServerParams");

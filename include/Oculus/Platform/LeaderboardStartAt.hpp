@@ -60,9 +60,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.LeaderboardStartAt Unknown
     static void _set_Unknown(Oculus::Platform::LeaderboardStartAt value);
   }; // Oculus.Platform.LeaderboardStartAt
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardStartAt), 0 + sizeof(int)> __Oculus_Platform_LeaderboardStartAtSizeCheck;
   static_assert(sizeof(LeaderboardStartAt) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LeaderboardStartAt, "Oculus.Platform", "LeaderboardStartAt");

@@ -35,7 +35,7 @@ namespace System::Runtime::Remoting::Contexts {
     // Offset: 0xFFFFFFFF
     bool IsNewContextOK(System::Runtime::Remoting::Contexts::Context* newCtx);
   }; // System.Runtime.Remoting.Contexts.IContextProperty
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContextProperty*, "System.Runtime.Remoting.Contexts", "IContextProperty");

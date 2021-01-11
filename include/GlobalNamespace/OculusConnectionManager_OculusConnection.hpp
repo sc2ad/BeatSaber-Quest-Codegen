@@ -139,8 +139,8 @@ namespace GlobalNamespace {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // OculusConnectionManager/OculusConnection
+  #pragma pack(pop)
   static check_size<sizeof(OculusConnectionManager::OculusConnection), 40 + sizeof(bool)> __GlobalNamespace_OculusConnectionManager_OculusConnectionSizeCheck;
   static_assert(sizeof(OculusConnectionManager::OculusConnection) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::OculusConnection*, "", "OculusConnectionManager/OculusConnection");

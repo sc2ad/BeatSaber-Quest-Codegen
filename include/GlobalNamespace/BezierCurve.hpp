@@ -58,8 +58,8 @@ namespace GlobalNamespace {
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  BezierCurve(UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, UnityEngine::Vector3 p3)
   }; // BezierCurve
+  #pragma pack(pop)
   static check_size<sizeof(BezierCurve), 36 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_BezierCurveSizeCheck;
   static_assert(sizeof(BezierCurve) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierCurve, "", "BezierCurve");

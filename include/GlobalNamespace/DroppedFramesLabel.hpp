@@ -101,8 +101,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DroppedFramesLabel*, creationType>()));
     }
   }; // DroppedFramesLabel
+  #pragma pack(pop)
   static check_size<sizeof(DroppedFramesLabel), 56 + sizeof(int)> __GlobalNamespace_DroppedFramesLabelSizeCheck;
   static_assert(sizeof(DroppedFramesLabel) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroppedFramesLabel*, "", "DroppedFramesLabel");

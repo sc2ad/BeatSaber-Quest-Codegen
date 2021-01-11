@@ -58,8 +58,8 @@ namespace System::Runtime::Remoting::Metadata {
     // Base method: System.Void SoapAttribute::SetReflectionObject(System.Object reflectionObject)
     void SetReflectionObject(::Il2CppObject* reflectionObject);
   }; // System.Runtime.Remoting.Metadata.SoapFieldAttribute
+  #pragma pack(pop)
   static check_size<sizeof(SoapFieldAttribute), 48 + sizeof(bool)> __System_Runtime_Remoting_Metadata_SoapFieldAttributeSizeCheck;
   static_assert(sizeof(SoapFieldAttribute) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapFieldAttribute*, "System.Runtime.Remoting.Metadata", "SoapFieldAttribute");

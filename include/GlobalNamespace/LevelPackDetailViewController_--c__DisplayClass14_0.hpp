@@ -57,8 +57,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelPackDetailViewController::$$c__DisplayClass14_0*, creationType>()));
     }
   }; // LevelPackDetailViewController/<>c__DisplayClass14_0
+  #pragma pack(pop)
   static check_size<sizeof(LevelPackDetailViewController::$$c__DisplayClass14_0), 24 + sizeof(GlobalNamespace::LevelPackDetailViewController*)> __GlobalNamespace_LevelPackDetailViewController_$$c__DisplayClass14_0SizeCheck;
   static_assert(sizeof(LevelPackDetailViewController::$$c__DisplayClass14_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController::$$c__DisplayClass14_0*, "", "LevelPackDetailViewController/<>c__DisplayClass14_0");

@@ -105,8 +105,8 @@ namespace UnityEngine::UI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.UI.Scrollbar/<ClickRepeat>d__58
+  #pragma pack(pop)
   static check_size<sizeof(Scrollbar::$ClickRepeat$d__58), 48 + sizeof(UnityEngine::Camera*)> __UnityEngine_UI_Scrollbar_$ClickRepeat$d__58SizeCheck;
   static_assert(sizeof(Scrollbar::$ClickRepeat$d__58) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar::$ClickRepeat$d__58*, "UnityEngine.UI", "Scrollbar/<ClickRepeat>d__58");

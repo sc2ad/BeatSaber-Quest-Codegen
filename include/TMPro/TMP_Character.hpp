@@ -53,6 +53,6 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Character*, creationType>()));
     }
   }; // TMPro.TMP_Character
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Character*, "TMPro", "TMP_Character");

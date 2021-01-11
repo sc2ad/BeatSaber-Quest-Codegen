@@ -76,8 +76,8 @@ namespace System::Security::Cryptography {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Security.Cryptography.HashAlgorithmName
+  #pragma pack(pop)
   static check_size<sizeof(HashAlgorithmName), 0 + sizeof(::Il2CppString*)> __System_Security_Cryptography_HashAlgorithmNameSizeCheck;
   static_assert(sizeof(HashAlgorithmName) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HashAlgorithmName, "System.Security.Cryptography", "HashAlgorithmName");

@@ -40,8 +40,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<TooltipAttribute*, creationType>(tooltip)));
     }
   }; // UnityEngine.TooltipAttribute
+  #pragma pack(pop)
   static check_size<sizeof(TooltipAttribute), 16 + sizeof(::Il2CppString*)> __UnityEngine_TooltipAttributeSizeCheck;
   static_assert(sizeof(TooltipAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TooltipAttribute*, "UnityEngine", "TooltipAttribute");

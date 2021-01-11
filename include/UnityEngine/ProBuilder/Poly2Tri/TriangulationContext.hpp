@@ -145,8 +145,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       return THROW_UNLESS((::il2cpp_utils::New<TriangulationContext*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationContext
+  #pragma pack(pop)
   static check_size<sizeof(TriangulationContext), 60 + sizeof(bool)> __UnityEngine_ProBuilder_Poly2Tri_TriangulationContextSizeCheck;
   static_assert(sizeof(TriangulationContext) == 0x3D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationContext");

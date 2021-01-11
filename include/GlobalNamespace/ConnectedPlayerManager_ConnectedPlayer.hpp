@@ -278,8 +278,8 @@ namespace GlobalNamespace {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // ConnectedPlayerManager/ConnectedPlayer
+  #pragma pack(pop)
   static check_size<sizeof(ConnectedPlayerManager::ConnectedPlayer), 216 + sizeof(GlobalNamespace::RollingAverage*)> __GlobalNamespace_ConnectedPlayerManager_ConnectedPlayerSizeCheck;
   static_assert(sizeof(ConnectedPlayerManager::ConnectedPlayer) == 0xE0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*, "", "ConnectedPlayerManager/ConnectedPlayer");

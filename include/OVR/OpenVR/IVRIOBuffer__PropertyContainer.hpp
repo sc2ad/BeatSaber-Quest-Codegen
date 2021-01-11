@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x18624B4
     uint64_t EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRIOBuffer/_PropertyContainer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRIOBuffer::_PropertyContainer*, "OVR.OpenVR", "IVRIOBuffer/_PropertyContainer");

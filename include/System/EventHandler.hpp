@@ -50,6 +50,6 @@ namespace System {
     // Offset: 0x112A5F0
     void EndInvoke(System::IAsyncResult* result);
   }; // System.EventHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::EventHandler*, "System", "EventHandler");

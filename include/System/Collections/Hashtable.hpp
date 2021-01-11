@@ -105,6 +105,7 @@ namespace System::Collections {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // System.Collections.Hashtable/bucket
+    #pragma pack(pop)
     static check_size<sizeof(Hashtable::bucket), 16 + sizeof(int)> __System_Collections_Hashtable_bucketSizeCheck;
     static_assert(sizeof(Hashtable::bucket) == 0x14);
     // private System.Collections.Hashtable/bucket[] buckets
@@ -473,9 +474,9 @@ namespace System::Collections {
     // Maps to method: OnDeserialization
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
   }; // System.Collections.Hashtable
+  #pragma pack(pop)
   static check_size<sizeof(Hashtable), 72 + sizeof(::Il2CppObject*)> __System_Collections_HashtableSizeCheck;
   static_assert(sizeof(Hashtable) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable*, "System.Collections", "Hashtable");
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::bucket, "System.Collections", "Hashtable/bucket");

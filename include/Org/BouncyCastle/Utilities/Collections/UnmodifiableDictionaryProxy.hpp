@@ -98,8 +98,8 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Base method: System.Object UnmodifiableDictionary::GetValue(System.Object k)
     ::Il2CppObject* GetValue(::Il2CppObject* k);
   }; // Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionaryProxy
+  #pragma pack(pop)
   static check_size<sizeof(UnmodifiableDictionaryProxy), 16 + sizeof(System::Collections::IDictionary*)> __Org_BouncyCastle_Utilities_Collections_UnmodifiableDictionaryProxySizeCheck;
   static_assert(sizeof(UnmodifiableDictionaryProxy) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableDictionaryProxy");

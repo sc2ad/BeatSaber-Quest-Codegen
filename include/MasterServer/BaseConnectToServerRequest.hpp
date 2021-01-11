@@ -122,8 +122,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<BaseConnectToServerRequest*, creationType>()));
     }
   }; // MasterServer.BaseConnectToServerRequest
+  #pragma pack(pop)
   static check_size<sizeof(BaseConnectToServerRequest), 48 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_BaseConnectToServerRequestSizeCheck;
   static_assert(sizeof(BaseConnectToServerRequest) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseConnectToServerRequest*, "MasterServer", "BaseConnectToServerRequest");

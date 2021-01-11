@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x193179C
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_TriggerHapticPulse
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_TriggerHapticPulse*, "Valve.VR", "IVRSystem/_TriggerHapticPulse");

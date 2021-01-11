@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x18EC400
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRDriverManager/_GetDriverCount
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRDriverManager::_GetDriverCount*, "Valve.VR", "IVRDriverManager/_GetDriverCount");

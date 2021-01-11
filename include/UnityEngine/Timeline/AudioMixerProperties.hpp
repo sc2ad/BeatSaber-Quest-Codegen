@@ -67,8 +67,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<AudioMixerProperties*, creationType>()));
     }
   }; // UnityEngine.Timeline.AudioMixerProperties
+  #pragma pack(pop)
   static check_size<sizeof(AudioMixerProperties), 24 + sizeof(float)> __UnityEngine_Timeline_AudioMixerPropertiesSizeCheck;
   static_assert(sizeof(AudioMixerProperties) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioMixerProperties*, "UnityEngine.Timeline", "AudioMixerProperties");

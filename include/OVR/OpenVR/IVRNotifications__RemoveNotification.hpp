@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1867D44
     OVR::OpenVR::EVRNotificationError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRNotifications/_RemoveNotification
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRNotifications::_RemoveNotification*, "OVR.OpenVR", "IVRNotifications/_RemoveNotification");

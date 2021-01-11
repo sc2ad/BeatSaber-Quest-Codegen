@@ -58,8 +58,8 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<Base64Encoder*, creationType>()));
     }
   }; // System.Xml.Base64Encoder
+  #pragma pack(pop)
   static check_size<sizeof(Base64Encoder), 32 + sizeof(::Array<::Il2CppChar>*)> __System_Xml_Base64EncoderSizeCheck;
   static_assert(sizeof(Base64Encoder) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::Base64Encoder*, "System.Xml", "Base64Encoder");

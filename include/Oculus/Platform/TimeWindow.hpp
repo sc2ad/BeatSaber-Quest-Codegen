@@ -74,9 +74,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.TimeWindow NinetyDays
     static void _set_NinetyDays(Oculus::Platform::TimeWindow value);
   }; // Oculus.Platform.TimeWindow
+  #pragma pack(pop)
   static check_size<sizeof(TimeWindow), 0 + sizeof(int)> __Oculus_Platform_TimeWindowSizeCheck;
   static_assert(sizeof(TimeWindow) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::TimeWindow, "Oculus.Platform", "TimeWindow");

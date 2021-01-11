@@ -90,8 +90,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemeTableCell*, creationType>()));
     }
   }; // ColorSchemeTableCell
+  #pragma pack(pop)
   static check_size<sizeof(ColorSchemeTableCell), 96 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_ColorSchemeTableCellSizeCheck;
   static_assert(sizeof(ColorSchemeTableCell) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeTableCell*, "", "ColorSchemeTableCell");

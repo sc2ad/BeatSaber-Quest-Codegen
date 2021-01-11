@@ -98,8 +98,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // TweenPosition/<AnimateToNewPosCoroutine>d__11
+  #pragma pack(pop)
   static check_size<sizeof(TweenPosition::$AnimateToNewPosCoroutine$d__11), 52 + sizeof(float)> __GlobalNamespace_TweenPosition_$AnimateToNewPosCoroutine$d__11SizeCheck;
   static_assert(sizeof(TweenPosition::$AnimateToNewPosCoroutine$d__11) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TweenPosition::$AnimateToNewPosCoroutine$d__11*, "", "TweenPosition/<AnimateToNewPosCoroutine>d__11");

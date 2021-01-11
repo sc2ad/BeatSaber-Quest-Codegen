@@ -98,9 +98,9 @@ namespace UnityEngine::XR {
     // Set static field: static public UnityEngine.XR.InputFeatureType kUnityXRInputFeatureTypeInvalid
     static void _set_kUnityXRInputFeatureTypeInvalid(UnityEngine::XR::InputFeatureType value);
   }; // UnityEngine.XR.InputFeatureType
+  #pragma pack(pop)
   static check_size<sizeof(InputFeatureType), 0 + sizeof(uint)> __UnityEngine_XR_InputFeatureTypeSizeCheck;
   static_assert(sizeof(InputFeatureType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputFeatureType, "UnityEngine.XR", "InputFeatureType");

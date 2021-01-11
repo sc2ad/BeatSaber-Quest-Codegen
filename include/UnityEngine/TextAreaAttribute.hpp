@@ -42,8 +42,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<TextAreaAttribute*, creationType>(minLines, maxLines)));
     }
   }; // UnityEngine.TextAreaAttribute
+  #pragma pack(pop)
   static check_size<sizeof(TextAreaAttribute), 20 + sizeof(int)> __UnityEngine_TextAreaAttributeSizeCheck;
   static_assert(sizeof(TextAreaAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextAreaAttribute*, "UnityEngine", "TextAreaAttribute");

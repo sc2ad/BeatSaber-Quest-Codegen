@@ -51,6 +51,6 @@ namespace System {
     // Offset: 0x166DAF8
     bool EndInvoke(System::__DTString& str, int& result, System::IAsyncResult* __result);
   }; // System.DateTimeParse/MatchNumberDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeParse::MatchNumberDelegate*, "System", "DateTimeParse/MatchNumberDelegate");

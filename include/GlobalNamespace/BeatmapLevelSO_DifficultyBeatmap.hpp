@@ -130,8 +130,8 @@ namespace GlobalNamespace {
     // Base method: IDifficultyBeatmapSet IDifficultyBeatmap::get_parentDifficultyBeatmapSet()
     GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
   }; // BeatmapLevelSO/DifficultyBeatmap
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapLevelSO::DifficultyBeatmap), 48 + sizeof(GlobalNamespace::IDifficultyBeatmapSet*)> __GlobalNamespace_BeatmapLevelSO_DifficultyBeatmapSizeCheck;
   static_assert(sizeof(BeatmapLevelSO::DifficultyBeatmap) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*, "", "BeatmapLevelSO/DifficultyBeatmap");

@@ -69,6 +69,7 @@ namespace GlobalNamespace {
       // Set static field: static public HowToPlayViewController/HowToPlayOptions Credits
       static void _set_Credits(GlobalNamespace::HowToPlayViewController::HowToPlayOptions value);
     }; // HowToPlayViewController/HowToPlayOptions
+    #pragma pack(pop)
     static check_size<sizeof(HowToPlayViewController::HowToPlayOptions), 0 + sizeof(int)> __GlobalNamespace_HowToPlayViewController_HowToPlayOptionsSizeCheck;
     static_assert(sizeof(HowToPlayViewController::HowToPlayOptions) == 0x4);
     // private UnityEngine.UI.Button _tutorialButton
@@ -127,9 +128,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HowToPlayViewController*, creationType>()));
     }
   }; // HowToPlayViewController
+  #pragma pack(pop)
   static check_size<sizeof(HowToPlayViewController), 128 + sizeof(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*)> __GlobalNamespace_HowToPlayViewControllerSizeCheck;
   static_assert(sizeof(HowToPlayViewController) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HowToPlayViewController*, "", "HowToPlayViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HowToPlayViewController::HowToPlayOptions, "", "HowToPlayViewController/HowToPlayOptions");

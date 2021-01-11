@@ -55,9 +55,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // BladeMovementDataElement
+  #pragma pack(pop)
   static check_size<sizeof(BladeMovementDataElement), 32 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_BladeMovementDataElementSizeCheck;
   static_assert(sizeof(BladeMovementDataElement) == 0x2C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BladeMovementDataElement, "", "BladeMovementDataElement");

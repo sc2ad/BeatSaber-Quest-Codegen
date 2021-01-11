@@ -81,6 +81,7 @@ namespace RootMotion::FinalIK {
       // Set static field: static public RootMotion.FinalIK.Grounding/Quality Best
       static void _set_Best(RootMotion::FinalIK::Grounding::Quality value);
     }; // RootMotion.FinalIK.Grounding/Quality
+    #pragma pack(pop)
     static check_size<sizeof(Grounding::Quality), 0 + sizeof(int)> __RootMotion_FinalIK_Grounding_QualitySizeCheck;
     static_assert(sizeof(Grounding::Quality) == 0x4);
     // [TooltipAttribute] Offset: 0xDB5F5C
@@ -341,9 +342,9 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Grounding*, creationType>()));
     }
   }; // RootMotion.FinalIK.Grounding
+  #pragma pack(pop)
   static check_size<sizeof(Grounding), 164 + sizeof(bool)> __RootMotion_FinalIK_GroundingSizeCheck;
   static_assert(sizeof(Grounding) == 0xA5);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding*, "RootMotion.FinalIK", "Grounding");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Quality, "RootMotion.FinalIK", "Grounding/Quality");

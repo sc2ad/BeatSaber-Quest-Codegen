@@ -186,8 +186,8 @@ namespace System::IO::Compression {
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
   }; // System.IO.Compression.DeflateStream
+  #pragma pack(pop)
   static check_size<sizeof(DeflateStream), 56 + sizeof(System::IO::Compression::DeflateStreamNative*)> __System_IO_Compression_DeflateStreamSizeCheck;
   static_assert(sizeof(DeflateStream) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStream*, "System.IO.Compression", "DeflateStream");

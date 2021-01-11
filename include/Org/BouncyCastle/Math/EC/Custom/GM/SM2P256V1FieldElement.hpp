@@ -152,8 +152,8 @@ namespace Org::BouncyCastle::Math::EC::Custom::GM {
     // Base method: System.Int32 ECFieldElement::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.EC.Custom.GM.SM2P256V1FieldElement
+  #pragma pack(pop)
   static check_size<sizeof(SM2P256V1FieldElement), 16 + sizeof(::Array<uint>*)> __Org_BouncyCastle_Math_EC_Custom_GM_SM2P256V1FieldElementSizeCheck;
   static_assert(sizeof(SM2P256V1FieldElement) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement*, "Org.BouncyCastle.Math.EC.Custom.GM", "SM2P256V1FieldElement");

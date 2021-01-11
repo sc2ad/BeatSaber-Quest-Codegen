@@ -86,8 +86,8 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Offset: 0x1193500
     void Draw();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer
+  #pragma pack(pop)
   static check_size<sizeof(TestResultRenderer), 28 + sizeof(UnityEngine::Vector2)> __UnityEngine_TestTools_TestRunner_Callbacks_TestResultRendererSizeCheck;
   static_assert(sizeof(TestResultRenderer) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRenderer");

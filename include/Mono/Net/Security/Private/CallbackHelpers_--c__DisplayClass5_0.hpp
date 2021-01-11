@@ -64,8 +64,8 @@ namespace Mono::Net::Security::Private {
       return THROW_UNLESS((::il2cpp_utils::New<CallbackHelpers::$$c__DisplayClass5_0*, creationType>()));
     }
   }; // Mono.Net.Security.Private.CallbackHelpers/<>c__DisplayClass5_0
+  #pragma pack(pop)
   static check_size<sizeof(CallbackHelpers::$$c__DisplayClass5_0), 16 + sizeof(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*)> __Mono_Net_Security_Private_CallbackHelpers_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(CallbackHelpers::$$c__DisplayClass5_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0*, "Mono.Net.Security.Private", "CallbackHelpers/<>c__DisplayClass5_0");

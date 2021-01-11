@@ -57,8 +57,8 @@ namespace OVR::OpenVR {
     // Offset: 0x11F5154
     uint64_t GetDriverHandle(::Il2CppString* pchDriverName);
   }; // OVR.OpenVR.CVRDriverManager
+  #pragma pack(pop)
   static check_size<sizeof(CVRDriverManager), 16 + sizeof(OVR::OpenVR::IVRDriverManager)> __OVR_OpenVR_CVRDriverManagerSizeCheck;
   static_assert(sizeof(CVRDriverManager) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRDriverManager*, "OVR.OpenVR", "CVRDriverManager");

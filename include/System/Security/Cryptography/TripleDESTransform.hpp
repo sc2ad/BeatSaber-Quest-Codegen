@@ -82,8 +82,8 @@ namespace System::Security::Cryptography {
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
     void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
   }; // System.Security.Cryptography.TripleDESTransform
+  #pragma pack(pop)
   static check_size<sizeof(TripleDESTransform), 128 + sizeof(System::Security::Cryptography::DESTransform*)> __System_Security_Cryptography_TripleDESTransformSizeCheck;
   static_assert(sizeof(TripleDESTransform) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::TripleDESTransform*, "System.Security.Cryptography", "TripleDESTransform");

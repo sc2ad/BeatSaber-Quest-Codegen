@@ -74,8 +74,8 @@ namespace NUnit::Framework::Internal::Commands {
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Internal.Commands.OneTimeTearDownCommand
+  #pragma pack(pop)
   static check_size<sizeof(OneTimeTearDownCommand), 32 + sizeof(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*)> __NUnit_Framework_Internal_Commands_OneTimeTearDownCommandSizeCheck;
   static_assert(sizeof(OneTimeTearDownCommand) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand*, "NUnit.Framework.Internal.Commands", "OneTimeTearDownCommand");

@@ -64,8 +64,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BuildInfoOverlay*, creationType>()));
     }
   }; // BuildInfoOverlay
+  #pragma pack(pop)
   static check_size<sizeof(BuildInfoOverlay), 32 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_BuildInfoOverlaySizeCheck;
   static_assert(sizeof(BuildInfoOverlay) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BuildInfoOverlay*, "", "BuildInfoOverlay");

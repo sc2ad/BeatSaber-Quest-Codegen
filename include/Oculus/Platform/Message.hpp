@@ -1029,6 +1029,7 @@ namespace Oculus::Platform {
       // Set static field: static public Oculus.Platform.Message/MessageType Platform_InitializeWindowsAsynchronous
       static void _set_Platform_InitializeWindowsAsynchronous(Oculus::Platform::Message::MessageType value);
     }; // Oculus.Platform.Message/MessageType
+    #pragma pack(pop)
     static check_size<sizeof(Message::MessageType), 0 + sizeof(uint)> __Oculus_Platform_Message_MessageTypeSizeCheck;
     static_assert(sizeof(Message::MessageType) == 0x4);
     // private Oculus.Platform.Message/MessageType type
@@ -1296,9 +1297,9 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Oculus.Platform.Message
+  #pragma pack(pop)
   static check_size<sizeof(Message), 32 + sizeof(Oculus::Platform::Models::Error*)> __Oculus_Platform_MessageSizeCheck;
   static_assert(sizeof(Message) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message*, "Oculus.Platform", "Message");
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message::MessageType, "Oculus.Platform", "Message/MessageType");

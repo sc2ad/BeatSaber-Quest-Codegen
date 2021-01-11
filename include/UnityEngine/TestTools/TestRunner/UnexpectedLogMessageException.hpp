@@ -64,8 +64,8 @@ namespace UnityEngine::TestTools::TestRunner {
     // Base method: System.String Exception::get_StackTrace()
     ::Il2CppString* get_StackTrace();
   }; // UnityEngine.TestTools.TestRunner.UnexpectedLogMessageException
+  #pragma pack(pop)
   static check_size<sizeof(UnexpectedLogMessageException), 136 + sizeof(UnityEngine::TestTools::Logging::LogMatch*)> __UnityEngine_TestTools_TestRunner_UnexpectedLogMessageExceptionSizeCheck;
   static_assert(sizeof(UnexpectedLogMessageException) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*, "UnityEngine.TestTools.TestRunner", "UnexpectedLogMessageException");

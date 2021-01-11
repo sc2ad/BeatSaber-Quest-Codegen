@@ -61,8 +61,8 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Offset: 0x18BF700
     ::Array<uint8_t>* get_Content();
   }; // Org.BouncyCastle.Utilities.IO.Pem.PemObject
+  #pragma pack(pop)
   static check_size<sizeof(PemObject), 32 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Utilities_IO_Pem_PemObjectSizeCheck;
   static_assert(sizeof(PemObject) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemObject*, "Org.BouncyCastle.Utilities.IO.Pem", "PemObject");

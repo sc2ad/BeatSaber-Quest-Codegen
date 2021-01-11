@@ -72,8 +72,8 @@ namespace System::Reflection {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.CustomAttributeTypedArgument
+  #pragma pack(pop)
   static check_size<sizeof(CustomAttributeTypedArgument), 8 + sizeof(::Il2CppObject*)> __System_Reflection_CustomAttributeTypedArgumentSizeCheck;
   static_assert(sizeof(CustomAttributeTypedArgument) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeTypedArgument, "System.Reflection", "CustomAttributeTypedArgument");

@@ -112,8 +112,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteJumpStartBeatOffsetDropdown*, creationType>()));
     }
   }; // NoteJumpStartBeatOffsetDropdown
+  #pragma pack(pop)
   static check_size<sizeof(NoteJumpStartBeatOffsetDropdown), 40 + sizeof(System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>*)> __GlobalNamespace_NoteJumpStartBeatOffsetDropdownSizeCheck;
   static_assert(sizeof(NoteJumpStartBeatOffsetDropdown) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*, "", "NoteJumpStartBeatOffsetDropdown");

@@ -76,8 +76,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<InjectAttributeBase*, creationType>()));
     }
   }; // Zenject.InjectAttributeBase
+  #pragma pack(pop)
   static check_size<sizeof(InjectAttributeBase), 32 + sizeof(Zenject::InjectSources)> __Zenject_InjectAttributeBaseSizeCheck;
   static_assert(sizeof(InjectAttributeBase) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectAttributeBase*, "Zenject", "InjectAttributeBase");

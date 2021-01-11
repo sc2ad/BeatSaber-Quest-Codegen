@@ -217,8 +217,8 @@ namespace GlobalNamespace {
     // Offset: 0x11045E4
     bool GetHairTriggerUp();
   }; // SteamVR_Controller/Device
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_Controller::Device), 245 + sizeof(bool)> __GlobalNamespace_SteamVR_Controller_DeviceSizeCheck;
   static_assert(sizeof(SteamVR_Controller::Device) == 0xF6);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller::Device*, "", "SteamVR_Controller/Device");

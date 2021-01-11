@@ -62,8 +62,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return THROW_UNLESS((::il2cpp_utils::New<ObjectNull*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectNull
+  #pragma pack(pop)
   static check_size<sizeof(ObjectNull), 16 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_ObjectNullSizeCheck;
   static_assert(sizeof(ObjectNull) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectNull*, "System.Runtime.Serialization.Formatters.Binary", "ObjectNull");

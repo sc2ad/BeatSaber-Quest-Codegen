@@ -134,8 +134,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<MatchmakingServerStatusUpdateRequest*, creationType>()));
     }
   }; // MasterServer.MatchmakingServerStatusUpdateRequest
+  #pragma pack(pop)
   static check_size<sizeof(MatchmakingServerStatusUpdateRequest), 52 + sizeof(GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType)> __MasterServer_MatchmakingServerStatusUpdateRequestSizeCheck;
   static_assert(sizeof(MatchmakingServerStatusUpdateRequest) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MatchmakingServerStatusUpdateRequest*, "MasterServer", "MatchmakingServerStatusUpdateRequest");

@@ -36,7 +36,7 @@ namespace UnityEngine {
     // Offset: 0x1684284
     static void set_lockState(UnityEngine::CursorLockMode value);
   }; // UnityEngine.Cursor
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Cursor*, "UnityEngine", "Cursor");

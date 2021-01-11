@@ -135,8 +135,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AudioManagerSO*, creationType>()));
     }
   }; // AudioManagerSO
+  #pragma pack(pop)
   static check_size<sizeof(AudioManagerSO), 48 + sizeof(bool)> __GlobalNamespace_AudioManagerSOSizeCheck;
   static_assert(sizeof(AudioManagerSO) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioManagerSO*, "", "AudioManagerSO");

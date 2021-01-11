@@ -314,9 +314,9 @@ namespace System::Net {
     // Set static field: static public System.Net.HttpStatusCode HttpVersionNotSupported
     static void _set_HttpVersionNotSupported(System::Net::HttpStatusCode value);
   }; // System.Net.HttpStatusCode
+  #pragma pack(pop)
   static check_size<sizeof(HttpStatusCode), 0 + sizeof(int)> __System_Net_HttpStatusCodeSizeCheck;
   static_assert(sizeof(HttpStatusCode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpStatusCode, "System.Net", "HttpStatusCode");

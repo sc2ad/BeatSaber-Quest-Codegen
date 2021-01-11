@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // LeaderboardScoreUploader/<UploadScoresCoroutine>d__14
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardScoreUploader::$UploadScoresCoroutine$d__14), 32 + sizeof(GlobalNamespace::LeaderboardScoreUploader*)> __GlobalNamespace_LeaderboardScoreUploader_$UploadScoresCoroutine$d__14SizeCheck;
   static_assert(sizeof(LeaderboardScoreUploader::$UploadScoresCoroutine$d__14) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::$UploadScoresCoroutine$d__14*, "", "LeaderboardScoreUploader/<UploadScoresCoroutine>d__14");

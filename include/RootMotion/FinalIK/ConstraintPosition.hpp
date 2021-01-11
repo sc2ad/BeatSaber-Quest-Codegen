@@ -63,8 +63,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintPosition*, creationType>()));
     }
   }; // RootMotion.FinalIK.ConstraintPosition
+  #pragma pack(pop)
   static check_size<sizeof(ConstraintPosition), 28 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_ConstraintPositionSizeCheck;
   static_assert(sizeof(ConstraintPosition) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintPosition*, "RootMotion.FinalIK", "ConstraintPosition");

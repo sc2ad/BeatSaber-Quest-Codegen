@@ -59,8 +59,8 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1441650
     System::Collections::Generic::IList_1<::Il2CppObject*>* get_SerializedStates();
   }; // System.Runtime.Serialization.SafeSerializationEventArgs
+  #pragma pack(pop)
   static check_size<sizeof(SafeSerializationEventArgs), 32 + sizeof(System::Collections::Generic::List_1<::Il2CppObject*>*)> __System_Runtime_Serialization_SafeSerializationEventArgsSizeCheck;
   static_assert(sizeof(SafeSerializationEventArgs) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SafeSerializationEventArgs*, "System.Runtime.Serialization", "SafeSerializationEventArgs");

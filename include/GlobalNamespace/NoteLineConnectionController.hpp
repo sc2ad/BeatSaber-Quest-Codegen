@@ -162,8 +162,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteLineConnectionController*, creationType>()));
     }
   }; // NoteLineConnectionController
+  #pragma pack(pop)
   static check_size<sizeof(NoteLineConnectionController), 124 + sizeof(bool)> __GlobalNamespace_NoteLineConnectionControllerSizeCheck;
   static_assert(sizeof(NoteLineConnectionController) == 0x7D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteLineConnectionController*, "", "NoteLineConnectionController");

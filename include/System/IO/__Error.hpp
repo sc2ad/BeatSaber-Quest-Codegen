@@ -55,7 +55,7 @@ namespace System::IO {
     // Offset: 0x13AB278
     static void WriterClosed();
   }; // System.IO.__Error
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::__Error*, "System.IO", "__Error");

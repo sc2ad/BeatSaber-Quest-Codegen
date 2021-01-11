@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x192FB38
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_IsSteamVRDrawingControllers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_IsSteamVRDrawingControllers*, "Valve.VR", "IVRSystem/_IsSteamVRDrawingControllers");

@@ -123,8 +123,8 @@ namespace OVRSimpleJSON {
     // Base method: System.Int32 JSONNode::GetHashCode()
     int GetHashCode();
   }; // OVRSimpleJSON.JSONNumber
+  #pragma pack(pop)
   static check_size<sizeof(JSONNumber), 16 + sizeof(double)> __OVRSimpleJSON_JSONNumberSizeCheck;
   static_assert(sizeof(JSONNumber) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNumber*, "OVRSimpleJSON", "JSONNumber");

@@ -65,7 +65,7 @@ namespace UnityEngine::UI {
     // Offset: 0x19BAF64
     static void _cctor();
   }; // UnityEngine.UI.StencilMaterial
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::StencilMaterial*, "UnityEngine.UI", "StencilMaterial");

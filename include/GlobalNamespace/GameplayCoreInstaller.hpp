@@ -122,8 +122,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameplayCoreInstaller*, creationType>()));
     }
   }; // GameplayCoreInstaller
+  #pragma pack(pop)
   static check_size<sizeof(GameplayCoreInstaller), 96 + sizeof(GlobalNamespace::GameplayCoreSceneSetupData*)> __GlobalNamespace_GameplayCoreInstallerSizeCheck;
   static_assert(sizeof(GameplayCoreInstaller) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayCoreInstaller*, "", "GameplayCoreInstaller");

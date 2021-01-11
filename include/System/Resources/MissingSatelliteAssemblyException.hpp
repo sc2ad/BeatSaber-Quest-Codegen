@@ -68,8 +68,8 @@ namespace System::Resources {
       return THROW_UNLESS((::il2cpp_utils::New<MissingSatelliteAssemblyException*, creationType>(info, context)));
     }
   }; // System.Resources.MissingSatelliteAssemblyException
+  #pragma pack(pop)
   static check_size<sizeof(MissingSatelliteAssemblyException), 136 + sizeof(::Il2CppString*)> __System_Resources_MissingSatelliteAssemblyExceptionSizeCheck;
   static_assert(sizeof(MissingSatelliteAssemblyException) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::MissingSatelliteAssemblyException*, "System.Resources", "MissingSatelliteAssemblyException");

@@ -99,8 +99,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // LineLight
+  #pragma pack(pop)
   static check_size<sizeof(LineLight), 48 + sizeof(UnityEngine::Color)> __GlobalNamespace_LineLightSizeCheck;
   static_assert(sizeof(LineLight) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineLight*, "", "LineLight");

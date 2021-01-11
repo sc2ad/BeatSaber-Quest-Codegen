@@ -56,8 +56,8 @@ namespace UnityEngine::Scripting {
       return THROW_UNLESS((::il2cpp_utils::New<UsedByNativeCodeAttribute*, creationType>()));
     }
   }; // UnityEngine.Scripting.UsedByNativeCodeAttribute
+  #pragma pack(pop)
   static check_size<sizeof(UsedByNativeCodeAttribute), 16 + sizeof(::Il2CppString*)> __UnityEngine_Scripting_UsedByNativeCodeAttributeSizeCheck;
   static_assert(sizeof(UsedByNativeCodeAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::UsedByNativeCodeAttribute*, "UnityEngine.Scripting", "UsedByNativeCodeAttribute");

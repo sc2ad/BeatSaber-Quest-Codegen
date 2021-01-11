@@ -54,8 +54,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       return THROW_UNLESS((::il2cpp_utils::New<PointOnEdgeException*, creationType>(message, a, b, c)));
     }
   }; // UnityEngine.ProBuilder.Poly2Tri.PointOnEdgeException
+  #pragma pack(pop)
   static check_size<sizeof(PointOnEdgeException), 152 + sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)> __UnityEngine_ProBuilder_Poly2Tri_PointOnEdgeExceptionSizeCheck;
   static_assert(sizeof(PointOnEdgeException) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException*, "UnityEngine.ProBuilder.Poly2Tri", "PointOnEdgeException");

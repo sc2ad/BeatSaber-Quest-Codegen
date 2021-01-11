@@ -118,8 +118,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // SteamVR_RenderModel/<SetModelAsync>d__21
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_RenderModel::$SetModelAsync$d__21), 64 + sizeof(::Array<::Il2CppString*>*)> __GlobalNamespace_SteamVR_RenderModel_$SetModelAsync$d__21SizeCheck;
   static_assert(sizeof(SteamVR_RenderModel::$SetModelAsync$d__21) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::$SetModelAsync$d__21*, "", "SteamVR_RenderModel/<SetModelAsync>d__21");

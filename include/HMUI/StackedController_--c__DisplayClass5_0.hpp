@@ -58,8 +58,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<StackedController::$$c__DisplayClass5_0*, creationType>()));
     }
   }; // HMUI.StackedController/<>c__DisplayClass5_0
+  #pragma pack(pop)
   static check_size<sizeof(StackedController::$$c__DisplayClass5_0), 16 + sizeof(int)> __HMUI_StackedController_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(StackedController::$$c__DisplayClass5_0) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController::$$c__DisplayClass5_0*, "HMUI", "StackedController/<>c__DisplayClass5_0");

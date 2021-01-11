@@ -48,8 +48,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRResetOrientation*, creationType>()));
     }
   }; // OVRResetOrientation
+  #pragma pack(pop)
   static check_size<sizeof(OVRResetOrientation), 24 + sizeof(GlobalNamespace::OVRInput::RawButton)> __GlobalNamespace_OVRResetOrientationSizeCheck;
   static_assert(sizeof(OVRResetOrientation) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResetOrientation*, "", "OVRResetOrientation");

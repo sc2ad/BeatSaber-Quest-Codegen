@@ -142,8 +142,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<NumberFormatter::CustomInfo*, creationType>()));
     }
   }; // System.NumberFormatter/CustomInfo
+  #pragma pack(pop)
   static check_size<sizeof(NumberFormatter::CustomInfo), 68 + sizeof(int)> __System_NumberFormatter_CustomInfoSizeCheck;
   static_assert(sizeof(NumberFormatter::CustomInfo) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter::CustomInfo*, "System", "NumberFormatter/CustomInfo");

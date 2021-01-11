@@ -262,8 +262,8 @@ namespace System::Net {
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
   }; // System.Net.WebRequest
+  #pragma pack(pop)
   static check_size<sizeof(WebRequest), 28 + sizeof(System::Security::Principal::TokenImpersonationLevel)> __System_Net_WebRequestSizeCheck;
   static_assert(sizeof(WebRequest) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest*, "System.Net", "WebRequest");

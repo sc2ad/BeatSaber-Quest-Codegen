@@ -141,8 +141,8 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // SceneStartHandler
+  #pragma pack(pop)
   static check_size<sizeof(SceneStartHandler), 64 + sizeof(System::Action*)> __GlobalNamespace_SceneStartHandlerSizeCheck;
   static_assert(sizeof(SceneStartHandler) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneStartHandler*, "", "SceneStartHandler");

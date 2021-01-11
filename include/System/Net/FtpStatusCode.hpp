@@ -254,9 +254,9 @@ namespace System::Net {
     // Set static field: static public System.Net.FtpStatusCode ActionNotTakenFilenameNotAllowed
     static void _set_ActionNotTakenFilenameNotAllowed(System::Net::FtpStatusCode value);
   }; // System.Net.FtpStatusCode
+  #pragma pack(pop)
   static check_size<sizeof(FtpStatusCode), 0 + sizeof(int)> __System_Net_FtpStatusCodeSizeCheck;
   static_assert(sizeof(FtpStatusCode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpStatusCode, "System.Net", "FtpStatusCode");

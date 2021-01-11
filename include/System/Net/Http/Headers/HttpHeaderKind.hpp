@@ -57,9 +57,9 @@ namespace System::Net::Http::Headers {
     // Set static field: static public System.Net.Http.Headers.HttpHeaderKind Content
     static void _set_Content(System::Net::Http::Headers::HttpHeaderKind value);
   }; // System.Net.Http.Headers.HttpHeaderKind
+  #pragma pack(pop)
   static check_size<sizeof(HttpHeaderKind), 0 + sizeof(int)> __System_Net_Http_Headers_HttpHeaderKindSizeCheck;
   static_assert(sizeof(HttpHeaderKind) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpHeaderKind, "System.Net.Http.Headers", "HttpHeaderKind");

@@ -36,9 +36,9 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
   }; // NUnit.Framework.Internal.InternalTraceWriter
+  #pragma pack(pop)
   static check_size<sizeof(InternalTraceWriter), 40 + sizeof(System::IO::TextWriter*)> __NUnit_Framework_Internal_InternalTraceWriterSizeCheck;
   static_assert(sizeof(InternalTraceWriter) == 0x30);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InternalTraceWriter*, "NUnit.Framework.Internal", "InternalTraceWriter");

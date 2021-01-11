@@ -65,6 +65,7 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerConditionalActiveByLayout/Condition HideIf
       static void _set_HideIf(GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition value);
     }; // MultiplayerConditionalActiveByLayout/Condition
+    #pragma pack(pop)
     static check_size<sizeof(MultiplayerConditionalActiveByLayout::Condition), 0 + sizeof(int)> __GlobalNamespace_MultiplayerConditionalActiveByLayout_ConditionSizeCheck;
     static_assert(sizeof(MultiplayerConditionalActiveByLayout::Condition) == 0x4);
     // private MultiplayerConditionalActiveByLayout/Condition _condition
@@ -110,9 +111,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConditionalActiveByLayout*, creationType>()));
     }
   }; // MultiplayerConditionalActiveByLayout
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerConditionalActiveByLayout), 32 + sizeof(GlobalNamespace::MultiplayerLayoutProvider*)> __GlobalNamespace_MultiplayerConditionalActiveByLayoutSizeCheck;
   static_assert(sizeof(MultiplayerConditionalActiveByLayout) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConditionalActiveByLayout*, "", "MultiplayerConditionalActiveByLayout");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition, "", "MultiplayerConditionalActiveByLayout/Condition");

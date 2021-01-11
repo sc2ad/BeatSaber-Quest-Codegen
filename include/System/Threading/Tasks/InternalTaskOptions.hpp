@@ -87,9 +87,9 @@ namespace System::Threading::Tasks {
     // Set static field: static public System.Threading.Tasks.InternalTaskOptions DoNotDispose
     static void _set_DoNotDispose(System::Threading::Tasks::InternalTaskOptions value);
   }; // System.Threading.Tasks.InternalTaskOptions
+  #pragma pack(pop)
   static check_size<sizeof(InternalTaskOptions), 0 + sizeof(int)> __System_Threading_Tasks_InternalTaskOptionsSizeCheck;
   static_assert(sizeof(InternalTaskOptions) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::InternalTaskOptions, "System.Threading.Tasks", "InternalTaskOptions");

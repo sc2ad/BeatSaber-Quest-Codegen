@@ -69,9 +69,9 @@ namespace GlobalNamespace {
     // Set static field: static public BeatmapDifficultyMask All
     static void _set_All(GlobalNamespace::BeatmapDifficultyMask value);
   }; // BeatmapDifficultyMask
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapDifficultyMask), 0 + sizeof(uint8_t)> __GlobalNamespace_BeatmapDifficultyMaskSizeCheck;
   static_assert(sizeof(BeatmapDifficultyMask) == 0x1);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultyMask, "", "BeatmapDifficultyMask");

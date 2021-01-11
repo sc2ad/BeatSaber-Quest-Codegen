@@ -115,8 +115,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>()));
     }
   }; // TMPro.KerningPair
+  #pragma pack(pop)
   static check_size<sizeof(KerningPair), 60 + sizeof(bool)> __TMPro_KerningPairSizeCheck;
   static_assert(sizeof(KerningPair) == 0x3D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningPair*, "TMPro", "KerningPair");

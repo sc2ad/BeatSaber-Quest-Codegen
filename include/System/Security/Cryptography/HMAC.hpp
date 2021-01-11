@@ -131,8 +131,8 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<HMAC*, creationType>()));
     }
   }; // System.Security.Cryptography.HMAC
+  #pragma pack(pop)
   static check_size<sizeof(HMAC), 96 + sizeof(bool)> __System_Security_Cryptography_HMACSizeCheck;
   static_assert(sizeof(HMAC) == 0x61);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMAC*, "System.Security.Cryptography", "HMAC");

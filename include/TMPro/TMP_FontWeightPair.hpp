@@ -41,9 +41,9 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // TMPro.TMP_FontWeightPair
+  #pragma pack(pop)
   static check_size<sizeof(TMP_FontWeightPair), 8 + sizeof(TMPro::TMP_FontAsset*)> __TMPro_TMP_FontWeightPairSizeCheck;
   static_assert(sizeof(TMP_FontWeightPair) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontWeightPair, "TMPro", "TMP_FontWeightPair");

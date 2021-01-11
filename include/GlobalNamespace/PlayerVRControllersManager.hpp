@@ -59,8 +59,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerVRControllersManager*, creationType>()));
     }
   }; // PlayerVRControllersManager
+  #pragma pack(pop)
   static check_size<sizeof(PlayerVRControllersManager), 32 + sizeof(GlobalNamespace::VRController*)> __GlobalNamespace_PlayerVRControllersManagerSizeCheck;
   static_assert(sizeof(PlayerVRControllersManager) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerVRControllersManager*, "", "PlayerVRControllersManager");

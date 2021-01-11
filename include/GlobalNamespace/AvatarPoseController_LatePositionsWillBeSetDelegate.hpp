@@ -56,6 +56,6 @@ namespace GlobalNamespace {
     // Offset: 0x1A45E24
     void EndInvoke(UnityEngine::Vector3& newHeadPosition, UnityEngine::Vector3& newLeftHandPosition, UnityEngine::Vector3& newRightHandPosition, System::IAsyncResult* result);
   }; // AvatarPoseController/LatePositionsWillBeSetDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate*, "", "AvatarPoseController/LatePositionsWillBeSetDelegate");

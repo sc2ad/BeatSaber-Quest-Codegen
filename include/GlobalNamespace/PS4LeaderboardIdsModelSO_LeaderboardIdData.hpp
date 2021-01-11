@@ -49,8 +49,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4LeaderboardIdsModelSO::LeaderboardIdData*, creationType>(ps4LeaderboardId, leaderboardId)));
     }
   }; // PS4LeaderboardIdsModelSO/LeaderboardIdData
+  #pragma pack(pop)
   static check_size<sizeof(PS4LeaderboardIdsModelSO::LeaderboardIdData), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_PS4LeaderboardIdsModelSO_LeaderboardIdDataSizeCheck;
   static_assert(sizeof(PS4LeaderboardIdsModelSO::LeaderboardIdData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*, "", "PS4LeaderboardIdsModelSO/LeaderboardIdData");

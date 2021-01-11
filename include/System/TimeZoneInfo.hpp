@@ -450,8 +450,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<TimeZoneInfo*, creationType>()));
     }
   }; // System.TimeZoneInfo
+  #pragma pack(pop)
   static check_size<sizeof(TimeZoneInfo), 72 + sizeof(::Array<System::TimeZoneInfo::AdjustmentRule*>*)> __System_TimeZoneInfoSizeCheck;
   static_assert(sizeof(TimeZoneInfo) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo*, "System", "TimeZoneInfo");

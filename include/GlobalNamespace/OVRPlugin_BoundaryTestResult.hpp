@@ -53,9 +53,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVRPlugin/BoundaryTestResult
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::BoundaryTestResult), 20 + sizeof(GlobalNamespace::OVRPlugin::Vector3f)> __GlobalNamespace_OVRPlugin_BoundaryTestResultSizeCheck;
   static_assert(sizeof(OVRPlugin::BoundaryTestResult) == 0x20);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::BoundaryTestResult, "", "OVRPlugin/BoundaryTestResult");

@@ -29,7 +29,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x145BD9C
     static ::Il2CppString* FindOidInfoWithFallback(uint key, ::Il2CppString* value, System::Security::Cryptography::OidGroup group);
   }; // System.Security.Cryptography.X509Certificates.X509Utils
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Utils*, "System.Security.Cryptography.X509Certificates", "X509Utils");

@@ -73,8 +73,8 @@ namespace System::Runtime::Serialization {
       return THROW_UNLESS((::il2cpp_utils::New<ObjectIDGenerator*, creationType>()));
     }
   }; // System.Runtime.Serialization.ObjectIDGenerator
+  #pragma pack(pop)
   static check_size<sizeof(ObjectIDGenerator), 32 + sizeof(::Array<::Il2CppObject*>*)> __System_Runtime_Serialization_ObjectIDGeneratorSizeCheck;
   static_assert(sizeof(ObjectIDGenerator) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectIDGenerator*, "System.Runtime.Serialization", "ObjectIDGenerator");

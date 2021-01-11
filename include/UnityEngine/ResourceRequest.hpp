@@ -39,9 +39,9 @@ namespace UnityEngine {
     // Creating value type constructor for type: ResourceRequest
     ResourceRequest(::Il2CppString* m_Path_ = {}, System::Type* m_Type_ = {}) noexcept : m_Path{m_Path_}, m_Type{m_Type_} {}
   }; // UnityEngine.ResourceRequest
+  #pragma pack(pop)
   static check_size<sizeof(ResourceRequest), 40 + sizeof(System::Type*)> __UnityEngine_ResourceRequestSizeCheck;
   static_assert(sizeof(ResourceRequest) == 0x30);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceRequest*, "UnityEngine", "ResourceRequest");

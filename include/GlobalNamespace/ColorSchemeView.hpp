@@ -82,8 +82,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemeView*, creationType>()));
     }
   }; // ColorSchemeView
+  #pragma pack(pop)
   static check_size<sizeof(ColorSchemeView), 56 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_ColorSchemeViewSizeCheck;
   static_assert(sizeof(ColorSchemeView) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeView*, "", "ColorSchemeView");

@@ -33,9 +33,9 @@ namespace OVR::OpenVR {
       return webConsoleHandle;
     }
   }; // OVR.OpenVR.VREvent_WebConsole_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_WebConsole_t), 0 + sizeof(uint64_t)> __OVR_OpenVR_VREvent_WebConsole_tSizeCheck;
   static_assert(sizeof(VREvent_WebConsole_t) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_WebConsole_t, "OVR.OpenVR", "VREvent_WebConsole_t");

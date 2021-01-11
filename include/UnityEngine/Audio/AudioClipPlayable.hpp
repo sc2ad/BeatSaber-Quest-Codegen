@@ -123,8 +123,8 @@ namespace UnityEngine::Audio {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Audio.AudioClipPlayable other)
     bool Equals(UnityEngine::Audio::AudioClipPlayable other);
   }; // UnityEngine.Audio.AudioClipPlayable
+  #pragma pack(pop)
   static check_size<sizeof(AudioClipPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Audio_AudioClipPlayableSizeCheck;
   static_assert(sizeof(AudioClipPlayable) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioClipPlayable, "UnityEngine.Audio", "AudioClipPlayable");

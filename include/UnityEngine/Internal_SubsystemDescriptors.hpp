@@ -58,7 +58,7 @@ namespace UnityEngine {
     // Offset: 0x1A07A50
     static void _cctor();
   }; // UnityEngine.Internal_SubsystemDescriptors
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal_SubsystemDescriptors*, "UnityEngine", "Internal_SubsystemDescriptors");

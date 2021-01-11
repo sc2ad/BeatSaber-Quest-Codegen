@@ -101,8 +101,8 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Void BufferedCipherBase::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.BufferedAeadBlockCipher
+  #pragma pack(pop)
   static check_size<sizeof(BufferedAeadBlockCipher), 16 + sizeof(Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*)> __Org_BouncyCastle_Crypto_BufferedAeadBlockCipherSizeCheck;
   static_assert(sizeof(BufferedAeadBlockCipher) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::BufferedAeadBlockCipher*, "Org.BouncyCastle.Crypto", "BufferedAeadBlockCipher");

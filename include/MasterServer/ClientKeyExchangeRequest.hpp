@@ -92,8 +92,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ClientKeyExchangeRequest*, creationType>()));
     }
   }; // MasterServer.ClientKeyExchangeRequest
+  #pragma pack(pop)
   static check_size<sizeof(ClientKeyExchangeRequest), 24 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_ClientKeyExchangeRequestSizeCheck;
   static_assert(sizeof(ClientKeyExchangeRequest) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ClientKeyExchangeRequest*, "MasterServer", "ClientKeyExchangeRequest");

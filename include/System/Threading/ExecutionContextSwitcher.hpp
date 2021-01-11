@@ -64,9 +64,9 @@ namespace System::Threading {
     // Offset: 0xCA5C78
     void Undo();
   }; // System.Threading.ExecutionContextSwitcher
+  #pragma pack(pop)
   static check_size<sizeof(ExecutionContextSwitcher), 24 + sizeof(System::Threading::Thread*)> __System_Threading_ExecutionContextSwitcherSizeCheck;
   static_assert(sizeof(ExecutionContextSwitcher) == 0x20);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContextSwitcher, "System.Threading", "ExecutionContextSwitcher");

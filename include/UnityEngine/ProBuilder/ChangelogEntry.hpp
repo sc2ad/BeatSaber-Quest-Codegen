@@ -57,8 +57,8 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.ChangelogEntry
+  #pragma pack(pop)
   static check_size<sizeof(ChangelogEntry), 24 + sizeof(::Il2CppString*)> __UnityEngine_ProBuilder_ChangelogEntrySizeCheck;
   static_assert(sizeof(ChangelogEntry) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ChangelogEntry*, "UnityEngine.ProBuilder", "ChangelogEntry");

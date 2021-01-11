@@ -103,8 +103,8 @@ namespace System::Resources {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // System.Resources.ResourceFallbackManager/<GetEnumerator>d__5
+  #pragma pack(pop)
   static check_size<sizeof(ResourceFallbackManager::$GetEnumerator$d__5), 48 + sizeof(bool)> __System_Resources_ResourceFallbackManager_$GetEnumerator$d__5SizeCheck;
   static_assert(sizeof(ResourceFallbackManager::$GetEnumerator$d__5) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceFallbackManager::$GetEnumerator$d__5*, "System.Resources", "ResourceFallbackManager/<GetEnumerator>d__5");

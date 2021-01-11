@@ -87,9 +87,9 @@ namespace UnityEngine::Experimental::GlobalIllumination {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.Experimental.GlobalIllumination.PointLight
+  #pragma pack(pop)
   static check_size<sizeof(PointLight), 60 + sizeof(UnityEngine::Experimental::GlobalIllumination::FalloffType)> __UnityEngine_Experimental_GlobalIllumination_PointLightSizeCheck;
   static_assert(sizeof(PointLight) == 0x3D);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::PointLight, "UnityEngine.Experimental.GlobalIllumination", "PointLight");

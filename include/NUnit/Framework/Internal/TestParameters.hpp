@@ -140,8 +140,8 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void IApplyToTest::ApplyToTest(NUnit.Framework.Internal.Test test)
     void ApplyToTest(NUnit::Framework::Internal::Test* test);
   }; // NUnit.Framework.Internal.TestParameters
+  #pragma pack(pop)
   static check_size<sizeof(TestParameters), 48 + sizeof(::Array<::Il2CppObject*>*)> __NUnit_Framework_Internal_TestParametersSizeCheck;
   static_assert(sizeof(TestParameters) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestParameters*, "NUnit.Framework.Internal", "TestParameters");

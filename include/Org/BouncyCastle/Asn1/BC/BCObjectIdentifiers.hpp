@@ -170,7 +170,7 @@ namespace Org::BouncyCastle::Asn1::BC {
     // Offset: 0x137800C
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.BC.BCObjectIdentifiers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BC::BCObjectIdentifiers*, "Org.BouncyCastle.Asn1.BC", "BCObjectIdentifiers");

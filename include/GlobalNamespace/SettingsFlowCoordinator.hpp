@@ -85,6 +85,7 @@ namespace GlobalNamespace {
       // Set static field: static public SettingsFlowCoordinator/FinishAction Apply
       static void _set_Apply(GlobalNamespace::SettingsFlowCoordinator::FinishAction value);
     }; // SettingsFlowCoordinator/FinishAction
+    #pragma pack(pop)
     static check_size<sizeof(SettingsFlowCoordinator::FinishAction), 0 + sizeof(int)> __GlobalNamespace_SettingsFlowCoordinator_FinishActionSizeCheck;
     static_assert(sizeof(SettingsFlowCoordinator::FinishAction) == 0x4);
     // private MainSettingsModelSO _mainSettingsModel
@@ -175,9 +176,9 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // SettingsFlowCoordinator
+  #pragma pack(pop)
   static check_size<sizeof(SettingsFlowCoordinator), 192 + sizeof(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*)> __GlobalNamespace_SettingsFlowCoordinatorSizeCheck;
   static_assert(sizeof(SettingsFlowCoordinator) == 0xC8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator*, "", "SettingsFlowCoordinator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator::FinishAction, "", "SettingsFlowCoordinator/FinishAction");

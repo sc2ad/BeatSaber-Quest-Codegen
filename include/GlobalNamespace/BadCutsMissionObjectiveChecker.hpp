@@ -68,8 +68,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BadCutsMissionObjectiveChecker*, creationType>()));
     }
   }; // BadCutsMissionObjectiveChecker
+  #pragma pack(pop)
   static check_size<sizeof(BadCutsMissionObjectiveChecker), 72 + sizeof(GlobalNamespace::BeatmapObjectManager*)> __GlobalNamespace_BadCutsMissionObjectiveCheckerSizeCheck;
   static_assert(sizeof(BadCutsMissionObjectiveChecker) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BadCutsMissionObjectiveChecker*, "", "BadCutsMissionObjectiveChecker");

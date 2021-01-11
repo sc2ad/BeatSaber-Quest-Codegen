@@ -49,8 +49,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassRenderDataSO*, creationType>()));
     }
   }; // BloomPrePassRenderDataSO
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePassRenderDataSO), 24 + sizeof(GlobalNamespace::BloomPrePassRenderDataSO::Data*)> __GlobalNamespace_BloomPrePassRenderDataSOSizeCheck;
   static_assert(sizeof(BloomPrePassRenderDataSO) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRenderDataSO*, "", "BloomPrePassRenderDataSO");

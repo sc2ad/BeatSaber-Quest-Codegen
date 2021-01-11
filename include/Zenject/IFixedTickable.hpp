@@ -18,7 +18,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     void FixedTick();
   }; // Zenject.IFixedTickable
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IFixedTickable*, "Zenject", "IFixedTickable");

@@ -175,6 +175,6 @@ namespace UnityEngine::TextCore::LowLevel {
       return THROW_UNLESS((::il2cpp_utils::New<FontEngine*, creationType>()));
     }
   }; // UnityEngine.TextCore.LowLevel.FontEngine
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::FontEngine*, "UnityEngine.TextCore.LowLevel", "FontEngine");

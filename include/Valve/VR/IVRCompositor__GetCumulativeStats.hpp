@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18E6138
     void EndInvoke(Valve::VR::Compositor_CumulativeStats& pStats, System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetCumulativeStats
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetCumulativeStats*, "Valve.VR", "IVRCompositor/_GetCumulativeStats");

@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     // Offset: 0x1B4AE08
     static void _cctor();
   }; // DiffieHellmanUtility
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility*, "", "DiffieHellmanUtility");

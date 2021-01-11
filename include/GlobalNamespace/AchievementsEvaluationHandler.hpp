@@ -259,8 +259,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AchievementsEvaluationHandler*, creationType>()));
     }
   }; // AchievementsEvaluationHandler
+  #pragma pack(pop)
   static check_size<sizeof(AchievementsEvaluationHandler), 240 + sizeof(GlobalNamespace::MissionNodesManager*)> __GlobalNamespace_AchievementsEvaluationHandlerSizeCheck;
   static_assert(sizeof(AchievementsEvaluationHandler) == 0xF8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsEvaluationHandler*, "", "AchievementsEvaluationHandler");

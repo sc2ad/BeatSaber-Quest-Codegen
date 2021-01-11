@@ -72,8 +72,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FileCompressionHelper::$$c__DisplayClass0_0*, creationType>()));
     }
   }; // FileCompressionHelper/<>c__DisplayClass0_0
+  #pragma pack(pop)
   static check_size<sizeof(FileCompressionHelper::$$c__DisplayClass0_0), 40 + sizeof(System::Action_1<bool>*)> __GlobalNamespace_FileCompressionHelper_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(FileCompressionHelper::$$c__DisplayClass0_0) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileCompressionHelper::$$c__DisplayClass0_0*, "", "FileCompressionHelper/<>c__DisplayClass0_0");

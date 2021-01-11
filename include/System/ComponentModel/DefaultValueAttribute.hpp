@@ -67,8 +67,8 @@ namespace System::ComponentModel {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.DefaultValueAttribute
+  #pragma pack(pop)
   static check_size<sizeof(DefaultValueAttribute), 16 + sizeof(::Il2CppObject*)> __System_ComponentModel_DefaultValueAttributeSizeCheck;
   static_assert(sizeof(DefaultValueAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DefaultValueAttribute*, "System.ComponentModel", "DefaultValueAttribute");

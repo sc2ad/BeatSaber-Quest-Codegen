@@ -322,8 +322,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRCameraRig*, creationType>()));
     }
   }; // OVRCameraRig
+  #pragma pack(pop)
   static check_size<sizeof(OVRCameraRig), 200 + sizeof(UnityEngine::Camera*)> __GlobalNamespace_OVRCameraRigSizeCheck;
   static_assert(sizeof(OVRCameraRig) == 0xD0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCameraRig*, "", "OVRCameraRig");

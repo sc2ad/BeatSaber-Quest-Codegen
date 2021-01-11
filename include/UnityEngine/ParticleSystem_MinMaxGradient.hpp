@@ -84,8 +84,8 @@ namespace UnityEngine {
     // Offset: 0xCB92B0
     UnityEngine::Color get_color();
   }; // UnityEngine.ParticleSystem/MinMaxGradient
+  #pragma pack(pop)
   static check_size<sizeof(ParticleSystem::MinMaxGradient), 40 + sizeof(UnityEngine::Color)> __UnityEngine_ParticleSystem_MinMaxGradientSizeCheck;
   static_assert(sizeof(ParticleSystem::MinMaxGradient) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxGradient, "UnityEngine", "ParticleSystem/MinMaxGradient");

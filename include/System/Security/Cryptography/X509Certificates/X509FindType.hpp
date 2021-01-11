@@ -122,9 +122,9 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static public System.Security.Cryptography.X509Certificates.X509FindType FindBySubjectKeyIdentifier
     static void _set_FindBySubjectKeyIdentifier(System::Security::Cryptography::X509Certificates::X509FindType value);
   }; // System.Security.Cryptography.X509Certificates.X509FindType
+  #pragma pack(pop)
   static check_size<sizeof(X509FindType), 0 + sizeof(int)> __System_Security_Cryptography_X509Certificates_X509FindTypeSizeCheck;
   static_assert(sizeof(X509FindType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509FindType, "System.Security.Cryptography.X509Certificates", "X509FindType");

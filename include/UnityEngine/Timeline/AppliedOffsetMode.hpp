@@ -74,9 +74,9 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.AppliedOffsetMode SceneOffsetLegacyEditor
     static void _set_SceneOffsetLegacyEditor(UnityEngine::Timeline::AppliedOffsetMode value);
   }; // UnityEngine.Timeline.AppliedOffsetMode
+  #pragma pack(pop)
   static check_size<sizeof(AppliedOffsetMode), 0 + sizeof(int)> __UnityEngine_Timeline_AppliedOffsetModeSizeCheck;
   static_assert(sizeof(AppliedOffsetMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AppliedOffsetMode, "UnityEngine.Timeline", "AppliedOffsetMode");

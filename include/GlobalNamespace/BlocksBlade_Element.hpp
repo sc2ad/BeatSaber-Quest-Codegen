@@ -43,8 +43,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BlocksBlade::Element*, creationType>()));
     }
   }; // BlocksBlade/Element
+  #pragma pack(pop)
   static check_size<sizeof(BlocksBlade::Element), 20 + sizeof(float)> __GlobalNamespace_BlocksBlade_ElementSizeCheck;
   static_assert(sizeof(BlocksBlade::Element) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlocksBlade::Element*, "", "BlocksBlade/Element");

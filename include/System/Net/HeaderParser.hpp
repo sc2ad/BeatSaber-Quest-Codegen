@@ -47,6 +47,6 @@ namespace System::Net {
     // Offset: 0x12A98B8
     ::Array<::Il2CppString*>* EndInvoke(System::IAsyncResult* result);
   }; // System.Net.HeaderParser
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderParser*, "System.Net", "HeaderParser");

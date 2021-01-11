@@ -50,9 +50,9 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.SocketShutdown Both
     static void _set_Both(System::Net::Sockets::SocketShutdown value);
   }; // System.Net.Sockets.SocketShutdown
+  #pragma pack(pop)
   static check_size<sizeof(SocketShutdown), 0 + sizeof(int)> __System_Net_Sockets_SocketShutdownSizeCheck;
   static_assert(sizeof(SocketShutdown) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketShutdown, "System.Net.Sockets", "SocketShutdown");

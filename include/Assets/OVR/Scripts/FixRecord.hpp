@@ -71,8 +71,8 @@ namespace Assets::OVR::Scripts {
       return THROW_UNLESS((::il2cpp_utils::New<FixRecord*, creationType>(cat, msg, fix, target, editRequired, buttons)));
     }
   }; // Assets.OVR.Scripts.FixRecord
+  #pragma pack(pop)
   static check_size<sizeof(FixRecord), 57 + sizeof(bool)> __Assets_OVR_Scripts_FixRecordSizeCheck;
   static_assert(sizeof(FixRecord) == 0x3A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::FixRecord*, "Assets.OVR.Scripts", "FixRecord");

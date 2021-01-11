@@ -56,9 +56,9 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.RenderBufferStoreAction DontCare
     static void _set_DontCare(UnityEngine::Rendering::RenderBufferStoreAction value);
   }; // UnityEngine.Rendering.RenderBufferStoreAction
+  #pragma pack(pop)
   static check_size<sizeof(RenderBufferStoreAction), 0 + sizeof(int)> __UnityEngine_Rendering_RenderBufferStoreActionSizeCheck;
   static_assert(sizeof(RenderBufferStoreAction) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderBufferStoreAction, "UnityEngine.Rendering", "RenderBufferStoreAction");

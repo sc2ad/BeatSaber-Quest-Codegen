@@ -133,8 +133,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<OffsetModifier::OffsetLimits*, creationType>()));
     }
   }; // RootMotion.FinalIK.OffsetModifier/OffsetLimits
+  #pragma pack(pop)
   static check_size<sizeof(OffsetModifier::OffsetLimits), 48 + sizeof(float)> __RootMotion_FinalIK_OffsetModifier_OffsetLimitsSizeCheck;
   static_assert(sizeof(OffsetModifier::OffsetLimits) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifier::OffsetLimits*, "RootMotion.FinalIK", "OffsetModifier/OffsetLimits");

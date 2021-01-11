@@ -30,7 +30,7 @@ namespace System {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* Format(::Il2CppString* format, ::Il2CppObject* arg, System::IFormatProvider* formatProvider);
   }; // System.ICustomFormatter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ICustomFormatter*, "System", "ICustomFormatter");

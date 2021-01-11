@@ -86,6 +86,7 @@ namespace GlobalNamespace {
       // Set static field: static public VRTrackersRecorder/RecordMode Off
       static void _set_Off(GlobalNamespace::VRTrackersRecorder::RecordMode value);
     }; // VRTrackersRecorder/RecordMode
+    #pragma pack(pop)
     static check_size<sizeof(VRTrackersRecorder::RecordMode), 0 + sizeof(int)> __GlobalNamespace_VRTrackersRecorder_RecordModeSizeCheck;
     static_assert(sizeof(VRTrackersRecorder::RecordMode) == 0x4);
     // private FloatSO _songTime
@@ -194,9 +195,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VRTrackersRecorder*, creationType>()));
     }
   }; // VRTrackersRecorder
+  #pragma pack(pop)
   static check_size<sizeof(VRTrackersRecorder), 100 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_VRTrackersRecorderSizeCheck;
   static_assert(sizeof(VRTrackersRecorder) == 0x74);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder*, "", "VRTrackersRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::RecordMode, "", "VRTrackersRecorder/RecordMode");

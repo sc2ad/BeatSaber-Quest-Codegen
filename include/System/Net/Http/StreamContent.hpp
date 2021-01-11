@@ -109,8 +109,8 @@ namespace System::Net::Http {
     // Base method: System.Boolean HttpContent::TryComputeLength(out System.Int64 length)
     bool TryComputeLength(int64_t& length);
   }; // System.Net.Http.StreamContent
+  #pragma pack(pop)
   static check_size<sizeof(StreamContent), 72 + sizeof(bool)> __System_Net_Http_StreamContentSizeCheck;
   static_assert(sizeof(StreamContent) == 0x49);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::StreamContent*, "System.Net.Http", "StreamContent");

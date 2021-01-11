@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x19289A0
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_DriverDebugRequest
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_DriverDebugRequest*, "Valve.VR", "IVRSystem/_DriverDebugRequest");

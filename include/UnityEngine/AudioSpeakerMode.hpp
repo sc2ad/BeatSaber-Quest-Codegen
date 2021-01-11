@@ -81,9 +81,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.AudioSpeakerMode Prologic
     static void _set_Prologic(UnityEngine::AudioSpeakerMode value);
   }; // UnityEngine.AudioSpeakerMode
+  #pragma pack(pop)
   static check_size<sizeof(AudioSpeakerMode), 0 + sizeof(int)> __UnityEngine_AudioSpeakerModeSizeCheck;
   static_assert(sizeof(AudioSpeakerMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSpeakerMode, "UnityEngine", "AudioSpeakerMode");

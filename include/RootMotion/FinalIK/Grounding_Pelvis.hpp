@@ -103,8 +103,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Grounding::Pelvis*, creationType>()));
     }
   }; // RootMotion.FinalIK.Grounding/Pelvis
+  #pragma pack(pop)
   static check_size<sizeof(Grounding::Pelvis), 60 + sizeof(float)> __RootMotion_FinalIK_Grounding_PelvisSizeCheck;
   static_assert(sizeof(Grounding::Pelvis) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Pelvis*, "RootMotion.FinalIK", "Grounding/Pelvis");

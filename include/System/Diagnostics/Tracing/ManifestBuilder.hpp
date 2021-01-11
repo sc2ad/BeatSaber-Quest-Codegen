@@ -240,8 +240,8 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x111ECD4
     int TranslateIndexToManifestConvention(int idx, ::Il2CppString* evtName);
   }; // System.Diagnostics.Tracing.ManifestBuilder
+  #pragma pack(pop)
   static check_size<sizeof(ManifestBuilder), 128 + sizeof(System::Collections::Generic::List_1<int>*)> __System_Diagnostics_Tracing_ManifestBuilderSizeCheck;
   static_assert(sizeof(ManifestBuilder) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ManifestBuilder*, "System.Diagnostics.Tracing", "ManifestBuilder");

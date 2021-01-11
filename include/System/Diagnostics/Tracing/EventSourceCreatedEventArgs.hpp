@@ -53,8 +53,8 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EventSourceCreatedEventArgs*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.EventSourceCreatedEventArgs
+  #pragma pack(pop)
   static check_size<sizeof(EventSourceCreatedEventArgs), 16 + sizeof(System::Diagnostics::Tracing::EventSource*)> __System_Diagnostics_Tracing_EventSourceCreatedEventArgsSizeCheck;
   static_assert(sizeof(EventSourceCreatedEventArgs) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSourceCreatedEventArgs*, "System.Diagnostics.Tracing", "EventSourceCreatedEventArgs");

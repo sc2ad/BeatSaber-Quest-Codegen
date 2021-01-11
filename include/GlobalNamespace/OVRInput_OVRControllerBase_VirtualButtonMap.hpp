@@ -234,8 +234,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerBase::VirtualButtonMap*, creationType>()));
     }
   }; // OVRInput/OVRControllerBase/VirtualButtonMap
+  #pragma pack(pop)
   static check_size<sizeof(OVRInput::OVRControllerBase::VirtualButtonMap), 144 + sizeof(GlobalNamespace::OVRInput::RawButton)> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualButtonMapSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerBase::VirtualButtonMap) == 0x94);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap*, "", "OVRInput/OVRControllerBase/VirtualButtonMap");

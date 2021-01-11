@@ -85,6 +85,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.CanvasScaler/ScaleMode ConstantPhysicalSize
       static void _set_ConstantPhysicalSize(UnityEngine::UI::CanvasScaler::ScaleMode value);
     }; // UnityEngine.UI.CanvasScaler/ScaleMode
+    #pragma pack(pop)
     static check_size<sizeof(CanvasScaler::ScaleMode), 0 + sizeof(int)> __UnityEngine_UI_CanvasScaler_ScaleModeSizeCheck;
     static_assert(sizeof(CanvasScaler::ScaleMode) == 0x4);
     // Size: 0x4
@@ -128,6 +129,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.CanvasScaler/ScreenMatchMode Shrink
       static void _set_Shrink(UnityEngine::UI::CanvasScaler::ScreenMatchMode value);
     }; // UnityEngine.UI.CanvasScaler/ScreenMatchMode
+    #pragma pack(pop)
     static check_size<sizeof(CanvasScaler::ScreenMatchMode), 0 + sizeof(int)> __UnityEngine_UI_CanvasScaler_ScreenMatchModeSizeCheck;
     static_assert(sizeof(CanvasScaler::ScreenMatchMode) == 0x4);
     // Size: 0x4
@@ -183,6 +185,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.CanvasScaler/Unit Picas
       static void _set_Picas(UnityEngine::UI::CanvasScaler::Unit value);
     }; // UnityEngine.UI.CanvasScaler/Unit
+    #pragma pack(pop)
     static check_size<sizeof(CanvasScaler::Unit), 0 + sizeof(int)> __UnityEngine_UI_CanvasScaler_UnitSizeCheck;
     static_assert(sizeof(CanvasScaler::Unit) == 0x4);
     // [TooltipAttribute] Offset: 0xD7E904
@@ -395,10 +398,10 @@ namespace UnityEngine::UI {
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
   }; // UnityEngine.UI.CanvasScaler
+  #pragma pack(pop)
   static check_size<sizeof(CanvasScaler), 84 + sizeof(float)> __UnityEngine_UI_CanvasScalerSizeCheck;
   static_assert(sizeof(CanvasScaler) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler*, "UnityEngine.UI", "CanvasScaler");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::ScaleMode, "UnityEngine.UI", "CanvasScaler/ScaleMode");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::ScreenMatchMode, "UnityEngine.UI", "CanvasScaler/ScreenMatchMode");

@@ -93,9 +93,9 @@ namespace UnityEngine::TextCore::LowLevel {
     // Set static field: static public UnityEngine.TextCore.LowLevel.GlyphLoadFlags LOAD_BITMAP_METRICS_ONLY
     static void _set_LOAD_BITMAP_METRICS_ONLY(UnityEngine::TextCore::LowLevel::GlyphLoadFlags value);
   }; // UnityEngine.TextCore.LowLevel.GlyphLoadFlags
+  #pragma pack(pop)
   static check_size<sizeof(GlyphLoadFlags), 0 + sizeof(int)> __UnityEngine_TextCore_LowLevel_GlyphLoadFlagsSizeCheck;
   static_assert(sizeof(GlyphLoadFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphLoadFlags, "UnityEngine.TextCore.LowLevel", "GlyphLoadFlags");

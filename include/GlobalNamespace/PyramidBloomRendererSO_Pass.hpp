@@ -100,9 +100,9 @@ namespace GlobalNamespace {
     // Set static field: static public PyramidBloomRendererSO/Pass BilinearGamma
     static void _set_BilinearGamma(GlobalNamespace::PyramidBloomRendererSO::Pass value);
   }; // PyramidBloomRendererSO/Pass
+  #pragma pack(pop)
   static check_size<sizeof(PyramidBloomRendererSO::Pass), 0 + sizeof(int)> __GlobalNamespace_PyramidBloomRendererSO_PassSizeCheck;
   static_assert(sizeof(PyramidBloomRendererSO::Pass) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomRendererSO::Pass, "", "PyramidBloomRendererSO/Pass");

@@ -114,6 +114,7 @@ namespace System::Threading {
       // Set static field: static public System.Threading.ExecutionContext/Flags IsPreAllocatedDefault
       static void _set_IsPreAllocatedDefault(System::Threading::ExecutionContext::Flags value);
     }; // System.Threading.ExecutionContext/Flags
+    #pragma pack(pop)
     static check_size<sizeof(ExecutionContext::Flags), 0 + sizeof(int)> __System_Threading_ExecutionContext_FlagsSizeCheck;
     static_assert(sizeof(ExecutionContext::Flags) == 0x4);
     // private System.Threading.SynchronizationContext _syncContext
@@ -307,9 +308,9 @@ namespace System::Threading {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Threading.ExecutionContext
+  #pragma pack(pop)
   static check_size<sizeof(ExecutionContext), 64 + sizeof(System::Collections::Generic::List_1<System::Threading::IAsyncLocal*>*)> __System_Threading_ExecutionContextSizeCheck;
   static_assert(sizeof(ExecutionContext) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext*, "System.Threading", "ExecutionContext");
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::Flags, "System.Threading", "ExecutionContext/Flags");

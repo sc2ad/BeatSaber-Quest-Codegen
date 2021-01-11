@@ -101,8 +101,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardUploadData*, creationType>(playerName, playerId, score, leaderboardId, songName, songSubName, authorName, bpm, difficulty, infoHash, modifiers)));
     }
   }; // LeaderboardUploadData
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardUploadData), 96 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __GlobalNamespace_LeaderboardUploadDataSizeCheck;
   static_assert(sizeof(LeaderboardUploadData) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardUploadData*, "", "LeaderboardUploadData");

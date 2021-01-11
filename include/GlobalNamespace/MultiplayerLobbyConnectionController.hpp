@@ -96,6 +96,7 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerLobbyConnectionController/LobbyConnectionState ConnectionFailed
       static void _set_ConnectionFailed(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState value);
     }; // MultiplayerLobbyConnectionController/LobbyConnectionState
+    #pragma pack(pop)
     static check_size<sizeof(MultiplayerLobbyConnectionController::LobbyConnectionState), 0 + sizeof(int)> __GlobalNamespace_MultiplayerLobbyConnectionController_LobbyConnectionStateSizeCheck;
     static_assert(sizeof(MultiplayerLobbyConnectionController::LobbyConnectionState) == 0x4);
     // Size: 0x4
@@ -145,6 +146,7 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerLobbyConnectionController/LobbyConnectionType QuickPlay
       static void _set_QuickPlay(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType value);
     }; // MultiplayerLobbyConnectionController/LobbyConnectionType
+    #pragma pack(pop)
     static check_size<sizeof(MultiplayerLobbyConnectionController::LobbyConnectionType), 0 + sizeof(int)> __GlobalNamespace_MultiplayerLobbyConnectionController_LobbyConnectionTypeSizeCheck;
     static_assert(sizeof(MultiplayerLobbyConnectionController::LobbyConnectionType) == 0x4);
     // [InjectAttribute] Offset: 0xDC43DC
@@ -272,10 +274,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyConnectionController*, creationType>()));
     }
   }; // MultiplayerLobbyConnectionController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLobbyConnectionController), 64 + sizeof(GlobalNamespace::ConnectionFailedReason)> __GlobalNamespace_MultiplayerLobbyConnectionControllerSizeCheck;
   static_assert(sizeof(MultiplayerLobbyConnectionController) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController*, "", "MultiplayerLobbyConnectionController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState, "", "MultiplayerLobbyConnectionController/LobbyConnectionState");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, "", "MultiplayerLobbyConnectionController/LobbyConnectionType");

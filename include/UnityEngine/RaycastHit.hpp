@@ -101,9 +101,9 @@ namespace UnityEngine {
     // Offset: 0xCB89D0
     void set_distance(float value);
   }; // UnityEngine.RaycastHit
+  #pragma pack(pop)
   static check_size<sizeof(RaycastHit), 40 + sizeof(int)> __UnityEngine_RaycastHitSizeCheck;
   static_assert(sizeof(RaycastHit) == 0x2C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RaycastHit, "UnityEngine", "RaycastHit");

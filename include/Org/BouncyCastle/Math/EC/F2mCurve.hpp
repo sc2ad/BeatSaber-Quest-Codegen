@@ -149,8 +149,8 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: Org.BouncyCastle.Math.EC.ECLookupTable ECCurve::CreateCacheSafeLookupTable(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len)
     Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* points, int off, int len);
   }; // Org.BouncyCastle.Math.EC.F2mCurve
+  #pragma pack(pop)
   static check_size<sizeof(F2mCurve), 104 + sizeof(Org::BouncyCastle::Math::EC::F2mPoint*)> __Org_BouncyCastle_Math_EC_F2mCurveSizeCheck;
   static_assert(sizeof(F2mCurve) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::F2mCurve*, "Org.BouncyCastle.Math.EC", "F2mCurve");

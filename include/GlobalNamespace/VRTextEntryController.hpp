@@ -174,8 +174,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VRTextEntryController*, creationType>()));
     }
   }; // VRTextEntryController
+  #pragma pack(pop)
   static check_size<sizeof(VRTextEntryController), 80 + sizeof(bool)> __GlobalNamespace_VRTextEntryControllerSizeCheck;
   static_assert(sizeof(VRTextEntryController) == 0x51);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTextEntryController*, "", "VRTextEntryController");

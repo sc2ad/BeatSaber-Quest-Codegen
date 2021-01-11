@@ -41,8 +41,8 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyTrademarkAttribute*, creationType>(trademark)));
     }
   }; // System.Reflection.AssemblyTrademarkAttribute
+  #pragma pack(pop)
   static check_size<sizeof(AssemblyTrademarkAttribute), 16 + sizeof(::Il2CppString*)> __System_Reflection_AssemblyTrademarkAttributeSizeCheck;
   static_assert(sizeof(AssemblyTrademarkAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyTrademarkAttribute*, "System.Reflection", "AssemblyTrademarkAttribute");

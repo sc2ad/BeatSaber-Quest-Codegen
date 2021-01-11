@@ -142,8 +142,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroAnimationController*, creationType>()));
     }
   }; // MultiplayerIntroAnimationController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerIntroAnimationController), 64 + sizeof(GlobalNamespace::IMultiplayerSessionManager*)> __GlobalNamespace_MultiplayerIntroAnimationControllerSizeCheck;
   static_assert(sizeof(MultiplayerIntroAnimationController) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroAnimationController*, "", "MultiplayerIntroAnimationController");

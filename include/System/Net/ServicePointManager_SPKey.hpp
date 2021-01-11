@@ -67,8 +67,8 @@ namespace System::Net {
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // System.Net.ServicePointManager/SPKey
+  #pragma pack(pop)
   static check_size<sizeof(ServicePointManager::SPKey), 32 + sizeof(bool)> __System_Net_ServicePointManager_SPKeySizeCheck;
   static_assert(sizeof(ServicePointManager::SPKey) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePointManager::SPKey*, "System.Net", "ServicePointManager/SPKey");

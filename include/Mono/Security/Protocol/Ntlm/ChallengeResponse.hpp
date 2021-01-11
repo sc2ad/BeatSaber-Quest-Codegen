@@ -117,8 +117,8 @@ namespace Mono::Security::Protocol::Ntlm {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Mono.Security.Protocol.Ntlm.ChallengeResponse
+  #pragma pack(pop)
   static check_size<sizeof(ChallengeResponse), 40 + sizeof(::Array<uint8_t>*)> __Mono_Security_Protocol_Ntlm_ChallengeResponseSizeCheck;
   static_assert(sizeof(ChallengeResponse) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::ChallengeResponse*, "Mono.Security.Protocol.Ntlm", "ChallengeResponse");

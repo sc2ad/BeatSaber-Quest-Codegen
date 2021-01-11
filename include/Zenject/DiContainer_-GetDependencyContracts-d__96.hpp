@@ -145,8 +145,8 @@ namespace Zenject {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // Zenject.DiContainer/<GetDependencyContracts>d__96
+  #pragma pack(pop)
   static check_size<sizeof(DiContainer::$GetDependencyContracts$d__96), 64 + sizeof(System::Collections::Generic::IEnumerator_1<Zenject::InjectableInfo*>*)> __Zenject_DiContainer_$GetDependencyContracts$d__96SizeCheck;
   static_assert(sizeof(DiContainer::$GetDependencyContracts$d__96) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::$GetDependencyContracts$d__96*, "Zenject", "DiContainer/<GetDependencyContracts>d__96");

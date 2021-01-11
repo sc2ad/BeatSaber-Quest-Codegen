@@ -32,9 +32,9 @@ namespace System {
       return value;
     }
   }; // System.UInt16Enum
+  #pragma pack(pop)
   static check_size<sizeof(UInt16Enum), 0 + sizeof(uint16_t)> __System_UInt16EnumSizeCheck;
   static_assert(sizeof(UInt16Enum) == 0x2);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UInt16Enum, "System", "UInt16Enum");

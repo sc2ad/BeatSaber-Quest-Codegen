@@ -64,8 +64,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionContext*, creationType>()));
     }
   }; // Zenject.NoTransitionContext
+  #pragma pack(pop)
   static check_size<sizeof(NoTransitionContext), 24 + sizeof(Zenject::NoTransitionInstaller*)> __Zenject_NoTransitionContextSizeCheck;
   static_assert(sizeof(NoTransitionContext) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NoTransitionContext*, "Zenject", "NoTransitionContext");

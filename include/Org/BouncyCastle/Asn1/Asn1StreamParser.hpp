@@ -85,8 +85,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x13771D0
     Org::BouncyCastle::Asn1::Asn1EncodableVector* ReadVector();
   }; // Org.BouncyCastle.Asn1.Asn1StreamParser
+  #pragma pack(pop)
   static check_size<sizeof(Asn1StreamParser), 32 + sizeof(::Array<::Array<uint8_t>*>*)> __Org_BouncyCastle_Asn1_Asn1StreamParserSizeCheck;
   static_assert(sizeof(Asn1StreamParser) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1StreamParser*, "Org.BouncyCastle.Asn1", "Asn1StreamParser");

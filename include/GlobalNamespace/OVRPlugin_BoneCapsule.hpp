@@ -47,9 +47,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVRPlugin/BoneCapsule
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::BoneCapsule), 16 + sizeof(float)> __GlobalNamespace_OVRPlugin_BoneCapsuleSizeCheck;
   static_assert(sizeof(OVRPlugin::BoneCapsule) == 0x14);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::BoneCapsule, "", "OVRPlugin/BoneCapsule");

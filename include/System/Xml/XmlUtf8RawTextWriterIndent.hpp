@@ -190,8 +190,8 @@ namespace System::Xml {
     // Base method: System.Void XmlRawWriter::WriteBase64(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     void WriteBase64(::Array<uint8_t>* buffer, int index, int count);
   }; // System.Xml.XmlUtf8RawTextWriterIndent
+  #pragma pack(pop)
   static check_size<sizeof(XmlUtf8RawTextWriterIndent), 168 + sizeof(System::Xml::ConformanceLevel)> __System_Xml_XmlUtf8RawTextWriterIndentSizeCheck;
   static_assert(sizeof(XmlUtf8RawTextWriterIndent) == 0xAC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlUtf8RawTextWriterIndent*, "System.Xml", "XmlUtf8RawTextWriterIndent");

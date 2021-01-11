@@ -56,9 +56,9 @@ namespace GlobalNamespace {
     // Set static field: static public MultiplayerUnavailableReason MaintenanceMode
     static void _set_MaintenanceMode(GlobalNamespace::MultiplayerUnavailableReason value);
   }; // MultiplayerUnavailableReason
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerUnavailableReason), 0 + sizeof(int)> __GlobalNamespace_MultiplayerUnavailableReasonSizeCheck;
   static_assert(sizeof(MultiplayerUnavailableReason) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerUnavailableReason, "", "MultiplayerUnavailableReason");

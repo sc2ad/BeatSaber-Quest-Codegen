@@ -52,8 +52,8 @@ namespace System::Net::Sockets {
       return THROW_UNLESS((::il2cpp_utils::New<Socket::$$c__DisplayClass242_0*, creationType>()));
     }
   }; // System.Net.Sockets.Socket/<>c__DisplayClass242_0
+  #pragma pack(pop)
   static check_size<sizeof(Socket::$$c__DisplayClass242_0), 16 + sizeof(int)> __System_Net_Sockets_Socket_$$c__DisplayClass242_0SizeCheck;
   static_assert(sizeof(Socket::$$c__DisplayClass242_0) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::$$c__DisplayClass242_0*, "System.Net.Sockets", "Socket/<>c__DisplayClass242_0");

@@ -65,9 +65,9 @@ namespace OnlineServices::API {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.TestApiLeaderboardsModel/<LogoutAsync>d__0
+  #pragma pack(pop)
   static check_size<sizeof(TestApiLeaderboardsModel::$LogoutAsync$d__0), 40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)> __OnlineServices_API_TestApiLeaderboardsModel_$LogoutAsync$d__0SizeCheck;
   static_assert(sizeof(TestApiLeaderboardsModel::$LogoutAsync$d__0) == 0x30);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::TestApiLeaderboardsModel::$LogoutAsync$d__0, "OnlineServices.API", "TestApiLeaderboardsModel/<LogoutAsync>d__0");

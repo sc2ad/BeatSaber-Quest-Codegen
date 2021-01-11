@@ -46,7 +46,7 @@ namespace System::Xml {
     // Offset: 0x14DE74C
     static void _cctor();
   }; // System.Xml.AsyncHelper
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::AsyncHelper*, "System.Xml", "AsyncHelper");

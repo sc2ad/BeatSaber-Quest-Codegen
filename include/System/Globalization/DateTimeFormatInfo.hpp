@@ -901,8 +901,8 @@ namespace System::Globalization {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
   }; // System.Globalization.DateTimeFormatInfo
+  #pragma pack(pop)
   static check_size<sizeof(DateTimeFormatInfo), 368 + sizeof(::Array<System::Globalization::TokenHashValue*>*)> __System_Globalization_DateTimeFormatInfoSizeCheck;
   static_assert(sizeof(DateTimeFormatInfo) == 0x178);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfo*, "System.Globalization", "DateTimeFormatInfo");

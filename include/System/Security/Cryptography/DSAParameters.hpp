@@ -76,9 +76,9 @@ namespace System::Security::Cryptography {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Security.Cryptography.DSAParameters
+  #pragma pack(pop)
   static check_size<sizeof(DSAParameters), 56 + sizeof(int)> __System_Security_Cryptography_DSAParametersSizeCheck;
   static_assert(sizeof(DSAParameters) == 0x3C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSAParameters, "System.Security.Cryptography", "DSAParameters");

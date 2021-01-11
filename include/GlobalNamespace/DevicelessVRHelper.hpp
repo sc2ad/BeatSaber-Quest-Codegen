@@ -218,8 +218,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DevicelessVRHelper*, creationType>()));
     }
   }; // DevicelessVRHelper
+  #pragma pack(pop)
   static check_size<sizeof(DevicelessVRHelper), 72 + sizeof(bool)> __GlobalNamespace_DevicelessVRHelperSizeCheck;
   static_assert(sizeof(DevicelessVRHelper) == 0x49);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DevicelessVRHelper*, "", "DevicelessVRHelper");

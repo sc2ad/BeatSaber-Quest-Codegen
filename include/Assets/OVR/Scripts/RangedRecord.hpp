@@ -47,8 +47,8 @@ namespace Assets::OVR::Scripts {
       return THROW_UNLESS((::il2cpp_utils::New<RangedRecord*, creationType>(cat, msg, val, minVal, maxVal)));
     }
   }; // Assets.OVR.Scripts.RangedRecord
+  #pragma pack(pop)
   static check_size<sizeof(RangedRecord), 40 + sizeof(float)> __Assets_OVR_Scripts_RangedRecordSizeCheck;
   static_assert(sizeof(RangedRecord) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::RangedRecord*, "Assets.OVR.Scripts", "RangedRecord");

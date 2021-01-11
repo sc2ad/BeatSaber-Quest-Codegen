@@ -97,8 +97,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // StandardLevelFailedController/<LevelFailedCoroutine>d__13
+  #pragma pack(pop)
   static check_size<sizeof(StandardLevelFailedController::$LevelFailedCoroutine$d__13), 40 + sizeof(GlobalNamespace::LevelCompletionResults*)> __GlobalNamespace_StandardLevelFailedController_$LevelFailedCoroutine$d__13SizeCheck;
   static_assert(sizeof(StandardLevelFailedController::$LevelFailedCoroutine$d__13) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelFailedController::$LevelFailedCoroutine$d__13*, "", "StandardLevelFailedController/<LevelFailedCoroutine>d__13");

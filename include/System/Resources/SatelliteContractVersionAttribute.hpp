@@ -44,8 +44,8 @@ namespace System::Resources {
     // Offset: 0x15DE0B0
     ::Il2CppString* get_Version();
   }; // System.Resources.SatelliteContractVersionAttribute
+  #pragma pack(pop)
   static check_size<sizeof(SatelliteContractVersionAttribute), 16 + sizeof(::Il2CppString*)> __System_Resources_SatelliteContractVersionAttributeSizeCheck;
   static_assert(sizeof(SatelliteContractVersionAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::SatelliteContractVersionAttribute*, "System.Resources", "SatelliteContractVersionAttribute");

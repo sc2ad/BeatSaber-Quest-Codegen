@@ -33,6 +33,6 @@ namespace LiteNetLib::Utils {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidTypeException*, creationType>(message)));
     }
   }; // LiteNetLib.Utils.InvalidTypeException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::InvalidTypeException*, "LiteNetLib.Utils", "InvalidTypeException");

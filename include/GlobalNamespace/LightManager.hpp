@@ -134,8 +134,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // LightManager
+  #pragma pack(pop)
   static check_size<sizeof(LightManager), 56 + sizeof(int)> __GlobalNamespace_LightManagerSizeCheck;
   static_assert(sizeof(LightManager) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightManager*, "", "LightManager");

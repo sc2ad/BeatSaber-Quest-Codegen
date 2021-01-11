@@ -113,6 +113,6 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<Rigidbody*, creationType>()));
     }
   }; // UnityEngine.Rigidbody
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rigidbody*, "UnityEngine", "Rigidbody");

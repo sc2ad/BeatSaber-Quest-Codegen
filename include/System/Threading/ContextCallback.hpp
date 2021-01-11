@@ -48,6 +48,6 @@ namespace System::Threading {
     // Offset: 0x16B4830
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Threading.ContextCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ContextCallback*, "System.Threading", "ContextCallback");

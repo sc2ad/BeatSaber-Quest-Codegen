@@ -79,11 +79,11 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.PropertyName
+  #pragma pack(pop)
   static check_size<sizeof(PropertyName), 0 + sizeof(int)> __UnityEngine_PropertyNameSizeCheck;
   static_assert(sizeof(PropertyName) == 0x4);
   // static public System.Boolean op_Equality(UnityEngine.PropertyName lhs, UnityEngine.PropertyName rhs)
   // Offset: 0x17361A0
   bool operator ==(const UnityEngine::PropertyName& lhs, const UnityEngine::PropertyName& rhs);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PropertyName, "UnityEngine", "PropertyName");

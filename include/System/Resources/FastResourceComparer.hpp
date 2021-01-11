@@ -112,6 +112,6 @@ namespace System::Resources {
       return THROW_UNLESS((::il2cpp_utils::New<FastResourceComparer*, creationType>()));
     }
   }; // System.Resources.FastResourceComparer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::FastResourceComparer*, "System.Resources", "FastResourceComparer");

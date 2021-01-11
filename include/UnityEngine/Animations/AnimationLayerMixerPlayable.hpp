@@ -109,8 +109,8 @@ namespace UnityEngine::Animations {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationLayerMixerPlayable other)
     bool Equals(UnityEngine::Animations::AnimationLayerMixerPlayable other);
   }; // UnityEngine.Animations.AnimationLayerMixerPlayable
+  #pragma pack(pop)
   static check_size<sizeof(AnimationLayerMixerPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Animations_AnimationLayerMixerPlayableSizeCheck;
   static_assert(sizeof(AnimationLayerMixerPlayable) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationLayerMixerPlayable, "UnityEngine.Animations", "AnimationLayerMixerPlayable");

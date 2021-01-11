@@ -67,8 +67,8 @@ namespace GlobalNamespace {
     // Offset: 0xFA5E54
     void ManualUpdate(float deltaTime);
   }; // MovementHistoryRecorder
+  #pragma pack(pop)
   static check_size<sizeof(MovementHistoryRecorder), 32 + sizeof(float)> __GlobalNamespace_MovementHistoryRecorderSizeCheck;
   static_assert(sizeof(MovementHistoryRecorder) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementHistoryRecorder*, "", "MovementHistoryRecorder");

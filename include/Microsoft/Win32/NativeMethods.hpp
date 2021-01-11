@@ -70,7 +70,7 @@ namespace Microsoft::Win32 {
     // Offset: 0x125F260
     static bool CloseProcess(System::IntPtr handle);
   }; // Microsoft.Win32.NativeMethods
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::NativeMethods*, "Microsoft.Win32", "NativeMethods");

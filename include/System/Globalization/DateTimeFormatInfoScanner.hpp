@@ -92,6 +92,7 @@ namespace System::Globalization {
       // Set static field: static public System.Globalization.DateTimeFormatInfoScanner/FoundDatePattern FoundYMDPatternFlag
       static void _set_FoundYMDPatternFlag(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern value);
     }; // System.Globalization.DateTimeFormatInfoScanner/FoundDatePattern
+    #pragma pack(pop)
     static check_size<sizeof(DateTimeFormatInfoScanner::FoundDatePattern), 0 + sizeof(int)> __System_Globalization_DateTimeFormatInfoScanner_FoundDatePatternSizeCheck;
     static_assert(sizeof(DateTimeFormatInfoScanner::FoundDatePattern) == 0x4);
     // System.Collections.Generic.List`1<System.String> m_dateWords
@@ -167,9 +168,9 @@ namespace System::Globalization {
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeFormatInfoScanner*, creationType>()));
     }
   }; // System.Globalization.DateTimeFormatInfoScanner
+  #pragma pack(pop)
   static check_size<sizeof(DateTimeFormatInfoScanner), 24 + sizeof(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern)> __System_Globalization_DateTimeFormatInfoScannerSizeCheck;
   static_assert(sizeof(DateTimeFormatInfoScanner) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfoScanner*, "System.Globalization", "DateTimeFormatInfoScanner");
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern, "System.Globalization", "DateTimeFormatInfoScanner/FoundDatePattern");

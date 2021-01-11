@@ -109,8 +109,8 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<Component*, creationType>()));
     }
   }; // System.ComponentModel.Component
+  #pragma pack(pop)
   static check_size<sizeof(Component), 32 + sizeof(System::ComponentModel::EventHandlerList*)> __System_ComponentModel_ComponentSizeCheck;
   static_assert(sizeof(Component) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Component*, "System.ComponentModel", "Component");

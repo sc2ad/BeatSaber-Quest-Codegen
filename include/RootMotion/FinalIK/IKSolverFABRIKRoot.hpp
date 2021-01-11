@@ -127,8 +127,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverFABRIKRoot*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolverFABRIKRoot
+  #pragma pack(pop)
   static check_size<sizeof(IKSolverFABRIKRoot), 120 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_IKSolverFABRIKRootSizeCheck;
   static_assert(sizeof(IKSolverFABRIKRoot) == 0x84);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFABRIKRoot*, "RootMotion.FinalIK", "IKSolverFABRIKRoot");

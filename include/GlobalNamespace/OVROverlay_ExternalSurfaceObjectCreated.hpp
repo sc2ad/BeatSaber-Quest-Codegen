@@ -49,6 +49,6 @@ namespace GlobalNamespace {
     // Offset: 0x123AA1C
     void EndInvoke(System::IAsyncResult* result);
   }; // OVROverlay/ExternalSurfaceObjectCreated
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::ExternalSurfaceObjectCreated*, "", "OVROverlay/ExternalSurfaceObjectCreated");

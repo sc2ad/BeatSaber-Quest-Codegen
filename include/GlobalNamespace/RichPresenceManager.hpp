@@ -139,8 +139,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RichPresenceManager*, creationType>()));
     }
   }; // RichPresenceManager
+  #pragma pack(pop)
   static check_size<sizeof(RichPresenceManager), 96 + sizeof(GlobalNamespace::PlayingTutorialPresenceData*)> __GlobalNamespace_RichPresenceManagerSizeCheck;
   static_assert(sizeof(RichPresenceManager) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RichPresenceManager*, "", "RichPresenceManager");

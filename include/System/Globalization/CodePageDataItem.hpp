@@ -64,8 +64,8 @@ namespace System::Globalization {
     // Offset: 0x112F5F0
     static void _cctor();
   }; // System.Globalization.CodePageDataItem
+  #pragma pack(pop)
   static check_size<sizeof(CodePageDataItem), 32 + sizeof(uint)> __System_Globalization_CodePageDataItemSizeCheck;
   static_assert(sizeof(CodePageDataItem) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CodePageDataItem*, "System.Globalization", "CodePageDataItem");

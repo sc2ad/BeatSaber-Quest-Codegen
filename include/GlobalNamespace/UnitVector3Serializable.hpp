@@ -108,8 +108,8 @@ namespace GlobalNamespace {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnitVector3Serializable
+  #pragma pack(pop)
   static check_size<sizeof(UnitVector3Serializable), 0 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_UnitVector3SerializableSizeCheck;
   static_assert(sizeof(UnitVector3Serializable) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnitVector3Serializable, "", "UnitVector3Serializable");

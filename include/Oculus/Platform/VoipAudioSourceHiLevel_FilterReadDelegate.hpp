@@ -57,8 +57,8 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<VoipAudioSourceHiLevel::FilterReadDelegate*, creationType>()));
     }
   }; // Oculus.Platform.VoipAudioSourceHiLevel/FilterReadDelegate
+  #pragma pack(pop)
   static check_size<sizeof(VoipAudioSourceHiLevel::FilterReadDelegate), 32 + sizeof(::Array<float>*)> __Oculus_Platform_VoipAudioSourceHiLevel_FilterReadDelegateSizeCheck;
   static_assert(sizeof(VoipAudioSourceHiLevel::FilterReadDelegate) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate*, "Oculus.Platform", "VoipAudioSourceHiLevel/FilterReadDelegate");

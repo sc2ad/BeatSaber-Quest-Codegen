@@ -93,9 +93,9 @@ namespace System {
     // Offset: 0xC93FF4
     System::Exception* GetEnumParseException();
   }; // System.Enum/EnumResult
+  #pragma pack(pop)
   static check_size<sizeof(Enum::EnumResult), 40 + sizeof(System::Exception*)> __System_Enum_EnumResultSizeCheck;
   static_assert(sizeof(Enum::EnumResult) == 0x30);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Enum::EnumResult, "System", "Enum/EnumResult");

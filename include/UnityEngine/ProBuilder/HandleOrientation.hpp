@@ -50,9 +50,9 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.HandleOrientation ActiveElement
     static void _set_ActiveElement(UnityEngine::ProBuilder::HandleOrientation value);
   }; // UnityEngine.ProBuilder.HandleOrientation
+  #pragma pack(pop)
   static check_size<sizeof(HandleOrientation), 0 + sizeof(int)> __UnityEngine_ProBuilder_HandleOrientationSizeCheck;
   static_assert(sizeof(HandleOrientation) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HandleOrientation, "UnityEngine.ProBuilder", "HandleOrientation");

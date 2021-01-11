@@ -79,8 +79,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::Node*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolver/Node
+  #pragma pack(pop)
   static check_size<sizeof(IKSolver::Node), 96 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_IKSolver_NodeSizeCheck;
   static_assert(sizeof(IKSolver::Node) == 0x6C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Node*, "RootMotion.FinalIK", "IKSolver/Node");

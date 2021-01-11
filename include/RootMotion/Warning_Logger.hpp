@@ -49,6 +49,6 @@ namespace RootMotion {
     // Offset: 0x15F6050
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.Warning/Logger
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Warning::Logger*, "RootMotion", "Warning/Logger");

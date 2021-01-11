@@ -51,8 +51,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1*, creationType>()));
     }
   }; // BeatmapLevelDataLoaderSO/<>c__DisplayClass6_1
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1), 24 + sizeof(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*)> __GlobalNamespace_BeatmapLevelDataLoaderSO_$$c__DisplayClass6_1SizeCheck;
   static_assert(sizeof(BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1*, "", "BeatmapLevelDataLoaderSO/<>c__DisplayClass6_1");

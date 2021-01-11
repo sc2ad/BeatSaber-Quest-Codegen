@@ -47,7 +47,7 @@ namespace TMPro {
     // Offset: 0xF5E7A8
     static TMPro::TMP_FontAsset* SearchForCharacterInternal(System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* fonts, uint unicode, TMPro::TMP_Character*& character);
   }; // TMPro.TMP_FontUtilities
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontUtilities*, "TMPro", "TMP_FontUtilities");

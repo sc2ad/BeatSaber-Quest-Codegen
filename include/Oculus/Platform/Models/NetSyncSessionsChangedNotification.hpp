@@ -48,8 +48,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<NetSyncSessionsChangedNotification*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.NetSyncSessionsChangedNotification
+  #pragma pack(pop)
   static check_size<sizeof(NetSyncSessionsChangedNotification), 24 + sizeof(Oculus::Platform::Models::NetSyncSessionList*)> __Oculus_Platform_Models_NetSyncSessionsChangedNotificationSizeCheck;
   static_assert(sizeof(NetSyncSessionsChangedNotification) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncSessionsChangedNotification*, "Oculus.Platform.Models", "NetSyncSessionsChangedNotification");

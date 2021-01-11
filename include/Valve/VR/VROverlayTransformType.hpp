@@ -56,9 +56,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.VROverlayTransformType VROverlayTransform_TrackedComponent
     static void _set_VROverlayTransform_TrackedComponent(Valve::VR::VROverlayTransformType value);
   }; // Valve.VR.VROverlayTransformType
+  #pragma pack(pop)
   static check_size<sizeof(VROverlayTransformType), 0 + sizeof(int)> __Valve_VR_VROverlayTransformTypeSizeCheck;
   static_assert(sizeof(VROverlayTransformType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VROverlayTransformType, "Valve.VR", "VROverlayTransformType");

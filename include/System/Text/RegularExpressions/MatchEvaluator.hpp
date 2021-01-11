@@ -52,6 +52,6 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x146E9FC
     ::Il2CppString* EndInvoke(System::IAsyncResult* result);
   }; // System.Text.RegularExpressions.MatchEvaluator
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::MatchEvaluator*, "System.Text.RegularExpressions", "MatchEvaluator");

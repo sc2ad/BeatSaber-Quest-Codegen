@@ -100,8 +100,8 @@ namespace System::Security::Cryptography {
     // Base method: System.Void KeyedHashAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Security.Cryptography.MACTripleDES
+  #pragma pack(pop)
   static check_size<sizeof(MACTripleDES), 80 + sizeof(System::Security::Cryptography::TripleDES*)> __System_Security_Cryptography_MACTripleDESSizeCheck;
   static_assert(sizeof(MACTripleDES) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::MACTripleDES*, "System.Security.Cryptography", "MACTripleDES");

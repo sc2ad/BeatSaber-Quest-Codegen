@@ -96,6 +96,6 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<LayoutRebuilder::$$c*, creationType>()));
     }
   }; // UnityEngine.UI.LayoutRebuilder/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutRebuilder::$$c*, "UnityEngine.UI", "LayoutRebuilder/<>c");

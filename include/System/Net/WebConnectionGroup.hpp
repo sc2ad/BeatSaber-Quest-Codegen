@@ -132,8 +132,8 @@ namespace System::Net {
     // Offset: 0x121FF1C
     bool TryRecycle(System::TimeSpan maxIdleTime, System::DateTime& idleSince);
   }; // System.Net.WebConnectionGroup
+  #pragma pack(pop)
   static check_size<sizeof(WebConnectionGroup), 56 + sizeof(System::EventHandler*)> __System_Net_WebConnectionGroupSizeCheck;
   static_assert(sizeof(WebConnectionGroup) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionGroup*, "System.Net", "WebConnectionGroup");

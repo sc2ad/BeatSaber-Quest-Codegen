@@ -73,8 +73,8 @@ namespace Polyglot {
       return THROW_UNLESS((::il2cpp_utils::New<LanguageDropdown*, creationType>()));
     }
   }; // Polyglot.LanguageDropdown
+  #pragma pack(pop)
   static check_size<sizeof(LanguageDropdown), 24 + sizeof(UnityEngine::UI::Dropdown*)> __Polyglot_LanguageDropdownSizeCheck;
   static_assert(sizeof(LanguageDropdown) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LanguageDropdown*, "Polyglot", "LanguageDropdown");

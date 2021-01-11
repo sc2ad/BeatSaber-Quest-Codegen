@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Crypto::Prng {
     // Offset: 0xFFFFFFFF
     void NextBytes(::Array<uint8_t>* bytes);
   }; // Org.BouncyCastle.Crypto.Prng.IRandomGenerator
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::IRandomGenerator*, "Org.BouncyCastle.Crypto.Prng", "IRandomGenerator");

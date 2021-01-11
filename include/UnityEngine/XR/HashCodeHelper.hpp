@@ -19,7 +19,7 @@ namespace UnityEngine::XR {
     // Offset: 0x19F00AC
     static int Combine(int hash1, int hash2);
   }; // UnityEngine.XR.HashCodeHelper
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::HashCodeHelper*, "UnityEngine.XR", "HashCodeHelper");

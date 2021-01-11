@@ -80,8 +80,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<BaseClientMessageHandler::$$c__DisplayClass27_0*, creationType>()));
     }
   }; // MasterServer.BaseClientMessageHandler/<>c__DisplayClass27_0
+  #pragma pack(pop)
   static check_size<sizeof(BaseClientMessageHandler::$$c__DisplayClass27_0), 24 + sizeof(::Array<uint8_t>*)> __MasterServer_BaseClientMessageHandler_$$c__DisplayClass27_0SizeCheck;
   static_assert(sizeof(BaseClientMessageHandler::$$c__DisplayClass27_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$$c__DisplayClass27_0*, "MasterServer", "BaseClientMessageHandler/<>c__DisplayClass27_0");

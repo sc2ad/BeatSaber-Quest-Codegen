@@ -38,6 +38,6 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<BerApplicationSpecific*, creationType>(tagNo, vec)));
     }
   }; // Org.BouncyCastle.Asn1.BerApplicationSpecific
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerApplicationSpecific*, "Org.BouncyCastle.Asn1", "BerApplicationSpecific");

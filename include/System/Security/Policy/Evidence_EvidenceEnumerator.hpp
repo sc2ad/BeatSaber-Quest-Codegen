@@ -77,8 +77,8 @@ namespace System::Security::Policy {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // System.Security.Policy.Evidence/EvidenceEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(Evidence::EvidenceEnumerator), 32 + sizeof(System::Collections::IEnumerator*)> __System_Security_Policy_Evidence_EvidenceEnumeratorSizeCheck;
   static_assert(sizeof(Evidence::EvidenceEnumerator) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Policy::Evidence::EvidenceEnumerator*, "System.Security.Policy", "Evidence/EvidenceEnumerator");

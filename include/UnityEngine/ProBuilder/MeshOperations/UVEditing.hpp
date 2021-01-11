@@ -125,7 +125,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x1397484
     static void _cctor();
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing");

@@ -52,9 +52,9 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // TMPro.TMP_PageInfo
+  #pragma pack(pop)
   static check_size<sizeof(TMP_PageInfo), 16 + sizeof(float)> __TMPro_TMP_PageInfoSizeCheck;
   static_assert(sizeof(TMP_PageInfo) == 0x14);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_PageInfo, "TMPro", "TMP_PageInfo");

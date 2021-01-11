@@ -68,9 +68,9 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.CanvasUpdate MaxUpdateValue
     static void _set_MaxUpdateValue(UnityEngine::UI::CanvasUpdate value);
   }; // UnityEngine.UI.CanvasUpdate
+  #pragma pack(pop)
   static check_size<sizeof(CanvasUpdate), 0 + sizeof(int)> __UnityEngine_UI_CanvasUpdateSizeCheck;
   static_assert(sizeof(CanvasUpdate) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasUpdate, "UnityEngine.UI", "CanvasUpdate");

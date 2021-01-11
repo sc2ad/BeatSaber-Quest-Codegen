@@ -70,6 +70,7 @@ namespace Zenject {
       // Set static field: static public Zenject.ZenAutoInjecter/ContainerSources SearchHierarchy
       static void _set_SearchHierarchy(Zenject::ZenAutoInjecter::ContainerSources value);
     }; // Zenject.ZenAutoInjecter/ContainerSources
+    #pragma pack(pop)
     static check_size<sizeof(ZenAutoInjecter::ContainerSources), 0 + sizeof(int)> __Zenject_ZenAutoInjecter_ContainerSourcesSizeCheck;
     static_assert(sizeof(ZenAutoInjecter::ContainerSources) == 0x4);
     // private Zenject.ZenAutoInjecter/ContainerSources _containerSource
@@ -120,9 +121,9 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ZenAutoInjecter*, creationType>()));
     }
   }; // Zenject.ZenAutoInjecter
+  #pragma pack(pop)
   static check_size<sizeof(ZenAutoInjecter), 28 + sizeof(bool)> __Zenject_ZenAutoInjecterSizeCheck;
   static_assert(sizeof(ZenAutoInjecter) == 0x1D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenAutoInjecter*, "Zenject", "ZenAutoInjecter");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenAutoInjecter::ContainerSources, "Zenject", "ZenAutoInjecter/ContainerSources");

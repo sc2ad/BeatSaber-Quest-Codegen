@@ -164,8 +164,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<UserMessageHandler::$$c__DisplayClass34_0*, creationType>()));
     }
   }; // MasterServer.UserMessageHandler/<>c__DisplayClass34_0
+  #pragma pack(pop)
   static check_size<sizeof(UserMessageHandler::$$c__DisplayClass34_0), 128 + sizeof(System::Action_2<System::Net::IPEndPoint*, ::Il2CppString*>*)> __MasterServer_UserMessageHandler_$$c__DisplayClass34_0SizeCheck;
   static_assert(sizeof(UserMessageHandler::$$c__DisplayClass34_0) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$$c__DisplayClass34_0*, "MasterServer", "UserMessageHandler/<>c__DisplayClass34_0");

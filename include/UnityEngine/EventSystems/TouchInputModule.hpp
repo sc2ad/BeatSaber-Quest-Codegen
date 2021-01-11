@@ -125,8 +125,8 @@ namespace UnityEngine::EventSystems {
     // Base method: System.String PointerInputModule::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.EventSystems.TouchInputModule
+  #pragma pack(pop)
   static check_size<sizeof(TouchInputModule), 112 + sizeof(bool)> __UnityEngine_EventSystems_TouchInputModuleSizeCheck;
   static_assert(sizeof(TouchInputModule) == 0x71);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::TouchInputModule*, "UnityEngine.EventSystems", "TouchInputModule");

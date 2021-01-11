@@ -105,8 +105,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSettings*, creationType>()));
     }
   }; // Zenject.ZenjectSettings
+  #pragma pack(pop)
   static check_size<sizeof(ZenjectSettings), 32 + sizeof(Zenject::ZenjectSettings::SignalSettings*)> __Zenject_ZenjectSettingsSizeCheck;
   static_assert(sizeof(ZenjectSettings) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSettings*, "Zenject", "ZenjectSettings");

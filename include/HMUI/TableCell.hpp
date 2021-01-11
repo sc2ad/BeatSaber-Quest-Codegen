@@ -98,8 +98,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<TableCell*, creationType>()));
     }
   }; // HMUI.TableCell
+  #pragma pack(pop)
   static check_size<sizeof(TableCell), 72 + sizeof(HMUI::ITableCellOwner*)> __HMUI_TableCellSizeCheck;
   static_assert(sizeof(TableCell) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableCell*, "HMUI", "TableCell");

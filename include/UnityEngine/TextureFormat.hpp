@@ -436,9 +436,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TextureFormat ASTC_RGBA_12x12
     static void _set_ASTC_RGBA_12x12(UnityEngine::TextureFormat value);
   }; // UnityEngine.TextureFormat
+  #pragma pack(pop)
   static check_size<sizeof(TextureFormat), 0 + sizeof(int)> __UnityEngine_TextureFormatSizeCheck;
   static_assert(sizeof(TextureFormat) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextureFormat, "UnityEngine", "TextureFormat");

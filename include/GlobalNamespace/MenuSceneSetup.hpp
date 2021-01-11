@@ -81,8 +81,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MenuSceneSetup*, creationType>()));
     }
   }; // MenuSceneSetup
+  #pragma pack(pop)
   static check_size<sizeof(MenuSceneSetup), 40 + sizeof(HMUI::HierarchyManager*)> __GlobalNamespace_MenuSceneSetupSizeCheck;
   static_assert(sizeof(MenuSceneSetup) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuSceneSetup*, "", "MenuSceneSetup");

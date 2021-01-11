@@ -103,8 +103,8 @@ namespace NUnit::Framework::Api {
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTestAssemblyBuilder*, creationType>()));
     }
   }; // NUnit.Framework.Api.DefaultTestAssemblyBuilder
+  #pragma pack(pop)
   static check_size<sizeof(DefaultTestAssemblyBuilder), 16 + sizeof(NUnit::Framework::Interfaces::ISuiteBuilder*)> __NUnit_Framework_Api_DefaultTestAssemblyBuilderSizeCheck;
   static_assert(sizeof(DefaultTestAssemblyBuilder) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Api::DefaultTestAssemblyBuilder*, "NUnit.Framework.Api", "DefaultTestAssemblyBuilder");

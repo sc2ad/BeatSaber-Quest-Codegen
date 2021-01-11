@@ -61,9 +61,9 @@ namespace System::Globalization {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Globalization.CultureInfo/Data
+  #pragma pack(pop)
   static check_size<sizeof(CultureInfo::Data), 17 + sizeof(uint8_t)> __System_Globalization_CultureInfo_DataSizeCheck;
   static_assert(sizeof(CultureInfo::Data) == 0x12);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureInfo::Data, "System.Globalization", "CultureInfo/Data");

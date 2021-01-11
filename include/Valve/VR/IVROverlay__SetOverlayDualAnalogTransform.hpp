@@ -57,6 +57,6 @@ namespace Valve::VR {
     // Offset: 0x18FA664
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetOverlayDualAnalogTransform
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_SetOverlayDualAnalogTransform*, "Valve.VR", "IVROverlay/_SetOverlayDualAnalogTransform");

@@ -79,8 +79,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Base method: Org.BouncyCastle.Crypto.ICipherParameters PbeParametersGenerator::GenerateDerivedMacParameters(System.Int32 keySize)
     Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int keySize);
   }; // Org.BouncyCastle.Crypto.Generators.Pkcs12ParametersGenerator
+  #pragma pack(pop)
   static check_size<sizeof(Pkcs12ParametersGenerator), 52 + sizeof(int)> __Org_BouncyCastle_Crypto_Generators_Pkcs12ParametersGeneratorSizeCheck;
   static_assert(sizeof(Pkcs12ParametersGenerator) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator*, "Org.BouncyCastle.Crypto.Generators", "Pkcs12ParametersGenerator");

@@ -52,6 +52,6 @@ namespace System::Net {
     // Offset: 0x11A5A2C
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Net.SimpleAsyncCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::SimpleAsyncCallback*, "System.Net", "SimpleAsyncCallback");

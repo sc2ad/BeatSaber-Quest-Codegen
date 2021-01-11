@@ -158,8 +158,8 @@ namespace System::Collections::Specialized {
       return THROW_UNLESS((::il2cpp_utils::New<StringCollection*, creationType>()));
     }
   }; // System.Collections.Specialized.StringCollection
+  #pragma pack(pop)
   static check_size<sizeof(StringCollection), 16 + sizeof(System::Collections::ArrayList*)> __System_Collections_Specialized_StringCollectionSizeCheck;
   static_assert(sizeof(StringCollection) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::StringCollection*, "System.Collections.Specialized", "StringCollection");

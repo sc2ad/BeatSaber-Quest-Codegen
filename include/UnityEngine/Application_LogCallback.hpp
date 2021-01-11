@@ -54,6 +54,6 @@ namespace UnityEngine {
     // Offset: 0x167C3E4
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Application/LogCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Application::LogCallback*, "UnityEngine", "Application/LogCallback");

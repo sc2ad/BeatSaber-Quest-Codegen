@@ -128,8 +128,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutParticlesEffect*, creationType>()));
     }
   }; // NoteCutParticlesEffect
+  #pragma pack(pop)
   static check_size<sizeof(NoteCutParticlesEffect), 504 + sizeof(UnityEngine::ParticleSystem::MinMaxCurve)> __GlobalNamespace_NoteCutParticlesEffectSizeCheck;
   static_assert(sizeof(NoteCutParticlesEffect) == 0x218);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutParticlesEffect*, "", "NoteCutParticlesEffect");

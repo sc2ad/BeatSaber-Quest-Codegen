@@ -84,8 +84,8 @@ namespace RootMotion::FinalIK {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // RootMotion.FinalIK.RagdollUtility/<DisableRagdollSmooth>d__21
+  #pragma pack(pop)
   static check_size<sizeof(RagdollUtility::$DisableRagdollSmooth$d__21), 32 + sizeof(RootMotion::FinalIK::RagdollUtility*)> __RootMotion_FinalIK_RagdollUtility_$DisableRagdollSmooth$d__21SizeCheck;
   static_assert(sizeof(RagdollUtility::$DisableRagdollSmooth$d__21) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::$DisableRagdollSmooth$d__21*, "RootMotion.FinalIK", "RagdollUtility/<DisableRagdollSmooth>d__21");

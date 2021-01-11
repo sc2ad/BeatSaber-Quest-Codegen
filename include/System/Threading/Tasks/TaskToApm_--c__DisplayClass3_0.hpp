@@ -56,8 +56,8 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<TaskToApm::$$c__DisplayClass3_0*, creationType>()));
     }
   }; // System.Threading.Tasks.TaskToApm/<>c__DisplayClass3_0
+  #pragma pack(pop)
   static check_size<sizeof(TaskToApm::$$c__DisplayClass3_0), 24 + sizeof(System::IAsyncResult*)> __System_Threading_Tasks_TaskToApm_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(TaskToApm::$$c__DisplayClass3_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskToApm::$$c__DisplayClass3_0*, "System.Threading.Tasks", "TaskToApm/<>c__DisplayClass3_0");

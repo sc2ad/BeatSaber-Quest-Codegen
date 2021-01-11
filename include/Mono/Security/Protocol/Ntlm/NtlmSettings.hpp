@@ -28,7 +28,7 @@ namespace Mono::Security::Protocol::Ntlm {
     // Offset: 0x17BB988
     static void _cctor();
   }; // Mono.Security.Protocol.Ntlm.NtlmSettings
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::NtlmSettings*, "Mono.Security.Protocol.Ntlm", "NtlmSettings");

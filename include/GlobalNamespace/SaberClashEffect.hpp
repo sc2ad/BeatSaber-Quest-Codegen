@@ -125,8 +125,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberClashEffect*, creationType>()));
     }
   }; // SaberClashEffect
+  #pragma pack(pop)
   static check_size<sizeof(SaberClashEffect), 88 + sizeof(bool)> __GlobalNamespace_SaberClashEffectSizeCheck;
   static_assert(sizeof(SaberClashEffect) == 0x59);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberClashEffect*, "", "SaberClashEffect");

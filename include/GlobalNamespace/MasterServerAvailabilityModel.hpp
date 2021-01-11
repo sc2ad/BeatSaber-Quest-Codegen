@@ -114,8 +114,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MasterServerAvailabilityModel*, creationType>()));
     }
   }; // MasterServerAvailabilityModel
+  #pragma pack(pop)
   static check_size<sizeof(MasterServerAvailabilityModel), 40 + sizeof(System::DateTime)> __GlobalNamespace_MasterServerAvailabilityModelSizeCheck;
   static_assert(sizeof(MasterServerAvailabilityModel) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityModel*, "", "MasterServerAvailabilityModel");

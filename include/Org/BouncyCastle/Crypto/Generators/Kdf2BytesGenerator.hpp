@@ -36,6 +36,6 @@ namespace Org::BouncyCastle::Crypto::Generators {
       return THROW_UNLESS((::il2cpp_utils::New<Kdf2BytesGenerator*, creationType>(digest)));
     }
   }; // Org.BouncyCastle.Crypto.Generators.Kdf2BytesGenerator
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator*, "Org.BouncyCastle.Crypto.Generators", "Kdf2BytesGenerator");

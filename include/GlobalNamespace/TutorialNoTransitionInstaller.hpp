@@ -61,8 +61,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TutorialNoTransitionInstaller*, creationType>()));
     }
   }; // TutorialNoTransitionInstaller
+  #pragma pack(pop)
   static check_size<sizeof(TutorialNoTransitionInstaller), 24 + sizeof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*)> __GlobalNamespace_TutorialNoTransitionInstallerSizeCheck;
   static_assert(sizeof(TutorialNoTransitionInstaller) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialNoTransitionInstaller*, "", "TutorialNoTransitionInstaller");

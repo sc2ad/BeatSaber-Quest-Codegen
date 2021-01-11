@@ -87,8 +87,8 @@ namespace System::Reflection {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Reflection.ExceptionHandlingClause
+  #pragma pack(pop)
   static check_size<sizeof(ExceptionHandlingClause), 44 + sizeof(int)> __System_Reflection_ExceptionHandlingClauseSizeCheck;
   static_assert(sizeof(ExceptionHandlingClause) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ExceptionHandlingClause*, "System.Reflection", "ExceptionHandlingClause");

@@ -67,9 +67,9 @@ namespace NetEase::Docker {
     // Offset: 0xCB9DB4
     void set_TimeStamp(int64_t value);
   }; // NetEase.Docker.ScoreData
+  #pragma pack(pop)
   static check_size<sizeof(ScoreData), 16 + sizeof(int64_t)> __NetEase_Docker_ScoreDataSizeCheck;
   static_assert(sizeof(ScoreData) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::ScoreData, "NetEase.Docker", "ScoreData");

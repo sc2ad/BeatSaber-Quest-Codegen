@@ -44,9 +44,9 @@ namespace TMPro {
     // Set static field: static public TMPro.VertexSortingOrder Reverse
     static void _set_Reverse(TMPro::VertexSortingOrder value);
   }; // TMPro.VertexSortingOrder
+  #pragma pack(pop)
   static check_size<sizeof(VertexSortingOrder), 0 + sizeof(int)> __TMPro_VertexSortingOrderSizeCheck;
   static_assert(sizeof(VertexSortingOrder) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::VertexSortingOrder, "TMPro", "VertexSortingOrder");

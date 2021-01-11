@@ -276,8 +276,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelCollectionTableView*, creationType>()));
     }
   }; // LevelCollectionTableView
+  #pragma pack(pop)
   static check_size<sizeof(LevelCollectionTableView), 160 + sizeof(GlobalNamespace::IPreviewBeatmapLevel*)> __GlobalNamespace_LevelCollectionTableViewSizeCheck;
   static_assert(sizeof(LevelCollectionTableView) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionTableView*, "", "LevelCollectionTableView");

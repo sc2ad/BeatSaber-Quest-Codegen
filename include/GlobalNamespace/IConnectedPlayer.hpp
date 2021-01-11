@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     bool HasState(::Il2CppString* state);
   }; // IConnectedPlayer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IConnectedPlayer*, "", "IConnectedPlayer");

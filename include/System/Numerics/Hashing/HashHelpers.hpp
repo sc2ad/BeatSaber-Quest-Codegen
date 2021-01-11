@@ -26,7 +26,7 @@ namespace System::Numerics::Hashing {
     // Offset: 0x171A634
     static void _cctor();
   }; // System.Numerics.Hashing.HashHelpers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Numerics::Hashing::HashHelpers*, "System.Numerics.Hashing", "HashHelpers");

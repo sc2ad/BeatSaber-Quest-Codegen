@@ -34,7 +34,7 @@ namespace System::Xml {
     // Offset: 0x14F00A8
     static void _cctor();
   }; // System.Xml.XmlReader
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlReader*, "System.Xml", "XmlReader");

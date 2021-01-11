@@ -109,8 +109,8 @@ namespace System::Collections {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Collections.Comparer
+  #pragma pack(pop)
   static check_size<sizeof(Comparer), 16 + sizeof(System::Globalization::CompareInfo*)> __System_Collections_ComparerSizeCheck;
   static_assert(sizeof(Comparer) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Comparer*, "System.Collections", "Comparer");

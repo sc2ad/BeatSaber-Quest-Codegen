@@ -90,8 +90,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VRCenterAdjust*, creationType>()));
     }
   }; // VRCenterAdjust
+  #pragma pack(pop)
   static check_size<sizeof(VRCenterAdjust), 40 + sizeof(GlobalNamespace::MainSettingsModelSO*)> __GlobalNamespace_VRCenterAdjustSizeCheck;
   static_assert(sizeof(VRCenterAdjust) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRCenterAdjust*, "", "VRCenterAdjust");

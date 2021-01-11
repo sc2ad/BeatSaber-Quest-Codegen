@@ -57,8 +57,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusBeatmapDataAssetFileModel::LevelDownloadingData*, creationType>(levelId, assetBundlePath)));
     }
   }; // OculusBeatmapDataAssetFileModel/LevelDownloadingData
+  #pragma pack(pop)
   static check_size<sizeof(OculusBeatmapDataAssetFileModel::LevelDownloadingData), 32 + sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>*)> __GlobalNamespace_OculusBeatmapDataAssetFileModel_LevelDownloadingDataSizeCheck;
   static_assert(sizeof(OculusBeatmapDataAssetFileModel::LevelDownloadingData) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData*, "", "OculusBeatmapDataAssetFileModel/LevelDownloadingData");

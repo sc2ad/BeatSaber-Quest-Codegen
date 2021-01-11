@@ -319,8 +319,8 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlWriterSettings*, creationType>()));
     }
   }; // System.Xml.XmlWriterSettings
+  #pragma pack(pop)
   static check_size<sizeof(XmlWriterSettings), 133 + sizeof(bool)> __System_Xml_XmlWriterSettingsSizeCheck;
   static_assert(sizeof(XmlWriterSettings) == 0x86);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWriterSettings*, "System.Xml", "XmlWriterSettings");

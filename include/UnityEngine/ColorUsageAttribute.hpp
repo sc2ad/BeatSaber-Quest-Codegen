@@ -72,8 +72,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<ColorUsageAttribute*, creationType>(showAlpha)));
     }
   }; // UnityEngine.ColorUsageAttribute
+  #pragma pack(pop)
   static check_size<sizeof(ColorUsageAttribute), 32 + sizeof(float)> __UnityEngine_ColorUsageAttributeSizeCheck;
   static_assert(sizeof(ColorUsageAttribute) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ColorUsageAttribute*, "UnityEngine", "ColorUsageAttribute");

@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x18E9460
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_IsFullscreen
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_IsFullscreen*, "Valve.VR", "IVRCompositor/_IsFullscreen");

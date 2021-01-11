@@ -48,8 +48,8 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<EnumConverter*, creationType>(type)));
     }
   }; // System.ComponentModel.EnumConverter
+  #pragma pack(pop)
   static check_size<sizeof(EnumConverter), 24 + sizeof(System::Type*)> __System_ComponentModel_EnumConverterSizeCheck;
   static_assert(sizeof(EnumConverter) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EnumConverter*, "System.ComponentModel", "EnumConverter");

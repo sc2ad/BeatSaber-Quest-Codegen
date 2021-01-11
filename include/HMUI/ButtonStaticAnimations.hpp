@@ -98,8 +98,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ButtonStaticAnimations*, creationType>()));
     }
   }; // HMUI.ButtonStaticAnimations
+  #pragma pack(pop)
   static check_size<sizeof(ButtonStaticAnimations), 64 + sizeof(bool)> __HMUI_ButtonStaticAnimationsSizeCheck;
   static_assert(sizeof(ButtonStaticAnimations) == 0x41);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonStaticAnimations*, "HMUI", "ButtonStaticAnimations");

@@ -41,8 +41,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::GuestPlayer*, creationType>()));
     }
   }; // PlayerSaveData/GuestPlayer
+  #pragma pack(pop)
   static check_size<sizeof(PlayerSaveData::GuestPlayer), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_PlayerSaveData_GuestPlayerSizeCheck;
   static_assert(sizeof(PlayerSaveData::GuestPlayer) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::GuestPlayer*, "", "PlayerSaveData/GuestPlayer");

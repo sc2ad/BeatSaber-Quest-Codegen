@@ -93,8 +93,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PracticeSettings*, creationType>()));
     }
   }; // PracticeSettings
+  #pragma pack(pop)
   static check_size<sizeof(PracticeSettings), 24 + sizeof(bool)> __GlobalNamespace_PracticeSettingsSizeCheck;
   static_assert(sizeof(PracticeSettings) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeSettings*, "", "PracticeSettings");

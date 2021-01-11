@@ -60,8 +60,8 @@ namespace OVR::OpenVR {
     // Offset: 0x11F5930
     OVR::OpenVR::EVRNotificationError RemoveNotification(uint notificationId);
   }; // OVR.OpenVR.CVRNotifications
+  #pragma pack(pop)
   static check_size<sizeof(CVRNotifications), 16 + sizeof(OVR::OpenVR::IVRNotifications)> __OVR_OpenVR_CVRNotificationsSizeCheck;
   static_assert(sizeof(CVRNotifications) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRNotifications*, "OVR.OpenVR", "CVRNotifications");

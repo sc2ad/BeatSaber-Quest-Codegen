@@ -75,9 +75,9 @@ namespace UnityEngine {
     // Creating value type constructor for type: Collision
     Collision(UnityEngine::Vector3 m_Impulse_ = {}, UnityEngine::Vector3 m_RelativeVelocity_ = {}, UnityEngine::Rigidbody* m_Rigidbody_ = {}, UnityEngine::Collider* m_Collider_ = {}, int m_ContactCount_ = {}, ::Array<UnityEngine::ContactPoint>* m_ReusedContacts_ = {}, ::Array<UnityEngine::ContactPoint>* m_LegacyContacts_ = {}) noexcept : m_Impulse{m_Impulse_}, m_RelativeVelocity{m_RelativeVelocity_}, m_Rigidbody{m_Rigidbody_}, m_Collider{m_Collider_}, m_ContactCount{m_ContactCount_}, m_ReusedContacts{m_ReusedContacts_}, m_LegacyContacts{m_LegacyContacts_} {}
   }; // UnityEngine.Collision
+  #pragma pack(pop)
   static check_size<sizeof(Collision), 72 + sizeof(::Array<UnityEngine::ContactPoint>*)> __UnityEngine_CollisionSizeCheck;
   static_assert(sizeof(Collision) == 0x50);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collision*, "UnityEngine", "Collision");

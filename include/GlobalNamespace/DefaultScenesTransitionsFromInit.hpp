@@ -81,8 +81,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DefaultScenesTransitionsFromInit*, creationType>()));
     }
   }; // DefaultScenesTransitionsFromInit
+  #pragma pack(pop)
   static check_size<sizeof(DefaultScenesTransitionsFromInit), 48 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_DefaultScenesTransitionsFromInitSizeCheck;
   static_assert(sizeof(DefaultScenesTransitionsFromInit) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DefaultScenesTransitionsFromInit*, "", "DefaultScenesTransitionsFromInit");

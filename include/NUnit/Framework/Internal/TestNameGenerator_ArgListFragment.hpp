@@ -53,8 +53,8 @@ namespace NUnit::Framework::Internal {
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] arglist)
     ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* arglist);
   }; // NUnit.Framework.Internal.TestNameGenerator/ArgListFragment
+  #pragma pack(pop)
   static check_size<sizeof(TestNameGenerator::ArgListFragment), 16 + sizeof(int)> __NUnit_Framework_Internal_TestNameGenerator_ArgListFragmentSizeCheck;
   static_assert(sizeof(TestNameGenerator::ArgListFragment) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::ArgListFragment*, "NUnit.Framework.Internal", "TestNameGenerator/ArgListFragment");

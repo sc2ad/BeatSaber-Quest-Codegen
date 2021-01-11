@@ -122,8 +122,8 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
   }; // UnityEngine.Timeline.ScheduleRuntimeClip
+  #pragma pack(pop)
   static check_size<sizeof(ScheduleRuntimeClip), 80 + sizeof(bool)> __UnityEngine_Timeline_ScheduleRuntimeClipSizeCheck;
   static_assert(sizeof(ScheduleRuntimeClip) == 0x51);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ScheduleRuntimeClip*, "UnityEngine.Timeline", "ScheduleRuntimeClip");

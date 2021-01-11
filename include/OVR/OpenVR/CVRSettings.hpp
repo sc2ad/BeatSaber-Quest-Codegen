@@ -89,8 +89,8 @@ namespace OVR::OpenVR {
     // Offset: 0x11F7A14
     void RemoveKeyInSection(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, OVR::OpenVR::EVRSettingsError& peError);
   }; // OVR.OpenVR.CVRSettings
+  #pragma pack(pop)
   static check_size<sizeof(CVRSettings), 16 + sizeof(OVR::OpenVR::IVRSettings)> __OVR_OpenVR_CVRSettingsSizeCheck;
   static_assert(sizeof(CVRSettings) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSettings*, "OVR.OpenVR", "CVRSettings");

@@ -32,6 +32,6 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<RSAPKCS1SHA512SignatureDescription*, creationType>()));
     }
   }; // System.Security.Cryptography.RSAPKCS1SHA512SignatureDescription
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SHA512SignatureDescription*, "System.Security.Cryptography", "RSAPKCS1SHA512SignatureDescription");

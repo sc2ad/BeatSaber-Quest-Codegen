@@ -48,8 +48,8 @@ namespace SFB {
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ExtensionFilter(::Il2CppString* filterName, ::Array<::Il2CppString*>* filterExtensions)
   }; // SFB.ExtensionFilter
+  #pragma pack(pop)
   static check_size<sizeof(ExtensionFilter), 8 + sizeof(::Array<::Il2CppString*>*)> __SFB_ExtensionFilterSizeCheck;
   static_assert(sizeof(ExtensionFilter) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(SFB::ExtensionFilter, "SFB", "ExtensionFilter");

@@ -39,7 +39,7 @@ namespace Org::BouncyCastle::Utilities {
     // Offset: 0x18BEB08
     static bool IsEnumType(System::Type* t);
   }; // Org.BouncyCastle.Utilities.Enums
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Enums*, "Org.BouncyCastle.Utilities", "Enums");

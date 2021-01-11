@@ -42,9 +42,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.RenderModel_ComponentState_t
+  #pragma pack(pop)
   static check_size<sizeof(RenderModel_ComponentState_t), 96 + sizeof(uint)> __OVR_OpenVR_RenderModel_ComponentState_tSizeCheck;
   static_assert(sizeof(RenderModel_ComponentState_t) == 0x64);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_ComponentState_t, "OVR.OpenVR", "RenderModel_ComponentState_t");

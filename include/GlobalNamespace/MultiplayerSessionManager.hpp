@@ -133,6 +133,7 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerSessionManager/SessionType DedicatedServer
       static void _set_DedicatedServer(GlobalNamespace::MultiplayerSessionManager::SessionType value);
     }; // MultiplayerSessionManager/SessionType
+    #pragma pack(pop)
     static check_size<sizeof(MultiplayerSessionManager::SessionType), 0 + sizeof(int)> __GlobalNamespace_MultiplayerSessionManager_SessionTypeSizeCheck;
     static_assert(sizeof(MultiplayerSessionManager::SessionType) == 0x4);
     // Size: 0x4
@@ -182,6 +183,7 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerSessionManager/ConnectionState Disconnecting
       static void _set_Disconnecting(GlobalNamespace::MultiplayerSessionManager::ConnectionState value);
     }; // MultiplayerSessionManager/ConnectionState
+    #pragma pack(pop)
     static check_size<sizeof(MultiplayerSessionManager::ConnectionState), 0 + sizeof(int)> __GlobalNamespace_MultiplayerSessionManager_ConnectionStateSizeCheck;
     static_assert(sizeof(MultiplayerSessionManager::ConnectionState) == 0x4);
     // private readonly NetworkPacketSerializer`2<MultiplayerSessionManager/MessageType,IConnectedPlayer> _packetSerializer
@@ -632,10 +634,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSessionManager*, creationType>()));
     }
   }; // MultiplayerSessionManager
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerSessionManager), 160 + sizeof(GlobalNamespace::ConnectedPlayerManager*)> __GlobalNamespace_MultiplayerSessionManagerSizeCheck;
   static_assert(sizeof(MultiplayerSessionManager) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager*, "", "MultiplayerSessionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::SessionType, "", "MultiplayerSessionManager/SessionType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::ConnectionState, "", "MultiplayerSessionManager/ConnectionState");

@@ -53,8 +53,8 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Task::InnerInvoke()
     void InnerInvoke();
   }; // System.Threading.Tasks.ContinuationTaskFromTask
+  #pragma pack(pop)
   static check_size<sizeof(ContinuationTaskFromTask), 80 + sizeof(System::Threading::Tasks::Task*)> __System_Threading_Tasks_ContinuationTaskFromTaskSizeCheck;
   static_assert(sizeof(ContinuationTaskFromTask) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::ContinuationTaskFromTask*, "System.Threading.Tasks", "ContinuationTaskFromTask");

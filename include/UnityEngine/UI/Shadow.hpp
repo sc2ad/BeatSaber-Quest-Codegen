@@ -114,8 +114,8 @@ namespace UnityEngine::UI {
     // Base method: System.Void BaseMeshEffect::ModifyMesh(UnityEngine.UI.VertexHelper vh)
     void ModifyMesh(UnityEngine::UI::VertexHelper* vh);
   }; // UnityEngine.UI.Shadow
+  #pragma pack(pop)
   static check_size<sizeof(Shadow), 56 + sizeof(bool)> __UnityEngine_UI_ShadowSizeCheck;
   static_assert(sizeof(Shadow) == 0x39);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Shadow*, "UnityEngine.UI", "Shadow");

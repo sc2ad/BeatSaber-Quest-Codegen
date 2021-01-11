@@ -59,7 +59,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0x16BC298
     static void SetCustomShader(UnityEngine::Rendering::BuiltinShaderType type, UnityEngine::Shader* shader);
   }; // UnityEngine.Rendering.GraphicsSettings
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::GraphicsSettings*, "UnityEngine.Rendering", "GraphicsSettings");

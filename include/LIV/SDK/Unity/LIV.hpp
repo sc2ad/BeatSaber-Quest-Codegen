@@ -79,8 +79,8 @@ namespace LIV::SDK::Unity {
       return THROW_UNLESS((::il2cpp_utils::New<LIV*, creationType>()));
     }
   }; // LIV.SDK.Unity.LIV
+  #pragma pack(pop)
   static check_size<sizeof(LIV), 44 + sizeof(UnityEngine::LayerMask)> __LIV_SDK_Unity_LIVSizeCheck;
   static_assert(sizeof(LIV) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::LIV*, "LIV.SDK.Unity", "LIV");

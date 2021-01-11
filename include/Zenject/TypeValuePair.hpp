@@ -53,8 +53,8 @@ namespace Zenject {
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  TypeValuePair(System::Type* type, ::Il2CppObject* value)
   }; // Zenject.TypeValuePair
+  #pragma pack(pop)
   static check_size<sizeof(TypeValuePair), 8 + sizeof(::Il2CppObject*)> __Zenject_TypeValuePairSizeCheck;
   static_assert(sizeof(TypeValuePair) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeValuePair, "Zenject", "TypeValuePair");

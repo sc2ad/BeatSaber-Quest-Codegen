@@ -34,7 +34,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x188A694
     static bool RectContainsLineSegment(UnityEngine::Rect rect, float x0, float y0, float x1, float y1);
   }; // UnityEngine.ProBuilder.Clipping
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Clipping*, "UnityEngine.ProBuilder", "Clipping");

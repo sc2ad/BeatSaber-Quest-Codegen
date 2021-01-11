@@ -97,8 +97,8 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1443A9C
     System::Runtime::Serialization::SerializationEventHandler* AddOnDeserialized(::Il2CppObject* obj, System::Runtime::Serialization::SerializationEventHandler* handler);
   }; // System.Runtime.Serialization.SerializationEvents
+  #pragma pack(pop)
   static check_size<sizeof(SerializationEvents), 40 + sizeof(System::Collections::Generic::List_1<System::Reflection::MethodInfo*>*)> __System_Runtime_Serialization_SerializationEventsSizeCheck;
   static_assert(sizeof(SerializationEvents) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEvents*, "System.Runtime.Serialization", "SerializationEvents");

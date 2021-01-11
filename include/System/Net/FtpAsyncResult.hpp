@@ -177,8 +177,8 @@ namespace System::Net {
     // Maps to method: get_IsCompleted
     bool System_IAsyncResult_get_IsCompleted();
   }; // System.Net.FtpAsyncResult
+  #pragma pack(pop)
   static check_size<sizeof(FtpAsyncResult), 72 + sizeof(::Il2CppObject*)> __System_Net_FtpAsyncResultSizeCheck;
   static_assert(sizeof(FtpAsyncResult) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpAsyncResult*, "System.Net", "FtpAsyncResult");

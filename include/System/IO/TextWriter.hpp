@@ -195,8 +195,8 @@ namespace System::IO {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.IO.TextWriter
+  #pragma pack(pop)
   static check_size<sizeof(TextWriter), 32 + sizeof(System::IFormatProvider*)> __System_IO_TextWriterSizeCheck;
   static_assert(sizeof(TextWriter) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter*, "System.IO", "TextWriter");

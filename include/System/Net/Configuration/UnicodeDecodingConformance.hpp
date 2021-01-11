@@ -56,9 +56,9 @@ namespace System::Net::Configuration {
     // Set static field: static public System.Net.Configuration.UnicodeDecodingConformance Loose
     static void _set_Loose(System::Net::Configuration::UnicodeDecodingConformance value);
   }; // System.Net.Configuration.UnicodeDecodingConformance
+  #pragma pack(pop)
   static check_size<sizeof(UnicodeDecodingConformance), 0 + sizeof(int)> __System_Net_Configuration_UnicodeDecodingConformanceSizeCheck;
   static_assert(sizeof(UnicodeDecodingConformance) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::UnicodeDecodingConformance, "System.Net.Configuration", "UnicodeDecodingConformance");

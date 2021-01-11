@@ -34,9 +34,9 @@ namespace Valve::VR {
       return mDeviceToAbsoluteTracking;
     }
   }; // Valve.VR.VRTextureWithPose_t
+  #pragma pack(pop)
   static check_size<sizeof(VRTextureWithPose_t), 0 + sizeof(Valve::VR::HmdMatrix34_t)> __Valve_VR_VRTextureWithPose_tSizeCheck;
   static_assert(sizeof(VRTextureWithPose_t) == 0x30);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRTextureWithPose_t, "Valve.VR", "VRTextureWithPose_t");

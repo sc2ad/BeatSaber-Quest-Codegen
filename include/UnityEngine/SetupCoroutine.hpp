@@ -35,7 +35,7 @@ namespace UnityEngine {
     // Offset: 0x16C0734
     static ::Il2CppObject* InvokeMember(::Il2CppObject* behaviour, ::Il2CppString* name, ::Il2CppObject* variable);
   }; // UnityEngine.SetupCoroutine
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SetupCoroutine*, "UnityEngine", "SetupCoroutine");

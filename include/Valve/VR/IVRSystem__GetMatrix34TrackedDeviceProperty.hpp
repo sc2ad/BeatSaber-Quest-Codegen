@@ -59,6 +59,6 @@ namespace Valve::VR {
     // Offset: 0x192C2D0
     Valve::VR::HmdMatrix34_t EndInvoke(Valve::VR::ETrackedPropertyError& pError, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetMatrix34TrackedDeviceProperty
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetMatrix34TrackedDeviceProperty*, "Valve.VR", "IVRSystem/_GetMatrix34TrackedDeviceProperty");

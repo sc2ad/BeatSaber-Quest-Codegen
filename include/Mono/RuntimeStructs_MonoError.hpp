@@ -137,9 +137,9 @@ namespace Mono {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Mono.RuntimeStructs/MonoError
+  #pragma pack(pop)
   static check_size<sizeof(RuntimeStructs::MonoError), 128 + sizeof(System::IntPtr)> __Mono_RuntimeStructs_MonoErrorSizeCheck;
   static_assert(sizeof(RuntimeStructs::MonoError) == 0x88);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::MonoError, "Mono", "RuntimeStructs/MonoError");

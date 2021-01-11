@@ -87,8 +87,8 @@ namespace System::Runtime::Remoting::Proxies {
       return THROW_UNLESS((::il2cpp_utils::New<TransparentProxy*, creationType>()));
     }
   }; // System.Runtime.Remoting.Proxies.TransparentProxy
+  #pragma pack(pop)
   static check_size<sizeof(TransparentProxy), 32 + sizeof(bool)> __System_Runtime_Remoting_Proxies_TransparentProxySizeCheck;
   static_assert(sizeof(TransparentProxy) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::TransparentProxy*, "System.Runtime.Remoting.Proxies", "TransparentProxy");

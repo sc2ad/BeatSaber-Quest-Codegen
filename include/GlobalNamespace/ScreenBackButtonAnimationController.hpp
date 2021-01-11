@@ -97,6 +97,7 @@ namespace GlobalNamespace {
       // Set static field: static public ScreenBackButtonAnimationController/AnimationType MoveOut2
       static void _set_MoveOut2(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType value);
     }; // ScreenBackButtonAnimationController/AnimationType
+    #pragma pack(pop)
     static check_size<sizeof(ScreenBackButtonAnimationController::AnimationType), 0 + sizeof(int)> __GlobalNamespace_ScreenBackButtonAnimationController_AnimationTypeSizeCheck;
     static_assert(sizeof(ScreenBackButtonAnimationController::AnimationType) == 0x4);
     // private UnityEngine.Animator _animator
@@ -135,9 +136,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ScreenBackButtonAnimationController*, creationType>()));
     }
   }; // ScreenBackButtonAnimationController
+  #pragma pack(pop)
   static check_size<sizeof(ScreenBackButtonAnimationController), 32 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>*)> __GlobalNamespace_ScreenBackButtonAnimationControllerSizeCheck;
   static_assert(sizeof(ScreenBackButtonAnimationController) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenBackButtonAnimationController*, "", "ScreenBackButtonAnimationController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, "", "ScreenBackButtonAnimationController/AnimationType");

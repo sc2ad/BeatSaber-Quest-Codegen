@@ -85,8 +85,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerHeadAndObstacleInteraction*, creationType>()));
     }
   }; // PlayerHeadAndObstacleInteraction
+  #pragma pack(pop)
   static check_size<sizeof(PlayerHeadAndObstacleInteraction), 40 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*)> __GlobalNamespace_PlayerHeadAndObstacleInteractionSizeCheck;
   static_assert(sizeof(PlayerHeadAndObstacleInteraction) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeadAndObstacleInteraction*, "", "PlayerHeadAndObstacleInteraction");

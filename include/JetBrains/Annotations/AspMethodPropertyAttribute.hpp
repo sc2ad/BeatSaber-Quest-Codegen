@@ -33,6 +33,6 @@ namespace JetBrains::Annotations {
       return THROW_UNLESS((::il2cpp_utils::New<AspMethodPropertyAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.AspMethodPropertyAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMethodPropertyAttribute*, "JetBrains.Annotations", "AspMethodPropertyAttribute");

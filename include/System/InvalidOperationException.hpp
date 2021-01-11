@@ -75,6 +75,6 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidOperationException*, creationType>(info, context)));
     }
   }; // System.InvalidOperationException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::InvalidOperationException*, "System", "InvalidOperationException");

@@ -74,8 +74,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BaseNoteVisuals*, creationType>()));
     }
   }; // BaseNoteVisuals
+  #pragma pack(pop)
   static check_size<sizeof(BaseNoteVisuals), 32 + sizeof(GlobalNamespace::CutoutAnimateEffect*)> __GlobalNamespace_BaseNoteVisualsSizeCheck;
   static_assert(sizeof(BaseNoteVisuals) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNoteVisuals*, "", "BaseNoteVisuals");

@@ -308,9 +308,9 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.SocketOptionName UpdateConnectContext
     static void _set_UpdateConnectContext(System::Net::Sockets::SocketOptionName value);
   }; // System.Net.Sockets.SocketOptionName
+  #pragma pack(pop)
   static check_size<sizeof(SocketOptionName), 0 + sizeof(int)> __System_Net_Sockets_SocketOptionNameSizeCheck;
   static_assert(sizeof(SocketOptionName) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketOptionName, "System.Net.Sockets", "SocketOptionName");

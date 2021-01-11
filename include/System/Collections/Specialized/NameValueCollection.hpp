@@ -141,8 +141,8 @@ namespace System::Collections::Specialized {
       return THROW_UNLESS((::il2cpp_utils::New<NameValueCollection*, creationType>(info, context)));
     }
   }; // System.Collections.Specialized.NameValueCollection
+  #pragma pack(pop)
   static check_size<sizeof(NameValueCollection), 80 + sizeof(::Array<::Il2CppString*>*)> __System_Collections_Specialized_NameValueCollectionSizeCheck;
   static_assert(sizeof(NameValueCollection) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameValueCollection*, "System.Collections.Specialized", "NameValueCollection");

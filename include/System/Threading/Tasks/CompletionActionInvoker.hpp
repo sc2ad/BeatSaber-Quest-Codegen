@@ -75,8 +75,8 @@ namespace System::Threading::Tasks {
     // Maps to method: MarkAborted
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.Threading.Tasks.CompletionActionInvoker
+  #pragma pack(pop)
   static check_size<sizeof(CompletionActionInvoker), 24 + sizeof(System::Threading::Tasks::Task*)> __System_Threading_Tasks_CompletionActionInvokerSizeCheck;
   static_assert(sizeof(CompletionActionInvoker) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::CompletionActionInvoker*, "System.Threading.Tasks", "CompletionActionInvoker");

@@ -63,8 +63,8 @@ namespace Org::BouncyCastle::Math::Field {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.Field.GF2Polynomial
+  #pragma pack(pop)
   static check_size<sizeof(GF2Polynomial), 16 + sizeof(::Array<int>*)> __Org_BouncyCastle_Math_Field_GF2PolynomialSizeCheck;
   static_assert(sizeof(GF2Polynomial) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::GF2Polynomial*, "Org.BouncyCastle.Math.Field", "GF2Polynomial");

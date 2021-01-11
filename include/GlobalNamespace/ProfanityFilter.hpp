@@ -61,8 +61,8 @@ namespace GlobalNamespace {
     // Offset: 0x1E54450
     static ::Il2CppChar GetLeetEquivalent(::Il2CppChar c);
   }; // ProfanityFilter
+  #pragma pack(pop)
   static check_size<sizeof(ProfanityFilter), 16 + sizeof(GlobalNamespace::ProfanityFilter::TrieNode*)> __GlobalNamespace_ProfanityFilterSizeCheck;
   static_assert(sizeof(ProfanityFilter) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter*, "", "ProfanityFilter");

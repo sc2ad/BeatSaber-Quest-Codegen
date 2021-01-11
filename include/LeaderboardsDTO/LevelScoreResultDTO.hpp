@@ -119,8 +119,8 @@ namespace LeaderboardsDTO {
       return THROW_UNLESS((::il2cpp_utils::New<LevelScoreResultDTO*, creationType>()));
     }
   }; // LeaderboardsDTO.LevelScoreResultDTO
+  #pragma pack(pop)
   static check_size<sizeof(LevelScoreResultDTO), 96 + sizeof(::Il2CppString*)> __LeaderboardsDTO_LevelScoreResultDTOSizeCheck;
   static_assert(sizeof(LevelScoreResultDTO) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LevelScoreResultDTO*, "LeaderboardsDTO", "LevelScoreResultDTO");

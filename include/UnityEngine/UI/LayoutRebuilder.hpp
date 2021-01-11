@@ -160,8 +160,8 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<LayoutRebuilder*, creationType>()));
     }
   }; // UnityEngine.UI.LayoutRebuilder
+  #pragma pack(pop)
   static check_size<sizeof(LayoutRebuilder), 24 + sizeof(int)> __UnityEngine_UI_LayoutRebuilderSizeCheck;
   static_assert(sizeof(LayoutRebuilder) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutRebuilder*, "UnityEngine.UI", "LayoutRebuilder");

@@ -129,8 +129,8 @@ namespace System::Net::Http::Headers {
     // Offset: 0xFFFFFFFF
     bool TryParse(::Il2CppString* value, ::Il2CppObject*& result);
   }; // System.Net.Http.Headers.HeaderInfo
+  #pragma pack(pop)
   static check_size<sizeof(HeaderInfo), 32 + sizeof(System::Func_2<::Il2CppObject*, ::Il2CppString*>*)> __System_Net_Http_Headers_HeaderInfoSizeCheck;
   static_assert(sizeof(HeaderInfo) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HeaderInfo*, "System.Net.Http.Headers", "HeaderInfo");

@@ -98,8 +98,8 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.MissingMemberException
+  #pragma pack(pop)
   static check_size<sizeof(MissingMemberException), 152 + sizeof(::Array<uint8_t>*)> __System_MissingMemberExceptionSizeCheck;
   static_assert(sizeof(MissingMemberException) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::MissingMemberException*, "System", "MissingMemberException");

@@ -108,8 +108,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentOutOfRangeException*, creationType>(info, context)));
     }
   }; // System.ArgumentOutOfRangeException
+  #pragma pack(pop)
   static check_size<sizeof(ArgumentOutOfRangeException), 144 + sizeof(::Il2CppObject*)> __System_ArgumentOutOfRangeExceptionSizeCheck;
   static_assert(sizeof(ArgumentOutOfRangeException) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ArgumentOutOfRangeException*, "System", "ArgumentOutOfRangeException");

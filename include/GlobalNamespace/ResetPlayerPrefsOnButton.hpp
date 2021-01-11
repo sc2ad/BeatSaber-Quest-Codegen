@@ -48,8 +48,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ResetPlayerPrefsOnButton*, creationType>()));
     }
   }; // ResetPlayerPrefsOnButton
+  #pragma pack(pop)
   static check_size<sizeof(ResetPlayerPrefsOnButton), 24 + sizeof(UnityEngine::KeyCode)> __GlobalNamespace_ResetPlayerPrefsOnButtonSizeCheck;
   static_assert(sizeof(ResetPlayerPrefsOnButton) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResetPlayerPrefsOnButton*, "", "ResetPlayerPrefsOnButton");

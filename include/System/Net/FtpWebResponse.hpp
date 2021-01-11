@@ -190,8 +190,8 @@ namespace System::Net {
     // Base method: System.IO.Stream WebResponse::GetResponseStream()
     System::IO::Stream* GetResponseStream();
   }; // System.Net.FtpWebResponse
+  #pragma pack(pop)
   static check_size<sizeof(FtpWebResponse), 112 + sizeof(int64_t)> __System_Net_FtpWebResponseSizeCheck;
   static_assert(sizeof(FtpWebResponse) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpWebResponse*, "System.Net", "FtpWebResponse");

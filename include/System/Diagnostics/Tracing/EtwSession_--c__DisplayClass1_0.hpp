@@ -53,8 +53,8 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EtwSession::$$c__DisplayClass1_0*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.EtwSession/<>c__DisplayClass1_0
+  #pragma pack(pop)
   static check_size<sizeof(EtwSession::$$c__DisplayClass1_0), 16 + sizeof(System::Diagnostics::Tracing::EtwSession*)> __System_Diagnostics_Tracing_EtwSession_$$c__DisplayClass1_0SizeCheck;
   static_assert(sizeof(EtwSession::$$c__DisplayClass1_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EtwSession::$$c__DisplayClass1_0*, "System.Diagnostics.Tracing", "EtwSession/<>c__DisplayClass1_0");

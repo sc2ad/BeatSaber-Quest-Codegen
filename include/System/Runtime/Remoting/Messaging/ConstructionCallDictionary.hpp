@@ -53,6 +53,6 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Void MessageDictionary::SetMethodProperty(System.String key, System.Object value)
     void SetMethodProperty(::Il2CppString* key, ::Il2CppObject* value);
   }; // System.Runtime.Remoting.Messaging.ConstructionCallDictionary
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ConstructionCallDictionary*, "System.Runtime.Remoting.Messaging", "ConstructionCallDictionary");

@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x18E91FC
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_HideMirrorWindow
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_HideMirrorWindow*, "Valve.VR", "IVRCompositor/_HideMirrorWindow");

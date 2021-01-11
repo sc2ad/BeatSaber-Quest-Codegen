@@ -107,8 +107,8 @@ namespace MasterServer {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // MasterServer.MessageHandler/MultipartMessageWaiter
+  #pragma pack(pop)
   static check_size<sizeof(MessageHandler::MultipartMessageWaiter), 49 + sizeof(bool)> __MasterServer_MessageHandler_MultipartMessageWaiterSizeCheck;
   static_assert(sizeof(MessageHandler::MultipartMessageWaiter) == 0x32);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::MultipartMessageWaiter*, "MasterServer", "MessageHandler/MultipartMessageWaiter");

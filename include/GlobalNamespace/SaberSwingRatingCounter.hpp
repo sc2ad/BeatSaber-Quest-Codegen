@@ -243,8 +243,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberSwingRatingCounter*, creationType>()));
     }
   }; // SaberSwingRatingCounter
+  #pragma pack(pop)
   static check_size<sizeof(SaberSwingRatingCounter), 192 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_SaberSwingRatingCounterSizeCheck;
   static_assert(sizeof(SaberSwingRatingCounter) == 0xCC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSwingRatingCounter*, "", "SaberSwingRatingCounter");

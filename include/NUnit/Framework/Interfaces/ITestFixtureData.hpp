@@ -35,7 +35,7 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0xFFFFFFFF
     ::Array<System::Type*>* get_TypeArgs();
   }; // NUnit.Framework.Interfaces.ITestFixtureData
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestFixtureData*, "NUnit.Framework.Interfaces", "ITestFixtureData");

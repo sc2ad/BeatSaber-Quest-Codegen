@@ -41,8 +41,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<LazyAsyncResult::ThreadContext*, creationType>()));
     }
   }; // System.Net.LazyAsyncResult/ThreadContext
+  #pragma pack(pop)
   static check_size<sizeof(LazyAsyncResult::ThreadContext), 16 + sizeof(int)> __System_Net_LazyAsyncResult_ThreadContextSizeCheck;
   static_assert(sizeof(LazyAsyncResult::ThreadContext) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::LazyAsyncResult::ThreadContext*, "System.Net", "LazyAsyncResult/ThreadContext");

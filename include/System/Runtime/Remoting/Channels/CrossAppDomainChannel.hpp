@@ -83,6 +83,6 @@ namespace System::Runtime::Remoting::Channels {
       return THROW_UNLESS((::il2cpp_utils::New<CrossAppDomainChannel*, creationType>()));
     }
   }; // System.Runtime.Remoting.Channels.CrossAppDomainChannel
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainChannel*, "System.Runtime.Remoting.Channels", "CrossAppDomainChannel");

@@ -128,8 +128,8 @@ namespace OnlineServices {
     // Offset: 0xEFE894
     void OnDestroy();
   }; // OnlineServices.LevelScoreUploader
+  #pragma pack(pop)
   static check_size<sizeof(LevelScoreUploader), 56 + sizeof(OnlineServices::PlatformOnlineServicesAvailabilityModel*)> __OnlineServices_LevelScoreUploaderSizeCheck;
   static_assert(sizeof(LevelScoreUploader) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader*, "OnlineServices", "LevelScoreUploader");

@@ -64,8 +64,8 @@ namespace UnityEngine::Networking::PlayerConnection {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerEditorConnectionEvents::MessageTypeSubscribers*, creationType>()));
     }
   }; // UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers
+  #pragma pack(pop)
   static check_size<sizeof(PlayerEditorConnectionEvents::MessageTypeSubscribers), 32 + sizeof(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent*)> __UnityEngine_Networking_PlayerConnection_PlayerEditorConnectionEvents_MessageTypeSubscribersSizeCheck;
   static_assert(sizeof(PlayerEditorConnectionEvents::MessageTypeSubscribers) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents/MessageTypeSubscribers");

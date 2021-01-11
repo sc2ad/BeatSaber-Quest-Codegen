@@ -50,9 +50,9 @@ namespace System::Globalization {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Globalization.InternalCodePageDataItem
+  #pragma pack(pop)
   static check_size<sizeof(InternalCodePageDataItem), 8 + sizeof(::Il2CppString*)> __System_Globalization_InternalCodePageDataItemSizeCheck;
   static_assert(sizeof(InternalCodePageDataItem) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::InternalCodePageDataItem, "System.Globalization", "InternalCodePageDataItem");

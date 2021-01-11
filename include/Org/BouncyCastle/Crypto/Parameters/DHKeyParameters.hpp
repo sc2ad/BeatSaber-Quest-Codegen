@@ -80,8 +80,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Int32 AsymmetricKeyParameter::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.Parameters.DHKeyParameters
+  #pragma pack(pop)
   static check_size<sizeof(DHKeyParameters), 32 + sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*)> __Org_BouncyCastle_Crypto_Parameters_DHKeyParametersSizeCheck;
   static_assert(sizeof(DHKeyParameters) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DHKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHKeyParameters");

@@ -64,8 +64,8 @@ namespace TMPro {
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  VertexGradient(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3)
   }; // TMPro.VertexGradient
+  #pragma pack(pop)
   static check_size<sizeof(VertexGradient), 48 + sizeof(UnityEngine::Color)> __TMPro_VertexGradientSizeCheck;
   static_assert(sizeof(VertexGradient) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::VertexGradient, "TMPro", "VertexGradient");

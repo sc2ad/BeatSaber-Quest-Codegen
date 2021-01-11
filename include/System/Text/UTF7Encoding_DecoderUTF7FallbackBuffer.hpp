@@ -71,8 +71,8 @@ namespace System::Text {
     // Base method: System.Int32 DecoderFallbackBuffer::InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
     int InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes);
   }; // System.Text.UTF7Encoding/DecoderUTF7FallbackBuffer
+  #pragma pack(pop)
   static check_size<sizeof(UTF7Encoding::DecoderUTF7FallbackBuffer), 40 + sizeof(int)> __System_Text_UTF7Encoding_DecoderUTF7FallbackBufferSizeCheck;
   static_assert(sizeof(UTF7Encoding::DecoderUTF7FallbackBuffer) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer*, "System.Text", "UTF7Encoding/DecoderUTF7FallbackBuffer");

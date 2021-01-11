@@ -139,8 +139,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.Parameters.DHParameters
+  #pragma pack(pop)
   static check_size<sizeof(DHParameters), 56 + sizeof(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*)> __Org_BouncyCastle_Crypto_Parameters_DHParametersSizeCheck;
   static_assert(sizeof(DHParameters) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DHParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHParameters");

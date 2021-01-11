@@ -165,8 +165,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::LocalPlayer*, creationType>()));
     }
   }; // PlayerSaveData/LocalPlayer
+  #pragma pack(pop)
   static check_size<sizeof(PlayerSaveData::LocalPlayer), 136 + sizeof(GlobalNamespace::PlayerSaveData::MultiplayerModeSettings*)> __GlobalNamespace_PlayerSaveData_LocalPlayerSizeCheck;
   static_assert(sizeof(PlayerSaveData::LocalPlayer) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::LocalPlayer*, "", "PlayerSaveData/LocalPlayer");

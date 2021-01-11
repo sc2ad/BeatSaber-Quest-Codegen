@@ -64,6 +64,6 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EventSourceException*, creationType>(info, context)));
     }
   }; // System.Diagnostics.Tracing.EventSourceException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSourceException*, "System.Diagnostics.Tracing", "EventSourceException");

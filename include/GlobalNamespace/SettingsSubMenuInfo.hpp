@@ -55,8 +55,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SettingsSubMenuInfo*, creationType>()));
     }
   }; // SettingsSubMenuInfo
+  #pragma pack(pop)
   static check_size<sizeof(SettingsSubMenuInfo), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_SettingsSubMenuInfoSizeCheck;
   static_assert(sizeof(SettingsSubMenuInfo) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsSubMenuInfo*, "", "SettingsSubMenuInfo");

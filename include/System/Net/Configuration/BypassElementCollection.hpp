@@ -33,6 +33,6 @@ namespace System::Net::Configuration {
       return THROW_UNLESS((::il2cpp_utils::New<BypassElementCollection*, creationType>()));
     }
   }; // System.Net.Configuration.BypassElementCollection
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::BypassElementCollection*, "System.Net.Configuration", "BypassElementCollection");

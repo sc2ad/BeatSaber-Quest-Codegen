@@ -47,9 +47,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.Texture_t
+  #pragma pack(pop)
   static check_size<sizeof(Texture_t), 12 + sizeof(Valve::VR::EColorSpace)> __Valve_VR_Texture_tSizeCheck;
   static_assert(sizeof(Texture_t) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Texture_t, "Valve.VR", "Texture_t");

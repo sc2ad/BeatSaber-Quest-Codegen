@@ -76,6 +76,7 @@ namespace OVRSimpleJSON {
       // Set static field: static public OVRSimpleJSON.JSONNode/Enumerator/Type Object
       static void _set_Object(OVRSimpleJSON::JSONNode::Enumerator::Type value);
     }; // OVRSimpleJSON.JSONNode/Enumerator/Type
+    #pragma pack(pop)
     static check_size<sizeof(JSONNode::Enumerator::Type), 0 + sizeof(int)> __OVRSimpleJSON_JSONNode_Enumerator_TypeSizeCheck;
     static_assert(sizeof(JSONNode::Enumerator::Type) == 0x4);
     // private OVRSimpleJSON.JSONNode/Enumerator/Type type

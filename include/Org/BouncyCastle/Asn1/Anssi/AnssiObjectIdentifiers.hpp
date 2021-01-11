@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Asn1::Anssi {
     // Offset: 0x136FF3C
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Anssi.AnssiObjectIdentifiers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers*, "Org.BouncyCastle.Asn1.Anssi", "AnssiObjectIdentifiers");

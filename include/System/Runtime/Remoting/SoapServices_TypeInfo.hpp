@@ -50,8 +50,8 @@ namespace System::Runtime::Remoting {
       return THROW_UNLESS((::il2cpp_utils::New<SoapServices::TypeInfo*, creationType>()));
     }
   }; // System.Runtime.Remoting.SoapServices/TypeInfo
+  #pragma pack(pop)
   static check_size<sizeof(SoapServices::TypeInfo), 24 + sizeof(System::Collections::Hashtable*)> __System_Runtime_Remoting_SoapServices_TypeInfoSizeCheck;
   static_assert(sizeof(SoapServices::TypeInfo) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::SoapServices::TypeInfo*, "System.Runtime.Remoting", "SoapServices/TypeInfo");

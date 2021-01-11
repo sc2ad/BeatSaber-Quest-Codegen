@@ -50,8 +50,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<MonoTODOAttribute*, creationType>()));
     }
   }; // System.MonoTODOAttribute
+  #pragma pack(pop)
   static check_size<sizeof(MonoTODOAttribute), 16 + sizeof(::Il2CppString*)> __System_MonoTODOAttributeSizeCheck;
   static_assert(sizeof(MonoTODOAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::MonoTODOAttribute*, "System", "MonoTODOAttribute");

@@ -41,7 +41,7 @@ namespace MasterServer {
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* get_data();
   }; // MasterServer.IMasterServerMultipartMessage
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerMultipartMessage*, "MasterServer", "IMasterServerMultipartMessage");

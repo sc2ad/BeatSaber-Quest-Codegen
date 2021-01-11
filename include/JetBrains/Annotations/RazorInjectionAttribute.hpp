@@ -56,8 +56,8 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE98C
     void set_FieldName(::Il2CppString* value);
   }; // JetBrains.Annotations.RazorInjectionAttribute
+  #pragma pack(pop)
   static check_size<sizeof(RazorInjectionAttribute), 24 + sizeof(::Il2CppString*)> __JetBrains_Annotations_RazorInjectionAttributeSizeCheck;
   static_assert(sizeof(RazorInjectionAttribute) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorInjectionAttribute*, "JetBrains.Annotations", "RazorInjectionAttribute");

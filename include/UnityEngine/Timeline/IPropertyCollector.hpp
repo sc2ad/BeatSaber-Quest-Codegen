@@ -94,6 +94,6 @@ namespace UnityEngine::Timeline {
     // Offset: 0xFFFFFFFF
     void AddObjectProperties(UnityEngine::Object* obj, UnityEngine::AnimationClip* clip);
   }; // UnityEngine.Timeline.IPropertyCollector
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IPropertyCollector*, "UnityEngine.Timeline", "IPropertyCollector");

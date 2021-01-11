@@ -152,8 +152,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberBurnMarkSparkles*, creationType>()));
     }
   }; // SaberBurnMarkSparkles
+  #pragma pack(pop)
   static check_size<sizeof(SaberBurnMarkSparkles), 120 + sizeof(UnityEngine::ParticleSystem::EmitParams)> __GlobalNamespace_SaberBurnMarkSparklesSizeCheck;
   static_assert(sizeof(SaberBurnMarkSparkles) == 0x107);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberBurnMarkSparkles*, "", "SaberBurnMarkSparkles");

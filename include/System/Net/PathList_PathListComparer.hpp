@@ -49,6 +49,6 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<PathList::PathListComparer*, creationType>()));
     }
   }; // System.Net.PathList/PathListComparer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::PathList::PathListComparer*, "System.Net", "PathList/PathListComparer");

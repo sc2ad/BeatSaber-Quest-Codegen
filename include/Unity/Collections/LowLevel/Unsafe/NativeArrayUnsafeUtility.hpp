@@ -39,6 +39,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
       return ::il2cpp_utils::RunMethodThrow<Unity::Collections::NativeArray_1<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, dataPointer, length, allocator);
     }
   }; // Unity.Collections.LowLevel.Unsafe.NativeArrayUnsafeUtility
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility*, "Unity.Collections.LowLevel.Unsafe", "NativeArrayUnsafeUtility");

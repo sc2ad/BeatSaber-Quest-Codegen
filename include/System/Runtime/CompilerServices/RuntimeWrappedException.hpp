@@ -73,8 +73,8 @@ namespace System::Runtime::CompilerServices {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeWrappedException*, creationType>()));
     }
   }; // System.Runtime.CompilerServices.RuntimeWrappedException
+  #pragma pack(pop)
   static check_size<sizeof(RuntimeWrappedException), 136 + sizeof(::Il2CppObject*)> __System_Runtime_CompilerServices_RuntimeWrappedExceptionSizeCheck;
   static_assert(sizeof(RuntimeWrappedException) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeWrappedException*, "System.Runtime.CompilerServices", "RuntimeWrappedException");

@@ -79,8 +79,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSpectatingSpotPickerViewController*, creationType>()));
     }
   }; // MultiplayerSpectatingSpotPickerViewController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerSpectatingSpotPickerViewController), 32 + sizeof(GlobalNamespace::MultiplayerSpectatorController*)> __GlobalNamespace_MultiplayerSpectatingSpotPickerViewControllerSizeCheck;
   static_assert(sizeof(MultiplayerSpectatingSpotPickerViewController) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatingSpotPickerViewController*, "", "MultiplayerSpectatingSpotPickerViewController");

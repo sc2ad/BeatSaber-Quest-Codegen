@@ -73,8 +73,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayerEntitlementChecker::CachedTcs*, creationType>()));
     }
   }; // NetworkPlayerEntitlementChecker/CachedTcs
+  #pragma pack(pop)
   static check_size<sizeof(NetworkPlayerEntitlementChecker::CachedTcs), 32 + sizeof(float)> __GlobalNamespace_NetworkPlayerEntitlementChecker_CachedTcsSizeCheck;
   static_assert(sizeof(NetworkPlayerEntitlementChecker::CachedTcs) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*, "", "NetworkPlayerEntitlementChecker/CachedTcs");

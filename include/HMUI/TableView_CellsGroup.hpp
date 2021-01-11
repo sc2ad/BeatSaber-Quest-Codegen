@@ -62,8 +62,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<TableView::CellsGroup*, creationType>()));
     }
   }; // HMUI.TableView/CellsGroup
+  #pragma pack(pop)
   static check_size<sizeof(TableView::CellsGroup), 24 + sizeof(System::Collections::Generic::List_1<HMUI::TableCell*>*)> __HMUI_TableView_CellsGroupSizeCheck;
   static_assert(sizeof(TableView::CellsGroup) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::CellsGroup*, "HMUI", "TableView/CellsGroup");

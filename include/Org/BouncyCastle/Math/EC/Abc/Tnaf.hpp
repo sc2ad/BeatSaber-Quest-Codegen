@@ -108,7 +108,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // Offset: 0x176B810
     static void _cctor();
   }; // Org.BouncyCastle.Math.EC.Abc.Tnaf
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::Tnaf*, "Org.BouncyCastle.Math.EC.Abc", "Tnaf");

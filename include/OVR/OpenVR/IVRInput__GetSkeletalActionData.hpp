@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1865A24
     OVR::OpenVR::EVRInputError EndInvoke(OVR::OpenVR::InputSkeletalActionData_t& pActionData, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_GetSkeletalActionData
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_GetSkeletalActionData*, "OVR.OpenVR", "IVRInput/_GetSkeletalActionData");

@@ -125,8 +125,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void DerOctetString::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
   }; // Org.BouncyCastle.Asn1.BerOctetString
+  #pragma pack(pop)
   static check_size<sizeof(BerOctetString), 32 + sizeof(::Array<Org::BouncyCastle::Asn1::Asn1OctetString*>*)> __Org_BouncyCastle_Asn1_BerOctetStringSizeCheck;
   static_assert(sizeof(BerOctetString) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerOctetString*, "Org.BouncyCastle.Asn1", "BerOctetString");

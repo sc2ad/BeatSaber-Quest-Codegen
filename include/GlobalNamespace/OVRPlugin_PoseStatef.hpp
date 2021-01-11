@@ -72,9 +72,9 @@ namespace GlobalNamespace {
     // Offset: 0x12E0468
     static void _cctor();
   }; // OVRPlugin/PoseStatef
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::PoseStatef), 80 + sizeof(double)> __GlobalNamespace_OVRPlugin_PoseStatefSizeCheck;
   static_assert(sizeof(OVRPlugin::PoseStatef) == 0x58);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::PoseStatef, "", "OVRPlugin/PoseStatef");

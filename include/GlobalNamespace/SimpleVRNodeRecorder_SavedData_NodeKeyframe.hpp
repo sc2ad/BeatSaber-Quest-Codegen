@@ -87,8 +87,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleVRNodeRecorder::SavedData::NodeKeyframe*, creationType>(pos, rot, time)));
     }
   }; // SimpleVRNodeRecorder/SavedData/NodeKeyframe
+  #pragma pack(pop)
   static check_size<sizeof(SimpleVRNodeRecorder::SavedData::NodeKeyframe), 44 + sizeof(float)> __GlobalNamespace_SimpleVRNodeRecorder_SavedData_NodeKeyframeSizeCheck;
   static_assert(sizeof(SimpleVRNodeRecorder::SavedData::NodeKeyframe) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*, "", "SimpleVRNodeRecorder/SavedData/NodeKeyframe");

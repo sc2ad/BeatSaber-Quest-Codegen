@@ -62,9 +62,9 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.DeliveryMethod ReliableSequenced
     static void _set_ReliableSequenced(LiteNetLib::DeliveryMethod value);
   }; // LiteNetLib.DeliveryMethod
+  #pragma pack(pop)
   static check_size<sizeof(DeliveryMethod), 0 + sizeof(uint8_t)> __LiteNetLib_DeliveryMethodSizeCheck;
   static_assert(sizeof(DeliveryMethod) == 0x1);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DeliveryMethod, "LiteNetLib", "DeliveryMethod");

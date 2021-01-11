@@ -139,8 +139,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DemoMenuLevelPanelView*, creationType>()));
     }
   }; // DemoMenuLevelPanelView
+  #pragma pack(pop)
   static check_size<sizeof(DemoMenuLevelPanelView), 72 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_DemoMenuLevelPanelViewSizeCheck;
   static_assert(sizeof(DemoMenuLevelPanelView) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DemoMenuLevelPanelView*, "", "DemoMenuLevelPanelView");

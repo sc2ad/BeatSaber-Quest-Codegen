@@ -100,8 +100,8 @@ namespace GlobalNamespace {
     // Offset: 0x1A2432C
     UnityEngine::Vector3 GetCurrentPathPosition();
   }; // BeatmapObjectAvoidancePathEvaluator
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectAvoidancePathEvaluator), 56 + sizeof(GlobalNamespace::PlayerTransforms*)> __GlobalNamespace_BeatmapObjectAvoidancePathEvaluatorSizeCheck;
   static_assert(sizeof(BeatmapObjectAvoidancePathEvaluator) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*, "", "BeatmapObjectAvoidancePathEvaluator");

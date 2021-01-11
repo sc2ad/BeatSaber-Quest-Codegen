@@ -54,6 +54,6 @@ namespace System::Net {
     // Offset: 0x130AAF8
     System::Net::AuthenticationSchemes EndInvoke(System::IAsyncResult* result);
   }; // System.Net.AuthenticationSchemeSelector
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::AuthenticationSchemeSelector*, "System.Net", "AuthenticationSchemeSelector");

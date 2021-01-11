@@ -89,8 +89,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FeverModeUIPanel*, creationType>()));
     }
   }; // FeverModeUIPanel
+  #pragma pack(pop)
   static check_size<sizeof(FeverModeUIPanel), 40 + sizeof(float)> __GlobalNamespace_FeverModeUIPanelSizeCheck;
   static_assert(sizeof(FeverModeUIPanel) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FeverModeUIPanel*, "", "FeverModeUIPanel");

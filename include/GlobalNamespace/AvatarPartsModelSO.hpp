@@ -108,8 +108,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AvatarPartsModelSO*, creationType>()));
     }
   }; // AvatarPartsModelSO
+  #pragma pack(pop)
   static check_size<sizeof(AvatarPartsModelSO), 72 + sizeof(::Array<GlobalNamespace::AvatarMeshPartSO*>*)> __GlobalNamespace_AvatarPartsModelSOSizeCheck;
   static_assert(sizeof(AvatarPartsModelSO) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPartsModelSO*, "", "AvatarPartsModelSO");

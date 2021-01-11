@@ -41,7 +41,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x141CB0C
     static void _cctor();
   }; // UnityEngine.Timeline.Extrapolation
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::Extrapolation*, "UnityEngine.Timeline", "Extrapolation");

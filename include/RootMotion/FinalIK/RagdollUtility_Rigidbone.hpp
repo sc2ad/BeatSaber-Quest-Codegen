@@ -120,8 +120,8 @@ namespace RootMotion::FinalIK {
     // Offset: 0x15E3BAC
     void WakeUp(float velocityWeight, float angularVelocityWeight);
   }; // RootMotion.FinalIK.RagdollUtility/Rigidbone
+  #pragma pack(pop)
   static check_size<sizeof(RagdollUtility::Rigidbone), 104 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_RagdollUtility_RigidboneSizeCheck;
   static_assert(sizeof(RagdollUtility::Rigidbone) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::Rigidbone*, "RootMotion.FinalIK", "RagdollUtility/Rigidbone");

@@ -62,8 +62,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BasicLevelParamsPanel*, creationType>()));
     }
   }; // BasicLevelParamsPanel
+  #pragma pack(pop)
   static check_size<sizeof(BasicLevelParamsPanel), 32 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_BasicLevelParamsPanelSizeCheck;
   static_assert(sizeof(BasicLevelParamsPanel) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicLevelParamsPanel*, "", "BasicLevelParamsPanel");

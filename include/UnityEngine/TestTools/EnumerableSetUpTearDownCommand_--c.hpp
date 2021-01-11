@@ -59,6 +59,6 @@ namespace UnityEngine::TestTools {
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableSetUpTearDownCommand::$$c*, creationType>()));
     }
   }; // UnityEngine.TestTools.EnumerableSetUpTearDownCommand/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c*, "UnityEngine.TestTools", "EnumerableSetUpTearDownCommand/<>c");

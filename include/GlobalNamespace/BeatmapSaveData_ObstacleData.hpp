@@ -89,8 +89,8 @@ namespace GlobalNamespace {
     // Base method: System.Void ITime::MoveTime(System.Single offset)
     void MoveTime(float offset);
   }; // BeatmapSaveData/ObstacleData
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::ObstacleData), 32 + sizeof(int)> __GlobalNamespace_BeatmapSaveData_ObstacleDataSizeCheck;
   static_assert(sizeof(BeatmapSaveData::ObstacleData) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::ObstacleData*, "", "BeatmapSaveData/ObstacleData");

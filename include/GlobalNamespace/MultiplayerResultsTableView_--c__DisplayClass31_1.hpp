@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsTableView::$$c__DisplayClass31_1*, creationType>()));
     }
   }; // MultiplayerResultsTableView/<>c__DisplayClass31_1
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsTableView::$$c__DisplayClass31_1), 16 + sizeof(UnityEngine::RectTransform*)> __GlobalNamespace_MultiplayerResultsTableView_$$c__DisplayClass31_1SizeCheck;
   static_assert(sizeof(MultiplayerResultsTableView::$$c__DisplayClass31_1) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass31_1*, "", "MultiplayerResultsTableView/<>c__DisplayClass31_1");

@@ -43,9 +43,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.IVRResources
+  #pragma pack(pop)
   static check_size<sizeof(IVRResources), 8 + sizeof(OVR::OpenVR::IVRResources::_GetResourceFullPath*)> __OVR_OpenVR_IVRResourcesSizeCheck;
   static_assert(sizeof(IVRResources) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRResources, "OVR.OpenVR", "IVRResources");

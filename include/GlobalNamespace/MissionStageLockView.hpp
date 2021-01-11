@@ -88,8 +88,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionStageLockView*, creationType>()));
     }
   }; // MissionStageLockView
+  #pragma pack(pop)
   static check_size<sizeof(MissionStageLockView), 48 + sizeof(float)> __GlobalNamespace_MissionStageLockViewSizeCheck;
   static_assert(sizeof(MissionStageLockView) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStageLockView*, "", "MissionStageLockView");

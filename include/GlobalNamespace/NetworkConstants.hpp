@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Set static field: static public System.String leftHanded
     static void _set_leftHanded(::Il2CppString* value);
   }; // NetworkConstants
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkConstants*, "", "NetworkConstants");

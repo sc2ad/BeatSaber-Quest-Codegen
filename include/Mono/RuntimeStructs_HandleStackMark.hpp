@@ -45,9 +45,9 @@ namespace Mono {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Mono.RuntimeStructs/HandleStackMark
+  #pragma pack(pop)
   static check_size<sizeof(RuntimeStructs::HandleStackMark), 8 + sizeof(System::IntPtr)> __Mono_RuntimeStructs_HandleStackMarkSizeCheck;
   static_assert(sizeof(RuntimeStructs::HandleStackMark) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::HandleStackMark, "Mono", "RuntimeStructs/HandleStackMark");

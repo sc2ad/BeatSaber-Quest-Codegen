@@ -76,8 +76,8 @@ namespace Mono::Net {
     // Offset: 0x12638F8
     Mono::Net::CFDictionary* get_Dictionary();
   }; // Mono.Net.CFProxySettings
+  #pragma pack(pop)
   static check_size<sizeof(CFProxySettings), 16 + sizeof(Mono::Net::CFDictionary*)> __Mono_Net_CFProxySettingsSizeCheck;
   static_assert(sizeof(CFProxySettings) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFProxySettings*, "Mono.Net", "CFProxySettings");

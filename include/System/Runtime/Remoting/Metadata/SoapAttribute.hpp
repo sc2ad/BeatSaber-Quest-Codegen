@@ -62,8 +62,8 @@ namespace System::Runtime::Remoting::Metadata {
       return THROW_UNLESS((::il2cpp_utils::New<SoapAttribute*, creationType>()));
     }
   }; // System.Runtime.Remoting.Metadata.SoapAttribute
+  #pragma pack(pop)
   static check_size<sizeof(SoapAttribute), 32 + sizeof(::Il2CppObject*)> __System_Runtime_Remoting_Metadata_SoapAttributeSizeCheck;
   static_assert(sizeof(SoapAttribute) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapAttribute*, "System.Runtime.Remoting.Metadata", "SoapAttribute");

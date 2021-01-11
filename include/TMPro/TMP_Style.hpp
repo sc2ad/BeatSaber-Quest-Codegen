@@ -94,8 +94,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Style*, creationType>()));
     }
   }; // TMPro.TMP_Style
+  #pragma pack(pop)
   static check_size<sizeof(TMP_Style), 56 + sizeof(::Array<int>*)> __TMPro_TMP_StyleSizeCheck;
   static_assert(sizeof(TMP_Style) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Style*, "TMPro", "TMP_Style");

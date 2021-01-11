@@ -180,8 +180,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Base method: System.Void UnityWorkItem::Cancel(System.Boolean force)
     void Cancel(bool force);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem
+  #pragma pack(pop)
   static check_size<sizeof(CompositeWorkItem), 144 + sizeof(NUnit::Framework::Internal::Execution::CountdownEvent*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_CompositeWorkItemSizeCheck;
   static_assert(sizeof(CompositeWorkItem) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CompositeWorkItem");

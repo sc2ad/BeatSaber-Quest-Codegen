@@ -45,9 +45,9 @@ namespace System::Resources {
     // Set static field: static public System.Resources.UltimateResourceFallbackLocation Satellite
     static void _set_Satellite(System::Resources::UltimateResourceFallbackLocation value);
   }; // System.Resources.UltimateResourceFallbackLocation
+  #pragma pack(pop)
   static check_size<sizeof(UltimateResourceFallbackLocation), 0 + sizeof(int)> __System_Resources_UltimateResourceFallbackLocationSizeCheck;
   static_assert(sizeof(UltimateResourceFallbackLocation) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::UltimateResourceFallbackLocation, "System.Resources", "UltimateResourceFallbackLocation");

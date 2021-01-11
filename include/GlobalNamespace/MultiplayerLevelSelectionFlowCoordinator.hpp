@@ -203,8 +203,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLevelSelectionFlowCoordinator*, creationType>()));
     }
   }; // MultiplayerLevelSelectionFlowCoordinator
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLevelSelectionFlowCoordinator), 280 + sizeof(GlobalNamespace::LevelSelectionFlowCoordinator::State*)> __GlobalNamespace_MultiplayerLevelSelectionFlowCoordinatorSizeCheck;
   static_assert(sizeof(MultiplayerLevelSelectionFlowCoordinator) == 0x120);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator*, "", "MultiplayerLevelSelectionFlowCoordinator");

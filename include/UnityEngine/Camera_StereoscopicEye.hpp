@@ -46,9 +46,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.Camera/StereoscopicEye Right
     static void _set_Right(UnityEngine::Camera::StereoscopicEye value);
   }; // UnityEngine.Camera/StereoscopicEye
+  #pragma pack(pop)
   static check_size<sizeof(Camera::StereoscopicEye), 0 + sizeof(int)> __UnityEngine_Camera_StereoscopicEyeSizeCheck;
   static_assert(sizeof(Camera::StereoscopicEye) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Camera::StereoscopicEye, "UnityEngine", "Camera/StereoscopicEye");

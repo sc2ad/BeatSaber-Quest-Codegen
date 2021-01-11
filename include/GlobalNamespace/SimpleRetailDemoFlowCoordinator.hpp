@@ -231,8 +231,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleRetailDemoFlowCoordinator*, creationType>()));
     }
   }; // SimpleRetailDemoFlowCoordinator
+  #pragma pack(pop)
   static check_size<sizeof(SimpleRetailDemoFlowCoordinator), 304 + sizeof(GlobalNamespace::GameplayModifiers*)> __GlobalNamespace_SimpleRetailDemoFlowCoordinatorSizeCheck;
   static_assert(sizeof(SimpleRetailDemoFlowCoordinator) == 0x138);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoFlowCoordinator*, "", "SimpleRetailDemoFlowCoordinator");

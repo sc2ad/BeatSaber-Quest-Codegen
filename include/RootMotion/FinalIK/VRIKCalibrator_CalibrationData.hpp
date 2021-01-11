@@ -114,8 +114,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<VRIKCalibrator::CalibrationData*, creationType>()));
     }
   }; // RootMotion.FinalIK.VRIKCalibrator/CalibrationData
+  #pragma pack(pop)
   static check_size<sizeof(VRIKCalibrator::CalibrationData), 104 + sizeof(float)> __RootMotion_FinalIK_VRIKCalibrator_CalibrationDataSizeCheck;
   static_assert(sizeof(VRIKCalibrator::CalibrationData) == 0x6C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, "RootMotion.FinalIK", "VRIKCalibrator/CalibrationData");

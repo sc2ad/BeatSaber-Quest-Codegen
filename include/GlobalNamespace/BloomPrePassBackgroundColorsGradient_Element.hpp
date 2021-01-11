@@ -51,8 +51,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundColorsGradient::Element*, creationType>()));
     }
   }; // BloomPrePassBackgroundColorsGradient/Element
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePassBackgroundColorsGradient::Element), 36 + sizeof(float)> __GlobalNamespace_BloomPrePassBackgroundColorsGradient_ElementSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundColorsGradient::Element) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*, "", "BloomPrePassBackgroundColorsGradient/Element");

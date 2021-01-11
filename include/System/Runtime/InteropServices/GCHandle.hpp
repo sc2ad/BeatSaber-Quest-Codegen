@@ -125,11 +125,11 @@ namespace System::Runtime::InteropServices {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Runtime.InteropServices.GCHandle
+  #pragma pack(pop)
   static check_size<sizeof(GCHandle), 0 + sizeof(int)> __System_Runtime_InteropServices_GCHandleSizeCheck;
   static_assert(sizeof(GCHandle) == 0x4);
   // static public System.Boolean op_Equality(System.Runtime.InteropServices.GCHandle a, System.Runtime.InteropServices.GCHandle b)
   // Offset: 0x1164F04
   bool operator ==(const System::Runtime::InteropServices::GCHandle& a, const System::Runtime::InteropServices::GCHandle& b);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::GCHandle, "System.Runtime.InteropServices", "GCHandle");

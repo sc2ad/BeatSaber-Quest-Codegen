@@ -54,8 +54,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<ElementSelection::$$c__DisplayClass21_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass21_0
+  #pragma pack(pop)
   static check_size<sizeof(ElementSelection::$$c__DisplayClass21_0), 16 + sizeof(UnityEngine::ProBuilder::Face*)> __UnityEngine_ProBuilder_MeshOperations_ElementSelection_$$c__DisplayClass21_0SizeCheck;
   static_assert(sizeof(ElementSelection::$$c__DisplayClass21_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass21_0*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c__DisplayClass21_0");

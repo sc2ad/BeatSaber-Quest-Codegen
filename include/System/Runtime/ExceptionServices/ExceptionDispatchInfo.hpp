@@ -58,8 +58,8 @@ namespace System::Runtime::ExceptionServices {
     // Offset: 0x1162188
     void Throw();
   }; // System.Runtime.ExceptionServices.ExceptionDispatchInfo
+  #pragma pack(pop)
   static check_size<sizeof(ExceptionDispatchInfo), 24 + sizeof(::Il2CppObject*)> __System_Runtime_ExceptionServices_ExceptionDispatchInfoSizeCheck;
   static_assert(sizeof(ExceptionDispatchInfo) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::ExceptionDispatchInfo*, "System.Runtime.ExceptionServices", "ExceptionDispatchInfo");

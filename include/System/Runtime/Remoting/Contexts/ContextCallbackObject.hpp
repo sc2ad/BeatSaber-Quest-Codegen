@@ -43,6 +43,6 @@ namespace System::Runtime::Remoting::Contexts {
       return THROW_UNLESS((::il2cpp_utils::New<ContextCallbackObject*, creationType>()));
     }
   }; // System.Runtime.Remoting.Contexts.ContextCallbackObject
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::ContextCallbackObject*, "System.Runtime.Remoting.Contexts", "ContextCallbackObject");

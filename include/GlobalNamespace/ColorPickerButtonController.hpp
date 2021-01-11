@@ -69,8 +69,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorPickerButtonController*, creationType>()));
     }
   }; // ColorPickerButtonController
+  #pragma pack(pop)
   static check_size<sizeof(ColorPickerButtonController), 32 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_ColorPickerButtonControllerSizeCheck;
   static_assert(sizeof(ColorPickerButtonController) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorPickerButtonController*, "", "ColorPickerButtonController");

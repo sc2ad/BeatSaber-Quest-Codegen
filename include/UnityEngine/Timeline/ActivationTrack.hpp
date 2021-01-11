@@ -95,6 +95,7 @@ namespace UnityEngine::Timeline {
       // Set static field: static public UnityEngine.Timeline.ActivationTrack/PostPlaybackState LeaveAsIs
       static void _set_LeaveAsIs(UnityEngine::Timeline::ActivationTrack::PostPlaybackState value);
     }; // UnityEngine.Timeline.ActivationTrack/PostPlaybackState
+    #pragma pack(pop)
     static check_size<sizeof(ActivationTrack::PostPlaybackState), 0 + sizeof(int)> __UnityEngine_Timeline_ActivationTrack_PostPlaybackStateSizeCheck;
     static_assert(sizeof(ActivationTrack::PostPlaybackState) == 0x4);
     // private UnityEngine.Timeline.ActivationTrack/PostPlaybackState m_PostPlaybackState

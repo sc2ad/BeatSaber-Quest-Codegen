@@ -47,9 +47,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.VRTextureDepthInfo_t
+  #pragma pack(pop)
   static check_size<sizeof(VRTextureDepthInfo_t), 72 + sizeof(OVR::OpenVR::HmdVector2_t)> __OVR_OpenVR_VRTextureDepthInfo_tSizeCheck;
   static_assert(sizeof(VRTextureDepthInfo_t) == 0x50);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRTextureDepthInfo_t, "OVR.OpenVR", "VRTextureDepthInfo_t");

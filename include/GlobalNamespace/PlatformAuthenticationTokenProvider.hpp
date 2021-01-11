@@ -92,8 +92,8 @@ namespace GlobalNamespace {
     // Base method: System.Threading.Tasks.Task`1<AuthenticationToken> IAuthenticationTokenProvider::GetAuthenticationToken()
     System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
   }; // PlatformAuthenticationTokenProvider
+  #pragma pack(pop)
   static check_size<sizeof(PlatformAuthenticationTokenProvider), 48 + sizeof(GlobalNamespace::AuthenticationToken::Platform)> __GlobalNamespace_PlatformAuthenticationTokenProviderSizeCheck;
   static_assert(sizeof(PlatformAuthenticationTokenProvider) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAuthenticationTokenProvider*, "", "PlatformAuthenticationTokenProvider");

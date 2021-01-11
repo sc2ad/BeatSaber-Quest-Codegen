@@ -138,8 +138,8 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Base method: System.Byte[] ISigner::GenerateSignature()
     ::Array<uint8_t>* GenerateSignature();
   }; // Org.BouncyCastle.Crypto.Signers.Iso9796d2Signer
+  #pragma pack(pop)
   static check_size<sizeof(Iso9796d2Signer), 80 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Signers_Iso9796d2SignerSizeCheck;
   static_assert(sizeof(Iso9796d2Signer) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer*, "Org.BouncyCastle.Crypto.Signers", "Iso9796d2Signer");

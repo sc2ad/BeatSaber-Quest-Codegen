@@ -96,6 +96,6 @@ namespace Microsoft::Win32 {
       return THROW_UNLESS((::il2cpp_utils::New<UnixRegistryApi*, creationType>()));
     }
   }; // Microsoft.Win32.UnixRegistryApi
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnixRegistryApi*, "Microsoft.Win32", "UnixRegistryApi");

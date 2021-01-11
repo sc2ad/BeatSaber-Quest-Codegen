@@ -86,6 +86,7 @@ namespace HMUI {
       // Set static field: static public HMUI.NavigationController/Orientation Vertical
       static void _set_Vertical(HMUI::NavigationController::Orientation value);
     }; // HMUI.NavigationController/Orientation
+    #pragma pack(pop)
     static check_size<sizeof(NavigationController::Orientation), 0 + sizeof(int)> __HMUI_NavigationController_OrientationSizeCheck;
     static_assert(sizeof(NavigationController::Orientation) == 0x4);
     // Size: 0x4
@@ -129,6 +130,7 @@ namespace HMUI {
       // Set static field: static public HMUI.NavigationController/Alignment End
       static void _set_End(HMUI::NavigationController::Alignment value);
     }; // HMUI.NavigationController/Alignment
+    #pragma pack(pop)
     static check_size<sizeof(NavigationController::Alignment), 0 + sizeof(int)> __HMUI_NavigationController_AlignmentSizeCheck;
     static_assert(sizeof(NavigationController::Alignment) == 0x4);
     // private HMUI.NavigationController/Orientation _orientation
@@ -204,10 +206,10 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<NavigationController*, creationType>()));
     }
   }; // HMUI.NavigationController
+  #pragma pack(pop)
   static check_size<sizeof(NavigationController), 144 + sizeof(float)> __HMUI_NavigationControllerSizeCheck;
   static_assert(sizeof(NavigationController) == 0x94);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController*, "HMUI", "NavigationController");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::Orientation, "HMUI", "NavigationController/Orientation");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::Alignment, "HMUI", "NavigationController/Alignment");

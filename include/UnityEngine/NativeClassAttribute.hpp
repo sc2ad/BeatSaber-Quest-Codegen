@@ -60,8 +60,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<NativeClassAttribute*, creationType>(qualifiedCppName, declaration)));
     }
   }; // UnityEngine.NativeClassAttribute
+  #pragma pack(pop)
   static check_size<sizeof(NativeClassAttribute), 24 + sizeof(::Il2CppString*)> __UnityEngine_NativeClassAttributeSizeCheck;
   static_assert(sizeof(NativeClassAttribute) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::NativeClassAttribute*, "UnityEngine", "NativeClassAttribute");

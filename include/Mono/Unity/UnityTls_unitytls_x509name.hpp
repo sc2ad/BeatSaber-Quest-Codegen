@@ -25,7 +25,7 @@ namespace Mono::Unity {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Mono.Unity.UnityTls/unitytls_x509name
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_x509name, "Mono.Unity", "UnityTls/unitytls_x509name");

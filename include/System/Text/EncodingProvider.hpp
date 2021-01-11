@@ -57,7 +57,7 @@ namespace System::Text {
     // Offset: 0x15A48C8
     static void _cctor();
   }; // System.Text.EncodingProvider
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncodingProvider*, "System.Text", "EncodingProvider");

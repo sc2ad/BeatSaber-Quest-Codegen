@@ -195,8 +195,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteAsset*, creationType>()));
     }
   }; // TMPro.TMP_SpriteAsset
+  #pragma pack(pop)
   static check_size<sizeof(TMP_SpriteAsset), 120 + sizeof(bool)> __TMPro_TMP_SpriteAssetSizeCheck;
   static_assert(sizeof(TMP_SpriteAsset) == 0x79);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAsset*, "TMPro", "TMP_SpriteAsset");

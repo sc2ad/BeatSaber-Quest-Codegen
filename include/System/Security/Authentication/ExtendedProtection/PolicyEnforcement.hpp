@@ -50,9 +50,9 @@ namespace System::Security::Authentication::ExtendedProtection {
     // Set static field: static public System.Security.Authentication.ExtendedProtection.PolicyEnforcement Always
     static void _set_Always(System::Security::Authentication::ExtendedProtection::PolicyEnforcement value);
   }; // System.Security.Authentication.ExtendedProtection.PolicyEnforcement
+  #pragma pack(pop)
   static check_size<sizeof(PolicyEnforcement), 0 + sizeof(int)> __System_Security_Authentication_ExtendedProtection_PolicyEnforcementSizeCheck;
   static_assert(sizeof(PolicyEnforcement) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::ExtendedProtection::PolicyEnforcement, "System.Security.Authentication.ExtendedProtection", "PolicyEnforcement");

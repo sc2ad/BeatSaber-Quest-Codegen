@@ -84,8 +84,8 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.Pkcs.CertificationRequestInfo
+  #pragma pack(pop)
   static check_size<sizeof(CertificationRequestInfo), 40 + sizeof(Org::BouncyCastle::Asn1::Asn1Set*)> __Org_BouncyCastle_Asn1_Pkcs_CertificationRequestInfoSizeCheck;
   static_assert(sizeof(CertificationRequestInfo) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo*, "Org.BouncyCastle.Asn1.Pkcs", "CertificationRequestInfo");

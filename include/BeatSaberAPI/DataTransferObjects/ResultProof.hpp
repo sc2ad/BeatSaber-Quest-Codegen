@@ -46,8 +46,8 @@ namespace BeatSaberAPI::DataTransferObjects {
       return THROW_UNLESS((::il2cpp_utils::New<ResultProof*, creationType>()));
     }
   }; // BeatSaberAPI.DataTransferObjects.ResultProof
+  #pragma pack(pop)
   static check_size<sizeof(ResultProof), 16 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_ResultProofSizeCheck;
   static_assert(sizeof(ResultProof) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::ResultProof*, "BeatSaberAPI.DataTransferObjects", "ResultProof");

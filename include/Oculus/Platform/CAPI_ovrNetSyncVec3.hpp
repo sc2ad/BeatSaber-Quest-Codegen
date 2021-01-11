@@ -43,9 +43,9 @@ namespace Oculus::Platform {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Oculus.Platform.CAPI/ovrNetSyncVec3
+  #pragma pack(pop)
   static check_size<sizeof(CAPI::ovrNetSyncVec3), 8 + sizeof(float)> __Oculus_Platform_CAPI_ovrNetSyncVec3SizeCheck;
   static_assert(sizeof(CAPI::ovrNetSyncVec3) == 0xC);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrNetSyncVec3, "Oculus.Platform", "CAPI/ovrNetSyncVec3");

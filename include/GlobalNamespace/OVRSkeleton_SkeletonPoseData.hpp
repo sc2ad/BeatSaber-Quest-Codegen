@@ -92,9 +92,9 @@ namespace GlobalNamespace {
     // Offset: 0xC9C5E0
     void set_IsDataHighConfidence(bool value);
   }; // OVRSkeleton/SkeletonPoseData
+  #pragma pack(pop)
   static check_size<sizeof(OVRSkeleton::SkeletonPoseData), 41 + sizeof(bool)> __GlobalNamespace_OVRSkeleton_SkeletonPoseDataSizeCheck;
   static_assert(sizeof(OVRSkeleton::SkeletonPoseData) == 0x2A);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton::SkeletonPoseData, "", "OVRSkeleton/SkeletonPoseData");

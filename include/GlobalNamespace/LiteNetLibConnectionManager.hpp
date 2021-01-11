@@ -175,6 +175,7 @@ namespace GlobalNamespace {
       // Set static field: static public LiteNetLibConnectionManager/NetworkMode Relay
       static void _set_Relay(GlobalNamespace::LiteNetLibConnectionManager::NetworkMode value);
     }; // LiteNetLibConnectionManager/NetworkMode
+    #pragma pack(pop)
     static check_size<sizeof(LiteNetLibConnectionManager::NetworkMode), 0 + sizeof(int)> __GlobalNamespace_LiteNetLibConnectionManager_NetworkModeSizeCheck;
     static_assert(sizeof(LiteNetLibConnectionManager::NetworkMode) == 0x4);
     // Size: 0x4
@@ -224,6 +225,7 @@ namespace GlobalNamespace {
       // Set static field: static public LiteNetLibConnectionManager/ConnectionState Disconnecting
       static void _set_Disconnecting(GlobalNamespace::LiteNetLibConnectionManager::ConnectionState value);
     }; // LiteNetLibConnectionManager/ConnectionState
+    #pragma pack(pop)
     static check_size<sizeof(LiteNetLibConnectionManager::ConnectionState), 0 + sizeof(int)> __GlobalNamespace_LiteNetLibConnectionManager_ConnectionStateSizeCheck;
     static_assert(sizeof(LiteNetLibConnectionManager::ConnectionState) == 0x4);
     // private readonly LiteNetLib.NetManager _netManager
@@ -741,10 +743,10 @@ namespace GlobalNamespace {
     // Base method: System.Void INetEventListener::OnNetworkReceiveUnconnected(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType)
     void LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPacketReader* reader, LiteNetLib::UnconnectedMessageType messageType);
   }; // LiteNetLibConnectionManager
+  #pragma pack(pop)
   static check_size<sizeof(LiteNetLibConnectionManager), 200 + sizeof(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*)> __GlobalNamespace_LiteNetLibConnectionManagerSizeCheck;
   static_assert(sizeof(LiteNetLibConnectionManager) == 0xD0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager*, "", "LiteNetLibConnectionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetworkMode, "", "LiteNetLibConnectionManager/NetworkMode");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::ConnectionState, "", "LiteNetLibConnectionManager/ConnectionState");

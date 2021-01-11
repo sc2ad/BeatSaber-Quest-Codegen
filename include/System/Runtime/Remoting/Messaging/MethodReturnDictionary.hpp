@@ -47,6 +47,6 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x132C768
     static void _cctor();
   }; // System.Runtime.Remoting.Messaging.MethodReturnDictionary
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MethodReturnDictionary*, "System.Runtime.Remoting.Messaging", "MethodReturnDictionary");

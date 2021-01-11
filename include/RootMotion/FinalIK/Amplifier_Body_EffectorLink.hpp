@@ -47,8 +47,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Amplifier::Body::EffectorLink*, creationType>()));
     }
   }; // RootMotion.FinalIK.Amplifier/Body/EffectorLink
+  #pragma pack(pop)
   static check_size<sizeof(Amplifier::Body::EffectorLink), 20 + sizeof(float)> __RootMotion_FinalIK_Amplifier_Body_EffectorLinkSizeCheck;
   static_assert(sizeof(Amplifier::Body::EffectorLink) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier::Body::EffectorLink*, "RootMotion.FinalIK", "Amplifier/Body/EffectorLink");

@@ -71,8 +71,8 @@ namespace System::Security {
     // Offset: 0x1283D48
     System::Security::SecurityElement* InternalGetElement(int& position, bool bCreate);
   }; // System.Security.SecurityDocument
+  #pragma pack(pop)
   static check_size<sizeof(SecurityDocument), 16 + sizeof(::Array<uint8_t>*)> __System_Security_SecurityDocumentSizeCheck;
   static_assert(sizeof(SecurityDocument) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityDocument*, "System.Security", "SecurityDocument");

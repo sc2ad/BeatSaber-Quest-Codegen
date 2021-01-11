@@ -216,8 +216,8 @@ namespace Polyglot {
       return THROW_UNLESS((::il2cpp_utils::New<Localization*, creationType>()));
     }
   }; // Polyglot.Localization
+  #pragma pack(pop)
   static check_size<sizeof(Localization), 56 + sizeof(UnityEngine::Events::UnityEvent*)> __Polyglot_LocalizationSizeCheck;
   static_assert(sizeof(Localization) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::Localization*, "Polyglot", "Localization");

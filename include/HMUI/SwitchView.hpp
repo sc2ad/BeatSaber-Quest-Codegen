@@ -67,6 +67,7 @@ namespace HMUI {
       // Set static field: static public HMUI.SwitchView/AnimationType SelectedState
       static void _set_SelectedState(HMUI::SwitchView::AnimationType value);
     }; // HMUI.SwitchView/AnimationType
+    #pragma pack(pop)
     static check_size<sizeof(SwitchView::AnimationType), 0 + sizeof(int)> __HMUI_SwitchView_AnimationTypeSizeCheck;
     static_assert(sizeof(SwitchView::AnimationType) == 0x4);
     // private HMUI.SwitchView/AnimationType _animationType
@@ -176,9 +177,9 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<SwitchView*, creationType>()));
     }
   }; // HMUI.SwitchView
+  #pragma pack(pop)
   static check_size<sizeof(SwitchView), 96 + sizeof(HMUI::ToggleWithCallbacks*)> __HMUI_SwitchViewSizeCheck;
   static_assert(sizeof(SwitchView) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SwitchView*, "HMUI", "SwitchView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SwitchView::AnimationType, "HMUI", "SwitchView/AnimationType");

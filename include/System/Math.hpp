@@ -167,7 +167,7 @@ namespace System {
     // Offset: 0x13B56E8
     static void _cctor();
   }; // System.Math
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Math*, "System", "Math");

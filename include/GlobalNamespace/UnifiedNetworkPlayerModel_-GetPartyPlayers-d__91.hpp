@@ -125,8 +125,8 @@ namespace GlobalNamespace {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnifiedNetworkPlayerModel/<GetPartyPlayers>d__91
+  #pragma pack(pop)
   static check_size<sizeof(UnifiedNetworkPlayerModel::$GetPartyPlayers$d__91), 48 + sizeof(int)> __GlobalNamespace_UnifiedNetworkPlayerModel_$GetPartyPlayers$d__91SizeCheck;
   static_assert(sizeof(UnifiedNetworkPlayerModel::$GetPartyPlayers$d__91) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::$GetPartyPlayers$d__91*, "", "UnifiedNetworkPlayerModel/<GetPartyPlayers>d__91");

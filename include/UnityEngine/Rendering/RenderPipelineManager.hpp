@@ -90,7 +90,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0x16BD868
     static void _cctor();
   }; // UnityEngine.Rendering.RenderPipelineManager
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderPipelineManager*, "UnityEngine.Rendering", "RenderPipelineManager");

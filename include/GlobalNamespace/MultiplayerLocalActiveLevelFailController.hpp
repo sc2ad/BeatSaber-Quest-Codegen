@@ -116,8 +116,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActiveLevelFailController*, creationType>()));
     }
   }; // MultiplayerLocalActiveLevelFailController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActiveLevelFailController), 64 + sizeof(GlobalNamespace::MultiplayerPlayersManager*)> __GlobalNamespace_MultiplayerLocalActiveLevelFailControllerSizeCheck;
   static_assert(sizeof(MultiplayerLocalActiveLevelFailController) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveLevelFailController*, "", "MultiplayerLocalActiveLevelFailController");

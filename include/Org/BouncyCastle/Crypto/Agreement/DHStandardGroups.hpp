@@ -208,7 +208,7 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Offset: 0x158CF98
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Agreement.DHStandardGroups
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*, "Org.BouncyCastle.Crypto.Agreement", "DHStandardGroups");

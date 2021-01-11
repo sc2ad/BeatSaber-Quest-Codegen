@@ -67,8 +67,8 @@ namespace Org::BouncyCastle::Crypto::Paddings {
       return THROW_UNLESS((::il2cpp_utils::New<X923Padding*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Paddings.X923Padding
+  #pragma pack(pop)
   static check_size<sizeof(X923Padding), 16 + sizeof(Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Paddings_X923PaddingSizeCheck;
   static_assert(sizeof(X923Padding) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::X923Padding*, "Org.BouncyCastle.Crypto.Paddings", "X923Padding");

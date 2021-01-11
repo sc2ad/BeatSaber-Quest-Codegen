@@ -86,9 +86,9 @@ namespace System::Reflection {
     // Offset: 0x15CE428
     static ::Il2CppObject* get_default_value(System::Reflection::MonoProperty* prop);
   }; // System.Reflection.MonoPropertyInfo
+  #pragma pack(pop)
   static check_size<sizeof(MonoPropertyInfo), 40 + sizeof(System::Reflection::PropertyAttributes)> __System_Reflection_MonoPropertyInfoSizeCheck;
   static_assert(sizeof(MonoPropertyInfo) == 0x2C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoPropertyInfo, "System.Reflection", "MonoPropertyInfo");

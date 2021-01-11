@@ -71,8 +71,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MockMasterServerAvailabilityModel*, creationType>()));
     }
   }; // MockMasterServerAvailabilityModel
+  #pragma pack(pop)
   static check_size<sizeof(MockMasterServerAvailabilityModel), 16 + sizeof(GlobalNamespace::MultiplayerMockSettings*)> __GlobalNamespace_MockMasterServerAvailabilityModelSizeCheck;
   static_assert(sizeof(MockMasterServerAvailabilityModel) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMasterServerAvailabilityModel*, "", "MockMasterServerAvailabilityModel");

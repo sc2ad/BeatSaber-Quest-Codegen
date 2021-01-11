@@ -107,8 +107,8 @@ namespace System::Net {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Net.ListenerPrefix
+  #pragma pack(pop)
   static check_size<sizeof(ListenerPrefix), 56 + sizeof(System::Net::HttpListener*)> __System_Net_ListenerPrefixSizeCheck;
   static_assert(sizeof(ListenerPrefix) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ListenerPrefix*, "System.Net", "ListenerPrefix");

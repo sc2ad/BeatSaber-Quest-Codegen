@@ -128,8 +128,8 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Void IMemoable::Reset(Org.BouncyCastle.Utilities.IMemoable t)
     void Reset(Org::BouncyCastle::Utilities::IMemoable* t);
   }; // Org.BouncyCastle.Crypto.Digests.GeneralDigest
+  #pragma pack(pop)
   static check_size<sizeof(GeneralDigest), 32 + sizeof(int64_t)> __Org_BouncyCastle_Crypto_Digests_GeneralDigestSizeCheck;
   static_assert(sizeof(GeneralDigest) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::GeneralDigest*, "Org.BouncyCastle.Crypto.Digests", "GeneralDigest");

@@ -150,8 +150,8 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::Il2CppString* ToString(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension
+  #pragma pack(pop)
   static check_size<sizeof(X509SubjectKeyIdentifierExtension), 56 + sizeof(System::Security::Cryptography::AsnDecodeStatus)> __System_Security_Cryptography_X509Certificates_X509SubjectKeyIdentifierExtensionSizeCheck;
   static_assert(sizeof(X509SubjectKeyIdentifierExtension) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension*, "System.Security.Cryptography.X509Certificates", "X509SubjectKeyIdentifierExtension");

@@ -44,9 +44,9 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.IndexFormat UInt32
     static void _set_UInt32(UnityEngine::Rendering::IndexFormat value);
   }; // UnityEngine.Rendering.IndexFormat
+  #pragma pack(pop)
   static check_size<sizeof(IndexFormat), 0 + sizeof(int)> __UnityEngine_Rendering_IndexFormatSizeCheck;
   static_assert(sizeof(IndexFormat) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::IndexFormat, "UnityEngine.Rendering", "IndexFormat");

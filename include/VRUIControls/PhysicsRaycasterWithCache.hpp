@@ -84,6 +84,7 @@ namespace VRUIControls {
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  CachedRaycast(bool wasHit, UnityEngine::Ray ray, UnityEngine::RaycastHit hitInfo, float maxDistance, int layerMask)
     }; // VRUIControls.PhysicsRaycasterWithCache/CachedRaycast
+    #pragma pack(pop)
     static check_size<sizeof(PhysicsRaycasterWithCache::CachedRaycast), 76 + sizeof(int)> __VRUIControls_PhysicsRaycasterWithCache_CachedRaycastSizeCheck;
     static_assert(sizeof(PhysicsRaycasterWithCache::CachedRaycast) == 0x50);
     // private readonly System.Collections.Generic.List`1<VRUIControls.PhysicsRaycasterWithCache/CachedRaycast> _cachedRaycasts
@@ -113,9 +114,9 @@ namespace VRUIControls {
       return THROW_UNLESS((::il2cpp_utils::New<PhysicsRaycasterWithCache*, creationType>()));
     }
   }; // VRUIControls.PhysicsRaycasterWithCache
+  #pragma pack(pop)
   static check_size<sizeof(PhysicsRaycasterWithCache), 24 + sizeof(int)> __VRUIControls_PhysicsRaycasterWithCacheSizeCheck;
   static_assert(sizeof(PhysicsRaycasterWithCache) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::PhysicsRaycasterWithCache*, "VRUIControls", "PhysicsRaycasterWithCache");
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::PhysicsRaycasterWithCache::CachedRaycast, "VRUIControls", "PhysicsRaycasterWithCache/CachedRaycast");

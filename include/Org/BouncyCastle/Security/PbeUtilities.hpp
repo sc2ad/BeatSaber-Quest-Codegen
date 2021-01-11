@@ -81,7 +81,7 @@ namespace Org::BouncyCastle::Security {
     // Offset: 0x10D0284
     static Org::BouncyCastle::Crypto::ICipherParameters* FixDesParity(::Il2CppString* mechanism, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
   }; // Org.BouncyCastle.Security.PbeUtilities
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::PbeUtilities*, "Org.BouncyCastle.Security", "PbeUtilities");

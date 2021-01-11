@@ -194,8 +194,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<VRIK::References*, creationType>()));
     }
   }; // RootMotion.FinalIK.VRIK/References
+  #pragma pack(pop)
   static check_size<sizeof(VRIK::References), 184 + sizeof(UnityEngine::Transform*)> __RootMotion_FinalIK_VRIK_ReferencesSizeCheck;
   static_assert(sizeof(VRIK::References) == 0xC0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIK::References*, "RootMotion.FinalIK", "VRIK/References");

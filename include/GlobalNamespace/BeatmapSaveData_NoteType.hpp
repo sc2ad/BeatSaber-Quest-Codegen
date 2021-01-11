@@ -64,9 +64,9 @@ namespace GlobalNamespace {
     // Set static field: static public BeatmapSaveData/NoteType None
     static void _set_None(GlobalNamespace::BeatmapSaveData::NoteType value);
   }; // BeatmapSaveData/NoteType
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::NoteType), 0 + sizeof(int)> __GlobalNamespace_BeatmapSaveData_NoteTypeSizeCheck;
   static_assert(sizeof(BeatmapSaveData::NoteType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::NoteType, "", "BeatmapSaveData/NoteType");

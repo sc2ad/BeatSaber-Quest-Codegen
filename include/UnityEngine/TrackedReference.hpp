@@ -53,11 +53,11 @@ namespace UnityEngine {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.TrackedReference
+  #pragma pack(pop)
   static check_size<sizeof(TrackedReference), 16 + sizeof(System::IntPtr)> __UnityEngine_TrackedReferenceSizeCheck;
   static_assert(sizeof(TrackedReference) == 0x18);
   // static public System.Boolean op_Equality(UnityEngine.TrackedReference x, UnityEngine.TrackedReference y)
   // Offset: 0x16C69E4
   bool operator ==(UnityEngine::TrackedReference* x, UnityEngine::TrackedReference& y);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TrackedReference*, "UnityEngine", "TrackedReference");

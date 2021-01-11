@@ -110,8 +110,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<InteractionLookAt*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionLookAt
+  #pragma pack(pop)
   static check_size<sizeof(InteractionLookAt), 56 + sizeof(bool)> __RootMotion_FinalIK_InteractionLookAtSizeCheck;
   static_assert(sizeof(InteractionLookAt) == 0x39);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionLookAt*, "RootMotion.FinalIK", "InteractionLookAt");

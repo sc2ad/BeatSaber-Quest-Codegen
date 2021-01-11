@@ -56,6 +56,6 @@ namespace UnityEngine::UI {
     // Offset: 0x156B2DC
     bool EndInvoke(UnityEngine::RaycastHit& hit, System::IAsyncResult* result);
   }; // UnityEngine.UI.ReflectionMethodsCache/Raycast3DCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback*, "UnityEngine.UI", "ReflectionMethodsCache/Raycast3DCallback");

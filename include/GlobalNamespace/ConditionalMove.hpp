@@ -67,8 +67,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ConditionalMove*, creationType>()));
     }
   }; // ConditionalMove
+  #pragma pack(pop)
   static check_size<sizeof(ConditionalMove), 48 + sizeof(bool)> __GlobalNamespace_ConditionalMoveSizeCheck;
   static_assert(sizeof(ConditionalMove) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalMove*, "", "ConditionalMove");

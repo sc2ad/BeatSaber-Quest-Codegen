@@ -15,7 +15,7 @@ namespace NUnit::Framework::Interfaces {
     // Creating value type constructor for type: IImplyFixture
     IImplyFixture() noexcept {}
   }; // NUnit.Framework.Interfaces.IImplyFixture
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IImplyFixture*, "NUnit.Framework.Interfaces", "IImplyFixture");

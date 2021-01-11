@@ -341,8 +341,8 @@ namespace RootMotion::FinalIK {
     // Offset: 0x17EA2EC
     void OnPostFBBIK();
   }; // RootMotion.FinalIK.InteractionEffector
+  #pragma pack(pop)
   static check_size<sizeof(InteractionEffector), 200 + sizeof(bool)> __RootMotion_FinalIK_InteractionEffectorSizeCheck;
   static_assert(sizeof(InteractionEffector) == 0xC9);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionEffector*, "RootMotion.FinalIK", "InteractionEffector");

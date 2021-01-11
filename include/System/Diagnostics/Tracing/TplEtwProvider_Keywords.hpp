@@ -26,7 +26,7 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.EventKeywords Debug
     static void _set_Debug(System::Diagnostics::Tracing::EventKeywords value);
   }; // System.Diagnostics.Tracing.TplEtwProvider/Keywords
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TplEtwProvider::Keywords*, "System.Diagnostics.Tracing", "TplEtwProvider/Keywords");

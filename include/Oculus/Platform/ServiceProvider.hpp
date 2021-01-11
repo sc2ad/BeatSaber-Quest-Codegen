@@ -74,9 +74,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.ServiceProvider RemoteMedia
     static void _set_RemoteMedia(Oculus::Platform::ServiceProvider value);
   }; // Oculus.Platform.ServiceProvider
+  #pragma pack(pop)
   static check_size<sizeof(ServiceProvider), 0 + sizeof(int)> __Oculus_Platform_ServiceProviderSizeCheck;
   static_assert(sizeof(ServiceProvider) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ServiceProvider, "Oculus.Platform", "ServiceProvider");

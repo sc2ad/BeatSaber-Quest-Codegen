@@ -61,8 +61,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<MatchmakingEnqueuedUser*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.MatchmakingEnqueuedUser
+  #pragma pack(pop)
   static check_size<sizeof(MatchmakingEnqueuedUser), 32 + sizeof(Oculus::Platform::Models::User*)> __Oculus_Platform_Models_MatchmakingEnqueuedUserSizeCheck;
   static_assert(sizeof(MatchmakingEnqueuedUser) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingEnqueuedUser*, "Oculus.Platform.Models", "MatchmakingEnqueuedUser");

@@ -79,8 +79,8 @@ namespace Mono {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // Mono.RuntimeClassHandle
+  #pragma pack(pop)
   static check_size<sizeof(RuntimeClassHandle), 0 + sizeof(Mono::RuntimeStructs::MonoClass*)> __Mono_RuntimeClassHandleSizeCheck;
   static_assert(sizeof(RuntimeClassHandle) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeClassHandle, "Mono", "RuntimeClassHandle");

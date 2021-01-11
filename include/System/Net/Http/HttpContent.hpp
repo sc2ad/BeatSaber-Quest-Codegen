@@ -150,8 +150,8 @@ namespace System::Net::Http {
       return THROW_UNLESS((::il2cpp_utils::New<HttpContent*, creationType>()));
     }
   }; // System.Net.Http.HttpContent
+  #pragma pack(pop)
   static check_size<sizeof(HttpContent), 32 + sizeof(System::Net::Http::Headers::HttpContentHeaders*)> __System_Net_Http_HttpContentSizeCheck;
   static_assert(sizeof(HttpContent) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpContent*, "System.Net.Http", "HttpContent");

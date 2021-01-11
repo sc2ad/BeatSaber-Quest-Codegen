@@ -59,7 +59,7 @@ namespace UnityEngine {
     // Offset: 0x1737F10
     static void get_onUnitSphere_Injected(UnityEngine::Vector3& ret);
   }; // UnityEngine.Random
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Random*, "UnityEngine", "Random");

@@ -88,8 +88,8 @@ namespace GlobalNamespace {
     // Offset: 0x197925C
     void Update(float scale, bool shouldRender, bool shouldUseSystemGestureMaterial, GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior confidenceBehavior, GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior systemGestureBehavior);
   }; // OVRSkeletonRenderer/CapsuleVisualization
+  #pragma pack(pop)
   static check_size<sizeof(OVRSkeletonRenderer::CapsuleVisualization), 64 + sizeof(UnityEngine::Material*)> __GlobalNamespace_OVRSkeletonRenderer_CapsuleVisualizationSizeCheck;
   static_assert(sizeof(OVRSkeletonRenderer::CapsuleVisualization) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization*, "", "OVRSkeletonRenderer/CapsuleVisualization");

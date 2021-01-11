@@ -71,8 +71,8 @@ namespace Org::BouncyCastle::Math::EC::Endo {
       return THROW_UNLESS((::il2cpp_utils::New<EndoPreCompInfo*, creationType>()));
     }
   }; // Org.BouncyCastle.Math.EC.Endo.EndoPreCompInfo
+  #pragma pack(pop)
   static check_size<sizeof(EndoPreCompInfo), 24 + sizeof(Org::BouncyCastle::Math::EC::ECPoint*)> __Org_BouncyCastle_Math_EC_Endo_EndoPreCompInfoSizeCheck;
   static_assert(sizeof(EndoPreCompInfo) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo*, "Org.BouncyCastle.Math.EC.Endo", "EndoPreCompInfo");

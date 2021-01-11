@@ -52,9 +52,9 @@ namespace Mono::Net::Security {
     // Set static field: static public Mono.Net.Security.MobileAuthenticatedStream/OperationType Shutdown
     static void _set_Shutdown(Mono::Net::Security::MobileAuthenticatedStream::OperationType value);
   }; // Mono.Net.Security.MobileAuthenticatedStream/OperationType
+  #pragma pack(pop)
   static check_size<sizeof(MobileAuthenticatedStream::OperationType), 0 + sizeof(int)> __Mono_Net_Security_MobileAuthenticatedStream_OperationTypeSizeCheck;
   static_assert(sizeof(MobileAuthenticatedStream::OperationType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream::OperationType, "Mono.Net.Security", "MobileAuthenticatedStream/OperationType");

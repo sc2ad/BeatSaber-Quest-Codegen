@@ -38,6 +38,6 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<Asn1OutputStream*, creationType>(os)));
     }
   }; // Org.BouncyCastle.Asn1.Asn1OutputStream
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1OutputStream*, "Org.BouncyCastle.Asn1", "Asn1OutputStream");

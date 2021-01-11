@@ -32,6 +32,6 @@ namespace System::Runtime::Remoting {
       return THROW_UNLESS((::il2cpp_utils::New<FormatterData*, creationType>()));
     }
   }; // System.Runtime.Remoting.FormatterData
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::FormatterData*, "System.Runtime.Remoting", "FormatterData");

@@ -138,8 +138,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboardManager*, creationType>()));
     }
   }; // UIKeyboardManager
+  #pragma pack(pop)
   static check_size<sizeof(UIKeyboardManager), 64 + sizeof(HMUI::InputFieldView*)> __GlobalNamespace_UIKeyboardManagerSizeCheck;
   static_assert(sizeof(UIKeyboardManager) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboardManager*, "", "UIKeyboardManager");

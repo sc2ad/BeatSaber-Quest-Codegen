@@ -74,8 +74,8 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::LookupVar(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
   }; // Org.BouncyCastle.Math.EC.F2mCurve/DefaultF2mLookupTable
+  #pragma pack(pop)
   static check_size<sizeof(F2mCurve::DefaultF2mLookupTable), 32 + sizeof(int)> __Org_BouncyCastle_Math_EC_F2mCurve_DefaultF2mLookupTableSizeCheck;
   static_assert(sizeof(F2mCurve::DefaultF2mLookupTable) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::F2mCurve::DefaultF2mLookupTable*, "Org.BouncyCastle.Math.EC", "F2mCurve/DefaultF2mLookupTable");

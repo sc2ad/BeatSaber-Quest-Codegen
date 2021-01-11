@@ -47,8 +47,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightSceneSetupData*, creationType>(playerSpecificSettings)));
     }
   }; // PatternFightSceneSetupData
+  #pragma pack(pop)
   static check_size<sizeof(PatternFightSceneSetupData), 16 + sizeof(GlobalNamespace::PlayerSpecificSettings*)> __GlobalNamespace_PatternFightSceneSetupDataSizeCheck;
   static_assert(sizeof(PatternFightSceneSetupData) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightSceneSetupData*, "", "PatternFightSceneSetupData");

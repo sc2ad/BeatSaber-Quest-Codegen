@@ -56,8 +56,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LobbyAvatarInstaller*, creationType>()));
     }
   }; // LobbyAvatarInstaller
+  #pragma pack(pop)
   static check_size<sizeof(LobbyAvatarInstaller), 32 + sizeof(GlobalNamespace::IConnectedPlayer*)> __GlobalNamespace_LobbyAvatarInstallerSizeCheck;
   static_assert(sizeof(LobbyAvatarInstaller) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyAvatarInstaller*, "", "LobbyAvatarInstaller");

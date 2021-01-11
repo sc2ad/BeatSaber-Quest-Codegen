@@ -103,8 +103,8 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x13F3CB0
     bool IsAssignableToGenericType(System::Type* givenType, System::Type* genericType);
   }; // NUnit.Framework.Internal.GenericMethodHelper
+  #pragma pack(pop)
   static check_size<sizeof(GenericMethodHelper), 40 + sizeof(::Array<System::Type*>*)> __NUnit_Framework_Internal_GenericMethodHelperSizeCheck;
   static_assert(sizeof(GenericMethodHelper) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::GenericMethodHelper*, "NUnit.Framework.Internal", "GenericMethodHelper");

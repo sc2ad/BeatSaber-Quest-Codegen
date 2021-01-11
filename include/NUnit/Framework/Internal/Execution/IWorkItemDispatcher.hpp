@@ -15,7 +15,7 @@ namespace NUnit::Framework::Internal::Execution {
     // Creating value type constructor for type: IWorkItemDispatcher
     IWorkItemDispatcher() noexcept {}
   }; // NUnit.Framework.Internal.Execution.IWorkItemDispatcher
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::IWorkItemDispatcher*, "NUnit.Framework.Internal.Execution", "IWorkItemDispatcher");

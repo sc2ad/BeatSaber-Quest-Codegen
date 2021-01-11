@@ -59,8 +59,8 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestResultSender::QueueData*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender/QueueData
+  #pragma pack(pop)
   static check_size<sizeof(RemoteTestResultSender::QueueData), 32 + sizeof(::Array<uint8_t>*)> __UnityEngine_TestTools_TestRunner_Callbacks_RemoteTestResultSender_QueueDataSizeCheck;
   static_assert(sizeof(RemoteTestResultSender::QueueData) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData*, "UnityEngine.TestTools.TestRunner.Callbacks", "RemoteTestResultSender/QueueData");

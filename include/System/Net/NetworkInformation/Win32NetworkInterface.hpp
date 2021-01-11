@@ -38,7 +38,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x119DA84
     static System::Net::NetworkInformation::Win32_FIXED_INFO get_FixedInfo();
   }; // System.Net.NetworkInformation.Win32NetworkInterface
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32NetworkInterface*, "System.Net.NetworkInformation", "Win32NetworkInterface");

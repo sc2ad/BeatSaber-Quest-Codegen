@@ -50,9 +50,9 @@ namespace UnityEngine {
     // Offset: 0xCB759C
     void Init();
   }; // UnityEngine.HumanPose
+  #pragma pack(pop)
   static check_size<sizeof(HumanPose), 32 + sizeof(::Array<float>*)> __UnityEngine_HumanPoseSizeCheck;
   static_assert(sizeof(HumanPose) == 0x28);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanPose, "UnityEngine", "HumanPose");

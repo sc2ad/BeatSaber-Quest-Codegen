@@ -64,8 +64,8 @@ namespace Zenject {
     // Base method: System.Void SubContainerCreatorDynamicContext::AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     void AddInstallers(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::GameObjectContext* context);
   }; // Zenject.SubContainerCreatorByNewGameObjectMethod
+  #pragma pack(pop)
   static check_size<sizeof(SubContainerCreatorByNewGameObjectMethod), 32 + sizeof(System::Action_1<Zenject::DiContainer*>*)> __Zenject_SubContainerCreatorByNewGameObjectMethodSizeCheck;
   static_assert(sizeof(SubContainerCreatorByNewGameObjectMethod) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewGameObjectMethod*, "Zenject", "SubContainerCreatorByNewGameObjectMethod");

@@ -404,8 +404,8 @@ namespace System::IO {
     // Base method: System.Void Stream::.cctor()
     static void _cctor();
   }; // System.IO.FileStream
+  #pragma pack(pop)
   static check_size<sizeof(FileStream), 104 + sizeof(int64_t)> __System_IO_FileStreamSizeCheck;
   static_assert(sizeof(FileStream) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileStream*, "System.IO", "FileStream");

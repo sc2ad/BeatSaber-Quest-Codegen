@@ -77,6 +77,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRPlatformMenu/eHandler RetreatOneLevel
       static void _set_RetreatOneLevel(GlobalNamespace::OVRPlatformMenu::eHandler value);
     }; // OVRPlatformMenu/eHandler
+    #pragma pack(pop)
     static check_size<sizeof(OVRPlatformMenu::eHandler), 0 + sizeof(int)> __GlobalNamespace_OVRPlatformMenu_eHandlerSizeCheck;
     static_assert(sizeof(OVRPlatformMenu::eHandler) == 0x4);
     // private OVRInput/RawButton inputCode
@@ -139,9 +140,9 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // OVRPlatformMenu
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlatformMenu), 32 + sizeof(System::Func_1<bool>*)> __GlobalNamespace_OVRPlatformMenuSizeCheck;
   static_assert(sizeof(OVRPlatformMenu) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlatformMenu*, "", "OVRPlatformMenu");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlatformMenu::eHandler, "", "OVRPlatformMenu/eHandler");

@@ -99,8 +99,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ServerCodeView*, creationType>()));
     }
   }; // ServerCodeView
+  #pragma pack(pop)
   static check_size<sizeof(ServerCodeView), 56 + sizeof(bool)> __GlobalNamespace_ServerCodeViewSizeCheck;
   static_assert(sizeof(ServerCodeView) == 0x39);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerCodeView*, "", "ServerCodeView");

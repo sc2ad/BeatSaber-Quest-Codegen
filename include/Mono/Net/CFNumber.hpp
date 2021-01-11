@@ -30,7 +30,7 @@ namespace Mono::Net {
     // Offset: 0x1262ED0
     static int AsInt32(System::IntPtr handle);
   }; // Mono.Net.CFNumber
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNumber*, "Mono.Net", "CFNumber");

@@ -64,9 +64,9 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.CallingConventions ExplicitThis
     static void _set_ExplicitThis(System::Reflection::CallingConventions value);
   }; // System.Reflection.CallingConventions
+  #pragma pack(pop)
   static check_size<sizeof(CallingConventions), 0 + sizeof(int)> __System_Reflection_CallingConventionsSizeCheck;
   static_assert(sizeof(CallingConventions) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CallingConventions, "System.Reflection", "CallingConventions");

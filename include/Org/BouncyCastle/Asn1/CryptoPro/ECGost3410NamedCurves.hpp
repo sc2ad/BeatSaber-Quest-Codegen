@@ -72,7 +72,7 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     // Offset: 0x137E328
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByNameX9(::Il2CppString* name);
   }; // Org.BouncyCastle.Asn1.CryptoPro.ECGost3410NamedCurves
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves*, "Org.BouncyCastle.Asn1.CryptoPro", "ECGost3410NamedCurves");

@@ -62,8 +62,8 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<NetPeer::IncomingFragments*, creationType>()));
     }
   }; // LiteNetLib.NetPeer/IncomingFragments
+  #pragma pack(pop)
   static check_size<sizeof(NetPeer::IncomingFragments), 32 + sizeof(uint8_t)> __LiteNetLib_NetPeer_IncomingFragmentsSizeCheck;
   static_assert(sizeof(NetPeer::IncomingFragments) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPeer::IncomingFragments*, "LiteNetLib", "NetPeer/IncomingFragments");

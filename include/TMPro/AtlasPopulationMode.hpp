@@ -44,9 +44,9 @@ namespace TMPro {
     // Set static field: static public TMPro.AtlasPopulationMode Dynamic
     static void _set_Dynamic(TMPro::AtlasPopulationMode value);
   }; // TMPro.AtlasPopulationMode
+  #pragma pack(pop)
   static check_size<sizeof(AtlasPopulationMode), 0 + sizeof(int)> __TMPro_AtlasPopulationModeSizeCheck;
   static_assert(sizeof(AtlasPopulationMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::AtlasPopulationMode, "TMPro", "AtlasPopulationMode");

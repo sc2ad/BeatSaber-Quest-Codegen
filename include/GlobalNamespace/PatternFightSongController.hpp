@@ -93,6 +93,7 @@ namespace GlobalNamespace {
       // Set static field: static public PatternFightSongController/GameplayPhase ReplayThisPlayerPattern
       static void _set_ReplayThisPlayerPattern(GlobalNamespace::PatternFightSongController::GameplayPhase value);
     }; // PatternFightSongController/GameplayPhase
+    #pragma pack(pop)
     static check_size<sizeof(PatternFightSongController::GameplayPhase), 0 + sizeof(int)> __GlobalNamespace_PatternFightSongController_GameplayPhaseSizeCheck;
     static_assert(sizeof(PatternFightSongController::GameplayPhase) == 0x4);
     // [InjectAttribute] Offset: 0xDCB2EC
@@ -211,9 +212,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightSongController*, creationType>()));
     }
   }; // PatternFightSongController
+  #pragma pack(pop)
   static check_size<sizeof(PatternFightSongController), 80 + sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::NoteData*>*)> __GlobalNamespace_PatternFightSongControllerSizeCheck;
   static_assert(sizeof(PatternFightSongController) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightSongController*, "", "PatternFightSongController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightSongController::GameplayPhase, "", "PatternFightSongController/GameplayPhase");

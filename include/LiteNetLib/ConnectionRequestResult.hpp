@@ -56,9 +56,9 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.ConnectionRequestResult RejectForce
     static void _set_RejectForce(LiteNetLib::ConnectionRequestResult value);
   }; // LiteNetLib.ConnectionRequestResult
+  #pragma pack(pop)
   static check_size<sizeof(ConnectionRequestResult), 0 + sizeof(int)> __LiteNetLib_ConnectionRequestResultSizeCheck;
   static_assert(sizeof(ConnectionRequestResult) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ConnectionRequestResult, "LiteNetLib", "ConnectionRequestResult");

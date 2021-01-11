@@ -18,7 +18,7 @@ namespace System::Threading {
     // Creating value type constructor for type: SystemThreading_SpinLockDebugView
     SystemThreading_SpinLockDebugView() noexcept {}
   }; // System.Threading.SpinLock/SystemThreading_SpinLockDebugView
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock::SystemThreading_SpinLockDebugView*, "System.Threading", "SpinLock/SystemThreading_SpinLockDebugView");

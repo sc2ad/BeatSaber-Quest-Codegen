@@ -193,8 +193,8 @@ namespace GlobalNamespace {
     // Base method: System.Threading.Tasks.Task`1<GetAssetBundleFileResult> IBeatmapDataAssetFileModel::GetAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForPreviewLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, System::Threading::CancellationToken cancellationToken);
   }; // OculusBeatmapDataAssetFileModel
+  #pragma pack(pop)
   static check_size<sizeof(OculusBeatmapDataAssetFileModel), 72 + sizeof(GlobalNamespace::OculusLevelProductsModelSO*)> __GlobalNamespace_OculusBeatmapDataAssetFileModelSizeCheck;
   static_assert(sizeof(OculusBeatmapDataAssetFileModel) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel*, "", "OculusBeatmapDataAssetFileModel");

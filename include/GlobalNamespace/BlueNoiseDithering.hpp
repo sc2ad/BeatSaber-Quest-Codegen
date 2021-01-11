@@ -67,8 +67,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // BlueNoiseDithering
+  #pragma pack(pop)
   static check_size<sizeof(BlueNoiseDithering), 24 + sizeof(UnityEngine::Texture2D*)> __GlobalNamespace_BlueNoiseDitheringSizeCheck;
   static_assert(sizeof(BlueNoiseDithering) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDithering*, "", "BlueNoiseDithering");

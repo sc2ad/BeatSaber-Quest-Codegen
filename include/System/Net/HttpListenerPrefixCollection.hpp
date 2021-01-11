@@ -125,8 +125,8 @@ namespace System::Net {
     // Maps to method: Remove
     bool System_Collections_Generic_ICollection_1_Remove(::Il2CppString* uriPrefix);
   }; // System.Net.HttpListenerPrefixCollection
+  #pragma pack(pop)
   static check_size<sizeof(HttpListenerPrefixCollection), 24 + sizeof(System::Net::HttpListener*)> __System_Net_HttpListenerPrefixCollectionSizeCheck;
   static_assert(sizeof(HttpListenerPrefixCollection) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerPrefixCollection*, "System.Net", "HttpListenerPrefixCollection");

@@ -123,9 +123,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.IVRSettings
+  #pragma pack(pop)
   static check_size<sizeof(IVRSettings), 88 + sizeof(Valve::VR::IVRSettings::_RemoveKeyInSection*)> __Valve_VR_IVRSettingsSizeCheck;
   static_assert(sizeof(IVRSettings) == 0x60);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings, "Valve.VR", "IVRSettings");

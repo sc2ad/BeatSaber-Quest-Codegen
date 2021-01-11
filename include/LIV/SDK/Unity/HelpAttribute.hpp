@@ -40,8 +40,8 @@ namespace LIV::SDK::Unity {
       return THROW_UNLESS((::il2cpp_utils::New<HelpAttribute*, creationType>(text)));
     }
   }; // LIV.SDK.Unity.HelpAttribute
+  #pragma pack(pop)
   static check_size<sizeof(HelpAttribute), 16 + sizeof(::Il2CppString*)> __LIV_SDK_Unity_HelpAttributeSizeCheck;
   static_assert(sizeof(HelpAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::HelpAttribute*, "LIV.SDK.Unity", "HelpAttribute");

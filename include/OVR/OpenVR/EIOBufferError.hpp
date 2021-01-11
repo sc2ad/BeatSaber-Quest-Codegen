@@ -74,9 +74,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EIOBufferError IOBuffer_Permission
     static void _set_IOBuffer_Permission(OVR::OpenVR::EIOBufferError value);
   }; // OVR.OpenVR.EIOBufferError
+  #pragma pack(pop)
   static check_size<sizeof(EIOBufferError), 0 + sizeof(int)> __OVR_OpenVR_EIOBufferErrorSizeCheck;
   static_assert(sizeof(EIOBufferError) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EIOBufferError, "OVR.OpenVR", "EIOBufferError");

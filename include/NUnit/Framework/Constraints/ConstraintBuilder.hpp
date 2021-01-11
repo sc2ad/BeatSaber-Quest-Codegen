@@ -51,9 +51,9 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13DC748
     bool get_IsResolvable();
   }; // NUnit.Framework.Constraints.ConstraintBuilder
+  #pragma pack(pop)
   static check_size<sizeof(ConstraintBuilder), 32 + sizeof(::Il2CppObject*)> __NUnit_Framework_Constraints_ConstraintBuilderSizeCheck;
   static_assert(sizeof(ConstraintBuilder) == 0x28);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder*, "NUnit.Framework.Constraints", "ConstraintBuilder");

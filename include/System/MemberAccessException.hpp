@@ -61,6 +61,6 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<MemberAccessException*, creationType>(info, context)));
     }
   }; // System.MemberAccessException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::MemberAccessException*, "System", "MemberAccessException");

@@ -95,8 +95,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyCenterStageManager*, creationType>()));
     }
   }; // MultiplayerLobbyCenterStageManager
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLobbyCenterStageManager), 52 + sizeof(float)> __GlobalNamespace_MultiplayerLobbyCenterStageManagerSizeCheck;
   static_assert(sizeof(MultiplayerLobbyCenterStageManager) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyCenterStageManager*, "", "MultiplayerLobbyCenterStageManager");

@@ -71,8 +71,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1047670
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters
+  #pragma pack(pop)
   static check_size<sizeof(Ed25519PrivateKeyParameters), 32 + sizeof(Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*)> __Org_BouncyCastle_Crypto_Parameters_Ed25519PrivateKeyParametersSizeCheck;
   static_assert(sizeof(Ed25519PrivateKeyParameters) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "Ed25519PrivateKeyParameters");

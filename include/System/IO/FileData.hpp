@@ -65,8 +65,8 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<FileData*, creationType>()));
     }
   }; // System.IO.FileData
+  #pragma pack(pop)
   static check_size<sizeof(FileData), 40 + sizeof(System::DateTime)> __System_IO_FileDataSizeCheck;
   static_assert(sizeof(FileData) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileData*, "System.IO", "FileData");

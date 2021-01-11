@@ -63,8 +63,8 @@ namespace Mono::Net::Security {
       return THROW_UNLESS((::il2cpp_utils::New<AsyncProtocolResult*, creationType>(error)));
     }
   }; // Mono.Net.Security.AsyncProtocolResult
+  #pragma pack(pop)
   static check_size<sizeof(AsyncProtocolResult), 24 + sizeof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*)> __Mono_Net_Security_AsyncProtocolResultSizeCheck;
   static_assert(sizeof(AsyncProtocolResult) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolResult*, "Mono.Net.Security", "AsyncProtocolResult");

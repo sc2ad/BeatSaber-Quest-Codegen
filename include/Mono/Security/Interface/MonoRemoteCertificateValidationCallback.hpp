@@ -59,6 +59,6 @@ namespace Mono::Security::Interface {
     // Offset: 0x17B80FC
     bool EndInvoke(System::IAsyncResult* result);
   }; // Mono.Security.Interface.MonoRemoteCertificateValidationCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*, "Mono.Security.Interface", "MonoRemoteCertificateValidationCallback");

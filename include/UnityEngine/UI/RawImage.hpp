@@ -98,8 +98,8 @@ namespace UnityEngine::UI {
     // Base method: System.Void Graphic::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();
   }; // UnityEngine.UI.RawImage
+  #pragma pack(pop)
   static check_size<sizeof(RawImage), 200 + sizeof(UnityEngine::Rect)> __UnityEngine_UI_RawImageSizeCheck;
   static_assert(sizeof(RawImage) == 0xD8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RawImage*, "UnityEngine.UI", "RawImage");

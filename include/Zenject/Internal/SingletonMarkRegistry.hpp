@@ -61,8 +61,8 @@ namespace Zenject::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<SingletonMarkRegistry*, creationType>()));
     }
   }; // Zenject.Internal.SingletonMarkRegistry
+  #pragma pack(pop)
   static check_size<sizeof(SingletonMarkRegistry), 24 + sizeof(System::Collections::Generic::HashSet_1<System::Type*>*)> __Zenject_Internal_SingletonMarkRegistrySizeCheck;
   static_assert(sizeof(SingletonMarkRegistry) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::SingletonMarkRegistry*, "Zenject.Internal", "SingletonMarkRegistry");

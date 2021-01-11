@@ -131,8 +131,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<DigestSession*, creationType>()));
     }
   }; // System.Net.DigestSession
+  #pragma pack(pop)
   static check_size<sizeof(DigestSession), 48 + sizeof(::Il2CppString*)> __System_Net_DigestSessionSizeCheck;
   static_assert(sizeof(DigestSession) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestSession*, "System.Net", "DigestSession");

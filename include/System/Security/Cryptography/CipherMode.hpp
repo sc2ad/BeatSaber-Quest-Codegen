@@ -63,9 +63,9 @@ namespace System::Security::Cryptography {
     // Set static field: static public System.Security.Cryptography.CipherMode CTS
     static void _set_CTS(System::Security::Cryptography::CipherMode value);
   }; // System.Security.Cryptography.CipherMode
+  #pragma pack(pop)
   static check_size<sizeof(CipherMode), 0 + sizeof(int)> __System_Security_Cryptography_CipherModeSizeCheck;
   static_assert(sizeof(CipherMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CipherMode, "System.Security.Cryptography", "CipherMode");

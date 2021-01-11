@@ -27,7 +27,7 @@ namespace MasterServer {
     // Offset: 0xFFFFFFFF
     MasterServer::IMasterServerReliableRequest* MasterServer_IMasterServerReliableRequest_WithRequestId(uint requestId);
   }; // MasterServer.IMasterServerReliableRequest
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerReliableRequest*, "MasterServer", "IMasterServerReliableRequest");

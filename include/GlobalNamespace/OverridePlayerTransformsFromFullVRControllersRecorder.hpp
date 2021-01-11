@@ -88,8 +88,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OverridePlayerTransformsFromFullVRControllersRecorder*, creationType>()));
     }
   }; // OverridePlayerTransformsFromFullVRControllersRecorder
+  #pragma pack(pop)
   static check_size<sizeof(OverridePlayerTransformsFromFullVRControllersRecorder), 48 + sizeof(GlobalNamespace::PlayerVRControllersManager*)> __GlobalNamespace_OverridePlayerTransformsFromFullVRControllersRecorderSizeCheck;
   static_assert(sizeof(OverridePlayerTransformsFromFullVRControllersRecorder) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder*, "", "OverridePlayerTransformsFromFullVRControllersRecorder");

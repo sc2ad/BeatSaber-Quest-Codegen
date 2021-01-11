@@ -65,9 +65,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.TrackedDevicePose_t
+  #pragma pack(pop)
   static check_size<sizeof(TrackedDevicePose_t), 77 + sizeof(bool)> __OVR_OpenVR_TrackedDevicePose_tSizeCheck;
   static_assert(sizeof(TrackedDevicePose_t) == 0x4E);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::TrackedDevicePose_t, "OVR.OpenVR", "TrackedDevicePose_t");

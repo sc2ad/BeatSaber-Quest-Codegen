@@ -90,8 +90,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MultiplayerLocalActivePlayerIntroAnimator/<AnimateCoroutine>d__17
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActivePlayerIntroAnimator::$AnimateCoroutine$d__17), 40 + sizeof(float)> __GlobalNamespace_MultiplayerLocalActivePlayerIntroAnimator_$AnimateCoroutine$d__17SizeCheck;
   static_assert(sizeof(MultiplayerLocalActivePlayerIntroAnimator::$AnimateCoroutine$d__17) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::$AnimateCoroutine$d__17*, "", "MultiplayerLocalActivePlayerIntroAnimator/<AnimateCoroutine>d__17");

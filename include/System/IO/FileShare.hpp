@@ -70,9 +70,9 @@ namespace System::IO {
     // Set static field: static public System.IO.FileShare Inheritable
     static void _set_Inheritable(System::IO::FileShare value);
   }; // System.IO.FileShare
+  #pragma pack(pop)
   static check_size<sizeof(FileShare), 0 + sizeof(int)> __System_IO_FileShareSizeCheck;
   static_assert(sizeof(FileShare) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileShare, "System.IO", "FileShare");

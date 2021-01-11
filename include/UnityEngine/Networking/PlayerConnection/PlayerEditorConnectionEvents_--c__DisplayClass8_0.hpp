@@ -47,8 +47,8 @@ namespace UnityEngine::Networking::PlayerConnection {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerEditorConnectionEvents::$$c__DisplayClass8_0*, creationType>()));
     }
   }; // UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/<>c__DisplayClass8_0
+  #pragma pack(pop)
   static check_size<sizeof(PlayerEditorConnectionEvents::$$c__DisplayClass8_0), 16 + sizeof(System::Guid)> __UnityEngine_Networking_PlayerConnection_PlayerEditorConnectionEvents_$$c__DisplayClass8_0SizeCheck;
   static_assert(sizeof(PlayerEditorConnectionEvents::$$c__DisplayClass8_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::$$c__DisplayClass8_0*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents/<>c__DisplayClass8_0");

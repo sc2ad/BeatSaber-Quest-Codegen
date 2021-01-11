@@ -55,8 +55,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ScreenCaptureAfterDelay::InitData*, creationType>(screenshotType, screenCaptureTime, pixelsWidth, pixelsHeight)));
     }
   }; // ScreenCaptureAfterDelay/InitData
+  #pragma pack(pop)
   static check_size<sizeof(ScreenCaptureAfterDelay::InitData), 28 + sizeof(int)> __GlobalNamespace_ScreenCaptureAfterDelay_InitDataSizeCheck;
   static_assert(sizeof(ScreenCaptureAfterDelay::InitData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureAfterDelay::InitData*, "", "ScreenCaptureAfterDelay/InitData");

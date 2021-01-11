@@ -43,8 +43,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveDataV1_0_1::GuestPlayer*, creationType>()));
     }
   }; // PlayerSaveDataV1_0_1/GuestPlayer
+  #pragma pack(pop)
   static check_size<sizeof(PlayerSaveDataV1_0_1::GuestPlayer), 24 + sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings*)> __GlobalNamespace_PlayerSaveDataV1_0_1_GuestPlayerSizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1::GuestPlayer) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GuestPlayer*, "", "PlayerSaveDataV1_0_1/GuestPlayer");

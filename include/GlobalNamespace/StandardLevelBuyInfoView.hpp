@@ -85,8 +85,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelBuyInfoView*, creationType>()));
     }
   }; // StandardLevelBuyInfoView
+  #pragma pack(pop)
   static check_size<sizeof(StandardLevelBuyInfoView), 48 + sizeof(UnityEngine::UI::Button*)> __GlobalNamespace_StandardLevelBuyInfoViewSizeCheck;
   static_assert(sizeof(StandardLevelBuyInfoView) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelBuyInfoView*, "", "StandardLevelBuyInfoView");

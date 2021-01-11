@@ -56,8 +56,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<TrackClipTypeAttribute*, creationType>(clipClass, allowAutoCreate)));
     }
   }; // UnityEngine.Timeline.TrackClipTypeAttribute
+  #pragma pack(pop)
   static check_size<sizeof(TrackClipTypeAttribute), 24 + sizeof(bool)> __UnityEngine_Timeline_TrackClipTypeAttributeSizeCheck;
   static_assert(sizeof(TrackClipTypeAttribute) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackClipTypeAttribute*, "UnityEngine.Timeline", "TrackClipTypeAttribute");

@@ -102,6 +102,6 @@ namespace System::Threading {
     // Offset: 0x16B658C
     static int64_t Add(int64_t& location1, int64_t value);
   }; // System.Threading.Interlocked
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Interlocked*, "System.Threading", "Interlocked");

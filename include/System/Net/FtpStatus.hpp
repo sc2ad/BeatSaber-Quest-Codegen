@@ -49,8 +49,8 @@ namespace System::Net {
     // Offset: 0x1320D98
     ::Il2CppString* get_StatusDescription();
   }; // System.Net.FtpStatus
+  #pragma pack(pop)
   static check_size<sizeof(FtpStatus), 24 + sizeof(::Il2CppString*)> __System_Net_FtpStatusSizeCheck;
   static_assert(sizeof(FtpStatus) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpStatus*, "System.Net", "FtpStatus");

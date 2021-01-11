@@ -148,9 +148,9 @@ namespace System {
     // Offset: 0xCA4498
     void SetFailure(System::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::Il2CppString* failureArgumentName);
   }; // System.DateTimeResult
+  #pragma pack(pop)
   static check_size<sizeof(DateTimeResult), 88 + sizeof(::Il2CppString*)> __System_DateTimeResultSizeCheck;
   static_assert(sizeof(DateTimeResult) == 0x60);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeResult, "System", "DateTimeResult");

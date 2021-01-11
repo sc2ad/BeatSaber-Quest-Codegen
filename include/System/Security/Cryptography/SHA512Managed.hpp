@@ -118,8 +118,8 @@ namespace System::Security::Cryptography {
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::Array<uint8_t>* HashFinal();
   }; // System.Security.Cryptography.SHA512Managed
+  #pragma pack(pop)
   static check_size<sizeof(SHA512Managed), 64 + sizeof(::Array<uint64_t>*)> __System_Security_Cryptography_SHA512ManagedSizeCheck;
   static_assert(sizeof(SHA512Managed) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA512Managed*, "System.Security.Cryptography", "SHA512Managed");

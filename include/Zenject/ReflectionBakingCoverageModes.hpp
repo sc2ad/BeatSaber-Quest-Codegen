@@ -50,9 +50,9 @@ namespace Zenject {
     // Set static field: static public Zenject.ReflectionBakingCoverageModes FallbackToDirectReflectionWithWarning
     static void _set_FallbackToDirectReflectionWithWarning(Zenject::ReflectionBakingCoverageModes value);
   }; // Zenject.ReflectionBakingCoverageModes
+  #pragma pack(pop)
   static check_size<sizeof(ReflectionBakingCoverageModes), 0 + sizeof(int)> __Zenject_ReflectionBakingCoverageModesSizeCheck;
   static_assert(sizeof(ReflectionBakingCoverageModes) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ReflectionBakingCoverageModes, "Zenject", "ReflectionBakingCoverageModes");

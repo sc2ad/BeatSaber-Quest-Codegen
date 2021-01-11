@@ -26,7 +26,7 @@ namespace Tweening {
     // Offset: 0xFF43DC
     static float Interpolate(float t, Tweening::EaseType easeType);
   }; // Tweening.Interpolation
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Interpolation*, "Tweening", "Interpolation");

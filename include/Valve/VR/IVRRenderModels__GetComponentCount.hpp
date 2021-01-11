@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x191E20C
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_GetComponentCount
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRRenderModels::_GetComponentCount*, "Valve.VR", "IVRRenderModels/_GetComponentCount");

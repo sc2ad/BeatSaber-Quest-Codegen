@@ -184,8 +184,8 @@ namespace System::Net::Security {
     // Base method: System.Void Stream::EndWrite(System.IAsyncResult asyncResult)
     void EndWrite(System::IAsyncResult* asyncResult);
   }; // System.Net.Security.SslStream
+  #pragma pack(pop)
   static check_size<sizeof(SslStream), 64 + sizeof(Mono::Security::Interface::IMonoSslStream*)> __System_Net_Security_SslStreamSizeCheck;
   static_assert(sizeof(SslStream) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::SslStream*, "System.Net.Security", "SslStream");

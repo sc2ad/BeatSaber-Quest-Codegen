@@ -50,8 +50,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberModelController::InitData*, creationType>()));
     }
   }; // SaberModelController/InitData
+  #pragma pack(pop)
   static check_size<sizeof(SaberModelController::InitData), 16 + sizeof(UnityEngine::Color)> __GlobalNamespace_SaberModelController_InitDataSizeCheck;
   static_assert(sizeof(SaberModelController::InitData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberModelController::InitData*, "", "SaberModelController/InitData");

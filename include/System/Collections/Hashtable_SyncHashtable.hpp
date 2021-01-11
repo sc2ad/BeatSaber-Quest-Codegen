@@ -190,8 +190,8 @@ namespace System::Collections {
     // Maps to method: OnDeserialization
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
   }; // System.Collections.Hashtable/SyncHashtable
+  #pragma pack(pop)
   static check_size<sizeof(Hashtable::SyncHashtable), 80 + sizeof(System::Collections::Hashtable*)> __System_Collections_Hashtable_SyncHashtableSizeCheck;
   static_assert(sizeof(Hashtable::SyncHashtable) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::SyncHashtable*, "System.Collections", "Hashtable/SyncHashtable");

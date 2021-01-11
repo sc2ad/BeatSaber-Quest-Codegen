@@ -32,7 +32,7 @@ namespace System::IO {
     // Offset: 0x1433CF0
     static System::Collections::Generic::IEnumerable_1<::Il2CppString*>* CreateFileNameIterator(::Il2CppString* path, ::Il2CppString* originalUserPath, ::Il2CppString* searchPattern, bool includeFiles, bool includeDirs, System::IO::SearchOption searchOption, bool checkHost);
   }; // System.IO.FileSystemEnumerableFactory
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEnumerableFactory*, "System.IO", "FileSystemEnumerableFactory");

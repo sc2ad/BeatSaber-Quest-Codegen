@@ -49,6 +49,6 @@ namespace UnityEngine {
     // Offset: 0x19ECC94
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AudioSettings/AudioConfigurationChangeHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSettings::AudioConfigurationChangeHandler*, "UnityEngine", "AudioSettings/AudioConfigurationChangeHandler");

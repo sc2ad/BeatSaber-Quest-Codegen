@@ -53,9 +53,9 @@ namespace GlobalNamespace {
     // Set static field: static public MultiplayerEnvironmentResizeController/ResizeType Length
     static void _set_Length(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType value);
   }; // MultiplayerEnvironmentResizeController/ResizeType
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerEnvironmentResizeController::ResizeType), 0 + sizeof(int)> __GlobalNamespace_MultiplayerEnvironmentResizeController_ResizeTypeSizeCheck;
   static_assert(sizeof(MultiplayerEnvironmentResizeController::ResizeType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType, "", "MultiplayerEnvironmentResizeController/ResizeType");

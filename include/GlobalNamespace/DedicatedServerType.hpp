@@ -44,9 +44,9 @@ namespace GlobalNamespace {
     // Set static field: static public DedicatedServerType MatchmakingServer
     static void _set_MatchmakingServer(GlobalNamespace::DedicatedServerType value);
   }; // DedicatedServerType
+  #pragma pack(pop)
   static check_size<sizeof(DedicatedServerType), 0 + sizeof(int)> __GlobalNamespace_DedicatedServerTypeSizeCheck;
   static_assert(sizeof(DedicatedServerType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DedicatedServerType, "", "DedicatedServerType");

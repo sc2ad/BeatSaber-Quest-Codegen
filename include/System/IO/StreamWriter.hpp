@@ -258,8 +258,8 @@ namespace System::IO {
     // Base method: System.Void TextWriter::.cctor()
     static void _cctor();
   }; // System.IO.StreamWriter
+  #pragma pack(pop)
   static check_size<sizeof(StreamWriter), 96 + sizeof(System::Threading::Tasks::Task*)> __System_IO_StreamWriterSizeCheck;
   static_assert(sizeof(StreamWriter) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamWriter*, "System.IO", "StreamWriter");

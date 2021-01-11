@@ -98,8 +98,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // VFXController/<MainCoroutine>d__9
+  #pragma pack(pop)
   static check_size<sizeof(VFXController::$MainCoroutine$d__9), 44 + sizeof(float)> __GlobalNamespace_VFXController_$MainCoroutine$d__9SizeCheck;
   static_assert(sizeof(VFXController::$MainCoroutine$d__9) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXController::$MainCoroutine$d__9*, "", "VFXController/<MainCoroutine>d__9");

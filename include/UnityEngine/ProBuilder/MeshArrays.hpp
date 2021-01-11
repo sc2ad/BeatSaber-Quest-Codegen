@@ -93,9 +93,9 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.MeshArrays All
     static void _set_All(UnityEngine::ProBuilder::MeshArrays value);
   }; // UnityEngine.ProBuilder.MeshArrays
+  #pragma pack(pop)
   static check_size<sizeof(MeshArrays), 0 + sizeof(int)> __UnityEngine_ProBuilder_MeshArraysSizeCheck;
   static_assert(sizeof(MeshArrays) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshArrays, "UnityEngine.ProBuilder", "MeshArrays");

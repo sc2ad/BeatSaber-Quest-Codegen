@@ -56,9 +56,9 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Set static field: static public UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior Collect
     static void _set_Collect(UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior value);
   }; // UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior
+  #pragma pack(pop)
   static check_size<sizeof(AddDuplicateBehavior), 0 + sizeof(int)> __UnityEngine_ProBuilder_KdTree_AddDuplicateBehaviorSizeCheck;
   static_assert(sizeof(AddDuplicateBehavior) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior, "UnityEngine.ProBuilder.KdTree", "AddDuplicateBehavior");

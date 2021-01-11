@@ -210,8 +210,8 @@ namespace System::Net::Sockets {
     // Base method: System.Void Stream::SetLength(System.Int64 value)
     void SetLength(int64_t value);
   }; // System.Net.Sockets.NetworkStream
+  #pragma pack(pop)
   static check_size<sizeof(NetworkStream), 64 + sizeof(int)> __System_Net_Sockets_NetworkStreamSizeCheck;
   static_assert(sizeof(NetworkStream) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::NetworkStream*, "System.Net.Sockets", "NetworkStream");

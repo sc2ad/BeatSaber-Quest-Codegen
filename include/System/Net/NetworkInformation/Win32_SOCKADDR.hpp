@@ -41,9 +41,9 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Net.NetworkInformation.Win32_SOCKADDR
+  #pragma pack(pop)
   static check_size<sizeof(Win32_SOCKADDR), 8 + sizeof(::Array<uint8_t>*)> __System_Net_NetworkInformation_Win32_SOCKADDRSizeCheck;
   static_assert(sizeof(Win32_SOCKADDR) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_SOCKADDR, "System.Net.NetworkInformation", "Win32_SOCKADDR");

@@ -74,8 +74,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<OffsetPose::EffectorLink*, creationType>()));
     }
   }; // RootMotion.FinalIK.OffsetPose/EffectorLink
+  #pragma pack(pop)
   static check_size<sizeof(OffsetPose::EffectorLink), 44 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_OffsetPose_EffectorLinkSizeCheck;
   static_assert(sizeof(OffsetPose::EffectorLink) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetPose::EffectorLink*, "RootMotion.FinalIK", "OffsetPose/EffectorLink");

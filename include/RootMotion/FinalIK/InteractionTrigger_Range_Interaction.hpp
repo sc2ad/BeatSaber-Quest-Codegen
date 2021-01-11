@@ -54,8 +54,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<InteractionTrigger::Range::Interaction*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionTrigger/Range/Interaction
+  #pragma pack(pop)
   static check_size<sizeof(InteractionTrigger::Range::Interaction), 24 + sizeof(::Array<RootMotion::FinalIK::FullBodyBipedEffector>*)> __RootMotion_FinalIK_InteractionTrigger_Range_InteractionSizeCheck;
   static_assert(sizeof(InteractionTrigger::Range::Interaction) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::Range::Interaction*, "RootMotion.FinalIK", "InteractionTrigger/Range/Interaction");

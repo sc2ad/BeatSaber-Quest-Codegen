@@ -255,9 +255,9 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES
+  #pragma pack(pop)
   static check_size<sizeof(Win32_IP_ADAPTER_ADDRESSES), 256 + sizeof(System::IntPtr)> __System_Net_NetworkInformation_Win32_IP_ADAPTER_ADDRESSESSizeCheck;
   static_assert(sizeof(Win32_IP_ADAPTER_ADDRESSES) == 0x108);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES, "System.Net.NetworkInformation", "Win32_IP_ADAPTER_ADDRESSES");

@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRBoundary/Node Head
     static void _set_Head(GlobalNamespace::OVRBoundary::Node value);
   }; // OVRBoundary/Node
+  #pragma pack(pop)
   static check_size<sizeof(OVRBoundary::Node), 0 + sizeof(int)> __GlobalNamespace_OVRBoundary_NodeSizeCheck;
   static_assert(sizeof(OVRBoundary::Node) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary::Node, "", "OVRBoundary/Node");

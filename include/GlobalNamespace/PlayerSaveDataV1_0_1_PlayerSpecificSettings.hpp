@@ -81,8 +81,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveDataV1_0_1::PlayerSpecificSettings*, creationType>()));
     }
   }; // PlayerSaveDataV1_0_1/PlayerSpecificSettings
+  #pragma pack(pop)
   static check_size<sizeof(PlayerSaveDataV1_0_1::PlayerSpecificSettings), 27 + sizeof(bool)> __GlobalNamespace_PlayerSaveDataV1_0_1_PlayerSpecificSettingsSizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1::PlayerSpecificSettings) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings*, "", "PlayerSaveDataV1_0_1/PlayerSpecificSettings");

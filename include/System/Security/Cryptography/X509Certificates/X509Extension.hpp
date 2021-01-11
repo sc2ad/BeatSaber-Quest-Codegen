@@ -63,8 +63,8 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Void AsnEncodedData::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
   }; // System.Security.Cryptography.X509Certificates.X509Extension
+  #pragma pack(pop)
   static check_size<sizeof(X509Extension), 32 + sizeof(bool)> __System_Security_Cryptography_X509Certificates_X509ExtensionSizeCheck;
   static_assert(sizeof(X509Extension) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Extension*, "System.Security.Cryptography.X509Certificates", "X509Extension");

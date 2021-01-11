@@ -46,9 +46,9 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.Slider/Axis Vertical
     static void _set_Vertical(UnityEngine::UI::Slider::Axis value);
   }; // UnityEngine.UI.Slider/Axis
+  #pragma pack(pop)
   static check_size<sizeof(Slider::Axis), 0 + sizeof(int)> __UnityEngine_UI_Slider_AxisSizeCheck;
   static_assert(sizeof(Slider::Axis) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider::Axis, "UnityEngine.UI", "Slider/Axis");

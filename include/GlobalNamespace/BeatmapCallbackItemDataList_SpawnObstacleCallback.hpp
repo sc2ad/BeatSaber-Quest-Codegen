@@ -54,6 +54,6 @@ namespace GlobalNamespace {
     // Offset: 0x1A7BA24
     void EndInvoke(System::IAsyncResult* result);
   }; // BeatmapCallbackItemDataList/SpawnObstacleCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback*, "", "BeatmapCallbackItemDataList/SpawnObstacleCallback");

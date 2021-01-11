@@ -92,6 +92,7 @@ namespace Zenject {
     // Base method: System.Boolean IEquatable_1::Equals(Zenject.BindingId that)
     bool Equals(Zenject::BindingId that);
   }; // Zenject.BindingId
+  #pragma pack(pop)
   static check_size<sizeof(BindingId), 8 + sizeof(::Il2CppObject*)> __Zenject_BindingIdSizeCheck;
   static_assert(sizeof(BindingId) == 0x10);
   // static public System.Boolean op_Equality(Zenject.BindingId left, Zenject.BindingId right)
@@ -101,5 +102,4 @@ namespace Zenject {
   // Offset: 0x10EC038
   bool operator !=(const Zenject::BindingId& left, const Zenject::BindingId& right);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingId, "Zenject", "BindingId");

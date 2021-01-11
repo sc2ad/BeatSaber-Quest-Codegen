@@ -43,6 +43,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Base method: System.Void DerEnumerated::.cctor()
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.X509.CrlReason
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::CrlReason*, "Org.BouncyCastle.Asn1.X509", "CrlReason");

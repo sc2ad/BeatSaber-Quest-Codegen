@@ -68,8 +68,8 @@ namespace System::ComponentModel {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.BrowsableAttribute
+  #pragma pack(pop)
   static check_size<sizeof(BrowsableAttribute), 16 + sizeof(bool)> __System_ComponentModel_BrowsableAttributeSizeCheck;
   static_assert(sizeof(BrowsableAttribute) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::BrowsableAttribute*, "System.ComponentModel", "BrowsableAttribute");

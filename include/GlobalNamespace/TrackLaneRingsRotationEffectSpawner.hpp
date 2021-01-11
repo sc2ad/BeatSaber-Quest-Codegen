@@ -75,6 +75,7 @@ namespace GlobalNamespace {
       // Set static field: static public TrackLaneRingsRotationEffectSpawner/RotationStepType MaxOr0
       static void _set_MaxOr0(GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType value);
     }; // TrackLaneRingsRotationEffectSpawner/RotationStepType
+    #pragma pack(pop)
     static check_size<sizeof(TrackLaneRingsRotationEffectSpawner::RotationStepType), 0 + sizeof(int)> __GlobalNamespace_TrackLaneRingsRotationEffectSpawner_RotationStepTypeSizeCheck;
     static_assert(sizeof(TrackLaneRingsRotationEffectSpawner::RotationStepType) == 0x4);
     // private TrackLaneRingsRotationEffect _trackLaneRingsRotationEffect
@@ -155,9 +156,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TrackLaneRingsRotationEffectSpawner*, creationType>()));
     }
   }; // TrackLaneRingsRotationEffectSpawner
+  #pragma pack(pop)
   static check_size<sizeof(TrackLaneRingsRotationEffectSpawner), 56 + sizeof(GlobalNamespace::BeatmapObjectCallbackController*)> __GlobalNamespace_TrackLaneRingsRotationEffectSpawnerSizeCheck;
   static_assert(sizeof(TrackLaneRingsRotationEffectSpawner) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffectSpawner*, "", "TrackLaneRingsRotationEffectSpawner");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType, "", "TrackLaneRingsRotationEffectSpawner/RotationStepType");

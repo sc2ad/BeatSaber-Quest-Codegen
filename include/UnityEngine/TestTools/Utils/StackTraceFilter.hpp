@@ -37,7 +37,7 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0x1A03D7C
     static void _cctor();
   }; // UnityEngine.TestTools.Utils.StackTraceFilter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::StackTraceFilter*, "UnityEngine.TestTools.Utils", "StackTraceFilter");

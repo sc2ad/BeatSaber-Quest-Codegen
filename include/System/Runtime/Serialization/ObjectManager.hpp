@@ -195,8 +195,8 @@ namespace System::Runtime::Serialization {
     // Offset: 0x12F76E8
     void RaiseOnDeserializingEvent(::Il2CppObject* obj);
   }; // System.Runtime.Serialization.ObjectManager
+  #pragma pack(pop)
   static check_size<sizeof(ObjectManager), 72 + sizeof(System::Runtime::Serialization::StreamingContext)> __System_Runtime_Serialization_ObjectManagerSizeCheck;
   static_assert(sizeof(ObjectManager) == 0x54);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectManager*, "System.Runtime.Serialization", "ObjectManager");

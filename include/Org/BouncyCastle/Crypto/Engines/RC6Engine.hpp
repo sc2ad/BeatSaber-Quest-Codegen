@@ -132,8 +132,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.RC6Engine
+  #pragma pack(pop)
   static check_size<sizeof(RC6Engine), 24 + sizeof(bool)> __Org_BouncyCastle_Crypto_Engines_RC6EngineSizeCheck;
   static_assert(sizeof(RC6Engine) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RC6Engine*, "Org.BouncyCastle.Crypto.Engines", "RC6Engine");

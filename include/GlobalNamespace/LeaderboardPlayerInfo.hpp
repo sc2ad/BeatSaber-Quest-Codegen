@@ -111,8 +111,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardPlayerInfo*, creationType>(succeeded, playerId, playerName, playerKey, authType, playerFriends)));
     }
   }; // LeaderboardPlayerInfo
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardPlayerInfo), 64 + sizeof(bool)> __GlobalNamespace_LeaderboardPlayerInfoSizeCheck;
   static_assert(sizeof(LeaderboardPlayerInfo) == 0x41);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardPlayerInfo*, "", "LeaderboardPlayerInfo");

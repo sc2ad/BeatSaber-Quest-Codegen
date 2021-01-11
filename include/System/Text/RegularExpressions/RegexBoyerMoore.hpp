@@ -104,8 +104,8 @@ namespace System::Text::RegularExpressions {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Text.RegularExpressions.RegexBoyerMoore
+  #pragma pack(pop)
   static check_size<sizeof(RegexBoyerMoore), 64 + sizeof(System::Globalization::CultureInfo*)> __System_Text_RegularExpressions_RegexBoyerMooreSizeCheck;
   static_assert(sizeof(RegexBoyerMoore) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexBoyerMoore*, "System.Text.RegularExpressions", "RegexBoyerMoore");

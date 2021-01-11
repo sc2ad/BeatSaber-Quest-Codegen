@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x1931E4C
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRTrackedCamera/_GetCameraErrorNameFromEnum
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum*, "Valve.VR", "IVRTrackedCamera/_GetCameraErrorNameFromEnum");

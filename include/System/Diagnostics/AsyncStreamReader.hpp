@@ -94,9 +94,9 @@ namespace System::Diagnostics {
     // Offset: 0x1483414
     void CancelOperation();
   }; // System.Diagnostics.AsyncStreamReader
+  #pragma pack(pop)
   static check_size<sizeof(AsyncStreamReader), 72 + sizeof(::Il2CppObject*)> __System_Diagnostics_AsyncStreamReaderSizeCheck;
   static_assert(sizeof(AsyncStreamReader) == 0x50);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::AsyncStreamReader*, "System.Diagnostics", "AsyncStreamReader");

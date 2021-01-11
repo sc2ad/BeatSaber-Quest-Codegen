@@ -132,8 +132,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EmptyDifficultyBeatmap*, creationType>()));
     }
   }; // EmptyDifficultyBeatmap
+  #pragma pack(pop)
   static check_size<sizeof(EmptyDifficultyBeatmap), 48 + sizeof(GlobalNamespace::BeatmapData*)> __GlobalNamespace_EmptyDifficultyBeatmapSizeCheck;
   static_assert(sizeof(EmptyDifficultyBeatmap) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmptyDifficultyBeatmap*, "", "EmptyDifficultyBeatmap");

@@ -174,8 +174,8 @@ namespace System::Globalization {
     // Base method: System.Int32 Calendar::get_TwoDigitYearMax()
     int get_TwoDigitYearMax();
   }; // System.Globalization.JapaneseCalendar
+  #pragma pack(pop)
   static check_size<sizeof(JapaneseCalendar), 32 + sizeof(System::Globalization::GregorianCalendarHelper*)> __System_Globalization_JapaneseCalendarSizeCheck;
   static_assert(sizeof(JapaneseCalendar) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::JapaneseCalendar*, "System.Globalization", "JapaneseCalendar");

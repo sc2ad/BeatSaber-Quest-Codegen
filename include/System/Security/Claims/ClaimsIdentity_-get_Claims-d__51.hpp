@@ -140,8 +140,8 @@ namespace System::Security::Claims {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Security.Claims.ClaimsIdentity/<get_Claims>d__51
+  #pragma pack(pop)
   static check_size<sizeof(ClaimsIdentity::$get_Claims$d__51), 56 + sizeof(System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim*>*)> __System_Security_Claims_ClaimsIdentity_$get_Claims$d__51SizeCheck;
   static_assert(sizeof(ClaimsIdentity::$get_Claims$d__51) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51*, "System.Security.Claims", "ClaimsIdentity/<get_Claims>d__51");

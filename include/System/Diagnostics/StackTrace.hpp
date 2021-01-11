@@ -146,8 +146,8 @@ namespace System::Diagnostics {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Diagnostics.StackTrace
+  #pragma pack(pop)
   static check_size<sizeof(StackTrace), 32 + sizeof(bool)> __System_Diagnostics_StackTraceSizeCheck;
   static_assert(sizeof(StackTrace) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackTrace*, "System.Diagnostics", "StackTrace");

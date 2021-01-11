@@ -120,6 +120,7 @@ namespace UnityEngine::Timeline {
       // Set static field: static public UnityEngine.Timeline.TimelineAsset/DurationMode FixedLength
       static void _set_FixedLength(UnityEngine::Timeline::TimelineAsset::DurationMode value);
     }; // UnityEngine.Timeline.TimelineAsset/DurationMode
+    #pragma pack(pop)
     static check_size<sizeof(TimelineAsset::DurationMode), 0 + sizeof(int)> __UnityEngine_Timeline_TimelineAsset_DurationModeSizeCheck;
     static_assert(sizeof(TimelineAsset::DurationMode) == 0x4);
     // [HideInInspector] Offset: 0xD8DADC
@@ -387,9 +388,9 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<TimelineAsset*, creationType>()));
     }
   }; // UnityEngine.Timeline.TimelineAsset
+  #pragma pack(pop)
   static check_size<sizeof(TimelineAsset), 88 + sizeof(UnityEngine::Timeline::MarkerTrack*)> __UnityEngine_Timeline_TimelineAssetSizeCheck;
   static_assert(sizeof(TimelineAsset) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset*, "UnityEngine.Timeline", "TimelineAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::DurationMode, "UnityEngine.Timeline", "TimelineAsset/DurationMode");

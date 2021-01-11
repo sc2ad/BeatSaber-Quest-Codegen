@@ -62,9 +62,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE Null
     static void _set_Null(System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE value);
   }; // System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE
+  #pragma pack(pop)
   static check_size<sizeof(InternalMemberValueE), 0 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_InternalMemberValueESizeCheck;
   static_assert(sizeof(InternalMemberValueE) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE, "System.Runtime.Serialization.Formatters.Binary", "InternalMemberValueE");

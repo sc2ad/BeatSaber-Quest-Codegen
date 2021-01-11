@@ -52,8 +52,8 @@ namespace System::Net {
     // Offset: 0x130E5E8
     static ::Il2CppString* CheckQuoted(::Il2CppString* value);
   }; // System.Net.CookieParser
+  #pragma pack(pop)
   static check_size<sizeof(CookieParser), 16 + sizeof(System::Net::CookieTokenizer*)> __System_Net_CookieParserSizeCheck;
   static_assert(sizeof(CookieParser) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieParser*, "System.Net", "CookieParser");

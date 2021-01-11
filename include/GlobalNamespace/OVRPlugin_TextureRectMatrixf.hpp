@@ -65,9 +65,9 @@ namespace GlobalNamespace {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // OVRPlugin/TextureRectMatrixf
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::TextureRectMatrixf), 48 + sizeof(UnityEngine::Vector4)> __GlobalNamespace_OVRPlugin_TextureRectMatrixfSizeCheck;
   static_assert(sizeof(OVRPlugin::TextureRectMatrixf) == 0x40);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::TextureRectMatrixf, "", "OVRPlugin/TextureRectMatrixf");

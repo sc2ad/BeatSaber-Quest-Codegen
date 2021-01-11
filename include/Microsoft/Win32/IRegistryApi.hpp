@@ -56,7 +56,7 @@ namespace Microsoft::Win32 {
     // Offset: 0xFFFFFFFF
     System::IntPtr GetHandle(Microsoft::Win32::RegistryKey* key);
   }; // Microsoft.Win32.IRegistryApi
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::IRegistryApi*, "Microsoft.Win32", "IRegistryApi");

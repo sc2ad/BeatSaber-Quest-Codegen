@@ -77,8 +77,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRBoneCapsule*, creationType>(boneIndex, capsuleRigidBody, capsuleCollider)));
     }
   }; // OVRBoneCapsule
+  #pragma pack(pop)
   static check_size<sizeof(OVRBoneCapsule), 32 + sizeof(UnityEngine::CapsuleCollider*)> __GlobalNamespace_OVRBoneCapsuleSizeCheck;
   static_assert(sizeof(OVRBoneCapsule) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoneCapsule*, "", "OVRBoneCapsule");

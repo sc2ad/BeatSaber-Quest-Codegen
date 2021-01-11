@@ -104,8 +104,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // CameraRenderCallbacksManager
+  #pragma pack(pop)
   static check_size<sizeof(CameraRenderCallbacksManager), 32 + sizeof(UnityEngine::Camera*)> __GlobalNamespace_CameraRenderCallbacksManagerSizeCheck;
   static_assert(sizeof(CameraRenderCallbacksManager) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CameraRenderCallbacksManager*, "", "CameraRenderCallbacksManager");

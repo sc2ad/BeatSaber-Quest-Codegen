@@ -60,8 +60,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MirrorRendererGraphicsSettingsPresets*, creationType>()));
     }
   }; // MirrorRendererGraphicsSettingsPresets
+  #pragma pack(pop)
   static check_size<sizeof(MirrorRendererGraphicsSettingsPresets), 24 + sizeof(::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>*)> __GlobalNamespace_MirrorRendererGraphicsSettingsPresetsSizeCheck;
   static_assert(sizeof(MirrorRendererGraphicsSettingsPresets) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*, "", "MirrorRendererGraphicsSettingsPresets");

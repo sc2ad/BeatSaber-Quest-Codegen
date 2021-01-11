@@ -53,8 +53,8 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0x116D8D8
     ::Il2CppString* get_ProcessID();
   }; // System.Runtime.Remoting.Channels.CrossAppDomainData
+  #pragma pack(pop)
   static check_size<sizeof(CrossAppDomainData), 32 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_Channels_CrossAppDomainDataSizeCheck;
   static_assert(sizeof(CrossAppDomainData) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainData*, "System.Runtime.Remoting.Channels", "CrossAppDomainData");

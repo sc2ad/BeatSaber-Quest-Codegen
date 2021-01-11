@@ -71,9 +71,9 @@ namespace UnityEngine {
     // Creating value type constructor for type: ControllerColliderHit
     ControllerColliderHit(UnityEngine::CharacterController* m_Controller_ = {}, UnityEngine::Collider* m_Collider_ = {}, UnityEngine::Vector3 m_Point_ = {}, UnityEngine::Vector3 m_Normal_ = {}, UnityEngine::Vector3 m_MoveDirection_ = {}, float m_MoveLength_ = {}, int m_Push_ = {}) noexcept : m_Controller{m_Controller_}, m_Collider{m_Collider_}, m_Point{m_Point_}, m_Normal{m_Normal_}, m_MoveDirection{m_MoveDirection_}, m_MoveLength{m_MoveLength_}, m_Push{m_Push_} {}
   }; // UnityEngine.ControllerColliderHit
+  #pragma pack(pop)
   static check_size<sizeof(ControllerColliderHit), 72 + sizeof(int)> __UnityEngine_ControllerColliderHitSizeCheck;
   static_assert(sizeof(ControllerColliderHit) == 0x4C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ControllerColliderHit*, "UnityEngine", "ControllerColliderHit");

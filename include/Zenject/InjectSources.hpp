@@ -56,9 +56,9 @@ namespace Zenject {
     // Set static field: static public Zenject.InjectSources AnyParent
     static void _set_AnyParent(Zenject::InjectSources value);
   }; // Zenject.InjectSources
+  #pragma pack(pop)
   static check_size<sizeof(InjectSources), 0 + sizeof(int)> __Zenject_InjectSourcesSizeCheck;
   static_assert(sizeof(InjectSources) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectSources, "Zenject", "InjectSources");

@@ -57,8 +57,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<ApplicationVersion*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.ApplicationVersion
+  #pragma pack(pop)
   static check_size<sizeof(ApplicationVersion), 40 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_ApplicationVersionSizeCheck;
   static_assert(sizeof(ApplicationVersion) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ApplicationVersion*, "Oculus.Platform.Models", "ApplicationVersion");

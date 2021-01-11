@@ -126,8 +126,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelNoTransitionInstaller*, creationType>()));
     }
   }; // MissionLevelNoTransitionInstaller
+  #pragma pack(pop)
   static check_size<sizeof(MissionLevelNoTransitionInstaller), 88 + sizeof(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*)> __GlobalNamespace_MissionLevelNoTransitionInstallerSizeCheck;
   static_assert(sizeof(MissionLevelNoTransitionInstaller) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelNoTransitionInstaller*, "", "MissionLevelNoTransitionInstaller");

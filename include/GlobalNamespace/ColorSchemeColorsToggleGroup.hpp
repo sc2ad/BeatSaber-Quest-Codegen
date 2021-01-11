@@ -156,8 +156,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemeColorsToggleGroup*, creationType>()));
     }
   }; // ColorSchemeColorsToggleGroup
+  #pragma pack(pop)
   static check_size<sizeof(ColorSchemeColorsToggleGroup), 88 + sizeof(GlobalNamespace::ColorScheme*)> __GlobalNamespace_ColorSchemeColorsToggleGroupSizeCheck;
   static_assert(sizeof(ColorSchemeColorsToggleGroup) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeColorsToggleGroup*, "", "ColorSchemeColorsToggleGroup");

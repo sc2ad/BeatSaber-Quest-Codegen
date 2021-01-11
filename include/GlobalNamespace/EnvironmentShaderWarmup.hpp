@@ -97,8 +97,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentShaderWarmup*, creationType>()));
     }
   }; // EnvironmentShaderWarmup
+  #pragma pack(pop)
   static check_size<sizeof(EnvironmentShaderWarmup), 40 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_EnvironmentShaderWarmupSizeCheck;
   static_assert(sizeof(EnvironmentShaderWarmup) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentShaderWarmup*, "", "EnvironmentShaderWarmup");

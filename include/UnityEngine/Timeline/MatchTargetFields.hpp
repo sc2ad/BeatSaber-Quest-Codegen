@@ -69,9 +69,9 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.MatchTargetFields RotationZ
     static void _set_RotationZ(UnityEngine::Timeline::MatchTargetFields value);
   }; // UnityEngine.Timeline.MatchTargetFields
+  #pragma pack(pop)
   static check_size<sizeof(MatchTargetFields), 0 + sizeof(int)> __UnityEngine_Timeline_MatchTargetFieldsSizeCheck;
   static_assert(sizeof(MatchTargetFields) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MatchTargetFields, "UnityEngine.Timeline", "MatchTargetFields");

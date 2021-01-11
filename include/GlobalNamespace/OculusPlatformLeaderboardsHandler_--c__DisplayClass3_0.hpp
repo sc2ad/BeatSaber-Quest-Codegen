@@ -59,8 +59,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0*, creationType>()));
     }
   }; // OculusPlatformLeaderboardsHandler/<>c__DisplayClass3_0
+  #pragma pack(pop)
   static check_size<sizeof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0), 24 + sizeof(Oculus::Platform::Request*)> __GlobalNamespace_OculusPlatformLeaderboardsHandler_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0*, "", "OculusPlatformLeaderboardsHandler/<>c__DisplayClass3_0");

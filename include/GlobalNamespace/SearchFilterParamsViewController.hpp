@@ -186,8 +186,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SearchFilterParamsViewController*, creationType>()));
     }
   }; // SearchFilterParamsViewController
+  #pragma pack(pop)
   static check_size<sizeof(SearchFilterParamsViewController), 224 + sizeof(System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>*)> __GlobalNamespace_SearchFilterParamsViewControllerSizeCheck;
   static_assert(sizeof(SearchFilterParamsViewController) == 0xE8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SearchFilterParamsViewController*, "", "SearchFilterParamsViewController");

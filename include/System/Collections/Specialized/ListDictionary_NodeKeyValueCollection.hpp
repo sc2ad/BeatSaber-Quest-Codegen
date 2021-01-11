@@ -79,8 +79,8 @@ namespace System::Collections::Specialized {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.Specialized.ListDictionary/NodeKeyValueCollection
+  #pragma pack(pop)
   static check_size<sizeof(ListDictionary::NodeKeyValueCollection), 24 + sizeof(bool)> __System_Collections_Specialized_ListDictionary_NodeKeyValueCollectionSizeCheck;
   static_assert(sizeof(ListDictionary::NodeKeyValueCollection) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::NodeKeyValueCollection*, "System.Collections.Specialized", "ListDictionary/NodeKeyValueCollection");

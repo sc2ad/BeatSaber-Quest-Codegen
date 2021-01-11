@@ -177,8 +177,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Int32 IBlockCipher::GetBlockSize()
     int GetBlockSize();
   }; // Org.BouncyCastle.Crypto.Engines.Cast5Engine
+  #pragma pack(pop)
   static check_size<sizeof(Cast5Engine), 48 + sizeof(int)> __Org_BouncyCastle_Crypto_Engines_Cast5EngineSizeCheck;
   static_assert(sizeof(Cast5Engine) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Cast5Engine*, "Org.BouncyCastle.Crypto.Engines", "Cast5Engine");

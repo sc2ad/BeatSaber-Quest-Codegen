@@ -404,8 +404,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<QuickPlayLobbyFlowCoordinator*, creationType>()));
     }
   }; // QuickPlayLobbyFlowCoordinator
+  #pragma pack(pop)
   static check_size<sizeof(QuickPlayLobbyFlowCoordinator), 360 + sizeof(bool)> __GlobalNamespace_QuickPlayLobbyFlowCoordinatorSizeCheck;
   static_assert(sizeof(QuickPlayLobbyFlowCoordinator) == 0x169);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlayLobbyFlowCoordinator*, "", "QuickPlayLobbyFlowCoordinator");

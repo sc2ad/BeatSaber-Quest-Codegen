@@ -86,8 +86,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MasterServerConnectionManager::StartServerParams*, creationType>()));
     }
   }; // MasterServerConnectionManager/StartServerParams
+  #pragma pack(pop)
   static check_size<sizeof(MasterServerConnectionManager::StartServerParams), 88 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __GlobalNamespace_MasterServerConnectionManager_StartServerParamsSizeCheck;
   static_assert(sizeof(MasterServerConnectionManager::StartServerParams) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::StartServerParams*, "", "MasterServerConnectionManager/StartServerParams");

@@ -62,6 +62,6 @@ namespace Valve::VR {
     // Offset: 0x18F3440
     uint EndInvoke(Valve::VR::HmdColor_t& pColor, Valve::VR::EVROverlayError& pError, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayRenderModel
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetOverlayRenderModel*, "Valve.VR", "IVROverlay/_GetOverlayRenderModel");

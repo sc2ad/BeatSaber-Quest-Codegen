@@ -92,8 +92,8 @@ namespace Zenject {
     // Base method: System.Void IProvider::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.ResourceProvider
+  #pragma pack(pop)
   static check_size<sizeof(ResourceProvider), 32 + sizeof(bool)> __Zenject_ResourceProviderSizeCheck;
   static_assert(sizeof(ResourceProvider) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ResourceProvider*, "Zenject", "ResourceProvider");

@@ -56,8 +56,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*, creationType>()));
     }
   }; // ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword
+  #pragma pack(pop)
   static check_size<sizeof(ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword), 24 + sizeof(GlobalNamespace::BaseResultsEnvironmentController*)> __GlobalNamespace_ResultsEnvironmentManager_ResultEnvironmentControllerWithKeywordSizeCheck;
   static_assert(sizeof(ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*, "", "ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword");

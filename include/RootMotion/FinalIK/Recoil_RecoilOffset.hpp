@@ -96,8 +96,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Recoil::RecoilOffset*, creationType>()));
     }
   }; // RootMotion.FinalIK.Recoil/RecoilOffset
+  #pragma pack(pop)
   static check_size<sizeof(Recoil::RecoilOffset), 60 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_Recoil_RecoilOffsetSizeCheck;
   static_assert(sizeof(Recoil::RecoilOffset) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::RecoilOffset*, "RootMotion.FinalIK", "Recoil/RecoilOffset");

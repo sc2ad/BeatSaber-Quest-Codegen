@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x186C7D4
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::VROverlayInputMethod& peInputMethod, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayInputMethod
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayInputMethod*, "OVR.OpenVR", "IVROverlay/_GetOverlayInputMethod");

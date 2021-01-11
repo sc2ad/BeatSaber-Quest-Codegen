@@ -101,8 +101,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelModifiersViewController*, creationType>()));
     }
   }; // MissionLevelModifiersViewController
+  #pragma pack(pop)
   static check_size<sizeof(MissionLevelModifiersViewController), 144 + sizeof(GlobalNamespace::GameplayModifiers*)> __GlobalNamespace_MissionLevelModifiersViewControllerSizeCheck;
   static_assert(sizeof(MissionLevelModifiersViewController) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelModifiersViewController*, "", "MissionLevelModifiersViewController");

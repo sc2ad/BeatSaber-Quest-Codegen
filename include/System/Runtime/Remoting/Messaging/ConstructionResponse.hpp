@@ -84,6 +84,6 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Collections.IDictionary MethodResponse::get_Properties()
     System::Collections::IDictionary* get_Properties();
   }; // System.Runtime.Remoting.Messaging.ConstructionResponse
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ConstructionResponse*, "System.Runtime.Remoting.Messaging", "ConstructionResponse");

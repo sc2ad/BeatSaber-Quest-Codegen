@@ -57,8 +57,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<EditorIK*, creationType>()));
     }
   }; // RootMotion.FinalIK.EditorIK
+  #pragma pack(pop)
   static check_size<sizeof(EditorIK), 24 + sizeof(RootMotion::FinalIK::IK*)> __RootMotion_FinalIK_EditorIKSizeCheck;
   static_assert(sizeof(EditorIK) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::EditorIK*, "RootMotion.FinalIK", "EditorIK");

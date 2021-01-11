@@ -34,9 +34,9 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Net.NetworkInformation.Win32LengthFlagsUnion
+  #pragma pack(pop)
   static check_size<sizeof(Win32LengthFlagsUnion), 4 + sizeof(uint)> __System_Net_NetworkInformation_Win32LengthFlagsUnionSizeCheck;
   static_assert(sizeof(Win32LengthFlagsUnion) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32LengthFlagsUnion, "System.Net.NetworkInformation", "Win32LengthFlagsUnion");

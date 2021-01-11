@@ -81,8 +81,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutScoreSpawner*, creationType>()));
     }
   }; // NoteCutScoreSpawner
+  #pragma pack(pop)
   static check_size<sizeof(NoteCutScoreSpawner), 40 + sizeof(GlobalNamespace::ScoreController*)> __GlobalNamespace_NoteCutScoreSpawnerSizeCheck;
   static_assert(sizeof(NoteCutScoreSpawner) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutScoreSpawner*, "", "NoteCutScoreSpawner");

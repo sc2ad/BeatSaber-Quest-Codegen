@@ -143,8 +143,8 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Base method: System.Void IMac::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Macs.CMac
+  #pragma pack(pop)
   static check_size<sizeof(CMac), 80 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Macs_CMacSizeCheck;
   static_assert(sizeof(CMac) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::CMac*, "Org.BouncyCastle.Crypto.Macs", "CMac");

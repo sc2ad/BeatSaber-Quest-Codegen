@@ -95,8 +95,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TextOnlyTableCell*, creationType>()));
     }
   }; // TextOnlyTableCell
+  #pragma pack(pop)
   static check_size<sizeof(TextOnlyTableCell), 112 + sizeof(HMUI::ImageView*)> __GlobalNamespace_TextOnlyTableCellSizeCheck;
   static_assert(sizeof(TextOnlyTableCell) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextOnlyTableCell*, "", "TextOnlyTableCell");

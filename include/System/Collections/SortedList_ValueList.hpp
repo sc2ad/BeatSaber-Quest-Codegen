@@ -162,8 +162,8 @@ namespace System::Collections {
     // Maps to method: RemoveAt
     void System_Collections_IList_RemoveAt(int index);
   }; // System.Collections.SortedList/ValueList
+  #pragma pack(pop)
   static check_size<sizeof(SortedList::ValueList), 16 + sizeof(System::Collections::SortedList*)> __System_Collections_SortedList_ValueListSizeCheck;
   static_assert(sizeof(SortedList::ValueList) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::ValueList*, "System.Collections", "SortedList/ValueList");

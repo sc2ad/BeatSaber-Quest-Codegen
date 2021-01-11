@@ -50,9 +50,9 @@ namespace GlobalNamespace {
     // Set static field: static public PlayerNetworkFailReason PlayerQuit
     static void _set_PlayerQuit(GlobalNamespace::PlayerNetworkFailReason value);
   }; // PlayerNetworkFailReason
+  #pragma pack(pop)
   static check_size<sizeof(PlayerNetworkFailReason), 0 + sizeof(int)> __GlobalNamespace_PlayerNetworkFailReasonSizeCheck;
   static_assert(sizeof(PlayerNetworkFailReason) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerNetworkFailReason, "", "PlayerNetworkFailReason");

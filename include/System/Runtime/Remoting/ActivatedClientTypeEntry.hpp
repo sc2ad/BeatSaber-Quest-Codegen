@@ -68,8 +68,8 @@ namespace System::Runtime::Remoting {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Runtime.Remoting.ActivatedClientTypeEntry
+  #pragma pack(pop)
   static check_size<sizeof(ActivatedClientTypeEntry), 40 + sizeof(System::Type*)> __System_Runtime_Remoting_ActivatedClientTypeEntrySizeCheck;
   static_assert(sizeof(ActivatedClientTypeEntry) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ActivatedClientTypeEntry*, "System.Runtime.Remoting", "ActivatedClientTypeEntry");

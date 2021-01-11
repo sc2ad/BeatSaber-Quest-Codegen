@@ -86,8 +86,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<InteractableTextMeshPro*, creationType>()));
     }
   }; // HMUI.InteractableTextMeshPro
+  #pragma pack(pop)
   static check_size<sizeof(InteractableTextMeshPro), 40 + sizeof(System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>*)> __HMUI_InteractableTextMeshProSizeCheck;
   static_assert(sizeof(InteractableTextMeshPro) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InteractableTextMeshPro*, "HMUI", "InteractableTextMeshPro");

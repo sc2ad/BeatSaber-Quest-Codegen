@@ -35,9 +35,9 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Coord
+  #pragma pack(pop)
   static check_size<sizeof(Coord), 2 + sizeof(int16_t)> __System_CoordSizeCheck;
   static_assert(sizeof(Coord) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Coord, "System", "Coord");

@@ -53,9 +53,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.VRActiveActionSet_t
+  #pragma pack(pop)
   static check_size<sizeof(VRActiveActionSet_t), 28 + sizeof(int)> __OVR_OpenVR_VRActiveActionSet_tSizeCheck;
   static_assert(sizeof(VRActiveActionSet_t) == 0x20);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRActiveActionSet_t, "OVR.OpenVR", "VRActiveActionSet_t");

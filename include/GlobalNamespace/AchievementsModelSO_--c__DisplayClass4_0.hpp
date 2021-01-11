@@ -49,8 +49,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AchievementsModelSO::$$c__DisplayClass4_0*, creationType>()));
     }
   }; // AchievementsModelSO/<>c__DisplayClass4_0
+  #pragma pack(pop)
   static check_size<sizeof(AchievementsModelSO::$$c__DisplayClass4_0), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_AchievementsModelSO_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(AchievementsModelSO::$$c__DisplayClass4_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0*, "", "AchievementsModelSO/<>c__DisplayClass4_0");

@@ -54,8 +54,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAsyncResult::$$c__DisplayClass9_0*, creationType>()));
     }
   }; // System.Net.SimpleAsyncResult/<>c__DisplayClass9_0
+  #pragma pack(pop)
   static check_size<sizeof(SimpleAsyncResult::$$c__DisplayClass9_0), 24 + sizeof(System::Net::SimpleAsyncResult*)> __System_Net_SimpleAsyncResult_$$c__DisplayClass9_0SizeCheck;
   static_assert(sizeof(SimpleAsyncResult::$$c__DisplayClass9_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::SimpleAsyncResult::$$c__DisplayClass9_0*, "System.Net", "SimpleAsyncResult/<>c__DisplayClass9_0");

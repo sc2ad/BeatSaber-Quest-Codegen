@@ -82,8 +82,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StartMiddleEndButtonBackgroundController*, creationType>()));
     }
   }; // StartMiddleEndButtonBackgroundController
+  #pragma pack(pop)
   static check_size<sizeof(StartMiddleEndButtonBackgroundController), 48 + sizeof(HMUI::ImageView*)> __GlobalNamespace_StartMiddleEndButtonBackgroundControllerSizeCheck;
   static_assert(sizeof(StartMiddleEndButtonBackgroundController) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StartMiddleEndButtonBackgroundController*, "", "StartMiddleEndButtonBackgroundController");

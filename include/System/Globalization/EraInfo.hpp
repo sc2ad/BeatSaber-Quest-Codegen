@@ -89,8 +89,8 @@ namespace System::Globalization {
       return THROW_UNLESS((::il2cpp_utils::New<EraInfo*, creationType>(era, startYear, startMonth, startDay, yearOffset, minEraYear, maxEraYear, eraName, abbrevEraName, englishEraName)));
     }
   }; // System.Globalization.EraInfo
+  #pragma pack(pop)
   static check_size<sizeof(EraInfo), 64 + sizeof(::Il2CppString*)> __System_Globalization_EraInfoSizeCheck;
   static_assert(sizeof(EraInfo) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::EraInfo*, "System.Globalization", "EraInfo");

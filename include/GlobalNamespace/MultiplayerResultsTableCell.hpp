@@ -159,8 +159,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsTableCell*, creationType>()));
     }
   }; // MultiplayerResultsTableCell
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsTableCell), 212 + sizeof(UnityEngine::Color)> __GlobalNamespace_MultiplayerResultsTableCellSizeCheck;
   static_assert(sizeof(MultiplayerResultsTableCell) == 0xE4);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableCell*, "", "MultiplayerResultsTableCell");

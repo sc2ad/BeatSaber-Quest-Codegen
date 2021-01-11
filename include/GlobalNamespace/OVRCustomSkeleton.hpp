@@ -64,8 +64,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRCustomSkeleton*, creationType>()));
     }
   }; // OVRCustomSkeleton
+  #pragma pack(pop)
   static check_size<sizeof(OVRCustomSkeleton), 144 + sizeof(System::Collections::Generic::List_1<UnityEngine::Transform*>*)> __GlobalNamespace_OVRCustomSkeletonSizeCheck;
   static_assert(sizeof(OVRCustomSkeleton) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCustomSkeleton*, "", "OVRCustomSkeleton");

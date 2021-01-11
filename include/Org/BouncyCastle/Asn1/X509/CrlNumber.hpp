@@ -46,6 +46,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Base method: System.String DerInteger::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.X509.CrlNumber
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::CrlNumber*, "Org.BouncyCastle.Asn1.X509", "CrlNumber");

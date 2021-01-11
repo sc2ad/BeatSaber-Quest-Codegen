@@ -46,9 +46,9 @@ namespace UnityEngineInternal::Input {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngineInternal.Input.NativeInputEventBuffer
+  #pragma pack(pop)
   static check_size<sizeof(NativeInputEventBuffer), 16 + sizeof(int)> __UnityEngineInternal_Input_NativeInputEventBufferSizeCheck;
   static_assert(sizeof(NativeInputEventBuffer) == 0x14);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeInputEventBuffer, "UnityEngineInternal.Input", "NativeInputEventBuffer");

@@ -89,8 +89,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // PointLight
+  #pragma pack(pop)
   static check_size<sizeof(PointLight), 40 + sizeof(float)> __GlobalNamespace_PointLightSizeCheck;
   static_assert(sizeof(PointLight) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PointLight*, "", "PointLight");

@@ -53,8 +53,8 @@ namespace System::Text {
     // Base method: System.Boolean DecoderNLS::get_HasState()
     bool get_HasState();
   }; // System.Text.UTF32Encoding/UTF32Decoder
+  #pragma pack(pop)
   static check_size<sizeof(UTF32Encoding::UTF32Decoder), 52 + sizeof(int)> __System_Text_UTF32Encoding_UTF32DecoderSizeCheck;
   static_assert(sizeof(UTF32Encoding::UTF32Decoder) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF32Encoding::UTF32Decoder*, "System.Text", "UTF32Encoding/UTF32Decoder");

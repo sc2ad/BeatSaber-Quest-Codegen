@@ -248,8 +248,8 @@ namespace System::Net {
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
   }; // System.Net.HttpListenerResponse
+  #pragma pack(pop)
   static check_size<sizeof(HttpListenerResponse), 152 + sizeof(bool)> __System_Net_HttpListenerResponseSizeCheck;
   static_assert(sizeof(HttpListenerResponse) == 0x99);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerResponse*, "System.Net", "HttpListenerResponse");

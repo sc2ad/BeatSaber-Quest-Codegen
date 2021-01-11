@@ -170,8 +170,8 @@ namespace System::Globalization {
     // Base method: System.Int32 Calendar::ToFourDigitYear(System.Int32 year)
     int ToFourDigitYear(int year);
   }; // System.Globalization.GregorianCalendar
+  #pragma pack(pop)
   static check_size<sizeof(GregorianCalendar), 28 + sizeof(System::Globalization::GregorianCalendarTypes)> __System_Globalization_GregorianCalendarSizeCheck;
   static_assert(sizeof(GregorianCalendar) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::GregorianCalendar*, "System.Globalization", "GregorianCalendar");

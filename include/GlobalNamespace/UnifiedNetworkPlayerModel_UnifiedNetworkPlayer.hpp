@@ -289,8 +289,8 @@ namespace GlobalNamespace {
     // Base method: System.Void INetworkPlayer::SendInviteResponse(System.Boolean accept)
     void SendInviteResponse(bool accept);
   }; // UnifiedNetworkPlayerModel/UnifiedNetworkPlayer
+  #pragma pack(pop)
   static check_size<sizeof(UnifiedNetworkPlayerModel::UnifiedNetworkPlayer), 50 + sizeof(bool)> __GlobalNamespace_UnifiedNetworkPlayerModel_UnifiedNetworkPlayerSizeCheck;
   static_assert(sizeof(UnifiedNetworkPlayerModel::UnifiedNetworkPlayer) == 0x33);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*, "", "UnifiedNetworkPlayerModel/UnifiedNetworkPlayer");

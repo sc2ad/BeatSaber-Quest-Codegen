@@ -337,8 +337,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12F9CFC
     static void CheckTypeForwardedTo(System::Reflection::Assembly* sourceAssembly, System::Reflection::Assembly* destAssembly, System::Type* resolvedType);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectReader
+  #pragma pack(pop)
   static check_size<sizeof(ObjectReader), 200 + sizeof(System::Type*)> __System_Runtime_Serialization_Formatters_Binary_ObjectReaderSizeCheck;
   static_assert(sizeof(ObjectReader) == 0xD0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectReader*, "System.Runtime.Serialization.Formatters.Binary", "ObjectReader");

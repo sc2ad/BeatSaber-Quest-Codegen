@@ -98,8 +98,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VRsenalLogger*, creationType>()));
     }
   }; // VRsenalLogger
+  #pragma pack(pop)
   static check_size<sizeof(VRsenalLogger), 56 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_VRsenalLoggerSizeCheck;
   static_assert(sizeof(VRsenalLogger) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRsenalLogger*, "", "VRsenalLogger");

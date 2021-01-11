@@ -140,8 +140,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardScoreUploader*, creationType>()));
     }
   }; // LeaderboardScoreUploader
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardScoreUploader), 64 + sizeof(bool)> __GlobalNamespace_LeaderboardScoreUploaderSizeCheck;
   static_assert(sizeof(LeaderboardScoreUploader) == 0x41);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader*, "", "LeaderboardScoreUploader");

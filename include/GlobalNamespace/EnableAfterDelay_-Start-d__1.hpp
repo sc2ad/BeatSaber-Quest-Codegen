@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // EnableAfterDelay/<Start>d__1
+  #pragma pack(pop)
   static check_size<sizeof(EnableAfterDelay::$Start$d__1), 32 + sizeof(GlobalNamespace::EnableAfterDelay*)> __GlobalNamespace_EnableAfterDelay_$Start$d__1SizeCheck;
   static_assert(sizeof(EnableAfterDelay::$Start$d__1) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableAfterDelay::$Start$d__1*, "", "EnableAfterDelay/<Start>d__1");

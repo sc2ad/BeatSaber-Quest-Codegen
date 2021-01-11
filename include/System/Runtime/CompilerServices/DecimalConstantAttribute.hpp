@@ -46,8 +46,8 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1163144
     System::Decimal get_Value();
   }; // System.Runtime.CompilerServices.DecimalConstantAttribute
+  #pragma pack(pop)
   static check_size<sizeof(DecimalConstantAttribute), 16 + sizeof(System::Decimal)> __System_Runtime_CompilerServices_DecimalConstantAttributeSizeCheck;
   static_assert(sizeof(DecimalConstantAttribute) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DecimalConstantAttribute*, "System.Runtime.CompilerServices", "DecimalConstantAttribute");

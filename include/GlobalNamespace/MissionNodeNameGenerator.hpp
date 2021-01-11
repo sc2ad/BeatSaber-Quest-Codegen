@@ -50,8 +50,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionNodeNameGenerator*, creationType>()));
     }
   }; // MissionNodeNameGenerator
+  #pragma pack(pop)
   static check_size<sizeof(MissionNodeNameGenerator), 24 + sizeof(GlobalNamespace::MissionNodesManager*)> __GlobalNamespace_MissionNodeNameGeneratorSizeCheck;
   static_assert(sizeof(MissionNodeNameGenerator) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeNameGenerator*, "", "MissionNodeNameGenerator");

@@ -59,6 +59,6 @@ namespace Valve::VR {
     // Offset: 0x192BB10
     Valve::VR::HiddenAreaMesh_t EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetHiddenAreaMesh
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetHiddenAreaMesh*, "Valve.VR", "IVRSystem/_GetHiddenAreaMesh");

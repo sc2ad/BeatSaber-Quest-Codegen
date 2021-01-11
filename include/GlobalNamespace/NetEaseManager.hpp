@@ -139,8 +139,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetEaseManager*, creationType>()));
     }
   }; // NetEaseManager
+  #pragma pack(pop)
   static check_size<sizeof(NetEaseManager), 56 + sizeof(System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::LogoutData>*)> __GlobalNamespace_NetEaseManagerSizeCheck;
   static_assert(sizeof(NetEaseManager) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseManager*, "", "NetEaseManager");

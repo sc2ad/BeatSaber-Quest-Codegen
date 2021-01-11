@@ -58,8 +58,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEventEffect::StartTextPosition*, creationType>()));
     }
   }; // BTSStarTextEventEffect/StartTextPosition
+  #pragma pack(pop)
   static check_size<sizeof(BTSStarTextEventEffect::StartTextPosition), 24 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_BTSStarTextEventEffect_StartTextPositionSizeCheck;
   static_assert(sizeof(BTSStarTextEventEffect::StartTextPosition) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*, "", "BTSStarTextEventEffect/StartTextPosition");

@@ -148,6 +148,7 @@ namespace System::Net {
       // Set static field: static public System.Net.HttpWebRequest/NtlmAuthState Response
       static void _set_Response(System::Net::HttpWebRequest::NtlmAuthState value);
     }; // System.Net.HttpWebRequest/NtlmAuthState
+    #pragma pack(pop)
     static check_size<sizeof(HttpWebRequest::NtlmAuthState), 0 + sizeof(int)> __System_Net_HttpWebRequest_NtlmAuthStateSizeCheck;
     static_assert(sizeof(HttpWebRequest::NtlmAuthState) == 0x4);
     // Size: 0x10
@@ -218,6 +219,7 @@ namespace System::Net {
       // Base method: System.String ValueType::ToString()
       ::Il2CppString* ToString();
     }; // System.Net.HttpWebRequest/AuthorizationState
+    #pragma pack(pop)
     static check_size<sizeof(HttpWebRequest::AuthorizationState), 12 + sizeof(System::Net::HttpWebRequest::NtlmAuthState)> __System_Net_HttpWebRequest_AuthorizationStateSizeCheck;
     static_assert(sizeof(HttpWebRequest::AuthorizationState) == 0x10);
     // private System.Uri requestUri
@@ -954,10 +956,10 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HttpWebRequest*, creationType>()));
     }
   }; // System.Net.HttpWebRequest
+  #pragma pack(pop)
   static check_size<sizeof(HttpWebRequest), 416 + sizeof(System::Net::WebConnection*)> __System_Net_HttpWebRequestSizeCheck;
   static_assert(sizeof(HttpWebRequest) == 0x1A8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest*, "System.Net", "HttpWebRequest");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::NtlmAuthState, "System.Net", "HttpWebRequest/NtlmAuthState");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::AuthorizationState, "System.Net", "HttpWebRequest/AuthorizationState");

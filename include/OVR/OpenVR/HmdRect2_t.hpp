@@ -36,9 +36,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.HmdRect2_t
+  #pragma pack(pop)
   static check_size<sizeof(HmdRect2_t), 8 + sizeof(OVR::OpenVR::HmdVector2_t)> __OVR_OpenVR_HmdRect2_tSizeCheck;
   static_assert(sizeof(HmdRect2_t) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdRect2_t, "OVR.OpenVR", "HmdRect2_t");

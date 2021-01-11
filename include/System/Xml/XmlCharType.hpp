@@ -100,8 +100,8 @@ namespace System::Xml {
     // Offset: 0x14E9C98
     static bool InRange(int value, int start, int end);
   }; // System.Xml.XmlCharType
+  #pragma pack(pop)
   static check_size<sizeof(XmlCharType), 0 + sizeof(::Array<uint8_t>*)> __System_Xml_XmlCharTypeSizeCheck;
   static_assert(sizeof(XmlCharType) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlCharType, "System.Xml", "XmlCharType");

@@ -182,8 +182,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // StretchableCube
+  #pragma pack(pop)
   static check_size<sizeof(StretchableCube), 32 + sizeof(UnityEngine::Mesh*)> __GlobalNamespace_StretchableCubeSizeCheck;
   static_assert(sizeof(StretchableCube) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StretchableCube*, "", "StretchableCube");

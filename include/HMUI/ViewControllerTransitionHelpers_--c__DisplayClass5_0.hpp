@@ -68,8 +68,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ViewControllerTransitionHelpers::$$c__DisplayClass5_0*, creationType>()));
     }
   }; // HMUI.ViewControllerTransitionHelpers/<>c__DisplayClass5_0
+  #pragma pack(pop)
   static check_size<sizeof(ViewControllerTransitionHelpers::$$c__DisplayClass5_0), 40 + sizeof(float)> __HMUI_ViewControllerTransitionHelpers_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(ViewControllerTransitionHelpers::$$c__DisplayClass5_0) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass5_0*, "HMUI", "ViewControllerTransitionHelpers/<>c__DisplayClass5_0");

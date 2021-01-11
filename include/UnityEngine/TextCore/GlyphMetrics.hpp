@@ -105,8 +105,8 @@ namespace UnityEngine::TextCore {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.TextCore.GlyphMetrics other)
     bool Equals(UnityEngine::TextCore::GlyphMetrics other);
   }; // UnityEngine.TextCore.GlyphMetrics
+  #pragma pack(pop)
   static check_size<sizeof(GlyphMetrics), 16 + sizeof(float)> __UnityEngine_TextCore_GlyphMetricsSizeCheck;
   static_assert(sizeof(GlyphMetrics) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphMetrics, "UnityEngine.TextCore", "GlyphMetrics");

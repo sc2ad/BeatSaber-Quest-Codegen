@@ -90,8 +90,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::InteractionEvent*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionObject/InteractionEvent
+  #pragma pack(pop)
   static check_size<sizeof(InteractionObject::InteractionEvent), 40 + sizeof(UnityEngine::Events::UnityEvent*)> __RootMotion_FinalIK_InteractionObject_InteractionEventSizeCheck;
   static_assert(sizeof(InteractionObject::InteractionEvent) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::InteractionEvent*, "RootMotion.FinalIK", "InteractionObject/InteractionEvent");

@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassLight::LightsDataItem*, creationType>(lightType, lights)));
     }
   }; // BloomPrePassLight/LightsDataItem
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePassLight::LightsDataItem), 24 + sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>*)> __GlobalNamespace_BloomPrePassLight_LightsDataItemSizeCheck;
   static_assert(sizeof(BloomPrePassLight::LightsDataItem) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLight::LightsDataItem*, "", "BloomPrePassLight/LightsDataItem");

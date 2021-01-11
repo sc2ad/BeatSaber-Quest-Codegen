@@ -62,8 +62,8 @@ namespace Libraries::HM::HMLib::VR {
       return THROW_UNLESS((::il2cpp_utils::New<HapticPresetSO*, creationType>()));
     }
   }; // Libraries.HM.HMLib.VR.HapticPresetSO
+  #pragma pack(pop)
   static check_size<sizeof(HapticPresetSO), 36 + sizeof(bool)> __Libraries_HM_HMLib_VR_HapticPresetSOSizeCheck;
   static_assert(sizeof(HapticPresetSO) == 0x25);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Libraries::HM::HMLib::VR::HapticPresetSO*, "Libraries.HM.HMLib.VR", "HapticPresetSO");

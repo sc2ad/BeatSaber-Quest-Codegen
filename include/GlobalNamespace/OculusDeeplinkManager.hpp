@@ -105,8 +105,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusDeeplinkManager*, creationType>()));
     }
   }; // OculusDeeplinkManager
+  #pragma pack(pop)
   static check_size<sizeof(OculusDeeplinkManager), 24 + sizeof(GlobalNamespace::Deeplink*)> __GlobalNamespace_OculusDeeplinkManagerSizeCheck;
   static_assert(sizeof(OculusDeeplinkManager) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusDeeplinkManager*, "", "OculusDeeplinkManager");

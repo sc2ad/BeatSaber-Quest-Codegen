@@ -75,7 +75,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x19503C0
     static void _cctor();
   }; // UnityEngine.ProBuilder.UvUnwrapping
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::UvUnwrapping*, "UnityEngine.ProBuilder", "UvUnwrapping");

@@ -32,7 +32,7 @@ namespace System::ComponentModel {
     // Offset: 0xFFFFFFFF
     void Remove(System::ComponentModel::IComponent* component);
   }; // System.ComponentModel.IContainer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::IContainer*, "System.ComponentModel", "IContainer");

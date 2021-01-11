@@ -124,8 +124,8 @@ namespace HMUI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // HMUI.Screen/<TransitionCoroutine>d__5
+  #pragma pack(pop)
   static check_size<sizeof(Screen::$TransitionCoroutine$d__5), 68 + sizeof(float)> __HMUI_Screen_$TransitionCoroutine$d__5SizeCheck;
   static_assert(sizeof(Screen::$TransitionCoroutine$d__5) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Screen::$TransitionCoroutine$d__5*, "HMUI", "Screen/<TransitionCoroutine>d__5");

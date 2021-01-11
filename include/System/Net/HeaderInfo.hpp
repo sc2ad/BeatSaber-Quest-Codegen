@@ -66,8 +66,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HeaderInfo*, creationType>(name, requestRestricted, responseRestricted, multi, p)));
     }
   }; // System.Net.HeaderInfo
+  #pragma pack(pop)
   static check_size<sizeof(HeaderInfo), 40 + sizeof(bool)> __System_Net_HeaderInfoSizeCheck;
   static_assert(sizeof(HeaderInfo) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderInfo*, "System.Net", "HeaderInfo");

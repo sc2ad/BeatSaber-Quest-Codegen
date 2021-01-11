@@ -50,9 +50,9 @@ namespace RootMotion {
     // Set static field: static public RootMotion.Axis Z
     static void _set_Z(RootMotion::Axis value);
   }; // RootMotion.Axis
+  #pragma pack(pop)
   static check_size<sizeof(Axis), 0 + sizeof(int)> __RootMotion_AxisSizeCheck;
   static_assert(sizeof(Axis) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Axis, "RootMotion", "Axis");

@@ -45,9 +45,9 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.DateTimeToken
+  #pragma pack(pop)
   static check_size<sizeof(DateTimeToken), 8 + sizeof(int)> __System_DateTimeTokenSizeCheck;
   static_assert(sizeof(DateTimeToken) == 0xC);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeToken, "System", "DateTimeToken");

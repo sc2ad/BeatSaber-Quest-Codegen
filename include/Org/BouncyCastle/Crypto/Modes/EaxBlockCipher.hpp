@@ -180,8 +180,8 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Int32 IAeadCipher::GetOutputSize(System.Int32 len)
     int GetOutputSize(int len);
   }; // Org.BouncyCastle.Crypto.Modes.EaxBlockCipher
+  #pragma pack(pop)
   static check_size<sizeof(EaxBlockCipher), 88 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Modes_EaxBlockCipherSizeCheck;
   static_assert(sizeof(EaxBlockCipher) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::EaxBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "EaxBlockCipher");

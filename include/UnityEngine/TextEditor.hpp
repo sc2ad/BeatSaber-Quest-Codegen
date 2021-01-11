@@ -87,6 +87,7 @@ namespace UnityEngine {
       // Set static field: static public UnityEngine.TextEditor/DblClickSnapping PARAGRAPHS
       static void _set_PARAGRAPHS(UnityEngine::TextEditor::DblClickSnapping value);
     }; // UnityEngine.TextEditor/DblClickSnapping
+    #pragma pack(pop)
     static check_size<sizeof(TextEditor::DblClickSnapping), 0 + sizeof(uint8_t)> __UnityEngine_TextEditor_DblClickSnappingSizeCheck;
     static_assert(sizeof(TextEditor::DblClickSnapping) == 0x1);
     // Size: 0x4
@@ -412,6 +413,7 @@ namespace UnityEngine {
       // Set static field: static public UnityEngine.TextEditor/TextEditOp ScrollPageDown
       static void _set_ScrollPageDown(UnityEngine::TextEditor::TextEditOp value);
     }; // UnityEngine.TextEditor/TextEditOp
+    #pragma pack(pop)
     static check_size<sizeof(TextEditor::TextEditOp), 0 + sizeof(int)> __UnityEngine_TextEditor_TextEditOpSizeCheck;
     static_assert(sizeof(TextEditor::TextEditOp) == 0x4);
     // public UnityEngine.TouchScreenKeyboard keyboardOnScreen
@@ -863,10 +865,10 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<TextEditor*, creationType>()));
     }
   }; // UnityEngine.TextEditor
+  #pragma pack(pop)
   static check_size<sizeof(TextEditor), 140 + sizeof(int)> __UnityEngine_TextEditorSizeCheck;
   static_assert(sizeof(TextEditor) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor*, "UnityEngine", "TextEditor");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::DblClickSnapping, "UnityEngine", "TextEditor/DblClickSnapping");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::TextEditOp, "UnityEngine", "TextEditor/TextEditOp");

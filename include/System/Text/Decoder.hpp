@@ -89,8 +89,8 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<Decoder*, creationType>()));
     }
   }; // System.Text.Decoder
+  #pragma pack(pop)
   static check_size<sizeof(Decoder), 24 + sizeof(System::Text::DecoderFallbackBuffer*)> __System_Text_DecoderSizeCheck;
   static_assert(sizeof(Decoder) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Decoder*, "System.Text", "Decoder");

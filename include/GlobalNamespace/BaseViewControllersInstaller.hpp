@@ -55,8 +55,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BaseViewControllersInstaller*, creationType>()));
     }
   }; // BaseViewControllersInstaller
+  #pragma pack(pop)
   static check_size<sizeof(BaseViewControllersInstaller), 32 + sizeof(GlobalNamespace::SimpleDialogPromptViewController*)> __GlobalNamespace_BaseViewControllersInstallerSizeCheck;
   static_assert(sizeof(BaseViewControllersInstaller) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseViewControllersInstaller*, "", "BaseViewControllersInstaller");

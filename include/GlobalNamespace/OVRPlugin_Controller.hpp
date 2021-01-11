@@ -118,9 +118,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/Controller All
     static void _set_All(GlobalNamespace::OVRPlugin::Controller value);
   }; // OVRPlugin/Controller
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Controller), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_ControllerSizeCheck;
   static_assert(sizeof(OVRPlugin::Controller) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Controller, "", "OVRPlugin/Controller");

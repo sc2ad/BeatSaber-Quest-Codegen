@@ -33,7 +33,7 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Internal::Test* BuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* suite);
   }; // NUnit.Framework.Interfaces.ITestCaseBuilder
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestCaseBuilder*, "NUnit.Framework.Interfaces", "ITestCaseBuilder");

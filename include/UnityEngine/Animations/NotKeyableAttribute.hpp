@@ -20,7 +20,7 @@ namespace UnityEngine::Animations {
     // Creating value type constructor for type: NotKeyableAttribute
     NotKeyableAttribute() noexcept {}
   }; // UnityEngine.Animations.NotKeyableAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::NotKeyableAttribute*, "UnityEngine.Animations", "NotKeyableAttribute");

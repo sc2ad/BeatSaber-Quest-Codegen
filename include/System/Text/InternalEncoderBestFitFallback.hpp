@@ -74,8 +74,8 @@ namespace System::Text {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Text.InternalEncoderBestFitFallback
+  #pragma pack(pop)
   static check_size<sizeof(InternalEncoderBestFitFallback), 32 + sizeof(::Array<::Il2CppChar>*)> __System_Text_InternalEncoderBestFitFallbackSizeCheck;
   static_assert(sizeof(InternalEncoderBestFitFallback) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalEncoderBestFitFallback*, "System.Text", "InternalEncoderBestFitFallback");

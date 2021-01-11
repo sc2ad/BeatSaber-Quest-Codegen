@@ -23,7 +23,7 @@ namespace System {
     // Base method: System.Void __Il2CppComObject::Finalize()
     void Finalize();
   }; // System.__Il2CppComDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::__Il2CppComDelegate*, "System", "__Il2CppComDelegate");

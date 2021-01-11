@@ -51,9 +51,9 @@ namespace System {
     // Set static field: static public System.DateTimeKind Local
     static void _set_Local(System::DateTimeKind value);
   }; // System.DateTimeKind
+  #pragma pack(pop)
   static check_size<sizeof(DateTimeKind), 0 + sizeof(int)> __System_DateTimeKindSizeCheck;
   static_assert(sizeof(DateTimeKind) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeKind, "System", "DateTimeKind");

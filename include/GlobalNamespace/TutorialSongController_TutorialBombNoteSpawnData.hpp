@@ -40,6 +40,6 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TutorialSongController::TutorialBombNoteSpawnData*, creationType>(signal, firstTimeBeatOffset, beatOffset, lineIndex, noteLineLayer)));
     }
   }; // TutorialSongController/TutorialBombNoteSpawnData
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::TutorialBombNoteSpawnData*, "", "TutorialSongController/TutorialBombNoteSpawnData");

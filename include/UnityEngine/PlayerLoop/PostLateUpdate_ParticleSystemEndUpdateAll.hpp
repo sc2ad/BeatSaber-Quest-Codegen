@@ -25,7 +25,7 @@ namespace UnityEngine::PlayerLoop {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.PlayerLoop.PostLateUpdate/ParticleSystemEndUpdateAll
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::PostLateUpdate::ParticleSystemEndUpdateAll, "UnityEngine.PlayerLoop", "PostLateUpdate/ParticleSystemEndUpdateAll");

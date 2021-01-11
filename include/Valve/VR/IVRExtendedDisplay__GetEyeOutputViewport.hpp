@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18ECF10
     void EndInvoke(uint& pnX, uint& pnY, uint& pnWidth, uint& pnHeight, System::IAsyncResult* result);
   }; // Valve.VR.IVRExtendedDisplay/_GetEyeOutputViewport
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport*, "Valve.VR", "IVRExtendedDisplay/_GetEyeOutputViewport");

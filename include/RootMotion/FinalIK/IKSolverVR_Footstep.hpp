@@ -156,8 +156,8 @@ namespace RootMotion::FinalIK {
     // Offset: 0x17DD710
     void Update(RootMotion::InterpolationMode interpolation, UnityEngine::Events::UnityEvent* onStep);
   }; // RootMotion.FinalIK.IKSolverVR/Footstep
+  #pragma pack(pop)
   static check_size<sizeof(IKSolverVR::Footstep), 160 + sizeof(float)> __RootMotion_FinalIK_IKSolverVR_FootstepSizeCheck;
   static_assert(sizeof(IKSolverVR::Footstep) == 0xA4);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Footstep*, "RootMotion.FinalIK", "IKSolverVR/Footstep");

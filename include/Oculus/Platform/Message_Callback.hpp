@@ -49,6 +49,6 @@ namespace Oculus::Platform {
     // Offset: 0x11D74F8
     void EndInvoke(System::IAsyncResult* result);
   }; // Oculus.Platform.Message/Callback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message::Callback*, "Oculus.Platform", "Message/Callback");

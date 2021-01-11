@@ -76,8 +76,8 @@ namespace Mono::Security::Interface {
       return THROW_UNLESS((::il2cpp_utils::New<MonoTlsConnectionInfo*, creationType>()));
     }
   }; // Mono.Security.Interface.MonoTlsConnectionInfo
+  #pragma pack(pop)
   static check_size<sizeof(MonoTlsConnectionInfo), 24 + sizeof(::Il2CppString*)> __Mono_Security_Interface_MonoTlsConnectionInfoSizeCheck;
   static_assert(sizeof(MonoTlsConnectionInfo) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsConnectionInfo*, "Mono.Security.Interface", "MonoTlsConnectionInfo");

@@ -65,8 +65,8 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Oculus.Platform.NetSyncOptions
+  #pragma pack(pop)
   static check_size<sizeof(NetSyncOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_NetSyncOptionsSizeCheck;
   static_assert(sizeof(NetSyncOptions) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSyncOptions*, "Oculus.Platform", "NetSyncOptions");

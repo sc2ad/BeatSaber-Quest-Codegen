@@ -43,9 +43,9 @@ namespace Mono::Unity {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Mono.Unity.UnityTls/unitytls_tlsctx_callbacks
+  #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_tlsctx_callbacks), 16 + sizeof(void*)> __Mono_Unity_UnityTls_unitytls_tlsctx_callbacksSizeCheck;
   static_assert(sizeof(UnityTls::unitytls_tlsctx_callbacks) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_tlsctx_callbacks, "Mono.Unity", "UnityTls/unitytls_tlsctx_callbacks");

@@ -173,8 +173,8 @@ namespace System {
     // Offset: 0x19E2CEC
     static void _cctor();
   }; // System.__DTString
+  #pragma pack(pop)
   static check_size<sizeof(__DTString), 32 + sizeof(bool)> __System___DTStringSizeCheck;
   static_assert(sizeof(__DTString) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::__DTString, "System", "__DTString");

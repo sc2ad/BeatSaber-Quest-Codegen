@@ -88,8 +88,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleSaberSparkleEffect*, creationType>()));
     }
   }; // ObstacleSaberSparkleEffect
+  #pragma pack(pop)
   static check_size<sizeof(ObstacleSaberSparkleEffect), 48 + sizeof(UnityEngine::ParticleSystem::EmissionModule)> __GlobalNamespace_ObstacleSaberSparkleEffectSizeCheck;
   static_assert(sizeof(ObstacleSaberSparkleEffect) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSparkleEffect*, "", "ObstacleSaberSparkleEffect");

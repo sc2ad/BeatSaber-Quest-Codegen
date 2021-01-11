@@ -65,6 +65,7 @@ namespace GlobalNamespace {
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  BufferData(float songTime, float yOffset)
     }; // BeatmapObjectAvoidanceYOffsetEvaluator/BufferData
+    #pragma pack(pop)
     static check_size<sizeof(BeatmapObjectAvoidanceYOffsetEvaluator::BufferData), 4 + sizeof(float)> __GlobalNamespace_BeatmapObjectAvoidanceYOffsetEvaluator_BufferDataSizeCheck;
     static_assert(sizeof(BeatmapObjectAvoidanceYOffsetEvaluator::BufferData) == 0x8);
     // private System.Int32 _currentYJumpOffsetBufferEndIndex
@@ -125,9 +126,9 @@ namespace GlobalNamespace {
     // Offset: 0x1A249B8
     float GetJumpOffsetYAtJumpStartSongTime(float lastDeltaTime);
   }; // BeatmapObjectAvoidanceYOffsetEvaluator
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectAvoidanceYOffsetEvaluator), 40 + sizeof(GlobalNamespace::BeatmapObjectSpawnController*)> __GlobalNamespace_BeatmapObjectAvoidanceYOffsetEvaluatorSizeCheck;
   static_assert(sizeof(BeatmapObjectAvoidanceYOffsetEvaluator) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*, "", "BeatmapObjectAvoidanceYOffsetEvaluator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData, "", "BeatmapObjectAvoidanceYOffsetEvaluator/BufferData");

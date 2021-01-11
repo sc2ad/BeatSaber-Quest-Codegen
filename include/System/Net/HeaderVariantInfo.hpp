@@ -51,8 +51,8 @@ namespace System::Net {
     // Offset: 0xC9B364
     System::Net::CookieVariant get_Variant();
   }; // System.Net.HeaderVariantInfo
+  #pragma pack(pop)
   static check_size<sizeof(HeaderVariantInfo), 8 + sizeof(System::Net::CookieVariant)> __System_Net_HeaderVariantInfoSizeCheck;
   static_assert(sizeof(HeaderVariantInfo) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderVariantInfo, "System.Net", "HeaderVariantInfo");

@@ -62,9 +62,9 @@ namespace GlobalNamespace {
     // Set static field: static public XRDeviceModel Other
     static void _set_Other(GlobalNamespace::XRDeviceModel value);
   }; // XRDeviceModel
+  #pragma pack(pop)
   static check_size<sizeof(XRDeviceModel), 0 + sizeof(int)> __GlobalNamespace_XRDeviceModelSizeCheck;
   static_assert(sizeof(XRDeviceModel) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::XRDeviceModel, "", "XRDeviceModel");

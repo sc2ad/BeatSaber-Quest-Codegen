@@ -110,8 +110,8 @@ namespace System::Net::Mail {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Mail.MailAddress
+  #pragma pack(pop)
   static check_size<sizeof(MailAddress), 48 + sizeof(::Il2CppString*)> __System_Net_Mail_MailAddressSizeCheck;
   static_assert(sizeof(MailAddress) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Mail::MailAddress*, "System.Net.Mail", "MailAddress");

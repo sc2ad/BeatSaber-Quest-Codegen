@@ -105,6 +105,7 @@ namespace VRUIControls {
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  VRGraphicRaycastResult(UnityEngine::UI::Graphic* graphic, float distance, UnityEngine::Vector3 position, UnityEngine::Vector2 insideRootCanvasPosition)
     }; // VRUIControls.VRGraphicRaycaster/VRGraphicRaycastResult
+    #pragma pack(pop)
     static check_size<sizeof(VRGraphicRaycaster::VRGraphicRaycastResult), 24 + sizeof(UnityEngine::Vector2)> __VRUIControls_VRGraphicRaycaster_VRGraphicRaycastResultSizeCheck;
     static_assert(sizeof(VRGraphicRaycaster::VRGraphicRaycastResult) == 0x20);
     // private UnityEngine.LayerMask _blockingMask
@@ -192,9 +193,9 @@ namespace VRUIControls {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // VRUIControls.VRGraphicRaycaster
+  #pragma pack(pop)
   static check_size<sizeof(VRGraphicRaycaster), 64 + sizeof(HMUI::CurvedCanvasSettingsHelper*)> __VRUIControls_VRGraphicRaycasterSizeCheck;
   static_assert(sizeof(VRGraphicRaycaster) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster*, "VRUIControls", "VRGraphicRaycaster");
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult, "VRUIControls", "VRGraphicRaycaster/VRGraphicRaycastResult");

@@ -153,8 +153,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HttpStreamAsyncResult*, creationType>()));
     }
   }; // System.Net.HttpStreamAsyncResult
+  #pragma pack(pop)
   static check_size<sizeof(HttpStreamAsyncResult), 80 + sizeof(System::Exception*)> __System_Net_HttpStreamAsyncResultSizeCheck;
   static_assert(sizeof(HttpStreamAsyncResult) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpStreamAsyncResult*, "System.Net", "HttpStreamAsyncResult");

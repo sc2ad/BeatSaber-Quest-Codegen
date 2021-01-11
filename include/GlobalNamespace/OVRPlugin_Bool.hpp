@@ -46,9 +46,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/Bool True
     static void _set_True(GlobalNamespace::OVRPlugin::Bool value);
   }; // OVRPlugin/Bool
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Bool), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_BoolSizeCheck;
   static_assert(sizeof(OVRPlugin::Bool) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Bool, "", "OVRPlugin/Bool");

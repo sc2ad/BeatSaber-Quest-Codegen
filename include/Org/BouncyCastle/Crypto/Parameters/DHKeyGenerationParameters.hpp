@@ -59,8 +59,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x104279C
     static int GetStrength(Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
   }; // Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters
+  #pragma pack(pop)
   static check_size<sizeof(DHKeyGenerationParameters), 32 + sizeof(Org::BouncyCastle::Crypto::Parameters::DHParameters*)> __Org_BouncyCastle_Crypto_Parameters_DHKeyGenerationParametersSizeCheck;
   static_assert(sizeof(DHKeyGenerationParameters) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHKeyGenerationParameters");

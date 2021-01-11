@@ -46,8 +46,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyValuesSetter::PropertyNameColorValuePair*, creationType>()));
     }
   }; // MaterialPropertyValuesSetter/PropertyNameColorValuePair
+  #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyValuesSetter::PropertyNameColorValuePair), 28 + sizeof(UnityEngine::Color)> __GlobalNamespace_MaterialPropertyValuesSetter_PropertyNameColorValuePairSizeCheck;
   static_assert(sizeof(MaterialPropertyValuesSetter::PropertyNameColorValuePair) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*, "", "MaterialPropertyValuesSetter/PropertyNameColorValuePair");

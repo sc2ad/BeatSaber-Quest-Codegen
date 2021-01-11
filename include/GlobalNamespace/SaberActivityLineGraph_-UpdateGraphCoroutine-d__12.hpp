@@ -97,8 +97,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // SaberActivityLineGraph/<UpdateGraphCoroutine>d__12
+  #pragma pack(pop)
   static check_size<sizeof(SaberActivityLineGraph::$UpdateGraphCoroutine$d__12), 40 + sizeof(UnityEngine::YieldInstruction*)> __GlobalNamespace_SaberActivityLineGraph_$UpdateGraphCoroutine$d__12SizeCheck;
   static_assert(sizeof(SaberActivityLineGraph::$UpdateGraphCoroutine$d__12) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberActivityLineGraph::$UpdateGraphCoroutine$d__12*, "", "SaberActivityLineGraph/<UpdateGraphCoroutine>d__12");

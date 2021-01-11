@@ -49,8 +49,8 @@ namespace System::Security::Principal {
       return THROW_UNLESS((::il2cpp_utils::New<GenericPrincipal*, creationType>(identity, roles)));
     }
   }; // System.Security.Principal.GenericPrincipal
+  #pragma pack(pop)
   static check_size<sizeof(GenericPrincipal), 48 + sizeof(::Array<::Il2CppString*>*)> __System_Security_Principal_GenericPrincipalSizeCheck;
   static_assert(sizeof(GenericPrincipal) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::GenericPrincipal*, "System.Security.Principal", "GenericPrincipal");

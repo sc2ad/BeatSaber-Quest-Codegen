@@ -86,8 +86,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<CircleTouchable*, creationType>()));
     }
   }; // HMUI.CircleTouchable
+  #pragma pack(pop)
   static check_size<sizeof(CircleTouchable), 152 + sizeof(UnityEngine::RectTransform*)> __HMUI_CircleTouchableSizeCheck;
   static_assert(sizeof(CircleTouchable) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CircleTouchable*, "HMUI", "CircleTouchable");

@@ -129,8 +129,8 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<SolverManager*, creationType>()));
     }
   }; // RootMotion.SolverManager
+  #pragma pack(pop)
   static check_size<sizeof(SolverManager), 50 + sizeof(bool)> __RootMotion_SolverManagerSizeCheck;
   static_assert(sizeof(SolverManager) == 0x33);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::SolverManager*, "RootMotion", "SolverManager");

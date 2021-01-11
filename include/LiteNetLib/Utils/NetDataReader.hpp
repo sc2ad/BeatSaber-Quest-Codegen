@@ -329,8 +329,8 @@ namespace LiteNetLib::Utils {
       return THROW_UNLESS((::il2cpp_utils::New<NetDataReader*, creationType>()));
     }
   }; // LiteNetLib.Utils.NetDataReader
+  #pragma pack(pop)
   static check_size<sizeof(NetDataReader), 32 + sizeof(int)> __LiteNetLib_Utils_NetDataReaderSizeCheck;
   static_assert(sizeof(NetDataReader) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetDataReader*, "LiteNetLib.Utils", "NetDataReader");

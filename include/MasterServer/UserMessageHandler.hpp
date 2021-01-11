@@ -323,8 +323,8 @@ namespace MasterServer {
     // Base method: System.Void BaseClientMessageHandler::HandshakeLog(System.String message)
     void HandshakeLog(::Il2CppString* message);
   }; // MasterServer.UserMessageHandler
+  #pragma pack(pop)
   static check_size<sizeof(UserMessageHandler), 256 + sizeof(System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>*)> __MasterServer_UserMessageHandlerSizeCheck;
   static_assert(sizeof(UserMessageHandler) == 0x108);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler*, "MasterServer", "UserMessageHandler");

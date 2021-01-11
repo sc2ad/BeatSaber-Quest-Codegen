@@ -57,6 +57,6 @@ namespace System::Runtime::CompilerServices {
       return ::il2cpp_utils::RunMethodThrow<int64_t, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, val);
     }
   }; // System.Runtime.CompilerServices.JitHelpers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::JitHelpers*, "System.Runtime.CompilerServices", "JitHelpers");

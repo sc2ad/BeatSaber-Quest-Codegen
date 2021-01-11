@@ -59,8 +59,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RandomAnimationStartTime*, creationType>()));
     }
   }; // RandomAnimationStartTime
+  #pragma pack(pop)
   static check_size<sizeof(RandomAnimationStartTime), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_RandomAnimationStartTimeSizeCheck;
   static_assert(sizeof(RandomAnimationStartTime) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomAnimationStartTime*, "", "RandomAnimationStartTime");

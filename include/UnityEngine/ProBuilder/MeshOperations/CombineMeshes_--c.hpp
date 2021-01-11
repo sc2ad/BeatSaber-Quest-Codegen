@@ -59,6 +59,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<CombineMeshes::$$c*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.CombineMeshes/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::CombineMeshes::$$c*, "UnityEngine.ProBuilder.MeshOperations", "CombineMeshes/<>c");

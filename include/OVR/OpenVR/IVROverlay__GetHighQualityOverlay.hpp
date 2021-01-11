@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x186A1B8
     uint64_t EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetHighQualityOverlay
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetHighQualityOverlay*, "OVR.OpenVR", "IVROverlay/_GetHighQualityOverlay");

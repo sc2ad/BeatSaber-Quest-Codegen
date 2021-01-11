@@ -135,8 +135,8 @@ namespace System::Threading {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Threading.Timer
+  #pragma pack(pop)
   static check_size<sizeof(Timer), 64 + sizeof(bool)> __System_Threading_TimerSizeCheck;
   static_assert(sizeof(Timer) == 0x41);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer*, "System.Threading", "Timer");

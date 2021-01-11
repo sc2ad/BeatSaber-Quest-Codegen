@@ -141,8 +141,8 @@ namespace GlobalNamespace {
     // Base method: System.Boolean IConnectedPlayer::HasState(System.String state)
     bool HasState(::Il2CppString* state);
   }; // DisconnectedPlayer
+  #pragma pack(pop)
   static check_size<sizeof(DisconnectedPlayer), 40 + sizeof(GlobalNamespace::MultiplayerAvatarData)> __GlobalNamespace_DisconnectedPlayerSizeCheck;
   static_assert(sizeof(DisconnectedPlayer) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectedPlayer*, "", "DisconnectedPlayer");

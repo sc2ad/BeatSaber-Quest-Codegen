@@ -41,8 +41,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<LivestreamingStartResult*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.LivestreamingStartResult
+  #pragma pack(pop)
   static check_size<sizeof(LivestreamingStartResult), 16 + sizeof(Oculus::Platform::LivestreamingStartStatus)> __Oculus_Platform_Models_LivestreamingStartResultSizeCheck;
   static_assert(sizeof(LivestreamingStartResult) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LivestreamingStartResult*, "Oculus.Platform.Models", "LivestreamingStartResult");

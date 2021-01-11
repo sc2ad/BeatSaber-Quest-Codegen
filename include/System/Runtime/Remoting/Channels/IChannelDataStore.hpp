@@ -17,7 +17,7 @@ namespace System::Runtime::Remoting::Channels {
     // Creating value type constructor for type: IChannelDataStore
     IChannelDataStore() noexcept {}
   }; // System.Runtime.Remoting.Channels.IChannelDataStore
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::IChannelDataStore*, "System.Runtime.Remoting.Channels", "IChannelDataStore");

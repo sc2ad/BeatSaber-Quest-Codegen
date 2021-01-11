@@ -128,8 +128,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AvatarPropertyBlockColorSetter*, creationType>()));
     }
   }; // AvatarPropertyBlockColorSetter
+  #pragma pack(pop)
   static check_size<sizeof(AvatarPropertyBlockColorSetter), 112 + sizeof(bool)> __GlobalNamespace_AvatarPropertyBlockColorSetterSizeCheck;
   static_assert(sizeof(AvatarPropertyBlockColorSetter) == 0x71);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPropertyBlockColorSetter*, "", "AvatarPropertyBlockColorSetter");

@@ -148,8 +148,8 @@ namespace System {
     // Maps to method: GetRealObject
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
   }; // System.UnitySerializationHolder
+  #pragma pack(pop)
   static check_size<sizeof(UnitySerializationHolder), 72 + sizeof(int)> __System_UnitySerializationHolderSizeCheck;
   static_assert(sizeof(UnitySerializationHolder) == 0x4C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::UnitySerializationHolder*, "System", "UnitySerializationHolder");

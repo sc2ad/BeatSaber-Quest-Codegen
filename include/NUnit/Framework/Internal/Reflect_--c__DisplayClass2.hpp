@@ -60,8 +60,8 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<Reflect::$$c__DisplayClass2*, creationType>()));
     }
   }; // NUnit.Framework.Internal.Reflect/<>c__DisplayClass2
+  #pragma pack(pop)
   static check_size<sizeof(Reflect::$$c__DisplayClass2), 32 + sizeof(::Array<::Il2CppObject*>*)> __NUnit_Framework_Internal_Reflect_$$c__DisplayClass2SizeCheck;
   static_assert(sizeof(Reflect::$$c__DisplayClass2) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Reflect::$$c__DisplayClass2*, "NUnit.Framework.Internal", "Reflect/<>c__DisplayClass2");

@@ -49,8 +49,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<CalApplicationFinalized*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.CalApplicationFinalized
+  #pragma pack(pop)
   static check_size<sizeof(CalApplicationFinalized), 32 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_CalApplicationFinalizedSizeCheck;
   static_assert(sizeof(CalApplicationFinalized) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CalApplicationFinalized*, "Oculus.Platform.Models", "CalApplicationFinalized");

@@ -54,8 +54,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return THROW_UNLESS((::il2cpp_utils::New<BinaryCrossAppDomainAssembly*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryCrossAppDomainAssembly
+  #pragma pack(pop)
   static check_size<sizeof(BinaryCrossAppDomainAssembly), 20 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_BinaryCrossAppDomainAssemblySizeCheck;
   static_assert(sizeof(BinaryCrossAppDomainAssembly) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly*, "System.Runtime.Serialization.Formatters.Binary", "BinaryCrossAppDomainAssembly");

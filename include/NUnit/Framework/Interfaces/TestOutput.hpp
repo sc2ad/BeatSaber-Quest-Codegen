@@ -68,8 +68,8 @@ namespace NUnit::Framework::Interfaces {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // NUnit.Framework.Interfaces.TestOutput
+  #pragma pack(pop)
   static check_size<sizeof(TestOutput), 32 + sizeof(::Il2CppString*)> __NUnit_Framework_Interfaces_TestOutputSizeCheck;
   static_assert(sizeof(TestOutput) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TestOutput*, "NUnit.Framework.Interfaces", "TestOutput");

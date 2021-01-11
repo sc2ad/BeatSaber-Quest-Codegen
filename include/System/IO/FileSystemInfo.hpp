@@ -141,8 +141,8 @@ namespace System::IO {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.IO.FileSystemInfo
+  #pragma pack(pop)
   static check_size<sizeof(FileSystemInfo), 88 + sizeof(::Il2CppString*)> __System_IO_FileSystemInfoSizeCheck;
   static_assert(sizeof(FileSystemInfo) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemInfo*, "System.IO", "FileSystemInfo");

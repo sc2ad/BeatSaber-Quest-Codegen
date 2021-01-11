@@ -44,7 +44,7 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     void LogException(System::Exception* exception, UnityEngine::Object* context);
   }; // UnityEngine.ILogHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ILogHandler*, "UnityEngine", "ILogHandler");

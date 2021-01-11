@@ -37,9 +37,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.AppOverrideKeys_t
+  #pragma pack(pop)
   static check_size<sizeof(AppOverrideKeys_t), 8 + sizeof(System::IntPtr)> __Valve_VR_AppOverrideKeys_tSizeCheck;
   static_assert(sizeof(AppOverrideKeys_t) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::AppOverrideKeys_t, "Valve.VR", "AppOverrideKeys_t");

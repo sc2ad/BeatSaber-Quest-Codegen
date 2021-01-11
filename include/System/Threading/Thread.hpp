@@ -367,8 +367,8 @@ namespace System::Threading {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Threading.Thread
+  #pragma pack(pop)
   static check_size<sizeof(Thread), 72 + sizeof(bool)> __System_Threading_ThreadSizeCheck;
   static_assert(sizeof(Thread) == 0x49);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Thread*, "System.Threading", "Thread");

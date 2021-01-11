@@ -93,6 +93,7 @@ namespace System::Text::RegularExpressions {
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  LowerCaseMapping(::Il2CppChar chMin, ::Il2CppChar chMax, int lcOp, int data)
     }; // System.Text.RegularExpressions.RegexCharClass/LowerCaseMapping
+    #pragma pack(pop)
     static check_size<sizeof(RegexCharClass::LowerCaseMapping), 8 + sizeof(int)> __System_Text_RegularExpressions_RegexCharClass_LowerCaseMappingSizeCheck;
     static_assert(sizeof(RegexCharClass::LowerCaseMapping) == 0xC);
     // private System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexCharClass/SingleRange> _rangelist
@@ -313,9 +314,9 @@ namespace System::Text::RegularExpressions {
       return THROW_UNLESS((::il2cpp_utils::New<RegexCharClass*, creationType>()));
     }
   }; // System.Text.RegularExpressions.RegexCharClass
+  #pragma pack(pop)
   static check_size<sizeof(RegexCharClass), 40 + sizeof(System::Text::RegularExpressions::RegexCharClass*)> __System_Text_RegularExpressions_RegexCharClassSizeCheck;
   static_assert(sizeof(RegexCharClass) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass*, "System.Text.RegularExpressions", "RegexCharClass");
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::LowerCaseMapping, "System.Text.RegularExpressions", "RegexCharClass/LowerCaseMapping");

@@ -78,8 +78,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4LevelProductsModelSO::LevelPackProductData*, creationType>()));
     }
   }; // PS4LevelProductsModelSO/LevelPackProductData
+  #pragma pack(pop)
   static check_size<sizeof(PS4LevelProductsModelSO::LevelPackProductData), 48 + sizeof(::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>*)> __GlobalNamespace_PS4LevelProductsModelSO_LevelPackProductDataSizeCheck;
   static_assert(sizeof(PS4LevelProductsModelSO::LevelPackProductData) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*, "", "PS4LevelProductsModelSO/LevelPackProductData");

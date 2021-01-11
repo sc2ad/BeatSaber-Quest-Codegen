@@ -224,8 +224,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return THROW_UNLESS((::il2cpp_utils::New<WriteObjectInfo*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo
+  #pragma pack(pop)
   static check_size<sizeof(WriteObjectInfo), 128 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_Formatters_Binary_WriteObjectInfoSizeCheck;
   static_assert(sizeof(WriteObjectInfo) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, "System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo");

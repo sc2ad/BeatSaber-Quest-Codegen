@@ -34,6 +34,6 @@ namespace System::Runtime::InteropServices {
       return THROW_UNLESS((::il2cpp_utils::New<OptionalAttribute*, creationType>()));
     }
   }; // System.Runtime.InteropServices.OptionalAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::OptionalAttribute*, "System.Runtime.InteropServices", "OptionalAttribute");

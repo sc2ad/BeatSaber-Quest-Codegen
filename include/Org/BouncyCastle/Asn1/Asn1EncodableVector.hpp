@@ -150,8 +150,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // Org.BouncyCastle.Asn1.Asn1EncodableVector
+  #pragma pack(pop)
   static check_size<sizeof(Asn1EncodableVector), 28 + sizeof(bool)> __Org_BouncyCastle_Asn1_Asn1EncodableVectorSizeCheck;
   static_assert(sizeof(Asn1EncodableVector) == 0x1D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1EncodableVector*, "Org.BouncyCastle.Asn1", "Asn1EncodableVector");

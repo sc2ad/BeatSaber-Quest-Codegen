@@ -73,8 +73,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PresetsSettingsController*, creationType>()));
     }
   }; // PresetsSettingsController
+  #pragma pack(pop)
   static check_size<sizeof(PresetsSettingsController), 48 + sizeof(GlobalNamespace::NamedPresetsSO*)> __GlobalNamespace_PresetsSettingsControllerSizeCheck;
   static_assert(sizeof(PresetsSettingsController) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PresetsSettingsController*, "", "PresetsSettingsController");

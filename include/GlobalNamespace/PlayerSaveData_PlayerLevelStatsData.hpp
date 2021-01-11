@@ -95,8 +95,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::PlayerLevelStatsData*, creationType>()));
     }
   }; // PlayerSaveData/PlayerLevelStatsData
+  #pragma pack(pop)
   static check_size<sizeof(PlayerSaveData::PlayerLevelStatsData), 60 + sizeof(int)> __GlobalNamespace_PlayerSaveData_PlayerLevelStatsDataSizeCheck;
   static_assert(sizeof(PlayerSaveData::PlayerLevelStatsData) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerLevelStatsData*, "", "PlayerSaveData/PlayerLevelStatsData");

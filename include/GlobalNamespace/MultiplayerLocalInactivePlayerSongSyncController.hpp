@@ -182,8 +182,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactivePlayerSongSyncController*, creationType>()));
     }
   }; // MultiplayerLocalInactivePlayerSongSyncController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalInactivePlayerSongSyncController), 88 + sizeof(float)> __GlobalNamespace_MultiplayerLocalInactivePlayerSongSyncControllerSizeCheck;
   static_assert(sizeof(MultiplayerLocalInactivePlayerSongSyncController) == 0x5C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*, "", "MultiplayerLocalInactivePlayerSongSyncController");

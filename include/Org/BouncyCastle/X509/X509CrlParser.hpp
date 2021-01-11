@@ -115,8 +115,8 @@ namespace Org::BouncyCastle::X509 {
       return THROW_UNLESS((::il2cpp_utils::New<X509CrlParser*, creationType>()));
     }
   }; // Org.BouncyCastle.X509.X509CrlParser
+  #pragma pack(pop)
   static check_size<sizeof(X509CrlParser), 40 + sizeof(System::IO::Stream*)> __Org_BouncyCastle_X509_X509CrlParserSizeCheck;
   static_assert(sizeof(X509CrlParser) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509CrlParser*, "Org.BouncyCastle.X509", "X509CrlParser");

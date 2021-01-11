@@ -51,7 +51,7 @@ namespace ModestTree {
     // Offset: 0x10E7368
     static void _cctor();
   }; // ModestTree.TypeStringFormatter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeStringFormatter*, "ModestTree", "TypeStringFormatter");

@@ -131,8 +131,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<Kernel*, creationType>()));
     }
   }; // Zenject.Kernel
+  #pragma pack(pop)
   static check_size<sizeof(Kernel), 32 + sizeof(Zenject::DisposableManager*)> __Zenject_KernelSizeCheck;
   static_assert(sizeof(Kernel) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Kernel*, "Zenject", "Kernel");

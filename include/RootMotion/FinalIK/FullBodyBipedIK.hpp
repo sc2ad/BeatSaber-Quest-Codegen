@@ -114,8 +114,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<FullBodyBipedIK*, creationType>()));
     }
   }; // RootMotion.FinalIK.FullBodyBipedIK
+  #pragma pack(pop)
   static check_size<sizeof(FullBodyBipedIK), 64 + sizeof(RootMotion::FinalIK::IKSolverFullBodyBiped*)> __RootMotion_FinalIK_FullBodyBipedIKSizeCheck;
   static_assert(sizeof(FullBodyBipedIK) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FullBodyBipedIK*, "RootMotion.FinalIK", "FullBodyBipedIK");

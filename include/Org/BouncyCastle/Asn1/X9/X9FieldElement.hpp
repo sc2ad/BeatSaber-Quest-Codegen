@@ -56,8 +56,8 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.X9.X9FieldElement
+  #pragma pack(pop)
   static check_size<sizeof(X9FieldElement), 16 + sizeof(Org::BouncyCastle::Math::EC::ECFieldElement*)> __Org_BouncyCastle_Asn1_X9_X9FieldElementSizeCheck;
   static_assert(sizeof(X9FieldElement) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9FieldElement*, "Org.BouncyCastle.Asn1.X9", "X9FieldElement");

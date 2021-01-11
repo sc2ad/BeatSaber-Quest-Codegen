@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x18E7584
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetLastFrameRenderer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetLastFrameRenderer*, "Valve.VR", "IVRCompositor/_GetLastFrameRenderer");

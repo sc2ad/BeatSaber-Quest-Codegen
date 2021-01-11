@@ -106,8 +106,8 @@ namespace NUnit::Framework::Internal::Filters {
     // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
   }; // NUnit.Framework.Internal.Filters.CompositeFilter
+  #pragma pack(pop)
   static check_size<sizeof(CompositeFilter), 16 + sizeof(System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*)> __NUnit_Framework_Internal_Filters_CompositeFilterSizeCheck;
   static_assert(sizeof(CompositeFilter) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::CompositeFilter*, "NUnit.Framework.Internal.Filters", "CompositeFilter");

@@ -173,8 +173,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiersPanelController*, creationType>()));
     }
   }; // GameplayModifiersPanelController
+  #pragma pack(pop)
   static check_size<sizeof(GameplayModifiersPanelController), 88 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, UnityEngine::UI::Toggle*>*)> __GlobalNamespace_GameplayModifiersPanelControllerSizeCheck;
   static_assert(sizeof(GameplayModifiersPanelController) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersPanelController*, "", "GameplayModifiersPanelController");

@@ -59,8 +59,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LocalLeaderboardsModel::ScoreData*, creationType>()));
     }
   }; // LocalLeaderboardsModel/ScoreData
+  #pragma pack(pop)
   static check_size<sizeof(LocalLeaderboardsModel::ScoreData), 40 + sizeof(int64_t)> __GlobalNamespace_LocalLeaderboardsModel_ScoreDataSizeCheck;
   static_assert(sizeof(LocalLeaderboardsModel::ScoreData) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel::ScoreData*, "", "LocalLeaderboardsModel/ScoreData");

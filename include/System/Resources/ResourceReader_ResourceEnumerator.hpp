@@ -119,8 +119,8 @@ namespace System::Resources {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Resources.ResourceReader/ResourceEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(ResourceReader::ResourceEnumerator), 32 + sizeof(int)> __System_Resources_ResourceReader_ResourceEnumeratorSizeCheck;
   static_assert(sizeof(ResourceReader::ResourceEnumerator) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceReader::ResourceEnumerator*, "System.Resources", "ResourceReader/ResourceEnumerator");

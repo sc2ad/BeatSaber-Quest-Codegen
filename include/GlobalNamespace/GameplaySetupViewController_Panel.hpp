@@ -59,8 +59,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameplaySetupViewController::Panel*, creationType>(title, refreshable, gameObject)));
     }
   }; // GameplaySetupViewController/Panel
+  #pragma pack(pop)
   static check_size<sizeof(GameplaySetupViewController::Panel), 32 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_GameplaySetupViewController_PanelSizeCheck;
   static_assert(sizeof(GameplaySetupViewController::Panel) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController::Panel*, "", "GameplaySetupViewController/Panel");

@@ -123,9 +123,9 @@ namespace UnityEngine::Experimental::U2D {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.Experimental.U2D.SpriteIntermediateRendererInfo
+  #pragma pack(pop)
   static check_size<sizeof(SpriteIntermediateRendererInfo), 160 + sizeof(int)> __UnityEngine_Experimental_U2D_SpriteIntermediateRendererInfoSizeCheck;
   static_assert(sizeof(SpriteIntermediateRendererInfo) == 0xA4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");

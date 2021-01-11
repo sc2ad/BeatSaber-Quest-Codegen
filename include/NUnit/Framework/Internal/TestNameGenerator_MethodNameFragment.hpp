@@ -46,6 +46,6 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::MethodNameFragment*, creationType>()));
     }
   }; // NUnit.Framework.Internal.TestNameGenerator/MethodNameFragment
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::MethodNameFragment*, "NUnit.Framework.Internal", "TestNameGenerator/MethodNameFragment");

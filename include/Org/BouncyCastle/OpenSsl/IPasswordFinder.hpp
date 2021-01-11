@@ -19,7 +19,7 @@ namespace Org::BouncyCastle::OpenSsl {
     // Offset: 0xFFFFFFFF
     ::Array<::Il2CppChar>* GetPassword();
   }; // Org.BouncyCastle.OpenSsl.IPasswordFinder
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::IPasswordFinder*, "Org.BouncyCastle.OpenSsl", "IPasswordFinder");

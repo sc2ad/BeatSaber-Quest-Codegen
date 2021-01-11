@@ -38,7 +38,7 @@ namespace RootMotion {
     // Offset: 0x15DEDA0
     static void Log(::Il2CppString* message, UnityEngine::Transform* context, bool logInEditMode);
   }; // RootMotion.Warning
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Warning*, "RootMotion", "Warning");

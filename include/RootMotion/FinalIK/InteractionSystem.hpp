@@ -415,8 +415,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<InteractionSystem*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionSystem
+  #pragma pack(pop)
   static check_size<sizeof(InteractionSystem), 232 + sizeof(UnityEngine::Collider*)> __RootMotion_FinalIK_InteractionSystemSizeCheck;
   static_assert(sizeof(InteractionSystem) == 0xF0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionSystem*, "RootMotion.FinalIK", "InteractionSystem");

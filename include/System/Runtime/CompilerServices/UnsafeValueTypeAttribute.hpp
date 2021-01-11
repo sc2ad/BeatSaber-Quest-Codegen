@@ -33,6 +33,6 @@ namespace System::Runtime::CompilerServices {
       return THROW_UNLESS((::il2cpp_utils::New<UnsafeValueTypeAttribute*, creationType>()));
     }
   }; // System.Runtime.CompilerServices.UnsafeValueTypeAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::UnsafeValueTypeAttribute*, "System.Runtime.CompilerServices", "UnsafeValueTypeAttribute");

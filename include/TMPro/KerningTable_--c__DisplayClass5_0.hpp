@@ -54,8 +54,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<KerningTable::$$c__DisplayClass5_0*, creationType>()));
     }
   }; // TMPro.KerningTable/<>c__DisplayClass5_0
+  #pragma pack(pop)
   static check_size<sizeof(KerningTable::$$c__DisplayClass5_0), 20 + sizeof(int)> __TMPro_KerningTable_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(KerningTable::$$c__DisplayClass5_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable::$$c__DisplayClass5_0*, "TMPro", "KerningTable/<>c__DisplayClass5_0");

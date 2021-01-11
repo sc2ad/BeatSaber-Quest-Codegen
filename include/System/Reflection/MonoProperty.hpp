@@ -249,8 +249,8 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<MonoProperty*, creationType>()));
     }
   }; // System.Reflection.MonoProperty
+  #pragma pack(pop)
   static check_size<sizeof(MonoProperty), 88 + sizeof(System::Reflection::MonoProperty::GetterAdapter*)> __System_Reflection_MonoPropertySizeCheck;
   static_assert(sizeof(MonoProperty) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoProperty*, "System.Reflection", "MonoProperty");

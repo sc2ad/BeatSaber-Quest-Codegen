@@ -141,6 +141,6 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<TraceLoggingDataCollector*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.TraceLoggingDataCollector
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TraceLoggingDataCollector*, "System.Diagnostics.Tracing", "TraceLoggingDataCollector");

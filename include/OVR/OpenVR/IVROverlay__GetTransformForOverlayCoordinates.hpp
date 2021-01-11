@@ -61,6 +61,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1870D2C
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::HmdMatrix34_t& pmatTransform, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetTransformForOverlayCoordinates
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetTransformForOverlayCoordinates*, "OVR.OpenVR", "IVROverlay/_GetTransformForOverlayCoordinates");

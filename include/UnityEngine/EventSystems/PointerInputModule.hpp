@@ -152,8 +152,8 @@ namespace UnityEngine::EventSystems {
       return THROW_UNLESS((::il2cpp_utils::New<PointerInputModule*, creationType>()));
     }
   }; // UnityEngine.EventSystems.PointerInputModule
+  #pragma pack(pop)
   static check_size<sizeof(PointerInputModule), 80 + sizeof(UnityEngine::EventSystems::PointerInputModule::MouseState*)> __UnityEngine_EventSystems_PointerInputModuleSizeCheck;
   static_assert(sizeof(PointerInputModule) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule*, "UnityEngine.EventSystems", "PointerInputModule");

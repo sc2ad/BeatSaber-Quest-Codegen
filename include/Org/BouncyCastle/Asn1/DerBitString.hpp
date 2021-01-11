@@ -103,8 +103,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
   }; // Org.BouncyCastle.Asn1.DerBitString
+  #pragma pack(pop)
   static check_size<sizeof(DerBitString), 24 + sizeof(int)> __Org_BouncyCastle_Asn1_DerBitStringSizeCheck;
   static_assert(sizeof(DerBitString) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerBitString*, "Org.BouncyCastle.Asn1", "DerBitString");

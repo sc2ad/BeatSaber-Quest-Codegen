@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1860574
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRDriverManager/_GetDriverCount
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRDriverManager::_GetDriverCount*, "OVR.OpenVR", "IVRDriverManager/_GetDriverCount");

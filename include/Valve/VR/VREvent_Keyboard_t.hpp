@@ -77,9 +77,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.VREvent_Keyboard_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_Keyboard_t), 8 + sizeof(uint64_t)> __Valve_VR_VREvent_Keyboard_tSizeCheck;
   static_assert(sizeof(VREvent_Keyboard_t) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Keyboard_t, "Valve.VR", "VREvent_Keyboard_t");

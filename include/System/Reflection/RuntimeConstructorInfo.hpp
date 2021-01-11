@@ -91,6 +91,6 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeConstructorInfo*, creationType>()));
     }
   }; // System.Reflection.RuntimeConstructorInfo
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeConstructorInfo*, "System.Reflection", "RuntimeConstructorInfo");

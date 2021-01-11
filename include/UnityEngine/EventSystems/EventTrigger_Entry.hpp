@@ -47,8 +47,8 @@ namespace UnityEngine::EventSystems {
       return THROW_UNLESS((::il2cpp_utils::New<EventTrigger::Entry*, creationType>()));
     }
   }; // UnityEngine.EventSystems.EventTrigger/Entry
+  #pragma pack(pop)
   static check_size<sizeof(EventTrigger::Entry), 24 + sizeof(UnityEngine::EventSystems::EventTrigger::TriggerEvent*)> __UnityEngine_EventSystems_EventTrigger_EntrySizeCheck;
   static_assert(sizeof(EventTrigger::Entry) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTrigger::Entry*, "UnityEngine.EventSystems", "EventTrigger/Entry");

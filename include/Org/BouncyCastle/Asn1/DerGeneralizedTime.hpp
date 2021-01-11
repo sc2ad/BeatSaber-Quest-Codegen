@@ -93,8 +93,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
   }; // Org.BouncyCastle.Asn1.DerGeneralizedTime
+  #pragma pack(pop)
   static check_size<sizeof(DerGeneralizedTime), 16 + sizeof(::Il2CppString*)> __Org_BouncyCastle_Asn1_DerGeneralizedTimeSizeCheck;
   static_assert(sizeof(DerGeneralizedTime) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerGeneralizedTime*, "Org.BouncyCastle.Asn1", "DerGeneralizedTime");

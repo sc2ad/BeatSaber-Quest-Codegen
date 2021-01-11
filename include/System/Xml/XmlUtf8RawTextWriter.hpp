@@ -418,8 +418,8 @@ namespace System::Xml {
     // Base method: System.Void XmlWriter::Flush()
     void Flush();
   }; // System.Xml.XmlUtf8RawTextWriter
+  #pragma pack(pop)
   static check_size<sizeof(XmlUtf8RawTextWriter), 133 + sizeof(bool)> __System_Xml_XmlUtf8RawTextWriterSizeCheck;
   static_assert(sizeof(XmlUtf8RawTextWriter) == 0x86);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlUtf8RawTextWriter*, "System.Xml", "XmlUtf8RawTextWriter");

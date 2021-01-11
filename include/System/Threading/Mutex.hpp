@@ -19,7 +19,7 @@ namespace System::Threading {
     // Creating value type constructor for type: Mutex
     Mutex() noexcept {}
   }; // System.Threading.Mutex
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Mutex*, "System.Threading", "Mutex");

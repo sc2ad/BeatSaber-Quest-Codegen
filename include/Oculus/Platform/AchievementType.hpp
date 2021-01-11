@@ -60,9 +60,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.AchievementType Count
     static void _set_Count(Oculus::Platform::AchievementType value);
   }; // Oculus.Platform.AchievementType
+  #pragma pack(pop)
   static check_size<sizeof(AchievementType), 0 + sizeof(int)> __Oculus_Platform_AchievementTypeSizeCheck;
   static_assert(sizeof(AchievementType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AchievementType, "Oculus.Platform", "AchievementType");

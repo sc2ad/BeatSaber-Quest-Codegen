@@ -49,8 +49,8 @@ namespace UnityEngine::Bindings {
       return THROW_UNLESS((::il2cpp_utils::New<NativeWritableSelfAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.NativeWritableSelfAttribute
+  #pragma pack(pop)
   static check_size<sizeof(NativeWritableSelfAttribute), 16 + sizeof(bool)> __UnityEngine_Bindings_NativeWritableSelfAttributeSizeCheck;
   static_assert(sizeof(NativeWritableSelfAttribute) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeWritableSelfAttribute*, "UnityEngine.Bindings", "NativeWritableSelfAttribute");

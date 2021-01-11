@@ -163,8 +163,8 @@ namespace System::Security {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Security.SecurityElement
+  #pragma pack(pop)
   static check_size<sizeof(SecurityElement), 40 + sizeof(System::Collections::ArrayList*)> __System_Security_SecurityElementSizeCheck;
   static_assert(sizeof(SecurityElement) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityElement*, "System.Security", "SecurityElement");

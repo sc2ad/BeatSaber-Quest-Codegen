@@ -58,8 +58,8 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<EdgeLookup::$$c__DisplayClass16_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.EdgeLookup/<>c__DisplayClass16_0
+  #pragma pack(pop)
   static check_size<sizeof(EdgeLookup::$$c__DisplayClass16_0), 16 + sizeof(System::Collections::Generic::Dictionary_2<int, int>*)> __UnityEngine_ProBuilder_EdgeLookup_$$c__DisplayClass16_0SizeCheck;
   static_assert(sizeof(EdgeLookup::$$c__DisplayClass16_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EdgeLookup::$$c__DisplayClass16_0*, "UnityEngine.ProBuilder", "EdgeLookup/<>c__DisplayClass16_0");

@@ -235,8 +235,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightSwitchEventEffect*, creationType>()));
     }
   }; // LightSwitchEventEffect
+  #pragma pack(pop)
   static check_size<sizeof(LightSwitchEventEffect), 188 + sizeof(int)> __GlobalNamespace_LightSwitchEventEffectSizeCheck;
   static_assert(sizeof(LightSwitchEventEffect) == 0xC0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightSwitchEventEffect*, "", "LightSwitchEventEffect");

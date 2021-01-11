@@ -45,8 +45,8 @@ namespace TMPro {
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  CaretInfo(int index, TMPro::CaretPosition position)
   }; // TMPro.CaretInfo
+  #pragma pack(pop)
   static check_size<sizeof(CaretInfo), 4 + sizeof(TMPro::CaretPosition)> __TMPro_CaretInfoSizeCheck;
   static_assert(sizeof(CaretInfo) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::CaretInfo, "TMPro", "CaretInfo");

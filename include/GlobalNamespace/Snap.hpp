@@ -52,8 +52,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<Snap*, creationType>()));
     }
   }; // Snap
+  #pragma pack(pop)
   static check_size<sizeof(Snap), 36 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_SnapSizeCheck;
   static_assert(sizeof(Snap) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Snap*, "", "Snap");

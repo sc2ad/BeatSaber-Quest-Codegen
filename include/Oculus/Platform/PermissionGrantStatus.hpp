@@ -60,9 +60,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.PermissionGrantStatus Blocked
     static void _set_Blocked(Oculus::Platform::PermissionGrantStatus value);
   }; // Oculus.Platform.PermissionGrantStatus
+  #pragma pack(pop)
   static check_size<sizeof(PermissionGrantStatus), 0 + sizeof(int)> __Oculus_Platform_PermissionGrantStatusSizeCheck;
   static_assert(sizeof(PermissionGrantStatus) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PermissionGrantStatus, "Oculus.Platform", "PermissionGrantStatus");

@@ -83,9 +83,9 @@ namespace OVR::OpenVR {
     // Offset: 0xC93908
     ::Il2CppString* get_cNewInput();
   }; // OVR.OpenVR.VREvent_Keyboard_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_Keyboard_t), 8 + sizeof(uint64_t)> __OVR_OpenVR_VREvent_Keyboard_tSizeCheck;
   static_assert(sizeof(VREvent_Keyboard_t) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Keyboard_t, "OVR.OpenVR", "VREvent_Keyboard_t");

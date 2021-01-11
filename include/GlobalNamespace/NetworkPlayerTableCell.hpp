@@ -148,8 +148,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayerTableCell*, creationType>()));
     }
   }; // NetworkPlayerTableCell
+  #pragma pack(pop)
   static check_size<sizeof(NetworkPlayerTableCell), 184 + sizeof(bool)> __GlobalNamespace_NetworkPlayerTableCellSizeCheck;
   static_assert(sizeof(NetworkPlayerTableCell) == 0xB9);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerTableCell*, "", "NetworkPlayerTableCell");

@@ -51,8 +51,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamLevelProductsModelSO::LevelProductData*, creationType>()));
     }
   }; // SteamLevelProductsModelSO/LevelProductData
+  #pragma pack(pop)
   static check_size<sizeof(SteamLevelProductsModelSO::LevelProductData), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_SteamLevelProductsModelSO_LevelProductDataSizeCheck;
   static_assert(sizeof(SteamLevelProductsModelSO::LevelProductData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*, "", "SteamLevelProductsModelSO/LevelProductData");

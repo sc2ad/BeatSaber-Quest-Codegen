@@ -163,6 +163,7 @@ namespace UnityEngine {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Color other)
     bool Equals(UnityEngine::Color other);
   }; // UnityEngine.Color
+  #pragma pack(pop)
   static check_size<sizeof(Color), 12 + sizeof(float)> __UnityEngine_ColorSizeCheck;
   static_assert(sizeof(Color) == 0x10);
   // static public UnityEngine.Color op_Addition(UnityEngine.Color a, UnityEngine.Color b)
@@ -190,5 +191,4 @@ namespace UnityEngine {
   // Offset: 0x1681648
   bool operator !=(const UnityEngine::Color& lhs, const UnityEngine::Color& rhs);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Color, "UnityEngine", "Color");

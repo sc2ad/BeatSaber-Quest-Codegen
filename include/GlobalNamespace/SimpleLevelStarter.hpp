@@ -184,8 +184,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleLevelStarter*, creationType>()));
     }
   }; // SimpleLevelStarter
+  #pragma pack(pop)
   static check_size<sizeof(SimpleLevelStarter), 104 + sizeof(GlobalNamespace::GameplayModifiers*)> __GlobalNamespace_SimpleLevelStarterSizeCheck;
   static_assert(sizeof(SimpleLevelStarter) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleLevelStarter*, "", "SimpleLevelStarter");

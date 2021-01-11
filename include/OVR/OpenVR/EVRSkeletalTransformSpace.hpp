@@ -50,9 +50,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRSkeletalTransformSpace Additive
     static void _set_Additive(OVR::OpenVR::EVRSkeletalTransformSpace value);
   }; // OVR.OpenVR.EVRSkeletalTransformSpace
+  #pragma pack(pop)
   static check_size<sizeof(EVRSkeletalTransformSpace), 0 + sizeof(int)> __OVR_OpenVR_EVRSkeletalTransformSpaceSizeCheck;
   static_assert(sizeof(EVRSkeletalTransformSpace) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRSkeletalTransformSpace, "OVR.OpenVR", "EVRSkeletalTransformSpace");

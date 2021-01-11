@@ -106,8 +106,8 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.X9.DHDomainParameters
+  #pragma pack(pop)
   static check_size<sizeof(DHDomainParameters), 48 + sizeof(Org::BouncyCastle::Asn1::X9::DHValidationParms*)> __Org_BouncyCastle_Asn1_X9_DHDomainParametersSizeCheck;
   static_assert(sizeof(DHDomainParameters) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::DHDomainParameters*, "Org.BouncyCastle.Asn1.X9", "DHDomainParameters");

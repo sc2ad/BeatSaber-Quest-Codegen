@@ -61,6 +61,6 @@ namespace System::Runtime::InteropServices {
       return THROW_UNLESS((::il2cpp_utils::New<MarshalDirectiveException*, creationType>(info, context)));
     }
   }; // System.Runtime.InteropServices.MarshalDirectiveException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::MarshalDirectiveException*, "System.Runtime.InteropServices", "MarshalDirectiveException");

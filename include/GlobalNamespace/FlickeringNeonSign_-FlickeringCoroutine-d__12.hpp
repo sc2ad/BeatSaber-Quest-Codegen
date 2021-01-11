@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // FlickeringNeonSign/<FlickeringCoroutine>d__12
+  #pragma pack(pop)
   static check_size<sizeof(FlickeringNeonSign::$FlickeringCoroutine$d__12), 32 + sizeof(GlobalNamespace::FlickeringNeonSign*)> __GlobalNamespace_FlickeringNeonSign_$FlickeringCoroutine$d__12SizeCheck;
   static_assert(sizeof(FlickeringNeonSign::$FlickeringCoroutine$d__12) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlickeringNeonSign::$FlickeringCoroutine$d__12*, "", "FlickeringNeonSign/<FlickeringCoroutine>d__12");

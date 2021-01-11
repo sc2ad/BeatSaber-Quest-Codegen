@@ -59,9 +59,9 @@ namespace Mono {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Mono.RuntimeStructs/GenericParamInfo
+  #pragma pack(pop)
   static check_size<sizeof(RuntimeStructs::GenericParamInfo), 24 + sizeof(Mono::RuntimeStructs::MonoClass**)> __Mono_RuntimeStructs_GenericParamInfoSizeCheck;
   static_assert(sizeof(RuntimeStructs::GenericParamInfo) == 0x20);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GenericParamInfo, "Mono", "RuntimeStructs/GenericParamInfo");

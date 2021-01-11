@@ -268,8 +268,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EmptyBeatmapLevel*, creationType>()));
     }
   }; // EmptyBeatmapLevel
+  #pragma pack(pop)
   static check_size<sizeof(EmptyBeatmapLevel), 112 + sizeof(GlobalNamespace::IBeatmapLevelData*)> __GlobalNamespace_EmptyBeatmapLevelSizeCheck;
   static_assert(sizeof(EmptyBeatmapLevel) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmptyBeatmapLevel*, "", "EmptyBeatmapLevel");

@@ -131,6 +131,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Bounds
+  #pragma pack(pop)
   static check_size<sizeof(Bounds), 12 + sizeof(UnityEngine::Vector3)> __UnityEngine_BoundsSizeCheck;
   static_assert(sizeof(Bounds) == 0x18);
   // static public System.Boolean op_Equality(UnityEngine.Bounds lhs, UnityEngine.Bounds rhs)
@@ -140,5 +141,4 @@ namespace UnityEngine {
   // Offset: 0x167E7C8
   bool operator !=(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bounds, "UnityEngine", "Bounds");

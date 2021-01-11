@@ -98,8 +98,8 @@ namespace UnityEngine::Animations {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationMixerPlayable other)
     bool Equals(UnityEngine::Animations::AnimationMixerPlayable other);
   }; // UnityEngine.Animations.AnimationMixerPlayable
+  #pragma pack(pop)
   static check_size<sizeof(AnimationMixerPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Animations_AnimationMixerPlayableSizeCheck;
   static_assert(sizeof(AnimationMixerPlayable) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationMixerPlayable, "UnityEngine.Animations", "AnimationMixerPlayable");

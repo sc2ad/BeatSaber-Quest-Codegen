@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MultiplayerLocalActiveLevelFailController/<PlayerFailedCoroutine>d__8
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActiveLevelFailController::$PlayerFailedCoroutine$d__8), 32 + sizeof(GlobalNamespace::MultiplayerLocalActiveLevelFailController*)> __GlobalNamespace_MultiplayerLocalActiveLevelFailController_$PlayerFailedCoroutine$d__8SizeCheck;
   static_assert(sizeof(MultiplayerLocalActiveLevelFailController::$PlayerFailedCoroutine$d__8) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveLevelFailController::$PlayerFailedCoroutine$d__8*, "", "MultiplayerLocalActiveLevelFailController/<PlayerFailedCoroutine>d__8");

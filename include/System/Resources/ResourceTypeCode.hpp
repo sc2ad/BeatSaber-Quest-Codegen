@@ -158,9 +158,9 @@ namespace System::Resources {
     // Set static field: static public System.Resources.ResourceTypeCode StartOfUserTypes
     static void _set_StartOfUserTypes(System::Resources::ResourceTypeCode value);
   }; // System.Resources.ResourceTypeCode
+  #pragma pack(pop)
   static check_size<sizeof(ResourceTypeCode), 0 + sizeof(int)> __System_Resources_ResourceTypeCodeSizeCheck;
   static_assert(sizeof(ResourceTypeCode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceTypeCode, "System.Resources", "ResourceTypeCode");

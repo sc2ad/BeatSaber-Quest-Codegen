@@ -62,6 +62,7 @@ namespace GlobalNamespace {
       // Set static field: static public BombExecutionRating/Rating NotGood
       static void _set_NotGood(GlobalNamespace::BombExecutionRating::Rating value);
     }; // BombExecutionRating/Rating
+    #pragma pack(pop)
     static check_size<sizeof(BombExecutionRating::Rating), 0 + sizeof(int)> __GlobalNamespace_BombExecutionRating_RatingSizeCheck;
     static_assert(sizeof(BombExecutionRating::Rating) == 0x4);
     // [CompilerGeneratedAttribute] Offset: 0xDC29DC
@@ -91,9 +92,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BombExecutionRating*, creationType>(time, rating)));
     }
   }; // BombExecutionRating
+  #pragma pack(pop)
   static check_size<sizeof(BombExecutionRating), 24 + sizeof(GlobalNamespace::BombExecutionRating::Rating)> __GlobalNamespace_BombExecutionRatingSizeCheck;
   static_assert(sizeof(BombExecutionRating) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExecutionRating*, "", "BombExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExecutionRating::Rating, "", "BombExecutionRating/Rating");

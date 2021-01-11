@@ -64,8 +64,8 @@ namespace RootMotion::FinalIK {
     // Offset: 0x15E3F10
     void StoreLocalState();
   }; // RootMotion.FinalIK.RagdollUtility/Child
+  #pragma pack(pop)
   static check_size<sizeof(RagdollUtility::Child), 36 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_RagdollUtility_ChildSizeCheck;
   static_assert(sizeof(RagdollUtility::Child) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::Child*, "RootMotion.FinalIK", "RagdollUtility/Child");

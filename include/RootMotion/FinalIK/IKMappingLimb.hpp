@@ -158,8 +158,8 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void IKMapping::Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
   }; // RootMotion.FinalIK.IKMappingLimb
+  #pragma pack(pop)
   static check_size<sizeof(IKMappingLimb), 88 + sizeof(RootMotion::FinalIK::IKMapping::BoneMap*)> __RootMotion_FinalIK_IKMappingLimbSizeCheck;
   static_assert(sizeof(IKMappingLimb) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMappingLimb*, "RootMotion.FinalIK", "IKMappingLimb");

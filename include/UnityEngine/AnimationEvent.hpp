@@ -114,8 +114,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<AnimationEvent*, creationType>()));
     }
   }; // UnityEngine.AnimationEvent
+  #pragma pack(pop)
   static check_size<sizeof(AnimationEvent), 108 + sizeof(UnityEngine::AnimatorClipInfo)> __UnityEngine_AnimationEventSizeCheck;
   static_assert(sizeof(AnimationEvent) == 0x74);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationEvent*, "UnityEngine", "AnimationEvent");

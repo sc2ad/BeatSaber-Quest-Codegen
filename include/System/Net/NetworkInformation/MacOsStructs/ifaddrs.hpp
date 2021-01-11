@@ -69,9 +69,9 @@ namespace System::Net::NetworkInformation::MacOsStructs {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Net.NetworkInformation.MacOsStructs.ifaddrs
+  #pragma pack(pop)
   static check_size<sizeof(ifaddrs), 48 + sizeof(System::IntPtr)> __System_Net_NetworkInformation_MacOsStructs_ifaddrsSizeCheck;
   static_assert(sizeof(ifaddrs) == 0x38);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::ifaddrs, "System.Net.NetworkInformation.MacOsStructs", "ifaddrs");

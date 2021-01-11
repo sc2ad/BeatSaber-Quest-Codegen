@@ -99,8 +99,8 @@ namespace System::Globalization {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Globalization.IdnMapping
+  #pragma pack(pop)
   static check_size<sizeof(IdnMapping), 24 + sizeof(System::Globalization::Punycode*)> __System_Globalization_IdnMappingSizeCheck;
   static_assert(sizeof(IdnMapping) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::IdnMapping*, "System.Globalization", "IdnMapping");

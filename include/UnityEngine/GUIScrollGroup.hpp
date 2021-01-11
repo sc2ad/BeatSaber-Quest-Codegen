@@ -133,8 +133,8 @@ namespace UnityEngine {
     // Base method: System.Void GUILayoutGroup::SetVertical(System.Single y, System.Single height)
     void SetVertical(float y, float height);
   }; // UnityEngine.GUIScrollGroup
+  #pragma pack(pop)
   static check_size<sizeof(GUIScrollGroup), 184 + sizeof(UnityEngine::GUIStyle*)> __UnityEngine_GUIScrollGroupSizeCheck;
   static_assert(sizeof(GUIScrollGroup) == 0xC0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIScrollGroup*, "UnityEngine", "GUIScrollGroup");

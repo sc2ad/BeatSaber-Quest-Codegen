@@ -142,8 +142,8 @@ namespace System::Runtime::Serialization {
     // Base method: System.Reflection.FieldAttributes FieldInfo::get_Attributes()
     System::Reflection::FieldAttributes get_Attributes();
   }; // System.Runtime.Serialization.SerializationFieldInfo
+  #pragma pack(pop)
   static check_size<sizeof(SerializationFieldInfo), 24 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_SerializationFieldInfoSizeCheck;
   static_assert(sizeof(SerializationFieldInfo) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationFieldInfo*, "System.Runtime.Serialization", "SerializationFieldInfo");

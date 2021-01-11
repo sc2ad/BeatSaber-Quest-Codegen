@@ -39,8 +39,8 @@ namespace Assets::OVR::Scripts {
       return THROW_UNLESS((::il2cpp_utils::New<Record*, creationType>(cat, msg)));
     }
   }; // Assets.OVR.Scripts.Record
+  #pragma pack(pop)
   static check_size<sizeof(Record), 24 + sizeof(::Il2CppString*)> __Assets_OVR_Scripts_RecordSizeCheck;
   static_assert(sizeof(Record) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::Record*, "Assets.OVR.Scripts", "Record");

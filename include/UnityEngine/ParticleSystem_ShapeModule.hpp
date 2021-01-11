@@ -61,8 +61,8 @@ namespace UnityEngine {
     // Offset: 0x1A006CC
     static void set_rotation_Injected(UnityEngine::ParticleSystem::ShapeModule& _unity_self, UnityEngine::Vector3& value);
   }; // UnityEngine.ParticleSystem/ShapeModule
+  #pragma pack(pop)
   static check_size<sizeof(ParticleSystem::ShapeModule), 0 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_ParticleSystem_ShapeModuleSizeCheck;
   static_assert(sizeof(ParticleSystem::ShapeModule) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::ShapeModule, "UnityEngine", "ParticleSystem/ShapeModule");

@@ -74,8 +74,8 @@ namespace JetBrains::Annotations {
       return THROW_UNLESS((::il2cpp_utils::New<MacroAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.MacroAttribute
+  #pragma pack(pop)
   static check_size<sizeof(MacroAttribute), 32 + sizeof(::Il2CppString*)> __JetBrains_Annotations_MacroAttributeSizeCheck;
   static_assert(sizeof(MacroAttribute) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MacroAttribute*, "JetBrains.Annotations", "MacroAttribute");

@@ -57,6 +57,6 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EtwSession::$$c*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.EtwSession/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EtwSession::$$c*, "System.Diagnostics.Tracing", "EtwSession/<>c");

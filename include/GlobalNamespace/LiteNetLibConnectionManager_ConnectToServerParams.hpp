@@ -67,8 +67,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager::ConnectToServerParams*, creationType>()));
     }
   }; // LiteNetLibConnectionManager/ConnectToServerParams
+  #pragma pack(pop)
   static check_size<sizeof(LiteNetLibConnectionManager::ConnectToServerParams), 80 + sizeof(bool)> __GlobalNamespace_LiteNetLibConnectionManager_ConnectToServerParamsSizeCheck;
   static_assert(sizeof(LiteNetLibConnectionManager::ConnectToServerParams) == 0x51);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::ConnectToServerParams*, "", "LiteNetLibConnectionManager/ConnectToServerParams");

@@ -104,8 +104,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TrackLaneRingsPositionStepEffectSpawner*, creationType>()));
     }
   }; // TrackLaneRingsPositionStepEffectSpawner
+  #pragma pack(pop)
   static check_size<sizeof(TrackLaneRingsPositionStepEffectSpawner), 56 + sizeof(bool)> __GlobalNamespace_TrackLaneRingsPositionStepEffectSpawnerSizeCheck;
   static_assert(sizeof(TrackLaneRingsPositionStepEffectSpawner) == 0x39);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner*, "", "TrackLaneRingsPositionStepEffectSpawner");

@@ -143,8 +143,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterSpawnController*, creationType>()));
     }
   }; // BTSCharacterSpawnController
+  #pragma pack(pop)
   static check_size<sizeof(BTSCharacterSpawnController), 80 + sizeof(UnityEngine::Coroutine*)> __GlobalNamespace_BTSCharacterSpawnControllerSizeCheck;
   static_assert(sizeof(BTSCharacterSpawnController) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnController*, "", "BTSCharacterSpawnController");

@@ -115,8 +115,8 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.TypeLoadException
+  #pragma pack(pop)
   static check_size<sizeof(TypeLoadException), 160 + sizeof(int)> __System_TypeLoadExceptionSizeCheck;
   static_assert(sizeof(TypeLoadException) == 0xA4);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::TypeLoadException*, "System", "TypeLoadException");

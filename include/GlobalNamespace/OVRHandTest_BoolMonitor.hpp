@@ -91,8 +91,8 @@ namespace GlobalNamespace {
     // Offset: 0x11B7670
     void AppendToStringBuilder(System::Text::StringBuilder*& sb);
   }; // OVRHandTest/BoolMonitor
+  #pragma pack(pop)
   static check_size<sizeof(OVRHandTest::BoolMonitor), 40 + sizeof(float)> __GlobalNamespace_OVRHandTest_BoolMonitorSizeCheck;
   static_assert(sizeof(OVRHandTest::BoolMonitor) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest::BoolMonitor*, "", "OVRHandTest/BoolMonitor");

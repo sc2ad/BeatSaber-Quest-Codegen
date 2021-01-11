@@ -180,8 +180,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // BloomPrePassRendererSO
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePassRendererSO), 56 + sizeof(bool)> __GlobalNamespace_BloomPrePassRendererSOSizeCheck;
   static_assert(sizeof(BloomPrePassRendererSO) == 0x39);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRendererSO*, "", "BloomPrePassRendererSO");

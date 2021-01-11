@@ -75,9 +75,9 @@ namespace TMPro::SpriteAssetUtilities {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // TMPro.SpriteAssetUtilities.TexturePacker/SpriteData
+  #pragma pack(pop)
   static check_size<sizeof(TexturePacker::SpriteData), 52 + sizeof(UnityEngine::Vector2)> __TMPro_SpriteAssetUtilities_TexturePacker_SpriteDataSizeCheck;
   static_assert(sizeof(TexturePacker::SpriteData) == 0x3C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteData, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteData");

@@ -68,9 +68,9 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Set static field: static public BeatSaberAPI.DataTransferObjects.UserPlatform OculusQuest
     static void _set_OculusQuest(BeatSaberAPI::DataTransferObjects::UserPlatform value);
   }; // BeatSaberAPI.DataTransferObjects.UserPlatform
+  #pragma pack(pop)
   static check_size<sizeof(UserPlatform), 0 + sizeof(uint8_t)> __BeatSaberAPI_DataTransferObjects_UserPlatformSizeCheck;
   static_assert(sizeof(UserPlatform) == 0x1);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserPlatform, "BeatSaberAPI.DataTransferObjects", "UserPlatform");

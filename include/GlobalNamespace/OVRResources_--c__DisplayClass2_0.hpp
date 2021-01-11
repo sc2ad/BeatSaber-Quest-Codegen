@@ -45,8 +45,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRResources::$$c__DisplayClass2_0*, creationType>()));
     }
   }; // OVRResources/<>c__DisplayClass2_0
+  #pragma pack(pop)
   static check_size<sizeof(OVRResources::$$c__DisplayClass2_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_OVRResources_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(OVRResources::$$c__DisplayClass2_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResources::$$c__DisplayClass2_0*, "", "OVRResources/<>c__DisplayClass2_0");

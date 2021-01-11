@@ -63,8 +63,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultipliedColorSO*, creationType>()));
     }
   }; // MultipliedColorSO
+  #pragma pack(pop)
   static check_size<sizeof(MultipliedColorSO), 32 + sizeof(UnityEngine::Color)> __GlobalNamespace_MultipliedColorSOSizeCheck;
   static_assert(sizeof(MultipliedColorSO) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultipliedColorSO*, "", "MultipliedColorSO");

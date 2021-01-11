@@ -76,8 +76,8 @@ namespace Zenject {
     // Base method: Zenject.DiContainer ISubContainerCreator::CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext parentContext)
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* parentContext);
   }; // Zenject.SubContainerCreatorByNewPrefab
+  #pragma pack(pop)
   static check_size<sizeof(SubContainerCreatorByNewPrefab), 32 + sizeof(Zenject::DiContainer*)> __Zenject_SubContainerCreatorByNewPrefabSizeCheck;
   static_assert(sizeof(SubContainerCreatorByNewPrefab) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefab*, "Zenject", "SubContainerCreatorByNewPrefab");

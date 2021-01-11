@@ -51,6 +51,6 @@ namespace Mono::Security::Cryptography {
     // Offset: 0x17B74C4
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler*, "Mono.Security.Cryptography", "RSAManaged/KeyGeneratedEventHandler");

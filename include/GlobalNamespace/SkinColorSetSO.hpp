@@ -52,8 +52,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SkinColorSetSO*, creationType>()));
     }
   }; // SkinColorSetSO
+  #pragma pack(pop)
   static check_size<sizeof(SkinColorSetSO), 24 + sizeof(::Array<GlobalNamespace::SkinColorSO*>*)> __GlobalNamespace_SkinColorSetSOSizeCheck;
   static_assert(sizeof(SkinColorSetSO) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SkinColorSetSO*, "", "SkinColorSetSO");

@@ -73,8 +73,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BlueNoiseDitheringUpdater*, creationType>()));
     }
   }; // BlueNoiseDitheringUpdater
+  #pragma pack(pop)
   static check_size<sizeof(BlueNoiseDitheringUpdater), 32 + sizeof(GlobalNamespace::RandomValueToShader*)> __GlobalNamespace_BlueNoiseDitheringUpdaterSizeCheck;
   static_assert(sizeof(BlueNoiseDitheringUpdater) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDitheringUpdater*, "", "BlueNoiseDitheringUpdater");

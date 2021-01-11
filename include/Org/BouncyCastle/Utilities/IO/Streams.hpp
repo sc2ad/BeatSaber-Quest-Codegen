@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Offset: 0x18C0200
     static int WriteBufTo(System::IO::MemoryStream* buf, ::Array<uint8_t>* output, int offset);
   }; // Org.BouncyCastle.Utilities.IO.Streams
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Streams*, "Org.BouncyCastle.Utilities.IO", "Streams");

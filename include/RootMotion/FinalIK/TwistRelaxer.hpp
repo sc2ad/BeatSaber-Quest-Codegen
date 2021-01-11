@@ -132,8 +132,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<TwistRelaxer*, creationType>()));
     }
   }; // RootMotion.FinalIK.TwistRelaxer
+  #pragma pack(pop)
   static check_size<sizeof(TwistRelaxer), 96 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_TwistRelaxerSizeCheck;
   static_assert(sizeof(TwistRelaxer) == 0x6C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::TwistRelaxer*, "RootMotion.FinalIK", "TwistRelaxer");

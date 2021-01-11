@@ -110,8 +110,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<HoverHint*, creationType>()));
     }
   }; // HMUI.HoverHint
+  #pragma pack(pop)
   static check_size<sizeof(HoverHint), 40 + sizeof(::Array<UnityEngine::Vector3>*)> __HMUI_HoverHintSizeCheck;
   static_assert(sizeof(HoverHint) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHint*, "HMUI", "HoverHint");

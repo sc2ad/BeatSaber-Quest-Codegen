@@ -111,8 +111,8 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::ImportPoint(Org.BouncyCastle.Math.EC.ECPoint p)
     Org::BouncyCastle::Math::EC::ECPoint* ImportPoint(Org::BouncyCastle::Math::EC::ECPoint* p);
   }; // Org.BouncyCastle.Math.EC.FpCurve
+  #pragma pack(pop)
   static check_size<sizeof(FpCurve), 96 + sizeof(Org::BouncyCastle::Math::EC::FpPoint*)> __Org_BouncyCastle_Math_EC_FpCurveSizeCheck;
   static_assert(sizeof(FpCurve) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::FpCurve*, "Org.BouncyCastle.Math.EC", "FpCurve");

@@ -159,8 +159,8 @@ namespace UnityEngine::TestTools {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.TestTools.EnumerableRetryTestCommand/<ExecuteEnumerable>d__3
+  #pragma pack(pop)
   static check_size<sizeof(EnumerableRetryTestCommand::$ExecuteEnumerable$d__3), 80 + sizeof(System::Collections::IEnumerator*)> __UnityEngine_TestTools_EnumerableRetryTestCommand_$ExecuteEnumerable$d__3SizeCheck;
   static_assert(sizeof(EnumerableRetryTestCommand::$ExecuteEnumerable$d__3) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableRetryTestCommand::$ExecuteEnumerable$d__3*, "UnityEngine.TestTools", "EnumerableRetryTestCommand/<ExecuteEnumerable>d__3");

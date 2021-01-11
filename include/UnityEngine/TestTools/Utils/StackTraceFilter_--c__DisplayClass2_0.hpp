@@ -45,8 +45,8 @@ namespace UnityEngine::TestTools::Utils {
       return THROW_UNLESS((::il2cpp_utils::New<StackTraceFilter::$$c__DisplayClass2_0*, creationType>()));
     }
   }; // UnityEngine.TestTools.Utils.StackTraceFilter/<>c__DisplayClass2_0
+  #pragma pack(pop)
   static check_size<sizeof(StackTraceFilter::$$c__DisplayClass2_0), 16 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_Utils_StackTraceFilter_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(StackTraceFilter::$$c__DisplayClass2_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0*, "UnityEngine.TestTools.Utils", "StackTraceFilter/<>c__DisplayClass2_0");

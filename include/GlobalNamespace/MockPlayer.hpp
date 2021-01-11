@@ -666,8 +666,8 @@ namespace GlobalNamespace {
     // Base method: System.Void INetworkPlayer::Join()
     void Join();
   }; // MockPlayer
+  #pragma pack(pop)
   static check_size<sizeof(MockPlayer), 256 + sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*)> __GlobalNamespace_MockPlayerSizeCheck;
   static_assert(sizeof(MockPlayer) == 0x108);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayer*, "", "MockPlayer");

@@ -124,8 +124,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<HC256Engine*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Engines.HC256Engine
+  #pragma pack(pop)
   static check_size<sizeof(HC256Engine), 72 + sizeof(int)> __Org_BouncyCastle_Crypto_Engines_HC256EngineSizeCheck;
   static_assert(sizeof(HC256Engine) == 0x4C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::HC256Engine*, "Org.BouncyCastle.Crypto.Engines", "HC256Engine");

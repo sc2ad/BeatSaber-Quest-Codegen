@@ -228,8 +228,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelDetailView*, creationType>()));
     }
   }; // StandardLevelDetailView
+  #pragma pack(pop)
   static check_size<sizeof(StandardLevelDetailView), 136 + sizeof(HMUI::ToggleBinder*)> __GlobalNamespace_StandardLevelDetailViewSizeCheck;
   static_assert(sizeof(StandardLevelDetailView) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailView*, "", "StandardLevelDetailView");

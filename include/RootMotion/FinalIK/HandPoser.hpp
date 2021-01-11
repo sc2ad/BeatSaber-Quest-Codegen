@@ -99,8 +99,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HandPoser*, creationType>()));
     }
   }; // RootMotion.FinalIK.HandPoser
+  #pragma pack(pop)
   static check_size<sizeof(HandPoser), 112 + sizeof(::Array<UnityEngine::Quaternion>*)> __RootMotion_FinalIK_HandPoserSizeCheck;
   static_assert(sizeof(HandPoser) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HandPoser*, "RootMotion.FinalIK", "HandPoser");

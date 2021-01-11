@@ -41,8 +41,8 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyKeyFileAttribute*, creationType>(keyFile)));
     }
   }; // System.Reflection.AssemblyKeyFileAttribute
+  #pragma pack(pop)
   static check_size<sizeof(AssemblyKeyFileAttribute), 16 + sizeof(::Il2CppString*)> __System_Reflection_AssemblyKeyFileAttributeSizeCheck;
   static_assert(sizeof(AssemblyKeyFileAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyKeyFileAttribute*, "System.Reflection", "AssemblyKeyFileAttribute");

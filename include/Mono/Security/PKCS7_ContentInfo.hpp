@@ -89,8 +89,8 @@ namespace Mono::Security {
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::ContentInfo*, creationType>()));
     }
   }; // Mono.Security.PKCS7/ContentInfo
+  #pragma pack(pop)
   static check_size<sizeof(PKCS7::ContentInfo), 24 + sizeof(Mono::Security::ASN1*)> __Mono_Security_PKCS7_ContentInfoSizeCheck;
   static_assert(sizeof(PKCS7::ContentInfo) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7::ContentInfo*, "Mono.Security", "PKCS7/ContentInfo");

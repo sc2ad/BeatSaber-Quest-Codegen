@@ -97,6 +97,6 @@ namespace UnityEngine {
     // Offset: 0x16BEE64
     static UnityEngine::AsyncOperation* UnloadUnusedAssets();
   }; // UnityEngine.Resources
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Resources*, "UnityEngine", "Resources");

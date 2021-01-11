@@ -39,7 +39,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x11755D4
     static void _cctor();
   }; // System.Runtime.Remoting.InternalRemotingServices
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::InternalRemotingServices*, "System.Runtime.Remoting", "InternalRemotingServices");

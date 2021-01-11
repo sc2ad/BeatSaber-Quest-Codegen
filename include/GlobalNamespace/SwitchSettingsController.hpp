@@ -77,8 +77,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SwitchSettingsController*, creationType>()));
     }
   }; // SwitchSettingsController
+  #pragma pack(pop)
   static check_size<sizeof(SwitchSettingsController), 32 + sizeof(bool)> __GlobalNamespace_SwitchSettingsControllerSizeCheck;
   static_assert(sizeof(SwitchSettingsController) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SwitchSettingsController*, "", "SwitchSettingsController");

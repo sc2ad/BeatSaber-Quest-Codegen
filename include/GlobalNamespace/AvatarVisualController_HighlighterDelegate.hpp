@@ -49,6 +49,6 @@ namespace GlobalNamespace {
     // Offset: 0x1A498F8
     void EndInvoke(System::IAsyncResult* result);
   }; // AvatarVisualController/HighlighterDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarVisualController::HighlighterDelegate*, "", "AvatarVisualController/HighlighterDelegate");

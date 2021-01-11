@@ -104,8 +104,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PCArcadeAppInit*, creationType>()));
     }
   }; // PCArcadeAppInit
+  #pragma pack(pop)
   static check_size<sizeof(PCArcadeAppInit), 88 + sizeof(GlobalNamespace::VRsenalLogger*)> __GlobalNamespace_PCArcadeAppInitSizeCheck;
   static_assert(sizeof(PCArcadeAppInit) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PCArcadeAppInit*, "", "PCArcadeAppInit");

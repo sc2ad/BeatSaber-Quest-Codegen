@@ -113,8 +113,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SpawnLaserAnimation*, creationType>()));
     }
   }; // SpawnLaserAnimation
+  #pragma pack(pop)
   static check_size<sizeof(SpawnLaserAnimation), 72 + sizeof(bool)> __GlobalNamespace_SpawnLaserAnimationSizeCheck;
   static_assert(sizeof(SpawnLaserAnimation) == 0x49);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnLaserAnimation*, "", "SpawnLaserAnimation");

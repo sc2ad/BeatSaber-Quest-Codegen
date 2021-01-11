@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x18EBE0C
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_UnlockGLSharedTextureForAccess
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_UnlockGLSharedTextureForAccess*, "Valve.VR", "IVRCompositor/_UnlockGLSharedTextureForAccess");

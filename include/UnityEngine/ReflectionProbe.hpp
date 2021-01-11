@@ -70,6 +70,7 @@ namespace UnityEngine {
       // Set static field: static public UnityEngine.ReflectionProbe/ReflectionProbeEvent ReflectionProbeRemoved
       static void _set_ReflectionProbeRemoved(UnityEngine::ReflectionProbe::ReflectionProbeEvent value);
     }; // UnityEngine.ReflectionProbe/ReflectionProbeEvent
+    #pragma pack(pop)
     static check_size<sizeof(ReflectionProbe::ReflectionProbeEvent), 0 + sizeof(int)> __UnityEngine_ReflectionProbe_ReflectionProbeEventSizeCheck;
     static_assert(sizeof(ReflectionProbe::ReflectionProbeEvent) == 0x4);
     // Creating value type constructor for type: ReflectionProbe
@@ -93,8 +94,8 @@ namespace UnityEngine {
     // Offset: 0x173ACF8
     static void CallSetDefaultReflection(UnityEngine::Cubemap* defaultReflectionCubemap);
   }; // UnityEngine.ReflectionProbe
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ReflectionProbe*, "UnityEngine", "ReflectionProbe");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ReflectionProbe::ReflectionProbeEvent, "UnityEngine", "ReflectionProbe/ReflectionProbeEvent");

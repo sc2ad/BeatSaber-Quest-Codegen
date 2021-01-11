@@ -106,8 +106,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassDoubleKawaseBlurTextureEffectSO*, creationType>()));
     }
   }; // BloomPrePassDoubleKawaseBlurTextureEffectSO
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePassDoubleKawaseBlurTextureEffectSO), 72 + sizeof(GlobalNamespace::KawaseBlurRendererSO*)> __GlobalNamespace_BloomPrePassDoubleKawaseBlurTextureEffectSOSizeCheck;
   static_assert(sizeof(BloomPrePassDoubleKawaseBlurTextureEffectSO) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO*, "", "BloomPrePassDoubleKawaseBlurTextureEffectSO");

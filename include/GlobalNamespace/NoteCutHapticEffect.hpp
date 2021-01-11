@@ -67,8 +67,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutHapticEffect*, creationType>()));
     }
   }; // NoteCutHapticEffect
+  #pragma pack(pop)
   static check_size<sizeof(NoteCutHapticEffect), 32 + sizeof(GlobalNamespace::HapticFeedbackController*)> __GlobalNamespace_NoteCutHapticEffectSizeCheck;
   static_assert(sizeof(NoteCutHapticEffect) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutHapticEffect*, "", "NoteCutHapticEffect");

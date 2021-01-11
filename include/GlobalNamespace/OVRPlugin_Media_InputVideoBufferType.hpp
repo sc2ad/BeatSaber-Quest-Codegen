@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/Media/InputVideoBufferType EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::Media::InputVideoBufferType value);
   }; // OVRPlugin/Media/InputVideoBufferType
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Media::InputVideoBufferType), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_Media_InputVideoBufferTypeSizeCheck;
   static_assert(sizeof(OVRPlugin::Media::InputVideoBufferType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Media::InputVideoBufferType, "", "OVRPlugin/Media/InputVideoBufferType");

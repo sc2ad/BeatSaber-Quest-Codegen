@@ -64,6 +64,7 @@ namespace GlobalNamespace {
       // Set static field: static public DynamicBoneColliderBase/Direction Z
       static void _set_Z(GlobalNamespace::DynamicBoneColliderBase::Direction value);
     }; // DynamicBoneColliderBase/Direction
+    #pragma pack(pop)
     static check_size<sizeof(DynamicBoneColliderBase::Direction), 0 + sizeof(int)> __GlobalNamespace_DynamicBoneColliderBase_DirectionSizeCheck;
     static_assert(sizeof(DynamicBoneColliderBase::Direction) == 0x4);
     // Size: 0x4
@@ -101,6 +102,7 @@ namespace GlobalNamespace {
       // Set static field: static public DynamicBoneColliderBase/Bound Inside
       static void _set_Inside(GlobalNamespace::DynamicBoneColliderBase::Bound value);
     }; // DynamicBoneColliderBase/Bound
+    #pragma pack(pop)
     static check_size<sizeof(DynamicBoneColliderBase::Bound), 0 + sizeof(int)> __GlobalNamespace_DynamicBoneColliderBase_BoundSizeCheck;
     static_assert(sizeof(DynamicBoneColliderBase::Bound) == 0x4);
     // public DynamicBoneColliderBase/Direction m_Direction
@@ -142,10 +144,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DynamicBoneColliderBase*, creationType>()));
     }
   }; // DynamicBoneColliderBase
+  #pragma pack(pop)
   static check_size<sizeof(DynamicBoneColliderBase), 40 + sizeof(GlobalNamespace::DynamicBoneColliderBase::Bound)> __GlobalNamespace_DynamicBoneColliderBaseSizeCheck;
   static_assert(sizeof(DynamicBoneColliderBase) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase*, "", "DynamicBoneColliderBase");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase::Direction, "", "DynamicBoneColliderBase/Direction");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase::Bound, "", "DynamicBoneColliderBase/Bound");

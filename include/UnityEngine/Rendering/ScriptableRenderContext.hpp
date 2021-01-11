@@ -95,8 +95,8 @@ namespace UnityEngine::Rendering {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.Rendering.ScriptableRenderContext
+  #pragma pack(pop)
   static check_size<sizeof(ScriptableRenderContext), 0 + sizeof(System::IntPtr)> __UnityEngine_Rendering_ScriptableRenderContextSizeCheck;
   static_assert(sizeof(ScriptableRenderContext) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ScriptableRenderContext, "UnityEngine.Rendering", "ScriptableRenderContext");

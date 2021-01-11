@@ -53,6 +53,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
     // Base method: System.Void TestFilter::.cctor()
     static void _cctor();
   }; // UnityEngine.TestRunner.NUnitExtensions.Filters.CategoryFilterExtended
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended*, "UnityEngine.TestRunner.NUnitExtensions.Filters", "CategoryFilterExtended");

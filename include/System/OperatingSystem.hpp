@@ -113,8 +113,8 @@ namespace System {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.OperatingSystem
+  #pragma pack(pop)
   static check_size<sizeof(OperatingSystem), 32 + sizeof(::Il2CppString*)> __System_OperatingSystemSizeCheck;
   static_assert(sizeof(OperatingSystem) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::OperatingSystem*, "System", "OperatingSystem");

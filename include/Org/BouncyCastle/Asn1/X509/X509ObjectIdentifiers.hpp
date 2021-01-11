@@ -106,7 +106,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x1584248
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.X509.X509ObjectIdentifiers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::X509ObjectIdentifiers*, "Org.BouncyCastle.Asn1.X509", "X509ObjectIdentifiers");

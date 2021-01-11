@@ -70,8 +70,8 @@ namespace NUnit::Framework::Internal::Builders {
       return THROW_UNLESS((::il2cpp_utils::New<NUnitTestCaseBuilder*, creationType>()));
     }
   }; // NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder
+  #pragma pack(pop)
   static check_size<sizeof(NUnitTestCaseBuilder), 24 + sizeof(NUnit::Framework::Internal::TestNameGenerator*)> __NUnit_Framework_Internal_Builders_NUnitTestCaseBuilderSizeCheck;
   static_assert(sizeof(NUnitTestCaseBuilder) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*, "NUnit.Framework.Internal.Builders", "NUnitTestCaseBuilder");

@@ -67,8 +67,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectStateMachineBehaviourAutoInjecter*, creationType>()));
     }
   }; // Zenject.ZenjectStateMachineBehaviourAutoInjecter
+  #pragma pack(pop)
   static check_size<sizeof(ZenjectStateMachineBehaviourAutoInjecter), 32 + sizeof(UnityEngine::Animator*)> __Zenject_ZenjectStateMachineBehaviourAutoInjecterSizeCheck;
   static_assert(sizeof(ZenjectStateMachineBehaviourAutoInjecter) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectStateMachineBehaviourAutoInjecter*, "Zenject", "ZenjectStateMachineBehaviourAutoInjecter");

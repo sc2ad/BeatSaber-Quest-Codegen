@@ -215,8 +215,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PSVRHelper*, creationType>()));
     }
   }; // PSVRHelper
+  #pragma pack(pop)
   static check_size<sizeof(PSVRHelper), 64 + sizeof(System::Action_1<UnityEngine::Vector2>*)> __GlobalNamespace_PSVRHelperSizeCheck;
   static_assert(sizeof(PSVRHelper) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PSVRHelper*, "", "PSVRHelper");

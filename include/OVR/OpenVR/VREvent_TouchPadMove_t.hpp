@@ -60,9 +60,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.VREvent_TouchPadMove_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_TouchPadMove_t), 20 + sizeof(float)> __OVR_OpenVR_VREvent_TouchPadMove_tSizeCheck;
   static_assert(sizeof(VREvent_TouchPadMove_t) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_TouchPadMove_t, "OVR.OpenVR", "VREvent_TouchPadMove_t");

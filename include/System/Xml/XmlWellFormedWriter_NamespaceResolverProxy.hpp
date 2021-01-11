@@ -55,8 +55,8 @@ namespace System::Xml {
     // Base method: System.String IXmlNamespaceResolver::LookupPrefix(System.String namespaceName)
     ::Il2CppString* System_Xml_IXmlNamespaceResolver_LookupPrefix(::Il2CppString* namespaceName);
   }; // System.Xml.XmlWellFormedWriter/NamespaceResolverProxy
+  #pragma pack(pop)
   static check_size<sizeof(XmlWellFormedWriter::NamespaceResolverProxy), 16 + sizeof(System::Xml::XmlWellFormedWriter*)> __System_Xml_XmlWellFormedWriter_NamespaceResolverProxySizeCheck;
   static_assert(sizeof(XmlWellFormedWriter::NamespaceResolverProxy) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy*, "System.Xml", "XmlWellFormedWriter/NamespaceResolverProxy");

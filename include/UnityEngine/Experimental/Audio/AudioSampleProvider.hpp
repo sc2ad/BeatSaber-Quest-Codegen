@@ -47,9 +47,9 @@ namespace UnityEngine::Experimental::Audio {
     // Offset: 0x19EDEB8
     void InvokeSampleFramesOverflow(int droppedSampleFrameCount);
   }; // UnityEngine.Experimental.Audio.AudioSampleProvider
+  #pragma pack(pop)
   static check_size<sizeof(AudioSampleProvider), 24 + sizeof(UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*)> __UnityEngine_Experimental_Audio_AudioSampleProviderSizeCheck;
   static_assert(sizeof(AudioSampleProvider) == 0x20);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Audio::AudioSampleProvider*, "UnityEngine.Experimental.Audio", "AudioSampleProvider");

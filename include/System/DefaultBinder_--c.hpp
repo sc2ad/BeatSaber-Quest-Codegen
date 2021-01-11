@@ -56,6 +56,6 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<DefaultBinder::$$c*, creationType>()));
     }
   }; // System.DefaultBinder/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::DefaultBinder::$$c*, "System", "DefaultBinder/<>c");

@@ -69,9 +69,9 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.RefreshMask All
     static void _set_All(UnityEngine::ProBuilder::RefreshMask value);
   }; // UnityEngine.ProBuilder.RefreshMask
+  #pragma pack(pop)
   static check_size<sizeof(RefreshMask), 0 + sizeof(int)> __UnityEngine_ProBuilder_RefreshMaskSizeCheck;
   static_assert(sizeof(RefreshMask) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::RefreshMask, "UnityEngine.ProBuilder", "RefreshMask");

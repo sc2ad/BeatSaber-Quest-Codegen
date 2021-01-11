@@ -111,8 +111,8 @@ namespace System::Net {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.SocketAddress
+  #pragma pack(pop)
   static check_size<sizeof(SocketAddress), 36 + sizeof(int)> __System_Net_SocketAddressSizeCheck;
   static_assert(sizeof(SocketAddress) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::SocketAddress*, "System.Net", "SocketAddress");

@@ -97,6 +97,7 @@ namespace GlobalNamespace {
       // Set static field: static public EditAvatarFlowCoordinator/EditAvatarType Edit
       static void _set_Edit(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType value);
     }; // EditAvatarFlowCoordinator/EditAvatarType
+    #pragma pack(pop)
     static check_size<sizeof(EditAvatarFlowCoordinator::EditAvatarType), 0 + sizeof(int)> __GlobalNamespace_EditAvatarFlowCoordinator_EditAvatarTypeSizeCheck;
     static_assert(sizeof(EditAvatarFlowCoordinator::EditAvatarType) == 0x4);
     // private AvatarVisualController _avatarVisualController
@@ -210,9 +211,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EditAvatarFlowCoordinator*, creationType>()));
     }
   }; // EditAvatarFlowCoordinator
+  #pragma pack(pop)
   static check_size<sizeof(EditAvatarFlowCoordinator), 232 + sizeof(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*)> __GlobalNamespace_EditAvatarFlowCoordinatorSizeCheck;
   static_assert(sizeof(EditAvatarFlowCoordinator) == 0xF0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarFlowCoordinator*, "", "EditAvatarFlowCoordinator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType, "", "EditAvatarFlowCoordinator/EditAvatarType");

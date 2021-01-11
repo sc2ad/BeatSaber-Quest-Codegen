@@ -51,8 +51,8 @@ namespace Mono::Globalization::Unicode {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, dummy);
     }
   }; // Mono.Globalization.Unicode.SimpleCollator/PreviousInfo
+  #pragma pack(pop)
   static check_size<sizeof(SimpleCollator::PreviousInfo), 8 + sizeof(uint8_t*)> __Mono_Globalization_Unicode_SimpleCollator_PreviousInfoSizeCheck;
   static_assert(sizeof(SimpleCollator::PreviousInfo) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::PreviousInfo, "Mono.Globalization.Unicode", "SimpleCollator/PreviousInfo");

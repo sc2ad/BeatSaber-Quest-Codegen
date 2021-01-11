@@ -114,8 +114,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerBase::VirtualTouchMap*, creationType>()));
     }
   }; // OVRInput/OVRControllerBase/VirtualTouchMap
+  #pragma pack(pop)
   static check_size<sizeof(OVRInput::OVRControllerBase::VirtualTouchMap), 64 + sizeof(GlobalNamespace::OVRInput::RawTouch)> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualTouchMapSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerBase::VirtualTouchMap) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap*, "", "OVRInput/OVRControllerBase/VirtualTouchMap");

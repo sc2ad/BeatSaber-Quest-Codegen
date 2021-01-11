@@ -72,8 +72,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x19AB7A8
     bool get_HasPrev();
   }; // UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode
+  #pragma pack(pop)
   static check_size<sizeof(AdvancingFrontNode), 48 + sizeof(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)> __UnityEngine_ProBuilder_Poly2Tri_AdvancingFrontNodeSizeCheck;
   static_assert(sizeof(AdvancingFrontNode) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFrontNode");

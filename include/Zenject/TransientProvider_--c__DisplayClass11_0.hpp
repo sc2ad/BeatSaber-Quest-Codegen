@@ -85,8 +85,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<TransientProvider::$$c__DisplayClass11_0*, creationType>()));
     }
   }; // Zenject.TransientProvider/<>c__DisplayClass11_0
+  #pragma pack(pop)
   static check_size<sizeof(TransientProvider::$$c__DisplayClass11_0), 48 + sizeof(Zenject::InjectContext*)> __Zenject_TransientProvider_$$c__DisplayClass11_0SizeCheck;
   static_assert(sizeof(TransientProvider::$$c__DisplayClass11_0) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TransientProvider::$$c__DisplayClass11_0*, "Zenject", "TransientProvider/<>c__DisplayClass11_0");

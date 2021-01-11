@@ -80,6 +80,7 @@ namespace Oculus::Platform {
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key_, importance_);
       }
     }; // Oculus.Platform.Matchmaking/CustomQuery/Criterion
+    #pragma pack(pop)
     static check_size<sizeof(Matchmaking::CustomQuery::Criterion), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*)> __Oculus_Platform_Matchmaking_CustomQuery_CriterionSizeCheck;
     static_assert(sizeof(Matchmaking::CustomQuery::Criterion) == 0x18);
     // public System.Collections.Generic.Dictionary`2<System.String,System.Object> data
@@ -109,9 +110,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<Matchmaking::CustomQuery*, creationType>()));
     }
   }; // Oculus.Platform.Matchmaking/CustomQuery
+  #pragma pack(pop)
   static check_size<sizeof(Matchmaking::CustomQuery), 24 + sizeof(::Array<Oculus::Platform::Matchmaking::CustomQuery::Criterion>*)> __Oculus_Platform_Matchmaking_CustomQuerySizeCheck;
   static_assert(sizeof(Matchmaking::CustomQuery) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking::CustomQuery*, "Oculus.Platform", "Matchmaking/CustomQuery");
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking::CustomQuery::Criterion, "Oculus.Platform", "Matchmaking/CustomQuery/Criterion");

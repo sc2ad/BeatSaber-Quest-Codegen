@@ -135,6 +135,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRManager/TrackingOrigin Stage
       static void _set_Stage(GlobalNamespace::OVRManager::TrackingOrigin value);
     }; // OVRManager/TrackingOrigin
+    #pragma pack(pop)
     static check_size<sizeof(OVRManager::TrackingOrigin), 0 + sizeof(int)> __GlobalNamespace_OVRManager_TrackingOriginSizeCheck;
     static_assert(sizeof(OVRManager::TrackingOrigin) == 0x4);
     // Size: 0x4
@@ -178,6 +179,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRManager/XRDevice OpenVR
       static void _set_OpenVR(GlobalNamespace::OVRManager::XRDevice value);
     }; // OVRManager/XRDevice
+    #pragma pack(pop)
     static check_size<sizeof(OVRManager::XRDevice), 0 + sizeof(int)> __GlobalNamespace_OVRManager_XRDeviceSizeCheck;
     static_assert(sizeof(OVRManager::XRDevice) == 0x4);
     // Size: 0x4
@@ -215,6 +217,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRManager/CompositionMethod Direct
       static void _set_Direct(GlobalNamespace::OVRManager::CompositionMethod value);
     }; // OVRManager/CompositionMethod
+    #pragma pack(pop)
     static check_size<sizeof(OVRManager::CompositionMethod), 0 + sizeof(int)> __GlobalNamespace_OVRManager_CompositionMethodSizeCheck;
     static_assert(sizeof(OVRManager::CompositionMethod) == 0x4);
     // Size: 0x4
@@ -258,6 +261,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRManager/CameraDevice ZEDCamera
       static void _set_ZEDCamera(GlobalNamespace::OVRManager::CameraDevice value);
     }; // OVRManager/CameraDevice
+    #pragma pack(pop)
     static check_size<sizeof(OVRManager::CameraDevice), 0 + sizeof(int)> __GlobalNamespace_OVRManager_CameraDeviceSizeCheck;
     static_assert(sizeof(OVRManager::CameraDevice) == 0x4);
     // Size: 0x4
@@ -301,6 +305,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRManager/DepthQuality High
       static void _set_High(GlobalNamespace::OVRManager::DepthQuality value);
     }; // OVRManager/DepthQuality
+    #pragma pack(pop)
     static check_size<sizeof(OVRManager::DepthQuality), 0 + sizeof(int)> __GlobalNamespace_OVRManager_DepthQualitySizeCheck;
     static_assert(sizeof(OVRManager::DepthQuality) == 0x4);
     // Size: 0x4
@@ -344,6 +349,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRManager/VirtualGreenScreenType PlayArea
       static void _set_PlayArea(GlobalNamespace::OVRManager::VirtualGreenScreenType value);
     }; // OVRManager/VirtualGreenScreenType
+    #pragma pack(pop)
     static check_size<sizeof(OVRManager::VirtualGreenScreenType), 0 + sizeof(int)> __GlobalNamespace_OVRManager_VirtualGreenScreenTypeSizeCheck;
     static_assert(sizeof(OVRManager::VirtualGreenScreenType) == 0x4);
     // Size: 0x4
@@ -381,6 +387,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRManager/MrcActivationMode Disabled
       static void _set_Disabled(GlobalNamespace::OVRManager::MrcActivationMode value);
     }; // OVRManager/MrcActivationMode
+    #pragma pack(pop)
     static check_size<sizeof(OVRManager::MrcActivationMode), 0 + sizeof(int)> __GlobalNamespace_OVRManager_MrcActivationModeSizeCheck;
     static_assert(sizeof(OVRManager::MrcActivationMode) == 0x4);
     // private System.Collections.Generic.IEnumerable`1<UnityEngine.Camera> disabledCameras
@@ -1334,10 +1341,10 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // OVRManager
+  #pragma pack(pop)
   static check_size<sizeof(OVRManager), 240 + sizeof(UnityEngine::Camera*)> __GlobalNamespace_OVRManagerSizeCheck;
   static_assert(sizeof(OVRManager) == 0xF8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager*, "", "OVRManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager::TrackingOrigin, "", "OVRManager/TrackingOrigin");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager::XRDevice, "", "OVRManager/XRDevice");

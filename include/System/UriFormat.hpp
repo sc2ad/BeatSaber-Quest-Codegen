@@ -50,9 +50,9 @@ namespace System {
     // Set static field: static public System.UriFormat SafeUnescaped
     static void _set_SafeUnescaped(System::UriFormat value);
   }; // System.UriFormat
+  #pragma pack(pop)
   static check_size<sizeof(UriFormat), 0 + sizeof(int)> __System_UriFormatSizeCheck;
   static_assert(sizeof(UriFormat) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriFormat, "System", "UriFormat");

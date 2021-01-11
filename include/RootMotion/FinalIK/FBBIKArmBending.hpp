@@ -101,8 +101,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<FBBIKArmBending*, creationType>()));
     }
   }; // RootMotion.FinalIK.FBBIKArmBending
+  #pragma pack(pop)
   static check_size<sizeof(FBBIKArmBending), 112 + sizeof(bool)> __RootMotion_FinalIK_FBBIKArmBendingSizeCheck;
   static_assert(sizeof(FBBIKArmBending) == 0x71);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKArmBending*, "RootMotion.FinalIK", "FBBIKArmBending");

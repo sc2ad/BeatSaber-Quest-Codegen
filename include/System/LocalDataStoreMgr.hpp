@@ -128,8 +128,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<LocalDataStoreMgr*, creationType>()));
     }
   }; // System.LocalDataStoreMgr
+  #pragma pack(pop)
   static check_size<sizeof(LocalDataStoreMgr), 48 + sizeof(int64_t)> __System_LocalDataStoreMgrSizeCheck;
   static_assert(sizeof(LocalDataStoreMgr) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreMgr*, "System", "LocalDataStoreMgr");

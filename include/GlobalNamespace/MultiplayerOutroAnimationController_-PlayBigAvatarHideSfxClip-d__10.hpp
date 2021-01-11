@@ -92,8 +92,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MultiplayerOutroAnimationController/<PlayBigAvatarHideSfxClip>d__10
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerOutroAnimationController::$PlayBigAvatarHideSfxClip$d__10), 40 + sizeof(GlobalNamespace::MultiplayerOutroAnimationController*)> __GlobalNamespace_MultiplayerOutroAnimationController_$PlayBigAvatarHideSfxClip$d__10SizeCheck;
   static_assert(sizeof(MultiplayerOutroAnimationController::$PlayBigAvatarHideSfxClip$d__10) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOutroAnimationController::$PlayBigAvatarHideSfxClip$d__10*, "", "MultiplayerOutroAnimationController/<PlayBigAvatarHideSfxClip>d__10");

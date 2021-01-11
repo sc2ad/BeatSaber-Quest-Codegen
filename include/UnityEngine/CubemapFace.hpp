@@ -74,9 +74,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.CubemapFace NegativeZ
     static void _set_NegativeZ(UnityEngine::CubemapFace value);
   }; // UnityEngine.CubemapFace
+  #pragma pack(pop)
   static check_size<sizeof(CubemapFace), 0 + sizeof(int)> __UnityEngine_CubemapFaceSizeCheck;
   static_assert(sizeof(CubemapFace) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CubemapFace, "UnityEngine", "CubemapFace");

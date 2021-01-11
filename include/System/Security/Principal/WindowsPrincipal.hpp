@@ -47,8 +47,8 @@ namespace System::Security::Principal {
       return THROW_UNLESS((::il2cpp_utils::New<WindowsPrincipal*, creationType>(ntIdentity)));
     }
   }; // System.Security.Principal.WindowsPrincipal
+  #pragma pack(pop)
   static check_size<sizeof(WindowsPrincipal), 40 + sizeof(System::Security::Principal::WindowsIdentity*)> __System_Security_Principal_WindowsPrincipalSizeCheck;
   static_assert(sizeof(WindowsPrincipal) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsPrincipal*, "System.Security.Principal", "WindowsPrincipal");

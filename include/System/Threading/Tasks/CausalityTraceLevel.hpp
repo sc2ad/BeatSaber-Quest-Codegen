@@ -51,9 +51,9 @@ namespace System::Threading::Tasks {
     // Set static field: static public System.Threading.Tasks.CausalityTraceLevel Verbose
     static void _set_Verbose(System::Threading::Tasks::CausalityTraceLevel value);
   }; // System.Threading.Tasks.CausalityTraceLevel
+  #pragma pack(pop)
   static check_size<sizeof(CausalityTraceLevel), 0 + sizeof(int)> __System_Threading_Tasks_CausalityTraceLevelSizeCheck;
   static_assert(sizeof(CausalityTraceLevel) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::CausalityTraceLevel, "System.Threading.Tasks", "CausalityTraceLevel");

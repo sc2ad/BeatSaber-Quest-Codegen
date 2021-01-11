@@ -125,8 +125,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardTableView*, creationType>()));
     }
   }; // LeaderboardTableView
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardTableView), 56 + sizeof(int)> __GlobalNamespace_LeaderboardTableViewSizeCheck;
   static_assert(sizeof(LeaderboardTableView) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardTableView*, "", "LeaderboardTableView");

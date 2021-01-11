@@ -52,8 +52,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MockMultiplayerSessionManager::$$c__DisplayClass60_0*, creationType>()));
     }
   }; // MockMultiplayerSessionManager/<>c__DisplayClass60_0
+  #pragma pack(pop)
   static check_size<sizeof(MockMultiplayerSessionManager::$$c__DisplayClass60_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_MockMultiplayerSessionManager_$$c__DisplayClass60_0SizeCheck;
   static_assert(sizeof(MockMultiplayerSessionManager::$$c__DisplayClass60_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass60_0*, "", "MockMultiplayerSessionManager/<>c__DisplayClass60_0");

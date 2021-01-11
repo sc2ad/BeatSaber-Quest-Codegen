@@ -82,6 +82,7 @@ namespace GlobalNamespace {
       // Set static field: static public LevelCompletionResults/LevelEndStateType Failed
       static void _set_Failed(GlobalNamespace::LevelCompletionResults::LevelEndStateType value);
     }; // LevelCompletionResults/LevelEndStateType
+    #pragma pack(pop)
     static check_size<sizeof(LevelCompletionResults::LevelEndStateType), 0 + sizeof(int)> __GlobalNamespace_LevelCompletionResults_LevelEndStateTypeSizeCheck;
     static_assert(sizeof(LevelCompletionResults::LevelEndStateType) == 0x4);
     // Size: 0x4
@@ -155,6 +156,7 @@ namespace GlobalNamespace {
       // Set static field: static public LevelCompletionResults/LevelEndAction ConnectedAfterLevelEnded
       static void _set_ConnectedAfterLevelEnded(GlobalNamespace::LevelCompletionResults::LevelEndAction value);
     }; // LevelCompletionResults/LevelEndAction
+    #pragma pack(pop)
     static check_size<sizeof(LevelCompletionResults::LevelEndAction), 0 + sizeof(int)> __GlobalNamespace_LevelCompletionResults_LevelEndActionSizeCheck;
     static_assert(sizeof(LevelCompletionResults::LevelEndAction) == 0x4);
     // public readonly GameplayModifiers gameplayModifiers
@@ -382,10 +384,10 @@ namespace GlobalNamespace {
     // Base method: T INetImmutableSerializable_1::CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     GlobalNamespace::LevelCompletionResults* LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
   }; // LevelCompletionResults
+  #pragma pack(pop)
   static check_size<sizeof(LevelCompletionResults), 128 + sizeof(float)> __GlobalNamespace_LevelCompletionResultsSizeCheck;
   static_assert(sizeof(LevelCompletionResults) == 0x84);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults*, "", "LevelCompletionResults");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults::LevelEndStateType, "", "LevelCompletionResults/LevelEndStateType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults::LevelEndAction, "", "LevelCompletionResults/LevelEndAction");

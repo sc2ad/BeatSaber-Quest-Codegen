@@ -89,6 +89,7 @@ namespace UnityEngine::Timeline {
       // Set static field: static public UnityEngine.Timeline.ActivationControlPlayable/PostPlaybackState Revert
       static void _set_Revert(UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState value);
     }; // UnityEngine.Timeline.ActivationControlPlayable/PostPlaybackState
+    #pragma pack(pop)
     static check_size<sizeof(ActivationControlPlayable::PostPlaybackState), 0 + sizeof(int)> __UnityEngine_Timeline_ActivationControlPlayable_PostPlaybackStateSizeCheck;
     static_assert(sizeof(ActivationControlPlayable::PostPlaybackState) == 0x4);
     // Size: 0x4
@@ -132,6 +133,7 @@ namespace UnityEngine::Timeline {
       // Set static field: static public UnityEngine.Timeline.ActivationControlPlayable/InitialState Inactive
       static void _set_Inactive(UnityEngine::Timeline::ActivationControlPlayable::InitialState value);
     }; // UnityEngine.Timeline.ActivationControlPlayable/InitialState
+    #pragma pack(pop)
     static check_size<sizeof(ActivationControlPlayable::InitialState), 0 + sizeof(int)> __UnityEngine_Timeline_ActivationControlPlayable_InitialStateSizeCheck;
     static_assert(sizeof(ActivationControlPlayable::InitialState) == 0x4);
     // public UnityEngine.GameObject gameObject
@@ -193,10 +195,10 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<ActivationControlPlayable*, creationType>()));
     }
   }; // UnityEngine.Timeline.ActivationControlPlayable
+  #pragma pack(pop)
   static check_size<sizeof(ActivationControlPlayable), 28 + sizeof(UnityEngine::Timeline::ActivationControlPlayable::InitialState)> __UnityEngine_Timeline_ActivationControlPlayableSizeCheck;
   static_assert(sizeof(ActivationControlPlayable) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationControlPlayable*, "UnityEngine.Timeline", "ActivationControlPlayable");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState, "UnityEngine.Timeline", "ActivationControlPlayable/PostPlaybackState");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationControlPlayable::InitialState, "UnityEngine.Timeline", "ActivationControlPlayable/InitialState");

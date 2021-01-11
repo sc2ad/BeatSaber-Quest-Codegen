@@ -69,8 +69,8 @@ namespace NUnit::Framework::Constraints {
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
   }; // NUnit.Framework.Constraints.StringConstraint
+  #pragma pack(pop)
   static check_size<sizeof(StringConstraint), 64 + sizeof(::Il2CppString*)> __NUnit_Framework_Constraints_StringConstraintSizeCheck;
   static_assert(sizeof(StringConstraint) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::StringConstraint*, "NUnit.Framework.Constraints", "StringConstraint");

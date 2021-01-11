@@ -127,8 +127,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerPrepareForConnectionRequest*, creationType>()));
     }
   }; // MasterServer.DedicatedServerPrepareForConnectionRequest
+  #pragma pack(pop)
   static check_size<sizeof(DedicatedServerPrepareForConnectionRequest), 64 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_DedicatedServerPrepareForConnectionRequestSizeCheck;
   static_assert(sizeof(DedicatedServerPrepareForConnectionRequest) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerPrepareForConnectionRequest*, "MasterServer", "DedicatedServerPrepareForConnectionRequest");

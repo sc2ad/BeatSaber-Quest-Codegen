@@ -386,8 +386,8 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void PointerInputModule::ProcessDrag(UnityEngine.EventSystems.PointerEventData pointerEvent)
     void ProcessDrag(UnityEngine::EventSystems::PointerEventData* pointerEvent);
   }; // UnityEngine.EventSystems.OVRInputModule
+  #pragma pack(pop)
   static check_size<sizeof(OVRInputModule), 224 + sizeof(UnityEngine::EventSystems::PointerInputModule::MouseState*)> __UnityEngine_EventSystems_OVRInputModuleSizeCheck;
   static_assert(sizeof(OVRInputModule) == 0xE8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRInputModule*, "UnityEngine.EventSystems", "OVRInputModule");

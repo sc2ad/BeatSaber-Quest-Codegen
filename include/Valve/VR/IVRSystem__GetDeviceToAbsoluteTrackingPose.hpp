@@ -57,6 +57,6 @@ namespace Valve::VR {
     // Offset: 0x192AD14
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetDeviceToAbsoluteTrackingPose
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose*, "Valve.VR", "IVRSystem/_GetDeviceToAbsoluteTrackingPose");

@@ -48,8 +48,8 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<UnobservedTaskExceptionEventArgs*, creationType>(exception)));
     }
   }; // System.Threading.Tasks.UnobservedTaskExceptionEventArgs
+  #pragma pack(pop)
   static check_size<sizeof(UnobservedTaskExceptionEventArgs), 24 + sizeof(bool)> __System_Threading_Tasks_UnobservedTaskExceptionEventArgsSizeCheck;
   static_assert(sizeof(UnobservedTaskExceptionEventArgs) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::UnobservedTaskExceptionEventArgs*, "System.Threading.Tasks", "UnobservedTaskExceptionEventArgs");

@@ -47,8 +47,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Inertia::Body::EffectorLink*, creationType>()));
     }
   }; // RootMotion.FinalIK.Inertia/Body/EffectorLink
+  #pragma pack(pop)
   static check_size<sizeof(Inertia::Body::EffectorLink), 20 + sizeof(float)> __RootMotion_FinalIK_Inertia_Body_EffectorLinkSizeCheck;
   static_assert(sizeof(Inertia::Body::EffectorLink) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Inertia::Body::EffectorLink*, "RootMotion.FinalIK", "Inertia/Body/EffectorLink");

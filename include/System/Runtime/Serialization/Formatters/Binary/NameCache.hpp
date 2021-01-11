@@ -60,8 +60,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return THROW_UNLESS((::il2cpp_utils::New<NameCache*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.NameCache
+  #pragma pack(pop)
   static check_size<sizeof(NameCache), 16 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_Formatters_Binary_NameCacheSizeCheck;
   static_assert(sizeof(NameCache) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::NameCache*, "System.Runtime.Serialization.Formatters.Binary", "NameCache");

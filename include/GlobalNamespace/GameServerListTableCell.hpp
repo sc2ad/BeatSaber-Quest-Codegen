@@ -97,8 +97,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameServerListTableCell*, creationType>()));
     }
   }; // GameServerListTableCell
+  #pragma pack(pop)
   static check_size<sizeof(GameServerListTableCell), 120 + sizeof(GlobalNamespace::SongPackMasksModel*)> __GlobalNamespace_GameServerListTableCellSizeCheck;
   static_assert(sizeof(GameServerListTableCell) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerListTableCell*, "", "GameServerListTableCell");

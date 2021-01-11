@@ -56,9 +56,9 @@ namespace System::Threading {
     // Set static field: static public System.Threading.StackCrawlMark LookForThread
     static void _set_LookForThread(System::Threading::StackCrawlMark value);
   }; // System.Threading.StackCrawlMark
+  #pragma pack(pop)
   static check_size<sizeof(StackCrawlMark), 0 + sizeof(int)> __System_Threading_StackCrawlMarkSizeCheck;
   static_assert(sizeof(StackCrawlMark) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::StackCrawlMark, "System.Threading", "StackCrawlMark");

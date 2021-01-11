@@ -95,8 +95,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::PlayerLatencyPacket*, creationType>()));
     }
   }; // ConnectedPlayerManager/PlayerLatencyPacket
+  #pragma pack(pop)
   static check_size<sizeof(ConnectedPlayerManager::PlayerLatencyPacket), 16 + sizeof(float)> __GlobalNamespace_ConnectedPlayerManager_PlayerLatencyPacketSizeCheck;
   static_assert(sizeof(ConnectedPlayerManager::PlayerLatencyPacket) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket*, "", "ConnectedPlayerManager/PlayerLatencyPacket");

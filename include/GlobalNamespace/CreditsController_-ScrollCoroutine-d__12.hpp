@@ -108,8 +108,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // CreditsController/<ScrollCoroutine>d__12
+  #pragma pack(pop)
   static check_size<sizeof(CreditsController::$ScrollCoroutine$d__12), 52 + sizeof(float)> __GlobalNamespace_CreditsController_$ScrollCoroutine$d__12SizeCheck;
   static_assert(sizeof(CreditsController::$ScrollCoroutine$d__12) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsController::$ScrollCoroutine$d__12*, "", "CreditsController/<ScrollCoroutine>d__12");

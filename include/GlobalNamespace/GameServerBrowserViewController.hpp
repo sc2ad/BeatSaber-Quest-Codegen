@@ -100,8 +100,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameServerBrowserViewController*, creationType>()));
     }
   }; // GameServerBrowserViewController
+  #pragma pack(pop)
   static check_size<sizeof(GameServerBrowserViewController), 160 + sizeof(GlobalNamespace::LoadingControl*)> __GlobalNamespace_GameServerBrowserViewControllerSizeCheck;
   static_assert(sizeof(GameServerBrowserViewController) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerBrowserViewController*, "", "GameServerBrowserViewController");

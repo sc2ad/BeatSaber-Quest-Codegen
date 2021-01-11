@@ -216,8 +216,8 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<FontData*, creationType>()));
     }
   }; // UnityEngine.UI.FontData
+  #pragma pack(pop)
   static check_size<sizeof(FontData), 60 + sizeof(float)> __UnityEngine_UI_FontDataSizeCheck;
   static_assert(sizeof(FontData) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::FontData*, "UnityEngine.UI", "FontData");

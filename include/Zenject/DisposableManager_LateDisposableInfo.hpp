@@ -48,8 +48,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<DisposableManager::LateDisposableInfo*, creationType>(lateDisposable, priority)));
     }
   }; // Zenject.DisposableManager/LateDisposableInfo
+  #pragma pack(pop)
   static check_size<sizeof(DisposableManager::LateDisposableInfo), 24 + sizeof(int)> __Zenject_DisposableManager_LateDisposableInfoSizeCheck;
   static_assert(sizeof(DisposableManager::LateDisposableInfo) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::LateDisposableInfo*, "Zenject", "DisposableManager/LateDisposableInfo");

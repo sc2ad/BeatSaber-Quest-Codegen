@@ -71,8 +71,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<MemoryPoolBindInfo*, creationType>()));
     }
   }; // Zenject.MemoryPoolBindInfo
+  #pragma pack(pop)
   static check_size<sizeof(MemoryPoolBindInfo), 24 + sizeof(int)> __Zenject_MemoryPoolBindInfoSizeCheck;
   static_assert(sizeof(MemoryPoolBindInfo) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolBindInfo*, "Zenject", "MemoryPoolBindInfo");

@@ -141,8 +141,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // StretchableObstacle
+  #pragma pack(pop)
   static check_size<sizeof(StretchableObstacle), 72 + sizeof(UnityEngine::Bounds)> __GlobalNamespace_StretchableObstacleSizeCheck;
   static_assert(sizeof(StretchableObstacle) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StretchableObstacle*, "", "StretchableObstacle");

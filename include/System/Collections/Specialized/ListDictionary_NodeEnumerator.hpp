@@ -114,8 +114,8 @@ namespace System::Collections::Specialized {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Collections.Specialized.ListDictionary/NodeEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(ListDictionary::NodeEnumerator), 36 + sizeof(bool)> __System_Collections_Specialized_ListDictionary_NodeEnumeratorSizeCheck;
   static_assert(sizeof(ListDictionary::NodeEnumerator) == 0x25);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::NodeEnumerator*, "System.Collections.Specialized", "ListDictionary/NodeEnumerator");

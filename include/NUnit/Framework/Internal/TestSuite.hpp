@@ -151,8 +151,8 @@ namespace NUnit::Framework::Internal {
     // Base method: NUnit.Framework.Interfaces.TNode Test::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
   }; // NUnit.Framework.Internal.TestSuite
+  #pragma pack(pop)
   static check_size<sizeof(TestSuite), 136 + sizeof(bool)> __NUnit_Framework_Internal_TestSuiteSizeCheck;
   static_assert(sizeof(TestSuite) == 0x89);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestSuite*, "NUnit.Framework.Internal", "TestSuite");

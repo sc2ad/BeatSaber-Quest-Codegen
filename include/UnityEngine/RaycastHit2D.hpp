@@ -92,9 +92,9 @@ namespace UnityEngine {
     // Offset: 0xCB9A60
     UnityEngine::Collider2D* get_collider();
   }; // UnityEngine.RaycastHit2D
+  #pragma pack(pop)
   static check_size<sizeof(RaycastHit2D), 32 + sizeof(int)> __UnityEngine_RaycastHit2DSizeCheck;
   static_assert(sizeof(RaycastHit2D) == 0x24);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RaycastHit2D, "UnityEngine", "RaycastHit2D");

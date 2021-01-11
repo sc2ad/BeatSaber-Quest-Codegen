@@ -52,8 +52,8 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0x158D9C8
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Private();
   }; // Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair
+  #pragma pack(pop)
   static check_size<sizeof(AsymmetricCipherKeyPair), 24 + sizeof(Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)> __Org_BouncyCastle_Crypto_AsymmetricCipherKeyPairSizeCheck;
   static_assert(sizeof(AsymmetricCipherKeyPair) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*, "Org.BouncyCastle.Crypto", "AsymmetricCipherKeyPair");

@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x12DA6B4
     static void _cctor();
   }; // OVRPlugin/OVRP_1_17_0
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_17_0*, "", "OVRPlugin/OVRP_1_17_0");

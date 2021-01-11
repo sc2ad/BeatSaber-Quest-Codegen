@@ -69,8 +69,8 @@ namespace OnlineServices {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // OnlineServices.LeaderboardEntryData
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardEntryData), 40 + sizeof(GlobalNamespace::GameplayModifiers*)> __OnlineServices_LeaderboardEntryDataSizeCheck;
   static_assert(sizeof(LeaderboardEntryData) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LeaderboardEntryData*, "OnlineServices", "LeaderboardEntryData");

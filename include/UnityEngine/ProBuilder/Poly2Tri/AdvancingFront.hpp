@@ -77,8 +77,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.Poly2Tri.AdvancingFront
+  #pragma pack(pop)
   static check_size<sizeof(AdvancingFront), 32 + sizeof(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)> __UnityEngine_ProBuilder_Poly2Tri_AdvancingFrontSizeCheck;
   static_assert(sizeof(AdvancingFront) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFront");

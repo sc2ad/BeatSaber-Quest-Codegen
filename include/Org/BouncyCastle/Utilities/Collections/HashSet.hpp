@@ -88,8 +88,8 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // Org.BouncyCastle.Utilities.Collections.HashSet
+  #pragma pack(pop)
   static check_size<sizeof(HashSet), 16 + sizeof(System::Collections::IDictionary*)> __Org_BouncyCastle_Utilities_Collections_HashSetSizeCheck;
   static_assert(sizeof(HashSet) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::HashSet*, "Org.BouncyCastle.Utilities.Collections", "HashSet");

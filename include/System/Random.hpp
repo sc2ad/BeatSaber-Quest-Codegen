@@ -96,8 +96,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<Random*, creationType>()));
     }
   }; // System.Random
+  #pragma pack(pop)
   static check_size<sizeof(Random), 24 + sizeof(::Array<int>*)> __System_RandomSizeCheck;
   static_assert(sizeof(Random) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Random*, "System", "Random");

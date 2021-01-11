@@ -73,8 +73,8 @@ namespace GlobalNamespace {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // HMAutoincrementedRequestId
+  #pragma pack(pop)
   static check_size<sizeof(HMAutoincrementedRequestId), 16 + sizeof(uint64_t)> __GlobalNamespace_HMAutoincrementedRequestIdSizeCheck;
   static_assert(sizeof(HMAutoincrementedRequestId) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAutoincrementedRequestId*, "", "HMAutoincrementedRequestId");

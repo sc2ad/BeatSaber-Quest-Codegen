@@ -97,8 +97,8 @@ namespace System::Xml {
     // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
   }; // System.Xml.CharEntityEncoderFallback
+  #pragma pack(pop)
   static check_size<sizeof(CharEntityEncoderFallback), 48 + sizeof(int)> __System_Xml_CharEntityEncoderFallbackSizeCheck;
   static_assert(sizeof(CharEntityEncoderFallback) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallback*, "System.Xml", "CharEntityEncoderFallback");

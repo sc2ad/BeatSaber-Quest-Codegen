@@ -118,7 +118,7 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     // Offset: 0x137BF60
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.CryptoPro.CryptoProObjectIdentifiers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::CryptoPro::CryptoProObjectIdentifiers*, "Org.BouncyCastle.Asn1.CryptoPro", "CryptoProObjectIdentifiers");

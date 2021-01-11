@@ -25,7 +25,7 @@ namespace UnityEngine {
     // Offset: 0x168A458
     static uint GetLatestTimings(uint numFrames, ::Array<UnityEngine::FrameTiming>* timings);
   }; // UnityEngine.FrameTimingManager
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FrameTimingManager*, "UnityEngine", "FrameTimingManager");

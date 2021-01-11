@@ -36,6 +36,6 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<SHA256*, creationType>()));
     }
   }; // System.Security.Cryptography.SHA256
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA256*, "System.Security.Cryptography", "SHA256");

@@ -247,8 +247,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // PlatformLeaderboardViewController
+  #pragma pack(pop)
   static check_size<sizeof(PlatformLeaderboardViewController), 224 + sizeof(::Array<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>*)> __GlobalNamespace_PlatformLeaderboardViewControllerSizeCheck;
   static_assert(sizeof(PlatformLeaderboardViewController) == 0xE8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardViewController*, "", "PlatformLeaderboardViewController");

@@ -65,9 +65,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRManager/TiledMultiResLevel LMSHighTop
     static void _set_LMSHighTop(GlobalNamespace::OVRManager::TiledMultiResLevel value);
   }; // OVRManager/TiledMultiResLevel
+  #pragma pack(pop)
   static check_size<sizeof(OVRManager::TiledMultiResLevel), 0 + sizeof(int)> __GlobalNamespace_OVRManager_TiledMultiResLevelSizeCheck;
   static_assert(sizeof(OVRManager::TiledMultiResLevel) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager::TiledMultiResLevel, "", "OVRManager/TiledMultiResLevel");

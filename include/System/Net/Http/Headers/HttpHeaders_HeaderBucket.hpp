@@ -73,8 +73,8 @@ namespace System::Net::Http::Headers {
     // Offset: 0x12035B4
     ::Il2CppString* ParsedToString();
   }; // System.Net.Http.Headers.HttpHeaders/HeaderBucket
+  #pragma pack(pop)
   static check_size<sizeof(HttpHeaders::HeaderBucket), 32 + sizeof(System::Func_2<::Il2CppObject*, ::Il2CppString*>*)> __System_Net_Http_Headers_HttpHeaders_HeaderBucketSizeCheck;
   static_assert(sizeof(HttpHeaders::HeaderBucket) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpHeaders::HeaderBucket*, "System.Net.Http.Headers", "HttpHeaders/HeaderBucket");

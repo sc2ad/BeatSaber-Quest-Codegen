@@ -44,9 +44,9 @@ namespace Zenject {
     // Set static field: static public Zenject.InvalidBindResponses Skip
     static void _set_Skip(Zenject::InvalidBindResponses value);
   }; // Zenject.InvalidBindResponses
+  #pragma pack(pop)
   static check_size<sizeof(InvalidBindResponses), 0 + sizeof(int)> __Zenject_InvalidBindResponsesSizeCheck;
   static_assert(sizeof(InvalidBindResponses) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InvalidBindResponses, "Zenject", "InvalidBindResponses");

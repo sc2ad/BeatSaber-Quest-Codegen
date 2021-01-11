@@ -138,8 +138,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightWithIdManager*, creationType>()));
     }
   }; // LightWithIdManager
+  #pragma pack(pop)
   static check_size<sizeof(LightWithIdManager), 64 + sizeof(bool)> __GlobalNamespace_LightWithIdManagerSizeCheck;
   static_assert(sizeof(LightWithIdManager) == 0x41);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdManager*, "", "LightWithIdManager");

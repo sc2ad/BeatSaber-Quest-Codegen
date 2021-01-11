@@ -77,9 +77,9 @@ namespace System::Security::Authentication {
     // Set static field: static public System.Security.Authentication.SslProtocols Default
     static void _set_Default(System::Security::Authentication::SslProtocols value);
   }; // System.Security.Authentication.SslProtocols
+  #pragma pack(pop)
   static check_size<sizeof(SslProtocols), 0 + sizeof(int)> __System_Security_Authentication_SslProtocolsSizeCheck;
   static_assert(sizeof(SslProtocols) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::SslProtocols, "System.Security.Authentication", "SslProtocols");

@@ -85,8 +85,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<AssetDetails*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.AssetDetails
+  #pragma pack(pop)
   static check_size<sizeof(AssetDetails), 72 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_AssetDetailsSizeCheck;
   static_assert(sizeof(AssetDetails) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetDetails*, "Oculus.Platform.Models", "AssetDetails");

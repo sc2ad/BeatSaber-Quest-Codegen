@@ -60,9 +60,9 @@ namespace System::IO {
     // Offset: 0xCA05A4
     void set_OldName(::Il2CppString* value);
   }; // System.IO.WaitForChangedResult
+  #pragma pack(pop)
   static check_size<sizeof(WaitForChangedResult), 24 + sizeof(bool)> __System_IO_WaitForChangedResultSizeCheck;
   static_assert(sizeof(WaitForChangedResult) == 0x19);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::WaitForChangedResult, "System.IO", "WaitForChangedResult");

@@ -47,8 +47,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerController::$$c__DisplayClass36_0*, creationType>()));
     }
   }; // MultiplayerController/<>c__DisplayClass36_0
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerController::$$c__DisplayClass36_0), 24 + sizeof(float)> __GlobalNamespace_MultiplayerController_$$c__DisplayClass36_0SizeCheck;
   static_assert(sizeof(MultiplayerController::$$c__DisplayClass36_0) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController::$$c__DisplayClass36_0*, "", "MultiplayerController/<>c__DisplayClass36_0");

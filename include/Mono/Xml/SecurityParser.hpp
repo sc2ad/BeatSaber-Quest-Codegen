@@ -111,8 +111,8 @@ namespace Mono::Xml {
     // Base method: System.Void IContentHandler::OnEndParsing(Mono.Xml.SmallXmlParser parser)
     void OnEndParsing(Mono::Xml::SmallXmlParser* parser);
   }; // Mono.Xml.SecurityParser
+  #pragma pack(pop)
   static check_size<sizeof(SecurityParser), 120 + sizeof(System::Collections::Stack*)> __Mono_Xml_SecurityParserSizeCheck;
   static_assert(sizeof(SecurityParser) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SecurityParser*, "Mono.Xml", "SecurityParser");

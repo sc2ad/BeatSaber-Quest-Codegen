@@ -179,9 +179,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.IVRRenderModels
+  #pragma pack(pop)
   static check_size<sizeof(IVRRenderModels), 144 + sizeof(OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*)> __OVR_OpenVR_IVRRenderModelsSizeCheck;
   static_assert(sizeof(IVRRenderModels) == 0x98);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRRenderModels, "OVR.OpenVR", "IVRRenderModels");

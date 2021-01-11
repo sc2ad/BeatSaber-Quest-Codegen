@@ -76,6 +76,7 @@ namespace Mono::Math {
       // Set static field: static public Mono.Math.BigInteger/Sign Positive
       static void _set_Positive(Mono::Math::BigInteger::Sign value);
     }; // Mono.Math.BigInteger/Sign
+    #pragma pack(pop)
     static check_size<sizeof(BigInteger::Sign), 0 + sizeof(int)> __Mono_Math_BigInteger_SignSizeCheck;
     static_assert(sizeof(BigInteger::Sign) == 0x4);
     // private System.UInt32 length
@@ -201,6 +202,7 @@ namespace Mono::Math {
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
   }; // Mono.Math.BigInteger
+  #pragma pack(pop)
   static check_size<sizeof(BigInteger), 24 + sizeof(::Array<uint>*)> __Mono_Math_BigIntegerSizeCheck;
   static_assert(sizeof(BigInteger) == 0x20);
   // static public Mono.Math.BigInteger op_Subtraction(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
@@ -249,6 +251,5 @@ namespace Mono::Math {
   // Offset: 0x17AC2F0
   bool operator <=(Mono::Math::BigInteger* bi1, Mono::Math::BigInteger& bi2);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger*, "Mono.Math", "BigInteger");
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::Sign, "Mono.Math", "BigInteger/Sign");

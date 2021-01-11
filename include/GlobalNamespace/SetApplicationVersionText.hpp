@@ -53,8 +53,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SetApplicationVersionText*, creationType>()));
     }
   }; // SetApplicationVersionText
+  #pragma pack(pop)
   static check_size<sizeof(SetApplicationVersionText), 24 + sizeof(TMPro::TextMeshPro*)> __GlobalNamespace_SetApplicationVersionTextSizeCheck;
   static_assert(sizeof(SetApplicationVersionText) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetApplicationVersionText*, "", "SetApplicationVersionText");

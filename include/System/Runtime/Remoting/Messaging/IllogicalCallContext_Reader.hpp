@@ -49,8 +49,8 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0xC94C34
     ::Il2CppObject* GetData(::Il2CppString* name);
   }; // System.Runtime.Remoting.Messaging.IllogicalCallContext/Reader
+  #pragma pack(pop)
   static check_size<sizeof(IllogicalCallContext::Reader), 0 + sizeof(System::Runtime::Remoting::Messaging::IllogicalCallContext*)> __System_Runtime_Remoting_Messaging_IllogicalCallContext_ReaderSizeCheck;
   static_assert(sizeof(IllogicalCallContext::Reader) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader, "System.Runtime.Remoting.Messaging", "IllogicalCallContext/Reader");

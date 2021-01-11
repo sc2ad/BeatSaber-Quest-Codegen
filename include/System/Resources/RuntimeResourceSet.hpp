@@ -141,8 +141,8 @@ namespace System::Resources {
     // Base method: System.Object ResourceSet::GetObject(System.String key, System.Boolean ignoreCase)
     ::Il2CppObject* GetObject(::Il2CppString* key, bool ignoreCase);
   }; // System.Resources.RuntimeResourceSet
+  #pragma pack(pop)
   static check_size<sizeof(RuntimeResourceSet), 64 + sizeof(bool)> __System_Resources_RuntimeResourceSetSizeCheck;
   static_assert(sizeof(RuntimeResourceSet) == 0x41);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::RuntimeResourceSet*, "System.Resources", "RuntimeResourceSet");

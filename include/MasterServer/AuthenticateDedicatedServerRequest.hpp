@@ -119,8 +119,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticateDedicatedServerRequest*, creationType>()));
     }
   }; // MasterServer.AuthenticateDedicatedServerRequest
+  #pragma pack(pop)
   static check_size<sizeof(AuthenticateDedicatedServerRequest), 48 + sizeof(int64_t)> __MasterServer_AuthenticateDedicatedServerRequestSizeCheck;
   static_assert(sizeof(AuthenticateDedicatedServerRequest) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AuthenticateDedicatedServerRequest*, "MasterServer", "AuthenticateDedicatedServerRequest");

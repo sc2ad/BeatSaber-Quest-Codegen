@@ -91,8 +91,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ResultsTableCell*, creationType>()));
     }
   }; // ResultsTableCell
+  #pragma pack(pop)
   static check_size<sizeof(ResultsTableCell), 120 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_ResultsTableCellSizeCheck;
   static_assert(sizeof(ResultsTableCell) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsTableCell*, "", "ResultsTableCell");

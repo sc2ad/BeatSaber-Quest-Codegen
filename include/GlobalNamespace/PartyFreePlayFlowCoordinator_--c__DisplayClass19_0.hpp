@@ -76,8 +76,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0*, creationType>()));
     }
   }; // PartyFreePlayFlowCoordinator/<>c__DisplayClass19_0
+  #pragma pack(pop)
   static check_size<sizeof(PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0), 48 + sizeof(bool)> __GlobalNamespace_PartyFreePlayFlowCoordinator_$$c__DisplayClass19_0SizeCheck;
   static_assert(sizeof(PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0*, "", "PartyFreePlayFlowCoordinator/<>c__DisplayClass19_0");

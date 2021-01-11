@@ -145,8 +145,8 @@ namespace System::Text::RegularExpressions {
       return THROW_UNLESS((::il2cpp_utils::New<Match*, creationType>()));
     }
   }; // System.Text.RegularExpressions.Match
+  #pragma pack(pop)
   static check_size<sizeof(Match), 104 + sizeof(bool)> __System_Text_RegularExpressions_MatchSizeCheck;
   static_assert(sizeof(Match) == 0x69);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Match*, "System.Text.RegularExpressions", "Match");

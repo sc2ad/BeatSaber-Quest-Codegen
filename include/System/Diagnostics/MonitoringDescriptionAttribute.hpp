@@ -37,6 +37,6 @@ namespace System::Diagnostics {
     // Base method: System.String DescriptionAttribute::get_Description()
     ::Il2CppString* get_Description();
   }; // System.Diagnostics.MonitoringDescriptionAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::MonitoringDescriptionAttribute*, "System.Diagnostics", "MonitoringDescriptionAttribute");

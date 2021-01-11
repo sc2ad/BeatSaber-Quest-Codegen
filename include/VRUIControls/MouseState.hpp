@@ -66,8 +66,8 @@ namespace VRUIControls {
       return THROW_UNLESS((::il2cpp_utils::New<MouseState*, creationType>()));
     }
   }; // VRUIControls.MouseState
+  #pragma pack(pop)
   static check_size<sizeof(MouseState), 16 + sizeof(System::Collections::Generic::List_1<VRUIControls::ButtonState*>*)> __VRUIControls_MouseStateSizeCheck;
   static_assert(sizeof(MouseState) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseState*, "VRUIControls", "MouseState");

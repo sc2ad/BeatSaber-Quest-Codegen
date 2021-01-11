@@ -81,8 +81,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsMenuViewControllersInstaller*, creationType>()));
     }
   }; // MainSettingsMenuViewControllersInstaller
+  #pragma pack(pop)
   static check_size<sizeof(MainSettingsMenuViewControllersInstaller), 64 + sizeof(GlobalNamespace::TabBarViewController*)> __GlobalNamespace_MainSettingsMenuViewControllersInstallerSizeCheck;
   static_assert(sizeof(MainSettingsMenuViewControllersInstaller) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsMenuViewControllersInstaller*, "", "MainSettingsMenuViewControllersInstaller");

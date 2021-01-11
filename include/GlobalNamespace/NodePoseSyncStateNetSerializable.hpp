@@ -127,8 +127,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NodePoseSyncStateNetSerializable*, creationType>()));
     }
   }; // NodePoseSyncStateNetSerializable
+  #pragma pack(pop)
   static check_size<sizeof(NodePoseSyncStateNetSerializable), 20 + sizeof(GlobalNamespace::NodePoseSyncState)> __GlobalNamespace_NodePoseSyncStateNetSerializableSizeCheck;
   static_assert(sizeof(NodePoseSyncStateNetSerializable) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncStateNetSerializable*, "", "NodePoseSyncStateNetSerializable");

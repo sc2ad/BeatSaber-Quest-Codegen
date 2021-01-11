@@ -95,6 +95,6 @@ namespace UnityEngine::TestRunner::Utils {
       return THROW_UNLESS((::il2cpp_utils::New<TestRunCallbackListener::$$c*, creationType>()));
     }
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener/<>c");

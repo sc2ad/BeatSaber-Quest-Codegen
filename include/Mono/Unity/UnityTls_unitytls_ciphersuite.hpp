@@ -40,9 +40,9 @@ namespace Mono::Unity {
     // Set static field: static public Mono.Unity.UnityTls/unitytls_ciphersuite UNITYTLS_CIPHERSUITE_INVALID
     static void _set_UNITYTLS_CIPHERSUITE_INVALID(Mono::Unity::UnityTls::unitytls_ciphersuite value);
   }; // Mono.Unity.UnityTls/unitytls_ciphersuite
+  #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_ciphersuite), 0 + sizeof(uint)> __Mono_Unity_UnityTls_unitytls_ciphersuiteSizeCheck;
   static_assert(sizeof(UnityTls::unitytls_ciphersuite) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_ciphersuite, "Mono.Unity", "UnityTls/unitytls_ciphersuite");

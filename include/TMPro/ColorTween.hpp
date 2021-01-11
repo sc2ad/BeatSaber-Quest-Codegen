@@ -79,6 +79,7 @@ namespace TMPro {
       // Set static field: static public TMPro.ColorTween/ColorTweenMode Alpha
       static void _set_Alpha(TMPro::ColorTween::ColorTweenMode value);
     }; // TMPro.ColorTween/ColorTweenMode
+    #pragma pack(pop)
     static check_size<sizeof(ColorTween::ColorTweenMode), 0 + sizeof(int)> __TMPro_ColorTween_ColorTweenModeSizeCheck;
     static_assert(sizeof(ColorTween::ColorTweenMode) == 0x4);
     // private TMPro.ColorTween/ColorTweenCallback m_Target
@@ -181,10 +182,10 @@ namespace TMPro {
     // Base method: System.Boolean ITweenValue::ValidTarget()
     bool ValidTarget();
   }; // TMPro.ColorTween
+  #pragma pack(pop)
   static check_size<sizeof(ColorTween), 48 + sizeof(bool)> __TMPro_ColorTweenSizeCheck;
   static_assert(sizeof(ColorTween) == 0x31);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ColorTween, "TMPro", "ColorTween");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ColorTween::ColorTweenMode, "TMPro", "ColorTween/ColorTweenMode");

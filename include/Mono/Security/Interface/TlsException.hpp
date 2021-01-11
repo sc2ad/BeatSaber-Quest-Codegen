@@ -55,8 +55,8 @@ namespace Mono::Security::Interface {
       return THROW_UNLESS((::il2cpp_utils::New<TlsException*, creationType>(description, message)));
     }
   }; // Mono.Security.Interface.TlsException
+  #pragma pack(pop)
   static check_size<sizeof(TlsException), 136 + sizeof(Mono::Security::Interface::Alert*)> __Mono_Security_Interface_TlsExceptionSizeCheck;
   static_assert(sizeof(TlsException) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::TlsException*, "Mono.Security.Interface", "TlsException");

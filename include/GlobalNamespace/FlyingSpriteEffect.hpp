@@ -86,8 +86,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlyingSpriteEffect*, creationType>()));
     }
   }; // FlyingSpriteEffect
+  #pragma pack(pop)
   static check_size<sizeof(FlyingSpriteEffect), 144 + sizeof(UnityEngine::Color)> __GlobalNamespace_FlyingSpriteEffectSizeCheck;
   static_assert(sizeof(FlyingSpriteEffect) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingSpriteEffect*, "", "FlyingSpriteEffect");

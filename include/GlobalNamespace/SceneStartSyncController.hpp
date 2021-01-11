@@ -154,8 +154,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SceneStartSyncController*, creationType>()));
     }
   }; // SceneStartSyncController
+  #pragma pack(pop)
   static check_size<sizeof(SceneStartSyncController), 80 + sizeof(float)> __GlobalNamespace_SceneStartSyncControllerSizeCheck;
   static_assert(sizeof(SceneStartSyncController) == 0x54);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneStartSyncController*, "", "SceneStartSyncController");

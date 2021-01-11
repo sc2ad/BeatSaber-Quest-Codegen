@@ -150,8 +150,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<GrounderBipedIK*, creationType>()));
     }
   }; // RootMotion.FinalIK.GrounderBipedIK
+  #pragma pack(pop)
   static check_size<sizeof(GrounderBipedIK), 132 + sizeof(float)> __RootMotion_FinalIK_GrounderBipedIKSizeCheck;
   static_assert(sizeof(GrounderBipedIK) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderBipedIK*, "RootMotion.FinalIK", "GrounderBipedIK");

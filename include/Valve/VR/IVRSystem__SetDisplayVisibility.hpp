@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x1930EEC
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_SetDisplayVisibility
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_SetDisplayVisibility*, "Valve.VR", "IVRSystem/_SetDisplayVisibility");

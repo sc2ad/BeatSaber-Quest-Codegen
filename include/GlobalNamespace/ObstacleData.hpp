@@ -95,8 +95,8 @@ namespace GlobalNamespace {
     // Base method: System.Void BeatmapObjectData::MirrorLineIndex(System.Int32 lineCount)
     void MirrorLineIndex(int lineCount);
   }; // ObstacleData
+  #pragma pack(pop)
   static check_size<sizeof(ObstacleData), 32 + sizeof(int)> __GlobalNamespace_ObstacleDataSizeCheck;
   static_assert(sizeof(ObstacleData) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleData*, "", "ObstacleData");

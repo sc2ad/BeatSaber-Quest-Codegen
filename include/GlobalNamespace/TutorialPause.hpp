@@ -135,8 +135,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TutorialPause*, creationType>()));
     }
   }; // TutorialPause
+  #pragma pack(pop)
   static check_size<sizeof(TutorialPause), 56 + sizeof(bool)> __GlobalNamespace_TutorialPauseSizeCheck;
   static_assert(sizeof(TutorialPause) == 0x39);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialPause*, "", "TutorialPause");

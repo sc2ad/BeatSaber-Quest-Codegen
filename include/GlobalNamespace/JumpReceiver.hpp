@@ -70,8 +70,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<JumpReceiver*, creationType>()));
     }
   }; // JumpReceiver
+  #pragma pack(pop)
   static check_size<sizeof(JumpReceiver), 24 + sizeof(bool)> __GlobalNamespace_JumpReceiverSizeCheck;
   static_assert(sizeof(JumpReceiver) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JumpReceiver*, "", "JumpReceiver");

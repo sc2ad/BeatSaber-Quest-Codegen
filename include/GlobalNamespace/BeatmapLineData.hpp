@@ -74,8 +74,8 @@ namespace GlobalNamespace {
     // Base method: System.Collections.Generic.IReadOnlyList`1<BeatmapObjectData> IReadonlyBeatmapLineData::get_beatmapObjectsData()
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
   }; // BeatmapLineData
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapLineData), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>*)> __GlobalNamespace_BeatmapLineDataSizeCheck;
   static_assert(sizeof(BeatmapLineData) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLineData*, "", "BeatmapLineData");

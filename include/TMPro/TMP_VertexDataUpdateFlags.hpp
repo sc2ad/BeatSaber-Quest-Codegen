@@ -74,9 +74,9 @@ namespace TMPro {
     // Set static field: static public TMPro.TMP_VertexDataUpdateFlags All
     static void _set_All(TMPro::TMP_VertexDataUpdateFlags value);
   }; // TMPro.TMP_VertexDataUpdateFlags
+  #pragma pack(pop)
   static check_size<sizeof(TMP_VertexDataUpdateFlags), 0 + sizeof(int)> __TMPro_TMP_VertexDataUpdateFlagsSizeCheck;
   static_assert(sizeof(TMP_VertexDataUpdateFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_VertexDataUpdateFlags, "TMPro", "TMP_VertexDataUpdateFlags");

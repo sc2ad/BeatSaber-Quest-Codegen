@@ -139,8 +139,8 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<GenericBaker*, creationType>()));
     }
   }; // RootMotion.GenericBaker
+  #pragma pack(pop)
   static check_size<sizeof(GenericBaker), 168 + sizeof(int)> __RootMotion_GenericBakerSizeCheck;
   static_assert(sizeof(GenericBaker) == 0xAC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::GenericBaker*, "RootMotion", "GenericBaker");

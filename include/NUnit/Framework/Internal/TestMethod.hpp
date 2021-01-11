@@ -103,8 +103,8 @@ namespace NUnit::Framework::Internal {
     // Base method: System.String Test::get_MethodName()
     ::Il2CppString* get_MethodName();
   }; // NUnit.Framework.Internal.TestMethod
+  #pragma pack(pop)
   static check_size<sizeof(TestMethod), 120 + sizeof(NUnit::Framework::Internal::TestCaseParameters*)> __NUnit_Framework_Internal_TestMethodSizeCheck;
   static_assert(sizeof(TestMethod) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestMethod*, "NUnit.Framework.Internal", "TestMethod");

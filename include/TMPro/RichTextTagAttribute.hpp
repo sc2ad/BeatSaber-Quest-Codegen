@@ -63,9 +63,9 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // TMPro.RichTextTagAttribute
+  #pragma pack(pop)
   static check_size<sizeof(RichTextTagAttribute), 20 + sizeof(TMPro::TagUnitType)> __TMPro_RichTextTagAttributeSizeCheck;
   static_assert(sizeof(RichTextTagAttribute) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::RichTextTagAttribute, "TMPro", "RichTextTagAttribute");

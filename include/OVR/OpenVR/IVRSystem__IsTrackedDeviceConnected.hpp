@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1917778
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_IsTrackedDeviceConnected
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_IsTrackedDeviceConnected*, "OVR.OpenVR", "IVRSystem/_IsTrackedDeviceConnected");

@@ -58,6 +58,7 @@ namespace UnityEngine {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // UnityEngine.BeforeRenderHelper/OrderBlock
+    #pragma pack(pop)
     static check_size<sizeof(BeforeRenderHelper::OrderBlock), 8 + sizeof(UnityEngine::Events::UnityAction*)> __UnityEngine_BeforeRenderHelper_OrderBlockSizeCheck;
     static_assert(sizeof(BeforeRenderHelper::OrderBlock) == 0x10);
     // Creating value type constructor for type: BeforeRenderHelper
@@ -82,8 +83,8 @@ namespace UnityEngine {
     // Offset: 0x167DBF0
     static void _cctor();
   }; // UnityEngine.BeforeRenderHelper
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BeforeRenderHelper*, "UnityEngine", "BeforeRenderHelper");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BeforeRenderHelper::OrderBlock, "UnityEngine", "BeforeRenderHelper/OrderBlock");

@@ -433,6 +433,6 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<Mesh*, creationType>()));
     }
   }; // UnityEngine.Mesh
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Mesh*, "UnityEngine", "Mesh");

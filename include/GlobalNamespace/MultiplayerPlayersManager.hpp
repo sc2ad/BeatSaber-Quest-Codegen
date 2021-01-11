@@ -359,8 +359,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerPlayersManager*, creationType>()));
     }
   }; // MultiplayerPlayersManager
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerPlayersManager), 224 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>*)> __GlobalNamespace_MultiplayerPlayersManagerSizeCheck;
   static_assert(sizeof(MultiplayerPlayersManager) == 0xE8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayersManager*, "", "MultiplayerPlayersManager");

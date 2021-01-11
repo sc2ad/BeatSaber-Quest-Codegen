@@ -58,6 +58,7 @@ namespace GlobalNamespace {
       // Set static field: static public NullAllowed/Context Prefab
       static void _set_Prefab(GlobalNamespace::NullAllowed::Context value);
     }; // NullAllowed/Context
+    #pragma pack(pop)
     static check_size<sizeof(NullAllowed::Context), 0 + sizeof(int)> __GlobalNamespace_NullAllowed_ContextSizeCheck;
     static_assert(sizeof(NullAllowed::Context) == 0x4);
     // public readonly NullAllowed/Context context
@@ -108,9 +109,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>()));
     }
   }; // NullAllowed
+  #pragma pack(pop)
   static check_size<sizeof(NullAllowed), 32 + sizeof(::Il2CppObject*)> __GlobalNamespace_NullAllowedSizeCheck;
   static_assert(sizeof(NullAllowed) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NullAllowed*, "", "NullAllowed");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NullAllowed::Context, "", "NullAllowed/Context");

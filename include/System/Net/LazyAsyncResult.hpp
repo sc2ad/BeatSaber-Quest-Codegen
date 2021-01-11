@@ -168,8 +168,8 @@ namespace System::Net {
     // Maps to method: get_IsCompleted
     bool System_IAsyncResult_get_IsCompleted();
   }; // System.Net.LazyAsyncResult
+  #pragma pack(pop)
   static check_size<sizeof(LazyAsyncResult), 56 + sizeof(::Il2CppObject*)> __System_Net_LazyAsyncResultSizeCheck;
   static_assert(sizeof(LazyAsyncResult) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::LazyAsyncResult*, "System.Net", "LazyAsyncResult");

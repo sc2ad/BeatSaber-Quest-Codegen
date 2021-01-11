@@ -45,6 +45,6 @@ namespace Mono::Net::Security {
     // Base method: Mono.Net.Security.AsyncOperationStatus AsyncProtocolRequest::Run(Mono.Net.Security.AsyncOperationStatus status)
     Mono::Net::Security::AsyncOperationStatus Run(Mono::Net::Security::AsyncOperationStatus status);
   }; // Mono.Net.Security.AsyncReadRequest
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncReadRequest*, "Mono.Net.Security", "AsyncReadRequest");

@@ -49,9 +49,9 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Net.NetworkInformation.Win32_IP_ADDR_STRING
+  #pragma pack(pop)
   static check_size<sizeof(Win32_IP_ADDR_STRING), 24 + sizeof(uint)> __System_Net_NetworkInformation_Win32_IP_ADDR_STRINGSizeCheck;
   static_assert(sizeof(Win32_IP_ADDR_STRING) == 0x1C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADDR_STRING, "System.Net.NetworkInformation", "Win32_IP_ADDR_STRING");

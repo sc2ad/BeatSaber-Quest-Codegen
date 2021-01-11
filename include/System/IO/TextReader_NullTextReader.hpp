@@ -43,6 +43,6 @@ namespace System::IO {
     // Base method: System.String TextReader::ReadLine()
     ::Il2CppString* ReadLine();
   }; // System.IO.TextReader/NullTextReader
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::NullTextReader*, "System.IO", "TextReader/NullTextReader");

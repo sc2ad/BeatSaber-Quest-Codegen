@@ -58,6 +58,6 @@ namespace NUnit::Framework::Internal::Builders {
       return THROW_UNLESS((::il2cpp_utils::New<CombinatorialStrategy*, creationType>()));
     }
   }; // NUnit.Framework.Internal.Builders.CombinatorialStrategy
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::CombinatorialStrategy*, "NUnit.Framework.Internal.Builders", "CombinatorialStrategy");

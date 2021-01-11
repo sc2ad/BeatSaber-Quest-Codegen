@@ -16,7 +16,7 @@ namespace System::Diagnostics {
     // Creating value type constructor for type: ProcessInfo
     ProcessInfo() noexcept {}
   }; // System.Diagnostics.ProcessInfo
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessInfo*, "System.Diagnostics", "ProcessInfo");

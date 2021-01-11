@@ -41,8 +41,8 @@ namespace BeatSaberAPI::DataTransferObjects {
       return THROW_UNLESS((::il2cpp_utils::New<AccessToken*, creationType>()));
     }
   }; // BeatSaberAPI.DataTransferObjects.AccessToken
+  #pragma pack(pop)
   static check_size<sizeof(AccessToken), 24 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_AccessTokenSizeCheck;
   static_assert(sizeof(AccessToken) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::AccessToken*, "BeatSaberAPI.DataTransferObjects", "AccessToken");

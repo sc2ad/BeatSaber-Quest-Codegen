@@ -90,8 +90,8 @@ namespace Zenject::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionTypeInfo*, creationType>(type, baseType, injectConstructor, injectMethods, injectFields, injectProperties)));
     }
   }; // Zenject.Internal.ReflectionTypeInfo
+  #pragma pack(pop)
   static check_size<sizeof(ReflectionTypeInfo), 56 + sizeof(System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>*)> __Zenject_Internal_ReflectionTypeInfoSizeCheck;
   static_assert(sizeof(ReflectionTypeInfo) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeInfo*, "Zenject.Internal", "ReflectionTypeInfo");

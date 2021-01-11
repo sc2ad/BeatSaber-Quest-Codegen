@@ -86,8 +86,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*, creationType>()));
     }
   }; // BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation
+  #pragma pack(pop)
   static check_size<sizeof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation), 48 + sizeof(GlobalNamespace::BTSCharacter*)> __GlobalNamespace_BtsResultsEnvironmentController_BTSResultCharacterPlaceWithAnimationSizeCheck;
   static_assert(sizeof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*, "", "BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation");

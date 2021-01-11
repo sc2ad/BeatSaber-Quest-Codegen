@@ -49,6 +49,6 @@ namespace UnityEngine::Experimental::Audio {
     // Offset: 0x19EDF84
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Experimental.Audio.AudioSampleProvider/SampleFramesHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*, "UnityEngine.Experimental.Audio", "AudioSampleProvider/SampleFramesHandler");

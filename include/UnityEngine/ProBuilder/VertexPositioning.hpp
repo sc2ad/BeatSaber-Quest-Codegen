@@ -75,7 +75,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1955D34
     static void _cctor();
   }; // UnityEngine.ProBuilder.VertexPositioning
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::VertexPositioning*, "UnityEngine.ProBuilder", "VertexPositioning");

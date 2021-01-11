@@ -46,9 +46,9 @@ namespace GlobalNamespace {
     // Set static field: static public GameScenesManager/ScenePresentType Activate
     static void _set_Activate(GlobalNamespace::GameScenesManager::ScenePresentType value);
   }; // GameScenesManager/ScenePresentType
+  #pragma pack(pop)
   static check_size<sizeof(GameScenesManager::ScenePresentType), 0 + sizeof(int)> __GlobalNamespace_GameScenesManager_ScenePresentTypeSizeCheck;
   static_assert(sizeof(GameScenesManager::ScenePresentType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::ScenePresentType, "", "GameScenesManager/ScenePresentType");

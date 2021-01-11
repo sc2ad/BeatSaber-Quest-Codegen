@@ -99,8 +99,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Byte[] IAsymmetricBlockCipher::ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
     ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* inBuf, int inOff, int inLen);
   }; // Org.BouncyCastle.Crypto.Engines.RsaBlindedEngine
+  #pragma pack(pop)
   static check_size<sizeof(RsaBlindedEngine), 32 + sizeof(Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Engines_RsaBlindedEngineSizeCheck;
   static_assert(sizeof(RsaBlindedEngine) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine*, "Org.BouncyCastle.Crypto.Engines", "RsaBlindedEngine");

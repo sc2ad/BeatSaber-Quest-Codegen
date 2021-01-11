@@ -25,7 +25,7 @@ namespace Mono {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Mono.RuntimeStructs/MonoClass
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::MonoClass, "Mono", "RuntimeStructs/MonoClass");

@@ -168,8 +168,8 @@ namespace GlobalNamespace {
     // Base method: UnityEngine.Transform IMultiplayerSpectatingSpot::get_transform()
     UnityEngine::Transform* GlobalNamespace_IMultiplayerSpectatingSpot_get_transform();
   }; // MultiplayerConnectedPlayerSpectatingSpot
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerSpectatingSpot), 72 + sizeof(bool)> __GlobalNamespace_MultiplayerConnectedPlayerSpectatingSpotSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerSpectatingSpot) == 0x49);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot*, "", "MultiplayerConnectedPlayerSpectatingSpot");

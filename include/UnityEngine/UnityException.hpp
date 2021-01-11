@@ -58,6 +58,6 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<UnityException*, creationType>(info, context)));
     }
   }; // UnityEngine.UnityException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityException*, "UnityEngine", "UnityException");

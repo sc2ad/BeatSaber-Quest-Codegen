@@ -140,8 +140,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<SeedEngine*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Engines.SeedEngine
+  #pragma pack(pop)
   static check_size<sizeof(SeedEngine), 24 + sizeof(bool)> __Org_BouncyCastle_Crypto_Engines_SeedEngineSizeCheck;
   static_assert(sizeof(SeedEngine) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::SeedEngine*, "Org.BouncyCastle.Crypto.Engines", "SeedEngine");

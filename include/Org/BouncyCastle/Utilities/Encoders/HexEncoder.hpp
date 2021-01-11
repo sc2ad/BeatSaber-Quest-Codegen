@@ -66,8 +66,8 @@ namespace Org::BouncyCastle::Utilities::Encoders {
       return THROW_UNLESS((::il2cpp_utils::New<HexEncoder*, creationType>()));
     }
   }; // Org.BouncyCastle.Utilities.Encoders.HexEncoder
+  #pragma pack(pop)
   static check_size<sizeof(HexEncoder), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Utilities_Encoders_HexEncoderSizeCheck;
   static_assert(sizeof(HexEncoder) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::HexEncoder*, "Org.BouncyCastle.Utilities.Encoders", "HexEncoder");

@@ -42,6 +42,6 @@ namespace UnityEngine::TestTools {
       return THROW_UNLESS((::il2cpp_utils::New<TestCommandPcHelper*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestCommandPcHelper
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestCommandPcHelper*, "UnityEngine.TestTools", "TestCommandPcHelper");

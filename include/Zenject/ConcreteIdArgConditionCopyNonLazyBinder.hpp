@@ -47,6 +47,6 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ConcreteIdArgConditionCopyNonLazyBinder*, creationType>(bindInfo)));
     }
   }; // Zenject.ConcreteIdArgConditionCopyNonLazyBinder
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "ConcreteIdArgConditionCopyNonLazyBinder");

@@ -84,8 +84,8 @@ namespace Mono::Net {
       return THROW_UNLESS((::il2cpp_utils::New<CFNetwork::GetProxyData*, creationType>()));
     }
   }; // Mono.Net.CFNetwork/GetProxyData
+  #pragma pack(pop)
   static check_size<sizeof(CFNetwork::GetProxyData), 48 + sizeof(System::Threading::ManualResetEvent*)> __Mono_Net_CFNetwork_GetProxyDataSizeCheck;
   static_assert(sizeof(CFNetwork::GetProxyData) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::GetProxyData*, "Mono.Net", "CFNetwork/GetProxyData");

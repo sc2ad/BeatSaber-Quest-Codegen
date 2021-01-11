@@ -46,8 +46,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyValuesSetter::PropertyNameVectorValuePair*, creationType>()));
     }
   }; // MaterialPropertyValuesSetter/PropertyNameVectorValuePair
+  #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyValuesSetter::PropertyNameVectorValuePair), 28 + sizeof(UnityEngine::Vector4)> __GlobalNamespace_MaterialPropertyValuesSetter_PropertyNameVectorValuePairSizeCheck;
   static_assert(sizeof(MaterialPropertyValuesSetter::PropertyNameVectorValuePair) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*, "", "MaterialPropertyValuesSetter/PropertyNameVectorValuePair");

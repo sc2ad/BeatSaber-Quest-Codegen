@@ -71,7 +71,7 @@ namespace NetEase::Docker {
     // Offset: 0xFFFFFFFF
     void UpdateLoop();
   }; // NetEase.Docker.IDock
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::IDock*, "NetEase.Docker", "IDock");

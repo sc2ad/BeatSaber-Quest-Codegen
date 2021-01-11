@@ -470,6 +470,7 @@ namespace System {
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.Decimal
+  #pragma pack(pop)
   static check_size<sizeof(Decimal), 12 + sizeof(int)> __System_DecimalSizeCheck;
   static_assert(sizeof(Decimal) == 0x10);
   // static public System.Decimal op_Subtraction(System.Decimal d1, System.Decimal d2)
@@ -488,5 +489,4 @@ namespace System {
   // Offset: 0x166F6EC
   bool operator >(const System::Decimal& d1, const System::Decimal& d2);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Decimal, "System", "Decimal");

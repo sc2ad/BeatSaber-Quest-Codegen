@@ -61,6 +61,6 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<AmbiguousMatchException*, creationType>(info, context)));
     }
   }; // System.Reflection.AmbiguousMatchException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AmbiguousMatchException*, "System.Reflection", "AmbiguousMatchException");

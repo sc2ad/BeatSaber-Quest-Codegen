@@ -251,8 +251,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameEnergyCounter*, creationType>()));
     }
   }; // GameEnergyCounter
+  #pragma pack(pop)
   static check_size<sizeof(GameEnergyCounter), 108 + sizeof(float)> __GlobalNamespace_GameEnergyCounterSizeCheck;
   static_assert(sizeof(GameEnergyCounter) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyCounter*, "", "GameEnergyCounter");

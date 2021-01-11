@@ -65,8 +65,8 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECMultiplier::MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
     Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k);
   }; // Org.BouncyCastle.Math.EC.Multiplier.GlvMultiplier
+  #pragma pack(pop)
   static check_size<sizeof(GlvMultiplier), 24 + sizeof(Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*)> __Org_BouncyCastle_Math_EC_Multiplier_GlvMultiplierSizeCheck;
   static_assert(sizeof(GlvMultiplier) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier*, "Org.BouncyCastle.Math.EC.Multiplier", "GlvMultiplier");

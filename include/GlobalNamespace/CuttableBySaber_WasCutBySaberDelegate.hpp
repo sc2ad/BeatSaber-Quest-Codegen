@@ -61,6 +61,6 @@ namespace GlobalNamespace {
     // Offset: 0x1A586DC
     void EndInvoke(System::IAsyncResult* result);
   }; // CuttableBySaber/WasCutBySaberDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate*, "", "CuttableBySaber/WasCutBySaberDelegate");

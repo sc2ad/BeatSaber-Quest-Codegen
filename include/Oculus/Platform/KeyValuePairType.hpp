@@ -60,9 +60,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.KeyValuePairType Unknown
     static void _set_Unknown(Oculus::Platform::KeyValuePairType value);
   }; // Oculus.Platform.KeyValuePairType
+  #pragma pack(pop)
   static check_size<sizeof(KeyValuePairType), 0 + sizeof(int)> __Oculus_Platform_KeyValuePairTypeSizeCheck;
   static_assert(sizeof(KeyValuePairType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::KeyValuePairType, "Oculus.Platform", "KeyValuePairType");

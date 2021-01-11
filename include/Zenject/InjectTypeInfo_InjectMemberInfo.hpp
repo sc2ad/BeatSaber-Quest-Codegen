@@ -51,8 +51,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<InjectTypeInfo::InjectMemberInfo*, creationType>(setter, info)));
     }
   }; // Zenject.InjectTypeInfo/InjectMemberInfo
+  #pragma pack(pop)
   static check_size<sizeof(InjectTypeInfo::InjectMemberInfo), 24 + sizeof(Zenject::InjectableInfo*)> __Zenject_InjectTypeInfo_InjectMemberInfoSizeCheck;
   static_assert(sizeof(InjectTypeInfo::InjectMemberInfo) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectTypeInfo::InjectMemberInfo*, "Zenject", "InjectTypeInfo/InjectMemberInfo");

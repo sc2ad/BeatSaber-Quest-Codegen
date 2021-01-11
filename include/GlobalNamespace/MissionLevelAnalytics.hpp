@@ -70,8 +70,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelAnalytics*, creationType>()));
     }
   }; // MissionLevelAnalytics
+  #pragma pack(pop)
   static check_size<sizeof(MissionLevelAnalytics), 32 + sizeof(GlobalNamespace::IAnalyticsModel*)> __GlobalNamespace_MissionLevelAnalyticsSizeCheck;
   static_assert(sizeof(MissionLevelAnalytics) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelAnalytics*, "", "MissionLevelAnalytics");

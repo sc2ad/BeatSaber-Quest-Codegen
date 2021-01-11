@@ -77,8 +77,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ModifiersSelectionView*, creationType>()));
     }
   }; // ModifiersSelectionView
+  #pragma pack(pop)
   static check_size<sizeof(ModifiersSelectionView), 40 + sizeof(GlobalNamespace::GameplayModifiersModelSO*)> __GlobalNamespace_ModifiersSelectionViewSizeCheck;
   static_assert(sizeof(ModifiersSelectionView) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ModifiersSelectionView*, "", "ModifiersSelectionView");

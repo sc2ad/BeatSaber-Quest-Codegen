@@ -94,8 +94,8 @@ namespace System::Net::Sockets {
     // Offset: 0x1215C78
     System::Net::Sockets::TcpClient* EndAcceptTcpClient(System::IAsyncResult* asyncResult);
   }; // System.Net.Sockets.TcpListener
+  #pragma pack(pop)
   static check_size<sizeof(TcpListener), 33 + sizeof(bool)> __System_Net_Sockets_TcpListenerSizeCheck;
   static_assert(sizeof(TcpListener) == 0x22);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::TcpListener*, "System.Net.Sockets", "TcpListener");

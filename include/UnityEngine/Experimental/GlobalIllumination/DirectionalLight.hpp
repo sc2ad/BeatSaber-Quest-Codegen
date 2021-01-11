@@ -73,9 +73,9 @@ namespace UnityEngine::Experimental::GlobalIllumination {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.Experimental.GlobalIllumination.DirectionalLight
+  #pragma pack(pop)
   static check_size<sizeof(DirectionalLight), 52 + sizeof(float)> __UnityEngine_Experimental_GlobalIllumination_DirectionalLightSizeCheck;
   static_assert(sizeof(DirectionalLight) == 0x38);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::DirectionalLight, "UnityEngine.Experimental.GlobalIllumination", "DirectionalLight");

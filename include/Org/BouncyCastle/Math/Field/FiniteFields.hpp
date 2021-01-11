@@ -47,7 +47,7 @@ namespace Org::BouncyCastle::Math::Field {
     // Offset: 0x1792104
     static void _cctor();
   }; // Org.BouncyCastle.Math.Field.FiniteFields
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::FiniteFields*, "Org.BouncyCastle.Math.Field", "FiniteFields");

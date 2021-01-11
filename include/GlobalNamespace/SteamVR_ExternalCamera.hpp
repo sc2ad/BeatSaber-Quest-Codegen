@@ -176,6 +176,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // SteamVR_ExternalCamera/Config
+    #pragma pack(pop)
     static check_size<sizeof(SteamVR_ExternalCamera::Config), 72 + sizeof(bool)> __GlobalNamespace_SteamVR_ExternalCamera_ConfigSizeCheck;
     static_assert(sizeof(SteamVR_ExternalCamera::Config) == 0x49);
     // public SteamVR_ExternalCamera/Config config
@@ -297,9 +298,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_ExternalCamera*, creationType>()));
     }
   }; // SteamVR_ExternalCamera
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_ExternalCamera), 184 + sizeof(float)> __GlobalNamespace_SteamVR_ExternalCameraSizeCheck;
   static_assert(sizeof(SteamVR_ExternalCamera) == 0xBC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ExternalCamera*, "", "SteamVR_ExternalCamera");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ExternalCamera::Config, "", "SteamVR_ExternalCamera/Config");

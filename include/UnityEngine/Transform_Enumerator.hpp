@@ -71,8 +71,8 @@ namespace UnityEngine {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.Transform/Enumerator
+  #pragma pack(pop)
   static check_size<sizeof(Transform::Enumerator), 24 + sizeof(int)> __UnityEngine_Transform_EnumeratorSizeCheck;
   static_assert(sizeof(Transform::Enumerator) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Transform::Enumerator*, "UnityEngine", "Transform/Enumerator");

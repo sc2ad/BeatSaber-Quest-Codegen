@@ -58,8 +58,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterSpawnEventEffect::PrefabWithId*, creationType>()));
     }
   }; // BTSCharacterSpawnEventEffect/PrefabWithId
+  #pragma pack(pop)
   static check_size<sizeof(BTSCharacterSpawnEventEffect::PrefabWithId), 24 + sizeof(GlobalNamespace::BTSCharacter*)> __GlobalNamespace_BTSCharacterSpawnEventEffect_PrefabWithIdSizeCheck;
   static_assert(sizeof(BTSCharacterSpawnEventEffect::PrefabWithId) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnEventEffect::PrefabWithId*, "", "BTSCharacterSpawnEventEffect/PrefabWithId");

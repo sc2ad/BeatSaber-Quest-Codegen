@@ -57,6 +57,6 @@ namespace Valve::VR {
     // Offset: 0x19237AC
     Valve::VR::EVRScreenshotError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRScreenshots/_SubmitScreenshot
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRScreenshots::_SubmitScreenshot*, "Valve.VR", "IVRScreenshots/_SubmitScreenshot");

@@ -50,6 +50,6 @@ namespace Oculus::Platform {
     // Offset: 0x19FC494
     void EndInvoke(System::IAsyncResult* result);
   }; // Oculus.Platform.WindowsPlatform/UnityLogDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::WindowsPlatform::UnityLogDelegate*, "Oculus.Platform", "WindowsPlatform/UnityLogDelegate");

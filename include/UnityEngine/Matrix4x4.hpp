@@ -263,6 +263,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Matrix4x4
+  #pragma pack(pop)
   static check_size<sizeof(Matrix4x4), 60 + sizeof(float)> __UnityEngine_Matrix4x4SizeCheck;
   static_assert(sizeof(Matrix4x4) == 0x40);
   // static public UnityEngine.Matrix4x4 op_Multiply(UnityEngine.Matrix4x4 lhs, UnityEngine.Matrix4x4 rhs)
@@ -272,5 +273,4 @@ namespace UnityEngine {
   // Offset: 0x17290F4
   UnityEngine::Vector4 operator*(const UnityEngine::Matrix4x4& lhs, const UnityEngine::Vector4& vector);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Matrix4x4, "UnityEngine", "Matrix4x4");

@@ -138,8 +138,8 @@ namespace GlobalNamespace {
     // Offset: 0xF28A64
     void IncreaseNumberOfGameplays();
   }; // PlayerLevelStatsData
+  #pragma pack(pop)
   static check_size<sizeof(PlayerLevelStatsData), 56 + sizeof(GlobalNamespace::BeatmapCharacteristicSO*)> __GlobalNamespace_PlayerLevelStatsDataSizeCheck;
   static_assert(sizeof(PlayerLevelStatsData) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerLevelStatsData*, "", "PlayerLevelStatsData");

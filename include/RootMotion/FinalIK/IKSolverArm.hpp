@@ -161,8 +161,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverArm*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolverArm
+  #pragma pack(pop)
   static check_size<sizeof(IKSolverArm), 176 + sizeof(::Array<UnityEngine::Quaternion>*)> __RootMotion_FinalIK_IKSolverArmSizeCheck;
   static_assert(sizeof(IKSolverArm) == 0xB8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverArm*, "RootMotion.FinalIK", "IKSolverArm");

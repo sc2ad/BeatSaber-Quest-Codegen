@@ -44,9 +44,9 @@ namespace Zenject {
     // Set static field: static public Zenject.ValidationErrorResponses Throw
     static void _set_Throw(Zenject::ValidationErrorResponses value);
   }; // Zenject.ValidationErrorResponses
+  #pragma pack(pop)
   static check_size<sizeof(ValidationErrorResponses), 0 + sizeof(int)> __Zenject_ValidationErrorResponsesSizeCheck;
   static_assert(sizeof(ValidationErrorResponses) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ValidationErrorResponses, "Zenject", "ValidationErrorResponses");

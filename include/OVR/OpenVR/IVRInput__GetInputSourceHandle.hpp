@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1864A98
     OVR::OpenVR::EVRInputError EndInvoke(uint64_t& pHandle, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_GetInputSourceHandle
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_GetInputSourceHandle*, "OVR.OpenVR", "IVRInput/_GetInputSourceHandle");

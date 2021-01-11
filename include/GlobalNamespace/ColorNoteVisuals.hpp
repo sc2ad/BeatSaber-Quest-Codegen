@@ -163,8 +163,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // ColorNoteVisuals
+  #pragma pack(pop)
   static check_size<sizeof(ColorNoteVisuals), 88 + sizeof(UnityEngine::Color)> __GlobalNamespace_ColorNoteVisualsSizeCheck;
   static_assert(sizeof(ColorNoteVisuals) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorNoteVisuals*, "", "ColorNoteVisuals");

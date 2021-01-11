@@ -66,8 +66,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsAvatarController*, creationType>()));
     }
   }; // MultiplayerResultsAvatarController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsAvatarController), 32 + sizeof(GlobalNamespace::MultiplayerAvatarPoseController*)> __GlobalNamespace_MultiplayerResultsAvatarControllerSizeCheck;
   static_assert(sizeof(MultiplayerResultsAvatarController) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsAvatarController*, "", "MultiplayerResultsAvatarController");

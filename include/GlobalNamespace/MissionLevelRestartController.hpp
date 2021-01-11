@@ -77,8 +77,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelRestartController*, creationType>()));
     }
   }; // MissionLevelRestartController
+  #pragma pack(pop)
   static check_size<sizeof(MissionLevelRestartController), 40 + sizeof(GlobalNamespace::MissionObjectiveCheckersManager*)> __GlobalNamespace_MissionLevelRestartControllerSizeCheck;
   static_assert(sizeof(MissionLevelRestartController) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelRestartController*, "", "MissionLevelRestartController");

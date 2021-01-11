@@ -49,8 +49,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassGraphicsSettingsPresetsSO::Preset*, creationType>()));
     }
   }; // BloomPrePassGraphicsSettingsPresetsSO/Preset
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePassGraphicsSettingsPresetsSO::Preset), 24 + sizeof(GlobalNamespace::BloomPrePassEffectSO*)> __GlobalNamespace_BloomPrePassGraphicsSettingsPresetsSO_PresetSizeCheck;
   static_assert(sizeof(BloomPrePassGraphicsSettingsPresetsSO::Preset) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*, "", "BloomPrePassGraphicsSettingsPresetsSO/Preset");

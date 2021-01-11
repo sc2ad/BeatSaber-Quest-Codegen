@@ -87,6 +87,7 @@ namespace MasterServer {
       // Set static field: static public MasterServer.GetAvailableRelayServerResponse/Result UnknownError
       static void _set_UnknownError(MasterServer::GetAvailableRelayServerResponse::Result value);
     }; // MasterServer.GetAvailableRelayServerResponse/Result
+    #pragma pack(pop)
     static check_size<sizeof(GetAvailableRelayServerResponse::Result), 0 + sizeof(int)> __MasterServer_GetAvailableRelayServerResponse_ResultSizeCheck;
     static_assert(sizeof(GetAvailableRelayServerResponse::Result) == 0x4);
     // public MasterServer.GetAvailableRelayServerResponse/Result result
@@ -210,9 +211,9 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<GetAvailableRelayServerResponse*, creationType>()));
     }
   }; // MasterServer.GetAvailableRelayServerResponse
+  #pragma pack(pop)
   static check_size<sizeof(GetAvailableRelayServerResponse), 72 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_GetAvailableRelayServerResponseSizeCheck;
   static_assert(sizeof(GetAvailableRelayServerResponse) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetAvailableRelayServerResponse*, "MasterServer", "GetAvailableRelayServerResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetAvailableRelayServerResponse::Result, "MasterServer", "GetAvailableRelayServerResponse/Result");

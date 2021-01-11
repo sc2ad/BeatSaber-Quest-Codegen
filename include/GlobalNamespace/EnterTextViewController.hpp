@@ -101,8 +101,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnterTextViewController*, creationType>()));
     }
   }; // EnterTextViewController
+  #pragma pack(pop)
   static check_size<sizeof(EnterTextViewController), 136 + sizeof(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>*)> __GlobalNamespace_EnterTextViewControllerSizeCheck;
   static_assert(sizeof(EnterTextViewController) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnterTextViewController*, "", "EnterTextViewController");

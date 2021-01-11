@@ -20,7 +20,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0x16BE168
     static bool get_isFinished();
   }; // UnityEngine.Rendering.SplashScreen
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SplashScreen*, "UnityEngine.Rendering", "SplashScreen");

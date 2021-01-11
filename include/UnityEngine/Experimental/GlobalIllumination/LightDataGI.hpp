@@ -153,9 +153,9 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Offset: 0xCA4E54
     void InitNoBake(int lightInstanceID);
   }; // UnityEngine.Experimental.GlobalIllumination.LightDataGI
+  #pragma pack(pop)
   static check_size<sizeof(LightDataGI), 87 + sizeof(UnityEngine::Experimental::GlobalIllumination::FalloffType)> __UnityEngine_Experimental_GlobalIllumination_LightDataGISizeCheck;
   static_assert(sizeof(LightDataGI) == 0x58);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LightDataGI, "UnityEngine.Experimental.GlobalIllumination", "LightDataGI");

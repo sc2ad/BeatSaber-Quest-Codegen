@@ -60,9 +60,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.LivestreamingAudience OnlyMe
     static void _set_OnlyMe(Oculus::Platform::LivestreamingAudience value);
   }; // Oculus.Platform.LivestreamingAudience
+  #pragma pack(pop)
   static check_size<sizeof(LivestreamingAudience), 0 + sizeof(int)> __Oculus_Platform_LivestreamingAudienceSizeCheck;
   static_assert(sizeof(LivestreamingAudience) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LivestreamingAudience, "Oculus.Platform", "LivestreamingAudience");

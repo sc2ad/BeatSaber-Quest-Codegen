@@ -122,8 +122,8 @@ namespace System::Xml {
     // Base method: System.Void HtmlEncodedRawTextWriter::Init(System.Xml.XmlWriterSettings settings)
     void Init(System::Xml::XmlWriterSettings* settings);
   }; // System.Xml.HtmlEncodedRawTextWriterIndent
+  #pragma pack(pop)
   static check_size<sizeof(HtmlEncodedRawTextWriterIndent), 248 + sizeof(bool)> __System_Xml_HtmlEncodedRawTextWriterIndentSizeCheck;
   static_assert(sizeof(HtmlEncodedRawTextWriterIndent) == 0xF9);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlEncodedRawTextWriterIndent*, "System.Xml", "HtmlEncodedRawTextWriterIndent");

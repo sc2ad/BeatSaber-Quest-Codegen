@@ -43,8 +43,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::PracticeSettings*, creationType>()));
     }
   }; // PlayerSaveData/PracticeSettings
+  #pragma pack(pop)
   static check_size<sizeof(PlayerSaveData::PracticeSettings), 20 + sizeof(float)> __GlobalNamespace_PlayerSaveData_PracticeSettingsSizeCheck;
   static_assert(sizeof(PlayerSaveData::PracticeSettings) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PracticeSettings*, "", "PlayerSaveData/PracticeSettings");

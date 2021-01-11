@@ -67,8 +67,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionNodeGizmos*, creationType>()));
     }
   }; // MissionNodeGizmos
+  #pragma pack(pop)
   static check_size<sizeof(MissionNodeGizmos), 40 + sizeof(GlobalNamespace::CampaignProgressModel*)> __GlobalNamespace_MissionNodeGizmosSizeCheck;
   static_assert(sizeof(MissionNodeGizmos) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeGizmos*, "", "MissionNodeGizmos");

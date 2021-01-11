@@ -64,8 +64,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OverrideEnvironmentSettings*, creationType>()));
     }
   }; // OverrideEnvironmentSettings
+  #pragma pack(pop)
   static check_size<sizeof(OverrideEnvironmentSettings), 24 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::EnvironmentTypeSO*, GlobalNamespace::EnvironmentInfoSO*>*)> __GlobalNamespace_OverrideEnvironmentSettingsSizeCheck;
   static_assert(sizeof(OverrideEnvironmentSettings) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OverrideEnvironmentSettings*, "", "OverrideEnvironmentSettings");

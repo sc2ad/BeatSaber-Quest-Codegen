@@ -60,8 +60,8 @@ namespace System::Threading::Tasks {
     // Base method: System.Void AwaitTaskContinuation::Run(System.Threading.Tasks.Task ignored, System.Boolean canInlineContinuationTask)
     void Run(System::Threading::Tasks::Task* ignored, bool canInlineContinuationTask);
   }; // System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation
+  #pragma pack(pop)
   static check_size<sizeof(TaskSchedulerAwaitTaskContinuation), 32 + sizeof(System::Threading::Tasks::TaskScheduler*)> __System_Threading_Tasks_TaskSchedulerAwaitTaskContinuationSizeCheck;
   static_assert(sizeof(TaskSchedulerAwaitTaskContinuation) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation*, "System.Threading.Tasks", "TaskSchedulerAwaitTaskContinuation");

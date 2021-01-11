@@ -267,9 +267,9 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // TMPro.TMP_CharacterInfo
+  #pragma pack(pop)
   static check_size<sizeof(TMP_CharacterInfo), 336 + sizeof(bool)> __TMPro_TMP_CharacterInfoSizeCheck;
   static_assert(sizeof(TMP_CharacterInfo) == 0x151);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_CharacterInfo, "TMPro", "TMP_CharacterInfo");

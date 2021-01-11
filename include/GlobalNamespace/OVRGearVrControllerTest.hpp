@@ -99,8 +99,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // OVRGearVrControllerTest
+  #pragma pack(pop)
   static check_size<sizeof(OVRGearVrControllerTest), 40 + sizeof(System::Text::StringBuilder*)> __GlobalNamespace_OVRGearVrControllerTestSizeCheck;
   static_assert(sizeof(OVRGearVrControllerTest) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGearVrControllerTest*, "", "OVRGearVrControllerTest");

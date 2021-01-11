@@ -47,8 +47,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HorizontalCameraFov*, creationType>()));
     }
   }; // HorizontalCameraFov
+  #pragma pack(pop)
   static check_size<sizeof(HorizontalCameraFov), 24 + sizeof(float)> __GlobalNamespace_HorizontalCameraFovSizeCheck;
   static_assert(sizeof(HorizontalCameraFov) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HorizontalCameraFov*, "", "HorizontalCameraFov");

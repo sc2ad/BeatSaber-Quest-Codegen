@@ -53,8 +53,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<InstantiatePrefab*, creationType>()));
     }
   }; // InstantiatePrefab
+  #pragma pack(pop)
   static check_size<sizeof(InstantiatePrefab), 24 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_InstantiatePrefabSizeCheck;
   static_assert(sizeof(InstantiatePrefab) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstantiatePrefab*, "", "InstantiatePrefab");

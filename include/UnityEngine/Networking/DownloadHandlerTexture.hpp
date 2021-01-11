@@ -90,8 +90,8 @@ namespace UnityEngine::Networking {
     // Base method: System.Byte[] DownloadHandler::GetData()
     ::Array<uint8_t>* GetData();
   }; // UnityEngine.Networking.DownloadHandlerTexture
+  #pragma pack(pop)
   static check_size<sizeof(DownloadHandlerTexture), 33 + sizeof(bool)> __UnityEngine_Networking_DownloadHandlerTextureSizeCheck;
   static_assert(sizeof(DownloadHandlerTexture) == 0x22);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerTexture*, "UnityEngine.Networking", "DownloadHandlerTexture");

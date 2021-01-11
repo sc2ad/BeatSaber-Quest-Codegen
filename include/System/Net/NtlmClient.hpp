@@ -71,8 +71,8 @@ namespace System::Net {
     // Base method: System.String IAuthenticationModule::get_AuthenticationType()
     ::Il2CppString* get_AuthenticationType();
   }; // System.Net.NtlmClient
+  #pragma pack(pop)
   static check_size<sizeof(NtlmClient), 16 + sizeof(System::Net::IAuthenticationModule*)> __System_Net_NtlmClientSizeCheck;
   static_assert(sizeof(NtlmClient) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NtlmClient*, "System.Net", "NtlmClient");

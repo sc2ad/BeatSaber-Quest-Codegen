@@ -79,8 +79,8 @@ namespace System::IO {
     // Base method: System.String StreamReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();
   }; // System.IO.CStreamReader
+  #pragma pack(pop)
   static check_size<sizeof(CStreamReader), 104 + sizeof(System::TermInfoDriver*)> __System_IO_CStreamReaderSizeCheck;
   static_assert(sizeof(CStreamReader) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::CStreamReader*, "System.IO", "CStreamReader");

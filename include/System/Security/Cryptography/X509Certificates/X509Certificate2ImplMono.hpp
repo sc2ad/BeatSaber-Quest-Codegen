@@ -310,8 +310,8 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Security.Cryptography.X509Certificates.X509Certificate2Impl X509Certificate2Impl::get_FallbackImpl()
     System::Security::Cryptography::X509Certificates::X509Certificate2Impl* get_FallbackImpl();
   }; // System.Security.Cryptography.X509Certificates.X509Certificate2ImplMono
+  #pragma pack(pop)
   static check_size<sizeof(X509Certificate2ImplMono), 80 + sizeof(Mono::Security::X509::X509Certificate*)> __System_Security_Cryptography_X509Certificates_X509Certificate2ImplMonoSizeCheck;
   static_assert(sizeof(X509Certificate2ImplMono) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono*, "System.Security.Cryptography.X509Certificates", "X509Certificate2ImplMono");

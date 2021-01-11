@@ -73,8 +73,8 @@ namespace Mono::Security::X509 {
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
   }; // Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(X509CertificateCollection::X509CertificateEnumerator), 16 + sizeof(System::Collections::IEnumerator*)> __Mono_Security_X509_X509CertificateCollection_X509CertificateEnumeratorSizeCheck;
   static_assert(sizeof(X509CertificateCollection::X509CertificateEnumerator) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509CertificateCollection::X509CertificateEnumerator*, "Mono.Security.X509", "X509CertificateCollection/X509CertificateEnumerator");

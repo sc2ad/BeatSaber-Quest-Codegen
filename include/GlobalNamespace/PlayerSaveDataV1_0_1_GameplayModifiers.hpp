@@ -68,6 +68,7 @@ namespace GlobalNamespace {
       // Set static field: static public PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType None
       static void _set_None(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType value);
     }; // PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType
+    #pragma pack(pop)
     static check_size<sizeof(PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType), 0 + sizeof(int)> __GlobalNamespace_PlayerSaveDataV1_0_1_GameplayModifiers_EnabledObstacleTypeSizeCheck;
     static_assert(sizeof(PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType) == 0x4);
     // Size: 0x4
@@ -105,6 +106,7 @@ namespace GlobalNamespace {
       // Set static field: static public PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType Battery
       static void _set_Battery(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType value);
     }; // PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType
+    #pragma pack(pop)
     static check_size<sizeof(PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType), 0 + sizeof(int)> __GlobalNamespace_PlayerSaveDataV1_0_1_GameplayModifiers_EnergyTypeSizeCheck;
     static_assert(sizeof(PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType) == 0x4);
     // Size: 0x4
@@ -148,6 +150,7 @@ namespace GlobalNamespace {
       // Set static field: static public PlayerSaveDataV1_0_1/GameplayModifiers/SongSpeed Slower
       static void _set_Slower(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed value);
     }; // PlayerSaveDataV1_0_1/GameplayModifiers/SongSpeed
+    #pragma pack(pop)
     static check_size<sizeof(PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed), 0 + sizeof(int)> __GlobalNamespace_PlayerSaveDataV1_0_1_GameplayModifiers_SongSpeedSizeCheck;
     static_assert(sizeof(PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed) == 0x4);
     // public PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType energyType
@@ -224,10 +227,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveDataV1_0_1::GameplayModifiers*, creationType>()));
     }
   }; // PlayerSaveDataV1_0_1/GameplayModifiers
+  #pragma pack(pop)
   static check_size<sizeof(PlayerSaveDataV1_0_1::GameplayModifiers), 32 + sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed)> __GlobalNamespace_PlayerSaveDataV1_0_1_GameplayModifiersSizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1::GameplayModifiers) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers*, "", "PlayerSaveDataV1_0_1/GameplayModifiers");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType");

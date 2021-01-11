@@ -41,8 +41,8 @@ namespace OnlineServices::API {
       return THROW_UNLESS((::il2cpp_utils::New<HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*, creationType>()));
     }
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/LeaderboardsInfoDto
+  #pragma pack(pop)
   static check_size<sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto), 16 + sizeof(bool)> __OnlineServices_API_HTTPAdminLeaderboardsHelper_LeaderboardsInfoDtoSizeCheck;
   static_assert(sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/LeaderboardsInfoDto");

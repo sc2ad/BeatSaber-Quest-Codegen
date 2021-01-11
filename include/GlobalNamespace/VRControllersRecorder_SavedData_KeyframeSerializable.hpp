@@ -163,8 +163,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorder::SavedData::KeyframeSerializable*, creationType>()));
     }
   }; // VRControllersRecorder/SavedData/KeyframeSerializable
+  #pragma pack(pop)
   static check_size<sizeof(VRControllersRecorder::SavedData::KeyframeSerializable), 100 + sizeof(float)> __GlobalNamespace_VRControllersRecorder_SavedData_KeyframeSerializableSizeCheck;
   static_assert(sizeof(VRControllersRecorder::SavedData::KeyframeSerializable) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*, "", "VRControllersRecorder/SavedData/KeyframeSerializable");

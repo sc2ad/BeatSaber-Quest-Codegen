@@ -72,6 +72,7 @@ namespace System::Net {
       // Set static field: static public System.Net.TimerThread/TimerNode/TimerState Sentinel
       static void _set_Sentinel(System::Net::TimerThread::TimerNode::TimerState value);
     }; // System.Net.TimerThread/TimerNode/TimerState
+    #pragma pack(pop)
     static check_size<sizeof(TimerThread::TimerNode::TimerState), 0 + sizeof(int)> __System_Net_TimerThread_TimerNode_TimerStateSizeCheck;
     static_assert(sizeof(TimerThread::TimerNode::TimerState) == 0x4);
     // private System.Net.TimerThread/TimerNode/TimerState m_TimerState
@@ -141,9 +142,9 @@ namespace System::Net {
     // Base method: System.Boolean Timer::Cancel()
     bool Cancel();
   }; // System.Net.TimerThread/TimerNode
+  #pragma pack(pop)
   static check_size<sizeof(TimerThread::TimerNode), 64 + sizeof(System::Net::TimerThread::TimerNode*)> __System_Net_TimerThread_TimerNodeSizeCheck;
   static_assert(sizeof(TimerThread::TimerNode) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerNode*, "System.Net", "TimerThread/TimerNode");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerNode::TimerState, "System.Net", "TimerThread/TimerNode/TimerState");

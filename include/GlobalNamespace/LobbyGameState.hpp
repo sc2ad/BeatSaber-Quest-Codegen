@@ -67,8 +67,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LobbyGameState*, creationType>()));
     }
   }; // LobbyGameState
+  #pragma pack(pop)
   static check_size<sizeof(LobbyGameState), 24 + sizeof(GlobalNamespace::MultiplayerGameState)> __GlobalNamespace_LobbyGameStateSizeCheck;
   static_assert(sizeof(LobbyGameState) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyGameState*, "", "LobbyGameState");

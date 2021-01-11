@@ -48,8 +48,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnableDepthTextureMode*, creationType>()));
     }
   }; // EnableDepthTextureMode
+  #pragma pack(pop)
   static check_size<sizeof(EnableDepthTextureMode), 24 + sizeof(UnityEngine::DepthTextureMode)> __GlobalNamespace_EnableDepthTextureModeSizeCheck;
   static_assert(sizeof(EnableDepthTextureMode) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableDepthTextureMode*, "", "EnableDepthTextureMode");

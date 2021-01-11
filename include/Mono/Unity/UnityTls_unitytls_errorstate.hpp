@@ -45,9 +45,9 @@ namespace Mono::Unity {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Mono.Unity.UnityTls/unitytls_errorstate
+  #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_errorstate), 8 + sizeof(uint64_t)> __Mono_Unity_UnityTls_unitytls_errorstateSizeCheck;
   static_assert(sizeof(UnityTls::unitytls_errorstate) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_errorstate, "Mono.Unity", "UnityTls/unitytls_errorstate");

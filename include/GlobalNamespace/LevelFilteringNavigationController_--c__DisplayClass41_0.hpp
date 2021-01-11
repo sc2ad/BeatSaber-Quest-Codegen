@@ -55,8 +55,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelFilteringNavigationController::$$c__DisplayClass41_0*, creationType>()));
     }
   }; // LevelFilteringNavigationController/<>c__DisplayClass41_0
+  #pragma pack(pop)
   static check_size<sizeof(LevelFilteringNavigationController::$$c__DisplayClass41_0), 16 + sizeof(GlobalNamespace::IBeatmapLevelPack*)> __GlobalNamespace_LevelFilteringNavigationController_$$c__DisplayClass41_0SizeCheck;
   static_assert(sizeof(LevelFilteringNavigationController::$$c__DisplayClass41_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass41_0*, "", "LevelFilteringNavigationController/<>c__DisplayClass41_0");

@@ -59,6 +59,7 @@ namespace UnityEngine {
       // Offset: 0x1A0737C
       static bool Compare(UnityEngine::SendMouseEvents::HitInfo lhs, UnityEngine::SendMouseEvents::HitInfo rhs);
     }; // UnityEngine.SendMouseEvents/HitInfo
+    #pragma pack(pop)
     static check_size<sizeof(SendMouseEvents::HitInfo), 8 + sizeof(UnityEngine::Camera*)> __UnityEngine_SendMouseEvents_HitInfoSizeCheck;
     static_assert(sizeof(SendMouseEvents::HitInfo) == 0x10);
     // Creating value type constructor for type: SendMouseEvents
@@ -96,8 +97,8 @@ namespace UnityEngine {
     // Offset: 0x1A07448
     static void _cctor();
   }; // UnityEngine.SendMouseEvents
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SendMouseEvents*, "UnityEngine", "SendMouseEvents");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SendMouseEvents::HitInfo, "UnityEngine", "SendMouseEvents/HitInfo");

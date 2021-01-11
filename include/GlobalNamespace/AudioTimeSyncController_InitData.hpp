@@ -60,8 +60,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AudioTimeSyncController::InitData*, creationType>(audioClip, startSongTime, songTimeOffset, timeScale)));
     }
   }; // AudioTimeSyncController/InitData
+  #pragma pack(pop)
   static check_size<sizeof(AudioTimeSyncController::InitData), 32 + sizeof(float)> __GlobalNamespace_AudioTimeSyncController_InitDataSizeCheck;
   static_assert(sizeof(AudioTimeSyncController::InitData) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioTimeSyncController::InitData*, "", "AudioTimeSyncController/InitData");

@@ -58,9 +58,9 @@ namespace GlobalNamespace {
     // Set static field: static public LevelPackDetailViewController/ContentType Error
     static void _set_Error(GlobalNamespace::LevelPackDetailViewController::ContentType value);
   }; // LevelPackDetailViewController/ContentType
+  #pragma pack(pop)
   static check_size<sizeof(LevelPackDetailViewController::ContentType), 0 + sizeof(int)> __GlobalNamespace_LevelPackDetailViewController_ContentTypeSizeCheck;
   static_assert(sizeof(LevelPackDetailViewController::ContentType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController::ContentType, "", "LevelPackDetailViewController/ContentType");

@@ -154,8 +154,8 @@ namespace System::IO {
     // Maps to method: get_CompletedSynchronously
     bool System_IAsyncResult_get_CompletedSynchronously();
   }; // System.IO.Stream/SynchronousAsyncResult
+  #pragma pack(pop)
   static check_size<sizeof(Stream::SynchronousAsyncResult), 52 + sizeof(int)> __System_IO_Stream_SynchronousAsyncResultSizeCheck;
   static_assert(sizeof(Stream::SynchronousAsyncResult) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::SynchronousAsyncResult*, "System.IO", "Stream/SynchronousAsyncResult");

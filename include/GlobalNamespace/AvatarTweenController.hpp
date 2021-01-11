@@ -414,8 +414,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AvatarTweenController*, creationType>()));
     }
   }; // AvatarTweenController
+  #pragma pack(pop)
   static check_size<sizeof(AvatarTweenController), 308 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_AvatarTweenControllerSizeCheck;
   static_assert(sizeof(AvatarTweenController) == 0x140);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController*, "", "AvatarTweenController");

@@ -44,9 +44,9 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static public System.Runtime.Remoting.Messaging.ArgInfoType Out
     static void _set_Out(System::Runtime::Remoting::Messaging::ArgInfoType value);
   }; // System.Runtime.Remoting.Messaging.ArgInfoType
+  #pragma pack(pop)
   static check_size<sizeof(ArgInfoType), 0 + sizeof(uint8_t)> __System_Runtime_Remoting_Messaging_ArgInfoTypeSizeCheck;
   static_assert(sizeof(ArgInfoType) == 0x1);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ArgInfoType, "System.Runtime.Remoting.Messaging", "ArgInfoType");

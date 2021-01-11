@@ -57,8 +57,8 @@ namespace System::Runtime::Remoting {
     // Base method: System.Object[] IChannelInfo::get_ChannelData()
     ::Array<::Il2CppObject*>* get_ChannelData();
   }; // System.Runtime.Remoting.ChannelInfo
+  #pragma pack(pop)
   static check_size<sizeof(ChannelInfo), 16 + sizeof(::Array<::Il2CppObject*>*)> __System_Runtime_Remoting_ChannelInfoSizeCheck;
   static_assert(sizeof(ChannelInfo) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ChannelInfo*, "System.Runtime.Remoting", "ChannelInfo");

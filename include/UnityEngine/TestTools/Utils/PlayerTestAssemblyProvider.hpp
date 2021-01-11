@@ -64,8 +64,8 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0x1A03814
     void LoadAssemblies();
   }; // UnityEngine.TestTools.Utils.PlayerTestAssemblyProvider
+  #pragma pack(pop)
   static check_size<sizeof(PlayerTestAssemblyProvider), 24 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __UnityEngine_TestTools_Utils_PlayerTestAssemblyProviderSizeCheck;
   static_assert(sizeof(PlayerTestAssemblyProvider) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider*, "UnityEngine.TestTools.Utils", "PlayerTestAssemblyProvider");

@@ -157,8 +157,8 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Base method: System.Void IMac::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Macs.SipHash
+  #pragma pack(pop)
   static check_size<sizeof(SipHash), 84 + sizeof(int)> __Org_BouncyCastle_Crypto_Macs_SipHashSizeCheck;
   static_assert(sizeof(SipHash) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::SipHash*, "Org.BouncyCastle.Crypto.Macs", "SipHash");

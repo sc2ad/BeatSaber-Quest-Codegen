@@ -169,6 +169,6 @@ namespace System::IO {
     // Base method: System.Void Stream::SetLength(System.Int64 length)
     void SetLength(int64_t length);
   }; // System.IO.Stream/NullStream
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::NullStream*, "System.IO", "Stream/NullStream");

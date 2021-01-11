@@ -32,9 +32,9 @@ namespace OVR::OpenVR {
       return unHandle;
     }
   }; // OVR.OpenVR.VREvent_SpatialAnchor_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_SpatialAnchor_t), 0 + sizeof(uint)> __OVR_OpenVR_VREvent_SpatialAnchor_tSizeCheck;
   static_assert(sizeof(VREvent_SpatialAnchor_t) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_SpatialAnchor_t, "OVR.OpenVR", "VREvent_SpatialAnchor_t");

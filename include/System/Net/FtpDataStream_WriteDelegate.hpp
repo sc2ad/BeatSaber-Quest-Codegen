@@ -49,6 +49,6 @@ namespace System::Net {
     // Offset: 0x131FFC8
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Net.FtpDataStream/WriteDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpDataStream::WriteDelegate*, "System.Net", "FtpDataStream/WriteDelegate");

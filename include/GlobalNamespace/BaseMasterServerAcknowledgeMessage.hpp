@@ -93,8 +93,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BaseMasterServerAcknowledgeMessage*, creationType>()));
     }
   }; // BaseMasterServerAcknowledgeMessage
+  #pragma pack(pop)
   static check_size<sizeof(BaseMasterServerAcknowledgeMessage), 20 + sizeof(bool)> __GlobalNamespace_BaseMasterServerAcknowledgeMessageSizeCheck;
   static_assert(sizeof(BaseMasterServerAcknowledgeMessage) == 0x15);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMasterServerAcknowledgeMessage*, "", "BaseMasterServerAcknowledgeMessage");

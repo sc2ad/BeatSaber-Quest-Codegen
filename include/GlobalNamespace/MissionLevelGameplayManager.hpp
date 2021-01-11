@@ -106,6 +106,7 @@ namespace GlobalNamespace {
       // Set static field: static public MissionLevelGameplayManager/GameState Failed
       static void _set_Failed(GlobalNamespace::MissionLevelGameplayManager::GameState value);
     }; // MissionLevelGameplayManager/GameState
+    #pragma pack(pop)
     static check_size<sizeof(MissionLevelGameplayManager::GameState), 0 + sizeof(int)> __GlobalNamespace_MissionLevelGameplayManager_GameStateSizeCheck;
     static_assert(sizeof(MissionLevelGameplayManager::GameState) == 0x4);
     // private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
@@ -231,9 +232,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelGameplayManager*, creationType>()));
     }
   }; // MissionLevelGameplayManager
+  #pragma pack(pop)
   static check_size<sizeof(MissionLevelGameplayManager), 80 + sizeof(GlobalNamespace::MissionLevelGameplayManager::GameState)> __GlobalNamespace_MissionLevelGameplayManagerSizeCheck;
   static_assert(sizeof(MissionLevelGameplayManager) == 0x54);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelGameplayManager*, "", "MissionLevelGameplayManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelGameplayManager::GameState, "", "MissionLevelGameplayManager/GameState");

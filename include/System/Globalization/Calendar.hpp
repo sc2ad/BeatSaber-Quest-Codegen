@@ -384,8 +384,8 @@ namespace System::Globalization {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
   }; // System.Globalization.Calendar
+  #pragma pack(pop)
   static check_size<sizeof(Calendar), 24 + sizeof(int)> __System_Globalization_CalendarSizeCheck;
   static_assert(sizeof(Calendar) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Calendar*, "System.Globalization", "Calendar");

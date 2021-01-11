@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x1929B94
     Valve::VR::ETrackedControllerRole EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetControllerRoleForTrackedDeviceIndex
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetControllerRoleForTrackedDeviceIndex*, "Valve.VR", "IVRSystem/_GetControllerRoleForTrackedDeviceIndex");

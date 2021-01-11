@@ -93,8 +93,8 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Void BufferedCipherBase::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.BufferedStreamCipher
+  #pragma pack(pop)
   static check_size<sizeof(BufferedStreamCipher), 16 + sizeof(Org::BouncyCastle::Crypto::IStreamCipher*)> __Org_BouncyCastle_Crypto_BufferedStreamCipherSizeCheck;
   static_assert(sizeof(BufferedStreamCipher) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::BufferedStreamCipher*, "Org.BouncyCastle.Crypto", "BufferedStreamCipher");

@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18EF9DC
     Valve::VR::EVROverlayError EndInvoke(uint& punProcessId, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetDashboardOverlaySceneProcess
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetDashboardOverlaySceneProcess*, "Valve.VR", "IVROverlay/_GetDashboardOverlaySceneProcess");

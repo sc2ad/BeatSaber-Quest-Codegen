@@ -55,8 +55,8 @@ namespace System::Threading {
     // Offset: 0xCB6988
     bool get_IsExpired();
   }; // System.Threading.ReaderWriterLockSlim/TimeoutTracker
+  #pragma pack(pop)
   static check_size<sizeof(ReaderWriterLockSlim::TimeoutTracker), 4 + sizeof(int)> __System_Threading_ReaderWriterLockSlim_TimeoutTrackerSizeCheck;
   static_assert(sizeof(ReaderWriterLockSlim::TimeoutTracker) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim::TimeoutTracker, "System.Threading", "ReaderWriterLockSlim/TimeoutTracker");

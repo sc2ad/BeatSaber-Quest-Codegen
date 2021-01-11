@@ -84,8 +84,8 @@ namespace RootMotion::FinalIK {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // RootMotion.FinalIK.OffsetModifierVRIK/<Initiate>d__7
+  #pragma pack(pop)
   static check_size<sizeof(OffsetModifierVRIK::$Initiate$d__7), 32 + sizeof(RootMotion::FinalIK::OffsetModifierVRIK*)> __RootMotion_FinalIK_OffsetModifierVRIK_$Initiate$d__7SizeCheck;
   static_assert(sizeof(OffsetModifierVRIK::$Initiate$d__7) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifierVRIK::$Initiate$d__7*, "RootMotion.FinalIK", "OffsetModifierVRIK/<Initiate>d__7");

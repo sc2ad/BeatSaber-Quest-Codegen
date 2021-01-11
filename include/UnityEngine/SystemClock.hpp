@@ -29,7 +29,7 @@ namespace UnityEngine {
     // Offset: 0x16C2DBC
     static void _cctor();
   }; // UnityEngine.SystemClock
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SystemClock*, "UnityEngine", "SystemClock");

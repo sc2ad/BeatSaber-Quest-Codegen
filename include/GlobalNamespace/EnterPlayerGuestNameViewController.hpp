@@ -129,8 +129,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnterPlayerGuestNameViewController*, creationType>()));
     }
   }; // EnterPlayerGuestNameViewController
+  #pragma pack(pop)
   static check_size<sizeof(EnterPlayerGuestNameViewController), 152 + sizeof(GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate*)> __GlobalNamespace_EnterPlayerGuestNameViewControllerSizeCheck;
   static_assert(sizeof(EnterPlayerGuestNameViewController) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnterPlayerGuestNameViewController*, "", "EnterPlayerGuestNameViewController");

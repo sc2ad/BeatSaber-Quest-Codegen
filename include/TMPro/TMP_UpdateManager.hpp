@@ -140,8 +140,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_UpdateManager*, creationType>()));
     }
   }; // TMPro.TMP_UpdateManager
+  #pragma pack(pop)
   static check_size<sizeof(TMP_UpdateManager), 56 + sizeof(System::Collections::Generic::Dictionary_2<int, int>*)> __TMPro_TMP_UpdateManagerSizeCheck;
   static_assert(sizeof(TMP_UpdateManager) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_UpdateManager*, "TMPro", "TMP_UpdateManager");

@@ -150,8 +150,8 @@ namespace Mono::Security::X509 {
     // Offset: 0x19C5060
     bool VerifySignature(System::Security::Cryptography::AsymmetricAlgorithm* aa);
   }; // Mono.Security.X509.X509Crl
+  #pragma pack(pop)
   static check_size<sizeof(X509Crl), 88 + sizeof(::Array<uint8_t>*)> __Mono_Security_X509_X509CrlSizeCheck;
   static_assert(sizeof(X509Crl) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl*, "Mono.Security.X509", "X509Crl");

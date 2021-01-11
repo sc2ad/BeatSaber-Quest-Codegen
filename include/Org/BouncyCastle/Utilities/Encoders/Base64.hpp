@@ -19,7 +19,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Offset: 0x18BDB50
     static ::Array<uint8_t>* Decode(::Il2CppString* data);
   }; // Org.BouncyCastle.Utilities.Encoders.Base64
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::Base64*, "Org.BouncyCastle.Utilities.Encoders", "Base64");

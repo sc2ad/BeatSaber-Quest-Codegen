@@ -56,9 +56,9 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.MeshSyncState InSync
     static void _set_InSync(UnityEngine::ProBuilder::MeshSyncState value);
   }; // UnityEngine.ProBuilder.MeshSyncState
+  #pragma pack(pop)
   static check_size<sizeof(MeshSyncState), 0 + sizeof(int)> __UnityEngine_ProBuilder_MeshSyncStateSizeCheck;
   static_assert(sizeof(MeshSyncState) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshSyncState, "UnityEngine.ProBuilder", "MeshSyncState");

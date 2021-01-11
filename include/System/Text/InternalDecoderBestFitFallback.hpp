@@ -80,8 +80,8 @@ namespace System::Text {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Text.InternalDecoderBestFitFallback
+  #pragma pack(pop)
   static check_size<sizeof(InternalDecoderBestFitFallback), 40 + sizeof(::Il2CppChar)> __System_Text_InternalDecoderBestFitFallbackSizeCheck;
   static_assert(sizeof(InternalDecoderBestFitFallback) == 0x2A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalDecoderBestFitFallback*, "System.Text", "InternalDecoderBestFitFallback");

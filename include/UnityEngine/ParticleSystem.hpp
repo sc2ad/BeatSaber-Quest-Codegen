@@ -198,6 +198,7 @@ namespace UnityEngine {
       // Offset: 0xCB9354
       void set_angularVelocity3D(UnityEngine::Vector3 value);
     }; // UnityEngine.ParticleSystem/Particle
+    #pragma pack(pop)
     static check_size<sizeof(ParticleSystem::Particle), 128 + sizeof(uint)> __UnityEngine_ParticleSystem_ParticleSizeCheck;
     static_assert(sizeof(ParticleSystem::Particle) == 0x84);
     // Creating value type constructor for type: ParticleSystem
@@ -287,8 +288,8 @@ namespace UnityEngine {
     // Offset: 0x19FF8BC
     void Emit_Injected(UnityEngine::ParticleSystem::EmitParams& emitParams, int count);
   }; // UnityEngine.ParticleSystem
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem*, "UnityEngine", "ParticleSystem");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::Particle, "UnityEngine", "ParticleSystem/Particle");

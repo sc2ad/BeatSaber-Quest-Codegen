@@ -57,6 +57,6 @@ namespace Valve::VR {
     // Offset: 0x1918208
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::VROverlayIntersectionMaskPrimitive_t& pMaskPrimitives, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetOverlayIntersectionMask
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_SetOverlayIntersectionMask*, "Valve.VR", "IVROverlay/_SetOverlayIntersectionMask");

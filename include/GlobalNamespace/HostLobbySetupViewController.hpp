@@ -246,8 +246,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HostLobbySetupViewController*, creationType>()));
     }
   }; // HostLobbySetupViewController
+  #pragma pack(pop)
   static check_size<sizeof(HostLobbySetupViewController), 224 + sizeof(System::Action_1<bool>*)> __GlobalNamespace_HostLobbySetupViewControllerSizeCheck;
   static_assert(sizeof(HostLobbySetupViewController) == 0xE8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostLobbySetupViewController*, "", "HostLobbySetupViewController");

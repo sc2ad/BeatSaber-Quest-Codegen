@@ -52,8 +52,8 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<ActivityFilter::$$c__DisplayClass11_0*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.ActivityFilter/<>c__DisplayClass11_0
+  #pragma pack(pop)
   static check_size<sizeof(ActivityFilter::$$c__DisplayClass11_0), 16 + sizeof(System::Diagnostics::Tracing::ActivityFilter*)> __System_Diagnostics_Tracing_ActivityFilter_$$c__DisplayClass11_0SizeCheck;
   static_assert(sizeof(ActivityFilter::$$c__DisplayClass11_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ActivityFilter::$$c__DisplayClass11_0*, "System.Diagnostics.Tracing", "ActivityFilter/<>c__DisplayClass11_0");

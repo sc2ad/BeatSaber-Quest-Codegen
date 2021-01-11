@@ -168,8 +168,8 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Int32 IDigest::GetByteLength()
     int GetByteLength();
   }; // Org.BouncyCastle.Crypto.Digests.Blake2sDigest
+  #pragma pack(pop)
   static check_size<sizeof(Blake2sDigest), 88 + sizeof(uint)> __Org_BouncyCastle_Crypto_Digests_Blake2sDigestSizeCheck;
   static_assert(sizeof(Blake2sDigest) == 0x5C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Blake2sDigest*, "Org.BouncyCastle.Crypto.Digests", "Blake2sDigest");

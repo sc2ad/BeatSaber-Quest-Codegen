@@ -50,9 +50,9 @@ namespace GlobalNamespace {
     // Set static field: static public DiscoveryPolicy Public
     static void _set_Public(GlobalNamespace::DiscoveryPolicy value);
   }; // DiscoveryPolicy
+  #pragma pack(pop)
   static check_size<sizeof(DiscoveryPolicy), 0 + sizeof(uint8_t)> __GlobalNamespace_DiscoveryPolicySizeCheck;
   static_assert(sizeof(DiscoveryPolicy) == 0x1);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiscoveryPolicy, "", "DiscoveryPolicy");

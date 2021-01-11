@@ -66,8 +66,8 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<SignatureDescription*, creationType>()));
     }
   }; // System.Security.Cryptography.SignatureDescription
+  #pragma pack(pop)
   static check_size<sizeof(SignatureDescription), 40 + sizeof(::Il2CppString*)> __System_Security_Cryptography_SignatureDescriptionSizeCheck;
   static_assert(sizeof(SignatureDescription) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SignatureDescription*, "System.Security.Cryptography", "SignatureDescription");

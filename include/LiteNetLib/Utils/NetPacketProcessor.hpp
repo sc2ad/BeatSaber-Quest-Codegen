@@ -350,8 +350,8 @@ namespace LiteNetLib::Utils {
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketProcessor*, creationType>()));
     }
   }; // LiteNetLib.Utils.NetPacketProcessor
+  #pragma pack(pop)
   static check_size<sizeof(NetPacketProcessor), 32 + sizeof(LiteNetLib::Utils::NetDataWriter*)> __LiteNetLib_Utils_NetPacketProcessorSizeCheck;
   static_assert(sizeof(NetPacketProcessor) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetPacketProcessor*, "LiteNetLib.Utils", "NetPacketProcessor");

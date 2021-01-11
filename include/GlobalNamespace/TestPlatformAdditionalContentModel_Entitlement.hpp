@@ -45,8 +45,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TestPlatformAdditionalContentModel::Entitlement*, creationType>()));
     }
   }; // TestPlatformAdditionalContentModel/Entitlement
+  #pragma pack(pop)
   static check_size<sizeof(TestPlatformAdditionalContentModel::Entitlement), 24 + sizeof(GlobalNamespace::AdditionalContentModel::EntitlementStatus)> __GlobalNamespace_TestPlatformAdditionalContentModel_EntitlementSizeCheck;
   static_assert(sizeof(TestPlatformAdditionalContentModel::Entitlement) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*, "", "TestPlatformAdditionalContentModel/Entitlement");

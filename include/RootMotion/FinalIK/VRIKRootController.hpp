@@ -104,8 +104,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<VRIKRootController*, creationType>()));
     }
   }; // RootMotion.FinalIK.VRIKRootController
+  #pragma pack(pop)
   static check_size<sizeof(VRIKRootController), 64 + sizeof(RootMotion::FinalIK::VRIK*)> __RootMotion_FinalIK_VRIKRootControllerSizeCheck;
   static_assert(sizeof(VRIKRootController) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKRootController*, "RootMotion.FinalIK", "VRIKRootController");

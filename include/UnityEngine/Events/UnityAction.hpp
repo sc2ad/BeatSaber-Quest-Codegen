@@ -47,6 +47,6 @@ namespace UnityEngine::Events {
     // Offset: 0x16876F0
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Events.UnityAction
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityAction*, "UnityEngine.Events", "UnityAction");

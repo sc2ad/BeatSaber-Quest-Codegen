@@ -24,7 +24,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0xFFFFFFFF
     ::Array<::Il2CppObject*>* get_ChannelData();
   }; // System.Runtime.Remoting.IChannelInfo
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::IChannelInfo*, "System.Runtime.Remoting", "IChannelInfo");

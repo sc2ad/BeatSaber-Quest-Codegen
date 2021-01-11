@@ -86,9 +86,9 @@ namespace GlobalNamespace {
     // Set static field: static public OffsetDirection None
     static void _set_None(GlobalNamespace::OffsetDirection value);
   }; // OffsetDirection
+  #pragma pack(pop)
   static check_size<sizeof(OffsetDirection), 0 + sizeof(int)> __GlobalNamespace_OffsetDirectionSizeCheck;
   static_assert(sizeof(OffsetDirection) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OffsetDirection, "", "OffsetDirection");

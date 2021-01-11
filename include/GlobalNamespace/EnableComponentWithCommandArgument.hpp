@@ -58,8 +58,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnableComponentWithCommandArgument*, creationType>()));
     }
   }; // EnableComponentWithCommandArgument
+  #pragma pack(pop)
   static check_size<sizeof(EnableComponentWithCommandArgument), 32 + sizeof(UnityEngine::Behaviour*)> __GlobalNamespace_EnableComponentWithCommandArgumentSizeCheck;
   static_assert(sizeof(EnableComponentWithCommandArgument) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableComponentWithCommandArgument*, "", "EnableComponentWithCommandArgument");

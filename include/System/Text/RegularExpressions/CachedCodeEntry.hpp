@@ -101,8 +101,8 @@ namespace System::Text::RegularExpressions {
       return THROW_UNLESS((::il2cpp_utils::New<CachedCodeEntry*, creationType>(key, capnames, capslist, code, caps, capsize, runner, repl)));
     }
   }; // System.Text.RegularExpressions.CachedCodeEntry
+  #pragma pack(pop)
   static check_size<sizeof(CachedCodeEntry), 80 + sizeof(System::Text::RegularExpressions::SharedReference*)> __System_Text_RegularExpressions_CachedCodeEntrySizeCheck;
   static_assert(sizeof(CachedCodeEntry) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::CachedCodeEntry*, "System.Text.RegularExpressions", "CachedCodeEntry");

@@ -18,7 +18,7 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: NonmatchingTypeClass
     NonmatchingTypeClass() noexcept {}
   }; // NUnit.Framework.Internal.TypeHelper/NonmatchingTypeClass
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeHelper::NonmatchingTypeClass*, "NUnit.Framework.Internal", "TypeHelper/NonmatchingTypeClass");

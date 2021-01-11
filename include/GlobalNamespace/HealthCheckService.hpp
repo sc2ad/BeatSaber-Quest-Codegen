@@ -103,8 +103,8 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // HealthCheckService
+  #pragma pack(pop)
   static check_size<sizeof(HealthCheckService), 48 + sizeof(System::Net::HttpListener*)> __GlobalNamespace_HealthCheckServiceSizeCheck;
   static_assert(sizeof(HealthCheckService) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthCheckService*, "", "HealthCheckService");

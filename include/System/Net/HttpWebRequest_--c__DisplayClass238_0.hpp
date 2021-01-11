@@ -56,8 +56,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HttpWebRequest::$$c__DisplayClass238_0*, creationType>()));
     }
   }; // System.Net.HttpWebRequest/<>c__DisplayClass238_0
+  #pragma pack(pop)
   static check_size<sizeof(HttpWebRequest::$$c__DisplayClass238_0), 24 + sizeof(System::Net::HttpWebRequest*)> __System_Net_HttpWebRequest_$$c__DisplayClass238_0SizeCheck;
   static_assert(sizeof(HttpWebRequest::$$c__DisplayClass238_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::$$c__DisplayClass238_0*, "System.Net", "HttpWebRequest/<>c__DisplayClass238_0");

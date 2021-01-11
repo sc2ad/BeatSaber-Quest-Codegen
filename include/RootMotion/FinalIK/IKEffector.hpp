@@ -297,8 +297,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKEffector*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKEffector
+  #pragma pack(pop)
   static check_size<sizeof(IKEffector), 232 + sizeof(::Array<int>*)> __RootMotion_FinalIK_IKEffectorSizeCheck;
   static_assert(sizeof(IKEffector) == 0xF0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKEffector*, "RootMotion.FinalIK", "IKEffector");

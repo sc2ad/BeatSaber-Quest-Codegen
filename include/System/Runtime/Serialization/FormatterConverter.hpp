@@ -73,6 +73,6 @@ namespace System::Runtime::Serialization {
     // Base method: System.String IFormatterConverter::ToString(System.Object value)
     ::Il2CppString* ToString(::Il2CppObject* value);
   }; // System.Runtime.Serialization.FormatterConverter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FormatterConverter*, "System.Runtime.Serialization", "FormatterConverter");

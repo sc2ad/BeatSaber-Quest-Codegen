@@ -68,8 +68,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::Message*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionObject/Message
+  #pragma pack(pop)
   static check_size<sizeof(InteractionObject::Message), 24 + sizeof(UnityEngine::GameObject*)> __RootMotion_FinalIK_InteractionObject_MessageSizeCheck;
   static_assert(sizeof(InteractionObject::Message) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::Message*, "RootMotion.FinalIK", "InteractionObject/Message");

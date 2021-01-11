@@ -80,7 +80,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x188BD04
     static void _cctor();
   }; // UnityEngine.ProBuilder.ColorUtility
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ColorUtility*, "UnityEngine.ProBuilder", "ColorUtility");

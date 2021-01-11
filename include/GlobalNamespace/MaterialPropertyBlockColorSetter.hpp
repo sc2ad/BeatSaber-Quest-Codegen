@@ -91,8 +91,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockColorSetter*, creationType>()));
     }
   }; // MaterialPropertyBlockColorSetter
+  #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyBlockColorSetter), 44 + sizeof(bool)> __GlobalNamespace_MaterialPropertyBlockColorSetterSizeCheck;
   static_assert(sizeof(MaterialPropertyBlockColorSetter) == 0x2D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockColorSetter*, "", "MaterialPropertyBlockColorSetter");

@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1859010
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_CompositorGoToBack
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_CompositorGoToBack*, "OVR.OpenVR", "IVRCompositor/_CompositorGoToBack");

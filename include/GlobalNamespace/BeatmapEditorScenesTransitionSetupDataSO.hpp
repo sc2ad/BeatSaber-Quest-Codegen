@@ -63,8 +63,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEditorScenesTransitionSetupDataSO*, creationType>()));
     }
   }; // BeatmapEditorScenesTransitionSetupDataSO
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapEditorScenesTransitionSetupDataSO), 48 + sizeof(System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*)> __GlobalNamespace_BeatmapEditorScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(BeatmapEditorScenesTransitionSetupDataSO) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*, "", "BeatmapEditorScenesTransitionSetupDataSO");

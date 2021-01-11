@@ -302,8 +302,8 @@ namespace GlobalNamespace {
     // Base method: System.Void PacketLayerBase::ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
   }; // PacketEncryptionLayer
+  #pragma pack(pop)
   static check_size<sizeof(PacketEncryptionLayer), 65 + sizeof(bool)> __GlobalNamespace_PacketEncryptionLayerSizeCheck;
   static_assert(sizeof(PacketEncryptionLayer) == 0x42);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer*, "", "PacketEncryptionLayer");

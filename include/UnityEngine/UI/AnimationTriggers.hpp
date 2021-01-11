@@ -131,8 +131,8 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<AnimationTriggers*, creationType>()));
     }
   }; // UnityEngine.UI.AnimationTriggers
+  #pragma pack(pop)
   static check_size<sizeof(AnimationTriggers), 48 + sizeof(::Il2CppString*)> __UnityEngine_UI_AnimationTriggersSizeCheck;
   static_assert(sizeof(AnimationTriggers) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AnimationTriggers*, "UnityEngine.UI", "AnimationTriggers");

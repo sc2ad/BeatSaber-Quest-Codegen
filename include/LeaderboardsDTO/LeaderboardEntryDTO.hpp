@@ -77,8 +77,8 @@ namespace LeaderboardsDTO {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntryDTO*, creationType>()));
     }
   }; // LeaderboardsDTO.LeaderboardEntryDTO
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardEntryDTO), 56 + sizeof(::Array<LeaderboardsDTO::GameplayModifiersDto>*)> __LeaderboardsDTO_LeaderboardEntryDTOSizeCheck;
   static_assert(sizeof(LeaderboardEntryDTO) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardEntryDTO*, "LeaderboardsDTO", "LeaderboardEntryDTO");

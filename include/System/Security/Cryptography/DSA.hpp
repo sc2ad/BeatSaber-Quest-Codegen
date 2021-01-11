@@ -62,6 +62,6 @@ namespace System::Security::Cryptography {
     // Base method: System.String AsymmetricAlgorithm::ToXmlString(System.Boolean includePrivateParameters)
     ::Il2CppString* ToXmlString(bool includePrivateParameters);
   }; // System.Security.Cryptography.DSA
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSA*, "System.Security.Cryptography", "DSA");

@@ -126,6 +126,7 @@ namespace HMUI {
       // Set static field: static public HMUI.TableView/TableType Horizontal
       static void _set_Horizontal(HMUI::TableView::TableType value);
     }; // HMUI.TableView/TableType
+    #pragma pack(pop)
     static check_size<sizeof(TableView::TableType), 0 + sizeof(int)> __HMUI_TableView_TableTypeSizeCheck;
     static_assert(sizeof(TableView::TableType) == 0x4);
     // private System.Boolean _hideScrollButtonsIfNotNeeded
@@ -500,9 +501,9 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<TableView*, creationType>()));
     }
   }; // HMUI.TableView
+  #pragma pack(pop)
   static check_size<sizeof(TableView), 224 + sizeof(HMUI::TableViewScroller*)> __HMUI_TableViewSizeCheck;
   static_assert(sizeof(TableView) == 0xE8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView*, "HMUI", "TableView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::TableType, "HMUI", "TableView/TableType");

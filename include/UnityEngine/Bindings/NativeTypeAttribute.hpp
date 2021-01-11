@@ -90,8 +90,8 @@ namespace UnityEngine::Bindings {
       return THROW_UNLESS((::il2cpp_utils::New<NativeTypeAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.NativeTypeAttribute
+  #pragma pack(pop)
   static check_size<sizeof(NativeTypeAttribute), 32 + sizeof(UnityEngine::Bindings::CodegenOptions)> __UnityEngine_Bindings_NativeTypeAttributeSizeCheck;
   static_assert(sizeof(NativeTypeAttribute) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeTypeAttribute*, "UnityEngine.Bindings", "NativeTypeAttribute");

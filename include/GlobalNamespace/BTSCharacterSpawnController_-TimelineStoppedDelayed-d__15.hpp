@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // BTSCharacterSpawnController/<TimelineStoppedDelayed>d__15
+  #pragma pack(pop)
   static check_size<sizeof(BTSCharacterSpawnController::$TimelineStoppedDelayed$d__15), 32 + sizeof(GlobalNamespace::BTSCharacterSpawnController*)> __GlobalNamespace_BTSCharacterSpawnController_$TimelineStoppedDelayed$d__15SizeCheck;
   static_assert(sizeof(BTSCharacterSpawnController::$TimelineStoppedDelayed$d__15) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__15*, "", "BTSCharacterSpawnController/<TimelineStoppedDelayed>d__15");

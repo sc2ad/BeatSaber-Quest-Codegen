@@ -41,9 +41,9 @@ namespace System::Net::Sockets {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Net.Sockets.Socket/WSABUF
+  #pragma pack(pop)
   static check_size<sizeof(Socket::WSABUF), 8 + sizeof(System::IntPtr)> __System_Net_Sockets_Socket_WSABUFSizeCheck;
   static_assert(sizeof(Socket::WSABUF) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::WSABUF, "System.Net.Sockets", "Socket/WSABUF");

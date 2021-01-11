@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18F909C
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetHighQualityOverlay
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_SetHighQualityOverlay*, "Valve.VR", "IVROverlay/_SetHighQualityOverlay");

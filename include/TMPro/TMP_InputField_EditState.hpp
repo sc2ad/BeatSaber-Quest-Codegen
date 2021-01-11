@@ -46,9 +46,9 @@ namespace TMPro {
     // Set static field: static public TMPro.TMP_InputField/EditState Finish
     static void _set_Finish(TMPro::TMP_InputField::EditState value);
   }; // TMPro.TMP_InputField/EditState
+  #pragma pack(pop)
   static check_size<sizeof(TMP_InputField::EditState), 0 + sizeof(int)> __TMPro_TMP_InputField_EditStateSizeCheck;
   static_assert(sizeof(TMP_InputField::EditState) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::EditState, "TMPro", "TMP_InputField/EditState");

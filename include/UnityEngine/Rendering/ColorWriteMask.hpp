@@ -63,9 +63,9 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.ColorWriteMask All
     static void _set_All(UnityEngine::Rendering::ColorWriteMask value);
   }; // UnityEngine.Rendering.ColorWriteMask
+  #pragma pack(pop)
   static check_size<sizeof(ColorWriteMask), 0 + sizeof(int)> __UnityEngine_Rendering_ColorWriteMaskSizeCheck;
   static_assert(sizeof(ColorWriteMask) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ColorWriteMask, "UnityEngine.Rendering", "ColorWriteMask");

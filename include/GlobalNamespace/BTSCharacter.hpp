@@ -103,8 +103,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacter*, creationType>()));
     }
   }; // BTSCharacter
+  #pragma pack(pop)
   static check_size<sizeof(BTSCharacter), 56 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_BTSCharacterSizeCheck;
   static_assert(sizeof(BTSCharacter) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacter*, "", "BTSCharacter");

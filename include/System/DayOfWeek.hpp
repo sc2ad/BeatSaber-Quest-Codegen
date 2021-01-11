@@ -75,9 +75,9 @@ namespace System {
     // Set static field: static public System.DayOfWeek Saturday
     static void _set_Saturday(System::DayOfWeek value);
   }; // System.DayOfWeek
+  #pragma pack(pop)
   static check_size<sizeof(DayOfWeek), 0 + sizeof(int)> __System_DayOfWeekSizeCheck;
   static_assert(sizeof(DayOfWeek) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DayOfWeek, "System", "DayOfWeek");

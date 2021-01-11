@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18E18A0
     bool EndInvoke(Valve::VR::HmdQuad_t& rect, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_GetWorkingPlayAreaRect
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperoneSetup::_GetWorkingPlayAreaRect*, "Valve.VR", "IVRChaperoneSetup/_GetWorkingPlayAreaRect");

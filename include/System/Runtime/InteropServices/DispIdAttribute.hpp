@@ -41,8 +41,8 @@ namespace System::Runtime::InteropServices {
       return THROW_UNLESS((::il2cpp_utils::New<DispIdAttribute*, creationType>(dispId)));
     }
   }; // System.Runtime.InteropServices.DispIdAttribute
+  #pragma pack(pop)
   static check_size<sizeof(DispIdAttribute), 16 + sizeof(int)> __System_Runtime_InteropServices_DispIdAttributeSizeCheck;
   static_assert(sizeof(DispIdAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DispIdAttribute*, "System.Runtime.InteropServices", "DispIdAttribute");

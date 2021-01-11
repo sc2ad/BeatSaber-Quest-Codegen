@@ -801,6 +801,7 @@ namespace System {
     // Base method: System.Void Type::.cctor()
     static void _cctor();
   }; // System.RuntimeType
+  #pragma pack(pop)
   static check_size<sizeof(RuntimeType), 40 + sizeof(System::Reflection::RuntimeConstructorInfo*)> __System_RuntimeTypeSizeCheck;
   static_assert(sizeof(RuntimeType) == 0x30);
   // static public System.Boolean op_Equality(System.RuntimeType left, System.RuntimeType right)
@@ -810,5 +811,4 @@ namespace System {
   // Offset: 0x1448430
   bool operator !=(System::RuntimeType* left, System::RuntimeType& right);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeType*, "System", "RuntimeType");

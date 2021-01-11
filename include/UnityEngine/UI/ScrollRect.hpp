@@ -118,6 +118,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.ScrollRect/MovementType Clamped
       static void _set_Clamped(UnityEngine::UI::ScrollRect::MovementType value);
     }; // UnityEngine.UI.ScrollRect/MovementType
+    #pragma pack(pop)
     static check_size<sizeof(ScrollRect::MovementType), 0 + sizeof(int)> __UnityEngine_UI_ScrollRect_MovementTypeSizeCheck;
     static_assert(sizeof(ScrollRect::MovementType) == 0x4);
     // Size: 0x4
@@ -161,6 +162,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.ScrollRect/ScrollbarVisibility AutoHideAndExpandViewport
       static void _set_AutoHideAndExpandViewport(UnityEngine::UI::ScrollRect::ScrollbarVisibility value);
     }; // UnityEngine.UI.ScrollRect/ScrollbarVisibility
+    #pragma pack(pop)
     static check_size<sizeof(ScrollRect::ScrollbarVisibility), 0 + sizeof(int)> __UnityEngine_UI_ScrollRect_ScrollbarVisibilitySizeCheck;
     static_assert(sizeof(ScrollRect::ScrollbarVisibility) == 0x4);
     // private UnityEngine.RectTransform m_Content
@@ -764,10 +766,10 @@ namespace UnityEngine::UI {
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
   }; // UnityEngine.UI.ScrollRect
+  #pragma pack(pop)
   static check_size<sizeof(ScrollRect), 288 + sizeof(::Array<UnityEngine::Vector3>*)> __UnityEngine_UI_ScrollRectSizeCheck;
   static_assert(sizeof(ScrollRect) == 0x128);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect*, "UnityEngine.UI", "ScrollRect");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::MovementType, "UnityEngine.UI", "ScrollRect/MovementType");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::ScrollbarVisibility, "UnityEngine.UI", "ScrollRect/ScrollbarVisibility");

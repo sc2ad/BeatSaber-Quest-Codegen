@@ -70,9 +70,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/Tracker Count
     static void _set_Count(GlobalNamespace::OVRPlugin::Tracker value);
   }; // OVRPlugin/Tracker
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Tracker), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_TrackerSizeCheck;
   static_assert(sizeof(OVRPlugin::Tracker) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Tracker, "", "OVRPlugin/Tracker");

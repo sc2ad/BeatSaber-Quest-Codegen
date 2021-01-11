@@ -72,8 +72,8 @@ namespace Mono {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Mono.SafeStringMarshal
+  #pragma pack(pop)
   static check_size<sizeof(SafeStringMarshal), 8 + sizeof(System::IntPtr)> __Mono_SafeStringMarshalSizeCheck;
   static_assert(sizeof(SafeStringMarshal) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::SafeStringMarshal, "Mono", "SafeStringMarshal");

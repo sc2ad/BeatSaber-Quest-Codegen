@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18E72F8
     uint EndInvoke(Valve::VR::Compositor_FrameTiming& pTiming, System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetFrameTimings
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetFrameTimings*, "Valve.VR", "IVRCompositor/_GetFrameTimings");

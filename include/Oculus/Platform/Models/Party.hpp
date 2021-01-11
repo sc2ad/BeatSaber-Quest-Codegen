@@ -98,8 +98,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<Party*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.Party
+  #pragma pack(pop)
   static check_size<sizeof(Party), 80 + sizeof(Oculus::Platform::Models::UserList*)> __Oculus_Platform_Models_PartySizeCheck;
   static_assert(sizeof(Party) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Party*, "Oculus.Platform.Models", "Party");

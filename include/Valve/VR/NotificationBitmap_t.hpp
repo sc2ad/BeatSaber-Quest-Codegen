@@ -49,9 +49,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.NotificationBitmap_t
+  #pragma pack(pop)
   static check_size<sizeof(NotificationBitmap_t), 16 + sizeof(int)> __Valve_VR_NotificationBitmap_tSizeCheck;
   static_assert(sizeof(NotificationBitmap_t) == 0x14);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::NotificationBitmap_t, "Valve.VR", "NotificationBitmap_t");

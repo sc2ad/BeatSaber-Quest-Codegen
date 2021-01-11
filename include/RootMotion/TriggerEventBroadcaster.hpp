@@ -61,8 +61,8 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<TriggerEventBroadcaster*, creationType>()));
     }
   }; // RootMotion.TriggerEventBroadcaster
+  #pragma pack(pop)
   static check_size<sizeof(TriggerEventBroadcaster), 24 + sizeof(UnityEngine::GameObject*)> __RootMotion_TriggerEventBroadcasterSizeCheck;
   static_assert(sizeof(TriggerEventBroadcaster) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::TriggerEventBroadcaster*, "RootMotion", "TriggerEventBroadcaster");

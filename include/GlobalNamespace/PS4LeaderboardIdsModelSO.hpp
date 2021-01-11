@@ -75,8 +75,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4LeaderboardIdsModelSO*, creationType>()));
     }
   }; // PS4LeaderboardIdsModelSO
+  #pragma pack(pop)
   static check_size<sizeof(PS4LeaderboardIdsModelSO), 32 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, uint>*)> __GlobalNamespace_PS4LeaderboardIdsModelSOSizeCheck;
   static_assert(sizeof(PS4LeaderboardIdsModelSO) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LeaderboardIdsModelSO*, "", "PS4LeaderboardIdsModelSO");

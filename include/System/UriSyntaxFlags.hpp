@@ -207,9 +207,9 @@ namespace System {
     // Set static field: static public System.UriSyntaxFlags AllowIriParsing
     static void _set_AllowIriParsing(System::UriSyntaxFlags value);
   }; // System.UriSyntaxFlags
+  #pragma pack(pop)
   static check_size<sizeof(UriSyntaxFlags), 0 + sizeof(int)> __System_UriSyntaxFlagsSizeCheck;
   static_assert(sizeof(UriSyntaxFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriSyntaxFlags, "System", "UriSyntaxFlags");

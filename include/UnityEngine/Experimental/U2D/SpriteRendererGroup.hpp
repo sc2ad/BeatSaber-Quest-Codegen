@@ -19,7 +19,7 @@ namespace UnityEngine::Experimental::U2D {
     // Creating value type constructor for type: SpriteRendererGroup
     SpriteRendererGroup() noexcept {}
   }; // UnityEngine.Experimental.U2D.SpriteRendererGroup
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::U2D::SpriteRendererGroup*, "UnityEngine.Experimental.U2D", "SpriteRendererGroup");

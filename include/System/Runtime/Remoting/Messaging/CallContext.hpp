@@ -58,6 +58,6 @@ namespace System::Runtime::Remoting::Messaging {
       return THROW_UNLESS((::il2cpp_utils::New<CallContext*, creationType>()));
     }
   }; // System.Runtime.Remoting.Messaging.CallContext
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallContext*, "System.Runtime.Remoting.Messaging", "CallContext");

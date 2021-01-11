@@ -50,9 +50,9 @@ namespace System {
     // Set static field: static public System.Handles STD_ERROR
     static void _set_STD_ERROR(System::Handles value);
   }; // System.Handles
+  #pragma pack(pop)
   static check_size<sizeof(Handles), 0 + sizeof(int)> __System_HandlesSizeCheck;
   static_assert(sizeof(Handles) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Handles, "System", "Handles");

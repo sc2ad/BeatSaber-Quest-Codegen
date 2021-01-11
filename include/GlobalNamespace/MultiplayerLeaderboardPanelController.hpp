@@ -65,8 +65,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLeaderboardPanelController*, creationType>()));
     }
   }; // MultiplayerLeaderboardPanelController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLeaderboardPanelController), 32 + sizeof(GlobalNamespace::MultiplayerScoreProvider*)> __GlobalNamespace_MultiplayerLeaderboardPanelControllerSizeCheck;
   static_assert(sizeof(MultiplayerLeaderboardPanelController) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLeaderboardPanelController*, "", "MultiplayerLeaderboardPanelController");

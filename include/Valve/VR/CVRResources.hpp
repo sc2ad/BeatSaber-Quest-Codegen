@@ -54,8 +54,8 @@ namespace Valve::VR {
     // Offset: 0x136B8C0
     uint GetResourceFullPath(::Il2CppString* pchResourceName, ::Il2CppString* pchResourceTypeDirectory, System::Text::StringBuilder* pchPathBuffer, uint unBufferLen);
   }; // Valve.VR.CVRResources
+  #pragma pack(pop)
   static check_size<sizeof(CVRResources), 16 + sizeof(Valve::VR::IVRResources)> __Valve_VR_CVRResourcesSizeCheck;
   static_assert(sizeof(CVRResources) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRResources*, "Valve.VR", "CVRResources");

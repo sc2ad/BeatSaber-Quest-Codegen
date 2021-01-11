@@ -44,8 +44,8 @@ namespace UnityEngine {
     // Offset: 0x167D804
     int get_order();
   }; // UnityEngine.DefaultExecutionOrder
+  #pragma pack(pop)
   static check_size<sizeof(DefaultExecutionOrder), 16 + sizeof(int)> __UnityEngine_DefaultExecutionOrderSizeCheck;
   static_assert(sizeof(DefaultExecutionOrder) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DefaultExecutionOrder*, "UnityEngine", "DefaultExecutionOrder");

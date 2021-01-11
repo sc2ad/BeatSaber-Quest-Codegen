@@ -117,8 +117,8 @@ namespace System::Reflection {
     // Maps to method: GetRealObject
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
   }; // System.Reflection.MemberInfoSerializationHolder
+  #pragma pack(pop)
   static check_size<sizeof(MemberInfoSerializationHolder), 56 + sizeof(System::Runtime::Serialization::SerializationInfo*)> __System_Reflection_MemberInfoSerializationHolderSizeCheck;
   static_assert(sizeof(MemberInfoSerializationHolder) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MemberInfoSerializationHolder*, "System.Reflection", "MemberInfoSerializationHolder");

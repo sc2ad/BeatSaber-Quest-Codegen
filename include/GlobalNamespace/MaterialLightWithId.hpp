@@ -121,8 +121,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // MaterialLightWithId
+  #pragma pack(pop)
   static check_size<sizeof(MaterialLightWithId), 96 + sizeof(int)> __GlobalNamespace_MaterialLightWithIdSizeCheck;
   static_assert(sizeof(MaterialLightWithId) == 0x64);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialLightWithId*, "", "MaterialLightWithId");

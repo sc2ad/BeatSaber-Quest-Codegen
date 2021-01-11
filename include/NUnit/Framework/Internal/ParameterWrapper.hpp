@@ -105,8 +105,8 @@ namespace NUnit::Framework::Internal {
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___generic__method, inherit);
     }
   }; // NUnit.Framework.Internal.ParameterWrapper
+  #pragma pack(pop)
   static check_size<sizeof(ParameterWrapper), 24 + sizeof(System::Reflection::ParameterInfo*)> __NUnit_Framework_Internal_ParameterWrapperSizeCheck;
   static_assert(sizeof(ParameterWrapper) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ParameterWrapper*, "NUnit.Framework.Internal", "ParameterWrapper");

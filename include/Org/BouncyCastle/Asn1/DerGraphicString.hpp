@@ -67,8 +67,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
   }; // Org.BouncyCastle.Asn1.DerGraphicString
+  #pragma pack(pop)
   static check_size<sizeof(DerGraphicString), 16 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Asn1_DerGraphicStringSizeCheck;
   static_assert(sizeof(DerGraphicString) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerGraphicString*, "Org.BouncyCastle.Asn1", "DerGraphicString");

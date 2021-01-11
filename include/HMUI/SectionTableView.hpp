@@ -75,6 +75,7 @@ namespace HMUI {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // HMUI.SectionTableView/Section
+    #pragma pack(pop)
     static check_size<sizeof(SectionTableView::Section), 8 + sizeof(int)> __HMUI_SectionTableView_SectionSizeCheck;
     static_assert(sizeof(SectionTableView::Section) == 0xC);
     // private System.Boolean _unfoldSectionsByDefault
@@ -199,9 +200,9 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<SectionTableView*, creationType>()));
     }
   }; // HMUI.SectionTableView
+  #pragma pack(pop)
   static check_size<sizeof(SectionTableView), 264 + sizeof(::Array<HMUI::SectionTableView::Section>*)> __HMUI_SectionTableViewSizeCheck;
   static_assert(sizeof(SectionTableView) == 0x110);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView*, "HMUI", "SectionTableView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::Section, "HMUI", "SectionTableView/Section");

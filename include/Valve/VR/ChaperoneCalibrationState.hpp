@@ -92,9 +92,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.ChaperoneCalibrationState Error_CollisionBoundsInvalid
     static void _set_Error_CollisionBoundsInvalid(Valve::VR::ChaperoneCalibrationState value);
   }; // Valve.VR.ChaperoneCalibrationState
+  #pragma pack(pop)
   static check_size<sizeof(ChaperoneCalibrationState), 0 + sizeof(int)> __Valve_VR_ChaperoneCalibrationStateSizeCheck;
   static_assert(sizeof(ChaperoneCalibrationState) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::ChaperoneCalibrationState, "Valve.VR", "ChaperoneCalibrationState");

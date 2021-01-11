@@ -63,8 +63,8 @@ namespace RootMotion::FinalIK {
     // Offset: 0x15EECB4
     void SetTo(UnityEngine::Transform* t);
   }; // RootMotion.FinalIK.VRIKCalibrator/CalibrationData/Target
+  #pragma pack(pop)
   static check_size<sizeof(VRIKCalibrator::CalibrationData::Target), 32 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_VRIKCalibrator_CalibrationData_TargetSizeCheck;
   static_assert(sizeof(VRIKCalibrator::CalibrationData::Target) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*, "RootMotion.FinalIK", "VRIKCalibrator/CalibrationData/Target");

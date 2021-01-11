@@ -29,7 +29,7 @@ namespace System::Net {
     // Offset: 0x12C0884
     static ::Il2CppString* GetWebStatusString(System::Net::WebExceptionStatus Status);
   }; // System.Net.NetRes
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetRes*, "System.Net", "NetRes");

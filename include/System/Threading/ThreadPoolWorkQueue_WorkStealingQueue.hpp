@@ -85,8 +85,8 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<ThreadPoolWorkQueue::WorkStealingQueue*, creationType>()));
     }
   }; // System.Threading.ThreadPoolWorkQueue/WorkStealingQueue
+  #pragma pack(pop)
   static check_size<sizeof(ThreadPoolWorkQueue::WorkStealingQueue), 36 + sizeof(System::Threading::SpinLock)> __System_Threading_ThreadPoolWorkQueue_WorkStealingQueueSizeCheck;
   static_assert(sizeof(ThreadPoolWorkQueue::WorkStealingQueue) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*, "System.Threading", "ThreadPoolWorkQueue/WorkStealingQueue");

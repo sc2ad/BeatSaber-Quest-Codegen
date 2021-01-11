@@ -81,8 +81,8 @@ namespace System::Text::RegularExpressions {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Text.RegularExpressions.GroupEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(GroupEnumerator), 24 + sizeof(int)> __System_Text_RegularExpressions_GroupEnumeratorSizeCheck;
   static_assert(sizeof(GroupEnumerator) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::GroupEnumerator*, "System.Text.RegularExpressions", "GroupEnumerator");

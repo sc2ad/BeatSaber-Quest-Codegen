@@ -49,6 +49,6 @@ namespace GlobalNamespace {
     // Offset: 0xF08468
     void EndInvoke(System::IAsyncResult* result);
   }; // PlatformAchievementsModelSO/UnlockAchievementCompletionHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*, "", "PlatformAchievementsModelSO/UnlockAchievementCompletionHandler");

@@ -75,8 +75,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ScreenModeData*, creationType>(position, rotation, scale, radius, offsetHeightByHeadPos, yOffsetRelativeToHead, minYPos)));
     }
   }; // HMUI.ScreenModeData
+  #pragma pack(pop)
   static check_size<sizeof(ScreenModeData), 56 + sizeof(float)> __HMUI_ScreenModeDataSizeCheck;
   static_assert(sizeof(ScreenModeData) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeData*, "HMUI", "ScreenModeData");

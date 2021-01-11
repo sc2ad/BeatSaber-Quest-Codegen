@@ -85,8 +85,8 @@ namespace System::Security::Cryptography {
     // Base method: System.Void RC2::.cctor()
     static void _cctor();
   }; // System.Security.Cryptography.RC2CryptoServiceProvider
+  #pragma pack(pop)
   static check_size<sizeof(RC2CryptoServiceProvider), 72 + sizeof(bool)> __System_Security_Cryptography_RC2CryptoServiceProviderSizeCheck;
   static_assert(sizeof(RC2CryptoServiceProvider) == 0x49);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RC2CryptoServiceProvider*, "System.Security.Cryptography", "RC2CryptoServiceProvider");

@@ -56,9 +56,9 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.ShadowCastingMode ShadowsOnly
     static void _set_ShadowsOnly(UnityEngine::Rendering::ShadowCastingMode value);
   }; // UnityEngine.Rendering.ShadowCastingMode
+  #pragma pack(pop)
   static check_size<sizeof(ShadowCastingMode), 0 + sizeof(int)> __UnityEngine_Rendering_ShadowCastingModeSizeCheck;
   static_assert(sizeof(ShadowCastingMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ShadowCastingMode, "UnityEngine.Rendering", "ShadowCastingMode");

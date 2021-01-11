@@ -57,9 +57,9 @@ namespace UnityEngine::Analytics {
     // Set static field: static public UnityEngine.Analytics.AnalyticsSessionState kSessionResumed
     static void _set_kSessionResumed(UnityEngine::Analytics::AnalyticsSessionState value);
   }; // UnityEngine.Analytics.AnalyticsSessionState
+  #pragma pack(pop)
   static check_size<sizeof(AnalyticsSessionState), 0 + sizeof(int)> __UnityEngine_Analytics_AnalyticsSessionStateSizeCheck;
   static_assert(sizeof(AnalyticsSessionState) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Analytics::AnalyticsSessionState, "UnityEngine.Analytics", "AnalyticsSessionState");

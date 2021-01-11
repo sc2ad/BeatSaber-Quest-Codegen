@@ -58,8 +58,8 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<Entity*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.Entity
+  #pragma pack(pop)
   static check_size<sizeof(Entity), 24 + sizeof(UnityEngine::ProBuilder::EntityType)> __UnityEngine_ProBuilder_EntitySizeCheck;
   static_assert(sizeof(Entity) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Entity*, "UnityEngine.ProBuilder", "Entity");

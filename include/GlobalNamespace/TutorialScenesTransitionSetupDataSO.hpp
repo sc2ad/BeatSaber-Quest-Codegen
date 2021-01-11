@@ -78,6 +78,7 @@ namespace GlobalNamespace {
       // Set static field: static public TutorialScenesTransitionSetupDataSO/TutorialEndStateType Restart
       static void _set_Restart(GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType value);
     }; // TutorialScenesTransitionSetupDataSO/TutorialEndStateType
+    #pragma pack(pop)
     static check_size<sizeof(TutorialScenesTransitionSetupDataSO::TutorialEndStateType), 0 + sizeof(int)> __GlobalNamespace_TutorialScenesTransitionSetupDataSO_TutorialEndStateTypeSizeCheck;
     static_assert(sizeof(TutorialScenesTransitionSetupDataSO::TutorialEndStateType) == 0x4);
     // private EnvironmentInfoSO _environmentInfo
@@ -133,9 +134,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TutorialScenesTransitionSetupDataSO*, creationType>()));
     }
   }; // TutorialScenesTransitionSetupDataSO
+  #pragma pack(pop)
   static check_size<sizeof(TutorialScenesTransitionSetupDataSO), 64 + sizeof(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*)> __GlobalNamespace_TutorialScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(TutorialScenesTransitionSetupDataSO) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialScenesTransitionSetupDataSO*, "", "TutorialScenesTransitionSetupDataSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType, "", "TutorialScenesTransitionSetupDataSO/TutorialEndStateType");

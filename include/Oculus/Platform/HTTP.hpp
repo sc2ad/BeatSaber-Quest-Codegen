@@ -16,7 +16,7 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: HTTP
     HTTP() noexcept {}
   }; // Oculus.Platform.HTTP
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::HTTP*, "Oculus.Platform", "HTTP");

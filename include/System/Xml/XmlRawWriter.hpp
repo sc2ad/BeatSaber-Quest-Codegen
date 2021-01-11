@@ -173,8 +173,8 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlRawWriter*, creationType>()));
     }
   }; // System.Xml.XmlRawWriter
+  #pragma pack(pop)
   static check_size<sizeof(XmlRawWriter), 24 + sizeof(System::Xml::IXmlNamespaceResolver*)> __System_Xml_XmlRawWriterSizeCheck;
   static_assert(sizeof(XmlRawWriter) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlRawWriter*, "System.Xml", "XmlRawWriter");

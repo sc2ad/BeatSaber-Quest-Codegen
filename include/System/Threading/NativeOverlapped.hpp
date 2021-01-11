@@ -56,9 +56,9 @@ namespace System::Threading {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Threading.NativeOverlapped
+  #pragma pack(pop)
   static check_size<sizeof(NativeOverlapped), 24 + sizeof(System::IntPtr)> __System_Threading_NativeOverlappedSizeCheck;
   static_assert(sizeof(NativeOverlapped) == 0x20);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::NativeOverlapped, "System.Threading", "NativeOverlapped");

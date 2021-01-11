@@ -56,9 +56,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.FontStyle BoldAndItalic
     static void _set_BoldAndItalic(UnityEngine::FontStyle value);
   }; // UnityEngine.FontStyle
+  #pragma pack(pop)
   static check_size<sizeof(FontStyle), 0 + sizeof(int)> __UnityEngine_FontStyleSizeCheck;
   static_assert(sizeof(FontStyle) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FontStyle, "UnityEngine", "FontStyle");

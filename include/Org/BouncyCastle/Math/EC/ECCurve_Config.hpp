@@ -73,8 +73,8 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0x193B0A8
     Org::BouncyCastle::Math::EC::ECCurve* Create();
   }; // Org.BouncyCastle.Math.EC.ECCurve/Config
+  #pragma pack(pop)
   static check_size<sizeof(ECCurve::Config), 40 + sizeof(Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*)> __Org_BouncyCastle_Math_EC_ECCurve_ConfigSizeCheck;
   static_assert(sizeof(ECCurve::Config) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECCurve::Config*, "Org.BouncyCastle.Math.EC", "ECCurve/Config");

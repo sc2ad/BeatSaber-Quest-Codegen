@@ -74,9 +74,9 @@ namespace System::Net::NetworkInformation {
     // Set static field: static public System.Net.NetworkInformation.OperationalStatus LowerLayerDown
     static void _set_LowerLayerDown(System::Net::NetworkInformation::OperationalStatus value);
   }; // System.Net.NetworkInformation.OperationalStatus
+  #pragma pack(pop)
   static check_size<sizeof(OperationalStatus), 0 + sizeof(int)> __System_Net_NetworkInformation_OperationalStatusSizeCheck;
   static_assert(sizeof(OperationalStatus) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::OperationalStatus, "System.Net.NetworkInformation", "OperationalStatus");

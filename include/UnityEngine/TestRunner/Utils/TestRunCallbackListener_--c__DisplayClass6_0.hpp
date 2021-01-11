@@ -57,8 +57,8 @@ namespace UnityEngine::TestRunner::Utils {
       return THROW_UNLESS((::il2cpp_utils::New<TestRunCallbackListener::$$c__DisplayClass6_0*, creationType>()));
     }
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener/<>c__DisplayClass6_0
+  #pragma pack(pop)
   static check_size<sizeof(TestRunCallbackListener::$$c__DisplayClass6_0), 16 + sizeof(NUnit::Framework::Interfaces::ITestResult*)> __UnityEngine_TestRunner_Utils_TestRunCallbackListener_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(TestRunCallbackListener::$$c__DisplayClass6_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass6_0*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener/<>c__DisplayClass6_0");

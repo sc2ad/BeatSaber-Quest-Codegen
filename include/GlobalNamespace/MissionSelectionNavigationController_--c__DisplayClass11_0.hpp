@@ -66,8 +66,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionSelectionNavigationController::$$c__DisplayClass11_0*, creationType>()));
     }
   }; // MissionSelectionNavigationController/<>c__DisplayClass11_0
+  #pragma pack(pop)
   static check_size<sizeof(MissionSelectionNavigationController::$$c__DisplayClass11_0), 32 + sizeof(System::Action*)> __GlobalNamespace_MissionSelectionNavigationController_$$c__DisplayClass11_0SizeCheck;
   static_assert(sizeof(MissionSelectionNavigationController::$$c__DisplayClass11_0) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0*, "", "MissionSelectionNavigationController/<>c__DisplayClass11_0");

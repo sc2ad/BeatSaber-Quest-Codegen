@@ -199,8 +199,8 @@ namespace System::Net {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Net.IPAddress
+  #pragma pack(pop)
   static check_size<sizeof(IPAddress), 56 + sizeof(int)> __System_Net_IPAddressSizeCheck;
   static_assert(sizeof(IPAddress) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPAddress*, "System.Net", "IPAddress");

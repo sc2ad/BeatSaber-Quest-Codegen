@@ -56,9 +56,9 @@ namespace Mono::Net::Security {
     // Set static field: static public Mono.Net.Security.AsyncOperationStatus Complete
     static void _set_Complete(Mono::Net::Security::AsyncOperationStatus value);
   }; // Mono.Net.Security.AsyncOperationStatus
+  #pragma pack(pop)
   static check_size<sizeof(AsyncOperationStatus), 0 + sizeof(int)> __Mono_Net_Security_AsyncOperationStatusSizeCheck;
   static_assert(sizeof(AsyncOperationStatus) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncOperationStatus, "Mono.Net.Security", "AsyncOperationStatus");

@@ -262,6 +262,7 @@ namespace MasterServer {
       // Base method: System.Int32 ValueType::GetHashCode()
       int GetHashCode();
     }; // MasterServer.MessageHandler/RequestWaiterId
+    #pragma pack(pop)
     static check_size<sizeof(MessageHandler::RequestWaiterId), 8 + sizeof(uint)> __MasterServer_MessageHandler_RequestWaiterIdSizeCheck;
     static_assert(sizeof(MessageHandler::RequestWaiterId) == 0xC);
     // Size: 0xC
@@ -295,6 +296,7 @@ namespace MasterServer {
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  MessageOrigin(System::Net::IPEndPoint* endPoint, uint protocolVersion)
     }; // MasterServer.MessageHandler/MessageOrigin
+    #pragma pack(pop)
     static check_size<sizeof(MessageHandler::MessageOrigin), 8 + sizeof(uint)> __MasterServer_MessageHandler_MessageOriginSizeCheck;
     static_assert(sizeof(MessageHandler::MessageOrigin) == 0xC);
     // Size: 0x4
@@ -380,6 +382,7 @@ namespace MasterServer {
       // Set static field: static public MasterServer.MessageHandler/HandshakeMessageType MultipartMessage
       static void _set_MultipartMessage(MasterServer::MessageHandler::HandshakeMessageType value);
     }; // MasterServer.MessageHandler/HandshakeMessageType
+    #pragma pack(pop)
     static check_size<sizeof(MessageHandler::HandshakeMessageType), 0 + sizeof(int)> __MasterServer_MessageHandler_HandshakeMessageTypeSizeCheck;
     static_assert(sizeof(MessageHandler::HandshakeMessageType) == 0x4);
     // Size: 0x4
@@ -501,6 +504,7 @@ namespace MasterServer {
       // Set static field: static public MasterServer.MessageHandler/UserMessageType SessionKeepaliveMessage
       static void _set_SessionKeepaliveMessage(MasterServer::MessageHandler::UserMessageType value);
     }; // MasterServer.MessageHandler/UserMessageType
+    #pragma pack(pop)
     static check_size<sizeof(MessageHandler::UserMessageType), 0 + sizeof(int)> __MasterServer_MessageHandler_UserMessageTypeSizeCheck;
     static_assert(sizeof(MessageHandler::UserMessageType) == 0x4);
     // Size: 0x4
@@ -616,6 +620,7 @@ namespace MasterServer {
       // Set static field: static public MasterServer.MessageHandler/DedicatedServerMessageType MultipartMessage
       static void _set_MultipartMessage(MasterServer::MessageHandler::DedicatedServerMessageType value);
     }; // MasterServer.MessageHandler/DedicatedServerMessageType
+    #pragma pack(pop)
     static check_size<sizeof(MessageHandler::DedicatedServerMessageType), 0 + sizeof(int)> __MasterServer_MessageHandler_DedicatedServerMessageTypeSizeCheck;
     static_assert(sizeof(MessageHandler::DedicatedServerMessageType) == 0x4);
     // private readonly NetworkPacketSerializer`2<MasterServer.MessageHandler/HandshakeMessageType,MasterServer.MessageHandler/MessageOrigin> _handshakeMessageSerializer
@@ -1149,10 +1154,10 @@ namespace MasterServer {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // MasterServer.MessageHandler
+  #pragma pack(pop)
   static check_size<sizeof(MessageHandler), 120 + sizeof(System::Threading::CancellationTokenSource*)> __MasterServer_MessageHandlerSizeCheck;
   static_assert(sizeof(MessageHandler) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler*, "MasterServer", "MessageHandler");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestWaiterId, "MasterServer", "MessageHandler/RequestWaiterId");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::MessageOrigin, "MasterServer", "MessageHandler/MessageOrigin");

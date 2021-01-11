@@ -71,9 +71,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRInput/RawAxis2D Any
     static void _set_Any(GlobalNamespace::OVRInput::RawAxis2D value);
   }; // OVRInput/RawAxis2D
+  #pragma pack(pop)
   static check_size<sizeof(OVRInput::RawAxis2D), 0 + sizeof(int)> __GlobalNamespace_OVRInput_RawAxis2DSizeCheck;
   static_assert(sizeof(OVRInput::RawAxis2D) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::RawAxis2D, "", "OVRInput/RawAxis2D");

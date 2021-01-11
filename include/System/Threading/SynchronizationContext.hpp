@@ -100,8 +100,8 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<SynchronizationContext*, creationType>()));
     }
   }; // System.Threading.SynchronizationContext
+  #pragma pack(pop)
   static check_size<sizeof(SynchronizationContext), 16 + sizeof(System::Threading::SynchronizationContextProperties)> __System_Threading_SynchronizationContextSizeCheck;
   static_assert(sizeof(SynchronizationContext) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SynchronizationContext*, "System.Threading", "SynchronizationContext");

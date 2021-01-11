@@ -53,8 +53,8 @@ namespace NUnit::Framework::Internal {
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
     ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* args);
   }; // NUnit.Framework.Internal.TestNameGenerator/FixedTextFragment
+  #pragma pack(pop)
   static check_size<sizeof(TestNameGenerator::FixedTextFragment), 16 + sizeof(::Il2CppString*)> __NUnit_Framework_Internal_TestNameGenerator_FixedTextFragmentSizeCheck;
   static_assert(sizeof(TestNameGenerator::FixedTextFragment) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::FixedTextFragment*, "NUnit.Framework.Internal", "TestNameGenerator/FixedTextFragment");

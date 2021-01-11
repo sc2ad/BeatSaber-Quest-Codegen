@@ -81,8 +81,8 @@ namespace System::Runtime::Serialization {
       return THROW_UNLESS((::il2cpp_utils::New<LongList*, creationType>()));
     }
   }; // System.Runtime.Serialization.LongList
+  #pragma pack(pop)
   static check_size<sizeof(LongList), 32 + sizeof(int)> __System_Runtime_Serialization_LongListSizeCheck;
   static_assert(sizeof(LongList) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::LongList*, "System.Runtime.Serialization", "LongList");

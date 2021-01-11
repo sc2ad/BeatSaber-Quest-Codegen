@@ -118,8 +118,8 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.BadImageFormatException
+  #pragma pack(pop)
   static check_size<sizeof(BadImageFormatException), 144 + sizeof(::Il2CppString*)> __System_BadImageFormatExceptionSizeCheck;
   static_assert(sizeof(BadImageFormatException) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::BadImageFormatException*, "System", "BadImageFormatException");

@@ -110,9 +110,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRRenderModelError InvalidTexture
     static void _set_InvalidTexture(OVR::OpenVR::EVRRenderModelError value);
   }; // OVR.OpenVR.EVRRenderModelError
+  #pragma pack(pop)
   static check_size<sizeof(EVRRenderModelError), 0 + sizeof(int)> __OVR_OpenVR_EVRRenderModelErrorSizeCheck;
   static_assert(sizeof(EVRRenderModelError) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRRenderModelError, "OVR.OpenVR", "EVRRenderModelError");

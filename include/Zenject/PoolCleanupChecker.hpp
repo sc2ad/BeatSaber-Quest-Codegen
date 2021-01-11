@@ -70,8 +70,8 @@ namespace Zenject {
     // Base method: System.Void ILateDisposable::LateDispose()
     void LateDispose();
   }; // Zenject.PoolCleanupChecker
+  #pragma pack(pop)
   static check_size<sizeof(PoolCleanupChecker), 24 + sizeof(System::Collections::Generic::List_1<System::Type*>*)> __Zenject_PoolCleanupCheckerSizeCheck;
   static_assert(sizeof(PoolCleanupChecker) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolCleanupChecker*, "Zenject", "PoolCleanupChecker");

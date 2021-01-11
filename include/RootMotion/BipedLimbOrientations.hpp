@@ -64,8 +64,8 @@ namespace RootMotion {
     // Offset: 0x1741CC4
     static RootMotion::BipedLimbOrientations* get_MaxBiped();
   }; // RootMotion.BipedLimbOrientations
+  #pragma pack(pop)
   static check_size<sizeof(BipedLimbOrientations), 40 + sizeof(RootMotion::BipedLimbOrientations::LimbOrientation*)> __RootMotion_BipedLimbOrientationsSizeCheck;
   static_assert(sizeof(BipedLimbOrientations) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedLimbOrientations*, "RootMotion", "BipedLimbOrientations");

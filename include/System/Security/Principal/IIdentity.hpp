@@ -25,7 +25,7 @@ namespace System::Security::Principal {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_Name();
   }; // System.Security.Principal.IIdentity
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::IIdentity*, "System.Security.Principal", "IIdentity");

@@ -79,8 +79,8 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return THROW_UNLESS((::il2cpp_utils::New<RandomDsaKCalculator*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Signers.RandomDsaKCalculator
+  #pragma pack(pop)
   static check_size<sizeof(RandomDsaKCalculator), 24 + sizeof(Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Signers_RandomDsaKCalculatorSizeCheck;
   static_assert(sizeof(RandomDsaKCalculator) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator*, "Org.BouncyCastle.Crypto.Signers", "RandomDsaKCalculator");

@@ -86,8 +86,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<SceneContextRegistry*, creationType>()));
     }
   }; // Zenject.SceneContextRegistry
+  #pragma pack(pop)
   static check_size<sizeof(SceneContextRegistry), 16 + sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>*)> __Zenject_SceneContextRegistrySizeCheck;
   static_assert(sizeof(SceneContextRegistry) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContextRegistry*, "Zenject", "SceneContextRegistry");

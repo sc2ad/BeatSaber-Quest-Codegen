@@ -403,8 +403,8 @@ namespace UnityEngine {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.AndroidJavaObject
+  #pragma pack(pop)
   static check_size<sizeof(AndroidJavaObject), 24 + sizeof(UnityEngine::GlobalJavaObjectRef*)> __UnityEngine_AndroidJavaObjectSizeCheck;
   static_assert(sizeof(AndroidJavaObject) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaObject*, "UnityEngine", "AndroidJavaObject");

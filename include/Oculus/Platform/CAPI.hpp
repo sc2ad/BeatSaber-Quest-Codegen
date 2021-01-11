@@ -212,6 +212,7 @@ namespace Oculus::Platform {
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key, value);
       }
     }; // Oculus.Platform.CAPI/ovrKeyValuePair
+    #pragma pack(pop)
     static check_size<sizeof(CAPI::ovrKeyValuePair), 32 + sizeof(double)> __Oculus_Platform_CAPI_ovrKeyValuePairSizeCheck;
     static_assert(sizeof(CAPI::ovrKeyValuePair) == 0x28);
     // Creating value type constructor for type: CAPI
@@ -2948,7 +2949,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<CAPI*, creationType>()));
     }
   }; // Oculus.Platform.CAPI
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI*, "Oculus.Platform", "CAPI");
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrKeyValuePair, "Oculus.Platform", "CAPI/ovrKeyValuePair");

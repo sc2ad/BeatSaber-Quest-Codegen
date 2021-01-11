@@ -84,8 +84,8 @@ namespace UnityEngine::TestTools::TestRunner {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.TestTools.TestRunner.PlaymodeTestsController/<Start>d__12
+  #pragma pack(pop)
   static check_size<sizeof(PlaymodeTestsController::$Start$d__12), 32 + sizeof(UnityEngine::TestTools::TestRunner::PlaymodeTestsController*)> __UnityEngine_TestTools_TestRunner_PlaymodeTestsController_$Start$d__12SizeCheck;
   static_assert(sizeof(PlaymodeTestsController::$Start$d__12) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$Start$d__12*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsController/<Start>d__12");

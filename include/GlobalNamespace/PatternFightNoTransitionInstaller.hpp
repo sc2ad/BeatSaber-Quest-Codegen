@@ -70,8 +70,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightNoTransitionInstaller*, creationType>()));
     }
   }; // PatternFightNoTransitionInstaller
+  #pragma pack(pop)
   static check_size<sizeof(PatternFightNoTransitionInstaller), 32 + sizeof(GlobalNamespace::PatternFightScenesTransitionSetupDataSO*)> __GlobalNamespace_PatternFightNoTransitionInstallerSizeCheck;
   static_assert(sizeof(PatternFightNoTransitionInstaller) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightNoTransitionInstaller*, "", "PatternFightNoTransitionInstaller");

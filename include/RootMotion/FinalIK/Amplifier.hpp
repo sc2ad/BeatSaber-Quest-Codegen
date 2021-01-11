@@ -57,8 +57,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Amplifier*, creationType>()));
     }
   }; // RootMotion.FinalIK.Amplifier
+  #pragma pack(pop)
   static check_size<sizeof(Amplifier), 48 + sizeof(::Array<RootMotion::FinalIK::Amplifier::Body*>*)> __RootMotion_FinalIK_AmplifierSizeCheck;
   static_assert(sizeof(Amplifier) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier*, "RootMotion.FinalIK", "Amplifier");

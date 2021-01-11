@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18E8A74
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetVulkanDeviceExtensionsRequired
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetVulkanDeviceExtensionsRequired*, "Valve.VR", "IVRCompositor/_GetVulkanDeviceExtensionsRequired");

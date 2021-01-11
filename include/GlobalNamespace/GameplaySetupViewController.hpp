@@ -215,8 +215,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameplaySetupViewController*, creationType>()));
     }
   }; // GameplaySetupViewController
+  #pragma pack(pop)
   static check_size<sizeof(GameplaySetupViewController), 184 + sizeof(bool)> __GlobalNamespace_GameplaySetupViewControllerSizeCheck;
   static_assert(sizeof(GameplaySetupViewController) == 0xB9);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController*, "", "GameplaySetupViewController");

@@ -107,8 +107,8 @@ namespace System::Net {
     // Base method: System.Void FileStream::EndWrite(System.IAsyncResult ar)
     void EndWrite(System::IAsyncResult* ar);
   }; // System.Net.FileWebStream
+  #pragma pack(pop)
   static check_size<sizeof(FileWebStream), 112 + sizeof(System::Net::FileWebRequest*)> __System_Net_FileWebStreamSizeCheck;
   static_assert(sizeof(FileWebStream) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FileWebStream*, "System.Net", "FileWebStream");

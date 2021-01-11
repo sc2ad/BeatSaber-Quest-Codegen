@@ -82,6 +82,6 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void DerSequence::.cctor()
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.BerSequence
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerSequence*, "Org.BouncyCastle.Asn1", "BerSequence");

@@ -147,9 +147,9 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // TMPro.TMP_LineInfo
+  #pragma pack(pop)
   static check_size<sizeof(TMP_LineInfo), 76 + sizeof(TMPro::Extents)> __TMPro_TMP_LineInfoSizeCheck;
   static_assert(sizeof(TMP_LineInfo) == 0x5C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_LineInfo, "TMPro", "TMP_LineInfo");

@@ -189,8 +189,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameServersListTableView*, creationType>()));
     }
   }; // GameServersListTableView
+  #pragma pack(pop)
   static check_size<sizeof(GameServersListTableView), 80 + sizeof(GlobalNamespace::INetworkPlayer*)> __GlobalNamespace_GameServersListTableViewSizeCheck;
   static_assert(sizeof(GameServersListTableView) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersListTableView*, "", "GameServersListTableView");

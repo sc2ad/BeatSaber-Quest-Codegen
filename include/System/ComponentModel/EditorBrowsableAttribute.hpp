@@ -52,8 +52,8 @@ namespace System::ComponentModel {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.EditorBrowsableAttribute
+  #pragma pack(pop)
   static check_size<sizeof(EditorBrowsableAttribute), 16 + sizeof(System::ComponentModel::EditorBrowsableState)> __System_ComponentModel_EditorBrowsableAttributeSizeCheck;
   static_assert(sizeof(EditorBrowsableAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EditorBrowsableAttribute*, "System.ComponentModel", "EditorBrowsableAttribute");

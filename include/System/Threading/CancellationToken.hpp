@@ -118,6 +118,7 @@ namespace System::Threading {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Threading.CancellationToken
+  #pragma pack(pop)
   static check_size<sizeof(CancellationToken), 0 + sizeof(System::Threading::CancellationTokenSource*)> __System_Threading_CancellationTokenSizeCheck;
   static_assert(sizeof(CancellationToken) == 0x8);
   // static public System.Boolean op_Equality(System.Threading.CancellationToken left, System.Threading.CancellationToken right)
@@ -127,5 +128,4 @@ namespace System::Threading {
   // Offset: 0x16B2AA0
   bool operator !=(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationToken, "System.Threading", "CancellationToken");

@@ -52,6 +52,6 @@ namespace Microsoft::Win32 {
       return THROW_UNLESS((::il2cpp_utils::New<RegistryKeyComparer*, creationType>()));
     }
   }; // Microsoft.Win32.RegistryKeyComparer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryKeyComparer*, "Microsoft.Win32", "RegistryKeyComparer");

@@ -209,8 +209,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverFullBody*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolverFullBody
+  #pragma pack(pop)
   static check_size<sizeof(IKSolverFullBody), 200 + sizeof(RootMotion::FinalIK::IKSolver::UpdateDelegate*)> __RootMotion_FinalIK_IKSolverFullBodySizeCheck;
   static_assert(sizeof(IKSolverFullBody) == 0xD0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFullBody*, "RootMotion.FinalIK", "IKSolverFullBody");

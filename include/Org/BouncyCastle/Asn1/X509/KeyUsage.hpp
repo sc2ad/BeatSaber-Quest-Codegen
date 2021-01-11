@@ -37,6 +37,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Base method: System.String DerStringBase::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.X509.KeyUsage
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::KeyUsage*, "Org.BouncyCastle.Asn1.X509", "KeyUsage");

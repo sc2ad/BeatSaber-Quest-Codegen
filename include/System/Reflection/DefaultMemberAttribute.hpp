@@ -44,8 +44,8 @@ namespace System::Reflection {
     // Offset: 0x1723760
     ::Il2CppString* get_MemberName();
   }; // System.Reflection.DefaultMemberAttribute
+  #pragma pack(pop)
   static check_size<sizeof(DefaultMemberAttribute), 16 + sizeof(::Il2CppString*)> __System_Reflection_DefaultMemberAttributeSizeCheck;
   static_assert(sizeof(DefaultMemberAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::DefaultMemberAttribute*, "System.Reflection", "DefaultMemberAttribute");

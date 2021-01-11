@@ -163,8 +163,8 @@ namespace Valve::VR {
       return THROW_UNLESS((::il2cpp_utils::New<OpenVR::COpenVRContext*, creationType>()));
     }
   }; // Valve.VR.OpenVR/COpenVRContext
+  #pragma pack(pop)
   static check_size<sizeof(OpenVR::COpenVRContext), 96 + sizeof(Valve::VR::CVRTrackedCamera*)> __Valve_VR_OpenVR_COpenVRContextSizeCheck;
   static_assert(sizeof(OpenVR::COpenVRContext) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::OpenVR::COpenVRContext*, "Valve.VR", "OpenVR/COpenVRContext");

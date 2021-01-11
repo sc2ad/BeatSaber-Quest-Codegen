@@ -83,8 +83,8 @@ namespace System::Security::Cryptography {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Security.Cryptography.AsymmetricAlgorithm
+  #pragma pack(pop)
   static check_size<sizeof(AsymmetricAlgorithm), 24 + sizeof(::Array<System::Security::Cryptography::KeySizes*>*)> __System_Security_Cryptography_AsymmetricAlgorithmSizeCheck;
   static_assert(sizeof(AsymmetricAlgorithm) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsymmetricAlgorithm*, "System.Security.Cryptography", "AsymmetricAlgorithm");

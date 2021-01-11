@@ -135,8 +135,8 @@ namespace GlobalNamespace {
     // Offset: 0x1A2D430
     static GlobalNamespace::BeatmapSaveData* DeserializeFromJSONString(::Il2CppString* stringData);
   }; // BeatmapSaveData
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData), 56 + sizeof(GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData*)> __GlobalNamespace_BeatmapSaveDataSizeCheck;
   static_assert(sizeof(BeatmapSaveData) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData*, "", "BeatmapSaveData");

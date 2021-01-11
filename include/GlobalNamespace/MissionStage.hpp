@@ -66,8 +66,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionStage*, creationType>()));
     }
   }; // MissionStage
+  #pragma pack(pop)
   static check_size<sizeof(MissionStage), 32 + sizeof(UnityEngine::RectTransform*)> __GlobalNamespace_MissionStageSizeCheck;
   static_assert(sizeof(MissionStage) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStage*, "", "MissionStage");

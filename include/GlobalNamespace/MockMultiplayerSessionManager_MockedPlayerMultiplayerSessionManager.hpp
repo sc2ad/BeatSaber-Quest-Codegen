@@ -408,8 +408,8 @@ namespace GlobalNamespace {
     // Base method: System.Void IMultiplayerSessionManager::PerformAtSyncTime(System.Single syncTime, System.Action action)
     void PerformAtSyncTime(float syncTime, System::Action* action);
   }; // MockMultiplayerSessionManager/MockedPlayerMultiplayerSessionManager
+  #pragma pack(pop)
   static check_size<sizeof(MockMultiplayerSessionManager::MockedPlayerMultiplayerSessionManager), 96 + sizeof(GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::MultiplayerSessionManager_MessageType, GlobalNamespace::IConnectedPlayer*>*)> __GlobalNamespace_MockMultiplayerSessionManager_MockedPlayerMultiplayerSessionManagerSizeCheck;
   static_assert(sizeof(MockMultiplayerSessionManager::MockedPlayerMultiplayerSessionManager) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMultiplayerSessionManager::MockedPlayerMultiplayerSessionManager*, "", "MockMultiplayerSessionManager/MockedPlayerMultiplayerSessionManager");

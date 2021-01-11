@@ -171,8 +171,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameServersFilterViewController*, creationType>()));
     }
   }; // GameServersFilterViewController
+  #pragma pack(pop)
   static check_size<sizeof(GameServersFilterViewController), 208 + sizeof(bool)> __GlobalNamespace_GameServersFilterViewControllerSizeCheck;
   static_assert(sizeof(GameServersFilterViewController) == 0xD1);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersFilterViewController*, "", "GameServersFilterViewController");

@@ -248,8 +248,8 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Void IInternalMessage::set_TargetIdentity(System.Runtime.Remoting.Identity value)
     void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(System::Runtime::Remoting::Identity* value);
   }; // System.Runtime.Remoting.Messaging.ReturnMessage
+  #pragma pack(pop)
   static check_size<sizeof(ReturnMessage), 112 + sizeof(System::Runtime::Remoting::Messaging::ArgInfo*)> __System_Runtime_Remoting_Messaging_ReturnMessageSizeCheck;
   static_assert(sizeof(ReturnMessage) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ReturnMessage*, "System.Runtime.Remoting.Messaging", "ReturnMessage");

@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRNetwork/OVRNetworkTcpClient/ConnectionState Connecting
     static void _set_Connecting(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState value);
   }; // OVRNetwork/OVRNetworkTcpClient/ConnectionState
+  #pragma pack(pop)
   static check_size<sizeof(OVRNetwork::OVRNetworkTcpClient::ConnectionState), 0 + sizeof(int)> __GlobalNamespace_OVRNetwork_OVRNetworkTcpClient_ConnectionStateSizeCheck;
   static_assert(sizeof(OVRNetwork::OVRNetworkTcpClient::ConnectionState) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState, "", "OVRNetwork/OVRNetworkTcpClient/ConnectionState");

@@ -88,8 +88,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DirectionalESMLight*, creationType>()));
     }
   }; // DirectionalESMLight
+  #pragma pack(pop)
   static check_size<sizeof(DirectionalESMLight), 48 + sizeof(UnityEngine::Material*)> __GlobalNamespace_DirectionalESMLightSizeCheck;
   static_assert(sizeof(DirectionalESMLight) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalESMLight*, "", "DirectionalESMLight");

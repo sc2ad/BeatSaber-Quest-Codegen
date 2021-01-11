@@ -70,8 +70,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleTemporalFiltering*, creationType>()));
     }
   }; // SimpleTemporalFiltering
+  #pragma pack(pop)
   static check_size<sizeof(SimpleTemporalFiltering), 40 + sizeof(int)> __GlobalNamespace_SimpleTemporalFilteringSizeCheck;
   static_assert(sizeof(SimpleTemporalFiltering) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTemporalFiltering*, "", "SimpleTemporalFiltering");

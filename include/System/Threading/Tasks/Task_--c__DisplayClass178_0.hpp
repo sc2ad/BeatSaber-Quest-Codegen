@@ -79,8 +79,8 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<Task::$$c__DisplayClass178_0*, creationType>()));
     }
   }; // System.Threading.Tasks.Task/<>c__DisplayClass178_0
+  #pragma pack(pop)
   static check_size<sizeof(Task::$$c__DisplayClass178_0), 44 + sizeof(System::Threading::Tasks::InternalTaskOptions)> __System_Threading_Tasks_Task_$$c__DisplayClass178_0SizeCheck;
   static_assert(sizeof(Task::$$c__DisplayClass178_0) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::$$c__DisplayClass178_0*, "System.Threading.Tasks", "Task/<>c__DisplayClass178_0");

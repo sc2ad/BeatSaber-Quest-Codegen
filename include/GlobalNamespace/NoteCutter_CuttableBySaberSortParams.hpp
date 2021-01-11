@@ -58,8 +58,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutter::CuttableBySaberSortParams*, creationType>()));
     }
   }; // NoteCutter/CuttableBySaberSortParams
+  #pragma pack(pop)
   static check_size<sizeof(NoteCutter::CuttableBySaberSortParams), 28 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_NoteCutter_CuttableBySaberSortParamsSizeCheck;
   static_assert(sizeof(NoteCutter::CuttableBySaberSortParams) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter::CuttableBySaberSortParams*, "", "NoteCutter/CuttableBySaberSortParams");

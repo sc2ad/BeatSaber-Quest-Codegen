@@ -53,8 +53,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<UVEditing::$$c__DisplayClass13_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c__DisplayClass13_0
+  #pragma pack(pop)
   static check_size<sizeof(UVEditing::$$c__DisplayClass13_0), 16 + sizeof(int)> __UnityEngine_ProBuilder_MeshOperations_UVEditing_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(UVEditing::$$c__DisplayClass13_0) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/<>c__DisplayClass13_0");

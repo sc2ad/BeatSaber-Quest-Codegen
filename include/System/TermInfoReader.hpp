@@ -99,8 +99,8 @@ namespace System {
     // Offset: 0x1596E60
     ::Array<uint8_t>* GetStringBytes(::Array<uint8_t>* buffer, int offset);
   }; // System.TermInfoReader
+  #pragma pack(pop)
   static check_size<sizeof(TermInfoReader), 32 + sizeof(int)> __System_TermInfoReaderSizeCheck;
   static_assert(sizeof(TermInfoReader) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::TermInfoReader*, "System", "TermInfoReader");

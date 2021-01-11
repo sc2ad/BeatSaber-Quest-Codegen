@@ -75,8 +75,8 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.CryptoPro.Gost3410PublicKeyAlgParameters
+  #pragma pack(pop)
   static check_size<sizeof(Gost3410PublicKeyAlgParameters), 32 + sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*)> __Org_BouncyCastle_Asn1_CryptoPro_Gost3410PublicKeyAlgParametersSizeCheck;
   static_assert(sizeof(Gost3410PublicKeyAlgParameters) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters*, "Org.BouncyCastle.Asn1.CryptoPro", "Gost3410PublicKeyAlgParameters");

@@ -187,8 +187,8 @@ namespace System::Globalization {
       return THROW_UNLESS((::il2cpp_utils::New<CalendarData*, creationType>()));
     }
   }; // System.Globalization.CalendarData
+  #pragma pack(pop)
   static check_size<sizeof(CalendarData), 152 + sizeof(bool)> __System_Globalization_CalendarDataSizeCheck;
   static_assert(sizeof(CalendarData) == 0x99);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CalendarData*, "System.Globalization", "CalendarData");

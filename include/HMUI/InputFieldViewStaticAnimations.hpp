@@ -104,8 +104,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldViewStaticAnimations*, creationType>()));
     }
   }; // HMUI.InputFieldViewStaticAnimations
+  #pragma pack(pop)
   static check_size<sizeof(InputFieldViewStaticAnimations), 72 + sizeof(bool)> __HMUI_InputFieldViewStaticAnimationsSizeCheck;
   static_assert(sizeof(InputFieldViewStaticAnimations) == 0x49);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldViewStaticAnimations*, "HMUI", "InputFieldViewStaticAnimations");

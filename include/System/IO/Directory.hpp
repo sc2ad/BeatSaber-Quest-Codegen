@@ -85,7 +85,7 @@ namespace System::IO {
     // Offset: 0x14356E4
     static ::Il2CppString* GetDemandDir(::Il2CppString* fullPath, bool thisDirOnly);
   }; // System.IO.Directory
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Directory*, "System.IO", "Directory");

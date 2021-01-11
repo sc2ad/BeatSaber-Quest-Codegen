@@ -31,7 +31,7 @@ namespace System::Net {
     // Offset: 0xFFFFFFFF
     void SetIdle();
   }; // System.Net.IWebConnectionState
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IWebConnectionState*, "System.Net", "IWebConnectionState");

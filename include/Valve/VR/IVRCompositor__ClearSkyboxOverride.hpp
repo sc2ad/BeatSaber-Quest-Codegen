@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x18E4794
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_ClearSkyboxOverride
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_ClearSkyboxOverride*, "Valve.VR", "IVRCompositor/_ClearSkyboxOverride");

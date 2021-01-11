@@ -80,8 +80,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<Rotate*, creationType>()));
     }
   }; // Rotate
+  #pragma pack(pop)
   static check_size<sizeof(Rotate), 48 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_RotateSizeCheck;
   static_assert(sizeof(Rotate) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Rotate*, "", "Rotate");

@@ -71,8 +71,8 @@ namespace GlobalNamespace {
     // Offset: 0x10335B4
     void SetDiContainer(Zenject::DiContainer* container);
   }; // GameScenesManager/ScenesStackData
+  #pragma pack(pop)
   static check_size<sizeof(GameScenesManager::ScenesStackData), 24 + sizeof(Zenject::DiContainer*)> __GlobalNamespace_GameScenesManager_ScenesStackDataSizeCheck;
   static_assert(sizeof(GameScenesManager::ScenesStackData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::ScenesStackData*, "", "GameScenesManager/ScenesStackData");

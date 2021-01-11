@@ -115,7 +115,7 @@ namespace Polyglot {
     // Offset: 0x1985D00
     static System::Collections::Generic::List_1<::Il2CppString*>* GetKeys();
   }; // Polyglot.LocalizationImporter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationImporter*, "Polyglot", "LocalizationImporter");

@@ -308,9 +308,9 @@ namespace System {
     // Set static field: static public System.ExceptionResource Argument_InvalidRegistryViewCheck
     static void _set_Argument_InvalidRegistryViewCheck(System::ExceptionResource value);
   }; // System.ExceptionResource
+  #pragma pack(pop)
   static check_size<sizeof(ExceptionResource), 0 + sizeof(int)> __System_ExceptionResourceSizeCheck;
   static_assert(sizeof(ExceptionResource) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ExceptionResource, "System", "ExceptionResource");

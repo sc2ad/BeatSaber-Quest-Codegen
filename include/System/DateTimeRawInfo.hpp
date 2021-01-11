@@ -94,9 +94,9 @@ namespace System {
     // Offset: 0xCA43E8
     int GetNumber(int index);
   }; // System.DateTimeRawInfo
+  #pragma pack(pop)
   static check_size<sizeof(DateTimeRawInfo), 41 + sizeof(bool)> __System_DateTimeRawInfoSizeCheck;
   static_assert(sizeof(DateTimeRawInfo) == 0x2A);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeRawInfo, "System", "DateTimeRawInfo");

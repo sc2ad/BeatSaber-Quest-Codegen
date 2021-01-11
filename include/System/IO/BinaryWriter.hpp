@@ -185,8 +185,8 @@ namespace System::IO {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.IO.BinaryWriter
+  #pragma pack(pop)
   static check_size<sizeof(BinaryWriter), 64 + sizeof(int)> __System_IO_BinaryWriterSizeCheck;
   static_assert(sizeof(BinaryWriter) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::BinaryWriter*, "System.IO", "BinaryWriter");

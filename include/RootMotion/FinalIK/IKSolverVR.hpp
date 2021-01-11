@@ -397,8 +397,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolverVR
+  #pragma pack(pop)
   static check_size<sizeof(IKSolverVR), 364 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_IKSolverVRSizeCheck;
   static_assert(sizeof(IKSolverVR) == 0x178);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR*, "RootMotion.FinalIK", "IKSolverVR");

@@ -133,8 +133,8 @@ namespace Zenject {
     // Base method: System.Void IProvider::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.ScriptableObjectInstanceProvider
+  #pragma pack(pop)
   static check_size<sizeof(ScriptableObjectInstanceProvider), 64 + sizeof(UnityEngine::Object*)> __Zenject_ScriptableObjectInstanceProviderSizeCheck;
   static_assert(sizeof(ScriptableObjectInstanceProvider) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstanceProvider*, "Zenject", "ScriptableObjectInstanceProvider");

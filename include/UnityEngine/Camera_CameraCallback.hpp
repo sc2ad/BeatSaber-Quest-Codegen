@@ -49,6 +49,6 @@ namespace UnityEngine {
     // Offset: 0x1680ED0
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Camera/CameraCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Camera::CameraCallback*, "UnityEngine", "Camera/CameraCallback");

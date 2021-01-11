@@ -162,8 +162,8 @@ namespace HMUI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // HMUI.PanelAnimation/<AnimationCoroutine>d__1
+  #pragma pack(pop)
   static check_size<sizeof(PanelAnimation::$AnimationCoroutine$d__1), 112 + sizeof(float)> __HMUI_PanelAnimation_$AnimationCoroutine$d__1SizeCheck;
   static_assert(sizeof(PanelAnimation::$AnimationCoroutine$d__1) == 0x74);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimation::$AnimationCoroutine$d__1*, "HMUI", "PanelAnimation/<AnimationCoroutine>d__1");

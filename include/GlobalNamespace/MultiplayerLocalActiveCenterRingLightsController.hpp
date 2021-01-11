@@ -116,8 +116,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActiveCenterRingLightsController*, creationType>()));
     }
   }; // MultiplayerLocalActiveCenterRingLightsController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActiveCenterRingLightsController), 65 + sizeof(bool)> __GlobalNamespace_MultiplayerLocalActiveCenterRingLightsControllerSizeCheck;
   static_assert(sizeof(MultiplayerLocalActiveCenterRingLightsController) == 0x42);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController*, "", "MultiplayerLocalActiveCenterRingLightsController");

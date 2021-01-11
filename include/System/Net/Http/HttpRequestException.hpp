@@ -50,6 +50,6 @@ namespace System::Net::Http {
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestException*, creationType>(message, inner)));
     }
   }; // System.Net.Http.HttpRequestException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpRequestException*, "System.Net.Http", "HttpRequestException");

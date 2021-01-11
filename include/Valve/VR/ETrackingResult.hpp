@@ -62,9 +62,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.ETrackingResult Running_OutOfRange
     static void _set_Running_OutOfRange(Valve::VR::ETrackingResult value);
   }; // Valve.VR.ETrackingResult
+  #pragma pack(pop)
   static check_size<sizeof(ETrackingResult), 0 + sizeof(int)> __Valve_VR_ETrackingResultSizeCheck;
   static_assert(sizeof(ETrackingResult) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::ETrackingResult, "Valve.VR", "ETrackingResult");

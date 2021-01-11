@@ -74,6 +74,6 @@ namespace System::Security::Authentication {
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticationException*, creationType>(serializationInfo, streamingContext)));
     }
   }; // System.Security.Authentication.AuthenticationException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::AuthenticationException*, "System.Security.Authentication", "AuthenticationException");

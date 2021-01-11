@@ -49,8 +49,8 @@ namespace System::Globalization {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, result);
     }
   }; // System.Globalization.HebrewNumberParsingContext
+  #pragma pack(pop)
   static check_size<sizeof(HebrewNumberParsingContext), 4 + sizeof(int)> __System_Globalization_HebrewNumberParsingContextSizeCheck;
   static_assert(sizeof(HebrewNumberParsingContext) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumberParsingContext, "System.Globalization", "HebrewNumberParsingContext");

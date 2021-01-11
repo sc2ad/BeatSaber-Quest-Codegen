@@ -175,8 +175,8 @@ namespace System::Net {
     // Offset: 0x1319F28
     void RemovePrefix(System::Net::ListenerPrefix* prefix, System::Net::HttpListener* listener);
   }; // System.Net.EndPointListener
+  #pragma pack(pop)
   static check_size<sizeof(EndPointListener), 80 + sizeof(System::Collections::Generic::Dictionary_2<System::Net::HttpConnection*, System::Net::HttpConnection*>*)> __System_Net_EndPointListenerSizeCheck;
   static_assert(sizeof(EndPointListener) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EndPointListener*, "System.Net", "EndPointListener");

@@ -121,8 +121,8 @@ namespace GlobalNamespace {
     // Base method: System.Void IConnection::Disconnect()
     void Disconnect();
   }; // LiteNetLibConnectionManager/NetPeerConnection
+  #pragma pack(pop)
   static check_size<sizeof(LiteNetLibConnectionManager::NetPeerConnection), 40 + sizeof(LiteNetLib::NetPeer*)> __GlobalNamespace_LiteNetLibConnectionManager_NetPeerConnectionSizeCheck;
   static_assert(sizeof(LiteNetLibConnectionManager::NetPeerConnection) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*, "", "LiteNetLibConnectionManager/NetPeerConnection");

@@ -101,9 +101,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RemoteConfigSettingsHelper/Tag kMaxTags
     static void _set_kMaxTags(UnityEngine::RemoteConfigSettingsHelper::Tag value);
   }; // UnityEngine.RemoteConfigSettingsHelper/Tag
+  #pragma pack(pop)
   static check_size<sizeof(RemoteConfigSettingsHelper::Tag), 0 + sizeof(int)> __UnityEngine_RemoteConfigSettingsHelper_TagSizeCheck;
   static_assert(sizeof(RemoteConfigSettingsHelper::Tag) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteConfigSettingsHelper::Tag, "UnityEngine", "RemoteConfigSettingsHelper/Tag");

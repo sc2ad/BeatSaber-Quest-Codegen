@@ -34,9 +34,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.VRControllerAxis_t
+  #pragma pack(pop)
   static check_size<sizeof(VRControllerAxis_t), 4 + sizeof(float)> __OVR_OpenVR_VRControllerAxis_tSizeCheck;
   static_assert(sizeof(VRControllerAxis_t) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRControllerAxis_t, "OVR.OpenVR", "VRControllerAxis_t");

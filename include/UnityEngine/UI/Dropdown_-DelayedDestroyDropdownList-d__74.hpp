@@ -92,8 +92,8 @@ namespace UnityEngine::UI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.UI.Dropdown/<DelayedDestroyDropdownList>d__74
+  #pragma pack(pop)
   static check_size<sizeof(Dropdown::$DelayedDestroyDropdownList$d__74), 40 + sizeof(UnityEngine::UI::Dropdown*)> __UnityEngine_UI_Dropdown_$DelayedDestroyDropdownList$d__74SizeCheck;
   static_assert(sizeof(Dropdown::$DelayedDestroyDropdownList$d__74) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::$DelayedDestroyDropdownList$d__74*, "UnityEngine.UI", "Dropdown/<DelayedDestroyDropdownList>d__74");

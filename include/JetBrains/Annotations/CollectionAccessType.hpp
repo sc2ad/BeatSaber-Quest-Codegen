@@ -57,9 +57,9 @@ namespace JetBrains::Annotations {
     // Set static field: static public JetBrains.Annotations.CollectionAccessType UpdatedContent
     static void _set_UpdatedContent(JetBrains::Annotations::CollectionAccessType value);
   }; // JetBrains.Annotations.CollectionAccessType
+  #pragma pack(pop)
   static check_size<sizeof(CollectionAccessType), 0 + sizeof(int)> __JetBrains_Annotations_CollectionAccessTypeSizeCheck;
   static_assert(sizeof(CollectionAccessType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessType, "JetBrains.Annotations", "CollectionAccessType");

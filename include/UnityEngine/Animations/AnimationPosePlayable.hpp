@@ -77,8 +77,8 @@ namespace UnityEngine::Animations {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationPosePlayable other)
     bool Equals(UnityEngine::Animations::AnimationPosePlayable other);
   }; // UnityEngine.Animations.AnimationPosePlayable
+  #pragma pack(pop)
   static check_size<sizeof(AnimationPosePlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Animations_AnimationPosePlayableSizeCheck;
   static_assert(sizeof(AnimationPosePlayable) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPosePlayable, "UnityEngine.Animations", "AnimationPosePlayable");

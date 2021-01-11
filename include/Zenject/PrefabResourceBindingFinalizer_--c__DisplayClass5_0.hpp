@@ -73,8 +73,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<PrefabResourceBindingFinalizer::$$c__DisplayClass5_0*, creationType>()));
     }
   }; // Zenject.PrefabResourceBindingFinalizer/<>c__DisplayClass5_0
+  #pragma pack(pop)
   static check_size<sizeof(PrefabResourceBindingFinalizer::$$c__DisplayClass5_0), 32 + sizeof(System::Collections::Generic::List_1<System::Type*>*)> __Zenject_PrefabResourceBindingFinalizer_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(PrefabResourceBindingFinalizer::$$c__DisplayClass5_0) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_0*, "Zenject", "PrefabResourceBindingFinalizer/<>c__DisplayClass5_0");

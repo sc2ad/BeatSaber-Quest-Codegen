@@ -297,6 +297,6 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<GameObject*, creationType>()));
     }
   }; // UnityEngine.GameObject
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GameObject*, "UnityEngine", "GameObject");

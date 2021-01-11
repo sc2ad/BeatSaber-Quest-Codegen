@@ -89,8 +89,8 @@ namespace LiteNetLib {
     // Offset: 0x1DC654C
     static LiteNetLib::NetPacket* Make(LiteNetLib::Utils::NetDataWriter* connectData, System::Net::SocketAddress* addressBytes, int64_t connectId);
   }; // LiteNetLib.NetConnectRequestPacket
+  #pragma pack(pop)
   static check_size<sizeof(NetConnectRequestPacket), 40 + sizeof(LiteNetLib::Utils::NetDataReader*)> __LiteNetLib_NetConnectRequestPacketSizeCheck;
   static_assert(sizeof(NetConnectRequestPacket) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectRequestPacket*, "LiteNetLib", "NetConnectRequestPacket");

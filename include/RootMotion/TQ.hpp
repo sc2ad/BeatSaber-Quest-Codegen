@@ -43,8 +43,8 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<TQ*, creationType>(translation, rotation)));
     }
   }; // RootMotion.TQ
+  #pragma pack(pop)
   static check_size<sizeof(TQ), 28 + sizeof(UnityEngine::Quaternion)> __RootMotion_TQSizeCheck;
   static_assert(sizeof(TQ) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::TQ*, "RootMotion", "TQ");

@@ -64,9 +64,9 @@ namespace Mono::Globalization::Unicode {
     // Set static field: static public Mono.Globalization.Unicode.SimpleCollator/ExtenderType Buggy
     static void _set_Buggy(Mono::Globalization::Unicode::SimpleCollator::ExtenderType value);
   }; // Mono.Globalization.Unicode.SimpleCollator/ExtenderType
+  #pragma pack(pop)
   static check_size<sizeof(SimpleCollator::ExtenderType), 0 + sizeof(int)> __Mono_Globalization_Unicode_SimpleCollator_ExtenderTypeSizeCheck;
   static_assert(sizeof(SimpleCollator::ExtenderType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::ExtenderType, "Mono.Globalization.Unicode", "SimpleCollator/ExtenderType");

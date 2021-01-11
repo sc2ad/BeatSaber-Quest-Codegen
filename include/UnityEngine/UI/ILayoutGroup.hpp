@@ -21,7 +21,7 @@ namespace UnityEngine::UI {
       return *reinterpret_cast<UnityEngine::UI::ILayoutController*>(this);
     }
   }; // UnityEngine.UI.ILayoutGroup
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutGroup*, "UnityEngine.UI", "ILayoutGroup");

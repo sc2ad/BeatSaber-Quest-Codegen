@@ -97,8 +97,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // StandaloneMonobehavior/<AfterOneFrame>d__16
+  #pragma pack(pop)
   static check_size<sizeof(StandaloneMonobehavior::$AfterOneFrame$d__16), 40 + sizeof(System::Action*)> __GlobalNamespace_StandaloneMonobehavior_$AfterOneFrame$d__16SizeCheck;
   static_assert(sizeof(StandaloneMonobehavior::$AfterOneFrame$d__16) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandaloneMonobehavior::$AfterOneFrame$d__16*, "", "StandaloneMonobehavior/<AfterOneFrame>d__16");

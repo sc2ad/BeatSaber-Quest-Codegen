@@ -127,8 +127,8 @@ namespace OVR::OpenVR {
     // Offset: 0x11F57D8
     OVR::OpenVR::EVRInputError ShowBindingsForActionSet(::Array<OVR::OpenVR::VRActiveActionSet_t>* pSets, uint unSizeOfVRSelectedActionSet_t, uint64_t originToHighlight);
   }; // OVR.OpenVR.CVRInput
+  #pragma pack(pop)
   static check_size<sizeof(CVRInput), 16 + sizeof(OVR::OpenVR::IVRInput)> __OVR_OpenVR_CVRInputSizeCheck;
   static_assert(sizeof(CVRInput) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRInput*, "OVR.OpenVR", "CVRInput");

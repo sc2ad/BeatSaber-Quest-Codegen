@@ -81,8 +81,8 @@ namespace System::IO {
     // Base method: System.Void StreamWriter::Write(System.String val)
     void Write(::Il2CppString* val);
   }; // System.IO.CStreamWriter
+  #pragma pack(pop)
   static check_size<sizeof(CStreamWriter), 104 + sizeof(System::TermInfoDriver*)> __System_IO_CStreamWriterSizeCheck;
   static_assert(sizeof(CStreamWriter) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::CStreamWriter*, "System.IO", "CStreamWriter");

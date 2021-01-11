@@ -171,8 +171,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GamePause*, creationType>()));
     }
   }; // GamePause
+  #pragma pack(pop)
   static check_size<sizeof(GamePause), 88 + sizeof(bool)> __GlobalNamespace_GamePauseSizeCheck;
   static_assert(sizeof(GamePause) == 0x59);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GamePause*, "", "GamePause");

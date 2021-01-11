@@ -98,8 +98,8 @@ namespace GlobalNamespace {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // MasterServerEndPoint
+  #pragma pack(pop)
   static check_size<sizeof(MasterServerEndPoint), 32 + sizeof(System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>*)> __GlobalNamespace_MasterServerEndPointSizeCheck;
   static_assert(sizeof(MasterServerEndPoint) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerEndPoint*, "", "MasterServerEndPoint");

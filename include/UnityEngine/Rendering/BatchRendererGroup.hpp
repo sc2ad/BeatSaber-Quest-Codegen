@@ -48,9 +48,9 @@ namespace UnityEngine::Rendering {
     // Offset: 0x16B9E78
     static void InvokeOnPerformCulling(UnityEngine::Rendering::BatchRendererGroup* group, UnityEngine::Rendering::BatchRendererCullingOutput& context, UnityEngine::Rendering::LODParameters& lodParameters);
   }; // UnityEngine.Rendering.BatchRendererGroup
+  #pragma pack(pop)
   static check_size<sizeof(BatchRendererGroup), 24 + sizeof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*)> __UnityEngine_Rendering_BatchRendererGroupSizeCheck;
   static_assert(sizeof(BatchRendererGroup) == 0x20);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup*, "UnityEngine.Rendering", "BatchRendererGroup");

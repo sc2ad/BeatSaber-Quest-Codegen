@@ -62,6 +62,7 @@ namespace GlobalNamespace {
       // Set static field: static public ObstacleExecutionRating/Rating NotGood
       static void _set_NotGood(GlobalNamespace::ObstacleExecutionRating::Rating value);
     }; // ObstacleExecutionRating/Rating
+    #pragma pack(pop)
     static check_size<sizeof(ObstacleExecutionRating::Rating), 0 + sizeof(int)> __GlobalNamespace_ObstacleExecutionRating_RatingSizeCheck;
     static_assert(sizeof(ObstacleExecutionRating::Rating) == 0x4);
     // [CompilerGeneratedAttribute] Offset: 0xDC48AC
@@ -91,9 +92,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleExecutionRating*, creationType>(time, rating)));
     }
   }; // ObstacleExecutionRating
+  #pragma pack(pop)
   static check_size<sizeof(ObstacleExecutionRating), 24 + sizeof(GlobalNamespace::ObstacleExecutionRating::Rating)> __GlobalNamespace_ObstacleExecutionRatingSizeCheck;
   static_assert(sizeof(ObstacleExecutionRating) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating*, "", "ObstacleExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating::Rating, "", "ObstacleExecutionRating/Rating");

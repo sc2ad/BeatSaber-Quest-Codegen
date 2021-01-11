@@ -136,6 +136,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.Selectable/Transition Animation
       static void _set_Animation(UnityEngine::UI::Selectable::Transition value);
     }; // UnityEngine.UI.Selectable/Transition
+    #pragma pack(pop)
     static check_size<sizeof(Selectable::Transition), 0 + sizeof(int)> __UnityEngine_UI_Selectable_TransitionSizeCheck;
     static_assert(sizeof(Selectable::Transition) == 0x4);
     // [FormerlySerializedAsAttribute] Offset: 0xD7F144
@@ -498,9 +499,9 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.UI.Selectable
+  #pragma pack(pop)
   static check_size<sizeof(Selectable), 232 + sizeof(System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>*)> __UnityEngine_UI_SelectableSizeCheck;
   static_assert(sizeof(Selectable) == 0xF0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable*, "UnityEngine.UI", "Selectable");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable::Transition, "UnityEngine.UI", "Selectable/Transition");

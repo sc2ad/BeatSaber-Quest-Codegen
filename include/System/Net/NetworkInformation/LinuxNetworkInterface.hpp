@@ -76,8 +76,8 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
   }; // System.Net.NetworkInformation.LinuxNetworkInterface
+  #pragma pack(pop)
   static check_size<sizeof(LinuxNetworkInterface), 72 + sizeof(::Il2CppString*)> __System_Net_NetworkInformation_LinuxNetworkInterfaceSizeCheck;
   static_assert(sizeof(LinuxNetworkInterface) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxNetworkInterface*, "System.Net.NetworkInformation", "LinuxNetworkInterface");

@@ -82,8 +82,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SetSaberBladeParams*, creationType>()));
     }
   }; // SetSaberBladeParams
+  #pragma pack(pop)
   static check_size<sizeof(SetSaberBladeParams), 48 + sizeof(GlobalNamespace::ColorManager*)> __GlobalNamespace_SetSaberBladeParamsSizeCheck;
   static_assert(sizeof(SetSaberBladeParams) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberBladeParams*, "", "SetSaberBladeParams");

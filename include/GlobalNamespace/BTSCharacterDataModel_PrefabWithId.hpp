@@ -58,8 +58,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterDataModel::PrefabWithId*, creationType>()));
     }
   }; // BTSCharacterDataModel/PrefabWithId
+  #pragma pack(pop)
   static check_size<sizeof(BTSCharacterDataModel::PrefabWithId), 24 + sizeof(GlobalNamespace::BTSCharacter*)> __GlobalNamespace_BTSCharacterDataModel_PrefabWithIdSizeCheck;
   static_assert(sizeof(BTSCharacterDataModel::PrefabWithId) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel::PrefabWithId*, "", "BTSCharacterDataModel/PrefabWithId");

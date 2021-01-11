@@ -354,8 +354,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Settings*, creationType>()));
     }
   }; // TMPro.TMP_Settings
+  #pragma pack(pop)
   static check_size<sizeof(TMP_Settings), 160 + sizeof(TMPro::TMP_Settings::LineBreakingTable*)> __TMPro_TMP_SettingsSizeCheck;
   static_assert(sizeof(TMP_Settings) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Settings*, "TMPro", "TMP_Settings");

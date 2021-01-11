@@ -57,8 +57,8 @@ namespace JetBrains::Annotations {
       return THROW_UNLESS((::il2cpp_utils::New<PathReferenceAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.PathReferenceAttribute
+  #pragma pack(pop)
   static check_size<sizeof(PathReferenceAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_PathReferenceAttributeSizeCheck;
   static_assert(sizeof(PathReferenceAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::PathReferenceAttribute*, "JetBrains.Annotations", "PathReferenceAttribute");

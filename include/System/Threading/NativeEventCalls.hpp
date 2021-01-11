@@ -46,7 +46,7 @@ namespace System::Threading {
     // Offset: 0x16B7E20
     static void CloseEvent_internal(System::IntPtr handle);
   }; // System.Threading.NativeEventCalls
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::NativeEventCalls*, "System.Threading", "NativeEventCalls");

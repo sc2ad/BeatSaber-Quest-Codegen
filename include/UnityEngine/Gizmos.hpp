@@ -74,7 +74,7 @@ namespace UnityEngine {
     // Offset: 0x168B5E8
     static void set_matrix_Injected(UnityEngine::Matrix4x4& value);
   }; // UnityEngine.Gizmos
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Gizmos*, "UnityEngine", "Gizmos");

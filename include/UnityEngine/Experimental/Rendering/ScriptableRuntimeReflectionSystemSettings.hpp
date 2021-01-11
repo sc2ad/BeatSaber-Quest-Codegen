@@ -43,7 +43,7 @@ namespace UnityEngine::Experimental::Rendering {
     // Offset: 0x168A2C8
     static void _cctor();
   }; // UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemSettings
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings*, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemSettings");

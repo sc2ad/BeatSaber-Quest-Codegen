@@ -69,8 +69,8 @@ namespace System {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.LocalDataStoreSlot
+  #pragma pack(pop)
   static check_size<sizeof(LocalDataStoreSlot), 32 + sizeof(int64_t)> __System_LocalDataStoreSlotSizeCheck;
   static_assert(sizeof(LocalDataStoreSlot) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreSlot*, "System", "LocalDataStoreSlot");

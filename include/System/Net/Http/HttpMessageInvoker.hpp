@@ -81,8 +81,8 @@ namespace System::Net::Http {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Net.Http.HttpMessageInvoker
+  #pragma pack(pop)
   static check_size<sizeof(HttpMessageInvoker), 24 + sizeof(bool)> __System_Net_Http_HttpMessageInvokerSizeCheck;
   static_assert(sizeof(HttpMessageInvoker) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpMessageInvoker*, "System.Net.Http", "HttpMessageInvoker");

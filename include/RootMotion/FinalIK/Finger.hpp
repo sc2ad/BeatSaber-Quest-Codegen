@@ -72,6 +72,7 @@ namespace RootMotion::FinalIK {
       // Set static field: static public RootMotion.FinalIK.Finger/DOF Three
       static void _set_Three(RootMotion::FinalIK::Finger::DOF value);
     }; // RootMotion.FinalIK.Finger/DOF
+    #pragma pack(pop)
     static check_size<sizeof(Finger::DOF), 0 + sizeof(int)> __RootMotion_FinalIK_Finger_DOFSizeCheck;
     static_assert(sizeof(Finger::DOF) == 0x4);
     // [TooltipAttribute] Offset: 0xDB5638
@@ -237,9 +238,9 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Finger*, creationType>()));
     }
   }; // RootMotion.FinalIK.Finger
+  #pragma pack(pop)
   static check_size<sizeof(Finger), 156 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_FingerSizeCheck;
   static_assert(sizeof(Finger) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Finger*, "RootMotion.FinalIK", "Finger");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Finger::DOF, "RootMotion.FinalIK", "Finger/DOF");

@@ -372,8 +372,8 @@ namespace TMPro {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // TMPro.TMP_Dropdown
+  #pragma pack(pop)
   static check_size<sizeof(TMP_Dropdown), 336 + sizeof(bool)> __TMPro_TMP_DropdownSizeCheck;
   static_assert(sizeof(TMP_Dropdown) == 0x151);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown*, "TMPro", "TMP_Dropdown");

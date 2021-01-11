@@ -94,8 +94,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4BeatmapDataAssetFileModel*, creationType>()));
     }
   }; // PS4BeatmapDataAssetFileModel
+  #pragma pack(pop)
   static check_size<sizeof(PS4BeatmapDataAssetFileModel), 16 + sizeof(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*)> __GlobalNamespace_PS4BeatmapDataAssetFileModelSizeCheck;
   static_assert(sizeof(PS4BeatmapDataAssetFileModel) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4BeatmapDataAssetFileModel*, "", "PS4BeatmapDataAssetFileModel");

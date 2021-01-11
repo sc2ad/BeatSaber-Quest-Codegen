@@ -78,8 +78,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameCoreSceneSetup*, creationType>()));
     }
   }; // GameCoreSceneSetup
+  #pragma pack(pop)
   static check_size<sizeof(GameCoreSceneSetup), 48 + sizeof(GlobalNamespace::GameCoreSceneSetupData*)> __GlobalNamespace_GameCoreSceneSetupSizeCheck;
   static_assert(sizeof(GameCoreSceneSetup) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameCoreSceneSetup*, "", "GameCoreSceneSetup");

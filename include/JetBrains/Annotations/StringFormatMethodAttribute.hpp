@@ -47,8 +47,8 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EEAAC
     void set_FormatParameterName(::Il2CppString* value);
   }; // JetBrains.Annotations.StringFormatMethodAttribute
+  #pragma pack(pop)
   static check_size<sizeof(StringFormatMethodAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_StringFormatMethodAttributeSizeCheck;
   static_assert(sizeof(StringFormatMethodAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::StringFormatMethodAttribute*, "JetBrains.Annotations", "StringFormatMethodAttribute");

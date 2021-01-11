@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Math::Field {
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();
   }; // Org.BouncyCastle.Math.Field.IPolynomialExtensionField
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::IPolynomialExtensionField*, "Org.BouncyCastle.Math.Field", "IPolynomialExtensionField");

@@ -114,8 +114,8 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1164854
     ::Il2CppString* get_Value();
   }; // System.Runtime.InteropServices.DllImportAttribute
+  #pragma pack(pop)
   static check_size<sizeof(DllImportAttribute), 45 + sizeof(bool)> __System_Runtime_InteropServices_DllImportAttributeSizeCheck;
   static_assert(sizeof(DllImportAttribute) == 0x2E);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DllImportAttribute*, "System.Runtime.InteropServices", "DllImportAttribute");

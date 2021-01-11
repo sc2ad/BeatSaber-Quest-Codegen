@@ -138,8 +138,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersInputManager*, creationType>()));
     }
   }; // VRControllersInputManager
+  #pragma pack(pop)
   static check_size<sizeof(VRControllersInputManager), 16 + sizeof(GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_VRControllersInputManagerSizeCheck;
   static_assert(sizeof(VRControllersInputManager) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersInputManager*, "", "VRControllersInputManager");

@@ -53,8 +53,8 @@ namespace Mono::Globalization::Unicode {
       return THROW_UNLESS((::il2cpp_utils::New<Contraction*, creationType>(index, source, replacement, sortkey)));
     }
   }; // Mono.Globalization.Unicode.Contraction
+  #pragma pack(pop)
   static check_size<sizeof(Contraction), 40 + sizeof(::Array<uint8_t>*)> __Mono_Globalization_Unicode_ContractionSizeCheck;
   static_assert(sizeof(Contraction) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Contraction*, "Mono.Globalization.Unicode", "Contraction");

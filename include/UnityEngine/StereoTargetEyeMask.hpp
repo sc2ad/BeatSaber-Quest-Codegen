@@ -56,9 +56,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.StereoTargetEyeMask Both
     static void _set_Both(UnityEngine::StereoTargetEyeMask value);
   }; // UnityEngine.StereoTargetEyeMask
+  #pragma pack(pop)
   static check_size<sizeof(StereoTargetEyeMask), 0 + sizeof(int)> __UnityEngine_StereoTargetEyeMaskSizeCheck;
   static_assert(sizeof(StereoTargetEyeMask) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::StereoTargetEyeMask, "UnityEngine", "StereoTargetEyeMask");

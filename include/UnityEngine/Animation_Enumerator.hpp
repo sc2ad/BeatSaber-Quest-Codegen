@@ -71,8 +71,8 @@ namespace UnityEngine {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.Animation/Enumerator
+  #pragma pack(pop)
   static check_size<sizeof(Animation::Enumerator), 24 + sizeof(int)> __UnityEngine_Animation_EnumeratorSizeCheck;
   static_assert(sizeof(Animation::Enumerator) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animation::Enumerator*, "UnityEngine", "Animation/Enumerator");

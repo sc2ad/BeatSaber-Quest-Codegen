@@ -106,8 +106,8 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.Submesh
+  #pragma pack(pop)
   static check_size<sizeof(Submesh), 28 + sizeof(int)> __UnityEngine_ProBuilder_SubmeshSizeCheck;
   static_assert(sizeof(Submesh) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Submesh*, "UnityEngine.ProBuilder", "Submesh");

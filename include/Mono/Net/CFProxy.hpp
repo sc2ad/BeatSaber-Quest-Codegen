@@ -127,8 +127,8 @@ namespace Mono::Net {
     // Offset: 0x126234C
     ::Il2CppString* get_Username();
   }; // Mono.Net.CFProxy
+  #pragma pack(pop)
   static check_size<sizeof(CFProxy), 16 + sizeof(Mono::Net::CFDictionary*)> __Mono_Net_CFProxySizeCheck;
   static_assert(sizeof(CFProxy) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFProxy*, "Mono.Net", "CFProxy");

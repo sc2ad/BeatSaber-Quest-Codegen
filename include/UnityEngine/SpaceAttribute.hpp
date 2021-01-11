@@ -51,8 +51,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<SpaceAttribute*, creationType>()));
     }
   }; // UnityEngine.SpaceAttribute
+  #pragma pack(pop)
   static check_size<sizeof(SpaceAttribute), 16 + sizeof(float)> __UnityEngine_SpaceAttributeSizeCheck;
   static_assert(sizeof(SpaceAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SpaceAttribute*, "UnityEngine", "SpaceAttribute");

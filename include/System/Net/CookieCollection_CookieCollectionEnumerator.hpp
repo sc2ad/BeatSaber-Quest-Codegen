@@ -74,8 +74,8 @@ namespace System::Net {
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
   }; // System.Net.CookieCollection/CookieCollectionEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(CookieCollection::CookieCollectionEnumerator), 32 + sizeof(int)> __System_Net_CookieCollection_CookieCollectionEnumeratorSizeCheck;
   static_assert(sizeof(CookieCollection::CookieCollectionEnumerator) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieCollection::CookieCollectionEnumerator*, "System.Net", "CookieCollection/CookieCollectionEnumerator");

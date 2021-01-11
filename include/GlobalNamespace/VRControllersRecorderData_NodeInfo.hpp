@@ -43,8 +43,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorderData::NodeInfo*, creationType>(nodeType, nodeIdx)));
     }
   }; // VRControllersRecorderData/NodeInfo
+  #pragma pack(pop)
   static check_size<sizeof(VRControllersRecorderData::NodeInfo), 20 + sizeof(int)> __GlobalNamespace_VRControllersRecorderData_NodeInfoSizeCheck;
   static_assert(sizeof(VRControllersRecorderData::NodeInfo) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::NodeInfo*, "", "VRControllersRecorderData/NodeInfo");

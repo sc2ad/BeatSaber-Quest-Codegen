@@ -170,8 +170,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AnnotatedBeatmapLevelCollectionTableCell*, creationType>()));
     }
   }; // AnnotatedBeatmapLevelCollectionTableCell
+  #pragma pack(pop)
   static check_size<sizeof(AnnotatedBeatmapLevelCollectionTableCell), 184 + sizeof(System::Threading::CancellationTokenSource*)> __GlobalNamespace_AnnotatedBeatmapLevelCollectionTableCellSizeCheck;
   static_assert(sizeof(AnnotatedBeatmapLevelCollectionTableCell) == 0xC0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell*, "", "AnnotatedBeatmapLevelCollectionTableCell");

@@ -99,6 +99,7 @@ namespace Zenject {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // Zenject.DisposeBlock/SpawnedObjectPoolPair
+    #pragma pack(pop)
     static check_size<sizeof(DisposeBlock::SpawnedObjectPoolPair), 8 + sizeof(::Il2CppObject*)> __Zenject_DisposeBlock_SpawnedObjectPoolPairSizeCheck;
     static_assert(sizeof(DisposeBlock::SpawnedObjectPoolPair) == 0x10);
     // private System.Collections.Generic.List`1<System.IDisposable> _disposables
@@ -271,9 +272,9 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<DisposeBlock*, creationType>()));
     }
   }; // Zenject.DisposeBlock
+  #pragma pack(pop)
   static check_size<sizeof(DisposeBlock), 24 + sizeof(System::Collections::Generic::List_1<Zenject::DisposeBlock::SpawnedObjectPoolPair>*)> __Zenject_DisposeBlockSizeCheck;
   static_assert(sizeof(DisposeBlock) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock*, "Zenject", "DisposeBlock");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock::SpawnedObjectPoolPair, "Zenject", "DisposeBlock/SpawnedObjectPoolPair");

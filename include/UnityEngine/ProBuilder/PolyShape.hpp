@@ -96,6 +96,7 @@ namespace UnityEngine::ProBuilder {
       // Set static field: static public UnityEngine.ProBuilder.PolyShape/PolyEditMode Edit
       static void _set_Edit(UnityEngine::ProBuilder::PolyShape::PolyEditMode value);
     }; // UnityEngine.ProBuilder.PolyShape/PolyEditMode
+    #pragma pack(pop)
     static check_size<sizeof(PolyShape::PolyEditMode), 0 + sizeof(int)> __UnityEngine_ProBuilder_PolyShape_PolyEditModeSizeCheck;
     static_assert(sizeof(PolyShape::PolyEditMode) == 0x4);
     // private UnityEngine.ProBuilder.ProBuilderMesh m_Mesh
@@ -189,9 +190,9 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<PolyShape*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.PolyShape
+  #pragma pack(pop)
   static check_size<sizeof(PolyShape), 49 + sizeof(bool)> __UnityEngine_ProBuilder_PolyShapeSizeCheck;
   static_assert(sizeof(PolyShape) == 0x32);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PolyShape*, "UnityEngine.ProBuilder", "PolyShape");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PolyShape::PolyEditMode, "UnityEngine.ProBuilder", "PolyShape/PolyEditMode");

@@ -87,8 +87,8 @@ namespace System::Xml {
     // Base method: System.Void EncoderFallbackBuffer::Reset()
     void Reset();
   }; // System.Xml.CharEntityEncoderFallbackBuffer
+  #pragma pack(pop)
   static check_size<sizeof(CharEntityEncoderFallbackBuffer), 64 + sizeof(int)> __System_Xml_CharEntityEncoderFallbackBufferSizeCheck;
   static_assert(sizeof(CharEntityEncoderFallbackBuffer) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallbackBuffer*, "System.Xml", "CharEntityEncoderFallbackBuffer");

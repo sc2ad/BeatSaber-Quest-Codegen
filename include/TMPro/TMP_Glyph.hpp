@@ -35,6 +35,6 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Glyph*, creationType>()));
     }
   }; // TMPro.TMP_Glyph
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Glyph*, "TMPro", "TMP_Glyph");

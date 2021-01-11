@@ -128,9 +128,9 @@ namespace UnityEngine::XR {
     // Offset: 0xCB888C
     bool TryGet(UnityEngine::Quaternion inValue, UnityEngine::XR::AvailableTrackingData availabilityFlag, UnityEngine::Quaternion& outValue);
   }; // UnityEngine.XR.XRNodeState
+  #pragma pack(pop)
   static check_size<sizeof(XRNodeState), 88 + sizeof(uint64_t)> __UnityEngine_XR_XRNodeStateSizeCheck;
   static_assert(sizeof(XRNodeState) == 0x60);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRNodeState, "UnityEngine.XR", "XRNodeState");

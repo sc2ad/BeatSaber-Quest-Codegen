@@ -79,8 +79,8 @@ namespace BeatSaberAPI::DataTransferObjects {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardQuery*, creationType>()));
     }
   }; // BeatSaberAPI.DataTransferObjects.LeaderboardQuery
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardQuery), 56 + sizeof(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*)> __BeatSaberAPI_DataTransferObjects_LeaderboardQuerySizeCheck;
   static_assert(sizeof(LeaderboardQuery) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LeaderboardQuery*, "BeatSaberAPI.DataTransferObjects", "LeaderboardQuery");

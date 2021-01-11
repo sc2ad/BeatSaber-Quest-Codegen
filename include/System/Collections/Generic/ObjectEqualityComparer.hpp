@@ -52,6 +52,6 @@ namespace System::Collections::Generic {
     // Base method: System.Boolean IEqualityComparer::Equals(System.Object x, System.Object y)
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* x, ::Il2CppObject* y);
   }; // System.Collections.Generic.ObjectEqualityComparer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::ObjectEqualityComparer*, "System.Collections.Generic", "ObjectEqualityComparer");

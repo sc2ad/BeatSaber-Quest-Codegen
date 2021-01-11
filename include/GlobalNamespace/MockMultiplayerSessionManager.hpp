@@ -457,8 +457,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MockMultiplayerSessionManager*, creationType>()));
     }
   }; // MockMultiplayerSessionManager
+  #pragma pack(pop)
   static check_size<sizeof(MockMultiplayerSessionManager), 104 + sizeof(System::Action_1<GlobalNamespace::DisconnectedReason>*)> __GlobalNamespace_MockMultiplayerSessionManagerSizeCheck;
   static_assert(sizeof(MockMultiplayerSessionManager) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMultiplayerSessionManager*, "", "MockMultiplayerSessionManager");

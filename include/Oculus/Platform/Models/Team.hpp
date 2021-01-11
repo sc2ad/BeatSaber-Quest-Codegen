@@ -60,8 +60,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<Team*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.Team
+  #pragma pack(pop)
   static check_size<sizeof(Team), 32 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_TeamSizeCheck;
   static_assert(sizeof(Team) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Team*, "Oculus.Platform.Models", "Team");

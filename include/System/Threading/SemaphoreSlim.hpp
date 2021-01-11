@@ -181,8 +181,8 @@ namespace System::Threading {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Threading.SemaphoreSlim
+  #pragma pack(pop)
   static check_size<sizeof(SemaphoreSlim), 56 + sizeof(System::Threading::SemaphoreSlim::TaskNode*)> __System_Threading_SemaphoreSlimSizeCheck;
   static_assert(sizeof(SemaphoreSlim) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim*, "System.Threading", "SemaphoreSlim");

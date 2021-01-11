@@ -33,6 +33,6 @@ namespace Org::BouncyCastle::Utilities {
       return THROW_UNLESS((::il2cpp_utils::New<MemoableResetException*, creationType>(msg)));
     }
   }; // Org.BouncyCastle.Utilities.MemoableResetException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::MemoableResetException*, "Org.BouncyCastle.Utilities", "MemoableResetException");

@@ -92,8 +92,8 @@ namespace UnityEngine::TestTools::Logging {
       return THROW_UNLESS((::il2cpp_utils::New<LogMatch*, creationType>()));
     }
   }; // UnityEngine.TestTools.Logging.LogMatch
+  #pragma pack(pop)
   static check_size<sizeof(LogMatch), 40 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_Logging_LogMatchSizeCheck;
   static_assert(sizeof(LogMatch) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogMatch*, "UnityEngine.TestTools.Logging", "LogMatch");

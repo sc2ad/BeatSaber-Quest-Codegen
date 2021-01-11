@@ -28,7 +28,7 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0xFFFFFFFF
     UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::Il2CppString* assemblyString);
   }; // UnityEngine.TestTools.Utils.IAssemblyLoadProxy
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::IAssemblyLoadProxy*, "UnityEngine.TestTools.Utils", "IAssemblyLoadProxy");

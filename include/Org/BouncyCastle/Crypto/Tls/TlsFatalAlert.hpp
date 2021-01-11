@@ -50,8 +50,8 @@ namespace Org::BouncyCastle::Crypto::Tls {
       return THROW_UNLESS((::il2cpp_utils::New<TlsFatalAlert*, creationType>(alertDescription, alertCause)));
     }
   }; // Org.BouncyCastle.Crypto.Tls.TlsFatalAlert
+  #pragma pack(pop)
   static check_size<sizeof(TlsFatalAlert), 144 + sizeof(uint8_t)> __Org_BouncyCastle_Crypto_Tls_TlsFatalAlertSizeCheck;
   static_assert(sizeof(TlsFatalAlert) == 0x91);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsFatalAlert*, "Org.BouncyCastle.Crypto.Tls", "TlsFatalAlert");

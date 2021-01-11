@@ -35,6 +35,6 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<Button::ButtonClickedEvent*, creationType>()));
     }
   }; // UnityEngine.UI.Button/ButtonClickedEvent
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Button::ButtonClickedEvent*, "UnityEngine.UI", "Button/ButtonClickedEvent");

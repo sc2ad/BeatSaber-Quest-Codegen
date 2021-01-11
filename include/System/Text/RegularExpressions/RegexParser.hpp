@@ -396,8 +396,8 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x154F0B8
     static void _cctor();
   }; // System.Text.RegularExpressions.RegexParser
+  #pragma pack(pop)
   static check_size<sizeof(RegexParser), 144 + sizeof(bool)> __System_Text_RegularExpressions_RegexParserSizeCheck;
   static_assert(sizeof(RegexParser) == 0x91);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexParser*, "System.Text.RegularExpressions", "RegexParser");

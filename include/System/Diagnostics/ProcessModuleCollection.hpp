@@ -19,7 +19,7 @@ namespace System::Diagnostics {
     // Creating value type constructor for type: ProcessModuleCollection
     ProcessModuleCollection() noexcept {}
   }; // System.Diagnostics.ProcessModuleCollection
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessModuleCollection*, "System.Diagnostics", "ProcessModuleCollection");

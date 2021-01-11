@@ -78,8 +78,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Base method: System.Int32 IDerivationFunction::GenerateBytes(System.Byte[] output, System.Int32 outOff, System.Int32 length)
     int GenerateBytes(::Array<uint8_t>* output, int outOff, int length);
   }; // Org.BouncyCastle.Crypto.Generators.BaseKdfBytesGenerator
+  #pragma pack(pop)
   static check_size<sizeof(BaseKdfBytesGenerator), 40 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Generators_BaseKdfBytesGeneratorSizeCheck;
   static_assert(sizeof(BaseKdfBytesGenerator) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator*, "Org.BouncyCastle.Crypto.Generators", "BaseKdfBytesGenerator");

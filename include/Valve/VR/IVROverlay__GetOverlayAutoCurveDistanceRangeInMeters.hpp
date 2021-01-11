@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18F0B1C
     Valve::VR::EVROverlayError EndInvoke(float& pfMinDistanceInMeters, float& pfMaxDistanceInMeters, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayAutoCurveDistanceRangeInMeters
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters*, "Valve.VR", "IVROverlay/_GetOverlayAutoCurveDistanceRangeInMeters");

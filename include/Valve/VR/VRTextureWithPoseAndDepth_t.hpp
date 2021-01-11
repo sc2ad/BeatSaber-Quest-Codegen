@@ -35,9 +35,9 @@ namespace Valve::VR {
       return depth;
     }
   }; // Valve.VR.VRTextureWithPoseAndDepth_t
+  #pragma pack(pop)
   static check_size<sizeof(VRTextureWithPoseAndDepth_t), 0 + sizeof(Valve::VR::VRTextureDepthInfo_t)> __Valve_VR_VRTextureWithPoseAndDepth_tSizeCheck;
   static_assert(sizeof(VRTextureWithPoseAndDepth_t) == 0x50);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRTextureWithPoseAndDepth_t, "Valve.VR", "VRTextureWithPoseAndDepth_t");

@@ -41,8 +41,8 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyConfigurationAttribute*, creationType>(configuration)));
     }
   }; // System.Reflection.AssemblyConfigurationAttribute
+  #pragma pack(pop)
   static check_size<sizeof(AssemblyConfigurationAttribute), 16 + sizeof(::Il2CppString*)> __System_Reflection_AssemblyConfigurationAttributeSizeCheck;
   static_assert(sizeof(AssemblyConfigurationAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyConfigurationAttribute*, "System.Reflection", "AssemblyConfigurationAttribute");

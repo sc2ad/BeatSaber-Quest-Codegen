@@ -44,9 +44,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.Space Self
     static void _set_Self(UnityEngine::Space value);
   }; // UnityEngine.Space
+  #pragma pack(pop)
   static check_size<sizeof(Space), 0 + sizeof(int)> __UnityEngine_SpaceSizeCheck;
   static_assert(sizeof(Space) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Space, "UnityEngine", "Space");

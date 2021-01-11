@@ -87,8 +87,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // Spectrogram
+  #pragma pack(pop)
   static check_size<sizeof(Spectrogram), 32 + sizeof(GlobalNamespace::BasicSpectrogramData*)> __GlobalNamespace_SpectrogramSizeCheck;
   static_assert(sizeof(Spectrogram) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Spectrogram*, "", "Spectrogram");

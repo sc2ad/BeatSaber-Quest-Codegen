@@ -50,9 +50,9 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.DisconnectResult Disconnect
     static void _set_Disconnect(LiteNetLib::DisconnectResult value);
   }; // LiteNetLib.DisconnectResult
+  #pragma pack(pop)
   static check_size<sizeof(DisconnectResult), 0 + sizeof(int)> __LiteNetLib_DisconnectResultSizeCheck;
   static_assert(sizeof(DisconnectResult) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DisconnectResult, "LiteNetLib", "DisconnectResult");

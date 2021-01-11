@@ -41,8 +41,8 @@ namespace System::Net::NetworkInformation {
       return THROW_UNLESS((::il2cpp_utils::New<Win32IPv4InterfaceStatistics*, creationType>(info)));
     }
   }; // System.Net.NetworkInformation.Win32IPv4InterfaceStatistics
+  #pragma pack(pop)
   static check_size<sizeof(Win32IPv4InterfaceStatistics), 16 + sizeof(System::Net::NetworkInformation::Win32_MIB_IFROW)> __System_Net_NetworkInformation_Win32IPv4InterfaceStatisticsSizeCheck;
   static_assert(sizeof(Win32IPv4InterfaceStatistics) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32IPv4InterfaceStatistics*, "System.Net.NetworkInformation", "Win32IPv4InterfaceStatistics");

@@ -69,8 +69,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FadeOutOnSceneTransitionStart*, creationType>()));
     }
   }; // FadeOutOnSceneTransitionStart
+  #pragma pack(pop)
   static check_size<sizeof(FadeOutOnSceneTransitionStart), 32 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_FadeOutOnSceneTransitionStartSizeCheck;
   static_assert(sizeof(FadeOutOnSceneTransitionStart) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeOutOnSceneTransitionStart*, "", "FadeOutOnSceneTransitionStart");

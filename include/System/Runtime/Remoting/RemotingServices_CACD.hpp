@@ -43,8 +43,8 @@ namespace System::Runtime::Remoting {
       return THROW_UNLESS((::il2cpp_utils::New<RemotingServices::CACD*, creationType>()));
     }
   }; // System.Runtime.Remoting.RemotingServices/CACD
+  #pragma pack(pop)
   static check_size<sizeof(RemotingServices::CACD), 24 + sizeof(::Il2CppObject*)> __System_Runtime_Remoting_RemotingServices_CACDSizeCheck;
   static_assert(sizeof(RemotingServices::CACD) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingServices::CACD*, "System.Runtime.Remoting", "RemotingServices/CACD");

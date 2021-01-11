@@ -76,9 +76,9 @@ namespace System::IO {
     // Set static field: static public System.IO.FileOptions WriteThrough
     static void _set_WriteThrough(System::IO::FileOptions value);
   }; // System.IO.FileOptions
+  #pragma pack(pop)
   static check_size<sizeof(FileOptions), 0 + sizeof(int)> __System_IO_FileOptionsSizeCheck;
   static_assert(sizeof(FileOptions) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileOptions, "System.IO", "FileOptions");

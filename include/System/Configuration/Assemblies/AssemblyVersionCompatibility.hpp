@@ -51,9 +51,9 @@ namespace System::Configuration::Assemblies {
     // Set static field: static public System.Configuration.Assemblies.AssemblyVersionCompatibility SameDomain
     static void _set_SameDomain(System::Configuration::Assemblies::AssemblyVersionCompatibility value);
   }; // System.Configuration.Assemblies.AssemblyVersionCompatibility
+  #pragma pack(pop)
   static check_size<sizeof(AssemblyVersionCompatibility), 0 + sizeof(int)> __System_Configuration_Assemblies_AssemblyVersionCompatibilitySizeCheck;
   static_assert(sizeof(AssemblyVersionCompatibility) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::Assemblies::AssemblyVersionCompatibility, "System.Configuration.Assemblies", "AssemblyVersionCompatibility");

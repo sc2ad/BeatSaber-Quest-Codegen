@@ -113,8 +113,8 @@ namespace Mono::Security::Cryptography {
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::Array<uint8_t>* HashFinal();
   }; // Mono.Security.Cryptography.MD4Managed
+  #pragma pack(pop)
   static check_size<sizeof(MD4Managed), 72 + sizeof(::Array<uint8_t>*)> __Mono_Security_Cryptography_MD4ManagedSizeCheck;
   static_assert(sizeof(MD4Managed) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD4Managed*, "Mono.Security.Cryptography", "MD4Managed");

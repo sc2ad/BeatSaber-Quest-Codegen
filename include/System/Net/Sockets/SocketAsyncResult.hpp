@@ -233,8 +233,8 @@ namespace System::Net::Sockets {
     // Base method: System.Void IOAsyncResult::CompleteDisposed()
     void CompleteDisposed();
   }; // System.Net.Sockets.SocketAsyncResult
+  #pragma pack(pop)
   static check_size<sizeof(SocketAsyncResult), 160 + sizeof(int)> __System_Net_Sockets_SocketAsyncResultSizeCheck;
   static_assert(sizeof(SocketAsyncResult) == 0xA4);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");

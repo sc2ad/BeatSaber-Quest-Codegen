@@ -228,8 +228,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ProjectContext*, creationType>()));
     }
   }; // Zenject.ProjectContext
+  #pragma pack(pop)
   static check_size<sizeof(ProjectContext), 120 + sizeof(Zenject::DiContainer*)> __Zenject_ProjectContextSizeCheck;
   static_assert(sizeof(ProjectContext) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectContext*, "Zenject", "ProjectContext");

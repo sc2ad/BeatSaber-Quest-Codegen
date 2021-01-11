@@ -82,9 +82,9 @@ namespace GlobalNamespace {
     // Set static field: static public RankModel/Rank SSS
     static void _set_SSS(GlobalNamespace::RankModel::Rank value);
   }; // RankModel/Rank
+  #pragma pack(pop)
   static check_size<sizeof(RankModel::Rank), 0 + sizeof(int)> __GlobalNamespace_RankModel_RankSizeCheck;
   static_assert(sizeof(RankModel::Rank) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RankModel::Rank, "", "RankModel/Rank");

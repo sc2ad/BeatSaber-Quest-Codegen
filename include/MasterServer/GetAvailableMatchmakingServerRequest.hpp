@@ -98,8 +98,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<GetAvailableMatchmakingServerRequest*, creationType>()));
     }
   }; // MasterServer.GetAvailableMatchmakingServerRequest
+  #pragma pack(pop)
   static check_size<sizeof(GetAvailableMatchmakingServerRequest), 32 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __MasterServer_GetAvailableMatchmakingServerRequestSizeCheck;
   static_assert(sizeof(GetAvailableMatchmakingServerRequest) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetAvailableMatchmakingServerRequest*, "MasterServer", "GetAvailableMatchmakingServerRequest");

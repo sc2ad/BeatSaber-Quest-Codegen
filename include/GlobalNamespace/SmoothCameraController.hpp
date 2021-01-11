@@ -84,8 +84,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SmoothCameraController*, creationType>()));
     }
   }; // SmoothCameraController
+  #pragma pack(pop)
   static check_size<sizeof(SmoothCameraController), 40 + sizeof(LIV::SDK::Unity::LIV*)> __GlobalNamespace_SmoothCameraControllerSizeCheck;
   static_assert(sizeof(SmoothCameraController) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothCameraController*, "", "SmoothCameraController");

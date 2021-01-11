@@ -51,8 +51,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Settings::LineBreakingTable*, creationType>()));
     }
   }; // TMPro.TMP_Settings/LineBreakingTable
+  #pragma pack(pop)
   static check_size<sizeof(TMP_Settings::LineBreakingTable), 24 + sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*)> __TMPro_TMP_Settings_LineBreakingTableSizeCheck;
   static_assert(sizeof(TMP_Settings::LineBreakingTable) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Settings::LineBreakingTable*, "TMPro", "TMP_Settings/LineBreakingTable");

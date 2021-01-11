@@ -95,8 +95,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MenuShockwave*, creationType>()));
     }
   }; // MenuShockwave
+  #pragma pack(pop)
   static check_size<sizeof(MenuShockwave), 48 + sizeof(UnityEngine::ParticleSystem::EmitParams)> __GlobalNamespace_MenuShockwaveSizeCheck;
   static_assert(sizeof(MenuShockwave) == 0xBF);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuShockwave*, "", "MenuShockwave");

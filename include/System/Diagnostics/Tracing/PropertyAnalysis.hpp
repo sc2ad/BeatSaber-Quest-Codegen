@@ -65,8 +65,8 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<PropertyAnalysis*, creationType>(name, getterInfo, typeInfo, fieldAttribute)));
     }
   }; // System.Diagnostics.Tracing.PropertyAnalysis
+  #pragma pack(pop)
   static check_size<sizeof(PropertyAnalysis), 40 + sizeof(System::Diagnostics::Tracing::EventFieldAttribute*)> __System_Diagnostics_Tracing_PropertyAnalysisSizeCheck;
   static_assert(sizeof(PropertyAnalysis) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::PropertyAnalysis*, "System.Diagnostics.Tracing", "PropertyAnalysis");

@@ -182,7 +182,7 @@ namespace Org::BouncyCastle::Asn1::UA {
     // Offset: 0x140A7CC
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.UA.UAObjectIdentifiers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers*, "Org.BouncyCastle.Asn1.UA", "UAObjectIdentifiers");

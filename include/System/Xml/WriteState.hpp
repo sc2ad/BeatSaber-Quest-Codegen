@@ -74,9 +74,9 @@ namespace System::Xml {
     // Set static field: static public System.Xml.WriteState Error
     static void _set_Error(System::Xml::WriteState value);
   }; // System.Xml.WriteState
+  #pragma pack(pop)
   static check_size<sizeof(WriteState), 0 + sizeof(int)> __System_Xml_WriteStateSizeCheck;
   static_assert(sizeof(WriteState) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::WriteState, "System.Xml", "WriteState");

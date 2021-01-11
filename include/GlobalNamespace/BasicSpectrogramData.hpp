@@ -111,8 +111,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BasicSpectrogramData*, creationType>()));
     }
   }; // BasicSpectrogramData
+  #pragma pack(pop)
   static check_size<sizeof(BasicSpectrogramData), 48 + sizeof(System::Collections::Generic::List_1<float>*)> __GlobalNamespace_BasicSpectrogramDataSizeCheck;
   static_assert(sizeof(BasicSpectrogramData) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicSpectrogramData*, "", "BasicSpectrogramData");

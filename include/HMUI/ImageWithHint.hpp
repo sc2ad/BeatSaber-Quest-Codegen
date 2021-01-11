@@ -75,8 +75,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ImageWithHint*, creationType>()));
     }
   }; // HMUI.ImageWithHint
+  #pragma pack(pop)
   static check_size<sizeof(ImageWithHint), 32 + sizeof(HMUI::HoverHint*)> __HMUI_ImageWithHintSizeCheck;
   static_assert(sizeof(ImageWithHint) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageWithHint*, "HMUI", "ImageWithHint");

@@ -52,8 +52,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_MaterialManager::$$c__DisplayClass14_0*, creationType>()));
     }
   }; // TMPro.TMP_MaterialManager/<>c__DisplayClass14_0
+  #pragma pack(pop)
   static check_size<sizeof(TMP_MaterialManager::$$c__DisplayClass14_0), 16 + sizeof(UnityEngine::Material*)> __TMPro_TMP_MaterialManager_$$c__DisplayClass14_0SizeCheck;
   static_assert(sizeof(TMP_MaterialManager::$$c__DisplayClass14_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager::$$c__DisplayClass14_0*, "TMPro", "TMP_MaterialManager/<>c__DisplayClass14_0");

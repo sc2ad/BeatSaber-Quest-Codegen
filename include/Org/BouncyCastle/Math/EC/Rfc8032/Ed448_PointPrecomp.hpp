@@ -43,8 +43,8 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
       return THROW_UNLESS((::il2cpp_utils::New<Ed448::PointPrecomp*, creationType>()));
     }
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed448/PointPrecomp
+  #pragma pack(pop)
   static check_size<sizeof(Ed448::PointPrecomp), 24 + sizeof(::Array<uint>*)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed448_PointPrecompSizeCheck;
   static_assert(sizeof(Ed448::PointPrecomp) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed448/PointPrecomp");

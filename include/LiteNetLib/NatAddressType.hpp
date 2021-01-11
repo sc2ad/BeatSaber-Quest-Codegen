@@ -44,9 +44,9 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.NatAddressType External
     static void _set_External(LiteNetLib::NatAddressType value);
   }; // LiteNetLib.NatAddressType
+  #pragma pack(pop)
   static check_size<sizeof(NatAddressType), 0 + sizeof(int)> __LiteNetLib_NatAddressTypeSizeCheck;
   static_assert(sizeof(NatAddressType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatAddressType, "LiteNetLib", "NatAddressType");

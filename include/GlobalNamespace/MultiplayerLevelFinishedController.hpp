@@ -167,8 +167,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLevelFinishedController*, creationType>()));
     }
   }; // MultiplayerLevelFinishedController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLevelFinishedController), 76 + sizeof(float)> __GlobalNamespace_MultiplayerLevelFinishedControllerSizeCheck;
   static_assert(sizeof(MultiplayerLevelFinishedController) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelFinishedController*, "", "MultiplayerLevelFinishedController");

@@ -49,6 +49,6 @@ namespace UnityEngine {
     // Offset: 0x167C430
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Application/LowMemoryCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Application::LowMemoryCallback*, "UnityEngine", "Application/LowMemoryCallback");

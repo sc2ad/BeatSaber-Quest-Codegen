@@ -138,6 +138,7 @@ namespace System {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // System.IntPtr
+  #pragma pack(pop)
   static check_size<sizeof(IntPtr), 0 + sizeof(void*)> __System_IntPtrSizeCheck;
   static_assert(sizeof(IntPtr) == 0x8);
   // static public System.Boolean op_Equality(System.IntPtr value1, System.IntPtr value2)
@@ -147,5 +148,4 @@ namespace System {
   // Offset: 0x13B35BC
   bool operator !=(const System::IntPtr& value1, const System::IntPtr& value2);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IntPtr, "System", "IntPtr");

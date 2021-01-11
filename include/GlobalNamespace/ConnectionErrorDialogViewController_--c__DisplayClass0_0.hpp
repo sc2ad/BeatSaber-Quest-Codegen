@@ -52,8 +52,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectionErrorDialogViewController::$$c__DisplayClass0_0*, creationType>()));
     }
   }; // ConnectionErrorDialogViewController/<>c__DisplayClass0_0
+  #pragma pack(pop)
   static check_size<sizeof(ConnectionErrorDialogViewController::$$c__DisplayClass0_0), 16 + sizeof(System::Action*)> __GlobalNamespace_ConnectionErrorDialogViewController_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(ConnectionErrorDialogViewController::$$c__DisplayClass0_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0*, "", "ConnectionErrorDialogViewController/<>c__DisplayClass0_0");

@@ -64,8 +64,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LocalizationProvider*, creationType>()));
     }
   }; // LocalizationProvider
+  #pragma pack(pop)
   static check_size<sizeof(LocalizationProvider), 24 + sizeof(Polyglot::Localization*)> __GlobalNamespace_LocalizationProviderSizeCheck;
   static_assert(sizeof(LocalizationProvider) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizationProvider*, "", "LocalizationProvider");

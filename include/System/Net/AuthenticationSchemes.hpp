@@ -75,9 +75,9 @@ namespace System::Net {
     // Set static field: static public System.Net.AuthenticationSchemes IntegratedWindowsAuthentication
     static void _set_IntegratedWindowsAuthentication(System::Net::AuthenticationSchemes value);
   }; // System.Net.AuthenticationSchemes
+  #pragma pack(pop)
   static check_size<sizeof(AuthenticationSchemes), 0 + sizeof(int)> __System_Net_AuthenticationSchemesSizeCheck;
   static_assert(sizeof(AuthenticationSchemes) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::AuthenticationSchemes, "System.Net", "AuthenticationSchemes");

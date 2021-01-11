@@ -95,8 +95,8 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<Timer::Scheduler*, creationType>()));
     }
   }; // System.Threading.Timer/Scheduler
+  #pragma pack(pop)
   static check_size<sizeof(Timer::Scheduler), 24 + sizeof(System::Threading::ManualResetEvent*)> __System_Threading_Timer_SchedulerSizeCheck;
   static_assert(sizeof(Timer::Scheduler) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer::Scheduler*, "System.Threading", "Timer/Scheduler");

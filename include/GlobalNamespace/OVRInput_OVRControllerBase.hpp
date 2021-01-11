@@ -155,8 +155,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerBase*, creationType>()));
     }
   }; // OVRInput/OVRControllerBase
+  #pragma pack(pop)
   static check_size<sizeof(OVRInput::OVRControllerBase), 256 + sizeof(bool)> __GlobalNamespace_OVRInput_OVRControllerBaseSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerBase) == 0x101);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase*, "", "OVRInput/OVRControllerBase");

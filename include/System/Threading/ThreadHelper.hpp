@@ -78,8 +78,8 @@ namespace System::Threading {
     // Offset: 0x1D1B614
     void ThreadStart();
   }; // System.Threading.ThreadHelper
+  #pragma pack(pop)
   static check_size<sizeof(ThreadHelper), 32 + sizeof(System::Threading::ExecutionContext*)> __System_Threading_ThreadHelperSizeCheck;
   static_assert(sizeof(ThreadHelper) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadHelper*, "System.Threading", "ThreadHelper");

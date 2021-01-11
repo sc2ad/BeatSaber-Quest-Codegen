@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18F3E74
     Valve::VR::EVROverlayError EndInvoke(float& pfTexelAspect, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayTexelAspect
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetOverlayTexelAspect*, "Valve.VR", "IVROverlay/_GetOverlayTexelAspect");

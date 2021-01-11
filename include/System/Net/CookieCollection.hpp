@@ -142,8 +142,8 @@ namespace System::Net {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Net.CookieCollection
+  #pragma pack(pop)
   static check_size<sizeof(CookieCollection), 41 + sizeof(bool)> __System_Net_CookieCollectionSizeCheck;
   static_assert(sizeof(CookieCollection) == 0x2A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieCollection*, "System.Net", "CookieCollection");

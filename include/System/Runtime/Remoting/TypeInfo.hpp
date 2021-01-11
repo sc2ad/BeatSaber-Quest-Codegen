@@ -68,8 +68,8 @@ namespace System::Runtime::Remoting {
     // Base method: System.Boolean IRemotingTypeInfo::CanCastTo(System.Type fromType, System.Object o)
     bool CanCastTo(System::Type* fromType, ::Il2CppObject* o);
   }; // System.Runtime.Remoting.TypeInfo
+  #pragma pack(pop)
   static check_size<sizeof(TypeInfo), 32 + sizeof(::Array<::Il2CppString*>*)> __System_Runtime_Remoting_TypeInfoSizeCheck;
   static_assert(sizeof(TypeInfo) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::TypeInfo*, "System.Runtime.Remoting", "TypeInfo");

@@ -71,6 +71,6 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<Core*, creationType>()));
     }
   }; // Oculus.Platform.Core
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Core*, "Oculus.Platform", "Core");

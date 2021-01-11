@@ -121,8 +121,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<SkipjackEngine*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Engines.SkipjackEngine
+  #pragma pack(pop)
   static check_size<sizeof(SkipjackEngine), 48 + sizeof(bool)> __Org_BouncyCastle_Crypto_Engines_SkipjackEngineSizeCheck;
   static_assert(sizeof(SkipjackEngine) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::SkipjackEngine*, "Org.BouncyCastle.Crypto.Engines", "SkipjackEngine");

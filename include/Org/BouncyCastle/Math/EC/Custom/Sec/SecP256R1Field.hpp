@@ -93,7 +93,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Offset: 0x17F2E68
     static void _cctor();
   }; // Org.BouncyCastle.Math.EC.Custom.Sec.SecP256R1Field
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecP256R1Field*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecP256R1Field");

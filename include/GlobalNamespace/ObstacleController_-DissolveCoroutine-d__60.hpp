@@ -90,8 +90,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // ObstacleController/<DissolveCoroutine>d__60
+  #pragma pack(pop)
   static check_size<sizeof(ObstacleController::$DissolveCoroutine$d__60), 40 + sizeof(float)> __GlobalNamespace_ObstacleController_$DissolveCoroutine$d__60SizeCheck;
   static_assert(sizeof(ObstacleController::$DissolveCoroutine$d__60) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleController::$DissolveCoroutine$d__60*, "", "ObstacleController/<DissolveCoroutine>d__60");

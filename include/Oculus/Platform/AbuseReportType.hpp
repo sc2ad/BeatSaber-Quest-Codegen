@@ -53,9 +53,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.AbuseReportType User
     static void _set_User(Oculus::Platform::AbuseReportType value);
   }; // Oculus.Platform.AbuseReportType
+  #pragma pack(pop)
   static check_size<sizeof(AbuseReportType), 0 + sizeof(int)> __Oculus_Platform_AbuseReportTypeSizeCheck;
   static_assert(sizeof(AbuseReportType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AbuseReportType, "Oculus.Platform", "AbuseReportType");

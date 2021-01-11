@@ -182,9 +182,9 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.CameraEvent AfterHaloAndLensFlares
     static void _set_AfterHaloAndLensFlares(UnityEngine::Rendering::CameraEvent value);
   }; // UnityEngine.Rendering.CameraEvent
+  #pragma pack(pop)
   static check_size<sizeof(CameraEvent), 0 + sizeof(int)> __UnityEngine_Rendering_CameraEventSizeCheck;
   static_assert(sizeof(CameraEvent) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CameraEvent, "UnityEngine.Rendering", "CameraEvent");

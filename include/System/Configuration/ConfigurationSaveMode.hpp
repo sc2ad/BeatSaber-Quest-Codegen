@@ -50,9 +50,9 @@ namespace System::Configuration {
     // Set static field: static public System.Configuration.ConfigurationSaveMode Modified
     static void _set_Modified(System::Configuration::ConfigurationSaveMode value);
   }; // System.Configuration.ConfigurationSaveMode
+  #pragma pack(pop)
   static check_size<sizeof(ConfigurationSaveMode), 0 + sizeof(int)> __System_Configuration_ConfigurationSaveModeSizeCheck;
   static_assert(sizeof(ConfigurationSaveMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationSaveMode, "System.Configuration", "ConfigurationSaveMode");

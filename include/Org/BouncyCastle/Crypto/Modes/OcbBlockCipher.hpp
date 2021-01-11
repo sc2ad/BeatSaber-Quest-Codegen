@@ -255,8 +255,8 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Void IAeadCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Modes.OcbBlockCipher
+  #pragma pack(pop)
   static check_size<sizeof(OcbBlockCipher), 168 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Modes_OcbBlockCipherSizeCheck;
   static_assert(sizeof(OcbBlockCipher) == 0xB0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::OcbBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "OcbBlockCipher");

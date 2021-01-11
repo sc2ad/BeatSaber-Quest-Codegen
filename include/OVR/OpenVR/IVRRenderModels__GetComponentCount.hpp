@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x19044F8
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_GetComponentCount
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRRenderModels::_GetComponentCount*, "OVR.OpenVR", "IVRRenderModels/_GetComponentCount");

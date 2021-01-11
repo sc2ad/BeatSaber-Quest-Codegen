@@ -119,8 +119,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerFacade*, creationType>()));
     }
   }; // MultiplayerConnectedPlayerFacade
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerFacade), 64 + sizeof(GlobalNamespace::BeatmapObjectCallbackController*)> __GlobalNamespace_MultiplayerConnectedPlayerFacadeSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerFacade) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerFacade*, "", "MultiplayerConnectedPlayerFacade");

@@ -76,8 +76,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CustomBoundingBox*, creationType>()));
     }
   }; // CustomBoundingBox
+  #pragma pack(pop)
   static check_size<sizeof(CustomBoundingBox), 56 + sizeof(UnityEngine::MeshRenderer*)> __GlobalNamespace_CustomBoundingBoxSizeCheck;
   static_assert(sizeof(CustomBoundingBox) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBoundingBox*, "", "CustomBoundingBox");

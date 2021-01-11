@@ -42,6 +42,6 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<AnimationState*, creationType>()));
     }
   }; // UnityEngine.AnimationState
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationState*, "UnityEngine", "AnimationState");

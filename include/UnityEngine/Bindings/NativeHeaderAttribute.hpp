@@ -46,8 +46,8 @@ namespace UnityEngine::Bindings {
       return THROW_UNLESS((::il2cpp_utils::New<NativeHeaderAttribute*, creationType>(header)));
     }
   }; // UnityEngine.Bindings.NativeHeaderAttribute
+  #pragma pack(pop)
   static check_size<sizeof(NativeHeaderAttribute), 16 + sizeof(::Il2CppString*)> __UnityEngine_Bindings_NativeHeaderAttributeSizeCheck;
   static_assert(sizeof(NativeHeaderAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeHeaderAttribute*, "UnityEngine.Bindings", "NativeHeaderAttribute");

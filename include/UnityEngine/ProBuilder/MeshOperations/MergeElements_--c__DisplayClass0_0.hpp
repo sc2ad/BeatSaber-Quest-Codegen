@@ -58,8 +58,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<MergeElements::$$c__DisplayClass0_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c__DisplayClass0_0
+  #pragma pack(pop)
   static check_size<sizeof(MergeElements::$$c__DisplayClass0_0), 16 + sizeof(System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*)> __UnityEngine_ProBuilder_MeshOperations_MergeElements_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(MergeElements::$$c__DisplayClass0_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c__DisplayClass0_0*, "UnityEngine.ProBuilder.MeshOperations", "MergeElements/<>c__DisplayClass0_0");

@@ -75,8 +75,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_RenderModel::RenderModelInterfaceHolder*, creationType>()));
     }
   }; // SteamVR_RenderModel/RenderModelInterfaceHolder
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_RenderModel::RenderModelInterfaceHolder), 24 + sizeof(Valve::VR::CVRRenderModels*)> __GlobalNamespace_SteamVR_RenderModel_RenderModelInterfaceHolderSizeCheck;
   static_assert(sizeof(SteamVR_RenderModel::RenderModelInterfaceHolder) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder*, "", "SteamVR_RenderModel/RenderModelInterfaceHolder");

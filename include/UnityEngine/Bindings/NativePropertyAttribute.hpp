@@ -68,8 +68,8 @@ namespace UnityEngine::Bindings {
       return THROW_UNLESS((::il2cpp_utils::New<NativePropertyAttribute*, creationType>(name)));
     }
   }; // UnityEngine.Bindings.NativePropertyAttribute
+  #pragma pack(pop)
   static check_size<sizeof(NativePropertyAttribute), 28 + sizeof(UnityEngine::Bindings::TargetType)> __UnityEngine_Bindings_NativePropertyAttributeSizeCheck;
   static_assert(sizeof(NativePropertyAttribute) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativePropertyAttribute*, "UnityEngine.Bindings", "NativePropertyAttribute");

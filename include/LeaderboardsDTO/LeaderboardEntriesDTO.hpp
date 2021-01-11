@@ -43,9 +43,9 @@ namespace LeaderboardsDTO {
       return entries;
     }
   }; // LeaderboardsDTO.LeaderboardEntriesDTO
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardEntriesDTO), 0 + sizeof(::Array<LeaderboardsDTO::LeaderboardEntryDTO*>*)> __LeaderboardsDTO_LeaderboardEntriesDTOSizeCheck;
   static_assert(sizeof(LeaderboardEntriesDTO) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardEntriesDTO, "LeaderboardsDTO", "LeaderboardEntriesDTO");

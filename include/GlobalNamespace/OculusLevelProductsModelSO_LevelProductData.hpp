@@ -58,8 +58,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusLevelProductsModelSO::LevelProductData*, creationType>()));
     }
   }; // OculusLevelProductsModelSO/LevelProductData
+  #pragma pack(pop)
   static check_size<sizeof(OculusLevelProductsModelSO::LevelProductData), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_OculusLevelProductsModelSO_LevelProductDataSizeCheck;
   static_assert(sizeof(OculusLevelProductsModelSO::LevelProductData) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*, "", "OculusLevelProductsModelSO/LevelProductData");

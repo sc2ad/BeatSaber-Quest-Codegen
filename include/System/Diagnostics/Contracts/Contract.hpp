@@ -43,6 +43,6 @@ namespace System::Diagnostics::Contracts {
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, collection, predicate);
     }
   }; // System.Diagnostics.Contracts.Contract
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Contracts::Contract*, "System.Diagnostics.Contracts", "Contract");

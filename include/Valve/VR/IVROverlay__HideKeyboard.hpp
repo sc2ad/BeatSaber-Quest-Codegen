@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x18F6CE0
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_HideKeyboard
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_HideKeyboard*, "Valve.VR", "IVROverlay/_HideKeyboard");

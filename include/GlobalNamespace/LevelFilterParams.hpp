@@ -294,8 +294,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelFilterParams*, creationType>()));
     }
   }; // LevelFilterParams
+  #pragma pack(pop)
   static check_size<sizeof(LevelFilterParams), 100 + sizeof(float)> __GlobalNamespace_LevelFilterParamsSizeCheck;
   static_assert(sizeof(LevelFilterParams) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilterParams*, "", "LevelFilterParams");

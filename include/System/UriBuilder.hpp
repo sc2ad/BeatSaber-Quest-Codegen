@@ -166,8 +166,8 @@ namespace System {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.UriBuilder
+  #pragma pack(pop)
   static check_size<sizeof(UriBuilder), 96 + sizeof(::Il2CppString*)> __System_UriBuilderSizeCheck;
   static_assert(sizeof(UriBuilder) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::UriBuilder*, "System", "UriBuilder");

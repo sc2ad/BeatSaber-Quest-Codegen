@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HMMainThreadDispatcher::$$c__DisplayClass3_0*, creationType>()));
     }
   }; // HMMainThreadDispatcher/<>c__DisplayClass3_0
+  #pragma pack(pop)
   static check_size<sizeof(HMMainThreadDispatcher::$$c__DisplayClass3_0), 24 + sizeof(System::Collections::IEnumerator*)> __GlobalNamespace_HMMainThreadDispatcher_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(HMMainThreadDispatcher::$$c__DisplayClass3_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass3_0*, "", "HMMainThreadDispatcher/<>c__DisplayClass3_0");

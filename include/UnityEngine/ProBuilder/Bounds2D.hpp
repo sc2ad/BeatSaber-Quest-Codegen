@@ -153,8 +153,8 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.Bounds2D
+  #pragma pack(pop)
   static check_size<sizeof(Bounds2D), 32 + sizeof(UnityEngine::Vector2)> __UnityEngine_ProBuilder_Bounds2DSizeCheck;
   static_assert(sizeof(Bounds2D) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Bounds2D*, "UnityEngine.ProBuilder", "Bounds2D");

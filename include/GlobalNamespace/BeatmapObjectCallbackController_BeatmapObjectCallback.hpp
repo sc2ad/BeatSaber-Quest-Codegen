@@ -54,6 +54,6 @@ namespace GlobalNamespace {
     // Offset: 0x1A27270
     void EndInvoke(System::IAsyncResult* result);
   }; // BeatmapObjectCallbackController/BeatmapObjectCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallback*, "", "BeatmapObjectCallbackController/BeatmapObjectCallback");

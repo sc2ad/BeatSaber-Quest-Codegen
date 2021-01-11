@@ -61,8 +61,8 @@ namespace Mono::Net {
       return THROW_UNLESS((::il2cpp_utils::New<CFNetwork::$$c__DisplayClass13_0*, creationType>()));
     }
   }; // Mono.Net.CFNetwork/<>c__DisplayClass13_0
+  #pragma pack(pop)
   static check_size<sizeof(CFNetwork::$$c__DisplayClass13_0), 24 + sizeof(Mono::Net::CFRunLoop*)> __Mono_Net_CFNetwork_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(CFNetwork::$$c__DisplayClass13_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::$$c__DisplayClass13_0*, "Mono.Net", "CFNetwork/<>c__DisplayClass13_0");

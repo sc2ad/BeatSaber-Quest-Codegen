@@ -92,8 +92,8 @@ namespace GlobalNamespace {
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* UploadScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);
   }; // OculusPlatformLeaderboardsHandler
+  #pragma pack(pop)
   static check_size<sizeof(OculusPlatformLeaderboardsHandler), 24 + sizeof(GlobalNamespace::GameplayModifiersModelSO*)> __GlobalNamespace_OculusPlatformLeaderboardsHandlerSizeCheck;
   static_assert(sizeof(OculusPlatformLeaderboardsHandler) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformLeaderboardsHandler*, "", "OculusPlatformLeaderboardsHandler");

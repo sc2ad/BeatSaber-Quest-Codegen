@@ -122,8 +122,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainEffectController*, creationType>()));
     }
   }; // MainEffectController
+  #pragma pack(pop)
   static check_size<sizeof(MainEffectController), 48 + sizeof(GlobalNamespace::ImageEffectController*)> __GlobalNamespace_MainEffectControllerSizeCheck;
   static_assert(sizeof(MainEffectController) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectController*, "", "MainEffectController");

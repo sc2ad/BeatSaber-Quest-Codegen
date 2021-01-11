@@ -202,8 +202,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActivePlayerFacade*, creationType>()));
     }
   }; // MultiplayerLocalActivePlayerFacade
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActivePlayerFacade), 88 + sizeof(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*)> __GlobalNamespace_MultiplayerLocalActivePlayerFacadeSizeCheck;
   static_assert(sizeof(MultiplayerLocalActivePlayerFacade) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerFacade*, "", "MultiplayerLocalActivePlayerFacade");

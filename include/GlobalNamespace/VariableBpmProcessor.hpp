@@ -55,8 +55,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VariableBpmProcessor*, creationType>()));
     }
   }; // VariableBpmProcessor
+  #pragma pack(pop)
   static check_size<sizeof(VariableBpmProcessor), 16 + sizeof(float)> __GlobalNamespace_VariableBpmProcessorSizeCheck;
   static_assert(sizeof(VariableBpmProcessor) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VariableBpmProcessor*, "", "VariableBpmProcessor");

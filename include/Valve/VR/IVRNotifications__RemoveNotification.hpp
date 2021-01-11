@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18EDA74
     Valve::VR::EVRNotificationError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRNotifications/_RemoveNotification
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRNotifications::_RemoveNotification*, "Valve.VR", "IVRNotifications/_RemoveNotification");

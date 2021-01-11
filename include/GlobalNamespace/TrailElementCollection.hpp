@@ -91,8 +91,8 @@ namespace GlobalNamespace {
     // Offset: 0xFEEFA8
     GlobalNamespace::TrailElement* GetElementWithinBoundary(int index);
   }; // TrailElementCollection
+  #pragma pack(pop)
   static check_size<sizeof(TrailElementCollection), 32 + sizeof(int)> __GlobalNamespace_TrailElementCollectionSizeCheck;
   static_assert(sizeof(TrailElementCollection) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailElementCollection*, "", "TrailElementCollection");

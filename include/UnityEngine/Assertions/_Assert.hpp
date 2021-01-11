@@ -69,6 +69,6 @@ namespace UnityEngine::Assertions {
     // Offset: 0x167CA18
     static void _cctor();
   }; // UnityEngine.Assertions.Assert
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::_Assert*, "UnityEngine.Assertions", "Assert");

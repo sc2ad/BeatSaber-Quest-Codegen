@@ -149,6 +149,7 @@ namespace System::Reflection {
     // Base method: System.Int32 MemberInfo::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.FieldInfo
+  #pragma pack(pop)
   // static public System.Boolean op_Equality(System.Reflection.FieldInfo left, System.Reflection.FieldInfo right)
   // Offset: 0x15C73D0
   bool operator ==(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right);
@@ -156,5 +157,4 @@ namespace System::Reflection {
   // Offset: 0x15C77B8
   bool operator !=(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::FieldInfo*, "System.Reflection", "FieldInfo");

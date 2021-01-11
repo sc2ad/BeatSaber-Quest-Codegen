@@ -37,9 +37,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.AppOverrideKeys_t
+  #pragma pack(pop)
   static check_size<sizeof(AppOverrideKeys_t), 8 + sizeof(System::IntPtr)> __OVR_OpenVR_AppOverrideKeys_tSizeCheck;
   static_assert(sizeof(AppOverrideKeys_t) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::AppOverrideKeys_t, "OVR.OpenVR", "AppOverrideKeys_t");

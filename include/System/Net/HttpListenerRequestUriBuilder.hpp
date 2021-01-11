@@ -179,8 +179,8 @@ namespace System::Net {
       LogWarning(methodName, message, {args...});
     }
   }; // System.Net.HttpListenerRequestUriBuilder
+  #pragma pack(pop)
   static check_size<sizeof(HttpListenerRequestUriBuilder), 80 + sizeof(System::Uri*)> __System_Net_HttpListenerRequestUriBuilderSizeCheck;
   static_assert(sizeof(HttpListenerRequestUriBuilder) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerRequestUriBuilder*, "System.Net", "HttpListenerRequestUriBuilder");

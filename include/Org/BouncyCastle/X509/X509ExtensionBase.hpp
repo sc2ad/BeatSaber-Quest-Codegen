@@ -49,6 +49,6 @@ namespace Org::BouncyCastle::X509 {
       return THROW_UNLESS((::il2cpp_utils::New<X509ExtensionBase*, creationType>()));
     }
   }; // Org.BouncyCastle.X509.X509ExtensionBase
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509ExtensionBase*, "Org.BouncyCastle.X509", "X509ExtensionBase");

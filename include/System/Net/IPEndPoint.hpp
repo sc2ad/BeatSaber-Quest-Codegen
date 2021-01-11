@@ -122,8 +122,8 @@ namespace System::Net {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Net.IPEndPoint
+  #pragma pack(pop)
   static check_size<sizeof(IPEndPoint), 24 + sizeof(int)> __System_Net_IPEndPointSizeCheck;
   static_assert(sizeof(IPEndPoint) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPEndPoint*, "System.Net", "IPEndPoint");

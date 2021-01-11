@@ -49,8 +49,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardScoreUploader::ScoresToUploadData*, creationType>()));
     }
   }; // LeaderboardScoreUploader/ScoresToUploadData
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardScoreUploader::ScoresToUploadData), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*)> __GlobalNamespace_LeaderboardScoreUploader_ScoresToUploadDataSizeCheck;
   static_assert(sizeof(LeaderboardScoreUploader::ScoresToUploadData) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::ScoresToUploadData*, "", "LeaderboardScoreUploader/ScoresToUploadData");

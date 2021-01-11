@@ -68,8 +68,8 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<ClipperRegistry*, creationType>()));
     }
   }; // UnityEngine.UI.ClipperRegistry
+  #pragma pack(pop)
   static check_size<sizeof(ClipperRegistry), 16 + sizeof(UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*)> __UnityEngine_UI_ClipperRegistrySizeCheck;
   static_assert(sizeof(ClipperRegistry) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ClipperRegistry*, "UnityEngine.UI", "ClipperRegistry");

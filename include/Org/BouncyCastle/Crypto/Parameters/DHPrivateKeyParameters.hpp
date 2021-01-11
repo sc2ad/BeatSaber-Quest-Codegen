@@ -75,8 +75,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Int32 DHKeyParameters::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters
+  #pragma pack(pop)
   static check_size<sizeof(DHPrivateKeyParameters), 40 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Crypto_Parameters_DHPrivateKeyParametersSizeCheck;
   static_assert(sizeof(DHPrivateKeyParameters) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHPrivateKeyParameters");

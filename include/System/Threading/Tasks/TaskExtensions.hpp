@@ -38,6 +38,6 @@ namespace System::Threading::Tasks {
       return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, task);
     }
   }; // System.Threading.Tasks.TaskExtensions
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskExtensions*, "System.Threading.Tasks", "TaskExtensions");

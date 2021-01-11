@@ -210,8 +210,8 @@ namespace Tweening {
       return THROW_UNLESS((::il2cpp_utils::New<Tween*, creationType>()));
     }
   }; // Tweening.Tween
+  #pragma pack(pop)
   static check_size<sizeof(Tween), 72 + sizeof(UnityEngine::AnimationCurve*)> __Tweening_TweenSizeCheck;
   static_assert(sizeof(Tween) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Tween*, "Tweening", "Tween");

@@ -139,8 +139,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEventEffect*, creationType>()));
     }
   }; // BTSStarTextEventEffect
+  #pragma pack(pop)
   static check_size<sizeof(BTSStarTextEventEffect), 72 + sizeof(System::Collections::Generic::Dictionary_2<int, UnityEngine::Transform*>*)> __GlobalNamespace_BTSStarTextEventEffectSizeCheck;
   static_assert(sizeof(BTSStarTextEventEffect) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventEffect*, "", "BTSStarTextEventEffect");

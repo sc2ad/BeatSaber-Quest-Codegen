@@ -135,8 +135,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // ParametricBoxFakeGlowController
+  #pragma pack(pop)
   static check_size<sizeof(ParametricBoxFakeGlowController), 72 + sizeof(GlobalNamespace::MaterialPropertyBlockController*)> __GlobalNamespace_ParametricBoxFakeGlowControllerSizeCheck;
   static_assert(sizeof(ParametricBoxFakeGlowController) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxFakeGlowController*, "", "ParametricBoxFakeGlowController");

@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x136D604
     bool EndInvoke(Valve::VR::VREvent_t_Packed& pEvent, System::IAsyncResult* result);
   }; // Valve.VR.CVRSystem/_PollNextEventPacked
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSystem::_PollNextEventPacked*, "Valve.VR", "CVRSystem/_PollNextEventPacked");

@@ -97,8 +97,8 @@ namespace HMUI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // HMUI.AlphabetScrollbar/<PointerMoveInsideCoroutine>d__18
+  #pragma pack(pop)
   static check_size<sizeof(AlphabetScrollbar::$PointerMoveInsideCoroutine$d__18), 40 + sizeof(UnityEngine::EventSystems::PointerEventData*)> __HMUI_AlphabetScrollbar_$PointerMoveInsideCoroutine$d__18SizeCheck;
   static_assert(sizeof(AlphabetScrollbar::$PointerMoveInsideCoroutine$d__18) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AlphabetScrollbar::$PointerMoveInsideCoroutine$d__18*, "HMUI", "AlphabetScrollbar/<PointerMoveInsideCoroutine>d__18");

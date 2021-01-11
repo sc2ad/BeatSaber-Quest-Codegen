@@ -86,8 +86,8 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>()));
     }
   }; // System.Security.Cryptography.Oid
+  #pragma pack(pop)
   static check_size<sizeof(Oid), 32 + sizeof(System::Security::Cryptography::OidGroup)> __System_Security_Cryptography_OidSizeCheck;
   static_assert(sizeof(Oid) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Oid*, "System.Security.Cryptography", "Oid");

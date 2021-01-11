@@ -487,8 +487,8 @@ namespace System::Xml {
     // Base method: System.Void XmlWriter::Flush()
     void Flush();
   }; // System.Xml.XmlEncodedRawTextWriter
+  #pragma pack(pop)
   static check_size<sizeof(XmlEncodedRawTextWriter), 181 + sizeof(bool)> __System_Xml_XmlEncodedRawTextWriterSizeCheck;
   static_assert(sizeof(XmlEncodedRawTextWriter) == 0xB6);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEncodedRawTextWriter*, "System.Xml", "XmlEncodedRawTextWriter");

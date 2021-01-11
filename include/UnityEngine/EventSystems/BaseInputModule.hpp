@@ -169,8 +169,8 @@ namespace UnityEngine::EventSystems {
       return THROW_UNLESS((::il2cpp_utils::New<BaseInputModule*, creationType>()));
     }
   }; // UnityEngine.EventSystems.BaseInputModule
+  #pragma pack(pop)
   static check_size<sizeof(BaseInputModule), 64 + sizeof(UnityEngine::EventSystems::BaseInput*)> __UnityEngine_EventSystems_BaseInputModuleSizeCheck;
   static_assert(sizeof(BaseInputModule) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseInputModule*, "UnityEngine.EventSystems", "BaseInputModule");

@@ -50,9 +50,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.MotionVectorGenerationMode ForceNoMotion
     static void _set_ForceNoMotion(UnityEngine::MotionVectorGenerationMode value);
   }; // UnityEngine.MotionVectorGenerationMode
+  #pragma pack(pop)
   static check_size<sizeof(MotionVectorGenerationMode), 0 + sizeof(int)> __UnityEngine_MotionVectorGenerationModeSizeCheck;
   static_assert(sizeof(MotionVectorGenerationMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MotionVectorGenerationMode, "UnityEngine", "MotionVectorGenerationMode");

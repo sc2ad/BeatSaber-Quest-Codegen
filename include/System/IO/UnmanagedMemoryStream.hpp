@@ -216,8 +216,8 @@ namespace System::IO {
     // Base method: System.Void Stream::WriteByte(System.Byte value)
     void WriteByte(uint8_t value);
   }; // System.IO.UnmanagedMemoryStream
+  #pragma pack(pop)
   static check_size<sizeof(UnmanagedMemoryStream), 96 + sizeof(System::Threading::Tasks::Task_1<int>*)> __System_IO_UnmanagedMemoryStreamSizeCheck;
   static_assert(sizeof(UnmanagedMemoryStream) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::UnmanagedMemoryStream*, "System.IO", "UnmanagedMemoryStream");

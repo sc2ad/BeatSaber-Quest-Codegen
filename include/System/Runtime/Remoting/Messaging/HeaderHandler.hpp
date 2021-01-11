@@ -53,6 +53,6 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x117CA8C
     ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
   }; // System.Runtime.Remoting.Messaging.HeaderHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::HeaderHandler*, "System.Runtime.Remoting.Messaging", "HeaderHandler");

@@ -64,8 +64,8 @@ namespace System::Reflection {
     // Offset: 0x15C79EC
     System::Reflection::ResourceLocation get_ResourceLocation();
   }; // System.Reflection.ManifestResourceInfo
+  #pragma pack(pop)
   static check_size<sizeof(ManifestResourceInfo), 32 + sizeof(System::Reflection::ResourceLocation)> __System_Reflection_ManifestResourceInfoSizeCheck;
   static_assert(sizeof(ManifestResourceInfo) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ManifestResourceInfo*, "System.Reflection", "ManifestResourceInfo");

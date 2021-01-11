@@ -37,6 +37,6 @@ namespace System::IO {
     // Base method: System.String DescriptionAttribute::get_Description()
     ::Il2CppString* get_Description();
   }; // System.IO.IODescriptionAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::IODescriptionAttribute*, "System.IO", "IODescriptionAttribute");

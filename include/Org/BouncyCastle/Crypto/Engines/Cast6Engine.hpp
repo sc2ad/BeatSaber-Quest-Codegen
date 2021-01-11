@@ -100,8 +100,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Int32 Cast5Engine::DecryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
     int DecryptBlock(::Array<uint8_t>* src, int srcIndex, ::Array<uint8_t>* dst, int dstIndex);
   }; // Org.BouncyCastle.Crypto.Engines.Cast6Engine
+  #pragma pack(pop)
   static check_size<sizeof(Cast6Engine), 88 + sizeof(::Array<uint>*)> __Org_BouncyCastle_Crypto_Engines_Cast6EngineSizeCheck;
   static_assert(sizeof(Cast6Engine) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Cast6Engine*, "Org.BouncyCastle.Crypto.Engines", "Cast6Engine");

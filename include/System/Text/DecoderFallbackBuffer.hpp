@@ -65,8 +65,8 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<DecoderFallbackBuffer*, creationType>()));
     }
   }; // System.Text.DecoderFallbackBuffer
+  #pragma pack(pop)
   static check_size<sizeof(DecoderFallbackBuffer), 24 + sizeof(::Il2CppChar*)> __System_Text_DecoderFallbackBufferSizeCheck;
   static_assert(sizeof(DecoderFallbackBuffer) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderFallbackBuffer*, "System.Text", "DecoderFallbackBuffer");

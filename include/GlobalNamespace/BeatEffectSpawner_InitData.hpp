@@ -39,8 +39,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatEffectSpawner::InitData*, creationType>(hideNoteSpawnEffect)));
     }
   }; // BeatEffectSpawner/InitData
+  #pragma pack(pop)
   static check_size<sizeof(BeatEffectSpawner::InitData), 16 + sizeof(bool)> __GlobalNamespace_BeatEffectSpawner_InitDataSizeCheck;
   static_assert(sizeof(BeatEffectSpawner::InitData) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffectSpawner::InitData*, "", "BeatEffectSpawner/InitData");

@@ -41,8 +41,8 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyProductAttribute*, creationType>(product)));
     }
   }; // System.Reflection.AssemblyProductAttribute
+  #pragma pack(pop)
   static check_size<sizeof(AssemblyProductAttribute), 16 + sizeof(::Il2CppString*)> __System_Reflection_AssemblyProductAttributeSizeCheck;
   static_assert(sizeof(AssemblyProductAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyProductAttribute*, "System.Reflection", "AssemblyProductAttribute");

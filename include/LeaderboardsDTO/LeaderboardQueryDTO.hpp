@@ -56,6 +56,7 @@ namespace LeaderboardsDTO {
       // Set static field: static public LeaderboardsDTO.LeaderboardQueryDTO/ScoresScope Friends
       static void _set_Friends(LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope value);
     }; // LeaderboardsDTO.LeaderboardQueryDTO/ScoresScope
+    #pragma pack(pop)
     static check_size<sizeof(LeaderboardQueryDTO::ScoresScope), 0 + sizeof(int)> __LeaderboardsDTO_LeaderboardQueryDTO_ScoresScopeSizeCheck;
     static_assert(sizeof(LeaderboardQueryDTO::ScoresScope) == 0x4);
     // public System.String leaderboardId
@@ -108,9 +109,9 @@ namespace LeaderboardsDTO {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardQueryDTO*, creationType>()));
     }
   }; // LeaderboardsDTO.LeaderboardQueryDTO
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardQueryDTO), 48 + sizeof(bool)> __LeaderboardsDTO_LeaderboardQueryDTOSizeCheck;
   static_assert(sizeof(LeaderboardQueryDTO) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardQueryDTO*, "LeaderboardsDTO", "LeaderboardQueryDTO");
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope, "LeaderboardsDTO", "LeaderboardQueryDTO/ScoresScope");

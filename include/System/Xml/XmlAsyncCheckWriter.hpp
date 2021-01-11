@@ -186,8 +186,8 @@ namespace System::Xml {
     // Base method: System.Void XmlWriter::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Xml.XmlAsyncCheckWriter
+  #pragma pack(pop)
   static check_size<sizeof(XmlAsyncCheckWriter), 24 + sizeof(System::Threading::Tasks::Task*)> __System_Xml_XmlAsyncCheckWriterSizeCheck;
   static_assert(sizeof(XmlAsyncCheckWriter) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlAsyncCheckWriter*, "System.Xml", "XmlAsyncCheckWriter");

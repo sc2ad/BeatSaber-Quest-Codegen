@@ -42,8 +42,8 @@ namespace System::Runtime::CompilerServices {
       return THROW_UNLESS((::il2cpp_utils::New<DefaultDependencyAttribute*, creationType>(loadHintArgument)));
     }
   }; // System.Runtime.CompilerServices.DefaultDependencyAttribute
+  #pragma pack(pop)
   static check_size<sizeof(DefaultDependencyAttribute), 16 + sizeof(System::Runtime::CompilerServices::LoadHint)> __System_Runtime_CompilerServices_DefaultDependencyAttributeSizeCheck;
   static_assert(sizeof(DefaultDependencyAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DefaultDependencyAttribute*, "System.Runtime.CompilerServices", "DefaultDependencyAttribute");

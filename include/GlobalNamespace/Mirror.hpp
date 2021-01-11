@@ -93,8 +93,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // Mirror
+  #pragma pack(pop)
   static check_size<sizeof(Mirror), 48 + sizeof(UnityEngine::Material*)> __GlobalNamespace_MirrorSizeCheck;
   static_assert(sizeof(Mirror) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Mirror*, "", "Mirror");

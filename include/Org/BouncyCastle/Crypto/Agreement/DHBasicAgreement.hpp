@@ -81,8 +81,8 @@ namespace Org::BouncyCastle::Crypto::Agreement {
       return THROW_UNLESS((::il2cpp_utils::New<DHBasicAgreement*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Agreement.DHBasicAgreement
+  #pragma pack(pop)
   static check_size<sizeof(DHBasicAgreement), 24 + sizeof(Org::BouncyCastle::Crypto::Parameters::DHParameters*)> __Org_BouncyCastle_Crypto_Agreement_DHBasicAgreementSizeCheck;
   static_assert(sizeof(DHBasicAgreement) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*, "Org.BouncyCastle.Crypto.Agreement", "DHBasicAgreement");

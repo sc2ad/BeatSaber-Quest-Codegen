@@ -93,7 +93,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::GM {
     // Offset: 0x1774500
     static void _cctor();
   }; // Org.BouncyCastle.Math.EC.Custom.GM.SM2P256V1Field
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Field*, "Org.BouncyCastle.Math.EC.Custom.GM", "SM2P256V1Field");

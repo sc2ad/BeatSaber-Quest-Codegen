@@ -41,8 +41,8 @@ namespace System::Runtime::CompilerServices {
       return THROW_UNLESS((::il2cpp_utils::New<TupleElementNamesAttribute*, creationType>(transformNames)));
     }
   }; // System.Runtime.CompilerServices.TupleElementNamesAttribute
+  #pragma pack(pop)
   static check_size<sizeof(TupleElementNamesAttribute), 16 + sizeof(::Array<::Il2CppString*>*)> __System_Runtime_CompilerServices_TupleElementNamesAttributeSizeCheck;
   static_assert(sizeof(TupleElementNamesAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TupleElementNamesAttribute*, "System.Runtime.CompilerServices", "TupleElementNamesAttribute");

@@ -53,9 +53,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // SteamVR_Overlay/IntersectionResults
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_Overlay::IntersectionResults), 32 + sizeof(float)> __GlobalNamespace_SteamVR_Overlay_IntersectionResultsSizeCheck;
   static_assert(sizeof(SteamVR_Overlay::IntersectionResults) == 0x24);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Overlay::IntersectionResults, "", "SteamVR_Overlay/IntersectionResults");

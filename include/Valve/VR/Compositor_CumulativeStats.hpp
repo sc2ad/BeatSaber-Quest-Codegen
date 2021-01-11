@@ -112,9 +112,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.Compositor_CumulativeStats
+  #pragma pack(pop)
   static check_size<sizeof(Compositor_CumulativeStats), 56 + sizeof(uint)> __Valve_VR_Compositor_CumulativeStatsSizeCheck;
   static_assert(sizeof(Compositor_CumulativeStats) == 0x3C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Compositor_CumulativeStats, "Valve.VR", "Compositor_CumulativeStats");

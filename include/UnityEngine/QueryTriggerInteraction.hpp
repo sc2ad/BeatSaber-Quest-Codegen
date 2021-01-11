@@ -50,9 +50,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.QueryTriggerInteraction Collide
     static void _set_Collide(UnityEngine::QueryTriggerInteraction value);
   }; // UnityEngine.QueryTriggerInteraction
+  #pragma pack(pop)
   static check_size<sizeof(QueryTriggerInteraction), 0 + sizeof(int)> __UnityEngine_QueryTriggerInteractionSizeCheck;
   static_assert(sizeof(QueryTriggerInteraction) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::QueryTriggerInteraction, "UnityEngine", "QueryTriggerInteraction");

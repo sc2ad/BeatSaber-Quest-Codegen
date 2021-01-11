@@ -120,8 +120,8 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x1179D6C
     System::Runtime::Remoting::Messaging::LogicalCallContext* GetLogicalCallContext(System::Collections::ArrayList* args);
   }; // System.Runtime.Remoting.Messaging.CADMessageBase
+  #pragma pack(pop)
   static check_size<sizeof(CADMessageBase), 48 + sizeof(::Array<uint8_t>*)> __System_Runtime_Remoting_Messaging_CADMessageBaseSizeCheck;
   static_assert(sizeof(CADMessageBase) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMessageBase*, "System.Runtime.Remoting.Messaging", "CADMessageBase");

@@ -57,8 +57,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AlwaysVisibleQuad*, creationType>()));
     }
   }; // AlwaysVisibleQuad
+  #pragma pack(pop)
   static check_size<sizeof(AlwaysVisibleQuad), 24 + sizeof(UnityEngine::Mesh*)> __GlobalNamespace_AlwaysVisibleQuadSizeCheck;
   static_assert(sizeof(AlwaysVisibleQuad) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysVisibleQuad*, "", "AlwaysVisibleQuad");

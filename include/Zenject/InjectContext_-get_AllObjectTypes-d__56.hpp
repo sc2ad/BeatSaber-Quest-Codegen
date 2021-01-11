@@ -128,8 +128,8 @@ namespace Zenject {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // Zenject.InjectContext/<get_AllObjectTypes>d__56
+  #pragma pack(pop)
   static check_size<sizeof(InjectContext::$get_AllObjectTypes$d__56), 48 + sizeof(System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>*)> __Zenject_InjectContext_$get_AllObjectTypes$d__56SizeCheck;
   static_assert(sizeof(InjectContext::$get_AllObjectTypes$d__56) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectContext::$get_AllObjectTypes$d__56*, "Zenject", "InjectContext/<get_AllObjectTypes>d__56");

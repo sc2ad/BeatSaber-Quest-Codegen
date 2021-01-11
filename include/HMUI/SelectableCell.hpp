@@ -94,6 +94,7 @@ namespace HMUI {
       // Set static field: static public HMUI.SelectableCell/TransitionType Animated
       static void _set_Animated(HMUI::SelectableCell::TransitionType value);
     }; // HMUI.SelectableCell/TransitionType
+    #pragma pack(pop)
     static check_size<sizeof(SelectableCell::TransitionType), 0 + sizeof(int)> __HMUI_SelectableCell_TransitionTypeSizeCheck;
     static_assert(sizeof(SelectableCell::TransitionType) == 0x4);
     // [SignalSenderAttribute] Offset: 0xDA7C80
@@ -229,9 +230,9 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<SelectableCell*, creationType>()));
     }
   }; // HMUI.SelectableCell
+  #pragma pack(pop)
   static check_size<sizeof(SelectableCell), 57 + sizeof(bool)> __HMUI_SelectableCellSizeCheck;
   static_assert(sizeof(SelectableCell) == 0x3A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCell*, "HMUI", "SelectableCell");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCell::TransitionType, "HMUI", "SelectableCell/TransitionType");

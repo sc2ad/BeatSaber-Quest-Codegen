@@ -58,9 +58,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/Eye Count
     static void _set_Count(GlobalNamespace::OVRPlugin::Eye value);
   }; // OVRPlugin/Eye
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Eye), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_EyeSizeCheck;
   static_assert(sizeof(OVRPlugin::Eye) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Eye, "", "OVRPlugin/Eye");

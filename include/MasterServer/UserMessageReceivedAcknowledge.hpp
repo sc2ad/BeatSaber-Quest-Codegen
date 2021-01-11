@@ -55,6 +55,6 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<UserMessageReceivedAcknowledge*, creationType>()));
     }
   }; // MasterServer.UserMessageReceivedAcknowledge
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageReceivedAcknowledge*, "MasterServer", "UserMessageReceivedAcknowledge");

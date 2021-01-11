@@ -65,9 +65,9 @@ namespace UnityEngine::LowLevel {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.LowLevel.PlayerLoopSystemInternal
+  #pragma pack(pop)
   static check_size<sizeof(PlayerLoopSystemInternal), 32 + sizeof(int)> __UnityEngine_LowLevel_PlayerLoopSystemInternalSizeCheck;
   static_assert(sizeof(PlayerLoopSystemInternal) == 0x24);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LowLevel::PlayerLoopSystemInternal, "UnityEngine.LowLevel", "PlayerLoopSystemInternal");

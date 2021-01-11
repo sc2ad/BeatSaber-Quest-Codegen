@@ -58,8 +58,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MenuEnvironmentManager::MenuEnvironmentObjects*, creationType>()));
     }
   }; // MenuEnvironmentManager/MenuEnvironmentObjects
+  #pragma pack(pop)
   static check_size<sizeof(MenuEnvironmentManager::MenuEnvironmentObjects), 24 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_MenuEnvironmentManager_MenuEnvironmentObjectsSizeCheck;
   static_assert(sizeof(MenuEnvironmentManager::MenuEnvironmentObjects) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*, "", "MenuEnvironmentManager/MenuEnvironmentObjects");

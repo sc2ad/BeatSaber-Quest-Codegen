@@ -95,8 +95,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<PanelAnimationSO*, creationType>()));
     }
   }; // HMUI.PanelAnimationSO
+  #pragma pack(pop)
   static check_size<sizeof(PanelAnimationSO), 56 + sizeof(UnityEngine::AnimationCurve*)> __HMUI_PanelAnimationSOSizeCheck;
   static_assert(sizeof(PanelAnimationSO) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimationSO*, "HMUI", "PanelAnimationSO");

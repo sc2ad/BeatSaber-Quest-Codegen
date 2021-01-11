@@ -135,8 +135,8 @@ namespace NUnit::Framework::Constraints {
     // Base method: NUnit.Framework.Constraints.IConstraint IResolveConstraint::Resolve()
     NUnit::Framework::Constraints::IConstraint* NUnit_Framework_Constraints_IResolveConstraint_Resolve();
   }; // NUnit.Framework.Constraints.Constraint
+  #pragma pack(pop)
   static check_size<sizeof(Constraint), 40 + sizeof(NUnit::Framework::Constraints::ConstraintBuilder*)> __NUnit_Framework_Constraints_ConstraintSizeCheck;
   static_assert(sizeof(Constraint) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Constraint*, "NUnit.Framework.Constraints", "Constraint");

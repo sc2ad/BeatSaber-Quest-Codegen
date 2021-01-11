@@ -95,6 +95,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRSkeleton/SkeletonType HandRight
       static void _set_HandRight(GlobalNamespace::OVRSkeleton::SkeletonType value);
     }; // OVRSkeleton/SkeletonType
+    #pragma pack(pop)
     static check_size<sizeof(OVRSkeleton::SkeletonType), 0 + sizeof(int)> __GlobalNamespace_OVRSkeleton_SkeletonTypeSizeCheck;
     static_assert(sizeof(OVRSkeleton::SkeletonType) == 0x4);
     // private OVRSkeleton/SkeletonType _skeletonType
@@ -313,9 +314,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRSkeleton*, creationType>()));
     }
   }; // OVRSkeleton
+  #pragma pack(pop)
   static check_size<sizeof(OVRSkeleton), 136 + sizeof(System::Collections::Generic::IList_1<GlobalNamespace::OVRBoneCapsule*>*)> __GlobalNamespace_OVRSkeletonSizeCheck;
   static_assert(sizeof(OVRSkeleton) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton*, "", "OVRSkeleton");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton::SkeletonType, "", "OVRSkeleton/SkeletonType");

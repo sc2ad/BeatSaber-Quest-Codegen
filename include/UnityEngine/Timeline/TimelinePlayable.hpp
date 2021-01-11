@@ -163,8 +163,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<TimelinePlayable*, creationType>()));
     }
   }; // UnityEngine.Timeline.TimelinePlayable
+  #pragma pack(pop)
   static check_size<sizeof(TimelinePlayable), 56 + sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::Timeline::TrackAsset*, UnityEngine::Playables::Playable>*)> __UnityEngine_Timeline_TimelinePlayableSizeCheck;
   static_assert(sizeof(TimelinePlayable) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelinePlayable*, "UnityEngine.Timeline", "TimelinePlayable");

@@ -52,8 +52,8 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0x149B0CC
     int get_Strength();
   }; // Org.BouncyCastle.Crypto.KeyGenerationParameters
+  #pragma pack(pop)
   static check_size<sizeof(KeyGenerationParameters), 24 + sizeof(int)> __Org_BouncyCastle_Crypto_KeyGenerationParametersSizeCheck;
   static_assert(sizeof(KeyGenerationParameters) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::KeyGenerationParameters*, "Org.BouncyCastle.Crypto", "KeyGenerationParameters");

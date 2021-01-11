@@ -81,8 +81,8 @@ namespace BeatSaberAPI::DataTransferObjects {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntry*, creationType>()));
     }
   }; // BeatSaberAPI.DataTransferObjects.LeaderboardEntry
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardEntry), 56 + sizeof(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*)> __BeatSaberAPI_DataTransferObjects_LeaderboardEntrySizeCheck;
   static_assert(sizeof(LeaderboardEntry) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LeaderboardEntry*, "BeatSaberAPI.DataTransferObjects", "LeaderboardEntry");

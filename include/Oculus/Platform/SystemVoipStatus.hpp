@@ -60,9 +60,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.SystemVoipStatus Active
     static void _set_Active(Oculus::Platform::SystemVoipStatus value);
   }; // Oculus.Platform.SystemVoipStatus
+  #pragma pack(pop)
   static check_size<sizeof(SystemVoipStatus), 0 + sizeof(int)> __Oculus_Platform_SystemVoipStatusSizeCheck;
   static_assert(sizeof(SystemVoipStatus) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::SystemVoipStatus, "Oculus.Platform", "SystemVoipStatus");

@@ -65,8 +65,8 @@ namespace System::Threading::Tasks {
     // Base method: System.Void TaskContinuation::Run(System.Threading.Tasks.Task completedTask, System.Boolean bCanInlineContinuationTask)
     void Run(System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
   }; // System.Threading.Tasks.StandardTaskContinuation
+  #pragma pack(pop)
   static check_size<sizeof(StandardTaskContinuation), 32 + sizeof(System::Threading::Tasks::TaskScheduler*)> __System_Threading_Tasks_StandardTaskContinuationSizeCheck;
   static_assert(sizeof(StandardTaskContinuation) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::StandardTaskContinuation*, "System.Threading.Tasks", "StandardTaskContinuation");

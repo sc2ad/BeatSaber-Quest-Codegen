@@ -106,8 +106,8 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<StencilMaterial::MatEntry*, creationType>()));
     }
   }; // UnityEngine.UI.StencilMaterial/MatEntry
+  #pragma pack(pop)
   static check_size<sizeof(StencilMaterial::MatEntry), 60 + sizeof(UnityEngine::Rendering::ColorWriteMask)> __UnityEngine_UI_StencilMaterial_MatEntrySizeCheck;
   static_assert(sizeof(StencilMaterial::MatEntry) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::StencilMaterial::MatEntry*, "UnityEngine.UI", "StencilMaterial/MatEntry");

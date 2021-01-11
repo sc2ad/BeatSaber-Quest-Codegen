@@ -100,8 +100,8 @@ namespace LiteNetLib {
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.SequencedChannel
+  #pragma pack(pop)
   static check_size<sizeof(SequencedChannel), 72 + sizeof(int64_t)> __LiteNetLib_SequencedChannelSizeCheck;
   static_assert(sizeof(SequencedChannel) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::SequencedChannel*, "LiteNetLib", "SequencedChannel");

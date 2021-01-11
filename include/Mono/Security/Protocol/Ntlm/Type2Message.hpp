@@ -71,8 +71,8 @@ namespace Mono::Security::Protocol::Ntlm {
     // Base method: System.Byte[] MessageBase::GetBytes()
     ::Array<uint8_t>* GetBytes();
   }; // Mono.Security.Protocol.Ntlm.Type2Message
+  #pragma pack(pop)
   static check_size<sizeof(Type2Message), 40 + sizeof(::Array<uint8_t>*)> __Mono_Security_Protocol_Ntlm_Type2MessageSizeCheck;
   static_assert(sizeof(Type2Message) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::Type2Message*, "Mono.Security.Protocol.Ntlm", "Type2Message");

@@ -39,8 +39,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TutorialSongController::InitData*, creationType>(songBpm)));
     }
   }; // TutorialSongController/InitData
+  #pragma pack(pop)
   static check_size<sizeof(TutorialSongController::InitData), 16 + sizeof(float)> __GlobalNamespace_TutorialSongController_InitDataSizeCheck;
   static_assert(sizeof(TutorialSongController::InitData) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::InitData*, "", "TutorialSongController/InitData");

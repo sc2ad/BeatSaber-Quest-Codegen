@@ -50,9 +50,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRNotificationType Transient_SystemWithUserValue
     static void _set_Transient_SystemWithUserValue(OVR::OpenVR::EVRNotificationType value);
   }; // OVR.OpenVR.EVRNotificationType
+  #pragma pack(pop)
   static check_size<sizeof(EVRNotificationType), 0 + sizeof(int)> __OVR_OpenVR_EVRNotificationTypeSizeCheck;
   static_assert(sizeof(EVRNotificationType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRNotificationType, "OVR.OpenVR", "EVRNotificationType");

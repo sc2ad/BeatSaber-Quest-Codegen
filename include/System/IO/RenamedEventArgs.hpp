@@ -41,8 +41,8 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<RenamedEventArgs*, creationType>(changeType, directory, name, oldName)));
     }
   }; // System.IO.RenamedEventArgs
+  #pragma pack(pop)
   static check_size<sizeof(RenamedEventArgs), 48 + sizeof(::Il2CppString*)> __System_IO_RenamedEventArgsSizeCheck;
   static_assert(sizeof(RenamedEventArgs) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::RenamedEventArgs*, "System.IO", "RenamedEventArgs");

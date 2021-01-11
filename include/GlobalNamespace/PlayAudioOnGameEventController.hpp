@@ -64,8 +64,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayAudioOnGameEventController*, creationType>()));
     }
   }; // PlayAudioOnGameEventController
+  #pragma pack(pop)
   static check_size<sizeof(PlayAudioOnGameEventController), 32 + sizeof(::Array<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>*)> __GlobalNamespace_PlayAudioOnGameEventControllerSizeCheck;
   static_assert(sizeof(PlayAudioOnGameEventController) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayAudioOnGameEventController*, "", "PlayAudioOnGameEventController");

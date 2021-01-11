@@ -121,8 +121,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreRingItem*, creationType>()));
     }
   }; // MultiplayerScoreRingItem
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerScoreRingItem), 56 + sizeof(Tweening::Tween_1<UnityEngine::Color>*)> __GlobalNamespace_MultiplayerScoreRingItemSizeCheck;
   static_assert(sizeof(MultiplayerScoreRingItem) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreRingItem*, "", "MultiplayerScoreRingItem");

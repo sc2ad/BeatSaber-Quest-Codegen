@@ -118,9 +118,9 @@ namespace TMPro {
     // Base method: System.Boolean ITweenValue::ValidTarget()
     bool ValidTarget();
   }; // TMPro.FloatTween
+  #pragma pack(pop)
   static check_size<sizeof(FloatTween), 20 + sizeof(bool)> __TMPro_FloatTweenSizeCheck;
   static_assert(sizeof(FloatTween) == 0x15);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FloatTween, "TMPro", "FloatTween");

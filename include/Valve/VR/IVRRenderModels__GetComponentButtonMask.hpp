@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x191DDE8
     uint64_t EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_GetComponentButtonMask
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRRenderModels::_GetComponentButtonMask*, "Valve.VR", "IVRRenderModels/_GetComponentButtonMask");

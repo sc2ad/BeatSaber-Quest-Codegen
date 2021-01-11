@@ -49,6 +49,6 @@ namespace GlobalNamespace {
     // Offset: 0x1035454
     void EndInvoke(System::IAsyncResult* result);
   }; // HMAsyncRequest/CancelHander
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAsyncRequest::CancelHander*, "", "HMAsyncRequest/CancelHander");

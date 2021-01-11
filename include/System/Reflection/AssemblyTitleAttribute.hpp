@@ -41,8 +41,8 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyTitleAttribute*, creationType>(title)));
     }
   }; // System.Reflection.AssemblyTitleAttribute
+  #pragma pack(pop)
   static check_size<sizeof(AssemblyTitleAttribute), 16 + sizeof(::Il2CppString*)> __System_Reflection_AssemblyTitleAttributeSizeCheck;
   static_assert(sizeof(AssemblyTitleAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyTitleAttribute*, "System.Reflection", "AssemblyTitleAttribute");

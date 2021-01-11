@@ -48,8 +48,8 @@ namespace UnityEngine::EventSystems {
       return THROW_UNLESS((::il2cpp_utils::New<AbstractEventData*, creationType>()));
     }
   }; // UnityEngine.EventSystems.AbstractEventData
+  #pragma pack(pop)
   static check_size<sizeof(AbstractEventData), 16 + sizeof(bool)> __UnityEngine_EventSystems_AbstractEventDataSizeCheck;
   static_assert(sizeof(AbstractEventData) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::AbstractEventData*, "UnityEngine.EventSystems", "AbstractEventData");

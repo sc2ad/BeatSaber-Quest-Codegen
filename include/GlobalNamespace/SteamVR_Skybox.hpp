@@ -81,6 +81,7 @@ namespace GlobalNamespace {
       // Set static field: static public SteamVR_Skybox/CellSize x8
       static void _set_x8(GlobalNamespace::SteamVR_Skybox::CellSize value);
     }; // SteamVR_Skybox/CellSize
+    #pragma pack(pop)
     static check_size<sizeof(SteamVR_Skybox::CellSize), 0 + sizeof(int)> __GlobalNamespace_SteamVR_Skybox_CellSizeSizeCheck;
     static_assert(sizeof(SteamVR_Skybox::CellSize) == 0x4);
     // public UnityEngine.Texture front
@@ -167,9 +168,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Skybox*, creationType>()));
     }
   }; // SteamVR_Skybox
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_Skybox), 76 + sizeof(float)> __GlobalNamespace_SteamVR_SkyboxSizeCheck;
   static_assert(sizeof(SteamVR_Skybox) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox*, "", "SteamVR_Skybox");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox::CellSize, "", "SteamVR_Skybox/CellSize");

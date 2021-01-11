@@ -95,6 +95,7 @@ namespace GlobalNamespace {
       // Set static field: static public AdditionalContentModel/EntitlementStatus NotOwned
       static void _set_NotOwned(GlobalNamespace::AdditionalContentModel::EntitlementStatus value);
     }; // AdditionalContentModel/EntitlementStatus
+    #pragma pack(pop)
     static check_size<sizeof(AdditionalContentModel::EntitlementStatus), 0 + sizeof(int)> __GlobalNamespace_AdditionalContentModel_EntitlementStatusSizeCheck;
     static_assert(sizeof(AdditionalContentModel::EntitlementStatus) == 0x4);
     // Size: 0x4
@@ -132,6 +133,7 @@ namespace GlobalNamespace {
       // Set static field: static public AdditionalContentModel/OpenProductStoreResult Failed
       static void _set_Failed(GlobalNamespace::AdditionalContentModel::OpenProductStoreResult value);
     }; // AdditionalContentModel/OpenProductStoreResult
+    #pragma pack(pop)
     static check_size<sizeof(AdditionalContentModel::OpenProductStoreResult), 0 + sizeof(int)> __GlobalNamespace_AdditionalContentModel_OpenProductStoreResultSizeCheck;
     static_assert(sizeof(AdditionalContentModel::OpenProductStoreResult) == 0x4);
     // Size: 0x4
@@ -175,6 +177,7 @@ namespace GlobalNamespace {
       // Set static field: static public AdditionalContentModel/IsPackBetterBuyThanLevelResult Failed
       static void _set_Failed(GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult value);
     }; // AdditionalContentModel/IsPackBetterBuyThanLevelResult
+    #pragma pack(pop)
     static check_size<sizeof(AdditionalContentModel::IsPackBetterBuyThanLevelResult), 0 + sizeof(int)> __GlobalNamespace_AdditionalContentModel_IsPackBetterBuyThanLevelResultSizeCheck;
     static_assert(sizeof(AdditionalContentModel::IsPackBetterBuyThanLevelResult) == 0x4);
     // [InjectAttribute] Offset: 0xDC291C
@@ -245,10 +248,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AdditionalContentModel*, creationType>()));
     }
   }; // AdditionalContentModel
+  #pragma pack(pop)
   static check_size<sizeof(AdditionalContentModel), 32 + sizeof(System::Action*)> __GlobalNamespace_AdditionalContentModelSizeCheck;
   static_assert(sizeof(AdditionalContentModel) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel*, "", "AdditionalContentModel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::EntitlementStatus, "", "AdditionalContentModel/EntitlementStatus");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::OpenProductStoreResult, "", "AdditionalContentModel/OpenProductStoreResult");

@@ -63,8 +63,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ImageEffectController*, creationType>()));
     }
   }; // ImageEffectController
+  #pragma pack(pop)
   static check_size<sizeof(ImageEffectController), 24 + sizeof(GlobalNamespace::ImageEffectController::RenderImageCallback*)> __GlobalNamespace_ImageEffectControllerSizeCheck;
   static_assert(sizeof(ImageEffectController) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImageEffectController*, "", "ImageEffectController");

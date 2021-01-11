@@ -116,8 +116,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12F849C
     void SetValue(::Il2CppString* value, int index);
   }; // System.Runtime.Serialization.Formatters.Binary.PrimitiveArray
+  #pragma pack(pop)
   static check_size<sizeof(PrimitiveArray), 104 + sizeof(::Array<uint64_t>*)> __System_Runtime_Serialization_Formatters_Binary_PrimitiveArraySizeCheck;
   static_assert(sizeof(PrimitiveArray) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*, "System.Runtime.Serialization.Formatters.Binary", "PrimitiveArray");

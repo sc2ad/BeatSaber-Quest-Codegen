@@ -51,9 +51,9 @@ namespace System::IO {
     // Set static field: static public System.IO.SeekOrigin End
     static void _set_End(System::IO::SeekOrigin value);
   }; // System.IO.SeekOrigin
+  #pragma pack(pop)
   static check_size<sizeof(SeekOrigin), 0 + sizeof(int)> __System_IO_SeekOriginSizeCheck;
   static_assert(sizeof(SeekOrigin) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SeekOrigin, "System.IO", "SeekOrigin");

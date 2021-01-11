@@ -99,9 +99,9 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.EventOpcode Receive
     static void _set_Receive(System::Diagnostics::Tracing::EventOpcode value);
   }; // System.Diagnostics.Tracing.EventOpcode
+  #pragma pack(pop)
   static check_size<sizeof(EventOpcode), 0 + sizeof(int)> __System_Diagnostics_Tracing_EventOpcodeSizeCheck;
   static_assert(sizeof(EventOpcode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventOpcode, "System.Diagnostics.Tracing", "EventOpcode");

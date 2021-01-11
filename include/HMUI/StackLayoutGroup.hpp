@@ -87,8 +87,8 @@ namespace HMUI {
     // Base method: System.Void LayoutGroup::SetLayoutVertical()
     void SetLayoutVertical();
   }; // HMUI.StackLayoutGroup
+  #pragma pack(pop)
   static check_size<sizeof(StackLayoutGroup), 89 + sizeof(bool)> __HMUI_StackLayoutGroupSizeCheck;
   static_assert(sizeof(StackLayoutGroup) == 0x5A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackLayoutGroup*, "HMUI", "StackLayoutGroup");

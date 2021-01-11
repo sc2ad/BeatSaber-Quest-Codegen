@@ -83,8 +83,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<GenericPoser*, creationType>()));
     }
   }; // RootMotion.FinalIK.GenericPoser
+  #pragma pack(pop)
   static check_size<sizeof(GenericPoser), 80 + sizeof(::Array<RootMotion::FinalIK::GenericPoser::Map*>*)> __RootMotion_FinalIK_GenericPoserSizeCheck;
   static_assert(sizeof(GenericPoser) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser*, "RootMotion.FinalIK", "GenericPoser");

@@ -77,8 +77,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SmoothCameraSmoothnessSettingsController*, creationType>()));
     }
   }; // SmoothCameraSmoothnessSettingsController
+  #pragma pack(pop)
   static check_size<sizeof(SmoothCameraSmoothnessSettingsController), 56 + sizeof(::Array<float>*)> __GlobalNamespace_SmoothCameraSmoothnessSettingsControllerSizeCheck;
   static_assert(sizeof(SmoothCameraSmoothnessSettingsController) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothCameraSmoothnessSettingsController*, "", "SmoothCameraSmoothnessSettingsController");

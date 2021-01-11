@@ -114,8 +114,8 @@ namespace System::Collections {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Collections.ListDictionaryInternal/NodeEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(ListDictionaryInternal::NodeEnumerator), 36 + sizeof(bool)> __System_Collections_ListDictionaryInternal_NodeEnumeratorSizeCheck;
   static_assert(sizeof(ListDictionaryInternal::NodeEnumerator) == 0x25);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::NodeEnumerator*, "System.Collections", "ListDictionaryInternal/NodeEnumerator");

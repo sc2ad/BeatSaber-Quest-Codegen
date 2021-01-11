@@ -44,9 +44,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.SpriteMeshType Tight
     static void _set_Tight(UnityEngine::SpriteMeshType value);
   }; // UnityEngine.SpriteMeshType
+  #pragma pack(pop)
   static check_size<sizeof(SpriteMeshType), 0 + sizeof(int)> __UnityEngine_SpriteMeshTypeSizeCheck;
   static_assert(sizeof(SpriteMeshType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SpriteMeshType, "UnityEngine", "SpriteMeshType");

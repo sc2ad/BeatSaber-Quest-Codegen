@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DisconnectPromptView::$$c__DisplayClass12_0*, creationType>()));
     }
   }; // DisconnectPromptView/<>c__DisplayClass12_0
+  #pragma pack(pop)
   static check_size<sizeof(DisconnectPromptView::$$c__DisplayClass12_0), 24 + sizeof(GlobalNamespace::DisconnectPromptView*)> __GlobalNamespace_DisconnectPromptView_$$c__DisplayClass12_0SizeCheck;
   static_assert(sizeof(DisconnectPromptView::$$c__DisplayClass12_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectPromptView::$$c__DisplayClass12_0*, "", "DisconnectPromptView/<>c__DisplayClass12_0");

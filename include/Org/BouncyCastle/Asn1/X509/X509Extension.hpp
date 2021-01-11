@@ -69,8 +69,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // Org.BouncyCastle.Asn1.X509.X509Extension
+  #pragma pack(pop)
   static check_size<sizeof(X509Extension), 24 + sizeof(Org::BouncyCastle::Asn1::Asn1OctetString*)> __Org_BouncyCastle_Asn1_X509_X509ExtensionSizeCheck;
   static_assert(sizeof(X509Extension) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::X509Extension*, "Org.BouncyCastle.Asn1.X509", "X509Extension");

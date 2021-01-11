@@ -69,9 +69,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.AdditionalCanvasShaderChannels Tangent
     static void _set_Tangent(UnityEngine::AdditionalCanvasShaderChannels value);
   }; // UnityEngine.AdditionalCanvasShaderChannels
+  #pragma pack(pop)
   static check_size<sizeof(AdditionalCanvasShaderChannels), 0 + sizeof(int)> __UnityEngine_AdditionalCanvasShaderChannelsSizeCheck;
   static_assert(sizeof(AdditionalCanvasShaderChannels) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AdditionalCanvasShaderChannels, "UnityEngine", "AdditionalCanvasShaderChannels");

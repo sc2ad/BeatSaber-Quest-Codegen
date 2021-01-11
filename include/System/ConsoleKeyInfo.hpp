@@ -78,8 +78,8 @@ namespace System {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.ConsoleKeyInfo
+  #pragma pack(pop)
   static check_size<sizeof(ConsoleKeyInfo), 8 + sizeof(System::ConsoleModifiers)> __System_ConsoleKeyInfoSizeCheck;
   static_assert(sizeof(ConsoleKeyInfo) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleKeyInfo, "System", "ConsoleKeyInfo");

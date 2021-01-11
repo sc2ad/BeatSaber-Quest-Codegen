@@ -62,9 +62,9 @@ namespace UnityEngine::Experimental::Playables {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Experimental.Playables.MaterialEffectPlayable other)
     bool Equals(UnityEngine::Experimental::Playables::MaterialEffectPlayable other);
   }; // UnityEngine.Experimental.Playables.MaterialEffectPlayable
+  #pragma pack(pop)
   static check_size<sizeof(MaterialEffectPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Experimental_Playables_MaterialEffectPlayableSizeCheck;
   static_assert(sizeof(MaterialEffectPlayable) == 0xC);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::MaterialEffectPlayable, "UnityEngine.Experimental.Playables", "MaterialEffectPlayable");

@@ -45,8 +45,8 @@ namespace UnityEngine {
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  RangeInt(int start, int length)
   }; // UnityEngine.RangeInt
+  #pragma pack(pop)
   static check_size<sizeof(RangeInt), 4 + sizeof(int)> __UnityEngine_RangeIntSizeCheck;
   static_assert(sizeof(RangeInt) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RangeInt, "UnityEngine", "RangeInt");

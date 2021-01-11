@@ -64,8 +64,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRMRAudioFilter*, creationType>()));
     }
   }; // OVRMRAudioFilter
+  #pragma pack(pop)
   static check_size<sizeof(OVRMRAudioFilter), 32 + sizeof(GlobalNamespace::OVRExternalComposition*)> __GlobalNamespace_OVRMRAudioFilterSizeCheck;
   static_assert(sizeof(OVRMRAudioFilter) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMRAudioFilter*, "", "OVRMRAudioFilter");

@@ -125,8 +125,8 @@ namespace UnityEngine::TestTools {
       return THROW_UNLESS((::il2cpp_utils::New<BeforeAfterTestCommandState*, creationType>()));
     }
   }; // UnityEngine.TestTools.BeforeAfterTestCommandState
+  #pragma pack(pop)
   static check_size<sizeof(BeforeAfterTestCommandState), 80 + sizeof(bool)> __UnityEngine_TestTools_BeforeAfterTestCommandStateSizeCheck;
   static_assert(sizeof(BeforeAfterTestCommandState) == 0x51);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::BeforeAfterTestCommandState*, "UnityEngine.TestTools", "BeforeAfterTestCommandState");

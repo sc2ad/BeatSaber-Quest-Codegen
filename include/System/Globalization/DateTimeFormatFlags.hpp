@@ -81,9 +81,9 @@ namespace System::Globalization {
     // Set static field: static public System.Globalization.DateTimeFormatFlags NotInitialized
     static void _set_NotInitialized(System::Globalization::DateTimeFormatFlags value);
   }; // System.Globalization.DateTimeFormatFlags
+  #pragma pack(pop)
   static check_size<sizeof(DateTimeFormatFlags), 0 + sizeof(int)> __System_Globalization_DateTimeFormatFlagsSizeCheck;
   static_assert(sizeof(DateTimeFormatFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatFlags, "System.Globalization", "DateTimeFormatFlags");

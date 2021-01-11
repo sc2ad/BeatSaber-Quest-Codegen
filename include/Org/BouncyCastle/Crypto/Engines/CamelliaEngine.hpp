@@ -172,8 +172,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.CamelliaEngine
+  #pragma pack(pop)
   static check_size<sizeof(CamelliaEngine), 48 + sizeof(::Array<uint>*)> __Org_BouncyCastle_Crypto_Engines_CamelliaEngineSizeCheck;
   static_assert(sizeof(CamelliaEngine) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::CamelliaEngine*, "Org.BouncyCastle.Crypto.Engines", "CamelliaEngine");

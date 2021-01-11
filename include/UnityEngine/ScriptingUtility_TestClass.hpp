@@ -35,9 +35,9 @@ namespace UnityEngine {
       return value;
     }
   }; // UnityEngine.ScriptingUtility/TestClass
+  #pragma pack(pop)
   static check_size<sizeof(ScriptingUtility::TestClass), 0 + sizeof(int)> __UnityEngine_ScriptingUtility_TestClassSizeCheck;
   static_assert(sizeof(ScriptingUtility::TestClass) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptingUtility::TestClass, "UnityEngine", "ScriptingUtility/TestClass");

@@ -126,8 +126,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Inertia::Body*, creationType>()));
     }
   }; // RootMotion.FinalIK.Inertia/Body
+  #pragma pack(pop)
   static check_size<sizeof(Inertia::Body), 96 + sizeof(bool)> __RootMotion_FinalIK_Inertia_BodySizeCheck;
   static_assert(sizeof(Inertia::Body) == 0x61);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Inertia::Body*, "RootMotion.FinalIK", "Inertia/Body");

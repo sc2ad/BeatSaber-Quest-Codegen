@@ -59,6 +59,6 @@ namespace System::Net::Security {
     // Offset: 0x11A1A48
     bool EndInvoke(System::IAsyncResult* result);
   }; // System.Net.Security.RemoteCertificateValidationCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::RemoteCertificateValidationCallback*, "System.Net.Security", "RemoteCertificateValidationCallback");

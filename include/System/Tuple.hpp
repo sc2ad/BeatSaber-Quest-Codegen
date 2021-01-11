@@ -70,6 +70,6 @@ namespace System {
     // Offset: 0x1655CB0
     static int CombineHashCodes(int h1, int h2, int h3, int h4);
   }; // System.Tuple
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Tuple*, "System", "Tuple");

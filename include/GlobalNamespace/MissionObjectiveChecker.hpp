@@ -90,6 +90,7 @@ namespace GlobalNamespace {
       // Set static field: static public MissionObjectiveChecker/Status Failed
       static void _set_Failed(GlobalNamespace::MissionObjectiveChecker::Status value);
     }; // MissionObjectiveChecker/Status
+    #pragma pack(pop)
     static check_size<sizeof(MissionObjectiveChecker::Status), 0 + sizeof(int)> __GlobalNamespace_MissionObjectiveChecker_StatusSizeCheck;
     static_assert(sizeof(MissionObjectiveChecker::Status) == 0x4);
     // private MissionObjectiveTypeSO _missionObjectiveType
@@ -196,9 +197,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjectiveChecker*, creationType>()));
     }
   }; // MissionObjectiveChecker
+  #pragma pack(pop)
   static check_size<sizeof(MissionObjectiveChecker), 64 + sizeof(bool)> __GlobalNamespace_MissionObjectiveCheckerSizeCheck;
   static_assert(sizeof(MissionObjectiveChecker) == 0x41);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker*, "", "MissionObjectiveChecker");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker::Status, "", "MissionObjectiveChecker/Status");

@@ -121,8 +121,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<UserMessageHandler::$$c__DisplayClass39_0*, creationType>()));
     }
   }; // MasterServer.UserMessageHandler/<>c__DisplayClass39_0
+  #pragma pack(pop)
   static check_size<sizeof(UserMessageHandler::$$c__DisplayClass39_0), 104 + sizeof(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)> __MasterServer_UserMessageHandler_$$c__DisplayClass39_0SizeCheck;
   static_assert(sizeof(UserMessageHandler::$$c__DisplayClass39_0) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$$c__DisplayClass39_0*, "MasterServer", "UserMessageHandler/<>c__DisplayClass39_0");

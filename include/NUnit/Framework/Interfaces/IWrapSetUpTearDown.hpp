@@ -21,7 +21,7 @@ namespace NUnit::Framework::Interfaces {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ICommandWrapper*>(this);
     }
   }; // NUnit.Framework.Interfaces.IWrapSetUpTearDown
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IWrapSetUpTearDown*, "NUnit.Framework.Interfaces", "IWrapSetUpTearDown");

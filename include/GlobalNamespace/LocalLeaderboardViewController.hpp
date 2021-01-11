@@ -207,8 +207,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // LocalLeaderboardViewController
+  #pragma pack(pop)
   static check_size<sizeof(LocalLeaderboardViewController), 201 + sizeof(bool)> __GlobalNamespace_LocalLeaderboardViewControllerSizeCheck;
   static_assert(sizeof(LocalLeaderboardViewController) == 0xCA);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardViewController*, "", "LocalLeaderboardViewController");

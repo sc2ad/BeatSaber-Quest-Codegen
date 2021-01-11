@@ -34,6 +34,6 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<UnityEngineModuleAssembly*, creationType>()));
     }
   }; // UnityEngine.UnityEngineModuleAssembly
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngineModuleAssembly*, "UnityEngine", "UnityEngineModuleAssembly");

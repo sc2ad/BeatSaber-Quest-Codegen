@@ -70,6 +70,7 @@ namespace GlobalNamespace {
       // Set static field: static public MenuEnvironmentManager/MenuEnvironmentType Lobby
       static void _set_Lobby(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType value);
     }; // MenuEnvironmentManager/MenuEnvironmentType
+    #pragma pack(pop)
     static check_size<sizeof(MenuEnvironmentManager::MenuEnvironmentType), 0 + sizeof(int)> __GlobalNamespace_MenuEnvironmentManager_MenuEnvironmentTypeSizeCheck;
     static_assert(sizeof(MenuEnvironmentManager::MenuEnvironmentType) == 0x4);
     // private MenuEnvironmentManager/MenuEnvironmentObjects[] _data
@@ -108,9 +109,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MenuEnvironmentManager*, creationType>()));
     }
   }; // MenuEnvironmentManager
+  #pragma pack(pop)
   static check_size<sizeof(MenuEnvironmentManager), 32 + sizeof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType)> __GlobalNamespace_MenuEnvironmentManagerSizeCheck;
   static_assert(sizeof(MenuEnvironmentManager) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager*, "", "MenuEnvironmentManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType, "", "MenuEnvironmentManager/MenuEnvironmentType");

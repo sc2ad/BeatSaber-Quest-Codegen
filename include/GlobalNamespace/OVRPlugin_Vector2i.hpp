@@ -37,9 +37,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVRPlugin/Vector2i
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Vector2i), 4 + sizeof(int)> __GlobalNamespace_OVRPlugin_Vector2iSizeCheck;
   static_assert(sizeof(OVRPlugin::Vector2i) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Vector2i, "", "OVRPlugin/Vector2i");

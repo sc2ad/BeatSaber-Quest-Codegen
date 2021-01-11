@@ -85,8 +85,8 @@ namespace Mono::Globalization::Unicode {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, opt, alwaysMatchFlags, neverMatchFlags, buffer1, buffer2, prev1);
     }
   }; // Mono.Globalization.Unicode.SimpleCollator/Context
+  #pragma pack(pop)
   static check_size<sizeof(SimpleCollator::Context), 48 + sizeof(uint8_t*)> __Mono_Globalization_Unicode_SimpleCollator_ContextSizeCheck;
   static_assert(sizeof(SimpleCollator::Context) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Context, "Mono.Globalization.Unicode", "SimpleCollator/Context");

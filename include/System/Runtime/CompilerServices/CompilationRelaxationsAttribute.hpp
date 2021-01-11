@@ -53,8 +53,8 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1162E54
     int get_CompilationRelaxations();
   }; // System.Runtime.CompilerServices.CompilationRelaxationsAttribute
+  #pragma pack(pop)
   static check_size<sizeof(CompilationRelaxationsAttribute), 16 + sizeof(int)> __System_Runtime_CompilerServices_CompilationRelaxationsAttributeSizeCheck;
   static_assert(sizeof(CompilationRelaxationsAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CompilationRelaxationsAttribute*, "System.Runtime.CompilerServices", "CompilationRelaxationsAttribute");

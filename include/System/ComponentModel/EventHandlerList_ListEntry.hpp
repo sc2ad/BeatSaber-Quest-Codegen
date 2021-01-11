@@ -43,9 +43,9 @@ namespace System::ComponentModel {
     // Creating value type constructor for type: ListEntry
     ListEntry(System::ComponentModel::EventHandlerList::ListEntry* next_ = {}, ::Il2CppObject* key_ = {}, System::Delegate* handler_ = {}) noexcept : next{next_}, key{key_}, handler{handler_} {}
   }; // System.ComponentModel.EventHandlerList/ListEntry
+  #pragma pack(pop)
   static check_size<sizeof(EventHandlerList::ListEntry), 32 + sizeof(System::Delegate*)> __System_ComponentModel_EventHandlerList_ListEntrySizeCheck;
   static_assert(sizeof(EventHandlerList::ListEntry) == 0x28);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EventHandlerList::ListEntry*, "System.ComponentModel", "EventHandlerList/ListEntry");

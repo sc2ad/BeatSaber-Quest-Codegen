@@ -46,9 +46,9 @@ namespace GlobalNamespace {
     // Set static field: static public ScoreUIController/ScoreDisplayType ModifiedScore
     static void _set_ModifiedScore(GlobalNamespace::ScoreUIController::ScoreDisplayType value);
   }; // ScoreUIController/ScoreDisplayType
+  #pragma pack(pop)
   static check_size<sizeof(ScoreUIController::ScoreDisplayType), 0 + sizeof(int)> __GlobalNamespace_ScoreUIController_ScoreDisplayTypeSizeCheck;
   static_assert(sizeof(ScoreUIController::ScoreDisplayType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreUIController::ScoreDisplayType, "", "ScoreUIController/ScoreDisplayType");

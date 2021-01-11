@@ -47,9 +47,9 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13DC800
     NUnit::Framework::Constraints::ConstraintOperator* Pop();
   }; // NUnit.Framework.Constraints.ConstraintBuilder/OperatorStack
+  #pragma pack(pop)
   static check_size<sizeof(ConstraintBuilder::OperatorStack), 16 + sizeof(System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>*)> __NUnit_Framework_Constraints_ConstraintBuilder_OperatorStackSizeCheck;
   static_assert(sizeof(ConstraintBuilder::OperatorStack) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack*, "NUnit.Framework.Constraints", "ConstraintBuilder/OperatorStack");

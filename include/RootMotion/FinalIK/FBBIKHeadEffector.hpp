@@ -414,8 +414,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<FBBIKHeadEffector*, creationType>()));
     }
   }; // RootMotion.FinalIK.FBBIKHeadEffector
+  #pragma pack(pop)
   static check_size<sizeof(FBBIKHeadEffector), 364 + sizeof(int)> __RootMotion_FinalIK_FBBIKHeadEffectorSizeCheck;
   static_assert(sizeof(FBBIKHeadEffector) == 0x170);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKHeadEffector*, "RootMotion.FinalIK", "FBBIKHeadEffector");

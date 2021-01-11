@@ -86,9 +86,9 @@ namespace System::Xml {
     // Set static field: static public System.Xml.ElementProperties HAS_NS
     static void _set_HAS_NS(System::Xml::ElementProperties value);
   }; // System.Xml.ElementProperties
+  #pragma pack(pop)
   static check_size<sizeof(ElementProperties), 0 + sizeof(uint)> __System_Xml_ElementPropertiesSizeCheck;
   static_assert(sizeof(ElementProperties) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::ElementProperties, "System.Xml", "ElementProperties");

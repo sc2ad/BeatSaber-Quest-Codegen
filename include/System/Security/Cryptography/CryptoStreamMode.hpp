@@ -45,9 +45,9 @@ namespace System::Security::Cryptography {
     // Set static field: static public System.Security.Cryptography.CryptoStreamMode Write
     static void _set_Write(System::Security::Cryptography::CryptoStreamMode value);
   }; // System.Security.Cryptography.CryptoStreamMode
+  #pragma pack(pop)
   static check_size<sizeof(CryptoStreamMode), 0 + sizeof(int)> __System_Security_Cryptography_CryptoStreamModeSizeCheck;
   static_assert(sizeof(CryptoStreamMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStreamMode, "System.Security.Cryptography", "CryptoStreamMode");

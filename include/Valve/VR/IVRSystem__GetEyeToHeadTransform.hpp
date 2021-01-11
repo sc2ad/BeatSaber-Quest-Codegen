@@ -57,6 +57,6 @@ namespace Valve::VR {
     // Offset: 0x192B3B0
     Valve::VR::HmdMatrix34_t EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetEyeToHeadTransform
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetEyeToHeadTransform*, "Valve.VR", "IVRSystem/_GetEyeToHeadTransform");

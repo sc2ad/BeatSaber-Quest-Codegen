@@ -187,8 +187,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActivePlayerInGameMenuController*, creationType>()));
     }
   }; // MultiplayerLocalActivePlayerInGameMenuController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActivePlayerInGameMenuController), 96 + sizeof(bool)> __GlobalNamespace_MultiplayerLocalActivePlayerInGameMenuControllerSizeCheck;
   static_assert(sizeof(MultiplayerLocalActivePlayerInGameMenuController) == 0x61);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController*, "", "MultiplayerLocalActivePlayerInGameMenuController");

@@ -192,6 +192,7 @@ namespace OVRSimpleJSON {
     // Base method: System.Void JSONNode::WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, OVRSimpleJSON.JSONTextMode aMode)
     void WriteToStringBuilder(System::Text::StringBuilder* aSB, int aIndent, int aIndentInc, OVRSimpleJSON::JSONTextMode aMode);
   }; // OVRSimpleJSON.JSONLazyCreator
+  #pragma pack(pop)
   static check_size<sizeof(JSONLazyCreator), 24 + sizeof(::Il2CppString*)> __OVRSimpleJSON_JSONLazyCreatorSizeCheck;
   static_assert(sizeof(JSONLazyCreator) == 0x20);
   // static public System.Boolean op_Equality(OVRSimpleJSON.JSONLazyCreator a, System.Object b)
@@ -201,5 +202,4 @@ namespace OVRSimpleJSON {
   // Offset: 0x12E8288
   bool operator !=(OVRSimpleJSON::JSONLazyCreator* a, ::Il2CppObject& b);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONLazyCreator*, "OVRSimpleJSON", "JSONLazyCreator");

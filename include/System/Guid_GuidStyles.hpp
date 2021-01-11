@@ -125,9 +125,9 @@ namespace System {
     // Set static field: static public System.Guid/GuidStyles Any
     static void _set_Any(System::Guid::GuidStyles value);
   }; // System.Guid/GuidStyles
+  #pragma pack(pop)
   static check_size<sizeof(Guid::GuidStyles), 0 + sizeof(int)> __System_Guid_GuidStylesSizeCheck;
   static_assert(sizeof(Guid::GuidStyles) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Guid::GuidStyles, "System", "Guid/GuidStyles");

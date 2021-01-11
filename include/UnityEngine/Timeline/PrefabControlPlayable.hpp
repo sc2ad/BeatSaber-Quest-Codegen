@@ -90,8 +90,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<PrefabControlPlayable*, creationType>()));
     }
   }; // UnityEngine.Timeline.PrefabControlPlayable
+  #pragma pack(pop)
   static check_size<sizeof(PrefabControlPlayable), 16 + sizeof(UnityEngine::GameObject*)> __UnityEngine_Timeline_PrefabControlPlayableSizeCheck;
   static_assert(sizeof(PrefabControlPlayable) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::PrefabControlPlayable*, "UnityEngine.Timeline", "PrefabControlPlayable");

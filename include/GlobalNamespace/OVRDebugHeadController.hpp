@@ -111,8 +111,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRDebugHeadController*, creationType>()));
     }
   }; // OVRDebugHeadController
+  #pragma pack(pop)
   static check_size<sizeof(OVRDebugHeadController), 48 + sizeof(GlobalNamespace::OVRCameraRig*)> __GlobalNamespace_OVRDebugHeadControllerSizeCheck;
   static_assert(sizeof(OVRDebugHeadController) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDebugHeadController*, "", "OVRDebugHeadController");

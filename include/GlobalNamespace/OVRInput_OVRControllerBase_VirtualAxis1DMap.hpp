@@ -66,8 +66,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerBase::VirtualAxis1DMap*, creationType>()));
     }
   }; // OVRInput/OVRControllerBase/VirtualAxis1DMap
+  #pragma pack(pop)
   static check_size<sizeof(OVRInput::OVRControllerBase::VirtualAxis1DMap), 32 + sizeof(GlobalNamespace::OVRInput::RawAxis1D)> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualAxis1DMapSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerBase::VirtualAxis1DMap) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap*, "", "OVRInput/OVRControllerBase/VirtualAxis1DMap");

@@ -68,6 +68,6 @@ namespace System::IO {
     // Base method: System.Void StreamWriter::Write(System.String value)
     void Write(::Il2CppString* value);
   }; // System.IO.UnexceptionalStreamWriter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::UnexceptionalStreamWriter*, "System.IO", "UnexceptionalStreamWriter");

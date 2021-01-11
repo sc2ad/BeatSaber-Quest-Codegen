@@ -52,9 +52,9 @@ namespace System::IO {
     // Set static field: static public System.IO.FileSystemWatcher/EventType RenameEvent
     static void _set_RenameEvent(System::IO::FileSystemWatcher::EventType value);
   }; // System.IO.FileSystemWatcher/EventType
+  #pragma pack(pop)
   static check_size<sizeof(FileSystemWatcher::EventType), 0 + sizeof(int)> __System_IO_FileSystemWatcher_EventTypeSizeCheck;
   static_assert(sizeof(FileSystemWatcher::EventType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemWatcher::EventType, "System.IO", "FileSystemWatcher/EventType");

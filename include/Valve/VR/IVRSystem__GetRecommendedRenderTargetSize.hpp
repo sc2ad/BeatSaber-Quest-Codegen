@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x192D7F8
     void EndInvoke(uint& pnWidth, uint& pnHeight, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetRecommendedRenderTargetSize
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetRecommendedRenderTargetSize*, "Valve.VR", "IVRSystem/_GetRecommendedRenderTargetSize");

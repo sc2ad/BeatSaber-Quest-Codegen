@@ -49,8 +49,8 @@ namespace Mono::Net {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, loc, len);
     }
   }; // Mono.Net.CFRange
+  #pragma pack(pop)
   static check_size<sizeof(CFRange), 8 + sizeof(System::IntPtr)> __Mono_Net_CFRangeSizeCheck;
   static_assert(sizeof(CFRange) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFRange, "Mono.Net", "CFRange");

@@ -143,7 +143,7 @@ namespace UnityEngine {
     // Offset: 0x160A348
     static void Internal_MoveWindow_Injected(int windowID, UnityEngine::Rect& r);
   }; // UnityEngine.GUILayoutUtility
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutUtility*, "UnityEngine", "GUILayoutUtility");

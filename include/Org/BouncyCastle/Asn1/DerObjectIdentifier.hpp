@@ -139,8 +139,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.DerObjectIdentifier
+  #pragma pack(pop)
   static check_size<sizeof(DerObjectIdentifier), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Asn1_DerObjectIdentifierSizeCheck;
   static_assert(sizeof(DerObjectIdentifier) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerObjectIdentifier*, "Org.BouncyCastle.Asn1", "DerObjectIdentifier");

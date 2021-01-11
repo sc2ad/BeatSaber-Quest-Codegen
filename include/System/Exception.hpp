@@ -288,8 +288,8 @@ namespace System {
     // Base method: System.Type Object::GetType()
     System::Type* GetType();
   }; // System.Exception
+  #pragma pack(pop)
   static check_size<sizeof(Exception), 128 + sizeof(::Array<System::IntPtr>*)> __System_ExceptionSizeCheck;
   static_assert(sizeof(Exception) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Exception*, "System", "Exception");

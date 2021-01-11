@@ -54,8 +54,8 @@ namespace NUnit::Framework::Internal {
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();
   }; // NUnit.Framework.Internal.ParameterizedFixtureSuite
+  #pragma pack(pop)
   static check_size<sizeof(ParameterizedFixtureSuite), 137 + sizeof(bool)> __NUnit_Framework_Internal_ParameterizedFixtureSuiteSizeCheck;
   static_assert(sizeof(ParameterizedFixtureSuite) == 0x8A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ParameterizedFixtureSuite*, "NUnit.Framework.Internal", "ParameterizedFixtureSuite");

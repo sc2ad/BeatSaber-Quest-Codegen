@@ -175,8 +175,8 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
   }; // System.Runtime.Remoting.Messaging.LogicalCallContext
+  #pragma pack(pop)
   static check_size<sizeof(LogicalCallContext), 64 + sizeof(::Array<System::Runtime::Remoting::Messaging::Header*>*)> __System_Runtime_Remoting_Messaging_LogicalCallContextSizeCheck;
   static_assert(sizeof(LogicalCallContext) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::LogicalCallContext*, "System.Runtime.Remoting.Messaging", "LogicalCallContext");

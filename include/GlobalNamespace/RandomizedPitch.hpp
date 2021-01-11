@@ -111,8 +111,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RandomizedPitch*, creationType>()));
     }
   }; // RandomizedPitch
+  #pragma pack(pop)
   static check_size<sizeof(RandomizedPitch), 48 + sizeof(UnityEngine::Coroutine*)> __GlobalNamespace_RandomizedPitchSizeCheck;
   static_assert(sizeof(RandomizedPitch) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomizedPitch*, "", "RandomizedPitch");

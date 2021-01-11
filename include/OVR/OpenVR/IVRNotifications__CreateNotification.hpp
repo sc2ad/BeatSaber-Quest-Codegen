@@ -61,6 +61,6 @@ namespace OVR::OpenVR {
     // Offset: 0x18679F8
     OVR::OpenVR::EVRNotificationError EndInvoke(OVR::OpenVR::NotificationBitmap_t& pImage, uint& pNotificationId, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRNotifications/_CreateNotification
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRNotifications::_CreateNotification*, "OVR.OpenVR", "IVRNotifications/_CreateNotification");

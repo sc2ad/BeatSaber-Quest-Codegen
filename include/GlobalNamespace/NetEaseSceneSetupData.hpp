@@ -49,8 +49,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetEaseSceneSetupData*, creationType>(nextScenesTransitionSetupData)));
     }
   }; // NetEaseSceneSetupData
+  #pragma pack(pop)
   static check_size<sizeof(NetEaseSceneSetupData), 16 + sizeof(GlobalNamespace::ScenesTransitionSetupDataSO*)> __GlobalNamespace_NetEaseSceneSetupDataSizeCheck;
   static_assert(sizeof(NetEaseSceneSetupData) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseSceneSetupData*, "", "NetEaseSceneSetupData");

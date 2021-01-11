@@ -181,8 +181,8 @@ namespace Microsoft::Win32 {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Microsoft.Win32.KeyHandler
+  #pragma pack(pop)
   static check_size<sizeof(KeyHandler), 56 + sizeof(bool)> __Microsoft_Win32_KeyHandlerSizeCheck;
   static_assert(sizeof(KeyHandler) == 0x39);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::KeyHandler*, "Microsoft.Win32", "KeyHandler");

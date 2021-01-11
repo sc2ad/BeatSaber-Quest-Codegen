@@ -45,8 +45,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ScrollView::$$c__DisplayClass42_1*, creationType>()));
     }
   }; // HMUI.ScrollView/<>c__DisplayClass42_1
+  #pragma pack(pop)
   static check_size<sizeof(ScrollView::$$c__DisplayClass42_1), 16 + sizeof(float)> __HMUI_ScrollView_$$c__DisplayClass42_1SizeCheck;
   static_assert(sizeof(ScrollView::$$c__DisplayClass42_1) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::$$c__DisplayClass42_1*, "HMUI", "ScrollView/<>c__DisplayClass42_1");

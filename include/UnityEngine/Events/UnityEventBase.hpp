@@ -131,8 +131,8 @@ namespace UnityEngine::Events {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Events.UnityEventBase
+  #pragma pack(pop)
   static check_size<sizeof(UnityEventBase), 32 + sizeof(bool)> __UnityEngine_Events_UnityEventBaseSizeCheck;
   static_assert(sizeof(UnityEventBase) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEventBase*, "UnityEngine.Events", "UnityEventBase");

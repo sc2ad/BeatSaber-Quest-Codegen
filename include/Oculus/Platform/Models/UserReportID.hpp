@@ -43,8 +43,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<UserReportID*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.UserReportID
+  #pragma pack(pop)
   static check_size<sizeof(UserReportID), 24 + sizeof(uint64_t)> __Oculus_Platform_Models_UserReportIDSizeCheck;
   static_assert(sizeof(UserReportID) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::UserReportID*, "Oculus.Platform.Models", "UserReportID");

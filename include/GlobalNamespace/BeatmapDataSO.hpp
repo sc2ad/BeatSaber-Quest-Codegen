@@ -105,8 +105,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataSO*, creationType>()));
     }
   }; // BeatmapDataSO
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapDataSO), 56 + sizeof(GlobalNamespace::BeatmapDataLoader*)> __GlobalNamespace_BeatmapDataSOSizeCheck;
   static_assert(sizeof(BeatmapDataSO) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataSO*, "", "BeatmapDataSO");

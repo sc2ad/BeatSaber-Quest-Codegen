@@ -102,8 +102,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<MonoKernel*, creationType>()));
     }
   }; // Zenject.MonoKernel
+  #pragma pack(pop)
   static check_size<sizeof(MonoKernel), 49 + sizeof(bool)> __Zenject_MonoKernelSizeCheck;
   static_assert(sizeof(MonoKernel) == 0x32);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoKernel*, "Zenject", "MonoKernel");

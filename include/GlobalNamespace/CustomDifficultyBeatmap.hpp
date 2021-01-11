@@ -123,8 +123,8 @@ namespace GlobalNamespace {
     // Base method: BeatmapData IDifficultyBeatmap::get_beatmapData()
     GlobalNamespace::BeatmapData* get_beatmapData();
   }; // CustomDifficultyBeatmap
+  #pragma pack(pop)
   static check_size<sizeof(CustomDifficultyBeatmap), 48 + sizeof(GlobalNamespace::BeatmapData*)> __GlobalNamespace_CustomDifficultyBeatmapSizeCheck;
   static_assert(sizeof(CustomDifficultyBeatmap) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomDifficultyBeatmap*, "", "CustomDifficultyBeatmap");

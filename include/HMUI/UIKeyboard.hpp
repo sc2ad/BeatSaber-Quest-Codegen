@@ -135,8 +135,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboard*, creationType>()));
     }
   }; // HMUI.UIKeyboard
+  #pragma pack(pop)
   static check_size<sizeof(UIKeyboard), 64 + sizeof(HMUI::InputFieldView*)> __HMUI_UIKeyboardSizeCheck;
   static_assert(sizeof(UIKeyboard) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::UIKeyboard*, "HMUI", "UIKeyboard");

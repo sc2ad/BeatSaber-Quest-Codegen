@@ -83,8 +83,8 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<TaskCanceledException*, creationType>(info, context)));
     }
   }; // System.Threading.Tasks.TaskCanceledException
+  #pragma pack(pop)
   static check_size<sizeof(TaskCanceledException), 144 + sizeof(System::Threading::Tasks::Task*)> __System_Threading_Tasks_TaskCanceledExceptionSizeCheck;
   static_assert(sizeof(TaskCanceledException) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskCanceledException*, "System.Threading.Tasks", "TaskCanceledException");

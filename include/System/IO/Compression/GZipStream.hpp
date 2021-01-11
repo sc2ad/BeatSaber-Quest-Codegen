@@ -182,8 +182,8 @@ namespace System::IO::Compression {
     // Base method: System.Threading.Tasks.Task Stream::CopyToAsync(System.IO.Stream destination, System.Int32 bufferSize, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task* CopyToAsync(System::IO::Stream* destination, int bufferSize, System::Threading::CancellationToken cancellationToken);
   }; // System.IO.Compression.GZipStream
+  #pragma pack(pop)
   static check_size<sizeof(GZipStream), 40 + sizeof(System::IO::Compression::DeflateStream*)> __System_IO_Compression_GZipStreamSizeCheck;
   static_assert(sizeof(GZipStream) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::GZipStream*, "System.IO.Compression", "GZipStream");

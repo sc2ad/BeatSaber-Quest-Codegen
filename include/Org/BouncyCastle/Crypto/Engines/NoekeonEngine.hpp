@@ -103,8 +103,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.NoekeonEngine
+  #pragma pack(pop)
   static check_size<sizeof(NoekeonEngine), 25 + sizeof(bool)> __Org_BouncyCastle_Crypto_Engines_NoekeonEngineSizeCheck;
   static_assert(sizeof(NoekeonEngine) == 0x1A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::NoekeonEngine*, "Org.BouncyCastle.Crypto.Engines", "NoekeonEngine");

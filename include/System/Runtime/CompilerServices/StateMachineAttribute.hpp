@@ -51,8 +51,8 @@ namespace System::Runtime::CompilerServices {
       return THROW_UNLESS((::il2cpp_utils::New<StateMachineAttribute*, creationType>(stateMachineType)));
     }
   }; // System.Runtime.CompilerServices.StateMachineAttribute
+  #pragma pack(pop)
   static check_size<sizeof(StateMachineAttribute), 16 + sizeof(System::Type*)> __System_Runtime_CompilerServices_StateMachineAttributeSizeCheck;
   static_assert(sizeof(StateMachineAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::StateMachineAttribute*, "System.Runtime.CompilerServices", "StateMachineAttribute");

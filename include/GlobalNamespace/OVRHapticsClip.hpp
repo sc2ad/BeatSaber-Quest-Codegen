@@ -112,8 +112,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>()));
     }
   }; // OVRHapticsClip
+  #pragma pack(pop)
   static check_size<sizeof(OVRHapticsClip), 24 + sizeof(::Array<uint8_t>*)> __GlobalNamespace_OVRHapticsClipSizeCheck;
   static_assert(sizeof(OVRHapticsClip) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHapticsClip*, "", "OVRHapticsClip");

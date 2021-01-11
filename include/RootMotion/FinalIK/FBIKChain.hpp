@@ -82,6 +82,7 @@ namespace RootMotion::FinalIK {
       // Set static field: static public RootMotion.FinalIK.FBIKChain/Smoothing Cubic
       static void _set_Cubic(RootMotion::FinalIK::FBIKChain::Smoothing value);
     }; // RootMotion.FinalIK.FBIKChain/Smoothing
+    #pragma pack(pop)
     static check_size<sizeof(FBIKChain::Smoothing), 0 + sizeof(int)> __RootMotion_FinalIK_FBIKChain_SmoothingSizeCheck;
     static_assert(sizeof(FBIKChain::Smoothing) == 0x4);
     // [RangeAttribute] Offset: 0xDB6B9C
@@ -321,9 +322,9 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<FBIKChain*, creationType>()));
     }
   }; // RootMotion.FinalIK.FBIKChain
+  #pragma pack(pop)
   static check_size<sizeof(FBIKChain), 128 + sizeof(float)> __RootMotion_FinalIK_FBIKChainSizeCheck;
   static_assert(sizeof(FBIKChain) == 0x84);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain*, "RootMotion.FinalIK", "FBIKChain");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain::Smoothing, "RootMotion.FinalIK", "FBIKChain/Smoothing");

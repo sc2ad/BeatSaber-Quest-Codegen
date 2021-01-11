@@ -93,8 +93,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberClashChecker*, creationType>()));
     }
   }; // SaberClashChecker
+  #pragma pack(pop)
   static check_size<sizeof(SaberClashChecker), 48 + sizeof(int)> __GlobalNamespace_SaberClashCheckerSizeCheck;
   static_assert(sizeof(SaberClashChecker) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberClashChecker*, "", "SaberClashChecker");

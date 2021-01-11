@@ -339,8 +339,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SubMeshUI*, creationType>()));
     }
   }; // TMPro.TMP_SubMeshUI
+  #pragma pack(pop)
   static check_size<sizeof(TMP_SubMeshUI), 276 + sizeof(int)> __TMPro_TMP_SubMeshUISizeCheck;
   static_assert(sizeof(TMP_SubMeshUI) == 0x118);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SubMeshUI*, "TMPro", "TMP_SubMeshUI");

@@ -91,6 +91,6 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<ProBuilderMesh::$$c*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.ProBuilderMesh/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::$$c*, "UnityEngine.ProBuilder", "ProBuilderMesh/<>c");

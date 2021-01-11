@@ -76,9 +76,9 @@ namespace UnityEngine::Rendering {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.Rendering.LODParameters
+  #pragma pack(pop)
   static check_size<sizeof(LODParameters), 24 + sizeof(int)> __UnityEngine_Rendering_LODParametersSizeCheck;
   static_assert(sizeof(LODParameters) == 0x1C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::LODParameters, "UnityEngine.Rendering", "LODParameters");

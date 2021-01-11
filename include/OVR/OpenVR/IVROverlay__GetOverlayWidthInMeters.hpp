@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x18706A8
     OVR::OpenVR::EVROverlayError EndInvoke(float& pfWidthInMeters, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayWidthInMeters
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayWidthInMeters*, "OVR.OpenVR", "IVROverlay/_GetOverlayWidthInMeters");

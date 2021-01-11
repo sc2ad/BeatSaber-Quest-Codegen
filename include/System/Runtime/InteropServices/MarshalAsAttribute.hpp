@@ -97,9 +97,9 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1165BF8
     System::Runtime::InteropServices::MarshalAsAttribute* Copy();
   }; // System.Runtime.InteropServices.MarshalAsAttribute
+  #pragma pack(pop)
   static check_size<sizeof(MarshalAsAttribute), 68 + sizeof(int16_t)> __System_Runtime_InteropServices_MarshalAsAttributeSizeCheck;
   static_assert(sizeof(MarshalAsAttribute) == 0x46);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::MarshalAsAttribute*, "System.Runtime.InteropServices", "MarshalAsAttribute");

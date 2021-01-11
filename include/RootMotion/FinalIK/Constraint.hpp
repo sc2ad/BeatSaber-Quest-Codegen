@@ -54,8 +54,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Constraint*, creationType>()));
     }
   }; // RootMotion.FinalIK.Constraint
+  #pragma pack(pop)
   static check_size<sizeof(Constraint), 24 + sizeof(float)> __RootMotion_FinalIK_ConstraintSizeCheck;
   static_assert(sizeof(Constraint) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Constraint*, "RootMotion.FinalIK", "Constraint");

@@ -60,8 +60,8 @@ namespace OVR::OpenVR {
     // Offset: 0xC9386C
     void Unpack(OVR::OpenVR::RenderModel_TextureMap_t& unpacked);
   }; // OVR.OpenVR.RenderModel_TextureMap_t_Packed
+  #pragma pack(pop)
   static check_size<sizeof(RenderModel_TextureMap_t_Packed), 4 + sizeof(System::IntPtr)> __OVR_OpenVR_RenderModel_TextureMap_t_PackedSizeCheck;
   static_assert(sizeof(RenderModel_TextureMap_t_Packed) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_TextureMap_t_Packed, "OVR.OpenVR", "RenderModel_TextureMap_t_Packed");

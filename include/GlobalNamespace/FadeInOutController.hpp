@@ -137,8 +137,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FadeInOutController*, creationType>()));
     }
   }; // FadeInOutController
+  #pragma pack(pop)
   static check_size<sizeof(FadeInOutController), 64 + sizeof(UnityEngine::Coroutine*)> __GlobalNamespace_FadeInOutControllerSizeCheck;
   static_assert(sizeof(FadeInOutController) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOutController*, "", "FadeInOutController");

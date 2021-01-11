@@ -47,8 +47,8 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EEBE0
     void set_Name(::Il2CppString* value);
   }; // JetBrains.Annotations.ValueProviderAttribute
+  #pragma pack(pop)
   static check_size<sizeof(ValueProviderAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_ValueProviderAttributeSizeCheck;
   static_assert(sizeof(ValueProviderAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::ValueProviderAttribute*, "JetBrains.Annotations", "ValueProviderAttribute");

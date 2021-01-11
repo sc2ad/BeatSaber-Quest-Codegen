@@ -116,8 +116,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // CommandBufferBlurryScreenGrab
+  #pragma pack(pop)
   static check_size<sizeof(CommandBufferBlurryScreenGrab), 56 + sizeof(int)> __GlobalNamespace_CommandBufferBlurryScreenGrabSizeCheck;
   static_assert(sizeof(CommandBufferBlurryScreenGrab) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferBlurryScreenGrab*, "", "CommandBufferBlurryScreenGrab");

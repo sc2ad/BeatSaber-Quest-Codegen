@@ -49,8 +49,8 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
       return THROW_UNLESS((::il2cpp_utils::New<Ed448::PointExt*, creationType>()));
     }
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed448/PointExt
+  #pragma pack(pop)
   static check_size<sizeof(Ed448::PointExt), 32 + sizeof(::Array<uint>*)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed448_PointExtSizeCheck;
   static_assert(sizeof(Ed448::PointExt) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed448/PointExt");

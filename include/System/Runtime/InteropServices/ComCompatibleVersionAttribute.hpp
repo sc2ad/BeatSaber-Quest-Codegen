@@ -55,8 +55,8 @@ namespace System::Runtime::InteropServices {
       return THROW_UNLESS((::il2cpp_utils::New<ComCompatibleVersionAttribute*, creationType>(major, minor, build, revision)));
     }
   }; // System.Runtime.InteropServices.ComCompatibleVersionAttribute
+  #pragma pack(pop)
   static check_size<sizeof(ComCompatibleVersionAttribute), 28 + sizeof(int)> __System_Runtime_InteropServices_ComCompatibleVersionAttributeSizeCheck;
   static_assert(sizeof(ComCompatibleVersionAttribute) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComCompatibleVersionAttribute*, "System.Runtime.InteropServices", "ComCompatibleVersionAttribute");

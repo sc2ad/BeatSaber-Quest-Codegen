@@ -77,6 +77,7 @@ namespace UnityEngine {
       // Offset: 0xCA6504
       void Invoke();
     }; // UnityEngine.UnitySynchronizationContext/WorkRequest
+    #pragma pack(pop)
     static check_size<sizeof(UnitySynchronizationContext::WorkRequest), 16 + sizeof(System::Threading::ManualResetEvent*)> __UnityEngine_UnitySynchronizationContext_WorkRequestSizeCheck;
     static_assert(sizeof(UnitySynchronizationContext::WorkRequest) == 0x18);
     // private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/WorkRequest> m_AsyncWorkQueue
@@ -162,9 +163,9 @@ namespace UnityEngine {
     // Base method: System.Threading.SynchronizationContext SynchronizationContext::CreateCopy()
     System::Threading::SynchronizationContext* CreateCopy();
   }; // UnityEngine.UnitySynchronizationContext
+  #pragma pack(pop)
   static check_size<sizeof(UnitySynchronizationContext), 44 + sizeof(int)> __UnityEngine_UnitySynchronizationContextSizeCheck;
   static_assert(sizeof(UnitySynchronizationContext) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext*, "UnityEngine", "UnitySynchronizationContext");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext::WorkRequest, "UnityEngine", "UnitySynchronizationContext/WorkRequest");

@@ -76,8 +76,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TriggerChecker*, creationType>()));
     }
   }; // TriggerChecker
+  #pragma pack(pop)
   static check_size<sizeof(TriggerChecker), 40 + sizeof(System::Action*)> __GlobalNamespace_TriggerCheckerSizeCheck;
   static_assert(sizeof(TriggerChecker) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TriggerChecker*, "", "TriggerChecker");

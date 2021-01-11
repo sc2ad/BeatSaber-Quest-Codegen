@@ -283,8 +283,8 @@ namespace System::Collections {
     // Maps to method: set_Item
     void System_Collections_IDictionary_set_Item(::Il2CppObject* key, ::Il2CppObject* value);
   }; // System.Collections.SortedList
+  #pragma pack(pop)
   static check_size<sizeof(SortedList), 64 + sizeof(::Il2CppObject*)> __System_Collections_SortedListSizeCheck;
   static_assert(sizeof(SortedList) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList*, "System.Collections", "SortedList");

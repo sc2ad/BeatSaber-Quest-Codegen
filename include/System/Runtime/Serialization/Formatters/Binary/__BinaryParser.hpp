@@ -377,8 +377,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x130402C
     static void _cctor();
   }; // System.Runtime.Serialization.Formatters.Binary.__BinaryParser
+  #pragma pack(pop)
   static check_size<sizeof(__BinaryParser), 192 + sizeof(System::Runtime::Serialization::Formatters::Binary::ObjectNull*)> __System_Runtime_Serialization_Formatters_Binary___BinaryParserSizeCheck;
   static_assert(sizeof(__BinaryParser) == 0xC8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::__BinaryParser*, "System.Runtime.Serialization.Formatters.Binary", "__BinaryParser");

@@ -77,8 +77,8 @@ namespace System::Security::Cryptography {
     // Base method: System.Void SymmetricAlgorithm::set_KeySize(System.Int32 value)
     void set_KeySize(int value);
   }; // System.Security.Cryptography.RC2
+  #pragma pack(pop)
   static check_size<sizeof(RC2), 68 + sizeof(int)> __System_Security_Cryptography_RC2SizeCheck;
   static_assert(sizeof(RC2) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RC2*, "System.Security.Cryptography", "RC2");

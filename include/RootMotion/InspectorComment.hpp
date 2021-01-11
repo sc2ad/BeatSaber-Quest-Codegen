@@ -48,8 +48,8 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<InspectorComment*, creationType>(name, color)));
     }
   }; // RootMotion.InspectorComment
+  #pragma pack(pop)
   static check_size<sizeof(InspectorComment), 24 + sizeof(::Il2CppString*)> __RootMotion_InspectorCommentSizeCheck;
   static_assert(sizeof(InspectorComment) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::InspectorComment*, "RootMotion", "InspectorComment");

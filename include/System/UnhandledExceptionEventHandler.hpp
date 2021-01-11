@@ -50,6 +50,6 @@ namespace System {
     // Offset: 0x165F2C0
     void EndInvoke(System::IAsyncResult* result);
   }; // System.UnhandledExceptionEventHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::UnhandledExceptionEventHandler*, "System", "UnhandledExceptionEventHandler");

@@ -155,8 +155,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<FaceInfo_Legacy*, creationType>()));
     }
   }; // TMPro.FaceInfo_Legacy
+  #pragma pack(pop)
   static check_size<sizeof(FaceInfo_Legacy), 100 + sizeof(float)> __TMPro_FaceInfo_LegacySizeCheck;
   static_assert(sizeof(FaceInfo_Legacy) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FaceInfo_Legacy*, "TMPro", "FaceInfo_Legacy");

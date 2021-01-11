@@ -76,8 +76,8 @@ namespace System::Collections {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.ListDictionaryInternal/NodeKeyValueCollection
+  #pragma pack(pop)
   static check_size<sizeof(ListDictionaryInternal::NodeKeyValueCollection), 24 + sizeof(bool)> __System_Collections_ListDictionaryInternal_NodeKeyValueCollectionSizeCheck;
   static_assert(sizeof(ListDictionaryInternal::NodeKeyValueCollection) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::NodeKeyValueCollection*, "System.Collections", "ListDictionaryInternal/NodeKeyValueCollection");

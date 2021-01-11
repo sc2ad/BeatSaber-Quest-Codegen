@@ -58,9 +58,9 @@ namespace System {
     // Set static field: static public System.Version/ParseFailureKind FormatException
     static void _set_FormatException(System::Version::ParseFailureKind value);
   }; // System.Version/ParseFailureKind
+  #pragma pack(pop)
   static check_size<sizeof(Version::ParseFailureKind), 0 + sizeof(int)> __System_Version_ParseFailureKindSizeCheck;
   static_assert(sizeof(Version::ParseFailureKind) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Version::ParseFailureKind, "System", "Version/ParseFailureKind");

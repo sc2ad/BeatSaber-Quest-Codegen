@@ -152,8 +152,8 @@ namespace OVR::OpenVR {
     // Offset: 0x11EFA48
     uint GetCurrentSceneProcessId();
   }; // OVR.OpenVR.CVRApplications
+  #pragma pack(pop)
   static check_size<sizeof(CVRApplications), 16 + sizeof(OVR::OpenVR::IVRApplications)> __OVR_OpenVR_CVRApplicationsSizeCheck;
   static_assert(sizeof(CVRApplications) == 0x108);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRApplications*, "OVR.OpenVR", "CVRApplications");

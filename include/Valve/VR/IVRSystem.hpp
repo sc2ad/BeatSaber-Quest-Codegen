@@ -403,9 +403,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.IVRSystem
+  #pragma pack(pop)
   static check_size<sizeof(IVRSystem), 368 + sizeof(Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt*)> __Valve_VR_IVRSystemSizeCheck;
   static_assert(sizeof(IVRSystem) == 0x178);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem, "Valve.VR", "IVRSystem");

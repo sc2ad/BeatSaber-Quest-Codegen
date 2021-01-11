@@ -74,8 +74,8 @@ namespace UnityEngine::Scripting {
       return THROW_UNLESS((::il2cpp_utils::New<RequiredByNativeCodeAttribute*, creationType>()));
     }
   }; // UnityEngine.Scripting.RequiredByNativeCodeAttribute
+  #pragma pack(pop)
   static check_size<sizeof(RequiredByNativeCodeAttribute), 25 + sizeof(bool)> __UnityEngine_Scripting_RequiredByNativeCodeAttributeSizeCheck;
   static_assert(sizeof(RequiredByNativeCodeAttribute) == 0x1A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::RequiredByNativeCodeAttribute*, "UnityEngine.Scripting", "RequiredByNativeCodeAttribute");

@@ -39,8 +39,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<AbuseReportRecording*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.AbuseReportRecording
+  #pragma pack(pop)
   static check_size<sizeof(AbuseReportRecording), 16 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_AbuseReportRecordingSizeCheck;
   static_assert(sizeof(AbuseReportRecording) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AbuseReportRecording*, "Oculus.Platform.Models", "AbuseReportRecording");

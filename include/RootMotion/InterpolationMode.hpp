@@ -194,9 +194,9 @@ namespace RootMotion {
     // Set static field: static public RootMotion.InterpolationMode BackInQuartic
     static void _set_BackInQuartic(RootMotion::InterpolationMode value);
   }; // RootMotion.InterpolationMode
+  #pragma pack(pop)
   static check_size<sizeof(InterpolationMode), 0 + sizeof(int)> __RootMotion_InterpolationModeSizeCheck;
   static_assert(sizeof(InterpolationMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::InterpolationMode, "RootMotion", "InterpolationMode");

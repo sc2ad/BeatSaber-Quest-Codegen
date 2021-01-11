@@ -80,8 +80,8 @@ namespace System::Text {
     // Base method: System.Boolean DecoderNLS::get_HasState()
     bool get_HasState();
   }; // System.Text.UTF7Encoding/Decoder
+  #pragma pack(pop)
   static check_size<sizeof(UTF7Encoding::Decoder), 56 + sizeof(bool)> __System_Text_UTF7Encoding_DecoderSizeCheck;
   static_assert(sizeof(UTF7Encoding::Decoder) == 0x39);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF7Encoding::Decoder*, "System.Text", "UTF7Encoding/Decoder");

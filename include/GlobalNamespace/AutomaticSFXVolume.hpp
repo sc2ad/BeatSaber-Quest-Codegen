@@ -135,8 +135,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AutomaticSFXVolume*, creationType>()));
     }
   }; // AutomaticSFXVolume
+  #pragma pack(pop)
   static check_size<sizeof(AutomaticSFXVolume), 72 + sizeof(float)> __GlobalNamespace_AutomaticSFXVolumeSizeCheck;
   static_assert(sizeof(AutomaticSFXVolume) == 0x4C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolume*, "", "AutomaticSFXVolume");

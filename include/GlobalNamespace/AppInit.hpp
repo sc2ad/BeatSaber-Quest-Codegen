@@ -111,8 +111,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AppInit*, creationType>()));
     }
   }; // AppInit
+  #pragma pack(pop)
   static check_size<sizeof(AppInit), 48 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_AppInitSizeCheck;
   static_assert(sizeof(AppInit) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInit*, "", "AppInit");

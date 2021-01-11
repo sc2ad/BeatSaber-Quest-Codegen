@@ -54,8 +54,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
       return THROW_UNLESS((::il2cpp_utils::New<UnityLogCheckDelegatingCommand::$$c__DisplayClass2_0*, creationType>()));
     }
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/<>c__DisplayClass2_0
+  #pragma pack(pop)
   static check_size<sizeof(UnityLogCheckDelegatingCommand::$$c__DisplayClass2_0), 24 + sizeof(NUnit::Framework::Internal::ITestExecutionContext*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityLogCheckDelegatingCommand_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(UnityLogCheckDelegatingCommand::$$c__DisplayClass2_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass2_0*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityLogCheckDelegatingCommand/<>c__DisplayClass2_0");

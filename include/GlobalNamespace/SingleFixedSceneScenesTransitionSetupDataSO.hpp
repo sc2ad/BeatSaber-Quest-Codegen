@@ -56,8 +56,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SingleFixedSceneScenesTransitionSetupDataSO*, creationType>()));
     }
   }; // SingleFixedSceneScenesTransitionSetupDataSO
+  #pragma pack(pop)
   static check_size<sizeof(SingleFixedSceneScenesTransitionSetupDataSO), 40 + sizeof(GlobalNamespace::SceneInfo*)> __GlobalNamespace_SingleFixedSceneScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(SingleFixedSceneScenesTransitionSetupDataSO) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO*, "", "SingleFixedSceneScenesTransitionSetupDataSO");

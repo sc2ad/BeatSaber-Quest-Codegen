@@ -162,8 +162,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboard*, creationType>()));
     }
   }; // UIKeyboard
+  #pragma pack(pop)
   static check_size<sizeof(UIKeyboard), 81 + sizeof(bool)> __GlobalNamespace_UIKeyboardSizeCheck;
   static_assert(sizeof(UIKeyboard) == 0x52);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboard*, "", "UIKeyboard");

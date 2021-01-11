@@ -184,8 +184,8 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: System.Int32 ECFieldElement::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.EC.F2mFieldElement
+  #pragma pack(pop)
   static check_size<sizeof(F2mFieldElement), 32 + sizeof(Org::BouncyCastle::Math::EC::LongArray*)> __Org_BouncyCastle_Math_EC_F2mFieldElementSizeCheck;
   static_assert(sizeof(F2mFieldElement) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::F2mFieldElement*, "Org.BouncyCastle.Math.EC", "F2mFieldElement");

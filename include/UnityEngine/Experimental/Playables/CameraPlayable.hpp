@@ -62,9 +62,9 @@ namespace UnityEngine::Experimental::Playables {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Experimental.Playables.CameraPlayable other)
     bool Equals(UnityEngine::Experimental::Playables::CameraPlayable other);
   }; // UnityEngine.Experimental.Playables.CameraPlayable
+  #pragma pack(pop)
   static check_size<sizeof(CameraPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Experimental_Playables_CameraPlayableSizeCheck;
   static_assert(sizeof(CameraPlayable) == 0xC);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::CameraPlayable, "UnityEngine.Experimental.Playables", "CameraPlayable");

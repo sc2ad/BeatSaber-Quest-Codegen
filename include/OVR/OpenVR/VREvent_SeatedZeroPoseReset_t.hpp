@@ -32,9 +32,9 @@ namespace OVR::OpenVR {
       return bResetBySystemMenu;
     }
   }; // OVR.OpenVR.VREvent_SeatedZeroPoseReset_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_SeatedZeroPoseReset_t), 0 + sizeof(bool)> __OVR_OpenVR_VREvent_SeatedZeroPoseReset_tSizeCheck;
   static_assert(sizeof(VREvent_SeatedZeroPoseReset_t) == 0x1);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_SeatedZeroPoseReset_t, "OVR.OpenVR", "VREvent_SeatedZeroPoseReset_t");

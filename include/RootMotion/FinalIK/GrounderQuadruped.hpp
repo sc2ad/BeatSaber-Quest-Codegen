@@ -88,6 +88,7 @@ namespace RootMotion::FinalIK {
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solver, transform);
       }
     }; // RootMotion.FinalIK.GrounderQuadruped/Foot
+    #pragma pack(pop)
     static check_size<sizeof(GrounderQuadruped::Foot), 32 + sizeof(RootMotion::FinalIK::Grounding::Leg*)> __RootMotion_FinalIK_GrounderQuadruped_FootSizeCheck;
     static_assert(sizeof(GrounderQuadruped::Foot) == 0x28);
     // [TooltipAttribute] Offset: 0xDB5BFC
@@ -365,9 +366,9 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<GrounderQuadruped*, creationType>()));
     }
   }; // RootMotion.FinalIK.GrounderQuadruped
+  #pragma pack(pop)
   static check_size<sizeof(GrounderQuadruped), 312 + sizeof(UnityEngine::Rigidbody*)> __RootMotion_FinalIK_GrounderQuadrupedSizeCheck;
   static_assert(sizeof(GrounderQuadruped) == 0x140);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderQuadruped*, "RootMotion.FinalIK", "GrounderQuadruped");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderQuadruped::Foot, "RootMotion.FinalIK", "GrounderQuadruped/Foot");

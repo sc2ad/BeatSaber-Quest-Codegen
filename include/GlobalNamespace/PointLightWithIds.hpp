@@ -61,8 +61,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PointLightWithIds*, creationType>()));
     }
   }; // PointLightWithIds
+  #pragma pack(pop)
   static check_size<sizeof(PointLightWithIds), 56 + sizeof(GlobalNamespace::PointLight*)> __GlobalNamespace_PointLightWithIdsSizeCheck;
   static_assert(sizeof(PointLightWithIds) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PointLightWithIds*, "", "PointLightWithIds");

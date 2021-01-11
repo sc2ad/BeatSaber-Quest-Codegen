@@ -74,7 +74,7 @@ namespace Org::BouncyCastle::Asn1::Oiw {
     // Offset: 0x13F886C
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Oiw.OiwObjectIdentifiers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers*, "Org.BouncyCastle.Asn1.Oiw", "OiwObjectIdentifiers");

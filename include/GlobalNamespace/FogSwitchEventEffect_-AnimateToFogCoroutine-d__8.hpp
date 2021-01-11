@@ -114,8 +114,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // FogSwitchEventEffect/<AnimateToFogCoroutine>d__8
+  #pragma pack(pop)
   static check_size<sizeof(FogSwitchEventEffect::$AnimateToFogCoroutine$d__8), 56 + sizeof(float)> __GlobalNamespace_FogSwitchEventEffect_$AnimateToFogCoroutine$d__8SizeCheck;
   static_assert(sizeof(FogSwitchEventEffect::$AnimateToFogCoroutine$d__8) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FogSwitchEventEffect::$AnimateToFogCoroutine$d__8*, "", "FogSwitchEventEffect/<AnimateToFogCoroutine>d__8");

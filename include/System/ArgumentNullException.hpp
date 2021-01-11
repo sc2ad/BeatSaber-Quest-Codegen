@@ -73,6 +73,6 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentNullException*, creationType>(info, context)));
     }
   }; // System.ArgumentNullException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ArgumentNullException*, "System", "ArgumentNullException");

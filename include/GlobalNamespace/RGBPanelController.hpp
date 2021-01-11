@@ -112,8 +112,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RGBPanelController*, creationType>()));
     }
   }; // RGBPanelController
+  #pragma pack(pop)
   static check_size<sizeof(RGBPanelController), 56 + sizeof(UnityEngine::Color)> __GlobalNamespace_RGBPanelControllerSizeCheck;
   static_assert(sizeof(RGBPanelController) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RGBPanelController*, "", "RGBPanelController");

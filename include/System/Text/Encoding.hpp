@@ -369,8 +369,8 @@ namespace System::Text {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Text.Encoding
+  #pragma pack(pop)
   static check_size<sizeof(Encoding), 48 + sizeof(System::Text::DecoderFallback*)> __System_Text_EncodingSizeCheck;
   static_assert(sizeof(Encoding) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding*, "System.Text", "Encoding");

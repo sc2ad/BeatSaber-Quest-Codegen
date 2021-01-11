@@ -21,7 +21,7 @@ namespace Unity {
     // Offset: 0x19E34DC
     static void ThrowNotSupportedException();
   }; // Unity.ThrowStub
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::ThrowStub*, "Unity", "ThrowStub");

@@ -122,8 +122,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StepValuePicker*, creationType>()));
     }
   }; // StepValuePicker
+  #pragma pack(pop)
   static check_size<sizeof(StepValuePicker), 56 + sizeof(System::Action*)> __GlobalNamespace_StepValuePickerSizeCheck;
   static_assert(sizeof(StepValuePicker) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StepValuePicker*, "", "StepValuePicker");

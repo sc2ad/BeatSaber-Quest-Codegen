@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18F944C
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetKeyboardPositionForOverlay
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_SetKeyboardPositionForOverlay*, "Valve.VR", "IVROverlay/_SetKeyboardPositionForOverlay");

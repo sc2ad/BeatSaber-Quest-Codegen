@@ -78,7 +78,7 @@ namespace LiteNetLib {
     // Offset: 0x1DD15B8
     static void _cctor();
   }; // LiteNetLib.NetUtils
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetUtils*, "LiteNetLib", "NetUtils");

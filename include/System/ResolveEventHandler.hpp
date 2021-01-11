@@ -55,6 +55,6 @@ namespace System {
     // Offset: 0x15D286C
     System::Reflection::Assembly* EndInvoke(System::IAsyncResult* result);
   }; // System.ResolveEventHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ResolveEventHandler*, "System", "ResolveEventHandler");

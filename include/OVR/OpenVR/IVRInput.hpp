@@ -171,9 +171,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.IVRInput
+  #pragma pack(pop)
   static check_size<sizeof(IVRInput), 136 + sizeof(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*)> __OVR_OpenVR_IVRInputSizeCheck;
   static_assert(sizeof(IVRInput) == 0x90);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput, "OVR.OpenVR", "IVRInput");

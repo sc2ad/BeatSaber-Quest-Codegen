@@ -63,8 +63,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintRotation*, creationType>()));
     }
   }; // RootMotion.FinalIK.ConstraintRotation
+  #pragma pack(pop)
   static check_size<sizeof(ConstraintRotation), 28 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_ConstraintRotationSizeCheck;
   static_assert(sizeof(ConstraintRotation) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintRotation*, "RootMotion.FinalIK", "ConstraintRotation");

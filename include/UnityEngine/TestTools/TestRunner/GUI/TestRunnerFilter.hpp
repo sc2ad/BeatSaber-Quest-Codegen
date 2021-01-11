@@ -87,8 +87,8 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
       return THROW_UNLESS((::il2cpp_utils::New<TestRunnerFilter*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.GUI.TestRunnerFilter
+  #pragma pack(pop)
   static check_size<sizeof(TestRunnerFilter), 52 + sizeof(bool)> __UnityEngine_TestTools_TestRunner_GUI_TestRunnerFilterSizeCheck;
   static_assert(sizeof(TestRunnerFilter) == 0x35);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::TestRunnerFilter*, "UnityEngine.TestTools.TestRunner.GUI", "TestRunnerFilter");

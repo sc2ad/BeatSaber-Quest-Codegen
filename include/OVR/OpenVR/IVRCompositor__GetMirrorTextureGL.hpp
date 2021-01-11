@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x185C5CC
     OVR::OpenVR::EVRCompositorError EndInvoke(uint& pglTextureId, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_GetMirrorTextureGL
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_GetMirrorTextureGL*, "OVR.OpenVR", "IVRCompositor/_GetMirrorTextureGL");

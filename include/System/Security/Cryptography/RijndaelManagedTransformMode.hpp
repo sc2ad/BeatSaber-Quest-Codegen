@@ -44,9 +44,9 @@ namespace System::Security::Cryptography {
     // Set static field: static public System.Security.Cryptography.RijndaelManagedTransformMode Decrypt
     static void _set_Decrypt(System::Security::Cryptography::RijndaelManagedTransformMode value);
   }; // System.Security.Cryptography.RijndaelManagedTransformMode
+  #pragma pack(pop)
   static check_size<sizeof(RijndaelManagedTransformMode), 0 + sizeof(int)> __System_Security_Cryptography_RijndaelManagedTransformModeSizeCheck;
   static_assert(sizeof(RijndaelManagedTransformMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RijndaelManagedTransformMode, "System.Security.Cryptography", "RijndaelManagedTransformMode");

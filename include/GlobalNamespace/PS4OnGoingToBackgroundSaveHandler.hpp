@@ -76,8 +76,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4OnGoingToBackgroundSaveHandler*, creationType>()));
     }
   }; // PS4OnGoingToBackgroundSaveHandler
+  #pragma pack(pop)
   static check_size<sizeof(PS4OnGoingToBackgroundSaveHandler), 40 + sizeof(GlobalNamespace::PlayerDataModel*)> __GlobalNamespace_PS4OnGoingToBackgroundSaveHandlerSizeCheck;
   static_assert(sizeof(PS4OnGoingToBackgroundSaveHandler) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4OnGoingToBackgroundSaveHandler*, "", "PS4OnGoingToBackgroundSaveHandler");

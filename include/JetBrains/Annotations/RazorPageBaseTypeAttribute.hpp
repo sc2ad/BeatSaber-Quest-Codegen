@@ -63,8 +63,8 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EEA38
     void set_PageName(::Il2CppString* value);
   }; // JetBrains.Annotations.RazorPageBaseTypeAttribute
+  #pragma pack(pop)
   static check_size<sizeof(RazorPageBaseTypeAttribute), 24 + sizeof(::Il2CppString*)> __JetBrains_Annotations_RazorPageBaseTypeAttributeSizeCheck;
   static_assert(sizeof(RazorPageBaseTypeAttribute) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorPageBaseTypeAttribute*, "JetBrains.Annotations", "RazorPageBaseTypeAttribute");

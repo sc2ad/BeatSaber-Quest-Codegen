@@ -84,6 +84,6 @@ namespace System::Runtime::Serialization {
     // Base method: System.Void Exception::.cctor()
     static void _cctor();
   }; // System.Runtime.Serialization.SerializationException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationException*, "System.Runtime.Serialization", "SerializationException");

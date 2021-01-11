@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x192CE9C
     void EndInvoke(float& pfLeft, float& pfRight, float& pfTop, float& pfBottom, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetProjectionRaw
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetProjectionRaw*, "Valve.VR", "IVRSystem/_GetProjectionRaw");

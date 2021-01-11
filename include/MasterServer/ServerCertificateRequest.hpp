@@ -108,8 +108,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertificateRequest*, creationType>()));
     }
   }; // MasterServer.ServerCertificateRequest
+  #pragma pack(pop)
   static check_size<sizeof(ServerCertificateRequest), 32 + sizeof(int)> __MasterServer_ServerCertificateRequestSizeCheck;
   static_assert(sizeof(ServerCertificateRequest) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ServerCertificateRequest*, "MasterServer", "ServerCertificateRequest");

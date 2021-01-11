@@ -75,8 +75,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjectiveTypeSO*, creationType>()));
     }
   }; // MissionObjectiveTypeSO
+  #pragma pack(pop)
   static check_size<sizeof(MissionObjectiveTypeSO), 40 + sizeof(GlobalNamespace::ObjectiveValueFormatterSO*)> __GlobalNamespace_MissionObjectiveTypeSOSizeCheck;
   static_assert(sizeof(MissionObjectiveTypeSO) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveTypeSO*, "", "MissionObjectiveTypeSO");

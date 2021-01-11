@@ -154,8 +154,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<IconSegmentedControl*, creationType>()));
     }
   }; // HMUI.IconSegmentedControl
+  #pragma pack(pop)
   static check_size<sizeof(IconSegmentedControl), 152 + sizeof(bool)> __HMUI_IconSegmentedControlSizeCheck;
   static_assert(sizeof(IconSegmentedControl) == 0x99);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControl*, "HMUI", "IconSegmentedControl");

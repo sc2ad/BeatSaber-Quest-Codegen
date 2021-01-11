@@ -104,9 +104,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRCompositorError InvalidBounds
     static void _set_InvalidBounds(Valve::VR::EVRCompositorError value);
   }; // Valve.VR.EVRCompositorError
+  #pragma pack(pop)
   static check_size<sizeof(EVRCompositorError), 0 + sizeof(int)> __Valve_VR_EVRCompositorErrorSizeCheck;
   static_assert(sizeof(EVRCompositorError) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRCompositorError, "Valve.VR", "EVRCompositorError");

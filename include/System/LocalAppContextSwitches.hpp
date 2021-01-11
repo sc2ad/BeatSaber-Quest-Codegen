@@ -20,7 +20,7 @@ namespace System {
     // Set static field: static public readonly System.Boolean DontThrowOnInvalidSurrogatePairs
     static void _set_DontThrowOnInvalidSurrogatePairs(bool value);
   }; // System.LocalAppContextSwitches
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::LocalAppContextSwitches*, "System", "LocalAppContextSwitches");

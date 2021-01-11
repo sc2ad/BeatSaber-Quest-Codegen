@@ -53,8 +53,8 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EventProvider::$$c__DisplayClass44_0*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.EventProvider/<>c__DisplayClass44_0
+  #pragma pack(pop)
   static check_size<sizeof(EventProvider::$$c__DisplayClass44_0), 16 + sizeof(System::Collections::Generic::List_1<System::Diagnostics::Tracing::EventProvider::SessionInfo>*)> __System_Diagnostics_Tracing_EventProvider_$$c__DisplayClass44_0SizeCheck;
   static_assert(sizeof(EventProvider::$$c__DisplayClass44_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventProvider::$$c__DisplayClass44_0*, "System.Diagnostics.Tracing", "EventProvider/<>c__DisplayClass44_0");

@@ -50,9 +50,9 @@ namespace System::Net::Security {
     // Set static field: static public System.Net.Security.AuthenticationLevel MutualAuthRequired
     static void _set_MutualAuthRequired(System::Net::Security::AuthenticationLevel value);
   }; // System.Net.Security.AuthenticationLevel
+  #pragma pack(pop)
   static check_size<sizeof(AuthenticationLevel), 0 + sizeof(int)> __System_Net_Security_AuthenticationLevelSizeCheck;
   static_assert(sizeof(AuthenticationLevel) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::AuthenticationLevel, "System.Net.Security", "AuthenticationLevel");

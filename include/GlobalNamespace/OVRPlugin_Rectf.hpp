@@ -41,9 +41,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVRPlugin/Rectf
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Rectf), 8 + sizeof(GlobalNamespace::OVRPlugin::Sizef)> __GlobalNamespace_OVRPlugin_RectfSizeCheck;
   static_assert(sizeof(OVRPlugin::Rectf) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Rectf, "", "OVRPlugin/Rectf");

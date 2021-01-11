@@ -46,6 +46,7 @@ namespace Mono {
         return FixedElementField;
       }
     }; // Mono.MonoAssemblyName/<public_key_token>e__FixedBuffer
+    #pragma pack(pop)
     static check_size<sizeof(MonoAssemblyName::$public_key_token$e__FixedBuffer), 0 + sizeof(uint8_t)> __Mono_MonoAssemblyName_$public_key_token$e__FixedBufferSizeCheck;
     static_assert(sizeof(MonoAssemblyName::$public_key_token$e__FixedBuffer) == 0x1);
     // System.IntPtr name
@@ -136,10 +137,10 @@ namespace Mono {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Mono.MonoAssemblyName
+  #pragma pack(pop)
   static check_size<sizeof(MonoAssemblyName), 72 + sizeof(uint16_t)> __Mono_MonoAssemblyNameSizeCheck;
   static_assert(sizeof(MonoAssemblyName) == 0x4A);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::MonoAssemblyName, "Mono", "MonoAssemblyName");
 DEFINE_IL2CPP_ARG_TYPE(Mono::MonoAssemblyName::$public_key_token$e__FixedBuffer, "Mono", "MonoAssemblyName/<public_key_token>e__FixedBuffer");

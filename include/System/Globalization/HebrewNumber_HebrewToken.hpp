@@ -100,9 +100,9 @@ namespace System::Globalization {
     // Set static field: static public System.Globalization.HebrewNumber/HebrewToken DoubleQuote
     static void _set_DoubleQuote(System::Globalization::HebrewNumber::HebrewToken value);
   }; // System.Globalization.HebrewNumber/HebrewToken
+  #pragma pack(pop)
   static check_size<sizeof(HebrewNumber::HebrewToken), 0 + sizeof(int)> __System_Globalization_HebrewNumber_HebrewTokenSizeCheck;
   static_assert(sizeof(HebrewNumber::HebrewToken) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber::HebrewToken, "System.Globalization", "HebrewNumber/HebrewToken");

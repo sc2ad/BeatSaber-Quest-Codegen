@@ -98,8 +98,8 @@ namespace System::Net {
     // Offset: 0x12BD8A8
     static System::Net::KnownHttpVerb* Parse(::Il2CppString* name);
   }; // System.Net.KnownHttpVerb
+  #pragma pack(pop)
   static check_size<sizeof(KnownHttpVerb), 27 + sizeof(bool)> __System_Net_KnownHttpVerbSizeCheck;
   static_assert(sizeof(KnownHttpVerb) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::KnownHttpVerb*, "System.Net", "KnownHttpVerb");

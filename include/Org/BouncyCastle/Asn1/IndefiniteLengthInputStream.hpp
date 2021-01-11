@@ -68,8 +68,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();
   }; // Org.BouncyCastle.Asn1.IndefiniteLengthInputStream
+  #pragma pack(pop)
   static check_size<sizeof(IndefiniteLengthInputStream), 64 + sizeof(bool)> __Org_BouncyCastle_Asn1_IndefiniteLengthInputStreamSizeCheck;
   static_assert(sizeof(IndefiniteLengthInputStream) == 0x41);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IndefiniteLengthInputStream*, "Org.BouncyCastle.Asn1", "IndefiniteLengthInputStream");

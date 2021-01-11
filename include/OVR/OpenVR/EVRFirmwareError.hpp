@@ -50,9 +50,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRFirmwareError Fail
     static void _set_Fail(OVR::OpenVR::EVRFirmwareError value);
   }; // OVR.OpenVR.EVRFirmwareError
+  #pragma pack(pop)
   static check_size<sizeof(EVRFirmwareError), 0 + sizeof(int)> __OVR_OpenVR_EVRFirmwareErrorSizeCheck;
   static_assert(sizeof(EVRFirmwareError) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRFirmwareError, "OVR.OpenVR", "EVRFirmwareError");

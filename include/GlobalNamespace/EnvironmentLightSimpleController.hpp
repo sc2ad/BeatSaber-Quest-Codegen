@@ -70,8 +70,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentLightSimpleController*, creationType>()));
     }
   }; // EnvironmentLightSimpleController
+  #pragma pack(pop)
   static check_size<sizeof(EnvironmentLightSimpleController), 48 + sizeof(GlobalNamespace::LightWithIdManager*)> __GlobalNamespace_EnvironmentLightSimpleControllerSizeCheck;
   static_assert(sizeof(EnvironmentLightSimpleController) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentLightSimpleController*, "", "EnvironmentLightSimpleController");

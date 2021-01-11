@@ -192,8 +192,8 @@ namespace UnityEngine::UI {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // UnityEngine.UI.VertexHelper
+  #pragma pack(pop)
   static check_size<sizeof(VertexHelper), 88 + sizeof(bool)> __UnityEngine_UI_VertexHelperSizeCheck;
   static_assert(sizeof(VertexHelper) == 0x59);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::VertexHelper*, "UnityEngine.UI", "VertexHelper");

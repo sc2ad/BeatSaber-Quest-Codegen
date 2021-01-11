@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x192A618
     int EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetD3D9AdapterIndex
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetD3D9AdapterIndex*, "Valve.VR", "IVRSystem/_GetD3D9AdapterIndex");

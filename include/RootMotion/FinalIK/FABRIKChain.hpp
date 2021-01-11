@@ -82,8 +82,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<FABRIKChain*, creationType>()));
     }
   }; // RootMotion.FinalIK.FABRIKChain
+  #pragma pack(pop)
   static check_size<sizeof(FABRIKChain), 32 + sizeof(::Array<int>*)> __RootMotion_FinalIK_FABRIKChainSizeCheck;
   static_assert(sizeof(FABRIKChain) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIKChain*, "RootMotion.FinalIK", "FABRIKChain");

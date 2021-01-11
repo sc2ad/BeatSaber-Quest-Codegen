@@ -431,8 +431,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsModelSO*, creationType>()));
     }
   }; // MainSettingsModelSO
+  #pragma pack(pop)
   static check_size<sizeof(MainSettingsModelSO), 331 + sizeof(bool)> __GlobalNamespace_MainSettingsModelSOSizeCheck;
   static_assert(sizeof(MainSettingsModelSO) == 0x14C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsModelSO*, "", "MainSettingsModelSO");

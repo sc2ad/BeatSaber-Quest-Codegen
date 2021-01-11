@@ -297,8 +297,8 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<InternalThread*, creationType>()));
     }
   }; // System.Threading.InternalThread
+  #pragma pack(pop)
   static check_size<sizeof(InternalThread), 280 + sizeof(System::IntPtr)> __System_Threading_InternalThreadSizeCheck;
   static_assert(sizeof(InternalThread) == 0x120);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::InternalThread*, "System.Threading", "InternalThread");

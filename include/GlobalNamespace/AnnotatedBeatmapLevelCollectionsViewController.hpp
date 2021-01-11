@@ -138,8 +138,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AnnotatedBeatmapLevelCollectionsViewController*, creationType>()));
     }
   }; // AnnotatedBeatmapLevelCollectionsViewController
+  #pragma pack(pop)
   static check_size<sizeof(AnnotatedBeatmapLevelCollectionsViewController), 152 + sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*)> __GlobalNamespace_AnnotatedBeatmapLevelCollectionsViewControllerSizeCheck;
   static_assert(sizeof(AnnotatedBeatmapLevelCollectionsViewController) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*, "", "AnnotatedBeatmapLevelCollectionsViewController");

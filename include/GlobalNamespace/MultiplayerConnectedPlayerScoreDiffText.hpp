@@ -98,6 +98,7 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerConnectedPlayerScoreDiffText/State AnimatingHide
       static void _set_AnimatingHide(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State value);
     }; // MultiplayerConnectedPlayerScoreDiffText/State
+    #pragma pack(pop)
     static check_size<sizeof(MultiplayerConnectedPlayerScoreDiffText::State), 0 + sizeof(int)> __GlobalNamespace_MultiplayerConnectedPlayerScoreDiffText_StateSizeCheck;
     static_assert(sizeof(MultiplayerConnectedPlayerScoreDiffText::State) == 0x4);
     // private UnityEngine.Color _activeTextColor
@@ -217,9 +218,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerScoreDiffText*, creationType>()));
     }
   }; // MultiplayerConnectedPlayerScoreDiffText
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerScoreDiffText), 136 + sizeof(Tweening::FloatTween*)> __GlobalNamespace_MultiplayerConnectedPlayerScoreDiffTextSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerScoreDiffText) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*, "", "MultiplayerConnectedPlayerScoreDiffText");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State, "", "MultiplayerConnectedPlayerScoreDiffText/State");

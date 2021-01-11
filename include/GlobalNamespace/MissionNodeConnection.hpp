@@ -141,8 +141,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionNodeConnection*, creationType>()));
     }
   }; // MissionNodeConnection
+  #pragma pack(pop)
   static check_size<sizeof(MissionNodeConnection), 88 + sizeof(bool)> __GlobalNamespace_MissionNodeConnectionSizeCheck;
   static_assert(sizeof(MissionNodeConnection) == 0x59);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeConnection*, "", "MissionNodeConnection");

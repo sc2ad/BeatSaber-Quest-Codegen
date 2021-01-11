@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x106351C
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_TriggerHapticPulse
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_TriggerHapticPulse*, "OVR.OpenVR", "IVRSystem/_TriggerHapticPulse");

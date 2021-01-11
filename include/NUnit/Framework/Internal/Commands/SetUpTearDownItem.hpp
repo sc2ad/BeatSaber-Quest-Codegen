@@ -78,8 +78,8 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x13EF56C
     ::Il2CppObject* RunNonAsyncMethod(System::Reflection::MethodInfo* method, NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Internal.Commands.SetUpTearDownItem
+  #pragma pack(pop)
   static check_size<sizeof(SetUpTearDownItem), 32 + sizeof(bool)> __NUnit_Framework_Internal_Commands_SetUpTearDownItemSizeCheck;
   static_assert(sizeof(SetUpTearDownItem) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::SetUpTearDownItem*, "NUnit.Framework.Internal.Commands", "SetUpTearDownItem");

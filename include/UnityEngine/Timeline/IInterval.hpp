@@ -22,7 +22,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0xFFFFFFFF
     int64_t get_intervalEnd();
   }; // UnityEngine.Timeline.IInterval
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IInterval*, "UnityEngine.Timeline", "IInterval");

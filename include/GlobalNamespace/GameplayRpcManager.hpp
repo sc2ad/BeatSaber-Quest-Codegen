@@ -181,6 +181,7 @@ namespace GlobalNamespace {
       // Set static field: static public GameplayRpcManager/RpcType EndLevelEarly
       static void _set_EndLevelEarly(GlobalNamespace::GameplayRpcManager::RpcType value);
     }; // GameplayRpcManager/RpcType
+    #pragma pack(pop)
     static check_size<sizeof(GameplayRpcManager::RpcType), 0 + sizeof(uint8_t)> __GlobalNamespace_GameplayRpcManager_RpcTypeSizeCheck;
     static_assert(sizeof(GameplayRpcManager::RpcType) == 0x1);
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
@@ -536,9 +537,9 @@ namespace GlobalNamespace {
     // Base method: System.Void IGameplayRpcManager::EndLevelEarly()
     void EndLevelEarly();
   }; // GameplayRpcManager
+  #pragma pack(pop)
   static check_size<sizeof(GameplayRpcManager), 120 + sizeof(System::Action_1<::Il2CppString*>*)> __GlobalNamespace_GameplayRpcManagerSizeCheck;
   static_assert(sizeof(GameplayRpcManager) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager*, "", "GameplayRpcManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::RpcType, "", "GameplayRpcManager/RpcType");

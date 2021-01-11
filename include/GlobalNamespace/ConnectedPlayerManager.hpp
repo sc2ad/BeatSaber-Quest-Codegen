@@ -181,6 +181,7 @@ namespace GlobalNamespace {
       // Set static field: static public ConnectedPlayerManager/InternalMessageType KickPlayer
       static void _set_KickPlayer(GlobalNamespace::ConnectedPlayerManager::InternalMessageType value);
     }; // ConnectedPlayerManager/InternalMessageType
+    #pragma pack(pop)
     static check_size<sizeof(ConnectedPlayerManager::InternalMessageType), 0 + sizeof(uint8_t)> __GlobalNamespace_ConnectedPlayerManager_InternalMessageTypeSizeCheck;
     static_assert(sizeof(ConnectedPlayerManager::InternalMessageType) == 0x1);
     // [CompilerGeneratedAttribute] Offset: 0xDA9DF4
@@ -666,9 +667,9 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // ConnectedPlayerManager
+  #pragma pack(pop)
   static check_size<sizeof(ConnectedPlayerManager), 296 + sizeof(GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::ConnectedPlayerManager::InternalMessageType, GlobalNamespace::IConnectedPlayer*>*)> __GlobalNamespace_ConnectedPlayerManagerSizeCheck;
   static_assert(sizeof(ConnectedPlayerManager) == 0x130);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager*, "", "ConnectedPlayerManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::InternalMessageType, "", "ConnectedPlayerManager/InternalMessageType");

@@ -40,8 +40,8 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1446648
     ::Il2CppString* get_TypeName();
   }; // System.Runtime.Serialization.TypeLoadExceptionHolder
+  #pragma pack(pop)
   static check_size<sizeof(TypeLoadExceptionHolder), 16 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_TypeLoadExceptionHolderSizeCheck;
   static_assert(sizeof(TypeLoadExceptionHolder) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::TypeLoadExceptionHolder*, "System.Runtime.Serialization", "TypeLoadExceptionHolder");

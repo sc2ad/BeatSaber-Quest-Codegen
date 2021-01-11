@@ -245,9 +245,9 @@ namespace System {
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.Byte
+  #pragma pack(pop)
   static check_size<sizeof(Byte), 0 + sizeof(uint8_t)> __System_ByteSizeCheck;
   static_assert(sizeof(Byte) == 0x1);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Byte, "System", "Byte");

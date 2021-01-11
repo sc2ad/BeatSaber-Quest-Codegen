@@ -49,6 +49,6 @@ namespace GlobalNamespace {
     // Offset: 0x1A28680
     void EndInvoke(System::IAsyncResult* result);
   }; // BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/DidFinishCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback*, "", "BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/DidFinishCallback");

@@ -73,8 +73,8 @@ namespace Mono {
     // Offset: 0xCA0D50
     int GetConstraintsCount();
   }; // Mono.RuntimeGenericParamInfoHandle
+  #pragma pack(pop)
   static check_size<sizeof(RuntimeGenericParamInfoHandle), 0 + sizeof(Mono::RuntimeStructs::GenericParamInfo*)> __Mono_RuntimeGenericParamInfoHandleSizeCheck;
   static_assert(sizeof(RuntimeGenericParamInfoHandle) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGenericParamInfoHandle, "Mono", "RuntimeGenericParamInfoHandle");

@@ -150,8 +150,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerCenterTextAnimator*, creationType>()));
     }
   }; // MultiplayerCenterTextAnimator
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerCenterTextAnimator), 80 + sizeof(Tweening::Tween_1<UnityEngine::Vector3>*)> __GlobalNamespace_MultiplayerCenterTextAnimatorSizeCheck;
   static_assert(sizeof(MultiplayerCenterTextAnimator) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerCenterTextAnimator*, "", "MultiplayerCenterTextAnimator");

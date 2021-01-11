@@ -79,8 +79,8 @@ namespace System::Text {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Text.EncoderReplacementFallback
+  #pragma pack(pop)
   static check_size<sizeof(EncoderReplacementFallback), 24 + sizeof(::Il2CppString*)> __System_Text_EncoderReplacementFallbackSizeCheck;
   static_assert(sizeof(EncoderReplacementFallback) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderReplacementFallback*, "System.Text", "EncoderReplacementFallback");

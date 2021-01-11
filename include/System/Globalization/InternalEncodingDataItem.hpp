@@ -38,9 +38,9 @@ namespace System::Globalization {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Globalization.InternalEncodingDataItem
+  #pragma pack(pop)
   static check_size<sizeof(InternalEncodingDataItem), 8 + sizeof(uint16_t)> __System_Globalization_InternalEncodingDataItemSizeCheck;
   static_assert(sizeof(InternalEncodingDataItem) == 0xA);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::InternalEncodingDataItem, "System.Globalization", "InternalEncodingDataItem");

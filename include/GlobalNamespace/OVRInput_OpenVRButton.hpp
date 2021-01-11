@@ -59,9 +59,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRInput/OpenVRButton Grip
     static void _set_Grip(GlobalNamespace::OVRInput::OpenVRButton value);
   }; // OVRInput/OpenVRButton
+  #pragma pack(pop)
   static check_size<sizeof(OVRInput::OpenVRButton), 0 + sizeof(uint64_t)> __GlobalNamespace_OVRInput_OpenVRButtonSizeCheck;
   static_assert(sizeof(OVRInput::OpenVRButton) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRButton, "", "OVRInput/OpenVRButton");

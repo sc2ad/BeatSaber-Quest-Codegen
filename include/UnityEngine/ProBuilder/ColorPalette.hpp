@@ -101,8 +101,8 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<ColorPalette*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.ColorPalette
+  #pragma pack(pop)
   static check_size<sizeof(ColorPalette), 40 + sizeof(System::Collections::Generic::List_1<UnityEngine::Color>*)> __UnityEngine_ProBuilder_ColorPaletteSizeCheck;
   static_assert(sizeof(ColorPalette) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ColorPalette*, "UnityEngine.ProBuilder", "ColorPalette");

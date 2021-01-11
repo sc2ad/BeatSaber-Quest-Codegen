@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1907B60
     OVR::OpenVR::EVRRenderModelError EndInvoke(System::IntPtr& ppD3D11Texture2D, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_LoadTextureD3D11_Async
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async*, "OVR.OpenVR", "IVRRenderModels/_LoadTextureD3D11_Async");

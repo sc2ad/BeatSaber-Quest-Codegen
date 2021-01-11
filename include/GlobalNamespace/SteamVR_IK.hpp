@@ -116,8 +116,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_IK*, creationType>()));
     }
   }; // SteamVR_IK
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_IK), 96 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_SteamVR_IKSizeCheck;
   static_assert(sizeof(SteamVR_IK) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_IK*, "", "SteamVR_IK");

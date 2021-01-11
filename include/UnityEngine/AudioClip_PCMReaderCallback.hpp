@@ -49,6 +49,6 @@ namespace UnityEngine {
     // Offset: 0x19EC5E8
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AudioClip/PCMReaderCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioClip::PCMReaderCallback*, "UnityEngine", "AudioClip/PCMReaderCallback");

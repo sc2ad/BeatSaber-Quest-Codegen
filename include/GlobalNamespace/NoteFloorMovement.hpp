@@ -161,8 +161,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteFloorMovement*, creationType>()));
     }
   }; // NoteFloorMovement
+  #pragma pack(pop)
   static check_size<sizeof(NoteFloorMovement), 120 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_NoteFloorMovementSizeCheck;
   static_assert(sizeof(NoteFloorMovement) == 0x84);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteFloorMovement*, "", "NoteFloorMovement");

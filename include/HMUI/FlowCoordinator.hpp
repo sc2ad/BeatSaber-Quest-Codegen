@@ -357,8 +357,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<FlowCoordinator*, creationType>()));
     }
   }; // HMUI.FlowCoordinator
+  #pragma pack(pop)
   static check_size<sizeof(FlowCoordinator), 160 + sizeof(UnityEngine::EventSystems::EventSystem*)> __HMUI_FlowCoordinatorSizeCheck;
   static_assert(sizeof(FlowCoordinator) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::FlowCoordinator*, "HMUI", "FlowCoordinator");

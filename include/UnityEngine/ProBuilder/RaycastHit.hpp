@@ -53,8 +53,8 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<RaycastHit*, creationType>(distance, point, normal, face)));
     }
   }; // UnityEngine.ProBuilder.RaycastHit
+  #pragma pack(pop)
   static check_size<sizeof(RaycastHit), 44 + sizeof(int)> __UnityEngine_ProBuilder_RaycastHitSizeCheck;
   static_assert(sizeof(RaycastHit) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::RaycastHit*, "UnityEngine.ProBuilder", "RaycastHit");

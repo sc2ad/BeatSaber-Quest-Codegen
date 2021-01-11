@@ -46,7 +46,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x19574E0
     static NUnit::Framework::Internal::Logger* GetLogger(System::Type* type);
   }; // NUnit.Framework.Internal.InternalTrace
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InternalTrace*, "NUnit.Framework.Internal", "InternalTrace");

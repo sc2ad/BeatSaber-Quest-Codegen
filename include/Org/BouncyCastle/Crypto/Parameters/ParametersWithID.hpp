@@ -41,9 +41,9 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1048E08
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithID
+  #pragma pack(pop)
   static check_size<sizeof(ParametersWithID), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Parameters_ParametersWithIDSizeCheck;
   static_assert(sizeof(ParametersWithID) == 0x20);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ParametersWithID*, "Org.BouncyCastle.Crypto.Parameters", "ParametersWithID");

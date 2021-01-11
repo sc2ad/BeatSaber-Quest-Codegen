@@ -104,8 +104,8 @@ namespace UnityEngine::Playables {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Playables.Playable other)
     bool Equals(UnityEngine::Playables::Playable other);
   }; // UnityEngine.Playables.Playable
+  #pragma pack(pop)
   static check_size<sizeof(Playable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Playables_PlayableSizeCheck;
   static_assert(sizeof(Playable) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::Playable, "UnityEngine.Playables", "Playable");

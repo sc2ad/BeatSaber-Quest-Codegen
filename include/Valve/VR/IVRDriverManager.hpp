@@ -43,9 +43,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.IVRDriverManager
+  #pragma pack(pop)
   static check_size<sizeof(IVRDriverManager), 8 + sizeof(Valve::VR::IVRDriverManager::_GetDriverName*)> __Valve_VR_IVRDriverManagerSizeCheck;
   static_assert(sizeof(IVRDriverManager) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRDriverManager, "Valve.VR", "IVRDriverManager");

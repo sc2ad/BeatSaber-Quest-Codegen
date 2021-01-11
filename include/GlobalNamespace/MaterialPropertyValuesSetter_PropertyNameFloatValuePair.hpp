@@ -44,8 +44,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyValuesSetter::PropertyNameFloatValuePair*, creationType>()));
     }
   }; // MaterialPropertyValuesSetter/PropertyNameFloatValuePair
+  #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyValuesSetter::PropertyNameFloatValuePair), 28 + sizeof(float)> __GlobalNamespace_MaterialPropertyValuesSetter_PropertyNameFloatValuePairSizeCheck;
   static_assert(sizeof(MaterialPropertyValuesSetter::PropertyNameFloatValuePair) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*, "", "MaterialPropertyValuesSetter/PropertyNameFloatValuePair");

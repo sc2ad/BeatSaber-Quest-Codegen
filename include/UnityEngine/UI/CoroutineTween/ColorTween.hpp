@@ -79,6 +79,7 @@ namespace UnityEngine::UI::CoroutineTween {
       // Set static field: static public UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenMode Alpha
       static void _set_Alpha(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode value);
     }; // UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenMode
+    #pragma pack(pop)
     static check_size<sizeof(ColorTween::ColorTweenMode), 0 + sizeof(int)> __UnityEngine_UI_CoroutineTween_ColorTween_ColorTweenModeSizeCheck;
     static_assert(sizeof(ColorTween::ColorTweenMode) == 0x4);
     // private UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenCallback m_Target
@@ -181,10 +182,10 @@ namespace UnityEngine::UI::CoroutineTween {
     // Base method: System.Boolean ITweenValue::ValidTarget()
     bool ValidTarget();
   }; // UnityEngine.UI.CoroutineTween.ColorTween
+  #pragma pack(pop)
   static check_size<sizeof(ColorTween), 48 + sizeof(bool)> __UnityEngine_UI_CoroutineTween_ColorTweenSizeCheck;
   static_assert(sizeof(ColorTween) == 0x31);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ColorTween, "UnityEngine.UI.CoroutineTween", "ColorTween");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode, "UnityEngine.UI.CoroutineTween", "ColorTween/ColorTweenMode");

@@ -76,9 +76,9 @@ namespace GlobalNamespace {
     // Set static field: static public KawaseBlurRendererSO/Pass BlurGammaAndAdd
     static void _set_BlurGammaAndAdd(GlobalNamespace::KawaseBlurRendererSO::Pass value);
   }; // KawaseBlurRendererSO/Pass
+  #pragma pack(pop)
   static check_size<sizeof(KawaseBlurRendererSO::Pass), 0 + sizeof(int)> __GlobalNamespace_KawaseBlurRendererSO_PassSizeCheck;
   static_assert(sizeof(KawaseBlurRendererSO::Pass) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBlurRendererSO::Pass, "", "KawaseBlurRendererSO/Pass");

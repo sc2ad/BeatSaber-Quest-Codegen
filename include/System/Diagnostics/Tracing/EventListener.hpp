@@ -109,9 +109,9 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C79C4
     static void _cctor();
   }; // System.Diagnostics.Tracing.EventListener
+  #pragma pack(pop)
   static check_size<sizeof(EventListener), 40 + sizeof(System::Diagnostics::Tracing::ActivityFilter*)> __System_Diagnostics_Tracing_EventListenerSizeCheck;
   static_assert(sizeof(EventListener) == 0x30);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventListener*, "System.Diagnostics.Tracing", "EventListener");

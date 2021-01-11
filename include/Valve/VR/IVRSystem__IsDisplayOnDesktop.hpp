@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x192F630
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_IsDisplayOnDesktop
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_IsDisplayOnDesktop*, "Valve.VR", "IVRSystem/_IsDisplayOnDesktop");

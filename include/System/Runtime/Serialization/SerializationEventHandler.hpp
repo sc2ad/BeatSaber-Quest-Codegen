@@ -51,6 +51,6 @@ namespace System::Runtime::Serialization {
     // Offset: 0x14430F0
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Runtime.Serialization.SerializationEventHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEventHandler*, "System.Runtime.Serialization", "SerializationEventHandler");

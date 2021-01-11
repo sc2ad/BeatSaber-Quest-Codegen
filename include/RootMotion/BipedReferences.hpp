@@ -220,8 +220,8 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<BipedReferences*, creationType>()));
     }
   }; // RootMotion.BipedReferences
+  #pragma pack(pop)
   static check_size<sizeof(BipedReferences), 144 + sizeof(::Array<UnityEngine::Transform*>*)> __RootMotion_BipedReferencesSizeCheck;
   static_assert(sizeof(BipedReferences) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences*, "RootMotion", "BipedReferences");

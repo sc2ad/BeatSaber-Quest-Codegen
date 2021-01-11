@@ -58,8 +58,8 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<CallbackRunner*, creationType>()));
     }
   }; // Oculus.Platform.CallbackRunner
+  #pragma pack(pop)
   static check_size<sizeof(CallbackRunner), 24 + sizeof(bool)> __Oculus_Platform_CallbackRunnerSizeCheck;
   static_assert(sizeof(CallbackRunner) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CallbackRunner*, "Oculus.Platform", "CallbackRunner");

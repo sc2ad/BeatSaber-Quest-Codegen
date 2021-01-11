@@ -55,8 +55,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<CreateAssetMenuAttribute*, creationType>()));
     }
   }; // UnityEngine.CreateAssetMenuAttribute
+  #pragma pack(pop)
   static check_size<sizeof(CreateAssetMenuAttribute), 24 + sizeof(::Il2CppString*)> __UnityEngine_CreateAssetMenuAttributeSizeCheck;
   static_assert(sizeof(CreateAssetMenuAttribute) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CreateAssetMenuAttribute*, "UnityEngine", "CreateAssetMenuAttribute");

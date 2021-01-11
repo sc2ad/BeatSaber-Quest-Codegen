@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x19F593C
     static uint NumberOfSetBits(uint i);
   }; // BitMaskUtil
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskUtil*, "", "BitMaskUtil");

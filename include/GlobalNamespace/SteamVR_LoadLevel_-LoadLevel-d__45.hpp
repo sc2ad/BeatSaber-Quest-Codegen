@@ -121,8 +121,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // SteamVR_LoadLevel/<LoadLevel>d__45
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_LoadLevel::$LoadLevel$d__45), 64 + sizeof(GlobalNamespace::SteamVR_Controller::Device*)> __GlobalNamespace_SteamVR_LoadLevel_$LoadLevel$d__45SizeCheck;
   static_assert(sizeof(SteamVR_LoadLevel::$LoadLevel$d__45) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_LoadLevel::$LoadLevel$d__45*, "", "SteamVR_LoadLevel/<LoadLevel>d__45");

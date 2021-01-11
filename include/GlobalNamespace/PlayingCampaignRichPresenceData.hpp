@@ -72,8 +72,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayingCampaignRichPresenceData*, creationType>()));
     }
   }; // PlayingCampaignRichPresenceData
+  #pragma pack(pop)
   static check_size<sizeof(PlayingCampaignRichPresenceData), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_PlayingCampaignRichPresenceDataSizeCheck;
   static_assert(sizeof(PlayingCampaignRichPresenceData) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingCampaignRichPresenceData*, "", "PlayingCampaignRichPresenceData");

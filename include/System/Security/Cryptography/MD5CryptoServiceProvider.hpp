@@ -107,8 +107,8 @@ namespace System::Security::Cryptography {
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
   }; // System.Security.Cryptography.MD5CryptoServiceProvider
+  #pragma pack(pop)
   static check_size<sizeof(MD5CryptoServiceProvider), 72 + sizeof(int)> __System_Security_Cryptography_MD5CryptoServiceProviderSizeCheck;
   static_assert(sizeof(MD5CryptoServiceProvider) == 0x4C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::MD5CryptoServiceProvider*, "System.Security.Cryptography", "MD5CryptoServiceProvider");

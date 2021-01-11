@@ -149,6 +149,7 @@ namespace UnityEngine::ProBuilder {
       // Set static field: static public UnityEngine.ProBuilder.ProBuilderMesh/CacheValidState SharedTexture
       static void _set_SharedTexture(UnityEngine::ProBuilder::ProBuilderMesh::CacheValidState value);
     }; // UnityEngine.ProBuilder.ProBuilderMesh/CacheValidState
+    #pragma pack(pop)
     static check_size<sizeof(ProBuilderMesh::CacheValidState), 0 + sizeof(uint8_t)> __UnityEngine_ProBuilder_ProBuilderMesh_CacheValidStateSizeCheck;
     static_assert(sizeof(ProBuilderMesh::CacheValidState) == 0x1);
     // private System.Int32 m_MeshFormatVersion
@@ -870,9 +871,9 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.ProBuilder.ProBuilderMesh
+  #pragma pack(pop)
   static check_size<sizeof(ProBuilderMesh), 248 + sizeof(System::Collections::Generic::List_1<int>*)> __UnityEngine_ProBuilder_ProBuilderMeshSizeCheck;
   static_assert(sizeof(ProBuilderMesh) == 0x100);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh*, "UnityEngine.ProBuilder", "ProBuilderMesh");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::CacheValidState, "UnityEngine.ProBuilder", "ProBuilderMesh/CacheValidState");

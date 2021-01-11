@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x185B46C
     uint EndInvoke(OVR::OpenVR::Compositor_FrameTiming& pTiming, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_GetFrameTimings
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_GetFrameTimings*, "OVR.OpenVR", "IVRCompositor/_GetFrameTimings");

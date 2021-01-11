@@ -45,9 +45,9 @@ namespace System::Runtime::Remoting {
     // Set static field: static public System.Runtime.Remoting.WellKnownObjectMode SingleCall
     static void _set_SingleCall(System::Runtime::Remoting::WellKnownObjectMode value);
   }; // System.Runtime.Remoting.WellKnownObjectMode
+  #pragma pack(pop)
   static check_size<sizeof(WellKnownObjectMode), 0 + sizeof(int)> __System_Runtime_Remoting_WellKnownObjectModeSizeCheck;
   static_assert(sizeof(WellKnownObjectMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::WellKnownObjectMode, "System.Runtime.Remoting", "WellKnownObjectMode");

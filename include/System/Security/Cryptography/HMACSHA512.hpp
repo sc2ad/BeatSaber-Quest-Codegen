@@ -51,8 +51,8 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<HMACSHA512*, creationType>()));
     }
   }; // System.Security.Cryptography.HMACSHA512
+  #pragma pack(pop)
   static check_size<sizeof(HMACSHA512), 97 + sizeof(bool)> __System_Security_Cryptography_HMACSHA512SizeCheck;
   static_assert(sizeof(HMACSHA512) == 0x62);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACSHA512*, "System.Security.Cryptography", "HMACSHA512");

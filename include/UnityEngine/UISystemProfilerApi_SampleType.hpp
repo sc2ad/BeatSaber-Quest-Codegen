@@ -46,9 +46,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.UISystemProfilerApi/SampleType Render
     static void _set_Render(UnityEngine::UISystemProfilerApi::SampleType value);
   }; // UnityEngine.UISystemProfilerApi/SampleType
+  #pragma pack(pop)
   static check_size<sizeof(UISystemProfilerApi::SampleType), 0 + sizeof(int)> __UnityEngine_UISystemProfilerApi_SampleTypeSizeCheck;
   static_assert(sizeof(UISystemProfilerApi::SampleType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UISystemProfilerApi::SampleType, "UnityEngine", "UISystemProfilerApi/SampleType");

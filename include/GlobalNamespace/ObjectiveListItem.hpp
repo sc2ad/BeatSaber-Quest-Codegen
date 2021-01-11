@@ -65,8 +65,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ObjectiveListItem*, creationType>()));
     }
   }; // ObjectiveListItem
+  #pragma pack(pop)
   static check_size<sizeof(ObjectiveListItem), 32 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_ObjectiveListItemSizeCheck;
   static_assert(sizeof(ObjectiveListItem) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObjectiveListItem*, "", "ObjectiveListItem");

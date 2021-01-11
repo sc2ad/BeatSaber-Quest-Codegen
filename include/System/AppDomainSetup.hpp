@@ -177,8 +177,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<AppDomainSetup*, creationType>()));
     }
   }; // System.AppDomainSetup
+  #pragma pack(pop)
   static check_size<sizeof(AppDomainSetup), 168 + sizeof(::Il2CppString*)> __System_AppDomainSetupSizeCheck;
   static_assert(sizeof(AppDomainSetup) == 0xB0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::AppDomainSetup*, "System", "AppDomainSetup");

@@ -102,8 +102,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ImmediateRankUIPanel*, creationType>()));
     }
   }; // ImmediateRankUIPanel
+  #pragma pack(pop)
   static check_size<sizeof(ImmediateRankUIPanel), 60 + sizeof(GlobalNamespace::RankModel::Rank)> __GlobalNamespace_ImmediateRankUIPanelSizeCheck;
   static_assert(sizeof(ImmediateRankUIPanel) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImmediateRankUIPanel*, "", "ImmediateRankUIPanel");

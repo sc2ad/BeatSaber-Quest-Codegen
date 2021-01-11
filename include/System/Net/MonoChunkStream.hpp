@@ -94,6 +94,7 @@ namespace System::Net {
       // Set static field: static public System.Net.MonoChunkStream/State Trailer
       static void _set_Trailer(System::Net::MonoChunkStream::State value);
     }; // System.Net.MonoChunkStream/State
+    #pragma pack(pop)
     static check_size<sizeof(MonoChunkStream::State), 0 + sizeof(int)> __System_Net_MonoChunkStream_StateSizeCheck;
     static_assert(sizeof(MonoChunkStream::State) == 0x4);
     // System.Net.WebHeaderCollection headers
@@ -220,9 +221,9 @@ namespace System::Net {
     // Offset: 0x12C0114
     static void ThrowProtocolViolation(::Il2CppString* message);
   }; // System.Net.MonoChunkStream
+  #pragma pack(pop)
   static check_size<sizeof(MonoChunkStream), 56 + sizeof(System::Collections::ArrayList*)> __System_Net_MonoChunkStreamSizeCheck;
   static_assert(sizeof(MonoChunkStream) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::MonoChunkStream*, "System.Net", "MonoChunkStream");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::MonoChunkStream::State, "System.Net", "MonoChunkStream/State");

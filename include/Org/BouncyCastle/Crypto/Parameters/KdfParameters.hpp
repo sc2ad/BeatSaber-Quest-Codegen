@@ -51,8 +51,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1048D78
     ::Array<uint8_t>* GetIV();
   }; // Org.BouncyCastle.Crypto.Parameters.KdfParameters
+  #pragma pack(pop)
   static check_size<sizeof(KdfParameters), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Parameters_KdfParametersSizeCheck;
   static_assert(sizeof(KdfParameters) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::KdfParameters*, "Org.BouncyCastle.Crypto.Parameters", "KdfParameters");

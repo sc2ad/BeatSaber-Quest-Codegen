@@ -153,8 +153,8 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void TextWriter::.cctor()
     static void _cctor();
   }; // NUnit.Framework.Internal.TextMessageWriter
+  #pragma pack(pop)
   static check_size<sizeof(TextMessageWriter), 52 + sizeof(int)> __NUnit_Framework_Internal_TextMessageWriterSizeCheck;
   static_assert(sizeof(TextMessageWriter) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TextMessageWriter*, "NUnit.Framework.Internal", "TextMessageWriter");

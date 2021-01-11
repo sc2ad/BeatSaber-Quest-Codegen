@@ -106,8 +106,8 @@ namespace OVRSimpleJSON {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // OVRSimpleJSON.JSONNode/<get_Children>d__40
+  #pragma pack(pop)
   static check_size<sizeof(JSONNode::$get_Children$d__40), 32 + sizeof(int)> __OVRSimpleJSON_JSONNode_$get_Children$d__40SizeCheck;
   static_assert(sizeof(JSONNode::$get_Children$d__40) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::$get_Children$d__40*, "OVRSimpleJSON", "JSONNode/<get_Children>d__40");

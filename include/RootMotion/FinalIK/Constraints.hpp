@@ -97,8 +97,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Constraints*, creationType>()));
     }
   }; // RootMotion.FinalIK.Constraints
+  #pragma pack(pop)
   static check_size<sizeof(Constraints), 84 + sizeof(float)> __RootMotion_FinalIK_ConstraintsSizeCheck;
   static_assert(sizeof(Constraints) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Constraints*, "RootMotion.FinalIK", "Constraints");

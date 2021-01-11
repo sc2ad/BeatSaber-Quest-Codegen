@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x19004E4
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::Texture_t& pTexture, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_SetOverlayTexture
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_SetOverlayTexture*, "OVR.OpenVR", "IVROverlay/_SetOverlayTexture");

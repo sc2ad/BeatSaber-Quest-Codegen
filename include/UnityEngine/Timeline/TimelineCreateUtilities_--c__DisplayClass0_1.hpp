@@ -52,8 +52,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<TimelineCreateUtilities::$$c__DisplayClass0_1*, creationType>()));
     }
   }; // UnityEngine.Timeline.TimelineCreateUtilities/<>c__DisplayClass0_1
+  #pragma pack(pop)
   static check_size<sizeof(TimelineCreateUtilities::$$c__DisplayClass0_1), 16 + sizeof(::Il2CppString*)> __UnityEngine_Timeline_TimelineCreateUtilities_$$c__DisplayClass0_1SizeCheck;
   static_assert(sizeof(TimelineCreateUtilities::$$c__DisplayClass0_1) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1*, "UnityEngine.Timeline", "TimelineCreateUtilities/<>c__DisplayClass0_1");

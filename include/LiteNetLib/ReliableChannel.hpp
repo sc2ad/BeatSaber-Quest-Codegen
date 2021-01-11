@@ -80,6 +80,7 @@ namespace LiteNetLib {
       // Base method: System.String ValueType::ToString()
       ::Il2CppString* ToString();
     }; // LiteNetLib.ReliableChannel/PendingPacket
+    #pragma pack(pop)
     static check_size<sizeof(ReliableChannel::PendingPacket), 16 + sizeof(bool)> __LiteNetLib_ReliableChannel_PendingPacketSizeCheck;
     static_assert(sizeof(ReliableChannel::PendingPacket) == 0x11);
     // private readonly LiteNetLib.NetPacket _outgoingAcks
@@ -191,9 +192,9 @@ namespace LiteNetLib {
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.ReliableChannel
+  #pragma pack(pop)
   static check_size<sizeof(ReliableChannel), 96 + sizeof(uint8_t)> __LiteNetLib_ReliableChannelSizeCheck;
   static_assert(sizeof(ReliableChannel) == 0x61);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel*, "LiteNetLib", "ReliableChannel");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel::PendingPacket, "LiteNetLib", "ReliableChannel/PendingPacket");

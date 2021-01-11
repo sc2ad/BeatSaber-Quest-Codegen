@@ -53,6 +53,6 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<AwaitTaskContinuation::$$c*, creationType>()));
     }
   }; // System.Threading.Tasks.AwaitTaskContinuation/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AwaitTaskContinuation::$$c*, "System.Threading.Tasks", "AwaitTaskContinuation/<>c");

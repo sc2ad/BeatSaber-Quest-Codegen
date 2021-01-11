@@ -92,8 +92,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // RandomizedPitch/<PlayDelayedCoroutine>d__9
+  #pragma pack(pop)
   static check_size<sizeof(RandomizedPitch::$PlayDelayedCoroutine$d__9), 40 + sizeof(GlobalNamespace::RandomizedPitch*)> __GlobalNamespace_RandomizedPitch_$PlayDelayedCoroutine$d__9SizeCheck;
   static_assert(sizeof(RandomizedPitch::$PlayDelayedCoroutine$d__9) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomizedPitch::$PlayDelayedCoroutine$d__9*, "", "RandomizedPitch/<PlayDelayedCoroutine>d__9");

@@ -111,8 +111,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SetSaberGlowColor*, creationType>()));
     }
   }; // SetSaberGlowColor
+  #pragma pack(pop)
   static check_size<sizeof(SetSaberGlowColor), 64 + sizeof(GlobalNamespace::SaberType)> __GlobalNamespace_SetSaberGlowColorSizeCheck;
   static_assert(sizeof(SetSaberGlowColor) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberGlowColor*, "", "SetSaberGlowColor");

@@ -92,8 +92,8 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return THROW_UNLESS((::il2cpp_utils::New<ECNRSigner*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Signers.ECNRSigner
+  #pragma pack(pop)
   static check_size<sizeof(ECNRSigner), 32 + sizeof(Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Signers_ECNRSignerSizeCheck;
   static_assert(sizeof(ECNRSigner) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::ECNRSigner*, "Org.BouncyCastle.Crypto.Signers", "ECNRSigner");

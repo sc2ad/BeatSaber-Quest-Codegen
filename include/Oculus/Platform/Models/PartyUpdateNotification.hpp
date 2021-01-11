@@ -75,8 +75,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<PartyUpdateNotification*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.PartyUpdateNotification
+  #pragma pack(pop)
   static check_size<sizeof(PartyUpdateNotification), 64 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_PartyUpdateNotificationSizeCheck;
   static_assert(sizeof(PartyUpdateNotification) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PartyUpdateNotification*, "Oculus.Platform.Models", "PartyUpdateNotification");

@@ -49,8 +49,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleDialogPromptViewController::$$c__DisplayClass5_0*, creationType>()));
     }
   }; // SimpleDialogPromptViewController/<>c__DisplayClass5_0
+  #pragma pack(pop)
   static check_size<sizeof(SimpleDialogPromptViewController::$$c__DisplayClass5_0), 24 + sizeof(GlobalNamespace::SimpleDialogPromptViewController*)> __GlobalNamespace_SimpleDialogPromptViewController_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(SimpleDialogPromptViewController::$$c__DisplayClass5_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleDialogPromptViewController::$$c__DisplayClass5_0*, "", "SimpleDialogPromptViewController/<>c__DisplayClass5_0");

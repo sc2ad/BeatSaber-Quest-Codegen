@@ -57,8 +57,8 @@ namespace Oculus::Platform {
     // Offset: 0x11CED0C
     static void RunCallbacks(uint limit);
   }; // Oculus.Platform.Request
+  #pragma pack(pop)
   static check_size<sizeof(Request), 24 + sizeof(uint64_t)> __Oculus_Platform_RequestSizeCheck;
   static_assert(sizeof(Request) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Request*, "Oculus.Platform", "Request");

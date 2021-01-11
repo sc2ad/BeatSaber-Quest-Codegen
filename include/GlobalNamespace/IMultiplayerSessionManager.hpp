@@ -217,6 +217,6 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void PerformAtSyncTime(float syncTime, System::Action* action);
   }; // IMultiplayerSessionManager
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerSessionManager*, "", "IMultiplayerSessionManager");

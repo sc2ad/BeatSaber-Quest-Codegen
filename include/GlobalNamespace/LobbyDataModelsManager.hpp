@@ -76,8 +76,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LobbyDataModelsManager*, creationType>()));
     }
   }; // LobbyDataModelsManager
+  #pragma pack(pop)
   static check_size<sizeof(LobbyDataModelsManager), 40 + sizeof(GlobalNamespace::INodePoseSyncStateManager*)> __GlobalNamespace_LobbyDataModelsManagerSizeCheck;
   static_assert(sizeof(LobbyDataModelsManager) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyDataModelsManager*, "", "LobbyDataModelsManager");

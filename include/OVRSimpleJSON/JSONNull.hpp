@@ -112,6 +112,6 @@ namespace OVRSimpleJSON {
     // Base method: System.Void JSONNode::.cctor()
     static void _cctor();
   }; // OVRSimpleJSON.JSONNull
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNull*, "OVRSimpleJSON", "JSONNull");

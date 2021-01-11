@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x136EF4C
     void EndInvoke(Valve::VR::HmdColor_t& pOutputColorArray, Valve::VR::HmdColor_t& pOutputCameraColor, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperone/_GetBoundsColor
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone::_GetBoundsColor*, "Valve.VR", "IVRChaperone/_GetBoundsColor");

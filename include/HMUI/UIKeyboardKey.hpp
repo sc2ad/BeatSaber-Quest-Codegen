@@ -75,8 +75,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboardKey*, creationType>()));
     }
   }; // HMUI.UIKeyboardKey
+  #pragma pack(pop)
   static check_size<sizeof(UIKeyboardKey), 40 + sizeof(::Il2CppString*)> __HMUI_UIKeyboardKeySizeCheck;
   static_assert(sizeof(UIKeyboardKey) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::UIKeyboardKey*, "HMUI", "UIKeyboardKey");

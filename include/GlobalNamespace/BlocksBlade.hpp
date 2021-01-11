@@ -219,8 +219,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // BlocksBlade
+  #pragma pack(pop)
   static check_size<sizeof(BlocksBlade), 136 + sizeof(int)> __GlobalNamespace_BlocksBladeSizeCheck;
   static_assert(sizeof(BlocksBlade) == 0x8C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlocksBlade*, "", "BlocksBlade");

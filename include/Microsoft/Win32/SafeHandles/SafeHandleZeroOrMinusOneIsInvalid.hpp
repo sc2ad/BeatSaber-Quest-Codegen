@@ -34,6 +34,6 @@ namespace Microsoft::Win32::SafeHandles {
     // Base method: System.Boolean SafeHandle::get_IsInvalid()
     bool get_IsInvalid();
   }; // Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid*, "Microsoft.Win32.SafeHandles", "SafeHandleZeroOrMinusOneIsInvalid");

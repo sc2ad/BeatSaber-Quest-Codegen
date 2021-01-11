@@ -49,6 +49,6 @@ namespace GlobalNamespace {
     // Offset: 0x11B7F3C
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVRHandTest/BoolMonitor/BoolGenerator
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator*, "", "OVRHandTest/BoolMonitor/BoolGenerator");

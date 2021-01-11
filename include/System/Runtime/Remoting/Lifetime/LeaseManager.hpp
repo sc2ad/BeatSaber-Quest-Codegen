@@ -78,8 +78,8 @@ namespace System::Runtime::Remoting::Lifetime {
       return THROW_UNLESS((::il2cpp_utils::New<LeaseManager*, creationType>()));
     }
   }; // System.Runtime.Remoting.Lifetime.LeaseManager
+  #pragma pack(pop)
   static check_size<sizeof(LeaseManager), 24 + sizeof(System::Threading::Timer*)> __System_Runtime_Remoting_Lifetime_LeaseManagerSizeCheck;
   static_assert(sizeof(LeaseManager) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::LeaseManager*, "System.Runtime.Remoting.Lifetime", "LeaseManager");

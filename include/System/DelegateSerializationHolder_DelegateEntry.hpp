@@ -86,8 +86,8 @@ namespace System {
     // Offset: 0x167720C
     System::Delegate* DeserializeDelegate(System::Runtime::Serialization::SerializationInfo* info, int index);
   }; // System.DelegateSerializationHolder/DelegateEntry
+  #pragma pack(pop)
   static check_size<sizeof(DelegateSerializationHolder::DelegateEntry), 64 + sizeof(System::DelegateSerializationHolder::DelegateEntry*)> __System_DelegateSerializationHolder_DelegateEntrySizeCheck;
   static_assert(sizeof(DelegateSerializationHolder::DelegateEntry) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::DelegateSerializationHolder::DelegateEntry*, "System", "DelegateSerializationHolder/DelegateEntry");

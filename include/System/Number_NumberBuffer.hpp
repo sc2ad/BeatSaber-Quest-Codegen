@@ -78,8 +78,8 @@ namespace System {
     // Offset: 0x17155EC
     static void _cctor();
   }; // System.Number/NumberBuffer
+  #pragma pack(pop)
   static check_size<sizeof(Number::NumberBuffer), 24 + sizeof(bool)> __System_Number_NumberBufferSizeCheck;
   static_assert(sizeof(Number::NumberBuffer) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Number::NumberBuffer, "System", "Number/NumberBuffer");

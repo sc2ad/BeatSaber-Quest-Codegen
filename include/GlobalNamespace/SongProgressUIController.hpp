@@ -147,8 +147,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SongProgressUIController*, creationType>()));
     }
   }; // SongProgressUIController
+  #pragma pack(pop)
   static check_size<sizeof(SongProgressUIController), 104 + sizeof(UnityEngine::Vector2)> __GlobalNamespace_SongProgressUIControllerSizeCheck;
   static_assert(sizeof(SongProgressUIController) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongProgressUIController*, "", "SongProgressUIController");

@@ -148,8 +148,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActiveClient*, creationType>()));
     }
   }; // MultiplayerLocalActiveClient
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActiveClient), 80 + sizeof(GlobalNamespace::ScoreController*)> __GlobalNamespace_MultiplayerLocalActiveClientSizeCheck;
   static_assert(sizeof(MultiplayerLocalActiveClient) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveClient*, "", "MultiplayerLocalActiveClient");

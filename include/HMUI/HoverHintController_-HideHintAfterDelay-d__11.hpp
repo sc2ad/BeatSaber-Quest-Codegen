@@ -90,8 +90,8 @@ namespace HMUI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // HMUI.HoverHintController/<HideHintAfterDelay>d__11
+  #pragma pack(pop)
   static check_size<sizeof(HoverHintController::$HideHintAfterDelay$d__11), 40 + sizeof(float)> __HMUI_HoverHintController_$HideHintAfterDelay$d__11SizeCheck;
   static_assert(sizeof(HoverHintController::$HideHintAfterDelay$d__11) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintController::$HideHintAfterDelay$d__11*, "HMUI", "HoverHintController/<HideHintAfterDelay>d__11");

@@ -80,6 +80,7 @@ namespace HMUI {
       // Set static field: static public HMUI.NoTransitionsButton/SelectionState Disabled
       static void _set_Disabled(HMUI::NoTransitionsButton::SelectionState value);
     }; // HMUI.NoTransitionsButton/SelectionState
+    #pragma pack(pop)
     static check_size<sizeof(NoTransitionsButton::SelectionState), 0 + sizeof(int)> __HMUI_NoTransitionsButton_SelectionStateSizeCheck;
     static_assert(sizeof(NoTransitionsButton::SelectionState) == 0x4);
     // [CompilerGeneratedAttribute] Offset: 0xDA74C8
@@ -128,9 +129,9 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionsButton*, creationType>()));
     }
   }; // HMUI.NoTransitionsButton
+  #pragma pack(pop)
   static check_size<sizeof(NoTransitionsButton), 256 + sizeof(HMUI::NoTransitionsButton::SelectionState)> __HMUI_NoTransitionsButtonSizeCheck;
   static_assert(sizeof(NoTransitionsButton) == 0x104);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton*, "HMUI", "NoTransitionsButton");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton::SelectionState, "HMUI", "NoTransitionsButton/SelectionState");

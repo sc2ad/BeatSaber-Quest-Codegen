@@ -62,9 +62,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.ParticleSystemGradientMode RandomColor
     static void _set_RandomColor(UnityEngine::ParticleSystemGradientMode value);
   }; // UnityEngine.ParticleSystemGradientMode
+  #pragma pack(pop)
   static check_size<sizeof(ParticleSystemGradientMode), 0 + sizeof(int)> __UnityEngine_ParticleSystemGradientModeSizeCheck;
   static_assert(sizeof(ParticleSystemGradientMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystemGradientMode, "UnityEngine", "ParticleSystemGradientMode");

@@ -81,8 +81,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLayoutProvider*, creationType>()));
     }
   }; // MultiplayerLayoutProvider
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLayoutProvider), 24 + sizeof(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*)> __GlobalNamespace_MultiplayerLayoutProviderSizeCheck;
   static_assert(sizeof(MultiplayerLayoutProvider) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLayoutProvider*, "", "MultiplayerLayoutProvider");

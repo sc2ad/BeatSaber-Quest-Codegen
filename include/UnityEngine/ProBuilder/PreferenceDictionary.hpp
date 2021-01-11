@@ -284,8 +284,8 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<PreferenceDictionary*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.PreferenceDictionary
+  #pragma pack(pop)
   static check_size<sizeof(PreferenceDictionary), 160 + sizeof(System::Collections::Generic::List_1<UnityEngine::Material*>*)> __UnityEngine_ProBuilder_PreferenceDictionarySizeCheck;
   static_assert(sizeof(PreferenceDictionary) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PreferenceDictionary*, "UnityEngine.ProBuilder", "PreferenceDictionary");

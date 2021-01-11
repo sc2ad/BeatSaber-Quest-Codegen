@@ -62,8 +62,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CenterStageLobbyViewController*, creationType>()));
     }
   }; // CenterStageLobbyViewController
+  #pragma pack(pop)
   static check_size<sizeof(CenterStageLobbyViewController), 120 + sizeof(GlobalNamespace::ModifiersSelectionView*)> __GlobalNamespace_CenterStageLobbyViewControllerSizeCheck;
   static_assert(sizeof(CenterStageLobbyViewController) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CenterStageLobbyViewController*, "", "CenterStageLobbyViewController");

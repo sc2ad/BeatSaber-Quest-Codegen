@@ -125,8 +125,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PreviousColorPanelController*, creationType>()));
     }
   }; // PreviousColorPanelController
+  #pragma pack(pop)
   static check_size<sizeof(PreviousColorPanelController), 72 + sizeof(UnityEngine::Color)> __GlobalNamespace_PreviousColorPanelControllerSizeCheck;
   static_assert(sizeof(PreviousColorPanelController) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviousColorPanelController*, "", "PreviousColorPanelController");

@@ -115,6 +115,7 @@ namespace System::Net {
       // Set static field: static public System.Net.WebHeaderCollection/RfcChar Delim
       static void _set_Delim(System::Net::WebHeaderCollection::RfcChar value);
     }; // System.Net.WebHeaderCollection/RfcChar
+    #pragma pack(pop)
     static check_size<sizeof(WebHeaderCollection::RfcChar), 0 + sizeof(uint8_t)> __System_Net_WebHeaderCollection_RfcCharSizeCheck;
     static_assert(sizeof(WebHeaderCollection::RfcChar) == 0x1);
     // private System.String[] m_CommonHeaders
@@ -323,9 +324,9 @@ namespace System::Net {
     // Base method: System.Void NameObjectCollectionBase::.cctor()
     static void _cctor();
   }; // System.Net.WebHeaderCollection
+  #pragma pack(pop)
   static check_size<sizeof(WebHeaderCollection), 112 + sizeof(System::Net::WebHeaderCollectionType)> __System_Net_WebHeaderCollectionSizeCheck;
   static_assert(sizeof(WebHeaderCollection) == 0x72);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebHeaderCollection*, "System.Net", "WebHeaderCollection");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebHeaderCollection::RfcChar, "System.Net", "WebHeaderCollection/RfcChar");

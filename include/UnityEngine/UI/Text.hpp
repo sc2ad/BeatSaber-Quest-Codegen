@@ -294,8 +294,8 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.UI.Text
+  #pragma pack(pop)
   static check_size<sizeof(Text), 232 + sizeof(::Array<UnityEngine::UIVertex>*)> __UnityEngine_UI_TextSizeCheck;
   static_assert(sizeof(Text) == 0xF0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Text*, "UnityEngine.UI", "Text");

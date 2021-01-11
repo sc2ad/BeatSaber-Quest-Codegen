@@ -90,6 +90,7 @@ namespace GlobalNamespace {
       // Set static field: static public SteamVR_PlayArea/Size _200x150
       static void _set__200x150(GlobalNamespace::SteamVR_PlayArea::Size value);
     }; // SteamVR_PlayArea/Size
+    #pragma pack(pop)
     static check_size<sizeof(SteamVR_PlayArea::Size), 0 + sizeof(int)> __GlobalNamespace_SteamVR_PlayArea_SizeSizeCheck;
     static_assert(sizeof(SteamVR_PlayArea::Size) == 0x4);
     // public System.Single borderThickness
@@ -176,9 +177,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_PlayArea*, creationType>()));
     }
   }; // SteamVR_PlayArea
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_PlayArea), 56 + sizeof(::Array<UnityEngine::Vector3>*)> __GlobalNamespace_SteamVR_PlayAreaSizeCheck;
   static_assert(sizeof(SteamVR_PlayArea) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea*, "", "SteamVR_PlayArea");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea::Size, "", "SteamVR_PlayArea/Size");

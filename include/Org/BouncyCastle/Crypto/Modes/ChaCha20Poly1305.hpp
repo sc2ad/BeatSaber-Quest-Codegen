@@ -118,6 +118,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
       // Set static field: static public Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/State DecFinal
       static void _set_DecFinal(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State value);
     }; // Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/State
+    #pragma pack(pop)
     static check_size<sizeof(ChaCha20Poly1305::State), 0 + sizeof(int)> __Org_BouncyCastle_Crypto_Modes_ChaCha20Poly1305_StateSizeCheck;
     static_assert(sizeof(ChaCha20Poly1305::State) == 0x4);
     // private readonly Org.BouncyCastle.Crypto.Engines.ChaCha7539Engine mChacha20
@@ -276,9 +277,9 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Void IAeadCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305
+  #pragma pack(pop)
   static check_size<sizeof(ChaCha20Poly1305), 92 + sizeof(int)> __Org_BouncyCastle_Crypto_Modes_ChaCha20Poly1305SizeCheck;
   static_assert(sizeof(ChaCha20Poly1305) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*, "Org.BouncyCastle.Crypto.Modes", "ChaCha20Poly1305");
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State, "Org.BouncyCastle.Crypto.Modes", "ChaCha20Poly1305/State");

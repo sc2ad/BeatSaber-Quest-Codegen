@@ -49,6 +49,6 @@ namespace System::Xml {
     // Offset: 0x14EFAD0
     int EndInvoke(System::IAsyncResult* result);
   }; // System.Xml.XmlQualifiedName/HashCodeOfStringDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlQualifiedName::HashCodeOfStringDelegate*, "System.Xml", "XmlQualifiedName/HashCodeOfStringDelegate");

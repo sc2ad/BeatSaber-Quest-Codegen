@@ -118,8 +118,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBloomTextureEffectSO*, creationType>()));
     }
   }; // BloomPrePassBloomTextureEffectSO
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePassBloomTextureEffectSO), 80 + sizeof(GlobalNamespace::PyramidBloomRendererSO*)> __GlobalNamespace_BloomPrePassBloomTextureEffectSOSizeCheck;
   static_assert(sizeof(BloomPrePassBloomTextureEffectSO) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBloomTextureEffectSO*, "", "BloomPrePassBloomTextureEffectSO");

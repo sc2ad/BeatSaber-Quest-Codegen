@@ -128,8 +128,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MouseLook*, creationType>()));
     }
   }; // MouseLook
+  #pragma pack(pop)
   static check_size<sizeof(MouseLook), 80 + sizeof(bool)> __GlobalNamespace_MouseLookSizeCheck;
   static_assert(sizeof(MouseLook) == 0x51);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MouseLook*, "", "MouseLook");

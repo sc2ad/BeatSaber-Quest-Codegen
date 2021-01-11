@@ -63,8 +63,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<AchievementProgress*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.AchievementProgress
+  #pragma pack(pop)
   static check_size<sizeof(AchievementProgress), 48 + sizeof(System::DateTime)> __Oculus_Platform_Models_AchievementProgressSizeCheck;
   static_assert(sizeof(AchievementProgress) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementProgress*, "Oculus.Platform.Models", "AchievementProgress");

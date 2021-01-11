@@ -46,8 +46,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StringListSO*, creationType>()));
     }
   }; // StringListSO
+  #pragma pack(pop)
   static check_size<sizeof(StringListSO), 24 + sizeof(::Array<::Il2CppString*>*)> __GlobalNamespace_StringListSOSizeCheck;
   static_assert(sizeof(StringListSO) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringListSO*, "", "StringListSO");

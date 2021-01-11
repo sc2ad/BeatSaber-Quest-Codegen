@@ -72,8 +72,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLookAt::LookAtBone*, creationType>(transform)));
     }
   }; // RootMotion.FinalIK.IKSolverLookAt/LookAtBone
+  #pragma pack(pop)
   static check_size<sizeof(IKSolverLookAt::LookAtBone), 116 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_IKSolverLookAt_LookAtBoneSizeCheck;
   static_assert(sizeof(IKSolverLookAt::LookAtBone) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*, "RootMotion.FinalIK", "IKSolverLookAt/LookAtBone");

@@ -53,9 +53,9 @@ namespace Oculus::Platform {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Oculus.Platform.CAPI/ovrMatchmakingCustomQueryData
+  #pragma pack(pop)
   static check_size<sizeof(CAPI::ovrMatchmakingCustomQueryData), 24 + sizeof(uint)> __Oculus_Platform_CAPI_ovrMatchmakingCustomQueryDataSizeCheck;
   static_assert(sizeof(CAPI::ovrMatchmakingCustomQueryData) == 0x1C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrMatchmakingCustomQueryData, "Oculus.Platform", "CAPI/ovrMatchmakingCustomQueryData");

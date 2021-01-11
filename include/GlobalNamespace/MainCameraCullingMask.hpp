@@ -65,8 +65,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainCameraCullingMask*, creationType>()));
     }
   }; // MainCameraCullingMask
+  #pragma pack(pop)
   static check_size<sizeof(MainCameraCullingMask), 32 + sizeof(GlobalNamespace::MainCameraCullingMask::InitData*)> __GlobalNamespace_MainCameraCullingMaskSizeCheck;
   static_assert(sizeof(MainCameraCullingMask) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainCameraCullingMask*, "", "MainCameraCullingMask");

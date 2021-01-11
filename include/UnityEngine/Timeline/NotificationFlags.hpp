@@ -51,9 +51,9 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.NotificationFlags TriggerOnce
     static void _set_TriggerOnce(UnityEngine::Timeline::NotificationFlags value);
   }; // UnityEngine.Timeline.NotificationFlags
+  #pragma pack(pop)
   static check_size<sizeof(NotificationFlags), 0 + sizeof(int16_t)> __UnityEngine_Timeline_NotificationFlagsSizeCheck;
   static_assert(sizeof(NotificationFlags) == 0x2);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::NotificationFlags, "UnityEngine.Timeline", "NotificationFlags");

@@ -94,8 +94,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FPSCounter*, creationType>()));
     }
   }; // FPSCounter
+  #pragma pack(pop)
   static check_size<sizeof(FPSCounter), 40 + sizeof(int)> __GlobalNamespace_FPSCounterSizeCheck;
   static_assert(sizeof(FPSCounter) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounter*, "", "FPSCounter");

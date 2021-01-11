@@ -129,8 +129,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EffectPoolsManualInstaller*, creationType>()));
     }
   }; // EffectPoolsManualInstaller
+  #pragma pack(pop)
   static check_size<sizeof(EffectPoolsManualInstaller), 96 + sizeof(GlobalNamespace::NoteDebris*)> __GlobalNamespace_EffectPoolsManualInstallerSizeCheck;
   static_assert(sizeof(EffectPoolsManualInstaller) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EffectPoolsManualInstaller*, "", "EffectPoolsManualInstaller");

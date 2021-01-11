@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FadeOutInstantly*, creationType>()));
     }
   }; // FadeOutInstantly
+  #pragma pack(pop)
   static check_size<sizeof(FadeOutInstantly), 24 + sizeof(GlobalNamespace::FadeInOutController*)> __GlobalNamespace_FadeOutInstantlySizeCheck;
   static_assert(sizeof(FadeOutInstantly) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeOutInstantly*, "", "FadeOutInstantly");

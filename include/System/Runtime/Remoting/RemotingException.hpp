@@ -75,6 +75,6 @@ namespace System::Runtime::Remoting {
       return THROW_UNLESS((::il2cpp_utils::New<RemotingException*, creationType>(message, InnerException)));
     }
   }; // System.Runtime.Remoting.RemotingException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingException*, "System.Runtime.Remoting", "RemotingException");

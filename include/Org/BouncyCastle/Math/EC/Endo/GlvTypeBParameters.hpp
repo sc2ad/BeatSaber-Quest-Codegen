@@ -63,8 +63,8 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Offset: 0x193DB20
     Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
   }; // Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters
+  #pragma pack(pop)
   static check_size<sizeof(GlvTypeBParameters), 32 + sizeof(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*)> __Org_BouncyCastle_Math_EC_Endo_GlvTypeBParametersSizeCheck;
   static_assert(sizeof(GlvTypeBParameters) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*, "Org.BouncyCastle.Math.EC.Endo", "GlvTypeBParameters");

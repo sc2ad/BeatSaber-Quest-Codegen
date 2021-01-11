@@ -126,8 +126,8 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<TaskScheduler*, creationType>()));
     }
   }; // System.Threading.Tasks.TaskScheduler
+  #pragma pack(pop)
   static check_size<sizeof(TaskScheduler), 16 + sizeof(int)> __System_Threading_Tasks_TaskSchedulerSizeCheck;
   static_assert(sizeof(TaskScheduler) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskScheduler*, "System.Threading.Tasks", "TaskScheduler");

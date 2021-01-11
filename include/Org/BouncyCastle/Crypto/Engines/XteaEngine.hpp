@@ -111,8 +111,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.XteaEngine
+  #pragma pack(pop)
   static check_size<sizeof(XteaEngine), 41 + sizeof(bool)> __Org_BouncyCastle_Crypto_Engines_XteaEngineSizeCheck;
   static_assert(sizeof(XteaEngine) == 0x2A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::XteaEngine*, "Org.BouncyCastle.Crypto.Engines", "XteaEngine");

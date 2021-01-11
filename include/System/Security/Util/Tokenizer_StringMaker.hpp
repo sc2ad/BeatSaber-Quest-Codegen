@@ -86,8 +86,8 @@ namespace System::Security::Util {
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer::StringMaker*, creationType>()));
     }
   }; // System.Security.Util.Tokenizer/StringMaker
+  #pragma pack(pop)
   static check_size<sizeof(Tokenizer::StringMaker), 48 + sizeof(int)> __System_Security_Util_Tokenizer_StringMakerSizeCheck;
   static_assert(sizeof(Tokenizer::StringMaker) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::StringMaker*, "System.Security.Util", "Tokenizer/StringMaker");

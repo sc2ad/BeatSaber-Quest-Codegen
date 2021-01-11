@@ -182,6 +182,6 @@ namespace Zenject::Internal {
     // Offset: 0x12A5EC4
     static void _cctor();
   }; // Zenject.Internal.ZenPools
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenPools*, "Zenject.Internal", "ZenPools");

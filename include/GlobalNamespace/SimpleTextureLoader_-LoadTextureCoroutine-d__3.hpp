@@ -125,8 +125,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // SimpleTextureLoader/<LoadTextureCoroutine>d__3
+  #pragma pack(pop)
   static check_size<sizeof(SimpleTextureLoader::$LoadTextureCoroutine$d__3), 56 + sizeof(UnityEngine::Networking::UnityWebRequest*)> __GlobalNamespace_SimpleTextureLoader_$LoadTextureCoroutine$d__3SizeCheck;
   static_assert(sizeof(SimpleTextureLoader::$LoadTextureCoroutine$d__3) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__3*, "", "SimpleTextureLoader/<LoadTextureCoroutine>d__3");

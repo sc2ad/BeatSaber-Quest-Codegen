@@ -277,8 +277,8 @@ namespace System::Net {
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
   }; // System.Net.HttpListener
+  #pragma pack(pop)
   static check_size<sizeof(HttpListener), 128 + sizeof(System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*)> __System_Net_HttpListenerSizeCheck;
   static_assert(sizeof(HttpListener) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListener*, "System.Net", "HttpListener");

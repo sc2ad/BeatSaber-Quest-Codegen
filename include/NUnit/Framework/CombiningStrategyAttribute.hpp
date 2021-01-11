@@ -99,8 +99,8 @@ namespace NUnit::Framework {
     // Base method: System.Void IApplyToTest::ApplyToTest(NUnit.Framework.Internal.Test test)
     void ApplyToTest(NUnit::Framework::Internal::Test* test);
   }; // NUnit.Framework.CombiningStrategyAttribute
+  #pragma pack(pop)
   static check_size<sizeof(CombiningStrategyAttribute), 32 + sizeof(NUnit::Framework::Interfaces::IParameterDataProvider*)> __NUnit_Framework_CombiningStrategyAttributeSizeCheck;
   static_assert(sizeof(CombiningStrategyAttribute) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::CombiningStrategyAttribute*, "NUnit.Framework", "CombiningStrategyAttribute");

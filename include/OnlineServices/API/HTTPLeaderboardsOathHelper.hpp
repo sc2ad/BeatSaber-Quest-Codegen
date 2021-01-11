@@ -137,8 +137,8 @@ namespace OnlineServices::API {
       return THROW_UNLESS((::il2cpp_utils::New<HTTPLeaderboardsOathHelper*, creationType>()));
     }
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper
+  #pragma pack(pop)
   static check_size<sizeof(HTTPLeaderboardsOathHelper), 32 + sizeof(BeatSaberAPI::DataTransferObjects::AccessToken*)> __OnlineServices_API_HTTPLeaderboardsOathHelperSizeCheck;
   static_assert(sizeof(HTTPLeaderboardsOathHelper) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper*, "OnlineServices.API", "HTTPLeaderboardsOathHelper");

@@ -99,8 +99,8 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x145D330
     static void _cctor();
   }; // System.Security.Cryptography.X509Certificates.PublicKey
+  #pragma pack(pop)
   static check_size<sizeof(PublicKey), 40 + sizeof(System::Security::Cryptography::Oid*)> __System_Security_Cryptography_X509Certificates_PublicKeySizeCheck;
   static_assert(sizeof(PublicKey) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::PublicKey*, "System.Security.Cryptography.X509Certificates", "PublicKey");

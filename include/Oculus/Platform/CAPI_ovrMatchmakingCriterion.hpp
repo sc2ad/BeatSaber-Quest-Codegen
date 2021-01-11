@@ -67,8 +67,8 @@ namespace Oculus::Platform {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key, importance);
     }
   }; // Oculus.Platform.CAPI/ovrMatchmakingCriterion
+  #pragma pack(pop)
   static check_size<sizeof(CAPI::ovrMatchmakingCriterion), 24 + sizeof(uint)> __Oculus_Platform_CAPI_ovrMatchmakingCriterionSizeCheck;
   static_assert(sizeof(CAPI::ovrMatchmakingCriterion) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrMatchmakingCriterion, "Oculus.Platform", "CAPI/ovrMatchmakingCriterion");

@@ -69,8 +69,8 @@ namespace Org::BouncyCastle::X509 {
     // Offset: 0x18C0EB4
     Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(System::IO::Stream* inStream);
   }; // Org.BouncyCastle.X509.PemParser
+  #pragma pack(pop)
   static check_size<sizeof(PemParser), 40 + sizeof(::Il2CppString*)> __Org_BouncyCastle_X509_PemParserSizeCheck;
   static_assert(sizeof(PemParser) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::PemParser*, "Org.BouncyCastle.X509", "PemParser");

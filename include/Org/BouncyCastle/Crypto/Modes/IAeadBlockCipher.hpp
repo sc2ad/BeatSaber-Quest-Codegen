@@ -24,7 +24,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Offset: 0xFFFFFFFF
     int GetBlockSize();
   }; // Org.BouncyCastle.Crypto.Modes.IAeadBlockCipher
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "IAeadBlockCipher");

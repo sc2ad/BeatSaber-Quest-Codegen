@@ -102,8 +102,8 @@ namespace UnityEngine::TestTools {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.TestTools.TestActionCommand/<InvokeAfter>d__3
+  #pragma pack(pop)
   static check_size<sizeof(TestActionCommand::$InvokeAfter$d__3), 40 + sizeof(NUnit::Framework::Internal::Test*)> __UnityEngine_TestTools_TestActionCommand_$InvokeAfter$d__3SizeCheck;
   static_assert(sizeof(TestActionCommand::$InvokeAfter$d__3) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestActionCommand::$InvokeAfter$d__3*, "UnityEngine.TestTools", "TestActionCommand/<InvokeAfter>d__3");

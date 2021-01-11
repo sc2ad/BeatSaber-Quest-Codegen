@@ -48,8 +48,8 @@ namespace System::Runtime::InteropServices {
       return THROW_UNLESS((::il2cpp_utils::New<ComDefaultInterfaceAttribute*, creationType>(defaultInterface)));
     }
   }; // System.Runtime.InteropServices.ComDefaultInterfaceAttribute
+  #pragma pack(pop)
   static check_size<sizeof(ComDefaultInterfaceAttribute), 16 + sizeof(System::Type*)> __System_Runtime_InteropServices_ComDefaultInterfaceAttributeSizeCheck;
   static_assert(sizeof(ComDefaultInterfaceAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComDefaultInterfaceAttribute*, "System.Runtime.InteropServices", "ComDefaultInterfaceAttribute");

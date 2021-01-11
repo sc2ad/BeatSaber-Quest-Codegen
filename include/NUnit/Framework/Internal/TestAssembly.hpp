@@ -70,8 +70,8 @@ namespace NUnit::Framework::Internal {
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();
   }; // NUnit.Framework.Internal.TestAssembly
+  #pragma pack(pop)
   static check_size<sizeof(TestAssembly), 144 + sizeof(System::Reflection::Assembly*)> __NUnit_Framework_Internal_TestAssemblySizeCheck;
   static_assert(sizeof(TestAssembly) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestAssembly*, "NUnit.Framework.Internal", "TestAssembly");

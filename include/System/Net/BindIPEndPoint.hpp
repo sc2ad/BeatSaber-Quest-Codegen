@@ -54,6 +54,6 @@ namespace System::Net {
     // Offset: 0x130B700
     System::Net::IPEndPoint* EndInvoke(System::IAsyncResult* result);
   }; // System.Net.BindIPEndPoint
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::BindIPEndPoint*, "System.Net", "BindIPEndPoint");

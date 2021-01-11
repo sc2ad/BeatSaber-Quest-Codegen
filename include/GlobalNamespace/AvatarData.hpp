@@ -249,8 +249,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AvatarData*, creationType>()));
     }
   }; // AvatarData
+  #pragma pack(pop)
   static check_size<sizeof(AvatarData), 200 + sizeof(::Il2CppString*)> __GlobalNamespace_AvatarDataSizeCheck;
   static_assert(sizeof(AvatarData) == 0xD0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarData*, "", "AvatarData");

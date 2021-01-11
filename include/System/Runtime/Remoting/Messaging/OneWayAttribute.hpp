@@ -20,7 +20,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Creating value type constructor for type: OneWayAttribute
     OneWayAttribute() noexcept {}
   }; // System.Runtime.Remoting.Messaging.OneWayAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::OneWayAttribute*, "System.Runtime.Remoting.Messaging", "OneWayAttribute");

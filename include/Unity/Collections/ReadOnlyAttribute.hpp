@@ -20,7 +20,7 @@ namespace Unity::Collections {
     // Creating value type constructor for type: ReadOnlyAttribute
     ReadOnlyAttribute() noexcept {}
   }; // Unity.Collections.ReadOnlyAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::ReadOnlyAttribute*, "Unity.Collections", "ReadOnlyAttribute");

@@ -131,8 +131,8 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestResultSender*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
+  #pragma pack(pop)
   static check_size<sizeof(RemoteTestResultSender), 48 + sizeof(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*)> __UnityEngine_TestTools_TestRunner_Callbacks_RemoteTestResultSenderSizeCheck;
   static_assert(sizeof(RemoteTestResultSender) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender*, "UnityEngine.TestTools.TestRunner.Callbacks", "RemoteTestResultSender");

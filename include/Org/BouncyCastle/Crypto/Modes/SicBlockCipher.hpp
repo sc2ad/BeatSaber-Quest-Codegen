@@ -102,8 +102,8 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Modes.SicBlockCipher
+  #pragma pack(pop)
   static check_size<sizeof(SicBlockCipher), 48 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Modes_SicBlockCipherSizeCheck;
   static_assert(sizeof(SicBlockCipher) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::SicBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "SicBlockCipher");

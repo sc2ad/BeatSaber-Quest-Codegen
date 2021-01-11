@@ -153,8 +153,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectExecutionRatingsRecorder*, creationType>()));
     }
   }; // BeatmapObjectExecutionRatingsRecorder
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectExecutionRatingsRecorder), 88 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*>*)> __GlobalNamespace_BeatmapObjectExecutionRatingsRecorderSizeCheck;
   static_assert(sizeof(BeatmapObjectExecutionRatingsRecorder) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*, "", "BeatmapObjectExecutionRatingsRecorder");

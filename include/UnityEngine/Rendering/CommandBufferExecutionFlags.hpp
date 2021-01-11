@@ -44,9 +44,9 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.CommandBufferExecutionFlags AsyncCompute
     static void _set_AsyncCompute(UnityEngine::Rendering::CommandBufferExecutionFlags value);
   }; // UnityEngine.Rendering.CommandBufferExecutionFlags
+  #pragma pack(pop)
   static check_size<sizeof(CommandBufferExecutionFlags), 0 + sizeof(int)> __UnityEngine_Rendering_CommandBufferExecutionFlagsSizeCheck;
   static_assert(sizeof(CommandBufferExecutionFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CommandBufferExecutionFlags, "UnityEngine.Rendering", "CommandBufferExecutionFlags");

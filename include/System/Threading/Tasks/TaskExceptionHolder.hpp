@@ -142,8 +142,8 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Threading.Tasks.TaskExceptionHolder
+  #pragma pack(pop)
   static check_size<sizeof(TaskExceptionHolder), 40 + sizeof(bool)> __System_Threading_Tasks_TaskExceptionHolderSizeCheck;
   static_assert(sizeof(TaskExceptionHolder) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskExceptionHolder*, "System.Threading.Tasks", "TaskExceptionHolder");

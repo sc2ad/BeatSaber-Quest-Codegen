@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Void BeatmapObjectData::MirrorLineIndex(System.Int32 lineCount)
     void MirrorLineIndex(int lineCount);
   }; // WaypointData
+  #pragma pack(pop)
   static check_size<sizeof(WaypointData), 28 + sizeof(GlobalNamespace::NoteLineLayer)> __GlobalNamespace_WaypointDataSizeCheck;
   static_assert(sizeof(WaypointData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointData*, "", "WaypointData");

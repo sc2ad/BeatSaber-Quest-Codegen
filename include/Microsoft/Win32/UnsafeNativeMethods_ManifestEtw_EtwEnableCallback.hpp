@@ -51,6 +51,6 @@ namespace Microsoft::Win32 {
     // Offset: 0x1517A14
     void EndInvoke(System::Guid& sourceId, System::IAsyncResult* result);
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EtwEnableCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EtwEnableCallback*, "Microsoft.Win32", "UnsafeNativeMethods/ManifestEtw/EtwEnableCallback");

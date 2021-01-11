@@ -257,8 +257,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionResultsViewController*, creationType>()));
     }
   }; // MissionResultsViewController
+  #pragma pack(pop)
   static check_size<sizeof(MissionResultsViewController), 288 + sizeof(UnityEngine::Coroutine*)> __GlobalNamespace_MissionResultsViewControllerSizeCheck;
   static_assert(sizeof(MissionResultsViewController) == 0x128);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController*, "", "MissionResultsViewController");

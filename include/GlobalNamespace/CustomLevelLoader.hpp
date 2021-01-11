@@ -83,8 +83,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CustomLevelLoader*, creationType>()));
     }
   }; // CustomLevelLoader
+  #pragma pack(pop)
   static check_size<sizeof(CustomLevelLoader), 56 + sizeof(UnityEngine::Sprite*)> __GlobalNamespace_CustomLevelLoaderSizeCheck;
   static_assert(sizeof(CustomLevelLoader) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomLevelLoader*, "", "CustomLevelLoader");

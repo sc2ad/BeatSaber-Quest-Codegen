@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x1920F08
     Valve::VR::EVRRenderModelError EndInvoke(System::IntPtr& ppRenderModel, System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_LoadRenderModel_Async
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRRenderModels::_LoadRenderModel_Async*, "Valve.VR", "IVRRenderModels/_LoadRenderModel_Async");

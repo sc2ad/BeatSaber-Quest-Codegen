@@ -104,8 +104,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformUserModel*, creationType>()));
     }
   }; // OculusPlatformUserModel
+  #pragma pack(pop)
   static check_size<sizeof(OculusPlatformUserModel), 24 + sizeof(GlobalNamespace::UserInfo*)> __GlobalNamespace_OculusPlatformUserModelSizeCheck;
   static_assert(sizeof(OculusPlatformUserModel) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserModel*, "", "OculusPlatformUserModel");

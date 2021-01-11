@@ -57,8 +57,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::SpecialEventsForKeyword*, creationType>(keyword, specialEvents)));
     }
   }; // BeatmapSaveData/SpecialEventsForKeyword
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::SpecialEventsForKeyword), 24 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>*)> __GlobalNamespace_BeatmapSaveData_SpecialEventsForKeywordSizeCheck;
   static_assert(sizeof(BeatmapSaveData::SpecialEventsForKeyword) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*, "", "BeatmapSaveData/SpecialEventsForKeyword");

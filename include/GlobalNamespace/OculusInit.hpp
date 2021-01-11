@@ -70,8 +70,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusInit*, creationType>()));
     }
   }; // OculusInit
+  #pragma pack(pop)
   static check_size<sizeof(OculusInit), 24 + sizeof(GlobalNamespace::OculusDeeplinkManager*)> __GlobalNamespace_OculusInitSizeCheck;
   static_assert(sizeof(OculusInit) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusInit*, "", "OculusInit");

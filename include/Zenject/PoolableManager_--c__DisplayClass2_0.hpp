@@ -71,8 +71,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<PoolableManager::$$c__DisplayClass2_0*, creationType>()));
     }
   }; // Zenject.PoolableManager/<>c__DisplayClass2_0
+  #pragma pack(pop)
   static check_size<sizeof(PoolableManager::$$c__DisplayClass2_0), 24 + sizeof(System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)> __Zenject_PoolableManager_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(PoolableManager::$$c__DisplayClass2_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::$$c__DisplayClass2_0*, "Zenject", "PoolableManager/<>c__DisplayClass2_0");

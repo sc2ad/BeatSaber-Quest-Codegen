@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x136E418
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_GetApplicationsTransitionStateNameFromEnum
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum*, "Valve.VR", "IVRApplications/_GetApplicationsTransitionStateNameFromEnum");

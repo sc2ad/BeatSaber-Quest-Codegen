@@ -93,9 +93,9 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static public System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags ForceUTF8Encoding
     static void _set_ForceUTF8Encoding(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags value);
   }; // System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags
+  #pragma pack(pop)
   static check_size<sizeof(X500DistinguishedNameFlags), 0 + sizeof(int)> __System_Security_Cryptography_X509Certificates_X500DistinguishedNameFlagsSizeCheck;
   static_assert(sizeof(X500DistinguishedNameFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags, "System.Security.Cryptography.X509Certificates", "X500DistinguishedNameFlags");

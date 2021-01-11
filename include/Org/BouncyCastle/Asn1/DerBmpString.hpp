@@ -62,8 +62,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
   }; // Org.BouncyCastle.Asn1.DerBmpString
+  #pragma pack(pop)
   static check_size<sizeof(DerBmpString), 16 + sizeof(::Il2CppString*)> __Org_BouncyCastle_Asn1_DerBmpStringSizeCheck;
   static_assert(sizeof(DerBmpString) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerBmpString*, "Org.BouncyCastle.Asn1", "DerBmpString");

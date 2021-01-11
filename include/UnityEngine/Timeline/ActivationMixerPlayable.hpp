@@ -92,8 +92,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<ActivationMixerPlayable*, creationType>()));
     }
   }; // UnityEngine.Timeline.ActivationMixerPlayable
+  #pragma pack(pop)
   static check_size<sizeof(ActivationMixerPlayable), 24 + sizeof(UnityEngine::GameObject*)> __UnityEngine_Timeline_ActivationMixerPlayableSizeCheck;
   static_assert(sizeof(ActivationMixerPlayable) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationMixerPlayable*, "UnityEngine.Timeline", "ActivationMixerPlayable");

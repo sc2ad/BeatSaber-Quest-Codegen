@@ -154,8 +154,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ServerPlayerListController*, creationType>()));
     }
   }; // ServerPlayerListController
+  #pragma pack(pop)
   static check_size<sizeof(ServerPlayerListController), 152 + sizeof(System::Action_1<::Il2CppString*>*)> __GlobalNamespace_ServerPlayerListControllerSizeCheck;
   static_assert(sizeof(ServerPlayerListController) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerPlayerListController*, "", "ServerPlayerListController");

@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x11F9420
     bool EndInvoke(OVR::OpenVR::VREvent_t_Packed& pEvent, System::IAsyncResult* result);
   }; // OVR.OpenVR.CVRSystem/_PollNextEventPacked
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem::_PollNextEventPacked*, "OVR.OpenVR", "CVRSystem/_PollNextEventPacked");

@@ -46,6 +46,6 @@ namespace System {
     // Base method: System.RuntimeTypeHandle RuntimeType::get_TypeHandle()
     System::RuntimeTypeHandle get_TypeHandle();
   }; // System.ReflectionOnlyType
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ReflectionOnlyType*, "System", "ReflectionOnlyType");

@@ -90,8 +90,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteDebrisTester*, creationType>()));
     }
   }; // NoteDebrisTester
+  #pragma pack(pop)
   static check_size<sizeof(NoteDebrisTester), 80 + sizeof(GlobalNamespace::NoteDebrisSpawner*)> __GlobalNamespace_NoteDebrisTesterSizeCheck;
   static_assert(sizeof(NoteDebrisTester) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisTester*, "", "NoteDebrisTester");

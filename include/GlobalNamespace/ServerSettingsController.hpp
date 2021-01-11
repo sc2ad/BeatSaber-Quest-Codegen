@@ -96,8 +96,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ServerSettingsController*, creationType>()));
     }
   }; // ServerSettingsController
+  #pragma pack(pop)
   static check_size<sizeof(ServerSettingsController), 56 + sizeof(int)> __GlobalNamespace_ServerSettingsControllerSizeCheck;
   static_assert(sizeof(ServerSettingsController) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerSettingsController*, "", "ServerSettingsController");

@@ -53,8 +53,8 @@ namespace UnityEngine::Bindings {
       return THROW_UNLESS((::il2cpp_utils::New<NativeConditionalAttribute*, creationType>(condition)));
     }
   }; // UnityEngine.Bindings.NativeConditionalAttribute
+  #pragma pack(pop)
   static check_size<sizeof(NativeConditionalAttribute), 24 + sizeof(bool)> __UnityEngine_Bindings_NativeConditionalAttributeSizeCheck;
   static_assert(sizeof(NativeConditionalAttribute) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeConditionalAttribute*, "UnityEngine.Bindings", "NativeConditionalAttribute");

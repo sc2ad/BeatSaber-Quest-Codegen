@@ -35,6 +35,6 @@ namespace System::Runtime::Remoting::Metadata {
       return THROW_UNLESS((::il2cpp_utils::New<SoapParameterAttribute*, creationType>()));
     }
   }; // System.Runtime.Remoting.Metadata.SoapParameterAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapParameterAttribute*, "System.Runtime.Remoting.Metadata", "SoapParameterAttribute");

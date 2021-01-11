@@ -46,8 +46,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjectiveCheckersManager::InitData*, creationType>(missionObjectives)));
     }
   }; // MissionObjectiveCheckersManager/InitData
+  #pragma pack(pop)
   static check_size<sizeof(MissionObjectiveCheckersManager::InitData), 16 + sizeof(::Array<GlobalNamespace::MissionObjective*>*)> __GlobalNamespace_MissionObjectiveCheckersManager_InitDataSizeCheck;
   static_assert(sizeof(MissionObjectiveCheckersManager::InitData) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveCheckersManager::InitData*, "", "MissionObjectiveCheckersManager/InitData");

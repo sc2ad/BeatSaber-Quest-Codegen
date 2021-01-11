@@ -32,7 +32,7 @@ namespace System::Net {
     // Offset: 0x1216C84
     static void _cctor();
   }; // System.Net.UnsafeNclNativeMethods/HttpApi
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::UnsafeNclNativeMethods::HttpApi*, "System.Net", "UnsafeNclNativeMethods/HttpApi");

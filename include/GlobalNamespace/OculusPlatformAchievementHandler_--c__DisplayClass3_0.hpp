@@ -62,8 +62,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformAchievementHandler::$$c__DisplayClass3_0*, creationType>()));
     }
   }; // OculusPlatformAchievementHandler/<>c__DisplayClass3_0
+  #pragma pack(pop)
   static check_size<sizeof(OculusPlatformAchievementHandler::$$c__DisplayClass3_0), 24 + sizeof(GlobalNamespace::OculusPlatformAchievementHandler*)> __GlobalNamespace_OculusPlatformAchievementHandler_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(OculusPlatformAchievementHandler::$$c__DisplayClass3_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_0*, "", "OculusPlatformAchievementHandler/<>c__DisplayClass3_0");

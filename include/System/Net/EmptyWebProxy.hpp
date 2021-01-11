@@ -72,8 +72,8 @@ namespace System::Net {
     // Base method: System.Net.ICredentials IWebProxy::get_Credentials()
     System::Net::ICredentials* get_Credentials();
   }; // System.Net.EmptyWebProxy
+  #pragma pack(pop)
   static check_size<sizeof(EmptyWebProxy), 16 + sizeof(System::Net::ICredentials*)> __System_Net_EmptyWebProxySizeCheck;
   static_assert(sizeof(EmptyWebProxy) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EmptyWebProxy*, "System.Net", "EmptyWebProxy");

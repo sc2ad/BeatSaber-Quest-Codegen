@@ -176,8 +176,8 @@ namespace TMPro {
     // Offset: 0xF88F08
     static void _cctor();
   }; // TMPro.TMP_MeshInfo
+  #pragma pack(pop)
   static check_size<sizeof(TMP_MeshInfo), 64 + sizeof(::Array<int>*)> __TMPro_TMP_MeshInfoSizeCheck;
   static_assert(sizeof(TMP_MeshInfo) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MeshInfo, "TMPro", "TMP_MeshInfo");

@@ -62,9 +62,9 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Set static field: static public UnityEngine.Experimental.GlobalIllumination.FalloffType Undefined
     static void _set_Undefined(UnityEngine::Experimental::GlobalIllumination::FalloffType value);
   }; // UnityEngine.Experimental.GlobalIllumination.FalloffType
+  #pragma pack(pop)
   static check_size<sizeof(FalloffType), 0 + sizeof(uint8_t)> __UnityEngine_Experimental_GlobalIllumination_FalloffTypeSizeCheck;
   static_assert(sizeof(FalloffType) == 0x1);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::FalloffType, "UnityEngine.Experimental.GlobalIllumination", "FalloffType");

@@ -149,8 +149,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<TextSegmentedControl*, creationType>()));
     }
   }; // HMUI.TextSegmentedControl
+  #pragma pack(pop)
   static check_size<sizeof(TextSegmentedControl), 144 + sizeof(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*)> __HMUI_TextSegmentedControlSizeCheck;
   static_assert(sizeof(TextSegmentedControl) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSegmentedControl*, "HMUI", "TextSegmentedControl");

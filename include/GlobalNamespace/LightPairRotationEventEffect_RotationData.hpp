@@ -78,8 +78,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightPairRotationEventEffect::RotationData*, creationType>()));
     }
   }; // LightPairRotationEventEffect/RotationData
+  #pragma pack(pop)
   static check_size<sizeof(LightPairRotationEventEffect::RotationData), 52 + sizeof(float)> __GlobalNamespace_LightPairRotationEventEffect_RotationDataSizeCheck;
   static_assert(sizeof(LightPairRotationEventEffect::RotationData) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairRotationEventEffect::RotationData*, "", "LightPairRotationEventEffect/RotationData");

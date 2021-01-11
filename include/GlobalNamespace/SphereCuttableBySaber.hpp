@@ -85,8 +85,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SphereCuttableBySaber*, creationType>()));
     }
   }; // SphereCuttableBySaber
+  #pragma pack(pop)
   static check_size<sizeof(SphereCuttableBySaber), 40 + sizeof(bool)> __GlobalNamespace_SphereCuttableBySaberSizeCheck;
   static_assert(sizeof(SphereCuttableBySaber) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SphereCuttableBySaber*, "", "SphereCuttableBySaber");

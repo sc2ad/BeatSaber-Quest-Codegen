@@ -348,8 +348,8 @@ namespace GlobalNamespace {
     // Base method: System.Void INetworkPlayer::SendInviteResponse(System.Boolean accept)
     void SendInviteResponse(bool accept);
   }; // OculusNetworkPlayerModel/OculusNetworkPlayer
+  #pragma pack(pop)
   static check_size<sizeof(OculusNetworkPlayerModel::OculusNetworkPlayer), 77 + sizeof(bool)> __GlobalNamespace_OculusNetworkPlayerModel_OculusNetworkPlayerSizeCheck;
   static_assert(sizeof(OculusNetworkPlayerModel::OculusNetworkPlayer) == 0x4E);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*, "", "OculusNetworkPlayerModel/OculusNetworkPlayer");

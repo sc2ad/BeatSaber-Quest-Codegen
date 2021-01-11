@@ -39,8 +39,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentBrandingManager::InitData*, creationType>(hideBranding)));
     }
   }; // EnvironmentBrandingManager/InitData
+  #pragma pack(pop)
   static check_size<sizeof(EnvironmentBrandingManager::InitData), 16 + sizeof(bool)> __GlobalNamespace_EnvironmentBrandingManager_InitDataSizeCheck;
   static_assert(sizeof(EnvironmentBrandingManager::InitData) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentBrandingManager::InitData*, "", "EnvironmentBrandingManager/InitData");

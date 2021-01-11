@@ -95,9 +95,9 @@ namespace UnityEngine::Playables {
     // Offset: 0x17319FC
     static void _cctor();
   }; // UnityEngine.Playables.PlayableBinding
+  #pragma pack(pop)
   static check_size<sizeof(PlayableBinding), 24 + sizeof(UnityEngine::Playables::PlayableBinding::CreateOutputMethod*)> __UnityEngine_Playables_PlayableBindingSizeCheck;
   static_assert(sizeof(PlayableBinding) == 0x20);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBinding, "UnityEngine.Playables", "PlayableBinding");

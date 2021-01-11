@@ -96,8 +96,8 @@ namespace UnityEngine::TestTools::Utils {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.TestTools.Utils.CoroutineRunner/<HandleEnumerableTest>d__9
+  #pragma pack(pop)
   static check_size<sizeof(CoroutineRunner::$HandleEnumerableTest$d__9), 40 + sizeof(System::Collections::IEnumerator*)> __UnityEngine_TestTools_Utils_CoroutineRunner_$HandleEnumerableTest$d__9SizeCheck;
   static_assert(sizeof(CoroutineRunner::$HandleEnumerableTest$d__9) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::CoroutineRunner::$HandleEnumerableTest$d__9*, "UnityEngine.TestTools.Utils", "CoroutineRunner/<HandleEnumerableTest>d__9");

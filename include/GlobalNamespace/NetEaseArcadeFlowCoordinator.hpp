@@ -203,8 +203,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetEaseArcadeFlowCoordinator*, creationType>()));
     }
   }; // NetEaseArcadeFlowCoordinator
+  #pragma pack(pop)
   static check_size<sizeof(NetEaseArcadeFlowCoordinator), 336 + sizeof(GlobalNamespace::MenuTransitionsHelper*)> __GlobalNamespace_NetEaseArcadeFlowCoordinatorSizeCheck;
   static_assert(sizeof(NetEaseArcadeFlowCoordinator) == 0x158);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseArcadeFlowCoordinator*, "", "NetEaseArcadeFlowCoordinator");

@@ -45,8 +45,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<TrackColorAttribute*, creationType>(r, g, b)));
     }
   }; // UnityEngine.Timeline.TrackColorAttribute
+  #pragma pack(pop)
   static check_size<sizeof(TrackColorAttribute), 16 + sizeof(UnityEngine::Color)> __UnityEngine_Timeline_TrackColorAttributeSizeCheck;
   static_assert(sizeof(TrackColorAttribute) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackColorAttribute*, "UnityEngine.Timeline", "TrackColorAttribute");

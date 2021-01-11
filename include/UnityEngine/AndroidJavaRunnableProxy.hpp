@@ -49,8 +49,8 @@ namespace UnityEngine {
     // Offset: 0x19A1558
     void run();
   }; // UnityEngine.AndroidJavaRunnableProxy
+  #pragma pack(pop)
   static check_size<sizeof(AndroidJavaRunnableProxy), 32 + sizeof(UnityEngine::AndroidJavaRunnable*)> __UnityEngine_AndroidJavaRunnableProxySizeCheck;
   static_assert(sizeof(AndroidJavaRunnableProxy) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaRunnableProxy*, "UnityEngine", "AndroidJavaRunnableProxy");

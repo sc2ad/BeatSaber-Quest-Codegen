@@ -34,6 +34,6 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<ExcludeFromPresetAttribute*, creationType>()));
     }
   }; // UnityEngine.ExcludeFromPresetAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ExcludeFromPresetAttribute*, "UnityEngine", "ExcludeFromPresetAttribute");

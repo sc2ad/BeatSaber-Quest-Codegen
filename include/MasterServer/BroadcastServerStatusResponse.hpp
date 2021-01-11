@@ -90,6 +90,7 @@ namespace MasterServer {
       // Set static field: static public MasterServer.BroadcastServerStatusResponse/Result UnknownError
       static void _set_UnknownError(MasterServer::BroadcastServerStatusResponse::Result value);
     }; // MasterServer.BroadcastServerStatusResponse/Result
+    #pragma pack(pop)
     static check_size<sizeof(BroadcastServerStatusResponse::Result), 0 + sizeof(uint8_t)> __MasterServer_BroadcastServerStatusResponse_ResultSizeCheck;
     static_assert(sizeof(BroadcastServerStatusResponse::Result) == 0x1);
     // public MasterServer.BroadcastServerStatusResponse/Result result
@@ -169,9 +170,9 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<BroadcastServerStatusResponse*, creationType>()));
     }
   }; // MasterServer.BroadcastServerStatusResponse
+  #pragma pack(pop)
   static check_size<sizeof(BroadcastServerStatusResponse), 40 + sizeof(::Il2CppString*)> __MasterServer_BroadcastServerStatusResponseSizeCheck;
   static_assert(sizeof(BroadcastServerStatusResponse) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BroadcastServerStatusResponse*, "MasterServer", "BroadcastServerStatusResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BroadcastServerStatusResponse::Result, "MasterServer", "BroadcastServerStatusResponse/Result");

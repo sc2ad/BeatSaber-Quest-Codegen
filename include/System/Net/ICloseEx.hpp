@@ -25,7 +25,7 @@ namespace System::Net {
     // Offset: 0xFFFFFFFF
     void System_Net_ICloseEx_CloseEx(System::Net::CloseExState closeState);
   }; // System.Net.ICloseEx
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ICloseEx*, "System.Net", "ICloseEx");

@@ -176,8 +176,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ModalView*, creationType>()));
     }
   }; // HMUI.ModalView
+  #pragma pack(pop)
   static check_size<sizeof(ModalView), 96 + sizeof(int)> __HMUI_ModalViewSizeCheck;
   static_assert(sizeof(ModalView) == 0x64);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView*, "HMUI", "ModalView");

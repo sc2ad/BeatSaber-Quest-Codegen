@@ -564,6 +564,7 @@ namespace System {
     // Base method: System.Type Object::GetType()
     System::Type* GetType();
   }; // System.Type
+  #pragma pack(pop)
   static check_size<sizeof(Type), 16 + sizeof(System::RuntimeTypeHandle)> __System_TypeSizeCheck;
   static_assert(sizeof(Type) == 0x18);
   // static public System.Boolean op_Equality(System.Type left, System.Type right)
@@ -573,5 +574,4 @@ namespace System {
   // Offset: 0x1656074
   bool operator !=(System::Type* left, System::Type& right);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Type*, "System", "Type");

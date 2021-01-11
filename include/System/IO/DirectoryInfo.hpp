@@ -98,8 +98,8 @@ namespace System::IO {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.IO.DirectoryInfo
+  #pragma pack(pop)
   static check_size<sizeof(DirectoryInfo), 104 + sizeof(::Il2CppString*)> __System_IO_DirectoryInfoSizeCheck;
   static_assert(sizeof(DirectoryInfo) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::DirectoryInfo*, "System.IO", "DirectoryInfo");

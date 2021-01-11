@@ -112,8 +112,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<CharEnumerator*, creationType>()));
     }
   }; // System.CharEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(CharEnumerator), 28 + sizeof(::Il2CppChar)> __System_CharEnumeratorSizeCheck;
   static_assert(sizeof(CharEnumerator) == 0x1E);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::CharEnumerator*, "System", "CharEnumerator");

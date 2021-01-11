@@ -123,8 +123,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.DerInteger
+  #pragma pack(pop)
   static check_size<sizeof(DerInteger), 24 + sizeof(int)> __Org_BouncyCastle_Asn1_DerIntegerSizeCheck;
   static_assert(sizeof(DerInteger) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerInteger*, "Org.BouncyCastle.Asn1", "DerInteger");

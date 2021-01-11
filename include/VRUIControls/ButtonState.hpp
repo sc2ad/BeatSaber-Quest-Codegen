@@ -76,8 +76,8 @@ namespace VRUIControls {
       return THROW_UNLESS((::il2cpp_utils::New<ButtonState*, creationType>()));
     }
   }; // VRUIControls.ButtonState
+  #pragma pack(pop)
   static check_size<sizeof(ButtonState), 32 + sizeof(float)> __VRUIControls_ButtonStateSizeCheck;
   static_assert(sizeof(ButtonState) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::ButtonState*, "VRUIControls", "ButtonState");

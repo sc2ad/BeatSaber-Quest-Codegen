@@ -90,8 +90,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ScreenModeController*, creationType>()));
     }
   }; // HMUI.ScreenModeController
+  #pragma pack(pop)
   static check_size<sizeof(ScreenModeController), 48 + sizeof(UnityEngine::Transform*)> __HMUI_ScreenModeControllerSizeCheck;
   static_assert(sizeof(ScreenModeController) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeController*, "HMUI", "ScreenModeController");

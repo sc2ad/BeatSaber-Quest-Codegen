@@ -110,9 +110,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.ETrackedPropertyError TrackedProp_CannotWriteToWildcards
     static void _set_TrackedProp_CannotWriteToWildcards(Valve::VR::ETrackedPropertyError value);
   }; // Valve.VR.ETrackedPropertyError
+  #pragma pack(pop)
   static check_size<sizeof(ETrackedPropertyError), 0 + sizeof(int)> __Valve_VR_ETrackedPropertyErrorSizeCheck;
   static_assert(sizeof(ETrackedPropertyError) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::ETrackedPropertyError, "Valve.VR", "ETrackedPropertyError");

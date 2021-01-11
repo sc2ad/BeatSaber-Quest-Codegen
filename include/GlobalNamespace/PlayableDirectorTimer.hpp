@@ -65,8 +65,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayableDirectorTimer*, creationType>()));
     }
   }; // PlayableDirectorTimer
+  #pragma pack(pop)
   static check_size<sizeof(PlayableDirectorTimer), 32 + sizeof(GlobalNamespace::AudioTimeSyncController*)> __GlobalNamespace_PlayableDirectorTimerSizeCheck;
   static_assert(sizeof(PlayableDirectorTimer) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayableDirectorTimer*, "", "PlayableDirectorTimer");

@@ -56,6 +56,7 @@ namespace OnlineServices {
       // Set static field: static public OnlineServices.PlatformServicesAvailabilityInfo/OnlineServicesAvailability Unavailable
       static void _set_Unavailable(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability value);
     }; // OnlineServices.PlatformServicesAvailabilityInfo/OnlineServicesAvailability
+    #pragma pack(pop)
     static check_size<sizeof(PlatformServicesAvailabilityInfo::OnlineServicesAvailability), 0 + sizeof(int)> __OnlineServices_PlatformServicesAvailabilityInfo_OnlineServicesAvailabilitySizeCheck;
     static_assert(sizeof(PlatformServicesAvailabilityInfo::OnlineServicesAvailability) == 0x4);
     // public readonly OnlineServices.PlatformServicesAvailabilityInfo/OnlineServicesAvailability availability
@@ -88,9 +89,9 @@ namespace OnlineServices {
     // Offset: 0xEFF5F4
     static OnlineServices::PlatformServicesAvailabilityInfo* get_onlineServicesUnavailableError();
   }; // OnlineServices.PlatformServicesAvailabilityInfo
+  #pragma pack(pop)
   static check_size<sizeof(PlatformServicesAvailabilityInfo), 24 + sizeof(::Il2CppString*)> __OnlineServices_PlatformServicesAvailabilityInfoSizeCheck;
   static_assert(sizeof(PlatformServicesAvailabilityInfo) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformServicesAvailabilityInfo*, "OnlineServices", "PlatformServicesAvailabilityInfo");
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability, "OnlineServices", "PlatformServicesAvailabilityInfo/OnlineServicesAvailability");

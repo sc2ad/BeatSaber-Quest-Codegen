@@ -59,6 +59,6 @@ namespace GlobalNamespace {
     // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap()
     void ConfigureAxis2DMap();
   }; // OVRInput/OVRControllerGamepadPC
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerGamepadPC*, "", "OVRInput/OVRControllerGamepadPC");

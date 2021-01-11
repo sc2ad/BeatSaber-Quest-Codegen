@@ -76,6 +76,7 @@ namespace HMUI {
       // Set static field: static public HMUI.ImageView/GradientDirection Vertical
       static void _set_Vertical(HMUI::ImageView::GradientDirection value);
     }; // HMUI.ImageView/GradientDirection
+    #pragma pack(pop)
     static check_size<sizeof(ImageView::GradientDirection), 0 + sizeof(int)> __HMUI_ImageView_GradientDirectionSizeCheck;
     static_assert(sizeof(ImageView::GradientDirection) == 0x4);
     // private System.Single _skew
@@ -270,9 +271,9 @@ namespace HMUI {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // HMUI.ImageView
+  #pragma pack(pop)
   static check_size<sizeof(ImageView), 296 + sizeof(HMUI::CurvedCanvasSettingsHelper*)> __HMUI_ImageViewSizeCheck;
   static_assert(sizeof(ImageView) == 0x130);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageView*, "HMUI", "ImageView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageView::GradientDirection, "HMUI", "ImageView/GradientDirection");

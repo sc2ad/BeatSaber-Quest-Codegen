@@ -138,7 +138,7 @@ namespace System::IO {
     // Offset: 0x143829C
     static int FillAttributeInfo(::Il2CppString* path, System::IO::MonoIOStat& data, bool tryagain, bool returnErrorOnNotFound);
   }; // System.IO.File
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::File*, "System.IO", "File");

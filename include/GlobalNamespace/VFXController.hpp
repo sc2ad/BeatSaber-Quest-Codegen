@@ -91,8 +91,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VFXController*, creationType>()));
     }
   }; // VFXController
+  #pragma pack(pop)
   static check_size<sizeof(VFXController), 40 + sizeof(bool)> __GlobalNamespace_VFXControllerSizeCheck;
   static_assert(sizeof(VFXController) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXController*, "", "VFXController");

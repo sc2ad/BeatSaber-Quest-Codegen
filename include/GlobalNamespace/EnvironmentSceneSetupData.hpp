@@ -39,8 +39,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentSceneSetupData*, creationType>(hideBranding)));
     }
   }; // EnvironmentSceneSetupData
+  #pragma pack(pop)
   static check_size<sizeof(EnvironmentSceneSetupData), 16 + sizeof(bool)> __GlobalNamespace_EnvironmentSceneSetupDataSizeCheck;
   static_assert(sizeof(EnvironmentSceneSetupData) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSceneSetupData*, "", "EnvironmentSceneSetupData");

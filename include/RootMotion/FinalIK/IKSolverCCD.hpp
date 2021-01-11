@@ -65,8 +65,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverCCD*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolverCCD
+  #pragma pack(pop)
   static check_size<sizeof(IKSolverCCD), 136 + sizeof(RootMotion::FinalIK::IKSolver::IterationDelegate*)> __RootMotion_FinalIK_IKSolverCCDSizeCheck;
   static_assert(sizeof(IKSolverCCD) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverCCD*, "RootMotion.FinalIK", "IKSolverCCD");

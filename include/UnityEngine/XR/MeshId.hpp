@@ -74,9 +74,9 @@ namespace UnityEngine::XR {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.XR.MeshId other)
     bool Equals(UnityEngine::XR::MeshId other);
   }; // UnityEngine.XR.MeshId
+  #pragma pack(pop)
   static check_size<sizeof(MeshId), 8 + sizeof(uint64_t)> __UnityEngine_XR_MeshIdSizeCheck;
   static_assert(sizeof(MeshId) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshId, "UnityEngine.XR", "MeshId");

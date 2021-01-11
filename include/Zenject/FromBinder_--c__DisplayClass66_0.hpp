@@ -71,8 +71,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<FromBinder::$$c__DisplayClass66_0*, creationType>()));
     }
   }; // Zenject.FromBinder/<>c__DisplayClass66_0
+  #pragma pack(pop)
   static check_size<sizeof(FromBinder::$$c__DisplayClass66_0), 24 + sizeof(System::Func_2<UnityEngine::Component*, bool>*)> __Zenject_FromBinder_$$c__DisplayClass66_0SizeCheck;
   static_assert(sizeof(FromBinder::$$c__DisplayClass66_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c__DisplayClass66_0*, "Zenject", "FromBinder/<>c__DisplayClass66_0");

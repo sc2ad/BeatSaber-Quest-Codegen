@@ -127,8 +127,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // ParametricBoxFrameController
+  #pragma pack(pop)
   static check_size<sizeof(ParametricBoxFrameController), 64 + sizeof(GlobalNamespace::MaterialPropertyBlockController*)> __GlobalNamespace_ParametricBoxFrameControllerSizeCheck;
   static_assert(sizeof(ParametricBoxFrameController) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxFrameController*, "", "ParametricBoxFrameController");

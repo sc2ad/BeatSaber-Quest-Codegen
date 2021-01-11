@@ -65,8 +65,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<ContextMenu*, creationType>(itemName, isValidateFunction, priority)));
     }
   }; // UnityEngine.ContextMenu
+  #pragma pack(pop)
   static check_size<sizeof(ContextMenu), 28 + sizeof(int)> __UnityEngine_ContextMenuSizeCheck;
   static_assert(sizeof(ContextMenu) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContextMenu*, "UnityEngine", "ContextMenu");

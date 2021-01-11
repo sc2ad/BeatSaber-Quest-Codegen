@@ -96,8 +96,8 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Void BufferedCipherBase::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.BufferedAsymmetricBlockCipher
+  #pragma pack(pop)
   static check_size<sizeof(BufferedAsymmetricBlockCipher), 32 + sizeof(int)> __Org_BouncyCastle_Crypto_BufferedAsymmetricBlockCipherSizeCheck;
   static_assert(sizeof(BufferedAsymmetricBlockCipher) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher*, "Org.BouncyCastle.Crypto", "BufferedAsymmetricBlockCipher");

@@ -59,8 +59,8 @@ namespace System::Runtime::CompilerServices {
       return THROW_UNLESS((::il2cpp_utils::New<AsyncMethodBuilderCore::$$c__DisplayClass4_0*, creationType>()));
     }
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/<>c__DisplayClass4_0
+  #pragma pack(pop)
   static check_size<sizeof(AsyncMethodBuilderCore::$$c__DisplayClass4_0), 24 + sizeof(System::Action*)> __System_Runtime_CompilerServices_AsyncMethodBuilderCore_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(AsyncMethodBuilderCore::$$c__DisplayClass4_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c__DisplayClass4_0*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/<>c__DisplayClass4_0");

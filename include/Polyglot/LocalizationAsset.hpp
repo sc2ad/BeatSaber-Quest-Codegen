@@ -62,8 +62,8 @@ namespace Polyglot {
       return THROW_UNLESS((::il2cpp_utils::New<LocalizationAsset*, creationType>()));
     }
   }; // Polyglot.LocalizationAsset
+  #pragma pack(pop)
   static check_size<sizeof(LocalizationAsset), 24 + sizeof(Polyglot::GoogleDriveDownloadFormat)> __Polyglot_LocalizationAssetSizeCheck;
   static_assert(sizeof(LocalizationAsset) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationAsset*, "Polyglot", "LocalizationAsset");

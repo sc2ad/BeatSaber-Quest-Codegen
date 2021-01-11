@@ -126,8 +126,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<RelayServerStatusUpdateRequest*, creationType>()));
     }
   }; // MasterServer.RelayServerStatusUpdateRequest
+  #pragma pack(pop)
   static check_size<sizeof(RelayServerStatusUpdateRequest), 48 + sizeof(int)> __MasterServer_RelayServerStatusUpdateRequestSizeCheck;
   static_assert(sizeof(RelayServerStatusUpdateRequest) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::RelayServerStatusUpdateRequest*, "MasterServer", "RelayServerStatusUpdateRequest");

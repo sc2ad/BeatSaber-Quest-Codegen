@@ -134,8 +134,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<GetPublicServersRequest*, creationType>()));
     }
   }; // MasterServer.GetPublicServersRequest
+  #pragma pack(pop)
   static check_size<sizeof(GetPublicServersRequest), 48 + sizeof(GlobalNamespace::GameplayServerFilter)> __MasterServer_GetPublicServersRequestSizeCheck;
   static_assert(sizeof(GetPublicServersRequest) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetPublicServersRequest*, "MasterServer", "GetPublicServersRequest");

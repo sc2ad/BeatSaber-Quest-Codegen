@@ -67,8 +67,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CountdownElementController*, creationType>()));
     }
   }; // CountdownElementController
+  #pragma pack(pop)
   static check_size<sizeof(CountdownElementController), 32 + sizeof(UnityEngine::Animation*)> __GlobalNamespace_CountdownElementControllerSizeCheck;
   static_assert(sizeof(CountdownElementController) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CountdownElementController*, "", "CountdownElementController");

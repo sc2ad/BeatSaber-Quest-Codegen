@@ -179,8 +179,8 @@ namespace GlobalNamespace {
     // Base method: System.Void OVRComposition::Cleanup()
     void Cleanup();
   }; // OVRExternalComposition
+  #pragma pack(pop)
   static check_size<sizeof(OVRExternalComposition), 160 + sizeof(int)> __GlobalNamespace_OVRExternalCompositionSizeCheck;
   static_assert(sizeof(OVRExternalComposition) == 0xA4);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRExternalComposition*, "", "OVRExternalComposition");

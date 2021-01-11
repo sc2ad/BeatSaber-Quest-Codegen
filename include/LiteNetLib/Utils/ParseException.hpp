@@ -31,6 +31,6 @@ namespace LiteNetLib::Utils {
       return THROW_UNLESS((::il2cpp_utils::New<ParseException*, creationType>(message)));
     }
   }; // LiteNetLib.Utils.ParseException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::ParseException*, "LiteNetLib.Utils", "ParseException");

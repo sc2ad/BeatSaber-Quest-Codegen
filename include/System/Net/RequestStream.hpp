@@ -171,8 +171,8 @@ namespace System::Net {
     // Base method: System.Void Stream::EndWrite(System.IAsyncResult async_result)
     void EndWrite(System::IAsyncResult* async_result);
   }; // System.Net.RequestStream
+  #pragma pack(pop)
   static check_size<sizeof(RequestStream), 72 + sizeof(System::IO::Stream*)> __System_Net_RequestStreamSizeCheck;
   static_assert(sizeof(RequestStream) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::RequestStream*, "System.Net", "RequestStream");

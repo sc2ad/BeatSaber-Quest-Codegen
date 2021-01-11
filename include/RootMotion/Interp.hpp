@@ -131,6 +131,6 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<Interp*, creationType>()));
     }
   }; // RootMotion.Interp
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Interp*, "RootMotion", "Interp");

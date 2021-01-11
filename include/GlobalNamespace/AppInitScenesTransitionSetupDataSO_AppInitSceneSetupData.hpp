@@ -50,8 +50,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*, creationType>(appInitOverrideStartType)));
     }
   }; // AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData
+  #pragma pack(pop)
   static check_size<sizeof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData), 16 + sizeof(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType)> __GlobalNamespace_AppInitScenesTransitionSetupDataSO_AppInitSceneSetupDataSizeCheck;
   static_assert(sizeof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*, "", "AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData");

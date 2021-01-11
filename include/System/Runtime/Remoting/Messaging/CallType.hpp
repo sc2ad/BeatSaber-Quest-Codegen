@@ -56,9 +56,9 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static public System.Runtime.Remoting.Messaging.CallType OneWay
     static void _set_OneWay(System::Runtime::Remoting::Messaging::CallType value);
   }; // System.Runtime.Remoting.Messaging.CallType
+  #pragma pack(pop)
   static check_size<sizeof(CallType), 0 + sizeof(int)> __System_Runtime_Remoting_Messaging_CallTypeSizeCheck;
   static_assert(sizeof(CallType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallType, "System.Runtime.Remoting.Messaging", "CallType");

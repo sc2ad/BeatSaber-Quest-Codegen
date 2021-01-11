@@ -74,8 +74,8 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::LookupVar(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
   }; // Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519/Curve25519LookupTable
+  #pragma pack(pop)
   static check_size<sizeof(Curve25519::Curve25519LookupTable), 32 + sizeof(int)> __Org_BouncyCastle_Math_EC_Custom_Djb_Curve25519_Curve25519LookupTableSizeCheck;
   static_assert(sizeof(Curve25519::Curve25519LookupTable) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable*, "Org.BouncyCastle.Math.EC.Custom.Djb", "Curve25519/Curve25519LookupTable");

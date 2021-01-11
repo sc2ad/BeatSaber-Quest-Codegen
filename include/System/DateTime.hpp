@@ -706,6 +706,7 @@ namespace System {
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.DateTime
+  #pragma pack(pop)
   static check_size<sizeof(DateTime), 0 + sizeof(uint64_t)> __System_DateTimeSizeCheck;
   static_assert(sizeof(DateTime) == 0x8);
   // static public System.DateTime op_Addition(System.DateTime d, System.TimeSpan t)
@@ -736,5 +737,4 @@ namespace System {
   // Offset: 0x1540570
   bool operator >=(const System::DateTime& t1, const System::DateTime& t2);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::DateTime, "System", "DateTime");

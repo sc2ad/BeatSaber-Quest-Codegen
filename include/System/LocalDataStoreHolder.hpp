@@ -52,8 +52,8 @@ namespace System {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.LocalDataStoreHolder
+  #pragma pack(pop)
   static check_size<sizeof(LocalDataStoreHolder), 16 + sizeof(System::LocalDataStore*)> __System_LocalDataStoreHolderSizeCheck;
   static_assert(sizeof(LocalDataStoreHolder) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreHolder*, "System", "LocalDataStoreHolder");

@@ -32,7 +32,7 @@ namespace UnityEngine {
     // Offset: 0x1A0071C
     int GetMeshes(::Array<UnityEngine::Mesh*>*& meshes);
   }; // UnityEngine.ParticleSystemRenderer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystemRenderer*, "UnityEngine", "ParticleSystemRenderer");

@@ -129,8 +129,8 @@ namespace System::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.Stack
+  #pragma pack(pop)
   static check_size<sizeof(Stack), 28 + sizeof(int)> __System_Collections_StackSizeCheck;
   static_assert(sizeof(Stack) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Stack*, "System.Collections", "Stack");

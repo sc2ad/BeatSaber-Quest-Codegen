@@ -50,6 +50,6 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, difficultyBeatmapSets);
     }
   }; // DifficultyBeatmapSetExtensions
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyBeatmapSetExtensions*, "", "DifficultyBeatmapSetExtensions");

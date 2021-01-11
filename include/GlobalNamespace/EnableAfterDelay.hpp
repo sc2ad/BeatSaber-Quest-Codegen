@@ -58,8 +58,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnableAfterDelay*, creationType>()));
     }
   }; // EnableAfterDelay
+  #pragma pack(pop)
   static check_size<sizeof(EnableAfterDelay), 24 + sizeof(UnityEngine::MonoBehaviour*)> __GlobalNamespace_EnableAfterDelaySizeCheck;
   static_assert(sizeof(EnableAfterDelay) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableAfterDelay*, "", "EnableAfterDelay");

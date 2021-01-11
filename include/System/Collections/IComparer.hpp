@@ -22,7 +22,7 @@ namespace System::Collections {
     // Offset: 0xFFFFFFFF
     int System_Collections_IComparer_Compare(::Il2CppObject* x, ::Il2CppObject* y);
   }; // System.Collections.IComparer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IComparer*, "System.Collections", "IComparer");

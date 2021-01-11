@@ -132,6 +132,7 @@ namespace MasterServer {
       // Set static field: static public MasterServer.ConnectToServerResponse/Result UnknownError
       static void _set_UnknownError(MasterServer::ConnectToServerResponse::Result value);
     }; // MasterServer.ConnectToServerResponse/Result
+    #pragma pack(pop)
     static check_size<sizeof(ConnectToServerResponse::Result), 0 + sizeof(uint8_t)> __MasterServer_ConnectToServerResponse_ResultSizeCheck;
     static_assert(sizeof(ConnectToServerResponse::Result) == 0x1);
     // public MasterServer.ConnectToServerResponse/Result result
@@ -277,9 +278,9 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectToServerResponse*, creationType>()));
     }
   }; // MasterServer.ConnectToServerResponse
+  #pragma pack(pop)
   static check_size<sizeof(ConnectToServerResponse), 120 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_ConnectToServerResponseSizeCheck;
   static_assert(sizeof(ConnectToServerResponse) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToServerResponse*, "MasterServer", "ConnectToServerResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToServerResponse::Result, "MasterServer", "ConnectToServerResponse/Result");

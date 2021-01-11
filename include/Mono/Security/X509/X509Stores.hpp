@@ -49,8 +49,8 @@ namespace Mono::Security::X509 {
     // Offset: 0x19C697C
     Mono::Security::X509::X509Store* Open(::Il2CppString* storeName, bool create);
   }; // Mono.Security.X509.X509Stores
+  #pragma pack(pop)
   static check_size<sizeof(X509Stores), 24 + sizeof(bool)> __Mono_Security_X509_X509StoresSizeCheck;
   static_assert(sizeof(X509Stores) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Stores*, "Mono.Security.X509", "X509Stores");

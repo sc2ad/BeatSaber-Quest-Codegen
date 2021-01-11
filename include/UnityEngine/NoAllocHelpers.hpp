@@ -79,6 +79,6 @@ namespace UnityEngine {
     // Offset: 0x172C02C
     static System::Array* ExtractArrayFromList(::Il2CppObject* list);
   }; // UnityEngine.NoAllocHelpers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::NoAllocHelpers*, "UnityEngine", "NoAllocHelpers");

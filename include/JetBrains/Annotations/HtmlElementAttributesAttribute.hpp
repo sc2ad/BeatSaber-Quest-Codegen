@@ -57,8 +57,8 @@ namespace JetBrains::Annotations {
       return THROW_UNLESS((::il2cpp_utils::New<HtmlElementAttributesAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.HtmlElementAttributesAttribute
+  #pragma pack(pop)
   static check_size<sizeof(HtmlElementAttributesAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_HtmlElementAttributesAttributeSizeCheck;
   static_assert(sizeof(HtmlElementAttributesAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::HtmlElementAttributesAttribute*, "JetBrains.Annotations", "HtmlElementAttributesAttribute");

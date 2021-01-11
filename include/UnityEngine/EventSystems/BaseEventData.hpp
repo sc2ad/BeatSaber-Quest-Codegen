@@ -62,8 +62,8 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x114A4B0
     void set_selectedObject(UnityEngine::GameObject* value);
   }; // UnityEngine.EventSystems.BaseEventData
+  #pragma pack(pop)
   static check_size<sizeof(BaseEventData), 24 + sizeof(UnityEngine::EventSystems::EventSystem*)> __UnityEngine_EventSystems_BaseEventDataSizeCheck;
   static_assert(sizeof(BaseEventData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseEventData*, "UnityEngine.EventSystems", "BaseEventData");

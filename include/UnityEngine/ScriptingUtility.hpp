@@ -26,7 +26,7 @@ namespace UnityEngine {
     // Offset: 0x16C05B8
     static bool IsManagedCodeWorking();
   }; // UnityEngine.ScriptingUtility
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptingUtility*, "UnityEngine", "ScriptingUtility");

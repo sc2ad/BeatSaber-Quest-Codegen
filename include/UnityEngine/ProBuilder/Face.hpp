@@ -263,8 +263,8 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.Face
+  #pragma pack(pop)
   static check_size<sizeof(Face), 96 + sizeof(::Array<UnityEngine::ProBuilder::Edge>*)> __UnityEngine_ProBuilder_FaceSizeCheck;
   static_assert(sizeof(Face) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Face*, "UnityEngine.ProBuilder", "Face");

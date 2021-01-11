@@ -59,6 +59,6 @@ namespace Valve::VR {
     // Offset: 0x1930930
     bool EndInvoke(Valve::VR::VREvent_t& pEvent, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_PollNextEventWithPose
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_PollNextEventWithPose*, "Valve.VR", "IVRSystem/_PollNextEventWithPose");

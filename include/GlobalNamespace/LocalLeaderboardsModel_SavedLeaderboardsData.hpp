@@ -49,8 +49,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LocalLeaderboardsModel::SavedLeaderboardsData*, creationType>()));
     }
   }; // LocalLeaderboardsModel/SavedLeaderboardsData
+  #pragma pack(pop)
   static check_size<sizeof(LocalLeaderboardsModel::SavedLeaderboardsData), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*)> __GlobalNamespace_LocalLeaderboardsModel_SavedLeaderboardsDataSizeCheck;
   static_assert(sizeof(LocalLeaderboardsModel::SavedLeaderboardsData) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel::SavedLeaderboardsData*, "", "LocalLeaderboardsModel/SavedLeaderboardsData");

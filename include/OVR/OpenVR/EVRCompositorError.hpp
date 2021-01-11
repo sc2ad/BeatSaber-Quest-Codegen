@@ -104,9 +104,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRCompositorError InvalidBounds
     static void _set_InvalidBounds(OVR::OpenVR::EVRCompositorError value);
   }; // OVR.OpenVR.EVRCompositorError
+  #pragma pack(pop)
   static check_size<sizeof(EVRCompositorError), 0 + sizeof(int)> __OVR_OpenVR_EVRCompositorErrorSizeCheck;
   static_assert(sizeof(EVRCompositorError) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRCompositorError, "OVR.OpenVR", "EVRCompositorError");

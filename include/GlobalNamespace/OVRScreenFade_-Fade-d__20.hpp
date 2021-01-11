@@ -102,8 +102,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // OVRScreenFade/<Fade>d__20
+  #pragma pack(pop)
   static check_size<sizeof(OVRScreenFade::$Fade$d__20), 48 + sizeof(float)> __GlobalNamespace_OVRScreenFade_$Fade$d__20SizeCheck;
   static_assert(sizeof(OVRScreenFade::$Fade$d__20) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRScreenFade::$Fade$d__20*, "", "OVRScreenFade/<Fade>d__20");

@@ -32,9 +32,9 @@ namespace System {
       return value;
     }
   }; // System.Int64Enum
+  #pragma pack(pop)
   static check_size<sizeof(Int64Enum), 0 + sizeof(int64_t)> __System_Int64EnumSizeCheck;
   static_assert(sizeof(Int64Enum) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Int64Enum, "System", "Int64Enum");

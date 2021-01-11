@@ -96,8 +96,8 @@ namespace UnityEngine {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.AndroidJavaProxy
+  #pragma pack(pop)
   static check_size<sizeof(AndroidJavaProxy), 24 + sizeof(System::IntPtr)> __UnityEngine_AndroidJavaProxySizeCheck;
   static_assert(sizeof(AndroidJavaProxy) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaProxy*, "UnityEngine", "AndroidJavaProxy");

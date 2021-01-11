@@ -62,8 +62,8 @@ namespace Valve::VR {
     // Offset: 0xCB67D8
     void Unpack(Valve::VR::RenderModel_TextureMap_t& unpacked);
   }; // Valve.VR.RenderModel_TextureMap_t_Packed
+  #pragma pack(pop)
   static check_size<sizeof(RenderModel_TextureMap_t_Packed), 8 + sizeof(System::IntPtr)> __Valve_VR_RenderModel_TextureMap_t_PackedSizeCheck;
   static_assert(sizeof(RenderModel_TextureMap_t_Packed) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_TextureMap_t_Packed, "Valve.VR", "RenderModel_TextureMap_t_Packed");

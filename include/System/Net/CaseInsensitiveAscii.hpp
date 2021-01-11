@@ -80,6 +80,6 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<CaseInsensitiveAscii*, creationType>()));
     }
   }; // System.Net.CaseInsensitiveAscii
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CaseInsensitiveAscii*, "System.Net", "CaseInsensitiveAscii");

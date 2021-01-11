@@ -66,8 +66,8 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void PhysicsRaycaster::Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
     void Raycast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList);
   }; // UnityEngine.EventSystems.Physics2DRaycaster
+  #pragma pack(pop)
   static check_size<sizeof(Physics2DRaycaster), 64 + sizeof(::Array<UnityEngine::RaycastHit2D>*)> __UnityEngine_EventSystems_Physics2DRaycasterSizeCheck;
   static_assert(sizeof(Physics2DRaycaster) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::Physics2DRaycaster*, "UnityEngine.EventSystems", "Physics2DRaycaster");

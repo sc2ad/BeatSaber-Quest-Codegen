@@ -80,8 +80,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<AimIK*, creationType>()));
     }
   }; // RootMotion.FinalIK.AimIK
+  #pragma pack(pop)
   static check_size<sizeof(AimIK), 56 + sizeof(RootMotion::FinalIK::IKSolverAim*)> __RootMotion_FinalIK_AimIKSizeCheck;
   static_assert(sizeof(AimIK) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimIK*, "RootMotion.FinalIK", "AimIK");

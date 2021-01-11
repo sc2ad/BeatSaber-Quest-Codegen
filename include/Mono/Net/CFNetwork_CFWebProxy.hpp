@@ -97,8 +97,8 @@ namespace Mono::Net {
     // Base method: System.Boolean IWebProxy::IsBypassed(System.Uri targetUri)
     bool IsBypassed(System::Uri* targetUri);
   }; // Mono.Net.CFNetwork/CFWebProxy
+  #pragma pack(pop)
   static check_size<sizeof(CFNetwork::CFWebProxy), 24 + sizeof(bool)> __Mono_Net_CFNetwork_CFWebProxySizeCheck;
   static_assert(sizeof(CFNetwork::CFWebProxy) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::CFWebProxy*, "Mono.Net", "CFNetwork/CFWebProxy");

@@ -50,6 +50,6 @@ namespace System::Collections {
     // Maps to method: Compare
     int System_Collections_IComparer_Compare(::Il2CppObject* a, ::Il2CppObject* b);
   }; // System.Collections.LowLevelComparer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::LowLevelComparer*, "System.Collections", "LowLevelComparer");

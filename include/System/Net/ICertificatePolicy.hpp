@@ -32,7 +32,7 @@ namespace System::Net {
     // Offset: 0xFFFFFFFF
     bool CheckValidationResult(System::Net::ServicePoint* srvPoint, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Net::WebRequest* request, int certificateProblem);
   }; // System.Net.ICertificatePolicy
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ICertificatePolicy*, "System.Net", "ICertificatePolicy");

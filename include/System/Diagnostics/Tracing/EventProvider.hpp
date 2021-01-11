@@ -99,6 +99,7 @@ namespace System::Diagnostics::Tracing {
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  SessionInfo(int sessionIdBit_, int etwSessionId_)
     }; // System.Diagnostics.Tracing.EventProvider/SessionInfo
+    #pragma pack(pop)
     static check_size<sizeof(EventProvider::SessionInfo), 4 + sizeof(int)> __System_Diagnostics_Tracing_EventProvider_SessionInfoSizeCheck;
     static_assert(sizeof(EventProvider::SessionInfo) == 0x8);
     // Size: 0x4
@@ -160,6 +161,7 @@ namespace System::Diagnostics::Tracing {
       // Set static field: static public System.Diagnostics.Tracing.EventProvider/WriteEventErrorCode Other
       static void _set_Other(System::Diagnostics::Tracing::EventProvider::WriteEventErrorCode value);
     }; // System.Diagnostics.Tracing.EventProvider/WriteEventErrorCode
+    #pragma pack(pop)
     static check_size<sizeof(EventProvider::WriteEventErrorCode), 0 + sizeof(int)> __System_Diagnostics_Tracing_EventProvider_WriteEventErrorCodeSizeCheck;
     static_assert(sizeof(EventProvider::WriteEventErrorCode) == 0x4);
     // private Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EtwEnableCallback m_etwCallback
@@ -358,10 +360,10 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Diagnostics.Tracing.EventProvider
+  #pragma pack(pop)
   static check_size<sizeof(EventProvider), 92 + sizeof(bool)> __System_Diagnostics_Tracing_EventProviderSizeCheck;
   static_assert(sizeof(EventProvider) == 0x5D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventProvider*, "System.Diagnostics.Tracing", "EventProvider");
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventProvider::SessionInfo, "System.Diagnostics.Tracing", "EventProvider/SessionInfo");
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventProvider::WriteEventErrorCode, "System.Diagnostics.Tracing", "EventProvider/WriteEventErrorCode");

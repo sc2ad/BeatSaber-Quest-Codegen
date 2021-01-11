@@ -143,8 +143,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<DesEngine*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Engines.DesEngine
+  #pragma pack(pop)
   static check_size<sizeof(DesEngine), 16 + sizeof(::Array<int>*)> __Org_BouncyCastle_Crypto_Engines_DesEngineSizeCheck;
   static_assert(sizeof(DesEngine) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::DesEngine*, "Org.BouncyCastle.Crypto.Engines", "DesEngine");

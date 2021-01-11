@@ -69,8 +69,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<FastAction*, creationType>()));
     }
   }; // TMPro.FastAction
+  #pragma pack(pop)
   static check_size<sizeof(FastAction), 24 + sizeof(System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>*)> __TMPro_FastActionSizeCheck;
   static_assert(sizeof(FastAction) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FastAction*, "TMPro", "FastAction");

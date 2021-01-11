@@ -105,8 +105,8 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Macs.MacCFBBlockCipher
+  #pragma pack(pop)
   static check_size<sizeof(MacCFBBlockCipher), 48 + sizeof(Org::BouncyCastle::Crypto::IBlockCipher*)> __Org_BouncyCastle_Crypto_Macs_MacCFBBlockCipherSizeCheck;
   static_assert(sizeof(MacCFBBlockCipher) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher*, "Org.BouncyCastle.Crypto.Macs", "MacCFBBlockCipher");

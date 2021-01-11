@@ -63,8 +63,8 @@ namespace System::Reflection {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Reflection.LocalVariableInfo
+  #pragma pack(pop)
   static check_size<sizeof(LocalVariableInfo), 26 + sizeof(uint16_t)> __System_Reflection_LocalVariableInfoSizeCheck;
   static_assert(sizeof(LocalVariableInfo) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::LocalVariableInfo*, "System.Reflection", "LocalVariableInfo");

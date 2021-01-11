@@ -202,8 +202,8 @@ namespace Valve::VR {
     // Offset: 0x13698BC
     Valve::VR::EVRCompositorError SubmitExplicitTimingData();
   }; // Valve.VR.CVRCompositor
+  #pragma pack(pop)
   static check_size<sizeof(CVRCompositor), 16 + sizeof(Valve::VR::IVRCompositor)> __Valve_VR_CVRCompositorSizeCheck;
   static_assert(sizeof(CVRCompositor) == 0x168);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRCompositor*, "Valve.VR", "CVRCompositor");

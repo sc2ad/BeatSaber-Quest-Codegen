@@ -103,8 +103,8 @@ namespace GlobalNamespace {
     // Offset: 0x1035E18
     void $RunJob$b__9_0();
   }; // HMTask
+  #pragma pack(pop)
   static check_size<sizeof(HMTask), 42 + sizeof(bool)> __GlobalNamespace_HMTaskSizeCheck;
   static_assert(sizeof(HMTask) == 0x2B);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMTask*, "", "HMTask");

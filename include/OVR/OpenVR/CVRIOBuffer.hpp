@@ -65,8 +65,8 @@ namespace OVR::OpenVR {
     // Offset: 0x11F5484
     uint64_t PropertyContainer(uint64_t ulBuffer);
   }; // OVR.OpenVR.CVRIOBuffer
+  #pragma pack(pop)
   static check_size<sizeof(CVRIOBuffer), 16 + sizeof(OVR::OpenVR::IVRIOBuffer)> __OVR_OpenVR_CVRIOBufferSizeCheck;
   static_assert(sizeof(CVRIOBuffer) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRIOBuffer*, "OVR.OpenVR", "CVRIOBuffer");

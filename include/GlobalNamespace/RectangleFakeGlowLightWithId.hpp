@@ -78,8 +78,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RectangleFakeGlowLightWithId*, creationType>()));
     }
   }; // RectangleFakeGlowLightWithId
+  #pragma pack(pop)
   static check_size<sizeof(RectangleFakeGlowLightWithId), 56 + sizeof(GlobalNamespace::RectangleFakeGlow*)> __GlobalNamespace_RectangleFakeGlowLightWithIdSizeCheck;
   static_assert(sizeof(RectangleFakeGlowLightWithId) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RectangleFakeGlowLightWithId*, "", "RectangleFakeGlowLightWithId");

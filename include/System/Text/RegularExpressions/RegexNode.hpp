@@ -162,8 +162,8 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x1549BF4
     int Type();
   }; // System.Text.RegularExpressions.RegexNode
+  #pragma pack(pop)
   static check_size<sizeof(RegexNode), 56 + sizeof(System::Text::RegularExpressions::RegexNode*)> __System_Text_RegularExpressions_RegexNodeSizeCheck;
   static_assert(sizeof(RegexNode) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexNode*, "System.Text.RegularExpressions", "RegexNode");

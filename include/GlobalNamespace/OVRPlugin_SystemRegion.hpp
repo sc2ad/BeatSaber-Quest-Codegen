@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/SystemRegion China
     static void _set_China(GlobalNamespace::OVRPlugin::SystemRegion value);
   }; // OVRPlugin/SystemRegion
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::SystemRegion), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_SystemRegionSizeCheck;
   static_assert(sizeof(OVRPlugin::SystemRegion) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::SystemRegion, "", "OVRPlugin/SystemRegion");

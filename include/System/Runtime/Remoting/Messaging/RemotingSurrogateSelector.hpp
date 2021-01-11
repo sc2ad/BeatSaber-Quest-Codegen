@@ -87,8 +87,8 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Runtime.Serialization.ISerializationSurrogate ISurrogateSelector::GetSurrogate(System.Type type, System.Runtime.Serialization.StreamingContext context, out System.Runtime.Serialization.ISurrogateSelector ssout)
     System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(System::Type* type, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::ISurrogateSelector*& ssout);
   }; // System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
+  #pragma pack(pop)
   static check_size<sizeof(RemotingSurrogateSelector), 16 + sizeof(System::Runtime::Serialization::ISurrogateSelector*)> __System_Runtime_Remoting_Messaging_RemotingSurrogateSelectorSizeCheck;
   static_assert(sizeof(RemotingSurrogateSelector) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::RemotingSurrogateSelector*, "System.Runtime.Remoting.Messaging", "RemotingSurrogateSelector");

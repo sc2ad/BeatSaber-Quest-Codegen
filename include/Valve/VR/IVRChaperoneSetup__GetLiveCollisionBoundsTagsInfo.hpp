@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x18E0B68
     bool EndInvoke(uint& punTagCount, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_GetLiveCollisionBoundsTagsInfo
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo*, "Valve.VR", "IVRChaperoneSetup/_GetLiveCollisionBoundsTagsInfo");

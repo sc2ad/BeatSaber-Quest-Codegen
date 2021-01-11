@@ -109,8 +109,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MultiplayerLevelFinishedController/<StartLevelFinished>d__20
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLevelFinishedController::$StartLevelFinished$d__20), 52 + sizeof(float)> __GlobalNamespace_MultiplayerLevelFinishedController_$StartLevelFinished$d__20SizeCheck;
   static_assert(sizeof(MultiplayerLevelFinishedController::$StartLevelFinished$d__20) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__20*, "", "MultiplayerLevelFinishedController/<StartLevelFinished>d__20");

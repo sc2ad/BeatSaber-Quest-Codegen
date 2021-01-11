@@ -95,8 +95,8 @@ namespace System::Globalization {
       return THROW_UNLESS((::il2cpp_utils::New<SortKey*, creationType>()));
     }
   }; // System.Globalization.SortKey
+  #pragma pack(pop)
   static check_size<sizeof(SortKey), 36 + sizeof(int)> __System_Globalization_SortKeySizeCheck;
   static_assert(sizeof(SortKey) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortKey*, "System.Globalization", "SortKey");

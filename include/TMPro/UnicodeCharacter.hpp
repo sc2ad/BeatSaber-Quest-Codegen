@@ -80,9 +80,9 @@ namespace TMPro {
     // Set static field: static public TMPro.UnicodeCharacter WORD_JOINER
     static void _set_WORD_JOINER(TMPro::UnicodeCharacter value);
   }; // TMPro.UnicodeCharacter
+  #pragma pack(pop)
   static check_size<sizeof(UnicodeCharacter), 0 + sizeof(uint)> __TMPro_UnicodeCharacterSizeCheck;
   static_assert(sizeof(UnicodeCharacter) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::UnicodeCharacter, "TMPro", "UnicodeCharacter");

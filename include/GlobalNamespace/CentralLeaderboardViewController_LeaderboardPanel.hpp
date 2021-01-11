@@ -47,8 +47,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CentralLeaderboardViewController::LeaderboardPanel*, creationType>(title, hint, mixed)));
     }
   }; // CentralLeaderboardViewController/LeaderboardPanel
+  #pragma pack(pop)
   static check_size<sizeof(CentralLeaderboardViewController::LeaderboardPanel), 32 + sizeof(bool)> __GlobalNamespace_CentralLeaderboardViewController_LeaderboardPanelSizeCheck;
   static_assert(sizeof(CentralLeaderboardViewController::LeaderboardPanel) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, "", "CentralLeaderboardViewController/LeaderboardPanel");

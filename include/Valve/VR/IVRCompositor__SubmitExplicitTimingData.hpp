@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18EB7B4
     Valve::VR::EVRCompositorError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_SubmitExplicitTimingData
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_SubmitExplicitTimingData*, "Valve.VR", "IVRCompositor/_SubmitExplicitTimingData");

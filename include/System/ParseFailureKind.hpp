@@ -62,9 +62,9 @@ namespace System {
     // Set static field: static public System.ParseFailureKind FormatBadDateTimeCalendar
     static void _set_FormatBadDateTimeCalendar(System::ParseFailureKind value);
   }; // System.ParseFailureKind
+  #pragma pack(pop)
   static check_size<sizeof(ParseFailureKind), 0 + sizeof(int)> __System_ParseFailureKindSizeCheck;
   static_assert(sizeof(ParseFailureKind) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParseFailureKind, "System", "ParseFailureKind");

@@ -102,8 +102,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // FireworkItemController/<FireCoroutine>d__16
+  #pragma pack(pop)
   static check_size<sizeof(FireworkItemController::$FireCoroutine$d__16), 48 + sizeof(bool)> __GlobalNamespace_FireworkItemController_$FireCoroutine$d__16SizeCheck;
   static_assert(sizeof(FireworkItemController::$FireCoroutine$d__16) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController::$FireCoroutine$d__16*, "", "FireworkItemController/<FireCoroutine>d__16");

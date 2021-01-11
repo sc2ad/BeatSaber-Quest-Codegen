@@ -73,8 +73,8 @@ namespace System::ComponentModel {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.DisplayNameAttribute
+  #pragma pack(pop)
   static check_size<sizeof(DisplayNameAttribute), 16 + sizeof(::Il2CppString*)> __System_ComponentModel_DisplayNameAttributeSizeCheck;
   static_assert(sizeof(DisplayNameAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DisplayNameAttribute*, "System.ComponentModel", "DisplayNameAttribute");

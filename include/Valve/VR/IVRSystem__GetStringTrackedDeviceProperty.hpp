@@ -62,6 +62,6 @@ namespace Valve::VR {
     // Offset: 0x192E29C
     uint EndInvoke(Valve::VR::ETrackedPropertyError& pError, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetStringTrackedDeviceProperty
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetStringTrackedDeviceProperty*, "Valve.VR", "IVRSystem/_GetStringTrackedDeviceProperty");

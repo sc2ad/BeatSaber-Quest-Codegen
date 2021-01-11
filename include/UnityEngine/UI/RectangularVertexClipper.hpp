@@ -57,8 +57,8 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<RectangularVertexClipper*, creationType>()));
     }
   }; // UnityEngine.UI.RectangularVertexClipper
+  #pragma pack(pop)
   static check_size<sizeof(RectangularVertexClipper), 24 + sizeof(::Array<UnityEngine::Vector3>*)> __UnityEngine_UI_RectangularVertexClipperSizeCheck;
   static_assert(sizeof(RectangularVertexClipper) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RectangularVertexClipper*, "UnityEngine.UI", "RectangularVertexClipper");

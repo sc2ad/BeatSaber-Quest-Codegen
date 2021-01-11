@@ -113,6 +113,6 @@ namespace Zenject {
     // Offset: 0x12A20B0
     static bool PopValueWithType(System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgMap, System::Type* injectedFieldType, ::Il2CppObject*& value);
   }; // Zenject.InjectUtil
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectUtil*, "Zenject", "InjectUtil");

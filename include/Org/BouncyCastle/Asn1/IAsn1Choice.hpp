@@ -15,7 +15,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: IAsn1Choice
     IAsn1Choice() noexcept {}
   }; // Org.BouncyCastle.Asn1.IAsn1Choice
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IAsn1Choice*, "Org.BouncyCastle.Asn1", "IAsn1Choice");

@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A4C0BC
     static int MergeValuesIntoOneInt(int textId, int positionId);
   }; // BTSStarTextEffectValueParser
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectValueParser*, "", "BTSStarTextEffectValueParser");

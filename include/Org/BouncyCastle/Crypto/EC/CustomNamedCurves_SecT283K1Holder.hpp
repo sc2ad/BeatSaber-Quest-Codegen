@@ -53,6 +53,6 @@ namespace Org::BouncyCastle::Crypto::EC {
     // Base method: Org.BouncyCastle.Asn1.X9.X9ECParameters X9ECParametersHolder::CreateParameters()
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
   }; // Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT283K1Holder
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT283K1Holder*, "Org.BouncyCastle.Crypto.EC", "CustomNamedCurves/SecT283K1Holder");

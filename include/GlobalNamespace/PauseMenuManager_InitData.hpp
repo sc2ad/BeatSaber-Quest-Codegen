@@ -78,8 +78,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PauseMenuManager::InitData*, creationType>(backButtonText, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, showRestartButton, showLevelBar)));
     }
   }; // PauseMenuManager/InitData
+  #pragma pack(pop)
   static check_size<sizeof(PauseMenuManager::InitData), 49 + sizeof(bool)> __GlobalNamespace_PauseMenuManager_InitDataSizeCheck;
   static_assert(sizeof(PauseMenuManager::InitData) == 0x32);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseMenuManager::InitData*, "", "PauseMenuManager/InitData");

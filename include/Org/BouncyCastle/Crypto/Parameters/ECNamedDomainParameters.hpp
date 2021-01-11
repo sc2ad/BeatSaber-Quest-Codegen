@@ -73,8 +73,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return THROW_UNLESS((::il2cpp_utils::New<ECNamedDomainParameters*, creationType>(name, curve, g, n, h, seed)));
     }
   }; // Org.BouncyCastle.Crypto.Parameters.ECNamedDomainParameters
+  #pragma pack(pop)
   static check_size<sizeof(ECNamedDomainParameters), 64 + sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*)> __Org_BouncyCastle_Crypto_Parameters_ECNamedDomainParametersSizeCheck;
   static_assert(sizeof(ECNamedDomainParameters) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters*, "Org.BouncyCastle.Crypto.Parameters", "ECNamedDomainParameters");

@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRModeParms*, creationType>()));
     }
   }; // OVRModeParms
+  #pragma pack(pop)
   static check_size<sizeof(OVRModeParms), 24 + sizeof(GlobalNamespace::OVRInput::RawButton)> __GlobalNamespace_OVRModeParmsSizeCheck;
   static_assert(sizeof(OVRModeParms) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRModeParms*, "", "OVRModeParms");

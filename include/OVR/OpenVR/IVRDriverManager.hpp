@@ -51,9 +51,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.IVRDriverManager
+  #pragma pack(pop)
   static check_size<sizeof(IVRDriverManager), 16 + sizeof(OVR::OpenVR::IVRDriverManager::_GetDriverHandle*)> __OVR_OpenVR_IVRDriverManagerSizeCheck;
   static_assert(sizeof(IVRDriverManager) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRDriverManager, "OVR.OpenVR", "IVRDriverManager");

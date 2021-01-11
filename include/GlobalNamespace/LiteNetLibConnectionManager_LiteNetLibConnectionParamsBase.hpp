@@ -91,8 +91,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase*, creationType>()));
     }
   }; // LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
+  #pragma pack(pop)
   static check_size<sizeof(LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase), 48 + sizeof(int)> __GlobalNamespace_LiteNetLibConnectionManager_LiteNetLibConnectionParamsBaseSizeCheck;
   static_assert(sizeof(LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase*, "", "LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase");

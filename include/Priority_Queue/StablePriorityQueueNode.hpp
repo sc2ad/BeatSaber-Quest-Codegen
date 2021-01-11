@@ -49,8 +49,8 @@ namespace Priority_Queue {
       return THROW_UNLESS((::il2cpp_utils::New<StablePriorityQueueNode*, creationType>()));
     }
   }; // Priority_Queue.StablePriorityQueueNode
+  #pragma pack(pop)
   static check_size<sizeof(StablePriorityQueueNode), 24 + sizeof(int64_t)> __Priority_Queue_StablePriorityQueueNodeSizeCheck;
   static_assert(sizeof(StablePriorityQueueNode) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Priority_Queue::StablePriorityQueueNode*, "Priority_Queue", "StablePriorityQueueNode");

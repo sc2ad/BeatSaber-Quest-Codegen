@@ -102,8 +102,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TestBeatmapDataAssetFileModel*, creationType>()));
     }
   }; // TestBeatmapDataAssetFileModel
+  #pragma pack(pop)
   static check_size<sizeof(TestBeatmapDataAssetFileModel), 16 + sizeof(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*)> __GlobalNamespace_TestBeatmapDataAssetFileModelSizeCheck;
   static_assert(sizeof(TestBeatmapDataAssetFileModel) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestBeatmapDataAssetFileModel*, "", "TestBeatmapDataAssetFileModel");

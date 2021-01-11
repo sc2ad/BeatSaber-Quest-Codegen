@@ -50,9 +50,9 @@ namespace GlobalNamespace {
     // Set static field: static public VRPlatformSDK Unknown
     static void _set_Unknown(GlobalNamespace::VRPlatformSDK value);
   }; // VRPlatformSDK
+  #pragma pack(pop)
   static check_size<sizeof(VRPlatformSDK), 0 + sizeof(int)> __GlobalNamespace_VRPlatformSDKSizeCheck;
   static_assert(sizeof(VRPlatformSDK) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRPlatformSDK, "", "VRPlatformSDK");

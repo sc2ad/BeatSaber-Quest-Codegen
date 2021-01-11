@@ -66,8 +66,8 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestCaseParameters*, creationType>(args)));
     }
   }; // NUnit.Framework.Internal.TestCaseParameters
+  #pragma pack(pop)
   static check_size<sizeof(TestCaseParameters), 64 + sizeof(bool)> __NUnit_Framework_Internal_TestCaseParametersSizeCheck;
   static_assert(sizeof(TestCaseParameters) == 0x41);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestCaseParameters*, "NUnit.Framework.Internal", "TestCaseParameters");

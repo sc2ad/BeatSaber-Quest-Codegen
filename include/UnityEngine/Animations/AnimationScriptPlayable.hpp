@@ -78,8 +78,8 @@ namespace UnityEngine::Animations {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationScriptPlayable other)
     bool Equals(UnityEngine::Animations::AnimationScriptPlayable other);
   }; // UnityEngine.Animations.AnimationScriptPlayable
+  #pragma pack(pop)
   static check_size<sizeof(AnimationScriptPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Animations_AnimationScriptPlayableSizeCheck;
   static_assert(sizeof(AnimationScriptPlayable) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationScriptPlayable, "UnityEngine.Animations", "AnimationScriptPlayable");

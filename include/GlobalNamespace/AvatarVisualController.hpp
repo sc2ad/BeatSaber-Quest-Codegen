@@ -215,8 +215,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AvatarVisualController*, creationType>()));
     }
   }; // AvatarVisualController
+  #pragma pack(pop)
   static check_size<sizeof(AvatarVisualController), 184 + sizeof(GlobalNamespace::AvatarVisualController::HighlighterDelegate*)> __GlobalNamespace_AvatarVisualControllerSizeCheck;
   static_assert(sizeof(AvatarVisualController) == 0xC0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarVisualController*, "", "AvatarVisualController");

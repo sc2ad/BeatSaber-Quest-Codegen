@@ -51,9 +51,9 @@ namespace UnityEngine::SceneManagement {
     // Set static field: static public UnityEngine.SceneManagement.LocalPhysicsMode Physics3D
     static void _set_Physics3D(UnityEngine::SceneManagement::LocalPhysicsMode value);
   }; // UnityEngine.SceneManagement.LocalPhysicsMode
+  #pragma pack(pop)
   static check_size<sizeof(LocalPhysicsMode), 0 + sizeof(int)> __UnityEngine_SceneManagement_LocalPhysicsModeSizeCheck;
   static_assert(sizeof(LocalPhysicsMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::LocalPhysicsMode, "UnityEngine.SceneManagement", "LocalPhysicsMode");

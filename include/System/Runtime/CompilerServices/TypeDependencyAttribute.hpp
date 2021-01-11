@@ -40,8 +40,8 @@ namespace System::Runtime::CompilerServices {
       return THROW_UNLESS((::il2cpp_utils::New<TypeDependencyAttribute*, creationType>(typeName)));
     }
   }; // System.Runtime.CompilerServices.TypeDependencyAttribute
+  #pragma pack(pop)
   static check_size<sizeof(TypeDependencyAttribute), 16 + sizeof(::Il2CppString*)> __System_Runtime_CompilerServices_TypeDependencyAttributeSizeCheck;
   static_assert(sizeof(TypeDependencyAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TypeDependencyAttribute*, "System.Runtime.CompilerServices", "TypeDependencyAttribute");

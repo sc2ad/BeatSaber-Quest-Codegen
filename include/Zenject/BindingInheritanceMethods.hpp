@@ -62,9 +62,9 @@ namespace Zenject {
     // Set static field: static public Zenject.BindingInheritanceMethods MoveDirectOnly
     static void _set_MoveDirectOnly(Zenject::BindingInheritanceMethods value);
   }; // Zenject.BindingInheritanceMethods
+  #pragma pack(pop)
   static check_size<sizeof(BindingInheritanceMethods), 0 + sizeof(int)> __Zenject_BindingInheritanceMethodsSizeCheck;
   static_assert(sizeof(BindingInheritanceMethods) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingInheritanceMethods, "Zenject", "BindingInheritanceMethods");

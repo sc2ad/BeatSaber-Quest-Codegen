@@ -18,7 +18,7 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0xFFFFFFFF
     void set_IsSecured(bool value);
   }; // System.Runtime.Remoting.Channels.ISecurableChannel
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::ISecurableChannel*, "System.Runtime.Remoting.Channels", "ISecurableChannel");

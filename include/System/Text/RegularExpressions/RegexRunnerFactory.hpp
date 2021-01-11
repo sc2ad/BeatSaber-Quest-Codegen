@@ -27,7 +27,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0xFFFFFFFF
     System::Text::RegularExpressions::RegexRunner* CreateInstance();
   }; // System.Text.RegularExpressions.RegexRunnerFactory
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexRunnerFactory*, "System.Text.RegularExpressions", "RegexRunnerFactory");

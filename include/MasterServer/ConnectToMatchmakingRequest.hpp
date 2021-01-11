@@ -89,8 +89,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectToMatchmakingRequest*, creationType>()));
     }
   }; // MasterServer.ConnectToMatchmakingRequest
+  #pragma pack(pop)
   static check_size<sizeof(ConnectToMatchmakingRequest), 80 + sizeof(::Il2CppString*)> __MasterServer_ConnectToMatchmakingRequestSizeCheck;
   static_assert(sizeof(ConnectToMatchmakingRequest) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToMatchmakingRequest*, "MasterServer", "ConnectToMatchmakingRequest");

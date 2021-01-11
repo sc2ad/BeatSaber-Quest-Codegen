@@ -110,6 +110,7 @@ namespace System::Reflection {
     // Base method: System.Int32 MemberInfo::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.EventInfo
+  #pragma pack(pop)
   static check_size<sizeof(EventInfo), 16 + sizeof(System::Reflection::EventInfo::AddEventAdapter*)> __System_Reflection_EventInfoSizeCheck;
   static_assert(sizeof(EventInfo) == 0x18);
   // static public System.Boolean op_Equality(System.Reflection.EventInfo left, System.Reflection.EventInfo right)
@@ -119,5 +120,4 @@ namespace System::Reflection {
   // Offset: 0x15C6910
   bool operator !=(System::Reflection::EventInfo* left, System::Reflection::EventInfo& right);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::EventInfo*, "System.Reflection", "EventInfo");

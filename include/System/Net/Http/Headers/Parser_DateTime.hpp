@@ -43,7 +43,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x120677C
     static void _cctor();
   }; // System.Net.Http.Headers.Parser/DateTime
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::DateTime*, "System.Net.Http.Headers", "Parser/DateTime");

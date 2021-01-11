@@ -232,8 +232,8 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Math.EC.ECPoint
+  #pragma pack(pop)
   static check_size<sizeof(ECPoint), 56 + sizeof(System::Collections::IDictionary*)> __Org_BouncyCastle_Math_EC_ECPointSizeCheck;
   static_assert(sizeof(ECPoint) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECPoint*, "Org.BouncyCastle.Math.EC", "ECPoint");

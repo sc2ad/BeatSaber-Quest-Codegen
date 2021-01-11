@@ -199,6 +199,6 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<Animator*, creationType>()));
     }
   }; // UnityEngine.Animator
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animator*, "UnityEngine", "Animator");

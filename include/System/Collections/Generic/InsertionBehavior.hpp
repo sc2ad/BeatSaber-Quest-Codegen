@@ -50,9 +50,9 @@ namespace System::Collections::Generic {
     // Set static field: static public System.Collections.Generic.InsertionBehavior ThrowOnExisting
     static void _set_ThrowOnExisting(System::Collections::Generic::InsertionBehavior value);
   }; // System.Collections.Generic.InsertionBehavior
+  #pragma pack(pop)
   static check_size<sizeof(InsertionBehavior), 0 + sizeof(uint8_t)> __System_Collections_Generic_InsertionBehaviorSizeCheck;
   static_assert(sizeof(InsertionBehavior) == 0x1);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::InsertionBehavior, "System.Collections.Generic", "InsertionBehavior");

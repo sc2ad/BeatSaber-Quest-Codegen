@@ -41,8 +41,8 @@ namespace UnityEngine::Serialization {
       return THROW_UNLESS((::il2cpp_utils::New<FormerlySerializedAsAttribute*, creationType>(oldName)));
     }
   }; // UnityEngine.Serialization.FormerlySerializedAsAttribute
+  #pragma pack(pop)
   static check_size<sizeof(FormerlySerializedAsAttribute), 16 + sizeof(::Il2CppString*)> __UnityEngine_Serialization_FormerlySerializedAsAttributeSizeCheck;
   static_assert(sizeof(FormerlySerializedAsAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Serialization::FormerlySerializedAsAttribute*, "UnityEngine.Serialization", "FormerlySerializedAsAttribute");

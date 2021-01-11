@@ -73,8 +73,8 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<ThreadPoolWorkQueue::QueueSegment*, creationType>()));
     }
   }; // System.Threading.ThreadPoolWorkQueue/QueueSegment
+  #pragma pack(pop)
   static check_size<sizeof(ThreadPoolWorkQueue::QueueSegment), 32 + sizeof(System::Threading::ThreadPoolWorkQueue::QueueSegment*)> __System_Threading_ThreadPoolWorkQueue_QueueSegmentSizeCheck;
   static_assert(sizeof(ThreadPoolWorkQueue::QueueSegment) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue::QueueSegment*, "System.Threading", "ThreadPoolWorkQueue/QueueSegment");

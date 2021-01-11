@@ -222,6 +222,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRInput/Controller All
       static void _set_All(GlobalNamespace::OVRInput::Controller value);
     }; // OVRInput/Controller
+    #pragma pack(pop)
     static check_size<sizeof(OVRInput::Controller), 0 + sizeof(int)> __GlobalNamespace_OVRInput_ControllerSizeCheck;
     static_assert(sizeof(OVRInput::Controller) == 0x4);
     // Size: 0x8
@@ -272,6 +273,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRInput/OpenVRController WindowsMRController
       static void _set_WindowsMRController(GlobalNamespace::OVRInput::OpenVRController value);
     }; // OVRInput/OpenVRController
+    #pragma pack(pop)
     static check_size<sizeof(OVRInput::OpenVRController), 0 + sizeof(uint64_t)> __GlobalNamespace_OVRInput_OpenVRControllerSizeCheck;
     static_assert(sizeof(OVRInput::OpenVRController) == 0x8);
     // Size: 0x68
@@ -318,6 +320,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // OVRInput/OpenVRControllerDetails
+    #pragma pack(pop)
     static check_size<sizeof(OVRInput::OpenVRControllerDetails), 88 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_OVRInput_OpenVRControllerDetailsSizeCheck;
     static_assert(sizeof(OVRInput::OpenVRControllerDetails) == 0x68);
     // Creating value type constructor for type: OVRInput
@@ -602,8 +605,8 @@ namespace GlobalNamespace {
     // Offset: 0x11BD034
     static bool ShouldResolveController(GlobalNamespace::OVRInput::Controller controllerType, GlobalNamespace::OVRInput::Controller controllerMask);
   }; // OVRInput
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput*, "", "OVRInput");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::Controller, "", "OVRInput/Controller");

@@ -15,7 +15,7 @@ namespace Zenject {
     // Creating value type constructor for type: IFactory
     IFactory() noexcept {}
   }; // Zenject.IFactory
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IFactory*, "Zenject", "IFactory");

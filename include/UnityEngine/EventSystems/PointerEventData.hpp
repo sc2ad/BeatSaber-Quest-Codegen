@@ -89,6 +89,7 @@ namespace UnityEngine::EventSystems {
       // Set static field: static public UnityEngine.EventSystems.PointerEventData/InputButton Middle
       static void _set_Middle(UnityEngine::EventSystems::PointerEventData::InputButton value);
     }; // UnityEngine.EventSystems.PointerEventData/InputButton
+    #pragma pack(pop)
     static check_size<sizeof(PointerEventData::InputButton), 0 + sizeof(int)> __UnityEngine_EventSystems_PointerEventData_InputButtonSizeCheck;
     static_assert(sizeof(PointerEventData::InputButton) == 0x4);
     // [CompilerGeneratedAttribute] Offset: 0xD7F614
@@ -389,9 +390,9 @@ namespace UnityEngine::EventSystems {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.EventSystems.PointerEventData
+  #pragma pack(pop)
   static check_size<sizeof(PointerEventData), 300 + sizeof(UnityEngine::EventSystems::PointerEventData::InputButton)> __UnityEngine_EventSystems_PointerEventDataSizeCheck;
   static_assert(sizeof(PointerEventData) == 0x130);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventData*, "UnityEngine.EventSystems", "PointerEventData");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventData::InputButton, "UnityEngine.EventSystems", "PointerEventData/InputButton");

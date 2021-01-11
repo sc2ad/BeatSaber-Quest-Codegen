@@ -65,8 +65,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::HapticInfo*, creationType>()));
     }
   }; // OVRInput/HapticInfo
+  #pragma pack(pop)
   static check_size<sizeof(OVRInput::HapticInfo), 32 + sizeof(UnityEngine::XR::XRNode)> __GlobalNamespace_OVRInput_HapticInfoSizeCheck;
   static_assert(sizeof(OVRInput::HapticInfo) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::HapticInfo*, "", "OVRInput/HapticInfo");

@@ -57,8 +57,8 @@ namespace Polyglot {
       return THROW_UNLESS((::il2cpp_utils::New<SaveLanguagePreference*, creationType>()));
     }
   }; // Polyglot.SaveLanguagePreference
+  #pragma pack(pop)
   static check_size<sizeof(SaveLanguagePreference), 24 + sizeof(::Il2CppString*)> __Polyglot_SaveLanguagePreferenceSizeCheck;
   static_assert(sizeof(SaveLanguagePreference) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::SaveLanguagePreference*, "Polyglot", "SaveLanguagePreference");

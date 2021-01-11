@@ -306,8 +306,8 @@ namespace GlobalNamespace {
     // Base method: PreviewDifficultyBeatmapSet[] IPreviewBeatmapLevel::get_previewDifficultyBeatmapSets()
     ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
   }; // CustomPreviewBeatmapLevel
+  #pragma pack(pop)
   static check_size<sizeof(CustomPreviewBeatmapLevel), 160 + sizeof(::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>*)> __GlobalNamespace_CustomPreviewBeatmapLevelSizeCheck;
   static_assert(sizeof(CustomPreviewBeatmapLevel) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomPreviewBeatmapLevel*, "", "CustomPreviewBeatmapLevel");

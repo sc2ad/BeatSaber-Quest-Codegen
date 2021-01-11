@@ -64,6 +64,6 @@ namespace Mono::Net::Security {
     // Offset: 0x126C280
     bool EndInvoke(System::IAsyncResult* result);
   }; // Mono.Net.Security.ServerCertValidationCallbackWrapper
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::ServerCertValidationCallbackWrapper*, "Mono.Net.Security", "ServerCertValidationCallbackWrapper");

@@ -52,8 +52,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorderSaveData*, creationType>()));
     }
   }; // VRControllersRecorderSaveData
+  #pragma pack(pop)
   static check_size<sizeof(VRControllersRecorderSaveData), 24 + sizeof(::Array<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>*)> __GlobalNamespace_VRControllersRecorderSaveDataSizeCheck;
   static_assert(sizeof(VRControllersRecorderSaveData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderSaveData*, "", "VRControllersRecorderSaveData");

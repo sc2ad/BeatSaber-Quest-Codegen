@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x186ADEC
     OVR::OpenVR::EVROverlayError EndInvoke(float& pfMinDistanceInMeters, float& pfMaxDistanceInMeters, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayAutoCurveDistanceRangeInMeters
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters*, "OVR.OpenVR", "IVROverlay/_GetOverlayAutoCurveDistanceRangeInMeters");

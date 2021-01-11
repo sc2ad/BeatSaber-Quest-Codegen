@@ -194,8 +194,8 @@ namespace Mono::Net::Security {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Mono.Net.Security.MobileTlsContext
+  #pragma pack(pop)
   static check_size<sizeof(MobileTlsContext), 80 + sizeof(Mono::Security::Interface::ICertificateValidator2*)> __Mono_Net_Security_MobileTlsContextSizeCheck;
   static_assert(sizeof(MobileTlsContext) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileTlsContext*, "Mono.Net.Security", "MobileTlsContext");

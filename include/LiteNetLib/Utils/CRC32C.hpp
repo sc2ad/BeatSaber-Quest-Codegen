@@ -42,7 +42,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0x1DC4238
     static uint Compute(::Array<uint8_t>* input, int offset, int length);
   }; // LiteNetLib.Utils.CRC32C
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::CRC32C*, "LiteNetLib.Utils", "CRC32C");

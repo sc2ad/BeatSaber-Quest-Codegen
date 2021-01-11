@@ -45,8 +45,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<SystemVoipState*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.SystemVoipState
+  #pragma pack(pop)
   static check_size<sizeof(SystemVoipState), 20 + sizeof(Oculus::Platform::SystemVoipStatus)> __Oculus_Platform_Models_SystemVoipStateSizeCheck;
   static_assert(sizeof(SystemVoipState) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::SystemVoipState*, "Oculus.Platform.Models", "SystemVoipState");

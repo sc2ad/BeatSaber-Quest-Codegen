@@ -118,6 +118,7 @@ namespace UnityEngine::ProBuilder {
       // Set static field: static public UnityEngine.ProBuilder.AutoUnwrapSettings/Anchor None
       static void _set_None(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor value);
     }; // UnityEngine.ProBuilder.AutoUnwrapSettings/Anchor
+    #pragma pack(pop)
     static check_size<sizeof(AutoUnwrapSettings::Anchor), 0 + sizeof(int)> __UnityEngine_ProBuilder_AutoUnwrapSettings_AnchorSizeCheck;
     static_assert(sizeof(AutoUnwrapSettings::Anchor) == 0x4);
     // Size: 0x4
@@ -161,6 +162,7 @@ namespace UnityEngine::ProBuilder {
       // Set static field: static public UnityEngine.ProBuilder.AutoUnwrapSettings/Fill Stretch
       static void _set_Stretch(UnityEngine::ProBuilder::AutoUnwrapSettings::Fill value);
     }; // UnityEngine.ProBuilder.AutoUnwrapSettings/Fill
+    #pragma pack(pop)
     static check_size<sizeof(AutoUnwrapSettings::Fill), 0 + sizeof(int)> __UnityEngine_ProBuilder_AutoUnwrapSettings_FillSizeCheck;
     static_assert(sizeof(AutoUnwrapSettings::Fill) == 0x4);
     // [FormerlySerializedAsAttribute] Offset: 0xDE326C
@@ -311,10 +313,10 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.AutoUnwrapSettings
+  #pragma pack(pop)
   static check_size<sizeof(AutoUnwrapSettings), 28 + sizeof(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor)> __UnityEngine_ProBuilder_AutoUnwrapSettingsSizeCheck;
   static_assert(sizeof(AutoUnwrapSettings) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::AutoUnwrapSettings, "UnityEngine.ProBuilder", "AutoUnwrapSettings");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor, "UnityEngine.ProBuilder", "AutoUnwrapSettings/Anchor");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::AutoUnwrapSettings::Fill, "UnityEngine.ProBuilder", "AutoUnwrapSettings/Fill");

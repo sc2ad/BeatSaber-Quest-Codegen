@@ -49,6 +49,6 @@ namespace System::IO {
     // Offset: 0x143C990
     void EndInvoke(System::IAsyncResult* result);
   }; // System.IO.FileStream/WriteDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileStream::WriteDelegate*, "System.IO", "FileStream/WriteDelegate");

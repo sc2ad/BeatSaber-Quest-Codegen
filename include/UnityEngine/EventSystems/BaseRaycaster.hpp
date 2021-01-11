@@ -107,8 +107,8 @@ namespace UnityEngine::EventSystems {
       return THROW_UNLESS((::il2cpp_utils::New<BaseRaycaster*, creationType>()));
     }
   }; // UnityEngine.EventSystems.BaseRaycaster
+  #pragma pack(pop)
   static check_size<sizeof(BaseRaycaster), 24 + sizeof(UnityEngine::EventSystems::BaseRaycaster*)> __UnityEngine_EventSystems_BaseRaycasterSizeCheck;
   static_assert(sizeof(BaseRaycaster) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseRaycaster*, "UnityEngine.EventSystems", "BaseRaycaster");

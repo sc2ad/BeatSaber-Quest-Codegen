@@ -77,8 +77,8 @@ namespace System::ComponentModel {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.TypeConverterAttribute
+  #pragma pack(pop)
   static check_size<sizeof(TypeConverterAttribute), 16 + sizeof(::Il2CppString*)> __System_ComponentModel_TypeConverterAttributeSizeCheck;
   static_assert(sizeof(TypeConverterAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::TypeConverterAttribute*, "System.ComponentModel", "TypeConverterAttribute");

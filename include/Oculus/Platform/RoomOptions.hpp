@@ -82,8 +82,8 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Oculus.Platform.RoomOptions
+  #pragma pack(pop)
   static check_size<sizeof(RoomOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_RoomOptionsSizeCheck;
   static_assert(sizeof(RoomOptions) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomOptions*, "Oculus.Platform", "RoomOptions");

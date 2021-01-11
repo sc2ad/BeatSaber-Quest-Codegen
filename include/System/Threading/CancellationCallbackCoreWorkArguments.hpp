@@ -52,8 +52,8 @@ namespace System::Threading {
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  CancellationCallbackCoreWorkArguments(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>* currArrayFragment, int currArrayIndex)
   }; // System.Threading.CancellationCallbackCoreWorkArguments
+  #pragma pack(pop)
   static check_size<sizeof(CancellationCallbackCoreWorkArguments), 8 + sizeof(int)> __System_Threading_CancellationCallbackCoreWorkArgumentsSizeCheck;
   static_assert(sizeof(CancellationCallbackCoreWorkArguments) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationCallbackCoreWorkArguments, "System.Threading", "CancellationCallbackCoreWorkArguments");

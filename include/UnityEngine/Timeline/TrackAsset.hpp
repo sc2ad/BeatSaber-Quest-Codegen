@@ -145,6 +145,7 @@ namespace UnityEngine::Timeline {
       // Offset: 0xCB59FC
       void Clear();
     }; // UnityEngine.Timeline.TrackAsset/TransientBuildData
+    #pragma pack(pop)
     static check_size<sizeof(TrackAsset::TransientBuildData), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>*)> __UnityEngine_Timeline_TrackAsset_TransientBuildDataSizeCheck;
     static_assert(sizeof(TrackAsset::TransientBuildData) == 0x18);
     // [HideInInspector] Offset: 0xD8DC34

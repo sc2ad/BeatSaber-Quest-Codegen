@@ -61,8 +61,8 @@ namespace System::Runtime::Serialization {
       return THROW_UNLESS((::il2cpp_utils::New<FixupHolderList*, creationType>()));
     }
   }; // System.Runtime.Serialization.FixupHolderList
+  #pragma pack(pop)
   static check_size<sizeof(FixupHolderList), 24 + sizeof(int)> __System_Runtime_Serialization_FixupHolderListSizeCheck;
   static_assert(sizeof(FixupHolderList) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FixupHolderList*, "System.Runtime.Serialization", "FixupHolderList");

@@ -221,6 +221,7 @@ namespace System::Xml {
       // Set static field: static public System.Xml.XmlEventCache/XmlEventType Dispose
       static void _set_Dispose(System::Xml::XmlEventCache::XmlEventType value);
     }; // System.Xml.XmlEventCache/XmlEventType
+    #pragma pack(pop)
     static check_size<sizeof(XmlEventCache::XmlEventType), 0 + sizeof(int)> __System_Xml_XmlEventCache_XmlEventTypeSizeCheck;
     static_assert(sizeof(XmlEventCache::XmlEventType) == 0x4);
     // Size: 0x28
@@ -302,6 +303,7 @@ namespace System::Xml {
       // Offset: 0xCA0A34
       ::Il2CppObject* get_Object();
     }; // System.Xml.XmlEventCache/XmlEvent
+    #pragma pack(pop)
     static check_size<sizeof(XmlEventCache::XmlEvent), 32 + sizeof(::Il2CppObject*)> __System_Xml_XmlEventCache_XmlEventSizeCheck;
     static_assert(sizeof(XmlEventCache::XmlEvent) == 0x28);
     // private System.Collections.Generic.List`1<System.Xml.XmlEventCache/XmlEvent[]> pages
@@ -524,10 +526,10 @@ namespace System::Xml {
     // Base method: System.Void XmlRawWriter::WriteEndBase64()
     void WriteEndBase64();
   }; // System.Xml.XmlEventCache
+  #pragma pack(pop)
   static check_size<sizeof(XmlEventCache), 112 + sizeof(::Il2CppString*)> __System_Xml_XmlEventCacheSizeCheck;
   static_assert(sizeof(XmlEventCache) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache*, "System.Xml", "XmlEventCache");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache::XmlEventType, "System.Xml", "XmlEventCache/XmlEventType");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache::XmlEvent, "System.Xml", "XmlEventCache/XmlEvent");

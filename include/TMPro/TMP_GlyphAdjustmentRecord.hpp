@@ -66,8 +66,8 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, adjustmentRecord);
     }
   }; // TMPro.TMP_GlyphAdjustmentRecord
+  #pragma pack(pop)
   static check_size<sizeof(TMP_GlyphAdjustmentRecord), 4 + sizeof(TMPro::TMP_GlyphValueRecord)> __TMPro_TMP_GlyphAdjustmentRecordSizeCheck;
   static_assert(sizeof(TMP_GlyphAdjustmentRecord) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphAdjustmentRecord, "TMPro", "TMP_GlyphAdjustmentRecord");

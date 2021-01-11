@@ -81,6 +81,7 @@ namespace GlobalNamespace {
       // Set static field: static public BloomPrePassNonLightPass/ExecutionTimeType AfterBlur
       static void _set_AfterBlur(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType value);
     }; // BloomPrePassNonLightPass/ExecutionTimeType
+    #pragma pack(pop)
     static check_size<sizeof(BloomPrePassNonLightPass::ExecutionTimeType), 0 + sizeof(int)> __GlobalNamespace_BloomPrePassNonLightPass_ExecutionTimeTypeSizeCheck;
     static_assert(sizeof(BloomPrePassNonLightPass::ExecutionTimeType) == 0x4);
     // private BloomPrePassNonLightPass/ExecutionTimeType _executionTimeType
@@ -153,9 +154,9 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // BloomPrePassNonLightPass
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePassNonLightPass), 28 + sizeof(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType)> __GlobalNamespace_BloomPrePassNonLightPassSizeCheck;
   static_assert(sizeof(BloomPrePassNonLightPass) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassNonLightPass*, "", "BloomPrePassNonLightPass");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType, "", "BloomPrePassNonLightPass/ExecutionTimeType");

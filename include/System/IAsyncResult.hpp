@@ -38,7 +38,7 @@ namespace System {
     // Offset: 0xFFFFFFFF
     bool System_IAsyncResult_get_CompletedSynchronously();
   }; // System.IAsyncResult
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IAsyncResult*, "System", "IAsyncResult");

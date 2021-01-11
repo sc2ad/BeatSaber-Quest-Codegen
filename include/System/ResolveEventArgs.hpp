@@ -56,8 +56,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<ResolveEventArgs*, creationType>(name, requestingAssembly)));
     }
   }; // System.ResolveEventArgs
+  #pragma pack(pop)
   static check_size<sizeof(ResolveEventArgs), 24 + sizeof(System::Reflection::Assembly*)> __System_ResolveEventArgsSizeCheck;
   static_assert(sizeof(ResolveEventArgs) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ResolveEventArgs*, "System", "ResolveEventArgs");

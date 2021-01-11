@@ -94,6 +94,7 @@ namespace LiteNetLib {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // LiteNetLib.NatPunchModule/RequestEventData
+    #pragma pack(pop)
     static check_size<sizeof(NatPunchModule::RequestEventData), 16 + sizeof(::Il2CppString*)> __LiteNetLib_NatPunchModule_RequestEventDataSizeCheck;
     static_assert(sizeof(NatPunchModule::RequestEventData) == 0x18);
     // Size: 0x18
@@ -130,6 +131,7 @@ namespace LiteNetLib {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // LiteNetLib.NatPunchModule/SuccessEventData
+    #pragma pack(pop)
     static check_size<sizeof(NatPunchModule::SuccessEventData), 16 + sizeof(::Il2CppString*)> __LiteNetLib_NatPunchModule_SuccessEventDataSizeCheck;
     static_assert(sizeof(NatPunchModule::SuccessEventData) == 0x18);
     // private readonly LiteNetLib.NetSocket _socket
@@ -226,10 +228,10 @@ namespace LiteNetLib {
     // Offset: 0x1DC5D54
     void OnNatPunch(LiteNetLib::NatPunchModule::NatPunchPacket* req, System::Net::IPEndPoint* senderEndPoint);
   }; // LiteNetLib.NatPunchModule
+  #pragma pack(pop)
   static check_size<sizeof(NatPunchModule), 64 + sizeof(LiteNetLib::INatPunchListener*)> __LiteNetLib_NatPunchModuleSizeCheck;
   static_assert(sizeof(NatPunchModule) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule*, "LiteNetLib", "NatPunchModule");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::RequestEventData, "LiteNetLib", "NatPunchModule/RequestEventData");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::SuccessEventData, "LiteNetLib", "NatPunchModule/SuccessEventData");

@@ -120,8 +120,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerNoLongerOccupiedRequest*, creationType>()));
     }
   }; // MasterServer.DedicatedServerNoLongerOccupiedRequest
+  #pragma pack(pop)
   static check_size<sizeof(DedicatedServerNoLongerOccupiedRequest), 40 + sizeof(::Il2CppString*)> __MasterServer_DedicatedServerNoLongerOccupiedRequestSizeCheck;
   static_assert(sizeof(DedicatedServerNoLongerOccupiedRequest) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerNoLongerOccupiedRequest*, "MasterServer", "DedicatedServerNoLongerOccupiedRequest");

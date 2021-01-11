@@ -55,8 +55,8 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE3F4
     void set_BaseType(System::Type* value);
   }; // JetBrains.Annotations.BaseTypeRequiredAttribute
+  #pragma pack(pop)
   static check_size<sizeof(BaseTypeRequiredAttribute), 16 + sizeof(System::Type*)> __JetBrains_Annotations_BaseTypeRequiredAttributeSizeCheck;
   static_assert(sizeof(BaseTypeRequiredAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::BaseTypeRequiredAttribute*, "JetBrains.Annotations", "BaseTypeRequiredAttribute");

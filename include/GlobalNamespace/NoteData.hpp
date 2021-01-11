@@ -201,8 +201,8 @@ namespace GlobalNamespace {
     // Base method: System.Void BeatmapObjectData::MirrorLineIndex(System.Int32 lineCount)
     void MirrorLineIndex(int lineCount);
   }; // NoteData
+  #pragma pack(pop)
   static check_size<sizeof(NoteData), 56 + sizeof(float)> __GlobalNamespace_NoteDataSizeCheck;
   static_assert(sizeof(NoteData) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteData*, "", "NoteData");

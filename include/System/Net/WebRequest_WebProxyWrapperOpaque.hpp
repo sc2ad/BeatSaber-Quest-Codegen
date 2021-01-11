@@ -63,9 +63,9 @@ namespace System::Net {
     // Base method: System.Net.ICredentials IWebProxy::get_Credentials()
     System::Net::ICredentials* get_Credentials();
   }; // System.Net.WebRequest/WebProxyWrapperOpaque
+  #pragma pack(pop)
   static check_size<sizeof(WebRequest::WebProxyWrapperOpaque), 16 + sizeof(System::Net::WebProxy*)> __System_Net_WebRequest_WebProxyWrapperOpaqueSizeCheck;
   static_assert(sizeof(WebRequest::WebProxyWrapperOpaque) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::WebProxyWrapperOpaque*, "System.Net", "WebRequest/WebProxyWrapperOpaque");

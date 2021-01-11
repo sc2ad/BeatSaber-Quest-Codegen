@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1914798
     void EndInvoke(float& pfLeft, float& pfRight, float& pfTop, float& pfBottom, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetProjectionRaw
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetProjectionRaw*, "OVR.OpenVR", "IVRSystem/_GetProjectionRaw");

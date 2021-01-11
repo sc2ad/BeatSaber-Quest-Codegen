@@ -112,8 +112,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PackLevelListHeaderTableCell*, creationType>()));
     }
   }; // PackLevelListHeaderTableCell
+  #pragma pack(pop)
   static check_size<sizeof(PackLevelListHeaderTableCell), 128 + sizeof(System::Threading::CancellationTokenSource*)> __GlobalNamespace_PackLevelListHeaderTableCellSizeCheck;
   static_assert(sizeof(PackLevelListHeaderTableCell) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackLevelListHeaderTableCell*, "", "PackLevelListHeaderTableCell");

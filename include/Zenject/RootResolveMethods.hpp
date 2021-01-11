@@ -44,9 +44,9 @@ namespace Zenject {
     // Set static field: static public Zenject.RootResolveMethods All
     static void _set_All(Zenject::RootResolveMethods value);
   }; // Zenject.RootResolveMethods
+  #pragma pack(pop)
   static check_size<sizeof(RootResolveMethods), 0 + sizeof(int)> __Zenject_RootResolveMethodsSizeCheck;
   static_assert(sizeof(RootResolveMethods) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::RootResolveMethods, "Zenject", "RootResolveMethods");

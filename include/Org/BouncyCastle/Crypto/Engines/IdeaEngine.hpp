@@ -120,8 +120,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.IdeaEngine
+  #pragma pack(pop)
   static check_size<sizeof(IdeaEngine), 16 + sizeof(::Array<int>*)> __Org_BouncyCastle_Crypto_Engines_IdeaEngineSizeCheck;
   static_assert(sizeof(IdeaEngine) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::IdeaEngine*, "Org.BouncyCastle.Crypto.Engines", "IdeaEngine");

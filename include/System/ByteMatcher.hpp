@@ -65,8 +65,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<ByteMatcher*, creationType>()));
     }
   }; // System.ByteMatcher
+  #pragma pack(pop)
   static check_size<sizeof(ByteMatcher), 24 + sizeof(System::Collections::Hashtable*)> __System_ByteMatcherSizeCheck;
   static_assert(sizeof(ByteMatcher) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ByteMatcher*, "System", "ByteMatcher");

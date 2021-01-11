@@ -108,8 +108,8 @@ namespace Org::BouncyCastle::Security {
     // Base method: System.Void Random::NextBytes(System.Byte[] buf)
     void NextBytes(::Array<uint8_t>* buf);
   }; // Org.BouncyCastle.Security.SecureRandom
+  #pragma pack(pop)
   static check_size<sizeof(SecureRandom), 32 + sizeof(Org::BouncyCastle::Crypto::Prng::IRandomGenerator*)> __Org_BouncyCastle_Security_SecureRandomSizeCheck;
   static_assert(sizeof(SecureRandom) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::SecureRandom*, "Org.BouncyCastle.Security", "SecureRandom");

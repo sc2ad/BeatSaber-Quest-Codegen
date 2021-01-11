@@ -102,8 +102,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BasicUIAudioManager*, creationType>()));
     }
   }; // BasicUIAudioManager
+  #pragma pack(pop)
   static check_size<sizeof(BasicUIAudioManager), 56 + sizeof(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*)> __GlobalNamespace_BasicUIAudioManagerSizeCheck;
   static_assert(sizeof(BasicUIAudioManager) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicUIAudioManager*, "", "BasicUIAudioManager");

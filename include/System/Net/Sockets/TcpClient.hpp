@@ -130,8 +130,8 @@ namespace System::Net::Sockets {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Net.Sockets.TcpClient
+  #pragma pack(pop)
   static check_size<sizeof(TcpClient), 44 + sizeof(bool)> __System_Net_Sockets_TcpClientSizeCheck;
   static_assert(sizeof(TcpClient) == 0x2D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::TcpClient*, "System.Net.Sockets", "TcpClient");

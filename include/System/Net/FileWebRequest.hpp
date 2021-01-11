@@ -354,8 +354,8 @@ namespace System::Net {
     // Base method: System.Void WebRequest::.cctor()
     static void _cctor();
   }; // System.Net.FileWebRequest
+  #pragma pack(pop)
   static check_size<sizeof(FileWebRequest), 168 + sizeof(int)> __System_Net_FileWebRequestSizeCheck;
   static_assert(sizeof(FileWebRequest) == 0xAC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FileWebRequest*, "System.Net", "FileWebRequest");

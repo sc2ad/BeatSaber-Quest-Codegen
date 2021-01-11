@@ -65,8 +65,8 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<VoipPCMSourceNative*, creationType>()));
     }
   }; // Oculus.Platform.VoipPCMSourceNative
+  #pragma pack(pop)
   static check_size<sizeof(VoipPCMSourceNative), 16 + sizeof(uint64_t)> __Oculus_Platform_VoipPCMSourceNativeSizeCheck;
   static_assert(sizeof(VoipPCMSourceNative) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipPCMSourceNative*, "Oculus.Platform", "VoipPCMSourceNative");

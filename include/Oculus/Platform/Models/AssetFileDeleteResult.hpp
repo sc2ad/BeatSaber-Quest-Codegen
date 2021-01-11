@@ -53,8 +53,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<AssetFileDeleteResult*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.AssetFileDeleteResult
+  #pragma pack(pop)
   static check_size<sizeof(AssetFileDeleteResult), 40 + sizeof(bool)> __Oculus_Platform_Models_AssetFileDeleteResultSizeCheck;
   static_assert(sizeof(AssetFileDeleteResult) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDeleteResult*, "Oculus.Platform.Models", "AssetFileDeleteResult");

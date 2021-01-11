@@ -920,9 +920,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVREventType VREvent_VendorSpecific_Reserved_End
     static void _set_VREvent_VendorSpecific_Reserved_End(OVR::OpenVR::EVREventType value);
   }; // OVR.OpenVR.EVREventType
+  #pragma pack(pop)
   static check_size<sizeof(EVREventType), 0 + sizeof(int)> __OVR_OpenVR_EVREventTypeSizeCheck;
   static_assert(sizeof(EVREventType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVREventType, "OVR.OpenVR", "EVREventType");

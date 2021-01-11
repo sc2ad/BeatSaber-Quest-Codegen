@@ -49,8 +49,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1047DCC
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Parameters.Ed448PublicKeyParameters
+  #pragma pack(pop)
   static check_size<sizeof(Ed448PublicKeyParameters), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Parameters_Ed448PublicKeyParametersSizeCheck;
   static_assert(sizeof(Ed448PublicKeyParameters) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "Ed448PublicKeyParameters");

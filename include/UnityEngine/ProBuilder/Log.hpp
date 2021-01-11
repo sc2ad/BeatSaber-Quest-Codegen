@@ -174,6 +174,6 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x163C4BC
     static void _cctor();
   }; // UnityEngine.ProBuilder.Log
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Log*, "UnityEngine.ProBuilder", "Log");

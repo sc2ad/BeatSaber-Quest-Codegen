@@ -240,12 +240,12 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Delegate
+  #pragma pack(pop)
   static check_size<sizeof(Delegate), 96 + sizeof(bool)> __System_DelegateSizeCheck;
   static_assert(sizeof(Delegate) == 0x61);
   // static public System.Boolean op_Equality(System.Delegate d1, System.Delegate d2)
   // Offset: 0x1676FB8
   bool operator ==(System::Delegate* d1, System::Delegate& d2);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Delegate*, "System", "Delegate");

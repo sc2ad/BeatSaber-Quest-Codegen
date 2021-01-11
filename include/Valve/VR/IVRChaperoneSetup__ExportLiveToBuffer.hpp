@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x136F430
     bool EndInvoke(uint& pnBufferLength, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_ExportLiveToBuffer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperoneSetup::_ExportLiveToBuffer*, "Valve.VR", "IVRChaperoneSetup/_ExportLiveToBuffer");

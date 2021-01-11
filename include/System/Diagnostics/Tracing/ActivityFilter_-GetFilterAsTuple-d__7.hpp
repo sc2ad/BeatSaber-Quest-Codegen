@@ -140,8 +140,8 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Diagnostics.Tracing.ActivityFilter/<GetFilterAsTuple>d__7
+  #pragma pack(pop)
   static check_size<sizeof(ActivityFilter::$GetFilterAsTuple$d__7), 80 + sizeof(System::Diagnostics::Tracing::ActivityFilter*)> __System_Diagnostics_Tracing_ActivityFilter_$GetFilterAsTuple$d__7SizeCheck;
   static_assert(sizeof(ActivityFilter::$GetFilterAsTuple$d__7) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ActivityFilter::$GetFilterAsTuple$d__7*, "System.Diagnostics.Tracing", "ActivityFilter/<GetFilterAsTuple>d__7");

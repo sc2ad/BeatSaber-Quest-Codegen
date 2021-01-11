@@ -32,6 +32,6 @@ namespace NUnit::Framework {
       return THROW_UNLESS((::il2cpp_utils::New<NUnitAttribute*, creationType>()));
     }
   }; // NUnit.Framework.NUnitAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::NUnitAttribute*, "NUnit.Framework", "NUnitAttribute");

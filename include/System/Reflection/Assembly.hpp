@@ -337,6 +337,7 @@ namespace System::Reflection {
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
   }; // System.Reflection.Assembly
+  #pragma pack(pop)
   static check_size<sizeof(Assembly), 88 + sizeof(::Il2CppString*)> __System_Reflection_AssemblySizeCheck;
   static_assert(sizeof(Assembly) == 0x60);
   // static public System.Boolean op_Equality(System.Reflection.Assembly left, System.Reflection.Assembly right)
@@ -346,5 +347,4 @@ namespace System::Reflection {
   // Offset: 0x171F134
   bool operator !=(System::Reflection::Assembly* left, System::Reflection::Assembly& right);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Assembly*, "System.Reflection", "Assembly");

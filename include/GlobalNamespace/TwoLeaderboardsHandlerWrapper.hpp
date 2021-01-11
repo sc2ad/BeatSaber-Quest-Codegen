@@ -78,8 +78,8 @@ namespace GlobalNamespace {
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* UploadScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);
   }; // TwoLeaderboardsHandlerWrapper
+  #pragma pack(pop)
   static check_size<sizeof(TwoLeaderboardsHandlerWrapper), 40 + sizeof(GlobalNamespace::HMAsyncRequest*)> __GlobalNamespace_TwoLeaderboardsHandlerWrapperSizeCheck;
   static_assert(sizeof(TwoLeaderboardsHandlerWrapper) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TwoLeaderboardsHandlerWrapper*, "", "TwoLeaderboardsHandlerWrapper");

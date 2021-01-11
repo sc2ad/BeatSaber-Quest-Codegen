@@ -53,8 +53,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockColorAnimator*, creationType>()));
     }
   }; // MaterialPropertyBlockColorAnimator
+  #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyBlockColorAnimator), 48 + sizeof(UnityEngine::Color)> __GlobalNamespace_MaterialPropertyBlockColorAnimatorSizeCheck;
   static_assert(sizeof(MaterialPropertyBlockColorAnimator) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockColorAnimator*, "", "MaterialPropertyBlockColorAnimator");

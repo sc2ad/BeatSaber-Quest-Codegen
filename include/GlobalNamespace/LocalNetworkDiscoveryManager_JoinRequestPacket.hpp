@@ -80,8 +80,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkDiscoveryManager::JoinRequestPacket*, creationType>()));
     }
   }; // LocalNetworkDiscoveryManager/JoinRequestPacket
+  #pragma pack(pop)
   static check_size<sizeof(LocalNetworkDiscoveryManager::JoinRequestPacket), 32 + sizeof(uint8_t)> __GlobalNamespace_LocalNetworkDiscoveryManager_JoinRequestPacketSizeCheck;
   static_assert(sizeof(LocalNetworkDiscoveryManager::JoinRequestPacket) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestPacket*, "", "LocalNetworkDiscoveryManager/JoinRequestPacket");

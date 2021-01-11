@@ -73,9 +73,9 @@ namespace UnityEngine::Animations {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.Animations.AnimationStream
+  #pragma pack(pop)
   static check_size<sizeof(AnimationStream), 48 + sizeof(System::IntPtr)> __UnityEngine_Animations_AnimationStreamSizeCheck;
   static_assert(sizeof(AnimationStream) == 0x38);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationStream, "UnityEngine.Animations", "AnimationStream");

@@ -86,8 +86,8 @@ namespace System::Security {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Security.SecureString
+  #pragma pack(pop)
   static check_size<sizeof(SecureString), 24 + sizeof(::Array<uint8_t>*)> __System_Security_SecureStringSizeCheck;
   static_assert(sizeof(SecureString) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecureString*, "System.Security", "SecureString");

@@ -253,7 +253,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13E1C70
     static NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__13(NUnit::Framework::Constraints::ValueFormatter* next);
   }; // NUnit.Framework.Constraints.MsgUtils
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils*, "NUnit.Framework.Constraints", "MsgUtils");

@@ -122,8 +122,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ScaleAnimator*, creationType>()));
     }
   }; // ScaleAnimator
+  #pragma pack(pop)
   static check_size<sizeof(ScaleAnimator), 64 + sizeof(bool)> __GlobalNamespace_ScaleAnimatorSizeCheck;
   static_assert(sizeof(ScaleAnimator) == 0x41);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScaleAnimator*, "", "ScaleAnimator");

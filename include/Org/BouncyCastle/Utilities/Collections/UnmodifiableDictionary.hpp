@@ -123,6 +123,6 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: set_Item
     void System_Collections_IDictionary_set_Item(::Il2CppObject* k, ::Il2CppObject* value);
   }; // Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary*, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableDictionary");

@@ -100,8 +100,8 @@ namespace OnlineServices::API {
     // Offset: 0x1014C74
     System::Threading::Tasks::Task* SendAndWaitAsync(UnityEngine::Networking::UnityWebRequest* webRequest, System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper
+  #pragma pack(pop)
   static check_size<sizeof(HTTPAdminLeaderboardsHelper), 24 + sizeof(System::UriBuilder*)> __OnlineServices_API_HTTPAdminLeaderboardsHelperSizeCheck;
   static_assert(sizeof(HTTPAdminLeaderboardsHelper) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper");

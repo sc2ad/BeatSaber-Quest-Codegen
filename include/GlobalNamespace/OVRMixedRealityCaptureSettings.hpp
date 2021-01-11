@@ -211,8 +211,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRMixedRealityCaptureSettings*, creationType>()));
     }
   }; // OVRMixedRealityCaptureSettings
+  #pragma pack(pop)
   static check_size<sizeof(OVRMixedRealityCaptureSettings), 148 + sizeof(float)> __GlobalNamespace_OVRMixedRealityCaptureSettingsSizeCheck;
   static_assert(sizeof(OVRMixedRealityCaptureSettings) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureSettings*, "", "OVRMixedRealityCaptureSettings");

@@ -87,6 +87,6 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
       return THROW_UNLESS((::il2cpp_utils::New<TestRunnerFilter::$$c*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.GUI.TestRunnerFilter/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::TestRunnerFilter::$$c*, "UnityEngine.TestTools.TestRunner.GUI", "TestRunnerFilter/<>c");

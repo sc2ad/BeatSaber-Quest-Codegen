@@ -39,6 +39,6 @@ namespace System::Net::NetworkInformation {
       return THROW_UNLESS((::il2cpp_utils::New<UnixNoLibCIPGlobalProperties*, creationType>()));
     }
   }; // System.Net.NetworkInformation.UnixNoLibCIPGlobalProperties
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties*, "System.Net.NetworkInformation", "UnixNoLibCIPGlobalProperties");

@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x1930BB4
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_ResetSeatedZeroPose
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_ResetSeatedZeroPose*, "Valve.VR", "IVRSystem/_ResetSeatedZeroPose");

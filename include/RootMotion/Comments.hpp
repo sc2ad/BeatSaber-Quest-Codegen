@@ -44,8 +44,8 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<Comments*, creationType>()));
     }
   }; // RootMotion.Comments
+  #pragma pack(pop)
   static check_size<sizeof(Comments), 24 + sizeof(::Il2CppString*)> __RootMotion_CommentsSizeCheck;
   static_assert(sizeof(Comments) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Comments*, "RootMotion", "Comments");

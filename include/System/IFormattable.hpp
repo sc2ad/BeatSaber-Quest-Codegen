@@ -29,7 +29,7 @@ namespace System {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* formatProvider);
   }; // System.IFormattable
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IFormattable*, "System", "IFormattable");

@@ -110,8 +110,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicTableCell*, creationType>()));
     }
   }; // BeatmapCharacteristicTableCell
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapCharacteristicTableCell), 128 + sizeof(UnityEngine::Color)> __GlobalNamespace_BeatmapCharacteristicTableCellSizeCheck;
   static_assert(sizeof(BeatmapCharacteristicTableCell) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicTableCell*, "", "BeatmapCharacteristicTableCell");

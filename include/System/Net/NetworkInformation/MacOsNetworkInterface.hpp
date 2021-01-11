@@ -58,8 +58,8 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
   }; // System.Net.NetworkInformation.MacOsNetworkInterface
+  #pragma pack(pop)
   static check_size<sizeof(MacOsNetworkInterface), 52 + sizeof(uint)> __System_Net_NetworkInformation_MacOsNetworkInterfaceSizeCheck;
   static_assert(sizeof(MacOsNetworkInterface) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsNetworkInterface*, "System.Net.NetworkInformation", "MacOsNetworkInterface");

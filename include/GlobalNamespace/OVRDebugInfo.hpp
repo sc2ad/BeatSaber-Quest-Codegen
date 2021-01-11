@@ -265,8 +265,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRDebugInfo*, creationType>()));
     }
   }; // OVRDebugInfo
+  #pragma pack(pop)
   static check_size<sizeof(OVRDebugInfo), 204 + sizeof(bool)> __GlobalNamespace_OVRDebugInfoSizeCheck;
   static_assert(sizeof(OVRDebugInfo) == 0xCD);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDebugInfo*, "", "OVRDebugInfo");

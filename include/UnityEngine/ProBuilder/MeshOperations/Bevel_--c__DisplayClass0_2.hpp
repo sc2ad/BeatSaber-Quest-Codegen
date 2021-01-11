@@ -56,8 +56,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<Bevel::$$c__DisplayClass0_2*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_2
+  #pragma pack(pop)
   static check_size<sizeof(Bevel::$$c__DisplayClass0_2), 24 + sizeof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0*)> __UnityEngine_ProBuilder_MeshOperations_Bevel_$$c__DisplayClass0_2SizeCheck;
   static_assert(sizeof(Bevel::$$c__DisplayClass0_2) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2*, "UnityEngine.ProBuilder.MeshOperations", "Bevel/<>c__DisplayClass0_2");

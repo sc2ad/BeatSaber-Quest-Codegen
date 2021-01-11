@@ -80,8 +80,8 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C6610
     static void _cctor();
   }; // System.Diagnostics.Tracing.EtwSession
+  #pragma pack(pop)
   static check_size<sizeof(EtwSession), 24 + sizeof(System::Diagnostics::Tracing::ActivityFilter*)> __System_Diagnostics_Tracing_EtwSessionSizeCheck;
   static_assert(sizeof(EtwSession) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EtwSession*, "System.Diagnostics.Tracing", "EtwSession");

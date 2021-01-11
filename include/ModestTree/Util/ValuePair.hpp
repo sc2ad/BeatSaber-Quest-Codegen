@@ -61,6 +61,6 @@ namespace ModestTree::Util {
       return ::il2cpp_utils::RunMethodThrow<ModestTree::Util::ValuePair_4<T1, T2, T3, T4>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, first, second, third, fourth);
     }
   }; // ModestTree.Util.ValuePair
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::ValuePair*, "ModestTree.Util", "ValuePair");

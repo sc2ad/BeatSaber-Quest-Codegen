@@ -201,8 +201,8 @@ namespace System::Threading {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Threading.WaitHandle
+  #pragma pack(pop)
   static check_size<sizeof(WaitHandle), 40 + sizeof(bool)> __System_Threading_WaitHandleSizeCheck;
   static_assert(sizeof(WaitHandle) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::WaitHandle*, "System.Threading", "WaitHandle");

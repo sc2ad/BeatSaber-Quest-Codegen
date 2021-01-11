@@ -50,8 +50,8 @@ namespace Mono::Net::Security {
     // Offset: 0x1265F4C
     void AppendData(::Array<uint8_t>* buffer, int offset, int size);
   }; // Mono.Net.Security.BufferOffsetSize2
+  #pragma pack(pop)
   static check_size<sizeof(BufferOffsetSize2), 40 + sizeof(int)> __Mono_Net_Security_BufferOffsetSize2SizeCheck;
   static_assert(sizeof(BufferOffsetSize2) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::BufferOffsetSize2*, "Mono.Net.Security", "BufferOffsetSize2");

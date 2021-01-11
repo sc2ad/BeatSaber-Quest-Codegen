@@ -88,9 +88,9 @@ namespace System::Xml {
     // Set static field: static public System.Xml.XmlWellFormedWriter/AttributeValueCache/ItemType ValueString
     static void _set_ValueString(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType value);
   }; // System.Xml.XmlWellFormedWriter/AttributeValueCache/ItemType
+  #pragma pack(pop)
   static check_size<sizeof(XmlWellFormedWriter::AttributeValueCache::ItemType), 0 + sizeof(int)> __System_Xml_XmlWellFormedWriter_AttributeValueCache_ItemTypeSizeCheck;
   static_assert(sizeof(XmlWellFormedWriter::AttributeValueCache::ItemType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/ItemType");

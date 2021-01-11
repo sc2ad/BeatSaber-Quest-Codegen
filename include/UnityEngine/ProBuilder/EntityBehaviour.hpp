@@ -70,8 +70,8 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<EntityBehaviour*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.EntityBehaviour
+  #pragma pack(pop)
   static check_size<sizeof(EntityBehaviour), 24 + sizeof(bool)> __UnityEngine_ProBuilder_EntityBehaviourSizeCheck;
   static_assert(sizeof(EntityBehaviour) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EntityBehaviour*, "UnityEngine.ProBuilder", "EntityBehaviour");

@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiersPanelController::$$c__DisplayClass14_0*, creationType>()));
     }
   }; // GameplayModifiersPanelController/<>c__DisplayClass14_0
+  #pragma pack(pop)
   static check_size<sizeof(GameplayModifiersPanelController::$$c__DisplayClass14_0), 24 + sizeof(GlobalNamespace::GameplayModifiersPanelController*)> __GlobalNamespace_GameplayModifiersPanelController_$$c__DisplayClass14_0SizeCheck;
   static_assert(sizeof(GameplayModifiersPanelController::$$c__DisplayClass14_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersPanelController::$$c__DisplayClass14_0*, "", "GameplayModifiersPanelController/<>c__DisplayClass14_0");

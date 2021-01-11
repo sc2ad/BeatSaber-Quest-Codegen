@@ -56,9 +56,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRControllerAxisType k_eControllerAxis_Trigger
     static void _set_k_eControllerAxis_Trigger(Valve::VR::EVRControllerAxisType value);
   }; // Valve.VR.EVRControllerAxisType
+  #pragma pack(pop)
   static check_size<sizeof(EVRControllerAxisType), 0 + sizeof(int)> __Valve_VR_EVRControllerAxisTypeSizeCheck;
   static_assert(sizeof(EVRControllerAxisType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRControllerAxisType, "Valve.VR", "EVRControllerAxisType");

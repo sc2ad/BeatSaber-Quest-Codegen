@@ -87,8 +87,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<RotationLimitSpline*, creationType>()));
     }
   }; // RootMotion.FinalIK.RotationLimitSpline
+  #pragma pack(pop)
   static check_size<sizeof(RotationLimitSpline), 64 + sizeof(UnityEngine::AnimationCurve*)> __RootMotion_FinalIK_RotationLimitSplineSizeCheck;
   static_assert(sizeof(RotationLimitSpline) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitSpline*, "RootMotion.FinalIK", "RotationLimitSpline");

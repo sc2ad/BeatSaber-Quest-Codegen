@@ -70,6 +70,7 @@ namespace GlobalNamespace {
       // Set static field: static public MasterServerAvailabilityData/AvailabilityStatus Offline
       static void _set_Offline(GlobalNamespace::MasterServerAvailabilityData::AvailabilityStatus value);
     }; // MasterServerAvailabilityData/AvailabilityStatus
+    #pragma pack(pop)
     static check_size<sizeof(MasterServerAvailabilityData::AvailabilityStatus), 0 + sizeof(int)> __GlobalNamespace_MasterServerAvailabilityData_AvailabilityStatusSizeCheck;
     static_assert(sizeof(MasterServerAvailabilityData::AvailabilityStatus) == 0x4);
     // public System.String minimumAppVersion
@@ -116,9 +117,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MasterServerAvailabilityData*, creationType>()));
     }
   }; // MasterServerAvailabilityData
+  #pragma pack(pop)
   static check_size<sizeof(MasterServerAvailabilityData), 48 + sizeof(GlobalNamespace::MasterServerAvailabilityData::UserMessage*)> __GlobalNamespace_MasterServerAvailabilityDataSizeCheck;
   static_assert(sizeof(MasterServerAvailabilityData) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData*, "", "MasterServerAvailabilityData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData::AvailabilityStatus, "", "MasterServerAvailabilityData/AvailabilityStatus");

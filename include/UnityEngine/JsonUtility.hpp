@@ -52,6 +52,6 @@ namespace UnityEngine {
     // Offset: 0x1A0CAE8
     static ::Il2CppObject* FromJson(::Il2CppString* json, System::Type* type);
   }; // UnityEngine.JsonUtility
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::JsonUtility*, "UnityEngine", "JsonUtility");

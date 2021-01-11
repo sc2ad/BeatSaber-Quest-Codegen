@@ -48,6 +48,6 @@ namespace System::Runtime::Remoting::Contexts {
     // Offset: 0x1174BB0
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Runtime.Remoting.Contexts.CrossContextDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::CrossContextDelegate*, "System.Runtime.Remoting.Contexts", "CrossContextDelegate");

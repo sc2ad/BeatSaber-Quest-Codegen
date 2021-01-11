@@ -92,8 +92,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MissionResultsViewController/<StartFireworksAfterDelay>d__28
+  #pragma pack(pop)
   static check_size<sizeof(MissionResultsViewController::$StartFireworksAfterDelay$d__28), 40 + sizeof(GlobalNamespace::MissionResultsViewController*)> __GlobalNamespace_MissionResultsViewController_$StartFireworksAfterDelay$d__28SizeCheck;
   static_assert(sizeof(MissionResultsViewController::$StartFireworksAfterDelay$d__28) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController::$StartFireworksAfterDelay$d__28*, "", "MissionResultsViewController/<StartFireworksAfterDelay>d__28");

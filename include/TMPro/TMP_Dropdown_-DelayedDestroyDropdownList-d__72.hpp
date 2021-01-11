@@ -92,8 +92,8 @@ namespace TMPro {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // TMPro.TMP_Dropdown/<DelayedDestroyDropdownList>d__72
+  #pragma pack(pop)
   static check_size<sizeof(TMP_Dropdown::$DelayedDestroyDropdownList$d__72), 40 + sizeof(TMPro::TMP_Dropdown*)> __TMPro_TMP_Dropdown_$DelayedDestroyDropdownList$d__72SizeCheck;
   static_assert(sizeof(TMP_Dropdown::$DelayedDestroyDropdownList$d__72) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::$DelayedDestroyDropdownList$d__72*, "TMPro", "TMP_Dropdown/<DelayedDestroyDropdownList>d__72");

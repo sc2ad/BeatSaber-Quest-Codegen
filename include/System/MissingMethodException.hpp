@@ -96,8 +96,8 @@ namespace System {
     // Base method: System.String MissingMemberException::get_Message()
     ::Il2CppString* get_Message();
   }; // System.MissingMethodException
+  #pragma pack(pop)
   static check_size<sizeof(MissingMethodException), 160 + sizeof(::Il2CppString*)> __System_MissingMethodExceptionSizeCheck;
   static_assert(sizeof(MissingMethodException) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::MissingMethodException*, "System", "MissingMethodException");

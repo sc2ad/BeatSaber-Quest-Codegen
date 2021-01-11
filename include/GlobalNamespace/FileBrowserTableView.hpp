@@ -144,8 +144,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FileBrowserTableView*, creationType>()));
     }
   }; // FileBrowserTableView
+  #pragma pack(pop)
   static check_size<sizeof(FileBrowserTableView), 56 + sizeof(::Array<GlobalNamespace::FileBrowserItem*>*)> __GlobalNamespace_FileBrowserTableViewSizeCheck;
   static_assert(sizeof(FileBrowserTableView) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserTableView*, "", "FileBrowserTableView");

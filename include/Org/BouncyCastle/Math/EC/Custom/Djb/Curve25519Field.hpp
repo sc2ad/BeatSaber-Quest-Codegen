@@ -96,7 +96,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
     // Offset: 0x177036C
     static void _cctor();
   }; // Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519Field
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*, "Org.BouncyCastle.Math.EC.Custom.Djb", "Curve25519Field");

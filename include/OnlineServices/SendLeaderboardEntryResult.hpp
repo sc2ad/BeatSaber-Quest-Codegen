@@ -44,9 +44,9 @@ namespace OnlineServices {
     // Set static field: static public OnlineServices.SendLeaderboardEntryResult Failed
     static void _set_Failed(OnlineServices::SendLeaderboardEntryResult value);
   }; // OnlineServices.SendLeaderboardEntryResult
+  #pragma pack(pop)
   static check_size<sizeof(SendLeaderboardEntryResult), 0 + sizeof(int)> __OnlineServices_SendLeaderboardEntryResultSizeCheck;
   static_assert(sizeof(SendLeaderboardEntryResult) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::SendLeaderboardEntryResult, "OnlineServices", "SendLeaderboardEntryResult");

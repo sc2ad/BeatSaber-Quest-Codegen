@@ -68,8 +68,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ProjectKernel::$$c__DisplayClass4_0*, creationType>()));
     }
   }; // Zenject.ProjectKernel/<>c__DisplayClass4_0
+  #pragma pack(pop)
   static check_size<sizeof(ProjectKernel::$$c__DisplayClass4_0), 24 + sizeof(System::Func_2<Zenject::SceneContext*, int>*)> __Zenject_ProjectKernel_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(ProjectKernel::$$c__DisplayClass4_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectKernel::$$c__DisplayClass4_0*, "Zenject", "ProjectKernel/<>c__DisplayClass4_0");

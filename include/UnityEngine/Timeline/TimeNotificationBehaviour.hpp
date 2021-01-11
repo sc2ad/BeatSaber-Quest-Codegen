@@ -104,6 +104,7 @@ namespace UnityEngine::Timeline {
       // Offset: 0xC9F8B8
       bool get_triggerOnce();
     }; // UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry
+    #pragma pack(pop)
     static check_size<sizeof(TimeNotificationBehaviour::NotificationEntry), 18 + sizeof(UnityEngine::Timeline::NotificationFlags)> __UnityEngine_Timeline_TimeNotificationBehaviour_NotificationEntrySizeCheck;
     static_assert(sizeof(TimeNotificationBehaviour::NotificationEntry) == 0x14);
     // private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry> m_Notifications
@@ -187,9 +188,9 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<TimeNotificationBehaviour*, creationType>()));
     }
   }; // UnityEngine.Timeline.TimeNotificationBehaviour
+  #pragma pack(pop)
   static check_size<sizeof(TimeNotificationBehaviour), 40 + sizeof(UnityEngine::Playables::Playable)> __UnityEngine_Timeline_TimeNotificationBehaviourSizeCheck;
   static_assert(sizeof(TimeNotificationBehaviour) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour*, "UnityEngine.Timeline", "TimeNotificationBehaviour");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry, "UnityEngine.Timeline", "TimeNotificationBehaviour/NotificationEntry");

@@ -45,9 +45,9 @@ namespace System::Threading {
     // Set static field: static public System.Threading.EventResetMode ManualReset
     static void _set_ManualReset(System::Threading::EventResetMode value);
   }; // System.Threading.EventResetMode
+  #pragma pack(pop)
   static check_size<sizeof(EventResetMode), 0 + sizeof(int)> __System_Threading_EventResetModeSizeCheck;
   static_assert(sizeof(EventResetMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::EventResetMode, "System.Threading", "EventResetMode");

@@ -41,8 +41,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerBasicIdentity*, creationType>(username, password)));
     }
   }; // System.Net.HttpListenerBasicIdentity
+  #pragma pack(pop)
   static check_size<sizeof(HttpListenerBasicIdentity), 136 + sizeof(::Il2CppString*)> __System_Net_HttpListenerBasicIdentitySizeCheck;
   static_assert(sizeof(HttpListenerBasicIdentity) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerBasicIdentity*, "System.Net", "HttpListenerBasicIdentity");

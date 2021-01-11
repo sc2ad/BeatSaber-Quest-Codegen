@@ -110,8 +110,8 @@ namespace System::Resources {
     // Offset: 0x15D5B98
     ::Il2CppString* get_BaseName();
   }; // System.Resources.ResourceManager/ResourceManagerMediator
+  #pragma pack(pop)
   static check_size<sizeof(ResourceManager::ResourceManagerMediator), 16 + sizeof(System::Resources::ResourceManager*)> __System_Resources_ResourceManager_ResourceManagerMediatorSizeCheck;
   static_assert(sizeof(ResourceManager::ResourceManagerMediator) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager::ResourceManagerMediator*, "System.Resources", "ResourceManager/ResourceManagerMediator");

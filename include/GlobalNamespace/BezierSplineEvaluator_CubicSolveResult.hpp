@@ -77,8 +77,8 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solution1, solution2, solution3);
     }
   }; // BezierSplineEvaluator/CubicSolveResult
+  #pragma pack(pop)
   static check_size<sizeof(BezierSplineEvaluator::CubicSolveResult), 12 + sizeof(float)> __GlobalNamespace_BezierSplineEvaluator_CubicSolveResultSizeCheck;
   static_assert(sizeof(BezierSplineEvaluator::CubicSolveResult) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSplineEvaluator::CubicSolveResult, "", "BezierSplineEvaluator/CubicSolveResult");

@@ -50,9 +50,9 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.ShutdownResult WasConnected
     static void _set_WasConnected(LiteNetLib::ShutdownResult value);
   }; // LiteNetLib.ShutdownResult
+  #pragma pack(pop)
   static check_size<sizeof(ShutdownResult), 0 + sizeof(int)> __LiteNetLib_ShutdownResultSizeCheck;
   static_assert(sizeof(ShutdownResult) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ShutdownResult, "LiteNetLib", "ShutdownResult");

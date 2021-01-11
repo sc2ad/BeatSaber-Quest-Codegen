@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Offset: 0xFC26B0
     static float AfterCutStepRating(float angleDiff, float normalDiff);
   }; // SaberSwingRating
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSwingRating*, "", "SaberSwingRating");

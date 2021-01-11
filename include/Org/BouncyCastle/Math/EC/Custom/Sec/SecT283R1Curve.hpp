@@ -115,8 +115,8 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Base method: Org.BouncyCastle.Math.EC.ECLookupTable ECCurve::CreateCacheSafeLookupTable(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len)
     Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* points, int off, int len);
   }; // Org.BouncyCastle.Math.EC.Custom.Sec.SecT283R1Curve
+  #pragma pack(pop)
   static check_size<sizeof(SecT283R1Curve), 88 + sizeof(Org::BouncyCastle::Math::EC::Custom::Sec::SecT283R1Point*)> __Org_BouncyCastle_Math_EC_Custom_Sec_SecT283R1CurveSizeCheck;
   static_assert(sizeof(SecT283R1Curve) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecT283R1Curve*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecT283R1Curve");

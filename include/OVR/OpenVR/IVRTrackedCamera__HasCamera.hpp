@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1065CBC
     OVR::OpenVR::EVRTrackedCameraError EndInvoke(bool& pHasCamera, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRTrackedCamera/_HasCamera
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRTrackedCamera::_HasCamera*, "OVR.OpenVR", "IVRTrackedCamera/_HasCamera");

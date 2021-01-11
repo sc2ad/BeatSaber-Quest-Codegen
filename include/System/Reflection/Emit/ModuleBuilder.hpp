@@ -18,7 +18,7 @@ namespace System::Reflection::Emit {
     // Creating value type constructor for type: ModuleBuilder
     ModuleBuilder() noexcept {}
   }; // System.Reflection.Emit.ModuleBuilder
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::ModuleBuilder*, "System.Reflection.Emit", "ModuleBuilder");

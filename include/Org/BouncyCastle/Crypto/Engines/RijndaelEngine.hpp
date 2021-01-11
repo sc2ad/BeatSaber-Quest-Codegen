@@ -248,8 +248,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.RijndaelEngine
+  #pragma pack(pop)
   static check_size<sizeof(RijndaelEngine), 96 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Engines_RijndaelEngineSizeCheck;
   static_assert(sizeof(RijndaelEngine) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RijndaelEngine*, "Org.BouncyCastle.Crypto.Engines", "RijndaelEngine");

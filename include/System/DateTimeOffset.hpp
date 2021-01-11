@@ -191,6 +191,7 @@ namespace System {
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider formatProvider)
     ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* formatProvider);
   }; // System.DateTimeOffset
+  #pragma pack(pop)
   static check_size<sizeof(DateTimeOffset), 8 + sizeof(int16_t)> __System_DateTimeOffsetSizeCheck;
   static_assert(sizeof(DateTimeOffset) == 0xA);
   // static public System.TimeSpan op_Subtraction(System.DateTimeOffset left, System.DateTimeOffset right)
@@ -200,5 +201,4 @@ namespace System {
   // Offset: 0x1664304
   bool operator ==(const System::DateTimeOffset& left, const System::DateTimeOffset& right);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeOffset, "System", "DateTimeOffset");

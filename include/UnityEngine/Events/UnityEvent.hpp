@@ -80,8 +80,8 @@ namespace UnityEngine::Events {
     // Base method: UnityEngine.Events.BaseInvokableCall UnityEventBase::GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
     UnityEngine::Events::BaseInvokableCall* GetDelegate(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction);
   }; // UnityEngine.Events.UnityEvent
+  #pragma pack(pop)
   static check_size<sizeof(UnityEvent), 40 + sizeof(::Array<::Il2CppObject*>*)> __UnityEngine_Events_UnityEventSizeCheck;
   static_assert(sizeof(UnityEvent) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEvent*, "UnityEngine.Events", "UnityEvent");

@@ -94,6 +94,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.AspectRatioFitter/AspectMode EnvelopeParent
       static void _set_EnvelopeParent(UnityEngine::UI::AspectRatioFitter::AspectMode value);
     }; // UnityEngine.UI.AspectRatioFitter/AspectMode
+    #pragma pack(pop)
     static check_size<sizeof(AspectRatioFitter::AspectMode), 0 + sizeof(int)> __UnityEngine_UI_AspectRatioFitter_AspectModeSizeCheck;
     static_assert(sizeof(AspectRatioFitter::AspectMode) == 0x4);
     // private UnityEngine.UI.AspectRatioFitter/AspectMode m_AspectMode

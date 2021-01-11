@@ -214,8 +214,8 @@ namespace System::Text {
     // Base method: System.Int32 Encoding::GetMaxCharCount(System.Int32 byteCount)
     int GetMaxCharCount(int byteCount);
   }; // System.Text.UTF7Encoding
+  #pragma pack(pop)
   static check_size<sizeof(UTF7Encoding), 80 + sizeof(bool)> __System_Text_UTF7EncodingSizeCheck;
   static_assert(sizeof(UTF7Encoding) == 0x51);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF7Encoding*, "System.Text", "UTF7Encoding");

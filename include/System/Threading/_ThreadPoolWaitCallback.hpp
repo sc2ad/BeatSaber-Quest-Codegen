@@ -19,7 +19,7 @@ namespace System::Threading {
     // Offset: 0x1D207A8
     static bool PerformWaitCallback();
   }; // System.Threading._ThreadPoolWaitCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::_ThreadPoolWaitCallback*, "System.Threading", "_ThreadPoolWaitCallback");

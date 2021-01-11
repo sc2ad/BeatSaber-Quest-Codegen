@@ -80,6 +80,7 @@ namespace System::Diagnostics {
       // Set static field: static public System.Diagnostics.DebuggableAttribute/DebuggingModes EnableEditAndContinue
       static void _set_EnableEditAndContinue(System::Diagnostics::DebuggableAttribute::DebuggingModes value);
     }; // System.Diagnostics.DebuggableAttribute/DebuggingModes
+    #pragma pack(pop)
     static check_size<sizeof(DebuggableAttribute::DebuggingModes), 0 + sizeof(int)> __System_Diagnostics_DebuggableAttribute_DebuggingModesSizeCheck;
     static_assert(sizeof(DebuggableAttribute::DebuggingModes) == 0x4);
     // private System.Diagnostics.DebuggableAttribute/DebuggingModes m_debuggingModes
@@ -102,9 +103,9 @@ namespace System::Diagnostics {
       return THROW_UNLESS((::il2cpp_utils::New<DebuggableAttribute*, creationType>(modes)));
     }
   }; // System.Diagnostics.DebuggableAttribute
+  #pragma pack(pop)
   static check_size<sizeof(DebuggableAttribute), 16 + sizeof(System::Diagnostics::DebuggableAttribute::DebuggingModes)> __System_Diagnostics_DebuggableAttributeSizeCheck;
   static_assert(sizeof(DebuggableAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggableAttribute*, "System.Diagnostics", "DebuggableAttribute");
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggableAttribute::DebuggingModes, "System.Diagnostics", "DebuggableAttribute/DebuggingModes");

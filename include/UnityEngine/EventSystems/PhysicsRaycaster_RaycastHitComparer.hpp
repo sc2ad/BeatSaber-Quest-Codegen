@@ -51,6 +51,6 @@ namespace UnityEngine::EventSystems {
       return THROW_UNLESS((::il2cpp_utils::New<PhysicsRaycaster::RaycastHitComparer*, creationType>()));
     }
   }; // UnityEngine.EventSystems.PhysicsRaycaster/RaycastHitComparer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer*, "UnityEngine.EventSystems", "PhysicsRaycaster/RaycastHitComparer");

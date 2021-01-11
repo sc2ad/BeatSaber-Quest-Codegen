@@ -170,6 +170,7 @@ namespace GlobalNamespace {
       // Set static field: static public StandardLevelDetailViewController/ContentType Inactive
       static void _set_Inactive(GlobalNamespace::StandardLevelDetailViewController::ContentType value);
     }; // StandardLevelDetailViewController/ContentType
+    #pragma pack(pop)
     static check_size<sizeof(StandardLevelDetailViewController::ContentType), 0 + sizeof(int)> __GlobalNamespace_StandardLevelDetailViewController_ContentTypeSizeCheck;
     static_assert(sizeof(StandardLevelDetailViewController::ContentType) == 0x4);
     // private StandardLevelDetailView _standardLevelDetailView
@@ -476,9 +477,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelDetailViewController*, creationType>()));
     }
   }; // StandardLevelDetailViewController
+  #pragma pack(pop)
   static check_size<sizeof(StandardLevelDetailViewController), 296 + sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>*)> __GlobalNamespace_StandardLevelDetailViewControllerSizeCheck;
   static_assert(sizeof(StandardLevelDetailViewController) == 0x130);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController*, "", "StandardLevelDetailViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::ContentType, "", "StandardLevelDetailViewController/ContentType");

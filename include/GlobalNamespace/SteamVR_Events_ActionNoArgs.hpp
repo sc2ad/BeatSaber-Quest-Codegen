@@ -55,8 +55,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Action::Enable(System.Boolean enabled)
     void Enable(bool enabled);
   }; // SteamVR_Events/ActionNoArgs
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_Events::ActionNoArgs), 24 + sizeof(UnityEngine::Events::UnityAction*)> __GlobalNamespace_SteamVR_Events_ActionNoArgsSizeCheck;
   static_assert(sizeof(SteamVR_Events::ActionNoArgs) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::ActionNoArgs*, "", "SteamVR_Events/ActionNoArgs");

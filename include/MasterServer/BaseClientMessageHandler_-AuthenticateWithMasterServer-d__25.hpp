@@ -70,9 +70,9 @@ namespace MasterServer {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.BaseClientMessageHandler/<AuthenticateWithMasterServer>d__25
+  #pragma pack(pop)
   static check_size<sizeof(BaseClientMessageHandler::$AuthenticateWithMasterServer$d__25), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)> __MasterServer_BaseClientMessageHandler_$AuthenticateWithMasterServer$d__25SizeCheck;
   static_assert(sizeof(BaseClientMessageHandler::$AuthenticateWithMasterServer$d__25) == 0x38);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$AuthenticateWithMasterServer$d__25, "MasterServer", "BaseClientMessageHandler/<AuthenticateWithMasterServer>d__25");

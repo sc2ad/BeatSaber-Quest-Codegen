@@ -80,8 +80,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<SignalReceiver::EventKeyValue*, creationType>()));
     }
   }; // UnityEngine.Timeline.SignalReceiver/EventKeyValue
+  #pragma pack(pop)
   static check_size<sizeof(SignalReceiver::EventKeyValue), 24 + sizeof(System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>*)> __UnityEngine_Timeline_SignalReceiver_EventKeyValueSizeCheck;
   static_assert(sizeof(SignalReceiver::EventKeyValue) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalReceiver::EventKeyValue*, "UnityEngine.Timeline", "SignalReceiver/EventKeyValue");

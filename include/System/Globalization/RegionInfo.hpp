@@ -182,8 +182,8 @@ namespace System::Globalization {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Globalization.RegionInfo
+  #pragma pack(pop)
   static check_size<sizeof(RegionInfo), 88 + sizeof(::Il2CppString*)> __System_Globalization_RegionInfoSizeCheck;
   static_assert(sizeof(RegionInfo) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::RegionInfo*, "System.Globalization", "RegionInfo");

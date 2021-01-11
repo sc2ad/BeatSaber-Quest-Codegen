@@ -60,8 +60,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomFogEnvironmentParams*, creationType>()));
     }
   }; // BloomFogEnvironmentParams
+  #pragma pack(pop)
   static check_size<sizeof(BloomFogEnvironmentParams), 36 + sizeof(float)> __GlobalNamespace_BloomFogEnvironmentParamsSizeCheck;
   static_assert(sizeof(BloomFogEnvironmentParams) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogEnvironmentParams*, "", "BloomFogEnvironmentParams");

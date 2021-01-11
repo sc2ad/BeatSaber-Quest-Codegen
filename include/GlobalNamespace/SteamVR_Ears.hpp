@@ -74,8 +74,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Ears*, creationType>()));
     }
   }; // SteamVR_Ears
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_Ears), 36 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_SteamVR_EarsSizeCheck;
   static_assert(sizeof(SteamVR_Ears) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Ears*, "", "SteamVR_Ears");

@@ -233,8 +233,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Render*, creationType>()));
     }
   }; // SteamVR_Render
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_Render), 92 + sizeof(float)> __GlobalNamespace_SteamVR_RenderSizeCheck;
   static_assert(sizeof(SteamVR_Render) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Render*, "", "SteamVR_Render");

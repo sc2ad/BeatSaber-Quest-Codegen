@@ -58,9 +58,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TextEditor/CharacterType WhiteSpace
     static void _set_WhiteSpace(UnityEngine::TextEditor::CharacterType value);
   }; // UnityEngine.TextEditor/CharacterType
+  #pragma pack(pop)
   static check_size<sizeof(TextEditor::CharacterType), 0 + sizeof(int)> __UnityEngine_TextEditor_CharacterTypeSizeCheck;
   static_assert(sizeof(TextEditor::CharacterType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::CharacterType, "UnityEngine", "TextEditor/CharacterType");

@@ -59,6 +59,6 @@ namespace UnityEngine::TestRunner::TestLaunchers {
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestResultData::$$c*, creationType>()));
     }
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultData/<>c");

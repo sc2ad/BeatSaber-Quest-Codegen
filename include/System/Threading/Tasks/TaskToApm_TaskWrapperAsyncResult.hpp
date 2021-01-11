@@ -85,8 +85,8 @@ namespace System::Threading::Tasks {
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
   }; // System.Threading.Tasks.TaskToApm/TaskWrapperAsyncResult
+  #pragma pack(pop)
   static check_size<sizeof(TaskToApm::TaskWrapperAsyncResult), 32 + sizeof(bool)> __System_Threading_Tasks_TaskToApm_TaskWrapperAsyncResultSizeCheck;
   static_assert(sizeof(TaskToApm::TaskWrapperAsyncResult) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult*, "System.Threading.Tasks", "TaskToApm/TaskWrapperAsyncResult");

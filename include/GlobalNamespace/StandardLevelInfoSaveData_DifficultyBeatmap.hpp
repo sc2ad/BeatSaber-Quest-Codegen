@@ -76,8 +76,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelInfoSaveData::DifficultyBeatmap*, creationType>(difficultyName, difficultyRank, beatmapFilename, noteJumpMovementSpeed, noteJumpStartBeatOffset)));
     }
   }; // StandardLevelInfoSaveData/DifficultyBeatmap
+  #pragma pack(pop)
   static check_size<sizeof(StandardLevelInfoSaveData::DifficultyBeatmap), 44 + sizeof(float)> __GlobalNamespace_StandardLevelInfoSaveData_DifficultyBeatmapSizeCheck;
   static_assert(sizeof(StandardLevelInfoSaveData::DifficultyBeatmap) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*, "", "StandardLevelInfoSaveData/DifficultyBeatmap");

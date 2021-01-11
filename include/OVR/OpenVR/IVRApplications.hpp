@@ -275,9 +275,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.IVRApplications
+  #pragma pack(pop)
   static check_size<sizeof(IVRApplications), 240 + sizeof(OVR::OpenVR::IVRApplications::_GetCurrentSceneProcessId*)> __OVR_OpenVR_IVRApplicationsSizeCheck;
   static_assert(sizeof(IVRApplications) == 0xF8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRApplications, "OVR.OpenVR", "IVRApplications");

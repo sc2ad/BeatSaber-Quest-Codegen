@@ -45,9 +45,9 @@ namespace UnityEngine::TextCore::LowLevel {
     // Offset: 0xCB815C
     UnityEngine::TextCore::LowLevel::GlyphValueRecord get_glyphValueRecord();
   }; // UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
+  #pragma pack(pop)
   static check_size<sizeof(GlyphAdjustmentRecord), 4 + sizeof(UnityEngine::TextCore::LowLevel::GlyphValueRecord)> __UnityEngine_TextCore_LowLevel_GlyphAdjustmentRecordSizeCheck;
   static_assert(sizeof(GlyphAdjustmentRecord) == 0x14);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphAdjustmentRecord");

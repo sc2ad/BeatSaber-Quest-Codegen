@@ -85,8 +85,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PromoViewController::ButtonPromoTypePair*, creationType>()));
     }
   }; // PromoViewController/ButtonPromoTypePair
+  #pragma pack(pop)
   static check_size<sizeof(PromoViewController::ButtonPromoTypePair), 48 + sizeof(GlobalNamespace::IAnnotatedBeatmapLevelCollection*)> __GlobalNamespace_PromoViewController_ButtonPromoTypePairSizeCheck;
   static_assert(sizeof(PromoViewController::ButtonPromoTypePair) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController::ButtonPromoTypePair*, "", "PromoViewController/ButtonPromoTypePair");

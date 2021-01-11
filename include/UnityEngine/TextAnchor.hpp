@@ -86,9 +86,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TextAnchor LowerRight
     static void _set_LowerRight(UnityEngine::TextAnchor value);
   }; // UnityEngine.TextAnchor
+  #pragma pack(pop)
   static check_size<sizeof(TextAnchor), 0 + sizeof(int)> __UnityEngine_TextAnchorSizeCheck;
   static_assert(sizeof(TextAnchor) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextAnchor, "UnityEngine", "TextAnchor");

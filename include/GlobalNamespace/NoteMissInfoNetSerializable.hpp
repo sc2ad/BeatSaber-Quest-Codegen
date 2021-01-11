@@ -123,8 +123,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteMissInfoNetSerializable*, creationType>()));
     }
   }; // NoteMissInfoNetSerializable
+  #pragma pack(pop)
   static check_size<sizeof(NoteMissInfoNetSerializable), 28 + sizeof(GlobalNamespace::NoteLineLayer)> __GlobalNamespace_NoteMissInfoNetSerializableSizeCheck;
   static_assert(sizeof(NoteMissInfoNetSerializable) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMissInfoNetSerializable*, "", "NoteMissInfoNetSerializable");

@@ -57,9 +57,9 @@ namespace System::Runtime::InteropServices {
     // Set static field: static public System.Runtime.InteropServices.CharSet Auto
     static void _set_Auto(System::Runtime::InteropServices::CharSet value);
   }; // System.Runtime.InteropServices.CharSet
+  #pragma pack(pop)
   static check_size<sizeof(CharSet), 0 + sizeof(int)> __System_Runtime_InteropServices_CharSetSizeCheck;
   static_assert(sizeof(CharSet) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::CharSet, "System.Runtime.InteropServices", "CharSet");

@@ -406,8 +406,8 @@ namespace Zenject {
     // Offset: 0x129A748
     Zenject::IProvider* $FromNewComponentSibling$b__37_0(Zenject::DiContainer* container, System::Type* type);
   }; // Zenject.FromBinder
+  #pragma pack(pop)
   static check_size<sizeof(FromBinder), 40 + sizeof(Zenject::BindStatement*)> __Zenject_FromBinderSizeCheck;
   static_assert(sizeof(FromBinder) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder*, "Zenject", "FromBinder");

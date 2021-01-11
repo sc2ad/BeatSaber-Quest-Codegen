@@ -326,6 +326,7 @@ namespace GlobalNamespace {
       // Base method: System.String ValueType::ToString()
       ::Il2CppString* ToString();
     }; // OVRPlugin/Vector3f
+    #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::Vector3f), 8 + sizeof(float)> __GlobalNamespace_OVRPlugin_Vector3fSizeCheck;
     static_assert(sizeof(OVRPlugin::Vector3f) == 0xC);
     // Size: 0x10
@@ -378,6 +379,7 @@ namespace GlobalNamespace {
       // Base method: System.String ValueType::ToString()
       ::Il2CppString* ToString();
     }; // OVRPlugin/Quatf
+    #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::Quatf), 12 + sizeof(float)> __GlobalNamespace_OVRPlugin_QuatfSizeCheck;
     static_assert(sizeof(OVRPlugin::Quatf) == 0x10);
     // Size: 0x1C
@@ -418,6 +420,7 @@ namespace GlobalNamespace {
       // Base method: System.String ValueType::ToString()
       ::Il2CppString* ToString();
     }; // OVRPlugin/Posef
+    #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::Posef), 16 + sizeof(GlobalNamespace::OVRPlugin::Vector3f)> __GlobalNamespace_OVRPlugin_PosefSizeCheck;
     static_assert(sizeof(OVRPlugin::Posef) == 0x1C);
     // Size: 0x4
@@ -455,6 +458,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRPlugin/TrackingConfidence High
       static void _set_High(GlobalNamespace::OVRPlugin::TrackingConfidence value);
     }; // OVRPlugin/TrackingConfidence
+    #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::TrackingConfidence), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_TrackingConfidenceSizeCheck;
     static_assert(sizeof(OVRPlugin::TrackingConfidence) == 0x4);
     // Size: 0x4
@@ -499,6 +503,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRPlugin/HandStatus SystemGestureInProgress
       static void _set_SystemGestureInProgress(GlobalNamespace::OVRPlugin::HandStatus value);
     }; // OVRPlugin/HandStatus
+    #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::HandStatus), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_HandStatusSizeCheck;
     static_assert(sizeof(OVRPlugin::HandStatus) == 0x4);
     // Size: 0x4
@@ -555,6 +560,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRPlugin/HandFingerPinch Pinky
       static void _set_Pinky(GlobalNamespace::OVRPlugin::HandFingerPinch value);
     }; // OVRPlugin/HandFingerPinch
+    #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::HandFingerPinch), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_HandFingerPinchSizeCheck;
     static_assert(sizeof(OVRPlugin::HandFingerPinch) == 0x4);
     // Size: 0x200
@@ -823,6 +829,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // OVRPlugin/HandStateInternal
+    #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::HandStateInternal), 504 + sizeof(double)> __GlobalNamespace_OVRPlugin_HandStateInternalSizeCheck;
     static_assert(sizeof(OVRPlugin::HandStateInternal) == 0x200);
     // Creating value type constructor for type: OVRPlugin
@@ -1363,8 +1370,8 @@ namespace GlobalNamespace {
     // Offset: 0x12456DC
     static void _cctor();
   }; // OVRPlugin
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin*, "", "OVRPlugin");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Vector3f, "", "OVRPlugin/Vector3f");

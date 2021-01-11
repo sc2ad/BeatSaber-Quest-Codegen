@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x1B42E6C
     static void LogWarning(::Il2CppString* message);
   }; // BGNetDebug
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetDebug*, "", "BGNetDebug");

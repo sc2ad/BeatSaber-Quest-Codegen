@@ -266,6 +266,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Vector3
+  #pragma pack(pop)
   static check_size<sizeof(Vector3), 8 + sizeof(float)> __UnityEngine_Vector3SizeCheck;
   static_assert(sizeof(Vector3) == 0xC);
   // static public UnityEngine.Vector3 op_Addition(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
@@ -293,5 +294,4 @@ namespace UnityEngine {
   // Offset: 0x16CCD00
   bool operator !=(const UnityEngine::Vector3& lhs, const UnityEngine::Vector3& rhs);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector3, "UnityEngine", "Vector3");

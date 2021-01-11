@@ -62,9 +62,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EOverlayDirection Count
     static void _set_Count(OVR::OpenVR::EOverlayDirection value);
   }; // OVR.OpenVR.EOverlayDirection
+  #pragma pack(pop)
   static check_size<sizeof(EOverlayDirection), 0 + sizeof(int)> __OVR_OpenVR_EOverlayDirectionSizeCheck;
   static_assert(sizeof(EOverlayDirection) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EOverlayDirection, "OVR.OpenVR", "EOverlayDirection");

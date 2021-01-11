@@ -48,8 +48,8 @@ namespace UnityEngine {
     // Offset: 0x19FFBAC
     static void set_enabled_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, bool value);
   }; // UnityEngine.ParticleSystem/ForceOverLifetimeModule
+  #pragma pack(pop)
   static check_size<sizeof(ParticleSystem::ForceOverLifetimeModule), 0 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_ParticleSystem_ForceOverLifetimeModuleSizeCheck;
   static_assert(sizeof(ParticleSystem::ForceOverLifetimeModule) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::ForceOverLifetimeModule, "UnityEngine", "ParticleSystem/ForceOverLifetimeModule");

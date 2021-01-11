@@ -265,8 +265,8 @@ namespace System::Xml {
     // Base method: System.Void XmlRawWriter::WriteEndNamespaceDeclaration()
     void WriteEndNamespaceDeclaration();
   }; // System.Xml.XmlAutoDetectWriter
+  #pragma pack(pop)
   static check_size<sizeof(XmlAutoDetectWriter), 72 + sizeof(System::IO::Stream*)> __System_Xml_XmlAutoDetectWriterSizeCheck;
   static_assert(sizeof(XmlAutoDetectWriter) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlAutoDetectWriter*, "System.Xml", "XmlAutoDetectWriter");

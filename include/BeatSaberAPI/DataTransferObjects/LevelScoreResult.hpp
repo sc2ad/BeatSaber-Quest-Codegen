@@ -134,6 +134,7 @@ namespace BeatSaberAPI::DataTransferObjects {
       // Set static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers GhostNotes
       static void _set_GhostNotes(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers value);
     }; // BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers
+    #pragma pack(pop)
     static check_size<sizeof(LevelScoreResult::GameplayModifiers), 0 + sizeof(uint)> __BeatSaberAPI_DataTransferObjects_LevelScoreResult_GameplayModifiersSizeCheck;
     static_assert(sizeof(LevelScoreResult::GameplayModifiers) == 0x4);
     // public System.String leaderboardId
@@ -218,9 +219,9 @@ namespace BeatSaberAPI::DataTransferObjects {
       return THROW_UNLESS((::il2cpp_utils::New<LevelScoreResult*, creationType>()));
     }
   }; // BeatSaberAPI.DataTransferObjects.LevelScoreResult
+  #pragma pack(pop)
   static check_size<sizeof(LevelScoreResult), 72 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_LevelScoreResultSizeCheck;
   static_assert(sizeof(LevelScoreResult) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LevelScoreResult*, "BeatSaberAPI.DataTransferObjects", "LevelScoreResult");
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers, "BeatSaberAPI.DataTransferObjects", "LevelScoreResult/GameplayModifiers");

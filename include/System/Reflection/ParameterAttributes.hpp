@@ -100,9 +100,9 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.ParameterAttributes Reserved4
     static void _set_Reserved4(System::Reflection::ParameterAttributes value);
   }; // System.Reflection.ParameterAttributes
+  #pragma pack(pop)
   static check_size<sizeof(ParameterAttributes), 0 + sizeof(int)> __System_Reflection_ParameterAttributesSizeCheck;
   static_assert(sizeof(ParameterAttributes) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterAttributes, "System.Reflection", "ParameterAttributes");

@@ -61,6 +61,6 @@ namespace System::Security::Cryptography {
     // Base method: System.Void SymmetricAlgorithm::GenerateIV()
     void GenerateIV();
   }; // System.Security.Cryptography.DESCryptoServiceProvider
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DESCryptoServiceProvider*, "System.Security.Cryptography", "DESCryptoServiceProvider");

@@ -63,8 +63,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<WebRequestPrefixElement*, creationType>(P, C)));
     }
   }; // System.Net.WebRequestPrefixElement
+  #pragma pack(pop)
   static check_size<sizeof(WebRequestPrefixElement), 32 + sizeof(System::Type*)> __System_Net_WebRequestPrefixElementSizeCheck;
   static_assert(sizeof(WebRequestPrefixElement) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequestPrefixElement*, "System.Net", "WebRequestPrefixElement");

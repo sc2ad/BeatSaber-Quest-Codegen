@@ -39,9 +39,9 @@ namespace System::Collections::Concurrent {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Collections.Concurrent.PaddedHeadAndTail
+  #pragma pack(pop)
   static check_size<sizeof(PaddedHeadAndTail), 256 + sizeof(int)> __System_Collections_Concurrent_PaddedHeadAndTailSizeCheck;
   static_assert(sizeof(PaddedHeadAndTail) == 0x104);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::PaddedHeadAndTail, "System.Collections.Concurrent", "PaddedHeadAndTail");

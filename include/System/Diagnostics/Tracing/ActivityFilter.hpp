@@ -166,8 +166,8 @@ namespace System::Diagnostics::Tracing {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Diagnostics.Tracing.ActivityFilter
+  #pragma pack(pop)
   static check_size<sizeof(ActivityFilter), 72 + sizeof(System::Action_1<System::Guid>*)> __System_Diagnostics_Tracing_ActivityFilterSizeCheck;
   static_assert(sizeof(ActivityFilter) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ActivityFilter*, "System.Diagnostics.Tracing", "ActivityFilter");

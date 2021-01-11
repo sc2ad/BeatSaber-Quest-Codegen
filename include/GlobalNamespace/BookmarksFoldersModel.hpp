@@ -60,8 +60,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BookmarksFoldersModel*, creationType>()));
     }
   }; // BookmarksFoldersModel
+  #pragma pack(pop)
   static check_size<sizeof(BookmarksFoldersModel), 32 + sizeof(::Array<GlobalNamespace::FileBrowserItem*>*)> __GlobalNamespace_BookmarksFoldersModelSizeCheck;
   static_assert(sizeof(BookmarksFoldersModel) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BookmarksFoldersModel*, "", "BookmarksFoldersModel");

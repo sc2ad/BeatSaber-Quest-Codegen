@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1911490
     OVR::OpenVR::ETrackedControllerRole EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetControllerRoleForTrackedDeviceIndex
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetControllerRoleForTrackedDeviceIndex*, "OVR.OpenVR", "IVRSystem/_GetControllerRoleForTrackedDeviceIndex");

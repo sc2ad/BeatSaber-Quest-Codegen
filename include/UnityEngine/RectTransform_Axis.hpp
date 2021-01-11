@@ -46,9 +46,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RectTransform/Axis Vertical
     static void _set_Vertical(UnityEngine::RectTransform::Axis value);
   }; // UnityEngine.RectTransform/Axis
+  #pragma pack(pop)
   static check_size<sizeof(RectTransform::Axis), 0 + sizeof(int)> __UnityEngine_RectTransform_AxisSizeCheck;
   static_assert(sizeof(RectTransform::Axis) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectTransform::Axis, "UnityEngine", "RectTransform/Axis");

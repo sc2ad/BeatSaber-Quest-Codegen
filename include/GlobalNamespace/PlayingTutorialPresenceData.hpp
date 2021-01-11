@@ -72,8 +72,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayingTutorialPresenceData*, creationType>()));
     }
   }; // PlayingTutorialPresenceData
+  #pragma pack(pop)
   static check_size<sizeof(PlayingTutorialPresenceData), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_PlayingTutorialPresenceDataSizeCheck;
   static_assert(sizeof(PlayingTutorialPresenceData) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingTutorialPresenceData*, "", "PlayingTutorialPresenceData");

@@ -113,8 +113,8 @@ namespace UnityEngine::Events {
       return THROW_UNLESS((::il2cpp_utils::New<PersistentCall*, creationType>()));
     }
   }; // UnityEngine.Events.PersistentCall
+  #pragma pack(pop)
   static check_size<sizeof(PersistentCall), 48 + sizeof(UnityEngine::Events::UnityEventCallState)> __UnityEngine_Events_PersistentCallSizeCheck;
   static_assert(sizeof(PersistentCall) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::PersistentCall*, "UnityEngine.Events", "PersistentCall");

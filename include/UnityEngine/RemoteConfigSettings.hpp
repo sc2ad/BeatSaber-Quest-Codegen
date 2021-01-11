@@ -47,9 +47,9 @@ namespace UnityEngine {
     // Offset: 0x1A09FA8
     static void RemoteConfigSettingsUpdated(UnityEngine::RemoteConfigSettings* rcs, bool wasLastUpdatedFromServer);
   }; // UnityEngine.RemoteConfigSettings
+  #pragma pack(pop)
   static check_size<sizeof(RemoteConfigSettings), 24 + sizeof(System::Action_1<bool>*)> __UnityEngine_RemoteConfigSettingsSizeCheck;
   static_assert(sizeof(RemoteConfigSettings) == 0x20);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteConfigSettings*, "UnityEngine", "RemoteConfigSettings");

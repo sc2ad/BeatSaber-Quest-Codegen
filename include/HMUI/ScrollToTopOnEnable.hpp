@@ -53,8 +53,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ScrollToTopOnEnable*, creationType>()));
     }
   }; // HMUI.ScrollToTopOnEnable
+  #pragma pack(pop)
   static check_size<sizeof(ScrollToTopOnEnable), 24 + sizeof(HMUI::ScrollView*)> __HMUI_ScrollToTopOnEnableSizeCheck;
   static_assert(sizeof(ScrollToTopOnEnable) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollToTopOnEnable*, "HMUI", "ScrollToTopOnEnable");

@@ -74,9 +74,9 @@ namespace MasterServer {
     // Set static field: static public MasterServer.AnalyticsMetricUnit Bytes
     static void _set_Bytes(MasterServer::AnalyticsMetricUnit value);
   }; // MasterServer.AnalyticsMetricUnit
+  #pragma pack(pop)
   static check_size<sizeof(AnalyticsMetricUnit), 0 + sizeof(int)> __MasterServer_AnalyticsMetricUnitSizeCheck;
   static_assert(sizeof(AnalyticsMetricUnit) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AnalyticsMetricUnit, "MasterServer", "AnalyticsMetricUnit");

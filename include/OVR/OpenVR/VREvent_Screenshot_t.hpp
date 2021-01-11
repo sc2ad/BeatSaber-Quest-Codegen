@@ -34,9 +34,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.VREvent_Screenshot_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_Screenshot_t), 4 + sizeof(uint)> __OVR_OpenVR_VREvent_Screenshot_tSizeCheck;
   static_assert(sizeof(VREvent_Screenshot_t) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Screenshot_t, "OVR.OpenVR", "VREvent_Screenshot_t");

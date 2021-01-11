@@ -47,8 +47,8 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE8D0
     void set_Directive(::Il2CppString* value);
   }; // JetBrains.Annotations.RazorDirectiveAttribute
+  #pragma pack(pop)
   static check_size<sizeof(RazorDirectiveAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_RazorDirectiveAttributeSizeCheck;
   static_assert(sizeof(RazorDirectiveAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorDirectiveAttribute*, "JetBrains.Annotations", "RazorDirectiveAttribute");

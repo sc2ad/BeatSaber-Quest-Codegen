@@ -67,9 +67,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // BeatmapDataLoader/<>c__DisplayClass2_0
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapDataLoader::$$c__DisplayClass2_0), 28 + sizeof(float)> __GlobalNamespace_BeatmapDataLoader_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(BeatmapDataLoader::$$c__DisplayClass2_0) == 0x20);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataLoader::$$c__DisplayClass2_0, "", "BeatmapDataLoader/<>c__DisplayClass2_0");

@@ -40,8 +40,8 @@ namespace System::Xml {
     // Offset: 0x14E04F4
     uint8_t FindCaseInsensitiveString(::Il2CppString* stringToFind);
   }; // System.Xml.TernaryTreeReadOnly
+  #pragma pack(pop)
   static check_size<sizeof(TernaryTreeReadOnly), 16 + sizeof(::Array<uint8_t>*)> __System_Xml_TernaryTreeReadOnlySizeCheck;
   static_assert(sizeof(TernaryTreeReadOnly) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::TernaryTreeReadOnly*, "System.Xml", "TernaryTreeReadOnly");

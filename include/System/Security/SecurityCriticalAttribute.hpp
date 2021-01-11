@@ -33,6 +33,6 @@ namespace System::Security {
       return THROW_UNLESS((::il2cpp_utils::New<SecurityCriticalAttribute*, creationType>()));
     }
   }; // System.Security.SecurityCriticalAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityCriticalAttribute*, "System.Security", "SecurityCriticalAttribute");

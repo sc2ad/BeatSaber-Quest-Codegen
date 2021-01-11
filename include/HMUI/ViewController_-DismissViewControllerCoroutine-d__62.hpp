@@ -119,8 +119,8 @@ namespace HMUI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // HMUI.ViewController/<DismissViewControllerCoroutine>d__62
+  #pragma pack(pop)
   static check_size<sizeof(ViewController::$DismissViewControllerCoroutine$d__62), 56 + sizeof(HMUI::ViewController*)> __HMUI_ViewController_$DismissViewControllerCoroutine$d__62SizeCheck;
   static_assert(sizeof(ViewController::$DismissViewControllerCoroutine$d__62) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::$DismissViewControllerCoroutine$d__62*, "HMUI", "ViewController/<DismissViewControllerCoroutine>d__62");

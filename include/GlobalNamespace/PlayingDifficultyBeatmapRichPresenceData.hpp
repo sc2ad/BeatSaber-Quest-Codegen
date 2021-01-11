@@ -73,8 +73,8 @@ namespace GlobalNamespace {
     // Base method: System.String IRichPresenceData::get_localizedDescription()
     ::Il2CppString* get_localizedDescription();
   }; // PlayingDifficultyBeatmapRichPresenceData
+  #pragma pack(pop)
   static check_size<sizeof(PlayingDifficultyBeatmapRichPresenceData), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_PlayingDifficultyBeatmapRichPresenceDataSizeCheck;
   static_assert(sizeof(PlayingDifficultyBeatmapRichPresenceData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData*, "", "PlayingDifficultyBeatmapRichPresenceData");

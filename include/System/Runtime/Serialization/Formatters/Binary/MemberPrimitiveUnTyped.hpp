@@ -69,8 +69,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return THROW_UNLESS((::il2cpp_utils::New<MemberPrimitiveUnTyped*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveUnTyped
+  #pragma pack(pop)
   static check_size<sizeof(MemberPrimitiveUnTyped), 24 + sizeof(::Il2CppObject*)> __System_Runtime_Serialization_Formatters_Binary_MemberPrimitiveUnTypedSizeCheck;
   static_assert(sizeof(MemberPrimitiveUnTyped) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*, "System.Runtime.Serialization.Formatters.Binary", "MemberPrimitiveUnTyped");

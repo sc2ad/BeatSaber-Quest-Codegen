@@ -84,7 +84,7 @@ namespace System {
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* System_IConvertible_ToType(System::Type* conversionType, System::IFormatProvider* provider);
   }; // System.IConvertible
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IConvertible*, "System", "IConvertible");

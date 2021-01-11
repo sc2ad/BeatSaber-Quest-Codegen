@@ -33,7 +33,7 @@ namespace Mono::Security::Cryptography {
     // Offset: 0x17B211C
     static ::Array<uint8_t>* Key(int size);
   }; // Mono.Security.Cryptography.KeyBuilder
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::KeyBuilder*, "Mono.Security.Cryptography", "KeyBuilder");

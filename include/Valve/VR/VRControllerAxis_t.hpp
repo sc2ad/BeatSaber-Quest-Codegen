@@ -34,9 +34,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.VRControllerAxis_t
+  #pragma pack(pop)
   static check_size<sizeof(VRControllerAxis_t), 4 + sizeof(float)> __Valve_VR_VRControllerAxis_tSizeCheck;
   static_assert(sizeof(VRControllerAxis_t) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRControllerAxis_t, "Valve.VR", "VRControllerAxis_t");

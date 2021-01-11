@@ -27,7 +27,7 @@ namespace NUnit::Compatibility {
     // Offset: 0x13D73F8
     static System::Type* GetTypeInfo(System::Type* type);
   }; // NUnit.Compatibility.TypeExtensions
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::TypeExtensions*, "NUnit.Compatibility", "TypeExtensions");

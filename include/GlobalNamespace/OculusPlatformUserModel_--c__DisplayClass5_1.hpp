@@ -62,8 +62,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformUserModel::$$c__DisplayClass5_1*, creationType>()));
     }
   }; // OculusPlatformUserModel/<>c__DisplayClass5_1
+  #pragma pack(pop)
   static check_size<sizeof(OculusPlatformUserModel::$$c__DisplayClass5_1), 24 + sizeof(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0*)> __GlobalNamespace_OculusPlatformUserModel_$$c__DisplayClass5_1SizeCheck;
   static_assert(sizeof(OculusPlatformUserModel::$$c__DisplayClass5_1) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_1*, "", "OculusPlatformUserModel/<>c__DisplayClass5_1");

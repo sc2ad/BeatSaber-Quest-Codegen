@@ -79,8 +79,8 @@ namespace Oculus::Platform {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Oculus.Platform.Packet
+  #pragma pack(pop)
   static check_size<sizeof(Packet), 24 + sizeof(System::IntPtr)> __Oculus_Platform_PacketSizeCheck;
   static_assert(sizeof(Packet) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Packet*, "Oculus.Platform", "Packet");

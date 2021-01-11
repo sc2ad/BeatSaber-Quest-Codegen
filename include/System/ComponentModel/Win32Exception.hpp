@@ -112,8 +112,8 @@ namespace System::ComponentModel {
     // Base method: System.Void Exception::.cctor()
     static void _cctor();
   }; // System.ComponentModel.Win32Exception
+  #pragma pack(pop)
   static check_size<sizeof(Win32Exception), 136 + sizeof(int)> __System_ComponentModel_Win32ExceptionSizeCheck;
   static_assert(sizeof(Win32Exception) == 0x8C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Win32Exception*, "System.ComponentModel", "Win32Exception");

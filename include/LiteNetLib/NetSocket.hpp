@@ -156,8 +156,8 @@ namespace LiteNetLib {
     // Offset: 0x1DCCD30
     void Close(bool suspend);
   }; // LiteNetLib.NetSocket
+  #pragma pack(pop)
   static check_size<sizeof(NetSocket), 60 + sizeof(bool)> __LiteNetLib_NetSocketSizeCheck;
   static_assert(sizeof(NetSocket) == 0x3D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetSocket*, "LiteNetLib", "NetSocket");

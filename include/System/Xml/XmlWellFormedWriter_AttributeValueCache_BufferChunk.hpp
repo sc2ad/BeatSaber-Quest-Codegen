@@ -47,8 +47,8 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter::AttributeValueCache::BufferChunk*, creationType>(buffer, index, count)));
     }
   }; // System.Xml.XmlWellFormedWriter/AttributeValueCache/BufferChunk
+  #pragma pack(pop)
   static check_size<sizeof(XmlWellFormedWriter::AttributeValueCache::BufferChunk), 28 + sizeof(int)> __System_Xml_XmlWellFormedWriter_AttributeValueCache_BufferChunkSizeCheck;
   static_assert(sizeof(XmlWellFormedWriter::AttributeValueCache::BufferChunk) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/BufferChunk");

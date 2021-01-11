@@ -127,8 +127,8 @@ namespace System::Text {
     // Offset: 0x15A2E7C
     int get_Count();
   }; // System.Text.Encoding/EncodingByteBuffer
+  #pragma pack(pop)
   static check_size<sizeof(Encoding::EncodingByteBuffer), 88 + sizeof(System::Text::EncoderFallbackBuffer*)> __System_Text_Encoding_EncodingByteBufferSizeCheck;
   static_assert(sizeof(Encoding::EncodingByteBuffer) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::EncodingByteBuffer*, "System.Text", "Encoding/EncodingByteBuffer");

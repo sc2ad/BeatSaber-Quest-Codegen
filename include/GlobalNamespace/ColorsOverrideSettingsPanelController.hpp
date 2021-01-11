@@ -186,8 +186,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorsOverrideSettingsPanelController*, creationType>()));
     }
   }; // ColorsOverrideSettingsPanelController
+  #pragma pack(pop)
   static check_size<sizeof(ColorsOverrideSettingsPanelController), 104 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_ColorsOverrideSettingsPanelControllerSizeCheck;
   static_assert(sizeof(ColorsOverrideSettingsPanelController) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorsOverrideSettingsPanelController*, "", "ColorsOverrideSettingsPanelController");

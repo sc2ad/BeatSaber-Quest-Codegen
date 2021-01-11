@@ -75,9 +75,9 @@ namespace System::Runtime::InteropServices {
     // Set static field: static public System.Runtime.InteropServices.DllImportSearchPath LegacyBehavior
     static void _set_LegacyBehavior(System::Runtime::InteropServices::DllImportSearchPath value);
   }; // System.Runtime.InteropServices.DllImportSearchPath
+  #pragma pack(pop)
   static check_size<sizeof(DllImportSearchPath), 0 + sizeof(int)> __System_Runtime_InteropServices_DllImportSearchPathSizeCheck;
   static_assert(sizeof(DllImportSearchPath) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DllImportSearchPath, "System.Runtime.InteropServices", "DllImportSearchPath");

@@ -46,8 +46,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MovementBeatmapEventEffect::MovementData*, creationType>()));
     }
   }; // MovementBeatmapEventEffect/MovementData
+  #pragma pack(pop)
   static check_size<sizeof(MovementBeatmapEventEffect::MovementData), 16 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_MovementBeatmapEventEffect_MovementDataSizeCheck;
   static_assert(sizeof(MovementBeatmapEventEffect::MovementData) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementBeatmapEventEffect::MovementData*, "", "MovementBeatmapEventEffect/MovementData");

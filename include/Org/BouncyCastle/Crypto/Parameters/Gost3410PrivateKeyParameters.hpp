@@ -50,8 +50,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1048C10
     Org::BouncyCastle::Math::BigInteger* get_X();
   }; // Org.BouncyCastle.Crypto.Parameters.Gost3410PrivateKeyParameters
+  #pragma pack(pop)
   static check_size<sizeof(Gost3410PrivateKeyParameters), 40 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Crypto_Parameters_Gost3410PrivateKeyParametersSizeCheck;
   static_assert(sizeof(Gost3410PrivateKeyParameters) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Gost3410PrivateKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "Gost3410PrivateKeyParameters");

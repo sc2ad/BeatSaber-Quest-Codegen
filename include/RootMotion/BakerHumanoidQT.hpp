@@ -185,8 +185,8 @@ namespace RootMotion {
     // Offset: 0x173FD34
     void SetCurves(UnityEngine::AnimationClip*& clip, float maxError, float lengthMlp);
   }; // RootMotion.BakerHumanoidQT
+  #pragma pack(pop)
   static check_size<sizeof(BakerHumanoidQT), 156 + sizeof(bool)> __RootMotion_BakerHumanoidQTSizeCheck;
   static_assert(sizeof(BakerHumanoidQT) == 0x9D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerHumanoidQT*, "RootMotion", "BakerHumanoidQT");

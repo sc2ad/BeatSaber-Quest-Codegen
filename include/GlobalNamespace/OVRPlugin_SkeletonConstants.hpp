@@ -46,9 +46,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/SkeletonConstants MaxBoneCapsules
     static void _set_MaxBoneCapsules(GlobalNamespace::OVRPlugin::SkeletonConstants value);
   }; // OVRPlugin/SkeletonConstants
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::SkeletonConstants), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_SkeletonConstantsSizeCheck;
   static_assert(sizeof(OVRPlugin::SkeletonConstants) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::SkeletonConstants, "", "OVRPlugin/SkeletonConstants");

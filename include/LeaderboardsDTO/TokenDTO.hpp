@@ -41,8 +41,8 @@ namespace LeaderboardsDTO {
       return THROW_UNLESS((::il2cpp_utils::New<TokenDTO*, creationType>()));
     }
   }; // LeaderboardsDTO.TokenDTO
+  #pragma pack(pop)
   static check_size<sizeof(TokenDTO), 24 + sizeof(int)> __LeaderboardsDTO_TokenDTOSizeCheck;
   static_assert(sizeof(TokenDTO) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::TokenDTO*, "LeaderboardsDTO", "TokenDTO");

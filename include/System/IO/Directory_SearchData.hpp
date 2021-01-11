@@ -49,8 +49,8 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<Directory::SearchData*, creationType>(fullPath, userPath, searchOption)));
     }
   }; // System.IO.Directory/SearchData
+  #pragma pack(pop)
   static check_size<sizeof(Directory::SearchData), 32 + sizeof(System::IO::SearchOption)> __System_IO_Directory_SearchDataSizeCheck;
   static_assert(sizeof(Directory::SearchData) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Directory::SearchData*, "System.IO", "Directory/SearchData");

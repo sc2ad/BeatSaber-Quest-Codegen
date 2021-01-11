@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     // Offset: 0x135D3D4
     static void TakeStereoScreenshot(uint screenshotHandle, UnityEngine::GameObject* target, int cellSize, float ipd, ::Il2CppString*& previewFilename, ::Il2CppString*& VRFilename);
   }; // SteamVR_Utils
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils*, "", "SteamVR_Utils");

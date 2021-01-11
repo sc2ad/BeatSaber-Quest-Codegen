@@ -55,8 +55,8 @@ namespace System::Runtime::Remoting {
     // Base method: System.Runtime.Remoting.Messaging.IMessageSink IEnvoyInfo::get_EnvoySinks()
     System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
   }; // System.Runtime.Remoting.EnvoyInfo
+  #pragma pack(pop)
   static check_size<sizeof(EnvoyInfo), 16 + sizeof(System::Runtime::Remoting::Messaging::IMessageSink*)> __System_Runtime_Remoting_EnvoyInfoSizeCheck;
   static_assert(sizeof(EnvoyInfo) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::EnvoyInfo*, "System.Runtime.Remoting", "EnvoyInfo");

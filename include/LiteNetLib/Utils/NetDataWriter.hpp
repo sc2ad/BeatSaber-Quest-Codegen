@@ -225,8 +225,8 @@ namespace LiteNetLib::Utils {
       return THROW_UNLESS((::il2cpp_utils::New<NetDataWriter*, creationType>()));
     }
   }; // LiteNetLib.Utils.NetDataWriter
+  #pragma pack(pop)
   static check_size<sizeof(NetDataWriter), 28 + sizeof(bool)> __LiteNetLib_Utils_NetDataWriterSizeCheck;
   static_assert(sizeof(NetDataWriter) == 0x1D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetDataWriter*, "LiteNetLib.Utils", "NetDataWriter");

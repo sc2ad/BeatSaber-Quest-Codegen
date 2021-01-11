@@ -91,8 +91,8 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<TypeAnalysis*, creationType>(dataType, eventAttrib, recursionCheck)));
     }
   }; // System.Diagnostics.Tracing.TypeAnalysis
+  #pragma pack(pop)
   static check_size<sizeof(TypeAnalysis), 48 + sizeof(System::Diagnostics::Tracing::EventTags)> __System_Diagnostics_Tracing_TypeAnalysisSizeCheck;
   static_assert(sizeof(TypeAnalysis) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TypeAnalysis*, "System.Diagnostics.Tracing", "TypeAnalysis");

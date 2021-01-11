@@ -72,8 +72,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelFilterModel::$$c__DisplayClass0_0*, creationType>()));
     }
   }; // BeatmapLevelFilterModel/<>c__DisplayClass0_0
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapLevelFilterModel::$$c__DisplayClass0_0), 40 + sizeof(GlobalNamespace::PlayerDataModel*)> __GlobalNamespace_BeatmapLevelFilterModel_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(BeatmapLevelFilterModel::$$c__DisplayClass0_0) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0*, "", "BeatmapLevelFilterModel/<>c__DisplayClass0_0");

@@ -139,8 +139,8 @@ namespace UnityEngine::Timeline {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.Timeline.TimelineAsset/<get_outputs>d__27
+  #pragma pack(pop)
   static check_size<sizeof(TimelineAsset::$get_outputs$d__27), 80 + sizeof(System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>*)> __UnityEngine_Timeline_TimelineAsset_$get_outputs$d__27SizeCheck;
   static_assert(sizeof(TimelineAsset::$get_outputs$d__27) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::$get_outputs$d__27*, "UnityEngine.Timeline", "TimelineAsset/<get_outputs>d__27");

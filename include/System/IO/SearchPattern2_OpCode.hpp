@@ -64,9 +64,9 @@ namespace System::IO {
     // Set static field: static public System.IO.SearchPattern2/OpCode True
     static void _set_True(System::IO::SearchPattern2::OpCode value);
   }; // System.IO.SearchPattern2/OpCode
+  #pragma pack(pop)
   static check_size<sizeof(SearchPattern2::OpCode), 0 + sizeof(int)> __System_IO_SearchPattern2_OpCodeSizeCheck;
   static_assert(sizeof(SearchPattern2::OpCode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2::OpCode, "System.IO", "SearchPattern2/OpCode");

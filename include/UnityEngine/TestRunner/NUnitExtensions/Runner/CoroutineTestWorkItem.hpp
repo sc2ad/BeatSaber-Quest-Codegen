@@ -86,8 +86,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
     System::Collections::IEnumerable* PerformWork();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CoroutineTestWorkItem
+  #pragma pack(pop)
   static check_size<sizeof(CoroutineTestWorkItem), 88 + sizeof(NUnit::Framework::Internal::Commands::TestCommand*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_CoroutineTestWorkItemSizeCheck;
   static_assert(sizeof(CoroutineTestWorkItem) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CoroutineTestWorkItem");

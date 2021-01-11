@@ -82,8 +82,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint
+  #pragma pack(pop)
   static check_size<sizeof(TriangulationPoint), 40 + sizeof(int)> __UnityEngine_ProBuilder_Poly2Tri_TriangulationPointSizeCheck;
   static_assert(sizeof(TriangulationPoint) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationPoint");

@@ -35,9 +35,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.VREvent_Chaperone_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_Chaperone_t), 8 + sizeof(uint64_t)> __OVR_OpenVR_VREvent_Chaperone_tSizeCheck;
   static_assert(sizeof(VREvent_Chaperone_t) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Chaperone_t, "OVR.OpenVR", "VREvent_Chaperone_t");

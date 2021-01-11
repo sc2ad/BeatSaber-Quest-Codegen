@@ -276,8 +276,8 @@ namespace UnityEngine::Networking {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // UnityEngine.Networking.UnityWebRequest
+  #pragma pack(pop)
   static check_size<sizeof(UnityWebRequest), 58 + sizeof(bool)> __UnityEngine_Networking_UnityWebRequestSizeCheck;
   static_assert(sizeof(UnityWebRequest) == 0x3B);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequest*, "UnityEngine.Networking", "UnityWebRequest");

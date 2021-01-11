@@ -35,6 +35,6 @@ namespace System::Runtime::ConstrainedExecution {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Runtime.ConstrainedExecution.CriticalFinalizerObject
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::CriticalFinalizerObject*, "System.Runtime.ConstrainedExecution", "CriticalFinalizerObject");

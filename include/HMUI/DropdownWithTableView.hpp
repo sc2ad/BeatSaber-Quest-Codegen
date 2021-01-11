@@ -149,8 +149,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<DropdownWithTableView*, creationType>()));
     }
   }; // HMUI.DropdownWithTableView
+  #pragma pack(pop)
   static check_size<sizeof(DropdownWithTableView), 64 + sizeof(int)> __HMUI_DropdownWithTableViewSizeCheck;
   static_assert(sizeof(DropdownWithTableView) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::DropdownWithTableView*, "HMUI", "DropdownWithTableView");

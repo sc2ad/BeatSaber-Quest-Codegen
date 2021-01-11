@@ -54,6 +54,6 @@ namespace UnityEngineInternal::Input {
     // Offset: 0x1A0BE58
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngineInternal.Input.NativeUpdateCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeUpdateCallback*, "UnityEngineInternal.Input", "NativeUpdateCallback");

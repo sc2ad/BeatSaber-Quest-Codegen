@@ -66,8 +66,8 @@ namespace UnityEngine {
       return New_ctor<creationType>(preferredExtension, {otherExtensions...});
     }
   }; // UnityEngine.AssetFileNameExtensionAttribute
+  #pragma pack(pop)
   static check_size<sizeof(AssetFileNameExtensionAttribute), 24 + sizeof(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)> __UnityEngine_AssetFileNameExtensionAttributeSizeCheck;
   static_assert(sizeof(AssetFileNameExtensionAttribute) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetFileNameExtensionAttribute*, "UnityEngine", "AssetFileNameExtensionAttribute");

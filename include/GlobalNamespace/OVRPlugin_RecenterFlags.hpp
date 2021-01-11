@@ -58,9 +58,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/RecenterFlags Count
     static void _set_Count(GlobalNamespace::OVRPlugin::RecenterFlags value);
   }; // OVRPlugin/RecenterFlags
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::RecenterFlags), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_RecenterFlagsSizeCheck;
   static_assert(sizeof(OVRPlugin::RecenterFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::RecenterFlags, "", "OVRPlugin/RecenterFlags");

@@ -73,8 +73,8 @@ namespace RootMotion::FinalIK {
     // Offset: 0x16FA71C
     void Update(float localRotationWeight, float localPositionWeight);
   }; // RootMotion.FinalIK.GenericPoser/Map
+  #pragma pack(pop)
   static check_size<sizeof(GenericPoser::Map), 44 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_GenericPoser_MapSizeCheck;
   static_assert(sizeof(GenericPoser::Map) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser::Map*, "RootMotion.FinalIK", "GenericPoser/Map");

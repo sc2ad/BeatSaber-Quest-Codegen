@@ -108,9 +108,9 @@ namespace GlobalNamespace {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // OVRPlugin/LayerDesc
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::LayerDesc), 56 + sizeof(GlobalNamespace::OVRPlugin::EyeTextureFormat)> __GlobalNamespace_OVRPlugin_LayerDescSizeCheck;
   static_assert(sizeof(OVRPlugin::LayerDesc) == 0x3C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::LayerDesc, "", "OVRPlugin/LayerDesc");

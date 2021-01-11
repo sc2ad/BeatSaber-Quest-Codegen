@@ -70,8 +70,8 @@ namespace UnityEngine::Playables {
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();
   }; // UnityEngine.Playables.ScriptPlayableOutput
+  #pragma pack(pop)
   static check_size<sizeof(ScriptPlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)> __UnityEngine_Playables_ScriptPlayableOutputSizeCheck;
   static_assert(sizeof(ScriptPlayableOutput) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::ScriptPlayableOutput, "UnityEngine.Playables", "ScriptPlayableOutput");

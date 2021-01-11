@@ -44,9 +44,9 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.PivotLocation FirstVertex
     static void _set_FirstVertex(UnityEngine::ProBuilder::PivotLocation value);
   }; // UnityEngine.ProBuilder.PivotLocation
+  #pragma pack(pop)
   static check_size<sizeof(PivotLocation), 0 + sizeof(int)> __UnityEngine_ProBuilder_PivotLocationSizeCheck;
   static_assert(sizeof(PivotLocation) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PivotLocation, "UnityEngine.ProBuilder", "PivotLocation");

@@ -64,6 +64,6 @@ namespace UnityEngine::TestTools::TestRunner {
       return THROW_UNLESS((::il2cpp_utils::New<PlaymodeTestsControllerSettings::$$c*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.PlaymodeTestsControllerSettings/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsControllerSettings/<>c");

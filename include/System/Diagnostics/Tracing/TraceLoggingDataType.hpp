@@ -254,9 +254,9 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.TraceLoggingDataType HResult
     static void _set_HResult(System::Diagnostics::Tracing::TraceLoggingDataType value);
   }; // System.Diagnostics.Tracing.TraceLoggingDataType
+  #pragma pack(pop)
   static check_size<sizeof(TraceLoggingDataType), 0 + sizeof(int)> __System_Diagnostics_Tracing_TraceLoggingDataTypeSizeCheck;
   static_assert(sizeof(TraceLoggingDataType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TraceLoggingDataType, "System.Diagnostics.Tracing", "TraceLoggingDataType");

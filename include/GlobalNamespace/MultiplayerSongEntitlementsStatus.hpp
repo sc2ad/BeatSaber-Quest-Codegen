@@ -44,9 +44,9 @@ namespace GlobalNamespace {
     // Set static field: static public MultiplayerSongEntitlementsStatus Invalid
     static void _set_Invalid(GlobalNamespace::MultiplayerSongEntitlementsStatus value);
   }; // MultiplayerSongEntitlementsStatus
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerSongEntitlementsStatus), 0 + sizeof(int)> __GlobalNamespace_MultiplayerSongEntitlementsStatusSizeCheck;
   static_assert(sizeof(MultiplayerSongEntitlementsStatus) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSongEntitlementsStatus, "", "MultiplayerSongEntitlementsStatus");

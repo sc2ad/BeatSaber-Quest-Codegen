@@ -118,9 +118,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/SystemHeadset Rift_S
     static void _set_Rift_S(GlobalNamespace::OVRPlugin::SystemHeadset value);
   }; // OVRPlugin/SystemHeadset
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::SystemHeadset), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_SystemHeadsetSizeCheck;
   static_assert(sizeof(OVRPlugin::SystemHeadset) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::SystemHeadset, "", "OVRPlugin/SystemHeadset");

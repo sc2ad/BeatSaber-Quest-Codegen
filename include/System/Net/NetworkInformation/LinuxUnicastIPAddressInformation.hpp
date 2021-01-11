@@ -51,8 +51,8 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Net.IPAddress IPAddressInformation::get_Address()
     System::Net::IPAddress* get_Address();
   }; // System.Net.NetworkInformation.LinuxUnicastIPAddressInformation
+  #pragma pack(pop)
   static check_size<sizeof(LinuxUnicastIPAddressInformation), 16 + sizeof(System::Net::IPAddress*)> __System_Net_NetworkInformation_LinuxUnicastIPAddressInformationSizeCheck;
   static_assert(sizeof(LinuxUnicastIPAddressInformation) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxUnicastIPAddressInformation*, "System.Net.NetworkInformation", "LinuxUnicastIPAddressInformation");

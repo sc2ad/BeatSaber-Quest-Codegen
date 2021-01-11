@@ -59,8 +59,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
       return THROW_UNLESS((::il2cpp_utils::New<DHBasicKeyPairGenerator*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Generators.DHBasicKeyPairGenerator
+  #pragma pack(pop)
   static check_size<sizeof(DHBasicKeyPairGenerator), 16 + sizeof(Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*)> __Org_BouncyCastle_Crypto_Generators_DHBasicKeyPairGeneratorSizeCheck;
   static_assert(sizeof(DHBasicKeyPairGenerator) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator*, "Org.BouncyCastle.Crypto.Generators", "DHBasicKeyPairGenerator");

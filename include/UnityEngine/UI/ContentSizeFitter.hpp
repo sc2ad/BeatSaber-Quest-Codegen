@@ -79,6 +79,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.ContentSizeFitter/FitMode PreferredSize
       static void _set_PreferredSize(UnityEngine::UI::ContentSizeFitter::FitMode value);
     }; // UnityEngine.UI.ContentSizeFitter/FitMode
+    #pragma pack(pop)
     static check_size<sizeof(ContentSizeFitter::FitMode), 0 + sizeof(int)> __UnityEngine_UI_ContentSizeFitter_FitModeSizeCheck;
     static_assert(sizeof(ContentSizeFitter::FitMode) == 0x4);
     // protected UnityEngine.UI.ContentSizeFitter/FitMode m_HorizontalFit

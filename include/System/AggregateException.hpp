@@ -175,8 +175,8 @@ namespace System {
     // Base method: System.String Exception::ToString()
     ::Il2CppString* ToString();
   }; // System.AggregateException
+  #pragma pack(pop)
   static check_size<sizeof(AggregateException), 136 + sizeof(System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>*)> __System_AggregateExceptionSizeCheck;
   static_assert(sizeof(AggregateException) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::AggregateException*, "System", "AggregateException");

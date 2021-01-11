@@ -86,8 +86,8 @@ namespace System {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.CultureAwareComparer
+  #pragma pack(pop)
   static check_size<sizeof(CultureAwareComparer), 28 + sizeof(System::Globalization::CompareOptions)> __System_CultureAwareComparerSizeCheck;
   static_assert(sizeof(CultureAwareComparer) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::CultureAwareComparer*, "System", "CultureAwareComparer");

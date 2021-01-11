@@ -70,9 +70,9 @@ namespace System {
     // Set static field: static public System.Guid/ParseFailureKind FormatWithInnerException
     static void _set_FormatWithInnerException(System::Guid::ParseFailureKind value);
   }; // System.Guid/ParseFailureKind
+  #pragma pack(pop)
   static check_size<sizeof(Guid::ParseFailureKind), 0 + sizeof(int)> __System_Guid_ParseFailureKindSizeCheck;
   static_assert(sizeof(Guid::ParseFailureKind) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Guid::ParseFailureKind, "System", "Guid/ParseFailureKind");

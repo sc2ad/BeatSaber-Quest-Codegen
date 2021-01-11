@@ -57,6 +57,6 @@ namespace Valve::VR {
     // Offset: 0x19285D8
     bool EndInvoke(Valve::VR::DistortionCoordinates_t& pDistortionCoordinates, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_ComputeDistortion
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_ComputeDistortion*, "Valve.VR", "IVRSystem/_ComputeDistortion");

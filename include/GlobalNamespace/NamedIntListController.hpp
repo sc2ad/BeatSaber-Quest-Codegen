@@ -104,8 +104,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NamedIntListController*, creationType>()));
     }
   }; // NamedIntListController
+  #pragma pack(pop)
   static check_size<sizeof(NamedIntListController), 56 + sizeof(System::Action_1<int>*)> __GlobalNamespace_NamedIntListControllerSizeCheck;
   static_assert(sizeof(NamedIntListController) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListController*, "", "NamedIntListController");

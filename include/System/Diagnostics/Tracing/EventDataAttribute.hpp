@@ -75,9 +75,9 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C69FC
     System::Diagnostics::Tracing::EventTags get_Tags();
   }; // System.Diagnostics.Tracing.EventDataAttribute
+  #pragma pack(pop)
   static check_size<sizeof(EventDataAttribute), 40 + sizeof(System::Diagnostics::Tracing::EventTags)> __System_Diagnostics_Tracing_EventDataAttributeSizeCheck;
   static_assert(sizeof(EventDataAttribute) == 0x2C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventDataAttribute*, "System.Diagnostics.Tracing", "EventDataAttribute");

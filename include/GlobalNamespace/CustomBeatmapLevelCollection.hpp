@@ -57,8 +57,8 @@ namespace GlobalNamespace {
     // Base method: IPreviewBeatmapLevel[] IBeatmapLevelCollection::get_beatmapLevels()
     ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
   }; // CustomBeatmapLevelCollection
+  #pragma pack(pop)
   static check_size<sizeof(CustomBeatmapLevelCollection), 16 + sizeof(::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>*)> __GlobalNamespace_CustomBeatmapLevelCollectionSizeCheck;
   static_assert(sizeof(CustomBeatmapLevelCollection) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBeatmapLevelCollection*, "", "CustomBeatmapLevelCollection");

@@ -70,8 +70,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleDissolve*, creationType>()));
     }
   }; // ObstacleDissolve
+  #pragma pack(pop)
   static check_size<sizeof(ObstacleDissolve), 32 + sizeof(GlobalNamespace::CutoutAnimateEffect*)> __GlobalNamespace_ObstacleDissolveSizeCheck;
   static_assert(sizeof(ObstacleDissolve) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleDissolve*, "", "ObstacleDissolve");

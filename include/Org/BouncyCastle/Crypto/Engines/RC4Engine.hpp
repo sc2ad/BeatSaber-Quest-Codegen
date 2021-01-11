@@ -91,8 +91,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<RC4Engine*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Engines.RC4Engine
+  #pragma pack(pop)
   static check_size<sizeof(RC4Engine), 32 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Engines_RC4EngineSizeCheck;
   static_assert(sizeof(RC4Engine) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RC4Engine*, "Org.BouncyCastle.Crypto.Engines", "RC4Engine");

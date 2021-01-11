@@ -57,8 +57,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BaseNetworkPlayerModel::PartyConfig*, creationType>()));
     }
   }; // BaseNetworkPlayerModel/PartyConfig
+  #pragma pack(pop)
   static check_size<sizeof(BaseNetworkPlayerModel::PartyConfig), 48 + sizeof(GlobalNamespace::INetworkPlayerModel*)> __GlobalNamespace_BaseNetworkPlayerModel_PartyConfigSizeCheck;
   static_assert(sizeof(BaseNetworkPlayerModel::PartyConfig) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNetworkPlayerModel::PartyConfig*, "", "BaseNetworkPlayerModel/PartyConfig");

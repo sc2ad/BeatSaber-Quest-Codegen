@@ -56,9 +56,9 @@ namespace System::Globalization {
     // Set static field: static public System.Globalization.HebrewNumberParsingState ContinueParsing
     static void _set_ContinueParsing(System::Globalization::HebrewNumberParsingState value);
   }; // System.Globalization.HebrewNumberParsingState
+  #pragma pack(pop)
   static check_size<sizeof(HebrewNumberParsingState), 0 + sizeof(int)> __System_Globalization_HebrewNumberParsingStateSizeCheck;
   static_assert(sizeof(HebrewNumberParsingState) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumberParsingState, "System.Globalization", "HebrewNumberParsingState");

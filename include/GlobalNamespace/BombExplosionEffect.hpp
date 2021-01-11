@@ -90,8 +90,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BombExplosionEffect*, creationType>()));
     }
   }; // BombExplosionEffect
+  #pragma pack(pop)
   static check_size<sizeof(BombExplosionEffect), 192 + sizeof(UnityEngine::ParticleSystem::EmitParams)> __GlobalNamespace_BombExplosionEffectSizeCheck;
   static_assert(sizeof(BombExplosionEffect) == 0x14F);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExplosionEffect*, "", "BombExplosionEffect");

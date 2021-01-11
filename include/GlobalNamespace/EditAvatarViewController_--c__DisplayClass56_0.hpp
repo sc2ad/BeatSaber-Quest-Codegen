@@ -91,8 +91,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EditAvatarViewController::$$c__DisplayClass56_0*, creationType>()));
     }
   }; // EditAvatarViewController/<>c__DisplayClass56_0
+  #pragma pack(pop)
   static check_size<sizeof(EditAvatarViewController::$$c__DisplayClass56_0), 56 + sizeof(System::Action_1<UnityEngine::Color>*)> __GlobalNamespace_EditAvatarViewController_$$c__DisplayClass56_0SizeCheck;
   static_assert(sizeof(EditAvatarViewController::$$c__DisplayClass56_0) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::$$c__DisplayClass56_0*, "", "EditAvatarViewController/<>c__DisplayClass56_0");

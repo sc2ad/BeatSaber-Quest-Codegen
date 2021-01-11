@@ -47,8 +47,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Offset: 0xFFFFFFFF
     void DecryptBlock(::Array<uint64_t>* block, ::Array<uint64_t>* outWords);
   }; // Org.BouncyCastle.Crypto.Engines.ThreefishEngine/ThreefishCipher
+  #pragma pack(pop)
   static check_size<sizeof(ThreefishEngine::ThreefishCipher), 24 + sizeof(::Array<uint64_t>*)> __Org_BouncyCastle_Crypto_Engines_ThreefishEngine_ThreefishCipherSizeCheck;
   static_assert(sizeof(ThreefishEngine::ThreefishCipher) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher*, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/ThreefishCipher");

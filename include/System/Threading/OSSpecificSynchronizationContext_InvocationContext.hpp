@@ -51,8 +51,8 @@ namespace System::Threading {
     // Offset: 0x1D08210
     void Invoke();
   }; // System.Threading.OSSpecificSynchronizationContext/InvocationContext
+  #pragma pack(pop)
   static check_size<sizeof(OSSpecificSynchronizationContext::InvocationContext), 24 + sizeof(::Il2CppObject*)> __System_Threading_OSSpecificSynchronizationContext_InvocationContextSizeCheck;
   static_assert(sizeof(OSSpecificSynchronizationContext::InvocationContext) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext::InvocationContext*, "System.Threading", "OSSpecificSynchronizationContext/InvocationContext");

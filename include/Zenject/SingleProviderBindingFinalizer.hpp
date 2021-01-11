@@ -62,8 +62,8 @@ namespace Zenject {
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(Zenject::DiContainer* container);
   }; // Zenject.SingleProviderBindingFinalizer
+  #pragma pack(pop)
   static check_size<sizeof(SingleProviderBindingFinalizer), 24 + sizeof(System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*)> __Zenject_SingleProviderBindingFinalizerSizeCheck;
   static_assert(sizeof(SingleProviderBindingFinalizer) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SingleProviderBindingFinalizer*, "Zenject", "SingleProviderBindingFinalizer");

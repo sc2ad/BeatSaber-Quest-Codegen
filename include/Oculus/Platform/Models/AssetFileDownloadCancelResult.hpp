@@ -53,8 +53,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<AssetFileDownloadCancelResult*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.AssetFileDownloadCancelResult
+  #pragma pack(pop)
   static check_size<sizeof(AssetFileDownloadCancelResult), 40 + sizeof(bool)> __Oculus_Platform_Models_AssetFileDownloadCancelResultSizeCheck;
   static_assert(sizeof(AssetFileDownloadCancelResult) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDownloadCancelResult*, "Oculus.Platform.Models", "AssetFileDownloadCancelResult");

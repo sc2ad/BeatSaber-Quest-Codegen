@@ -59,8 +59,8 @@ namespace UnityEngine::EventSystems {
       return THROW_UNLESS((::il2cpp_utils::New<PointerInputModule::MouseButtonEventData*, creationType>()));
     }
   }; // UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData
+  #pragma pack(pop)
   static check_size<sizeof(PointerInputModule::MouseButtonEventData), 24 + sizeof(UnityEngine::EventSystems::PointerEventData*)> __UnityEngine_EventSystems_PointerInputModule_MouseButtonEventDataSizeCheck;
   static_assert(sizeof(PointerInputModule::MouseButtonEventData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*, "UnityEngine.EventSystems", "PointerInputModule/MouseButtonEventData");

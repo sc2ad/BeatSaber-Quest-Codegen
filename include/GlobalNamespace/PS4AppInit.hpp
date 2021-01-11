@@ -112,8 +112,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4AppInit*, creationType>()));
     }
   }; // PS4AppInit
+  #pragma pack(pop)
   static check_size<sizeof(PS4AppInit), 96 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_PS4AppInitSizeCheck;
   static_assert(sizeof(PS4AppInit) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AppInit*, "", "PS4AppInit");

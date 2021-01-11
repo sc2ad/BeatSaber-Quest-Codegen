@@ -64,8 +64,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SpawnRotationChevronManager::DirectionData*, creationType>()));
     }
   }; // SpawnRotationChevronManager/DirectionData
+  #pragma pack(pop)
   static check_size<sizeof(SpawnRotationChevronManager::DirectionData), 32 + sizeof(float)> __GlobalNamespace_SpawnRotationChevronManager_DirectionDataSizeCheck;
   static_assert(sizeof(SpawnRotationChevronManager::DirectionData) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevronManager::DirectionData*, "", "SpawnRotationChevronManager/DirectionData");

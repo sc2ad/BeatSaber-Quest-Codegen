@@ -97,6 +97,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<Bevel::$$c*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.Bevel/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c*, "UnityEngine.ProBuilder.MeshOperations", "Bevel/<>c");

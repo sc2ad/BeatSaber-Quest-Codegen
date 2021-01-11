@@ -84,6 +84,6 @@ namespace UnityEngine {
     // Base method: System.Boolean Texture::get_isReadable()
     bool get_isReadable();
   }; // UnityEngine.CubemapArray
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CubemapArray*, "UnityEngine", "CubemapArray");

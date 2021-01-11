@@ -59,6 +59,6 @@ namespace Valve::VR {
     // Offset: 0x1932674
     Valve::VR::EVRTrackedCameraError EndInvoke(Valve::VR::HmdVector2_t& pFocalLength, Valve::VR::HmdVector2_t& pCenter, System::IAsyncResult* result);
   }; // Valve.VR.IVRTrackedCamera/_GetCameraIntrinsics
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera::_GetCameraIntrinsics*, "Valve.VR", "IVRTrackedCamera/_GetCameraIntrinsics");

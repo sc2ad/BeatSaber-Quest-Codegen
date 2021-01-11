@@ -47,8 +47,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerSongTimeSyncController::InitData*, creationType>(startSongTime, songTimeOffset, timeScale)));
     }
   }; // MultiplayerConnectedPlayerSongTimeSyncController/InitData
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerSongTimeSyncController::InitData), 24 + sizeof(float)> __GlobalNamespace_MultiplayerConnectedPlayerSongTimeSyncController_InitDataSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerSongTimeSyncController::InitData) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData*, "", "MultiplayerConnectedPlayerSongTimeSyncController/InitData");

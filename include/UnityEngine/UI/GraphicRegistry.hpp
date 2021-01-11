@@ -92,8 +92,8 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<GraphicRegistry*, creationType>()));
     }
   }; // UnityEngine.UI.GraphicRegistry
+  #pragma pack(pop)
   static check_size<sizeof(GraphicRegistry), 16 + sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>*)> __UnityEngine_UI_GraphicRegistrySizeCheck;
   static_assert(sizeof(GraphicRegistry) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRegistry*, "UnityEngine.UI", "GraphicRegistry");

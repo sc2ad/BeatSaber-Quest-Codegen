@@ -16,7 +16,7 @@ namespace System::Reflection::Emit {
     // Creating value type constructor for type: ILGenerator
     ILGenerator() noexcept {}
   }; // System.Reflection.Emit.ILGenerator
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::ILGenerator*, "System.Reflection.Emit", "ILGenerator");

@@ -51,9 +51,9 @@ namespace System::Diagnostics {
     // Set static field: static public System.Diagnostics.DebuggerBrowsableState RootHidden
     static void _set_RootHidden(System::Diagnostics::DebuggerBrowsableState value);
   }; // System.Diagnostics.DebuggerBrowsableState
+  #pragma pack(pop)
   static check_size<sizeof(DebuggerBrowsableState), 0 + sizeof(int)> __System_Diagnostics_DebuggerBrowsableStateSizeCheck;
   static_assert(sizeof(DebuggerBrowsableState) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerBrowsableState, "System.Diagnostics", "DebuggerBrowsableState");

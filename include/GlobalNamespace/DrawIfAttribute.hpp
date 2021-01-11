@@ -59,6 +59,7 @@ namespace GlobalNamespace {
       // Set static field: static public DrawIfAttribute/DisablingType DontDraw
       static void _set_DontDraw(GlobalNamespace::DrawIfAttribute::DisablingType value);
     }; // DrawIfAttribute/DisablingType
+    #pragma pack(pop)
     static check_size<sizeof(DrawIfAttribute::DisablingType), 0 + sizeof(int)> __GlobalNamespace_DrawIfAttribute_DisablingTypeSizeCheck;
     static_assert(sizeof(DrawIfAttribute::DisablingType) == 0x4);
     // public readonly System.String propertyName
@@ -102,9 +103,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DrawIfAttribute*, creationType>(propertyName, value, orValue, disablingType)));
     }
   }; // DrawIfAttribute
+  #pragma pack(pop)
   static check_size<sizeof(DrawIfAttribute), 40 + sizeof(GlobalNamespace::DrawIfAttribute::DisablingType)> __GlobalNamespace_DrawIfAttributeSizeCheck;
   static_assert(sizeof(DrawIfAttribute) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DrawIfAttribute*, "", "DrawIfAttribute");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DrawIfAttribute::DisablingType, "", "DrawIfAttribute/DisablingType");

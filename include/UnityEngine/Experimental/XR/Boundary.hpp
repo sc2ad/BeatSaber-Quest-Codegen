@@ -53,7 +53,7 @@ namespace UnityEngine::Experimental::XR {
     // Offset: 0x1A08564
     static bool TryGetGeometryScriptingInternal(System::Collections::Generic::List_1<UnityEngine::Vector3>* geometry, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
   }; // UnityEngine.Experimental.XR.Boundary
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::XR::Boundary*, "UnityEngine.Experimental.XR", "Boundary");

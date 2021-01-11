@@ -90,8 +90,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelDetailViewController::$$c__DisplayClass44_0*, creationType>()));
     }
   }; // StandardLevelDetailViewController/<>c__DisplayClass44_0
+  #pragma pack(pop)
   static check_size<sizeof(StandardLevelDetailViewController::$$c__DisplayClass44_0), 40 + sizeof(GlobalNamespace::StandardLevelDetailViewController*)> __GlobalNamespace_StandardLevelDetailViewController_$$c__DisplayClass44_0SizeCheck;
   static_assert(sizeof(StandardLevelDetailViewController::$$c__DisplayClass44_0) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass44_0*, "", "StandardLevelDetailViewController/<>c__DisplayClass44_0");

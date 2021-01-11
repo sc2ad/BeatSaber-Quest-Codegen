@@ -66,8 +66,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0*, creationType>()));
     }
   }; // OculusConnectionManager/OculusConnection/<>c__DisplayClass15_0
+  #pragma pack(pop)
   static check_size<sizeof(OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0), 24 + sizeof(GlobalNamespace::OculusConnectionManager::OculusConnection*)> __GlobalNamespace_OculusConnectionManager_OculusConnection_$$c__DisplayClass15_0SizeCheck;
   static_assert(sizeof(OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0*, "", "OculusConnectionManager/OculusConnection/<>c__DisplayClass15_0");

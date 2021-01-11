@@ -61,8 +61,8 @@ namespace System {
     // Base method: System.TimeSpan TimeZone::GetUtcOffset(System.DateTime dateTime)
     System::TimeSpan GetUtcOffset(System::DateTime dateTime);
   }; // System.CurrentSystemTimeZone
+  #pragma pack(pop)
   static check_size<sizeof(CurrentSystemTimeZone), 16 + sizeof(System::TimeZoneInfo*)> __System_CurrentSystemTimeZoneSizeCheck;
   static_assert(sizeof(CurrentSystemTimeZone) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::CurrentSystemTimeZone*, "System", "CurrentSystemTimeZone");

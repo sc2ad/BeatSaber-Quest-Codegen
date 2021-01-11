@@ -55,6 +55,6 @@ namespace NUnit::Framework {
       return THROW_UNLESS((::il2cpp_utils::New<ResultStateException*, creationType>(info, context)));
     }
   }; // NUnit.Framework.ResultStateException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::ResultStateException*, "NUnit.Framework", "ResultStateException");

@@ -37,9 +37,9 @@ namespace Microsoft::Win32 {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_GUID_INFO
+  #pragma pack(pop)
   static check_size<sizeof(UnsafeNativeMethods::ManifestEtw::TRACE_GUID_INFO), 4 + sizeof(int)> __Microsoft_Win32_UnsafeNativeMethods_ManifestEtw_TRACE_GUID_INFOSizeCheck;
   static_assert(sizeof(UnsafeNativeMethods::ManifestEtw::TRACE_GUID_INFO) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::TRACE_GUID_INFO, "Microsoft.Win32", "UnsafeNativeMethods/ManifestEtw/TRACE_GUID_INFO");

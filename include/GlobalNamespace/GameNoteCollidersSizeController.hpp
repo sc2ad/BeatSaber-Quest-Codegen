@@ -103,8 +103,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameNoteCollidersSizeController*, creationType>()));
     }
   }; // GameNoteCollidersSizeController
+  #pragma pack(pop)
   static check_size<sizeof(GameNoteCollidersSizeController), 64 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_GameNoteCollidersSizeControllerSizeCheck;
   static_assert(sizeof(GameNoteCollidersSizeController) == 0x4C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameNoteCollidersSizeController*, "", "GameNoteCollidersSizeController");

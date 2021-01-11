@@ -70,8 +70,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SignalListener*, creationType>()));
     }
   }; // SignalListener
+  #pragma pack(pop)
   static check_size<sizeof(SignalListener), 32 + sizeof(UnityEngine::Events::UnityEvent*)> __GlobalNamespace_SignalListenerSizeCheck;
   static_assert(sizeof(SignalListener) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalListener*, "", "SignalListener");

@@ -33,6 +33,6 @@ namespace JetBrains::Annotations {
       return THROW_UNLESS((::il2cpp_utils::New<AspMvcDisplayTemplateAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.AspMvcDisplayTemplateAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcDisplayTemplateAttribute*, "JetBrains.Annotations", "AspMvcDisplayTemplateAttribute");

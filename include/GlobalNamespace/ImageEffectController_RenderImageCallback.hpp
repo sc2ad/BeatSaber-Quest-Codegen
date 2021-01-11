@@ -54,6 +54,6 @@ namespace GlobalNamespace {
     // Offset: 0x1879584
     void EndInvoke(System::IAsyncResult* result);
   }; // ImageEffectController/RenderImageCallback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImageEffectController::RenderImageCallback*, "", "ImageEffectController/RenderImageCallback");

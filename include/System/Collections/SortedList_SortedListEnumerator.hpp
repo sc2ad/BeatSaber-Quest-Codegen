@@ -160,8 +160,8 @@ namespace System::Collections {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Collections.SortedList/SortedListEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(SortedList::SortedListEnumerator), 60 + sizeof(int)> __System_Collections_SortedList_SortedListEnumeratorSizeCheck;
   static_assert(sizeof(SortedList::SortedListEnumerator) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::SortedListEnumerator*, "System.Collections", "SortedList/SortedListEnumerator");

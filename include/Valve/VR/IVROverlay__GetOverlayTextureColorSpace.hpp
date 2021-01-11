@@ -57,6 +57,6 @@ namespace Valve::VR {
     // Offset: 0x18F4A3C
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::EColorSpace& peTextureColorSpace, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayTextureColorSpace
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetOverlayTextureColorSpace*, "Valve.VR", "IVROverlay/_GetOverlayTextureColorSpace");

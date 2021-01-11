@@ -290,8 +290,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ViewController*, creationType>()));
     }
   }; // HMUI.ViewController
+  #pragma pack(pop)
   static check_size<sizeof(ViewController), 104 + sizeof(UnityEngine::EventSystems::BaseRaycaster*)> __HMUI_ViewControllerSizeCheck;
   static_assert(sizeof(ViewController) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController*, "HMUI", "ViewController");

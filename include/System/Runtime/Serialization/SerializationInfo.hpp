@@ -258,8 +258,8 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1445C24
     ::Il2CppString* GetString(::Il2CppString* name);
   }; // System.Runtime.Serialization.SerializationInfo
+  #pragma pack(pop)
   static check_size<sizeof(SerializationInfo), 90 + sizeof(bool)> __System_Runtime_Serialization_SerializationInfoSizeCheck;
   static_assert(sizeof(SerializationInfo) == 0x5B);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationInfo*, "System.Runtime.Serialization", "SerializationInfo");

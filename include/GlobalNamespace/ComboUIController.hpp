@@ -106,8 +106,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ComboUIController*, creationType>()));
     }
   }; // ComboUIController
+  #pragma pack(pop)
   static check_size<sizeof(ComboUIController), 52 + sizeof(bool)> __GlobalNamespace_ComboUIControllerSizeCheck;
   static_assert(sizeof(ComboUIController) == 0x35);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ComboUIController*, "", "ComboUIController");

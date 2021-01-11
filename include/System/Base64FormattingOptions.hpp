@@ -45,9 +45,9 @@ namespace System {
     // Set static field: static public System.Base64FormattingOptions InsertLineBreaks
     static void _set_InsertLineBreaks(System::Base64FormattingOptions value);
   }; // System.Base64FormattingOptions
+  #pragma pack(pop)
   static check_size<sizeof(Base64FormattingOptions), 0 + sizeof(int)> __System_Base64FormattingOptionsSizeCheck;
   static_assert(sizeof(Base64FormattingOptions) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Base64FormattingOptions, "System", "Base64FormattingOptions");

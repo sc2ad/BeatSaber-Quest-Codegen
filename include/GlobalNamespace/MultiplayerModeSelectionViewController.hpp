@@ -94,6 +94,7 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerModeSelectionViewController/MenuButton GameBrowser
       static void _set_GameBrowser(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton value);
     }; // MultiplayerModeSelectionViewController/MenuButton
+    #pragma pack(pop)
     static check_size<sizeof(MultiplayerModeSelectionViewController::MenuButton), 0 + sizeof(int)> __GlobalNamespace_MultiplayerModeSelectionViewController_MenuButtonSizeCheck;
     static_assert(sizeof(MultiplayerModeSelectionViewController::MenuButton) == 0x4);
     // private UnityEngine.UI.Button _quickPlayButton
@@ -193,9 +194,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerModeSelectionViewController*, creationType>()));
     }
   }; // MultiplayerModeSelectionViewController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerModeSelectionViewController), 168 + sizeof(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*)> __GlobalNamespace_MultiplayerModeSelectionViewControllerSizeCheck;
   static_assert(sizeof(MultiplayerModeSelectionViewController) == 0xB0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionViewController*, "", "MultiplayerModeSelectionViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton, "", "MultiplayerModeSelectionViewController/MenuButton");

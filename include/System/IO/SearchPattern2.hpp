@@ -86,8 +86,8 @@ namespace System::IO {
     // Offset: 0x1490690
     static void _cctor();
   }; // System.IO.SearchPattern2
+  #pragma pack(pop)
   static check_size<sizeof(SearchPattern2), 32 + sizeof(::Il2CppString*)> __System_IO_SearchPattern2SizeCheck;
   static_assert(sizeof(SearchPattern2) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2*, "System.IO", "SearchPattern2");

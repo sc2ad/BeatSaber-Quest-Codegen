@@ -108,8 +108,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // CutoutAnimateEffect/<AnimateToCutoutCoroutine>d__7
+  #pragma pack(pop)
   static check_size<sizeof(CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7), 52 + sizeof(float)> __GlobalNamespace_CutoutAnimateEffect_$AnimateToCutoutCoroutine$d__7SizeCheck;
   static_assert(sizeof(CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7*, "", "CutoutAnimateEffect/<AnimateToCutoutCoroutine>d__7");

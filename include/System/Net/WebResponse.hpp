@@ -106,6 +106,6 @@ namespace System::Net {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Net.WebResponse
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebResponse*, "System.Net", "WebResponse");

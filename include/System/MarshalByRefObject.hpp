@@ -67,8 +67,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<MarshalByRefObject*, creationType>()));
     }
   }; // System.MarshalByRefObject
+  #pragma pack(pop)
   static check_size<sizeof(MarshalByRefObject), 16 + sizeof(::Il2CppObject*)> __System_MarshalByRefObjectSizeCheck;
   static_assert(sizeof(MarshalByRefObject) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::MarshalByRefObject*, "System", "MarshalByRefObject");

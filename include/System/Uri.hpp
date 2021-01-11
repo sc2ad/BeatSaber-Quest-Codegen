@@ -413,6 +413,7 @@ namespace System {
       // Set static field: static public System.Uri/Flags CompressedSlashes
       static void _set_CompressedSlashes(System::Uri::Flags value);
     }; // System.Uri/Flags
+    #pragma pack(pop)
     static check_size<sizeof(Uri::Flags), 0 + sizeof(uint64_t)> __System_Uri_FlagsSizeCheck;
     static_assert(sizeof(Uri::Flags) == 0x8);
     // private System.String m_String
@@ -941,6 +942,7 @@ namespace System {
     // Base method: System.Boolean Object::Equals(System.Object comparand)
     bool Equals(::Il2CppObject* comparand);
   }; // System.Uri
+  #pragma pack(pop)
   static check_size<sizeof(Uri), 64 + sizeof(bool)> __System_UriSizeCheck;
   static_assert(sizeof(Uri) == 0x41);
   // static public System.Boolean op_Equality(System.Uri uri1, System.Uri uri2)
@@ -950,6 +952,5 @@ namespace System {
   // Offset: 0x1553ABC
   bool operator !=(System::Uri* uri1, System::Uri& uri2);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Uri*, "System", "Uri");
 DEFINE_IL2CPP_ARG_TYPE(System::Uri::Flags, "System", "Uri/Flags");

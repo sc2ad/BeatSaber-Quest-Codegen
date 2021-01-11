@@ -47,8 +47,8 @@ namespace GlobalNamespace {
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GetAssetBundleFileResult(bool isError, ::Il2CppString* assetBundlePath)
   }; // GetAssetBundleFileResult
+  #pragma pack(pop)
   static check_size<sizeof(GetAssetBundleFileResult), 8 + sizeof(::Il2CppString*)> __GlobalNamespace_GetAssetBundleFileResultSizeCheck;
   static_assert(sizeof(GetAssetBundleFileResult) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GetAssetBundleFileResult, "", "GetAssetBundleFileResult");

@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetEaseArcadeFlowCoordinator::$$c__DisplayClass27_0*, creationType>()));
     }
   }; // NetEaseArcadeFlowCoordinator/<>c__DisplayClass27_0
+  #pragma pack(pop)
   static check_size<sizeof(NetEaseArcadeFlowCoordinator::$$c__DisplayClass27_0), 24 + sizeof(GlobalNamespace::ResultsViewController*)> __GlobalNamespace_NetEaseArcadeFlowCoordinator_$$c__DisplayClass27_0SizeCheck;
   static_assert(sizeof(NetEaseArcadeFlowCoordinator::$$c__DisplayClass27_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseArcadeFlowCoordinator::$$c__DisplayClass27_0*, "", "NetEaseArcadeFlowCoordinator/<>c__DisplayClass27_0");

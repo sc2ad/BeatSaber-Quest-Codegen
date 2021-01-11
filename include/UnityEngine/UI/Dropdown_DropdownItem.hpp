@@ -132,8 +132,8 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<Dropdown::DropdownItem*, creationType>()));
     }
   }; // UnityEngine.UI.Dropdown/DropdownItem
+  #pragma pack(pop)
   static check_size<sizeof(Dropdown::DropdownItem), 48 + sizeof(UnityEngine::UI::Toggle*)> __UnityEngine_UI_Dropdown_DropdownItemSizeCheck;
   static_assert(sizeof(Dropdown::DropdownItem) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::DropdownItem*, "UnityEngine.UI", "Dropdown/DropdownItem");

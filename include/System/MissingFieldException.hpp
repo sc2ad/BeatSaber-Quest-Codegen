@@ -79,6 +79,6 @@ namespace System {
     // Base method: System.String MissingMemberException::get_Message()
     ::Il2CppString* get_Message();
   }; // System.MissingFieldException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::MissingFieldException*, "System", "MissingFieldException");

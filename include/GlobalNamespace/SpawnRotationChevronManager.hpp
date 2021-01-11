@@ -205,8 +205,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SpawnRotationChevronManager*, creationType>()));
     }
   }; // SpawnRotationChevronManager
+  #pragma pack(pop)
   static check_size<sizeof(SpawnRotationChevronManager), 140 + sizeof(float)> __GlobalNamespace_SpawnRotationChevronManagerSizeCheck;
   static_assert(sizeof(SpawnRotationChevronManager) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevronManager*, "", "SpawnRotationChevronManager");

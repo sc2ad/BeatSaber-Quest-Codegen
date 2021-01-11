@@ -56,8 +56,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<Compute_DT_EventArgs*, creationType>(type, colors)));
     }
   }; // TMPro.Compute_DT_EventArgs
+  #pragma pack(pop)
   static check_size<sizeof(Compute_DT_EventArgs), 24 + sizeof(::Array<UnityEngine::Color>*)> __TMPro_Compute_DT_EventArgsSizeCheck;
   static_assert(sizeof(Compute_DT_EventArgs) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::Compute_DT_EventArgs*, "TMPro", "Compute_DT_EventArgs");

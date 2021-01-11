@@ -30,9 +30,9 @@ namespace System::Globalization {
     // Creating value type constructor for type: SortVersion
     SortVersion(int m_NlsVersion_ = {}, System::Guid m_SortId_ = {}) noexcept : m_NlsVersion{m_NlsVersion_}, m_SortId{m_SortId_} {}
   }; // System.Globalization.SortVersion
+  #pragma pack(pop)
   static check_size<sizeof(SortVersion), 20 + sizeof(System::Guid)> __System_Globalization_SortVersionSizeCheck;
   static_assert(sizeof(SortVersion) == 0x24);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortVersion*, "System.Globalization", "SortVersion");

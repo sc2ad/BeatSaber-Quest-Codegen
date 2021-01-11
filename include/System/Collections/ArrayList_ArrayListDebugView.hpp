@@ -18,7 +18,7 @@ namespace System::Collections {
     // Creating value type constructor for type: ArrayListDebugView
     ArrayListDebugView() noexcept {}
   }; // System.Collections.ArrayList/ArrayListDebugView
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList::ArrayListDebugView*, "System.Collections", "ArrayList/ArrayListDebugView");

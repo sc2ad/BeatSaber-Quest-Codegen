@@ -41,8 +41,8 @@ namespace Mono::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<SmallXmlParserException*, creationType>(msg, line, column)));
     }
   }; // Mono.Xml.SmallXmlParserException
+  #pragma pack(pop)
   static check_size<sizeof(SmallXmlParserException), 140 + sizeof(int)> __Mono_Xml_SmallXmlParserExceptionSizeCheck;
   static_assert(sizeof(SmallXmlParserException) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParserException*, "Mono.Xml", "SmallXmlParserException");

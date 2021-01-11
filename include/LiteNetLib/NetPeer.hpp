@@ -542,8 +542,8 @@ namespace LiteNetLib {
     // Offset: 0x1DCF618
     void RecycleAndDeliver(LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.NetPeer
+  #pragma pack(pop)
   static check_size<sizeof(NetPeer), 320 + sizeof(LiteNetLib::NetStatistics*)> __LiteNetLib_NetPeerSizeCheck;
   static_assert(sizeof(NetPeer) == 0x148);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPeer*, "LiteNetLib", "NetPeer");

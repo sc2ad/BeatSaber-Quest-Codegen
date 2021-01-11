@@ -113,7 +113,7 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0x116CFD8
     static void _cctor();
   }; // System.Runtime.Remoting.Channels.ChannelServices
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::ChannelServices*, "System.Runtime.Remoting.Channels", "ChannelServices");

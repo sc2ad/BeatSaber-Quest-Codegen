@@ -259,8 +259,8 @@ namespace System::Threading {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Threading.CancellationTokenSource
+  #pragma pack(pop)
   static check_size<sizeof(CancellationTokenSource), 64 + sizeof(System::Threading::Timer*)> __System_Threading_CancellationTokenSourceSizeCheck;
   static_assert(sizeof(CancellationTokenSource) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationTokenSource*, "System.Threading", "CancellationTokenSource");

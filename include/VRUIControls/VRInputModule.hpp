@@ -237,8 +237,8 @@ namespace VRUIControls {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // VRUIControls.VRInputModule
+  #pragma pack(pop)
   static check_size<sizeof(VRInputModule), 128 + sizeof(VRUIControls::MouseState*)> __VRUIControls_VRInputModuleSizeCheck;
   static_assert(sizeof(VRInputModule) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRInputModule*, "VRUIControls", "VRInputModule");

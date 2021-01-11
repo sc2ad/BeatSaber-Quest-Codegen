@@ -60,6 +60,6 @@ namespace Valve::VR {
     // Offset: 0x1920130
     uint EndInvoke(Valve::VR::EVRRenderModelError& peError, System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_GetRenderModelOriginalPath
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRRenderModels::_GetRenderModelOriginalPath*, "Valve.VR", "IVRRenderModels/_GetRenderModelOriginalPath");

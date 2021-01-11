@@ -52,8 +52,8 @@ namespace Org::BouncyCastle::Asn1::X9 {
       return THROW_UNLESS((::il2cpp_utils::New<X9ECParametersHolder*, creationType>()));
     }
   }; // Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
+  #pragma pack(pop)
   static check_size<sizeof(X9ECParametersHolder), 16 + sizeof(Org::BouncyCastle::Asn1::X9::X9ECParameters*)> __Org_BouncyCastle_Asn1_X9_X9ECParametersHolderSizeCheck;
   static_assert(sizeof(X9ECParametersHolder) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Org.BouncyCastle.Asn1.X9", "X9ECParametersHolder");

@@ -50,6 +50,6 @@ namespace System::IO::Compression {
     // Offset: 0x148B574
     int EndInvoke(System::IAsyncResult* result);
   }; // System.IO.Compression.DeflateStreamNative/UnmanagedReadOrWrite
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite*, "System.IO.Compression", "DeflateStreamNative/UnmanagedReadOrWrite");

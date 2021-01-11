@@ -604,8 +604,8 @@ namespace LiteNetLib {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // LiteNetLib.NetManager
+  #pragma pack(pop)
   static check_size<sizeof(NetManager), 236 + sizeof(System::Threading::ThreadPriority)> __LiteNetLib_NetManagerSizeCheck;
   static_assert(sizeof(NetManager) == 0xF0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager*, "LiteNetLib", "NetManager");

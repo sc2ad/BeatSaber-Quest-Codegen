@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // HMTask/<RunCoroutine>d__8
+  #pragma pack(pop)
   static check_size<sizeof(HMTask::$RunCoroutine$d__8), 32 + sizeof(GlobalNamespace::HMTask*)> __GlobalNamespace_HMTask_$RunCoroutine$d__8SizeCheck;
   static_assert(sizeof(HMTask::$RunCoroutine$d__8) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMTask::$RunCoroutine$d__8*, "", "HMTask/<RunCoroutine>d__8");

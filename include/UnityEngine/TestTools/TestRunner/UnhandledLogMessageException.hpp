@@ -66,8 +66,8 @@ namespace UnityEngine::TestTools::TestRunner {
     // Base method: System.String Exception::get_StackTrace()
     ::Il2CppString* get_StackTrace();
   }; // UnityEngine.TestTools.TestRunner.UnhandledLogMessageException
+  #pragma pack(pop)
   static check_size<sizeof(UnhandledLogMessageException), 144 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_TestRunner_UnhandledLogMessageExceptionSizeCheck;
   static_assert(sizeof(UnhandledLogMessageException) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnhandledLogMessageException*, "UnityEngine.TestTools.TestRunner", "UnhandledLogMessageException");

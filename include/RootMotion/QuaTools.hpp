@@ -64,7 +64,7 @@ namespace RootMotion {
     // Offset: 0x15F41A4
     static float ToBiPolar(float angle);
   }; // RootMotion.QuaTools
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::QuaTools*, "RootMotion", "QuaTools");

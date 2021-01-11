@@ -57,6 +57,6 @@ namespace Valve::VR {
     // Offset: 0x19281E0
     void EndInvoke(Valve::VR::TrackedDevicePose_t& pOutputPose, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose, Valve::VR::HmdMatrix34_t& pTransform, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_ApplyTransform
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_ApplyTransform*, "Valve.VR", "IVRSystem/_ApplyTransform");

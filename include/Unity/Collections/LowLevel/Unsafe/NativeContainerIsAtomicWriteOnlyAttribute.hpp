@@ -20,7 +20,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
     // Creating value type constructor for type: NativeContainerIsAtomicWriteOnlyAttribute
     NativeContainerIsAtomicWriteOnlyAttribute() noexcept {}
   }; // Unity.Collections.LowLevel.Unsafe.NativeContainerIsAtomicWriteOnlyAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeContainerIsAtomicWriteOnlyAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerIsAtomicWriteOnlyAttribute");

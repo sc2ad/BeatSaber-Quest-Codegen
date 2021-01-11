@@ -95,8 +95,8 @@ namespace GlobalNamespace {
     // Base method: System.Void MockPlayer::Disconnect()
     void Disconnect();
   }; // MockServer
+  #pragma pack(pop)
   static check_size<sizeof(MockServer), 272 + sizeof(GlobalNamespace::GameplayServerFiniteStateMachine*)> __GlobalNamespace_MockServerSizeCheck;
   static_assert(sizeof(MockServer) == 0x118);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockServer*, "", "MockServer");

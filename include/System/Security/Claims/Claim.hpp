@@ -142,8 +142,8 @@ namespace System::Security::Claims {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Security.Claims.Claim
+  #pragma pack(pop)
   static check_size<sizeof(Claim), 80 + sizeof(System::Security::Claims::ClaimsIdentity*)> __System_Security_Claims_ClaimSizeCheck;
   static_assert(sizeof(Claim) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::Claim*, "System.Security.Claims", "Claim");

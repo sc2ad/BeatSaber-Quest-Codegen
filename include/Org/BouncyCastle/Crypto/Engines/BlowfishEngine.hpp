@@ -166,8 +166,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Int32 IBlockCipher::GetBlockSize()
     int GetBlockSize();
   }; // Org.BouncyCastle.Crypto.Engines.BlowfishEngine
+  #pragma pack(pop)
   static check_size<sizeof(BlowfishEngine), 64 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Engines_BlowfishEngineSizeCheck;
   static_assert(sizeof(BlowfishEngine) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::BlowfishEngine*, "Org.BouncyCastle.Crypto.Engines", "BlowfishEngine");

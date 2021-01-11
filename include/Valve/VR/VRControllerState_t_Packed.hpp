@@ -90,8 +90,8 @@ namespace Valve::VR {
     // Offset: 0xCB686C
     void Unpack(Valve::VR::VRControllerState_t& unpacked);
   }; // Valve.VR.VRControllerState_t_Packed
+  #pragma pack(pop)
   static check_size<sizeof(VRControllerState_t_Packed), 52 + sizeof(Valve::VR::VRControllerAxis_t)> __Valve_VR_VRControllerState_t_PackedSizeCheck;
   static_assert(sizeof(VRControllerState_t_Packed) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRControllerState_t_Packed, "Valve.VR", "VRControllerState_t_Packed");

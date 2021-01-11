@@ -96,8 +96,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // PlatformLeaderboardViewController/<RefreshDelayed>d__31
+  #pragma pack(pop)
   static check_size<sizeof(PlatformLeaderboardViewController::$RefreshDelayed$d__31), 41 + sizeof(bool)> __GlobalNamespace_PlatformLeaderboardViewController_$RefreshDelayed$d__31SizeCheck;
   static_assert(sizeof(PlatformLeaderboardViewController::$RefreshDelayed$d__31) == 0x2A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardViewController::$RefreshDelayed$d__31*, "", "PlatformLeaderboardViewController/<RefreshDelayed>d__31");

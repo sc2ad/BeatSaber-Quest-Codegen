@@ -78,8 +78,8 @@ namespace Zenject {
     // Offset: 0x12A005C
     void Initialize();
   }; // Zenject.InitializableManager
+  #pragma pack(pop)
   static check_size<sizeof(InitializableManager), 24 + sizeof(bool)> __Zenject_InitializableManagerSizeCheck;
   static_assert(sizeof(InitializableManager) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InitializableManager*, "Zenject", "InitializableManager");

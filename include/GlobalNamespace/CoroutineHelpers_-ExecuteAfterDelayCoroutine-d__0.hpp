@@ -99,8 +99,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // CoroutineHelpers/<ExecuteAfterDelayCoroutine>d__0
+  #pragma pack(pop)
   static check_size<sizeof(CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0), 40 + sizeof(System::Action*)> __GlobalNamespace_CoroutineHelpers_$ExecuteAfterDelayCoroutine$d__0SizeCheck;
   static_assert(sizeof(CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*, "", "CoroutineHelpers/<ExecuteAfterDelayCoroutine>d__0");

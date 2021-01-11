@@ -106,8 +106,8 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x1957B10
     static void _cctor();
   }; // NUnit.Framework.Internal.Logger
+  #pragma pack(pop)
   static check_size<sizeof(Logger), 40 + sizeof(System::IO::TextWriter*)> __NUnit_Framework_Internal_LoggerSizeCheck;
   static_assert(sizeof(Logger) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Logger*, "NUnit.Framework.Internal", "Logger");

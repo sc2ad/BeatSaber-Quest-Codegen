@@ -144,8 +144,8 @@ namespace System::Collections {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.ListDictionaryInternal
+  #pragma pack(pop)
   static check_size<sizeof(ListDictionaryInternal), 28 + sizeof(int)> __System_Collections_ListDictionaryInternalSizeCheck;
   static_assert(sizeof(ListDictionaryInternal) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal*, "System.Collections", "ListDictionaryInternal");

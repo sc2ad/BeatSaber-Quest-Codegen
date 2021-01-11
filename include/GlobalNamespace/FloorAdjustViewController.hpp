@@ -125,8 +125,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FloorAdjustViewController*, creationType>()));
     }
   }; // FloorAdjustViewController
+  #pragma pack(pop)
   static check_size<sizeof(FloorAdjustViewController), 152 + sizeof(float)> __GlobalNamespace_FloorAdjustViewControllerSizeCheck;
   static_assert(sizeof(FloorAdjustViewController) == 0x9C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloorAdjustViewController*, "", "FloorAdjustViewController");

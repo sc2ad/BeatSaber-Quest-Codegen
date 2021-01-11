@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // StandardLevelGameplayManager/<Start>d__13
+  #pragma pack(pop)
   static check_size<sizeof(StandardLevelGameplayManager::$Start$d__13), 32 + sizeof(GlobalNamespace::StandardLevelGameplayManager*)> __GlobalNamespace_StandardLevelGameplayManager_$Start$d__13SizeCheck;
   static_assert(sizeof(StandardLevelGameplayManager::$Start$d__13) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelGameplayManager::$Start$d__13*, "", "StandardLevelGameplayManager/<Start>d__13");

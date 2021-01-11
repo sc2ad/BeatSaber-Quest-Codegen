@@ -50,9 +50,9 @@ namespace UnityEngine::Events {
     // Set static field: static public UnityEngine.Events.UnityEventCallState RuntimeOnly
     static void _set_RuntimeOnly(UnityEngine::Events::UnityEventCallState value);
   }; // UnityEngine.Events.UnityEventCallState
+  #pragma pack(pop)
   static check_size<sizeof(UnityEventCallState), 0 + sizeof(int)> __UnityEngine_Events_UnityEventCallStateSizeCheck;
   static_assert(sizeof(UnityEventCallState) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEventCallState, "UnityEngine.Events", "UnityEventCallState");

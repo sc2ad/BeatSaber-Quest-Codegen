@@ -59,6 +59,6 @@ namespace Mono::Globalization::Unicode {
       return THROW_UNLESS((::il2cpp_utils::New<MSCompatUnicodeTable::$$c*, creationType>()));
     }
   }; // Mono.Globalization.Unicode.MSCompatUnicodeTable/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable/<>c");

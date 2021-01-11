@@ -70,8 +70,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CrashManagerSO*, creationType>()));
     }
   }; // CrashManagerSO
+  #pragma pack(pop)
   static check_size<sizeof(CrashManagerSO), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_CrashManagerSOSizeCheck;
   static_assert(sizeof(CrashManagerSO) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CrashManagerSO*, "", "CrashManagerSO");

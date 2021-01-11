@@ -46,8 +46,8 @@ namespace GlobalNamespace {
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ComputeControlPointsResults(::Array<float>* p1, ::Array<float>* p2)
   }; // BezierSpline/ComputeControlPointsResults
+  #pragma pack(pop)
   static check_size<sizeof(BezierSpline::ComputeControlPointsResults), 8 + sizeof(::Array<float>*)> __GlobalNamespace_BezierSpline_ComputeControlPointsResultsSizeCheck;
   static_assert(sizeof(BezierSpline::ComputeControlPointsResults) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline::ComputeControlPointsResults, "", "BezierSpline/ComputeControlPointsResults");

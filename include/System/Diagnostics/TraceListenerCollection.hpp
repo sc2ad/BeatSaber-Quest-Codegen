@@ -148,8 +148,8 @@ namespace System::Diagnostics {
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
   }; // System.Diagnostics.TraceListenerCollection
+  #pragma pack(pop)
   static check_size<sizeof(TraceListenerCollection), 16 + sizeof(System::Collections::ArrayList*)> __System_Diagnostics_TraceListenerCollectionSizeCheck;
   static_assert(sizeof(TraceListenerCollection) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceListenerCollection*, "System.Diagnostics", "TraceListenerCollection");

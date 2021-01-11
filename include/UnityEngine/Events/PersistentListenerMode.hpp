@@ -74,9 +74,9 @@ namespace UnityEngine::Events {
     // Set static field: static public UnityEngine.Events.PersistentListenerMode Bool
     static void _set_Bool(UnityEngine::Events::PersistentListenerMode value);
   }; // UnityEngine.Events.PersistentListenerMode
+  #pragma pack(pop)
   static check_size<sizeof(PersistentListenerMode), 0 + sizeof(int)> __UnityEngine_Events_PersistentListenerModeSizeCheck;
   static_assert(sizeof(PersistentListenerMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::PersistentListenerMode, "UnityEngine.Events", "PersistentListenerMode");

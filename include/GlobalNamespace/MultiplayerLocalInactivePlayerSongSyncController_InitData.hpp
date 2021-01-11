@@ -60,8 +60,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactivePlayerSongSyncController::InitData*, creationType>(audioClip, startSongTime, songTimeOffset, timeScale)));
     }
   }; // MultiplayerLocalInactivePlayerSongSyncController/InitData
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalInactivePlayerSongSyncController::InitData), 32 + sizeof(float)> __GlobalNamespace_MultiplayerLocalInactivePlayerSongSyncController_InitDataSizeCheck;
   static_assert(sizeof(MultiplayerLocalInactivePlayerSongSyncController::InitData) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData*, "", "MultiplayerLocalInactivePlayerSongSyncController/InitData");

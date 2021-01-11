@@ -760,8 +760,8 @@ namespace System::Net::Sockets {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Net.Sockets.Socket
+  #pragma pack(pop)
   static check_size<sizeof(Socket), 80 + sizeof(bool)> __System_Net_Sockets_SocketSizeCheck;
   static_assert(sizeof(Socket) == 0x51);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket*, "System.Net.Sockets", "Socket");

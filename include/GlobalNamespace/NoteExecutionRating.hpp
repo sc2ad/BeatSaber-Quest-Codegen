@@ -68,6 +68,7 @@ namespace GlobalNamespace {
       // Set static field: static public NoteExecutionRating/Rating BadCut
       static void _set_BadCut(GlobalNamespace::NoteExecutionRating::Rating value);
     }; // NoteExecutionRating/Rating
+    #pragma pack(pop)
     static check_size<sizeof(NoteExecutionRating::Rating), 0 + sizeof(int)> __GlobalNamespace_NoteExecutionRating_RatingSizeCheck;
     static_assert(sizeof(NoteExecutionRating::Rating) == 0x4);
     // [CompilerGeneratedAttribute] Offset: 0xDC486C
@@ -132,9 +133,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteExecutionRating*, creationType>(time, rating, cutScore, cutTimeDeviation, cutDirDeviation)));
     }
   }; // NoteExecutionRating
+  #pragma pack(pop)
   static check_size<sizeof(NoteExecutionRating), 36 + sizeof(float)> __GlobalNamespace_NoteExecutionRatingSizeCheck;
   static_assert(sizeof(NoteExecutionRating) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating*, "", "NoteExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating::Rating, "", "NoteExecutionRating/Rating");

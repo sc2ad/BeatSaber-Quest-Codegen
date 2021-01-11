@@ -41,7 +41,7 @@ namespace Mono::Security::Cryptography {
     // Offset: 0x17B2FA4
     static ::Il2CppString* ToHex(::Array<uint8_t>* input);
   }; // Mono.Security.Cryptography.CryptoConvert
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::CryptoConvert*, "Mono.Security.Cryptography", "CryptoConvert");

@@ -92,8 +92,8 @@ namespace System::Runtime::Remoting {
       return THROW_UNLESS((::il2cpp_utils::New<ChannelData*, creationType>()));
     }
   }; // System.Runtime.Remoting.ChannelData
+  #pragma pack(pop)
   static check_size<sizeof(ChannelData), 64 + sizeof(System::Collections::Hashtable*)> __System_Runtime_Remoting_ChannelDataSizeCheck;
   static_assert(sizeof(ChannelData) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ChannelData*, "System.Runtime.Remoting", "ChannelData");

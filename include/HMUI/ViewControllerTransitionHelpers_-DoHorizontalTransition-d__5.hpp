@@ -111,8 +111,8 @@ namespace HMUI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // HMUI.ViewControllerTransitionHelpers/<DoHorizontalTransition>d__5
+  #pragma pack(pop)
   static check_size<sizeof(ViewControllerTransitionHelpers::$DoHorizontalTransition$d__5), 56 + sizeof(HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass5_0*)> __HMUI_ViewControllerTransitionHelpers_$DoHorizontalTransition$d__5SizeCheck;
   static_assert(sizeof(ViewControllerTransitionHelpers::$DoHorizontalTransition$d__5) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers::$DoHorizontalTransition$d__5*, "HMUI", "ViewControllerTransitionHelpers/<DoHorizontalTransition>d__5");

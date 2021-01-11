@@ -46,8 +46,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SelectLevelPackDestination*, creationType>(beatmapLevelPack)));
     }
   }; // SelectLevelPackDestination
+  #pragma pack(pop)
   static check_size<sizeof(SelectLevelPackDestination), 16 + sizeof(GlobalNamespace::IBeatmapLevelPack*)> __GlobalNamespace_SelectLevelPackDestinationSizeCheck;
   static_assert(sizeof(SelectLevelPackDestination) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelPackDestination*, "", "SelectLevelPackDestination");

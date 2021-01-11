@@ -188,8 +188,8 @@ namespace HMUI {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // HMUI.GradientImage
+  #pragma pack(pop)
   static check_size<sizeof(GradientImage), 280 + sizeof(HMUI::CurvedCanvasSettingsHelper*)> __HMUI_GradientImageSizeCheck;
   static_assert(sizeof(GradientImage) == 0x120);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::GradientImage*, "HMUI", "GradientImage");

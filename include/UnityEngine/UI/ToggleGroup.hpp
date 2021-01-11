@@ -107,8 +107,8 @@ namespace UnityEngine::UI {
     // Base method: System.Void UIBehaviour::Start()
     void Start();
   }; // UnityEngine.UI.ToggleGroup
+  #pragma pack(pop)
   static check_size<sizeof(ToggleGroup), 32 + sizeof(System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>*)> __UnityEngine_UI_ToggleGroupSizeCheck;
   static_assert(sizeof(ToggleGroup) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ToggleGroup*, "UnityEngine.UI", "ToggleGroup");

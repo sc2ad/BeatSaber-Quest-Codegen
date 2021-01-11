@@ -49,6 +49,7 @@ namespace System::Diagnostics::Tracing {
       // Set static field: static public System.Diagnostics.Tracing.ManifestEnvelope/ManifestFormats SimpleXmlFormat
       static void _set_SimpleXmlFormat(System::Diagnostics::Tracing::ManifestEnvelope::ManifestFormats value);
     }; // System.Diagnostics.Tracing.ManifestEnvelope/ManifestFormats
+    #pragma pack(pop)
     static check_size<sizeof(ManifestEnvelope::ManifestFormats), 0 + sizeof(uint8_t)> __System_Diagnostics_Tracing_ManifestEnvelope_ManifestFormatsSizeCheck;
     static_assert(sizeof(ManifestEnvelope::ManifestFormats) == 0x1);
     // public System.Diagnostics.Tracing.ManifestEnvelope/ManifestFormats Format
@@ -94,10 +95,10 @@ namespace System::Diagnostics::Tracing {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Diagnostics.Tracing.ManifestEnvelope
+  #pragma pack(pop)
   static check_size<sizeof(ManifestEnvelope), 6 + sizeof(uint16_t)> __System_Diagnostics_Tracing_ManifestEnvelopeSizeCheck;
   static_assert(sizeof(ManifestEnvelope) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ManifestEnvelope, "System.Diagnostics.Tracing", "ManifestEnvelope");
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ManifestEnvelope::ManifestFormats, "System.Diagnostics.Tracing", "ManifestEnvelope/ManifestFormats");

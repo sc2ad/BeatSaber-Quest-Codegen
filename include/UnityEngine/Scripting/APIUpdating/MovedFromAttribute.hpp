@@ -49,8 +49,8 @@ namespace UnityEngine::Scripting::APIUpdating {
       return THROW_UNLESS((::il2cpp_utils::New<MovedFromAttribute*, creationType>(sourceNamespace)));
     }
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttribute
+  #pragma pack(pop)
   static check_size<sizeof(MovedFromAttribute), 16 + sizeof(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData)> __UnityEngine_Scripting_APIUpdating_MovedFromAttributeSizeCheck;
   static_assert(sizeof(MovedFromAttribute) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::APIUpdating::MovedFromAttribute*, "UnityEngine.Scripting.APIUpdating", "MovedFromAttribute");

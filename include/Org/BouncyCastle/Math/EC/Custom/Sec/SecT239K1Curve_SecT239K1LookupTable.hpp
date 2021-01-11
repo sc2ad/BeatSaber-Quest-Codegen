@@ -74,8 +74,8 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::LookupVar(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
   }; // Org.BouncyCastle.Math.EC.Custom.Sec.SecT239K1Curve/SecT239K1LookupTable
+  #pragma pack(pop)
   static check_size<sizeof(SecT239K1Curve::SecT239K1LookupTable), 32 + sizeof(int)> __Org_BouncyCastle_Math_EC_Custom_Sec_SecT239K1Curve_SecT239K1LookupTableSizeCheck;
   static_assert(sizeof(SecT239K1Curve::SecT239K1LookupTable) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecT239K1Curve::SecT239K1LookupTable*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecT239K1Curve/SecT239K1LookupTable");

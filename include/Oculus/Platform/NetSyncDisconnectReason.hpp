@@ -67,9 +67,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.NetSyncDisconnectReason Lost
     static void _set_Lost(Oculus::Platform::NetSyncDisconnectReason value);
   }; // Oculus.Platform.NetSyncDisconnectReason
+  #pragma pack(pop)
   static check_size<sizeof(NetSyncDisconnectReason), 0 + sizeof(int)> __Oculus_Platform_NetSyncDisconnectReasonSizeCheck;
   static_assert(sizeof(NetSyncDisconnectReason) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSyncDisconnectReason, "Oculus.Platform", "NetSyncDisconnectReason");

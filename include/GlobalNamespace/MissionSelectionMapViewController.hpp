@@ -130,8 +130,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionSelectionMapViewController*, creationType>()));
     }
   }; // MissionSelectionMapViewController
+  #pragma pack(pop)
   static check_size<sizeof(MissionSelectionMapViewController), 152 + sizeof(GlobalNamespace::MissionNode*)> __GlobalNamespace_MissionSelectionMapViewControllerSizeCheck;
   static_assert(sizeof(MissionSelectionMapViewController) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionSelectionMapViewController*, "", "MissionSelectionMapViewController");

@@ -70,8 +70,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntry*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.LeaderboardEntry
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardEntry), 48 + sizeof(Oculus::Platform::Models::User*)> __Oculus_Platform_Models_LeaderboardEntrySizeCheck;
   static_assert(sizeof(LeaderboardEntry) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LeaderboardEntry*, "Oculus.Platform.Models", "LeaderboardEntry");

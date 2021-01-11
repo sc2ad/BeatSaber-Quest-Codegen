@@ -243,8 +243,8 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void RegexRunner::Go()
     void Go();
   }; // System.Text.RegularExpressions.RegexInterpreter
+  #pragma pack(pop)
   static check_size<sizeof(RegexInterpreter), 192 + sizeof(System::Globalization::CultureInfo*)> __System_Text_RegularExpressions_RegexInterpreterSizeCheck;
   static_assert(sizeof(RegexInterpreter) == 0xC8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexInterpreter*, "System.Text.RegularExpressions", "RegexInterpreter");

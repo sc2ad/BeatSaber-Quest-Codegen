@@ -60,8 +60,8 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EventDispatcher*, creationType>(next, eventEnabled, listener)));
     }
   }; // System.Diagnostics.Tracing.EventDispatcher
+  #pragma pack(pop)
   static check_size<sizeof(EventDispatcher), 40 + sizeof(System::Diagnostics::Tracing::EventDispatcher*)> __System_Diagnostics_Tracing_EventDispatcherSizeCheck;
   static_assert(sizeof(EventDispatcher) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventDispatcher*, "System.Diagnostics.Tracing", "EventDispatcher");

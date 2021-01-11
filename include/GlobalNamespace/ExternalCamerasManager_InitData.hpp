@@ -39,8 +39,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ExternalCamerasManager::InitData*, creationType>(enableOculusMRC)));
     }
   }; // ExternalCamerasManager/InitData
+  #pragma pack(pop)
   static check_size<sizeof(ExternalCamerasManager::InitData), 16 + sizeof(bool)> __GlobalNamespace_ExternalCamerasManager_InitDataSizeCheck;
   static_assert(sizeof(ExternalCamerasManager::InitData) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExternalCamerasManager::InitData*, "", "ExternalCamerasManager/InitData");

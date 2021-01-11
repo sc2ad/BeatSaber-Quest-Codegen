@@ -58,8 +58,8 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<AtomicBoolean*, creationType>()));
     }
   }; // System.Threading.AtomicBoolean
+  #pragma pack(pop)
   static check_size<sizeof(AtomicBoolean), 16 + sizeof(int)> __System_Threading_AtomicBooleanSizeCheck;
   static_assert(sizeof(AtomicBoolean) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::AtomicBoolean*, "System.Threading", "AtomicBoolean");

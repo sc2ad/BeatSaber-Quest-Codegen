@@ -68,9 +68,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.ECollisionBoundsStyle COLLISION_BOUNDS_STYLE_COUNT
     static void _set_COLLISION_BOUNDS_STYLE_COUNT(Valve::VR::ECollisionBoundsStyle value);
   }; // Valve.VR.ECollisionBoundsStyle
+  #pragma pack(pop)
   static check_size<sizeof(ECollisionBoundsStyle), 0 + sizeof(int)> __Valve_VR_ECollisionBoundsStyleSizeCheck;
   static_assert(sizeof(ECollisionBoundsStyle) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::ECollisionBoundsStyle, "Valve.VR", "ECollisionBoundsStyle");

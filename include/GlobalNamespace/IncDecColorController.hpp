@@ -76,8 +76,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<IncDecColorController*, creationType>()));
     }
   }; // IncDecColorController
+  #pragma pack(pop)
   static check_size<sizeof(IncDecColorController), 24 + sizeof(GlobalNamespace::ColorStepValuePicker*)> __GlobalNamespace_IncDecColorControllerSizeCheck;
   static_assert(sizeof(IncDecColorController) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IncDecColorController*, "", "IncDecColorController");

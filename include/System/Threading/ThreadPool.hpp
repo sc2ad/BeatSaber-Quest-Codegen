@@ -86,7 +86,7 @@ namespace System::Threading {
     // Offset: 0x1D1BDFC
     static void InitializeVMTp(bool& enableWorkerTracking);
   }; // System.Threading.ThreadPool
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPool*, "System.Threading", "ThreadPool");

@@ -46,9 +46,9 @@ namespace GlobalNamespace {
     // Set static field: static public AdditionalContentModel/UpdateEntitlementsResult Failed
     static void _set_Failed(GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult value);
   }; // AdditionalContentModel/UpdateEntitlementsResult
+  #pragma pack(pop)
   static check_size<sizeof(AdditionalContentModel::UpdateEntitlementsResult), 0 + sizeof(int)> __GlobalNamespace_AdditionalContentModel_UpdateEntitlementsResultSizeCheck;
   static_assert(sizeof(AdditionalContentModel::UpdateEntitlementsResult) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult, "", "AdditionalContentModel/UpdateEntitlementsResult");

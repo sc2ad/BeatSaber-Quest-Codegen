@@ -408,8 +408,8 @@ namespace Mono::Net::Security {
     // Base method: System.Void Stream::.cctor()
     static void _cctor();
   }; // Mono.Net.Security.MobileAuthenticatedStream
+  #pragma pack(pop)
   static check_size<sizeof(MobileAuthenticatedStream), 152 + sizeof(int)> __Mono_Net_Security_MobileAuthenticatedStreamSizeCheck;
   static_assert(sizeof(MobileAuthenticatedStream) == 0x9C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream*, "Mono.Net.Security", "MobileAuthenticatedStream");

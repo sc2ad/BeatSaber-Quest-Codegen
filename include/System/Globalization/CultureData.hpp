@@ -297,8 +297,8 @@ namespace System::Globalization {
     // Offset: 0x11321F4
     static void fill_number_data(System::Globalization::NumberFormatInfo* nfi, int numberIndex);
   }; // System.Globalization.CultureData
+  #pragma pack(pop)
   static check_size<sizeof(CultureData), 128 + sizeof(::Il2CppString*)> __System_Globalization_CultureDataSizeCheck;
   static_assert(sizeof(CultureData) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureData*, "System.Globalization", "CultureData");

@@ -53,9 +53,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.NetSyncVoipMicSource Internal
     static void _set_Internal(Oculus::Platform::NetSyncVoipMicSource value);
   }; // Oculus.Platform.NetSyncVoipMicSource
+  #pragma pack(pop)
   static check_size<sizeof(NetSyncVoipMicSource), 0 + sizeof(int)> __Oculus_Platform_NetSyncVoipMicSourceSizeCheck;
   static_assert(sizeof(NetSyncVoipMicSource) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSyncVoipMicSource, "Oculus.Platform", "NetSyncVoipMicSource");

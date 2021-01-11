@@ -55,8 +55,8 @@ namespace Zenject {
     // Offset: 0x10F381C
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithDefaultGameObjectParent(::Il2CppString* defaultParentName);
   }; // Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
+  #pragma pack(pop)
   static check_size<sizeof(DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder), 32 + sizeof(Zenject::SubContainerCreatorBindInfo*)> __Zenject_DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinderSizeCheck;
   static_assert(sizeof(DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder");

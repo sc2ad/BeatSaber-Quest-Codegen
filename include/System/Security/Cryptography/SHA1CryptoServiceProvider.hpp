@@ -78,8 +78,8 @@ namespace System::Security::Cryptography {
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
   }; // System.Security.Cryptography.SHA1CryptoServiceProvider
+  #pragma pack(pop)
   static check_size<sizeof(SHA1CryptoServiceProvider), 40 + sizeof(System::Security::Cryptography::SHA1Internal*)> __System_Security_Cryptography_SHA1CryptoServiceProviderSizeCheck;
   static_assert(sizeof(SHA1CryptoServiceProvider) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA1CryptoServiceProvider*, "System.Security.Cryptography", "SHA1CryptoServiceProvider");

@@ -581,8 +581,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LobbyGameStateController*, creationType>()));
     }
   }; // LobbyGameStateController
+  #pragma pack(pop)
   static check_size<sizeof(LobbyGameStateController), 204 + sizeof(bool)> __GlobalNamespace_LobbyGameStateControllerSizeCheck;
   static_assert(sizeof(LobbyGameStateController) == 0xCD);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyGameStateController*, "", "LobbyGameStateController");

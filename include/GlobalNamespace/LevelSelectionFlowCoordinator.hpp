@@ -224,8 +224,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelSelectionFlowCoordinator*, creationType>()));
     }
   }; // LevelSelectionFlowCoordinator
+  #pragma pack(pop)
   static check_size<sizeof(LevelSelectionFlowCoordinator), 200 + sizeof(GlobalNamespace::LevelSelectionFlowCoordinator::State*)> __GlobalNamespace_LevelSelectionFlowCoordinatorSizeCheck;
   static_assert(sizeof(LevelSelectionFlowCoordinator) == 0xD0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSelectionFlowCoordinator*, "", "LevelSelectionFlowCoordinator");

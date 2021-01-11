@@ -208,9 +208,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRSkeleton/BoneId Max
     static void _set_Max(GlobalNamespace::OVRSkeleton::BoneId value);
   }; // OVRSkeleton/BoneId
+  #pragma pack(pop)
   static check_size<sizeof(OVRSkeleton::BoneId), 0 + sizeof(int)> __GlobalNamespace_OVRSkeleton_BoneIdSizeCheck;
   static_assert(sizeof(OVRSkeleton::BoneId) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton::BoneId, "", "OVRSkeleton/BoneId");

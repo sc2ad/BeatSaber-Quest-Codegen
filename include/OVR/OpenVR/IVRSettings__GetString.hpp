@@ -60,6 +60,6 @@ namespace OVR::OpenVR {
     // Offset: 0x190BF70
     void EndInvoke(OVR::OpenVR::EVRSettingsError& peError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSettings/_GetString
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSettings::_GetString*, "OVR.OpenVR", "IVRSettings/_GetString");

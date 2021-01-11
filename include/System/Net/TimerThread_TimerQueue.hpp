@@ -43,8 +43,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<TimerThread::TimerQueue*, creationType>(durationMilliseconds)));
     }
   }; // System.Net.TimerThread/TimerQueue
+  #pragma pack(pop)
   static check_size<sizeof(TimerThread::TimerQueue), 24 + sizeof(System::Net::TimerThread::TimerNode*)> __System_Net_TimerThread_TimerQueueSizeCheck;
   static_assert(sizeof(TimerThread::TimerQueue) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerQueue*, "System.Net", "TimerThread/TimerQueue");

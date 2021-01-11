@@ -28,7 +28,7 @@ namespace System::IO {
     // Offset: 0xFFFFFFFF
     void StopDispatching(System::IO::FileSystemWatcher* fsw);
   }; // System.IO.IFileWatcher
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::IFileWatcher*, "System.IO", "IFileWatcher");

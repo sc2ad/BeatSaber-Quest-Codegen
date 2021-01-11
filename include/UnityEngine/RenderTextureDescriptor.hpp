@@ -251,8 +251,8 @@ namespace UnityEngine {
     // Offset: 0x173CB54
     static void _cctor();
   }; // UnityEngine.RenderTextureDescriptor
+  #pragma pack(pop)
   static check_size<sizeof(RenderTextureDescriptor), 48 + sizeof(UnityEngine::RenderTextureMemoryless)> __UnityEngine_RenderTextureDescriptorSizeCheck;
   static_assert(sizeof(RenderTextureDescriptor) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTextureDescriptor, "UnityEngine", "RenderTextureDescriptor");

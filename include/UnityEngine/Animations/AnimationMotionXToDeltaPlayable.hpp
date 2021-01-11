@@ -102,8 +102,8 @@ namespace UnityEngine::Animations {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationMotionXToDeltaPlayable other)
     bool Equals(UnityEngine::Animations::AnimationMotionXToDeltaPlayable other);
   }; // UnityEngine.Animations.AnimationMotionXToDeltaPlayable
+  #pragma pack(pop)
   static check_size<sizeof(AnimationMotionXToDeltaPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Animations_AnimationMotionXToDeltaPlayableSizeCheck;
   static_assert(sizeof(AnimationMotionXToDeltaPlayable) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationMotionXToDeltaPlayable, "UnityEngine.Animations", "AnimationMotionXToDeltaPlayable");

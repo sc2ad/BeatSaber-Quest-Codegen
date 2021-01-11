@@ -77,8 +77,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRBone*, creationType>(id, parentBoneIndex, trans)));
     }
   }; // OVRBone
+  #pragma pack(pop)
   static check_size<sizeof(OVRBone), 24 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_OVRBoneSizeCheck;
   static_assert(sizeof(OVRBone) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBone*, "", "OVRBone");

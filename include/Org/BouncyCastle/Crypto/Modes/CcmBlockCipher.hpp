@@ -162,8 +162,8 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Int32 IAeadCipher::GetOutputSize(System.Int32 len)
     int GetOutputSize(int len);
   }; // Org.BouncyCastle.Crypto.Modes.CcmBlockCipher
+  #pragma pack(pop)
   static check_size<sizeof(CcmBlockCipher), 80 + sizeof(System::IO::MemoryStream*)> __Org_BouncyCastle_Crypto_Modes_CcmBlockCipherSizeCheck;
   static_assert(sizeof(CcmBlockCipher) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::CcmBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "CcmBlockCipher");

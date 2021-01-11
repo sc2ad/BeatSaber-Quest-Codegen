@@ -241,8 +241,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return THROW_UNLESS((::il2cpp_utils::New<ReadObjectInfo*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo
+  #pragma pack(pop)
   static check_size<sizeof(ReadObjectInfo), 120 + sizeof(System::Runtime::Serialization::IFormatterConverter*)> __System_Runtime_Serialization_Formatters_Binary_ReadObjectInfoSizeCheck;
   static_assert(sizeof(ReadObjectInfo) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*, "System.Runtime.Serialization.Formatters.Binary", "ReadObjectInfo");

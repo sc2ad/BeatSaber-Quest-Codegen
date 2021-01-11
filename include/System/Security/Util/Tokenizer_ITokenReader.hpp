@@ -21,7 +21,7 @@ namespace System::Security::Util {
     // Offset: 0xFFFFFFFF
     int Read();
   }; // System.Security.Util.Tokenizer/ITokenReader
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::ITokenReader*, "System.Security.Util", "Tokenizer/ITokenReader");

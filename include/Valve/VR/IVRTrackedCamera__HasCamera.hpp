@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x19A94A4
     Valve::VR::EVRTrackedCameraError EndInvoke(bool& pHasCamera, System::IAsyncResult* result);
   }; // Valve.VR.IVRTrackedCamera/_HasCamera
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera::_HasCamera*, "Valve.VR", "IVRTrackedCamera/_HasCamera");

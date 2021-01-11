@@ -252,8 +252,8 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<EventBasedNetListener*, creationType>()));
     }
   }; // LiteNetLib.EventBasedNetListener
+  #pragma pack(pop)
   static check_size<sizeof(EventBasedNetListener), 72 + sizeof(LiteNetLib::EventBasedNetListener::OnDeliveryEvent*)> __LiteNetLib_EventBasedNetListenerSizeCheck;
   static_assert(sizeof(EventBasedNetListener) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener*, "LiteNetLib", "EventBasedNetListener");

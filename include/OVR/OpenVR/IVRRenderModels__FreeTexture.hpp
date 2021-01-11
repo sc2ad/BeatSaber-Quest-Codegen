@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x190396C
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_FreeTexture
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRRenderModels::_FreeTexture*, "OVR.OpenVR", "IVRRenderModels/_FreeTexture");

@@ -62,9 +62,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRNotificationStyle Contact_Active
     static void _set_Contact_Active(OVR::OpenVR::EVRNotificationStyle value);
   }; // OVR.OpenVR.EVRNotificationStyle
+  #pragma pack(pop)
   static check_size<sizeof(EVRNotificationStyle), 0 + sizeof(int)> __OVR_OpenVR_EVRNotificationStyleSizeCheck;
   static_assert(sizeof(EVRNotificationStyle) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRNotificationStyle, "OVR.OpenVR", "EVRNotificationStyle");

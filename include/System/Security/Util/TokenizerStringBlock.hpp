@@ -41,8 +41,8 @@ namespace System::Security::Util {
       return THROW_UNLESS((::il2cpp_utils::New<TokenizerStringBlock*, creationType>()));
     }
   }; // System.Security.Util.TokenizerStringBlock
+  #pragma pack(pop)
   static check_size<sizeof(TokenizerStringBlock), 24 + sizeof(System::Security::Util::TokenizerStringBlock*)> __System_Security_Util_TokenizerStringBlockSizeCheck;
   static_assert(sizeof(TokenizerStringBlock) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerStringBlock*, "System.Security.Util", "TokenizerStringBlock");

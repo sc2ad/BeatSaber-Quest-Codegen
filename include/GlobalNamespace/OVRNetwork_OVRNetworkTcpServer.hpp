@@ -87,8 +87,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRNetwork::OVRNetworkTcpServer*, creationType>()));
     }
   }; // OVRNetwork/OVRNetworkTcpServer
+  #pragma pack(pop)
   static check_size<sizeof(OVRNetwork::OVRNetworkTcpServer), 32 + sizeof(System::Collections::Generic::List_1<System::Net::Sockets::TcpClient*>*)> __GlobalNamespace_OVRNetwork_OVRNetworkTcpServerSizeCheck;
   static_assert(sizeof(OVRNetwork::OVRNetworkTcpServer) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*, "", "OVRNetwork/OVRNetworkTcpServer");

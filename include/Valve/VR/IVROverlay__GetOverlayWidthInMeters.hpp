@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18F63D8
     Valve::VR::EVROverlayError EndInvoke(float& pfWidthInMeters, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayWidthInMeters
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetOverlayWidthInMeters*, "Valve.VR", "IVROverlay/_GetOverlayWidthInMeters");

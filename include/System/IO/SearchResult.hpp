@@ -53,8 +53,8 @@ namespace System::IO {
     // Offset: 0x13A55D4
     Microsoft::Win32::Win32Native::WIN32_FIND_DATA* get_FindData();
   }; // System.IO.SearchResult
+  #pragma pack(pop)
   static check_size<sizeof(SearchResult), 32 + sizeof(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*)> __System_IO_SearchResultSizeCheck;
   static_assert(sizeof(SearchResult) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchResult*, "System.IO", "SearchResult");

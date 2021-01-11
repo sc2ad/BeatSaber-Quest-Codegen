@@ -52,9 +52,9 @@ namespace System::Globalization {
     // Set static field: static public System.Globalization.TimeSpanFormat/Pattern Full
     static void _set_Full(System::Globalization::TimeSpanFormat::Pattern value);
   }; // System.Globalization.TimeSpanFormat/Pattern
+  #pragma pack(pop)
   static check_size<sizeof(TimeSpanFormat::Pattern), 0 + sizeof(int)> __System_Globalization_TimeSpanFormat_PatternSizeCheck;
   static_assert(sizeof(TimeSpanFormat::Pattern) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TimeSpanFormat::Pattern, "System.Globalization", "TimeSpanFormat/Pattern");

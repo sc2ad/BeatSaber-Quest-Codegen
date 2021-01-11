@@ -73,8 +73,8 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallback*, creationType>()));
     }
   }; // System.Text.EncoderFallback
+  #pragma pack(pop)
   static check_size<sizeof(EncoderFallback), 16 + sizeof(bool)> __System_Text_EncoderFallbackSizeCheck;
   static_assert(sizeof(EncoderFallback) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderFallback*, "System.Text", "EncoderFallback");

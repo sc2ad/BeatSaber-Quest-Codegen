@@ -267,8 +267,8 @@ namespace System::Xml {
     // Base method: System.Void XmlWriter::Flush()
     void Flush();
   }; // System.Xml.QueryOutputWriter
+  #pragma pack(pop)
   static check_size<sizeof(QueryOutputWriter), 96 + sizeof(int)> __System_Xml_QueryOutputWriterSizeCheck;
   static_assert(sizeof(QueryOutputWriter) == 0x64);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::QueryOutputWriter*, "System.Xml", "QueryOutputWriter");

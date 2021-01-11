@@ -68,9 +68,9 @@ namespace System::Net::NetworkInformation {
     // Set static field: static public System.Net.NetworkInformation.MacOsArpHardware FDDI
     static void _set_FDDI(System::Net::NetworkInformation::MacOsArpHardware value);
   }; // System.Net.NetworkInformation.MacOsArpHardware
+  #pragma pack(pop)
   static check_size<sizeof(MacOsArpHardware), 0 + sizeof(int)> __System_Net_NetworkInformation_MacOsArpHardwareSizeCheck;
   static_assert(sizeof(MacOsArpHardware) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsArpHardware, "System.Net.NetworkInformation", "MacOsArpHardware");

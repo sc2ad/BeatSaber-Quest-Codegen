@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1909570
     OVR::OpenVR::EVRScreenshotType EndInvoke(OVR::OpenVR::EVRScreenshotError& pError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRScreenshots/_GetScreenshotPropertyType
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyType*, "OVR.OpenVR", "IVRScreenshots/_GetScreenshotPropertyType");

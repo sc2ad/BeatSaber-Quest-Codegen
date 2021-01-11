@@ -80,8 +80,8 @@ namespace System::Reflection {
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Reflection.Pointer
+  #pragma pack(pop)
   static check_size<sizeof(Pointer), 24 + sizeof(System::RuntimeType*)> __System_Reflection_PointerSizeCheck;
   static_assert(sizeof(Pointer) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Pointer*, "System.Reflection", "Pointer");

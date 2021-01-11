@@ -47,8 +47,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<PenetrationAvoidance::Avoider::EffectorLink*, creationType>()));
     }
   }; // RootMotion.FinalIK.PenetrationAvoidance/Avoider/EffectorLink
+  #pragma pack(pop)
   static check_size<sizeof(PenetrationAvoidance::Avoider::EffectorLink), 20 + sizeof(float)> __RootMotion_FinalIK_PenetrationAvoidance_Avoider_EffectorLinkSizeCheck;
   static_assert(sizeof(PenetrationAvoidance::Avoider::EffectorLink) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*, "RootMotion.FinalIK", "PenetrationAvoidance/Avoider/EffectorLink");

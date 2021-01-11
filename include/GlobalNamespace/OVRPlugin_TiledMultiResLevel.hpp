@@ -71,9 +71,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/TiledMultiResLevel EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::TiledMultiResLevel value);
   }; // OVRPlugin/TiledMultiResLevel
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::TiledMultiResLevel), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_TiledMultiResLevelSizeCheck;
   static_assert(sizeof(OVRPlugin::TiledMultiResLevel) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::TiledMultiResLevel, "", "OVRPlugin/TiledMultiResLevel");

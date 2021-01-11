@@ -49,6 +49,6 @@ namespace UnityEngine::LowLevel {
     // Offset: 0x168EA40
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.LowLevel.PlayerLoopSystem/UpdateFunction
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction*, "UnityEngine.LowLevel", "PlayerLoopSystem/UpdateFunction");

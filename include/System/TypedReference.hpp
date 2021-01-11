@@ -74,9 +74,9 @@ namespace System {
     // Base method: System.Boolean ValueType::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
   }; // System.TypedReference
+  #pragma pack(pop)
   static check_size<sizeof(TypedReference), 16 + sizeof(System::IntPtr)> __System_TypedReferenceSizeCheck;
   static_assert(sizeof(TypedReference) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypedReference, "System", "TypedReference");

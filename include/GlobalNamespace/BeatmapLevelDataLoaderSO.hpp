@@ -104,6 +104,7 @@ namespace GlobalNamespace {
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  AssetBundleLevelInfo(::Il2CppString* assetBundlePath, ::Il2CppString* levelDataAssetName, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel)
     }; // BeatmapLevelDataLoaderSO/AssetBundleLevelInfo
+    #pragma pack(pop)
     static check_size<sizeof(BeatmapLevelDataLoaderSO::AssetBundleLevelInfo), 16 + sizeof(GlobalNamespace::IPreviewBeatmapLevel*)> __GlobalNamespace_BeatmapLevelDataLoaderSO_AssetBundleLevelInfoSizeCheck;
     static_assert(sizeof(BeatmapLevelDataLoaderSO::AssetBundleLevelInfo) == 0x18);
     // private BeatmapCharacteristicCollectionSO _allBeatmapCharacteristicCollection
@@ -150,9 +151,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelDataLoaderSO*, creationType>()));
     }
   }; // BeatmapLevelDataLoaderSO
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapLevelDataLoaderSO), 40 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>*)> __GlobalNamespace_BeatmapLevelDataLoaderSOSizeCheck;
   static_assert(sizeof(BeatmapLevelDataLoaderSO) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO*, "", "BeatmapLevelDataLoaderSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo, "", "BeatmapLevelDataLoaderSO/AssetBundleLevelInfo");

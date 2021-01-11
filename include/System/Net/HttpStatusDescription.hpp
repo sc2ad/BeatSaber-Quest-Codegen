@@ -29,7 +29,7 @@ namespace System::Net {
     // Offset: 0x12ACB0C
     static ::Il2CppString* Get(int code);
   }; // System.Net.HttpStatusDescription
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpStatusDescription*, "System.Net", "HttpStatusDescription");

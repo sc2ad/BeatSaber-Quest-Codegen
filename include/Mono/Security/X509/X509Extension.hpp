@@ -99,8 +99,8 @@ namespace Mono::Security::X509 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Mono.Security.X509.X509Extension
+  #pragma pack(pop)
   static check_size<sizeof(X509Extension), 32 + sizeof(Mono::Security::ASN1*)> __Mono_Security_X509_X509ExtensionSizeCheck;
   static_assert(sizeof(X509Extension) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Extension*, "Mono.Security.X509", "X509Extension");

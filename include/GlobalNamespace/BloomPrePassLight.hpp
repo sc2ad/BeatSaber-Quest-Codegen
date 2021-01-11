@@ -141,8 +141,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // BloomPrePassLight
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePassLight), 42 + sizeof(bool)> __GlobalNamespace_BloomPrePassLightSizeCheck;
   static_assert(sizeof(BloomPrePassLight) == 0x2B);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLight*, "", "BloomPrePassLight");

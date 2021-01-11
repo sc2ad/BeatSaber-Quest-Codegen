@@ -61,8 +61,8 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<ReaderWriterCount*, creationType>()));
     }
   }; // System.Threading.ReaderWriterCount
+  #pragma pack(pop)
   static check_size<sizeof(ReaderWriterCount), 40 + sizeof(System::Threading::ReaderWriterCount*)> __System_Threading_ReaderWriterCountSizeCheck;
   static_assert(sizeof(ReaderWriterCount) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterCount*, "System.Threading", "ReaderWriterCount");

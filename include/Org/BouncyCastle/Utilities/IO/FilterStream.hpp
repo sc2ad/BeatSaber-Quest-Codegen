@@ -112,8 +112,8 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Base method: System.Void Stream::WriteByte(System.Byte value)
     void WriteByte(uint8_t value);
   }; // Org.BouncyCastle.Utilities.IO.FilterStream
+  #pragma pack(pop)
   static check_size<sizeof(FilterStream), 40 + sizeof(System::IO::Stream*)> __Org_BouncyCastle_Utilities_IO_FilterStreamSizeCheck;
   static_assert(sizeof(FilterStream) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::FilterStream*, "Org.BouncyCastle.Utilities.IO", "FilterStream");

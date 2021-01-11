@@ -47,9 +47,9 @@ namespace System::IO {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.IO.Stream/ReadWriteParameters
+  #pragma pack(pop)
   static check_size<sizeof(Stream::ReadWriteParameters), 12 + sizeof(int)> __System_IO_Stream_ReadWriteParametersSizeCheck;
   static_assert(sizeof(Stream::ReadWriteParameters) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::ReadWriteParameters, "System.IO", "Stream/ReadWriteParameters");

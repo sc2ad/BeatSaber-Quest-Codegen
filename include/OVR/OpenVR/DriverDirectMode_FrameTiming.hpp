@@ -52,9 +52,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.DriverDirectMode_FrameTiming
+  #pragma pack(pop)
   static check_size<sizeof(DriverDirectMode_FrameTiming), 16 + sizeof(uint)> __OVR_OpenVR_DriverDirectMode_FrameTimingSizeCheck;
   static_assert(sizeof(DriverDirectMode_FrameTiming) == 0x14);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::DriverDirectMode_FrameTiming, "OVR.OpenVR", "DriverDirectMode_FrameTiming");

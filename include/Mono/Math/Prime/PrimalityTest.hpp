@@ -57,6 +57,6 @@ namespace Mono::Math::Prime {
     // Offset: 0x17AE82C
     bool EndInvoke(System::IAsyncResult* result);
   }; // Mono.Math.Prime.PrimalityTest
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::PrimalityTest*, "Mono.Math.Prime", "PrimalityTest");

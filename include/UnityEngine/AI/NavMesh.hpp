@@ -58,7 +58,7 @@ namespace UnityEngine::AI {
     // Offset: 0x1A0A868
     static bool SamplePosition_Injected(UnityEngine::Vector3& sourcePosition, UnityEngine::AI::NavMeshHit& hit, float maxDistance, int areaMask);
   }; // UnityEngine.AI.NavMesh
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMesh*, "UnityEngine.AI", "NavMesh");

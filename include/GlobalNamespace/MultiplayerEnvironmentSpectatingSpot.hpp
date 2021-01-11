@@ -148,8 +148,8 @@ namespace GlobalNamespace {
     // Base method: UnityEngine.Transform IMultiplayerSpectatingSpot::get_transform()
     UnityEngine::Transform* GlobalNamespace_IMultiplayerSpectatingSpot_get_transform();
   }; // MultiplayerEnvironmentSpectatingSpot
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerEnvironmentSpectatingSpot), 48 + sizeof(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)> __GlobalNamespace_MultiplayerEnvironmentSpectatingSpotSizeCheck;
   static_assert(sizeof(MultiplayerEnvironmentSpectatingSpot) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*, "", "MultiplayerEnvironmentSpectatingSpot");

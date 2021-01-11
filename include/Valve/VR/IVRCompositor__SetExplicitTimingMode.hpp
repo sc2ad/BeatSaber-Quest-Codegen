@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18EA60C
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_SetExplicitTimingMode
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_SetExplicitTimingMode*, "Valve.VR", "IVRCompositor/_SetExplicitTimingMode");

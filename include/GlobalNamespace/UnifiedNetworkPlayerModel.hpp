@@ -590,8 +590,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<UnifiedNetworkPlayerModel*, creationType>()));
     }
   }; // UnifiedNetworkPlayerModel
+  #pragma pack(pop)
   static check_size<sizeof(UnifiedNetworkPlayerModel), 264 + sizeof(GlobalNamespace::GameplayServerFilter)> __GlobalNamespace_UnifiedNetworkPlayerModelSizeCheck;
   static_assert(sizeof(UnifiedNetworkPlayerModel) == 0x130);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel*, "", "UnifiedNetworkPlayerModel");

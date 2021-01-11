@@ -76,8 +76,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0*, creationType>()));
     }
   }; // OculusBeatmapDataAssetFileModel/<>c__DisplayClass16_0
+  #pragma pack(pop)
   static check_size<sizeof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0), 32 + sizeof(Oculus::Platform::Models::AssetDetails*)> __GlobalNamespace_OculusBeatmapDataAssetFileModel_$$c__DisplayClass16_0SizeCheck;
   static_assert(sizeof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0*, "", "OculusBeatmapDataAssetFileModel/<>c__DisplayClass16_0");

@@ -63,8 +63,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<GUILayoutUtility::LayoutCache*, creationType>()));
     }
   }; // UnityEngine.GUILayoutUtility/LayoutCache
+  #pragma pack(pop)
   static check_size<sizeof(GUILayoutUtility::LayoutCache), 32 + sizeof(UnityEngine::GUILayoutGroup*)> __UnityEngine_GUILayoutUtility_LayoutCacheSizeCheck;
   static_assert(sizeof(GUILayoutUtility::LayoutCache) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutUtility::LayoutCache*, "UnityEngine", "GUILayoutUtility/LayoutCache");

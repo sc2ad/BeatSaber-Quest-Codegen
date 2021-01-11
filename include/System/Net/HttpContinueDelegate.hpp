@@ -52,6 +52,6 @@ namespace System::Net {
     // Offset: 0x12AD86C
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Net.HttpContinueDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpContinueDelegate*, "System.Net", "HttpContinueDelegate");

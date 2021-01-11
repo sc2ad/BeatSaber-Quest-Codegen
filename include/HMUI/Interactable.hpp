@@ -49,8 +49,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<Interactable*, creationType>()));
     }
   }; // HMUI.Interactable
+  #pragma pack(pop)
   static check_size<sizeof(Interactable), 24 + sizeof(bool)> __HMUI_InteractableSizeCheck;
   static_assert(sizeof(Interactable) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Interactable*, "HMUI", "Interactable");

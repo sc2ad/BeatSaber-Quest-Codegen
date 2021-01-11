@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x136DA48
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_GetApplicationCount
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_GetApplicationCount*, "Valve.VR", "IVRApplications/_GetApplicationCount");

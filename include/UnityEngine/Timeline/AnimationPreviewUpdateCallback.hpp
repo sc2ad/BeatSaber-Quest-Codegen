@@ -80,8 +80,8 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void ITimelineEvaluateCallback::Evaluate()
     void Evaluate();
   }; // UnityEngine.Timeline.AnimationPreviewUpdateCallback
+  #pragma pack(pop)
   static check_size<sizeof(AnimationPreviewUpdateCallback), 48 + sizeof(System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>*)> __UnityEngine_Timeline_AnimationPreviewUpdateCallbackSizeCheck;
   static_assert(sizeof(AnimationPreviewUpdateCallback) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPreviewUpdateCallback*, "UnityEngine.Timeline", "AnimationPreviewUpdateCallback");

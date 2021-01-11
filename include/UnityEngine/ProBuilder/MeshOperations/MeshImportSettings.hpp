@@ -72,8 +72,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<MeshImportSettings*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.MeshImportSettings
+  #pragma pack(pop)
   static check_size<sizeof(MeshImportSettings), 20 + sizeof(float)> __UnityEngine_ProBuilder_MeshOperations_MeshImportSettingsSizeCheck;
   static_assert(sizeof(MeshImportSettings) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*, "UnityEngine.ProBuilder.MeshOperations", "MeshImportSettings");

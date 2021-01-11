@@ -160,8 +160,8 @@ namespace UnityEngine {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.GUILayoutEntry
+  #pragma pack(pop)
   static check_size<sizeof(GUILayoutEntry), 64 + sizeof(UnityEngine::GUIStyle*)> __UnityEngine_GUILayoutEntrySizeCheck;
   static_assert(sizeof(GUILayoutEntry) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutEntry*, "UnityEngine", "GUILayoutEntry");

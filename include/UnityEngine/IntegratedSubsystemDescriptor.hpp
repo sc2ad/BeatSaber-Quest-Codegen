@@ -54,8 +54,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<IntegratedSubsystemDescriptor*, creationType>()));
     }
   }; // UnityEngine.IntegratedSubsystemDescriptor
+  #pragma pack(pop)
   static check_size<sizeof(IntegratedSubsystemDescriptor), 16 + sizeof(System::IntPtr)> __UnityEngine_IntegratedSubsystemDescriptorSizeCheck;
   static_assert(sizeof(IntegratedSubsystemDescriptor) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystemDescriptor*, "UnityEngine", "IntegratedSubsystemDescriptor");

@@ -59,9 +59,9 @@ namespace TMPro {
     // Offset: 0xC940FC
     ::Il2CppString* GetWord();
   }; // TMPro.TMP_WordInfo
+  #pragma pack(pop)
   static check_size<sizeof(TMP_WordInfo), 16 + sizeof(int)> __TMPro_TMP_WordInfoSizeCheck;
   static_assert(sizeof(TMP_WordInfo) == 0x14);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_WordInfo, "TMPro", "TMP_WordInfo");

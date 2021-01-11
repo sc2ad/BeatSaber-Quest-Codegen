@@ -57,9 +57,9 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.ConsoleScreenBufferInfo
+  #pragma pack(pop)
   static check_size<sizeof(ConsoleScreenBufferInfo), 18 + sizeof(System::Coord)> __System_ConsoleScreenBufferInfoSizeCheck;
   static_assert(sizeof(ConsoleScreenBufferInfo) == 0x16);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleScreenBufferInfo, "System", "ConsoleScreenBufferInfo");

@@ -64,8 +64,8 @@ namespace GlobalNamespace {
     // Base method: HMAsyncRequest PlatformAchievementsHandler::GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler);
   }; // OculusPlatformAchievementHandler
+  #pragma pack(pop)
   static check_size<sizeof(OculusPlatformAchievementHandler), 16 + sizeof(GlobalNamespace::AchievementIdsModelSO*)> __GlobalNamespace_OculusPlatformAchievementHandlerSizeCheck;
   static_assert(sizeof(OculusPlatformAchievementHandler) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAchievementHandler*, "", "OculusPlatformAchievementHandler");

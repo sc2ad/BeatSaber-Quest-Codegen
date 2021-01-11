@@ -179,8 +179,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // NoteDebris
+  #pragma pack(pop)
   static check_size<sizeof(NoteDebris), 92 + sizeof(float)> __GlobalNamespace_NoteDebrisSizeCheck;
   static_assert(sizeof(NoteDebris) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebris*, "", "NoteDebris");

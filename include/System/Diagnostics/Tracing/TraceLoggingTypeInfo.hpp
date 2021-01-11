@@ -123,8 +123,8 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x11205C4
     ::Il2CppObject* GetData(::Il2CppObject* value);
   }; // System.Diagnostics.Tracing.TraceLoggingTypeInfo
+  #pragma pack(pop)
   static check_size<sizeof(TraceLoggingTypeInfo), 48 + sizeof(System::Type*)> __System_Diagnostics_Tracing_TraceLoggingTypeInfoSizeCheck;
   static_assert(sizeof(TraceLoggingTypeInfo) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TraceLoggingTypeInfo*, "System.Diagnostics.Tracing", "TraceLoggingTypeInfo");

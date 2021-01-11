@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x18FF710
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::HmdColor_t& pColor, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_SetOverlayRenderModel
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_SetOverlayRenderModel*, "OVR.OpenVR", "IVROverlay/_SetOverlayRenderModel");

@@ -102,8 +102,8 @@ namespace System {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.RuntimeMethodHandle
+  #pragma pack(pop)
   static check_size<sizeof(RuntimeMethodHandle), 0 + sizeof(System::IntPtr)> __System_RuntimeMethodHandleSizeCheck;
   static_assert(sizeof(RuntimeMethodHandle) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeMethodHandle, "System", "RuntimeMethodHandle");

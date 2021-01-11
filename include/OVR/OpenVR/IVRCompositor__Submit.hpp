@@ -63,6 +63,6 @@ namespace OVR::OpenVR {
     // Offset: 0x185F69C
     OVR::OpenVR::EVRCompositorError EndInvoke(OVR::OpenVR::Texture_t& pTexture, OVR::OpenVR::VRTextureBounds_t& pBounds, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_Submit
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_Submit*, "OVR.OpenVR", "IVRCompositor/_Submit");

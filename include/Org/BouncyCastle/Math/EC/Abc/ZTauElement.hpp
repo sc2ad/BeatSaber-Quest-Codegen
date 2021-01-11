@@ -46,8 +46,8 @@ namespace Org::BouncyCastle::Math::EC::Abc {
       return THROW_UNLESS((::il2cpp_utils::New<ZTauElement*, creationType>(u, v)));
     }
   }; // Org.BouncyCastle.Math.EC.Abc.ZTauElement
+  #pragma pack(pop)
   static check_size<sizeof(ZTauElement), 24 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Math_EC_Abc_ZTauElementSizeCheck;
   static_assert(sizeof(ZTauElement) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::ZTauElement*, "Org.BouncyCastle.Math.EC.Abc", "ZTauElement");

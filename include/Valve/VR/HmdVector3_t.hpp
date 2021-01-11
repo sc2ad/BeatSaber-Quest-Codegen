@@ -40,9 +40,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.HmdVector3_t
+  #pragma pack(pop)
   static check_size<sizeof(HmdVector3_t), 8 + sizeof(float)> __Valve_VR_HmdVector3_tSizeCheck;
   static_assert(sizeof(HmdVector3_t) == 0xC);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdVector3_t, "Valve.VR", "HmdVector3_t");

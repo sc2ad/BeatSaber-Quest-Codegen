@@ -46,8 +46,8 @@ namespace System::Text::RegularExpressions {
       return THROW_UNLESS((::il2cpp_utils::New<SharedReference*, creationType>()));
     }
   }; // System.Text.RegularExpressions.SharedReference
+  #pragma pack(pop)
   static check_size<sizeof(SharedReference), 16 + sizeof(System::WeakReference*)> __System_Text_RegularExpressions_SharedReferenceSizeCheck;
   static_assert(sizeof(SharedReference) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::SharedReference*, "System.Text.RegularExpressions", "SharedReference");

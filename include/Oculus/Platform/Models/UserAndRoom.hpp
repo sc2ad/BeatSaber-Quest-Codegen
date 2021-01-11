@@ -57,8 +57,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<UserAndRoom*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.UserAndRoom
+  #pragma pack(pop)
   static check_size<sizeof(UserAndRoom), 32 + sizeof(Oculus::Platform::Models::User*)> __Oculus_Platform_Models_UserAndRoomSizeCheck;
   static_assert(sizeof(UserAndRoom) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::UserAndRoom*, "Oculus.Platform.Models", "UserAndRoom");

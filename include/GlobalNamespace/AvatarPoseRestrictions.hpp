@@ -110,8 +110,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AvatarPoseRestrictions*, creationType>()));
     }
   }; // AvatarPoseRestrictions
+  #pragma pack(pop)
   static check_size<sizeof(AvatarPoseRestrictions), 64 + sizeof(GlobalNamespace::AvatarPoseController*)> __GlobalNamespace_AvatarPoseRestrictionsSizeCheck;
   static_assert(sizeof(AvatarPoseRestrictions) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseRestrictions*, "", "AvatarPoseRestrictions");

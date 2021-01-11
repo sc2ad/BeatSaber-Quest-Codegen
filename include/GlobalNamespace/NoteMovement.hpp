@@ -84,6 +84,7 @@ namespace GlobalNamespace {
       // Set static field: static public NoteMovement/MovementPhase Jumping
       static void _set_Jumping(GlobalNamespace::NoteMovement::MovementPhase value);
     }; // NoteMovement/MovementPhase
+    #pragma pack(pop)
     static check_size<sizeof(NoteMovement::MovementPhase), 0 + sizeof(int)> __GlobalNamespace_NoteMovement_MovementPhaseSizeCheck;
     static_assert(sizeof(NoteMovement::MovementPhase) == 0x4);
     // private NoteFloorMovement _floorMovement
@@ -301,9 +302,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteMovement*, creationType>()));
     }
   }; // NoteMovement
+  #pragma pack(pop)
   static check_size<sizeof(NoteMovement), 120 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_NoteMovementSizeCheck;
   static_assert(sizeof(NoteMovement) == 0x84);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMovement*, "", "NoteMovement");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMovement::MovementPhase, "", "NoteMovement/MovementPhase");

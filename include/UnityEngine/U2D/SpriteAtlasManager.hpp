@@ -65,7 +65,7 @@ namespace UnityEngine::U2D {
     // Offset: 0x16C9258
     static void _cctor();
   }; // UnityEngine.U2D.SpriteAtlasManager
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteAtlasManager*, "UnityEngine.U2D", "SpriteAtlasManager");

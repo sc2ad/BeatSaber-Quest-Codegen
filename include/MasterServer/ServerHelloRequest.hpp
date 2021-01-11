@@ -100,8 +100,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ServerHelloRequest*, creationType>()));
     }
   }; // MasterServer.ServerHelloRequest
+  #pragma pack(pop)
   static check_size<sizeof(ServerHelloRequest), 40 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_ServerHelloRequestSizeCheck;
   static_assert(sizeof(ServerHelloRequest) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ServerHelloRequest*, "MasterServer", "ServerHelloRequest");

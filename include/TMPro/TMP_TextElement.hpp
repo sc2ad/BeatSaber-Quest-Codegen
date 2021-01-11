@@ -97,8 +97,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_TextElement*, creationType>()));
     }
   }; // TMPro.TMP_TextElement
+  #pragma pack(pop)
   static check_size<sizeof(TMP_TextElement), 36 + sizeof(float)> __TMPro_TMP_TextElementSizeCheck;
   static_assert(sizeof(TMP_TextElement) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement*, "TMPro", "TMP_TextElement");

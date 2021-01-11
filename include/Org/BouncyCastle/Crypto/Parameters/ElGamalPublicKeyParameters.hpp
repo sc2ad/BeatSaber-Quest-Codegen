@@ -63,8 +63,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Int32 ElGamalKeyParameters::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.Parameters.ElGamalPublicKeyParameters
+  #pragma pack(pop)
   static check_size<sizeof(ElGamalPublicKeyParameters), 32 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Crypto_Parameters_ElGamalPublicKeyParametersSizeCheck;
   static_assert(sizeof(ElGamalPublicKeyParameters) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "ElGamalPublicKeyParameters");

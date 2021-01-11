@@ -51,8 +51,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameServerPlayerTableItem*, creationType>(playerName, suggestedLevel, suggestedModifiers, isReady)));
     }
   }; // GameServerPlayerTableItem
+  #pragma pack(pop)
   static check_size<sizeof(GameServerPlayerTableItem), 40 + sizeof(bool)> __GlobalNamespace_GameServerPlayerTableItemSizeCheck;
   static_assert(sizeof(GameServerPlayerTableItem) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableItem*, "", "GameServerPlayerTableItem");

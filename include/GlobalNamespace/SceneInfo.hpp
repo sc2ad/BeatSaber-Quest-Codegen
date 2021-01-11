@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SceneInfo*, creationType>()));
     }
   }; // SceneInfo
+  #pragma pack(pop)
   static check_size<sizeof(SceneInfo), 32 + sizeof(bool)> __GlobalNamespace_SceneInfoSizeCheck;
   static_assert(sizeof(SceneInfo) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneInfo*, "", "SceneInfo");

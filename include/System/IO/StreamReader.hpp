@@ -302,8 +302,8 @@ namespace System::IO {
     // Base method: System.Void TextReader::.cctor()
     static void _cctor();
   }; // System.IO.StreamReader
+  #pragma pack(pop)
   static check_size<sizeof(StreamReader), 96 + sizeof(System::Threading::Tasks::Task*)> __System_IO_StreamReaderSizeCheck;
   static_assert(sizeof(StreamReader) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamReader*, "System.IO", "StreamReader");

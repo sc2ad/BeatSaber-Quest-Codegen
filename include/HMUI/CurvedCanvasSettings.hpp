@@ -89,8 +89,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<CurvedCanvasSettings*, creationType>()));
     }
   }; // HMUI.CurvedCanvasSettings
+  #pragma pack(pop)
   static check_size<sizeof(CurvedCanvasSettings), 140 + sizeof(float)> __HMUI_CurvedCanvasSettingsSizeCheck;
   static_assert(sizeof(CurvedCanvasSettings) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedCanvasSettings*, "HMUI", "CurvedCanvasSettings");

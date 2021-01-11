@@ -60,6 +60,6 @@ namespace OVR::OpenVR {
     // Offset: 0x186FBF0
     OVR::OpenVR::EVROverlayError EndInvoke(uint& punDeviceIndex, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayTransformTrackedDeviceComponent
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayTransformTrackedDeviceComponent*, "OVR.OpenVR", "IVROverlay/_GetOverlayTransformTrackedDeviceComponent");

@@ -112,8 +112,8 @@ namespace System {
     // Offset: 0x171CFA4
     static void _cctor();
   }; // System.ParamsArray
+  #pragma pack(pop)
   static check_size<sizeof(ParamsArray), 24 + sizeof(::Array<::Il2CppObject*>*)> __System_ParamsArraySizeCheck;
   static_assert(sizeof(ParamsArray) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ParamsArray, "System", "ParamsArray");

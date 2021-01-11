@@ -110,8 +110,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CachedMediaAsyncLoader*, creationType>()));
     }
   }; // CachedMediaAsyncLoader
+  #pragma pack(pop)
   static check_size<sizeof(CachedMediaAsyncLoader), 40 + sizeof(GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>*)> __GlobalNamespace_CachedMediaAsyncLoaderSizeCheck;
   static_assert(sizeof(CachedMediaAsyncLoader) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CachedMediaAsyncLoader*, "", "CachedMediaAsyncLoader");

@@ -98,8 +98,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoPostProcessMainEffectSO*, creationType>()));
     }
   }; // NoPostProcessMainEffectSO
+  #pragma pack(pop)
   static check_size<sizeof(NoPostProcessMainEffectSO), 40 + sizeof(UnityEngine::Material*)> __GlobalNamespace_NoPostProcessMainEffectSOSizeCheck;
   static_assert(sizeof(NoPostProcessMainEffectSO) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoPostProcessMainEffectSO*, "", "NoPostProcessMainEffectSO");

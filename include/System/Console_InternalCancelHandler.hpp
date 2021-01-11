@@ -49,6 +49,6 @@ namespace System {
     // Offset: 0x1532408
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Console/InternalCancelHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Console::InternalCancelHandler*, "System", "Console/InternalCancelHandler");

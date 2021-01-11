@@ -180,8 +180,8 @@ namespace NUnit::Framework::Constraints {
       return THROW_UNLESS((::il2cpp_utils::New<NUnitEqualityComparer*, creationType>()));
     }
   }; // NUnit.Framework.Constraints.NUnitEqualityComparer
+  #pragma pack(pop)
   static check_size<sizeof(NUnitEqualityComparer), 40 + sizeof(bool)> __NUnit_Framework_Constraints_NUnitEqualityComparerSizeCheck;
   static_assert(sizeof(NUnitEqualityComparer) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitEqualityComparer*, "NUnit.Framework.Constraints", "NUnitEqualityComparer");

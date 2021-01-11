@@ -42,6 +42,6 @@ namespace TMPro::SpriteAssetUtilities {
       return THROW_UNLESS((::il2cpp_utils::New<TexturePacker*, creationType>()));
     }
   }; // TMPro.SpriteAssetUtilities.TexturePacker
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker*, "TMPro.SpriteAssetUtilities", "TexturePacker");

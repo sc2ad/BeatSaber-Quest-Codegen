@@ -98,7 +98,7 @@ namespace Org::BouncyCastle::Utilities {
     // Offset: 0x18C0728
     static void _cctor();
   }; // Org.BouncyCastle.Utilities.Platform
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Platform*, "Org.BouncyCastle.Utilities", "Platform");

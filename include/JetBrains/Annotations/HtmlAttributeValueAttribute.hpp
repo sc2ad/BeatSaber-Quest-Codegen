@@ -47,8 +47,8 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE530
     void set_Name(::Il2CppString* value);
   }; // JetBrains.Annotations.HtmlAttributeValueAttribute
+  #pragma pack(pop)
   static check_size<sizeof(HtmlAttributeValueAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_HtmlAttributeValueAttributeSizeCheck;
   static_assert(sizeof(HtmlAttributeValueAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::HtmlAttributeValueAttribute*, "JetBrains.Annotations", "HtmlAttributeValueAttribute");

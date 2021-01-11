@@ -267,8 +267,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelSearchViewController*, creationType>()));
     }
   }; // LevelSearchViewController
+  #pragma pack(pop)
   static check_size<sizeof(LevelSearchViewController), 240 + sizeof(::Array<GlobalNamespace::IBeatmapLevelPack*>*)> __GlobalNamespace_LevelSearchViewControllerSizeCheck;
   static_assert(sizeof(LevelSearchViewController) == 0xF8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSearchViewController*, "", "LevelSearchViewController");

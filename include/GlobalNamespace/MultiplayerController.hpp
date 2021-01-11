@@ -154,6 +154,7 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerController/State Finished
       static void _set_Finished(GlobalNamespace::MultiplayerController::State value);
     }; // MultiplayerController/State
+    #pragma pack(pop)
     static check_size<sizeof(MultiplayerController::State), 0 + sizeof(int)> __GlobalNamespace_MultiplayerController_StateSizeCheck;
     static_assert(sizeof(MultiplayerController::State) == 0x4);
     // private UnityEngine.GameObject _loadingEnvironment
@@ -391,9 +392,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerController*, creationType>()));
     }
   }; // MultiplayerController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerController), 168 + sizeof(GlobalNamespace::LevelCompletionResults*)> __GlobalNamespace_MultiplayerControllerSizeCheck;
   static_assert(sizeof(MultiplayerController) == 0xB0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController*, "", "MultiplayerController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController::State, "", "MultiplayerController/State");

@@ -77,6 +77,7 @@ namespace System {
       // Set static field: static public System.UriParser/UriQuirksVersion V3
       static void _set_V3(System::UriParser::UriQuirksVersion value);
     }; // System.UriParser/UriQuirksVersion
+    #pragma pack(pop)
     static check_size<sizeof(UriParser::UriQuirksVersion), 0 + sizeof(int)> __System_UriParser_UriQuirksVersionSizeCheck;
     static_assert(sizeof(UriParser::UriQuirksVersion) == 0x4);
     // private System.UriSyntaxFlags m_Flags
@@ -271,9 +272,9 @@ namespace System {
     // Offset: 0x19D7ED0
     bool InternalIsWellFormedOriginalString(System::Uri* thisUri);
   }; // System.UriParser
+  #pragma pack(pop)
   static check_size<sizeof(UriParser), 32 + sizeof(::Il2CppString*)> __System_UriParserSizeCheck;
   static_assert(sizeof(UriParser) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::UriParser*, "System", "UriParser");
 DEFINE_IL2CPP_ARG_TYPE(System::UriParser::UriQuirksVersion, "System", "UriParser/UriQuirksVersion");

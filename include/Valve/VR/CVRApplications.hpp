@@ -152,8 +152,8 @@ namespace Valve::VR {
     // Offset: 0x1366D38
     uint GetCurrentSceneProcessId();
   }; // Valve.VR.CVRApplications
+  #pragma pack(pop)
   static check_size<sizeof(CVRApplications), 16 + sizeof(Valve::VR::IVRApplications)> __Valve_VR_CVRApplicationsSizeCheck;
   static_assert(sizeof(CVRApplications) == 0x108);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRApplications*, "Valve.VR", "CVRApplications");

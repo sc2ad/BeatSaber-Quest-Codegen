@@ -18,7 +18,7 @@ namespace System::Xml {
     // Creating value type constructor for type: XmlNode
     XmlNode() noexcept {}
   }; // System.Xml.XmlNode
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlNode*, "System.Xml", "XmlNode");

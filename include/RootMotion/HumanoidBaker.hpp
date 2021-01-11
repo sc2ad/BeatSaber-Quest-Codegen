@@ -190,8 +190,8 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<HumanoidBaker*, creationType>()));
     }
   }; // RootMotion.HumanoidBaker
+  #pragma pack(pop)
   static check_size<sizeof(HumanoidBaker), 264 + sizeof(UnityEngine::Quaternion)> __RootMotion_HumanoidBakerSizeCheck;
   static_assert(sizeof(HumanoidBaker) == 0x118);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::HumanoidBaker*, "RootMotion", "HumanoidBaker");

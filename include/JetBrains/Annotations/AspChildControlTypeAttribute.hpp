@@ -63,8 +63,8 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EDFF8
     void set_ControlType(System::Type* value);
   }; // JetBrains.Annotations.AspChildControlTypeAttribute
+  #pragma pack(pop)
   static check_size<sizeof(AspChildControlTypeAttribute), 24 + sizeof(System::Type*)> __JetBrains_Annotations_AspChildControlTypeAttributeSizeCheck;
   static_assert(sizeof(AspChildControlTypeAttribute) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspChildControlTypeAttribute*, "JetBrains.Annotations", "AspChildControlTypeAttribute");

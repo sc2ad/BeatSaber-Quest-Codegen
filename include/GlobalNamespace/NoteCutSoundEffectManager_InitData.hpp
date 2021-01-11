@@ -41,8 +41,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutSoundEffectManager::InitData*, creationType>(useTestAudioClips, ignoreBadCuts)));
     }
   }; // NoteCutSoundEffectManager/InitData
+  #pragma pack(pop)
   static check_size<sizeof(NoteCutSoundEffectManager::InitData), 17 + sizeof(bool)> __GlobalNamespace_NoteCutSoundEffectManager_InitDataSizeCheck;
   static_assert(sizeof(NoteCutSoundEffectManager::InitData) == 0x12);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutSoundEffectManager::InitData*, "", "NoteCutSoundEffectManager/InitData");

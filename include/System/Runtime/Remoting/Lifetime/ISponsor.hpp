@@ -31,7 +31,7 @@ namespace System::Runtime::Remoting::Lifetime {
     // Offset: 0xFFFFFFFF
     System::TimeSpan Renewal(System::Runtime::Remoting::Lifetime::ILease* lease);
   }; // System.Runtime.Remoting.Lifetime.ISponsor
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::ISponsor*, "System.Runtime.Remoting.Lifetime", "ISponsor");

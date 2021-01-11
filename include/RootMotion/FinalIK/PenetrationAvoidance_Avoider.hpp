@@ -128,8 +128,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<PenetrationAvoidance::Avoider*, creationType>()));
     }
   }; // RootMotion.FinalIK.PenetrationAvoidance/Avoider
+  #pragma pack(pop)
   static check_size<sizeof(PenetrationAvoidance::Avoider), 84 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_PenetrationAvoidance_AvoiderSizeCheck;
   static_assert(sizeof(PenetrationAvoidance::Avoider) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::PenetrationAvoidance::Avoider*, "RootMotion.FinalIK", "PenetrationAvoidance/Avoider");

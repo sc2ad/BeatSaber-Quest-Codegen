@@ -68,9 +68,9 @@ namespace GlobalNamespace {
     // Set static field: static public NodeStatePropertyType Orientation
     static void _set_Orientation(GlobalNamespace::NodeStatePropertyType value);
   }; // NodeStatePropertyType
+  #pragma pack(pop)
   static check_size<sizeof(NodeStatePropertyType), 0 + sizeof(int)> __GlobalNamespace_NodeStatePropertyTypeSizeCheck;
   static_assert(sizeof(NodeStatePropertyType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodeStatePropertyType, "", "NodeStatePropertyType");

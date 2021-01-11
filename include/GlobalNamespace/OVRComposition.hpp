@@ -100,8 +100,8 @@ namespace GlobalNamespace {
     // Offset: 0x106C0E4
     GlobalNamespace::OVRPose ComputeCameraTrackingSpacePose(GlobalNamespace::OVRPlugin::CameraExtrinsics extrinsics, GlobalNamespace::OVRPlugin::Posef calibrationRawPose);
   }; // OVRComposition
+  #pragma pack(pop)
   static check_size<sizeof(OVRComposition), 36 + sizeof(GlobalNamespace::OVRPose)> __GlobalNamespace_OVRCompositionSizeCheck;
   static_assert(sizeof(OVRComposition) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRComposition*, "", "OVRComposition");

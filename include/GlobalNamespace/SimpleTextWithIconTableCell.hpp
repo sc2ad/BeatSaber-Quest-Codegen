@@ -74,8 +74,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleTextWithIconTableCell*, creationType>()));
     }
   }; // SimpleTextWithIconTableCell
+  #pragma pack(pop)
   static check_size<sizeof(SimpleTextWithIconTableCell), 88 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_SimpleTextWithIconTableCellSizeCheck;
   static_assert(sizeof(SimpleTextWithIconTableCell) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextWithIconTableCell*, "", "SimpleTextWithIconTableCell");

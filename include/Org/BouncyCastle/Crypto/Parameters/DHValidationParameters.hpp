@@ -52,8 +52,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.Parameters.DHValidationParameters
+  #pragma pack(pop)
   static check_size<sizeof(DHValidationParameters), 24 + sizeof(int)> __Org_BouncyCastle_Crypto_Parameters_DHValidationParametersSizeCheck;
   static_assert(sizeof(DHValidationParameters) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHValidationParameters");

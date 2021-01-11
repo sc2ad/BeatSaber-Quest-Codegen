@@ -33,6 +33,6 @@ namespace System::Runtime::ExceptionServices {
       return THROW_UNLESS((::il2cpp_utils::New<HandleProcessCorruptedStateExceptionsAttribute*, creationType>()));
     }
   }; // System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute*, "System.Runtime.ExceptionServices", "HandleProcessCorruptedStateExceptionsAttribute");

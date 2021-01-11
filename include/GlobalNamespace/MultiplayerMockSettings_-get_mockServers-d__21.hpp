@@ -119,8 +119,8 @@ namespace GlobalNamespace {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // MultiplayerMockSettings/<get_mockServers>d__21
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerMockSettings::$get_mockServers$d__21), 40 + sizeof(GlobalNamespace::MultiplayerMockSettings*)> __GlobalNamespace_MultiplayerMockSettings_$get_mockServers$d__21SizeCheck;
   static_assert(sizeof(MultiplayerMockSettings::$get_mockServers$d__21) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerMockSettings::$get_mockServers$d__21*, "", "MultiplayerMockSettings/<get_mockServers>d__21");

@@ -62,9 +62,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EOverlayDirection Count
     static void _set_Count(Valve::VR::EOverlayDirection value);
   }; // Valve.VR.EOverlayDirection
+  #pragma pack(pop)
   static check_size<sizeof(EOverlayDirection), 0 + sizeof(int)> __Valve_VR_EOverlayDirectionSizeCheck;
   static_assert(sizeof(EOverlayDirection) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EOverlayDirection, "Valve.VR", "EOverlayDirection");

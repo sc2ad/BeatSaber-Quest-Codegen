@@ -77,8 +77,8 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Net.NetworkInformation.UnicastIPAddressInformationCollection IPInterfaceProperties::get_UnicastAddresses()
     System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();
   }; // System.Net.NetworkInformation.Win32IPInterfaceProperties2
+  #pragma pack(pop)
   static check_size<sizeof(Win32IPInterfaceProperties2), 392 + sizeof(System::Net::NetworkInformation::Win32_MIB_IFROW)> __System_Net_NetworkInformation_Win32IPInterfaceProperties2SizeCheck;
   static_assert(sizeof(Win32IPInterfaceProperties2) == 0x1F8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32IPInterfaceProperties2*, "System.Net.NetworkInformation", "Win32IPInterfaceProperties2");

@@ -91,8 +91,8 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<CspParameters*, creationType>()));
     }
   }; // System.Security.Cryptography.CspParameters
+  #pragma pack(pop)
   static check_size<sizeof(CspParameters), 44 + sizeof(int)> __System_Security_Cryptography_CspParametersSizeCheck;
   static_assert(sizeof(CspParameters) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CspParameters*, "System.Security.Cryptography", "CspParameters");

@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x19212C8
     Valve::VR::EVRRenderModelError EndInvoke(System::IntPtr& ppD3D11Texture2D, System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_LoadTextureD3D11_Async
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRRenderModels::_LoadTextureD3D11_Async*, "Valve.VR", "IVRRenderModels/_LoadTextureD3D11_Async");

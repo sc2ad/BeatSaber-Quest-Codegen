@@ -80,7 +80,7 @@ namespace ModestTree {
       Error(message, {args...});
     }
   }; // ModestTree.Log
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Log*, "ModestTree", "Log");

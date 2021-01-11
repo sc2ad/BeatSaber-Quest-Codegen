@@ -72,6 +72,6 @@ namespace System {
     // Offset: 0x171A774
     void FieldSetter(::Il2CppString* typeName, ::Il2CppString* fieldName, ::Il2CppObject* val);
   }; // System.Object
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Object*, "System", "Object");

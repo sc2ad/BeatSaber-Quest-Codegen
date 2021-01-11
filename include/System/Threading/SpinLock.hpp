@@ -88,8 +88,8 @@ namespace System::Threading {
     // Offset: 0x1D0D37C
     static void _cctor();
   }; // System.Threading.SpinLock
+  #pragma pack(pop)
   static check_size<sizeof(SpinLock), 0 + sizeof(int)> __System_Threading_SpinLockSizeCheck;
   static_assert(sizeof(SpinLock) == 0x4);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock, "System.Threading", "SpinLock");

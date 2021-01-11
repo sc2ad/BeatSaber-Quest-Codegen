@@ -160,8 +160,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EditColorController*, creationType>()));
     }
   }; // EditColorController
+  #pragma pack(pop)
   static check_size<sizeof(EditColorController), 184 + sizeof(bool)> __GlobalNamespace_EditColorControllerSizeCheck;
   static_assert(sizeof(EditColorController) == 0xB9);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditColorController*, "", "EditColorController");

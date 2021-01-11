@@ -45,8 +45,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<SdkAccount*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.SdkAccount
+  #pragma pack(pop)
   static check_size<sizeof(SdkAccount), 24 + sizeof(uint64_t)> __Oculus_Platform_Models_SdkAccountSizeCheck;
   static_assert(sizeof(SdkAccount) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::SdkAccount*, "Oculus.Platform.Models", "SdkAccount");

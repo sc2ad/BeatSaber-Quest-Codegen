@@ -213,8 +213,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelCollectionViewController*, creationType>()));
     }
   }; // LevelCollectionViewController
+  #pragma pack(pop)
   static check_size<sizeof(LevelCollectionViewController), 208 + sizeof(GlobalNamespace::IPreviewBeatmapLevel*)> __GlobalNamespace_LevelCollectionViewControllerSizeCheck;
   static_assert(sizeof(LevelCollectionViewController) == 0xD8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionViewController*, "", "LevelCollectionViewController");

@@ -67,8 +67,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TextMeshProButton*, creationType>()));
     }
   }; // TextMeshProButton
+  #pragma pack(pop)
   static check_size<sizeof(TextMeshProButton), 32 + sizeof(UnityEngine::UI::Button*)> __GlobalNamespace_TextMeshProButtonSizeCheck;
   static_assert(sizeof(TextMeshProButton) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextMeshProButton*, "", "TextMeshProButton");

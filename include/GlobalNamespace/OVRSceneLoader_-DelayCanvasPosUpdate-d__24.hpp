@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // OVRSceneLoader/<DelayCanvasPosUpdate>d__24
+  #pragma pack(pop)
   static check_size<sizeof(OVRSceneLoader::$DelayCanvasPosUpdate$d__24), 32 + sizeof(GlobalNamespace::OVRSceneLoader*)> __GlobalNamespace_OVRSceneLoader_$DelayCanvasPosUpdate$d__24SizeCheck;
   static_assert(sizeof(OVRSceneLoader::$DelayCanvasPosUpdate$d__24) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader::$DelayCanvasPosUpdate$d__24*, "", "OVRSceneLoader/<DelayCanvasPosUpdate>d__24");

@@ -57,8 +57,8 @@ namespace Valve::VR {
     // Offset: 0x1369B80
     void GetDXGIOutputInfo(int& pnAdapterIndex, int& pnAdapterOutputIndex);
   }; // Valve.VR.CVRExtendedDisplay
+  #pragma pack(pop)
   static check_size<sizeof(CVRExtendedDisplay), 16 + sizeof(Valve::VR::IVRExtendedDisplay)> __Valve_VR_CVRExtendedDisplaySizeCheck;
   static_assert(sizeof(CVRExtendedDisplay) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRExtendedDisplay*, "Valve.VR", "CVRExtendedDisplay");

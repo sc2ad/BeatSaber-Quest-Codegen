@@ -50,6 +50,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
       return THROW_UNLESS((::il2cpp_utils::New<KeyDerivationFunc*, creationType>(id, parameters)));
     }
   }; // Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*, "Org.BouncyCastle.Asn1.Pkcs", "KeyDerivationFunc");

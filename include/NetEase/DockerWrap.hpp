@@ -72,7 +72,7 @@ namespace NetEase {
     // Offset: 0xFD66CC
     static void UpdateLoop();
   }; // NetEase.DockerWrap
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::DockerWrap*, "NetEase", "DockerWrap");

@@ -56,6 +56,6 @@ namespace System::Threading::Tasks {
     // Offset: 0x1D199B0
     static void InvokeCallbackWhenTaskCompletes(System::Threading::Tasks::Task* antecedent, System::AsyncCallback* callback, System::IAsyncResult* asyncResult);
   }; // System.Threading.Tasks.TaskToApm
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskToApm*, "System.Threading.Tasks", "TaskToApm");

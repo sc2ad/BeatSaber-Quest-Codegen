@@ -50,8 +50,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DisableSpatializerOnOldWindows*, creationType>()));
     }
   }; // DisableSpatializerOnOldWindows
+  #pragma pack(pop)
   static check_size<sizeof(DisableSpatializerOnOldWindows), 24 + sizeof(UnityEngine::AudioSource*)> __GlobalNamespace_DisableSpatializerOnOldWindowsSizeCheck;
   static_assert(sizeof(DisableSpatializerOnOldWindows) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableSpatializerOnOldWindows*, "", "DisableSpatializerOnOldWindows");

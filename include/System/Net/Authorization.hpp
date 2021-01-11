@@ -60,8 +60,8 @@ namespace System::Net {
     // Offset: 0x130AC68
     bool get_Complete();
   }; // System.Net.Authorization
+  #pragma pack(pop)
   static check_size<sizeof(Authorization), 32 + sizeof(::Il2CppString*)> __System_Net_AuthorizationSizeCheck;
   static_assert(sizeof(Authorization) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Authorization*, "System.Net", "Authorization");

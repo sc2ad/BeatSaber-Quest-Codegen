@@ -215,9 +215,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRInput/RawButton Any
     static void _set_Any(GlobalNamespace::OVRInput::RawButton value);
   }; // OVRInput/RawButton
+  #pragma pack(pop)
   static check_size<sizeof(OVRInput::RawButton), 0 + sizeof(int)> __GlobalNamespace_OVRInput_RawButtonSizeCheck;
   static_assert(sizeof(OVRInput::RawButton) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::RawButton, "", "OVRInput/RawButton");

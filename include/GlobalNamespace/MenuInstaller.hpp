@@ -71,8 +71,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MenuInstaller*, creationType>()));
     }
   }; // MenuInstaller
+  #pragma pack(pop)
   static check_size<sizeof(MenuInstaller), 48 + sizeof(GlobalNamespace::MultiplayerLobbyAvatarPlace*)> __GlobalNamespace_MenuInstallerSizeCheck;
   static_assert(sizeof(MenuInstaller) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuInstaller*, "", "MenuInstaller");

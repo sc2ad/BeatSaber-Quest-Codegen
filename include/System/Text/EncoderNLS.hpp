@@ -152,8 +152,8 @@ namespace System::Text {
     // Base method: System.Void Encoder::Convert(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush, out System.Int32 charsUsed, out System.Int32 bytesUsed, out System.Boolean completed)
     void Convert(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount, bool flush, int& charsUsed, int& bytesUsed, bool& completed);
   }; // System.Text.EncoderNLS
+  #pragma pack(pop)
   static check_size<sizeof(EncoderNLS), 52 + sizeof(int)> __System_Text_EncoderNLSSizeCheck;
   static_assert(sizeof(EncoderNLS) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderNLS*, "System.Text", "EncoderNLS");

@@ -113,8 +113,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameScenesManager::$$c__DisplayClass32_0*, creationType>()));
     }
   }; // GameScenesManager/<>c__DisplayClass32_0
+  #pragma pack(pop)
   static check_size<sizeof(GameScenesManager::$$c__DisplayClass32_0), 72 + sizeof(System::Action_1<Zenject::DiContainer*>*)> __GlobalNamespace_GameScenesManager_$$c__DisplayClass32_0SizeCheck;
   static_assert(sizeof(GameScenesManager::$$c__DisplayClass32_0) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::$$c__DisplayClass32_0*, "", "GameScenesManager/<>c__DisplayClass32_0");

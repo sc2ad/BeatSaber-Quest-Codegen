@@ -64,9 +64,9 @@ namespace Microsoft::Win32 {
     // Set static field: static public Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_QUERY_INFO_CLASS MaxTraceSetInfoClass
     static void _set_MaxTraceSetInfoClass(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::TRACE_QUERY_INFO_CLASS value);
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_QUERY_INFO_CLASS
+  #pragma pack(pop)
   static check_size<sizeof(UnsafeNativeMethods::ManifestEtw::TRACE_QUERY_INFO_CLASS), 0 + sizeof(int)> __Microsoft_Win32_UnsafeNativeMethods_ManifestEtw_TRACE_QUERY_INFO_CLASSSizeCheck;
   static_assert(sizeof(UnsafeNativeMethods::ManifestEtw::TRACE_QUERY_INFO_CLASS) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::TRACE_QUERY_INFO_CLASS, "Microsoft.Win32", "UnsafeNativeMethods/ManifestEtw/TRACE_QUERY_INFO_CLASS");

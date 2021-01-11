@@ -69,8 +69,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelDetailViewController::$$c__DisplayClass14_0*, creationType>()));
     }
   }; // MissionLevelDetailViewController/<>c__DisplayClass14_0
+  #pragma pack(pop)
   static check_size<sizeof(MissionLevelDetailViewController::$$c__DisplayClass14_0), 24 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*)> __GlobalNamespace_MissionLevelDetailViewController_$$c__DisplayClass14_0SizeCheck;
   static_assert(sizeof(MissionLevelDetailViewController::$$c__DisplayClass14_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0*, "", "MissionLevelDetailViewController/<>c__DisplayClass14_0");

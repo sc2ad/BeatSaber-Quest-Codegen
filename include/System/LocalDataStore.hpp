@@ -65,8 +65,8 @@ namespace System {
     // Offset: 0x13B3FC8
     System::LocalDataStoreElement* PopulateElement(System::LocalDataStoreSlot* slot);
   }; // System.LocalDataStore
+  #pragma pack(pop)
   static check_size<sizeof(LocalDataStore), 24 + sizeof(System::LocalDataStoreMgr*)> __System_LocalDataStoreSizeCheck;
   static_assert(sizeof(LocalDataStore) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStore*, "System", "LocalDataStore");

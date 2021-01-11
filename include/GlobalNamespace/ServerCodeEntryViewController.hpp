@@ -125,8 +125,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ServerCodeEntryViewController*, creationType>()));
     }
   }; // ServerCodeEntryViewController
+  #pragma pack(pop)
   static check_size<sizeof(ServerCodeEntryViewController), 152 + sizeof(HMUI::InputFieldViewChangeBinder*)> __GlobalNamespace_ServerCodeEntryViewControllerSizeCheck;
   static_assert(sizeof(ServerCodeEntryViewController) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerCodeEntryViewController*, "", "ServerCodeEntryViewController");

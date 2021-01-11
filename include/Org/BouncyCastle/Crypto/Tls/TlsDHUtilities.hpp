@@ -110,7 +110,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Offset: 0x10568C8
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Tls.TlsDHUtilities
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsDHUtilities*, "Org.BouncyCastle.Crypto.Tls", "TlsDHUtilities");

@@ -209,8 +209,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PauseController*, creationType>()));
     }
   }; // PauseController
+  #pragma pack(pop)
   static check_size<sizeof(PauseController), 112 + sizeof(bool)> __GlobalNamespace_PauseControllerSizeCheck;
   static_assert(sizeof(PauseController) == 0x71);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseController*, "", "PauseController");

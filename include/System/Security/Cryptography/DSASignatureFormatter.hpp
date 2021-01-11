@@ -43,8 +43,8 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<DSASignatureFormatter*, creationType>()));
     }
   }; // System.Security.Cryptography.DSASignatureFormatter
+  #pragma pack(pop)
   static check_size<sizeof(DSASignatureFormatter), 16 + sizeof(::Il2CppString*)> __System_Security_Cryptography_DSASignatureFormatterSizeCheck;
   static_assert(sizeof(DSASignatureFormatter) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSASignatureFormatter*, "System.Security.Cryptography", "DSASignatureFormatter");

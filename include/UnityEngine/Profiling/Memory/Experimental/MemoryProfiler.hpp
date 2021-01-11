@@ -77,7 +77,7 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     // Offset: 0x1735FE0
     static void SaveScreenshotToDisk(::Il2CppString* path, bool result, System::IntPtr pixelsPtr, int pixelsCount, UnityEngine::TextureFormat format, int width, int height);
   }; // UnityEngine.Profiling.Memory.Experimental.MemoryProfiler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Memory::Experimental::MemoryProfiler*, "UnityEngine.Profiling.Memory.Experimental", "MemoryProfiler");

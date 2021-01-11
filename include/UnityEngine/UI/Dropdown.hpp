@@ -383,8 +383,8 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.UI.Dropdown
+  #pragma pack(pop)
   static check_size<sizeof(Dropdown), 344 + sizeof(bool)> __UnityEngine_UI_DropdownSizeCheck;
   static_assert(sizeof(Dropdown) == 0x159);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown*, "UnityEngine.UI", "Dropdown");

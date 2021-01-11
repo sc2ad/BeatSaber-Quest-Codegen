@@ -205,8 +205,8 @@ namespace NUnit::Framework::Internal {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // NUnit.Framework.Internal.TypeWrapper
+  #pragma pack(pop)
   static check_size<sizeof(TypeWrapper), 16 + sizeof(System::Type*)> __NUnit_Framework_Internal_TypeWrapperSizeCheck;
   static_assert(sizeof(TypeWrapper) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeWrapper*, "NUnit.Framework.Internal", "TypeWrapper");

@@ -132,8 +132,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TableViewWithDetailCell*, creationType>()));
     }
   }; // TableViewWithDetailCell
+  #pragma pack(pop)
   static check_size<sizeof(TableViewWithDetailCell), 256 + sizeof(int)> __GlobalNamespace_TableViewWithDetailCellSizeCheck;
   static_assert(sizeof(TableViewWithDetailCell) == 0x104);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableViewWithDetailCell*, "", "TableViewWithDetailCell");

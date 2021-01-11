@@ -106,8 +106,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // StandaloneMonobehavior/<RunAsyncCoroutine>d__19
+  #pragma pack(pop)
   static check_size<sizeof(StandaloneMonobehavior::$RunAsyncCoroutine$d__19), 48 + sizeof(System::Threading::Tasks::TaskCompletionSource_1<bool>*)> __GlobalNamespace_StandaloneMonobehavior_$RunAsyncCoroutine$d__19SizeCheck;
   static_assert(sizeof(StandaloneMonobehavior::$RunAsyncCoroutine$d__19) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandaloneMonobehavior::$RunAsyncCoroutine$d__19*, "", "StandaloneMonobehavior/<RunAsyncCoroutine>d__19");

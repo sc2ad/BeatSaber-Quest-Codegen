@@ -218,8 +218,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CampaignFlowCoordinator*, creationType>()));
     }
   }; // CampaignFlowCoordinator
+  #pragma pack(pop)
   static check_size<sizeof(CampaignFlowCoordinator), 272 + sizeof(bool)> __GlobalNamespace_CampaignFlowCoordinatorSizeCheck;
   static_assert(sizeof(CampaignFlowCoordinator) == 0x111);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignFlowCoordinator*, "", "CampaignFlowCoordinator");

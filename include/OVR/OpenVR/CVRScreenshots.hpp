@@ -78,8 +78,8 @@ namespace OVR::OpenVR {
     // Offset: 0x11F7730
     OVR::OpenVR::EVRScreenshotError SubmitScreenshot(uint screenshotHandle, OVR::OpenVR::EVRScreenshotType type, ::Il2CppString* pchSourcePreviewFilename, ::Il2CppString* pchSourceVRFilename);
   }; // OVR.OpenVR.CVRScreenshots
+  #pragma pack(pop)
   static check_size<sizeof(CVRScreenshots), 16 + sizeof(OVR::OpenVR::IVRScreenshots)> __OVR_OpenVR_CVRScreenshotsSizeCheck;
   static_assert(sizeof(CVRScreenshots) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRScreenshots*, "OVR.OpenVR", "CVRScreenshots");

@@ -69,8 +69,8 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x111F84C
     // ABORTED: conflicts with another method.  explicit operator uint();
   }; // System.Diagnostics.Tracing.SessionMask
+  #pragma pack(pop)
   static check_size<sizeof(SessionMask), 0 + sizeof(uint)> __System_Diagnostics_Tracing_SessionMaskSizeCheck;
   static_assert(sizeof(SessionMask) == 0x4);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::SessionMask, "System.Diagnostics.Tracing", "SessionMask");

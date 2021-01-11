@@ -88,8 +88,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlaylistSO*, creationType>()));
     }
   }; // PlaylistSO
+  #pragma pack(pop)
   static check_size<sizeof(PlaylistSO), 40 + sizeof(GlobalNamespace::BeatmapLevelCollectionSO*)> __GlobalNamespace_PlaylistSOSizeCheck;
   static_assert(sizeof(PlaylistSO) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlaylistSO*, "", "PlaylistSO");

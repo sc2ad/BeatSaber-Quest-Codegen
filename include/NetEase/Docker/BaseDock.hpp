@@ -137,8 +137,8 @@ namespace NetEase::Docker {
       return THROW_UNLESS((::il2cpp_utils::New<BaseDock*, creationType>()));
     }
   }; // NetEase.Docker.BaseDock
+  #pragma pack(pop)
   static check_size<sizeof(BaseDock), 40 + sizeof(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*)> __NetEase_Docker_BaseDockSizeCheck;
   static_assert(sizeof(BaseDock) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::BaseDock*, "NetEase.Docker", "BaseDock");

@@ -53,6 +53,6 @@ namespace UnityEngine::Bindings {
       return THROW_UNLESS((::il2cpp_utils::New<FreeFunctionAttribute*, creationType>(name, isThreadSafe)));
     }
   }; // UnityEngine.Bindings.FreeFunctionAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::FreeFunctionAttribute*, "UnityEngine.Bindings", "FreeFunctionAttribute");

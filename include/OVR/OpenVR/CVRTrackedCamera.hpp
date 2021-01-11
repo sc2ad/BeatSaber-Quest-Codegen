@@ -94,8 +94,8 @@ namespace OVR::OpenVR {
     // Offset: 0x11F9738
     OVR::OpenVR::EVRTrackedCameraError ReleaseVideoStreamTextureGL(uint64_t hTrackedCamera, uint glTextureId);
   }; // OVR.OpenVR.CVRTrackedCamera
+  #pragma pack(pop)
   static check_size<sizeof(CVRTrackedCamera), 16 + sizeof(OVR::OpenVR::IVRTrackedCamera)> __OVR_OpenVR_CVRTrackedCameraSizeCheck;
   static_assert(sizeof(CVRTrackedCamera) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRTrackedCamera*, "OVR.OpenVR", "CVRTrackedCamera");

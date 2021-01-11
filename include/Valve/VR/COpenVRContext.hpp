@@ -103,9 +103,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.COpenVRContext
+  #pragma pack(pop)
   static check_size<sizeof(COpenVRContext), 96 + sizeof(System::IntPtr)> __Valve_VR_COpenVRContextSizeCheck;
   static_assert(sizeof(COpenVRContext) == 0x68);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::COpenVRContext, "Valve.VR", "COpenVRContext");

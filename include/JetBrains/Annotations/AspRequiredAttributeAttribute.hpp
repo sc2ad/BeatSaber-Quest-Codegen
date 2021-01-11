@@ -47,8 +47,8 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE328
     void set_Attribute(::Il2CppString* value);
   }; // JetBrains.Annotations.AspRequiredAttributeAttribute
+  #pragma pack(pop)
   static check_size<sizeof(AspRequiredAttributeAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_AspRequiredAttributeAttributeSizeCheck;
   static_assert(sizeof(AspRequiredAttributeAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspRequiredAttributeAttribute*, "JetBrains.Annotations", "AspRequiredAttributeAttribute");

@@ -106,8 +106,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12F7838
     void Fixup(System::Runtime::Serialization::Formatters::Binary::ParseRecord* record, System::Runtime::Serialization::Formatters::Binary::ParseRecord* parent);
   }; // System.Runtime.Serialization.Formatters.Binary.ValueFixup
+  #pragma pack(pop)
   static check_size<sizeof(ValueFixup), 64 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_Formatters_Binary_ValueFixupSizeCheck;
   static_assert(sizeof(ValueFixup) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ValueFixup*, "System.Runtime.Serialization.Formatters.Binary", "ValueFixup");

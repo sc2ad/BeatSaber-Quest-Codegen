@@ -74,9 +74,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.RoomJoinPolicy Unknown
     static void _set_Unknown(Oculus::Platform::RoomJoinPolicy value);
   }; // Oculus.Platform.RoomJoinPolicy
+  #pragma pack(pop)
   static check_size<sizeof(RoomJoinPolicy), 0 + sizeof(int)> __Oculus_Platform_RoomJoinPolicySizeCheck;
   static_assert(sizeof(RoomJoinPolicy) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomJoinPolicy, "Oculus.Platform", "RoomJoinPolicy");

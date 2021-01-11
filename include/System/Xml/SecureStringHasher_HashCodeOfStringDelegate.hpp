@@ -49,6 +49,6 @@ namespace System::Xml {
     // Offset: 0x14E75AC
     int EndInvoke(System::IAsyncResult* result);
   }; // System.Xml.SecureStringHasher/HashCodeOfStringDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::SecureStringHasher::HashCodeOfStringDelegate*, "System.Xml", "SecureStringHasher/HashCodeOfStringDelegate");

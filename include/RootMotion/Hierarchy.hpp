@@ -68,6 +68,6 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<Hierarchy*, creationType>()));
     }
   }; // RootMotion.Hierarchy
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Hierarchy*, "RootMotion", "Hierarchy");

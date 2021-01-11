@@ -128,8 +128,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicSO*, creationType>()));
     }
   }; // BeatmapCharacteristicSO
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapCharacteristicSO), 72 + sizeof(int)> __GlobalNamespace_BeatmapCharacteristicSOSizeCheck;
   static_assert(sizeof(BeatmapCharacteristicSO) == 0x4C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicSO*, "", "BeatmapCharacteristicSO");

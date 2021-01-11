@@ -59,8 +59,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<Deeplink*, creationType>()));
     }
   }; // Deeplink
+  #pragma pack(pop)
   static check_size<sizeof(Deeplink), 48 + sizeof(::Il2CppString*)> __GlobalNamespace_DeeplinkSizeCheck;
   static_assert(sizeof(Deeplink) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Deeplink*, "", "Deeplink");

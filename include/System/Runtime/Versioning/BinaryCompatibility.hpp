@@ -27,7 +27,7 @@ namespace System::Runtime::Versioning {
     // Offset: 0x14467F4
     static void _cctor();
   }; // System.Runtime.Versioning.BinaryCompatibility
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Versioning::BinaryCompatibility*, "System.Runtime.Versioning", "BinaryCompatibility");

@@ -236,8 +236,8 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Math.EC.LongArray
+  #pragma pack(pop)
   static check_size<sizeof(LongArray), 16 + sizeof(::Array<int64_t>*)> __Org_BouncyCastle_Math_EC_LongArraySizeCheck;
   static_assert(sizeof(LongArray) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::LongArray*, "Org.BouncyCastle.Math.EC", "LongArray");

@@ -95,8 +95,8 @@ namespace Mono::Net {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Mono.Net.CFObject
+  #pragma pack(pop)
   static check_size<sizeof(CFObject), 16 + sizeof(System::IntPtr)> __Mono_Net_CFObjectSizeCheck;
   static_assert(sizeof(CFObject) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFObject*, "Mono.Net", "CFObject");

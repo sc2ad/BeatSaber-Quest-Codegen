@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x192F8B4
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_IsInputAvailable
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_IsInputAvailable*, "Valve.VR", "IVRSystem/_IsInputAvailable");

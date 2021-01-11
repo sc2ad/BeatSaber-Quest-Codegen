@@ -40,6 +40,6 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<Comparer*, creationType>()));
     }
   }; // System.Net.Comparer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Comparer*, "System.Net", "Comparer");

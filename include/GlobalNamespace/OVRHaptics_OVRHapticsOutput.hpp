@@ -131,8 +131,8 @@ namespace GlobalNamespace {
     // Offset: 0x11B9DA4
     void Clear();
   }; // OVRHaptics/OVRHapticsOutput
+  #pragma pack(pop)
   static check_size<sizeof(OVRHaptics::OVRHapticsOutput), 64 + sizeof(GlobalNamespace::OVRHapticsClip*)> __GlobalNamespace_OVRHaptics_OVRHapticsOutputSizeCheck;
   static_assert(sizeof(OVRHaptics::OVRHapticsOutput) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics::OVRHapticsOutput*, "", "OVRHaptics/OVRHapticsOutput");

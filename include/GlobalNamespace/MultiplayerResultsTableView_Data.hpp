@@ -64,8 +64,8 @@ namespace GlobalNamespace {
     // Maps to method: CompareTo
     int System_IComparable_CompareTo(::Il2CppObject* obj);
   }; // MultiplayerResultsTableView/Data
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsTableView::Data), 24 + sizeof(GlobalNamespace::LevelCompletionResults*)> __GlobalNamespace_MultiplayerResultsTableView_DataSizeCheck;
   static_assert(sizeof(MultiplayerResultsTableView::Data) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableView::Data*, "", "MultiplayerResultsTableView/Data");

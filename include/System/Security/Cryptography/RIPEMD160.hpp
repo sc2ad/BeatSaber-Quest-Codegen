@@ -36,6 +36,6 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<RIPEMD160*, creationType>()));
     }
   }; // System.Security.Cryptography.RIPEMD160
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RIPEMD160*, "System.Security.Cryptography", "RIPEMD160");

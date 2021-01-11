@@ -108,8 +108,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlexyFollow*, creationType>()));
     }
   }; // FlexyFollow
+  #pragma pack(pop)
   static check_size<sizeof(FlexyFollow), 64 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_FlexyFollowSizeCheck;
   static_assert(sizeof(FlexyFollow) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlexyFollow*, "", "FlexyFollow");

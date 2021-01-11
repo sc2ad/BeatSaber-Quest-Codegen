@@ -324,8 +324,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return THROW_UNLESS((::il2cpp_utils::New<ParseRecord*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.ParseRecord
+  #pragma pack(pop)
   static check_size<sizeof(ParseRecord), 280 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_ParseRecordSizeCheck;
   static_assert(sizeof(ParseRecord) == 0x11C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ParseRecord*, "System.Runtime.Serialization.Formatters.Binary", "ParseRecord");

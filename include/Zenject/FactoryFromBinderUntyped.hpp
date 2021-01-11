@@ -48,6 +48,6 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<FactoryFromBinderUntyped*, creationType>(bindContainer, contractType, bindInfo, factoryBindInfo)));
     }
   }; // Zenject.FactoryFromBinderUntyped
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinderUntyped*, "Zenject", "FactoryFromBinderUntyped");

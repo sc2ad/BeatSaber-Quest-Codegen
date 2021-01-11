@@ -227,8 +227,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ClientLobbySetupViewController*, creationType>()));
     }
   }; // ClientLobbySetupViewController
+  #pragma pack(pop)
   static check_size<sizeof(ClientLobbySetupViewController), 208 + sizeof(HMUI::ToggleBinder*)> __GlobalNamespace_ClientLobbySetupViewControllerSizeCheck;
   static_assert(sizeof(ClientLobbySetupViewController) == 0xD8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClientLobbySetupViewController*, "", "ClientLobbySetupViewController");

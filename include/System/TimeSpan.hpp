@@ -223,6 +223,7 @@ namespace System {
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider formatProvider)
     ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* formatProvider);
   }; // System.TimeSpan
+  #pragma pack(pop)
   static check_size<sizeof(TimeSpan), 0 + sizeof(int64_t)> __System_TimeSpanSizeCheck;
   static_assert(sizeof(TimeSpan) == 0x8);
   // static public System.TimeSpan op_Subtraction(System.TimeSpan t1, System.TimeSpan t2)
@@ -250,5 +251,4 @@ namespace System {
   // Offset: 0x164B810
   bool operator >=(const System::TimeSpan& t1, const System::TimeSpan& t2);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::TimeSpan, "System", "TimeSpan");

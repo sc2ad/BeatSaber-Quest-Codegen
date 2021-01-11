@@ -163,8 +163,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EditColorSchemeController*, creationType>()));
     }
   }; // EditColorSchemeController
+  #pragma pack(pop)
   static check_size<sizeof(EditColorSchemeController), 80 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_EditColorSchemeControllerSizeCheck;
   static_assert(sizeof(EditColorSchemeController) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditColorSchemeController*, "", "EditColorSchemeController");

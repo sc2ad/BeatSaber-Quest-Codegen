@@ -341,8 +341,8 @@ namespace Valve::VR {
     // Offset: 0x136AC04
     void CloseMessageOverlay();
   }; // Valve.VR.CVROverlay
+  #pragma pack(pop)
   static check_size<sizeof(CVROverlay), 16 + sizeof(Valve::VR::IVROverlay)> __Valve_VR_CVROverlaySizeCheck;
   static_assert(sizeof(CVROverlay) == 0x2A0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVROverlay*, "Valve.VR", "CVROverlay");

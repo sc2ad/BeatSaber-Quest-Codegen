@@ -135,8 +135,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // EnvironmentSpawnRotation
+  #pragma pack(pop)
   static check_size<sizeof(EnvironmentSpawnRotation), 64 + sizeof(float)> __GlobalNamespace_EnvironmentSpawnRotationSizeCheck;
   static_assert(sizeof(EnvironmentSpawnRotation) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSpawnRotation*, "", "EnvironmentSpawnRotation");

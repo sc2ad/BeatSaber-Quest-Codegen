@@ -117,8 +117,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelScenesTransitionSetupDataSO*, creationType>()));
     }
   }; // MissionLevelScenesTransitionSetupDataSO
+  #pragma pack(pop)
   static check_size<sizeof(MissionLevelScenesTransitionSetupDataSO), 72 + sizeof(GlobalNamespace::IDifficultyBeatmap*)> __GlobalNamespace_MissionLevelScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(MissionLevelScenesTransitionSetupDataSO) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, "", "MissionLevelScenesTransitionSetupDataSO");

@@ -117,8 +117,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<HoverHintController*, creationType>()));
     }
   }; // HMUI.HoverHintController
+  #pragma pack(pop)
   static check_size<sizeof(HoverHintController), 40 + sizeof(bool)> __HMUI_HoverHintControllerSizeCheck;
   static_assert(sizeof(HoverHintController) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintController*, "HMUI", "HoverHintController");

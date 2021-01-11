@@ -45,8 +45,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<RotationLimitPolygonal::LimitPoint*, creationType>()));
     }
   }; // RootMotion.FinalIK.RotationLimitPolygonal/LimitPoint
+  #pragma pack(pop)
   static check_size<sizeof(RotationLimitPolygonal::LimitPoint), 28 + sizeof(float)> __RootMotion_FinalIK_RotationLimitPolygonal_LimitPointSizeCheck;
   static_assert(sizeof(RotationLimitPolygonal::LimitPoint) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*, "RootMotion.FinalIK", "RotationLimitPolygonal/LimitPoint");

@@ -57,8 +57,8 @@ namespace JetBrains::Annotations {
       return THROW_UNLESS((::il2cpp_utils::New<LocalizationRequiredAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.LocalizationRequiredAttribute
+  #pragma pack(pop)
   static check_size<sizeof(LocalizationRequiredAttribute), 16 + sizeof(bool)> __JetBrains_Annotations_LocalizationRequiredAttributeSizeCheck;
   static_assert(sizeof(LocalizationRequiredAttribute) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::LocalizationRequiredAttribute*, "JetBrains.Annotations", "LocalizationRequiredAttribute");

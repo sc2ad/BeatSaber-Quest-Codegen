@@ -83,9 +83,9 @@ namespace TMPro {
     // Offset: 0xC92DE0
     ::Il2CppString* GetLinkID();
   }; // TMPro.TMP_LinkInfo
+  #pragma pack(pop)
   static check_size<sizeof(TMP_LinkInfo), 32 + sizeof(::Array<::Il2CppChar>*)> __TMPro_TMP_LinkInfoSizeCheck;
   static_assert(sizeof(TMP_LinkInfo) == 0x28);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_LinkInfo, "TMPro", "TMP_LinkInfo");

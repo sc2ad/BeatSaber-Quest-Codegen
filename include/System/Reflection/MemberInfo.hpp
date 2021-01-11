@@ -110,6 +110,7 @@ namespace System::Reflection {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.MemberInfo
+  #pragma pack(pop)
   // static public System.Boolean op_Equality(System.Reflection.MemberInfo left, System.Reflection.MemberInfo right)
   // Offset: 0x15C7F8C
   bool operator ==(System::Reflection::MemberInfo* left, System::Reflection::MemberInfo& right);
@@ -117,5 +118,4 @@ namespace System::Reflection {
   // Offset: 0x15C8688
   bool operator !=(System::Reflection::MemberInfo* left, System::Reflection::MemberInfo& right);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MemberInfo*, "System.Reflection", "MemberInfo");

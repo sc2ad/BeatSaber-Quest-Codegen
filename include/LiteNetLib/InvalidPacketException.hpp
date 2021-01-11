@@ -62,6 +62,6 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidPacketException*, creationType>(message, innerException)));
     }
   }; // LiteNetLib.InvalidPacketException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::InvalidPacketException*, "LiteNetLib", "InvalidPacketException");

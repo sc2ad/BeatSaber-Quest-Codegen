@@ -118,6 +118,7 @@ namespace System::Diagnostics {
       // Set static field: static public System.Diagnostics.Process/StreamReadMode asyncMode
       static void _set_asyncMode(System::Diagnostics::Process::StreamReadMode value);
     }; // System.Diagnostics.Process/StreamReadMode
+    #pragma pack(pop)
     static check_size<sizeof(Process::StreamReadMode), 0 + sizeof(int)> __System_Diagnostics_Process_StreamReadModeSizeCheck;
     static_assert(sizeof(Process::StreamReadMode) == 0x4);
     // private System.Boolean haveProcessId
@@ -408,9 +409,9 @@ namespace System::Diagnostics {
     // Base method: System.String Component::ToString()
     ::Il2CppString* ToString();
   }; // System.Diagnostics.Process
+  #pragma pack(pop)
   static check_size<sizeof(Process), 216 + sizeof(::Il2CppString*)> __System_Diagnostics_ProcessSizeCheck;
   static_assert(sizeof(Process) == 0xE0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process*, "System.Diagnostics", "Process");
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::StreamReadMode, "System.Diagnostics", "Process/StreamReadMode");

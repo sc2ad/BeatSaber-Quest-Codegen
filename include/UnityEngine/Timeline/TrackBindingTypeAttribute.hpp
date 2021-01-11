@@ -58,8 +58,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<TrackBindingTypeAttribute*, creationType>(type, flags)));
     }
   }; // UnityEngine.Timeline.TrackBindingTypeAttribute
+  #pragma pack(pop)
   static check_size<sizeof(TrackBindingTypeAttribute), 24 + sizeof(UnityEngine::Timeline::TrackBindingFlags)> __UnityEngine_Timeline_TrackBindingTypeAttributeSizeCheck;
   static_assert(sizeof(TrackBindingTypeAttribute) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackBindingTypeAttribute*, "UnityEngine.Timeline", "TrackBindingTypeAttribute");

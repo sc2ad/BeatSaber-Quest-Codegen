@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Offset: 0x1B515E8
     LiteNetLib::NetPeer* Accept();
   }; // LiteNetLibConnectionManager/NetPeerConnectionRequest
+  #pragma pack(pop)
   static check_size<sizeof(LiteNetLibConnectionManager::NetPeerConnectionRequest), 40 + sizeof(LiteNetLib::ConnectionRequest*)> __GlobalNamespace_LiteNetLibConnectionManager_NetPeerConnectionRequestSizeCheck;
   static_assert(sizeof(LiteNetLibConnectionManager::NetPeerConnectionRequest) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*, "", "LiteNetLibConnectionManager/NetPeerConnectionRequest");

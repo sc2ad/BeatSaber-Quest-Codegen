@@ -63,9 +63,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.CameraVideoStreamFrameHeader_t
+  #pragma pack(pop)
   static check_size<sizeof(CameraVideoStreamFrameHeader_t), 20 + sizeof(OVR::OpenVR::TrackedDevicePose_t)> __OVR_OpenVR_CameraVideoStreamFrameHeader_tSizeCheck;
   static_assert(sizeof(CameraVideoStreamFrameHeader_t) == 0x62);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CameraVideoStreamFrameHeader_t, "OVR.OpenVR", "CameraVideoStreamFrameHeader_t");

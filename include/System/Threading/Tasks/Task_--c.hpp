@@ -75,6 +75,6 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<Task::$$c*, creationType>()));
     }
   }; // System.Threading.Tasks.Task/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::$$c*, "System.Threading.Tasks", "Task/<>c");

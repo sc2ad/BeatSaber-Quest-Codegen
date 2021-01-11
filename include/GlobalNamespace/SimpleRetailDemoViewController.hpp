@@ -85,6 +85,7 @@ namespace GlobalNamespace {
       // Set static field: static public SimpleRetailDemoViewController/MenuButton Exit
       static void _set_Exit(GlobalNamespace::SimpleRetailDemoViewController::MenuButton value);
     }; // SimpleRetailDemoViewController/MenuButton
+    #pragma pack(pop)
     static check_size<sizeof(SimpleRetailDemoViewController::MenuButton), 0 + sizeof(int)> __GlobalNamespace_SimpleRetailDemoViewController_MenuButtonSizeCheck;
     static_assert(sizeof(SimpleRetailDemoViewController::MenuButton) == 0x4);
     // private UnityEngine.UI.Button _tutorialButton
@@ -161,9 +162,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleRetailDemoViewController*, creationType>()));
     }
   }; // SimpleRetailDemoViewController
+  #pragma pack(pop)
   static check_size<sizeof(SimpleRetailDemoViewController), 144 + sizeof(System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>*)> __GlobalNamespace_SimpleRetailDemoViewControllerSizeCheck;
   static_assert(sizeof(SimpleRetailDemoViewController) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoViewController*, "", "SimpleRetailDemoViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoViewController::MenuButton, "", "SimpleRetailDemoViewController/MenuButton");

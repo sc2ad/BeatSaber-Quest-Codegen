@@ -62,8 +62,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorIkHandlerManager*, creationType>()));
     }
   }; // Zenject.AnimatorIkHandlerManager
+  #pragma pack(pop)
   static check_size<sizeof(AnimatorIkHandlerManager), 24 + sizeof(System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler*>*)> __Zenject_AnimatorIkHandlerManagerSizeCheck;
   static_assert(sizeof(AnimatorIkHandlerManager) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AnimatorIkHandlerManager*, "Zenject", "AnimatorIkHandlerManager");

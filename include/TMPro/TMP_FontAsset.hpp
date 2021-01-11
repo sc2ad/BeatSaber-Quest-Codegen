@@ -557,8 +557,8 @@ namespace TMPro {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // TMPro.TMP_FontAsset
+  #pragma pack(pop)
   static check_size<sizeof(TMP_FontAsset), 472 + sizeof(System::Collections::Generic::List_1<TMPro::TMP_Character*>*)> __TMPro_TMP_FontAssetSizeCheck;
   static_assert(sizeof(TMP_FontAsset) == 0x1E0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAsset*, "TMPro", "TMP_FontAsset");

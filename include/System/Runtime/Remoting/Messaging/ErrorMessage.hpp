@@ -112,8 +112,8 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Runtime.Remoting.Messaging.LogicalCallContext IMethodMessage::get_LogicalCallContext()
     System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
   }; // System.Runtime.Remoting.Messaging.ErrorMessage
+  #pragma pack(pop)
   static check_size<sizeof(ErrorMessage), 16 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_Messaging_ErrorMessageSizeCheck;
   static_assert(sizeof(ErrorMessage) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ErrorMessage*, "System.Runtime.Remoting.Messaging", "ErrorMessage");

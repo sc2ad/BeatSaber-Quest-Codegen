@@ -237,8 +237,8 @@ namespace UnityEngine {
     // Base method: System.String GUILayoutEntry::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.GUILayoutGroup
+  #pragma pack(pop)
   static check_size<sizeof(GUILayoutGroup), 140 + sizeof(int)> __UnityEngine_GUILayoutGroupSizeCheck;
   static_assert(sizeof(GUILayoutGroup) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutGroup*, "UnityEngine", "GUILayoutGroup");

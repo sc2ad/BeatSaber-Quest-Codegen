@@ -18,7 +18,7 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: TimelineAssetUpgrade
     TimelineAssetUpgrade() noexcept {}
   }; // UnityEngine.Timeline.TimelineAsset/TimelineAssetUpgrade
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::TimelineAssetUpgrade*, "UnityEngine.Timeline", "TimelineAsset/TimelineAssetUpgrade");

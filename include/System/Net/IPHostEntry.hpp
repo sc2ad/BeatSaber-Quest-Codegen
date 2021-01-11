@@ -75,8 +75,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<IPHostEntry*, creationType>()));
     }
   }; // System.Net.IPHostEntry
+  #pragma pack(pop)
   static check_size<sizeof(IPHostEntry), 40 + sizeof(bool)> __System_Net_IPHostEntrySizeCheck;
   static_assert(sizeof(IPHostEntry) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPHostEntry*, "System.Net", "IPHostEntry");

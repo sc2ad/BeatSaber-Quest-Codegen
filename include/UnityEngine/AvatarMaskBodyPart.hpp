@@ -117,9 +117,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.AvatarMaskBodyPart LastBodyPart
     static void _set_LastBodyPart(UnityEngine::AvatarMaskBodyPart value);
   }; // UnityEngine.AvatarMaskBodyPart
+  #pragma pack(pop)
   static check_size<sizeof(AvatarMaskBodyPart), 0 + sizeof(int)> __UnityEngine_AvatarMaskBodyPartSizeCheck;
   static_assert(sizeof(AvatarMaskBodyPart) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AvatarMaskBodyPart, "UnityEngine", "AvatarMaskBodyPart");

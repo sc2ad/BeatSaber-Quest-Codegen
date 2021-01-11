@@ -52,6 +52,6 @@ namespace System::Xml {
     // Offset: 0x14E6094
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Xml.OnRemoveWriter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::OnRemoveWriter*, "System.Xml", "OnRemoveWriter");

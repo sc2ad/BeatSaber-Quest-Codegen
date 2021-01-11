@@ -83,9 +83,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // CreateServerFormData
+  #pragma pack(pop)
   static check_size<sizeof(CreateServerFormData), 32 + sizeof(GlobalNamespace::SongPackMask)> __GlobalNamespace_CreateServerFormDataSizeCheck;
   static_assert(sizeof(CreateServerFormData) == 0x30);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerFormData, "", "CreateServerFormData");

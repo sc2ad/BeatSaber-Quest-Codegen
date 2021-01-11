@@ -199,8 +199,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLevelScenesTransitionSetupDataSO*, creationType>()));
     }
   }; // MultiplayerLevelScenesTransitionSetupDataSO
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLevelScenesTransitionSetupDataSO), 112 + sizeof(GlobalNamespace::BeatmapCharacteristicSO*)> __GlobalNamespace_MultiplayerLevelScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(MultiplayerLevelScenesTransitionSetupDataSO) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, "", "MultiplayerLevelScenesTransitionSetupDataSO");

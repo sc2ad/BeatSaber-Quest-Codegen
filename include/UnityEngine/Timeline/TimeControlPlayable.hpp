@@ -84,8 +84,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<TimeControlPlayable*, creationType>()));
     }
   }; // UnityEngine.Timeline.TimeControlPlayable
+  #pragma pack(pop)
   static check_size<sizeof(TimeControlPlayable), 24 + sizeof(bool)> __UnityEngine_Timeline_TimeControlPlayableSizeCheck;
   static_assert(sizeof(TimeControlPlayable) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeControlPlayable*, "UnityEngine.Timeline", "TimeControlPlayable");

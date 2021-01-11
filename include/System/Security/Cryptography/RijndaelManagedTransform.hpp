@@ -248,8 +248,8 @@ namespace System::Security::Cryptography {
     // Base method: System.Byte[] ICryptoTransform::TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
     ::Array<uint8_t>* TransformFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
   }; // System.Security.Cryptography.RijndaelManagedTransform
+  #pragma pack(pop)
   static check_size<sizeof(RijndaelManagedTransform), 120 + sizeof(::Array<uint8_t>*)> __System_Security_Cryptography_RijndaelManagedTransformSizeCheck;
   static_assert(sizeof(RijndaelManagedTransform) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RijndaelManagedTransform*, "System.Security.Cryptography", "RijndaelManagedTransform");

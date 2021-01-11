@@ -22,7 +22,7 @@ namespace System::Runtime::Remoting::Activation {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(this);
     }
   }; // System.Runtime.Remoting.Activation.IConstructionReturnMessage
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::IConstructionReturnMessage*, "System.Runtime.Remoting.Activation", "IConstructionReturnMessage");

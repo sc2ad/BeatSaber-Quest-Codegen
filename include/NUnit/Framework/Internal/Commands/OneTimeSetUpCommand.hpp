@@ -95,8 +95,8 @@ namespace NUnit::Framework::Internal::Commands {
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Internal.Commands.OneTimeSetUpCommand
+  #pragma pack(pop)
   static check_size<sizeof(OneTimeSetUpCommand), 56 + sizeof(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*)> __NUnit_Framework_Internal_Commands_OneTimeSetUpCommandSizeCheck;
   static_assert(sizeof(OneTimeSetUpCommand) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::OneTimeSetUpCommand*, "NUnit.Framework.Internal.Commands", "OneTimeSetUpCommand");

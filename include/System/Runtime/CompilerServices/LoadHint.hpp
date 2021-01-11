@@ -50,9 +50,9 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static public System.Runtime.CompilerServices.LoadHint Sometimes
     static void _set_Sometimes(System::Runtime::CompilerServices::LoadHint value);
   }; // System.Runtime.CompilerServices.LoadHint
+  #pragma pack(pop)
   static check_size<sizeof(LoadHint), 0 + sizeof(int)> __System_Runtime_CompilerServices_LoadHintSizeCheck;
   static_assert(sizeof(LoadHint) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::LoadHint, "System.Runtime.CompilerServices", "LoadHint");

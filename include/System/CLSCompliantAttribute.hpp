@@ -41,8 +41,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<CLSCompliantAttribute*, creationType>(isCompliant)));
     }
   }; // System.CLSCompliantAttribute
+  #pragma pack(pop)
   static check_size<sizeof(CLSCompliantAttribute), 16 + sizeof(bool)> __System_CLSCompliantAttributeSizeCheck;
   static_assert(sizeof(CLSCompliantAttribute) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::CLSCompliantAttribute*, "System", "CLSCompliantAttribute");

@@ -101,8 +101,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CommandBufferGOCore*, creationType>()));
     }
   }; // CommandBufferGOCore
+  #pragma pack(pop)
   static check_size<sizeof(CommandBufferGOCore), 32 + sizeof(UnityEngine::Mesh*)> __GlobalNamespace_CommandBufferGOCoreSizeCheck;
   static_assert(sizeof(CommandBufferGOCore) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferGOCore*, "", "CommandBufferGOCore");

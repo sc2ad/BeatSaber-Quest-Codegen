@@ -334,6 +334,7 @@ namespace OVRSimpleJSON {
       return THROW_UNLESS((::il2cpp_utils::New<JSONNode*, creationType>()));
     }
   }; // OVRSimpleJSON.JSONNode
+  #pragma pack(pop)
   // static public System.Boolean op_Equality(OVRSimpleJSON.JSONNode a, System.Object b)
   // Offset: 0x12E6F90
   bool operator ==(OVRSimpleJSON::JSONNode* a, ::Il2CppObject& b);
@@ -341,5 +342,4 @@ namespace OVRSimpleJSON {
   // Offset: 0x12E9B9C
   bool operator !=(OVRSimpleJSON::JSONNode* a, ::Il2CppObject& b);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode*, "OVRSimpleJSON", "JSONNode");

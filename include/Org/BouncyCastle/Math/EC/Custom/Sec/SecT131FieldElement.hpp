@@ -180,8 +180,8 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Base method: System.Int32 ECFieldElement::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.EC.Custom.Sec.SecT131FieldElement
+  #pragma pack(pop)
   static check_size<sizeof(SecT131FieldElement), 16 + sizeof(::Array<uint64_t>*)> __Org_BouncyCastle_Math_EC_Custom_Sec_SecT131FieldElementSizeCheck;
   static_assert(sizeof(SecT131FieldElement) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecT131FieldElement*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecT131FieldElement");

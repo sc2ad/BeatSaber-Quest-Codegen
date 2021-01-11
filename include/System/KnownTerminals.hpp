@@ -25,7 +25,7 @@ namespace System {
     // Offset: 0x13B3A98
     static ::Array<uint8_t>* get_ansi();
   }; // System.KnownTerminals
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::KnownTerminals*, "System", "KnownTerminals");

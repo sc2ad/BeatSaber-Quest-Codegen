@@ -97,8 +97,8 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.ObjectDisposedException
+  #pragma pack(pop)
   static check_size<sizeof(ObjectDisposedException), 136 + sizeof(::Il2CppString*)> __System_ObjectDisposedExceptionSizeCheck;
   static_assert(sizeof(ObjectDisposedException) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ObjectDisposedException*, "System", "ObjectDisposedException");

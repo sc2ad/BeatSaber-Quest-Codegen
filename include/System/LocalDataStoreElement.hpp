@@ -48,8 +48,8 @@ namespace System {
     // Offset: 0x13B4340
     int64_t get_Cookie();
   }; // System.LocalDataStoreElement
+  #pragma pack(pop)
   static check_size<sizeof(LocalDataStoreElement), 24 + sizeof(int64_t)> __System_LocalDataStoreElementSizeCheck;
   static_assert(sizeof(LocalDataStoreElement) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreElement*, "System", "LocalDataStoreElement");

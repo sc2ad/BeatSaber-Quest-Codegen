@@ -79,8 +79,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CPUMonitor*, creationType>()));
     }
   }; // CPUMonitor
+  #pragma pack(pop)
   static check_size<sizeof(CPUMonitor), 48 + sizeof(int64_t)> __GlobalNamespace_CPUMonitorSizeCheck;
   static_assert(sizeof(CPUMonitor) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CPUMonitor*, "", "CPUMonitor");

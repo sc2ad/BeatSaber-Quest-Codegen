@@ -61,8 +61,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return THROW_UNLESS((::il2cpp_utils::New<SerObjectInfoInit*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit
+  #pragma pack(pop)
   static check_size<sizeof(SerObjectInfoInit), 32 + sizeof(System::Runtime::Serialization::Formatters::Binary::SerStack*)> __System_Runtime_Serialization_Formatters_Binary_SerObjectInfoInitSizeCheck;
   static_assert(sizeof(SerObjectInfoInit) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*, "System.Runtime.Serialization.Formatters.Binary", "SerObjectInfoInit");

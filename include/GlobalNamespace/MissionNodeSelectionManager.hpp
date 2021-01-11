@@ -100,8 +100,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionNodeSelectionManager*, creationType>()));
     }
   }; // MissionNodeSelectionManager
+  #pragma pack(pop)
   static check_size<sizeof(MissionNodeSelectionManager), 48 + sizeof(GlobalNamespace::MissionNodeVisualController*)> __GlobalNamespace_MissionNodeSelectionManagerSizeCheck;
   static_assert(sizeof(MissionNodeSelectionManager) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeSelectionManager*, "", "MissionNodeSelectionManager");

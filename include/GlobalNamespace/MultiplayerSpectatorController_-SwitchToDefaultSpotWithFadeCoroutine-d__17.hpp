@@ -97,8 +97,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MultiplayerSpectatorController/<SwitchToDefaultSpotWithFadeCoroutine>d__17
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerSpectatorController::$SwitchToDefaultSpotWithFadeCoroutine$d__17), 40 + sizeof(GlobalNamespace::IMultiplayerSpectatingSpot*)> __GlobalNamespace_MultiplayerSpectatorController_$SwitchToDefaultSpotWithFadeCoroutine$d__17SizeCheck;
   static_assert(sizeof(MultiplayerSpectatorController::$SwitchToDefaultSpotWithFadeCoroutine$d__17) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatorController::$SwitchToDefaultSpotWithFadeCoroutine$d__17*, "", "MultiplayerSpectatorController/<SwitchToDefaultSpotWithFadeCoroutine>d__17");

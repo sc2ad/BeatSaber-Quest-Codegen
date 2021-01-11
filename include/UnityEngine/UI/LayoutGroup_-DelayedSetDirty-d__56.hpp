@@ -91,8 +91,8 @@ namespace UnityEngine::UI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.UI.LayoutGroup/<DelayedSetDirty>d__56
+  #pragma pack(pop)
   static check_size<sizeof(LayoutGroup::$DelayedSetDirty$d__56), 32 + sizeof(UnityEngine::RectTransform*)> __UnityEngine_UI_LayoutGroup_$DelayedSetDirty$d__56SizeCheck;
   static_assert(sizeof(LayoutGroup::$DelayedSetDirty$d__56) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56*, "UnityEngine.UI", "LayoutGroup/<DelayedSetDirty>d__56");

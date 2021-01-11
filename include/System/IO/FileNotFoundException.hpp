@@ -109,8 +109,8 @@ namespace System::IO {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.IO.FileNotFoundException
+  #pragma pack(pop)
   static check_size<sizeof(FileNotFoundException), 152 + sizeof(::Il2CppString*)> __System_IO_FileNotFoundExceptionSizeCheck;
   static_assert(sizeof(FileNotFoundException) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileNotFoundException*, "System.IO", "FileNotFoundException");

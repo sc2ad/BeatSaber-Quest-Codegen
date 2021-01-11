@@ -49,6 +49,6 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<StackedController::$$c*, creationType>()));
     }
   }; // HMUI.StackedController/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController::$$c*, "HMUI", "StackedController/<>c");

@@ -51,8 +51,8 @@ namespace Mono::Globalization::Unicode {
       return THROW_UNLESS((::il2cpp_utils::New<TailoringInfo*, creationType>(lcid, tailoringIndex, tailoringCount, frenchSort)));
     }
   }; // Mono.Globalization.Unicode.TailoringInfo
+  #pragma pack(pop)
   static check_size<sizeof(TailoringInfo), 28 + sizeof(bool)> __Mono_Globalization_Unicode_TailoringInfoSizeCheck;
   static_assert(sizeof(TailoringInfo) == 0x1D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::TailoringInfo*, "Mono.Globalization.Unicode", "TailoringInfo");

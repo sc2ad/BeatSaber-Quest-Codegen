@@ -75,8 +75,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void Stream::.cctor()
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.DefiniteLengthInputStream
+  #pragma pack(pop)
   static check_size<sizeof(DefiniteLengthInputStream), 64 + sizeof(int)> __Org_BouncyCastle_Asn1_DefiniteLengthInputStreamSizeCheck;
   static_assert(sizeof(DefiniteLengthInputStream) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*, "Org.BouncyCastle.Asn1", "DefiniteLengthInputStream");

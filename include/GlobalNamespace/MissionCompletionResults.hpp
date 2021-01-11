@@ -51,8 +51,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionCompletionResults*, creationType>(levelCompletionResults, missionObjectiveResults)));
     }
   }; // MissionCompletionResults
+  #pragma pack(pop)
   static check_size<sizeof(MissionCompletionResults), 24 + sizeof(::Array<GlobalNamespace::MissionObjectiveResult*>*)> __GlobalNamespace_MissionCompletionResultsSizeCheck;
   static_assert(sizeof(MissionCompletionResults) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionCompletionResults*, "", "MissionCompletionResults");

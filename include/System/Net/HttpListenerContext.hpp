@@ -121,8 +121,8 @@ namespace System::Net {
     // Offset: 0x12B0250
     System::Security::Principal::IPrincipal* ParseBasicAuthentication(::Il2CppString* authData);
   }; // System.Net.HttpListenerContext
+  #pragma pack(pop)
   static check_size<sizeof(HttpListenerContext), 64 + sizeof(System::Net::HttpListener*)> __System_Net_HttpListenerContextSizeCheck;
   static_assert(sizeof(HttpListenerContext) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerContext*, "System.Net", "HttpListenerContext");

@@ -94,7 +94,7 @@ namespace System::Xml {
     // Offset: 0x14EAD4C
     static void _cctor();
   }; // System.Xml.XmlConvert
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlConvert*, "System.Xml", "XmlConvert");

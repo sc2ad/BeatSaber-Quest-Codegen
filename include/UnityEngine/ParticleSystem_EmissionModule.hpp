@@ -53,8 +53,8 @@ namespace UnityEngine {
     // Offset: 0x19FFAB4
     static void set_enabled_Injected(UnityEngine::ParticleSystem::EmissionModule& _unity_self, bool value);
   }; // UnityEngine.ParticleSystem/EmissionModule
+  #pragma pack(pop)
   static check_size<sizeof(ParticleSystem::EmissionModule), 0 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_ParticleSystem_EmissionModuleSizeCheck;
   static_assert(sizeof(ParticleSystem::EmissionModule) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::EmissionModule, "UnityEngine", "ParticleSystem/EmissionModule");

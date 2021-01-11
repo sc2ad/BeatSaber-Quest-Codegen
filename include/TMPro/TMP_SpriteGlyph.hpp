@@ -65,8 +65,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteGlyph*, creationType>(index, metrics, glyphRect, scale, atlasIndex)));
     }
   }; // TMPro.TMP_SpriteGlyph
+  #pragma pack(pop)
   static check_size<sizeof(TMP_SpriteGlyph), 64 + sizeof(UnityEngine::Sprite*)> __TMPro_TMP_SpriteGlyphSizeCheck;
   static_assert(sizeof(TMP_SpriteGlyph) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteGlyph*, "TMPro", "TMP_SpriteGlyph");

@@ -106,8 +106,8 @@ namespace OnlineServices {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // OnlineServices.LevelScoreResultsData
+  #pragma pack(pop)
   static check_size<sizeof(LevelScoreResultsData), 40 + sizeof(GlobalNamespace::GameplayModifiers*)> __OnlineServices_LevelScoreResultsDataSizeCheck;
   static_assert(sizeof(LevelScoreResultsData) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreResultsData, "OnlineServices", "LevelScoreResultsData");

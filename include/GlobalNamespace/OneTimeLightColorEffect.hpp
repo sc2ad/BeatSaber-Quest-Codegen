@@ -74,8 +74,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OneTimeLightColorEffect*, creationType>()));
     }
   }; // OneTimeLightColorEffect
+  #pragma pack(pop)
   static check_size<sizeof(OneTimeLightColorEffect), 40 + sizeof(GlobalNamespace::LightWithIdManager*)> __GlobalNamespace_OneTimeLightColorEffectSizeCheck;
   static_assert(sizeof(OneTimeLightColorEffect) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OneTimeLightColorEffect*, "", "OneTimeLightColorEffect");

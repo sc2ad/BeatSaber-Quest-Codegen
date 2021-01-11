@@ -19,7 +19,7 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: EventIgnoreAttribute
     EventIgnoreAttribute() noexcept {}
   }; // System.Diagnostics.Tracing.EventIgnoreAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventIgnoreAttribute*, "System.Diagnostics.Tracing", "EventIgnoreAttribute");

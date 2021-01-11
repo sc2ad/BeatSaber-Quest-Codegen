@@ -49,8 +49,8 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE3A8
     void set_ConditionType(JetBrains::Annotations::AssertionConditionType value);
   }; // JetBrains.Annotations.AssertionConditionAttribute
+  #pragma pack(pop)
   static check_size<sizeof(AssertionConditionAttribute), 16 + sizeof(JetBrains::Annotations::AssertionConditionType)> __JetBrains_Annotations_AssertionConditionAttributeSizeCheck;
   static_assert(sizeof(AssertionConditionAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AssertionConditionAttribute*, "JetBrains.Annotations", "AssertionConditionAttribute");

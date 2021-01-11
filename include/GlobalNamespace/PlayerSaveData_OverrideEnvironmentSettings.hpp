@@ -51,8 +51,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::OverrideEnvironmentSettings*, creationType>()));
     }
   }; // PlayerSaveData/OverrideEnvironmentSettings
+  #pragma pack(pop)
   static check_size<sizeof(PlayerSaveData::OverrideEnvironmentSettings), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_PlayerSaveData_OverrideEnvironmentSettingsSizeCheck;
   static_assert(sizeof(PlayerSaveData::OverrideEnvironmentSettings) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings*, "", "PlayerSaveData/OverrideEnvironmentSettings");

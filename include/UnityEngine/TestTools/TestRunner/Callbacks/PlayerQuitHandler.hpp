@@ -67,6 +67,6 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerQuitHandler*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.Callbacks.PlayerQuitHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::PlayerQuitHandler*, "UnityEngine.TestTools.TestRunner.Callbacks", "PlayerQuitHandler");

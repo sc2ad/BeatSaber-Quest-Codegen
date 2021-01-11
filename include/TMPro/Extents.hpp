@@ -50,8 +50,8 @@ namespace TMPro {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // TMPro.Extents
+  #pragma pack(pop)
   static check_size<sizeof(Extents), 8 + sizeof(UnityEngine::Vector2)> __TMPro_ExtentsSizeCheck;
   static_assert(sizeof(Extents) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::Extents, "TMPro", "Extents");

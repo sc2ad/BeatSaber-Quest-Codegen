@@ -53,8 +53,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SetActiveRT*, creationType>()));
     }
   }; // SetActiveRT
+  #pragma pack(pop)
   static check_size<sizeof(SetActiveRT), 24 + sizeof(GlobalNamespace::GetActiveRT*)> __GlobalNamespace_SetActiveRTSizeCheck;
   static_assert(sizeof(SetActiveRT) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetActiveRT*, "", "SetActiveRT");

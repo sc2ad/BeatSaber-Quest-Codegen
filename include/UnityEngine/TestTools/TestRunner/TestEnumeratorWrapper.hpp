@@ -57,8 +57,8 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0x1197B04
     System::Collections::IEnumerator* HandleEnumerableTest(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestTools.TestRunner.TestEnumeratorWrapper
+  #pragma pack(pop)
   static check_size<sizeof(TestEnumeratorWrapper), 16 + sizeof(NUnit::Framework::Internal::TestMethod*)> __UnityEngine_TestTools_TestRunner_TestEnumeratorWrapperSizeCheck;
   static_assert(sizeof(TestEnumeratorWrapper) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*, "UnityEngine.TestTools.TestRunner", "TestEnumeratorWrapper");

@@ -41,8 +41,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<PlatformInitialize*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.PlatformInitialize
+  #pragma pack(pop)
   static check_size<sizeof(PlatformInitialize), 16 + sizeof(Oculus::Platform::PlatformInitializeResult)> __Oculus_Platform_Models_PlatformInitializeSizeCheck;
   static_assert(sizeof(PlatformInitialize) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PlatformInitialize*, "Oculus.Platform.Models", "PlatformInitialize");

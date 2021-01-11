@@ -40,8 +40,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<MinAttribute*, creationType>(min)));
     }
   }; // UnityEngine.MinAttribute
+  #pragma pack(pop)
   static check_size<sizeof(MinAttribute), 16 + sizeof(float)> __UnityEngine_MinAttributeSizeCheck;
   static_assert(sizeof(MinAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MinAttribute*, "UnityEngine", "MinAttribute");

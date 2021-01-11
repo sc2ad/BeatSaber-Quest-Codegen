@@ -129,9 +129,9 @@ namespace UnityEngine {
     // Offset: 0xCB8D50
     void set_startColor(UnityEngine::Color32 value);
   }; // UnityEngine.ParticleSystem/EmitParams
+  #pragma pack(pop)
   static check_size<sizeof(ParticleSystem::EmitParams), 142 + sizeof(bool)> __UnityEngine_ParticleSystem_EmitParamsSizeCheck;
   static_assert(sizeof(ParticleSystem::EmitParams) == 0x8F);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::EmitParams, "UnityEngine", "ParticleSystem/EmitParams");

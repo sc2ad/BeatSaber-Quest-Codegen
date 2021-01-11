@@ -76,9 +76,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.HmdMatrix33_t
+  #pragma pack(pop)
   static check_size<sizeof(HmdMatrix33_t), 32 + sizeof(float)> __OVR_OpenVR_HmdMatrix33_tSizeCheck;
   static_assert(sizeof(HmdMatrix33_t) == 0x24);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdMatrix33_t, "OVR.OpenVR", "HmdMatrix33_t");

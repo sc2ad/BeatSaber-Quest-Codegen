@@ -197,8 +197,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Menu*, creationType>()));
     }
   }; // SteamVR_Menu
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_Menu), 140 + sizeof(bool)> __GlobalNamespace_SteamVR_MenuSizeCheck;
   static_assert(sizeof(SteamVR_Menu) == 0x8D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Menu*, "", "SteamVR_Menu");

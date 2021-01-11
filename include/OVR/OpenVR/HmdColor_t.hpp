@@ -46,9 +46,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.HmdColor_t
+  #pragma pack(pop)
   static check_size<sizeof(HmdColor_t), 12 + sizeof(float)> __OVR_OpenVR_HmdColor_tSizeCheck;
   static_assert(sizeof(HmdColor_t) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdColor_t, "OVR.OpenVR", "HmdColor_t");

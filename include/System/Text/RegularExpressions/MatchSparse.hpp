@@ -60,8 +60,8 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Text.RegularExpressions.GroupCollection Match::get_Groups()
     System::Text::RegularExpressions::GroupCollection* get_Groups();
   }; // System.Text.RegularExpressions.MatchSparse
+  #pragma pack(pop)
   static check_size<sizeof(MatchSparse), 112 + sizeof(System::Collections::Hashtable*)> __System_Text_RegularExpressions_MatchSparseSizeCheck;
   static_assert(sizeof(MatchSparse) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::MatchSparse*, "System.Text.RegularExpressions", "MatchSparse");

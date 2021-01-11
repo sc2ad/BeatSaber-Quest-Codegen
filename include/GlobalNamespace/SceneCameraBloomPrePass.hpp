@@ -89,8 +89,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SceneCameraBloomPrePass*, creationType>()));
     }
   }; // SceneCameraBloomPrePass
+  #pragma pack(pop)
   static check_size<sizeof(SceneCameraBloomPrePass), 40 + sizeof(UnityEngine::RenderTexture*)> __GlobalNamespace_SceneCameraBloomPrePassSizeCheck;
   static_assert(sizeof(SceneCameraBloomPrePass) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneCameraBloomPrePass*, "", "SceneCameraBloomPrePass");

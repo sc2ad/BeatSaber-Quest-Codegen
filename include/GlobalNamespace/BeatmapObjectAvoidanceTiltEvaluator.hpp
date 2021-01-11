@@ -80,8 +80,8 @@ namespace GlobalNamespace {
     // Offset: 0x1A246A0
     float GetTiltAngle();
   }; // BeatmapObjectAvoidanceTiltEvaluator
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectAvoidanceTiltEvaluator), 48 + sizeof(float)> __GlobalNamespace_BeatmapObjectAvoidanceTiltEvaluatorSizeCheck;
   static_assert(sizeof(BeatmapObjectAvoidanceTiltEvaluator) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*, "", "BeatmapObjectAvoidanceTiltEvaluator");

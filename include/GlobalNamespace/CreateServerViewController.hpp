@@ -123,8 +123,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CreateServerViewController*, creationType>()));
     }
   }; // CreateServerViewController
+  #pragma pack(pop)
   static check_size<sizeof(CreateServerViewController), 152 + sizeof(GlobalNamespace::MultiplayerModeSettings*)> __GlobalNamespace_CreateServerViewControllerSizeCheck;
   static_assert(sizeof(CreateServerViewController) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerViewController*, "", "CreateServerViewController");

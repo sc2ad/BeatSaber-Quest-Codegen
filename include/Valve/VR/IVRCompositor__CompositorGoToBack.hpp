@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x18E4E9C
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_CompositorGoToBack
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_CompositorGoToBack*, "Valve.VR", "IVRCompositor/_CompositorGoToBack");

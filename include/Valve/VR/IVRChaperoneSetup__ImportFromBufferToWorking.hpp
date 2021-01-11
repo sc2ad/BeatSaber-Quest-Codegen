@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x18E27A8
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_ImportFromBufferToWorking
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperoneSetup::_ImportFromBufferToWorking*, "Valve.VR", "IVRChaperoneSetup/_ImportFromBufferToWorking");

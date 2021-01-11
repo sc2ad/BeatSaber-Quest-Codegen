@@ -77,8 +77,8 @@ namespace VRUIControls {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // VRUIControls.VRLaserPointer
+  #pragma pack(pop)
   static check_size<sizeof(VRLaserPointer), 24 + sizeof(UnityEngine::MeshRenderer*)> __VRUIControls_VRLaserPointerSizeCheck;
   static_assert(sizeof(VRLaserPointer) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRLaserPointer*, "VRUIControls", "VRLaserPointer");

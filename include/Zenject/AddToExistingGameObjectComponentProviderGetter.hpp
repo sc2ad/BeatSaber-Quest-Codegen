@@ -81,8 +81,8 @@ namespace Zenject {
     // Base method: UnityEngine.GameObject AddToGameObjectComponentProviderBase::GetGameObject(Zenject.InjectContext context)
     UnityEngine::GameObject* GetGameObject(Zenject::InjectContext* context);
   }; // Zenject.AddToExistingGameObjectComponentProviderGetter
+  #pragma pack(pop)
   static check_size<sizeof(AddToExistingGameObjectComponentProviderGetter), 56 + sizeof(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*)> __Zenject_AddToExistingGameObjectComponentProviderGetterSizeCheck;
   static_assert(sizeof(AddToExistingGameObjectComponentProviderGetter) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToExistingGameObjectComponentProviderGetter*, "Zenject", "AddToExistingGameObjectComponentProviderGetter");

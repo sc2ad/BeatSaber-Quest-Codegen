@@ -43,7 +43,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* get_ReturnValue();
   }; // System.Runtime.Remoting.Messaging.IMethodReturnMessage
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IMethodReturnMessage*, "System.Runtime.Remoting.Messaging", "IMethodReturnMessage");

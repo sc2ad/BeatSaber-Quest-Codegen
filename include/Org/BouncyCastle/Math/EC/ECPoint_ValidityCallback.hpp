@@ -65,8 +65,8 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo IPreCompCallback::Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
   }; // Org.BouncyCastle.Math.EC.ECPoint/ValidityCallback
+  #pragma pack(pop)
   static check_size<sizeof(ECPoint::ValidityCallback), 25 + sizeof(bool)> __Org_BouncyCastle_Math_EC_ECPoint_ValidityCallbackSizeCheck;
   static_assert(sizeof(ECPoint::ValidityCallback) == 0x1A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback*, "Org.BouncyCastle.Math.EC", "ECPoint/ValidityCallback");

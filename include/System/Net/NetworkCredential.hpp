@@ -102,8 +102,8 @@ namespace System::Net {
     // Base method: System.Net.NetworkCredential ICredentials::GetCredential(System.Uri uri, System.String authType)
     System::Net::NetworkCredential* GetCredential(System::Uri* uri, ::Il2CppString* authType);
   }; // System.Net.NetworkCredential
+  #pragma pack(pop)
   static check_size<sizeof(NetworkCredential), 32 + sizeof(System::Security::SecureString*)> __System_Net_NetworkCredentialSizeCheck;
   static_assert(sizeof(NetworkCredential) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkCredential*, "System.Net", "NetworkCredential");

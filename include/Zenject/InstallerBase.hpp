@@ -69,8 +69,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<InstallerBase*, creationType>()));
     }
   }; // Zenject.InstallerBase
+  #pragma pack(pop)
   static check_size<sizeof(InstallerBase), 16 + sizeof(Zenject::DiContainer*)> __Zenject_InstallerBaseSizeCheck;
   static_assert(sizeof(InstallerBase) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InstallerBase*, "Zenject", "InstallerBase");

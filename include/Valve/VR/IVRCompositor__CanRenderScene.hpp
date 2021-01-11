@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x18E42C4
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_CanRenderScene
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_CanRenderScene*, "Valve.VR", "IVRCompositor/_CanRenderScene");

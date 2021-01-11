@@ -156,8 +156,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DifficultyTableView*, creationType>()));
     }
   }; // DifficultyTableView
+  #pragma pack(pop)
   static check_size<sizeof(DifficultyTableView), 64 + sizeof(::Array<GlobalNamespace::IDifficultyBeatmap*>*)> __GlobalNamespace_DifficultyTableViewSizeCheck;
   static_assert(sizeof(DifficultyTableView) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyTableView*, "", "DifficultyTableView");

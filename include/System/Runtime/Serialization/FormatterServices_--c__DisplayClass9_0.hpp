@@ -62,8 +62,8 @@ namespace System::Runtime::Serialization {
       return THROW_UNLESS((::il2cpp_utils::New<FormatterServices::$$c__DisplayClass9_0*, creationType>()));
     }
   }; // System.Runtime.Serialization.FormatterServices/<>c__DisplayClass9_0
+  #pragma pack(pop)
   static check_size<sizeof(FormatterServices::$$c__DisplayClass9_0), 16 + sizeof(System::Type*)> __System_Runtime_Serialization_FormatterServices_$$c__DisplayClass9_0SizeCheck;
   static_assert(sizeof(FormatterServices::$$c__DisplayClass9_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0*, "System.Runtime.Serialization", "FormatterServices/<>c__DisplayClass9_0");

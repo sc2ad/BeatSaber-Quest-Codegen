@@ -33,6 +33,6 @@ namespace JetBrains::Annotations {
       return THROW_UNLESS((::il2cpp_utils::New<AspMvcMasterAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.AspMvcMasterAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcMasterAttribute*, "JetBrains.Annotations", "AspMvcMasterAttribute");

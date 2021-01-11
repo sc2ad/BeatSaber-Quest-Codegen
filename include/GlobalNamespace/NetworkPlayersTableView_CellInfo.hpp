@@ -71,6 +71,7 @@ namespace GlobalNamespace {
       // Set static field: static public NetworkPlayersTableView/CellInfo/CellType Options
       static void _set_Options(GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType value);
     }; // NetworkPlayersTableView/CellInfo/CellType
+    #pragma pack(pop)
     static check_size<sizeof(NetworkPlayersTableView::CellInfo::CellType), 0 + sizeof(int)> __GlobalNamespace_NetworkPlayersTableView_CellInfo_CellTypeSizeCheck;
     static_assert(sizeof(NetworkPlayersTableView::CellInfo::CellType) == 0x4);
     // public NetworkPlayersTableView/CellInfo/CellType type
@@ -111,9 +112,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayersTableView::CellInfo*, creationType>()));
     }
   }; // NetworkPlayersTableView/CellInfo
+  #pragma pack(pop)
   static check_size<sizeof(NetworkPlayersTableView::CellInfo), 40 + sizeof(bool)> __GlobalNamespace_NetworkPlayersTableView_CellInfoSizeCheck;
   static_assert(sizeof(NetworkPlayersTableView::CellInfo) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersTableView::CellInfo*, "", "NetworkPlayersTableView/CellInfo");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType, "", "NetworkPlayersTableView/CellInfo/CellType");

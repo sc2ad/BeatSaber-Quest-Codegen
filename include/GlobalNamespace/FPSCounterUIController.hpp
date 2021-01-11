@@ -113,8 +113,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FPSCounterUIController*, creationType>()));
     }
   }; // FPSCounterUIController
+  #pragma pack(pop)
   static check_size<sizeof(FPSCounterUIController), 72 + sizeof(float)> __GlobalNamespace_FPSCounterUIControllerSizeCheck;
   static_assert(sizeof(FPSCounterUIController) == 0x4C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounterUIController*, "", "FPSCounterUIController");

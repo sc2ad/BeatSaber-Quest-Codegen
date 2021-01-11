@@ -99,8 +99,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BaseMasterServerResponse*, creationType>()));
     }
   }; // BaseMasterServerResponse
+  #pragma pack(pop)
   static check_size<sizeof(BaseMasterServerResponse), 16 + sizeof(uint)> __GlobalNamespace_BaseMasterServerResponseSizeCheck;
   static_assert(sizeof(BaseMasterServerResponse) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMasterServerResponse*, "", "BaseMasterServerResponse");

@@ -146,8 +146,8 @@ namespace System::Security::Cryptography {
     // Base method: System.Void SymmetricAlgorithm::GenerateKey()
     void GenerateKey();
   }; // System.Security.Cryptography.AesManaged
+  #pragma pack(pop)
   static check_size<sizeof(AesManaged), 72 + sizeof(System::Security::Cryptography::RijndaelManaged*)> __System_Security_Cryptography_AesManagedSizeCheck;
   static_assert(sizeof(AesManaged) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AesManaged*, "System.Security.Cryptography", "AesManaged");

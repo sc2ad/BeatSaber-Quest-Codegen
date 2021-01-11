@@ -58,8 +58,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ConventionFilterTypesBinder::$$c__DisplayClass13_0*, creationType>()));
     }
   }; // Zenject.ConventionFilterTypesBinder/<>c__DisplayClass13_0
+  #pragma pack(pop)
   static check_size<sizeof(ConventionFilterTypesBinder::$$c__DisplayClass13_0), 16 + sizeof(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)> __Zenject_ConventionFilterTypesBinder_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(ConventionFilterTypesBinder::$$c__DisplayClass13_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0*, "Zenject", "ConventionFilterTypesBinder/<>c__DisplayClass13_0");

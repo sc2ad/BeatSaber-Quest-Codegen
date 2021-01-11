@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x136ED70
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperone/_AreBoundsVisible
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone::_AreBoundsVisible*, "Valve.VR", "IVRChaperone/_AreBoundsVisible");

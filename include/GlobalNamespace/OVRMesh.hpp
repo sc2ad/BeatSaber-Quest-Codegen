@@ -76,6 +76,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRMesh/MeshType HandRight
       static void _set_HandRight(GlobalNamespace::OVRMesh::MeshType value);
     }; // OVRMesh/MeshType
+    #pragma pack(pop)
     static check_size<sizeof(OVRMesh::MeshType), 0 + sizeof(int)> __GlobalNamespace_OVRMesh_MeshTypeSizeCheck;
     static_assert(sizeof(OVRMesh::MeshType) == 0x4);
     // private OVRMesh/IOVRMeshDataProvider _dataProvider
@@ -138,9 +139,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRMesh*, creationType>()));
     }
   }; // OVRMesh
+  #pragma pack(pop)
   static check_size<sizeof(OVRMesh), 48 + sizeof(bool)> __GlobalNamespace_OVRMeshSizeCheck;
   static_assert(sizeof(OVRMesh) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh*, "", "OVRMesh");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh::MeshType, "", "OVRMesh/MeshType");

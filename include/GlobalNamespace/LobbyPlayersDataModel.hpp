@@ -342,8 +342,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LobbyPlayersDataModel*, creationType>()));
     }
   }; // LobbyPlayersDataModel
+  #pragma pack(pop)
   static check_size<sizeof(LobbyPlayersDataModel), 72 + sizeof(System::Action_1<::Il2CppString*>*)> __GlobalNamespace_LobbyPlayersDataModelSizeCheck;
   static_assert(sizeof(LobbyPlayersDataModel) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayersDataModel*, "", "LobbyPlayersDataModel");

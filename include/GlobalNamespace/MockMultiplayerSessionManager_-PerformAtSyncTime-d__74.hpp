@@ -92,9 +92,9 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MockMultiplayerSessionManager/<PerformAtSyncTime>d__74
+  #pragma pack(pop)
   static check_size<sizeof(MockMultiplayerSessionManager::$PerformAtSyncTime$d__74), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)> __GlobalNamespace_MockMultiplayerSessionManager_$PerformAtSyncTime$d__74SizeCheck;
   static_assert(sizeof(MockMultiplayerSessionManager::$PerformAtSyncTime$d__74) == 0x48);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMultiplayerSessionManager::$PerformAtSyncTime$d__74, "", "MockMultiplayerSessionManager/<PerformAtSyncTime>d__74");

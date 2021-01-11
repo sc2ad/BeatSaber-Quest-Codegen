@@ -54,8 +54,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<SharedStatics*, creationType>()));
     }
   }; // System.SharedStatics
+  #pragma pack(pop)
   static check_size<sizeof(SharedStatics), 16 + sizeof(System::Security::Util::Tokenizer::StringMaker*)> __System_SharedStaticsSizeCheck;
   static_assert(sizeof(SharedStatics) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::SharedStatics*, "System", "SharedStatics");

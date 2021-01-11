@@ -87,8 +87,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReactionVRIK::RotationOffset*, creationType>()));
     }
   }; // RootMotion.FinalIK.HitReactionVRIK/RotationOffset
+  #pragma pack(pop)
   static check_size<sizeof(HitReactionVRIK::RotationOffset), 96 + sizeof(UnityEngine::Rigidbody*)> __RootMotion_FinalIK_HitReactionVRIK_RotationOffsetSizeCheck;
   static_assert(sizeof(HitReactionVRIK::RotationOffset) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::RotationOffset*, "RootMotion.FinalIK", "HitReactionVRIK/RotationOffset");

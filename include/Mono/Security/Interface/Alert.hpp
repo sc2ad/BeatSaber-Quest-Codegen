@@ -57,8 +57,8 @@ namespace Mono::Security::Interface {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Mono.Security.Interface.Alert
+  #pragma pack(pop)
   static check_size<sizeof(Alert), 17 + sizeof(Mono::Security::Interface::AlertDescription)> __Mono_Security_Interface_AlertSizeCheck;
   static_assert(sizeof(Alert) == 0x12);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::Alert*, "Mono.Security.Interface", "Alert");

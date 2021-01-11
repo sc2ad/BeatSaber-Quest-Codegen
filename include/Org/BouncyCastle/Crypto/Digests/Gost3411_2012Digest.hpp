@@ -174,8 +174,8 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Void IDigest::BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int len);
   }; // Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
+  #pragma pack(pop)
   static check_size<sizeof(Gost3411_2012Digest), 80 + sizeof(int)> __Org_BouncyCastle_Crypto_Digests_Gost3411_2012DigestSizeCheck;
   static_assert(sizeof(Gost3411_2012Digest) == 0x54);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest*, "Org.BouncyCastle.Crypto.Digests", "Gost3411_2012Digest");

@@ -88,8 +88,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<InteractionTrigger::CameraPosition*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionTrigger/CameraPosition
+  #pragma pack(pop)
   static check_size<sizeof(InteractionTrigger::CameraPosition), 44 + sizeof(bool)> __RootMotion_FinalIK_InteractionTrigger_CameraPositionSizeCheck;
   static_assert(sizeof(InteractionTrigger::CameraPosition) == 0x2D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::CameraPosition*, "RootMotion.FinalIK", "InteractionTrigger/CameraPosition");

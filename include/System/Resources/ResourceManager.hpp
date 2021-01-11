@@ -295,8 +295,8 @@ namespace System::Resources {
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManager*, creationType>()));
     }
   }; // System.Resources.ResourceManager
+  #pragma pack(pop)
   static check_size<sizeof(ResourceManager), 128 + sizeof(System::Resources::IResourceGroveler*)> __System_Resources_ResourceManagerSizeCheck;
   static_assert(sizeof(ResourceManager) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager*, "System.Resources", "ResourceManager");

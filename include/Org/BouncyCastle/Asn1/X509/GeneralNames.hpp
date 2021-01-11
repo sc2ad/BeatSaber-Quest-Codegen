@@ -77,8 +77,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.X509.GeneralNames
+  #pragma pack(pop)
   static check_size<sizeof(GeneralNames), 16 + sizeof(::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>*)> __Org_BouncyCastle_Asn1_X509_GeneralNamesSizeCheck;
   static_assert(sizeof(GeneralNames) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::GeneralNames*, "Org.BouncyCastle.Asn1.X509", "GeneralNames");

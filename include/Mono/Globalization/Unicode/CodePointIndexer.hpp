@@ -73,6 +73,7 @@ namespace Mono::Globalization::Unicode {
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, start, end, indexStart);
       }
     }; // Mono.Globalization.Unicode.CodePointIndexer/TableRange
+    #pragma pack(pop)
     static check_size<sizeof(CodePointIndexer::TableRange), 16 + sizeof(int)> __Mono_Globalization_Unicode_CodePointIndexer_TableRangeSizeCheck;
     static_assert(sizeof(CodePointIndexer::TableRange) == 0x14);
     // private readonly Mono.Globalization.Unicode.CodePointIndexer/TableRange[] ranges
@@ -112,9 +113,9 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x1518F28
     int ToIndex(int cp);
   }; // Mono.Globalization.Unicode.CodePointIndexer
+  #pragma pack(pop)
   static check_size<sizeof(CodePointIndexer), 32 + sizeof(int)> __Mono_Globalization_Unicode_CodePointIndexerSizeCheck;
   static_assert(sizeof(CodePointIndexer) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::CodePointIndexer*, "Mono.Globalization.Unicode", "CodePointIndexer");
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::CodePointIndexer::TableRange, "Mono.Globalization.Unicode", "CodePointIndexer/TableRange");

@@ -44,8 +44,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NumberTag*, creationType>()));
     }
   }; // NumberTag
+  #pragma pack(pop)
   static check_size<sizeof(NumberTag), 24 + sizeof(int)> __GlobalNamespace_NumberTagSizeCheck;
   static_assert(sizeof(NumberTag) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NumberTag*, "", "NumberTag");

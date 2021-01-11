@@ -138,8 +138,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CreditsController*, creationType>()));
     }
   }; // CreditsController
+  #pragma pack(pop)
   static check_size<sizeof(CreditsController), 88 + sizeof(bool)> __GlobalNamespace_CreditsControllerSizeCheck;
   static_assert(sizeof(CreditsController) == 0x59);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsController*, "", "CreditsController");

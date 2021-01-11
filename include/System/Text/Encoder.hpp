@@ -89,8 +89,8 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<Encoder*, creationType>()));
     }
   }; // System.Text.Encoder
+  #pragma pack(pop)
   static check_size<sizeof(Encoder), 24 + sizeof(System::Text::EncoderFallbackBuffer*)> __System_Text_EncoderSizeCheck;
   static_assert(sizeof(Encoder) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoder*, "System.Text", "Encoder");

@@ -57,6 +57,6 @@ namespace Valve::VR {
     // Offset: 0x191B794
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::HmdMatrix34_t& pmatTrackedDeviceToOverlayTransform, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetOverlayTransformTrackedDeviceRelative
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_SetOverlayTransformTrackedDeviceRelative*, "Valve.VR", "IVROverlay/_SetOverlayTransformTrackedDeviceRelative");

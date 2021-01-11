@@ -54,8 +54,8 @@ namespace OVR::OpenVR {
     // Offset: 0x11F753C
     uint GetResourceFullPath(::Il2CppString* pchResourceName, ::Il2CppString* pchResourceTypeDirectory, System::Text::StringBuilder* pchPathBuffer, uint unBufferLen);
   }; // OVR.OpenVR.CVRResources
+  #pragma pack(pop)
   static check_size<sizeof(CVRResources), 16 + sizeof(OVR::OpenVR::IVRResources)> __OVR_OpenVR_CVRResourcesSizeCheck;
   static_assert(sizeof(CVRResources) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRResources*, "OVR.OpenVR", "CVRResources");

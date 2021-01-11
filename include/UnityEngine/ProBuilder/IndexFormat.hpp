@@ -50,9 +50,9 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.IndexFormat Both
     static void _set_Both(UnityEngine::ProBuilder::IndexFormat value);
   }; // UnityEngine.ProBuilder.IndexFormat
+  #pragma pack(pop)
   static check_size<sizeof(IndexFormat), 0 + sizeof(int)> __UnityEngine_ProBuilder_IndexFormatSizeCheck;
   static_assert(sizeof(IndexFormat) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IndexFormat, "UnityEngine.ProBuilder", "IndexFormat");

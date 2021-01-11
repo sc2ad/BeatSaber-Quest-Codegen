@@ -40,7 +40,7 @@ namespace UnityEngine {
     // Offset: 0x1A05AA0
     static UnityEngine::GameObject* RaycastTry2D_Injected(UnityEngine::Camera* cam, UnityEngine::Ray& ray, float distance, int layerMask);
   }; // UnityEngine.CameraRaycastHelper
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CameraRaycastHelper*, "UnityEngine", "CameraRaycastHelper");

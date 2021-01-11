@@ -113,6 +113,7 @@ namespace System::Net::Http::Headers {
       // Set static field: static public System.Net.Http.Headers.Token/Type OpenParens
       static void _set_OpenParens(System::Net::Http::Headers::Token::Type value);
     }; // System.Net.Http.Headers.Token/Type
+    #pragma pack(pop)
     static check_size<sizeof(Token::Type), 0 + sizeof(int)> __System_Net_Http_Headers_Token_TypeSizeCheck;
     static_assert(sizeof(Token::Type) == 0x4);
     // private readonly System.Net.Http.Headers.Token/Type type
@@ -173,9 +174,9 @@ namespace System::Net::Http::Headers {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.Token
+  #pragma pack(pop)
   static check_size<sizeof(Token), 8 + sizeof(int)> __System_Net_Http_Headers_TokenSizeCheck;
   static_assert(sizeof(Token) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Token, "System.Net.Http.Headers", "Token");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Token::Type, "System.Net.Http.Headers", "Token/Type");

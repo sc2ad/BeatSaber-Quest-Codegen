@@ -298,8 +298,8 @@ namespace System::Net {
     // Offset: 0x11A46C4
     void $GetConnectionGroup$b__66_0(::Il2CppObject* s, System::EventArgs* e);
   }; // System.Net.ServicePoint
+  #pragma pack(pop)
   static check_size<sizeof(ServicePoint), 152 + sizeof(::Il2CppObject*)> __System_Net_ServicePointSizeCheck;
   static_assert(sizeof(ServicePoint) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePoint*, "System.Net", "ServicePoint");

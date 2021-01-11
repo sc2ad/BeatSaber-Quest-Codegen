@@ -63,9 +63,9 @@ namespace System::Net {
     // Set static field: static public System.Net.SecurityProtocolType Tls12
     static void _set_Tls12(System::Net::SecurityProtocolType value);
   }; // System.Net.SecurityProtocolType
+  #pragma pack(pop)
   static check_size<sizeof(SecurityProtocolType), 0 + sizeof(int)> __System_Net_SecurityProtocolTypeSizeCheck;
   static_assert(sizeof(SecurityProtocolType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::SecurityProtocolType, "System.Net", "SecurityProtocolType");

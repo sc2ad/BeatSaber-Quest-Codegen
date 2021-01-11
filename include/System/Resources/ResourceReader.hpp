@@ -249,8 +249,8 @@ namespace System::Resources {
     // Base method: System.Collections.IDictionaryEnumerator IResourceReader::GetEnumerator()
     System::Collections::IDictionaryEnumerator* GetEnumerator();
   }; // System.Resources.ResourceReader
+  #pragma pack(pop)
   static check_size<sizeof(ResourceReader), 120 + sizeof(int)> __System_Resources_ResourceReaderSizeCheck;
   static_assert(sizeof(ResourceReader) == 0x7C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceReader*, "System.Resources", "ResourceReader");

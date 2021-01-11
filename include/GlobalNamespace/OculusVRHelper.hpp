@@ -245,8 +245,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusVRHelper*, creationType>()));
     }
   }; // OculusVRHelper
+  #pragma pack(pop)
   static check_size<sizeof(OculusVRHelper), 75 + sizeof(bool)> __GlobalNamespace_OculusVRHelperSizeCheck;
   static_assert(sizeof(OculusVRHelper) == 0x4C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusVRHelper*, "", "OculusVRHelper");

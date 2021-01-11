@@ -54,8 +54,8 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<EdgeUtility::$$c__DisplayClass0_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.EdgeUtility/<>c__DisplayClass0_0
+  #pragma pack(pop)
   static check_size<sizeof(EdgeUtility::$$c__DisplayClass0_0), 16 + sizeof(UnityEngine::ProBuilder::ProBuilderMesh*)> __UnityEngine_ProBuilder_EdgeUtility_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(EdgeUtility::$$c__DisplayClass0_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EdgeUtility::$$c__DisplayClass0_0*, "UnityEngine.ProBuilder", "EdgeUtility/<>c__DisplayClass0_0");

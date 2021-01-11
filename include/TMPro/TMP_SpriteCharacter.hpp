@@ -67,8 +67,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteCharacter*, creationType>()));
     }
   }; // TMPro.TMP_SpriteCharacter
+  #pragma pack(pop)
   static check_size<sizeof(TMP_SpriteCharacter), 48 + sizeof(int)> __TMPro_TMP_SpriteCharacterSizeCheck;
   static_assert(sizeof(TMP_SpriteCharacter) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteCharacter*, "TMPro", "TMP_SpriteCharacter");

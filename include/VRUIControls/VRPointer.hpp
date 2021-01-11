@@ -194,8 +194,8 @@ namespace VRUIControls {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // VRUIControls.VRPointer
+  #pragma pack(pop)
   static check_size<sizeof(VRPointer), 96 + sizeof(UnityEngine::EventSystems::PointerEventData*)> __VRUIControls_VRPointerSizeCheck;
   static_assert(sizeof(VRPointer) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRPointer*, "VRUIControls", "VRPointer");

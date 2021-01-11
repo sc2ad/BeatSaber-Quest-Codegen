@@ -88,8 +88,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.X509.Holder
+  #pragma pack(pop)
   static check_size<sizeof(Holder), 40 + sizeof(int)> __Org_BouncyCastle_Asn1_X509_HolderSizeCheck;
   static_assert(sizeof(Holder) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::Holder*, "Org.BouncyCastle.Asn1.X509", "Holder");

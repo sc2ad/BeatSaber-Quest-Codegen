@@ -19,7 +19,7 @@ namespace UnityEngine::Audio {
     // Creating value type constructor for type: AudioMixerSnapshot
     AudioMixerSnapshot() noexcept {}
   }; // UnityEngine.Audio.AudioMixerSnapshot
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixerSnapshot*, "UnityEngine.Audio", "AudioMixerSnapshot");

@@ -44,9 +44,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EChaperoneConfigFile Temp
     static void _set_Temp(Valve::VR::EChaperoneConfigFile value);
   }; // Valve.VR.EChaperoneConfigFile
+  #pragma pack(pop)
   static check_size<sizeof(EChaperoneConfigFile), 0 + sizeof(int)> __Valve_VR_EChaperoneConfigFileSizeCheck;
   static_assert(sizeof(EChaperoneConfigFile) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EChaperoneConfigFile, "Valve.VR", "EChaperoneConfigFile");

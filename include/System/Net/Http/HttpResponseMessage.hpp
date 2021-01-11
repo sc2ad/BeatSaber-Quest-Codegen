@@ -151,8 +151,8 @@ namespace System::Net::Http {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.HttpResponseMessage
+  #pragma pack(pop)
   static check_size<sizeof(HttpResponseMessage), 64 + sizeof(System::Net::Http::HttpRequestMessage*)> __System_Net_Http_HttpResponseMessageSizeCheck;
   static_assert(sizeof(HttpResponseMessage) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpResponseMessage*, "System.Net.Http", "HttpResponseMessage");

@@ -84,8 +84,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionStagesManager*, creationType>()));
     }
   }; // MissionStagesManager
+  #pragma pack(pop)
   static check_size<sizeof(MissionStagesManager), 40 + sizeof(GlobalNamespace::MissionStage*)> __GlobalNamespace_MissionStagesManagerSizeCheck;
   static_assert(sizeof(MissionStagesManager) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStagesManager*, "", "MissionStagesManager");

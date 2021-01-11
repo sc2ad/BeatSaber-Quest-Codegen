@@ -351,8 +351,8 @@ namespace System::Text {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Text.StringBuilder
+  #pragma pack(pop)
   static check_size<sizeof(StringBuilder), 40 + sizeof(int)> __System_Text_StringBuilderSizeCheck;
   static_assert(sizeof(StringBuilder) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::StringBuilder*, "System.Text", "StringBuilder");

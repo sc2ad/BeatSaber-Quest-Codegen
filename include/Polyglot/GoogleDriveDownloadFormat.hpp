@@ -44,9 +44,9 @@ namespace Polyglot {
     // Set static field: static public Polyglot.GoogleDriveDownloadFormat TSV
     static void _set_TSV(Polyglot::GoogleDriveDownloadFormat value);
   }; // Polyglot.GoogleDriveDownloadFormat
+  #pragma pack(pop)
   static check_size<sizeof(GoogleDriveDownloadFormat), 0 + sizeof(int)> __Polyglot_GoogleDriveDownloadFormatSizeCheck;
   static_assert(sizeof(GoogleDriveDownloadFormat) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::GoogleDriveDownloadFormat, "Polyglot", "GoogleDriveDownloadFormat");

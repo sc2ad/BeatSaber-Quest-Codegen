@@ -98,8 +98,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OnWillRenderObjectTrigger*, creationType>()));
     }
   }; // OnWillRenderObjectTrigger
+  #pragma pack(pop)
   static check_size<sizeof(OnWillRenderObjectTrigger), 64 + sizeof(UnityEngine::MeshRenderer*)> __GlobalNamespace_OnWillRenderObjectTriggerSizeCheck;
   static_assert(sizeof(OnWillRenderObjectTrigger) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnWillRenderObjectTrigger*, "", "OnWillRenderObjectTrigger");

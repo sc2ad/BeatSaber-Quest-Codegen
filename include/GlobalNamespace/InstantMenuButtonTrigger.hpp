@@ -82,8 +82,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<InstantMenuButtonTrigger*, creationType>()));
     }
   }; // InstantMenuButtonTrigger
+  #pragma pack(pop)
   static check_size<sizeof(InstantMenuButtonTrigger), 24 + sizeof(System::Action*)> __GlobalNamespace_InstantMenuButtonTriggerSizeCheck;
   static_assert(sizeof(InstantMenuButtonTrigger) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstantMenuButtonTrigger*, "", "InstantMenuButtonTrigger");

@@ -103,8 +103,8 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.ProBuilder.Triangle
+  #pragma pack(pop)
   static check_size<sizeof(Triangle), 8 + sizeof(int)> __UnityEngine_ProBuilder_TriangleSizeCheck;
   static_assert(sizeof(Triangle) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Triangle, "UnityEngine.ProBuilder", "Triangle");

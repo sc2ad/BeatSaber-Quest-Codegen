@@ -56,9 +56,9 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.HandleAxis Free
     static void _set_Free(UnityEngine::ProBuilder::HandleAxis value);
   }; // UnityEngine.ProBuilder.HandleAxis
+  #pragma pack(pop)
   static check_size<sizeof(HandleAxis), 0 + sizeof(int)> __UnityEngine_ProBuilder_HandleAxisSizeCheck;
   static_assert(sizeof(HandleAxis) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HandleAxis, "UnityEngine.ProBuilder", "HandleAxis");

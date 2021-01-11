@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/MeshType HandRight
     static void _set_HandRight(GlobalNamespace::OVRPlugin::MeshType value);
   }; // OVRPlugin/MeshType
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::MeshType), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_MeshTypeSizeCheck;
   static_assert(sizeof(OVRPlugin::MeshType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::MeshType, "", "OVRPlugin/MeshType");

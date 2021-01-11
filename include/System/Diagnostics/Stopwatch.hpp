@@ -89,8 +89,8 @@ namespace System::Diagnostics {
       return THROW_UNLESS((::il2cpp_utils::New<Stopwatch*, creationType>()));
     }
   }; // System.Diagnostics.Stopwatch
+  #pragma pack(pop)
   static check_size<sizeof(Stopwatch), 32 + sizeof(bool)> __System_Diagnostics_StopwatchSizeCheck;
   static_assert(sizeof(Stopwatch) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Stopwatch*, "System.Diagnostics", "Stopwatch");

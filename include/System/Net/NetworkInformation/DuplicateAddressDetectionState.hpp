@@ -62,9 +62,9 @@ namespace System::Net::NetworkInformation {
     // Set static field: static public System.Net.NetworkInformation.DuplicateAddressDetectionState Preferred
     static void _set_Preferred(System::Net::NetworkInformation::DuplicateAddressDetectionState value);
   }; // System.Net.NetworkInformation.DuplicateAddressDetectionState
+  #pragma pack(pop)
   static check_size<sizeof(DuplicateAddressDetectionState), 0 + sizeof(int)> __System_Net_NetworkInformation_DuplicateAddressDetectionStateSizeCheck;
   static_assert(sizeof(DuplicateAddressDetectionState) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::DuplicateAddressDetectionState, "System.Net.NetworkInformation", "DuplicateAddressDetectionState");

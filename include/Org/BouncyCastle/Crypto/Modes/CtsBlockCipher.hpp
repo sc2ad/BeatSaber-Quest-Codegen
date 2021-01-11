@@ -68,8 +68,8 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Int32 BufferedBlockCipher::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* output, int outOff);
   }; // Org.BouncyCastle.Crypto.Modes.CtsBlockCipher
+  #pragma pack(pop)
   static check_size<sizeof(CtsBlockCipher), 40 + sizeof(int)> __Org_BouncyCastle_Crypto_Modes_CtsBlockCipherSizeCheck;
   static_assert(sizeof(CtsBlockCipher) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::CtsBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "CtsBlockCipher");

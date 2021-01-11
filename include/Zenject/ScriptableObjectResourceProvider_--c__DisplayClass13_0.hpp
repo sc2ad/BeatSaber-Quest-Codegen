@@ -74,8 +74,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ScriptableObjectResourceProvider::$$c__DisplayClass13_0*, creationType>()));
     }
   }; // Zenject.ScriptableObjectResourceProvider/<>c__DisplayClass13_0
+  #pragma pack(pop)
   static check_size<sizeof(ScriptableObjectResourceProvider::$$c__DisplayClass13_0), 40 + sizeof(Zenject::InjectContext*)> __Zenject_ScriptableObjectResourceProvider_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(ScriptableObjectResourceProvider::$$c__DisplayClass13_0) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectResourceProvider::$$c__DisplayClass13_0*, "Zenject", "ScriptableObjectResourceProvider/<>c__DisplayClass13_0");

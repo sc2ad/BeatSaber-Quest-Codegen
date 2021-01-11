@@ -43,8 +43,8 @@ namespace System::Diagnostics {
       return THROW_UNLESS((::il2cpp_utils::New<DebuggerBrowsableAttribute*, creationType>(state)));
     }
   }; // System.Diagnostics.DebuggerBrowsableAttribute
+  #pragma pack(pop)
   static check_size<sizeof(DebuggerBrowsableAttribute), 16 + sizeof(System::Diagnostics::DebuggerBrowsableState)> __System_Diagnostics_DebuggerBrowsableAttributeSizeCheck;
   static_assert(sizeof(DebuggerBrowsableAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerBrowsableAttribute*, "System.Diagnostics", "DebuggerBrowsableAttribute");

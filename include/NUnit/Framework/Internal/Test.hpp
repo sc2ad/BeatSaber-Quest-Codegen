@@ -345,8 +345,8 @@ namespace NUnit::Framework::Internal {
     // Maps to method: CompareTo
     int System_IComparable_CompareTo(::Il2CppObject* obj);
   }; // NUnit.Framework.Internal.Test
+  #pragma pack(pop)
   static check_size<sizeof(Test), 116 + sizeof(bool)> __NUnit_Framework_Internal_TestSizeCheck;
   static_assert(sizeof(Test) == 0x75);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Test*, "NUnit.Framework.Internal", "Test");

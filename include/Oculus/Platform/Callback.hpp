@@ -94,6 +94,6 @@ namespace Oculus::Platform {
     // Offset: 0x11CE6D4
     static void _cctor();
   }; // Oculus.Platform.Callback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Callback*, "Oculus.Platform", "Callback");

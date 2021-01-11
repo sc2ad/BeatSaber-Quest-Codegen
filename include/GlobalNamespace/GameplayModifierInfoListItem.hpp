@@ -72,8 +72,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifierInfoListItem*, creationType>()));
     }
   }; // GameplayModifierInfoListItem
+  #pragma pack(pop)
   static check_size<sizeof(GameplayModifierInfoListItem), 32 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_GameplayModifierInfoListItemSizeCheck;
   static_assert(sizeof(GameplayModifierInfoListItem) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierInfoListItem*, "", "GameplayModifierInfoListItem");

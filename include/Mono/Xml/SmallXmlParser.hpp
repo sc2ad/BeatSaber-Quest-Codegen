@@ -200,8 +200,8 @@ namespace Mono::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<SmallXmlParser*, creationType>()));
     }
   }; // Mono.Xml.SmallXmlParser
+  #pragma pack(pop)
   static check_size<sizeof(SmallXmlParser), 96 + sizeof(bool)> __Mono_Xml_SmallXmlParserSizeCheck;
   static_assert(sizeof(SmallXmlParser) == 0x61);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser*, "Mono.Xml", "SmallXmlParser");

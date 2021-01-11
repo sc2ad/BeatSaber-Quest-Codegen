@@ -48,8 +48,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<GuiRenderableManager::RenderableInfo*, creationType>(renderable, priority)));
     }
   }; // Zenject.GuiRenderableManager/RenderableInfo
+  #pragma pack(pop)
   static check_size<sizeof(GuiRenderableManager::RenderableInfo), 24 + sizeof(int)> __Zenject_GuiRenderableManager_RenderableInfoSizeCheck;
   static_assert(sizeof(GuiRenderableManager::RenderableInfo) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager::RenderableInfo*, "Zenject", "GuiRenderableManager/RenderableInfo");

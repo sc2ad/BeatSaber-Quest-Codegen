@@ -72,8 +72,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemeColorToggleController*, creationType>()));
     }
   }; // ColorSchemeColorToggleController
+  #pragma pack(pop)
   static check_size<sizeof(ColorSchemeColorToggleController), 32 + sizeof(UnityEngine::UI::Toggle*)> __GlobalNamespace_ColorSchemeColorToggleControllerSizeCheck;
   static_assert(sizeof(ColorSchemeColorToggleController) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeColorToggleController*, "", "ColorSchemeColorToggleController");

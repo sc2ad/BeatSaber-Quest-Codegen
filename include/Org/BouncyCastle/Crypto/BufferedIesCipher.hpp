@@ -106,8 +106,8 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Void BufferedCipherBase::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.BufferedIesCipher
+  #pragma pack(pop)
   static check_size<sizeof(BufferedIesCipher), 32 + sizeof(System::IO::MemoryStream*)> __Org_BouncyCastle_Crypto_BufferedIesCipherSizeCheck;
   static_assert(sizeof(BufferedIesCipher) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::BufferedIesCipher*, "Org.BouncyCastle.Crypto", "BufferedIesCipher");

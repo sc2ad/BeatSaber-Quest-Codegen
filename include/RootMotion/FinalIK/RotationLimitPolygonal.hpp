@@ -133,8 +133,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<RotationLimitPolygonal*, creationType>()));
     }
   }; // RootMotion.FinalIK.RotationLimitPolygonal
+  #pragma pack(pop)
   static check_size<sizeof(RotationLimitPolygonal), 80 + sizeof(::Array<RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*>*)> __RootMotion_FinalIK_RotationLimitPolygonalSizeCheck;
   static_assert(sizeof(RotationLimitPolygonal) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal*, "RootMotion.FinalIK", "RotationLimitPolygonal");

@@ -94,8 +94,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightWithIds::LightIntensityData*, creationType>()));
     }
   }; // LightWithIds/LightIntensityData
+  #pragma pack(pop)
   static check_size<sizeof(LightWithIds::LightIntensityData), 40 + sizeof(bool)> __GlobalNamespace_LightWithIds_LightIntensityDataSizeCheck;
   static_assert(sizeof(LightWithIds::LightIntensityData) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIds::LightIntensityData*, "", "LightWithIds/LightIntensityData");

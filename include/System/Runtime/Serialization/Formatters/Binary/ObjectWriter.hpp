@@ -307,8 +307,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12FAE24
     void PutNameInfo(System::Runtime::Serialization::Formatters::Binary::NameInfo* nameInfo);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectWriter
+  #pragma pack(pop)
   static check_size<sizeof(ObjectWriter), 184 + sizeof(System::Runtime::Serialization::Formatters::Binary::SerStack*)> __System_Runtime_Serialization_Formatters_Binary_ObjectWriterSizeCheck;
   static_assert(sizeof(ObjectWriter) == 0xC0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*, "System.Runtime.Serialization.Formatters.Binary", "ObjectWriter");

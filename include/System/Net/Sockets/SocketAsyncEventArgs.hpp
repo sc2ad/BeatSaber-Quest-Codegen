@@ -228,8 +228,8 @@ namespace System::Net::Sockets {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Net.Sockets.SocketAsyncEventArgs
+  #pragma pack(pop)
   static check_size<sizeof(SocketAsyncEventArgs), 96 + sizeof(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*)> __System_Net_Sockets_SocketAsyncEventArgsSizeCheck;
   static_assert(sizeof(SocketAsyncEventArgs) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncEventArgs*, "System.Net.Sockets", "SocketAsyncEventArgs");

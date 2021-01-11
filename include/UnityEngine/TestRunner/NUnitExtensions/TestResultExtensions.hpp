@@ -40,7 +40,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
     // Offset: 0x118A3F8
     static void RecordPrefixedError(NUnit::Framework::Internal::TestResult* testResult, ::Il2CppString* prefix, ::Il2CppString* error, NUnit::Framework::Interfaces::ResultState* resultState);
   }; // UnityEngine.TestRunner.NUnitExtensions.TestResultExtensions
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions*, "UnityEngine.TestRunner.NUnitExtensions", "TestResultExtensions");

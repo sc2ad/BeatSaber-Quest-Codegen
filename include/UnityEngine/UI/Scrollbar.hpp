@@ -120,6 +120,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.Scrollbar/Direction TopToBottom
       static void _set_TopToBottom(UnityEngine::UI::Scrollbar::Direction value);
     }; // UnityEngine.UI.Scrollbar/Direction
+    #pragma pack(pop)
     static check_size<sizeof(Scrollbar::Direction), 0 + sizeof(int)> __UnityEngine_UI_Scrollbar_DirectionSizeCheck;
     static_assert(sizeof(Scrollbar::Direction) == 0x4);
     // private UnityEngine.RectTransform m_HandleRect
@@ -397,9 +398,9 @@ namespace UnityEngine::UI {
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
   }; // UnityEngine.UI.Scrollbar
+  #pragma pack(pop)
   static check_size<sizeof(Scrollbar), 305 + sizeof(bool)> __UnityEngine_UI_ScrollbarSizeCheck;
   static_assert(sizeof(Scrollbar) == 0x132);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar*, "UnityEngine.UI", "Scrollbar");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar::Direction, "UnityEngine.UI", "Scrollbar/Direction");

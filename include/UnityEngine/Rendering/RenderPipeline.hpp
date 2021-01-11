@@ -58,9 +58,9 @@ namespace UnityEngine::Rendering {
     // Offset: 0x16BC798
     void Dispose(bool disposing);
   }; // UnityEngine.Rendering.RenderPipeline
+  #pragma pack(pop)
   static check_size<sizeof(RenderPipeline), 16 + sizeof(bool)> __UnityEngine_Rendering_RenderPipelineSizeCheck;
   static_assert(sizeof(RenderPipeline) == 0x11);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderPipeline*, "UnityEngine.Rendering", "RenderPipeline");

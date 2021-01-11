@@ -132,6 +132,6 @@ namespace UnityEngine {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.Texture
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture*, "UnityEngine", "Texture");

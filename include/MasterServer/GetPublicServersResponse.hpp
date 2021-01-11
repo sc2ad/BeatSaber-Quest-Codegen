@@ -88,6 +88,7 @@ namespace MasterServer {
       // Set static field: static public MasterServer.GetPublicServersResponse/Result UnknownError
       static void _set_UnknownError(MasterServer::GetPublicServersResponse::Result value);
     }; // MasterServer.GetPublicServersResponse/Result
+    #pragma pack(pop)
     static check_size<sizeof(GetPublicServersResponse::Result), 0 + sizeof(uint8_t)> __MasterServer_GetPublicServersResponse_ResultSizeCheck;
     static_assert(sizeof(GetPublicServersResponse::Result) == 0x1);
     // public MasterServer.GetPublicServersResponse/Result result
@@ -161,9 +162,9 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<GetPublicServersResponse*, creationType>()));
     }
   }; // MasterServer.GetPublicServersResponse
+  #pragma pack(pop)
   static check_size<sizeof(GetPublicServersResponse), 32 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::PublicServerInfo>*)> __MasterServer_GetPublicServersResponseSizeCheck;
   static_assert(sizeof(GetPublicServersResponse) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetPublicServersResponse*, "MasterServer", "GetPublicServersResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetPublicServersResponse::Result, "MasterServer", "GetPublicServersResponse/Result");

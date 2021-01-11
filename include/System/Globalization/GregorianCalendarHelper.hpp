@@ -149,8 +149,8 @@ namespace System::Globalization {
     // Offset: 0x162EA0C
     static void _cctor();
   }; // System.Globalization.GregorianCalendarHelper
+  #pragma pack(pop)
   static check_size<sizeof(GregorianCalendarHelper), 48 + sizeof(System::DateTime)> __System_Globalization_GregorianCalendarHelperSizeCheck;
   static_assert(sizeof(GregorianCalendarHelper) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::GregorianCalendarHelper*, "System.Globalization", "GregorianCalendarHelper");

@@ -49,6 +49,6 @@ namespace System::IO::Compression {
     // Offset: 0x1489EB0
     void EndInvoke(System::IAsyncResult* result);
   }; // System.IO.Compression.DeflateStream/WriteMethod
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStream::WriteMethod*, "System.IO.Compression", "DeflateStream/WriteMethod");

@@ -50,9 +50,9 @@ namespace System::Threading::Tasks {
     // Set static field: static public System.Threading.Tasks.CausalitySynchronousWork Execution
     static void _set_Execution(System::Threading::Tasks::CausalitySynchronousWork value);
   }; // System.Threading.Tasks.CausalitySynchronousWork
+  #pragma pack(pop)
   static check_size<sizeof(CausalitySynchronousWork), 0 + sizeof(int)> __System_Threading_Tasks_CausalitySynchronousWorkSizeCheck;
   static_assert(sizeof(CausalitySynchronousWork) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::CausalitySynchronousWork, "System.Threading.Tasks", "CausalitySynchronousWork");

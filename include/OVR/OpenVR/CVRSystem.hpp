@@ -243,8 +243,8 @@ namespace OVR::OpenVR {
     // Offset: 0x11F90D0
     void AcknowledgeQuit_UserPrompt();
   }; // OVR.OpenVR.CVRSystem
+  #pragma pack(pop)
   static check_size<sizeof(CVRSystem), 16 + sizeof(OVR::OpenVR::IVRSystem)> __OVR_OpenVR_CVRSystemSizeCheck;
   static_assert(sizeof(CVRSystem) == 0x188);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem*, "OVR.OpenVR", "CVRSystem");

@@ -155,8 +155,8 @@ namespace NUnit::Framework::Constraints {
     // Base method: System.Void ConstraintResult::WriteMessageTo(NUnit.Framework.Constraints.MessageWriter writer)
     void WriteMessageTo(NUnit::Framework::Constraints::MessageWriter* writer);
   }; // NUnit.Framework.Constraints.EqualConstraintResult
+  #pragma pack(pop)
   static check_size<sizeof(EqualConstraintResult), 64 + sizeof(System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>*)> __NUnit_Framework_Constraints_EqualConstraintResultSizeCheck;
   static_assert(sizeof(EqualConstraintResult) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraintResult*, "NUnit.Framework.Constraints", "EqualConstraintResult");

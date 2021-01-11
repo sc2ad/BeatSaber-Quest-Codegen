@@ -54,6 +54,6 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<NetManager::IPEndPointComparer*, creationType>()));
     }
   }; // LiteNetLib.NetManager/IPEndPointComparer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager::IPEndPointComparer*, "LiteNetLib", "NetManager/IPEndPointComparer");

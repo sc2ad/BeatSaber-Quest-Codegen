@@ -63,8 +63,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FullComboMissionObjectiveChecker*, creationType>()));
     }
   }; // FullComboMissionObjectiveChecker
+  #pragma pack(pop)
   static check_size<sizeof(FullComboMissionObjectiveChecker), 72 + sizeof(GlobalNamespace::ScoreController*)> __GlobalNamespace_FullComboMissionObjectiveCheckerSizeCheck;
   static_assert(sizeof(FullComboMissionObjectiveChecker) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullComboMissionObjectiveChecker*, "", "FullComboMissionObjectiveChecker");

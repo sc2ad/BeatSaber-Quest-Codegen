@@ -58,8 +58,8 @@ namespace System::Runtime::Serialization {
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // System.Runtime.Serialization.MemberHolder
+  #pragma pack(pop)
   static check_size<sizeof(MemberHolder), 24 + sizeof(System::Runtime::Serialization::StreamingContext)> __System_Runtime_Serialization_MemberHolderSizeCheck;
   static_assert(sizeof(MemberHolder) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::MemberHolder*, "System.Runtime.Serialization", "MemberHolder");

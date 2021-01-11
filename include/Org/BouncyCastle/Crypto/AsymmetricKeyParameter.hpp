@@ -59,8 +59,8 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.AsymmetricKeyParameter
+  #pragma pack(pop)
   static check_size<sizeof(AsymmetricKeyParameter), 16 + sizeof(bool)> __Org_BouncyCastle_Crypto_AsymmetricKeyParameterSizeCheck;
   static_assert(sizeof(AsymmetricKeyParameter) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, "Org.BouncyCastle.Crypto", "AsymmetricKeyParameter");

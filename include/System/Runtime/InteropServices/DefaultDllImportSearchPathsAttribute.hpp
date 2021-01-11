@@ -43,8 +43,8 @@ namespace System::Runtime::InteropServices {
       return THROW_UNLESS((::il2cpp_utils::New<DefaultDllImportSearchPathsAttribute*, creationType>(paths)));
     }
   }; // System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute
+  #pragma pack(pop)
   static check_size<sizeof(DefaultDllImportSearchPathsAttribute), 16 + sizeof(System::Runtime::InteropServices::DllImportSearchPath)> __System_Runtime_InteropServices_DefaultDllImportSearchPathsAttributeSizeCheck;
   static_assert(sizeof(DefaultDllImportSearchPathsAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*, "System.Runtime.InteropServices", "DefaultDllImportSearchPathsAttribute");

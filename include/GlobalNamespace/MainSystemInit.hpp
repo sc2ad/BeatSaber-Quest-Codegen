@@ -486,8 +486,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainSystemInit*, creationType>()));
     }
   }; // MainSystemInit
+  #pragma pack(pop)
   static check_size<sizeof(MainSystemInit), 424 + sizeof(GlobalNamespace::BeatmapLevelSO*)> __GlobalNamespace_MainSystemInitSizeCheck;
   static_assert(sizeof(MainSystemInit) == 0x1B0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSystemInit*, "", "MainSystemInit");

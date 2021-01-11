@@ -79,8 +79,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SecureRandomProvider::SecureRandomState*, creationType>()));
     }
   }; // SecureRandomProvider/SecureRandomState
+  #pragma pack(pop)
   static check_size<sizeof(SecureRandomProvider::SecureRandomState), 40 + sizeof(int)> __GlobalNamespace_SecureRandomProvider_SecureRandomStateSizeCheck;
   static_assert(sizeof(SecureRandomProvider::SecureRandomState) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SecureRandomProvider::SecureRandomState*, "", "SecureRandomProvider/SecureRandomState");

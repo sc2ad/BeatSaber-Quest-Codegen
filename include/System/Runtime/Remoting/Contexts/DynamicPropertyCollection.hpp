@@ -73,8 +73,8 @@ namespace System::Runtime::Remoting::Contexts {
       return THROW_UNLESS((::il2cpp_utils::New<DynamicPropertyCollection*, creationType>()));
     }
   }; // System.Runtime.Remoting.Contexts.DynamicPropertyCollection
+  #pragma pack(pop)
   static check_size<sizeof(DynamicPropertyCollection), 16 + sizeof(System::Collections::ArrayList*)> __System_Runtime_Remoting_Contexts_DynamicPropertyCollectionSizeCheck;
   static_assert(sizeof(DynamicPropertyCollection) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::DynamicPropertyCollection*, "System.Runtime.Remoting.Contexts", "DynamicPropertyCollection");

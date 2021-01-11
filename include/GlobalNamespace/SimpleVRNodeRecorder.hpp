@@ -75,6 +75,7 @@ namespace GlobalNamespace {
         return THROW_UNLESS((::il2cpp_utils::New<SimpleVRNodeRecorder::SavedData*, creationType>()));
       }
     }; // SimpleVRNodeRecorder/SavedData
+    #pragma pack(pop)
     static check_size<sizeof(SimpleVRNodeRecorder::SavedData), 16 + sizeof(::Array<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>*)> __GlobalNamespace_SimpleVRNodeRecorder_SavedDataSizeCheck;
     static_assert(sizeof(SimpleVRNodeRecorder::SavedData) == 0x18);
     // Size: 0x4
@@ -118,6 +119,7 @@ namespace GlobalNamespace {
       // Set static field: static public SimpleVRNodeRecorder/RecordMode Off
       static void _set_Off(GlobalNamespace::SimpleVRNodeRecorder::RecordMode value);
     }; // SimpleVRNodeRecorder/RecordMode
+    #pragma pack(pop)
     static check_size<sizeof(SimpleVRNodeRecorder::RecordMode), 0 + sizeof(int)> __GlobalNamespace_SimpleVRNodeRecorder_RecordModeSizeCheck;
     static_assert(sizeof(SimpleVRNodeRecorder::RecordMode) == 0x4);
     // private FloatSO _songTime
@@ -229,10 +231,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleVRNodeRecorder*, creationType>()));
     }
   }; // SimpleVRNodeRecorder
+  #pragma pack(pop)
   static check_size<sizeof(SimpleVRNodeRecorder), 96 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_SimpleVRNodeRecorderSizeCheck;
   static_assert(sizeof(SimpleVRNodeRecorder) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder*, "", "SimpleVRNodeRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::SavedData*, "", "SimpleVRNodeRecorder/SavedData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::RecordMode, "", "SimpleVRNodeRecorder/RecordMode");

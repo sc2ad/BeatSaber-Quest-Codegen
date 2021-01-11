@@ -86,8 +86,8 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x1118F40
     void Encode(int& pos, ::Array<uint8_t>* metadata);
   }; // System.Diagnostics.Tracing.FieldMetadata
+  #pragma pack(pop)
   static check_size<sizeof(FieldMetadata), 43 + sizeof(uint8_t)> __System_Diagnostics_Tracing_FieldMetadataSizeCheck;
   static_assert(sizeof(FieldMetadata) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::FieldMetadata*, "System.Diagnostics.Tracing", "FieldMetadata");

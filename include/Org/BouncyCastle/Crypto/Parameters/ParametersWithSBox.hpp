@@ -51,8 +51,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1048F98
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithSBox
+  #pragma pack(pop)
   static check_size<sizeof(ParametersWithSBox), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Parameters_ParametersWithSBoxSizeCheck;
   static_assert(sizeof(ParametersWithSBox) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox*, "Org.BouncyCastle.Crypto.Parameters", "ParametersWithSBox");

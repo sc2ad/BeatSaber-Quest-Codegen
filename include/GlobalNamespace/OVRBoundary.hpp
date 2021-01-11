@@ -96,8 +96,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRBoundary*, creationType>()));
     }
   }; // OVRBoundary
+  #pragma pack(pop)
   static check_size<sizeof(OVRBoundary), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*)> __GlobalNamespace_OVRBoundarySizeCheck;
   static_assert(sizeof(OVRBoundary) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary*, "", "OVRBoundary");

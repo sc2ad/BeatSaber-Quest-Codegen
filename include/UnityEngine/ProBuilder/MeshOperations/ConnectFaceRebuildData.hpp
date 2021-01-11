@@ -52,8 +52,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectFaceRebuildData*, creationType>(faceRebuildData, newVertexIndexes)));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData
+  #pragma pack(pop)
   static check_size<sizeof(ConnectFaceRebuildData), 24 + sizeof(System::Collections::Generic::List_1<int>*)> __UnityEngine_ProBuilder_MeshOperations_ConnectFaceRebuildDataSizeCheck;
   static_assert(sizeof(ConnectFaceRebuildData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, "UnityEngine.ProBuilder.MeshOperations", "ConnectFaceRebuildData");

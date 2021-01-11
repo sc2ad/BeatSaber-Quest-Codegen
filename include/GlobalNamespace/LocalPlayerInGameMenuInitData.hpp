@@ -64,8 +64,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LocalPlayerInGameMenuInitData*, creationType>(previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, hasSong)));
     }
   }; // LocalPlayerInGameMenuInitData
+  #pragma pack(pop)
   static check_size<sizeof(LocalPlayerInGameMenuInitData), 40 + sizeof(bool)> __GlobalNamespace_LocalPlayerInGameMenuInitDataSizeCheck;
   static_assert(sizeof(LocalPlayerInGameMenuInitData) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalPlayerInGameMenuInitData*, "", "LocalPlayerInGameMenuInitData");

@@ -50,9 +50,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.AnimatorUpdateMode UnscaledTime
     static void _set_UnscaledTime(UnityEngine::AnimatorUpdateMode value);
   }; // UnityEngine.AnimatorUpdateMode
+  #pragma pack(pop)
   static check_size<sizeof(AnimatorUpdateMode), 0 + sizeof(int)> __UnityEngine_AnimatorUpdateModeSizeCheck;
   static_assert(sizeof(AnimatorUpdateMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorUpdateMode, "UnityEngine", "AnimatorUpdateMode");

@@ -94,8 +94,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<Font*, creationType>()));
     }
   }; // UnityEngine.Font
+  #pragma pack(pop)
   static check_size<sizeof(Font), 24 + sizeof(UnityEngine::Font::FontTextureRebuildCallback*)> __UnityEngine_FontSizeCheck;
   static_assert(sizeof(Font) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Font*, "UnityEngine", "Font");

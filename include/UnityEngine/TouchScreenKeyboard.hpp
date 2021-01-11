@@ -120,8 +120,8 @@ namespace UnityEngine {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.TouchScreenKeyboard
+  #pragma pack(pop)
   static check_size<sizeof(TouchScreenKeyboard), 16 + sizeof(System::IntPtr)> __UnityEngine_TouchScreenKeyboardSizeCheck;
   static_assert(sizeof(TouchScreenKeyboard) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchScreenKeyboard*, "UnityEngine", "TouchScreenKeyboard");

@@ -58,8 +58,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4AchievementIdsModelSO::AchievementIdData*, creationType>()));
     }
   }; // PS4AchievementIdsModelSO/AchievementIdData
+  #pragma pack(pop)
   static check_size<sizeof(PS4AchievementIdsModelSO::AchievementIdData), 24 + sizeof(GlobalNamespace::AchievementSO*)> __GlobalNamespace_PS4AchievementIdsModelSO_AchievementIdDataSizeCheck;
   static_assert(sizeof(PS4AchievementIdsModelSO::AchievementIdData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*, "", "PS4AchievementIdsModelSO/AchievementIdData");

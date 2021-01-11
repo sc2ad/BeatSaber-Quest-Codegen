@@ -57,6 +57,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
       return THROW_UNLESS((::il2cpp_utils::New<Lightmapping::$$c*, creationType>()));
     }
   }; // UnityEngine.Experimental.GlobalIllumination.Lightmapping/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c*, "UnityEngine.Experimental.GlobalIllumination", "Lightmapping/<>c");

@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x1919B10
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetOverlaySortOrder
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_SetOverlaySortOrder*, "Valve.VR", "IVROverlay/_SetOverlaySortOrder");

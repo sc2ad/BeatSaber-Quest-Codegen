@@ -67,9 +67,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.LaunchType Deeplink
     static void _set_Deeplink(Oculus::Platform::LaunchType value);
   }; // Oculus.Platform.LaunchType
+  #pragma pack(pop)
   static check_size<sizeof(LaunchType), 0 + sizeof(int)> __Oculus_Platform_LaunchTypeSizeCheck;
   static_assert(sizeof(LaunchType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LaunchType, "Oculus.Platform", "LaunchType");

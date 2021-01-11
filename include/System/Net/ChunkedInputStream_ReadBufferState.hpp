@@ -68,8 +68,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<ChunkedInputStream::ReadBufferState*, creationType>(buffer, offset, count, ares)));
     }
   }; // System.Net.ChunkedInputStream/ReadBufferState
+  #pragma pack(pop)
   static check_size<sizeof(ChunkedInputStream::ReadBufferState), 40 + sizeof(System::Net::HttpStreamAsyncResult*)> __System_Net_ChunkedInputStream_ReadBufferStateSizeCheck;
   static_assert(sizeof(ChunkedInputStream::ReadBufferState) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ChunkedInputStream::ReadBufferState*, "System.Net", "ChunkedInputStream/ReadBufferState");

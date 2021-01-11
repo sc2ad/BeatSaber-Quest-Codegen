@@ -108,8 +108,8 @@ namespace UnityEngine {
     // Offset: 0x1A002B4
     static void set_maxParticles_Injected(UnityEngine::ParticleSystem::MainModule& _unity_self, int value);
   }; // UnityEngine.ParticleSystem/MainModule
+  #pragma pack(pop)
   static check_size<sizeof(ParticleSystem::MainModule), 0 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_ParticleSystem_MainModuleSizeCheck;
   static_assert(sizeof(ParticleSystem::MainModule) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MainModule, "UnityEngine", "ParticleSystem/MainModule");

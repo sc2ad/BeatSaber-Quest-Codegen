@@ -73,6 +73,7 @@ namespace GlobalNamespace {
       // Set static field: static public VRRenderingParamsSetup/SceneType Game
       static void _set_Game(GlobalNamespace::VRRenderingParamsSetup::SceneType value);
     }; // VRRenderingParamsSetup/SceneType
+    #pragma pack(pop)
     static check_size<sizeof(VRRenderingParamsSetup::SceneType), 0 + sizeof(int)> __GlobalNamespace_VRRenderingParamsSetup_SceneTypeSizeCheck;
     static_assert(sizeof(VRRenderingParamsSetup::SceneType) == 0x4);
     // private FloatSO _vrResolutionScale
@@ -129,9 +130,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VRRenderingParamsSetup*, creationType>()));
     }
   }; // VRRenderingParamsSetup
+  #pragma pack(pop)
   static check_size<sizeof(VRRenderingParamsSetup), 56 + sizeof(GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_VRRenderingParamsSetupSizeCheck;
   static_assert(sizeof(VRRenderingParamsSetup) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRRenderingParamsSetup*, "", "VRRenderingParamsSetup");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRRenderingParamsSetup::SceneType, "", "VRRenderingParamsSetup/SceneType");

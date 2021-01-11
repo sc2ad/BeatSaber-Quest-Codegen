@@ -303,6 +303,7 @@ namespace GlobalNamespace {
       // Set static field: static public MenuRpcManager/RpcType SetOwnedSongPacks
       static void _set_SetOwnedSongPacks(GlobalNamespace::MenuRpcManager::RpcType value);
     }; // MenuRpcManager/RpcType
+    #pragma pack(pop)
     static check_size<sizeof(MenuRpcManager::RpcType), 0 + sizeof(uint8_t)> __GlobalNamespace_MenuRpcManager_RpcTypeSizeCheck;
     static_assert(sizeof(MenuRpcManager::RpcType) == 0x1);
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
@@ -1037,9 +1038,9 @@ namespace GlobalNamespace {
     // Base method: System.Void IMenuRpcManager::SetOwnedSongPacks(SongPackMask songPackMask)
     void SetOwnedSongPacks(GlobalNamespace::SongPackMask songPackMask);
   }; // MenuRpcManager
+  #pragma pack(pop)
   static check_size<sizeof(MenuRpcManager), 248 + sizeof(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>*)> __GlobalNamespace_MenuRpcManagerSizeCheck;
   static_assert(sizeof(MenuRpcManager) == 0x100);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager*, "", "MenuRpcManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::RpcType, "", "MenuRpcManager/RpcType");

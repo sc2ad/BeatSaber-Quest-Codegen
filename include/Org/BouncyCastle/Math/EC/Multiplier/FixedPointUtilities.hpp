@@ -45,7 +45,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Offset: 0x1783DEC
     static void _cctor();
   }; // Org.BouncyCastle.Math.EC.Multiplier.FixedPointUtilities
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities*, "Org.BouncyCastle.Math.EC.Multiplier", "FixedPointUtilities");

@@ -56,8 +56,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningSceneSetup*, creationType>()));
     }
   }; // HealthWarningSceneSetup
+  #pragma pack(pop)
   static check_size<sizeof(HealthWarningSceneSetup), 32 + sizeof(GlobalNamespace::HealthWarningSceneSetupData*)> __GlobalNamespace_HealthWarningSceneSetupSizeCheck;
   static_assert(sizeof(HealthWarningSceneSetup) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningSceneSetup*, "", "HealthWarningSceneSetup");

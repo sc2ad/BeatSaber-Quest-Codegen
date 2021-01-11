@@ -51,6 +51,6 @@ namespace Mono::Security::Cryptography {
     // Offset: 0x15AFF5C
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Security.Cryptography.DSAManaged/KeyGeneratedEventHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*, "Mono.Security.Cryptography", "DSAManaged/KeyGeneratedEventHandler");

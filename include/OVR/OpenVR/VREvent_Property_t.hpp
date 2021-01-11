@@ -37,9 +37,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.VREvent_Property_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_Property_t), 8 + sizeof(OVR::OpenVR::ETrackedDeviceProperty)> __OVR_OpenVR_VREvent_Property_tSizeCheck;
   static_assert(sizeof(VREvent_Property_t) == 0xC);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Property_t, "OVR.OpenVR", "VREvent_Property_t");

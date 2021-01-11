@@ -292,9 +292,9 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static public Org.BouncyCastle.Security.DigestUtilities/DigestAlgorithm WHIRLPOOL
     static void _set_WHIRLPOOL(Org::BouncyCastle::Security::DigestUtilities::DigestAlgorithm value);
   }; // Org.BouncyCastle.Security.DigestUtilities/DigestAlgorithm
+  #pragma pack(pop)
   static check_size<sizeof(DigestUtilities::DigestAlgorithm), 0 + sizeof(int)> __Org_BouncyCastle_Security_DigestUtilities_DigestAlgorithmSizeCheck;
   static_assert(sizeof(DigestUtilities::DigestAlgorithm) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::DigestUtilities::DigestAlgorithm, "Org.BouncyCastle.Security", "DigestUtilities/DigestAlgorithm");

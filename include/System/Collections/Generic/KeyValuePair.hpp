@@ -19,7 +19,7 @@ namespace System::Collections::Generic {
     // Offset: 0x1CB65C4
     static ::Il2CppString* PairToString(::Il2CppObject* key, ::Il2CppObject* value);
   }; // System.Collections.Generic.KeyValuePair
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::KeyValuePair*, "System.Collections.Generic", "KeyValuePair");

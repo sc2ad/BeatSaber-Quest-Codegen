@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* SignData(::Array<uint8_t>* data, int offset, int length);
   }; // ICertificateEncryptionProvider
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICertificateEncryptionProvider*, "", "ICertificateEncryptionProvider");

@@ -325,8 +325,8 @@ namespace System::Net {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Cookie
+  #pragma pack(pop)
   static check_size<sizeof(Cookie), 153 + sizeof(bool)> __System_Net_CookieSizeCheck;
   static_assert(sizeof(Cookie) == 0x9A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Cookie*, "System.Net", "Cookie");

@@ -53,6 +53,6 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<TransferCodingWithQualityHeaderValue*, creationType>()));
     }
   }; // System.Net.Http.Headers.TransferCodingWithQualityHeaderValue
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*, "System.Net.Http.Headers", "TransferCodingWithQualityHeaderValue");

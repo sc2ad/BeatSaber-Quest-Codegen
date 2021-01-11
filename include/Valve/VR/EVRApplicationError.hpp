@@ -158,9 +158,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRApplicationError InvalidParameter
     static void _set_InvalidParameter(Valve::VR::EVRApplicationError value);
   }; // Valve.VR.EVRApplicationError
+  #pragma pack(pop)
   static check_size<sizeof(EVRApplicationError), 0 + sizeof(int)> __Valve_VR_EVRApplicationErrorSizeCheck;
   static_assert(sizeof(EVRApplicationError) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRApplicationError, "Valve.VR", "EVRApplicationError");

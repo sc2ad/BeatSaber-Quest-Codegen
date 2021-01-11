@@ -61,6 +61,6 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<Zenject::ConditionCopyNonLazyBinder*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, binder);
     }
   }; // Zenject.ZenjectMoqExtensions
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectMoqExtensions*, "Zenject", "ZenjectMoqExtensions");

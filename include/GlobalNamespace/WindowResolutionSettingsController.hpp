@@ -73,8 +73,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<WindowResolutionSettingsController*, creationType>()));
     }
   }; // WindowResolutionSettingsController
+  #pragma pack(pop)
   static check_size<sizeof(WindowResolutionSettingsController), 48 + sizeof(::Array<UnityEngine::Vector2Int>*)> __GlobalNamespace_WindowResolutionSettingsControllerSizeCheck;
   static_assert(sizeof(WindowResolutionSettingsController) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WindowResolutionSettingsController*, "", "WindowResolutionSettingsController");

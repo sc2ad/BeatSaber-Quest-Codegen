@@ -78,8 +78,8 @@ namespace Valve::VR {
     // Offset: 0x136BA98
     Valve::VR::EVRScreenshotError SubmitScreenshot(uint screenshotHandle, Valve::VR::EVRScreenshotType type, ::Il2CppString* pchSourcePreviewFilename, ::Il2CppString* pchSourceVRFilename);
   }; // Valve.VR.CVRScreenshots
+  #pragma pack(pop)
   static check_size<sizeof(CVRScreenshots), 16 + sizeof(Valve::VR::IVRScreenshots)> __Valve_VR_CVRScreenshotsSizeCheck;
   static_assert(sizeof(CVRScreenshots) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRScreenshots*, "Valve.VR", "CVRScreenshots");

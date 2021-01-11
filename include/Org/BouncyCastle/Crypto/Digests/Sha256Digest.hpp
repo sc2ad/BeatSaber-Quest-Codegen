@@ -175,8 +175,8 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Void GeneralDigest::Reset(Org.BouncyCastle.Utilities.IMemoable other)
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);
   }; // Org.BouncyCastle.Crypto.Digests.Sha256Digest
+  #pragma pack(pop)
   static check_size<sizeof(Sha256Digest), 80 + sizeof(int)> __Org_BouncyCastle_Crypto_Digests_Sha256DigestSizeCheck;
   static_assert(sizeof(Sha256Digest) == 0x54);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Sha256Digest*, "Org.BouncyCastle.Crypto.Digests", "Sha256Digest");

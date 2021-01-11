@@ -54,8 +54,8 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1642D08
     void DrawMeshNow(int submeshIndex);
   }; // UnityEngine.ProBuilder.MeshHandle
+  #pragma pack(pop)
   static check_size<sizeof(MeshHandle), 24 + sizeof(UnityEngine::Mesh*)> __UnityEngine_ProBuilder_MeshHandleSizeCheck;
   static_assert(sizeof(MeshHandle) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshHandle*, "UnityEngine.ProBuilder", "MeshHandle");

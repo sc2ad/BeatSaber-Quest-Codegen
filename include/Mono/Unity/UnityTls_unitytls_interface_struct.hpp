@@ -297,8 +297,8 @@ namespace Mono::Unity {
       return THROW_UNLESS((::il2cpp_utils::New<UnityTls::unitytls_interface_struct*, creationType>()));
     }
   }; // Mono.Unity.UnityTls/unitytls_interface_struct
+  #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_interface_struct), 272 + sizeof(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*)> __Mono_Unity_UnityTls_unitytls_interface_structSizeCheck;
   static_assert(sizeof(UnityTls::unitytls_interface_struct) == 0x118);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_interface_struct*, "Mono.Unity", "UnityTls/unitytls_interface_struct");

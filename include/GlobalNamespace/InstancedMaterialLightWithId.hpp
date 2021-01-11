@@ -91,8 +91,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<InstancedMaterialLightWithId*, creationType>()));
     }
   }; // InstancedMaterialLightWithId
+  #pragma pack(pop)
   static check_size<sizeof(InstancedMaterialLightWithId), 68 + sizeof(UnityEngine::Color)> __GlobalNamespace_InstancedMaterialLightWithIdSizeCheck;
   static_assert(sizeof(InstancedMaterialLightWithId) == 0x54);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstancedMaterialLightWithId*, "", "InstancedMaterialLightWithId");

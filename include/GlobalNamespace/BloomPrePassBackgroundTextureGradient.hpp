@@ -127,8 +127,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // BloomPrePassBackgroundTextureGradient
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePassBackgroundTextureGradient), 40 + sizeof(UnityEngine::Material*)> __GlobalNamespace_BloomPrePassBackgroundTextureGradientSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundTextureGradient) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundTextureGradient*, "", "BloomPrePassBackgroundTextureGradient");

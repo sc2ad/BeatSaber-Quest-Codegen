@@ -114,8 +114,8 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<Asn1InputStream*, creationType>(inputStream)));
     }
   }; // Org.BouncyCastle.Asn1.Asn1InputStream
+  #pragma pack(pop)
   static check_size<sizeof(Asn1InputStream), 56 + sizeof(::Array<::Array<uint8_t>*>*)> __Org_BouncyCastle_Asn1_Asn1InputStreamSizeCheck;
   static_assert(sizeof(Asn1InputStream) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1InputStream*, "Org.BouncyCastle.Asn1", "Asn1InputStream");

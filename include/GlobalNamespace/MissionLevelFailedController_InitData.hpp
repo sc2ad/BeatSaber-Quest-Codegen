@@ -39,8 +39,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelFailedController::InitData*, creationType>(autoRestart)));
     }
   }; // MissionLevelFailedController/InitData
+  #pragma pack(pop)
   static check_size<sizeof(MissionLevelFailedController::InitData), 16 + sizeof(bool)> __GlobalNamespace_MissionLevelFailedController_InitDataSizeCheck;
   static_assert(sizeof(MissionLevelFailedController::InitData) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFailedController::InitData*, "", "MissionLevelFailedController/InitData");

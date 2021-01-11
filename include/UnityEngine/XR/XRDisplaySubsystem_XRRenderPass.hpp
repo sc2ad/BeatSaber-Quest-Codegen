@@ -76,9 +76,9 @@ namespace UnityEngine::XR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.XR.XRDisplaySubsystem/XRRenderPass
+  #pragma pack(pop)
   static check_size<sizeof(XRDisplaySubsystem::XRRenderPass), 112 + sizeof(int)> __UnityEngine_XR_XRDisplaySubsystem_XRRenderPassSizeCheck;
   static_assert(sizeof(XRDisplaySubsystem::XRRenderPass) == 0x74);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystem::XRRenderPass, "UnityEngine.XR", "XRDisplaySubsystem/XRRenderPass");

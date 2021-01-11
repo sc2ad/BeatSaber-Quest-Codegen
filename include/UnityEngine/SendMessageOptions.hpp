@@ -44,9 +44,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.SendMessageOptions DontRequireReceiver
     static void _set_DontRequireReceiver(UnityEngine::SendMessageOptions value);
   }; // UnityEngine.SendMessageOptions
+  #pragma pack(pop)
   static check_size<sizeof(SendMessageOptions), 0 + sizeof(int)> __UnityEngine_SendMessageOptionsSizeCheck;
   static_assert(sizeof(SendMessageOptions) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SendMessageOptions, "UnityEngine", "SendMessageOptions");

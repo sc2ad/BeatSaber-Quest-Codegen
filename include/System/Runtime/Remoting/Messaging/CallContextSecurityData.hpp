@@ -63,8 +63,8 @@ namespace System::Runtime::Remoting::Messaging {
       return THROW_UNLESS((::il2cpp_utils::New<CallContextSecurityData*, creationType>()));
     }
   }; // System.Runtime.Remoting.Messaging.CallContextSecurityData
+  #pragma pack(pop)
   static check_size<sizeof(CallContextSecurityData), 16 + sizeof(System::Security::Principal::IPrincipal*)> __System_Runtime_Remoting_Messaging_CallContextSecurityDataSizeCheck;
   static_assert(sizeof(CallContextSecurityData) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallContextSecurityData*, "System.Runtime.Remoting.Messaging", "CallContextSecurityData");

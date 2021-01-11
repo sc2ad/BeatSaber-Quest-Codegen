@@ -57,6 +57,6 @@ namespace System::Text {
     // Base method: System.Int32 EncoderFallbackBuffer::get_Remaining()
     int get_Remaining();
   }; // System.Text.EncoderExceptionFallbackBuffer
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderExceptionFallbackBuffer*, "System.Text", "EncoderExceptionFallbackBuffer");

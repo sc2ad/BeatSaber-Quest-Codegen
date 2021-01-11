@@ -44,7 +44,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Offset: 0x1051720
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Signers.IsoTrailers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::IsoTrailers*, "Org.BouncyCastle.Crypto.Signers", "IsoTrailers");

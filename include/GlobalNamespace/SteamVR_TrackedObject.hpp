@@ -155,6 +155,7 @@ namespace GlobalNamespace {
       // Set static field: static public SteamVR_TrackedObject/EIndex Device15
       static void _set_Device15(GlobalNamespace::SteamVR_TrackedObject::EIndex value);
     }; // SteamVR_TrackedObject/EIndex
+    #pragma pack(pop)
     static check_size<sizeof(SteamVR_TrackedObject::EIndex), 0 + sizeof(int)> __GlobalNamespace_SteamVR_TrackedObject_EIndexSizeCheck;
     static_assert(sizeof(SteamVR_TrackedObject::EIndex) == 0x4);
     // public SteamVR_TrackedObject/EIndex index
@@ -223,9 +224,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_TrackedObject*, creationType>()));
     }
   }; // SteamVR_TrackedObject
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_TrackedObject), 48 + sizeof(GlobalNamespace::SteamVR_Events::Action*)> __GlobalNamespace_SteamVR_TrackedObjectSizeCheck;
   static_assert(sizeof(SteamVR_TrackedObject) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedObject*, "", "SteamVR_TrackedObject");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedObject::EIndex, "", "SteamVR_TrackedObject/EIndex");

@@ -95,8 +95,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<BodyTilt*, creationType>()));
     }
   }; // RootMotion.FinalIK.BodyTilt
+  #pragma pack(pop)
   static check_size<sizeof(BodyTilt), 76 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_BodyTiltSizeCheck;
   static_assert(sizeof(BodyTilt) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::BodyTilt*, "RootMotion.FinalIK", "BodyTilt");

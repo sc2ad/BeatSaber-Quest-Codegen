@@ -97,8 +97,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::KickPlayerPacket*, creationType>()));
     }
   }; // ConnectedPlayerManager/KickPlayerPacket
+  #pragma pack(pop)
   static check_size<sizeof(ConnectedPlayerManager::KickPlayerPacket), 16 + sizeof(GlobalNamespace::DisconnectedReason)> __GlobalNamespace_ConnectedPlayerManager_KickPlayerPacketSizeCheck;
   static_assert(sizeof(ConnectedPlayerManager::KickPlayerPacket) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*, "", "ConnectedPlayerManager/KickPlayerPacket");

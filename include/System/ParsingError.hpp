@@ -116,9 +116,9 @@ namespace System {
     // Set static field: static public System.ParsingError CannotCreateRelative
     static void _set_CannotCreateRelative(System::ParsingError value);
   }; // System.ParsingError
+  #pragma pack(pop)
   static check_size<sizeof(ParsingError), 0 + sizeof(int)> __System_ParsingErrorSizeCheck;
   static_assert(sizeof(ParsingError) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParsingError, "System", "ParsingError");

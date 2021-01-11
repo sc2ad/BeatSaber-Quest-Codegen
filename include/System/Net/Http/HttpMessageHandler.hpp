@@ -69,6 +69,6 @@ namespace System::Net::Http {
       return THROW_UNLESS((::il2cpp_utils::New<HttpMessageHandler*, creationType>()));
     }
   }; // System.Net.Http.HttpMessageHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpMessageHandler*, "System.Net.Http", "HttpMessageHandler");

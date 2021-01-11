@@ -63,8 +63,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AsyncHelper::$$c__DisplayClass1_0*, creationType>()));
     }
   }; // AsyncHelper/<>c__DisplayClass1_0
+  #pragma pack(pop)
   static check_size<sizeof(AsyncHelper::$$c__DisplayClass1_0), 16 + sizeof(System::Func_1<System::Threading::Tasks::Task*>*)> __GlobalNamespace_AsyncHelper_$$c__DisplayClass1_0SizeCheck;
   static_assert(sizeof(AsyncHelper::$$c__DisplayClass1_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0*, "", "AsyncHelper/<>c__DisplayClass1_0");

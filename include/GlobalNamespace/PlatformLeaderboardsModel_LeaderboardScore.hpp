@@ -66,8 +66,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlatformLeaderboardsModel::LeaderboardScore*, creationType>(score, rank, playerName, playerId, gameplayModifiers)));
     }
   }; // PlatformLeaderboardsModel/LeaderboardScore
+  #pragma pack(pop)
   static check_size<sizeof(PlatformLeaderboardsModel::LeaderboardScore), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_PlatformLeaderboardsModel_LeaderboardScoreSizeCheck;
   static_assert(sizeof(PlatformLeaderboardsModel::LeaderboardScore) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*, "", "PlatformLeaderboardsModel/LeaderboardScore");

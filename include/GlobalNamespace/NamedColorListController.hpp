@@ -109,8 +109,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NamedColorListController*, creationType>()));
     }
   }; // NamedColorListController
+  #pragma pack(pop)
   static check_size<sizeof(NamedColorListController), 56 + sizeof(System::Action_1<int>*)> __GlobalNamespace_NamedColorListControllerSizeCheck;
   static_assert(sizeof(NamedColorListController) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedColorListController*, "", "NamedColorListController");

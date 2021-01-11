@@ -35,9 +35,9 @@ namespace Mono::Unity {
       return handle;
     }
   }; // Mono.Unity.UnityTls/unitytls_key_ref
+  #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_key_ref), 0 + sizeof(uint64_t)> __Mono_Unity_UnityTls_unitytls_key_refSizeCheck;
   static_assert(sizeof(UnityTls::unitytls_key_ref) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_key_ref, "Mono.Unity", "UnityTls/unitytls_key_ref");

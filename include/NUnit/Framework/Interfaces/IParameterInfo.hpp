@@ -34,7 +34,7 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0xFFFFFFFF
     System::Type* get_ParameterType();
   }; // NUnit.Framework.Interfaces.IParameterInfo
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IParameterInfo*, "NUnit.Framework.Interfaces", "IParameterInfo");

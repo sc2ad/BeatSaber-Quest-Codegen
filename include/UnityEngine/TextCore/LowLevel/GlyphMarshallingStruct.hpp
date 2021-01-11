@@ -76,8 +76,8 @@ namespace UnityEngine::TextCore::LowLevel {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, glyph);
     }
   }; // UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct
+  #pragma pack(pop)
   static check_size<sizeof(GlyphMarshallingStruct), 44 + sizeof(int)> __UnityEngine_TextCore_LowLevel_GlyphMarshallingStructSizeCheck;
   static_assert(sizeof(GlyphMarshallingStruct) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, "UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct");

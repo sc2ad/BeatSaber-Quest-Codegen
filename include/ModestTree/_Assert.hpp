@@ -226,6 +226,6 @@ namespace ModestTree {
       return CreateException(innerException, message, {parameters...});
     }
   }; // ModestTree.Assert
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::_Assert*, "ModestTree", "Assert");

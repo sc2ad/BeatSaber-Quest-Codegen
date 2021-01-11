@@ -207,8 +207,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ClientGameServerLobbyFlowCoordinator*, creationType>()));
     }
   }; // ClientGameServerLobbyFlowCoordinator
+  #pragma pack(pop)
   static check_size<sizeof(ClientGameServerLobbyFlowCoordinator), 360 + sizeof(System::Action_1<GlobalNamespace::ClientGameServerLobbyFlowCoordinator*>*)> __GlobalNamespace_ClientGameServerLobbyFlowCoordinatorSizeCheck;
   static_assert(sizeof(ClientGameServerLobbyFlowCoordinator) == 0x170);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClientGameServerLobbyFlowCoordinator*, "", "ClientGameServerLobbyFlowCoordinator");

@@ -92,6 +92,7 @@ namespace GlobalNamespace {
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  StatsScopeData(::Il2CppString* text, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc)
     }; // PlayerStatisticsViewController/StatsScopeData
+    #pragma pack(pop)
     static check_size<sizeof(PlayerStatisticsViewController::StatsScopeData), 8 + sizeof(System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>*)> __GlobalNamespace_PlayerStatisticsViewController_StatsScopeDataSizeCheck;
     static_assert(sizeof(PlayerStatisticsViewController::StatsScopeData) == 0x10);
     // private HMUI.TextSegmentedControl _statsScopeSegmentedControl
@@ -225,9 +226,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerStatisticsViewController*, creationType>()));
     }
   }; // PlayerStatisticsViewController
+  #pragma pack(pop)
   static check_size<sizeof(PlayerStatisticsViewController), 216 + sizeof(::Array<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>*)> __GlobalNamespace_PlayerStatisticsViewControllerSizeCheck;
   static_assert(sizeof(PlayerStatisticsViewController) == 0xE0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController*, "", "PlayerStatisticsViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController::StatsScopeData, "", "PlayerStatisticsViewController/StatsScopeData");

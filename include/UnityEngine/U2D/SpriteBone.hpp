@@ -67,9 +67,9 @@ namespace UnityEngine::U2D {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.U2D.SpriteBone
+  #pragma pack(pop)
   static check_size<sizeof(SpriteBone), 40 + sizeof(int)> __UnityEngine_U2D_SpriteBoneSizeCheck;
   static_assert(sizeof(SpriteBone) == 0x2C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteBone, "UnityEngine.U2D", "SpriteBone");

@@ -140,8 +140,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelFailedController*, creationType>()));
     }
   }; // StandardLevelFailedController
+  #pragma pack(pop)
   static check_size<sizeof(StandardLevelFailedController), 88 + sizeof(GlobalNamespace::BeatmapObjectManager*)> __GlobalNamespace_StandardLevelFailedControllerSizeCheck;
   static_assert(sizeof(StandardLevelFailedController) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelFailedController*, "", "StandardLevelFailedController");

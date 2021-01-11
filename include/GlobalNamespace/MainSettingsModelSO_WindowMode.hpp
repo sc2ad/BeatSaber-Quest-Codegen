@@ -46,9 +46,9 @@ namespace GlobalNamespace {
     // Set static field: static public MainSettingsModelSO/WindowMode Fullscreen
     static void _set_Fullscreen(GlobalNamespace::MainSettingsModelSO::WindowMode value);
   }; // MainSettingsModelSO/WindowMode
+  #pragma pack(pop)
   static check_size<sizeof(MainSettingsModelSO::WindowMode), 0 + sizeof(int)> __GlobalNamespace_MainSettingsModelSO_WindowModeSizeCheck;
   static_assert(sizeof(MainSettingsModelSO::WindowMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsModelSO::WindowMode, "", "MainSettingsModelSO/WindowMode");

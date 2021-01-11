@@ -79,8 +79,8 @@ namespace System::Text {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Text.DecoderReplacementFallback
+  #pragma pack(pop)
   static check_size<sizeof(DecoderReplacementFallback), 24 + sizeof(::Il2CppString*)> __System_Text_DecoderReplacementFallbackSizeCheck;
   static_assert(sizeof(DecoderReplacementFallback) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderReplacementFallback*, "System.Text", "DecoderReplacementFallback");

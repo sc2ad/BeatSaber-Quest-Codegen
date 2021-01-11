@@ -157,6 +157,7 @@ namespace System::Net {
       // Set static field: static public System.Net.FtpWebRequest/RequestState Error
       static void _set_Error(System::Net::FtpWebRequest::RequestState value);
     }; // System.Net.FtpWebRequest/RequestState
+    #pragma pack(pop)
     static check_size<sizeof(FtpWebRequest::RequestState), 0 + sizeof(int)> __System_Net_FtpWebRequest_RequestStateSizeCheck;
     static_assert(sizeof(FtpWebRequest::RequestState) == 0x4);
     // private System.Uri requestUri
@@ -604,9 +605,9 @@ namespace System::Net {
     // Base method: System.Void WebRequest::.cctor()
     static void _cctor();
   }; // System.Net.FtpWebRequest
+  #pragma pack(pop)
   static check_size<sizeof(FtpWebRequest), 216 + sizeof(System::Text::Encoding*)> __System_Net_FtpWebRequestSizeCheck;
   static_assert(sizeof(FtpWebRequest) == 0xE0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpWebRequest*, "System.Net", "FtpWebRequest");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpWebRequest::RequestState, "System.Net", "FtpWebRequest/RequestState");

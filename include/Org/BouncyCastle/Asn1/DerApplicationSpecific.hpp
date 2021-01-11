@@ -95,8 +95,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
   }; // Org.BouncyCastle.Asn1.DerApplicationSpecific
+  #pragma pack(pop)
   static check_size<sizeof(DerApplicationSpecific), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Asn1_DerApplicationSpecificSizeCheck;
   static_assert(sizeof(DerApplicationSpecific) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerApplicationSpecific*, "Org.BouncyCastle.Asn1", "DerApplicationSpecific");

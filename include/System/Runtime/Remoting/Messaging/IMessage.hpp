@@ -26,7 +26,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0xFFFFFFFF
     System::Collections::IDictionary* get_Properties();
   }; // System.Runtime.Remoting.Messaging.IMessage
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IMessage*, "System.Runtime.Remoting.Messaging", "IMessage");

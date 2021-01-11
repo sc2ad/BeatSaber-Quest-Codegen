@@ -45,8 +45,8 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<InternalUtility::$$c__DisplayClass6_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.InternalUtility/<>c__DisplayClass6_0
+  #pragma pack(pop)
   static check_size<sizeof(InternalUtility::$$c__DisplayClass6_0), 16 + sizeof(::Il2CppString*)> __UnityEngine_ProBuilder_InternalUtility_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(InternalUtility::$$c__DisplayClass6_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0*, "UnityEngine.ProBuilder", "InternalUtility/<>c__DisplayClass6_0");

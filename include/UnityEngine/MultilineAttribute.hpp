@@ -44,8 +44,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<MultilineAttribute*, creationType>()));
     }
   }; // UnityEngine.MultilineAttribute
+  #pragma pack(pop)
   static check_size<sizeof(MultilineAttribute), 16 + sizeof(int)> __UnityEngine_MultilineAttributeSizeCheck;
   static_assert(sizeof(MultilineAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MultilineAttribute*, "UnityEngine", "MultilineAttribute");

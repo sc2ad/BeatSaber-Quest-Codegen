@@ -42,8 +42,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<UnityAPICompatibilityVersionAttribute*, creationType>(version, configurationAssembliesHashes)));
     }
   }; // UnityEngine.UnityAPICompatibilityVersionAttribute
+  #pragma pack(pop)
   static check_size<sizeof(UnityAPICompatibilityVersionAttribute), 24 + sizeof(::Array<::Il2CppString*>*)> __UnityEngine_UnityAPICompatibilityVersionAttributeSizeCheck;
   static_assert(sizeof(UnityAPICompatibilityVersionAttribute) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityAPICompatibilityVersionAttribute*, "UnityEngine", "UnityAPICompatibilityVersionAttribute");

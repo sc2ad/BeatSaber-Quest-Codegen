@@ -96,8 +96,8 @@ namespace UnityEngine::UI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.UI.Button/<OnFinishSubmit>d__9
+  #pragma pack(pop)
   static check_size<sizeof(Button::$OnFinishSubmit$d__9), 44 + sizeof(float)> __UnityEngine_UI_Button_$OnFinishSubmit$d__9SizeCheck;
   static_assert(sizeof(Button::$OnFinishSubmit$d__9) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Button::$OnFinishSubmit$d__9*, "UnityEngine.UI", "Button/<OnFinishSubmit>d__9");

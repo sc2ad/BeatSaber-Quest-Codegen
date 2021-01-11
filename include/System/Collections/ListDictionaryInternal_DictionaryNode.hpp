@@ -49,8 +49,8 @@ namespace System::Collections {
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionaryInternal::DictionaryNode*, creationType>()));
     }
   }; // System.Collections.ListDictionaryInternal/DictionaryNode
+  #pragma pack(pop)
   static check_size<sizeof(ListDictionaryInternal::DictionaryNode), 32 + sizeof(System::Collections::ListDictionaryInternal::DictionaryNode*)> __System_Collections_ListDictionaryInternal_DictionaryNodeSizeCheck;
   static_assert(sizeof(ListDictionaryInternal::DictionaryNode) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::DictionaryNode*, "System.Collections", "ListDictionaryInternal/DictionaryNode");

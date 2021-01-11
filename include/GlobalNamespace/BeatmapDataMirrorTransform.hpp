@@ -44,6 +44,6 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataMirrorTransform*, creationType>()));
     }
   }; // BeatmapDataMirrorTransform
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataMirrorTransform*, "", "BeatmapDataMirrorTransform");

@@ -41,8 +41,8 @@ namespace System::Runtime::InteropServices {
       return THROW_UNLESS((::il2cpp_utils::New<ComVisibleAttribute*, creationType>(visibility)));
     }
   }; // System.Runtime.InteropServices.ComVisibleAttribute
+  #pragma pack(pop)
   static check_size<sizeof(ComVisibleAttribute), 16 + sizeof(bool)> __System_Runtime_InteropServices_ComVisibleAttributeSizeCheck;
   static_assert(sizeof(ComVisibleAttribute) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComVisibleAttribute*, "System.Runtime.InteropServices", "ComVisibleAttribute");

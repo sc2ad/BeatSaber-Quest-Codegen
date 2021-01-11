@@ -76,8 +76,8 @@ namespace GlobalNamespace {
     // Offset: 0x135B700
     uint64_t Release();
   }; // SteamVR_TrackedCamera/VideoStream
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_TrackedCamera::VideoStream), 40 + sizeof(uint64_t)> __GlobalNamespace_SteamVR_TrackedCamera_VideoStreamSizeCheck;
   static_assert(sizeof(SteamVR_TrackedCamera::VideoStream) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedCamera::VideoStream*, "", "SteamVR_TrackedCamera/VideoStream");

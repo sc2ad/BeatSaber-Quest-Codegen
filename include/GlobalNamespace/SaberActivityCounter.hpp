@@ -217,8 +217,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberActivityCounter*, creationType>()));
     }
   }; // SaberActivityCounter
+  #pragma pack(pop)
   static check_size<sizeof(SaberActivityCounter), 160 + sizeof(GlobalNamespace::MovementHistoryRecorder*)> __GlobalNamespace_SaberActivityCounterSizeCheck;
   static_assert(sizeof(SaberActivityCounter) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberActivityCounter*, "", "SaberActivityCounter");

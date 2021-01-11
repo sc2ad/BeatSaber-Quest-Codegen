@@ -87,6 +87,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRSkeletonRenderer/ConfidenceBehavior ToggleRenderer
       static void _set_ToggleRenderer(GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior value);
     }; // OVRSkeletonRenderer/ConfidenceBehavior
+    #pragma pack(pop)
     static check_size<sizeof(OVRSkeletonRenderer::ConfidenceBehavior), 0 + sizeof(int)> __GlobalNamespace_OVRSkeletonRenderer_ConfidenceBehaviorSizeCheck;
     static_assert(sizeof(OVRSkeletonRenderer::ConfidenceBehavior) == 0x4);
     // Size: 0x4
@@ -124,6 +125,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRSkeletonRenderer/SystemGestureBehavior SwapMaterial
       static void _set_SwapMaterial(GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior value);
     }; // OVRSkeletonRenderer/SystemGestureBehavior
+    #pragma pack(pop)
     static check_size<sizeof(OVRSkeletonRenderer::SystemGestureBehavior), 0 + sizeof(int)> __GlobalNamespace_OVRSkeletonRenderer_SystemGestureBehaviorSizeCheck;
     static_assert(sizeof(OVRSkeletonRenderer::SystemGestureBehavior) == 0x4);
     // private OVRSkeletonRenderer/IOVRSkeletonRendererDataProvider _dataProvider
@@ -318,10 +320,10 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // OVRSkeletonRenderer
+  #pragma pack(pop)
   static check_size<sizeof(OVRSkeletonRenderer), 135 + sizeof(bool)> __GlobalNamespace_OVRSkeletonRendererSizeCheck;
   static_assert(sizeof(OVRSkeletonRenderer) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer*, "", "OVRSkeletonRenderer");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior, "", "OVRSkeletonRenderer/ConfidenceBehavior");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior, "", "OVRSkeletonRenderer/SystemGestureBehavior");

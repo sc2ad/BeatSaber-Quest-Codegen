@@ -222,8 +222,8 @@ namespace System::Net {
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
   }; // System.Net.WebProxy
+  #pragma pack(pop)
   static check_size<sizeof(WebProxy), 64 + sizeof(System::Net::AutoWebProxyScriptEngine*)> __System_Net_WebProxySizeCheck;
   static_assert(sizeof(WebProxy) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebProxy*, "System.Net", "WebProxy");

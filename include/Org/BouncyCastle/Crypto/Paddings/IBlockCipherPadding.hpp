@@ -36,7 +36,7 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     // Offset: 0xFFFFFFFF
     int PadCount(::Array<uint8_t>* input);
   }; // Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*, "Org.BouncyCastle.Crypto.Paddings", "IBlockCipherPadding");

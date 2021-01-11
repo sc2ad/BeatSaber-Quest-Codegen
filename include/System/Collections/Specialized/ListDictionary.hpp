@@ -165,8 +165,8 @@ namespace System::Collections::Specialized {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.Specialized.ListDictionary
+  #pragma pack(pop)
   static check_size<sizeof(ListDictionary), 32 + sizeof(System::Collections::IComparer*)> __System_Collections_Specialized_ListDictionarySizeCheck;
   static_assert(sizeof(ListDictionary) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary*, "System.Collections.Specialized", "ListDictionary");

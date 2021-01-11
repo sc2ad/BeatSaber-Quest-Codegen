@@ -51,8 +51,8 @@ namespace UnityEngine {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.GlobalJavaObjectRef
+  #pragma pack(pop)
   static check_size<sizeof(GlobalJavaObjectRef), 24 + sizeof(System::IntPtr)> __UnityEngine_GlobalJavaObjectRefSizeCheck;
   static_assert(sizeof(GlobalJavaObjectRef) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GlobalJavaObjectRef*, "UnityEngine", "GlobalJavaObjectRef");

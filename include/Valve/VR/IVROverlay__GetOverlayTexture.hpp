@@ -61,6 +61,6 @@ namespace Valve::VR {
     // Offset: 0x18F4330
     Valve::VR::EVROverlayError EndInvoke(System::IntPtr& pNativeTextureHandle, uint& pWidth, uint& pHeight, uint& pNativeFormat, Valve::VR::ETextureType& pAPIType, Valve::VR::EColorSpace& pColorSpace, Valve::VR::VRTextureBounds_t& pTextureBounds, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayTexture
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetOverlayTexture*, "Valve.VR", "IVROverlay/_GetOverlayTexture");

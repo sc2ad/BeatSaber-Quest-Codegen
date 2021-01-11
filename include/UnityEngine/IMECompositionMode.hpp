@@ -50,9 +50,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.IMECompositionMode Off
     static void _set_Off(UnityEngine::IMECompositionMode value);
   }; // UnityEngine.IMECompositionMode
+  #pragma pack(pop)
   static check_size<sizeof(IMECompositionMode), 0 + sizeof(int)> __UnityEngine_IMECompositionModeSizeCheck;
   static_assert(sizeof(IMECompositionMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IMECompositionMode, "UnityEngine", "IMECompositionMode");

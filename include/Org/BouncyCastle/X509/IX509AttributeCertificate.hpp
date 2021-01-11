@@ -15,7 +15,7 @@ namespace Org::BouncyCastle::X509 {
     // Creating value type constructor for type: IX509AttributeCertificate
     IX509AttributeCertificate() noexcept {}
   }; // Org.BouncyCastle.X509.IX509AttributeCertificate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::IX509AttributeCertificate*, "Org.BouncyCastle.X509", "IX509AttributeCertificate");

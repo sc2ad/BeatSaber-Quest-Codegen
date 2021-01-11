@@ -71,8 +71,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SignalOnUIButtonClick*, creationType>()));
     }
   }; // SignalOnUIButtonClick
+  #pragma pack(pop)
   static check_size<sizeof(SignalOnUIButtonClick), 32 + sizeof(UnityEngine::UI::Button*)> __GlobalNamespace_SignalOnUIButtonClickSizeCheck;
   static_assert(sizeof(SignalOnUIButtonClick) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalOnUIButtonClick*, "", "SignalOnUIButtonClick");

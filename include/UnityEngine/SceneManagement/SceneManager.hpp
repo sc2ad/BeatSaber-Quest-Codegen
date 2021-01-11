@@ -167,7 +167,7 @@ namespace UnityEngine::SceneManagement {
     // Offset: 0x16BF9F0
     static void MoveGameObjectToScene_Injected(UnityEngine::GameObject* go, UnityEngine::SceneManagement::Scene& scene);
   }; // UnityEngine.SceneManagement.SceneManager
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::SceneManager*, "UnityEngine.SceneManagement", "SceneManager");

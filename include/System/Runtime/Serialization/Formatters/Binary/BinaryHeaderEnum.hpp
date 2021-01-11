@@ -170,9 +170,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum MethodReturn
     static void _set_MethodReturn(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum value);
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum
+  #pragma pack(pop)
   static check_size<sizeof(BinaryHeaderEnum), 0 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_BinaryHeaderEnumSizeCheck;
   static_assert(sizeof(BinaryHeaderEnum) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum, "System.Runtime.Serialization.Formatters.Binary", "BinaryHeaderEnum");

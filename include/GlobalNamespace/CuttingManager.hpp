@@ -70,8 +70,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CuttingManager*, creationType>()));
     }
   }; // CuttingManager
+  #pragma pack(pop)
   static check_size<sizeof(CuttingManager), 32 + sizeof(GlobalNamespace::NoteCutter*)> __GlobalNamespace_CuttingManagerSizeCheck;
   static_assert(sizeof(CuttingManager) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CuttingManager*, "", "CuttingManager");

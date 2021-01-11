@@ -114,6 +114,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVROverlay/OverlayShape Equirect
       static void _set_Equirect(GlobalNamespace::OVROverlay::OverlayShape value);
     }; // OVROverlay/OverlayShape
+    #pragma pack(pop)
     static check_size<sizeof(OVROverlay::OverlayShape), 0 + sizeof(int)> __GlobalNamespace_OVROverlay_OverlayShapeSizeCheck;
     static_assert(sizeof(OVROverlay::OverlayShape) == 0x4);
     // Size: 0x4
@@ -157,6 +158,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVROverlay/OverlayType Overlay
       static void _set_Overlay(GlobalNamespace::OVROverlay::OverlayType value);
     }; // OVROverlay/OverlayType
+    #pragma pack(pop)
     static check_size<sizeof(OVROverlay::OverlayType), 0 + sizeof(int)> __GlobalNamespace_OVROverlay_OverlayTypeSizeCheck;
     static_assert(sizeof(OVROverlay::OverlayType) == 0x4);
     // Size: 0x20
@@ -197,6 +199,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // OVROverlay/LayerTexture
+    #pragma pack(pop)
     static check_size<sizeof(OVROverlay::LayerTexture), 24 + sizeof(::Array<System::IntPtr>*)> __GlobalNamespace_OVROverlay_LayerTextureSizeCheck;
     static_assert(sizeof(OVROverlay::LayerTexture) == 0x20);
     // [TooltipAttribute] Offset: 0xD8672C
@@ -577,10 +580,10 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // OVROverlay
+  #pragma pack(pop)
   static check_size<sizeof(OVROverlay), 412 + sizeof(bool)> __GlobalNamespace_OVROverlaySizeCheck;
   static_assert(sizeof(OVROverlay) == 0x19D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay*, "", "OVROverlay");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::OverlayShape, "", "OVROverlay/OverlayShape");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::OverlayType, "", "OVROverlay/OverlayType");

@@ -50,9 +50,9 @@ namespace System {
     // Set static field: static public System.UriIdnScope All
     static void _set_All(System::UriIdnScope value);
   }; // System.UriIdnScope
+  #pragma pack(pop)
   static check_size<sizeof(UriIdnScope), 0 + sizeof(int)> __System_UriIdnScopeSizeCheck;
   static_assert(sizeof(UriIdnScope) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriIdnScope, "System", "UriIdnScope");

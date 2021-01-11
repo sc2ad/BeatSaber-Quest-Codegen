@@ -63,8 +63,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<ObsoleteAttribute*, creationType>()));
     }
   }; // System.ObsoleteAttribute
+  #pragma pack(pop)
   static check_size<sizeof(ObsoleteAttribute), 24 + sizeof(bool)> __System_ObsoleteAttributeSizeCheck;
   static_assert(sizeof(ObsoleteAttribute) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ObsoleteAttribute*, "System", "ObsoleteAttribute");

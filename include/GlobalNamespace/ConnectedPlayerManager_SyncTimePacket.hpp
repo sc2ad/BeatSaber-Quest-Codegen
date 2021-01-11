@@ -95,8 +95,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::SyncTimePacket*, creationType>()));
     }
   }; // ConnectedPlayerManager/SyncTimePacket
+  #pragma pack(pop)
   static check_size<sizeof(ConnectedPlayerManager::SyncTimePacket), 16 + sizeof(float)> __GlobalNamespace_ConnectedPlayerManager_SyncTimePacketSizeCheck;
   static_assert(sizeof(ConnectedPlayerManager::SyncTimePacket) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::SyncTimePacket*, "", "ConnectedPlayerManager/SyncTimePacket");

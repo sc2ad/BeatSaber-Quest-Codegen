@@ -29,6 +29,6 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<__ComObject*, creationType>()));
     }
   }; // System.__ComObject
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::__ComObject*, "System", "__ComObject");

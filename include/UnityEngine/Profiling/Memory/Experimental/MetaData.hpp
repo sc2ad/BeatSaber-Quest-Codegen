@@ -41,8 +41,8 @@ namespace UnityEngine::Profiling::Memory::Experimental {
       return THROW_UNLESS((::il2cpp_utils::New<MetaData*, creationType>()));
     }
   }; // UnityEngine.Profiling.Memory.Experimental.MetaData
+  #pragma pack(pop)
   static check_size<sizeof(MetaData), 24 + sizeof(::Il2CppString*)> __UnityEngine_Profiling_Memory_Experimental_MetaDataSizeCheck;
   static_assert(sizeof(MetaData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Memory::Experimental::MetaData*, "UnityEngine.Profiling.Memory.Experimental", "MetaData");

@@ -80,6 +80,7 @@ namespace Zenject {
       // Set static field: static public Zenject.ZenjectBinding/BindTypes BaseType
       static void _set_BaseType(Zenject::ZenjectBinding::BindTypes value);
     }; // Zenject.ZenjectBinding/BindTypes
+    #pragma pack(pop)
     static check_size<sizeof(ZenjectBinding::BindTypes), 0 + sizeof(int)> __Zenject_ZenjectBinding_BindTypesSizeCheck;
     static_assert(sizeof(ZenjectBinding::BindTypes) == 0x4);
     // [TooltipAttribute] Offset: 0xD948C8
@@ -169,9 +170,9 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectBinding*, creationType>()));
     }
   }; // Zenject.ZenjectBinding
+  #pragma pack(pop)
   static check_size<sizeof(ZenjectBinding), 56 + sizeof(Zenject::ZenjectBinding::BindTypes)> __Zenject_ZenjectBindingSizeCheck;
   static_assert(sizeof(ZenjectBinding) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectBinding*, "Zenject", "ZenjectBinding");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectBinding::BindTypes, "Zenject", "ZenjectBinding/BindTypes");

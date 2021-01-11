@@ -64,9 +64,9 @@ namespace UnityEngine::Networking {
     // Set static field: static public UnityEngine.Networking.UnityWebRequest/UnityWebRequestMethod Custom
     static void _set_Custom(UnityEngine::Networking::UnityWebRequest::UnityWebRequestMethod value);
   }; // UnityEngine.Networking.UnityWebRequest/UnityWebRequestMethod
+  #pragma pack(pop)
   static check_size<sizeof(UnityWebRequest::UnityWebRequestMethod), 0 + sizeof(int)> __UnityEngine_Networking_UnityWebRequest_UnityWebRequestMethodSizeCheck;
   static_assert(sizeof(UnityWebRequest::UnityWebRequestMethod) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequest::UnityWebRequestMethod, "UnityEngine.Networking", "UnityWebRequest/UnityWebRequestMethod");

@@ -64,9 +64,9 @@ namespace Microsoft::Win32 {
     // Set static field: static public Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/ActivityControl EVENT_ACTIVITY_CTRL_CREATE_SET_ID
     static void _set_EVENT_ACTIVITY_CTRL_CREATE_SET_ID(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::ActivityControl value);
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/ActivityControl
+  #pragma pack(pop)
   static check_size<sizeof(UnsafeNativeMethods::ManifestEtw::ActivityControl), 0 + sizeof(uint)> __Microsoft_Win32_UnsafeNativeMethods_ManifestEtw_ActivityControlSizeCheck;
   static_assert(sizeof(UnsafeNativeMethods::ManifestEtw::ActivityControl) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::ActivityControl, "Microsoft.Win32", "UnsafeNativeMethods/ManifestEtw/ActivityControl");

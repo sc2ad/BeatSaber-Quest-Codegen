@@ -92,8 +92,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifierParamsSO*, creationType>()));
     }
   }; // GameplayModifierParamsSO
+  #pragma pack(pop)
   static check_size<sizeof(GameplayModifierParamsSO), 56 + sizeof(::Array<GlobalNamespace::GameplayModifierParamsSO*>*)> __GlobalNamespace_GameplayModifierParamsSOSizeCheck;
   static_assert(sizeof(GameplayModifierParamsSO) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierParamsSO*, "", "GameplayModifierParamsSO");

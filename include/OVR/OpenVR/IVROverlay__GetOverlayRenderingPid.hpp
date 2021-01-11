@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x186DA50
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayRenderingPid
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayRenderingPid*, "OVR.OpenVR", "IVROverlay/_GetOverlayRenderingPid");

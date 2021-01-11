@@ -106,8 +106,8 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // ByteArrayNetSerializable
+  #pragma pack(pop)
   static check_size<sizeof(ByteArrayNetSerializable), 40 + sizeof(int)> __GlobalNamespace_ByteArrayNetSerializableSizeCheck;
   static_assert(sizeof(ByteArrayNetSerializable) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ByteArrayNetSerializable*, "", "ByteArrayNetSerializable");

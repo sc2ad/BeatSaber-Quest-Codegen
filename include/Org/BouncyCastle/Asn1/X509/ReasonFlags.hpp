@@ -29,6 +29,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return THROW_UNLESS((::il2cpp_utils::New<ReasonFlags*, creationType>(reasons)));
     }
   }; // Org.BouncyCastle.Asn1.X509.ReasonFlags
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::ReasonFlags*, "Org.BouncyCastle.Asn1.X509", "ReasonFlags");

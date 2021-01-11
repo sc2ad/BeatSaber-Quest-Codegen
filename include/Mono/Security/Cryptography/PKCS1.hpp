@@ -51,7 +51,7 @@ namespace Mono::Security::Cryptography {
     // Offset: 0x17B4DDC
     static void _cctor();
   }; // Mono.Security.Cryptography.PKCS1
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS1*, "Mono.Security.Cryptography", "PKCS1");

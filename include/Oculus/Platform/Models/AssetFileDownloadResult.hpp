@@ -41,8 +41,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<AssetFileDownloadResult*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.AssetFileDownloadResult
+  #pragma pack(pop)
   static check_size<sizeof(AssetFileDownloadResult), 24 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_AssetFileDownloadResultSizeCheck;
   static_assert(sizeof(AssetFileDownloadResult) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDownloadResult*, "Oculus.Platform.Models", "AssetFileDownloadResult");

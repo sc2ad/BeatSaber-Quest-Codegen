@@ -173,8 +173,8 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0x13E7E98
     static void _cctor();
   }; // NUnit.Framework.Interfaces.TNode
+  #pragma pack(pop)
   static check_size<sizeof(TNode), 48 + sizeof(NUnit::Framework::Interfaces::NodeList*)> __NUnit_Framework_Interfaces_TNodeSizeCheck;
   static_assert(sizeof(TNode) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TNode*, "NUnit.Framework.Interfaces", "TNode");

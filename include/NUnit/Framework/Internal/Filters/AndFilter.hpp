@@ -81,6 +81,6 @@ namespace NUnit::Framework::Internal::Filters {
     // Base method: System.String CompositeFilter::get_ElementName()
     ::Il2CppString* get_ElementName();
   }; // NUnit.Framework.Internal.Filters.AndFilter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::AndFilter*, "NUnit.Framework.Internal.Filters", "AndFilter");

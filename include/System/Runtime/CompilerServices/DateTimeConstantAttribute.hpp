@@ -37,9 +37,9 @@ namespace System::Runtime::CompilerServices {
     // Base method: System.Object CustomConstantAttribute::get_Value()
     ::Il2CppObject* get_Value();
   }; // System.Runtime.CompilerServices.DateTimeConstantAttribute
+  #pragma pack(pop)
   static check_size<sizeof(DateTimeConstantAttribute), 16 + sizeof(System::DateTime)> __System_Runtime_CompilerServices_DateTimeConstantAttributeSizeCheck;
   static_assert(sizeof(DateTimeConstantAttribute) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DateTimeConstantAttribute*, "System.Runtime.CompilerServices", "DateTimeConstantAttribute");

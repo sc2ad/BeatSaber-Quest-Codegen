@@ -124,8 +124,8 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter::AttributeValueCache*, creationType>()));
     }
   }; // System.Xml.XmlWellFormedWriter/AttributeValueCache
+  #pragma pack(pop)
   static check_size<sizeof(XmlWellFormedWriter::AttributeValueCache), 44 + sizeof(int)> __System_Xml_XmlWellFormedWriter_AttributeValueCacheSizeCheck;
   static_assert(sizeof(XmlWellFormedWriter::AttributeValueCache) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache");

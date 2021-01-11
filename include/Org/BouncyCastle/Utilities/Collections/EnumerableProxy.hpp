@@ -58,8 +58,8 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // Org.BouncyCastle.Utilities.Collections.EnumerableProxy
+  #pragma pack(pop)
   static check_size<sizeof(EnumerableProxy), 16 + sizeof(System::Collections::IEnumerable*)> __Org_BouncyCastle_Utilities_Collections_EnumerableProxySizeCheck;
   static_assert(sizeof(EnumerableProxy) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::EnumerableProxy*, "Org.BouncyCastle.Utilities.Collections", "EnumerableProxy");

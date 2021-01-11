@@ -265,8 +265,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // SteamVR_RenderModel
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_RenderModel), 88 + sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*)> __GlobalNamespace_SteamVR_RenderModelSizeCheck;
   static_assert(sizeof(SteamVR_RenderModel) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel*, "", "SteamVR_RenderModel");

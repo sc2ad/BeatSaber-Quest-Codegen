@@ -167,8 +167,8 @@ namespace System::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.CollectionBase
+  #pragma pack(pop)
   static check_size<sizeof(CollectionBase), 16 + sizeof(System::Collections::ArrayList*)> __System_Collections_CollectionBaseSizeCheck;
   static_assert(sizeof(CollectionBase) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CollectionBase*, "System.Collections", "CollectionBase");

@@ -61,8 +61,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<ScrollViewState*, creationType>()));
     }
   }; // UnityEngine.ScrollViewState
+  #pragma pack(pop)
   static check_size<sizeof(ScrollViewState), 72 + sizeof(bool)> __UnityEngine_ScrollViewStateSizeCheck;
   static_assert(sizeof(ScrollViewState) == 0x49);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScrollViewState*, "UnityEngine", "ScrollViewState");

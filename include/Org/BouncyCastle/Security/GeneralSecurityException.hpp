@@ -50,6 +50,6 @@ namespace Org::BouncyCastle::Security {
       return THROW_UNLESS((::il2cpp_utils::New<GeneralSecurityException*, creationType>(message, exception)));
     }
   }; // Org.BouncyCastle.Security.GeneralSecurityException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::GeneralSecurityException*, "Org.BouncyCastle.Security", "GeneralSecurityException");

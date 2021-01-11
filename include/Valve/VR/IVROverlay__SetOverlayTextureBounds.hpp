@@ -57,6 +57,6 @@ namespace Valve::VR {
     // Offset: 0x191A578
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::VRTextureBounds_t& pOverlayTextureBounds, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetOverlayTextureBounds
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_SetOverlayTextureBounds*, "Valve.VR", "IVROverlay/_SetOverlayTextureBounds");

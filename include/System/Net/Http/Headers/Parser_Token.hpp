@@ -24,7 +24,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x1202C7C
     static bool TryCheck(::Il2CppString* s);
   }; // System.Net.Http.Headers.Parser/Token
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::Token*, "System.Net.Http.Headers", "Parser/Token");

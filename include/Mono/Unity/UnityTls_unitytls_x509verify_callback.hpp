@@ -50,6 +50,6 @@ namespace Mono::Unity {
     // Offset: 0x127429C
     Mono::Unity::UnityTls::unitytls_x509verify_result EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_x509verify_callback
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_x509verify_callback*, "Mono.Unity", "UnityTls/unitytls_x509verify_callback");

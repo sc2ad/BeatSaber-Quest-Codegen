@@ -188,9 +188,9 @@ namespace System::IO {
     // Set static field: static public System.IO.MonoIOError ERROR_ENCRYPTION_FAILED
     static void _set_ERROR_ENCRYPTION_FAILED(System::IO::MonoIOError value);
   }; // System.IO.MonoIOError
+  #pragma pack(pop)
   static check_size<sizeof(MonoIOError), 0 + sizeof(int)> __System_IO_MonoIOErrorSizeCheck;
   static_assert(sizeof(MonoIOError) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIOError, "System.IO", "MonoIOError");

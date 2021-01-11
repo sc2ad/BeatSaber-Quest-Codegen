@@ -87,8 +87,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentOverrideSettingsPanelController::Elements*, creationType>()));
     }
   }; // EnvironmentOverrideSettingsPanelController/Elements
+  #pragma pack(pop)
   static check_size<sizeof(EnvironmentOverrideSettingsPanelController::Elements), 40 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>*)> __GlobalNamespace_EnvironmentOverrideSettingsPanelController_ElementsSizeCheck;
   static_assert(sizeof(EnvironmentOverrideSettingsPanelController::Elements) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*, "", "EnvironmentOverrideSettingsPanelController/Elements");

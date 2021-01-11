@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x192A93C
     void EndInvoke(int& pnAdapterIndex, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetDXGIOutputInfo
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetDXGIOutputInfo*, "Valve.VR", "IVRSystem/_GetDXGIOutputInfo");

@@ -64,8 +64,8 @@ namespace System {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.OrdinalComparer
+  #pragma pack(pop)
   static check_size<sizeof(OrdinalComparer), 16 + sizeof(bool)> __System_OrdinalComparerSizeCheck;
   static_assert(sizeof(OrdinalComparer) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::OrdinalComparer*, "System", "OrdinalComparer");

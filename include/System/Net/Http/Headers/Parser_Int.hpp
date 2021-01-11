@@ -21,7 +21,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x1206B34
     static bool TryParse(::Il2CppString* input, int& result);
   }; // System.Net.Http.Headers.Parser/Int
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::Int*, "System.Net.Http.Headers", "Parser/Int");

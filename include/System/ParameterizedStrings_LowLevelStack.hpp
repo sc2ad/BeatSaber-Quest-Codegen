@@ -52,8 +52,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<ParameterizedStrings::LowLevelStack*, creationType>()));
     }
   }; // System.ParameterizedStrings/LowLevelStack
+  #pragma pack(pop)
   static check_size<sizeof(ParameterizedStrings::LowLevelStack), 24 + sizeof(int)> __System_ParameterizedStrings_LowLevelStackSizeCheck;
   static_assert(sizeof(ParameterizedStrings::LowLevelStack) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::LowLevelStack*, "System", "ParameterizedStrings/LowLevelStack");

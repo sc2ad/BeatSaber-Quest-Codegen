@@ -185,6 +185,7 @@ namespace UnityEngine {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Vector2 other)
     bool Equals(UnityEngine::Vector2 other);
   }; // UnityEngine.Vector2
+  #pragma pack(pop)
   static check_size<sizeof(Vector2), 4 + sizeof(float)> __UnityEngine_Vector2SizeCheck;
   static_assert(sizeof(Vector2) == 0x8);
   // static public UnityEngine.Vector2 op_Addition(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
@@ -218,5 +219,4 @@ namespace UnityEngine {
   // Offset: 0x16CAEA4
   bool operator !=(const UnityEngine::Vector2& lhs, const UnityEngine::Vector2& rhs);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector2, "UnityEngine", "Vector2");

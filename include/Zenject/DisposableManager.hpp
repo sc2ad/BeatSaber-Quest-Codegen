@@ -87,6 +87,7 @@ namespace Zenject {
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  DisposableInfo(System::IDisposable* disposable, int priority)
     }; // Zenject.DisposableManager/DisposableInfo
+    #pragma pack(pop)
     static check_size<sizeof(DisposableManager::DisposableInfo), 8 + sizeof(int)> __Zenject_DisposableManager_DisposableInfoSizeCheck;
     static_assert(sizeof(DisposableManager::DisposableInfo) == 0xC);
     // private readonly System.Collections.Generic.List`1<Zenject.DisposableManager/DisposableInfo> _disposables
@@ -153,9 +154,9 @@ namespace Zenject {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Zenject.DisposableManager
+  #pragma pack(pop)
   static check_size<sizeof(DisposableManager), 33 + sizeof(bool)> __Zenject_DisposableManagerSizeCheck;
   static_assert(sizeof(DisposableManager) == 0x22);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager*, "Zenject", "DisposableManager");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::DisposableInfo, "Zenject", "DisposableManager/DisposableInfo");

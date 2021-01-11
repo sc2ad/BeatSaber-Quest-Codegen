@@ -91,8 +91,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ButtonBinder*, creationType>()));
     }
   }; // HMUI.ButtonBinder
+  #pragma pack(pop)
   static check_size<sizeof(ButtonBinder), 16 + sizeof(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, UnityEngine::Events::UnityAction*>*>*)> __HMUI_ButtonBinderSizeCheck;
   static_assert(sizeof(ButtonBinder) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonBinder*, "HMUI", "ButtonBinder");

@@ -114,8 +114,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<QuestShowcaseAppInit*, creationType>()));
     }
   }; // QuestShowcaseAppInit
+  #pragma pack(pop)
   static check_size<sizeof(QuestShowcaseAppInit), 96 + sizeof(GlobalNamespace::PlayerDataModel*)> __GlobalNamespace_QuestShowcaseAppInitSizeCheck;
   static_assert(sizeof(QuestShowcaseAppInit) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuestShowcaseAppInit*, "", "QuestShowcaseAppInit");

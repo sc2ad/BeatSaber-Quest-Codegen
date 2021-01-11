@@ -76,8 +76,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TubeBloomPrePassLightWithId*, creationType>()));
     }
   }; // TubeBloomPrePassLightWithId
+  #pragma pack(pop)
   static check_size<sizeof(TubeBloomPrePassLightWithId), 57 + sizeof(bool)> __GlobalNamespace_TubeBloomPrePassLightWithIdSizeCheck;
   static_assert(sizeof(TubeBloomPrePassLightWithId) == 0x3A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeBloomPrePassLightWithId*, "", "TubeBloomPrePassLightWithId");

@@ -203,6 +203,7 @@ namespace System {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Version
+  #pragma pack(pop)
   static check_size<sizeof(Version), 28 + sizeof(int)> __System_VersionSizeCheck;
   static_assert(sizeof(Version) == 0x20);
   // static public System.Boolean op_Equality(System.Version v1, System.Version v2)
@@ -224,5 +225,4 @@ namespace System {
   // Offset: 0x1662080
   bool operator >=(System::Version* v1, System::Version& v2);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Version*, "System", "Version");

@@ -70,8 +70,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<AnimatedSwitchView::ColorBlock*, creationType>()));
     }
   }; // HMUI.AnimatedSwitchView/ColorBlock
+  #pragma pack(pop)
   static check_size<sizeof(AnimatedSwitchView::ColorBlock), 96 + sizeof(UnityEngine::Color)> __HMUI_AnimatedSwitchView_ColorBlockSizeCheck;
   static_assert(sizeof(AnimatedSwitchView::ColorBlock) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::ColorBlock*, "HMUI", "AnimatedSwitchView/ColorBlock");

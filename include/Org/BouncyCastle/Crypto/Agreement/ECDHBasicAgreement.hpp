@@ -77,8 +77,8 @@ namespace Org::BouncyCastle::Crypto::Agreement {
       return THROW_UNLESS((::il2cpp_utils::New<ECDHBasicAgreement*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Agreement.ECDHBasicAgreement
+  #pragma pack(pop)
   static check_size<sizeof(ECDHBasicAgreement), 16 + sizeof(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*)> __Org_BouncyCastle_Crypto_Agreement_ECDHBasicAgreementSizeCheck;
   static_assert(sizeof(ECDHBasicAgreement) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*, "Org.BouncyCastle.Crypto.Agreement", "ECDHBasicAgreement");

@@ -146,6 +146,7 @@ namespace GlobalNamespace {
       // Set static field: static public LocalNetworkDiscoveryManager/PacketType InviteResponse
       static void _set_InviteResponse(GlobalNamespace::LocalNetworkDiscoveryManager::PacketType value);
     }; // LocalNetworkDiscoveryManager/PacketType
+    #pragma pack(pop)
     static check_size<sizeof(LocalNetworkDiscoveryManager::PacketType), 0 + sizeof(uint8_t)> __GlobalNamespace_LocalNetworkDiscoveryManager_PacketTypeSizeCheck;
     static_assert(sizeof(LocalNetworkDiscoveryManager::PacketType) == 0x1);
     // [CompilerGeneratedAttribute] Offset: 0xDC44DC
@@ -423,9 +424,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkDiscoveryManager*, creationType>()));
     }
   }; // LocalNetworkDiscoveryManager
+  #pragma pack(pop)
   static check_size<sizeof(LocalNetworkDiscoveryManager), 104 + sizeof(float)> __GlobalNamespace_LocalNetworkDiscoveryManagerSizeCheck;
   static_assert(sizeof(LocalNetworkDiscoveryManager) == 0x6C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager*, "", "LocalNetworkDiscoveryManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::PacketType, "", "LocalNetworkDiscoveryManager/PacketType");

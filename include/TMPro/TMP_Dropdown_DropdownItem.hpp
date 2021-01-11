@@ -135,8 +135,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::DropdownItem*, creationType>()));
     }
   }; // TMPro.TMP_Dropdown/DropdownItem
+  #pragma pack(pop)
   static check_size<sizeof(TMP_Dropdown::DropdownItem), 48 + sizeof(UnityEngine::UI::Toggle*)> __TMPro_TMP_Dropdown_DropdownItemSizeCheck;
   static_assert(sizeof(TMP_Dropdown::DropdownItem) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::DropdownItem*, "TMPro", "TMP_Dropdown/DropdownItem");

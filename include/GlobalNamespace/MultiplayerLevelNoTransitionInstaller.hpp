@@ -128,8 +128,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLevelNoTransitionInstaller*, creationType>()));
     }
   }; // MultiplayerLevelNoTransitionInstaller
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLevelNoTransitionInstaller), 88 + sizeof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*)> __GlobalNamespace_MultiplayerLevelNoTransitionInstallerSizeCheck;
   static_assert(sizeof(MultiplayerLevelNoTransitionInstaller) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelNoTransitionInstaller*, "", "MultiplayerLevelNoTransitionInstaller");

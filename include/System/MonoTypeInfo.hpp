@@ -49,8 +49,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<MonoTypeInfo*, creationType>()));
     }
   }; // System.MonoTypeInfo
+  #pragma pack(pop)
   static check_size<sizeof(MonoTypeInfo), 24 + sizeof(System::Reflection::MonoCMethod*)> __System_MonoTypeInfoSizeCheck;
   static_assert(sizeof(MonoTypeInfo) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::MonoTypeInfo*, "System", "MonoTypeInfo");

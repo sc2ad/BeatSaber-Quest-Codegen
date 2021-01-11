@@ -65,6 +65,6 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void EventSource::.cctor()
     static void _cctor();
   }; // System.Diagnostics.Tracing.TplEtwProvider
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TplEtwProvider*, "System.Diagnostics.Tracing", "TplEtwProvider");

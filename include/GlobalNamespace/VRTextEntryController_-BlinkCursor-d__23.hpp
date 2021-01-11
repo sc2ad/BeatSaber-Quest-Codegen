@@ -92,8 +92,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // VRTextEntryController/<BlinkCursor>d__23
+  #pragma pack(pop)
   static check_size<sizeof(VRTextEntryController::$BlinkCursor$d__23), 40 + sizeof(UnityEngine::Color)> __GlobalNamespace_VRTextEntryController_$BlinkCursor$d__23SizeCheck;
   static_assert(sizeof(VRTextEntryController::$BlinkCursor$d__23) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTextEntryController::$BlinkCursor$d__23*, "", "VRTextEntryController/<BlinkCursor>d__23");

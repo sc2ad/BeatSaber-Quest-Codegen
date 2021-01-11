@@ -62,8 +62,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Asset*, creationType>()));
     }
   }; // TMPro.TMP_Asset
+  #pragma pack(pop)
   static check_size<sizeof(TMP_Asset), 40 + sizeof(int)> __TMPro_TMP_AssetSizeCheck;
   static_assert(sizeof(TMP_Asset) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Asset*, "TMPro", "TMP_Asset");

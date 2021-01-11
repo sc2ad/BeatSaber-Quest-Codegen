@@ -206,8 +206,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // Parametric3SliceSpriteController
+  #pragma pack(pop)
   static check_size<sizeof(Parametric3SliceSpriteController), 88 + sizeof(bool)> __GlobalNamespace_Parametric3SliceSpriteControllerSizeCheck;
   static_assert(sizeof(Parametric3SliceSpriteController) == 0x59);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Parametric3SliceSpriteController*, "", "Parametric3SliceSpriteController");

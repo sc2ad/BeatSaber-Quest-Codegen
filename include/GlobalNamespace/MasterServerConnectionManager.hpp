@@ -145,6 +145,7 @@ namespace GlobalNamespace {
       // Set static field: static public MasterServerConnectionManager/ConnectionAttempt DedicatedServer
       static void _set_DedicatedServer(GlobalNamespace::MasterServerConnectionManager::ConnectionAttempt value);
     }; // MasterServerConnectionManager/ConnectionAttempt
+    #pragma pack(pop)
     static check_size<sizeof(MasterServerConnectionManager::ConnectionAttempt), 0 + sizeof(int)> __GlobalNamespace_MasterServerConnectionManager_ConnectionAttemptSizeCheck;
     static_assert(sizeof(MasterServerConnectionManager::ConnectionAttempt) == 0x4);
     // Size: 0x4
@@ -194,6 +195,7 @@ namespace GlobalNamespace {
       // Set static field: static public MasterServerConnectionManager/ConnectionState Disconnecting
       static void _set_Disconnecting(GlobalNamespace::MasterServerConnectionManager::ConnectionState value);
     }; // MasterServerConnectionManager/ConnectionState
+    #pragma pack(pop)
     static check_size<sizeof(MasterServerConnectionManager::ConnectionState), 0 + sizeof(int)> __GlobalNamespace_MasterServerConnectionManager_ConnectionStateSizeCheck;
     static_assert(sizeof(MasterServerConnectionManager::ConnectionState) == 0x4);
     // private readonly LiteNetLibConnectionManager _liteNetLibConnectionManager
@@ -635,10 +637,10 @@ namespace GlobalNamespace {
     // Base method: System.Void IMessageSender::SendMessage(LiteNetLib.Utils.NetDataWriter writer, System.Net.IPEndPoint endPoint)
     void MasterServer_MessageHandler_IMessageSender_SendMessage(LiteNetLib::Utils::NetDataWriter* writer, System::Net::IPEndPoint* endPoint);
   }; // MasterServerConnectionManager
+  #pragma pack(pop)
   static check_size<sizeof(MasterServerConnectionManager), 192 + sizeof(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*)> __GlobalNamespace_MasterServerConnectionManagerSizeCheck;
   static_assert(sizeof(MasterServerConnectionManager) == 0xC8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager*, "", "MasterServerConnectionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::ConnectionAttempt, "", "MasterServerConnectionManager/ConnectionAttempt");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::ConnectionState, "", "MasterServerConnectionManager/ConnectionState");

@@ -98,8 +98,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRPlugin::Mesh*, creationType>()));
     }
   }; // OVRPlugin/Mesh
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Mesh), 72 + sizeof(::Array<GlobalNamespace::OVRPlugin::Vector4f>*)> __GlobalNamespace_OVRPlugin_MeshSizeCheck;
   static_assert(sizeof(OVRPlugin::Mesh) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Mesh*, "", "OVRPlugin/Mesh");

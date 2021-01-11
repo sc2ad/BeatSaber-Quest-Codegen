@@ -52,8 +52,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelsModel::$$c__DisplayClass34_0*, creationType>()));
     }
   }; // BeatmapLevelsModel/<>c__DisplayClass34_0
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapLevelsModel::$$c__DisplayClass34_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_BeatmapLevelsModel_$$c__DisplayClass34_0SizeCheck;
   static_assert(sizeof(BeatmapLevelsModel::$$c__DisplayClass34_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass34_0*, "", "BeatmapLevelsModel/<>c__DisplayClass34_0");

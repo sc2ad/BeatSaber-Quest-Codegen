@@ -54,8 +54,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ModalView::$$c__DisplayClass16_0*, creationType>()));
     }
   }; // HMUI.ModalView/<>c__DisplayClass16_0
+  #pragma pack(pop)
   static check_size<sizeof(ModalView::$$c__DisplayClass16_0), 24 + sizeof(System::Action*)> __HMUI_ModalView_$$c__DisplayClass16_0SizeCheck;
   static_assert(sizeof(ModalView::$$c__DisplayClass16_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView::$$c__DisplayClass16_0*, "HMUI", "ModalView/<>c__DisplayClass16_0");

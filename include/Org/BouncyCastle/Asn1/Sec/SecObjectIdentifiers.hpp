@@ -162,7 +162,7 @@ namespace Org::BouncyCastle::Asn1::Sec {
     // Offset: 0x1406D24
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Sec.SecObjectIdentifiers
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers*, "Org.BouncyCastle.Asn1.Sec", "SecObjectIdentifiers");

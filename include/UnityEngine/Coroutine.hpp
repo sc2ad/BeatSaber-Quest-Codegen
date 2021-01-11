@@ -55,8 +55,8 @@ namespace UnityEngine {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.Coroutine
+  #pragma pack(pop)
   static check_size<sizeof(Coroutine), 16 + sizeof(System::IntPtr)> __UnityEngine_CoroutineSizeCheck;
   static_assert(sizeof(Coroutine) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Coroutine*, "UnityEngine", "Coroutine");

@@ -176,9 +176,9 @@ namespace System::Globalization {
     // Set static field: static public System.Globalization.CalendarId LAST_CALENDAR
     static void _set_LAST_CALENDAR(System::Globalization::CalendarId value);
   }; // System.Globalization.CalendarId
+  #pragma pack(pop)
   static check_size<sizeof(CalendarId), 0 + sizeof(uint16_t)> __System_Globalization_CalendarIdSizeCheck;
   static_assert(sizeof(CalendarId) == 0x2);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CalendarId, "System.Globalization", "CalendarId");

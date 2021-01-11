@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x1922538
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRResources/_LoadSharedResource
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRResources::_LoadSharedResource*, "Valve.VR", "IVRResources/_LoadSharedResource");

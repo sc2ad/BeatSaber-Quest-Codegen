@@ -278,8 +278,8 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.Runtime.Remoting.Messaging.AsyncResult
+  #pragma pack(pop)
   static check_size<sizeof(AsyncResult), 120 + sizeof(System::Threading::WaitCallback*)> __System_Runtime_Remoting_Messaging_AsyncResultSizeCheck;
   static_assert(sizeof(AsyncResult) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::AsyncResult*, "System.Runtime.Remoting.Messaging", "AsyncResult");

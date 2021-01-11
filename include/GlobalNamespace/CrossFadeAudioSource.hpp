@@ -185,8 +185,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CrossFadeAudioSource*, creationType>()));
     }
   }; // CrossFadeAudioSource
+  #pragma pack(pop)
   static check_size<sizeof(CrossFadeAudioSource), 112 + sizeof(GlobalNamespace::AudioPitchGainEffect*)> __GlobalNamespace_CrossFadeAudioSourceSizeCheck;
   static_assert(sizeof(CrossFadeAudioSource) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CrossFadeAudioSource*, "", "CrossFadeAudioSource");

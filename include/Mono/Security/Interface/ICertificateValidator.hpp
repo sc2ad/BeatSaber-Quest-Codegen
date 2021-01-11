@@ -45,7 +45,7 @@ namespace Mono::Security::Interface {
     // Offset: 0xFFFFFFFF
     Mono::Security::Interface::ValidationResult* ValidateCertificate(::Il2CppString* targetHost, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates);
   }; // Mono.Security.Interface.ICertificateValidator
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::ICertificateValidator*, "Mono.Security.Interface", "ICertificateValidator");

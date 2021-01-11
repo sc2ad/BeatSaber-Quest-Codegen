@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // SimpleRetailDemoFlowCoordinator/<QuitApplicationCoroutine>d__22
+  #pragma pack(pop)
   static check_size<sizeof(SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22), 32 + sizeof(GlobalNamespace::SimpleRetailDemoFlowCoordinator*)> __GlobalNamespace_SimpleRetailDemoFlowCoordinator_$QuitApplicationCoroutine$d__22SizeCheck;
   static_assert(sizeof(SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22*, "", "SimpleRetailDemoFlowCoordinator/<QuitApplicationCoroutine>d__22");

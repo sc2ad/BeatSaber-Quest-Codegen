@@ -72,8 +72,8 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x119B218
     static void _cctor();
   }; // System.Net.NetworkInformation.MibIPGlobalProperties
+  #pragma pack(pop)
   static check_size<sizeof(MibIPGlobalProperties), 56 + sizeof(::Il2CppString*)> __System_Net_NetworkInformation_MibIPGlobalPropertiesSizeCheck;
   static_assert(sizeof(MibIPGlobalProperties) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MibIPGlobalProperties*, "System.Net.NetworkInformation", "MibIPGlobalProperties");

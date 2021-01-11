@@ -82,8 +82,8 @@ namespace System::Runtime::Remoting::Messaging {
       return THROW_UNLESS((::il2cpp_utils::New<CADMethodRef*, creationType>(msg)));
     }
   }; // System.Runtime.Remoting.Messaging.CADMethodRef
+  #pragma pack(pop)
   static check_size<sizeof(CADMethodRef), 48 + sizeof(::Array<::Il2CppString*>*)> __System_Runtime_Remoting_Messaging_CADMethodRefSizeCheck;
   static_assert(sizeof(CADMethodRef) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodRef*, "System.Runtime.Remoting.Messaging", "CADMethodRef");

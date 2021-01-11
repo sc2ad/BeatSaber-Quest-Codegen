@@ -122,9 +122,9 @@ namespace UnityEngine::EventSystems {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.EventSystems.RaycastResult
+  #pragma pack(pop)
   static check_size<sizeof(RaycastResult), 68 + sizeof(int)> __UnityEngine_EventSystems_RaycastResultSizeCheck;
   static_assert(sizeof(RaycastResult) == 0x48);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::RaycastResult, "UnityEngine.EventSystems", "RaycastResult");

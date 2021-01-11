@@ -65,8 +65,8 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0x116E3CC
     System::Collections::IDictionary* get_Properties();
   }; // System.Runtime.Remoting.Channels.SinkProviderData
+  #pragma pack(pop)
   static check_size<sizeof(SinkProviderData), 32 + sizeof(System::Collections::Hashtable*)> __System_Runtime_Remoting_Channels_SinkProviderDataSizeCheck;
   static_assert(sizeof(SinkProviderData) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::SinkProviderData*, "System.Runtime.Remoting.Channels", "SinkProviderData");

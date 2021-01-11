@@ -213,9 +213,9 @@ namespace System::Globalization {
     // Set static field: static public System.Globalization.UnicodeCategory OtherNotAssigned
     static void _set_OtherNotAssigned(System::Globalization::UnicodeCategory value);
   }; // System.Globalization.UnicodeCategory
+  #pragma pack(pop)
   static check_size<sizeof(UnicodeCategory), 0 + sizeof(int)> __System_Globalization_UnicodeCategorySizeCheck;
   static_assert(sizeof(UnicodeCategory) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::UnicodeCategory, "System.Globalization", "UnicodeCategory");

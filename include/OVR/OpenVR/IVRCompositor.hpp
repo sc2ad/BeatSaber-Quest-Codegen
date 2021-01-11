@@ -371,9 +371,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.IVRCompositor
+  #pragma pack(pop)
   static check_size<sizeof(IVRCompositor), 336 + sizeof(OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData*)> __OVR_OpenVR_IVRCompositorSizeCheck;
   static_assert(sizeof(IVRCompositor) == 0x158);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor, "OVR.OpenVR", "IVRCompositor");

@@ -44,6 +44,6 @@ namespace UnityEngine::TestTools::TestRunner {
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
   }; // UnityEngine.TestTools.TestRunner.InvalidSignatureException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::InvalidSignatureException*, "UnityEngine.TestTools.TestRunner", "InvalidSignatureException");

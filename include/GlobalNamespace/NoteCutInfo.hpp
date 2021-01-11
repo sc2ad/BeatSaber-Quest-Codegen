@@ -131,8 +131,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutInfo*, creationType>(speedOK, directionOK, saberTypeOK, wasCutTooSoon, saberSpeed, saberDir, saberType, timeDeviation, cutDirDeviation, cutPoint, cutNormal, cutDistanceToCenter, cutAngle, swingRatingCounter)));
     }
   }; // NoteCutInfo
+  #pragma pack(pop)
   static check_size<sizeof(NoteCutInfo), 80 + sizeof(GlobalNamespace::ISaberSwingRatingCounter*)> __GlobalNamespace_NoteCutInfoSizeCheck;
   static_assert(sizeof(NoteCutInfo) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutInfo*, "", "NoteCutInfo");

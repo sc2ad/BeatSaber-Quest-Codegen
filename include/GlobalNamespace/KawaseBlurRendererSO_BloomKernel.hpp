@@ -45,8 +45,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<KawaseBlurRendererSO::BloomKernel*, creationType>()));
     }
   }; // KawaseBlurRendererSO/BloomKernel
+  #pragma pack(pop)
   static check_size<sizeof(KawaseBlurRendererSO::BloomKernel), 20 + sizeof(int)> __GlobalNamespace_KawaseBlurRendererSO_BloomKernelSizeCheck;
   static_assert(sizeof(KawaseBlurRendererSO::BloomKernel) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBlurRendererSO::BloomKernel*, "", "KawaseBlurRendererSO/BloomKernel");

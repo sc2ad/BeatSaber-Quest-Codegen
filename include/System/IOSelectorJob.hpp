@@ -83,8 +83,8 @@ namespace System {
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.IOSelectorJob
+  #pragma pack(pop)
   static check_size<sizeof(IOSelectorJob), 32 + sizeof(System::IOAsyncResult*)> __System_IOSelectorJobSizeCheck;
   static_assert(sizeof(IOSelectorJob) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IOSelectorJob*, "System", "IOSelectorJob");

@@ -68,9 +68,9 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.EventLevel Verbose
     static void _set_Verbose(System::Diagnostics::Tracing::EventLevel value);
   }; // System.Diagnostics.Tracing.EventLevel
+  #pragma pack(pop)
   static check_size<sizeof(EventLevel), 0 + sizeof(int)> __System_Diagnostics_Tracing_EventLevelSizeCheck;
   static_assert(sizeof(EventLevel) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventLevel, "System.Diagnostics.Tracing", "EventLevel");

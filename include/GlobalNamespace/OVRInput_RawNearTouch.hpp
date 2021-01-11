@@ -71,9 +71,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRInput/RawNearTouch Any
     static void _set_Any(GlobalNamespace::OVRInput::RawNearTouch value);
   }; // OVRInput/RawNearTouch
+  #pragma pack(pop)
   static check_size<sizeof(OVRInput::RawNearTouch), 0 + sizeof(int)> __GlobalNamespace_OVRInput_RawNearTouchSizeCheck;
   static_assert(sizeof(OVRInput::RawNearTouch) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::RawNearTouch, "", "OVRInput/RawNearTouch");

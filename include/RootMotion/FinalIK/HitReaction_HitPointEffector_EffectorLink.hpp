@@ -74,8 +74,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction::HitPointEffector::EffectorLink*, creationType>()));
     }
   }; // RootMotion.FinalIK.HitReaction/HitPointEffector/EffectorLink
+  #pragma pack(pop)
   static check_size<sizeof(HitReaction::HitPointEffector::EffectorLink), 36 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_HitReaction_HitPointEffector_EffectorLinkSizeCheck;
   static_assert(sizeof(HitReaction::HitPointEffector::EffectorLink) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*, "RootMotion.FinalIK", "HitReaction/HitPointEffector/EffectorLink");

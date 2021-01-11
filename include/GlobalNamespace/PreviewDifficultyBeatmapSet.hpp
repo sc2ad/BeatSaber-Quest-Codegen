@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PreviewDifficultyBeatmapSet*, creationType>(beatmapCharacteristic, beatmapDifficulties)));
     }
   }; // PreviewDifficultyBeatmapSet
+  #pragma pack(pop)
   static check_size<sizeof(PreviewDifficultyBeatmapSet), 24 + sizeof(::Array<GlobalNamespace::BeatmapDifficulty>*)> __GlobalNamespace_PreviewDifficultyBeatmapSetSizeCheck;
   static_assert(sizeof(PreviewDifficultyBeatmapSet) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviewDifficultyBeatmapSet*, "", "PreviewDifficultyBeatmapSet");

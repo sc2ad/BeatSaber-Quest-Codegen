@@ -61,8 +61,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StaticEnvironmentLights*, creationType>()));
     }
   }; // StaticEnvironmentLights
+  #pragma pack(pop)
   static check_size<sizeof(StaticEnvironmentLights), 32 + sizeof(::Array<UnityEngine::Material*>*)> __GlobalNamespace_StaticEnvironmentLightsSizeCheck;
   static_assert(sizeof(StaticEnvironmentLights) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StaticEnvironmentLights*, "", "StaticEnvironmentLights");

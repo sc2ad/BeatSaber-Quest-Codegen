@@ -126,8 +126,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BaseMultiplayerStartGameCountdownViewController*, creationType>()));
     }
   }; // BaseMultiplayerStartGameCountdownViewController
+  #pragma pack(pop)
   static check_size<sizeof(BaseMultiplayerStartGameCountdownViewController), 144 + sizeof(HMUI::ToggleBinder*)> __GlobalNamespace_BaseMultiplayerStartGameCountdownViewControllerSizeCheck;
   static_assert(sizeof(BaseMultiplayerStartGameCountdownViewController) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*, "", "BaseMultiplayerStartGameCountdownViewController");

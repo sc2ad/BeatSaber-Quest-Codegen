@@ -46,8 +46,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<NetSyncSetSessionPropertyResult*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.NetSyncSetSessionPropertyResult
+  #pragma pack(pop)
   static check_size<sizeof(NetSyncSetSessionPropertyResult), 16 + sizeof(Oculus::Platform::Models::NetSyncSession*)> __Oculus_Platform_Models_NetSyncSetSessionPropertyResultSizeCheck;
   static_assert(sizeof(NetSyncSetSessionPropertyResult) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncSetSessionPropertyResult*, "Oculus.Platform.Models", "NetSyncSetSessionPropertyResult");

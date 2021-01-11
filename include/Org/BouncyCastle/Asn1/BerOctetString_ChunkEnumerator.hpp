@@ -92,8 +92,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // Org.BouncyCastle.Asn1.BerOctetString/ChunkEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(BerOctetString::ChunkEnumerator), 40 + sizeof(int)> __Org_BouncyCastle_Asn1_BerOctetString_ChunkEnumeratorSizeCheck;
   static_assert(sizeof(BerOctetString::ChunkEnumerator) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator*, "Org.BouncyCastle.Asn1", "BerOctetString/ChunkEnumerator");

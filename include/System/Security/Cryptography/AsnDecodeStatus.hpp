@@ -68,9 +68,9 @@ namespace System::Security::Cryptography {
     // Set static field: static public System.Security.Cryptography.AsnDecodeStatus InformationNotAvailable
     static void _set_InformationNotAvailable(System::Security::Cryptography::AsnDecodeStatus value);
   }; // System.Security.Cryptography.AsnDecodeStatus
+  #pragma pack(pop)
   static check_size<sizeof(AsnDecodeStatus), 0 + sizeof(int)> __System_Security_Cryptography_AsnDecodeStatusSizeCheck;
   static_assert(sizeof(AsnDecodeStatus) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsnDecodeStatus, "System.Security.Cryptography", "AsnDecodeStatus");

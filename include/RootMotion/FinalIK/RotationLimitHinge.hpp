@@ -97,8 +97,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<RotationLimitHinge*, creationType>()));
     }
   }; // RootMotion.FinalIK.RotationLimitHinge
+  #pragma pack(pop)
   static check_size<sizeof(RotationLimitHinge), 88 + sizeof(float)> __RootMotion_FinalIK_RotationLimitHingeSizeCheck;
   static_assert(sizeof(RotationLimitHinge) == 0x5C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitHinge*, "RootMotion.FinalIK", "RotationLimitHinge");

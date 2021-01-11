@@ -19,7 +19,7 @@ namespace System::Runtime::InteropServices {
     // Creating value type constructor for type: _Module
     _Module() noexcept {}
   }; // System.Runtime.InteropServices._Module
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::_Module*, "System.Runtime.InteropServices", "_Module");

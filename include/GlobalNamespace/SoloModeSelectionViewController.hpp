@@ -85,6 +85,7 @@ namespace GlobalNamespace {
       // Set static field: static public SoloModeSelectionViewController/MenuType Back
       static void _set_Back(GlobalNamespace::SoloModeSelectionViewController::MenuType value);
     }; // SoloModeSelectionViewController/MenuType
+    #pragma pack(pop)
     static check_size<sizeof(SoloModeSelectionViewController::MenuType), 0 + sizeof(int)> __GlobalNamespace_SoloModeSelectionViewController_MenuTypeSizeCheck;
     static_assert(sizeof(SoloModeSelectionViewController::MenuType) == 0x4);
     // private UnityEngine.UI.Button _freePlayModeButton
@@ -161,9 +162,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SoloModeSelectionViewController*, creationType>()));
     }
   }; // SoloModeSelectionViewController
+  #pragma pack(pop)
   static check_size<sizeof(SoloModeSelectionViewController), 144 + sizeof(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>*)> __GlobalNamespace_SoloModeSelectionViewControllerSizeCheck;
   static_assert(sizeof(SoloModeSelectionViewController) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloModeSelectionViewController*, "", "SoloModeSelectionViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloModeSelectionViewController::MenuType, "", "SoloModeSelectionViewController/MenuType");

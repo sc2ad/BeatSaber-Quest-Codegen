@@ -58,8 +58,8 @@ namespace Menu::ViewControllers {
       return THROW_UNLESS((::il2cpp_utils::New<EditAvatarHistorySnapshot*, creationType>(avatarData, avatarEditPart)));
     }
   }; // Menu.ViewControllers.EditAvatarHistorySnapshot
+  #pragma pack(pop)
   static check_size<sizeof(EditAvatarHistorySnapshot), 24 + sizeof(GlobalNamespace::AvatarData*)> __Menu_ViewControllers_EditAvatarHistorySnapshotSizeCheck;
   static_assert(sizeof(EditAvatarHistorySnapshot) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Menu::ViewControllers::EditAvatarHistorySnapshot*, "Menu.ViewControllers", "EditAvatarHistorySnapshot");

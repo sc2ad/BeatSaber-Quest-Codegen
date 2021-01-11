@@ -204,8 +204,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdown*, creationType>()));
     }
   }; // MultiplayerIntroCountdown
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerIntroCountdown), 148 + sizeof(float)> __GlobalNamespace_MultiplayerIntroCountdownSizeCheck;
   static_assert(sizeof(MultiplayerIntroCountdown) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown*, "", "MultiplayerIntroCountdown");

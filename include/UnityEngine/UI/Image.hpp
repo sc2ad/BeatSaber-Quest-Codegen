@@ -122,6 +122,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.Image/Type Filled
       static void _set_Filled(UnityEngine::UI::Image::Type value);
     }; // UnityEngine.UI.Image/Type
+    #pragma pack(pop)
     static check_size<sizeof(Image::Type), 0 + sizeof(int)> __UnityEngine_UI_Image_TypeSizeCheck;
     static_assert(sizeof(Image::Type) == 0x4);
     // Size: 0x4
@@ -177,6 +178,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.Image/FillMethod Radial360
       static void _set_Radial360(UnityEngine::UI::Image::FillMethod value);
     }; // UnityEngine.UI.Image/FillMethod
+    #pragma pack(pop)
     static check_size<sizeof(Image::FillMethod), 0 + sizeof(int)> __UnityEngine_UI_Image_FillMethodSizeCheck;
     static_assert(sizeof(Image::FillMethod) == 0x4);
     // [FormerlySerializedAsAttribute] Offset: 0xD7E2FC
@@ -599,10 +601,10 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.UI.Image
+  #pragma pack(pop)
   static check_size<sizeof(Image), 244 + sizeof(float)> __UnityEngine_UI_ImageSizeCheck;
   static_assert(sizeof(Image) == 0xF8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image*, "UnityEngine.UI", "Image");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::Type, "UnityEngine.UI", "Image/Type");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::FillMethod, "UnityEngine.UI", "Image/FillMethod");

@@ -154,6 +154,7 @@ namespace RootMotion::FinalIK {
         // Set static field: static public RootMotion.FinalIK.InteractionObject/WeightCurve/Type BendGoalWeight
         static void _set_BendGoalWeight(RootMotion::FinalIK::InteractionObject::WeightCurve::Type value);
       }; // RootMotion.FinalIK.InteractionObject/WeightCurve/Type
+      #pragma pack(pop)
       static check_size<sizeof(InteractionObject::WeightCurve::Type), 0 + sizeof(int)> __RootMotion_FinalIK_InteractionObject_WeightCurve_TypeSizeCheck;
       static_assert(sizeof(InteractionObject::WeightCurve::Type) == 0x4);
       // [TooltipAttribute] Offset: 0xDBA554
@@ -187,6 +188,7 @@ namespace RootMotion::FinalIK {
         return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::WeightCurve*, creationType>()));
       }
     }; // RootMotion.FinalIK.InteractionObject/WeightCurve
+    #pragma pack(pop)
     static check_size<sizeof(InteractionObject::WeightCurve), 24 + sizeof(UnityEngine::AnimationCurve*)> __RootMotion_FinalIK_InteractionObject_WeightCurveSizeCheck;
     static_assert(sizeof(InteractionObject::WeightCurve) == 0x20);
     // [TooltipAttribute] Offset: 0xDB73F0
@@ -349,10 +351,10 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionObject
+  #pragma pack(pop)
   static check_size<sizeof(InteractionObject), 88 + sizeof(::Array<RootMotion::FinalIK::InteractionTarget*>*)> __RootMotion_FinalIK_InteractionObjectSizeCheck;
   static_assert(sizeof(InteractionObject) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject*, "RootMotion.FinalIK", "InteractionObject");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::WeightCurve*, "RootMotion.FinalIK", "InteractionObject/WeightCurve");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::WeightCurve::Type, "RootMotion.FinalIK", "InteractionObject/WeightCurve/Type");

@@ -94,8 +94,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
   }; // Org.BouncyCastle.Asn1.DerEnumerated
+  #pragma pack(pop)
   static check_size<sizeof(DerEnumerated), 24 + sizeof(int)> __Org_BouncyCastle_Asn1_DerEnumeratedSizeCheck;
   static_assert(sizeof(DerEnumerated) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerEnumerated*, "Org.BouncyCastle.Asn1", "DerEnumerated");

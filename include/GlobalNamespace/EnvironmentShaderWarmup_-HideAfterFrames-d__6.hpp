@@ -92,8 +92,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // EnvironmentShaderWarmup/<HideAfterFrames>d__6
+  #pragma pack(pop)
   static check_size<sizeof(EnvironmentShaderWarmup::$HideAfterFrames$d__6), 40 + sizeof(GlobalNamespace::EnvironmentShaderWarmup*)> __GlobalNamespace_EnvironmentShaderWarmup_$HideAfterFrames$d__6SizeCheck;
   static_assert(sizeof(EnvironmentShaderWarmup::$HideAfterFrames$d__6) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentShaderWarmup::$HideAfterFrames$d__6*, "", "EnvironmentShaderWarmup/<HideAfterFrames>d__6");

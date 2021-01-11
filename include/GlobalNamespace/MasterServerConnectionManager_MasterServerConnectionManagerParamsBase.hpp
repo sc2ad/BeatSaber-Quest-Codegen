@@ -70,8 +70,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MasterServerConnectionManager::MasterServerConnectionManagerParamsBase*, creationType>()));
     }
   }; // MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
+  #pragma pack(pop)
   static check_size<sizeof(MasterServerConnectionManager::MasterServerConnectionManagerParamsBase), 40 + sizeof(::Il2CppString*)> __GlobalNamespace_MasterServerConnectionManager_MasterServerConnectionManagerParamsBaseSizeCheck;
   static_assert(sizeof(MasterServerConnectionManager::MasterServerConnectionManagerParamsBase) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::MasterServerConnectionManagerParamsBase*, "", "MasterServerConnectionManager/MasterServerConnectionManagerParamsBase");

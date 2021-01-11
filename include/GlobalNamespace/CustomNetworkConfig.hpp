@@ -130,8 +130,8 @@ namespace GlobalNamespace {
     // Base method: System.String INetworkConfig::get_masterServerStatusUrl()
     ::Il2CppString* get_masterServerStatusUrl();
   }; // CustomNetworkConfig
+  #pragma pack(pop)
   static check_size<sizeof(CustomNetworkConfig), 40 + sizeof(::Il2CppString*)> __GlobalNamespace_CustomNetworkConfigSizeCheck;
   static_assert(sizeof(CustomNetworkConfig) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomNetworkConfig*, "", "CustomNetworkConfig");

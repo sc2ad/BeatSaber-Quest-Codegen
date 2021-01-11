@@ -76,6 +76,7 @@ namespace GlobalNamespace {
       // Set static field: static public Billboard/RotationMode ZAxis
       static void _set_ZAxis(GlobalNamespace::Billboard::RotationMode value);
     }; // Billboard/RotationMode
+    #pragma pack(pop)
     static check_size<sizeof(Billboard::RotationMode), 0 + sizeof(int)> __GlobalNamespace_Billboard_RotationModeSizeCheck;
     static_assert(sizeof(Billboard::RotationMode) == 0x4);
     // private Billboard/RotationMode _rotationMode
@@ -122,9 +123,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<Billboard*, creationType>()));
     }
   }; // Billboard
+  #pragma pack(pop)
   static check_size<sizeof(Billboard), 32 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_BillboardSizeCheck;
   static_assert(sizeof(Billboard) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Billboard*, "", "Billboard");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Billboard::RotationMode, "", "Billboard/RotationMode");

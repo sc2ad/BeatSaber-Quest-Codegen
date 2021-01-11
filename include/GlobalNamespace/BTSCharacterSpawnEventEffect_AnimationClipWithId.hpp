@@ -58,8 +58,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterSpawnEventEffect::AnimationClipWithId*, creationType>()));
     }
   }; // BTSCharacterSpawnEventEffect/AnimationClipWithId
+  #pragma pack(pop)
   static check_size<sizeof(BTSCharacterSpawnEventEffect::AnimationClipWithId), 24 + sizeof(UnityEngine::AnimationClip*)> __GlobalNamespace_BTSCharacterSpawnEventEffect_AnimationClipWithIdSizeCheck;
   static_assert(sizeof(BTSCharacterSpawnEventEffect::AnimationClipWithId) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnEventEffect::AnimationClipWithId*, "", "BTSCharacterSpawnEventEffect/AnimationClipWithId");

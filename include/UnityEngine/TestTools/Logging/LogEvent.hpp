@@ -88,8 +88,8 @@ namespace UnityEngine::TestTools::Logging {
       return THROW_UNLESS((::il2cpp_utils::New<LogEvent*, creationType>()));
     }
   }; // UnityEngine.TestTools.Logging.LogEvent
+  #pragma pack(pop)
   static check_size<sizeof(LogEvent), 36 + sizeof(bool)> __UnityEngine_TestTools_Logging_LogEventSizeCheck;
   static_assert(sizeof(LogEvent) == 0x25);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogEvent*, "UnityEngine.TestTools.Logging", "LogEvent");

@@ -71,9 +71,9 @@ namespace UnityEngine::XR {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.XR.Hand
+  #pragma pack(pop)
   static check_size<sizeof(Hand), 8 + sizeof(uint)> __UnityEngine_XR_HandSizeCheck;
   static_assert(sizeof(Hand) == 0xC);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Hand, "UnityEngine.XR", "Hand");

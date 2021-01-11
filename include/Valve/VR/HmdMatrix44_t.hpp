@@ -118,9 +118,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.HmdMatrix44_t
+  #pragma pack(pop)
   static check_size<sizeof(HmdMatrix44_t), 60 + sizeof(float)> __Valve_VR_HmdMatrix44_tSizeCheck;
   static_assert(sizeof(HmdMatrix44_t) == 0x40);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdMatrix44_t, "Valve.VR", "HmdMatrix44_t");

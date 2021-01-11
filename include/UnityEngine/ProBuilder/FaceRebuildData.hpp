@@ -96,8 +96,8 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<FaceRebuildData*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.FaceRebuildData
+  #pragma pack(pop)
   static check_size<sizeof(FaceRebuildData), 48 + sizeof(int)> __UnityEngine_ProBuilder_FaceRebuildDataSizeCheck;
   static_assert(sizeof(FaceRebuildData) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::FaceRebuildData*, "UnityEngine.ProBuilder", "FaceRebuildData");

@@ -60,8 +60,8 @@ namespace GlobalNamespace {
     // Base method: System.Boolean IMultiplayerObservable::get_isFailed()
     bool get_isFailed();
   }; // MultiplayerConnectedPlayerObservable
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerObservable), 16 + sizeof(GlobalNamespace::IConnectedPlayer*)> __GlobalNamespace_MultiplayerConnectedPlayerObservableSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerObservable) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerObservable*, "", "MultiplayerConnectedPlayerObservable");

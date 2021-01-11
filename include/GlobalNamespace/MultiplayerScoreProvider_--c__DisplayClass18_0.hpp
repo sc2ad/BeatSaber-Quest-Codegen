@@ -45,8 +45,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreProvider::$$c__DisplayClass18_0*, creationType>()));
     }
   }; // MultiplayerScoreProvider/<>c__DisplayClass18_0
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerScoreProvider::$$c__DisplayClass18_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_MultiplayerScoreProvider_$$c__DisplayClass18_0SizeCheck;
   static_assert(sizeof(MultiplayerScoreProvider::$$c__DisplayClass18_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0*, "", "MultiplayerScoreProvider/<>c__DisplayClass18_0");

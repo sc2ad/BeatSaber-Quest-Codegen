@@ -278,8 +278,8 @@ namespace System::IO {
     // Base method: System.Void Component::.cctor()
     static void _cctor();
   }; // System.IO.FileSystemWatcher
+  #pragma pack(pop)
   static check_size<sizeof(FileSystemWatcher), 192 + sizeof(System::IO::RenamedEventHandler*)> __System_IO_FileSystemWatcherSizeCheck;
   static_assert(sizeof(FileSystemWatcher) == 0xC8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemWatcher*, "System.IO", "FileSystemWatcher");

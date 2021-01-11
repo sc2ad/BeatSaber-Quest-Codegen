@@ -174,7 +174,7 @@ namespace System::IO {
     // Offset: 0x13A4D78
     static ::Il2CppString* InternalCombine(::Il2CppString* path1, ::Il2CppString* path2);
   }; // System.IO.Path
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Path*, "System.IO", "Path");

@@ -194,8 +194,8 @@ namespace System::Net::Http {
     // Base method: System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> HttpMessageHandler::SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);
   }; // System.Net.Http.HttpClientHandler
+  #pragma pack(pop)
   static check_size<sizeof(HttpClientHandler), 88 + sizeof(bool)> __System_Net_Http_HttpClientHandlerSizeCheck;
   static_assert(sizeof(HttpClientHandler) == 0x59);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClientHandler*, "System.Net.Http", "HttpClientHandler");

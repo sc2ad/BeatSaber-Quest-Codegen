@@ -69,8 +69,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // Org.BouncyCastle.Asn1.X509.TbsCertificateList/RevokedCertificatesEnumeration/RevokedCertificatesEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator), 16 + sizeof(System::Collections::IEnumerator*)> __Org_BouncyCastle_Asn1_X509_TbsCertificateList_RevokedCertificatesEnumeration_RevokedCertificatesEnumeratorSizeCheck;
   static_assert(sizeof(TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*, "Org.BouncyCastle.Asn1.X509", "TbsCertificateList/RevokedCertificatesEnumeration/RevokedCertificatesEnumerator");

@@ -111,8 +111,8 @@ namespace System::Net::Http::Headers {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.NameValueHeaderValue
+  #pragma pack(pop)
   static check_size<sizeof(NameValueHeaderValue), 24 + sizeof(::Il2CppString*)> __System_Net_Http_Headers_NameValueHeaderValueSizeCheck;
   static_assert(sizeof(NameValueHeaderValue) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::NameValueHeaderValue*, "System.Net.Http.Headers", "NameValueHeaderValue");

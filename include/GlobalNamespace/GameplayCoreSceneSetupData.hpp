@@ -83,8 +83,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameplayCoreSceneSetupData*, creationType>(difficultyBeatmap, gameplayModifiers, playerSpecificSettings, practiceSettings, useTestNoteCutSoundEffects, environmentInfo)));
     }
   }; // GameplayCoreSceneSetupData
+  #pragma pack(pop)
   static check_size<sizeof(GameplayCoreSceneSetupData), 56 + sizeof(GlobalNamespace::EnvironmentInfoSO*)> __GlobalNamespace_GameplayCoreSceneSetupDataSizeCheck;
   static_assert(sizeof(GameplayCoreSceneSetupData) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayCoreSceneSetupData*, "", "GameplayCoreSceneSetupData");

@@ -47,8 +47,8 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE224
     void set_Format(::Il2CppString* value);
   }; // JetBrains.Annotations.AspMvcMasterLocationFormatAttribute
+  #pragma pack(pop)
   static check_size<sizeof(AspMvcMasterLocationFormatAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_AspMvcMasterLocationFormatAttributeSizeCheck;
   static_assert(sizeof(AspMvcMasterLocationFormatAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcMasterLocationFormatAttribute*, "JetBrains.Annotations", "AspMvcMasterLocationFormatAttribute");

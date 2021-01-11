@@ -182,8 +182,8 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: get_IsReadOnly
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly();
   }; // UnityEngine.ProBuilder.SharedVertex
+  #pragma pack(pop)
   static check_size<sizeof(SharedVertex), 16 + sizeof(::Array<int>*)> __UnityEngine_ProBuilder_SharedVertexSizeCheck;
   static_assert(sizeof(SharedVertex) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SharedVertex*, "UnityEngine.ProBuilder", "SharedVertex");

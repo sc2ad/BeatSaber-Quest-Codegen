@@ -50,9 +50,9 @@ namespace GlobalNamespace {
     // Set static field: static public MultiplayerGameType Private
     static void _set_Private(GlobalNamespace::MultiplayerGameType value);
   }; // MultiplayerGameType
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerGameType), 0 + sizeof(int)> __GlobalNamespace_MultiplayerGameTypeSizeCheck;
   static_assert(sizeof(MultiplayerGameType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerGameType, "", "MultiplayerGameType");

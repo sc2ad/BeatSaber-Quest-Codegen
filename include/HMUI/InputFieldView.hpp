@@ -120,6 +120,7 @@ namespace HMUI {
       // Set static field: static public HMUI.InputFieldView/SelectionState Selected
       static void _set_Selected(HMUI::InputFieldView::SelectionState value);
     }; // HMUI.InputFieldView/SelectionState
+    #pragma pack(pop)
     static check_size<sizeof(InputFieldView::SelectionState), 0 + sizeof(int)> __HMUI_InputFieldView_SelectionStateSizeCheck;
     static_assert(sizeof(InputFieldView::SelectionState) == 0x4);
     // private TMPro.TextMeshProUGUI _textView
@@ -337,9 +338,9 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldView*, creationType>()));
     }
   }; // HMUI.InputFieldView
+  #pragma pack(pop)
   static check_size<sizeof(InputFieldView), 360 + sizeof(UnityEngine::YieldInstruction*)> __HMUI_InputFieldViewSizeCheck;
   static_assert(sizeof(InputFieldView) == 0x170);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView*, "HMUI", "InputFieldView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView::SelectionState, "HMUI", "InputFieldView/SelectionState");

@@ -99,8 +99,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRCubemapCapture*, creationType>()));
     }
   }; // OVRCubemapCapture
+  #pragma pack(pop)
   static check_size<sizeof(OVRCubemapCapture), 48 + sizeof(int)> __GlobalNamespace_OVRCubemapCaptureSizeCheck;
   static_assert(sizeof(OVRCubemapCapture) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCubemapCapture*, "", "OVRCubemapCapture");

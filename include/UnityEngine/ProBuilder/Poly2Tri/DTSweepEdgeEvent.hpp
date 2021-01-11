@@ -48,8 +48,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       return THROW_UNLESS((::il2cpp_utils::New<DTSweepEdgeEvent*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweepEdgeEvent
+  #pragma pack(pop)
   static check_size<sizeof(DTSweepEdgeEvent), 24 + sizeof(bool)> __UnityEngine_ProBuilder_Poly2Tri_DTSweepEdgeEventSizeCheck;
   static_assert(sizeof(DTSweepEdgeEvent) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepEdgeEvent");

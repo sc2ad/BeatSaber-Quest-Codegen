@@ -50,8 +50,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<MatchmakingEnqueueResultAndRoom*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.MatchmakingEnqueueResultAndRoom
+  #pragma pack(pop)
   static check_size<sizeof(MatchmakingEnqueueResultAndRoom), 24 + sizeof(Oculus::Platform::Models::Room*)> __Oculus_Platform_Models_MatchmakingEnqueueResultAndRoomSizeCheck;
   static_assert(sizeof(MatchmakingEnqueueResultAndRoom) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*, "Oculus.Platform.Models", "MatchmakingEnqueueResultAndRoom");

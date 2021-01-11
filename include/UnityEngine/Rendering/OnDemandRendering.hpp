@@ -30,7 +30,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0x16BC5E8
     static void _cctor();
   }; // UnityEngine.Rendering.OnDemandRendering
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::OnDemandRendering*, "UnityEngine.Rendering", "OnDemandRendering");

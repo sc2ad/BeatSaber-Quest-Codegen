@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18E2AE0
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_ReloadFromDisk
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperoneSetup::_ReloadFromDisk*, "Valve.VR", "IVRChaperoneSetup/_ReloadFromDisk");

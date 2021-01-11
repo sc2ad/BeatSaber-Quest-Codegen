@@ -52,6 +52,6 @@ namespace Mono::Unity {
     // Offset: 0x12707D4
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_tlsctx_server_require_client_authentication_t
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_server_require_client_authentication_t*, "Mono.Unity", "UnityTls/unitytls_interface_struct/unitytls_tlsctx_server_require_client_authentication_t");

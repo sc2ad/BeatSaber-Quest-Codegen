@@ -59,6 +59,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1863030
     OVR::OpenVR::EVRInputError EndInvoke(OVR::OpenVR::EVRSkeletalTransformSpace& peTransformSpace, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_DecompressSkeletalBoneData
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData*, "OVR.OpenVR", "IVRInput/_DecompressSkeletalBoneData");

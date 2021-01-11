@@ -67,6 +67,6 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<SystemException*, creationType>(info, context)));
     }
   }; // System.SystemException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::SystemException*, "System", "SystemException");

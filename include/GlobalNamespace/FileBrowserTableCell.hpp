@@ -84,8 +84,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FileBrowserTableCell*, creationType>()));
     }
   }; // FileBrowserTableCell
+  #pragma pack(pop)
   static check_size<sizeof(FileBrowserTableCell), 96 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_FileBrowserTableCellSizeCheck;
   static_assert(sizeof(FileBrowserTableCell) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserTableCell*, "", "FileBrowserTableCell");

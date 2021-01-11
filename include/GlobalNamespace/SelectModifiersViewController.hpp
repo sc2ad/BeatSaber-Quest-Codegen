@@ -62,8 +62,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SelectModifiersViewController*, creationType>()));
     }
   }; // SelectModifiersViewController
+  #pragma pack(pop)
   static check_size<sizeof(SelectModifiersViewController), 112 + sizeof(GlobalNamespace::GameplayModifiersPanelController*)> __GlobalNamespace_SelectModifiersViewControllerSizeCheck;
   static_assert(sizeof(SelectModifiersViewController) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectModifiersViewController*, "", "SelectModifiersViewController");

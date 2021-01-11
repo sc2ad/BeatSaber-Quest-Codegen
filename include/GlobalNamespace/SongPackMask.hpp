@@ -150,6 +150,7 @@ namespace GlobalNamespace {
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // SongPackMask
+  #pragma pack(pop)
   static check_size<sizeof(SongPackMask), 0 + sizeof(GlobalNamespace::BloomFilter)> __GlobalNamespace_SongPackMaskSizeCheck;
   static_assert(sizeof(SongPackMask) == 0x10);
   // static public SongPackMask op_BitwiseOr(SongPackMask a, SongPackMask b)
@@ -165,5 +166,4 @@ namespace GlobalNamespace {
   // Offset: 0x19A7994
   bool operator !=(const GlobalNamespace::SongPackMask& a, const GlobalNamespace::SongPackMask& b);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMask, "", "SongPackMask");

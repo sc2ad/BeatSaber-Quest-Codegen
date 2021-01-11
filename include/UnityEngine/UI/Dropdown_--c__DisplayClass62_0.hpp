@@ -47,8 +47,8 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<Dropdown::$$c__DisplayClass62_0*, creationType>()));
     }
   }; // UnityEngine.UI.Dropdown/<>c__DisplayClass62_0
+  #pragma pack(pop)
   static check_size<sizeof(Dropdown::$$c__DisplayClass62_0), 24 + sizeof(UnityEngine::UI::Dropdown*)> __UnityEngine_UI_Dropdown_$$c__DisplayClass62_0SizeCheck;
   static_assert(sizeof(Dropdown::$$c__DisplayClass62_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::$$c__DisplayClass62_0*, "UnityEngine.UI", "Dropdown/<>c__DisplayClass62_0");

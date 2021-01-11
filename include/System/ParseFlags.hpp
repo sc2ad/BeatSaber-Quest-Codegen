@@ -123,9 +123,9 @@ namespace System {
     // Set static field: static public System.ParseFlags UtcSortPattern
     static void _set_UtcSortPattern(System::ParseFlags value);
   }; // System.ParseFlags
+  #pragma pack(pop)
   static check_size<sizeof(ParseFlags), 0 + sizeof(int)> __System_ParseFlagsSizeCheck;
   static_assert(sizeof(ParseFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParseFlags, "System", "ParseFlags");

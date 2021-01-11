@@ -131,8 +131,8 @@ namespace System::Runtime::Remoting {
     // Base method: System.Runtime.Remoting.ObjRef Identity::CreateObjRef(System.Type requestedType)
     System::Runtime::Remoting::ObjRef* CreateObjRef(System::Type* requestedType);
   }; // System.Runtime.Remoting.ServerIdentity
+  #pragma pack(pop)
   static check_size<sizeof(ServerIdentity), 104 + sizeof(System::Runtime::Remoting::Lifetime::Lease*)> __System_Runtime_Remoting_ServerIdentitySizeCheck;
   static_assert(sizeof(ServerIdentity) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ServerIdentity*, "System.Runtime.Remoting", "ServerIdentity");

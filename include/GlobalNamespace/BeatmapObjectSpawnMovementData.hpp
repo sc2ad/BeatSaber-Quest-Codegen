@@ -293,8 +293,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectSpawnMovementData*, creationType>()));
     }
   }; // BeatmapObjectSpawnMovementData
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectSpawnMovementData), 172 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_BeatmapObjectSpawnMovementDataSizeCheck;
   static_assert(sizeof(BeatmapObjectSpawnMovementData) == 0xB8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData*, "", "BeatmapObjectSpawnMovementData");

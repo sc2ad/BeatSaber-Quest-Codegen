@@ -59,6 +59,6 @@ namespace OVR::OpenVR {
     // Offset: 0x10626B0
     bool EndInvoke(OVR::OpenVR::VREvent_t& pEvent, OVR::OpenVR::TrackedDevicePose_t& pTrackedDevicePose, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_PollNextEventWithPose
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_PollNextEventWithPose*, "OVR.OpenVR", "IVRSystem/_PollNextEventWithPose");

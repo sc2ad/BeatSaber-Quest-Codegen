@@ -54,6 +54,6 @@ namespace HMUI {
     // Offset: 0x10A8320
     UnityEngine::Color EndInvoke(System::IAsyncResult* result);
   }; // HMUI.AnimatedSwitchView/GetColorDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::GetColorDelegate*, "HMUI", "AnimatedSwitchView/GetColorDelegate");

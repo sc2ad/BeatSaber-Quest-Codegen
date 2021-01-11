@@ -52,9 +52,9 @@ namespace System {
     // Set static field: static public System.Guid/GuidParseThrowStyle AllButOverflow
     static void _set_AllButOverflow(System::Guid::GuidParseThrowStyle value);
   }; // System.Guid/GuidParseThrowStyle
+  #pragma pack(pop)
   static check_size<sizeof(Guid::GuidParseThrowStyle), 0 + sizeof(int)> __System_Guid_GuidParseThrowStyleSizeCheck;
   static_assert(sizeof(Guid::GuidParseThrowStyle) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Guid::GuidParseThrowStyle, "System", "Guid/GuidParseThrowStyle");

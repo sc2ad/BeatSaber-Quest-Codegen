@@ -430,8 +430,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Base method: System.Void ITestExecutionContext::IncrementAssertCount()
     void IncrementAssertCount();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext
+  #pragma pack(pop)
   static check_size<sizeof(UnityTestExecutionContext), 220 + sizeof(int)> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityTestExecutionContextSizeCheck;
   static_assert(sizeof(UnityTestExecutionContext) == 0xE0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestExecutionContext");

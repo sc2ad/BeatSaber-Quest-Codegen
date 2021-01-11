@@ -86,9 +86,9 @@ namespace System {
     // Base method: System.Delegate Delegate::RemoveImpl(System.Delegate value)
     System::Delegate* RemoveImpl(System::Delegate* value);
   }; // System.MulticastDelegate
+  #pragma pack(pop)
   static check_size<sizeof(MulticastDelegate), 104 + sizeof(::Array<System::Delegate*>*)> __System_MulticastDelegateSizeCheck;
   static_assert(sizeof(MulticastDelegate) == 0x70);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::MulticastDelegate*, "System", "MulticastDelegate");

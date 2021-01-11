@@ -47,8 +47,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<SliderState*, creationType>()));
     }
   }; // UnityEngine.SliderState
+  #pragma pack(pop)
   static check_size<sizeof(SliderState), 24 + sizeof(bool)> __UnityEngine_SliderStateSizeCheck;
   static_assert(sizeof(SliderState) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SliderState*, "UnityEngine", "SliderState");

@@ -45,7 +45,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Offset: 0x18BE57C
     static void _cctor();
   }; // Org.BouncyCastle.Utilities.Encoders.Hex
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::Hex*, "Org.BouncyCastle.Utilities.Encoders", "Hex");

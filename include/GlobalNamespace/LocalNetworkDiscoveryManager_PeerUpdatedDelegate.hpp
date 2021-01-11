@@ -59,6 +59,6 @@ namespace GlobalNamespace {
     // Offset: 0x1A67B18
     void EndInvoke(System::IAsyncResult* result);
   }; // LocalNetworkDiscoveryManager/PeerUpdatedDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate*, "", "LocalNetworkDiscoveryManager/PeerUpdatedDelegate");

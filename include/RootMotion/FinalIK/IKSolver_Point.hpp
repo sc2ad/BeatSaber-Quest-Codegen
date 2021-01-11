@@ -97,8 +97,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::Point*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolver/Point
+  #pragma pack(pop)
   static check_size<sizeof(IKSolver::Point), 68 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_IKSolver_PointSizeCheck;
   static_assert(sizeof(IKSolver::Point) == 0x54);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Point*, "RootMotion.FinalIK", "IKSolver/Point");

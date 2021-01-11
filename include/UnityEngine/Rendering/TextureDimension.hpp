@@ -80,9 +80,9 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.TextureDimension CubeArray
     static void _set_CubeArray(UnityEngine::Rendering::TextureDimension value);
   }; // UnityEngine.Rendering.TextureDimension
+  #pragma pack(pop)
   static check_size<sizeof(TextureDimension), 0 + sizeof(int)> __UnityEngine_Rendering_TextureDimensionSizeCheck;
   static_assert(sizeof(TextureDimension) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::TextureDimension, "UnityEngine.Rendering", "TextureDimension");

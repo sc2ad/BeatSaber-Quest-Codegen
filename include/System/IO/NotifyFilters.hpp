@@ -81,9 +81,9 @@ namespace System::IO {
     // Set static field: static public System.IO.NotifyFilters Size
     static void _set_Size(System::IO::NotifyFilters value);
   }; // System.IO.NotifyFilters
+  #pragma pack(pop)
   static check_size<sizeof(NotifyFilters), 0 + sizeof(int)> __System_IO_NotifyFiltersSizeCheck;
   static_assert(sizeof(NotifyFilters) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::NotifyFilters, "System.IO", "NotifyFilters");

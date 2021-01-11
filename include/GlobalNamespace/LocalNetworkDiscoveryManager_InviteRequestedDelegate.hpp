@@ -54,6 +54,6 @@ namespace GlobalNamespace {
     // Offset: 0x1A674F8
     void EndInvoke(System::IAsyncResult* result);
   }; // LocalNetworkDiscoveryManager/InviteRequestedDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate*, "", "LocalNetworkDiscoveryManager/InviteRequestedDelegate");

@@ -19,7 +19,7 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0xFFFFFFFF
     void set_Next(System::Runtime::Remoting::Channels::IServerChannelSinkProvider* value);
   }; // System.Runtime.Remoting.Channels.IServerChannelSinkProvider
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::IServerChannelSinkProvider*, "System.Runtime.Remoting.Channels", "IServerChannelSinkProvider");

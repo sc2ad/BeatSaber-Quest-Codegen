@@ -81,8 +81,8 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<MethodBody*, creationType>()));
     }
   }; // System.Reflection.MethodBody
+  #pragma pack(pop)
   static check_size<sizeof(MethodBody), 48 + sizeof(int)> __System_Reflection_MethodBodySizeCheck;
   static_assert(sizeof(MethodBody) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodBody*, "System.Reflection", "MethodBody");

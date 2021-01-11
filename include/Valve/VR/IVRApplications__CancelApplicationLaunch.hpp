@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x136D978
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_CancelApplicationLaunch
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_CancelApplicationLaunch*, "Valve.VR", "IVRApplications/_CancelApplicationLaunch");

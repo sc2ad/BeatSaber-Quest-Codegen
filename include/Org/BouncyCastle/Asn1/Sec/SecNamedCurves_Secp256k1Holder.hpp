@@ -53,6 +53,6 @@ namespace Org::BouncyCastle::Asn1::Sec {
     // Base method: Org.BouncyCastle.Asn1.X9.X9ECParameters X9ECParametersHolder::CreateParameters()
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
   }; // Org.BouncyCastle.Asn1.Sec.SecNamedCurves/Secp256k1Holder
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Sec::SecNamedCurves::Secp256k1Holder*, "Org.BouncyCastle.Asn1.Sec", "SecNamedCurves/Secp256k1Holder");

@@ -58,9 +58,9 @@ namespace System {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.ArgIterator
+  #pragma pack(pop)
   static check_size<sizeof(ArgIterator), 20 + sizeof(int)> __System_ArgIteratorSizeCheck;
   static_assert(sizeof(ArgIterator) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ArgIterator, "System", "ArgIterator");

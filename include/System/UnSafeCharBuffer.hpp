@@ -56,8 +56,8 @@ namespace System {
     // Offset: 0xCA409C
     void AppendString(::Il2CppString* stringToAppend);
   }; // System.UnSafeCharBuffer
+  #pragma pack(pop)
   static check_size<sizeof(UnSafeCharBuffer), 12 + sizeof(int)> __System_UnSafeCharBufferSizeCheck;
   static_assert(sizeof(UnSafeCharBuffer) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::UnSafeCharBuffer, "System", "UnSafeCharBuffer");

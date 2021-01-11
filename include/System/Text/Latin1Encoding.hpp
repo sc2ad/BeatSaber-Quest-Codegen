@@ -108,6 +108,6 @@ namespace System::Text {
     // Base method: System.Char[] Encoding::GetBestFitUnicodeToBytesData()
     ::Array<::Il2CppChar>* GetBestFitUnicodeToBytesData();
   }; // System.Text.Latin1Encoding
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Latin1Encoding*, "System.Text", "Latin1Encoding");

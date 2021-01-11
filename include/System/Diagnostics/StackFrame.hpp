@@ -145,8 +145,8 @@ namespace System::Diagnostics {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Diagnostics.StackFrame
+  #pragma pack(pop)
   static check_size<sizeof(StackFrame), 64 + sizeof(::Il2CppString*)> __System_Diagnostics_StackFrameSizeCheck;
   static_assert(sizeof(StackFrame) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackFrame*, "System.Diagnostics", "StackFrame");

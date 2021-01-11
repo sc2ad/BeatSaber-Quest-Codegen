@@ -44,8 +44,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LanguageSettingsPresetsSO::Preset*, creationType>()));
     }
   }; // LanguageSettingsPresetsSO/Preset
+  #pragma pack(pop)
   static check_size<sizeof(LanguageSettingsPresetsSO::Preset), 24 + sizeof(Polyglot::Language)> __GlobalNamespace_LanguageSettingsPresetsSO_PresetSizeCheck;
   static_assert(sizeof(LanguageSettingsPresetsSO::Preset) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LanguageSettingsPresetsSO::Preset*, "", "LanguageSettingsPresetsSO/Preset");

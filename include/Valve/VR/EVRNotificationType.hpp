@@ -50,9 +50,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRNotificationType Transient_SystemWithUserValue
     static void _set_Transient_SystemWithUserValue(Valve::VR::EVRNotificationType value);
   }; // Valve.VR.EVRNotificationType
+  #pragma pack(pop)
   static check_size<sizeof(EVRNotificationType), 0 + sizeof(int)> __Valve_VR_EVRNotificationTypeSizeCheck;
   static_assert(sizeof(EVRNotificationType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRNotificationType, "Valve.VR", "EVRNotificationType");

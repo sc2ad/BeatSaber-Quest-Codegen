@@ -81,6 +81,7 @@ namespace GlobalNamespace {
       // Set static field: static public AudioTimeSyncController/State Stopped
       static void _set_Stopped(GlobalNamespace::AudioTimeSyncController::State value);
     }; // AudioTimeSyncController/State
+    #pragma pack(pop)
     static check_size<sizeof(AudioTimeSyncController::State), 0 + sizeof(int)> __GlobalNamespace_AudioTimeSyncController_StateSizeCheck;
     static_assert(sizeof(AudioTimeSyncController::State) == 0x4);
     // private System.Single _audioSyncLerpSpeed
@@ -295,9 +296,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AudioTimeSyncController*, creationType>()));
     }
   }; // AudioTimeSyncController
+  #pragma pack(pop)
   static check_size<sizeof(AudioTimeSyncController), 116 + sizeof(bool)> __GlobalNamespace_AudioTimeSyncControllerSizeCheck;
   static_assert(sizeof(AudioTimeSyncController) == 0x75);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioTimeSyncController*, "", "AudioTimeSyncController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioTimeSyncController::State, "", "AudioTimeSyncController/State");

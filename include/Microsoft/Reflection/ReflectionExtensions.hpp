@@ -52,7 +52,7 @@ namespace Microsoft::Reflection {
     // Offset: 0x1510F14
     static bool ReflectionOnly(System::Reflection::Assembly* assm);
   }; // Microsoft.Reflection.ReflectionExtensions
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Reflection::ReflectionExtensions*, "Microsoft.Reflection", "ReflectionExtensions");

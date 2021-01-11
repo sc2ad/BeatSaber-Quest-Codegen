@@ -51,8 +51,8 @@ namespace System::ComponentModel::Design::Serialization {
       return THROW_UNLESS((::il2cpp_utils::New<RootDesignerSerializerAttribute*, creationType>(serializerTypeName, baseSerializerTypeName, reloadable)));
     }
   }; // System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute
+  #pragma pack(pop)
   static check_size<sizeof(RootDesignerSerializerAttribute), 32 + sizeof(::Il2CppString*)> __System_ComponentModel_Design_Serialization_RootDesignerSerializerAttributeSizeCheck;
   static_assert(sizeof(RootDesignerSerializerAttribute) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*, "System.ComponentModel.Design.Serialization", "RootDesignerSerializerAttribute");

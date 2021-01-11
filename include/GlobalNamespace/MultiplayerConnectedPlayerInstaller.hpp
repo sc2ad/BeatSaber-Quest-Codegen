@@ -109,8 +109,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerInstaller*, creationType>()));
     }
   }; // MultiplayerConnectedPlayerInstaller
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerInstaller), 80 + sizeof(GlobalNamespace::GameplayCoreSceneSetupData*)> __GlobalNamespace_MultiplayerConnectedPlayerInstallerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerInstaller) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerInstaller*, "", "MultiplayerConnectedPlayerInstaller");

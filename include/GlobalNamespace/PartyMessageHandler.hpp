@@ -89,6 +89,7 @@ namespace GlobalNamespace {
       // Set static field: static public PartyMessageHandler/MessageType ConnectToMasterServer
       static void _set_ConnectToMasterServer(GlobalNamespace::PartyMessageHandler::MessageType value);
     }; // PartyMessageHandler/MessageType
+    #pragma pack(pop)
     static check_size<sizeof(PartyMessageHandler::MessageType), 0 + sizeof(int)> __GlobalNamespace_PartyMessageHandler_MessageTypeSizeCheck;
     static_assert(sizeof(PartyMessageHandler::MessageType) == 0x4);
     // private readonly NetworkPacketSerializer`2<PartyMessageHandler/MessageType,IConnectedPlayer> _serializer
@@ -163,9 +164,9 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // PartyMessageHandler
+  #pragma pack(pop)
   static check_size<sizeof(PartyMessageHandler), 40 + sizeof(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*)> __GlobalNamespace_PartyMessageHandlerSizeCheck;
   static_assert(sizeof(PartyMessageHandler) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler*, "", "PartyMessageHandler");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::MessageType, "", "PartyMessageHandler/MessageType");

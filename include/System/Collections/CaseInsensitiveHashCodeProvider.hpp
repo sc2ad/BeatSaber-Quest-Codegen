@@ -71,8 +71,8 @@ namespace System::Collections {
     // Base method: System.Int32 IHashCodeProvider::GetHashCode(System.Object obj)
     int GetHashCode(::Il2CppObject* obj);
   }; // System.Collections.CaseInsensitiveHashCodeProvider
+  #pragma pack(pop)
   static check_size<sizeof(CaseInsensitiveHashCodeProvider), 16 + sizeof(System::Globalization::TextInfo*)> __System_Collections_CaseInsensitiveHashCodeProviderSizeCheck;
   static_assert(sizeof(CaseInsensitiveHashCodeProvider) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CaseInsensitiveHashCodeProvider*, "System.Collections", "CaseInsensitiveHashCodeProvider");

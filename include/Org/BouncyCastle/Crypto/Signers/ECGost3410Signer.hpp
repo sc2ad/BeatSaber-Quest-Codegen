@@ -98,8 +98,8 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return THROW_UNLESS((::il2cpp_utils::New<ECGost3410Signer*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Signers.ECGost3410Signer
+  #pragma pack(pop)
   static check_size<sizeof(ECGost3410Signer), 32 + sizeof(bool)> __Org_BouncyCastle_Crypto_Signers_ECGost3410SignerSizeCheck;
   static_assert(sizeof(ECGost3410Signer) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::ECGost3410Signer*, "Org.BouncyCastle.Crypto.Signers", "ECGost3410Signer");

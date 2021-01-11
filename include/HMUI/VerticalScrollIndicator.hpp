@@ -103,8 +103,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<VerticalScrollIndicator*, creationType>()));
     }
   }; // HMUI.VerticalScrollIndicator
+  #pragma pack(pop)
   static check_size<sizeof(VerticalScrollIndicator), 56 + sizeof(float)> __HMUI_VerticalScrollIndicatorSizeCheck;
   static_assert(sizeof(VerticalScrollIndicator) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::VerticalScrollIndicator*, "HMUI", "VerticalScrollIndicator");

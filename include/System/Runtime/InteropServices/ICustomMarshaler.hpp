@@ -41,7 +41,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0xFFFFFFFF
     int GetNativeDataSize();
   }; // System.Runtime.InteropServices.ICustomMarshaler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ICustomMarshaler*, "System.Runtime.InteropServices", "ICustomMarshaler");

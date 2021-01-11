@@ -44,7 +44,7 @@ namespace UnityEngine {
     // Offset: 0x19F1538
     void set_size_Injected(UnityEngine::Vector3& value);
   }; // UnityEngine.BoxCollider
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoxCollider*, "UnityEngine", "BoxCollider");

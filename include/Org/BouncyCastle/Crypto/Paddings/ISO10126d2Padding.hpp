@@ -67,8 +67,8 @@ namespace Org::BouncyCastle::Crypto::Paddings {
       return THROW_UNLESS((::il2cpp_utils::New<ISO10126d2Padding*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Paddings.ISO10126d2Padding
+  #pragma pack(pop)
   static check_size<sizeof(ISO10126d2Padding), 16 + sizeof(Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Paddings_ISO10126d2PaddingSizeCheck;
   static_assert(sizeof(ISO10126d2Padding) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding*, "Org.BouncyCastle.Crypto.Paddings", "ISO10126d2Padding");

@@ -110,8 +110,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SpriteLightWithId*, creationType>()));
     }
   }; // SpriteLightWithId
+  #pragma pack(pop)
   static check_size<sizeof(SpriteLightWithId), 77 + sizeof(bool)> __GlobalNamespace_SpriteLightWithIdSizeCheck;
   static_assert(sizeof(SpriteLightWithId) == 0x4E);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpriteLightWithId*, "", "SpriteLightWithId");

@@ -108,6 +108,6 @@ namespace System {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Attribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Attribute*, "System", "Attribute");

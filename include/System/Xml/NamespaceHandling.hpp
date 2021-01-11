@@ -45,9 +45,9 @@ namespace System::Xml {
     // Set static field: static public System.Xml.NamespaceHandling OmitDuplicates
     static void _set_OmitDuplicates(System::Xml::NamespaceHandling value);
   }; // System.Xml.NamespaceHandling
+  #pragma pack(pop)
   static check_size<sizeof(NamespaceHandling), 0 + sizeof(int)> __System_Xml_NamespaceHandlingSizeCheck;
   static_assert(sizeof(NamespaceHandling) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::NamespaceHandling, "System.Xml", "NamespaceHandling");

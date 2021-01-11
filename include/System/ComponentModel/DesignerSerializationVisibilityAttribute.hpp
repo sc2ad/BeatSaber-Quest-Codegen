@@ -74,8 +74,8 @@ namespace System::ComponentModel {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.DesignerSerializationVisibilityAttribute
+  #pragma pack(pop)
   static check_size<sizeof(DesignerSerializationVisibilityAttribute), 16 + sizeof(System::ComponentModel::DesignerSerializationVisibility)> __System_ComponentModel_DesignerSerializationVisibilityAttributeSizeCheck;
   static_assert(sizeof(DesignerSerializationVisibilityAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DesignerSerializationVisibilityAttribute*, "System.ComponentModel", "DesignerSerializationVisibilityAttribute");

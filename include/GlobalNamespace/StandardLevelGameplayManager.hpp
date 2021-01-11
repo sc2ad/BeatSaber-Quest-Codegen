@@ -104,6 +104,7 @@ namespace GlobalNamespace {
       // Set static field: static public StandardLevelGameplayManager/GameState Failed
       static void _set_Failed(GlobalNamespace::StandardLevelGameplayManager::GameState value);
     }; // StandardLevelGameplayManager/GameState
+    #pragma pack(pop)
     static check_size<sizeof(StandardLevelGameplayManager::GameState), 0 + sizeof(int)> __GlobalNamespace_StandardLevelGameplayManager_GameStateSizeCheck;
     static_assert(sizeof(StandardLevelGameplayManager::GameState) == 0x4);
     // [InjectAttribute] Offset: 0xDC7D60
@@ -223,9 +224,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelGameplayManager*, creationType>()));
     }
   }; // StandardLevelGameplayManager
+  #pragma pack(pop)
   static check_size<sizeof(StandardLevelGameplayManager), 72 + sizeof(GlobalNamespace::StandardLevelGameplayManager::GameState)> __GlobalNamespace_StandardLevelGameplayManagerSizeCheck;
   static_assert(sizeof(StandardLevelGameplayManager) == 0x4C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelGameplayManager*, "", "StandardLevelGameplayManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelGameplayManager::GameState, "", "StandardLevelGameplayManager/GameState");

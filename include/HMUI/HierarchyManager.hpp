@@ -92,8 +92,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<HierarchyManager*, creationType>()));
     }
   }; // HMUI.HierarchyManager
+  #pragma pack(pop)
   static check_size<sizeof(HierarchyManager), 40 + sizeof(HMUI::FlowCoordinator*)> __HMUI_HierarchyManagerSizeCheck;
   static_assert(sizeof(HierarchyManager) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HierarchyManager*, "HMUI", "HierarchyManager");

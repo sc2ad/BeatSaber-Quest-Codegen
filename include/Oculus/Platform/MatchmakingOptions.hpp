@@ -92,8 +92,8 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Oculus.Platform.MatchmakingOptions
+  #pragma pack(pop)
   static check_size<sizeof(MatchmakingOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_MatchmakingOptionsSizeCheck;
   static_assert(sizeof(MatchmakingOptions) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MatchmakingOptions*, "Oculus.Platform", "MatchmakingOptions");

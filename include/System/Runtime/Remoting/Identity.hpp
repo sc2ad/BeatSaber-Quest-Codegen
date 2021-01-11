@@ -132,8 +132,8 @@ namespace System::Runtime::Remoting {
     // Offset: 0x117506C
     void NotifyServerDynamicSinks(bool start, System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
   }; // System.Runtime.Remoting.Identity
+  #pragma pack(pop)
   static check_size<sizeof(Identity), 64 + sizeof(bool)> __System_Runtime_Remoting_IdentitySizeCheck;
   static_assert(sizeof(Identity) == 0x41);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Identity*, "System.Runtime.Remoting", "Identity");

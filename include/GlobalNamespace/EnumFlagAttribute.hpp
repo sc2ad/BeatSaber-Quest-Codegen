@@ -50,8 +50,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnumFlagAttribute*, creationType>()));
     }
   }; // EnumFlagAttribute
+  #pragma pack(pop)
   static check_size<sizeof(EnumFlagAttribute), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_EnumFlagAttributeSizeCheck;
   static_assert(sizeof(EnumFlagAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnumFlagAttribute*, "", "EnumFlagAttribute");

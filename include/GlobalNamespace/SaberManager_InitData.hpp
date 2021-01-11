@@ -45,8 +45,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberManager::InitData*, creationType>(oneSaberMode, oneSaberType)));
     }
   }; // SaberManager/InitData
+  #pragma pack(pop)
   static check_size<sizeof(SaberManager::InitData), 20 + sizeof(GlobalNamespace::SaberType)> __GlobalNamespace_SaberManager_InitDataSizeCheck;
   static_assert(sizeof(SaberManager::InitData) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberManager::InitData*, "", "SaberManager/InitData");

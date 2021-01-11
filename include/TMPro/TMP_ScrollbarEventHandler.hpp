@@ -85,8 +85,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_ScrollbarEventHandler*, creationType>()));
     }
   }; // TMPro.TMP_ScrollbarEventHandler
+  #pragma pack(pop)
   static check_size<sizeof(TMP_ScrollbarEventHandler), 24 + sizeof(bool)> __TMPro_TMP_ScrollbarEventHandlerSizeCheck;
   static_assert(sizeof(TMP_ScrollbarEventHandler) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_ScrollbarEventHandler*, "TMPro", "TMP_ScrollbarEventHandler");

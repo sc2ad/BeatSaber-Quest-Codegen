@@ -49,9 +49,9 @@ namespace System::ComponentModel {
     // Offset: 0x1481ACC
     System::ComponentModel::EventHandlerList::ListEntry* Find(::Il2CppObject* key);
   }; // System.ComponentModel.EventHandlerList
+  #pragma pack(pop)
   static check_size<sizeof(EventHandlerList), 24 + sizeof(System::ComponentModel::Component*)> __System_ComponentModel_EventHandlerListSizeCheck;
   static_assert(sizeof(EventHandlerList) == 0x20);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EventHandlerList*, "System.ComponentModel", "EventHandlerList");

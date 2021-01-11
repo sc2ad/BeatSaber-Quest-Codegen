@@ -53,9 +53,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.VREvent_HapticVibration_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_HapticVibration_t), 24 + sizeof(float)> __Valve_VR_VREvent_HapticVibration_tSizeCheck;
   static_assert(sizeof(VREvent_HapticVibration_t) == 0x1C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_HapticVibration_t, "Valve.VR", "VREvent_HapticVibration_t");

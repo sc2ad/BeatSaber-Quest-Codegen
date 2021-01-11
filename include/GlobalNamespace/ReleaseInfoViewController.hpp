@@ -79,8 +79,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ReleaseInfoViewController*, creationType>()));
     }
   }; // ReleaseInfoViewController
+  #pragma pack(pop)
   static check_size<sizeof(ReleaseInfoViewController), 136 + sizeof(GlobalNamespace::LocalizedTextAsset*)> __GlobalNamespace_ReleaseInfoViewControllerSizeCheck;
   static_assert(sizeof(ReleaseInfoViewController) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReleaseInfoViewController*, "", "ReleaseInfoViewController");

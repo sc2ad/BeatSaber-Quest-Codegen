@@ -90,8 +90,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteAnimator*, creationType>()));
     }
   }; // TMPro.TMP_SpriteAnimator
+  #pragma pack(pop)
   static check_size<sizeof(TMP_SpriteAnimator), 32 + sizeof(TMPro::TMP_Text*)> __TMPro_TMP_SpriteAnimatorSizeCheck;
   static_assert(sizeof(TMP_SpriteAnimator) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAnimator*, "TMPro", "TMP_SpriteAnimator");

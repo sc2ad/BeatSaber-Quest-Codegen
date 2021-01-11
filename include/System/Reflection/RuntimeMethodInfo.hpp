@@ -98,6 +98,6 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeMethodInfo*, creationType>()));
     }
   }; // System.Reflection.RuntimeMethodInfo
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeMethodInfo*, "System.Reflection", "RuntimeMethodInfo");

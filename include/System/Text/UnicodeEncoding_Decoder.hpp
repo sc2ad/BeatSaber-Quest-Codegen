@@ -74,8 +74,8 @@ namespace System::Text {
     // Base method: System.Boolean DecoderNLS::get_HasState()
     bool get_HasState();
   }; // System.Text.UnicodeEncoding/Decoder
+  #pragma pack(pop)
   static check_size<sizeof(UnicodeEncoding::Decoder), 52 + sizeof(::Il2CppChar)> __System_Text_UnicodeEncoding_DecoderSizeCheck;
   static_assert(sizeof(UnicodeEncoding::Decoder) == 0x36);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UnicodeEncoding::Decoder*, "System.Text", "UnicodeEncoding/Decoder");

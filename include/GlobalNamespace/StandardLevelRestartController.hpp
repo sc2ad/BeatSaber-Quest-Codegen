@@ -70,8 +70,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelRestartController*, creationType>()));
     }
   }; // StandardLevelRestartController
+  #pragma pack(pop)
   static check_size<sizeof(StandardLevelRestartController), 32 + sizeof(GlobalNamespace::PrepareLevelCompletionResults*)> __GlobalNamespace_StandardLevelRestartControllerSizeCheck;
   static_assert(sizeof(StandardLevelRestartController) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelRestartController*, "", "StandardLevelRestartController");

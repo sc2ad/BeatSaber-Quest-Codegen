@@ -60,8 +60,8 @@ namespace System {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.ValueType
+  #pragma pack(pop)
 }
 template<class T>
 struct is_value_type<T, typename std::enable_if_t<std::is_base_of_v<System::ValueType, T>>> : std::true_type{};
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ValueType*, "System", "ValueType");

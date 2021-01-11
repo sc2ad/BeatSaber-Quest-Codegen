@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18F0F00
     Valve::VR::EVROverlayError EndInvoke(float& pfRed, float& pfGreen, float& pfBlue, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayColor
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetOverlayColor*, "Valve.VR", "IVROverlay/_GetOverlayColor");

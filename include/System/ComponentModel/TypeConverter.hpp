@@ -52,6 +52,6 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<TypeConverter*, creationType>()));
     }
   }; // System.ComponentModel.TypeConverter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::TypeConverter*, "System.ComponentModel", "TypeConverter");

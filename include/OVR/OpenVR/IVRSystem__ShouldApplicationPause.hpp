@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1062EF0
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_ShouldApplicationPause
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_ShouldApplicationPause*, "OVR.OpenVR", "IVRSystem/_ShouldApplicationPause");

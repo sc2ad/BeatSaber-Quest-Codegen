@@ -52,6 +52,6 @@ namespace GlobalNamespace {
     // Offset: 0x19A827C
     void EndInvoke(System::IAsyncResult* result);
   }; // SwingSaberRatingDidChangeDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SwingSaberRatingDidChangeDelegate*, "", "SwingSaberRatingDidChangeDelegate");

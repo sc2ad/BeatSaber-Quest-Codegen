@@ -65,8 +65,8 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
       return THROW_UNLESS((::il2cpp_utils::New<Tables1kGcmExponentiator*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.Tables1kGcmExponentiator
+  #pragma pack(pop)
   static check_size<sizeof(Tables1kGcmExponentiator), 16 + sizeof(System::Collections::IList*)> __Org_BouncyCastle_Crypto_Modes_Gcm_Tables1kGcmExponentiatorSizeCheck;
   static_assert(sizeof(Tables1kGcmExponentiator) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator*, "Org.BouncyCastle.Crypto.Modes.Gcm", "Tables1kGcmExponentiator");

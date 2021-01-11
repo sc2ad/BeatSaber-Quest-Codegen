@@ -163,8 +163,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // OVRHandTest
+  #pragma pack(pop)
   static check_size<sizeof(OVRHandTest), 371 + sizeof(bool)> __GlobalNamespace_OVRHandTestSizeCheck;
   static_assert(sizeof(OVRHandTest) == 0x174);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest*, "", "OVRHandTest");

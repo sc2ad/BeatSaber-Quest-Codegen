@@ -100,8 +100,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifierToggle*, creationType>()));
     }
   }; // GameplayModifierToggle
+  #pragma pack(pop)
   static check_size<sizeof(GameplayModifierToggle), 56 + sizeof(UnityEngine::UI::Toggle*)> __GlobalNamespace_GameplayModifierToggleSizeCheck;
   static_assert(sizeof(GameplayModifierToggle) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierToggle*, "", "GameplayModifierToggle");

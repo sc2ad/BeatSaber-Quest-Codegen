@@ -131,8 +131,8 @@ namespace System::Runtime::Remoting::Proxies {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Runtime.Remoting.Proxies.RemotingProxy
+  #pragma pack(pop)
   static check_size<sizeof(RemotingProxy), 96 + sizeof(System::Runtime::Remoting::Messaging::ConstructionCall*)> __System_Runtime_Remoting_Proxies_RemotingProxySizeCheck;
   static_assert(sizeof(RemotingProxy) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::RemotingProxy*, "System.Runtime.Remoting.Proxies", "RemotingProxy");

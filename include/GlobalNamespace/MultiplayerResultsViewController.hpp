@@ -138,8 +138,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsViewController*, creationType>()));
     }
   }; // MultiplayerResultsViewController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsViewController), 160 + sizeof(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>*)> __GlobalNamespace_MultiplayerResultsViewControllerSizeCheck;
   static_assert(sizeof(MultiplayerResultsViewController) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsViewController*, "", "MultiplayerResultsViewController");

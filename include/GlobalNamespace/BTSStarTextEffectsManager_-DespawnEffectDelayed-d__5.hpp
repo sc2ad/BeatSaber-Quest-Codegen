@@ -97,8 +97,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // BTSStarTextEffectsManager/<DespawnEffectDelayed>d__5
+  #pragma pack(pop)
   static check_size<sizeof(BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5), 40 + sizeof(GlobalNamespace::BTSStarTextEffectsManager*)> __GlobalNamespace_BTSStarTextEffectsManager_$DespawnEffectDelayed$d__5SizeCheck;
   static_assert(sizeof(BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5*, "", "BTSStarTextEffectsManager/<DespawnEffectDelayed>d__5");

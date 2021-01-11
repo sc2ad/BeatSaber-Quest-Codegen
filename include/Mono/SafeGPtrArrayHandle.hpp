@@ -68,8 +68,8 @@ namespace Mono {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Mono.SafeGPtrArrayHandle
+  #pragma pack(pop)
   static check_size<sizeof(SafeGPtrArrayHandle), 0 + sizeof(Mono::RuntimeGPtrArrayHandle)> __Mono_SafeGPtrArrayHandleSizeCheck;
   static_assert(sizeof(SafeGPtrArrayHandle) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::SafeGPtrArrayHandle, "Mono", "SafeGPtrArrayHandle");

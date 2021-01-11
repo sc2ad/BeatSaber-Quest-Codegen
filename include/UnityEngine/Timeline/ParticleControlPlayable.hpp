@@ -116,8 +116,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<ParticleControlPlayable*, creationType>()));
     }
   }; // UnityEngine.Timeline.ParticleControlPlayable
+  #pragma pack(pop)
   static check_size<sizeof(ParticleControlPlayable), 32 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_Timeline_ParticleControlPlayableSizeCheck;
   static_assert(sizeof(ParticleControlPlayable) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ParticleControlPlayable*, "UnityEngine.Timeline", "ParticleControlPlayable");

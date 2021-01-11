@@ -115,6 +115,7 @@ namespace GlobalNamespace {
       // Set static field: static public MainMenuViewController/MenuButton HowToPlay
       static void _set_HowToPlay(GlobalNamespace::MainMenuViewController::MenuButton value);
     }; // MainMenuViewController/MenuButton
+    #pragma pack(pop)
     static check_size<sizeof(MainMenuViewController::MenuButton), 0 + sizeof(int)> __GlobalNamespace_MainMenuViewController_MenuButtonSizeCheck;
     static_assert(sizeof(MainMenuViewController::MenuButton) == 0x4);
     // private UnityEngine.UI.Button _soloButton
@@ -227,9 +228,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainMenuViewController*, creationType>()));
     }
   }; // MainMenuViewController
+  #pragma pack(pop)
   static check_size<sizeof(MainMenuViewController), 176 + sizeof(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>*)> __GlobalNamespace_MainMenuViewControllerSizeCheck;
   static_assert(sizeof(MainMenuViewController) == 0xB8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuViewController*, "", "MainMenuViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuViewController::MenuButton, "", "MainMenuViewController/MenuButton");

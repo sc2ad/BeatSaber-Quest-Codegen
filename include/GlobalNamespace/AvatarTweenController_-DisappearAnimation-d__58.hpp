@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // AvatarTweenController/<DisappearAnimation>d__58
+  #pragma pack(pop)
   static check_size<sizeof(AvatarTweenController::$DisappearAnimation$d__58), 32 + sizeof(GlobalNamespace::AvatarTweenController*)> __GlobalNamespace_AvatarTweenController_$DisappearAnimation$d__58SizeCheck;
   static_assert(sizeof(AvatarTweenController::$DisappearAnimation$d__58) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController::$DisappearAnimation$d__58*, "", "AvatarTweenController/<DisappearAnimation>d__58");

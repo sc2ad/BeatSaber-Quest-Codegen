@@ -273,7 +273,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x1344700
     static void _cctor();
   }; // System.Runtime.Serialization.Formatters.Binary.Converter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Converter*, "System.Runtime.Serialization.Formatters.Binary", "Converter");

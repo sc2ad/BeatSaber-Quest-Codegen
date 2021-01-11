@@ -244,8 +244,8 @@ namespace UnityEngine {
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
   }; // UnityEngine.TextGenerator
+  #pragma pack(pop)
   static check_size<sizeof(TextGenerator), 162 + sizeof(bool)> __UnityEngine_TextGeneratorSizeCheck;
   static_assert(sizeof(TextGenerator) == 0xA3);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerator*, "UnityEngine", "TextGenerator");

@@ -46,8 +46,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DisableComponentOnNonSteam*, creationType>()));
     }
   }; // DisableComponentOnNonSteam
+  #pragma pack(pop)
   static check_size<sizeof(DisableComponentOnNonSteam), 24 + sizeof(UnityEngine::MonoBehaviour*)> __GlobalNamespace_DisableComponentOnNonSteamSizeCheck;
   static_assert(sizeof(DisableComponentOnNonSteam) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableComponentOnNonSteam*, "", "DisableComponentOnNonSteam");

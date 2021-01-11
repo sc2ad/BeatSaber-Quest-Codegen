@@ -160,8 +160,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler::ConnectToMasterServerMessage*, creationType>()));
     }
   }; // PartyMessageHandler/ConnectToMasterServerMessage
+  #pragma pack(pop)
   static check_size<sizeof(PartyMessageHandler::ConnectToMasterServerMessage), 80 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __GlobalNamespace_PartyMessageHandler_ConnectToMasterServerMessageSizeCheck;
   static_assert(sizeof(PartyMessageHandler::ConnectToMasterServerMessage) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*, "", "PartyMessageHandler/ConnectToMasterServerMessage");

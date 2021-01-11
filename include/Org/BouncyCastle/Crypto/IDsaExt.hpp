@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::BigInteger* get_Order();
   }; // Org.BouncyCastle.Crypto.IDsaExt
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IDsaExt*, "Org.BouncyCastle.Crypto", "IDsaExt");

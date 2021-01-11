@@ -84,8 +84,8 @@ namespace JetBrains::Annotations {
       return THROW_UNLESS((::il2cpp_utils::New<MeansImplicitUseAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.MeansImplicitUseAttribute
+  #pragma pack(pop)
   static check_size<sizeof(MeansImplicitUseAttribute), 20 + sizeof(JetBrains::Annotations::ImplicitUseTargetFlags)> __JetBrains_Annotations_MeansImplicitUseAttributeSizeCheck;
   static_assert(sizeof(MeansImplicitUseAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MeansImplicitUseAttribute*, "JetBrains.Annotations", "MeansImplicitUseAttribute");

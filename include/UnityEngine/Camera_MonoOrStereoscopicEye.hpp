@@ -52,9 +52,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.Camera/MonoOrStereoscopicEye Mono
     static void _set_Mono(UnityEngine::Camera::MonoOrStereoscopicEye value);
   }; // UnityEngine.Camera/MonoOrStereoscopicEye
+  #pragma pack(pop)
   static check_size<sizeof(Camera::MonoOrStereoscopicEye), 0 + sizeof(int)> __UnityEngine_Camera_MonoOrStereoscopicEyeSizeCheck;
   static_assert(sizeof(Camera::MonoOrStereoscopicEye) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Camera::MonoOrStereoscopicEye, "UnityEngine", "Camera/MonoOrStereoscopicEye");

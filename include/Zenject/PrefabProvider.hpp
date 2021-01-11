@@ -56,8 +56,8 @@ namespace Zenject {
     // Base method: UnityEngine.Object IPrefabProvider::GetPrefab()
     UnityEngine::Object* GetPrefab();
   }; // Zenject.PrefabProvider
+  #pragma pack(pop)
   static check_size<sizeof(PrefabProvider), 16 + sizeof(UnityEngine::Object*)> __Zenject_PrefabProviderSizeCheck;
   static_assert(sizeof(PrefabProvider) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabProvider*, "Zenject", "PrefabProvider");

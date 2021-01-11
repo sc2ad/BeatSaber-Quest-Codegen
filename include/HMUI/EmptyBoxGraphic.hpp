@@ -60,8 +60,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<EmptyBoxGraphic*, creationType>()));
     }
   }; // HMUI.EmptyBoxGraphic
+  #pragma pack(pop)
   static check_size<sizeof(EmptyBoxGraphic), 140 + sizeof(float)> __HMUI_EmptyBoxGraphicSizeCheck;
   static_assert(sizeof(EmptyBoxGraphic) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::EmptyBoxGraphic*, "HMUI", "EmptyBoxGraphic");

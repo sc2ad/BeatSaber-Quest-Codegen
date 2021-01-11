@@ -127,8 +127,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AvatarSaveData*, creationType>()));
     }
   }; // AvatarSaveData
+  #pragma pack(pop)
   static check_size<sizeof(AvatarSaveData), 192 + sizeof(UnityEngine::Color)> __GlobalNamespace_AvatarSaveDataSizeCheck;
   static_assert(sizeof(AvatarSaveData) == 0xD0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarSaveData*, "", "AvatarSaveData");

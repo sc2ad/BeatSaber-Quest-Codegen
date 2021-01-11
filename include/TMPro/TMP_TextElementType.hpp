@@ -44,9 +44,9 @@ namespace TMPro {
     // Set static field: static public TMPro.TMP_TextElementType Sprite
     static void _set_Sprite(TMPro::TMP_TextElementType value);
   }; // TMPro.TMP_TextElementType
+  #pragma pack(pop)
   static check_size<sizeof(TMP_TextElementType), 0 + sizeof(int)> __TMPro_TMP_TextElementTypeSizeCheck;
   static_assert(sizeof(TMP_TextElementType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElementType, "TMPro", "TMP_TextElementType");

@@ -126,8 +126,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<AudioClip*, creationType>()));
     }
   }; // UnityEngine.AudioClip
+  #pragma pack(pop)
   static check_size<sizeof(AudioClip), 32 + sizeof(UnityEngine::AudioClip::PCMSetPositionCallback*)> __UnityEngine_AudioClipSizeCheck;
   static_assert(sizeof(AudioClip) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioClip*, "UnityEngine", "AudioClip");

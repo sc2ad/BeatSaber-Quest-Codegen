@@ -69,8 +69,8 @@ namespace Mono::Net {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Mono.Net.CFString
+  #pragma pack(pop)
   static check_size<sizeof(CFString), 24 + sizeof(::Il2CppString*)> __Mono_Net_CFStringSizeCheck;
   static_assert(sizeof(CFString) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFString*, "Mono.Net", "CFString");

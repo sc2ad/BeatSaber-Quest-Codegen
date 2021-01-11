@@ -83,8 +83,8 @@ namespace Org::BouncyCastle::Math::Field {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.Field.GenericPolynomialExtensionField
+  #pragma pack(pop)
   static check_size<sizeof(GenericPolynomialExtensionField), 24 + sizeof(Org::BouncyCastle::Math::Field::IPolynomial*)> __Org_BouncyCastle_Math_Field_GenericPolynomialExtensionFieldSizeCheck;
   static_assert(sizeof(GenericPolynomialExtensionField) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*, "Org.BouncyCastle.Math.Field", "GenericPolynomialExtensionField");

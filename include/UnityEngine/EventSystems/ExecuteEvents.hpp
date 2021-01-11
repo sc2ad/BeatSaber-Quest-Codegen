@@ -345,6 +345,6 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x114EAEC
     static void _cctor();
   }; // UnityEngine.EventSystems.ExecuteEvents
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ExecuteEvents*, "UnityEngine.EventSystems", "ExecuteEvents");

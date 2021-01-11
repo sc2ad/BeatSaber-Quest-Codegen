@@ -125,8 +125,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameSongController*, creationType>()));
     }
   }; // GameSongController
+  #pragma pack(pop)
   static check_size<sizeof(GameSongController), 56 + sizeof(bool)> __GlobalNamespace_GameSongControllerSizeCheck;
   static_assert(sizeof(GameSongController) == 0x39);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameSongController*, "", "GameSongController");

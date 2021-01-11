@@ -49,6 +49,6 @@ namespace UnityEngine {
     // Offset: 0x1A0A3C4
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.RemoteSettings/UpdatedEventHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteSettings::UpdatedEventHandler*, "UnityEngine", "RemoteSettings/UpdatedEventHandler");

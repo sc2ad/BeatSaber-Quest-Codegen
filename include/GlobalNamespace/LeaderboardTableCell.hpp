@@ -112,8 +112,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardTableCell*, creationType>()));
     }
   }; // LeaderboardTableCell
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardTableCell), 144 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_LeaderboardTableCellSizeCheck;
   static_assert(sizeof(LeaderboardTableCell) == 0x98);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardTableCell*, "", "LeaderboardTableCell");

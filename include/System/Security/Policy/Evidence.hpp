@@ -100,8 +100,8 @@ namespace System::Security::Policy {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Security.Policy.Evidence
+  #pragma pack(pop)
   static check_size<sizeof(Evidence), 32 + sizeof(System::Collections::ArrayList*)> __System_Security_Policy_EvidenceSizeCheck;
   static_assert(sizeof(Evidence) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Policy::Evidence*, "System.Security.Policy", "Evidence");

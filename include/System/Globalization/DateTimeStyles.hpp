@@ -94,9 +94,9 @@ namespace System::Globalization {
     // Set static field: static public System.Globalization.DateTimeStyles RoundtripKind
     static void _set_RoundtripKind(System::Globalization::DateTimeStyles value);
   }; // System.Globalization.DateTimeStyles
+  #pragma pack(pop)
   static check_size<sizeof(DateTimeStyles), 0 + sizeof(int)> __System_Globalization_DateTimeStylesSizeCheck;
   static_assert(sizeof(DateTimeStyles) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeStyles, "System.Globalization", "DateTimeStyles");

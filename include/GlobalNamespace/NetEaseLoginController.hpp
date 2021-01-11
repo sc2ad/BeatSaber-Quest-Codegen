@@ -83,8 +83,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetEaseLoginController*, creationType>()));
     }
   }; // NetEaseLoginController
+  #pragma pack(pop)
   static check_size<sizeof(NetEaseLoginController), 40 + sizeof(GlobalNamespace::NetEaseManager*)> __GlobalNamespace_NetEaseLoginControllerSizeCheck;
   static_assert(sizeof(NetEaseLoginController) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLoginController*, "", "NetEaseLoginController");

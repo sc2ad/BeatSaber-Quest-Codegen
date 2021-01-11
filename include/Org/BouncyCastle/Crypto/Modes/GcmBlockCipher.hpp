@@ -272,8 +272,8 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Void IAeadCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Modes.GcmBlockCipher
+  #pragma pack(pop)
   static check_size<sizeof(GcmBlockCipher), 176 + sizeof(uint64_t)> __Org_BouncyCastle_Crypto_Modes_GcmBlockCipherSizeCheck;
   static_assert(sizeof(GcmBlockCipher) == 0xB8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "GcmBlockCipher");

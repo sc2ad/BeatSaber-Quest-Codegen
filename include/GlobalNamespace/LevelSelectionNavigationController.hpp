@@ -260,8 +260,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelSelectionNavigationController*, creationType>()));
     }
   }; // LevelSelectionNavigationController
+  #pragma pack(pop)
   static check_size<sizeof(LevelSelectionNavigationController), 240 + sizeof(::Array<GlobalNamespace::BeatmapCharacteristicSO*>*)> __GlobalNamespace_LevelSelectionNavigationControllerSizeCheck;
   static_assert(sizeof(LevelSelectionNavigationController) == 0xF8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSelectionNavigationController*, "", "LevelSelectionNavigationController");

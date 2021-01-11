@@ -45,6 +45,6 @@ namespace System::Collections::Concurrent {
     // Base method: System.Void EventSource::.cctor()
     static void _cctor();
   }; // System.Collections.Concurrent.CDSCollectionETWBCLProvider
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::CDSCollectionETWBCLProvider*, "System.Collections.Concurrent", "CDSCollectionETWBCLProvider");

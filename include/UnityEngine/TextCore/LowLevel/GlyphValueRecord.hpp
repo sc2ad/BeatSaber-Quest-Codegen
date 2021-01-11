@@ -63,9 +63,9 @@ namespace UnityEngine::TextCore::LowLevel {
     // Offset: 0xCB81B0
     float get_yAdvance();
   }; // UnityEngine.TextCore.LowLevel.GlyphValueRecord
+  #pragma pack(pop)
   static check_size<sizeof(GlyphValueRecord), 12 + sizeof(float)> __UnityEngine_TextCore_LowLevel_GlyphValueRecordSizeCheck;
   static_assert(sizeof(GlyphValueRecord) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphValueRecord, "UnityEngine.TextCore.LowLevel", "GlyphValueRecord");

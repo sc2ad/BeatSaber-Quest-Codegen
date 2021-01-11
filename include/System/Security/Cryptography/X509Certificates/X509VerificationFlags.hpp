@@ -117,9 +117,9 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static public System.Security.Cryptography.X509Certificates.X509VerificationFlags AllFlags
     static void _set_AllFlags(System::Security::Cryptography::X509Certificates::X509VerificationFlags value);
   }; // System.Security.Cryptography.X509Certificates.X509VerificationFlags
+  #pragma pack(pop)
   static check_size<sizeof(X509VerificationFlags), 0 + sizeof(int)> __System_Security_Cryptography_X509Certificates_X509VerificationFlagsSizeCheck;
   static_assert(sizeof(X509VerificationFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509VerificationFlags, "System.Security.Cryptography.X509Certificates", "X509VerificationFlags");

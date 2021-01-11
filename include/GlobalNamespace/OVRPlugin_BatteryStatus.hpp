@@ -64,9 +64,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/BatteryStatus Unknown
     static void _set_Unknown(GlobalNamespace::OVRPlugin::BatteryStatus value);
   }; // OVRPlugin/BatteryStatus
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::BatteryStatus), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_BatteryStatusSizeCheck;
   static_assert(sizeof(OVRPlugin::BatteryStatus) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::BatteryStatus, "", "OVRPlugin/BatteryStatus");

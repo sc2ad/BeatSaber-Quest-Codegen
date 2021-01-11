@@ -76,8 +76,8 @@ namespace Valve::VR {
     // Offset: 0x1368180
     void ForceBoundsVisible(bool bForce);
   }; // Valve.VR.CVRChaperone
+  #pragma pack(pop)
   static check_size<sizeof(CVRChaperone), 16 + sizeof(Valve::VR::IVRChaperone)> __Valve_VR_CVRChaperoneSizeCheck;
   static_assert(sizeof(CVRChaperone) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRChaperone*, "Valve.VR", "CVRChaperone");

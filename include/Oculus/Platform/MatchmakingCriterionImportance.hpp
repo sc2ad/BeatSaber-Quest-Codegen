@@ -67,9 +67,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.MatchmakingCriterionImportance Unknown
     static void _set_Unknown(Oculus::Platform::MatchmakingCriterionImportance value);
   }; // Oculus.Platform.MatchmakingCriterionImportance
+  #pragma pack(pop)
   static check_size<sizeof(MatchmakingCriterionImportance), 0 + sizeof(int)> __Oculus_Platform_MatchmakingCriterionImportanceSizeCheck;
   static_assert(sizeof(MatchmakingCriterionImportance) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MatchmakingCriterionImportance, "Oculus.Platform", "MatchmakingCriterionImportance");

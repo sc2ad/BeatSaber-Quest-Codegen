@@ -75,9 +75,9 @@ namespace System {
     // Set static field: static public System.UnescapeMode UnescapeAllOrThrow
     static void _set_UnescapeAllOrThrow(System::UnescapeMode value);
   }; // System.UnescapeMode
+  #pragma pack(pop)
   static check_size<sizeof(UnescapeMode), 0 + sizeof(int)> __System_UnescapeModeSizeCheck;
   static_assert(sizeof(UnescapeMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UnescapeMode, "System", "UnescapeMode");

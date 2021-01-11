@@ -193,6 +193,6 @@ namespace UnityEngine {
     // Base method: System.Boolean Texture::get_isReadable()
     bool get_isReadable();
   }; // UnityEngine.Texture2D
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture2D*, "UnityEngine", "Texture2D");

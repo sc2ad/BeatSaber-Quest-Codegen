@@ -97,8 +97,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return THROW_UNLESS((::il2cpp_utils::New<BinaryObjectWithMap*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMap
+  #pragma pack(pop)
   static check_size<sizeof(BinaryObjectWithMap), 48 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_BinaryObjectWithMapSizeCheck;
   static_assert(sizeof(BinaryObjectWithMap) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*, "System.Runtime.Serialization.Formatters.Binary", "BinaryObjectWithMap");

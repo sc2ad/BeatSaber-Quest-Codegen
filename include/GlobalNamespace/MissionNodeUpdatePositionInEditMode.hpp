@@ -51,8 +51,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionNodeUpdatePositionInEditMode*, creationType>()));
     }
   }; // MissionNodeUpdatePositionInEditMode
+  #pragma pack(pop)
   static check_size<sizeof(MissionNodeUpdatePositionInEditMode), 24 + sizeof(GlobalNamespace::MissionNodeConnection*)> __GlobalNamespace_MissionNodeUpdatePositionInEditModeSizeCheck;
   static_assert(sizeof(MissionNodeUpdatePositionInEditMode) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeUpdatePositionInEditMode*, "", "MissionNodeUpdatePositionInEditMode");

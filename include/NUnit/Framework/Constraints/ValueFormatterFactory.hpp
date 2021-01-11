@@ -52,6 +52,6 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13E67D0
     NUnit::Framework::Constraints::ValueFormatter* EndInvoke(System::IAsyncResult* result);
   }; // NUnit.Framework.Constraints.ValueFormatterFactory
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ValueFormatterFactory*, "NUnit.Framework.Constraints", "ValueFormatterFactory");

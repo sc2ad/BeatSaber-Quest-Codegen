@@ -76,8 +76,8 @@ namespace GlobalNamespace {
     // Base method: System.Void ILogger::LogWarning(System.String message)
     void LogWarning(::Il2CppString* message);
   }; // BGNetLogger
+  #pragma pack(pop)
   static check_size<sizeof(BGNetLogger), 16 + sizeof(::Array<Microsoft::Extensions::Logging::ILogger*>*)> __GlobalNamespace_BGNetLoggerSizeCheck;
   static_assert(sizeof(BGNetLogger) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetLogger*, "", "BGNetLogger");

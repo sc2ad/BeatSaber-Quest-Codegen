@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x191D98C
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_FreeTextureD3D11
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRRenderModels::_FreeTextureD3D11*, "Valve.VR", "IVRRenderModels/_FreeTextureD3D11");

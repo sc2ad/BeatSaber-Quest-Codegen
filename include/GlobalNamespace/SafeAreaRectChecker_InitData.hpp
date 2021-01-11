@@ -39,8 +39,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SafeAreaRectChecker::InitData*, creationType>(checkingEnabled)));
     }
   }; // SafeAreaRectChecker/InitData
+  #pragma pack(pop)
   static check_size<sizeof(SafeAreaRectChecker::InitData), 16 + sizeof(bool)> __GlobalNamespace_SafeAreaRectChecker_InitDataSizeCheck;
   static_assert(sizeof(SafeAreaRectChecker::InitData) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SafeAreaRectChecker::InitData*, "", "SafeAreaRectChecker/InitData");

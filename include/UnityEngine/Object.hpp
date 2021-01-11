@@ -263,6 +263,7 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<Object*, creationType>()));
     }
   }; // UnityEngine.Object
+  #pragma pack(pop)
   static check_size<sizeof(Object), 16 + sizeof(System::IntPtr)> __UnityEngine_ObjectSizeCheck;
   static_assert(sizeof(Object) == 0x18);
   // static public System.Boolean op_Equality(UnityEngine.Object x, UnityEngine.Object y)
@@ -272,5 +273,4 @@ namespace UnityEngine {
   // Offset: 0x173052C
   bool operator !=(UnityEngine::Object* x, UnityEngine::Object& y);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Object*, "UnityEngine", "Object");

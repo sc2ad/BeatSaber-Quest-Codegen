@@ -65,6 +65,7 @@ namespace UnityEngine::Scripting {
       // Set static field: static public UnityEngine.Scripting.GarbageCollector/Mode Enabled
       static void _set_Enabled(UnityEngine::Scripting::GarbageCollector::Mode value);
     }; // UnityEngine.Scripting.GarbageCollector/Mode
+    #pragma pack(pop)
     static check_size<sizeof(GarbageCollector::Mode), 0 + sizeof(int)> __UnityEngine_Scripting_GarbageCollector_ModeSizeCheck;
     static_assert(sizeof(GarbageCollector::Mode) == 0x4);
     // Creating value type constructor for type: GarbageCollector
@@ -85,8 +86,8 @@ namespace UnityEngine::Scripting {
     // Offset: 0x16C0544
     static UnityEngine::Scripting::GarbageCollector::Mode GetMode();
   }; // UnityEngine.Scripting.GarbageCollector
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::GarbageCollector*, "UnityEngine.Scripting", "GarbageCollector");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::GarbageCollector::Mode, "UnityEngine.Scripting", "GarbageCollector/Mode");

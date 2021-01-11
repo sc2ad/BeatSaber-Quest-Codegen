@@ -139,8 +139,8 @@ namespace GlobalNamespace {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // BeatmapData/<get_beatmapObjectsData>d__31
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapData::$get_beatmapObjectsData$d__31), 64 + sizeof(GlobalNamespace::BeatmapObjectData*)> __GlobalNamespace_BeatmapData_$get_beatmapObjectsData$d__31SizeCheck;
   static_assert(sizeof(BeatmapData::$get_beatmapObjectsData$d__31) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31*, "", "BeatmapData/<get_beatmapObjectsData>d__31");

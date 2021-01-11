@@ -52,9 +52,9 @@ namespace UnityEngine {
     // Offset: 0x168D9F0
     static int NameToLayer(::Il2CppString* layerName);
   }; // UnityEngine.LayerMask
+  #pragma pack(pop)
   static check_size<sizeof(LayerMask), 0 + sizeof(int)> __UnityEngine_LayerMaskSizeCheck;
   static_assert(sizeof(LayerMask) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LayerMask, "UnityEngine", "LayerMask");

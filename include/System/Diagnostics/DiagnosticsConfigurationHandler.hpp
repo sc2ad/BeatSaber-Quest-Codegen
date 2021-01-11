@@ -46,6 +46,6 @@ namespace System::Diagnostics {
       return THROW_UNLESS((::il2cpp_utils::New<DiagnosticsConfigurationHandler*, creationType>()));
     }
   }; // System.Diagnostics.DiagnosticsConfigurationHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DiagnosticsConfigurationHandler*, "System.Diagnostics", "DiagnosticsConfigurationHandler");

@@ -43,8 +43,8 @@ namespace System::Globalization {
       return THROW_UNLESS((::il2cpp_utils::New<HebrewNumber::HebrewValue*, creationType>(token, value)));
     }
   }; // System.Globalization.HebrewNumber/HebrewValue
+  #pragma pack(pop)
   static check_size<sizeof(HebrewNumber::HebrewValue), 20 + sizeof(int)> __System_Globalization_HebrewNumber_HebrewValueSizeCheck;
   static_assert(sizeof(HebrewNumber::HebrewValue) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber::HebrewValue*, "System.Globalization", "HebrewNumber/HebrewValue");

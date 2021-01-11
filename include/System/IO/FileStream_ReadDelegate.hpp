@@ -49,6 +49,6 @@ namespace System::IO {
     // Offset: 0x143BE34
     int EndInvoke(System::IAsyncResult* result);
   }; // System.IO.FileStream/ReadDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileStream::ReadDelegate*, "System.IO", "FileStream/ReadDelegate");

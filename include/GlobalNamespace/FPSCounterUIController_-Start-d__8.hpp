@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // FPSCounterUIController/<Start>d__8
+  #pragma pack(pop)
   static check_size<sizeof(FPSCounterUIController::$Start$d__8), 32 + sizeof(GlobalNamespace::FPSCounterUIController*)> __GlobalNamespace_FPSCounterUIController_$Start$d__8SizeCheck;
   static_assert(sizeof(FPSCounterUIController::$Start$d__8) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounterUIController::$Start$d__8*, "", "FPSCounterUIController/<Start>d__8");

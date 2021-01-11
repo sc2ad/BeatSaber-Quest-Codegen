@@ -95,8 +95,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
   }; // Org.BouncyCastle.Asn1.DerIA5String
+  #pragma pack(pop)
   static check_size<sizeof(DerIA5String), 16 + sizeof(::Il2CppString*)> __Org_BouncyCastle_Asn1_DerIA5StringSizeCheck;
   static_assert(sizeof(DerIA5String) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerIA5String*, "Org.BouncyCastle.Asn1", "DerIA5String");

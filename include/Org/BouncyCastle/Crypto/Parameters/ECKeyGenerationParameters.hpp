@@ -66,8 +66,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x10461DC
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
   }; // Org.BouncyCastle.Crypto.Parameters.ECKeyGenerationParameters
+  #pragma pack(pop)
   static check_size<sizeof(ECKeyGenerationParameters), 40 + sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*)> __Org_BouncyCastle_Crypto_Parameters_ECKeyGenerationParametersSizeCheck;
   static_assert(sizeof(ECKeyGenerationParameters) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*, "Org.BouncyCastle.Crypto.Parameters", "ECKeyGenerationParameters");

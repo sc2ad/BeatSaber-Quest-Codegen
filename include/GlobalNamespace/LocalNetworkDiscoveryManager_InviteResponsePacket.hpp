@@ -80,8 +80,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkDiscoveryManager::InviteResponsePacket*, creationType>()));
     }
   }; // LocalNetworkDiscoveryManager/InviteResponsePacket
+  #pragma pack(pop)
   static check_size<sizeof(LocalNetworkDiscoveryManager::InviteResponsePacket), 25 + sizeof(bool)> __GlobalNamespace_LocalNetworkDiscoveryManager_InviteResponsePacketSizeCheck;
   static_assert(sizeof(LocalNetworkDiscoveryManager::InviteResponsePacket) == 0x1A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::InviteResponsePacket*, "", "LocalNetworkDiscoveryManager/InviteResponsePacket");

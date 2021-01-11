@@ -148,8 +148,8 @@ namespace System::Collections {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Collections.Hashtable/HashtableEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(Hashtable::HashtableEnumerator), 48 + sizeof(::Il2CppObject*)> __System_Collections_Hashtable_HashtableEnumeratorSizeCheck;
   static_assert(sizeof(Hashtable::HashtableEnumerator) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::HashtableEnumerator*, "System.Collections", "Hashtable/HashtableEnumerator");

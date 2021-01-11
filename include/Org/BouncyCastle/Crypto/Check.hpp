@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0x1757D3C
     static void OutputLength(::Array<uint8_t>* buf, int off, int len, ::Il2CppString* msg);
   }; // Org.BouncyCastle.Crypto.Check
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Check*, "Org.BouncyCastle.Crypto", "Check");

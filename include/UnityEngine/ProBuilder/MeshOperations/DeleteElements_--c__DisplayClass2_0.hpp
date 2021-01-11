@@ -54,8 +54,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<DeleteElements::$$c__DisplayClass2_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass2_0
+  #pragma pack(pop)
   static check_size<sizeof(DeleteElements::$$c__DisplayClass2_0), 16 + sizeof(UnityEngine::ProBuilder::ProBuilderMesh*)> __UnityEngine_ProBuilder_MeshOperations_DeleteElements_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(DeleteElements::$$c__DisplayClass2_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass2_0*, "UnityEngine.ProBuilder.MeshOperations", "DeleteElements/<>c__DisplayClass2_0");

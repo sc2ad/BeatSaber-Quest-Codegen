@@ -76,9 +76,9 @@ namespace System::Security::Cryptography {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Security.Cryptography.RSAParameters
+  #pragma pack(pop)
   static check_size<sizeof(RSAParameters), 56 + sizeof(::Array<uint8_t>*)> __System_Security_Cryptography_RSAParametersSizeCheck;
   static_assert(sizeof(RSAParameters) == 0x40);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAParameters, "System.Security.Cryptography", "RSAParameters");

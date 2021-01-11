@@ -70,8 +70,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<RaycastUITopLevelChecker*, creationType>()));
     }
   }; // HMUI.RaycastUITopLevelChecker
+  #pragma pack(pop)
   static check_size<sizeof(RaycastUITopLevelChecker), 32 + sizeof(UnityEngine::Canvas*)> __HMUI_RaycastUITopLevelCheckerSizeCheck;
   static_assert(sizeof(RaycastUITopLevelChecker) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::RaycastUITopLevelChecker*, "HMUI", "RaycastUITopLevelChecker");

@@ -52,8 +52,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayersAtGameStartModel::$$c__DisplayClass9_0*, creationType>()));
     }
   }; // PlayersAtGameStartModel/<>c__DisplayClass9_0
+  #pragma pack(pop)
   static check_size<sizeof(PlayersAtGameStartModel::$$c__DisplayClass9_0), 16 + sizeof(GlobalNamespace::IConnectedPlayer*)> __GlobalNamespace_PlayersAtGameStartModel_$$c__DisplayClass9_0SizeCheck;
   static_assert(sizeof(PlayersAtGameStartModel::$$c__DisplayClass9_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayersAtGameStartModel::$$c__DisplayClass9_0*, "", "PlayersAtGameStartModel/<>c__DisplayClass9_0");

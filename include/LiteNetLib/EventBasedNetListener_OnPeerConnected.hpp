@@ -54,6 +54,6 @@ namespace LiteNetLib {
     // Offset: 0x1DC3F44
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/OnPeerConnected
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener::OnPeerConnected*, "LiteNetLib", "EventBasedNetListener/OnPeerConnected");

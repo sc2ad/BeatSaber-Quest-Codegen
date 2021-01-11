@@ -114,6 +114,7 @@ namespace UnityEngine::Timeline {
       // Set static field: static public UnityEngine.Timeline.AnimationPlayableAsset/LoopMode Off
       static void _set_Off(UnityEngine::Timeline::AnimationPlayableAsset::LoopMode value);
     }; // UnityEngine.Timeline.AnimationPlayableAsset/LoopMode
+    #pragma pack(pop)
     static check_size<sizeof(AnimationPlayableAsset::LoopMode), 0 + sizeof(int)> __UnityEngine_Timeline_AnimationPlayableAsset_LoopModeSizeCheck;
     static_assert(sizeof(AnimationPlayableAsset::LoopMode) == 0x4);
     // private UnityEngine.AnimationClip m_Clip
@@ -344,9 +345,9 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.Timeline.AnimationPlayableAsset
+  #pragma pack(pop)
   static check_size<sizeof(AnimationPlayableAsset), 80 + sizeof(UnityEngine::Quaternion)> __UnityEngine_Timeline_AnimationPlayableAssetSizeCheck;
   static_assert(sizeof(AnimationPlayableAsset) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset*, "UnityEngine.Timeline", "AnimationPlayableAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset::LoopMode, "UnityEngine.Timeline", "AnimationPlayableAsset/LoopMode");

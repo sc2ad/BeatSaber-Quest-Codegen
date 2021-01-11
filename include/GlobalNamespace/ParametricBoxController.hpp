@@ -177,8 +177,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // ParametricBoxController
+  #pragma pack(pop)
   static check_size<sizeof(ParametricBoxController), 80 + sizeof(UnityEngine::MeshRenderer*)> __GlobalNamespace_ParametricBoxControllerSizeCheck;
   static_assert(sizeof(ParametricBoxController) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxController*, "", "ParametricBoxController");

@@ -34,7 +34,7 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0xFFFFFFFF
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
   }; // NUnit.Framework.Interfaces.ITestFilter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestFilter*, "NUnit.Framework.Interfaces", "ITestFilter");

@@ -98,8 +98,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.DerBoolean
+  #pragma pack(pop)
   static check_size<sizeof(DerBoolean), 16 + sizeof(uint8_t)> __Org_BouncyCastle_Asn1_DerBooleanSizeCheck;
   static_assert(sizeof(DerBoolean) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerBoolean*, "Org.BouncyCastle.Asn1", "DerBoolean");

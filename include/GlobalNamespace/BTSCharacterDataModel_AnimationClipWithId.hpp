@@ -58,8 +58,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterDataModel::AnimationClipWithId*, creationType>()));
     }
   }; // BTSCharacterDataModel/AnimationClipWithId
+  #pragma pack(pop)
   static check_size<sizeof(BTSCharacterDataModel::AnimationClipWithId), 24 + sizeof(UnityEngine::AnimationClip*)> __GlobalNamespace_BTSCharacterDataModel_AnimationClipWithIdSizeCheck;
   static_assert(sizeof(BTSCharacterDataModel::AnimationClipWithId) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*, "", "BTSCharacterDataModel/AnimationClipWithId");

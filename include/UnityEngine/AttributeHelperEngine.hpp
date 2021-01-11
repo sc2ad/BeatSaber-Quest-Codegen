@@ -78,6 +78,6 @@ namespace UnityEngine {
     // Offset: 0x167D80C
     static void _cctor();
   }; // UnityEngine.AttributeHelperEngine
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AttributeHelperEngine*, "UnityEngine", "AttributeHelperEngine");

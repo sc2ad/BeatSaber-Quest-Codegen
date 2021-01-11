@@ -71,8 +71,8 @@ namespace NUnit::Framework::Internal::Execution {
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
   }; // NUnit.Framework.Internal.Execution.EventListenerTextWriter
+  #pragma pack(pop)
   static check_size<sizeof(EventListenerTextWriter), 48 + sizeof(::Il2CppString*)> __NUnit_Framework_Internal_Execution_EventListenerTextWriterSizeCheck;
   static_assert(sizeof(EventListenerTextWriter) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::EventListenerTextWriter*, "NUnit.Framework.Internal.Execution", "EventListenerTextWriter");

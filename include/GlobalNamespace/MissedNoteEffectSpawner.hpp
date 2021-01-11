@@ -94,8 +94,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissedNoteEffectSpawner*, creationType>()));
     }
   }; // MissedNoteEffectSpawner
+  #pragma pack(pop)
   static check_size<sizeof(MissedNoteEffectSpawner), 56 + sizeof(float)> __GlobalNamespace_MissedNoteEffectSpawnerSizeCheck;
   static_assert(sizeof(MissedNoteEffectSpawner) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissedNoteEffectSpawner*, "", "MissedNoteEffectSpawner");

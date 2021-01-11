@@ -64,9 +64,9 @@ namespace GlobalNamespace {
     // Set static field: static public HostLobbySetupViewController/CannotStartGameReason DoNotOwnSong
     static void _set_DoNotOwnSong(GlobalNamespace::HostLobbySetupViewController::CannotStartGameReason value);
   }; // HostLobbySetupViewController/CannotStartGameReason
+  #pragma pack(pop)
   static check_size<sizeof(HostLobbySetupViewController::CannotStartGameReason), 0 + sizeof(int)> __GlobalNamespace_HostLobbySetupViewController_CannotStartGameReasonSizeCheck;
   static_assert(sizeof(HostLobbySetupViewController::CannotStartGameReason) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostLobbySetupViewController::CannotStartGameReason, "", "HostLobbySetupViewController/CannotStartGameReason");

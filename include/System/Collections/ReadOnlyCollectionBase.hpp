@@ -84,8 +84,8 @@ namespace System::Collections {
       return THROW_UNLESS((::il2cpp_utils::New<ReadOnlyCollectionBase*, creationType>()));
     }
   }; // System.Collections.ReadOnlyCollectionBase
+  #pragma pack(pop)
   static check_size<sizeof(ReadOnlyCollectionBase), 16 + sizeof(System::Collections::ArrayList*)> __System_Collections_ReadOnlyCollectionBaseSizeCheck;
   static_assert(sizeof(ReadOnlyCollectionBase) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ReadOnlyCollectionBase*, "System.Collections", "ReadOnlyCollectionBase");

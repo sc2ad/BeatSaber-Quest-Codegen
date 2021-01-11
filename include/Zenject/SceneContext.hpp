@@ -297,8 +297,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<SceneContext*, creationType>()));
     }
   }; // Zenject.SceneContext
+  #pragma pack(pop)
   static check_size<sizeof(SceneContext), 177 + sizeof(bool)> __Zenject_SceneContextSizeCheck;
   static_assert(sizeof(SceneContext) == 0xB2);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContext*, "Zenject", "SceneContext");

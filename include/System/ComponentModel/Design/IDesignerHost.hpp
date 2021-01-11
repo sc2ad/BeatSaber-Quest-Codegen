@@ -32,7 +32,7 @@ namespace System::ComponentModel::Design {
     // Offset: 0xFFFFFFFF
     System::ComponentModel::IComponent* get_RootComponent();
   }; // System.ComponentModel.Design.IDesignerHost
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::IDesignerHost*, "System.ComponentModel.Design", "IDesignerHost");

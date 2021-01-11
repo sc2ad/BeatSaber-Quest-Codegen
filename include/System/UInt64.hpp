@@ -235,9 +235,9 @@ namespace System {
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.UInt64
+  #pragma pack(pop)
   static check_size<sizeof(UInt64), 0 + sizeof(uint64_t)> __System_UInt64SizeCheck;
   static_assert(sizeof(UInt64) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UInt64, "System", "UInt64");

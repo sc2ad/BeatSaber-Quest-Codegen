@@ -404,8 +404,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<GUISkin*, creationType>()));
     }
   }; // UnityEngine.GUISkin
+  #pragma pack(pop)
   static check_size<sizeof(GUISkin), 224 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::GUIStyle*>*)> __UnityEngine_GUISkinSizeCheck;
   static_assert(sizeof(GUISkin) == 0xE8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISkin*, "UnityEngine", "GUISkin");

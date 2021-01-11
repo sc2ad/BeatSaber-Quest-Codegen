@@ -57,8 +57,8 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
       return THROW_UNLESS((::il2cpp_utils::New<Tables8kGcmMultiplier*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.Tables8kGcmMultiplier
+  #pragma pack(pop)
   static check_size<sizeof(Tables8kGcmMultiplier), 24 + sizeof(::Array<::Array<::Array<uint>*>*>*)> __Org_BouncyCastle_Crypto_Modes_Gcm_Tables8kGcmMultiplierSizeCheck;
   static_assert(sizeof(Tables8kGcmMultiplier) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier*, "Org.BouncyCastle.Crypto.Modes.Gcm", "Tables8kGcmMultiplier");

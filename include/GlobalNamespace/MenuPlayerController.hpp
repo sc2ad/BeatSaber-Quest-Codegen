@@ -81,8 +81,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MenuPlayerController*, creationType>()));
     }
   }; // MenuPlayerController
+  #pragma pack(pop)
   static check_size<sizeof(MenuPlayerController), 40 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_MenuPlayerControllerSizeCheck;
   static_assert(sizeof(MenuPlayerController) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuPlayerController*, "", "MenuPlayerController");

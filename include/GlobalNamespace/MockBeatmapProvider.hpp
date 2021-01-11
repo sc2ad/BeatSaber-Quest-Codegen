@@ -63,6 +63,6 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MockBeatmapProvider*, creationType>()));
     }
   }; // MockBeatmapProvider
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapProvider*, "", "MockBeatmapProvider");

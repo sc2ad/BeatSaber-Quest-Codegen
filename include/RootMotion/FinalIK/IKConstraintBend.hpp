@@ -194,8 +194,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKConstraintBend*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKConstraintBend
+  #pragma pack(pop)
   static check_size<sizeof(IKConstraintBend), 133 + sizeof(bool)> __RootMotion_FinalIK_IKConstraintBendSizeCheck;
   static_assert(sizeof(IKConstraintBend) == 0x86);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKConstraintBend*, "RootMotion.FinalIK", "IKConstraintBend");

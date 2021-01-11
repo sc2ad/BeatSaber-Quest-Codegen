@@ -68,8 +68,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AvatarHeadOffset*, creationType>()));
     }
   }; // AvatarHeadOffset
+  #pragma pack(pop)
   static check_size<sizeof(AvatarHeadOffset), 40 + sizeof(GlobalNamespace::AvatarPoseController*)> __GlobalNamespace_AvatarHeadOffsetSizeCheck;
   static_assert(sizeof(AvatarHeadOffset) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarHeadOffset*, "", "AvatarHeadOffset");

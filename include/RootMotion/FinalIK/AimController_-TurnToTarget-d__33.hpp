@@ -84,8 +84,8 @@ namespace RootMotion::FinalIK {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // RootMotion.FinalIK.AimController/<TurnToTarget>d__33
+  #pragma pack(pop)
   static check_size<sizeof(AimController::$TurnToTarget$d__33), 32 + sizeof(RootMotion::FinalIK::AimController*)> __RootMotion_FinalIK_AimController_$TurnToTarget$d__33SizeCheck;
   static_assert(sizeof(AimController::$TurnToTarget$d__33) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimController::$TurnToTarget$d__33*, "RootMotion.FinalIK", "AimController/<TurnToTarget>d__33");

@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x18ED2D4
     void EndInvoke(int& pnX, int& pnY, uint& pnWidth, uint& pnHeight, System::IAsyncResult* result);
   }; // Valve.VR.IVRExtendedDisplay/_GetWindowBounds
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRExtendedDisplay::_GetWindowBounds*, "Valve.VR", "IVRExtendedDisplay/_GetWindowBounds");

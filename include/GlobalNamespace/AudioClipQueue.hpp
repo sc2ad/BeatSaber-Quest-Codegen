@@ -79,8 +79,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipQueue*, creationType>()));
     }
   }; // AudioClipQueue
+  #pragma pack(pop)
   static check_size<sizeof(AudioClipQueue), 40 + sizeof(float)> __GlobalNamespace_AudioClipQueueSizeCheck;
   static_assert(sizeof(AudioClipQueue) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipQueue*, "", "AudioClipQueue");

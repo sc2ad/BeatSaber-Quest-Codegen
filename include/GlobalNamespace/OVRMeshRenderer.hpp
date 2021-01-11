@@ -78,6 +78,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRMeshRenderer/ConfidenceBehavior ToggleRenderer
       static void _set_ToggleRenderer(GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior value);
     }; // OVRMeshRenderer/ConfidenceBehavior
+    #pragma pack(pop)
     static check_size<sizeof(OVRMeshRenderer::ConfidenceBehavior), 0 + sizeof(int)> __GlobalNamespace_OVRMeshRenderer_ConfidenceBehaviorSizeCheck;
     static_assert(sizeof(OVRMeshRenderer::ConfidenceBehavior) == 0x4);
     // Size: 0x4
@@ -115,6 +116,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRMeshRenderer/SystemGestureBehavior SwapMaterial
       static void _set_SwapMaterial(GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior value);
     }; // OVRMeshRenderer/SystemGestureBehavior
+    #pragma pack(pop)
     static check_size<sizeof(OVRMeshRenderer::SystemGestureBehavior), 0 + sizeof(int)> __GlobalNamespace_OVRMeshRenderer_SystemGestureBehaviorSizeCheck;
     static_assert(sizeof(OVRMeshRenderer::SystemGestureBehavior) == 0x4);
     // private OVRMeshRenderer/IOVRMeshRendererDataProvider _dataProvider
@@ -247,10 +249,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRMeshRenderer*, creationType>()));
     }
   }; // OVRMeshRenderer
+  #pragma pack(pop)
   static check_size<sizeof(OVRMeshRenderer), 83 + sizeof(bool)> __GlobalNamespace_OVRMeshRendererSizeCheck;
   static_assert(sizeof(OVRMeshRenderer) == 0x54);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer*, "", "OVRMeshRenderer");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior, "", "OVRMeshRenderer/ConfidenceBehavior");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior, "", "OVRMeshRenderer/SystemGestureBehavior");

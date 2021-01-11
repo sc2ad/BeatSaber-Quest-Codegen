@@ -92,6 +92,7 @@ namespace RootMotion {
       // Set static field: static public RootMotion.BipedNaming/BoneType Eye
       static void _set_Eye(RootMotion::BipedNaming::BoneType value);
     }; // RootMotion.BipedNaming/BoneType
+    #pragma pack(pop)
     static check_size<sizeof(BipedNaming::BoneType), 0 + sizeof(int)> __RootMotion_BipedNaming_BoneTypeSizeCheck;
     static_assert(sizeof(BipedNaming::BoneType) == 0x4);
     // Size: 0x4
@@ -135,6 +136,7 @@ namespace RootMotion {
       // Set static field: static public RootMotion.BipedNaming/BoneSide Right
       static void _set_Right(RootMotion::BipedNaming::BoneSide value);
     }; // RootMotion.BipedNaming/BoneSide
+    #pragma pack(pop)
     static check_size<sizeof(BipedNaming::BoneSide), 0 + sizeof(int)> __RootMotion_BipedNaming_BoneSideSizeCheck;
     static_assert(sizeof(BipedNaming::BoneSide) == 0x4);
     // Creating value type constructor for type: BipedNaming
@@ -298,8 +300,8 @@ namespace RootMotion {
     // Offset: 0x17431A8
     static void _cctor();
   }; // RootMotion.BipedNaming
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming*, "RootMotion", "BipedNaming");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming::BoneType, "RootMotion", "BipedNaming/BoneType");

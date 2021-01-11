@@ -59,8 +59,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<FlowCoordinator::$$c__DisplayClass38_0*, creationType>()));
     }
   }; // HMUI.FlowCoordinator/<>c__DisplayClass38_0
+  #pragma pack(pop)
   static check_size<sizeof(FlowCoordinator::$$c__DisplayClass38_0), 32 + sizeof(System::Action*)> __HMUI_FlowCoordinator_$$c__DisplayClass38_0SizeCheck;
   static_assert(sizeof(FlowCoordinator::$$c__DisplayClass38_0) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::FlowCoordinator::$$c__DisplayClass38_0*, "HMUI", "FlowCoordinator/<>c__DisplayClass38_0");

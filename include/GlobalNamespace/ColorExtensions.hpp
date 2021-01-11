@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Offset: 0x102B638
     static UnityEngine::Color ColorWithValue(UnityEngine::Color color, float value);
   }; // ColorExtensions
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorExtensions*, "", "ColorExtensions");

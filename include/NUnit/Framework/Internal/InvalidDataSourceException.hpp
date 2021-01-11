@@ -48,6 +48,6 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidDataSourceException*, creationType>(info, context)));
     }
   }; // NUnit.Framework.Internal.InvalidDataSourceException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InvalidDataSourceException*, "NUnit.Framework.Internal", "InvalidDataSourceException");

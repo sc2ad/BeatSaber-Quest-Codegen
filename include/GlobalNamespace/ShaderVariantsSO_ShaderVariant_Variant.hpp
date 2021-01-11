@@ -51,8 +51,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ShaderVariantsSO::ShaderVariant::Variant*, creationType>(passType, keywords)));
     }
   }; // ShaderVariantsSO/ShaderVariant/Variant
+  #pragma pack(pop)
   static check_size<sizeof(ShaderVariantsSO::ShaderVariant::Variant), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_ShaderVariantsSO_ShaderVariant_VariantSizeCheck;
   static_assert(sizeof(ShaderVariantsSO::ShaderVariant::Variant) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*, "", "ShaderVariantsSO/ShaderVariant/Variant");

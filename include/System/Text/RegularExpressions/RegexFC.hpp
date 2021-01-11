@@ -80,8 +80,8 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x1545078
     bool IsCaseInsensitive();
   }; // System.Text.RegularExpressions.RegexFC
+  #pragma pack(pop)
   static check_size<sizeof(RegexFC), 25 + sizeof(bool)> __System_Text_RegularExpressions_RegexFCSizeCheck;
   static_assert(sizeof(RegexFC) == 0x1A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFC*, "System.Text.RegularExpressions", "RegexFC");

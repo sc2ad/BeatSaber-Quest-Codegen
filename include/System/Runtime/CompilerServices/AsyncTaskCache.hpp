@@ -55,6 +55,6 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x11627DC
     static void _cctor();
   }; // System.Runtime.CompilerServices.AsyncTaskCache
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncTaskCache*, "System.Runtime.CompilerServices", "AsyncTaskCache");

@@ -77,8 +77,8 @@ namespace GlobalNamespace {
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ObstacleSpawnData(UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float obstacleHeight, float moveDuration, float jumpDuration, float noteLinesDistance)
   }; // BeatmapObjectSpawnMovementData/ObstacleSpawnData
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectSpawnMovementData::ObstacleSpawnData), 48 + sizeof(float)> __GlobalNamespace_BeatmapObjectSpawnMovementData_ObstacleSpawnDataSizeCheck;
   static_assert(sizeof(BeatmapObjectSpawnMovementData::ObstacleSpawnData) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, "", "BeatmapObjectSpawnMovementData/ObstacleSpawnData");

@@ -147,8 +147,8 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // SongStartHandler
+  #pragma pack(pop)
   static check_size<sizeof(SongStartHandler), 56 + sizeof(System::Action_1<float>*)> __GlobalNamespace_SongStartHandlerSizeCheck;
   static_assert(sizeof(SongStartHandler) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongStartHandler*, "", "SongStartHandler");

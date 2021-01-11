@@ -34,7 +34,7 @@ namespace UnityEngine::UI {
     // Offset: 0x1566CB0
     static UnityEngine::Vector2 GetMousePositionRelativeToMainDisplayResolution();
   }; // UnityEngine.UI.MultipleDisplayUtilities
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MultipleDisplayUtilities*, "UnityEngine.UI", "MultipleDisplayUtilities");

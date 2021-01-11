@@ -85,8 +85,8 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x188A3D8
     UnityEngine::ProBuilder::ChangelogEntry* CreateEntry(::Il2CppString* version, ::Il2CppString* contents);
   }; // UnityEngine.ProBuilder.Changelog
+  #pragma pack(pop)
   static check_size<sizeof(Changelog), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*)> __UnityEngine_ProBuilder_ChangelogSizeCheck;
   static_assert(sizeof(Changelog) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Changelog*, "UnityEngine.ProBuilder", "Changelog");

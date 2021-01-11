@@ -87,8 +87,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockAnimator*, creationType>()));
     }
   }; // MaterialPropertyBlockAnimator
+  #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyBlockAnimator), 44 + sizeof(bool)> __GlobalNamespace_MaterialPropertyBlockAnimatorSizeCheck;
   static_assert(sizeof(MaterialPropertyBlockAnimator) == 0x2D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockAnimator*, "", "MaterialPropertyBlockAnimator");

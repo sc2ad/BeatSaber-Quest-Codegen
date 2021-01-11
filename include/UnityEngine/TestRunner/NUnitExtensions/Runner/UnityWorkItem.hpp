@@ -204,8 +204,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Offset: 0x1188378
     bool $ShouldExecuteStartEvent$b__32_0(::Il2CppString* x);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
+  #pragma pack(pop)
   static check_size<sizeof(UnityWorkItem), 80 + sizeof(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityWorkItemSizeCheck;
   static_assert(sizeof(UnityWorkItem) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityWorkItem");

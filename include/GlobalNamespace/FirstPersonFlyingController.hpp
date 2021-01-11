@@ -138,8 +138,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FirstPersonFlyingController*, creationType>()));
     }
   }; // FirstPersonFlyingController
+  #pragma pack(pop)
   static check_size<sizeof(FirstPersonFlyingController), 96 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_FirstPersonFlyingControllerSizeCheck;
   static_assert(sizeof(FirstPersonFlyingController) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FirstPersonFlyingController*, "", "FirstPersonFlyingController");

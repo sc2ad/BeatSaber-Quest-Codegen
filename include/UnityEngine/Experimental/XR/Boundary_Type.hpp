@@ -46,9 +46,9 @@ namespace UnityEngine::Experimental::XR {
     // Set static field: static public UnityEngine.Experimental.XR.Boundary/Type TrackedArea
     static void _set_TrackedArea(UnityEngine::Experimental::XR::Boundary::Type value);
   }; // UnityEngine.Experimental.XR.Boundary/Type
+  #pragma pack(pop)
   static check_size<sizeof(Boundary::Type), 0 + sizeof(int)> __UnityEngine_Experimental_XR_Boundary_TypeSizeCheck;
   static_assert(sizeof(Boundary::Type) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::XR::Boundary::Type, "UnityEngine.Experimental.XR", "Boundary/Type");

@@ -94,8 +94,8 @@ namespace Zenject {
     // Base method: System.Void IProvider::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.MethodMultipleProviderUntyped
+  #pragma pack(pop)
   static check_size<sizeof(MethodMultipleProviderUntyped), 24 + sizeof(System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>*)> __Zenject_MethodMultipleProviderUntypedSizeCheck;
   static_assert(sizeof(MethodMultipleProviderUntyped) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MethodMultipleProviderUntyped*, "Zenject", "MethodMultipleProviderUntyped");

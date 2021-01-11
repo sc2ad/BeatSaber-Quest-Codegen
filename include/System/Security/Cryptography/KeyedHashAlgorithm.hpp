@@ -56,8 +56,8 @@ namespace System::Security::Cryptography {
     // Base method: System.Void HashAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Security.Cryptography.KeyedHashAlgorithm
+  #pragma pack(pop)
   static check_size<sizeof(KeyedHashAlgorithm), 40 + sizeof(::Array<uint8_t>*)> __System_Security_Cryptography_KeyedHashAlgorithmSizeCheck;
   static_assert(sizeof(KeyedHashAlgorithm) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::KeyedHashAlgorithm*, "System.Security.Cryptography", "KeyedHashAlgorithm");

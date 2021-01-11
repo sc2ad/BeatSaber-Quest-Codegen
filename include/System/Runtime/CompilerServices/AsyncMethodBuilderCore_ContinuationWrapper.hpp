@@ -62,8 +62,8 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1162328
     void Invoke();
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/ContinuationWrapper
+  #pragma pack(pop)
   static check_size<sizeof(AsyncMethodBuilderCore::ContinuationWrapper), 32 + sizeof(System::Threading::Tasks::Task*)> __System_Runtime_CompilerServices_AsyncMethodBuilderCore_ContinuationWrapperSizeCheck;
   static_assert(sizeof(AsyncMethodBuilderCore::ContinuationWrapper) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/ContinuationWrapper");

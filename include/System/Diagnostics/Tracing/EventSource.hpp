@@ -201,6 +201,7 @@ namespace System::Diagnostics::Tracing {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // System.Diagnostics.Tracing.EventSource/EventMetadata
+    #pragma pack(pop)
     static check_size<sizeof(EventSource::EventMetadata), 56 + sizeof(System::Diagnostics::Tracing::EventActivityOptions)> __System_Diagnostics_Tracing_EventSource_EventMetadataSizeCheck;
     static_assert(sizeof(EventSource::EventMetadata) == 0x3C);
     // private System.Byte[] providerMetadata
@@ -696,9 +697,9 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Diagnostics.Tracing.EventSource
+  #pragma pack(pop)
   static check_size<sizeof(EventSource), 200 + sizeof(System::Diagnostics::Tracing::ActivityTracker*)> __System_Diagnostics_Tracing_EventSourceSizeCheck;
   static_assert(sizeof(EventSource) == 0xD0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource*, "System.Diagnostics.Tracing", "EventSource");
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource::EventMetadata, "System.Diagnostics.Tracing", "EventSource/EventMetadata");

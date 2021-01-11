@@ -47,8 +47,8 @@ namespace System::Security {
     // Offset: 0x1286294
     ::Il2CppString* get_Value();
   }; // System.Security.SecurityElement/SecurityAttribute
+  #pragma pack(pop)
   static check_size<sizeof(SecurityElement::SecurityAttribute), 24 + sizeof(::Il2CppString*)> __System_Security_SecurityElement_SecurityAttributeSizeCheck;
   static_assert(sizeof(SecurityElement::SecurityAttribute) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityElement::SecurityAttribute*, "System.Security", "SecurityElement/SecurityAttribute");

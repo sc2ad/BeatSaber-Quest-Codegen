@@ -64,8 +64,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer::ProviderInfo*, creationType>(provider, condition, nonLazy, container)));
     }
   }; // Zenject.DiContainer/ProviderInfo
+  #pragma pack(pop)
   static check_size<sizeof(DiContainer::ProviderInfo), 40 + sizeof(Zenject::BindingCondition*)> __Zenject_DiContainer_ProviderInfoSizeCheck;
   static_assert(sizeof(DiContainer::ProviderInfo) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::ProviderInfo*, "Zenject", "DiContainer/ProviderInfo");

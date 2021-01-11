@@ -71,8 +71,8 @@ namespace System::Security::Principal {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Security.Principal.WindowsImpersonationContext
+  #pragma pack(pop)
   static check_size<sizeof(WindowsImpersonationContext), 24 + sizeof(bool)> __System_Security_Principal_WindowsImpersonationContextSizeCheck;
   static_assert(sizeof(WindowsImpersonationContext) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsImpersonationContext*, "System.Security.Principal", "WindowsImpersonationContext");

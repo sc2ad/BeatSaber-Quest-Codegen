@@ -77,8 +77,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<CCDIK*, creationType>()));
     }
   }; // RootMotion.FinalIK.CCDIK
+  #pragma pack(pop)
   static check_size<sizeof(CCDIK), 56 + sizeof(RootMotion::FinalIK::IKSolverCCD*)> __RootMotion_FinalIK_CCDIKSizeCheck;
   static_assert(sizeof(CCDIK) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::CCDIK*, "RootMotion.FinalIK", "CCDIK");

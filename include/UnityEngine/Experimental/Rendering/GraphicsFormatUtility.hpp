@@ -62,7 +62,7 @@ namespace UnityEngine::Experimental::Rendering {
     // Offset: 0x16837D8
     static bool IsCrunchFormat(UnityEngine::TextureFormat format);
   }; // UnityEngine.Experimental.Rendering.GraphicsFormatUtility
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::GraphicsFormatUtility*, "UnityEngine.Experimental.Rendering", "GraphicsFormatUtility");

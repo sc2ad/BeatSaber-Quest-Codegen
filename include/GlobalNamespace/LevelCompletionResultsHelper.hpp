@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0x1ABD3DC
     static void ProcessScore(GlobalNamespace::PlayerData* playerData, GlobalNamespace::PlayerLevelStatsData* playerLevelStats, GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel);
   }; // LevelCompletionResultsHelper
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResultsHelper*, "", "LevelCompletionResultsHelper");

@@ -170,9 +170,9 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.BuiltinRenderTextureType GBuffer7
     static void _set_GBuffer7(UnityEngine::Rendering::BuiltinRenderTextureType value);
   }; // UnityEngine.Rendering.BuiltinRenderTextureType
+  #pragma pack(pop)
   static check_size<sizeof(BuiltinRenderTextureType), 0 + sizeof(int)> __UnityEngine_Rendering_BuiltinRenderTextureTypeSizeCheck;
   static_assert(sizeof(BuiltinRenderTextureType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BuiltinRenderTextureType, "UnityEngine.Rendering", "BuiltinRenderTextureType");

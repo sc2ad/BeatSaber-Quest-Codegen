@@ -47,6 +47,6 @@ namespace Zenject {
     // Offset: 0x19EF8E4
     void EndInvoke(System::IAsyncResult* result);
   }; // Zenject.ZenInjectMethod
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenInjectMethod*, "Zenject", "ZenInjectMethod");

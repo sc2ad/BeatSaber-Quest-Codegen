@@ -89,6 +89,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.Toggle/ToggleTransition Fade
       static void _set_Fade(UnityEngine::UI::Toggle::ToggleTransition value);
     }; // UnityEngine.UI.Toggle/ToggleTransition
+    #pragma pack(pop)
     static check_size<sizeof(Toggle::ToggleTransition), 0 + sizeof(int)> __UnityEngine_UI_Toggle_ToggleTransitionSizeCheck;
     static_assert(sizeof(Toggle::ToggleTransition) == 0x4);
     // public UnityEngine.UI.Toggle/ToggleTransition toggleTransition
@@ -236,9 +237,9 @@ namespace UnityEngine::UI {
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
   }; // UnityEngine.UI.Toggle
+  #pragma pack(pop)
   static check_size<sizeof(Toggle), 272 + sizeof(bool)> __UnityEngine_UI_ToggleSizeCheck;
   static_assert(sizeof(Toggle) == 0x111);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Toggle*, "UnityEngine.UI", "Toggle");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Toggle::ToggleTransition, "UnityEngine.UI", "Toggle/ToggleTransition");

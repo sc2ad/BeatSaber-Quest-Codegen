@@ -31,6 +31,6 @@ namespace System::Net::Configuration {
       return THROW_UNLESS((::il2cpp_utils::New<NetSectionGroup*, creationType>()));
     }
   }; // System.Net.Configuration.NetSectionGroup
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::NetSectionGroup*, "System.Net.Configuration", "NetSectionGroup");

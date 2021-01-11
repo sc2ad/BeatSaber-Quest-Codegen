@@ -223,8 +223,8 @@ namespace UnityEngine::UI {
     // Base method: UnityEngine.GameObject IClippable::get_gameObject()
     UnityEngine::GameObject* UnityEngine_UI_IClippable_get_gameObject();
   }; // UnityEngine.UI.MaskableGraphic
+  #pragma pack(pop)
   static check_size<sizeof(MaskableGraphic), 184 + sizeof(::Array<UnityEngine::Vector3>*)> __UnityEngine_UI_MaskableGraphicSizeCheck;
   static_assert(sizeof(MaskableGraphic) == 0xC0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskableGraphic*, "UnityEngine.UI", "MaskableGraphic");

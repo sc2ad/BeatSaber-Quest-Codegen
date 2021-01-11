@@ -60,8 +60,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LanguageSettingsPresetsSO*, creationType>()));
     }
   }; // LanguageSettingsPresetsSO
+  #pragma pack(pop)
   static check_size<sizeof(LanguageSettingsPresetsSO), 24 + sizeof(::Array<GlobalNamespace::LanguageSettingsPresetsSO::Preset*>*)> __GlobalNamespace_LanguageSettingsPresetsSOSizeCheck;
   static_assert(sizeof(LanguageSettingsPresetsSO) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LanguageSettingsPresetsSO*, "", "LanguageSettingsPresetsSO");

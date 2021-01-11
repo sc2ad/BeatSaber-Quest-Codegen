@@ -46,9 +46,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TextEditor/Direction Backward
     static void _set_Backward(UnityEngine::TextEditor::Direction value);
   }; // UnityEngine.TextEditor/Direction
+  #pragma pack(pop)
   static check_size<sizeof(TextEditor::Direction), 0 + sizeof(int)> __UnityEngine_TextEditor_DirectionSizeCheck;
   static_assert(sizeof(TextEditor::Direction) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::Direction, "UnityEngine", "TextEditor/Direction");

@@ -49,6 +49,6 @@ namespace UnityEngine {
     // Offset: 0x160D48C
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.GUISkin/SkinChangedDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISkin::SkinChangedDelegate*, "UnityEngine", "GUISkin/SkinChangedDelegate");

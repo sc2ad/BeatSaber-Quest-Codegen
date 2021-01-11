@@ -50,9 +50,9 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVSync NoWaitRender
     static void _set_NoWaitRender(OVR::OpenVR::EVSync value);
   }; // OVR.OpenVR.EVSync
+  #pragma pack(pop)
   static check_size<sizeof(EVSync), 0 + sizeof(int)> __OVR_OpenVR_EVSyncSizeCheck;
   static_assert(sizeof(EVSync) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVSync, "OVR.OpenVR", "EVSync");

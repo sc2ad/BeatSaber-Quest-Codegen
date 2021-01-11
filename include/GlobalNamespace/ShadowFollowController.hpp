@@ -92,8 +92,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ShadowFollowController*, creationType>()));
     }
   }; // ShadowFollowController
+  #pragma pack(pop)
   static check_size<sizeof(ShadowFollowController), 64 + sizeof(UnityEngine::Vector2)> __GlobalNamespace_ShadowFollowControllerSizeCheck;
   static_assert(sizeof(ShadowFollowController) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShadowFollowController*, "", "ShadowFollowController");

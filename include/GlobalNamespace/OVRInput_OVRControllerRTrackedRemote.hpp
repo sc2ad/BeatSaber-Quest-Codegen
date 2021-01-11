@@ -99,8 +99,8 @@ namespace GlobalNamespace {
     // Base method: System.Byte OVRControllerBase::GetBatteryPercentRemaining()
     uint8_t GetBatteryPercentRemaining();
   }; // OVRInput/OVRControllerRTrackedRemote
+  #pragma pack(pop)
   static check_size<sizeof(OVRInput::OVRControllerRTrackedRemote), 268 + sizeof(float)> __GlobalNamespace_OVRInput_OVRControllerRTrackedRemoteSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerRTrackedRemote) == 0x110);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerRTrackedRemote*, "", "OVRInput/OVRControllerRTrackedRemote");

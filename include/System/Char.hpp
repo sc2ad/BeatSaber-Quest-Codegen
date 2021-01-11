@@ -372,9 +372,9 @@ namespace System {
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.Char
+  #pragma pack(pop)
   static check_size<sizeof(Char), 0 + sizeof(::Il2CppChar)> __System_CharSizeCheck;
   static_assert(sizeof(Char) == 0x2);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Char, "System", "Char");

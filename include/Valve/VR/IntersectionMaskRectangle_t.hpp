@@ -46,9 +46,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.IntersectionMaskRectangle_t
+  #pragma pack(pop)
   static check_size<sizeof(IntersectionMaskRectangle_t), 12 + sizeof(float)> __Valve_VR_IntersectionMaskRectangle_tSizeCheck;
   static_assert(sizeof(IntersectionMaskRectangle_t) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IntersectionMaskRectangle_t, "Valve.VR", "IntersectionMaskRectangle_t");

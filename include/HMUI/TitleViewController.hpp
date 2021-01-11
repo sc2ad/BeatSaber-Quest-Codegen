@@ -52,8 +52,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<TitleViewController*, creationType>()));
     }
   }; // HMUI.TitleViewController
+  #pragma pack(pop)
   static check_size<sizeof(TitleViewController), 112 + sizeof(TMPro::TextMeshProUGUI*)> __HMUI_TitleViewControllerSizeCheck;
   static_assert(sizeof(TitleViewController) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TitleViewController*, "HMUI", "TitleViewController");

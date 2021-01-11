@@ -30,6 +30,6 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<ManualResetEvent*, creationType>(initialState)));
     }
   }; // System.Threading.ManualResetEvent
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ManualResetEvent*, "System.Threading", "ManualResetEvent");

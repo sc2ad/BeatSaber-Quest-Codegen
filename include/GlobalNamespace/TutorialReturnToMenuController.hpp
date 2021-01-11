@@ -61,8 +61,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TutorialReturnToMenuController*, creationType>()));
     }
   }; // TutorialReturnToMenuController
+  #pragma pack(pop)
   static check_size<sizeof(TutorialReturnToMenuController), 24 + sizeof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*)> __GlobalNamespace_TutorialReturnToMenuControllerSizeCheck;
   static_assert(sizeof(TutorialReturnToMenuController) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialReturnToMenuController*, "", "TutorialReturnToMenuController");

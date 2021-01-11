@@ -82,8 +82,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Int32 ECKeyParameters::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters
+  #pragma pack(pop)
   static check_size<sizeof(ECPrivateKeyParameters), 48 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Crypto_Parameters_ECPrivateKeyParametersSizeCheck;
   static_assert(sizeof(ECPrivateKeyParameters) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "ECPrivateKeyParameters");

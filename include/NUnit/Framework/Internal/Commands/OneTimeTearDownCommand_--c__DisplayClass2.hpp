@@ -52,8 +52,8 @@ namespace NUnit::Framework::Internal::Commands {
       return THROW_UNLESS((::il2cpp_utils::New<OneTimeTearDownCommand::$$c__DisplayClass2*, creationType>()));
     }
   }; // NUnit.Framework.Internal.Commands.OneTimeTearDownCommand/<>c__DisplayClass2
+  #pragma pack(pop)
   static check_size<sizeof(OneTimeTearDownCommand::$$c__DisplayClass2), 16 + sizeof(System::IDisposable*)> __NUnit_Framework_Internal_Commands_OneTimeTearDownCommand_$$c__DisplayClass2SizeCheck;
   static_assert(sizeof(OneTimeTearDownCommand::$$c__DisplayClass2) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass2*, "NUnit.Framework.Internal.Commands", "OneTimeTearDownCommand/<>c__DisplayClass2");

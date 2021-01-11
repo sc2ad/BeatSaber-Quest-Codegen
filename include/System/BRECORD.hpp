@@ -37,9 +37,9 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.BRECORD
+  #pragma pack(pop)
   static check_size<sizeof(BRECORD), 8 + sizeof(System::IntPtr)> __System_BRECORDSizeCheck;
   static_assert(sizeof(BRECORD) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::BRECORD, "System", "BRECORD");

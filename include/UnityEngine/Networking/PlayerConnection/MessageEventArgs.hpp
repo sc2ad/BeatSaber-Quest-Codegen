@@ -43,8 +43,8 @@ namespace UnityEngine::Networking::PlayerConnection {
       return THROW_UNLESS((::il2cpp_utils::New<MessageEventArgs*, creationType>()));
     }
   }; // UnityEngine.Networking.PlayerConnection.MessageEventArgs
+  #pragma pack(pop)
   static check_size<sizeof(MessageEventArgs), 24 + sizeof(::Array<uint8_t>*)> __UnityEngine_Networking_PlayerConnection_MessageEventArgsSizeCheck;
   static_assert(sizeof(MessageEventArgs) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::MessageEventArgs*, "UnityEngine.Networking.PlayerConnection", "MessageEventArgs");

@@ -96,6 +96,7 @@ namespace GlobalNamespace {
       // Set static field: static public VRControllersRecorder/Mode Off
       static void _set_Off(GlobalNamespace::VRControllersRecorder::Mode value);
     }; // VRControllersRecorder/Mode
+    #pragma pack(pop)
     static check_size<sizeof(VRControllersRecorder::Mode), 0 + sizeof(int)> __GlobalNamespace_VRControllersRecorder_ModeSizeCheck;
     static_assert(sizeof(VRControllersRecorder::Mode) == 0x4);
     // [NullAllowed] Offset: 0xDD2960
@@ -309,9 +310,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorder*, creationType>()));
     }
   }; // VRControllersRecorder
+  #pragma pack(pop)
   static check_size<sizeof(VRControllersRecorder), 152 + sizeof(int)> __GlobalNamespace_VRControllersRecorderSizeCheck;
   static_assert(sizeof(VRControllersRecorder) == 0x9C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder*, "", "VRControllersRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::Mode, "", "VRControllersRecorder/Mode");

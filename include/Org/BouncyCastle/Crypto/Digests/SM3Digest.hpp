@@ -144,8 +144,8 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Void GeneralDigest::ProcessBlock()
     void ProcessBlock();
   }; // Org.BouncyCastle.Crypto.Digests.SM3Digest
+  #pragma pack(pop)
   static check_size<sizeof(SM3Digest), 64 + sizeof(::Array<uint>*)> __Org_BouncyCastle_Crypto_Digests_SM3DigestSizeCheck;
   static_assert(sizeof(SM3Digest) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::SM3Digest*, "Org.BouncyCastle.Crypto.Digests", "SM3Digest");

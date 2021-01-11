@@ -32,6 +32,6 @@ namespace Zenject::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<PreserveAttribute*, creationType>()));
     }
   }; // Zenject.Internal.PreserveAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::PreserveAttribute*, "Zenject.Internal", "PreserveAttribute");

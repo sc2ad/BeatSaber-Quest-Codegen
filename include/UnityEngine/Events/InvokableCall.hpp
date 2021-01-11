@@ -81,8 +81,8 @@ namespace UnityEngine::Events {
     // Base method: System.Boolean BaseInvokableCall::Find(System.Object targetObj, System.Reflection.MethodInfo method)
     bool Find(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method);
   }; // UnityEngine.Events.InvokableCall
+  #pragma pack(pop)
   static check_size<sizeof(InvokableCall), 16 + sizeof(UnityEngine::Events::UnityAction*)> __UnityEngine_Events_InvokableCallSizeCheck;
   static_assert(sizeof(InvokableCall) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::InvokableCall*, "UnityEngine.Events", "InvokableCall");

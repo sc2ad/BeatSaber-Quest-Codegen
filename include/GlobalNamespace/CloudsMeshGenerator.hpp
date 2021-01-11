@@ -109,6 +109,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // CloudsMeshGenerator/Cloud
+    #pragma pack(pop)
     static check_size<sizeof(CloudsMeshGenerator::Cloud), 36 + sizeof(int)> __GlobalNamespace_CloudsMeshGenerator_CloudSizeCheck;
     static_assert(sizeof(CloudsMeshGenerator::Cloud) == 0x28);
     // Size: 0x1C
@@ -157,6 +158,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // CloudsMeshGenerator/Ring
+    #pragma pack(pop)
     static check_size<sizeof(CloudsMeshGenerator::Ring), 24 + sizeof(float)> __GlobalNamespace_CloudsMeshGenerator_RingSizeCheck;
     static_assert(sizeof(CloudsMeshGenerator::Ring) == 0x1C);
     // Size: 0x10
@@ -193,6 +195,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // CloudsMeshGenerator/ProhibitedRadius
+    #pragma pack(pop)
     static check_size<sizeof(CloudsMeshGenerator::ProhibitedRadius), 12 + sizeof(float)> __GlobalNamespace_CloudsMeshGenerator_ProhibitedRadiusSizeCheck;
     static_assert(sizeof(CloudsMeshGenerator::ProhibitedRadius) == 0x10);
     // Size: 0x10
@@ -233,6 +236,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // CloudsMeshGenerator/RadiusChunk
+    #pragma pack(pop)
     static check_size<sizeof(CloudsMeshGenerator::RadiusChunk), 12 + sizeof(float)> __GlobalNamespace_CloudsMeshGenerator_RadiusChunkSizeCheck;
     static_assert(sizeof(CloudsMeshGenerator::RadiusChunk) == 0x10);
     // private UnityEngine.MeshFilter _meshFilter
@@ -478,10 +482,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CloudsMeshGenerator*, creationType>()));
     }
   }; // CloudsMeshGenerator
+  #pragma pack(pop)
   static check_size<sizeof(CloudsMeshGenerator), 224 + sizeof(::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>*)> __GlobalNamespace_CloudsMeshGeneratorSizeCheck;
   static_assert(sizeof(CloudsMeshGenerator) == 0xE8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator*, "", "CloudsMeshGenerator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator::Cloud, "", "CloudsMeshGenerator/Cloud");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator::Ring, "", "CloudsMeshGenerator/Ring");

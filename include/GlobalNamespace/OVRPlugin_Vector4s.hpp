@@ -61,9 +61,9 @@ namespace GlobalNamespace {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // OVRPlugin/Vector4s
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Vector4s), 6 + sizeof(int16_t)> __GlobalNamespace_OVRPlugin_Vector4sSizeCheck;
   static_assert(sizeof(OVRPlugin::Vector4s) == 0x8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Vector4s, "", "OVRPlugin/Vector4s");

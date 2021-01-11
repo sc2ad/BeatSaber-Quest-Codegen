@@ -41,8 +41,8 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyCopyrightAttribute*, creationType>(copyright)));
     }
   }; // System.Reflection.AssemblyCopyrightAttribute
+  #pragma pack(pop)
   static check_size<sizeof(AssemblyCopyrightAttribute), 16 + sizeof(::Il2CppString*)> __System_Reflection_AssemblyCopyrightAttributeSizeCheck;
   static_assert(sizeof(AssemblyCopyrightAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyCopyrightAttribute*, "System.Reflection", "AssemblyCopyrightAttribute");

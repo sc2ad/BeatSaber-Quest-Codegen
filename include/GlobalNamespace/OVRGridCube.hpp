@@ -136,8 +136,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRGridCube*, creationType>()));
     }
   }; // OVRGridCube
+  #pragma pack(pop)
   static check_size<sizeof(OVRGridCube), 64 + sizeof(GlobalNamespace::OVRCameraRig*)> __GlobalNamespace_OVRGridCubeSizeCheck;
   static_assert(sizeof(OVRGridCube) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGridCube*, "", "OVRGridCube");

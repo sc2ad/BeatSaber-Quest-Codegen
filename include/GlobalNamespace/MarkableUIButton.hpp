@@ -76,8 +76,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MarkableUIButton*, creationType>()));
     }
   }; // MarkableUIButton
+  #pragma pack(pop)
   static check_size<sizeof(MarkableUIButton), 36 + sizeof(int)> __GlobalNamespace_MarkableUIButtonSizeCheck;
   static_assert(sizeof(MarkableUIButton) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MarkableUIButton*, "", "MarkableUIButton");

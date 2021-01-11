@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18E86E4
     Valve::VR::ETrackingUniverseOrigin EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetTrackingSpace
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetTrackingSpace*, "Valve.VR", "IVRCompositor/_GetTrackingSpace");

@@ -275,9 +275,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.IVRApplications
+  #pragma pack(pop)
   static check_size<sizeof(IVRApplications), 240 + sizeof(Valve::VR::IVRApplications::_GetCurrentSceneProcessId*)> __Valve_VR_IVRApplicationsSizeCheck;
   static_assert(sizeof(IVRApplications) == 0xF8);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications, "Valve.VR", "IVRApplications");

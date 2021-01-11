@@ -43,8 +43,8 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<TrackMediaType*, creationType>(mt)));
     }
   }; // UnityEngine.Timeline.TrackMediaType
+  #pragma pack(pop)
   static check_size<sizeof(TrackMediaType), 16 + sizeof(UnityEngine::Timeline::TimelineAsset::MediaType)> __UnityEngine_Timeline_TrackMediaTypeSizeCheck;
   static_assert(sizeof(TrackMediaType) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackMediaType*, "UnityEngine.Timeline", "TrackMediaType");

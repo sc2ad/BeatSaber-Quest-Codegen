@@ -278,9 +278,9 @@ namespace System::Net {
     // Set static field: static public System.Net.HttpRequestHeader UserAgent
     static void _set_UserAgent(System::Net::HttpRequestHeader value);
   }; // System.Net.HttpRequestHeader
+  #pragma pack(pop)
   static check_size<sizeof(HttpRequestHeader), 0 + sizeof(int)> __System_Net_HttpRequestHeaderSizeCheck;
   static_assert(sizeof(HttpRequestHeader) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpRequestHeader, "System.Net", "HttpRequestHeader");

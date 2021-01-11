@@ -49,6 +49,6 @@ namespace UnityEngine::UI {
     // Offset: 0x155FECC
     ::Il2CppChar EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.UI.InputField/OnValidateInput
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::OnValidateInput*, "UnityEngine.UI", "InputField/OnValidateInput");

@@ -115,8 +115,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameEnergyUIPanel*, creationType>()));
     }
   }; // GameEnergyUIPanel
+  #pragma pack(pop)
   static check_size<sizeof(GameEnergyUIPanel), 64 + sizeof(int)> __GlobalNamespace_GameEnergyUIPanelSizeCheck;
   static_assert(sizeof(GameEnergyUIPanel) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyUIPanel*, "", "GameEnergyUIPanel");

@@ -119,6 +119,6 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<Shader*, creationType>()));
     }
   }; // UnityEngine.Shader
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Shader*, "UnityEngine", "Shader");

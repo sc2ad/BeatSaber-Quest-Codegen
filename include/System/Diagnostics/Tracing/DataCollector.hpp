@@ -159,9 +159,9 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xC9B864
     void ScalarsEnd();
   }; // System.Diagnostics.Tracing.DataCollector
+  #pragma pack(pop)
   static check_size<sizeof(DataCollector), 72 + sizeof(bool)> __System_Diagnostics_Tracing_DataCollectorSizeCheck;
   static_assert(sizeof(DataCollector) == 0x49);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::DataCollector, "System.Diagnostics.Tracing", "DataCollector");

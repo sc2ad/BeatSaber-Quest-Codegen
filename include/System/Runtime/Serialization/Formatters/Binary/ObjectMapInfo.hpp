@@ -61,8 +61,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12F45E4
     bool isCompatible(int numMembers, ::Array<::Il2CppString*>* memberNames, ::Array<System::Type*>* memberTypes);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectMapInfo
+  #pragma pack(pop)
   static check_size<sizeof(ObjectMapInfo), 32 + sizeof(::Array<System::Type*>*)> __System_Runtime_Serialization_Formatters_Binary_ObjectMapInfoSizeCheck;
   static_assert(sizeof(ObjectMapInfo) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo*, "System.Runtime.Serialization.Formatters.Binary", "ObjectMapInfo");

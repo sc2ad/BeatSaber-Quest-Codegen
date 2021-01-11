@@ -44,9 +44,9 @@ namespace TMPro {
     // Set static field: static public TMPro.FontFeatureLookupFlags IgnoreSpacingAdjustments
     static void _set_IgnoreSpacingAdjustments(TMPro::FontFeatureLookupFlags value);
   }; // TMPro.FontFeatureLookupFlags
+  #pragma pack(pop)
   static check_size<sizeof(FontFeatureLookupFlags), 0 + sizeof(int)> __TMPro_FontFeatureLookupFlagsSizeCheck;
   static_assert(sizeof(FontFeatureLookupFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FontFeatureLookupFlags, "TMPro", "FontFeatureLookupFlags");

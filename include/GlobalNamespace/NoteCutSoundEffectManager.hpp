@@ -250,8 +250,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutSoundEffectManager*, creationType>()));
     }
   }; // NoteCutSoundEffectManager
+  #pragma pack(pop)
   static check_size<sizeof(NoteCutSoundEffectManager), 160 + sizeof(GlobalNamespace::MonoMemoryPoolContainer_1<GlobalNamespace::NoteCutSoundEffect*>*)> __GlobalNamespace_NoteCutSoundEffectManagerSizeCheck;
   static_assert(sizeof(NoteCutSoundEffectManager) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutSoundEffectManager*, "", "NoteCutSoundEffectManager");

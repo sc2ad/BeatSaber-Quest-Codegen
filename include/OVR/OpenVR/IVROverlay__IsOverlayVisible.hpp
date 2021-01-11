@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1871EF0
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_IsOverlayVisible
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_IsOverlayVisible*, "OVR.OpenVR", "IVROverlay/_IsOverlayVisible");

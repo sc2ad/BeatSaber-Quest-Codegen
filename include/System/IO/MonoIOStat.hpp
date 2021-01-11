@@ -57,9 +57,9 @@ namespace System::IO {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.IO.MonoIOStat
+  #pragma pack(pop)
   static check_size<sizeof(MonoIOStat), 32 + sizeof(int64_t)> __System_IO_MonoIOStatSizeCheck;
   static_assert(sizeof(MonoIOStat) == 0x28);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIOStat, "System.IO", "MonoIOStat");

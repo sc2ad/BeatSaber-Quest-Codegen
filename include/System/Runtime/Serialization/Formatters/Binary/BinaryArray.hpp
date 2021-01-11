@@ -116,8 +116,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return THROW_UNLESS((::il2cpp_utils::New<BinaryArray*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryArray
+  #pragma pack(pop)
   static check_size<sizeof(BinaryArray), 64 + sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum)> __System_Runtime_Serialization_Formatters_Binary_BinaryArraySizeCheck;
   static_assert(sizeof(BinaryArray) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryArray*, "System.Runtime.Serialization.Formatters.Binary", "BinaryArray");

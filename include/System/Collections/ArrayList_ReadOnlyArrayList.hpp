@@ -213,8 +213,8 @@ namespace System::Collections {
     // Base method: System.Array ArrayList::ToArray(System.Type type)
     System::Array* ToArray(System::Type* type);
   }; // System.Collections.ArrayList/ReadOnlyArrayList
+  #pragma pack(pop)
   static check_size<sizeof(ArrayList::ReadOnlyArrayList), 40 + sizeof(System::Collections::ArrayList*)> __System_Collections_ArrayList_ReadOnlyArrayListSizeCheck;
   static_assert(sizeof(ArrayList::ReadOnlyArrayList) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList::ReadOnlyArrayList*, "System.Collections", "ArrayList/ReadOnlyArrayList");

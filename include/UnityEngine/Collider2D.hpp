@@ -21,7 +21,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: Collider2D
     Collider2D() noexcept {}
   }; // UnityEngine.Collider2D
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collider2D*, "UnityEngine", "Collider2D");

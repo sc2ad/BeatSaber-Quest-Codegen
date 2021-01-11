@@ -70,8 +70,8 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.HSVColor
+  #pragma pack(pop)
   static check_size<sizeof(HSVColor), 24 + sizeof(float)> __UnityEngine_ProBuilder_HSVColorSizeCheck;
   static_assert(sizeof(HSVColor) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HSVColor*, "UnityEngine.ProBuilder", "HSVColor");

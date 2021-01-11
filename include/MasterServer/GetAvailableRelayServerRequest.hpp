@@ -90,8 +90,8 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<GetAvailableRelayServerRequest*, creationType>()));
     }
   }; // MasterServer.GetAvailableRelayServerRequest
+  #pragma pack(pop)
   static check_size<sizeof(GetAvailableRelayServerRequest), 24 + sizeof(::Il2CppString*)> __MasterServer_GetAvailableRelayServerRequestSizeCheck;
   static_assert(sizeof(GetAvailableRelayServerRequest) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetAvailableRelayServerRequest*, "MasterServer", "GetAvailableRelayServerRequest");

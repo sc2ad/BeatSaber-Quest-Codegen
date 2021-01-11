@@ -40,6 +40,6 @@ namespace LiteNetLib::Utils {
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::CustomType*, creationType>()));
     }
   }; // LiteNetLib.Utils.NetSerializer/CustomType
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetSerializer::CustomType*, "LiteNetLib.Utils", "NetSerializer/CustomType");

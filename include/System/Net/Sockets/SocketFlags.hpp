@@ -93,9 +93,9 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.SocketFlags Partial
     static void _set_Partial(System::Net::Sockets::SocketFlags value);
   }; // System.Net.Sockets.SocketFlags
+  #pragma pack(pop)
   static check_size<sizeof(SocketFlags), 0 + sizeof(int)> __System_Net_Sockets_SocketFlagsSizeCheck;
   static_assert(sizeof(SocketFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketFlags, "System.Net.Sockets", "SocketFlags");

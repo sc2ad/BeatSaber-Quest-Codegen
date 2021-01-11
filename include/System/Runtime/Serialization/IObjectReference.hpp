@@ -29,7 +29,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
   }; // System.Runtime.Serialization.IObjectReference
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::IObjectReference*, "System.Runtime.Serialization", "IObjectReference");

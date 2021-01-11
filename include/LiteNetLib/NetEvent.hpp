@@ -120,6 +120,7 @@ namespace LiteNetLib {
       // Set static field: static public LiteNetLib.NetEvent/EType MessageDelivered
       static void _set_MessageDelivered(LiteNetLib::NetEvent::EType value);
     }; // LiteNetLib.NetEvent/EType
+    #pragma pack(pop)
     static check_size<sizeof(NetEvent::EType), 0 + sizeof(int)> __LiteNetLib_NetEvent_ETypeSizeCheck;
     static_assert(sizeof(NetEvent::EType) == 0x4);
     // public LiteNetLib.NetEvent/EType Type
@@ -198,9 +199,9 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<NetEvent*, creationType>(manager)));
     }
   }; // LiteNetLib.NetEvent
+  #pragma pack(pop)
   static check_size<sizeof(NetEvent), 80 + sizeof(LiteNetLib::NetPacketReader*)> __LiteNetLib_NetEventSizeCheck;
   static_assert(sizeof(NetEvent) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetEvent*, "LiteNetLib", "NetEvent");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetEvent::EType, "LiteNetLib", "NetEvent/EType");

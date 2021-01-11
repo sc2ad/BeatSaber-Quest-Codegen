@@ -141,8 +141,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutCoreEffectsSpawner*, creationType>()));
     }
   }; // NoteCutCoreEffectsSpawner
+  #pragma pack(pop)
   static check_size<sizeof(NoteCutCoreEffectsSpawner), 88 + sizeof(GlobalNamespace::AudioTimeSyncController*)> __GlobalNamespace_NoteCutCoreEffectsSpawnerSizeCheck;
   static_assert(sizeof(NoteCutCoreEffectsSpawner) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutCoreEffectsSpawner*, "", "NoteCutCoreEffectsSpawner");

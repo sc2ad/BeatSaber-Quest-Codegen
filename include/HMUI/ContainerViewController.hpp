@@ -151,8 +151,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ContainerViewController*, creationType>()));
     }
   }; // HMUI.ContainerViewController
+  #pragma pack(pop)
   static check_size<sizeof(ContainerViewController), 120 + sizeof(System::Collections::Generic::List_1<HMUI::ViewController*>*)> __HMUI_ContainerViewControllerSizeCheck;
   static_assert(sizeof(ContainerViewController) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ContainerViewController*, "HMUI", "ContainerViewController");

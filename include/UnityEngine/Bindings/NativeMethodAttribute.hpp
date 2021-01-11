@@ -110,8 +110,8 @@ namespace UnityEngine::Bindings {
       return THROW_UNLESS((::il2cpp_utils::New<NativeMethodAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.NativeMethodAttribute
+  #pragma pack(pop)
   static check_size<sizeof(NativeMethodAttribute), 27 + sizeof(bool)> __UnityEngine_Bindings_NativeMethodAttributeSizeCheck;
   static_assert(sizeof(NativeMethodAttribute) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeMethodAttribute*, "UnityEngine.Bindings", "NativeMethodAttribute");

@@ -103,8 +103,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_UpdateRegistry*, creationType>()));
     }
   }; // TMPro.TMP_UpdateRegistry
+  #pragma pack(pop)
   static check_size<sizeof(TMP_UpdateRegistry), 40 + sizeof(System::Collections::Generic::Dictionary_2<int, int>*)> __TMPro_TMP_UpdateRegistrySizeCheck;
   static_assert(sizeof(TMP_UpdateRegistry) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_UpdateRegistry*, "TMPro", "TMP_UpdateRegistry");

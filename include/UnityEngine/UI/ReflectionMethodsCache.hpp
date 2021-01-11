@@ -92,8 +92,8 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionMethodsCache*, creationType>()));
     }
   }; // UnityEngine.UI.ReflectionMethodsCache
+  #pragma pack(pop)
   static check_size<sizeof(ReflectionMethodsCache), 56 + sizeof(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*)> __UnityEngine_UI_ReflectionMethodsCacheSizeCheck;
   static_assert(sizeof(ReflectionMethodsCache) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache*, "UnityEngine.UI", "ReflectionMethodsCache");

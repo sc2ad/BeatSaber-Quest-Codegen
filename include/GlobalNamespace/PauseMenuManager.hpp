@@ -241,8 +241,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PauseMenuManager*, creationType>()));
     }
   }; // PauseMenuManager
+  #pragma pack(pop)
   static check_size<sizeof(PauseMenuManager), 144 + sizeof(float)> __GlobalNamespace_PauseMenuManagerSizeCheck;
   static_assert(sizeof(PauseMenuManager) == 0x94);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseMenuManager*, "", "PauseMenuManager");

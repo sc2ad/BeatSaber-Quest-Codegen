@@ -116,8 +116,8 @@ namespace UnityEngine::Timeline {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.Timeline.AudioTrack/<get_outputs>d__4
+  #pragma pack(pop)
   static check_size<sizeof(AudioTrack::$get_outputs$d__4), 64 + sizeof(UnityEngine::Timeline::AudioTrack*)> __UnityEngine_Timeline_AudioTrack_$get_outputs$d__4SizeCheck;
   static_assert(sizeof(AudioTrack::$get_outputs$d__4) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioTrack::$get_outputs$d__4*, "UnityEngine.Timeline", "AudioTrack/<get_outputs>d__4");

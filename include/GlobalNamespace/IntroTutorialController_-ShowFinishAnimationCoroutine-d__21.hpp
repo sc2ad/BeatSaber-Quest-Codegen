@@ -96,8 +96,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // IntroTutorialController/<ShowFinishAnimationCoroutine>d__21
+  #pragma pack(pop)
   static check_size<sizeof(IntroTutorialController::$ShowFinishAnimationCoroutine$d__21), 44 + sizeof(float)> __GlobalNamespace_IntroTutorialController_$ShowFinishAnimationCoroutine$d__21SizeCheck;
   static_assert(sizeof(IntroTutorialController::$ShowFinishAnimationCoroutine$d__21) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialController::$ShowFinishAnimationCoroutine$d__21*, "", "IntroTutorialController/<ShowFinishAnimationCoroutine>d__21");

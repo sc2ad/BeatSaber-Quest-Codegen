@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1913F7C
     void EndInvoke(uint64_t& pnDevice, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetOutputDevice
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetOutputDevice*, "OVR.OpenVR", "IVRSystem/_GetOutputDevice");

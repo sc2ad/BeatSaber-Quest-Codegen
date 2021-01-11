@@ -56,9 +56,9 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.ProBuilder.VertexPickerEntry
+  #pragma pack(pop)
   static check_size<sizeof(VertexPickerEntry), 16 + sizeof(UnityEngine::Vector3)> __UnityEngine_ProBuilder_VertexPickerEntrySizeCheck;
   static_assert(sizeof(VertexPickerEntry) == 0x1C);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::VertexPickerEntry, "UnityEngine.ProBuilder", "VertexPickerEntry");

@@ -41,8 +41,8 @@ namespace System::Runtime::InteropServices {
       return THROW_UNLESS((::il2cpp_utils::New<GuidAttribute*, creationType>(guid)));
     }
   }; // System.Runtime.InteropServices.GuidAttribute
+  #pragma pack(pop)
   static check_size<sizeof(GuidAttribute), 16 + sizeof(::Il2CppString*)> __System_Runtime_InteropServices_GuidAttributeSizeCheck;
   static_assert(sizeof(GuidAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::GuidAttribute*, "System.Runtime.InteropServices", "GuidAttribute");

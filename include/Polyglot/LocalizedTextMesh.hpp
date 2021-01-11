@@ -97,8 +97,8 @@ namespace Polyglot {
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedTextMesh*, creationType>()));
     }
   }; // Polyglot.LocalizedTextMesh
+  #pragma pack(pop)
   static check_size<sizeof(LocalizedTextMesh), 32 + sizeof(::Il2CppString*)> __Polyglot_LocalizedTextMeshSizeCheck;
   static_assert(sizeof(LocalizedTextMesh) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizedTextMesh*, "Polyglot", "LocalizedTextMesh");

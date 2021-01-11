@@ -63,9 +63,9 @@ namespace System::Security::Principal {
     // Set static field: static public System.Security.Principal.TokenImpersonationLevel None
     static void _set_None(System::Security::Principal::TokenImpersonationLevel value);
   }; // System.Security.Principal.TokenImpersonationLevel
+  #pragma pack(pop)
   static check_size<sizeof(TokenImpersonationLevel), 0 + sizeof(int)> __System_Security_Principal_TokenImpersonationLevelSizeCheck;
   static_assert(sizeof(TokenImpersonationLevel) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::TokenImpersonationLevel, "System.Security.Principal", "TokenImpersonationLevel");

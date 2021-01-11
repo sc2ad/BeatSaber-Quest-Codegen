@@ -822,9 +822,9 @@ namespace UnityEngine::Experimental::Rendering {
     // Set static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGBA_ASTC12X12_UNorm
     static void _set_RGBA_ASTC12X12_UNorm(UnityEngine::Experimental::Rendering::GraphicsFormat value);
   }; // UnityEngine.Experimental.Rendering.GraphicsFormat
+  #pragma pack(pop)
   static check_size<sizeof(GraphicsFormat), 0 + sizeof(int)> __UnityEngine_Experimental_Rendering_GraphicsFormatSizeCheck;
   static_assert(sizeof(GraphicsFormat) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::GraphicsFormat, "UnityEngine.Experimental.Rendering", "GraphicsFormat");

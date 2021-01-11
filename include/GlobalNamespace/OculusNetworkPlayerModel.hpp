@@ -407,8 +407,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusNetworkPlayerModel*, creationType>()));
     }
   }; // OculusNetworkPlayerModel
+  #pragma pack(pop)
   static check_size<sizeof(OculusNetworkPlayerModel), 192 + sizeof(System::Action_1<GlobalNamespace::INetworkPlayer*>*)> __GlobalNamespace_OculusNetworkPlayerModelSizeCheck;
   static_assert(sizeof(OculusNetworkPlayerModel) == 0xC8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusNetworkPlayerModel*, "", "OculusNetworkPlayerModel");

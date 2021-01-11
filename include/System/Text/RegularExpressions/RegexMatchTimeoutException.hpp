@@ -92,8 +92,8 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Exception::Init()
     void Init();
   }; // System.Text.RegularExpressions.RegexMatchTimeoutException
+  #pragma pack(pop)
   static check_size<sizeof(RegexMatchTimeoutException), 152 + sizeof(System::TimeSpan)> __System_Text_RegularExpressions_RegexMatchTimeoutExceptionSizeCheck;
   static_assert(sizeof(RegexMatchTimeoutException) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexMatchTimeoutException*, "System.Text.RegularExpressions", "RegexMatchTimeoutException");

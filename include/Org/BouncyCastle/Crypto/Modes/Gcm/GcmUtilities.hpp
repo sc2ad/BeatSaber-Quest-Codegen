@@ -71,7 +71,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // Offset: 0x14AA604
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.GcmUtilities
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::GcmUtilities*, "Org.BouncyCastle.Crypto.Modes.Gcm", "GcmUtilities");

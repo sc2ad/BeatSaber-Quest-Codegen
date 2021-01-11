@@ -314,8 +314,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR::Leg*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolverVR/Leg
+  #pragma pack(pop)
   static check_size<sizeof(IKSolverVR::Leg), 324 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_IKSolverVR_LegSizeCheck;
   static_assert(sizeof(IKSolverVR::Leg) == 0x150);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Leg*, "RootMotion.FinalIK", "IKSolverVR/Leg");

@@ -104,8 +104,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // CutoutEffect
+  #pragma pack(pop)
   static check_size<sizeof(CutoutEffect), 64 + sizeof(float)> __GlobalNamespace_CutoutEffectSizeCheck;
   static_assert(sizeof(CutoutEffect) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutEffect*, "", "CutoutEffect");

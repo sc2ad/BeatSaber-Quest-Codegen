@@ -63,9 +63,9 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.EventManifestOptions AllowEventSourceOverride
     static void _set_AllowEventSourceOverride(System::Diagnostics::Tracing::EventManifestOptions value);
   }; // System.Diagnostics.Tracing.EventManifestOptions
+  #pragma pack(pop)
   static check_size<sizeof(EventManifestOptions), 0 + sizeof(int)> __System_Diagnostics_Tracing_EventManifestOptionsSizeCheck;
   static_assert(sizeof(EventManifestOptions) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventManifestOptions, "System.Diagnostics.Tracing", "EventManifestOptions");

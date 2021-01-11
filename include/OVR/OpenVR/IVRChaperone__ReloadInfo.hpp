@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x11FB0EC
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperone/_ReloadInfo
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperone::_ReloadInfo*, "OVR.OpenVR", "IVRChaperone/_ReloadInfo");

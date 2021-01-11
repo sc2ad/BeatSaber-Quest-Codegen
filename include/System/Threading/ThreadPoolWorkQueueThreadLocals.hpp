@@ -67,8 +67,8 @@ namespace System::Threading {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Threading.ThreadPoolWorkQueueThreadLocals
+  #pragma pack(pop)
   static check_size<sizeof(ThreadPoolWorkQueueThreadLocals), 32 + sizeof(System::Random*)> __System_Threading_ThreadPoolWorkQueueThreadLocalsSizeCheck;
   static_assert(sizeof(ThreadPoolWorkQueueThreadLocals) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueueThreadLocals*, "System.Threading", "ThreadPoolWorkQueueThreadLocals");

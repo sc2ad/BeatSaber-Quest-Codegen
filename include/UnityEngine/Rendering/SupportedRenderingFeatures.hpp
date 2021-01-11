@@ -77,6 +77,7 @@ namespace UnityEngine::Rendering {
       // Set static field: static public UnityEngine.Rendering.SupportedRenderingFeatures/ReflectionProbeModes Rotation
       static void _set_Rotation(UnityEngine::Rendering::SupportedRenderingFeatures::ReflectionProbeModes value);
     }; // UnityEngine.Rendering.SupportedRenderingFeatures/ReflectionProbeModes
+    #pragma pack(pop)
     static check_size<sizeof(SupportedRenderingFeatures::ReflectionProbeModes), 0 + sizeof(int)> __UnityEngine_Rendering_SupportedRenderingFeatures_ReflectionProbeModesSizeCheck;
     static_assert(sizeof(SupportedRenderingFeatures::ReflectionProbeModes) == 0x4);
     // Size: 0x4
@@ -127,6 +128,7 @@ namespace UnityEngine::Rendering {
       // Set static field: static public UnityEngine.Rendering.SupportedRenderingFeatures/LightmapMixedBakeModes Shadowmask
       static void _set_Shadowmask(UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes value);
     }; // UnityEngine.Rendering.SupportedRenderingFeatures/LightmapMixedBakeModes
+    #pragma pack(pop)
     static check_size<sizeof(SupportedRenderingFeatures::LightmapMixedBakeModes), 0 + sizeof(int)> __UnityEngine_Rendering_SupportedRenderingFeatures_LightmapMixedBakeModesSizeCheck;
     static_assert(sizeof(SupportedRenderingFeatures::LightmapMixedBakeModes) == 0x4);
     // [CompilerGeneratedAttribute] Offset: 0xD51AF8
@@ -337,10 +339,10 @@ namespace UnityEngine::Rendering {
       return THROW_UNLESS((::il2cpp_utils::New<SupportedRenderingFeatures*, creationType>()));
     }
   }; // UnityEngine.Rendering.SupportedRenderingFeatures
+  #pragma pack(pop)
   static check_size<sizeof(SupportedRenderingFeatures), 48 + sizeof(bool)> __UnityEngine_Rendering_SupportedRenderingFeaturesSizeCheck;
   static_assert(sizeof(SupportedRenderingFeatures) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures*, "UnityEngine.Rendering", "SupportedRenderingFeatures");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures::ReflectionProbeModes, "UnityEngine.Rendering", "SupportedRenderingFeatures/ReflectionProbeModes");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes, "UnityEngine.Rendering", "SupportedRenderingFeatures/LightmapMixedBakeModes");

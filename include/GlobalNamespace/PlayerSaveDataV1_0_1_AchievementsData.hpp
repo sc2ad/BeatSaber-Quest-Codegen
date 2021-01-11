@@ -43,8 +43,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveDataV1_0_1::AchievementsData*, creationType>()));
     }
   }; // PlayerSaveDataV1_0_1/AchievementsData
+  #pragma pack(pop)
   static check_size<sizeof(PlayerSaveDataV1_0_1::AchievementsData), 24 + sizeof(::Array<::Il2CppString*>*)> __GlobalNamespace_PlayerSaveDataV1_0_1_AchievementsDataSizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1::AchievementsData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*, "", "PlayerSaveDataV1_0_1/AchievementsData");

@@ -85,8 +85,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<PrefabInstantiator::$$c__DisplayClass15_0*, creationType>()));
     }
   }; // Zenject.PrefabInstantiator/<>c__DisplayClass15_0
+  #pragma pack(pop)
   static check_size<sizeof(PrefabInstantiator::$$c__DisplayClass15_0), 48 + sizeof(bool)> __Zenject_PrefabInstantiator_$$c__DisplayClass15_0SizeCheck;
   static_assert(sizeof(PrefabInstantiator::$$c__DisplayClass15_0) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabInstantiator::$$c__DisplayClass15_0*, "Zenject", "PrefabInstantiator/<>c__DisplayClass15_0");

@@ -57,6 +57,6 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<LockRecursionException*, creationType>(info, context)));
     }
   }; // System.Threading.LockRecursionException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::LockRecursionException*, "System.Threading", "LockRecursionException");

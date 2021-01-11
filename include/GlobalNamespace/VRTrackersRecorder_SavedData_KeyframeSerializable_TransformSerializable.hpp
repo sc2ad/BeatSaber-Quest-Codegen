@@ -79,8 +79,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable*, creationType>()));
     }
   }; // VRTrackersRecorder/SavedData/KeyframeSerializable/TransformSerializable
+  #pragma pack(pop)
   static check_size<sizeof(VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable), 44 + sizeof(bool)> __GlobalNamespace_VRTrackersRecorder_SavedData_KeyframeSerializable_TransformSerializableSizeCheck;
   static_assert(sizeof(VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable) == 0x2D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable*, "", "VRTrackersRecorder/SavedData/KeyframeSerializable/TransformSerializable");

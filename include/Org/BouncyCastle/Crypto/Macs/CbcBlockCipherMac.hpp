@@ -123,8 +123,8 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Base method: System.Void IMac::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Macs.CbcBlockCipherMac
+  #pragma pack(pop)
   static check_size<sizeof(CbcBlockCipherMac), 48 + sizeof(int)> __Org_BouncyCastle_Crypto_Macs_CbcBlockCipherMacSizeCheck;
   static_assert(sizeof(CbcBlockCipherMac) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac*, "Org.BouncyCastle.Crypto.Macs", "CbcBlockCipherMac");

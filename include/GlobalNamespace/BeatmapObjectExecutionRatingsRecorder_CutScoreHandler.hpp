@@ -66,8 +66,8 @@ namespace GlobalNamespace {
     // Offset: 0x1A28150
     void HandleSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
   }; // BeatmapObjectExecutionRatingsRecorder/CutScoreHandler
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler), 32 + sizeof(GlobalNamespace::NoteCutInfo*)> __GlobalNamespace_BeatmapObjectExecutionRatingsRecorder_CutScoreHandlerSizeCheck;
   static_assert(sizeof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*, "", "BeatmapObjectExecutionRatingsRecorder/CutScoreHandler");

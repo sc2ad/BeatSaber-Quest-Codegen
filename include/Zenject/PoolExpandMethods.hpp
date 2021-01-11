@@ -50,9 +50,9 @@ namespace Zenject {
     // Set static field: static public Zenject.PoolExpandMethods Disabled
     static void _set_Disabled(Zenject::PoolExpandMethods value);
   }; // Zenject.PoolExpandMethods
+  #pragma pack(pop)
   static check_size<sizeof(PoolExpandMethods), 0 + sizeof(int)> __Zenject_PoolExpandMethodsSizeCheck;
   static_assert(sizeof(PoolExpandMethods) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolExpandMethods, "Zenject", "PoolExpandMethods");

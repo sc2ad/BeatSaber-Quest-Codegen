@@ -50,9 +50,9 @@ namespace UnityEngine::XR {
     // Set static field: static public UnityEngine.XR.ConnectionChangeType ConfigChange
     static void _set_ConfigChange(UnityEngine::XR::ConnectionChangeType value);
   }; // UnityEngine.XR.ConnectionChangeType
+  #pragma pack(pop)
   static check_size<sizeof(ConnectionChangeType), 0 + sizeof(uint)> __UnityEngine_XR_ConnectionChangeTypeSizeCheck;
   static_assert(sizeof(ConnectionChangeType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::ConnectionChangeType, "UnityEngine.XR", "ConnectionChangeType");

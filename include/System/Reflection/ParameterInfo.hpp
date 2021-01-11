@@ -189,8 +189,8 @@ namespace System::Reflection {
     // Base method: System.Boolean ICustomAttributeProvider::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
   }; // System.Reflection.ParameterInfo
+  #pragma pack(pop)
   static check_size<sizeof(ParameterInfo), 56 + sizeof(System::Runtime::InteropServices::MarshalAsAttribute*)> __System_Reflection_ParameterInfoSizeCheck;
   static_assert(sizeof(ParameterInfo) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterInfo*, "System.Reflection", "ParameterInfo");

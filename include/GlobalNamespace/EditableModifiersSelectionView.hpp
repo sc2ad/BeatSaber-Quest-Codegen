@@ -103,8 +103,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EditableModifiersSelectionView*, creationType>()));
     }
   }; // EditableModifiersSelectionView
+  #pragma pack(pop)
   static check_size<sizeof(EditableModifiersSelectionView), 80 + sizeof(bool)> __GlobalNamespace_EditableModifiersSelectionViewSizeCheck;
   static_assert(sizeof(EditableModifiersSelectionView) == 0x51);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditableModifiersSelectionView*, "", "EditableModifiersSelectionView");

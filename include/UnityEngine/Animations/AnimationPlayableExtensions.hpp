@@ -56,6 +56,6 @@ namespace UnityEngine::Animations {
     // Offset: 0x19C9738
     static void SetAnimatedPropertiesInternal(UnityEngine::Playables::PlayableHandle& playable, UnityEngine::AnimationClip* animatedProperties);
   }; // UnityEngine.Animations.AnimationPlayableExtensions
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableExtensions*, "UnityEngine.Animations", "AnimationPlayableExtensions");

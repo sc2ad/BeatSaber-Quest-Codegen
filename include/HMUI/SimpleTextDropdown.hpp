@@ -150,8 +150,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleTextDropdown*, creationType>()));
     }
   }; // HMUI.SimpleTextDropdown
+  #pragma pack(pop)
   static check_size<sizeof(SimpleTextDropdown), 104 + sizeof(bool)> __HMUI_SimpleTextDropdownSizeCheck;
   static_assert(sizeof(SimpleTextDropdown) == 0x69);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SimpleTextDropdown*, "HMUI", "SimpleTextDropdown");

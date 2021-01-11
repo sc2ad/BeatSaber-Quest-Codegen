@@ -224,9 +224,9 @@ namespace Tweening {
     // Set static field: static public Tweening.EaseType InOutBounce
     static void _set_InOutBounce(Tweening::EaseType value);
   }; // Tweening.EaseType
+  #pragma pack(pop)
   static check_size<sizeof(EaseType), 0 + sizeof(int)> __Tweening_EaseTypeSizeCheck;
   static_assert(sizeof(EaseType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Tweening::EaseType, "Tweening", "EaseType");

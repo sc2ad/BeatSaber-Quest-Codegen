@@ -52,9 +52,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.DriverDirectMode_FrameTiming
+  #pragma pack(pop)
   static check_size<sizeof(DriverDirectMode_FrameTiming), 16 + sizeof(uint)> __Valve_VR_DriverDirectMode_FrameTimingSizeCheck;
   static_assert(sizeof(DriverDirectMode_FrameTiming) == 0x14);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::DriverDirectMode_FrameTiming, "Valve.VR", "DriverDirectMode_FrameTiming");

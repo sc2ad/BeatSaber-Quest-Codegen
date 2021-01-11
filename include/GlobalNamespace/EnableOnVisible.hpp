@@ -77,8 +77,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnableOnVisible*, creationType>()));
     }
   }; // EnableOnVisible
+  #pragma pack(pop)
   static check_size<sizeof(EnableOnVisible), 32 + sizeof(::Array<UnityEngine::Behaviour*>*)> __GlobalNamespace_EnableOnVisibleSizeCheck;
   static_assert(sizeof(EnableOnVisible) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableOnVisible*, "", "EnableOnVisible");

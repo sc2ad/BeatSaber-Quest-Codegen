@@ -67,8 +67,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HMAsyncRequest*, creationType>()));
     }
   }; // HMAsyncRequest
+  #pragma pack(pop)
   static check_size<sizeof(HMAsyncRequest), 32 + sizeof(GlobalNamespace::HMAsyncRequest::CancelHander*)> __GlobalNamespace_HMAsyncRequestSizeCheck;
   static_assert(sizeof(HMAsyncRequest) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAsyncRequest*, "", "HMAsyncRequest");

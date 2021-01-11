@@ -44,8 +44,8 @@ namespace System::Net {
     // Offset: 0x12BF5B8
     int Read(::Array<uint8_t>* buffer, int offset, int size);
   }; // System.Net.MonoChunkStream/Chunk
+  #pragma pack(pop)
   static check_size<sizeof(MonoChunkStream::Chunk), 24 + sizeof(int)> __System_Net_MonoChunkStream_ChunkSizeCheck;
   static_assert(sizeof(MonoChunkStream::Chunk) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::MonoChunkStream::Chunk*, "System.Net", "MonoChunkStream/Chunk");

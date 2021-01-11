@@ -76,8 +76,8 @@ namespace System::Security::Cryptography {
     // Base method: System.Boolean AsymmetricSignatureDeformatter::VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
     bool VerifySignature(::Array<uint8_t>* rgbHash, ::Array<uint8_t>* rgbSignature);
   }; // System.Security.Cryptography.RSAPKCS1SignatureDeformatter
+  #pragma pack(pop)
   static check_size<sizeof(RSAPKCS1SignatureDeformatter), 24 + sizeof(::Il2CppString*)> __System_Security_Cryptography_RSAPKCS1SignatureDeformatterSizeCheck;
   static_assert(sizeof(RSAPKCS1SignatureDeformatter) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SignatureDeformatter*, "System.Security.Cryptography", "RSAPKCS1SignatureDeformatter");

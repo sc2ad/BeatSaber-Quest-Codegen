@@ -80,8 +80,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ExternalCamerasManager*, creationType>()));
     }
   }; // ExternalCamerasManager
+  #pragma pack(pop)
   static check_size<sizeof(ExternalCamerasManager), 40 + sizeof(UnityEngine::Camera*)> __GlobalNamespace_ExternalCamerasManagerSizeCheck;
   static_assert(sizeof(ExternalCamerasManager) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExternalCamerasManager*, "", "ExternalCamerasManager");

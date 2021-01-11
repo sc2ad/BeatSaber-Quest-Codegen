@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // DeactivateAfterFirstFrame/<Start>d__0
+  #pragma pack(pop)
   static check_size<sizeof(DeactivateAfterFirstFrame::$Start$d__0), 32 + sizeof(GlobalNamespace::DeactivateAfterFirstFrame*)> __GlobalNamespace_DeactivateAfterFirstFrame_$Start$d__0SizeCheck;
   static_assert(sizeof(DeactivateAfterFirstFrame::$Start$d__0) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeactivateAfterFirstFrame::$Start$d__0*, "", "DeactivateAfterFirstFrame/<Start>d__0");

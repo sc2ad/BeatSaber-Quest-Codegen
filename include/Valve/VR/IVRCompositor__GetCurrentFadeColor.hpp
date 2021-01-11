@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18E6494
     Valve::VR::HmdColor_t EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetCurrentFadeColor
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetCurrentFadeColor*, "Valve.VR", "IVRCompositor/_GetCurrentFadeColor");

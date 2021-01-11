@@ -290,9 +290,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.SystemLanguage Hungarian
     static void _set_Hungarian(UnityEngine::SystemLanguage value);
   }; // UnityEngine.SystemLanguage
+  #pragma pack(pop)
   static check_size<sizeof(SystemLanguage), 0 + sizeof(int)> __UnityEngine_SystemLanguageSizeCheck;
   static_assert(sizeof(SystemLanguage) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SystemLanguage, "UnityEngine", "SystemLanguage");

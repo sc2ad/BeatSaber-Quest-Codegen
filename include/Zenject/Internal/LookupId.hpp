@@ -63,8 +63,8 @@ namespace Zenject::Internal {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Zenject.Internal.LookupId
+  #pragma pack(pop)
   static check_size<sizeof(LookupId), 24 + sizeof(Zenject::BindingId)> __Zenject_Internal_LookupIdSizeCheck;
   static_assert(sizeof(LookupId) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::LookupId*, "Zenject.Internal", "LookupId");

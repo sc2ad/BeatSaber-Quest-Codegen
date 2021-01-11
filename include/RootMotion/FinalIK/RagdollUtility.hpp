@@ -221,8 +221,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<RagdollUtility*, creationType>()));
     }
   }; // RootMotion.FinalIK.RagdollUtility
+  #pragma pack(pop)
   static check_size<sizeof(RagdollUtility), 112 + sizeof(::Array<bool>*)> __RootMotion_FinalIK_RagdollUtilitySizeCheck;
   static_assert(sizeof(RagdollUtility) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility*, "RootMotion.FinalIK", "RagdollUtility");

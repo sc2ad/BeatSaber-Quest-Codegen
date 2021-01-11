@@ -40,9 +40,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.IntersectionMaskCircle_t
+  #pragma pack(pop)
   static check_size<sizeof(IntersectionMaskCircle_t), 8 + sizeof(float)> __Valve_VR_IntersectionMaskCircle_tSizeCheck;
   static_assert(sizeof(IntersectionMaskCircle_t) == 0xC);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IntersectionMaskCircle_t, "Valve.VR", "IntersectionMaskCircle_t");

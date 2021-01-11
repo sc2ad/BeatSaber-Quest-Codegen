@@ -64,9 +64,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRManager/FixedFoveatedRenderingLevel HighTop
     static void _set_HighTop(GlobalNamespace::OVRManager::FixedFoveatedRenderingLevel value);
   }; // OVRManager/FixedFoveatedRenderingLevel
+  #pragma pack(pop)
   static check_size<sizeof(OVRManager::FixedFoveatedRenderingLevel), 0 + sizeof(int)> __GlobalNamespace_OVRManager_FixedFoveatedRenderingLevelSizeCheck;
   static_assert(sizeof(OVRManager::FixedFoveatedRenderingLevel) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager::FixedFoveatedRenderingLevel, "", "OVRManager/FixedFoveatedRenderingLevel");

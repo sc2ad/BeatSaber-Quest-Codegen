@@ -256,8 +256,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectManager*, creationType>()));
     }
   }; // BeatmapObjectManager
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectManager), 72 + sizeof(bool)> __GlobalNamespace_BeatmapObjectManagerSizeCheck;
   static_assert(sizeof(BeatmapObjectManager) == 0x49);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectManager*, "", "BeatmapObjectManager");

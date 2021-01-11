@@ -183,8 +183,8 @@ namespace System::Security::Cryptography {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Security.Cryptography.SymmetricAlgorithm
+  #pragma pack(pop)
   static check_size<sizeof(SymmetricAlgorithm), 64 + sizeof(System::Security::Cryptography::PaddingMode)> __System_Security_Cryptography_SymmetricAlgorithmSizeCheck;
   static_assert(sizeof(SymmetricAlgorithm) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SymmetricAlgorithm*, "System.Security.Cryptography", "SymmetricAlgorithm");

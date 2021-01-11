@@ -24,7 +24,7 @@ namespace System {
     // Set static field: static public readonly System.Boolean IsAppEarlierThanWindowsPhone8
     static void _set_IsAppEarlierThanWindowsPhone8(bool value);
   }; // System.CompatibilitySwitches
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::CompatibilitySwitches*, "System", "CompatibilitySwitches");

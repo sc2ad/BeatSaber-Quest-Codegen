@@ -32,9 +32,9 @@ namespace Valve::VR {
       return unVRMessageOverlayResponse;
     }
   }; // Valve.VR.VREvent_MessageOverlay_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_MessageOverlay_t), 0 + sizeof(uint)> __Valve_VR_VREvent_MessageOverlay_tSizeCheck;
   static_assert(sizeof(VREvent_MessageOverlay_t) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_MessageOverlay_t, "Valve.VR", "VREvent_MessageOverlay_t");

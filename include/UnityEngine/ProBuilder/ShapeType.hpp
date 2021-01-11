@@ -110,9 +110,9 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.ShapeType Torus
     static void _set_Torus(UnityEngine::ProBuilder::ShapeType value);
   }; // UnityEngine.ProBuilder.ShapeType
+  #pragma pack(pop)
   static check_size<sizeof(ShapeType), 0 + sizeof(int)> __UnityEngine_ProBuilder_ShapeTypeSizeCheck;
   static_assert(sizeof(ShapeType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ShapeType, "UnityEngine.ProBuilder", "ShapeType");

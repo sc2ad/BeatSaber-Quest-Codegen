@@ -218,9 +218,9 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.AddressFamily Max
     static void _set_Max(System::Net::Sockets::AddressFamily value);
   }; // System.Net.Sockets.AddressFamily
+  #pragma pack(pop)
   static check_size<sizeof(AddressFamily), 0 + sizeof(int)> __System_Net_Sockets_AddressFamilySizeCheck;
   static_assert(sizeof(AddressFamily) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::AddressFamily, "System.Net.Sockets", "AddressFamily");

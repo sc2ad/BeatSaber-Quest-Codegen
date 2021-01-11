@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x18F03F8
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetKeyboardText
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetKeyboardText*, "Valve.VR", "IVROverlay/_GetKeyboardText");

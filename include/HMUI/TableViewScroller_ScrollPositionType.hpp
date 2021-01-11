@@ -52,9 +52,9 @@ namespace HMUI {
     // Set static field: static public HMUI.TableViewScroller/ScrollPositionType End
     static void _set_End(HMUI::TableViewScroller::ScrollPositionType value);
   }; // HMUI.TableViewScroller/ScrollPositionType
+  #pragma pack(pop)
   static check_size<sizeof(TableViewScroller::ScrollPositionType), 0 + sizeof(int)> __HMUI_TableViewScroller_ScrollPositionTypeSizeCheck;
   static_assert(sizeof(TableViewScroller::ScrollPositionType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableViewScroller::ScrollPositionType, "HMUI", "TableViewScroller/ScrollPositionType");

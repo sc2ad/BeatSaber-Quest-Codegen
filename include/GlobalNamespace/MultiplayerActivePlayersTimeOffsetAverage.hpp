@@ -71,8 +71,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerActivePlayersTimeOffsetAverage*, creationType>()));
     }
   }; // MultiplayerActivePlayersTimeOffsetAverage
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerActivePlayersTimeOffsetAverage), 28 + sizeof(float)> __GlobalNamespace_MultiplayerActivePlayersTimeOffsetAverageSizeCheck;
   static_assert(sizeof(MultiplayerActivePlayersTimeOffsetAverage) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*, "", "MultiplayerActivePlayersTimeOffsetAverage");

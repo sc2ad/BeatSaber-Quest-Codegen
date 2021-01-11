@@ -115,8 +115,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberSound*, creationType>()));
     }
   }; // SaberSound
+  #pragma pack(pop)
   static check_size<sizeof(SaberSound), 84 + sizeof(float)> __GlobalNamespace_SaberSoundSizeCheck;
   static_assert(sizeof(SaberSound) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSound*, "", "SaberSound");

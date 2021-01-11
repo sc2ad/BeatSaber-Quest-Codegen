@@ -32,6 +32,6 @@ namespace UnityEngineInternal {
       return THROW_UNLESS((::il2cpp_utils::New<GenericStack*, creationType>()));
     }
   }; // UnityEngineInternal.GenericStack
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::GenericStack*, "UnityEngineInternal", "GenericStack");

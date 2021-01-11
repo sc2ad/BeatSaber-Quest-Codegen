@@ -58,8 +58,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverTrigonometric::TrigonometricBone*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolverTrigonometric/TrigonometricBone
+  #pragma pack(pop)
   static check_size<sizeof(IKSolverTrigonometric::TrigonometricBone), 132 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_IKSolverTrigonometric_TrigonometricBoneSizeCheck;
   static_assert(sizeof(IKSolverTrigonometric::TrigonometricBone) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone*, "RootMotion.FinalIK", "IKSolverTrigonometric/TrigonometricBone");

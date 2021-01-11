@@ -127,8 +127,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StandardScoreSyncStateNetSerializable*, creationType>()));
     }
   }; // StandardScoreSyncStateNetSerializable
+  #pragma pack(pop)
   static check_size<sizeof(StandardScoreSyncStateNetSerializable), 20 + sizeof(GlobalNamespace::StandardScoreSyncState)> __GlobalNamespace_StandardScoreSyncStateNetSerializableSizeCheck;
   static_assert(sizeof(StandardScoreSyncStateNetSerializable) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncStateNetSerializable*, "", "StandardScoreSyncStateNetSerializable");

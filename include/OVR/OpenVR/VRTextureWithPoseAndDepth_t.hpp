@@ -35,9 +35,9 @@ namespace OVR::OpenVR {
       return depth;
     }
   }; // OVR.OpenVR.VRTextureWithPoseAndDepth_t
+  #pragma pack(pop)
   static check_size<sizeof(VRTextureWithPoseAndDepth_t), 0 + sizeof(OVR::OpenVR::VRTextureDepthInfo_t)> __OVR_OpenVR_VRTextureWithPoseAndDepth_tSizeCheck;
   static_assert(sizeof(VRTextureWithPoseAndDepth_t) == 0x50);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRTextureWithPoseAndDepth_t, "OVR.OpenVR", "VRTextureWithPoseAndDepth_t");

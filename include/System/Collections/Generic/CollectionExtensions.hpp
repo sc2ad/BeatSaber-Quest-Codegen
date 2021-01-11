@@ -47,6 +47,6 @@ namespace System::Collections::Generic {
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, dictionary, key, defaultValue);
     }
   }; // System.Collections.Generic.CollectionExtensions
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::CollectionExtensions*, "System.Collections.Generic", "CollectionExtensions");

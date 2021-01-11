@@ -86,8 +86,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.X509.DistributionPoint
+  #pragma pack(pop)
   static check_size<sizeof(DistributionPoint), 32 + sizeof(Org::BouncyCastle::Asn1::X509::GeneralNames*)> __Org_BouncyCastle_Asn1_X509_DistributionPointSizeCheck;
   static_assert(sizeof(DistributionPoint) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::DistributionPoint*, "Org.BouncyCastle.Asn1.X509", "DistributionPoint");

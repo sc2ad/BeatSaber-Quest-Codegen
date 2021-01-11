@@ -66,8 +66,8 @@ namespace System::ComponentModel {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.DesignerAttribute
+  #pragma pack(pop)
   static check_size<sizeof(DesignerAttribute), 24 + sizeof(::Il2CppString*)> __System_ComponentModel_DesignerAttributeSizeCheck;
   static_assert(sizeof(DesignerAttribute) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DesignerAttribute*, "System.ComponentModel", "DesignerAttribute");

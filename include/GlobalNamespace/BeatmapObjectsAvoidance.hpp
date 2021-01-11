@@ -182,8 +182,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsAvoidance*, creationType>()));
     }
   }; // BeatmapObjectsAvoidance
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectsAvoidance), 120 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_BeatmapObjectsAvoidanceSizeCheck;
   static_assert(sizeof(BeatmapObjectsAvoidance) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectsAvoidance*, "", "BeatmapObjectsAvoidance");

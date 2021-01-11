@@ -210,8 +210,8 @@ namespace System::IO {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.IO.BinaryReader
+  #pragma pack(pop)
   static check_size<sizeof(BinaryReader), 70 + sizeof(bool)> __System_IO_BinaryReaderSizeCheck;
   static_assert(sizeof(BinaryReader) == 0x47);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::BinaryReader*, "System.IO", "BinaryReader");

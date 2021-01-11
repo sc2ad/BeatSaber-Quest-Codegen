@@ -162,8 +162,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<InteractionTarget*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionTarget
+  #pragma pack(pop)
   static check_size<sizeof(InteractionTarget), 96 + sizeof(UnityEngine::Transform*)> __RootMotion_FinalIK_InteractionTargetSizeCheck;
   static_assert(sizeof(InteractionTarget) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTarget*, "RootMotion.FinalIK", "InteractionTarget");

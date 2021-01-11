@@ -61,8 +61,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SetTubeBloomPrePassLightColor*, creationType>()));
     }
   }; // SetTubeBloomPrePassLightColor
+  #pragma pack(pop)
   static check_size<sizeof(SetTubeBloomPrePassLightColor), 32 + sizeof(::Array<GlobalNamespace::TubeBloomPrePassLight*>*)> __GlobalNamespace_SetTubeBloomPrePassLightColorSizeCheck;
   static_assert(sizeof(SetTubeBloomPrePassLightColor) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetTubeBloomPrePassLightColor*, "", "SetTubeBloomPrePassLightColor");

@@ -43,9 +43,9 @@ namespace System::Diagnostics::Tracing {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Diagnostics.Tracing.EventProvider/EventData
+  #pragma pack(pop)
   static check_size<sizeof(EventProvider::EventData), 12 + sizeof(uint)> __System_Diagnostics_Tracing_EventProvider_EventDataSizeCheck;
   static_assert(sizeof(EventProvider::EventData) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventProvider::EventData, "System.Diagnostics.Tracing", "EventProvider/EventData");

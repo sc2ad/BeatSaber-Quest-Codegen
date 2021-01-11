@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1914360
     OVR::OpenVR::HmdMatrix44_t EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetProjectionMatrix
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetProjectionMatrix*, "OVR.OpenVR", "IVRSystem/_GetProjectionMatrix");

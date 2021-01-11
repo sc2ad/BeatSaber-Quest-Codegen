@@ -98,8 +98,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MoveBackWall*, creationType>()));
     }
   }; // MoveBackWall
+  #pragma pack(pop)
   static check_size<sizeof(MoveBackWall), 56 + sizeof(UnityEngine::Material*)> __GlobalNamespace_MoveBackWallSizeCheck;
   static_assert(sizeof(MoveBackWall) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MoveBackWall*, "", "MoveBackWall");

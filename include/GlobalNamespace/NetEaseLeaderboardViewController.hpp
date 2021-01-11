@@ -146,8 +146,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetEaseLeaderboardViewController*, creationType>()));
     }
   }; // NetEaseLeaderboardViewController
+  #pragma pack(pop)
   static check_size<sizeof(NetEaseLeaderboardViewController), 153 + sizeof(bool)> __GlobalNamespace_NetEaseLeaderboardViewControllerSizeCheck;
   static_assert(sizeof(NetEaseLeaderboardViewController) == 0x9A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLeaderboardViewController*, "", "NetEaseLeaderboardViewController");

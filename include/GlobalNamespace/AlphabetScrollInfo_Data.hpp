@@ -43,8 +43,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AlphabetScrollInfo::Data*, creationType>(character, cellIdx)));
     }
   }; // AlphabetScrollInfo/Data
+  #pragma pack(pop)
   static check_size<sizeof(AlphabetScrollInfo::Data), 20 + sizeof(int)> __GlobalNamespace_AlphabetScrollInfo_DataSizeCheck;
   static_assert(sizeof(AlphabetScrollInfo::Data) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlphabetScrollInfo::Data*, "", "AlphabetScrollInfo/Data");

@@ -58,8 +58,8 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<CustomAttributeData::LazyCAttrData*, creationType>()));
     }
   }; // System.Reflection.CustomAttributeData/LazyCAttrData
+  #pragma pack(pop)
   static check_size<sizeof(CustomAttributeData::LazyCAttrData), 32 + sizeof(uint)> __System_Reflection_CustomAttributeData_LazyCAttrDataSizeCheck;
   static_assert(sizeof(CustomAttributeData::LazyCAttrData) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeData::LazyCAttrData*, "System.Reflection", "CustomAttributeData/LazyCAttrData");

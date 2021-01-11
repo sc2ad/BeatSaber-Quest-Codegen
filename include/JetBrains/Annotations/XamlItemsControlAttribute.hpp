@@ -33,6 +33,6 @@ namespace JetBrains::Annotations {
       return THROW_UNLESS((::il2cpp_utils::New<XamlItemsControlAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.XamlItemsControlAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::XamlItemsControlAttribute*, "JetBrains.Annotations", "XamlItemsControlAttribute");

@@ -61,8 +61,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<InstalledApplication*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.InstalledApplication
+  #pragma pack(pop)
   static check_size<sizeof(InstalledApplication), 48 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_InstalledApplicationSizeCheck;
   static_assert(sizeof(InstalledApplication) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::InstalledApplication*, "Oculus.Platform.Models", "InstalledApplication");

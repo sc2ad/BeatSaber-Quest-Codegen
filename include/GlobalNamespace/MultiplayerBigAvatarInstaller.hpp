@@ -65,8 +65,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBigAvatarInstaller*, creationType>()));
     }
   }; // MultiplayerBigAvatarInstaller
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerBigAvatarInstaller), 40 + sizeof(GlobalNamespace::SaberManager::InitData*)> __GlobalNamespace_MultiplayerBigAvatarInstallerSizeCheck;
   static_assert(sizeof(MultiplayerBigAvatarInstaller) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBigAvatarInstaller*, "", "MultiplayerBigAvatarInstaller");

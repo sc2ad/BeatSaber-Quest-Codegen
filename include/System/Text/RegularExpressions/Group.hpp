@@ -70,8 +70,8 @@ namespace System::Text::RegularExpressions {
       return THROW_UNLESS((::il2cpp_utils::New<Group*, creationType>()));
     }
   }; // System.Text.RegularExpressions.Group
+  #pragma pack(pop)
   static check_size<sizeof(Group), 48 + sizeof(::Il2CppString*)> __System_Text_RegularExpressions_GroupSizeCheck;
   static_assert(sizeof(Group) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Group*, "System.Text.RegularExpressions", "Group");

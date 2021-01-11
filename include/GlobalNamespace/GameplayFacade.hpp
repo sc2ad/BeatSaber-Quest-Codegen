@@ -175,8 +175,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameplayFacade*, creationType>()));
     }
   }; // GameplayFacade
+  #pragma pack(pop)
   static check_size<sizeof(GameplayFacade), 64 + sizeof(GlobalNamespace::IDifficultyBeatmap*)> __GlobalNamespace_GameplayFacadeSizeCheck;
   static_assert(sizeof(GameplayFacade) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayFacade*, "", "GameplayFacade");

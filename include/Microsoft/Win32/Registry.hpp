@@ -56,7 +56,7 @@ namespace Microsoft::Win32 {
     // Offset: 0x1515670
     static void _cctor();
   }; // Microsoft.Win32.Registry
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Registry*, "Microsoft.Win32", "Registry");

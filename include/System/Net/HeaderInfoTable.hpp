@@ -72,6 +72,6 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HeaderInfoTable*, creationType>()));
     }
   }; // System.Net.HeaderInfoTable
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderInfoTable*, "System.Net", "HeaderInfoTable");

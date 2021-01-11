@@ -91,8 +91,8 @@ namespace Zenject {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // Zenject.RunnableContext
+  #pragma pack(pop)
   static check_size<sizeof(RunnableContext), 65 + sizeof(bool)> __Zenject_RunnableContextSizeCheck;
   static_assert(sizeof(RunnableContext) == 0x42);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::RunnableContext*, "Zenject", "RunnableContext");

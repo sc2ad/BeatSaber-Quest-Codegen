@@ -171,9 +171,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.IVRRenderModels
+  #pragma pack(pop)
   static check_size<sizeof(IVRRenderModels), 136 + sizeof(Valve::VR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*)> __Valve_VR_IVRRenderModelsSizeCheck;
   static_assert(sizeof(IVRRenderModels) == 0x90);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRRenderModels, "Valve.VR", "IVRRenderModels");

@@ -91,8 +91,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<OffsetModifierVRIK*, creationType>()));
     }
   }; // RootMotion.FinalIK.OffsetModifierVRIK
+  #pragma pack(pop)
   static check_size<sizeof(OffsetModifierVRIK), 40 + sizeof(float)> __RootMotion_FinalIK_OffsetModifierVRIKSizeCheck;
   static_assert(sizeof(OffsetModifierVRIK) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifierVRIK*, "RootMotion.FinalIK", "OffsetModifierVRIK");

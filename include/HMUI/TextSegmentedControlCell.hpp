@@ -80,8 +80,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<TextSegmentedControlCell*, creationType>()));
     }
   }; // HMUI.TextSegmentedControlCell
+  #pragma pack(pop)
   static check_size<sizeof(TextSegmentedControlCell), 80 + sizeof(UnityEngine::GameObject*)> __HMUI_TextSegmentedControlCellSizeCheck;
   static_assert(sizeof(TextSegmentedControlCell) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSegmentedControlCell*, "HMUI", "TextSegmentedControlCell");

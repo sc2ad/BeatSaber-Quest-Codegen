@@ -66,9 +66,9 @@ namespace NetEase::Docker {
     // Offset: 0xCB9B84
     void set_UserName(::Il2CppString* value);
   }; // NetEase.Docker.LoginData
+  #pragma pack(pop)
   static check_size<sizeof(LoginData), 8 + sizeof(::Il2CppString*)> __NetEase_Docker_LoginDataSizeCheck;
   static_assert(sizeof(LoginData) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LoginData, "NetEase.Docker", "LoginData");

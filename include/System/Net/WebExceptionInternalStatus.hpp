@@ -56,9 +56,9 @@ namespace System::Net {
     // Set static field: static public System.Net.WebExceptionInternalStatus Isolated
     static void _set_Isolated(System::Net::WebExceptionInternalStatus value);
   }; // System.Net.WebExceptionInternalStatus
+  #pragma pack(pop)
   static check_size<sizeof(WebExceptionInternalStatus), 0 + sizeof(int)> __System_Net_WebExceptionInternalStatusSizeCheck;
   static_assert(sizeof(WebExceptionInternalStatus) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebExceptionInternalStatus, "System.Net", "WebExceptionInternalStatus");

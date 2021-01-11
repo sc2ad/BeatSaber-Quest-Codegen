@@ -41,8 +41,8 @@ namespace BeatSaberAPI::DataTransferObjects {
       return THROW_UNLESS((::il2cpp_utils::New<UserInfo*, creationType>()));
     }
   }; // BeatSaberAPI.DataTransferObjects.UserInfo
+  #pragma pack(pop)
   static check_size<sizeof(UserInfo), 24 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_UserInfoSizeCheck;
   static_assert(sizeof(UserInfo) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserInfo*, "BeatSaberAPI.DataTransferObjects", "UserInfo");

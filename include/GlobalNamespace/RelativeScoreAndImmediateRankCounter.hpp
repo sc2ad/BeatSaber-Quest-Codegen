@@ -132,8 +132,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RelativeScoreAndImmediateRankCounter*, creationType>()));
     }
   }; // RelativeScoreAndImmediateRankCounter
+  #pragma pack(pop)
   static check_size<sizeof(RelativeScoreAndImmediateRankCounter), 64 + sizeof(float)> __GlobalNamespace_RelativeScoreAndImmediateRankCounterSizeCheck;
   static_assert(sizeof(RelativeScoreAndImmediateRankCounter) == 0x44);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeScoreAndImmediateRankCounter*, "", "RelativeScoreAndImmediateRankCounter");

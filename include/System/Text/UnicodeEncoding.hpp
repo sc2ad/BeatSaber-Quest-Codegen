@@ -213,8 +213,8 @@ namespace System::Text {
     // Base method: System.Int32 Encoding::GetHashCode()
     int GetHashCode();
   }; // System.Text.UnicodeEncoding
+  #pragma pack(pop)
   static check_size<sizeof(UnicodeEncoding), 58 + sizeof(bool)> __System_Text_UnicodeEncodingSizeCheck;
   static_assert(sizeof(UnicodeEncoding) == 0x3B);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UnicodeEncoding*, "System.Text", "UnicodeEncoding");

@@ -83,8 +83,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardsModelLegacyWrapper*, creationType>()));
     }
   }; // LeaderboardsModelLegacyWrapper
+  #pragma pack(pop)
   static check_size<sizeof(LeaderboardsModelLegacyWrapper), 16 + sizeof(OnlineServices::ILeaderboardsModel*)> __GlobalNamespace_LeaderboardsModelLegacyWrapperSizeCheck;
   static_assert(sizeof(LeaderboardsModelLegacyWrapper) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModelLegacyWrapper*, "", "LeaderboardsModelLegacyWrapper");

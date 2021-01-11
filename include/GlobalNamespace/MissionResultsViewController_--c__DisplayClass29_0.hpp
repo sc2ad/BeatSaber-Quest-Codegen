@@ -72,8 +72,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionResultsViewController::$$c__DisplayClass29_0*, creationType>()));
     }
   }; // MissionResultsViewController/<>c__DisplayClass29_0
+  #pragma pack(pop)
   static check_size<sizeof(MissionResultsViewController::$$c__DisplayClass29_0), 40 + sizeof(::Array<GlobalNamespace::MissionObjectiveResult*>*)> __GlobalNamespace_MissionResultsViewController_$$c__DisplayClass29_0SizeCheck;
   static_assert(sizeof(MissionResultsViewController::$$c__DisplayClass29_0) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0*, "", "MissionResultsViewController/<>c__DisplayClass29_0");

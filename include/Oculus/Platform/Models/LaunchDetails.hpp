@@ -83,8 +83,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<LaunchDetails*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.LaunchDetails
+  #pragma pack(pop)
   static check_size<sizeof(LaunchDetails), 64 + sizeof(Oculus::Platform::Models::UserList*)> __Oculus_Platform_Models_LaunchDetailsSizeCheck;
   static_assert(sizeof(LaunchDetails) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchDetails*, "Oculus.Platform.Models", "LaunchDetails");

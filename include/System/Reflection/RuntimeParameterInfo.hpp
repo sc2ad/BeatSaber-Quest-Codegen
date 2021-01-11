@@ -32,6 +32,6 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeParameterInfo*, creationType>()));
     }
   }; // System.Reflection.RuntimeParameterInfo
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeParameterInfo*, "System.Reflection", "RuntimeParameterInfo");

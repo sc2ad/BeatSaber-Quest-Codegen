@@ -426,8 +426,8 @@ namespace UnityEngine::UI {
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
   }; // UnityEngine.UI.Graphic
+  #pragma pack(pop)
   static check_size<sizeof(Graphic), 136 + sizeof(bool)> __UnityEngine_UI_GraphicSizeCheck;
   static_assert(sizeof(Graphic) == 0x89);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Graphic*, "UnityEngine.UI", "Graphic");

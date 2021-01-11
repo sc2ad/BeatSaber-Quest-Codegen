@@ -56,8 +56,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AvatarTweenController::$$c__DisplayClass52_0*, creationType>()));
     }
   }; // AvatarTweenController/<>c__DisplayClass52_0
+  #pragma pack(pop)
   static check_size<sizeof(AvatarTweenController::$$c__DisplayClass52_0), 24 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_AvatarTweenController_$$c__DisplayClass52_0SizeCheck;
   static_assert(sizeof(AvatarTweenController::$$c__DisplayClass52_0) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0*, "", "AvatarTweenController/<>c__DisplayClass52_0");

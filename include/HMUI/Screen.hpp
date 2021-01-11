@@ -76,8 +76,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<Screen*, creationType>()));
     }
   }; // HMUI.Screen
+  #pragma pack(pop)
   static check_size<sizeof(Screen), 32 + sizeof(bool)> __HMUI_ScreenSizeCheck;
   static_assert(sizeof(Screen) == 0x21);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Screen*, "HMUI", "Screen");

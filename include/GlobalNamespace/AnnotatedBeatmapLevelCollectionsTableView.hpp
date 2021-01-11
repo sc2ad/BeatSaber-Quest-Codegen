@@ -205,8 +205,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AnnotatedBeatmapLevelCollectionsTableView*, creationType>()));
     }
   }; // AnnotatedBeatmapLevelCollectionsTableView
+  #pragma pack(pop)
   static check_size<sizeof(AnnotatedBeatmapLevelCollectionsTableView), 100 + sizeof(int)> __GlobalNamespace_AnnotatedBeatmapLevelCollectionsTableViewSizeCheck;
   static_assert(sizeof(AnnotatedBeatmapLevelCollectionsTableView) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*, "", "AnnotatedBeatmapLevelCollectionsTableView");

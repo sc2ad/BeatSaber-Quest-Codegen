@@ -98,8 +98,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<ElGamalEngine*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Engines.ElGamalEngine
+  #pragma pack(pop)
   static check_size<sizeof(ElGamalEngine), 36 + sizeof(int)> __Org_BouncyCastle_Crypto_Engines_ElGamalEngineSizeCheck;
   static_assert(sizeof(ElGamalEngine) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ElGamalEngine*, "Org.BouncyCastle.Crypto.Engines", "ElGamalEngine");

@@ -440,8 +440,8 @@ namespace GlobalNamespace {
     // Base method: System.Void INetworkPlayer::SendInviteResponse(System.Boolean accept)
     void SendInviteResponse(bool accept);
   }; // LocalNetworkPlayerModel/LocalNetworkPlayer
+  #pragma pack(pop)
   static check_size<sizeof(LocalNetworkPlayerModel::LocalNetworkPlayer), 126 + sizeof(bool)> __GlobalNamespace_LocalNetworkPlayerModel_LocalNetworkPlayerSizeCheck;
   static_assert(sizeof(LocalNetworkPlayerModel::LocalNetworkPlayer) == 0x7F);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer*, "", "LocalNetworkPlayerModel/LocalNetworkPlayer");

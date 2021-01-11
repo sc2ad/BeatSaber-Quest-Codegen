@@ -47,8 +47,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MasterServerAvailabilityData::UserMessage::LocalizedMessage*, creationType>()));
     }
   }; // MasterServerAvailabilityData/UserMessage/LocalizedMessage
+  #pragma pack(pop)
   static check_size<sizeof(MasterServerAvailabilityData::UserMessage::LocalizedMessage), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_MasterServerAvailabilityData_UserMessage_LocalizedMessageSizeCheck;
   static_assert(sizeof(MasterServerAvailabilityData::UserMessage::LocalizedMessage) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*, "", "MasterServerAvailabilityData/UserMessage/LocalizedMessage");

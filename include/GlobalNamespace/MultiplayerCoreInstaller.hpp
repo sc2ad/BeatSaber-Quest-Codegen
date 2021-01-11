@@ -90,8 +90,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerCoreInstaller*, creationType>()));
     }
   }; // MultiplayerCoreInstaller
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerCoreInstaller), 64 + sizeof(GlobalNamespace::IMultiplayerSessionManager*)> __GlobalNamespace_MultiplayerCoreInstallerSizeCheck;
   static_assert(sizeof(MultiplayerCoreInstaller) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerCoreInstaller*, "", "MultiplayerCoreInstaller");

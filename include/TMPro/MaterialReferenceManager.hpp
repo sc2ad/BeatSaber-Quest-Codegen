@@ -142,8 +142,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialReferenceManager*, creationType>()));
     }
   }; // TMPro.MaterialReferenceManager
+  #pragma pack(pop)
   static check_size<sizeof(MaterialReferenceManager), 40 + sizeof(System::Collections::Generic::Dictionary_2<int, TMPro::TMP_ColorGradient*>*)> __TMPro_MaterialReferenceManagerSizeCheck;
   static_assert(sizeof(MaterialReferenceManager) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::MaterialReferenceManager*, "TMPro", "MaterialReferenceManager");

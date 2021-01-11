@@ -214,8 +214,8 @@ namespace GlobalNamespace {
     // Offset: 0xF44088
     static GlobalNamespace::StandardLevelInfoSaveData* DeserializeFromJSONString(::Il2CppString* stringData);
   }; // StandardLevelInfoSaveData
+  #pragma pack(pop)
   static check_size<sizeof(StandardLevelInfoSaveData), 112 + sizeof(::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*>*)> __GlobalNamespace_StandardLevelInfoSaveDataSizeCheck;
   static_assert(sizeof(StandardLevelInfoSaveData) == 0x78);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData*, "", "StandardLevelInfoSaveData");

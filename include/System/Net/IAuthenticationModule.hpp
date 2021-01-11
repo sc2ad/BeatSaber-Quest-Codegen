@@ -38,7 +38,7 @@ namespace System::Net {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_AuthenticationType();
   }; // System.Net.IAuthenticationModule
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IAuthenticationModule*, "System.Net", "IAuthenticationModule");

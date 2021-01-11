@@ -298,8 +298,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsTableView*, creationType>()));
     }
   }; // MultiplayerResultsTableView
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsTableView), 192 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_MultiplayerResultsTableViewSizeCheck;
   static_assert(sizeof(MultiplayerResultsTableView) == 0xD0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableView*, "", "MultiplayerResultsTableView");

@@ -70,8 +70,8 @@ namespace Mono::Security::X509 {
     // Offset: 0x19C51E4
     Mono::Security::X509::X509ExtensionCollection* get_Extensions();
   }; // Mono.Security.X509.X509Crl/X509CrlEntry
+  #pragma pack(pop)
   static check_size<sizeof(X509Crl::X509CrlEntry), 32 + sizeof(Mono::Security::X509::X509ExtensionCollection*)> __Mono_Security_X509_X509Crl_X509CrlEntrySizeCheck;
   static_assert(sizeof(X509Crl::X509CrlEntry) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl::X509CrlEntry*, "Mono.Security.X509", "X509Crl/X509CrlEntry");

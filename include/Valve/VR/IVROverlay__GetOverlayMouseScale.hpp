@@ -57,6 +57,6 @@ namespace Valve::VR {
     // Offset: 0x18F2C58
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::HmdVector2_t& pvecMouseScale, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayMouseScale
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetOverlayMouseScale*, "Valve.VR", "IVROverlay/_GetOverlayMouseScale");

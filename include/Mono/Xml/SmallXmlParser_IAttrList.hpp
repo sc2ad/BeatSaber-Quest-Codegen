@@ -36,7 +36,7 @@ namespace Mono::Xml {
     // Offset: 0xFFFFFFFF
     ::Array<::Il2CppString*>* get_Values();
   }; // Mono.Xml.SmallXmlParser/IAttrList
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::IAttrList*, "Mono.Xml", "SmallXmlParser/IAttrList");

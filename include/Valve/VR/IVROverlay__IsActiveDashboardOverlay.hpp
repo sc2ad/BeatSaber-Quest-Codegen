@@ -50,6 +50,6 @@ namespace Valve::VR {
     // Offset: 0x18F732C
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_IsActiveDashboardOverlay
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_IsActiveDashboardOverlay*, "Valve.VR", "IVROverlay/_IsActiveDashboardOverlay");

@@ -683,9 +683,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.IVROverlay
+  #pragma pack(pop)
   static check_size<sizeof(IVROverlay), 648 + sizeof(OVR::OpenVR::IVROverlay::_CloseMessageOverlay*)> __OVR_OpenVR_IVROverlaySizeCheck;
   static_assert(sizeof(IVROverlay) == 0x290);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay, "OVR.OpenVR", "IVROverlay");

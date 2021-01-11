@@ -100,8 +100,8 @@ namespace System::Net {
     // Base method: System.Void RequestStream::Close()
     void Close();
   }; // System.Net.ChunkedInputStream
+  #pragma pack(pop)
   static check_size<sizeof(ChunkedInputStream), 104 + sizeof(bool)> __System_Net_ChunkedInputStreamSizeCheck;
   static_assert(sizeof(ChunkedInputStream) == 0x69);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ChunkedInputStream*, "System.Net", "ChunkedInputStream");

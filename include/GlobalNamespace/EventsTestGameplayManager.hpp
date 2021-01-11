@@ -93,8 +93,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EventsTestGameplayManager*, creationType>()));
     }
   }; // EventsTestGameplayManager
+  #pragma pack(pop)
   static check_size<sizeof(EventsTestGameplayManager), 56 + sizeof(bool)> __GlobalNamespace_EventsTestGameplayManagerSizeCheck;
   static_assert(sizeof(EventsTestGameplayManager) == 0x39);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventsTestGameplayManager*, "", "EventsTestGameplayManager");

@@ -118,8 +118,8 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // Oculus.Platform.VoipAudioSourceHiLevel
+  #pragma pack(pop)
   static check_size<sizeof(VoipAudioSourceHiLevel), 48 + sizeof(Oculus::Platform::IVoipPCMSource*)> __Oculus_Platform_VoipAudioSourceHiLevelSizeCheck;
   static_assert(sizeof(VoipAudioSourceHiLevel) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipAudioSourceHiLevel*, "Oculus.Platform", "VoipAudioSourceHiLevel");

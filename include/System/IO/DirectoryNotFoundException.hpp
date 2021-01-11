@@ -64,6 +64,6 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<DirectoryNotFoundException*, creationType>(info, context)));
     }
   }; // System.IO.DirectoryNotFoundException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::DirectoryNotFoundException*, "System.IO", "DirectoryNotFoundException");

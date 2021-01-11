@@ -224,8 +224,8 @@ namespace MasterServer {
     // Base method: System.Boolean MessageHandler::ShouldHandleMessageFromEndPoint(System.Net.IPEndPoint endPoint)
     bool ShouldHandleMessageFromEndPoint(System::Net::IPEndPoint* endPoint);
   }; // MasterServer.BaseClientMessageHandler
+  #pragma pack(pop)
   static check_size<sizeof(BaseClientMessageHandler), 152 + sizeof(bool)> __MasterServer_BaseClientMessageHandlerSizeCheck;
   static_assert(sizeof(BaseClientMessageHandler) == 0x99);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler*, "MasterServer", "BaseClientMessageHandler");

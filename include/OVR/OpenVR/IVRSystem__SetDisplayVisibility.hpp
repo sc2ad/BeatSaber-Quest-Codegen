@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x1062C6C
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_SetDisplayVisibility
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_SetDisplayVisibility*, "OVR.OpenVR", "IVRSystem/_SetDisplayVisibility");

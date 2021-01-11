@@ -48,6 +48,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
     // Base method: System.String ValueMatchFilter::get_ElementName()
     ::Il2CppString* get_ElementName();
   }; // UnityEngine.TestRunner.NUnitExtensions.Filters.AssemblyNameFilter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter*, "UnityEngine.TestRunner.NUnitExtensions.Filters", "AssemblyNameFilter");

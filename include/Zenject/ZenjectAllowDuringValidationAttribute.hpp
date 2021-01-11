@@ -33,6 +33,6 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectAllowDuringValidationAttribute*, creationType>()));
     }
   }; // Zenject.ZenjectAllowDuringValidationAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectAllowDuringValidationAttribute*, "Zenject", "ZenjectAllowDuringValidationAttribute");

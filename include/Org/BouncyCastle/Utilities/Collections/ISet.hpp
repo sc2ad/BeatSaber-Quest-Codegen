@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Offset: 0xFFFFFFFF
     void Add(::Il2CppObject* o);
   }; // Org.BouncyCastle.Utilities.Collections.ISet
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::ISet*, "Org.BouncyCastle.Utilities.Collections", "ISet");

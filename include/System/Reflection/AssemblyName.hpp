@@ -301,8 +301,8 @@ namespace System::Reflection {
     // Maps to method: OnDeserialization
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
   }; // System.Reflection.AssemblyName
+  #pragma pack(pop)
   static check_size<sizeof(AssemblyName), 108 + sizeof(System::Reflection::AssemblyContentType)> __System_Reflection_AssemblyNameSizeCheck;
   static_assert(sizeof(AssemblyName) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyName*, "System.Reflection", "AssemblyName");

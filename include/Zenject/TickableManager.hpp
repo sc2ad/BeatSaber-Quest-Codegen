@@ -197,8 +197,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<TickableManager*, creationType>()));
     }
   }; // Zenject.TickableManager
+  #pragma pack(pop)
   static check_size<sizeof(TickableManager), 88 + sizeof(bool)> __Zenject_TickableManagerSizeCheck;
   static_assert(sizeof(TickableManager) == 0x59);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TickableManager*, "Zenject", "TickableManager");

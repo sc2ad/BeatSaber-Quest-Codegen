@@ -270,8 +270,8 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void ICancelHandler::OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
     void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
   }; // UnityEngine.EventSystems.EventTrigger
+  #pragma pack(pop)
   static check_size<sizeof(EventTrigger), 24 + sizeof(System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>*)> __UnityEngine_EventSystems_EventTriggerSizeCheck;
   static_assert(sizeof(EventTrigger) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTrigger*, "UnityEngine.EventSystems", "EventTrigger");

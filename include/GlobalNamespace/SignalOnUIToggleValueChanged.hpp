@@ -71,8 +71,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SignalOnUIToggleValueChanged*, creationType>()));
     }
   }; // SignalOnUIToggleValueChanged
+  #pragma pack(pop)
   static check_size<sizeof(SignalOnUIToggleValueChanged), 32 + sizeof(UnityEngine::UI::Toggle*)> __GlobalNamespace_SignalOnUIToggleValueChangedSizeCheck;
   static_assert(sizeof(SignalOnUIToggleValueChanged) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalOnUIToggleValueChanged*, "", "SignalOnUIToggleValueChanged");

@@ -62,9 +62,9 @@ namespace System::Net {
     // Set static field: static public System.Net.CookieVariant Default
     static void _set_Default(System::Net::CookieVariant value);
   }; // System.Net.CookieVariant
+  #pragma pack(pop)
   static check_size<sizeof(CookieVariant), 0 + sizeof(int)> __System_Net_CookieVariantSizeCheck;
   static_assert(sizeof(CookieVariant) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieVariant, "System.Net", "CookieVariant");

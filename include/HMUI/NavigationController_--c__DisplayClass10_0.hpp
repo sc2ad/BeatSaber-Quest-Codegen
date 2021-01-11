@@ -72,8 +72,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<NavigationController::$$c__DisplayClass10_0*, creationType>()));
     }
   }; // HMUI.NavigationController/<>c__DisplayClass10_0
+  #pragma pack(pop)
   static check_size<sizeof(NavigationController::$$c__DisplayClass10_0), 40 + sizeof(float)> __HMUI_NavigationController_$$c__DisplayClass10_0SizeCheck;
   static_assert(sizeof(NavigationController::$$c__DisplayClass10_0) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::$$c__DisplayClass10_0*, "HMUI", "NavigationController/<>c__DisplayClass10_0");

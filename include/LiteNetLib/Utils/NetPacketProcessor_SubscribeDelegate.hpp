@@ -54,6 +54,6 @@ namespace LiteNetLib::Utils {
     // Offset: 0x22B5718
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.Utils.NetPacketProcessor/SubscribeDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*, "LiteNetLib.Utils", "NetPacketProcessor/SubscribeDelegate");

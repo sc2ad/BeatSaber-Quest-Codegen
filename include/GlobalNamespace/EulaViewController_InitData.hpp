@@ -39,8 +39,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EulaViewController::InitData*, creationType>(showDoNotAgreeButton)));
     }
   }; // EulaViewController/InitData
+  #pragma pack(pop)
   static check_size<sizeof(EulaViewController::InitData), 16 + sizeof(bool)> __GlobalNamespace_EulaViewController_InitDataSizeCheck;
   static_assert(sizeof(EulaViewController::InitData) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EulaViewController::InitData*, "", "EulaViewController/InitData");

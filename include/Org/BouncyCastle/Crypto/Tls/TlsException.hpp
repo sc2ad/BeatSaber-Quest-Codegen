@@ -39,6 +39,6 @@ namespace Org::BouncyCastle::Crypto::Tls {
       return THROW_UNLESS((::il2cpp_utils::New<TlsException*, creationType>(message, cause)));
     }
   }; // Org.BouncyCastle.Crypto.Tls.TlsException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsException*, "Org.BouncyCastle.Crypto.Tls", "TlsException");

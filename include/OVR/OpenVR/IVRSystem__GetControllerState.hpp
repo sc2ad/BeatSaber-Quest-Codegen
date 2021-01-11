@@ -55,6 +55,6 @@ namespace OVR::OpenVR {
     // Offset: 0x191184C
     bool EndInvoke(OVR::OpenVR::VRControllerState_t& pControllerState, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetControllerState
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetControllerState*, "OVR.OpenVR", "IVRSystem/_GetControllerState");

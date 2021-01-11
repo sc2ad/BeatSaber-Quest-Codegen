@@ -90,6 +90,6 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<StateMachineBehaviour*, creationType>()));
     }
   }; // UnityEngine.StateMachineBehaviour
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::StateMachineBehaviour*, "UnityEngine", "StateMachineBehaviour");

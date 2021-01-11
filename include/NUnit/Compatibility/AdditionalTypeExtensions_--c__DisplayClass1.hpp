@@ -57,8 +57,8 @@ namespace NUnit::Compatibility {
       return THROW_UNLESS((::il2cpp_utils::New<AdditionalTypeExtensions::$$c__DisplayClass1*, creationType>()));
     }
   }; // NUnit.Compatibility.AdditionalTypeExtensions/<>c__DisplayClass1
+  #pragma pack(pop)
   static check_size<sizeof(AdditionalTypeExtensions::$$c__DisplayClass1), 16 + sizeof(System::Type*)> __NUnit_Compatibility_AdditionalTypeExtensions_$$c__DisplayClass1SizeCheck;
   static_assert(sizeof(AdditionalTypeExtensions::$$c__DisplayClass1) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass1*, "NUnit.Compatibility", "AdditionalTypeExtensions/<>c__DisplayClass1");

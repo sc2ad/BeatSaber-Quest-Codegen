@@ -52,8 +52,8 @@ namespace Zenject {
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  PoolableInfo(Zenject::IPoolable* poolable, int priority)
   }; // Zenject.PoolableManager/PoolableInfo
+  #pragma pack(pop)
   static check_size<sizeof(PoolableManager::PoolableInfo), 8 + sizeof(int)> __Zenject_PoolableManager_PoolableInfoSizeCheck;
   static_assert(sizeof(PoolableManager::PoolableInfo) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::PoolableInfo, "Zenject", "PoolableManager/PoolableInfo");

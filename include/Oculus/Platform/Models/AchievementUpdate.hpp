@@ -43,8 +43,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<AchievementUpdate*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.AchievementUpdate
+  #pragma pack(pop)
   static check_size<sizeof(AchievementUpdate), 24 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_AchievementUpdateSizeCheck;
   static_assert(sizeof(AchievementUpdate) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementUpdate*, "Oculus.Platform.Models", "AchievementUpdate");

@@ -132,8 +132,8 @@ namespace NUnit::Framework {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // NUnit.Framework.TestFixtureAttribute/<BuildFrom>d__0
+  #pragma pack(pop)
   static check_size<sizeof(TestFixtureAttribute::$BuildFrom$d__0), 48 + sizeof(NUnit::Framework::Interfaces::ITypeInfo*)> __NUnit_Framework_TestFixtureAttribute_$BuildFrom$d__0SizeCheck;
   static_assert(sizeof(TestFixtureAttribute::$BuildFrom$d__0) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__0*, "NUnit.Framework", "TestFixtureAttribute/<BuildFrom>d__0");

@@ -49,8 +49,8 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE440
     void set_CollectionAccessType(JetBrains::Annotations::CollectionAccessType value);
   }; // JetBrains.Annotations.CollectionAccessAttribute
+  #pragma pack(pop)
   static check_size<sizeof(CollectionAccessAttribute), 16 + sizeof(JetBrains::Annotations::CollectionAccessType)> __JetBrains_Annotations_CollectionAccessAttributeSizeCheck;
   static_assert(sizeof(CollectionAccessAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessAttribute*, "JetBrains.Annotations", "CollectionAccessAttribute");

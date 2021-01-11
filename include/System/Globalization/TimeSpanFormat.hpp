@@ -115,6 +115,7 @@ namespace System::Globalization {
       // Offset: 0xC9FC64
       void Init(::Il2CppString* format, bool useInvariantFieldLengths);
     }; // System.Globalization.TimeSpanFormat/FormatLiterals
+    #pragma pack(pop)
     static check_size<sizeof(TimeSpanFormat::FormatLiterals), 32 + sizeof(::Array<::Il2CppString*>*)> __System_Globalization_TimeSpanFormat_FormatLiteralsSizeCheck;
     static_assert(sizeof(TimeSpanFormat::FormatLiterals) == 0x28);
     // Creating value type constructor for type: TimeSpanFormat
@@ -143,8 +144,8 @@ namespace System::Globalization {
     // Offset: 0x142C6E8
     static void _cctor();
   }; // System.Globalization.TimeSpanFormat
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TimeSpanFormat*, "System.Globalization", "TimeSpanFormat");
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TimeSpanFormat::FormatLiterals, "System.Globalization", "TimeSpanFormat/FormatLiterals");

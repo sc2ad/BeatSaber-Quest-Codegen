@@ -109,8 +109,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TweenPosition*, creationType>()));
     }
   }; // TweenPosition
+  #pragma pack(pop)
   static check_size<sizeof(TweenPosition), 48 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_TweenPositionSizeCheck;
   static_assert(sizeof(TweenPosition) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TweenPosition*, "", "TweenPosition");

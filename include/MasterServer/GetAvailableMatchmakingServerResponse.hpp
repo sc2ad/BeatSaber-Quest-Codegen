@@ -87,6 +87,7 @@ namespace MasterServer {
       // Set static field: static public MasterServer.GetAvailableMatchmakingServerResponse/Result UnknownError
       static void _set_UnknownError(MasterServer::GetAvailableMatchmakingServerResponse::Result value);
     }; // MasterServer.GetAvailableMatchmakingServerResponse/Result
+    #pragma pack(pop)
     static check_size<sizeof(GetAvailableMatchmakingServerResponse::Result), 0 + sizeof(int)> __MasterServer_GetAvailableMatchmakingServerResponse_ResultSizeCheck;
     static_assert(sizeof(GetAvailableMatchmakingServerResponse::Result) == 0x4);
     // public MasterServer.GetAvailableMatchmakingServerResponse/Result result
@@ -214,9 +215,9 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<GetAvailableMatchmakingServerResponse*, creationType>()));
     }
   }; // MasterServer.GetAvailableMatchmakingServerResponse
+  #pragma pack(pop)
   static check_size<sizeof(GetAvailableMatchmakingServerResponse), 72 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_GetAvailableMatchmakingServerResponseSizeCheck;
   static_assert(sizeof(GetAvailableMatchmakingServerResponse) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetAvailableMatchmakingServerResponse*, "MasterServer", "GetAvailableMatchmakingServerResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetAvailableMatchmakingServerResponse::Result, "MasterServer", "GetAvailableMatchmakingServerResponse/Result");

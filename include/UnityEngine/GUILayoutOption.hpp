@@ -128,6 +128,7 @@ namespace UnityEngine {
       // Set static field: static public UnityEngine.GUILayoutOption/Type spacing
       static void _set_spacing(UnityEngine::GUILayoutOption::Type value);
     }; // UnityEngine.GUILayoutOption/Type
+    #pragma pack(pop)
     static check_size<sizeof(GUILayoutOption::Type), 0 + sizeof(int)> __UnityEngine_GUILayoutOption_TypeSizeCheck;
     static_assert(sizeof(GUILayoutOption::Type) == 0x4);
     // UnityEngine.GUILayoutOption/Type type
@@ -154,9 +155,9 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<GUILayoutOption*, creationType>(type, value)));
     }
   }; // UnityEngine.GUILayoutOption
+  #pragma pack(pop)
   static check_size<sizeof(GUILayoutOption), 24 + sizeof(::Il2CppObject*)> __UnityEngine_GUILayoutOptionSizeCheck;
   static_assert(sizeof(GUILayoutOption) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutOption*, "UnityEngine", "GUILayoutOption");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutOption::Type, "UnityEngine", "GUILayoutOption/Type");

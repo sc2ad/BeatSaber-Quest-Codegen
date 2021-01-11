@@ -43,9 +43,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVR.OpenVR.D3D12TextureData_t
+  #pragma pack(pop)
   static check_size<sizeof(D3D12TextureData_t), 16 + sizeof(uint)> __OVR_OpenVR_D3D12TextureData_tSizeCheck;
   static_assert(sizeof(D3D12TextureData_t) == 0x14);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::D3D12TextureData_t, "OVR.OpenVR", "D3D12TextureData_t");

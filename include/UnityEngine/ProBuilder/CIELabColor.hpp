@@ -68,8 +68,8 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.CIELabColor
+  #pragma pack(pop)
   static check_size<sizeof(CIELabColor), 24 + sizeof(float)> __UnityEngine_ProBuilder_CIELabColorSizeCheck;
   static_assert(sizeof(CIELabColor) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::CIELabColor*, "UnityEngine.ProBuilder", "CIELabColor");

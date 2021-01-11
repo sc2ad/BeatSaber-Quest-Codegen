@@ -86,8 +86,8 @@ namespace System::Threading {
     // Offset: 0x16B1E90
     static void ExecutionContextCallback(::Il2CppObject* obj);
   }; // System.Threading.CancellationCallbackInfo
+  #pragma pack(pop)
   static check_size<sizeof(CancellationCallbackInfo), 48 + sizeof(System::Threading::CancellationTokenSource*)> __System_Threading_CancellationCallbackInfoSizeCheck;
   static_assert(sizeof(CancellationCallbackInfo) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationCallbackInfo*, "System.Threading", "CancellationCallbackInfo");

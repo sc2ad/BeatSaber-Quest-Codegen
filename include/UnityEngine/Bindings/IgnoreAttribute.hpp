@@ -49,8 +49,8 @@ namespace UnityEngine::Bindings {
       return THROW_UNLESS((::il2cpp_utils::New<IgnoreAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.IgnoreAttribute
+  #pragma pack(pop)
   static check_size<sizeof(IgnoreAttribute), 16 + sizeof(bool)> __UnityEngine_Bindings_IgnoreAttributeSizeCheck;
   static_assert(sizeof(IgnoreAttribute) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::IgnoreAttribute*, "UnityEngine.Bindings", "IgnoreAttribute");

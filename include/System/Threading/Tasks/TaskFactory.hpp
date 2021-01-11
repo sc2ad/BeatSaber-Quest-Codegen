@@ -106,8 +106,8 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<TaskFactory*, creationType>()));
     }
   }; // System.Threading.Tasks.TaskFactory
+  #pragma pack(pop)
   static check_size<sizeof(TaskFactory), 36 + sizeof(System::Threading::Tasks::TaskContinuationOptions)> __System_Threading_Tasks_TaskFactorySizeCheck;
   static_assert(sizeof(TaskFactory) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskFactory*, "System.Threading.Tasks", "TaskFactory");

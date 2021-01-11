@@ -47,8 +47,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CoreGameHUDController::InitData*, creationType>(hide, showEnergyPanel, advancedHUD)));
     }
   }; // CoreGameHUDController/InitData
+  #pragma pack(pop)
   static check_size<sizeof(CoreGameHUDController::InitData), 18 + sizeof(bool)> __GlobalNamespace_CoreGameHUDController_InitDataSizeCheck;
   static_assert(sizeof(CoreGameHUDController::InitData) == 0x13);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoreGameHUDController::InitData*, "", "CoreGameHUDController/InitData");

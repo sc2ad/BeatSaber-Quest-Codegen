@@ -58,8 +58,8 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return THROW_UNLESS((::il2cpp_utils::New<WTauNafPreCompInfo*, creationType>()));
     }
   }; // Org.BouncyCastle.Math.EC.Multiplier.WTauNafPreCompInfo
+  #pragma pack(pop)
   static check_size<sizeof(WTauNafPreCompInfo), 16 + sizeof(::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*)> __Org_BouncyCastle_Math_EC_Multiplier_WTauNafPreCompInfoSizeCheck;
   static_assert(sizeof(WTauNafPreCompInfo) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "WTauNafPreCompInfo");

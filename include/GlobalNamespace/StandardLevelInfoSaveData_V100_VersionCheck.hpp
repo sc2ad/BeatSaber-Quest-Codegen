@@ -44,8 +44,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelInfoSaveData_V100::VersionCheck*, creationType>()));
     }
   }; // StandardLevelInfoSaveData_V100/VersionCheck
+  #pragma pack(pop)
   static check_size<sizeof(StandardLevelInfoSaveData_V100::VersionCheck), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_StandardLevelInfoSaveData_V100_VersionCheckSizeCheck;
   static_assert(sizeof(StandardLevelInfoSaveData_V100::VersionCheck) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck*, "", "StandardLevelInfoSaveData_V100/VersionCheck");

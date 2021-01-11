@@ -93,8 +93,8 @@ namespace Mono::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<SmallXmlParser::AttrListImpl*, creationType>()));
     }
   }; // Mono.Xml.SmallXmlParser/AttrListImpl
+  #pragma pack(pop)
   static check_size<sizeof(SmallXmlParser::AttrListImpl), 24 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __Mono_Xml_SmallXmlParser_AttrListImplSizeCheck;
   static_assert(sizeof(SmallXmlParser::AttrListImpl) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::AttrListImpl*, "Mono.Xml", "SmallXmlParser/AttrListImpl");

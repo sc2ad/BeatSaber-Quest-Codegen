@@ -158,8 +158,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemeDropdown*, creationType>()));
     }
   }; // ColorSchemeDropdown
+  #pragma pack(pop)
   static check_size<sizeof(ColorSchemeDropdown), 120 + sizeof(bool)> __GlobalNamespace_ColorSchemeDropdownSizeCheck;
   static_assert(sizeof(ColorSchemeDropdown) == 0x79);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeDropdown*, "", "ColorSchemeDropdown");

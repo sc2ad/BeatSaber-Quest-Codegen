@@ -53,7 +53,7 @@ namespace UnityEngine::UI {
     // Offset: 0x14C6EB4
     static void _cctor();
   }; // UnityEngine.UI.FontUpdateTracker
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::FontUpdateTracker*, "UnityEngine.UI", "FontUpdateTracker");

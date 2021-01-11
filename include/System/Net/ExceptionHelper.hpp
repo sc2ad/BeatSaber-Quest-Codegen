@@ -42,7 +42,7 @@ namespace System::Net {
     // Offset: 0x131B46C
     static System::Net::WebException* get_RequestAbortedException();
   }; // System.Net.ExceptionHelper
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ExceptionHelper*, "System.Net", "ExceptionHelper");

@@ -57,8 +57,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRChromaticAberration*, creationType>()));
     }
   }; // OVRChromaticAberration
+  #pragma pack(pop)
   static check_size<sizeof(OVRChromaticAberration), 28 + sizeof(bool)> __GlobalNamespace_OVRChromaticAberrationSizeCheck;
   static_assert(sizeof(OVRChromaticAberration) == 0x1D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRChromaticAberration*, "", "OVRChromaticAberration");

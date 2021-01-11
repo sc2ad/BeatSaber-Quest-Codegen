@@ -80,6 +80,7 @@ namespace GlobalNamespace {
       // Set static field: static public TestSaberModulationData/ModulationType Random
       static void _set_Random(GlobalNamespace::TestSaberModulationData::ModulationType value);
     }; // TestSaberModulationData/ModulationType
+    #pragma pack(pop)
     static check_size<sizeof(TestSaberModulationData::ModulationType), 0 + sizeof(int)> __GlobalNamespace_TestSaberModulationData_ModulationTypeSizeCheck;
     static_assert(sizeof(TestSaberModulationData::ModulationType) == 0x4);
     // [RangeAttribute] Offset: 0xDC0E94
@@ -130,9 +131,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TestSaberModulationData*, creationType>()));
     }
   }; // TestSaberModulationData
+  #pragma pack(pop)
   static check_size<sizeof(TestSaberModulationData), 32 + sizeof(float)> __GlobalNamespace_TestSaberModulationDataSizeCheck;
   static_assert(sizeof(TestSaberModulationData) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestSaberModulationData*, "", "TestSaberModulationData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestSaberModulationData::ModulationType, "", "TestSaberModulationData/ModulationType");

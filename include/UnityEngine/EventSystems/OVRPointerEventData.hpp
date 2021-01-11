@@ -58,8 +58,8 @@ namespace UnityEngine::EventSystems {
     // Base method: System.String PointerEventData::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.EventSystems.OVRPointerEventData
+  #pragma pack(pop)
   static check_size<sizeof(OVRPointerEventData), 328 + sizeof(UnityEngine::Vector2)> __UnityEngine_EventSystems_OVRPointerEventDataSizeCheck;
   static_assert(sizeof(OVRPointerEventData) == 0x150);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRPointerEventData*, "UnityEngine.EventSystems", "OVRPointerEventData");

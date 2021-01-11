@@ -22,7 +22,7 @@ namespace System::ComponentModel::Design {
       return *reinterpret_cast<System::ComponentModel::Design::IDesigner*>(this);
     }
   }; // System.ComponentModel.Design.IRootDesigner
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::IRootDesigner*, "System.ComponentModel.Design", "IRootDesigner");

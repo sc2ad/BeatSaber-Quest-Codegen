@@ -241,8 +241,8 @@ namespace UnityEngine::Rendering {
       return THROW_UNLESS((::il2cpp_utils::New<CommandBuffer*, creationType>()));
     }
   }; // UnityEngine.Rendering.CommandBuffer
+  #pragma pack(pop)
   static check_size<sizeof(CommandBuffer), 16 + sizeof(System::IntPtr)> __UnityEngine_Rendering_CommandBufferSizeCheck;
   static_assert(sizeof(CommandBuffer) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CommandBuffer*, "UnityEngine.Rendering", "CommandBuffer");

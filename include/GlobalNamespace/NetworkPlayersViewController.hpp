@@ -135,8 +135,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayersViewController*, creationType>()));
     }
   }; // NetworkPlayersViewController
+  #pragma pack(pop)
   static check_size<sizeof(NetworkPlayersViewController), 136 + sizeof(System::Action_1<GlobalNamespace::INetworkPlayer*>*)> __GlobalNamespace_NetworkPlayersViewControllerSizeCheck;
   static_assert(sizeof(NetworkPlayersViewController) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersViewController*, "", "NetworkPlayersViewController");

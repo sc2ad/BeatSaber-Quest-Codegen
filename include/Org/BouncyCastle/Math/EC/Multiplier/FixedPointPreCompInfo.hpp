@@ -80,8 +80,8 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return THROW_UNLESS((::il2cpp_utils::New<FixedPointPreCompInfo*, creationType>()));
     }
   }; // Org.BouncyCastle.Math.EC.Multiplier.FixedPointPreCompInfo
+  #pragma pack(pop)
   static check_size<sizeof(FixedPointPreCompInfo), 32 + sizeof(int)> __Org_BouncyCastle_Math_EC_Multiplier_FixedPointPreCompInfoSizeCheck;
   static_assert(sizeof(FixedPointPreCompInfo) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "FixedPointPreCompInfo");

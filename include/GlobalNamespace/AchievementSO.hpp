@@ -45,8 +45,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AchievementSO*, creationType>()));
     }
   }; // AchievementSO
+  #pragma pack(pop)
   static check_size<sizeof(AchievementSO), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_AchievementSOSizeCheck;
   static_assert(sizeof(AchievementSO) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementSO*, "", "AchievementSO");

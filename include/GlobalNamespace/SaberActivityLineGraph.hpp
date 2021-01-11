@@ -131,8 +131,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberActivityLineGraph*, creationType>()));
     }
   }; // SaberActivityLineGraph
+  #pragma pack(pop)
   static check_size<sizeof(SaberActivityLineGraph), 80 + sizeof(System::Collections::Generic::Queue_1<float>*)> __GlobalNamespace_SaberActivityLineGraphSizeCheck;
   static_assert(sizeof(SaberActivityLineGraph) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberActivityLineGraph*, "", "SaberActivityLineGraph");

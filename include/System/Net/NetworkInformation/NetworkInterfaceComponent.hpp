@@ -44,9 +44,9 @@ namespace System::Net::NetworkInformation {
     // Set static field: static public System.Net.NetworkInformation.NetworkInterfaceComponent IPv6
     static void _set_IPv6(System::Net::NetworkInformation::NetworkInterfaceComponent value);
   }; // System.Net.NetworkInformation.NetworkInterfaceComponent
+  #pragma pack(pop)
   static check_size<sizeof(NetworkInterfaceComponent), 0 + sizeof(int)> __System_Net_NetworkInformation_NetworkInterfaceComponentSizeCheck;
   static_assert(sizeof(NetworkInterfaceComponent) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceComponent, "System.Net.NetworkInformation", "NetworkInterfaceComponent");

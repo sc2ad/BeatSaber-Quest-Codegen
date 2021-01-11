@@ -115,8 +115,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelGameplaySetupData*, creationType>()));
     }
   }; // LevelGameplaySetupData
+  #pragma pack(pop)
   static check_size<sizeof(LevelGameplaySetupData), 40 + sizeof(GlobalNamespace::BeatmapDifficulty)> __GlobalNamespace_LevelGameplaySetupDataSizeCheck;
   static_assert(sizeof(LevelGameplaySetupData) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelGameplaySetupData*, "", "LevelGameplaySetupData");

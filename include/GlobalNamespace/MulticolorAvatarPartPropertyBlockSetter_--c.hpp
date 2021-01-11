@@ -56,6 +56,6 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MulticolorAvatarPartPropertyBlockSetter::$$c*, creationType>()));
     }
   }; // MulticolorAvatarPartPropertyBlockSetter/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::$$c*, "", "MulticolorAvatarPartPropertyBlockSetter/<>c");

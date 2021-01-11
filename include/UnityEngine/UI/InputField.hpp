@@ -204,6 +204,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.InputField/ContentType Custom
       static void _set_Custom(UnityEngine::UI::InputField::ContentType value);
     }; // UnityEngine.UI.InputField/ContentType
+    #pragma pack(pop)
     static check_size<sizeof(InputField::ContentType), 0 + sizeof(int)> __UnityEngine_UI_InputField_ContentTypeSizeCheck;
     static_assert(sizeof(InputField::ContentType) == 0x4);
     // Size: 0x4
@@ -247,6 +248,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.InputField/InputType Password
       static void _set_Password(UnityEngine::UI::InputField::InputType value);
     }; // UnityEngine.UI.InputField/InputType
+    #pragma pack(pop)
     static check_size<sizeof(InputField::InputType), 0 + sizeof(int)> __UnityEngine_UI_InputField_InputTypeSizeCheck;
     static_assert(sizeof(InputField::InputType) == 0x4);
     // Size: 0x4
@@ -308,6 +310,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.InputField/CharacterValidation EmailAddress
       static void _set_EmailAddress(UnityEngine::UI::InputField::CharacterValidation value);
     }; // UnityEngine.UI.InputField/CharacterValidation
+    #pragma pack(pop)
     static check_size<sizeof(InputField::CharacterValidation), 0 + sizeof(int)> __UnityEngine_UI_InputField_CharacterValidationSizeCheck;
     static_assert(sizeof(InputField::CharacterValidation) == 0x4);
     // Size: 0x4
@@ -351,6 +354,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.InputField/LineType MultiLineNewline
       static void _set_MultiLineNewline(UnityEngine::UI::InputField::LineType value);
     }; // UnityEngine.UI.InputField/LineType
+    #pragma pack(pop)
     static check_size<sizeof(InputField::LineType), 0 + sizeof(int)> __UnityEngine_UI_InputField_LineTypeSizeCheck;
     static_assert(sizeof(InputField::LineType) == 0x4);
     // protected UnityEngine.TouchScreenKeyboard m_Keyboard
@@ -1267,10 +1271,10 @@ namespace UnityEngine::UI {
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
   }; // UnityEngine.UI.InputField
+  #pragma pack(pop)
   static check_size<sizeof(InputField), 512 + sizeof(UnityEngine::Event*)> __UnityEngine_UI_InputFieldSizeCheck;
   static_assert(sizeof(InputField) == 0x208);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField*, "UnityEngine.UI", "InputField");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::ContentType, "UnityEngine.UI", "InputField/ContentType");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::InputType, "UnityEngine.UI", "InputField/InputType");

@@ -145,8 +145,8 @@ namespace OVRSimpleJSON {
       return THROW_UNLESS((::il2cpp_utils::New<JSONArray*, creationType>()));
     }
   }; // OVRSimpleJSON.JSONArray
+  #pragma pack(pop)
   static check_size<sizeof(JSONArray), 24 + sizeof(bool)> __OVRSimpleJSON_JSONArraySizeCheck;
   static_assert(sizeof(JSONArray) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONArray*, "OVRSimpleJSON", "JSONArray");

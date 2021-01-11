@@ -197,8 +197,8 @@ namespace System {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.RuntimeTypeHandle
+  #pragma pack(pop)
   static check_size<sizeof(RuntimeTypeHandle), 0 + sizeof(System::IntPtr)> __System_RuntimeTypeHandleSizeCheck;
   static_assert(sizeof(RuntimeTypeHandle) == 0x8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeTypeHandle, "System", "RuntimeTypeHandle");

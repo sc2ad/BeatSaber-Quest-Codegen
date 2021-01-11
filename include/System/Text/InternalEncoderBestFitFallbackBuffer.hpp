@@ -102,8 +102,8 @@ namespace System::Text {
     // Base method: System.Void EncoderFallbackBuffer::Reset()
     void Reset();
   }; // System.Text.InternalEncoderBestFitFallbackBuffer
+  #pragma pack(pop)
   static check_size<sizeof(InternalEncoderBestFitFallbackBuffer), 68 + sizeof(int)> __System_Text_InternalEncoderBestFitFallbackBufferSizeCheck;
   static_assert(sizeof(InternalEncoderBestFitFallbackBuffer) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalEncoderBestFitFallbackBuffer*, "System.Text", "InternalEncoderBestFitFallbackBuffer");

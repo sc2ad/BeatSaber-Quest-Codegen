@@ -22,7 +22,7 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // System.Threading.Tasks.VoidTaskResult
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::VoidTaskResult, "System.Threading.Tasks", "VoidTaskResult");

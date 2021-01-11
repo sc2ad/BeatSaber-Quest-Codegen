@@ -53,8 +53,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ShaderWarmupSceneSetupData*, creationType>(nextScenesTransitionSetupData)));
     }
   }; // ShaderWarmupSceneSetupData
+  #pragma pack(pop)
   static check_size<sizeof(ShaderWarmupSceneSetupData), 16 + sizeof(GlobalNamespace::ScenesTransitionSetupDataSO*)> __GlobalNamespace_ShaderWarmupSceneSetupDataSizeCheck;
   static_assert(sizeof(ShaderWarmupSceneSetupData) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneSetupData*, "", "ShaderWarmupSceneSetupData");

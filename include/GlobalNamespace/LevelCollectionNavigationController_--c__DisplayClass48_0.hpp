@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelCollectionNavigationController::$$c__DisplayClass48_0*, creationType>()));
     }
   }; // LevelCollectionNavigationController/<>c__DisplayClass48_0
+  #pragma pack(pop)
   static check_size<sizeof(LevelCollectionNavigationController::$$c__DisplayClass48_0), 24 + sizeof(HMUI::ViewController*)> __GlobalNamespace_LevelCollectionNavigationController_$$c__DisplayClass48_0SizeCheck;
   static_assert(sizeof(LevelCollectionNavigationController::$$c__DisplayClass48_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionNavigationController::$$c__DisplayClass48_0*, "", "LevelCollectionNavigationController/<>c__DisplayClass48_0");

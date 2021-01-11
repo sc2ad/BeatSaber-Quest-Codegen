@@ -97,6 +97,7 @@ namespace System::Reflection {
     // Base method: System.Type[] MethodBase::GetGenericArguments()
     ::Array<System::Type*>* GetGenericArguments();
   }; // System.Reflection.MethodInfo
+  #pragma pack(pop)
   // static public System.Boolean op_Equality(System.Reflection.MethodInfo left, System.Reflection.MethodInfo right)
   // Offset: 0x15C950C
   bool operator ==(System::Reflection::MethodInfo* left, System::Reflection::MethodInfo& right);
@@ -104,5 +105,4 @@ namespace System::Reflection {
   // Offset: 0x15C9814
   bool operator !=(System::Reflection::MethodInfo* left, System::Reflection::MethodInfo& right);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodInfo*, "System.Reflection", "MethodInfo");

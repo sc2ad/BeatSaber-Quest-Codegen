@@ -56,9 +56,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.DeviceType Desktop
     static void _set_Desktop(UnityEngine::DeviceType value);
   }; // UnityEngine.DeviceType
+  #pragma pack(pop)
   static check_size<sizeof(DeviceType), 0 + sizeof(int)> __UnityEngine_DeviceTypeSizeCheck;
   static_assert(sizeof(DeviceType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DeviceType, "UnityEngine", "DeviceType");

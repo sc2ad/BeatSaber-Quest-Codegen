@@ -59,6 +59,6 @@ namespace Valve::VR {
     // Offset: 0x1933350
     Valve::VR::EVRTrackedCameraError EndInvoke(System::IntPtr& ppD3D11ShaderResourceView, Valve::VR::CameraVideoStreamFrameHeader_t& pFrameHeader, System::IAsyncResult* result);
   }; // Valve.VR.IVRTrackedCamera/_GetVideoStreamTextureD3D11
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureD3D11*, "Valve.VR", "IVRTrackedCamera/_GetVideoStreamTextureD3D11");

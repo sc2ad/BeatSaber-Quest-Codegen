@@ -52,9 +52,9 @@ namespace RootMotion::FinalIK {
     // Set static field: static public RootMotion.FinalIK.IKSolverVR/RotationOffset Head
     static void _set_Head(RootMotion::FinalIK::IKSolverVR::RotationOffset value);
   }; // RootMotion.FinalIK.IKSolverVR/RotationOffset
+  #pragma pack(pop)
   static check_size<sizeof(IKSolverVR::RotationOffset), 0 + sizeof(int)> __RootMotion_FinalIK_IKSolverVR_RotationOffsetSizeCheck;
   static_assert(sizeof(IKSolverVR::RotationOffset) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::RotationOffset, "RootMotion.FinalIK", "IKSolverVR/RotationOffset");

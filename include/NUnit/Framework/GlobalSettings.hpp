@@ -23,7 +23,7 @@ namespace NUnit::Framework {
     // Offset: 0x13E67DC
     static void _cctor();
   }; // NUnit.Framework.GlobalSettings
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::GlobalSettings*, "NUnit.Framework", "GlobalSettings");

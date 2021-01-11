@@ -63,8 +63,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AlwaysOwnedContentSO*, creationType>()));
     }
   }; // AlwaysOwnedContentSO
+  #pragma pack(pop)
   static check_size<sizeof(AlwaysOwnedContentSO), 32 + sizeof(::Array<GlobalNamespace::BeatmapLevelSO*>*)> __GlobalNamespace_AlwaysOwnedContentSOSizeCheck;
   static_assert(sizeof(AlwaysOwnedContentSO) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysOwnedContentSO*, "", "AlwaysOwnedContentSO");

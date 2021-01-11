@@ -58,6 +58,6 @@ namespace GlobalNamespace {
     // Offset: 0x1E52D3C
     void EndInvoke(System::IAsyncResult* result);
   }; // PartyMessageHandler/ServerStatusUpdatedDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate*, "", "PartyMessageHandler/ServerStatusUpdatedDelegate");

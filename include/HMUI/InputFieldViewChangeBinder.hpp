@@ -87,8 +87,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldViewChangeBinder*, creationType>()));
     }
   }; // HMUI.InputFieldViewChangeBinder
+  #pragma pack(pop)
   static check_size<sizeof(InputFieldViewChangeBinder), 24 + sizeof(bool)> __HMUI_InputFieldViewChangeBinderSizeCheck;
   static_assert(sizeof(InputFieldViewChangeBinder) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldViewChangeBinder*, "HMUI", "InputFieldViewChangeBinder");

@@ -31,6 +31,6 @@ namespace System::Reflection::Emit {
       return THROW_UNLESS((::il2cpp_utils::New<UnmanagedMarshal*, creationType>()));
     }
   }; // System.Reflection.Emit.UnmanagedMarshal
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::UnmanagedMarshal*, "System.Reflection.Emit", "UnmanagedMarshal");

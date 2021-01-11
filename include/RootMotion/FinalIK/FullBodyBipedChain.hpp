@@ -56,9 +56,9 @@ namespace RootMotion::FinalIK {
     // Set static field: static public RootMotion.FinalIK.FullBodyBipedChain RightLeg
     static void _set_RightLeg(RootMotion::FinalIK::FullBodyBipedChain value);
   }; // RootMotion.FinalIK.FullBodyBipedChain
+  #pragma pack(pop)
   static check_size<sizeof(FullBodyBipedChain), 0 + sizeof(int)> __RootMotion_FinalIK_FullBodyBipedChainSizeCheck;
   static_assert(sizeof(FullBodyBipedChain) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FullBodyBipedChain, "RootMotion.FinalIK", "FullBodyBipedChain");

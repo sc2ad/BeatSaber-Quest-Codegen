@@ -56,8 +56,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SortingLayer*, creationType>()));
     }
   }; // SortingLayer
+  #pragma pack(pop)
   static check_size<sizeof(SortingLayer), 24 + sizeof(UnityEngine::Renderer*)> __GlobalNamespace_SortingLayerSizeCheck;
   static_assert(sizeof(SortingLayer) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SortingLayer*, "", "SortingLayer");

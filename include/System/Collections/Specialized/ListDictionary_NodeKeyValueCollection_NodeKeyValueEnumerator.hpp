@@ -91,8 +91,8 @@ namespace System::Collections::Specialized {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Collections.Specialized.ListDictionary/NodeKeyValueCollection/NodeKeyValueEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator), 37 + sizeof(bool)> __System_Collections_Specialized_ListDictionary_NodeKeyValueCollection_NodeKeyValueEnumeratorSizeCheck;
   static_assert(sizeof(ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator) == 0x26);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator*, "System.Collections.Specialized", "ListDictionary/NodeKeyValueCollection/NodeKeyValueEnumerator");

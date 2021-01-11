@@ -122,8 +122,8 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Base method: System.Void IMac::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Macs.HMac
+  #pragma pack(pop)
   static check_size<sizeof(HMac), 56 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Macs_HMacSizeCheck;
   static_assert(sizeof(HMac) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::HMac*, "Org.BouncyCastle.Crypto.Macs", "HMac");

@@ -54,6 +54,6 @@ namespace MasterServer {
     // Offset: 0x1AE4868
     void EndInvoke(System::IAsyncResult* result);
   }; // MasterServer.UserMessageHandler/ConnectToClientDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::ConnectToClientDelegate*, "MasterServer", "UserMessageHandler/ConnectToClientDelegate");

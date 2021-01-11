@@ -72,8 +72,8 @@ namespace LiteNetLib {
     // Offset: 0xFFFFFFFF
     bool ProcessPacket(LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.BaseChannel
+  #pragma pack(pop)
   static check_size<sizeof(BaseChannel), 32 + sizeof(System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>*)> __LiteNetLib_BaseChannelSizeCheck;
   static_assert(sizeof(BaseChannel) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::BaseChannel*, "LiteNetLib", "BaseChannel");

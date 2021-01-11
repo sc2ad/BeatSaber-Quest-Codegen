@@ -56,9 +56,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRTrackedCameraFrameType MAX_CAMERA_FRAME_TYPES
     static void _set_MAX_CAMERA_FRAME_TYPES(Valve::VR::EVRTrackedCameraFrameType value);
   }; // Valve.VR.EVRTrackedCameraFrameType
+  #pragma pack(pop)
   static check_size<sizeof(EVRTrackedCameraFrameType), 0 + sizeof(int)> __Valve_VR_EVRTrackedCameraFrameTypeSizeCheck;
   static_assert(sizeof(EVRTrackedCameraFrameType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRTrackedCameraFrameType, "Valve.VR", "EVRTrackedCameraFrameType");

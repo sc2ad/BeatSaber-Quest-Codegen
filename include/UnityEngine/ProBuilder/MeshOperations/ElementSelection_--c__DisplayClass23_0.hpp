@@ -75,8 +75,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<ElementSelection::$$c__DisplayClass23_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass23_0
+  #pragma pack(pop)
   static check_size<sizeof(ElementSelection::$$c__DisplayClass23_0), 32 + sizeof(System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>*)> __UnityEngine_ProBuilder_MeshOperations_ElementSelection_$$c__DisplayClass23_0SizeCheck;
   static_assert(sizeof(ElementSelection::$$c__DisplayClass23_0) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass23_0*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c__DisplayClass23_0");

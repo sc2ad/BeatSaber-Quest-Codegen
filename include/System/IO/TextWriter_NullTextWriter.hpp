@@ -65,6 +65,6 @@ namespace System::IO {
     // Base method: System.Void TextWriter::WriteLine(System.String value)
     void WriteLine(::Il2CppString* value);
   }; // System.IO.TextWriter/NullTextWriter
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter::NullTextWriter*, "System.IO", "TextWriter/NullTextWriter");

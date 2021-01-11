@@ -88,6 +88,6 @@ namespace GlobalNamespace {
     // Offset: 0x102F238
     static ::Il2CppString* GetPath(UnityEngine::Transform* current);
   }; // ExtensionMethods
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExtensionMethods*, "", "ExtensionMethods");

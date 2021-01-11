@@ -205,8 +205,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PracticeViewController*, creationType>()));
     }
   }; // PracticeViewController
+  #pragma pack(pop)
   static check_size<sizeof(PracticeViewController), 200 + sizeof(GlobalNamespace::BeatmapDifficulty)> __GlobalNamespace_PracticeViewControllerSizeCheck;
   static_assert(sizeof(PracticeViewController) == 0xCC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeViewController*, "", "PracticeViewController");

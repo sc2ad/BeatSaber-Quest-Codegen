@@ -58,6 +58,6 @@ namespace UnityEngine::Experimental::Rendering {
       return THROW_UNLESS((::il2cpp_utils::New<BuiltinRuntimeReflectionSystem*, creationType>()));
     }
   }; // UnityEngine.Experimental.Rendering.BuiltinRuntimeReflectionSystem
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*, "UnityEngine.Experimental.Rendering", "BuiltinRuntimeReflectionSystem");

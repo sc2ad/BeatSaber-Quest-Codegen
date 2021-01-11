@@ -87,8 +87,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerOffsetPositionByLocalPlayerPosition*, creationType>()));
     }
   }; // MultiplayerOffsetPositionByLocalPlayerPosition
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerOffsetPositionByLocalPlayerPosition), 72 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_MultiplayerOffsetPositionByLocalPlayerPositionSizeCheck;
   static_assert(sizeof(MultiplayerOffsetPositionByLocalPlayerPosition) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*, "", "MultiplayerOffsetPositionByLocalPlayerPosition");

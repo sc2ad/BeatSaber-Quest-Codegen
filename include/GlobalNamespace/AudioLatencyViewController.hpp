@@ -135,8 +135,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AudioLatencyViewController*, creationType>()));
     }
   }; // AudioLatencyViewController
+  #pragma pack(pop)
   static check_size<sizeof(AudioLatencyViewController), 168 + sizeof(HMUI::ToggleBinder*)> __GlobalNamespace_AudioLatencyViewControllerSizeCheck;
   static_assert(sizeof(AudioLatencyViewController) == 0xB0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioLatencyViewController*, "", "AudioLatencyViewController");

@@ -76,8 +76,8 @@ namespace GlobalNamespace {
     // Offset: 0x19F6990
     void ProcessAllNotesInTimeRow(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* notes);
   }; // NotesInTimeRowProcessor
+  #pragma pack(pop)
   static check_size<sizeof(NotesInTimeRowProcessor), 40 + sizeof(float)> __GlobalNamespace_NotesInTimeRowProcessorSizeCheck;
   static_assert(sizeof(NotesInTimeRowProcessor) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NotesInTimeRowProcessor*, "", "NotesInTimeRowProcessor");

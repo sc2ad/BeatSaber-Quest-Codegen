@@ -41,8 +41,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorderData::Keyframe*, creationType>(positionAndRotations, time)));
     }
   }; // VRControllersRecorderData/Keyframe
+  #pragma pack(pop)
   static check_size<sizeof(VRControllersRecorderData::Keyframe), 24 + sizeof(float)> __GlobalNamespace_VRControllersRecorderData_KeyframeSizeCheck;
   static_assert(sizeof(VRControllersRecorderData::Keyframe) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::Keyframe*, "", "VRControllersRecorderData/Keyframe");

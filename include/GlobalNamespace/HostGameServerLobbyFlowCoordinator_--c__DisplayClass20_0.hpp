@@ -54,8 +54,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HostGameServerLobbyFlowCoordinator::$$c__DisplayClass20_0*, creationType>()));
     }
   }; // HostGameServerLobbyFlowCoordinator/<>c__DisplayClass20_0
+  #pragma pack(pop)
   static check_size<sizeof(HostGameServerLobbyFlowCoordinator::$$c__DisplayClass20_0), 24 + sizeof(System::Action*)> __GlobalNamespace_HostGameServerLobbyFlowCoordinator_$$c__DisplayClass20_0SizeCheck;
   static_assert(sizeof(HostGameServerLobbyFlowCoordinator::$$c__DisplayClass20_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass20_0*, "", "HostGameServerLobbyFlowCoordinator/<>c__DisplayClass20_0");

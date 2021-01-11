@@ -52,6 +52,6 @@ namespace Assets::OVR::Scripts {
     // Offset: 0x11E891C
     void EndInvoke(System::IAsyncResult* result);
   }; // Assets.OVR.Scripts.FixMethodDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::FixMethodDelegate*, "Assets.OVR.Scripts", "FixMethodDelegate");

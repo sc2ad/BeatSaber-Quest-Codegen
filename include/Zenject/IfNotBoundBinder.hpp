@@ -55,8 +55,8 @@ namespace Zenject {
     // Offset: 0x129FC58
     void IfNotBound();
   }; // Zenject.IfNotBoundBinder
+  #pragma pack(pop)
   static check_size<sizeof(IfNotBoundBinder), 16 + sizeof(Zenject::BindInfo*)> __Zenject_IfNotBoundBinderSizeCheck;
   static_assert(sizeof(IfNotBoundBinder) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IfNotBoundBinder*, "Zenject", "IfNotBoundBinder");

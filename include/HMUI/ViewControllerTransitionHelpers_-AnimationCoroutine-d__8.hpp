@@ -98,8 +98,8 @@ namespace HMUI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // HMUI.ViewControllerTransitionHelpers/<AnimationCoroutine>d__8
+  #pragma pack(pop)
   static check_size<sizeof(ViewControllerTransitionHelpers::$AnimationCoroutine$d__8), 40 + sizeof(float)> __HMUI_ViewControllerTransitionHelpers_$AnimationCoroutine$d__8SizeCheck;
   static_assert(sizeof(ViewControllerTransitionHelpers::$AnimationCoroutine$d__8) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers::$AnimationCoroutine$d__8*, "HMUI", "ViewControllerTransitionHelpers/<AnimationCoroutine>d__8");

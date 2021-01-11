@@ -73,8 +73,8 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
   }; // System.Security.Cryptography.X509Certificates.X509CertificateCollection/X509CertificateEnumerator
+  #pragma pack(pop)
   static check_size<sizeof(X509CertificateCollection::X509CertificateEnumerator), 16 + sizeof(System::Collections::IEnumerator*)> __System_Security_Cryptography_X509Certificates_X509CertificateCollection_X509CertificateEnumeratorSizeCheck;
   static_assert(sizeof(X509CertificateCollection::X509CertificateEnumerator) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator*, "System.Security.Cryptography.X509Certificates", "X509CertificateCollection/X509CertificateEnumerator");

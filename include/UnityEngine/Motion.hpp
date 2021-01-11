@@ -46,8 +46,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<Motion*, creationType>()));
     }
   }; // UnityEngine.Motion
+  #pragma pack(pop)
   static check_size<sizeof(Motion), 24 + sizeof(bool)> __UnityEngine_MotionSizeCheck;
   static_assert(sizeof(Motion) == 0x19);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Motion*, "UnityEngine", "Motion");

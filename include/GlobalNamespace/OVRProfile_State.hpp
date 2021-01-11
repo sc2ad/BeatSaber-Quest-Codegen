@@ -59,9 +59,9 @@ namespace GlobalNamespace {
     // Set static field: static public OVRProfile/State ERROR
     static void _set_ERROR(GlobalNamespace::OVRProfile::State value);
   }; // OVRProfile/State
+  #pragma pack(pop)
   static check_size<sizeof(OVRProfile::State), 0 + sizeof(int)> __GlobalNamespace_OVRProfile_StateSizeCheck;
   static_assert(sizeof(OVRProfile::State) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRProfile::State, "", "OVRProfile/State");

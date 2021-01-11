@@ -297,6 +297,7 @@ namespace System::Xml {
       // Set static field: static public System.Xml.XmlWellFormedWriter/State StartRootLevelAttr
       static void _set_StartRootLevelAttr(System::Xml::XmlWellFormedWriter::State value);
     }; // System.Xml.XmlWellFormedWriter/State
+    #pragma pack(pop)
     static check_size<sizeof(XmlWellFormedWriter::State), 0 + sizeof(int)> __System_Xml_XmlWellFormedWriter_StateSizeCheck;
     static_assert(sizeof(XmlWellFormedWriter::State) == 0x4);
     // Size: 0x30
@@ -362,6 +363,7 @@ namespace System::Xml {
       // Offset: 0xCB7870
       void WriteFullEndElement(System::Xml::XmlRawWriter* rawWriter);
     }; // System.Xml.XmlWellFormedWriter/ElementScope
+    #pragma pack(pop)
     static check_size<sizeof(XmlWellFormedWriter::ElementScope), 40 + sizeof(::Il2CppString*)> __System_Xml_XmlWellFormedWriter_ElementScopeSizeCheck;
     static_assert(sizeof(XmlWellFormedWriter::ElementScope) == 0x30);
     // Size: 0x4
@@ -411,6 +413,7 @@ namespace System::Xml {
       // Set static field: static public System.Xml.XmlWellFormedWriter/NamespaceKind Special
       static void _set_Special(System::Xml::XmlWellFormedWriter::NamespaceKind value);
     }; // System.Xml.XmlWellFormedWriter/NamespaceKind
+    #pragma pack(pop)
     static check_size<sizeof(XmlWellFormedWriter::NamespaceKind), 0 + sizeof(int)> __System_Xml_XmlWellFormedWriter_NamespaceKindSizeCheck;
     static_assert(sizeof(XmlWellFormedWriter::NamespaceKind) == 0x4);
     // Size: 0x18
@@ -457,6 +460,7 @@ namespace System::Xml {
       // Offset: 0xCB79A0
       void WriteDecl(System::Xml::XmlWriter* writer, System::Xml::XmlRawWriter* rawWriter);
     }; // System.Xml.XmlWellFormedWriter/Namespace
+    #pragma pack(pop)
     static check_size<sizeof(XmlWellFormedWriter::Namespace), 20 + sizeof(int)> __System_Xml_XmlWellFormedWriter_NamespaceSizeCheck;
     static_assert(sizeof(XmlWellFormedWriter::Namespace) == 0x18);
     // Size: 0x1C
@@ -503,6 +507,7 @@ namespace System::Xml {
       // Offset: 0xCB7720
       bool IsDuplicate(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri);
     }; // System.Xml.XmlWellFormedWriter/AttrName
+    #pragma pack(pop)
     static check_size<sizeof(XmlWellFormedWriter::AttrName), 24 + sizeof(int)> __System_Xml_XmlWellFormedWriter_AttrNameSizeCheck;
     static_assert(sizeof(XmlWellFormedWriter::AttrName) == 0x1C);
     // Size: 0x4
@@ -558,6 +563,7 @@ namespace System::Xml {
       // Set static field: static public System.Xml.XmlWellFormedWriter/SpecialAttribute XmlLang
       static void _set_XmlLang(System::Xml::XmlWellFormedWriter::SpecialAttribute value);
     }; // System.Xml.XmlWellFormedWriter/SpecialAttribute
+    #pragma pack(pop)
     static check_size<sizeof(XmlWellFormedWriter::SpecialAttribute), 0 + sizeof(int)> __System_Xml_XmlWellFormedWriter_SpecialAttributeSizeCheck;
     static_assert(sizeof(XmlWellFormedWriter::SpecialAttribute) == 0x4);
     // private System.Xml.XmlWriter writer
@@ -957,10 +963,10 @@ namespace System::Xml {
     // Base method: System.Void XmlWriter::WriteBinHex(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     void WriteBinHex(::Array<uint8_t>* buffer, int index, int count);
   }; // System.Xml.XmlWellFormedWriter
+  #pragma pack(pop)
   static check_size<sizeof(XmlWellFormedWriter), 168 + sizeof(System::Xml::SecureStringHasher*)> __System_Xml_XmlWellFormedWriterSizeCheck;
   static_assert(sizeof(XmlWellFormedWriter) == 0xB0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter*, "System.Xml", "XmlWellFormedWriter");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::State, "System.Xml", "XmlWellFormedWriter/State");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::ElementScope, "System.Xml", "XmlWellFormedWriter/ElementScope");

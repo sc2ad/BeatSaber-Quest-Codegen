@@ -86,6 +86,7 @@ namespace RootMotion {
       // Set static field: static public RootMotion.Baker/Mode Realtime
       static void _set_Realtime(RootMotion::Baker::Mode value);
     }; // RootMotion.Baker/Mode
+    #pragma pack(pop)
     static check_size<sizeof(Baker::Mode), 0 + sizeof(int)> __RootMotion_Baker_ModeSizeCheck;
     static_assert(sizeof(Baker::Mode) == 0x4);
     // [TooltipAttribute] Offset: 0xDB4FB4
@@ -266,9 +267,9 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<Baker*, creationType>()));
     }
   }; // RootMotion.Baker
+  #pragma pack(pop)
   static check_size<sizeof(Baker), 112 + sizeof(float)> __RootMotion_BakerSizeCheck;
   static_assert(sizeof(Baker) == 0x74);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Baker*, "RootMotion", "Baker");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Baker::Mode, "RootMotion", "Baker/Mode");

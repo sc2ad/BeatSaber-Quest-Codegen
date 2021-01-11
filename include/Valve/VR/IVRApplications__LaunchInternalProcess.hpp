@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x136E9FC
     Valve::VR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_LaunchInternalProcess
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_LaunchInternalProcess*, "Valve.VR", "IVRApplications/_LaunchInternalProcess");

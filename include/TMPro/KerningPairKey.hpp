@@ -52,8 +52,8 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ascii_left, ascii_right);
     }
   }; // TMPro.KerningPairKey
+  #pragma pack(pop)
   static check_size<sizeof(KerningPairKey), 8 + sizeof(uint)> __TMPro_KerningPairKeySizeCheck;
   static_assert(sizeof(KerningPairKey) == 0xC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningPairKey, "TMPro", "KerningPairKey");

@@ -252,8 +252,8 @@ namespace TMPro {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // TMPro.TextContainer
+  #pragma pack(pop)
   static check_size<sizeof(TextContainer), 104 + sizeof(TMPro::TextMeshPro*)> __TMPro_TextContainerSizeCheck;
   static_assert(sizeof(TextContainer) == 0x70);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextContainer*, "TMPro", "TextContainer");

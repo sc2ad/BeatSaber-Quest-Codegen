@@ -57,8 +57,8 @@ namespace Zenject {
     // Base method: UnityEngine.GameObject SubContainerCreatorDynamicContext::CreateGameObject(out System.Boolean shouldMakeActive)
     UnityEngine::GameObject* CreateGameObject(bool& shouldMakeActive);
   }; // Zenject.SubContainerCreatorByNewGameObjectDynamicContext
+  #pragma pack(pop)
   static check_size<sizeof(SubContainerCreatorByNewGameObjectDynamicContext), 24 + sizeof(Zenject::GameObjectCreationParameters*)> __Zenject_SubContainerCreatorByNewGameObjectDynamicContextSizeCheck;
   static_assert(sizeof(SubContainerCreatorByNewGameObjectDynamicContext) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewGameObjectDynamicContext*, "Zenject", "SubContainerCreatorByNewGameObjectDynamicContext");

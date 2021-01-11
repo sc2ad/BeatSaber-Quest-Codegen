@@ -57,8 +57,8 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<ManifestBuilder::$$c__DisplayClass22_0*, creationType>()));
     }
   }; // System.Diagnostics.Tracing.ManifestBuilder/<>c__DisplayClass22_0
+  #pragma pack(pop)
   static check_size<sizeof(ManifestBuilder::$$c__DisplayClass22_0), 32 + sizeof(int)> __System_Diagnostics_Tracing_ManifestBuilder_$$c__DisplayClass22_0SizeCheck;
   static_assert(sizeof(ManifestBuilder::$$c__DisplayClass22_0) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ManifestBuilder::$$c__DisplayClass22_0*, "System.Diagnostics.Tracing", "ManifestBuilder/<>c__DisplayClass22_0");

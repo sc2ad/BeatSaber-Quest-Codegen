@@ -279,8 +279,8 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x1521038
     static void _cctor();
   }; // Mono.Globalization.Unicode.SimpleCollator
+  #pragma pack(pop)
   static check_size<sizeof(SimpleCollator), 92 + sizeof(bool)> __Mono_Globalization_Unicode_SimpleCollatorSizeCheck;
   static_assert(sizeof(SimpleCollator) == 0x5D);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator*, "Mono.Globalization.Unicode", "SimpleCollator");

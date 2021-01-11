@@ -289,6 +289,7 @@ namespace System {
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider provider)
     ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
   }; // System.Guid
+  #pragma pack(pop)
   static check_size<sizeof(Guid), 15 + sizeof(uint8_t)> __System_GuidSizeCheck;
   static_assert(sizeof(Guid) == 0x10);
   // static public System.Boolean op_Equality(System.Guid a, System.Guid b)
@@ -298,5 +299,4 @@ namespace System {
   // Offset: 0x142F794
   bool operator !=(const System::Guid& a, const System::Guid& b);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Guid, "System", "Guid");

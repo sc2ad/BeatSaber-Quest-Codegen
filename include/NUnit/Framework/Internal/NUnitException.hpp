@@ -57,6 +57,6 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<NUnitException*, creationType>(info, context)));
     }
   }; // NUnit.Framework.Internal.NUnitException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::NUnitException*, "NUnit.Framework.Internal", "NUnitException");

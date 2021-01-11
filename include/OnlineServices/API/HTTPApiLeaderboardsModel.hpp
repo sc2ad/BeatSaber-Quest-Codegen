@@ -111,8 +111,8 @@ namespace OnlineServices::API {
       return THROW_UNLESS((::il2cpp_utils::New<HTTPApiLeaderboardsModel*, creationType>()));
     }
   }; // OnlineServices.API.HTTPApiLeaderboardsModel
+  #pragma pack(pop)
   static check_size<sizeof(HTTPApiLeaderboardsModel), 16 + sizeof(OnlineServices::API::HTTPLeaderboardsOathHelper*)> __OnlineServices_API_HTTPApiLeaderboardsModelSizeCheck;
   static_assert(sizeof(HTTPApiLeaderboardsModel) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPApiLeaderboardsModel*, "OnlineServices.API", "HTTPApiLeaderboardsModel");

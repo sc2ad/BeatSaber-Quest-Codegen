@@ -29,7 +29,7 @@ namespace UnityEngine::UI {
     // Offset: 0x1566BD8
     static void DestroyImmediate(UnityEngine::Object* obj);
   }; // UnityEngine.UI.Misc
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Misc*, "UnityEngine.UI", "Misc");

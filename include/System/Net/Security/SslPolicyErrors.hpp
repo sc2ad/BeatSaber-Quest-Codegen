@@ -57,9 +57,9 @@ namespace System::Net::Security {
     // Set static field: static public System.Net.Security.SslPolicyErrors RemoteCertificateChainErrors
     static void _set_RemoteCertificateChainErrors(System::Net::Security::SslPolicyErrors value);
   }; // System.Net.Security.SslPolicyErrors
+  #pragma pack(pop)
   static check_size<sizeof(SslPolicyErrors), 0 + sizeof(int)> __System_Net_Security_SslPolicyErrorsSizeCheck;
   static_assert(sizeof(SslPolicyErrors) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::SslPolicyErrors, "System.Net.Security", "SslPolicyErrors");

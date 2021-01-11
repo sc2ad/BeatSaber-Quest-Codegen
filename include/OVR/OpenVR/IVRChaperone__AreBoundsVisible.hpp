@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     // Offset: 0x11FAC64
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperone/_AreBoundsVisible
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperone::_AreBoundsVisible*, "OVR.OpenVR", "IVRChaperone/_AreBoundsVisible");

@@ -93,6 +93,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // OVRRaycaster/RaycastHit
+    #pragma pack(pop)
     static check_size<sizeof(OVRRaycaster::RaycastHit), 20 + sizeof(bool)> __GlobalNamespace_OVRRaycaster_RaycastHitSizeCheck;
     static_assert(sizeof(OVRRaycaster::RaycastHit) == 0x15);
     // [TooltipAttribute] Offset: 0xD86D9C
@@ -203,9 +204,9 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // OVRRaycaster
+  #pragma pack(pop)
   static check_size<sizeof(OVRRaycaster), 88 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>*)> __GlobalNamespace_OVRRaycasterSizeCheck;
   static_assert(sizeof(OVRRaycaster) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster*, "", "OVRRaycaster");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster::RaycastHit, "", "OVRRaycaster/RaycastHit");

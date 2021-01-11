@@ -75,6 +75,7 @@ namespace GlobalNamespace {
       // Set static field: static public OptionsViewController/OptionsButton Settings
       static void _set_Settings(GlobalNamespace::OptionsViewController::OptionsButton value);
     }; // OptionsViewController/OptionsButton
+    #pragma pack(pop)
     static check_size<sizeof(OptionsViewController::OptionsButton), 0 + sizeof(int)> __GlobalNamespace_OptionsViewController_OptionsButtonSizeCheck;
     static_assert(sizeof(OptionsViewController::OptionsButton) == 0x4);
     // private UnityEngine.UI.Button _editAvatarButton
@@ -139,9 +140,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OptionsViewController*, creationType>()));
     }
   }; // OptionsViewController
+  #pragma pack(pop)
   static check_size<sizeof(OptionsViewController), 136 + sizeof(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>*)> __GlobalNamespace_OptionsViewControllerSizeCheck;
   static_assert(sizeof(OptionsViewController) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OptionsViewController*, "", "OptionsViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OptionsViewController::OptionsButton, "", "OptionsViewController/OptionsButton");

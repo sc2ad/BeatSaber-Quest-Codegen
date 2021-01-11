@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // NetEaseLoginController/<Start>d__3
+  #pragma pack(pop)
   static check_size<sizeof(NetEaseLoginController::$Start$d__3), 32 + sizeof(GlobalNamespace::NetEaseLoginController*)> __GlobalNamespace_NetEaseLoginController_$Start$d__3SizeCheck;
   static_assert(sizeof(NetEaseLoginController::$Start$d__3) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLoginController::$Start$d__3*, "", "NetEaseLoginController/<Start>d__3");

@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x19243C8
     bool EndInvoke(Valve::VR::EVRSettingsError& peError, System::IAsyncResult* result);
   }; // Valve.VR.IVRSettings/_GetBool
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings::_GetBool*, "Valve.VR", "IVRSettings/_GetBool");

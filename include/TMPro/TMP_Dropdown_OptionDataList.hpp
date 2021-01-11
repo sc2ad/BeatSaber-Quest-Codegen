@@ -55,8 +55,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::OptionDataList*, creationType>()));
     }
   }; // TMPro.TMP_Dropdown/OptionDataList
+  #pragma pack(pop)
   static check_size<sizeof(TMP_Dropdown::OptionDataList), 16 + sizeof(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>*)> __TMPro_TMP_Dropdown_OptionDataListSizeCheck;
   static_assert(sizeof(TMP_Dropdown::OptionDataList) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::OptionDataList*, "TMPro", "TMP_Dropdown/OptionDataList");

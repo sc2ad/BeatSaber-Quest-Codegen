@@ -69,8 +69,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SetBlocksBladeSaberGlowColor*, creationType>()));
     }
   }; // SetBlocksBladeSaberGlowColor
+  #pragma pack(pop)
   static check_size<sizeof(SetBlocksBladeSaberGlowColor), 40 + sizeof(GlobalNamespace::BlocksBlade*)> __GlobalNamespace_SetBlocksBladeSaberGlowColorSizeCheck;
   static_assert(sizeof(SetBlocksBladeSaberGlowColor) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetBlocksBladeSaberGlowColor*, "", "SetBlocksBladeSaberGlowColor");

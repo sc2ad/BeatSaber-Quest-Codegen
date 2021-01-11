@@ -59,6 +59,6 @@ namespace Valve::VR {
     // Offset: 0x18F51A4
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::ETrackingUniverseOrigin& peTrackingOrigin, Valve::VR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayTransformAbsolute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetOverlayTransformAbsolute*, "Valve.VR", "IVROverlay/_GetOverlayTransformAbsolute");

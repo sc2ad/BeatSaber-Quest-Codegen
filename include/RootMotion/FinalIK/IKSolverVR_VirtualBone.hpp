@@ -111,8 +111,8 @@ namespace RootMotion::FinalIK {
     // Offset: 0x17E6B04
     static void SolveCCD(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>* bones, UnityEngine::Vector3 targetPosition, float weight, int iterations);
   }; // RootMotion.FinalIK.IKSolverVR/VirtualBone
+  #pragma pack(pop)
   static check_size<sizeof(IKSolverVR::VirtualBone), 80 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_IKSolverVR_VirtualBoneSizeCheck;
   static_assert(sizeof(IKSolverVR::VirtualBone) == 0x5C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::VirtualBone*, "RootMotion.FinalIK", "IKSolverVR/VirtualBone");

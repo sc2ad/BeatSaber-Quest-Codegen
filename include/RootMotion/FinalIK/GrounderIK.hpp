@@ -189,8 +189,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<GrounderIK*, creationType>()));
     }
   }; // RootMotion.FinalIK.GrounderIK
+  #pragma pack(pop)
   static check_size<sizeof(GrounderIK), 160 + sizeof(UnityEngine::Rigidbody*)> __RootMotion_FinalIK_GrounderIKSizeCheck;
   static_assert(sizeof(GrounderIK) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderIK*, "RootMotion.FinalIK", "GrounderIK");

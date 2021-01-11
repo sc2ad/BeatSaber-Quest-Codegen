@@ -18,7 +18,7 @@ namespace UnityEngine::UI {
     // Offset: 0xFFFFFFFF
     void PerformClipping();
   }; // UnityEngine.UI.IClipper
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IClipper*, "UnityEngine.UI", "IClipper");

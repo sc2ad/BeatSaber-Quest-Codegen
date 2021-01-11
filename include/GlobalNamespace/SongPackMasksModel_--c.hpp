@@ -59,6 +59,6 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SongPackMasksModel::$$c*, creationType>()));
     }
   }; // SongPackMasksModel/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMasksModel::$$c*, "", "SongPackMasksModel/<>c");

@@ -71,6 +71,7 @@ namespace UnityEngine::Timeline {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // UnityEngine.Timeline.AnimationOutputWeightProcessor/WeightInfo
+    #pragma pack(pop)
     static check_size<sizeof(AnimationOutputWeightProcessor::WeightInfo), 32 + sizeof(int)> __UnityEngine_Timeline_AnimationOutputWeightProcessor_WeightInfoSizeCheck;
     static_assert(sizeof(AnimationOutputWeightProcessor::WeightInfo) == 0x24);
     // private UnityEngine.Animations.AnimationPlayableOutput m_Output
@@ -120,9 +121,9 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void ITimelineEvaluateCallback::Evaluate()
     void Evaluate();
   }; // UnityEngine.Timeline.AnimationOutputWeightProcessor
+  #pragma pack(pop)
   static check_size<sizeof(AnimationOutputWeightProcessor), 48 + sizeof(System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>*)> __UnityEngine_Timeline_AnimationOutputWeightProcessorSizeCheck;
   static_assert(sizeof(AnimationOutputWeightProcessor) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationOutputWeightProcessor*, "UnityEngine.Timeline", "AnimationOutputWeightProcessor");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo, "UnityEngine.Timeline", "AnimationOutputWeightProcessor/WeightInfo");

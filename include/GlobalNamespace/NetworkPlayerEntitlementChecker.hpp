@@ -163,8 +163,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayerEntitlementChecker*, creationType>()));
     }
   }; // NetworkPlayerEntitlementChecker
+  #pragma pack(pop)
   static check_size<sizeof(NetworkPlayerEntitlementChecker), 56 + sizeof(System::Action*)> __GlobalNamespace_NetworkPlayerEntitlementCheckerSizeCheck;
   static_assert(sizeof(NetworkPlayerEntitlementChecker) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerEntitlementChecker*, "", "NetworkPlayerEntitlementChecker");

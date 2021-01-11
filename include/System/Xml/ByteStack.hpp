@@ -57,8 +57,8 @@ namespace System::Xml {
     // Offset: 0x14DF314
     uint8_t Pop();
   }; // System.Xml.ByteStack
+  #pragma pack(pop)
   static check_size<sizeof(ByteStack), 32 + sizeof(int)> __System_Xml_ByteStackSizeCheck;
   static_assert(sizeof(ByteStack) == 0x24);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::ByteStack*, "System.Xml", "ByteStack");

@@ -38,9 +38,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EChaperoneImportFlags EChaperoneImport_BoundsOnly
     static void _set_EChaperoneImport_BoundsOnly(Valve::VR::EChaperoneImportFlags value);
   }; // Valve.VR.EChaperoneImportFlags
+  #pragma pack(pop)
   static check_size<sizeof(EChaperoneImportFlags), 0 + sizeof(int)> __Valve_VR_EChaperoneImportFlagsSizeCheck;
   static_assert(sizeof(EChaperoneImportFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EChaperoneImportFlags, "Valve.VR", "EChaperoneImportFlags");

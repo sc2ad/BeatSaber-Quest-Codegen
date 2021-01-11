@@ -83,8 +83,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4PublisherSKUSettingsSO*, creationType>()));
     }
   }; // PS4PublisherSKUSettingsSO
+  #pragma pack(pop)
   static check_size<sizeof(PS4PublisherSKUSettingsSO), 56 + sizeof(int)> __GlobalNamespace_PS4PublisherSKUSettingsSOSizeCheck;
   static_assert(sizeof(PS4PublisherSKUSettingsSO) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4PublisherSKUSettingsSO*, "", "PS4PublisherSKUSettingsSO");

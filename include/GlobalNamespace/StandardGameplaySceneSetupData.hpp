@@ -75,8 +75,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StandardGameplaySceneSetupData*, creationType>(autoRestart, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, backButtonText)));
     }
   }; // StandardGameplaySceneSetupData
+  #pragma pack(pop)
   static check_size<sizeof(StandardGameplaySceneSetupData), 48 + sizeof(::Il2CppString*)> __GlobalNamespace_StandardGameplaySceneSetupDataSizeCheck;
   static_assert(sizeof(StandardGameplaySceneSetupData) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardGameplaySceneSetupData*, "", "StandardGameplaySceneSetupData");

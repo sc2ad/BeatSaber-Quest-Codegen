@@ -92,9 +92,9 @@ namespace TMPro {
     // Set static field: static public TMPro.TextContainerAnchors Custom
     static void _set_Custom(TMPro::TextContainerAnchors value);
   }; // TMPro.TextContainerAnchors
+  #pragma pack(pop)
   static check_size<sizeof(TextContainerAnchors), 0 + sizeof(int)> __TMPro_TextContainerAnchorsSizeCheck;
   static_assert(sizeof(TextContainerAnchors) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextContainerAnchors, "TMPro", "TextContainerAnchors");

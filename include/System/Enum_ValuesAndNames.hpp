@@ -41,8 +41,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<Enum::ValuesAndNames*, creationType>(values, names)));
     }
   }; // System.Enum/ValuesAndNames
+  #pragma pack(pop)
   static check_size<sizeof(Enum::ValuesAndNames), 24 + sizeof(::Array<::Il2CppString*>*)> __System_Enum_ValuesAndNamesSizeCheck;
   static_assert(sizeof(Enum::ValuesAndNames) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Enum::ValuesAndNames*, "System", "Enum/ValuesAndNames");

@@ -63,8 +63,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<MemoryPoolSettings*, creationType>()));
     }
   }; // Zenject.MemoryPoolSettings
+  #pragma pack(pop)
   static check_size<sizeof(MemoryPoolSettings), 24 + sizeof(Zenject::PoolExpandMethods)> __Zenject_MemoryPoolSettingsSizeCheck;
   static_assert(sizeof(MemoryPoolSettings) == 0x1C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolSettings*, "Zenject", "MemoryPoolSettings");

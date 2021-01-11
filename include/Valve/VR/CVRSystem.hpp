@@ -243,8 +243,8 @@ namespace Valve::VR {
     // Offset: 0x136D2B4
     void AcknowledgeQuit_UserPrompt();
   }; // Valve.VR.CVRSystem
+  #pragma pack(pop)
   static check_size<sizeof(CVRSystem), 16 + sizeof(Valve::VR::IVRSystem)> __Valve_VR_CVRSystemSizeCheck;
   static_assert(sizeof(CVRSystem) == 0x188);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSystem*, "Valve.VR", "CVRSystem");

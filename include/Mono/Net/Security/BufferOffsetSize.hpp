@@ -68,8 +68,8 @@ namespace Mono::Net::Security {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Mono.Net.Security.BufferOffsetSize
+  #pragma pack(pop)
   static check_size<sizeof(BufferOffsetSize), 36 + sizeof(bool)> __Mono_Net_Security_BufferOffsetSizeSizeCheck;
   static_assert(sizeof(BufferOffsetSize) == 0x25);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::BufferOffsetSize*, "Mono.Net.Security", "BufferOffsetSize");

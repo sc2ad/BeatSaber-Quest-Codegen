@@ -66,8 +66,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.X509.AttCertValidityPeriod
+  #pragma pack(pop)
   static check_size<sizeof(AttCertValidityPeriod), 24 + sizeof(Org::BouncyCastle::Asn1::DerGeneralizedTime*)> __Org_BouncyCastle_Asn1_X509_AttCertValidityPeriodSizeCheck;
   static_assert(sizeof(AttCertValidityPeriod) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod*, "Org.BouncyCastle.Asn1.X509", "AttCertValidityPeriod");

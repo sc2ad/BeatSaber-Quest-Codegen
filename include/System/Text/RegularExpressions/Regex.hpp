@@ -284,8 +284,8 @@ namespace System::Text::RegularExpressions {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Text.RegularExpressions.Regex
+  #pragma pack(pop)
   static check_size<sizeof(Regex), 104 + sizeof(bool)> __System_Text_RegularExpressions_RegexSizeCheck;
   static_assert(sizeof(Regex) == 0x69);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Regex*, "System.Text.RegularExpressions", "Regex");

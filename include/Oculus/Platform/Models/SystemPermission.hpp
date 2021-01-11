@@ -45,8 +45,8 @@ namespace Oculus::Platform::Models {
       return THROW_UNLESS((::il2cpp_utils::New<SystemPermission*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.SystemPermission
+  #pragma pack(pop)
   static check_size<sizeof(SystemPermission), 20 + sizeof(Oculus::Platform::PermissionGrantStatus)> __Oculus_Platform_Models_SystemPermissionSizeCheck;
   static_assert(sizeof(SystemPermission) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::SystemPermission*, "Oculus.Platform.Models", "SystemPermission");

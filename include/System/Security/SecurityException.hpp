@@ -98,8 +98,8 @@ namespace System::Security {
     // Base method: System.String Exception::ToString()
     ::Il2CppString* ToString();
   }; // System.Security.SecurityException
+  #pragma pack(pop)
   static check_size<sizeof(SecurityException), 136 + sizeof(::Il2CppString*)> __System_Security_SecurityExceptionSizeCheck;
   static_assert(sizeof(SecurityException) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityException*, "System.Security", "SecurityException");

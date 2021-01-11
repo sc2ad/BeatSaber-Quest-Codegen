@@ -120,8 +120,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerPositionHUDController*, creationType>()));
     }
   }; // MultiplayerPositionHUDController
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerPositionHUDController), 80 + sizeof(int)> __GlobalNamespace_MultiplayerPositionHUDControllerSizeCheck;
   static_assert(sizeof(MultiplayerPositionHUDController) == 0x54);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPositionHUDController*, "", "MultiplayerPositionHUDController");

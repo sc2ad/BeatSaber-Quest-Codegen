@@ -55,8 +55,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassEffectContainerSO*, creationType>()));
     }
   }; // BloomPrePassEffectContainerSO
+  #pragma pack(pop)
   static check_size<sizeof(BloomPrePassEffectContainerSO), 24 + sizeof(GlobalNamespace::BloomPrePassEffectSO*)> __GlobalNamespace_BloomPrePassEffectContainerSOSizeCheck;
   static_assert(sizeof(BloomPrePassEffectContainerSO) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassEffectContainerSO*, "", "BloomPrePassEffectContainerSO");

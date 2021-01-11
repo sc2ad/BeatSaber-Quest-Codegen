@@ -115,6 +115,7 @@ namespace HMUI {
       // Set static field: static public HMUI.TableViewScroller/ScrollDirection Right
       static void _set_Right(HMUI::TableViewScroller::ScrollDirection value);
     }; // HMUI.TableViewScroller/ScrollDirection
+    #pragma pack(pop)
     static check_size<sizeof(TableViewScroller::ScrollDirection), 0 + sizeof(int)> __HMUI_TableViewScroller_ScrollDirectionSizeCheck;
     static_assert(sizeof(TableViewScroller::ScrollDirection) == 0x4);
     // [CompilerGeneratedAttribute] Offset: 0xDA83E0
@@ -314,9 +315,9 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<TableViewScroller*, creationType>()));
     }
   }; // HMUI.TableViewScroller
+  #pragma pack(pop)
   static check_size<sizeof(TableViewScroller), 120 + sizeof(HMUI::TableViewScroller::ScrollDirection)> __HMUI_TableViewScrollerSizeCheck;
   static_assert(sizeof(TableViewScroller) == 0x7C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableViewScroller*, "HMUI", "TableViewScroller");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableViewScroller::ScrollDirection, "HMUI", "TableViewScroller/ScrollDirection");

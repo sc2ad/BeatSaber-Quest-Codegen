@@ -75,8 +75,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MenuLightsPresetSO*, creationType>()));
     }
   }; // MenuLightsPresetSO
+  #pragma pack(pop)
   static check_size<sizeof(MenuLightsPresetSO), 40 + sizeof(::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>*)> __GlobalNamespace_MenuLightsPresetSOSizeCheck;
   static_assert(sizeof(MenuLightsPresetSO) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsPresetSO*, "", "MenuLightsPresetSO");

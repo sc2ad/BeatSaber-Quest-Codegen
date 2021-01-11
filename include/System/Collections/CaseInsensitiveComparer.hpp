@@ -73,8 +73,8 @@ namespace System::Collections {
     // Maps to method: Compare
     int System_Collections_IComparer_Compare(::Il2CppObject* a, ::Il2CppObject* b);
   }; // System.Collections.CaseInsensitiveComparer
+  #pragma pack(pop)
   static check_size<sizeof(CaseInsensitiveComparer), 16 + sizeof(System::Globalization::CompareInfo*)> __System_Collections_CaseInsensitiveComparerSizeCheck;
   static_assert(sizeof(CaseInsensitiveComparer) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CaseInsensitiveComparer*, "System.Collections", "CaseInsensitiveComparer");

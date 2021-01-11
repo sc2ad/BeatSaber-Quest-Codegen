@@ -77,8 +77,8 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<PathList*, creationType>()));
     }
   }; // System.Net.PathList
+  #pragma pack(pop)
   static check_size<sizeof(PathList), 16 + sizeof(System::Collections::SortedList*)> __System_Net_PathListSizeCheck;
   static_assert(sizeof(PathList) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::PathList*, "System.Net", "PathList");

@@ -65,8 +65,8 @@ namespace System::Net {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.IPv6AddressFormatter
+  #pragma pack(pop)
   static check_size<sizeof(IPv6AddressFormatter), 8 + sizeof(int64_t)> __System_Net_IPv6AddressFormatterSizeCheck;
   static_assert(sizeof(IPv6AddressFormatter) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPv6AddressFormatter, "System.Net", "IPv6AddressFormatter");

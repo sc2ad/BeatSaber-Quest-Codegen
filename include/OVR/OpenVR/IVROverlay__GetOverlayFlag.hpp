@@ -57,6 +57,6 @@ namespace OVR::OpenVR {
     // Offset: 0x186BCBC
     OVR::OpenVR::EVROverlayError EndInvoke(bool& pbEnabled, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayFlag
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayFlag*, "OVR.OpenVR", "IVROverlay/_GetOverlayFlag");

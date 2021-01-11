@@ -105,8 +105,8 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.ArgumentException
+  #pragma pack(pop)
   static check_size<sizeof(ArgumentException), 136 + sizeof(::Il2CppString*)> __System_ArgumentExceptionSizeCheck;
   static_assert(sizeof(ArgumentException) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::ArgumentException*, "System", "ArgumentException");

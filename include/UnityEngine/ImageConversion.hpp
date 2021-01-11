@@ -37,7 +37,7 @@ namespace UnityEngine {
     // Offset: 0x1A0D210
     static bool LoadImage(UnityEngine::Texture2D* tex, ::Array<uint8_t>* data, bool markNonReadable);
   }; // UnityEngine.ImageConversion
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ImageConversion*, "UnityEngine", "ImageConversion");

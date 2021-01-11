@@ -46,6 +46,6 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::ClassFullNameFragment*, creationType>()));
     }
   }; // NUnit.Framework.Internal.TestNameGenerator/ClassFullNameFragment
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::ClassFullNameFragment*, "NUnit.Framework.Internal", "TestNameGenerator/ClassFullNameFragment");

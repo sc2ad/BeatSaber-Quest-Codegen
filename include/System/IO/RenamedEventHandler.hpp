@@ -52,6 +52,6 @@ namespace System::IO {
     // Offset: 0x14902C4
     void EndInvoke(System::IAsyncResult* result);
   }; // System.IO.RenamedEventHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::RenamedEventHandler*, "System.IO", "RenamedEventHandler");

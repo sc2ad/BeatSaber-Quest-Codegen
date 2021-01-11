@@ -221,6 +221,7 @@ namespace TMPro {
       // Set static field: static public TMPro.TMP_InputField/ContentType Custom
       static void _set_Custom(TMPro::TMP_InputField::ContentType value);
     }; // TMPro.TMP_InputField/ContentType
+    #pragma pack(pop)
     static check_size<sizeof(TMP_InputField::ContentType), 0 + sizeof(int)> __TMPro_TMP_InputField_ContentTypeSizeCheck;
     static_assert(sizeof(TMP_InputField::ContentType) == 0x4);
     // Size: 0x4
@@ -264,6 +265,7 @@ namespace TMPro {
       // Set static field: static public TMPro.TMP_InputField/InputType Password
       static void _set_Password(TMPro::TMP_InputField::InputType value);
     }; // TMPro.TMP_InputField/InputType
+    #pragma pack(pop)
     static check_size<sizeof(TMP_InputField::InputType), 0 + sizeof(int)> __TMPro_TMP_InputField_InputTypeSizeCheck;
     static_assert(sizeof(TMP_InputField::InputType) == 0x4);
     // Size: 0x4
@@ -343,6 +345,7 @@ namespace TMPro {
       // Set static field: static public TMPro.TMP_InputField/CharacterValidation CustomValidator
       static void _set_CustomValidator(TMPro::TMP_InputField::CharacterValidation value);
     }; // TMPro.TMP_InputField/CharacterValidation
+    #pragma pack(pop)
     static check_size<sizeof(TMP_InputField::CharacterValidation), 0 + sizeof(int)> __TMPro_TMP_InputField_CharacterValidationSizeCheck;
     static_assert(sizeof(TMP_InputField::CharacterValidation) == 0x4);
     // Size: 0x4
@@ -386,6 +389,7 @@ namespace TMPro {
       // Set static field: static public TMPro.TMP_InputField/LineType MultiLineNewline
       static void _set_MultiLineNewline(TMPro::TMP_InputField::LineType value);
     }; // TMPro.TMP_InputField/LineType
+    #pragma pack(pop)
     static check_size<sizeof(TMP_InputField::LineType), 0 + sizeof(int)> __TMPro_TMP_InputField_LineTypeSizeCheck;
     static_assert(sizeof(TMP_InputField::LineType) == 0x4);
     // protected UnityEngine.TouchScreenKeyboard m_SoftKeyboard
@@ -1728,10 +1732,10 @@ namespace TMPro {
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
   }; // TMPro.TMP_InputField
+  #pragma pack(pop)
   static check_size<sizeof(TMP_InputField), 672 + sizeof(UnityEngine::Event*)> __TMPro_TMP_InputFieldSizeCheck;
   static_assert(sizeof(TMP_InputField) == 0x2A8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField*, "TMPro", "TMP_InputField");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::ContentType, "TMPro", "TMP_InputField/ContentType");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::InputType, "TMPro", "TMP_InputField/InputType");

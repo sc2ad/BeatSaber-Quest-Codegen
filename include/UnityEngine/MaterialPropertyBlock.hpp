@@ -137,8 +137,8 @@ namespace UnityEngine {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.MaterialPropertyBlock
+  #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyBlock), 16 + sizeof(System::IntPtr)> __UnityEngine_MaterialPropertyBlockSizeCheck;
   static_assert(sizeof(MaterialPropertyBlock) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MaterialPropertyBlock*, "UnityEngine", "MaterialPropertyBlock");

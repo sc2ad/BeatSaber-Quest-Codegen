@@ -77,8 +77,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlyingScoreSpawner*, creationType>()));
     }
   }; // FlyingScoreSpawner
+  #pragma pack(pop)
   static check_size<sizeof(FlyingScoreSpawner), 32 + sizeof(GlobalNamespace::FlyingScoreSpawner::InitData*)> __GlobalNamespace_FlyingScoreSpawnerSizeCheck;
   static_assert(sizeof(FlyingScoreSpawner) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreSpawner*, "", "FlyingScoreSpawner");

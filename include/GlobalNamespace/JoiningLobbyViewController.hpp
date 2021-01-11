@@ -98,8 +98,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<JoiningLobbyViewController*, creationType>()));
     }
   }; // JoiningLobbyViewController
+  #pragma pack(pop)
   static check_size<sizeof(JoiningLobbyViewController), 136 + sizeof(System::Action*)> __GlobalNamespace_JoiningLobbyViewControllerSizeCheck;
   static_assert(sizeof(JoiningLobbyViewController) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JoiningLobbyViewController*, "", "JoiningLobbyViewController");

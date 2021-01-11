@@ -215,6 +215,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Quaternion
+  #pragma pack(pop)
   static check_size<sizeof(Quaternion), 12 + sizeof(float)> __UnityEngine_QuaternionSizeCheck;
   static_assert(sizeof(Quaternion) == 0x10);
   // static public UnityEngine.Quaternion op_Multiply(UnityEngine.Quaternion lhs, UnityEngine.Quaternion rhs)
@@ -230,5 +231,4 @@ namespace UnityEngine {
   // Offset: 0x1737044
   bool operator !=(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Quaternion, "UnityEngine", "Quaternion");

@@ -120,8 +120,8 @@ namespace UnityEngine::Events {
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentCache*, creationType>()));
     }
   }; // UnityEngine.Events.ArgumentCache
+  #pragma pack(pop)
   static check_size<sizeof(ArgumentCache), 48 + sizeof(bool)> __UnityEngine_Events_ArgumentCacheSizeCheck;
   static_assert(sizeof(ArgumentCache) == 0x31);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::ArgumentCache*, "UnityEngine.Events", "ArgumentCache");

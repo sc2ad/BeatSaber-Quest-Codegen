@@ -215,6 +215,6 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<Component*, creationType>()));
     }
   }; // UnityEngine.Component
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Component*, "UnityEngine", "Component");

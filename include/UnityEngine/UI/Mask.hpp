@@ -142,8 +142,8 @@ namespace UnityEngine::UI {
     // Base method: UnityEngine.Material IMaterialModifier::GetModifiedMaterial(UnityEngine.Material baseMaterial)
     UnityEngine::Material* GetModifiedMaterial(UnityEngine::Material* baseMaterial);
   }; // UnityEngine.UI.Mask
+  #pragma pack(pop)
   static check_size<sizeof(Mask), 56 + sizeof(UnityEngine::Material*)> __UnityEngine_UI_MaskSizeCheck;
   static_assert(sizeof(Mask) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Mask*, "UnityEngine.UI", "Mask");

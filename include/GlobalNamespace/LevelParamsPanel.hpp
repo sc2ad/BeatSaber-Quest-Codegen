@@ -80,8 +80,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelParamsPanel*, creationType>()));
     }
   }; // LevelParamsPanel
+  #pragma pack(pop)
   static check_size<sizeof(LevelParamsPanel), 48 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_LevelParamsPanelSizeCheck;
   static_assert(sizeof(LevelParamsPanel) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelParamsPanel*, "", "LevelParamsPanel");

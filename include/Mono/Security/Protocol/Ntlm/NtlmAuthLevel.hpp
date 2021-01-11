@@ -56,9 +56,9 @@ namespace Mono::Security::Protocol::Ntlm {
     // Set static field: static public Mono.Security.Protocol.Ntlm.NtlmAuthLevel NTLMv2_only
     static void _set_NTLMv2_only(Mono::Security::Protocol::Ntlm::NtlmAuthLevel value);
   }; // Mono.Security.Protocol.Ntlm.NtlmAuthLevel
+  #pragma pack(pop)
   static check_size<sizeof(NtlmAuthLevel), 0 + sizeof(int)> __Mono_Security_Protocol_Ntlm_NtlmAuthLevelSizeCheck;
   static_assert(sizeof(NtlmAuthLevel) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::NtlmAuthLevel, "Mono.Security.Protocol.Ntlm", "NtlmAuthLevel");

@@ -20,7 +20,7 @@ namespace UnityEngine::Analytics {
     // Creating value type constructor for type: ContinuousEvent
     ContinuousEvent() noexcept {}
   }; // UnityEngine.Analytics.ContinuousEvent
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Analytics::ContinuousEvent*, "UnityEngine.Analytics", "ContinuousEvent");

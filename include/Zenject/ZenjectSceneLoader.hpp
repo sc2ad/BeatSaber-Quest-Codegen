@@ -131,8 +131,8 @@ namespace Zenject {
     // Offset: 0x19D37B8
     UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode, System::Action_1<Zenject::DiContainer*>* extraBindingsLate);
   }; // Zenject.ZenjectSceneLoader
+  #pragma pack(pop)
   static check_size<sizeof(ZenjectSceneLoader), 24 + sizeof(Zenject::DiContainer*)> __Zenject_ZenjectSceneLoaderSizeCheck;
   static_assert(sizeof(ZenjectSceneLoader) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSceneLoader*, "Zenject", "ZenjectSceneLoader");

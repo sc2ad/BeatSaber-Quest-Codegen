@@ -56,8 +56,8 @@ namespace UnityEngine::TestTools::Utils {
     // Base method: System.Reflection.Assembly IAssemblyWrapper::get_Assembly()
     System::Reflection::Assembly* get_Assembly();
   }; // UnityEngine.TestTools.Utils.AssemblyWrapper
+  #pragma pack(pop)
   static check_size<sizeof(AssemblyWrapper), 16 + sizeof(System::Reflection::Assembly*)> __UnityEngine_TestTools_Utils_AssemblyWrapperSizeCheck;
   static_assert(sizeof(AssemblyWrapper) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::AssemblyWrapper*, "UnityEngine.TestTools.Utils", "AssemblyWrapper");

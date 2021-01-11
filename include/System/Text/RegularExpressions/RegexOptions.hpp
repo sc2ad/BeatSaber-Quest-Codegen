@@ -93,9 +93,9 @@ namespace System::Text::RegularExpressions {
     // Set static field: static public System.Text.RegularExpressions.RegexOptions CultureInvariant
     static void _set_CultureInvariant(System::Text::RegularExpressions::RegexOptions value);
   }; // System.Text.RegularExpressions.RegexOptions
+  #pragma pack(pop)
   static check_size<sizeof(RegexOptions), 0 + sizeof(int)> __System_Text_RegularExpressions_RegexOptionsSizeCheck;
   static_assert(sizeof(RegexOptions) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexOptions, "System.Text.RegularExpressions", "RegexOptions");

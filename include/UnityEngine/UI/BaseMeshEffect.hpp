@@ -93,8 +93,8 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<BaseMeshEffect*, creationType>()));
     }
   }; // UnityEngine.UI.BaseMeshEffect
+  #pragma pack(pop)
   static check_size<sizeof(BaseMeshEffect), 24 + sizeof(UnityEngine::UI::Graphic*)> __UnityEngine_UI_BaseMeshEffectSizeCheck;
   static_assert(sizeof(BaseMeshEffect) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::BaseMeshEffect*, "UnityEngine.UI", "BaseMeshEffect");

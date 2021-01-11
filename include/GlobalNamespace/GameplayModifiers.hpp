@@ -90,6 +90,7 @@ namespace GlobalNamespace {
       // Set static field: static public GameplayModifiers/EnabledObstacleType NoObstacles
       static void _set_NoObstacles(GlobalNamespace::GameplayModifiers::EnabledObstacleType value);
     }; // GameplayModifiers/EnabledObstacleType
+    #pragma pack(pop)
     static check_size<sizeof(GameplayModifiers::EnabledObstacleType), 0 + sizeof(int)> __GlobalNamespace_GameplayModifiers_EnabledObstacleTypeSizeCheck;
     static_assert(sizeof(GameplayModifiers::EnabledObstacleType) == 0x4);
     // Size: 0x4
@@ -127,6 +128,7 @@ namespace GlobalNamespace {
       // Set static field: static public GameplayModifiers/EnergyType Battery
       static void _set_Battery(GlobalNamespace::GameplayModifiers::EnergyType value);
     }; // GameplayModifiers/EnergyType
+    #pragma pack(pop)
     static check_size<sizeof(GameplayModifiers::EnergyType), 0 + sizeof(int)> __GlobalNamespace_GameplayModifiers_EnergyTypeSizeCheck;
     static_assert(sizeof(GameplayModifiers::EnergyType) == 0x4);
     // Size: 0x4
@@ -170,6 +172,7 @@ namespace GlobalNamespace {
       // Set static field: static public GameplayModifiers/SongSpeed Slower
       static void _set_Slower(GlobalNamespace::GameplayModifiers::SongSpeed value);
     }; // GameplayModifiers/SongSpeed
+    #pragma pack(pop)
     static check_size<sizeof(GameplayModifiers::SongSpeed), 0 + sizeof(int)> __GlobalNamespace_GameplayModifiers_SongSpeedSizeCheck;
     static_assert(sizeof(GameplayModifiers::SongSpeed) == 0x4);
     // private GameplayModifiers/EnergyType _energyType
@@ -345,10 +348,10 @@ namespace GlobalNamespace {
     // Base method: T INetImmutableSerializable_1::CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     GlobalNamespace::GameplayModifiers* LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
   }; // GameplayModifiers
+  #pragma pack(pop)
   static check_size<sizeof(GameplayModifiers), 40 + sizeof(bool)> __GlobalNamespace_GameplayModifiersSizeCheck;
   static_assert(sizeof(GameplayModifiers) == 0x29);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers*, "", "GameplayModifiers");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers::EnabledObstacleType, "", "GameplayModifiers/EnabledObstacleType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers::EnergyType, "", "GameplayModifiers/EnergyType");

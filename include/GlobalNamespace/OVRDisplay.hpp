@@ -88,6 +88,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // OVRDisplay/EyeFov
+    #pragma pack(pop)
     static check_size<sizeof(OVRDisplay::EyeFov), 12 + sizeof(float)> __GlobalNamespace_OVRDisplay_EyeFovSizeCheck;
     static_assert(sizeof(OVRDisplay::EyeFov) == 0x10);
     // Size: 0x20
@@ -122,6 +123,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
     }; // OVRDisplay/EyeRenderDesc
+    #pragma pack(pop)
     static check_size<sizeof(OVRDisplay::EyeRenderDesc), 16 + sizeof(GlobalNamespace::OVRDisplay::EyeFov)> __GlobalNamespace_OVRDisplay_EyeRenderDescSizeCheck;
     static_assert(sizeof(OVRDisplay::EyeRenderDesc) == 0x20);
     // private System.Boolean needsConfigureTexture
@@ -234,10 +236,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRDisplay*, creationType>()));
     }
   }; // OVRDisplay
+  #pragma pack(pop)
   static check_size<sizeof(OVRDisplay), 72 + sizeof(System::Action*)> __GlobalNamespace_OVRDisplaySizeCheck;
   static_assert(sizeof(OVRDisplay) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay*, "", "OVRDisplay");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeFov, "", "OVRDisplay/EyeFov");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeRenderDesc, "", "OVRDisplay/EyeRenderDesc");

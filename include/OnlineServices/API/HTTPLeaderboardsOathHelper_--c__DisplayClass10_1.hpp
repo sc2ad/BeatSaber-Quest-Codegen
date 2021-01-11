@@ -60,8 +60,8 @@ namespace OnlineServices::API {
       return THROW_UNLESS((::il2cpp_utils::New<HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*, creationType>()));
     }
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper/<>c__DisplayClass10_1
+  #pragma pack(pop)
   static check_size<sizeof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1), 24 + sizeof(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0*)> __OnlineServices_API_HTTPLeaderboardsOathHelper_$$c__DisplayClass10_1SizeCheck;
   static_assert(sizeof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<>c__DisplayClass10_1");

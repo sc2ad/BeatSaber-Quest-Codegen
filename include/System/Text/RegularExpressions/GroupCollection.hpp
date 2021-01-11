@@ -115,8 +115,8 @@ namespace System::Text::RegularExpressions {
       return THROW_UNLESS((::il2cpp_utils::New<GroupCollection*, creationType>()));
     }
   }; // System.Text.RegularExpressions.GroupCollection
+  #pragma pack(pop)
   static check_size<sizeof(GroupCollection), 32 + sizeof(::Array<System::Text::RegularExpressions::Group*>*)> __System_Text_RegularExpressions_GroupCollectionSizeCheck;
   static_assert(sizeof(GroupCollection) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::GroupCollection*, "System.Text.RegularExpressions", "GroupCollection");

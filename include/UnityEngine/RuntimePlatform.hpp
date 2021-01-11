@@ -259,9 +259,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RuntimePlatform Stadia
     static void _set_Stadia(UnityEngine::RuntimePlatform value);
   }; // UnityEngine.RuntimePlatform
+  #pragma pack(pop)
   static check_size<sizeof(RuntimePlatform), 0 + sizeof(int)> __UnityEngine_RuntimePlatformSizeCheck;
   static_assert(sizeof(RuntimePlatform) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RuntimePlatform, "UnityEngine", "RuntimePlatform");

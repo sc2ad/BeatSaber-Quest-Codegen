@@ -82,8 +82,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerEnvironmentResizeController::ResizeData*, creationType>()));
     }
   }; // MultiplayerEnvironmentResizeController/ResizeData
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerEnvironmentResizeController::ResizeData), 32 + sizeof(::Array<UnityEngine::Transform*>*)> __GlobalNamespace_MultiplayerEnvironmentResizeController_ResizeDataSizeCheck;
   static_assert(sizeof(MultiplayerEnvironmentResizeController::ResizeData) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*, "", "MultiplayerEnvironmentResizeController/ResizeData");

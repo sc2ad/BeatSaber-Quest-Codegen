@@ -117,8 +117,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SmallBufferPool*, creationType>()));
     }
   }; // SmallBufferPool
+  #pragma pack(pop)
   static check_size<sizeof(SmallBufferPool), 40 + sizeof(System::Collections::Generic::List_1<::Array<uint8_t>*>*)> __GlobalNamespace_SmallBufferPoolSizeCheck;
   static_assert(sizeof(SmallBufferPool) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmallBufferPool*, "", "SmallBufferPool");

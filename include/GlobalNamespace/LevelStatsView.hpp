@@ -75,8 +75,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelStatsView*, creationType>()));
     }
   }; // LevelStatsView
+  #pragma pack(pop)
   static check_size<sizeof(LevelStatsView), 40 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_LevelStatsViewSizeCheck;
   static_assert(sizeof(LevelStatsView) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelStatsView*, "", "LevelStatsView");

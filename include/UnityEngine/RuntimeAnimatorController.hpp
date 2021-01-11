@@ -45,6 +45,6 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeAnimatorController*, creationType>()));
     }
   }; // UnityEngine.RuntimeAnimatorController
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RuntimeAnimatorController*, "UnityEngine", "RuntimeAnimatorController");

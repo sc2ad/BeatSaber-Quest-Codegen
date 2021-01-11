@@ -30,7 +30,7 @@ namespace UnityEngine::U2D {
     // Offset: 0x16C8E60
     bool CanBindTo(UnityEngine::Sprite* sprite);
   }; // UnityEngine.U2D.SpriteAtlas
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteAtlas*, "UnityEngine.U2D", "SpriteAtlas");

@@ -53,9 +53,9 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.MatchmakingStatApproach Swingy
     static void _set_Swingy(Oculus::Platform::MatchmakingStatApproach value);
   }; // Oculus.Platform.MatchmakingStatApproach
+  #pragma pack(pop)
   static check_size<sizeof(MatchmakingStatApproach), 0 + sizeof(int)> __Oculus_Platform_MatchmakingStatApproachSizeCheck;
   static_assert(sizeof(MatchmakingStatApproach) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MatchmakingStatApproach, "Oculus.Platform", "MatchmakingStatApproach");

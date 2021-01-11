@@ -71,6 +71,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRHeadsetEmulator/OpMode AlwaysOn
       static void _set_AlwaysOn(GlobalNamespace::OVRHeadsetEmulator::OpMode value);
     }; // OVRHeadsetEmulator/OpMode
+    #pragma pack(pop)
     static check_size<sizeof(OVRHeadsetEmulator::OpMode), 0 + sizeof(int)> __GlobalNamespace_OVRHeadsetEmulator_OpModeSizeCheck;
     static_assert(sizeof(OVRHeadsetEmulator::OpMode) == 0x4);
     // public OVRHeadsetEmulator/OpMode opMode
@@ -203,9 +204,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRHeadsetEmulator*, creationType>()));
     }
   }; // OVRHeadsetEmulator
+  #pragma pack(pop)
   static check_size<sizeof(OVRHeadsetEmulator), 85 + sizeof(bool)> __GlobalNamespace_OVRHeadsetEmulatorSizeCheck;
   static_assert(sizeof(OVRHeadsetEmulator) == 0x56);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHeadsetEmulator*, "", "OVRHeadsetEmulator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHeadsetEmulator::OpMode, "", "OVRHeadsetEmulator/OpMode");

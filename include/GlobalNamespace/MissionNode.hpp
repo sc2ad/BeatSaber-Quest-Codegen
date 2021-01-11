@@ -120,8 +120,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionNode*, creationType>()));
     }
   }; // MissionNode
+  #pragma pack(pop)
   static check_size<sizeof(MissionNode), 64 + sizeof(::Array<GlobalNamespace::MissionNode*>*)> __GlobalNamespace_MissionNodeSizeCheck;
   static_assert(sizeof(MissionNode) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNode*, "", "MissionNode");

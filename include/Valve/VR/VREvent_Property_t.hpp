@@ -37,9 +37,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.VREvent_Property_t
+  #pragma pack(pop)
   static check_size<sizeof(VREvent_Property_t), 8 + sizeof(Valve::VR::ETrackedDeviceProperty)> __Valve_VR_VREvent_Property_tSizeCheck;
   static_assert(sizeof(VREvent_Property_t) == 0xC);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Property_t, "Valve.VR", "VREvent_Property_t");

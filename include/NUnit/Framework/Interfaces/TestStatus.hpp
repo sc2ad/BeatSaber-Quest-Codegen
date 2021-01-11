@@ -56,9 +56,9 @@ namespace NUnit::Framework::Interfaces {
     // Set static field: static public NUnit.Framework.Interfaces.TestStatus Failed
     static void _set_Failed(NUnit::Framework::Interfaces::TestStatus value);
   }; // NUnit.Framework.Interfaces.TestStatus
+  #pragma pack(pop)
   static check_size<sizeof(TestStatus), 0 + sizeof(int)> __NUnit_Framework_Interfaces_TestStatusSizeCheck;
   static_assert(sizeof(TestStatus) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TestStatus, "NUnit.Framework.Interfaces", "TestStatus");

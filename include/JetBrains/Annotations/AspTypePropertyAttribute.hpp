@@ -47,8 +47,8 @@ namespace JetBrains::Annotations {
       return THROW_UNLESS((::il2cpp_utils::New<AspTypePropertyAttribute*, creationType>(createConstructorReferences)));
     }
   }; // JetBrains.Annotations.AspTypePropertyAttribute
+  #pragma pack(pop)
   static check_size<sizeof(AspTypePropertyAttribute), 16 + sizeof(bool)> __JetBrains_Annotations_AspTypePropertyAttributeSizeCheck;
   static_assert(sizeof(AspTypePropertyAttribute) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspTypePropertyAttribute*, "JetBrains.Annotations", "AspTypePropertyAttribute");

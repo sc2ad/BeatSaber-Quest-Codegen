@@ -66,6 +66,6 @@ namespace Mono::Security::X509 {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Mono.Security.X509.X509CertificateCollection
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509CertificateCollection*, "Mono.Security.X509", "X509CertificateCollection");

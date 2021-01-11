@@ -101,8 +101,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerOptionsViewController*, creationType>()));
     }
   }; // PlayerOptionsViewController
+  #pragma pack(pop)
   static check_size<sizeof(PlayerOptionsViewController), 136 + sizeof(System::Action_1<HMUI::ViewController*>*)> __GlobalNamespace_PlayerOptionsViewControllerSizeCheck;
   static_assert(sizeof(PlayerOptionsViewController) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerOptionsViewController*, "", "PlayerOptionsViewController");

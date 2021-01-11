@@ -422,8 +422,8 @@ namespace System::Globalization {
     // Base method: System.Object IFormatProvider::GetFormat(System.Type formatType)
     ::Il2CppObject* GetFormat(System::Type* formatType);
   }; // System.Globalization.NumberFormatInfo
+  #pragma pack(pop)
   static check_size<sizeof(NumberFormatInfo), 212 + sizeof(bool)> __System_Globalization_NumberFormatInfoSizeCheck;
   static_assert(sizeof(NumberFormatInfo) == 0xD5);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::NumberFormatInfo*, "System.Globalization", "NumberFormatInfo");

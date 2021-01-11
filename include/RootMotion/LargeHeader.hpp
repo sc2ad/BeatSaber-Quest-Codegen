@@ -48,8 +48,8 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<LargeHeader*, creationType>(name, color)));
     }
   }; // RootMotion.LargeHeader
+  #pragma pack(pop)
   static check_size<sizeof(LargeHeader), 24 + sizeof(::Il2CppString*)> __RootMotion_LargeHeaderSizeCheck;
   static_assert(sizeof(LargeHeader) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::LargeHeader*, "RootMotion", "LargeHeader");

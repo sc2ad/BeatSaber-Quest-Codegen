@@ -45,7 +45,7 @@ namespace System::Runtime::Remoting::Services {
     // Offset: 0x133B09C
     static void _cctor();
   }; // System.Runtime.Remoting.Services.TrackingServices
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Services::TrackingServices*, "System.Runtime.Remoting.Services", "TrackingServices");

@@ -132,8 +132,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlickeringNeonSign*, creationType>()));
     }
   }; // FlickeringNeonSign
+  #pragma pack(pop)
   static check_size<sizeof(FlickeringNeonSign), 96 + sizeof(UnityEngine::Material*)> __GlobalNamespace_FlickeringNeonSignSizeCheck;
   static_assert(sizeof(FlickeringNeonSign) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlickeringNeonSign*, "", "FlickeringNeonSign");

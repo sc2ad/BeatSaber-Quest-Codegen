@@ -45,9 +45,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // OVRPlugin/Frustumf2
+  #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Frustumf2), 8 + sizeof(GlobalNamespace::OVRPlugin::Fovf)> __GlobalNamespace_OVRPlugin_Frustumf2SizeCheck;
   static_assert(sizeof(OVRPlugin::Frustumf2) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Frustumf2, "", "OVRPlugin/Frustumf2");

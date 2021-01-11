@@ -94,6 +94,6 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ConcreteBinderNonGeneric*, creationType>(bindContainer, bindInfo, bindStatement)));
     }
   }; // Zenject.ConcreteBinderNonGeneric
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConcreteBinderNonGeneric*, "Zenject", "ConcreteBinderNonGeneric");

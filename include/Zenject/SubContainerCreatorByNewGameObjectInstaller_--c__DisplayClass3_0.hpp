@@ -62,8 +62,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByNewGameObjectInstaller::$$c__DisplayClass3_0*, creationType>()));
     }
   }; // Zenject.SubContainerCreatorByNewGameObjectInstaller/<>c__DisplayClass3_0
+  #pragma pack(pop)
   static check_size<sizeof(SubContainerCreatorByNewGameObjectInstaller::$$c__DisplayClass3_0), 24 + sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*)> __Zenject_SubContainerCreatorByNewGameObjectInstaller_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(SubContainerCreatorByNewGameObjectInstaller::$$c__DisplayClass3_0) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewGameObjectInstaller::$$c__DisplayClass3_0*, "Zenject", "SubContainerCreatorByNewGameObjectInstaller/<>c__DisplayClass3_0");

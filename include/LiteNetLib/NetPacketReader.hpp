@@ -69,8 +69,8 @@ namespace LiteNetLib {
     // Offset: 0x1DCD838
     void Recycle();
   }; // LiteNetLib.NetPacketReader
+  #pragma pack(pop)
   static check_size<sizeof(NetPacketReader), 56 + sizeof(LiteNetLib::NetEvent*)> __LiteNetLib_NetPacketReaderSizeCheck;
   static_assert(sizeof(NetPacketReader) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketReader*, "LiteNetLib", "NetPacketReader");

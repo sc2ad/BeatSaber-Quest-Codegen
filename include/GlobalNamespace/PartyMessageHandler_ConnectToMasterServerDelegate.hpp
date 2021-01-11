@@ -63,6 +63,6 @@ namespace GlobalNamespace {
     // Offset: 0x1E528A8
     void EndInvoke(System::IAsyncResult* result);
   }; // PartyMessageHandler/ConnectToMasterServerDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*, "", "PartyMessageHandler/ConnectToMasterServerDelegate");

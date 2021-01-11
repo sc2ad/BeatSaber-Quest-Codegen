@@ -110,8 +110,8 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void RuntimeElement::Reset()
     void Reset();
   }; // UnityEngine.Timeline.RuntimeClip
+  #pragma pack(pop)
   static check_size<sizeof(RuntimeClip), 48 + sizeof(UnityEngine::Playables::Playable)> __UnityEngine_Timeline_RuntimeClipSizeCheck;
   static_assert(sizeof(RuntimeClip) == 0x3C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeClip*, "UnityEngine.Timeline", "RuntimeClip");

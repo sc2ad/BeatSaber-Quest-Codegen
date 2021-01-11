@@ -309,7 +309,7 @@ namespace UnityEngine {
     // Offset: 0x199DEB8
     static int GetArrayLength(System::IntPtr array);
   }; // UnityEngine.AndroidJNISafe
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJNISafe*, "UnityEngine", "AndroidJNISafe");

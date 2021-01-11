@@ -59,6 +59,6 @@ namespace Valve::VR {
     // Offset: 0x136B760
     bool EndInvoke(Valve::VR::VRControllerState_t_Packed& pControllerState, Valve::VR::RenderModel_ControllerMode_State_t& pState, Valve::VR::RenderModel_ComponentState_t& pComponentState, System::IAsyncResult* result);
   }; // Valve.VR.CVRRenderModels/_GetComponentStatePacked
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRRenderModels::_GetComponentStatePacked*, "Valve.VR", "CVRRenderModels/_GetComponentStatePacked");

@@ -56,8 +56,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VFXAnimationEvents::VFXAnimationEvent*, creationType>()));
     }
   }; // VFXAnimationEvents/VFXAnimationEvent
+  #pragma pack(pop)
   static check_size<sizeof(VFXAnimationEvents::VFXAnimationEvent), 24 + sizeof(::Array<UnityEngine::ParticleSystem*>*)> __GlobalNamespace_VFXAnimationEvents_VFXAnimationEventSizeCheck;
   static_assert(sizeof(VFXAnimationEvents::VFXAnimationEvent) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*, "", "VFXAnimationEvents/VFXAnimationEvent");

@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x136F354
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_CommitWorkingCopy
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperoneSetup::_CommitWorkingCopy*, "Valve.VR", "IVRChaperoneSetup/_CommitWorkingCopy");

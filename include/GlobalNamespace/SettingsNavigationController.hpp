@@ -81,6 +81,7 @@ namespace GlobalNamespace {
       // Set static field: static public SettingsNavigationController/FinishAction Apply
       static void _set_Apply(GlobalNamespace::SettingsNavigationController::FinishAction value);
     }; // SettingsNavigationController/FinishAction
+    #pragma pack(pop)
     static check_size<sizeof(SettingsNavigationController::FinishAction), 0 + sizeof(int)> __GlobalNamespace_SettingsNavigationController_FinishActionSizeCheck;
     static_assert(sizeof(SettingsNavigationController::FinishAction) == 0x4);
     // private UnityEngine.UI.Button _okButton
@@ -150,9 +151,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SettingsNavigationController*, creationType>()));
     }
   }; // SettingsNavigationController
+  #pragma pack(pop)
   static check_size<sizeof(SettingsNavigationController), 176 + sizeof(System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>*)> __GlobalNamespace_SettingsNavigationControllerSizeCheck;
   static_assert(sizeof(SettingsNavigationController) == 0xB8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsNavigationController*, "", "SettingsNavigationController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsNavigationController::FinishAction, "", "SettingsNavigationController/FinishAction");

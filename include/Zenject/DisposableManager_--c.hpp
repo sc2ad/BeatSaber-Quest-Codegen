@@ -85,6 +85,6 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<DisposableManager::$$c*, creationType>()));
     }
   }; // Zenject.DisposableManager/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::$$c*, "Zenject", "DisposableManager/<>c");

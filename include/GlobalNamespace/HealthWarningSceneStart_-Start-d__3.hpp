@@ -84,8 +84,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // HealthWarningSceneStart/<Start>d__3
+  #pragma pack(pop)
   static check_size<sizeof(HealthWarningSceneStart::$Start$d__3), 32 + sizeof(GlobalNamespace::HealthWarningSceneStart*)> __GlobalNamespace_HealthWarningSceneStart_$Start$d__3SizeCheck;
   static_assert(sizeof(HealthWarningSceneStart::$Start$d__3) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningSceneStart::$Start$d__3*, "", "HealthWarningSceneStart/<Start>d__3");

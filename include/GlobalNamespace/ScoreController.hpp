@@ -407,8 +407,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ScoreController*, creationType>()));
     }
   }; // ScoreController
+  #pragma pack(pop)
   static check_size<sizeof(ScoreController), 216 + sizeof(float)> __GlobalNamespace_ScoreControllerSizeCheck;
   static_assert(sizeof(ScoreController) == 0xDC);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreController*, "", "ScoreController");

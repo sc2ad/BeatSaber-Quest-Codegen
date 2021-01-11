@@ -82,8 +82,8 @@ namespace GlobalNamespace {
     // Base method: System.Void ITime::MoveTime(System.Single offset)
     void MoveTime(float offset);
   }; // BeatmapSaveData/WaypointData
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::WaypointData), 28 + sizeof(GlobalNamespace::OffsetDirection)> __GlobalNamespace_BeatmapSaveData_WaypointDataSizeCheck;
   static_assert(sizeof(BeatmapSaveData::WaypointData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::WaypointData*, "", "BeatmapSaveData/WaypointData");

@@ -209,6 +209,6 @@ namespace UnityEngine {
     // Offset: 0x168FCCC
     void GetColorImpl_Injected(int name, UnityEngine::Color& ret);
   }; // UnityEngine.Material
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Material*, "UnityEngine", "Material");

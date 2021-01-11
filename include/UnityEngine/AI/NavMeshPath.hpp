@@ -84,8 +84,8 @@ namespace UnityEngine::AI {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.AI.NavMeshPath
+  #pragma pack(pop)
   static check_size<sizeof(NavMeshPath), 24 + sizeof(::Array<UnityEngine::Vector3>*)> __UnityEngine_AI_NavMeshPathSizeCheck;
   static_assert(sizeof(NavMeshPath) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshPath*, "UnityEngine.AI", "NavMeshPath");

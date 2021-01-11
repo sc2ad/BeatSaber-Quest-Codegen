@@ -248,8 +248,8 @@ namespace Zenject {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Zenject.InjectContext
+  #pragma pack(pop)
   static check_size<sizeof(InjectContext), 88 + sizeof(Zenject::DiContainer*)> __Zenject_InjectContextSizeCheck;
   static_assert(sizeof(InjectContext) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectContext*, "Zenject", "InjectContext");

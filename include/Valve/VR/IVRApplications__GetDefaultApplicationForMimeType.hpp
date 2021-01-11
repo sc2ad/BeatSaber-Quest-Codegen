@@ -55,6 +55,6 @@ namespace Valve::VR {
     // Offset: 0x136E564
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_GetDefaultApplicationForMimeType
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_GetDefaultApplicationForMimeType*, "Valve.VR", "IVRApplications/_GetDefaultApplicationForMimeType");

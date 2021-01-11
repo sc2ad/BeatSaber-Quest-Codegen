@@ -41,8 +41,8 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<WaitForSeconds*, creationType>(seconds)));
     }
   }; // UnityEngine.WaitForSeconds
+  #pragma pack(pop)
   static check_size<sizeof(WaitForSeconds), 16 + sizeof(float)> __UnityEngine_WaitForSecondsSizeCheck;
   static_assert(sizeof(WaitForSeconds) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSeconds*, "UnityEngine", "WaitForSeconds");

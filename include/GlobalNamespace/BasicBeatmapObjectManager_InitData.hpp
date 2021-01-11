@@ -41,8 +41,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BasicBeatmapObjectManager::InitData*, creationType>(disappearingArrows, ghostNotes)));
     }
   }; // BasicBeatmapObjectManager/InitData
+  #pragma pack(pop)
   static check_size<sizeof(BasicBeatmapObjectManager::InitData), 17 + sizeof(bool)> __GlobalNamespace_BasicBeatmapObjectManager_InitDataSizeCheck;
   static_assert(sizeof(BasicBeatmapObjectManager::InitData) == 0x12);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicBeatmapObjectManager::InitData*, "", "BasicBeatmapObjectManager/InitData");

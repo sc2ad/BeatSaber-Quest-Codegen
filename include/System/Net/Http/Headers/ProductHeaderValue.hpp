@@ -102,8 +102,8 @@ namespace System::Net::Http::Headers {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.ProductHeaderValue
+  #pragma pack(pop)
   static check_size<sizeof(ProductHeaderValue), 24 + sizeof(::Il2CppString*)> __System_Net_Http_Headers_ProductHeaderValueSizeCheck;
   static_assert(sizeof(ProductHeaderValue) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ProductHeaderValue*, "System.Net.Http.Headers", "ProductHeaderValue");

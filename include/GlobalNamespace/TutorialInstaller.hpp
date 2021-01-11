@@ -91,8 +91,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TutorialInstaller*, creationType>()));
     }
   }; // TutorialInstaller
+  #pragma pack(pop)
   static check_size<sizeof(TutorialInstaller), 64 + sizeof(GlobalNamespace::EffectPoolsManualInstaller*)> __GlobalNamespace_TutorialInstallerSizeCheck;
   static_assert(sizeof(TutorialInstaller) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialInstaller*, "", "TutorialInstaller");

@@ -92,9 +92,9 @@ namespace System {
     // Set static field: static public System.TypeNameFormatFlags FormatSerialization
     static void _set_FormatSerialization(System::TypeNameFormatFlags value);
   }; // System.TypeNameFormatFlags
+  #pragma pack(pop)
   static check_size<sizeof(TypeNameFormatFlags), 0 + sizeof(int)> __System_TypeNameFormatFlagsSizeCheck;
   static_assert(sizeof(TypeNameFormatFlags) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypeNameFormatFlags, "System", "TypeNameFormatFlags");

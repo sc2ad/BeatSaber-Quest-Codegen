@@ -174,8 +174,8 @@ namespace System::Security::Principal {
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Security.Principal.WindowsIdentity
+  #pragma pack(pop)
   static check_size<sizeof(WindowsIdentity), 152 + sizeof(System::Runtime::Serialization::SerializationInfo*)> __System_Security_Principal_WindowsIdentitySizeCheck;
   static_assert(sizeof(WindowsIdentity) == 0xA0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsIdentity*, "System.Security.Principal", "WindowsIdentity");

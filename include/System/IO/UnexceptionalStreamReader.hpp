@@ -85,6 +85,6 @@ namespace System::IO {
     // Base method: System.String StreamReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();
   }; // System.IO.UnexceptionalStreamReader
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::UnexceptionalStreamReader*, "System.IO", "UnexceptionalStreamReader");

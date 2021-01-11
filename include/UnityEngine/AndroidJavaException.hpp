@@ -44,8 +44,8 @@ namespace UnityEngine {
     // Base method: System.String Exception::get_StackTrace()
     ::Il2CppString* get_StackTrace();
   }; // UnityEngine.AndroidJavaException
+  #pragma pack(pop)
   static check_size<sizeof(AndroidJavaException), 136 + sizeof(::Il2CppString*)> __UnityEngine_AndroidJavaExceptionSizeCheck;
   static_assert(sizeof(AndroidJavaException) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaException*, "UnityEngine", "AndroidJavaException");

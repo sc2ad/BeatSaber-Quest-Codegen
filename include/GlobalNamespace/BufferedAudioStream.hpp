@@ -107,8 +107,8 @@ namespace GlobalNamespace {
     // Offset: 0x189C674
     void AddData(::Array<float>* samples);
   }; // BufferedAudioStream
+  #pragma pack(pop)
   static check_size<sizeof(BufferedAudioStream), 40 + sizeof(float)> __GlobalNamespace_BufferedAudioStreamSizeCheck;
   static_assert(sizeof(BufferedAudioStream) == 0x2C);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BufferedAudioStream*, "", "BufferedAudioStream");

@@ -100,8 +100,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return THROW_UNLESS((::il2cpp_utils::New<BinaryMethodReturn*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryMethodReturn
+  #pragma pack(pop)
   static check_size<sizeof(BinaryMethodReturn), 56 + sizeof(System::Type*)> __System_Runtime_Serialization_Formatters_Binary_BinaryMethodReturnSizeCheck;
   static_assert(sizeof(BinaryMethodReturn) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodReturn");

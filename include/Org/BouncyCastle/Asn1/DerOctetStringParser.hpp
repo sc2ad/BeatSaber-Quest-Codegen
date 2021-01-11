@@ -67,8 +67,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: Org.BouncyCastle.Asn1.Asn1Object IAsn1Convertible::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.DerOctetStringParser
+  #pragma pack(pop)
   static check_size<sizeof(DerOctetStringParser), 16 + sizeof(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)> __Org_BouncyCastle_Asn1_DerOctetStringParserSizeCheck;
   static_assert(sizeof(DerOctetStringParser) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerOctetStringParser*, "Org.BouncyCastle.Asn1", "DerOctetStringParser");

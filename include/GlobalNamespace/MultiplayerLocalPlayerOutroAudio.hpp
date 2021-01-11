@@ -116,8 +116,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalPlayerOutroAudio*, creationType>()));
     }
   }; // MultiplayerLocalPlayerOutroAudio
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalPlayerOutroAudio), 48 + sizeof(Tweening::FloatTween*)> __GlobalNamespace_MultiplayerLocalPlayerOutroAudioSizeCheck;
   static_assert(sizeof(MultiplayerLocalPlayerOutroAudio) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerOutroAudio*, "", "MultiplayerLocalPlayerOutroAudio");

@@ -70,6 +70,6 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataLoader::$$c*, creationType>()));
     }
   }; // BeatmapDataLoader/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataLoader::$$c*, "", "BeatmapDataLoader/<>c");

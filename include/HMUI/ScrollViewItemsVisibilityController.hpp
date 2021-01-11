@@ -137,8 +137,8 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ScrollViewItemsVisibilityController*, creationType>()));
     }
   }; // HMUI.ScrollViewItemsVisibilityController
+  #pragma pack(pop)
   static check_size<sizeof(ScrollViewItemsVisibilityController), 92 + sizeof(float)> __HMUI_ScrollViewItemsVisibilityControllerSizeCheck;
   static_assert(sizeof(ScrollViewItemsVisibilityController) == 0x60);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemsVisibilityController*, "HMUI", "ScrollViewItemsVisibilityController");

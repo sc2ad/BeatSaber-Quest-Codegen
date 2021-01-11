@@ -153,9 +153,9 @@ namespace System {
     // Offset: 0xCA41F0
     void Clear();
   }; // System.Variant
+  #pragma pack(pop)
   static check_size<sizeof(Variant), 8 + sizeof(System::BRECORD)> __System_VariantSizeCheck;
   static_assert(sizeof(Variant) == 0x18);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Variant, "System", "Variant");

@@ -114,8 +114,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDifficultySegmentedControlController*, creationType>()));
     }
   }; // BeatmapDifficultySegmentedControlController
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapDifficultySegmentedControlController), 48 + sizeof(GlobalNamespace::BeatmapDifficulty)> __GlobalNamespace_BeatmapDifficultySegmentedControlControllerSizeCheck;
   static_assert(sizeof(BeatmapDifficultySegmentedControlController) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultySegmentedControlController*, "", "BeatmapDifficultySegmentedControlController");

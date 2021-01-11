@@ -34,6 +34,6 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<ExtensionOfNativeClassAttribute*, creationType>()));
     }
   }; // UnityEngine.ExtensionOfNativeClassAttribute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ExtensionOfNativeClassAttribute*, "UnityEngine", "ExtensionOfNativeClassAttribute");

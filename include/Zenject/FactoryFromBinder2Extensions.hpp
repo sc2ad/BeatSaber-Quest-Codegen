@@ -145,6 +145,6 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<Zenject::ArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, fromBinder, poolBindGenerator);
     }
   }; // Zenject.FactoryFromBinder2Extensions
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinder2Extensions*, "Zenject", "FactoryFromBinder2Extensions");

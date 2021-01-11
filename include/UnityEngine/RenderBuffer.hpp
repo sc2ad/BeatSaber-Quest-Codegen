@@ -40,9 +40,9 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // UnityEngine.RenderBuffer
+  #pragma pack(pop)
   static check_size<sizeof(RenderBuffer), 8 + sizeof(System::IntPtr)> __UnityEngine_RenderBufferSizeCheck;
   static_assert(sizeof(RenderBuffer) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderBuffer, "UnityEngine", "RenderBuffer");

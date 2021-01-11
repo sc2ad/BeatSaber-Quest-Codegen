@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // Set static field: static public BeatmapSaveData/BeatmapObjectType Obstacle
     static void _set_Obstacle(GlobalNamespace::BeatmapSaveData::BeatmapObjectType value);
   }; // BeatmapSaveData/BeatmapObjectType
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::BeatmapObjectType), 0 + sizeof(int)> __GlobalNamespace_BeatmapSaveData_BeatmapObjectTypeSizeCheck;
   static_assert(sizeof(BeatmapSaveData::BeatmapObjectType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::BeatmapObjectType, "", "BeatmapSaveData/BeatmapObjectType");

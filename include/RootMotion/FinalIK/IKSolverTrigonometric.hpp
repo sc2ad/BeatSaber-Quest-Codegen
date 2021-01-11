@@ -181,8 +181,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverTrigonometric*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolverTrigonometric
+  #pragma pack(pop)
   static check_size<sizeof(IKSolverTrigonometric), 164 + sizeof(bool)> __RootMotion_FinalIK_IKSolverTrigonometricSizeCheck;
   static_assert(sizeof(IKSolverTrigonometric) == 0xA5);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverTrigonometric*, "RootMotion.FinalIK", "IKSolverTrigonometric");

@@ -107,8 +107,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemLightWithId*, creationType>()));
     }
   }; // ParticleSystemLightWithId
+  #pragma pack(pop)
   static check_size<sizeof(ParticleSystemLightWithId), 80 + sizeof(::Array<UnityEngine::ParticleSystem::Particle>*)> __GlobalNamespace_ParticleSystemLightWithIdSizeCheck;
   static_assert(sizeof(ParticleSystemLightWithId) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParticleSystemLightWithId*, "", "ParticleSystemLightWithId");

@@ -116,8 +116,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CampaignProgressModel*, creationType>()));
     }
   }; // CampaignProgressModel
+  #pragma pack(pop)
   static check_size<sizeof(CampaignProgressModel), 52 + sizeof(int)> __GlobalNamespace_CampaignProgressModelSizeCheck;
   static_assert(sizeof(CampaignProgressModel) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignProgressModel*, "", "CampaignProgressModel");

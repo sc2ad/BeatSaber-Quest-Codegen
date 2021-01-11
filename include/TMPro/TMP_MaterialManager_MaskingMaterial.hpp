@@ -62,8 +62,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_MaterialManager::MaskingMaterial*, creationType>()));
     }
   }; // TMPro.TMP_MaterialManager/MaskingMaterial
+  #pragma pack(pop)
   static check_size<sizeof(TMP_MaterialManager::MaskingMaterial), 36 + sizeof(int)> __TMPro_TMP_MaterialManager_MaskingMaterialSizeCheck;
   static_assert(sizeof(TMP_MaterialManager::MaskingMaterial) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager::MaskingMaterial*, "TMPro", "TMP_MaterialManager/MaskingMaterial");

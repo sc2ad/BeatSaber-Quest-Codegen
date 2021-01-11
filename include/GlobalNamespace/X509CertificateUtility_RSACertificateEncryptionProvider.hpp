@@ -70,8 +70,8 @@ namespace GlobalNamespace {
     // Base method: System.Byte[] ICertificateEncryptionProvider::SignData(System.Byte[] data, System.Int32 offset, System.Int32 length)
     ::Array<uint8_t>* SignData(::Array<uint8_t>* data, int offset, int length);
   }; // X509CertificateUtility/RSACertificateEncryptionProvider
+  #pragma pack(pop)
   static check_size<sizeof(X509CertificateUtility::RSACertificateEncryptionProvider), 16 + sizeof(Org::BouncyCastle::Crypto::ISigner*)> __GlobalNamespace_X509CertificateUtility_RSACertificateEncryptionProviderSizeCheck;
   static_assert(sizeof(X509CertificateUtility::RSACertificateEncryptionProvider) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider*, "", "X509CertificateUtility/RSACertificateEncryptionProvider");

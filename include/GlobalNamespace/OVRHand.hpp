@@ -90,6 +90,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRHand/Hand HandRight
       static void _set_HandRight(GlobalNamespace::OVRHand::Hand value);
     }; // OVRHand/Hand
+    #pragma pack(pop)
     static check_size<sizeof(OVRHand::Hand), 0 + sizeof(int)> __GlobalNamespace_OVRHand_HandSizeCheck;
     static_assert(sizeof(OVRHand::Hand) == 0x4);
     // Size: 0x4
@@ -127,6 +128,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRHand/TrackingConfidence High
       static void _set_High(GlobalNamespace::OVRHand::TrackingConfidence value);
     }; // OVRHand/TrackingConfidence
+    #pragma pack(pop)
     static check_size<sizeof(OVRHand::TrackingConfidence), 0 + sizeof(int)> __GlobalNamespace_OVRHand_TrackingConfidenceSizeCheck;
     static_assert(sizeof(OVRHand::TrackingConfidence) == 0x4);
     // private OVRHand/Hand HandType
@@ -341,10 +343,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRHand*, creationType>()));
     }
   }; // OVRHand
+  #pragma pack(pop)
   static check_size<sizeof(OVRHand), 188 + sizeof(GlobalNamespace::OVRHand::TrackingConfidence)> __GlobalNamespace_OVRHandSizeCheck;
   static_assert(sizeof(OVRHand) == 0xC0);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand*, "", "OVRHand");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand::Hand, "", "OVRHand/Hand");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand::TrackingConfidence, "", "OVRHand/TrackingConfidence");

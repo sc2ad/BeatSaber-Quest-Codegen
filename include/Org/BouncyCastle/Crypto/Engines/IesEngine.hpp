@@ -117,8 +117,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Offset: 0x17D3D6C
     ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* input, int inOff, int inLen);
   }; // Org.BouncyCastle.Crypto.Engines.IesEngine
+  #pragma pack(pop)
   static check_size<sizeof(IesEngine), 80 + sizeof(Org::BouncyCastle::Crypto::Parameters::IesParameters*)> __Org_BouncyCastle_Crypto_Engines_IesEngineSizeCheck;
   static_assert(sizeof(IesEngine) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::IesEngine*, "Org.BouncyCastle.Crypto.Engines", "IesEngine");

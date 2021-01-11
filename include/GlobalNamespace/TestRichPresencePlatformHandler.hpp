@@ -52,6 +52,6 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TestRichPresencePlatformHandler*, creationType>()));
     }
   }; // TestRichPresencePlatformHandler
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestRichPresencePlatformHandler*, "", "TestRichPresencePlatformHandler");

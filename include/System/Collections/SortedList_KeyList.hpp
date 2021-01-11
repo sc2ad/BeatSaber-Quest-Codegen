@@ -162,8 +162,8 @@ namespace System::Collections {
     // Maps to method: RemoveAt
     void System_Collections_IList_RemoveAt(int index);
   }; // System.Collections.SortedList/KeyList
+  #pragma pack(pop)
   static check_size<sizeof(SortedList::KeyList), 16 + sizeof(System::Collections::SortedList*)> __System_Collections_SortedList_KeyListSizeCheck;
   static_assert(sizeof(SortedList::KeyList) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::KeyList*, "System.Collections", "SortedList/KeyList");

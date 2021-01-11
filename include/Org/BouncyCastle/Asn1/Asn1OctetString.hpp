@@ -86,8 +86,8 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.Asn1OctetString
+  #pragma pack(pop)
   static check_size<sizeof(Asn1OctetString), 16 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Asn1_Asn1OctetStringSizeCheck;
   static_assert(sizeof(Asn1OctetString) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1OctetString*, "Org.BouncyCastle.Asn1", "Asn1OctetString");

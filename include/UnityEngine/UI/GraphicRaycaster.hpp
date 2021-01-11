@@ -106,6 +106,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.GraphicRaycaster/BlockingObjects All
       static void _set_All(UnityEngine::UI::GraphicRaycaster::BlockingObjects value);
     }; // UnityEngine.UI.GraphicRaycaster/BlockingObjects
+    #pragma pack(pop)
     static check_size<sizeof(GraphicRaycaster::BlockingObjects), 0 + sizeof(int)> __UnityEngine_UI_GraphicRaycaster_BlockingObjectsSizeCheck;
     static_assert(sizeof(GraphicRaycaster::BlockingObjects) == 0x4);
     // [FormerlySerializedAsAttribute] Offset: 0xD7E254
@@ -215,9 +216,9 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.UI.GraphicRaycaster
+  #pragma pack(pop)
   static check_size<sizeof(GraphicRaycaster), 56 + sizeof(System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>*)> __UnityEngine_UI_GraphicRaycasterSizeCheck;
   static_assert(sizeof(GraphicRaycaster) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster*, "UnityEngine.UI", "GraphicRaycaster");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster::BlockingObjects, "UnityEngine.UI", "GraphicRaycaster/BlockingObjects");

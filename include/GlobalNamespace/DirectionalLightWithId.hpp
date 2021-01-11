@@ -73,8 +73,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DirectionalLightWithId*, creationType>()));
     }
   }; // DirectionalLightWithId
+  #pragma pack(pop)
   static check_size<sizeof(DirectionalLightWithId), 60 + sizeof(float)> __GlobalNamespace_DirectionalLightWithIdSizeCheck;
   static_assert(sizeof(DirectionalLightWithId) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLightWithId*, "", "DirectionalLightWithId");

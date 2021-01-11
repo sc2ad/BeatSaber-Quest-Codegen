@@ -60,8 +60,8 @@ namespace JetBrains::Annotations {
       return THROW_UNLESS((::il2cpp_utils::New<UsedImplicitlyAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.UsedImplicitlyAttribute
+  #pragma pack(pop)
   static check_size<sizeof(UsedImplicitlyAttribute), 20 + sizeof(JetBrains::Annotations::ImplicitUseTargetFlags)> __JetBrains_Annotations_UsedImplicitlyAttributeSizeCheck;
   static_assert(sizeof(UsedImplicitlyAttribute) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::UsedImplicitlyAttribute*, "JetBrains.Annotations", "UsedImplicitlyAttribute");

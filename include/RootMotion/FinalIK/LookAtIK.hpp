@@ -77,8 +77,8 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<LookAtIK*, creationType>()));
     }
   }; // RootMotion.FinalIK.LookAtIK
+  #pragma pack(pop)
   static check_size<sizeof(LookAtIK), 56 + sizeof(RootMotion::FinalIK::IKSolverLookAt*)> __RootMotion_FinalIK_LookAtIKSizeCheck;
   static_assert(sizeof(LookAtIK) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LookAtIK*, "RootMotion.FinalIK", "LookAtIK");

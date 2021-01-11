@@ -96,8 +96,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyValuesSetter*, creationType>()));
     }
   }; // MaterialPropertyValuesSetter
+  #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyValuesSetter), 56 + sizeof(::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>*)> __GlobalNamespace_MaterialPropertyValuesSetterSizeCheck;
   static_assert(sizeof(MaterialPropertyValuesSetter) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter*, "", "MaterialPropertyValuesSetter");

@@ -128,6 +128,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.ProBuilder.SceneSelection
+  #pragma pack(pop)
   static check_size<sizeof(SceneSelection), 48 + sizeof(UnityEngine::ProBuilder::Face*)> __UnityEngine_ProBuilder_SceneSelectionSizeCheck;
   static_assert(sizeof(SceneSelection) == 0x38);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.SceneSelection left, UnityEngine.ProBuilder.SceneSelection right)
@@ -137,5 +138,4 @@ namespace UnityEngine::ProBuilder {
   // Offset: 0x13C6078
   bool operator !=(UnityEngine::ProBuilder::SceneSelection* left, UnityEngine::ProBuilder::SceneSelection& right);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SceneSelection*, "UnityEngine.ProBuilder", "SceneSelection");

@@ -59,8 +59,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SpawnRotationProcessor*, creationType>()));
     }
   }; // SpawnRotationProcessor
+  #pragma pack(pop)
   static check_size<sizeof(SpawnRotationProcessor), 24 + sizeof(::Array<float>*)> __GlobalNamespace_SpawnRotationProcessorSizeCheck;
   static_assert(sizeof(SpawnRotationProcessor) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationProcessor*, "", "SpawnRotationProcessor");

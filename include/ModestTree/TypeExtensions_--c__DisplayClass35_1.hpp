@@ -54,8 +54,8 @@ namespace ModestTree {
       return THROW_UNLESS((::il2cpp_utils::New<TypeExtensions::$$c__DisplayClass35_1*, creationType>()));
     }
   }; // ModestTree.TypeExtensions/<>c__DisplayClass35_1
+  #pragma pack(pop)
   static check_size<sizeof(TypeExtensions::$$c__DisplayClass35_1), 16 + sizeof(System::Attribute*)> __ModestTree_TypeExtensions_$$c__DisplayClass35_1SizeCheck;
   static_assert(sizeof(TypeExtensions::$$c__DisplayClass35_1) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions::$$c__DisplayClass35_1*, "ModestTree", "TypeExtensions/<>c__DisplayClass35_1");

@@ -170,8 +170,8 @@ namespace System::Collections {
     // Base method: System.Void SortedList::RemoveAt(System.Int32 index)
     void RemoveAt(int index);
   }; // System.Collections.SortedList/SyncSortedList
+  #pragma pack(pop)
   static check_size<sizeof(SortedList::SyncSortedList), 80 + sizeof(::Il2CppObject*)> __System_Collections_SortedList_SyncSortedListSizeCheck;
   static_assert(sizeof(SortedList::SyncSortedList) == 0x58);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::SyncSortedList*, "System.Collections", "SortedList/SyncSortedList");

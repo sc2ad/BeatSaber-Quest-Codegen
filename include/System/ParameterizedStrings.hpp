@@ -76,6 +76,7 @@ namespace System {
       // Offset: 0xCA6ADC
       ::Il2CppObject* get_Object();
     }; // System.ParameterizedStrings/FormatParam
+    #pragma pack(pop)
     static check_size<sizeof(ParameterizedStrings::FormatParam), 8 + sizeof(::Il2CppString*)> __System_ParameterizedStrings_FormatParamSizeCheck;
     static_assert(sizeof(ParameterizedStrings::FormatParam) == 0x10);
     // Creating value type constructor for type: ParameterizedStrings
@@ -120,8 +121,8 @@ namespace System {
     // Offset: 0x171C828
     static ::Array<System::ParameterizedStrings::FormatParam>* GetDynamicOrStaticVariables(::Il2CppChar c, ::Array<System::ParameterizedStrings::FormatParam>*& dynamicVars, ::Array<System::ParameterizedStrings::FormatParam>*& staticVars, int& index);
   }; // System.ParameterizedStrings
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings*, "System", "ParameterizedStrings");
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::FormatParam, "System", "ParameterizedStrings/FormatParam");

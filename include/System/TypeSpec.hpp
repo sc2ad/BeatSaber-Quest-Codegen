@@ -149,8 +149,8 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<TypeSpec*, creationType>()));
     }
   }; // System.TypeSpec
+  #pragma pack(pop)
   static check_size<sizeof(TypeSpec), 64 + sizeof(::Il2CppString*)> __System_TypeSpecSizeCheck;
   static_assert(sizeof(TypeSpec) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::TypeSpec*, "System", "TypeSpec");

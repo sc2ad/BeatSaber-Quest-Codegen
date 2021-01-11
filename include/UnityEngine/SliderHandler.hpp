@@ -193,8 +193,8 @@ namespace UnityEngine {
     // Offset: 0xCA3290
     float MinValue();
   }; // UnityEngine.SliderHandler
+  #pragma pack(pop)
   static check_size<sizeof(SliderHandler), 60 + sizeof(int)> __UnityEngine_SliderHandlerSizeCheck;
   static_assert(sizeof(SliderHandler) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SliderHandler, "UnityEngine", "SliderHandler");

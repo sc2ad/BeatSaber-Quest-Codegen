@@ -155,8 +155,8 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<CanvasUpdateRegistry*, creationType>()));
     }
   }; // UnityEngine.UI.CanvasUpdateRegistry
+  #pragma pack(pop)
   static check_size<sizeof(CanvasUpdateRegistry), 40 + sizeof(UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::ICanvasElement*>*)> __UnityEngine_UI_CanvasUpdateRegistrySizeCheck;
   static_assert(sizeof(CanvasUpdateRegistry) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasUpdateRegistry*, "UnityEngine.UI", "CanvasUpdateRegistry");

@@ -95,7 +95,7 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_Output();
   }; // NUnit.Framework.Interfaces.ITestResult
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestResult*, "NUnit.Framework.Interfaces", "ITestResult");

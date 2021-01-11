@@ -75,9 +75,9 @@ namespace Microsoft::Win32 {
     // Set static field: static public Microsoft.Win32.RegistryHive Users
     static void _set_Users(Microsoft::Win32::RegistryHive value);
   }; // Microsoft.Win32.RegistryHive
+  #pragma pack(pop)
   static check_size<sizeof(RegistryHive), 0 + sizeof(int)> __Microsoft_Win32_RegistryHiveSizeCheck;
   static_assert(sizeof(RegistryHive) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryHive, "Microsoft.Win32", "RegistryHive");

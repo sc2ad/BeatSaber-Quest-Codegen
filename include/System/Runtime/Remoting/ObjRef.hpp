@@ -187,8 +187,8 @@ namespace System::Runtime::Remoting {
     // Maps to method: GetRealObject
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
   }; // System.Runtime.Remoting.ObjRef
+  #pragma pack(pop)
   static check_size<sizeof(ObjRef), 56 + sizeof(System::Type*)> __System_Runtime_Remoting_ObjRefSizeCheck;
   static_assert(sizeof(ObjRef) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ObjRef*, "System.Runtime.Remoting", "ObjRef");

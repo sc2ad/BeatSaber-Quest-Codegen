@@ -118,8 +118,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerTransforms*, creationType>()));
     }
   }; // PlayerTransforms
+  #pragma pack(pop)
   static check_size<sizeof(PlayerTransforms), 88 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_PlayerTransformsSizeCheck;
   static_assert(sizeof(PlayerTransforms) == 0x68);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerTransforms*, "", "PlayerTransforms");

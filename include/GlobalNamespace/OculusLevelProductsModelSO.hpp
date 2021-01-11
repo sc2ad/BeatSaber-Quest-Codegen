@@ -92,8 +92,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusLevelProductsModelSO*, creationType>()));
     }
   }; // OculusLevelProductsModelSO
+  #pragma pack(pop)
   static check_size<sizeof(OculusLevelProductsModelSO), 48 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)> __GlobalNamespace_OculusLevelProductsModelSOSizeCheck;
   static_assert(sizeof(OculusLevelProductsModelSO) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusLevelProductsModelSO*, "", "OculusLevelProductsModelSO");

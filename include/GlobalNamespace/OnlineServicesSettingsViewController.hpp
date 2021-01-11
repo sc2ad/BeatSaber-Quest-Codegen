@@ -80,8 +80,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OnlineServicesSettingsViewController*, creationType>()));
     }
   }; // OnlineServicesSettingsViewController
+  #pragma pack(pop)
   static check_size<sizeof(OnlineServicesSettingsViewController), 128 + sizeof(HMUI::ToggleBinder*)> __GlobalNamespace_OnlineServicesSettingsViewControllerSizeCheck;
   static_assert(sizeof(OnlineServicesSettingsViewController) == 0x88);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnlineServicesSettingsViewController*, "", "OnlineServicesSettingsViewController");

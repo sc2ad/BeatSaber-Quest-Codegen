@@ -64,8 +64,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteTrailParticleSystem*, creationType>()));
     }
   }; // NoteTrailParticleSystem
+  #pragma pack(pop)
   static check_size<sizeof(NoteTrailParticleSystem), 32 + sizeof(UnityEngine::ParticleSystem::EmitParams)> __GlobalNamespace_NoteTrailParticleSystemSizeCheck;
   static_assert(sizeof(NoteTrailParticleSystem) == 0xAF);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteTrailParticleSystem*, "", "NoteTrailParticleSystem");

@@ -58,8 +58,8 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ConventionAssemblySelectionBinder::$$c__DisplayClass12_0*, creationType>()));
     }
   }; // Zenject.ConventionAssemblySelectionBinder/<>c__DisplayClass12_0
+  #pragma pack(pop)
   static check_size<sizeof(ConventionAssemblySelectionBinder::$$c__DisplayClass12_0), 16 + sizeof(System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>*)> __Zenject_ConventionAssemblySelectionBinder_$$c__DisplayClass12_0SizeCheck;
   static_assert(sizeof(ConventionAssemblySelectionBinder::$$c__DisplayClass12_0) == 0x18);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0*, "Zenject", "ConventionAssemblySelectionBinder/<>c__DisplayClass12_0");

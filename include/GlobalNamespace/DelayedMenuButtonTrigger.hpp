@@ -103,8 +103,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DelayedMenuButtonTrigger*, creationType>()));
     }
   }; // DelayedMenuButtonTrigger
+  #pragma pack(pop)
   static check_size<sizeof(DelayedMenuButtonTrigger), 40 + sizeof(GlobalNamespace::VRControllersInputManager*)> __GlobalNamespace_DelayedMenuButtonTriggerSizeCheck;
   static_assert(sizeof(DelayedMenuButtonTrigger) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DelayedMenuButtonTrigger*, "", "DelayedMenuButtonTrigger");

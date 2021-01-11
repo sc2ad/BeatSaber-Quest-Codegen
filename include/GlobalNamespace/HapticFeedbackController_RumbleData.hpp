@@ -63,8 +63,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HapticFeedbackController::RumbleData*, creationType>()));
     }
   }; // HapticFeedbackController/RumbleData
+  #pragma pack(pop)
   static check_size<sizeof(HapticFeedbackController::RumbleData), 28 + sizeof(float)> __GlobalNamespace_HapticFeedbackController_RumbleDataSizeCheck;
   static_assert(sizeof(HapticFeedbackController::RumbleData) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HapticFeedbackController::RumbleData*, "", "HapticFeedbackController/RumbleData");

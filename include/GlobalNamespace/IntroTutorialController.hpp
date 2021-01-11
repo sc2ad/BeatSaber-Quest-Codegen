@@ -176,8 +176,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<IntroTutorialController*, creationType>()));
     }
   }; // IntroTutorialController
+  #pragma pack(pop)
   static check_size<sizeof(IntroTutorialController), 98 + sizeof(bool)> __GlobalNamespace_IntroTutorialControllerSizeCheck;
   static_assert(sizeof(IntroTutorialController) == 0x63);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialController*, "", "IntroTutorialController");

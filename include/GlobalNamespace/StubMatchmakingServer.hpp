@@ -229,8 +229,8 @@ namespace GlobalNamespace {
     // Base method: System.Void INetworkPlayer::SendInviteResponse(System.Boolean accept)
     void SendInviteResponse(bool accept);
   }; // StubMatchmakingServer
+  #pragma pack(pop)
   static check_size<sizeof(StubMatchmakingServer), 48 + sizeof(::Il2CppString*)> __GlobalNamespace_StubMatchmakingServerSizeCheck;
   static_assert(sizeof(StubMatchmakingServer) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StubMatchmakingServer*, "", "StubMatchmakingServer");

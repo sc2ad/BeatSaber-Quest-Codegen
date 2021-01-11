@@ -138,8 +138,8 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<HorizontalOrVerticalLayoutGroup*, creationType>()));
     }
   }; // UnityEngine.UI.HorizontalOrVerticalLayoutGroup
+  #pragma pack(pop)
   static check_size<sizeof(HorizontalOrVerticalLayoutGroup), 97 + sizeof(bool)> __UnityEngine_UI_HorizontalOrVerticalLayoutGroupSizeCheck;
   static_assert(sizeof(HorizontalOrVerticalLayoutGroup) == 0x62);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*, "UnityEngine.UI", "HorizontalOrVerticalLayoutGroup");

@@ -73,8 +73,8 @@ namespace RootMotion::FinalIK {
     // Offset: 0x15E8870
     void Calculate();
   }; // RootMotion.FinalIK.RotationLimitPolygonal/ReachCone
+  #pragma pack(pop)
   static check_size<sizeof(RotationLimitPolygonal::ReachCone), 40 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_RotationLimitPolygonal_ReachConeSizeCheck;
   static_assert(sizeof(RotationLimitPolygonal::ReachCone) == 0x34);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*, "RootMotion.FinalIK", "RotationLimitPolygonal/ReachCone");

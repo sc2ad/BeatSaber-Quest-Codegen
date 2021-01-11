@@ -75,9 +75,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.VRControllerState_t
+  #pragma pack(pop)
   static check_size<sizeof(VRControllerState_t), 56 + sizeof(Valve::VR::VRControllerAxis_t)> __Valve_VR_VRControllerState_tSizeCheck;
   static_assert(sizeof(VRControllerState_t) == 0x40);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRControllerState_t, "Valve.VR", "VRControllerState_t");

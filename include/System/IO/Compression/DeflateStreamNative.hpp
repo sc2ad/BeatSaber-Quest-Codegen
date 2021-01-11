@@ -139,8 +139,8 @@ namespace System::IO::Compression {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.IO.Compression.DeflateStreamNative
+  #pragma pack(pop)
   static check_size<sizeof(DeflateStreamNative), 48 + sizeof(::Array<uint8_t>*)> __System_IO_Compression_DeflateStreamNativeSizeCheck;
   static_assert(sizeof(DeflateStreamNative) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative*, "System.IO.Compression", "DeflateStreamNative");

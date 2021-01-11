@@ -169,9 +169,9 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // Valve.VR.Compositor_FrameTiming
+  #pragma pack(pop)
   static check_size<sizeof(Compositor_FrameTiming), 96 + sizeof(Valve::VR::TrackedDevicePose_t)> __Valve_VR_Compositor_FrameTimingSizeCheck;
   static_assert(sizeof(Compositor_FrameTiming) == 0xAE);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Compositor_FrameTiming, "Valve.VR", "Compositor_FrameTiming");

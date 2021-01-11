@@ -49,6 +49,6 @@ namespace HMUI {
     // Offset: 0x198215C
     void EndInvoke(System::IAsyncResult* result);
   }; // HMUI.ViewController/DidDeactivateDelegate
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::DidDeactivateDelegate*, "HMUI", "ViewController/DidDeactivateDelegate");

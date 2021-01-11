@@ -65,8 +65,8 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13DD1EC
     bool get_IsUnsetOrDefault();
   }; // NUnit.Framework.Constraints.Tolerance
+  #pragma pack(pop)
   static check_size<sizeof(Tolerance), 24 + sizeof(::Il2CppObject*)> __NUnit_Framework_Constraints_ToleranceSizeCheck;
   static_assert(sizeof(Tolerance) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Tolerance*, "NUnit.Framework.Constraints", "Tolerance");

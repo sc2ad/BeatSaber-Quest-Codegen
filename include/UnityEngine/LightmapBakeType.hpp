@@ -51,9 +51,9 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.LightmapBakeType Mixed
     static void _set_Mixed(UnityEngine::LightmapBakeType value);
   }; // UnityEngine.LightmapBakeType
+  #pragma pack(pop)
   static check_size<sizeof(LightmapBakeType), 0 + sizeof(int)> __UnityEngine_LightmapBakeTypeSizeCheck;
   static_assert(sizeof(LightmapBakeType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightmapBakeType, "UnityEngine", "LightmapBakeType");

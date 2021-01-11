@@ -47,8 +47,8 @@ namespace System::Globalization {
       return THROW_UNLESS((::il2cpp_utils::New<TokenHashValue*, creationType>(tokenString, tokenType, tokenValue)));
     }
   }; // System.Globalization.TokenHashValue
+  #pragma pack(pop)
   static check_size<sizeof(TokenHashValue), 28 + sizeof(int)> __System_Globalization_TokenHashValueSizeCheck;
   static_assert(sizeof(TokenHashValue) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TokenHashValue*, "System.Globalization", "TokenHashValue");

@@ -68,8 +68,8 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_FontFeatureTable*, creationType>()));
     }
   }; // TMPro.TMP_FontFeatureTable
+  #pragma pack(pop)
   static check_size<sizeof(TMP_FontFeatureTable), 24 + sizeof(System::Collections::Generic::Dictionary_2<int64_t, TMPro::TMP_GlyphPairAdjustmentRecord*>*)> __TMPro_TMP_FontFeatureTableSizeCheck;
   static_assert(sizeof(TMP_FontFeatureTable) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontFeatureTable*, "TMPro", "TMP_FontFeatureTable");

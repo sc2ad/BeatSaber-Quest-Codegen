@@ -85,8 +85,8 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<SHA1Internal*, creationType>()));
     }
   }; // System.Security.Cryptography.SHA1Internal
+  #pragma pack(pop)
   static check_size<sizeof(SHA1Internal), 48 + sizeof(::Array<uint>*)> __System_Security_Cryptography_SHA1InternalSizeCheck;
   static_assert(sizeof(SHA1Internal) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA1Internal*, "System.Security.Cryptography", "SHA1Internal");

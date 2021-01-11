@@ -73,7 +73,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x13925A0
     static bool Triangulate(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points, System::Collections::Generic::IList_1<System::Collections::Generic::IList_1<UnityEngine::Vector2>*>* holes, System::Collections::Generic::List_1<int>*& indexes);
   }; // UnityEngine.ProBuilder.MeshOperations.Triangulation
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Triangulation*, "UnityEngine.ProBuilder.MeshOperations", "Triangulation");

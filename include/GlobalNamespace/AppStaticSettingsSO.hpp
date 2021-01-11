@@ -53,8 +53,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AppStaticSettingsSO*, creationType>()));
     }
   }; // AppStaticSettingsSO
+  #pragma pack(pop)
   static check_size<sizeof(AppStaticSettingsSO), 26 + sizeof(bool)> __GlobalNamespace_AppStaticSettingsSOSizeCheck;
   static_assert(sizeof(AppStaticSettingsSO) == 0x1B);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppStaticSettingsSO*, "", "AppStaticSettingsSO");

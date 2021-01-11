@@ -110,8 +110,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkDiscoveryManager::BroadcastPacket*, creationType>()));
     }
   }; // LocalNetworkDiscoveryManager/BroadcastPacket
+  #pragma pack(pop)
   static check_size<sizeof(LocalNetworkDiscoveryManager::BroadcastPacket), 56 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __GlobalNamespace_LocalNetworkDiscoveryManager_BroadcastPacketSizeCheck;
   static_assert(sizeof(LocalNetworkDiscoveryManager::BroadcastPacket) == 0x50);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket*, "", "LocalNetworkDiscoveryManager/BroadcastPacket");

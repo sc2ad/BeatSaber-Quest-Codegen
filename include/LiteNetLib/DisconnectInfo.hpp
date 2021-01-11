@@ -52,9 +52,9 @@ namespace LiteNetLib {
       return *reinterpret_cast<System::ValueType*>(this);
     }
   }; // LiteNetLib.DisconnectInfo
+  #pragma pack(pop)
   static check_size<sizeof(DisconnectInfo), 8 + sizeof(LiteNetLib::NetPacketReader*)> __LiteNetLib_DisconnectInfoSizeCheck;
   static_assert(sizeof(DisconnectInfo) == 0x10);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DisconnectInfo, "LiteNetLib", "DisconnectInfo");

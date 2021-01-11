@@ -82,6 +82,7 @@ namespace GlobalNamespace {
       // Set static field: static public SelectSubMenuDestination/Destination Tutorial
       static void _set_Tutorial(GlobalNamespace::SelectSubMenuDestination::Destination value);
     }; // SelectSubMenuDestination/Destination
+    #pragma pack(pop)
     static check_size<sizeof(SelectSubMenuDestination::Destination), 0 + sizeof(int)> __GlobalNamespace_SelectSubMenuDestination_DestinationSizeCheck;
     static_assert(sizeof(SelectSubMenuDestination::Destination) == 0x4);
     // public readonly SelectSubMenuDestination/Destination menuDestination
@@ -104,9 +105,9 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SelectSubMenuDestination*, creationType>(menuDestination)));
     }
   }; // SelectSubMenuDestination
+  #pragma pack(pop)
   static check_size<sizeof(SelectSubMenuDestination), 16 + sizeof(GlobalNamespace::SelectSubMenuDestination::Destination)> __GlobalNamespace_SelectSubMenuDestinationSizeCheck;
   static_assert(sizeof(SelectSubMenuDestination) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectSubMenuDestination*, "", "SelectSubMenuDestination");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectSubMenuDestination::Destination, "", "SelectSubMenuDestination/Destination");

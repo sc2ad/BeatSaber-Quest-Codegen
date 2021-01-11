@@ -44,9 +44,9 @@ namespace System::IO::Compression {
     // Set static field: static public System.IO.Compression.CompressionMode Compress
     static void _set_Compress(System::IO::Compression::CompressionMode value);
   }; // System.IO.Compression.CompressionMode
+  #pragma pack(pop)
   static check_size<sizeof(CompressionMode), 0 + sizeof(int)> __System_IO_Compression_CompressionModeSizeCheck;
   static_assert(sizeof(CompressionMode) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::CompressionMode, "System.IO.Compression", "CompressionMode");

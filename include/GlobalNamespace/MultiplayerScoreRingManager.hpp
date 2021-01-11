@@ -221,8 +221,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreRingManager*, creationType>()));
     }
   }; // MultiplayerScoreRingManager
+  #pragma pack(pop)
   static check_size<sizeof(MultiplayerScoreRingManager), 121 + sizeof(bool)> __GlobalNamespace_MultiplayerScoreRingManagerSizeCheck;
   static_assert(sizeof(MultiplayerScoreRingManager) == 0x7A);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreRingManager*, "", "MultiplayerScoreRingManager");

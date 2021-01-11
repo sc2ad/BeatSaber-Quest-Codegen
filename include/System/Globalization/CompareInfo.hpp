@@ -328,8 +328,8 @@ namespace System::Globalization {
       return THROW_UNLESS((::il2cpp_utils::New<CompareInfo*, creationType>()));
     }
   }; // System.Globalization.CompareInfo
+  #pragma pack(pop)
   static check_size<sizeof(CompareInfo), 48 + sizeof(Mono::Globalization::Unicode::SimpleCollator*)> __System_Globalization_CompareInfoSizeCheck;
   static_assert(sizeof(CompareInfo) == 0x38);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CompareInfo*, "System.Globalization", "CompareInfo");

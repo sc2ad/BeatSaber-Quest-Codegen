@@ -67,8 +67,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RenderTextureFromPostEffect*, creationType>()));
     }
   }; // RenderTextureFromPostEffect
+  #pragma pack(pop)
   static check_size<sizeof(RenderTextureFromPostEffect), 32 + sizeof(UnityEngine::Camera*)> __GlobalNamespace_RenderTextureFromPostEffectSizeCheck;
   static_assert(sizeof(RenderTextureFromPostEffect) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RenderTextureFromPostEffect*, "", "RenderTextureFromPostEffect");

@@ -90,7 +90,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xC9B86C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     EventDescriptor(int traceloggingId, uint8_t level, uint8_t opcode, int64_t keywords) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EventDescriptor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventDescriptor::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(traceloggingId, level, opcode, keywords)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, traceloggingId, level, opcode, keywords);
     }
@@ -98,7 +98,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xC9B884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     EventDescriptor(int id, uint8_t version, uint8_t channel, uint8_t level, uint8_t opcode, int task, int64_t keywords) {
-      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EventDescriptor").WithContext(".ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventDescriptor::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(id, version, channel, level, opcode, task, keywords)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, id, version, channel, level, opcode, task, keywords);
     }
@@ -137,8 +137,8 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Diagnostics.Tracing.EventDescriptor
+  #pragma pack(pop)
   static check_size<sizeof(EventDescriptor), 8 + sizeof(int64_t)> __System_Diagnostics_Tracing_EventDescriptorSizeCheck;
   static_assert(sizeof(EventDescriptor) == 0x10);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventDescriptor, "System.Diagnostics.Tracing", "EventDescriptor");

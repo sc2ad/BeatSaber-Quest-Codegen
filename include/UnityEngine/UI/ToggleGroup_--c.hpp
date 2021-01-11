@@ -69,6 +69,6 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<ToggleGroup::$$c*, creationType>()));
     }
   }; // UnityEngine.UI.ToggleGroup/<>c
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ToggleGroup::$$c*, "UnityEngine.UI", "ToggleGroup/<>c");

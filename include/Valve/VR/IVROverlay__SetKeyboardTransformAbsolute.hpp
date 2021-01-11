@@ -57,6 +57,6 @@ namespace Valve::VR {
     // Offset: 0x18F97A8
     void EndInvoke(Valve::VR::HmdMatrix34_t& pmatTrackingOriginToKeyboardTransform, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetKeyboardTransformAbsolute
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_SetKeyboardTransformAbsolute*, "Valve.VR", "IVROverlay/_SetKeyboardTransformAbsolute");

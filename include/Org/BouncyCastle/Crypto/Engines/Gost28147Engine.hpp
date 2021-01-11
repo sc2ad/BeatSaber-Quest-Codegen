@@ -157,8 +157,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.Gost28147Engine
+  #pragma pack(pop)
   static check_size<sizeof(Gost28147Engine), 32 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Engines_Gost28147EngineSizeCheck;
   static_assert(sizeof(Gost28147Engine) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Gost28147Engine*, "Org.BouncyCastle.Crypto.Engines", "Gost28147Engine");

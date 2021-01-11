@@ -70,8 +70,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelReturnToMenuController*, creationType>()));
     }
   }; // StandardLevelReturnToMenuController
+  #pragma pack(pop)
   static check_size<sizeof(StandardLevelReturnToMenuController), 32 + sizeof(GlobalNamespace::PrepareLevelCompletionResults*)> __GlobalNamespace_StandardLevelReturnToMenuControllerSizeCheck;
   static_assert(sizeof(StandardLevelReturnToMenuController) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelReturnToMenuController*, "", "StandardLevelReturnToMenuController");

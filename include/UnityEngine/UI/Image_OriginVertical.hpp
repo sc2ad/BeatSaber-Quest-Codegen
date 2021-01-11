@@ -46,9 +46,9 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.Image/OriginVertical Top
     static void _set_Top(UnityEngine::UI::Image::OriginVertical value);
   }; // UnityEngine.UI.Image/OriginVertical
+  #pragma pack(pop)
   static check_size<sizeof(Image::OriginVertical), 0 + sizeof(int)> __UnityEngine_UI_Image_OriginVerticalSizeCheck;
   static_assert(sizeof(Image::OriginVertical) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::OriginVertical, "UnityEngine.UI", "Image/OriginVertical");

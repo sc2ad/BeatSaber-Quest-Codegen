@@ -61,6 +61,6 @@ namespace Valve::VR {
     // Offset: 0x18F6A5C
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::HmdMatrix34_t& pmatTransform, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetTransformForOverlayCoordinates
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetTransformForOverlayCoordinates*, "Valve.VR", "IVROverlay/_GetTransformForOverlayCoordinates");

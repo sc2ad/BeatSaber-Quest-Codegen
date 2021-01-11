@@ -51,8 +51,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::MultiplayerModeSettings*, creationType>()));
     }
   }; // PlayerSaveData/MultiplayerModeSettings
+  #pragma pack(pop)
   static check_size<sizeof(PlayerSaveData::MultiplayerModeSettings), 32 + sizeof(::Array<uint8_t>*)> __GlobalNamespace_PlayerSaveData_MultiplayerModeSettingsSizeCheck;
   static_assert(sizeof(PlayerSaveData::MultiplayerModeSettings) == 0x28);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::MultiplayerModeSettings*, "", "PlayerSaveData/MultiplayerModeSettings");

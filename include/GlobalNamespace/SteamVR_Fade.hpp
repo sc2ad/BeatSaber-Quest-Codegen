@@ -101,8 +101,8 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // SteamVR_Fade
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_Fade), 72 + sizeof(bool)> __GlobalNamespace_SteamVR_FadeSizeCheck;
   static_assert(sizeof(SteamVR_Fade) == 0x49);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Fade*, "", "SteamVR_Fade");

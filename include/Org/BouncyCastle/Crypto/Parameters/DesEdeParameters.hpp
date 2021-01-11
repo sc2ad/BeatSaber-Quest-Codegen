@@ -43,6 +43,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Boolean DesParameters::IsWeakKey(System.Byte[] key)
     static bool IsWeakKey(::Array<uint8_t>* key);
   }; // Org.BouncyCastle.Crypto.Parameters.DesEdeParameters
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DesEdeParameters*, "Org.BouncyCastle.Crypto.Parameters", "DesEdeParameters");

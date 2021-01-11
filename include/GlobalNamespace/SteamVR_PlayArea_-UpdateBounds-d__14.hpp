@@ -97,8 +97,8 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // SteamVR_PlayArea/<UpdateBounds>d__14
+  #pragma pack(pop)
   static check_size<sizeof(SteamVR_PlayArea::$UpdateBounds$d__14), 40 + sizeof(Valve::VR::CVRChaperone*)> __GlobalNamespace_SteamVR_PlayArea_$UpdateBounds$d__14SizeCheck;
   static_assert(sizeof(SteamVR_PlayArea::$UpdateBounds$d__14) == 0x30);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea::$UpdateBounds$d__14*, "", "SteamVR_PlayArea/<UpdateBounds>d__14");

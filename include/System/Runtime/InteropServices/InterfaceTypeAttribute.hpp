@@ -43,8 +43,8 @@ namespace System::Runtime::InteropServices {
       return THROW_UNLESS((::il2cpp_utils::New<InterfaceTypeAttribute*, creationType>(interfaceType)));
     }
   }; // System.Runtime.InteropServices.InterfaceTypeAttribute
+  #pragma pack(pop)
   static check_size<sizeof(InterfaceTypeAttribute), 16 + sizeof(System::Runtime::InteropServices::ComInterfaceType)> __System_Runtime_InteropServices_InterfaceTypeAttributeSizeCheck;
   static_assert(sizeof(InterfaceTypeAttribute) == 0x14);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::InterfaceTypeAttribute*, "System.Runtime.InteropServices", "InterfaceTypeAttribute");

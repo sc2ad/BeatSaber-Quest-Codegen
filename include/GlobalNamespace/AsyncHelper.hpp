@@ -56,6 +56,6 @@ namespace GlobalNamespace {
     // Offset: 0x102A47C
     static void RunSync(System::Func_1<System::Threading::Tasks::Task*>* asyncTask);
   }; // AsyncHelper
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncHelper*, "", "AsyncHelper");

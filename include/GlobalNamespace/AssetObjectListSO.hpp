@@ -52,8 +52,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AssetObjectListSO*, creationType>()));
     }
   }; // AssetObjectListSO
+  #pragma pack(pop)
   static check_size<sizeof(AssetObjectListSO), 24 + sizeof(::Array<UnityEngine::Object*>*)> __GlobalNamespace_AssetObjectListSOSizeCheck;
   static_assert(sizeof(AssetObjectListSO) == 0x20);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AssetObjectListSO*, "", "AssetObjectListSO");

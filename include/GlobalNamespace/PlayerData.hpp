@@ -455,8 +455,8 @@ namespace GlobalNamespace {
     // Offset: 0xF0D0AC
     void SetMultiplayerModeSettings(GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
   }; // PlayerData
+  #pragma pack(pop)
   static check_size<sizeof(PlayerData), 160 + sizeof(System::Action*)> __GlobalNamespace_PlayerDataSizeCheck;
   static_assert(sizeof(PlayerData) == 0xA8);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerData*, "", "PlayerData");

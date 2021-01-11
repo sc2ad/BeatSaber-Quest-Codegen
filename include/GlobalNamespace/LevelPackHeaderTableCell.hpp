@@ -99,8 +99,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelPackHeaderTableCell*, creationType>()));
     }
   }; // LevelPackHeaderTableCell
+  #pragma pack(pop)
   static check_size<sizeof(LevelPackHeaderTableCell), 128 + sizeof(UnityEngine::Color)> __GlobalNamespace_LevelPackHeaderTableCellSizeCheck;
   static_assert(sizeof(LevelPackHeaderTableCell) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackHeaderTableCell*, "", "LevelPackHeaderTableCell");

@@ -49,8 +49,8 @@ namespace UnityEngine::Bindings {
       return THROW_UNLESS((::il2cpp_utils::New<NativeThrowsAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.NativeThrowsAttribute
+  #pragma pack(pop)
   static check_size<sizeof(NativeThrowsAttribute), 16 + sizeof(bool)> __UnityEngine_Bindings_NativeThrowsAttributeSizeCheck;
   static_assert(sizeof(NativeThrowsAttribute) == 0x11);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeThrowsAttribute*, "UnityEngine.Bindings", "NativeThrowsAttribute");

@@ -32,6 +32,6 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<PoolExceededFixedSizeException*, creationType>(errorMessage)));
     }
   }; // Zenject.PoolExceededFixedSizeException
+  #pragma pack(pop)
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolExceededFixedSizeException*, "Zenject", "PoolExceededFixedSizeException");

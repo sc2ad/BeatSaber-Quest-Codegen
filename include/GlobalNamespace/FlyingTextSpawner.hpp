@@ -109,8 +109,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlyingTextSpawner*, creationType>()));
     }
   }; // FlyingTextSpawner
+  #pragma pack(pop)
   static check_size<sizeof(FlyingTextSpawner), 64 + sizeof(GlobalNamespace::FlyingTextEffect::Pool*)> __GlobalNamespace_FlyingTextSpawnerSizeCheck;
   static_assert(sizeof(FlyingTextSpawner) == 0x48);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingTextSpawner*, "", "FlyingTextSpawner");

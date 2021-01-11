@@ -76,6 +76,7 @@ namespace GlobalNamespace {
       // Set static field: static public MissionObjective/ReferenceValueComparisonType Min
       static void _set_Min(GlobalNamespace::MissionObjective::ReferenceValueComparisonType value);
     }; // MissionObjective/ReferenceValueComparisonType
+    #pragma pack(pop)
     static check_size<sizeof(MissionObjective::ReferenceValueComparisonType), 0 + sizeof(int)> __GlobalNamespace_MissionObjective_ReferenceValueComparisonTypeSizeCheck;
     static_assert(sizeof(MissionObjective::ReferenceValueComparisonType) == 0x4);
     // private MissionObjectiveTypeSO _type
@@ -127,6 +128,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjective*, creationType>()));
     }
   }; // MissionObjective
+  #pragma pack(pop)
   static check_size<sizeof(MissionObjective), 28 + sizeof(int)> __GlobalNamespace_MissionObjectiveSizeCheck;
   static_assert(sizeof(MissionObjective) == 0x20);
   // static public System.Boolean op_Equality(MissionObjective obj1, MissionObjective obj2)
@@ -136,6 +138,5 @@ namespace GlobalNamespace {
   // Offset: 0x101E2AC
   bool operator !=(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjective*, "", "MissionObjective");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjective::ReferenceValueComparisonType, "", "MissionObjective/ReferenceValueComparisonType");

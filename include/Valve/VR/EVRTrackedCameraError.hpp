@@ -134,9 +134,9 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRTrackedCameraError InvalidFrameBufferSize
     static void _set_InvalidFrameBufferSize(Valve::VR::EVRTrackedCameraError value);
   }; // Valve.VR.EVRTrackedCameraError
+  #pragma pack(pop)
   static check_size<sizeof(EVRTrackedCameraError), 0 + sizeof(int)> __Valve_VR_EVRTrackedCameraErrorSizeCheck;
   static_assert(sizeof(EVRTrackedCameraError) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRTrackedCameraError, "Valve.VR", "EVRTrackedCameraError");

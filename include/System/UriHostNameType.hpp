@@ -62,9 +62,9 @@ namespace System {
     // Set static field: static public System.UriHostNameType IPv6
     static void _set_IPv6(System::UriHostNameType value);
   }; // System.UriHostNameType
+  #pragma pack(pop)
   static check_size<sizeof(UriHostNameType), 0 + sizeof(int)> __System_UriHostNameTypeSizeCheck;
   static_assert(sizeof(UriHostNameType) == 0x4);
 }
-#pragma pack(pop)
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriHostNameType, "System", "UriHostNameType");

@@ -171,8 +171,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void IStreamCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.Salsa20Engine
+  #pragma pack(pop)
   static check_size<sizeof(Salsa20Engine), 60 + sizeof(uint)> __Org_BouncyCastle_Crypto_Engines_Salsa20EngineSizeCheck;
   static_assert(sizeof(Salsa20Engine) == 0x40);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Salsa20Engine*, "Org.BouncyCastle.Crypto.Engines", "Salsa20Engine");

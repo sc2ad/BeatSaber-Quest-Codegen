@@ -79,8 +79,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PromoViewController*, creationType>()));
     }
   }; // PromoViewController
+  #pragma pack(pop)
   static check_size<sizeof(PromoViewController), 120 + sizeof(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>*)> __GlobalNamespace_PromoViewControllerSizeCheck;
   static_assert(sizeof(PromoViewController) == 0x80);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController*, "", "PromoViewController");

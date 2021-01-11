@@ -108,8 +108,8 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicSelectionViewController*, creationType>()));
     }
   }; // BeatmapCharacteristicSelectionViewController
+  #pragma pack(pop)
   static check_size<sizeof(BeatmapCharacteristicSelectionViewController), 136 + sizeof(GlobalNamespace::BeatmapCharacteristicSO*)> __GlobalNamespace_BeatmapCharacteristicSelectionViewControllerSizeCheck;
   static_assert(sizeof(BeatmapCharacteristicSelectionViewController) == 0x90);
 }
-#pragma pack(pop)
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicSelectionViewController*, "", "BeatmapCharacteristicSelectionViewController");
