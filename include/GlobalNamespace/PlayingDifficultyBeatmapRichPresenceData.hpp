@@ -26,14 +26,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class PlayingDifficultyBeatmapRichPresenceData : public ::Il2CppObject/*, public GlobalNamespace::IRichPresenceData*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDC513C
+    // [CompilerGeneratedAttribute] Offset: 0xD370B0
     // private System.String <apiName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* apiName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC514C
+    // [CompilerGeneratedAttribute] Offset: 0xD370C0
     // private System.String <localizedDescription>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -47,28 +47,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IRichPresenceData*>(this);
     }
     // private System.Void set_apiName(System.String value)
-    // Offset: 0xF2AF9C
+    // Offset: 0xFBCF78
     void set_apiName(::Il2CppString* value);
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0xF2AFAC
+    // Offset: 0xFBCF88
     void set_localizedDescription(::Il2CppString* value);
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xF2AFB4
+    // Offset: 0xFBCF90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayingDifficultyBeatmapRichPresenceData* New_ctor(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayingDifficultyBeatmapRichPresenceData*, creationType>(difficultyBeatmap)));
     }
     // private System.String GetDestinationLocalizedString(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xF2B00C
+    // Offset: 0xFBCFE8
     ::Il2CppString* GetDestinationLocalizedString(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.String get_apiName()
-    // Offset: 0xF2AF94
+    // Offset: 0xFBCF70
     // Implemented from: IRichPresenceData
     // Base method: System.String IRichPresenceData::get_apiName()
     ::Il2CppString* get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0xF2AFA4
+    // Offset: 0xFBCF80
     // Implemented from: IRichPresenceData
     // Base method: System.String IRichPresenceData::get_localizedDescription()
     ::Il2CppString* get_localizedDescription();

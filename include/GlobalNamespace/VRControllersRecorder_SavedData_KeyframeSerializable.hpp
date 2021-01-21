@@ -154,7 +154,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: KeyframeSerializable
     KeyframeSerializable(float xPos1_ = {}, float yPos1_ = {}, float zPos1_ = {}, float xPos2_ = {}, float yPos2_ = {}, float zPos2_ = {}, float xPos3_ = {}, float yPos3_ = {}, float zPos3_ = {}, float xRot1_ = {}, float yRot1_ = {}, float zRot1_ = {}, float wRot1_ = {}, float xRot2_ = {}, float yRot2_ = {}, float zRot2_ = {}, float wRot2_ = {}, float xRot3_ = {}, float yRot3_ = {}, float zRot3_ = {}, float wRot3_ = {}, float time_ = {}) noexcept : xPos1{xPos1_}, yPos1{yPos1_}, zPos1{zPos1_}, xPos2{xPos2_}, yPos2{yPos2_}, zPos2{zPos2_}, xPos3{xPos3_}, yPos3{yPos3_}, zPos3{zPos3_}, xRot1{xRot1_}, yRot1{yRot1_}, zRot1{zRot1_}, wRot1{wRot1_}, xRot2{xRot2_}, yRot2{yRot2_}, zRot2{zRot2_}, wRot2{wRot2_}, xRot3{xRot3_}, yRot3{yRot3_}, zRot3{zRot3_}, wRot3{wRot3_}, time{time_} {}
     // public System.Void .ctor()
-    // Offset: 0x1973C44
+    // Offset: 0x171D38C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

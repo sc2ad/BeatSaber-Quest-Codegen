@@ -57,28 +57,28 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31
     class $get_beatmapObjectsData$d__31;
-    // [CompilerGeneratedAttribute] Offset: 0xDC2F44
+    // [CompilerGeneratedAttribute] Offset: 0xD34E18
     // private System.Int32 <cuttableNotesType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     int cuttableNotesType;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDC2F54
+    // [CompilerGeneratedAttribute] Offset: 0xD34E28
     // private System.Int32 <obstaclesCount>k__BackingField
     // Size: 0x4
     // Offset: 0x14
     int obstaclesCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDC2F64
+    // [CompilerGeneratedAttribute] Offset: 0xD34E38
     // private System.Int32 <bombsCount>k__BackingField
     // Size: 0x4
     // Offset: 0x18
     int bombsCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDC2F74
+    // [CompilerGeneratedAttribute] Offset: 0xD34E48
     // private System.Int32 <spawnRotationEventsCount>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
@@ -128,102 +128,102 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IReadonlyBeatmapData*>(this);
     }
     // private System.Void set_cuttableNotesType(System.Int32 value)
-    // Offset: 0x1A7DDA4
+    // Offset: 0x106DBD0
     void set_cuttableNotesType(int value);
     // private System.Void set_obstaclesCount(System.Int32 value)
-    // Offset: 0x1A7DDB4
+    // Offset: 0x106DBE0
     void set_obstaclesCount(int value);
     // private System.Void set_bombsCount(System.Int32 value)
-    // Offset: 0x1A7DDC4
+    // Offset: 0x106DBF0
     void set_bombsCount(int value);
     // private System.Void set_spawnRotationEventsCount(System.Int32 value)
-    // Offset: 0x1A7DDD4
+    // Offset: 0x106DC00
     void set_spawnRotationEventsCount(int value);
     // public System.Void .ctor(System.Int32 numberOfLines)
-    // Offset: 0x1A7DEA0
+    // Offset: 0x106DCCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapData* New_ctor(int numberOfLines) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapData*, creationType>(numberOfLines)));
     }
     // public System.Void AddBeatmapObjectData(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x1A7E068
+    // Offset: 0x106DE94
     void AddBeatmapObjectData(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void AddBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x1A7E1B4
+    // Offset: 0x106DFE0
     void AddBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void AddAvailableSpecialEventsPerKeyword(System.String keyword, System.Collections.Generic.HashSet`1<BeatmapEventType> availableSpecialEvents)
-    // Offset: 0x1A7E248
+    // Offset: 0x106E074
     void AddAvailableSpecialEventsPerKeyword(::Il2CppString* keyword, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>* availableSpecialEvents);
     // public System.Void ProcessRemainingData()
-    // Offset: 0x1A7E2B8
+    // Offset: 0x106E0E4
     void ProcessRemainingData();
-    // private System.Void CopyBeatmapEvents(BeatmapData src, BeatmapData dst)
-    // Offset: 0x1A7E684
-    void CopyBeatmapEvents(GlobalNamespace::BeatmapData* src, GlobalNamespace::BeatmapData* dst);
-    // private System.Void CopyBeatmapObjects(BeatmapData src, BeatmapData dst)
-    // Offset: 0x1A7E364
-    void CopyBeatmapObjects(GlobalNamespace::BeatmapData* src, GlobalNamespace::BeatmapData* dst);
-    // private System.Void CopyAvailableSpecialEventsPerKeywordDictionary(BeatmapData src, BeatmapData dst)
-    // Offset: 0x1A7E900
-    void CopyAvailableSpecialEventsPerKeywordDictionary(GlobalNamespace::BeatmapData* src, GlobalNamespace::BeatmapData* dst);
+    // static private System.Void CopyBeatmapEvents(IReadonlyBeatmapData src, BeatmapData dst)
+    // Offset: 0x106E518
+    static void CopyBeatmapEvents(GlobalNamespace::IReadonlyBeatmapData* src, GlobalNamespace::BeatmapData* dst);
+    // static private System.Void CopyBeatmapObjects(IReadonlyBeatmapData src, BeatmapData dst)
+    // Offset: 0x106E190
+    static void CopyBeatmapObjects(GlobalNamespace::IReadonlyBeatmapData* src, GlobalNamespace::BeatmapData* dst);
+    // static private System.Void CopyAvailableSpecialEventsPerKeywordDictionary(IReadonlyBeatmapData src, BeatmapData dst)
+    // Offset: 0x106E800
+    static void CopyAvailableSpecialEventsPerKeywordDictionary(GlobalNamespace::IReadonlyBeatmapData* src, GlobalNamespace::BeatmapData* dst);
     // public System.Collections.Generic.IReadOnlyList`1<IReadonlyBeatmapLineData> get_beatmapLinesData()
-    // Offset: 0x1A7DD68
+    // Offset: 0x106DB94
     // Implemented from: IReadonlyBeatmapData
     // Base method: System.Collections.Generic.IReadOnlyList`1<IReadonlyBeatmapLineData> IReadonlyBeatmapData::get_beatmapLinesData()
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IReadonlyBeatmapLineData*>* get_beatmapLinesData();
     // public System.Collections.Generic.IReadOnlyList`1<BeatmapEventData> get_beatmapEventsData()
-    // Offset: 0x1A7DD70
+    // Offset: 0x106DB9C
     // Implemented from: IReadonlyBeatmapData
     // Base method: System.Collections.Generic.IReadOnlyList`1<BeatmapEventData> IReadonlyBeatmapData::get_beatmapEventsData()
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapEventData*>* get_beatmapEventsData();
     // public System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.Collections.Generic.HashSet`1<BeatmapEventType>> get_availableSpecialEventsPerKeywordDictionary()
-    // Offset: 0x1A7DD78
+    // Offset: 0x106DBA4
     // Implemented from: IReadonlyBeatmapData
     // Base method: System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.Collections.Generic.HashSet`1<BeatmapEventType>> IReadonlyBeatmapData::get_availableSpecialEventsPerKeywordDictionary()
     System::Collections::Generic::IReadOnlyDictionary_2<::Il2CppString*, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>* get_availableSpecialEventsPerKeywordDictionary();
     // public System.Int32 get_numberOfLines()
-    // Offset: 0x1A7DD80
+    // Offset: 0x106DBAC
     // Implemented from: IReadonlyBeatmapData
     // Base method: System.Int32 IReadonlyBeatmapData::get_numberOfLines()
     int get_numberOfLines();
     // public System.Int32 get_cuttableNotesType()
-    // Offset: 0x1A7DD9C
+    // Offset: 0x106DBC8
     // Implemented from: IReadonlyBeatmapData
     // Base method: System.Int32 IReadonlyBeatmapData::get_cuttableNotesType()
     int get_cuttableNotesType();
     // public System.Int32 get_obstaclesCount()
-    // Offset: 0x1A7DDAC
+    // Offset: 0x106DBD8
     // Implemented from: IReadonlyBeatmapData
     // Base method: System.Int32 IReadonlyBeatmapData::get_obstaclesCount()
     int get_obstaclesCount();
     // public System.Int32 get_bombsCount()
-    // Offset: 0x1A7DDBC
+    // Offset: 0x106DBE8
     // Implemented from: IReadonlyBeatmapData
     // Base method: System.Int32 IReadonlyBeatmapData::get_bombsCount()
     int get_bombsCount();
     // public System.Int32 get_spawnRotationEventsCount()
-    // Offset: 0x1A7DDCC
+    // Offset: 0x106DBF8
     // Implemented from: IReadonlyBeatmapData
     // Base method: System.Int32 IReadonlyBeatmapData::get_spawnRotationEventsCount()
     int get_spawnRotationEventsCount();
     // public System.Collections.Generic.IEnumerable`1<BeatmapObjectData> get_beatmapObjectsData()
-    // Offset: 0x1A7DDDC
+    // Offset: 0x106DC08
     // Implemented from: IReadonlyBeatmapData
     // Base method: System.Collections.Generic.IEnumerable`1<BeatmapObjectData> IReadonlyBeatmapData::get_beatmapObjectsData()
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
     // public BeatmapData GetCopy()
-    // Offset: 0x1A7E2D4
+    // Offset: 0x106E100
     // Implemented from: IReadonlyBeatmapData
     // Base method: BeatmapData IReadonlyBeatmapData::GetCopy()
     GlobalNamespace::BeatmapData* GetCopy();
     // public BeatmapData GetCopyWithoutEvents()
-    // Offset: 0x1A7EB88
+    // Offset: 0x106EAF4
     // Implemented from: IReadonlyBeatmapData
     // Base method: BeatmapData IReadonlyBeatmapData::GetCopyWithoutEvents()
     GlobalNamespace::BeatmapData* GetCopyWithoutEvents();
     // public BeatmapData GetCopyWithoutBeatmapObjects()
-    // Offset: 0x1A7EC00
+    // Offset: 0x106EB6C
     // Implemented from: IReadonlyBeatmapData
     // Base method: BeatmapData IReadonlyBeatmapData::GetCopyWithoutBeatmapObjects()
     GlobalNamespace::BeatmapData* GetCopyWithoutBeatmapObjects();

@@ -41,21 +41,21 @@ namespace Zenject {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   class Kernel : public ::Il2CppObject/*, public Zenject::IInitializable, public System::IDisposable, public Zenject::ITickable, public Zenject::ILateTickable, public Zenject::IFixedTickable, public Zenject::ILateDisposable*/ {
     public:
-    // [InjectLocalAttribute] Offset: 0xD94B68
+    // [InjectLocalAttribute] Offset: 0xD0699C
     // private Zenject.TickableManager _tickableManager
     // Size: 0x8
     // Offset: 0x10
     Zenject::TickableManager* tickableManager;
     // Field size check
     static_assert(sizeof(Zenject::TickableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xD94B78
+    // [InjectLocalAttribute] Offset: 0xD069AC
     // private Zenject.InitializableManager _initializableManager
     // Size: 0x8
     // Offset: 0x18
     Zenject::InitializableManager* initializableManager;
     // Field size check
     static_assert(sizeof(Zenject::InitializableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xD94B88
+    // [InjectLocalAttribute] Offset: 0xD069BC
     // private Zenject.DisposableManager _disposablesManager
     // Size: 0x8
     // Offset: 0x20
@@ -89,12 +89,12 @@ namespace Zenject {
       return *reinterpret_cast<Zenject::ILateDisposable*>(this);
     }
     // public System.Void Initialize()
-    // Offset: 0x13475EC
+    // Offset: 0x15B3ACC
     // Implemented from: Zenject.IInitializable
     // Base method: System.Void IInitializable::Initialize()
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x1347608
+    // Offset: 0x15B3AE8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -102,27 +102,27 @@ namespace Zenject {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Void LateDispose()
-    // Offset: 0x1347624
+    // Offset: 0x15B3B04
     // Implemented from: Zenject.ILateDisposable
     // Base method: System.Void ILateDisposable::LateDispose()
     void LateDispose();
     // public System.Void Tick()
-    // Offset: 0x1347640
+    // Offset: 0x15B3B20
     // Implemented from: Zenject.ITickable
     // Base method: System.Void ITickable::Tick()
     void Tick();
     // public System.Void LateTick()
-    // Offset: 0x13476DC
+    // Offset: 0x15B3BBC
     // Implemented from: Zenject.ILateTickable
     // Base method: System.Void ILateTickable::LateTick()
     void LateTick();
     // public System.Void FixedTick()
-    // Offset: 0x1347778
+    // Offset: 0x15B3C58
     // Implemented from: Zenject.IFixedTickable
     // Base method: System.Void IFixedTickable::FixedTick()
     void FixedTick();
     // public System.Void .ctor()
-    // Offset: 0x1347814
+    // Offset: 0x15B3CF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

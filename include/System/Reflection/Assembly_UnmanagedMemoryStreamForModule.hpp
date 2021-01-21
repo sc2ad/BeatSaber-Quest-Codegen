@@ -37,14 +37,14 @@ namespace System::Reflection {
     // Creating value type constructor for type: UnmanagedMemoryStreamForModule
     UnmanagedMemoryStreamForModule(System::Reflection::Module* module_ = {}) noexcept : module{module_} {}
     // public System.Void .ctor(System.Byte* pointer, System.Int64 length, System.Reflection.Module module)
-    // Offset: 0x171F190
+    // Offset: 0x1B25BC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Assembly::UnmanagedMemoryStreamForModule* New_ctor(uint8_t* pointer, int64_t length, System::Reflection::Module* module) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::Assembly::UnmanagedMemoryStreamForModule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Assembly::UnmanagedMemoryStreamForModule*, creationType>(pointer, length, module)));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1720538
+    // Offset: 0x1B26F6C
     // Implemented from: System.IO.UnmanagedMemoryStream
     // Base method: System.Void UnmanagedMemoryStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

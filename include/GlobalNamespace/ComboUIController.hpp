@@ -48,8 +48,8 @@ namespace GlobalNamespace {
     UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(UnityEngine::Animator*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC77E8
-    // private ScoreController _scoreController
+    // [InjectAttribute] Offset: 0xD39824
+    // private readonly ScoreController _scoreController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::ScoreController* scoreController;
@@ -72,28 +72,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1A5337C
+    // Offset: 0x1042C3C
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1A5358C
+    // Offset: 0x1042E4C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1A53590
+    // Offset: 0x1042E50
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0x1A533F8
+    // Offset: 0x1042CB8
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0x1A53594
+    // Offset: 0x1042E54
     void UnregisterFromEvents();
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x1A536B4
+    // Offset: 0x1042F74
     void HandleComboDidChange(int combo);
     // private System.Void HandleComboBreakingEventHappened()
-    // Offset: 0x1A536F8
+    // Offset: 0x1042FB8
     void HandleComboBreakingEventHappened();
     // public System.Void .ctor()
-    // Offset: 0x1A53730
+    // Offset: 0x1042FF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

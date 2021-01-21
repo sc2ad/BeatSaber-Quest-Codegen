@@ -31,10 +31,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Application
     Application() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ApplicationVersion> GetVersion()
-    // Offset: 0x189E01C
+    // Offset: 0x1E3C4E4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ApplicationVersion*>* GetVersion();
     // static public Oculus.Platform.Request`1<System.String> LaunchOtherApp(System.UInt64 appID, Oculus.Platform.ApplicationOptions deeplink_options)
-    // Offset: 0x189E198
+    // Offset: 0x1E3C660
     static Oculus::Platform::Request_1<::Il2CppString*>* LaunchOtherApp(uint64_t appID, Oculus::Platform::ApplicationOptions* deeplink_options);
   }; // Oculus.Platform.Application
   #pragma pack(pop)

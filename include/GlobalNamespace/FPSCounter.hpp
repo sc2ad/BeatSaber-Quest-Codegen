@@ -19,21 +19,21 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class FPSCounter : public UnityEngine::MonoBehaviour {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDCBDE8
+    // [CompilerGeneratedAttribute] Offset: 0xD3E044
     // private System.Int32 <currentFPS>k__BackingField
     // Size: 0x4
     // Offset: 0x18
     int currentFPS;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDCBDF8
+    // [CompilerGeneratedAttribute] Offset: 0xD3E054
     // private System.Int32 <lowestFPS>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
     int lowestFPS;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDCBE08
+    // [CompilerGeneratedAttribute] Offset: 0xD3E064
     // private System.Int32 <highestFPS>k__BackingField
     // Size: 0x4
     // Offset: 0x20
@@ -57,31 +57,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Int32 get_currentFPS()
-    // Offset: 0x1A0FD94
+    // Offset: 0xF29C28
     int get_currentFPS();
     // private System.Void set_currentFPS(System.Int32 value)
-    // Offset: 0x1A0FD9C
+    // Offset: 0xF29C30
     void set_currentFPS(int value);
     // public System.Int32 get_lowestFPS()
-    // Offset: 0x1A0FDA4
+    // Offset: 0xF29C38
     int get_lowestFPS();
     // private System.Void set_lowestFPS(System.Int32 value)
-    // Offset: 0x1A0FDAC
+    // Offset: 0xF29C40
     void set_lowestFPS(int value);
     // public System.Int32 get_highestFPS()
-    // Offset: 0x1A0FDB4
+    // Offset: 0xF29C48
     int get_highestFPS();
     // private System.Void set_highestFPS(System.Int32 value)
-    // Offset: 0x1A0FDBC
+    // Offset: 0xF29C50
     void set_highestFPS(int value);
     // protected System.Void Awake()
-    // Offset: 0x1A0FDC4
+    // Offset: 0xF29C58
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1A0FDD4
+    // Offset: 0xF29C68
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1A0FEB8
+    // Offset: 0xF29D4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

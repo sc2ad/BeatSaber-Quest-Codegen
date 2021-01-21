@@ -38,7 +38,7 @@ namespace System::Net {
       return *reinterpret_cast<System::Net::IWebRequestCreate*>(this);
     }
     // System.Void .ctor()
-    // Offset: 0x12B4678
+    // Offset: 0x150340C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,7 +47,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestCreator*, creationType>()));
     }
     // public System.Net.WebRequest Create(System.Uri uri)
-    // Offset: 0x12B4680
+    // Offset: 0x1503414
     // Implemented from: System.Net.IWebRequestCreate
     // Base method: System.Net.WebRequest IWebRequestCreate::Create(System.Uri uri)
     System::Net::WebRequest* Create(System::Uri* uri);

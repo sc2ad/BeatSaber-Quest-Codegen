@@ -92,34 +92,34 @@ namespace System {
     // Set static field: static private System.Int32 LargeSlotTableSizeIncrease
     static void _set_LargeSlotTableSizeIncrease(int value);
     // public System.LocalDataStoreHolder CreateLocalDataStore()
-    // Offset: 0x13B43F4
+    // Offset: 0x1655420
     System::LocalDataStoreHolder* CreateLocalDataStore();
     // public System.Void DeleteLocalDataStore(System.LocalDataStore store)
-    // Offset: 0x13B3C1C
+    // Offset: 0x1654C48
     void DeleteLocalDataStore(System::LocalDataStore* store);
     // public System.LocalDataStoreSlot AllocateDataSlot()
-    // Offset: 0x13B4538
+    // Offset: 0x1655564
     System::LocalDataStoreSlot* AllocateDataSlot();
     // public System.LocalDataStoreSlot AllocateNamedDataSlot(System.String name)
-    // Offset: 0x13B47C4
+    // Offset: 0x16557F0
     System::LocalDataStoreSlot* AllocateNamedDataSlot(::Il2CppString* name);
     // public System.LocalDataStoreSlot GetNamedDataSlot(System.String name)
-    // Offset: 0x13B48C8
+    // Offset: 0x16558F4
     System::LocalDataStoreSlot* GetNamedDataSlot(::Il2CppString* name);
     // public System.Void FreeNamedDataSlot(System.String name)
-    // Offset: 0x13B49F0
+    // Offset: 0x1655A1C
     void FreeNamedDataSlot(::Il2CppString* name);
     // System.Void FreeDataSlot(System.Int32 slot, System.Int64 cookie)
-    // Offset: 0x13B4AD0
+    // Offset: 0x1655AFC
     void FreeDataSlot(int slot, int64_t cookie);
     // public System.Void ValidateSlot(System.LocalDataStoreSlot slot)
-    // Offset: 0x13B3E04
+    // Offset: 0x1654E30
     void ValidateSlot(System::LocalDataStoreSlot* slot);
     // System.Int32 GetSlotTableLength()
-    // Offset: 0x13B42E8
+    // Offset: 0x1655314
     int GetSlotTableLength();
     // public System.Void .ctor()
-    // Offset: 0x13B4C4C
+    // Offset: 0x1655C78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -27,16 +27,16 @@ namespace UnityEngine::Sprites {
     // Creating value type constructor for type: DataUtility
     DataUtility() noexcept {}
     // static public UnityEngine.Vector4 GetInnerUV(UnityEngine.Sprite sprite)
-    // Offset: 0x16C21A0
+    // Offset: 0x1AB4018
     static UnityEngine::Vector4 GetInnerUV(UnityEngine::Sprite* sprite);
     // static public UnityEngine.Vector4 GetOuterUV(UnityEngine.Sprite sprite)
-    // Offset: 0x16C21B4
+    // Offset: 0x1AB402C
     static UnityEngine::Vector4 GetOuterUV(UnityEngine::Sprite* sprite);
     // static public UnityEngine.Vector4 GetPadding(UnityEngine.Sprite sprite)
-    // Offset: 0x16C21C8
+    // Offset: 0x1AB4040
     static UnityEngine::Vector4 GetPadding(UnityEngine::Sprite* sprite);
     // static public UnityEngine.Vector2 GetMinSize(UnityEngine.Sprite sprite)
-    // Offset: 0x16C21DC
+    // Offset: 0x1AB4054
     static UnityEngine::Vector2 GetMinSize(UnityEngine::Sprite* sprite);
   }; // UnityEngine.Sprites.DataUtility
   #pragma pack(pop)

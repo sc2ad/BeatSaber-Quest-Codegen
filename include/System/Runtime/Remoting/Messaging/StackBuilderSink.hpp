@@ -57,28 +57,28 @@ namespace System::Runtime::Remoting::Messaging {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);
     }
     // public System.Void .ctor(System.MarshalByRefObject obj, System.Boolean forceInternalExecute)
-    // Offset: 0x132F1DC
+    // Offset: 0x157DF70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackBuilderSink* New_ctor(System::MarshalByRefObject* obj, bool forceInternalExecute) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::StackBuilderSink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackBuilderSink*, creationType>(obj, forceInternalExecute)));
     }
     // private System.Void ExecuteAsyncMessage(System.Object ob)
-    // Offset: 0x1330324
+    // Offset: 0x157F0B8
     void ExecuteAsyncMessage(::Il2CppObject* ob);
     // private System.Void CheckParameters(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x132F348
+    // Offset: 0x157E0DC
     void CheckParameters(System::Runtime::Remoting::Messaging::IMessage* msg);
     // private System.Void <AsyncProcessMessage>b__4_0(System.Object data)
-    // Offset: 0x1330524
+    // Offset: 0x157F2B8
     void $AsyncProcessMessage$b__4_0(::Il2CppObject* data);
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x132F270
+    // Offset: 0x157E004
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessage IMessageSink::SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x13301F8
+    // Offset: 0x157EF8C
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl IMessageSink::AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);

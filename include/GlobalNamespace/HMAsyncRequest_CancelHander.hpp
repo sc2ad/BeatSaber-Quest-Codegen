@@ -33,20 +33,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CancelHander
     CancelHander() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x103541C
+    // Offset: 0x110EDAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMAsyncRequest::CancelHander* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HMAsyncRequest::CancelHander::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMAsyncRequest::CancelHander*, creationType>(object, method)));
     }
     // public System.Void Invoke(HMAsyncRequest request)
-    // Offset: 0x1034F74
+    // Offset: 0x110E904
     void Invoke(GlobalNamespace::HMAsyncRequest* request);
     // public System.IAsyncResult BeginInvoke(HMAsyncRequest request, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1035430
+    // Offset: 0x110EDC0
     System::IAsyncResult* BeginInvoke(GlobalNamespace::HMAsyncRequest* request, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1035454
+    // Offset: 0x110EDE4
     void EndInvoke(System::IAsyncResult* result);
   }; // HMAsyncRequest/CancelHander
   #pragma pack(pop)

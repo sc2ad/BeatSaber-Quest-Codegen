@@ -87,7 +87,7 @@ namespace System::Diagnostics::Tracing {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Int32 traceloggingId, System.Byte level, System.Byte opcode, System.Int64 keywords)
-    // Offset: 0xC9B86C
+    // Offset: 0xE07728
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     EventDescriptor(int traceloggingId, uint8_t level, uint8_t opcode, int64_t keywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventDescriptor::.ctor");
@@ -95,7 +95,7 @@ namespace System::Diagnostics::Tracing {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, traceloggingId, level, opcode, keywords);
     }
     // public System.Void .ctor(System.Int32 id, System.Byte version, System.Byte channel, System.Byte level, System.Byte opcode, System.Int32 task, System.Int64 keywords)
-    // Offset: 0xC9B884
+    // Offset: 0xE07740
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     EventDescriptor(int id, uint8_t version, uint8_t channel, uint8_t level, uint8_t opcode, int task, int64_t keywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventDescriptor::.ctor");
@@ -103,36 +103,36 @@ namespace System::Diagnostics::Tracing {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, id, version, channel, level, opcode, task, keywords);
     }
     // public System.Int32 get_EventId()
-    // Offset: 0xC9B88C
+    // Offset: 0xE07748
     int get_EventId();
     // public System.Byte get_Version()
-    // Offset: 0xC9B894
+    // Offset: 0xE07750
     uint8_t get_Version();
     // public System.Byte get_Channel()
-    // Offset: 0xC9B89C
+    // Offset: 0xE07758
     uint8_t get_Channel();
     // public System.Byte get_Level()
-    // Offset: 0xC9B8A4
+    // Offset: 0xE07760
     uint8_t get_Level();
     // public System.Byte get_Opcode()
-    // Offset: 0xC9B8AC
+    // Offset: 0xE07768
     uint8_t get_Opcode();
     // public System.Int32 get_Task()
-    // Offset: 0xC9B8B4
+    // Offset: 0xE07770
     int get_Task();
     // public System.Int64 get_Keywords()
-    // Offset: 0xC9B8BC
+    // Offset: 0xE07778
     int64_t get_Keywords();
     // public System.Boolean Equals(System.Diagnostics.Tracing.EventDescriptor other)
-    // Offset: 0xC9B904
+    // Offset: 0xE077C0
     bool Equals(System::Diagnostics::Tracing::EventDescriptor other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC9B8C4
+    // Offset: 0xE07780
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC9B8CC
+    // Offset: 0xE07788
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

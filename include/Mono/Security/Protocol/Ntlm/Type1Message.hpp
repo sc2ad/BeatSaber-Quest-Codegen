@@ -34,13 +34,13 @@ namespace Mono::Security::Protocol::Ntlm {
     // Creating value type constructor for type: Type1Message
     Type1Message(::Il2CppString* host_ = {}, ::Il2CppString* domain_ = {}) noexcept : host{host_}, domain{domain_} {}
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x17BBA88
+    // Offset: 0x1BF44A8
     void set_Domain(::Il2CppString* value);
     // public System.Void set_Host(System.String value)
-    // Offset: 0x17BBB18
+    // Offset: 0x1BF4538
     void set_Host(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x17BB9DC
+    // Offset: 0x1BF43FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,12 +49,12 @@ namespace Mono::Security::Protocol::Ntlm {
       return THROW_UNLESS((::il2cpp_utils::New<Type1Message*, creationType>()));
     }
     // protected override System.Void Decode(System.Byte[] message)
-    // Offset: 0x17BBBA8
+    // Offset: 0x1BF45C8
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Void MessageBase::Decode(System.Byte[] message)
     void Decode(::Array<uint8_t>* message);
     // public override System.Byte[] GetBytes()
-    // Offset: 0x17BBCB4
+    // Offset: 0x1BF46D4
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Byte[] MessageBase::GetBytes()
     ::Array<uint8_t>* GetBytes();

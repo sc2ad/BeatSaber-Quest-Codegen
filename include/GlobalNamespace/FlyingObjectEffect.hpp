@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     UnityEngine::AnimationCurve* shakeStrengthAnimationCurve;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC6870
+    // [CompilerGeneratedAttribute] Offset: 0xD3888C
     // private System.Action`1<FlyingObjectEffect> didFinishEvent
     // Size: 0x8
     // Offset: 0x30
@@ -118,22 +118,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<FlyingObjectEffect> value)
-    // Offset: 0x1A14AA4
+    // Offset: 0xF2EA40
     void add_didFinishEvent(System::Action_1<GlobalNamespace::FlyingObjectEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<FlyingObjectEffect> value)
-    // Offset: 0x1A14B48
+    // Offset: 0xF2EAE4
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::FlyingObjectEffect*>* value);
     // public System.Void InitAndPresent(System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, System.Boolean shake)
-    // Offset: 0x1A14BEC
+    // Offset: 0xF2EB88
     void InitAndPresent(float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, bool shake);
     // protected System.Void Update()
-    // Offset: 0x1A14CD8
+    // Offset: 0xF2EC74
     void Update();
     // protected System.Void ManualUpdate(System.Single t)
     // Offset: 0xFFFFFFFF
     void ManualUpdate(float t);
     // protected System.Void .ctor()
-    // Offset: 0x1A14F90
+    // Offset: 0xF2EF2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

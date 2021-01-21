@@ -28,14 +28,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class BeatmapObjectSpawnControllerPlayerHeightSetter : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xDCAB0C
+    // [InjectAttribute] Offset: 0xD3CD48
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCAB1C
+    // [InjectAttribute] Offset: 0xD3CD58
     // private readonly PlayerHeightDetector _playerHeightDetector
     // Size: 0x8
     // Offset: 0x20
@@ -47,19 +47,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1A2B368
+    // Offset: 0xF5C0A0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1A2B448
+    // Offset: 0xF5C180
     void OnDestroy();
     // private System.Void HandlePlayerHeightDidChange(System.Single playerHeight)
-    // Offset: 0x1A2B41C
+    // Offset: 0xF5C154
     void HandlePlayerHeightDidChange(float playerHeight);
     // static public System.Single JumpOffsetYForPlayerHeight(System.Single playerHeight)
-    // Offset: 0x1A2B524
+    // Offset: 0xF5C25C
     static float JumpOffsetYForPlayerHeight(float playerHeight);
     // public System.Void .ctor()
-    // Offset: 0x1A2B5B4
+    // Offset: 0xF5C2EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

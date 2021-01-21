@@ -41,7 +41,7 @@ namespace Mono::Net {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Int32 loc, System.Int32 len)
-    // Offset: 0xC99EE0
+    // Offset: 0xE05584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CFRange(int loc, int len) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFRange::.ctor");

@@ -26,7 +26,7 @@ namespace Menu::ViewControllers {
   // [] Offset: FFFFFFFF
   class EditAvatarHistorySnapshot : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDD34A0
+    // [CompilerGeneratedAttribute] Offset: 0xD4584C
     // private readonly EditAvatarViewController/AvatarEditPart <avatarEditPart>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -35,7 +35,7 @@ namespace Menu::ViewControllers {
     static_assert(sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart) == 0x4);
     // Padding between fields: avatarEditPart and: avatarData
     char __padding0[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDD34B0
+    // [CompilerGeneratedAttribute] Offset: 0xD4585C
     // private readonly AvatarData <avatarData>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -45,13 +45,13 @@ namespace Menu::ViewControllers {
     // Creating value type constructor for type: EditAvatarHistorySnapshot
     EditAvatarHistorySnapshot(GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart_ = {}, GlobalNamespace::AvatarData* avatarData_ = {}) noexcept : avatarEditPart{avatarEditPart_}, avatarData{avatarData_} {}
     // public EditAvatarViewController/AvatarEditPart get_avatarEditPart()
-    // Offset: 0x1A71E2C
+    // Offset: 0x106258C
     GlobalNamespace::EditAvatarViewController::AvatarEditPart get_avatarEditPart();
     // public AvatarData get_avatarData()
-    // Offset: 0x1A71E34
+    // Offset: 0x1062594
     GlobalNamespace::AvatarData* get_avatarData();
     // public System.Void .ctor(AvatarData avatarData, EditAvatarViewController/AvatarEditPart avatarEditPart)
-    // Offset: 0x1A71E3C
+    // Offset: 0x106259C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditAvatarHistorySnapshot* New_ctor(GlobalNamespace::AvatarData* avatarData, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart) {
       static auto ___internal__logger = ::Logger::get().WithContext("Menu::ViewControllers::EditAvatarHistorySnapshot::.ctor");

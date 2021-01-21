@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithSystemVoipState
     MessageWithSystemVoipState() noexcept {}
     // protected Oculus.Platform.Models.SystemVoipState GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x11DFDBC
+    // Offset: 0x13F0BC4
     Oculus::Platform::Models::SystemVoipState* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x11D6868
+    // Offset: 0x13E7670
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,7 +41,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithSystemVoipState*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.SystemVoipState GetSystemVoipState()
-    // Offset: 0x11DFD78
+    // Offset: 0x13F0B80
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.SystemVoipState Message::GetSystemVoipState()
     Oculus::Platform::Models::SystemVoipState* GetSystemVoipState();

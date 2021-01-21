@@ -65,73 +65,73 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.UInt32[] KC
     static void _set_KC(::Array<uint>* value);
     // private System.Int32[] createWorkingKey(System.Byte[] inKey)
-    // Offset: 0x180B6C8
+    // Offset: 0x1CD2398
     ::Array<int>* createWorkingKey(::Array<uint8_t>* inKey);
     // private System.Int32 extractW1(System.Int64 lVal)
-    // Offset: 0x180BC38
+    // Offset: 0x1CD2908
     int extractW1(int64_t lVal);
     // private System.Int32 extractW0(System.Int64 lVal)
-    // Offset: 0x180BC30
+    // Offset: 0x1CD2900
     int extractW0(int64_t lVal);
     // private System.Int64 rotateLeft8(System.Int64 x)
-    // Offset: 0x180BD4C
+    // Offset: 0x1CD2A1C
     int64_t rotateLeft8(int64_t x);
     // private System.Int64 rotateRight8(System.Int64 x)
-    // Offset: 0x180BD44
+    // Offset: 0x1CD2A14
     int64_t rotateRight8(int64_t x);
     // private System.Int64 bytesToLong(System.Byte[] src, System.Int32 srcOff)
-    // Offset: 0x180BAE0
+    // Offset: 0x1CD27B0
     int64_t bytesToLong(::Array<uint8_t>* src, int srcOff);
     // private System.Void longToBytes(System.Byte[] dest, System.Int32 destOff, System.Int64 value)
-    // Offset: 0x180BBBC
+    // Offset: 0x1CD288C
     void longToBytes(::Array<uint8_t>* dest, int destOff, int64_t value);
     // private System.Int32 G(System.Int32 x)
-    // Offset: 0x180BC40
+    // Offset: 0x1CD2910
     int G(int x);
     // private System.Int64 F(System.Int32 ki0, System.Int32 ki1, System.Int64 r)
-    // Offset: 0x180BB4C
+    // Offset: 0x1CD281C
     int64_t F(int ki0, int ki1, int64_t r);
     // private System.Int32 phaseCalc1(System.Int32 r0, System.Int32 ki0, System.Int32 r1, System.Int32 ki1)
-    // Offset: 0x180BD98
+    // Offset: 0x1CD2A68
     int phaseCalc1(int r0, int ki0, int r1, int ki1);
     // private System.Int32 phaseCalc2(System.Int32 r0, System.Int32 ki0, System.Int32 r1, System.Int32 ki1)
-    // Offset: 0x180BD54
+    // Offset: 0x1CD2A24
     int phaseCalc2(int r0, int ki0, int r1, int ki1);
     // static private System.Void .cctor()
-    // Offset: 0x180BDC4
+    // Offset: 0x1CD2A94
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x180B608
+    // Offset: 0x1CD22D8
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Void IBlockCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.String get_AlgorithmName()
-    // Offset: 0x180B88C
+    // Offset: 0x1CD255C
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.String IBlockCipher::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x180B8D4
+    // Offset: 0x1CD25A4
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Boolean IBlockCipher::get_IsPartialBlockOkay()
     bool get_IsPartialBlockOkay();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x180B8DC
+    // Offset: 0x1CD25AC
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Int32 IBlockCipher::GetBlockSize()
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Byte[] outBuf, System.Int32 outOff)
-    // Offset: 0x180B8E4
+    // Offset: 0x1CD25B4
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Int32 IBlockCipher::ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Byte[] outBuf, System.Int32 outOff)
     int ProcessBlock(::Array<uint8_t>* inBuf, int inOff, ::Array<uint8_t>* outBuf, int outOff);
     // public System.Void Reset()
-    // Offset: 0x180BC2C
+    // Offset: 0x1CD28FC
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x180BF2C
+    // Offset: 0x1CD2BFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

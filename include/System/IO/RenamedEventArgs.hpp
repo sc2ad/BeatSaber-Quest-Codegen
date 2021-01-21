@@ -34,7 +34,7 @@ namespace System::IO {
     // Creating value type constructor for type: RenamedEventArgs
     RenamedEventArgs(::Il2CppString* oldName_ = {}, ::Il2CppString* oldFullPath_ = {}) noexcept : oldName{oldName_}, oldFullPath{oldFullPath_} {}
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name, System.String oldName)
-    // Offset: 0x148FB98
+    // Offset: 0x17A45D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenamedEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::Il2CppString* directory, ::Il2CppString* name, ::Il2CppString* oldName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::RenamedEventArgs::.ctor");

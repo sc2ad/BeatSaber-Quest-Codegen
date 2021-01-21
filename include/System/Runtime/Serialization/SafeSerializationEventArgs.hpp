@@ -49,14 +49,14 @@ namespace System::Runtime::Serialization {
     // Creating value type constructor for type: SafeSerializationEventArgs
     SafeSerializationEventArgs(System::Runtime::Serialization::StreamingContext m_streamingContext_ = {}, System::Collections::Generic::List_1<::Il2CppObject*>* m_serializedStates_ = {}) noexcept : m_streamingContext{m_streamingContext_}, m_serializedStates{m_serializedStates_} {}
     // System.Void .ctor(System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1441590
+    // Offset: 0x1756FC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeSerializationEventArgs* New_ctor(System::Runtime::Serialization::StreamingContext streamingContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SafeSerializationEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeSerializationEventArgs*, creationType>(streamingContext)));
     }
     // System.Collections.Generic.IList`1<System.Object> get_SerializedStates()
-    // Offset: 0x1441650
+    // Offset: 0x1757088
     System::Collections::Generic::IList_1<::Il2CppObject*>* get_SerializedStates();
   }; // System.Runtime.Serialization.SafeSerializationEventArgs
   #pragma pack(pop)

@@ -47,23 +47,23 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Creating value type constructor for type: DHValidationParms
     DHValidationParms(Org::BouncyCastle::Asn1::DerBitString* seed_ = {}, Org::BouncyCastle::Asn1::DerInteger* pgenCounter_ = {}) noexcept : seed{seed_}, pgenCounter{pgenCounter_} {}
     // static public Org.BouncyCastle.Asn1.X9.DHValidationParms GetInstance(System.Object obj)
-    // Offset: 0x1584BF8
+    // Offset: 0x190577C
     static Org::BouncyCastle::Asn1::X9::DHValidationParms* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x15851D0
+    // Offset: 0x1905D54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHValidationParms* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::DHValidationParms::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHValidationParms*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.DerBitString get_Seed()
-    // Offset: 0x1585354
+    // Offset: 0x1905ED8
     Org::BouncyCastle::Asn1::DerBitString* get_Seed();
     // public Org.BouncyCastle.Asn1.DerInteger get_PgenCounter()
-    // Offset: 0x158535C
+    // Offset: 0x1905EE0
     Org::BouncyCastle::Asn1::DerInteger* get_PgenCounter();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1585364
+    // Offset: 0x1905EE8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

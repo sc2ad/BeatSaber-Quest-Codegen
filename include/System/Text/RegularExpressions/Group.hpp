@@ -33,7 +33,7 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: capcount and: name
     char __padding1[0x4] = {};
-    // [OptionalFieldAttribute] Offset: 0xD45F94
+    // [OptionalFieldAttribute] Offset: 0xCB7B48
     // System.String _name
     // Size: 0x8
     // Offset: 0x30
@@ -47,20 +47,20 @@ namespace System::Text::RegularExpressions {
     // Set static field: static System.Text.RegularExpressions.Group _emptygroup
     static void _set__emptygroup(System::Text::RegularExpressions::Group* value);
     // System.Void .ctor(System.String text, System.Int32[] caps, System.Int32 capcount, System.String name)
-    // Offset: 0x146CE34
+    // Offset: 0x178186C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Group* New_ctor(::Il2CppString* text, ::Array<int>* caps, int capcount, ::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::Group::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Group*, creationType>(text, caps, capcount, name)));
     }
     // public System.Boolean get_Success()
-    // Offset: 0x146CF04
+    // Offset: 0x178193C
     bool get_Success();
     // static private System.Void .cctor()
-    // Offset: 0x146CF14
+    // Offset: 0x178194C
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x146CFD4
+    // Offset: 0x1781A0C
     // Implemented from: System.Text.RegularExpressions.Capture
     // Base method: System.Void Capture::.ctor()
     // Base method: System.Void Object::.ctor()

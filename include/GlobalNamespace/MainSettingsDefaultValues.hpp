@@ -189,10 +189,10 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kDefaultPauseButtonPressDurationLevel
     static void _set_kDefaultPauseButtonPressDurationLevel(int value);
     // static public System.Void SetFixedDefaultValues(MainSettingsModelSO mainSettingsModel)
-    // Offset: 0x1A6F004
+    // Offset: 0x105F70C
     static void SetFixedDefaultValues(GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
     // public System.Void .ctor()
-    // Offset: 0x1A6F15C
+    // Offset: 0x105F864
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

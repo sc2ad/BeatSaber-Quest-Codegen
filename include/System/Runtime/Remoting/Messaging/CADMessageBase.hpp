@@ -80,44 +80,44 @@ namespace System::Runtime::Remoting::Messaging {
     // Creating value type constructor for type: CADMessageBase
     CADMessageBase(::Array<::Il2CppObject*>* args_ = {}, ::Array<uint8_t>* serializedArgs_ = {}, int propertyCount_ = {}, System::Runtime::Remoting::Messaging::CADArgHolder* callContext_ = {}, ::Array<uint8_t>* serializedMethod_ = {}) noexcept : args{args_}, serializedArgs{serializedArgs_}, propertyCount{propertyCount_}, callContext{callContext_}, serializedMethod{serializedMethod_} {}
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodMessage msg)
-    // Offset: 0x1177D3C
+    // Offset: 0x131E740
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMessageBase* New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADMessageBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMessageBase*, creationType>(msg)));
     }
     // System.Reflection.MethodBase GetMethod()
-    // Offset: 0x1178104
+    // Offset: 0x131EB08
     System::Reflection::MethodBase* GetMethod();
     // static protected System.Type[] GetSignature(System.Reflection.MethodBase methodBase, System.Boolean load)
-    // Offset: 0x11785A0
+    // Offset: 0x131EFA4
     static ::Array<System::Type*>* GetSignature(System::Reflection::MethodBase* methodBase, bool load);
     // static System.Int32 MarshalProperties(System.Collections.IDictionary dict, ref System.Collections.ArrayList args)
-    // Offset: 0x1178758
+    // Offset: 0x131F15C
     static int MarshalProperties(System::Collections::IDictionary* dict, System::Collections::ArrayList*& args);
     // static System.Void UnmarshalProperties(System.Collections.IDictionary dict, System.Int32 count, System.Collections.ArrayList args)
-    // Offset: 0x1178E2C
+    // Offset: 0x131F830
     static void UnmarshalProperties(System::Collections::IDictionary* dict, int count, System::Collections::ArrayList* args);
     // static private System.Boolean IsPossibleToIgnoreMarshal(System.Object obj)
-    // Offset: 0x1178F6C
+    // Offset: 0x131F970
     static bool IsPossibleToIgnoreMarshal(::Il2CppObject* obj);
     // protected System.Object MarshalArgument(System.Object arg, ref System.Collections.ArrayList args)
-    // Offset: 0x11790F8
+    // Offset: 0x131FAFC
     ::Il2CppObject* MarshalArgument(::Il2CppObject* arg, System::Collections::ArrayList*& args);
     // protected System.Object UnmarshalArgument(System.Object arg, System.Collections.ArrayList args)
-    // Offset: 0x117931C
+    // Offset: 0x131FD20
     ::Il2CppObject* UnmarshalArgument(::Il2CppObject* arg, System::Collections::ArrayList* args);
     // System.Object[] MarshalArguments(System.Object[] arguments, ref System.Collections.ArrayList args)
-    // Offset: 0x1179870
+    // Offset: 0x1320274
     ::Array<::Il2CppObject*>* MarshalArguments(::Array<::Il2CppObject*>* arguments, System::Collections::ArrayList*& args);
     // System.Object[] UnmarshalArguments(System.Object[] arguments, System.Collections.ArrayList args)
-    // Offset: 0x1179990
+    // Offset: 0x1320394
     ::Array<::Il2CppObject*>* UnmarshalArguments(::Array<::Il2CppObject*>* arguments, System::Collections::ArrayList* args);
     // protected System.Void SaveLogicalCallContext(System.Runtime.Remoting.Messaging.IMethodMessage msg, ref System.Collections.ArrayList serializeList)
-    // Offset: 0x1179AB0
+    // Offset: 0x13204B4
     void SaveLogicalCallContext(System::Runtime::Remoting::Messaging::IMethodMessage* msg, System::Collections::ArrayList*& serializeList);
     // System.Runtime.Remoting.Messaging.LogicalCallContext GetLogicalCallContext(System.Collections.ArrayList args)
-    // Offset: 0x1179D6C
+    // Offset: 0x1320770
     System::Runtime::Remoting::Messaging::LogicalCallContext* GetLogicalCallContext(System::Collections::ArrayList* args);
   }; // System.Runtime.Remoting.Messaging.CADMessageBase
   #pragma pack(pop)

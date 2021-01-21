@@ -36,14 +36,14 @@ namespace MasterServer {
   // [] Offset: FFFFFFFF
   class DedicatedServerHeartbeatRequest : public ::Il2CppObject/*, public MasterServer::IMasterServerUnreliableMessage, public MasterServer::IDedicatedServerClientToServerMessage*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDAA574
+    // [CompilerGeneratedAttribute] Offset: 0xD1C16C
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* dedicatedServerId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDAA584
+    // [CompilerGeneratedAttribute] Offset: 0xD1C17C
     // private System.Int64 <dedicatedServerCreationTime>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -79,29 +79,29 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IDedicatedServerClientToServerMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.DedicatedServerHeartbeatRequest> get_pool()
-    // Offset: 0x1AD4FDC
+    // Offset: 0x111B22C
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerHeartbeatRequest*>* get_pool();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x1AD502C
+    // Offset: 0x111B27C
     void set_dedicatedServerId(::Il2CppString* value);
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x1AD503C
+    // Offset: 0x111B28C
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerHeartbeatRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.Int32 cpuUtilization, System.Int32 occupiedServerSlots, System.Int32 unoccupiedServerSlots)
-    // Offset: 0x1AD5044
+    // Offset: 0x111B294
     MasterServer::DedicatedServerHeartbeatRequest* Init(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, int cpuUtilization, int occupiedServerSlots, int unoccupiedServerSlots);
     // public System.String get_dedicatedServerId()
-    // Offset: 0x1AD5024
+    // Offset: 0x111B274
     // Implemented from: MasterServer.IDedicatedServerClientToServerMessage
     // Base method: System.String IDedicatedServerClientToServerMessage::get_dedicatedServerId()
     ::Il2CppString* get_dedicatedServerId();
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x1AD5034
+    // Offset: 0x111B284
     // Implemented from: MasterServer.IDedicatedServerClientToServerMessage
     // Base method: System.Int64 IDedicatedServerClientToServerMessage::get_dedicatedServerCreationTime()
     int64_t get_dedicatedServerCreationTime();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1AD5098
+    // Offset: 0x111B2E8
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -109,7 +109,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1AD510C
+    // Offset: 0x111B35C
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -117,12 +117,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1AD5190
+    // Offset: 0x111B3E0
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1AD51EC
+    // Offset: 0x111B43C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

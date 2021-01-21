@@ -49,12 +49,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoteDebrisTesterInstaller
     NoteDebrisTesterInstaller(bool useHDVersion_ = {}, GlobalNamespace::NoteDebris* noteDebrisHDPrefab_ = {}, GlobalNamespace::NoteDebris* noteDebrisLWPrefab_ = {}) noexcept : useHDVersion{useHDVersion_}, noteDebrisHDPrefab{noteDebrisHDPrefab_}, noteDebrisLWPrefab{noteDebrisLWPrefab_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xFE65D0
+    // Offset: 0xF949B8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xFE6664
+    // Offset: 0xF94A4C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

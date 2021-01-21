@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 moveVec;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0xDC0C40
+    // [SpaceAttribute] Offset: 0xD32B04
     // private NoteDebrisSpawner _noteDebrisSpawner
     // Size: 0x8
     // Offset: 0x50
@@ -74,10 +74,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Update()
-    // Offset: 0xFE628C
+    // Offset: 0xF94674
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xFE64FC
+    // Offset: 0xF948E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

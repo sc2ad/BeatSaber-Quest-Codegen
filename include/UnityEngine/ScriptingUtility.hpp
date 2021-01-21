@@ -23,7 +23,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: ScriptingUtility
     ScriptingUtility() noexcept {}
     // static private System.Boolean IsManagedCodeWorking()
-    // Offset: 0x16C05B8
+    // Offset: 0x1AB2430
     static bool IsManagedCodeWorking();
   }; // UnityEngine.ScriptingUtility
   #pragma pack(pop)

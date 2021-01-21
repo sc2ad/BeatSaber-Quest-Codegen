@@ -58,31 +58,31 @@ namespace System::Threading {
     // Set static field: static System.Threading.ThreadPoolWorkQueue/SparseArray`1<System.Threading.ThreadPoolWorkQueue/WorkStealingQueue> allThreadQueues
     static void _set_allThreadQueues(System::Threading::ThreadPoolWorkQueue::SparseArray_1<System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*>* value);
     // public System.Threading.ThreadPoolWorkQueueThreadLocals EnsureCurrentThreadHasQueue()
-    // Offset: 0x1D1BFAC
+    // Offset: 0x17BD008
     System::Threading::ThreadPoolWorkQueueThreadLocals* EnsureCurrentThreadHasQueue();
     // System.Void EnsureThreadRequested()
-    // Offset: 0x1D1C15C
+    // Offset: 0x17BD1B8
     void EnsureThreadRequested();
     // System.Void MarkThreadRequestSatisfied()
-    // Offset: 0x1D1C214
+    // Offset: 0x17BD270
     void MarkThreadRequestSatisfied();
     // public System.Void Enqueue(System.Threading.IThreadPoolWorkItem callback, System.Boolean forceGlobal)
-    // Offset: 0x1D1BC54
+    // Offset: 0x17BCCB0
     void Enqueue(System::Threading::IThreadPoolWorkItem* callback, bool forceGlobal);
     // System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem callback)
-    // Offset: 0x1D1BD80
+    // Offset: 0x17BCDDC
     bool LocalFindAndPop(System::Threading::IThreadPoolWorkItem* callback);
     // public System.Void Dequeue(System.Threading.ThreadPoolWorkQueueThreadLocals tl, out System.Threading.IThreadPoolWorkItem callback, out System.Boolean missedSteal)
-    // Offset: 0x1D1CA9C
+    // Offset: 0x17BDAF8
     void Dequeue(System::Threading::ThreadPoolWorkQueueThreadLocals* tl, System::Threading::IThreadPoolWorkItem*& callback, bool& missedSteal);
     // static System.Boolean Dispatch()
-    // Offset: 0x1D1D0E4
+    // Offset: 0x17BE140
     static bool Dispatch();
     // static private System.Void .cctor()
-    // Offset: 0x1D1D70C
+    // Offset: 0x17BE768
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1D1BEB8
+    // Offset: 0x17BCF14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

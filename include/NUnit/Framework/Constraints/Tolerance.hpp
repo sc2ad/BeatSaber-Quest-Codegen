@@ -36,33 +36,33 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: Tolerance
     Tolerance(NUnit::Framework::Constraints::ToleranceMode mode_ = {}, ::Il2CppObject* amount_ = {}) noexcept : mode{mode_}, amount{amount_} {}
     // static public NUnit.Framework.Constraints.Tolerance get_Default()
-    // Offset: 0x13DB0B0
+    // Offset: 0x1697BD0
     static NUnit::Framework::Constraints::Tolerance* get_Default();
     // static public NUnit.Framework.Constraints.Tolerance get_Exact()
-    // Offset: 0x13E2E54
+    // Offset: 0x169F974
     static NUnit::Framework::Constraints::Tolerance* get_Exact();
     // public System.Void .ctor(System.Object amount)
-    // Offset: 0x13E5D64
+    // Offset: 0x16A2884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tolerance* New_ctor(::Il2CppObject* amount) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Tolerance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tolerance*, creationType>(amount)));
     }
     // private System.Void .ctor(System.Object amount, NUnit.Framework.Constraints.ToleranceMode mode)
-    // Offset: 0x13E6610
+    // Offset: 0x16A3130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tolerance* New_ctor(::Il2CppObject* amount, NUnit::Framework::Constraints::ToleranceMode mode) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Tolerance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tolerance*, creationType>(amount, mode)));
     }
     // public NUnit.Framework.Constraints.ToleranceMode get_Mode()
-    // Offset: 0x13DD204
+    // Offset: 0x1699D24
     NUnit::Framework::Constraints::ToleranceMode get_Mode();
     // public System.Object get_Value()
-    // Offset: 0x13DD1FC
+    // Offset: 0x1699D1C
     ::Il2CppObject* get_Value();
     // public System.Boolean get_IsUnsetOrDefault()
-    // Offset: 0x13DD1EC
+    // Offset: 0x1699D0C
     bool get_IsUnsetOrDefault();
   }; // NUnit.Framework.Constraints.Tolerance
   #pragma pack(pop)

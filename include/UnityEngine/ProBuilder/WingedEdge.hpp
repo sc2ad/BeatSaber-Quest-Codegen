@@ -49,35 +49,35 @@ namespace UnityEngine::ProBuilder {
     class $$c__DisplayClass32_0;
     // Nested type: UnityEngine::ProBuilder::WingedEdge::$$c
     class $$c;
-    // [CompilerGeneratedAttribute] Offset: 0xDE54C8
+    // [CompilerGeneratedAttribute] Offset: 0xD57B14
     // private UnityEngine.ProBuilder.EdgeLookup <edge>k__BackingField
     // Size: 0x10
     // Offset: 0x10
     UnityEngine::ProBuilder::EdgeLookup edge;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::EdgeLookup) == 0x10);
-    // [CompilerGeneratedAttribute] Offset: 0xDE54D8
+    // [CompilerGeneratedAttribute] Offset: 0xD57B24
     // private UnityEngine.ProBuilder.Face <face>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::ProBuilder::Face* face;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Face*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDE54E8
+    // [CompilerGeneratedAttribute] Offset: 0xD57B34
     // private UnityEngine.ProBuilder.WingedEdge <next>k__BackingField
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::ProBuilder::WingedEdge* next;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::WingedEdge*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDE54F8
+    // [CompilerGeneratedAttribute] Offset: 0xD57B44
     // private UnityEngine.ProBuilder.WingedEdge <previous>k__BackingField
     // Size: 0x8
     // Offset: 0x30
     UnityEngine::ProBuilder::WingedEdge* previous;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::WingedEdge*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDE5508
+    // [CompilerGeneratedAttribute] Offset: 0xD57B54
     // private UnityEngine.ProBuilder.WingedEdge <opposite>k__BackingField
     // Size: 0x8
     // Offset: 0x38
@@ -95,67 +95,67 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Edge,UnityEngine.ProBuilder.WingedEdge> k_OppositeEdgeDictionary
     static void _set_k_OppositeEdgeDictionary(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Edge, UnityEngine::ProBuilder::WingedEdge*>* value);
     // public UnityEngine.ProBuilder.EdgeLookup get_edge()
-    // Offset: 0x1955DAC
+    // Offset: 0x21DB4A0
     UnityEngine::ProBuilder::EdgeLookup get_edge();
     // private System.Void set_edge(UnityEngine.ProBuilder.EdgeLookup value)
-    // Offset: 0x1955DB8
+    // Offset: 0x21DB4AC
     void set_edge(UnityEngine::ProBuilder::EdgeLookup value);
     // public UnityEngine.ProBuilder.Face get_face()
-    // Offset: 0x1955DC0
+    // Offset: 0x21DB4B4
     UnityEngine::ProBuilder::Face* get_face();
     // private System.Void set_face(UnityEngine.ProBuilder.Face value)
-    // Offset: 0x1955DC8
+    // Offset: 0x21DB4BC
     void set_face(UnityEngine::ProBuilder::Face* value);
     // public UnityEngine.ProBuilder.WingedEdge get_next()
-    // Offset: 0x1955DD0
+    // Offset: 0x21DB4C4
     UnityEngine::ProBuilder::WingedEdge* get_next();
     // private System.Void set_next(UnityEngine.ProBuilder.WingedEdge value)
-    // Offset: 0x1955DD8
+    // Offset: 0x21DB4CC
     void set_next(UnityEngine::ProBuilder::WingedEdge* value);
     // public UnityEngine.ProBuilder.WingedEdge get_previous()
-    // Offset: 0x1955DE0
+    // Offset: 0x21DB4D4
     UnityEngine::ProBuilder::WingedEdge* get_previous();
     // private System.Void set_previous(UnityEngine.ProBuilder.WingedEdge value)
-    // Offset: 0x1955DE8
+    // Offset: 0x21DB4DC
     void set_previous(UnityEngine::ProBuilder::WingedEdge* value);
     // public UnityEngine.ProBuilder.WingedEdge get_opposite()
-    // Offset: 0x1955DF0
+    // Offset: 0x21DB4E4
     UnityEngine::ProBuilder::WingedEdge* get_opposite();
     // private System.Void set_opposite(UnityEngine.ProBuilder.WingedEdge value)
-    // Offset: 0x1955DF8
+    // Offset: 0x21DB4EC
     void set_opposite(UnityEngine::ProBuilder::WingedEdge* value);
     // public System.Int32 Count()
-    // Offset: 0x1955F50
+    // Offset: 0x21DB644
     int Count();
     // static System.Int32[] MakeQuad(UnityEngine.ProBuilder.WingedEdge left, UnityEngine.ProBuilder.WingedEdge right)
-    // Offset: 0x1956178
+    // Offset: 0x21DB86C
     static ::Array<int>* MakeQuad(UnityEngine::ProBuilder::WingedEdge* left, UnityEngine::ProBuilder::WingedEdge* right);
     // public UnityEngine.ProBuilder.WingedEdge GetAdjacentEdgeWithCommonIndex(System.Int32 common)
-    // Offset: 0x1956594
+    // Offset: 0x21DBC88
     UnityEngine::ProBuilder::WingedEdge* GetAdjacentEdgeWithCommonIndex(int common);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> SortEdgesByAdjacency(UnityEngine.ProBuilder.Face face)
-    // Offset: 0x195661C
+    // Offset: 0x21DBD10
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>* SortEdgesByAdjacency(UnityEngine::ProBuilder::Face* face);
     // static public System.Void SortEdgesByAdjacency(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x1956714
+    // Offset: 0x21DBE08
     static void SortEdgesByAdjacency(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>* edges);
     // static public System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>> GetSpokes(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> wings)
-    // Offset: 0x19568D4
+    // Offset: 0x21DBFC8
     static System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>*>* GetSpokes(System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* wings);
     // static System.Collections.Generic.List`1<System.Int32> SortCommonIndexesByAdjacency(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> wings, System.Collections.Generic.HashSet`1<System.Int32> common)
-    // Offset: 0x1956BD0
+    // Offset: 0x21DC2C4
     static System::Collections::Generic::List_1<int>* SortCommonIndexesByAdjacency(System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* wings, System::Collections::Generic::HashSet_1<int>* common);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> GetWingedEdges(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Boolean oneWingPerFace)
-    // Offset: 0x1956E90
+    // Offset: 0x21DC584
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* GetWingedEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, bool oneWingPerFace);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> GetWingedEdges(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Boolean oneWingPerFace)
-    // Offset: 0x194A2B0
+    // Offset: 0x21CF9A4
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* GetWingedEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, bool oneWingPerFace);
     // static private System.Void .cctor()
-    // Offset: 0x1956F84
+    // Offset: 0x21DC678
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x1955E00
+    // Offset: 0x21DB4F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -164,22 +164,22 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<WingedEdge*, creationType>()));
     }
     // public System.Boolean Equals(UnityEngine.ProBuilder.WingedEdge other)
-    // Offset: 0x1955E08
+    // Offset: 0x21DB4FC
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.ProBuilder.WingedEdge other)
     bool Equals(UnityEngine::ProBuilder::WingedEdge* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1955E4C
+    // Offset: 0x21DB540
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1955F24
+    // Offset: 0x21DB618
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1955F84
+    // Offset: 0x21DB678
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

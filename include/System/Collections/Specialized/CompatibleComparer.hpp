@@ -55,26 +55,26 @@ namespace System::Collections::Specialized {
     // Set static field: static private System.Collections.IHashCodeProvider defaultHashProvider
     static void _set_defaultHashProvider(System::Collections::IHashCodeProvider* value);
     // System.Void .ctor(System.Collections.IComparer comparer, System.Collections.IHashCodeProvider hashCodeProvider)
-    // Offset: 0x147AD28
+    // Offset: 0x178F760
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompatibleComparer* New_ctor(System::Collections::IComparer* comparer, System::Collections::IHashCodeProvider* hashCodeProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::CompatibleComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompatibleComparer*, creationType>(comparer, hashCodeProvider)));
     }
     // public System.Collections.IComparer get_Comparer()
-    // Offset: 0x147B09C
+    // Offset: 0x178FAD4
     System::Collections::IComparer* get_Comparer();
     // public System.Collections.IHashCodeProvider get_HashCodeProvider()
-    // Offset: 0x147B0A4
+    // Offset: 0x178FADC
     System::Collections::IHashCodeProvider* get_HashCodeProvider();
     // static public System.Collections.IComparer get_DefaultComparer()
-    // Offset: 0x147B0AC
+    // Offset: 0x178FAE4
     static System::Collections::IComparer* get_DefaultComparer();
     // static public System.Collections.IHashCodeProvider get_DefaultHashCodeProvider()
-    // Offset: 0x147B188
+    // Offset: 0x178FBC0
     static System::Collections::IHashCodeProvider* get_DefaultHashCodeProvider();
     // public System.Boolean Equals(System.Object a, System.Object b)
-    // Offset: 0x147AD78
+    // Offset: 0x178F7B0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object a, System.Object b)
     // Base method: System.Boolean IEqualityComparer::Equals(System.Object a, System.Object b)
@@ -83,7 +83,7 @@ namespace System::Collections::Specialized {
     // Maps to method: Equals
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x147AF84
+    // Offset: 0x178F9BC
     // Implemented from: System.Collections.IEqualityComparer
     // Base method: System.Int32 IEqualityComparer::GetHashCode(System.Object obj)
     int GetHashCode(::Il2CppObject* obj);

@@ -21,7 +21,7 @@ namespace Mono::Security::Interface {
   // [] Offset: FFFFFFFF
   class MonoTlsConnectionInfo : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD43EE0
+    // [CompilerGeneratedAttribute] Offset: 0xCB4A94
     // private Mono.Security.Interface.CipherSuiteCode <CipherSuiteCode>k__BackingField
     // Size: 0x2
     // Offset: 0x10
@@ -30,14 +30,14 @@ namespace Mono::Security::Interface {
     static_assert(sizeof(Mono::Security::Interface::CipherSuiteCode) == 0x2);
     // Padding between fields: CipherSuiteCode and: ProtocolVersion
     char __padding0[0x2] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD43EF0
+    // [CompilerGeneratedAttribute] Offset: 0xCB4AA4
     // private Mono.Security.Interface.TlsProtocols <ProtocolVersion>k__BackingField
     // Size: 0x4
     // Offset: 0x14
     Mono::Security::Interface::TlsProtocols ProtocolVersion;
     // Field size check
     static_assert(sizeof(Mono::Security::Interface::TlsProtocols) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD43F00
+    // [CompilerGeneratedAttribute] Offset: 0xCB4AB4
     // private System.String <PeerDomainName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -47,27 +47,27 @@ namespace Mono::Security::Interface {
     // Creating value type constructor for type: MonoTlsConnectionInfo
     MonoTlsConnectionInfo(Mono::Security::Interface::CipherSuiteCode CipherSuiteCode_ = {}, Mono::Security::Interface::TlsProtocols ProtocolVersion_ = {}, ::Il2CppString* PeerDomainName_ = {}) noexcept : CipherSuiteCode{CipherSuiteCode_}, ProtocolVersion{ProtocolVersion_}, PeerDomainName{PeerDomainName_} {}
     // public Mono.Security.Interface.CipherSuiteCode get_CipherSuiteCode()
-    // Offset: 0x17B8128
+    // Offset: 0x1BF0B48
     Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();
     // public System.Void set_CipherSuiteCode(Mono.Security.Interface.CipherSuiteCode value)
-    // Offset: 0x17B8130
+    // Offset: 0x1BF0B50
     void set_CipherSuiteCode(Mono::Security::Interface::CipherSuiteCode value);
     // public Mono.Security.Interface.TlsProtocols get_ProtocolVersion()
-    // Offset: 0x17B8138
+    // Offset: 0x1BF0B58
     Mono::Security::Interface::TlsProtocols get_ProtocolVersion();
     // public System.Void set_ProtocolVersion(Mono.Security.Interface.TlsProtocols value)
-    // Offset: 0x17B8140
+    // Offset: 0x1BF0B60
     void set_ProtocolVersion(Mono::Security::Interface::TlsProtocols value);
     // public System.Void set_PeerDomainName(System.String value)
-    // Offset: 0x17B8148
+    // Offset: 0x1BF0B68
     void set_PeerDomainName(::Il2CppString* value);
     // public override System.String ToString()
-    // Offset: 0x17B8150
+    // Offset: 0x1BF0B70
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x17B81F4
+    // Offset: 0x1BF0C14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -40,20 +40,20 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: InteractionEventDelegate
     InteractionEventDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x17EF9AC
+    // Offset: 0x1C3B0A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionSystem::InteractionEventDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionSystem::InteractionEventDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject, RootMotion.FinalIK.InteractionObject/InteractionEvent interactionEvent)
-    // Offset: 0x17E9F1C
+    // Offset: 0x1C35610
     void Invoke(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject, RootMotion::FinalIK::InteractionObject::InteractionEvent* interactionEvent);
     // public System.IAsyncResult BeginInvoke(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject, RootMotion.FinalIK.InteractionObject/InteractionEvent interactionEvent, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x17EF9C0
+    // Offset: 0x1C3B0B4
     System::IAsyncResult* BeginInvoke(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject, RootMotion::FinalIK::InteractionObject::InteractionEvent* interactionEvent, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x17EFA60
+    // Offset: 0x1C3B154
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.FinalIK.InteractionSystem/InteractionEventDelegate
   #pragma pack(pop)

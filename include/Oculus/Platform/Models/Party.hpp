@@ -42,7 +42,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* InvitedUsersOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xDB0184
+    // [ObsoleteAttribute] Offset: 0xD21F80
     // public readonly Oculus.Platform.Models.UserList InvitedUsers
     // Size: 0x8
     // Offset: 0x20
@@ -55,7 +55,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::User* LeaderOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xDB01BC
+    // [ObsoleteAttribute] Offset: 0xD21FB8
     // public readonly Oculus.Platform.Models.User Leader
     // Size: 0x8
     // Offset: 0x30
@@ -68,7 +68,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::Room* RoomOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::Room*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xDB01F4
+    // [ObsoleteAttribute] Offset: 0xD21FF0
     // public readonly Oculus.Platform.Models.Room Room
     // Size: 0x8
     // Offset: 0x40
@@ -81,7 +81,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* UsersOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xDB022C
+    // [ObsoleteAttribute] Offset: 0xD22028
     // public readonly Oculus.Platform.Models.UserList Users
     // Size: 0x8
     // Offset: 0x50
@@ -91,7 +91,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: Party
     Party(uint64_t ID_ = {}, Oculus::Platform::Models::UserList* InvitedUsersOptional_ = {}, Oculus::Platform::Models::UserList* InvitedUsers_ = {}, Oculus::Platform::Models::User* LeaderOptional_ = {}, Oculus::Platform::Models::User* Leader_ = {}, Oculus::Platform::Models::Room* RoomOptional_ = {}, Oculus::Platform::Models::Room* Room_ = {}, Oculus::Platform::Models::UserList* UsersOptional_ = {}, Oculus::Platform::Models::UserList* Users_ = {}) noexcept : ID{ID_}, InvitedUsersOptional{InvitedUsersOptional_}, InvitedUsers{InvitedUsers_}, LeaderOptional{LeaderOptional_}, Leader{Leader_}, RoomOptional{RoomOptional_}, Room{Room_}, UsersOptional{UsersOptional_}, Users{Users_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x11DD80C
+    // Offset: 0x13EE614
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Party* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Party::.ctor");

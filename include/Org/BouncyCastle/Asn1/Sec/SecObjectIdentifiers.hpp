@@ -159,7 +159,7 @@ namespace Org::BouncyCastle::Asn1::Sec {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier SecP256r1
     static void _set_SecP256r1(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x1406D24
+    // Offset: 0x16F3BF0
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Sec.SecObjectIdentifiers
   #pragma pack(pop)

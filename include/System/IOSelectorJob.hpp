@@ -63,22 +63,22 @@ namespace System {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);
     }
     // public System.Void .ctor(System.IOOperation operation, System.IOAsyncCallback callback, System.IOAsyncResult state)
-    // Offset: 0x1490E58
+    // Offset: 0x17A5890
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOSelectorJob* New_ctor(System::IOOperation operation, System::IOAsyncCallback* callback, System::IOAsyncResult* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IOSelectorJob::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOSelectorJob*, creationType>(operation, callback, state)));
     }
     // public System.Void MarkDisposed()
-    // Offset: 0x1490ED4
+    // Offset: 0x17A590C
     void MarkDisposed();
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x1490EB0
+    // Offset: 0x17A58E8
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::ExecuteWorkItem()
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x1490ED0
+    // Offset: 0x17A5908
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);

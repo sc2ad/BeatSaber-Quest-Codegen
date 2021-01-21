@@ -36,21 +36,21 @@ namespace GlobalNamespace {
     BlueNoiseDithering(UnityEngine::Texture2D* noiseTexture_ = {}) noexcept : noiseTexture{noiseTexture_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDA4D00
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD16950
     // Get static field: static private readonly System.Int32 _noiseParamsID
     static int _get__noiseParamsID();
     // Set static field: static private readonly System.Int32 _noiseParamsID
     static void _set__noiseParamsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDA4D10
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD16960
     // Get static field: static private readonly System.Int32 _globalNoiseTextureID
     static int _get__globalNoiseTextureID();
     // Set static field: static private readonly System.Int32 _globalNoiseTextureID
     static void _set__globalNoiseTextureID(int value);
     // public System.Void SetBlueNoiseShaderParams(System.Int32 cameraPixelWidth, System.Int32 cameraPixelHeight)
-    // Offset: 0x1877DF0
+    // Offset: 0x1D9B6FC
     void SetBlueNoiseShaderParams(int cameraPixelWidth, int cameraPixelHeight);
     // public System.Void .ctor()
-    // Offset: 0x1877F10
+    // Offset: 0x1D9B81C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BlueNoiseDithering*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1877F18
+    // Offset: 0x1D9B824
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

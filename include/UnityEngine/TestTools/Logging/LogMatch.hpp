@@ -66,24 +66,24 @@ namespace UnityEngine::TestTools::Logging {
     // Creating value type constructor for type: LogMatch
     LogMatch(bool m_UseRegex_ = {}, ::Il2CppString* m_Message_ = {}, ::Il2CppString* m_MessageRegex_ = {}, ::Il2CppString* m_LogType_ = {}) noexcept : m_UseRegex{m_UseRegex_}, m_Message{m_Message_}, m_MessageRegex{m_MessageRegex_}, m_LogType{m_LogType_} {}
     // public System.String get_Message()
-    // Offset: 0x119082C
+    // Offset: 0x1338230
     ::Il2CppString* get_Message();
     // public System.Text.RegularExpressions.Regex get_MessageRegex()
-    // Offset: 0x1190834
+    // Offset: 0x1338238
     System::Text::RegularExpressions::Regex* get_MessageRegex();
     // public System.Nullable`1<UnityEngine.LogType> get_LogType()
-    // Offset: 0x11908AC
+    // Offset: 0x13382B0
     System::Nullable_1<UnityEngine::LogType> get_LogType();
     // public System.Boolean Matches(UnityEngine.TestTools.Logging.LogEvent log)
-    // Offset: 0x11909C8
+    // Offset: 0x13383CC
     bool Matches(UnityEngine::TestTools::Logging::LogEvent* log);
     // public override System.String ToString()
-    // Offset: 0x1190AA0
+    // Offset: 0x13384A4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x1190B68
+    // Offset: 0x133856C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

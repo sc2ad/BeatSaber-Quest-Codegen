@@ -49,14 +49,14 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
     }
     // System.Void .ctor(System.Int32 tag, Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x1372F98
+    // Offset: 0x160055C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerApplicationSpecificParser* New_ctor(int tag, Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerApplicationSpecificParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerApplicationSpecificParser*, creationType>(tag, parser)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1372FDC
+    // Offset: 0x16005A0
     // Implemented from: Org.BouncyCastle.Asn1.IAsn1Convertible
     // Base method: Org.BouncyCastle.Asn1.Asn1Object IAsn1Convertible::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

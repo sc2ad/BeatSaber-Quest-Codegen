@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC6FDC
+    // [InjectAttribute] Offset: 0xD38FF8
     // private BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x20
@@ -46,16 +46,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1A74574
+    // Offset: 0x10945B8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1A74600
+    // Offset: 0x10946E4
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectiveWasCleared()
-    // Offset: 0x1A7468C
+    // Offset: 0x1094810
     void HandleMissionObjectiveCheckersManagerObjectiveWasCleared();
     // public System.Void .ctor()
-    // Offset: 0x1A74708
+    // Offset: 0x109488C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

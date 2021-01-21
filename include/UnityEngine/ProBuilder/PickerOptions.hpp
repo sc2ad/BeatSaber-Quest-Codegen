@@ -18,7 +18,7 @@ namespace UnityEngine::ProBuilder {
   // [] Offset: FFFFFFFF
   struct PickerOptions/*, public System::ValueType*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDE50CC
+    // [CompilerGeneratedAttribute] Offset: 0xD57718
     // private System.Boolean <depthTest>k__BackingField
     // Size: 0x1
     // Offset: 0x0
@@ -27,7 +27,7 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: depthTest and: rectSelectMode
     char __padding0[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDE50DC
+    // [CompilerGeneratedAttribute] Offset: 0xD57728
     // private UnityEngine.ProBuilder.RectSelectMode <rectSelectMode>k__BackingField
     // Size: 0x4
     // Offset: 0x4
@@ -45,33 +45,33 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private readonly UnityEngine.ProBuilder.PickerOptions k_Default
     static void _set_k_Default(UnityEngine::ProBuilder::PickerOptions value);
     // public System.Boolean get_depthTest()
-    // Offset: 0xC9E868
+    // Offset: 0xE0A9D4
     bool get_depthTest();
     // public System.Void set_depthTest(System.Boolean value)
-    // Offset: 0xC9E870
+    // Offset: 0xE0A9DC
     void set_depthTest(bool value);
     // public UnityEngine.ProBuilder.RectSelectMode get_rectSelectMode()
-    // Offset: 0xC9E87C
+    // Offset: 0xE0A9E8
     UnityEngine::ProBuilder::RectSelectMode get_rectSelectMode();
     // public System.Void set_rectSelectMode(UnityEngine.ProBuilder.RectSelectMode value)
-    // Offset: 0xC9E884
+    // Offset: 0xE0A9F0
     void set_rectSelectMode(UnityEngine::ProBuilder::RectSelectMode value);
     // static public UnityEngine.ProBuilder.PickerOptions get_Default()
-    // Offset: 0x139E4C8
+    // Offset: 0x163F4F4
     static UnityEngine::ProBuilder::PickerOptions get_Default();
     // public System.Boolean Equals(UnityEngine.ProBuilder.PickerOptions other)
-    // Offset: 0xC9E894
+    // Offset: 0xE0AA00
     bool Equals(UnityEngine::ProBuilder::PickerOptions other);
     // static private System.Void .cctor()
-    // Offset: 0x139E6B8
+    // Offset: 0x163F6E4
     static void _cctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC9E88C
+    // Offset: 0xE0A9F8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC9E8CC
+    // Offset: 0xE0AA38
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -80,10 +80,10 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(PickerOptions), 4 + sizeof(UnityEngine::ProBuilder::RectSelectMode)> __UnityEngine_ProBuilder_PickerOptionsSizeCheck;
   static_assert(sizeof(PickerOptions) == 0x8);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.PickerOptions a, UnityEngine.ProBuilder.PickerOptions b)
-  // Offset: 0x139E650
+  // Offset: 0x163F67C
   bool operator ==(const UnityEngine::ProBuilder::PickerOptions& a, const UnityEngine::ProBuilder::PickerOptions& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.PickerOptions a, UnityEngine.ProBuilder.PickerOptions b)
-  // Offset: 0x139E684
+  // Offset: 0x163F6B0
   bool operator !=(const UnityEngine::ProBuilder::PickerOptions& a, const UnityEngine::ProBuilder::PickerOptions& b);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

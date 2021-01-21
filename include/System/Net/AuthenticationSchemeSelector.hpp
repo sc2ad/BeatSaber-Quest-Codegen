@@ -38,20 +38,20 @@ namespace System::Net {
     // Creating value type constructor for type: AuthenticationSchemeSelector
     AuthenticationSchemeSelector() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x130A700
+    // Offset: 0x1559494
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AuthenticationSchemeSelector* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::AuthenticationSchemeSelector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticationSchemeSelector*, creationType>(object, method)));
     }
     // public System.Net.AuthenticationSchemes Invoke(System.Net.HttpListenerRequest httpRequest)
-    // Offset: 0x130A714
+    // Offset: 0x15594A8
     System::Net::AuthenticationSchemes Invoke(System::Net::HttpListenerRequest* httpRequest);
     // public System.IAsyncResult BeginInvoke(System.Net.HttpListenerRequest httpRequest, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x130AAD4
+    // Offset: 0x1559868
     System::IAsyncResult* BeginInvoke(System::Net::HttpListenerRequest* httpRequest, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Net.AuthenticationSchemes EndInvoke(System.IAsyncResult result)
-    // Offset: 0x130AAF8
+    // Offset: 0x155988C
     System::Net::AuthenticationSchemes EndInvoke(System::IAsyncResult* result);
   }; // System.Net.AuthenticationSchemeSelector
   #pragma pack(pop)

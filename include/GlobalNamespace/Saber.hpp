@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SaberTypeObject* saberType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberTypeObject*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDCACDC
+    // [CompilerGeneratedAttribute] Offset: 0xD3CF18
     // private System.Boolean <disableCutting>k__BackingField
     // Size: 0x1
     // Offset: 0x38
@@ -120,49 +120,49 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kNumberOfPreallocatedSwingRatingCounters
     static void _set_kNumberOfPreallocatedSwingRatingCounters(int value);
     // public SaberType get_saberType()
-    // Offset: 0xF37360
+    // Offset: 0x1082198
     GlobalNamespace::SaberType get_saberType();
     // public UnityEngine.Vector3 get_saberBladeTopPos()
-    // Offset: 0xF3737C
+    // Offset: 0x10821B4
     UnityEngine::Vector3 get_saberBladeTopPos();
     // public UnityEngine.Vector3 get_saberBladeBottomPos()
-    // Offset: 0xF37388
+    // Offset: 0x10821C0
     UnityEngine::Vector3 get_saberBladeBottomPos();
     // public UnityEngine.Vector3 get_handlePos()
-    // Offset: 0xF37394
+    // Offset: 0x10821CC
     UnityEngine::Vector3 get_handlePos();
     // public UnityEngine.Quaternion get_handleRot()
-    // Offset: 0xF373B0
+    // Offset: 0x10821E8
     UnityEngine::Quaternion get_handleRot();
     // public System.Single get_bladeSpeed()
-    // Offset: 0xF373CC
+    // Offset: 0x1082204
     float get_bladeSpeed();
     // public SaberMovementData get_movementData()
-    // Offset: 0xF373E8
+    // Offset: 0x1082220
     GlobalNamespace::SaberMovementData* get_movementData();
     // public System.Boolean get_disableCutting()
-    // Offset: 0xF373F0
+    // Offset: 0x1082228
     bool get_disableCutting();
     // public System.Void set_disableCutting(System.Boolean value)
-    // Offset: 0xF373F8
+    // Offset: 0x1082230
     void set_disableCutting(bool value);
     // protected System.Void Start()
-    // Offset: 0xF37404
+    // Offset: 0x108223C
     void Start();
     // public System.Void ManualUpdate()
-    // Offset: 0xF374A4
+    // Offset: 0x1082340
     void ManualUpdate();
     // public SaberSwingRatingCounter CreateSwingRatingCounter(UnityEngine.Transform noteTransform)
-    // Offset: 0xF3768C
+    // Offset: 0x1082A24
     GlobalNamespace::SaberSwingRatingCounter* CreateSwingRatingCounter(UnityEngine::Transform* noteTransform);
     // protected System.Void OnDrawGizmos()
-    // Offset: 0xF37768
+    // Offset: 0x1082C04
     void OnDrawGizmos();
     // public System.Void OverridePositionAndRotation(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0xF37860
+    // Offset: 0x1082FDC
     void OverridePositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // public System.Void .ctor()
-    // Offset: 0xF378DC
+    // Offset: 0x1083058
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

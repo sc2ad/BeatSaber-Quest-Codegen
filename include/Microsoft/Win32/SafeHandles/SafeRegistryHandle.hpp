@@ -22,7 +22,7 @@ namespace Microsoft::Win32::SafeHandles {
     // Creating value type constructor for type: SafeRegistryHandle
     SafeRegistryHandle() noexcept {}
     // public System.Void .ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
-    // Offset: 0x1516154
+    // Offset: 0x1883784
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Void SafeHandle::.ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -31,7 +31,7 @@ namespace Microsoft::Win32::SafeHandles {
       return THROW_UNLESS((::il2cpp_utils::New<SafeRegistryHandle*, creationType>(preexistingHandle, ownsHandle)));
     }
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x1516AA0
+    // Offset: 0x18840D0
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();

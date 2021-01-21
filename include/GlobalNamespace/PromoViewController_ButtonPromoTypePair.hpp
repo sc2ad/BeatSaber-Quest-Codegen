@@ -43,21 +43,21 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* button;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [NullAllowed] Offset: 0xDD3FFC
+    // [NullAllowed] Offset: 0xD463D0
     // public PreviewBeatmapLevelPackSO previewLevelPack
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::PreviewBeatmapLevelPackSO* previewLevelPack;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PreviewBeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0xDD400C
+    // [NullAllowed] Offset: 0xD463E0
     // public BeatmapLevelPackSO levelPack
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapLevelPackSO* levelPack;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0xDD401C
+    // [NullAllowed] Offset: 0xD463F0
     // public BeatmapLevelSO beatmapLevel
     // Size: 0x8
     // Offset: 0x28
@@ -73,10 +73,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ButtonPromoTypePair
     ButtonPromoTypePair(UnityEngine::UI::Button* button_ = {}, GlobalNamespace::PreviewBeatmapLevelPackSO* previewLevelPack_ = {}, GlobalNamespace::BeatmapLevelPackSO* levelPack_ = {}, GlobalNamespace::BeatmapLevelSO* beatmapLevel_ = {}, GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection_ = {}) noexcept : button{button_}, previewLevelPack{previewLevelPack_}, levelPack{levelPack_}, beatmapLevel{beatmapLevel_}, annotatedBeatmapLevelCollection{annotatedBeatmapLevelCollection_} {}
     // public IAnnotatedBeatmapLevelCollection get_annotatedBeatmapLevelCollection()
-    // Offset: 0xF2DE40
+    // Offset: 0xFBFEA8
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_annotatedBeatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0xF2DF18
+    // Offset: 0xFBFF80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

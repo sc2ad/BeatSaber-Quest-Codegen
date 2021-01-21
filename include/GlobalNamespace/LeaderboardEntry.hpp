@@ -57,10 +57,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetScore(System.Int32 score, System.String playerName, System.Int32 rank, System.Boolean highlighted, System.Boolean showSeparator)
-    // Offset: 0xF1CFB4
+    // Offset: 0xFD4020
     void SetScore(int score, ::Il2CppString* playerName, int rank, bool highlighted, bool showSeparator);
     // public System.Void .ctor()
-    // Offset: 0xF1D154
+    // Offset: 0xFD41C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -26,7 +26,7 @@ namespace UnityEngine::Timeline {
   // [] Offset: FFFFFFFF
   class RuntimeElement : public ::Il2CppObject/*, public UnityEngine::Timeline::IInterval*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD8E068
+    // [CompilerGeneratedAttribute] Offset: 0xCFFE9C
     // private System.Int32 <intervalBit>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -44,10 +44,10 @@ namespace UnityEngine::Timeline {
       return intervalBit;
     }
     // public System.Int32 get_intervalBit()
-    // Offset: 0x141FFBC
+    // Offset: 0x17359F4
     int get_intervalBit();
     // public System.Void set_intervalBit(System.Int32 value)
-    // Offset: 0x141FFC4
+    // Offset: 0x17359FC
     void set_intervalBit(int value);
     // public System.Void set_enable(System.Boolean value)
     // Offset: 0xFFFFFFFF
@@ -56,7 +56,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0xFFFFFFFF
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
     // public System.Void Reset()
-    // Offset: 0x141FFCC
+    // Offset: 0x1735A04
     void Reset();
     // public System.Int64 get_intervalStart()
     // Offset: 0xFFFFFFFF
@@ -69,7 +69,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Int64 IInterval::get_intervalEnd()
     int64_t get_intervalEnd();
     // protected System.Void .ctor()
-    // Offset: 0x141CEEC
+    // Offset: 0x1732924
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

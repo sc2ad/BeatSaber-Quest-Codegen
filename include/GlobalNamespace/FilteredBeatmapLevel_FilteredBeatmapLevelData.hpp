@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class FilteredBeatmapLevel::FilteredBeatmapLevelData : public ::Il2CppObject/*, public GlobalNamespace::IBeatmapLevelData*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDD3FBC
+    // [CompilerGeneratedAttribute] Offset: 0xD46390
     // private IDifficultyBeatmapSet[] <difficultyBeatmapSets>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -63,22 +63,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelData*>(this);
     }
     // private System.Void set_difficultyBeatmapSets(IDifficultyBeatmapSet[] value)
-    // Offset: 0x1A128F8
+    // Offset: 0xF2C78C
     void set_difficultyBeatmapSets(::Array<GlobalNamespace::IDifficultyBeatmapSet*>* value);
     // public System.Void .ctor(IBeatmapLevelData beatmapLevelData, BeatmapDifficultyMask allowedBeatmapDifficultyMask, System.Collections.Generic.HashSet`1<BeatmapCharacteristicSO> notAllowedCharacteristics)
-    // Offset: 0x1A123D0
+    // Offset: 0xF2C264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FilteredBeatmapLevel::FilteredBeatmapLevelData* New_ctor(GlobalNamespace::IBeatmapLevelData* beatmapLevelData, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FilteredBeatmapLevel::FilteredBeatmapLevelData*, creationType>(beatmapLevelData, allowedBeatmapDifficultyMask, notAllowedCharacteristics)));
     }
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x1A12840
+    // Offset: 0xF2C6D4
     // Implemented from: IBeatmapLevelData
     // Base method: UnityEngine.AudioClip IBeatmapLevelData::get_audioClip()
     UnityEngine::AudioClip* get_audioClip();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x1A128F0
+    // Offset: 0xF2C784
     // Implemented from: IBeatmapLevelData
     // Base method: IDifficultyBeatmapSet[] IBeatmapLevelData::get_difficultyBeatmapSets()
     ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();

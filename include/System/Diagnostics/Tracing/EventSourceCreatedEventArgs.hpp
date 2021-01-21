@@ -26,7 +26,7 @@ namespace System::Diagnostics::Tracing {
   // [] Offset: FFFFFFFF
   class EventSourceCreatedEventArgs : public System::EventArgs {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD3F1B8
+    // [CompilerGeneratedAttribute] Offset: 0xCAFD6C
     // private System.Diagnostics.Tracing.EventSource <EventSource>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -40,10 +40,10 @@ namespace System::Diagnostics::Tracing {
       return EventSource;
     }
     // System.Void set_EventSource(System.Diagnostics.Tracing.EventSource value)
-    // Offset: 0x12D8850
+    // Offset: 0x15275E4
     void set_EventSource(System::Diagnostics::Tracing::EventSource* value);
     // public System.Void .ctor()
-    // Offset: 0x12C6F74
+    // Offset: 0x1515D08
     // Implemented from: System.EventArgs
     // Base method: System.Void EventArgs::.ctor()
     // Base method: System.Void Object::.ctor()

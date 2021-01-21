@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicCollectionSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDCF1D0
+    // [CompilerGeneratedAttribute] Offset: 0xD4148C
     // private System.Action`2<BeatmapCharacteristicSelectionViewController,BeatmapCharacteristicSO> didSelectBeatmapCharacteristicEvent
     // Size: 0x8
     // Offset: 0x80
@@ -69,32 +69,32 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapCharacteristicSelectionViewController
     BeatmapCharacteristicSelectionViewController(HMUI::IconSegmentedControl* beatmapCharacteristicSegmentedControl_ = {}, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, System::Action_2<GlobalNamespace::BeatmapCharacteristicSelectionViewController*, GlobalNamespace::BeatmapCharacteristicSO*>* didSelectBeatmapCharacteristicEvent_ = {}, GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic_ = {}) noexcept : beatmapCharacteristicSegmentedControl{beatmapCharacteristicSegmentedControl_}, beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, didSelectBeatmapCharacteristicEvent{didSelectBeatmapCharacteristicEvent_}, selectedBeatmapCharacteristic{selectedBeatmapCharacteristic_} {}
     // public System.Void add_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSelectionViewController,BeatmapCharacteristicSO> value)
-    // Offset: 0x1A7C528
+    // Offset: 0x106C354
     void add_didSelectBeatmapCharacteristicEvent(System::Action_2<GlobalNamespace::BeatmapCharacteristicSelectionViewController*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSelectionViewController,BeatmapCharacteristicSO> value)
-    // Offset: 0x1A7C5CC
+    // Offset: 0x106C3F8
     void remove_didSelectBeatmapCharacteristicEvent(System::Action_2<GlobalNamespace::BeatmapCharacteristicSelectionViewController*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public BeatmapCharacteristicSO get_selectedBeatmapCharacteristic()
-    // Offset: 0x1A7C670
+    // Offset: 0x106C49C
     GlobalNamespace::BeatmapCharacteristicSO* get_selectedBeatmapCharacteristic();
     // public System.Void Init()
-    // Offset: 0x1A7C678
+    // Offset: 0x106C4A4
     void Init();
     // private System.Void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x1A7C978
+    // Offset: 0x106C7A4
     void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1A7C6DC
+    // Offset: 0x106C508
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1A7C8CC
+    // Offset: 0x106C6F8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x1A7CA20
+    // Offset: 0x106C84C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

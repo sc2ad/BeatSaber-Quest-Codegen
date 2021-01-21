@@ -46,25 +46,25 @@ namespace HMUI {
     // Creating value type constructor for type: TextSegmentedControlCell
     TextSegmentedControlCell(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::GameObject* backgroundGameObject_ = {}) noexcept : text{text_}, backgroundGameObject{backgroundGameObject_} {}
     // public System.Void set_text(System.String value)
-    // Offset: 0x108B488
+    // Offset: 0x11C6F90
     void set_text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0x108B4FC
+    // Offset: 0x11C7004
     ::Il2CppString* get_text();
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0x108B46C
+    // Offset: 0x11C6F74
     void set_fontSize(float value);
     // public System.Single get_fontSize()
-    // Offset: 0x108B518
+    // Offset: 0x11C7020
     float get_fontSize();
     // public System.Void set_hideBackgroundImage(System.Boolean value)
-    // Offset: 0x108B4A4
+    // Offset: 0x11C6FAC
     void set_hideBackgroundImage(bool value);
     // public System.Single get_preferredWidth()
-    // Offset: 0x108B4C8
+    // Offset: 0x11C6FD0
     float get_preferredWidth();
     // public System.Void .ctor()
-    // Offset: 0x108B534
+    // Offset: 0x11C703C
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

@@ -63,48 +63,48 @@ namespace UnityEngine::Timeline {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void AddReaction(UnityEngine.Timeline.SignalAsset asset, UnityEngine.Events.UnityEvent reaction)
-    // Offset: 0x1420A44
+    // Offset: 0x173647C
     void AddReaction(UnityEngine::Timeline::SignalAsset* asset, UnityEngine::Events::UnityEvent* reaction);
     // public System.Int32 AddEmptyReaction(UnityEngine.Events.UnityEvent reaction)
-    // Offset: 0x1420BF4
+    // Offset: 0x173662C
     int AddEmptyReaction(UnityEngine::Events::UnityEvent* reaction);
     // public System.Void Remove(UnityEngine.Timeline.SignalAsset asset)
-    // Offset: 0x1420C70
+    // Offset: 0x17366A8
     void Remove(UnityEngine::Timeline::SignalAsset* asset);
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.SignalAsset> GetRegisteredSignals()
-    // Offset: 0x1420DEC
+    // Offset: 0x1736824
     System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::SignalAsset*>* GetRegisteredSignals();
     // public UnityEngine.Events.UnityEvent GetReaction(UnityEngine.Timeline.SignalAsset key)
-    // Offset: 0x1420E08
+    // Offset: 0x1736840
     UnityEngine::Events::UnityEvent* GetReaction(UnityEngine::Timeline::SignalAsset* key);
     // public System.Int32 Count()
-    // Offset: 0x1420E44
+    // Offset: 0x173687C
     int Count();
     // public System.Void ChangeSignalAtIndex(System.Int32 idx, UnityEngine.Timeline.SignalAsset newKey)
-    // Offset: 0x1420E9C
+    // Offset: 0x17368D4
     void ChangeSignalAtIndex(int idx, UnityEngine::Timeline::SignalAsset* newKey);
     // public System.Void RemoveAtIndex(System.Int32 idx)
-    // Offset: 0x14210EC
+    // Offset: 0x1736B24
     void RemoveAtIndex(int idx);
     // public System.Void ChangeReactionAtIndex(System.Int32 idx, UnityEngine.Events.UnityEvent reaction)
-    // Offset: 0x1421230
+    // Offset: 0x1736C68
     void ChangeReactionAtIndex(int idx, UnityEngine::Events::UnityEvent* reaction);
     // public UnityEngine.Events.UnityEvent GetReactionAtIndex(System.Int32 idx)
-    // Offset: 0x14212EC
+    // Offset: 0x1736D24
     UnityEngine::Events::UnityEvent* GetReactionAtIndex(int idx);
     // public UnityEngine.Timeline.SignalAsset GetSignalAssetAtIndex(System.Int32 idx)
-    // Offset: 0x14213AC
+    // Offset: 0x1736DE4
     UnityEngine::Timeline::SignalAsset* GetSignalAssetAtIndex(int idx);
     // private System.Void OnEnable()
-    // Offset: 0x142146C
+    // Offset: 0x1736EA4
     void OnEnable();
     // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0x1420854
+    // Offset: 0x173628C
     // Implemented from: UnityEngine.Playables.INotificationReceiver
     // Base method: System.Void INotificationReceiver::OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
     void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
     // public System.Void .ctor()
-    // Offset: 0x1421470
+    // Offset: 0x1736EA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

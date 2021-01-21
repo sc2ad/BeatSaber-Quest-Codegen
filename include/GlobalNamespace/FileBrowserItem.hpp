@@ -17,21 +17,21 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class FileBrowserItem : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDC2B8C
+    // [CompilerGeneratedAttribute] Offset: 0xD34A50
     // private System.String <displayName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* displayName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC2B9C
+    // [CompilerGeneratedAttribute] Offset: 0xD34A60
     // private System.String <fullPath>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* fullPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC2BAC
+    // [CompilerGeneratedAttribute] Offset: 0xD34A70
     // private System.Boolean <isDirectory>k__BackingField
     // Size: 0x1
     // Offset: 0x20
@@ -41,25 +41,25 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FileBrowserItem
     FileBrowserItem(::Il2CppString* displayName_ = {}, ::Il2CppString* fullPath_ = {}, bool isDirectory_ = {}) noexcept : displayName{displayName_}, fullPath{fullPath_}, isDirectory{isDirectory_} {}
     // public System.String get_displayName()
-    // Offset: 0x1A10704
+    // Offset: 0xF2A598
     ::Il2CppString* get_displayName();
     // private System.Void set_displayName(System.String value)
-    // Offset: 0x1A1070C
+    // Offset: 0xF2A5A0
     void set_displayName(::Il2CppString* value);
     // public System.String get_fullPath()
-    // Offset: 0x1A10714
+    // Offset: 0xF2A5A8
     ::Il2CppString* get_fullPath();
     // private System.Void set_fullPath(System.String value)
-    // Offset: 0x1A1071C
+    // Offset: 0xF2A5B0
     void set_fullPath(::Il2CppString* value);
     // public System.Boolean get_isDirectory()
-    // Offset: 0x1A10724
+    // Offset: 0xF2A5B8
     bool get_isDirectory();
     // private System.Void set_isDirectory(System.Boolean value)
-    // Offset: 0x1A1072C
+    // Offset: 0xF2A5C0
     void set_isDirectory(bool value);
     // public System.Void .ctor(System.String displayName, System.String fullPath, System.Boolean isDirectory)
-    // Offset: 0x1A10738
+    // Offset: 0xF2A5CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBrowserItem* New_ctor(::Il2CppString* displayName, ::Il2CppString* fullPath, bool isDirectory) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FileBrowserItem::.ctor");

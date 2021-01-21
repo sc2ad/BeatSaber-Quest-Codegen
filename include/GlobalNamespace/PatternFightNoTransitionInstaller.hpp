@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerSpecificSettings*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDD2E30
+    // [SpaceAttribute] Offset: 0xD451DC
     // private PatternFightScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -51,12 +51,12 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0xF046C4
+    // Offset: 0xF20AB0
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xF049A0
+    // Offset: 0xF20D8C
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

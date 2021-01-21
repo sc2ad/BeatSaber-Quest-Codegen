@@ -32,7 +32,7 @@ namespace GlobalNamespace {
       return checkingEnabled;
     }
     // public System.Void .ctor(System.Boolean checkingEnabled)
-    // Offset: 0xFC4F8C
+    // Offset: 0x108AC60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeAreaRectChecker::InitData* New_ctor(bool checkingEnabled) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SafeAreaRectChecker::InitData::.ctor");

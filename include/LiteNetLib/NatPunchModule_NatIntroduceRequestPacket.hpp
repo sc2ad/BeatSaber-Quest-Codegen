@@ -26,14 +26,14 @@ namespace LiteNetLib {
   // [] Offset: FFFFFFFF
   class NatPunchModule::NatIntroduceRequestPacket : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD9B458
+    // [CompilerGeneratedAttribute] Offset: 0xD0C0A8
     // private System.Net.IPEndPoint <Internal>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     System::Net::IPEndPoint* Internal;
     // Field size check
     static_assert(sizeof(System::Net::IPEndPoint*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD9B468
+    // [CompilerGeneratedAttribute] Offset: 0xD0C0B8
     // private System.String <Token>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -43,19 +43,19 @@ namespace LiteNetLib {
     // Creating value type constructor for type: NatIntroduceRequestPacket
     NatIntroduceRequestPacket(System::Net::IPEndPoint* Internal_ = {}, ::Il2CppString* Token_ = {}) noexcept : Internal{Internal_}, Token{Token_} {}
     // public System.Net.IPEndPoint get_Internal()
-    // Offset: 0x1DC5EAC
+    // Offset: 0x1A9AFD0
     System::Net::IPEndPoint* get_Internal();
     // public System.Void set_Internal(System.Net.IPEndPoint value)
-    // Offset: 0x1DC5EB4
+    // Offset: 0x1A9AFD8
     void set_Internal(System::Net::IPEndPoint* value);
     // public System.String get_Token()
-    // Offset: 0x1DC5EBC
+    // Offset: 0x1A9AFE0
     ::Il2CppString* get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x1DC5EC4
+    // Offset: 0x1A9AFE8
     void set_Token(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1DC56B8
+    // Offset: 0x1A9A7DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

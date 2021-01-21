@@ -65,7 +65,7 @@ namespace HMUI {
     float zOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDA67E0
+    // [CompilerGeneratedAttribute] Offset: 0xD183D8
     // private System.Boolean <isShown>k__BackingField
     // Size: 0x1
     // Offset: 0x38
@@ -77,25 +77,25 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_isShown()
-    // Offset: 0x10B606C
+    // Offset: 0x1205B54
     bool get_isShown();
     // private System.Void set_isShown(System.Boolean value)
-    // Offset: 0x10B6074
+    // Offset: 0x1205B5C
     void set_isShown(bool value);
     // protected System.Void Awake()
-    // Offset: 0x10B6080
+    // Offset: 0x1205B68
     void Awake();
     // public System.Void Show(System.String text, UnityEngine.Transform parent, UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect)
-    // Offset: 0x10B5B08
+    // Offset: 0x12055F0
     void Show(::Il2CppString* text, UnityEngine::Transform* parent, UnityEngine::Vector2 containerSize, UnityEngine::Rect spawnRect);
     // public System.Void Hide()
-    // Offset: 0x10B5618
+    // Offset: 0x1205100
     void Hide();
     // private UnityEngine.Vector2 CalculatePanelPosition(UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect, UnityEngine.Vector2 panelSize)
-    // Offset: 0x10B6188
+    // Offset: 0x1205C70
     UnityEngine::Vector2 CalculatePanelPosition(UnityEngine::Vector2 containerSize, UnityEngine::Rect spawnRect, UnityEngine::Vector2 panelSize);
     // public System.Void .ctor()
-    // Offset: 0x10B62B4
+    // Offset: 0x1205D9C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

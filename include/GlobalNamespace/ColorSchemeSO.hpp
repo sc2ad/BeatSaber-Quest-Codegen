@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public ColorScheme get_colorScheme()
-    // Offset: 0x1A0AF94
+    // Offset: 0x22DE048
     GlobalNamespace::ColorScheme* get_colorScheme();
     // public System.Void .ctor()
-    // Offset: 0x1A0AF9C
+    // Offset: 0x22DE050
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

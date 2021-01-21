@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     GlobalNamespace::VRsenalScoreLogger* vRsenalScoreLoggerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRsenalScoreLogger*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC0BA0
+    // [InjectAttribute] Offset: 0xD32A64
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x38
@@ -73,19 +73,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1976A00
+    // Offset: 0x1720D58
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1976AE8
+    // Offset: 0x1720E40
     void OnDestroy();
     // private System.Void HandleGameScenesManagerInstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x1976BD0
+    // Offset: 0x1720F28
     void HandleGameScenesManagerInstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandlePlayerNameWasEntered(System.String playerName)
-    // Offset: 0x1976D28
+    // Offset: 0x1721080
     void HandlePlayerNameWasEntered(::Il2CppString* playerName);
     // public System.Void .ctor()
-    // Offset: 0x1976DB0
+    // Offset: 0x1721108
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

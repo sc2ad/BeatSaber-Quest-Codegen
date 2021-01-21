@@ -25,37 +25,37 @@ namespace LiteNetLib::Utils {
     // Creating value type constructor for type: FastBitConverter
     FastBitConverter() noexcept {}
     // static private System.Void WriteLittleEndian(System.Byte[] buffer, System.Int32 offset, System.UInt64 data)
-    // Offset: 0x1DD2BEC
+    // Offset: 0x1AA7D10
     static void WriteLittleEndian(::Array<uint8_t>* buffer, int offset, uint64_t data);
     // static private System.Void WriteLittleEndian(System.Byte[] buffer, System.Int32 offset, System.Int32 data)
-    // Offset: 0x1DD2CE8
+    // Offset: 0x1AA7E0C
     static void WriteLittleEndian(::Array<uint8_t>* buffer, int offset, int data);
     // static public System.Void WriteLittleEndian(System.Byte[] buffer, System.Int32 offset, System.Int16 data)
-    // Offset: 0x1DD2D74
+    // Offset: 0x1AA7E98
     static void WriteLittleEndian(::Array<uint8_t>* buffer, int offset, int16_t data);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.Double value)
-    // Offset: 0x1DD2DC8
+    // Offset: 0x1AA7EEC
     static void GetBytes(::Array<uint8_t>* bytes, int startIndex, double value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.Single value)
-    // Offset: 0x1DD2DD0
+    // Offset: 0x1AA7EF4
     static void GetBytes(::Array<uint8_t>* bytes, int startIndex, float value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.Int16 value)
-    // Offset: 0x1DD2DD8
+    // Offset: 0x1AA7EFC
     static void GetBytes(::Array<uint8_t>* bytes, int startIndex, int16_t value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.UInt16 value)
-    // Offset: 0x1DCD3D8
+    // Offset: 0x1AA24FC
     static void GetBytes(::Array<uint8_t>* bytes, int startIndex, uint16_t value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.Int32 value)
-    // Offset: 0x1DC66A8
+    // Offset: 0x1A9B7CC
     static void GetBytes(::Array<uint8_t>* bytes, int startIndex, int value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.UInt32 value)
-    // Offset: 0x1DC4784
+    // Offset: 0x1A998A8
     static void GetBytes(::Array<uint8_t>* bytes, int startIndex, uint value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.Int64 value)
-    // Offset: 0x1DC6220
+    // Offset: 0x1A9B344
     static void GetBytes(::Array<uint8_t>* bytes, int startIndex, int64_t value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.UInt64 value)
-    // Offset: 0x1DD2DDC
+    // Offset: 0x1AA7F00
     static void GetBytes(::Array<uint8_t>* bytes, int startIndex, uint64_t value);
   }; // LiteNetLib.Utils.FastBitConverter
   #pragma pack(pop)

@@ -19,28 +19,28 @@ namespace UnityEngine::TestTools::Logging {
   // [] Offset: FFFFFFFF
   class LogEvent : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDE6A18
+    // [CompilerGeneratedAttribute] Offset: 0xD59064
     // private System.String <Message>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* Message;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDE6A28
+    // [CompilerGeneratedAttribute] Offset: 0xD59074
     // private System.String <StackTrace>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* StackTrace;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDE6A38
+    // [CompilerGeneratedAttribute] Offset: 0xD59084
     // private UnityEngine.LogType <LogType>k__BackingField
     // Size: 0x4
     // Offset: 0x20
     UnityEngine::LogType LogType;
     // Field size check
     static_assert(sizeof(UnityEngine::LogType) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDE6A48
+    // [CompilerGeneratedAttribute] Offset: 0xD59094
     // private System.Boolean <IsHandled>k__BackingField
     // Size: 0x1
     // Offset: 0x24
@@ -50,36 +50,36 @@ namespace UnityEngine::TestTools::Logging {
     // Creating value type constructor for type: LogEvent
     LogEvent(::Il2CppString* Message_ = {}, ::Il2CppString* StackTrace_ = {}, UnityEngine::LogType LogType_ = {}, bool IsHandled_ = {}) noexcept : Message{Message_}, StackTrace{StackTrace_}, LogType{LogType_}, IsHandled{IsHandled_} {}
     // public System.String get_Message()
-    // Offset: 0x119075C
+    // Offset: 0x1338160
     ::Il2CppString* get_Message();
     // public System.Void set_Message(System.String value)
-    // Offset: 0x1190764
+    // Offset: 0x1338168
     void set_Message(::Il2CppString* value);
     // public System.String get_StackTrace()
-    // Offset: 0x119076C
+    // Offset: 0x1338170
     ::Il2CppString* get_StackTrace();
     // public System.Void set_StackTrace(System.String value)
-    // Offset: 0x1190774
+    // Offset: 0x1338178
     void set_StackTrace(::Il2CppString* value);
     // public UnityEngine.LogType get_LogType()
-    // Offset: 0x119077C
+    // Offset: 0x1338180
     UnityEngine::LogType get_LogType();
     // public System.Void set_LogType(UnityEngine.LogType value)
-    // Offset: 0x1190784
+    // Offset: 0x1338188
     void set_LogType(UnityEngine::LogType value);
     // public System.Boolean get_IsHandled()
-    // Offset: 0x119078C
+    // Offset: 0x1338190
     bool get_IsHandled();
     // public System.Void set_IsHandled(System.Boolean value)
-    // Offset: 0x1190794
+    // Offset: 0x1338198
     void set_IsHandled(bool value);
     // public override System.String ToString()
-    // Offset: 0x11907A0
+    // Offset: 0x13381A4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x1190824
+    // Offset: 0x1338228
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

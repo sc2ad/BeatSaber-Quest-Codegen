@@ -30,7 +30,7 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
     // System.Void .ctor()
-    // Offset: 0x1D148C4
+    // Offset: 0x17B5920
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -39,7 +39,7 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<Task::SetOnInvokeMres*, creationType>()));
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x1D174E0
+    // Offset: 0x17B853C
     // Implemented from: System.Threading.Tasks.ITaskCompletionAction
     // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task completingTask)
     void Invoke(System::Threading::Tasks::Task* completingTask);

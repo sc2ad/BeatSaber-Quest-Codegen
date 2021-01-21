@@ -44,29 +44,29 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class BTSCharacterSpawnController : public UnityEngine::MonoBehaviour {
     public:
-    // Nested type: GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__15
-    class $TimelineStoppedDelayed$d__15;
+    // Nested type: GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19
+    class $TimelineStoppedDelayed$d__19;
     // private BTSCharacterSpawnAnimationController _characterSpawnAnimationController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BTSCharacterSpawnAnimationController* characterSpawnAnimationController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSCharacterSpawnAnimationController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDC0104
+    // [SpaceAttribute] Offset: 0xD31F20
     // private BTSCharacterSpawnEventEffect _btsCharacterSpawnEventEffect
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BTSCharacterSpawnEventEffect* btsCharacterSpawnEventEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSCharacterSpawnEventEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC013C
+    // [InjectAttribute] Offset: 0xD31F58
     // private readonly IGamePause _gamePause
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IGamePause* gamePause;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGamePause*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC014C
+    // [InjectAttribute] Offset: 0xD31F68
     // private readonly ILevelEndActions _levelEndActions
     // Size: 0x8
     // Offset: 0x30
@@ -105,32 +105,38 @@ namespace GlobalNamespace {
     BTSCharacterSpawnController(GlobalNamespace::BTSCharacterSpawnAnimationController* characterSpawnAnimationController_ = {}, GlobalNamespace::BTSCharacterSpawnEventEffect* btsCharacterSpawnEventEffect_ = {}, GlobalNamespace::IGamePause* gamePause_ = {}, GlobalNamespace::ILevelEndActions* levelEndActions_ = {}, bool characterSpawned_ = {}, double playableDirectorTimeBeforePause_ = {}, float animatorNormalizedTimeBeforePause_ = {}, UnityEngine::Coroutine* despawnCharacterCoroutine_ = {}) noexcept : characterSpawnAnimationController{characterSpawnAnimationController_}, btsCharacterSpawnEventEffect{btsCharacterSpawnEventEffect_}, gamePause{gamePause_}, levelEndActions{levelEndActions_}, characterSpawned{characterSpawned_}, playableDirectorTimeBeforePause{playableDirectorTimeBeforePause_}, animatorNormalizedTimeBeforePause{animatorNormalizedTimeBeforePause_}, despawnCharacterCoroutine{despawnCharacterCoroutine_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // public System.Boolean get_isCharacterVisible()
+    // Offset: 0x1039414
+    bool get_isCharacterVisible();
+    // public System.Boolean get_isSpawned()
+    // Offset: 0x103942C
+    bool get_isSpawned();
     // protected System.Void Start()
-    // Offset: 0x1A4A998
+    // Offset: 0x1039434
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1A4AD34
+    // Offset: 0x10397D0
     void OnDestroy();
     // private System.Void HandleStartCharacterAnimation(BTSCharacter btsCharacter)
-    // Offset: 0x1A4B154
+    // Offset: 0x1039BF0
     void HandleStartCharacterAnimation(GlobalNamespace::BTSCharacter* btsCharacter);
     // private System.Void HandleGamePauseDidPause()
-    // Offset: 0x1A4B2B0
+    // Offset: 0x1039D4C
     void HandleGamePauseDidPause();
     // private System.Void HandleGamePauseWillResume()
-    // Offset: 0x1A4B2FC
+    // Offset: 0x1039D98
     void HandleGamePauseWillResume();
     // private System.Void HandleGamePauseDidResume()
-    // Offset: 0x1A4B350
+    // Offset: 0x1039DEC
     void HandleGamePauseDidResume();
     // private System.Void HandleLevelEndActionsLevelFailed()
-    // Offset: 0x1A4B374
+    // Offset: 0x1039E10
     void HandleLevelEndActionsLevelFailed();
     // private System.Collections.IEnumerator TimelineStoppedDelayed()
-    // Offset: 0x1A4B234
+    // Offset: 0x1039CD0
     System::Collections::IEnumerator* TimelineStoppedDelayed();
     // public System.Void .ctor()
-    // Offset: 0x1A4B3C4
+    // Offset: 0x1039E60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

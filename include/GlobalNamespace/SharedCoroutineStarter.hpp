@@ -21,12 +21,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SharedCoroutineStarter
     SharedCoroutineStarter() noexcept {}
     // static protected System.Void NoDomainReloadInit()
-    // Offset: 0x103D464
+    // Offset: 0x1116F70
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::NoDomainReloadInit()
     static void NoDomainReloadInit();
     // public System.Void .ctor()
-    // Offset: 0x103D4CC
+    // Offset: 0x1116FD8
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

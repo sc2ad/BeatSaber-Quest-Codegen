@@ -44,23 +44,23 @@ namespace UnityEngine::TestRunner::TestLaunchers {
       return *reinterpret_cast<UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*>(this);
     }
     // private UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] CreateTestDataList(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x118C15C
+    // Offset: 0x1333B60
     ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>* CreateTestDataList(NUnit::Framework::Interfaces::ITest* test);
     // static private UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] CreateTestResultDataList(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x118C2FC
+    // Offset: 0x1333D00
     static ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>* CreateTestResultDataList(NUnit::Framework::Interfaces::ITestResult* result);
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTestResult(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x118BFE4
+    // Offset: 0x13339E8
     // Implemented from: UnityEngine.TestRunner.TestLaunchers.IRemoteTestResultDataFactory
     // Base method: UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData IRemoteTestResultDataFactory::CreateFromTestResult(NUnit.Framework.Interfaces.ITestResult result)
     UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTestResult(NUnit::Framework::Interfaces::ITestResult* result);
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x118C490
+    // Offset: 0x1333E94
     // Implemented from: UnityEngine.TestRunner.TestLaunchers.IRemoteTestResultDataFactory
     // Base method: UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData IRemoteTestResultDataFactory::CreateFromTest(NUnit.Framework.Interfaces.ITest test)
     UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTest(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void .ctor()
-    // Offset: 0x118C5B4
+    // Offset: 0x1333FB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

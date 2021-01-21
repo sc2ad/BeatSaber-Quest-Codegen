@@ -67,30 +67,30 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
     // public System.Void .ctor(System.String name, System.Boolean allowNull, System.Int32 minLength, System.Int32 maxLength)
-    // Offset: 0x1B43810
+    // Offset: 0x11CAA84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteArrayNetSerializable* New_ctor(::Il2CppString* name, bool allowNull, int minLength, int maxLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ByteArrayNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteArrayNetSerializable*, creationType>(name, allowNull, minLength, maxLength)));
     }
     // public System.Void .ctor(System.String name, System.Int32 size)
-    // Offset: 0x1B43870
+    // Offset: 0x11CAAE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteArrayNetSerializable* New_ctor(::Il2CppString* name, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ByteArrayNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteArrayNetSerializable*, creationType>(name, size)));
     }
     // public System.Byte[] get_data()
-    // Offset: 0x1B438BC
+    // Offset: 0x11CAB30
     ::Array<uint8_t>* get_data();
     // public System.Void set_data(System.Byte[] value)
-    // Offset: 0x1B438C4
+    // Offset: 0x11CAB38
     void set_data(::Array<uint8_t>* value);
     // public System.Void Clear()
-    // Offset: 0x1B43E0C
+    // Offset: 0x11CB080
     void Clear();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1B43AD8
+    // Offset: 0x11CAD4C
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1B43BE8
+    // Offset: 0x11CAE5C
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);

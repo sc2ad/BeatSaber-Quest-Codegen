@@ -64,15 +64,15 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FlyingSpriteEffect
     FlyingSpriteEffect(UnityEngine::SpriteRenderer* spriteRenderer_ = {}, UnityEngine::AnimationCurve* fadeAnimationCurve_ = {}, UnityEngine::Color color_ = {}) noexcept : spriteRenderer{spriteRenderer_}, fadeAnimationCurve{fadeAnimationCurve_}, color{color_} {}
     // public System.Void InitAndPresent(System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Sprite sprite, UnityEngine.Material material, UnityEngine.Color color, System.Boolean shake)
-    // Offset: 0x1A1590C
+    // Offset: 0xF2F8A8
     void InitAndPresent(float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Sprite* sprite, UnityEngine::Material* material, UnityEngine::Color color, bool shake);
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0x1A159D0
+    // Offset: 0xF2F96C
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);
     // public System.Void .ctor()
-    // Offset: 0x1A15A44
+    // Offset: 0xF2F9E0
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

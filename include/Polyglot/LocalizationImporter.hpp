@@ -70,49 +70,49 @@ namespace Polyglot {
     // Set static field: static private System.Collections.Generic.List`1<Polyglot.LocalizationAsset> InputFiles
     static void _set_InputFiles(System::Collections::Generic::List_1<Polyglot::LocalizationAsset*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1986040
+    // Offset: 0x224B7B0
     static void _cctor();
     // static private System.Void Initialize()
-    // Offset: 0x198612C
+    // Offset: 0x224B89C
     static void Initialize();
     // static private System.Void ImportFromGoogle(Polyglot.Localization settings)
-    // Offset: 0x19862E0
+    // Offset: 0x224BA50
     static void ImportFromGoogle(Polyglot::Localization* settings);
     // static private System.Void Import(System.String text, Polyglot.GoogleDriveDownloadFormat format)
-    // Offset: 0x1986418
+    // Offset: 0x224BB88
     static void Import(::Il2CppString* text, Polyglot::GoogleDriveDownloadFormat format);
     // static private System.Collections.IEnumerator Download(Polyglot.LocalizationDocument document, System.Action`1<System.String> done, System.Func`2<System.Single,System.Boolean> progressbar)
-    // Offset: 0x19863F0
+    // Offset: 0x224BB60
     static System::Collections::IEnumerator* Download(Polyglot::LocalizationDocument* document, System::Action_1<::Il2CppString*>* done, System::Func_2<float, bool>* progressbar);
     // static public System.Collections.IEnumerator DownloadCustomSheet(System.Func`2<System.Single,System.Boolean> progressbar)
-    // Offset: 0x1986748
+    // Offset: 0x224BEB8
     static System::Collections::IEnumerator* DownloadCustomSheet(System::Func_2<float, bool>* progressbar);
     // static private System.Void ImportFromFiles(Polyglot.Localization settings)
-    // Offset: 0x1986234
+    // Offset: 0x224B9A4
     static void ImportFromFiles(Polyglot::Localization* settings);
     // static private System.Void ImportInputFiles()
-    // Offset: 0x19868C0
+    // Offset: 0x224C030
     static void ImportInputFiles();
     // static private System.Void ImportTextFile(System.String text, Polyglot.GoogleDriveDownloadFormat format)
-    // Offset: 0x198648C
+    // Offset: 0x224BBFC
     static void ImportTextFile(::Il2CppString* text, Polyglot::GoogleDriveDownloadFormat format);
     // static public System.Boolean IsLineBreak(System.String currentString)
-    // Offset: 0x1985B50
+    // Offset: 0x224B2C0
     static bool IsLineBreak(::Il2CppString* currentString);
     // static public System.Collections.Generic.List`1<System.String> GetLanguages(System.String key, System.Collections.Generic.List`1<Polyglot.Language> supportedLanguages)
-    // Offset: 0x19851E8
+    // Offset: 0x224A958
     static System::Collections::Generic::List_1<::Il2CppString*>* GetLanguages(::Il2CppString* key, System::Collections::Generic::List_1<Polyglot::Language>* supportedLanguages);
     // static public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>> GetLanguagesStartsWith(System.String key)
-    // Offset: 0x1986C54
+    // Offset: 0x224C3C4
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<::Il2CppString*>*>* GetLanguagesStartsWith(::Il2CppString* key);
     // static public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>> GetLanguagesContains(System.String key)
-    // Offset: 0x1986EC4
+    // Offset: 0x224C634
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<::Il2CppString*>*>* GetLanguagesContains(::Il2CppString* key);
     // static public System.Void Refresh()
-    // Offset: 0x1987134
+    // Offset: 0x224C8A4
     static void Refresh();
     // static public System.Collections.Generic.List`1<System.String> GetKeys()
-    // Offset: 0x1985D00
+    // Offset: 0x224B470
     static System::Collections::Generic::List_1<::Il2CppString*>* GetKeys();
   }; // Polyglot.LocalizationImporter
   #pragma pack(pop)

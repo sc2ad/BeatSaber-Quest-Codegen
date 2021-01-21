@@ -42,21 +42,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: platformWidth and: layoutProvider
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0xDC9C04
+    // [InjectAttribute] Offset: 0xD3BE00
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC9C14
+    // [CompilerGeneratedAttribute] Offset: 0xD3BE10
     // private System.Action`1<System.Single> edgeDistanceFromCenterWasCalculatedEvent
     // Size: 0x8
     // Offset: 0x28
     System::Action_1<float>* edgeDistanceFromCenterWasCalculatedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC9C24
+    // [CompilerGeneratedAttribute] Offset: 0xD3BE20
     // private System.Boolean <isEdgeDistanceFromCenterCalculated>k__BackingField
     // Size: 0x1
     // Offset: 0x30
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isEdgeDistanceFromCenterCalculated and: edgeDistanceFromCenter
     char __padding3[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDC9C34
+    // [CompilerGeneratedAttribute] Offset: 0xD3BE30
     // private System.Single <edgeDistanceFromCenter>k__BackingField
     // Size: 0x4
     // Offset: 0x34
@@ -77,34 +77,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_edgeDistanceFromCenterWasCalculatedEvent(System.Action`1<System.Single> value)
-    // Offset: 0xFA74E8
+    // Offset: 0x1016F64
     void add_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float>* value);
     // public System.Void remove_edgeDistanceFromCenterWasCalculatedEvent(System.Action`1<System.Single> value)
-    // Offset: 0xFA758C
+    // Offset: 0x1017008
     void remove_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float>* value);
     // public System.Boolean get_isEdgeDistanceFromCenterCalculated()
-    // Offset: 0xFA7630
+    // Offset: 0x10170AC
     bool get_isEdgeDistanceFromCenterCalculated();
     // private System.Void set_isEdgeDistanceFromCenterCalculated(System.Boolean value)
-    // Offset: 0xFA7638
+    // Offset: 0x10170B4
     void set_isEdgeDistanceFromCenterCalculated(bool value);
     // public System.Single get_edgeDistanceFromCenter()
-    // Offset: 0xFA7644
+    // Offset: 0x10170C0
     float get_edgeDistanceFromCenter();
     // private System.Void set_edgeDistanceFromCenter(System.Single value)
-    // Offset: 0xFA764C
+    // Offset: 0x10170C8
     void set_edgeDistanceFromCenter(float value);
     // protected System.Void Start()
-    // Offset: 0xFA7654
+    // Offset: 0x10170D0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFA7888
+    // Offset: 0x1017304
     void OnDestroy();
     // private System.Void HandlePlayersLayoutWasCalculated(MultiplayerPlayerLayout layout, System.Int32 numberOfPlayers)
-    // Offset: 0xFA7704
+    // Offset: 0x1017180
     void HandlePlayersLayoutWasCalculated(GlobalNamespace::MultiplayerPlayerLayout layout, int numberOfPlayers);
     // public System.Void .ctor()
-    // Offset: 0xFA79C8
+    // Offset: 0x1017444
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

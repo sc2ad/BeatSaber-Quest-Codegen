@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   template<typename T>
   class ObservableVariable_1 : public ::Il2CppObject/*, public GlobalNamespace::IValue_1<T>, public GlobalNamespace::IObservableChange*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD99690
+    // [CompilerGeneratedAttribute] Offset: 0xD0A9D0
     // private System.Action didChangeEvent
     // Size: 0x8
     // Offset: 0x0

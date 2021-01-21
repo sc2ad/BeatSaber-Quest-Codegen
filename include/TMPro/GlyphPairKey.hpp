@@ -52,7 +52,7 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.UInt32 firstGlyphIndex, System.UInt32 secondGlyphIndex)
-    // Offset: 0xC929D0
+    // Offset: 0xDF3058
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GlyphPairKey(uint firstGlyphIndex, uint secondGlyphIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphPairKey::.ctor");
@@ -60,7 +60,7 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, firstGlyphIndex, secondGlyphIndex);
     }
     // System.Void .ctor(TMPro.TMP_GlyphPairAdjustmentRecord record)
-    // Offset: 0xC929E4
+    // Offset: 0xDF306C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GlyphPairKey(TMPro::TMP_GlyphPairAdjustmentRecord* record) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphPairKey::.ctor");

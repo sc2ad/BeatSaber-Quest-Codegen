@@ -52,14 +52,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* enableOpenPartyToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD0200
+    // [InjectAttribute] Offset: 0xD4252C
     // private readonly LocalNetworkPlayerModel _localNetworkPlayerModel
     // Size: 0x8
     // Offset: 0xA0
     GlobalNamespace::LocalNetworkPlayerModel* localNetworkPlayerModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalNetworkPlayerModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD0210
+    // [InjectAttribute] Offset: 0xD4253C
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0xA8
@@ -87,46 +87,46 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LocalNetworkPlayersViewController
     LocalNetworkPlayersViewController(UnityEngine::UI::Toggle* enableNetworkingToggle_ = {}, UnityEngine::UI::Toggle* enableOpenPartyToggle_ = {}, GlobalNamespace::LocalNetworkPlayerModel* localNetworkPlayerModel_ = {}, GlobalNamespace::INetworkConfig* networkConfig_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, bool enableBroadcasting_ = {}, bool allowAnyoneToJoin_ = {}) noexcept : enableNetworkingToggle{enableNetworkingToggle_}, enableOpenPartyToggle{enableOpenPartyToggle_}, localNetworkPlayerModel{localNetworkPlayerModel_}, networkConfig{networkConfig_}, toggleBinder{toggleBinder_}, enableBroadcasting{enableBroadcasting_}, allowAnyoneToJoin{allowAnyoneToJoin_} {}
     // private System.Void HandleNetworkingToggleChanged(System.Boolean enabled)
-    // Offset: 0x1A6BC18
+    // Offset: 0x105BE20
     void HandleNetworkingToggleChanged(bool enabled);
     // private System.Void HandleOpenPartyToggleChanged(System.Boolean openParty)
-    // Offset: 0x1A6BC28
+    // Offset: 0x105BE30
     void HandleOpenPartyToggleChanged(bool openParty);
     // private System.Void RefreshParty(System.Boolean overrideHide)
-    // Offset: 0x1A6BAB4
+    // Offset: 0x105BCBC
     void RefreshParty(bool overrideHide);
     // public override System.String get_myPartyTitle()
-    // Offset: 0x1A6B8C8
+    // Offset: 0x105BAD0
     // Implemented from: NetworkPlayersViewController
     // Base method: System.String NetworkPlayersViewController::get_myPartyTitle()
     ::Il2CppString* get_myPartyTitle();
     // public override System.String get_otherPlayersTitle()
-    // Offset: 0x1A6B910
+    // Offset: 0x105BB18
     // Implemented from: NetworkPlayersViewController
     // Base method: System.String NetworkPlayersViewController::get_otherPlayersTitle()
     ::Il2CppString* get_otherPlayersTitle();
     // public override INetworkPlayerModel get_networkPlayerModel()
-    // Offset: 0x1A6B958
+    // Offset: 0x105BB60
     // Implemented from: NetworkPlayersViewController
     // Base method: INetworkPlayerModel NetworkPlayersViewController::get_networkPlayerModel()
     GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
     // protected override System.Void NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0x1A6B960
+    // Offset: 0x105BB68
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
     void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1A6BBD4
+    // Offset: 0x105BDDC
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1A6BBE4
+    // Offset: 0x105BDEC
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1A6BC38
+    // Offset: 0x105BE40
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()

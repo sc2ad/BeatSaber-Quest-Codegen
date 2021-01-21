@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* nameText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCA568
+    // [InjectAttribute] Offset: 0xD3C764
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -84,31 +84,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xF7FD20
+    // Offset: 0xF800EC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xF7FEFC
+    // Offset: 0xF802C8
     void OnDestroy();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0xF7FF94
+    // Offset: 0xF80360
     void SetPositionAndRotation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void AnimateColors(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0xF80010
+    // Offset: 0xF803DC
     void AnimateColors(UnityEngine::Color nameColor, UnityEngine::Color scoreColor, float duration, Tweening::EaseType easeType);
     // public System.Void SetName(System.String text)
-    // Offset: 0xF80140
+    // Offset: 0xF8050C
     void SetName(::Il2CppString* text);
     // public System.Void SetScore(System.String text)
-    // Offset: 0xF8015C
+    // Offset: 0xF80528
     void SetScore(::Il2CppString* text);
     // private System.Void <Awake>b__6_0(UnityEngine.Color val)
-    // Offset: 0xF80180
+    // Offset: 0xF8054C
     void $Awake$b__6_0(UnityEngine::Color val);
     // private System.Void <Awake>b__6_1(UnityEngine.Color val)
-    // Offset: 0xF801A4
+    // Offset: 0xF80570
     void $Awake$b__6_1(UnityEngine::Color val);
     // public System.Void .ctor()
-    // Offset: 0xF80178
+    // Offset: 0xF80544
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerLocalActivePlayerInstaller : public Zenject::MonoInstaller {
     public:
-    // [InjectAttribute] Offset: 0xDC92D0
+    // [InjectAttribute] Offset: 0xD3B4CC
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -36,12 +36,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerLocalActivePlayerInstaller
     MultiplayerLocalActivePlayerInstaller(GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}) noexcept : sceneSetupData{sceneSetupData_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xF70124
+    // Offset: 0xFE2430
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF70490
+    // Offset: 0xFE2820
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

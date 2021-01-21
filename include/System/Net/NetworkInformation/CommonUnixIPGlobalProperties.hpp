@@ -22,15 +22,15 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: CommonUnixIPGlobalProperties
     CommonUnixIPGlobalProperties() noexcept {}
     // static private System.Int32 getdomainname(System.Byte[] name, System.Int32 len)
-    // Offset: 0x12C0B34
+    // Offset: 0x150F8C8
     static int getdomainname(::Array<uint8_t>* name, int len);
     // public override System.String get_DomainName()
-    // Offset: 0x12C0BCC
+    // Offset: 0x150F960
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.String IPGlobalProperties::get_DomainName()
     ::Il2CppString* get_DomainName();
     // protected System.Void .ctor()
-    // Offset: 0x12C0D38
+    // Offset: 0x150FACC
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.Void IPGlobalProperties::.ctor()
     // Base method: System.Void Object::.ctor()

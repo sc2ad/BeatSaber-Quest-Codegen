@@ -33,20 +33,20 @@ namespace UnityEngine {
     // Creating value type constructor for type: WillRenderCanvases
     WillRenderCanvases() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19FCEF8
+    // Offset: 0x22CFFAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Canvas::WillRenderCanvases* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Canvas::WillRenderCanvases::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Canvas::WillRenderCanvases*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x19FCCE4
+    // Offset: 0x22CFD98
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19FCF0C
+    // Offset: 0x22CFFC0
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x19FCF38
+    // Offset: 0x22CFFEC
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Canvas/WillRenderCanvases
   #pragma pack(pop)

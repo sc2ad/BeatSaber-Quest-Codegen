@@ -58,14 +58,14 @@ namespace System::Collections {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // System.Void .ctor(System.Collections.Queue q)
-    // Offset: 0x152C234
+    // Offset: 0x189A864
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Queue::QueueEnumerator* New_ctor(System::Collections::Queue* q) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Queue::QueueEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Queue::QueueEnumerator*, creationType>(q)));
     }
     // public System.Object Clone()
-    // Offset: 0x152C5B4
+    // Offset: 0x189ABE4
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
@@ -73,7 +73,7 @@ namespace System::Collections {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x152C5BC
+    // Offset: 0x189ABEC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -81,7 +81,7 @@ namespace System::Collections {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x152C6CC
+    // Offset: 0x189ACFC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -89,7 +89,7 @@ namespace System::Collections {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void Reset()
-    // Offset: 0x152C78C
+    // Offset: 0x189ADBC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

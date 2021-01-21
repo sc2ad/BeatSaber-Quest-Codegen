@@ -54,7 +54,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: NetSyncSession
     NetSyncSession(int64_t ConnectionId_ = {}, bool Muted_ = {}, uint64_t SessionId_ = {}, uint64_t UserId_ = {}, ::Il2CppString* VoipGroup_ = {}) noexcept : ConnectionId{ConnectionId_}, Muted{Muted_}, SessionId{SessionId_}, UserId{UserId_}, VoipGroup{VoipGroup_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x11E17F0
+    // Offset: 0x13F25F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSyncSession* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::NetSyncSession::.ctor");

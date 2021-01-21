@@ -74,13 +74,13 @@ namespace System::Diagnostics::Tracing {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void set_Level(System.Diagnostics.Tracing.EventLevel value)
-    // Offset: 0xC9BB34
+    // Offset: 0xE079F0
     void set_Level(System::Diagnostics::Tracing::EventLevel value);
     // public System.Void set_Opcode(System.Diagnostics.Tracing.EventOpcode value)
-    // Offset: 0xC9BB3C
+    // Offset: 0xE079F8
     void set_Opcode(System::Diagnostics::Tracing::EventOpcode value);
     // public System.Void set_Keywords(System.Diagnostics.Tracing.EventKeywords value)
-    // Offset: 0xC9BB44
+    // Offset: 0xE07A00
     void set_Keywords(System::Diagnostics::Tracing::EventKeywords value);
   }; // System.Diagnostics.Tracing.EventSourceOptions
   #pragma pack(pop)

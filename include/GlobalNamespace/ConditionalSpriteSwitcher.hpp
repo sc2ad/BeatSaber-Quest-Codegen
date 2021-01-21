@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class ConditionalSpriteSwitcher : public UnityEngine::MonoBehaviour {
     public:
-    // [HeaderAttribute] Offset: 0xDCBCD8
+    // [HeaderAttribute] Offset: 0xD3DF34
     // private UnityEngine.Sprite _sprite0
     // Size: 0x8
     // Offset: 0x18
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* material0;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // [HeaderAttribute] Offset: 0xDCBD34
+    // [HeaderAttribute] Offset: 0xD3DF90
     // private UnityEngine.Sprite _sprite1
     // Size: 0x8
     // Offset: 0x28
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* material1;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDCBD90
+    // [SpaceAttribute] Offset: 0xD3DFEC
     // private BoolSO _value
     // Size: 0x8
     // Offset: 0x38
@@ -79,10 +79,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Awake()
-    // Offset: 0x1A53A0C
+    // Offset: 0x10432CC
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1A53AB4
+    // Offset: 0x1043374
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -50,14 +50,14 @@ namespace System::Collections {
       return hashtable;
     }
     // System.Void .ctor(System.Collections.Hashtable hashtable)
-    // Offset: 0x1529ECC
+    // Offset: 0x18984FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::ValueCollection* New_ctor(System::Collections::Hashtable* hashtable) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::ValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::ValueCollection*, creationType>(hashtable)));
     }
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x1529F00
+    // Offset: 0x1898530
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 arrayIndex)
     void CopyTo(System::Array* array, int arrayIndex);
@@ -65,7 +65,7 @@ namespace System::Collections {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int arrayIndex);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x152A088
+    // Offset: 0x18986B8
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();
@@ -73,7 +73,7 @@ namespace System::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Int32 get_Count()
-    // Offset: 0x152A0F0
+    // Offset: 0x1898720
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();

@@ -50,14 +50,14 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return en;
     }
     // System.Void .ctor(System.Collections.IEnumerable en)
-    // Offset: 0x157E7A0
+    // Offset: 0x18FF324
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TbsCertificateList::RevokedCertificatesEnumeration* New_ctor(System::Collections::IEnumerable* en) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TbsCertificateList::RevokedCertificatesEnumeration*, creationType>(en)));
     }
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x157E7E4
+    // Offset: 0x18FF368
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

@@ -32,7 +32,7 @@ namespace System::Security::Util {
     // Creating value type constructor for type: TokenizerStringBlock
     TokenizerStringBlock(::Array<::Il2CppString*>* m_block_ = {}, System::Security::Util::TokenizerStringBlock* m_next_ = {}) noexcept : m_block{m_block_}, m_next{m_next_} {}
     // public System.Void .ctor()
-    // Offset: 0x1288DEC
+    // Offset: 0x14D7C6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

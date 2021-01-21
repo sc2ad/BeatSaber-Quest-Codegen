@@ -42,19 +42,19 @@ namespace UnityEngine::EventSystems {
       return m_TrackedButtons;
     }
     // public System.Boolean AnyPressesThisFrame()
-    // Offset: 0x11524BC
+    // Offset: 0x12F8EC0
     bool AnyPressesThisFrame();
     // public System.Boolean AnyReleasesThisFrame()
-    // Offset: 0x1152570
+    // Offset: 0x12F8F74
     bool AnyReleasesThisFrame();
     // public UnityEngine.EventSystems.PointerInputModule/ButtonState GetButtonState(UnityEngine.EventSystems.PointerEventData/InputButton button)
-    // Offset: 0x1152624
+    // Offset: 0x12F9028
     UnityEngine::EventSystems::PointerInputModule::ButtonState* GetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button);
     // public System.Void SetButtonState(UnityEngine.EventSystems.PointerEventData/InputButton button, UnityEngine.EventSystems.PointerEventData/FramePressState stateForMouseButton, UnityEngine.EventSystems.PointerEventData data)
-    // Offset: 0x1151A18
+    // Offset: 0x12F841C
     void SetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button, UnityEngine::EventSystems::PointerEventData::FramePressState stateForMouseButton, UnityEngine::EventSystems::PointerEventData* data);
     // public System.Void .ctor()
-    // Offset: 0x11523E8
+    // Offset: 0x12F8DEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

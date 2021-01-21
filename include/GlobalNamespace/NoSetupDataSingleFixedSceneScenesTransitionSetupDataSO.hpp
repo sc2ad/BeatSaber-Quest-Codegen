@@ -22,10 +22,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO
     NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO() noexcept {}
     // public System.Void Init()
-    // Offset: 0x1037BDC
+    // Offset: 0x111156C
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x1037D04
+    // Offset: 0x1111578
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()

@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Pool
     Pool() noexcept {}
     // protected System.Void Reinitialize(UnityEngine.Sprite sprite, UnityEngine.Transform transform, System.Single desiredAnimationLength, BTSStarTextEffectController starTextEffectController)
-    // Offset: 0x1A4C044
+    // Offset: 0x103AAE0
     void Reinitialize(UnityEngine::Sprite* sprite, UnityEngine::Transform* transform, float desiredAnimationLength, GlobalNamespace::BTSStarTextEffectController* starTextEffectController);
     // public System.Void .ctor()
-    // Offset: 0x1A4C05C
+    // Offset: 0x103AAF8
     // Implemented from: Zenject.MonoMemoryPool`4
     // Base method: System.Void MonoMemoryPool_4::.ctor()
     // Base method: System.Void MemoryPool_4::.ctor()

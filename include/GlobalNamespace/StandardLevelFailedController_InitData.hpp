@@ -32,7 +32,7 @@ namespace GlobalNamespace {
       return autoRestart;
     }
     // public System.Void .ctor(System.Boolean autoRestart)
-    // Offset: 0xF3DDC4
+    // Offset: 0xF74C50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelFailedController::InitData* New_ctor(bool autoRestart) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelFailedController::InitData::.ctor");

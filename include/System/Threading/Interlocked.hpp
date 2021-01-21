@@ -27,43 +27,43 @@ namespace System::Threading {
     // Creating value type constructor for type: Interlocked
     Interlocked() noexcept {}
     // static public System.Int32 CompareExchange(ref System.Int32 location1, System.Int32 value, System.Int32 comparand)
-    // Offset: 0x16B3A6C
+    // Offset: 0x1A7BC20
     static int CompareExchange(int& location1, int value, int comparand);
     // static System.Int32 CompareExchange(ref System.Int32 location1, System.Int32 value, System.Int32 comparand, ref System.Boolean succeeded)
-    // Offset: 0x16B654C
+    // Offset: 0x1A7E700
     static int CompareExchange(int& location1, int value, int comparand, bool& succeeded);
     // static public System.Object CompareExchange(ref System.Object location1, System.Object value, System.Object comparand)
-    // Offset: 0x16B6550
+    // Offset: 0x1A7E704
     static ::Il2CppObject* CompareExchange(::Il2CppObject*& location1, ::Il2CppObject* value, ::Il2CppObject* comparand);
     // static public System.Single CompareExchange(ref System.Single location1, System.Single value, System.Single comparand)
-    // Offset: 0x16B6554
+    // Offset: 0x1A7E708
     static float CompareExchange(float& location1, float value, float comparand);
     // static public System.Int32 Decrement(ref System.Int32 location)
-    // Offset: 0x16B6558
+    // Offset: 0x1A7E70C
     static int Decrement(int& location);
     // static public System.Int32 Increment(ref System.Int32 location)
-    // Offset: 0x16B655C
+    // Offset: 0x1A7E710
     static int Increment(int& location);
     // static public System.Int64 Increment(ref System.Int64 location)
-    // Offset: 0x16B6560
+    // Offset: 0x1A7E714
     static int64_t Increment(int64_t& location);
     // static public System.Int32 Exchange(ref System.Int32 location1, System.Int32 value)
-    // Offset: 0x16B1AE0
+    // Offset: 0x1A79C94
     static int Exchange(int& location1, int value);
     // static public System.Object Exchange(ref System.Object location1, System.Object value)
-    // Offset: 0x16B6564
+    // Offset: 0x1A7E718
     static ::Il2CppObject* Exchange(::Il2CppObject*& location1, ::Il2CppObject* value);
     // static public System.Single Exchange(ref System.Single location1, System.Single value)
-    // Offset: 0x16B6568
+    // Offset: 0x1A7E71C
     static float Exchange(float& location1, float value);
     // static public System.Int64 CompareExchange(ref System.Int64 location1, System.Int64 value, System.Int64 comparand)
-    // Offset: 0x16B656C
+    // Offset: 0x1A7E720
     static int64_t CompareExchange(int64_t& location1, int64_t value, int64_t comparand);
     // static public System.IntPtr CompareExchange(ref System.IntPtr location1, System.IntPtr value, System.IntPtr comparand)
-    // Offset: 0x16B6570
+    // Offset: 0x1A7E724
     static System::IntPtr CompareExchange(System::IntPtr& location1, System::IntPtr value, System::IntPtr comparand);
     // static public System.Double CompareExchange(ref System.Double location1, System.Double value, System.Double comparand)
-    // Offset: 0x16B6574
+    // Offset: 0x1A7E728
     static double CompareExchange(double& location1, double value, double comparand);
     // static public T CompareExchange(ref T location1, T value, T comparand)
     // Offset: 0xFFFFFFFF
@@ -75,13 +75,13 @@ namespace System::Threading {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, location1, value, comparand);
     }
     // static public System.Int64 Exchange(ref System.Int64 location1, System.Int64 value)
-    // Offset: 0x16B6578
+    // Offset: 0x1A7E72C
     static int64_t Exchange(int64_t& location1, int64_t value);
     // static public System.IntPtr Exchange(ref System.IntPtr location1, System.IntPtr value)
-    // Offset: 0x16B657C
+    // Offset: 0x1A7E730
     static System::IntPtr Exchange(System::IntPtr& location1, System::IntPtr value);
     // static public System.Double Exchange(ref System.Double location1, System.Double value)
-    // Offset: 0x16B6580
+    // Offset: 0x1A7E734
     static double Exchange(double& location1, double value);
     // static public T Exchange(ref T location1, T value)
     // Offset: 0xFFFFFFFF
@@ -93,13 +93,13 @@ namespace System::Threading {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, location1, value);
     }
     // static public System.Int64 Read(ref System.Int64 location)
-    // Offset: 0x16B6584
+    // Offset: 0x1A7E738
     static int64_t Read(int64_t& location);
     // static public System.Int32 Add(ref System.Int32 location1, System.Int32 value)
-    // Offset: 0x16B6588
+    // Offset: 0x1A7E73C
     static int Add(int& location1, int value);
     // static public System.Int64 Add(ref System.Int64 location1, System.Int64 value)
-    // Offset: 0x16B658C
+    // Offset: 0x1A7E740
     static int64_t Add(int64_t& location1, int64_t value);
   }; // System.Threading.Interlocked
   #pragma pack(pop)

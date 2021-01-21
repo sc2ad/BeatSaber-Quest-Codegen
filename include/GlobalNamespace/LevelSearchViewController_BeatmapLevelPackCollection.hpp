@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class LevelSearchViewController::BeatmapLevelPackCollection : public ::Il2CppObject/*, public GlobalNamespace::IAnnotatedBeatmapLevelCollection*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDD3FCC
+    // [CompilerGeneratedAttribute] Offset: 0xD463A0
     // private IBeatmapLevelCollection <beatmapLevelCollection>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -51,27 +51,27 @@ namespace GlobalNamespace {
       return beatmapLevelCollection;
     }
     // private System.Void set_beatmapLevelCollection(IBeatmapLevelCollection value)
-    // Offset: 0x1AC46B4
+    // Offset: 0x10E17EC
     void set_beatmapLevelCollection(GlobalNamespace::IBeatmapLevelCollection* value);
     // public System.Void .ctor(IBeatmapLevelCollection beatmapLevelCollection)
-    // Offset: 0x1AC465C
+    // Offset: 0x10E1794
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelSearchViewController::BeatmapLevelPackCollection* New_ctor(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelSearchViewController::BeatmapLevelPackCollection*, creationType>(beatmapLevelCollection)));
     }
     // public System.String get_collectionName()
-    // Offset: 0x1AC469C
+    // Offset: 0x10E17D4
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: System.String IAnnotatedBeatmapLevelCollection::get_collectionName()
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x1AC46A4
+    // Offset: 0x10E17DC
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: UnityEngine.Sprite IAnnotatedBeatmapLevelCollection::get_coverImage()
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x1AC46AC
+    // Offset: 0x10E17E4
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: IBeatmapLevelCollection IAnnotatedBeatmapLevelCollection::get_beatmapLevelCollection()
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();

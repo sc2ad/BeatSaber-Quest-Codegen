@@ -58,7 +58,7 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: PropertyAnalysis
     PropertyAnalysis(::Il2CppString* name_ = {}, System::Reflection::MethodInfo* getterInfo_ = {}, System::Diagnostics::Tracing::TraceLoggingTypeInfo* typeInfo_ = {}, System::Diagnostics::Tracing::EventFieldAttribute* fieldAttribute_ = {}) noexcept : name{name_}, getterInfo{getterInfo_}, typeInfo{typeInfo_}, fieldAttribute{fieldAttribute_} {}
     // public System.Void .ctor(System.String name, System.Reflection.MethodInfo getterInfo, System.Diagnostics.Tracing.TraceLoggingTypeInfo typeInfo, System.Diagnostics.Tracing.EventFieldAttribute fieldAttribute)
-    // Offset: 0x111F3C4
+    // Offset: 0x12A6200
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PropertyAnalysis* New_ctor(::Il2CppString* name, System::Reflection::MethodInfo* getterInfo, System::Diagnostics::Tracing::TraceLoggingTypeInfo* typeInfo, System::Diagnostics::Tracing::EventFieldAttribute* fieldAttribute) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::PropertyAnalysis::.ctor");

@@ -78,35 +78,35 @@ namespace Org::BouncyCastle::X509 {
     // Set static field: static private readonly Org.BouncyCastle.X509.PemParser PemCrlParser
     static void _set_PemCrlParser(Org::BouncyCastle::X509::PemParser* value);
     // public System.Void .ctor(System.Boolean lazyAsn1)
-    // Offset: 0x18C5720
+    // Offset: 0x1E63BE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CrlParser* New_ctor(bool lazyAsn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::X509CrlParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CrlParser*, creationType>(lazyAsn1)));
     }
     // private Org.BouncyCastle.X509.X509Crl ReadPemCrl(System.IO.Stream inStream)
-    // Offset: 0x18C5750
+    // Offset: 0x1E63C18
     Org::BouncyCastle::X509::X509Crl* ReadPemCrl(System::IO::Stream* inStream);
     // private Org.BouncyCastle.X509.X509Crl ReadDerCrl(Org.BouncyCastle.Asn1.Asn1InputStream dIn)
-    // Offset: 0x18C5804
+    // Offset: 0x1E63CCC
     Org::BouncyCastle::X509::X509Crl* ReadDerCrl(Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
     // private Org.BouncyCastle.X509.X509Crl GetCrl()
-    // Offset: 0x18C5A10
+    // Offset: 0x1E63ED8
     Org::BouncyCastle::X509::X509Crl* GetCrl();
     // protected Org.BouncyCastle.X509.X509Crl CreateX509Crl(Org.BouncyCastle.Asn1.X509.CertificateList c)
-    // Offset: 0x18C5A98
+    // Offset: 0x1E63F60
     Org::BouncyCastle::X509::X509Crl* CreateX509Crl(Org::BouncyCastle::Asn1::X509::CertificateList* c);
     // public Org.BouncyCastle.X509.X509Crl ReadCrl(System.Byte[] input)
-    // Offset: 0x18C5AF8
+    // Offset: 0x1E63FC0
     Org::BouncyCastle::X509::X509Crl* ReadCrl(::Array<uint8_t>* input);
     // public Org.BouncyCastle.X509.X509Crl ReadCrl(System.IO.Stream inStream)
-    // Offset: 0x18C5B70
+    // Offset: 0x1E64038
     Org::BouncyCastle::X509::X509Crl* ReadCrl(System::IO::Stream* inStream);
     // static private System.Void .cctor()
-    // Offset: 0x18C5EA0
+    // Offset: 0x1E64368
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x18C56F8
+    // Offset: 0x1E63BC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

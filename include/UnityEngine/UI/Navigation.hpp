@@ -130,40 +130,40 @@ namespace UnityEngine::UI {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::UI::Navigation>*>(this);
     }
     // public UnityEngine.UI.Navigation/Mode get_mode()
-    // Offset: 0xCA2784
+    // Offset: 0xE10998
     UnityEngine::UI::Navigation::Mode get_mode();
     // public System.Void set_mode(UnityEngine.UI.Navigation/Mode value)
-    // Offset: 0xCA278C
+    // Offset: 0xE109A0
     void set_mode(UnityEngine::UI::Navigation::Mode value);
     // public UnityEngine.UI.Selectable get_selectOnUp()
-    // Offset: 0xCA2794
+    // Offset: 0xE109A8
     UnityEngine::UI::Selectable* get_selectOnUp();
     // public System.Void set_selectOnUp(UnityEngine.UI.Selectable value)
-    // Offset: 0xCA279C
+    // Offset: 0xE109B0
     void set_selectOnUp(UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnDown()
-    // Offset: 0xCA27A4
+    // Offset: 0xE109B8
     UnityEngine::UI::Selectable* get_selectOnDown();
     // public System.Void set_selectOnDown(UnityEngine.UI.Selectable value)
-    // Offset: 0xCA27AC
+    // Offset: 0xE109C0
     void set_selectOnDown(UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnLeft()
-    // Offset: 0xCA27B4
+    // Offset: 0xE109C8
     UnityEngine::UI::Selectable* get_selectOnLeft();
     // public System.Void set_selectOnLeft(UnityEngine.UI.Selectable value)
-    // Offset: 0xCA27BC
+    // Offset: 0xE109D0
     void set_selectOnLeft(UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnRight()
-    // Offset: 0xCA27C4
+    // Offset: 0xE109D8
     UnityEngine::UI::Selectable* get_selectOnRight();
     // public System.Void set_selectOnRight(UnityEngine.UI.Selectable value)
-    // Offset: 0xCA27CC
+    // Offset: 0xE109E0
     void set_selectOnRight(UnityEngine::UI::Selectable* value);
     // static public UnityEngine.UI.Navigation get_defaultNavigation()
-    // Offset: 0x1566EB8
+    // Offset: 0x18E8A3C
     static UnityEngine::UI::Navigation get_defaultNavigation();
     // public System.Boolean Equals(UnityEngine.UI.Navigation other)
-    // Offset: 0xCA27D4
+    // Offset: 0xE109E8
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.UI.Navigation other)
     bool Equals(UnityEngine::UI::Navigation other);

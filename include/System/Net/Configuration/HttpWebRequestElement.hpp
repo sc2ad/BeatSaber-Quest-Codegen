@@ -29,7 +29,7 @@ namespace System::Net::Configuration {
     // Creating value type constructor for type: HttpWebRequestElement
     HttpWebRequestElement() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x130CC4C
+    // Offset: 0x155B9E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -38,7 +38,7 @@ namespace System::Net::Configuration {
       return THROW_UNLESS((::il2cpp_utils::New<HttpWebRequestElement*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x130CC8C
+    // Offset: 0x155BA20
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();

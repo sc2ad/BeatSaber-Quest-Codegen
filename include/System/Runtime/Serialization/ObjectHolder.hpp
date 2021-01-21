@@ -132,139 +132,139 @@ namespace System::Runtime::Serialization {
     // Creating value type constructor for type: ObjectHolder
     ObjectHolder(::Il2CppObject* m_object_ = {}, int64_t m_id_ = {}, int m_missingElementsRemaining_ = {}, int m_missingDecendents_ = {}, System::Runtime::Serialization::SerializationInfo* m_serInfo_ = {}, System::Runtime::Serialization::ISerializationSurrogate* m_surrogate_ = {}, System::Runtime::Serialization::FixupHolderList* m_missingElements_ = {}, System::Runtime::Serialization::LongList* m_dependentObjects_ = {}, System::Runtime::Serialization::ObjectHolder* m_next_ = {}, int m_flags_ = {}, bool m_markForFixupWhenAvailable_ = {}, System::Runtime::Serialization::ValueTypeFixupInfo* m_valueFixup_ = {}, System::Runtime::Serialization::TypeLoadExceptionHolder* m_typeLoad_ = {}, bool m_reachable_ = {}) noexcept : m_object{m_object_}, m_id{m_id_}, m_missingElementsRemaining{m_missingElementsRemaining_}, m_missingDecendents{m_missingDecendents_}, m_serInfo{m_serInfo_}, m_surrogate{m_surrogate_}, m_missingElements{m_missingElements_}, m_dependentObjects{m_dependentObjects_}, m_next{m_next_}, m_flags{m_flags_}, m_markForFixupWhenAvailable{m_markForFixupWhenAvailable_}, m_valueFixup{m_valueFixup_}, m_typeLoad{m_typeLoad_}, m_reachable{m_reachable_} {}
     // System.Void .ctor(System.Int64 objID)
-    // Offset: 0x1304B68
+    // Offset: 0x15548FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectHolder* New_ctor(int64_t objID) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolder*, creationType>(objID)));
     }
     // System.Void .ctor(System.Object obj, System.Int64 objID, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.ISerializationSurrogate surrogate, System.Int64 idOfContainingObj, System.Reflection.FieldInfo field, System.Int32[] arrayIndex)
-    // Offset: 0x1304CE8
+    // Offset: 0x1554A7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectHolder* New_ctor(::Il2CppObject* obj, int64_t objID, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo* field, ::Array<int>* arrayIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolder*, creationType>(obj, objID, info, surrogate, idOfContainingObj, field, arrayIndex)));
     }
     // System.Void .ctor(System.String obj, System.Int64 objID, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.ISerializationSurrogate surrogate, System.Int64 idOfContainingObj, System.Reflection.FieldInfo field, System.Int32[] arrayIndex)
-    // Offset: 0x1304BA0
+    // Offset: 0x1554934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectHolder* New_ctor(::Il2CppString* obj, int64_t objID, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo* field, ::Array<int>* arrayIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolder*, creationType>(obj, objID, info, surrogate, idOfContainingObj, field, arrayIndex)));
     }
     // private System.Void IncrementDescendentFixups(System.Int32 amount)
-    // Offset: 0x1304FB8
+    // Offset: 0x1554D4C
     void IncrementDescendentFixups(int amount);
     // System.Void DecrementFixupsRemaining(System.Runtime.Serialization.ObjectManager manager)
-    // Offset: 0x1304FC8
+    // Offset: 0x1554D5C
     void DecrementFixupsRemaining(System::Runtime::Serialization::ObjectManager* manager);
     // System.Void RemoveDependency(System.Int64 id)
-    // Offset: 0x130505C
+    // Offset: 0x1554DF0
     void RemoveDependency(int64_t id);
     // System.Void AddFixup(System.Runtime.Serialization.FixupHolder fixup, System.Runtime.Serialization.ObjectManager manager)
-    // Offset: 0x1305074
+    // Offset: 0x1554E08
     void AddFixup(System::Runtime::Serialization::FixupHolder* fixup, System::Runtime::Serialization::ObjectManager* manager);
     // private System.Void UpdateDescendentDependencyChain(System.Int32 amount, System.Runtime.Serialization.ObjectManager manager)
-    // Offset: 0x1304FF8
+    // Offset: 0x1554D8C
     void UpdateDescendentDependencyChain(int amount, System::Runtime::Serialization::ObjectManager* manager);
     // System.Void AddDependency(System.Int64 dependentObject)
-    // Offset: 0x1305218
+    // Offset: 0x1554FAC
     void AddDependency(int64_t dependentObject);
     // System.Void UpdateData(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.ISerializationSurrogate surrogate, System.Int64 idOfContainer, System.Reflection.FieldInfo field, System.Int32[] arrayIndex, System.Runtime.Serialization.ObjectManager manager)
-    // Offset: 0x13052A8
+    // Offset: 0x155503C
     void UpdateData(::Il2CppObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainer, System::Reflection::FieldInfo* field, ::Array<int>* arrayIndex, System::Runtime::Serialization::ObjectManager* manager);
     // System.Void MarkForCompletionWhenAvailable()
-    // Offset: 0x1305558
+    // Offset: 0x15552EC
     void MarkForCompletionWhenAvailable();
     // System.Void SetFlags()
-    // Offset: 0x1304F04
+    // Offset: 0x1554C98
     void SetFlags();
     // System.Boolean get_IsIncompleteObjectReference()
-    // Offset: 0x1305564
+    // Offset: 0x15552F8
     bool get_IsIncompleteObjectReference();
     // System.Void set_IsIncompleteObjectReference(System.Boolean value)
-    // Offset: 0x1305570
+    // Offset: 0x1555304
     void set_IsIncompleteObjectReference(bool value);
     // System.Boolean get_RequiresDelayedFixup()
-    // Offset: 0x130558C
+    // Offset: 0x1555320
     bool get_RequiresDelayedFixup();
     // System.Boolean get_RequiresValueTypeFixup()
-    // Offset: 0x1304FEC
+    // Offset: 0x1554D80
     bool get_RequiresValueTypeFixup();
     // System.Boolean get_ValueTypeFixupPerformed()
-    // Offset: 0x130559C
+    // Offset: 0x1555330
     bool get_ValueTypeFixupPerformed();
     // System.Void set_ValueTypeFixupPerformed(System.Boolean value)
-    // Offset: 0x13055D4
+    // Offset: 0x1555368
     void set_ValueTypeFixupPerformed(bool value);
     // System.Boolean get_HasISerializable()
-    // Offset: 0x13055E8
+    // Offset: 0x155537C
     bool get_HasISerializable();
     // System.Boolean get_HasSurrogate()
-    // Offset: 0x13055F4
+    // Offset: 0x1555388
     bool get_HasSurrogate();
     // System.Boolean get_CanSurrogatedObjectValueChange()
-    // Offset: 0x1305600
+    // Offset: 0x1555394
     bool get_CanSurrogatedObjectValueChange();
     // System.Boolean get_CanObjectValueChange()
-    // Offset: 0x13056AC
+    // Offset: 0x1555440
     bool get_CanObjectValueChange();
     // System.Int32 get_DirectlyDependentObjects()
-    // Offset: 0x13056CC
+    // Offset: 0x1555460
     int get_DirectlyDependentObjects();
     // System.Int32 get_TotalDependentObjects()
-    // Offset: 0x13056D4
+    // Offset: 0x1555468
     int get_TotalDependentObjects();
     // System.Boolean get_Reachable()
-    // Offset: 0x13056E0
+    // Offset: 0x1555474
     bool get_Reachable();
     // System.Void set_Reachable(System.Boolean value)
-    // Offset: 0x13056E8
+    // Offset: 0x155547C
     void set_Reachable(bool value);
     // System.Boolean get_TypeLoadExceptionReachable()
-    // Offset: 0x13056F4
+    // Offset: 0x1555488
     bool get_TypeLoadExceptionReachable();
     // System.Runtime.Serialization.TypeLoadExceptionHolder get_TypeLoadException()
-    // Offset: 0x1305704
+    // Offset: 0x1555498
     System::Runtime::Serialization::TypeLoadExceptionHolder* get_TypeLoadException();
     // System.Void set_TypeLoadException(System.Runtime.Serialization.TypeLoadExceptionHolder value)
-    // Offset: 0x130570C
+    // Offset: 0x15554A0
     void set_TypeLoadException(System::Runtime::Serialization::TypeLoadExceptionHolder* value);
     // System.Object get_ObjectValue()
-    // Offset: 0x1305714
+    // Offset: 0x15554A8
     ::Il2CppObject* get_ObjectValue();
     // System.Void SetObjectValue(System.Object obj, System.Runtime.Serialization.ObjectManager manager)
-    // Offset: 0x1305470
+    // Offset: 0x1555204
     void SetObjectValue(::Il2CppObject* obj, System::Runtime::Serialization::ObjectManager* manager);
     // System.Runtime.Serialization.SerializationInfo get_SerializationInfo()
-    // Offset: 0x1305D90
+    // Offset: 0x1555B24
     System::Runtime::Serialization::SerializationInfo* get_SerializationInfo();
     // System.Void set_SerializationInfo(System.Runtime.Serialization.SerializationInfo value)
-    // Offset: 0x1305D98
+    // Offset: 0x1555B2C
     void set_SerializationInfo(System::Runtime::Serialization::SerializationInfo* value);
     // System.Runtime.Serialization.ISerializationSurrogate get_Surrogate()
-    // Offset: 0x1305DA0
+    // Offset: 0x1555B34
     System::Runtime::Serialization::ISerializationSurrogate* get_Surrogate();
     // System.Runtime.Serialization.LongList get_DependentObjects()
-    // Offset: 0x1305DA8
+    // Offset: 0x1555B3C
     System::Runtime::Serialization::LongList* get_DependentObjects();
     // System.Void set_DependentObjects(System.Runtime.Serialization.LongList value)
-    // Offset: 0x1305DB0
+    // Offset: 0x1555B44
     void set_DependentObjects(System::Runtime::Serialization::LongList* value);
     // System.Boolean get_RequiresSerInfoFixup()
-    // Offset: 0x1305DB8
+    // Offset: 0x1555B4C
     bool get_RequiresSerInfoFixup();
     // System.Void set_RequiresSerInfoFixup(System.Boolean value)
-    // Offset: 0x1305DD4
+    // Offset: 0x1555B68
     void set_RequiresSerInfoFixup(bool value);
     // System.Runtime.Serialization.ValueTypeFixupInfo get_ValueFixup()
-    // Offset: 0x1305DF0
+    // Offset: 0x1555B84
     System::Runtime::Serialization::ValueTypeFixupInfo* get_ValueFixup();
     // System.Boolean get_CompletelyFixed()
-    // Offset: 0x1305DF8
+    // Offset: 0x1555B8C
     bool get_CompletelyFixed();
     // System.Int64 get_ContainerID()
-    // Offset: 0x1305154
+    // Offset: 0x1554EE8
     int64_t get_ContainerID();
   }; // System.Runtime.Serialization.ObjectHolder
   #pragma pack(pop)

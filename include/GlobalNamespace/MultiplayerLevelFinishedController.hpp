@@ -51,30 +51,30 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerLevelFinishedController : public UnityEngine::MonoBehaviour {
     public:
-    // Nested type: GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__20
-    class $StartLevelFinished$d__20;
-    // [InjectAttribute] Offset: 0xDC8580
+    // Nested type: GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__19
+    class $StartLevelFinished$d__19;
+    // [InjectAttribute] Offset: 0xD3A72C
     // private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IMultiplayerLevelEndActionsPublisher* levelEndActionsPublisher;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerLevelEndActionsPublisher*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC8590
+    // [InjectAttribute] Offset: 0xD3A73C
     // private readonly IGameplayRpcManager _rpcManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IGameplayRpcManager* rpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC85A0
+    // [InjectAttribute] Offset: 0xD3A74C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC85B0
+    // [CompilerGeneratedAttribute] Offset: 0xD3A75C
     // private System.Action`2<LevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults>> allResultsCollectedEvent
     // Size: 0x8
     // Offset: 0x30
@@ -118,43 +118,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMinSceneDuration
     static void _set_kMinSceneDuration(float value);
     // public System.Void add_allResultsCollectedEvent(System.Action`2<LevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults>> value)
-    // Offset: 0xFB09FC
+    // Offset: 0x10210A8
     void add_allResultsCollectedEvent(System::Action_2<GlobalNamespace::LevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>*>* value);
     // public System.Void remove_allResultsCollectedEvent(System.Action`2<LevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults>> value)
-    // Offset: 0xFAEDEC
+    // Offset: 0x101F450
     void remove_allResultsCollectedEvent(System::Action_2<GlobalNamespace::LevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>*>* value);
     // public System.Boolean get_gameResultsReady()
-    // Offset: 0xFB63FC
+    // Offset: 0x1026AA0
     bool get_gameResultsReady();
     // public System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> get_otherPlayersCompletionResults()
-    // Offset: 0xFB6404
+    // Offset: 0x1026AA8
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* get_otherPlayersCompletionResults();
     // public LevelCompletionResults get_localPlayerResults()
-    // Offset: 0xFB640C
+    // Offset: 0x1026AB0
     GlobalNamespace::LevelCompletionResults* get_localPlayerResults();
     // protected System.Void Start()
-    // Offset: 0xFB6414
+    // Offset: 0x1026AB8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFB6660
+    // Offset: 0x1026D04
     void OnDestroy();
-    // public System.Void PlayerNetworkDidFail(PlayerNetworkFailReason playerNetworkFailReason)
-    // Offset: 0xFAF438
-    void PlayerNetworkDidFail(GlobalNamespace::PlayerNetworkFailReason playerNetworkFailReason);
     // private System.Collections.IEnumerator StartLevelFinished(LevelCompletionResults localPlayerResults)
-    // Offset: 0xFB6A20
+    // Offset: 0x1026F58
     System::Collections::IEnumerator* StartLevelFinished(GlobalNamespace::LevelCompletionResults* localPlayerResults);
     // private System.Void HandlePlayerDidFinish(LevelCompletionResults levelCompletionResults)
-    // Offset: 0xFB6AE4
+    // Offset: 0x102701C
     void HandlePlayerDidFinish(GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void HandlePlayerNetworkDidFailed(PlayerNetworkFailReason playerNetworkFailReason)
-    // Offset: 0xFB68B4
+    // Offset: 0x1027048
     void HandlePlayerNetworkDidFailed(GlobalNamespace::PlayerNetworkFailReason playerNetworkFailReason);
     // private System.Void HandleRpcLevelFinished(System.String userId, LevelCompletionResults results)
-    // Offset: 0xFB6B10
+    // Offset: 0x10271B4
     void HandleRpcLevelFinished(::Il2CppString* userId, GlobalNamespace::LevelCompletionResults* results);
     // public System.Void .ctor()
-    // Offset: 0xFB6B80
+    // Offset: 0x1027224
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

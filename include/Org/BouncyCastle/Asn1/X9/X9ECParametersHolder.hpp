@@ -37,13 +37,13 @@ namespace Org::BouncyCastle::Asn1::X9 {
       return parameters;
     }
     // public Org.BouncyCastle.Asn1.X9.X9ECParameters get_Parameters()
-    // Offset: 0x1586744
+    // Offset: 0x19072C8
     Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
     // protected Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
     // protected System.Void .ctor()
-    // Offset: 0x15867F0
+    // Offset: 0x1907374
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

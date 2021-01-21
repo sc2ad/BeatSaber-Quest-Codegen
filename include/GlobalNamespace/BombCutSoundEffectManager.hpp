@@ -56,21 +56,21 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::AudioClip*>* bombExplosionAudioClips;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::AudioClip*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC19A4
+    // [InjectAttribute] Offset: 0xD33868
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC19B4
+    // [InjectAttribute] Offset: 0xD33878
     // private readonly SaberManager saberManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC19C4
+    // [InjectAttribute] Offset: 0xD33888
     // private readonly BombCutSoundEffect/Pool _bombCutSoundEffectPool
     // Size: 0x8
     // Offset: 0x38
@@ -88,19 +88,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1A308E4
+    // Offset: 0xF617F8
     void Start();
     // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0x1A309B4
+    // Offset: 0xF618C8
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // protected System.Void OnDestroy()
-    // Offset: 0x1A30BA4
+    // Offset: 0xF61AB8
     void OnDestroy();
     // private System.Void HandleBombCutSoundEffectDidFinish(BombCutSoundEffect bombCutSoundEffect)
-    // Offset: 0x1A30C40
+    // Offset: 0xF61B54
     void HandleBombCutSoundEffectDidFinish(GlobalNamespace::BombCutSoundEffect* bombCutSoundEffect);
     // public System.Void .ctor()
-    // Offset: 0x1A30CEC
+    // Offset: 0xF61C00
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

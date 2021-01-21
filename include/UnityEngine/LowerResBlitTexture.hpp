@@ -18,7 +18,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: LowerResBlitTexture
     LowerResBlitTexture() noexcept {}
     // System.Void LowerResBlitTextureDontStripMe()
-    // Offset: 0x168EA4C
+    // Offset: 0x1A2648C
     void LowerResBlitTextureDontStripMe();
   }; // UnityEngine.LowerResBlitTexture
   #pragma pack(pop)

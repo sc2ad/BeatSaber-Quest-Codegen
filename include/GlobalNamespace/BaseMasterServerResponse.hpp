@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class BaseMasterServerResponse : public ::Il2CppObject/*, public MasterServer::IMasterServerResponse*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDAA0E4
+    // [CompilerGeneratedAttribute] Offset: 0xD1BCDC
     // private System.UInt32 <responseId>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -46,25 +46,25 @@ namespace GlobalNamespace {
       return responseId;
     }
     // private System.Void set_responseId(System.UInt32 value)
-    // Offset: 0x1B437B0
+    // Offset: 0x11CAA24
     void set_responseId(uint value);
     // public System.UInt32 get_responseId()
-    // Offset: 0x1B437A8
+    // Offset: 0x11CAA1C
     // Implemented from: MasterServer.IMasterServerResponse
     // Base method: System.UInt32 IMasterServerResponse::get_responseId()
     uint get_responseId();
     // public System.Byte get_resultCode()
-    // Offset: 0x1B437B8
+    // Offset: 0x11CAA2C
     // Implemented from: MasterServer.IMasterServerResponse
     // Base method: System.Byte IMasterServerResponse::get_resultCode()
     uint8_t get_resultCode();
     // public System.String get_resultCodeString()
-    // Offset: 0x1B437C0
+    // Offset: 0x11CAA34
     // Implemented from: MasterServer.IMasterServerResponse
     // Base method: System.String IMasterServerResponse::get_resultCodeString()
     ::Il2CppString* get_resultCodeString();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1B43560
+    // Offset: 0x11CA7D4
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1B435D0
+    // Offset: 0x11CA844
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -85,12 +85,12 @@ namespace GlobalNamespace {
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // private MasterServer.IMasterServerResponse MasterServer.IMasterServerResponse.WithResponseId(System.UInt32 responseId)
-    // Offset: 0x1B43808
+    // Offset: 0x11CAA7C
     // Implemented from: MasterServer.IMasterServerResponse
     // Base method: MasterServer.IMasterServerResponse IMasterServerResponse::WithResponseId(System.UInt32 responseId)
     MasterServer::IMasterServerResponse* MasterServer_IMasterServerResponse_WithResponseId(uint responseId);
     // protected System.Void .ctor()
-    // Offset: 0x1B4360C
+    // Offset: 0x11CA880
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

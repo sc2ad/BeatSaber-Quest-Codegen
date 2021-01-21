@@ -64,20 +64,20 @@ namespace Zenject {
     // Creating value type constructor for type: PoolableManager
     PoolableManager(System::Collections::Generic::List_1<Zenject::IPoolable*>* poolables_ = {}, bool isSpawned_ = {}) noexcept : poolables{poolables_}, isSpawned{isSpawned_} {}
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IPoolable> poolables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0x1348F28
+    // Offset: 0x15B5408
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolableManager* New_ctor(System::Collections::Generic::List_1<Zenject::IPoolable*>* poolables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolableManager*, creationType>(poolables, priorities)));
     }
     // private Zenject.PoolableManager/PoolableInfo CreatePoolableInfo(Zenject.IPoolable poolable, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0x13491B4
+    // Offset: 0x15B5694
     Zenject::PoolableManager::PoolableInfo CreatePoolableInfo(Zenject::IPoolable* poolable, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities);
     // public System.Void TriggerOnSpawned()
-    // Offset: 0x13493DC
+    // Offset: 0x15B58BC
     void TriggerOnSpawned();
     // public System.Void TriggerOnDespawned()
-    // Offset: 0x13494F4
+    // Offset: 0x15B59D4
     void TriggerOnDespawned();
   }; // Zenject.PoolableManager
   #pragma pack(pop)

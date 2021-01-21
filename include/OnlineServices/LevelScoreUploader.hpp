@@ -54,7 +54,7 @@ namespace OnlineServices {
     class LevelScoreResultsDataUploadInfo;
     // Nested type: OnlineServices::LevelScoreUploader::$SendLevelScoreResultAsync$d__13
     struct $SendLevelScoreResultAsync$d__13;
-    // [CompilerGeneratedAttribute] Offset: 0xDD34F0
+    // [CompilerGeneratedAttribute] Offset: 0xD4589C
     // private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
     // Size: 0x8
     // Offset: 0x10
@@ -100,32 +100,32 @@ namespace OnlineServices {
     // Set static field: static private System.Int32 kMaxUploadAttempts
     static void _set_kMaxUploadAttempts(int value);
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0xEFE3EC
+    // Offset: 0xF1A86C
     void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0xEFE490
+    // Offset: 0xF1A910
     void remove_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void .ctor(HTTPLeaderboardsModel leaderboardsModel, OnlineServices.PlatformOnlineServicesAvailabilityModel platformOnlineServicesAvailabilityModel)
-    // Offset: 0xEFE534
+    // Offset: 0xF1A9B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelScoreUploader* New_ctor(GlobalNamespace::HTTPLeaderboardsModel* leaderboardsModel, OnlineServices::PlatformOnlineServicesAvailabilityModel* platformOnlineServicesAvailabilityModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::LevelScoreUploader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelScoreUploader*, creationType>(leaderboardsModel, platformOnlineServicesAvailabilityModel)));
     }
     // public System.Void SendLevelScoreResult(OnlineServices.LevelScoreResultsData levelScoreResultsData)
-    // Offset: 0xEFE60C
+    // Offset: 0xF1AA8C
     void SendLevelScoreResult(OnlineServices::LevelScoreResultsData levelScoreResultsData);
     // public System.Void TrySendPreviouslyUnsuccessfullySentResults()
-    // Offset: 0xEFE7FC
+    // Offset: 0xF1AC7C
     void TrySendPreviouslyUnsuccessfullySentResults();
     // private System.Void SendLevelScoreResultAsync()
-    // Offset: 0xEFE72C
+    // Offset: 0xF1ABAC
     void SendLevelScoreResultAsync();
     // private System.Void AddUnsuccessfullySentResults()
-    // Offset: 0xEFE820
+    // Offset: 0xF1ACA0
     void AddUnsuccessfullySentResults();
     // protected System.Void OnDestroy()
-    // Offset: 0xEFE894
+    // Offset: 0xF1AD14
     void OnDestroy();
   }; // OnlineServices.LevelScoreUploader
   #pragma pack(pop)

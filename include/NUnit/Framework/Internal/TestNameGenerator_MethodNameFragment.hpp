@@ -31,12 +31,12 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: MethodNameFragment
     MethodNameFragment() noexcept {}
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    // Offset: 0x195ECC8
+    // Offset: 0x22279BC
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
     ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* args);
     // public System.Void .ctor()
-    // Offset: 0x195DDC0
+    // Offset: 0x2226AB4
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
     // Base method: System.Void NameFragment::.ctor()
     // Base method: System.Void Object::.ctor()

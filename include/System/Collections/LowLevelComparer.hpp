@@ -30,10 +30,10 @@ namespace System::Collections {
     // Set static field: static readonly System.Collections.LowLevelComparer Default
     static void _set_Default(System::Collections::LowLevelComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x152B778
+    // Offset: 0x1899DA8
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x152B5B8
+    // Offset: 0x1899BE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -42,7 +42,7 @@ namespace System::Collections {
       return THROW_UNLESS((::il2cpp_utils::New<LowLevelComparer*, creationType>()));
     }
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x152B5C0
+    // Offset: 0x1899BF0
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object a, System.Object b)
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);

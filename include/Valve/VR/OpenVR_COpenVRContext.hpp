@@ -115,46 +115,46 @@ namespace Valve::VR {
     // Creating value type constructor for type: COpenVRContext
     COpenVRContext(Valve::VR::CVRSystem* m_pVRSystem_ = {}, Valve::VR::CVRChaperone* m_pVRChaperone_ = {}, Valve::VR::CVRChaperoneSetup* m_pVRChaperoneSetup_ = {}, Valve::VR::CVRCompositor* m_pVRCompositor_ = {}, Valve::VR::CVROverlay* m_pVROverlay_ = {}, Valve::VR::CVRRenderModels* m_pVRRenderModels_ = {}, Valve::VR::CVRExtendedDisplay* m_pVRExtendedDisplay_ = {}, Valve::VR::CVRSettings* m_pVRSettings_ = {}, Valve::VR::CVRApplications* m_pVRApplications_ = {}, Valve::VR::CVRScreenshots* m_pVRScreenshots_ = {}, Valve::VR::CVRTrackedCamera* m_pVRTrackedCamera_ = {}) noexcept : m_pVRSystem{m_pVRSystem_}, m_pVRChaperone{m_pVRChaperone_}, m_pVRChaperoneSetup{m_pVRChaperoneSetup_}, m_pVRCompositor{m_pVRCompositor_}, m_pVROverlay{m_pVROverlay_}, m_pVRRenderModels{m_pVRRenderModels_}, m_pVRExtendedDisplay{m_pVRExtendedDisplay_}, m_pVRSettings{m_pVRSettings_}, m_pVRApplications{m_pVRApplications_}, m_pVRScreenshots{m_pVRScreenshots_}, m_pVRTrackedCamera{m_pVRTrackedCamera_} {}
     // public System.Void Clear()
-    // Offset: 0x19AB05C
+    // Offset: 0x22728B0
     void Clear();
     // private System.Void CheckClear()
-    // Offset: 0x19AB188
+    // Offset: 0x22729DC
     void CheckClear();
     // public Valve.VR.CVRSystem VRSystem()
-    // Offset: 0x19AA288
+    // Offset: 0x2271ADC
     Valve::VR::CVRSystem* VRSystem();
     // public Valve.VR.CVRChaperone VRChaperone()
-    // Offset: 0x19AA3B4
+    // Offset: 0x2271C08
     Valve::VR::CVRChaperone* VRChaperone();
     // public Valve.VR.CVRChaperoneSetup VRChaperoneSetup()
-    // Offset: 0x19AA4E0
+    // Offset: 0x2271D34
     Valve::VR::CVRChaperoneSetup* VRChaperoneSetup();
     // public Valve.VR.CVRCompositor VRCompositor()
-    // Offset: 0x19AA60C
+    // Offset: 0x2271E60
     Valve::VR::CVRCompositor* VRCompositor();
     // public Valve.VR.CVROverlay VROverlay()
-    // Offset: 0x19AA738
+    // Offset: 0x2271F8C
     Valve::VR::CVROverlay* VROverlay();
     // public Valve.VR.CVRRenderModels VRRenderModels()
-    // Offset: 0x19AA864
+    // Offset: 0x22720B8
     Valve::VR::CVRRenderModels* VRRenderModels();
     // public Valve.VR.CVRExtendedDisplay VRExtendedDisplay()
-    // Offset: 0x19AA990
+    // Offset: 0x22721E4
     Valve::VR::CVRExtendedDisplay* VRExtendedDisplay();
     // public Valve.VR.CVRSettings VRSettings()
-    // Offset: 0x19AAABC
+    // Offset: 0x2272310
     Valve::VR::CVRSettings* VRSettings();
     // public Valve.VR.CVRApplications VRApplications()
-    // Offset: 0x19AABE8
+    // Offset: 0x227243C
     Valve::VR::CVRApplications* VRApplications();
     // public Valve.VR.CVRScreenshots VRScreenshots()
-    // Offset: 0x19AAD14
+    // Offset: 0x2272568
     Valve::VR::CVRScreenshots* VRScreenshots();
     // public Valve.VR.CVRTrackedCamera VRTrackedCamera()
-    // Offset: 0x19AAE40
+    // Offset: 0x2272694
     Valve::VR::CVRTrackedCamera* VRTrackedCamera();
     // public System.Void .ctor()
-    // Offset: 0x19AA1F8
+    // Offset: 0x2271A4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

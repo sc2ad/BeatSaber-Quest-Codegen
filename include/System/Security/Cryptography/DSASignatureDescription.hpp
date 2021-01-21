@@ -22,7 +22,7 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: DSASignatureDescription
     DSASignatureDescription() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1696944
+    // Offset: 0x1A448B0
     // Implemented from: System.Security.Cryptography.SignatureDescription
     // Base method: System.Void SignatureDescription::.ctor()
     // Base method: System.Void Object::.ctor()

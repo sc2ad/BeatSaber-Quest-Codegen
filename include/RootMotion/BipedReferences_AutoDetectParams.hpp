@@ -41,11 +41,11 @@ namespace RootMotion {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Boolean legsParentInSpine, System.Boolean includeEyes)
-    // Offset: 0xCA7D44
+    // Offset: 0xE18B28
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  AutoDetectParams(bool legsParentInSpine, bool includeEyes)
     // static public RootMotion.BipedReferences/AutoDetectParams get_Default()
-    // Offset: 0x1748C34
+    // Offset: 0x1B4E668
     static RootMotion::BipedReferences::AutoDetectParams get_Default();
   }; // RootMotion.BipedReferences/AutoDetectParams
   #pragma pack(pop)

@@ -115,16 +115,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoteCutInfo
     NoteCutInfo(bool speedOK_ = {}, bool directionOK_ = {}, bool saberTypeOK_ = {}, bool wasCutTooSoon_ = {}, float saberSpeed_ = {}, UnityEngine::Vector3 saberDir_ = {}, GlobalNamespace::SaberType saberType_ = {}, float timeDeviation_ = {}, float cutDirDeviation_ = {}, UnityEngine::Vector3 cutPoint_ = {}, UnityEngine::Vector3 cutNormal_ = {}, float cutAngle_ = {}, float cutDistanceToCenter_ = {}, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter_ = {}) noexcept : speedOK{speedOK_}, directionOK{directionOK_}, saberTypeOK{saberTypeOK_}, wasCutTooSoon{wasCutTooSoon_}, saberSpeed{saberSpeed_}, saberDir{saberDir_}, saberType{saberType_}, timeDeviation{timeDeviation_}, cutDirDeviation{cutDirDeviation_}, cutPoint{cutPoint_}, cutNormal{cutNormal_}, cutAngle{cutAngle_}, cutDistanceToCenter{cutDistanceToCenter_}, swingRatingCounter{swingRatingCounter_} {}
     // public System.Boolean get_allIsOK()
-    // Offset: 0x19A5FFC
+    // Offset: 0x226D844
     bool get_allIsOK();
     // public System.Boolean get_allExceptSaberTypeIsOK()
-    // Offset: 0x19A602C
+    // Offset: 0x226D874
     bool get_allExceptSaberTypeIsOK();
     // public System.String get_failText()
-    // Offset: 0x19A6054
+    // Offset: 0x226D89C
     ::Il2CppString* get_failText();
     // public System.Void .ctor(System.Boolean speedOK, System.Boolean directionOK, System.Boolean saberTypeOK, System.Boolean wasCutTooSoon, System.Single saberSpeed, UnityEngine.Vector3 saberDir, SaberType saberType, System.Single timeDeviation, System.Single cutDirDeviation, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, System.Single cutDistanceToCenter, System.Single cutAngle, ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x19A60F0
+    // Offset: 0x226D938
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutInfo* New_ctor(bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float saberSpeed, UnityEngine::Vector3 saberDir, GlobalNamespace::SaberType saberType, float timeDeviation, float cutDirDeviation, UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, float cutDistanceToCenter, float cutAngle, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteCutInfo::.ctor");

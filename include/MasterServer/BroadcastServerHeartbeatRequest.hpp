@@ -36,14 +36,14 @@ namespace MasterServer {
   // [] Offset: FFFFFFFF
   class BroadcastServerHeartbeatRequest : public ::Il2CppObject/*, public MasterServer::IMasterServerUnreliableMessage, public MasterServer::IUserClientToServerMessage*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDAA5F4
+    // [CompilerGeneratedAttribute] Offset: 0xD1C1EC
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDAA604
+    // [CompilerGeneratedAttribute] Offset: 0xD1C1FC
     // private System.String <userName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -73,29 +73,29 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IUserClientToServerMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.BroadcastServerHeartbeatRequest> get_pool()
-    // Offset: 0x1AD3134
+    // Offset: 0x1119384
     static GlobalNamespace::PacketPool_1<MasterServer::BroadcastServerHeartbeatRequest*>* get_pool();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x1AD3184
+    // Offset: 0x11193D4
     void set_userId(::Il2CppString* value);
     // private System.Void set_userName(System.String value)
-    // Offset: 0x1AD3194
+    // Offset: 0x11193E4
     void set_userName(::Il2CppString* value);
     // public MasterServer.BroadcastServerHeartbeatRequest Init(System.String userId, System.String userName, System.String secret, System.Int32 currentPlayerCount)
-    // Offset: 0x1AD319C
+    // Offset: 0x11193EC
     MasterServer::BroadcastServerHeartbeatRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret, int currentPlayerCount);
     // public System.String get_userId()
-    // Offset: 0x1AD317C
+    // Offset: 0x11193CC
     // Implemented from: MasterServer.IUserClientToServerMessage
     // Base method: System.String IUserClientToServerMessage::get_userId()
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x1AD318C
+    // Offset: 0x11193DC
     // Implemented from: MasterServer.IUserClientToServerMessage
     // Base method: System.String IUserClientToServerMessage::get_userName()
     ::Il2CppString* get_userName();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1AD31FC
+    // Offset: 0x111944C
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -103,7 +103,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1AD3260
+    // Offset: 0x11194B0
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -111,12 +111,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1AD32EC
+    // Offset: 0x111953C
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1AD3348
+    // Offset: 0x1119598
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

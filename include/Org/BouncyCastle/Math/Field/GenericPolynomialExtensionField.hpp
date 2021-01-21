@@ -51,34 +51,34 @@ namespace Org::BouncyCastle::Math::Field {
       return *reinterpret_cast<Org::BouncyCastle::Math::Field::IPolynomialExtensionField*>(this);
     }
     // System.Void .ctor(Org.BouncyCastle.Math.Field.IFiniteField subfield, Org.BouncyCastle.Math.Field.IPolynomial polynomial)
-    // Offset: 0x1791EFC
+    // Offset: 0x1BC991C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericPolynomialExtensionField* New_ctor(Org::BouncyCastle::Math::Field::IFiniteField* subfield, Org::BouncyCastle::Math::Field::IPolynomial* polynomial) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericPolynomialExtensionField*, creationType>(subfield, polynomial)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_Characteristic()
-    // Offset: 0x179240C
+    // Offset: 0x1BC9E2C
     // Implemented from: Org.BouncyCastle.Math.Field.IFiniteField
     // Base method: Org.BouncyCastle.Math.BigInteger IFiniteField::get_Characteristic()
     Org::BouncyCastle::Math::BigInteger* get_Characteristic();
     // public System.Int32 get_Dimension()
-    // Offset: 0x17924BC
+    // Offset: 0x1BC9EDC
     // Implemented from: Org.BouncyCastle.Math.Field.IFiniteField
     // Base method: System.Int32 IFiniteField::get_Dimension()
     int get_Dimension();
     // public Org.BouncyCastle.Math.Field.IPolynomial get_MinimalPolynomial()
-    // Offset: 0x17925EC
+    // Offset: 0x1BCA00C
     // Implemented from: Org.BouncyCastle.Math.Field.IPolynomialExtensionField
     // Base method: Org.BouncyCastle.Math.Field.IPolynomial IPolynomialExtensionField::get_MinimalPolynomial()
     Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x17925F4
+    // Offset: 0x1BCA014
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x17926D8
+    // Offset: 0x1BCA0F8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

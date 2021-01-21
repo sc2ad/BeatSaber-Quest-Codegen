@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerOffsetPositionByLocalPlayerPosition : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xDCA214
+    // [InjectAttribute] Offset: 0xD3C410
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x18
@@ -62,19 +62,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xF77C9C
+    // Offset: 0xFEA56C
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xF77D08
+    // Offset: 0xFEA5D8
     void Update();
     // public System.Void SetEnabled(System.Boolean isEnabled)
-    // Offset: 0xF77CFC
+    // Offset: 0xFEA5CC
     void SetEnabled(bool isEnabled);
     // private System.Void UpdatePositionAndRotationIfNeeded()
-    // Offset: 0xF77D0C
+    // Offset: 0xFEA5DC
     void UpdatePositionAndRotationIfNeeded();
     // public System.Void .ctor()
-    // Offset: 0xF78034
+    // Offset: 0xFEA904
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

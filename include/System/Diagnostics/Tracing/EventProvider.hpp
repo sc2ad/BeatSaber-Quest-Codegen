@@ -95,7 +95,7 @@ namespace System::Diagnostics::Tracing {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // System.Void .ctor(System.Int32 sessionIdBit_, System.Int32 etwSessionId_)
-      // Offset: 0xC9B994
+      // Offset: 0xE07850
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  SessionInfo(int sessionIdBit_, int etwSessionId_)
     }; // System.Diagnostics.Tracing.EventProvider/SessionInfo
@@ -240,7 +240,7 @@ namespace System::Diagnostics::Tracing {
     static bool _get_m_setInformationMissing();
     // Set static field: static private System.Boolean m_setInformationMissing
     static void _set_m_setInformationMissing(bool value);
-    // [ThreadStaticAttribute] Offset: 0xD3F168
+    // [ThreadStaticAttribute] Offset: 0xCAFD1C
     // Get static field: static private System.Diagnostics.Tracing.EventProvider/WriteEventErrorCode s_returnCode
     static System::Diagnostics::Tracing::EventProvider::WriteEventErrorCode _get_s_returnCode();
     // Set static field: static private System.Diagnostics.Tracing.EventProvider/WriteEventErrorCode s_returnCode
@@ -250,67 +250,67 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static private System.Int32[] nibblebits
     static void _set_nibblebits(::Array<int>* value);
     // System.Void Register(System.Guid providerGuid)
-    // Offset: 0x12C8780
+    // Offset: 0x1517514
     void Register(System::Guid providerGuid);
     // System.Int32 SetInformation(Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_INFO_CLASS eventInfoClass, System.Void* data, System.Int32 dataSize)
-    // Offset: 0x12C8954
+    // Offset: 0x15176E8
     int SetInformation(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EVENT_INFO_CLASS eventInfoClass, void* data, int dataSize);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x12C8B14
+    // Offset: 0x15178A8
     void Dispose(bool disposing);
     // private System.Void Deregister()
-    // Offset: 0x12C8C58
+    // Offset: 0x15179EC
     void Deregister();
     // static private System.Void EtwEnableCallBack(in System.Guid sourceId, in System.Int32 controlCode, in System.Byte setLevel, in System.Int64 anyKeyword, in System.Int64 allKeyword, in Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_FILTER_DESCRIPTOR* filterData, in System.Void* callbackContext)
-    // Offset: 0x12C8698
+    // Offset: 0x151742C
     static void EtwEnableCallBack(System::Guid& sourceId, int& controlCode, uint8_t& setLevel, int64_t& anyKeyword, int64_t& allKeyword, Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EVENT_FILTER_DESCRIPTOR*& filterData, void*& callbackContext);
     // private System.Void EtwEnableCallBackImpl(in System.Int32 controlCode, in System.Byte setLevel, in System.Int64 anyKeyword, in System.Int64 allKeyword, in Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_FILTER_DESCRIPTOR* filterData)
-    // Offset: 0x12C8D3C
+    // Offset: 0x1517AD0
     void EtwEnableCallBackImpl(int& controlCode, uint8_t& setLevel, int64_t& anyKeyword, int64_t& allKeyword, Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EVENT_FILTER_DESCRIPTOR*& filterData);
     // protected System.Void OnControllerCommand(System.Diagnostics.Tracing.ControllerCommand command, System.Collections.Generic.IDictionary`2<System.String,System.String> arguments, System.Int32 sessionId, System.Int32 etwSessionId)
-    // Offset: 0x12C978C
+    // Offset: 0x1518520
     void OnControllerCommand(System::Diagnostics::Tracing::ControllerCommand command, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* arguments, int sessionId, int etwSessionId);
     // protected System.Diagnostics.Tracing.EventLevel get_Level()
-    // Offset: 0x12C9790
+    // Offset: 0x1518524
     System::Diagnostics::Tracing::EventLevel get_Level();
     // protected System.Diagnostics.Tracing.EventKeywords get_MatchAnyKeyword()
-    // Offset: 0x12C9798
+    // Offset: 0x151852C
     System::Diagnostics::Tracing::EventKeywords get_MatchAnyKeyword();
     // static private System.Int32 FindNull(System.Byte[] buffer, System.Int32 idx)
-    // Offset: 0x12C9738
+    // Offset: 0x15184CC
     static int FindNull(::Array<uint8_t>* buffer, int idx);
     // private System.Collections.Generic.List`1<System.Tuple`2<System.Diagnostics.Tracing.EventProvider/SessionInfo,System.Boolean>> GetSessions()
-    // Offset: 0x12C925C
+    // Offset: 0x1517FF0
     System::Collections::Generic::List_1<System::Tuple_2<System::Diagnostics::Tracing::EventProvider::SessionInfo, bool>*>* GetSessions();
     // static private System.Void GetSessionInfoCallback(System.Int32 etwSessionId, System.Int64 matchAllKeywords, ref System.Collections.Generic.List`1<System.Diagnostics.Tracing.EventProvider/SessionInfo> sessionList)
-    // Offset: 0x12C9A18
+    // Offset: 0x15187AC
     static void GetSessionInfoCallback(int etwSessionId, int64_t matchAllKeywords, System::Collections::Generic::List_1<System::Diagnostics::Tracing::EventProvider::SessionInfo>*& sessionList);
     // private System.Void GetSessionInfo(System.Action`2<System.Int32,System.Int64> action)
-    // Offset: 0x12C97A8
+    // Offset: 0x151853C
     void GetSessionInfo(System::Action_2<int, int64_t>* action);
     // static private System.Int32 IndexOfSessionInList(System.Collections.Generic.List`1<System.Diagnostics.Tracing.EventProvider/SessionInfo> sessions, System.Int32 etwSessionId)
-    // Offset: 0x12C997C
+    // Offset: 0x1518710
     static int IndexOfSessionInList(System::Collections::Generic::List_1<System::Diagnostics::Tracing::EventProvider::SessionInfo>* sessions, int etwSessionId);
     // private System.Boolean GetDataFromController(System.Int32 etwSessionId, Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_FILTER_DESCRIPTOR* filterData, out System.Diagnostics.Tracing.ControllerCommand command, out System.Byte[] data, out System.Int32 dataStart)
-    // Offset: 0x12C9620
+    // Offset: 0x15183B4
     bool GetDataFromController(int etwSessionId, Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EVENT_FILTER_DESCRIPTOR* filterData, System::Diagnostics::Tracing::ControllerCommand& command, ::Array<uint8_t>*& data, int& dataStart);
     // public System.Boolean IsEnabled()
-    // Offset: 0x12C9CB4
+    // Offset: 0x1518A48
     bool IsEnabled();
     // public System.Boolean IsEnabled(System.Byte level, System.Int64 keywords)
-    // Offset: 0x12C9CBC
+    // Offset: 0x1518A50
     bool IsEnabled(uint8_t level, int64_t keywords);
     // static public System.Diagnostics.Tracing.EventProvider/WriteEventErrorCode GetLastWriteEventError()
-    // Offset: 0x12C9D00
+    // Offset: 0x1518A94
     static System::Diagnostics::Tracing::EventProvider::WriteEventErrorCode GetLastWriteEventError();
     // static private System.Void SetLastError(System.Int32 error)
-    // Offset: 0x12C9D68
+    // Offset: 0x1518AFC
     static void SetLastError(int error);
     // static private System.Object EncodeObject(ref System.Object data, ref System.Diagnostics.Tracing.EventProvider/EventData* dataDescriptor, ref System.Byte* dataBuffer, ref System.UInt32 totalEventSize)
-    // Offset: 0x12C9E1C
+    // Offset: 0x1518BB0
     static ::Il2CppObject* EncodeObject(::Il2CppObject*& data, System::Diagnostics::Tracing::EventProvider::EventData*& dataDescriptor, uint8_t*& dataBuffer, uint& totalEventSize);
     // System.Boolean WriteEvent(ref System.Diagnostics.Tracing.EventDescriptor eventDescriptor, System.Guid* activityID, System.Guid* childActivityID, params System.Object[] eventPayload)
-    // Offset: 0x12CA718
+    // Offset: 0x15194AC
     bool WriteEvent(System::Diagnostics::Tracing::EventDescriptor& eventDescriptor, System::Guid* activityID, System::Guid* childActivityID, ::Array<::Il2CppObject*>* eventPayload);
     // Creating initializer_list -> params proxy for: System.Boolean WriteEvent(ref System.Diagnostics.Tracing.EventDescriptor eventDescriptor, System.Guid* activityID, System.Guid* childActivityID, params System.Object[] eventPayload)
     bool WriteEvent(System::Diagnostics::Tracing::EventDescriptor& eventDescriptor, System::Guid* activityID, System::Guid* childActivityID, std::initializer_list<::Il2CppObject*> eventPayload);
@@ -320,25 +320,25 @@ namespace System::Diagnostics::Tracing {
       return WriteEvent(eventDescriptor, activityID, childActivityID, {eventPayload...});
     }
     // protected internal System.Boolean WriteEvent(ref System.Diagnostics.Tracing.EventDescriptor eventDescriptor, System.Guid* activityID, System.Guid* childActivityID, System.Int32 dataCount, System.IntPtr data)
-    // Offset: 0x12CB1E8
+    // Offset: 0x1519F7C
     bool WriteEvent(System::Diagnostics::Tracing::EventDescriptor& eventDescriptor, System::Guid* activityID, System::Guid* childActivityID, int dataCount, System::IntPtr data);
     // System.Boolean WriteEventRaw(ref System.Diagnostics.Tracing.EventDescriptor eventDescriptor, System.Guid* activityID, System.Guid* relatedActivityID, System.Int32 dataCount, System.IntPtr data)
-    // Offset: 0x12CB2C0
+    // Offset: 0x151A054
     bool WriteEventRaw(System::Diagnostics::Tracing::EventDescriptor& eventDescriptor, System::Guid* activityID, System::Guid* relatedActivityID, int dataCount, System::IntPtr data);
     // private System.UInt32 EventUnregister()
-    // Offset: 0x12C8D10
+    // Offset: 0x1517AA4
     uint EventUnregister();
     // static private System.Int32 bitcount(System.UInt32 n)
-    // Offset: 0x12C9BCC
+    // Offset: 0x1518960
     static int bitcount(uint n);
     // static private System.Int32 bitindex(System.UInt32 n)
-    // Offset: 0x12C9C8C
+    // Offset: 0x1518A20
     static int bitindex(uint n);
     // static private System.Void .cctor()
-    // Offset: 0x12CB398
+    // Offset: 0x151A12C
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x12C8778
+    // Offset: 0x151750C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -347,7 +347,7 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EventProvider*, creationType>()));
     }
     // public System.Void Dispose()
-    // Offset: 0x12C8A98
+    // Offset: 0x151782C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -355,7 +355,7 @@ namespace System::Diagnostics::Tracing {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x12C8C9C
+    // Offset: 0x1517A30
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

@@ -62,38 +62,38 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger q, Org.BouncyCastle.Math.BigInteger a)
-    // Offset: 0x1048830
+    // Offset: 0x1183338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410Parameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* q, Org::BouncyCastle::Math::BigInteger* a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410Parameters*, creationType>(p, q, a)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger q, Org.BouncyCastle.Math.BigInteger a, Org.BouncyCastle.Crypto.Parameters.Gost3410ValidationParameters validation)
-    // Offset: 0x1048838
+    // Offset: 0x1183340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410Parameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* q, Org::BouncyCastle::Math::BigInteger* a, Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* validation) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410Parameters*, creationType>(p, q, a, validation)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x1048960
+    // Offset: 0x1183468
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_Q()
-    // Offset: 0x1048968
+    // Offset: 0x1183470
     Org::BouncyCastle::Math::BigInteger* get_Q();
     // public Org.BouncyCastle.Math.BigInteger get_A()
-    // Offset: 0x1048970
+    // Offset: 0x1183478
     Org::BouncyCastle::Math::BigInteger* get_A();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters other)
-    // Offset: 0x1048A28
+    // Offset: 0x1183530
     bool Equals(Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1048978
+    // Offset: 0x1183480
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1048AAC
+    // Offset: 0x11835B4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

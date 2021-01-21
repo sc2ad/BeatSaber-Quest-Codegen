@@ -19,14 +19,14 @@ namespace LiteNetLib {
   // [] Offset: FFFFFFFF
   class NatPunchModule::NatPunchPacket : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD9B4A8
+    // [CompilerGeneratedAttribute] Offset: 0xD0C0F8
     // private System.String <Token>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* Token;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD9B4B8
+    // [CompilerGeneratedAttribute] Offset: 0xD0C108
     // private System.Boolean <IsExternal>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -36,19 +36,19 @@ namespace LiteNetLib {
     // Creating value type constructor for type: NatPunchPacket
     NatPunchPacket(::Il2CppString* Token_ = {}, bool IsExternal_ = {}) noexcept : Token{Token_}, IsExternal{IsExternal_} {}
     // public System.String get_Token()
-    // Offset: 0x1DC5EFC
+    // Offset: 0x1A9B020
     ::Il2CppString* get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x1DC5F04
+    // Offset: 0x1A9B028
     void set_Token(::Il2CppString* value);
     // public System.Boolean get_IsExternal()
-    // Offset: 0x1DC5F0C
+    // Offset: 0x1A9B030
     bool get_IsExternal();
     // public System.Void set_IsExternal(System.Boolean value)
-    // Offset: 0x1DC5F14
+    // Offset: 0x1A9B038
     void set_IsExternal(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1DC5990
+    // Offset: 0x1A9AAB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

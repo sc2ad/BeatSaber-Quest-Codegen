@@ -44,14 +44,14 @@ namespace Org::BouncyCastle::Asn1::X9 {
       return f;
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECFieldElement f)
-    // Offset: 0x158A844
+    // Offset: 0x190B3C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldElement* New_ctor(Org::BouncyCastle::Math::EC::ECFieldElement* f) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9FieldElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldElement*, creationType>(f)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x158B6D0
+    // Offset: 0x190C254
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

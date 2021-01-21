@@ -50,7 +50,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
       return impl;
     }
     // public System.Void .ctor()
-    // Offset: 0x10E17B8
+    // Offset: 0x12322A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -59,12 +59,12 @@ namespace Org::BouncyCastle::Utilities::Collections {
       return THROW_UNLESS((::il2cpp_utils::New<HashSet*, creationType>()));
     }
     // public System.Void Add(System.Object o)
-    // Offset: 0x10E1838
+    // Offset: 0x1232320
     // Implemented from: Org.BouncyCastle.Utilities.Collections.ISet
     // Base method: System.Void ISet::Add(System.Object o)
     void Add(::Il2CppObject* o);
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x10E1900
+    // Offset: 0x12323E8
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void CopyTo(System::Array* array, int index);
@@ -72,7 +72,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // public System.Int32 get_Count()
-    // Offset: 0x10E1A3C
+    // Offset: 0x1232524
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -80,7 +80,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x10E1AF0
+    // Offset: 0x12325D8
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

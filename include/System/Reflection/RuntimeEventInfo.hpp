@@ -51,24 +51,24 @@ namespace System::Reflection {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // System.Reflection.BindingFlags get_BindingFlags()
-    // Offset: 0x15D0D4C
+    // Offset: 0x19508D0
     System::Reflection::BindingFlags get_BindingFlags();
     // System.RuntimeType GetDeclaringTypeInternal()
-    // Offset: 0x15D0D78
+    // Offset: 0x19508FC
     System::RuntimeType* GetDeclaringTypeInternal();
     // private System.RuntimeType get_ReflectedTypeInternal()
-    // Offset: 0x15D0E04
+    // Offset: 0x1950988
     System::RuntimeType* get_ReflectedTypeInternal();
     // System.Reflection.RuntimeModule GetRuntimeModule()
-    // Offset: 0x15D0D58
+    // Offset: 0x19508DC
     System::Reflection::RuntimeModule* GetRuntimeModule();
     // public override System.Reflection.Module get_Module()
-    // Offset: 0x15D0D54
+    // Offset: 0x19508D8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.Module MemberInfo::get_Module()
     System::Reflection::Module* get_Module();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x15D0E90
+    // Offset: 0x1950A14
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -76,7 +76,7 @@ namespace System::Reflection {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // protected System.Void .ctor()
-    // Offset: 0x15CBF74
+    // Offset: 0x194BAF8
     // Implemented from: System.Reflection.EventInfo
     // Base method: System.Void EventInfo::.ctor()
     // Base method: System.Void MemberInfo::.ctor()

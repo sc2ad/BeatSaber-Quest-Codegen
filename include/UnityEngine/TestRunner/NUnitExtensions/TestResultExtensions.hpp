@@ -34,10 +34,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
     // Creating value type constructor for type: TestResultExtensions
     TestResultExtensions() noexcept {}
     // static public System.Void RecordPrefixedException(NUnit.Framework.Internal.TestResult testResult, System.String prefix, System.Exception ex, NUnit.Framework.Interfaces.ResultState resultState)
-    // Offset: 0x1189F7C
+    // Offset: 0x1331980
     static void RecordPrefixedException(NUnit::Framework::Internal::TestResult* testResult, ::Il2CppString* prefix, System::Exception* ex, NUnit::Framework::Interfaces::ResultState* resultState);
     // static public System.Void RecordPrefixedError(NUnit.Framework.Internal.TestResult testResult, System.String prefix, System.String error, NUnit.Framework.Interfaces.ResultState resultState)
-    // Offset: 0x118A3F8
+    // Offset: 0x1331DFC
     static void RecordPrefixedError(NUnit::Framework::Internal::TestResult* testResult, ::Il2CppString* prefix, ::Il2CppString* error, NUnit::Framework::Interfaces::ResultState* resultState);
   }; // UnityEngine.TestRunner.NUnitExtensions.TestResultExtensions
   #pragma pack(pop)

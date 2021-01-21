@@ -37,15 +37,15 @@ namespace HMUI {
     // Creating value type constructor for type: Touchable
     Touchable(float skew_ = {}) noexcept : skew{skew_} {}
     // public System.Single get_skew()
-    // Offset: 0x197F420
+    // Offset: 0x2243B90
     float get_skew();
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x197F428
+    // Offset: 0x2243B98
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);
     // public System.Void .ctor()
-    // Offset: 0x197F444
+    // Offset: 0x2243BB4
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()

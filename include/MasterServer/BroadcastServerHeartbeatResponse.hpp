@@ -109,13 +109,13 @@ namespace MasterServer {
       return result;
     }
     // static public PacketPool`1<MasterServer.BroadcastServerHeartbeatResponse> get_pool()
-    // Offset: 0x1AD3350
+    // Offset: 0x11195A0
     static GlobalNamespace::PacketPool_1<MasterServer::BroadcastServerHeartbeatResponse*>* get_pool();
     // public MasterServer.BroadcastServerHeartbeatResponse Init(MasterServer.BroadcastServerHeartbeatResponse/Result result)
-    // Offset: 0x1AD3398
+    // Offset: 0x11195E8
     MasterServer::BroadcastServerHeartbeatResponse* Init(MasterServer::BroadcastServerHeartbeatResponse::Result result);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1AD33A0
+    // Offset: 0x11195F0
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -123,7 +123,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1AD33C4
+    // Offset: 0x1119614
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -131,12 +131,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1AD33FC
+    // Offset: 0x111964C
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1AD3458
+    // Offset: 0x11196A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

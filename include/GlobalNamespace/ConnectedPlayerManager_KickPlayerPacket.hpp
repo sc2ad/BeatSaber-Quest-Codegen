@@ -61,13 +61,13 @@ namespace GlobalNamespace {
       return disconnectedReason;
     }
     // static public PacketPool`1<ConnectedPlayerManager/KickPlayerPacket> get_pool()
-    // Offset: 0x1B470B4
+    // Offset: 0x11CE328
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*>* get_pool();
     // public ConnectedPlayerManager/KickPlayerPacket Init(DisconnectedReason disconnectedReason)
-    // Offset: 0x1B47F0C
+    // Offset: 0x11CF180
     GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket* Init(GlobalNamespace::DisconnectedReason disconnectedReason);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1B49DE8
+    // Offset: 0x11D105C
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1B49DFC
+    // Offset: 0x11D1070
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -83,12 +83,12 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1B49440
+    // Offset: 0x11D06B4
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1B49E28
+    // Offset: 0x11D109C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

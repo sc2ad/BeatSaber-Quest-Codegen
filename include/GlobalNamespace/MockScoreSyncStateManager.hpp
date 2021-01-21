@@ -53,14 +53,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MockScoreSyncStateManager : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IScoreSyncStateManager*/ {
     public:
-    // [InjectAttribute] Offset: 0xDC9A58
+    // [InjectAttribute] Offset: 0xD3BC54
     // private readonly MultiplayerMockSettings _mockSettings
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MultiplayerMockSettings* mockSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerMockSettings*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC9A68
+    // [InjectAttribute] Offset: 0xD3BC64
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x20
@@ -106,47 +106,47 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public LocalMultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> get_localState()
-    // Offset: 0x10287FC
+    // Offset: 0x1013A48
     GlobalNamespace::LocalMultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>* get_localState();
     // private System.Void Init()
-    // Offset: 0x1028804
+    // Offset: 0x1013A50
     void Init();
     // public System.Void SetAudioTimeSource(IAudioTimeSource audioTimeSource)
-    // Offset: 0x1028C2C
+    // Offset: 0x1013FC0
     void SetAudioTimeSource(GlobalNamespace::IAudioTimeSource* audioTimeSource);
     // protected System.Void Update()
-    // Offset: 0x1028C34
+    // Offset: 0x1013FC8
     void Update();
     // private System.Void UpdatePlayer(MockPlayer connectedPlayer)
-    // Offset: 0x1028D60
+    // Offset: 0x10140F4
     void UpdatePlayer(GlobalNamespace::MockPlayer* connectedPlayer);
     // public MultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> GetSyncStateForPlayer(IConnectedPlayer player)
-    // Offset: 0x1028EC0
+    // Offset: 0x10142C0
     GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>* GetSyncStateForPlayer(GlobalNamespace::IConnectedPlayer* player);
     // public MultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> GetSyncState(System.Int32 i)
-    // Offset: 0x1028F9C
+    // Offset: 0x101439C
     GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>* GetSyncState(int i);
     // private System.Int32 Interpolate(System.Int32 prev, System.Single pt, System.Int32 curr, System.Single ct, System.Single t)
-    // Offset: 0x1029014
+    // Offset: 0x1014414
     int Interpolate(int prev, float pt, int curr, float ct, float t);
     // private System.Int32 Smooth(System.Int32 prev, System.Int32 curr, System.Single t)
-    // Offset: 0x102901C
+    // Offset: 0x101441C
     int Smooth(int prev, int curr, float t);
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x1028C1C
+    // Offset: 0x1013FB0
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // public System.Single get_syncTime()
-    // Offset: 0x10287A4
+    // Offset: 0x10139F0
     // Implemented from: IScoreSyncStateManager`4
     // Base method: System.Single IScoreSyncStateManager_4::get_syncTime()
     float get_syncTime();
     // public System.Int32 get_connectedPlayerCount()
-    // Offset: 0x10287AC
+    // Offset: 0x10139F8
     // Implemented from: IScoreSyncStateManager`4
     // Base method: System.Int32 IScoreSyncStateManager_4::get_connectedPlayerCount()
     int get_connectedPlayerCount();
     // public System.Void .ctor()
-    // Offset: 0x1029024
+    // Offset: 0x1014424
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

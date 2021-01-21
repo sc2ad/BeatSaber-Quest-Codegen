@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO* shaderWarmupScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC1014
+    // [InjectAttribute] Offset: 0xD32ED8
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x30
@@ -62,13 +62,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public MenuScenesTransitionSetupDataSO get_mainMenuScenesTransitionSetupData()
-    // Offset: 0x1A59C2C
+    // Offset: 0x1049674
     GlobalNamespace::MenuScenesTransitionSetupDataSO* get_mainMenuScenesTransitionSetupData();
     // public System.Void TransitionToNextScene(System.Boolean goStraightToMenu)
-    // Offset: 0x1A59C34
+    // Offset: 0x104967C
     void TransitionToNextScene(bool goStraightToMenu);
     // public System.Void .ctor()
-    // Offset: 0x1A59D24
+    // Offset: 0x104976C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

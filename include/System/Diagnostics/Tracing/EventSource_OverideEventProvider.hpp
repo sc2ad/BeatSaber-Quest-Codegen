@@ -49,14 +49,14 @@ namespace System::Diagnostics::Tracing {
       return m_eventSource;
     }
     // public System.Void .ctor(System.Diagnostics.Tracing.EventSource eventSource)
-    // Offset: 0x12D1858
+    // Offset: 0x15205EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventSource::OverideEventProvider* New_ctor(System::Diagnostics::Tracing::EventSource* eventSource) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventSource::OverideEventProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventSource::OverideEventProvider*, creationType>(eventSource)));
     }
     // protected override System.Void OnControllerCommand(System.Diagnostics.Tracing.ControllerCommand command, System.Collections.Generic.IDictionary`2<System.String,System.String> arguments, System.Int32 perEventSourceSessionId, System.Int32 etwSessionId)
-    // Offset: 0x12D8424
+    // Offset: 0x15271B8
     // Implemented from: System.Diagnostics.Tracing.EventProvider
     // Base method: System.Void EventProvider::OnControllerCommand(System.Diagnostics.Tracing.ControllerCommand command, System.Collections.Generic.IDictionary`2<System.String,System.String> arguments, System.Int32 perEventSourceSessionId, System.Int32 etwSessionId)
     void OnControllerCommand(System::Diagnostics::Tracing::ControllerCommand command, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* arguments, int perEventSourceSessionId, int etwSessionId);

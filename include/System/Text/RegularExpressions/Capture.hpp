@@ -38,28 +38,28 @@ namespace System::Text::RegularExpressions {
     // Creating value type constructor for type: Capture
     Capture(::Il2CppString* text_ = {}, int index_ = {}, int length_ = {}) noexcept : text{text_}, index{index_}, length{length_} {}
     // System.Void .ctor(System.String text, System.Int32 i, System.Int32 l)
-    // Offset: 0x146CBE0
+    // Offset: 0x1781618
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Capture* New_ctor(::Il2CppString* text, int i, int l) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::Capture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Capture*, creationType>(text, i, l)));
     }
     // public System.Int32 get_Index()
-    // Offset: 0x146CC2C
+    // Offset: 0x1781664
     int get_Index();
     // public System.Int32 get_Length()
-    // Offset: 0x146CC34
+    // Offset: 0x178166C
     int get_Length();
     // public System.String get_Value()
-    // Offset: 0x146CC3C
+    // Offset: 0x1781674
     ::Il2CppString* get_Value();
     // public override System.String ToString()
-    // Offset: 0x146CC60
+    // Offset: 0x1781698
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // System.Void .ctor()
-    // Offset: 0x146CC64
+    // Offset: 0x178169C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

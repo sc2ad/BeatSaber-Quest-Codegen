@@ -36,28 +36,28 @@ namespace RootMotion {
     // Creating value type constructor for type: AxisTools
     AxisTools() noexcept {}
     // static public UnityEngine.Vector3 ToVector3(RootMotion.Axis axis)
-    // Offset: 0x173E4B4
+    // Offset: 0x1B43EE8
     static UnityEngine::Vector3 ToVector3(RootMotion::Axis axis);
     // static public RootMotion.Axis ToAxis(UnityEngine.Vector3 v)
-    // Offset: 0x173E56C
+    // Offset: 0x1B43FA0
     static RootMotion::Axis ToAxis(UnityEngine::Vector3 v);
     // static public RootMotion.Axis GetAxisToPoint(UnityEngine.Transform t, UnityEngine.Vector3 worldPosition)
-    // Offset: 0x173E618
+    // Offset: 0x1B4404C
     static RootMotion::Axis GetAxisToPoint(UnityEngine::Transform* t, UnityEngine::Vector3 worldPosition);
     // static public RootMotion.Axis GetAxisToDirection(UnityEngine.Transform t, UnityEngine.Vector3 direction)
-    // Offset: 0x173E7FC
+    // Offset: 0x1B44230
     static RootMotion::Axis GetAxisToDirection(UnityEngine::Transform* t, UnityEngine::Vector3 direction);
     // static public UnityEngine.Vector3 GetAxisVectorToPoint(UnityEngine.Transform t, UnityEngine.Vector3 worldPosition)
-    // Offset: 0x173E734
+    // Offset: 0x1B44168
     static UnityEngine::Vector3 GetAxisVectorToPoint(UnityEngine::Transform* t, UnityEngine::Vector3 worldPosition);
     // static public UnityEngine.Vector3 GetAxisVectorToDirection(UnityEngine.Transform t, UnityEngine.Vector3 direction)
-    // Offset: 0x173E918
+    // Offset: 0x1B4434C
     static UnityEngine::Vector3 GetAxisVectorToDirection(UnityEngine::Transform* t, UnityEngine::Vector3 direction);
     // static public UnityEngine.Vector3 GetAxisVectorToDirection(UnityEngine.Quaternion r, UnityEngine.Vector3 direction)
-    // Offset: 0x173E960
+    // Offset: 0x1B44394
     static UnityEngine::Vector3 GetAxisVectorToDirection(UnityEngine::Quaternion r, UnityEngine::Vector3 direction);
     // public System.Void .ctor()
-    // Offset: 0x173EC28
+    // Offset: 0x1B4465C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

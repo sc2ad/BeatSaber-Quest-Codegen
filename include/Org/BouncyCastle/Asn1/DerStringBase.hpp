@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1String*>(this);
     }
     // protected System.Void .ctor()
-    // Offset: 0x13800C8
+    // Offset: 0x160D68C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::.ctor()
     // Base method: System.Void Asn1Encodable::.ctor()
@@ -44,12 +44,12 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.String IAsn1String::GetString()
     ::Il2CppString* GetString();
     // public override System.String ToString()
-    // Offset: 0x13853A4
+    // Offset: 0x1612968
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x13853B0
+    // Offset: 0x1612974
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();

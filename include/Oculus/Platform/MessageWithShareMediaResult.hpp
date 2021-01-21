@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithShareMediaResult
     MessageWithShareMediaResult() noexcept {}
     // protected Oculus.Platform.Models.ShareMediaResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x11DF9CC
+    // Offset: 0x13F07D4
     Oculus::Platform::Models::ShareMediaResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x11D67A8
+    // Offset: 0x13E75B0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,7 +41,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithShareMediaResult*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.ShareMediaResult GetShareMediaResult()
-    // Offset: 0x11DF988
+    // Offset: 0x13F0790
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.ShareMediaResult Message::GetShareMediaResult()
     Oculus::Platform::Models::ShareMediaResult* GetShareMediaResult();

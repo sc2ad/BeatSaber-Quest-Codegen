@@ -46,47 +46,47 @@ namespace OVR::OpenVR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x11F774C
+    // Offset: 0x14292A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRSettings* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRSettings*, creationType>(pInterface)));
     }
     // public System.String GetSettingsErrorNameFromEnum(OVR.OpenVR.EVRSettingsError eError)
-    // Offset: 0x11F7860
+    // Offset: 0x14293B8
     ::Il2CppString* GetSettingsErrorNameFromEnum(OVR::OpenVR::EVRSettingsError eError);
     // public System.Boolean Sync(System.Boolean bForce, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x11F78F4
+    // Offset: 0x142944C
     bool Sync(bool bForce, OVR::OpenVR::EVRSettingsError& peError);
     // public System.Void SetBool(System.String pchSection, System.String pchSettingsKey, System.Boolean bValue, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x11F7914
+    // Offset: 0x142946C
     void SetBool(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, bool bValue, OVR::OpenVR::EVRSettingsError& peError);
     // public System.Void SetInt32(System.String pchSection, System.String pchSettingsKey, System.Int32 nValue, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x11F7934
+    // Offset: 0x142948C
     void SetInt32(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, int nValue, OVR::OpenVR::EVRSettingsError& peError);
     // public System.Void SetFloat(System.String pchSection, System.String pchSettingsKey, System.Single flValue, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x11F7950
+    // Offset: 0x14294A8
     void SetFloat(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, float flValue, OVR::OpenVR::EVRSettingsError& peError);
     // public System.Void SetString(System.String pchSection, System.String pchSettingsKey, System.String pchValue, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x11F796C
+    // Offset: 0x14294C4
     void SetString(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, ::Il2CppString* pchValue, OVR::OpenVR::EVRSettingsError& peError);
     // public System.Boolean GetBool(System.String pchSection, System.String pchSettingsKey, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x11F7988
+    // Offset: 0x14294E0
     bool GetBool(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, OVR::OpenVR::EVRSettingsError& peError);
     // public System.Int32 GetInt32(System.String pchSection, System.String pchSettingsKey, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x11F79A4
+    // Offset: 0x14294FC
     int GetInt32(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, OVR::OpenVR::EVRSettingsError& peError);
     // public System.Single GetFloat(System.String pchSection, System.String pchSettingsKey, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x11F79C0
+    // Offset: 0x1429518
     float GetFloat(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, OVR::OpenVR::EVRSettingsError& peError);
     // public System.Void GetString(System.String pchSection, System.String pchSettingsKey, System.Text.StringBuilder pchValue, System.UInt32 unValueLen, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x11F79DC
+    // Offset: 0x1429534
     void GetString(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, System::Text::StringBuilder* pchValue, uint unValueLen, OVR::OpenVR::EVRSettingsError& peError);
     // public System.Void RemoveSection(System.String pchSection, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x11F79F8
+    // Offset: 0x1429550
     void RemoveSection(::Il2CppString* pchSection, OVR::OpenVR::EVRSettingsError& peError);
     // public System.Void RemoveKeyInSection(System.String pchSection, System.String pchSettingsKey, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x11F7A14
+    // Offset: 0x142956C
     void RemoveKeyInSection(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, OVR::OpenVR::EVRSettingsError& peError);
   }; // OVR.OpenVR.CVRSettings
   #pragma pack(pop)

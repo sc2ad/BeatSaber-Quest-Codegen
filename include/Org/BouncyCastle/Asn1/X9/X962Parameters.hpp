@@ -45,26 +45,26 @@ namespace Org::BouncyCastle::Asn1::X9 {
       return params;
     }
     // static public Org.BouncyCastle.Asn1.X9.X962Parameters GetInstance(System.Object obj)
-    // Offset: 0x15898D0
+    // Offset: 0x190A454
     static Org::BouncyCastle::Asn1::X9::X962Parameters* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Object obj)
-    // Offset: 0x1589B64
+    // Offset: 0x190A6E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X962Parameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Object* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X962Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X962Parameters*, creationType>(obj)));
     }
     // public System.Boolean get_IsNamedCurve()
-    // Offset: 0x1589B98
+    // Offset: 0x190A71C
     bool get_IsNamedCurve();
     // public System.Boolean get_IsImplicitlyCA()
-    // Offset: 0x1589C1C
+    // Offset: 0x190A7A0
     bool get_IsImplicitlyCA();
     // public Org.BouncyCastle.Asn1.Asn1Object get_Parameters()
-    // Offset: 0x1589CA0
+    // Offset: 0x190A824
     Org::BouncyCastle::Asn1::Asn1Object* get_Parameters();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1589CA8
+    // Offset: 0x190A82C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

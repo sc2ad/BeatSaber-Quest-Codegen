@@ -60,7 +60,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: MatchmakingStats
     MatchmakingStats(uint DrawCount_ = {}, uint LossCount_ = {}, uint SkillLevel_ = {}, double SkillMean_ = {}, double SkillStandardDeviation_ = {}, uint WinCount_ = {}) noexcept : DrawCount{DrawCount_}, LossCount{LossCount_}, SkillLevel{SkillLevel_}, SkillMean{SkillMean_}, SkillStandardDeviation{SkillStandardDeviation_}, WinCount{WinCount_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x11DCAEC
+    // Offset: 0x13ED8F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingStats* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingStats::.ctor");

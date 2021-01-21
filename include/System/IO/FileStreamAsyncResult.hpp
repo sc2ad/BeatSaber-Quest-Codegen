@@ -98,17 +98,17 @@ namespace System::IO {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x143C688
+    // Offset: 0x17520C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStreamAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStreamAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStreamAsyncResult*, creationType>(cb, state)));
     }
     // static private System.Void CBWrapper(System.IAsyncResult ares)
-    // Offset: 0x143DE44
+    // Offset: 0x175387C
     static void CBWrapper(System::IAsyncResult* ares);
     // public System.Object get_AsyncState()
-    // Offset: 0x143DEE0
+    // Offset: 0x1753918
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
@@ -116,7 +116,7 @@ namespace System::IO {
     // Maps to method: get_AsyncState
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x143DEE8
+    // Offset: 0x1753920
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
     bool get_CompletedSynchronously();
@@ -124,7 +124,7 @@ namespace System::IO {
     // Maps to method: get_CompletedSynchronously
     bool System_IAsyncResult_get_CompletedSynchronously();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x143DEF0
+    // Offset: 0x1753928
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* get_AsyncWaitHandle();
@@ -132,7 +132,7 @@ namespace System::IO {
     // Maps to method: get_AsyncWaitHandle
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x143DEF8
+    // Offset: 0x1753930
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_IsCompleted()
     bool get_IsCompleted();

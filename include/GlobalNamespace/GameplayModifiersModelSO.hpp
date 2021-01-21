@@ -55,73 +55,73 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifierParamsSO* batteryEnergy;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
-    // private GameplayModifierParamsSO _noFail
-    // Size: 0x8
-    // Offset: 0x20
-    GlobalNamespace::GameplayModifierParamsSO* noFail;
-    // Field size check
-    static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
     // private GameplayModifierParamsSO _instaFail
     // Size: 0x8
-    // Offset: 0x28
+    // Offset: 0x20
     GlobalNamespace::GameplayModifierParamsSO* instaFail;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
     // private GameplayModifierParamsSO _noObstacles
     // Size: 0x8
-    // Offset: 0x30
+    // Offset: 0x28
     GlobalNamespace::GameplayModifierParamsSO* noObstacles;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
     // private GameplayModifierParamsSO _noBombs
     // Size: 0x8
-    // Offset: 0x38
+    // Offset: 0x30
     GlobalNamespace::GameplayModifierParamsSO* noBombs;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
     // private GameplayModifierParamsSO _fastNotes
     // Size: 0x8
-    // Offset: 0x40
+    // Offset: 0x38
     GlobalNamespace::GameplayModifierParamsSO* fastNotes;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
     // private GameplayModifierParamsSO _strictAngles
     // Size: 0x8
-    // Offset: 0x48
+    // Offset: 0x40
     GlobalNamespace::GameplayModifierParamsSO* strictAngles;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
     // private GameplayModifierParamsSO _disappearingArrows
     // Size: 0x8
-    // Offset: 0x50
+    // Offset: 0x48
     GlobalNamespace::GameplayModifierParamsSO* disappearingArrows;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
     // private GameplayModifierParamsSO _fasterSong
     // Size: 0x8
-    // Offset: 0x58
+    // Offset: 0x50
     GlobalNamespace::GameplayModifierParamsSO* fasterSong;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
     // private GameplayModifierParamsSO _slowerSong
     // Size: 0x8
-    // Offset: 0x60
+    // Offset: 0x58
     GlobalNamespace::GameplayModifierParamsSO* slowerSong;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
     // private GameplayModifierParamsSO _noArrows
     // Size: 0x8
-    // Offset: 0x68
+    // Offset: 0x60
     GlobalNamespace::GameplayModifierParamsSO* noArrows;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
     // private GameplayModifierParamsSO _ghostNotes
     // Size: 0x8
-    // Offset: 0x70
+    // Offset: 0x68
     GlobalNamespace::GameplayModifierParamsSO* ghostNotes;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDC2D1C
+    // private GameplayModifierParamsSO _noFailOn0Energy
+    // Size: 0x8
+    // Offset: 0x70
+    GlobalNamespace::GameplayModifierParamsSO* noFailOn0Energy;
+    // Field size check
+    static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
+    // [SpaceAttribute] Offset: 0xD34BF0
     // private GameplayModifierParamsSO _demoNoObstacles
     // Size: 0x8
     // Offset: 0x78
@@ -141,40 +141,40 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*>*) == 0x8);
     // Creating value type constructor for type: GameplayModifiersModelSO
-    GameplayModifiersModelSO(GlobalNamespace::GameplayModifierParamsSO* batteryEnergy_ = {}, GlobalNamespace::GameplayModifierParamsSO* noFail_ = {}, GlobalNamespace::GameplayModifierParamsSO* instaFail_ = {}, GlobalNamespace::GameplayModifierParamsSO* noObstacles_ = {}, GlobalNamespace::GameplayModifierParamsSO* noBombs_ = {}, GlobalNamespace::GameplayModifierParamsSO* fastNotes_ = {}, GlobalNamespace::GameplayModifierParamsSO* strictAngles_ = {}, GlobalNamespace::GameplayModifierParamsSO* disappearingArrows_ = {}, GlobalNamespace::GameplayModifierParamsSO* fasterSong_ = {}, GlobalNamespace::GameplayModifierParamsSO* slowerSong_ = {}, GlobalNamespace::GameplayModifierParamsSO* noArrows_ = {}, GlobalNamespace::GameplayModifierParamsSO* ghostNotes_ = {}, GlobalNamespace::GameplayModifierParamsSO* demoNoObstacles_ = {}, GlobalNamespace::GameplayModifierParamsSO* demoNoFail_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*>* gameplayModifierGetters_ = {}) noexcept : batteryEnergy{batteryEnergy_}, noFail{noFail_}, instaFail{instaFail_}, noObstacles{noObstacles_}, noBombs{noBombs_}, fastNotes{fastNotes_}, strictAngles{strictAngles_}, disappearingArrows{disappearingArrows_}, fasterSong{fasterSong_}, slowerSong{slowerSong_}, noArrows{noArrows_}, ghostNotes{ghostNotes_}, demoNoObstacles{demoNoObstacles_}, demoNoFail{demoNoFail_}, gameplayModifierGetters{gameplayModifierGetters_} {}
+    GameplayModifiersModelSO(GlobalNamespace::GameplayModifierParamsSO* batteryEnergy_ = {}, GlobalNamespace::GameplayModifierParamsSO* instaFail_ = {}, GlobalNamespace::GameplayModifierParamsSO* noObstacles_ = {}, GlobalNamespace::GameplayModifierParamsSO* noBombs_ = {}, GlobalNamespace::GameplayModifierParamsSO* fastNotes_ = {}, GlobalNamespace::GameplayModifierParamsSO* strictAngles_ = {}, GlobalNamespace::GameplayModifierParamsSO* disappearingArrows_ = {}, GlobalNamespace::GameplayModifierParamsSO* fasterSong_ = {}, GlobalNamespace::GameplayModifierParamsSO* slowerSong_ = {}, GlobalNamespace::GameplayModifierParamsSO* noArrows_ = {}, GlobalNamespace::GameplayModifierParamsSO* ghostNotes_ = {}, GlobalNamespace::GameplayModifierParamsSO* noFailOn0Energy_ = {}, GlobalNamespace::GameplayModifierParamsSO* demoNoObstacles_ = {}, GlobalNamespace::GameplayModifierParamsSO* demoNoFail_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*>* gameplayModifierGetters_ = {}) noexcept : batteryEnergy{batteryEnergy_}, instaFail{instaFail_}, noObstacles{noObstacles_}, noBombs{noBombs_}, fastNotes{fastNotes_}, strictAngles{strictAngles_}, disappearingArrows{disappearingArrows_}, fasterSong{fasterSong_}, slowerSong{slowerSong_}, noArrows{noArrows_}, ghostNotes{ghostNotes_}, noFailOn0Energy{noFailOn0Energy_}, demoNoObstacles{demoNoObstacles_}, demoNoFail{demoNoFail_}, gameplayModifierGetters{gameplayModifierGetters_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public GameplayModifiers CreateGameplayModifiers(System.Func`2<GameplayModifierParamsSO,System.Boolean> valueGetter)
-    // Offset: 0xF0EADC
+    // Offset: 0xFC5B10
     GlobalNamespace::GameplayModifiers* CreateGameplayModifiers(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter);
     // public System.Boolean GetModifierBoolValue(GameplayModifiers gameplayModifiers, GameplayModifierParamsSO gameplayModifierParams)
-    // Offset: 0xF0ED14
+    // Offset: 0xFC5D48
     bool GetModifierBoolValue(GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
     // public System.Collections.Generic.List`1<GameplayModifierParamsSO> GetModifierParams(GameplayModifiers gameplayModifiers)
-    // Offset: 0xF0F178
+    // Offset: 0xFC61AC
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* GetModifierParams(GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // public System.Single GetTotalMultiplier(GameplayModifiers gameplayModifiers)
-    // Offset: 0xF0F324
-    float GetTotalMultiplier(GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // public System.Int32 MaxModifiedScoreForMaxRawScore(System.Int32 maxRawScore, GameplayModifiers gameplayModifiers)
-    // Offset: 0xF0F440
-    int MaxModifiedScoreForMaxRawScore(int maxRawScore, GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // public System.Int32 MaxModifiedScoreForMaxRawScore(System.Int32 maxRawScore, GameplayModifiers gameplayModifiers, GameplayModifiersModelSO gameplayModifiersModel)
-    // Offset: 0xF0F498
-    int MaxModifiedScoreForMaxRawScore(int maxRawScore, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel);
-    // private System.Int32 GetModifiedScoreForGameplayModifiers(System.Int32 rawScore, GameplayModifiers gameplayModifiers)
-    // Offset: 0xF0F46C
-    int GetModifiedScoreForGameplayModifiers(int rawScore, GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // public System.Single GetTotalMultiplier(GameplayModifiers gameplayModifiers, System.Single energy)
+    // Offset: 0xFC6358
+    float GetTotalMultiplier(GlobalNamespace::GameplayModifiers* gameplayModifiers, float energy);
+    // public System.Int32 MaxModifiedScoreForMaxRawScore(System.Int32 maxRawScore, GameplayModifiers gameplayModifiers, System.Single energy)
+    // Offset: 0xFC64E8
+    int MaxModifiedScoreForMaxRawScore(int maxRawScore, GlobalNamespace::GameplayModifiers* gameplayModifiers, float energy);
+    // public System.Int32 MaxModifiedScoreForMaxRawScore(System.Int32 maxRawScore, GameplayModifiers gameplayModifiers, GameplayModifiersModelSO gameplayModifiersModel, System.Single energy)
+    // Offset: 0xFC6540
+    int MaxModifiedScoreForMaxRawScore(int maxRawScore, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float energy);
+    // private System.Int32 GetModifiedScoreForGameplayModifiers(System.Int32 rawScore, GameplayModifiers gameplayModifiers, System.Single energy)
+    // Offset: 0xFC6514
+    int GetModifiedScoreForGameplayModifiers(int rawScore, GlobalNamespace::GameplayModifiers* gameplayModifiers, float energy);
     // public GameplayModifierParamsSO GetGameplayModifierParams(GameplayModifierMask modifier)
-    // Offset: 0xF0F4C4
+    // Offset: 0xFC656C
     GlobalNamespace::GameplayModifierParamsSO* GetGameplayModifierParams(GlobalNamespace::GameplayModifierMask modifier);
     // protected override System.Void OnEnable()
-    // Offset: 0xF0E0B4
+    // Offset: 0xFC50E8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xF0F5C0
+    // Offset: 0xFC6668
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -113,86 +113,86 @@ namespace Mono::Security::Cryptography {
       return *reinterpret_cast<System::Security::Cryptography::ICryptoTransform*>(this);
     }
     // public System.Void .ctor(System.Security.Cryptography.SymmetricAlgorithm symmAlgo, System.Boolean encryption, System.Byte[] rgbIV)
-    // Offset: 0x15B7088
+    // Offset: 0x1937C0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SymmetricTransform* New_ctor(System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::Array<uint8_t>* rgbIV) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::SymmetricTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SymmetricTransform*, creationType>(symmAlgo, encryption, rgbIV)));
     }
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x15B7474
+    // Offset: 0x1937FF8
     void Dispose(bool disposing);
     // protected System.Void Transform(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x15B7510
+    // Offset: 0x1938094
     void Transform(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void ECB(System.Byte[] input, System.Byte[] output)
     // Offset: 0xFFFFFFFF
     void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void CBC(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x15B76C4
+    // Offset: 0x1938248
     void CBC(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void CFB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x15B783C
+    // Offset: 0x19383C0
     void CFB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void OFB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x15B7A18
+    // Offset: 0x193859C
     void OFB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void CTS(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x15B7A84
+    // Offset: 0x1938608
     void CTS(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // private System.Void CheckInput(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x15B7AF0
+    // Offset: 0x1938674
     void CheckInput(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // private System.Boolean get_KeepLastBlock()
-    // Offset: 0x15B7E60
+    // Offset: 0x19389E4
     bool get_KeepLastBlock();
     // private System.Int32 InternalTransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x15B7E84
+    // Offset: 0x1938A08
     int InternalTransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
     // private System.Void Random(System.Byte[] buffer, System.Int32 start, System.Int32 length)
-    // Offset: 0x15B8064
+    // Offset: 0x1938BE8
     void Random(::Array<uint8_t>* buffer, int start, int length);
     // private System.Void ThrowBadPaddingException(System.Security.Cryptography.PaddingMode padding, System.Int32 length, System.Int32 position)
-    // Offset: 0x15B8130
+    // Offset: 0x1938CB4
     void ThrowBadPaddingException(System::Security::Cryptography::PaddingMode padding, int length, int position);
     // protected System.Byte[] FinalEncrypt(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x15B829C
+    // Offset: 0x1938E20
     ::Array<uint8_t>* FinalEncrypt(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // protected System.Byte[] FinalDecrypt(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x15B8540
+    // Offset: 0x19390C4
     ::Array<uint8_t>* FinalDecrypt(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // protected override System.Void Finalize()
-    // Offset: 0x15B7384
+    // Offset: 0x1937F08
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x15B73F8
+    // Offset: 0x1937F7C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // public System.Boolean get_CanTransformMultipleBlocks()
-    // Offset: 0x15B74F8
+    // Offset: 0x193807C
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Boolean ICryptoTransform::get_CanTransformMultipleBlocks()
     bool get_CanTransformMultipleBlocks();
     // public System.Int32 get_InputBlockSize()
-    // Offset: 0x15B7500
+    // Offset: 0x1938084
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Int32 ICryptoTransform::get_InputBlockSize()
     int get_InputBlockSize();
     // public System.Int32 get_OutputBlockSize()
-    // Offset: 0x15B7508
+    // Offset: 0x193808C
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Int32 ICryptoTransform::get_OutputBlockSize()
     int get_OutputBlockSize();
     // public System.Int32 TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x15B7C48
+    // Offset: 0x19387CC
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Int32 ICryptoTransform::TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
     int TransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
     // public System.Byte[] TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x15B87F4
+    // Offset: 0x1939378
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Byte[] ICryptoTransform::TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
     ::Array<uint8_t>* TransformFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);

@@ -83,7 +83,7 @@ namespace RootMotion::Demos {
     #pragma pack(pop)
     static check_size<sizeof(Navigator::State), 0 + sizeof(int)> __RootMotion_Demos_Navigator_StateSizeCheck;
     static_assert(sizeof(Navigator::State) == 0x4);
-    // [TooltipAttribute] Offset: 0xDB54D0
+    // [TooltipAttribute] Offset: 0xD272CC
     // public System.Boolean activeTargetSeeking
     // Size: 0x1
     // Offset: 0x10
@@ -92,42 +92,42 @@ namespace RootMotion::Demos {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: activeTargetSeeking and: cornerRadius
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0xDB5508
+    // [TooltipAttribute] Offset: 0xD27304
     // public System.Single cornerRadius
     // Size: 0x4
     // Offset: 0x14
     float cornerRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDB5540
+    // [TooltipAttribute] Offset: 0xD2733C
     // public System.Single recalculateOnPathDistance
     // Size: 0x4
     // Offset: 0x18
     float recalculateOnPathDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDB5578
+    // [TooltipAttribute] Offset: 0xD27374
     // public System.Single maxSampleDistance
     // Size: 0x4
     // Offset: 0x1C
     float maxSampleDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDB55B0
+    // [TooltipAttribute] Offset: 0xD273AC
     // public System.Single nextPathInterval
     // Size: 0x4
     // Offset: 0x20
     float nextPathInterval;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDB55E8
+    // [CompilerGeneratedAttribute] Offset: 0xD273E4
     // private UnityEngine.Vector3 <normalizedDeltaPosition>k__BackingField
     // Size: 0xC
     // Offset: 0x24
     UnityEngine::Vector3 normalizedDeltaPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [CompilerGeneratedAttribute] Offset: 0xDB55F8
+    // [CompilerGeneratedAttribute] Offset: 0xD273F4
     // private RootMotion.Demos.Navigator/State <state>k__BackingField
     // Size: 0x4
     // Offset: 0x30
@@ -185,40 +185,40 @@ namespace RootMotion::Demos {
     // Creating value type constructor for type: Navigator
     Navigator(bool activeTargetSeeking_ = {}, float cornerRadius_ = {}, float recalculateOnPathDistance_ = {}, float maxSampleDistance_ = {}, float nextPathInterval_ = {}, UnityEngine::Vector3 normalizedDeltaPosition_ = {}, RootMotion::Demos::Navigator::State state_ = {}, UnityEngine::Transform* transform_ = {}, int cornerIndex_ = {}, ::Array<UnityEngine::Vector3>* corners_ = {}, UnityEngine::AI::NavMeshPath* path_ = {}, UnityEngine::Vector3 lastTargetPosition_ = {}, bool initiated_ = {}, float nextPathTime_ = {}) noexcept : activeTargetSeeking{activeTargetSeeking_}, cornerRadius{cornerRadius_}, recalculateOnPathDistance{recalculateOnPathDistance_}, maxSampleDistance{maxSampleDistance_}, nextPathInterval{nextPathInterval_}, normalizedDeltaPosition{normalizedDeltaPosition_}, state{state_}, transform{transform_}, cornerIndex{cornerIndex_}, corners{corners_}, path{path_}, lastTargetPosition{lastTargetPosition_}, initiated{initiated_}, nextPathTime{nextPathTime_} {}
     // public UnityEngine.Vector3 get_normalizedDeltaPosition()
-    // Offset: 0x1748DB8
+    // Offset: 0x1B4E7EC
     UnityEngine::Vector3 get_normalizedDeltaPosition();
     // private System.Void set_normalizedDeltaPosition(UnityEngine.Vector3 value)
-    // Offset: 0x1748DC4
+    // Offset: 0x1B4E7F8
     void set_normalizedDeltaPosition(UnityEngine::Vector3 value);
     // public RootMotion.Demos.Navigator/State get_state()
-    // Offset: 0x1748DD0
+    // Offset: 0x1B4E804
     RootMotion::Demos::Navigator::State get_state();
     // private System.Void set_state(RootMotion.Demos.Navigator/State value)
-    // Offset: 0x1748DD8
+    // Offset: 0x1B4E80C
     void set_state(RootMotion::Demos::Navigator::State value);
     // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x1748DE0
+    // Offset: 0x1B4E814
     void Initiate(UnityEngine::Transform* transform);
     // public System.Void Update(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x1748ED8
+    // Offset: 0x1B4E90C
     void Update(UnityEngine::Vector3 targetPosition);
     // private System.Void CalculatePath(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x1749430
+    // Offset: 0x1B4EE64
     void CalculatePath(UnityEngine::Vector3 targetPosition);
     // private System.Boolean Find(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x17494A0
+    // Offset: 0x1B4EED4
     bool Find(UnityEngine::Vector3 targetPosition);
     // private System.Void Stop()
-    // Offset: 0x17492F8
+    // Offset: 0x1B4ED2C
     void Stop();
     // private System.Single HorDistance(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x174936C
+    // Offset: 0x1B4EDA0
     float HorDistance(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
     // public System.Void Visualize()
-    // Offset: 0x17495E8
+    // Offset: 0x1B4F01C
     void Visualize();
     // public System.Void .ctor()
-    // Offset: 0x1749798
+    // Offset: 0x1B4F1CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

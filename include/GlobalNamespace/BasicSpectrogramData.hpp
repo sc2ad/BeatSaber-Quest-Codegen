@@ -83,22 +83,22 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kNumberOfSamples
     static void _set_kNumberOfSamples(int value);
     // public System.Single[] get_Samples()
-    // Offset: 0x1A76D50
+    // Offset: 0x1066B64
     ::Array<float>* get_Samples();
     // public System.Collections.Generic.List`1<System.Single> get_ProcessedSamples()
-    // Offset: 0x1A76DF8
+    // Offset: 0x1066C0C
     System::Collections::Generic::List_1<float>* get_ProcessedSamples();
     // protected System.Void Awake()
-    // Offset: 0x1A77058
+    // Offset: 0x1066E6C
     void Awake();
     // protected System.Void LateUpdate()
-    // Offset: 0x1A770D4
+    // Offset: 0x1066EE8
     void LateUpdate();
     // private System.Void ProcessSamples(System.Single[] sourceSamples, System.Collections.Generic.List`1<System.Single> processedSamples)
-    // Offset: 0x1A76E4C
+    // Offset: 0x1066C60
     void ProcessSamples(::Array<float>* sourceSamples, System::Collections::Generic::List_1<float>* processedSamples);
     // public System.Void .ctor()
-    // Offset: 0x1A770DC
+    // Offset: 0x1066EF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

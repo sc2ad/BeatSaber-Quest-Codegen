@@ -117,32 +117,32 @@ namespace RootMotion {
     // Creating value type constructor for type: BakerTransform
     BakerTransform(UnityEngine::Transform* transform_ = {}, UnityEngine::AnimationCurve* posX_ = {}, UnityEngine::AnimationCurve* posY_ = {}, UnityEngine::AnimationCurve* posZ_ = {}, UnityEngine::AnimationCurve* rotX_ = {}, UnityEngine::AnimationCurve* rotY_ = {}, UnityEngine::AnimationCurve* rotZ_ = {}, UnityEngine::AnimationCurve* rotW_ = {}, ::Il2CppString* relativePath_ = {}, bool recordPosition_ = {}, UnityEngine::Vector3 relativePosition_ = {}, bool isRootNode_ = {}, UnityEngine::Quaternion relativeRotation_ = {}) noexcept : transform{transform_}, posX{posX_}, posY{posY_}, posZ{posZ_}, rotX{rotX_}, rotY{rotY_}, rotZ{rotZ_}, rotW{rotW_}, relativePath{relativePath_}, recordPosition{recordPosition_}, relativePosition{relativePosition_}, isRootNode{isRootNode_}, relativeRotation{relativeRotation_} {}
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.Transform root, System.Boolean recordPosition, System.Boolean isRootNode)
-    // Offset: 0x17409C0
+    // Offset: 0x1B463F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerTransform* New_ctor(UnityEngine::Transform* transform, UnityEngine::Transform* root, bool recordPosition, bool isRootNode) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerTransform*, creationType>(transform, root, recordPosition, isRootNode)));
     }
     // public System.Void SetRelativeSpace(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x1740BB8
+    // Offset: 0x1B465EC
     void SetRelativeSpace(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x1740BCC
+    // Offset: 0x1B46600
     void SetCurves(UnityEngine::AnimationClip*& clip);
     // private System.Void AddRootMotionCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x1740E5C
+    // Offset: 0x1B46890
     void AddRootMotionCurves(UnityEngine::AnimationClip*& clip);
     // public System.Void Reset()
-    // Offset: 0x1740A70
+    // Offset: 0x1B464A4
     void Reset();
     // public System.Void ReduceKeyframes(System.Single maxError)
-    // Offset: 0x17410A8
+    // Offset: 0x1B46ADC
     void ReduceKeyframes(float maxError);
     // public System.Void SetKeyframes(System.Single time)
-    // Offset: 0x174111C
+    // Offset: 0x1B46B50
     void SetKeyframes(float time);
     // public System.Void AddLoopFrame(System.Single time)
-    // Offset: 0x1741368
+    // Offset: 0x1B46D9C
     void AddLoopFrame(float time);
   }; // RootMotion.BakerTransform
   #pragma pack(pop)

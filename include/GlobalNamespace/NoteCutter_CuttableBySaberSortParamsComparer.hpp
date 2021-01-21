@@ -28,7 +28,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::Collections::IComparer*>(this);
     }
     // public System.Int32 Compare(System.Object p0, System.Object p1)
-    // Offset: 0xFE4EB8
+    // Offset: 0xF932A0
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object p0, System.Object p1)
     int Compare(::Il2CppObject* p0, ::Il2CppObject* p1);
@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Maps to method: Compare
     int System_Collections_IComparer_Compare(::Il2CppObject* p0, ::Il2CppObject* p1);
     // public System.Void .ctor()
-    // Offset: 0xFE47DC
+    // Offset: 0xF92BC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

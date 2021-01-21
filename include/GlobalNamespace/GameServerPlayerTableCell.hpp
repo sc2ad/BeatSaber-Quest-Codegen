@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* localPlayerBackgroundImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [HeaderAttribute] Offset: 0xDCCB40
+    // [HeaderAttribute] Offset: 0xD3ED9C
     // private HMUI.CurvedTextMeshPro _suggestedLevelText
     // Size: 0x8
     // Offset: 0x68
@@ -120,7 +120,7 @@ namespace GlobalNamespace {
     HMUI::CurvedTextMeshPro* emptySuggestedLevelText;
     // Field size check
     static_assert(sizeof(HMUI::CurvedTextMeshPro*) == 0x8);
-    // [HeaderAttribute] Offset: 0xDCCBBC
+    // [HeaderAttribute] Offset: 0xD3EE18
     // private GameplayModifierInfoListItemsList _suggestedModifiersList
     // Size: 0x8
     // Offset: 0x88
@@ -133,7 +133,7 @@ namespace GlobalNamespace {
     HMUI::CurvedTextMeshPro* emptySuggestedModifiersText;
     // Field size check
     static_assert(sizeof(HMUI::CurvedTextMeshPro*) == 0x8);
-    // [HeaderAttribute] Offset: 0xDCCC18
+    // [HeaderAttribute] Offset: 0xD3EE74
     // private UnityEngine.UI.Button _kickPlayerButton
     // Size: 0x8
     // Offset: 0x98
@@ -158,7 +158,7 @@ namespace GlobalNamespace {
     HMUI::HoverHint* useBeatmapButtonHoverHint;
     // Field size check
     static_assert(sizeof(HMUI::HoverHint*) == 0x8);
-    // [HeaderAttribute] Offset: 0xDCCC94
+    // [HeaderAttribute] Offset: 0xD3EEF0
     // private HMUI.ImageView _statusImageView
     // Size: 0x8
     // Offset: 0xB8
@@ -177,28 +177,28 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* spectatingIcon;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [HeaderAttribute] Offset: 0xDCCD00
+    // [HeaderAttribute] Offset: 0xD3EF5C
     // private GameplayModifiersModelSO _gameplayModifiers
     // Size: 0x8
     // Offset: 0xD0
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDCCD4C
+    // [CompilerGeneratedAttribute] Offset: 0xD3EFA8
     // private System.Action`1<System.Int32> kickPlayerEvent
     // Size: 0x8
     // Offset: 0xD8
     System::Action_1<int>* kickPlayerEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<int>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDCCD5C
+    // [CompilerGeneratedAttribute] Offset: 0xD3EFB8
     // private System.Action`1<System.Int32> useBeatmapEvent
     // Size: 0x8
     // Offset: 0xE0
     System::Action_1<int>* useBeatmapEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<int>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDCCD6C
+    // [CompilerGeneratedAttribute] Offset: 0xD3EFC8
     // private System.Action`1<System.Int32> useModifiersEvent
     // Size: 0x8
     // Offset: 0xE8
@@ -220,43 +220,43 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameServerPlayerTableCell
     GameServerPlayerTableCell(HMUI::CurvedTextMeshPro* playerNameText_ = {}, UnityEngine::UI::Image* localPlayerBackgroundImage_ = {}, HMUI::CurvedTextMeshPro* suggestedLevelText_ = {}, HMUI::ImageView* suggestedCharacteristicIcon_ = {}, TMPro::TextMeshProUGUI* suggestedDifficultyText_ = {}, HMUI::CurvedTextMeshPro* emptySuggestedLevelText_ = {}, GlobalNamespace::GameplayModifierInfoListItemsList* suggestedModifiersList_ = {}, HMUI::CurvedTextMeshPro* emptySuggestedModifiersText_ = {}, UnityEngine::UI::Button* kickPlayerButton_ = {}, UnityEngine::UI::Button* useBeatmapButton_ = {}, UnityEngine::UI::Button* useModifiersButton_ = {}, HMUI::HoverHint* useBeatmapButtonHoverHint_ = {}, HMUI::ImageView* statusImageView_ = {}, UnityEngine::Sprite* readyIcon_ = {}, UnityEngine::Sprite* spectatingIcon_ = {}, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiers_ = {}, System::Action_1<int>* kickPlayerEvent_ = {}, System::Action_1<int>* useBeatmapEvent_ = {}, System::Action_1<int>* useModifiersEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, System::Threading::CancellationTokenSource* getLevelEntitlementCancellationTokenSource_ = {}) noexcept : playerNameText{playerNameText_}, localPlayerBackgroundImage{localPlayerBackgroundImage_}, suggestedLevelText{suggestedLevelText_}, suggestedCharacteristicIcon{suggestedCharacteristicIcon_}, suggestedDifficultyText{suggestedDifficultyText_}, emptySuggestedLevelText{emptySuggestedLevelText_}, suggestedModifiersList{suggestedModifiersList_}, emptySuggestedModifiersText{emptySuggestedModifiersText_}, kickPlayerButton{kickPlayerButton_}, useBeatmapButton{useBeatmapButton_}, useModifiersButton{useModifiersButton_}, useBeatmapButtonHoverHint{useBeatmapButtonHoverHint_}, statusImageView{statusImageView_}, readyIcon{readyIcon_}, spectatingIcon{spectatingIcon_}, gameplayModifiers{gameplayModifiers_}, kickPlayerEvent{kickPlayerEvent_}, useBeatmapEvent{useBeatmapEvent_}, useModifiersEvent{useModifiersEvent_}, buttonBinder{buttonBinder_}, getLevelEntitlementCancellationTokenSource{getLevelEntitlementCancellationTokenSource_} {}
     // public System.Void add_kickPlayerEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1A1C6D8
+    // Offset: 0xF36C10
     void add_kickPlayerEvent(System::Action_1<int>* value);
     // public System.Void remove_kickPlayerEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1A1C77C
+    // Offset: 0xF36CB4
     void remove_kickPlayerEvent(System::Action_1<int>* value);
     // public System.Void add_useBeatmapEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1A1C820
+    // Offset: 0xF36D58
     void add_useBeatmapEvent(System::Action_1<int>* value);
     // public System.Void remove_useBeatmapEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1A1C8C4
+    // Offset: 0xF36DFC
     void remove_useBeatmapEvent(System::Action_1<int>* value);
     // public System.Void add_useModifiersEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1A1C968
+    // Offset: 0xF36EA0
     void add_useModifiersEvent(System::Action_1<int>* value);
     // public System.Void remove_useModifiersEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1A1CA0C
+    // Offset: 0xF36F44
     void remove_useModifiersEvent(System::Action_1<int>* value);
     // public System.Void SetData(IConnectedPlayer connectedPlayer, ILobbyPlayerDataModel playerDataModel, System.Boolean isHost, System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> getLevelEntitlementTask)
-    // Offset: 0x1A1CAB0
+    // Offset: 0xF36FE8
     void SetData(GlobalNamespace::IConnectedPlayer* connectedPlayer, GlobalNamespace::ILobbyPlayerDataModel* playerDataModel, bool isHost, System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* getLevelEntitlementTask);
     // protected System.Void Awake()
-    // Offset: 0x1A1D5E4
+    // Offset: 0xF37B1C
     void Awake();
     // private System.Void HandleKickPlayerButtonPressed()
-    // Offset: 0x1A1D708
+    // Offset: 0xF37C40
     void HandleKickPlayerButtonPressed();
     // private System.Void HandleUseBeatmapButtonPressed()
-    // Offset: 0x1A1D76C
+    // Offset: 0xF37CA4
     void HandleUseBeatmapButtonPressed();
     // private System.Void HandleUseModifiersButtonPressed()
-    // Offset: 0x1A1D7D0
+    // Offset: 0xF37D08
     void HandleUseModifiersButtonPressed();
     // private System.Void SetBeatmapUseButtonEnabledAsync(System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> getLevelEntitlementTask)
-    // Offset: 0x1A1D4F8
+    // Offset: 0xF37A30
     void SetBeatmapUseButtonEnabledAsync(System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* getLevelEntitlementTask);
     // public System.Void .ctor()
-    // Offset: 0x1A1D834
+    // Offset: 0xF37D6C
     // Implemented from: TableCellWithSeparator
     // Base method: System.Void TableCellWithSeparator::.ctor()
     // Base method: System.Void TableCell::.ctor()

@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: ID and: lightManager
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0xDA50F4
+    // [InjectAttribute] Offset: 0xD16CEC
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x20
@@ -62,38 +62,35 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // protected UnityEngine.Color get_lightColor()
-    // Offset: 0x18795D8
-    UnityEngine::Color get_lightColor();
     // protected System.Void OnEnable()
-    // Offset: 0x18795D4
+    // Offset: 0x1DA0340
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x187CB18
+    // Offset: 0x1DA03D8
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x187CB1C
+    // Offset: 0x1DA03DC
     void OnDisable();
     // private System.Void RegisterLight()
-    // Offset: 0x187CA84
+    // Offset: 0x1DA0344
     void RegisterLight();
     // public System.Int32 get_lightId()
-    // Offset: 0x187CA60
+    // Offset: 0x1DA031C
     // Implemented from: ILightWithId
     // Base method: System.Int32 ILightWithId::get_lightId()
     int get_lightId();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x187CA68
+    // Offset: 0x1DA0324
     // Implemented from: ILightWithId
     // Base method: System.Boolean ILightWithId::get_isRegistered()
     bool get_isRegistered();
     // public System.Void __SetIsRegistered()
-    // Offset: 0x187CA70
+    // Offset: 0x1DA032C
     // Implemented from: ILightWithId
     // Base method: System.Void ILightWithId::__SetIsRegistered()
     void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x187CA7C
+    // Offset: 0x1DA0338
     // Implemented from: ILightWithId
     // Base method: System.Void ILightWithId::__SetIsUnRegistered()
     void __SetIsUnRegistered();
@@ -103,7 +100,7 @@ namespace GlobalNamespace {
     // Base method: System.Void ILightWithId::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // protected System.Void .ctor()
-    // Offset: 0x1875A44
+    // Offset: 0x1D992A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

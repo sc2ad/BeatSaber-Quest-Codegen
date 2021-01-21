@@ -91,23 +91,23 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: BinaryArray
     BinaryArray(int objectId_ = {}, int rank_ = {}, ::Array<int>* lengthA_ = {}, ::Array<int>* lowerBoundA_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum_ = {}, ::Il2CppObject* typeInformation_ = {}, int assemId_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum_ = {}) noexcept : objectId{objectId_}, rank{rank_}, lengthA{lengthA_}, lowerBoundA{lowerBoundA_}, binaryTypeEnum{binaryTypeEnum_}, typeInformation{typeInformation_}, assemId{assemId_}, binaryHeaderEnum{binaryHeaderEnum_}, binaryArrayTypeEnum{binaryArrayTypeEnum_} {}
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0x133FDE4
+    // Offset: 0x158EB78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryArray* New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryArray*, creationType>(binaryHeaderEnum)));
     }
     // System.Void Set(System.Int32 objectId, System.Int32 rank, System.Int32[] lengthA, System.Int32[] lowerBoundA, System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum, System.Object typeInformation, System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum binaryArrayTypeEnum, System.Int32 assemId)
-    // Offset: 0x133FE10
+    // Offset: 0x158EBA4
     void Set(int objectId, int rank, ::Array<int>* lengthA, ::Array<int>* lowerBoundA, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::Il2CppObject* typeInformation, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum, int assemId);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x133FEC4
+    // Offset: 0x158EC58
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x134033C
+    // Offset: 0x158F0D0
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // System.Void .ctor()
-    // Offset: 0x133FDDC
+    // Offset: 0x158EB70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

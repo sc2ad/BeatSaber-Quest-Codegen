@@ -40,30 +40,30 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Creating value type constructor for type: MeshImportSettings
     MeshImportSettings(bool m_Quads_ = {}, bool m_Smoothing_ = {}, float m_SmoothingThreshold_ = {}) noexcept : m_Quads{m_Quads_}, m_Smoothing{m_Smoothing_}, m_SmoothingThreshold{m_SmoothingThreshold_} {}
     // public System.Boolean get_quads()
-    // Offset: 0x138AA98
+    // Offset: 0x162BAC4
     bool get_quads();
     // public System.Void set_quads(System.Boolean value)
-    // Offset: 0x138AAA0
+    // Offset: 0x162BACC
     void set_quads(bool value);
     // public System.Boolean get_smoothing()
-    // Offset: 0x138AAAC
+    // Offset: 0x162BAD8
     bool get_smoothing();
     // public System.Void set_smoothing(System.Boolean value)
-    // Offset: 0x138AAB4
+    // Offset: 0x162BAE0
     void set_smoothing(bool value);
     // public System.Single get_smoothingAngle()
-    // Offset: 0x138AAC0
+    // Offset: 0x162BAEC
     float get_smoothingAngle();
     // public System.Void set_smoothingAngle(System.Single value)
-    // Offset: 0x138AAC8
+    // Offset: 0x162BAF4
     void set_smoothingAngle(float value);
     // public override System.String ToString()
-    // Offset: 0x138AAD0
+    // Offset: 0x162BAFC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x138AB98
+    // Offset: 0x162BBC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

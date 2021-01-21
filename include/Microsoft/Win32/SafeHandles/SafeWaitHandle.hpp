@@ -22,7 +22,7 @@ namespace Microsoft::Win32::SafeHandles {
     // Creating value type constructor for type: SafeWaitHandle
     SafeWaitHandle() noexcept {}
     // public System.Void .ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
-    // Offset: 0x1516AA8
+    // Offset: 0x18840D8
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Void SafeHandle::.ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -31,7 +31,7 @@ namespace Microsoft::Win32::SafeHandles {
       return THROW_UNLESS((::il2cpp_utils::New<SafeWaitHandle*, creationType>(existingHandle, ownsHandle)));
     }
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x1516AD4
+    // Offset: 0x1884104
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();

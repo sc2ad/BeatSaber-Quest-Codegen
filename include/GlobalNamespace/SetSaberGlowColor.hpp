@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair
     class PropertyTintColorPair;
-    // [NullAllowed] Offset: 0xDCB060
+    // [NullAllowed] Offset: 0xD3D29C
     // private SaberTypeObject _saberTypeObject
     // Size: 0x8
     // Offset: 0x18
@@ -52,14 +52,14 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
-    // [NullAllowed] Offset: 0xDCB0A8
+    // [NullAllowed] Offset: 0xD3D2E4
     // private SetSaberGlowColor/PropertyTintColorPair[] _propertyTintColorPairs
     // Size: 0x8
     // Offset: 0x28
     ::Array<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>* propertyTintColorPairs;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCB0E0
+    // [InjectAttribute] Offset: 0xD3D31C
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
@@ -83,22 +83,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0xFC1280
+    // Offset: 0x1087A20
     void set_saberType(GlobalNamespace::SaberType value);
     // protected System.Void Start()
-    // Offset: 0xFCC658
+    // Offset: 0x1092330
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFCC734
+    // Offset: 0x109240C
     void OnDestroy();
     // private System.Void HandleColorManagerColorsDidChange()
-    // Offset: 0xFCC808
+    // Offset: 0x10924E0
     void HandleColorManagerColorsDidChange();
     // private System.Void SetColors()
-    // Offset: 0xFCC504
+    // Offset: 0x10921DC
     void SetColors();
     // public System.Void .ctor()
-    // Offset: 0xFCC80C
+    // Offset: 0x10924E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

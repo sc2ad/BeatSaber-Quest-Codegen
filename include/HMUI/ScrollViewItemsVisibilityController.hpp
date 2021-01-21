@@ -112,19 +112,19 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x10810DC
+    // Offset: 0x11BCBE4
     void Start();
     // protected System.Void Update()
-    // Offset: 0x10817EC
+    // Offset: 0x11BD2F4
     void Update();
     // private System.Void UpdateVisibilityUpDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x1081634
+    // Offset: 0x11BD13C
     void UpdateVisibilityUpDirection(float newContentAnchoredPositionY);
     // private System.Void UpdateVisibilityDownDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x10818DC
+    // Offset: 0x11BD3E4
     void UpdateVisibilityDownDirection(float newContentAnchoredPositionY);
     // public System.Void .ctor()
-    // Offset: 0x1081A80
+    // Offset: 0x11BD588
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

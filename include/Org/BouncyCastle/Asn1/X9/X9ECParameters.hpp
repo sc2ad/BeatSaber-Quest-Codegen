@@ -86,46 +86,46 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Creating value type constructor for type: X9ECParameters
     X9ECParameters(Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID_ = {}, Org::BouncyCastle::Math::EC::ECCurve* curve_ = {}, Org::BouncyCastle::Asn1::X9::X9ECPoint* g_ = {}, Org::BouncyCastle::Math::BigInteger* n_ = {}, Org::BouncyCastle::Math::BigInteger* h_ = {}, ::Array<uint8_t>* seed_ = {}) noexcept : fieldID{fieldID_}, curve{curve_}, g{g_}, n{n_}, h{h_}, seed{seed_} {}
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetInstance(System.Object obj)
-    // Offset: 0x158A878
+    // Offset: 0x190B3FC
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x158A91C
+    // Offset: 0x190B4A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECParameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9ECParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECParameters*, creationType>(seq)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Asn1.X9.X9ECPoint g, Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger h)
-    // Offset: 0x1586F28
+    // Offset: 0x1907AAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECParameters* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Asn1::X9::X9ECPoint* g, Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* h) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9ECParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECParameters*, creationType>(curve, g, n, h)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Asn1.X9.X9ECPoint g, Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger h, System.Byte[] seed)
-    // Offset: 0x15869A0
+    // Offset: 0x1907524
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECParameters* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Asn1::X9::X9ECPoint* g, Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* h, ::Array<uint8_t>* seed) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9ECParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECParameters*, creationType>(curve, g, n, h, seed)));
     }
     // public Org.BouncyCastle.Math.EC.ECCurve get_Curve()
-    // Offset: 0x158B320
+    // Offset: 0x190BEA4
     Org::BouncyCastle::Math::EC::ECCurve* get_Curve();
     // public Org.BouncyCastle.Math.EC.ECPoint get_G()
-    // Offset: 0x158B328
+    // Offset: 0x190BEAC
     Org::BouncyCastle::Math::EC::ECPoint* get_G();
     // public Org.BouncyCastle.Math.BigInteger get_N()
-    // Offset: 0x158B340
+    // Offset: 0x190BEC4
     Org::BouncyCastle::Math::BigInteger* get_N();
     // public Org.BouncyCastle.Math.BigInteger get_H()
-    // Offset: 0x158B348
+    // Offset: 0x190BECC
     Org::BouncyCastle::Math::BigInteger* get_H();
     // public System.Byte[] GetSeed()
-    // Offset: 0x158B350
+    // Offset: 0x190BED4
     ::Array<uint8_t>* GetSeed();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x158B358
+    // Offset: 0x190BEDC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -45,17 +45,17 @@ namespace GlobalNamespace {
       return levels;
     }
     // public System.Void .ctor(IPreviewBeatmapLevel[] levels)
-    // Offset: 0x1A8385C
+    // Offset: 0x10737C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelCollection* New_ctor(::Array<GlobalNamespace::IPreviewBeatmapLevel*>* levels) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelCollection*, creationType>(levels)));
     }
     // static public BeatmapLevelCollection CreateBeatmapLevelCollectionByUsingBeatmapCharacteristicFiltering(IBeatmapLevelCollection beatmapLevelCollection, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x1A83890
+    // Offset: 0x10737FC
     static GlobalNamespace::BeatmapLevelCollection* CreateBeatmapLevelCollectionByUsingBeatmapCharacteristicFiltering(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
-    // Offset: 0x1A83854
+    // Offset: 0x10737C0
     // Implemented from: IBeatmapLevelCollection
     // Base method: IPreviewBeatmapLevel[] IBeatmapLevelCollection::get_beatmapLevels()
     ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();

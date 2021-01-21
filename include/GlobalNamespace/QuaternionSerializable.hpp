@@ -84,14 +84,14 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kInvScale
     static void _set_kInvScale(float value);
     // static public QuaternionSerializable get_identity()
-    // Offset: 0x19A6F48
+    // Offset: 0x226E790
     static GlobalNamespace::QuaternionSerializable get_identity();
     // public System.Void .ctor(UnityEngine.Quaternion q)
-    // Offset: 0xCB6460
+    // Offset: 0xE2EC10
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  QuaternionSerializable(UnityEngine::Quaternion q)
     // public System.Void .ctor(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xCB6468
+    // Offset: 0xE2EC18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     QuaternionSerializable(LiteNetLib::Utils::NetDataReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::QuaternionSerializable::.ctor");
@@ -99,7 +99,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, reader);
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xCB6434
+    // Offset: 0xE2EBE4
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -107,7 +107,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xCB643C
+    // Offset: 0xE2EBEC
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -115,22 +115,22 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(QuaternionSerializable other)
-    // Offset: 0xCB6444
+    // Offset: 0xE2EBF4
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(QuaternionSerializable other)
     bool Equals(GlobalNamespace::QuaternionSerializable other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xCB644C
+    // Offset: 0xE2EBFC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xCB6454
+    // Offset: 0xE2EC04
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xCB6474
+    // Offset: 0xE2EC24
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

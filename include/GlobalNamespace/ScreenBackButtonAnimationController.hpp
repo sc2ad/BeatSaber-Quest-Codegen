@@ -117,13 +117,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1982F2C
+    // Offset: 0x224769C
     void Awake();
     // public System.Void StartAnimation(ScreenBackButtonAnimationController/AnimationType animationType)
-    // Offset: 0x1982F4C
+    // Offset: 0x22476BC
     void StartAnimation(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType animationType);
     // public System.Void .ctor()
-    // Offset: 0x1982FCC
+    // Offset: 0x224773C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -81,7 +81,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.Single time, NoteCutInfoNetSerializable noteCutInfo)
-      // Offset: 0xC92ED0
+      // Offset: 0xDF3840
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  NoteCutEvent(float time, GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo)
     }; // MultiplayerConnectedPlayerNoteEventManager/NoteCutEvent
@@ -117,42 +117,42 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.Single time, NoteMissInfoNetSerializable noteMissInfo)
-      // Offset: 0xC92F18
+      // Offset: 0xDF3888
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  NoteMissEvent(float time, GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo)
     }; // MultiplayerConnectedPlayerNoteEventManager/NoteMissEvent
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent), 8 + sizeof(GlobalNamespace::NoteMissInfoNetSerializable*)> __GlobalNamespace_MultiplayerConnectedPlayerNoteEventManager_NoteMissEventSizeCheck;
     static_assert(sizeof(MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent) == 0x10);
-    // [InjectAttribute] Offset: 0xDC8D40
+    // [InjectAttribute] Offset: 0xD3AEFC
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC8D50
+    // [InjectAttribute] Offset: 0xD3AF0C
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC8D60
+    // [InjectAttribute] Offset: 0xD3AF1C
     // private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* songTimeController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8D70
+    // [CompilerGeneratedAttribute] Offset: 0xD3AF2C
     // private System.Action`1<NoteCutInfoNetSerializable> connectedPlayerNoteWasCutEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>* connectedPlayerNoteWasCutEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8D80
+    // [CompilerGeneratedAttribute] Offset: 0xD3AF3C
     // private System.Action`1<NoteMissInfoNetSerializable> connectedPlayerNoteWasMissedEvent
     // Size: 0x8
     // Offset: 0x38
@@ -180,39 +180,39 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xFAC53C
+    // Offset: 0x101C62C
     void Start();
     // protected System.Void Update()
-    // Offset: 0xFAC6D4
+    // Offset: 0x101C7C4
     void Update();
     // private System.Void HandleNoteWasCut(System.String userId, System.Single syncTime, System.Single songTime, NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0xFAC8DC
+    // Offset: 0x101C9CC
     void HandleNoteWasCut(::Il2CppString* userId, float syncTime, float songTime, GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // private System.Void HandleNoteWasMissed(System.String userId, System.Single syncTime, System.Single songTime, NoteMissInfoNetSerializable noteMissInfo)
-    // Offset: 0xFACA88
+    // Offset: 0x101CB78
     void HandleNoteWasMissed(::Il2CppString* userId, float syncTime, float songTime, GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo);
     // public System.Void add_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
-    // Offset: 0xFAC2AC
+    // Offset: 0x101C39C
     // Implemented from: IConnectedPlayerNoteEventManager
     // Base method: System.Void IConnectedPlayerNoteEventManager::add_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
     void add_connectedPlayerNoteWasCutEvent(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
-    // Offset: 0xFAC350
+    // Offset: 0x101C440
     // Implemented from: IConnectedPlayerNoteEventManager
     // Base method: System.Void IConnectedPlayerNoteEventManager::remove_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
     void remove_connectedPlayerNoteWasCutEvent(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerNoteWasMissedEvent(System.Action`1<NoteMissInfoNetSerializable> value)
-    // Offset: 0xFAC3F4
+    // Offset: 0x101C4E4
     // Implemented from: IConnectedPlayerNoteEventManager
     // Base method: System.Void IConnectedPlayerNoteEventManager::add_connectedPlayerNoteWasMissedEvent(System.Action`1<NoteMissInfoNetSerializable> value)
     void add_connectedPlayerNoteWasMissedEvent(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasMissedEvent(System.Action`1<NoteMissInfoNetSerializable> value)
-    // Offset: 0xFAC498
+    // Offset: 0x101C588
     // Implemented from: IConnectedPlayerNoteEventManager
     // Base method: System.Void IConnectedPlayerNoteEventManager::remove_connectedPlayerNoteWasMissedEvent(System.Action`1<NoteMissInfoNetSerializable> value)
     void remove_connectedPlayerNoteWasMissedEvent(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>* value);
     // public System.Void .ctor()
-    // Offset: 0xFACC20
+    // Offset: 0x101CD10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

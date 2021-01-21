@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class BloomPrePassBloomTextureEffectSO : public GlobalNamespace::BloomPrePassEffectSO {
     public:
-    // [SpaceAttribute] Offset: 0xDB15E4
+    // [SpaceAttribute] Offset: 0xD233E0
     // private System.Single _radius
     // Size: 0x4
     // Offset: 0x2C
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PyramidBloomRendererSO::Pass) == 0x4);
-    // [SpaceAttribute] Offset: 0xDB169C
+    // [SpaceAttribute] Offset: 0xD23498
     // private PyramidBloomRendererSO _bloomRenderer
     // Size: 0x8
     // Offset: 0x50
@@ -99,12 +99,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BloomPrePassBloomTextureEffectSO
     BloomPrePassBloomTextureEffectSO(float radius_ = {}, float intensity_ = {}, float downBloomIntensityOffset_ = {}, bool uniformPyramidWeights_ = {}, float pyramidWeightsParam_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass prefilterPass_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass downsamplePass_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass upsamplePass_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass_ = {}, GlobalNamespace::PyramidBloomRendererSO* bloomRenderer_ = {}) noexcept : radius{radius_}, intensity{intensity_}, downBloomIntensityOffset{downBloomIntensityOffset_}, uniformPyramidWeights{uniformPyramidWeights_}, pyramidWeightsParam{pyramidWeightsParam_}, prefilterPass{prefilterPass_}, downsamplePass{downsamplePass_}, upsamplePass{upsamplePass_}, finalUpsamplePass{finalUpsamplePass_}, bloomRenderer{bloomRenderer_} {}
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x1987FB4
+    // Offset: 0x224E724
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x1988008
+    // Offset: 0x224E778
     // Implemented from: BloomPrePassEffectSO
     // Base method: System.Void BloomPrePassEffectSO::.ctor()
     // Base method: System.Void TextureEffectSO::.ctor()

@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     struct $UserAuthenticationDataAsync$d__3;
     // Nested type: GlobalNamespace::UserLoginDtoDataSource::$GetUserFriendsUserIds$d__4
     struct $GetUserFriendsUserIds$d__4;
-    // [InjectAttribute] Offset: 0xDC490C
+    // [InjectAttribute] Offset: 0xD367E0
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x10
@@ -77,22 +77,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kVersion
     static void _set_kVersion(::Il2CppString* value);
     // public System.Threading.Tasks.Task`1<System.String> GetPlatformUserIdAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xFFD358
+    // Offset: 0x171A420
     // Implemented from: OnlineServices.API.IUserLoginDtoDataSource
     // Base method: System.Threading.Tasks.Task`1<System.String> IUserLoginDtoDataSource::GetPlatformUserIdAsync(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<::Il2CppString*>* GetPlatformUserIdAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<BeatSaberAPI.DataTransferObjects.UserAuthenticationData> UserAuthenticationDataAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xFFD470
+    // Offset: 0x171A538
     // Implemented from: OnlineServices.API.IUserLoginDtoDataSource
     // Base method: System.Threading.Tasks.Task`1<BeatSaberAPI.DataTransferObjects.UserAuthenticationData> IUserLoginDtoDataSource::UserAuthenticationDataAsync(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* UserAuthenticationDataAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String[]> GetUserFriendsUserIds(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xFFD58C
+    // Offset: 0x171A654
     // Implemented from: OnlineServices.API.IUserLoginDtoDataSource
     // Base method: System.Threading.Tasks.Task`1<System.String[]> IUserLoginDtoDataSource::GetUserFriendsUserIds(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<::Array<::Il2CppString*>*>* GetUserFriendsUserIds(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0xFFD6A4
+    // Offset: 0x171A76C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

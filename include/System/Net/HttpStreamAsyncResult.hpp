@@ -106,13 +106,13 @@ namespace System::Net {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x12B48BC
+    // Offset: 0x1503650
     void Complete(System::Exception* e);
     // public System.Void Complete()
-    // Offset: 0x12B48E4
+    // Offset: 0x1503678
     void Complete();
     // public System.Object get_AsyncState()
-    // Offset: 0x12B49DC
+    // Offset: 0x1503770
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
@@ -120,7 +120,7 @@ namespace System::Net {
     // Maps to method: get_AsyncState
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x12B49E4
+    // Offset: 0x1503778
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* get_AsyncWaitHandle();
@@ -128,7 +128,7 @@ namespace System::Net {
     // Maps to method: get_AsyncWaitHandle
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x12B4AEC
+    // Offset: 0x1503880
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
     bool get_CompletedSynchronously();
@@ -136,7 +136,7 @@ namespace System::Net {
     // Maps to method: get_CompletedSynchronously
     bool System_IAsyncResult_get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x12B4B00
+    // Offset: 0x1503894
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_IsCompleted()
     bool get_IsCompleted();
@@ -144,7 +144,7 @@ namespace System::Net {
     // Maps to method: get_IsCompleted
     bool System_IAsyncResult_get_IsCompleted();
     // public System.Void .ctor()
-    // Offset: 0x12B4BAC
+    // Offset: 0x1503940
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

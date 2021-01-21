@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class EditableModifiersSelectionView : public GlobalNamespace::ModifiersSelectionView {
     public:
-    // [SpaceAttribute] Offset: 0xDD1AD4
+    // [SpaceAttribute] Offset: 0xD43DE0
     // private UnityEngine.UI.Button _editButton
     // Size: 0x8
     // Offset: 0x30
@@ -72,24 +72,24 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EditableModifiersSelectionView
     EditableModifiersSelectionView(UnityEngine::UI::Button* editButton_ = {}, UnityEngine::UI::Button* clearButton_ = {}, bool showClearButton_ = {}, UnityEngine::CanvasGroup* modifiersListCanvasGroup_ = {}, bool interactable_ = {}) noexcept : editButton{editButton_}, clearButton{clearButton_}, showClearButton{showClearButton_}, modifiersListCanvasGroup{modifiersListCanvasGroup_}, interactable{interactable_} {}
     // public UnityEngine.UI.Button get_editButton()
-    // Offset: 0x1A5F348
+    // Offset: 0x104ED98
     UnityEngine::UI::Button* get_editButton();
     // public UnityEngine.UI.Button get_clearButton()
-    // Offset: 0x1A5F350
+    // Offset: 0x104EDA0
     UnityEngine::UI::Button* get_clearButton();
     // public System.Boolean get_interactable()
-    // Offset: 0x1A5F358
+    // Offset: 0x104EDA8
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x1A4ED30
+    // Offset: 0x103E67C
     void set_interactable(bool value);
     // public override System.Void SetGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1A5F360
+    // Offset: 0x104EDB0
     // Implemented from: ModifiersSelectionView
     // Base method: System.Void ModifiersSelectionView::SetGameplayModifiers(GameplayModifiers gameplayModifiers)
     void SetGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void .ctor()
-    // Offset: 0x1A5F3D0
+    // Offset: 0x104EE20
     // Implemented from: ModifiersSelectionView
     // Base method: System.Void ModifiersSelectionView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

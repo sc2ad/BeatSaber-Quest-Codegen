@@ -47,13 +47,13 @@ namespace Mono {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // static public System.IntPtr StringToUtf8(System.String str)
-    // Offset: 0x1527740
+    // Offset: 0x1894D70
     static System::IntPtr StringToUtf8(::Il2CppString* str);
     // static public System.Void GFree(System.IntPtr ptr)
-    // Offset: 0x1527744
+    // Offset: 0x1894D74
     static void GFree(System::IntPtr ptr);
     // public System.Void .ctor(System.String str)
-    // Offset: 0xCA0EAC
+    // Offset: 0xE0EDA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     SafeStringMarshal(::Il2CppString* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::SafeStringMarshal::.ctor");
@@ -61,10 +61,10 @@ namespace Mono {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, str);
     }
     // public System.IntPtr get_Value()
-    // Offset: 0xCA0EB4
+    // Offset: 0xE0EDB0
     System::IntPtr get_Value();
     // public System.Void Dispose()
-    // Offset: 0xCA0EBC
+    // Offset: 0xE0EDB8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

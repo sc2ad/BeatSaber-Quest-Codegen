@@ -60,20 +60,20 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: IssuerSerial
     IssuerSerial(Org::BouncyCastle::Asn1::X509::GeneralNames* issuer_ = {}, Org::BouncyCastle::Asn1::DerInteger* serial_ = {}, Org::BouncyCastle::Asn1::DerBitString* issuerUid_ = {}) noexcept : issuer{issuer_}, serial{serial_}, issuerUid{issuerUid_} {}
     // static public Org.BouncyCastle.Asn1.X509.IssuerSerial GetInstance(System.Object obj)
-    // Offset: 0x157C530
+    // Offset: 0x18FD0B4
     static Org::BouncyCastle::Asn1::X509::IssuerSerial* GetInstance(::Il2CppObject* obj);
     // static public Org.BouncyCastle.Asn1.X509.IssuerSerial GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x157C3C4
+    // Offset: 0x18FCF48
     static Org::BouncyCastle::Asn1::X509::IssuerSerial* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x157C6B0
+    // Offset: 0x18FD234
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IssuerSerial* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::IssuerSerial::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IssuerSerial*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x157C8A0
+    // Offset: 0x18FD424
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

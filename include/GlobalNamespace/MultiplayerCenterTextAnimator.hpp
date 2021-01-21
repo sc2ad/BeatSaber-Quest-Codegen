@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerCenterTextAnimator : public UnityEngine::MonoBehaviour {
     public:
-    // [SpaceAttribute] Offset: 0xDC9C44
+    // [SpaceAttribute] Offset: 0xD3BE40
     // private TMPro.TextMeshPro _text
     // Size: 0x8
     // Offset: 0x18
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* scalingTarget;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC9C8C
+    // [InjectAttribute] Offset: 0xD3BE88
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -98,46 +98,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xFA79D0
+    // Offset: 0x101744C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xFA7DB0
+    // Offset: 0x101782C
     void OnDestroy();
     // public System.Void AnimateTextColor(UnityEngine.Color color, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0xFA7E48
+    // Offset: 0x10178C4
     void AnimateTextColor(UnityEngine::Color color, float duration, Tweening::EaseType easeType);
     // public System.Void AnimateFontSize(System.Single fontSize, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0xFA7EF8
+    // Offset: 0x1017974
     void AnimateFontSize(float fontSize, float duration, Tweening::EaseType easeType);
     // public System.Void AnimatePositionOffsetSize(UnityEngine.Vector3 offset, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0xFA7F5C
+    // Offset: 0x10179D8
     void AnimatePositionOffsetSize(UnityEngine::Vector3 offset, float duration, Tweening::EaseType easeType);
     // public System.Void AnimateEnabled(System.Boolean isEnabled, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0xFA8000
+    // Offset: 0x1017A7C
     void AnimateEnabled(bool isEnabled, float duration, Tweening::EaseType easeType);
     // public System.Void SetText(System.String text)
-    // Offset: 0xFA817C
+    // Offset: 0x1017BF8
     void SetText(::Il2CppString* text);
     // private System.Void <Awake>b__8_0(System.Single val)
-    // Offset: 0xFA81A0
+    // Offset: 0x1017C1C
     void $Awake$b__8_0(float val);
     // private System.Void <Awake>b__8_1(System.Single val)
-    // Offset: 0xFA8234
+    // Offset: 0x1017CB0
     void $Awake$b__8_1(float val);
     // private System.Void <Awake>b__8_5()
-    // Offset: 0xFA82C8
+    // Offset: 0x1017D44
     void $Awake$b__8_5();
     // private System.Void <Awake>b__8_2(System.Single val)
-    // Offset: 0xFA82F8
+    // Offset: 0x1017D74
     void $Awake$b__8_2(float val);
     // private System.Void <Awake>b__8_3(UnityEngine.Color val)
-    // Offset: 0xFA8314
+    // Offset: 0x1017D90
     void $Awake$b__8_3(UnityEngine::Color val);
     // private System.Void <Awake>b__8_4(UnityEngine.Vector3 val)
-    // Offset: 0xFA8338
+    // Offset: 0x1017DB4
     void $Awake$b__8_4(UnityEngine::Vector3 val);
     // public System.Void .ctor()
-    // Offset: 0xFA8198
+    // Offset: 0x1017C14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

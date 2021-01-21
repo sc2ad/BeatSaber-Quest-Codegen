@@ -58,21 +58,21 @@ namespace GlobalNamespace {
     GlobalNamespace::SceneInfo* gameCoreSceneInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SceneInfo*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDD3268
+    // [CompilerGeneratedAttribute] Offset: 0xD45614
     // private System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> didFinishEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDD3278
+    // [CompilerGeneratedAttribute] Offset: 0xD45624
     // private System.String <gameMode>k__BackingField
     // Size: 0x8
     // Offset: 0x40
     ::Il2CppString* gameMode;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDD3288
+    // [CompilerGeneratedAttribute] Offset: 0xD45634
     // private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
     // Size: 0x8
     // Offset: 0x48
@@ -82,31 +82,31 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StandardLevelScenesTransitionSetupDataSO
     StandardLevelScenesTransitionSetupDataSO(GlobalNamespace::SceneInfo* standardGameplaySceneInfo_ = {}, GlobalNamespace::SceneInfo* gameCoreSceneInfo_ = {}, System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* didFinishEvent_ = {}, ::Il2CppString* gameMode_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}) noexcept : standardGameplaySceneInfo{standardGameplaySceneInfo_}, gameCoreSceneInfo{gameCoreSceneInfo_}, didFinishEvent{didFinishEvent_}, gameMode{gameMode_}, difficultyBeatmap{difficultyBeatmap_} {}
     // public System.Void add_didFinishEvent(System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> value)
-    // Offset: 0xF3DF0C
+    // Offset: 0xF74DE4
     void add_didFinishEvent(System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> value)
-    // Offset: 0xF3E040
+    // Offset: 0xF74F18
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* value);
     // public System.String get_gameMode()
-    // Offset: 0xF4512C
+    // Offset: 0xF7C030
     ::Il2CppString* get_gameMode();
     // private System.Void set_gameMode(System.String value)
-    // Offset: 0xF45134
+    // Offset: 0xF7C038
     void set_gameMode(::Il2CppString* value);
     // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0xF4513C
+    // Offset: 0xF7C040
     GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
     // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
-    // Offset: 0xF45144
+    // Offset: 0xF7C048
     void set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
     // public System.Void Init(System.String gameMode, IDifficultyBeatmap difficultyBeatmap, OverrideEnvironmentSettings overrideEnvironmentSettings, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.String backButtonText, System.Boolean useTestNoteCutSoundEffects)
-    // Offset: 0xF44AD4
+    // Offset: 0xF7B9C8
     void Init(::Il2CppString* gameMode, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, ::Il2CppString* backButtonText, bool useTestNoteCutSoundEffects);
     // public System.Void Finish(LevelCompletionResults levelCompletionResults)
-    // Offset: 0xF43138
+    // Offset: 0xF7A010
     void Finish(GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0xF4514C
+    // Offset: 0xF7C050
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

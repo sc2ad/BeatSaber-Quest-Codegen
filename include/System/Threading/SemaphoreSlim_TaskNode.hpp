@@ -42,7 +42,7 @@ namespace System::Threading {
     // Creating value type constructor for type: TaskNode
     TaskNode(System::Threading::SemaphoreSlim::TaskNode* Prev_ = {}, System::Threading::SemaphoreSlim::TaskNode* Next_ = {}) noexcept : Prev{Prev_}, Next{Next_} {}
     // System.Void .ctor()
-    // Offset: 0x1D0B2D8
+    // Offset: 0x17AC334
     // Implemented from: System.Threading.Tasks.Task`1
     // Base method: System.Void Task_1::.ctor()
     // Base method: System.Void Task::.ctor()
@@ -53,12 +53,12 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<SemaphoreSlim::TaskNode*, creationType>()));
     }
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x1D0C6A8
+    // Offset: 0x17AD704
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::ExecuteWorkItem()
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x1D0C6FC
+    // Offset: 0x17AD758
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);

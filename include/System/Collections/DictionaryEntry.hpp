@@ -41,14 +41,14 @@ namespace System::Collections {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Object key, System.Object value)
-    // Offset: 0xE8BBD8
+    // Offset: 0xE0BF60
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  DictionaryEntry(::Il2CppObject* key, ::Il2CppObject* value)
     // public System.Object get_Key()
-    // Offset: 0xE8BC0C
+    // Offset: 0xE0BF94
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0xE8BC14
+    // Offset: 0xE0BF9C
     ::Il2CppObject* get_Value();
   }; // System.Collections.DictionaryEntry
   #pragma pack(pop)

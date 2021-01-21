@@ -26,14 +26,14 @@ namespace HMUI {
   // [] Offset: FFFFFFFF
   class IconSegmentedControl::DataItem : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDA8490
+    // [CompilerGeneratedAttribute] Offset: 0xD1A088
     // private UnityEngine.Sprite <icon>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Sprite* icon;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDA84A0
+    // [CompilerGeneratedAttribute] Offset: 0xD1A098
     // private System.String <hintText>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -43,19 +43,19 @@ namespace HMUI {
     // Creating value type constructor for type: DataItem
     DataItem(UnityEngine::Sprite* icon_ = {}, ::Il2CppString* hintText_ = {}) noexcept : icon{icon_}, hintText{hintText_} {}
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x10B6834
+    // Offset: 0x120631C
     UnityEngine::Sprite* get_icon();
     // private System.Void set_icon(UnityEngine.Sprite value)
-    // Offset: 0x10B683C
+    // Offset: 0x1206324
     void set_icon(UnityEngine::Sprite* value);
     // public System.String get_hintText()
-    // Offset: 0x10B6844
+    // Offset: 0x120632C
     ::Il2CppString* get_hintText();
     // private System.Void set_hintText(System.String value)
-    // Offset: 0x10B684C
+    // Offset: 0x1206334
     void set_hintText(::Il2CppString* value);
     // public System.Void .ctor(UnityEngine.Sprite icon, System.String hintText)
-    // Offset: 0x10B6854
+    // Offset: 0x120633C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IconSegmentedControl::DataItem* New_ctor(UnityEngine::Sprite* icon, ::Il2CppString* hintText) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::IconSegmentedControl::DataItem::.ctor");

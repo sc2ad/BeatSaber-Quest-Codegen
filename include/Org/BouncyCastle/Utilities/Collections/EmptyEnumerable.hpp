@@ -37,10 +37,10 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Set static field: static public readonly System.Collections.IEnumerable Instance
     static void _set_Instance(System::Collections::IEnumerable* value);
     // static private System.Void .cctor()
-    // Offset: 0x10E1514
+    // Offset: 0x1231FFC
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x10E14A4
+    // Offset: 0x1231F8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +49,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
       return THROW_UNLESS((::il2cpp_utils::New<EmptyEnumerable*, creationType>()));
     }
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x10E14AC
+    // Offset: 0x1231F94
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

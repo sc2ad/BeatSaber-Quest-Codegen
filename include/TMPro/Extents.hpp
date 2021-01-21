@@ -41,11 +41,11 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(UnityEngine.Vector2 min, UnityEngine.Vector2 max)
-    // Offset: 0xC926E8
+    // Offset: 0xDF2D70
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Extents(UnityEngine::Vector2 min, UnityEngine::Vector2 max)
     // public override System.String ToString()
-    // Offset: 0xC926F4
+    // Offset: 0xDF2D7C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

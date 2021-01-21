@@ -33,35 +33,35 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class OffsetModifier::OffsetLimits : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDBB1DC
+    // [TooltipAttribute] Offset: 0xD2CFD8
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0xDBB214
+    // [TooltipAttribute] Offset: 0xD2D010
     // public System.Single spring
     // Size: 0x4
     // Offset: 0x14
     float spring;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDBB24C
+    // [TooltipAttribute] Offset: 0xD2D048
     // public System.Boolean x
     // Size: 0x1
     // Offset: 0x18
     bool x;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xDBB284
+    // [TooltipAttribute] Offset: 0xD2D080
     // public System.Boolean y
     // Size: 0x1
     // Offset: 0x19
     bool y;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xDBB2BC
+    // [TooltipAttribute] Offset: 0xD2D0B8
     // public System.Boolean z
     // Size: 0x1
     // Offset: 0x1A
@@ -70,42 +70,42 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: z and: minX
     char __padding4[0x1] = {};
-    // [TooltipAttribute] Offset: 0xDBB2F4
+    // [TooltipAttribute] Offset: 0xD2D0F0
     // public System.Single minX
     // Size: 0x4
     // Offset: 0x1C
     float minX;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDBB32C
+    // [TooltipAttribute] Offset: 0xD2D128
     // public System.Single maxX
     // Size: 0x4
     // Offset: 0x20
     float maxX;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDBB364
+    // [TooltipAttribute] Offset: 0xD2D160
     // public System.Single minY
     // Size: 0x4
     // Offset: 0x24
     float minY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDBB39C
+    // [TooltipAttribute] Offset: 0xD2D198
     // public System.Single maxY
     // Size: 0x4
     // Offset: 0x28
     float maxY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDBB3D4
+    // [TooltipAttribute] Offset: 0xD2D1D0
     // public System.Single minZ
     // Size: 0x4
     // Offset: 0x2C
     float minZ;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDBB40C
+    // [TooltipAttribute] Offset: 0xD2D208
     // public System.Single maxZ
     // Size: 0x4
     // Offset: 0x30
@@ -115,16 +115,16 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: OffsetLimits
     OffsetLimits(RootMotion::FinalIK::FullBodyBipedEffector effector_ = {}, float spring_ = {}, bool x_ = {}, bool y_ = {}, bool z_ = {}, float minX_ = {}, float maxX_ = {}, float minY_ = {}, float maxY_ = {}, float minZ_ = {}, float maxZ_ = {}) noexcept : effector{effector_}, spring{spring_}, x{x_}, y{y_}, z{z_}, minX{minX_}, maxX{maxX_}, minY{minY_}, maxY{maxY_}, minZ{minZ_}, maxZ{maxZ_} {}
     // public System.Void Apply(RootMotion.FinalIK.IKEffector e, UnityEngine.Quaternion rootRotation)
-    // Offset: 0x15E1304
+    // Offset: 0x1961E88
     void Apply(RootMotion::FinalIK::IKEffector* e, UnityEngine::Quaternion rootRotation);
     // private System.Single SpringAxis(System.Single value, System.Single min, System.Single max)
-    // Offset: 0x15E1860
+    // Offset: 0x19623E4
     float SpringAxis(float value, float min, float max);
     // private System.Single Spring(System.Single value, System.Single limit, System.Boolean negative)
-    // Offset: 0x15E1890
+    // Offset: 0x1962414
     float Spring(float value, float limit, bool negative);
     // public System.Void .ctor()
-    // Offset: 0x15E1968
+    // Offset: 0x19624EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

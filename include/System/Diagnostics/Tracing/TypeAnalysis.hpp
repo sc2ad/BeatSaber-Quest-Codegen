@@ -84,7 +84,7 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: TypeAnalysis
     TypeAnalysis(::Array<System::Diagnostics::Tracing::PropertyAnalysis*>* properties_ = {}, ::Il2CppString* name_ = {}, System::Diagnostics::Tracing::EventKeywords keywords_ = {}, System::Diagnostics::Tracing::EventLevel level_ = {}, System::Diagnostics::Tracing::EventOpcode opcode_ = {}, System::Diagnostics::Tracing::EventTags tags_ = {}) noexcept : properties{properties_}, name{name_}, keywords{keywords_}, level{level_}, opcode{opcode_}, tags{tags_} {}
     // public System.Void .ctor(System.Type dataType, System.Diagnostics.Tracing.EventDataAttribute eventAttrib, System.Collections.Generic.List`1<System.Type> recursionCheck)
-    // Offset: 0x1122458
+    // Offset: 0x12A9294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeAnalysis* New_ctor(System::Type* dataType, System::Diagnostics::Tracing::EventDataAttribute* eventAttrib, System::Collections::Generic::List_1<System::Type*>* recursionCheck) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::TypeAnalysis::.ctor");

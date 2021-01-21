@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::HealthWarningFlowCoordinator::InitData
     class InitData;
-    // [InjectAttribute] Offset: 0xDCD7BC
+    // [InjectAttribute] Offset: 0xD3FA18
     // private PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xA8
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDCD7CC
+    // [SpaceAttribute] Offset: 0xD3FA28
     // private EulaViewController _eulaViewController
     // Size: 0x8
     // Offset: 0xB0
@@ -72,28 +72,28 @@ namespace GlobalNamespace {
     GlobalNamespace::PrivacyPolicyViewController* privacyPolicyViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PrivacyPolicyViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCD824
+    // [InjectAttribute] Offset: 0xD3FA80
     // private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
     // Size: 0x8
     // Offset: 0xC8
     GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCD834
+    // [InjectAttribute] Offset: 0xD3FA90
     // private readonly FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0xD0
     GlobalNamespace::FadeInOutController* fadeInOut;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCD844
+    // [InjectAttribute] Offset: 0xD3FAA0
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0xD8
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCD854
+    // [InjectAttribute] Offset: 0xD3FAB0
     // private readonly HealthWarningFlowCoordinator/InitData _initData
     // Size: 0x8
     // Offset: 0xE0
@@ -109,48 +109,48 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HealthWarningFlowCoordinator
     HealthWarningFlowCoordinator(GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::EulaViewController* eulaViewController_ = {}, GlobalNamespace::HealthWarningViewController* healthWarningViewController_ = {}, GlobalNamespace::PrivacyPolicyViewController* privacyPolicyViewController_ = {}, GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController_ = {}, GlobalNamespace::FadeInOutController* fadeInOut_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::HealthWarningFlowCoordinator::InitData* initData_ = {}, System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>* viewControllerTitles_ = {}) noexcept : playerDataModel{playerDataModel_}, eulaViewController{eulaViewController_}, healthWarningViewController{healthWarningViewController_}, privacyPolicyViewController{privacyPolicyViewController_}, simpleDialogPromptViewController{simpleDialogPromptViewController_}, fadeInOut{fadeInOut_}, gameScenesManager{gameScenesManager_}, initData{initData_}, viewControllerTitles{viewControllerTitles_} {}
     // protected System.Void Update()
-    // Offset: 0xF137A4
+    // Offset: 0xFCA908
     void Update();
     // private System.Void HandleEulaViewControllerDidFinish(System.Boolean agreed)
-    // Offset: 0xF137E4
+    // Offset: 0xFCA948
     void HandleEulaViewControllerDidFinish(bool agreed);
     // private System.Void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed()
-    // Offset: 0xF13858
+    // Offset: 0xFCA9BC
     void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed();
     // private System.Void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed()
-    // Offset: 0xF13870
+    // Offset: 0xFCA9D4
     void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed();
     // private System.Void HandleHealthWarningViewControllerDidFinish()
-    // Offset: 0xF137E0
+    // Offset: 0xFCA944
     void HandleHealthWarningViewControllerDidFinish();
     // private System.Void GoToNextScene()
-    // Offset: 0xF13944
+    // Offset: 0xFCAAA8
     void GoToNextScene();
     // private System.Void <HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed>b__16_0(System.Int32 button)
-    // Offset: 0xF13A34
+    // Offset: 0xFCAB98
     void $HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed$b__16_0(int button);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF12EF0
+    // Offset: 0xFCA054
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xF13388
+    // Offset: 0xFCA4EC
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0xF136D0
+    // Offset: 0xFCA834
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0xF13980
+    // Offset: 0xFCAAE4
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // public System.Void .ctor()
-    // Offset: 0xF13A2C
+    // Offset: 0xFCAB90
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -46,14 +46,14 @@ namespace System::Security::Policy {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // public System.Void .ctor(System.Collections.IEnumerator hostenum, System.Collections.IEnumerator assemblyenum)
-    // Offset: 0x128154C
+    // Offset: 0x14D03CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Evidence::EvidenceEnumerator* New_ctor(System::Collections::IEnumerator* hostenum, System::Collections::IEnumerator* assemblyenum) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Policy::Evidence::EvidenceEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Evidence::EvidenceEnumerator*, creationType>(hostenum, assemblyenum)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x12815B0
+    // Offset: 0x14D0430
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -61,7 +61,7 @@ namespace System::Security::Policy {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1281714
+    // Offset: 0x14D0594
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -69,7 +69,7 @@ namespace System::Security::Policy {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public System.Object get_Current()
-    // Offset: 0x128186C
+    // Offset: 0x14D06EC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();

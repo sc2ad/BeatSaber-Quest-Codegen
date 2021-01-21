@@ -54,7 +54,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: InstalledApplication
     InstalledApplication(::Il2CppString* ApplicationId_ = {}, ::Il2CppString* PackageName_ = {}, ::Il2CppString* Status_ = {}, int VersionCode_ = {}, ::Il2CppString* VersionName_ = {}) noexcept : ApplicationId{ApplicationId_}, PackageName{PackageName_}, Status{Status_}, VersionCode{VersionCode_}, VersionName{VersionName_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x11E0E4C
+    // Offset: 0x13F1C54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstalledApplication* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::InstalledApplication::.ctor");

@@ -52,10 +52,10 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMinBladeSpeedForCut
     static void _set_kMinBladeSpeedForCut(float value);
     // static public System.Void GetBasicCutInfo(UnityEngine.Transform noteTransform, ColorType colorType, NoteCutDirection cutDirection, SaberType saberType, System.Single saberBladeSpeed, UnityEngine.Vector3 cutDirVec, out System.Boolean directionOK, out System.Boolean speedOK, out System.Boolean saberTypeOK, out System.Single cutDirDeviation, out System.Single cutDirAngle)
-    // Offset: 0x19A5DB0
+    // Offset: 0x226D5F8
     static void GetBasicCutInfo(UnityEngine::Transform* noteTransform, GlobalNamespace::ColorType colorType, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::SaberType saberType, float saberBladeSpeed, UnityEngine::Vector3 cutDirVec, bool& directionOK, bool& speedOK, bool& saberTypeOK, float& cutDirDeviation, float& cutDirAngle);
     // public System.Void .ctor()
-    // Offset: 0x19A5FF4
+    // Offset: 0x226D83C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,13 +43,13 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x15E1E78
+    // Offset: 0x19629FC
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
-    // Offset: 0x15E2270
+    // Offset: 0x1962DF4
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x15E2328
+    // Offset: 0x1962EAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

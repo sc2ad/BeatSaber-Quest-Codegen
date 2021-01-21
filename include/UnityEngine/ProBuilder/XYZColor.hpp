@@ -45,20 +45,20 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: XYZColor
     XYZColor(float x_ = {}, float y_ = {}, float z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z)
-    // Offset: 0x1957178
+    // Offset: 0x21DC86C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XYZColor* New_ctor(float x, float y, float z) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::XYZColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XYZColor*, creationType>(x, y, z)));
     }
     // static public UnityEngine.ProBuilder.XYZColor FromRGB(UnityEngine.Color col)
-    // Offset: 0x19571C0
+    // Offset: 0x21DC8B4
     static UnityEngine::ProBuilder::XYZColor* FromRGB(UnityEngine::Color col);
     // static public UnityEngine.ProBuilder.XYZColor FromRGB(System.Single R, System.Single G, System.Single B)
-    // Offset: 0x1957250
+    // Offset: 0x21DC944
     static UnityEngine::ProBuilder::XYZColor* FromRGB(float R, float G, float B);
     // public override System.String ToString()
-    // Offset: 0x19572D8
+    // Offset: 0x21DC9CC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

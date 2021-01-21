@@ -26,35 +26,35 @@ namespace UnityEngine::Events {
   // [] Offset: FFFFFFFF
   class ArgumentCache : public ::Il2CppObject/*, public UnityEngine::ISerializationCallbackReceiver*/ {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xD51214
+    // [FormerlySerializedAsAttribute] Offset: 0xCC2DC0
     // private UnityEngine.Object m_ObjectArgument
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Object* m_ObjectArgument;
     // Field size check
     static_assert(sizeof(UnityEngine::Object*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD51260
+    // [FormerlySerializedAsAttribute] Offset: 0xCC2E0C
     // private System.String m_ObjectArgumentAssemblyTypeName
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* m_ObjectArgumentAssemblyTypeName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD512AC
+    // [FormerlySerializedAsAttribute] Offset: 0xCC2E58
     // private System.Int32 m_IntArgument
     // Size: 0x4
     // Offset: 0x20
     int m_IntArgument;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xD512F8
+    // [FormerlySerializedAsAttribute] Offset: 0xCC2EA4
     // private System.Single m_FloatArgument
     // Size: 0x4
     // Offset: 0x24
     float m_FloatArgument;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xD51344
+    // [FormerlySerializedAsAttribute] Offset: 0xCC2EF0
     // private System.String m_StringArgument
     // Size: 0x8
     // Offset: 0x28
@@ -74,28 +74,28 @@ namespace UnityEngine::Events {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);
     }
     // public UnityEngine.Object get_unityObjectArgument()
-    // Offset: 0x16860AC
+    // Offset: 0x1A1DAEC
     UnityEngine::Object* get_unityObjectArgument();
     // public System.String get_unityObjectArgumentAssemblyTypeName()
-    // Offset: 0x16860B4
+    // Offset: 0x1A1DAF4
     ::Il2CppString* get_unityObjectArgumentAssemblyTypeName();
     // public System.Int32 get_intArgument()
-    // Offset: 0x16860BC
+    // Offset: 0x1A1DAFC
     int get_intArgument();
     // public System.Single get_floatArgument()
-    // Offset: 0x16860C4
+    // Offset: 0x1A1DB04
     float get_floatArgument();
     // public System.String get_stringArgument()
-    // Offset: 0x16860CC
+    // Offset: 0x1A1DB0C
     ::Il2CppString* get_stringArgument();
     // public System.Boolean get_boolArgument()
-    // Offset: 0x16860D4
+    // Offset: 0x1A1DB14
     bool get_boolArgument();
     // private System.Void TidyAssemblyTypeName()
-    // Offset: 0x16860DC
+    // Offset: 0x1A1DB1C
     void TidyAssemblyTypeName();
     // public System.Void OnBeforeSerialize()
-    // Offset: 0x1686318
+    // Offset: 0x1A1DD58
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnBeforeSerialize()
     void OnBeforeSerialize();
@@ -103,7 +103,7 @@ namespace UnityEngine::Events {
     // Maps to method: OnBeforeSerialize
     void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
     // public System.Void OnAfterDeserialize()
-    // Offset: 0x168631C
+    // Offset: 0x1A1DD5C
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnAfterDeserialize()
     void OnAfterDeserialize();
@@ -111,7 +111,7 @@ namespace UnityEngine::Events {
     // Maps to method: OnAfterDeserialize
     void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
     // public System.Void .ctor()
-    // Offset: 0x1686320
+    // Offset: 0x1A1DD60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

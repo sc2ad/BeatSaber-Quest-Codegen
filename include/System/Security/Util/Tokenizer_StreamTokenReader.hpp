@@ -47,17 +47,17 @@ namespace System::Security::Util {
       return *reinterpret_cast<System::Security::Util::Tokenizer::ITokenReader*>(this);
     }
     // System.Void .ctor(System.IO.StreamReader input)
-    // Offset: 0x1288470
+    // Offset: 0x14D72F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tokenizer::StreamTokenReader* New_ctor(System::IO::StreamReader* input) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Tokenizer::StreamTokenReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer::StreamTokenReader*, creationType>(input)));
     }
     // System.Int32 get_NumCharEncountered()
-    // Offset: 0x1288B60
+    // Offset: 0x14D79E0
     int get_NumCharEncountered();
     // public System.Int32 Read()
-    // Offset: 0x1288B18
+    // Offset: 0x14D7998
     // Implemented from: System.Security.Util.Tokenizer/ITokenReader
     // Base method: System.Int32 ITokenReader::Read()
     int Read();

@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class PlayAudioOnGameEventController::EventAudioBinding : public ::Il2CppObject {
     public:
-    // [HeaderAttribute] Offset: 0xDD3770
+    // [HeaderAttribute] Offset: 0xD45B1C
     // private Signal _signal
     // Size: 0x8
     // Offset: 0x10
@@ -72,16 +72,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EventAudioBinding
     EventAudioBinding(GlobalNamespace::Signal* signal_ = {}, float delay_ = {}, ::Array<UnityEngine::AudioClip*>* audioClips_ = {}, GlobalNamespace::AudioClipQueue* audioClipQueue_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomObjectPicker_ = {}) noexcept : signal{signal_}, delay{delay_}, audioClips{audioClips_}, audioClipQueue{audioClipQueue_}, randomObjectPicker{randomObjectPicker_} {}
     // public System.Void Init(AudioClipQueue audioClipQueue)
-    // Offset: 0xF0AF9C
+    // Offset: 0xFB3C00
     void Init(GlobalNamespace::AudioClipQueue* audioClipQueue);
     // public System.Void Deinit()
-    // Offset: 0xF0B0E8
+    // Offset: 0xFB3D4C
     void Deinit();
     // private System.Void HandleGameEvent()
-    // Offset: 0xF0B17C
+    // Offset: 0xFB3DE0
     void HandleGameEvent();
     // public System.Void .ctor()
-    // Offset: 0xF0B230
+    // Offset: 0xFB3E94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

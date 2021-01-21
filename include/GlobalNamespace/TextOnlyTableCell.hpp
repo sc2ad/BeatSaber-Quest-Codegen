@@ -60,26 +60,26 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TextOnlyTableCell
     TextOnlyTableCell(UnityEngine::Color selectedHighlightColor_ = {}, TMPro::TextMeshProUGUI* text_ = {}, HMUI::ImageView* bgImage_ = {}, HMUI::ImageView* highlightImage_ = {}) noexcept : selectedHighlightColor{selectedHighlightColor_}, text{text_}, bgImage{bgImage_}, highlightImage{highlightImage_} {}
     // public System.String get_text()
-    // Offset: 0xFED074
+    // Offset: 0xF45AFC
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0xFED090
+    // Offset: 0xF45B18
     void set_text(::Il2CppString* value);
     // private System.Void RefreshVisuals()
-    // Offset: 0xFED0B0
+    // Offset: 0xF45B38
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0xFED0AC
+    // Offset: 0xF45B34
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0xFED178
+    // Offset: 0xF45C00
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0xFED17C
+    // Offset: 0xF45C04
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

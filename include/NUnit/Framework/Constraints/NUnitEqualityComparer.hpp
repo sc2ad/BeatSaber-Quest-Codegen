@@ -93,7 +93,7 @@ namespace NUnit::Framework::Constraints {
     System::Collections::Generic::List_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* failurePoints;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDB34FC
+    // [CompilerGeneratedAttribute] Offset: 0xD252F8
     // private System.Boolean <WithSameOffset>k__BackingField
     // Size: 0x1
     // Offset: 0x28
@@ -111,52 +111,52 @@ namespace NUnit::Framework::Constraints {
     // Set static field: static private readonly System.Type GameObjectType
     static void _set_GameObjectType(System::Type* value);
     // public System.Boolean get_IgnoreCase()
-    // Offset: 0x13DCD28
+    // Offset: 0x1699848
     bool get_IgnoreCase();
     // public System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint> get_FailurePoints()
-    // Offset: 0x13DCD60
+    // Offset: 0x1699880
     System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* get_FailurePoints();
     // public System.Boolean get_WithSameOffset()
-    // Offset: 0x13E2598
+    // Offset: 0x169F0B8
     bool get_WithSameOffset();
     // public System.Boolean AreEqual(System.Object x, System.Object y, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x13DB148
+    // Offset: 0x1697C68
     bool AreEqual(::Il2CppObject* x, ::Il2CppObject* y, NUnit::Framework::Constraints::Tolerance*& tolerance);
     // static private System.Reflection.MethodInfo FirstImplementsIEquatableOfSecond(System.Type first, System.Type second)
-    // Offset: 0x13E3C94
+    // Offset: 0x16A07B4
     static System::Reflection::MethodInfo* FirstImplementsIEquatableOfSecond(System::Type* first, System::Type* second);
     // static private System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Reflection.MethodInfo>> GetEquatableGenericArguments(System.Type type)
-    // Offset: 0x13E4784
+    // Offset: 0x16A12A4
     static System::Collections::Generic::IList_1<System::Collections::Generic::KeyValuePair_2<System::Type*, System::Reflection::MethodInfo*>>* GetEquatableGenericArguments(System::Type* type);
     // static private System.Boolean InvokeFirstIEquatableEqualsSecond(System.Object first, System.Object second, System.Reflection.MethodInfo equals)
-    // Offset: 0x13E3F98
+    // Offset: 0x16A0AB8
     static bool InvokeFirstIEquatableEqualsSecond(::Il2CppObject* first, ::Il2CppObject* second, System::Reflection::MethodInfo* equals);
     // private NUnit.Framework.Constraints.EqualityAdapter GetExternalComparer(System.Object x, System.Object y)
-    // Offset: 0x13E25A0
+    // Offset: 0x169F0C0
     NUnit::Framework::Constraints::EqualityAdapter* GetExternalComparer(::Il2CppObject* x, ::Il2CppObject* y);
     // private System.Boolean ArraysEqual(System.Array x, System.Array y, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x13E26CC
+    // Offset: 0x169F1EC
     bool ArraysEqual(System::Array* x, System::Array* y, NUnit::Framework::Constraints::Tolerance*& tolerance);
     // private System.Boolean DictionariesEqual(System.Collections.IDictionary x, System.Collections.IDictionary y, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x13E27AC
+    // Offset: 0x169F2CC
     bool DictionariesEqual(System::Collections::IDictionary* x, System::Collections::IDictionary* y, NUnit::Framework::Constraints::Tolerance*& tolerance);
     // private System.Boolean DictionaryEntriesEqual(System.Collections.DictionaryEntry x, System.Collections.DictionaryEntry y, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x13E2DCC
+    // Offset: 0x169F8EC
     bool DictionaryEntriesEqual(System::Collections::DictionaryEntry x, System::Collections::DictionaryEntry y, NUnit::Framework::Constraints::Tolerance*& tolerance);
     // private System.Boolean StringsEqual(System.String x, System.String y)
-    // Offset: 0x13E2EF0
+    // Offset: 0x169FA10
     bool StringsEqual(::Il2CppString* x, ::Il2CppString* y);
     // private System.Boolean CharsEqual(System.Char x, System.Char y)
-    // Offset: 0x13E35B8
+    // Offset: 0x16A00D8
     bool CharsEqual(::Il2CppChar x, ::Il2CppChar y);
     // private System.Boolean EnumerablesEqual(System.Collections.IEnumerable x, System.Collections.IEnumerable y, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x13E4148
+    // Offset: 0x16A0C68
     bool EnumerablesEqual(System::Collections::IEnumerable* x, System::Collections::IEnumerable* y, NUnit::Framework::Constraints::Tolerance*& tolerance);
     // static private System.Boolean DirectoriesEqual(System.IO.DirectoryInfo x, System.IO.DirectoryInfo y)
-    // Offset: 0x13E367C
+    // Offset: 0x16A019C
     static bool DirectoriesEqual(System::IO::DirectoryInfo* x, System::IO::DirectoryInfo* y);
     // private System.Boolean StreamsEqual(System.IO.Stream x, System.IO.Stream y)
-    // Offset: 0x13E2F68
+    // Offset: 0x169FA88
     bool StreamsEqual(System::IO::Stream* x, System::IO::Stream* y);
     // static System.Void CheckGameObjectReference(ref T value)
     // Offset: 0xFFFFFFFF
@@ -168,10 +168,10 @@ namespace NUnit::Framework::Constraints {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, value);
     }
     // static private System.Void .cctor()
-    // Offset: 0x13E49F8
+    // Offset: 0x16A1518
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13DCC88
+    // Offset: 0x16997A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

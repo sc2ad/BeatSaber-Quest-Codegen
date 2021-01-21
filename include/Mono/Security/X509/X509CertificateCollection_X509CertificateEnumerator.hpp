@@ -45,30 +45,30 @@ namespace Mono::Security::X509 {
       return enumerator;
     }
     // public System.Void .ctor(Mono.Security.X509.X509CertificateCollection mappings)
-    // Offset: 0x19C3A94
+    // Offset: 0x229239C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateCollection::X509CertificateEnumerator* New_ctor(Mono::Security::X509::X509CertificateCollection* mappings) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509CertificateCollection::X509CertificateEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateCollection::X509CertificateEnumerator*, creationType>(mappings)));
     }
     // public Mono.Security.X509.X509Certificate get_Current()
-    // Offset: 0x19C3BBC
+    // Offset: 0x22924C4
     Mono::Security::X509::X509Certificate* get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x19C3EC8
+    // Offset: 0x22927D0
     bool MoveNext();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x19C3CB0
+    // Offset: 0x22925B8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x19C3D64
+    // Offset: 0x229266C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x19C3E14
+    // Offset: 0x229271C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();

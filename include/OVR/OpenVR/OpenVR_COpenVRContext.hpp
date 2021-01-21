@@ -131,52 +131,52 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: COpenVRContext
     COpenVRContext(OVR::OpenVR::CVRSystem* m_pVRSystem_ = {}, OVR::OpenVR::CVRChaperone* m_pVRChaperone_ = {}, OVR::OpenVR::CVRChaperoneSetup* m_pVRChaperoneSetup_ = {}, OVR::OpenVR::CVRCompositor* m_pVRCompositor_ = {}, OVR::OpenVR::CVROverlay* m_pVROverlay_ = {}, OVR::OpenVR::CVRRenderModels* m_pVRRenderModels_ = {}, OVR::OpenVR::CVRExtendedDisplay* m_pVRExtendedDisplay_ = {}, OVR::OpenVR::CVRSettings* m_pVRSettings_ = {}, OVR::OpenVR::CVRApplications* m_pVRApplications_ = {}, OVR::OpenVR::CVRScreenshots* m_pVRScreenshots_ = {}, OVR::OpenVR::CVRTrackedCamera* m_pVRTrackedCamera_ = {}, OVR::OpenVR::CVRInput* m_pVRInput_ = {}, OVR::OpenVR::CVRSpatialAnchors* m_pVRSpatialAnchors_ = {}) noexcept : m_pVRSystem{m_pVRSystem_}, m_pVRChaperone{m_pVRChaperone_}, m_pVRChaperoneSetup{m_pVRChaperoneSetup_}, m_pVRCompositor{m_pVRCompositor_}, m_pVROverlay{m_pVROverlay_}, m_pVRRenderModels{m_pVRRenderModels_}, m_pVRExtendedDisplay{m_pVRExtendedDisplay_}, m_pVRSettings{m_pVRSettings_}, m_pVRApplications{m_pVRApplications_}, m_pVRScreenshots{m_pVRScreenshots_}, m_pVRTrackedCamera{m_pVRTrackedCamera_}, m_pVRInput{m_pVRInput_}, m_pVRSpatialAnchors{m_pVRSpatialAnchors_} {}
     // public System.Void Clear()
-    // Offset: 0x10684FC
+    // Offset: 0x11A3004
     void Clear();
     // private System.Void CheckClear()
-    // Offset: 0x1068648
+    // Offset: 0x11A3150
     void CheckClear();
     // public OVR.OpenVR.CVRSystem VRSystem()
-    // Offset: 0x10673CC
+    // Offset: 0x11A1ED4
     OVR::OpenVR::CVRSystem* VRSystem();
     // public OVR.OpenVR.CVRChaperone VRChaperone()
-    // Offset: 0x10674F8
+    // Offset: 0x11A2000
     OVR::OpenVR::CVRChaperone* VRChaperone();
     // public OVR.OpenVR.CVRChaperoneSetup VRChaperoneSetup()
-    // Offset: 0x1067624
+    // Offset: 0x11A212C
     OVR::OpenVR::CVRChaperoneSetup* VRChaperoneSetup();
     // public OVR.OpenVR.CVRCompositor VRCompositor()
-    // Offset: 0x1067750
+    // Offset: 0x11A2258
     OVR::OpenVR::CVRCompositor* VRCompositor();
     // public OVR.OpenVR.CVROverlay VROverlay()
-    // Offset: 0x106787C
+    // Offset: 0x11A2384
     OVR::OpenVR::CVROverlay* VROverlay();
     // public OVR.OpenVR.CVRRenderModels VRRenderModels()
-    // Offset: 0x10679A8
+    // Offset: 0x11A24B0
     OVR::OpenVR::CVRRenderModels* VRRenderModels();
     // public OVR.OpenVR.CVRExtendedDisplay VRExtendedDisplay()
-    // Offset: 0x1067AD4
+    // Offset: 0x11A25DC
     OVR::OpenVR::CVRExtendedDisplay* VRExtendedDisplay();
     // public OVR.OpenVR.CVRSettings VRSettings()
-    // Offset: 0x1067C00
+    // Offset: 0x11A2708
     OVR::OpenVR::CVRSettings* VRSettings();
     // public OVR.OpenVR.CVRApplications VRApplications()
-    // Offset: 0x1067D2C
+    // Offset: 0x11A2834
     OVR::OpenVR::CVRApplications* VRApplications();
     // public OVR.OpenVR.CVRScreenshots VRScreenshots()
-    // Offset: 0x1067E58
+    // Offset: 0x11A2960
     OVR::OpenVR::CVRScreenshots* VRScreenshots();
     // public OVR.OpenVR.CVRTrackedCamera VRTrackedCamera()
-    // Offset: 0x1067F84
+    // Offset: 0x11A2A8C
     OVR::OpenVR::CVRTrackedCamera* VRTrackedCamera();
     // public OVR.OpenVR.CVRInput VRInput()
-    // Offset: 0x10680B0
+    // Offset: 0x11A2BB8
     OVR::OpenVR::CVRInput* VRInput();
     // public OVR.OpenVR.CVRSpatialAnchors VRSpatialAnchors()
-    // Offset: 0x10681DC
+    // Offset: 0x11A2CE4
     OVR::OpenVR::CVRSpatialAnchors* VRSpatialAnchors();
     // public System.Void .ctor()
-    // Offset: 0x106733C
+    // Offset: 0x11A1E44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

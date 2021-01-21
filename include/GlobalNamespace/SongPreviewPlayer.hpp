@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class SongPreviewPlayer : public UnityEngine::MonoBehaviour {
     public:
-    // [TooltipAttribute] Offset: 0xDC1C44
+    // [TooltipAttribute] Offset: 0xD33B08
     // private System.Int32 _channelsCount
     // Size: 0x4
     // Offset: 0x18
@@ -116,31 +116,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_volume()
-    // Offset: 0xF3ABE8
+    // Offset: 0xF71A10
     float get_volume();
     // public System.Void set_volume(System.Single value)
-    // Offset: 0xF3ABF0
+    // Offset: 0xF71A18
     void set_volume(float value);
     // protected System.Void OnEnable()
-    // Offset: 0xF3ABF8
+    // Offset: 0xF71A20
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xF3AFFC
+    // Offset: 0xF71E24
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0xF3B128
+    // Offset: 0xF71F50
     void Update();
     // public System.Void CrossfadeTo(UnityEngine.AudioClip audioClip, System.Single startTime, System.Single duration, System.Single volumeScale)
-    // Offset: 0xF3AE74
+    // Offset: 0xF71C9C
     void CrossfadeTo(UnityEngine::AudioClip* audioClip, float startTime, float duration, float volumeScale);
     // public System.Void FadeOut()
-    // Offset: 0xF3B2F4
+    // Offset: 0xF7211C
     void FadeOut();
     // public System.Void CrossfadeToDefault()
-    // Offset: 0xF3B30C
+    // Offset: 0xF72134
     void CrossfadeToDefault();
     // public System.Void .ctor()
-    // Offset: 0xF3B46C
+    // Offset: 0xF72294
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -117,59 +117,59 @@ namespace System::Net {
     // Set static field: static private readonly System.Text.Encoding ansiEncoding
     static void _set_ansiEncoding(System::Text::Encoding* value);
     // static private System.Void .cctor()
-    // Offset: 0x12B1630
+    // Offset: 0x15003C4
     static void _cctor();
     // private System.Void .ctor(System.String rawUri, System.String cookedUriScheme, System.String cookedUriHost, System.String cookedUriPath, System.String cookedUriQuery)
-    // Offset: 0x12B1794
+    // Offset: 0x1500528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerRequestUriBuilder* New_ctor(::Il2CppString* rawUri, ::Il2CppString* cookedUriScheme, ::Il2CppString* cookedUriHost, ::Il2CppString* cookedUriPath, ::Il2CppString* cookedUriQuery) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerRequestUriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerRequestUriBuilder*, creationType>(rawUri, cookedUriScheme, cookedUriHost, cookedUriPath, cookedUriQuery)));
     }
     // static public System.Uri GetRequestUri(System.String rawUri, System.String cookedUriScheme, System.String cookedUriHost, System.String cookedUriPath, System.String cookedUriQuery)
-    // Offset: 0x12B1354
+    // Offset: 0x15000E8
     static System::Uri* GetRequestUri(::Il2CppString* rawUri, ::Il2CppString* cookedUriScheme, ::Il2CppString* cookedUriHost, ::Il2CppString* cookedUriPath, ::Il2CppString* cookedUriQuery);
     // private System.Uri Build()
-    // Offset: 0x12B1928
+    // Offset: 0x15006BC
     System::Uri* Build();
     // private System.Void BuildRequestUriUsingCookedPath()
-    // Offset: 0x12B1A40
+    // Offset: 0x15007D4
     void BuildRequestUriUsingCookedPath();
     // private System.Void BuildRequestUriUsingRawPath()
-    // Offset: 0x12B1D38
+    // Offset: 0x1500ACC
     void BuildRequestUriUsingRawPath();
     // static private System.Text.Encoding GetEncoding(System.Net.HttpListenerRequestUriBuilder/EncodingType type)
-    // Offset: 0x12B22CC
+    // Offset: 0x1501060
     static System::Text::Encoding* GetEncoding(System::Net::HttpListenerRequestUriBuilder::EncodingType type);
     // private System.Net.HttpListenerRequestUriBuilder/ParsingResult BuildRequestUriUsingRawPath(System.Text.Encoding encoding)
-    // Offset: 0x12B2364
+    // Offset: 0x15010F8
     System::Net::HttpListenerRequestUriBuilder::ParsingResult BuildRequestUriUsingRawPath(System::Text::Encoding* encoding);
     // private System.Net.HttpListenerRequestUriBuilder/ParsingResult ParseRawPath(System.Text.Encoding encoding)
-    // Offset: 0x12B25E4
+    // Offset: 0x1501378
     System::Net::HttpListenerRequestUriBuilder::ParsingResult ParseRawPath(System::Text::Encoding* encoding);
     // private System.Boolean AppendUnicodeCodePointValuePercentEncoded(System.String codePoint)
-    // Offset: 0x12B2AC0
+    // Offset: 0x1501854
     bool AppendUnicodeCodePointValuePercentEncoded(::Il2CppString* codePoint);
     // private System.Boolean AddPercentEncodedOctetToRawOctetsList(System.Text.Encoding encoding, System.String escapedCharacter)
-    // Offset: 0x12B2D9C
+    // Offset: 0x1501B30
     bool AddPercentEncodedOctetToRawOctetsList(System::Text::Encoding* encoding, ::Il2CppString* escapedCharacter);
     // private System.Boolean EmptyDecodeAndAppendRawOctetsList(System.Text.Encoding encoding)
-    // Offset: 0x12B2738
+    // Offset: 0x15014CC
     bool EmptyDecodeAndAppendRawOctetsList(System::Text::Encoding* encoding);
     // static private System.Void AppendOctetsPercentEncoded(System.Text.StringBuilder target, System.Collections.Generic.IEnumerable`1<System.Byte> octets)
-    // Offset: 0x12B2EC4
+    // Offset: 0x1501C58
     static void AppendOctetsPercentEncoded(System::Text::StringBuilder* target, System::Collections::Generic::IEnumerable_1<uint8_t>* octets);
     // static private System.String GetOctetsAsString(System.Collections.Generic.IEnumerable`1<System.Byte> octets)
-    // Offset: 0x12B31B4
+    // Offset: 0x1501F48
     static ::Il2CppString* GetOctetsAsString(System::Collections::Generic::IEnumerable_1<uint8_t>* octets);
     // static private System.String GetPath(System.String uriString)
-    // Offset: 0x12B2170
+    // Offset: 0x1500F04
     static ::Il2CppString* GetPath(::Il2CppString* uriString);
     // static private System.String AddSlashToAsteriskOnlyPath(System.String path)
-    // Offset: 0x12B18A4
+    // Offset: 0x1500638
     static ::Il2CppString* AddSlashToAsteriskOnlyPath(::Il2CppString* path);
     // private System.Void LogWarning(System.String methodName, System.String message, params System.Object[] args)
-    // Offset: 0x12B2134
+    // Offset: 0x1500EC8
     void LogWarning(::Il2CppString* methodName, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void LogWarning(System.String methodName, System.String message, params System.Object[] args)
     void LogWarning(::Il2CppString* methodName, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);

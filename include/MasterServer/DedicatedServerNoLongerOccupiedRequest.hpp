@@ -38,14 +38,14 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDAA514
+    // [CompilerGeneratedAttribute] Offset: 0xD1C10C
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* dedicatedServerId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDAA524
+    // [CompilerGeneratedAttribute] Offset: 0xD1C11C
     // private System.Int64 <dedicatedServerCreationTime>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -67,29 +67,29 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static public PacketPool`1<MasterServer.DedicatedServerNoLongerOccupiedRequest> get_pool()
-    // Offset: 0x1AD5400
+    // Offset: 0x111B650
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerNoLongerOccupiedRequest*>* get_pool();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x1AD5450
+    // Offset: 0x111B6A0
     void set_dedicatedServerId(::Il2CppString* value);
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x1AD5460
+    // Offset: 0x111B6B0
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerNoLongerOccupiedRequest Init(System.String dedicatedServerId, System.String id)
-    // Offset: 0x1AD5574
+    // Offset: 0x111B7C4
     MasterServer::DedicatedServerNoLongerOccupiedRequest* Init(::Il2CppString* dedicatedServerId, ::Il2CppString* id);
     // public System.String get_dedicatedServerId()
-    // Offset: 0x1AD5448
+    // Offset: 0x111B698
     // Implemented from: MasterServer.IDedicatedServerClientToServerMessage
     // Base method: System.String IDedicatedServerClientToServerMessage::get_dedicatedServerId()
     ::Il2CppString* get_dedicatedServerId();
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x1AD5458
+    // Offset: 0x111B6A8
     // Implemented from: MasterServer.IDedicatedServerClientToServerMessage
     // Base method: System.Int64 IDedicatedServerClientToServerMessage::get_dedicatedServerCreationTime()
     int64_t get_dedicatedServerCreationTime();
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1AD5468
+    // Offset: 0x111B6B8
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -97,7 +97,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1AD54B4
+    // Offset: 0x111B704
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -105,12 +105,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x1AD5518
+    // Offset: 0x111B768
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1AD55B0
+    // Offset: 0x111B800
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

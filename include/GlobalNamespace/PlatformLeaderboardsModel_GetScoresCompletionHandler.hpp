@@ -33,20 +33,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GetScoresCompletionHandler
     GetScoresCompletionHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF09FFC
+    // Offset: 0xFB2AFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformLeaderboardsModel::GetScoresCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformLeaderboardsModel::GetScoresCompletionHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0xF0A56C
+    // Offset: 0xFB31B4
     void Invoke(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>* scores, int referencePlayerScoreIndex);
     // public System.IAsyncResult BeginInvoke(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 referencePlayerScoreIndex, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF0AD38
+    // Offset: 0xFB3994
     System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>* scores, int referencePlayerScoreIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xF0ADF0
+    // Offset: 0xFB3A4C
     void EndInvoke(System::IAsyncResult* result);
   }; // PlatformLeaderboardsModel/GetScoresCompletionHandler
   #pragma pack(pop)

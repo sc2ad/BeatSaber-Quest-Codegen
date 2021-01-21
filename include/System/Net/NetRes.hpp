@@ -23,10 +23,10 @@ namespace System::Net {
     // Creating value type constructor for type: NetRes
     NetRes() noexcept {}
     // static public System.String GetWebStatusString(System.String Res, System.Net.WebExceptionStatus Status)
-    // Offset: 0x12C07B8
+    // Offset: 0x150F54C
     static ::Il2CppString* GetWebStatusString(::Il2CppString* Res, System::Net::WebExceptionStatus Status);
     // static public System.String GetWebStatusString(System.Net.WebExceptionStatus Status)
-    // Offset: 0x12C0884
+    // Offset: 0x150F618
     static ::Il2CppString* GetWebStatusString(System::Net::WebExceptionStatus Status);
   }; // System.Net.NetRes
   #pragma pack(pop)

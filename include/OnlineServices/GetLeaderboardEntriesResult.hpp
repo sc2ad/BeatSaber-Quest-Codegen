@@ -58,11 +58,11 @@ namespace OnlineServices {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Boolean isError, OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0xC91DD8
+    // Offset: 0xDF21BC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GetLeaderboardEntriesResult(bool isError, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries, int referencePlayerScoreIndex)
     // static public OnlineServices.GetLeaderboardEntriesResult get_resultWithError()
-    // Offset: 0xEFDC78
+    // Offset: 0xF1A0F8
     static OnlineServices::GetLeaderboardEntriesResult get_resultWithError();
   }; // OnlineServices.GetLeaderboardEntriesResult
   #pragma pack(pop)

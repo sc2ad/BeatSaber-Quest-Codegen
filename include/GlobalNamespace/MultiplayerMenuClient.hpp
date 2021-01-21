@@ -28,14 +28,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerMenuClient : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xDCED80
+    // [InjectAttribute] Offset: 0xD4103C
     // private readonly MenuPlayerController _menuPlayerController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MenuPlayerController* menuPlayerController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuPlayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCED90
+    // [InjectAttribute] Offset: 0xD4104C
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x20
@@ -47,10 +47,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void LateUpdate()
-    // Offset: 0xF73B04
+    // Offset: 0xFE5E94
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xF73F24
+    // Offset: 0xFE62B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

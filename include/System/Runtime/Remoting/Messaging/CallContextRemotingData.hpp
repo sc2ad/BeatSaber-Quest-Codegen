@@ -36,16 +36,16 @@ namespace System::Runtime::Remoting::Messaging {
       return logicalCallID;
     }
     // System.String get_LogicalCallID()
-    // Offset: 0x117AC98
+    // Offset: 0x132169C
     ::Il2CppString* get_LogicalCallID();
     // System.Void set_LogicalCallID(System.String value)
-    // Offset: 0x117ACA0
+    // Offset: 0x13216A4
     void set_LogicalCallID(::Il2CppString* value);
     // System.Boolean get_HasInfo()
-    // Offset: 0x117ACA8
+    // Offset: 0x13216AC
     bool get_HasInfo();
     // public System.Object Clone()
-    // Offset: 0x117ACB8
+    // Offset: 0x13216BC
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
@@ -53,7 +53,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public System.Void .ctor()
-    // Offset: 0x117AD30
+    // Offset: 0x1321734
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

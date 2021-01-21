@@ -80,7 +80,7 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(System::Text::RegularExpressions::RegexOptions) == 0x4);
     // Padding between fields: roptions and: internalMatchTimeout
     char __padding2[0x4] = {};
-    // [OptionalFieldAttribute] Offset: 0xD45F5C
+    // [OptionalFieldAttribute] Offset: 0xCB7B10
     // protected internal System.TimeSpan internalMatchTimeout
     // Size: 0x8
     // Offset: 0x28
@@ -168,104 +168,104 @@ namespace System::Text::RegularExpressions {
     // Set static field: static System.Int32 cacheSize
     static void _set_cacheSize(int value);
     // public System.Void .ctor(System.String pattern)
-    // Offset: 0x146EBD8
+    // Offset: 0x1783610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Regex* New_ctor(::Il2CppString* pattern) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::Regex::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Regex*, creationType>(pattern)));
     }
     // public System.Void .ctor(System.String pattern, System.Text.RegularExpressions.RegexOptions options)
-    // Offset: 0x146F0F0
+    // Offset: 0x1783B28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Regex* New_ctor(::Il2CppString* pattern, System::Text::RegularExpressions::RegexOptions options) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::Regex::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Regex*, creationType>(pattern, options)));
     }
     // private System.Void .ctor(System.String pattern, System.Text.RegularExpressions.RegexOptions options, System.TimeSpan matchTimeout, System.Boolean useCache)
-    // Offset: 0x146EC60
+    // Offset: 0x1783698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Regex* New_ctor(::Il2CppString* pattern, System::Text::RegularExpressions::RegexOptions options, System::TimeSpan matchTimeout, bool useCache) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::Regex::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Regex*, creationType>(pattern, options, matchTimeout, useCache)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x146FA08
+    // Offset: 0x1784440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Regex* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::Regex::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Regex*, creationType>(info, context)));
     }
     // static protected internal System.Void ValidateMatchTimeout(System.TimeSpan matchTimeout)
-    // Offset: 0x146F17C
+    // Offset: 0x1783BB4
     static void ValidateMatchTimeout(System::TimeSpan matchTimeout);
     // static private System.TimeSpan InitDefaultMatchTimeout()
-    // Offset: 0x146FC38
+    // Offset: 0x1784670
     static System::TimeSpan InitDefaultMatchTimeout();
     // public System.Text.RegularExpressions.RegexOptions get_Options()
-    // Offset: 0x146FE90
+    // Offset: 0x17848C8
     System::Text::RegularExpressions::RegexOptions get_Options();
     // public System.TimeSpan get_MatchTimeout()
-    // Offset: 0x146FE98
+    // Offset: 0x17848D0
     System::TimeSpan get_MatchTimeout();
     // public System.Boolean get_RightToLeft()
-    // Offset: 0x146FEA0
+    // Offset: 0x17848D8
     bool get_RightToLeft();
     // public System.String GroupNameFromNumber(System.Int32 i)
-    // Offset: 0x146D3D0
+    // Offset: 0x1781E08
     ::Il2CppString* GroupNameFromNumber(int i);
     // static public System.Boolean IsMatch(System.String input, System.String pattern)
-    // Offset: 0x146FEC0
+    // Offset: 0x17848F8
     static bool IsMatch(::Il2CppString* input, ::Il2CppString* pattern);
     // static public System.Boolean IsMatch(System.String input, System.String pattern, System.Text.RegularExpressions.RegexOptions options, System.TimeSpan matchTimeout)
-    // Offset: 0x146FF44
+    // Offset: 0x178497C
     static bool IsMatch(::Il2CppString* input, ::Il2CppString* pattern, System::Text::RegularExpressions::RegexOptions options, System::TimeSpan matchTimeout);
     // public System.Boolean IsMatch(System.String input)
-    // Offset: 0x146FFD8
+    // Offset: 0x1784A10
     bool IsMatch(::Il2CppString* input);
     // public System.Boolean IsMatch(System.String input, System.Int32 startat)
-    // Offset: 0x1470080
+    // Offset: 0x1784AB8
     bool IsMatch(::Il2CppString* input, int startat);
     // static public System.Text.RegularExpressions.Match Match(System.String input, System.String pattern)
-    // Offset: 0x1470138
+    // Offset: 0x1784B70
     static System::Text::RegularExpressions::Match* Match(::Il2CppString* input, ::Il2CppString* pattern);
     // static public System.Text.RegularExpressions.Match Match(System.String input, System.String pattern, System.Text.RegularExpressions.RegexOptions options, System.TimeSpan matchTimeout)
-    // Offset: 0x14701BC
+    // Offset: 0x1784BF4
     static System::Text::RegularExpressions::Match* Match(::Il2CppString* input, ::Il2CppString* pattern, System::Text::RegularExpressions::RegexOptions options, System::TimeSpan matchTimeout);
     // public System.Text.RegularExpressions.Match Match(System.String input)
-    // Offset: 0x1470250
+    // Offset: 0x1784C88
     System::Text::RegularExpressions::Match* Match(::Il2CppString* input);
     // public System.Text.RegularExpressions.Match Match(System.String input, System.Int32 startat)
-    // Offset: 0x14702F8
+    // Offset: 0x1784D30
     System::Text::RegularExpressions::Match* Match(::Il2CppString* input, int startat);
     // public System.String Replace(System.String input, System.Text.RegularExpressions.MatchEvaluator evaluator)
-    // Offset: 0x14703A4
+    // Offset: 0x1784DDC
     ::Il2CppString* Replace(::Il2CppString* input, System::Text::RegularExpressions::MatchEvaluator* evaluator);
     // public System.String Replace(System.String input, System.Text.RegularExpressions.MatchEvaluator evaluator, System.Int32 count, System.Int32 startat)
-    // Offset: 0x1470458
+    // Offset: 0x1784E90
     ::Il2CppString* Replace(::Il2CppString* input, System::Text::RegularExpressions::MatchEvaluator* evaluator, int count, int startat);
     // protected System.Void InitializeReferences()
-    // Offset: 0x146F524
+    // Offset: 0x1783F5C
     void InitializeReferences();
     // System.Text.RegularExpressions.Match Run(System.Boolean quick, System.Int32 prevlen, System.String input, System.Int32 beginning, System.Int32 length, System.Int32 startat)
-    // Offset: 0x146DB78
+    // Offset: 0x17825B0
     System::Text::RegularExpressions::Match* Run(bool quick, int prevlen, ::Il2CppString* input, int beginning, int length, int startat);
     // static private System.Text.RegularExpressions.CachedCodeEntry LookupCachedAndUpdate(System.String key)
-    // Offset: 0x146F2EC
+    // Offset: 0x1783D24
     static System::Text::RegularExpressions::CachedCodeEntry* LookupCachedAndUpdate(::Il2CppString* key);
     // private System.Text.RegularExpressions.CachedCodeEntry CacheCode(System.String key)
-    // Offset: 0x146F618
+    // Offset: 0x1784050
     System::Text::RegularExpressions::CachedCodeEntry* CacheCode(::Il2CppString* key);
     // protected System.Boolean UseOptionR()
-    // Offset: 0x146FEAC
+    // Offset: 0x17848E4
     bool UseOptionR();
     // System.Boolean UseOptionInvariant()
-    // Offset: 0x1470510
+    // Offset: 0x1784F48
     bool UseOptionInvariant();
     // static private System.Void .cctor()
-    // Offset: 0x147051C
+    // Offset: 0x1784F54
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x146EB5C
+    // Offset: 0x1783594
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -274,12 +274,12 @@ namespace System::Text::RegularExpressions {
       return THROW_UNLESS((::il2cpp_utils::New<Regex*, creationType>()));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x146FB64
+    // Offset: 0x178459C
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* si, System::Runtime::Serialization::StreamingContext context);
     // public override System.String ToString()
-    // Offset: 0x146FEB8
+    // Offset: 0x17848F0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

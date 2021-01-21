@@ -84,14 +84,14 @@ namespace GlobalNamespace {
     GlobalNamespace::TrackLaneRingsRotationEffect* trackLaneRingsRotationEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TrackLaneRingsRotationEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDC76E8
+    // [SpaceAttribute] Offset: 0xD39724
     // private BeatmapEventType _beatmapEventType
     // Size: 0x4
     // Offset: 0x20
     GlobalNamespace::BeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xDC7720
+    // [SpaceAttribute] Offset: 0xD3975C
     // private System.Single _rotation
     // Size: 0x4
     // Offset: 0x24
@@ -122,7 +122,7 @@ namespace GlobalNamespace {
     float rotationFlexySpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xDC7798
+    // [InjectAttribute] Offset: 0xD397D4
     // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x38
@@ -134,16 +134,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xFEE498
+    // Offset: 0xF46F20
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFEE52C
+    // Offset: 0xF46FB4
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xFEE608
+    // Offset: 0xF47090
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0xFEE704
+    // Offset: 0xF4718C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

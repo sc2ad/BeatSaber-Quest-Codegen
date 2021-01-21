@@ -31,19 +31,19 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: RuntimeHelpers
     RuntimeHelpers() noexcept {}
     // static private System.Void InitializeArray(System.Array array, System.IntPtr fldHandle)
-    // Offset: 0x116328C
+    // Offset: 0x1309C90
     static void InitializeArray(System::Array* array, System::IntPtr fldHandle);
     // static public System.Void InitializeArray(System.Array array, System.RuntimeFieldHandle fldHandle)
-    // Offset: 0x1163290
+    // Offset: 0x1309C94
     static void InitializeArray(System::Array* array, System::RuntimeFieldHandle fldHandle);
     // static public System.Int32 get_OffsetToStringData()
-    // Offset: 0x116332C
+    // Offset: 0x1309D30
     static int get_OffsetToStringData();
     // static public System.Int32 GetHashCode(System.Object o)
-    // Offset: 0x1163330
+    // Offset: 0x1309D34
     static int GetHashCode(::Il2CppObject* o);
     // static public System.Void PrepareConstrainedRegions()
-    // Offset: 0x1163338
+    // Offset: 0x1309D3C
     static void PrepareConstrainedRegions();
     // static public System.Boolean IsReferenceOrContainsReferences()
     // Offset: 0xFFFFFFFF

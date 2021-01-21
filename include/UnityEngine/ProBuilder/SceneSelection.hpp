@@ -74,56 +74,56 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::SceneSelection*>*>(this);
     }
     // public System.Void .ctor(UnityEngine.GameObject gameObject)
-    // Offset: 0x13C56F8
+    // Offset: 0x1666724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneSelection* New_ctor(UnityEngine::GameObject* gameObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::SceneSelection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneSelection*, creationType>(gameObject)));
     }
     // public System.Void .ctor(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 vertex)
-    // Offset: 0x13C572C
+    // Offset: 0x1666758
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneSelection* New_ctor(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int vertex) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::SceneSelection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneSelection*, creationType>(mesh, vertex)));
     }
     // public System.Void .ctor(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0x13C5840
+    // Offset: 0x166686C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneSelection* New_ctor(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge edge) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::SceneSelection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneSelection*, creationType>(mesh, edge)));
     }
     // public System.Void .ctor(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0x13C5928
+    // Offset: 0x1666954
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneSelection* New_ctor(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::SceneSelection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneSelection*, creationType>(mesh, face)));
     }
     // public System.Void Clear()
-    // Offset: 0x13C5A40
+    // Offset: 0x1666A6C
     void Clear();
     // public System.Void CopyTo(UnityEngine.ProBuilder.SceneSelection dst)
-    // Offset: 0x13C5AE8
+    // Offset: 0x1666B14
     void CopyTo(UnityEngine::ProBuilder::SceneSelection* dst);
     // public override System.String ToString()
-    // Offset: 0x13C5B50
+    // Offset: 0x1666B7C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Boolean Equals(UnityEngine.ProBuilder.SceneSelection other)
-    // Offset: 0x13C5D84
+    // Offset: 0x1666DB0
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.ProBuilder.SceneSelection other)
     bool Equals(UnityEngine::ProBuilder::SceneSelection* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x13C5E20
+    // Offset: 0x1666E4C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13C5F30
+    // Offset: 0x1666F5C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -132,10 +132,10 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(SceneSelection), 48 + sizeof(UnityEngine::ProBuilder::Face*)> __UnityEngine_ProBuilder_SceneSelectionSizeCheck;
   static_assert(sizeof(SceneSelection) == 0x38);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.SceneSelection left, UnityEngine.ProBuilder.SceneSelection right)
-  // Offset: 0x13C6070
+  // Offset: 0x166709C
   bool operator ==(UnityEngine::ProBuilder::SceneSelection* left, UnityEngine::ProBuilder::SceneSelection& right);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.SceneSelection left, UnityEngine.ProBuilder.SceneSelection right)
-  // Offset: 0x13C6078
+  // Offset: 0x16670A4
   bool operator !=(UnityEngine::ProBuilder::SceneSelection* left, UnityEngine::ProBuilder::SceneSelection& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SceneSelection*, "UnityEngine.ProBuilder", "SceneSelection");

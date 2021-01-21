@@ -34,10 +34,10 @@ namespace GlobalNamespace {
       return localPositionOffset;
     }
     // public UnityEngine.Vector3 get_localPositionOffset()
-    // Offset: 0xFA5CF4
+    // Offset: 0x1015770
     UnityEngine::Vector3 get_localPositionOffset();
     // public System.Void .ctor()
-    // Offset: 0xFA5D00
+    // Offset: 0x101577C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

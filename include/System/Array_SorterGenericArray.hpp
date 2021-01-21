@@ -54,35 +54,35 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void .ctor(System.Array keys, System.Array items, System.Collections.IComparer comparer)
-    // Offset: 0xE8B4C4
+    // Offset: 0xE0B84C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  SorterGenericArray(System::Array* keys, System::Array* items, System::Collections::IComparer* comparer)
     // System.Void SwapIfGreaterWithItems(System.Int32 a, System.Int32 b)
-    // Offset: 0xE8B4CC
+    // Offset: 0xE0B854
     void SwapIfGreaterWithItems(int a, int b);
     // private System.Void Swap(System.Int32 i, System.Int32 j)
-    // Offset: 0xE8B4D4
+    // Offset: 0xE0B85C
     void Swap(int i, int j);
     // System.Void Sort(System.Int32 left, System.Int32 length)
-    // Offset: 0xE8B4DC
+    // Offset: 0xE0B864
     void Sort(int left, int length);
     // private System.Void IntrospectiveSort(System.Int32 left, System.Int32 length)
-    // Offset: 0xE8B4E4
+    // Offset: 0xE0B86C
     void IntrospectiveSort(int left, int length);
     // private System.Void IntroSort(System.Int32 lo, System.Int32 hi, System.Int32 depthLimit)
-    // Offset: 0xE8B4EC
+    // Offset: 0xE0B874
     void IntroSort(int lo, int hi, int depthLimit);
     // private System.Int32 PickPivotAndPartition(System.Int32 lo, System.Int32 hi)
-    // Offset: 0xE8B4F4
+    // Offset: 0xE0B87C
     int PickPivotAndPartition(int lo, int hi);
     // private System.Void Heapsort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0xE8B4FC
+    // Offset: 0xE0B884
     void Heapsort(int lo, int hi);
     // private System.Void DownHeap(System.Int32 i, System.Int32 n, System.Int32 lo)
-    // Offset: 0xE8B504
+    // Offset: 0xE0B88C
     void DownHeap(int i, int n, int lo);
     // private System.Void InsertionSort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0xE8B50C
+    // Offset: 0xE0B894
     void InsertionSort(int lo, int hi);
   }; // System.Array/SorterGenericArray
   #pragma pack(pop)

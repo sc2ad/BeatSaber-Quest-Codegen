@@ -29,7 +29,7 @@ namespace System::IO {
     // Creating value type constructor for type: NullTextWriter
     NullTextWriter() noexcept {}
     // System.Void .ctor()
-    // Offset: 0x13ADB8C
+    // Offset: 0x164EBB8
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
@@ -40,27 +40,27 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<TextWriter::NullTextWriter*, creationType>()));
     }
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x13AE0F4
+    // Offset: 0x164F120
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x13AE0FC
+    // Offset: 0x164F128
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void Write(System.String value)
-    // Offset: 0x13AE100
+    // Offset: 0x164F12C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String value)
     void Write(::Il2CppString* value);
     // public override System.Void WriteLine()
-    // Offset: 0x13AE104
+    // Offset: 0x164F130
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine()
     void WriteLine();
     // public override System.Void WriteLine(System.String value)
-    // Offset: 0x13AE108
+    // Offset: 0x164F134
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String value)
     void WriteLine(::Il2CppString* value);

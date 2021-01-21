@@ -49,12 +49,6 @@ namespace BeatSaberAPI::DataTransferObjects {
       static BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers _get_None();
       // Set static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers None
       static void _set_None(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers value);
-      // static field const value: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers NoFail
-      static constexpr const uint NoFail = 1u;
-      // Get static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers NoFail
-      static BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers _get_NoFail();
-      // Set static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers NoFail
-      static void _set_NoFail(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers value);
       // static field const value: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers InstaFail
       static constexpr const uint InstaFail = 2u;
       // Get static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers InstaFail
@@ -133,6 +127,12 @@ namespace BeatSaberAPI::DataTransferObjects {
       static BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers _get_GhostNotes();
       // Set static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers GhostNotes
       static void _set_GhostNotes(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers value);
+      // static field const value: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers NoFailOn0Energy
+      static constexpr const uint NoFailOn0Energy = 16384u;
+      // Get static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers NoFailOn0Energy
+      static BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers _get_NoFailOn0Energy();
+      // Set static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers NoFailOn0Energy
+      static void _set_NoFailOn0Energy(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers value);
     }; // BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers
     #pragma pack(pop)
     static check_size<sizeof(LevelScoreResult::GameplayModifiers), 0 + sizeof(uint)> __BeatSaberAPI_DataTransferObjects_LevelScoreResult_GameplayModifiersSizeCheck;
@@ -210,7 +210,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Creating value type constructor for type: LevelScoreResult
     LevelScoreResult(::Il2CppString* leaderboardId_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiers_ = {}, ::Il2CppString* deviceModel_ = {}, ::Il2CppString* extraDataBase64_ = {}) noexcept : leaderboardId{leaderboardId_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_}, deviceModel{deviceModel_}, extraDataBase64{extraDataBase64_} {}
     // public System.Void .ctor()
-    // Offset: 0x1A78D90
+    // Offset: 0x1068BBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -73,27 +73,27 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PCAppInit
     PCAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::OculusInit* oculusInit_ = {}, GlobalNamespace::SteamInit* steamInit_ = {}, GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, ::Il2CppString* goStraightToMenuCommandArgument_ = {}) noexcept : mainSystemInit{mainSystemInit_}, oculusInit{oculusInit_}, steamInit{steamInit_}, defaultScenesTransitionsFromInit{defaultScenesTransitionsFromInit_}, mainSettingsModel{mainSettingsModel_}, goStraightToMenuCommandArgument{goStraightToMenuCommandArgument_} {}
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xF01544
+    // Offset: 0xF1D9C4
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0xF015C8
+    // Offset: 0xF1DA48
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0xF01614
+    // Offset: 0xF1DA94
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0xF01664
+    // Offset: 0xF1DAE4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF01734
+    // Offset: 0xF1DBB4
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()

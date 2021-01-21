@@ -103,7 +103,7 @@ namespace GlobalNamespace {
     float bottomYPosition;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDC8870
+    // [TooltipAttribute] Offset: 0xD3AA1C
     // private System.Single cachedExtent
     // Size: 0x4
     // Offset: 0x50
@@ -112,7 +112,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cachedExtent and: tweeningManager
     char __padding8[0x4] = {};
-    // [InjectAttribute] Offset: 0xDC88BC
+    // [InjectAttribute] Offset: 0xD3AA68
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x58
@@ -165,17 +165,17 @@ namespace GlobalNamespace {
     HologramRays(GlobalNamespace::TubeBloomPrePassLight* bloomLight_ = {}, UnityEngine::MeshRenderer* raysMeshRenderer_ = {}, UnityEngine::Transform* targetTransform_ = {}, UnityEngine::Transform* laserHolderTransform_ = {}, UnityEngine::Transform* hologramRaysTransform_ = {}, UnityEngine::Mesh* hologramRaysMesh_ = {}, float topYPosition_ = {}, float bottomYPosition_ = {}, float cachedExtent_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, Tweening::FloatTween* transitionTween_ = {}, UnityEngine::Color bloomColor_ = {}, UnityEngine::Color bloomTransparentColor_ = {}, float alpha_ = {}, float raysDistance_ = {}, UnityEngine::Vector3 raysLocalScale_ = {}, bool boundsInitialized_ = {}) noexcept : bloomLight{bloomLight_}, raysMeshRenderer{raysMeshRenderer_}, targetTransform{targetTransform_}, laserHolderTransform{laserHolderTransform_}, hologramRaysTransform{hologramRaysTransform_}, hologramRaysMesh{hologramRaysMesh_}, topYPosition{topYPosition_}, bottomYPosition{bottomYPosition_}, cachedExtent{cachedExtent_}, tweeningManager{tweeningManager_}, transitionTween{transitionTween_}, bloomColor{bloomColor_}, bloomTransparentColor{bloomTransparentColor_}, alpha{alpha_}, raysDistance{raysDistance_}, raysLocalScale{raysLocalScale_}, boundsInitialized{boundsInitialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDC88CC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD3AA78
     // Get static field: static private readonly System.Int32 _materialBottomPositionID
     static int _get__materialBottomPositionID();
     // Set static field: static private readonly System.Int32 _materialBottomPositionID
     static void _set__materialBottomPositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDC88DC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD3AA88
     // Get static field: static private readonly System.Int32 _materialTopPositionID
     static int _get__materialTopPositionID();
     // Set static field: static private readonly System.Int32 _materialTopPositionID
     static void _set__materialTopPositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDC88EC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD3AA98
     // Get static field: static private readonly System.Int32 _materialAlphaID
     static int _get__materialAlphaID();
     // Set static field: static private readonly System.Int32 _materialAlphaID
@@ -185,37 +185,37 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // static private System.Void RuntimeInit()
-    // Offset: 0xF141F8
+    // Offset: 0xFCB35C
     static void RuntimeInit();
     // protected System.Void Awake()
-    // Offset: 0xF14264
+    // Offset: 0xFCB3C8
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0xF143A4
+    // Offset: 0xFCB508
     void OnDisable();
     // protected System.Void OnValidate()
-    // Offset: 0xF143C4
+    // Offset: 0xFCB528
     void OnValidate();
     // private System.Void Update()
-    // Offset: 0xF1474C
+    // Offset: 0xFCB8B0
     void Update();
     // private System.Void Refresh()
-    // Offset: 0xF144D4
+    // Offset: 0xFCB638
     void Refresh();
     // public System.Void Animate(System.Boolean turningOn, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0xF14750
+    // Offset: 0xFCB8B4
     void Animate(bool turningOn, float duration, Tweening::EaseType easeType);
     // private System.Collections.IEnumerator FadingCoroutine(System.Boolean turningOn, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0xF14820
+    // Offset: 0xFCB984
     System::Collections::IEnumerator* FadingCoroutine(bool turningOn, float duration, Tweening::EaseType easeType);
     // private System.Void UpdateBounds()
-    // Offset: 0xF148C8
+    // Offset: 0xFCBA2C
     void UpdateBounds();
     // private System.Void <Awake>b__22_0(System.Single f)
-    // Offset: 0xF14AC4
+    // Offset: 0xFCBC28
     void $Awake$b__22_0(float f);
     // public System.Void .ctor()
-    // Offset: 0xF149F4
+    // Offset: 0xFCBB58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -228,7 +228,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HologramRays*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0xF14A14
+    // Offset: 0xFCBB78
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

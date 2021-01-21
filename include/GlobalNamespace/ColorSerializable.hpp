@@ -63,11 +63,11 @@ namespace GlobalNamespace {
       return color;
     }
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0xCB5FE8
+    // Offset: 0xE2E798
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ColorSerializable(UnityEngine::Color color)
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xCB5FF4
+    // Offset: 0xE2E7A4
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xCB5FFC
+    // Offset: 0xE2E7AC
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -83,22 +83,22 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(ColorSerializable other)
-    // Offset: 0xCB6004
+    // Offset: 0xE2E7B4
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(ColorSerializable other)
     bool Equals(GlobalNamespace::ColorSerializable other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xCB600C
+    // Offset: 0xE2E7BC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xCB6014
+    // Offset: 0xE2E7C4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xCB6020
+    // Offset: 0xE2E7D0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

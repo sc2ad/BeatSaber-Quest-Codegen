@@ -46,19 +46,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SimpleTextWithIconTableCell
     SimpleTextWithIconTableCell(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::UI::Image* icon_ = {}) noexcept : text{text_}, icon{icon_} {}
     // public System.Void set_icon(UnityEngine.UI.Image value)
-    // Offset: 0x1983190
+    // Offset: 0x2247900
     void set_icon(UnityEngine::UI::Image* value);
     // public UnityEngine.UI.Image get_icon()
-    // Offset: 0x1983198
+    // Offset: 0x2247908
     UnityEngine::UI::Image* get_icon();
     // public System.Void set_text(System.String value)
-    // Offset: 0x19831A0
+    // Offset: 0x2247910
     void set_text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0x19831BC
+    // Offset: 0x224792C
     ::Il2CppString* get_text();
     // public System.Void .ctor()
-    // Offset: 0x19831D8
+    // Offset: 0x2247948
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

@@ -38,13 +38,13 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Creating value type constructor for type: TestCommandBuilder
     TestCommandBuilder() noexcept {}
     // static public NUnit.Framework.Internal.Commands.TestCommand BuildTestCommand(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0x1182768
+    // Offset: 0x132A16C
     static NUnit::Framework::Internal::Commands::TestCommand* BuildTestCommand(NUnit::Framework::Internal::TestMethod* test, NUnit::Framework::Interfaces::ITestFilter* filter);
     // static private System.String GetTestBuilderName(NUnit.Framework.Internal.TestMethod testMethod)
-    // Offset: 0x1184A84
+    // Offset: 0x132C488
     static ::Il2CppString* GetTestBuilderName(NUnit::Framework::Internal::TestMethod* testMethod);
     // static private NUnit.Framework.Internal.Commands.TestCommand TryReplaceWithEnumerableCommand(NUnit.Framework.Internal.Commands.TestCommand command)
-    // Offset: 0x118492C
+    // Offset: 0x132C330
     static NUnit::Framework::Internal::Commands::TestCommand* TryReplaceWithEnumerableCommand(NUnit::Framework::Internal::Commands::TestCommand* command);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.TestCommandBuilder
   #pragma pack(pop)

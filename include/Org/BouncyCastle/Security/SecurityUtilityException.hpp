@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Security {
     // Creating value type constructor for type: SecurityUtilityException
     SecurityUtilityException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x10D3F54
+    // Offset: 0x1224A3C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Security {
       return THROW_UNLESS((::il2cpp_utils::New<SecurityUtilityException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x10C098C
+    // Offset: 0x1211474
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

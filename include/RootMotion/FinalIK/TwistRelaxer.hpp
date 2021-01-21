@@ -37,38 +37,38 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IK*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDB7194
+    // [TooltipAttribute] Offset: 0xD28F90
     // public UnityEngine.Transform parent
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::Transform* parent;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDB71CC
+    // [TooltipAttribute] Offset: 0xD28FC8
     // public UnityEngine.Transform child
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::Transform* child;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDB7204
-    // [RangeAttribute] Offset: 0xDB7204
+    // [TooltipAttribute] Offset: 0xD29000
+    // [RangeAttribute] Offset: 0xD29000
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x30
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDB7258
-    // [RangeAttribute] Offset: 0xDB7258
+    // [TooltipAttribute] Offset: 0xD29054
+    // [RangeAttribute] Offset: 0xD29054
     // public System.Single parentChildCrossfade
     // Size: 0x4
     // Offset: 0x34
     float parentChildCrossfade;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDB72AC
-    // [RangeAttribute] Offset: 0xDB72AC
+    // [TooltipAttribute] Offset: 0xD290A8
+    // [RangeAttribute] Offset: 0xD290A8
     // public System.Single twistAngleOffset
     // Size: 0x4
     // Offset: 0x38
@@ -104,22 +104,22 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Relax()
-    // Offset: 0x15E9ED0
+    // Offset: 0x196AA54
     void Relax();
     // private System.Void Start()
-    // Offset: 0x15EA2B0
+    // Offset: 0x196AE34
     void Start();
     // private System.Void OnPostUpdate()
-    // Offset: 0x15EA75C
+    // Offset: 0x196B2E0
     void OnPostUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x15EA7E4
+    // Offset: 0x196B368
     void LateUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x15EA86C
+    // Offset: 0x196B3F0
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x15EA994
+    // Offset: 0x196B518
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

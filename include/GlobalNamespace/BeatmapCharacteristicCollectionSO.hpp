@@ -37,19 +37,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public BeatmapCharacteristicSO[] get_beatmapCharacteristics()
-    // Offset: 0x1A7BA30
+    // Offset: 0x106B85C
     ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* get_beatmapCharacteristics();
     // public System.Void set_beatmapCharacteristics(BeatmapCharacteristicSO[] value)
-    // Offset: 0x1A7BA38
+    // Offset: 0x106B864
     void set_beatmapCharacteristics(::Array<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public BeatmapCharacteristicSO GetBeatmapCharacteristicBySerializedName(System.String serializedName)
-    // Offset: 0x1A7BA40
+    // Offset: 0x106B86C
     GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicBySerializedName(::Il2CppString* serializedName);
     // public System.Boolean ContainsBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x1A7BACC
+    // Offset: 0x106B8F8
     bool ContainsBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // public System.Void .ctor()
-    // Offset: 0x1A7BBAC
+    // Offset: 0x106B9D8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

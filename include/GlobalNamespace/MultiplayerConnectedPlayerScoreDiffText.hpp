@@ -119,7 +119,7 @@ namespace GlobalNamespace {
     UnityEngine::Color leadingBackgroundColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0xDC8E88
+    // [SpaceAttribute] Offset: 0xD3B044
     // private TMPro.TextMeshPro _onPlatformText
     // Size: 0x8
     // Offset: 0x48
@@ -132,21 +132,21 @@ namespace GlobalNamespace {
     UnityEngine::SpriteRenderer* backgroundSpriteRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::SpriteRenderer*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC8ED0
+    // [InjectAttribute] Offset: 0xD3B08C
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x58
     Tweening::TweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC8EE0
+    // [InjectAttribute] Offset: 0xD3B09C
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC8EF0
+    // [InjectAttribute] Offset: 0xD3B0AC
     // private readonly MultiplayerLeadPlayerProvider _leadPlayerProvider
     // Size: 0x8
     // Offset: 0x68
@@ -178,34 +178,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0xFAD05C
+    // Offset: 0x101D608
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFAD230
+    // Offset: 0x101D7DC
     void OnDestroy();
     // public System.Void SetHorizontalPositionRelativeToLocalPlayer(MultiplayerConnectedPlayerScoreDiffText/HorizontalPosition relativePosition)
-    // Offset: 0xFAD3F0
+    // Offset: 0x101D99C
     void SetHorizontalPositionRelativeToLocalPlayer(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::HorizontalPosition relativePosition);
     // public System.Void AnimateScoreDiff(System.Int32 scoreDiff)
-    // Offset: 0xFAD508
+    // Offset: 0x101DAB4
     void AnimateScoreDiff(int scoreDiff);
     // public System.Void AnimateHide()
-    // Offset: 0xFAD6C8
+    // Offset: 0x101DC74
     void AnimateHide();
     // private System.Void HandleNewLeaderWasSelected(System.String userId)
-    // Offset: 0xFAD7C4
+    // Offset: 0x101DD70
     void HandleNewLeaderWasSelected(::Il2CppString* userId);
     // private System.Void <Start>b__13_0(System.Single val)
-    // Offset: 0xFAD954
+    // Offset: 0x101DF00
     void $Start$b__13_0(float val);
     // private System.Void <AnimateScoreDiff>b__16_0()
-    // Offset: 0xFAD9D8
+    // Offset: 0x101DF84
     void $AnimateScoreDiff$b__16_0();
     // private System.Void <AnimateHide>b__17_0()
-    // Offset: 0xFAD9E4
+    // Offset: 0x101DF90
     void $AnimateHide$b__17_0();
     // public System.Void .ctor()
-    // Offset: 0xFAD900
+    // Offset: 0x101DEAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

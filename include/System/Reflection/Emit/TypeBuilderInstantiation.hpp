@@ -24,7 +24,7 @@ namespace System::Reflection::Emit {
     // Creating value type constructor for type: TypeBuilderInstantiation
     TypeBuilderInstantiation() noexcept {}
     // static System.Type MakeGenericType(System.Type type, System.Type[] typeArguments)
-    // Offset: 0x15C6770
+    // Offset: 0x19462F4
     static System::Type* MakeGenericType(System::Type* type, ::Array<System::Type*>* typeArguments);
   }; // System.Reflection.Emit.TypeBuilderInstantiation
   #pragma pack(pop)

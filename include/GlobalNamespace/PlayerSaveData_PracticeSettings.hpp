@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PracticeSettings
     PracticeSettings(float startSongTime_ = {}, float songSpeedMul_ = {}) noexcept : startSongTime{startSongTime_}, songSpeedMul{songSpeedMul_} {}
     // public System.Void .ctor()
-    // Offset: 0xF2511C
+    // Offset: 0xFB6F58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

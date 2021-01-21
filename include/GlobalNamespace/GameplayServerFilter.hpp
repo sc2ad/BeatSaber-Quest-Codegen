@@ -137,52 +137,52 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayServerFilter>*>(this);
     }
     // public System.Void .ctor(System.Boolean includePasswordProtected, System.Boolean includeEmpty, System.Boolean includeFull, System.Boolean filterNames, System.String nameFilter, System.Boolean filterDifficulties, BeatmapDifficultyMask difficultyFilter, System.Boolean filterModifiers, GameplayModifierMask modifierFilter, System.Boolean filterSongPacks, SongPackMask songPackFilter)
-    // Offset: 0xE82150
+    // Offset: 0xDF51A8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GameplayServerFilter(bool includePasswordProtected, bool includeEmpty, bool includeFull, bool filterNames, ::Il2CppString* nameFilter, bool filterDifficulties, GlobalNamespace::BeatmapDifficultyMask difficultyFilter, bool filterModifiers, GlobalNamespace::GameplayModifierMask modifierFilter, bool filterSongPacks, GlobalNamespace::SongPackMask songPackFilter)
     // static public GameplayServerFilter get_defaultFilter()
-    // Offset: 0x1B4DD14
+    // Offset: 0x11D4F88
     static GlobalNamespace::GameplayServerFilter get_defaultFilter();
     // public System.Boolean Equals(ref GameplayServerFilter other)
-    // Offset: 0xE82194
+    // Offset: 0xDF51EC
     bool Equals(GlobalNamespace::GameplayServerFilter& other);
     // static public GameplayServerFilter Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1B4E0A8
+    // Offset: 0x11D531C
     static GlobalNamespace::GameplayServerFilter Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean IncludesServerName(System.String lowerInvariantName)
-    // Offset: 0xE821F4
+    // Offset: 0xDF524C
     bool IncludesServerName(::Il2CppString* lowerInvariantName);
     // public System.Boolean IncludesPassword(System.String password)
-    // Offset: 0xE82224
+    // Offset: 0xDF527C
     bool IncludesPassword(::Il2CppString* password);
     // public System.Boolean IncludesPlayerCount(System.Int32 currentPlayerCount, System.Int32 maxPlayerCount)
-    // Offset: 0xE82240
+    // Offset: 0xDF5298
     bool IncludesPlayerCount(int currentPlayerCount, int maxPlayerCount);
     // public System.Boolean IncludesConfiguration(GameplayServerConfiguration configuration)
-    // Offset: 0xE82274
+    // Offset: 0xDF52CC
     bool IncludesConfiguration(GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.Boolean Equals(GameplayServerFilter other)
-    // Offset: 0xE8219C
+    // Offset: 0xDF51F4
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(GameplayServerFilter other)
     bool Equals(GlobalNamespace::GameplayServerFilter other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xE821D4
+    // Offset: 0xDF522C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xE821DC
+    // Offset: 0xDF5234
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xE821E4
+    // Offset: 0xDF523C
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: System.Void INetImmutableSerializable_1::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public GameplayServerFilter CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xE821EC
+    // Offset: 0xDF5244
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: T INetImmutableSerializable_1::CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     GlobalNamespace::GameplayServerFilter CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);

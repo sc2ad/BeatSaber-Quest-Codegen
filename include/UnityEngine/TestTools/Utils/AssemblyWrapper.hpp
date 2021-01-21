@@ -26,7 +26,7 @@ namespace UnityEngine::TestTools::Utils {
   // [] Offset: FFFFFFFF
   class AssemblyWrapper : public ::Il2CppObject/*, public UnityEngine::TestTools::Utils::IAssemblyWrapper*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDE6A08
+    // [CompilerGeneratedAttribute] Offset: 0xD59054
     // private readonly System.Reflection.Assembly <Assembly>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -44,14 +44,14 @@ namespace UnityEngine::TestTools::Utils {
       return Assembly;
     }
     // public System.Void .ctor(System.Reflection.Assembly assembly)
-    // Offset: 0x1198140
+    // Offset: 0x133FB44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyWrapper* New_ctor(System::Reflection::Assembly* assembly) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::AssemblyWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyWrapper*, creationType>(assembly)));
     }
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x1198174
+    // Offset: 0x133FB78
     // Implemented from: UnityEngine.TestTools.Utils.IAssemblyWrapper
     // Base method: System.Reflection.Assembly IAssemblyWrapper::get_Assembly()
     System::Reflection::Assembly* get_Assembly();

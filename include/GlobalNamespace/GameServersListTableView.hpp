@@ -77,14 +77,14 @@ namespace GlobalNamespace {
     GlobalNamespace::GameServerListDetailTableCell* gameServerDetailCellPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameServerListDetailTableCell*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD1BFC
+    // [InjectAttribute] Offset: 0xD43F08
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x30
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDD1C0C
+    // [CompilerGeneratedAttribute] Offset: 0xD43F18
     // private System.Action`1<INetworkPlayer> joinButtonPressedEvent
     // Size: 0x8
     // Offset: 0x38
@@ -132,51 +132,51 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kDetailCellReuseIdentifier
     static void _set_kDetailCellReuseIdentifier(::Il2CppString* value);
     // public System.Void add_joinButtonPressedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x1A1F93C
+    // Offset: 0xF39E74
     void add_joinButtonPressedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void remove_joinButtonPressedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x1A1F9E0
+    // Offset: 0xF39F18
     void remove_joinButtonPressedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // private System.Void Init()
-    // Offset: 0x1A1FAAC
+    // Offset: 0xF39FE4
     void Init();
     // public System.Void SetData(System.Collections.Generic.IEnumerable`1<INetworkPlayer> servers, System.Boolean clearSelection)
-    // Offset: 0x1A1FEA8
+    // Offset: 0xF3A3E0
     void SetData(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* servers, bool clearSelection);
     // private System.Void HandleGameServerListDetailTableCellJoinServerButtonWasPressed()
-    // Offset: 0x1A1FFD8
+    // Offset: 0xF3A510
     void HandleGameServerListDetailTableCellJoinServerButtonWasPressed();
     // private System.Void HandleTableViewDidSelectCellWithIdx(HMUI.TableView tableView, System.Int32 id)
-    // Offset: 0x1A20040
+    // Offset: 0xF3A578
     void HandleTableViewDidSelectCellWithIdx(HMUI::TableView* tableView, int id);
     // private System.Void HandleTableViewDidDeselectCellWithIdx(TableViewWithDetailCell arg1, System.Int32 arg2)
-    // Offset: 0x1A20080
+    // Offset: 0xF3A5B8
     void HandleTableViewDidDeselectCellWithIdx(GlobalNamespace::TableViewWithDetailCell* arg1, int arg2);
     // protected System.Void OnDestroy()
-    // Offset: 0x1A2008C
+    // Offset: 0xF3A5C4
     void OnDestroy();
     // public System.Single CellSize()
-    // Offset: 0x1A1FA84
+    // Offset: 0xF39FBC
     // Implemented from: TableViewWithDetailCell/IDataSource
     // Base method: System.Single IDataSource::CellSize()
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1A1FA90
+    // Offset: 0xF39FC8
     // Implemented from: TableViewWithDetailCell/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.TableCell CellForContent(TableViewWithDetailCell tableView, System.Int32 idx, System.Boolean detailOpened)
-    // Offset: 0x1A1FBBC
+    // Offset: 0xF3A0F4
     // Implemented from: TableViewWithDetailCell/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForContent(TableViewWithDetailCell tableView, System.Int32 idx, System.Boolean detailOpened)
     HMUI::TableCell* CellForContent(GlobalNamespace::TableViewWithDetailCell* tableView, int idx, bool detailOpened);
     // public HMUI.TableCell CellForDetail(TableViewWithDetailCell tableView, System.Int32 contentIdx)
-    // Offset: 0x1A1FD14
+    // Offset: 0xF3A24C
     // Implemented from: TableViewWithDetailCell/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForDetail(TableViewWithDetailCell tableView, System.Int32 contentIdx)
     HMUI::TableCell* CellForDetail(GlobalNamespace::TableViewWithDetailCell* tableView, int contentIdx);
     // public System.Void .ctor()
-    // Offset: 0x1A2016C
+    // Offset: 0xF3A6A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

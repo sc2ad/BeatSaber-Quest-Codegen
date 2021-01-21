@@ -92,50 +92,50 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // Set static field: static private readonly System.Boolean[] strictLengthEnabled
     static void _set_strictLengthEnabled(::Array<bool>* value);
     // static public System.Boolean get_StrictLengthEnabled()
-    // Offset: 0x14C1908
+    // Offset: 0x17F0050
     static bool get_StrictLengthEnabled();
     // static private System.Void .cctor()
-    // Offset: 0x14C1990
+    // Offset: 0x17F00D8
     static void _cctor();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher)
-    // Offset: 0x14C1A9C
+    // Offset: 0x17F01E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Pkcs1Encoding* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pkcs1Encoding*, creationType>(cipher)));
     }
     // private System.Byte[] EncodeBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x14C22E4
+    // Offset: 0x17F0A2C
     ::Array<uint8_t>* EncodeBlock(::Array<uint8_t>* input, int inOff, int inLen);
     // static private System.Int32 CheckPkcs1Encoding(System.Byte[] encoded, System.Int32 pLen)
-    // Offset: 0x14C25EC
+    // Offset: 0x17F0D34
     static int CheckPkcs1Encoding(::Array<uint8_t>* encoded, int pLen);
     // private System.Byte[] DecodeBlockOrRandom(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x14C269C
+    // Offset: 0x17F0DE4
     ::Array<uint8_t>* DecodeBlockOrRandom(::Array<uint8_t>* input, int inOff, int inLen);
     // private System.Byte[] DecodeBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x14C1FD0
+    // Offset: 0x17F0718
     ::Array<uint8_t>* DecodeBlock(::Array<uint8_t>* input, int inOff, int inLen);
     // private System.Int32 FindStart(System.Byte type, System.Byte[] block)
-    // Offset: 0x14C2998
+    // Offset: 0x17F10E0
     int FindStart(uint8_t type, ::Array<uint8_t>* block);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x14C1B58
+    // Offset: 0x17F02A0
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Void IAsymmetricBlockCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x14C1E30
+    // Offset: 0x17F0578
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Int32 IAsymmetricBlockCipher::GetInputBlockSize()
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x14C1EF8
+    // Offset: 0x17F0640
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Int32 IAsymmetricBlockCipher::GetOutputBlockSize()
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x14C1FC0
+    // Offset: 0x17F0708
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Byte[] IAsymmetricBlockCipher::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* input, int inOff, int length);

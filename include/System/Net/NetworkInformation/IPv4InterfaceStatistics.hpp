@@ -20,7 +20,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: IPv4InterfaceStatistics
     IPv4InterfaceStatistics() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x1199DDC
+    // Offset: 0x1353C28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

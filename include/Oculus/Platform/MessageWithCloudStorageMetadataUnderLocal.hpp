@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithCloudStorageMetadataUnderLocal
     MessageWithCloudStorageMetadataUnderLocal() noexcept {}
     // protected Oculus.Platform.Models.CloudStorageMetadata GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x11D9BEC
+    // Offset: 0x13EA9F4
     Oculus::Platform::Models::CloudStorageMetadata* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x11D5CC8
+    // Offset: 0x13E6AD0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,7 +41,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithCloudStorageMetadataUnderLocal*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.CloudStorageMetadata GetCloudStorageMetadata()
-    // Offset: 0x11D9BA8
+    // Offset: 0x13EA9B0
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.CloudStorageMetadata Message::GetCloudStorageMetadata()
     Oculus::Platform::Models::CloudStorageMetadata* GetCloudStorageMetadata();

@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class OffsetByBeatmapObjectSpawnCenter : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xDC532C
+    // [InjectAttribute] Offset: 0xD372E0
     // private readonly BeatmapObjectSpawnCenter _spawnCenter
     // Size: 0x8
     // Offset: 0x18
@@ -38,13 +38,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x101427C
+    // Offset: 0xF14AEC
     void Start();
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single distance)
-    // Offset: 0x1014330
+    // Offset: 0xF14BA0
     void HandleSpawnCenterDistanceWasFound(float distance);
     // public System.Void .ctor()
-    // Offset: 0x1014430
+    // Offset: 0xF14CA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

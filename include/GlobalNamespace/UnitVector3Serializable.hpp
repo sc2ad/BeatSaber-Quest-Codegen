@@ -60,11 +60,11 @@ namespace GlobalNamespace {
       return v;
     }
     // public System.Void .ctor(UnityEngine.Vector3 v)
-    // Offset: 0xCB6604
+    // Offset: 0xE2EDB4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  UnitVector3Serializable(UnityEngine::Vector3 v)
     // public System.Void .ctor(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xCB6610
+    // Offset: 0xE2EDC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     UnitVector3Serializable(LiteNetLib::Utils::NetDataReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UnitVector3Serializable::.ctor");
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, reader);
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xCB65CC
+    // Offset: 0xE2ED7C
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xCB65D4
+    // Offset: 0xE2ED84
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -88,22 +88,22 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(UnitVector3Serializable other)
-    // Offset: 0xCB65DC
+    // Offset: 0xE2ED8C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnitVector3Serializable other)
     bool Equals(GlobalNamespace::UnitVector3Serializable other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xCB65E4
+    // Offset: 0xE2ED94
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xCB65EC
+    // Offset: 0xE2ED9C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xCB65F8
+    // Offset: 0xE2EDA8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

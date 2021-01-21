@@ -76,60 +76,60 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static System.String friendlyName
     static void _set_friendlyName(::Il2CppString* value);
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedSubjectKeyIdentifier, System.Boolean critical)
-    // Offset: 0x146AA20
+    // Offset: 0x177F458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509SubjectKeyIdentifierExtension* New_ctor(System::Security::Cryptography::AsnEncodedData* encodedSubjectKeyIdentifier, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509SubjectKeyIdentifierExtension*, creationType>(encodedSubjectKeyIdentifier, critical)));
     }
     // public System.Void .ctor(System.Byte[] subjectKeyIdentifier, System.Boolean critical)
-    // Offset: 0x146BD6C
+    // Offset: 0x17807A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509SubjectKeyIdentifierExtension* New_ctor(::Array<uint8_t>* subjectKeyIdentifier, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509SubjectKeyIdentifierExtension*, creationType>(subjectKeyIdentifier, critical)));
     }
     // public System.Void .ctor(System.String subjectKeyIdentifier, System.Boolean critical)
-    // Offset: 0x146BF6C
+    // Offset: 0x17809A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509SubjectKeyIdentifierExtension* New_ctor(::Il2CppString* subjectKeyIdentifier, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509SubjectKeyIdentifierExtension*, creationType>(subjectKeyIdentifier, critical)));
     }
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.PublicKey key, System.Boolean critical)
-    // Offset: 0x146C1BC
+    // Offset: 0x1780BF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509SubjectKeyIdentifierExtension* New_ctor(System::Security::Cryptography::X509Certificates::PublicKey* key, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509SubjectKeyIdentifierExtension*, creationType>(key, critical)));
     }
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.PublicKey key, System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm algorithm, System.Boolean critical)
-    // Offset: 0x146C1C8
+    // Offset: 0x1780C00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509SubjectKeyIdentifierExtension* New_ctor(System::Security::Cryptography::X509Certificates::PublicKey* key, System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm algorithm, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509SubjectKeyIdentifierExtension*, creationType>(key, algorithm, critical)));
     }
     // public System.String get_SubjectKeyIdentifier()
-    // Offset: 0x1461108
+    // Offset: 0x1775B40
     ::Il2CppString* get_SubjectKeyIdentifier();
     // static System.Byte FromHexChar(System.Char c)
-    // Offset: 0x146C6E8
+    // Offset: 0x1781120
     static uint8_t FromHexChar(::Il2CppChar c);
     // static System.Byte FromHexChars(System.Char c1, System.Char c2)
-    // Offset: 0x146C730
+    // Offset: 0x1781168
     static uint8_t FromHexChars(::Il2CppChar c1, ::Il2CppChar c2);
     // static System.Byte[] FromHex(System.String hex)
-    // Offset: 0x146C0B4
+    // Offset: 0x1780AEC
     static ::Array<uint8_t>* FromHex(::Il2CppString* hex);
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
-    // Offset: 0x146BBE8
+    // Offset: 0x1780620
     System::Security::Cryptography::AsnDecodeStatus Decode(::Array<uint8_t>* extension);
     // System.Byte[] Encode()
-    // Offset: 0x146BEF0
+    // Offset: 0x1780928
     ::Array<uint8_t>* Encode();
     // public System.Void .ctor()
-    // Offset: 0x146BB60
+    // Offset: 0x1780598
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::.ctor()
     // Base method: System.Void AsnEncodedData::.ctor()
@@ -140,12 +140,12 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509SubjectKeyIdentifierExtension*, creationType>()));
     }
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x146C548
+    // Offset: 0x1780F80
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // override System.String ToString(System.Boolean multiLine)
-    // Offset: 0x146C7CC
+    // Offset: 0x1781204
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::Il2CppString* ToString(bool multiLine);

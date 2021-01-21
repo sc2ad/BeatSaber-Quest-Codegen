@@ -39,23 +39,23 @@ namespace System::Runtime::ExceptionServices {
     // Creating value type constructor for type: ExceptionDispatchInfo
     ExceptionDispatchInfo(System::Exception* m_Exception_ = {}, ::Il2CppObject* m_stackTrace_ = {}) noexcept : m_Exception{m_Exception_}, m_stackTrace{m_stackTrace_} {}
     // private System.Void .ctor(System.Exception exception)
-    // Offset: 0x1163F74
+    // Offset: 0x130A978
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExceptionDispatchInfo* New_ctor(System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::ExceptionServices::ExceptionDispatchInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExceptionDispatchInfo*, creationType>(exception)));
     }
     // System.Object get_BinaryStackTraceArray()
-    // Offset: 0x11640BC
+    // Offset: 0x130AAC0
     ::Il2CppObject* get_BinaryStackTraceArray();
     // static public System.Runtime.ExceptionServices.ExceptionDispatchInfo Capture(System.Exception source)
-    // Offset: 0x11640C4
+    // Offset: 0x130AAC8
     static System::Runtime::ExceptionServices::ExceptionDispatchInfo* Capture(System::Exception* source);
     // public System.Exception get_SourceException()
-    // Offset: 0x1164184
+    // Offset: 0x130AB88
     System::Exception* get_SourceException();
     // public System.Void Throw()
-    // Offset: 0x1162188
+    // Offset: 0x1308B8C
     void Throw();
   }; // System.Runtime.ExceptionServices.ExceptionDispatchInfo
   #pragma pack(pop)

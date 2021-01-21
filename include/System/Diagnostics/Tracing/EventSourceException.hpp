@@ -29,14 +29,14 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: EventSourceException
     EventSourceException() noexcept {}
     // System.Void .ctor(System.Exception innerException)
-    // Offset: 0x12D3870
+    // Offset: 0x1522604
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventSourceException* New_ctor(System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventSourceException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventSourceException*, creationType>(innerException)));
     }
     // public System.Void .ctor()
-    // Offset: 0x12D8858
+    // Offset: 0x15275EC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -46,7 +46,7 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EventSourceException*, creationType>()));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x12D3C90
+    // Offset: 0x1522A24
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -55,7 +55,7 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EventSourceException*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x12D88E0
+    // Offset: 0x1527674
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

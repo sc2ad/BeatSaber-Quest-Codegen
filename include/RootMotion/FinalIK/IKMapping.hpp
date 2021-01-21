@@ -40,19 +40,19 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: IKMapping
     IKMapping() noexcept {}
     // public System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
-    // Offset: 0x170AF30
+    // Offset: 0x1AFCDA8
     bool IsValid(RootMotion::FinalIK::IKSolver* solver, ::Il2CppString*& message);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x170AF38
+    // Offset: 0x1AFCDB0
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
     // protected System.Boolean BoneIsValid(UnityEngine.Transform bone, RootMotion.FinalIK.IKSolver solver, ref System.String message, RootMotion.Warning/Logger logger)
-    // Offset: 0x170AF3C
+    // Offset: 0x1AFCDB4
     bool BoneIsValid(UnityEngine::Transform* bone, RootMotion::FinalIK::IKSolver* solver, ::Il2CppString*& message, RootMotion::Warning::Logger* logger);
     // protected UnityEngine.Vector3 SolveFABRIKJoint(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single length)
-    // Offset: 0x170B06C
+    // Offset: 0x1AFCEE4
     UnityEngine::Vector3 SolveFABRIKJoint(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, float length);
     // public System.Void .ctor()
-    // Offset: 0x170B174
+    // Offset: 0x1AFCFEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

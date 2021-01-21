@@ -54,22 +54,22 @@ namespace System::Runtime::Remoting::Lifetime {
     // Creating value type constructor for type: LeaseManager
     LeaseManager(System::Collections::ArrayList* objects_ = {}, System::Threading::Timer* timer_ = {}) noexcept : objects{objects_}, timer{timer_} {}
     // public System.Void SetPollTime(System.TimeSpan timeSpan)
-    // Offset: 0x1176430
+    // Offset: 0x131CE34
     void SetPollTime(System::TimeSpan timeSpan);
     // public System.Void TrackLifetime(System.Runtime.Remoting.ServerIdentity identity)
-    // Offset: 0x11764FC
+    // Offset: 0x131CF00
     void TrackLifetime(System::Runtime::Remoting::ServerIdentity* identity);
     // public System.Void StartManager()
-    // Offset: 0x1176608
+    // Offset: 0x131D00C
     void StartManager();
     // public System.Void StopManager()
-    // Offset: 0x1176774
+    // Offset: 0x131D178
     void StopManager();
     // public System.Void ManageLeases(System.Object state)
-    // Offset: 0x11767B4
+    // Offset: 0x131D1B8
     void ManageLeases(::Il2CppObject* state);
     // public System.Void .ctor()
-    // Offset: 0x11769E4
+    // Offset: 0x131D3E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

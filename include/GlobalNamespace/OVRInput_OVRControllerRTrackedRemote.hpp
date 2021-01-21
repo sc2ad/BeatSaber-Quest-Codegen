@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRControllerRTrackedRemote
     OVRControllerRTrackedRemote(bool emitSwipe_ = {}, GlobalNamespace::OVRPlugin::Vector2f moveAmount_ = {}, float minMoveMagnitude_ = {}) noexcept : emitSwipe{emitSwipe_}, moveAmount{moveAmount_}, minMoveMagnitude{minMoveMagnitude_} {}
     // public System.Void .ctor()
-    // Offset: 0x11BB6D4
+    // Offset: 0x13A7544
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -54,47 +54,47 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerRTrackedRemote*, creationType>()));
     }
     // public override System.Void ConfigureButtonMap()
-    // Offset: 0x11C3928
+    // Offset: 0x13AF798
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureButtonMap()
     void ConfigureButtonMap();
     // public override System.Void ConfigureTouchMap()
-    // Offset: 0x11C3B04
+    // Offset: 0x13AF974
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureTouchMap()
     void ConfigureTouchMap();
     // public override System.Void ConfigureNearTouchMap()
-    // Offset: 0x11C3BC0
+    // Offset: 0x13AFA30
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureNearTouchMap()
     void ConfigureNearTouchMap();
     // public override System.Void ConfigureAxis1DMap()
-    // Offset: 0x11C3C10
+    // Offset: 0x13AFA80
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis1DMap()
     void ConfigureAxis1DMap();
     // public override System.Void ConfigureAxis2DMap()
-    // Offset: 0x11C3C68
+    // Offset: 0x13AFAD8
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap()
     void ConfigureAxis2DMap();
     // public override OVRInput/Controller Update()
-    // Offset: 0x11C3CBC
+    // Offset: 0x13AFB2C
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: OVRInput/Controller OVRControllerBase::Update()
     GlobalNamespace::OVRInput::Controller Update();
     // public override System.Boolean WasRecentered()
-    // Offset: 0x11C3E8C
+    // Offset: 0x13AFCFC
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Boolean OVRControllerBase::WasRecentered()
     bool WasRecentered();
     // public override System.Byte GetRecenterCount()
-    // Offset: 0x11C3EA0
+    // Offset: 0x13AFD10
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Byte OVRControllerBase::GetRecenterCount()
     uint8_t GetRecenterCount();
     // public override System.Byte GetBatteryPercentRemaining()
-    // Offset: 0x11C3EA8
+    // Offset: 0x13AFD18
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Byte OVRControllerBase::GetBatteryPercentRemaining()
     uint8_t GetBatteryPercentRemaining();

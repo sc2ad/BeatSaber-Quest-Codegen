@@ -49,22 +49,22 @@ namespace System::Runtime::Remoting::Contexts {
       return properties;
     }
     // public System.Boolean get_HasProperties()
-    // Offset: 0x1172420
+    // Offset: 0x1318E24
     bool get_HasProperties();
     // public System.Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty prop)
-    // Offset: 0x11726E0
+    // Offset: 0x13190E4
     bool RegisterDynamicProperty(System::Runtime::Remoting::Contexts::IDynamicProperty* prop);
     // public System.Boolean UnregisterDynamicProperty(System.String name)
-    // Offset: 0x1172A3C
+    // Offset: 0x1319440
     bool UnregisterDynamicProperty(::Il2CppString* name);
     // public System.Void NotifyMessage(System.Boolean start, System.Runtime.Remoting.Messaging.IMessage msg, System.Boolean client_site, System.Boolean async)
-    // Offset: 0x1172DAC
+    // Offset: 0x13197B0
     void NotifyMessage(bool start, System::Runtime::Remoting::Messaging::IMessage* msg, bool client_site, bool async);
     // private System.Int32 FindProperty(System.String name)
-    // Offset: 0x1174BBC
+    // Offset: 0x131B5C0
     int FindProperty(::Il2CppString* name);
     // public System.Void .ctor()
-    // Offset: 0x1172C18
+    // Offset: 0x131961C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

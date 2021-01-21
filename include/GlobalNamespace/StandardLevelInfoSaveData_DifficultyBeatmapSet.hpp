@@ -34,13 +34,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DifficultyBeatmapSet
     DifficultyBeatmapSet(::Il2CppString* beatmapCharacteristicName_ = {}, ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>* difficultyBeatmaps_ = {}) noexcept : beatmapCharacteristicName{beatmapCharacteristicName_}, difficultyBeatmaps{difficultyBeatmaps_} {}
     // public System.String get_beatmapCharacteristicName()
-    // Offset: 0xF44530
+    // Offset: 0xF7B424
     ::Il2CppString* get_beatmapCharacteristicName();
     // public StandardLevelInfoSaveData/DifficultyBeatmap[] get_difficultyBeatmaps()
-    // Offset: 0xF44538
+    // Offset: 0xF7B42C
     ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>* get_difficultyBeatmaps();
     // public System.Void .ctor(System.String beatmapCharacteristicName, StandardLevelInfoSaveData/DifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0xF444B8
+    // Offset: 0xF7B3AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelInfoSaveData::DifficultyBeatmapSet* New_ctor(::Il2CppString* beatmapCharacteristicName, ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>* difficultyBeatmaps) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet::.ctor");

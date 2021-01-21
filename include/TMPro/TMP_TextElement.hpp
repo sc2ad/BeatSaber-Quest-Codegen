@@ -61,34 +61,34 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_TextElement
     TMP_TextElement(TMPro::TextElementType m_ElementType_ = {}, uint m_Unicode_ = {}, UnityEngine::TextCore::Glyph* m_Glyph_ = {}, uint m_GlyphIndex_ = {}, float m_Scale_ = {}) noexcept : m_ElementType{m_ElementType_}, m_Unicode{m_Unicode_}, m_Glyph{m_Glyph_}, m_GlyphIndex{m_GlyphIndex_}, m_Scale{m_Scale_} {}
     // public TMPro.TextElementType get_elementType()
-    // Offset: 0x11331F8
+    // Offset: 0x12BA034
     TMPro::TextElementType get_elementType();
     // public System.UInt32 get_unicode()
-    // Offset: 0x1133200
+    // Offset: 0x12BA03C
     uint get_unicode();
     // public System.Void set_unicode(System.UInt32 value)
-    // Offset: 0x1133208
+    // Offset: 0x12BA044
     void set_unicode(uint value);
     // public UnityEngine.TextCore.Glyph get_glyph()
-    // Offset: 0x1133210
+    // Offset: 0x12BA04C
     UnityEngine::TextCore::Glyph* get_glyph();
     // public System.Void set_glyph(UnityEngine.TextCore.Glyph value)
-    // Offset: 0x1133218
+    // Offset: 0x12BA054
     void set_glyph(UnityEngine::TextCore::Glyph* value);
     // public System.UInt32 get_glyphIndex()
-    // Offset: 0x1133220
+    // Offset: 0x12BA05C
     uint get_glyphIndex();
     // public System.Void set_glyphIndex(System.UInt32 value)
-    // Offset: 0x1133228
+    // Offset: 0x12BA064
     void set_glyphIndex(uint value);
     // public System.Single get_scale()
-    // Offset: 0x1133230
+    // Offset: 0x12BA06C
     float get_scale();
     // public System.Void set_scale(System.Single value)
-    // Offset: 0x1133238
+    // Offset: 0x12BA074
     void set_scale(float value);
     // public System.Void .ctor()
-    // Offset: 0x1133240
+    // Offset: 0x12BA07C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

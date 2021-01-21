@@ -98,23 +98,23 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Creating value type constructor for type: IesEngine
     IesEngine(Org::BouncyCastle::Crypto::IBasicAgreement* agree_ = {}, Org::BouncyCastle::Crypto::IDerivationFunction* kdf_ = {}, Org::BouncyCastle::Crypto::IMac* mac_ = {}, Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher_ = {}, ::Array<uint8_t>* macBuf_ = {}, bool forEncryption_ = {}, Org::BouncyCastle::Crypto::ICipherParameters* privParam_ = {}, Org::BouncyCastle::Crypto::ICipherParameters* pubParam_ = {}, Org::BouncyCastle::Crypto::Parameters::IesParameters* param_ = {}) noexcept : agree{agree_}, kdf{kdf_}, mac{mac_}, cipher{cipher_}, macBuf{macBuf_}, forEncryption{forEncryption_}, privParam{privParam_}, pubParam{pubParam_}, param{param_} {}
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBasicAgreement agree, Org.BouncyCastle.Crypto.IDerivationFunction kdf, Org.BouncyCastle.Crypto.IMac mac)
-    // Offset: 0x17D2E24
+    // Offset: 0x1C0C844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IesEngine* New_ctor(Org::BouncyCastle::Crypto::IBasicAgreement* agree, Org::BouncyCastle::Crypto::IDerivationFunction* kdf, Org::BouncyCastle::Crypto::IMac* mac) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::IesEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IesEngine*, creationType>(agree, kdf, mac)));
     }
     // private System.Byte[] DecryptBlock(System.Byte[] in_enc, System.Int32 inOff, System.Int32 inLen, System.Byte[] z)
-    // Offset: 0x17D2F54
+    // Offset: 0x1C0C974
     ::Array<uint8_t>* DecryptBlock(::Array<uint8_t>* in_enc, int inOff, int inLen, ::Array<uint8_t>* z);
     // private System.Byte[] EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen, System.Byte[] z)
-    // Offset: 0x17D3768
+    // Offset: 0x1C0D188
     ::Array<uint8_t>* EncryptBlock(::Array<uint8_t>* input, int inOff, int inLen, ::Array<uint8_t>* z);
     // private System.Byte[] GenerateKdfBytes(Org.BouncyCastle.Crypto.Parameters.KdfParameters kParam, System.Int32 length)
-    // Offset: 0x17D35FC
+    // Offset: 0x1C0D01C
     ::Array<uint8_t>* GenerateKdfBytes(Org::BouncyCastle::Crypto::Parameters::KdfParameters* kParam, int length);
     // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x17D3D6C
+    // Offset: 0x1C0D78C
     ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* input, int inOff, int inLen);
   }; // Org.BouncyCastle.Crypto.Engines.IesEngine
   #pragma pack(pop)

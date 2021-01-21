@@ -22,13 +22,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRAutoDestroyInMRC
     OVRAutoDestroyInMRC() noexcept {}
     // private System.Void Start()
-    // Offset: 0x1068CB0
+    // Offset: 0x11A37B8
     void Start();
     // private System.Void Update()
-    // Offset: 0x1068DD4
+    // Offset: 0x11A38DC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1068DD8
+    // Offset: 0x11A38E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

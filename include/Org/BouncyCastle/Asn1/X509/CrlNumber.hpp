@@ -29,10 +29,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: CrlNumber
     CrlNumber() noexcept {}
     // public Org.BouncyCastle.Math.BigInteger get_Number()
-    // Offset: 0x157A010
+    // Offset: 0x18FAB94
     Org::BouncyCastle::Math::BigInteger* get_Number();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger number)
-    // Offset: 0x157A008
+    // Offset: 0x18FAB8C
     // Implemented from: Org.BouncyCastle.Asn1.DerInteger
     // Base method: System.Void DerInteger::.ctor(Org.BouncyCastle.Math.BigInteger number)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return THROW_UNLESS((::il2cpp_utils::New<CrlNumber*, creationType>(number)));
     }
     // public override System.String ToString()
-    // Offset: 0x157A018
+    // Offset: 0x18FAB9C
     // Implemented from: Org.BouncyCastle.Asn1.DerInteger
     // Base method: System.String DerInteger::ToString()
     ::Il2CppString* ToString();

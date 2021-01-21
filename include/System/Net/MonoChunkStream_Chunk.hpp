@@ -34,14 +34,14 @@ namespace System::Net {
     // Creating value type constructor for type: Chunk
     Chunk(::Array<uint8_t>* Bytes_ = {}, int Offset_ = {}) noexcept : Bytes{Bytes_}, Offset{Offset_} {}
     // public System.Void .ctor(System.Byte[] chunk)
-    // Offset: 0x12C00E0
+    // Offset: 0x150EE74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoChunkStream::Chunk* New_ctor(::Array<uint8_t>* chunk) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::MonoChunkStream::Chunk::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoChunkStream::Chunk*, creationType>(chunk)));
     }
     // public System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x12BF5B8
+    // Offset: 0x150E34C
     int Read(::Array<uint8_t>* buffer, int offset, int size);
   }; // System.Net.MonoChunkStream/Chunk
   #pragma pack(pop)

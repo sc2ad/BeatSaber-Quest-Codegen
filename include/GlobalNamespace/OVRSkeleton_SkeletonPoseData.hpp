@@ -20,35 +20,35 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   struct OVRSkeleton::SkeletonPoseData/*, public System::ValueType*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD87488
+    // [CompilerGeneratedAttribute] Offset: 0xCF92BC
     // private OVRPlugin/Posef <RootPose>k__BackingField
     // Size: 0x1C
     // Offset: 0x0
     GlobalNamespace::OVRPlugin::Posef RootPose;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::Posef) == 0x1C);
-    // [CompilerGeneratedAttribute] Offset: 0xD87498
+    // [CompilerGeneratedAttribute] Offset: 0xCF92CC
     // private System.Single <RootScale>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
     float RootScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD874A8
+    // [CompilerGeneratedAttribute] Offset: 0xCF92DC
     // private OVRPlugin/Quatf[] <BoneRotations>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::Array<GlobalNamespace::OVRPlugin::Quatf>* BoneRotations;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::Quatf>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD874B8
+    // [CompilerGeneratedAttribute] Offset: 0xCF92EC
     // private System.Boolean <IsDataValid>k__BackingField
     // Size: 0x1
     // Offset: 0x28
     bool IsDataValid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD874C8
+    // [CompilerGeneratedAttribute] Offset: 0xCF92FC
     // private System.Boolean <IsDataHighConfidence>k__BackingField
     // Size: 0x1
     // Offset: 0x29
@@ -62,34 +62,34 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public OVRPlugin/Posef get_RootPose()
-    // Offset: 0xC9C574
+    // Offset: 0xE08430
     GlobalNamespace::OVRPlugin::Posef get_RootPose();
     // public System.Void set_RootPose(OVRPlugin/Posef value)
-    // Offset: 0xC9C588
+    // Offset: 0xE08444
     void set_RootPose(GlobalNamespace::OVRPlugin::Posef value);
     // public System.Single get_RootScale()
-    // Offset: 0xC9C5A4
+    // Offset: 0xE08460
     float get_RootScale();
     // public System.Void set_RootScale(System.Single value)
-    // Offset: 0xC9C5AC
+    // Offset: 0xE08468
     void set_RootScale(float value);
     // public OVRPlugin/Quatf[] get_BoneRotations()
-    // Offset: 0xC9C5B4
+    // Offset: 0xE08470
     ::Array<GlobalNamespace::OVRPlugin::Quatf>* get_BoneRotations();
     // public System.Void set_BoneRotations(OVRPlugin/Quatf[] value)
-    // Offset: 0xC9C5BC
+    // Offset: 0xE08478
     void set_BoneRotations(::Array<GlobalNamespace::OVRPlugin::Quatf>* value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0xC9C5C4
+    // Offset: 0xE08480
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0xC9C5CC
+    // Offset: 0xE08488
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0xC9C5D8
+    // Offset: 0xE08494
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0xC9C5E0
+    // Offset: 0xE0849C
     void set_IsDataHighConfidence(bool value);
   }; // OVRSkeleton/SkeletonPoseData
   #pragma pack(pop)

@@ -38,16 +38,16 @@ namespace System::Threading::Tasks {
     // Set static field: static private System.Int32 MAX_UNCHECKED_INLINING_DEPTH
     static void _set_MAX_UNCHECKED_INLINING_DEPTH(int value);
     // System.Boolean TryBeginInliningScope()
-    // Offset: 0x1D0EC10
+    // Offset: 0x17AFC6C
     bool TryBeginInliningScope();
     // System.Void EndInliningScope()
-    // Offset: 0x1D0EC30
+    // Offset: 0x17AFC8C
     void EndInliningScope();
     // private System.Boolean CheckForSufficientStack()
-    // Offset: 0x1D0EC28
+    // Offset: 0x17AFC84
     bool CheckForSufficientStack();
     // public System.Void .ctor()
-    // Offset: 0x1D0EC44
+    // Offset: 0x17AFCA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

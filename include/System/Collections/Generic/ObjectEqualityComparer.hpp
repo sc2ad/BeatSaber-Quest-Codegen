@@ -30,10 +30,10 @@ namespace System::Collections::Generic {
     // Set static field: static readonly System.Collections.Generic.ObjectEqualityComparer Default
     static void _set_Default(System::Collections::Generic::ObjectEqualityComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CB675C
+    // Offset: 0x168FB24
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x1CB6704
+    // Offset: 0x168FACC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -42,12 +42,12 @@ namespace System::Collections::Generic {
       return THROW_UNLESS((::il2cpp_utils::New<ObjectEqualityComparer*, creationType>()));
     }
     // private System.Int32 System.Collections.IEqualityComparer.GetHashCode(System.Object obj)
-    // Offset: 0x1CB670C
+    // Offset: 0x168FAD4
     // Implemented from: System.Collections.IEqualityComparer
     // Base method: System.Int32 IEqualityComparer::GetHashCode(System.Object obj)
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj);
     // private System.Boolean System.Collections.IEqualityComparer.Equals(System.Object x, System.Object y)
-    // Offset: 0x1CB672C
+    // Offset: 0x168FAF4
     // Implemented from: System.Collections.IEqualityComparer
     // Base method: System.Boolean IEqualityComparer::Equals(System.Object x, System.Object y)
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* x, ::Il2CppObject* y);

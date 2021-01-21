@@ -16,13 +16,13 @@ namespace Org::BouncyCastle::Crypto {
     // Creating value type constructor for type: Check
     Check() noexcept {}
     // static System.Void DataLength(System.Boolean condition, System.String msg)
-    // Offset: 0x1757C18
+    // Offset: 0x1B5C64C
     static void DataLength(bool condition, ::Il2CppString* msg);
     // static System.Void DataLength(System.Byte[] buf, System.Int32 off, System.Int32 len, System.String msg)
-    // Offset: 0x1757C98
+    // Offset: 0x1B5C6CC
     static void DataLength(::Array<uint8_t>* buf, int off, int len, ::Il2CppString* msg);
     // static System.Void OutputLength(System.Byte[] buf, System.Int32 off, System.Int32 len, System.String msg)
-    // Offset: 0x1757D3C
+    // Offset: 0x1B5C770
     static void OutputLength(::Array<uint8_t>* buf, int off, int len, ::Il2CppString* msg);
   }; // Org.BouncyCastle.Crypto.Check
   #pragma pack(pop)

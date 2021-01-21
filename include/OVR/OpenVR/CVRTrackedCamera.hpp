@@ -51,47 +51,47 @@ namespace OVR::OpenVR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x11F9458
+    // Offset: 0x142AFB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRTrackedCamera* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRTrackedCamera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRTrackedCamera*, creationType>(pInterface)));
     }
     // public System.String GetCameraErrorNameFromEnum(OVR.OpenVR.EVRTrackedCameraError eCameraError)
-    // Offset: 0x11F956C
+    // Offset: 0x142B0C4
     ::Il2CppString* GetCameraErrorNameFromEnum(OVR::OpenVR::EVRTrackedCameraError eCameraError);
     // public OVR.OpenVR.EVRTrackedCameraError HasCamera(System.UInt32 nDeviceIndex, ref System.Boolean pHasCamera)
-    // Offset: 0x11F9600
+    // Offset: 0x142B158
     OVR::OpenVR::EVRTrackedCameraError HasCamera(uint nDeviceIndex, bool& pHasCamera);
     // public OVR.OpenVR.EVRTrackedCameraError GetCameraFrameSize(System.UInt32 nDeviceIndex, OVR.OpenVR.EVRTrackedCameraFrameType eFrameType, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight, ref System.UInt32 pnFrameBufferSize)
-    // Offset: 0x11F9620
+    // Offset: 0x142B178
     OVR::OpenVR::EVRTrackedCameraError GetCameraFrameSize(uint nDeviceIndex, OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, uint& pnWidth, uint& pnHeight, uint& pnFrameBufferSize);
     // public OVR.OpenVR.EVRTrackedCameraError GetCameraIntrinsics(System.UInt32 nDeviceIndex, OVR.OpenVR.EVRTrackedCameraFrameType eFrameType, ref OVR.OpenVR.HmdVector2_t pFocalLength, ref OVR.OpenVR.HmdVector2_t pCenter)
-    // Offset: 0x11F9648
+    // Offset: 0x142B1A0
     OVR::OpenVR::EVRTrackedCameraError GetCameraIntrinsics(uint nDeviceIndex, OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, OVR::OpenVR::HmdVector2_t& pFocalLength, OVR::OpenVR::HmdVector2_t& pCenter);
     // public OVR.OpenVR.EVRTrackedCameraError GetCameraProjection(System.UInt32 nDeviceIndex, OVR.OpenVR.EVRTrackedCameraFrameType eFrameType, System.Single flZNear, System.Single flZFar, ref OVR.OpenVR.HmdMatrix44_t pProjection)
-    // Offset: 0x11F9664
+    // Offset: 0x142B1BC
     OVR::OpenVR::EVRTrackedCameraError GetCameraProjection(uint nDeviceIndex, OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, float flZNear, float flZFar, OVR::OpenVR::HmdMatrix44_t& pProjection);
     // public OVR.OpenVR.EVRTrackedCameraError AcquireVideoStreamingService(System.UInt32 nDeviceIndex, ref System.UInt64 pHandle)
-    // Offset: 0x11F9680
+    // Offset: 0x142B1D8
     OVR::OpenVR::EVRTrackedCameraError AcquireVideoStreamingService(uint nDeviceIndex, uint64_t& pHandle);
     // public OVR.OpenVR.EVRTrackedCameraError ReleaseVideoStreamingService(System.UInt64 hTrackedCamera)
-    // Offset: 0x11F96A0
+    // Offset: 0x142B1F8
     OVR::OpenVR::EVRTrackedCameraError ReleaseVideoStreamingService(uint64_t hTrackedCamera);
     // public OVR.OpenVR.EVRTrackedCameraError GetVideoStreamFrameBuffer(System.UInt64 hTrackedCamera, OVR.OpenVR.EVRTrackedCameraFrameType eFrameType, System.IntPtr pFrameBuffer, System.UInt32 nFrameBufferSize, ref OVR.OpenVR.CameraVideoStreamFrameHeader_t pFrameHeader, System.UInt32 nFrameHeaderSize)
-    // Offset: 0x11F96BC
+    // Offset: 0x142B214
     OVR::OpenVR::EVRTrackedCameraError GetVideoStreamFrameBuffer(uint64_t hTrackedCamera, OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, System::IntPtr pFrameBuffer, uint nFrameBufferSize, OVR::OpenVR::CameraVideoStreamFrameHeader_t& pFrameHeader, uint nFrameHeaderSize);
     // public OVR.OpenVR.EVRTrackedCameraError GetVideoStreamTextureSize(System.UInt32 nDeviceIndex, OVR.OpenVR.EVRTrackedCameraFrameType eFrameType, ref OVR.OpenVR.VRTextureBounds_t pTextureBounds, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x11F96D8
+    // Offset: 0x142B230
     OVR::OpenVR::EVRTrackedCameraError GetVideoStreamTextureSize(uint nDeviceIndex, OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, OVR::OpenVR::VRTextureBounds_t& pTextureBounds, uint& pnWidth, uint& pnHeight);
     // public OVR.OpenVR.EVRTrackedCameraError GetVideoStreamTextureD3D11(System.UInt64 hTrackedCamera, OVR.OpenVR.EVRTrackedCameraFrameType eFrameType, System.IntPtr pD3D11DeviceOrResource, ref System.IntPtr ppD3D11ShaderResourceView, ref OVR.OpenVR.CameraVideoStreamFrameHeader_t pFrameHeader, System.UInt32 nFrameHeaderSize)
-    // Offset: 0x11F96FC
+    // Offset: 0x142B254
     OVR::OpenVR::EVRTrackedCameraError GetVideoStreamTextureD3D11(uint64_t hTrackedCamera, OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, System::IntPtr pD3D11DeviceOrResource, System::IntPtr& ppD3D11ShaderResourceView, OVR::OpenVR::CameraVideoStreamFrameHeader_t& pFrameHeader, uint nFrameHeaderSize);
     // public OVR.OpenVR.EVRTrackedCameraError GetVideoStreamTextureGL(System.UInt64 hTrackedCamera, OVR.OpenVR.EVRTrackedCameraFrameType eFrameType, ref System.UInt32 pglTextureId, ref OVR.OpenVR.CameraVideoStreamFrameHeader_t pFrameHeader, System.UInt32 nFrameHeaderSize)
-    // Offset: 0x11F9718
+    // Offset: 0x142B270
     OVR::OpenVR::EVRTrackedCameraError GetVideoStreamTextureGL(uint64_t hTrackedCamera, OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, uint& pglTextureId, OVR::OpenVR::CameraVideoStreamFrameHeader_t& pFrameHeader, uint nFrameHeaderSize);
     // public OVR.OpenVR.EVRTrackedCameraError ReleaseVideoStreamTextureGL(System.UInt64 hTrackedCamera, System.UInt32 glTextureId)
-    // Offset: 0x11F9738
+    // Offset: 0x142B290
     OVR::OpenVR::EVRTrackedCameraError ReleaseVideoStreamTextureGL(uint64_t hTrackedCamera, uint glTextureId);
   }; // OVR.OpenVR.CVRTrackedCamera
   #pragma pack(pop)

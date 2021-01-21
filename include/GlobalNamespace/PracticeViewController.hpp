@@ -75,28 +75,28 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelBar* levelBar;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelBar*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDD131C
+    // [SpaceAttribute] Offset: 0xD43628
     // private UnityEngine.UI.Button _playButton
     // Size: 0x8
     // Offset: 0x88
     UnityEngine::UI::Button* playButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD1354
+    // [InjectAttribute] Offset: 0xD43660
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x90
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD1364
+    // [InjectAttribute] Offset: 0xD43670
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0x98
     GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDD1374
+    // [CompilerGeneratedAttribute] Offset: 0xD43680
     // private System.Action didPressPlayButtonEvent
     // Size: 0x8
     // Offset: 0xA0
@@ -154,44 +154,44 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMinValueChangeToInstantPlayPreview
     static void _set_kMinValueChangeToInstantPlayPreview(float value);
     // public System.Void add_didPressPlayButtonEvent(System.Action value)
-    // Offset: 0xF2BE6C
+    // Offset: 0xFBDED4
     void add_didPressPlayButtonEvent(System::Action* value);
     // public System.Void remove_didPressPlayButtonEvent(System.Action value)
-    // Offset: 0xF2BF10
+    // Offset: 0xFBDF78
     void remove_didPressPlayButtonEvent(System::Action* value);
     // public PracticeSettings get_practiceSettings()
-    // Offset: 0xF2BFB4
+    // Offset: 0xFBE01C
     GlobalNamespace::PracticeSettings* get_practiceSettings();
     // public System.Void Init(IBeatmapLevel level, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0xF2BFBC
+    // Offset: 0xFBE024
     void Init(GlobalNamespace::IBeatmapLevel* level, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // private System.Void PlayPreview()
-    // Offset: 0xF2C4A4
+    // Offset: 0xFBE50C
     void PlayPreview();
     // private System.Void RefreshUI()
-    // Offset: 0xF2C35C
+    // Offset: 0xFBE3C4
     void RefreshUI();
     // private System.Void HandleSpeedSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0xF2C60C
+    // Offset: 0xFBE674
     void HandleSpeedSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void HandleSongStartSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0xF2C628
+    // Offset: 0xFBE690
     void HandleSongStartSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void PlayButtonPressed()
-    // Offset: 0xF2C6CC
+    // Offset: 0xFBE734
     void PlayButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF2C1F4
+    // Offset: 0xFBE25C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xF2C3B0
+    // Offset: 0xFBE418
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xF2C778
+    // Offset: 0xFBE7E0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

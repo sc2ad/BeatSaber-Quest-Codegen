@@ -47,23 +47,23 @@ namespace System::Collections {
       return *reinterpret_cast<System::Collections::IEqualityComparer*>(this);
     }
     // System.Void .ctor(System.Collections.IComparer comparer, System.Collections.IHashCodeProvider hashCodeProvider)
-    // Offset: 0x1CB5274
+    // Offset: 0x168E63C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompatibleComparer* New_ctor(System::Collections::IComparer* comparer, System::Collections::IHashCodeProvider* hashCodeProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::CompatibleComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompatibleComparer*, creationType>(comparer, hashCodeProvider)));
     }
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x1CB52C4
+    // Offset: 0x168E68C
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);
     // System.Collections.IComparer get_Comparer()
-    // Offset: 0x1CB55C4
+    // Offset: 0x168E98C
     System::Collections::IComparer* get_Comparer();
     // System.Collections.IHashCodeProvider get_HashCodeProvider()
-    // Offset: 0x1CB55CC
+    // Offset: 0x168E994
     System::Collections::IHashCodeProvider* get_HashCodeProvider();
     // public System.Boolean Equals(System.Object a, System.Object b)
-    // Offset: 0x1CB5494
+    // Offset: 0x168E85C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object a, System.Object b)
     // Base method: System.Boolean IEqualityComparer::Equals(System.Object a, System.Object b)
@@ -72,7 +72,7 @@ namespace System::Collections {
     // Maps to method: Equals
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x1CB54B0
+    // Offset: 0x168E878
     // Implemented from: System.Collections.IEqualityComparer
     // Base method: System.Int32 IEqualityComparer::GetHashCode(System.Object obj)
     int GetHashCode(::Il2CppObject* obj);

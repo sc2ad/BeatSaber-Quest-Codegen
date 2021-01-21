@@ -65,14 +65,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionMapAnimationController* missionMapAnimationController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionMapAnimationController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD05D0
+    // [InjectAttribute] Offset: 0xD4290C
     // private SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0x88
     GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDD05E0
+    // [CompilerGeneratedAttribute] Offset: 0xD4291C
     // private System.Action`2<MissionSelectionMapViewController,MissionNode> didSelectMissionLevelEvent
     // Size: 0x8
     // Offset: 0x90
@@ -88,35 +88,35 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MissionSelectionMapViewController
     MissionSelectionMapViewController(HMUI::ScrollView* mapScrollView_ = {}, GlobalNamespace::MissionNodeSelectionManager* missionNodeSelectionManager_ = {}, GlobalNamespace::MissionMapAnimationController* missionMapAnimationController_ = {}, GlobalNamespace::SongPreviewPlayer* songPreviewPlayer_ = {}, System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>* didSelectMissionLevelEvent_ = {}, GlobalNamespace::MissionNode* selectedMissionNode_ = {}) noexcept : mapScrollView{mapScrollView_}, missionNodeSelectionManager{missionNodeSelectionManager_}, missionMapAnimationController{missionMapAnimationController_}, songPreviewPlayer{songPreviewPlayer_}, didSelectMissionLevelEvent{didSelectMissionLevelEvent_}, selectedMissionNode{selectedMissionNode_} {}
     // public System.Void add_didSelectMissionLevelEvent(System.Action`2<MissionSelectionMapViewController,MissionNode> value)
-    // Offset: 0x1020BDC
+    // Offset: 0x109E330
     void add_didSelectMissionLevelEvent(System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>* value);
     // public System.Void remove_didSelectMissionLevelEvent(System.Action`2<MissionSelectionMapViewController,MissionNode> value)
-    // Offset: 0x1020C80
+    // Offset: 0x109E3D4
     void remove_didSelectMissionLevelEvent(System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>* value);
     // public System.Boolean get_animatedUpdateIsRequired()
-    // Offset: 0x1020D24
+    // Offset: 0x109E478
     bool get_animatedUpdateIsRequired();
     // private System.Void HandleMissionNodeSelectionManagerDidSelectMissionNode(MissionNodeVisualController missionNodeVisualController)
-    // Offset: 0x1020FAC
+    // Offset: 0x109E700
     void HandleMissionNodeSelectionManagerDidSelectMissionNode(GlobalNamespace::MissionNodeVisualController* missionNodeVisualController);
     // public System.Void ShowMissionClearedAnimation(System.Action finishCallback)
-    // Offset: 0x1021074
+    // Offset: 0x109E7C8
     void ShowMissionClearedAnimation(System::Action* finishCallback);
     // public System.Void DeselectSelectedNode()
-    // Offset: 0x1021094
+    // Offset: 0x109E7E8
     void DeselectSelectedNode();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1020D3C
+    // Offset: 0x109E490
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1020E80
+    // Offset: 0x109E5D4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x10210AC
+    // Offset: 0x109E800
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

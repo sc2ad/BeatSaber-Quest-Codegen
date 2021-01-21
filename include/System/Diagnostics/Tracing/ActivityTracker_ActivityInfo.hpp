@@ -90,38 +90,38 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: ActivityInfo
     ActivityInfo(::Il2CppString* m_name_ = {}, int64_t m_uniqueId_ = {}, System::Guid m_guid_ = {}, int m_activityPathGuidOffset_ = {}, int m_level_ = {}, System::Diagnostics::Tracing::EventActivityOptions m_eventOptions_ = {}, int64_t m_lastChildID_ = {}, int m_stopped_ = {}, System::Diagnostics::Tracing::ActivityTracker::ActivityInfo* m_creator_ = {}, System::Guid m_activityIdToRestore_ = {}) noexcept : m_name{m_name_}, m_uniqueId{m_uniqueId_}, m_guid{m_guid_}, m_activityPathGuidOffset{m_activityPathGuidOffset_}, m_level{m_level_}, m_eventOptions{m_eventOptions_}, m_lastChildID{m_lastChildID_}, m_stopped{m_stopped_}, m_creator{m_creator_}, m_activityIdToRestore{m_activityIdToRestore_} {}
     // public System.Void .ctor(System.String name, System.Int64 uniqueId, System.Diagnostics.Tracing.ActivityTracker/ActivityInfo creator, System.Guid activityIDToRestore, System.Diagnostics.Tracing.EventActivityOptions options)
-    // Offset: 0x12C3FF0
+    // Offset: 0x1512D84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActivityTracker::ActivityInfo* New_ctor(::Il2CppString* name, int64_t uniqueId, System::Diagnostics::Tracing::ActivityTracker::ActivityInfo* creator, System::Guid activityIDToRestore, System::Diagnostics::Tracing::EventActivityOptions options) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::ActivityTracker::ActivityInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActivityTracker::ActivityInfo*, creationType>(name, uniqueId, creator, activityIDToRestore, options)));
     }
     // public System.Guid get_ActivityId()
-    // Offset: 0x12C450C
+    // Offset: 0x15132A0
     System::Guid get_ActivityId();
     // static public System.String Path(System.Diagnostics.Tracing.ActivityTracker/ActivityInfo activityInfo)
-    // Offset: 0x12C4518
+    // Offset: 0x15132AC
     static ::Il2CppString* Path(System::Diagnostics::Tracing::ActivityTracker::ActivityInfo* activityInfo);
     // static public System.String LiveActivities(System.Diagnostics.Tracing.ActivityTracker/ActivityInfo list)
-    // Offset: 0x12C3C10
+    // Offset: 0x15129A4
     static ::Il2CppString* LiveActivities(System::Diagnostics::Tracing::ActivityTracker::ActivityInfo* list);
     // public System.Boolean CanBeOrphan()
-    // Offset: 0x12C4098
+    // Offset: 0x1512E2C
     bool CanBeOrphan();
     // private System.Void CreateActivityPathGuid(out System.Guid idRet, out System.Int32 activityPathGuidOffset)
-    // Offset: 0x12C4474
+    // Offset: 0x1513208
     void CreateActivityPathGuid(System::Guid& idRet, int& activityPathGuidOffset);
     // private System.Void CreateOverflowGuid(System.Guid* outPtr)
-    // Offset: 0x12C48DC
+    // Offset: 0x1513670
     void CreateOverflowGuid(System::Guid* outPtr);
     // static private System.Int32 AddIdToGuid(System.Guid* outPtr, System.Int32 whereToAddId, System.UInt32 id, System.Boolean overflow)
-    // Offset: 0x12C4790
+    // Offset: 0x1513524
     static int AddIdToGuid(System::Guid* outPtr, int whereToAddId, uint id, bool overflow);
     // static private System.Void WriteNibble(ref System.Byte* ptr, System.Byte* endPtr, System.UInt32 value)
-    // Offset: 0x12C4944
+    // Offset: 0x15136D8
     static void WriteNibble(uint8_t*& ptr, uint8_t* endPtr, uint value);
     // public override System.String ToString()
-    // Offset: 0x12C45B8
+    // Offset: 0x151334C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

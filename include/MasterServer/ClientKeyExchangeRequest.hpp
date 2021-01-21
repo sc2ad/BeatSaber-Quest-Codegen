@@ -55,13 +55,13 @@ namespace MasterServer {
       return clientPublicKey;
     }
     // static public PacketPool`1<MasterServer.ClientKeyExchangeRequest> get_pool()
-    // Offset: 0x1AD4388
+    // Offset: 0x111A5D8
     static GlobalNamespace::PacketPool_1<MasterServer::ClientKeyExchangeRequest*>* get_pool();
     // public MasterServer.ClientKeyExchangeRequest Init(System.Byte[] clientPublicKey)
-    // Offset: 0x1AD43D0
+    // Offset: 0x111A620
     MasterServer::ClientKeyExchangeRequest* Init(::Array<uint8_t>* clientPublicKey);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1AD4404
+    // Offset: 0x111A654
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -69,7 +69,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1AD4440
+    // Offset: 0x111A690
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -77,12 +77,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x1AD447C
+    // Offset: 0x111A6CC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1AD44E8
+    // Offset: 0x111A738
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()

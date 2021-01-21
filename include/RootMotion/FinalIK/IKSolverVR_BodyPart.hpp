@@ -30,21 +30,21 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class IKSolverVR::BodyPart : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDB932C
+    // [CompilerGeneratedAttribute] Offset: 0xD2B128
     // private System.Single <sqrMag>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     float sqrMag;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDB933C
+    // [CompilerGeneratedAttribute] Offset: 0xD2B138
     // private System.Single <mag>k__BackingField
     // Size: 0x4
     // Offset: 0x14
     float mag;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HideInInspector] Offset: 0xDB934C
+    // [HideInInspector] Offset: 0xD2B148
     // public RootMotion.FinalIK.IKSolverVR/VirtualBone[] bones
     // Size: 0x8
     // Offset: 0x18
@@ -101,46 +101,46 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void ResetOffsets();
     // public System.Single get_sqrMag()
-    // Offset: 0x17DC404
+    // Offset: 0x1C27AF8
     float get_sqrMag();
     // private System.Void set_sqrMag(System.Single value)
-    // Offset: 0x17DC40C
+    // Offset: 0x1C27B00
     void set_sqrMag(float value);
     // public System.Single get_mag()
-    // Offset: 0x17DC414
+    // Offset: 0x1C27B08
     float get_mag();
     // private System.Void set_mag(System.Single value)
-    // Offset: 0x17DC41C
+    // Offset: 0x1C27B10
     void set_mag(float value);
     // public System.Void SetLOD(System.Int32 LOD)
-    // Offset: 0x17DC424
+    // Offset: 0x1C27B18
     void SetLOD(int LOD);
     // public System.Void Read(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasChest, System.Boolean hasNeck, System.Boolean hasShoulders, System.Boolean hasToes, System.Boolean hasLegs, System.Int32 rootIndex, System.Int32 index)
-    // Offset: 0x17DC42C
+    // Offset: 0x1C27B20
     void Read(::Array<UnityEngine::Vector3>* positions, ::Array<UnityEngine::Quaternion>* rotations, bool hasChest, bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int rootIndex, int index);
     // public System.Void MovePosition(UnityEngine.Vector3 position)
-    // Offset: 0x17DC7E8
+    // Offset: 0x1C27EDC
     void MovePosition(UnityEngine::Vector3 position);
     // public System.Void MoveRotation(UnityEngine.Quaternion rotation)
-    // Offset: 0x17DC954
+    // Offset: 0x1C28048
     void MoveRotation(UnityEngine::Quaternion rotation);
     // public System.Void Translate(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x17DCBE4
+    // Offset: 0x1C282D8
     void Translate(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void TranslateRoot(UnityEngine.Vector3 newRootPos, UnityEngine.Quaternion newRootRot)
-    // Offset: 0x17DCC38
+    // Offset: 0x1C2832C
     void TranslateRoot(UnityEngine::Vector3 newRootPos, UnityEngine::Quaternion newRootRot);
     // public System.Void RotateTo(RootMotion.FinalIK.IKSolverVR/VirtualBone bone, UnityEngine.Quaternion rotation, System.Single weight)
-    // Offset: 0x17DBCD4
+    // Offset: 0x1C273C8
     void RotateTo(RootMotion::FinalIK::IKSolverVR::VirtualBone* bone, UnityEngine::Quaternion rotation, float weight);
     // public System.Void Visualize(UnityEngine.Color color)
-    // Offset: 0x17DCE24
+    // Offset: 0x1C28518
     void Visualize(UnityEngine::Color color);
     // public System.Void Visualize()
-    // Offset: 0x17DCF68
+    // Offset: 0x1C2865C
     void Visualize();
     // protected System.Void .ctor()
-    // Offset: 0x17DC360
+    // Offset: 0x1C27A54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

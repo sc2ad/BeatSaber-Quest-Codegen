@@ -71,49 +71,49 @@ namespace TMPro {
       return *reinterpret_cast<TMPro::ITweenValue*>(this);
     }
     // public System.Single get_startValue()
-    // Offset: 0xC92738
+    // Offset: 0xDF2DC0
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0xC92740
+    // Offset: 0xDF2DC8
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0xC92748
+    // Offset: 0xDF2DD0
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0xC92750
+    // Offset: 0xDF2DD8
     void set_targetValue(float value);
     // public System.Void set_duration(System.Single value)
-    // Offset: 0xC92760
+    // Offset: 0xDF2DE8
     void set_duration(float value);
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0xC92770
+    // Offset: 0xDF2DF8
     void set_ignoreTimeScale(bool value);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0xC92784
+    // Offset: 0xDF2E0C
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0xC9278C
+    // Offset: 0xDF2E14
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0xC92794
+    // Offset: 0xDF2E1C
     float GetDuration();
     // public System.Single get_duration()
-    // Offset: 0xC92758
+    // Offset: 0xDF2DE0
     // Implemented from: TMPro.ITweenValue
     // Base method: System.Single ITweenValue::get_duration()
     float get_duration();
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0xC92768
+    // Offset: 0xDF2DF0
     // Implemented from: TMPro.ITweenValue
     // Base method: System.Boolean ITweenValue::get_ignoreTimeScale()
     bool get_ignoreTimeScale();
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0xC9277C
+    // Offset: 0xDF2E04
     // Implemented from: TMPro.ITweenValue
     // Base method: System.Void ITweenValue::TweenValue(System.Single floatPercentage)
     void TweenValue(float floatPercentage);
     // public System.Boolean ValidTarget()
-    // Offset: 0xC9279C
+    // Offset: 0xDF2E24
     // Implemented from: TMPro.ITweenValue
     // Base method: System.Boolean ITweenValue::ValidTarget()
     bool ValidTarget();

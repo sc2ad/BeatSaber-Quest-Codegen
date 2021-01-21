@@ -22,7 +22,7 @@ namespace Zenject::Internal {
     // Creating value type constructor for type: PreserveAttribute
     PreserveAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x19EEC3C
+    // Offset: 0x22BD80C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

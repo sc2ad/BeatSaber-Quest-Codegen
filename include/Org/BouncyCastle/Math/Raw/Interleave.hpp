@@ -16,19 +16,19 @@ namespace Org::BouncyCastle::Math::Raw {
     // Creating value type constructor for type: Interleave
     Interleave() noexcept {}
     // static System.UInt32 Expand8to16(System.UInt32 x)
-    // Offset: 0x1792830
+    // Offset: 0x1BCA250
     static uint Expand8to16(uint x);
     // static System.UInt64 Expand32to64(System.UInt32 x)
-    // Offset: 0x1792850
+    // Offset: 0x1BCA270
     static uint64_t Expand32to64(uint x);
     // static System.Void Expand64To128(System.UInt64 x, System.UInt64[] z, System.Int32 zOff)
-    // Offset: 0x17928A8
+    // Offset: 0x1BCA2C8
     static void Expand64To128(uint64_t x, ::Array<uint64_t>* z, int zOff);
     // static System.UInt32 Shuffle2(System.UInt32 x)
-    // Offset: 0x178E398
+    // Offset: 0x1BC5DB8
     static uint Shuffle2(uint x);
     // static System.UInt64 Unshuffle(System.UInt64 x)
-    // Offset: 0x179295C
+    // Offset: 0x1BCA37C
     static uint64_t Unshuffle(uint64_t x);
   }; // Org.BouncyCastle.Math.Raw.Interleave
   #pragma pack(pop)

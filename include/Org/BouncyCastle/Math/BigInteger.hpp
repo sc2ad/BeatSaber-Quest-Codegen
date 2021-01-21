@@ -160,316 +160,316 @@ namespace Org::BouncyCastle::Math {
     // Set static field: static private readonly System.Int32[] ExpWindowThresholds
     static void _set_ExpWindowThresholds(::Array<int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1058B8C
+    // Offset: 0x1193694
     static void _cctor();
     // static private System.Int32 GetByteLength(System.Int32 nBits)
-    // Offset: 0x105AC0C
+    // Offset: 0x1195714
     static int GetByteLength(int nBits);
     // static public Org.BouncyCastle.Math.BigInteger Arbitrary(System.Int32 sizeInBits)
-    // Offset: 0x105AC24
+    // Offset: 0x119572C
     static Org::BouncyCastle::Math::BigInteger* Arbitrary(int sizeInBits);
     // private System.Void .ctor(System.Int32 signum, System.Int32[] mag, System.Boolean checkMag)
-    // Offset: 0x105A768
+    // Offset: 0x1195270
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger* New_ctor(int signum, ::Array<int>* mag, bool checkMag) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(signum, mag, checkMag)));
     }
     // public System.Void .ctor(System.String value)
-    // Offset: 0x105ACB0
+    // Offset: 0x11957B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger* New_ctor(::Il2CppString* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(value)));
     }
     // public System.Void .ctor(System.String str, System.Int32 radix)
-    // Offset: 0x10495F8
+    // Offset: 0x1184100
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger* New_ctor(::Il2CppString* str, int radix) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(str, radix)));
     }
     // public System.Void .ctor(System.Byte[] bytes)
-    // Offset: 0x105AE10
+    // Offset: 0x1195918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger* New_ctor(::Array<uint8_t>* bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(bytes)));
     }
     // public System.Void .ctor(System.Byte[] bytes, System.Int32 offset, System.Int32 length)
-    // Offset: 0x105AE2C
+    // Offset: 0x1195934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger* New_ctor(::Array<uint8_t>* bytes, int offset, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(bytes, offset, length)));
     }
     // static private System.Int32[] MakeMagnitude(System.Byte[] bytes, System.Int32 offset, System.Int32 length)
-    // Offset: 0x105B0E4
+    // Offset: 0x1195BEC
     static ::Array<int>* MakeMagnitude(::Array<uint8_t>* bytes, int offset, int length);
     // public System.Void .ctor(System.Int32 sign, System.Byte[] bytes)
-    // Offset: 0x104CEC8
+    // Offset: 0x11879D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger* New_ctor(int sign, ::Array<uint8_t>* bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(sign, bytes)));
     }
     // public System.Void .ctor(System.Int32 sign, System.Byte[] bytes, System.Int32 offset, System.Int32 length)
-    // Offset: 0x104C49C
+    // Offset: 0x1186FA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger* New_ctor(int sign, ::Array<uint8_t>* bytes, int offset, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(sign, bytes, offset, length)));
     }
     // public System.Void .ctor(System.Int32 sizeInBits, System.Random random)
-    // Offset: 0x104D684
+    // Offset: 0x118818C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger* New_ctor(int sizeInBits, System::Random* random) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(sizeInBits, random)));
     }
     // public Org.BouncyCastle.Math.BigInteger Abs()
-    // Offset: 0x105B288
+    // Offset: 0x1195D90
     Org::BouncyCastle::Math::BigInteger* Abs();
     // static private System.Int32[] AddMagnitudes(System.Int32[] a, System.Int32[] b)
-    // Offset: 0x105B314
+    // Offset: 0x1195E1C
     static ::Array<int>* AddMagnitudes(::Array<int>* a, ::Array<int>* b);
     // public Org.BouncyCastle.Math.BigInteger Add(Org.BouncyCastle.Math.BigInteger value)
-    // Offset: 0x104C334
+    // Offset: 0x1186E3C
     Org::BouncyCastle::Math::BigInteger* Add(Org::BouncyCastle::Math::BigInteger* value);
     // private Org.BouncyCastle.Math.BigInteger AddToMagnitude(System.Int32[] magToAdd)
-    // Offset: 0x105B3DC
+    // Offset: 0x1195EE4
     Org::BouncyCastle::Math::BigInteger* AddToMagnitude(::Array<int>* magToAdd);
     // public System.Int32 get_BitCount()
-    // Offset: 0x105B564
+    // Offset: 0x119606C
     int get_BitCount();
     // static public System.Int32 BitCnt(System.Int32 i)
-    // Offset: 0x105B69C
+    // Offset: 0x11961A4
     static int BitCnt(int i);
     // static private System.Int32 CalcBitLength(System.Int32 sign, System.Int32 indx, System.Int32[] mag)
-    // Offset: 0x105B6D0
+    // Offset: 0x11961D8
     static int CalcBitLength(int sign, int indx, ::Array<int>* mag);
     // public System.Int32 get_BitLength()
-    // Offset: 0x10427D8
+    // Offset: 0x117D2E0
     int get_BitLength();
     // static System.Int32 BitLen(System.Int32 w)
-    // Offset: 0x105B7EC
+    // Offset: 0x11962F4
     static int BitLen(int w);
     // private System.Boolean QuickPow2Check()
-    // Offset: 0x105B974
+    // Offset: 0x119647C
     bool QuickPow2Check();
     // static private System.Int32 CompareTo(System.Int32 xIndx, System.Int32[] x, System.Int32 yIndx, System.Int32[] y)
-    // Offset: 0x105B998
+    // Offset: 0x11964A0
     static int CompareTo(int xIndx, ::Array<int>* x, int yIndx, ::Array<int>* y);
     // static private System.Int32 CompareNoLeadingZeroes(System.Int32 xIndx, System.Int32[] x, System.Int32 yIndx, System.Int32[] y)
-    // Offset: 0x105BA9C
+    // Offset: 0x11965A4
     static int CompareNoLeadingZeroes(int xIndx, ::Array<int>* x, int yIndx, ::Array<int>* y);
     // public System.Int32 CompareTo(Org.BouncyCastle.Math.BigInteger value)
-    // Offset: 0x104309C
+    // Offset: 0x117DBA4
     int CompareTo(Org::BouncyCastle::Math::BigInteger* value);
     // private System.Int32[] Divide(System.Int32[] x, System.Int32[] y)
-    // Offset: 0x105BB30
+    // Offset: 0x1196638
     ::Array<int>* Divide(::Array<int>* x, ::Array<int>* y);
     // public Org.BouncyCastle.Math.BigInteger Divide(Org.BouncyCastle.Math.BigInteger val)
-    // Offset: 0x105C530
+    // Offset: 0x1197038
     Org::BouncyCastle::Math::BigInteger* Divide(Org::BouncyCastle::Math::BigInteger* val);
     // public Org.BouncyCastle.Math.BigInteger[] DivideAndRemainder(Org.BouncyCastle.Math.BigInteger val)
-    // Offset: 0x105C710
+    // Offset: 0x1197218
     ::Array<Org::BouncyCastle::Math::BigInteger*>* DivideAndRemainder(Org::BouncyCastle::Math::BigInteger* val);
     // private System.Boolean IsEqualMagnitude(Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x105CC70
+    // Offset: 0x1197778
     bool IsEqualMagnitude(Org::BouncyCastle::Math::BigInteger* x);
     // public Org.BouncyCastle.Math.BigInteger Gcd(Org.BouncyCastle.Math.BigInteger value)
-    // Offset: 0x10491CC
+    // Offset: 0x1183CD4
     Org::BouncyCastle::Math::BigInteger* Gcd(Org::BouncyCastle::Math::BigInteger* value);
     // private Org.BouncyCastle.Math.BigInteger Inc()
-    // Offset: 0x105CD50
+    // Offset: 0x1197858
     Org::BouncyCastle::Math::BigInteger* Inc();
     // public System.Int32 get_IntValue()
-    // Offset: 0x1049170
+    // Offset: 0x1183C78
     int get_IntValue();
     // public System.Int64 get_LongValue()
-    // Offset: 0x105CF34
+    // Offset: 0x1197A3C
     int64_t get_LongValue();
     // public Org.BouncyCastle.Math.BigInteger Min(Org.BouncyCastle.Math.BigInteger value)
-    // Offset: 0x1055F14
+    // Offset: 0x1190A1C
     Org::BouncyCastle::Math::BigInteger* Min(Org::BouncyCastle::Math::BigInteger* value);
     // public Org.BouncyCastle.Math.BigInteger Mod(Org.BouncyCastle.Math.BigInteger m)
-    // Offset: 0x104C090
+    // Offset: 0x1186B98
     Org::BouncyCastle::Math::BigInteger* Mod(Org::BouncyCastle::Math::BigInteger* m);
     // public Org.BouncyCastle.Math.BigInteger ModInverse(Org.BouncyCastle.Math.BigInteger m)
-    // Offset: 0x1045BD0
+    // Offset: 0x11806D8
     Org::BouncyCastle::Math::BigInteger* ModInverse(Org::BouncyCastle::Math::BigInteger* m);
     // private Org.BouncyCastle.Math.BigInteger ModInversePow2(Org.BouncyCastle.Math.BigInteger m)
-    // Offset: 0x105D218
+    // Offset: 0x1197D20
     Org::BouncyCastle::Math::BigInteger* ModInversePow2(Org::BouncyCastle::Math::BigInteger* m);
     // static private System.Int32 ModInverse32(System.Int32 d)
-    // Offset: 0x105D5A8
+    // Offset: 0x11980B0
     static int ModInverse32(int d);
     // static private System.Int64 ModInverse64(System.Int64 d)
-    // Offset: 0x105D570
+    // Offset: 0x1198078
     static int64_t ModInverse64(int64_t d);
     // static private Org.BouncyCastle.Math.BigInteger ExtEuclid(Org.BouncyCastle.Math.BigInteger a, Org.BouncyCastle.Math.BigInteger b, out Org.BouncyCastle.Math.BigInteger u1Out)
-    // Offset: 0x105D438
+    // Offset: 0x1197F40
     static Org::BouncyCastle::Math::BigInteger* ExtEuclid(Org::BouncyCastle::Math::BigInteger* a, Org::BouncyCastle::Math::BigInteger* b, Org::BouncyCastle::Math::BigInteger*& u1Out);
     // public Org.BouncyCastle.Math.BigInteger ModPow(Org.BouncyCastle.Math.BigInteger e, Org.BouncyCastle.Math.BigInteger m)
-    // Offset: 0x1043CB8
+    // Offset: 0x117E7C0
     Org::BouncyCastle::Math::BigInteger* ModPow(Org::BouncyCastle::Math::BigInteger* e, Org::BouncyCastle::Math::BigInteger* m);
     // static private Org.BouncyCastle.Math.BigInteger ModPowBarrett(Org.BouncyCastle.Math.BigInteger b, Org.BouncyCastle.Math.BigInteger e, Org.BouncyCastle.Math.BigInteger m)
-    // Offset: 0x105D5D8
+    // Offset: 0x11980E0
     static Org::BouncyCastle::Math::BigInteger* ModPowBarrett(Org::BouncyCastle::Math::BigInteger* b, Org::BouncyCastle::Math::BigInteger* e, Org::BouncyCastle::Math::BigInteger* m);
     // static private Org.BouncyCastle.Math.BigInteger ReduceBarrett(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Math.BigInteger m, Org.BouncyCastle.Math.BigInteger mr, Org.BouncyCastle.Math.BigInteger yu)
-    // Offset: 0x105E324
+    // Offset: 0x1198E2C
     static Org::BouncyCastle::Math::BigInteger* ReduceBarrett(Org::BouncyCastle::Math::BigInteger* x, Org::BouncyCastle::Math::BigInteger* m, Org::BouncyCastle::Math::BigInteger* mr, Org::BouncyCastle::Math::BigInteger* yu);
     // static private Org.BouncyCastle.Math.BigInteger ModPowMonty(Org.BouncyCastle.Math.BigInteger b, Org.BouncyCastle.Math.BigInteger e, Org.BouncyCastle.Math.BigInteger m, System.Boolean convert)
-    // Offset: 0x105DB0C
+    // Offset: 0x1198614
     static Org::BouncyCastle::Math::BigInteger* ModPowMonty(Org::BouncyCastle::Math::BigInteger* b, Org::BouncyCastle::Math::BigInteger* e, Org::BouncyCastle::Math::BigInteger* m, bool convert);
     // static private System.Int32[] GetWindowList(System.Int32[] mag, System.Int32 extraBits)
-    // Offset: 0x105E444
+    // Offset: 0x1198F4C
     static ::Array<int>* GetWindowList(::Array<int>* mag, int extraBits);
     // static private System.Int32 CreateWindowEntry(System.Int32 mult, System.Int32 zeroes)
-    // Offset: 0x105F2D0
+    // Offset: 0x1199DD8
     static int CreateWindowEntry(int mult, int zeroes);
     // static private System.Int32[] Square(System.Int32[] w, System.Int32[] x)
-    // Offset: 0x105F2EC
+    // Offset: 0x1199DF4
     static ::Array<int>* Square(::Array<int>* w, ::Array<int>* x);
     // static private System.Int32[] Multiply(System.Int32[] x, System.Int32[] y, System.Int32[] z)
-    // Offset: 0x105F4A8
+    // Offset: 0x1199FB0
     static ::Array<int>* Multiply(::Array<int>* x, ::Array<int>* y, ::Array<int>* z);
     // private System.Int32 GetMQuote()
-    // Offset: 0x105E828
+    // Offset: 0x1199330
     int GetMQuote();
     // static private System.Void MontgomeryReduce(System.Int32[] x, System.Int32[] m, System.UInt32 mDash)
-    // Offset: 0x105F11C
+    // Offset: 0x1199C24
     static void MontgomeryReduce(::Array<int>* x, ::Array<int>* m, uint mDash);
     // static private System.Void MultiplyMonty(System.Int32[] a, System.Int32[] x, System.Int32[] y, System.Int32[] m, System.UInt32 mDash, System.Boolean smallMontyModulus)
-    // Offset: 0x105ED64
+    // Offset: 0x119986C
     static void MultiplyMonty(::Array<int>* a, ::Array<int>* x, ::Array<int>* y, ::Array<int>* m, uint mDash, bool smallMontyModulus);
     // static private System.Void SquareMonty(System.Int32[] a, System.Int32[] x, System.Int32[] m, System.UInt32 mDash, System.Boolean smallMontyModulus)
-    // Offset: 0x105E8F0
+    // Offset: 0x11993F8
     static void SquareMonty(::Array<int>* a, ::Array<int>* x, ::Array<int>* m, uint mDash, bool smallMontyModulus);
     // static private System.UInt32 MultiplyMontyNIsOne(System.UInt32 x, System.UInt32 y, System.UInt32 m, System.UInt32 mDash)
-    // Offset: 0x105F5D8
+    // Offset: 0x119A0E0
     static uint MultiplyMontyNIsOne(uint x, uint y, uint m, uint mDash);
     // public Org.BouncyCastle.Math.BigInteger Multiply(Org.BouncyCastle.Math.BigInteger val)
-    // Offset: 0x104C158
+    // Offset: 0x1186C60
     Org::BouncyCastle::Math::BigInteger* Multiply(Org::BouncyCastle::Math::BigInteger* val);
     // public Org.BouncyCastle.Math.BigInteger Square()
-    // Offset: 0x105E1D4
+    // Offset: 0x1198CDC
     Org::BouncyCastle::Math::BigInteger* Square();
     // public Org.BouncyCastle.Math.BigInteger Negate()
-    // Offset: 0x105B298
+    // Offset: 0x1195DA0
     Org::BouncyCastle::Math::BigInteger* Negate();
     // public Org.BouncyCastle.Math.BigInteger Not()
-    // Offset: 0x105B680
+    // Offset: 0x1196188
     Org::BouncyCastle::Math::BigInteger* Not();
     // public Org.BouncyCastle.Math.BigInteger Pow(System.Int32 exp)
-    // Offset: 0x105AA40
+    // Offset: 0x1195548
     Org::BouncyCastle::Math::BigInteger* Pow(int exp);
     // private System.Int32 Remainder(System.Int32 m)
-    // Offset: 0x105F604
+    // Offset: 0x119A10C
     int Remainder(int m);
     // static private System.Int32[] Remainder(System.Int32[] x, System.Int32[] y)
-    // Offset: 0x105F67C
+    // Offset: 0x119A184
     static ::Array<int>* Remainder(::Array<int>* x, ::Array<int>* y);
     // public Org.BouncyCastle.Math.BigInteger Remainder(Org.BouncyCastle.Math.BigInteger n)
-    // Offset: 0x105CFB0
+    // Offset: 0x1197AB8
     Org::BouncyCastle::Math::BigInteger* Remainder(Org::BouncyCastle::Math::BigInteger* n);
     // private System.Int32[] LastNBits(System.Int32 n)
-    // Offset: 0x105CA4C
+    // Offset: 0x1197554
     ::Array<int>* LastNBits(int n);
     // private Org.BouncyCastle.Math.BigInteger DivideWords(System.Int32 w)
-    // Offset: 0x105E668
+    // Offset: 0x1199170
     Org::BouncyCastle::Math::BigInteger* DivideWords(int w);
     // private Org.BouncyCastle.Math.BigInteger RemainderWords(System.Int32 w)
-    // Offset: 0x105E760
+    // Offset: 0x1199268
     Org::BouncyCastle::Math::BigInteger* RemainderWords(int w);
     // static private System.Int32[] ShiftLeft(System.Int32[] mag, System.Int32 n)
-    // Offset: 0x105C09C
+    // Offset: 0x1196BA4
     static ::Array<int>* ShiftLeft(::Array<int>* mag, int n);
     // public Org.BouncyCastle.Math.BigInteger ShiftLeft(System.Int32 n)
-    // Offset: 0x105ACB8
+    // Offset: 0x11957C0
     Org::BouncyCastle::Math::BigInteger* ShiftLeft(int n);
     // static private System.Void ShiftRightInPlace(System.Int32 start, System.Int32[] mag, System.Int32 n)
-    // Offset: 0x105C3D4
+    // Offset: 0x1196EDC
     static void ShiftRightInPlace(int start, ::Array<int>* mag, int n);
     // static private System.Void ShiftRightOneInPlace(System.Int32 start, System.Int32[] mag)
-    // Offset: 0x105C320
+    // Offset: 0x1196E28
     static void ShiftRightOneInPlace(int start, ::Array<int>* mag);
     // public Org.BouncyCastle.Math.BigInteger ShiftRight(System.Int32 n)
-    // Offset: 0x10438AC
+    // Offset: 0x117E3B4
     Org::BouncyCastle::Math::BigInteger* ShiftRight(int n);
     // public System.Int32 get_SignValue()
-    // Offset: 0x105FA68
+    // Offset: 0x119A570
     int get_SignValue();
     // static private System.Int32[] Subtract(System.Int32 xStart, System.Int32[] x, System.Int32 yStart, System.Int32[] y)
-    // Offset: 0x105C258
+    // Offset: 0x1196D60
     static ::Array<int>* Subtract(int xStart, ::Array<int>* x, int yStart, ::Array<int>* y);
     // public Org.BouncyCastle.Math.BigInteger Subtract(Org.BouncyCastle.Math.BigInteger n)
-    // Offset: 0x1043160
+    // Offset: 0x117DC68
     Org::BouncyCastle::Math::BigInteger* Subtract(Org::BouncyCastle::Math::BigInteger* n);
     // static private System.Int32[] doSubBigLil(System.Int32[] bigMag, System.Int32[] lilMag)
-    // Offset: 0x105CE74
+    // Offset: 0x119797C
     static ::Array<int>* doSubBigLil(::Array<int>* bigMag, ::Array<int>* lilMag);
     // public System.Byte[] ToByteArray()
-    // Offset: 0x105FA70
+    // Offset: 0x119A578
     ::Array<uint8_t>* ToByteArray();
     // public System.Byte[] ToByteArrayUnsigned()
-    // Offset: 0x104FE10
+    // Offset: 0x118A918
     ::Array<uint8_t>* ToByteArrayUnsigned();
     // private System.Byte[] ToByteArray(System.Boolean unsigned)
-    // Offset: 0x105FA78
+    // Offset: 0x119A580
     ::Array<uint8_t>* ToByteArray(bool _unsigned);
     // public System.String ToString(System.Int32 radix)
-    // Offset: 0x105FE54
+    // Offset: 0x119A95C
     ::Il2CppString* ToString(int radix);
     // static private System.Void ToString(System.Text.StringBuilder sb, System.Int32 radix, System.Collections.IList moduli, System.Int32 scale, Org.BouncyCastle.Math.BigInteger pos)
-    // Offset: 0x1060764
+    // Offset: 0x119B26C
     static void ToString(System::Text::StringBuilder* sb, int radix, System::Collections::IList* moduli, int scale, Org::BouncyCastle::Math::BigInteger* pos);
     // static private System.Void AppendZeroExtendedString(System.Text.StringBuilder sb, System.String s, System.Int32 minLength)
-    // Offset: 0x10606FC
+    // Offset: 0x119B204
     static void AppendZeroExtendedString(System::Text::StringBuilder* sb, ::Il2CppString* s, int minLength);
     // static private Org.BouncyCastle.Math.BigInteger CreateUValueOf(System.UInt64 value)
-    // Offset: 0x105A8E8
+    // Offset: 0x11953F0
     static Org::BouncyCastle::Math::BigInteger* CreateUValueOf(uint64_t value);
     // static private Org.BouncyCastle.Math.BigInteger CreateValueOf(System.Int64 value)
-    // Offset: 0x1060A18
+    // Offset: 0x119B520
     static Org::BouncyCastle::Math::BigInteger* CreateValueOf(int64_t value);
     // static public Org.BouncyCastle.Math.BigInteger ValueOf(System.Int64 value)
-    // Offset: 0x104D040
+    // Offset: 0x1187B48
     static Org::BouncyCastle::Math::BigInteger* ValueOf(int64_t value);
     // public System.Int32 GetLowestSetBit()
-    // Offset: 0x1060AE8
+    // Offset: 0x119B5F0
     int GetLowestSetBit();
     // private System.Int32 GetLowestSetBitMaskFirst(System.Int32 firstWordMask)
-    // Offset: 0x1060B00
+    // Offset: 0x119B608
     int GetLowestSetBitMaskFirst(int firstWordMask);
     // public System.Boolean TestBit(System.Int32 n)
-    // Offset: 0x1042F94
+    // Offset: 0x117DA9C
     bool TestBit(int n);
     // public Org.BouncyCastle.Math.BigInteger Or(Org.BouncyCastle.Math.BigInteger value)
-    // Offset: 0x1060BA4
+    // Offset: 0x119B6AC
     Org::BouncyCastle::Math::BigInteger* Or(Org::BouncyCastle::Math::BigInteger* value);
     // public Org.BouncyCastle.Math.BigInteger Xor(Org.BouncyCastle.Math.BigInteger value)
-    // Offset: 0x1060E2C
+    // Offset: 0x119B934
     Org::BouncyCastle::Math::BigInteger* Xor(Org::BouncyCastle::Math::BigInteger* value);
     // public Org.BouncyCastle.Math.BigInteger SetBit(System.Int32 n)
-    // Offset: 0x10610B8
+    // Offset: 0x119BBC0
     Org::BouncyCastle::Math::BigInteger* SetBit(int n);
     // private Org.BouncyCastle.Math.BigInteger FlipExistingBit(System.Int32 n)
-    // Offset: 0x10611E4
+    // Offset: 0x119BCEC
     Org::BouncyCastle::Math::BigInteger* FlipExistingBit(int n);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x105CBA8
+    // Offset: 0x11976B0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x105CCF8
+    // Offset: 0x1197800
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x105FE4C
+    // Offset: 0x119A954
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

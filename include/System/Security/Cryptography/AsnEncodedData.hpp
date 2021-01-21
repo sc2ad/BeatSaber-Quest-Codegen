@@ -39,63 +39,63 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: AsnEncodedData
     AsnEncodedData(System::Security::Cryptography::Oid* oid_ = {}, ::Array<uint8_t>* raw_ = {}) noexcept : oid{oid_}, raw{raw_} {}
     // public System.Void .ctor(System.String oid, System.Byte[] rawData)
-    // Offset: 0x122AE70
+    // Offset: 0x1447B6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsnEncodedData* New_ctor(::Il2CppString* oid, ::Array<uint8_t>* rawData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::AsnEncodedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsnEncodedData*, creationType>(oid, rawData)));
     }
     // public System.Void .ctor(System.Security.Cryptography.Oid oid, System.Byte[] rawData)
-    // Offset: 0x122AFD8
+    // Offset: 0x1447CD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsnEncodedData* New_ctor(System::Security::Cryptography::Oid* oid, ::Array<uint8_t>* rawData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::AsnEncodedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsnEncodedData*, creationType>(oid, rawData)));
     }
     // public System.Security.Cryptography.Oid get_Oid()
-    // Offset: 0x122B0AC
+    // Offset: 0x1447DA8
     System::Security::Cryptography::Oid* get_Oid();
     // public System.Void set_Oid(System.Security.Cryptography.Oid value)
-    // Offset: 0x122B020
+    // Offset: 0x1447D1C
     void set_Oid(System::Security::Cryptography::Oid* value);
     // public System.Byte[] get_RawData()
-    // Offset: 0x122B0B4
+    // Offset: 0x1447DB0
     ::Array<uint8_t>* get_RawData();
     // public System.Void set_RawData(System.Byte[] value)
-    // Offset: 0x122AF04
+    // Offset: 0x1447C00
     void set_RawData(::Array<uint8_t>* value);
     // public System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x122B0BC
+    // Offset: 0x1447DB8
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // public System.String Format(System.Boolean multiLine)
-    // Offset: 0x122B190
+    // Offset: 0x1447E8C
     ::Il2CppString* Format(bool multiLine);
     // System.String ToString(System.Boolean multiLine)
-    // Offset: 0x122B350
+    // Offset: 0x144804C
     ::Il2CppString* ToString(bool multiLine);
     // System.String Default(System.Boolean multiLine)
-    // Offset: 0x122B238
+    // Offset: 0x1447F34
     ::Il2CppString* Default(bool multiLine);
     // System.String BasicConstraintsExtension(System.Boolean multiLine)
-    // Offset: 0x122B4EC
+    // Offset: 0x14481E8
     ::Il2CppString* BasicConstraintsExtension(bool multiLine);
     // System.String EnhancedKeyUsageExtension(System.Boolean multiLine)
-    // Offset: 0x122B604
+    // Offset: 0x1448300
     ::Il2CppString* EnhancedKeyUsageExtension(bool multiLine);
     // System.String KeyUsageExtension(System.Boolean multiLine)
-    // Offset: 0x122B71C
+    // Offset: 0x1448418
     ::Il2CppString* KeyUsageExtension(bool multiLine);
     // System.String SubjectKeyIdentifierExtension(System.Boolean multiLine)
-    // Offset: 0x122B834
+    // Offset: 0x1448530
     ::Il2CppString* SubjectKeyIdentifierExtension(bool multiLine);
     // System.String SubjectAltName(System.Boolean multiLine)
-    // Offset: 0x122B94C
+    // Offset: 0x1448648
     ::Il2CppString* SubjectAltName(bool multiLine);
     // System.String NetscapeCertType(System.Boolean multiLine)
-    // Offset: 0x122BCC8
+    // Offset: 0x14489C4
     ::Il2CppString* NetscapeCertType(bool multiLine);
     // protected System.Void .ctor()
-    // Offset: 0x122AE68
+    // Offset: 0x1447B64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

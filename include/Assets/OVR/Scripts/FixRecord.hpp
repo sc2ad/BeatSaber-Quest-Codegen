@@ -64,7 +64,7 @@ namespace Assets::OVR::Scripts {
     // Creating value type constructor for type: FixRecord
     FixRecord(Assets::OVR::Scripts::FixMethodDelegate* fixMethod_ = {}, UnityEngine::Object* targetObject_ = {}, ::Array<::Il2CppString*>* buttonNames_ = {}, bool editModeRequired_ = {}, bool complete_ = {}) noexcept : fixMethod{fixMethod_}, targetObject{targetObject_}, buttonNames{buttonNames_}, editModeRequired{editModeRequired_}, complete{complete_} {}
     // public System.Void .ctor(System.String cat, System.String msg, Assets.OVR.Scripts.FixMethodDelegate fix, UnityEngine.Object target, System.Boolean editRequired, System.String[] buttons)
-    // Offset: 0x11E8928
+    // Offset: 0x141A480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixRecord* New_ctor(::Il2CppString* cat, ::Il2CppString* msg, Assets::OVR::Scripts::FixMethodDelegate* fix, UnityEngine::Object* target, bool editRequired, ::Array<::Il2CppString*>* buttons) {
       static auto ___internal__logger = ::Logger::get().WithContext("Assets::OVR::Scripts::FixRecord::.ctor");

@@ -29,21 +29,21 @@ namespace Mono::Math::Prime::Generator {
     // Creating value type constructor for type: SequentialSearchPrimeGeneratorBase
     SequentialSearchPrimeGeneratorBase() noexcept {}
     // protected Mono.Math.BigInteger GenerateSearchBase(System.Int32 bits, System.Object context)
-    // Offset: 0x17ADFC0
+    // Offset: 0x1BE69E0
     Mono::Math::BigInteger* GenerateSearchBase(int bits, ::Il2CppObject* context);
     // public Mono.Math.BigInteger GenerateNewPrime(System.Int32 bits, System.Object context)
-    // Offset: 0x17AE054
+    // Offset: 0x1BE6A74
     Mono::Math::BigInteger* GenerateNewPrime(int bits, ::Il2CppObject* context);
     // protected System.Boolean IsPrimeAcceptable(Mono.Math.BigInteger bi, System.Object context)
-    // Offset: 0x17AE788
+    // Offset: 0x1BE71A8
     bool IsPrimeAcceptable(Mono::Math::BigInteger* bi, ::Il2CppObject* context);
     // public override Mono.Math.BigInteger GenerateNewPrime(System.Int32 bits)
-    // Offset: 0x17AE044
+    // Offset: 0x1BE6A64
     // Implemented from: Mono.Math.Prime.Generator.PrimeGeneratorBase
     // Base method: Mono.Math.BigInteger PrimeGeneratorBase::GenerateNewPrime(System.Int32 bits)
     Mono::Math::BigInteger* GenerateNewPrime(int bits);
     // public System.Void .ctor()
-    // Offset: 0x17ACE50
+    // Offset: 0x1BE5870
     // Implemented from: Mono.Math.Prime.Generator.PrimeGeneratorBase
     // Base method: System.Void PrimeGeneratorBase::.ctor()
     // Base method: System.Void Object::.ctor()

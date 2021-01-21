@@ -179,7 +179,7 @@ namespace Org::BouncyCastle::Asn1::Misc {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_scrypt
     static void _set_id_scrypt(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x13F5CE8
+    // Offset: 0x16E2BB4
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Misc.MiscObjectIdentifiers
   #pragma pack(pop)

@@ -39,7 +39,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class TrailTester : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IBladeMovementData*/ {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xDC0D88
+    // [FormerlySerializedAsAttribute] Offset: 0xD32C4C
     // private UnityEngine.Color _trailColor
     // Size: 0x10
     // Offset: 0x18
@@ -106,14 +106,14 @@ namespace GlobalNamespace {
     GlobalNamespace::TestSaberModulationData* saberRotation;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TestSaberModulationData*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC0E74
+    // [CompilerGeneratedAttribute] Offset: 0xD32D38
     // private BladeMovementDataElement <lastAddedData>k__BackingField
     // Size: 0x2C
     // Offset: 0x78
     GlobalNamespace::BladeMovementDataElement lastAddedData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BladeMovementDataElement) == 0x2C);
-    // [CompilerGeneratedAttribute] Offset: 0xDC0E84
+    // [CompilerGeneratedAttribute] Offset: 0xD32D48
     // private BladeMovementDataElement <prevAddedData>k__BackingField
     // Size: 0x2C
     // Offset: 0xA4
@@ -129,34 +129,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void set_lastAddedData(BladeMovementDataElement value)
-    // Offset: 0xFEF288
+    // Offset: 0xF47D10
     void set_lastAddedData(GlobalNamespace::BladeMovementDataElement value);
     // private System.Void set_prevAddedData(BladeMovementDataElement value)
-    // Offset: 0xFEF2C0
+    // Offset: 0xF47D48
     void set_prevAddedData(GlobalNamespace::BladeMovementDataElement value);
     // protected System.Void Awake()
-    // Offset: 0xFEF2E0
+    // Offset: 0xF47D68
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xFEF308
+    // Offset: 0xF47D90
     void Update();
     // public System.Single get_bladeSpeed()
-    // Offset: 0xFEF268
+    // Offset: 0xF47CF0
     // Implemented from: IBladeMovementData
     // Base method: System.Single IBladeMovementData::get_bladeSpeed()
     float get_bladeSpeed();
     // public BladeMovementDataElement get_lastAddedData()
-    // Offset: 0xFEF270
+    // Offset: 0xF47CF8
     // Implemented from: IBladeMovementData
     // Base method: BladeMovementDataElement IBladeMovementData::get_lastAddedData()
     GlobalNamespace::BladeMovementDataElement get_lastAddedData();
     // public BladeMovementDataElement get_prevAddedData()
-    // Offset: 0xFEF2A8
+    // Offset: 0xF47D30
     // Implemented from: IBladeMovementData
     // Base method: BladeMovementDataElement IBladeMovementData::get_prevAddedData()
     GlobalNamespace::BladeMovementDataElement get_prevAddedData();
     // public System.Void .ctor()
-    // Offset: 0xFEF5F8
+    // Offset: 0xF48080
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

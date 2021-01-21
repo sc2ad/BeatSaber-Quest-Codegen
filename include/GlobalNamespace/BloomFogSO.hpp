@@ -67,54 +67,54 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kBloomFogEnabledKeyword();
     // Set static field: static private System.String kBloomFogEnabledKeyword
     static void _set_kBloomFogEnabledKeyword(::Il2CppString* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDA4478
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD160C8
     // Get static field: static private readonly System.Int32 _customFogAttenuationID
     static int _get__customFogAttenuationID();
     // Set static field: static private readonly System.Int32 _customFogAttenuationID
     static void _set__customFogAttenuationID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDA4488
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD160D8
     // Get static field: static private readonly System.Int32 _customFogOffsetID
     static int _get__customFogOffsetID();
     // Set static field: static private readonly System.Int32 _customFogOffsetID
     static void _set__customFogOffsetID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDA4498
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD160E8
     // Get static field: static private readonly System.Int32 _customFogHeightFogStartYID
     static int _get__customFogHeightFogStartYID();
     // Set static field: static private readonly System.Int32 _customFogHeightFogStartYID
     static void _set__customFogHeightFogStartYID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDA44A8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD160F8
     // Get static field: static private readonly System.Int32 _customFogHeightFogHeightID
     static int _get__customFogHeightFogHeightID();
     // Set static field: static private readonly System.Int32 _customFogHeightFogHeightID
     static void _set__customFogHeightFogHeightID(int value);
     // public System.Void set_transition(System.Single value)
-    // Offset: 0x18733FC
+    // Offset: 0x1D96DDC
     void set_transition(float value);
     // public System.Single get_transition()
-    // Offset: 0x18737DC
+    // Offset: 0x1D971BC
     float get_transition();
     // public System.Void set_bloomFogEnabled(System.Boolean value)
-    // Offset: 0x18734CC
+    // Offset: 0x1D96EAC
     void set_bloomFogEnabled(bool value);
     // public System.Boolean get_bloomFogEnabled()
-    // Offset: 0x18737E4
+    // Offset: 0x1D971C4
     bool get_bloomFogEnabled();
     // public System.Void Setup(BloomFogEnvironmentParams fog0Params, BloomFogEnvironmentParams fog1Params)
-    // Offset: 0x1873414
+    // Offset: 0x1D96DF4
     void Setup(GlobalNamespace::BloomFogEnvironmentParams* fog0Params, GlobalNamespace::BloomFogEnvironmentParams* fog1Params);
     // public System.Void UpdateShaderParams()
-    // Offset: 0x1873554
+    // Offset: 0x1D96F34
     void UpdateShaderParams();
     // static private System.Void SetParams(System.Single attenuation, System.Single offset, System.Single heightFogStartY, System.Single heightFogHeight)
-    // Offset: 0x1873814
+    // Offset: 0x1D971F4
     static void SetParams(float attenuation, float offset, float heightFogStartY, float heightFogHeight);
     // protected override System.Void OnEnable()
-    // Offset: 0x18737EC
+    // Offset: 0x1D971CC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x18738EC
+    // Offset: 0x1D972CC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -126,7 +126,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomFogSO*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x18738FC
+    // Offset: 0x1D972DC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

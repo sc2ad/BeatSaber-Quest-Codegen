@@ -36,6 +36,9 @@ namespace GlobalNamespace {
     // public MenuDestination get_currentMenuDestinationRequest()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();
+    // public System.Void set_currentMenuDestinationRequest(MenuDestination value)
+    // Offset: 0xFFFFFFFF
+    void set_currentMenuDestinationRequest(GlobalNamespace::MenuDestination* value);
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear();

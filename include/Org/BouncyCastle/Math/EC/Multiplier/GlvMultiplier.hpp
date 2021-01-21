@@ -53,14 +53,14 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Creating value type constructor for type: GlvMultiplier
     GlvMultiplier(Org::BouncyCastle::Math::EC::ECCurve* curve_ = {}, Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism_ = {}) noexcept : curve{curve_}, glvEndomorphism{glvEndomorphism_} {}
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.Endo.GlvEndomorphism glvEndomorphism)
-    // Offset: 0x17843CC
+    // Offset: 0x1BBBDEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GlvMultiplier* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GlvMultiplier*, creationType>(curve, glvEndomorphism)));
     }
     // protected override Org.BouncyCastle.Math.EC.ECPoint MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x17844A8
+    // Offset: 0x1BBBEC8
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECMultiplier::MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
     Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k);

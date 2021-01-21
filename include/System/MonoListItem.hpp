@@ -32,7 +32,7 @@ namespace System {
     // Creating value type constructor for type: MonoListItem
     MonoListItem(System::MonoListItem* next_ = {}, ::Il2CppObject* data_ = {}) noexcept : next{next_}, data{data_} {}
     // public System.Void .ctor()
-    // Offset: 0x1711EA0
+    // Offset: 0x1B188D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

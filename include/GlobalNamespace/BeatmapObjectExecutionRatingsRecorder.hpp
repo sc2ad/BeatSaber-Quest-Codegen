@@ -53,28 +53,28 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler
     class CutScoreHandler;
-    // [InjectAttribute] Offset: 0xDC542C
+    // [InjectAttribute] Offset: 0xD373E0
     // private readonly ScoreController _scoreController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::ScoreController* scoreController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC543C
+    // [InjectAttribute] Offset: 0xD373F0
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC544C
+    // [InjectAttribute] Offset: 0xD37400
     // private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeadAndObstacleInteraction*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC545C
+    // [InjectAttribute] Offset: 0xD37410
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x30
@@ -116,31 +116,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.List`1<BeatmapObjectExecutionRating> get_beatmapObjectExecutionRatings()
-    // Offset: 0x1A272EC
+    // Offset: 0xF58020
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();
     // protected System.Void Start()
-    // Offset: 0x1A272F4
+    // Offset: 0xF58028
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1A275D8
+    // Offset: 0xF5830C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1A277EC
+    // Offset: 0xF58520
     void Update();
     // private System.Void HandleCutScoreHandlerDidFinish(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler)
-    // Offset: 0x1A27A08
+    // Offset: 0xF5873C
     void HandleCutScoreHandlerDidFinish(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler* cutScoreHandler);
     // private System.Void HandleScoreControllerNoteWasCut(NoteData noteData, NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0x1A27A8C
+    // Offset: 0xF587C0
     void HandleScoreControllerNoteWasCut(GlobalNamespace::NoteData* noteData, GlobalNamespace::NoteCutInfo* noteCutInfo, int multiplier);
     // private System.Void HandleScoreControllerNoteWasMissed(NoteData noteData, System.Int32 multiplier)
-    // Offset: 0x1A27E24
+    // Offset: 0xF58B58
     void HandleScoreControllerNoteWasMissed(GlobalNamespace::NoteData* noteData, int multiplier);
     // private System.Void HandleObstacleDidPassAvoidedMark(ObstacleController obstacleController)
-    // Offset: 0x1A27F08
+    // Offset: 0xF58C3C
     void HandleObstacleDidPassAvoidedMark(GlobalNamespace::ObstacleController* obstacleController);
     // public System.Void .ctor()
-    // Offset: 0x1A27FFC
+    // Offset: 0xF58D30
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

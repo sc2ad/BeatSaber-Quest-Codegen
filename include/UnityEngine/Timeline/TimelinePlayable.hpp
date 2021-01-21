@@ -112,48 +112,48 @@ namespace UnityEngine::Timeline {
     // Set static field: static System.Boolean muteAudioScrubbing
     static void _set_muteAudioScrubbing(bool value);
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.TimelinePlayable> Create(UnityEngine.Playables.PlayableGraph graph, System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.TrackAsset> tracks, UnityEngine.GameObject go, System.Boolean autoRebalance, System.Boolean createOutputs)
-    // Offset: 0x1969C7C
+    // Offset: 0x2232970
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::TimelinePlayable*> Create(UnityEngine::Playables::PlayableGraph graph, System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* tracks, UnityEngine::GameObject* go, bool autoRebalance, bool createOutputs);
     // public System.Void Compile(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.Playable timelinePlayable, System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.TrackAsset> tracks, UnityEngine.GameObject go, System.Boolean autoRebalance, System.Boolean createOutputs)
-    // Offset: 0x1969E48
+    // Offset: 0x2232B3C
     void Compile(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Playables::Playable timelinePlayable, System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* tracks, UnityEngine::GameObject* go, bool autoRebalance, bool createOutputs);
     // private System.Void CompileTrackList(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.Playable timelinePlayable, System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.TrackAsset> tracks, UnityEngine.GameObject go, System.Boolean createOutputs)
-    // Offset: 0x196A070
+    // Offset: 0x2232D64
     void CompileTrackList(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Playables::Playable timelinePlayable, System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* tracks, UnityEngine::GameObject* go, bool createOutputs);
     // private System.Void CreateTrackOutput(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Timeline.TrackAsset track, UnityEngine.GameObject go, UnityEngine.Playables.Playable playable, System.Int32 port)
-    // Offset: 0x196AC90
+    // Offset: 0x2233984
     void CreateTrackOutput(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Timeline::TrackAsset* track, UnityEngine::GameObject* go, UnityEngine::Playables::Playable playable, int port);
     // private System.Void EvaluateWeightsForAnimationPlayableOutput(UnityEngine.Timeline.TrackAsset track, UnityEngine.Animations.AnimationPlayableOutput animOutput)
-    // Offset: 0x196B228
+    // Offset: 0x2233F1C
     void EvaluateWeightsForAnimationPlayableOutput(UnityEngine::Timeline::TrackAsset* track, UnityEngine::Animations::AnimationPlayableOutput animOutput);
     // private System.Void EvaluateAnimationPreviewUpdateCallback(UnityEngine.Timeline.TrackAsset track, UnityEngine.Animations.AnimationPlayableOutput animOutput)
-    // Offset: 0x196B2BC
+    // Offset: 0x2233FB0
     void EvaluateAnimationPreviewUpdateCallback(UnityEngine::Timeline::TrackAsset* track, UnityEngine::Animations::AnimationPlayableOutput animOutput);
     // static private UnityEngine.Playables.Playable CreatePlayableGraph(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Timeline.TrackAsset asset, UnityEngine.GameObject go, UnityEngine.Timeline.IntervalTree`1<UnityEngine.Timeline.RuntimeElement> tree, UnityEngine.Playables.Playable timelinePlayable)
-    // Offset: 0x196B350
+    // Offset: 0x2234044
     static UnityEngine::Playables::Playable CreatePlayableGraph(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Timeline::TrackAsset* asset, UnityEngine::GameObject* go, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>* tree, UnityEngine::Playables::Playable timelinePlayable);
     // private UnityEngine.Playables.Playable CreateTrackPlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.Playable timelinePlayable, UnityEngine.Timeline.TrackAsset track, UnityEngine.GameObject go, System.Boolean createOutputs)
-    // Offset: 0x196A838
+    // Offset: 0x223352C
     UnityEngine::Playables::Playable CreateTrackPlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Playables::Playable timelinePlayable, UnityEngine::Timeline::TrackAsset* track, UnityEngine::GameObject* go, bool createOutputs);
     // private System.Void Evaluate(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x196B6F0
+    // Offset: 0x22343E4
     void Evaluate(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData frameData);
     // private System.Void CacheTrack(UnityEngine.Timeline.TrackAsset track, UnityEngine.Playables.Playable playable, System.Int32 port, UnityEngine.Playables.Playable parent)
-    // Offset: 0x196B640
+    // Offset: 0x2234334
     void CacheTrack(UnityEngine::Timeline::TrackAsset* track, UnityEngine::Playables::Playable playable, int port, UnityEngine::Playables::Playable parent);
     // static private System.Void ForAOTCompilationOnly()
-    // Offset: 0x196BC5C
+    // Offset: 0x2234950
     static void ForAOTCompilationOnly();
     // static private System.Void .cctor()
-    // Offset: 0x196BDCC
+    // Offset: 0x2234AC0
     static void _cctor();
     // public override System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x196B6C0
+    // Offset: 0x22343B4
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void .ctor()
-    // Offset: 0x196BCB4
+    // Offset: 0x22349A8
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()

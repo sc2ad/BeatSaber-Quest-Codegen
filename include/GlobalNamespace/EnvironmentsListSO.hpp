@@ -45,19 +45,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public EnvironmentInfoSO[] get_environmentInfos()
-    // Offset: 0x1A0ED28
+    // Offset: 0xF28AC8
     ::Array<GlobalNamespace::EnvironmentInfoSO*>* get_environmentInfos();
     // public EnvironmentInfoSO GetEnviromentInfoBySerializedName(System.String environmentSerializedName)
-    // Offset: 0x1A0ED30
+    // Offset: 0xF28AD0
     GlobalNamespace::EnvironmentInfoSO* GetEnviromentInfoBySerializedName(::Il2CppString* environmentSerializedName);
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> GetAllEnvironmentInfosWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0x1A0D89C
+    // Offset: 0xF27540
     System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* GetAllEnvironmentInfosWithType(GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public EnvironmentInfoSO GetFirstEnvironmentInfoWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0x1A0EDBC
+    // Offset: 0xF28B5C
     GlobalNamespace::EnvironmentInfoSO* GetFirstEnvironmentInfoWithType(GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public System.Void .ctor()
-    // Offset: 0x1A0EE34
+    // Offset: 0xF28BD4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

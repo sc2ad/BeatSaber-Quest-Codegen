@@ -33,20 +33,20 @@ namespace UnityEngine {
     // Creating value type constructor for type: SkinChangedDelegate
     SkinChangedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x160D44C
+    // Offset: 0x198CFD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUISkin::SkinChangedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUISkin::SkinChangedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUISkin::SkinChangedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x160D190
+    // Offset: 0x198CD14
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x160D460
+    // Offset: 0x198CFE4
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x160D48C
+    // Offset: 0x198D010
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.GUISkin/SkinChangedDelegate
   #pragma pack(pop)

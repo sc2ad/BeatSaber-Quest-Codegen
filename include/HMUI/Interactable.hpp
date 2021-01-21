@@ -30,13 +30,13 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_interactable()
-    // Offset: 0x107ACB4
+    // Offset: 0x11B67BC
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x107ACBC
+    // Offset: 0x11B67C4
     void set_interactable(bool value);
     // public System.Void .ctor()
-    // Offset: 0x107ACC8
+    // Offset: 0x11B67D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

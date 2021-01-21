@@ -31,19 +31,19 @@ namespace System {
     // Set static field: static readonly System.__Filters Instance
     static void _set_Instance(System::__Filters* value);
     // System.Boolean FilterAttribute(System.Reflection.MemberInfo m, System.Object filterCriteria)
-    // Offset: 0x19E2D88
+    // Offset: 0x22B1894
     bool FilterAttribute(System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria);
     // System.Boolean FilterName(System.Reflection.MemberInfo m, System.Object filterCriteria)
-    // Offset: 0x19E30E0
+    // Offset: 0x22B1BEC
     bool FilterName(System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria);
     // System.Boolean FilterIgnoreCase(System.Reflection.MemberInfo m, System.Object filterCriteria)
-    // Offset: 0x19E3278
+    // Offset: 0x22B1D84
     bool FilterIgnoreCase(System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria);
     // static private System.Void .cctor()
-    // Offset: 0x19E3428
+    // Offset: 0x22B1F34
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x19E3420
+    // Offset: 0x22B1F2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

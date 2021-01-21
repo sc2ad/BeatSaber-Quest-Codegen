@@ -53,28 +53,28 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerSpectatingSpotManager
     MultiplayerSpectatingSpotManager(System::Collections::Generic::List_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* spectatingSpots_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::IMultiplayerSpectatingSpot*, int>* spotIndexBySpot_ = {}) noexcept : spectatingSpots{spectatingSpots_}, spotIndexBySpot{spotIndexBySpot_} {}
     // public System.Collections.Generic.IReadOnlyList`1<IMultiplayerSpectatingSpot> get_spectatingSpots()
-    // Offset: 0xFD334C
+    // Offset: 0xF82288
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* get_spectatingSpots();
     // public IMultiplayerSpectatingSpot get_defaultSpot()
-    // Offset: 0xFD3354
+    // Offset: 0xF82290
     GlobalNamespace::IMultiplayerSpectatingSpot* get_defaultSpot();
     // public System.Void RegisterSpectatingSpot(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0xFD3484
+    // Offset: 0xF823C0
     void RegisterSpectatingSpot(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // public IMultiplayerSpectatingSpot GetAdjacentSpot(IMultiplayerSpectatingSpot spectatingSpot, System.Int32 offset)
-    // Offset: 0xFD3714
+    // Offset: 0xF82650
     GlobalNamespace::IMultiplayerSpectatingSpot* GetAdjacentSpot(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot, int offset);
     // private System.Int32 GetIndexBySpot(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0xFD37C4
+    // Offset: 0xF82700
     int GetIndexBySpot(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // private System.Void UpdateIndexBySpotDictionary()
-    // Offset: 0xFD3598
+    // Offset: 0xF824D4
     void UpdateIndexBySpotDictionary();
     // private System.Void SpotOnHasBeenRemoved(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0xFD3850
+    // Offset: 0xF8278C
     void SpotOnHasBeenRemoved(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // public System.Void .ctor()
-    // Offset: 0xFD3968
+    // Offset: 0xF828A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

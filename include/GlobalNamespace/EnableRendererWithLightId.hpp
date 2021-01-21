@@ -51,12 +51,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EnableRendererWithLightId
     EnableRendererWithLightId(UnityEngine::Renderer* renderer_ = {}, float hideAlphaRangeMin_ = {}, float hideAlphaRangeMax_ = {}) noexcept : renderer{renderer_}, hideAlphaRangeMin{hideAlphaRangeMin_}, hideAlphaRangeMax{hideAlphaRangeMax_} {}
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x18790B4
+    // Offset: 0x1D9C9C0
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x18790F8
+    // Offset: 0x1D9CA04
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -61,14 +61,14 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // System.Void .ctor(System.Byte[] octets, System.Int32 chunkSize)
-    // Offset: 0x13791F4
+    // Offset: 0x16067B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerOctetString::ChunkEnumerator* New_ctor(::Array<uint8_t>* octets, int chunkSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString::ChunkEnumerator*, creationType>(octets, chunkSize)));
     }
     // public System.Object get_Current()
-    // Offset: 0x1379604
+    // Offset: 0x1606BC8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -76,7 +76,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x137967C
+    // Offset: 0x1606C40
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -84,7 +84,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x13797AC
+    // Offset: 0x1606D70
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

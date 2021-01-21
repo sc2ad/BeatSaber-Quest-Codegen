@@ -40,14 +40,14 @@ namespace UnityEngine {
       return m_Predicate;
     }
     // public System.Void .ctor(System.Func`1<System.Boolean> predicate)
-    // Offset: 0x16CE140
+    // Offset: 0x1ABFFB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaitUntil* New_ctor(System::Func_1<bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::WaitUntil::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaitUntil*, creationType>(predicate)));
     }
     // public override System.Boolean get_keepWaiting()
-    // Offset: 0x16CE0DC
+    // Offset: 0x1ABFF54
     // Implemented from: UnityEngine.CustomYieldInstruction
     // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();

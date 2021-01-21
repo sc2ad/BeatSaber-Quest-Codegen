@@ -75,49 +75,49 @@ namespace System {
     // Set static field: static private readonly System.Console/InternalCancelHandler cancel_handler
     static void _set_cancel_handler(System::Console::InternalCancelHandler* value);
     // static private System.Void .cctor()
-    // Offset: 0x1530B5C
+    // Offset: 0x189F18C
     static void _cctor();
     // static private System.Void SetupStreams(System.Text.Encoding inputEncoding, System.Text.Encoding outputEncoding)
-    // Offset: 0x1530E6C
+    // Offset: 0x189F49C
     static void SetupStreams(System::Text::Encoding* inputEncoding, System::Text::Encoding* outputEncoding);
     // static public System.IO.TextWriter get_Error()
-    // Offset: 0x153159C
+    // Offset: 0x189FBCC
     static System::IO::TextWriter* get_Error();
     // static public System.IO.TextWriter get_Out()
-    // Offset: 0x1531604
+    // Offset: 0x189FC34
     static System::IO::TextWriter* get_Out();
     // static private System.IO.Stream Open(System.IntPtr handle, System.IO.FileAccess access, System.Int32 bufferSize)
-    // Offset: 0x153166C
+    // Offset: 0x189FC9C
     static System::IO::Stream* Open(System::IntPtr handle, System::IO::FileAccess access, int bufferSize);
     // static public System.IO.Stream OpenStandardError(System.Int32 bufferSize)
-    // Offset: 0x1531500
+    // Offset: 0x189FB30
     static System::IO::Stream* OpenStandardError(int bufferSize);
     // static public System.IO.Stream OpenStandardInput(System.Int32 bufferSize)
-    // Offset: 0x15313C8
+    // Offset: 0x189F9F8
     static System::IO::Stream* OpenStandardInput(int bufferSize);
     // static public System.IO.Stream OpenStandardOutput(System.Int32 bufferSize)
-    // Offset: 0x1531464
+    // Offset: 0x189FA94
     static System::IO::Stream* OpenStandardOutput(int bufferSize);
     // static public System.Void SetOut(System.IO.TextWriter newOut)
-    // Offset: 0x1531790
+    // Offset: 0x189FDC0
     static void SetOut(System::IO::TextWriter* newOut);
     // static public System.Void WriteLine(System.String value)
-    // Offset: 0x1531840
+    // Offset: 0x189FE70
     static void WriteLine(::Il2CppString* value);
     // static public System.Text.Encoding get_InputEncoding()
-    // Offset: 0x15318C4
+    // Offset: 0x189FEF4
     static System::Text::Encoding* get_InputEncoding();
     // static public System.Text.Encoding get_OutputEncoding()
-    // Offset: 0x153192C
+    // Offset: 0x189FF5C
     static System::Text::Encoding* get_OutputEncoding();
     // static public System.ConsoleKeyInfo ReadKey()
-    // Offset: 0x1531994
+    // Offset: 0x189FFC4
     static System::ConsoleKeyInfo ReadKey();
     // static public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x15319FC
+    // Offset: 0x18A002C
     static System::ConsoleKeyInfo ReadKey(bool intercept);
     // static System.Void DoConsoleCancelEvent()
-    // Offset: 0x1531B4C
+    // Offset: 0x18A017C
     static void DoConsoleCancelEvent();
   }; // System.Console
   #pragma pack(pop)

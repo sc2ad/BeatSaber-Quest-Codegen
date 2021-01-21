@@ -35,12 +35,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NetEaseAppCoreInstaller
     NetEaseAppCoreInstaller(GlobalNamespace::NetEaseManager* netEaseManagerPrefab_ = {}) noexcept : netEaseManagerPrefab{netEaseManagerPrefab_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xFD672C
+    // Offset: 0xF8562C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xFD67A0
+    // Offset: 0xF856A0
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

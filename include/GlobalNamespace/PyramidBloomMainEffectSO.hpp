@@ -54,8 +54,8 @@ namespace GlobalNamespace {
     UnityEngine::Shader* mainEffectShader;
     // Field size check
     static_assert(sizeof(UnityEngine::Shader*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDB12AC
-    // [RangeAttribute] Offset: 0xDB12AC
+    // [SpaceAttribute] Offset: 0xD230A8
+    // [RangeAttribute] Offset: 0xD230A8
     // private System.Single _bloomBlendFactor
     // Size: 0x4
     // Offset: 0x30
@@ -116,15 +116,15 @@ namespace GlobalNamespace {
     GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PyramidBloomRendererSO::Pass) == 0x4);
-    // [SpaceAttribute] Offset: 0xDB138C
+    // [SpaceAttribute] Offset: 0xD23188
     // private System.Int32 _bloomTextureWidth
     // Size: 0x4
     // Offset: 0x58
     int bloomTextureWidth;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [SpaceAttribute] Offset: 0xDB13C4
-    // [RangeAttribute] Offset: 0xDB13C4
+    // [SpaceAttribute] Offset: 0xD231C0
+    // [RangeAttribute] Offset: 0xD231C0
     // private System.Single _baseColorBoost
     // Size: 0x4
     // Offset: 0x5C
@@ -155,44 +155,44 @@ namespace GlobalNamespace {
     PyramidBloomMainEffectSO(GlobalNamespace::PyramidBloomRendererSO* bloomRenderer_ = {}, UnityEngine::Shader* fadeShader_ = {}, UnityEngine::Shader* mainEffectShader_ = {}, float bloomBlendFactor_ = {}, float bloomRadius_ = {}, float bloomIntensity_ = {}, float downBloomIntensityOffset_ = {}, float pyramidWeightsParam_ = {}, float alphaWeights_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass preFilterPass_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass downsamplePass_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass upsamplePass_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass_ = {}, int bloomTextureWidth_ = {}, float baseColorBoost_ = {}, float baseColorBoostThreshold_ = {}, UnityEngine::Material* fadeMaterial_ = {}, UnityEngine::Material* mainEffectMaterial_ = {}) noexcept : bloomRenderer{bloomRenderer_}, fadeShader{fadeShader_}, mainEffectShader{mainEffectShader_}, bloomBlendFactor{bloomBlendFactor_}, bloomRadius{bloomRadius_}, bloomIntensity{bloomIntensity_}, downBloomIntensityOffset{downBloomIntensityOffset_}, pyramidWeightsParam{pyramidWeightsParam_}, alphaWeights{alphaWeights_}, preFilterPass{preFilterPass_}, downsamplePass{downsamplePass_}, upsamplePass{upsamplePass_}, finalUpsamplePass{finalUpsamplePass_}, bloomTextureWidth{bloomTextureWidth_}, baseColorBoost{baseColorBoost_}, baseColorBoostThreshold{baseColorBoostThreshold_}, fadeMaterial{fadeMaterial_}, mainEffectMaterial{mainEffectMaterial_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDB1424
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD23220
     // Get static field: static private readonly System.Int32 _bloomTexID
     static int _get__bloomTexID();
     // Set static field: static private readonly System.Int32 _bloomTexID
     static void _set__bloomTexID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDB1434
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD23230
     // Get static field: static private readonly System.Int32 _bloomIntensityID
     static int _get__bloomIntensityID();
     // Set static field: static private readonly System.Int32 _bloomIntensityID
     static void _set__bloomIntensityID(int value);
     // protected System.Void OnDisable()
-    // Offset: 0x198CCE8
+    // Offset: 0x2253448
     void OnDisable();
     // private System.Void LazyInitializeMaterials()
-    // Offset: 0x198CB84
+    // Offset: 0x22532E4
     void LazyInitializeMaterials();
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x198CB54
+    // Offset: 0x22532B4
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // protected override System.Void OnEnable()
-    // Offset: 0x198CB5C
+    // Offset: 0x22532BC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x198CD3C
+    // Offset: 0x225349C
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x198CDB0
+    // Offset: 0x2253510
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float fade);
     // public System.Void .ctor()
-    // Offset: 0x198D038
+    // Offset: 0x2253798
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -205,7 +205,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PyramidBloomMainEffectSO*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x198D074
+    // Offset: 0x22537D4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

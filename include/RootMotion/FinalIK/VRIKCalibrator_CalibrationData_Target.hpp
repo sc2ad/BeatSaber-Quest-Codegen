@@ -53,14 +53,14 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Target
     Target(bool used_ = {}, UnityEngine::Vector3 localPosition_ = {}, UnityEngine::Quaternion localRotation_ = {}) noexcept : used{used_}, localPosition{localPosition_}, localRotation{localRotation_} {}
     // public System.Void .ctor(UnityEngine.Transform t)
-    // Offset: 0x15EE140
+    // Offset: 0x196ECC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIKCalibrator::CalibrationData::Target* New_ctor(UnityEngine::Transform* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRIKCalibrator::CalibrationData::Target*, creationType>(t)));
     }
     // public System.Void SetTo(UnityEngine.Transform t)
-    // Offset: 0x15EECB4
+    // Offset: 0x196F838
     void SetTo(UnityEngine::Transform* t);
   }; // RootMotion.FinalIK.VRIKCalibrator/CalibrationData/Target
   #pragma pack(pop)

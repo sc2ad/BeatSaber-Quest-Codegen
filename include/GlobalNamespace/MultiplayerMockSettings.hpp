@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isEnabled and: otherPlayers
     char __padding0[0x7] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0xDC9A98
+    // [FormerlySerializedAsAttribute] Offset: 0xD3BC94
     // private System.Collections.Generic.List`1<MockPlayer> _otherPlayers
     // Size: 0x8
     // Offset: 0x20
@@ -102,28 +102,28 @@ namespace GlobalNamespace {
     GlobalNamespace::MasterServerAvailabilityData* masterServerAvailabilityData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerAvailabilityData*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC9B44
+    // [CompilerGeneratedAttribute] Offset: 0xD3BD40
     // private System.Action partyCreatedEvent
     // Size: 0x8
     // Offset: 0x50
     System::Action* partyCreatedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC9B54
+    // [CompilerGeneratedAttribute] Offset: 0xD3BD50
     // private System.Action`1<MockPlayer> playerDidConnectEvent
     // Size: 0x8
     // Offset: 0x58
     System::Action_1<GlobalNamespace::MockPlayer*>* playerDidConnectEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::MockPlayer*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC9B64
+    // [CompilerGeneratedAttribute] Offset: 0xD3BD60
     // private System.Action`1<MockPlayer> playerDidDisconnectEvent
     // Size: 0x8
     // Offset: 0x60
     System::Action_1<GlobalNamespace::MockPlayer*>* playerDidDisconnectEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::MockPlayer*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC9B74
+    // [CompilerGeneratedAttribute] Offset: 0xD3BD70
     // private System.Action`1<MockPlayer> playerStateChangedEvent
     // Size: 0x8
     // Offset: 0x68
@@ -135,79 +135,79 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public MockPlayer get_localPlayer()
-    // Offset: 0xF73FBC
+    // Offset: 0xFE634C
     GlobalNamespace::MockPlayer* get_localPlayer();
     // public System.Single get_scoreGainAmount()
-    // Offset: 0xF740C0
+    // Offset: 0xFE6450
     float get_scoreGainAmount();
     // public System.Single get_scoreGainRepeatInterval()
-    // Offset: 0xF740C8
+    // Offset: 0xFE6458
     float get_scoreGainRepeatInterval();
     // public System.Single get_scoreStartDelay()
-    // Offset: 0xF740D0
+    // Offset: 0xFE6460
     float get_scoreStartDelay();
     // public MasterServerAvailabilityData get_masterServerAvailabilityData()
-    // Offset: 0xF740D8
+    // Offset: 0xFE6468
     GlobalNamespace::MasterServerAvailabilityData* get_masterServerAvailabilityData();
     // public System.Collections.Generic.List`1<MockPlayer> get_otherPlayers()
-    // Offset: 0xF740E0
+    // Offset: 0xFE6470
     System::Collections::Generic::List_1<GlobalNamespace::MockPlayer*>* get_otherPlayers();
     // public System.Collections.Generic.IEnumerable`1<MockServer> get_mockServers()
-    // Offset: 0xF740E8
+    // Offset: 0xFE6478
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::MockServer*>* get_mockServers();
     // public MockServer get_mockServer()
-    // Offset: 0xF741AC
+    // Offset: 0xFE653C
     GlobalNamespace::MockServer* get_mockServer();
     // public System.Void add_partyCreatedEvent(System.Action value)
-    // Offset: 0xF741B4
+    // Offset: 0xFE6544
     void add_partyCreatedEvent(System::Action* value);
     // public System.Void remove_partyCreatedEvent(System.Action value)
-    // Offset: 0xF74258
+    // Offset: 0xFE65E8
     void remove_partyCreatedEvent(System::Action* value);
     // public System.Void add_playerDidConnectEvent(System.Action`1<MockPlayer> value)
-    // Offset: 0xF742FC
+    // Offset: 0xFE668C
     void add_playerDidConnectEvent(System::Action_1<GlobalNamespace::MockPlayer*>* value);
     // public System.Void remove_playerDidConnectEvent(System.Action`1<MockPlayer> value)
-    // Offset: 0xF743A0
+    // Offset: 0xFE6730
     void remove_playerDidConnectEvent(System::Action_1<GlobalNamespace::MockPlayer*>* value);
     // public System.Void add_playerDidDisconnectEvent(System.Action`1<MockPlayer> value)
-    // Offset: 0xF74444
+    // Offset: 0xFE67D4
     void add_playerDidDisconnectEvent(System::Action_1<GlobalNamespace::MockPlayer*>* value);
     // public System.Void remove_playerDidDisconnectEvent(System.Action`1<MockPlayer> value)
-    // Offset: 0xF744E8
+    // Offset: 0xFE6878
     void remove_playerDidDisconnectEvent(System::Action_1<GlobalNamespace::MockPlayer*>* value);
     // public System.Void add_playerStateChangedEvent(System.Action`1<MockPlayer> value)
-    // Offset: 0xF7458C
+    // Offset: 0xFE691C
     void add_playerStateChangedEvent(System::Action_1<GlobalNamespace::MockPlayer*>* value);
     // public System.Void remove_playerStateChangedEvent(System.Action`1<MockPlayer> value)
-    // Offset: 0xF74630
+    // Offset: 0xFE69C0
     void remove_playerStateChangedEvent(System::Action_1<GlobalNamespace::MockPlayer*>* value);
     // public System.Boolean get_isEnabled()
-    // Offset: 0xF746D4
+    // Offset: 0xFE6A64
     bool get_isEnabled();
     // public System.Void set_isEnabled(System.Boolean value)
-    // Offset: 0xF746DC
+    // Offset: 0xFE6A6C
     void set_isEnabled(bool value);
     // public System.Void CreateParty()
-    // Offset: 0xF746E8
+    // Offset: 0xFE6A78
     void CreateParty();
     // public System.Void ConnectPlayer(MockPlayer player)
-    // Offset: 0xF746FC
+    // Offset: 0xFE6A8C
     void ConnectPlayer(GlobalNamespace::MockPlayer* player);
     // public System.Void DisconnectPlayer(MockPlayer player)
-    // Offset: 0xF74790
+    // Offset: 0xFE6B20
     void DisconnectPlayer(GlobalNamespace::MockPlayer* player);
     // public System.Void ReportPlayerStateChanged(MockPlayer player)
-    // Offset: 0xF74828
+    // Offset: 0xFE6BB8
     void ReportPlayerStateChanged(GlobalNamespace::MockPlayer* player);
     // public System.Void FailPlayer(MockPlayer player)
-    // Offset: 0xF7489C
+    // Offset: 0xFE6C2C
     void FailPlayer(GlobalNamespace::MockPlayer* player);
     // static public MultiplayerMockSettings SharedSettings()
-    // Offset: 0xF748DC
+    // Offset: 0xFE6C6C
     static GlobalNamespace::MultiplayerMockSettings* SharedSettings();
     // public System.Void .ctor()
-    // Offset: 0xF748E4
+    // Offset: 0xFE6C74
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

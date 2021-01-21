@@ -41,17 +41,17 @@ namespace System {
     // Creating value type constructor for type: AttributeInfo
     AttributeInfo(System::AttributeUsageAttribute* usage_ = {}, int inheritanceLevel_ = {}) noexcept : usage{usage_}, inheritanceLevel{inheritanceLevel_} {}
     // public System.Void .ctor(System.AttributeUsageAttribute usage, System.Int32 inheritanceLevel)
-    // Offset: 0x1711DF4
+    // Offset: 0x1B18828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoCustomAttrs::AttributeInfo* New_ctor(System::AttributeUsageAttribute* usage, int inheritanceLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::MonoCustomAttrs::AttributeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoCustomAttrs::AttributeInfo*, creationType>(usage, inheritanceLevel)));
     }
     // public System.AttributeUsageAttribute get_Usage()
-    // Offset: 0x1711E28
+    // Offset: 0x1B1885C
     System::AttributeUsageAttribute* get_Usage();
     // public System.Int32 get_InheritanceLevel()
-    // Offset: 0x1711E30
+    // Offset: 0x1B18864
     int get_InheritanceLevel();
   }; // System.MonoCustomAttrs/AttributeInfo
   #pragma pack(pop)

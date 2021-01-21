@@ -32,10 +32,10 @@ namespace UnityEngine::Audio {
     // Creating value type constructor for type: AudioPlayableBinding
     AudioPlayableBinding() noexcept {}
     // static public UnityEngine.Playables.PlayableBinding Create(System.String name, UnityEngine.Object key)
-    // Offset: 0x19EAE64
+    // Offset: 0x22B9970
     static UnityEngine::Playables::PlayableBinding Create(::Il2CppString* name, UnityEngine::Object* key);
     // static private UnityEngine.Playables.PlayableOutput CreateAudioOutput(UnityEngine.Playables.PlayableGraph graph, System.String name)
-    // Offset: 0x19EAF84
+    // Offset: 0x22B9A90
     static UnityEngine::Playables::PlayableOutput CreateAudioOutput(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name);
   }; // UnityEngine.Audio.AudioPlayableBinding
   #pragma pack(pop)

@@ -40,25 +40,25 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Creating value type constructor for type: DsaPrivateKeyParameters
     DsaPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger* x_ = {}) noexcept : x{x_} {}
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Crypto.Parameters.DsaParameters parameters)
-    // Offset: 0x104525C
+    // Offset: 0x117FD64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DsaPrivateKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* x, Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DsaPrivateKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DsaPrivateKeyParameters*, creationType>(x, parameters)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_X()
-    // Offset: 0x1045318
+    // Offset: 0x117FE20
     Org::BouncyCastle::Math::BigInteger* get_X();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DsaPrivateKeyParameters other)
-    // Offset: 0x10453D0
+    // Offset: 0x117FED8
     bool Equals(Org::BouncyCastle::Crypto::Parameters::DsaPrivateKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1045320
+    // Offset: 0x117FE28
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters
     // Base method: System.Boolean DsaKeyParameters::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x104542C
+    // Offset: 0x117FF34
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters
     // Base method: System.Int32 DsaKeyParameters::GetHashCode()
     int GetHashCode();

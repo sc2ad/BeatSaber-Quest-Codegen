@@ -40,14 +40,14 @@ namespace UnityEngine {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // System.Void .ctor(UnityEngine.Transform outer)
-    // Offset: 0x16C8D04
+    // Offset: 0x1ABAB7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Transform::Enumerator* New_ctor(UnityEngine::Transform* outer) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Transform::Enumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Transform::Enumerator*, creationType>(outer)));
     }
     // public System.Object get_Current()
-    // Offset: 0x16C8D90
+    // Offset: 0x1ABAC08
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -55,7 +55,7 @@ namespace UnityEngine {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x16C8DE8
+    // Offset: 0x1ABAC60
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -63,7 +63,7 @@ namespace UnityEngine {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x16C8E54
+    // Offset: 0x1ABACCC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

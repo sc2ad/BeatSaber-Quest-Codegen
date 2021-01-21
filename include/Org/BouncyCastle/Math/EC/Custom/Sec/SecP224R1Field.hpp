@@ -40,61 +40,61 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Set static field: static private readonly System.UInt32[] PExtInv
     static void _set_PExtInv(::Array<uint>* value);
     // static public System.Void Add(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
-    // Offset: 0x17A25D4
+    // Offset: 0x1BDAFF4
     static void Add(::Array<uint>* x, ::Array<uint>* y, ::Array<uint>* z);
     // static public System.Void AddOne(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x17A2784
+    // Offset: 0x1BDB1A4
     static void AddOne(::Array<uint>* x, ::Array<uint>* z);
     // static public System.UInt32[] FromBigInteger(Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x17A2884
+    // Offset: 0x1BDB2A4
     static ::Array<uint>* FromBigInteger(Org::BouncyCastle::Math::BigInteger* x);
     // static public System.Void Inv(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x17A2970
+    // Offset: 0x1BDB390
     static void Inv(::Array<uint>* x, ::Array<uint>* z);
     // static public System.Int32 IsZero(System.UInt32[] x)
-    // Offset: 0x17A2BD4
+    // Offset: 0x1BDB5F4
     static int IsZero(::Array<uint>* x);
     // static public System.Void Multiply(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
-    // Offset: 0x17A2CC4
+    // Offset: 0x1BDB6E4
     static void Multiply(::Array<uint>* x, ::Array<uint>* y, ::Array<uint>* z);
     // static public System.Void MultiplyAddToExt(System.UInt32[] x, System.UInt32[] y, System.UInt32[] zz)
-    // Offset: 0x17A309C
+    // Offset: 0x1BDBABC
     static void MultiplyAddToExt(::Array<uint>* x, ::Array<uint>* y, ::Array<uint>* zz);
     // static public System.Void Negate(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x17A31FC
+    // Offset: 0x1BDBC1C
     static void Negate(::Array<uint>* x, ::Array<uint>* z);
     // static public System.Void Random(Org.BouncyCastle.Security.SecureRandom r, System.UInt32[] z)
-    // Offset: 0x17A32D0
+    // Offset: 0x1BDBCF0
     static void Random(Org::BouncyCastle::Security::SecureRandom* r, ::Array<uint>* z);
     // static public System.Void RandomMult(Org.BouncyCastle.Security.SecureRandom r, System.UInt32[] z)
-    // Offset: 0x17A20C4
+    // Offset: 0x1BDAAE4
     static void RandomMult(Org::BouncyCastle::Security::SecureRandom* r, ::Array<uint>* z);
     // static public System.Void Reduce(System.UInt32[] xx, System.UInt32[] z)
-    // Offset: 0x17A2E40
+    // Offset: 0x1BDB860
     static void Reduce(::Array<uint>* xx, ::Array<uint>* z);
     // static public System.Void Reduce32(System.UInt32 x, System.UInt32[] z)
-    // Offset: 0x17A33AC
+    // Offset: 0x1BDBDCC
     static void Reduce32(uint x, ::Array<uint>* z);
     // static public System.Void Square(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x17A2C34
+    // Offset: 0x1BDB654
     static void Square(::Array<uint>* x, ::Array<uint>* z);
     // static public System.Void SquareN(System.UInt32[] x, System.Int32 n, System.UInt32[] z)
-    // Offset: 0x17A2D5C
+    // Offset: 0x1BDB77C
     static void SquareN(::Array<uint>* x, int n, ::Array<uint>* z);
     // static public System.Void Subtract(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
-    // Offset: 0x17A3524
+    // Offset: 0x1BDBF44
     static void Subtract(::Array<uint>* x, ::Array<uint>* y, ::Array<uint>* z);
     // static public System.Void Twice(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x17A366C
+    // Offset: 0x1BDC08C
     static void Twice(::Array<uint>* x, ::Array<uint>* z);
     // static private System.Void AddPInvTo(System.UInt32[] z)
-    // Offset: 0x17A26D8
+    // Offset: 0x1BDB0F8
     static void AddPInvTo(::Array<uint>* z);
     // static private System.Void SubPInvFrom(System.UInt32[] z)
-    // Offset: 0x17A35C0
+    // Offset: 0x1BDBFE0
     static void SubPInvFrom(::Array<uint>* z);
     // static private System.Void .cctor()
-    // Offset: 0x17A3770
+    // Offset: 0x1BDC190
     static void _cctor();
   }; // Org.BouncyCastle.Math.EC.Custom.Sec.SecP224R1Field
   #pragma pack(pop)

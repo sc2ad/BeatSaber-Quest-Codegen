@@ -36,25 +36,25 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MissionNodesHelper
     MissionNodesHelper() noexcept {}
     // static public System.Collections.Generic.HashSet`1<MissionNode> GetAllNodesFromRoot(MissionNode root)
-    // Offset: 0x101D470
+    // Offset: 0x109AE24
     static System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* GetAllNodesFromRoot(GlobalNamespace::MissionNode* root);
     // static private System.Void VisitAllTree(MissionNode node, System.Collections.Generic.HashSet`1<MissionNode> visitedNodes)
-    // Offset: 0x101D4E4
+    // Offset: 0x109AE98
     static void VisitAllTree(GlobalNamespace::MissionNode* node, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* visitedNodes);
     // static public System.Boolean CycleDetection(MissionNode node)
-    // Offset: 0x101D5C0
+    // Offset: 0x109AF74
     static bool CycleDetection(GlobalNamespace::MissionNode* node);
     // static private System.Boolean CycleDetection(MissionNode node, System.Int32 layer, System.Collections.Generic.Dictionary`2<MissionNode,System.Int32> layers)
-    // Offset: 0x101D630
+    // Offset: 0x109AFE4
     static bool CycleDetection(GlobalNamespace::MissionNode* node, int layer, System::Collections::Generic::Dictionary_2<GlobalNamespace::MissionNode*, int>* layers);
     // static public System.Boolean FinalNodeIsFinal(MissionNode finalNode, MissionNode rootNode)
-    // Offset: 0x101D770
+    // Offset: 0x109B124
     static bool FinalNodeIsFinal(GlobalNamespace::MissionNode* finalNode, GlobalNamespace::MissionNode* rootNode);
     // static private System.Boolean FinalNodeIsFinal(MissionNode finalNode, MissionNode node, System.Collections.Generic.HashSet`1<MissionNode> visitedNodes)
-    // Offset: 0x101D7EC
+    // Offset: 0x109B1A0
     static bool FinalNodeIsFinal(GlobalNamespace::MissionNode* finalNode, GlobalNamespace::MissionNode* node, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* visitedNodes);
     // public System.Void .ctor()
-    // Offset: 0x101D914
+    // Offset: 0x109B2C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

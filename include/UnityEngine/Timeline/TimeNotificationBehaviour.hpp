@@ -95,13 +95,13 @@ namespace UnityEngine::Timeline {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Boolean get_triggerInEditor()
-      // Offset: 0xC9F8A0
+      // Offset: 0xE0D388
       bool get_triggerInEditor();
       // public System.Boolean get_prewarm()
-      // Offset: 0xC9F8AC
+      // Offset: 0xE0D394
       bool get_prewarm();
       // public System.Boolean get_triggerOnce()
-      // Offset: 0xC9F8B8
+      // Offset: 0xE0D3A0
       bool get_triggerOnce();
     }; // UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry
     #pragma pack(pop)
@@ -136,49 +136,49 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: TimeNotificationBehaviour
     TimeNotificationBehaviour(System::Collections::Generic::List_1<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>* m_Notifications_ = {}, double m_PreviousTime_ = {}, bool m_NeedSortNotifications_ = {}, UnityEngine::Playables::Playable m_TimeSource_ = {}) noexcept : m_Notifications{m_Notifications_}, m_PreviousTime{m_PreviousTime_}, m_NeedSortNotifications{m_NeedSortNotifications_}, m_TimeSource{m_TimeSource_} {}
     // public System.Void set_timeSource(UnityEngine.Playables.Playable value)
-    // Offset: 0x14218AC
+    // Offset: 0x17372E4
     void set_timeSource(UnityEngine::Playables::Playable value);
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.TimeNotificationBehaviour> Create(UnityEngine.Playables.PlayableGraph graph, System.Double duration, UnityEngine.Playables.DirectorWrapMode loopMode)
-    // Offset: 0x141E820
+    // Offset: 0x1734258
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::TimeNotificationBehaviour*> Create(UnityEngine::Playables::PlayableGraph graph, double duration, UnityEngine::Playables::DirectorWrapMode loopMode);
     // public System.Void AddNotification(System.Double time, UnityEngine.Playables.INotification payload, UnityEngine.Timeline.NotificationFlags flags)
-    // Offset: 0x141E914
+    // Offset: 0x173434C
     void AddNotification(double time, UnityEngine::Playables::INotification* payload, UnityEngine::Timeline::NotificationFlags flags);
     // private System.Void SortNotifications()
-    // Offset: 0x1421A7C
+    // Offset: 0x17374B4
     void SortNotifications();
     // static private System.Boolean CanRestoreNotification(UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry e, UnityEngine.Playables.FrameData info, System.Double currentTime, System.Double previousTime)
-    // Offset: 0x1422384
+    // Offset: 0x1737DBC
     static bool CanRestoreNotification(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry e, UnityEngine::Playables::FrameData info, double currentTime, double previousTime);
     // private System.Void TriggerNotificationsInRange(System.Double start, System.Double end, UnityEngine.Playables.FrameData info, UnityEngine.Playables.Playable playable, System.Boolean checkState)
-    // Offset: 0x14221C4
+    // Offset: 0x1737BFC
     void TriggerNotificationsInRange(double start, double end, UnityEngine::Playables::FrameData info, UnityEngine::Playables::Playable playable, bool checkState);
     // private System.Void SyncDurationWithExternalSource(UnityEngine.Playables.Playable playable)
-    // Offset: 0x14220F4
+    // Offset: 0x1737B2C
     void SyncDurationWithExternalSource(UnityEngine::Playables::Playable playable);
     // static private System.Void Trigger_internal(UnityEngine.Playables.Playable playable, UnityEngine.Playables.PlayableOutput output, ref UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry e)
-    // Offset: 0x1421D38
+    // Offset: 0x1737770
     static void Trigger_internal(UnityEngine::Playables::Playable playable, UnityEngine::Playables::PlayableOutput output, UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry& e);
     // static private System.Void Restore_internal(ref UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry e)
-    // Offset: 0x14223EC
+    // Offset: 0x1737E24
     static void Restore_internal(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry& e);
     // public override System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
-    // Offset: 0x14218B4
+    // Offset: 0x17372EC
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnGraphStart(UnityEngine.Playables.Playable playable)
     void OnGraphStart(UnityEngine::Playables::Playable playable);
     // public override System.Void OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x1421BA0
+    // Offset: 0x17375D8
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPause(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public override System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x1421DC8
+    // Offset: 0x1737800
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void .ctor()
-    // Offset: 0x142240C
+    // Offset: 0x1737E44
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()

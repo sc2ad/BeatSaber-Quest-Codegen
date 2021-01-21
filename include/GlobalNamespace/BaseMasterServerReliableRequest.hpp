@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class BaseMasterServerReliableRequest : public ::Il2CppObject/*, public MasterServer::IMasterServerReliableRequest*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDAA0B4
+    // [CompilerGeneratedAttribute] Offset: 0xD1BCAC
     // private System.UInt32 <requestId>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -46,15 +46,15 @@ namespace GlobalNamespace {
       return requestId;
     }
     // private System.Void set_requestId(System.UInt32 value)
-    // Offset: 0x1B4361C
+    // Offset: 0x11CA890
     void set_requestId(uint value);
     // public System.UInt32 get_requestId()
-    // Offset: 0x1B43614
+    // Offset: 0x11CA888
     // Implemented from: MasterServer.IMasterServerReliableRequest
     // Base method: System.UInt32 IMasterServerReliableRequest::get_requestId()
     uint get_requestId();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1B43624
+    // Offset: 0x11CA898
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1B43648
+    // Offset: 0x11CA8BC
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -75,12 +75,12 @@ namespace GlobalNamespace {
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // private MasterServer.IMasterServerReliableRequest MasterServer.IMasterServerReliableRequest.WithRequestId(System.UInt32 requestId)
-    // Offset: 0x1B4367C
+    // Offset: 0x11CA8F0
     // Implemented from: MasterServer.IMasterServerReliableRequest
     // Base method: MasterServer.IMasterServerReliableRequest IMasterServerReliableRequest::WithRequestId(System.UInt32 requestId)
     MasterServer::IMasterServerReliableRequest* MasterServer_IMasterServerReliableRequest_WithRequestId(uint requestId);
     // protected System.Void .ctor()
-    // Offset: 0x1B43684
+    // Offset: 0x11CA8F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

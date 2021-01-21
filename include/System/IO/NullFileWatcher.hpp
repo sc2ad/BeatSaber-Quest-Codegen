@@ -37,20 +37,20 @@ namespace System::IO {
     // Set static field: static private System.IO.IFileWatcher instance
     static void _set_instance(System::IO::IFileWatcher* value);
     // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
-    // Offset: 0x148F490
+    // Offset: 0x17A3EC8
     static bool GetInstance(System::IO::IFileWatcher*& watcher);
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x148FE9C
+    // Offset: 0x17A48D4
     // Implemented from: System.IO.IFileWatcher
     // Base method: System.Void IFileWatcher::StartDispatching(System.IO.FileSystemWatcher fsw)
     void StartDispatching(System::IO::FileSystemWatcher* fsw);
     // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x148FEA0
+    // Offset: 0x17A48D8
     // Implemented from: System.IO.IFileWatcher
     // Base method: System.Void IFileWatcher::StopDispatching(System.IO.FileSystemWatcher fsw)
     void StopDispatching(System::IO::FileSystemWatcher* fsw);
     // public System.Void .ctor()
-    // Offset: 0x148FEA4
+    // Offset: 0x17A48DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

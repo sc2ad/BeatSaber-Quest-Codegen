@@ -52,14 +52,14 @@ namespace System {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // System.Void .ctor(System.Array array)
-    // Offset: 0x1CA6358
+    // Offset: 0x167F720
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Array::ArrayEnumerator* New_ctor(System::Array* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::ArrayEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Array::ArrayEnumerator*, creationType>(array)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1CA6D9C
+    // Offset: 0x1680164
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -67,7 +67,7 @@ namespace System {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1CA6DC4
+    // Offset: 0x168018C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -75,7 +75,7 @@ namespace System {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public System.Object Clone()
-    // Offset: 0x1CA6DD0
+    // Offset: 0x1680198
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
@@ -83,7 +83,7 @@ namespace System {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public System.Object get_Current()
-    // Offset: 0x1CA6DD8
+    // Offset: 0x16801A0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();

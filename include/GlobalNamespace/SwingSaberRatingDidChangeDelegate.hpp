@@ -36,20 +36,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SwingSaberRatingDidChangeDelegate
     SwingSaberRatingDidChangeDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19A7DAC
+    // Offset: 0x226F600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SwingSaberRatingDidChangeDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SwingSaberRatingDidChangeDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SwingSaberRatingDidChangeDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(ISaberSwingRatingCounter afterCutRating, System.Single rating)
-    // Offset: 0x19A7DC0
+    // Offset: 0x226F614
     void Invoke(GlobalNamespace::ISaberSwingRatingCounter* afterCutRating, float rating);
     // public System.IAsyncResult BeginInvoke(ISaberSwingRatingCounter afterCutRating, System.Single rating, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19A81E0
+    // Offset: 0x226FA34
     System::IAsyncResult* BeginInvoke(GlobalNamespace::ISaberSwingRatingCounter* afterCutRating, float rating, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x19A827C
+    // Offset: 0x226FAD0
     void EndInvoke(System::IAsyncResult* result);
   }; // SwingSaberRatingDidChangeDelegate
   #pragma pack(pop)

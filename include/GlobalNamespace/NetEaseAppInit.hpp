@@ -51,27 +51,27 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NetEaseAppInit
     NetEaseAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO* netEaseLoginSceneTransitionSetupData_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}) noexcept : mainSystemInit{mainSystemInit_}, netEaseLoginSceneTransitionSetupData{netEaseLoginSceneTransitionSetupData_}, mainSettingsModel{mainSettingsModel_} {}
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xFD67A8
+    // Offset: 0xF856A8
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0xFD6814
+    // Offset: 0xF85714
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0xFD6860
+    // Offset: 0xF85760
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0xFD68AC
+    // Offset: 0xF857AC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xFD6938
+    // Offset: 0xF85838
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()

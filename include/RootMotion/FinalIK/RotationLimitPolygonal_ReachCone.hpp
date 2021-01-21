@@ -48,29 +48,29 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: ReachCone
     ReachCone(::Array<UnityEngine::Vector3>* tetrahedron_ = {}, float volume_ = {}, UnityEngine::Vector3 S_ = {}, UnityEngine::Vector3 B_ = {}) noexcept : tetrahedron{tetrahedron_}, volume{volume_}, S{S_}, B{B_} {}
     // public UnityEngine.Vector3 get_o()
-    // Offset: 0x15E8F6C
+    // Offset: 0x1969AF0
     UnityEngine::Vector3 get_o();
     // public UnityEngine.Vector3 get_a()
-    // Offset: 0x15E8FA4
+    // Offset: 0x1969B28
     UnityEngine::Vector3 get_a();
     // public UnityEngine.Vector3 get_b()
-    // Offset: 0x15E8FE0
+    // Offset: 0x1969B64
     UnityEngine::Vector3 get_b();
     // public UnityEngine.Vector3 get_c()
-    // Offset: 0x15E901C
+    // Offset: 0x1969BA0
     UnityEngine::Vector3 get_c();
     // public System.Void .ctor(UnityEngine.Vector3 _o, UnityEngine.Vector3 _a, UnityEngine.Vector3 _b, UnityEngine.Vector3 _c)
-    // Offset: 0x15E86FC
+    // Offset: 0x1969280
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RotationLimitPolygonal::ReachCone* New_ctor(UnityEngine::Vector3 _o, UnityEngine::Vector3 _a, UnityEngine::Vector3 _b, UnityEngine::Vector3 _c) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RotationLimitPolygonal::ReachCone*, creationType>(_o, _a, _b, _c)));
     }
     // public System.Boolean get_isValid()
-    // Offset: 0x15E80B0
+    // Offset: 0x1968C34
     bool get_isValid();
     // public System.Void Calculate()
-    // Offset: 0x15E8870
+    // Offset: 0x19693F4
     void Calculate();
   }; // RootMotion.FinalIK.RotationLimitPolygonal/ReachCone
   #pragma pack(pop)

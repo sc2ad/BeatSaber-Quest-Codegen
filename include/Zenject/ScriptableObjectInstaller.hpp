@@ -22,7 +22,7 @@ namespace Zenject {
     // Creating value type constructor for type: ScriptableObjectInstaller
     ScriptableObjectInstaller() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x135263C
+    // Offset: 0x15BEB1C
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: System.Void ScriptableObjectInstallerBase::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

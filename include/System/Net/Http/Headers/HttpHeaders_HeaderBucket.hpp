@@ -54,23 +54,23 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: HeaderBucket
     HeaderBucket(::Il2CppObject* Parsed_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* values_ = {}, System::Func_2<::Il2CppObject*, ::Il2CppString*>* CustomToString_ = {}) noexcept : Parsed{Parsed_}, values{values_}, CustomToString{CustomToString_} {}
     // public System.Void .ctor(System.Object parsed, System.Func`2<System.Object,System.String> converter)
-    // Offset: 0x12029E8
+    // Offset: 0x140A780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpHeaders::HeaderBucket* New_ctor(::Il2CppObject* parsed, System::Func_2<::Il2CppObject*, ::Il2CppString*>* converter) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaders::HeaderBucket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpHeaders::HeaderBucket*, creationType>(parsed, converter)));
     }
     // public System.Boolean get_HasStringValues()
-    // Offset: 0x1203638
+    // Offset: 0x140B3D0
     bool get_HasStringValues();
     // public System.Collections.Generic.List`1<System.String> get_Values()
-    // Offset: 0x1202A38
+    // Offset: 0x140A7D0
     System::Collections::Generic::List_1<::Il2CppString*>* get_Values();
     // public System.Void set_Values(System.Collections.Generic.List`1<System.String> value)
-    // Offset: 0x1203B3C
+    // Offset: 0x140B8D4
     void set_Values(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // public System.String ParsedToString()
-    // Offset: 0x12035B4
+    // Offset: 0x140B34C
     ::Il2CppString* ParsedToString();
   }; // System.Net.Http.Headers.HttpHeaders/HeaderBucket
   #pragma pack(pop)

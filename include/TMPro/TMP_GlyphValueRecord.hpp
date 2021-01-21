@@ -52,35 +52,35 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Single get_xPlacement()
-    // Offset: 0xC92CC8
+    // Offset: 0xDF3350
     float get_xPlacement();
     // public System.Void set_xPlacement(System.Single value)
-    // Offset: 0xC92CD0
+    // Offset: 0xDF3358
     void set_xPlacement(float value);
     // public System.Single get_yPlacement()
-    // Offset: 0xC92CD8
+    // Offset: 0xDF3360
     float get_yPlacement();
     // public System.Void set_yPlacement(System.Single value)
-    // Offset: 0xC92CE0
+    // Offset: 0xDF3368
     void set_yPlacement(float value);
     // public System.Single get_xAdvance()
-    // Offset: 0xC92CE8
+    // Offset: 0xDF3370
     float get_xAdvance();
     // public System.Void set_xAdvance(System.Single value)
-    // Offset: 0xC92CF0
+    // Offset: 0xDF3378
     void set_xAdvance(float value);
     // public System.Single get_yAdvance()
-    // Offset: 0xC92CF8
+    // Offset: 0xDF3380
     float get_yAdvance();
     // public System.Void set_yAdvance(System.Single value)
-    // Offset: 0xC92D00
+    // Offset: 0xDF3388
     void set_yAdvance(float value);
     // public System.Void .ctor(System.Single xPlacement, System.Single yPlacement, System.Single xAdvance, System.Single yAdvance)
-    // Offset: 0xC92D08
+    // Offset: 0xDF3390
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  TMP_GlyphValueRecord(float xPlacement, float yPlacement, float xAdvance, float yAdvance)
     // System.Void .ctor(TMPro.GlyphValueRecord_Legacy valueRecord)
-    // Offset: 0xC92D14
+    // Offset: 0xDF339C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TMP_GlyphValueRecord(TMPro::GlyphValueRecord_Legacy valueRecord) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_GlyphValueRecord::.ctor");
@@ -88,7 +88,7 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, valueRecord);
     }
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphValueRecord valueRecord)
-    // Offset: 0xC92D20
+    // Offset: 0xDF33A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TMP_GlyphValueRecord(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_GlyphValueRecord::.ctor");
@@ -100,7 +100,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_GlyphValueRecord), 12 + sizeof(float)> __TMPro_TMP_GlyphValueRecordSizeCheck;
   static_assert(sizeof(TMP_GlyphValueRecord) == 0x10);
   // static public TMPro.TMP_GlyphValueRecord op_Addition(TMPro.TMP_GlyphValueRecord a, TMPro.TMP_GlyphValueRecord b)
-  // Offset: 0xF5EAF4
+  // Offset: 0xFA7110
   TMPro::TMP_GlyphValueRecord operator+(const TMPro::TMP_GlyphValueRecord& a, const TMPro::TMP_GlyphValueRecord& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphValueRecord, "TMPro", "TMP_GlyphValueRecord");

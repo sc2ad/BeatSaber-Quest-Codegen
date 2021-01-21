@@ -49,13 +49,13 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Creating value type constructor for type: MessageTypeSubscribers
     MessageTypeSubscribers(::Il2CppString* m_messageTypeId_ = {}, int subscriberCount_ = {}, UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent* messageCallback_ = {}) noexcept : m_messageTypeId{m_messageTypeId_}, subscriberCount{subscriberCount_}, messageCallback{messageCallback_} {}
     // public System.Guid get_MessageTypeId()
-    // Offset: 0x172EF30
+    // Offset: 0x1B35964
     System::Guid get_MessageTypeId();
     // public System.Void set_MessageTypeId(System.Guid value)
-    // Offset: 0x172F0A4
+    // Offset: 0x1B35AD8
     void set_MessageTypeId(System::Guid value);
     // public System.Void .ctor()
-    // Offset: 0x172F030
+    // Offset: 0x1B35A64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,14 +43,14 @@ namespace GlobalNamespace {
       return beatmapLevelPacks;
     }
     // public System.Void .ctor(IBeatmapLevelPack[] beatmapLevelPacks)
-    // Offset: 0x1A88FC8
+    // Offset: 0x1078F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelPackCollection* New_ctor(::Array<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelPackCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelPackCollection*, creationType>(beatmapLevelPacks)));
     }
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
-    // Offset: 0x1A88FC0
+    // Offset: 0x1078F2C
     // Implemented from: IBeatmapLevelPackCollection
     // Base method: IBeatmapLevelPack[] IBeatmapLevelPackCollection::get_beatmapLevelPacks()
     ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks();

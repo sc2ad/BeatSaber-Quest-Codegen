@@ -27,12 +27,12 @@ namespace HMUI {
     // Creating value type constructor for type: CustomFormatRangeValuesSlider
     CustomFormatRangeValuesSlider(::Il2CppString* formatString_ = {}) noexcept : formatString{formatString_} {}
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x10AC70C
+    // Offset: 0x11FC1F4
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::Il2CppString* TextForValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x10AC784
+    // Offset: 0x11FC26C
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()

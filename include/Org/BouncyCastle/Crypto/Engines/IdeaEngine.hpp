@@ -51,37 +51,37 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.Int32 BASE
     static void _set_BASE(int value);
     // private System.Int32 BytesToWord(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x17D2574
+    // Offset: 0x1C0BF94
     int BytesToWord(::Array<uint8_t>* input, int inOff);
     // private System.Void WordToBytes(System.Int32 word, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x17D25C0
+    // Offset: 0x1C0BFE0
     void WordToBytes(int word, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Int32 Mul(System.Int32 x, System.Int32 y)
-    // Offset: 0x17D2614
+    // Offset: 0x1C0C034
     int Mul(int x, int y);
     // private System.Void IdeaFunc(System.Int32[] workingKey, System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x17D2298
+    // Offset: 0x1C0BCB8
     void IdeaFunc(::Array<int>* workingKey, ::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Int32[] ExpandKey(System.Byte[] uKey)
-    // Offset: 0x17D2738
+    // Offset: 0x1C0C158
     ::Array<int>* ExpandKey(::Array<uint8_t>* uKey);
     // private System.Int32 MulInv(System.Int32 x)
-    // Offset: 0x17D2934
+    // Offset: 0x1C0C354
     int MulInv(int x);
     // private System.Int32 AddInv(System.Int32 x)
-    // Offset: 0x17D2A74
+    // Offset: 0x1C0C494
     int AddInv(int x);
     // private System.Int32[] InvertKey(System.Int32[] inKey)
-    // Offset: 0x17D2AE8
+    // Offset: 0x1C0C508
     ::Array<int>* InvertKey(::Array<int>* inKey);
     // private System.Int32[] GenerateWorkingKey(System.Boolean forEncryption, System.Byte[] userKey)
-    // Offset: 0x17D2104
+    // Offset: 0x1C0BB24
     ::Array<int>* GenerateWorkingKey(bool forEncryption, ::Array<uint8_t>* userKey);
     // static private System.Void .cctor()
-    // Offset: 0x17D2DC0
+    // Offset: 0x1C0C7E0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x17D1FC4
+    // Offset: 0x1C0B9E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -90,32 +90,32 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<IdeaEngine*, creationType>()));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x17D1FCC
+    // Offset: 0x1C0B9EC
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Void IBlockCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.String get_AlgorithmName()
-    // Offset: 0x17D213C
+    // Offset: 0x1C0BB5C
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.String IBlockCipher::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x17D2184
+    // Offset: 0x1C0BBA4
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Boolean IBlockCipher::get_IsPartialBlockOkay()
     bool get_IsPartialBlockOkay();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x17D218C
+    // Offset: 0x1C0BBAC
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Int32 IBlockCipher::GetBlockSize()
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x17D2194
+    // Offset: 0x1C0BBB4
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Int32 IBlockCipher::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x17D2570
+    // Offset: 0x1C0BF90
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();

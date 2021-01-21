@@ -32,8 +32,8 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::Grounder::GrounderDelegate
     class GrounderDelegate;
-    // [TooltipAttribute] Offset: 0xDB58DC
-    // [RangeAttribute] Offset: 0xDB58DC
+    // [TooltipAttribute] Offset: 0xD276D8
+    // [RangeAttribute] Offset: 0xD276D8
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -42,7 +42,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: solver
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0xDB5930
+    // [TooltipAttribute] Offset: 0xD2772C
     // public RootMotion.FinalIK.Grounding solver
     // Size: 0x8
     // Offset: 0x20
@@ -61,7 +61,7 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::Grounder::GrounderDelegate* OnPostGrounder;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::Grounder::GrounderDelegate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDB5968
+    // [CompilerGeneratedAttribute] Offset: 0xD27764
     // private System.Boolean <initiated>k__BackingField
     // Size: 0x1
     // Offset: 0x38
@@ -76,22 +76,22 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void ResetPosition();
     // public System.Boolean get_initiated()
-    // Offset: 0x16FA9C8
+    // Offset: 0x1AEC840
     bool get_initiated();
     // protected System.Void set_initiated(System.Boolean value)
-    // Offset: 0x16FA9D0
+    // Offset: 0x1AEC848
     void set_initiated(bool value);
     // protected UnityEngine.Vector3 GetSpineOffsetTarget()
-    // Offset: 0x16FA9DC
+    // Offset: 0x1AEC854
     UnityEngine::Vector3 GetSpineOffsetTarget();
     // protected System.Void LogWarning(System.String message)
-    // Offset: 0x16FACB0
+    // Offset: 0x1AECB28
     void LogWarning(::Il2CppString* message);
     // private UnityEngine.Vector3 GetLegSpineBendVector(RootMotion.FinalIK.Grounding/Leg leg)
-    // Offset: 0x16FAB20
+    // Offset: 0x1AEC998
     UnityEngine::Vector3 GetLegSpineBendVector(RootMotion::FinalIK::Grounding::Leg* leg);
     // private UnityEngine.Vector3 GetLegSpineTangent(RootMotion.FinalIK.Grounding/Leg leg)
-    // Offset: 0x16FACE4
+    // Offset: 0x1AECB5C
     UnityEngine::Vector3 GetLegSpineTangent(RootMotion::FinalIK::Grounding::Leg* leg);
     // protected System.Void OpenUserManual()
     // Offset: 0xFFFFFFFF
@@ -100,7 +100,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void OpenScriptReference();
     // protected System.Void .ctor()
-    // Offset: 0x16FAEEC
+    // Offset: 0x1AECD64
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

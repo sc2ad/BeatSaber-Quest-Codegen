@@ -46,7 +46,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     bool get_IsValid();
     // protected System.Void ThrowIfContextInvalid()
-    // Offset: 0x1280014
+    // Offset: 0x14CEE94
     void ThrowIfContextInvalid();
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone()
     // Offset: 0xFFFFFFFF
@@ -67,7 +67,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     System::DateTime GetValidUntil();
     // public System.Byte[] GetCertHash()
-    // Offset: 0x127F6CC
+    // Offset: 0x14CE54C
     ::Array<uint8_t>* GetCertHash();
     // protected System.Byte[] GetCertHash(System.Boolean lazy)
     // Offset: 0xFFFFFFFF
@@ -82,20 +82,20 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* ToString(bool full);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1280308
+    // Offset: 0x14CF188
     void Dispose(bool disposing);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x12800F8
+    // Offset: 0x14CEF78
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1280178
+    // Offset: 0x14CEFF8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Void Dispose()
-    // Offset: 0x127FF94
+    // Offset: 0x14CEE14
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -103,12 +103,12 @@ namespace System::Security::Cryptography::X509Certificates {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x1280314
+    // Offset: 0x14CF194
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected System.Void .ctor()
-    // Offset: 0x128038C
+    // Offset: 0x14CF20C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

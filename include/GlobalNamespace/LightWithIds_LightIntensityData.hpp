@@ -54,38 +54,38 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ILightWithId*>(this);
     }
     // public System.Single get_intensity()
-    // Offset: 0x187CF44
+    // Offset: 0x1DA0804
     float get_intensity();
     // public UnityEngine.Color get_color()
-    // Offset: 0x187CF4C
+    // Offset: 0x1DA080C
     UnityEngine::Color get_color();
     // public System.Int32 get_lightId()
-    // Offset: 0x187CF3C
+    // Offset: 0x1DA07FC
     // Implemented from: ILightWithId
     // Base method: System.Int32 ILightWithId::get_lightId()
     int get_lightId();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x187CF58
+    // Offset: 0x1DA0818
     // Implemented from: ILightWithId
     // Base method: System.Boolean ILightWithId::get_isRegistered()
     bool get_isRegistered();
     // public System.Void __SetIsRegistered()
-    // Offset: 0x187CF60
+    // Offset: 0x1DA0820
     // Implemented from: ILightWithId
     // Base method: System.Void ILightWithId::__SetIsRegistered()
     void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x187CF6C
+    // Offset: 0x1DA082C
     // Implemented from: ILightWithId
     // Base method: System.Void ILightWithId::__SetIsUnRegistered()
     void __SetIsUnRegistered();
     // public System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x187CF74
+    // Offset: 0x1DA0834
     // Implemented from: ILightWithId
     // Base method: System.Void ILightWithId::ColorWasSet(UnityEngine.Color newColor)
     void ColorWasSet(UnityEngine::Color newColor);
     // public System.Void .ctor()
-    // Offset: 0x187CF94
+    // Offset: 0x1DA0854
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

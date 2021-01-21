@@ -53,17 +53,17 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CutScoreHandler
     CutScoreHandler(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback* finishCallback_ = {}, GlobalNamespace::NoteExecutionRating* noteExecutionRating_ = {}, GlobalNamespace::NoteCutInfo* noteCutInfo_ = {}) noexcept : finishCallback{finishCallback_}, noteExecutionRating{noteExecutionRating_}, noteCutInfo{noteCutInfo_} {}
     // public System.Void .ctor(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/DidFinishCallback finishCallback)
-    // Offset: 0x1A275A4
+    // Offset: 0xF582D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectExecutionRatingsRecorder::CutScoreHandler* New_ctor(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback* finishCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*, creationType>(finishCallback)));
     }
     // public System.Void Set(NoteCutInfo noteCutInfo, NoteExecutionRating noteExecutionRating, ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x1A27D08
+    // Offset: 0xF58A3C
     void Set(GlobalNamespace::NoteCutInfo* noteCutInfo, GlobalNamespace::NoteExecutionRating* noteExecutionRating, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
     // private System.Void HandleSwingRatingCounterDidFinish(ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x1A28150
+    // Offset: 0xF58E84
     void HandleSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
   }; // BeatmapObjectExecutionRatingsRecorder/CutScoreHandler
   #pragma pack(pop)

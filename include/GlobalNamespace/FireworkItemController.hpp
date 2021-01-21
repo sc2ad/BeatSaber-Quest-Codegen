@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDC6768
+    // [SpaceAttribute] Offset: 0xD38784
     // private System.Int32 _numberOfParticles
     // Size: 0x4
     // Offset: 0x30
@@ -112,7 +112,7 @@ namespace GlobalNamespace {
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomAudioPicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC67E0
+    // [CompilerGeneratedAttribute] Offset: 0xD387FC
     // private System.Action`1<FireworkItemController> didFinishEvent
     // Size: 0x8
     // Offset: 0x60
@@ -124,31 +124,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<FireworkItemController> value)
-    // Offset: 0x1A12A44
+    // Offset: 0xF2C8D8
     void add_didFinishEvent(System::Action_1<GlobalNamespace::FireworkItemController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<FireworkItemController> value)
-    // Offset: 0x1A12AE8
+    // Offset: 0xF2C97C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::FireworkItemController*>* value);
     // protected System.Void Awake()
-    // Offset: 0x1A12B8C
+    // Offset: 0xF2CA20
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0x1A12C14
+    // Offset: 0xF2CAA8
     void OnDisable();
     // public System.Void Fire()
-    // Offset: 0x1A12D50
+    // Offset: 0xF2CBE4
     void Fire();
     // private System.Collections.IEnumerator FireCoroutine()
-    // Offset: 0x1A12D7C
+    // Offset: 0xF2CC10
     System::Collections::IEnumerator* FireCoroutine();
     // private System.Void SetLightsColor(System.Single intensity)
-    // Offset: 0x1A12C98
+    // Offset: 0xF2CB2C
     void SetLightsColor(float intensity);
     // private System.Void PlayExplosionSound()
-    // Offset: 0x1A12E24
+    // Offset: 0xF2CCB8
     void PlayExplosionSound();
     // public System.Void .ctor()
-    // Offset: 0x1A12F10
+    // Offset: 0xF2CDA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -42,15 +42,15 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BloomPrePassBackgroundLightWithId
     BloomPrePassBackgroundLightWithId(GlobalNamespace::BloomPrePassBackgroundColor* bloomPrePassBackgroundColor_ = {}) noexcept : bloomPrePassBackgroundColor{bloomPrePassBackgroundColor_} {}
     // public UnityEngine.Color get_color()
-    // Offset: 0x18759F4
+    // Offset: 0x1D9939C
     UnityEngine::Color get_color();
     // public override System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x1875A14
+    // Offset: 0x1D993BC
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color newColor)
     void ColorWasSet(UnityEngine::Color newColor);
     // public System.Void .ctor()
-    // Offset: 0x1875A34
+    // Offset: 0x1D993DC
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

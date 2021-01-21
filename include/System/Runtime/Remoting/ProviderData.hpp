@@ -59,10 +59,10 @@ namespace System::Runtime::Remoting {
     // Creating value type constructor for type: ProviderData
     ProviderData(::Il2CppString* Ref_ = {}, ::Il2CppString* Type_ = {}, ::Il2CppString* Id_ = {}, System::Collections::Hashtable* CustomProperties_ = {}, System::Collections::IList* CustomData_ = {}) noexcept : Ref{Ref_}, Type{Type_}, Id{Id_}, CustomProperties{CustomProperties_}, CustomData{CustomData_} {}
     // public System.Void CopyFrom(System.Runtime.Remoting.ProviderData other)
-    // Offset: 0x1331FCC
+    // Offset: 0x1580D60
     void CopyFrom(System::Runtime::Remoting::ProviderData* other);
     // public System.Void .ctor()
-    // Offset: 0x1332628
+    // Offset: 0x15813BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

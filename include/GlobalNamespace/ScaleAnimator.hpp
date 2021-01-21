@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* targetTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCA6E4
+    // [InjectAttribute] Offset: 0xD3C8E0
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -82,34 +82,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0xFC57F8
+    // Offset: 0x108B4CC
     void OnDestroy();
     // private System.Void InitIfNeeded()
-    // Offset: 0xFC5890
+    // Offset: 0x108B564
     void InitIfNeeded();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0xFC5A68
+    // Offset: 0x108B7B0
     void SetPositionAndRotation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void HideInstant()
-    // Offset: 0xFC5AE4
+    // Offset: 0x108B82C
     void HideInstant();
     // public System.Void ShowInstant()
-    // Offset: 0xFC5BA8
+    // Offset: 0x108B8F0
     void ShowInstant();
-    // public System.Void Animate(System.Boolean show, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0xFC5C50
-    void Animate(bool show, float duration, Tweening::EaseType easeType);
+    // public System.Void Animate(System.Boolean show, System.Single duration, Tweening.EaseType easeType, System.Single delay)
+    // Offset: 0x108B998
+    void Animate(bool show, float duration, Tweening::EaseType easeType, float delay);
     // private System.Void <InitIfNeeded>b__7_0(System.Single val)
-    // Offset: 0xFC5E50
+    // Offset: 0x108BAD4
     void $InitIfNeeded$b__7_0(float val);
-    // private System.Void <InitIfNeeded>b__7_1(System.Single val)
-    // Offset: 0xFC5EAC
-    void $InitIfNeeded$b__7_1(float val);
     // private System.Void <InitIfNeeded>b__7_2()
-    // Offset: 0xFC5F08
+    // Offset: 0x108BB30
     void $InitIfNeeded$b__7_2();
+    // private System.Void <InitIfNeeded>b__7_1(System.Single val)
+    // Offset: 0x108BB60
+    void $InitIfNeeded$b__7_1(float val);
+    // private System.Void <InitIfNeeded>b__7_3()
+    // Offset: 0x108BBBC
+    void $InitIfNeeded$b__7_3();
     // public System.Void .ctor()
-    // Offset: 0xFC5E40
+    // Offset: 0x108BAC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

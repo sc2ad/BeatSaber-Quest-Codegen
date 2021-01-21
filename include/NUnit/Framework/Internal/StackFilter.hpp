@@ -27,10 +27,10 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private readonly System.Text.RegularExpressions.Regex assertOrAssumeRegex
     static void _set_assertOrAssumeRegex(System::Text::RegularExpressions::Regex* value);
     // static public System.String Filter(System.String rawTrace)
-    // Offset: 0x195A48C
+    // Offset: 0x2223180
     static ::Il2CppString* Filter(::Il2CppString* rawTrace);
     // static private System.Void .cctor()
-    // Offset: 0x195A6A4
+    // Offset: 0x2223398
     static void _cctor();
   }; // NUnit.Framework.Internal.StackFilter
   #pragma pack(pop)

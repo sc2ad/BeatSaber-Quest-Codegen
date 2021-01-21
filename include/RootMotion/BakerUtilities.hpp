@@ -27,19 +27,19 @@ namespace RootMotion {
     // Creating value type constructor for type: BakerUtilities
     BakerUtilities() noexcept {}
     // static public System.Void ReduceKeyframes(UnityEngine.AnimationCurve curve, System.Single maxError)
-    // Offset: 0x1740020
+    // Offset: 0x1B45A54
     static void ReduceKeyframes(UnityEngine::AnimationCurve* curve, float maxError);
     // static public UnityEngine.Keyframe[] GetReducedKeyframes(UnityEngine.AnimationCurve curve, System.Single maxError)
-    // Offset: 0x174156C
+    // Offset: 0x1B46FA0
     static ::Array<UnityEngine::Keyframe>* GetReducedKeyframes(UnityEngine::AnimationCurve* curve, float maxError);
     // static public System.Void SetLoopFrame(System.Single time, UnityEngine.AnimationCurve curve)
-    // Offset: 0x173FA34
+    // Offset: 0x1B45468
     static void SetLoopFrame(float time, UnityEngine::AnimationCurve* curve);
     // static public System.Void SetTangentMode(UnityEngine.AnimationCurve curve)
-    // Offset: 0x1740068
+    // Offset: 0x1B45A9C
     static void SetTangentMode(UnityEngine::AnimationCurve* curve);
     // static public UnityEngine.Quaternion EnsureQuaternionContinuity(UnityEngine.Quaternion lastQ, UnityEngine.Quaternion q)
-    // Offset: 0x173F56C
+    // Offset: 0x1B44FA0
     static UnityEngine::Quaternion EnsureQuaternionContinuity(UnityEngine::Quaternion lastQ, UnityEngine::Quaternion q);
   }; // RootMotion.BakerUtilities
   #pragma pack(pop)

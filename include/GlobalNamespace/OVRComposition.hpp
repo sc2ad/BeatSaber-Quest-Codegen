@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRComposition
     OVRComposition(bool cameraInTrackingSpace_ = {}, GlobalNamespace::OVRCameraRig* cameraRig_ = {}, bool usingLastAttachedNodePose_ = {}, GlobalNamespace::OVRPose lastAttachedNodePose_ = {}) noexcept : cameraInTrackingSpace{cameraInTrackingSpace_}, cameraRig{cameraRig_}, usingLastAttachedNodePose{usingLastAttachedNodePose_}, lastAttachedNodePose{lastAttachedNodePose_} {}
     // protected System.Void .ctor(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera)
-    // Offset: 0x106BE80
+    // Offset: 0x11A6988
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRComposition* New_ctor(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRComposition::.ctor");
@@ -88,16 +88,16 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void Cleanup();
     // public System.Void RecenterPose()
-    // Offset: 0x106C078
+    // Offset: 0x11A6B80
     void RecenterPose();
     // public System.Void RefreshCameraRig(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera)
-    // Offset: 0x106BEC0
+    // Offset: 0x11A69C8
     void RefreshCameraRig(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera);
     // public OVRPose ComputeCameraWorldSpacePose(OVRPlugin/CameraExtrinsics extrinsics, OVRPlugin/Posef calibrationRawPose)
-    // Offset: 0x106C07C
+    // Offset: 0x11A6B84
     GlobalNamespace::OVRPose ComputeCameraWorldSpacePose(GlobalNamespace::OVRPlugin::CameraExtrinsics extrinsics, GlobalNamespace::OVRPlugin::Posef calibrationRawPose);
     // public OVRPose ComputeCameraTrackingSpacePose(OVRPlugin/CameraExtrinsics extrinsics, OVRPlugin/Posef calibrationRawPose)
-    // Offset: 0x106C0E4
+    // Offset: 0x11A6BEC
     GlobalNamespace::OVRPose ComputeCameraTrackingSpacePose(GlobalNamespace::OVRPlugin::CameraExtrinsics extrinsics, GlobalNamespace::OVRPlugin::Posef calibrationRawPose);
   }; // OVRComposition
   #pragma pack(pop)

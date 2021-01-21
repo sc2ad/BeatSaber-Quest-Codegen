@@ -136,45 +136,45 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRExternalComposition
     OVRExternalComposition(UnityEngine::GameObject* previousMainCameraObject_ = {}, UnityEngine::GameObject* foregroundCameraGameObject_ = {}, UnityEngine::Camera* foregroundCamera_ = {}, UnityEngine::GameObject* backgroundCameraGameObject_ = {}, UnityEngine::Camera* backgroundCamera_ = {}, UnityEngine::AudioListener* audioListener_ = {}, GlobalNamespace::OVRMRAudioFilter* audioFilter_ = {}, ::Array<UnityEngine::RenderTexture*>* mrcRenderTextureArray_ = {}, int frameIndex_ = {}, int lastMrcEncodeFrameSyncId_ = {}, ::Array<float>* cachedAudioDataArray_ = {}, ::Il2CppObject* audioDataLock_ = {}, System::Collections::Generic::List_1<float>* cachedAudioData_ = {}, int cachedChannels_ = {}) noexcept : previousMainCameraObject{previousMainCameraObject_}, foregroundCameraGameObject{foregroundCameraGameObject_}, foregroundCamera{foregroundCamera_}, backgroundCameraGameObject{backgroundCameraGameObject_}, backgroundCamera{backgroundCamera_}, audioListener{audioListener_}, audioFilter{audioFilter_}, mrcRenderTextureArray{mrcRenderTextureArray_}, frameIndex{frameIndex_}, lastMrcEncodeFrameSyncId{lastMrcEncodeFrameSyncId_}, cachedAudioDataArray{cachedAudioDataArray_}, audioDataLock{audioDataLock_}, cachedAudioData{cachedAudioData_}, cachedChannels{cachedChannels_} {}
     // public System.Void .ctor(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
-    // Offset: 0x107215C
+    // Offset: 0x11ACC64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRExternalComposition* New_ctor(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRExternalComposition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRExternalComposition*, creationType>(parentObject, mainCamera, instantiateMixedRealityBackgroundCameraGameObject, instantiateMixedRealityForegroundCameraGameObject)));
     }
     // private System.Void RefreshCameraObjects(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
-    // Offset: 0x1072484
+    // Offset: 0x11ACF8C
     void RefreshCameraObjects(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject);
     // private System.Void RefreshAudioFilter()
-    // Offset: 0x1072D08
+    // Offset: 0x11AD810
     void RefreshAudioFilter();
     // private System.Int32 CastMrcFrame(System.Int32 castTextureIndex)
-    // Offset: 0x10734A8
+    // Offset: 0x11ADFB0
     int CastMrcFrame(int castTextureIndex);
     // private System.Void SetCameraTargetTexture(System.Int32 drawTextureIndex)
-    // Offset: 0x1073828
+    // Offset: 0x11AE330
     void SetCameraTargetTexture(int drawTextureIndex);
     // private System.Void CleanupAudioFilter()
-    // Offset: 0x107330C
+    // Offset: 0x11ADE14
     void CleanupAudioFilter();
     // public System.Void CacheAudioData(System.Single[] data, System.Int32 channels)
-    // Offset: 0x107440C
+    // Offset: 0x11AEF14
     void CacheAudioData(::Array<float>* data, int channels);
     // public System.Void GetAndResetAudioData(ref System.Single[] audioData, out System.Int32 audioFrames, out System.Int32 channels)
-    // Offset: 0x1073680
+    // Offset: 0x11AE188
     void GetAndResetAudioData(::Array<float>*& audioData, int& audioFrames, int& channels);
     // public override OVRManager/CompositionMethod CompositionMethod()
-    // Offset: 0x1072154
+    // Offset: 0x11ACC5C
     // Implemented from: OVRComposition
     // Base method: OVRManager/CompositionMethod OVRComposition::CompositionMethod()
     GlobalNamespace::OVRManager::CompositionMethod CompositionMethod();
     // public override System.Void Update(UnityEngine.GameObject gameObject, UnityEngine.Camera mainCamera, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
-    // Offset: 0x1073964
+    // Offset: 0x11AE46C
     // Implemented from: OVRComposition
     // Base method: System.Void OVRComposition::Update(UnityEngine.GameObject gameObject, UnityEngine.Camera mainCamera, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
     void Update(UnityEngine::GameObject* gameObject, UnityEngine::Camera* mainCamera, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject);
     // public override System.Void Cleanup()
-    // Offset: 0x10742A4
+    // Offset: 0x11AEDAC
     // Implemented from: OVRComposition
     // Base method: System.Void OVRComposition::Cleanup()
     void Cleanup();

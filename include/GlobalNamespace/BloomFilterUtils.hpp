@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BloomFilterUtils
     BloomFilterUtils() noexcept {}
     // static public BloomFilter ToBloomFilter(System.Collections.Generic.IEnumerable`1<System.String> strings)
-    // Offset: 0x19A39F8
+    // Offset: 0x226B240
     static GlobalNamespace::BloomFilter ToBloomFilter(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* strings);
   }; // BloomFilterUtils
   #pragma pack(pop)

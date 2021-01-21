@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxSpawnInterval and: fireworkItemPool
     char __padding2[0x4] = {};
-    // [InjectAttribute] Offset: 0xDC6820
+    // [InjectAttribute] Offset: 0xD3883C
     // private readonly FireworkItemController/Pool _fireworkItemPool
     // Size: 0x8
     // Offset: 0x30
@@ -65,19 +65,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0x1A131A4
+    // Offset: 0xF2D038
     void OnEnable();
     // private System.Collections.IEnumerator SpawningCoroutine()
-    // Offset: 0x1A131D0
+    // Offset: 0xF2D064
     System::Collections::IEnumerator* SpawningCoroutine();
     // private System.Void HandleFireworkItemControllerDidFinish(FireworkItemController fireworkItemController)
-    // Offset: 0x1A13278
+    // Offset: 0xF2D10C
     void HandleFireworkItemControllerDidFinish(GlobalNamespace::FireworkItemController* fireworkItemController);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x1A13324
+    // Offset: 0xF2D1B8
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x1A133A8
+    // Offset: 0xF2D23C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

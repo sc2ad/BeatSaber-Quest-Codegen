@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LoadingControl* loadingControl;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LoadingControl*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDD115C
+    // [SpaceAttribute] Offset: 0xD43458
     // private UnityEngine.Sprite _globalLeaderboardIcon
     // Size: 0x8
     // Offset: 0x88
@@ -106,14 +106,14 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelStatsView* levelStatsView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelStatsView*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD11C4
+    // [InjectAttribute] Offset: 0xD434C0
     // private readonly PlatformLeaderboardsModel _leaderboardsModel
     // Size: 0x8
     // Offset: 0xA8
     GlobalNamespace::PlatformLeaderboardsModel* leaderboardsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlatformLeaderboardsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD11D4
+    // [InjectAttribute] Offset: 0xD434D0
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xB0
@@ -166,68 +166,68 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>*) == 0x8);
     // Creating value type constructor for type: PlatformLeaderboardViewController
     PlatformLeaderboardViewController(GlobalNamespace::LeaderboardTableView* leaderboardTableView_ = {}, HMUI::IconSegmentedControl* scopeSegmentedControl_ = {}, GlobalNamespace::LoadingControl* loadingControl_ = {}, UnityEngine::Sprite* globalLeaderboardIcon_ = {}, UnityEngine::Sprite* aroundPlayerLeaderboardIcon_ = {}, UnityEngine::Sprite* friendsLeaderboardIcon_ = {}, GlobalNamespace::LevelStatsView* levelStatsView_ = {}, GlobalNamespace::PlatformLeaderboardsModel* leaderboardsModel_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::HMAsyncRequest* getScoresAsyncRequest_ = {}, ::Array<int>* playerScorePos_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* scores_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, bool refreshIsNeeded_ = {}, bool hasScoresData_ = {}, ::Array<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>* scoreScopes_ = {}) noexcept : leaderboardTableView{leaderboardTableView_}, scopeSegmentedControl{scopeSegmentedControl_}, loadingControl{loadingControl_}, globalLeaderboardIcon{globalLeaderboardIcon_}, aroundPlayerLeaderboardIcon{aroundPlayerLeaderboardIcon_}, friendsLeaderboardIcon{friendsLeaderboardIcon_}, levelStatsView{levelStatsView_}, leaderboardsModel{leaderboardsModel_}, playerDataModel{playerDataModel_}, getScoresAsyncRequest{getScoresAsyncRequest_}, playerScorePos{playerScorePos_}, scores{scores_}, difficultyBeatmap{difficultyBeatmap_}, refreshIsNeeded{refreshIsNeeded_}, hasScoresData{hasScoresData_}, scoreScopes{scoreScopes_} {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDD11E4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD434E0
     // Get static field: static private PlatformLeaderboardsModel/ScoresScope _scoresScope
     static GlobalNamespace::PlatformLeaderboardsModel::ScoresScope _get__scoresScope();
     // Set static field: static private PlatformLeaderboardsModel/ScoresScope _scoresScope
     static void _set__scoresScope(GlobalNamespace::PlatformLeaderboardsModel::ScoresScope value);
     // public PlatformLeaderboardsModel get_leaderboardsModel()
-    // Offset: 0xF08C18
+    // Offset: 0xF25004
     GlobalNamespace::PlatformLeaderboardsModel* get_leaderboardsModel();
     // private System.Int32 ScoreScopeToScoreScopeIndex(PlatformLeaderboardsModel/ScoresScope scoresScope)
-    // Offset: 0xF09314
+    // Offset: 0xF25704
     int ScoreScopeToScoreScopeIndex(GlobalNamespace::PlatformLeaderboardsModel::ScoresScope scoresScope);
     // private PlatformLeaderboardsModel/ScoresScope ScopeScopeIndexToScoreScope(System.Int32 scoreScopeIndex)
-    // Offset: 0xF097F8
+    // Offset: 0xF25AA8
     GlobalNamespace::PlatformLeaderboardsModel::ScoresScope ScopeScopeIndexToScoreScope(int scoreScopeIndex);
     // private System.Void HandleDidPressRefreshButton()
-    // Offset: 0xF09844
+    // Offset: 0xF25AF4
     void HandleDidPressRefreshButton();
     // private System.Void HandleLeaderboardsResultsReturned(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 playerScoreIndex)
-    // Offset: 0xF09850
+    // Offset: 0xF25B00
     void HandleLeaderboardsResultsReturned(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>* scores, int playerScoreIndex);
     // private System.Void HandleScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0xF09A70
+    // Offset: 0xF25D20
     void HandleScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // private System.Void HandlePlatformLeaderboardsModelAllScoresDidUpload()
-    // Offset: 0xF09B08
+    // Offset: 0xF25DB8
     void HandlePlatformLeaderboardsModelAllScoresDidUpload();
     // private System.Void Refresh(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0xF08C88
+    // Offset: 0xF25074
     void Refresh(bool showLoadingIndicator, bool clear);
     // private System.Collections.IEnumerator RefreshDelayed(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0xF09BE4
+    // Offset: 0xF25E94
     System::Collections::IEnumerator* RefreshDelayed(bool showLoadingIndicator, bool clear);
     // private System.Void ClearContent()
-    // Offset: 0xF09B14
+    // Offset: 0xF25DC4
     void ClearContent();
     // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xF08C20
+    // Offset: 0xF2500C
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
     void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public override System.Void RefreshLevelStats()
-    // Offset: 0xF08E48
+    // Offset: 0xF25234
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::RefreshLevelStats()
     void RefreshLevelStats();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF08E7C
+    // Offset: 0xF25268
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xF09480
+    // Offset: 0xF257CC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0xF09638
+    // Offset: 0xF258E4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xF09CAC
+    // Offset: 0xF25F30
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -242,7 +242,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlatformLeaderboardViewController*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0xF09D2C
+    // Offset: 0xF25FB0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

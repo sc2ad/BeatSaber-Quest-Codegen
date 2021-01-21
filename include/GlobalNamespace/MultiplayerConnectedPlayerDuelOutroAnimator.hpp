@@ -59,28 +59,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: targetPosition and: connectedPlayerContainerTransform
     char __padding1[0x4] = {};
-    // [SpaceAttribute] Offset: 0xDC891C
+    // [SpaceAttribute] Offset: 0xD3AAC8
     // private UnityEngine.Transform _connectedPlayerContainerTransform
     // Size: 0x8
     // Offset: 0x30
     UnityEngine::Transform* connectedPlayerContainerTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDC8954
+    // [SpaceAttribute] Offset: 0xD3AB00
     // private LightsAnimator[] _lightsAnimators
     // Size: 0x8
     // Offset: 0x38
     ::Array<GlobalNamespace::LightsAnimator*>* lightsAnimators;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::LightsAnimator*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC898C
+    // [InjectAttribute] Offset: 0xD3AB38
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x40
     Tweening::TweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC899C
+    // [InjectAttribute] Offset: 0xD3AB48
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x48
@@ -108,21 +108,21 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0xFA9574
+    // Offset: 0x1019488
     void OnDestroy();
     // private System.Void InitIfNeeded()
-    // Offset: 0xFA960C
+    // Offset: 0x1019520
     void InitIfNeeded();
     // private System.Void <InitIfNeeded>b__9_0(UnityEngine.Vector3 val)
-    // Offset: 0xFA98A0
+    // Offset: 0x10197B4
     void $InitIfNeeded$b__9_0(UnityEngine::Vector3 val);
     // public System.Void Animate(System.Single duration)
-    // Offset: 0xFA9758
+    // Offset: 0x101966C
     // Implemented from: IMultiplayerConnectedPlayerOutroAnimator
     // Base method: System.Void IMultiplayerConnectedPlayerOutroAnimator::Animate(System.Single duration)
     void Animate(float duration);
     // public System.Void .ctor()
-    // Offset: 0xFA9898
+    // Offset: 0x10197AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

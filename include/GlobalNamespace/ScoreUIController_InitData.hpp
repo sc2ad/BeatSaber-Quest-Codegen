@@ -34,7 +34,7 @@ namespace GlobalNamespace {
       return scoreDisplayType;
     }
     // public System.Void .ctor(ScoreUIController/ScoreDisplayType scoreDisplayType)
-    // Offset: 0xFC944C
+    // Offset: 0x108EEB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreUIController::InitData* New_ctor(GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ScoreUIController::InitData::.ctor");

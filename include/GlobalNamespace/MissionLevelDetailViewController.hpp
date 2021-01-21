@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDD0368
+    // [SpaceAttribute] Offset: 0xD426A4
     // private UnityEngine.UI.Button _playButton
     // Size: 0x8
     // Offset: 0x78
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* modifiersPanelGO;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDD03E0
+    // [CompilerGeneratedAttribute] Offset: 0xD4271C
     // private System.Action`1<MissionLevelDetailViewController> didPressPlayButtonEvent
     // Size: 0x8
     // Offset: 0xA0
@@ -105,30 +105,30 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MissionLevelDetailViewController
     MissionLevelDetailViewController(GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, UnityEngine::UI::Button* playButton_ = {}, GlobalNamespace::LevelBar* levelBar_ = {}, GlobalNamespace::ObjectiveListItemsList* objectiveListItems_ = {}, GlobalNamespace::GameplayModifierInfoListItemsList* gameplayModifierInfoListItemsList_ = {}, UnityEngine::GameObject* modifiersPanelGO_ = {}, System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* didPressPlayButtonEvent_ = {}, GlobalNamespace::MissionNode* missionNode_ = {}) noexcept : gameplayModifiersModel{gameplayModifiersModel_}, playButton{playButton_}, levelBar{levelBar_}, objectiveListItems{objectiveListItems_}, gameplayModifierInfoListItemsList{gameplayModifierInfoListItemsList_}, modifiersPanelGO{modifiersPanelGO_}, didPressPlayButtonEvent{didPressPlayButtonEvent_}, missionNode{missionNode_} {}
     // public System.Void add_didPressPlayButtonEvent(System.Action`1<MissionLevelDetailViewController> value)
-    // Offset: 0x10184A0
+    // Offset: 0x1095E34
     void add_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* value);
     // public System.Void remove_didPressPlayButtonEvent(System.Action`1<MissionLevelDetailViewController> value)
-    // Offset: 0x1018544
+    // Offset: 0x1095ED8
     void remove_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* value);
     // public MissionNode get_missionNode()
-    // Offset: 0x10185E8
+    // Offset: 0x1095F7C
     GlobalNamespace::MissionNode* get_missionNode();
     // public System.Void Setup(MissionNode missionNode)
-    // Offset: 0x10185F0
+    // Offset: 0x1095F84
     void Setup(GlobalNamespace::MissionNode* missionNode);
     // public System.Void RefreshContent()
-    // Offset: 0x1018634
+    // Offset: 0x1095FC8
     void RefreshContent();
     // private System.Void PlayButtonPressed()
-    // Offset: 0x10188A4
+    // Offset: 0x1096238
     void PlayButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10187F8
+    // Offset: 0x109618C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1018908
+    // Offset: 0x109629C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

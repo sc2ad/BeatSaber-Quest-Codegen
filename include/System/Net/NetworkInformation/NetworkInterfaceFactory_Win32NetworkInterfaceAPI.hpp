@@ -35,18 +35,18 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: Win32NetworkInterfaceAPI
     Win32NetworkInterfaceAPI() noexcept {}
     // static private System.Int32 GetAdaptersAddresses(System.UInt32 family, System.UInt32 flags, System.IntPtr reserved, System.IntPtr info, ref System.Int32 size)
-    // Offset: 0x119CC60
+    // Offset: 0x1356AAC
     static int GetAdaptersAddresses(uint family, uint flags, System::IntPtr reserved, System::IntPtr info, int& size);
     // static private System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES[] GetAdaptersAddresses()
-    // Offset: 0x119CD1C
+    // Offset: 0x1356B68
     static ::Array<System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES>* GetAdaptersAddresses();
     // public override System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x119CFA0
+    // Offset: 0x1356DEC
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Net.NetworkInformation.NetworkInterface[] NetworkInterfaceFactory::GetAllNetworkInterfaces()
     ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces();
     // public System.Void .ctor()
-    // Offset: 0x119B86C
+    // Offset: 0x13556B8
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Void NetworkInterfaceFactory::.ctor()
     // Base method: System.Void Object::.ctor()

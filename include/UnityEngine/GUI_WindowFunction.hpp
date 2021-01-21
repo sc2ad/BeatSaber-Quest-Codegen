@@ -33,20 +33,20 @@ namespace UnityEngine {
     // Creating value type constructor for type: WindowFunction
     WindowFunction() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1603688
+    // Offset: 0x198320C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUI::WindowFunction* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUI::WindowFunction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUI::WindowFunction*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Int32 id)
-    // Offset: 0x16031B0
+    // Offset: 0x1982D34
     void Invoke(int id);
     // public System.IAsyncResult BeginInvoke(System.Int32 id, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x160369C
+    // Offset: 0x1983220
     System::IAsyncResult* BeginInvoke(int id, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1603728
+    // Offset: 0x19832AC
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.GUI/WindowFunction
   #pragma pack(pop)

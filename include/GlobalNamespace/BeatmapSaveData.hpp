@@ -98,41 +98,41 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCurrentVersion
     static void _set_kCurrentVersion(::Il2CppString* value);
     // public System.String get_version()
-    // Offset: 0x1A2CFEC
+    // Offset: 0xF5DD0C
     ::Il2CppString* get_version();
     // public System.Collections.Generic.List`1<BeatmapSaveData/EventData> get_events()
-    // Offset: 0x1A2CFF4
+    // Offset: 0xF5DD14
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* get_events();
     // public System.Collections.Generic.List`1<BeatmapSaveData/NoteData> get_notes()
-    // Offset: 0x1A2CFFC
+    // Offset: 0xF5DD1C
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>* get_notes();
     // public System.Collections.Generic.List`1<BeatmapSaveData/WaypointData> get_waypoints()
-    // Offset: 0x1A2D004
+    // Offset: 0xF5DD24
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::WaypointData*>* get_waypoints();
     // public System.Collections.Generic.List`1<BeatmapSaveData/ObstacleData> get_obstacles()
-    // Offset: 0x1A2D00C
+    // Offset: 0xF5DD2C
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* get_obstacles();
     // public BeatmapSaveData/SpecialEventKeywordFiltersData get_specialEventsKeywordFilters()
-    // Offset: 0x1A2D014
+    // Offset: 0xF5DD34
     GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData* get_specialEventsKeywordFilters();
     // public System.Void .ctor(System.Collections.Generic.List`1<BeatmapSaveData/EventData> events, System.Collections.Generic.List`1<BeatmapSaveData/NoteData> notes, System.Collections.Generic.List`1<BeatmapSaveData/WaypointData> waypoints, System.Collections.Generic.List`1<BeatmapSaveData/ObstacleData> obstacles, BeatmapSaveData/SpecialEventKeywordFiltersData specialEventsKeywordFilters)
-    // Offset: 0x1A2D01C
+    // Offset: 0xF5DD3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData* New_ctor(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* events, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>* notes, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::WaypointData*>* waypoints, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* obstacles, GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData* specialEventsKeywordFilters) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData*, creationType>(events, notes, waypoints, obstacles, specialEventsKeywordFilters)));
     }
     // public System.Byte[] SerializeToBinary()
-    // Offset: 0x1A2D0F8
+    // Offset: 0xF5DE18
     ::Array<uint8_t>* SerializeToBinary();
     // static public BeatmapSaveData DeserializeFromFromBinary(System.Byte[] data)
-    // Offset: 0x1A2D288
+    // Offset: 0xF5DFA8
     static GlobalNamespace::BeatmapSaveData* DeserializeFromFromBinary(::Array<uint8_t>* data);
     // public System.String SerializeToJSONString()
-    // Offset: 0x1A2D428
+    // Offset: 0xF5E148
     ::Il2CppString* SerializeToJSONString();
     // static public BeatmapSaveData DeserializeFromJSONString(System.String stringData)
-    // Offset: 0x1A2D430
+    // Offset: 0xF5E150
     static GlobalNamespace::BeatmapSaveData* DeserializeFromJSONString(::Il2CppString* stringData);
   }; // BeatmapSaveData
   #pragma pack(pop)

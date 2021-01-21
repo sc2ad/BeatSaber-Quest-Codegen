@@ -21,14 +21,14 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class Recoil::RecoilOffset::EffectorLink : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDBBE18
+    // [TooltipAttribute] Offset: 0xD2DC14
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0xDBBE50
+    // [TooltipAttribute] Offset: 0xD2DC4C
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x14
@@ -38,7 +38,7 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: EffectorLink
     EffectorLink(RootMotion::FinalIK::FullBodyBipedEffector effector_ = {}, float weight_ = {}) noexcept : effector{effector_}, weight{weight_} {}
     // public System.Void .ctor()
-    // Offset: 0x15E5CBC
+    // Offset: 0x1966840
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -59,41 +59,41 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::MasterServerEndPoint*>*>(this);
     }
     // public System.Net.IPEndPoint get_endPoint()
-    // Offset: 0x1AE0F10
+    // Offset: 0x1127160
     System::Net::IPEndPoint* get_endPoint();
     // public System.Void .ctor(System.String hostName, System.Int32 port)
-    // Offset: 0x1AE71FC
+    // Offset: 0x112D44C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MasterServerEndPoint* New_ctor(::Il2CppString* hostName, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MasterServerEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MasterServerEndPoint*, creationType>(hostName, port)));
     }
     // public System.Threading.Tasks.Task`1<System.Net.IPEndPoint> GetEndPointAsync()
-    // Offset: 0x1AE7244
+    // Offset: 0x112D494
     System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>* GetEndPointAsync();
     // public System.Net.IPEndPoint GetEndPoint()
-    // Offset: 0x1AE7300
+    // Offset: 0x112D550
     System::Net::IPEndPoint* GetEndPoint();
     // private System.Net.IPEndPoint GetEndPointInternal()
-    // Offset: 0x1AE73A4
+    // Offset: 0x112D5F4
     System::Net::IPEndPoint* GetEndPointInternal();
     // public override System.String ToString()
-    // Offset: 0x1AE7468
+    // Offset: 0x112D6B8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1AE74F0
+    // Offset: 0x112D740
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(MasterServerEndPoint other)
-    // Offset: 0x1AE5A04
+    // Offset: 0x112BC54
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(MasterServerEndPoint other)
     bool Equals(GlobalNamespace::MasterServerEndPoint* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1AE75A0
+    // Offset: 0x112D7F0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

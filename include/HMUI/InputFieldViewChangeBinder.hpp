@@ -60,25 +60,25 @@ namespace HMUI {
     // Creating value type constructor for type: InputFieldViewChangeBinder
     InputFieldViewChangeBinder(System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView*, UnityEngine::Events::UnityAction_1<HMUI::InputFieldView*>*>*>* bindings_ = {}, bool enabled_ = {}) noexcept : bindings{bindings_}, enabled{enabled_} {}
     // private System.Void Init()
-    // Offset: 0x107A308
+    // Offset: 0x11B5E10
     void Init();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`2<HMUI.InputFieldView,System.Action`1<HMUI.InputFieldView>>> bindings)
-    // Offset: 0x107A378
+    // Offset: 0x11B5E80
     void AddBindings(System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView*, System::Action_1<HMUI::InputFieldView*>*>*>* bindings);
     // public System.Void AddBinding(HMUI.InputFieldView inputField, System.Action`1<HMUI.InputFieldView> action)
-    // Offset: 0x107A480
+    // Offset: 0x11B5F88
     void AddBinding(HMUI::InputFieldView* inputField, System::Action_1<HMUI::InputFieldView*>* action);
     // public System.Void ClearBindings()
-    // Offset: 0x107A540
+    // Offset: 0x11B6048
     void ClearBindings();
     // public System.Void Disable()
-    // Offset: 0x107A6D8
+    // Offset: 0x11B61E0
     void Disable();
     // public System.Void Enable()
-    // Offset: 0x107A860
+    // Offset: 0x11B6368
     void Enable();
     // public System.Void .ctor()
-    // Offset: 0x107A2D8
+    // Offset: 0x11B5DE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

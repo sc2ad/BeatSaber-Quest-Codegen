@@ -46,20 +46,20 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Creating value type constructor for type: RequestLightsDelegate
     RequestLightsDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1689784
+    // Offset: 0x1A211C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Lightmapping::RequestLightsDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Lightmapping::RequestLightsDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput)
-    // Offset: 0x1689278
+    // Offset: 0x1A20CB8
     void Invoke(::Array<UnityEngine::Light*>* requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1689B3C
+    // Offset: 0x1A2157C
     System::IAsyncResult* BeginInvoke(::Array<UnityEngine::Light*>* requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1689BD8
+    // Offset: 0x1A21618
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Experimental.GlobalIllumination.Lightmapping/RequestLightsDelegate
   #pragma pack(pop)

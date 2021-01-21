@@ -31,10 +31,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapDataTransformHelper
     BeatmapDataTransformHelper() noexcept {}
     // static public IReadonlyBeatmapData CreateTransformedBeatmapData(IReadonlyBeatmapData beatmapData, GameplayModifiers gameplayModifiers, PracticeSettings practiceSettings, System.Boolean leftHanded, System.Boolean staticLights)
-    // Offset: 0x1A81C34
+    // Offset: 0x1071BA0
     static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedBeatmapData(GlobalNamespace::IReadonlyBeatmapData* beatmapData, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PracticeSettings* practiceSettings, bool leftHanded, bool staticLights);
     // public System.Void .ctor()
-    // Offset: 0x1A81D64
+    // Offset: 0x1071CD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -52,14 +52,14 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);
     }
     // System.Void .ctor(System.Threading.Tasks.ITaskCompletionAction action, System.Threading.Tasks.Task completingTask)
-    // Offset: 0x1D0E7C0
+    // Offset: 0x17AF81C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompletionActionInvoker* New_ctor(System::Threading::Tasks::ITaskCompletionAction* action, System::Threading::Tasks::Task* completingTask) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::CompletionActionInvoker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompletionActionInvoker*, creationType>(action, completingTask)));
     }
     // public System.Void ExecuteWorkItem()
-    // Offset: 0x1D0E810
+    // Offset: 0x17AF86C
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::ExecuteWorkItem()
     void ExecuteWorkItem();
@@ -67,7 +67,7 @@ namespace System::Threading::Tasks {
     // Maps to method: ExecuteWorkItem
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // public System.Void MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x1D0E8C8
+    // Offset: 0x17AF924
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void MarkAborted(System::Threading::ThreadAbortException* tae);

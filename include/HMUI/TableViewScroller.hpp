@@ -118,7 +118,7 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(TableViewScroller::ScrollDirection), 0 + sizeof(int)> __HMUI_TableViewScroller_ScrollDirectionSizeCheck;
     static_assert(sizeof(TableViewScroller::ScrollDirection) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDA83E0
+    // [CompilerGeneratedAttribute] Offset: 0xD19FD8
     // private System.Action`2<HMUI.TableViewScroller,System.Single> positionDidChangeEvent
     // Size: 0x8
     // Offset: 0x18
@@ -224,85 +224,85 @@ namespace HMUI {
     // Set static field: static private System.Single kJoystickScrollSpeed
     static void _set_kJoystickScrollSpeed(float value);
     // public System.Void add_positionDidChangeEvent(System.Action`2<HMUI.TableViewScroller,System.Single> value)
-    // Offset: 0x1089994
+    // Offset: 0x11C549C
     void add_positionDidChangeEvent(System::Action_2<HMUI::TableViewScroller*, float>* value);
     // public System.Void remove_positionDidChangeEvent(System.Action`2<HMUI.TableViewScroller,System.Single> value)
-    // Offset: 0x1089A38
+    // Offset: 0x11C5540
     void remove_positionDidChangeEvent(System::Action_2<HMUI::TableViewScroller*, float>* value);
     // public System.Single get_position()
-    // Offset: 0x1088DFC
+    // Offset: 0x11C4904
     float get_position();
     // private System.Void set_position(System.Single value)
-    // Offset: 0x1089ADC
+    // Offset: 0x11C55E4
     void set_position(float value);
     // public System.Single get_targetPosition()
-    // Offset: 0x1089BAC
+    // Offset: 0x11C56B4
     float get_targetPosition();
     // public System.Single get_scrollableSize()
-    // Offset: 0x1089BB4
+    // Offset: 0x11C56BC
     float get_scrollableSize();
     // public System.Void Init(HMUI.TableView tableView, UnityEngine.UI.Button pageUpButton, UnityEngine.UI.Button pageDownButton, HMUI.VerticalScrollIndicator verticalScrollIndicator, HMUI.EventSystemListener eventSystemListener, IVRPlatformHelper platformHelper, System.Boolean hideScrollButtonsIfNotNeeded, System.Boolean hideScrollIndicatorIfNotNeeded)
-    // Offset: 0x1088704
+    // Offset: 0x11C420C
     void Init(HMUI::TableView* tableView, UnityEngine::UI::Button* pageUpButton, UnityEngine::UI::Button* pageDownButton, HMUI::VerticalScrollIndicator* verticalScrollIndicator, HMUI::EventSystemListener* eventSystemListener, GlobalNamespace::IVRPlatformHelper* platformHelper, bool hideScrollButtonsIfNotNeeded, bool hideScrollIndicatorIfNotNeeded);
     // protected System.Void OnDestroy()
-    // Offset: 0x1089D1C
+    // Offset: 0x11C5824
     void OnDestroy();
     // public System.Void ScrollToCellWithIdx(System.Int32 idx, HMUI.TableViewScroller/ScrollPositionType scrollPositionType, System.Boolean animated)
-    // Offset: 0x1089700
+    // Offset: 0x11C5208
     void ScrollToCellWithIdx(int idx, HMUI::TableViewScroller::ScrollPositionType scrollPositionType, bool animated);
     // protected System.Void Update()
-    // Offset: 0x108A1D0
+    // Offset: 0x11C5CD8
     void Update();
     // private System.Void UpdateVerticalScrollIndicator(System.Single posY)
-    // Offset: 0x108A2F0
+    // Offset: 0x11C5DF8
     void UpdateVerticalScrollIndicator(float posY);
     // private System.Single GetNumberOfVisibleCells()
-    // Offset: 0x108A39C
+    // Offset: 0x11C5EA4
     float GetNumberOfVisibleCells();
     // private System.Void RefreshScrollableSize()
-    // Offset: 0x1089BBC
+    // Offset: 0x11C56C4
     void RefreshScrollableSize();
     // private System.Void HandleTableViewDidReloadData(HMUI.TableView tableView)
-    // Offset: 0x108A480
+    // Offset: 0x11C5F88
     void HandleTableViewDidReloadData(HMUI::TableView* tableView);
     // private System.Void HandleTableViewDidInsertCells(HMUI.TableView tableView)
-    // Offset: 0x108A4A4
+    // Offset: 0x11C5FAC
     void HandleTableViewDidInsertCells(HMUI::TableView* tableView);
     // private System.Void HandleTableViewDidDeleteCells(HMUI.TableView tableView)
-    // Offset: 0x108A4C8
+    // Offset: 0x11C5FD0
     void HandleTableViewDidDeleteCells(HMUI::TableView* tableView);
     // private System.Void HandleTableViewDidChangeRectSize(HMUI.TableView tableView)
-    // Offset: 0x108A4EC
+    // Offset: 0x11C5FF4
     void HandleTableViewDidChangeRectSize(HMUI::TableView* tableView);
     // public System.Void PageScrollUp()
-    // Offset: 0x108A510
+    // Offset: 0x11C6018
     void PageScrollUp();
     // public System.Void PageScrollDown()
-    // Offset: 0x108A624
+    // Offset: 0x11C612C
     void PageScrollDown();
     // private System.Void RefreshScrollBar()
-    // Offset: 0x1089F5C
+    // Offset: 0x11C5A64
     void RefreshScrollBar();
     // private System.Void HandlePointerDidEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x108A748
+    // Offset: 0x11C6250
     void HandlePointerDidEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // private System.Void HandlePointerDidExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x108A8E8
+    // Offset: 0x11C63F0
     void HandlePointerDidExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // private System.Void HandleJoystickWasNotCenteredThisFrame(UnityEngine.Vector2 deltaPos)
-    // Offset: 0x108AC70
+    // Offset: 0x11C6778
     void HandleJoystickWasNotCenteredThisFrame(UnityEngine::Vector2 deltaPos);
     // private System.Void HandleJoystickWasCenteredThisFrame()
-    // Offset: 0x108AA98
+    // Offset: 0x11C65A0
     void HandleJoystickWasCenteredThisFrame();
     // private System.Void <Init>b__27_0()
-    // Offset: 0x108AE88
+    // Offset: 0x11C6990
     void $Init$b__27_0();
     // private System.Void <Init>b__27_1()
-    // Offset: 0x108AEAC
+    // Offset: 0x11C69B4
     void $Init$b__27_1();
     // public System.Void .ctor()
-    // Offset: 0x108AE80
+    // Offset: 0x11C6988
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

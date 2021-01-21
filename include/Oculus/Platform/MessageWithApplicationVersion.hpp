@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithApplicationVersion
     MessageWithApplicationVersion() noexcept {}
     // protected Oculus.Platform.Models.ApplicationVersion GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x11D81EC
+    // Offset: 0x13E8FF4
     Oculus::Platform::Models::ApplicationVersion* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x11D58A8
+    // Offset: 0x13E66B0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,7 +41,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithApplicationVersion*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.ApplicationVersion GetApplicationVersion()
-    // Offset: 0x11D81A8
+    // Offset: 0x13E8FB0
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.ApplicationVersion Message::GetApplicationVersion()
     Oculus::Platform::Models::ApplicationVersion* GetApplicationVersion();

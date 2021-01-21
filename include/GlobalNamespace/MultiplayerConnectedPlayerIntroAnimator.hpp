@@ -46,7 +46,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerIntroAnimator : public UnityEngine::MonoBehaviour {
     public:
-    // [HeaderAttribute] Offset: 0xDC8B94
+    // [HeaderAttribute] Offset: 0xD3AD50
     // private AvatarVisualController _avatarVisualsController
     // Size: 0x8
     // Offset: 0x18
@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ScaleAnimator* avatarScaleAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ScaleAnimator*) == 0x8);
-    // [HeaderAttribute] Offset: 0xDC8BF0
+    // [HeaderAttribute] Offset: 0xD3ADAC
     // protected ColorSO _activeLightsColor
     // Size: 0x8
     // Offset: 0x28
@@ -72,21 +72,21 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSO* offLightsColor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
-    // [HeaderAttribute] Offset: 0xDC8C4C
+    // [HeaderAttribute] Offset: 0xD3AE08
     // private VFXController _spawnVFXController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::VFXController* spawnVFXController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VFXController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDC8C98
+    // [SpaceAttribute] Offset: 0xD3AE54
     // protected LightsAnimator[] _lightsAnimators
     // Size: 0x8
     // Offset: 0x40
     ::Array<GlobalNamespace::LightsAnimator*>* lightsAnimators;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::LightsAnimator*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC8CD0
+    // [InjectAttribute] Offset: 0xD3AE8C
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x48
@@ -104,22 +104,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0xFAB8A8
+    // Offset: 0x101B994
     void OnDestroy();
     // public System.Void SetBeforeIntroValues()
-    // Offset: 0xFAB940
+    // Offset: 0x101BA2C
     void SetBeforeIntroValues();
     // public System.Void Animate(System.Single duration, System.Int32 order)
-    // Offset: 0xFAB9F0
+    // Offset: 0x101BADC
     void Animate(float duration, int order);
     // public System.Void TransitionToAfterIntroAnimationState()
-    // Offset: 0xFABBE4
+    // Offset: 0x101BCD4
     void TransitionToAfterIntroAnimationState();
     // private System.Void <Animate>b__10_0(UnityEngine.Color color)
-    // Offset: 0xFABCB4
+    // Offset: 0x101BDA4
     void $Animate$b__10_0(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0xFABCAC
+    // Offset: 0x101BD9C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -96,58 +96,58 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<uint>* _get_TAU_SIGMA();
     // Set static field: static private readonly System.UInt32[] TAU_SIGMA
     static void _set_TAU_SIGMA(::Array<uint>* value);
-    // [ObsoleteAttribute] Offset: 0xDA32D0
+    // [ObsoleteAttribute] Offset: 0xD14F20
     // Get static field: static protected readonly System.Byte[] sigma
     static ::Array<uint8_t>* _get_sigma();
     // Set static field: static protected readonly System.Byte[] sigma
     static void _set_sigma(::Array<uint8_t>* value);
-    // [ObsoleteAttribute] Offset: 0xDA32E0
+    // [ObsoleteAttribute] Offset: 0xD14F30
     // Get static field: static protected readonly System.Byte[] tau
     static ::Array<uint8_t>* _get_tau();
     // Set static field: static protected readonly System.Byte[] tau
     static void _set_tau(::Array<uint8_t>* value);
     // System.Void PackTauOrSigma(System.Int32 keyLength, System.UInt32[] state, System.Int32 stateOffset)
-    // Offset: 0x180A0F4
+    // Offset: 0x1CD0DC4
     void PackTauOrSigma(int keyLength, ::Array<uint>* state, int stateOffset);
     // public System.Void .ctor(System.Int32 rounds)
-    // Offset: 0x180A2F8
+    // Offset: 0x1CD0FC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Salsa20Engine* New_ctor(int rounds) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::Salsa20Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Salsa20Engine*, creationType>(rounds)));
     }
     // protected System.Int32 get_NonceSize()
-    // Offset: 0x180A768
+    // Offset: 0x1CD1438
     int get_NonceSize();
     // public System.String get_AlgorithmName()
-    // Offset: 0x180A770
+    // Offset: 0x1CD1440
     ::Il2CppString* get_AlgorithmName();
     // protected System.Void AdvanceCounter()
-    // Offset: 0x180A844
+    // Offset: 0x1CD1514
     void AdvanceCounter();
     // protected System.Void ResetCounter()
-    // Offset: 0x180AB70
+    // Offset: 0x1CD1840
     void ResetCounter();
     // protected System.Void SetKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x180ABA8
+    // Offset: 0x1CD1878
     void SetKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
     // protected System.Void GenerateKeyStream(System.Byte[] output)
-    // Offset: 0x180AE10
+    // Offset: 0x1CD1AE0
     void GenerateKeyStream(::Array<uint8_t>* output);
     // static System.Void SalsaCore(System.Int32 rounds, System.UInt32[] input, System.UInt32[] x)
-    // Offset: 0x180AEAC
+    // Offset: 0x1CD1B7C
     static void SalsaCore(int rounds, ::Array<uint>* input, ::Array<uint>* x);
     // private System.Void ResetLimitCounter()
-    // Offset: 0x180AB64
+    // Offset: 0x1CD1834
     void ResetLimitCounter();
     // private System.Boolean LimitExceeded(System.UInt32 len)
-    // Offset: 0x180AB0C
+    // Offset: 0x1CD17DC
     bool LimitExceeded(uint len);
     // static private System.Void .cctor()
-    // Offset: 0x180B524
+    // Offset: 0x1CD21F4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x180A288
+    // Offset: 0x1CD0F58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -156,17 +156,17 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<Salsa20Engine*, creationType>()));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x180A408
+    // Offset: 0x1CD10D8
     // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
     // Base method: System.Void IStreamCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x180A8A8
+    // Offset: 0x1CD1578
     // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
     // Base method: System.Void IStreamCipher::ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
     void ProcessBytes(::Array<uint8_t>* inBytes, int inOff, int len, ::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x180AB48
+    // Offset: 0x1CD1818
     // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
     // Base method: System.Void IStreamCipher::Reset()
     void Reset();

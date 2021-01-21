@@ -85,47 +85,47 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmap*>(this);
     }
     // public System.Void SetParents(IBeatmapLevel parentLevel, IDifficultyBeatmapSet parentDifficultyBeatmapSet)
-    // Offset: 0x1A86C58
+    // Offset: 0x1076BC4
     void SetParents(GlobalNamespace::IBeatmapLevel* parentLevel, GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet);
     // public System.Void .ctor(IBeatmapLevel parentLevel, BeatmapDifficulty difficulty, System.Int32 difficultyRank, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, BeatmapDataSO beatmapData)
-    // Offset: 0x1A8A530
+    // Offset: 0x107A49C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelSO::DifficultyBeatmap* New_ctor(GlobalNamespace::IBeatmapLevel* parentLevel, GlobalNamespace::BeatmapDifficulty difficulty, int difficultyRank, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, GlobalNamespace::BeatmapDataSO* beatmapData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelSO::DifficultyBeatmap*, creationType>(parentLevel, difficulty, difficultyRank, noteJumpMovementSpeed, noteJumpStartBeatOffset, beatmapData)));
     }
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x1A8A4C8
+    // Offset: 0x107A434
     // Implemented from: IDifficultyBeatmap
     // Base method: BeatmapDifficulty IDifficultyBeatmap::get_difficulty()
     GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x1A8A4D0
+    // Offset: 0x107A43C
     // Implemented from: IDifficultyBeatmap
     // Base method: System.Int32 IDifficultyBeatmap::get_difficultyRank()
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x1A8A4D8
+    // Offset: 0x107A444
     // Implemented from: IDifficultyBeatmap
     // Base method: System.Single IDifficultyBeatmap::get_noteJumpMovementSpeed()
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x1A8A4E0
+    // Offset: 0x107A44C
     // Implemented from: IDifficultyBeatmap
     // Base method: System.Single IDifficultyBeatmap::get_noteJumpStartBeatOffset()
     float get_noteJumpStartBeatOffset();
     // public BeatmapData get_beatmapData()
-    // Offset: 0x1A8A4E8
+    // Offset: 0x107A454
     // Implemented from: IDifficultyBeatmap
     // Base method: BeatmapData IDifficultyBeatmap::get_beatmapData()
     GlobalNamespace::BeatmapData* get_beatmapData();
     // public IBeatmapLevel get_level()
-    // Offset: 0x1A8A520
+    // Offset: 0x107A48C
     // Implemented from: IDifficultyBeatmap
     // Base method: IBeatmapLevel IDifficultyBeatmap::get_level()
     GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0x1A8A528
+    // Offset: 0x107A494
     // Implemented from: IDifficultyBeatmap
     // Base method: IDifficultyBeatmapSet IDifficultyBeatmap::get_parentDifficultyBeatmapSet()
     GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();

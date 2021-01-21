@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* okButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDCF698
+    // [CompilerGeneratedAttribute] Offset: 0xD41954
     // private System.Action`2<EnterTextViewController,System.String> didFinishEvent
     // Size: 0x8
     // Offset: 0x88
@@ -70,24 +70,24 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EnterTextViewController
     EnterTextViewController(GlobalNamespace::VRTextEntryController* textEntryController_ = {}, TMPro::TextMeshProUGUI* titleText_ = {}, UnityEngine::UI::Button* okButton_ = {}, System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* didFinishEvent_ = {}) noexcept : textEntryController{textEntryController_}, titleText{titleText_}, okButton{okButton_}, didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
-    // Offset: 0x1A605C8
+    // Offset: 0x1050018
     void add_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
-    // Offset: 0x1A6066C
+    // Offset: 0x10500BC
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* value);
     // public System.Void Init(System.String titleText)
-    // Offset: 0x1A60710
+    // Offset: 0x1050160
     void Init(::Il2CppString* titleText);
     // public System.Void OkButtonPressed()
-    // Offset: 0x1A60808
+    // Offset: 0x1050258
     void OkButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1A6072C
+    // Offset: 0x105017C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1A608A8
+    // Offset: 0x10502F8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

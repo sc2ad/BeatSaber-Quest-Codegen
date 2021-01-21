@@ -73,14 +73,14 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: animateParentCanvas and: container
     char __padding2[0x7] = {};
-    // [InjectAttribute] Offset: 0xDA78F0
+    // [InjectAttribute] Offset: 0xD194E8
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x30
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDA7900
+    // [CompilerGeneratedAttribute] Offset: 0xD194F8
     // private System.Action blockerClickedEvent
     // Size: 0x8
     // Offset: 0x38
@@ -130,40 +130,40 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_blockerClickedEvent(System.Action value)
-    // Offset: 0x107AF00
+    // Offset: 0x11B6A08
     void add_blockerClickedEvent(System::Action* value);
     // public System.Void remove_blockerClickedEvent(System.Action value)
-    // Offset: 0x107AFA4
+    // Offset: 0x11B6AAC
     void remove_blockerClickedEvent(System::Action* value);
     // private System.Void OnDisable()
-    // Offset: 0x107B048
+    // Offset: 0x11B6B50
     void OnDisable();
     // private System.Void OnDestroy()
-    // Offset: 0x107B248
+    // Offset: 0x11B6D50
     void OnDestroy();
     // private System.Void SetupView(UnityEngine.Transform screenTransform)
-    // Offset: 0x107B2F8
+    // Offset: 0x11B6E00
     void SetupView(UnityEngine::Transform* screenTransform);
     // public System.Void Hide(System.Boolean animated, System.Action finishedCallback)
-    // Offset: 0x107B054
+    // Offset: 0x11B6B5C
     void Hide(bool animated, System::Action* finishedCallback);
     // public System.Void Show(System.Boolean animated, System.Boolean moveToCenter, System.Action finishedCallback)
-    // Offset: 0x107B650
+    // Offset: 0x11B7158
     void Show(bool animated, bool moveToCenter, System::Action* finishedCallback);
     // private UnityEngine.GameObject CreateBlocker()
-    // Offset: 0x107BA74
+    // Offset: 0x11B757C
     UnityEngine::GameObject* CreateBlocker();
     // private System.Void HandleBlockerButtonClicked()
-    // Offset: 0x107BE5C
+    // Offset: 0x11B7964
     void HandleBlockerButtonClicked();
     // private System.Void HandleParentViewControllerDidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x107BE70
+    // Offset: 0x11B7978
     void HandleParentViewControllerDidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // static private UnityEngine.Transform GetModalRootTransform(UnityEngine.Transform transform, out UnityEngine.Canvas canvas, out HMUI.ViewController viewController)
-    // Offset: 0x107B970
+    // Offset: 0x11B7478
     static UnityEngine::Transform* GetModalRootTransform(UnityEngine::Transform* transform, UnityEngine::Canvas*& canvas, HMUI::ViewController*& viewController);
     // public System.Void .ctor()
-    // Offset: 0x107BF44
+    // Offset: 0x11B7A4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

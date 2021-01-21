@@ -20,6 +20,9 @@ namespace GlobalNamespace {
     // public System.Single get_songEndTime()
     // Offset: 0xFFFFFFFF
     float get_songEndTime();
+    // public System.Boolean get_isReady()
+    // Offset: 0xFFFFFFFF
+    bool get_isReady();
   }; // IAudioTimeSource
   #pragma pack(pop)
 }

@@ -41,14 +41,14 @@ namespace Org::BouncyCastle::Asn1 {
       return parser;
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x13734BC
+    // Offset: 0x1600A80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerExternalParser* New_ctor(Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerExternalParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerExternalParser*, creationType>(parser)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1381A48
+    // Offset: 0x160F00C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -26,9 +26,9 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: RankModelHelper
     RankModelHelper() noexcept {}
-    // static public RankModel/Rank MaxRankForGameplayModifiers(GameplayModifiers gameplayModifiers, GameplayModifiersModelSO gameplayModifiersModel)
-    // Offset: 0xF33048
-    static GlobalNamespace::RankModel::Rank MaxRankForGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel);
+    // static public RankModel/Rank MaxRankForGameplayModifiers(GameplayModifiers gameplayModifiers, GameplayModifiersModelSO gameplayModifiersModel, System.Single energy)
+    // Offset: 0x107D250
+    static GlobalNamespace::RankModel::Rank MaxRankForGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float energy);
   }; // RankModelHelper
   #pragma pack(pop)
 }

@@ -34,10 +34,10 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Creating value type constructor for type: PushbackStream
     PushbackStream(int buf_ = {}) noexcept : buf{buf_} {}
     // public System.Void Unread(System.Int32 b)
-    // Offset: 0x18BFF54
+    // Offset: 0x1E5E41C
     void Unread(int b);
     // public System.Void .ctor(System.IO.Stream s)
-    // Offset: 0x18BFE90
+    // Offset: 0x1E5E358
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream s)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -46,12 +46,12 @@ namespace Org::BouncyCastle::Utilities::IO {
       return THROW_UNLESS((::il2cpp_utils::New<PushbackStream*, creationType>(s)));
     }
     // public override System.Int32 ReadByte()
-    // Offset: 0x18BFE9C
+    // Offset: 0x1E5E364
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Int32 FilterStream::ReadByte()
     int ReadByte();
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x18BFEDC
+    // Offset: 0x1E5E3A4
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Int32 FilterStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>* buffer, int offset, int count);

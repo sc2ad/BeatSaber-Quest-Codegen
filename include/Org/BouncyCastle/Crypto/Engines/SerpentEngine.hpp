@@ -22,22 +22,22 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Creating value type constructor for type: SerpentEngine
     SerpentEngine() noexcept {}
     // protected override System.Int32[] MakeWorkingKey(System.Byte[] key)
-    // Offset: 0x180BF34
+    // Offset: 0x1CD2C04
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Int32[] SerpentEngineBase::MakeWorkingKey(System.Byte[] key)
     ::Array<int>* MakeWorkingKey(::Array<uint8_t>* key);
     // protected override System.Void EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x180DBDC
+    // Offset: 0x1CD48AC
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Void SerpentEngineBase::EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     void EncryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // protected override System.Void DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x180F1FC
+    // Offset: 0x1CD5ECC
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Void SerpentEngineBase::DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     void DecryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void .ctor()
-    // Offset: 0x1810D90
+    // Offset: 0x1CD7A60
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Void SerpentEngineBase::.ctor()
     // Base method: System.Void Object::.ctor()

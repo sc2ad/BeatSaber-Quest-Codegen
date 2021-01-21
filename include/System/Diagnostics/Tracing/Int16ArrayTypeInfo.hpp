@@ -32,15 +32,15 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: Int16ArrayTypeInfo
     Int16ArrayTypeInfo() noexcept {}
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref System.Int16[] value)
-    // Offset: 0x1119800
+    // Offset: 0x12A063C
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ::Array<int16_t>*& value);
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
-    // Offset: 0x11196D4
+    // Offset: 0x12A0510
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format);
     // public System.Void .ctor()
-    // Offset: 0x111988C
+    // Offset: 0x12A06C8
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo_1::.ctor()
     // Base method: System.Void Object::.ctor()

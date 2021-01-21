@@ -35,14 +35,14 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::FABRIK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FABRIK*) == 0x8);
-    // [RangeAttribute] Offset: 0xDB652C
+    // [RangeAttribute] Offset: 0xD28328
     // public System.Single pull
     // Size: 0x4
     // Offset: 0x18
     float pull;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xDB6544
+    // [RangeAttribute] Offset: 0xD28340
     // public System.Single pin
     // Size: 0x4
     // Offset: 0x1C
@@ -58,22 +58,22 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: FABRIKChain
     FABRIKChain(RootMotion::FinalIK::FABRIK* ik_ = {}, float pull_ = {}, float pin_ = {}, ::Array<int>* children_ = {}) noexcept : ik{ik_}, pull{pull_}, pin{pin_}, children{children_} {}
     // public System.Boolean IsValid(ref System.String message)
-    // Offset: 0x174DC7C
+    // Offset: 0x1B536B0
     bool IsValid(::Il2CppString*& message);
     // public System.Void Initiate()
-    // Offset: 0x174DD50
+    // Offset: 0x1B53784
     void Initiate();
     // public System.Void Stage1(RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x174DD70
+    // Offset: 0x1B537A4
     void Stage1(::Array<RootMotion::FinalIK::FABRIKChain*>* chain);
     // public System.Void Stage2(UnityEngine.Vector3 rootPosition, RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x174E140
+    // Offset: 0x1B53B74
     void Stage2(UnityEngine::Vector3 rootPosition, ::Array<RootMotion::FinalIK::FABRIKChain*>* chain);
     // private UnityEngine.Vector3 GetCentroid(RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x174DE44
+    // Offset: 0x1B53878
     UnityEngine::Vector3 GetCentroid(::Array<RootMotion::FinalIK::FABRIKChain*>* chain);
     // public System.Void .ctor()
-    // Offset: 0x174E238
+    // Offset: 0x1B53C6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

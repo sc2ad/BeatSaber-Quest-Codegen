@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteMovement* noteMovement;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteMovement*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC701C
+    // [InjectAttribute] Offset: 0xD39038
     // private NoteTrailParticleSystem _noteTrailParticleSystem
     // Size: 0x8
     // Offset: 0x28
@@ -58,22 +58,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1001E28
+    // Offset: 0x10F3ACC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1001F10
+    // Offset: 0x10F3BAC
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1002020
+    // Offset: 0x10F3CB4
     void Update();
     // private System.Void HandleNoteMovementDidInit()
-    // Offset: 0x10021DC
+    // Offset: 0x10F3E70
     void HandleNoteMovementDidInit();
     // private System.Void HandleNoteDidStartJump()
-    // Offset: 0x10021E8
+    // Offset: 0x10F3E7C
     void HandleNoteDidStartJump();
     // public System.Void .ctor()
-    // Offset: 0x10021F4
+    // Offset: 0x10F3E88
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

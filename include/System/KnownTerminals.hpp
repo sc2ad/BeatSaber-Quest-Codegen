@@ -16,13 +16,13 @@ namespace System {
     // Creating value type constructor for type: KnownTerminals
     KnownTerminals() noexcept {}
     // static public System.Byte[] get_linux()
-    // Offset: 0x13B39C0
+    // Offset: 0x16549EC
     static ::Array<uint8_t>* get_linux();
     // static public System.Byte[] get_xterm()
-    // Offset: 0x13B3A2C
+    // Offset: 0x1654A58
     static ::Array<uint8_t>* get_xterm();
     // static public System.Byte[] get_ansi()
-    // Offset: 0x13B3A98
+    // Offset: 0x1654AC4
     static ::Array<uint8_t>* get_ansi();
   }; // System.KnownTerminals
   #pragma pack(pop)

@@ -40,7 +40,7 @@ namespace System::Xml {
     // Creating value type constructor for type: BufferChunk
     BufferChunk(::Array<::Il2CppChar>* buffer_ = {}, int index_ = {}, int count_ = {}) noexcept : buffer{buffer_}, index{index_}, count{count_} {}
     // System.Void .ctor(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x19D96CC
+    // Offset: 0x22A71D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWellFormedWriter::AttributeValueCache::BufferChunk* New_ctor(::Array<::Il2CppChar>* buffer, int index, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk::.ctor");

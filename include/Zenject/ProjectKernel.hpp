@@ -32,14 +32,14 @@ namespace Zenject {
     char ___base_padding[0x6] = {};
     // Nested type: Zenject::ProjectKernel::$$c__DisplayClass4_0
     class $$c__DisplayClass4_0;
-    // [InjectAttribute] Offset: 0xD94BC8
+    // [InjectAttribute] Offset: 0xD069FC
     // private Zenject.ZenjectSettings _settings
     // Size: 0x8
     // Offset: 0x38
     Zenject::ZenjectSettings* settings;
     // Field size check
     static_assert(sizeof(Zenject::ZenjectSettings*) == 0x8);
-    // [InjectAttribute] Offset: 0xD94BD8
+    // [InjectAttribute] Offset: 0xD06A0C
     // private Zenject.SceneContextRegistry _contextRegistry
     // Size: 0x8
     // Offset: 0x40
@@ -49,16 +49,16 @@ namespace Zenject {
     // Creating value type constructor for type: ProjectKernel
     ProjectKernel(Zenject::ZenjectSettings* settings_ = {}, Zenject::SceneContextRegistry* contextRegistry_ = {}) noexcept : settings{settings_}, contextRegistry{contextRegistry_} {}
     // public System.Void OnApplicationQuit()
-    // Offset: 0x134DAE8
+    // Offset: 0x15B9FC8
     void OnApplicationQuit();
     // public System.Void DestroyEverythingInOrder()
-    // Offset: 0x134DB0C
+    // Offset: 0x15B9FEC
     void DestroyEverythingInOrder();
     // public System.Void ForceUnloadAllScenes(System.Boolean immediate)
-    // Offset: 0x134DBB4
+    // Offset: 0x15BA094
     void ForceUnloadAllScenes(bool immediate);
     // public System.Void .ctor()
-    // Offset: 0x134DEE4
+    // Offset: 0x15BA3C4
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

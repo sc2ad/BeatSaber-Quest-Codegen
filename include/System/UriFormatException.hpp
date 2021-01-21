@@ -29,7 +29,7 @@ namespace System {
     // Creating value type constructor for type: UriFormatException
     UriFormatException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x19D5164
+    // Offset: 0x22A3C70
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -41,7 +41,7 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<UriFormatException*, creationType>()));
     }
     // public System.Void .ctor(System.String textString)
-    // Offset: 0x19D5058
+    // Offset: 0x22A3B64
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor(System.String textString)
     // Base method: System.Void SystemException::.ctor(System.String textString)
@@ -52,7 +52,7 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<UriFormatException*, creationType>(textString)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x19D516C
+    // Offset: 0x22A3C78
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
@@ -63,7 +63,7 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<UriFormatException*, creationType>(serializationInfo, streamingContext)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x19D5174
+    // Offset: 0x22A3C80
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);

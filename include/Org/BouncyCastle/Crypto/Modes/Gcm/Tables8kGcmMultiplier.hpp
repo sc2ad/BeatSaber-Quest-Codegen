@@ -38,17 +38,17 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*>(this);
     }
     // public System.Void Init(System.Byte[] H)
-    // Offset: 0x14AACB0
+    // Offset: 0x17D93F8
     // Implemented from: Org.BouncyCastle.Crypto.Modes.Gcm.IGcmMultiplier
     // Base method: System.Void IGcmMultiplier::Init(System.Byte[] H)
     void Init(::Array<uint8_t>* H);
     // public System.Void MultiplyH(System.Byte[] x)
-    // Offset: 0x14AB5D4
+    // Offset: 0x17D9D1C
     // Implemented from: Org.BouncyCastle.Crypto.Modes.Gcm.IGcmMultiplier
     // Base method: System.Void IGcmMultiplier::MultiplyH(System.Byte[] x)
     void MultiplyH(::Array<uint8_t>* x);
     // public System.Void .ctor()
-    // Offset: 0x14AB7F8
+    // Offset: 0x17D9F40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

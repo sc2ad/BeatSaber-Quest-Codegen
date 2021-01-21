@@ -23,7 +23,7 @@ namespace TMPro {
     // Creating value type constructor for type: FloatTweenCallback
     FloatTweenCallback() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0xF4DE50
+    // Offset: 0xF9646C
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

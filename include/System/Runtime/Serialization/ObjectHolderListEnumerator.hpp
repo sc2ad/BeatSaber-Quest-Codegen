@@ -55,17 +55,17 @@ namespace System::Runtime::Serialization {
     // Creating value type constructor for type: ObjectHolderListEnumerator
     ObjectHolderListEnumerator(bool m_isFixupEnumerator_ = {}, System::Runtime::Serialization::ObjectHolderList* m_list_ = {}, int m_startingVersion_ = {}, int m_currPos_ = {}) noexcept : m_isFixupEnumerator{m_isFixupEnumerator_}, m_list{m_list_}, m_startingVersion{m_startingVersion_}, m_currPos{m_currPos_} {}
     // System.Void .ctor(System.Runtime.Serialization.ObjectHolderList list, System.Boolean isFixupEnumerator)
-    // Offset: 0x1306060
+    // Offset: 0x1555DF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectHolderListEnumerator* New_ctor(System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolderListEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolderListEnumerator*, creationType>(list, isFixupEnumerator)));
     }
     // System.Boolean MoveNext()
-    // Offset: 0x13060D8
+    // Offset: 0x1555E6C
     bool MoveNext();
     // System.Runtime.Serialization.ObjectHolder get_Current()
-    // Offset: 0x130618C
+    // Offset: 0x1555F20
     System::Runtime::Serialization::ObjectHolder* get_Current();
   }; // System.Runtime.Serialization.ObjectHolderListEnumerator
   #pragma pack(pop)

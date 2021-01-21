@@ -22,7 +22,7 @@ namespace System::ComponentModel {
     // Set static field: static private readonly System.String none
     static void _set_none(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x1481AFC
+    // Offset: 0x1796534
     static void _cctor();
   }; // System.ComponentModel.ReferenceConverter
   #pragma pack(pop)

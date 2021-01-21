@@ -77,7 +77,7 @@ namespace Mono::Globalization::Unicode {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Globalization.CompareOptions opt, System.Byte* alwaysMatchFlags, System.Byte* neverMatchFlags, System.Byte* buffer1, System.Byte* buffer2, System.Byte* prev1)
-    // Offset: 0xCA0B04
+    // Offset: 0xE0EA00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Context(System::Globalization::CompareOptions opt, uint8_t* alwaysMatchFlags, uint8_t* neverMatchFlags, uint8_t* buffer1, uint8_t* buffer2, uint8_t* prev1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::SimpleCollator::Context::.ctor");

@@ -33,20 +33,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: JoinRespondedDelegate
     JoinRespondedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1A67834
+    // Offset: 0x1057A3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalNetworkDiscoveryManager::JoinRespondedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkDiscoveryManager::JoinRespondedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String userId, System.String secret, System.Int32 multiplayerPort, System.Boolean blocked)
-    // Offset: 0x1A663F8
+    // Offset: 0x1056600
     void Invoke(::Il2CppString* userId, ::Il2CppString* secret, int multiplayerPort, bool blocked);
     // public System.IAsyncResult BeginInvoke(System.String userId, System.String secret, System.Int32 multiplayerPort, System.Boolean blocked, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1A67848
+    // Offset: 0x1057A50
     System::IAsyncResult* BeginInvoke(::Il2CppString* userId, ::Il2CppString* secret, int multiplayerPort, bool blocked, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1A6790C
+    // Offset: 0x1057B14
     void EndInvoke(System::IAsyncResult* result);
   }; // LocalNetworkDiscoveryManager/JoinRespondedDelegate
   #pragma pack(pop)

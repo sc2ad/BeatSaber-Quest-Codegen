@@ -44,19 +44,19 @@ namespace System {
     // Creating value type constructor for type: ByteMatcher
     ByteMatcher(System::Collections::Hashtable* map_ = {}, System::Collections::Hashtable* starts_ = {}) noexcept : map{map_}, starts{starts_} {}
     // public System.Void AddMapping(System.TermInfoStrings key, System.Byte[] val)
-    // Offset: 0x1CAE3F4
+    // Offset: 0x16877BC
     void AddMapping(System::TermInfoStrings key, ::Array<uint8_t>* val);
     // public System.Void Sort()
-    // Offset: 0x1CAE50C
+    // Offset: 0x16878D4
     void Sort();
     // public System.Boolean StartsWith(System.Int32 c)
-    // Offset: 0x1CAE510
+    // Offset: 0x16878D8
     bool StartsWith(int c);
     // public System.TermInfoStrings Match(System.Char[] buffer, System.Int32 offset, System.Int32 length, out System.Int32 used)
-    // Offset: 0x1CAE5A0
+    // Offset: 0x1687968
     System::TermInfoStrings Match(::Array<::Il2CppChar>* buffer, int offset, int length, int& used);
     // public System.Void .ctor()
-    // Offset: 0x1CAE9D4
+    // Offset: 0x1687D9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

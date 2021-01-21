@@ -34,10 +34,10 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: Asn1Object
     Asn1Object() noexcept {}
     // static public Org.BouncyCastle.Asn1.Asn1Object FromByteArray(System.Byte[] data)
-    // Offset: 0x13748F0
+    // Offset: 0x1601EB4
     static Org::BouncyCastle::Asn1::Asn1Object* FromByteArray(::Array<uint8_t>* data);
     // static public Org.BouncyCastle.Asn1.Asn1Object FromStream(System.IO.Stream inStr)
-    // Offset: 0x1374AD4
+    // Offset: 0x1602098
     static Org::BouncyCastle::Asn1::Asn1Object* FromStream(System::IO::Stream* inStr);
     // System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     // Offset: 0xFFFFFFFF
@@ -49,18 +49,18 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0xFFFFFFFF
     int Asn1GetHashCode();
     // System.Boolean CallAsn1Equals(Org.BouncyCastle.Asn1.Asn1Object obj)
-    // Offset: 0x13704D0
+    // Offset: 0x15FDA94
     bool CallAsn1Equals(Org::BouncyCastle::Asn1::Asn1Object* obj);
     // System.Int32 CallAsn1GetHashCode()
-    // Offset: 0x13703A0
+    // Offset: 0x15FD964
     int CallAsn1GetHashCode();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1374BFC
+    // Offset: 0x16021C0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // protected System.Void .ctor()
-    // Offset: 0x13748A0
+    // Offset: 0x1601E64
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: System.Void Asn1Encodable::.ctor()
     // Base method: System.Void Object::.ctor()

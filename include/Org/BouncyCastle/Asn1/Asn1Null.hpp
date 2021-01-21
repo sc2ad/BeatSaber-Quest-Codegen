@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: Asn1Null
     Asn1Null() noexcept {}
     // System.Void .ctor()
-    // Offset: 0x1374898
+    // Offset: 0x1601E5C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::.ctor()
     // Base method: System.Void Asn1Encodable::.ctor()
@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Null*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x13748A8
+    // Offset: 0x1601E6C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

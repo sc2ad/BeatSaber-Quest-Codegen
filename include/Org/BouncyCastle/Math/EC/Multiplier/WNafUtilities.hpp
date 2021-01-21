@@ -57,49 +57,49 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set static field: static private readonly Org.BouncyCastle.Math.EC.ECPoint[] EMPTY_POINTS
     static void _set_EMPTY_POINTS(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* value);
     // static public System.Void ConfigureBasepoint(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x178511C
+    // Offset: 0x1BBCB3C
     static void ConfigureBasepoint(Org::BouncyCastle::Math::EC::ECPoint* p);
     // static public System.Int32[] GenerateCompactNaf(Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x17852EC
+    // Offset: 0x1BBCD0C
     static ::Array<int>* GenerateCompactNaf(Org::BouncyCastle::Math::BigInteger* k);
     // static public System.Int32[] GenerateCompactWindowNaf(System.Int32 width, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x1784CA4
+    // Offset: 0x1BBC6C4
     static ::Array<int>* GenerateCompactWindowNaf(int width, Org::BouncyCastle::Math::BigInteger* k);
     // static public System.Byte[] GenerateNaf(Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x17855E0
+    // Offset: 0x1BBD000
     static ::Array<uint8_t>* GenerateNaf(Org::BouncyCastle::Math::BigInteger* k);
     // static public System.Byte[] GenerateWindowNaf(System.Int32 width, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x178577C
+    // Offset: 0x1BBD19C
     static ::Array<uint8_t>* GenerateWindowNaf(int width, Org::BouncyCastle::Math::BigInteger* k);
     // static public System.Int32 GetNafWeight(Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x1785AE0
+    // Offset: 0x1BBD500
     static int GetNafWeight(Org::BouncyCastle::Math::BigInteger* k);
     // static public System.Int32 GetWindowSize(System.Int32 bits)
-    // Offset: 0x1784AF4
+    // Offset: 0x1BBC514
     static int GetWindowSize(int bits);
     // static public System.Int32 GetWindowSize(System.Int32 bits, System.Int32 maxWidth)
-    // Offset: 0x1785C30
+    // Offset: 0x1BBD650
     static int GetWindowSize(int bits, int maxWidth);
     // static public System.Int32 GetWindowSize(System.Int32 bits, System.Int32[] windowSizeCutoffs, System.Int32 maxWidth)
-    // Offset: 0x1785B54
+    // Offset: 0x1BBD574
     static int GetWindowSize(int bits, ::Array<int>* windowSizeCutoffs, int maxWidth);
     // static public Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo Precompute(Org.BouncyCastle.Math.EC.ECPoint p, System.Int32 minWidth, System.Boolean includeNegated)
-    // Offset: 0x1784B68
+    // Offset: 0x1BBC588
     static Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* Precompute(Org::BouncyCastle::Math::EC::ECPoint* p, int minWidth, bool includeNegated);
     // static public Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo PrecomputeWithPointMap(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.EC.ECPointMap pointMap, Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo fromWNaf, System.Boolean includeNegated)
-    // Offset: 0x1785D04
+    // Offset: 0x1BBD724
     static Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* PrecomputeWithPointMap(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::EC::ECPointMap* pointMap, Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* fromWNaf, bool includeNegated);
     // static private System.Byte[] Trim(System.Byte[] a, System.Int32 length)
-    // Offset: 0x1785A54
+    // Offset: 0x1BBD474
     static ::Array<uint8_t>* Trim(::Array<uint8_t>* a, int length);
     // static private System.Int32[] Trim(System.Int32[] a, System.Int32 length)
-    // Offset: 0x1785554
+    // Offset: 0x1BBCF74
     static ::Array<int>* Trim(::Array<int>* a, int length);
     // static private Org.BouncyCastle.Math.EC.ECPoint[] ResizeTable(Org.BouncyCastle.Math.EC.ECPoint[] a, System.Int32 length)
-    // Offset: 0x1785EB8
+    // Offset: 0x1BBD8D8
     static ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* ResizeTable(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* a, int length);
     // static private System.Void .cctor()
-    // Offset: 0x1785F44
+    // Offset: 0x1BBD964
     static void _cctor();
   }; // Org.BouncyCastle.Math.EC.Multiplier.WNafUtilities
   #pragma pack(pop)

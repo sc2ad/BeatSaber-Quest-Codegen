@@ -40,12 +40,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TableCellWithSeparator
     TableCellWithSeparator(UnityEngine::GameObject* separator_ = {}) noexcept : separator{separator_} {}
     // public override System.Void TableViewSetup(HMUI.ITableCellOwner tableCellOwner, System.Int32 idx)
-    // Offset: 0x19831E0
+    // Offset: 0x2247950
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::TableViewSetup(HMUI.ITableCellOwner tableCellOwner, System.Int32 idx)
     void TableViewSetup(HMUI::ITableCellOwner* tableCellOwner, int idx);
     // public System.Void .ctor()
-    // Offset: 0x19832D4
+    // Offset: 0x2247A44
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

@@ -61,26 +61,26 @@ namespace NUnit::Framework::Internal::Builders {
       return defaultBuilder;
     }
     // private NUnit.Framework.Internal.TestSuite BuildMultipleFixtures(NUnit.Framework.Interfaces.ITypeInfo typeInfo, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> fixtures)
-    // Offset: 0x13E9AD0
+    // Offset: 0x16A65F0
     NUnit::Framework::Internal::TestSuite* BuildMultipleFixtures(NUnit::Framework::Interfaces::ITypeInfo* typeInfo, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* fixtures);
     // private NUnit.Framework.Interfaces.IFixtureBuilder[] GetFixtureBuilderAttributes(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x13E973C
+    // Offset: 0x16A625C
     ::Array<NUnit::Framework::Interfaces::IFixtureBuilder*>* GetFixtureBuilderAttributes(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // private System.Boolean HasArguments(NUnit.Framework.Interfaces.IFixtureBuilder attr)
-    // Offset: 0x13E9EA4
+    // Offset: 0x16A69C4
     bool HasArguments(NUnit::Framework::Interfaces::IFixtureBuilder* attr);
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x13E8D88
+    // Offset: 0x16A58A8
     // Implemented from: NUnit.Framework.Interfaces.ISuiteBuilder
     // Base method: System.Boolean ISuiteBuilder::CanBuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     bool CanBuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x13E905C
+    // Offset: 0x16A5B7C
     // Implemented from: NUnit.Framework.Interfaces.ISuiteBuilder
     // Base method: NUnit.Framework.Internal.TestSuite ISuiteBuilder::BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     NUnit::Framework::Internal::TestSuite* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public System.Void .ctor()
-    // Offset: 0x13D7FEC
+    // Offset: 0x1694B0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

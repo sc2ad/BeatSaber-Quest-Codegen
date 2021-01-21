@@ -45,19 +45,19 @@ namespace System::Runtime::Remoting::Activation {
       return m_NextActivator;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Activation.IActivator next)
-    // Offset: 0x1167808
+    // Offset: 0x130E20C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextLevelActivator* New_ctor(System::Runtime::Remoting::Activation::IActivator* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Activation::ContextLevelActivator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextLevelActivator*, creationType>(next)));
     }
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
-    // Offset: 0x116859C
+    // Offset: 0x130EFA0
     // Implemented from: System.Runtime.Remoting.Activation.IActivator
     // Base method: System.Runtime.Remoting.Activation.IActivator IActivator::get_NextActivator()
     System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
     // public System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
-    // Offset: 0x11685A4
+    // Offset: 0x130EFA8
     // Implemented from: System.Runtime.Remoting.Activation.IActivator
     // Base method: System.Runtime.Remoting.Activation.IConstructionReturnMessage IActivator::Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
     System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);

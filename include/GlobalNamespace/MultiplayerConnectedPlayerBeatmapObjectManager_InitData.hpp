@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(bool disappearingArrows_ = {}, bool ghostNotes_ = {}) noexcept : disappearingArrows{disappearingArrows_}, ghostNotes{ghostNotes_} {}
     // public System.Void .ctor(System.Boolean disappearingArrows, System.Boolean ghostNotes)
-    // Offset: 0xFA9478
+    // Offset: 0x101938C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerBeatmapObjectManager::InitData* New_ctor(bool disappearingArrows, bool ghostNotes) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData::.ctor");

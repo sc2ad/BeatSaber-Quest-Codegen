@@ -77,13 +77,13 @@ namespace System::Reflection {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // static System.Void get_property_info(System.Reflection.MonoProperty prop, ref System.Reflection.MonoPropertyInfo info, System.Reflection.PInfo req_info)
-    // Offset: 0x15CDB98
+    // Offset: 0x194D71C
     static void get_property_info(System::Reflection::MonoProperty* prop, System::Reflection::MonoPropertyInfo& info, System::Reflection::PInfo req_info);
     // static System.Type[] GetTypeModifiers(System.Reflection.MonoProperty prop, System.Boolean optional)
-    // Offset: 0x15CED90
+    // Offset: 0x194E914
     static ::Array<System::Type*>* GetTypeModifiers(System::Reflection::MonoProperty* prop, bool optional);
     // static System.Object get_default_value(System.Reflection.MonoProperty prop)
-    // Offset: 0x15CE428
+    // Offset: 0x194DFAC
     static ::Il2CppObject* get_default_value(System::Reflection::MonoProperty* prop);
   }; // System.Reflection.MonoPropertyInfo
   #pragma pack(pop)

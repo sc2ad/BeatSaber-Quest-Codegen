@@ -31,13 +31,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AppInitScenesTransitionSetupDataSO
     AppInitScenesTransitionSetupDataSO() noexcept {}
     // public System.Void Init()
-    // Offset: 0x1A3FEA8
+    // Offset: 0x102E880
     void Init();
     // public System.Void __Init(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType)
-    // Offset: 0x1A3FF18
+    // Offset: 0x102E8F0
     void __Init(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType);
     // public System.Void .ctor()
-    // Offset: 0x1A3FF90
+    // Offset: 0x102E968
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()

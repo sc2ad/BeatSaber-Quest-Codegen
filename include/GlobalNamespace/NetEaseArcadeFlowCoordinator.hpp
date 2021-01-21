@@ -70,49 +70,49 @@ namespace GlobalNamespace {
     GlobalNamespace::NetEaseLeaderboardViewController* netEaseLeaderboardViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NetEaseLeaderboardViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCDEC4
+    // [InjectAttribute] Offset: 0xD40180
     // private TabBarViewController _tabBarViewController
     // Size: 0x8
     // Offset: 0x120
     GlobalNamespace::TabBarViewController* tabBarViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TabBarViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCDED4
+    // [InjectAttribute] Offset: 0xD40190
     // private NetEaseManager _netEaseManager
     // Size: 0x8
     // Offset: 0x128
     GlobalNamespace::NetEaseManager* netEaseManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NetEaseManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCDEE4
+    // [InjectAttribute] Offset: 0xD401A0
     // private MenuLightsManager _menuLightsManager
     // Size: 0x8
     // Offset: 0x130
     GlobalNamespace::MenuLightsManager* menuLightsManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuLightsManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCDEF4
+    // [InjectAttribute] Offset: 0xD401B0
     // private ResultsViewController _resultsViewController
     // Size: 0x8
     // Offset: 0x138
     GlobalNamespace::ResultsViewController* resultsViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ResultsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCDF04
+    // [InjectAttribute] Offset: 0xD401C0
     // private LocalLeaderboardViewController _localLeaderboardViewController
     // Size: 0x8
     // Offset: 0x140
     GlobalNamespace::LocalLeaderboardViewController* localLeaderboardViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalLeaderboardViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCDF14
+    // [InjectAttribute] Offset: 0xD401D0
     // private HowToPlayViewController _howToPlayViewController
     // Size: 0x8
     // Offset: 0x148
     GlobalNamespace::HowToPlayViewController* howToPlayViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HowToPlayViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCDF24
+    // [InjectAttribute] Offset: 0xD401E0
     // private readonly MenuTransitionsHelper _menuTransitionsHelper
     // Size: 0x8
     // Offset: 0x150
@@ -122,72 +122,72 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NetEaseArcadeFlowCoordinator
     NetEaseArcadeFlowCoordinator(GlobalNamespace::MenuLightsPresetSO* defaultLightsPreset_ = {}, GlobalNamespace::NetEaseLeaderboardViewController* netEaseLeaderboardViewController_ = {}, GlobalNamespace::TabBarViewController* tabBarViewController_ = {}, GlobalNamespace::NetEaseManager* netEaseManager_ = {}, GlobalNamespace::MenuLightsManager* menuLightsManager_ = {}, GlobalNamespace::ResultsViewController* resultsViewController_ = {}, GlobalNamespace::LocalLeaderboardViewController* localLeaderboardViewController_ = {}, GlobalNamespace::HowToPlayViewController* howToPlayViewController_ = {}, GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper_ = {}) noexcept : defaultLightsPreset{defaultLightsPreset_}, netEaseLeaderboardViewController{netEaseLeaderboardViewController_}, tabBarViewController{tabBarViewController_}, netEaseManager{netEaseManager_}, menuLightsManager{menuLightsManager_}, resultsViewController{resultsViewController_}, localLeaderboardViewController{localLeaderboardViewController_}, howToPlayViewController{howToPlayViewController_}, menuTransitionsHelper{menuTransitionsHelper_} {}
     // private System.Void ProcessScore(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
-    // Offset: 0xFD7008
+    // Offset: 0xF85F08
     void ProcessScore(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
     // private System.Void AddScoreToLeaderboards(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
-    // Offset: 0xFD71E4
+    // Offset: 0xF860E4
     void AddScoreToLeaderboards(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
     // private System.Void LogoutAsync()
-    // Offset: 0xFD744C
+    // Offset: 0xF8634C
     void LogoutAsync();
     // private System.Void HandleHowToPlayViewControllerDidFinish(HowToPlayViewController/HowToPlayOptions howToPlayOptions)
-    // Offset: 0xFD7528
+    // Offset: 0xF86428
     void HandleHowToPlayViewControllerDidFinish(GlobalNamespace::HowToPlayViewController::HowToPlayOptions howToPlayOptions);
     // private System.Void HandleHowToPlayTabSelected()
-    // Offset: 0xFD7550
+    // Offset: 0xF86450
     void HandleHowToPlayTabSelected();
     // private System.Void HandleLogoutTabWasSelected()
-    // Offset: 0xFD7600
+    // Offset: 0xF86500
     void HandleLogoutTabWasSelected();
     // private System.Void HandleResultsViewControllerContinueButtonPressed(ResultsViewController viewController)
-    // Offset: 0xFD7604
+    // Offset: 0xF86504
     void HandleResultsViewControllerContinueButtonPressed(GlobalNamespace::ResultsViewController* viewController);
     // private System.Void HandleResultsViewControllerRestartButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0xFD764C
+    // Offset: 0xF8654C
     void HandleResultsViewControllerRestartButtonPressed(GlobalNamespace::ResultsViewController* resultsViewController);
     // private System.Void <SinglePlayerLevelSelectionFlowCoordinatorDidActivate>b__17_0()
-    // Offset: 0xFD7734
+    // Offset: 0xF86634
     void $SinglePlayerLevelSelectionFlowCoordinatorDidActivate$b__17_0();
     // private System.Void <HandleHowToPlayTabSelected>b__24_0()
-    // Offset: 0xFD7744
+    // Offset: 0xF86644
     void $HandleHowToPlayTabSelected$b__24_0();
     // protected override System.String get_gameMode()
-    // Offset: 0xFD6940
+    // Offset: 0xF85840
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.String SinglePlayerLevelSelectionFlowCoordinator::get_gameMode()
     ::Il2CppString* get_gameMode();
     // protected override LeaderboardViewController get_leaderboardViewController()
-    // Offset: 0xFD6988
+    // Offset: 0xF85888
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: LeaderboardViewController SinglePlayerLevelSelectionFlowCoordinator::get_leaderboardViewController()
     GlobalNamespace::LeaderboardViewController* get_leaderboardViewController();
     // protected override HMUI.ViewController get_initialTopScreenViewController()
-    // Offset: 0xFD69C8
+    // Offset: 0xF858C8
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: HMUI.ViewController SinglePlayerLevelSelectionFlowCoordinator::get_initialTopScreenViewController()
     HMUI::ViewController* get_initialTopScreenViewController();
     // protected override System.Boolean get_showPlayerStatsInDetailView()
-    // Offset: 0xFD69D0
+    // Offset: 0xF858D0
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Boolean LevelSelectionFlowCoordinator::get_showPlayerStatsInDetailView()
     bool get_showPlayerStatsInDetailView();
     // protected override System.Void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0xFD69D8
+    // Offset: 0xF858D8
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
     void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
     // protected override System.Void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(System.Boolean removedFromHierarchy)
-    // Offset: 0xFD6D68
+    // Offset: 0xF85C68
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(System.Boolean removedFromHierarchy)
     void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
     // protected override System.Void ProcessLevelCompletionResultsAfterLevelDidFinish(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
-    // Offset: 0xFD6F50
+    // Offset: 0xF85E50
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
     void ProcessLevelCompletionResultsAfterLevelDidFinish(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
     // public System.Void .ctor()
-    // Offset: 0xFD772C
+    // Offset: 0xF8662C
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::.ctor()
     // Base method: System.Void LevelSelectionFlowCoordinator::.ctor()

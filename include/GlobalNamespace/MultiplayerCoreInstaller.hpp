@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerMockSettings* multiplayerMockSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerMockSettings*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDCC210
+    // [SpaceAttribute] Offset: 0xD3E46C
     // private MockScoreSyncStateManager _mockScoreSyncStateManagerPrefab
     // Size: 0x8
     // Offset: 0x28
@@ -53,14 +53,14 @@ namespace GlobalNamespace {
     GlobalNamespace::ScoreSyncStateManager* scoreSyncStateManagerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ScoreSyncStateManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCC258
+    // [InjectAttribute] Offset: 0xD3E4B4
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCC268
+    // [InjectAttribute] Offset: 0xD3E4C4
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x40
@@ -70,12 +70,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerCoreInstaller
     MultiplayerCoreInstaller(GlobalNamespace::MultiplayerMockSettings* multiplayerMockSettings_ = {}, GlobalNamespace::MockScoreSyncStateManager* mockScoreSyncStateManagerPrefab_ = {}, GlobalNamespace::ScoreSyncStateManager* scoreSyncStateManagerPrefab_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}) noexcept : multiplayerMockSettings{multiplayerMockSettings_}, mockScoreSyncStateManagerPrefab{mockScoreSyncStateManagerPrefab_}, scoreSyncStateManagerPrefab{scoreSyncStateManagerPrefab_}, sceneSetupData{sceneSetupData_}, multiplayerSessionManager{multiplayerSessionManager_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xFB18A4
+    // Offset: 0x1021F54
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xFB1D6C
+    // Offset: 0x102240C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

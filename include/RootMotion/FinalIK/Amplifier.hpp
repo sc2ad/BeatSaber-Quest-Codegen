@@ -28,7 +28,7 @@ namespace RootMotion::FinalIK {
     char ___base_padding[0x4] = {};
     // Nested type: RootMotion::FinalIK::Amplifier::Body
     class Body;
-    // [TooltipAttribute] Offset: 0xDB8114
+    // [TooltipAttribute] Offset: 0xD29F10
     // public RootMotion.FinalIK.Amplifier/Body[] bodies
     // Size: 0x8
     // Offset: 0x30
@@ -38,12 +38,12 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Amplifier
     Amplifier(::Array<RootMotion::FinalIK::Amplifier::Body*>* bodies_ = {}) noexcept : bodies{bodies_} {}
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x174B038
+    // Offset: 0x1B50A6C
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x174B5DC
+    // Offset: 0x1B51010
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

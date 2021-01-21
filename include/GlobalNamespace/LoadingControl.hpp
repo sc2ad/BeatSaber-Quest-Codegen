@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* loadingText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDCCFC4
+    // [SpaceAttribute] Offset: 0xD3F220
     // private TMPro.TextMeshProUGUI _refreshText
     // Size: 0x8
     // Offset: 0x28
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* refreshContainer;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDCD01C
+    // [SpaceAttribute] Offset: 0xD3F278
     // private UnityEngine.GameObject _downloadingContainer
     // Size: 0x8
     // Offset: 0x40
@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* donwloadingProgressImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDCD074
+    // [CompilerGeneratedAttribute] Offset: 0xD3F2D0
     // private System.Action didPressRefreshButtonEvent
     // Size: 0x8
     // Offset: 0x58
@@ -116,37 +116,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didPressRefreshButtonEvent(System.Action value)
-    // Offset: 0x1AC2C38
+    // Offset: 0x10DFD8C
     void add_didPressRefreshButtonEvent(System::Action* value);
     // public System.Void remove_didPressRefreshButtonEvent(System.Action value)
-    // Offset: 0x1AC2D08
+    // Offset: 0x10DFE5C
     void remove_didPressRefreshButtonEvent(System::Action* value);
     // public System.Boolean get_isLoading()
-    // Offset: 0x1AC881C
+    // Offset: 0x10E5954
     bool get_isLoading();
     // protected System.Void Awake()
-    // Offset: 0x1AC8838
+    // Offset: 0x10E5970
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1AC88FC
+    // Offset: 0x10E5A34
     void OnDestroy();
     // public System.Void ShowLoading(System.String text)
-    // Offset: 0x1AC2A2C
+    // Offset: 0x10DFB80
     void ShowLoading(::Il2CppString* text);
     // public System.Void ShowText(System.String text, System.Boolean showRefreshButton)
-    // Offset: 0x1AC2AB4
+    // Offset: 0x10DFC08
     void ShowText(::Il2CppString* text, bool showRefreshButton);
     // public System.Void ShowDownloadingProgress(System.String text, System.Single downloadingProgress)
-    // Offset: 0x1AC8918
+    // Offset: 0x10E5A50
     void ShowDownloadingProgress(::Il2CppString* text, float downloadingProgress);
     // public System.Void Hide()
-    // Offset: 0x1AC2B68
+    // Offset: 0x10DFCBC
     void Hide();
     // private System.Void <Awake>b__14_0()
-    // Offset: 0x1AC89C8
+    // Offset: 0x10E5B00
     void $Awake$b__14_0();
     // public System.Void .ctor()
-    // Offset: 0x1AC89C0
+    // Offset: 0x10E5AF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

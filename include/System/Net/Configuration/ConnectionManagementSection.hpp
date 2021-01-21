@@ -29,7 +29,7 @@ namespace System::Net::Configuration {
     // Creating value type constructor for type: ConnectionManagementSection
     ConnectionManagementSection() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x130C954
+    // Offset: 0x155B6E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -38,7 +38,7 @@ namespace System::Net::Configuration {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectionManagementSection*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x130C994
+    // Offset: 0x155B728
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();

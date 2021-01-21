@@ -41,12 +41,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MenuViewControllersInstaller
     MenuViewControllersInstaller(GlobalNamespace::ServerPlayerListController* normalServerPlayerListController_ = {}, GlobalNamespace::ServerPlayerListController* quickPlayServerPlayerListController_ = {}) noexcept : normalServerPlayerListController{normalServerPlayerListController_}, quickPlayServerPlayerListController{quickPlayServerPlayerListController_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x1A73EE4
+    // Offset: 0x1093E18
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1A73FA4
+    // Offset: 0x1093ED8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

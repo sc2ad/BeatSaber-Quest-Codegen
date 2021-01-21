@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class GameCoreSceneSetupData : public GlobalNamespace::SceneSetupData {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDD2FF8
+    // [CompilerGeneratedAttribute] Offset: 0xD453A4
     // private ColorScheme <colorScheme>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -40,13 +40,13 @@ namespace GlobalNamespace {
       return colorScheme;
     }
     // public ColorScheme get_colorScheme()
-    // Offset: 0x1A185A8
+    // Offset: 0xF32544
     GlobalNamespace::ColorScheme* get_colorScheme();
     // private System.Void set_colorScheme(ColorScheme value)
-    // Offset: 0x1A185B0
+    // Offset: 0xF3254C
     void set_colorScheme(GlobalNamespace::ColorScheme* value);
     // public System.Void .ctor(ColorScheme colorScheme)
-    // Offset: 0x1A185B8
+    // Offset: 0xF32554
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameCoreSceneSetupData* New_ctor(GlobalNamespace::ColorScheme* colorScheme) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameCoreSceneSetupData::.ctor");

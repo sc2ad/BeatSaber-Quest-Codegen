@@ -34,7 +34,7 @@ namespace System::Net::Http::Headers {
   // [] Offset: FFFFFFFF
   class EntityTagHeaderValue : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD9C058
+    // [CompilerGeneratedAttribute] Offset: 0xD0CCA8
     // private System.Boolean <IsWeak>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -43,7 +43,7 @@ namespace System::Net::Http::Headers {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: IsWeak and: Tag
     char __padding0[0x7] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD9C068
+    // [CompilerGeneratedAttribute] Offset: 0xD0CCB8
     // private System.String <Tag>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -61,31 +61,31 @@ namespace System::Net::Http::Headers {
     // Set static field: static private readonly System.Net.Http.Headers.EntityTagHeaderValue any
     static void _set_any(System::Net::Http::Headers::EntityTagHeaderValue* value);
     // public System.Boolean get_IsWeak()
-    // Offset: 0x11FFDA4
+    // Offset: 0x1407B3C
     bool get_IsWeak();
     // System.Void set_IsWeak(System.Boolean value)
-    // Offset: 0x11FFDAC
+    // Offset: 0x1407B44
     void set_IsWeak(bool value);
     // public System.String get_Tag()
-    // Offset: 0x11FFDB8
+    // Offset: 0x1407B50
     ::Il2CppString* get_Tag();
     // System.Void set_Tag(System.String value)
-    // Offset: 0x11FFDC0
+    // Offset: 0x1407B58
     void set_Tag(::Il2CppString* value);
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.EntityTagHeaderValue parsedValue)
-    // Offset: 0x11FFEEC
+    // Offset: 0x1407C84
     static bool TryParse(::Il2CppString* input, System::Net::Http::Headers::EntityTagHeaderValue*& parsedValue);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.EntityTagHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x11FFFF0
+    // Offset: 0x1407D88
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, System::Net::Http::Headers::EntityTagHeaderValue*& parsedValue, System::Net::Http::Headers::Token& t);
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.EntityTagHeaderValue> result)
-    // Offset: 0x120025C
+    // Offset: 0x1407FF4
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<System::Net::Http::Headers::EntityTagHeaderValue*>*& result);
     // static private System.Void .cctor()
-    // Offset: 0x1200368
+    // Offset: 0x1408100
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x11FFD9C
+    // Offset: 0x1407B34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -94,22 +94,22 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<EntityTagHeaderValue*, creationType>()));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x11FFDC8
+    // Offset: 0x1407B60
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x11FFDD0
+    // Offset: 0x1407B68
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x11FFE98
+    // Offset: 0x1407C30
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x12002FC
+    // Offset: 0x1408094
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

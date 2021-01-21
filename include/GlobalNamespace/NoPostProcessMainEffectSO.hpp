@@ -34,8 +34,8 @@ namespace GlobalNamespace {
     UnityEngine::Shader* fadeShader;
     // Field size check
     static_assert(sizeof(UnityEngine::Shader*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDB121C
-    // [RangeAttribute] Offset: 0xDB121C
+    // [SpaceAttribute] Offset: 0xD23018
+    // [RangeAttribute] Offset: 0xD23018
     // private System.Single _baseColorBoost
     // Size: 0x4
     // Offset: 0x20
@@ -59,33 +59,33 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDisable()
-    // Offset: 0x198C40C
+    // Offset: 0x2252B7C
     void OnDisable();
     // public System.Void DrawFadeQuad(System.Single alpha)
-    // Offset: 0x198C498
+    // Offset: 0x2252C08
     void DrawFadeQuad(float alpha);
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x198C368
+    // Offset: 0x2252AD8
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // protected override System.Void OnEnable()
-    // Offset: 0x198C370
+    // Offset: 0x2252AE0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x198C418
+    // Offset: 0x2252B88
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void PostRender(System.Single fade)
-    // Offset: 0x198C48C
+    // Offset: 0x2252BFC
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PostRender(System.Single fade)
     void PostRender(float fade);
     // public System.Void .ctor()
-    // Offset: 0x198C5AC
+    // Offset: 0x2252D1C
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

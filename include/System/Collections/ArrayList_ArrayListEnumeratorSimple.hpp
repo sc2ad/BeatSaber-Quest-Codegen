@@ -68,17 +68,17 @@ namespace System::Collections {
     // Set static field: static private System.Object dummyObject
     static void _set_dummyObject(::Il2CppObject* value);
     // System.Void .ctor(System.Collections.ArrayList list)
-    // Offset: 0x1CB20A4
+    // Offset: 0x168B46C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayList::ArrayListEnumeratorSimple* New_ctor(System::Collections::ArrayList* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ArrayList::ArrayListEnumeratorSimple::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayList::ArrayListEnumeratorSimple*, creationType>(list)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CB3168
+    // Offset: 0x168C530
     static void _cctor();
     // public System.Object Clone()
-    // Offset: 0x1CB2D84
+    // Offset: 0x168C14C
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
@@ -86,7 +86,7 @@ namespace System::Collections {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x1CB2D8C
+    // Offset: 0x168C154
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -94,7 +94,7 @@ namespace System::Collections {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x1CB2F90
+    // Offset: 0x168C358
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -102,7 +102,7 @@ namespace System::Collections {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void Reset()
-    // Offset: 0x1CB307C
+    // Offset: 0x168C444
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

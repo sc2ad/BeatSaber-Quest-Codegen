@@ -20,10 +20,10 @@ namespace RootMotion {
     // Creating value type constructor for type: LayerMaskExtensions
     LayerMaskExtensions() noexcept {}
     // static public System.Boolean Contains(UnityEngine.LayerMask mask, System.Int32 layer)
-    // Offset: 0x15F2E3C
+    // Offset: 0x19739C0
     static bool Contains(UnityEngine::LayerMask mask, int layer);
     // static public UnityEngine.LayerMask Create(params System.String[] layerNames)
-    // Offset: 0x15F2E94
+    // Offset: 0x1973A18
     static UnityEngine::LayerMask Create(::Array<::Il2CppString*>* layerNames);
     // Creating initializer_list -> params proxy for: UnityEngine.LayerMask Create(params System.String[] layerNames)
     static UnityEngine::LayerMask Create(std::initializer_list<::Il2CppString*> layerNames);
@@ -33,12 +33,12 @@ namespace RootMotion {
       return Create({layerNames...});
     }
     // static public UnityEngine.LayerMask Create(params System.Int32[] layerNumbers)
-    // Offset: 0x15F2F60
+    // Offset: 0x1973AE4
     static UnityEngine::LayerMask Create(::Array<int>* layerNumbers);
     // Creating initializer_list -> params proxy for: UnityEngine.LayerMask Create(params System.Int32[] layerNumbers)
     static UnityEngine::LayerMask Create(std::initializer_list<int> layerNumbers);
     // static public UnityEngine.LayerMask NamesToMask(params System.String[] layerNames)
-    // Offset: 0x15F2EAC
+    // Offset: 0x1973A30
     static UnityEngine::LayerMask NamesToMask(::Array<::Il2CppString*>* layerNames);
     // Creating initializer_list -> params proxy for: UnityEngine.LayerMask NamesToMask(params System.String[] layerNames)
     static UnityEngine::LayerMask NamesToMask(std::initializer_list<::Il2CppString*> layerNames);
@@ -48,7 +48,7 @@ namespace RootMotion {
       return NamesToMask({layerNames...});
     }
     // static public UnityEngine.LayerMask LayerNumbersToMask(params System.Int32[] layerNumbers)
-    // Offset: 0x15F2F78
+    // Offset: 0x1973AFC
     static UnityEngine::LayerMask LayerNumbersToMask(::Array<int>* layerNumbers);
     // Creating initializer_list -> params proxy for: UnityEngine.LayerMask LayerNumbersToMask(params System.Int32[] layerNumbers)
     static UnityEngine::LayerMask LayerNumbersToMask(std::initializer_list<int> layerNumbers);
@@ -58,10 +58,10 @@ namespace RootMotion {
       return LayerNumbersToMask({layerNumbers...});
     }
     // static public UnityEngine.LayerMask Inverse(UnityEngine.LayerMask original)
-    // Offset: 0x15F301C
+    // Offset: 0x1973BA0
     static UnityEngine::LayerMask Inverse(UnityEngine::LayerMask original);
     // static public UnityEngine.LayerMask AddToMask(UnityEngine.LayerMask original, params System.String[] layerNames)
-    // Offset: 0x15F3048
+    // Offset: 0x1973BCC
     static UnityEngine::LayerMask AddToMask(UnityEngine::LayerMask original, ::Array<::Il2CppString*>* layerNames);
     // Creating initializer_list -> params proxy for: UnityEngine.LayerMask AddToMask(UnityEngine.LayerMask original, params System.String[] layerNames)
     static UnityEngine::LayerMask AddToMask(UnityEngine::LayerMask original, std::initializer_list<::Il2CppString*> layerNames);
@@ -71,7 +71,7 @@ namespace RootMotion {
       return AddToMask(original, {layerNames...});
     }
     // static public UnityEngine.LayerMask RemoveFromMask(UnityEngine.LayerMask original, params System.String[] layerNames)
-    // Offset: 0x15F3098
+    // Offset: 0x1973C1C
     static UnityEngine::LayerMask RemoveFromMask(UnityEngine::LayerMask original, ::Array<::Il2CppString*>* layerNames);
     // Creating initializer_list -> params proxy for: UnityEngine.LayerMask RemoveFromMask(UnityEngine.LayerMask original, params System.String[] layerNames)
     static UnityEngine::LayerMask RemoveFromMask(UnityEngine::LayerMask original, std::initializer_list<::Il2CppString*> layerNames);
@@ -81,16 +81,16 @@ namespace RootMotion {
       return RemoveFromMask(original, {layerNames...});
     }
     // static public System.String[] MaskToNames(UnityEngine.LayerMask original)
-    // Offset: 0x15F3104
+    // Offset: 0x1973C88
     static ::Array<::Il2CppString*>* MaskToNames(UnityEngine::LayerMask original);
     // static public System.Int32[] MaskToNumbers(UnityEngine.LayerMask original)
-    // Offset: 0x15F31F8
+    // Offset: 0x1973D7C
     static ::Array<int>* MaskToNumbers(UnityEngine::LayerMask original);
     // static public System.String MaskToString(UnityEngine.LayerMask original)
-    // Offset: 0x15F32D0
+    // Offset: 0x1973E54
     static ::Il2CppString* MaskToString(UnityEngine::LayerMask original);
     // static public System.String MaskToString(UnityEngine.LayerMask original, System.String delimiter)
-    // Offset: 0x15F3330
+    // Offset: 0x1973EB4
     static ::Il2CppString* MaskToString(UnityEngine::LayerMask original, ::Il2CppString* delimiter);
   }; // RootMotion.LayerMaskExtensions
   #pragma pack(pop)

@@ -52,7 +52,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: ScrollViewState
     ScrollViewState(UnityEngine::Rect position_ = {}, UnityEngine::Rect visibleRect_ = {}, UnityEngine::Rect viewRect_ = {}, UnityEngine::Vector2 scrollPosition_ = {}, bool apply_ = {}) noexcept : position{position_}, visibleRect{visibleRect_}, viewRect{viewRect_}, scrollPosition{scrollPosition_}, apply{apply_} {}
     // public System.Void .ctor()
-    // Offset: 0x1610410
+    // Offset: 0x198FF94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

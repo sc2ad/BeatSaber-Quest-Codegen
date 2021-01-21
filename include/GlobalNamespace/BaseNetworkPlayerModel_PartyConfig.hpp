@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PartyConfig
     PartyConfig(GlobalNamespace::GameplayServerConfiguration configuration_ = {}, int maxPartySize_ = {}, GlobalNamespace::INetworkPlayerModel* partyManager_ = {}) noexcept : configuration{configuration_}, maxPartySize{maxPartySize_}, partyManager{partyManager_} {}
     // public System.Void .ctor()
-    // Offset: 0x1A759D0
+    // Offset: 0x10657E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

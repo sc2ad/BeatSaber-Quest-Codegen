@@ -182,7 +182,7 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, writer, reader);
     }
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x22B5010
+    // Offset: 0x22C6AB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer* New_ctor(int maxStringLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::.ctor");
@@ -243,7 +243,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodThrow<::Array<uint8_t>*, false>(this, ___generic__method, obj);
     }
     // public System.Void .ctor()
-    // Offset: 0x22B4F28
+    // Offset: 0x22C69D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

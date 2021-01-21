@@ -60,20 +60,20 @@ namespace System::Net::Http {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(System.Net.Http.HttpMessageHandler handler, System.Boolean disposeHandler)
-    // Offset: 0x120B964
+    // Offset: 0x14136FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpMessageInvoker* New_ctor(System::Net::Http::HttpMessageHandler* handler, bool disposeHandler) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpMessageInvoker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpMessageInvoker*, creationType>(handler, disposeHandler)));
     }
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x120BA70
+    // Offset: 0x141394C
     void Dispose(bool disposing);
     // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x120C428
+    // Offset: 0x1414304
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);
     // public System.Void Dispose()
-    // Offset: 0x12100C8
+    // Offset: 0x1417FA4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

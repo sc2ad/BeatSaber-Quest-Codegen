@@ -29,7 +29,7 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     bool get_keepWaiting();
     // public System.Object get_Current()
-    // Offset: 0x16842C4
+    // Offset: 0x1A1BD04
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -37,7 +37,7 @@ namespace UnityEngine {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x16842CC
+    // Offset: 0x1A1BD0C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -45,7 +45,7 @@ namespace UnityEngine {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x16842D8
+    // Offset: 0x1A1BD18
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -53,7 +53,7 @@ namespace UnityEngine {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // protected System.Void .ctor()
-    // Offset: 0x16842DC
+    // Offset: 0x1A1BD1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

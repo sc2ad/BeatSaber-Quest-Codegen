@@ -28,12 +28,12 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: PlayableTrack
     PlayableTrack() noexcept {}
     // protected override System.Void OnCreateClip(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x141F124
+    // Offset: 0x1734B5C
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::OnCreateClip(UnityEngine.Timeline.TimelineClip clip)
     void OnCreateClip(UnityEngine::Timeline::TimelineClip* clip);
     // public System.Void .ctor()
-    // Offset: 0x141F1DC
+    // Offset: 0x1734C14
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::.ctor()
     // Base method: System.Void PlayableAsset::.ctor()

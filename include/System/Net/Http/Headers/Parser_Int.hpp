@@ -18,7 +18,7 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: Int
     Int() noexcept {}
     // static public System.Boolean TryParse(System.String input, out System.Int32 result)
-    // Offset: 0x1206B34
+    // Offset: 0x140E8CC
     static bool TryParse(::Il2CppString* input, int& result);
   }; // System.Net.Http.Headers.Parser/Int
   #pragma pack(pop)

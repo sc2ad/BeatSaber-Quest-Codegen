@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class ShaderWarmupSceneSetupData : public GlobalNamespace::SceneSetupData {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDD3028
+    // [CompilerGeneratedAttribute] Offset: 0xD453D4
     // private ScenesTransitionSetupDataSO <nextScenesTransitionSetupData>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -40,13 +40,13 @@ namespace GlobalNamespace {
       return nextScenesTransitionSetupData;
     }
     // public ScenesTransitionSetupDataSO get_nextScenesTransitionSetupData()
-    // Offset: 0xFCD510
+    // Offset: 0xF6A8FC
     GlobalNamespace::ScenesTransitionSetupDataSO* get_nextScenesTransitionSetupData();
     // private System.Void set_nextScenesTransitionSetupData(ScenesTransitionSetupDataSO value)
-    // Offset: 0xFCD518
+    // Offset: 0xF6A904
     void set_nextScenesTransitionSetupData(GlobalNamespace::ScenesTransitionSetupDataSO* value);
     // public System.Void .ctor(ScenesTransitionSetupDataSO nextScenesTransitionSetupData)
-    // Offset: 0xFCD520
+    // Offset: 0xF6A90C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderWarmupSceneSetupData* New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShaderWarmupSceneSetupData::.ctor");

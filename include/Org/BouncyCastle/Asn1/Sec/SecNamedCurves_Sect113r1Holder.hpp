@@ -35,10 +35,10 @@ namespace Org::BouncyCastle::Asn1::Sec {
     // Set static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance
     static void _set_Instance(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
     // static private System.Void .cctor()
-    // Offset: 0x1404B34
+    // Offset: 0x16F1A00
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x1404984
+    // Offset: 0x16F1850
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
     // Base method: System.Void X9ECParametersHolder::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -48,7 +48,7 @@ namespace Org::BouncyCastle::Asn1::Sec {
       return THROW_UNLESS((::il2cpp_utils::New<SecNamedCurves::Sect113r1Holder*, creationType>()));
     }
     // protected override Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
-    // Offset: 0x140498C
+    // Offset: 0x16F1858
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
     // Base method: Org.BouncyCastle.Asn1.X9.X9ECParameters X9ECParametersHolder::CreateParameters()
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();

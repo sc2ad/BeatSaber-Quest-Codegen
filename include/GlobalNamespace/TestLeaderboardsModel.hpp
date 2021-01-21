@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     struct $GetLeaderboardEntriesAsync$d__4;
     // Nested type: GlobalNamespace::TestLeaderboardsModel::$SendLevelScoreResultAsync$d__5
     struct $SendLevelScoreResultAsync$d__5;
-    // [CompilerGeneratedAttribute] Offset: 0xDC48FC
+    // [CompilerGeneratedAttribute] Offset: 0xD367D0
     // private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
     // Size: 0x8
     // Offset: 0x10
@@ -72,28 +72,28 @@ namespace GlobalNamespace {
       return scoreForLeaderboardDidUploadEvent;
     }
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0xF4B15C
+    // Offset: 0xF425B8
     void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0xF4B200
+    // Offset: 0xF4265C
     void remove_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xF4B2A4
+    // Offset: 0xF42700
     // Implemented from: OnlineServices.ILeaderboardsModel
     // Base method: System.String ILeaderboardsModel::GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
     ::Il2CppString* GetLeaderboardId(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xF4B2B0
+    // Offset: 0xF4270C
     // Implemented from: OnlineServices.ILeaderboardsModel
     // Base method: System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> ILeaderboardsModel::GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<OnlineServices::GetLeaderboardEntriesResult>* GetLeaderboardEntriesAsync(OnlineServices::GetLeaderboardFilterData leaderboardFilterData, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.SendLeaderboardEntryResult> SendLevelScoreResultAsync(OnlineServices.LevelScoreResultsData levelScoreResult, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xF4B3DC
+    // Offset: 0xF42838
     // Implemented from: OnlineServices.ILeaderboardsModel
     // Base method: System.Threading.Tasks.Task`1<OnlineServices.SendLeaderboardEntryResult> ILeaderboardsModel::SendLevelScoreResultAsync(OnlineServices.LevelScoreResultsData levelScoreResult, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<OnlineServices::SendLeaderboardEntryResult>* SendLevelScoreResultAsync(OnlineServices::LevelScoreResultsData levelScoreResult, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0xF4B530
+    // Offset: 0xF4298C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

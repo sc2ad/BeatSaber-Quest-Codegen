@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DefaultScenesTransitionsFromInit*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDC165C
+    // [SpaceAttribute] Offset: 0xD33520
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0x50
@@ -60,27 +60,27 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: QuestAppInit
     QuestAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::OculusInit* oculusInit_ = {}, GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}) noexcept : mainSystemInit{mainSystemInit_}, oculusInit{oculusInit_}, defaultScenesTransitionsFromInit{defaultScenesTransitionsFromInit_}, mainSettingsModel{mainSettingsModel_} {}
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xF2DF9C
+    // Offset: 0xFC0004
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0xF2DFB8
+    // Offset: 0xFC0020
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0xF2E004
+    // Offset: 0xFC006C
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0xF2E040
+    // Offset: 0xFC00A8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF2E110
+    // Offset: 0xFC0178
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()

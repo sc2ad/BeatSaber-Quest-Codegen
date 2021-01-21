@@ -31,13 +31,13 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Creating value type constructor for type: Buffer
     Buffer() noexcept {}
     // System.Byte[] GenerateSignature(Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters privateKey, System.Byte[] ctx)
-    // Offset: 0x104E4E4
+    // Offset: 0x1188FEC
     ::Array<uint8_t>* GenerateSignature(Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey, ::Array<uint8_t>* ctx);
     // System.Void Reset()
-    // Offset: 0x104E65C
+    // Offset: 0x1189164
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x104E334
+    // Offset: 0x1188E3C
     // Implemented from: System.IO.MemoryStream
     // Base method: System.Void MemoryStream::.ctor()
     // Base method: System.Void Stream::.ctor()

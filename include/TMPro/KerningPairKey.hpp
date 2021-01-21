@@ -44,7 +44,7 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.UInt32 ascii_left, System.UInt32 ascii_right)
-    // Offset: 0xC92A18
+    // Offset: 0xDF30A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     KerningPairKey(uint ascii_left, uint ascii_right) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPairKey::.ctor");

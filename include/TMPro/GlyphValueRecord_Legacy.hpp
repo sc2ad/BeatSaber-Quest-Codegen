@@ -52,7 +52,7 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphValueRecord valueRecord)
-    // Offset: 0xC92A10
+    // Offset: 0xDF3098
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GlyphValueRecord_Legacy(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphValueRecord_Legacy::.ctor");
@@ -64,7 +64,7 @@ namespace TMPro {
   static check_size<sizeof(GlyphValueRecord_Legacy), 12 + sizeof(float)> __TMPro_GlyphValueRecord_LegacySizeCheck;
   static_assert(sizeof(GlyphValueRecord_Legacy) == 0x10);
   // static public TMPro.GlyphValueRecord_Legacy op_Addition(TMPro.GlyphValueRecord_Legacy a, TMPro.GlyphValueRecord_Legacy b)
-  // Offset: 0xF4E084
+  // Offset: 0xF966A0
   TMPro::GlyphValueRecord_Legacy operator+(const TMPro::GlyphValueRecord_Legacy& a, const TMPro::GlyphValueRecord_Legacy& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphValueRecord_Legacy, "TMPro", "GlyphValueRecord_Legacy");

@@ -111,40 +111,40 @@ namespace GlobalNamespace {
     SaberTrailRenderer(UnityEngine::MeshRenderer* meshRenderer_ = {}, UnityEngine::MeshFilter* meshFilter_ = {}, UnityEngine::Mesh* mesh_ = {}, ::Array<UnityEngine::Vector3>* vertices_ = {}, ::Array<int>* indices_ = {}, ::Array<UnityEngine::Vector2>* uvs_ = {}, ::Array<UnityEngine::Color>* colors_ = {}, float trailWidth_ = {}, float trailDuration_ = {}, int granularity_ = {}, float whiteSectionMaxDuration_ = {}) noexcept : meshRenderer{meshRenderer_}, meshFilter{meshFilter_}, mesh{mesh_}, vertices{vertices_}, indices{indices_}, uvs{uvs_}, colors{colors_}, trailWidth{trailWidth_}, trailDuration{trailDuration_}, granularity{granularity_}, whiteSectionMaxDuration{whiteSectionMaxDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDC6C6C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD38C88
     // Get static field: static private readonly UnityEngine.Bounds _bounds
     static UnityEngine::Bounds _get__bounds();
     // Set static field: static private readonly UnityEngine.Bounds _bounds
     static void _set__bounds(UnityEngine::Bounds value);
     // public System.Void Init(System.Single trailWidth, System.Single trailDuration, System.Int32 granularity, System.Single whiteSectionMaxDuration)
-    // Offset: 0xFC41A4
+    // Offset: 0x1089E78
     void Init(float trailWidth, float trailDuration, int granularity, float whiteSectionMaxDuration);
     // protected System.Void OnDestroy()
-    // Offset: 0xFC4500
+    // Offset: 0x108A1D4
     void OnDestroy();
     // private System.Void OnValidate()
-    // Offset: 0xFC450C
+    // Offset: 0x108A1E0
     void OnValidate();
     // protected System.Void OnEnable()
-    // Offset: 0xFC4618
+    // Offset: 0x108A2EC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xFC46AC
+    // Offset: 0x108A380
     void OnDisable();
     // public System.Void SetTrailWidth(System.Single width)
-    // Offset: 0xFC4740
+    // Offset: 0x108A414
     void SetTrailWidth(float width);
     // public System.Void UpdateMesh(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0xFC3C28
+    // Offset: 0x10898FC
     void UpdateMesh(GlobalNamespace::TrailElementCollection* trailElementCollection, UnityEngine::Color color);
     // protected System.Void UpdateVertices(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0xFC4748
+    // Offset: 0x108A41C
     void UpdateVertices(GlobalNamespace::TrailElementCollection* trailElementCollection, UnityEngine::Color color);
     // private System.Void UpdateIndices()
-    // Offset: 0xFC4318
+    // Offset: 0x1089FEC
     void UpdateIndices();
     // public System.Void .ctor()
-    // Offset: 0xFC4B64
+    // Offset: 0x108A838
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -157,7 +157,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberTrailRenderer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0xFC4B6C
+    // Offset: 0x108A840
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

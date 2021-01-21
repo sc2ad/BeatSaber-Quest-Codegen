@@ -36,7 +36,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: AchievementUpdate
     AchievementUpdate(bool JustUnlocked_ = {}, ::Il2CppString* Name_ = {}) noexcept : JustUnlocked{JustUnlocked_}, Name{Name_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x11D8104
+    // Offset: 0x13E8F0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementUpdate* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AchievementUpdate::.ctor");

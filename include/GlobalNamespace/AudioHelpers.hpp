@@ -16,7 +16,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AudioHelpers
     AudioHelpers() noexcept {}
     // static public System.Single NormalizedVolumeToDB(System.Single normalizedVolume)
-    // Offset: 0x102A844
+    // Offset: 0x1104224
     static float NormalizedVolumeToDB(float normalizedVolume);
   }; // AudioHelpers
   #pragma pack(pop)

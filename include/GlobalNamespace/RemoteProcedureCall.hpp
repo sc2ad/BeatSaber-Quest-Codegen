@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::RemoteProcedureCall::TypeWrapper_1<T>
     template<typename T>
     struct TypeWrapper_1;
-    // [CompilerGeneratedAttribute] Offset: 0xDAA424
+    // [CompilerGeneratedAttribute] Offset: 0xD1C01C
     // private System.Single <syncTime>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -52,39 +52,39 @@ namespace GlobalNamespace {
       return syncTime;
     }
     // public System.Void set_syncTime(System.Single value)
-    // Offset: 0x1E548E4
+    // Offset: 0x1C1DCA0
     void set_syncTime(float value);
     // protected System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1E548EC
+    // Offset: 0x1C1DCA8
     void SerializeData(LiteNetLib::Utils::NetDataWriter* writer);
     // protected System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1E548F0
+    // Offset: 0x1C1DCAC
     void DeserializeData(LiteNetLib::Utils::NetDataReader* reader);
     // public IRemoteProcedureCall Init(System.Single syncTime)
-    // Offset: 0x1E54AA4
+    // Offset: 0x1C1DE60
     GlobalNamespace::IRemoteProcedureCall* Init(float syncTime);
     // public System.Single get_syncTime()
-    // Offset: 0x1E548DC
+    // Offset: 0x1C1DC98
     // Implemented from: IRemoteProcedureCall
     // Base method: System.Single IRemoteProcedureCall::get_syncTime()
     float get_syncTime();
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1E548F4
+    // Offset: 0x1C1DCB0
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1E5493C
+    // Offset: 0x1C1DCF8
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1E54984
+    // Offset: 0x1C1DD40
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // protected System.Void .ctor()
-    // Offset: 0x1E48E0C
+    // Offset: 0x1C12144
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

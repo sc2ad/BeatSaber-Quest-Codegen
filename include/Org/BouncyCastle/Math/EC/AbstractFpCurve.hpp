@@ -41,22 +41,22 @@ namespace Org::BouncyCastle::Math::EC {
     // Creating value type constructor for type: AbstractFpCurve
     AbstractFpCurve() noexcept {}
     // protected System.Void .ctor(Org.BouncyCastle.Math.BigInteger q)
-    // Offset: 0x176DC64
+    // Offset: 0x1B8C174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbstractFpCurve* New_ctor(Org::BouncyCastle::Math::BigInteger* q) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::AbstractFpCurve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbstractFpCurve*, creationType>(q)));
     }
     // static private Org.BouncyCastle.Math.BigInteger ImplRandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r, Org.BouncyCastle.Math.BigInteger p)
-    // Offset: 0x176DE18
+    // Offset: 0x1B8C328
     static Org::BouncyCastle::Math::BigInteger* ImplRandomFieldElementMult(Org::BouncyCastle::Security::SecureRandom* r, Org::BouncyCastle::Math::BigInteger* p);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement RandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r)
-    // Offset: 0x176DCE8
+    // Offset: 0x1B8C1F8
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECCurve::RandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r)
     Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(Org::BouncyCastle::Security::SecureRandom* r);
     // protected override Org.BouncyCastle.Math.EC.ECPoint DecompressPoint(System.Int32 yTilde, Org.BouncyCastle.Math.BigInteger X1)
-    // Offset: 0x176DEAC
+    // Offset: 0x1B8C3BC
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::DecompressPoint(System.Int32 yTilde, Org.BouncyCastle.Math.BigInteger X1)
     Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int yTilde, Org::BouncyCastle::Math::BigInteger* X1);

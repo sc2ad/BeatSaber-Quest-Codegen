@@ -30,7 +30,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: LinkedAccountList
     LinkedAccountList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x11DB3F8
+    // Offset: 0x13EC200
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinkedAccountList* New_ctor(System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LinkedAccountList::.ctor");

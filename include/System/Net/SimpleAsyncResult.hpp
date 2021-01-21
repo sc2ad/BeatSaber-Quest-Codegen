@@ -107,63 +107,63 @@ namespace System::Net {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // private System.Void .ctor(System.Net.SimpleAsyncCallback cb)
-    // Offset: 0x11A5A38
+    // Offset: 0x135F884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleAsyncResult* New_ctor(System::Net::SimpleAsyncCallback* cb) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::SimpleAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAsyncResult*, creationType>(cb)));
     }
     // protected System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x11A5AC8
+    // Offset: 0x135F914
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::SimpleAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAsyncResult*, creationType>(cb, state)));
     }
     // static public System.Void Run(System.Func`2<System.Net.SimpleAsyncResult,System.Boolean> func, System.Net.SimpleAsyncCallback callback)
-    // Offset: 0x11A5BF0
+    // Offset: 0x135FA3C
     static void Run(System::Func_2<System::Net::SimpleAsyncResult*, bool>* func, System::Net::SimpleAsyncCallback* callback);
     // static public System.Void RunWithLock(System.Object locker, System.Func`2<System.Net.SimpleAsyncResult,System.Boolean> func, System.Net.SimpleAsyncCallback callback)
-    // Offset: 0x11A5DC4
+    // Offset: 0x135FC10
     static void RunWithLock(::Il2CppObject* locker, System::Func_2<System::Net::SimpleAsyncResult*, bool>* func, System::Net::SimpleAsyncCallback* callback);
     // protected System.Void Reset_internal()
-    // Offset: 0x11A5EE4
+    // Offset: 0x135FD30
     void Reset_internal();
     // System.Void SetCompleted(System.Boolean synch, System.Exception e)
-    // Offset: 0x11A5D78
+    // Offset: 0x135FBC4
     void SetCompleted(bool synch, System::Exception* e);
     // System.Void SetCompleted(System.Boolean synch)
-    // Offset: 0x11A5D28
+    // Offset: 0x135FB74
     void SetCompleted(bool synch);
     // private System.Void SetCompleted_internal(System.Boolean synch, System.Exception e)
-    // Offset: 0x11A5FA4
+    // Offset: 0x135FDF0
     void SetCompleted_internal(bool synch, System::Exception* e);
     // protected System.Void SetCompleted_internal(System.Boolean synch)
-    // Offset: 0x11A6090
+    // Offset: 0x135FEDC
     void SetCompleted_internal(bool synch);
     // private System.Void DoCallback_private()
-    // Offset: 0x11A606C
+    // Offset: 0x135FEB8
     void DoCallback_private();
     // protected System.Void DoCallback_internal()
-    // Offset: 0x11A609C
+    // Offset: 0x135FEE8
     void DoCallback_internal();
     // System.Void WaitUntilComplete()
-    // Offset: 0x11A60C0
+    // Offset: 0x135FF0C
     void WaitUntilComplete();
     // System.Boolean WaitUntilComplete(System.Int32 timeout, System.Boolean exitContext)
-    // Offset: 0x11A62BC
+    // Offset: 0x1360108
     bool WaitUntilComplete(int timeout, bool exitContext);
     // System.Boolean get_CompletedSynchronouslyPeek()
-    // Offset: 0x11A63DC
+    // Offset: 0x1360228
     bool get_CompletedSynchronouslyPeek();
     // System.Boolean get_GotException()
-    // Offset: 0x11A63E4
+    // Offset: 0x1360230
     bool get_GotException();
     // System.Exception get_Exception()
-    // Offset: 0x11A63F4
+    // Offset: 0x1360240
     System::Exception* get_Exception();
     // public System.Object get_AsyncState()
-    // Offset: 0x11A6324
+    // Offset: 0x1360170
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
@@ -171,7 +171,7 @@ namespace System::Net {
     // Maps to method: get_AsyncState
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x11A61B4
+    // Offset: 0x1360000
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* get_AsyncWaitHandle();
@@ -179,7 +179,7 @@ namespace System::Net {
     // Maps to method: get_AsyncWaitHandle
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x11A632C
+    // Offset: 0x1360178
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
     bool get_CompletedSynchronously();
@@ -187,7 +187,7 @@ namespace System::Net {
     // Maps to method: get_CompletedSynchronously
     bool System_IAsyncResult_get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x11A6108
+    // Offset: 0x135FF54
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_IsCompleted()
     bool get_IsCompleted();

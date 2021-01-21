@@ -68,14 +68,14 @@ namespace GlobalNamespace {
     GlobalNamespace::LocalizedTextAsset* eulaLocalizedTextAsset;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalizedTextAsset*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDCF6E8
+    // [CompilerGeneratedAttribute] Offset: 0xD419A4
     // private System.Action`1<System.Boolean> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
     System::Action_1<bool>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCF6F8
+    // [InjectAttribute] Offset: 0xD419B4
     // private EulaViewController/InitData _initData
     // Size: 0x8
     // Offset: 0x98
@@ -85,24 +85,24 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EulaViewController
     EulaViewController(UnityEngine::UI::Button* agreeButton_ = {}, UnityEngine::UI::Button* doNotAgreeButton_ = {}, HMUI::TextPageScrollView* textPageScrollView_ = {}, GlobalNamespace::LocalizedTextAsset* eulaLocalizedTextAsset_ = {}, System::Action_1<bool>* didFinishEvent_ = {}, GlobalNamespace::EulaViewController::InitData* initData_ = {}) noexcept : agreeButton{agreeButton_}, doNotAgreeButton{doNotAgreeButton_}, textPageScrollView{textPageScrollView_}, eulaLocalizedTextAsset{eulaLocalizedTextAsset_}, didFinishEvent{didFinishEvent_}, initData{initData_} {}
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1A0EE3C
+    // Offset: 0xF28BDC
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1A0EEE0
+    // Offset: 0xF28C80
     void remove_didFinishEvent(System::Action_1<bool>* value);
     // private System.Void <DidActivate>b__9_0()
-    // Offset: 0x1A0F0D8
+    // Offset: 0xF28E78
     void $DidActivate$b__9_0();
     // private System.Void <DidActivate>b__9_1()
-    // Offset: 0x1A0F13C
+    // Offset: 0xF28EDC
     void $DidActivate$b__9_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1A0EF84
+    // Offset: 0xF28D24
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1A0F0D0
+    // Offset: 0xF28E70
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

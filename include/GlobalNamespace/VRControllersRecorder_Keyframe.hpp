@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Keyframe
     Keyframe(UnityEngine::Vector3 pos1_ = {}, UnityEngine::Vector3 pos2_ = {}, UnityEngine::Vector3 pos3_ = {}, UnityEngine::Quaternion rot1_ = {}, UnityEngine::Quaternion rot2_ = {}, UnityEngine::Quaternion rot3_ = {}, float time_ = {}) noexcept : pos1{pos1_}, pos2{pos2_}, pos3{pos3_}, rot1{rot1_}, rot2{rot2_}, rot3{rot3_}, time{time_} {}
     // public System.Void .ctor()
-    // Offset: 0x1973C34
+    // Offset: 0x171D2F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

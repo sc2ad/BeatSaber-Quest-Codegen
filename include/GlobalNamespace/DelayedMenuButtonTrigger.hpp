@@ -33,14 +33,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class DelayedMenuButtonTrigger : public ::Il2CppObject/*, public Zenject::ITickable, public GlobalNamespace::IMenuButtonTrigger*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDC7E90
+    // [CompilerGeneratedAttribute] Offset: 0xD3A00C
     // private System.Action menuButtonTriggeredEvent
     // Size: 0x8
     // Offset: 0x10
     System::Action* menuButtonTriggeredEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC7EA0
+    // [InjectAttribute] Offset: 0xD3A01C
     // private System.Single _pressDuration
     // Size: 0x4
     // Offset: 0x18
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: waitingForButtonRelease and: vrControllersInputManager
     char __padding3[0x7] = {};
-    // [InjectAttribute] Offset: 0xDC7EB0
+    // [InjectAttribute] Offset: 0xD3A02C
     // private VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x28
@@ -79,22 +79,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IMenuButtonTrigger*>(this);
     }
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x1A59D2C
+    // Offset: 0x1049774
     // Implemented from: IMenuButtonTrigger
     // Base method: System.Void IMenuButtonTrigger::add_menuButtonTriggeredEvent(System.Action value)
     void add_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void remove_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x1A59DD0
+    // Offset: 0x1049818
     // Implemented from: IMenuButtonTrigger
     // Base method: System.Void IMenuButtonTrigger::remove_menuButtonTriggeredEvent(System.Action value)
     void remove_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void Tick()
-    // Offset: 0x1A59E74
+    // Offset: 0x10498BC
     // Implemented from: Zenject.ITickable
     // Base method: System.Void ITickable::Tick()
     void Tick();
     // public System.Void .ctor()
-    // Offset: 0x1A59F04
+    // Offset: 0x104994C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

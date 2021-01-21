@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass8_0;
     // Nested type: GlobalNamespace::PlayersAtGameStartModel::$$c__DisplayClass9_0
     class $$c__DisplayClass9_0;
-    // [CompilerGeneratedAttribute] Offset: 0xDAA404
+    // [CompilerGeneratedAttribute] Offset: 0xD1BFFC
     // private PlayersAtGameStartNetSerializable <playersAtGameStartNetSerializable>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -57,26 +57,26 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlayersAtGameStartModel
     PlayersAtGameStartModel(GlobalNamespace::PlayersAtGameStartNetSerializable* playersAtGameStartNetSerializable_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}) noexcept : playersAtGameStartNetSerializable{playersAtGameStartNetSerializable_}, multiplayerSessionManager{multiplayerSessionManager_} {}
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_playersAtGameStart()
-    // Offset: 0x1E52D48
+    // Offset: 0x1C1C104
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* get_playersAtGameStart();
     // public PlayersAtGameStartNetSerializable get_playersAtGameStartNetSerializable()
-    // Offset: 0x1E52D64
+    // Offset: 0x1C1C120
     GlobalNamespace::PlayersAtGameStartNetSerializable* get_playersAtGameStartNetSerializable();
     // private System.Void set_playersAtGameStartNetSerializable(PlayersAtGameStartNetSerializable value)
-    // Offset: 0x1E52D6C
+    // Offset: 0x1C1C128
     void set_playersAtGameStartNetSerializable(GlobalNamespace::PlayersAtGameStartNetSerializable* value);
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager)
-    // Offset: 0x1E52D74
+    // Offset: 0x1C1C130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayersAtGameStartModel* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayersAtGameStartModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayersAtGameStartModel*, creationType>(multiplayerSessionManager)));
     }
     // public System.Void SaveConnectedPlayersContainedIn(System.Collections.Generic.HashSet`1<System.String> playerIds)
-    // Offset: 0x1E52E7C
+    // Offset: 0x1C1C238
     void SaveConnectedPlayersContainedIn(System::Collections::Generic::HashSet_1<::Il2CppString*>* playerIds);
     // public System.Void SaveFromNetSerializable(PlayersAtGameStartNetSerializable playersAtGameStartNetSerializable)
-    // Offset: 0x1E5314C
+    // Offset: 0x1C1C508
     void SaveFromNetSerializable(GlobalNamespace::PlayersAtGameStartNetSerializable* playersAtGameStartNetSerializable);
   }; // PlayersAtGameStartModel
   #pragma pack(pop)

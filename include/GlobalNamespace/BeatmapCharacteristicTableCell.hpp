@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* selectionImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDCC988
+    // [SpaceAttribute] Offset: 0xD3EBE4
     // private UnityEngine.Color _bgNormalColor
     // Size: 0x10
     // Offset: 0x70
@@ -78,23 +78,23 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapCharacteristicTableCell
     BeatmapCharacteristicTableCell(TMPro::TextMeshProUGUI* nameText_ = {}, UnityEngine::UI::Image* iconImage_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* selectionImage_ = {}, UnityEngine::Color bgNormalColor_ = {}, UnityEngine::Color bgHighlightColor_ = {}) noexcept : nameText{nameText_}, iconImage{iconImage_}, bgImage{bgImage_}, selectionImage{selectionImage_}, bgNormalColor{bgNormalColor_}, bgHighlightColor{bgHighlightColor_} {}
     // public System.Void SetData(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x1A7CA28
+    // Offset: 0x106C854
     void SetData(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void RefreshVisuals()
-    // Offset: 0x1A7CA90
+    // Offset: 0x106C8BC
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x1A7CA8C
+    // Offset: 0x106C8B8
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x1A7CB18
+    // Offset: 0x106C944
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x1A7CB1C
+    // Offset: 0x106C948
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

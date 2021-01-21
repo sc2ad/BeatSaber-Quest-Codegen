@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC8690
+    // [InjectAttribute] Offset: 0xD3A83C
     // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x20
@@ -52,12 +52,12 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void RestartLevel()
-    // Offset: 0xF4508C
+    // Offset: 0xF7BF90
     // Implemented from: ILevelRestartController
     // Base method: System.Void ILevelRestartController::RestartLevel()
     void RestartLevel();
     // public System.Void .ctor()
-    // Offset: 0xF450D4
+    // Offset: 0xF7BFD8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

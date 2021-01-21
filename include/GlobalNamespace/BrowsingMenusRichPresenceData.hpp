@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class BrowsingMenusRichPresenceData : public ::Il2CppObject/*, public GlobalNamespace::IRichPresenceData*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDC510C
+    // [CompilerGeneratedAttribute] Offset: 0xD37050
     // private System.String <localizedDescription>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +43,7 @@ namespace GlobalNamespace {
     constexpr operator ::Il2CppString*() const noexcept {
       return localizedDescription;
     }
+    // [LocalizationKeyAttribute] Offset: 0xD37060
     // static field const value: static private System.String kBrowsingMenusRichPresenceLocalizationKey
     static constexpr const char* kBrowsingMenusRichPresenceLocalizationKey = "BROWSING_MENUS_PRESENCE";
     // Get static field: static private System.String kBrowsingMenusRichPresenceLocalizationKey
@@ -50,20 +51,20 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kBrowsingMenusRichPresenceLocalizationKey
     static void _set_kBrowsingMenusRichPresenceLocalizationKey(::Il2CppString* value);
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0x1A31B84
+    // Offset: 0xF62A98
     void set_localizedDescription(::Il2CppString* value);
     // public System.String get_apiName()
-    // Offset: 0x1A31B34
+    // Offset: 0xF62A48
     // Implemented from: IRichPresenceData
     // Base method: System.String IRichPresenceData::get_apiName()
     ::Il2CppString* get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0x1A31B7C
+    // Offset: 0xF62A90
     // Implemented from: IRichPresenceData
     // Base method: System.String IRichPresenceData::get_localizedDescription()
     ::Il2CppString* get_localizedDescription();
     // public System.Void .ctor()
-    // Offset: 0x1A31B8C
+    // Offset: 0xF62AA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

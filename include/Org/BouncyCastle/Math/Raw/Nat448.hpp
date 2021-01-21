@@ -23,28 +23,28 @@ namespace Org::BouncyCastle::Math::Raw {
     // Creating value type constructor for type: Nat448
     Nat448() noexcept {}
     // static public System.Void Copy64(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x10999B4
+    // Offset: 0x11EA49C
     static void Copy64(::Array<uint64_t>* x, ::Array<uint64_t>* z);
     // static public System.Void Copy64(System.UInt64[] x, System.Int32 xOff, System.UInt64[] z, System.Int32 zOff)
-    // Offset: 0x1099A9C
+    // Offset: 0x11EA584
     static void Copy64(::Array<uint64_t>* x, int xOff, ::Array<uint64_t>* z, int zOff);
     // static public System.UInt64[] Create64()
-    // Offset: 0x1099C0C
+    // Offset: 0x11EA6F4
     static ::Array<uint64_t>* Create64();
     // static public System.UInt64[] CreateExt64()
-    // Offset: 0x1099C58
+    // Offset: 0x11EA740
     static ::Array<uint64_t>* CreateExt64();
     // static public System.Boolean Eq64(System.UInt64[] x, System.UInt64[] y)
-    // Offset: 0x1099CA4
+    // Offset: 0x11EA78C
     static bool Eq64(::Array<uint64_t>* x, ::Array<uint64_t>* y);
     // static public System.Boolean IsOne64(System.UInt64[] x)
-    // Offset: 0x1099D14
+    // Offset: 0x11EA7FC
     static bool IsOne64(::Array<uint64_t>* x);
     // static public System.Boolean IsZero64(System.UInt64[] x)
-    // Offset: 0x1099D80
+    // Offset: 0x11EA868
     static bool IsZero64(::Array<uint64_t>* x);
     // static public Org.BouncyCastle.Math.BigInteger ToBigInteger64(System.UInt64[] x)
-    // Offset: 0x1099DE0
+    // Offset: 0x11EA8C8
     static Org::BouncyCastle::Math::BigInteger* ToBigInteger64(::Array<uint64_t>* x);
   }; // Org.BouncyCastle.Math.Raw.Nat448
   #pragma pack(pop)

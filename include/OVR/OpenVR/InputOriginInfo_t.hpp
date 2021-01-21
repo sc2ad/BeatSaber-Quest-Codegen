@@ -806,7 +806,7 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.String get_rchRenderModelComponentName()
-    // Offset: 0xC93850
+    // Offset: 0xDF4C6C
     ::Il2CppString* get_rchRenderModelComponentName();
   }; // OVR.OpenVR.InputOriginInfo_t
   #pragma pack(pop)

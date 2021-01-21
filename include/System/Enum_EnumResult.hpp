@@ -78,19 +78,19 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void Init(System.Boolean canMethodThrow)
-    // Offset: 0xC93FC8
+    // Offset: 0xDF8F30
     void Init(bool canMethodThrow);
     // System.Void SetFailure(System.Exception unhandledException)
-    // Offset: 0xC93FD4
+    // Offset: 0xDF8F3C
     void SetFailure(System::Exception* unhandledException);
     // System.Void SetFailure(System.Enum/ParseFailureKind failure, System.String failureParameter)
-    // Offset: 0xC93FE4
+    // Offset: 0xDF8F4C
     void SetFailure(System::Enum::ParseFailureKind failure, ::Il2CppString* failureParameter);
     // System.Void SetFailure(System.Enum/ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0xC93FEC
+    // Offset: 0xDF8F54
     void SetFailure(System::Enum::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Exception GetEnumParseException()
-    // Offset: 0xC93FF4
+    // Offset: 0xDF8F5C
     System::Exception* GetEnumParseException();
   }; // System.Enum/EnumResult
   #pragma pack(pop)

@@ -39,12 +39,12 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer*>(this);
     }
     // public UnityEngine.Texture2D RenderLookupTexture(UnityEngine.Camera camera, UnityEngine.Shader shader, System.String tag, System.Int32 width, System.Int32 height)
-    // Offset: 0x13CBB78
+    // Offset: 0x166CBA4
     // Implemented from: UnityEngine.ProBuilder.SelectionPickerRenderer/ISelectionPickerRenderer
     // Base method: UnityEngine.Texture2D ISelectionPickerRenderer::RenderLookupTexture(UnityEngine.Camera camera, UnityEngine.Shader shader, System.String tag, System.Int32 width, System.Int32 height)
     UnityEngine::Texture2D* RenderLookupTexture(UnityEngine::Camera* camera, UnityEngine::Shader* shader, ::Il2CppString* tag, int width, int height);
     // public System.Void .ctor()
-    // Offset: 0x13C93B0
+    // Offset: 0x166A3DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

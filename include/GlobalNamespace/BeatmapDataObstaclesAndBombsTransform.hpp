@@ -31,13 +31,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapDataObstaclesAndBombsTransform
     BeatmapDataObstaclesAndBombsTransform() noexcept {}
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData, GameplayModifiers/EnabledObstacleType enabledObstaclesType, System.Boolean noBombs)
-    // Offset: 0x1A81268
+    // Offset: 0x10711D4
     static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData, GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
     // static private System.Boolean ShouldUseBeatmapObject(BeatmapObjectData beatmapObjectData, GameplayModifiers/EnabledObstacleType enabledObstaclesType, System.Boolean noBombs)
-    // Offset: 0x1A815EC
+    // Offset: 0x1071558
     static bool ShouldUseBeatmapObject(GlobalNamespace::BeatmapObjectData* beatmapObjectData, GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
     // public System.Void .ctor()
-    // Offset: 0x1A8172C
+    // Offset: 0x1071698
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

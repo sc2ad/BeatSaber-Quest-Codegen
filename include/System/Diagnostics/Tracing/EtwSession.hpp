@@ -61,23 +61,23 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static private System.Collections.Generic.List`1<System.WeakReference`1<System.Diagnostics.Tracing.EtwSession>> s_etwSessions
     static void _set_s_etwSessions(System::Collections::Generic::List_1<System::WeakReference_1<System::Diagnostics::Tracing::EtwSession*>*>* value);
     // static public System.Diagnostics.Tracing.EtwSession GetEtwSession(System.Int32 etwSessionId, System.Boolean bCreateIfNeeded)
-    // Offset: 0x12C6048
+    // Offset: 0x1514DDC
     static System::Diagnostics::Tracing::EtwSession* GetEtwSession(int etwSessionId, bool bCreateIfNeeded);
     // static public System.Void RemoveEtwSession(System.Diagnostics.Tracing.EtwSession etwSession)
-    // Offset: 0x12C64A0
+    // Offset: 0x1515234
     static void RemoveEtwSession(System::Diagnostics::Tracing::EtwSession* etwSession);
     // static private System.Void TrimGlobalList()
-    // Offset: 0x12C6348
+    // Offset: 0x15150DC
     static void TrimGlobalList();
     // private System.Void .ctor(System.Int32 etwSessionId)
-    // Offset: 0x12C631C
+    // Offset: 0x15150B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EtwSession* New_ctor(int etwSessionId) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EtwSession::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EtwSession*, creationType>(etwSessionId)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x12C6610
+    // Offset: 0x15153A4
     static void _cctor();
   }; // System.Diagnostics.Tracing.EtwSession
   #pragma pack(pop)

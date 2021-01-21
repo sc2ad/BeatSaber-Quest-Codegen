@@ -41,26 +41,26 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction)
-    // Offset: 0xCA7650
+    // Offset: 0xE18434
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Ray(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction)
     // public UnityEngine.Vector3 get_origin()
-    // Offset: 0xCA7658
+    // Offset: 0xE1843C
     UnityEngine::Vector3 get_origin();
     // public System.Void set_origin(UnityEngine.Vector3 value)
-    // Offset: 0xCA7664
+    // Offset: 0xE18448
     void set_origin(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_direction()
-    // Offset: 0xCA7670
+    // Offset: 0xE18454
     UnityEngine::Vector3 get_direction();
     // public System.Void set_direction(UnityEngine.Vector3 value)
-    // Offset: 0xCA767C
+    // Offset: 0xE18460
     void set_direction(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 GetPoint(System.Single distance)
-    // Offset: 0xCA76BC
+    // Offset: 0xE184A0
     UnityEngine::Vector3 GetPoint(float distance);
     // public override System.String ToString()
-    // Offset: 0xCA76C4
+    // Offset: 0xE184A8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

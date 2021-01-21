@@ -84,10 +84,10 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kPoseSize
     static void _set_kPoseSize(int value);
     // public System.Boolean Equals(ref NodePoseSyncState other)
-    // Offset: 0xC930C0
+    // Offset: 0xDF2C90
     bool Equals(GlobalNamespace::NodePoseSyncState& other);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xC92FF0
+    // Offset: 0xDF2BC0
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xC92FF8
+    // Offset: 0xDF2BC8
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -103,12 +103,12 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void SetState(NodePoseSyncState/NodePose nodePose, PoseSerializable pose)
-    // Offset: 0xC93000
+    // Offset: 0xDF2BD0
     // Implemented from: IStateTable`2
     // Base method: System.Void IStateTable_2::SetState(NodePoseSyncState/NodePose nodePose, PoseSerializable pose)
     void SetState(GlobalNamespace::NodePoseSyncState_NodePose nodePose, GlobalNamespace::PoseSerializable pose);
     // public PoseSerializable GetState(NodePoseSyncState/NodePose nodePose)
-    // Offset: 0xC9306C
+    // Offset: 0xDF2C3C
     // Implemented from: IStateTable`2
     // Base method: TState IStateTable_2::GetState(NodePoseSyncState/NodePose nodePose)
     GlobalNamespace::PoseSerializable GetState(GlobalNamespace::NodePoseSyncState_NodePose nodePose);

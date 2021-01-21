@@ -79,16 +79,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxDistanceForDistanceToCenterScore
     static void _set_kMaxDistanceForDistanceToCenterScore(float value);
     // static public System.Int32 MaxRawScoreForNumberOfNotes(System.Int32 noteCount)
-    // Offset: 0xFC7CA4
+    // Offset: 0x108D844
     static int MaxRawScoreForNumberOfNotes(int noteCount);
     // static public System.Void RawScoreWithoutMultiplier(NoteCutInfo noteCutInfo, out System.Int32 beforeCutRawScore, out System.Int32 afterCutRawScore, out System.Int32 cutDistanceRawScore)
-    // Offset: 0xFC8524
+    // Offset: 0x108DF8C
     static void RawScoreWithoutMultiplier(GlobalNamespace::NoteCutInfo* noteCutInfo, int& beforeCutRawScore, int& afterCutRawScore, int& cutDistanceRawScore);
     // static public System.Int32 GetModifiedScoreForGameplayModifiersScoreMultiplier(System.Int32 rawScore, System.Single gameplayModifiersScoreMultiplier)
-    // Offset: 0xFC7450
+    // Offset: 0x108CFAC
     static int GetModifiedScoreForGameplayModifiersScoreMultiplier(int rawScore, float gameplayModifiersScoreMultiplier);
     // public System.Void .ctor()
-    // Offset: 0xFC8768
+    // Offset: 0x108E1D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -51,46 +51,46 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: DerApplicationSpecific
     DerApplicationSpecific(bool isConstructed_ = {}, int tag_ = {}, ::Array<uint8_t>* octets_ = {}) noexcept : isConstructed{isConstructed_}, tag{tag_}, octets{octets_} {}
     // System.Void .ctor(System.Boolean isConstructed, System.Int32 tag, System.Byte[] octets)
-    // Offset: 0x13718B0
+    // Offset: 0x15FEE74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerApplicationSpecific* New_ctor(bool isConstructed, int tag, ::Array<uint8_t>* octets) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerApplicationSpecific::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerApplicationSpecific*, creationType>(isConstructed, tag, octets)));
     }
     // public System.Void .ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1EncodableVector vec)
-    // Offset: 0x137889C
+    // Offset: 0x1605E60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerApplicationSpecific* New_ctor(int tagNo, Org::BouncyCastle::Asn1::Asn1EncodableVector* vec) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerApplicationSpecific::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerApplicationSpecific*, creationType>(tagNo, vec)));
     }
     // public System.Boolean IsConstructed()
-    // Offset: 0x137F8B4
+    // Offset: 0x160CE78
     bool IsConstructed();
     // public System.Byte[] GetContents()
-    // Offset: 0x137F8BC
+    // Offset: 0x160CE80
     ::Array<uint8_t>* GetContents();
     // public System.Int32 get_ApplicationTag()
-    // Offset: 0x137F8C4
+    // Offset: 0x160CE88
     int get_ApplicationTag();
     // public Org.BouncyCastle.Asn1.Asn1Object GetObject(System.Int32 derTagNo)
-    // Offset: 0x137F8CC
+    // Offset: 0x160CE90
     Org::BouncyCastle::Asn1::Asn1Object* GetObject(int derTagNo);
     // private System.Byte[] ReplaceTagNumber(System.Int32 newTag, System.Byte[] input)
-    // Offset: 0x137F9B0
+    // Offset: 0x160CF74
     ::Array<uint8_t>* ReplaceTagNumber(int newTag, ::Array<uint8_t>* input);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x137FB00
+    // Offset: 0x160D0C4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x137FB8C
+    // Offset: 0x160D150
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x137FC94
+    // Offset: 0x160D258
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();

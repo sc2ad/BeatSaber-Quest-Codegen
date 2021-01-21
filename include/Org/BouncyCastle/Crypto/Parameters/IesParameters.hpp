@@ -40,13 +40,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // public System.Byte[] GetDerivationV()
-    // Offset: 0x1048CF8
+    // Offset: 0x1183800
     ::Array<uint8_t>* GetDerivationV();
     // public System.Byte[] GetEncodingV()
-    // Offset: 0x1048D00
+    // Offset: 0x1183808
     ::Array<uint8_t>* GetEncodingV();
     // public System.Int32 get_MacKeySize()
-    // Offset: 0x1048D08
+    // Offset: 0x1183810
     int get_MacKeySize();
   }; // Org.BouncyCastle.Crypto.Parameters.IesParameters
   #pragma pack(pop)

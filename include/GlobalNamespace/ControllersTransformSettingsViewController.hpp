@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Vector3SO* controllerRotation;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Vector3SO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDCF308
+    // [SpaceAttribute] Offset: 0xD415C4
     // private HMUI.RangeValuesTextSlider _posXSlider
     // Size: 0x8
     // Offset: 0x80
@@ -101,23 +101,23 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kRotationStep
     static void _set_kRotationStep(float value);
     // private System.Void HandlePositionSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x1A54670
+    // Offset: 0x1043F30
     void HandlePositionSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void HandleRotationSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x1A5474C
+    // Offset: 0x104400C
     void HandleRotationSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1A53ED4
+    // Offset: 0x1043794
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1A54344
+    // Offset: 0x1043C04
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1A5481C
+    // Offset: 0x10440DC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

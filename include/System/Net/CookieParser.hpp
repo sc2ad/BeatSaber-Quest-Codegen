@@ -39,17 +39,17 @@ namespace System::Net {
       return m_tokenizer;
     }
     // System.Void .ctor(System.String cookieString)
-    // Offset: 0x1312EE0
+    // Offset: 0x1561C74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieParser* New_ctor(::Il2CppString* cookieString) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieParser*, creationType>(cookieString)));
     }
     // System.Net.Cookie Get()
-    // Offset: 0x1312F60
+    // Offset: 0x1561CF4
     System::Net::Cookie* Get();
     // static System.String CheckQuoted(System.String value)
-    // Offset: 0x130E5E8
+    // Offset: 0x155D37C
     static ::Il2CppString* CheckQuoted(::Il2CppString* value);
   }; // System.Net.CookieParser
   #pragma pack(pop)

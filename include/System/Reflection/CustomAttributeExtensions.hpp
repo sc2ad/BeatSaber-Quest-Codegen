@@ -43,7 +43,7 @@ namespace System::Reflection {
     // Creating value type constructor for type: CustomAttributeExtensions
     CustomAttributeExtensions() noexcept {}
     // static public System.Attribute GetCustomAttribute(System.Reflection.Assembly element, System.Type attributeType)
-    // Offset: 0x17233A8
+    // Offset: 0x1B29DDC
     static System::Attribute* GetCustomAttribute(System::Reflection::Assembly* element, System::Type* attributeType);
     // static public T GetCustomAttribute(System.Reflection.Assembly element)
     // Offset: 0xFFFFFFFF
@@ -56,7 +56,7 @@ namespace System::Reflection {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, element);
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Attribute> GetCustomAttributes(System.Reflection.Assembly element, System.Type attributeType)
-    // Offset: 0x17233B0
+    // Offset: 0x1B29DE4
     static System::Collections::Generic::IEnumerable_1<System::Attribute*>* GetCustomAttributes(System::Reflection::Assembly* element, System::Type* attributeType);
     // static public System.Collections.Generic.IEnumerable`1<T> GetCustomAttributes(System.Reflection.Assembly element)
     // Offset: 0xFFFFFFFF
@@ -69,7 +69,7 @@ namespace System::Reflection {
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, element);
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Attribute> GetCustomAttributes(System.Reflection.MemberInfo element, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x17233B8
+    // Offset: 0x1B29DEC
     static System::Collections::Generic::IEnumerable_1<System::Attribute*>* GetCustomAttributes(System::Reflection::MemberInfo* element, System::Type* attributeType, bool inherit);
     // static public System.Collections.Generic.IEnumerable`1<T> GetCustomAttributes(System.Reflection.MemberInfo element, System.Boolean inherit)
     // Offset: 0xFFFFFFFF

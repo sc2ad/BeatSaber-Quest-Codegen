@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: KeyframeTransform
     KeyframeTransform(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}, bool valid_ = {}) noexcept : pos{pos_}, rot{rot_}, valid{valid_} {}
     // public System.Void .ctor()
-    // Offset: 0x197652C
+    // Offset: 0x1720884
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -44,12 +44,12 @@ namespace NUnit::Framework::Internal::Builders {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ICombiningStrategy*>(this);
     }
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestCaseData> GetTestCases(System.Collections.IEnumerable[] sources)
-    // Offset: 0x13E89B0
+    // Offset: 0x16A54D0
     // Implemented from: NUnit.Framework.Interfaces.ICombiningStrategy
     // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestCaseData> ICombiningStrategy::GetTestCases(System.Collections.IEnumerable[] sources)
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* GetTestCases(::Array<System::Collections::IEnumerable*>* sources);
     // public System.Void .ctor()
-    // Offset: 0x13DA008
+    // Offset: 0x1696B28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

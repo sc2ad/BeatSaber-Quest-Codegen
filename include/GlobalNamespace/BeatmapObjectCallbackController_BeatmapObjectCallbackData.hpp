@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapObjectCallbackData
     BeatmapObjectCallbackData(float aheadTime_ = {}, ::Array<int>* nextObjectIndexInLine_ = {}, GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallback* callback_ = {}) noexcept : aheadTime{aheadTime_}, nextObjectIndexInLine{nextObjectIndexInLine_}, callback{callback_} {}
     // public System.Void .ctor(BeatmapObjectCallbackController/BeatmapObjectCallback callback, System.Single aheadTime, System.Int32 numberOfLines)
-    // Offset: 0x1A26E10
+    // Offset: 0xF57B44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectCallbackController::BeatmapObjectCallbackData* New_ctor(GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallback* callback, float aheadTime, int numberOfLines) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData::.ctor");

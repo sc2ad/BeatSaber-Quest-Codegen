@@ -180,14 +180,14 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(AdditionalContentModel::IsPackBetterBuyThanLevelResult), 0 + sizeof(int)> __GlobalNamespace_AdditionalContentModel_IsPackBetterBuyThanLevelResultSizeCheck;
     static_assert(sizeof(AdditionalContentModel::IsPackBetterBuyThanLevelResult) == 0x4);
-    // [InjectAttribute] Offset: 0xDC291C
+    // [InjectAttribute] Offset: 0xD347E0
     // private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AlwaysOwnedContentContainerSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC292C
+    // [CompilerGeneratedAttribute] Offset: 0xD347F0
     // private System.Action didInvalidateDataEvent
     // Size: 0x8
     // Offset: 0x20
@@ -199,22 +199,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didInvalidateDataEvent(System.Action value)
-    // Offset: 0x1A3B9A0
+    // Offset: 0x102A378
     void add_didInvalidateDataEvent(System::Action* value);
     // public System.Void remove_didInvalidateDataEvent(System.Action value)
-    // Offset: 0x1A3BA44
+    // Offset: 0x102A41C
     void remove_didInvalidateDataEvent(System::Action* value);
     // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x1A3BAE8
+    // Offset: 0x102A4C0
     void OnApplicationFocus(bool hasFocus);
     // protected System.Void InvalidateData()
-    // Offset: 0x1A3BB24
+    // Offset: 0x102A4FC
     void InvalidateData();
     // public System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetLevelEntitlementStatusAsync(System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0x1A3BB64
+    // Offset: 0x102A53C
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetLevelEntitlementStatusAsync(::Il2CppString* levelId, System::Threading::CancellationToken token);
     // public System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetPackEntitlementStatusAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0x1A3BCC8
+    // Offset: 0x102A6A0
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetPackEntitlementStatusAsync(::Il2CppString* levelPackId, System::Threading::CancellationToken token);
     // protected System.Void InvalidateDataInternal()
     // Offset: 0xFFFFFFFF
@@ -235,7 +235,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::Il2CppString* levelPackId, System::Threading::CancellationToken token);
     // protected System.Void .ctor()
-    // Offset: 0x1A3BE2C
+    // Offset: 0x102A804
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

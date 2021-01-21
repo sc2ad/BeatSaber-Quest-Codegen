@@ -30,10 +30,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_typeNameLocalizationKey()
-    // Offset: 0x1A0ED18
+    // Offset: 0xF28AB8
     ::Il2CppString* get_typeNameLocalizationKey();
     // public System.Void .ctor()
-    // Offset: 0x1A0ED20
+    // Offset: 0xF28AC0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

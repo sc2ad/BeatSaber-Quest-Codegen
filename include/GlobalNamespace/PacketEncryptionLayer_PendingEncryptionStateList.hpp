@@ -55,25 +55,25 @@ namespace GlobalNamespace {
       return pendingStatesByPort;
     }
     // public System.Boolean get_isEmpty()
-    // Offset: 0x1E4E0C4
+    // Offset: 0x1C17480
     bool get_isEmpty();
     // public PacketEncryptionLayer/EncryptionState[] GetSortedEncryptionStates(System.Int32 port)
-    // Offset: 0x1E4ECCC
+    // Offset: 0x1C18088
     ::Array<GlobalNamespace::PacketEncryptionLayer::EncryptionState*>* GetSortedEncryptionStates(int port);
     // public System.Boolean TryGetEncryptionState(System.Int32 port, out PacketEncryptionLayer/EncryptionState encryptionState)
-    // Offset: 0x1E4E9AC
+    // Offset: 0x1C17D68
     bool TryGetEncryptionState(int port, GlobalNamespace::PacketEncryptionLayer::EncryptionState*& encryptionState);
     // public System.Void Add(System.Int32 port, PacketEncryptionLayer/EncryptionState encryptionState)
-    // Offset: 0x1E4E380
+    // Offset: 0x1C1773C
     void Add(int port, GlobalNamespace::PacketEncryptionLayer::EncryptionState* encryptionState);
     // public System.Boolean Remove(System.Int32 port)
-    // Offset: 0x1E4E05C
+    // Offset: 0x1C17418
     bool Remove(int port);
     // public System.Boolean Remove(System.Int32 port, PacketEncryptionLayer/EncryptionState encryptionState)
-    // Offset: 0x1E4F0C0
+    // Offset: 0x1C1847C
     bool Remove(int port, GlobalNamespace::PacketEncryptionLayer::EncryptionState* encryptionState);
     // public System.Void Dispose()
-    // Offset: 0x1E50DC4
+    // Offset: 0x1C1A180
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Void .ctor()
-    // Offset: 0x1E4E304
+    // Offset: 0x1C176C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

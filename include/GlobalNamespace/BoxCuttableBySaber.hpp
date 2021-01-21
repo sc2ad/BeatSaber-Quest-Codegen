@@ -56,42 +56,42 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BoxCuttableBySaber
     BoxCuttableBySaber(UnityEngine::BoxCollider* collider_ = {}, bool canBeCut_ = {}, float radius_ = {}) noexcept : collider{collider_}, canBeCut{canBeCut_}, radius{radius_} {}
     // public System.Void set_colliderSize(UnityEngine.Vector3 value)
-    // Offset: 0x1A31938
+    // Offset: 0xF6284C
     void set_colliderSize(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_colliderSize()
-    // Offset: 0x1A31A4C
+    // Offset: 0xF62960
     UnityEngine::Vector3 get_colliderSize();
     // protected System.Void Awake()
-    // Offset: 0x1A31A68
+    // Offset: 0xF6297C
     void Awake();
     // public System.Void SetColliderCenterAndSize(UnityEngine.Vector3 center, UnityEngine.Vector3 size)
-    // Offset: 0x1A31AC8
+    // Offset: 0xF629DC
     void SetColliderCenterAndSize(UnityEngine::Vector3 center, UnityEngine::Vector3 size);
     // private System.Void RefreshRadius()
-    // Offset: 0x1A3196C
+    // Offset: 0xF62880
     void RefreshRadius();
     // public override System.Single get_radius()
-    // Offset: 0x1A318EC
+    // Offset: 0xF62800
     // Implemented from: CuttableBySaber
     // Base method: System.Single CuttableBySaber::get_radius()
     float get_radius();
     // public override System.Void set_canBeCut(System.Boolean value)
-    // Offset: 0x1A318F4
+    // Offset: 0xF62808
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::set_canBeCut(System.Boolean value)
     void set_canBeCut(bool value);
     // public override System.Boolean get_canBeCut()
-    // Offset: 0x1A31930
+    // Offset: 0xF62844
     // Implemented from: CuttableBySaber
     // Base method: System.Boolean CuttableBySaber::get_canBeCut()
     bool get_canBeCut();
     // public override System.Void Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x1A31AA4
+    // Offset: 0xF629B8
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
     void Cut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public System.Void .ctor()
-    // Offset: 0x1A31B2C
+    // Offset: 0xF62A40
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

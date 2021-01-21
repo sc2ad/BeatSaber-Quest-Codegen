@@ -65,31 +65,31 @@ namespace System::IO {
     // Set static field: static private System.String[] NoStringsArray
     static void _set_NoStringsArray(::Array<::Il2CppString*>* value);
     // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
-    // Offset: 0x148BCE0
+    // Offset: 0x17A0718
     static bool GetInstance(System::IO::IFileWatcher*& watcher);
     // private System.Void Monitor()
-    // Offset: 0x148C8F0
+    // Offset: 0x17A1328
     void Monitor();
     // private System.Boolean UpdateDataAndDispatch(System.IO.DefaultWatcherData data, System.Boolean dispatch)
-    // Offset: 0x148C550
+    // Offset: 0x17A0F88
     bool UpdateDataAndDispatch(System::IO::DefaultWatcherData* data, bool dispatch);
     // static private System.Void DispatchEvents(System.IO.FileSystemWatcher fsw, System.IO.FileAction action, System.String filename)
-    // Offset: 0x148D284
+    // Offset: 0x17A1CBC
     static void DispatchEvents(System::IO::FileSystemWatcher* fsw, System::IO::FileAction action, ::Il2CppString* filename);
     // private System.Void DoFiles(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch)
-    // Offset: 0x148D01C
+    // Offset: 0x17A1A54
     void DoFiles(System::IO::DefaultWatcherData* data, ::Il2CppString* directory, bool dispatch);
     // private System.Void IterateAndModifyFilesData(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch, System.String[] files)
-    // Offset: 0x148D5E8
+    // Offset: 0x17A2020
     void IterateAndModifyFilesData(System::IO::DefaultWatcherData* data, ::Il2CppString* directory, bool dispatch, ::Array<::Il2CppString*>* files);
     // static private System.IO.FileData CreateFileData(System.String directory, System.String filename)
-    // Offset: 0x148E5E8
+    // Offset: 0x17A3020
     static System::IO::FileData* CreateFileData(::Il2CppString* directory, ::Il2CppString* filename);
     // static private System.Void .cctor()
-    // Offset: 0x148E6D8
+    // Offset: 0x17A3110
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x148BCD8
+    // Offset: 0x17A0710
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -98,12 +98,12 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<DefaultWatcher*, creationType>()));
     }
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x148BDC8
+    // Offset: 0x17A0800
     // Implemented from: System.IO.IFileWatcher
     // Base method: System.Void IFileWatcher::StartDispatching(System.IO.FileSystemWatcher fsw)
     void StartDispatching(System::IO::FileSystemWatcher* fsw);
     // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x148C664
+    // Offset: 0x17A109C
     // Implemented from: System.IO.IFileWatcher
     // Base method: System.Void IFileWatcher::StopDispatching(System.IO.FileSystemWatcher fsw)
     void StopDispatching(System::IO::FileSystemWatcher* fsw);

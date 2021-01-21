@@ -62,22 +62,22 @@ namespace UnityEngine::Events {
     // Creating value type constructor for type: InvokableCallList
     InvokableCallList(System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* m_PersistentCalls_ = {}, System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* m_RuntimeCalls_ = {}, System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* m_ExecutingCalls_ = {}, bool m_NeedsUpdate_ = {}) noexcept : m_PersistentCalls{m_PersistentCalls_}, m_RuntimeCalls{m_RuntimeCalls_}, m_ExecutingCalls{m_ExecutingCalls_}, m_NeedsUpdate{m_NeedsUpdate_} {}
     // public System.Void AddPersistentInvokableCall(UnityEngine.Events.BaseInvokableCall call)
-    // Offset: 0x16867D0
+    // Offset: 0x1A1E210
     void AddPersistentInvokableCall(UnityEngine::Events::BaseInvokableCall* call);
     // public System.Void AddListener(UnityEngine.Events.BaseInvokableCall call)
-    // Offset: 0x1686844
+    // Offset: 0x1A1E284
     void AddListener(UnityEngine::Events::BaseInvokableCall* call);
     // public System.Void RemoveListener(System.Object targetObj, System.Reflection.MethodInfo method)
-    // Offset: 0x16868B8
+    // Offset: 0x1A1E2F8
     void RemoveListener(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method);
     // public System.Void ClearPersistent()
-    // Offset: 0x1686A30
+    // Offset: 0x1A1E470
     void ClearPersistent();
     // public System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> PrepareInvoke()
-    // Offset: 0x1686A94
+    // Offset: 0x1A1E4D4
     System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke();
     // public System.Void .ctor()
-    // Offset: 0x1686B30
+    // Offset: 0x1A1E570
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

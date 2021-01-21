@@ -61,37 +61,37 @@ namespace Polyglot {
     // Creating value type constructor for type: LocalizationDocument
     LocalizationDocument(::Il2CppString* docsId_ = {}, ::Il2CppString* sheetId_ = {}, Polyglot::GoogleDriveDownloadFormat format_ = {}, UnityEngine::TextAsset* textAsset_ = {}, bool downloadOnStart_ = {}) noexcept : docsId{docsId_}, sheetId{sheetId_}, format{format_}, textAsset{textAsset_}, downloadOnStart{downloadOnStart_} {}
     // public UnityEngine.TextAsset get_TextAsset()
-    // Offset: 0x1985FE4
+    // Offset: 0x224B754
     UnityEngine::TextAsset* get_TextAsset();
     // public System.Void set_TextAsset(UnityEngine.TextAsset value)
-    // Offset: 0x1985FEC
+    // Offset: 0x224B75C
     void set_TextAsset(UnityEngine::TextAsset* value);
     // public System.String get_DocsId()
-    // Offset: 0x1985FF4
+    // Offset: 0x224B764
     ::Il2CppString* get_DocsId();
     // public System.Void set_DocsId(System.String value)
-    // Offset: 0x1985FFC
+    // Offset: 0x224B76C
     void set_DocsId(::Il2CppString* value);
     // public System.String get_SheetId()
-    // Offset: 0x1986004
+    // Offset: 0x224B774
     ::Il2CppString* get_SheetId();
     // public System.Void set_SheetId(System.String value)
-    // Offset: 0x198600C
+    // Offset: 0x224B77C
     void set_SheetId(::Il2CppString* value);
     // public Polyglot.GoogleDriveDownloadFormat get_Format()
-    // Offset: 0x1986014
+    // Offset: 0x224B784
     Polyglot::GoogleDriveDownloadFormat get_Format();
     // public System.Void set_Format(Polyglot.GoogleDriveDownloadFormat value)
-    // Offset: 0x198601C
+    // Offset: 0x224B78C
     void set_Format(Polyglot::GoogleDriveDownloadFormat value);
     // public System.Boolean get_DownloadOnStart()
-    // Offset: 0x1986024
+    // Offset: 0x224B794
     bool get_DownloadOnStart();
     // public System.Void set_DownloadOnStart(System.Boolean value)
-    // Offset: 0x198602C
+    // Offset: 0x224B79C
     void set_DownloadOnStart(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1986038
+    // Offset: 0x224B7A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

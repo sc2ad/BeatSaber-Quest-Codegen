@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     // Set static field: static public System.UInt64 Trigger
     static void _set_Trigger(uint64_t value);
     // public System.Void .ctor()
-    // Offset: 0x1103C94
+    // Offset: 0x128BAD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

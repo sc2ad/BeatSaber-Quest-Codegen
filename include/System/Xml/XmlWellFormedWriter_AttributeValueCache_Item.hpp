@@ -38,10 +38,10 @@ namespace System::Xml {
     // Creating value type constructor for type: Item
     Item(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type_ = {}, ::Il2CppObject* data_ = {}) noexcept : type{type_}, data{data_} {}
     // System.Void Set(System.Xml.XmlWellFormedWriter/AttributeValueCache/ItemType type, System.Object data)
-    // Offset: 0x19DA0A0
+    // Offset: 0x22A7BAC
     void Set(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type, ::Il2CppObject* data);
     // System.Void .ctor()
-    // Offset: 0x19DA098
+    // Offset: 0x22A7BA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

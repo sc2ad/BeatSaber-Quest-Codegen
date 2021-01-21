@@ -91,7 +91,7 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(ToggleWithCallbacks::SelectionState), 0 + sizeof(int)> __HMUI_ToggleWithCallbacks_SelectionStateSizeCheck;
     static_assert(sizeof(ToggleWithCallbacks::SelectionState) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDA8400
+    // [CompilerGeneratedAttribute] Offset: 0xD19FF8
     // private System.Action`1<HMUI.ToggleWithCallbacks/SelectionState> stateDidChangeEvent
     // Size: 0x8
     // Offset: 0x118
@@ -101,21 +101,21 @@ namespace HMUI {
     // Creating value type constructor for type: ToggleWithCallbacks
     ToggleWithCallbacks(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* stateDidChangeEvent_ = {}) noexcept : stateDidChangeEvent{stateDidChangeEvent_} {}
     // public System.Void add_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/SelectionState> value)
-    // Offset: 0x1086C60
+    // Offset: 0x11C2768
     void add_stateDidChangeEvent(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public System.Void remove_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/SelectionState> value)
-    // Offset: 0x1086F18
+    // Offset: 0x11C2A20
     void remove_stateDidChangeEvent(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public HMUI.ToggleWithCallbacks/SelectionState get_selectionState()
-    // Offset: 0x1086FC8
+    // Offset: 0x11C2AD0
     HMUI::ToggleWithCallbacks::SelectionState get_selectionState();
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
-    // Offset: 0x108D020
+    // Offset: 0x11C8B28
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);
     // public System.Void .ctor()
-    // Offset: 0x108D0AC
+    // Offset: 0x11C8BB4
     // Implemented from: UnityEngine.UI.Toggle
     // Base method: System.Void Toggle::.ctor()
     // Base method: System.Void Selectable::.ctor()

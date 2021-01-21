@@ -16,10 +16,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Creating value type constructor for type: AlertDescription
     AlertDescription() noexcept {}
     // static public System.String GetName(System.Byte alertDescription)
-    // Offset: 0x1055F40
+    // Offset: 0x1190A48
     static ::Il2CppString* GetName(uint8_t alertDescription);
     // static public System.String GetText(System.Byte alertDescription)
-    // Offset: 0x10561C0
+    // Offset: 0x1190CC8
     static ::Il2CppString* GetText(uint8_t alertDescription);
   }; // Org.BouncyCastle.Crypto.Tls.AlertDescription
   #pragma pack(pop)

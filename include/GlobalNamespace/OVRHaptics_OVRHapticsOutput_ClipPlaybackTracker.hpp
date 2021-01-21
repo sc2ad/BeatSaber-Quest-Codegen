@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD87518
+    // [CompilerGeneratedAttribute] Offset: 0xCF934C
     // private System.Int32 <ReadCount>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: ReadCount and: Clip
     char __padding0[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD87528
+    // [CompilerGeneratedAttribute] Offset: 0xCF935C
     // private OVRHapticsClip <Clip>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -45,19 +45,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ClipPlaybackTracker
     ClipPlaybackTracker(int ReadCount_ = {}, GlobalNamespace::OVRHapticsClip* Clip_ = {}) noexcept : ReadCount{ReadCount_}, Clip{Clip_} {}
     // public System.Int32 get_ReadCount()
-    // Offset: 0x11BA1B0
+    // Offset: 0x13A6020
     int get_ReadCount();
     // public System.Void set_ReadCount(System.Int32 value)
-    // Offset: 0x11BA1B8
+    // Offset: 0x13A6028
     void set_ReadCount(int value);
     // public OVRHapticsClip get_Clip()
-    // Offset: 0x11BA1C0
+    // Offset: 0x13A6030
     GlobalNamespace::OVRHapticsClip* get_Clip();
     // public System.Void set_Clip(OVRHapticsClip value)
-    // Offset: 0x11BA1C8
+    // Offset: 0x13A6038
     void set_Clip(GlobalNamespace::OVRHapticsClip* value);
     // public System.Void .ctor(OVRHapticsClip clip)
-    // Offset: 0x11B9F24
+    // Offset: 0x13A5D94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker* New_ctor(GlobalNamespace::OVRHapticsClip* clip) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::.ctor");

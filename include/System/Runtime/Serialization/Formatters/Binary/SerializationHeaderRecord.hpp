@@ -73,26 +73,26 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: SerializationHeaderRecord
     SerializationHeaderRecord(int binaryFormatterMajorVersion_ = {}, int binaryFormatterMinorVersion_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum_ = {}, int topId_ = {}, int headerId_ = {}, int majorVersion_ = {}, int minorVersion_ = {}) noexcept : binaryFormatterMajorVersion{binaryFormatterMajorVersion_}, binaryFormatterMinorVersion{binaryFormatterMinorVersion_}, binaryHeaderEnum{binaryHeaderEnum_}, topId{topId_}, headerId{headerId_}, majorVersion{majorVersion_}, minorVersion{minorVersion_} {}
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum, System.Int32 topId, System.Int32 headerId, System.Int32 majorVersion, System.Int32 minorVersion)
-    // Offset: 0x12FED58
+    // Offset: 0x154EAEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationHeaderRecord* New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int topId, int headerId, int majorVersion, int minorVersion) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationHeaderRecord*, creationType>(binaryHeaderEnum, topId, headerId, majorVersion, minorVersion)));
     }
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x12FEDB4
+    // Offset: 0x154EB48
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // static private System.Int32 GetInt32(System.Byte[] buffer, System.Int32 index)
-    // Offset: 0x12FEE68
+    // Offset: 0x154EBFC
     static int GetInt32(::Array<uint8_t>* buffer, int index);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x12FEEE8
+    // Offset: 0x154EC7C
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x12FF0C4
+    // Offset: 0x154EE58
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x12FED48
+    // Offset: 0x154EADC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

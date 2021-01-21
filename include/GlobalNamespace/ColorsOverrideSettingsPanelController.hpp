@@ -93,7 +93,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* editColorSchemeButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDCC6C0
+    // [SpaceAttribute] Offset: 0xD3E91C
     // private HMUI.PanelAnimationSO _presentPanelAnimation
     // Size: 0x8
     // Offset: 0x48
@@ -135,37 +135,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public ColorSchemesSettings get_colorSchemesSettings()
-    // Offset: 0x1A52674
+    // Offset: 0x1041F34
     GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
     // public System.Void SetData(ColorSchemesSettings colorSchemesSettings)
-    // Offset: 0x1A5267C
+    // Offset: 0x1041F3C
     void SetData(GlobalNamespace::ColorSchemesSettings* colorSchemesSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0x1A529DC
+    // Offset: 0x104229C
     void OnDestroy();
     // protected System.Void OnDisable()
-    // Offset: 0x1A52D14
+    // Offset: 0x10425D4
     void OnDisable();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0x1A52EBC
+    // Offset: 0x104277C
     void HandleDropDownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideColorsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x1A52F18
+    // Offset: 0x10427D8
     void HandleOverrideColorsToggleValueChanged(bool isOn);
     // private System.Void HandleEditColorSchemeButtonWasPressed()
-    // Offset: 0x1A5302C
+    // Offset: 0x10428EC
     void HandleEditColorSchemeButtonWasPressed();
     // private System.Void HandleEditColorSchemeControllerDidFinish()
-    // Offset: 0x1A530C0
+    // Offset: 0x1042980
     void HandleEditColorSchemeControllerDidFinish();
     // private System.Void HandleEditColorSchemeControllerDidChangeColorScheme(ColorScheme colorScheme)
-    // Offset: 0x1A5311C
+    // Offset: 0x10429DC
     void HandleEditColorSchemeControllerDidChangeColorScheme(GlobalNamespace::ColorScheme* colorScheme);
     // private System.Void <HandleOverrideColorsToggleValueChanged>b__18_0()
-    // Offset: 0x1A5313C
+    // Offset: 0x10429FC
     void $HandleOverrideColorsToggleValueChanged$b__18_0();
     // public System.Void Refresh()
-    // Offset: 0x1A52D38
+    // Offset: 0x10425F8
     // Implemented from: IRefreshable
     // Base method: System.Void IRefreshable::Refresh()
     void Refresh();
@@ -173,7 +173,7 @@ namespace GlobalNamespace {
     // Maps to method: Refresh
     void GlobalNamespace_IRefreshable_Refresh();
     // public System.Void .ctor()
-    // Offset: 0x1A53134
+    // Offset: 0x10429F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

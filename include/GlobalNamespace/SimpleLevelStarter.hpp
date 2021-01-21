@@ -91,42 +91,42 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTestNoteCutSoundEffects and: recordingTextAsset
     char __padding3[0x3] = {};
-    // [NullAllowed] Offset: 0xDD3338
+    // [NullAllowed] Offset: 0xD456E4
     // private UnityEngine.TextAsset _recordingTextAsset
     // Size: 0x8
     // Offset: 0x30
     UnityEngine::TextAsset* recordingTextAsset;
     // Field size check
     static_assert(sizeof(UnityEngine::TextAsset*) == 0x8);
-    // [NullAllowed] Offset: 0xDD3370
+    // [NullAllowed] Offset: 0xD4571C
     // private UnityEngine.Component[] _prefabBindings
     // Size: 0x8
     // Offset: 0x38
     ::Array<UnityEngine::Component*>* prefabBindings;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Component*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDD33A8
+    // [SpaceAttribute] Offset: 0xD45754
     // private UnityEngine.UI.Button _button
     // Size: 0x8
     // Offset: 0x40
     UnityEngine::UI::Button* button;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD33E0
+    // [InjectAttribute] Offset: 0xD4578C
     // private readonly MenuTransitionsHelper _menuTransitionsHelper
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuTransitionsHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD33F0
+    // [InjectAttribute] Offset: 0xD4579C
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD3400
+    // [InjectAttribute] Offset: 0xD457AC
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x58
@@ -150,28 +150,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xFCEE5C
+    // Offset: 0xF6C248
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xFCEF20
+    // Offset: 0xF6C30C
     void OnDestroy();
     // private System.Void StartLevel()
-    // Offset: 0xFCEF3C
+    // Offset: 0xF6C328
     void StartLevel();
     // private System.Void InstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0xFCF10C
+    // Offset: 0xF6C4F8
     void InstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void ButtonPressed()
-    // Offset: 0xFCF258
+    // Offset: 0xF6C644
     void ButtonPressed();
     // private System.Void HandleLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelSceneSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xFCF25C
+    // Offset: 0xF6C648
     void HandleLevelDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void <StartLevel>g__AfterSceneSwitchCallback|14_0(Zenject.DiContainer container)
-    // Offset: 0xFCF354
+    // Offset: 0xF6C740
     void $StartLevel$g__AfterSceneSwitchCallback_14_0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xFCF280
+    // Offset: 0xF6C66C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

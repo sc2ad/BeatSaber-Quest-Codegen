@@ -45,14 +45,14 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::WingedEdge*>*>(this);
     }
     // public System.Void .ctor(UnityEngine.ProBuilder.WingedEdge start)
-    // Offset: 0x194ABB4
+    // Offset: 0x21D02A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WingedEdgeEnumerator* New_ctor(UnityEngine::ProBuilder::WingedEdge* start) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::WingedEdgeEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WingedEdgeEnumerator*, creationType>(start)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x194AED8
+    // Offset: 0x21D05CC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -60,7 +60,7 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1957124
+    // Offset: 0x21DC818
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -68,7 +68,7 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public UnityEngine.ProBuilder.WingedEdge get_Current()
-    // Offset: 0x194ABF8
+    // Offset: 0x21D02EC
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     UnityEngine::ProBuilder::WingedEdge* get_Current();
@@ -76,12 +76,12 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: get_Current
     UnityEngine::ProBuilder::WingedEdge* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1957130
+    // Offset: 0x21DC824
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void Dispose()
-    // Offset: 0x1957174
+    // Offset: 0x21DC868
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

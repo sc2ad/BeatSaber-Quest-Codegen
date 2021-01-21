@@ -38,14 +38,14 @@ namespace UnityEngine {
       return m_ParticleSystem;
     }
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0xCB8D9C
+    // Offset: 0xE3154C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ForceOverLifetimeModule(UnityEngine::ParticleSystem* particleSystem)
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0xCB8DA4
+    // Offset: 0xE31554
     void set_enabled(bool value);
     // static private System.Void set_enabled_Injected(ref UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, System.Boolean value)
-    // Offset: 0x19FFBAC
+    // Offset: 0x22D2C60
     static void set_enabled_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, bool value);
   }; // UnityEngine.ParticleSystem/ForceOverLifetimeModule
   #pragma pack(pop)

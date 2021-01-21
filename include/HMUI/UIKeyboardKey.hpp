@@ -53,16 +53,16 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.KeyCode get_keyCode()
-    // Offset: 0x197FBF0
+    // Offset: 0x2244360
     UnityEngine::KeyCode get_keyCode();
     // protected System.Void Awake()
-    // Offset: 0x197FBF8
+    // Offset: 0x2244368
     void Awake();
     // protected System.Void OnValidate()
-    // Offset: 0x197FCBC
+    // Offset: 0x224442C
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x197FDB8
+    // Offset: 0x2244528
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

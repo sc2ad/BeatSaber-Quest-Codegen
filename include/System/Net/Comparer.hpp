@@ -26,12 +26,12 @@ namespace System::Net {
       return *reinterpret_cast<System::Collections::IComparer*>(this);
     }
     // private System.Int32 System.Collections.IComparer.Compare(System.Object ol, System.Object or)
-    // Offset: 0x130C7E8
+    // Offset: 0x155B57C
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object ol, System.Object or)
     int System_Collections_IComparer_Compare(::Il2CppObject* ol, ::Il2CppObject* _or);
     // public System.Void .ctor()
-    // Offset: 0x130C8CC
+    // Offset: 0x155B660
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -36,14 +36,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static public readonly System.Int32 KeySize
     static void _set_KeySize(int value);
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x104A488
+    // Offset: 0x1184F90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X448PublicKeyParameters* New_ctor(::Array<uint8_t>* buf, int off) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X448PublicKeyParameters*, creationType>(buf, off)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x104A560
+    // Offset: 0x1185068
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Parameters.X448PublicKeyParameters
   #pragma pack(pop)

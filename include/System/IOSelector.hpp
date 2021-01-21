@@ -25,7 +25,7 @@ namespace System {
     // Creating value type constructor for type: IOSelector
     IOSelector() noexcept {}
     // static public System.Void Add(System.IntPtr handle, System.IOSelectorJob job)
-    // Offset: 0x1490E54
+    // Offset: 0x17A588C
     static void Add(System::IntPtr handle, System::IOSelectorJob* job);
   }; // System.IOSelector
   #pragma pack(pop)

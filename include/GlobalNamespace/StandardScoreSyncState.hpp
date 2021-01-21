@@ -90,20 +90,20 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kIntSize
     static void _set_kIntSize(int value);
     // public System.Boolean Equals(ref StandardScoreSyncState other)
-    // Offset: 0xC92568
+    // Offset: 0xDF2AEC
     bool Equals(GlobalNamespace::StandardScoreSyncState& other);
     // public System.Void SetState(StandardScoreSyncState/Score s, System.Int32 value)
-    // Offset: 0xC924C0
+    // Offset: 0xDF2A44
     // Implemented from: IStateTable`2
     // Base method: System.Void IStateTable_2::SetState(StandardScoreSyncState/Score s, System.Int32 value)
     void SetState(GlobalNamespace::StandardScoreSyncState_Score s, int value);
     // public System.Int32 GetState(StandardScoreSyncState/Score s)
-    // Offset: 0xC92508
+    // Offset: 0xDF2A8C
     // Implemented from: IStateTable`2
     // Base method: TState IStateTable_2::GetState(StandardScoreSyncState/Score s)
     int GetState(GlobalNamespace::StandardScoreSyncState_Score s);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xC92558
+    // Offset: 0xDF2ADC
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xC92560
+    // Offset: 0xDF2AE4
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);

@@ -16,10 +16,10 @@ namespace System {
     // Creating value type constructor for type: UncNameHelper
     UncNameHelper() noexcept {}
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Int32 end, ref System.Boolean loopback)
-    // Offset: 0x15512D8
+    // Offset: 0x18BF908
     static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, int end, bool& loopback);
     // static System.Boolean IsValid(System.Char* name, System.UInt16 start, ref System.Int32 returnedEnd, System.Boolean notImplicitFile)
-    // Offset: 0x15512E0
+    // Offset: 0x18BF910
     static bool IsValid(::Il2CppChar* name, uint16_t start, int& returnedEnd, bool notImplicitFile);
   }; // System.UncNameHelper
   #pragma pack(pop)

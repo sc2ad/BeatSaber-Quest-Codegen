@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cellHeight and: didSelectRow
     char __padding2[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDCD5A4
+    // [CompilerGeneratedAttribute] Offset: 0xD3F800
     // private System.Action`2<FileBrowserTableView,FileBrowserItem> didSelectRow
     // Size: 0x8
     // Offset: 0x30
@@ -92,46 +92,46 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::Il2CppString* value);
     // public System.Void add_didSelectRow(System.Action`2<FileBrowserTableView,FileBrowserItem> value)
-    // Offset: 0x1A10EFC
+    // Offset: 0xF2AD90
     void add_didSelectRow(System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>* value);
     // public System.Void remove_didSelectRow(System.Action`2<FileBrowserTableView,FileBrowserItem> value)
-    // Offset: 0x1A10FA0
+    // Offset: 0xF2AE34
     void remove_didSelectRow(System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>* value);
     // public System.Void Init(FileBrowserItem[] items)
-    // Offset: 0x1A11044
+    // Offset: 0xF2AED8
     void Init(::Array<GlobalNamespace::FileBrowserItem*>* items);
     // public System.Void SetItems(FileBrowserItem[] items)
-    // Offset: 0x1A11160
+    // Offset: 0xF2AFF4
     void SetItems(::Array<GlobalNamespace::FileBrowserItem*>* items);
     // public System.Boolean SelectAndScrollRowToItemWithPath(System.String folderPath)
-    // Offset: 0x1A111BC
+    // Offset: 0xF2B050
     bool SelectAndScrollRowToItemWithPath(::Il2CppString* folderPath);
     // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x1A11444
+    // Offset: 0xF2B2D8
     void HandleDidSelectRowEvent(HMUI::TableView* tableView, int row);
     // public System.Void SelectAndScrollRow(System.Int32 row)
-    // Offset: 0x1A1125C
+    // Offset: 0xF2B0F0
     void SelectAndScrollRow(int row);
     // public System.Void ClearSelection(System.Boolean animated, System.Boolean scrollToRow0)
-    // Offset: 0x1A114E4
+    // Offset: 0xF2B378
     void ClearSelection(bool animated, bool scrollToRow0);
     // public System.Single CellSize()
-    // Offset: 0x1A112AC
+    // Offset: 0xF2B140
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Single IDataSource::CellSize()
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1A112B4
+    // Offset: 0xF2B148
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x1A112CC
+    // Offset: 0xF2B160
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 row)
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);
     // public System.Void .ctor()
-    // Offset: 0x1A11550
+    // Offset: 0xF2B3E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -77,44 +77,44 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       return *reinterpret_cast<UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>(this);
     }
     // public System.Void .ctor(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.PolygonPoint> points)
-    // Offset: 0x19B13A0
+    // Offset: 0x2279BF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Polygon* New_ctor(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::Polygon::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Polygon*, creationType>(points)));
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Poly2Tri.PolygonPoint> points)
-    // Offset: 0x19B1748
+    // Offset: 0x2279F9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Polygon* New_ctor(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::Polygon::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Polygon*, creationType>(points)));
     }
     // public System.Void AddHole(UnityEngine.ProBuilder.Poly2Tri.Polygon poly)
-    // Offset: 0x19B17DC
+    // Offset: 0x227A030
     void AddHole(UnityEngine::ProBuilder::Poly2Tri::Polygon* poly);
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationMode get_TriangulationMode()
-    // Offset: 0x19B17D4
+    // Offset: 0x227A028
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.Triangulatable
     // Base method: UnityEngine.ProBuilder.Poly2Tri.TriangulationMode Triangulatable::get_TriangulationMode()
     UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
     // public System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> get_Triangles()
-    // Offset: 0x19B1880
+    // Offset: 0x227A0D4
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.Triangulatable
     // Base method: System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> Triangulatable::get_Triangles()
     System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* get_Triangles();
     // public System.Void AddTriangle(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle t)
-    // Offset: 0x19B1888
+    // Offset: 0x227A0DC
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.Triangulatable
     // Base method: System.Void Triangulatable::AddTriangle(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle t)
     void AddTriangle(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
     // public System.Void AddTriangles(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> list)
-    // Offset: 0x19B18F0
+    // Offset: 0x227A144
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.Triangulatable
     // Base method: System.Void Triangulatable::AddTriangles(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> list)
     void AddTriangles(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* list);
     // public System.Void Prepare(UnityEngine.ProBuilder.Poly2Tri.TriangulationContext tcx)
-    // Offset: 0x19B1958
+    // Offset: 0x227A1AC
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.Triangulatable
     // Base method: System.Void Triangulatable::Prepare(UnityEngine.ProBuilder.Poly2Tri.TriangulationContext tcx)
     void Prepare(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);

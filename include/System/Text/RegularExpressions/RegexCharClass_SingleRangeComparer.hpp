@@ -28,12 +28,12 @@ namespace System::Text::RegularExpressions {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>*>(this);
     }
     // public System.Int32 Compare(System.Text.RegularExpressions.RegexCharClass/SingleRange x, System.Text.RegularExpressions.RegexCharClass/SingleRange y)
-    // Offset: 0x1544B80
+    // Offset: 0x18B31B0
     // Implemented from: System.Collections.Generic.IComparer`1
     // Base method: System.Int32 IComparer_1::Compare(System.Text.RegularExpressions.RegexCharClass/SingleRange x, System.Text.RegularExpressions.RegexCharClass/SingleRange y)
     int Compare(System::Text::RegularExpressions::RegexCharClass::SingleRange* x, System::Text::RegularExpressions::RegexCharClass::SingleRange* y);
     // public System.Void .ctor()
-    // Offset: 0x1544BBC
+    // Offset: 0x18B31EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

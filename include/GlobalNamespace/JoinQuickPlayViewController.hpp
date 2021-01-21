@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* cancelJoinButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDD0CF0
+    // [CompilerGeneratedAttribute] Offset: 0xD42FEC
     // private System.Action`1<System.Boolean> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
@@ -81,33 +81,33 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: JoinQuickPlayViewController
     JoinQuickPlayViewController(GlobalNamespace::BeatmapDifficultyDropdown* beatmapDifficultyDropdown_ = {}, GlobalNamespace::SongPacksDropdown* songPacksDropdown_ = {}, UnityEngine::UI::Button* joinButton_ = {}, UnityEngine::UI::Button* cancelJoinButton_ = {}, System::Action_1<bool>* didFinishEvent_ = {}, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings_ = {}) noexcept : beatmapDifficultyDropdown{beatmapDifficultyDropdown_}, songPacksDropdown{songPacksDropdown_}, joinButton{joinButton_}, cancelJoinButton{cancelJoinButton_}, didFinishEvent{didFinishEvent_}, multiplayerModeSettings{multiplayerModeSettings_} {}
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xF1C944
+    // Offset: 0xFD39B0
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xF1C9E8
+    // Offset: 0xFD3A54
     void remove_didFinishEvent(System::Action_1<bool>* value);
     // public MultiplayerModeSettings get_multiplayerModeSettings()
-    // Offset: 0xF1CA8C
+    // Offset: 0xFD3AF8
     GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // public System.Void Setup(MultiplayerModeSettings multiplayerModeSettings)
-    // Offset: 0xF1CA94
+    // Offset: 0xFD3B00
     void Setup(GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
     // private System.Void ButtonPressed(System.Boolean success)
-    // Offset: 0xF1CC14
+    // Offset: 0xFD3C80
     void ButtonPressed(bool success);
     // private System.Void <DidActivate>b__11_0()
-    // Offset: 0xF1CCCC
+    // Offset: 0xFD3D38
     void $DidActivate$b__11_0();
     // private System.Void <DidActivate>b__11_1()
-    // Offset: 0xF1CCD4
+    // Offset: 0xFD3D40
     void $DidActivate$b__11_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF1CAF8
+    // Offset: 0xFD3B64
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF1CCC4
+    // Offset: 0xFD3D30
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

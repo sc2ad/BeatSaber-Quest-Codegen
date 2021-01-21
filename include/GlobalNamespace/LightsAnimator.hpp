@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::DirectionalLight*>* directionalLights;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::DirectionalLight*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC9018
+    // [InjectAttribute] Offset: 0xD3B214
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -72,25 +72,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1AC7F9C
+    // Offset: 0x10E50D4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1AC80C8
+    // Offset: 0x10E5200
     void OnDestroy();
     // public System.Void AnimateToColor(UnityEngine.Color color, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x1AC8160
+    // Offset: 0x10E5298
     void AnimateToColor(UnityEngine::Color color, float duration, Tweening::EaseType easeType);
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1AC8270
+    // Offset: 0x10E53A8
     void SetColor(UnityEngine::Color color);
     // private System.Void SetLightsColor(UnityEngine.Color color)
-    // Offset: 0x1AC82D4
+    // Offset: 0x10E540C
     void SetLightsColor(UnityEngine::Color color);
     // public System.Void SetLightsWidth(System.Single width)
-    // Offset: 0x1AC83DC
+    // Offset: 0x10E5514
     void SetLightsWidth(float width);
     // public System.Void .ctor()
-    // Offset: 0x1AC8458
+    // Offset: 0x10E5590
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

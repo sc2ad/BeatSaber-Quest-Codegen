@@ -26,19 +26,19 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: ScoreFormatter
     ScoreFormatter() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDC2D64
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD34C38
     // Get static field: static private readonly System.Globalization.NumberFormatInfo _numberFormatInfo
     static System::Globalization::NumberFormatInfo* _get__numberFormatInfo();
     // Set static field: static private readonly System.Globalization.NumberFormatInfo _numberFormatInfo
     static void _set__numberFormatInfo(System::Globalization::NumberFormatInfo* value);
     // static private System.Void .cctor()
-    // Offset: 0xFC80F0
+    // Offset: 0x108DC90
     static void _cctor();
     // static public System.String Format(System.Int32 score)
-    // Offset: 0xFC81E0
+    // Offset: 0x107E504
     static ::Il2CppString* Format(int score);
     // public System.Void .ctor()
-    // Offset: 0xFC8264
+    // Offset: 0x108DD80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

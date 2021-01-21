@@ -61,19 +61,19 @@ namespace Mono::Net {
       return *reinterpret_cast<System::Net::IWebProxy*>(this);
     }
     // static private System.Uri GetProxyUri(Mono.Net.CFProxy proxy, out System.Net.NetworkCredential credentials)
-    // Offset: 0x12620D0
+    // Offset: 0x149F130
     static System::Uri* GetProxyUri(Mono::Net::CFProxy* proxy, System::Net::NetworkCredential*& credentials);
     // static private System.Uri GetProxyUriFromScript(System.IntPtr script, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x126265C
+    // Offset: 0x149F6BC
     static System::Uri* GetProxyUriFromScript(System::IntPtr script, System::Uri* targetUri, System::Net::NetworkCredential*& credentials);
     // static private System.Uri ExecuteProxyAutoConfigurationURL(System.IntPtr proxyAutoConfigURL, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x12627C8
+    // Offset: 0x149F828
     static System::Uri* ExecuteProxyAutoConfigurationURL(System::IntPtr proxyAutoConfigURL, System::Uri* targetUri, System::Net::NetworkCredential*& credentials);
     // static private System.Uri SelectProxy(Mono.Net.CFProxy[] proxies, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x12626E0
+    // Offset: 0x149F740
     static System::Uri* SelectProxy(::Array<Mono::Net::CFProxy*>* proxies, System::Uri* targetUri, System::Net::NetworkCredential*& credentials);
     // public System.Void .ctor()
-    // Offset: 0x1261B18
+    // Offset: 0x149EB78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -82,17 +82,17 @@ namespace Mono::Net {
       return THROW_UNLESS((::il2cpp_utils::New<CFNetwork::CFWebProxy*, creationType>()));
     }
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x12620C8
+    // Offset: 0x149F128
     // Implemented from: System.Net.IWebProxy
     // Base method: System.Net.ICredentials IWebProxy::get_Credentials()
     System::Net::ICredentials* get_Credentials();
     // public System.Uri GetProxy(System.Uri targetUri)
-    // Offset: 0x126284C
+    // Offset: 0x149F8AC
     // Implemented from: System.Net.IWebProxy
     // Base method: System.Uri IWebProxy::GetProxy(System.Uri targetUri)
     System::Uri* GetProxy(System::Uri* targetUri);
     // public System.Boolean IsBypassed(System.Uri targetUri)
-    // Offset: 0x1262D18
+    // Offset: 0x149FD78
     // Implemented from: System.Net.IWebProxy
     // Base method: System.Boolean IWebProxy::IsBypassed(System.Uri targetUri)
     bool IsBypassed(System::Uri* targetUri);

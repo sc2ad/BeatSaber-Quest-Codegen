@@ -127,7 +127,7 @@ namespace TMPro {
     // Set static field: static private readonly UnityEngine.Bounds s_DefaultBounds
     static void _set_s_DefaultBounds(UnityEngine::Bounds value);
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 size)
-    // Offset: 0xC92E24
+    // Offset: 0xDF3794
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TMP_MeshInfo(UnityEngine::Mesh* mesh, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_MeshInfo::.ctor");
@@ -135,7 +135,7 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, mesh, size);
     }
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 size, System.Boolean isVolumetric)
-    // Offset: 0xC92E2C
+    // Offset: 0xDF379C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TMP_MeshInfo(UnityEngine::Mesh* mesh, int size, bool isVolumetric) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_MeshInfo::.ctor");
@@ -143,37 +143,37 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, mesh, size, isVolumetric);
     }
     // public System.Void ResizeMeshInfo(System.Int32 size)
-    // Offset: 0xC92E38
+    // Offset: 0xDF37A8
     void ResizeMeshInfo(int size);
     // public System.Void ResizeMeshInfo(System.Int32 size, System.Boolean isVolumetric)
-    // Offset: 0xC92E40
+    // Offset: 0xDF37B0
     void ResizeMeshInfo(int size, bool isVolumetric);
     // public System.Void Clear()
-    // Offset: 0xC92E4C
+    // Offset: 0xDF37BC
     void Clear();
     // public System.Void Clear(System.Boolean uploadChanges)
-    // Offset: 0xC92E54
+    // Offset: 0xDF37C4
     void Clear(bool uploadChanges);
     // public System.Void ClearUnusedVertices()
-    // Offset: 0xC92E60
+    // Offset: 0xDF37D0
     void ClearUnusedVertices();
     // public System.Void ClearUnusedVertices(System.Int32 startIndex)
-    // Offset: 0xC92E68
+    // Offset: 0xDF37D8
     void ClearUnusedVertices(int startIndex);
     // public System.Void ClearUnusedVertices(System.Int32 startIndex, System.Boolean updateMesh)
-    // Offset: 0xC92E70
+    // Offset: 0xDF37E0
     void ClearUnusedVertices(int startIndex, bool updateMesh);
     // public System.Void SortGeometry(TMPro.VertexSortingOrder order)
-    // Offset: 0xC92E7C
+    // Offset: 0xDF37EC
     void SortGeometry(TMPro::VertexSortingOrder order);
     // public System.Void SortGeometry(System.Collections.Generic.IList`1<System.Int32> sortingOrder)
-    // Offset: 0xC92E84
+    // Offset: 0xDF37F4
     void SortGeometry(System::Collections::Generic::IList_1<int>* sortingOrder);
     // public System.Void SwapVertexData(System.Int32 src, System.Int32 dst)
-    // Offset: 0xC92E8C
+    // Offset: 0xDF37FC
     void SwapVertexData(int src, int dst);
     // static private System.Void .cctor()
-    // Offset: 0xF88F08
+    // Offset: 0xFF7D40
     static void _cctor();
   }; // TMPro.TMP_MeshInfo
   #pragma pack(pop)

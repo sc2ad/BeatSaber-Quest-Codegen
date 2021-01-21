@@ -41,10 +41,10 @@ namespace NUnit::Framework::Constraints {
       return stack;
     }
     // public System.Boolean get_Empty()
-    // Offset: 0x13DC858
+    // Offset: 0x1699378
     bool get_Empty();
     // public NUnit.Framework.Constraints.ConstraintOperator Pop()
-    // Offset: 0x13DC800
+    // Offset: 0x1699320
     NUnit::Framework::Constraints::ConstraintOperator* Pop();
   }; // NUnit.Framework.Constraints.ConstraintBuilder/OperatorStack
   #pragma pack(pop)

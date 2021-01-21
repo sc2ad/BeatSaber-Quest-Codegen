@@ -30,22 +30,22 @@ namespace Mono {
     // Creating value type constructor for type: RuntimeMarshal
     RuntimeMarshal() noexcept {}
     // static System.String PtrToUtf8String(System.IntPtr ptr)
-    // Offset: 0x15272B0
+    // Offset: 0x18948E0
     static ::Il2CppString* PtrToUtf8String(System::IntPtr ptr);
     // static Mono.SafeStringMarshal MarshalString(System.String str)
-    // Offset: 0x1527380
+    // Offset: 0x18949B0
     static Mono::SafeStringMarshal MarshalString(::Il2CppString* str);
     // static private System.Int32 DecodeBlobSize(System.IntPtr in_ptr, out System.IntPtr out_ptr)
-    // Offset: 0x152740C
+    // Offset: 0x1894A3C
     static int DecodeBlobSize(System::IntPtr in_ptr, System::IntPtr& out_ptr);
     // static System.Byte[] DecodeBlobArray(System.IntPtr ptr)
-    // Offset: 0x1527490
+    // Offset: 0x1894AC0
     static ::Array<uint8_t>* DecodeBlobArray(System::IntPtr ptr);
     // static System.Int32 AsciHexDigitValue(System.Int32 c)
-    // Offset: 0x152754C
+    // Offset: 0x1894B7C
     static int AsciHexDigitValue(int c);
     // static System.Void FreeAssemblyName(ref Mono.MonoAssemblyName name, System.Boolean freeStruct)
-    // Offset: 0x1527578
+    // Offset: 0x1894BA8
     static void FreeAssemblyName(Mono::MonoAssemblyName& name, bool freeStruct);
   }; // Mono.RuntimeMarshal
   #pragma pack(pop)

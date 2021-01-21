@@ -37,42 +37,42 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class SceneStartSyncController : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xDC471C
+    // [InjectAttribute] Offset: 0xD365F0
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC472C
+    // [InjectAttribute] Offset: 0xD36600
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC473C
+    // [InjectAttribute] Offset: 0xD36610
     // private readonly PlayersAtGameStartModel _playersAtGameStartModel
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::PlayersAtGameStartModel* playersAtGameStartModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayersAtGameStartModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC474C
+    // [CompilerGeneratedAttribute] Offset: 0xD36620
     // private System.Action syncStartDidSuccessEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action* syncStartDidSuccessEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC475C
+    // [CompilerGeneratedAttribute] Offset: 0xD36630
     // private System.Action syncStartDidReceiveTooLateEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action* syncStartDidReceiveTooLateEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC476C
+    // [CompilerGeneratedAttribute] Offset: 0xD36640
     // private System.Action syncStartDidFailEvent
     // Size: 0x8
     // Offset: 0x40
@@ -108,40 +108,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kLoadSelfTimeout
     static void _set_kLoadSelfTimeout(float value);
     // public System.Void add_syncStartDidSuccessEvent(System.Action value)
-    // Offset: 0xFC5F38
+    // Offset: 0x108BBEC
     void add_syncStartDidSuccessEvent(System::Action* value);
     // public System.Void remove_syncStartDidSuccessEvent(System.Action value)
-    // Offset: 0xFC5FDC
+    // Offset: 0x108BC90
     void remove_syncStartDidSuccessEvent(System::Action* value);
     // public System.Void add_syncStartDidReceiveTooLateEvent(System.Action value)
-    // Offset: 0xFC6080
+    // Offset: 0x108BD34
     void add_syncStartDidReceiveTooLateEvent(System::Action* value);
     // public System.Void remove_syncStartDidReceiveTooLateEvent(System.Action value)
-    // Offset: 0xFC6124
+    // Offset: 0x108BDD8
     void remove_syncStartDidReceiveTooLateEvent(System::Action* value);
     // public System.Void add_syncStartDidFailEvent(System.Action value)
-    // Offset: 0xFC61C8
+    // Offset: 0x108BE7C
     void add_syncStartDidFailEvent(System::Action* value);
     // public System.Void remove_syncStartDidFailEvent(System.Action value)
-    // Offset: 0xFC626C
+    // Offset: 0x108BF20
     void remove_syncStartDidFailEvent(System::Action* value);
     // public System.Void StartSceneLoadSync()
-    // Offset: 0xFC6310
+    // Offset: 0x108BFC4
     void StartSceneLoadSync();
     // protected System.Void Update()
-    // Offset: 0xFC6440
+    // Offset: 0x108C0F4
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0xFC65F8
+    // Offset: 0x108C2AC
     void OnDestroy();
     // private System.Void HandleSceneSetupDidFinish()
-    // Offset: 0xFC66E0
+    // Offset: 0x108C394
     void HandleSceneSetupDidFinish();
     // private System.Void HandleSceneSetupDidReceiveTooLate()
-    // Offset: 0xFC6720
+    // Offset: 0x108C3D4
     void HandleSceneSetupDidReceiveTooLate();
     // public System.Void .ctor()
-    // Offset: 0xFC6760
+    // Offset: 0x108C414
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

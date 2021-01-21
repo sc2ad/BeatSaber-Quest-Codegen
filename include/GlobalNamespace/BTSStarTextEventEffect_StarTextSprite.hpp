@@ -49,16 +49,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StarTextSprite
     StarTextSprite(int id_ = {}, UnityEngine::Sprite* starTextSprite_ = {}, float animationLength_ = {}) noexcept : id{id_}, starTextSprite{starTextSprite_}, animationLength{animationLength_} {}
     // public System.Int32 get_id()
-    // Offset: 0x1A4CA80
+    // Offset: 0x103B51C
     int get_id();
     // public UnityEngine.Sprite get_starTextSprite()
-    // Offset: 0x1A4CA88
+    // Offset: 0x103B524
     UnityEngine::Sprite* get_starTextSprite();
     // public System.Single get_animationLength()
-    // Offset: 0x1A4CA90
+    // Offset: 0x103B52C
     float get_animationLength();
     // public System.Void .ctor()
-    // Offset: 0x1A4CA98
+    // Offset: 0x103B534
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

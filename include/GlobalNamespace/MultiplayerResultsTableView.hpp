@@ -107,7 +107,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerResultsTableCell* cellPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsTableCell*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDD2244
+    // [SpaceAttribute] Offset: 0xD44550
     // private System.Single _startRowXPosition
     // Size: 0x4
     // Offset: 0x38
@@ -158,7 +158,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*) == 0x8);
-    // [HeaderAttribute] Offset: 0xDD22EC
+    // [HeaderAttribute] Offset: 0xD445F8
     // private UnityEngine.AudioSource _outroSfxAudioSource
     // Size: 0x8
     // Offset: 0x60
@@ -177,21 +177,21 @@ namespace GlobalNamespace {
     UnityEngine::AudioClip* avatarSlideAudioClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD2358
+    // [InjectAttribute] Offset: 0xD44664
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x78
     Tweening::TweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD2368
+    // [InjectAttribute] Offset: 0xD44674
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x80
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD2378
+    // [InjectAttribute] Offset: 0xD44684
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x88
@@ -243,49 +243,49 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::Il2CppString* value);
     // protected System.Void Awake()
-    // Offset: 0xF7DF24
+    // Offset: 0xFEFF98
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xF7DF84
+    // Offset: 0xFEFFF8
     void OnDestroy();
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerResultsTableView/Data> dataList)
-    // Offset: 0xF7A1E8
+    // Offset: 0xFEC8A4
     void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerResultsTableView::Data*>* dataList);
     // public System.Single StartAnimation()
-    // Offset: 0xF7A618
+    // Offset: 0xFECB5C
     float StartAnimation();
     // private System.Collections.IEnumerator PlayRandomRowSlideInSound(System.Single delay)
-    // Offset: 0xF7E478
+    // Offset: 0xFF04DC
     System::Collections::IEnumerator* PlayRandomRowSlideInSound(float delay);
     // private System.Collections.IEnumerator PlayAvatarSlideInSound(System.Single delay)
-    // Offset: 0xF7E530
+    // Offset: 0xFF0568
     System::Collections::IEnumerator* PlayAvatarSlideInSound(float delay);
     // private System.Void <StartAnimation>b__31_1()
-    // Offset: 0xF7E604
+    // Offset: 0xFF0610
     void $StartAnimation$b__31_1();
     // private System.Void <StartAnimation>b__31_4()
-    // Offset: 0xF7E638
+    // Offset: 0xFF0644
     void $StartAnimation$b__31_4();
     // private System.Void <StartAnimation>b__31_5(System.Single val)
-    // Offset: 0xF7E66C
+    // Offset: 0xFF0678
     void $StartAnimation$b__31_5(float val);
     // public System.Single CellSize()
-    // Offset: 0xF7DEAC
+    // Offset: 0xFEFF20
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Single IDataSource::CellSize()
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0xF7DEB4
+    // Offset: 0xFEFF28
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0xF7E01C
+    // Offset: 0xFF0090
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 idx)
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0xF7E5E8
+    // Offset: 0xFF05F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -16,10 +16,10 @@ namespace System::IO {
     // Creating value type constructor for type: PathInternal
     PathInternal() noexcept {}
     // static public System.Boolean IsPartiallyQualified(System.String path)
-    // Offset: 0x13A502C
+    // Offset: 0x1646058
     static bool IsPartiallyQualified(::Il2CppString* path);
     // static public System.Boolean HasIllegalCharacters(System.String path, System.Boolean checkAdditional)
-    // Offset: 0x13A4CF0
+    // Offset: 0x1645D1C
     static bool HasIllegalCharacters(::Il2CppString* path, bool checkAdditional);
   }; // System.IO.PathInternal
   #pragma pack(pop)

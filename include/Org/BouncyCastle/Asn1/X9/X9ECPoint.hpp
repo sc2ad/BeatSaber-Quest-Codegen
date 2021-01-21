@@ -56,31 +56,31 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Creating value type constructor for type: X9ECPoint
     X9ECPoint(Org::BouncyCastle::Asn1::Asn1OctetString* encoding_ = {}, Org::BouncyCastle::Math::EC::ECCurve* c_ = {}, Org::BouncyCastle::Math::EC::ECPoint* p_ = {}) noexcept : encoding{encoding_}, c{c_}, p{p_} {}
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint p, System.Boolean compressed)
-    // Offset: 0x158B5F4
+    // Offset: 0x190C178
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* p, bool compressed) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9ECPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECPoint*, creationType>(p, compressed)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve c, System.Byte[] encoding)
-    // Offset: 0x1585A0C
+    // Offset: 0x1906590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* c, ::Array<uint8_t>* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9ECPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECPoint*, creationType>(c, encoding)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve c, Org.BouncyCastle.Asn1.Asn1OctetString s)
-    // Offset: 0x158ADA0
+    // Offset: 0x190B924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* c, Org::BouncyCastle::Asn1::Asn1OctetString* s) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9ECPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECPoint*, creationType>(c, s)));
     }
     // public Org.BouncyCastle.Math.EC.ECPoint get_Point()
-    // Offset: 0x1585AD8
+    // Offset: 0x190665C
     Org::BouncyCastle::Math::EC::ECPoint* get_Point();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x158B6C8
+    // Offset: 0x190C24C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     float endDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xDCA2A4
+    // [SpaceAttribute] Offset: 0xD3C4A0
     // private MultiplayerScoreRingManager _multiplayerScoreRingManager
     // Size: 0x8
     // Offset: 0x20
@@ -92,21 +92,21 @@ namespace GlobalNamespace {
     UnityEngine::AudioSource* outroSfxAudioSource;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
-    // [HeaderAttribute] Offset: 0xDCA2FC
+    // [HeaderAttribute] Offset: 0xD3C4F8
     // private UnityEngine.AudioClip _levelFinishedAudioClip
     // Size: 0x8
     // Offset: 0x38
     UnityEngine::AudioClip* levelFinishedAudioClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCA348
+    // [InjectAttribute] Offset: 0xD3C544
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCA358
+    // [InjectAttribute] Offset: 0xD3C554
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x48
@@ -118,19 +118,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void AnimateOutro(LevelCompletionResults localPlayerResults, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> otherPlayersResults, System.Action onCompleted)
-    // Offset: 0xF79208
+    // Offset: 0xFEB908
     void AnimateOutro(GlobalNamespace::LevelCompletionResults* localPlayerResults, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* otherPlayersResults, System::Action* onCompleted);
     // private System.Collections.IEnumerator PlayOutroAnimation(LevelCompletionResults localPlayerLevelCompletionResults, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> otherPlayersLevelCompletionResults, System.Action onCompleted)
-    // Offset: 0xF79234
+    // Offset: 0xFEB934
     System::Collections::IEnumerator* PlayOutroAnimation(GlobalNamespace::LevelCompletionResults* localPlayerLevelCompletionResults, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* otherPlayersLevelCompletionResults, System::Action* onCompleted);
     // private System.Collections.IEnumerator PlayBigAvatarHideSfxClip(System.Single delay)
-    // Offset: 0xF79328
+    // Offset: 0xFEBA28
     System::Collections::IEnumerator* PlayBigAvatarHideSfxClip(float delay);
     // private System.Void PlayMusicPreview(System.Single maxDuration)
-    // Offset: 0xF793E0
+    // Offset: 0xFEBAE0
     void PlayMusicPreview(float maxDuration);
     // public System.Void .ctor()
-    // Offset: 0xF794B8
+    // Offset: 0xFEBBB8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

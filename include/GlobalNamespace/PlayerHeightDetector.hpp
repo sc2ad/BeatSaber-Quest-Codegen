@@ -38,28 +38,28 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class PlayerHeightDetector : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xDCAB2C
+    // [InjectAttribute] Offset: 0xD3CD68
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCAB3C
+    // [InjectAttribute] Offset: 0xD3CD78
     // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCAB4C
+    // [InjectAttribute] Offset: 0xD3CD88
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDCAB5C
+    // [CompilerGeneratedAttribute] Offset: 0xD3CD98
     // private System.Action`1<System.Single> playerHeightDidChangeEvent
     // Size: 0x8
     // Offset: 0x30
@@ -100,35 +100,29 @@ namespace GlobalNamespace {
     PlayerHeightDetector(GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, System::Action_1<float>* playerHeightDidChangeEvent_ = {}, GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData* beatmapObjectCallbackData_ = {}, float noTopObstaclesStartTime_ = {}, float computedPlayerHeight_ = {}, float changeWeight_ = {}, float lastReportedHeight_ = {}) noexcept : playerTransforms{playerTransforms_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, audioTimeSyncController{audioTimeSyncController_}, playerHeightDidChangeEvent{playerHeightDidChangeEvent_}, beatmapObjectCallbackData{beatmapObjectCallbackData_}, noTopObstaclesStartTime{noTopObstaclesStartTime_}, computedPlayerHeight{computedPlayerHeight_}, changeWeight{changeWeight_}, lastReportedHeight{lastReportedHeight_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // static field const value: static private System.Single kHeightScaleAdjust
-    static constexpr const float kHeightScaleAdjust = 1.2;
-    // Get static field: static private System.Single kHeightScaleAdjust
-    static float _get_kHeightScaleAdjust();
-    // Set static field: static private System.Single kHeightScaleAdjust
-    static void _set_kHeightScaleAdjust(float value);
     // public System.Void add_playerHeightDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xF27F4C
+    // Offset: 0xFB9CD4
     void add_playerHeightDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_playerHeightDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xF27FF0
+    // Offset: 0xFB9D78
     void remove_playerHeightDidChangeEvent(System::Action_1<float>* value);
     // public System.Single get_playerHeight()
-    // Offset: 0xF28094
+    // Offset: 0xFB9E1C
     float get_playerHeight();
     // protected System.Void Start()
-    // Offset: 0xF2809C
+    // Offset: 0xFB9E24
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF281BC
+    // Offset: 0xFB9F44
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0xF28250
+    // Offset: 0xFB9FD8
     void LateUpdate();
     // private System.Void BeatmapObjectSpawnCallback(BeatmapObjectData beatmapObjectData)
-    // Offset: 0xF283D4
+    // Offset: 0xFBA154
     void BeatmapObjectSpawnCallback(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void .ctor()
-    // Offset: 0xF284E0
+    // Offset: 0xFBA260
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -52,7 +52,7 @@ namespace System::Threading {
     // Creating value type constructor for type: ReaderWriterCount
     ReaderWriterCount(int64_t lockID_ = {}, int readercount_ = {}, int writercount_ = {}, int upgradecount_ = {}, System::Threading::ReaderWriterCount* next_ = {}) noexcept : lockID{lockID_}, readercount{readercount_}, writercount{writercount_}, upgradecount{upgradecount_}, next{next_} {}
     // public System.Void .ctor()
-    // Offset: 0x19B81B0
+    // Offset: 0x2280A04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

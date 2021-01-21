@@ -42,7 +42,7 @@ namespace TMPro {
     // Creating value type constructor for type: LineBreakingTable
     LineBreakingTable(System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* leadingCharacters_ = {}, System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* followingCharacters_ = {}) noexcept : leadingCharacters{leadingCharacters_}, followingCharacters{followingCharacters_} {}
     // public System.Void .ctor()
-    // Offset: 0xF89AD8
+    // Offset: 0xFF8910
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

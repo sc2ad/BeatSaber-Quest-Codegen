@@ -47,17 +47,17 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // private System.Void .ctor(System.String operationName)
-    // Offset: 0x1B4B334
+    // Offset: 0x11D25A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiffieHellmanUtility::OperationTimer* New_ctor(::Il2CppString* operationName) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DiffieHellmanUtility::OperationTimer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiffieHellmanUtility::OperationTimer*, creationType>(operationName)));
     }
     // static public DiffieHellmanUtility/OperationTimer Time(System.String operation)
-    // Offset: 0x1B4A998
+    // Offset: 0x11D1C0C
     static GlobalNamespace::DiffieHellmanUtility::OperationTimer* Time(::Il2CppString* operation);
     // public System.Void Dispose()
-    // Offset: 0x1B4B3D8
+    // Offset: 0x11D264C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

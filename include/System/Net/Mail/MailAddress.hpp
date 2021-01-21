@@ -62,50 +62,50 @@ namespace System::Net::Mail {
     // Creating value type constructor for type: MailAddress
     MailAddress(::Il2CppString* address_ = {}, ::Il2CppString* displayName_ = {}, ::Il2CppString* host_ = {}, ::Il2CppString* user_ = {}, ::Il2CppString* to_string_ = {}) noexcept : address{address_}, displayName{displayName_}, host{host_}, user{user_}, to_string{to_string_} {}
     // public System.Void .ctor(System.String address)
-    // Offset: 0x12BEB14
+    // Offset: 0x150D8A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MailAddress* New_ctor(::Il2CppString* address) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Mail::MailAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MailAddress*, creationType>(address)));
     }
     // public System.Void .ctor(System.String address, System.String displayName)
-    // Offset: 0x12BEB48
+    // Offset: 0x150D8DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MailAddress* New_ctor(::Il2CppString* address, ::Il2CppString* displayName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Mail::MailAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MailAddress*, creationType>(address, displayName)));
     }
     // public System.Void .ctor(System.String address, System.String displayName, System.Text.Encoding displayNameEncoding)
-    // Offset: 0x12BEB88
+    // Offset: 0x150D91C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MailAddress* New_ctor(::Il2CppString* address, ::Il2CppString* displayName, System::Text::Encoding* displayNameEncoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Mail::MailAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MailAddress*, creationType>(address, displayName, displayNameEncoding)));
     }
     // private System.Void ParseAddress(System.String address)
-    // Offset: 0x12BEC80
+    // Offset: 0x150DA14
     void ParseAddress(::Il2CppString* address);
     // public System.String get_Address()
-    // Offset: 0x12BEF74
+    // Offset: 0x150DD08
     ::Il2CppString* get_Address();
     // public System.String get_DisplayName()
-    // Offset: 0x12BEF7C
+    // Offset: 0x150DD10
     ::Il2CppString* get_DisplayName();
     // static private System.FormatException CreateFormatException()
-    // Offset: 0x12BEF0C
+    // Offset: 0x150DCA0
     static System::FormatException* CreateFormatException();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x12BEFD8
+    // Offset: 0x150DD6C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x12BF03C
+    // Offset: 0x150DDD0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x12BF068
+    // Offset: 0x150DDFC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

@@ -23,7 +23,7 @@ namespace System::Net {
     // Creating value type constructor for type: CredentialCache
     CredentialCache() noexcept {}
     // static public System.Net.ICredentials get_DefaultCredentials()
-    // Offset: 0x131531C
+    // Offset: 0x15640B0
     static System::Net::ICredentials* get_DefaultCredentials();
   }; // System.Net.CredentialCache
   #pragma pack(pop)

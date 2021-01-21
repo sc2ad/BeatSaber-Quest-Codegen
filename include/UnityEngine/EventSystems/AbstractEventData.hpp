@@ -30,16 +30,16 @@ namespace UnityEngine::EventSystems {
       return m_Used;
     }
     // public System.Void Reset()
-    // Offset: 0x114A364
+    // Offset: 0x12F0D68
     void Reset();
     // public System.Void Use()
-    // Offset: 0x114A36C
+    // Offset: 0x12F0D70
     void Use();
     // public System.Boolean get_used()
-    // Offset: 0x114A378
+    // Offset: 0x12F0D7C
     bool get_used();
     // protected System.Void .ctor()
-    // Offset: 0x114A380
+    // Offset: 0x12F0D84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

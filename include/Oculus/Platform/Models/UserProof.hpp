@@ -32,7 +32,7 @@ namespace Oculus::Platform::Models {
       return Value;
     }
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x11E0808
+    // Offset: 0x13F1610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserProof* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::UserProof::.ctor");

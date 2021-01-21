@@ -28,14 +28,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerBigAvatarInstaller : public Zenject::MonoInstaller {
     public:
-    // [InjectAttribute] Offset: 0xDC9BD4
+    // [InjectAttribute] Offset: 0xD3BDD0
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC9BE4
+    // [InjectAttribute] Offset: 0xD3BDE0
     // private readonly SaberManager/InitData _saberManagerInitData
     // Size: 0x8
     // Offset: 0x28
@@ -45,12 +45,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerBigAvatarInstaller
     MultiplayerBigAvatarInstaller(GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, GlobalNamespace::SaberManager::InitData* saberManagerInitData_ = {}) noexcept : connectedPlayer{connectedPlayer_}, saberManagerInitData{saberManagerInitData_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xFA7428
+    // Offset: 0x1016EA4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xFA74E0
+    // Offset: 0x1016F5C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

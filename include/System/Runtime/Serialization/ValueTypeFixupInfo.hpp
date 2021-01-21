@@ -45,20 +45,20 @@ namespace System::Runtime::Serialization {
     // Creating value type constructor for type: ValueTypeFixupInfo
     ValueTypeFixupInfo(int64_t m_containerID_ = {}, System::Reflection::FieldInfo* m_parentField_ = {}, ::Array<int>* m_parentIndex_ = {}) noexcept : m_containerID{m_containerID_}, m_parentField{m_parentField_}, m_parentIndex{m_parentIndex_} {}
     // public System.Void .ctor(System.Int64 containerID, System.Reflection.FieldInfo member, System.Int32[] parentIndex)
-    // Offset: 0x1446650
+    // Offset: 0x175C088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueTypeFixupInfo* New_ctor(int64_t containerID, System::Reflection::FieldInfo* member, ::Array<int>* parentIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ValueTypeFixupInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueTypeFixupInfo*, creationType>(containerID, member, parentIndex)));
     }
     // public System.Int64 get_ContainerID()
-    // Offset: 0x14467DC
+    // Offset: 0x175C214
     int64_t get_ContainerID();
     // public System.Reflection.FieldInfo get_ParentField()
-    // Offset: 0x14467E4
+    // Offset: 0x175C21C
     System::Reflection::FieldInfo* get_ParentField();
     // public System.Int32[] get_ParentIndex()
-    // Offset: 0x14467EC
+    // Offset: 0x175C224
     ::Array<int>* get_ParentIndex();
   }; // System.Runtime.Serialization.ValueTypeFixupInfo
   #pragma pack(pop)

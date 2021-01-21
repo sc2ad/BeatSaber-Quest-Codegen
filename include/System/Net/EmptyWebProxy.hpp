@@ -48,7 +48,7 @@ namespace System::Net {
       return m_credentials;
     }
     // public System.Void .ctor()
-    // Offset: 0x1318080
+    // Offset: 0x1566E14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,17 +57,17 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<EmptyWebProxy*, creationType>()));
     }
     // public System.Uri GetProxy(System.Uri uri)
-    // Offset: 0x1318088
+    // Offset: 0x1566E1C
     // Implemented from: System.Net.IWebProxy
     // Base method: System.Uri IWebProxy::GetProxy(System.Uri uri)
     System::Uri* GetProxy(System::Uri* uri);
     // public System.Boolean IsBypassed(System.Uri uri)
-    // Offset: 0x1318090
+    // Offset: 0x1566E24
     // Implemented from: System.Net.IWebProxy
     // Base method: System.Boolean IWebProxy::IsBypassed(System.Uri uri)
     bool IsBypassed(System::Uri* uri);
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x1318098
+    // Offset: 0x1566E2C
     // Implemented from: System.Net.IWebProxy
     // Base method: System.Net.ICredentials IWebProxy::get_Credentials()
     System::Net::ICredentials* get_Credentials();

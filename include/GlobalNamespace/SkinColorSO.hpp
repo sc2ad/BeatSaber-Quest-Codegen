@@ -38,13 +38,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_id()
-    // Offset: 0xF38AC4
+    // Offset: 0xF6F8F8
     ::Il2CppString* get_id();
     // public UnityEngine.Color get_Color()
-    // Offset: 0xF38ACC
+    // Offset: 0xF6F900
     UnityEngine::Color get_Color();
     // public System.Void .ctor()
-    // Offset: 0xF38AD8
+    // Offset: 0xF6F90C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

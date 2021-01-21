@@ -51,7 +51,7 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     void WriteStartElement(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns);
     // public System.Void WriteStartElement(System.String localName)
-    // Offset: 0x19DA3E0
+    // Offset: 0x22A7EEC
     void WriteStartElement(::Il2CppString* localName);
     // public System.Void WriteEndElement()
     // Offset: 0xFFFFFFFF
@@ -60,10 +60,10 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     void WriteFullEndElement();
     // public System.Void WriteAttributeString(System.String localName, System.String value)
-    // Offset: 0x19DA3F8
+    // Offset: 0x22A7F04
     void WriteAttributeString(::Il2CppString* localName, ::Il2CppString* value);
     // public System.Void WriteAttributeString(System.String prefix, System.String localName, System.String ns, System.String value)
-    // Offset: 0x19DA454
+    // Offset: 0x22A7F60
     void WriteAttributeString(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns, ::Il2CppString* value);
     // public System.Void WriteStartAttribute(System.String prefix, System.String localName, System.String ns)
     // Offset: 0xFFFFFFFF
@@ -108,13 +108,13 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     void WriteBase64(::Array<uint8_t>* buffer, int index, int count);
     // public System.Void WriteBinHex(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x19DA4A4
+    // Offset: 0x22A7FB0
     void WriteBinHex(::Array<uint8_t>* buffer, int index, int count);
     // public System.Xml.WriteState get_WriteState()
     // Offset: 0xFFFFFFFF
     System::Xml::WriteState get_WriteState();
     // public System.Void Close()
-    // Offset: 0x19DA4C0
+    // Offset: 0x22A7FCC
     void Close();
     // public System.Void Flush()
     // Offset: 0xFFFFFFFF
@@ -123,19 +123,19 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* LookupPrefix(::Il2CppString* ns);
     // public System.Void WriteValue(System.String value)
-    // Offset: 0x19DA4C4
+    // Offset: 0x22A7FD0
     void WriteValue(::Il2CppString* value);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x19DA4F0
+    // Offset: 0x22A7FFC
     void Dispose(bool disposing);
     // static public System.Xml.XmlWriter Create(System.IO.Stream output, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x19DA544
+    // Offset: 0x22A8050
     static System::Xml::XmlWriter* Create(System::IO::Stream* output, System::Xml::XmlWriterSettings* settings);
     // static public System.Xml.XmlWriter Create(System.IO.TextWriter output, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x19DAA00
+    // Offset: 0x22A850C
     static System::Xml::XmlWriter* Create(System::IO::TextWriter* output, System::Xml::XmlWriterSettings* settings);
     // public System.Void Dispose()
-    // Offset: 0x19DA4DC
+    // Offset: 0x22A7FE8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -143,7 +143,7 @@ namespace System::Xml {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected System.Void .ctor()
-    // Offset: 0x19DAD08
+    // Offset: 0x22A8814
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

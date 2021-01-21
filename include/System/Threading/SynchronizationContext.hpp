@@ -64,34 +64,34 @@ namespace System::Threading {
     // Set static field: static private System.Type s_cachedPreparedType5
     static void _set_s_cachedPreparedType5(System::Type* value);
     // public System.Void Send(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x1D0D3D8
+    // Offset: 0x17AE434
     void Send(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public System.Void Post(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x1D0D3F4
+    // Offset: 0x17AE450
     void Post(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public System.Void OperationStarted()
-    // Offset: 0x1D0D480
+    // Offset: 0x17AE4DC
     void OperationStarted();
     // public System.Void OperationCompleted()
-    // Offset: 0x1D0D484
+    // Offset: 0x17AE4E0
     void OperationCompleted();
     // static public System.Void SetSynchronizationContext(System.Threading.SynchronizationContext syncContext)
-    // Offset: 0x1D0D488
+    // Offset: 0x17AE4E4
     static void SetSynchronizationContext(System::Threading::SynchronizationContext* syncContext);
     // static public System.Threading.SynchronizationContext get_Current()
-    // Offset: 0x1D0D584
+    // Offset: 0x17AE5E0
     static System::Threading::SynchronizationContext* get_Current();
     // static System.Threading.SynchronizationContext get_CurrentNoFlow()
-    // Offset: 0x1D0D664
+    // Offset: 0x17AE6C0
     static System::Threading::SynchronizationContext* get_CurrentNoFlow();
     // static private System.Threading.SynchronizationContext GetThreadLocalContext()
-    // Offset: 0x1D0D604
+    // Offset: 0x17AE660
     static System::Threading::SynchronizationContext* GetThreadLocalContext();
     // public System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x1D0D6B8
+    // Offset: 0x17AE714
     System::Threading::SynchronizationContext* CreateCopy();
     // public System.Void .ctor()
-    // Offset: 0x1D0D3D0
+    // Offset: 0x17AE42C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

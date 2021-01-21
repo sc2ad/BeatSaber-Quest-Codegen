@@ -54,20 +54,20 @@ namespace Mono::Security::X509 {
     // Creating value type constructor for type: X509CrlEntry
     X509CrlEntry(::Array<uint8_t>* sn_ = {}, System::DateTime revocationDate_ = {}, Mono::Security::X509::X509ExtensionCollection* extensions_ = {}) noexcept : sn{sn_}, revocationDate{revocationDate_}, extensions{extensions_} {}
     // System.Void .ctor(Mono.Security.ASN1 entry)
-    // Offset: 0x19C4730
+    // Offset: 0x2293038
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Crl::X509CrlEntry* New_ctor(Mono::Security::ASN1* entry) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Crl::X509CrlEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Crl::X509CrlEntry*, creationType>(entry)));
     }
     // public System.Byte[] get_SerialNumber()
-    // Offset: 0x19C4C6C
+    // Offset: 0x2293574
     ::Array<uint8_t>* get_SerialNumber();
     // public System.DateTime get_RevocationDate()
-    // Offset: 0x19C51DC
+    // Offset: 0x2293AE4
     System::DateTime get_RevocationDate();
     // public Mono.Security.X509.X509ExtensionCollection get_Extensions()
-    // Offset: 0x19C51E4
+    // Offset: 0x2293AEC
     Mono::Security::X509::X509ExtensionCollection* get_Extensions();
   }; // Mono.Security.X509.X509Crl/X509CrlEntry
   #pragma pack(pop)

@@ -50,34 +50,34 @@ namespace Zenject {
       return map;
     }
     // public System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> get_SceneContexts()
-    // Offset: 0x134DE8C
+    // Offset: 0x15BA36C
     System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* get_SceneContexts();
     // public System.Void Add(Zenject.SceneContext context)
-    // Offset: 0x1351734
+    // Offset: 0x15BDC14
     void Add(Zenject::SceneContext* context);
     // public Zenject.SceneContext GetSceneContextForScene(System.String name)
-    // Offset: 0x1351808
+    // Offset: 0x15BDCE8
     Zenject::SceneContext* GetSceneContextForScene(::Il2CppString* name);
     // public Zenject.SceneContext GetSceneContextForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1351898
+    // Offset: 0x15BDD78
     Zenject::SceneContext* GetSceneContextForScene(UnityEngine::SceneManagement::Scene scene);
     // public Zenject.SceneContext TryGetSceneContextForScene(System.String name)
-    // Offset: 0x1351900
+    // Offset: 0x15BDDE0
     Zenject::SceneContext* TryGetSceneContextForScene(::Il2CppString* name);
     // public Zenject.SceneContext TryGetSceneContextForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1351990
+    // Offset: 0x15BDE70
     Zenject::SceneContext* TryGetSceneContextForScene(UnityEngine::SceneManagement::Scene scene);
     // public Zenject.DiContainer GetContainerForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1351A10
+    // Offset: 0x15BDEF0
     Zenject::DiContainer* GetContainerForScene(UnityEngine::SceneManagement::Scene scene);
     // public Zenject.DiContainer TryGetContainerForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1351AE4
+    // Offset: 0x15BDFC4
     Zenject::DiContainer* TryGetContainerForScene(UnityEngine::SceneManagement::Scene scene);
     // public System.Void Remove(Zenject.SceneContext context)
-    // Offset: 0x1351BE4
+    // Offset: 0x15BE0C4
     void Remove(Zenject::SceneContext* context);
     // public System.Void .ctor()
-    // Offset: 0x1351D20
+    // Offset: 0x15BE200
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

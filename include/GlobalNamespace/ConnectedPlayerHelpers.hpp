@@ -24,25 +24,25 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ConnectedPlayerHelpers
     ConnectedPlayerHelpers() noexcept {}
     // static public System.Boolean WantsToPlayNextLevel(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1B43FFC
+    // Offset: 0x11CB270
     static bool WantsToPlayNextLevel(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean WasActiveAtLevelStart(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1B440BC
+    // Offset: 0x11CB330
     static bool WasActiveAtLevelStart(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsActive(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1B4417C
+    // Offset: 0x11CB3F0
     static bool IsActive(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean HasFinishedLevel(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1B4423C
+    // Offset: 0x11CB4B0
     static bool HasFinishedLevel(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsActiveOrFinished(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1B442FC
+    // Offset: 0x11CB570
     static bool IsActiveOrFinished(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsLeftHanded(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1B44334
+    // Offset: 0x11CB5A8
     static bool IsLeftHanded(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsFailed(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1B443F4
+    // Offset: 0x11CB668
     static bool IsFailed(GlobalNamespace::IConnectedPlayer* connectedPlayer);
   }; // ConnectedPlayerHelpers
   #pragma pack(pop)

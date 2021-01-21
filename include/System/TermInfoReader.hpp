@@ -61,42 +61,42 @@ namespace System {
     // Creating value type constructor for type: TermInfoReader
     TermInfoReader(int16_t boolSize_ = {}, int16_t numSize_ = {}, int16_t strOffsets_ = {}, ::Array<uint8_t>* buffer_ = {}, int booleansOffset_ = {}) noexcept : boolSize{boolSize_}, numSize{numSize_}, strOffsets{strOffsets_}, buffer{buffer_}, booleansOffset{booleansOffset_} {}
     // public System.Void .ctor(System.String term, System.String filename)
-    // Offset: 0x1592274
+    // Offset: 0x1912DF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoReader* New_ctor(::Il2CppString* term, ::Il2CppString* filename) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoReader*, creationType>(term, filename)));
     }
     // public System.Void .ctor(System.String term, System.Byte[] buffer)
-    // Offset: 0x15924D0
+    // Offset: 0x1913054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoReader* New_ctor(::Il2CppString* term, ::Array<uint8_t>* buffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoReader*, creationType>(term, buffer)));
     }
     // private System.Void ReadHeader(System.Byte[] buffer, ref System.Int32 position)
-    // Offset: 0x1596BD8
+    // Offset: 0x191775C
     void ReadHeader(::Array<uint8_t>* buffer, int& position);
     // private System.Void ReadNames(System.Byte[] buffer, ref System.Int32 position)
-    // Offset: 0x1596D38
+    // Offset: 0x19178BC
     void ReadNames(::Array<uint8_t>* buffer, int& position);
     // public System.Int32 Get(System.TermInfoNumbers number)
-    // Offset: 0x1592E10
+    // Offset: 0x1913994
     int Get(System::TermInfoNumbers number);
     // public System.String Get(System.TermInfoStrings tstr)
-    // Offset: 0x1592D78
+    // Offset: 0x19138FC
     ::Il2CppString* Get(System::TermInfoStrings tstr);
     // public System.Byte[] GetStringBytes(System.TermInfoStrings tstr)
-    // Offset: 0x1596968
+    // Offset: 0x19174EC
     ::Array<uint8_t>* GetStringBytes(System::TermInfoStrings tstr);
     // private System.Int16 GetInt16(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1596D78
+    // Offset: 0x19178FC
     int16_t GetInt16(::Array<uint8_t>* buffer, int offset);
     // private System.String GetString(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1596DD4
+    // Offset: 0x1917958
     ::Il2CppString* GetString(::Array<uint8_t>* buffer, int offset);
     // private System.Byte[] GetStringBytes(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1596E60
+    // Offset: 0x19179E4
     ::Array<uint8_t>* GetStringBytes(::Array<uint8_t>* buffer, int offset);
   }; // System.TermInfoReader
   #pragma pack(pop)

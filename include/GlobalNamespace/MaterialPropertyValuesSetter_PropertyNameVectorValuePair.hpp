@@ -36,7 +36,7 @@ namespace GlobalNamespace {
       return vector;
     }
     // public System.Void .ctor()
-    // Offset: 0x187E4E8
+    // Offset: 0x1DA1DA8
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase
     // Base method: System.Void PropertyValuePairBase::.ctor()
     // Base method: System.Void Object::.ctor()

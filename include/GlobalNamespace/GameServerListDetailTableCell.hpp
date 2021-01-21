@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* joinServerButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDCCAB0
+    // [CompilerGeneratedAttribute] Offset: 0xD3ED0C
     // private System.Action joinServerButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x58
@@ -58,21 +58,21 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameServerListDetailTableCell
     GameServerListDetailTableCell(UnityEngine::UI::Button* joinServerButton_ = {}, System::Action* joinServerButtonWasPressedEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : joinServerButton{joinServerButton_}, joinServerButtonWasPressedEvent{joinServerButtonWasPressedEvent_}, buttonBinder{buttonBinder_} {}
     // public System.Void add_joinServerButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1A1A8A0
+    // Offset: 0xF34BD8
     void add_joinServerButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_joinServerButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1A1A944
+    // Offset: 0xF34C7C
     void remove_joinServerButtonWasPressedEvent(System::Action* value);
     // private System.Void <Start>b__5_0()
-    // Offset: 0x1A1AAFC
+    // Offset: 0xF34E34
     void $Start$b__5_0();
     // protected override System.Void Start()
-    // Offset: 0x1A1A9E8
+    // Offset: 0xF34D20
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::Start()
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1A1AA88
+    // Offset: 0xF34DC0
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

@@ -53,7 +53,7 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: EventDispatcher
     EventDispatcher(System::Diagnostics::Tracing::EventListener* m_Listener_ = {}, ::Array<bool>* m_EventEnabled_ = {}, bool m_activityFilteringEnabled_ = {}, System::Diagnostics::Tracing::EventDispatcher* m_Next_ = {}) noexcept : m_Listener{m_Listener_}, m_EventEnabled{m_EventEnabled_}, m_activityFilteringEnabled{m_activityFilteringEnabled_}, m_Next{m_Next_} {}
     // System.Void .ctor(System.Diagnostics.Tracing.EventDispatcher next, System.Boolean[] eventEnabled, System.Diagnostics.Tracing.EventListener listener)
-    // Offset: 0x12C6E4C
+    // Offset: 0x1515BE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventDispatcher* New_ctor(System::Diagnostics::Tracing::EventDispatcher* next, ::Array<bool>* eventEnabled, System::Diagnostics::Tracing::EventListener* listener) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventDispatcher::.ctor");

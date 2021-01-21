@@ -32,15 +32,15 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetColor(UnityEngine.Color c)
-    // Offset: 0x1A0B0B8
+    // Offset: 0x22DE16C
     void SetColor(UnityEngine::Color c);
     // public override UnityEngine.Color get_color()
-    // Offset: 0x1A0B0AC
+    // Offset: 0x22DE160
     // Implemented from: ColorSO
     // Base method: UnityEngine.Color ColorSO::get_color()
     UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x1A0B0C4
+    // Offset: 0x22DE178
     // Implemented from: ColorSO
     // Base method: System.Void ColorSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

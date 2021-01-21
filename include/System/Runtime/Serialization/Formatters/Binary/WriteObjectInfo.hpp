@@ -164,58 +164,58 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: WriteObjectInfo
     WriteObjectInfo(int objectInfoId_ = {}, ::Il2CppObject* obj_ = {}, System::Type* objectType_ = {}, bool isSi_ = {}, bool isNamed_ = {}, bool isTyped_ = {}, bool isArray_ = {}, System::Runtime::Serialization::SerializationInfo* si_ = {}, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* cache_ = {}, ::Array<::Il2CppObject*>* memberData_ = {}, System::Runtime::Serialization::ISerializationSurrogate* serializationSurrogate_ = {}, System::Runtime::Serialization::StreamingContext context_ = {}, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit_ = {}, int64_t objectId_ = {}, int64_t assemId_ = {}, ::Il2CppString* binderTypeName_ = {}, ::Il2CppString* binderAssemblyString_ = {}) noexcept : objectInfoId{objectInfoId_}, obj{obj_}, objectType{objectType_}, isSi{isSi_}, isNamed{isNamed_}, isTyped{isTyped_}, isArray{isArray_}, si{si_}, cache{cache_}, memberData{memberData_}, serializationSurrogate{serializationSurrogate_}, context{context_}, serObjectInfoInit{serObjectInfoInit_}, objectId{objectId_}, assemId{assemId_}, binderTypeName{binderTypeName_}, binderAssemblyString{binderAssemblyString_} {}
     // System.Void ObjectEnd()
-    // Offset: 0x12FAE3C
+    // Offset: 0x154ABD0
     void ObjectEnd();
     // private System.Void InternalInit()
-    // Offset: 0x12FF73C
+    // Offset: 0x154F4D0
     void InternalInit();
     // static System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo Serialize(System.Object obj, System.Runtime.Serialization.ISurrogateSelector surrogateSelector, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit, System.Runtime.Serialization.IFormatterConverter converter, System.Runtime.Serialization.Formatters.Binary.ObjectWriter objectWriter, System.Runtime.Serialization.SerializationBinder binder)
-    // Offset: 0x12FA77C
+    // Offset: 0x154A510
     static System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* Serialize(::Il2CppObject* obj, System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, System::Runtime::Serialization::IFormatterConverter* converter, System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter, System::Runtime::Serialization::SerializationBinder* binder);
     // System.Void InitSerialize(System.Object obj, System.Runtime.Serialization.ISurrogateSelector surrogateSelector, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit, System.Runtime.Serialization.IFormatterConverter converter, System.Runtime.Serialization.Formatters.Binary.ObjectWriter objectWriter, System.Runtime.Serialization.SerializationBinder binder)
-    // Offset: 0x12FF890
+    // Offset: 0x154F624
     void InitSerialize(::Il2CppObject* obj, System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, System::Runtime::Serialization::IFormatterConverter* converter, System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter, System::Runtime::Serialization::SerializationBinder* binder);
     // static System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo Serialize(System.Type objectType, System.Runtime.Serialization.ISurrogateSelector surrogateSelector, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit, System.Runtime.Serialization.IFormatterConverter converter, System.Runtime.Serialization.SerializationBinder binder)
-    // Offset: 0x12FB9DC
+    // Offset: 0x154B770
     static System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* Serialize(System::Type* objectType, System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, System::Runtime::Serialization::IFormatterConverter* converter, System::Runtime::Serialization::SerializationBinder* binder);
     // System.Void InitSerialize(System.Type objectType, System.Runtime.Serialization.ISurrogateSelector surrogateSelector, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit, System.Runtime.Serialization.IFormatterConverter converter, System.Runtime.Serialization.SerializationBinder binder)
-    // Offset: 0x13006F8
+    // Offset: 0x155048C
     void InitSerialize(System::Type* objectType, System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, System::Runtime::Serialization::IFormatterConverter* converter, System::Runtime::Serialization::SerializationBinder* binder);
     // private System.Void InitSiWrite()
-    // Offset: 0x12FFF14
+    // Offset: 0x154FCA8
     void InitSiWrite();
     // static private System.Void CheckTypeForwardedFrom(System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache cache, System.Type objectType, System.String binderAssemblyString)
-    // Offset: 0x130025C
+    // Offset: 0x154FFF0
     static void CheckTypeForwardedFrom(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* cache, System::Type* objectType, ::Il2CppString* binderAssemblyString);
     // private System.Void InitNoMembers()
-    // Offset: 0x12FFDDC
+    // Offset: 0x154FB70
     void InitNoMembers();
     // private System.Void InitMemberInfo()
-    // Offset: 0x13003C4
+    // Offset: 0x1550158
     void InitMemberInfo();
     // System.String GetTypeFullName()
-    // Offset: 0x12FDC84
+    // Offset: 0x154DA18
     ::Il2CppString* GetTypeFullName();
     // System.String GetAssemblyString()
-    // Offset: 0x12FDCB0
+    // Offset: 0x154DA44
     ::Il2CppString* GetAssemblyString();
     // private System.Void InvokeSerializationBinder(System.Runtime.Serialization.SerializationBinder binder)
-    // Offset: 0x12FFEEC
+    // Offset: 0x154FC80
     void InvokeSerializationBinder(System::Runtime::Serialization::SerializationBinder* binder);
     // System.Type GetMemberType(System.Reflection.MemberInfo objMember)
-    // Offset: 0x1300A40
+    // Offset: 0x15507D4
     System::Type* GetMemberType(System::Reflection::MemberInfo* objMember);
     // System.Void GetMemberInfo(out System.String[] outMemberNames, out System.Type[] outMemberTypes, out System.Object[] outMemberData)
-    // Offset: 0x12FB804
+    // Offset: 0x154B598
     void GetMemberInfo(::Array<::Il2CppString*>*& outMemberNames, ::Array<System::Type*>*& outMemberTypes, ::Array<::Il2CppObject*>*& outMemberData);
     // static private System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo GetObjectInfo(System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit)
-    // Offset: 0x12FF7C8
+    // Offset: 0x154F55C
     static System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* GetObjectInfo(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit);
     // static private System.Void PutObjectInfo(System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo objectInfo)
-    // Offset: 0x12FF71C
+    // Offset: 0x154F4B0
     static void PutObjectInfo(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo);
     // System.Void .ctor()
-    // Offset: 0x12FF714
+    // Offset: 0x154F4A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

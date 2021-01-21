@@ -34,21 +34,21 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* poseRoot;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0xDB798C
+    // [RangeAttribute] Offset: 0xD29788
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x40
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xDB79A4
+    // [RangeAttribute] Offset: 0xD297A0
     // public System.Single localRotationWeight
     // Size: 0x4
     // Offset: 0x44
     float localRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xDB79BC
+    // [RangeAttribute] Offset: 0xD297B8
     // public System.Single localPositionWeight
     // Size: 0x4
     // Offset: 0x48
@@ -67,7 +67,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void AutoMapping();
     // public System.Void UpdateManual()
-    // Offset: 0x15E2A54
+    // Offset: 0x19635D8
     void UpdateManual();
     // protected System.Void InitiatePoser()
     // Offset: 0xFFFFFFFF
@@ -79,22 +79,22 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void FixPoserTransforms();
     // protected override System.Void UpdateSolver()
-    // Offset: 0x15E2A60
+    // Offset: 0x19635E4
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::UpdateSolver()
     void UpdateSolver();
     // protected override System.Void InitiateSolver()
-    // Offset: 0x15E2AB4
+    // Offset: 0x1963638
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::InitiateSolver()
     void InitiateSolver();
     // protected override System.Void FixTransforms()
-    // Offset: 0x15E2AF0
+    // Offset: 0x1963674
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::FixTransforms()
     void FixTransforms();
     // protected System.Void .ctor()
-    // Offset: 0x15E2B08
+    // Offset: 0x196368C
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -75,19 +75,19 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IAuthenticationTokenProvider*>(this);
     }
     // public System.Void .ctor(IPlatformUserModel platformUserModel, UserInfo userInfo)
-    // Offset: 0xF0847C
+    // Offset: 0xF24868
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformAuthenticationTokenProvider* New_ctor(GlobalNamespace::IPlatformUserModel* platformUserModel, GlobalNamespace::UserInfo* userInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformAuthenticationTokenProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformAuthenticationTokenProvider*, creationType>(platformUserModel, userInfo)));
     }
     // public System.String get_hashedUserId()
-    // Offset: 0xF08474
+    // Offset: 0xF24860
     // Implemented from: IAuthenticationTokenProvider
     // Base method: System.String IAuthenticationTokenProvider::get_hashedUserId()
     ::Il2CppString* get_hashedUserId();
     // public System.Threading.Tasks.Task`1<AuthenticationToken> GetAuthenticationToken()
-    // Offset: 0xF08568
+    // Offset: 0xF24954
     // Implemented from: IAuthenticationTokenProvider
     // Base method: System.Threading.Tasks.Task`1<AuthenticationToken> IAuthenticationTokenProvider::GetAuthenticationToken()
     System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();

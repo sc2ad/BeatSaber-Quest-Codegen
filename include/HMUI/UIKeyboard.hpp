@@ -54,21 +54,21 @@ namespace HMUI {
     UnityEngine::UI::Button* okButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDA6810
+    // [CompilerGeneratedAttribute] Offset: 0xD18408
     // private System.Action okButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x20
     System::Action* okButtonWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDA6820
+    // [CompilerGeneratedAttribute] Offset: 0xD18418
     // private System.Action`1<System.Char> keyWasPressedEvent
     // Size: 0x8
     // Offset: 0x28
     System::Action_1<::Il2CppChar>* keyWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppChar>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDA6830
+    // [CompilerGeneratedAttribute] Offset: 0xD18428
     // private System.Action deleteButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x30
@@ -92,37 +92,37 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x197F4AC
+    // Offset: 0x2243C1C
     void add_okButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x197F550
+    // Offset: 0x2243CC0
     void remove_okButtonWasPressedEvent(System::Action* value);
     // public System.Void add_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x197F5F4
+    // Offset: 0x2243D64
     void add_keyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void remove_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x197F698
+    // Offset: 0x2243E08
     void remove_keyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void add_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x197F73C
+    // Offset: 0x2243EAC
     void add_deleteButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x197F7E0
+    // Offset: 0x2243F50
     void remove_deleteButtonWasPressedEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x197F884
+    // Offset: 0x2243FF4
     void Awake();
     // private System.Void HandleKeyPress(UnityEngine.KeyCode keyCode)
-    // Offset: 0x197FA68
+    // Offset: 0x22441D8
     void HandleKeyPress(UnityEngine::KeyCode keyCode);
     // private System.Void <Awake>b__12_0()
-    // Offset: 0x197FBA0
+    // Offset: 0x2244310
     void $Awake$b__12_0();
     // private System.Void <Awake>b__12_1()
-    // Offset: 0x197FBB4
+    // Offset: 0x2244324
     void $Awake$b__12_1();
     // public System.Void .ctor()
-    // Offset: 0x197FB2C
+    // Offset: 0x224429C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

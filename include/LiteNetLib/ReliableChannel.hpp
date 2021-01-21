@@ -66,16 +66,16 @@ namespace LiteNetLib {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void Init(LiteNetLib.NetPacket packet)
-      // Offset: 0xE8C5AC
+      // Offset: 0xE147B4
       void Init(LiteNetLib::NetPacket* packet);
       // public System.Void TrySend(System.Int64 currentTime, LiteNetLib.NetPeer peer)
-      // Offset: 0xE8C5D8
+      // Offset: 0xE147E0
       void TrySend(int64_t currentTime, LiteNetLib::NetPeer* peer);
       // public System.Boolean Clear(LiteNetLib.NetPeer peer)
-      // Offset: 0xE8C5E0
+      // Offset: 0xE147E8
       bool Clear(LiteNetLib::NetPeer* peer);
       // public override System.String ToString()
-      // Offset: 0xE8C5A4
+      // Offset: 0xE147AC
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::Il2CppString* ToString();
@@ -172,22 +172,22 @@ namespace LiteNetLib {
     // Set static field: static private System.Int32 BitsInByte
     static void _set_BitsInByte(int value);
     // public System.Void .ctor(LiteNetLib.NetPeer peer, System.Boolean ordered, System.Byte id)
-    // Offset: 0x1DCDD30
+    // Offset: 0x1AA2E54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReliableChannel* New_ctor(LiteNetLib::NetPeer* peer, bool ordered, uint8_t id) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::ReliableChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReliableChannel*, creationType>(peer, ordered, id)));
     }
     // private System.Void ProcessAck(LiteNetLib.NetPacket packet)
-    // Offset: 0x1DD1630
+    // Offset: 0x1AA6754
     void ProcessAck(LiteNetLib::NetPacket* packet);
     // public override System.Void SendNextPackets()
-    // Offset: 0x1DD19F8
+    // Offset: 0x1AA6B1C
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Void BaseChannel::SendNextPackets()
     void SendNextPackets();
     // public override System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x1DD1F10
+    // Offset: 0x1AA7034
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(LiteNetLib::NetPacket* packet);

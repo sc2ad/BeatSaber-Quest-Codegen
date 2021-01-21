@@ -59,17 +59,17 @@ namespace Org::BouncyCastle::Math::EC::Endo {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
     }
     // System.Void .ctor(Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism, Org.BouncyCastle.Math.EC.ECPoint point)
-    // Offset: 0x193D638
+    // Offset: 0x2098960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EndoUtilities::MapPointCallback* New_ctor(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, Org::BouncyCastle::Math::EC::ECPoint* point) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EndoUtilities::MapPointCallback*, creationType>(endomorphism, point)));
     }
     // private System.Boolean CheckExisting(Org.BouncyCastle.Math.EC.Endo.EndoPreCompInfo existingEndo, Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism)
-    // Offset: 0x193D8E4
+    // Offset: 0x2098C0C
     bool CheckExisting(Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo* existingEndo, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism);
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x193D6E4
+    // Offset: 0x2098A0C
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback
     // Base method: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo IPreCompCallback::Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);

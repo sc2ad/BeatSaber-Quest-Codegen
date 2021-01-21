@@ -22,7 +22,7 @@ namespace System::Net {
     // Creating value type constructor for type: InternalException
     InternalException() noexcept {}
     // System.Void .ctor()
-    // Offset: 0x12BD4E0
+    // Offset: 0x150C274
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()

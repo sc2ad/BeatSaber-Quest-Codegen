@@ -1381,7 +1381,7 @@ namespace OVR::OpenVR {
     static ::Il2CppString* _get_IVRSpatialAnchors_Version();
     // Set static field: static public System.String IVRSpatialAnchors_Version
     static void _set_IVRSpatialAnchors_Version(::Il2CppString* value);
-    // [CompilerGeneratedAttribute] Offset: 0xD87014
+    // [CompilerGeneratedAttribute] Offset: 0xCF8E48
     // Get static field: static private System.UInt32 <VRToken>k__BackingField
     static uint _get_$VRToken$k__BackingField();
     // Set static field: static private System.UInt32 <VRToken>k__BackingField
@@ -1397,91 +1397,91 @@ namespace OVR::OpenVR {
     // Set static field: static private OVR.OpenVR.OpenVR/COpenVRContext _OpenVRInternal_ModuleContext
     static void _set__OpenVRInternal_ModuleContext(OVR::OpenVR::OpenVR::COpenVRContext* value);
     // static public System.UInt32 InitInternal(ref OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType)
-    // Offset: 0x1066C0C
+    // Offset: 0x11A1714
     static uint InitInternal(OVR::OpenVR::EVRInitError& peError, OVR::OpenVR::EVRApplicationType eApplicationType);
     // static public System.UInt32 InitInternal2(ref OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType, System.String pchStartupInfo)
-    // Offset: 0x1066CA0
+    // Offset: 0x11A17A8
     static uint InitInternal2(OVR::OpenVR::EVRInitError& peError, OVR::OpenVR::EVRApplicationType eApplicationType, ::Il2CppString* pchStartupInfo);
     // static public System.Void ShutdownInternal()
-    // Offset: 0x1066D58
+    // Offset: 0x11A1860
     static void ShutdownInternal();
     // static public System.Boolean IsHmdPresent()
-    // Offset: 0x1066DCC
+    // Offset: 0x11A18D4
     static bool IsHmdPresent();
     // static public System.Boolean IsRuntimeInstalled()
-    // Offset: 0x1066E4C
+    // Offset: 0x11A1954
     static bool IsRuntimeInstalled();
     // static public System.String GetStringForHmdError(OVR.OpenVR.EVRInitError error)
-    // Offset: 0x1066ECC
+    // Offset: 0x11A19D4
     static ::Il2CppString* GetStringForHmdError(OVR::OpenVR::EVRInitError error);
     // static public System.IntPtr GetGenericInterface(System.String pchInterfaceVersion, ref OVR.OpenVR.EVRInitError peError)
-    // Offset: 0x1066FC4
+    // Offset: 0x11A1ACC
     static System::IntPtr GetGenericInterface(::Il2CppString* pchInterfaceVersion, OVR::OpenVR::EVRInitError& peError);
     // static public System.Boolean IsInterfaceVersionValid(System.String pchInterfaceVersion)
-    // Offset: 0x1067070
+    // Offset: 0x11A1B78
     static bool IsInterfaceVersionValid(::Il2CppString* pchInterfaceVersion);
     // static public System.UInt32 GetInitToken()
-    // Offset: 0x1067110
+    // Offset: 0x11A1C18
     static uint GetInitToken();
     // static private System.UInt32 get_VRToken()
-    // Offset: 0x1067188
+    // Offset: 0x11A1C90
     static uint get_VRToken();
     // static private System.Void set_VRToken(System.UInt32 value)
-    // Offset: 0x10671F0
+    // Offset: 0x11A1CF8
     static void set_VRToken(uint value);
     // static private OVR.OpenVR.OpenVR/COpenVRContext get_OpenVRInternal_ModuleContext()
-    // Offset: 0x106725C
+    // Offset: 0x11A1D64
     static OVR::OpenVR::OpenVR::COpenVRContext* get_OpenVRInternal_ModuleContext();
     // static public OVR.OpenVR.CVRSystem get_System()
-    // Offset: 0x1067364
+    // Offset: 0x11A1E6C
     static OVR::OpenVR::CVRSystem* get_System();
     // static public OVR.OpenVR.CVRChaperone get_Chaperone()
-    // Offset: 0x1067490
+    // Offset: 0x11A1F98
     static OVR::OpenVR::CVRChaperone* get_Chaperone();
     // static public OVR.OpenVR.CVRChaperoneSetup get_ChaperoneSetup()
-    // Offset: 0x10675BC
+    // Offset: 0x11A20C4
     static OVR::OpenVR::CVRChaperoneSetup* get_ChaperoneSetup();
     // static public OVR.OpenVR.CVRCompositor get_Compositor()
-    // Offset: 0x10676E8
+    // Offset: 0x11A21F0
     static OVR::OpenVR::CVRCompositor* get_Compositor();
     // static public OVR.OpenVR.CVROverlay get_Overlay()
-    // Offset: 0x1067814
+    // Offset: 0x11A231C
     static OVR::OpenVR::CVROverlay* get_Overlay();
     // static public OVR.OpenVR.CVRRenderModels get_RenderModels()
-    // Offset: 0x1067940
+    // Offset: 0x11A2448
     static OVR::OpenVR::CVRRenderModels* get_RenderModels();
     // static public OVR.OpenVR.CVRExtendedDisplay get_ExtendedDisplay()
-    // Offset: 0x1067A6C
+    // Offset: 0x11A2574
     static OVR::OpenVR::CVRExtendedDisplay* get_ExtendedDisplay();
     // static public OVR.OpenVR.CVRSettings get_Settings()
-    // Offset: 0x1067B98
+    // Offset: 0x11A26A0
     static OVR::OpenVR::CVRSettings* get_Settings();
     // static public OVR.OpenVR.CVRApplications get_Applications()
-    // Offset: 0x1067CC4
+    // Offset: 0x11A27CC
     static OVR::OpenVR::CVRApplications* get_Applications();
     // static public OVR.OpenVR.CVRScreenshots get_Screenshots()
-    // Offset: 0x1067DF0
+    // Offset: 0x11A28F8
     static OVR::OpenVR::CVRScreenshots* get_Screenshots();
     // static public OVR.OpenVR.CVRTrackedCamera get_TrackedCamera()
-    // Offset: 0x1067F1C
+    // Offset: 0x11A2A24
     static OVR::OpenVR::CVRTrackedCamera* get_TrackedCamera();
     // static public OVR.OpenVR.CVRInput get_Input()
-    // Offset: 0x1068048
+    // Offset: 0x11A2B50
     static OVR::OpenVR::CVRInput* get_Input();
     // static public OVR.OpenVR.CVRSpatialAnchors get_SpatialAnchors()
-    // Offset: 0x1068174
+    // Offset: 0x11A2C7C
     static OVR::OpenVR::CVRSpatialAnchors* get_SpatialAnchors();
     // static public OVR.OpenVR.CVRSystem Init(ref OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType, System.String pchStartupInfo)
-    // Offset: 0x10682A0
+    // Offset: 0x11A2DA8
     static OVR::OpenVR::CVRSystem* Init(OVR::OpenVR::EVRInitError& peError, OVR::OpenVR::EVRApplicationType eApplicationType, ::Il2CppString* pchStartupInfo);
     // static public System.Void Shutdown()
-    // Offset: 0x10685E0
+    // Offset: 0x11A30E8
     static void Shutdown();
     // static private System.Void .cctor()
-    // Offset: 0x1068644
+    // Offset: 0x11A314C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x106863C
+    // Offset: 0x11A3144
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

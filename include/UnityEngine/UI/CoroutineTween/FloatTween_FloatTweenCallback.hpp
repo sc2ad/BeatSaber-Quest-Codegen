@@ -23,7 +23,7 @@ namespace UnityEngine::UI::CoroutineTween {
     // Creating value type constructor for type: FloatTweenCallback
     FloatTweenCallback() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1159DEC
+    // Offset: 0x13007F0
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

@@ -50,28 +50,28 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSO* offLightsColor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDC8DA0
+    // [SpaceAttribute] Offset: 0xD3AF5C
     // private AvatarVisualController _avatarVisualsController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::AvatarVisualController* avatarVisualsController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarVisualController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDC8DD8
+    // [SpaceAttribute] Offset: 0xD3AF94
     // private LightsAnimator[] _lightsAnimators
     // Size: 0x8
     // Offset: 0x28
     ::Array<GlobalNamespace::LightsAnimator*>* lightsAnimators;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::LightsAnimator*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDC8E10
+    // [SpaceAttribute] Offset: 0xD3AFCC
     // private MultiplayerBigAvatarAnimator _avatarAnimator
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerBigAvatarAnimator* avatarAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerBigAvatarAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC8E48
+    // [InjectAttribute] Offset: 0xD3B004
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x38
@@ -93,18 +93,18 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0xFACDC4
+    // Offset: 0x101D370
     void OnDestroy();
     // private System.Void <Animate>b__7_0(UnityEngine.Color color)
-    // Offset: 0xFAD040
+    // Offset: 0x101D5EC
     void $Animate$b__7_0(UnityEngine::Color color);
     // public System.Void Animate(System.Single duration)
-    // Offset: 0xFACE5C
+    // Offset: 0x101D408
     // Implemented from: IMultiplayerConnectedPlayerOutroAnimator
     // Base method: System.Void IMultiplayerConnectedPlayerOutroAnimator::Animate(System.Single duration)
     void Animate(float duration);
     // public System.Void .ctor()
-    // Offset: 0xFAD038
+    // Offset: 0x101D5E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

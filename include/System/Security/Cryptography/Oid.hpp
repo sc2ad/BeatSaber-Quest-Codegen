@@ -40,44 +40,44 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: Oid
     Oid(::Il2CppString* m_value_ = {}, ::Il2CppString* m_friendlyName_ = {}, System::Security::Cryptography::OidGroup m_group_ = {}) noexcept : m_value{m_value_}, m_friendlyName{m_friendlyName_}, m_group{m_group_} {}
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x145BD1C
+    // Offset: 0x1770754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Oid* New_ctor(::Il2CppString* oid) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>(oid)));
     }
     // System.Void .ctor(System.String oid, System.Security.Cryptography.OidGroup group, System.Boolean lookupFriendlyName)
-    // Offset: 0x145BD28
+    // Offset: 0x1770760
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Oid* New_ctor(::Il2CppString* oid, System::Security::Cryptography::OidGroup group, bool lookupFriendlyName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>(oid, group, lookupFriendlyName)));
     }
     // public System.Void .ctor(System.String value, System.String friendlyName)
-    // Offset: 0x145BDF8
+    // Offset: 0x1770830
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Oid* New_ctor(::Il2CppString* value, ::Il2CppString* friendlyName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>(value, friendlyName)));
     }
     // public System.Void .ctor(System.Security.Cryptography.Oid oid)
-    // Offset: 0x145BE48
+    // Offset: 0x1770880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Oid* New_ctor(System::Security::Cryptography::Oid* oid) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>(oid)));
     }
     // public System.String get_Value()
-    // Offset: 0x145BF08
+    // Offset: 0x1770940
     ::Il2CppString* get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0x145BF10
+    // Offset: 0x1770948
     void set_Value(::Il2CppString* value);
     // public System.String get_FriendlyName()
-    // Offset: 0x145BF18
+    // Offset: 0x1770950
     ::Il2CppString* get_FriendlyName();
     // public System.Void .ctor()
-    // Offset: 0x145BD14
+    // Offset: 0x177074C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

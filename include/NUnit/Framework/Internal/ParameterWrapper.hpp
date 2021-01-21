@@ -36,14 +36,14 @@ namespace NUnit::Framework::Internal {
   // [] Offset: FFFFFFFF
   class ParameterWrapper : public ::Il2CppObject/*, public NUnit::Framework::Interfaces::IParameterInfo*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDB362C
+    // [CompilerGeneratedAttribute] Offset: 0xD25428
     // private NUnit.Framework.Interfaces.IMethodInfo <Method>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     NUnit::Framework::Interfaces::IMethodInfo* Method;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::IMethodInfo*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDB363C
+    // [CompilerGeneratedAttribute] Offset: 0xD25438
     // private System.Reflection.ParameterInfo <ParameterInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -57,28 +57,28 @@ namespace NUnit::Framework::Internal {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IParameterInfo*>(this);
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method, System.Reflection.ParameterInfo parameterInfo)
-    // Offset: 0x1957F2C
+    // Offset: 0x2220C20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParameterWrapper* New_ctor(NUnit::Framework::Interfaces::IMethodInfo* method, System::Reflection::ParameterInfo* parameterInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::ParameterWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParameterWrapper*, creationType>(method, parameterInfo)));
     }
     // private System.Void set_Method(NUnit.Framework.Interfaces.IMethodInfo value)
-    // Offset: 0x1958560
+    // Offset: 0x2221254
     void set_Method(NUnit::Framework::Interfaces::IMethodInfo* value);
     // public System.Reflection.ParameterInfo get_ParameterInfo()
-    // Offset: 0x1958558
+    // Offset: 0x222124C
     System::Reflection::ParameterInfo* get_ParameterInfo();
     // private System.Void set_ParameterInfo(System.Reflection.ParameterInfo value)
-    // Offset: 0x1958568
+    // Offset: 0x222125C
     void set_ParameterInfo(System::Reflection::ParameterInfo* value);
     // public System.Boolean get_IsOptional()
-    // Offset: 0x195853C
+    // Offset: 0x2221230
     // Implemented from: NUnit.Framework.Interfaces.IParameterInfo
     // Base method: System.Boolean IParameterInfo::get_IsOptional()
     bool get_IsOptional();
     // public System.Type get_ParameterType()
-    // Offset: 0x1958570
+    // Offset: 0x2221264
     // Implemented from: NUnit.Framework.Interfaces.IParameterInfo
     // Base method: System.Type IParameterInfo::get_ParameterType()
     System::Type* get_ParameterType();

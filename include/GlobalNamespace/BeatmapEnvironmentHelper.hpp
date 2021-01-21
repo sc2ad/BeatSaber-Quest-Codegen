@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapEnvironmentHelper
     BeatmapEnvironmentHelper() noexcept {}
     // static public EnvironmentInfoSO GetEnvironmentInfo(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1A830CC
+    // Offset: 0x1073038
     static GlobalNamespace::EnvironmentInfoSO* GetEnvironmentInfo(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
   }; // BeatmapEnvironmentHelper
   #pragma pack(pop)

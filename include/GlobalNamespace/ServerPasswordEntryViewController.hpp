@@ -39,7 +39,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class ServerPasswordEntryViewController : public HMUI::ViewController {
     public:
-    // [HeaderAttribute] Offset: 0xDD0F18
+    // [HeaderAttribute] Offset: 0xD43214
     // private HMUI.InputFieldView _passwordInput
     // Size: 0x8
     // Offset: 0x70
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     HMUI::UIKeyboard* uiKeyboard;
     // Field size check
     static_assert(sizeof(HMUI::UIKeyboard*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDD0F74
+    // [CompilerGeneratedAttribute] Offset: 0xD43270
     // private System.Action`2<INetworkPlayer,System.String> didFinishEvent
     // Size: 0x8
     // Offset: 0x80
@@ -68,32 +68,32 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ServerPasswordEntryViewController
     ServerPasswordEntryViewController(HMUI::InputFieldView* passwordInput_ = {}, HMUI::UIKeyboard* uiKeyboard_ = {}, System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>* didFinishEvent_ = {}, GlobalNamespace::INetworkPlayer* selectedNetworkPlayer_ = {}) noexcept : passwordInput{passwordInput_}, uiKeyboard{uiKeyboard_}, didFinishEvent{didFinishEvent_}, selectedNetworkPlayer{selectedNetworkPlayer_} {}
     // public System.Void add_didFinishEvent(System.Action`2<INetworkPlayer,System.String> value)
-    // Offset: 0xFCADD8
+    // Offset: 0x1090AB0
     void add_didFinishEvent(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<INetworkPlayer,System.String> value)
-    // Offset: 0xFCAE7C
+    // Offset: 0x1090B54
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>* value);
     // public System.Void Setup(INetworkPlayer selectedPlayer)
-    // Offset: 0xFCAF20
+    // Offset: 0x1090BF8
     void Setup(GlobalNamespace::INetworkPlayer* selectedPlayer);
     // private System.Void HandleJoinClicked()
-    // Offset: 0xFCB0A8
+    // Offset: 0x1090D80
     void HandleJoinClicked();
     // private System.Void HandleUIKeyboardOkButtonWasPressed()
-    // Offset: 0xFCB11C
+    // Offset: 0x1090DF4
     void HandleUIKeyboardOkButtonWasPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xFCAF28
+    // Offset: 0x1090C00
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xFCAFF0
+    // Offset: 0x1090CC8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xFCB190
+    // Offset: 0x1090E68
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

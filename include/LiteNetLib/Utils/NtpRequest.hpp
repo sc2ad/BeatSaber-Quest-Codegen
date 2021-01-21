@@ -82,32 +82,32 @@ namespace LiteNetLib::Utils {
     // Set static field: static public System.Int32 DefaultPort
     static void _set_DefaultPort(int value);
     // private System.Void .ctor(System.Net.IPEndPoint endPoint, System.Action`1<LiteNetLib.Utils.NtpPacket> onRequestComplete)
-    // Offset: 0x22B6798
+    // Offset: 0x22C8240
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NtpRequest* New_ctor(System::Net::IPEndPoint* endPoint, System::Action_1<LiteNetLib::Utils::NtpPacket*>* onRequestComplete) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NtpRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NtpRequest*, creationType>(endPoint, onRequestComplete)));
     }
     // static public LiteNetLib.Utils.NtpRequest Create(System.Net.IPEndPoint endPoint, System.Action`1<LiteNetLib.Utils.NtpPacket> onRequestComplete)
-    // Offset: 0x22B68B8
+    // Offset: 0x22C8360
     static LiteNetLib::Utils::NtpRequest* Create(System::Net::IPEndPoint* endPoint, System::Action_1<LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
     // static public LiteNetLib.Utils.NtpRequest Create(System.Net.IPAddress ipAddress, System.Action`1<LiteNetLib.Utils.NtpPacket> onRequestComplete)
-    // Offset: 0x22B6928
+    // Offset: 0x22C83D0
     static LiteNetLib::Utils::NtpRequest* Create(System::Net::IPAddress* ipAddress, System::Action_1<LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
     // static public LiteNetLib.Utils.NtpRequest Create(System.String ntpServerAddress, System.Int32 port, System.Action`1<LiteNetLib.Utils.NtpPacket> onRequestComplete)
-    // Offset: 0x22B69A0
+    // Offset: 0x22C8448
     static LiteNetLib::Utils::NtpRequest* Create(::Il2CppString* ntpServerAddress, int port, System::Action_1<LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
     // static public LiteNetLib.Utils.NtpRequest Create(System.String ntpServerAddress, System.Action`1<LiteNetLib.Utils.NtpPacket> onRequestComplete)
-    // Offset: 0x22B6A24
+    // Offset: 0x22C84CC
     static LiteNetLib::Utils::NtpRequest* Create(::Il2CppString* ntpServerAddress, System::Action_1<LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
     // public System.Void Send()
-    // Offset: 0x22B6AA4
+    // Offset: 0x22C854C
     void Send();
     // public System.Void Close()
-    // Offset: 0x22B6B74
+    // Offset: 0x22C861C
     void Close();
     // private System.Void LiteNetLib.INetSocketListener.OnMessageReceived(System.Byte[] data, System.Int32 length, System.Net.Sockets.SocketError errorCode, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0x22B6B94
+    // Offset: 0x22C863C
     // Implemented from: LiteNetLib.INetSocketListener
     // Base method: System.Void INetSocketListener::OnMessageReceived(System.Byte[] data, System.Int32 length, System.Net.Sockets.SocketError errorCode, System.Net.IPEndPoint remoteEndPoint)
     void LiteNetLib_INetSocketListener_OnMessageReceived(::Array<uint8_t>* data, int length, System::Net::Sockets::SocketError errorCode, System::Net::IPEndPoint* remoteEndPoint);

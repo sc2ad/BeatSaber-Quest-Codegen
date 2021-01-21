@@ -97,29 +97,29 @@ namespace UnityEngine::TestTools::Utils {
     // Creating value type constructor for type: CoroutineRunner
     CoroutineRunner(bool m_Running_ = {}, bool m_TestFailed_ = {}, bool m_Timeout_ = {}, UnityEngine::MonoBehaviour* m_Controller_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* m_Context_ = {}, UnityEngine::Coroutine* m_TimeOutCoroutine_ = {}, System::Collections::IEnumerator* m_TestCoroutine_ = {}) noexcept : m_Running{m_Running_}, m_TestFailed{m_TestFailed_}, m_Timeout{m_Timeout_}, m_Controller{m_Controller_}, m_Context{m_Context_}, m_TimeOutCoroutine{m_TimeOutCoroutine_}, m_TestCoroutine{m_TestCoroutine_} {}
     // public System.Void .ctor(UnityEngine.MonoBehaviour playmodeTestsController, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x11835F8
+    // Offset: 0x132AFFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoroutineRunner* New_ctor(UnityEngine::MonoBehaviour* playmodeTestsController, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::CoroutineRunner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoroutineRunner*, creationType>(playmodeTestsController, context)));
     }
     // public System.Collections.IEnumerator HandleEnumerableTest(System.Collections.IEnumerator testEnumerator)
-    // Offset: 0x1183648
+    // Offset: 0x132B04C
     System::Collections::IEnumerator* HandleEnumerableTest(System::Collections::IEnumerator* testEnumerator);
     // private System.Void StopAllRunningCoroutines()
-    // Offset: 0x119817C
+    // Offset: 0x133FB80
     void StopAllRunningCoroutines();
     // private System.Collections.IEnumerator ExMethod(System.Collections.IEnumerator e, System.Int32 timeout)
-    // Offset: 0x11981D4
+    // Offset: 0x133FBD8
     System::Collections::IEnumerator* ExMethod(System::Collections::IEnumerator* e, int timeout);
     // private System.Collections.IEnumerator StartTimer(System.Collections.IEnumerator coroutineToBeKilled, System.Int32 timeout, System.Action onTimeout)
-    // Offset: 0x1198274
+    // Offset: 0x133FC78
     System::Collections::IEnumerator* StartTimer(System::Collections::IEnumerator* coroutineToBeKilled, int timeout, System::Action* onTimeout);
     // public System.Boolean HasFailedWithTimeout()
-    // Offset: 0x1198330
+    // Offset: 0x133FD34
     bool HasFailedWithTimeout();
     // private System.Void <ExMethod>b__11_0()
-    // Offset: 0x1198338
+    // Offset: 0x133FD3C
     void $ExMethod$b__11_0();
   }; // UnityEngine.TestTools.Utils.CoroutineRunner
   #pragma pack(pop)

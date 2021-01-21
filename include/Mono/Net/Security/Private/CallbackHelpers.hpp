@@ -41,13 +41,13 @@ namespace Mono::Net::Security::Private {
     // Creating value type constructor for type: CallbackHelpers
     CallbackHelpers() noexcept {}
     // static Mono.Security.Interface.MonoRemoteCertificateValidationCallback PublicToMono(System.Net.Security.RemoteCertificateValidationCallback callback)
-    // Offset: 0x126C08C
+    // Offset: 0x14A90EC
     static Mono::Security::Interface::MonoRemoteCertificateValidationCallback* PublicToMono(System::Net::Security::RemoteCertificateValidationCallback* callback);
     // static System.Net.Security.RemoteCertificateValidationCallback MonoToPublic(Mono.Security.Interface.MonoRemoteCertificateValidationCallback callback)
-    // Offset: 0x126647C
+    // Offset: 0x14A34DC
     static System::Net::Security::RemoteCertificateValidationCallback* MonoToPublic(Mono::Security::Interface::MonoRemoteCertificateValidationCallback* callback);
     // static System.Net.Security.LocalCertSelectionCallback MonoToInternal(Mono.Security.Interface.MonoLocalCertificateSelectionCallback callback)
-    // Offset: 0x126653C
+    // Offset: 0x14A359C
     static System::Net::Security::LocalCertSelectionCallback* MonoToInternal(Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback);
   }; // Mono.Net.Security.Private.CallbackHelpers
   #pragma pack(pop)

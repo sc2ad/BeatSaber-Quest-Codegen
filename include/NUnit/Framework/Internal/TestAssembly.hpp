@@ -28,7 +28,7 @@ namespace NUnit::Framework::Internal {
     public:
     // Writing base type padding for base size: 0x89 to desired offset: 0x90
     char ___base_padding[0x7] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDB373C
+    // [CompilerGeneratedAttribute] Offset: 0xD25538
     // private System.Reflection.Assembly <Assembly>k__BackingField
     // Size: 0x8
     // Offset: 0x90
@@ -42,20 +42,20 @@ namespace NUnit::Framework::Internal {
       return Assembly;
     }
     // public System.Void .ctor(System.Reflection.Assembly assembly, System.String path)
-    // Offset: 0x195B868
+    // Offset: 0x222455C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestAssembly* New_ctor(System::Reflection::Assembly* assembly, ::Il2CppString* path) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestAssembly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestAssembly*, creationType>(assembly, path)));
     }
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x195BA68
+    // Offset: 0x222475C
     System::Reflection::Assembly* get_Assembly();
     // private System.Void set_Assembly(System.Reflection.Assembly value)
-    // Offset: 0x195BA70
+    // Offset: 0x2224764
     void set_Assembly(System::Reflection::Assembly* value);
     // public System.Void .ctor(System.String path)
-    // Offset: 0x195B9D8
+    // Offset: 0x22246CC
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(System.String path)
     // Base method: System.Void Test::.ctor(System.String path)
@@ -65,7 +65,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestAssembly*, creationType>(path)));
     }
     // public override System.String get_TestType()
-    // Offset: 0x195BA78
+    // Offset: 0x222476C
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();

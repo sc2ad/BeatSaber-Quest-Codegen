@@ -36,7 +36,7 @@ namespace UnityEngine::UI {
     UnityEngine::Sprite* m_PressedSprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD7F49C
+    // [FormerlySerializedAsAttribute] Offset: 0xCF12D0
     // private UnityEngine.Sprite m_SelectedSprite
     // Size: 0x8
     // Offset: 0x10
@@ -60,31 +60,31 @@ namespace UnityEngine::UI {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::UI::SpriteState>*>(this);
     }
     // public UnityEngine.Sprite get_highlightedSprite()
-    // Offset: 0xCB69E4
+    // Offset: 0xE2F194
     UnityEngine::Sprite* get_highlightedSprite();
     // public System.Void set_highlightedSprite(UnityEngine.Sprite value)
-    // Offset: 0xCB69EC
+    // Offset: 0xE2F19C
     void set_highlightedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_pressedSprite()
-    // Offset: 0xCB69F4
+    // Offset: 0xE2F1A4
     UnityEngine::Sprite* get_pressedSprite();
     // public System.Void set_pressedSprite(UnityEngine.Sprite value)
-    // Offset: 0xCB69FC
+    // Offset: 0xE2F1AC
     void set_pressedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_selectedSprite()
-    // Offset: 0xCB6A04
+    // Offset: 0xE2F1B4
     UnityEngine::Sprite* get_selectedSprite();
     // public System.Void set_selectedSprite(UnityEngine.Sprite value)
-    // Offset: 0xCB6A0C
+    // Offset: 0xE2F1BC
     void set_selectedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_disabledSprite()
-    // Offset: 0xCB6A14
+    // Offset: 0xE2F1C4
     UnityEngine::Sprite* get_disabledSprite();
     // public System.Void set_disabledSprite(UnityEngine.Sprite value)
-    // Offset: 0xCB6A1C
+    // Offset: 0xE2F1CC
     void set_disabledSprite(UnityEngine::Sprite* value);
     // public System.Boolean Equals(UnityEngine.UI.SpriteState other)
-    // Offset: 0xCB6A24
+    // Offset: 0xE2F1D4
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.UI.SpriteState other)
     bool Equals(UnityEngine::UI::SpriteState other);

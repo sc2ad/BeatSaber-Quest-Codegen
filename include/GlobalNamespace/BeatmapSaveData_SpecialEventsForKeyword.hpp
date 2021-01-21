@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SpecialEventsForKeyword
     SpecialEventsForKeyword(::Il2CppString* keyword_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* specialEvents_ = {}) noexcept : keyword{keyword_}, specialEvents{specialEvents_} {}
     // public System.String get_keyword()
-    // Offset: 0x1A2D678
+    // Offset: 0xF5E398
     ::Il2CppString* get_keyword();
     // public System.Collections.Generic.List`1<BeatmapSaveData/BeatmapEventType> get_specialEvents()
-    // Offset: 0x1A2D680
+    // Offset: 0xF5E3A0
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* get_specialEvents();
     // public System.Void .ctor(System.String keyword, System.Collections.Generic.List`1<BeatmapSaveData/BeatmapEventType> specialEvents)
-    // Offset: 0x1A2D688
+    // Offset: 0xF5E3A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::SpecialEventsForKeyword* New_ctor(::Il2CppString* keyword, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* specialEvents) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::.ctor");

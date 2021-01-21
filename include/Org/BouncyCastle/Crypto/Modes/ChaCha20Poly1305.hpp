@@ -198,47 +198,47 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Set static field: static private readonly System.Byte[] Zeroes
     static void _set_Zeroes(::Array<uint8_t>* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IMac poly1305)
-    // Offset: 0x14A53C0
+    // Offset: 0x17D3B08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChaCha20Poly1305* New_ctor(Org::BouncyCastle::Crypto::IMac* poly1305) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChaCha20Poly1305*, creationType>(poly1305)));
     }
     // public System.Void ProcessAadBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x14A5D5C
+    // Offset: 0x17D44A4
     void ProcessAadBytes(::Array<uint8_t>* inBytes, int inOff, int len);
     // private System.Void CheckAad()
-    // Offset: 0x14A5F30
+    // Offset: 0x17D4678
     void CheckAad();
     // private System.Void CheckData()
-    // Offset: 0x14A6594
+    // Offset: 0x17D4CDC
     void CheckData();
     // private System.Void FinishAad(Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/State nextState)
-    // Offset: 0x14A6C9C
+    // Offset: 0x17D53E4
     void FinishAad(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State nextState);
     // private System.Void FinishData(Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/State nextState)
-    // Offset: 0x14A6AEC
+    // Offset: 0x17D5234
     void FinishData(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State nextState);
     // private System.UInt64 IncrementCount(System.UInt64 count, System.UInt32 increment, System.UInt64 limit)
-    // Offset: 0x14A6000
+    // Offset: 0x17D4748
     uint64_t IncrementCount(uint64_t count, uint increment, uint64_t limit);
     // private System.Void InitMac()
-    // Offset: 0x14A6DE4
+    // Offset: 0x17D552C
     void InitMac();
     // private System.Void PadMac(System.UInt64 count)
-    // Offset: 0x14A6CCC
+    // Offset: 0x17D5414
     void PadMac(uint64_t count);
     // private System.Void ProcessData(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x14A667C
+    // Offset: 0x17D4DC4
     void ProcessData(::Array<uint8_t>* inBytes, int inOff, int inLen, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Void Reset(System.Boolean clearMac, System.Boolean resetCipher)
-    // Offset: 0x14A59EC
+    // Offset: 0x17D4134
     void Reset(bool clearMac, bool resetCipher);
     // static private System.Void .cctor()
-    // Offset: 0x14A6F74
+    // Offset: 0x17D56BC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x14A5360
+    // Offset: 0x17D3AA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -247,32 +247,32 @@ namespace Org::BouncyCastle::Crypto::Modes {
       return THROW_UNLESS((::il2cpp_utils::New<ChaCha20Poly1305*, creationType>()));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x14A55B8
+    // Offset: 0x17D3D00
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Void IAeadCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x14A5B50
+    // Offset: 0x17D4298
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::GetOutputSize(System.Int32 len)
     int GetOutputSize(int len);
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x14A5C54
+    // Offset: 0x17D439C
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::GetUpdateOutputSize(System.Int32 len)
     int GetUpdateOutputSize(int len);
     // public System.Int32 ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x14A60A0
+    // Offset: 0x17D47E8
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
     int ProcessBytes(::Array<uint8_t>* inBytes, int inOff, int len, ::Array<uint8_t>* outBytes, int outOff);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x14A6748
+    // Offset: 0x17D4E90
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::DoFinal(System.Byte[] outBytes, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x14A6C90
+    // Offset: 0x17D53D8
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Void IAeadCipher::Reset()
     void Reset();

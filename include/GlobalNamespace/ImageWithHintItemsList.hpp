@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ImageWithHintItemsList
     ImageWithHintItemsList() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0xF1ABB0
+    // Offset: 0xFD1B1C
     // Implemented from: HMUI.UIItemsList`1
     // Base method: System.Void UIItemsList_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

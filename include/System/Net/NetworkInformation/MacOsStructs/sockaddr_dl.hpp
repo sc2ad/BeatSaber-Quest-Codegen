@@ -82,7 +82,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void Read(System.IntPtr ptr)
-    // Offset: 0xC94F5C
+    // Offset: 0xDFA2CC
     void Read(System::IntPtr ptr);
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr_dl
   #pragma pack(pop)

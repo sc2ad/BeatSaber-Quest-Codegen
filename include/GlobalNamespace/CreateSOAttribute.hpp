@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CreateSOAttribute
     CreateSOAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x102C3A0
+    // Offset: 0x1105D80
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

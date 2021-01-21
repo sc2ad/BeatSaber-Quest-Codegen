@@ -34,7 +34,7 @@ namespace HMUI {
     HMUI::SelectableCell* selectableCell;
     // Field size check
     static_assert(sizeof(HMUI::SelectableCell*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDA7D08
+    // [SpaceAttribute] Offset: 0xD19900
     // private UnityEngine.AnimationClip _normalAnimationClip
     // Size: 0x8
     // Offset: 0x20
@@ -64,25 +64,25 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1084600
+    // Offset: 0x11C0108
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x10846D8
+    // Offset: 0x11C01E0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x108474C
+    // Offset: 0x11C0254
     void OnDestroy();
     // private System.Void HandleSelectionDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/TransitionType transitionType, System.Object changeOwner)
-    // Offset: 0x1084824
+    // Offset: 0x11C032C
     void HandleSelectionDidChange(HMUI::SelectableCell* selectableCell, HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* changeOwner);
     // private System.Void HandleHighlightDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x1084828
+    // Offset: 0x11C0330
     void HandleHighlightDidChange(HMUI::SelectableCell* selectableCell, HMUI::SelectableCell::TransitionType transitionType);
     // private System.Void RefreshVisuals()
-    // Offset: 0x10846DC
+    // Offset: 0x11C01E4
     void RefreshVisuals();
     // public System.Void .ctor()
-    // Offset: 0x108482C
+    // Offset: 0x11C0334
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

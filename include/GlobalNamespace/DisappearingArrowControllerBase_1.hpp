@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteMovement* noteMovement;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteMovement*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDC5908
+    // [SpaceAttribute] Offset: 0xD378BC
     // private System.Single _disappearingNormalStart
     // Size: 0x4
     // Offset: 0x0

@@ -42,14 +42,14 @@ namespace System::Diagnostics::Tracing {
   // [] Offset: FFFFFFFF
   class EventListener : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD3F178
+    // [CompilerGeneratedAttribute] Offset: 0xCAFD2C
     // private System.EventHandler`1<System.Diagnostics.Tracing.EventSourceCreatedEventArgs> _EventSourceCreated
     // Size: 0x8
     // Offset: 0x10
     System::EventHandler_1<System::Diagnostics::Tracing::EventSourceCreatedEventArgs*>* EventSourceCreated;
     // Field size check
     static_assert(sizeof(System::EventHandler_1<System::Diagnostics::Tracing::EventSourceCreatedEventArgs*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3F188
+    // [CompilerGeneratedAttribute] Offset: 0xCAFD3C
     // private System.EventHandler`1<System.Diagnostics.Tracing.EventWrittenEventArgs> EventWritten
     // Size: 0x8
     // Offset: 0x18
@@ -91,22 +91,22 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static private System.Boolean s_EventSourceShutdownRegistered
     static void _set_s_EventSourceShutdownRegistered(bool value);
     // protected internal System.Void OnEventSourceCreated(System.Diagnostics.Tracing.EventSource eventSource)
-    // Offset: 0x12C6EC8
+    // Offset: 0x1515C5C
     void OnEventSourceCreated(System::Diagnostics::Tracing::EventSource* eventSource);
     // protected internal System.Void OnEventWritten(System.Diagnostics.Tracing.EventWrittenEventArgs eventData)
-    // Offset: 0x12C6FDC
+    // Offset: 0x1515D70
     void OnEventWritten(System::Diagnostics::Tracing::EventWrittenEventArgs* eventData);
     // static System.Void AddEventSource(System.Diagnostics.Tracing.EventSource newEventSource)
-    // Offset: 0x12C7054
+    // Offset: 0x1515DE8
     static void AddEventSource(System::Diagnostics::Tracing::EventSource* newEventSource);
     // static private System.Void DisposeOnShutdown(System.Object sender, System.EventArgs e)
-    // Offset: 0x12C7730
+    // Offset: 0x15164C4
     static void DisposeOnShutdown(::Il2CppObject* sender, System::EventArgs* e);
     // static System.Object get_EventListenersLock()
-    // Offset: 0x12C74AC
+    // Offset: 0x1516240
     static ::Il2CppObject* get_EventListenersLock();
     // static private System.Void .cctor()
-    // Offset: 0x12C79C4
+    // Offset: 0x1516758
     static void _cctor();
   }; // System.Diagnostics.Tracing.EventListener
   #pragma pack(pop)

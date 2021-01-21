@@ -76,7 +76,7 @@ namespace System::Text::RegularExpressions {
     // Creating value type constructor for type: RegexTree
     RegexTree(System::Text::RegularExpressions::RegexNode* root_ = {}, System::Collections::Hashtable* caps_ = {}, ::Array<int>* capnumlist_ = {}, System::Collections::Hashtable* capnames_ = {}, ::Array<::Il2CppString*>* capslist_ = {}, System::Text::RegularExpressions::RegexOptions options_ = {}, int captop_ = {}) noexcept : root{root_}, caps{caps_}, capnumlist{capnumlist_}, capnames{capnames_}, capslist{capslist_}, options{options_}, captop{captop_} {}
     // System.Void .ctor(System.Text.RegularExpressions.RegexNode root, System.Collections.Hashtable caps, System.Int32[] capnumlist, System.Int32 captop, System.Collections.Hashtable capnames, System.String[] capslist, System.Text.RegularExpressions.RegexOptions opts)
-    // Offset: 0x154AA58
+    // Offset: 0x18B9088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexTree* New_ctor(System::Text::RegularExpressions::RegexNode* root, System::Collections::Hashtable* caps, ::Array<int>* capnumlist, int captop, System::Collections::Hashtable* capnames, ::Array<::Il2CppString*>* capslist, System::Text::RegularExpressions::RegexOptions opts) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexTree::.ctor");

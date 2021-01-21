@@ -46,14 +46,14 @@ namespace Org::BouncyCastle::Utilities::Collections {
       return d;
     }
     // public System.Void .ctor(System.Collections.IDictionary d)
-    // Offset: 0x18BD41C
+    // Offset: 0x1E5B8E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnmodifiableDictionaryProxy* New_ctor(System::Collections::IDictionary* d) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnmodifiableDictionaryProxy*, creationType>(d)));
     }
     // public override System.Boolean Contains(System.Object k)
-    // Offset: 0x18BD450
+    // Offset: 0x1E5B918
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Boolean UnmodifiableDictionary::Contains(System.Object k)
     bool Contains(::Il2CppObject* k);
@@ -61,7 +61,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: Contains
     bool System_Collections_IDictionary_Contains(::Il2CppObject* k);
     // public override System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x18BD514
+    // Offset: 0x1E5B9DC
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Void UnmodifiableDictionary::CopyTo(System.Array array, System.Int32 index)
     void CopyTo(System::Array* array, int index);
@@ -69,7 +69,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // public override System.Int32 get_Count()
-    // Offset: 0x18BD5DC
+    // Offset: 0x1E5BAA4
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Int32 UnmodifiableDictionary::get_Count()
     int get_Count();
@@ -77,7 +77,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public override System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x18BD690
+    // Offset: 0x1E5BB58
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Collections.IDictionaryEnumerator UnmodifiableDictionary::GetEnumerator()
     System::Collections::IDictionaryEnumerator* GetEnumerator();
@@ -85,7 +85,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator();
     // public override System.Collections.ICollection get_Keys()
-    // Offset: 0x18BD744
+    // Offset: 0x1E5BC0C
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Collections.ICollection UnmodifiableDictionary::get_Keys()
     System::Collections::ICollection* get_Keys();
@@ -93,7 +93,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: get_Keys
     System::Collections::ICollection* System_Collections_IDictionary_get_Keys();
     // protected override System.Object GetValue(System.Object k)
-    // Offset: 0x18BD7F8
+    // Offset: 0x1E5BCC0
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Object UnmodifiableDictionary::GetValue(System.Object k)
     ::Il2CppObject* GetValue(::Il2CppObject* k);

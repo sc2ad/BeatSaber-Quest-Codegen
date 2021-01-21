@@ -36,14 +36,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerLobbyAvatarManager : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xDC24AC
+    // [InjectAttribute] Offset: 0xD34370
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC24BC
+    // [InjectAttribute] Offset: 0xD34380
     // private readonly MultiplayerLobbyAvatarController/Factory _avatarControllerPool
     // Size: 0x8
     // Offset: 0x20
@@ -73,28 +73,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Init(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
-    // Offset: 0xFB88D0
+    // Offset: 0xFD9C28
     void Init(float innerCircleRadius, float minOuterCircleRadius);
     // public System.Void ActivateMultiplayerLobbyAvatarManager()
-    // Offset: 0xFB88D8
+    // Offset: 0xFD9C30
     void ActivateMultiplayerLobbyAvatarManager();
     // public System.Void DeactivateMultiplayerLobbyAvatarManager()
-    // Offset: 0xFB8FBC
+    // Offset: 0xFDA310
     void DeactivateMultiplayerLobbyAvatarManager();
     // private System.Void HandleLobbyStateDataModelPlayerConnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0xFB9254
+    // Offset: 0xFDA5A8
     void HandleLobbyStateDataModelPlayerConnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void HandleLobbyStateDataModelPlayerDisconnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0xFB9258
+    // Offset: 0xFDA5AC
     void HandleLobbyStateDataModelPlayerDisconnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void AddPlayer(IConnectedPlayer connectedPlayer)
-    // Offset: 0xFB8B78
+    // Offset: 0xFD9ED0
     void AddPlayer(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void RemovePlayer(IConnectedPlayer connectedPlayer)
-    // Offset: 0xFB925C
+    // Offset: 0xFDA5B0
     void RemovePlayer(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // public System.Void .ctor()
-    // Offset: 0xFB9418
+    // Offset: 0xFDA9FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

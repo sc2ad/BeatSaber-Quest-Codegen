@@ -111,7 +111,7 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: TraceLoggingEventTypes
     TraceLoggingEventTypes(::Array<System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* typeInfos_ = {}, ::Il2CppString* name_ = {}, System::Diagnostics::Tracing::EventTags tags_ = {}, uint8_t level_ = {}, uint8_t opcode_ = {}, System::Diagnostics::Tracing::EventKeywords keywords_ = {}, ::Array<uint8_t>* typeMetadata_ = {}, int scratchSize_ = {}, int dataCount_ = {}, int pinCount_ = {}, System::Diagnostics::Tracing::ConcurrentSet_2<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Diagnostics::Tracing::EventTags>, System::Diagnostics::Tracing::NameInfo*> nameInfos_ = {}) noexcept : typeInfos{typeInfos_}, name{name_}, tags{tags_}, level{level_}, opcode{opcode_}, keywords{keywords_}, typeMetadata{typeMetadata_}, scratchSize{scratchSize_}, dataCount{dataCount_}, pinCount{pinCount_}, nameInfos{nameInfos_} {}
     // System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, params System.Type[] types)
-    // Offset: 0x112113C
+    // Offset: 0x12A7F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceLoggingEventTypes* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags, ::Array<System::Type*>* types) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::TraceLoggingEventTypes::.ctor");
@@ -128,33 +128,33 @@ namespace System::Diagnostics::Tracing {
       return New_ctor<creationType>(name, tags, {types...});
     }
     // System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, System.Reflection.ParameterInfo[] paramInfos)
-    // Offset: 0x1121528
+    // Offset: 0x12A8364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceLoggingEventTypes* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags, ::Array<System::Reflection::ParameterInfo*>* paramInfos) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::TraceLoggingEventTypes::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceLoggingEventTypes*, creationType>(name, tags, paramInfos)));
     }
     // private System.Void .ctor(System.Diagnostics.Tracing.EventTags tags, System.String defaultName, System.Diagnostics.Tracing.TraceLoggingTypeInfo[] typeInfos)
-    // Offset: 0x1121328
+    // Offset: 0x12A8164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceLoggingEventTypes* New_ctor(System::Diagnostics::Tracing::EventTags tags, ::Il2CppString* defaultName, ::Array<System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* typeInfos) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::TraceLoggingEventTypes::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceLoggingEventTypes*, creationType>(tags, defaultName, typeInfos)));
     }
     // System.String get_Name()
-    // Offset: 0x1121A80
+    // Offset: 0x12A88BC
     ::Il2CppString* get_Name();
     // System.Diagnostics.Tracing.EventTags get_Tags()
-    // Offset: 0x1121A88
+    // Offset: 0x12A88C4
     System::Diagnostics::Tracing::EventTags get_Tags();
     // System.Diagnostics.Tracing.NameInfo GetNameInfo(System.String name, System.Diagnostics.Tracing.EventTags tags)
-    // Offset: 0x1121A90
+    // Offset: 0x12A88CC
     System::Diagnostics::Tracing::NameInfo* GetNameInfo(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags);
     // private System.Diagnostics.Tracing.TraceLoggingTypeInfo[] MakeArray(System.Reflection.ParameterInfo[] paramInfos)
-    // Offset: 0x1121770
+    // Offset: 0x12A85AC
     ::Array<System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* MakeArray(::Array<System::Reflection::ParameterInfo*>* paramInfos);
     // static private System.Diagnostics.Tracing.TraceLoggingTypeInfo[] MakeArray(System.Type[] types)
-    // Offset: 0x1121180
+    // Offset: 0x12A7FBC
     static ::Array<System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* MakeArray(::Array<System::Type*>* types);
   }; // System.Diagnostics.Tracing.TraceLoggingEventTypes
   // WARNING Not writing size check since size may be invalid!

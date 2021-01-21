@@ -55,21 +55,21 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Node
     Node(float length_ = {}, float effectorPositionWeight_ = {}, float effectorRotationWeight_ = {}, UnityEngine::Vector3 offset_ = {}) noexcept : length{length_}, effectorPositionWeight{effectorPositionWeight_}, effectorRotationWeight{effectorRotationWeight_}, offset{offset_} {}
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x1710A98
+    // Offset: 0x1B02910
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::Node* New_ctor(UnityEngine::Transform* transform) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolver::Node::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::Node*, creationType>(transform)));
     }
     // public System.Void .ctor(UnityEngine.Transform transform, System.Single weight)
-    // Offset: 0x1710AC8
+    // Offset: 0x1B02940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::Node* New_ctor(UnityEngine::Transform* transform, float weight) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolver::Node::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::Node*, creationType>(transform, weight)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1710A94
+    // Offset: 0x1B0290C
     // Implemented from: RootMotion.FinalIK.IKSolver/Point
     // Base method: System.Void Point::.ctor()
     // Base method: System.Void Object::.ctor()

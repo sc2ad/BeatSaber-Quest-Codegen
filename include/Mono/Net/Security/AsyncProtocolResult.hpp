@@ -24,7 +24,7 @@ namespace Mono::Net::Security {
   // [] Offset: FFFFFFFF
   class AsyncProtocolResult : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD45EAC
+    // [CompilerGeneratedAttribute] Offset: 0xCB7A60
     // private readonly System.Int32 <UserResult>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -33,7 +33,7 @@ namespace Mono::Net::Security {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: UserResult and: Error
     char __padding0[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD45EBC
+    // [CompilerGeneratedAttribute] Offset: 0xCB7A70
     // private readonly System.Runtime.ExceptionServices.ExceptionDispatchInfo <Error>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -43,20 +43,20 @@ namespace Mono::Net::Security {
     // Creating value type constructor for type: AsyncProtocolResult
     AsyncProtocolResult(int UserResult_ = {}, System::Runtime::ExceptionServices::ExceptionDispatchInfo* Error_ = {}) noexcept : UserResult{UserResult_}, Error{Error_} {}
     // public System.Int32 get_UserResult()
-    // Offset: 0x126570C
+    // Offset: 0x14A276C
     int get_UserResult();
     // public System.Runtime.ExceptionServices.ExceptionDispatchInfo get_Error()
-    // Offset: 0x1265714
+    // Offset: 0x14A2774
     System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
     // public System.Void .ctor(System.Int32 result)
-    // Offset: 0x12654D4
+    // Offset: 0x14A2534
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncProtocolResult* New_ctor(int result) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::AsyncProtocolResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncProtocolResult*, creationType>(result)));
     }
     // public System.Void .ctor(System.Runtime.ExceptionServices.ExceptionDispatchInfo error)
-    // Offset: 0x1265678
+    // Offset: 0x14A26D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncProtocolResult* New_ctor(System::Runtime::ExceptionServices::ExceptionDispatchInfo* error) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::AsyncProtocolResult::.ctor");

@@ -18,7 +18,7 @@ namespace Oculus::Platform::Models {
   // [] Offset: FFFFFFFF
   class PingResult : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDB0264
+    // [CompilerGeneratedAttribute] Offset: 0xD22060
     // private System.UInt64 <ID>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -32,23 +32,23 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: PingResult
     PingResult(uint64_t ID_ = {}, System::Nullable_1<uint64_t> pingTimeUsec_ = {}) noexcept : ID{ID_}, pingTimeUsec{pingTimeUsec_} {}
     // public System.Void .ctor(System.UInt64 id, System.Nullable`1<System.UInt64> pingTimeUsec)
-    // Offset: 0x11DE350
+    // Offset: 0x13EF158
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PingResult* New_ctor(uint64_t id, System::Nullable_1<uint64_t> pingTimeUsec) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::PingResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PingResult*, creationType>(id, pingTimeUsec)));
     }
     // public System.UInt64 get_ID()
-    // Offset: 0x11E1974
+    // Offset: 0x13F277C
     uint64_t get_ID();
     // private System.Void set_ID(System.UInt64 value)
-    // Offset: 0x11E197C
+    // Offset: 0x13F2784
     void set_ID(uint64_t value);
     // public System.UInt64 get_PingTimeUsec()
-    // Offset: 0x11E1984
+    // Offset: 0x13F278C
     uint64_t get_PingTimeUsec();
     // public System.Boolean get_IsTimeout()
-    // Offset: 0x11E19EC
+    // Offset: 0x13F27F4
     bool get_IsTimeout();
   }; // Oculus.Platform.Models.PingResult
   // WARNING Not writing size check since size may be invalid!

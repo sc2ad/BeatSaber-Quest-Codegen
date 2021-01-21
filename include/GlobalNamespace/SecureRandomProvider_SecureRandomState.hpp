@@ -61,16 +61,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kBufferSize
     static void _set_kBufferSize(int value);
     // public System.Void GetBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1E56824
+    // Offset: 0x1C1FBE0
     void GetBytes(::Array<uint8_t>* buffer, int offset, int length);
     // public System.Byte GetByte()
-    // Offset: 0x1E56958
+    // Offset: 0x1C1FD14
     uint8_t GetByte();
     // private System.Void FillBuffer()
-    // Offset: 0x1E56AFC
+    // Offset: 0x1C1FEB8
     void FillBuffer();
     // public System.Void .ctor()
-    // Offset: 0x1E566B4
+    // Offset: 0x1C1FA70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

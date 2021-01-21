@@ -73,17 +73,17 @@ namespace System::Threading {
     // Set static field: static private System.Threading.ContextCallback s_executionContextCallback
     static void _set_s_executionContextCallback(System::Threading::ContextCallback* value);
     // System.Void .ctor(System.Action`1<System.Object> callback, System.Object stateForCallback, System.Threading.SynchronizationContext targetSyncContext, System.Threading.ExecutionContext targetExecutionContext, System.Threading.CancellationTokenSource cancellationTokenSource)
-    // Offset: 0x16B1C00
+    // Offset: 0x1A79DB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CancellationCallbackInfo* New_ctor(System::Action_1<::Il2CppObject*>* callback, ::Il2CppObject* stateForCallback, System::Threading::SynchronizationContext* targetSyncContext, System::Threading::ExecutionContext* targetExecutionContext, System::Threading::CancellationTokenSource* cancellationTokenSource) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::CancellationCallbackInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CancellationCallbackInfo*, creationType>(callback, stateForCallback, targetSyncContext, targetExecutionContext, cancellationTokenSource)));
     }
     // System.Void ExecuteCallback()
-    // Offset: 0x16B1C94
+    // Offset: 0x1A79E48
     void ExecuteCallback();
     // static private System.Void ExecutionContextCallback(System.Object obj)
-    // Offset: 0x16B1E90
+    // Offset: 0x1A7A044
     static void ExecutionContextCallback(::Il2CppObject* obj);
   }; // System.Threading.CancellationCallbackInfo
   #pragma pack(pop)

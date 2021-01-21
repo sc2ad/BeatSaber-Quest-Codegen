@@ -42,7 +42,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: CalApplicationFinalized
     CalApplicationFinalized(int CountdownMS_ = {}, uint64_t ID_ = {}, ::Il2CppString* LaunchDetails_ = {}) noexcept : CountdownMS{CountdownMS_}, ID{ID_}, LaunchDetails{LaunchDetails_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x11D8FEC
+    // Offset: 0x13E9DF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CalApplicationFinalized* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CalApplicationFinalized::.ctor");

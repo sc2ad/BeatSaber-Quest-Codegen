@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class NumberTag : public UnityEngine::MonoBehaviour {
     public:
-    // [HideInInspector] Offset: 0xD98ED8
+    // [HideInInspector] Offset: 0xD0A218
     // public System.Int32 number
     // Size: 0x4
     // Offset: 0x18
@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void .ctor()
-    // Offset: 0x1037D14
+    // Offset: 0x1111580
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

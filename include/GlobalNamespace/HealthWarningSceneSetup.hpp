@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class HealthWarningSceneSetup : public Zenject::MonoInstaller {
     public:
-    // [InjectAttribute] Offset: 0xDD2C20
+    // [InjectAttribute] Offset: 0xD44FCC
     // private HealthWarningSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -36,12 +36,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HealthWarningSceneSetup
     HealthWarningSceneSetup(GlobalNamespace::HealthWarningSceneSetupData* sceneSetupData_ = {}) noexcept : sceneSetupData{sceneSetupData_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xF13AD8
+    // Offset: 0xFCAC3C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF13C6C
+    // Offset: 0xFCADD0
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

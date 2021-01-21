@@ -43,12 +43,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerObjectInstaller
     MultiplayerObjectInstaller(GlobalNamespace::MultiplayerScoreRingItem* inEnvironmentTextsPrefab_ = {}, GlobalNamespace::FireworkItemController* fireworkItemControllerPrefab_ = {}) noexcept : inEnvironmentTextsPrefab{inEnvironmentTextsPrefab_}, fireworkItemControllerPrefab{fireworkItemControllerPrefab_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xF77BD4
+    // Offset: 0xFEA4A4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF77C94
+    // Offset: 0xFEA564
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

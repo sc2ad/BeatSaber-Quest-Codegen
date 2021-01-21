@@ -50,16 +50,16 @@ namespace System::Diagnostics::Tracing {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.IntPtr get_DataPointer()
-    // Offset: 0xC9B99C
+    // Offset: 0xE07858
     System::IntPtr get_DataPointer();
     // public System.Void set_DataPointer(System.IntPtr value)
-    // Offset: 0xC9B9A8
+    // Offset: 0xE07864
     void set_DataPointer(System::IntPtr value);
     // public System.Void set_Size(System.Int32 value)
-    // Offset: 0xC9B9D4
+    // Offset: 0xE07890
     void set_Size(int value);
     // System.Void SetMetadata(System.Byte* pointer, System.Int32 size, System.Int32 reserved)
-    // Offset: 0xC9B9DC
+    // Offset: 0xE07898
     void SetMetadata(uint8_t* pointer, int size, int reserved);
   }; // System.Diagnostics.Tracing.EventSource/EventData
   #pragma pack(pop)

@@ -36,19 +36,19 @@ namespace System::Text {
     // Creating value type constructor for type: UTF32Decoder
     UTF32Decoder(int iChar_ = {}, int readByteCount_ = {}) noexcept : iChar{iChar_}, readByteCount{readByteCount_} {}
     // public System.Void .ctor(System.Text.UTF32Encoding encoding)
-    // Offset: 0x16A6A48
+    // Offset: 0x1A6EBFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF32Encoding::UTF32Decoder* New_ctor(System::Text::UTF32Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF32Encoding::UTF32Decoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF32Encoding::UTF32Decoder*, creationType>(encoding)));
     }
     // public override System.Void Reset()
-    // Offset: 0x16A6F40
+    // Offset: 0x1A6F0F4
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Void DecoderNLS::Reset()
     void Reset();
     // override System.Boolean get_HasState()
-    // Offset: 0x16A6F60
+    // Offset: 0x1A6F114
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Boolean DecoderNLS::get_HasState()
     bool get_HasState();

@@ -34,10 +34,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerConnectedPlayerDisappearingArrowController
     MultiplayerConnectedPlayerDisappearingArrowController(GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* gameNoteController_ = {}) noexcept : gameNoteController{gameNoteController_} {}
     // protected MultiplayerConnectedPlayerGameNoteController get_gameNoteController()
-    // Offset: 0xFA951C
+    // Offset: 0x1019430
     GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* get_gameNoteController();
     // public System.Void .ctor()
-    // Offset: 0xFA9524
+    // Offset: 0x1019438
     // Implemented from: DisappearingArrowControllerBase`1
     // Base method: System.Void DisappearingArrowControllerBase_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

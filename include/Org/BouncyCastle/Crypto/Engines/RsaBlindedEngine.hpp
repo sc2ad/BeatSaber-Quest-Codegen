@@ -63,14 +63,14 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IRsa rsa)
-    // Offset: 0x18084E4
+    // Offset: 0x1CCF1B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaBlindedEngine* New_ctor(Org::BouncyCastle::Crypto::IRsa* rsa) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaBlindedEngine*, creationType>(rsa)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1808468
+    // Offset: 0x1CCF138
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -79,22 +79,22 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<RsaBlindedEngine*, creationType>()));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters param)
-    // Offset: 0x1808518
+    // Offset: 0x1CCF1E8
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Void IAsymmetricBlockCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters param)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* param);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x180877C
+    // Offset: 0x1CCF44C
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Int32 IAsymmetricBlockCipher::GetInputBlockSize()
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x1808830
+    // Offset: 0x1CCF500
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Int32 IAsymmetricBlockCipher::GetOutputBlockSize()
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x18088E4
+    // Offset: 0x1CCF5B4
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Byte[] IAsymmetricBlockCipher::ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
     ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* inBuf, int inOff, int inLen);

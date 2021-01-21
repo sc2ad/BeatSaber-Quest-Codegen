@@ -75,34 +75,34 @@ namespace System::Reflection {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // static private System.Void get_method_info(System.IntPtr handle, out System.Reflection.MonoMethodInfo info)
-    // Offset: 0x15CD470
+    // Offset: 0x194CFF4
     static void get_method_info(System::IntPtr handle, System::Reflection::MonoMethodInfo& info);
     // static private System.Int32 get_method_attributes(System.IntPtr handle)
-    // Offset: 0x15CD474
+    // Offset: 0x194CFF8
     static int get_method_attributes(System::IntPtr handle);
     // static System.Reflection.MonoMethodInfo GetMethodInfo(System.IntPtr handle)
-    // Offset: 0x15CCF38
+    // Offset: 0x194CABC
     static System::Reflection::MonoMethodInfo GetMethodInfo(System::IntPtr handle);
     // static System.Type GetDeclaringType(System.IntPtr handle)
-    // Offset: 0x15CB6C4
+    // Offset: 0x194B248
     static System::Type* GetDeclaringType(System::IntPtr handle);
     // static System.Type GetReturnType(System.IntPtr handle)
-    // Offset: 0x15CC7C0
+    // Offset: 0x194C344
     static System::Type* GetReturnType(System::IntPtr handle);
     // static System.Reflection.MethodAttributes GetAttributes(System.IntPtr handle)
-    // Offset: 0x15CB5FC
+    // Offset: 0x194B180
     static System::Reflection::MethodAttributes GetAttributes(System::IntPtr handle);
     // static System.Reflection.CallingConventions GetCallingConvention(System.IntPtr handle)
-    // Offset: 0x15CB630
+    // Offset: 0x194B1B4
     static System::Reflection::CallingConventions GetCallingConvention(System::IntPtr handle);
     // static System.Reflection.MethodImplAttributes GetMethodImplementationFlags(System.IntPtr handle)
-    // Offset: 0x15CADA8
+    // Offset: 0x194A92C
     static System::Reflection::MethodImplAttributes GetMethodImplementationFlags(System::IntPtr handle);
     // static private System.Reflection.ParameterInfo[] get_parameter_info(System.IntPtr handle, System.Reflection.MemberInfo member)
-    // Offset: 0x15CD478
+    // Offset: 0x194CFFC
     static ::Array<System::Reflection::ParameterInfo*>* get_parameter_info(System::IntPtr handle, System::Reflection::MemberInfo* member);
     // static System.Reflection.ParameterInfo[] GetParametersInfo(System.IntPtr handle, System.Reflection.MemberInfo member)
-    // Offset: 0x15CADE0
+    // Offset: 0x194A964
     static ::Array<System::Reflection::ParameterInfo*>* GetParametersInfo(System::IntPtr handle, System::Reflection::MemberInfo* member);
   }; // System.Reflection.MonoMethodInfo
   #pragma pack(pop)

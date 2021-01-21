@@ -52,18 +52,18 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> get_leaderboardIds()
-    // Offset: 0xF029EC
+    // Offset: 0xF1EE6C
     System::Collections::Generic::List_1<GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*>* get_leaderboardIds();
     // public System.Boolean GetPS4LeaderboardId(System.String leaderboardId, out System.UInt32 ps4LeaderboardId)
-    // Offset: 0xF02B38
+    // Offset: 0xF1EFB8
     bool GetPS4LeaderboardId(::Il2CppString* leaderboardId, uint& ps4LeaderboardId);
     // protected override System.Void OnEnable()
-    // Offset: 0xF029F4
+    // Offset: 0xF1EE74
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xF02BAC
+    // Offset: 0xF1F02C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

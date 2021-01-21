@@ -40,13 +40,13 @@ namespace System::Net {
     // Set static field: static readonly System.Byte[] AsciiToLower
     static void _set_AsciiToLower(::Array<uint8_t>* value);
     // private System.Int32 FastGetHashCode(System.String myString)
-    // Offset: 0x130B9B4
+    // Offset: 0x155A748
     int FastGetHashCode(::Il2CppString* myString);
     // static private System.Void .cctor()
-    // Offset: 0x130BC50
+    // Offset: 0x155A9E4
     static void _cctor();
     // public System.Int32 GetHashCode(System.Object myObject)
-    // Offset: 0x130B70C
+    // Offset: 0x155A4A0
     // Implemented from: System.Collections.IEqualityComparer
     // Base method: System.Int32 IEqualityComparer::GetHashCode(System.Object myObject)
     int GetHashCode(::Il2CppObject* myObject);
@@ -54,7 +54,7 @@ namespace System::Net {
     // Maps to method: GetHashCode
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* myObject);
     // public System.Int32 Compare(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x130B830
+    // Offset: 0x155A5C4
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object firstObject, System.Object secondObject)
     int Compare(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
@@ -62,7 +62,7 @@ namespace System::Net {
     // Maps to method: Compare
     int System_Collections_IComparer_Compare(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
     // public System.Boolean Equals(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x130BABC
+    // Offset: 0x155A850
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object firstObject, System.Object secondObject)
     // Base method: System.Boolean IEqualityComparer::Equals(System.Object firstObject, System.Object secondObject)
@@ -71,7 +71,7 @@ namespace System::Net {
     // Maps to method: Equals
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
     // public System.Void .ctor()
-    // Offset: 0x130BC48
+    // Offset: 0x155A9DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

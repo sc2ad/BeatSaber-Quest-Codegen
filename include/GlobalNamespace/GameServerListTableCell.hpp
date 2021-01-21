@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* passwordProtected;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCCB10
+    // [InjectAttribute] Offset: 0xD3ED6C
     // private readonly SongPackMasksModel _songPackMasksModel
     // Size: 0x8
     // Offset: 0x78
@@ -78,10 +78,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameServerListTableCell
     GameServerListTableCell(HMUI::CurvedTextMeshPro* serverName_ = {}, HMUI::CurvedTextMeshPro* difficultiesText_ = {}, HMUI::CurvedTextMeshPro* musicPackText_ = {}, HMUI::CurvedTextMeshPro* playerCount_ = {}, UnityEngine::GameObject* passwordProtected_ = {}, GlobalNamespace::SongPackMasksModel* songPackMasksModel_ = {}) noexcept : serverName{serverName_}, difficultiesText{difficultiesText_}, musicPackText{musicPackText_}, playerCount{playerCount_}, passwordProtected{passwordProtected_}, songPackMasksModel{songPackMasksModel_} {}
     // public System.Void SetData(INetworkPlayer player)
-    // Offset: 0x1A1AB70
+    // Offset: 0xF34EA8
     void SetData(GlobalNamespace::INetworkPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x1A1AF38
+    // Offset: 0xF35270
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

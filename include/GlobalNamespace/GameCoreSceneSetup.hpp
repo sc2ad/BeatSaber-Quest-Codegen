@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD2C10
+    // [InjectAttribute] Offset: 0xD44FBC
     // private readonly GameCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x30
@@ -58,12 +58,12 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kPauseButtonPressDurationMultiplier
     static void _set_kPauseButtonPressDurationMultiplier(float value);
     // public override System.Void InstallBindings()
-    // Offset: 0x1A18178
+    // Offset: 0xF32114
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1A185A0
+    // Offset: 0xF3253C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

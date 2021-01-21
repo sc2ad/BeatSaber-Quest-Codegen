@@ -89,24 +89,24 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FlyingScoreEffect
     FlyingScoreEffect(UnityEngine::AnimationCurve* fadeAnimationCurve_ = {}, UnityEngine::SpriteRenderer* maxCutDistanceScoreIndicator_ = {}, TMPro::TextMeshPro* text_ = {}, UnityEngine::Color color_ = {}, float colorAMultiplier_ = {}, GlobalNamespace::NoteCutInfo* noteCutInfo_ = {}) noexcept : fadeAnimationCurve{fadeAnimationCurve_}, maxCutDistanceScoreIndicator{maxCutDistanceScoreIndicator_}, text{text_}, color{color_}, colorAMultiplier{colorAMultiplier_}, noteCutInfo{noteCutInfo_} {}
     // public System.Void InitAndPresent(NoteCutInfo noteCutInfo, System.Int32 multiplier, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color)
-    // Offset: 0x1A1501C
+    // Offset: 0xF2EFB8
     void InitAndPresent(GlobalNamespace::NoteCutInfo* noteCutInfo, int multiplier, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color);
     // protected System.Void OnDisable()
-    // Offset: 0x1A15250
+    // Offset: 0xF2F1EC
     void OnDisable();
     // private System.Void HandleSaberSwingRatingCounterDidChangeEvent(ISaberSwingRatingCounter saberSwingRatingCounter, System.Single rating)
-    // Offset: 0x1A153FC
+    // Offset: 0xF2F398
     void HandleSaberSwingRatingCounterDidChangeEvent(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter, float rating);
     // private System.String GetScoreText(System.Int32 score)
-    // Offset: 0x1A15228
+    // Offset: 0xF2F1C4
     ::Il2CppString* GetScoreText(int score);
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0x1A15350
+    // Offset: 0xF2F2EC
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);
     // public System.Void .ctor()
-    // Offset: 0x1A15498
+    // Offset: 0xF2F434
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

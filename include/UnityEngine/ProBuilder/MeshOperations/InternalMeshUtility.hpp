@@ -43,16 +43,16 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Creating value type constructor for type: InternalMeshUtility
     InternalMeshUtility() noexcept {}
     // static UnityEngine.Vector3 AverageNormalWithIndexes(UnityEngine.ProBuilder.SharedVertex shared, System.Int32[] all, System.Collections.Generic.IList`1<UnityEngine.Vector3> norm)
-    // Offset: 0x125AF04
+    // Offset: 0x1477C00
     static UnityEngine::Vector3 AverageNormalWithIndexes(UnityEngine::ProBuilder::SharedVertex* shared, ::Array<int>* all, System::Collections::Generic::IList_1<UnityEngine::Vector3>* norm);
     // static public UnityEngine.ProBuilder.ProBuilderMesh CreateMeshWithTransform(UnityEngine.Transform t, System.Boolean preserveFaces)
-    // Offset: 0x125C10C
+    // Offset: 0x1478E08
     static UnityEngine::ProBuilder::ProBuilderMesh* CreateMeshWithTransform(UnityEngine::Transform* t, bool preserveFaces);
     // static public System.Boolean ResetPbObjectWithMeshFilter(UnityEngine.ProBuilder.ProBuilderMesh pb, System.Boolean preserveFaces)
-    // Offset: 0x125CE38
+    // Offset: 0x1479B34
     static bool ResetPbObjectWithMeshFilter(UnityEngine::ProBuilder::ProBuilderMesh* pb, bool preserveFaces);
     // static System.Void FilterUnusedSubmeshIndexes(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x124D8F8
+    // Offset: 0x146A5F4
     static void FilterUnusedSubmeshIndexes(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
   }; // UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility
   #pragma pack(pop)

@@ -32,15 +32,15 @@ namespace System::Net {
     // Set static field: static readonly System.Net.PathList/PathListComparer StaticInstance
     static void _set_StaticInstance(System::Net::PathList::PathListComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x119EEB8
+    // Offset: 0x1358D04
     static void _cctor();
     // private System.Int32 System.Collections.IComparer.Compare(System.Object ol, System.Object or)
-    // Offset: 0x119ED34
+    // Offset: 0x1358B80
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object ol, System.Object or)
     int System_Collections_IComparer_Compare(::Il2CppObject* ol, ::Il2CppObject* _or);
     // public System.Void .ctor()
-    // Offset: 0x119EEB0
+    // Offset: 0x1358CFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

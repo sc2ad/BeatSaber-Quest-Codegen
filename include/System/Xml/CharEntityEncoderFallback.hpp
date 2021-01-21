@@ -68,16 +68,16 @@ namespace System::Xml {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // System.Void set_StartOffset(System.Int32 value)
-    // Offset: 0x14DF488
+    // Offset: 0x18637DC
     void set_StartOffset(int value);
     // System.Void Reset(System.Int32[] textContentMarks, System.Int32 endMarkPos)
-    // Offset: 0x14DF490
+    // Offset: 0x18637E4
     void Reset(::Array<int>* textContentMarks, int endMarkPos);
     // System.Boolean CanReplaceAt(System.Int32 index)
-    // Offset: 0x14DF4C0
+    // Offset: 0x1863814
     bool CanReplaceAt(int index);
     // System.Void .ctor()
-    // Offset: 0x14DF368
+    // Offset: 0x18636BC
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Void EncoderFallback::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -87,12 +87,12 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<CharEntityEncoderFallback*, creationType>()));
     }
     // public override System.Text.EncoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x14DF370
+    // Offset: 0x18636C4
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Text.EncoderFallbackBuffer EncoderFallback::CreateFallbackBuffer()
     System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x14DF480
+    // Offset: 0x18637D4
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
     int get_MaxCharCount();

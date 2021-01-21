@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: shockWaveYPos and: noteCutParticlesEffect
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0xDC63F0
+    // [SpaceAttribute] Offset: 0xD3840C
     // private NoteCutParticlesEffect _noteCutParticlesEffect
     // Size: 0x8
     // Offset: 0x20
@@ -87,21 +87,21 @@ namespace GlobalNamespace {
     GlobalNamespace::BombExplosionEffect* bombExplosionEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BombExplosionEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC6468
+    // [InjectAttribute] Offset: 0xD38484
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC6478
+    // [InjectAttribute] Offset: 0xD38494
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC6488
+    // [InjectAttribute] Offset: 0xD384A4
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x58
@@ -113,22 +113,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xFE1A3C
+    // Offset: 0xF9011C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFE1AD0
+    // Offset: 0xF901B0
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xFE1B70
+    // Offset: 0xF90250
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void SpawnNoteCutEffect(UnityEngine.Vector3 pos, NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xFE1C5C
+    // Offset: 0xF9033C
     void SpawnNoteCutEffect(UnityEngine::Vector3 pos, GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void SpawnBombCutEffect(UnityEngine.Vector3 pos, NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xFE1C04
+    // Offset: 0xF902E4
     void SpawnBombCutEffect(UnityEngine::Vector3 pos, GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0xFE2ACC
+    // Offset: 0xF911AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

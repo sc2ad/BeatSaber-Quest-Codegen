@@ -41,7 +41,7 @@ namespace System::Resources {
     // Creating value type constructor for type: CultureNameResourceSetPair
     CultureNameResourceSetPair(::Il2CppString* lastCultureName_ = {}, System::Resources::ResourceSet* lastResourceSet_ = {}) noexcept : lastCultureName{lastCultureName_}, lastResourceSet{lastResourceSet_} {}
     // public System.Void .ctor()
-    // Offset: 0x15D6324
+    // Offset: 0x1955EA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

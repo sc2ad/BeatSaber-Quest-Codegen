@@ -36,7 +36,7 @@ namespace NUnit::Framework::Internal::Filters {
   // [] Offset: FFFFFFFF
   class CompositeFilter : public NUnit::Framework::Internal::TestFilter {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDB32CC
+    // [CompilerGeneratedAttribute] Offset: 0xD250C8
     // private System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> <Filters>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -50,7 +50,7 @@ namespace NUnit::Framework::Internal::Filters {
       return Filters;
     }
     // public System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
-    // Offset: 0x13F1B20
+    // Offset: 0x16AE640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeFilter* New_ctor(::Array<NUnit::Framework::Interfaces::ITestFilter*>* filters) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Filters::CompositeFilter::.ctor");
@@ -67,16 +67,16 @@ namespace NUnit::Framework::Internal::Filters {
       return New_ctor<creationType>({filters...});
     }
     // public System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> get_Filters()
-    // Offset: 0x13F1F00
+    // Offset: 0x16AEA20
     System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* get_Filters();
     // private System.Void set_Filters(System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> value)
-    // Offset: 0x13F2AE0
+    // Offset: 0x16AF600
     void set_Filters(System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* value);
     // protected System.String get_ElementName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_ElementName();
     // public System.Void .ctor()
-    // Offset: 0x13F1A80
+    // Offset: 0x16AE5A0
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Void TestFilter::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -101,7 +101,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Base method: System.Boolean TestFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x13F2AE8
+    // Offset: 0x16AF608
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);

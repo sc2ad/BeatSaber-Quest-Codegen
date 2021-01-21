@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class CampaignProgressModel : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xDC3E64
+    // [InjectAttribute] Offset: 0xD35D38
     // private PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x18
@@ -70,40 +70,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Int32 get_numberOfClearedMissions()
-    // Offset: 0x1A33680
+    // Offset: 0xF64594
     int get_numberOfClearedMissions();
     // protected System.Void Awake()
-    // Offset: 0x1A337E8
+    // Offset: 0xF646FC
     void Awake();
     // public System.Boolean IsMissionRegistered(System.String missionId)
-    // Offset: 0x1A33858
+    // Offset: 0xF6476C
     bool IsMissionRegistered(::Il2CppString* missionId);
     // public System.Void RegisterMissionId(System.String missionId)
-    // Offset: 0x1A338C0
+    // Offset: 0xF647D4
     void RegisterMissionId(::Il2CppString* missionId);
     // public System.Boolean IsMissionCleared(System.String missionId)
-    // Offset: 0x1A33934
+    // Offset: 0xF64848
     bool IsMissionCleared(::Il2CppString* missionId);
     // public System.Boolean IsMissionFinal(System.String missionId)
-    // Offset: 0x1A33968
+    // Offset: 0xF6487C
     bool IsMissionFinal(::Il2CppString* missionId);
     // public System.Void SetFinalMissionId(System.String missionId)
-    // Offset: 0x1A33974
+    // Offset: 0xF64888
     void SetFinalMissionId(::Il2CppString* missionId);
     // public System.Boolean WillFinishGameAfterThisMission(System.String missionId)
-    // Offset: 0x1A333F8
+    // Offset: 0xF6430C
     bool WillFinishGameAfterThisMission(::Il2CppString* missionId);
     // public System.Void SetMissionCleared(System.String missionId)
-    // Offset: 0x1A33444
+    // Offset: 0xF64358
     void SetMissionCleared(::Il2CppString* missionId);
     // public System.Void __SetMissionCleared(System.String missionId, System.Boolean cleared)
-    // Offset: 0x1A3397C
+    // Offset: 0xF64890
     void __SetMissionCleared(::Il2CppString* missionId, bool cleared);
     // private System.Int32 UpdateNumberOfClearedMissions()
-    // Offset: 0x1A336B4
+    // Offset: 0xF645C8
     int UpdateNumberOfClearedMissions();
     // public System.Void .ctor()
-    // Offset: 0x1A339CC
+    // Offset: 0xF648E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

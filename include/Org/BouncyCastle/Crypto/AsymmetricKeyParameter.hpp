@@ -36,25 +36,25 @@ namespace Org::BouncyCastle::Crypto {
       return privateKey;
     }
     // protected System.Void .ctor(System.Boolean privateKey)
-    // Offset: 0x158D9D0
+    // Offset: 0x190E554
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsymmetricKeyParameter* New_ctor(bool privateKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::AsymmetricKeyParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsymmetricKeyParameter*, creationType>(privateKey)));
     }
     // public System.Boolean get_IsPrivate()
-    // Offset: 0x158DA00
+    // Offset: 0x190E584
     bool get_IsPrivate();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.AsymmetricKeyParameter other)
-    // Offset: 0x158DABC
+    // Offset: 0x190E640
     bool Equals(Org::BouncyCastle::Crypto::AsymmetricKeyParameter* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x158DA08
+    // Offset: 0x190E58C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x158DAEC
+    // Offset: 0x190E670
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

@@ -34,14 +34,14 @@ namespace System::Net::Http::Headers {
   // [] Offset: FFFFFFFF
   class ProductInfoHeaderValue : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD9C0D8
+    // [CompilerGeneratedAttribute] Offset: 0xD0CD28
     // private System.String <Comment>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* Comment;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD9C0E8
+    // [CompilerGeneratedAttribute] Offset: 0xD0CD38
     // private System.Net.Http.Headers.ProductHeaderValue <Product>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -55,32 +55,32 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // public System.Void .ctor(System.Net.Http.Headers.ProductHeaderValue product)
-    // Offset: 0x1207588
+    // Offset: 0x140F320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProductInfoHeaderValue* New_ctor(System::Net::Http::Headers::ProductHeaderValue* product) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::ProductInfoHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProductInfoHeaderValue*, creationType>(product)));
     }
     // public System.String get_Comment()
-    // Offset: 0x1207628
+    // Offset: 0x140F3C0
     ::Il2CppString* get_Comment();
     // private System.Void set_Comment(System.String value)
-    // Offset: 0x1207630
+    // Offset: 0x140F3C8
     void set_Comment(::Il2CppString* value);
     // public System.Net.Http.Headers.ProductHeaderValue get_Product()
-    // Offset: 0x1207638
+    // Offset: 0x140F3D0
     System::Net::Http::Headers::ProductHeaderValue* get_Product();
     // private System.Void set_Product(System.Net.Http.Headers.ProductHeaderValue value)
-    // Offset: 0x1207640
+    // Offset: 0x140F3D8
     void set_Product(System::Net::Http::Headers::ProductHeaderValue* value);
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.ProductInfoHeaderValue> result)
-    // Offset: 0x1207754
+    // Offset: 0x140F4EC
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<System::Net::Http::Headers::ProductInfoHeaderValue*>*& result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.ProductInfoHeaderValue parsedValue)
-    // Offset: 0x12078B8
+    // Offset: 0x140F650
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, System::Net::Http::Headers::ProductInfoHeaderValue*& parsedValue);
     // private System.Void .ctor()
-    // Offset: 0x1207620
+    // Offset: 0x140F3B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -89,22 +89,22 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<ProductInfoHeaderValue*, creationType>()));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1207648
+    // Offset: 0x140F3E0
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1207650
+    // Offset: 0x140F3E8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1207728
+    // Offset: 0x140F4C0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1207AFC
+    // Offset: 0x140F894
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

@@ -47,40 +47,40 @@ namespace System::Globalization {
     // Creating value type constructor for type: IdnMapping
     IdnMapping(bool allow_unassigned_ = {}, bool use_std3_ = {}, System::Globalization::Punycode* puny_ = {}) noexcept : allow_unassigned{allow_unassigned_}, use_std3{use_std3_}, puny{puny_} {}
     // public System.String GetAscii(System.String unicode)
-    // Offset: 0x162FE40
+    // Offset: 0x19AF9C4
     ::Il2CppString* GetAscii(::Il2CppString* unicode);
     // public System.String GetAscii(System.String unicode, System.Int32 index, System.Int32 count)
-    // Offset: 0x162FEDC
+    // Offset: 0x19AFA60
     ::Il2CppString* GetAscii(::Il2CppString* unicode, int index, int count);
     // private System.String Convert(System.String input, System.Int32 index, System.Int32 count, System.Boolean toAscii)
-    // Offset: 0x162FFEC
+    // Offset: 0x19AFB70
     ::Il2CppString* Convert(::Il2CppString* input, int index, int count, bool toAscii);
     // private System.String ToAscii(System.String s, System.Int32 offset)
-    // Offset: 0x1630218
+    // Offset: 0x19AFD9C
     ::Il2CppString* ToAscii(::Il2CppString* s, int offset);
     // private System.Void VerifyLength(System.String s, System.Int32 offset)
-    // Offset: 0x1630980
+    // Offset: 0x19B0504
     void VerifyLength(::Il2CppString* s, int offset);
     // private System.String NamePrep(System.String s, System.Int32 offset)
-    // Offset: 0x1630634
+    // Offset: 0x19B01B8
     ::Il2CppString* NamePrep(::Il2CppString* s, int offset);
     // private System.Void VerifyProhibitedCharacters(System.String s, System.Int32 offset)
-    // Offset: 0x1630A78
+    // Offset: 0x19B05FC
     void VerifyProhibitedCharacters(::Il2CppString* s, int offset);
     // private System.Void VerifyStd3AsciiRules(System.String s, System.Int32 offset)
-    // Offset: 0x1630790
+    // Offset: 0x19B0314
     void VerifyStd3AsciiRules(::Il2CppString* s, int offset);
     // public System.String GetUnicode(System.String ascii)
-    // Offset: 0x1630CC4
+    // Offset: 0x19B0848
     ::Il2CppString* GetUnicode(::Il2CppString* ascii);
     // public System.String GetUnicode(System.String ascii, System.Int32 index, System.Int32 count)
-    // Offset: 0x1630D60
+    // Offset: 0x19B08E4
     ::Il2CppString* GetUnicode(::Il2CppString* ascii, int index, int count);
     // private System.String ToUnicode(System.String s, System.Int32 offset)
-    // Offset: 0x1630458
+    // Offset: 0x19AFFDC
     ::Il2CppString* ToUnicode(::Il2CppString* s, int offset);
     // public System.Void .ctor()
-    // Offset: 0x162FCF8
+    // Offset: 0x19AF87C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -89,12 +89,12 @@ namespace System::Globalization {
       return THROW_UNLESS((::il2cpp_utils::New<IdnMapping*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x162FD6C
+    // Offset: 0x19AF8F0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x162FE24
+    // Offset: 0x19AF9A8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

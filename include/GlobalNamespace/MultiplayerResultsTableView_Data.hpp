@@ -49,14 +49,14 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IComparable*>(this);
     }
     // public System.Void .ctor(IConnectedPlayer connectedPlayer, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xF7A198
+    // Offset: 0xF7E848
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsTableView::Data* New_ctor(GlobalNamespace::IConnectedPlayer* connectedPlayer, GlobalNamespace::LevelCompletionResults* levelCompletionResults) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerResultsTableView::Data::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsTableView::Data*, creationType>(connectedPlayer, levelCompletionResults)));
     }
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0xF7E99C
+    // Offset: 0xF7E898
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object obj)
     int CompareTo(::Il2CppObject* obj);

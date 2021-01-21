@@ -41,27 +41,27 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // static public OVRPose get_identity()
-    // Offset: 0x12E11F8
+    // Offset: 0x1530F8C
     static GlobalNamespace::OVRPose get_identity();
     // public OVRPose Inverse()
-    // Offset: 0xC9BE64
+    // Offset: 0xE07D20
     GlobalNamespace::OVRPose Inverse();
     // public OVRPose flipZ()
-    // Offset: 0xC9BE6C
+    // Offset: 0xE07D28
     GlobalNamespace::OVRPose flipZ();
     // public OVRPlugin/Posef ToPosef_Legacy()
-    // Offset: 0xC9BE98
+    // Offset: 0xE07D54
     GlobalNamespace::OVRPlugin::Posef ToPosef_Legacy();
     // public OVRPlugin/Posef ToPosef()
-    // Offset: 0xC9BEA0
+    // Offset: 0xE07D5C
     GlobalNamespace::OVRPlugin::Posef ToPosef();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC9BE20
+    // Offset: 0xE07CDC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC9BE28
+    // Offset: 0xE07CE4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -70,13 +70,13 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPose), 12 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_OVRPoseSizeCheck;
   static_assert(sizeof(OVRPose) == 0x1C);
   // static public System.Boolean op_Equality(OVRPose x, OVRPose y)
-  // Offset: 0x12E1364
+  // Offset: 0x15310F8
   bool operator ==(const GlobalNamespace::OVRPose& x, const GlobalNamespace::OVRPose& y);
   // static public System.Boolean op_Inequality(OVRPose x, OVRPose y)
-  // Offset: 0x12E14D4
+  // Offset: 0x1531268
   bool operator !=(const GlobalNamespace::OVRPose& x, const GlobalNamespace::OVRPose& y);
   // static public OVRPose op_Multiply(OVRPose lhs, OVRPose rhs)
-  // Offset: 0x12E1520
+  // Offset: 0x15312B4
   GlobalNamespace::OVRPose operator*(const GlobalNamespace::OVRPose& lhs, const GlobalNamespace::OVRPose& rhs);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

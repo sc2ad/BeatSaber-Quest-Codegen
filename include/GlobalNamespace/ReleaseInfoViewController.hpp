@@ -60,12 +60,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ReleaseInfoViewController
     ReleaseInfoViewController(GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, HMUI::TextPageScrollView* textPageScrollView_ = {}, GlobalNamespace::LocalizedTextAsset* releaseNotesLocalizedTextAsset_ = {}, GlobalNamespace::LocalizedTextAsset* firstLocalizedTextAsset_ = {}) noexcept : mainSettingsModel{mainSettingsModel_}, textPageScrollView{textPageScrollView_}, releaseNotesLocalizedTextAsset{releaseNotesLocalizedTextAsset_}, firstLocalizedTextAsset{firstLocalizedTextAsset_} {}
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF339C4
+    // Offset: 0x107DD0C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF33A30
+    // Offset: 0x107DD78
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

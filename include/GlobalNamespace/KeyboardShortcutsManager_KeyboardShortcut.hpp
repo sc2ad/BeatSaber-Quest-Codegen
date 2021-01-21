@@ -42,19 +42,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: KeyboardShortcut
     KeyboardShortcut(UnityEngine::KeyCode mainKey_ = {}, UnityEngine::KeyCode combinationKey1_ = {}, UnityEngine::KeyCode combinationKey2_ = {}) noexcept : mainKey{mainKey_}, combinationKey1{combinationKey1_}, combinationKey2{combinationKey2_} {}
     // public System.Void .ctor(UnityEngine.KeyCode mainKey, UnityEngine.KeyCode combinationKey1, UnityEngine.KeyCode combinationKey2)
-    // Offset: 0x1037288
+    // Offset: 0x1110C18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyboardShortcutsManager::KeyboardShortcut* New_ctor(UnityEngine::KeyCode mainKey, UnityEngine::KeyCode combinationKey1, UnityEngine::KeyCode combinationKey2) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyboardShortcutsManager::KeyboardShortcut*, creationType>(mainKey, combinationKey1, combinationKey2)));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x10376F0
+    // Offset: 0x1111080
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1037704
+    // Offset: 0x1111094
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

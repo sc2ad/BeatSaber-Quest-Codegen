@@ -59,13 +59,13 @@ namespace GlobalNamespace {
       return latency;
     }
     // static public PacketPool`1<ConnectedPlayerManager/PlayerLatencyPacket> get_pool()
-    // Offset: 0x1B46FDC
+    // Offset: 0x11CE250
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket*>* get_pool();
     // public ConnectedPlayerManager/PlayerLatencyPacket Init(System.Single latency)
-    // Offset: 0x1B485FC
+    // Offset: 0x11CF870
     GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket* Init(float latency);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1B49F38
+    // Offset: 0x11D11AC
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1B49F58
+    // Offset: 0x11D11CC
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -81,12 +81,12 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1B491E8
+    // Offset: 0x11D045C
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1B49F8C
+    // Offset: 0x11D1200
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

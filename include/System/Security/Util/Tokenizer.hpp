@@ -206,26 +206,26 @@ namespace System::Security::Util {
     // Creating value type constructor for type: Tokenizer
     Tokenizer(int LineNo_ = {}, int inProcessingTag_ = {}, ::Array<uint8_t>* inBytes_ = {}, ::Array<::Il2CppChar>* inChars_ = {}, ::Il2CppString* inString_ = {}, int inIndex_ = {}, int inSize_ = {}, int inSavedCharacter_ = {}, System::Security::Util::Tokenizer::TokenSource inTokenSource_ = {}, System::Security::Util::Tokenizer::ITokenReader* inTokenReader_ = {}, System::Security::Util::Tokenizer::StringMaker* maker_ = {}, ::Array<::Il2CppString*>* searchStrings_ = {}, ::Array<::Il2CppString*>* replaceStrings_ = {}, int inNestedIndex_ = {}, int inNestedSize_ = {}, ::Il2CppString* inNestedString_ = {}) noexcept : LineNo{LineNo_}, inProcessingTag{inProcessingTag_}, inBytes{inBytes_}, inChars{inChars_}, inString{inString_}, inIndex{inIndex_}, inSize{inSize_}, inSavedCharacter{inSavedCharacter_}, inTokenSource{inTokenSource_}, inTokenReader{inTokenReader_}, maker{maker_}, searchStrings{searchStrings_}, replaceStrings{replaceStrings_}, inNestedIndex{inNestedIndex_}, inNestedSize{inNestedSize_}, inNestedString{inNestedString_} {}
     // System.Void BasicInitialization()
-    // Offset: 0x12882FC
+    // Offset: 0x14D717C
     void BasicInitialization();
     // public System.Void Recycle()
-    // Offset: 0x12881CC
+    // Offset: 0x14D704C
     void Recycle();
     // System.Void .ctor(System.String input)
-    // Offset: 0x12882A4
+    // Offset: 0x14D7124
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tokenizer* New_ctor(::Il2CppString* input) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Tokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer*, creationType>(input)));
     }
     // System.Void ChangeFormat(System.Text.Encoding encoding)
-    // Offset: 0x1287778
+    // Offset: 0x14D65F8
     void ChangeFormat(System::Text::Encoding* encoding);
     // System.Void GetTokens(System.Security.Util.TokenizerStream stream, System.Int32 maxNum, System.Boolean endAfterKet)
-    // Offset: 0x1286EE8
+    // Offset: 0x14D5D68
     void GetTokens(System::Security::Util::TokenizerStream* stream, int maxNum, bool endAfterKet);
     // private System.String GetStringToken()
-    // Offset: 0x12889DC
+    // Offset: 0x14D785C
     ::Il2CppString* GetStringToken();
   }; // System.Security.Util.Tokenizer
   #pragma pack(pop)

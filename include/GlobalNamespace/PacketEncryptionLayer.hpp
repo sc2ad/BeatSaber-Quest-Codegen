@@ -90,14 +90,14 @@ namespace GlobalNamespace {
     ::Array<uint8_t>* unencryptedTrafficFilter;
     // Field size check
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDAA3C4
+    // [CompilerGeneratedAttribute] Offset: 0xD1BFBC
     // private System.Boolean <filterUnencryptedTraffic>k__BackingField
     // Size: 0x1
     // Offset: 0x40
     bool filterUnencryptedTraffic;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xDAA3D4
+    // [CompilerGeneratedAttribute] Offset: 0xD1BFCC
     // private System.Boolean <enableStatistics>k__BackingField
     // Size: 0x1
     // Offset: 0x41
@@ -188,102 +188,102 @@ namespace GlobalNamespace {
     static ::Array<uint8_t>* _get__keyExpansionSeed();
     // Set static field: static private System.Byte[] _keyExpansionSeed
     static void _set__keyExpansionSeed(::Array<uint8_t>* value);
-    // [ThreadStaticAttribute] Offset: 0xDAA394
+    // [ThreadStaticAttribute] Offset: 0xD1BF8C
     // Get static field: static private System.Byte[] _tempIV
     static ::Array<uint8_t>* _get__tempIV();
     // Set static field: static private System.Byte[] _tempIV
     static void _set__tempIV(::Array<uint8_t>* value);
-    // [ThreadStaticAttribute] Offset: 0xDAA3A4
+    // [ThreadStaticAttribute] Offset: 0xD1BF9C
     // Get static field: static private System.Byte[] _tempHash
     static ::Array<uint8_t>* _get__tempHash();
     // Set static field: static private System.Byte[] _tempHash
     static void _set__tempHash(::Array<uint8_t>* value);
-    // [ThreadStaticAttribute] Offset: 0xDAA3B4
+    // [ThreadStaticAttribute] Offset: 0xD1BFAC
     // Get static field: static private System.Diagnostics.Stopwatch _stopwatch
     static System::Diagnostics::Stopwatch* _get__stopwatch();
     // Set static field: static private System.Diagnostics.Stopwatch _stopwatch
     static void _set__stopwatch(System::Diagnostics::Stopwatch* value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x1E4C8D4
+    // Offset: 0x1C15C90
     static void NoDomainReloadInit();
     // private System.Void .ctor(System.Security.Cryptography.AesCryptoServiceProvider aes)
-    // Offset: 0x1E4C9F0
+    // Offset: 0x1C15DAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PacketEncryptionLayer* New_ctor(System::Security::Cryptography::AesCryptoServiceProvider* aes) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketEncryptionLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PacketEncryptionLayer*, creationType>(aes)));
     }
     // public System.Boolean get_filterUnencryptedTraffic()
-    // Offset: 0x1E4CB40
+    // Offset: 0x1C15EFC
     bool get_filterUnencryptedTraffic();
     // public System.Void set_filterUnencryptedTraffic(System.Boolean value)
-    // Offset: 0x1E4CB48
+    // Offset: 0x1C15F04
     void set_filterUnencryptedTraffic(bool value);
     // public System.Boolean get_enableStatistics()
-    // Offset: 0x1E4CB54
+    // Offset: 0x1C15F10
     bool get_enableStatistics();
     // public System.Void set_enableStatistics(System.Boolean value)
-    // Offset: 0x1E4CB5C
+    // Offset: 0x1C15F18
     void set_enableStatistics(bool value);
     // public System.Void SetUnencryptedTrafficFilter(System.Byte[] unencryptedTrafficFilter)
-    // Offset: 0x1E4D9B4
+    // Offset: 0x1C16D70
     void SetUnencryptedTrafficFilter(::Array<uint8_t>* unencryptedTrafficFilter);
     // public PacketEncryptionLayer/IEncryptionState AddEncryptedEndpoint(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, System.Byte[] preMasterSecret, System.Byte[] serverRandom, System.Byte[] clientRandom, System.Boolean isClient)
-    // Offset: 0x1E4D9BC
+    // Offset: 0x1C16D78
     GlobalNamespace::PacketEncryptionLayer::IEncryptionState* AddEncryptedEndpoint(uint protocolVersion, System::Net::IPEndPoint* endPoint, ::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverRandom, ::Array<uint8_t>* clientRandom, bool isClient);
     // public System.Boolean RemoveEncryptedEndpoint(System.Net.IPEndPoint endPoint, PacketEncryptionLayer/IEncryptionState encryptedState)
-    // Offset: 0x1E4DD90
+    // Offset: 0x1C1714C
     bool RemoveEncryptedEndpoint(System::Net::IPEndPoint* endPoint, GlobalNamespace::PacketEncryptionLayer::IEncryptionState* encryptedState);
     // public System.Void AddPendingEncryptedEndpoint(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, System.Byte[] preMasterSecret, System.Byte[] serverRandom, System.Byte[] clientRandom, System.Boolean isClient)
-    // Offset: 0x1E4E128
+    // Offset: 0x1C174E4
     void AddPendingEncryptedEndpoint(uint protocolVersion, System::Net::IPEndPoint* endPoint, ::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverRandom, ::Array<uint8_t>* clientRandom, bool isClient);
     // public System.Void PollUpdate()
-    // Offset: 0x1E4E3F0
+    // Offset: 0x1C177AC
     void PollUpdate();
     // public System.Void RemoveAllEndpoints()
-    // Offset: 0x1E4E584
+    // Offset: 0x1C17940
     void RemoveAllEndpoints();
     // private System.Boolean TryGetEncryptionState(System.Net.IPEndPoint endPoint, out PacketEncryptionLayer/EncryptionState state)
-    // Offset: 0x1E4E718
+    // Offset: 0x1C17AD4
     bool TryGetEncryptionState(System::Net::IPEndPoint* endPoint, GlobalNamespace::PacketEncryptionLayer::EncryptionState*& state);
     // private System.Boolean TryGetPendingEncryptionState(System.Net.IPEndPoint endPoint, out PacketEncryptionLayer/EncryptionState state)
-    // Offset: 0x1E4E830
+    // Offset: 0x1C17BEC
     bool TryGetPendingEncryptionState(System::Net::IPEndPoint* endPoint, GlobalNamespace::PacketEncryptionLayer::EncryptionState*& state);
     // private System.Boolean TryGetPotentialPendingEncryptionStates(System.Net.IPEndPoint endPoint, out PacketEncryptionLayer/EncryptionState[] encryptionStates)
-    // Offset: 0x1E4EB40
+    // Offset: 0x1C17EFC
     bool TryGetPotentialPendingEncryptionStates(System::Net::IPEndPoint* endPoint, ::Array<GlobalNamespace::PacketEncryptionLayer::EncryptionState*>*& encryptionStates);
     // private System.Void PromotePendingEncryptionState(System.Net.IPEndPoint endPoint, PacketEncryptionLayer/EncryptionState state)
-    // Offset: 0x1E4EE58
+    // Offset: 0x1C18214
     void PromotePendingEncryptionState(System::Net::IPEndPoint* endPoint, GlobalNamespace::PacketEncryptionLayer::EncryptionState* state);
     // private System.Boolean MatchesFilter(System.Byte[] data, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1E4F208
+    // Offset: 0x1C185C4
     bool MatchesFilter(::Array<uint8_t>* data, int offset, int length);
     // private System.Boolean ProcessInboundPacketInternal(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, out System.Boolean encrypted)
-    // Offset: 0x1E4CDB0
+    // Offset: 0x1C1616C
     bool ProcessInboundPacketInternal(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length, bool& encrypted);
     // private System.Boolean TryDecryptData(System.Byte[] data, PacketEncryptionLayer/EncryptionState state, System.Int32 startingOffset, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1E4F290
+    // Offset: 0x1C1864C
     bool TryDecryptData(::Array<uint8_t>* data, GlobalNamespace::PacketEncryptionLayer::EncryptionState* state, int startingOffset, int& offset, int& length);
     // public System.Boolean ProcessOutBoundPacketInternal(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, out System.Boolean encrypted)
-    // Offset: 0x1E4D1F0
+    // Offset: 0x1C165AC
     bool ProcessOutBoundPacketInternal(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length, bool& encrypted);
     // static private System.Void FastCopyBlock(System.Byte[] inArr, System.Int32 inOff, System.Byte[] outArr, System.Int32 outOff)
-    // Offset: 0x1E50188
+    // Offset: 0x1C19544
     static void FastCopyBlock(::Array<uint8_t>* inArr, int inOff, ::Array<uint8_t>* outArr, int outOff);
     // static private System.Void FastCopyMac(System.Byte[] inArr, System.Int32 inOff, System.Byte[] outArr, System.Int32 outOff)
-    // Offset: 0x1E504A8
+    // Offset: 0x1C19864
     static void FastCopyMac(::Array<uint8_t>* inArr, int inOff, ::Array<uint8_t>* outArr, int outOff);
     // static public System.Void Log(System.String message)
-    // Offset: 0x1E506A8
+    // Offset: 0x1C19A64
     static void Log(::Il2CppString* message);
     // static public System.Void LogV(System.String message)
-    // Offset: 0x1E50730
+    // Offset: 0x1C19AEC
     static void LogV(::Il2CppString* message);
     // static private System.Void .cctor()
-    // Offset: 0x1E507B8
+    // Offset: 0x1C19B74
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1E4CB68
+    // Offset: 0x1C15F24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -292,12 +292,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PacketEncryptionLayer*, creationType>()));
     }
     // public override System.Void ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1E4CBCC
+    // Offset: 0x1C15F88
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessInboundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
     // public override System.Void ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1E4D020
+    // Offset: 0x1C163DC
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);

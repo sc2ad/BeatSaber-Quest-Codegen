@@ -23,10 +23,10 @@ namespace UnityEngine::_Scripting::APIUpdating {
     // Creating value type constructor for type: APIUpdaterRuntimeHelpers
     APIUpdaterRuntimeHelpers() noexcept {}
     // static System.Boolean GetMovedFromAttributeDataForType(System.Type sourceType, out System.String assembly, out System.String nsp, out System.String klass)
-    // Offset: 0x16CE174
+    // Offset: 0x1ABFFEC
     static bool GetMovedFromAttributeDataForType(System::Type* sourceType, ::Il2CppString*& assembly, ::Il2CppString*& nsp, ::Il2CppString*& klass);
     // static System.Boolean GetObsoleteTypeRedirection(System.Type sourceType, out System.String assemblyName, out System.String nsp, out System.String className)
-    // Offset: 0x16CE2E8
+    // Offset: 0x1AC0160
     static bool GetObsoleteTypeRedirection(System::Type* sourceType, ::Il2CppString*& assemblyName, ::Il2CppString*& nsp, ::Il2CppString*& className);
   }; // UnityEngine._Scripting.APIUpdating.APIUpdaterRuntimeHelpers
   #pragma pack(pop)

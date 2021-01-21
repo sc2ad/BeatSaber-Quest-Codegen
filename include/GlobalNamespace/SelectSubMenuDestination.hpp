@@ -81,6 +81,12 @@ namespace GlobalNamespace {
       static GlobalNamespace::SelectSubMenuDestination::Destination _get_Tutorial();
       // Set static field: static public SelectSubMenuDestination/Destination Tutorial
       static void _set_Tutorial(GlobalNamespace::SelectSubMenuDestination::Destination value);
+      // static field const value: static public SelectSubMenuDestination/Destination Multiplayer
+      static constexpr const int Multiplayer = 6;
+      // Get static field: static public SelectSubMenuDestination/Destination Multiplayer
+      static GlobalNamespace::SelectSubMenuDestination::Destination _get_Multiplayer();
+      // Set static field: static public SelectSubMenuDestination/Destination Multiplayer
+      static void _set_Multiplayer(GlobalNamespace::SelectSubMenuDestination::Destination value);
     }; // SelectSubMenuDestination/Destination
     #pragma pack(pop)
     static check_size<sizeof(SelectSubMenuDestination::Destination), 0 + sizeof(int)> __GlobalNamespace_SelectSubMenuDestination_DestinationSizeCheck;
@@ -98,7 +104,7 @@ namespace GlobalNamespace {
       return menuDestination;
     }
     // public System.Void .ctor(SelectSubMenuDestination/Destination menuDestination)
-    // Offset: 0xFCA6F8
+    // Offset: 0x10903D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectSubMenuDestination* New_ctor(GlobalNamespace::SelectSubMenuDestination::Destination menuDestination) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectSubMenuDestination::.ctor");

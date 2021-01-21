@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Crypto {
     // Creating value type constructor for type: MaxBytesExceededException
     MaxBytesExceededException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x14A24CC
+    // Offset: 0x17D0C14
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Crypto {
       return THROW_UNLESS((::il2cpp_utils::New<MaxBytesExceededException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x14A24D4
+    // Offset: 0x17D0C1C
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)

@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatEffect::Pool
     class Pool;
-    // [CompilerGeneratedAttribute] Offset: 0xDC6598
+    // [CompilerGeneratedAttribute] Offset: 0xD385B4
     // private System.Action`1<BeatEffect> didFinishEvent
     // Size: 0x8
     // Offset: 0x18
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TubeBloomPrePassLight*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDC65D8
+    // [SpaceAttribute] Offset: 0xD385F4
     // private UnityEngine.AnimationCurve _lightIntensityCurve
     // Size: 0x8
     // Offset: 0x38
@@ -119,19 +119,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<BeatEffect> value)
-    // Offset: 0x1A774AC
+    // Offset: 0x10672D8
     void add_didFinishEvent(System::Action_1<GlobalNamespace::BeatEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BeatEffect> value)
-    // Offset: 0x1A77550
+    // Offset: 0x106737C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::BeatEffect*>* value);
     // public System.Void Init(UnityEngine.Color color, System.Single animationDuration, UnityEngine.Quaternion rotation)
-    // Offset: 0x1A775F4
+    // Offset: 0x1067420
     void Init(UnityEngine::Color color, float animationDuration, UnityEngine::Quaternion rotation);
     // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0x1A776EC
+    // Offset: 0x1067518
     void ManualUpdate(float deltaTime);
     // public System.Void .ctor()
-    // Offset: 0x1A778B4
+    // Offset: 0x10676E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

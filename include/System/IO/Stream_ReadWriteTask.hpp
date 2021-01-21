@@ -96,20 +96,20 @@ namespace System::IO {
     // Set static field: static private System.Threading.ContextCallback s_invokeAsyncCallback
     static void _set_s_invokeAsyncCallback(System::Threading::ContextCallback* value);
     // System.Void ClearBeginState()
-    // Offset: 0x13A7950
+    // Offset: 0x164897C
     void ClearBeginState();
     // public System.Void .ctor(System.Boolean isRead, System.Func`2<System.Object,System.Int32> function, System.Object state, System.IO.Stream stream, System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback)
-    // Offset: 0x13A60E8
+    // Offset: 0x1647114
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::ReadWriteTask* New_ctor(bool isRead, System::Func_2<::Il2CppObject*, int>* function, ::Il2CppObject* state, System::IO::Stream* stream, ::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::ReadWriteTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::ReadWriteTask*, creationType>(isRead, function, state, stream, buffer, offset, count, callback)));
     }
     // static private System.Void InvokeAsyncCallback(System.Object completedTask)
-    // Offset: 0x13A8304
+    // Offset: 0x1649330
     static void InvokeAsyncCallback(::Il2CppObject* completedTask);
     // private System.Void System.Threading.Tasks.ITaskCompletionAction.Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x13A8390
+    // Offset: 0x16493BC
     // Implemented from: System.Threading.Tasks.ITaskCompletionAction
     // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task completingTask)
     void System_Threading_Tasks_ITaskCompletionAction_Invoke(System::Threading::Tasks::Task* completingTask);

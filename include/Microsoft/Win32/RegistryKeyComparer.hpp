@@ -26,7 +26,7 @@ namespace Microsoft::Win32 {
       return *reinterpret_cast<System::Collections::IEqualityComparer*>(this);
     }
     // public System.Boolean Equals(System.Object x, System.Object y)
-    // Offset: 0x151675C
+    // Offset: 0x1883D8C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object x, System.Object y)
     // Base method: System.Boolean IEqualityComparer::Equals(System.Object x, System.Object y)
@@ -35,7 +35,7 @@ namespace Microsoft::Win32 {
     // Maps to method: Equals
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x1516810
+    // Offset: 0x1883E40
     // Implemented from: System.Collections.IEqualityComparer
     // Base method: System.Int32 IEqualityComparer::GetHashCode(System.Object obj)
     int GetHashCode(::Il2CppObject* obj);
@@ -43,7 +43,7 @@ namespace Microsoft::Win32 {
     // Maps to method: GetHashCode
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x1511214
+    // Offset: 0x187E844
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

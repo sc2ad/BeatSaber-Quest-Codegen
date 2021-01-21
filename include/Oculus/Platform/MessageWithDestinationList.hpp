@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithDestinationList
     MessageWithDestinationList() noexcept {}
     // protected Oculus.Platform.Models.DestinationList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x11D9FA8
+    // Offset: 0x13EADB0
     Oculus::Platform::Models::DestinationList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x11D5DE8
+    // Offset: 0x13E6BF0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,7 +41,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithDestinationList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.DestinationList GetDestinationList()
-    // Offset: 0x11D9F64
+    // Offset: 0x13EAD6C
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.DestinationList Message::GetDestinationList()
     Oculus::Platform::Models::DestinationList* GetDestinationList();

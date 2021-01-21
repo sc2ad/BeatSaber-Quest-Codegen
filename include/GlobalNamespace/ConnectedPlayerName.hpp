@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* nameText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC238C
+    // [InjectAttribute] Offset: 0xD34250
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x20
@@ -49,10 +49,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1A53ABC
+    // Offset: 0x104337C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1A53B88
+    // Offset: 0x1043448
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

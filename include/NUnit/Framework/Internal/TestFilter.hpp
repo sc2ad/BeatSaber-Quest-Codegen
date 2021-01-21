@@ -47,26 +47,26 @@ namespace NUnit::Framework::Internal {
     // Offset: 0xFFFFFFFF
     bool Match(NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean MatchParent(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x195C410
+    // Offset: 0x2225104
     bool MatchParent(NUnit::Framework::Interfaces::ITest* test);
     // protected System.Boolean MatchDescendant(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x195C620
+    // Offset: 0x2225314
     bool MatchDescendant(NUnit::Framework::Interfaces::ITest* test);
     // static private System.Void .cctor()
-    // Offset: 0x195CA84
+    // Offset: 0x2225778
     static void _cctor();
     // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x195C3B0
+    // Offset: 0x22250A4
     // Implemented from: NUnit.Framework.Interfaces.ITestFilter
     // Base method: System.Boolean ITestFilter::Pass(NUnit.Framework.Interfaces.ITest test)
     bool Pass(NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x195C5D0
+    // Offset: 0x22252C4
     // Implemented from: NUnit.Framework.Interfaces.ITestFilter
     // Base method: System.Boolean ITestFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x195C9F4
+    // Offset: 0x22256E8
     // Implemented from: NUnit.Framework.Interfaces.IXmlNodeBuilder
     // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::ToXml(System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
@@ -76,7 +76,7 @@ namespace NUnit::Framework::Internal {
     // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // protected System.Void .ctor()
-    // Offset: 0x195CA7C
+    // Offset: 0x2225770
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -71,7 +71,7 @@ namespace OnlineServices {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, OnlineServices.ScoresScope scope, GameplayModifiers gameplayModifiers)
-    // Offset: 0xC91E50
+    // Offset: 0xDF2234
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GetLeaderboardFilterData(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, OnlineServices::ScoresScope scope, GlobalNamespace::GameplayModifiers* gameplayModifiers)
   }; // OnlineServices.GetLeaderboardFilterData

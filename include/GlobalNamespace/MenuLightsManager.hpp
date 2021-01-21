@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: smooth and: lightManager
     char __padding1[0x4] = {};
-    // [InjectAttribute] Offset: 0xDC6950
+    // [InjectAttribute] Offset: 0xD3896C
     // private LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x28
@@ -72,34 +72,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x1A720B8
+    // Offset: 0x1062818
     System::Collections::IEnumerator* Start();
     // protected System.Void Update()
-    // Offset: 0x1A72160
+    // Offset: 0x10628C0
     void Update();
     // private System.Boolean IsColorVeryCloseToColor(UnityEngine.Color color0, UnityEngine.Color color1)
-    // Offset: 0x1A72314
+    // Offset: 0x1062A74
     bool IsColorVeryCloseToColor(UnityEngine::Color color0, UnityEngine::Color color1);
     // private System.Void SetColor(System.Int32 lightId, UnityEngine.Color color)
-    // Offset: 0x1A7243C
+    // Offset: 0x1062B9C
     void SetColor(int lightId, UnityEngine::Color color);
     // private UnityEngine.Color CurrentColorForID(System.Int32 lightId)
-    // Offset: 0x1A72458
+    // Offset: 0x1062BB8
     UnityEngine::Color CurrentColorForID(int lightId);
     // private System.Boolean SetColorsFromPreset(MenuLightsPresetSO preset, System.Single interpolationFactor)
-    // Offset: 0x1A721B0
+    // Offset: 0x1062910
     bool SetColorsFromPreset(GlobalNamespace::MenuLightsPresetSO* preset, float interpolationFactor);
     // private System.Void RefreshLightsDictForPreset(MenuLightsPresetSO preset)
-    // Offset: 0x1A724B0
+    // Offset: 0x1062C10
     void RefreshLightsDictForPreset(GlobalNamespace::MenuLightsPresetSO* preset);
     // public System.Void SetColorPreset(MenuLightsPresetSO preset, System.Boolean animated)
-    // Offset: 0x1A6C6A0
+    // Offset: 0x105C8A8
     void SetColorPreset(GlobalNamespace::MenuLightsPresetSO* preset, bool animated);
     // public System.Void RefreshColors()
-    // Offset: 0x1A72588
+    // Offset: 0x1062CE8
     void RefreshColors();
     // public System.Void .ctor()
-    // Offset: 0x1A72630
+    // Offset: 0x1062D90
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

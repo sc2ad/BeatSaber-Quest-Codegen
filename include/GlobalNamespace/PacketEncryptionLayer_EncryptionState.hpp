@@ -133,43 +133,43 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kReceivedSequencNumBufferLength
     static void _set_kReceivedSequencNumBufferLength(int value);
     // public System.Byte[] ComputeSendMac(System.Byte[] data, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1E4FF74
+    // Offset: 0x1C19330
     ::Array<uint8_t>* ComputeSendMac(::Array<uint8_t>* data, int offset, int count);
     // public System.Byte[] ComputeReceiveMac(System.Byte[] data, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1E4FA88
+    // Offset: 0x1C18E44
     ::Array<uint8_t>* ComputeReceiveMac(::Array<uint8_t>* data, int offset, int count);
     // public System.Boolean IsValidSequenceNum(System.UInt32 sequenceNum)
-    // Offset: 0x1E4F938
+    // Offset: 0x1C18CF4
     bool IsValidSequenceNum(uint sequenceNum);
     // public System.Boolean PutSequenceNum(System.UInt32 sequenceNum)
-    // Offset: 0x1E4FC9C
+    // Offset: 0x1C19058
     bool PutSequenceNum(uint sequenceNum);
     // public System.UInt32 GetNextSentSequenceNum()
-    // Offset: 0x1E4FED8
+    // Offset: 0x1C19294
     uint GetNextSentSequenceNum();
     // public System.Void .ctor(System.UInt32 protocolVersion, System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
-    // Offset: 0x1E4DAF8
+    // Offset: 0x1C16EB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PacketEncryptionLayer::EncryptionState* New_ctor(uint protocolVersion, ::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverSeed, ::Array<uint8_t>* clientSeed, bool isClient) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketEncryptionLayer::EncryptionState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PacketEncryptionLayer::EncryptionState*, creationType>(protocolVersion, preMasterSecret, serverSeed, clientSeed, isClient)));
     }
     // private System.Byte[] MakeSeed(System.Byte[] baseSeed, System.Byte[] serverSeed, System.Byte[] clientSeed)
-    // Offset: 0x1E508A0
+    // Offset: 0x1C19C5C
     ::Array<uint8_t>* MakeSeed(::Array<uint8_t>* baseSeed, ::Array<uint8_t>* serverSeed, ::Array<uint8_t>* clientSeed);
     // static private System.Byte[] PRF(System.Byte[] key, System.Byte[] seed, System.Int32 length)
-    // Offset: 0x1E50988
+    // Offset: 0x1C19D44
     static ::Array<uint8_t>* PRF(::Array<uint8_t>* key, ::Array<uint8_t>* seed, int length);
     // static private System.Void PRF_Hash(System.Byte[] key, System.Byte[] seed, ref System.Int32 length)
-    // Offset: 0x1E50A78
+    // Offset: 0x1C19E34
     static void PRF_Hash(::Array<uint8_t>* key, ::Array<uint8_t>* seed, int& length);
     // public System.Boolean get_isValid()
-    // Offset: 0x1E5087C
+    // Offset: 0x1C19C38
     // Implemented from: PacketEncryptionLayer/IEncryptionState
     // Base method: System.Boolean IEncryptionState::get_isValid()
     bool get_isValid();
     // public System.Void Dispose()
-    // Offset: 0x1E50C40
+    // Offset: 0x1C19FFC
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

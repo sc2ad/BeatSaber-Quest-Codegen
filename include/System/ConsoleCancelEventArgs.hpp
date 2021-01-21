@@ -36,17 +36,17 @@ namespace System {
     // Creating value type constructor for type: ConsoleCancelEventArgs
     ConsoleCancelEventArgs(System::ConsoleSpecialKey type_ = {}, bool cancel_ = {}) noexcept : type{type_}, cancel{cancel_} {}
     // System.Void .ctor(System.ConsoleSpecialKey type)
-    // Offset: 0x1531D4C
+    // Offset: 0x18A037C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConsoleCancelEventArgs* New_ctor(System::ConsoleSpecialKey type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ConsoleCancelEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConsoleCancelEventArgs*, creationType>(type)));
     }
     // public System.Boolean get_Cancel()
-    // Offset: 0x153294C
+    // Offset: 0x18A0F7C
     bool get_Cancel();
     // System.Void .ctor()
-    // Offset: 0x1532954
+    // Offset: 0x18A0F84
     // Implemented from: System.EventArgs
     // Base method: System.Void EventArgs::.ctor()
     // Base method: System.Void Object::.ctor()

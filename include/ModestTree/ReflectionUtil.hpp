@@ -78,16 +78,16 @@ namespace ModestTree {
     // Creating value type constructor for type: ReflectionUtil
     ReflectionUtil() noexcept {}
     // static public System.Array CreateArray(System.Type elementType, System.Collections.Generic.List`1<System.Object> instances)
-    // Offset: 0x10E4C60
+    // Offset: 0x125A19C
     static System::Array* CreateArray(System::Type* elementType, System::Collections::Generic::List_1<::Il2CppObject*>* instances);
     // static public System.Collections.IList CreateGenericList(System.Type elementType, System.Collections.Generic.List`1<System.Object> instances)
-    // Offset: 0x10E4F18
+    // Offset: 0x125A454
     static System::Collections::IList* CreateGenericList(System::Type* elementType, System::Collections::Generic::List_1<::Il2CppObject*>* instances);
     // static public System.String ToDebugString(System.Reflection.MethodInfo method)
-    // Offset: 0x10E5304
+    // Offset: 0x125A840
     static ::Il2CppString* ToDebugString(System::Reflection::MethodInfo* method);
     // static public System.String ToDebugString(System.Action action)
-    // Offset: 0x10E5454
+    // Offset: 0x125A990
     static ::Il2CppString* ToDebugString(System::Action* action);
     // static public System.String ToDebugString(System.Action`1<TParam1> action)
     // Offset: 0xFFFFFFFF

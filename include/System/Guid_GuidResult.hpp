@@ -78,22 +78,22 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void Init(System.Guid/GuidParseThrowStyle canThrow)
-    // Offset: 0xC9FDB4
+    // Offset: 0xE0D89C
     void Init(System::Guid::GuidParseThrowStyle canThrow);
     // System.Void SetFailure(System.Exception nativeException)
-    // Offset: 0xC9FDBC
+    // Offset: 0xE0D8A4
     void SetFailure(System::Exception* nativeException);
     // System.Void SetFailure(System.Guid/ParseFailureKind failure, System.String failureMessageID)
-    // Offset: 0xC9FDCC
+    // Offset: 0xE0D8B4
     void SetFailure(System::Guid::ParseFailureKind failure, ::Il2CppString* failureMessageID);
     // System.Void SetFailure(System.Guid/ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0xC9FDE0
+    // Offset: 0xE0D8C8
     void SetFailure(System::Guid::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.Guid/ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName, System.Exception innerException)
-    // Offset: 0xC9FDF0
+    // Offset: 0xE0D8D8
     void SetFailure(System::Guid::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::Il2CppString* failureArgumentName, System::Exception* innerException);
     // System.Exception GetGuidParseException()
-    // Offset: 0xC9FDF8
+    // Offset: 0xE0D8E0
     System::Exception* GetGuidParseException();
   }; // System.Guid/GuidResult
   #pragma pack(pop)

@@ -76,17 +76,17 @@ namespace OnlineServices {
     // Creating value type constructor for type: PlatformServicesAvailabilityInfo
     PlatformServicesAvailabilityInfo(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability availability_ = {}, ::Il2CppString* localizedMessage_ = {}) noexcept : availability{availability_}, localizedMessage{localizedMessage_} {}
     // private System.Void .ctor(OnlineServices.PlatformServicesAvailabilityInfo/OnlineServicesAvailability availability, System.String localizedMessage)
-    // Offset: 0xEFF5B0
+    // Offset: 0xF1BA30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformServicesAvailabilityInfo* New_ctor(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability availability, ::Il2CppString* localizedMessage) {
       static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::PlatformServicesAvailabilityInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformServicesAvailabilityInfo*, creationType>(availability, localizedMessage)));
     }
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_everythingOK()
-    // Offset: 0xEFF4E0
+    // Offset: 0xF1B960
     static OnlineServices::PlatformServicesAvailabilityInfo* get_everythingOK();
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_onlineServicesUnavailableError()
-    // Offset: 0xEFF5F4
+    // Offset: 0xF1BA74
     static OnlineServices::PlatformServicesAvailabilityInfo* get_onlineServicesUnavailableError();
   }; // OnlineServices.PlatformServicesAvailabilityInfo
   #pragma pack(pop)

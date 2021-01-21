@@ -43,28 +43,28 @@ namespace System::Diagnostics::Tracing {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void Start()
-    // Offset: 0xC9BB0C
+    // Offset: 0xE079C8
     void Start();
     // public System.Void Append(System.Byte input)
-    // Offset: 0xC9BB14
+    // Offset: 0xE079D0
     void Append(uint8_t input);
     // public System.Void Append(System.Byte[] input)
-    // Offset: 0xC9BB1C
+    // Offset: 0xE079D8
     void Append(::Array<uint8_t>* input);
     // public System.Void Finish(System.Byte[] output)
-    // Offset: 0xC9BB24
+    // Offset: 0xE079E0
     void Finish(::Array<uint8_t>* output);
     // private System.Void Drain()
-    // Offset: 0xC9BB2C
+    // Offset: 0xE079E8
     void Drain();
     // static private System.UInt32 Rol1(System.UInt32 input)
-    // Offset: 0x12D8808
+    // Offset: 0x152759C
     static uint Rol1(uint input);
     // static private System.UInt32 Rol5(System.UInt32 input)
-    // Offset: 0x12D8810
+    // Offset: 0x15275A4
     static uint Rol5(uint input);
     // static private System.UInt32 Rol30(System.UInt32 input)
-    // Offset: 0x12D8818
+    // Offset: 0x15275AC
     static uint Rol30(uint input);
   }; // System.Diagnostics.Tracing.EventSource/Sha1ForNonSecretPurposes
   #pragma pack(pop)

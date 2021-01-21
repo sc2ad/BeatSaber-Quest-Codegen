@@ -50,28 +50,28 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return time;
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Object time)
-    // Offset: 0x157F2F4
+    // Offset: 0x18FFE78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Time* New_ctor(Org::BouncyCastle::Asn1::Asn1Object* time) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::Time::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Time*, creationType>(time)));
     }
     // static public Org.BouncyCastle.Asn1.X509.Time GetInstance(System.Object obj)
-    // Offset: 0x1579D7C
+    // Offset: 0x18FA900
     static Org::BouncyCastle::Asn1::X509::Time* GetInstance(::Il2CppObject* obj);
     // public System.String GetTime()
-    // Offset: 0x157F424
+    // Offset: 0x18FFFA8
     ::Il2CppString* GetTime();
     // public System.DateTime ToDateTime()
-    // Offset: 0x157F510
+    // Offset: 0x1900094
     System::DateTime ToDateTime();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x157F6E4
+    // Offset: 0x1900268
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x157F6EC
+    // Offset: 0x1900270
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

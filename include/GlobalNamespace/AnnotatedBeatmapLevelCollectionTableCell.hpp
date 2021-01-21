@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::GameObject*>* newPromoRibbonObjects;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::GameObject*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDCC8E0
+    // [SpaceAttribute] Offset: 0xD3EB3C
     // private UnityEngine.Color _selectedColor0
     // Size: 0x10
     // Offset: 0x70
@@ -121,40 +121,40 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AnnotatedBeatmapLevelCollectionTableCell
     AnnotatedBeatmapLevelCollectionTableCell(TMPro::TextMeshProUGUI* infoText_ = {}, UnityEngine::UI::Image* coverImage_ = {}, HMUI::ImageView* selectionImage_ = {}, ::Array<UnityEngine::GameObject*>* newPromoRibbonObjects_ = {}, UnityEngine::Color selectedColor0_ = {}, UnityEngine::Color selectedColor1_ = {}, UnityEngine::Color highlightedColor0_ = {}, UnityEngine::Color highlightedColor1_ = {}, GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}) noexcept : infoText{infoText_}, coverImage{coverImage_}, selectionImage{selectionImage_}, newPromoRibbonObjects{newPromoRibbonObjects_}, selectedColor0{selectedColor0_}, selectedColor1{selectedColor1_}, highlightedColor0{highlightedColor0_}, highlightedColor1{highlightedColor1_}, annotatedBeatmapLevelCollection{annotatedBeatmapLevelCollection_}, cancellationTokenSource{cancellationTokenSource_} {}
     // public System.Void set_showNewRibbon(System.Boolean value)
-    // Offset: 0x1A3CF3C
+    // Offset: 0x102B914
     void set_showNewRibbon(bool value);
     // public System.Void SetData(IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection)
-    // Offset: 0x1A3CFB8
+    // Offset: 0x102B990
     void SetData(GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection);
     // private System.Void RefreshVisuals()
-    // Offset: 0x1A3D300
+    // Offset: 0x102BCD8
     void RefreshVisuals();
     // private System.String GetInfoText(System.String name, System.Int32 songs, System.Int32 purchased)
-    // Offset: 0x1A3D214
+    // Offset: 0x102BBEC
     ::Il2CppString* GetInfoText(::Il2CppString* name, int songs, int purchased);
     // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel)
-    // Offset: 0x1A3D428
+    // Offset: 0x102BE00
     void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel* contentModel);
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x1A3D414
+    // Offset: 0x102BDEC
     void CancelAsyncOperations();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x1A3D2FC
+    // Offset: 0x102BCD4
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x1A3D3FC
+    // Offset: 0x102BDD4
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void WasPreparedForReuse()
-    // Offset: 0x1A3D400
+    // Offset: 0x102BDD8
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::WasPreparedForReuse()
     void WasPreparedForReuse();
     // public System.Void .ctor()
-    // Offset: 0x1A3D518
+    // Offset: 0x102BEF0
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

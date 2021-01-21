@@ -88,28 +88,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public SceneInfo get_sceneInfo()
-    // Offset: 0x1A0D420
+    // Offset: 0xF270C4
     GlobalNamespace::SceneInfo* get_sceneInfo();
     // public System.String get_environmentName()
-    // Offset: 0x1A0D428
+    // Offset: 0xF270CC
     ::Il2CppString* get_environmentName();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x1A0D430
+    // Offset: 0xF270D4
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.String get_serializedName()
-    // Offset: 0x1A0D438
+    // Offset: 0xF270DC
     ::Il2CppString* get_serializedName();
     // public EnvironmentTypeSO get_environmentType()
-    // Offset: 0x1A0D440
+    // Offset: 0xF270E4
     GlobalNamespace::EnvironmentTypeSO* get_environmentType();
     // public EnvironmentSizeData get_environmentSizeData()
-    // Offset: 0x1A0D448
+    // Offset: 0xF270EC
     GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
-    // Offset: 0x1A0D450
+    // Offset: 0xF270F4
     System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* get_environmentKeywords();
     // public System.Void .ctor()
-    // Offset: 0x1A0D458
+    // Offset: 0xF270FC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

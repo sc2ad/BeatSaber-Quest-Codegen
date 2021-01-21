@@ -36,7 +36,7 @@ namespace System::Globalization {
     // Creating value type constructor for type: HebrewValue
     HebrewValue(System::Globalization::HebrewNumber::HebrewToken token_ = {}, int value_ = {}) noexcept : token{token_}, value{value_} {}
     // System.Void .ctor(System.Globalization.HebrewNumber/HebrewToken token, System.Int32 value)
-    // Offset: 0x162FCC0
+    // Offset: 0x19AF844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HebrewNumber::HebrewValue* New_ctor(System::Globalization::HebrewNumber::HebrewToken token, int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::HebrewNumber::HebrewValue::.ctor");

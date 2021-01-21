@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: value and: valueChangedEvent
     char __padding1[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDCD0A4
+    // [CompilerGeneratedAttribute] Offset: 0xD3F300
     // private System.Action`1<System.Int32> valueChangedEvent
     // Size: 0x8
     // Offset: 0x38
@@ -67,34 +67,34 @@ namespace GlobalNamespace {
       return *reinterpret_cast<HMUI::IValueChanger_1<int>*>(this);
     }
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xFD5AB0
+    // Offset: 0xF849B0
     void add_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void remove_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xFD5B54
+    // Offset: 0xF84A54
     void remove_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void Init(NamedColorListController/ColorValuePair[] values, System.Int32 value)
-    // Offset: 0xFD5BF8
+    // Offset: 0xF84AF8
     void Init(::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>* values, int value);
     // public System.Void SetValue(System.Int32 value)
-    // Offset: 0xFD5C2C
+    // Offset: 0xF84B2C
     void SetValue(int value);
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0xFD5C3C
+    // Offset: 0xF84B3C
     // Implemented from: ListColorController
     // Base method: System.Boolean ListColorController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0xFD5CD8
+    // Offset: 0xF84BD8
     // Implemented from: ListColorController
     // Base method: System.Void ListColorController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override UnityEngine.Color ColorForValue(System.Int32 idx)
-    // Offset: 0xFD5D50
+    // Offset: 0xF84C50
     // Implemented from: ListColorController
     // Base method: UnityEngine.Color ListColorController::ColorForValue(System.Int32 idx)
     UnityEngine::Color ColorForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0xFD5D98
+    // Offset: 0xF84C98
     // Implemented from: ListColorController
     // Base method: System.Void ListColorController::.ctor()
     // Base method: System.Void IncDecColorController::.ctor()

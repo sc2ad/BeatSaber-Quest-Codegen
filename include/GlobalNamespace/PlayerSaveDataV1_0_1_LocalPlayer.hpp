@@ -45,14 +45,8 @@ namespace GlobalNamespace {
     bool shouldShowTutorialPrompt;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // public System.Boolean shouldShow360Warning
-    // Size: 0x1
-    // Offset: 0x21
-    bool shouldShow360Warning;
-    // Field size check
-    static_assert(sizeof(bool) == 0x1);
-    // Padding between fields: shouldShow360Warning and: gameplayModifiers
-    char __padding3[0x6] = {};
+    // Padding between fields: shouldShowTutorialPrompt and: gameplayModifiers
+    char __padding2[0x7] = {};
     // public PlayerSaveDataV1_0_1/GameplayModifiers gameplayModifiers
     // Size: 0x8
     // Offset: 0x28
@@ -96,9 +90,9 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*) == 0x8);
     // Creating value type constructor for type: LocalPlayer
-    LocalPlayer(::Il2CppString* playerId_ = {}, ::Il2CppString* playerName_ = {}, bool shouldShowTutorialPrompt_ = {}, bool shouldShow360Warning_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* playerSpecificSettings_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData* playerAllOverallStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerLevelStatsData*>* levelsStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerMissionStatsData*>* missionsStatsData_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* showedMissionHelpIds_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData* achievementsData_ = {}) noexcept : playerId{playerId_}, playerName{playerName_}, shouldShowTutorialPrompt{shouldShowTutorialPrompt_}, shouldShow360Warning{shouldShow360Warning_}, gameplayModifiers{gameplayModifiers_}, playerSpecificSettings{playerSpecificSettings_}, playerAllOverallStatsData{playerAllOverallStatsData_}, levelsStatsData{levelsStatsData_}, missionsStatsData{missionsStatsData_}, showedMissionHelpIds{showedMissionHelpIds_}, achievementsData{achievementsData_} {}
+    LocalPlayer(::Il2CppString* playerId_ = {}, ::Il2CppString* playerName_ = {}, bool shouldShowTutorialPrompt_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* playerSpecificSettings_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData* playerAllOverallStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerLevelStatsData*>* levelsStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerMissionStatsData*>* missionsStatsData_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* showedMissionHelpIds_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData* achievementsData_ = {}) noexcept : playerId{playerId_}, playerName{playerName_}, shouldShowTutorialPrompt{shouldShowTutorialPrompt_}, gameplayModifiers{gameplayModifiers_}, playerSpecificSettings{playerSpecificSettings_}, playerAllOverallStatsData{playerAllOverallStatsData_}, levelsStatsData{levelsStatsData_}, missionsStatsData{missionsStatsData_}, showedMissionHelpIds{showedMissionHelpIds_}, achievementsData{achievementsData_} {}
     // public System.Void .ctor()
-    // Offset: 0xF292B0
+    // Offset: 0xFBAFC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

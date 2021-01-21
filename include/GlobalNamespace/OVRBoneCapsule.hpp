@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class OVRBoneCapsule : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD86F34
+    // [CompilerGeneratedAttribute] Offset: 0xCF8D68
     // private System.Int16 <BoneIndex>k__BackingField
     // Size: 0x2
     // Offset: 0x10
@@ -35,14 +35,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(int16_t) == 0x2);
     // Padding between fields: BoneIndex and: CapsuleRigidbody
     char __padding0[0x6] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD86F44
+    // [CompilerGeneratedAttribute] Offset: 0xCF8D78
     // private UnityEngine.Rigidbody <CapsuleRigidbody>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::Rigidbody* CapsuleRigidbody;
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD86F54
+    // [CompilerGeneratedAttribute] Offset: 0xCF8D88
     // private UnityEngine.CapsuleCollider <CapsuleCollider>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -52,25 +52,25 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRBoneCapsule
     OVRBoneCapsule(int16_t BoneIndex_ = {}, UnityEngine::Rigidbody* CapsuleRigidbody_ = {}, UnityEngine::CapsuleCollider* CapsuleCollider_ = {}) noexcept : BoneIndex{BoneIndex_}, CapsuleRigidbody{CapsuleRigidbody_}, CapsuleCollider{CapsuleCollider_} {}
     // public System.Int16 get_BoneIndex()
-    // Offset: 0x1068E5C
+    // Offset: 0x11A3964
     int16_t get_BoneIndex();
     // private System.Void set_BoneIndex(System.Int16 value)
-    // Offset: 0x1068E64
+    // Offset: 0x11A396C
     void set_BoneIndex(int16_t value);
     // public UnityEngine.Rigidbody get_CapsuleRigidbody()
-    // Offset: 0x1068E6C
+    // Offset: 0x11A3974
     UnityEngine::Rigidbody* get_CapsuleRigidbody();
     // private System.Void set_CapsuleRigidbody(UnityEngine.Rigidbody value)
-    // Offset: 0x1068E74
+    // Offset: 0x11A397C
     void set_CapsuleRigidbody(UnityEngine::Rigidbody* value);
     // public UnityEngine.CapsuleCollider get_CapsuleCollider()
-    // Offset: 0x1068E7C
+    // Offset: 0x11A3984
     UnityEngine::CapsuleCollider* get_CapsuleCollider();
     // private System.Void set_CapsuleCollider(UnityEngine.CapsuleCollider value)
-    // Offset: 0x1068E84
+    // Offset: 0x11A398C
     void set_CapsuleCollider(UnityEngine::CapsuleCollider* value);
     // public System.Void .ctor(System.Int16 boneIndex, UnityEngine.Rigidbody capsuleRigidBody, UnityEngine.CapsuleCollider capsuleCollider)
-    // Offset: 0x1068E8C
+    // Offset: 0x11A3994
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRBoneCapsule* New_ctor(int16_t boneIndex, UnityEngine::Rigidbody* capsuleRigidBody, UnityEngine::CapsuleCollider* capsuleCollider) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRBoneCapsule::.ctor");

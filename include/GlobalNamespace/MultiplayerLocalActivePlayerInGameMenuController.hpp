@@ -46,63 +46,63 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass16_0
     class $$c__DisplayClass16_0;
-    // [InjectAttribute] Offset: 0xDC7EE0
+    // [InjectAttribute] Offset: 0xD3A08C
     // private readonly MultiplayerLocalActivePlayerInGameMenuViewController _inGameMenuViewController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController* inGameMenuViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC7EF0
+    // [InjectAttribute] Offset: 0xD3A09C
     // private readonly IMenuButtonTrigger _menuButtonTrigger
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IMenuButtonTrigger* menuButtonTrigger;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMenuButtonTrigger*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC7F00
+    // [InjectAttribute] Offset: 0xD3A0AC
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IVRPlatformHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC7F10
+    // [InjectAttribute] Offset: 0xD3A0BC
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC7F20
+    // [InjectAttribute] Offset: 0xD3A0CC
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC7F30
+    // [InjectAttribute] Offset: 0xD3A0DC
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC7F40
+    // [CompilerGeneratedAttribute] Offset: 0xD3A0EC
     // private System.Action didGiveUpEvent
     // Size: 0x8
     // Offset: 0x48
     System::Action* didGiveUpEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC7F50
+    // [CompilerGeneratedAttribute] Offset: 0xD3A0FC
     // private System.Action`1<System.Action`1<System.Boolean>> canShowInGameMenuEvent
     // Size: 0x8
     // Offset: 0x50
     System::Action_1<System::Action_1<bool>*>* canShowInGameMenuEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<System::Action_1<bool>*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC7F60
+    // [CompilerGeneratedAttribute] Offset: 0xD3A10C
     // private System.Action requestsDisconnectEvent
     // Size: 0x8
     // Offset: 0x58
@@ -120,61 +120,61 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didGiveUpEvent(System.Action value)
-    // Offset: 0xF6DF0C
+    // Offset: 0xFE01C8
     void add_didGiveUpEvent(System::Action* value);
     // public System.Void remove_didGiveUpEvent(System.Action value)
-    // Offset: 0xF6E434
+    // Offset: 0xFE06F0
     void remove_didGiveUpEvent(System::Action* value);
     // public System.Void add_canShowInGameMenuEvent(System.Action`1<System.Action`1<System.Boolean>> value)
-    // Offset: 0xF6EBD4
+    // Offset: 0xFE0EE0
     void add_canShowInGameMenuEvent(System::Action_1<System::Action_1<bool>*>* value);
     // public System.Void remove_canShowInGameMenuEvent(System.Action`1<System.Action`1<System.Boolean>> value)
-    // Offset: 0xF6EC78
+    // Offset: 0xFE0F84
     void remove_canShowInGameMenuEvent(System::Action_1<System::Action_1<bool>*>* value);
     // public System.Void add_requestsDisconnectEvent(System.Action value)
-    // Offset: 0xF6DFB0
+    // Offset: 0xFE026C
     void add_requestsDisconnectEvent(System::Action* value);
     // public System.Void remove_requestsDisconnectEvent(System.Action value)
-    // Offset: 0xF6E4D8
+    // Offset: 0xFE0794
     void remove_requestsDisconnectEvent(System::Action* value);
     // private System.Boolean get_canShowInGameMenu()
-    // Offset: 0xF6ED1C
+    // Offset: 0xFE1028
     bool get_canShowInGameMenu();
     // protected System.Void Start()
-    // Offset: 0xF6EE08
+    // Offset: 0xFE1114
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF6F2DC
+    // Offset: 0xFE15E8
     void OnDestroy();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0xF6F7D8
+    // Offset: 0xFE1AE4
     void OnApplicationPause(bool pauseStatus);
     // public System.Void ShowInGameMenu()
-    // Offset: 0xF6F7E4
+    // Offset: 0xFE1AF0
     void ShowInGameMenu();
     // private System.Void HideInGameMenu()
-    // Offset: 0xF6F084
+    // Offset: 0xFE1390
     void HideInGameMenu();
     // private System.Void HandleMenuButtonTriggered()
-    // Offset: 0xF6F90C
+    // Offset: 0xFE1C18
     void HandleMenuButtonTriggered();
     // private System.Void HandleInputFocusWasCaptured()
-    // Offset: 0xF6F910
+    // Offset: 0xFE1C1C
     void HandleInputFocusWasCaptured();
     // private System.Void HandleInGameMenuViewControllerDidPressResumeButton()
-    // Offset: 0xF6F914
+    // Offset: 0xFE1C20
     void HandleInGameMenuViewControllerDidPressResumeButton();
     // private System.Void HandleInGameMenuViewControllerDidPressGiveUpButton()
-    // Offset: 0xF6F918
+    // Offset: 0xFE1C24
     void HandleInGameMenuViewControllerDidPressGiveUpButton();
     // private System.Void HandleInGameMenuViewControllerDidPressDisconnectButton()
-    // Offset: 0xF6F95C
+    // Offset: 0xFE1C68
     void HandleInGameMenuViewControllerDidPressDisconnectButton();
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0xF6F970
+    // Offset: 0xFE1C7C
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // public System.Void .ctor()
-    // Offset: 0xF6FB20
+    // Offset: 0xFE1E2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

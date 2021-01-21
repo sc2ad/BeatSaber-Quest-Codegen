@@ -55,21 +55,21 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedBeatmapLevelIds()
-    // Offset: 0x1A3C060
+    // Offset: 0x102AA38
     System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedBeatmapLevelIds();
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedPacksIds()
-    // Offset: 0x1A3C31C
+    // Offset: 0x102ACF4
     System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedPacksIds();
     // private System.Void InitAlwaysOwnedItems()
-    // Offset: 0x1A3C8F8
+    // Offset: 0x102B2D0
     void InitAlwaysOwnedItems();
     // protected override System.Void OnEnable()
-    // Offset: 0x1A3CBC4
+    // Offset: 0x102B59C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1A3CBEC
+    // Offset: 0x102B5C4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

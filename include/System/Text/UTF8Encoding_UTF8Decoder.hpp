@@ -41,14 +41,14 @@ namespace System::Text {
       return bits;
     }
     // public System.Void .ctor(System.Text.UTF8Encoding encoding)
-    // Offset: 0x16ACC80
+    // Offset: 0x1A74E34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF8Encoding::UTF8Decoder* New_ctor(System::Text::UTF8Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF8Encoding::UTF8Decoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF8Encoding::UTF8Decoder*, creationType>(encoding)));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x16AD10C
+    // Offset: 0x1A752C0
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Void DecoderNLS::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,17 +57,17 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<UTF8Encoding::UTF8Decoder*, creationType>(info, context)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x16AD3F0
+    // Offset: 0x1A755A4
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void Reset()
-    // Offset: 0x16AD53C
+    // Offset: 0x1A756F0
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Void DecoderNLS::Reset()
     void Reset();
     // override System.Boolean get_HasState()
-    // Offset: 0x16AD55C
+    // Offset: 0x1A75710
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Boolean DecoderNLS::get_HasState()
     bool get_HasState();

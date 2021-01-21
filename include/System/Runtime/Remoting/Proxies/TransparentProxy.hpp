@@ -60,25 +60,25 @@ namespace System::Runtime::Remoting::Proxies {
     // Creating value type constructor for type: TransparentProxy
     TransparentProxy(System::Runtime::Remoting::Proxies::RealProxy* rp_ = {}, Mono::RuntimeRemoteClassHandle _class_ = {}, bool custom_type_info_ = {}) noexcept : rp{rp_}, _class{_class_}, custom_type_info{custom_type_info_} {}
     // System.RuntimeType GetProxyType()
-    // Offset: 0x1335388
+    // Offset: 0x158411C
     System::RuntimeType* GetProxyType();
     // private System.Boolean get_IsContextBoundObject()
-    // Offset: 0x133545C
+    // Offset: 0x15841F0
     bool get_IsContextBoundObject();
     // private System.Runtime.Remoting.Contexts.Context get_TargetContext()
-    // Offset: 0x133547C
+    // Offset: 0x1584210
     System::Runtime::Remoting::Contexts::Context* get_TargetContext();
     // private System.Boolean InCurrentContext()
-    // Offset: 0x1335498
+    // Offset: 0x158422C
     bool InCurrentContext();
     // System.Object LoadRemoteFieldNew(System.IntPtr classPtr, System.IntPtr fieldPtr)
-    // Offset: 0x13354E4
+    // Offset: 0x1584278
     ::Il2CppObject* LoadRemoteFieldNew(System::IntPtr classPtr, System::IntPtr fieldPtr);
     // System.Void StoreRemoteField(System.IntPtr classPtr, System.IntPtr fieldPtr, System.Object arg)
-    // Offset: 0x13357A8
+    // Offset: 0x158453C
     void StoreRemoteField(System::IntPtr classPtr, System::IntPtr fieldPtr, ::Il2CppObject* arg);
     // public System.Void .ctor()
-    // Offset: 0x1335A78
+    // Offset: 0x158480C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

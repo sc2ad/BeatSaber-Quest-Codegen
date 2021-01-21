@@ -74,49 +74,49 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>*>(this);
     }
     // public System.Void .ctor(LiteNetLib.NetPeer netPeer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x1B51680
+    // Offset: 0x11D88F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LiteNetLibConnectionManager::NetPeerConnection* New_ctor(LiteNetLib::NetPeer* netPeer, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager::NetPeerConnection*, creationType>(netPeer, userId, userName, isConnectionOwner)));
     }
     // public System.String get_userId()
-    // Offset: 0x1B52250
+    // Offset: 0x11D94C4
     // Implemented from: IConnection
     // Base method: System.String IConnection::get_userId()
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x1B52258
+    // Offset: 0x11D94CC
     // Implemented from: IConnection
     // Base method: System.String IConnection::get_userName()
     ::Il2CppString* get_userName();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x1B52260
+    // Offset: 0x11D94D4
     // Implemented from: IConnection
     // Base method: System.Boolean IConnection::get_isConnectionOwner()
     bool get_isConnectionOwner();
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x1B52268
+    // Offset: 0x11D94DC
     // Implemented from: IConnection
     // Base method: System.Void IConnection::Send(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
     void Send(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Boolean Equals(LiteNetLibConnectionManager/NetPeerConnection other)
-    // Offset: 0x1B52284
+    // Offset: 0x11D94F8
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(LiteNetLibConnectionManager/NetPeerConnection other)
     bool Equals(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1B522B0
+    // Offset: 0x11D9524
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1B523CC
+    // Offset: 0x11D9640
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public System.Void Disconnect()
-    // Offset: 0x1B50C4C
+    // Offset: 0x11D7EC0
     // Implemented from: IConnection
     // Base method: System.Void IConnection::Disconnect()
     void Disconnect();

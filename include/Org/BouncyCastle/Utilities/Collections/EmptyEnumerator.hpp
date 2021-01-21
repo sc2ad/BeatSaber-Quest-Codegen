@@ -30,10 +30,10 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Set static field: static public readonly System.Collections.IEnumerator Instance
     static void _set_Instance(System::Collections::IEnumerator* value);
     // static private System.Void .cctor()
-    // Offset: 0x10E15FC
+    // Offset: 0x12320E4
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x10E157C
+    // Offset: 0x1232064
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
       return THROW_UNLESS((::il2cpp_utils::New<EmptyEnumerator*, creationType>()));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x10E1584
+    // Offset: 0x123206C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -50,7 +50,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x10E158C
+    // Offset: 0x1232074
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -58,7 +58,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public System.Object get_Current()
-    // Offset: 0x10E1590
+    // Offset: 0x1232078
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();

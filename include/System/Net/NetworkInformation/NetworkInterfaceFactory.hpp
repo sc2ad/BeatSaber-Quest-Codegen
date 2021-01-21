@@ -38,10 +38,10 @@ namespace System::Net::NetworkInformation {
     // Offset: 0xFFFFFFFF
     ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces();
     // static public System.Net.NetworkInformation.NetworkInterfaceFactory Create()
-    // Offset: 0x119B744
+    // Offset: 0x1355590
     static System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
     // protected System.Void .ctor()
-    // Offset: 0x119B874
+    // Offset: 0x13556C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

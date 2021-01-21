@@ -19,7 +19,7 @@ namespace Priority_Queue {
   // [] Offset: FFFFFFFF
   class StablePriorityQueueNode : public Priority_Queue::FastPriorityQueueNode {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDD35C0
+    // [CompilerGeneratedAttribute] Offset: 0xD4596C
     // private System.Int64 <InsertionIndex>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -33,13 +33,13 @@ namespace Priority_Queue {
       return InsertionIndex;
     }
     // public System.Int64 get_InsertionIndex()
-    // Offset: 0xF2DA90
+    // Offset: 0xFBFAF8
     int64_t get_InsertionIndex();
     // System.Void set_InsertionIndex(System.Int64 value)
-    // Offset: 0xF2DA98
+    // Offset: 0xFBFB00
     void set_InsertionIndex(int64_t value);
     // public System.Void .ctor()
-    // Offset: 0xF2DAA0
+    // Offset: 0xFBFB08
     // Implemented from: Priority_Queue.FastPriorityQueueNode
     // Base method: System.Void FastPriorityQueueNode::.ctor()
     // Base method: System.Void Object::.ctor()

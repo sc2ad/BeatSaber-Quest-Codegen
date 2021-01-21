@@ -114,52 +114,52 @@ namespace System::Globalization {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> s_knownWords
     static void _set_s_knownWords(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
     // static private System.Collections.Generic.Dictionary`2<System.String,System.String> get_KnownWords()
-    // Offset: 0x16222F4
+    // Offset: 0x19A1E78
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* get_KnownWords();
     // static System.Int32 SkipWhiteSpacesAndNonLetter(System.String pattern, System.Int32 currentIndex)
-    // Offset: 0x16225FC
+    // Offset: 0x19A2180
     static int SkipWhiteSpacesAndNonLetter(::Il2CppString* pattern, int currentIndex);
     // System.Void AddDateWordOrPostfix(System.String formatPostfix, System.String str)
-    // Offset: 0x1622708
+    // Offset: 0x19A228C
     void AddDateWordOrPostfix(::Il2CppString* formatPostfix, ::Il2CppString* str);
     // System.Int32 AddDateWords(System.String pattern, System.Int32 index, System.String formatPostfix)
-    // Offset: 0x16229F8
+    // Offset: 0x19A257C
     int AddDateWords(::Il2CppString* pattern, int index, ::Il2CppString* formatPostfix);
     // static System.Int32 ScanRepeatChar(System.String pattern, System.Char ch, System.Int32 index, out System.Int32 count)
-    // Offset: 0x1622BE4
+    // Offset: 0x19A2768
     static int ScanRepeatChar(::Il2CppString* pattern, ::Il2CppChar ch, int index, int& count);
     // System.Void AddIgnorableSymbols(System.String text)
-    // Offset: 0x1622904
+    // Offset: 0x19A2488
     void AddIgnorableSymbols(::Il2CppString* text);
     // System.Void ScanDateWord(System.String pattern)
-    // Offset: 0x1622C6C
+    // Offset: 0x19A27F0
     void ScanDateWord(::Il2CppString* pattern);
     // System.String[] GetDateWordsOfDTFI(System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1621498
+    // Offset: 0x19A101C
     ::Array<::Il2CppString*>* GetDateWordsOfDTFI(System::Globalization::DateTimeFormatInfo* dtfi);
     // static System.Globalization.FORMATFLAGS GetFormatFlagGenitiveMonth(System.String[] monthNames, System.String[] genitveMonthNames, System.String[] abbrevMonthNames, System.String[] genetiveAbbrevMonthNames)
-    // Offset: 0x161FD78
+    // Offset: 0x199F8FC
     static System::Globalization::FORMATFLAGS GetFormatFlagGenitiveMonth(::Array<::Il2CppString*>* monthNames, ::Array<::Il2CppString*>* genitveMonthNames, ::Array<::Il2CppString*>* abbrevMonthNames, ::Array<::Il2CppString*>* genetiveAbbrevMonthNames);
     // static System.Globalization.FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(System.String[] monthNames, System.String[] genitveMonthNames, System.String[] abbrevMonthNames, System.String[] genetiveAbbrevMonthNames)
-    // Offset: 0x161FDBC
+    // Offset: 0x199F940
     static System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(::Array<::Il2CppString*>* monthNames, ::Array<::Il2CppString*>* genitveMonthNames, ::Array<::Il2CppString*>* abbrevMonthNames, ::Array<::Il2CppString*>* genetiveAbbrevMonthNames);
     // static System.Globalization.FORMATFLAGS GetFormatFlagUseSpaceInDayNames(System.String[] dayNames, System.String[] abbrevDayNames)
-    // Offset: 0x161FE6C
+    // Offset: 0x199F9F0
     static System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInDayNames(::Array<::Il2CppString*>* dayNames, ::Array<::Il2CppString*>* abbrevDayNames);
     // static System.Globalization.FORMATFLAGS GetFormatFlagUseHebrewCalendar(System.Int32 calID)
-    // Offset: 0x161FEA8
+    // Offset: 0x199FA2C
     static System::Globalization::FORMATFLAGS GetFormatFlagUseHebrewCalendar(int calID);
     // static private System.Boolean EqualStringArrays(System.String[] array1, System.String[] array2)
-    // Offset: 0x1622EA0
+    // Offset: 0x19A2A24
     static bool EqualStringArrays(::Array<::Il2CppString*>* array1, ::Array<::Il2CppString*>* array2);
     // static private System.Boolean ArrayElementsHaveSpace(System.String[] array)
-    // Offset: 0x16231D0
+    // Offset: 0x19A2D54
     static bool ArrayElementsHaveSpace(::Array<::Il2CppString*>* array);
     // static private System.Boolean ArrayElementsBeginWithDigit(System.String[] array)
-    // Offset: 0x1622F5C
+    // Offset: 0x19A2AE0
     static bool ArrayElementsBeginWithDigit(::Array<::Il2CppString*>* array);
     // public System.Void .ctor()
-    // Offset: 0x162141C
+    // Offset: 0x19A0FA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

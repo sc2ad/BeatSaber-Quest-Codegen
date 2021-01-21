@@ -50,34 +50,34 @@ namespace System::Text::RegularExpressions {
     // Creating value type constructor for type: RegexFC
     RegexFC(System::Text::RegularExpressions::RegexCharClass* cc_ = {}, bool nullable_ = {}, bool caseInsensitive_ = {}) noexcept : cc{cc_}, nullable{nullable_}, caseInsensitive{caseInsensitive_} {}
     // System.Void .ctor(System.Boolean nullable)
-    // Offset: 0x1544D28
+    // Offset: 0x18B3358
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexFC* New_ctor(bool nullable) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexFC::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexFC*, creationType>(nullable)));
     }
     // System.Void .ctor(System.Char ch, System.Boolean not, System.Boolean nullable, System.Boolean caseInsensitive)
-    // Offset: 0x1544DB4
+    // Offset: 0x18B33E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexFC* New_ctor(::Il2CppChar ch, bool _not, bool nullable, bool caseInsensitive) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexFC::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexFC*, creationType>(ch, _not, nullable, caseInsensitive)));
     }
     // System.Void .ctor(System.String charClass, System.Boolean nullable, System.Boolean caseInsensitive)
-    // Offset: 0x1544EC8
+    // Offset: 0x18B34F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexFC* New_ctor(::Il2CppString* charClass, bool nullable, bool caseInsensitive) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexFC::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexFC*, creationType>(charClass, nullable, caseInsensitive)));
     }
     // System.Boolean AddFC(System.Text.RegularExpressions.RegexFC fc, System.Boolean concatenate)
-    // Offset: 0x1544F7C
+    // Offset: 0x18B35AC
     bool AddFC(System::Text::RegularExpressions::RegexFC* fc, bool concatenate);
     // System.String GetFirstChars(System.Globalization.CultureInfo culture)
-    // Offset: 0x1545034
+    // Offset: 0x18B3664
     ::Il2CppString* GetFirstChars(System::Globalization::CultureInfo* culture);
     // System.Boolean IsCaseInsensitive()
-    // Offset: 0x1545078
+    // Offset: 0x18B36A8
     bool IsCaseInsensitive();
   }; // System.Text.RegularExpressions.RegexFC
   #pragma pack(pop)

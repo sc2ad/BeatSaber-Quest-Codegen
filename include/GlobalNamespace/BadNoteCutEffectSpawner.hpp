@@ -42,21 +42,21 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingSpriteSpawner* failFlyingSpriteSpawner;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingSpriteSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC61E0
+    // [InjectAttribute] Offset: 0xD381FC
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC61F0
+    // [InjectAttribute] Offset: 0xD3820C
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC6200
+    // [InjectAttribute] Offset: 0xD3821C
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
@@ -68,16 +68,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1A4CD50
+    // Offset: 0x103B7EC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1A4CE10
+    // Offset: 0x103B8AC
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0x1A4CEB0
+    // Offset: 0x103B94C
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x1A4CFC4
+    // Offset: 0x103BA60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

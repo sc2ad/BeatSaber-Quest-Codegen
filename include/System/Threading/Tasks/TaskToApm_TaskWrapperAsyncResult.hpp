@@ -58,29 +58,29 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Object state, System.Boolean completedSynchronously)
-    // Offset: 0x1D19950
+    // Offset: 0x17BA9AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskToApm::TaskWrapperAsyncResult* New_ctor(System::Threading::Tasks::Task* task, ::Il2CppObject* state, bool completedSynchronously) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskToApm::TaskWrapperAsyncResult*, creationType>(task, state, completedSynchronously)));
     }
     // private System.Object System.IAsyncResult.get_AsyncState()
-    // Offset: 0x1D19BB0
+    // Offset: 0x17BAC0C
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // private System.Boolean System.IAsyncResult.get_CompletedSynchronously()
-    // Offset: 0x1D19BB8
+    // Offset: 0x17BAC14
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
     bool System_IAsyncResult_get_CompletedSynchronously();
     // private System.Boolean System.IAsyncResult.get_IsCompleted()
-    // Offset: 0x1D19BC0
+    // Offset: 0x17BAC1C
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_IsCompleted()
     bool System_IAsyncResult_get_IsCompleted();
     // private System.Threading.WaitHandle System.IAsyncResult.get_AsyncWaitHandle()
-    // Offset: 0x1D19BD8
+    // Offset: 0x17BAC34
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();

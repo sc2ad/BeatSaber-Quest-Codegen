@@ -7,19 +7,21 @@
 #include "GlobalNamespace/INetworkPlayerModel.hpp"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: Action
-  class Action;
-}
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
+  // Forward declaring type: DiscoveryPolicy
+  struct DiscoveryPolicy;
   // Forward declaring type: INetworkPlayer
   class INetworkPlayer;
   // Forward declaring type: GameplayServerFilter
   struct GameplayServerFilter;
   // Forward declaring type: GameplayServerConfiguration
   struct GameplayServerConfiguration;
+}
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: Action
+  class Action;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
@@ -45,6 +47,9 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INetworkPlayerModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayerModel*>(this);
     }
+    // public DiscoveryPolicy get_discoveryPolicy()
+    // Offset: 0xFFFFFFFF
+    GlobalNamespace::DiscoveryPolicy get_discoveryPolicy();
     // public System.Void add_partyRefreshingEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     void add_partyRefreshingEvent(System::Action* value);
@@ -78,6 +83,9 @@ namespace GlobalNamespace {
     // public System.Void ConnectToServerWithCode(System.String serverCode, System.String serverPassword)
     // Offset: 0xFFFFFFFF
     void ConnectToServerWithCode(::Il2CppString* serverCode, ::Il2CppString* serverPassword);
+    // public System.Void ConnectToServerWithSecret(System.String serverSecret)
+    // Offset: 0xFFFFFFFF
+    void ConnectToServerWithSecret(::Il2CppString* serverSecret);
     // public System.Void ResetMasterServerReachability()
     // Offset: 0xFFFFFFFF
     void ResetMasterServerReachability();

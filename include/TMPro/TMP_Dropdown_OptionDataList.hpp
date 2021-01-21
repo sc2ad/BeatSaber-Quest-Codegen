@@ -40,13 +40,13 @@ namespace TMPro {
       return m_Options;
     }
     // public System.Collections.Generic.List`1<TMPro.TMP_Dropdown/OptionData> get_options()
-    // Offset: 0xF57A08
+    // Offset: 0xFA0024
     System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* get_options();
     // public System.Void set_options(System.Collections.Generic.List`1<TMPro.TMP_Dropdown/OptionData> value)
-    // Offset: 0xF57A10
+    // Offset: 0xFA002C
     void set_options(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* value);
     // public System.Void .ctor()
-    // Offset: 0xF54FF4
+    // Offset: 0xF9D610
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

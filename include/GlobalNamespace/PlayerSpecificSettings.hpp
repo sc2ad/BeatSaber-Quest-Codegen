@@ -118,59 +118,59 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlayerSpecificSettings
     PlayerSpecificSettings(bool staticLights_ = {}, bool leftHanded_ = {}, float playerHeight_ = {}, bool automaticPlayerHeight_ = {}, float sfxVolume_ = {}, bool reduceDebris_ = {}, bool noTextsAndHuds_ = {}, bool noFailEffects_ = {}, bool advancedHud_ = {}, bool autoRestart_ = {}, float saberTrailIntensity_ = {}, float noteJumpStartBeatOffset_ = {}, bool hideNoteSpawnEffect_ = {}, bool adaptiveSfx_ = {}) noexcept : staticLights{staticLights_}, leftHanded{leftHanded_}, playerHeight{playerHeight_}, automaticPlayerHeight{automaticPlayerHeight_}, sfxVolume{sfxVolume_}, reduceDebris{reduceDebris_}, noTextsAndHuds{noTextsAndHuds_}, noFailEffects{noFailEffects_}, advancedHud{advancedHud_}, autoRestart{autoRestart_}, saberTrailIntensity{saberTrailIntensity_}, noteJumpStartBeatOffset{noteJumpStartBeatOffset_}, hideNoteSpawnEffect{hideNoteSpawnEffect_}, adaptiveSfx{adaptiveSfx_} {}
     // public System.Boolean get_staticLights()
-    // Offset: 0xF29F6C
+    // Offset: 0xFBBC80
     bool get_staticLights();
     // public System.Boolean get_leftHanded()
-    // Offset: 0xF29F74
+    // Offset: 0xFBBC88
     bool get_leftHanded();
     // public System.Single get_playerHeight()
-    // Offset: 0xF29F7C
+    // Offset: 0xFBBC90
     float get_playerHeight();
     // public System.Boolean get_automaticPlayerHeight()
-    // Offset: 0xF29F84
+    // Offset: 0xFBBC98
     bool get_automaticPlayerHeight();
     // public System.Single get_sfxVolume()
-    // Offset: 0xF29F8C
+    // Offset: 0xFBBCA0
     float get_sfxVolume();
     // public System.Boolean get_reduceDebris()
-    // Offset: 0xF29F94
+    // Offset: 0xFBBCA8
     bool get_reduceDebris();
     // public System.Boolean get_noTextsAndHuds()
-    // Offset: 0xF29F9C
+    // Offset: 0xFBBCB0
     bool get_noTextsAndHuds();
     // public System.Boolean get_noFailEffects()
-    // Offset: 0xF29FA4
+    // Offset: 0xFBBCB8
     bool get_noFailEffects();
     // public System.Boolean get_advancedHud()
-    // Offset: 0xF29FAC
+    // Offset: 0xFBBCC0
     bool get_advancedHud();
     // public System.Boolean get_autoRestart()
-    // Offset: 0xF29FB4
+    // Offset: 0xFBBCC8
     bool get_autoRestart();
     // public System.Single get_saberTrailIntensity()
-    // Offset: 0xF29FBC
+    // Offset: 0xFBBCD0
     float get_saberTrailIntensity();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0xF29FC4
+    // Offset: 0xFBBCD8
     float get_noteJumpStartBeatOffset();
     // public System.Boolean get_hideNoteSpawnEffect()
-    // Offset: 0xF29FCC
+    // Offset: 0xFBBCE0
     bool get_hideNoteSpawnEffect();
     // public System.Boolean get_adaptiveSfx()
-    // Offset: 0xF29FD4
+    // Offset: 0xFBBCE8
     bool get_adaptiveSfx();
     // public System.Void .ctor(System.Boolean staticLights, System.Boolean leftHanded, System.Single playerHeight, System.Boolean automaticPlayerHeight, System.Single sfxVolume, System.Boolean reduceDebris, System.Boolean noTextsAndHuds, System.Boolean noFailEffects, System.Boolean advancedHud, System.Boolean autoRestart, System.Single saberTrailIntensity, System.Single noteJumpStartBeatOffset, System.Boolean hideNoteSpawnEffect, System.Boolean adaptiveSfx)
-    // Offset: 0xF26B80
+    // Offset: 0xFB89C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSpecificSettings* New_ctor(bool staticLights, bool leftHanded, float playerHeight, bool automaticPlayerHeight, float sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud, bool autoRestart, float saberTrailIntensity, float noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSpecificSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSpecificSettings*, creationType>(staticLights, leftHanded, playerHeight, automaticPlayerHeight, sfxVolume, reduceDebris, noTextsAndHuds, noFailEffects, advancedHud, autoRestart, saberTrailIntensity, noteJumpStartBeatOffset, hideNoteSpawnEffect, adaptiveSfx)));
     }
     // public PlayerSpecificSettings CopyWith(System.Nullable`1<System.Boolean> staticLights, System.Nullable`1<System.Boolean> leftHanded, System.Nullable`1<System.Single> playerHeight, System.Nullable`1<System.Boolean> automaticPlayerHeight, System.Nullable`1<System.Single> sfxVolume, System.Nullable`1<System.Boolean> reduceDebris, System.Nullable`1<System.Boolean> noTextsAndHuds, System.Nullable`1<System.Boolean> noFailEffects, System.Nullable`1<System.Boolean> advancedHud, System.Nullable`1<System.Boolean> autoRestart, System.Nullable`1<System.Single> saberTrailIntensity, System.Nullable`1<System.Single> noteJumpStartBeatOffset, System.Nullable`1<System.Boolean> hideNoteSpawnEffect, System.Nullable`1<System.Boolean> adaptiveSfx)
-    // Offset: 0xF27054
+    // Offset: 0xFB8E00
     GlobalNamespace::PlayerSpecificSettings* CopyWith(System::Nullable_1<bool> staticLights, System::Nullable_1<bool> leftHanded, System::Nullable_1<float> playerHeight, System::Nullable_1<bool> automaticPlayerHeight, System::Nullable_1<float> sfxVolume, System::Nullable_1<bool> reduceDebris, System::Nullable_1<bool> noTextsAndHuds, System::Nullable_1<bool> noFailEffects, System::Nullable_1<bool> advancedHud, System::Nullable_1<bool> autoRestart, System::Nullable_1<float> saberTrailIntensity, System::Nullable_1<float> noteJumpStartBeatOffset, System::Nullable_1<bool> hideNoteSpawnEffect, System::Nullable_1<bool> adaptiveSfx);
     // public System.Void .ctor()
-    // Offset: 0xF26FF4
+    // Offset: 0xFB5184
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

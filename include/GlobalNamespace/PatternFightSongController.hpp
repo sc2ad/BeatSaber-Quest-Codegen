@@ -96,21 +96,21 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PatternFightSongController::GameplayPhase), 0 + sizeof(int)> __GlobalNamespace_PatternFightSongController_GameplayPhaseSizeCheck;
     static_assert(sizeof(PatternFightSongController::GameplayPhase) == 0x4);
-    // [InjectAttribute] Offset: 0xDCB2EC
+    // [InjectAttribute] Offset: 0xD3D538
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCB2FC
+    // [InjectAttribute] Offset: 0xD3D548
     // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCB30C
+    // [InjectAttribute] Offset: 0xD3D558
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x30
@@ -162,43 +162,43 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kPhaseLengthInBeats
     static void _set_kPhaseLengthInBeats(float value);
     // protected System.Void Start()
-    // Offset: 0xF052A8
+    // Offset: 0xF21694
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF05438
+    // Offset: 0xF21824
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xF054D8
+    // Offset: 0xF218C4
     void Update();
     // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xF05854
+    // Offset: 0xF21C40
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void NoteWasMissed(NoteController noteController)
-    // Offset: 0xF05A5C
+    // Offset: 0xF21E48
     void NoteWasMissed(GlobalNamespace::NoteController* noteController);
     // private System.Void CreatePattern(System.Single time)
-    // Offset: 0xF05588
+    // Offset: 0xF21974
     void CreatePattern(float time);
     // public System.Void StartSong(System.Single startTimeOffset)
-    // Offset: 0xF0541C
+    // Offset: 0xF21808
     void StartSong(float startTimeOffset);
     // public override System.Void StopSong()
-    // Offset: 0xF05B60
+    // Offset: 0xF21F4C
     // Implemented from: SongController
     // Base method: System.Void SongController::StopSong()
     void StopSong();
     // public override System.Void PauseSong()
-    // Offset: 0xF05B7C
+    // Offset: 0xF21F68
     // Implemented from: SongController
     // Base method: System.Void SongController::PauseSong()
     void PauseSong();
     // public override System.Void ResumeSong()
-    // Offset: 0xF05B98
+    // Offset: 0xF21F84
     // Implemented from: SongController
     // Base method: System.Void SongController::ResumeSong()
     void ResumeSong();
     // public System.Void .ctor()
-    // Offset: 0xF05BB4
+    // Offset: 0xF21FA0
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -49,14 +49,14 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class InteractionEffector : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDB7308
+    // [CompilerGeneratedAttribute] Offset: 0xD29104
     // private RootMotion.FinalIK.FullBodyBipedEffector <effectorType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::FullBodyBipedEffector effectorType;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDB7318
+    // [CompilerGeneratedAttribute] Offset: 0xD29114
     // private System.Boolean <isPaused>k__BackingField
     // Size: 0x1
     // Offset: 0x14
@@ -65,7 +65,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isPaused and: interactionObject
     char __padding1[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDB7328
+    // [CompilerGeneratedAttribute] Offset: 0xD29124
     // private RootMotion.FinalIK.InteractionObject <interactionObject>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -277,68 +277,68 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: InteractionEffector
     InteractionEffector(RootMotion::FinalIK::FullBodyBipedEffector effectorType_ = {}, bool isPaused_ = {}, RootMotion::FinalIK::InteractionObject* interactionObject_ = {}, RootMotion::FinalIK::Poser* poser_ = {}, RootMotion::FinalIK::IKEffector* effector_ = {}, float timer_ = {}, float length_ = {}, float weight_ = {}, float fadeInSpeed_ = {}, float defaultPositionWeight_ = {}, float defaultRotationWeight_ = {}, float defaultPull_ = {}, float defaultReach_ = {}, float defaultPush_ = {}, float defaultPushParent_ = {}, float defaultBendGoalWeight_ = {}, float resetTimer_ = {}, bool positionWeightUsed_ = {}, bool rotationWeightUsed_ = {}, bool pullUsed_ = {}, bool reachUsed_ = {}, bool pushUsed_ = {}, bool pushParentUsed_ = {}, bool bendGoalWeightUsed_ = {}, bool pickedUp_ = {}, bool defaults_ = {}, bool pickUpOnPostFBBIK_ = {}, UnityEngine::Vector3 pickUpPosition_ = {}, UnityEngine::Vector3 pausePositionRelative_ = {}, UnityEngine::Quaternion pickUpRotation_ = {}, UnityEngine::Quaternion pauseRotationRelative_ = {}, RootMotion::FinalIK::InteractionTarget* interactionTarget_ = {}, UnityEngine::Transform* target_ = {}, System::Collections::Generic::List_1<bool>* triggered_ = {}, RootMotion::FinalIK::InteractionSystem* interactionSystem_ = {}, bool started_ = {}) noexcept : effectorType{effectorType_}, isPaused{isPaused_}, interactionObject{interactionObject_}, poser{poser_}, effector{effector_}, timer{timer_}, length{length_}, weight{weight_}, fadeInSpeed{fadeInSpeed_}, defaultPositionWeight{defaultPositionWeight_}, defaultRotationWeight{defaultRotationWeight_}, defaultPull{defaultPull_}, defaultReach{defaultReach_}, defaultPush{defaultPush_}, defaultPushParent{defaultPushParent_}, defaultBendGoalWeight{defaultBendGoalWeight_}, resetTimer{resetTimer_}, positionWeightUsed{positionWeightUsed_}, rotationWeightUsed{rotationWeightUsed_}, pullUsed{pullUsed_}, reachUsed{reachUsed_}, pushUsed{pushUsed_}, pushParentUsed{pushParentUsed_}, bendGoalWeightUsed{bendGoalWeightUsed_}, pickedUp{pickedUp_}, defaults{defaults_}, pickUpOnPostFBBIK{pickUpOnPostFBBIK_}, pickUpPosition{pickUpPosition_}, pausePositionRelative{pausePositionRelative_}, pickUpRotation{pickUpRotation_}, pauseRotationRelative{pauseRotationRelative_}, interactionTarget{interactionTarget_}, target{target_}, triggered{triggered_}, interactionSystem{interactionSystem_}, started{started_} {}
     // public RootMotion.FinalIK.FullBodyBipedEffector get_effectorType()
-    // Offset: 0x17E732C
+    // Offset: 0x1C32A20
     RootMotion::FinalIK::FullBodyBipedEffector get_effectorType();
     // private System.Void set_effectorType(RootMotion.FinalIK.FullBodyBipedEffector value)
-    // Offset: 0x17E7334
+    // Offset: 0x1C32A28
     void set_effectorType(RootMotion::FinalIK::FullBodyBipedEffector value);
     // public System.Boolean get_isPaused()
-    // Offset: 0x17E733C
+    // Offset: 0x1C32A30
     bool get_isPaused();
     // private System.Void set_isPaused(System.Boolean value)
-    // Offset: 0x17E7344
+    // Offset: 0x1C32A38
     void set_isPaused(bool value);
     // public RootMotion.FinalIK.InteractionObject get_interactionObject()
-    // Offset: 0x17E7350
+    // Offset: 0x1C32A44
     RootMotion::FinalIK::InteractionObject* get_interactionObject();
     // private System.Void set_interactionObject(RootMotion.FinalIK.InteractionObject value)
-    // Offset: 0x17E7358
+    // Offset: 0x1C32A4C
     void set_interactionObject(RootMotion::FinalIK::InteractionObject* value);
     // public System.Boolean get_inInteraction()
-    // Offset: 0x17E7360
+    // Offset: 0x1C32A54
     bool get_inInteraction();
     // public System.Void .ctor(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
-    // Offset: 0x17E73D0
+    // Offset: 0x1C32AC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionEffector* New_ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionEffector*, creationType>(effectorType)));
     }
     // public System.Void Initiate(RootMotion.FinalIK.InteractionSystem interactionSystem)
-    // Offset: 0x17E7460
+    // Offset: 0x1C32B54
     void Initiate(RootMotion::FinalIK::InteractionSystem* interactionSystem);
     // private System.Void StoreDefaults()
-    // Offset: 0x17E7530
+    // Offset: 0x1C32C24
     void StoreDefaults();
     // public System.Boolean ResetToDefaults(System.Single speed)
-    // Offset: 0x17E76A8
+    // Offset: 0x1C32D9C
     bool ResetToDefaults(float speed);
     // public System.Boolean Pause()
-    // Offset: 0x17E7B58
+    // Offset: 0x1C3324C
     bool Pause();
     // public System.Boolean Resume()
-    // Offset: 0x17E7F10
+    // Offset: 0x1C33604
     bool Resume();
     // public System.Boolean Start(RootMotion.FinalIK.InteractionObject interactionObject, System.String tag, System.Single fadeInTime, System.Boolean interrupt)
-    // Offset: 0x17E7F64
+    // Offset: 0x1C33658
     bool Start(RootMotion::FinalIK::InteractionObject* interactionObject, ::Il2CppString* tag, float fadeInTime, bool interrupt);
     // public System.Void Update(UnityEngine.Transform root, System.Single speed)
-    // Offset: 0x17E8B14
+    // Offset: 0x1C34208
     void Update(UnityEngine::Transform* root, float speed);
     // public System.Single get_progress()
-    // Offset: 0x17E9E10
+    // Offset: 0x1C35504
     float get_progress();
     // private System.Void TriggerUntriggeredEvents(System.Boolean checkTime, out System.Boolean pickUp, out System.Boolean pause)
-    // Offset: 0x17E963C
+    // Offset: 0x1C34D30
     void TriggerUntriggeredEvents(bool checkTime, bool& pickUp, bool& pause);
     // private System.Void PickUp(UnityEngine.Transform root)
-    // Offset: 0x17E9864
+    // Offset: 0x1C34F58
     void PickUp(UnityEngine::Transform* root);
     // public System.Boolean Stop()
-    // Offset: 0x17E9CA0
+    // Offset: 0x1C35394
     bool Stop();
     // public System.Void OnPostFBBIK()
-    // Offset: 0x17EA2EC
+    // Offset: 0x1C359E0
     void OnPostFBBIK();
   }; // RootMotion.FinalIK.InteractionEffector
   #pragma pack(pop)

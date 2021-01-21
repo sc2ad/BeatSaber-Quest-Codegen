@@ -46,31 +46,31 @@ namespace Oculus::Platform {
     // Set static field: static private Oculus.Platform.PlatformSettings instance
     static void _set_instance(Oculus::Platform::PlatformSettings* value);
     // static public System.String get_AppID()
-    // Offset: 0x11D04DC
+    // Offset: 0x13E12E4
     static ::Il2CppString* get_AppID();
     // static public System.Void set_AppID(System.String value)
-    // Offset: 0x11E3F2C
+    // Offset: 0x13F4D34
     static void set_AppID(::Il2CppString* value);
     // static public System.String get_MobileAppID()
-    // Offset: 0x11D04BC
+    // Offset: 0x13E12C4
     static ::Il2CppString* get_MobileAppID();
     // static public System.Void set_MobileAppID(System.String value)
-    // Offset: 0x11E3F5C
+    // Offset: 0x13F4D64
     static void set_MobileAppID(::Il2CppString* value);
     // static public System.Boolean get_UseStandalonePlatform()
-    // Offset: 0x11D0078
+    // Offset: 0x13E0E80
     static bool get_UseStandalonePlatform();
     // static public System.Void set_UseStandalonePlatform(System.Boolean value)
-    // Offset: 0x11E3F8C
+    // Offset: 0x13F4D94
     static void set_UseStandalonePlatform(bool value);
     // static public Oculus.Platform.PlatformSettings get_Instance()
-    // Offset: 0x11E3E00
+    // Offset: 0x13F4C08
     static Oculus::Platform::PlatformSettings* get_Instance();
     // static public System.Void set_Instance(Oculus.Platform.PlatformSettings value)
-    // Offset: 0x11E3FBC
+    // Offset: 0x13F4DC4
     static void set_Instance(Oculus::Platform::PlatformSettings* value);
     // public System.Void .ctor()
-    // Offset: 0x11E4014
+    // Offset: 0x13F4E1C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

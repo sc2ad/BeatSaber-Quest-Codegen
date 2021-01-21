@@ -45,17 +45,17 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Creating value type constructor for type: ContentInfo
     ContentInfo(Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType_ = {}, Org::BouncyCastle::Asn1::Asn1Encodable* content_ = {}) noexcept : contentType{contentType_}, content{content_} {}
     // static public Org.BouncyCastle.Asn1.Pkcs.ContentInfo GetInstance(System.Object obj)
-    // Offset: 0x13F994C
+    // Offset: 0x16E6818
     static Org::BouncyCastle::Asn1::Pkcs::ContentInfo* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x13F99F0
+    // Offset: 0x16E68BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::ContentInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentInfo*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x13F9B40
+    // Offset: 0x16E6A0C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

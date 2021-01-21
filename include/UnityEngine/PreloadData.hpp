@@ -18,7 +18,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: PreloadData
     PreloadData() noexcept {}
     // System.Void PreloadDataDontStripMe()
-    // Offset: 0x1735C00
+    // Offset: 0x1B3C634
     void PreloadDataDontStripMe();
   }; // UnityEngine.PreloadData
   #pragma pack(pop)

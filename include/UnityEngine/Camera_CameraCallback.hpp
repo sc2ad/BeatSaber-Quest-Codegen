@@ -33,20 +33,20 @@ namespace UnityEngine {
     // Creating value type constructor for type: CameraCallback
     CameraCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1680E98
+    // Offset: 0x1A188D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Camera::CameraCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Camera::CameraCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Camera::CameraCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Camera cam)
-    // Offset: 0x1680A0C
+    // Offset: 0x1A1844C
     void Invoke(UnityEngine::Camera* cam);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Camera cam, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1680EAC
+    // Offset: 0x1A188EC
     System::IAsyncResult* BeginInvoke(UnityEngine::Camera* cam, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1680ED0
+    // Offset: 0x1A18910
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Camera/CameraCallback
   #pragma pack(pop)

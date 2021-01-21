@@ -22,7 +22,7 @@ namespace System::Reflection {
     // Creating value type constructor for type: ResolveEventHolder
     ResolveEventHolder() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x171EBF0
+    // Offset: 0x1B25624
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

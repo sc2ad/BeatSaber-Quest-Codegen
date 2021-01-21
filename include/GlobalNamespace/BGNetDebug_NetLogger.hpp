@@ -29,7 +29,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::INetLogger*>(this);
     }
     // public System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    // Offset: 0x1B42FB0
+    // Offset: 0x11CA224
     // Implemented from: LiteNetLib.INetLogger
     // Base method: System.Void INetLogger::WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::Array<::Il2CppObject*>* args);
@@ -41,7 +41,7 @@ namespace GlobalNamespace {
       WriteNet(level, str, {args...});
     }
     // public System.Void .ctor()
-    // Offset: 0x1B42B98
+    // Offset: 0x11C9E0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

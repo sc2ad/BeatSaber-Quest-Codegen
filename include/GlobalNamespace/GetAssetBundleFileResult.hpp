@@ -43,7 +43,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Boolean isError, System.String assetBundlePath)
-    // Offset: 0xC921C0
+    // Offset: 0xDF35C8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GetAssetBundleFileResult(bool isError, ::Il2CppString* assetBundlePath)
   }; // GetAssetBundleFileResult

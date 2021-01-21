@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
     // Padding between fields: event and: beatmapObjectCallbackController
     char __padding1[0x4] = {};
-    // [InjectAttribute] Offset: 0xDC6D7C
+    // [InjectAttribute] Offset: 0xD38D98
     // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x28
@@ -71,22 +71,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kTransitionDuration
     static void _set_kTransitionDuration(float value);
     // protected System.Void Start()
-    // Offset: 0x1A16330
+    // Offset: 0xF302CC
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x1A163C4
+    // Offset: 0xF30360
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1A164A0
+    // Offset: 0xF3043C
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void AnimateToFog(System.Single duration, System.Single value)
-    // Offset: 0x1A164F4
+    // Offset: 0xF30490
     void AnimateToFog(float duration, float value);
     // private System.Collections.IEnumerator AnimateToFogCoroutine(System.Single duration, System.Single value)
-    // Offset: 0x1A16544
+    // Offset: 0xF304E0
     System::Collections::IEnumerator* AnimateToFogCoroutine(float duration, float value);
     // public System.Void .ctor()
-    // Offset: 0x1A16600
+    // Offset: 0xF3059C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

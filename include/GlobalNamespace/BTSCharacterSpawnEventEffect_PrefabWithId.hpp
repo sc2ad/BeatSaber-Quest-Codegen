@@ -43,13 +43,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PrefabWithId
     PrefabWithId(int id_ = {}, GlobalNamespace::BTSCharacter* prefab_ = {}) noexcept : id{id_}, prefab{prefab_} {}
     // public System.Int32 get_id()
-    // Offset: 0x1A4BEF4
+    // Offset: 0x103A990
     int get_id();
     // public BTSCharacter get_prefab()
-    // Offset: 0x1A4BEFC
+    // Offset: 0x103A998
     GlobalNamespace::BTSCharacter* get_prefab();
     // public System.Void .ctor()
-    // Offset: 0x1A4BF04
+    // Offset: 0x103A9A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

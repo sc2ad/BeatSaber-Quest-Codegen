@@ -32,7 +32,7 @@ namespace OnlineServices::API {
       return everythingOK;
     }
     // public System.Void .ctor()
-    // Offset: 0xEFA3CC
+    // Offset: 0xF1684C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

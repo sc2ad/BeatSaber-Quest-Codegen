@@ -39,17 +39,17 @@ namespace Mono::Security::X509 {
     // Creating value type constructor for type: SafeBag
     SafeBag(::Il2CppString* bagOID_ = {}, Mono::Security::ASN1* asn1_ = {}) noexcept : bagOID{bagOID_}, asn1{asn1_} {}
     // public System.Void .ctor(System.String bagOID, Mono.Security.ASN1 asn1)
-    // Offset: 0x19C0A30
+    // Offset: 0x228F338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeBag* New_ctor(::Il2CppString* bagOID, Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::SafeBag::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeBag*, creationType>(bagOID, asn1)));
     }
     // public System.String get_BagOID()
-    // Offset: 0x19C0A80
+    // Offset: 0x228F388
     ::Il2CppString* get_BagOID();
     // public Mono.Security.ASN1 get_ASN1()
-    // Offset: 0x19C0A88
+    // Offset: 0x228F390
     Mono::Security::ASN1* get_ASN1();
   }; // Mono.Security.X509.SafeBag
   #pragma pack(pop)

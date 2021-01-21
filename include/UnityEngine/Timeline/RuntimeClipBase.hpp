@@ -28,17 +28,17 @@ namespace UnityEngine::Timeline {
     // Offset: 0xFFFFFFFF
     double get_duration();
     // public override System.Int64 get_intervalStart()
-    // Offset: 0x141FEA8
+    // Offset: 0x17358E0
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalStart()
     int64_t get_intervalStart();
     // public override System.Int64 get_intervalEnd()
-    // Offset: 0x141FF28
+    // Offset: 0x1735960
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalEnd()
     int64_t get_intervalEnd();
     // protected System.Void .ctor()
-    // Offset: 0x141FA2C
+    // Offset: 0x1735464
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::.ctor()
     // Base method: System.Void Object::.ctor()

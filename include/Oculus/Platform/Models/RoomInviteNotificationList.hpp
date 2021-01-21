@@ -30,7 +30,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: RoomInviteNotificationList
     RoomInviteNotificationList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x11DEFF0
+    // Offset: 0x13EFDF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RoomInviteNotificationList* New_ctor(System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::RoomInviteNotificationList::.ctor");

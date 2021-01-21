@@ -82,36 +82,36 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: TraceLoggingTypeInfo
     TraceLoggingTypeInfo(::Il2CppString* name_ = {}, System::Diagnostics::Tracing::EventKeywords keywords_ = {}, System::Diagnostics::Tracing::EventLevel level_ = {}, System::Diagnostics::Tracing::EventOpcode opcode_ = {}, System::Diagnostics::Tracing::EventTags tags_ = {}, System::Type* dataType_ = {}) noexcept : name{name_}, keywords{keywords_}, level{level_}, opcode{opcode_}, tags{tags_}, dataType{dataType_} {}
     // System.Void .ctor(System.Type dataType)
-    // Offset: 0x11221C0
+    // Offset: 0x12A8FFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceLoggingTypeInfo* New_ctor(System::Type* dataType) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::TraceLoggingTypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceLoggingTypeInfo*, creationType>(dataType)));
     }
     // System.Void .ctor(System.Type dataType, System.String name, System.Diagnostics.Tracing.EventLevel level, System.Diagnostics.Tracing.EventOpcode opcode, System.Diagnostics.Tracing.EventKeywords keywords, System.Diagnostics.Tracing.EventTags tags)
-    // Offset: 0x11222C4
+    // Offset: 0x12A9100
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceLoggingTypeInfo* New_ctor(System::Type* dataType, ::Il2CppString* name, System::Diagnostics::Tracing::EventLevel level, System::Diagnostics::Tracing::EventOpcode opcode, System::Diagnostics::Tracing::EventKeywords keywords, System::Diagnostics::Tracing::EventTags tags) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::TraceLoggingTypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceLoggingTypeInfo*, creationType>(dataType, name, level, opcode, keywords, tags)));
     }
     // public System.String get_Name()
-    // Offset: 0x1122428
+    // Offset: 0x12A9264
     ::Il2CppString* get_Name();
     // public System.Diagnostics.Tracing.EventLevel get_Level()
-    // Offset: 0x1122430
+    // Offset: 0x12A926C
     System::Diagnostics::Tracing::EventLevel get_Level();
     // public System.Diagnostics.Tracing.EventOpcode get_Opcode()
-    // Offset: 0x1122438
+    // Offset: 0x12A9274
     System::Diagnostics::Tracing::EventOpcode get_Opcode();
     // public System.Diagnostics.Tracing.EventKeywords get_Keywords()
-    // Offset: 0x1122440
+    // Offset: 0x12A927C
     System::Diagnostics::Tracing::EventKeywords get_Keywords();
     // public System.Diagnostics.Tracing.EventTags get_Tags()
-    // Offset: 0x1122448
+    // Offset: 0x12A9284
     System::Diagnostics::Tracing::EventTags get_Tags();
     // System.Type get_DataType()
-    // Offset: 0x1122450
+    // Offset: 0x12A928C
     System::Type* get_DataType();
     // public System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     // Offset: 0xFFFFFFFF
@@ -120,7 +120,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xFFFFFFFF
     void WriteObjectData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ::Il2CppObject* value);
     // public System.Object GetData(System.Object value)
-    // Offset: 0x11205C4
+    // Offset: 0x12A7400
     ::Il2CppObject* GetData(::Il2CppObject* value);
   }; // System.Diagnostics.Tracing.TraceLoggingTypeInfo
   #pragma pack(pop)

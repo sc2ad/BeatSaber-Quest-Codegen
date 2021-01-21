@@ -48,14 +48,14 @@ namespace System::Collections::Specialized {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // System.Void .ctor(System.Collections.Specialized.NameObjectCollectionBase coll)
-    // Offset: 0x147E90C
+    // Offset: 0x1793344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase::NameObjectKeysEnumerator* New_ctor(System::Collections::Specialized::NameObjectCollectionBase* coll) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameObjectCollectionBase::NameObjectKeysEnumerator*, creationType>(coll)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x147ED58
+    // Offset: 0x1793790
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -63,7 +63,7 @@ namespace System::Collections::Specialized {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x147EE40
+    // Offset: 0x1793878
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -71,7 +71,7 @@ namespace System::Collections::Specialized {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public System.Object get_Current()
-    // Offset: 0x147EEE4
+    // Offset: 0x179391C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();

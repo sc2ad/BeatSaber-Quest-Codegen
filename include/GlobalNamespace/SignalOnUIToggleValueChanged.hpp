@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class SignalOnUIToggleValueChanged : public UnityEngine::MonoBehaviour {
     public:
-    // [SignalSenderAttribute] Offset: 0xD99380
+    // [SignalSenderAttribute] Offset: 0xD0A6C0
     // private BoolSignal _toggleValueChangedSignal
     // Size: 0x8
     // Offset: 0x18
@@ -49,16 +49,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OnReset()
-    // Offset: 0x103DDDC
+    // Offset: 0x11178E8
     void OnReset();
     // protected System.Void Start()
-    // Offset: 0x103DE3C
+    // Offset: 0x1117948
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x103DEE4
+    // Offset: 0x11179F0
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x103DFD0
+    // Offset: 0x1117ADC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LineTriangleIntersection
     LineTriangleIntersection() noexcept {}
     // static public System.Boolean Intersects(UnityEngine.Ray ray, UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x103781C
+    // Offset: 0x11111AC
     static bool Intersects(UnityEngine::Ray ray, UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
     // public System.Void .ctor()
-    // Offset: 0x1037824
+    // Offset: 0x11111B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

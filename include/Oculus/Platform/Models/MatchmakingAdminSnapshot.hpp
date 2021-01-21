@@ -41,7 +41,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: MatchmakingAdminSnapshot
     MatchmakingAdminSnapshot(Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList* Candidates_ = {}, double MyCurrentThreshold_ = {}) noexcept : Candidates{Candidates_}, MyCurrentThreshold{MyCurrentThreshold_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x11DBDEC
+    // Offset: 0x13ECBF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingAdminSnapshot* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingAdminSnapshot::.ctor");

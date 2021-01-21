@@ -99,7 +99,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SceneInfo* gameCoreSceneInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SceneInfo*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDD32C8
+    // [CompilerGeneratedAttribute] Offset: 0xD45674
     // private System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> didFinishEvent
     // Size: 0x8
     // Offset: 0x40
@@ -109,19 +109,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TutorialScenesTransitionSetupDataSO
     TutorialScenesTransitionSetupDataSO(GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, GlobalNamespace::SceneInfo* tutorialSceneInfo_ = {}, GlobalNamespace::SceneInfo* gameCoreSceneInfo_ = {}, System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* didFinishEvent_ = {}) noexcept : environmentInfo{environmentInfo_}, tutorialSceneInfo{tutorialSceneInfo_}, gameCoreSceneInfo{gameCoreSceneInfo_}, didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> value)
-    // Offset: 0xFF2D54
+    // Offset: 0xF4B800
     void add_didFinishEvent(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> value)
-    // Offset: 0xFF2DF8
+    // Offset: 0xF4B8A4
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* value);
     // public System.Void Init()
-    // Offset: 0xFF1C10
+    // Offset: 0xF4A69C
     void Init();
     // public System.Void Finish(TutorialScenesTransitionSetupDataSO/TutorialEndStateType endState)
-    // Offset: 0xFF1304
+    // Offset: 0xF49D90
     void Finish(GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType endState);
     // public System.Void .ctor()
-    // Offset: 0xFF2E9C
+    // Offset: 0xF4B948
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

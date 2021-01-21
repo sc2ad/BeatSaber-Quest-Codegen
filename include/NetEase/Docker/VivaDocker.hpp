@@ -45,40 +45,40 @@ namespace NetEase::Docker {
     // Set static field: static private NetEase.Docker.IDock _activeDock
     static void _set__activeDock(NetEase::Docker::IDock* value);
     // static public System.Void SetInitializeCallback(System.Action`1<NetEase.Docker.InitializeData> callbackAction)
-    // Offset: 0x1A04F34
+    // Offset: 0x22D7FE8
     static void SetInitializeCallback(System::Action_1<NetEase::Docker::InitializeData>* callbackAction);
     // static public System.Void Initialize()
-    // Offset: 0x1A05010
+    // Offset: 0x22D80C4
     static void Initialize();
     // static public System.Void SetLoginCallback(System.Action`1<NetEase.Docker.LoginData> callbackAction)
-    // Offset: 0x1A050E8
+    // Offset: 0x22D819C
     static void SetLoginCallback(System::Action_1<NetEase::Docker::LoginData>* callbackAction);
     // static public System.Void Login()
-    // Offset: 0x1A051C8
+    // Offset: 0x22D827C
     static void Login();
     // static public System.Void SetLogoutCallback(System.Action`1<NetEase.Docker.LogoutData> callbackAction)
-    // Offset: 0x1A052A0
+    // Offset: 0x22D8354
     static void SetLogoutCallback(System::Action_1<NetEase::Docker::LogoutData>* callbackAction);
     // static public System.Void Logout()
-    // Offset: 0x1A05380
+    // Offset: 0x22D8434
     static void Logout();
     // static public System.Void UploadScore(NetEase.Docker.UploadScoreData scoreData)
-    // Offset: 0x1A05458
+    // Offset: 0x22D850C
     static void UploadScore(NetEase::Docker::UploadScoreData scoreData);
     // static public System.Boolean WillProvideHighscore()
-    // Offset: 0x1A05578
+    // Offset: 0x22D862C
     static bool WillProvideHighscore();
     // static public System.Void SetHighscoreReceivedCallback(System.Action`1<NetEase.Docker.ReceivedHighscoreData> callbackAction)
-    // Offset: 0x1A05650
+    // Offset: 0x22D8704
     static void SetHighscoreReceivedCallback(System::Action_1<NetEase::Docker::ReceivedHighscoreData>* callbackAction);
     // static public System.Void RequestHighscoreList(NetEase.Docker.RequestHighscoreData highscoreRequest)
-    // Offset: 0x1A05730
+    // Offset: 0x22D87E4
     static void RequestHighscoreList(NetEase::Docker::RequestHighscoreData highscoreRequest);
     // static public System.Void UpdateLoop()
-    // Offset: 0x1A05820
+    // Offset: 0x22D88D4
     static void UpdateLoop();
     // static private System.Void .cctor()
-    // Offset: 0x1A058F8
+    // Offset: 0x22D89AC
     static void _cctor();
   }; // NetEase.Docker.VivaDocker
   #pragma pack(pop)

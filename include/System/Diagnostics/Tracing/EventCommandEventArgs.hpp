@@ -42,7 +42,7 @@ namespace System::Diagnostics::Tracing {
   // [] Offset: FFFFFFFF
   class EventCommandEventArgs : public System::EventArgs {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD3F198
+    // [CompilerGeneratedAttribute] Offset: 0xCAFD4C
     // private System.Diagnostics.Tracing.EventCommand <Command>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -51,7 +51,7 @@ namespace System::Diagnostics::Tracing {
     static_assert(sizeof(System::Diagnostics::Tracing::EventCommand) == 0x4);
     // Padding between fields: Command and: Arguments
     char __padding0[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD3F1A8
+    // [CompilerGeneratedAttribute] Offset: 0xCAFD5C
     // private System.Collections.Generic.IDictionary`2<System.String,System.String> <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -117,19 +117,19 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: EventCommandEventArgs
     EventCommandEventArgs(System::Diagnostics::Tracing::EventCommand Command_ = {}, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* Arguments_ = {}, System::Diagnostics::Tracing::EventSource* eventSource_ = {}, System::Diagnostics::Tracing::EventDispatcher* dispatcher_ = {}, System::Diagnostics::Tracing::EventListener* listener_ = {}, int perEventSourceSessionId_ = {}, int etwSessionId_ = {}, bool enable_ = {}, System::Diagnostics::Tracing::EventLevel level_ = {}, System::Diagnostics::Tracing::EventKeywords matchAnyKeyword_ = {}, System::Diagnostics::Tracing::EventCommandEventArgs* nextCommand_ = {}) noexcept : Command{Command_}, Arguments{Arguments_}, eventSource{eventSource_}, dispatcher{dispatcher_}, listener{listener_}, perEventSourceSessionId{perEventSourceSessionId_}, etwSessionId{etwSessionId_}, enable{enable_}, level{level_}, matchAnyKeyword{matchAnyKeyword_}, nextCommand{nextCommand_} {}
     // public System.Diagnostics.Tracing.EventCommand get_Command()
-    // Offset: 0x12C68C4
+    // Offset: 0x1515658
     System::Diagnostics::Tracing::EventCommand get_Command();
     // System.Void set_Command(System.Diagnostics.Tracing.EventCommand value)
-    // Offset: 0x12C68CC
+    // Offset: 0x1515660
     void set_Command(System::Diagnostics::Tracing::EventCommand value);
     // public System.Collections.Generic.IDictionary`2<System.String,System.String> get_Arguments()
-    // Offset: 0x12C68D4
+    // Offset: 0x1515668
     System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* get_Arguments();
     // System.Void set_Arguments(System.Collections.Generic.IDictionary`2<System.String,System.String> value)
-    // Offset: 0x12C68DC
+    // Offset: 0x1515670
     void set_Arguments(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* value);
     // System.Void .ctor(System.Diagnostics.Tracing.EventCommand command, System.Collections.Generic.IDictionary`2<System.String,System.String> arguments, System.Diagnostics.Tracing.EventSource eventSource, System.Diagnostics.Tracing.EventListener listener, System.Int32 perEventSourceSessionId, System.Int32 etwSessionId, System.Boolean enable, System.Diagnostics.Tracing.EventLevel level, System.Diagnostics.Tracing.EventKeywords matchAnyKeyword)
-    // Offset: 0x12C68E4
+    // Offset: 0x1515678
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventCommandEventArgs* New_ctor(System::Diagnostics::Tracing::EventCommand command, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* arguments, System::Diagnostics::Tracing::EventSource* eventSource, System::Diagnostics::Tracing::EventListener* listener, int perEventSourceSessionId, int etwSessionId, bool enable, System::Diagnostics::Tracing::EventLevel level, System::Diagnostics::Tracing::EventKeywords matchAnyKeyword) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventCommandEventArgs::.ctor");

@@ -22,12 +22,12 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Creating value type constructor for type: VmpcKsa3Engine
     VmpcKsa3Engine() noexcept {}
     // protected override System.Void InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x1496C2C
+    // Offset: 0x17C5374
     // Implemented from: Org.BouncyCastle.Crypto.Engines.VmpcEngine
     // Base method: System.Void VmpcEngine::InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
     void InitKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
     // public System.Void .ctor()
-    // Offset: 0x1496F1C
+    // Offset: 0x17C5664
     // Implemented from: Org.BouncyCastle.Crypto.Engines.VmpcEngine
     // Base method: System.Void VmpcEngine::.ctor()
     // Base method: System.Void Object::.ctor()

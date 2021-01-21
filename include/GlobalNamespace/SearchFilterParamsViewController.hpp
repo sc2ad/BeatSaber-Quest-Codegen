@@ -131,7 +131,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelFilterParams* currentLevelFilterParams;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelFilterParams*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFF08
+    // [CompilerGeneratedAttribute] Offset: 0xD42234
     // private System.Action`2<SearchFilterParamsViewController,LevelFilterParams> didFinishEvent
     // Size: 0x8
     // Offset: 0xE0
@@ -141,38 +141,38 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SearchFilterParamsViewController
     SearchFilterParamsViewController(UnityEngine::UI::Toggle* filterByOwnedToggle_ = {}, UnityEngine::UI::Toggle* filterByCharacteristicToggle_ = {}, GlobalNamespace::BeatmapCharacteristicsDropdown* beatmapCharacteristicsDropdown_ = {}, UnityEngine::UI::Toggle* filterByDifficultyToggle_ = {}, GlobalNamespace::BeatmapDifficultyDropdown* beatmapDifficultyDropdown_ = {}, UnityEngine::UI::Toggle* filterBySongPacksToggle_ = {}, GlobalNamespace::SongPacksDropdown* songPacksDropdown_ = {}, UnityEngine::UI::Toggle* filterByNotPlayedYetToggle_ = {}, UnityEngine::UI::Toggle* filterByMinBpmToggle_ = {}, GlobalNamespace::FormattedFloatListSettingsController* minBpmController_ = {}, UnityEngine::UI::Toggle* filterByMaxBpmToggle_ = {}, GlobalNamespace::FormattedFloatListSettingsController* maxBpmController_ = {}, UnityEngine::UI::Button* okButton_ = {}, GlobalNamespace::LevelFilterParams* currentLevelFilterParams_ = {}, System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>* didFinishEvent_ = {}) noexcept : filterByOwnedToggle{filterByOwnedToggle_}, filterByCharacteristicToggle{filterByCharacteristicToggle_}, beatmapCharacteristicsDropdown{beatmapCharacteristicsDropdown_}, filterByDifficultyToggle{filterByDifficultyToggle_}, beatmapDifficultyDropdown{beatmapDifficultyDropdown_}, filterBySongPacksToggle{filterBySongPacksToggle_}, songPacksDropdown{songPacksDropdown_}, filterByNotPlayedYetToggle{filterByNotPlayedYetToggle_}, filterByMinBpmToggle{filterByMinBpmToggle_}, minBpmController{minBpmController_}, filterByMaxBpmToggle{filterByMaxBpmToggle_}, maxBpmController{maxBpmController_}, okButton{okButton_}, currentLevelFilterParams{currentLevelFilterParams_}, didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action`2<SearchFilterParamsViewController,LevelFilterParams> value)
-    // Offset: 0xFC9478
+    // Offset: 0x108EEE0
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SearchFilterParamsViewController,LevelFilterParams> value)
-    // Offset: 0xFC951C
+    // Offset: 0x108EF84
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>* value);
     // public System.Void Setup(LevelFilterParams levelFilterParams)
-    // Offset: 0xFC95C0
+    // Offset: 0x108F028
     void Setup(GlobalNamespace::LevelFilterParams* levelFilterParams);
     // private System.Void OkButtonPressed()
-    // Offset: 0xFC99F0
+    // Offset: 0x108F458
     void OkButtonPressed();
     // private System.Void MinBpmControllerValueDidChange(FormattedFloatListSettingsController minBpmController, System.Single value)
-    // Offset: 0xFC9C08
+    // Offset: 0x108F670
     void MinBpmControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* minBpmController, float value);
     // private System.Void MaxBpmControllerValueDidChange(FormattedFloatListSettingsController maxBpmController, System.Single value)
-    // Offset: 0xFC9CA0
+    // Offset: 0x108F708
     void MaxBpmControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* maxBpmController, float value);
     // private System.Void Refresh(LevelFilterParams levelFilterParams)
-    // Offset: 0xFC95F4
+    // Offset: 0x108F05C
     void Refresh(GlobalNamespace::LevelFilterParams* levelFilterParams);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xFC9798
+    // Offset: 0x108F200
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xFC98FC
+    // Offset: 0x108F364
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xFC9D38
+    // Offset: 0x108F7A0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

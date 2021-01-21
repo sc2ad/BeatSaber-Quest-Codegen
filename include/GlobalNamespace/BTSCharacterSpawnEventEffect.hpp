@@ -76,35 +76,35 @@ namespace GlobalNamespace {
     GlobalNamespace::BTSCharacterDataModel* btsCharacterDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSCharacterDataModel*) == 0x8);
-    // [NullAllowed] Offset: 0xDC017C
+    // [NullAllowed] Offset: 0xD31F98
     // private UnityEngine.Transform _characterWrapper
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::Transform* characterWrapper;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC01B8
+    // [InjectAttribute] Offset: 0xD31FD4
     // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC01C8
+    // [InjectAttribute] Offset: 0xD31FE4
     // private readonly IReadonlyBeatmapData _beatmapData
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::IReadonlyBeatmapData* beatmapData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IReadonlyBeatmapData*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC01D8
+    // [InjectAttribute] Offset: 0xD31FF4
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC01E8
+    // [CompilerGeneratedAttribute] Offset: 0xD32004
     // private System.Action`1<BTSCharacter> startCharacterAnimationEvent
     // Size: 0x8
     // Offset: 0x48
@@ -154,28 +154,28 @@ namespace GlobalNamespace {
     // Set static field: static private BeatmapEventType kCharacterDisplayEventType
     static void _set_kCharacterDisplayEventType(GlobalNamespace::BeatmapEventType value);
     // public System.Void add_startCharacterAnimationEvent(System.Action`1<BTSCharacter> value)
-    // Offset: 0x1A4AC90
+    // Offset: 0x103972C
     void add_startCharacterAnimationEvent(System::Action_1<GlobalNamespace::BTSCharacter*>* value);
     // public System.Void remove_startCharacterAnimationEvent(System.Action`1<BTSCharacter> value)
-    // Offset: 0x1A4B0B0
+    // Offset: 0x1039B4C
     void remove_startCharacterAnimationEvent(System::Action_1<GlobalNamespace::BTSCharacter*>* value);
     // public System.Boolean get_isInitialized()
-    // Offset: 0x1A4B518
+    // Offset: 0x1039FB4
     bool get_isInitialized();
     // protected System.Void Start()
-    // Offset: 0x1A4B520
+    // Offset: 0x1039FBC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1A4BBDC
+    // Offset: 0x103A678
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1A4BC78
+    // Offset: 0x103A714
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // static private System.Tuple`2<BTSCharacter,UnityEngine.AnimationClip> GetCharacterWithAnimationClip(System.Collections.Generic.Dictionary`2<System.Int32,BTSCharacter> charDictionary, System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.AnimationClip> animDictionary, System.Int32 prefabId, System.Int32 animationId)
-    // Offset: 0x1A4BA84
+    // Offset: 0x103A520
     static System::Tuple_2<GlobalNamespace::BTSCharacter*, UnityEngine::AnimationClip*>* GetCharacterWithAnimationClip(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>* charDictionary, System::Collections::Generic::Dictionary_2<int, UnityEngine::AnimationClip*>* animDictionary, int prefabId, int animationId);
     // public System.Void .ctor()
-    // Offset: 0x1A4BDF8
+    // Offset: 0x103A894
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

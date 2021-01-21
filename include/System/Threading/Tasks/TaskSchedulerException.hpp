@@ -29,14 +29,14 @@ namespace System::Threading::Tasks {
     // Creating value type constructor for type: TaskSchedulerException
     TaskSchedulerException() noexcept {}
     // public System.Void .ctor(System.Exception innerException)
-    // Offset: 0x1D11A5C
+    // Offset: 0x17B2AB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskSchedulerException* New_ctor(System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskSchedulerException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskSchedulerException*, creationType>(innerException)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1D19744
+    // Offset: 0x17BA7A0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -46,7 +46,7 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<TaskSchedulerException*, creationType>()));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1D197CC
+    // Offset: 0x17BA828
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

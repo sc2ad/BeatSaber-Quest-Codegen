@@ -43,42 +43,42 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return bOut;
     }
     // public System.String get_AlgorithmName()
-    // Offset: 0x17649DC
+    // Offset: 0x1B69410
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.String IDigest::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1764A24
+    // Offset: 0x1B69458
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Int32 IDigest::GetByteLength()
     int GetByteLength();
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1764A2C
+    // Offset: 0x1B69460
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Int32 IDigest::GetDigestSize()
     int GetDigestSize();
     // public System.Void Update(System.Byte b)
-    // Offset: 0x1764A54
+    // Offset: 0x1B69488
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Void IDigest::Update(System.Byte b)
     void Update(uint8_t b);
     // public System.Void BlockUpdate(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1764A78
+    // Offset: 0x1B694AC
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Void IDigest::BlockUpdate(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
     void BlockUpdate(::Array<uint8_t>* inBytes, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1764A9C
+    // Offset: 0x1B694D0
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Int32 IDigest::DoFinal(System.Byte[] outBytes, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1764B38
+    // Offset: 0x1B6956C
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Void IDigest::Reset()
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1764B60
+    // Offset: 0x1B69594
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

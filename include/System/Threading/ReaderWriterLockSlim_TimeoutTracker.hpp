@@ -41,7 +41,7 @@ namespace System::Threading {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Int32 millisecondsTimeout)
-    // Offset: 0xCB6978
+    // Offset: 0xE2F128
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TimeoutTracker(int millisecondsTimeout) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ReaderWriterLockSlim::TimeoutTracker::.ctor");
@@ -49,10 +49,10 @@ namespace System::Threading {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, millisecondsTimeout);
     }
     // public System.Int32 get_RemainingMilliseconds()
-    // Offset: 0xCB6980
+    // Offset: 0xE2F130
     int get_RemainingMilliseconds();
     // public System.Boolean get_IsExpired()
-    // Offset: 0xCB6988
+    // Offset: 0xE2F138
     bool get_IsExpired();
   }; // System.Threading.ReaderWriterLockSlim/TimeoutTracker
   #pragma pack(pop)

@@ -39,7 +39,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MainSettingsMenuViewController : public HMUI::ViewController {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDD02F8
+    // [CompilerGeneratedAttribute] Offset: 0xD42634
     // private System.Action`2<SettingsSubMenuInfo,System.Int32> didSelectSettingsSubMenuEvent
     // Size: 0x8
     // Offset: 0x70
@@ -73,30 +73,30 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MainSettingsMenuViewController
     MainSettingsMenuViewController(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* didSelectSettingsSubMenuEvent_ = {}, ::Array<GlobalNamespace::SettingsSubMenuInfo*>* settingsSubMenuInfos_ = {}, HMUI::TextSegmentedControl* settingsMenuSegmentedControl_ = {}, GlobalNamespace::SettingsSubMenuInfo* selectedSubMenuInfo_ = {}, int selectedSubMenuInfoIdx_ = {}) noexcept : didSelectSettingsSubMenuEvent{didSelectSettingsSubMenuEvent_}, settingsSubMenuInfos{settingsSubMenuInfos_}, settingsMenuSegmentedControl{settingsMenuSegmentedControl_}, selectedSubMenuInfo{selectedSubMenuInfo_}, selectedSubMenuInfoIdx{selectedSubMenuInfoIdx_} {}
     // public System.Void add_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0x1A6F164
+    // Offset: 0x105F86C
     void add_didSelectSettingsSubMenuEvent(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* value);
     // public System.Void remove_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0x1A6F208
+    // Offset: 0x105F910
     void remove_didSelectSettingsSubMenuEvent(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* value);
     // public System.Int32 get_numberOfSubMenus()
-    // Offset: 0x1A6F2AC
+    // Offset: 0x105F9B4
     int get_numberOfSubMenus();
     // public SettingsSubMenuInfo get_selectedSubMenuInfo()
-    // Offset: 0x1A6F2C8
+    // Offset: 0x105F9D0
     GlobalNamespace::SettingsSubMenuInfo* get_selectedSubMenuInfo();
     // public System.Void Init(System.Int32 selectedSubMenuInfoIdx)
-    // Offset: 0x1A6F2D0
+    // Offset: 0x105F9D8
     void Init(int selectedSubMenuInfoIdx);
     // private System.Void HandleSettingsMenuSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x1A6F4AC
+    // Offset: 0x105FBB4
     void HandleSettingsMenuSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1A6F314
+    // Offset: 0x105FA1C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1A6F560
+    // Offset: 0x105FC68
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

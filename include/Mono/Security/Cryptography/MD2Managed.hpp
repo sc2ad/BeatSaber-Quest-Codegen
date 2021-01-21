@@ -60,16 +60,16 @@ namespace Mono::Security::Cryptography {
     // Set static field: static private readonly System.Byte[] PI_SUBST
     static void _set_PI_SUBST(::Array<uint8_t>* value);
     // private System.Byte[] Padding(System.Int32 nLength)
-    // Offset: 0x17B32C4
+    // Offset: 0x1BEBCE4
     ::Array<uint8_t>* Padding(int nLength);
     // private System.Void MD2Transform(System.Byte[] state, System.Byte[] checksum, System.Byte[] block, System.Int32 index)
-    // Offset: 0x17B34B0
+    // Offset: 0x1BEBED0
     void MD2Transform(::Array<uint8_t>* state, ::Array<uint8_t>* checksum, ::Array<uint8_t>* block, int index);
     // static private System.Void .cctor()
-    // Offset: 0x17B3838
+    // Offset: 0x1BEC258
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x17B31E8
+    // Offset: 0x1BEBC08
     // Implemented from: Mono.Security.Cryptography.MD2
     // Base method: System.Void MD2::.ctor()
     // Base method: System.Void HashAlgorithm::.ctor()
@@ -80,17 +80,17 @@ namespace Mono::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<MD2Managed*, creationType>()));
     }
     // public override System.Void Initialize()
-    // Offset: 0x17B3370
+    // Offset: 0x1BEBD90
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
     // protected override System.Void HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x17B33DC
+    // Offset: 0x1BEBDFC
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
     void HashCore(::Array<uint8_t>* array, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
-    // Offset: 0x17B3740
+    // Offset: 0x1BEC160
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::Array<uint8_t>* HashFinal();

@@ -78,13 +78,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: BinaryMethodCall
     BinaryMethodCall(::Il2CppString* methodName_ = {}, ::Il2CppString* typeName_ = {}, ::Array<::Il2CppObject*>* args_ = {}, ::Il2CppObject* callContext_ = {}, ::Array<System::Type*>* argTypes_ = {}, bool bArgsPrimitive_ = {}, System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum_ = {}) noexcept : methodName{methodName_}, typeName{typeName_}, args{args_}, callContext{callContext_}, argTypes{argTypes_}, bArgsPrimitive{bArgsPrimitive_}, messageEnum{messageEnum_} {}
     // System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x1342468
+    // Offset: 0x15911FC
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // System.Void Dump()
-    // Offset: 0x13425D0
+    // Offset: 0x1591364
     void Dump();
     // public System.Void .ctor()
-    // Offset: 0x13425D4
+    // Offset: 0x1591368
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

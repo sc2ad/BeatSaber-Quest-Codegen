@@ -55,26 +55,26 @@ namespace OnlineServices {
     // Creating value type constructor for type: LeaderboardEntriesResult
     LeaderboardEntriesResult(bool isError_ = {}, ::Il2CppString* localizedErrorMessage_ = {}, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries_ = {}, int referencePlayerScoreIndex_ = {}) noexcept : isError{isError_}, localizedErrorMessage{localizedErrorMessage_}, leaderboardEntries{leaderboardEntries_}, referencePlayerScoreIndex{referencePlayerScoreIndex_} {}
     // private System.Void .ctor(OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex, System.Boolean isError, System.String localizedErrorMessage)
-    // Offset: 0xEFDD14
+    // Offset: 0xF1A194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntriesResult* New_ctor(::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries, int referencePlayerScoreIndex, bool isError, ::Il2CppString* localizedErrorMessage) {
       static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::LeaderboardEntriesResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntriesResult*, creationType>(leaderboardEntries, referencePlayerScoreIndex, isError, localizedErrorMessage)));
     }
     // static private OnlineServices.LeaderboardEntriesResult ErrorResult(System.String localizedErrorMessage)
-    // Offset: 0xEFDD84
+    // Offset: 0xF1A204
     static OnlineServices::LeaderboardEntriesResult* ErrorResult(::Il2CppString* localizedErrorMessage);
     // static public OnlineServices.LeaderboardEntriesResult get_notInicializedError()
-    // Offset: 0xEFDDF0
+    // Offset: 0xF1A270
     static OnlineServices::LeaderboardEntriesResult* get_notInicializedError();
     // static public OnlineServices.LeaderboardEntriesResult get_somethingWentWrongError()
-    // Offset: 0xEFDE40
+    // Offset: 0xF1A2C0
     static OnlineServices::LeaderboardEntriesResult* get_somethingWentWrongError();
     // static public OnlineServices.LeaderboardEntriesResult get_onlineServicesUnavailableError()
-    // Offset: 0xEFDE90
+    // Offset: 0xF1A310
     static OnlineServices::LeaderboardEntriesResult* get_onlineServicesUnavailableError();
     // static public OnlineServices.LeaderboardEntriesResult FromGetLeaderboardEntriesResult(OnlineServices.GetLeaderboardEntriesResult getLeaderboardEntriesResult)
-    // Offset: 0xEFDEE0
+    // Offset: 0xF1A360
     static OnlineServices::LeaderboardEntriesResult* FromGetLeaderboardEntriesResult(OnlineServices::GetLeaderboardEntriesResult getLeaderboardEntriesResult);
   }; // OnlineServices.LeaderboardEntriesResult
   #pragma pack(pop)

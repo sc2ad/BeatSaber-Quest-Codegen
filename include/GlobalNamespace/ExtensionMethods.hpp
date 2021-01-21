@@ -52,10 +52,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ExtensionMethods
     ExtensionMethods() noexcept {}
     // static public System.Boolean ContainsLayer(UnityEngine.LayerMask layerMask, System.Int32 layer)
-    // Offset: 0x102EFDC
+    // Offset: 0x11089BC
     static bool ContainsLayer(UnityEngine::LayerMask layerMask, int layer);
     // static public UnityEngine.Coroutine StartUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`1<System.Collections.IEnumerator> func)
-    // Offset: 0x102F018
+    // Offset: 0x11089F8
     static UnityEngine::Coroutine* StartUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_1<System::Collections::IEnumerator*>* func);
     // static public UnityEngine.Coroutine StartUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`2<T,System.Collections.IEnumerator> func, T value)
     // Offset: 0xFFFFFFFF
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<UnityEngine::Coroutine*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, m, func, value);
     }
     // static public System.Void StopUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`1<System.Collections.IEnumerator> func)
-    // Offset: 0x102F098
+    // Offset: 0x1108A78
     static void StopUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_1<System::Collections::IEnumerator*>* func);
     // static public System.Void StopUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`2<T,System.Collections.IEnumerator> func)
     // Offset: 0xFFFFFFFF
@@ -79,13 +79,13 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, m, func);
     }
     // static public System.Boolean IsDescendantOf(UnityEngine.Transform transform, UnityEngine.Transform parent)
-    // Offset: 0x102F0E8
+    // Offset: 0x1108AC8
     static bool IsDescendantOf(UnityEngine::Transform* transform, UnityEngine::Transform* parent);
     // static public System.Void SetLocalPositionAndRotation(UnityEngine.Transform tr, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x102F1D4
+    // Offset: 0x1108BB4
     static void SetLocalPositionAndRotation(UnityEngine::Transform* tr, UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // static public System.String GetPath(UnityEngine.Transform current)
-    // Offset: 0x102F238
+    // Offset: 0x1108C18
     static ::Il2CppString* GetPath(UnityEngine::Transform* current);
   }; // ExtensionMethods
   #pragma pack(pop)

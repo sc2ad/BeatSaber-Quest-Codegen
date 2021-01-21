@@ -37,43 +37,43 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Net
     Net() noexcept {}
     // static public Oculus.Platform.Packet ReadPacket()
-    // Offset: 0x11E1FC4
+    // Offset: 0x13F2DCC
     static Oculus::Platform::Packet* ReadPacket();
     // static public System.Boolean SendPacket(System.UInt64 userID, System.Byte[] bytes, Oculus.Platform.SendPolicy policy)
-    // Offset: 0x11E2194
+    // Offset: 0x13F2F9C
     static bool SendPacket(uint64_t userID, ::Array<uint8_t>* bytes, Oculus::Platform::SendPolicy policy);
     // static public System.Void Connect(System.UInt64 userID)
-    // Offset: 0x11E22E0
+    // Offset: 0x13F30E8
     static void Connect(uint64_t userID);
     // static public System.Void Accept(System.UInt64 userID)
-    // Offset: 0x11E23CC
+    // Offset: 0x13F31D4
     static void Accept(uint64_t userID);
     // static public System.Void Close(System.UInt64 userID)
-    // Offset: 0x11E24B8
+    // Offset: 0x13F32C0
     static void Close(uint64_t userID);
     // static public System.Boolean IsConnected(System.UInt64 userID)
-    // Offset: 0x11E25A4
+    // Offset: 0x13F33AC
     static bool IsConnected(uint64_t userID);
     // static public System.Boolean SendPacketToCurrentRoom(System.Byte[] bytes, Oculus.Platform.SendPolicy policy)
-    // Offset: 0x11E2694
+    // Offset: 0x13F349C
     static bool SendPacketToCurrentRoom(::Array<uint8_t>* bytes, Oculus::Platform::SendPolicy policy);
     // static public System.Boolean AcceptForCurrentRoom()
-    // Offset: 0x11E27CC
+    // Offset: 0x13F35D4
     static bool AcceptForCurrentRoom();
     // static public System.Void CloseForCurrentRoom()
-    // Offset: 0x11E28A8
+    // Offset: 0x13F36B0
     static void CloseForCurrentRoom();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PingResult> Ping(System.UInt64 userID)
-    // Offset: 0x11E2980
+    // Offset: 0x13F3788
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PingResult*>* Ping(uint64_t userID);
     // static public System.Void SetConnectionStateChangedCallback(Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.NetworkingPeer> callback)
-    // Offset: 0x11E2A9C
+    // Offset: 0x13F38A4
     static void SetConnectionStateChangedCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback* callback);
     // static public System.Void SetPeerConnectRequestCallback(Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.NetworkingPeer> callback)
-    // Offset: 0x11E2B14
+    // Offset: 0x13F391C
     static void SetPeerConnectRequestCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback* callback);
     // static public System.Void SetPingResultNotificationCallback(Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.PingResult> callback)
-    // Offset: 0x11E2B8C
+    // Offset: 0x13F3994
     static void SetPingResultNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult*>::Callback* callback);
   }; // Oculus.Platform.Net
   #pragma pack(pop)

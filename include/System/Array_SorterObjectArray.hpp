@@ -54,35 +54,35 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void .ctor(System.Object[] keys, System.Object[] items, System.Collections.IComparer comparer)
-    // Offset: 0xE8B550
+    // Offset: 0xE0B8D8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  SorterObjectArray(::Array<::Il2CppObject*>* keys, ::Array<::Il2CppObject*>* items, System::Collections::IComparer* comparer)
     // System.Void SwapIfGreaterWithItems(System.Int32 a, System.Int32 b)
-    // Offset: 0xE8B558
+    // Offset: 0xE0B8E0
     void SwapIfGreaterWithItems(int a, int b);
     // private System.Void Swap(System.Int32 i, System.Int32 j)
-    // Offset: 0xE8B560
+    // Offset: 0xE0B8E8
     void Swap(int i, int j);
     // System.Void Sort(System.Int32 left, System.Int32 length)
-    // Offset: 0xE8B568
+    // Offset: 0xE0B8F0
     void Sort(int left, int length);
     // private System.Void IntrospectiveSort(System.Int32 left, System.Int32 length)
-    // Offset: 0xE8B570
+    // Offset: 0xE0B8F8
     void IntrospectiveSort(int left, int length);
     // private System.Void IntroSort(System.Int32 lo, System.Int32 hi, System.Int32 depthLimit)
-    // Offset: 0xE8B578
+    // Offset: 0xE0B900
     void IntroSort(int lo, int hi, int depthLimit);
     // private System.Int32 PickPivotAndPartition(System.Int32 lo, System.Int32 hi)
-    // Offset: 0xE8B580
+    // Offset: 0xE0B908
     int PickPivotAndPartition(int lo, int hi);
     // private System.Void Heapsort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0xE8B588
+    // Offset: 0xE0B910
     void Heapsort(int lo, int hi);
     // private System.Void DownHeap(System.Int32 i, System.Int32 n, System.Int32 lo)
-    // Offset: 0xE8B590
+    // Offset: 0xE0B918
     void DownHeap(int i, int n, int lo);
     // private System.Void InsertionSort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0xE8B598
+    // Offset: 0xE0B920
     void InsertionSort(int lo, int hi);
   }; // System.Array/SorterObjectArray
   #pragma pack(pop)

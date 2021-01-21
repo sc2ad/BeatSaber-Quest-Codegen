@@ -23,7 +23,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: WWWForm
     WWWForm() noexcept {}
     // static System.Text.Encoding get_DefaultEncoding()
-    // Offset: 0x19DFD64
+    // Offset: 0x22AD870
     static System::Text::Encoding* get_DefaultEncoding();
   }; // UnityEngine.WWWForm
   #pragma pack(pop)

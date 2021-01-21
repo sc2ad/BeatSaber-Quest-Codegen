@@ -45,25 +45,25 @@ namespace GlobalNamespace {
     // Set static field: static public BeatmapEventType kBPMChangeEvent
     static void _set_kBPMChangeEvent(GlobalNamespace::BeatmapEventType value);
     // static public System.Collections.Generic.HashSet`1<BeatmapEventType> GetEventsValidForAllBeatmaps()
-    // Offset: 0x19F5BC0
+    // Offset: 0x22C8C74
     static System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>* GetEventsValidForAllBeatmaps();
     // static public System.Boolean IsBPMChangeEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x19F5D44
+    // Offset: 0x22C8DF8
     static bool IsBPMChangeEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x19F5D50
+    // Offset: 0x22C8E04
     static bool IsRotationEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsEarlyRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x19F5D60
+    // Offset: 0x22C8E14
     static bool IsEarlyRotationEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsLateRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x19F5D6C
+    // Offset: 0x22C8E20
     static bool IsLateRotationEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsEarlyEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x19F5D78
+    // Offset: 0x22C8E2C
     static bool IsEarlyEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsSpawnAffectingEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x19F5D88
+    // Offset: 0x22C8E3C
     static bool IsSpawnAffectingEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
   }; // BeatmapEventTypeExtensions
   #pragma pack(pop)

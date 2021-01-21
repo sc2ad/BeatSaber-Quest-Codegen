@@ -56,50 +56,50 @@ namespace System::Diagnostics {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // protected System.Void .ctor(System.String name)
-    // Offset: 0x1483760
+    // Offset: 0x1798198
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceListener* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::TraceListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceListener*, creationType>(name)));
     }
     // public System.Boolean get_IsThreadSafe()
-    // Offset: 0x1487014
+    // Offset: 0x179BA4C
     bool get_IsThreadSafe();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1487098
+    // Offset: 0x179BAD0
     void Dispose(bool disposing);
     // public System.Void Flush()
-    // Offset: 0x148709C
+    // Offset: 0x179BAD4
     void Flush();
     // public System.Void set_IndentLevel(System.Int32 value)
-    // Offset: 0x1486404
+    // Offset: 0x179AE3C
     void set_IndentLevel(int value);
     // public System.Void set_IndentSize(System.Int32 value)
-    // Offset: 0x1486420
+    // Offset: 0x179AE58
     void set_IndentSize(int value);
     // protected System.Boolean get_NeedIndent()
-    // Offset: 0x14870A0
+    // Offset: 0x179BAD8
     bool get_NeedIndent();
     // protected System.Void set_NeedIndent(System.Boolean value)
-    // Offset: 0x14870A8
+    // Offset: 0x179BAE0
     void set_NeedIndent(bool value);
     // public System.Void Fail(System.String message)
-    // Offset: 0x14837BC
+    // Offset: 0x17981F4
     void Fail(::Il2CppString* message);
     // public System.Void Fail(System.String message, System.String detailMessage)
-    // Offset: 0x1483874
+    // Offset: 0x17982AC
     void Fail(::Il2CppString* message, ::Il2CppString* detailMessage);
     // public System.Void Write(System.String message)
     // Offset: 0xFFFFFFFF
     void Write(::Il2CppString* message);
     // protected System.Void WriteIndent()
-    // Offset: 0x14870B4
+    // Offset: 0x179BAEC
     void WriteIndent();
     // public System.Void WriteLine(System.String message)
     // Offset: 0xFFFFFFFF
     void WriteLine(::Il2CppString* message);
     // public System.Void Dispose()
-    // Offset: 0x148701C
+    // Offset: 0x179BA54
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

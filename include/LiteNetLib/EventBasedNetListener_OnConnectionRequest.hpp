@@ -38,20 +38,20 @@ namespace LiteNetLib {
     // Creating value type constructor for type: OnConnectionRequest
     OnConnectionRequest() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1DC3B80
+    // Offset: 0x1A98CA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBasedNetListener::OnConnectionRequest* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::EventBasedNetListener::OnConnectionRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBasedNetListener::OnConnectionRequest*, creationType>(object, method)));
     }
     // public System.Void Invoke(LiteNetLib.ConnectionRequest request)
-    // Offset: 0x1DC33AC
+    // Offset: 0x1A984D0
     void Invoke(LiteNetLib::ConnectionRequest* request);
     // public System.IAsyncResult BeginInvoke(LiteNetLib.ConnectionRequest request, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1DC3B94
+    // Offset: 0x1A98CB8
     System::IAsyncResult* BeginInvoke(LiteNetLib::ConnectionRequest* request, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1DC3BB8
+    // Offset: 0x1A98CDC
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/OnConnectionRequest
   #pragma pack(pop)

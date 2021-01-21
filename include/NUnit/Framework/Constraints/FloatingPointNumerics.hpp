@@ -25,10 +25,10 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: FloatingPointNumerics
     FloatingPointNumerics() noexcept {}
     // static public System.Boolean AreAlmostEqualUlps(System.Single left, System.Single right, System.Int32 maxUlps)
-    // Offset: 0x13DEF80
+    // Offset: 0x169BAA0
     static bool AreAlmostEqualUlps(float left, float right, int maxUlps);
     // static public System.Boolean AreAlmostEqualUlps(System.Double left, System.Double right, System.Int64 maxUlps)
-    // Offset: 0x13DF09C
+    // Offset: 0x169BBBC
     static bool AreAlmostEqualUlps(double left, double right, int64_t maxUlps);
   }; // NUnit.Framework.Constraints.FloatingPointNumerics
   #pragma pack(pop)

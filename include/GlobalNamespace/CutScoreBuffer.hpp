@@ -75,26 +75,26 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept = delete;
     // public System.Int32 get_scoreWithMultiplier()
-    // Offset: 0x1A57330
+    // Offset: 0x1046BF0
     int get_scoreWithMultiplier();
     // public System.Int32 get_multiplier()
-    // Offset: 0x1A57344
+    // Offset: 0x1046C04
     int get_multiplier();
     // public System.Void .ctor(NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0x1A5734C
+    // Offset: 0x1046C0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CutScoreBuffer* New_ctor(GlobalNamespace::NoteCutInfo* noteCutInfo, int multiplier) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CutScoreBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CutScoreBuffer*, creationType>(noteCutInfo, multiplier)));
     }
     // private System.Void HandleSwingRatingCounterDidChangeEvent(ISaberSwingRatingCounter swingRatingCounter, System.Single rating)
-    // Offset: 0x1A57598
+    // Offset: 0x1046E58
     void HandleSwingRatingCounterDidChangeEvent(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter, float rating);
     // private System.Void RefreshScores()
-    // Offset: 0x1A5752C
+    // Offset: 0x1046DEC
     void RefreshScores();
     // private System.Void HandleSwingRatingCounterDidFinishEvent(ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x1A5759C
+    // Offset: 0x1046E5C
     void HandleSwingRatingCounterDidFinishEvent(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
   }; // CutScoreBuffer
   #pragma pack(pop)

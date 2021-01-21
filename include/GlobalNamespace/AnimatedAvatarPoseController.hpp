@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class AnimatedAvatarPoseController : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xDC1CF0
+    // [InjectAttribute] Offset: 0xD33BB4
     // private readonly AvatarPoseController _avatarPoseController
     // Size: 0x8
     // Offset: 0x18
@@ -38,10 +38,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void LateUpdate()
-    // Offset: 0x1A3CD28
+    // Offset: 0x102B700
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1A3CF34
+    // Offset: 0x102B90C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

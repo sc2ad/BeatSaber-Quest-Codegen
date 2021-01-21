@@ -34,14 +34,14 @@ namespace System::Diagnostics::Tracing {
   // [] Offset: FFFFFFFF
   class EventWrittenEventArgs : public System::EventArgs {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD3F1C8
+    // [CompilerGeneratedAttribute] Offset: 0xCAFD7C
     // private System.Int32 <EventId>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     int EventId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD3F1D8
+    // [CompilerGeneratedAttribute] Offset: 0xCAFD8C
     // private System.Guid <RelatedActivityId>k__BackingField
     // Size: 0x10
     // Offset: 0x14
@@ -50,7 +50,7 @@ namespace System::Diagnostics::Tracing {
     static_assert(sizeof(System::Guid) == 0x10);
     // Padding between fields: RelatedActivityId and: Payload
     char __padding1[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD3F1E8
+    // [CompilerGeneratedAttribute] Offset: 0xCAFD9C
     // private System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object> <Payload>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -84,25 +84,25 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: EventWrittenEventArgs
     EventWrittenEventArgs(int EventId_ = {}, System::Guid RelatedActivityId_ = {}, System::Collections::ObjectModel::ReadOnlyCollection_1<::Il2CppObject*>* Payload_ = {}, ::Il2CppString* m_message_ = {}, ::Il2CppString* m_eventName_ = {}, System::Diagnostics::Tracing::EventSource* m_eventSource_ = {}, System::Collections::ObjectModel::ReadOnlyCollection_1<::Il2CppString*>* m_payloadNames_ = {}) noexcept : EventId{EventId_}, RelatedActivityId{RelatedActivityId_}, Payload{Payload_}, m_message{m_message_}, m_eventName{m_eventName_}, m_eventSource{m_eventSource_}, m_payloadNames{m_payloadNames_} {}
     // System.Void set_EventName(System.String value)
-    // Offset: 0x12D8970
+    // Offset: 0x1527704
     void set_EventName(::Il2CppString* value);
     // System.Void set_EventId(System.Int32 value)
-    // Offset: 0x12D8978
+    // Offset: 0x152770C
     void set_EventId(int value);
     // System.Void set_RelatedActivityId(System.Guid value)
-    // Offset: 0x12D8980
+    // Offset: 0x1527714
     void set_RelatedActivityId(System::Guid value);
     // System.Void set_Payload(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object> value)
-    // Offset: 0x12D898C
+    // Offset: 0x1527720
     void set_Payload(System::Collections::ObjectModel::ReadOnlyCollection_1<::Il2CppObject*>* value);
     // System.Void set_PayloadNames(System.Collections.ObjectModel.ReadOnlyCollection`1<System.String> value)
-    // Offset: 0x12D8994
+    // Offset: 0x1527728
     void set_PayloadNames(System::Collections::ObjectModel::ReadOnlyCollection_1<::Il2CppString*>* value);
     // System.Void set_Message(System.String value)
-    // Offset: 0x12D899C
+    // Offset: 0x1527730
     void set_Message(::Il2CppString* value);
     // System.Void .ctor(System.Diagnostics.Tracing.EventSource eventSource)
-    // Offset: 0x12D17D4
+    // Offset: 0x1520568
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventWrittenEventArgs* New_ctor(System::Diagnostics::Tracing::EventSource* eventSource) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventWrittenEventArgs::.ctor");

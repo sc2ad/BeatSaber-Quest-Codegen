@@ -43,7 +43,7 @@ namespace OnlineServices {
     public:
     // Nested type: OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4
     struct $GetPlatformServicesAvailabilityInfo$d__4;
-    // [CompilerGeneratedAttribute] Offset: 0xDD3500
+    // [CompilerGeneratedAttribute] Offset: 0xD458AC
     // private System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> platformServicesAvailabilityInfoChangedEvent
     // Size: 0x8
     // Offset: 0x10
@@ -57,16 +57,16 @@ namespace OnlineServices {
       return platformServicesAvailabilityInfoChangedEvent;
     }
     // public System.Void add_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0xEFF1A4
+    // Offset: 0xF1B624
     void add_platformServicesAvailabilityInfoChangedEvent(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void remove_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0xEFF248
+    // Offset: 0xF1B6C8
     void remove_platformServicesAvailabilityInfoChangedEvent(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Threading.Tasks.Task`1<OnlineServices.PlatformServicesAvailabilityInfo> GetPlatformServicesAvailabilityInfo(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xEFF08C
+    // Offset: 0xF1B50C
     System::Threading::Tasks::Task_1<OnlineServices::PlatformServicesAvailabilityInfo*>* GetPlatformServicesAvailabilityInfo(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0xEFF2EC
+    // Offset: 0xF1B76C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -29,28 +29,28 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class InteractionLookAt : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDB7338
+    // [TooltipAttribute] Offset: 0xD29134
     // public RootMotion.FinalIK.LookAtIK ik
     // Size: 0x8
     // Offset: 0x10
     RootMotion::FinalIK::LookAtIK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::LookAtIK*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDB7370
+    // [TooltipAttribute] Offset: 0xD2916C
     // public System.Single lerpSpeed
     // Size: 0x4
     // Offset: 0x18
     float lerpSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDB73A8
+    // [TooltipAttribute] Offset: 0xD291A4
     // public System.Single weightSpeed
     // Size: 0x4
     // Offset: 0x1C
     float weightSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HideInInspector] Offset: 0xDB73E0
+    // [HideInInspector] Offset: 0xD291DC
     // public System.Boolean isPaused
     // Size: 0x1
     // Offset: 0x20
@@ -86,22 +86,22 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: InteractionLookAt
     InteractionLookAt(RootMotion::FinalIK::LookAtIK* ik_ = {}, float lerpSpeed_ = {}, float weightSpeed_ = {}, bool isPaused_ = {}, UnityEngine::Transform* lookAtTarget_ = {}, float stopLookTime_ = {}, float weight_ = {}, bool firstFBBIKSolve_ = {}) noexcept : ik{ik_}, lerpSpeed{lerpSpeed_}, weightSpeed{weightSpeed_}, isPaused{isPaused_}, lookAtTarget{lookAtTarget_}, stopLookTime{stopLookTime_}, weight{weight_}, firstFBBIKSolve{firstFBBIKSolve_} {}
     // public System.Void Look(UnityEngine.Transform target, System.Single time)
-    // Offset: 0x17EA550
+    // Offset: 0x1C35C44
     void Look(UnityEngine::Transform* target, float time);
     // public System.Void OnFixTransforms()
-    // Offset: 0x17EA6D4
+    // Offset: 0x1C35DC8
     void OnFixTransforms();
     // public System.Void Update()
-    // Offset: 0x17EA77C
+    // Offset: 0x1C35E70
     void Update();
     // public System.Void SolveSpine()
-    // Offset: 0x17EA9D0
+    // Offset: 0x1C360C4
     void SolveSpine();
     // public System.Void SolveHead()
-    // Offset: 0x17EAAC8
+    // Offset: 0x1C361BC
     void SolveHead();
     // public System.Void .ctor()
-    // Offset: 0x17EAB94
+    // Offset: 0x1C36288
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

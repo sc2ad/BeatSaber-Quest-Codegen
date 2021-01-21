@@ -41,7 +41,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: NetSyncSessionsChangedNotification
     NetSyncSessionsChangedNotification(int64_t ConnectionId_ = {}, Oculus::Platform::Models::NetSyncSessionList* Sessions_ = {}) noexcept : ConnectionId{ConnectionId_}, Sessions{Sessions_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x11DD16C
+    // Offset: 0x13EDF74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSyncSessionsChangedNotification* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::NetSyncSessionsChangedNotification::.ctor");

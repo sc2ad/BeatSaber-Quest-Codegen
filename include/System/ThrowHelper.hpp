@@ -33,28 +33,28 @@ namespace System {
     // Creating value type constructor for type: ThrowHelper
     ThrowHelper() noexcept {}
     // static System.Void ThrowArgumentNullException(System.ExceptionArgument argument)
-    // Offset: 0x1D20804
+    // Offset: 0x17C1860
     static void ThrowArgumentNullException(System::ExceptionArgument argument);
     // static private System.Exception CreateArgumentNullException(System.ExceptionArgument argument)
-    // Offset: 0x1D20850
+    // Offset: 0x17C18AC
     static System::Exception* CreateArgumentNullException(System::ExceptionArgument argument);
     // static System.Void ThrowArgumentOutOfRangeException()
-    // Offset: 0x1D208FC
+    // Offset: 0x17C1958
     static void ThrowArgumentOutOfRangeException();
     // static System.Void ThrowWrongValueTypeArgumentException(System.Object value, System.Type targetType)
-    // Offset: 0x1D209E4
+    // Offset: 0x17C1A40
     static void ThrowWrongValueTypeArgumentException(::Il2CppObject* value, System::Type* targetType);
     // static System.Void ThrowArgumentException(System.ExceptionResource resource)
-    // Offset: 0x1D20ADC
+    // Offset: 0x17C1B38
     static void ThrowArgumentException(System::ExceptionResource resource);
     // static System.Void ThrowArgumentOutOfRangeException(System.ExceptionArgument argument, System.ExceptionResource resource)
-    // Offset: 0x1D20910
+    // Offset: 0x17C196C
     static void ThrowArgumentOutOfRangeException(System::ExceptionArgument argument, System::ExceptionResource resource);
     // static System.Void ThrowInvalidOperationException(System.ExceptionResource resource)
-    // Offset: 0x1D20C34
+    // Offset: 0x17C1C90
     static void ThrowInvalidOperationException(System::ExceptionResource resource);
     // static System.Void ThrowNotSupportedException(System.ExceptionResource resource)
-    // Offset: 0x1D20CB4
+    // Offset: 0x17C1D10
     static void ThrowNotSupportedException(System::ExceptionResource resource);
     // static System.Void IfNullAndNullsAreIllegalThenThrow(System.Object value, System.ExceptionArgument argName)
     // Offset: 0xFFFFFFFF
@@ -66,10 +66,10 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, value, argName);
     }
     // static System.String GetArgumentName(System.ExceptionArgument argument)
-    // Offset: 0x1D20BC8
+    // Offset: 0x17C1C24
     static ::Il2CppString* GetArgumentName(System::ExceptionArgument argument);
     // static System.String GetResourceName(System.ExceptionResource resource)
-    // Offset: 0x1D20B5C
+    // Offset: 0x17C1BB8
     static ::Il2CppString* GetResourceName(System::ExceptionResource resource);
   }; // System.ThrowHelper
   #pragma pack(pop)

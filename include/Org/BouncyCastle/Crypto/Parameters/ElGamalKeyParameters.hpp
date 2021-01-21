@@ -39,25 +39,25 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // protected System.Void .ctor(System.Boolean isPrivate, Org.BouncyCastle.Crypto.Parameters.ElGamalParameters parameters)
-    // Offset: 0x1047E48
+    // Offset: 0x1182950
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElGamalKeyParameters* New_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElGamalKeyParameters*, creationType>(isPrivate, parameters)));
     }
     // public Org.BouncyCastle.Crypto.Parameters.ElGamalParameters get_Parameters()
-    // Offset: 0x1047E80
+    // Offset: 0x1182988
     Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* get_Parameters();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters other)
-    // Offset: 0x1047F38
+    // Offset: 0x1182A40
     bool Equals(Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1047E88
+    // Offset: 0x1182990
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Boolean AsymmetricKeyParameter::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1047F90
+    // Offset: 0x1182A98
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Int32 AsymmetricKeyParameter::GetHashCode()
     int GetHashCode();

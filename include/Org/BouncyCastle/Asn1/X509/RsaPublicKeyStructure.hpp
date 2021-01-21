@@ -48,23 +48,23 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: RsaPublicKeyStructure
     RsaPublicKeyStructure(Org::BouncyCastle::Math::BigInteger* modulus_ = {}, Org::BouncyCastle::Math::BigInteger* publicExponent_ = {}) noexcept : modulus{modulus_}, publicExponent{publicExponent_} {}
     // static public Org.BouncyCastle.Asn1.X509.RsaPublicKeyStructure GetInstance(System.Object obj)
-    // Offset: 0x157DA24
+    // Offset: 0x18FE5A8
     static Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x157DB98
+    // Offset: 0x18FE71C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaPublicKeyStructure* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaPublicKeyStructure*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_Modulus()
-    // Offset: 0x157DCFC
+    // Offset: 0x18FE880
     Org::BouncyCastle::Math::BigInteger* get_Modulus();
     // public Org.BouncyCastle.Math.BigInteger get_PublicExponent()
-    // Offset: 0x157DD04
+    // Offset: 0x18FE888
     Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x157DD0C
+    // Offset: 0x18FE890
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

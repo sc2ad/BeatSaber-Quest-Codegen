@@ -50,24 +50,24 @@ namespace System {
       return *reinterpret_cast<System::ModifierSpec*>(this);
     }
     // System.Void .ctor(System.Int32 dimensions, System.Boolean bound)
-    // Offset: 0x1CA8CF8
+    // Offset: 0x16820C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArraySpec* New_ctor(int dimensions, bool bound) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ArraySpec::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArraySpec*, creationType>(dimensions, bound)));
     }
     // public System.Type Resolve(System.Type type)
-    // Offset: 0x1CA8D38
+    // Offset: 0x1682100
     // Implemented from: System.ModifierSpec
     // Base method: System.Type ModifierSpec::Resolve(System.Type type)
     System::Type* Resolve(System::Type* type);
     // public System.Text.StringBuilder Append(System.Text.StringBuilder sb)
-    // Offset: 0x1CA8DAC
+    // Offset: 0x1682174
     // Implemented from: System.ModifierSpec
     // Base method: System.Text.StringBuilder ModifierSpec::Append(System.Text.StringBuilder sb)
     System::Text::StringBuilder* Append(System::Text::StringBuilder* sb);
     // public override System.String ToString()
-    // Offset: 0x1CA8E60
+    // Offset: 0x1682228
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

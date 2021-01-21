@@ -51,35 +51,35 @@ namespace System::Reflection {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // System.Reflection.BindingFlags get_BindingFlags()
-    // Offset: 0x15D15C8
+    // Offset: 0x195114C
     System::Reflection::BindingFlags get_BindingFlags();
     // System.RuntimeType GetDeclaringTypeInternal()
-    // Offset: 0x15D15F4
+    // Offset: 0x1951178
     System::RuntimeType* GetDeclaringTypeInternal();
     // private System.RuntimeType get_ReflectedTypeInternal()
-    // Offset: 0x15D1680
+    // Offset: 0x1951204
     System::RuntimeType* get_ReflectedTypeInternal();
     // System.Reflection.RuntimeModule GetRuntimeModule()
-    // Offset: 0x15D15D4
+    // Offset: 0x1951158
     System::Reflection::RuntimeModule* GetRuntimeModule();
     // private System.String FormatNameAndSig(System.Boolean serialization)
-    // Offset: 0x15D1714
+    // Offset: 0x1951298
     ::Il2CppString* FormatNameAndSig(bool serialization);
     // System.String SerializationToString()
-    // Offset: 0x15C944C
+    // Offset: 0x1948FD0
     ::Il2CppString* SerializationToString();
     // public override System.Reflection.Module get_Module()
-    // Offset: 0x15D15D0
+    // Offset: 0x1951154
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.Module MemberInfo::get_Module()
     System::Reflection::Module* get_Module();
     // public override System.String ToString()
-    // Offset: 0x15D170C
+    // Offset: 0x1951290
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x15D1868
+    // Offset: 0x19513EC
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -87,7 +87,7 @@ namespace System::Reflection {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // protected System.Void .ctor()
-    // Offset: 0x15CEE24
+    // Offset: 0x194E9A8
     // Implemented from: System.Reflection.PropertyInfo
     // Base method: System.Void PropertyInfo::.ctor()
     // Base method: System.Void MemberInfo::.ctor()

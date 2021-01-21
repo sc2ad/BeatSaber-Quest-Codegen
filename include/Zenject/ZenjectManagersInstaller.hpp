@@ -21,12 +21,12 @@ namespace Zenject {
     // Creating value type constructor for type: ZenjectManagersInstaller
     ZenjectManagersInstaller() noexcept {}
     // public override System.Void InstallBindings()
-    // Offset: 0x19D2F44
+    // Offset: 0x22A1A50
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x19D3104
+    // Offset: 0x22A1C10
     // Implemented from: Zenject.Installer`1
     // Base method: System.Void Installer_1::.ctor()
     // Base method: System.Void InstallerBase::.ctor()

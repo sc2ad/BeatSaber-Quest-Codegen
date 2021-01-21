@@ -28,7 +28,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Creating value type constructor for type: RunStartedEvent
     RunStartedEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1196F20
+    // Offset: 0x133E924
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

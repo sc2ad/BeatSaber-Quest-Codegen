@@ -25,14 +25,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class PS4Helper : public GlobalNamespace::PersistentSingleton_1<GlobalNamespace::PS4Helper*> {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDC497C
+    // [CompilerGeneratedAttribute] Offset: 0xD36850
     // private System.Action didGoToBackgroundExecutionEvent
     // Size: 0x8
     // Offset: 0x18
     System::Action* didGoToBackgroundExecutionEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC498C
+    // [CompilerGeneratedAttribute] Offset: 0xD36860
     // private System.Action didGoToForegroundExecutionEvent
     // Size: 0x8
     // Offset: 0x20
@@ -50,22 +50,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didGoToBackgroundExecutionEvent(System.Action value)
-    // Offset: 0xF026C8
+    // Offset: 0xF1EB48
     void add_didGoToBackgroundExecutionEvent(System::Action* value);
     // public System.Void remove_didGoToBackgroundExecutionEvent(System.Action value)
-    // Offset: 0xF0276C
+    // Offset: 0xF1EBEC
     void remove_didGoToBackgroundExecutionEvent(System::Action* value);
     // public System.Void add_didGoToForegroundExecutionEvent(System.Action value)
-    // Offset: 0xF02810
+    // Offset: 0xF1EC90
     void add_didGoToForegroundExecutionEvent(System::Action* value);
     // public System.Void remove_didGoToForegroundExecutionEvent(System.Action value)
-    // Offset: 0xF028B4
+    // Offset: 0xF1ED34
     void remove_didGoToForegroundExecutionEvent(System::Action* value);
     // protected System.Void Update()
-    // Offset: 0xF02958
+    // Offset: 0xF1EDD8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xF0297C
+    // Offset: 0xF1EDFC
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -100,7 +100,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.String assetBundlePath, System.String levelDataAssetName, IPreviewBeatmapLevel previewBeatmapLevel)
-      // Offset: 0xE7F900
+      // Offset: 0xDF3DE0
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  AssetBundleLevelInfo(::Il2CppString* assetBundlePath, ::Il2CppString* levelDataAssetName, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel)
     }; // BeatmapLevelDataLoaderSO/AssetBundleLevelInfo
@@ -130,16 +130,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Threading.Tasks.Task`1<IBeatmapLevel> LoadBeatmapLevelFormAssetBundleAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.String assetBundlePath, System.String levelDataAssetName, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1A84304
+    // Offset: 0x1074270
     System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* LoadBeatmapLevelFormAssetBundleAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::Il2CppString* assetBundlePath, ::Il2CppString* levelDataAssetName, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<IBeatmapLevel> LoadBeatmapLevelAsync(System.String levelID)
-    // Offset: 0x1A84488
+    // Offset: 0x10743F4
     System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* LoadBeatmapLevelAsync(::Il2CppString* levelID);
     // private System.Threading.Tasks.Task`1<BeatmapLevelDataSO> LoadBeatmalLevelDataAsync(System.String assetBundlePath, System.String levelDataAssetName)
-    // Offset: 0x1A845D8
+    // Offset: 0x1074544
     System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelDataSO*>* LoadBeatmalLevelDataAsync(::Il2CppString* assetBundlePath, ::Il2CppString* levelDataAssetName);
     // public System.Void .ctor()
-    // Offset: 0x1A84724
+    // Offset: 0x1074690
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

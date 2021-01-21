@@ -19,7 +19,7 @@ namespace TMPro {
   // [] Offset: FFFFFFFF
   class KerningPair : public ::Il2CppObject {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xD8B76C
+    // [FormerlySerializedAsAttribute] Offset: 0xCFD5A0
     // private System.UInt32 m_FirstGlyph
     // Size: 0x4
     // Offset: 0x10
@@ -32,7 +32,7 @@ namespace TMPro {
     TMPro::GlyphValueRecord_Legacy m_FirstGlyphAdjustments;
     // Field size check
     static_assert(sizeof(TMPro::GlyphValueRecord_Legacy) == 0x10);
-    // [FormerlySerializedAsAttribute] Offset: 0xD8B7C8
+    // [FormerlySerializedAsAttribute] Offset: 0xCFD5FC
     // private System.UInt32 m_SecondGlyph
     // Size: 0x4
     // Offset: 0x24
@@ -45,7 +45,7 @@ namespace TMPro {
     TMPro::GlyphValueRecord_Legacy m_SecondGlyphAdjustments;
     // Field size check
     static_assert(sizeof(TMPro::GlyphValueRecord_Legacy) == 0x10);
-    // [FormerlySerializedAsAttribute] Offset: 0xD8B824
+    // [FormerlySerializedAsAttribute] Offset: 0xCFD658
     // public System.Single xOffset
     // Size: 0x4
     // Offset: 0x38
@@ -65,48 +65,48 @@ namespace TMPro {
     // Set static field: static TMPro.KerningPair empty
     static void _set_empty(TMPro::KerningPair* value);
     // public System.UInt32 get_firstGlyph()
-    // Offset: 0xF4E098
+    // Offset: 0xF966B4
     uint get_firstGlyph();
     // public System.Void set_firstGlyph(System.UInt32 value)
-    // Offset: 0xF4E0A0
+    // Offset: 0xF966BC
     void set_firstGlyph(uint value);
     // public TMPro.GlyphValueRecord_Legacy get_firstGlyphAdjustments()
-    // Offset: 0xF4E0A8
+    // Offset: 0xF966C4
     TMPro::GlyphValueRecord_Legacy get_firstGlyphAdjustments();
     // public System.UInt32 get_secondGlyph()
-    // Offset: 0xF4E0B4
+    // Offset: 0xF966D0
     uint get_secondGlyph();
     // public System.Void set_secondGlyph(System.UInt32 value)
-    // Offset: 0xF4E0BC
+    // Offset: 0xF966D8
     void set_secondGlyph(uint value);
     // public TMPro.GlyphValueRecord_Legacy get_secondGlyphAdjustments()
-    // Offset: 0xF4E0C4
+    // Offset: 0xF966E0
     TMPro::GlyphValueRecord_Legacy get_secondGlyphAdjustments();
     // public System.Boolean get_ignoreSpacingAdjustments()
-    // Offset: 0xF4E0D0
+    // Offset: 0xF966EC
     bool get_ignoreSpacingAdjustments();
     // public System.Void .ctor(System.UInt32 left, System.UInt32 right, System.Single offset)
-    // Offset: 0xF4E108
+    // Offset: 0xF96724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningPair* New_ctor(uint left, uint right, float offset) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>(left, right, offset)));
     }
     // public System.Void .ctor(System.UInt32 firstGlyph, TMPro.GlyphValueRecord_Legacy firstGlyphAdjustments, System.UInt32 secondGlyph, TMPro.GlyphValueRecord_Legacy secondGlyphAdjustments)
-    // Offset: 0xF4E154
+    // Offset: 0xF96770
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningPair* New_ctor(uint firstGlyph, TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint secondGlyph, TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>(firstGlyph, firstGlyphAdjustments, secondGlyph, secondGlyphAdjustments)));
     }
     // System.Void ConvertLegacyKerningData()
-    // Offset: 0xF4E1E0
+    // Offset: 0xF967FC
     void ConvertLegacyKerningData();
     // static private System.Void .cctor()
-    // Offset: 0xF4E1EC
+    // Offset: 0xF96808
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xF4E0D8
+    // Offset: 0xF966F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

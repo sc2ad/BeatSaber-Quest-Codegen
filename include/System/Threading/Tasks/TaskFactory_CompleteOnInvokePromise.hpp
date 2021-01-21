@@ -53,14 +53,14 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
     // public System.Void .ctor(System.Collections.Generic.IList`1<System.Threading.Tasks.Task> tasks)
-    // Offset: 0x1D18C9C
+    // Offset: 0x17B9CF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskFactory::CompleteOnInvokePromise* New_ctor(System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>* tasks) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskFactory::CompleteOnInvokePromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskFactory::CompleteOnInvokePromise*, creationType>(tasks)));
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x1D18D84
+    // Offset: 0x17B9DE0
     // Implemented from: System.Threading.Tasks.ITaskCompletionAction
     // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task completingTask)
     void Invoke(System::Threading::Tasks::Task* completingTask);

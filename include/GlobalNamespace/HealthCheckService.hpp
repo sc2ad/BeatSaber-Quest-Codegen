@@ -82,20 +82,20 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kTimeoutLengthMs
     static void _set_kTimeoutLengthMs(int value);
     // public System.Void .ctor(System.Int32 port)
-    // Offset: 0x1B4E280
+    // Offset: 0x11D54F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthCheckService* New_ctor(int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HealthCheckService::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthCheckService*, creationType>(port)));
     }
     // public System.Void PollUpdate()
-    // Offset: 0x1B4E450
+    // Offset: 0x11D56C4
     void PollUpdate();
     // private System.Void Run()
-    // Offset: 0x1B4E518
+    // Offset: 0x11D578C
     void Run();
     // public System.Void Dispose()
-    // Offset: 0x1B4E378
+    // Offset: 0x11D55EC
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

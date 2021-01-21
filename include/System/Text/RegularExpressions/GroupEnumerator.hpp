@@ -47,17 +47,17 @@ namespace System::Text::RegularExpressions {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // System.Void .ctor(System.Text.RegularExpressions.GroupCollection rgc)
-    // Offset: 0x146D688
+    // Offset: 0x17820C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GroupEnumerator* New_ctor(System::Text::RegularExpressions::GroupCollection* rgc) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::GroupEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GroupEnumerator*, creationType>(rgc)));
     }
     // public System.Text.RegularExpressions.Capture get_Capture()
-    // Offset: 0x146D758
+    // Offset: 0x1782190
     System::Text::RegularExpressions::Capture* get_Capture();
     // public System.Boolean MoveNext()
-    // Offset: 0x146D704
+    // Offset: 0x178213C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -65,7 +65,7 @@ namespace System::Text::RegularExpressions {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x146D754
+    // Offset: 0x178218C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -73,7 +73,7 @@ namespace System::Text::RegularExpressions {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void Reset()
-    // Offset: 0x146D814
+    // Offset: 0x178224C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

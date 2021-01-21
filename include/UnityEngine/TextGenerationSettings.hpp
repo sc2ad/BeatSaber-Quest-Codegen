@@ -156,13 +156,13 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // private System.Boolean CompareColors(UnityEngine.Color left, UnityEngine.Color right)
-    // Offset: 0xCB8A20
+    // Offset: 0xE311D0
     bool CompareColors(UnityEngine::Color left, UnityEngine::Color right);
     // private System.Boolean CompareVector2(UnityEngine.Vector2 left, UnityEngine.Vector2 right)
-    // Offset: 0xCB8A24
+    // Offset: 0xE311D4
     bool CompareVector2(UnityEngine::Vector2 left, UnityEngine::Vector2 right);
     // public System.Boolean Equals(UnityEngine.TextGenerationSettings other)
-    // Offset: 0xCB8A28
+    // Offset: 0xE311D8
     bool Equals(UnityEngine::TextGenerationSettings other);
   }; // UnityEngine.TextGenerationSettings
   #pragma pack(pop)

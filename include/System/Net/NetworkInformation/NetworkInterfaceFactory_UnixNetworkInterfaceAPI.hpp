@@ -29,13 +29,13 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: UnixNetworkInterfaceAPI
     UnixNetworkInterfaceAPI() noexcept {}
     // static protected System.Int32 getifaddrs(out System.IntPtr ifap)
-    // Offset: 0x119B904
+    // Offset: 0x1355750
     static int getifaddrs(System::IntPtr& ifap);
     // static protected System.Void freeifaddrs(System.IntPtr ifap)
-    // Offset: 0x119B880
+    // Offset: 0x13556CC
     static void freeifaddrs(System::IntPtr ifap);
     // protected System.Void .ctor()
-    // Offset: 0x119C370
+    // Offset: 0x13561BC
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Void NetworkInterfaceFactory::.ctor()
     // Base method: System.Void Object::.ctor()

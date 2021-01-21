@@ -51,12 +51,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MenuInstaller
     MenuInstaller(GlobalNamespace::FireworkItemController* fireworkItemControllerPrefab_ = {}, GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerLobbyAvatarControllerPrefab_ = {}, GlobalNamespace::MultiplayerLobbyAvatarPlace* multiplayerAvatarPlacePrefab_ = {}) noexcept : fireworkItemControllerPrefab{fireworkItemControllerPrefab_}, multiplayerLobbyAvatarControllerPrefab{multiplayerLobbyAvatarControllerPrefab_}, multiplayerAvatarPlacePrefab{multiplayerAvatarPlacePrefab_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x1A71FAC
+    // Offset: 0x106270C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1A720B0
+    // Offset: 0x1062810
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

@@ -63,25 +63,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_ringPositionStep()
-    // Offset: 0xFED47C
+    // Offset: 0xF45F04
     float get_ringPositionStep();
     // public TrackLaneRing[] get_Rings()
-    // Offset: 0xFED484
+    // Offset: 0xF45F0C
     ::Array<GlobalNamespace::TrackLaneRing*>* get_Rings();
     // protected System.Void Awake()
-    // Offset: 0xFED48C
+    // Offset: 0xF45F14
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0xFED830
+    // Offset: 0xF462B8
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0xFED8DC
+    // Offset: 0xF46364
     void LateUpdate();
     // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0xFED988
+    // Offset: 0xF46410
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0xFEDCD8
+    // Offset: 0xF46760
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

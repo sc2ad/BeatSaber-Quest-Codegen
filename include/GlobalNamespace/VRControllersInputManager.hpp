@@ -34,7 +34,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class VRControllersInputManager : public ::Il2CppObject {
     public:
-    // [InjectAttribute] Offset: 0xD99670
+    // [InjectAttribute] Offset: 0xD0A9B0
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x10
@@ -114,22 +114,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kMenuButtonOculusTouch
     static void _set_kMenuButtonOculusTouch(::Il2CppString* value);
     // public System.Single TriggerValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x19D0534
+    // Offset: 0x229F040
     float TriggerValue(UnityEngine::XR::XRNode node);
     // public System.Single VerticalAxisValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x19D06D4
+    // Offset: 0x229F1E0
     float VerticalAxisValue(UnityEngine::XR::XRNode node);
     // public System.Single HorizontalAxisValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x19D076C
+    // Offset: 0x229F278
     float HorizontalAxisValue(UnityEngine::XR::XRNode node);
     // public System.Boolean MenuButtonDown()
-    // Offset: 0x19D0C38
+    // Offset: 0x229F744
     bool MenuButtonDown();
     // public System.Boolean MenuButton()
-    // Offset: 0x19D0EC8
+    // Offset: 0x229F9D4
     bool MenuButton();
     // public System.Void .ctor()
-    // Offset: 0x19D1158
+    // Offset: 0x229FC64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

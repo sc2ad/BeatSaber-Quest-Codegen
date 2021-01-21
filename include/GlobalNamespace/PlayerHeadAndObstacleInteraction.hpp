@@ -39,14 +39,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class PlayerHeadAndObstacleInteraction : public ::Il2CppObject {
     public:
-    // [InjectAttribute] Offset: 0xDCA9FC
+    // [InjectAttribute] Offset: 0xD3CC08
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCAA0C
+    // [InjectAttribute] Offset: 0xD3CC18
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x18
@@ -70,13 +70,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlayerHeadAndObstacleInteraction
     PlayerHeadAndObstacleInteraction(GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, int lastFrameNumCheck_ = {}, System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* intersectingObstacles_ = {}) noexcept : playerTransforms{playerTransforms_}, beatmapObjectManager{beatmapObjectManager_}, lastFrameNumCheck{lastFrameNumCheck_}, intersectingObstacles{intersectingObstacles_} {}
     // public System.Collections.Generic.List`1<ObstacleController> get_intersectingObstacles()
-    // Offset: 0xF27C94
+    // Offset: 0xFB9A1C
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* get_intersectingObstacles();
     // private System.Void GetObstaclesContainingPoint(UnityEngine.Vector3 worldPos, System.Collections.Generic.List`1<ObstacleController> obstacleControllers)
-    // Offset: 0xF27D04
+    // Offset: 0xFB9A8C
     void GetObstaclesContainingPoint(UnityEngine::Vector3 worldPos, System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* obstacleControllers);
     // public System.Void .ctor()
-    // Offset: 0xF27EC4
+    // Offset: 0xFB9C4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

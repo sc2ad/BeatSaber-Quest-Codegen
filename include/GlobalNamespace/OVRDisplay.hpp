@@ -166,7 +166,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRManager::TrackingOrigin previousTrackingOrigin;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRManager::TrackingOrigin) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD85A2C
+    // [CompilerGeneratedAttribute] Offset: 0xCF7860
     // private System.Action RecenteredPose
     // Size: 0x8
     // Offset: 0x48
@@ -176,58 +176,58 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRDisplay
     OVRDisplay(bool needsConfigureTexture_ = {}, ::Array<GlobalNamespace::OVRDisplay::EyeRenderDesc>* eyeDescs_ = {}, bool recenterRequested_ = {}, int recenterRequestedFrameCount_ = {}, GlobalNamespace::OVRPose previousRelativeTrackingSpacePose_ = {}, GlobalNamespace::OVRManager::TrackingOrigin previousTrackingOrigin_ = {}, System::Action* RecenteredPose_ = {}) noexcept : needsConfigureTexture{needsConfigureTexture_}, eyeDescs{eyeDescs_}, recenterRequested{recenterRequested_}, recenterRequestedFrameCount{recenterRequestedFrameCount_}, previousRelativeTrackingSpacePose{previousRelativeTrackingSpacePose_}, previousTrackingOrigin{previousTrackingOrigin_}, RecenteredPose{RecenteredPose_} {}
     // public System.Void Update()
-    // Offset: 0x107081C
+    // Offset: 0x11AB324
     void Update();
     // public System.Void add_RecenteredPose(System.Action value)
-    // Offset: 0x1070B08
+    // Offset: 0x11AB610
     void add_RecenteredPose(System::Action* value);
     // public System.Void remove_RecenteredPose(System.Action value)
-    // Offset: 0x1070BAC
+    // Offset: 0x11AB6B4
     void remove_RecenteredPose(System::Action* value);
     // public System.Void RecenterPose()
-    // Offset: 0x1070C50
+    // Offset: 0x11AB758
     void RecenterPose();
     // public UnityEngine.Vector3 get_acceleration()
-    // Offset: 0x1070CCC
+    // Offset: 0x11AB7D4
     UnityEngine::Vector3 get_acceleration();
     // public UnityEngine.Vector3 get_angularAcceleration()
-    // Offset: 0x1070DF8
+    // Offset: 0x11AB900
     UnityEngine::Vector3 get_angularAcceleration();
     // public UnityEngine.Vector3 get_velocity()
-    // Offset: 0x1070F24
+    // Offset: 0x11ABA2C
     UnityEngine::Vector3 get_velocity();
     // public UnityEngine.Vector3 get_angularVelocity()
-    // Offset: 0x1071050
+    // Offset: 0x11ABB58
     UnityEngine::Vector3 get_angularVelocity();
     // public OVRDisplay/EyeRenderDesc GetEyeRenderDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0x10705E4
+    // Offset: 0x11AB0EC
     GlobalNamespace::OVRDisplay::EyeRenderDesc GetEyeRenderDesc(UnityEngine::XR::XRNode eye);
     // public OVRDisplay/LatencyData get_latency()
-    // Offset: 0x107117C
+    // Offset: 0x11ABC84
     GlobalNamespace::OVRDisplay::LatencyData get_latency();
     // public System.Single get_appFramerate()
-    // Offset: 0x1071348
+    // Offset: 0x11ABE50
     float get_appFramerate();
     // public System.Int32 get_recommendedMSAALevel()
-    // Offset: 0x10713E4
+    // Offset: 0x11ABEEC
     int get_recommendedMSAALevel();
     // public System.Single[] get_displayFrequenciesAvailable()
-    // Offset: 0x1071450
+    // Offset: 0x11ABF58
     ::Array<float>* get_displayFrequenciesAvailable();
     // public System.Single get_displayFrequency()
-    // Offset: 0x10714B0
+    // Offset: 0x11ABFB8
     float get_displayFrequency();
     // public System.Void set_displayFrequency(System.Single value)
-    // Offset: 0x1071510
+    // Offset: 0x11AC018
     void set_displayFrequency(float value);
     // private System.Void UpdateTextures()
-    // Offset: 0x10707F0
+    // Offset: 0x11AB2F8
     void UpdateTextures();
     // private System.Void ConfigureEyeDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0x1071580
+    // Offset: 0x11AC088
     void ConfigureEyeDesc(UnityEngine::XR::XRNode eye);
     // public System.Void .ctor()
-    // Offset: 0x1070640
+    // Offset: 0x11AB148
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

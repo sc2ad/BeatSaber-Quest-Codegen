@@ -36,14 +36,14 @@ namespace GlobalNamespace {
     GlobalNamespace::AvatarDataFileManagerSO* avatarDataFileManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarDataFileManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC4F0C
+    // [InjectAttribute] Offset: 0xD36E10
     // private readonly AvatarPartsModel _avatarPartsModel
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::AvatarPartsModel* avatarPartsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarPartsModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC4F1C
+    // [CompilerGeneratedAttribute] Offset: 0xD36E20
     // private AvatarData <avatarData>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -55,34 +55,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public AvatarData get_avatarData()
-    // Offset: 0x1A43D88
+    // Offset: 0x10327D8
     GlobalNamespace::AvatarData* get_avatarData();
     // public System.Void set_avatarData(AvatarData value)
-    // Offset: 0x1A43D90
+    // Offset: 0x10327E0
     void set_avatarData(GlobalNamespace::AvatarData* value);
     // protected System.Void OnEnable()
-    // Offset: 0x1A43D98
+    // Offset: 0x10327E8
     void OnEnable();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x1A43DE4
+    // Offset: 0x1032834
     void OnApplicationPause(bool pauseStatus);
     // protected System.Void OnDisable()
-    // Offset: 0x1A43E0C
+    // Offset: 0x103285C
     void OnDisable();
     // public System.Void Randomize()
-    // Offset: 0x1A43E10
+    // Offset: 0x1032860
     void Randomize();
     // public System.Void Save()
-    // Offset: 0x1A43DF0
+    // Offset: 0x1032840
     void Save();
     // public System.Void Load()
-    // Offset: 0x1A43D9C
+    // Offset: 0x10327EC
     void Load();
     // private AvatarData CreateDefaultAvatarData()
-    // Offset: 0x1A43E3C
+    // Offset: 0x103288C
     GlobalNamespace::AvatarData* CreateDefaultAvatarData();
     // public System.Void .ctor()
-    // Offset: 0x1A43F98
+    // Offset: 0x10329E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

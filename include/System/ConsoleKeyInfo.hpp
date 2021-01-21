@@ -51,7 +51,7 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Char keyChar, System.ConsoleKey key, System.Boolean shift, System.Boolean alt, System.Boolean control)
-    // Offset: 0xCA2150
+    // Offset: 0xE0F04C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ConsoleKeyInfo(::Il2CppChar keyChar, System::ConsoleKey key, bool shift, bool alt, bool control) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ConsoleKeyInfo::.ctor");
@@ -59,21 +59,21 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, keyChar, key, shift, alt, control);
     }
     // public System.Char get_KeyChar()
-    // Offset: 0xCA2164
+    // Offset: 0xE0F060
     ::Il2CppChar get_KeyChar();
     // public System.ConsoleKey get_Key()
-    // Offset: 0xCA216C
+    // Offset: 0xE0F068
     System::ConsoleKey get_Key();
     // public System.Boolean Equals(System.ConsoleKeyInfo obj)
-    // Offset: 0xCA217C
+    // Offset: 0xE0F078
     bool Equals(System::ConsoleKeyInfo obj);
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0xCA2174
+    // Offset: 0xE0F070
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xCA21B0
+    // Offset: 0xE0F0AC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

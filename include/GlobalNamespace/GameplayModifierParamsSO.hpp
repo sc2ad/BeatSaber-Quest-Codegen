@@ -26,14 +26,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class GameplayModifierParamsSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // [LocalizationKeyAttribute] Offset: 0xDC2BBC
+    // [LocalizationKeyAttribute] Offset: 0xD34A80
     // private System.String _modifierNameLocalizationKey
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* modifierNameLocalizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xDC2BF4
+    // [LocalizationKeyAttribute] Offset: 0xD34AB8
     // private System.String _descriptionLocalizationKey
     // Size: 0x8
     // Offset: 0x20
@@ -46,8 +46,14 @@ namespace GlobalNamespace {
     float multiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Padding between fields: multiplier and: icon
-    char __padding2[0x4] = {};
+    // private System.Boolean _multiplierConditionallyValid
+    // Size: 0x1
+    // Offset: 0x2C
+    bool multiplierConditionallyValid;
+    // Field size check
+    static_assert(sizeof(bool) == 0x1);
+    // Padding between fields: multiplierConditionallyValid and: icon
+    char __padding3[0x3] = {};
     // private UnityEngine.Sprite _icon
     // Size: 0x8
     // Offset: 0x30
@@ -61,26 +67,29 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::GameplayModifierParamsSO*>*) == 0x8);
     // Creating value type constructor for type: GameplayModifierParamsSO
-    GameplayModifierParamsSO(::Il2CppString* modifierNameLocalizationKey_ = {}, ::Il2CppString* descriptionLocalizationKey_ = {}, float multiplier_ = {}, UnityEngine::Sprite* icon_ = {}, ::Array<GlobalNamespace::GameplayModifierParamsSO*>* mutuallyExclusives_ = {}) noexcept : modifierNameLocalizationKey{modifierNameLocalizationKey_}, descriptionLocalizationKey{descriptionLocalizationKey_}, multiplier{multiplier_}, icon{icon_}, mutuallyExclusives{mutuallyExclusives_} {}
+    GameplayModifierParamsSO(::Il2CppString* modifierNameLocalizationKey_ = {}, ::Il2CppString* descriptionLocalizationKey_ = {}, float multiplier_ = {}, bool multiplierConditionallyValid_ = {}, UnityEngine::Sprite* icon_ = {}, ::Array<GlobalNamespace::GameplayModifierParamsSO*>* mutuallyExclusives_ = {}) noexcept : modifierNameLocalizationKey{modifierNameLocalizationKey_}, descriptionLocalizationKey{descriptionLocalizationKey_}, multiplier{multiplier_}, multiplierConditionallyValid{multiplierConditionallyValid_}, icon{icon_}, mutuallyExclusives{mutuallyExclusives_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_modifierNameLocalizationKey()
-    // Offset: 0x1A218E4
+    // Offset: 0xF3BFC8
     ::Il2CppString* get_modifierNameLocalizationKey();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0x1A218EC
+    // Offset: 0xF3BFD0
     ::Il2CppString* get_descriptionLocalizationKey();
     // public System.Single get_multiplier()
-    // Offset: 0x1A218F4
+    // Offset: 0xF3BFD8
     float get_multiplier();
+    // public System.Boolean get_multiplierConditionallyValid()
+    // Offset: 0xF3BFE0
+    bool get_multiplierConditionallyValid();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x1A218FC
+    // Offset: 0xF3BFE8
     UnityEngine::Sprite* get_icon();
     // public GameplayModifierParamsSO[] get_mutuallyExclusives()
-    // Offset: 0x1A21904
+    // Offset: 0xF3BFF0
     ::Array<GlobalNamespace::GameplayModifierParamsSO*>* get_mutuallyExclusives();
     // public System.Void .ctor()
-    // Offset: 0x1A2190C
+    // Offset: 0xF3BFF8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

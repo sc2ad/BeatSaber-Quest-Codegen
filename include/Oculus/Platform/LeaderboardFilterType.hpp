@@ -31,21 +31,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDAE044
+    // [DescriptionAttribute] Offset: 0xD1FE40
     // static field const value: static public Oculus.Platform.LeaderboardFilterType None
     static constexpr const int None = 0;
     // Get static field: static public Oculus.Platform.LeaderboardFilterType None
     static Oculus::Platform::LeaderboardFilterType _get_None();
     // Set static field: static public Oculus.Platform.LeaderboardFilterType None
     static void _set_None(Oculus::Platform::LeaderboardFilterType value);
-    // [DescriptionAttribute] Offset: 0xDAE07C
+    // [DescriptionAttribute] Offset: 0xD1FE78
     // static field const value: static public Oculus.Platform.LeaderboardFilterType Friends
     static constexpr const int Friends = 1;
     // Get static field: static public Oculus.Platform.LeaderboardFilterType Friends
     static Oculus::Platform::LeaderboardFilterType _get_Friends();
     // Set static field: static public Oculus.Platform.LeaderboardFilterType Friends
     static void _set_Friends(Oculus::Platform::LeaderboardFilterType value);
-    // [DescriptionAttribute] Offset: 0xDAE0B4
+    // [DescriptionAttribute] Offset: 0xD1FEB0
     // static field const value: static public Oculus.Platform.LeaderboardFilterType Unknown
     static constexpr const int Unknown = 2;
     // Get static field: static public Oculus.Platform.LeaderboardFilterType Unknown

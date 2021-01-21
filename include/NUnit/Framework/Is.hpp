@@ -25,10 +25,10 @@ namespace NUnit::Framework {
     // Creating value type constructor for type: Is
     Is() noexcept {}
     // static public NUnit.Framework.Constraints.TrueConstraint get_True()
-    // Offset: 0x1964B9C
+    // Offset: 0x222D890
     static NUnit::Framework::Constraints::TrueConstraint* get_True();
     // static public NUnit.Framework.Constraints.EqualConstraint EqualTo(System.Object expected)
-    // Offset: 0x1964BF8
+    // Offset: 0x222D8EC
     static NUnit::Framework::Constraints::EqualConstraint* EqualTo(::Il2CppObject* expected);
   }; // NUnit.Framework.Is
   #pragma pack(pop)

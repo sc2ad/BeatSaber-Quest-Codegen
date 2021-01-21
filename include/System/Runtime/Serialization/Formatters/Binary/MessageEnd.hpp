@@ -34,19 +34,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: MessageEnd
     MessageEnd() noexcept {}
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x12F3204
+    // Offset: 0x1542F98
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x12F3230
+    // Offset: 0x1542FC4
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x12F3234
+    // Offset: 0x1542FC8
     void Dump();
     // public System.Void Dump(System.IO.Stream sout)
-    // Offset: 0x12F3238
+    // Offset: 0x1542FCC
     void Dump(System::IO::Stream* sout);
     // System.Void .ctor()
-    // Offset: 0x12F31FC
+    // Offset: 0x1542F90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

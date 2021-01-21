@@ -30,21 +30,21 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerLocalPlayerInstaller : public Zenject::MonoInstaller {
     public:
-    // [InjectAttribute] Offset: 0xDCC278
+    // [InjectAttribute] Offset: 0xD3E4D4
     // private readonly MultiplayerLevelSceneSetupData _levelSceneSetupData
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerLevelSceneSetupData* levelSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLevelSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCC288
+    // [InjectAttribute] Offset: 0xD3E4E4
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCC298
+    // [InjectAttribute] Offset: 0xD3E4F4
     // private readonly MultiplayerPlayerStartState _startState
     // Size: 0x4
     // Offset: 0x30
@@ -54,12 +54,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerLocalPlayerInstaller
     MultiplayerLocalPlayerInstaller(GlobalNamespace::MultiplayerLevelSceneSetupData* levelSceneSetupData_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::MultiplayerPlayerStartState startState_ = {}) noexcept : levelSceneSetupData{levelSceneSetupData_}, multiplayerSessionManager{multiplayerSessionManager_}, startState{startState_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xF733D4
+    // Offset: 0xFE5764
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF735BC
+    // Offset: 0xFE594C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(float volumeOffset_ = {}, bool adaptiveSfx_ = {}) noexcept : volumeOffset{volumeOffset_}, adaptiveSfx{adaptiveSfx_} {}
     // public System.Void .ctor(System.Single volumeOffset, System.Boolean adaptiveSfx)
-    // Offset: 0x1A43348
+    // Offset: 0x1031D98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AutomaticSFXVolume::InitData* New_ctor(float volumeOffset, bool adaptiveSfx) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AutomaticSFXVolume::InitData::.ctor");

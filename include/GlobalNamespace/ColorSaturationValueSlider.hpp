@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     UnityEngine::Color lightColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [CompilerGeneratedAttribute] Offset: 0xDCC500
+    // [CompilerGeneratedAttribute] Offset: 0xD3E75C
     // private System.Action`3<ColorSaturationValueSlider,UnityEngine.Vector2,ColorChangeUIEventType> colorSaturationOrValueDidChangeEvent
     // Size: 0x8
     // Offset: 0x148
@@ -72,39 +72,39 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorSaturationValueSlider
     ColorSaturationValueSlider(float hue_ = {}, ::Array<UnityEngine::UI::Graphic*>* graphics_ = {}, UnityEngine::Color darkColor_ = {}, UnityEngine::Color lightColor_ = {}, System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>* colorSaturationOrValueDidChangeEvent_ = {}) noexcept : hue{hue_}, graphics{graphics_}, darkColor{darkColor_}, lightColor{lightColor_}, colorSaturationOrValueDidChangeEvent{colorSaturationOrValueDidChangeEvent_} {}
     // public System.Void add_colorSaturationOrValueDidChangeEvent(System.Action`3<ColorSaturationValueSlider,UnityEngine.Vector2,ColorChangeUIEventType> value)
-    // Offset: 0x1A502F0
+    // Offset: 0x103FBB0
     void add_colorSaturationOrValueDidChangeEvent(System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorSaturationOrValueDidChangeEvent(System.Action`3<ColorSaturationValueSlider,UnityEngine.Vector2,ColorChangeUIEventType> value)
-    // Offset: 0x1A50398
+    // Offset: 0x103FC58
     void remove_colorSaturationOrValueDidChangeEvent(System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void SetHue(System.Single hue)
-    // Offset: 0x1A50558
+    // Offset: 0x103FE18
     void SetHue(float hue);
     // private System.Void HandleNormalizedValueDidChange(HMUI.Slider2D slider, UnityEngine.Vector2 normalizedValue)
-    // Offset: 0x1A50684
+    // Offset: 0x103FF44
     void HandleNormalizedValueDidChange(HMUI::Slider2D* slider, UnityEngine::Vector2 normalizedValue);
     // protected override System.Void Awake()
-    // Offset: 0x1A50440
+    // Offset: 0x103FD00
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0x1A504CC
+    // Offset: 0x103FD8C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDestroy()
     void OnDestroy();
     // protected override System.Void UpdateVisuals()
-    // Offset: 0x1A5056C
+    // Offset: 0x103FE2C
     // Implemented from: HMUI.Slider2D
     // Base method: System.Void Slider2D::UpdateVisuals()
     void UpdateVisuals();
     // public override System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1A50708
+    // Offset: 0x103FFC8
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerUp(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x1A50794
+    // Offset: 0x1040054
     // Implemented from: HMUI.Slider2D
     // Base method: System.Void Slider2D::.ctor()
     // Base method: System.Void Selectable::.ctor()

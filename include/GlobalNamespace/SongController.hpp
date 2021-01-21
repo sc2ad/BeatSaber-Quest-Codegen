@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class SongController : public UnityEngine::MonoBehaviour {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDCB31C
+    // [CompilerGeneratedAttribute] Offset: 0xD3D568
     // private System.Action songDidFinishEvent
     // Size: 0x8
     // Offset: 0x18
@@ -38,13 +38,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_songDidFinishEvent(System.Action value)
-    // Offset: 0xF39D98
+    // Offset: 0xF70BC0
     void add_songDidFinishEvent(System::Action* value);
     // public System.Void remove_songDidFinishEvent(System.Action value)
-    // Offset: 0xF39E3C
+    // Offset: 0xF70C64
     void remove_songDidFinishEvent(System::Action* value);
     // public System.Void SendSongDidFinishEvent()
-    // Offset: 0xF39EE0
+    // Offset: 0xF70D08
     void SendSongDidFinishEvent();
     // public System.Void StopSong()
     // Offset: 0xFFFFFFFF
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void ResumeSong();
     // protected System.Void .ctor()
-    // Offset: 0xF39EF4
+    // Offset: 0xF70D1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

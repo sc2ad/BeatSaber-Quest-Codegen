@@ -75,27 +75,27 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IPlatformUserModel*>(this);
     }
     // public System.Threading.Tasks.Task`1<UserInfo> GetUserInfo()
-    // Offset: 0x10126C0
+    // Offset: 0xF12C98
     // Implemented from: IPlatformUserModel
     // Base method: System.Threading.Tasks.Task`1<UserInfo> IPlatformUserModel::GetUserInfo()
     System::Threading::Tasks::Task_1<GlobalNamespace::UserInfo*>* GetUserInfo();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserFriendsUserIds(System.Boolean cached)
-    // Offset: 0x10127E0
+    // Offset: 0xF12DB8
     // Implemented from: IPlatformUserModel
     // Base method: System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> IPlatformUserModel::GetUserFriendsUserIds(System.Boolean cached)
     System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* GetUserFriendsUserIds(bool cached);
     // public System.Threading.Tasks.Task`1<System.String> GetUserAuthToken()
-    // Offset: 0x1012924
+    // Offset: 0xF12EFC
     // Implemented from: IPlatformUserModel
     // Base method: System.Threading.Tasks.Task`1<System.String> IPlatformUserModel::GetUserAuthToken()
     System::Threading::Tasks::Task_1<::Il2CppString*>* GetUserAuthToken();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserNamesForUserIds(System.Collections.Generic.IReadOnlyList`1<System.String> userIds)
-    // Offset: 0x1012A30
+    // Offset: 0xF13008
     // Implemented from: IPlatformUserModel
     // Base method: System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> IPlatformUserModel::GetUserNamesForUserIds(System.Collections.Generic.IReadOnlyList`1<System.String> userIds)
     System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* GetUserNamesForUserIds(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* userIds);
     // public System.Void .ctor()
-    // Offset: 0x1012B48
+    // Offset: 0xF13120
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

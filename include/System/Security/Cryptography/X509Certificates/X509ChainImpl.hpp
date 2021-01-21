@@ -60,10 +60,10 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     void Reset();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x146656C
+    // Offset: 0x177AFA4
     void Dispose(bool disposing);
     // public System.Void Dispose()
-    // Offset: 0x1465724
+    // Offset: 0x177A15C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -71,12 +71,12 @@ namespace System::Security::Cryptography::X509Certificates {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x1466570
+    // Offset: 0x177AFA8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected System.Void .ctor()
-    // Offset: 0x14665E4
+    // Offset: 0x177B01C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

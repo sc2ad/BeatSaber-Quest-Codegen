@@ -372,7 +372,7 @@ namespace System::Diagnostics::Tracing {
     static uint _get_s_currentPid();
     // Set static field: static System.UInt32 s_currentPid
     static void _set_s_currentPid(uint value);
-    // [ThreadStaticAttribute] Offset: 0xD3F148
+    // [ThreadStaticAttribute] Offset: 0xCAFCFC
     // Get static field: static private System.Byte m_EventSourceExceptionRecurenceCount
     static uint8_t _get_m_EventSourceExceptionRecurenceCount();
     // Set static field: static private System.Byte m_EventSourceExceptionRecurenceCount
@@ -390,7 +390,7 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static private readonly System.Guid AspNetEventSourceGuid
     static void _set_AspNetEventSourceGuid(System::Guid value);
     // private System.Void WriteMultiMerge(System.String eventName, ref System.Diagnostics.Tracing.EventSourceOptions options, System.Diagnostics.Tracing.TraceLoggingEventTypes eventTypes, System.Guid* activityID, System.Guid* childActivityID, params System.Object[] values)
-    // Offset: 0x12CB4A0
+    // Offset: 0x151A234
     void WriteMultiMerge(::Il2CppString* eventName, System::Diagnostics::Tracing::EventSourceOptions& options, System::Diagnostics::Tracing::TraceLoggingEventTypes* eventTypes, System::Guid* activityID, System::Guid* childActivityID, ::Array<::Il2CppObject*>* values);
     // Creating initializer_list -> params proxy for: System.Void WriteMultiMerge(System.String eventName, ref System.Diagnostics.Tracing.EventSourceOptions options, System.Diagnostics.Tracing.TraceLoggingEventTypes eventTypes, System.Guid* activityID, System.Guid* childActivityID, params System.Object[] values)
     void WriteMultiMerge(::Il2CppString* eventName, System::Diagnostics::Tracing::EventSourceOptions& options, System::Diagnostics::Tracing::TraceLoggingEventTypes* eventTypes, System::Guid* activityID, System::Guid* childActivityID, std::initializer_list<::Il2CppObject*> values);
@@ -400,7 +400,7 @@ namespace System::Diagnostics::Tracing {
       WriteMultiMerge(eventName, options, eventTypes, activityID, childActivityID, {values...});
     }
     // private System.Void WriteMultiMergeInner(System.String eventName, ref System.Diagnostics.Tracing.EventSourceOptions options, System.Diagnostics.Tracing.TraceLoggingEventTypes eventTypes, System.Guid* activityID, System.Guid* childActivityID, params System.Object[] values)
-    // Offset: 0x12CB554
+    // Offset: 0x151A2E8
     void WriteMultiMergeInner(::Il2CppString* eventName, System::Diagnostics::Tracing::EventSourceOptions& options, System::Diagnostics::Tracing::TraceLoggingEventTypes* eventTypes, System::Guid* activityID, System::Guid* childActivityID, ::Array<::Il2CppObject*>* values);
     // Creating initializer_list -> params proxy for: System.Void WriteMultiMergeInner(System.String eventName, ref System.Diagnostics.Tracing.EventSourceOptions options, System.Diagnostics.Tracing.TraceLoggingEventTypes eventTypes, System.Guid* activityID, System.Guid* childActivityID, params System.Object[] values)
     void WriteMultiMergeInner(::Il2CppString* eventName, System::Diagnostics::Tracing::EventSourceOptions& options, System::Diagnostics::Tracing::TraceLoggingEventTypes* eventTypes, System::Guid* activityID, System::Guid* childActivityID, std::initializer_list<::Il2CppObject*> values);
@@ -410,65 +410,65 @@ namespace System::Diagnostics::Tracing {
       WriteMultiMergeInner(eventName, options, eventTypes, activityID, childActivityID, {values...});
     }
     // System.Void WriteMultiMerge(System.String eventName, ref System.Diagnostics.Tracing.EventSourceOptions options, System.Diagnostics.Tracing.TraceLoggingEventTypes eventTypes, System.Guid* activityID, System.Guid* childActivityID, System.Diagnostics.Tracing.EventSource/EventData* data)
-    // Offset: 0x12CBB30
+    // Offset: 0x151A8C4
     void WriteMultiMerge(::Il2CppString* eventName, System::Diagnostics::Tracing::EventSourceOptions& options, System::Diagnostics::Tracing::TraceLoggingEventTypes* eventTypes, System::Guid* activityID, System::Guid* childActivityID, System::Diagnostics::Tracing::EventSource::EventData* data);
     // private System.Void WriteCleanup(System.Runtime.InteropServices.GCHandle* pPins, System.Int32 cPins)
-    // Offset: 0x12CBA84
+    // Offset: 0x151A818
     void WriteCleanup(System::Runtime::InteropServices::GCHandle* pPins, int cPins);
     // private System.Void InitializeProviderMetadata()
-    // Offset: 0x12CBF70
+    // Offset: 0x151AD04
     void InitializeProviderMetadata();
     // static private System.Int32 AddValueToMetaData(System.Collections.Generic.List`1<System.Byte> metaData, System.String value)
-    // Offset: 0x12CC3C8
+    // Offset: 0x151B15C
     static int AddValueToMetaData(System::Collections::Generic::List_1<uint8_t>* metaData, ::Il2CppString* value);
     // static private System.Int32 HexDigit(System.Char c)
-    // Offset: 0x12CC69C
+    // Offset: 0x151B430
     static int HexDigit(::Il2CppChar c);
     // private System.Diagnostics.Tracing.NameInfo UpdateDescriptor(System.String name, System.Diagnostics.Tracing.TraceLoggingEventTypes eventInfo, ref System.Diagnostics.Tracing.EventSourceOptions options, out System.Diagnostics.Tracing.EventDescriptor descriptor)
-    // Offset: 0x12CBE74
+    // Offset: 0x151AC08
     System::Diagnostics::Tracing::NameInfo* UpdateDescriptor(::Il2CppString* name, System::Diagnostics::Tracing::TraceLoggingEventTypes* eventInfo, System::Diagnostics::Tracing::EventSourceOptions& options, System::Diagnostics::Tracing::EventDescriptor& descriptor);
     // public System.String get_Name()
-    // Offset: 0x12CC7DC
+    // Offset: 0x151B570
     ::Il2CppString* get_Name();
     // public System.Guid get_Guid()
-    // Offset: 0x12CC7E4
+    // Offset: 0x151B578
     System::Guid get_Guid();
     // public System.Boolean IsEnabled()
-    // Offset: 0x12CC7F4
+    // Offset: 0x151B588
     bool IsEnabled();
     // public System.Boolean IsEnabled(System.Diagnostics.Tracing.EventLevel level, System.Diagnostics.Tracing.EventKeywords keywords)
-    // Offset: 0x12CB51C
+    // Offset: 0x151A2B0
     bool IsEnabled(System::Diagnostics::Tracing::EventLevel level, System::Diagnostics::Tracing::EventKeywords keywords);
     // public System.Boolean IsEnabled(System.Diagnostics.Tracing.EventLevel level, System.Diagnostics.Tracing.EventKeywords keywords, System.Diagnostics.Tracing.EventChannel channel)
-    // Offset: 0x12CC7FC
+    // Offset: 0x151B590
     bool IsEnabled(System::Diagnostics::Tracing::EventLevel level, System::Diagnostics::Tracing::EventKeywords keywords, System::Diagnostics::Tracing::EventChannel channel);
     // static public System.Guid GetGuid(System.Type eventSourceType)
-    // Offset: 0x12CC870
+    // Offset: 0x151B604
     static System::Guid GetGuid(System::Type* eventSourceType);
     // static public System.String GetName(System.Type eventSourceType)
-    // Offset: 0x12CD6D0
+    // Offset: 0x151C464
     static ::Il2CppString* GetName(System::Type* eventSourceType);
     // static public System.Void SetCurrentThreadActivityId(System.Guid activityId)
-    // Offset: 0x12C4218
+    // Offset: 0x1512FAC
     static void SetCurrentThreadActivityId(System::Guid activityId);
     // static public System.Guid get_CurrentThreadActivityId()
-    // Offset: 0x12C3FC0
+    // Offset: 0x1512D54
     static System::Guid get_CurrentThreadActivityId();
     // static System.Guid get_InternalCurrentThreadActivityId()
-    // Offset: 0x12C2A5C
+    // Offset: 0x15117F0
     static System::Guid get_InternalCurrentThreadActivityId();
     // static System.Guid get_FallbackActivityId()
-    // Offset: 0x12CD8A8
+    // Offset: 0x151C63C
     static System::Guid get_FallbackActivityId();
     // protected System.Void .ctor(System.Diagnostics.Tracing.EventSourceSettings settings)
-    // Offset: 0x12CDAAC
+    // Offset: 0x151C840
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventSource* New_ctor(System::Diagnostics::Tracing::EventSourceSettings settings) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventSource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventSource*, creationType>(settings)));
     }
     // protected System.Void .ctor(System.Diagnostics.Tracing.EventSourceSettings settings, params System.String[] traits)
-    // Offset: 0x12CDAB4
+    // Offset: 0x151C848
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventSource* New_ctor(System::Diagnostics::Tracing::EventSourceSettings settings, ::Array<::Il2CppString*>* traits) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::EventSource::.ctor");
@@ -485,25 +485,25 @@ namespace System::Diagnostics::Tracing {
       return New_ctor<creationType>(settings, {traits...});
     }
     // protected System.Void OnEventCommand(System.Diagnostics.Tracing.EventCommandEventArgs command)
-    // Offset: 0x12CE25C
+    // Offset: 0x151CFF0
     void OnEventCommand(System::Diagnostics::Tracing::EventCommandEventArgs* command);
     // protected System.Void WriteEvent(System.Int32 eventId, System.Int32 arg1)
-    // Offset: 0x12CE260
+    // Offset: 0x151CFF4
     void WriteEvent(int eventId, int arg1);
     // protected System.Void WriteEvent(System.Int32 eventId, System.String arg1, System.String arg2)
-    // Offset: 0x12CE344
+    // Offset: 0x151D0D8
     void WriteEvent(int eventId, ::Il2CppString* arg1, ::Il2CppString* arg2);
     // protected System.Void WriteEvent(System.Int32 eventId, System.String arg1, System.String arg2, System.String arg3)
-    // Offset: 0x12CE488
+    // Offset: 0x151D21C
     void WriteEvent(int eventId, ::Il2CppString* arg1, ::Il2CppString* arg2, ::Il2CppString* arg3);
     // protected System.Void WriteEventCore(System.Int32 eventId, System.Int32 eventDataCount, System.Diagnostics.Tracing.EventSource/EventData* data)
-    // Offset: 0x12CE334
+    // Offset: 0x151D0C8
     void WriteEventCore(int eventId, int eventDataCount, System::Diagnostics::Tracing::EventSource::EventData* data);
     // protected System.Void WriteEventWithRelatedActivityIdCore(System.Int32 eventId, System.Guid* relatedActivityId, System.Int32 eventDataCount, System.Diagnostics.Tracing.EventSource/EventData* data)
-    // Offset: 0x12CE628
+    // Offset: 0x151D3BC
     void WriteEventWithRelatedActivityIdCore(int eventId, System::Guid* relatedActivityId, int eventDataCount, System::Diagnostics::Tracing::EventSource::EventData* data);
     // protected System.Void WriteEvent(System.Int32 eventId, params System.Object[] args)
-    // Offset: 0x12D007C
+    // Offset: 0x151EE10
     void WriteEvent(int eventId, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void WriteEvent(System.Int32 eventId, params System.Object[] args)
     void WriteEvent(int eventId, std::initializer_list<::Il2CppObject*> args);
@@ -513,46 +513,46 @@ namespace System::Diagnostics::Tracing {
       WriteEvent(eventId, {args...});
     }
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x12D0E38
+    // Offset: 0x151FBCC
     void Dispose(bool disposing);
     // System.Void WriteStringToListener(System.Diagnostics.Tracing.EventListener listener, System.String msg, System.Diagnostics.Tracing.SessionMask m)
-    // Offset: 0x12D12B8
+    // Offset: 0x152004C
     void WriteStringToListener(System::Diagnostics::Tracing::EventListener* listener, ::Il2CppString* msg, System::Diagnostics::Tracing::SessionMask m);
     // private System.Void WriteEventRaw(System.String eventName, ref System.Diagnostics.Tracing.EventDescriptor eventDescriptor, System.Guid* activityID, System.Guid* relatedActivityID, System.Int32 dataCount, System.IntPtr data)
-    // Offset: 0x12CB9D8
+    // Offset: 0x151A76C
     void WriteEventRaw(::Il2CppString* eventName, System::Diagnostics::Tracing::EventDescriptor& eventDescriptor, System::Guid* activityID, System::Guid* relatedActivityID, int dataCount, System::IntPtr data);
     // private System.Void Initialize(System.Guid eventSourceGuid, System.String eventSourceName, System.String[] traits)
-    // Offset: 0x12CDC38
+    // Offset: 0x151C9CC
     void Initialize(System::Guid eventSourceGuid, ::Il2CppString* eventSourceName, ::Array<::Il2CppString*>* traits);
     // static private System.String GetName(System.Type eventSourceType, System.Diagnostics.Tracing.EventManifestOptions flags)
-    // Offset: 0x12CD738
+    // Offset: 0x151C4CC
     static ::Il2CppString* GetName(System::Type* eventSourceType, System::Diagnostics::Tracing::EventManifestOptions flags);
     // static private System.Guid GenerateGuidFromName(System.String name)
-    // Offset: 0x12CD598
+    // Offset: 0x151C32C
     static System::Guid GenerateGuidFromName(::Il2CppString* name);
     // private System.Object DecodeObject(System.Int32 eventId, System.Int32 parameterId, ref System.Diagnostics.Tracing.EventSource/EventData* data)
-    // Offset: 0x12D2648
+    // Offset: 0x15213DC
     ::Il2CppObject* DecodeObject(int eventId, int parameterId, System::Diagnostics::Tracing::EventSource::EventData*& data);
     // private System.Diagnostics.Tracing.EventDispatcher GetDispatcher(System.Diagnostics.Tracing.EventListener listener)
-    // Offset: 0x12D2F78
+    // Offset: 0x1521D0C
     System::Diagnostics::Tracing::EventDispatcher* GetDispatcher(System::Diagnostics::Tracing::EventListener* listener);
     // private System.Void WriteEventVarargs(System.Int32 eventId, System.Guid* childActivityID, System.Object[] args)
-    // Offset: 0x12D0088
+    // Offset: 0x151EE1C
     void WriteEventVarargs(int eventId, System::Guid* childActivityID, ::Array<::Il2CppObject*>* args);
     // private System.Object[] SerializeEventArgs(System.Int32 eventId, System.Object[] args)
-    // Offset: 0x12D3330
+    // Offset: 0x15220C4
     ::Array<::Il2CppObject*>* SerializeEventArgs(int eventId, ::Array<::Il2CppObject*>* args);
     // private System.Void LogEventArgsMismatches(System.Reflection.ParameterInfo[] infos, System.Object[] args)
-    // Offset: 0x12D2FB8
+    // Offset: 0x1521D4C
     void LogEventArgsMismatches(::Array<System::Reflection::ParameterInfo*>* infos, ::Array<::Il2CppObject*>* args);
     // private System.Int32 GetParamLengthIncludingByteArray(System.Reflection.ParameterInfo[] parameters)
-    // Offset: 0x12D3530
+    // Offset: 0x15222C4
     int GetParamLengthIncludingByteArray(::Array<System::Reflection::ParameterInfo*>* parameters);
     // private System.Void WriteToAllListeners(System.Int32 eventId, System.Guid* childActivityID, System.Int32 eventDataCount, System.Diagnostics.Tracing.EventSource/EventData* data)
-    // Offset: 0x12CFD90
+    // Offset: 0x151EB24
     void WriteToAllListeners(int eventId, System::Guid* childActivityID, int eventDataCount, System::Diagnostics::Tracing::EventSource::EventData* data);
     // private System.Void WriteToAllListeners(System.Int32 eventId, System.Guid* childActivityID, params System.Object[] args)
-    // Offset: 0x12D31E8
+    // Offset: 0x1521F7C
     void WriteToAllListeners(int eventId, System::Guid* childActivityID, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void WriteToAllListeners(System.Int32 eventId, System.Guid* childActivityID, params System.Object[] args)
     void WriteToAllListeners(int eventId, System::Guid* childActivityID, std::initializer_list<::Il2CppObject*> args);
@@ -562,120 +562,120 @@ namespace System::Diagnostics::Tracing {
       WriteToAllListeners(eventId, childActivityID, {args...});
     }
     // private System.Void DispatchToAllListeners(System.Int32 eventId, System.Guid* childActivityID, System.Diagnostics.Tracing.EventWrittenEventArgs eventCallbackArgs)
-    // Offset: 0x12D364C
+    // Offset: 0x15223E0
     void DispatchToAllListeners(int eventId, System::Guid* childActivityID, System::Diagnostics::Tracing::EventWrittenEventArgs* eventCallbackArgs);
     // private System.Void WriteEventString(System.Diagnostics.Tracing.EventLevel level, System.Int64 keywords, System.String msgString)
-    // Offset: 0x12D1404
+    // Offset: 0x1520198
     void WriteEventString(System::Diagnostics::Tracing::EventLevel level, int64_t keywords, ::Il2CppString* msgString);
     // private System.Void WriteStringToAllListeners(System.String eventName, System.String msg)
-    // Offset: 0x12D3908
+    // Offset: 0x152269C
     void WriteStringToAllListeners(::Il2CppString* eventName, ::Il2CppString* msg);
     // private System.Diagnostics.Tracing.SessionMask GetEtwSessionMask(System.Int32 eventId, System.Guid* childActivityID)
-    // Offset: 0x12CF334
+    // Offset: 0x151E0C8
     System::Diagnostics::Tracing::SessionMask GetEtwSessionMask(int eventId, System::Guid* childActivityID);
     // private System.Boolean IsEnabledByDefault(System.Int32 eventNum, System.Boolean enable, System.Diagnostics.Tracing.EventLevel currentLevel, System.Diagnostics.Tracing.EventKeywords currentMatchAnyKeyword)
-    // Offset: 0x12D3B94
+    // Offset: 0x1522928
     bool IsEnabledByDefault(int eventNum, bool enable, System::Diagnostics::Tracing::EventLevel currentLevel, System::Diagnostics::Tracing::EventKeywords currentMatchAnyKeyword);
     // private System.Boolean IsEnabledCommon(System.Boolean enabled, System.Diagnostics.Tracing.EventLevel currentLevel, System.Diagnostics.Tracing.EventKeywords currentMatchAnyKeyword, System.Diagnostics.Tracing.EventLevel eventLevel, System.Diagnostics.Tracing.EventKeywords eventKeywords, System.Diagnostics.Tracing.EventChannel eventChannel)
-    // Offset: 0x12CC834
+    // Offset: 0x151B5C8
     bool IsEnabledCommon(bool enabled, System::Diagnostics::Tracing::EventLevel currentLevel, System::Diagnostics::Tracing::EventKeywords currentMatchAnyKeyword, System::Diagnostics::Tracing::EventLevel eventLevel, System::Diagnostics::Tracing::EventKeywords eventKeywords, System::Diagnostics::Tracing::EventChannel eventChannel);
     // private System.Void ThrowEventSourceException(System.String eventName, System.Exception innerEx)
-    // Offset: 0x12CF5B0
+    // Offset: 0x151E344
     void ThrowEventSourceException(::Il2CppString* eventName, System::Exception* innerEx);
     // private System.Void ValidateEventOpcodeForTransfer(ref System.Diagnostics.Tracing.EventSource/EventMetadata eventData, System.String eventName)
-    // Offset: 0x12CF308
+    // Offset: 0x151E09C
     void ValidateEventOpcodeForTransfer(System::Diagnostics::Tracing::EventSource::EventMetadata& eventData, ::Il2CppString* eventName);
     // static System.Diagnostics.Tracing.EventOpcode GetOpcodeWithDefault(System.Diagnostics.Tracing.EventOpcode opcode, System.String eventName)
-    // Offset: 0x12D3D10
+    // Offset: 0x1522AA4
     static System::Diagnostics::Tracing::EventOpcode GetOpcodeWithDefault(System::Diagnostics::Tracing::EventOpcode opcode, ::Il2CppString* eventName);
     // System.Void SendCommand(System.Diagnostics.Tracing.EventListener listener, System.Int32 perEventSourceSessionId, System.Int32 etwSessionId, System.Diagnostics.Tracing.EventCommand command, System.Boolean enable, System.Diagnostics.Tracing.EventLevel level, System.Diagnostics.Tracing.EventKeywords matchAnyKeyword, System.Collections.Generic.IDictionary`2<System.String,System.String> commandArguments)
-    // Offset: 0x12D3DAC
+    // Offset: 0x1522B40
     void SendCommand(System::Diagnostics::Tracing::EventListener* listener, int perEventSourceSessionId, int etwSessionId, System::Diagnostics::Tracing::EventCommand command, bool enable, System::Diagnostics::Tracing::EventLevel level, System::Diagnostics::Tracing::EventKeywords matchAnyKeyword, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* commandArguments);
     // System.Void DoCommand(System.Diagnostics.Tracing.EventCommandEventArgs commandArgs)
-    // Offset: 0x12D18DC
+    // Offset: 0x1520670
     void DoCommand(System::Diagnostics::Tracing::EventCommandEventArgs* commandArgs);
     // System.Void UpdateEtwSession(System.Int32 sessionIdBit, System.Int32 etwSessionId, System.Boolean bEnable, System.String activityFilters, System.Boolean participateInSampling)
-    // Offset: 0x12D471C
+    // Offset: 0x15234B0
     void UpdateEtwSession(int sessionIdBit, int etwSessionId, bool bEnable, ::Il2CppString* activityFilters, bool participateInSampling);
     // static System.Boolean ParseCommandArgs(System.Collections.Generic.IDictionary`2<System.String,System.String> commandArguments, out System.Boolean participateInSampling, out System.String activityFilters, out System.Int32 sessionIdBit)
-    // Offset: 0x12D4488
+    // Offset: 0x152321C
     static bool ParseCommandArgs(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* commandArguments, bool& participateInSampling, ::Il2CppString*& activityFilters, int& sessionIdBit);
     // System.Void UpdateKwdTriggers(System.Boolean enable)
-    // Offset: 0x12D4B04
+    // Offset: 0x1523898
     void UpdateKwdTriggers(bool enable);
     // System.Boolean EnableEventForDispatcher(System.Diagnostics.Tracing.EventDispatcher dispatcher, System.Int32 eventId, System.Boolean value)
-    // Offset: 0x12D4398
+    // Offset: 0x152312C
     bool EnableEventForDispatcher(System::Diagnostics::Tracing::EventDispatcher* dispatcher, int eventId, bool value);
     // private System.Boolean AnyEventEnabled()
-    // Offset: 0x12D4A48
+    // Offset: 0x15237DC
     bool AnyEventEnabled();
     // private System.Boolean get_IsDisposed()
-    // Offset: 0x12D50A8
+    // Offset: 0x1523E3C
     bool get_IsDisposed();
     // private System.Void EnsureDescriptorsInitialized()
-    // Offset: 0x12D3F9C
+    // Offset: 0x1522D30
     void EnsureDescriptorsInitialized();
     // private System.Boolean SendManifest(System.Byte[] rawManifest)
-    // Offset: 0x12D0F58
+    // Offset: 0x151FCEC
     bool SendManifest(::Array<uint8_t>* rawManifest);
     // static System.Attribute GetCustomAttributeHelper(System.Reflection.MemberInfo member, System.Type attributeType, System.Diagnostics.Tracing.EventManifestOptions flags)
-    // Offset: 0x12CCAD8
+    // Offset: 0x151B86C
     static System::Attribute* GetCustomAttributeHelper(System::Reflection::MemberInfo* member, System::Type* attributeType, System::Diagnostics::Tracing::EventManifestOptions flags);
     // static private System.Boolean AttributeTypeNamesMatch(System.Type attributeType, System.Type reflectedAttributeType)
-    // Offset: 0x12D6C10
+    // Offset: 0x15259A4
     static bool AttributeTypeNamesMatch(System::Type* attributeType, System::Type* reflectedAttributeType);
     // static private System.Type GetEventSourceBaseType(System.Type eventSourceType, System.Boolean allowEventSourceOverride, System.Boolean reflectionOnly)
-    // Offset: 0x12D6D88
+    // Offset: 0x1525B1C
     static System::Type* GetEventSourceBaseType(System::Type* eventSourceType, bool allowEventSourceOverride, bool reflectionOnly);
     // static private System.Byte[] CreateManifestAndDescriptors(System.Type eventSourceType, System.String eventSourceDllName, System.Diagnostics.Tracing.EventSource source, System.Diagnostics.Tracing.EventManifestOptions flags)
-    // Offset: 0x12D50F4
+    // Offset: 0x1523E88
     static ::Array<uint8_t>* CreateManifestAndDescriptors(System::Type* eventSourceType, ::Il2CppString* eventSourceDllName, System::Diagnostics::Tracing::EventSource* source, System::Diagnostics::Tracing::EventManifestOptions flags);
     // static private System.Boolean RemoveFirstArgIfRelatedActivityId(ref System.Reflection.ParameterInfo[] args)
-    // Offset: 0x12D757C
+    // Offset: 0x1526310
     static bool RemoveFirstArgIfRelatedActivityId(::Array<System::Reflection::ParameterInfo*>*& args);
     // static private System.Void AddProviderEnumKind(System.Diagnostics.Tracing.ManifestBuilder manifest, System.Reflection.FieldInfo staticField, System.String providerEnumKind)
-    // Offset: 0x12D6FA4
+    // Offset: 0x1525D38
     static void AddProviderEnumKind(System::Diagnostics::Tracing::ManifestBuilder* manifest, System::Reflection::FieldInfo* staticField, ::Il2CppString* providerEnumKind);
     // static private System.Void AddEventDescriptor(ref System.Diagnostics.Tracing.EventSource/EventMetadata[] eventData, System.String eventName, System.Diagnostics.Tracing.EventAttribute eventAttribute, System.Reflection.ParameterInfo[] eventParameters, System.Boolean hasRelatedActivityID)
-    // Offset: 0x12D7E10
+    // Offset: 0x1526BA4
     static void AddEventDescriptor(::Array<System::Diagnostics::Tracing::EventSource::EventMetadata>*& eventData, ::Il2CppString* eventName, System::Diagnostics::Tracing::EventAttribute* eventAttribute, ::Array<System::Reflection::ParameterInfo*>* eventParameters, bool hasRelatedActivityID);
     // static private System.Void TrimEventDescriptors(ref System.Diagnostics.Tracing.EventSource/EventMetadata[] eventData)
-    // Offset: 0x12D8094
+    // Offset: 0x1526E28
     static void TrimEventDescriptors(::Array<System::Diagnostics::Tracing::EventSource::EventMetadata>*& eventData);
     // System.Void AddListener(System.Diagnostics.Tracing.EventListener listener)
-    // Offset: 0x12C7590
+    // Offset: 0x1516324
     void AddListener(System::Diagnostics::Tracing::EventListener* listener);
     // static private System.Void DebugCheckEvent(ref System.Collections.Generic.Dictionary`2<System.String,System.String> eventsByName, System.Diagnostics.Tracing.EventSource/EventMetadata[] eventData, System.Reflection.MethodInfo method, System.Diagnostics.Tracing.EventAttribute eventAttribute, System.Diagnostics.Tracing.ManifestBuilder manifest, System.Diagnostics.Tracing.EventManifestOptions options)
-    // Offset: 0x12D76FC
+    // Offset: 0x1526490
     static void DebugCheckEvent(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*& eventsByName, ::Array<System::Diagnostics::Tracing::EventSource::EventMetadata>* eventData, System::Reflection::MethodInfo* method, System::Diagnostics::Tracing::EventAttribute* eventAttribute, System::Diagnostics::Tracing::ManifestBuilder* manifest, System::Diagnostics::Tracing::EventManifestOptions options);
     // static private System.Int32 GetHelperCallFirstArg(System.Reflection.MethodInfo method)
-    // Offset: 0x12D8170
+    // Offset: 0x1526F04
     static int GetHelperCallFirstArg(System::Reflection::MethodInfo* method);
     // System.Void ReportOutOfBandMessage(System.String msg, System.Boolean flush)
-    // Offset: 0x12C242C
+    // Offset: 0x15111C0
     void ReportOutOfBandMessage(::Il2CppString* msg, bool flush);
     // private System.Diagnostics.Tracing.EventSourceSettings ValidateSettings(System.Diagnostics.Tracing.EventSourceSettings settings)
-    // Offset: 0x12CDB84
+    // Offset: 0x151C918
     System::Diagnostics::Tracing::EventSourceSettings ValidateSettings(System::Diagnostics::Tracing::EventSourceSettings settings);
     // private System.Boolean get_ThrowOnEventWriteErrors()
-    // Offset: 0x12D3C84
+    // Offset: 0x1522A18
     bool get_ThrowOnEventWriteErrors();
     // private System.Boolean get_SelfDescribingEvents()
-    // Offset: 0x12CF5A4
+    // Offset: 0x151E338
     bool get_SelfDescribingEvents();
     // private System.Void ReportActivitySamplingInfo(System.Diagnostics.Tracing.EventListener listener, System.Diagnostics.Tracing.SessionMask sessions)
-    // Offset: 0x12D4B9C
+    // Offset: 0x1523930
     void ReportActivitySamplingInfo(System::Diagnostics::Tracing::EventListener* listener, System::Diagnostics::Tracing::SessionMask sessions);
     // static private System.Void .cctor()
-    // Offset: 0x12D8358
+    // Offset: 0x15270EC
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x12CD974
+    // Offset: 0x151C708
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected System.Void .ctor()
-    // Offset: 0x12CDAA0
+    // Offset: 0x151C834
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -684,7 +684,7 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EventSource*, creationType>()));
     }
     // public System.Void Dispose()
-    // Offset: 0x12C7948
+    // Offset: 0x15166DC
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -692,7 +692,7 @@ namespace System::Diagnostics::Tracing {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x12D1244
+    // Offset: 0x151FFD8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

@@ -21,29 +21,29 @@ namespace System::Collections::Generic {
     // Creating value type constructor for type: ByteEqualityComparer
     ByteEqualityComparer() noexcept {}
     // public System.Boolean Equals(System.Byte x, System.Byte y)
-    // Offset: 0x1CB5FF8
+    // Offset: 0x168F3C0
     bool Equals(uint8_t x, uint8_t y);
     // public System.Int32 GetHashCode(System.Byte b)
-    // Offset: 0x1CB6008
+    // Offset: 0x168F3D0
     int GetHashCode(uint8_t b);
     // System.Int32 IndexOf(System.Byte[] array, System.Byte value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1CB6010
+    // Offset: 0x168F3D8
     int IndexOf(::Array<uint8_t>* array, uint8_t value, int startIndex, int count);
     // System.Int32 LastIndexOf(System.Byte[] array, System.Byte value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1CB61C0
+    // Offset: 0x168F588
     int LastIndexOf(::Array<uint8_t>* array, uint8_t value, int startIndex, int count);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1CB6224
+    // Offset: 0x168F5EC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1CB62A4
+    // Offset: 0x168F66C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public System.Void .ctor()
-    // Offset: 0x1CB62DC
+    // Offset: 0x168F6A4
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()

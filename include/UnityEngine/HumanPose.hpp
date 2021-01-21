@@ -47,7 +47,7 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void Init()
-    // Offset: 0xCB759C
+    // Offset: 0xE2FD4C
     void Init();
   }; // UnityEngine.HumanPose
   #pragma pack(pop)

@@ -78,42 +78,42 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest digest, System.Boolean isImplicit)
-    // Offset: 0x1055690
+    // Offset: 0x1190198
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X931Signer* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* digest, bool isImplicit) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::X931Signer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X931Signer*, creationType>(cipher, digest, isImplicit)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x10557BC
+    // Offset: 0x11902C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X931Signer* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::X931Signer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X931Signer*, creationType>(cipher, digest)));
     }
     // private System.Void ClearBlock(System.Byte[] block)
-    // Offset: 0x105594C
+    // Offset: 0x1190454
     void ClearBlock(::Array<uint8_t>* block);
     // private System.Void CreateSignatureBlock()
-    // Offset: 0x1055C64
+    // Offset: 0x119076C
     void CreateSignatureBlock();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x10557C4
+    // Offset: 0x11902CC
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 off, System.Int32 len)
-    // Offset: 0x1055970
+    // Offset: 0x1190478
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::BlockUpdate(System.Byte[] input, System.Int32 off, System.Int32 len)
     void BlockUpdate(::Array<uint8_t>* input, int off, int len);
     // public System.Void Reset()
-    // Offset: 0x1055A4C
+    // Offset: 0x1190554
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::Reset()
     void Reset();
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x1055B00
+    // Offset: 0x1190608
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Byte[] ISigner::GenerateSignature()
     ::Array<uint8_t>* GenerateSignature();

@@ -42,22 +42,22 @@ namespace System {
       return *reinterpret_cast<System::TypeIdentifier*>(this);
     }
     // System.Void .ctor(System.String displayName)
-    // Offset: 0x1659AFC
+    // Offset: 0x19F253C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeIdentifiers::Display* New_ctor(::Il2CppString* displayName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TypeIdentifiers::Display::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeIdentifiers::Display*, creationType>(displayName)));
     }
     // private System.String GetInternalName()
-    // Offset: 0x1659B94
+    // Offset: 0x19F25D4
     ::Il2CppString* GetInternalName();
     // public override System.String get_DisplayName()
-    // Offset: 0x1659B48
+    // Offset: 0x19F2588
     // Implemented from: System.TypeNames/ATypeName
     // Base method: System.String ATypeName::get_DisplayName()
     ::Il2CppString* get_DisplayName();
     // public System.String get_InternalName()
-    // Offset: 0x1659B50
+    // Offset: 0x19F2590
     // Implemented from: System.TypeIdentifier
     // Base method: System.String TypeIdentifier::get_InternalName()
     ::Il2CppString* get_InternalName();

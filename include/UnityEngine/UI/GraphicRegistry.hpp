@@ -68,22 +68,22 @@ namespace UnityEngine::UI {
     // Set static field: static private readonly System.Collections.Generic.List`1<UnityEngine.UI.Graphic> s_EmptyList
     static void _set_s_EmptyList(System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>* value);
     // static public UnityEngine.UI.GraphicRegistry get_instance()
-    // Offset: 0x14CBAEC
+    // Offset: 0x180EB84
     static UnityEngine::UI::GraphicRegistry* get_instance();
     // static public System.Void RegisterGraphicForCanvas(UnityEngine.Canvas c, UnityEngine.UI.Graphic graphic)
-    // Offset: 0x14C79B4
+    // Offset: 0x180AA4C
     static void RegisterGraphicForCanvas(UnityEngine::Canvas* c, UnityEngine::UI::Graphic* graphic);
     // static public System.Void UnregisterGraphicForCanvas(UnityEngine.Canvas c, UnityEngine.UI.Graphic graphic)
-    // Offset: 0x14C7638
+    // Offset: 0x180A6D0
     static void UnregisterGraphicForCanvas(UnityEngine::Canvas* c, UnityEngine::UI::Graphic* graphic);
     // static public System.Collections.Generic.IList`1<UnityEngine.UI.Graphic> GetGraphicsForCanvas(UnityEngine.Canvas canvas)
-    // Offset: 0x14CB1C8
+    // Offset: 0x180E260
     static System::Collections::Generic::IList_1<UnityEngine::UI::Graphic*>* GetGraphicsForCanvas(UnityEngine::Canvas* canvas);
     // static private System.Void .cctor()
-    // Offset: 0x14CBBB4
+    // Offset: 0x180EC4C
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x14CB9C0
+    // Offset: 0x180EA58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

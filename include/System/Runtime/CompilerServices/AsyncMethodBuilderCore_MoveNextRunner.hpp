@@ -52,17 +52,17 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static private System.Threading.ContextCallback s_invokeMoveNext
     static void _set_s_invokeMoveNext(System::Threading::ContextCallback* value);
     // System.Void .ctor(System.Threading.ExecutionContext context, System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1162344
+    // Offset: 0x1308D48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncMethodBuilderCore::MoveNextRunner* New_ctor(System::Threading::ExecutionContext* context, System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncMethodBuilderCore::MoveNextRunner*, creationType>(context, stateMachine)));
     }
     // System.Void Run()
-    // Offset: 0x1162394
+    // Offset: 0x1308D98
     void Run();
     // static private System.Void InvokeMoveNext(System.Object stateMachine)
-    // Offset: 0x1162554
+    // Offset: 0x1308F58
     static void InvokeMoveNext(::Il2CppObject* stateMachine);
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner
   #pragma pack(pop)

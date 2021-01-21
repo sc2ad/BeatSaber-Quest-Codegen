@@ -59,7 +59,7 @@ namespace Oculus::Platform {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.String key, Oculus.Platform.MatchmakingCriterionImportance importance)
-    // Offset: 0xC963AC
+    // Offset: 0xE00278
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ovrMatchmakingCriterion(::Il2CppString* key, Oculus::Platform::MatchmakingCriterionImportance importance) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrMatchmakingCriterion::.ctor");

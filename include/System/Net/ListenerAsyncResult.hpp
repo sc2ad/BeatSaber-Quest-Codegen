@@ -121,32 +121,32 @@ namespace System::Net {
     // Set static field: static private System.Threading.WaitCallback InvokeCB
     static void _set_InvokeCB(System::Threading::WaitCallback* value);
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x12AEE0C
+    // Offset: 0x14FDBA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListenerAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ListenerAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListenerAsyncResult*, creationType>(cb, state)));
     }
     // System.Void Complete(System.Exception exc)
-    // Offset: 0x12AE9B8
+    // Offset: 0x14FD74C
     void Complete(System::Exception* exc);
     // static private System.Void InvokeCallback(System.Object o)
-    // Offset: 0x12BE4D8
+    // Offset: 0x150D26C
     static void InvokeCallback(::Il2CppObject* o);
     // System.Void Complete(System.Net.HttpListenerContext context)
-    // Offset: 0x12AFDFC
+    // Offset: 0x14FEB90
     void Complete(System::Net::HttpListenerContext* context);
     // System.Void Complete(System.Net.HttpListenerContext context, System.Boolean synch)
-    // Offset: 0x12AEF7C
+    // Offset: 0x14FDD10
     void Complete(System::Net::HttpListenerContext* context, bool synch);
     // System.Net.HttpListenerContext GetContext()
-    // Offset: 0x12AF9F4
+    // Offset: 0x14FE788
     System::Net::HttpListenerContext* GetContext();
     // static private System.Void .cctor()
-    // Offset: 0x12BE654
+    // Offset: 0x150D3E8
     static void _cctor();
     // public System.Object get_AsyncState()
-    // Offset: 0x12BE62C
+    // Offset: 0x150D3C0
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
@@ -154,7 +154,7 @@ namespace System::Net {
     // Maps to method: get_AsyncState
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x12AF8D8
+    // Offset: 0x14FE66C
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* get_AsyncWaitHandle();
@@ -162,7 +162,7 @@ namespace System::Net {
     // Maps to method: get_AsyncWaitHandle
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x12BE640
+    // Offset: 0x150D3D4
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
     bool get_CompletedSynchronously();
@@ -170,7 +170,7 @@ namespace System::Net {
     // Maps to method: get_CompletedSynchronously
     bool System_IAsyncResult_get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x12AF814
+    // Offset: 0x14FE5A8
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_IsCompleted()
     bool get_IsCompleted();

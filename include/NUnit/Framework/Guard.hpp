@@ -16,13 +16,13 @@ namespace NUnit::Framework {
     // Creating value type constructor for type: Guard
     Guard() noexcept {}
     // static public System.Void ArgumentNotNull(System.Object value, System.String name)
-    // Offset: 0x13E682C
+    // Offset: 0x16A334C
     static void ArgumentNotNull(::Il2CppObject* value, ::Il2CppString* name);
     // static public System.Void ArgumentNotNullOrEmpty(System.String value, System.String name)
-    // Offset: 0x13E68E0
+    // Offset: 0x16A3400
     static void ArgumentNotNullOrEmpty(::Il2CppString* value, ::Il2CppString* name);
     // static public System.Void ArgumentValid(System.Boolean condition, System.String message, System.String paramName)
-    // Offset: 0x13E69C0
+    // Offset: 0x16A34E0
     static void ArgumentValid(bool condition, ::Il2CppString* message, ::Il2CppString* paramName);
   }; // NUnit.Framework.Guard
   #pragma pack(pop)

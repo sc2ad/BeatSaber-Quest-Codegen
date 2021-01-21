@@ -39,19 +39,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return idRef;
     }
     // System.Void Set(System.Int32 idRef)
-    // Offset: 0x12F3110
+    // Offset: 0x1542EA4
     void Set(int idRef);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x12F3118
+    // Offset: 0x1542EAC
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x12F3194
+    // Offset: 0x1542F28
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x12F31F8
+    // Offset: 0x1542F8C
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x12F3108
+    // Offset: 0x1542E9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

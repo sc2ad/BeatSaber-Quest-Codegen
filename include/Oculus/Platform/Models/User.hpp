@@ -80,7 +80,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: User
     User(uint64_t ID_ = {}, ::Il2CppString* ImageURL_ = {}, ::Il2CppString* InviteToken_ = {}, ::Il2CppString* OculusID_ = {}, ::Il2CppString* Presence_ = {}, ::Il2CppString* PresenceDeeplinkMessage_ = {}, ::Il2CppString* PresenceDestinationApiName_ = {}, Oculus::Platform::UserPresenceStatus PresenceStatus_ = {}, ::Il2CppString* SmallImageUrl_ = {}) noexcept : ID{ID_}, ImageURL{ImageURL_}, InviteToken{InviteToken_}, OculusID{OculusID_}, Presence{Presence_}, PresenceDeeplinkMessage{PresenceDeeplinkMessage_}, PresenceDestinationApiName{PresenceDestinationApiName_}, PresenceStatus{PresenceStatus_}, SmallImageUrl{SmallImageUrl_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x11DFFD0
+    // Offset: 0x13F0DD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static User* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::User::.ctor");

@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerPlayerLayout layout;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayerLayout) == 0x4);
-    // [InjectAttribute] Offset: 0xDC9CBC
+    // [InjectAttribute] Offset: 0xD3BEB8
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x20
@@ -92,13 +92,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0xFA8354
+    // Offset: 0x1017DD0
     void Start();
     // private System.Void HandlePlayersLayoutWasCalculated(MultiplayerPlayerLayout layout, System.Int32 playersCount)
-    // Offset: 0xFA8400
+    // Offset: 0x1017E7C
     void HandlePlayersLayoutWasCalculated(GlobalNamespace::MultiplayerPlayerLayout layout, int playersCount);
     // public System.Void .ctor()
-    // Offset: 0xFA8464
+    // Offset: 0x1017EE0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

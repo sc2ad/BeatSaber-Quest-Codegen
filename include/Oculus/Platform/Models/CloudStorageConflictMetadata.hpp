@@ -41,7 +41,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: CloudStorageConflictMetadata
     CloudStorageConflictMetadata(Oculus::Platform::Models::CloudStorageMetadata* Local_ = {}, Oculus::Platform::Models::CloudStorageMetadata* Remote_ = {}) noexcept : Local{Local_}, Remote{Remote_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x11D95FC
+    // Offset: 0x13EA404
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudStorageConflictMetadata* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CloudStorageConflictMetadata::.ctor");

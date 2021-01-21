@@ -52,7 +52,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: AssetFileDownloadUpdate
     AssetFileDownloadUpdate(uint64_t AssetFileId_ = {}, uint64_t AssetId_ = {}, uint BytesTotal_ = {}, int BytesTransferred_ = {}, bool Completed_ = {}) noexcept : AssetFileId{AssetFileId_}, AssetId{AssetId_}, BytesTotal{BytesTotal_}, BytesTransferred{BytesTransferred_}, Completed{Completed_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x11D8E40
+    // Offset: 0x13E9C48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetFileDownloadUpdate* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AssetFileDownloadUpdate::.ctor");

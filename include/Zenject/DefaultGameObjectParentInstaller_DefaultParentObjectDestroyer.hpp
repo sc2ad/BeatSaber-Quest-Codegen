@@ -45,14 +45,14 @@ namespace Zenject {
       return gameObject;
     }
     // public System.Void .ctor(UnityEngine.GameObject gameObject)
-    // Offset: 0x10F3734
+    // Offset: 0x1268C70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer* New_ctor(UnityEngine::GameObject* gameObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*, creationType>(gameObject)));
     }
     // public System.Void Dispose()
-    // Offset: 0x10F3768
+    // Offset: 0x1268CA4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

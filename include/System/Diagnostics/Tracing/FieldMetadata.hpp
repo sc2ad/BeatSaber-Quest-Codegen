@@ -66,24 +66,24 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: FieldMetadata
     FieldMetadata(::Il2CppString* name_ = {}, int nameSize_ = {}, System::Diagnostics::Tracing::EventFieldTags tags_ = {}, ::Array<uint8_t>* custom_ = {}, uint16_t fixedCount_ = {}, uint8_t inType_ = {}, uint8_t outType_ = {}) noexcept : name{name_}, nameSize{nameSize_}, tags{tags_}, custom{custom_}, fixedCount{fixedCount_}, inType{inType_}, outType{outType_} {}
     // public System.Void .ctor(System.String name, System.Diagnostics.Tracing.TraceLoggingDataType type, System.Diagnostics.Tracing.EventFieldTags tags, System.Boolean variableCount)
-    // Offset: 0x1118BEC
+    // Offset: 0x129FA28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FieldMetadata* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::TraceLoggingDataType type, System::Diagnostics::Tracing::EventFieldTags tags, bool variableCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::FieldMetadata::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FieldMetadata*, creationType>(name, type, tags, variableCount)));
     }
     // private System.Void .ctor(System.String name, System.Diagnostics.Tracing.TraceLoggingDataType dataType, System.Diagnostics.Tracing.EventFieldTags tags, System.Byte countFlags, System.UInt16 fixedCount, System.Byte[] custom)
-    // Offset: 0x1118C14
+    // Offset: 0x129FA50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FieldMetadata* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::TraceLoggingDataType dataType, System::Diagnostics::Tracing::EventFieldTags tags, uint8_t countFlags, uint16_t fixedCount, ::Array<uint8_t>* custom) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::FieldMetadata::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FieldMetadata*, creationType>(name, dataType, tags, countFlags, fixedCount, custom)));
     }
     // public System.Void IncrementStructFieldCount()
-    // Offset: 0x1118EA0
+    // Offset: 0x129FCDC
     void IncrementStructFieldCount();
     // public System.Void Encode(ref System.Int32 pos, System.Byte[] metadata)
-    // Offset: 0x1118F40
+    // Offset: 0x129FD7C
     void Encode(int& pos, ::Array<uint8_t>* metadata);
   }; // System.Diagnostics.Tracing.FieldMetadata
   #pragma pack(pop)

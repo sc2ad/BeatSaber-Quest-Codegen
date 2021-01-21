@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithPidList
     MessageWithPidList() noexcept {}
     // protected Oculus.Platform.Models.PidList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x11DDF7C
+    // Offset: 0x13EED84
     Oculus::Platform::Models::PidList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x11D6388
+    // Offset: 0x13E7190
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,7 +41,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithPidList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.PidList GetPidList()
-    // Offset: 0x11DDF38
+    // Offset: 0x13EED40
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.PidList Message::GetPidList()
     Oculus::Platform::Models::PidList* GetPidList();

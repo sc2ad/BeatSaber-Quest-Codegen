@@ -392,154 +392,154 @@ namespace LiteNetLib {
     // Set static field: static private System.Int32 ShutdownDelay
     static void _set_ShutdownDelay(int value);
     // System.Byte get_ConnectionNum()
-    // Offset: 0x1DCD8CC
+    // Offset: 0x1AA29F0
     uint8_t get_ConnectionNum();
     // private System.Void set_ConnectionNum(System.Byte value)
-    // Offset: 0x1DCD8D4
+    // Offset: 0x1AA29F8
     void set_ConnectionNum(uint8_t value);
     // public LiteNetLib.ConnectionState get_ConnectionState()
-    // Offset: 0x1DCD924
+    // Offset: 0x1AA2A48
     LiteNetLib::ConnectionState get_ConnectionState();
     // System.Int64 get_ConnectTime()
-    // Offset: 0x1DCD92C
+    // Offset: 0x1AA2A50
     int64_t get_ConnectTime();
     // public System.Int32 get_Ping()
-    // Offset: 0x1DCD934
+    // Offset: 0x1AA2A58
     int get_Ping();
     // public System.Int32 get_Mtu()
-    // Offset: 0x1DCD948
+    // Offset: 0x1AA2A6C
     int get_Mtu();
     // public System.Int64 get_RemoteTimeDelta()
-    // Offset: 0x1DCD950
+    // Offset: 0x1AA2A74
     int64_t get_RemoteTimeDelta();
     // public System.DateTime get_RemoteUtcTime()
-    // Offset: 0x1DCD958
+    // Offset: 0x1AA2A7C
     System::DateTime get_RemoteUtcTime();
     // public System.Int32 get_TimeSinceLastPacket()
-    // Offset: 0x1DCD9F8
+    // Offset: 0x1AA2B1C
     int get_TimeSinceLastPacket();
     // System.Double get_ResendDelay()
-    // Offset: 0x1DCDA00
+    // Offset: 0x1AA2B24
     double get_ResendDelay();
     // System.Void .ctor(LiteNetLib.NetManager netManager, System.Net.IPEndPoint remoteEndPoint, System.Int32 id)
-    // Offset: 0x1DC9BDC
+    // Offset: 0x1A9ED00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPeer* New_ctor(LiteNetLib::NetManager* netManager, System::Net::IPEndPoint* remoteEndPoint, int id) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetPeer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPeer*, creationType>(netManager, remoteEndPoint, id)));
     }
     // private System.Void SetMtu(System.Int32 mtuIdx)
-    // Offset: 0x1DCDA08
+    // Offset: 0x1AA2B2C
     void SetMtu(int mtuIdx);
     // public System.Int32 GetPacketsCountInReliableQueue(System.Byte channelNumber, System.Boolean ordered)
-    // Offset: 0x1DCDACC
+    // Offset: 0x1AA2BF0
     int GetPacketsCountInReliableQueue(uint8_t channelNumber, bool ordered);
     // private LiteNetLib.BaseChannel CreateChannel(System.Byte idx)
-    // Offset: 0x1DCDB8C
+    // Offset: 0x1AA2CB0
     LiteNetLib::BaseChannel* CreateChannel(uint8_t idx);
     // System.Void .ctor(LiteNetLib.NetManager netManager, System.Net.IPEndPoint remoteEndPoint, System.Int32 id, System.Byte connectNum, LiteNetLib.Utils.NetDataWriter connectData)
-    // Offset: 0x1DCC958
+    // Offset: 0x1AA1A7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPeer* New_ctor(LiteNetLib::NetManager* netManager, System::Net::IPEndPoint* remoteEndPoint, int id, uint8_t connectNum, LiteNetLib::Utils::NetDataWriter* connectData) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetPeer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPeer*, creationType>(netManager, remoteEndPoint, id, connectNum, connectData)));
     }
     // System.Void .ctor(LiteNetLib.NetManager netManager, System.Net.IPEndPoint remoteEndPoint, System.Int32 id, System.Int64 connectId, System.Byte connectNum)
-    // Offset: 0x1DC9F40
+    // Offset: 0x1A9F064
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPeer* New_ctor(LiteNetLib::NetManager* netManager, System::Net::IPEndPoint* remoteEndPoint, int id, int64_t connectId, uint8_t connectNum) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetPeer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPeer*, creationType>(netManager, remoteEndPoint, id, connectId, connectNum)));
     }
     // System.Void Reject(System.Int64 connectionId, System.Byte connectionNumber, System.Byte[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1DC9F24
+    // Offset: 0x1A9F048
     void Reject(int64_t connectionId, uint8_t connectionNumber, ::Array<uint8_t>* data, int start, int length);
     // System.Boolean ProcessConnectAccept(LiteNetLib.NetConnectAcceptPacket packet)
-    // Offset: 0x1DCA6EC
+    // Offset: 0x1A9F810
     bool ProcessConnectAccept(LiteNetLib::NetConnectAcceptPacket* packet);
     // public System.Int32 GetMaxSinglePacketSize(LiteNetLib.DeliveryMethod options)
-    // Offset: 0x1DCDFA4
+    // Offset: 0x1AA30C8
     int GetMaxSinglePacketSize(LiteNetLib::DeliveryMethod options);
     // public System.Void SendWithDeliveryEvent(System.Byte[] data, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod, System.Object userData)
-    // Offset: 0x1DCE028
+    // Offset: 0x1AA314C
     void SendWithDeliveryEvent(::Array<uint8_t>* data, uint8_t channelNumber, LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
     // public System.Void SendWithDeliveryEvent(System.Byte[] data, System.Int32 start, System.Int32 length, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod, System.Object userData)
-    // Offset: 0x1DCE630
+    // Offset: 0x1AA3754
     void SendWithDeliveryEvent(::Array<uint8_t>* data, int start, int length, uint8_t channelNumber, LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
     // public System.Void SendWithDeliveryEvent(LiteNetLib.Utils.NetDataWriter dataWriter, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod, System.Object userData)
-    // Offset: 0x1DCE708
+    // Offset: 0x1AA382C
     void SendWithDeliveryEvent(LiteNetLib::Utils::NetDataWriter* dataWriter, uint8_t channelNumber, LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
     // public System.Void Send(System.Byte[] data, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x1DCE7D8
+    // Offset: 0x1AA38FC
     void Send(::Array<uint8_t>* data, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter dataWriter, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x1DCE800
+    // Offset: 0x1AA3924
     void Send(LiteNetLib::Utils::NetDataWriter* dataWriter, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Send(System.Byte[] data, System.Int32 start, System.Int32 length, LiteNetLib.DeliveryMethod options)
-    // Offset: 0x1DCE830
+    // Offset: 0x1AA3954
     void Send(::Array<uint8_t>* data, int start, int length, LiteNetLib::DeliveryMethod options);
     // public System.Void Send(System.Byte[] data, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x1DCE840
+    // Offset: 0x1AA3964
     void Send(::Array<uint8_t>* data, uint8_t channelNumber, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter dataWriter, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x1DCE868
+    // Offset: 0x1AA398C
     void Send(LiteNetLib::Utils::NetDataWriter* dataWriter, uint8_t channelNumber, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Send(System.Byte[] data, System.Int32 start, System.Int32 length, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x1DCB0F0
+    // Offset: 0x1AA0214
     void Send(::Array<uint8_t>* data, int start, int length, uint8_t channelNumber, LiteNetLib::DeliveryMethod deliveryMethod);
     // private System.Void SendInternal(System.Byte[] data, System.Int32 start, System.Int32 length, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod, System.Object userData)
-    // Offset: 0x1DCE0F8
+    // Offset: 0x1AA321C
     void SendInternal(::Array<uint8_t>* data, int start, int length, uint8_t channelNumber, LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
     // public System.Void Disconnect(System.Byte[] data)
-    // Offset: 0x1DCE8A0
+    // Offset: 0x1AA39C4
     void Disconnect(::Array<uint8_t>* data);
     // public System.Void Disconnect(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1DCE8C4
+    // Offset: 0x1AA39E8
     void Disconnect(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Disconnect(System.Byte[] data, System.Int32 start, System.Int32 count)
-    // Offset: 0x1DCE8E8
+    // Offset: 0x1AA3A0C
     void Disconnect(::Array<uint8_t>* data, int start, int count);
     // public System.Void Disconnect()
-    // Offset: 0x1DCE934
+    // Offset: 0x1AA3A58
     void Disconnect();
     // LiteNetLib.DisconnectResult ProcessDisconnect(LiteNetLib.NetPacket packet)
-    // Offset: 0x1DCA608
+    // Offset: 0x1A9F72C
     LiteNetLib::DisconnectResult ProcessDisconnect(LiteNetLib::NetPacket* packet);
     // LiteNetLib.ShutdownResult Shutdown(System.Byte[] data, System.Int32 start, System.Int32 length, System.Boolean force)
-    // Offset: 0x1DC8238
+    // Offset: 0x1A9D35C
     LiteNetLib::ShutdownResult Shutdown(::Array<uint8_t>* data, int start, int length, bool force);
     // private System.Void UpdateRoundTripTime(System.Int32 roundTripTime)
-    // Offset: 0x1DCE97C
+    // Offset: 0x1AA3AA0
     void UpdateRoundTripTime(int roundTripTime);
     // System.Void AddReliablePacket(LiteNetLib.DeliveryMethod method, LiteNetLib.NetPacket p)
-    // Offset: 0x1DCE9B8
+    // Offset: 0x1AA3ADC
     void AddReliablePacket(LiteNetLib::DeliveryMethod method, LiteNetLib::NetPacket* p);
     // private System.Void ProcessMtuPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x1DCEDCC
+    // Offset: 0x1AA3EF0
     void ProcessMtuPacket(LiteNetLib::NetPacket* packet);
     // private System.Void UpdateMtuLogic(System.Int32 deltaTime)
-    // Offset: 0x1DCF1BC
+    // Offset: 0x1AA42E0
     void UpdateMtuLogic(int deltaTime);
     // LiteNetLib.ConnectRequestResult ProcessConnectRequest(LiteNetLib.NetConnectRequestPacket connRequest)
-    // Offset: 0x1DCA274
+    // Offset: 0x1A9F398
     LiteNetLib::ConnectRequestResult ProcessConnectRequest(LiteNetLib::NetConnectRequestPacket* connRequest);
     // System.Void ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x1DCA75C
+    // Offset: 0x1A9F880
     void ProcessPacket(LiteNetLib::NetPacket* packet);
     // private System.Void SendMerged()
-    // Offset: 0x1DCF454
+    // Offset: 0x1AA4578
     void SendMerged();
     // System.Void SendUserData(LiteNetLib.NetPacket packet)
-    // Offset: 0x1DCF4F8
+    // Offset: 0x1AA461C
     void SendUserData(LiteNetLib::NetPacket* packet);
     // public System.Void Flush()
-    // Offset: 0x1DCC1C0
+    // Offset: 0x1AA12E4
     void Flush();
     // System.Void Update(System.Int32 deltaTime)
-    // Offset: 0x1DC8EB4
+    // Offset: 0x1A9DFD8
     void Update(int deltaTime);
     // System.Void RecycleAndDeliver(LiteNetLib.NetPacket packet)
-    // Offset: 0x1DCF618
+    // Offset: 0x1AA473C
     void RecycleAndDeliver(LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.NetPeer
   #pragma pack(pop)

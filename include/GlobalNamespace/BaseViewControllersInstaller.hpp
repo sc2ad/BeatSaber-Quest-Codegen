@@ -35,12 +35,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BaseViewControllersInstaller
     BaseViewControllersInstaller(GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewControllerPrefab_ = {}) noexcept : simpleDialogPromptViewControllerPrefab{simpleDialogPromptViewControllerPrefab_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x1A75C90
+    // Offset: 0x1065AA0
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1A75D04
+    // Offset: 0x1065B14
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

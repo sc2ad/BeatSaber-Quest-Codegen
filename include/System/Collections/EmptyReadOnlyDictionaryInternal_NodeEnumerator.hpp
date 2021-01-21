@@ -35,7 +35,7 @@ namespace System::Collections {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1CB5798
+    // Offset: 0x168EB60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -44,7 +44,7 @@ namespace System::Collections {
       return THROW_UNLESS((::il2cpp_utils::New<EmptyReadOnlyDictionaryInternal::NodeEnumerator*, creationType>()));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1CB5DEC
+    // Offset: 0x168F1B4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -52,7 +52,7 @@ namespace System::Collections {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x1CB5DF4
+    // Offset: 0x168F1BC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -60,7 +60,7 @@ namespace System::Collections {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void Reset()
-    // Offset: 0x1CB5E74
+    // Offset: 0x168F23C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -68,7 +68,7 @@ namespace System::Collections {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public System.Object get_Key()
-    // Offset: 0x1CB5E78
+    // Offset: 0x168F240
     // Implemented from: System.Collections.IDictionaryEnumerator
     // Base method: System.Object IDictionaryEnumerator::get_Key()
     ::Il2CppObject* get_Key();
@@ -76,7 +76,7 @@ namespace System::Collections {
     // Maps to method: get_Key
     ::Il2CppObject* System_Collections_IDictionaryEnumerator_get_Key();
     // public System.Object get_Value()
-    // Offset: 0x1CB5EF8
+    // Offset: 0x168F2C0
     // Implemented from: System.Collections.IDictionaryEnumerator
     // Base method: System.Object IDictionaryEnumerator::get_Value()
     ::Il2CppObject* get_Value();
@@ -84,7 +84,7 @@ namespace System::Collections {
     // Maps to method: get_Value
     ::Il2CppObject* System_Collections_IDictionaryEnumerator_get_Value();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x1CB5F78
+    // Offset: 0x168F340
     // Implemented from: System.Collections.IDictionaryEnumerator
     // Base method: System.Collections.DictionaryEntry IDictionaryEnumerator::get_Entry()
     System::Collections::DictionaryEntry get_Entry();

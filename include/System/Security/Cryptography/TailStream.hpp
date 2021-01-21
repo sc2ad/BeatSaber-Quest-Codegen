@@ -53,75 +53,75 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: TailStream
     TailStream(::Array<uint8_t>* Buffer_ = {}, int BufferSize_ = {}, int BufferIndex_ = {}, bool BufferFull_ = {}) noexcept : Buffer{Buffer_}, BufferSize{BufferSize_}, BufferIndex{BufferIndex_}, BufferFull{BufferFull_} {}
     // public System.Void .ctor(System.Int32 bufferSize)
-    // Offset: 0x127D18C
+    // Offset: 0x14CC00C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TailStream* New_ctor(int bufferSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::TailStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TailStream*, creationType>(bufferSize)));
     }
     // public System.Void Clear()
-    // Offset: 0x127D22C
+    // Offset: 0x14CC0AC
     void Clear();
     // public System.Byte[] get_Buffer()
-    // Offset: 0x127D2EC
+    // Offset: 0x14CC16C
     ::Array<uint8_t>* get_Buffer();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x127D23C
+    // Offset: 0x14CC0BC
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Boolean get_CanRead()
-    // Offset: 0x127D36C
+    // Offset: 0x14CC1EC
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanRead()
     bool get_CanRead();
     // public override System.Boolean get_CanSeek()
-    // Offset: 0x127D374
+    // Offset: 0x14CC1F4
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanSeek()
     bool get_CanSeek();
     // public override System.Boolean get_CanWrite()
-    // Offset: 0x127D37C
+    // Offset: 0x14CC1FC
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanWrite()
     bool get_CanWrite();
     // public override System.Int64 get_Length()
-    // Offset: 0x127D38C
+    // Offset: 0x14CC20C
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Length()
     int64_t get_Length();
     // public override System.Int64 get_Position()
-    // Offset: 0x127D40C
+    // Offset: 0x14CC28C
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Position()
     int64_t get_Position();
     // public override System.Void set_Position(System.Int64 value)
-    // Offset: 0x127D48C
+    // Offset: 0x14CC30C
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
     // public override System.Void Flush()
-    // Offset: 0x127D50C
+    // Offset: 0x14CC38C
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Flush()
     void Flush();
     // public override System.Int64 Seek(System.Int64 offset, System.IO.SeekOrigin origin)
-    // Offset: 0x127D510
+    // Offset: 0x14CC390
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::Seek(System.Int64 offset, System.IO.SeekOrigin origin)
     int64_t Seek(int64_t offset, System::IO::SeekOrigin origin);
     // public override System.Void SetLength(System.Int64 value)
-    // Offset: 0x127D590
+    // Offset: 0x14CC410
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::SetLength(System.Int64 value)
     void SetLength(int64_t value);
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x127D610
+    // Offset: 0x14CC490
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>* buffer, int offset, int count);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x127D690
+    // Offset: 0x14CC510
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     void Write(::Array<uint8_t>* buffer, int offset, int count);

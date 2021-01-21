@@ -36,7 +36,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: UserReportID
     UserReportID(bool DidCancel_ = {}, uint64_t ID_ = {}) noexcept : DidCancel{DidCancel_}, ID{ID_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x11E09D8
+    // Offset: 0x13F17E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserReportID* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::UserReportID::.ctor");

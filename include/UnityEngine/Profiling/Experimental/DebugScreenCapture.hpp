@@ -19,30 +19,30 @@ namespace UnityEngine::Profiling::Experimental {
   // [] Offset: FFFFFFFF
   struct DebugScreenCapture/*, public System::ValueType*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD51070
-    // [DebuggerBrowsableAttribute] Offset: 0xD51070
+    // [DebuggerBrowsableAttribute] Offset: 0xCC2C1C
+    // [CompilerGeneratedAttribute] Offset: 0xCC2C1C
     // private Unity.Collections.NativeArray`1<System.Byte> <rawImageDataReference>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     Unity::Collections::NativeArray_1<uint8_t> rawImageDataReference;
-    // [CompilerGeneratedAttribute] Offset: 0xD510AC
-    // [DebuggerBrowsableAttribute] Offset: 0xD510AC
+    // [CompilerGeneratedAttribute] Offset: 0xCC2C58
+    // [DebuggerBrowsableAttribute] Offset: 0xCC2C58
     // private UnityEngine.TextureFormat <imageFormat>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     UnityEngine::TextureFormat imageFormat;
     // Field size check
     static_assert(sizeof(UnityEngine::TextureFormat) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xD510E8
-    // [CompilerGeneratedAttribute] Offset: 0xD510E8
+    // [DebuggerBrowsableAttribute] Offset: 0xCC2C94
+    // [CompilerGeneratedAttribute] Offset: 0xCC2C94
     // private System.Int32 <width>k__BackingField
     // Size: 0x4
     // Offset: 0x14
     int width;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD51124
-    // [DebuggerBrowsableAttribute] Offset: 0xD51124
+    // [DebuggerBrowsableAttribute] Offset: 0xCC2CD0
+    // [CompilerGeneratedAttribute] Offset: 0xCC2CD0
     // private System.Int32 <height>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -56,16 +56,16 @@ namespace UnityEngine::Profiling::Experimental {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void set_rawImageDataReference(Unity.Collections.NativeArray`1<System.Byte> value)
-    // Offset: 0xCA7530
+    // Offset: 0xE18314
     void set_rawImageDataReference(Unity::Collections::NativeArray_1<uint8_t> value);
     // public System.Void set_imageFormat(UnityEngine.TextureFormat value)
-    // Offset: 0xCA7538
+    // Offset: 0xE1831C
     void set_imageFormat(UnityEngine::TextureFormat value);
     // public System.Void set_width(System.Int32 value)
-    // Offset: 0xCA7540
+    // Offset: 0xE18324
     void set_width(int value);
     // public System.Void set_height(System.Int32 value)
-    // Offset: 0xCA7548
+    // Offset: 0xE1832C
     void set_height(int value);
   }; // UnityEngine.Profiling.Experimental.DebugScreenCapture
   // WARNING Not writing size check since size may be invalid!

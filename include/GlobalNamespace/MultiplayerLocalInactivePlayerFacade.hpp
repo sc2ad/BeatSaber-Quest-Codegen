@@ -50,42 +50,42 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerLocalInactivePlayerFacade::Factory
     class Factory;
-    // [InjectAttribute] Offset: 0xDC9530
+    // [InjectAttribute] Offset: 0xD3B72C
     // private readonly MultiplayerLocalInactivePlayerSongSyncController _inactivePlayerSongSyncController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* inactivePlayerSongSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC9540
+    // [InjectAttribute] Offset: 0xD3B73C
     // private readonly MultiplayerSpectatorController _spectatorController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerSpectatorController* spectatorController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerSpectatorController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC9550
+    // [InjectAttribute] Offset: 0xD3B74C
     // private readonly MultiplayerLocalInactivePlayerIntroAnimator _introAnimator
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerLocalInactivePlayerIntroAnimator* introAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalInactivePlayerIntroAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC9560
+    // [InjectAttribute] Offset: 0xD3B75C
     // private readonly MultiplayerLocalInactivePlayerOutroAnimator _outroAnimator
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* outroAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC9570
+    // [CompilerGeneratedAttribute] Offset: 0xD3B76C
     // private System.Action`1<LevelCompletionResults> playerDidFinishEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action_1<GlobalNamespace::LevelCompletionResults*>* playerDidFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::LevelCompletionResults*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC9580
+    // [CompilerGeneratedAttribute] Offset: 0xD3B77C
     // private System.Action`1<PlayerNetworkFailReason> playerNetworkDidFailedEvent
     // Size: 0x8
     // Offset: 0x40
@@ -109,51 +109,51 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public MultiplayerSpectatorController get_spectatorController()
-    // Offset: 0xF71498
+    // Offset: 0xFE3828
     GlobalNamespace::MultiplayerSpectatorController* get_spectatorController();
     // public MultiplayerLocalInactivePlayerIntroAnimator get_introAnimator()
-    // Offset: 0xF714A0
+    // Offset: 0xFE3830
     GlobalNamespace::MultiplayerLocalInactivePlayerIntroAnimator* get_introAnimator();
     // public MultiplayerLocalInactivePlayerOutroAnimator get_outroAnimator()
-    // Offset: 0xF714A8
+    // Offset: 0xFE3838
     GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* get_outroAnimator();
     // public IStartSeekSongController get_songController()
-    // Offset: 0xF71490
+    // Offset: 0xFE3820
     // Implemented from: IStartSeekSongControllerProvider
     // Base method: IStartSeekSongController IStartSeekSongControllerProvider::get_songController()
     GlobalNamespace::IStartSeekSongController* get_songController();
     // public System.Void add_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
-    // Offset: 0xF714B0
+    // Offset: 0xFE3840
     // Implemented from: IMultiplayerLevelEndActionsPublisher
     // Base method: System.Void IMultiplayerLevelEndActionsPublisher::add_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
     void add_playerDidFinishEvent(System::Action_1<GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void remove_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
-    // Offset: 0xF71554
+    // Offset: 0xFE38E4
     // Implemented from: IMultiplayerLevelEndActionsPublisher
     // Base method: System.Void IMultiplayerLevelEndActionsPublisher::remove_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
     void remove_playerDidFinishEvent(System::Action_1<GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void add_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0xF715F8
+    // Offset: 0xFE3988
     // Implemented from: IMultiplayerLevelEndActionsPublisher
     // Base method: System.Void IMultiplayerLevelEndActionsPublisher::add_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
     void add_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void remove_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0xF7169C
+    // Offset: 0xFE3A2C
     // Implemented from: IMultiplayerLevelEndActionsPublisher
     // Base method: System.Void IMultiplayerLevelEndActionsPublisher::remove_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
     void remove_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void ReportPlayerDidFinish(LevelCompletionResults results)
-    // Offset: 0xF71740
+    // Offset: 0xFE3AD0
     // Implemented from: IMultiplayerLevelEndActionsListener
     // Base method: System.Void IMultiplayerLevelEndActionsListener::ReportPlayerDidFinish(LevelCompletionResults results)
     void ReportPlayerDidFinish(GlobalNamespace::LevelCompletionResults* results);
     // public System.Void ReportPlayerNetworkDidFailed(PlayerNetworkFailReason failReason)
-    // Offset: 0xF717B4
+    // Offset: 0xFE3B44
     // Implemented from: IMultiplayerLevelEndActionsListener
     // Base method: System.Void IMultiplayerLevelEndActionsListener::ReportPlayerNetworkDidFailed(PlayerNetworkFailReason failReason)
     void ReportPlayerNetworkDidFailed(GlobalNamespace::PlayerNetworkFailReason failReason);
     // public System.Void .ctor()
-    // Offset: 0xF71828
+    // Offset: 0xFE3BB8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

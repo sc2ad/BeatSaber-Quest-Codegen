@@ -48,25 +48,25 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);
     }
     // public BeatmapSaveData/BeatmapEventType get_type()
-    // Offset: 0x1A2D4B0
+    // Offset: 0xF5E1D0
     GlobalNamespace::BeatmapSaveData::BeatmapEventType get_type();
     // public System.Int32 get_value()
-    // Offset: 0x1A2D4B8
+    // Offset: 0xF5E1D8
     int get_value();
     // public System.Void .ctor(System.Single time, BeatmapSaveData/BeatmapEventType type, System.Int32 value)
-    // Offset: 0x1A2D4C0
+    // Offset: 0xF5E1E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::EventData* New_ctor(float time, GlobalNamespace::BeatmapSaveData::BeatmapEventType type, int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::EventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::EventData*, creationType>(time, type, value)));
     }
     // public System.Single get_time()
-    // Offset: 0x1A2D4A8
+    // Offset: 0xF5E1C8
     // Implemented from: BeatmapSaveData/ITime
     // Base method: System.Single ITime::get_time()
     float get_time();
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0x1A2D508
+    // Offset: 0xF5E228
     // Implemented from: BeatmapSaveData/ITime
     // Base method: System.Void ITime::MoveTime(System.Single offset)
     void MoveTime(float offset);

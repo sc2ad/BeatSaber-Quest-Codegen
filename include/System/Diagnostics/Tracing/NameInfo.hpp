@@ -53,26 +53,26 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static private System.Int32 lastIdentity
     static void _set_lastIdentity(int value);
     // static System.Void ReserveEventIDsBelow(System.Int32 eventId)
-    // Offset: 0x111EE8C
+    // Offset: 0x12A5CC8
     static void ReserveEventIDsBelow(int eventId);
     // public System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, System.Int32 typeMetadataSize)
-    // Offset: 0x111EF64
+    // Offset: 0x12A5DA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameInfo* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags, int typeMetadataSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Tracing::NameInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameInfo*, creationType>(name, tags, typeMetadataSize)));
     }
     // public System.Int32 Compare(System.Diagnostics.Tracing.NameInfo other)
-    // Offset: 0x111F1F8
+    // Offset: 0x12A6034
     int Compare(System::Diagnostics::Tracing::NameInfo* other);
     // public System.Int32 Compare(System.Collections.Generic.KeyValuePair`2<System.String,System.Diagnostics.Tracing.EventTags> key)
-    // Offset: 0x111F30C
+    // Offset: 0x12A6148
     int Compare(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Diagnostics::Tracing::EventTags> key);
     // private System.Int32 Compare(System.String otherName, System.Diagnostics.Tracing.EventTags otherTags)
-    // Offset: 0x111F218
+    // Offset: 0x12A6054
     int Compare(::Il2CppString* otherName, System::Diagnostics::Tracing::EventTags otherTags);
     // static private System.Void .cctor()
-    // Offset: 0x111F368
+    // Offset: 0x12A61A4
     static void _cctor();
   }; // System.Diagnostics.Tracing.NameInfo
   // WARNING Not writing size check since size may be invalid!

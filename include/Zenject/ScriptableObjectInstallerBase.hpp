@@ -28,7 +28,7 @@ namespace Zenject {
   // [] Offset: FFFFFFFF
   class ScriptableObjectInstallerBase : public UnityEngine::ScriptableObject/*, public Zenject::IInstaller*/ {
     public:
-    // [InjectAttribute] Offset: 0xD948B8
+    // [InjectAttribute] Offset: 0xD066EC
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x18
@@ -44,20 +44,20 @@ namespace Zenject {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x135264C
+    // Offset: 0x15BEB2C
     Zenject::DiContainer* get_Container();
     // private System.Boolean Zenject.IInstaller.get_IsEnabled()
-    // Offset: 0x1352654
+    // Offset: 0x15BEB34
     // Implemented from: Zenject.IInstaller
     // Base method: System.Boolean IInstaller::get_IsEnabled()
     bool Zenject_IInstaller_get_IsEnabled();
     // public System.Void InstallBindings()
-    // Offset: 0x135265C
+    // Offset: 0x15BEB3C
     // Implemented from: Zenject.IInstaller
     // Base method: System.Void IInstaller::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1352644
+    // Offset: 0x15BEB24
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

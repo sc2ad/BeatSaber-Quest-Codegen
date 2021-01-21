@@ -48,37 +48,37 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(System.Int32 numBytes)
-    // Offset: 0x12320E0
+    // Offset: 0x144EDDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRNativeBuffer* New_ctor(int numBytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRNativeBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRNativeBuffer*, creationType>(numBytes)));
     }
     // public System.Void Reset(System.Int32 numBytes)
-    // Offset: 0x1232290
+    // Offset: 0x144EF8C
     void Reset(int numBytes);
     // public System.Int32 GetCapacity()
-    // Offset: 0x1232294
+    // Offset: 0x144EF90
     int GetCapacity();
     // public System.IntPtr GetPointer(System.Int32 byteOffset)
-    // Offset: 0x123229C
+    // Offset: 0x144EF98
     System::IntPtr GetPointer(int byteOffset);
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x123225C
+    // Offset: 0x144EF58
     void Dispose(bool disposing);
     // private System.Void Reallocate(System.Int32 numBytes)
-    // Offset: 0x1232144
+    // Offset: 0x144EE40
     void Reallocate(int numBytes);
     // private System.Void Release()
-    // Offset: 0x12323B0
+    // Offset: 0x144F0AC
     void Release();
     // protected override System.Void Finalize()
-    // Offset: 0x12321E0
+    // Offset: 0x144EEDC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void Dispose()
-    // Offset: 0x1232330
+    // Offset: 0x144F02C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

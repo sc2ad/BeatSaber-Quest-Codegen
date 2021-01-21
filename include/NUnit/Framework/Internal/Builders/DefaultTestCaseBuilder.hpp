@@ -61,26 +61,26 @@ namespace NUnit::Framework::Internal::Builders {
       return nunitTestCaseBuilder;
     }
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method)
-    // Offset: 0x13E9FD8
+    // Offset: 0x16A6AF8
     bool CanBuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method);
     // private NUnit.Framework.Internal.Test BuildParameterizedMethodSuite(NUnit.Framework.Interfaces.IMethodInfo method, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestMethod> tests)
-    // Offset: 0x13EA918
+    // Offset: 0x16A7438
     NUnit::Framework::Internal::Test* BuildParameterizedMethodSuite(NUnit::Framework::Interfaces::IMethodInfo* method, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestMethod*>* tests);
     // private NUnit.Framework.Internal.Test BuildSingleTestMethod(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
-    // Offset: 0x13EA798
+    // Offset: 0x16A72B8
     NUnit::Framework::Internal::Test* BuildSingleTestMethod(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* suite);
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
-    // Offset: 0x13EA138
+    // Offset: 0x16A6C58
     // Implemented from: NUnit.Framework.Interfaces.ITestCaseBuilder
     // Base method: System.Boolean ITestCaseBuilder::CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
     bool CanBuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* parentSuite);
     // public NUnit.Framework.Internal.Test BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
-    // Offset: 0x13EA13C
+    // Offset: 0x16A6C5C
     // Implemented from: NUnit.Framework.Interfaces.ITestCaseBuilder
     // Base method: NUnit.Framework.Internal.Test ITestCaseBuilder::BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
     NUnit::Framework::Internal::Test* BuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* parentSuite);
     // public System.Void .ctor()
-    // Offset: 0x13EAC2C
+    // Offset: 0x16A774C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

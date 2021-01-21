@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     HMUI::SimpleTextDropdown* simpleTextDropdown;
     // Field size check
     static_assert(sizeof(HMUI::SimpleTextDropdown*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDCF000
+    // [CompilerGeneratedAttribute] Offset: 0xD412BC
     // private System.Action`1<System.Int32> didSelectCellWithIdxEvent
     // Size: 0x8
     // Offset: 0x20
@@ -72,34 +72,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xFE831C
+    // Offset: 0x10F1774
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xFE83C0
+    // Offset: 0x10F1818
     void remove_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<System.Single,System.String>> get_noteJumpStartBeatOffsetData()
-    // Offset: 0xFE8464
+    // Offset: 0x10F18BC
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>* get_noteJumpStartBeatOffsetData();
     // protected System.Void Start()
-    // Offset: 0xFE85BC
+    // Offset: 0x10F1A14
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFE8744
+    // Offset: 0x10F1B9C
     void OnDestroy();
     // public System.Single GetSelectedOffset()
-    // Offset: 0xFE8820
+    // Offset: 0x10F1C78
     float GetSelectedOffset();
     // public System.Void SelectCellWithOffset(System.Single offset)
-    // Offset: 0xFE88F4
+    // Offset: 0x10F1D4C
     void SelectCellWithOffset(float offset);
     // private System.Int32 GetIdxForOffset(System.Single offset)
-    // Offset: 0xFE8930
+    // Offset: 0x10F1D88
     int GetIdxForOffset(float offset);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0xFE8B84
+    // Offset: 0x10F1FDC
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0xFE8BF8
+    // Offset: 0x10F2050
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

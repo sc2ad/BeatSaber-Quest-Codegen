@@ -47,22 +47,22 @@ namespace System::Net {
     // Creating value type constructor for type: SPKey
     SPKey(System::Uri* uri_ = {}, System::Uri* proxy_ = {}, bool use_connect_ = {}) noexcept : uri{uri_}, proxy{proxy_}, use_connect{use_connect_} {}
     // public System.Void .ctor(System.Uri uri, System.Uri proxy, System.Boolean use_connect)
-    // Offset: 0x11A4FDC
+    // Offset: 0x135EE28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServicePointManager::SPKey* New_ctor(System::Uri* uri, System::Uri* proxy, bool use_connect) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServicePointManager::SPKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServicePointManager::SPKey*, creationType>(uri, proxy, use_connect)));
     }
     // public System.Boolean get_UsesProxy()
-    // Offset: 0x11A53D4
+    // Offset: 0x135F220
     bool get_UsesProxy();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x11A5444
+    // Offset: 0x135F290
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x11A5528
+    // Offset: 0x135F374
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

@@ -108,28 +108,28 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerLevelLoader::MultiplayerBeatmapLoaderState), 0 + sizeof(int)> __GlobalNamespace_MultiplayerLevelLoader_MultiplayerBeatmapLoaderStateSizeCheck;
     static_assert(sizeof(MultiplayerLevelLoader::MultiplayerBeatmapLoaderState) == 0x4);
-    // [InjectAttribute] Offset: 0xDCECD0
+    // [InjectAttribute] Offset: 0xD40F8C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCECE0
+    // [InjectAttribute] Offset: 0xD40F9C
     // private readonly BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelsModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDCECF0
+    // [CompilerGeneratedAttribute] Offset: 0xD40FAC
     // private System.Action stillDownloadingSongEvent
     // Size: 0x8
     // Offset: 0x20
     System::Action* stillDownloadingSongEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDCED00
+    // [CompilerGeneratedAttribute] Offset: 0xD40FBC
     // private System.Action`5<IPreviewBeatmapLevel,BeatmapDifficulty,BeatmapCharacteristicSO,IDifficultyBeatmap,GameplayModifiers> countdownFinishedEvent
     // Size: 0x8
     // Offset: 0x28
@@ -205,36 +205,36 @@ namespace GlobalNamespace {
       return *reinterpret_cast<Zenject::ITickable*>(this);
     }
     // public System.Void add_stillDownloadingSongEvent(System.Action value)
-    // Offset: 0xFB70C4
+    // Offset: 0x1027768
     void add_stillDownloadingSongEvent(System::Action* value);
     // public System.Void remove_stillDownloadingSongEvent(System.Action value)
-    // Offset: 0xFB7168
+    // Offset: 0x102780C
     void remove_stillDownloadingSongEvent(System::Action* value);
     // public System.Void add_countdownFinishedEvent(System.Action`5<IPreviewBeatmapLevel,BeatmapDifficulty,BeatmapCharacteristicSO,IDifficultyBeatmap,GameplayModifiers> value)
-    // Offset: 0xFB720C
+    // Offset: 0x10278B0
     void add_countdownFinishedEvent(System::Action_5<GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_countdownFinishedEvent(System.Action`5<IPreviewBeatmapLevel,BeatmapDifficulty,BeatmapCharacteristicSO,IDifficultyBeatmap,GameplayModifiers> value)
-    // Offset: 0xFB72B0
+    // Offset: 0x1027954
     void remove_countdownFinishedEvent(System::Action_5<GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void LoadLevel(BeatmapIdentifierNetSerializable beatmapId, GameplayModifiers gameplayModifiers, System.Single initialStartTime)
-    // Offset: 0xFB7354
+    // Offset: 0x10279F8
     void LoadLevel(GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::GameplayModifiers* gameplayModifiers, float initialStartTime);
     // public System.Void SetNewStartTime(System.Single newStartTime)
-    // Offset: 0xFB7584
+    // Offset: 0x1027C28
     void SetNewStartTime(float newStartTime);
     // public System.Void ClearLoading()
-    // Offset: 0xFB758C
+    // Offset: 0x1027C30
     void ClearLoading();
     // private System.Boolean <LoadLevel>b__19_0(PreviewDifficultyBeatmapSet set)
-    // Offset: 0xFB78C8
+    // Offset: 0x1027F6C
     bool $LoadLevel$b__19_0(GlobalNamespace::PreviewDifficultyBeatmapSet* set);
     // public System.Void Tick()
-    // Offset: 0xFB7634
+    // Offset: 0x1027CD8
     // Implemented from: Zenject.ITickable
     // Base method: System.Void ITickable::Tick()
     void Tick();
     // public System.Void .ctor()
-    // Offset: 0xFB78C0
+    // Offset: 0x1027F64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

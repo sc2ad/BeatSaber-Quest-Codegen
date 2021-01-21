@@ -41,15 +41,15 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k);
     // protected Org.BouncyCastle.Math.EC.ECPoint CheckResult(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x17838EC
+    // Offset: 0x1BBB30C
     Org::BouncyCastle::Math::EC::ECPoint* CheckResult(Org::BouncyCastle::Math::EC::ECPoint* p);
     // public Org.BouncyCastle.Math.EC.ECPoint Multiply(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x178380C
+    // Offset: 0x1BBB22C
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECMultiplier::Multiply(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
     Org::BouncyCastle::Math::EC::ECPoint* Multiply(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k);
     // protected System.Void .ctor()
-    // Offset: 0x17838F8
+    // Offset: 0x1BBB318
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

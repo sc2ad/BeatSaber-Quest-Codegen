@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PS4NetworkPlayerModel
     PS4NetworkPlayerModel() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0xF03098
+    // Offset: 0xF1F518
     // Implemented from: PlatformNetworkPlayerModel
     // Base method: System.Void PlatformNetworkPlayerModel::.ctor()
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()

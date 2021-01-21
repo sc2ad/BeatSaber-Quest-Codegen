@@ -74,7 +74,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, filePath, serializableObject);
     }
     // public System.Void .ctor()
-    // Offset: 0x103D45C
+    // Offset: 0x1116F68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

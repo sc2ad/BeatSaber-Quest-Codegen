@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songBPM and: beatmapObjectSpawnControllerPlayerHeightSetterPrefab
     char __padding1[0x4] = {};
-    // [SpaceAttribute] Offset: 0xDCC328
+    // [SpaceAttribute] Offset: 0xD3E584
     // private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
     // Size: 0x8
     // Offset: 0x30
@@ -71,12 +71,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TutorialInstaller
     TutorialInstaller(UnityEngine::AudioClip* audioClip_ = {}, float songBPM_ = {}, GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* beatmapObjectSpawnControllerPlayerHeightSetterPrefab_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab_ = {}, GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller_ = {}) noexcept : audioClip{audioClip_}, songBPM{songBPM_}, beatmapObjectSpawnControllerPlayerHeightSetterPrefab{beatmapObjectSpawnControllerPlayerHeightSetterPrefab_}, playerHeightDetectorPrefab{playerHeightDetectorPrefab_}, effectPoolsManualInstaller{effectPoolsManualInstaller_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xFF13EC
+    // Offset: 0xF49E78
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xFF1BC0
+    // Offset: 0xF4A64C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

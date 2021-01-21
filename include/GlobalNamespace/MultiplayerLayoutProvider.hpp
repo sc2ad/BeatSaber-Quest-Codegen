@@ -27,21 +27,21 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerLayoutProvider : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDCA174
+    // [CompilerGeneratedAttribute] Offset: 0xD3C370
     // private MultiplayerPlayerLayout <layout>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     GlobalNamespace::MultiplayerPlayerLayout layout;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayerLayout) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDCA184
+    // [CompilerGeneratedAttribute] Offset: 0xD3C380
     // private System.Int32 <activePlayerSpotsCount>k__BackingField
     // Size: 0x4
     // Offset: 0x14
     int activePlayerSpotsCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDCA194
+    // [CompilerGeneratedAttribute] Offset: 0xD3C390
     // private System.Action`2<MultiplayerPlayerLayout,System.Int32> playersLayoutWasCalculatedEvent
     // Size: 0x8
     // Offset: 0x18
@@ -51,28 +51,28 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerLayoutProvider
     MultiplayerLayoutProvider(GlobalNamespace::MultiplayerPlayerLayout layout_ = {}, int activePlayerSpotsCount_ = {}, System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* playersLayoutWasCalculatedEvent_ = {}) noexcept : layout{layout_}, activePlayerSpotsCount{activePlayerSpotsCount_}, playersLayoutWasCalculatedEvent{playersLayoutWasCalculatedEvent_} {}
     // public MultiplayerPlayerLayout get_layout()
-    // Offset: 0xFB504C
+    // Offset: 0x10256F0
     GlobalNamespace::MultiplayerPlayerLayout get_layout();
     // private System.Void set_layout(MultiplayerPlayerLayout value)
-    // Offset: 0xFB5054
+    // Offset: 0x10256F8
     void set_layout(GlobalNamespace::MultiplayerPlayerLayout value);
     // public System.Int32 get_activePlayerSpotsCount()
-    // Offset: 0xFB505C
+    // Offset: 0x1025700
     int get_activePlayerSpotsCount();
     // private System.Void set_activePlayerSpotsCount(System.Int32 value)
-    // Offset: 0xFB5064
+    // Offset: 0x1025708
     void set_activePlayerSpotsCount(int value);
     // public System.Void add_playersLayoutWasCalculatedEvent(System.Action`2<MultiplayerPlayerLayout,System.Int32> value)
-    // Offset: 0xFA77E4
+    // Offset: 0x1017260
     void add_playersLayoutWasCalculatedEvent(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* value);
     // public System.Void remove_playersLayoutWasCalculatedEvent(System.Action`2<MultiplayerPlayerLayout,System.Int32> value)
-    // Offset: 0xFA7924
+    // Offset: 0x10173A0
     void remove_playersLayoutWasCalculatedEvent(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* value);
     // public MultiplayerPlayerLayout CalculateLayout(System.Int32 activePlayersCount)
-    // Offset: 0xFB506C
+    // Offset: 0x1025710
     GlobalNamespace::MultiplayerPlayerLayout CalculateLayout(int activePlayersCount);
     // public System.Void .ctor()
-    // Offset: 0xFB5108
+    // Offset: 0x10257AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

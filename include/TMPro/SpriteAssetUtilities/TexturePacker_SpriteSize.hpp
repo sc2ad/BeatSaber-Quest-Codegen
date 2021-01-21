@@ -37,7 +37,7 @@ namespace TMPro::SpriteAssetUtilities {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public override System.String ToString()
-    // Offset: 0xC92B84
+    // Offset: 0xDF320C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

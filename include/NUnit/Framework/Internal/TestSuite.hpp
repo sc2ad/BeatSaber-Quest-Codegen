@@ -56,14 +56,14 @@ namespace NUnit::Framework::Internal {
     System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITest*>* tests;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITest*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDB33FC
+    // [CompilerGeneratedAttribute] Offset: 0xD251F8
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x80
     ::Array<::Il2CppObject*>* Arguments;
     // Field size check
     static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDB340C
+    // [CompilerGeneratedAttribute] Offset: 0xD25208
     // private System.Boolean <MaintainTestOrder>k__BackingField
     // Size: 0x1
     // Offset: 0x88
@@ -73,28 +73,28 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: TestSuite
     TestSuite(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITest*>* tests_ = {}, ::Array<::Il2CppObject*>* Arguments_ = {}, bool MaintainTestOrder_ = {}) noexcept : tests{tests_}, Arguments{Arguments_}, MaintainTestOrder{MaintainTestOrder_} {}
     // public System.Void Sort()
-    // Offset: 0x1960DD4
+    // Offset: 0x2229AC8
     void Sort();
     // public System.Void Add(NUnit.Framework.Internal.Test test)
-    // Offset: 0x19610E0
+    // Offset: 0x2229DD4
     void Add(NUnit::Framework::Internal::Test* test);
     // public System.Object[] get_Arguments()
-    // Offset: 0x1961440
+    // Offset: 0x222A134
     ::Array<::Il2CppObject*>* get_Arguments();
     // System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x1961448
+    // Offset: 0x222A13C
     void set_Arguments(::Array<::Il2CppObject*>* value);
     // protected System.Boolean get_MaintainTestOrder()
-    // Offset: 0x19610D8
+    // Offset: 0x2229DCC
     bool get_MaintainTestOrder();
     // protected System.Void set_MaintainTestOrder(System.Boolean value)
-    // Offset: 0x1961450
+    // Offset: 0x222A144
     void set_MaintainTestOrder(bool value);
     // protected System.Void CheckSetUpTearDownMethods(System.Type attrType)
-    // Offset: 0x195CD90
+    // Offset: 0x2225A84
     void CheckSetUpTearDownMethods(System::Type* attrType);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x195B90C
+    // Offset: 0x2224600
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(System.String name)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -103,7 +103,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestSuite*, creationType>(name)));
     }
     // public System.Void .ctor(System.String parentSuiteName, System.String name)
-    // Offset: 0x1958734
+    // Offset: 0x2221428
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(System.String parentSuiteName, System.String name)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -112,7 +112,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestSuite*, creationType>(parentSuiteName, name)));
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
-    // Offset: 0x195CCC4
+    // Offset: 0x22259B8
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -121,32 +121,32 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestSuite*, creationType>(fixtureType)));
     }
     // public override System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITest> get_Tests()
-    // Offset: 0x196115C
+    // Offset: 0x2229E50
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITest> Test::get_Tests()
     System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITest*>* get_Tests();
     // public override System.Int32 get_TestCaseCount()
-    // Offset: 0x1961164
+    // Offset: 0x2229E58
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Int32 Test::get_TestCaseCount()
     int get_TestCaseCount();
     // public override NUnit.Framework.Internal.TestResult MakeTestResult()
-    // Offset: 0x196145C
+    // Offset: 0x222A150
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: NUnit.Framework.Internal.TestResult Test::MakeTestResult()
     NUnit::Framework::Internal::TestResult* MakeTestResult();
     // public override System.Boolean get_HasChildren()
-    // Offset: 0x1961568
+    // Offset: 0x222A25C
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Boolean Test::get_HasChildren()
     bool get_HasChildren();
     // public override System.String get_XmlElementName()
-    // Offset: 0x19615C0
+    // Offset: 0x222A2B4
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_XmlElementName()
     ::Il2CppString* get_XmlElementName();
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x1961608
+    // Offset: 0x222A2FC
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: NUnit.Framework.Interfaces.TNode Test::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);

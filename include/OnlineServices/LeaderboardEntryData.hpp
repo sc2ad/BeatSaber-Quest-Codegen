@@ -57,14 +57,14 @@ namespace OnlineServices {
     // Creating value type constructor for type: LeaderboardEntryData
     LeaderboardEntryData(int score_ = {}, int rank_ = {}, ::Il2CppString* displayName_ = {}, ::Il2CppString* playerId_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : score{score_}, rank{rank_}, displayName{displayName_}, playerId{playerId_}, gameplayModifiers{gameplayModifiers_} {}
     // public System.Void .ctor(System.Int32 score, System.Int32 rank, System.String displayName, System.String playerId, GameplayModifiers gameplayModifiers)
-    // Offset: 0xEFDF68
+    // Offset: 0xF1A3E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntryData* New_ctor(int score, int rank, ::Il2CppString* displayName, ::Il2CppString* playerId, GlobalNamespace::GameplayModifiers* gameplayModifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::LeaderboardEntryData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntryData*, creationType>(score, rank, displayName, playerId, gameplayModifiers)));
     }
     // public override System.String ToString()
-    // Offset: 0xEFDFE0
+    // Offset: 0xF1A460
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

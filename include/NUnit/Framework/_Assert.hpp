@@ -28,7 +28,7 @@ namespace NUnit::Framework {
     // Creating value type constructor for type: _Assert
     _Assert() noexcept {}
     // static public System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
-    // Offset: 0x13D9CD8
+    // Offset: 0x16967F8
     static void IsTrue(bool condition, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
     static void IsTrue(bool condition, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -38,7 +38,7 @@ namespace NUnit::Framework {
       IsTrue(condition, message, {args...});
     }
     // static public System.Void IsTrue(System.Boolean condition)
-    // Offset: 0x13D9D50
+    // Offset: 0x1696870
     static void IsTrue(bool condition);
     // static public System.Void That(TActual actual, NUnit.Framework.Constraints.IResolveConstraint expression, System.String message, params System.Object[] args)
     // Offset: 0xFFFFFFFF
@@ -60,10 +60,10 @@ namespace NUnit::Framework {
       That(actual, expression, message, {args...});
     }
     // static public System.Void AreEqual(System.Object expected, System.Object actual)
-    // Offset: 0x13D9DB8
+    // Offset: 0x16968D8
     static void AreEqual(::Il2CppObject* expected, ::Il2CppObject* actual);
     // static private System.Void IncrementAssertCount()
-    // Offset: 0x13D9E2C
+    // Offset: 0x169694C
     static void IncrementAssertCount();
   }; // NUnit.Framework.Assert
   #pragma pack(pop)

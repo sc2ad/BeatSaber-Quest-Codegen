@@ -29,7 +29,7 @@ namespace Zenject {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   class MonoInstallerBase : public UnityEngine::MonoBehaviour/*, public Zenject::IInstaller*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD948A8
+    // [CompilerGeneratedAttribute] Offset: 0xD066DC
     // private Zenject.DiContainer <Container>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -45,16 +45,16 @@ namespace Zenject {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x13485B4
+    // Offset: 0x15B4A94
     Zenject::DiContainer* get_Container();
     // protected System.Void set_Container(Zenject.DiContainer value)
-    // Offset: 0x13485BC
+    // Offset: 0x15B4A9C
     void set_Container(Zenject::DiContainer* value);
     // public System.Void Start()
-    // Offset: 0x13485CC
+    // Offset: 0x15B4AAC
     void Start();
     // public System.Boolean get_IsEnabled()
-    // Offset: 0x13485C4
+    // Offset: 0x15B4AA4
     // Implemented from: Zenject.IInstaller
     // Base method: System.Boolean IInstaller::get_IsEnabled()
     bool get_IsEnabled();
@@ -62,12 +62,12 @@ namespace Zenject {
     // Maps to method: get_IsEnabled
     bool Zenject_IInstaller_get_IsEnabled();
     // public System.Void InstallBindings()
-    // Offset: 0x13485D0
+    // Offset: 0x15B4AB0
     // Implemented from: Zenject.IInstaller
     // Base method: System.Void IInstaller::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x13485AC
+    // Offset: 0x15B4A8C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -45,10 +45,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CenterStageLobbyViewController
     CenterStageLobbyViewController(GlobalNamespace::BeatmapSelectionView* beatmapSelectionView_ = {}, GlobalNamespace::ModifiersSelectionView* modifiersSelectionView_ = {}) noexcept : beatmapSelectionView{beatmapSelectionView_}, modifiersSelectionView{modifiersSelectionView_} {}
     // public System.Void SetLevelGameplaySetupData(ILevelGameplaySetupData levelGameplaySetupData)
-    // Offset: 0x1A339DC
+    // Offset: 0xF648F0
     void SetLevelGameplaySetupData(GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
     // public System.Void .ctor()
-    // Offset: 0x1A33C10
+    // Offset: 0xF64B24
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -41,12 +41,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BloomPrePassBackgroundGradient
     BloomPrePassBackgroundGradient(UnityEngine::Gradient* gradient_ = {}) noexcept : gradient{gradient_} {}
     // protected override System.Void UpdatePixels(Unity.Collections.NativeArray`1<UnityEngine.Color32> pixels, System.Int32 numberOfPixels)
-    // Offset: 0x1875918
+    // Offset: 0x1D992C0
     // Implemented from: BloomPrePassBackgroundTextureGradient
     // Base method: System.Void BloomPrePassBackgroundTextureGradient::UpdatePixels(Unity.Collections.NativeArray`1<UnityEngine.Color32> pixels, System.Int32 numberOfPixels)
     void UpdatePixels(Unity::Collections::NativeArray_1<UnityEngine::Color32> pixels, int numberOfPixels);
     // public System.Void .ctor()
-    // Offset: 0x1875990
+    // Offset: 0x1D99338
     // Implemented from: BloomPrePassBackgroundTextureGradient
     // Base method: System.Void BloomPrePassBackgroundTextureGradient::.ctor()
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()

@@ -43,7 +43,7 @@ namespace System::Xml {
     // Set static field: static public readonly System.Threading.Tasks.Task`1<System.Int32> DoneTaskZero
     static void _set_DoneTaskZero(System::Threading::Tasks::Task_1<int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14DE74C
+    // Offset: 0x1862AA0
     static void _cctor();
   }; // System.Xml.AsyncHelper
   #pragma pack(pop)

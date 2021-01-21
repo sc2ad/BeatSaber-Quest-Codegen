@@ -32,14 +32,14 @@ namespace System::Net {
   // [] Offset: FFFFFFFF
   class WebConnectionGroup::ConnectionState : public ::Il2CppObject/*, public System::Net::IWebConnectionState*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD460D4
+    // [CompilerGeneratedAttribute] Offset: 0xCB7C88
     // private System.Net.WebConnection <Connection>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     System::Net::WebConnection* Connection;
     // Field size check
     static_assert(sizeof(System::Net::WebConnection*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD460E4
+    // [CompilerGeneratedAttribute] Offset: 0xCB7C98
     // private System.Net.WebConnectionGroup <Group>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -67,42 +67,42 @@ namespace System::Net {
       return *reinterpret_cast<System::Net::IWebConnectionState*>(this);
     }
     // public System.Net.WebConnection get_Connection()
-    // Offset: 0x122040C
+    // Offset: 0x143D108
     System::Net::WebConnection* get_Connection();
     // private System.Void set_Connection(System.Net.WebConnection value)
-    // Offset: 0x1220414
+    // Offset: 0x143D110
     void set_Connection(System::Net::WebConnection* value);
     // private System.Void set_Group(System.Net.WebConnectionGroup value)
-    // Offset: 0x1220424
+    // Offset: 0x143D120
     void set_Group(System::Net::WebConnectionGroup* value);
     // public System.Net.ServicePoint get_ServicePoint()
-    // Offset: 0x122042C
+    // Offset: 0x143D128
     System::Net::ServicePoint* get_ServicePoint();
     // public System.Boolean get_Busy()
-    // Offset: 0x1220448
+    // Offset: 0x143D144
     bool get_Busy();
     // public System.DateTime get_IdleSince()
-    // Offset: 0x1220450
+    // Offset: 0x143D14C
     System::DateTime get_IdleSince();
     // public System.Void .ctor(System.Net.WebConnectionGroup group)
-    // Offset: 0x121FE40
+    // Offset: 0x143CB3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionGroup::ConnectionState* New_ctor(System::Net::WebConnectionGroup* group) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnectionGroup::ConnectionState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionGroup::ConnectionState*, creationType>(group)));
     }
     // public System.Net.WebConnectionGroup get_Group()
-    // Offset: 0x122041C
+    // Offset: 0x143D118
     // Implemented from: System.Net.IWebConnectionState
     // Base method: System.Net.WebConnectionGroup IWebConnectionState::get_Group()
     System::Net::WebConnectionGroup* get_Group();
     // public System.Boolean TrySetBusy()
-    // Offset: 0x1220458
+    // Offset: 0x143D154
     // Implemented from: System.Net.IWebConnectionState
     // Base method: System.Boolean IWebConnectionState::TrySetBusy()
     bool TrySetBusy();
     // public System.Void SetIdle()
-    // Offset: 0x12205FC
+    // Offset: 0x143D2F8
     // Implemented from: System.Net.IWebConnectionState
     // Base method: System.Void IWebConnectionState::SetIdle()
     void SetIdle();

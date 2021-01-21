@@ -90,14 +90,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* backToLobbyButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD0E28
+    // [InjectAttribute] Offset: 0xD43124
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x98
     GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDD0E38
+    // [CompilerGeneratedAttribute] Offset: 0xD43134
     // private System.Action`1<MultiplayerResultsViewController> backToLobbyPressedEvent
     // Size: 0x8
     // Offset: 0xA0
@@ -107,24 +107,24 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerResultsViewController
     MultiplayerResultsViewController(UnityEngine::GameObject* levelClearedGO_ = {}, UnityEngine::GameObject* levelFailedGO_ = {}, GlobalNamespace::LevelBar* levelBar_ = {}, GlobalNamespace::ResultsTableView* resultsTableView_ = {}, UnityEngine::UI::Button* backToLobbyButton_ = {}, GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel_ = {}, System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* backToLobbyPressedEvent_ = {}) noexcept : levelClearedGO{levelClearedGO_}, levelFailedGO{levelFailedGO_}, levelBar{levelBar_}, resultsTableView{resultsTableView_}, backToLobbyButton{backToLobbyButton_}, lobbyStateDataModel{lobbyStateDataModel_}, backToLobbyPressedEvent{backToLobbyPressedEvent_} {}
     // public System.Void add_backToLobbyPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0xF7EB78
+    // Offset: 0xF7EA74
     void add_backToLobbyPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void remove_backToLobbyPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0xF7EC1C
+    // Offset: 0xF7EB18
     void remove_backToLobbyPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void Init(LevelCompletionResults localPlayerLevelCompletionResults, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> otherPlayersLevelCompletionResults, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0xF7ECC0
+    // Offset: 0xF7EBBC
     void Init(GlobalNamespace::LevelCompletionResults* localPlayerLevelCompletionResults, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* otherPlayersLevelCompletionResults, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void BackToLobbyPressed()
-    // Offset: 0xF7F108
+    // Offset: 0xF7F004
     void BackToLobbyPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF7F05C
+    // Offset: 0xF7EF58
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF7F16C
+    // Offset: 0xF7F068
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

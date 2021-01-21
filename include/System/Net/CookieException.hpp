@@ -33,7 +33,7 @@ namespace System::Net {
     // Creating value type constructor for type: CookieException
     CookieException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x13145F8
+    // Offset: 0x156338C
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -45,7 +45,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<CookieException*, creationType>()));
     }
     // System.Void .ctor(System.String message)
-    // Offset: 0x130D918
+    // Offset: 0x155C6AC
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
@@ -56,7 +56,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<CookieException*, creationType>(message)));
     }
     // System.Void .ctor(System.String message, System.Exception inner)
-    // Offset: 0x131243C
+    // Offset: 0x15611D0
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor(System.String message, System.Exception inner)
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception inner)
@@ -67,7 +67,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<CookieException*, creationType>(message, inner)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1314600
+    // Offset: 0x1563394
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
@@ -78,12 +78,12 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<CookieException*, creationType>(serializationInfo, streamingContext)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1314608
+    // Offset: 0x156339C
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1314610
+    // Offset: 0x15633A4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);

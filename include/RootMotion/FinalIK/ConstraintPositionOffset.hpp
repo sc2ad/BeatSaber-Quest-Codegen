@@ -55,22 +55,22 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: ConstraintPositionOffset
     ConstraintPositionOffset(UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 defaultLocalPosition_ = {}, UnityEngine::Vector3 lastLocalPosition_ = {}, bool initiated_ = {}) noexcept : offset{offset_}, defaultLocalPosition{defaultLocalPosition_}, lastLocalPosition{lastLocalPosition_}, initiated{initiated_} {}
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x174D49C
+    // Offset: 0x1B52ED0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintPositionOffset* New_ctor(UnityEngine::Transform* transform) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::ConstraintPositionOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintPositionOffset*, creationType>(transform)));
     }
     // private System.Boolean get_positionChanged()
-    // Offset: 0x174D3D8
+    // Offset: 0x1B52E0C
     bool get_positionChanged();
     // public override System.Void UpdateConstraint()
-    // Offset: 0x174D23C
+    // Offset: 0x1B52C70
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::UpdateConstraint()
     void UpdateConstraint();
     // public System.Void .ctor()
-    // Offset: 0x174D494
+    // Offset: 0x1B52EC8
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::.ctor()
     // Base method: System.Void Object::.ctor()

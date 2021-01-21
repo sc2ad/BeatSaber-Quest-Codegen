@@ -71,22 +71,22 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: Impl
     Impl(System::Collections::Generic::List_1<System::Diagnostics::Tracing::FieldMetadata*>* fields_ = {}, int16_t scratchSize_ = {}, int8_t dataCount_ = {}, int8_t pinCount_ = {}, int bufferNesting_ = {}, bool scalar_ = {}) noexcept : fields{fields_}, scratchSize{scratchSize_}, dataCount{dataCount_}, pinCount{pinCount_}, bufferNesting{bufferNesting_}, scalar{scalar_} {}
     // public System.Void AddScalar(System.Int32 size)
-    // Offset: 0x1121DD8
+    // Offset: 0x12A8C14
     void AddScalar(int size);
     // public System.Void AddNonscalar()
-    // Offset: 0x1121E80
+    // Offset: 0x12A8CBC
     void AddNonscalar();
     // public System.Void BeginBuffered()
-    // Offset: 0x1121FBC
+    // Offset: 0x12A8DF8
     void BeginBuffered();
     // public System.Void EndBuffered()
-    // Offset: 0x11220A0
+    // Offset: 0x12A8EDC
     void EndBuffered();
     // public System.Int32 Encode(System.Byte[] metadata)
-    // Offset: 0x11220B0
+    // Offset: 0x12A8EEC
     int Encode(::Array<uint8_t>* metadata);
     // public System.Void .ctor()
-    // Offset: 0x1121B70
+    // Offset: 0x12A89AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

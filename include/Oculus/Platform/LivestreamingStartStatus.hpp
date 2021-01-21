@@ -31,42 +31,42 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDAE354
+    // [DescriptionAttribute] Offset: 0xD20150
     // static field const value: static public Oculus.Platform.LivestreamingStartStatus Success
     static constexpr const int Success = 1;
     // Get static field: static public Oculus.Platform.LivestreamingStartStatus Success
     static Oculus::Platform::LivestreamingStartStatus _get_Success();
     // Set static field: static public Oculus.Platform.LivestreamingStartStatus Success
     static void _set_Success(Oculus::Platform::LivestreamingStartStatus value);
-    // [DescriptionAttribute] Offset: 0xDAE38C
+    // [DescriptionAttribute] Offset: 0xD20188
     // static field const value: static public Oculus.Platform.LivestreamingStartStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.LivestreamingStartStatus Unknown
     static Oculus::Platform::LivestreamingStartStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.LivestreamingStartStatus Unknown
     static void _set_Unknown(Oculus::Platform::LivestreamingStartStatus value);
-    // [DescriptionAttribute] Offset: 0xDAE3C4
+    // [DescriptionAttribute] Offset: 0xD201C0
     // static field const value: static public Oculus.Platform.LivestreamingStartStatus NoPackageSet
     static constexpr const int NoPackageSet = -1;
     // Get static field: static public Oculus.Platform.LivestreamingStartStatus NoPackageSet
     static Oculus::Platform::LivestreamingStartStatus _get_NoPackageSet();
     // Set static field: static public Oculus.Platform.LivestreamingStartStatus NoPackageSet
     static void _set_NoPackageSet(Oculus::Platform::LivestreamingStartStatus value);
-    // [DescriptionAttribute] Offset: 0xDAE3FC
+    // [DescriptionAttribute] Offset: 0xD201F8
     // static field const value: static public Oculus.Platform.LivestreamingStartStatus NoFbConnect
     static constexpr const int NoFbConnect = -2;
     // Get static field: static public Oculus.Platform.LivestreamingStartStatus NoFbConnect
     static Oculus::Platform::LivestreamingStartStatus _get_NoFbConnect();
     // Set static field: static public Oculus.Platform.LivestreamingStartStatus NoFbConnect
     static void _set_NoFbConnect(Oculus::Platform::LivestreamingStartStatus value);
-    // [DescriptionAttribute] Offset: 0xDAE434
+    // [DescriptionAttribute] Offset: 0xD20230
     // static field const value: static public Oculus.Platform.LivestreamingStartStatus NoSessionId
     static constexpr const int NoSessionId = -3;
     // Get static field: static public Oculus.Platform.LivestreamingStartStatus NoSessionId
     static Oculus::Platform::LivestreamingStartStatus _get_NoSessionId();
     // Set static field: static public Oculus.Platform.LivestreamingStartStatus NoSessionId
     static void _set_NoSessionId(Oculus::Platform::LivestreamingStartStatus value);
-    // [DescriptionAttribute] Offset: 0xDAE46C
+    // [DescriptionAttribute] Offset: 0xD20268
     // static field const value: static public Oculus.Platform.LivestreamingStartStatus MissingParameters
     static constexpr const int MissingParameters = -4;
     // Get static field: static public Oculus.Platform.LivestreamingStartStatus MissingParameters

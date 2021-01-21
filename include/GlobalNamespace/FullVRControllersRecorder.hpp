@@ -120,21 +120,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: playbackFloorOffset and: controllers
     char __padding5[0x4] = {};
-    // [SpaceAttribute] Offset: 0xDD2828
+    // [SpaceAttribute] Offset: 0xD44B9C
     // private VRController[] _controllers
     // Size: 0x8
     // Offset: 0x38
     ::Array<GlobalNamespace::VRController*>* controllers;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::VRController*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD2860
+    // [InjectAttribute] Offset: 0xD44BD4
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDD2870
+    // [CompilerGeneratedAttribute] Offset: 0xD44BE4
     // private System.Action`1<VRController> didSetControllerTransformEvent
     // Size: 0x8
     // Offset: 0x48
@@ -160,31 +160,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSetControllerTransformEvent(System.Action`1<VRController> value)
-    // Offset: 0x1A17514
+    // Offset: 0xF314B0
     void add_didSetControllerTransformEvent(System::Action_1<GlobalNamespace::VRController*>* value);
     // public System.Void remove_didSetControllerTransformEvent(System.Action`1<VRController> value)
-    // Offset: 0x1A175B8
+    // Offset: 0xF31554
     void remove_didSetControllerTransformEvent(System::Action_1<GlobalNamespace::VRController*>* value);
     // protected System.Void Start()
-    // Offset: 0x1A1765C
+    // Offset: 0xF315F8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1A17A74
+    // Offset: 0xF31A10
     void OnDestroy();
     // private System.Void PlaybackTick()
-    // Offset: 0x1A17B20
+    // Offset: 0xF31ABC
     void PlaybackTick();
     // private System.Void RecordTick()
-    // Offset: 0x1A17F00
+    // Offset: 0xF31E9C
     void RecordTick();
     // protected System.Void Update()
-    // Offset: 0x1A180A8
+    // Offset: 0xF32044
     void Update();
     // protected System.Void LateUpdate()
-    // Offset: 0x1A180F8
+    // Offset: 0xF32094
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1A18108
+    // Offset: 0xF320A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

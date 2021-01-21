@@ -22,7 +22,7 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: SamePathConstraint
     SamePathConstraint() noexcept {}
     // public System.Void .ctor(System.String expected)
-    // Offset: 0x13E4984
+    // Offset: 0x16A14A4
     // Implemented from: NUnit.Framework.Constraints.PathConstraint
     // Base method: System.Void PathConstraint::.ctor(System.String expected)
     // Base method: System.Void StringConstraint::.ctor(System.String expected)
@@ -32,12 +32,12 @@ namespace NUnit::Framework::Constraints {
       return THROW_UNLESS((::il2cpp_utils::New<SamePathConstraint*, creationType>(expected)));
     }
     // public override System.String get_Description()
-    // Offset: 0x13E6364
+    // Offset: 0x16A2E84
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.String StringConstraint::get_Description()
     ::Il2CppString* get_Description();
     // protected override System.Boolean Matches(System.String actual)
-    // Offset: 0x13E63E8
+    // Offset: 0x16A2F08
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.Boolean StringConstraint::Matches(System.String actual)
     bool Matches(::Il2CppString* actual);

@@ -72,25 +72,25 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: UnixNetworkInterface
     UnixNetworkInterface(System::Net::NetworkInformation::IPInterfaceProperties* ipproperties_ = {}, ::Il2CppString* name_ = {}, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses_ = {}, ::Array<uint8_t>* macAddress_ = {}, System::Net::NetworkInformation::NetworkInterfaceType type_ = {}) noexcept : ipproperties{ipproperties_}, name{name_}, addresses{addresses_}, macAddress{macAddress_}, type{type_} {}
     // System.Void .ctor(System.String name)
-    // Offset: 0x119A70C
+    // Offset: 0x1354558
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnixNetworkInterface* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::UnixNetworkInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnixNetworkInterface*, creationType>(name)));
     }
     // System.Void AddAddress(System.Net.IPAddress address)
-    // Offset: 0x119C2D4
+    // Offset: 0x1356120
     void AddAddress(System::Net::IPAddress* address);
     // System.Void SetLinkLayerInfo(System.Int32 index, System.Byte[] macAddress, System.Net.NetworkInformation.NetworkInterfaceType type)
-    // Offset: 0x119C33C
+    // Offset: 0x1356188
     void SetLinkLayerInfo(int index, ::Array<uint8_t>* macAddress, System::Net::NetworkInformation::NetworkInterfaceType type);
     // public override System.String get_Name()
-    // Offset: 0x119DA00
+    // Offset: 0x135784C
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.String NetworkInterface::get_Name()
     ::Il2CppString* get_Name();
     // public override System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
-    // Offset: 0x119DA08
+    // Offset: 0x1357854
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.NetworkInterfaceType NetworkInterface::get_NetworkInterfaceType()
     System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();

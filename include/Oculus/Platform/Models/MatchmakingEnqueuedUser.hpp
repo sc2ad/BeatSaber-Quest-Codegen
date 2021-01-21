@@ -44,7 +44,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::User* UserOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xDB012C
+    // [ObsoleteAttribute] Offset: 0xD21F28
     // public readonly Oculus.Platform.Models.User User
     // Size: 0x8
     // Offset: 0x20
@@ -54,7 +54,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: MatchmakingEnqueuedUser
     MatchmakingEnqueuedUser(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* CustomData_ = {}, Oculus::Platform::Models::User* UserOptional_ = {}, Oculus::Platform::Models::User* User_ = {}) noexcept : CustomData{CustomData_}, UserOptional{UserOptional_}, User{User_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x11E1508
+    // Offset: 0x13F2310
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingEnqueuedUser* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingEnqueuedUser::.ctor");

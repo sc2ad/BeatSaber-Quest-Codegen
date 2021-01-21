@@ -40,20 +40,20 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: InteractionDelegate
     InteractionDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x17EE2C4
+    // Offset: 0x1C399B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionSystem::InteractionDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionSystem::InteractionDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionSystem::InteractionDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject)
-    // Offset: 0x17E7C88
+    // Offset: 0x1C3337C
     void Invoke(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject);
     // public System.IAsyncResult BeginInvoke(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x17EF908
+    // Offset: 0x1C3AFFC
     System::IAsyncResult* BeginInvoke(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x17EF9A0
+    // Offset: 0x1C3B094
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.FinalIK.InteractionSystem/InteractionDelegate
   #pragma pack(pop)

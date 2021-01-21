@@ -32,20 +32,20 @@ namespace System {
     // Creating value type constructor for type: LocalDataStoreElement
     LocalDataStoreElement(::Il2CppObject* m_value_ = {}, int64_t m_cookie_ = {}) noexcept : m_value{m_value_}, m_cookie{m_cookie_} {}
     // public System.Void .ctor(System.Int64 cookie)
-    // Offset: 0x13B4304
+    // Offset: 0x1655330
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStoreElement* New_ctor(int64_t cookie) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::LocalDataStoreElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalDataStoreElement*, creationType>(cookie)));
     }
     // public System.Object get_Value()
-    // Offset: 0x13B4330
+    // Offset: 0x165535C
     ::Il2CppObject* get_Value();
     // public System.Void set_Value(System.Object value)
-    // Offset: 0x13B4338
+    // Offset: 0x1655364
     void set_Value(::Il2CppObject* value);
     // public System.Int64 get_Cookie()
-    // Offset: 0x13B4340
+    // Offset: 0x165536C
     int64_t get_Cookie();
   }; // System.LocalDataStoreElement
   #pragma pack(pop)

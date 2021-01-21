@@ -49,22 +49,22 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void ApplyValue(bool value);
     // protected System.Void Awake()
-    // Offset: 0xF4982C
+    // Offset: 0xF40C88
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xF498D0
+    // Offset: 0xF40D2C
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0xF49974
+    // Offset: 0xF40DD0
     void OnEnable();
     // private System.Void RefreshUI()
-    // Offset: 0xF499BC
+    // Offset: 0xF40E18
     void RefreshUI();
     // private System.Void HandleToggleValueDidChange(System.Boolean value)
-    // Offset: 0xF499E0
+    // Offset: 0xF40E3C
     void HandleToggleValueDidChange(bool value);
     // protected System.Void .ctor()
-    // Offset: 0xF499F0
+    // Offset: 0xF40E4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

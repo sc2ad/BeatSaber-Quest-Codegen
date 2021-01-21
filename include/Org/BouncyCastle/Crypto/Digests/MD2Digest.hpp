@@ -76,26 +76,26 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Set static field: static private readonly System.Byte[] S
     static void _set_S(::Array<uint8_t>* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.MD2Digest t)
-    // Offset: 0x1762240
+    // Offset: 0x1B66C74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MD2Digest* New_ctor(Org::BouncyCastle::Crypto::Digests::MD2Digest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::MD2Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MD2Digest*, creationType>(t)));
     }
     // private System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.MD2Digest t)
-    // Offset: 0x17622FC
+    // Offset: 0x1B66D30
     void CopyIn(Org::BouncyCastle::Crypto::Digests::MD2Digest* t);
     // System.Void ProcessChecksum(System.Byte[] m)
-    // Offset: 0x17624C4
+    // Offset: 0x1B66EF8
     void ProcessChecksum(::Array<uint8_t>* m);
     // System.Void ProcessBlock(System.Byte[] m)
-    // Offset: 0x1762610
+    // Offset: 0x1B67044
     void ProcessBlock(::Array<uint8_t>* m);
     // static private System.Void .cctor()
-    // Offset: 0x1762A74
+    // Offset: 0x1B674A8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x17620D0
+    // Offset: 0x1B66B04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -104,47 +104,47 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return THROW_UNLESS((::il2cpp_utils::New<MD2Digest*, creationType>()));
     }
     // public System.String get_AlgorithmName()
-    // Offset: 0x176239C
+    // Offset: 0x1B66DD0
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.String IDigest::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Int32 GetDigestSize()
-    // Offset: 0x17623E4
+    // Offset: 0x1B66E18
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Int32 IDigest::GetDigestSize()
     int GetDigestSize();
     // public System.Int32 GetByteLength()
-    // Offset: 0x17623EC
+    // Offset: 0x1B66E20
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Int32 IDigest::GetByteLength()
     int GetByteLength();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x17623F4
+    // Offset: 0x1B66E28
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Int32 IDigest::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x176217C
+    // Offset: 0x1B66BB0
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Void IDigest::Reset()
     void Reset();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x17627C0
+    // Offset: 0x1B671F4
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Void IDigest::Update(System.Byte input)
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x176283C
+    // Offset: 0x1B67270
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Void IDigest::BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int length);
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x1762980
+    // Offset: 0x1B673B4
     // Implemented from: Org.BouncyCastle.Utilities.IMemoable
     // Base method: Org.BouncyCastle.Utilities.IMemoable IMemoable::Copy()
     Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x17629E0
+    // Offset: 0x1B67414
     // Implemented from: Org.BouncyCastle.Utilities.IMemoable
     // Base method: System.Void IMemoable::Reset(Org.BouncyCastle.Utilities.IMemoable other)
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);

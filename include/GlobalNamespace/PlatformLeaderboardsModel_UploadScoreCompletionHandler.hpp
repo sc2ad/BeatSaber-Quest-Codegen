@@ -33,20 +33,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: UploadScoreCompletionHandler
     UploadScoreCompletionHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF0AE60
+    // Offset: 0xFB3ABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformLeaderboardsModel::UploadScoreCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformLeaderboardsModel::UploadScoreCompletionHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(PlatformLeaderboardsModel/UploadScoreResult result)
-    // Offset: 0xF0A248
+    // Offset: 0xFB2E90
     void Invoke(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result);
     // public System.IAsyncResult BeginInvoke(PlatformLeaderboardsModel/UploadScoreResult result, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF0AE74
+    // Offset: 0xFB3AD0
     System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xF0AF00
+    // Offset: 0xFB3B5C
     void EndInvoke(System::IAsyncResult* result);
   }; // PlatformLeaderboardsModel/UploadScoreCompletionHandler
   #pragma pack(pop)

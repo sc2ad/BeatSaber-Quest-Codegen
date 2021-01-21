@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LocalLeaderboardsModel* localLeaderboardsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalLeaderboardsModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDD0100
+    // [SpaceAttribute] Offset: 0xD4242C
     // private LocalLeaderboardTableView _leaderboardTableView
     // Size: 0x8
     // Offset: 0x80
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     HMUI::IconSegmentedControl* scopeSegmentedControl;
     // Field size check
     static_assert(sizeof(HMUI::IconSegmentedControl*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDD0168
+    // [SpaceAttribute] Offset: 0xD42494
     // private UnityEngine.Sprite _allTimeLeaderboardIcon
     // Size: 0x8
     // Offset: 0xA0
@@ -107,7 +107,7 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* clearLeaderboardIcon;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD01C0
+    // [InjectAttribute] Offset: 0xD424EC
     // private PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xB8
@@ -134,60 +134,60 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: LocalLeaderboardViewController
     LocalLeaderboardViewController(int maxNumberOfCells_ = {}, GlobalNamespace::LocalLeaderboardsModel* localLeaderboardsModel_ = {}, GlobalNamespace::LocalLeaderboardTableView* leaderboardTableView_ = {}, UnityEngine::GameObject* clearLeaderboardsWrapper_ = {}, HMUI::NoTransitionsButton* clearLeaderboardsButton_ = {}, HMUI::IconSegmentedControl* scopeSegmentedControl_ = {}, UnityEngine::Sprite* allTimeLeaderboardIcon_ = {}, UnityEngine::Sprite* todayLeaderboardIcon_ = {}, UnityEngine::Sprite* clearLeaderboardIcon_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, bool refreshIsNeeded_ = {}, bool enableClear_ = {}) noexcept : maxNumberOfCells{maxNumberOfCells_}, localLeaderboardsModel{localLeaderboardsModel_}, leaderboardTableView{leaderboardTableView_}, clearLeaderboardsWrapper{clearLeaderboardsWrapper_}, clearLeaderboardsButton{clearLeaderboardsButton_}, scopeSegmentedControl{scopeSegmentedControl_}, allTimeLeaderboardIcon{allTimeLeaderboardIcon_}, todayLeaderboardIcon{todayLeaderboardIcon_}, clearLeaderboardIcon{clearLeaderboardIcon_}, playerDataModel{playerDataModel_}, difficultyBeatmap{difficultyBeatmap_}, refreshIsNeeded{refreshIsNeeded_}, enableClear{enableClear_} {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDD01D0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD424FC
     // Get static field: static private LocalLeaderboardsModel/LeaderboardType _leaderboardType
     static GlobalNamespace::LocalLeaderboardsModel::LeaderboardType _get__leaderboardType();
     // Set static field: static private LocalLeaderboardsModel/LeaderboardType _leaderboardType
     static void _set__leaderboardType(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType value);
     // public LocalLeaderboardsModel get_leaderboardsModel()
-    // Offset: 0x1A62B14
+    // Offset: 0x1052D1C
     GlobalNamespace::LocalLeaderboardsModel* get_leaderboardsModel();
     // public System.Void Setup(System.Boolean enableClear)
-    // Offset: 0x1A62B1C
+    // Offset: 0x1052D24
     void Setup(bool enableClear);
     // private System.Void RefreshScopeSegmentedControl()
-    // Offset: 0x1A62DCC
+    // Offset: 0x1052FD4
     void RefreshScopeSegmentedControl();
     // private System.Void HandleScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x1A63250
+    // Offset: 0x1053458
     void HandleScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // private System.Void ClearLeaderboards()
-    // Offset: 0x1A633D0
+    // Offset: 0x10535D8
     void ClearLeaderboards();
     // private System.Void SetContent(System.String leaderboardID, LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0x1A63568
+    // Offset: 0x1053770
     void SetContent(::Il2CppString* leaderboardID, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // private System.Void HandleNewScoreWasAddedToLeaderboard(System.String leaderboardID, LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0x1A636A4
+    // Offset: 0x10538AC
     void HandleNewScoreWasAddedToLeaderboard(::Il2CppString* leaderboardID, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // private System.Void Refresh()
-    // Offset: 0x1A62B84
+    // Offset: 0x1052D8C
     void Refresh();
     // private System.Void <DidActivate>b__18_0()
-    // Offset: 0x1A63780
+    // Offset: 0x1053988
     void $DidActivate$b__18_0();
     // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1A62B28
+    // Offset: 0x1052D30
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
     void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1A62C18
+    // Offset: 0x1052E20
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1A6301C
+    // Offset: 0x1053224
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1A631B4
+    // Offset: 0x10533BC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1A6376C
+    // Offset: 0x1053974
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -202,7 +202,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LocalLeaderboardViewController*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A6377C
+    // Offset: 0x1053984
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

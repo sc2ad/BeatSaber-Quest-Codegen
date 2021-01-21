@@ -76,14 +76,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* refreshButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD1054
+    // [InjectAttribute] Offset: 0xD43350
     // private readonly OnlineServices.ServerManager _serverManager
     // Size: 0x8
     // Offset: 0x90
     OnlineServices::ServerManager* serverManager;
     // Field size check
     static_assert(sizeof(OnlineServices::ServerManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDD1064
+    // [InjectAttribute] Offset: 0xD43360
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x98
@@ -99,18 +99,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OnlineServicesInfoViewController
     OnlineServicesInfoViewController(HMUI::TextPageScrollView* textPageScrollView_ = {}, GlobalNamespace::BeatmapLevelSO* testBeatmapLevel_ = {}, GlobalNamespace::BeatmapCharacteristicSO* testBeatmapCharacteristic_ = {}, UnityEngine::UI::Button* refreshButton_ = {}, OnlineServices::ServerManager* serverManager_ = {}, GlobalNamespace::IPlatformUserModel* platformUserModel_ = {}, System::Text::StringBuilder* sb_ = {}) noexcept : textPageScrollView{textPageScrollView_}, testBeatmapLevel{testBeatmapLevel_}, testBeatmapCharacteristic{testBeatmapCharacteristic_}, refreshButton{refreshButton_}, serverManager{serverManager_}, platformUserModel{platformUserModel_}, sb{sb_} {}
     // private System.Void GetServerStatus()
-    // Offset: 0xF001D4
+    // Offset: 0xF1C654
     void GetServerStatus();
     // private System.Void AppendLine(System.String line)
-    // Offset: 0xF002A4
+    // Offset: 0xF1C724
     void AppendLine(::Il2CppString* line);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF00120
+    // Offset: 0xF1C5A0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF002FC
+    // Offset: 0xF1C77C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

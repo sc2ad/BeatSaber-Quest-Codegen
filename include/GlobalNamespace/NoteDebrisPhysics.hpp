@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void SetAngularVelocity(UnityEngine::Vector3 torque);
     // protected System.Void .ctor()
-    // Offset: 0xFE5D48
+    // Offset: 0xF94130
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

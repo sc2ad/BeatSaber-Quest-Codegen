@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset;
     // Field size check
     static_assert(sizeof(Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xDC6970
+    // [InjectAttribute] Offset: 0xD3898C
     // private readonly HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x20
@@ -51,10 +51,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void HitNote(SaberType saberType)
-    // Offset: 0xFE1EF0
+    // Offset: 0xF905D0
     void HitNote(GlobalNamespace::SaberType saberType);
     // public System.Void .ctor()
-    // Offset: 0xFE2AE0
+    // Offset: 0xF911C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

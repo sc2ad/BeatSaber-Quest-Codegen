@@ -62,10 +62,10 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxNumberOfColliders
     static void _set_kMaxNumberOfColliders(int value);
     // public System.Void Cut(Saber saber)
-    // Offset: 0xFE47EC
+    // Offset: 0xF92BD4
     void Cut(GlobalNamespace::Saber* saber);
     // public System.Void .ctor()
-    // Offset: 0xFE4678
+    // Offset: 0xF92A60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

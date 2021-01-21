@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Entitlement
     Entitlement(::Il2CppString* id_ = {}, GlobalNamespace::AdditionalContentModel::EntitlementStatus status_ = {}) noexcept : id{id_}, status{status_} {}
     // public System.Void .ctor()
-    // Offset: 0xFEBA78
+    // Offset: 0xF43738
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

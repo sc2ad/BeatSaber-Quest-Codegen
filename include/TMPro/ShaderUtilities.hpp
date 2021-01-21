@@ -279,31 +279,31 @@ namespace TMPro {
     // Set static field: static private UnityEngine.Shader k_ShaderRef_MobileBitmap
     static void _set_k_ShaderRef_MobileBitmap(UnityEngine::Shader* value);
     // static UnityEngine.Shader get_ShaderRef_MobileSDF()
-    // Offset: 0xF4FDCC
+    // Offset: 0xF983E8
     static UnityEngine::Shader* get_ShaderRef_MobileSDF();
     // static UnityEngine.Shader get_ShaderRef_MobileBitmap()
-    // Offset: 0xF4FEDC
+    // Offset: 0xF984F8
     static UnityEngine::Shader* get_ShaderRef_MobileBitmap();
     // static private System.Void .cctor()
-    // Offset: 0xF4FFEC
+    // Offset: 0xF98608
     static void _cctor();
     // static public System.Void GetShaderPropertyIDs()
-    // Offset: 0xF5016C
+    // Offset: 0xF98788
     static void GetShaderPropertyIDs();
     // static public System.Void UpdateShaderRatios(UnityEngine.Material mat)
-    // Offset: 0xF50960
+    // Offset: 0xF98F7C
     static void UpdateShaderRatios(UnityEngine::Material* mat);
     // static public UnityEngine.Vector4 GetFontExtent(UnityEngine.Material material)
-    // Offset: 0xF50E94
+    // Offset: 0xF994B0
     static UnityEngine::Vector4 GetFontExtent(UnityEngine::Material* material);
     // static public System.Boolean IsMaskingEnabled(UnityEngine.Material material)
-    // Offset: 0xF50EF4
+    // Offset: 0xF99510
     static bool IsMaskingEnabled(UnityEngine::Material* material);
     // static public System.Single GetPadding(UnityEngine.Material material, System.Boolean enableExtraPadding, System.Boolean isBold)
-    // Offset: 0xF510A8
+    // Offset: 0xF996C4
     static float GetPadding(UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
     // static public System.Single GetPadding(UnityEngine.Material[] materials, System.Boolean enableExtraPadding, System.Boolean isBold)
-    // Offset: 0xF5195C
+    // Offset: 0xF99F78
     static float GetPadding(::Array<UnityEngine::Material*>* materials, bool enableExtraPadding, bool isBold);
   }; // TMPro.ShaderUtilities
   #pragma pack(pop)

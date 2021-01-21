@@ -52,64 +52,64 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModelSO;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCAA2C
-    // private SaberActivityCounter _saberActivityCounter
+    // [InjectAttribute] Offset: 0xD3CC38
+    // private readonly SaberActivityCounter _saberActivityCounter
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::SaberActivityCounter* saberActivityCounter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberActivityCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCAA3C
-    // private BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
+    // [InjectAttribute] Offset: 0xD3CC48
+    // private readonly BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* beatmapObjectExecutionRatingsRecorder;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCAA4C
-    // private MultiplierValuesRecorder _multiplierValuesRecorder
+    // [InjectAttribute] Offset: 0xD3CC58
+    // private readonly MultiplierValuesRecorder _multiplierValuesRecorder
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplierValuesRecorder* multiplierValuesRecorder;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplierValuesRecorder*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCAA5C
-    // private ScoreController _scoreController
+    // [InjectAttribute] Offset: 0xD3CC68
+    // private readonly ScoreController _scoreController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::ScoreController* scoreController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCAA6C
-    // private GameEnergyCounter _gameEnergyCounter
+    // [InjectAttribute] Offset: 0xD3CC78
+    // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCAA7C
-    // private GameSongController _gameSongController
+    // [InjectAttribute] Offset: 0xD3CC88
+    // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCAA8C
-    // private IReadonlyBeatmapData _beatmapData
+    // [InjectAttribute] Offset: 0xD3CC98
+    // private readonly IReadonlyBeatmapData _beatmapData
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::IReadonlyBeatmapData* beatmapData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IReadonlyBeatmapData*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCAA9C
-    // private AudioTimeSyncController _audioTimeSyncController
+    // [InjectAttribute] Offset: 0xD3CCA8
+    // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCAAAC
-    // private GameplayModifiers _gameplayModifiers
+    // [InjectAttribute] Offset: 0xD3CCB8
+    // private readonly GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
@@ -120,10 +120,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public LevelCompletionResults FillLevelCompletionResults(LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction)
-    // Offset: 0xF2C780
+    // Offset: 0xFBE7E8
     GlobalNamespace::LevelCompletionResults* FillLevelCompletionResults(GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction);
     // public System.Void .ctor()
-    // Offset: 0xF2C9C8
+    // Offset: 0xFBEA30
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

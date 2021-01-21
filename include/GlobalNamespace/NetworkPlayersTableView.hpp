@@ -141,34 +141,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kOptionsCellIdentifier
     static void _set_kOptionsCellIdentifier(::Il2CppString* value);
     // private System.Void AddPlayers(System.Collections.Generic.IEnumerable`1<INetworkPlayer> players, System.String title)
-    // Offset: 0xFDE110
+    // Offset: 0xF8D014
     void AddPlayers(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* players, ::Il2CppString* title);
     // public System.Void SetParties(System.Collections.Generic.IEnumerable`1<INetworkPlayer> partyPlayers, System.Collections.Generic.IEnumerable`1<INetworkPlayer> otherPlayers, System.String myPartyTitle, System.String otherPlayersTitle)
-    // Offset: 0xFDE9F8
+    // Offset: 0xF8D8FC
     void SetParties(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* partyPlayers, System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* otherPlayers, ::Il2CppString* myPartyTitle, ::Il2CppString* otherPlayersTitle);
     // private System.Void HandleCellWasPressed(HMUI.TableView tableView, HMUI.TableCell tableCell)
-    // Offset: 0xFDEB18
+    // Offset: 0xF8DA1C
     void HandleCellWasPressed(HMUI::TableView* tableView, HMUI::TableCell* tableCell);
     // static private System.Boolean HasVisibleOptions(INetworkPlayer player)
-    // Offset: 0xFDE660
+    // Offset: 0xF8D564
     static bool HasVisibleOptions(GlobalNamespace::INetworkPlayer* player);
     // public System.Single CellSize()
-    // Offset: 0xFDDB08
+    // Offset: 0xF8CA0C
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Single IDataSource::CellSize()
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0xFDDB10
+    // Offset: 0xF8CA14
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0xFDDB60
+    // Offset: 0xF8CA64
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 row)
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);
     // public System.Void .ctor()
-    // Offset: 0xFDEB1C
+    // Offset: 0xF8DA20
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

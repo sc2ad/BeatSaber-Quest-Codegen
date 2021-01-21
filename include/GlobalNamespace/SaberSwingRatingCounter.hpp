@@ -45,14 +45,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class SaberSwingRatingCounter : public GlobalNamespace::HMAutoincrementedRequestId/*, public GlobalNamespace::ISaberMovementDataProcessor, public GlobalNamespace::ISaberSwingRatingCounter*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDC51BC
+    // [CompilerGeneratedAttribute] Offset: 0xD37170
     // private SwingSaberRatingDidChangeDelegate didChangeEvent
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::SwingSaberRatingDidChangeDelegate* didChangeEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SwingSaberRatingDidChangeDelegate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC51CC
+    // [CompilerGeneratedAttribute] Offset: 0xD37180
     // private SwingSaberRatingDidFinishDelegate didFinishEvent
     // Size: 0x8
     // Offset: 0x20
@@ -184,56 +184,56 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept = delete;
     // public System.Void Init(SaberMovementData saberMovementData, UnityEngine.Transform noteTransform)
-    // Offset: 0xFC298C
+    // Offset: 0x1082AF8
     void Init(GlobalNamespace::SaberMovementData* saberMovementData, UnityEngine::Transform* noteTransform);
     // public System.Void Deinit()
-    // Offset: 0xFC2A98
+    // Offset: 0x1082520
     void Deinit();
     // public System.Void DrawGizmos()
-    // Offset: 0xFC2F08
+    // Offset: 0x1082CF8
     void DrawGizmos();
     // public System.Void add_didChangeEvent(SwingSaberRatingDidChangeDelegate value)
-    // Offset: 0xFC26E4
+    // Offset: 0x1088830
     // Implemented from: ISaberSwingRatingCounter
     // Base method: System.Void ISaberSwingRatingCounter::add_didChangeEvent(SwingSaberRatingDidChangeDelegate value)
     void add_didChangeEvent(GlobalNamespace::SwingSaberRatingDidChangeDelegate* value);
     // public System.Void remove_didChangeEvent(SwingSaberRatingDidChangeDelegate value)
-    // Offset: 0xFC2788
+    // Offset: 0x10888D4
     // Implemented from: ISaberSwingRatingCounter
     // Base method: System.Void ISaberSwingRatingCounter::remove_didChangeEvent(SwingSaberRatingDidChangeDelegate value)
     void remove_didChangeEvent(GlobalNamespace::SwingSaberRatingDidChangeDelegate* value);
     // public System.Void add_didFinishEvent(SwingSaberRatingDidFinishDelegate value)
-    // Offset: 0xFC282C
+    // Offset: 0x1088978
     // Implemented from: ISaberSwingRatingCounter
     // Base method: System.Void ISaberSwingRatingCounter::add_didFinishEvent(SwingSaberRatingDidFinishDelegate value)
     void add_didFinishEvent(GlobalNamespace::SwingSaberRatingDidFinishDelegate* value);
     // public System.Void remove_didFinishEvent(SwingSaberRatingDidFinishDelegate value)
-    // Offset: 0xFC28D0
+    // Offset: 0x1088A1C
     // Implemented from: ISaberSwingRatingCounter
     // Base method: System.Void ISaberSwingRatingCounter::remove_didFinishEvent(SwingSaberRatingDidFinishDelegate value)
     void remove_didFinishEvent(GlobalNamespace::SwingSaberRatingDidFinishDelegate* value);
     // public System.Boolean get_didFinish()
-    // Offset: 0xFC2974
+    // Offset: 0x1088AC0
     // Implemented from: ISaberSwingRatingCounter
     // Base method: System.Boolean ISaberSwingRatingCounter::get_didFinish()
     bool get_didFinish();
     // public System.Single get_beforeCutRating()
-    // Offset: 0xFC297C
+    // Offset: 0x1088AC8
     // Implemented from: ISaberSwingRatingCounter
     // Base method: System.Single ISaberSwingRatingCounter::get_beforeCutRating()
     float get_beforeCutRating();
     // public System.Single get_afterCutRating()
-    // Offset: 0xFC2984
+    // Offset: 0x1088AD0
     // Implemented from: ISaberSwingRatingCounter
     // Base method: System.Single ISaberSwingRatingCounter::get_afterCutRating()
     float get_afterCutRating();
     // public System.Void ProcessNewData(BladeMovementDataElement newData, BladeMovementDataElement prevData, System.Boolean prevDataAreValid)
-    // Offset: 0xFC2AB8
+    // Offset: 0x1088AD8
     // Implemented from: ISaberMovementDataProcessor
     // Base method: System.Void ISaberMovementDataProcessor::ProcessNewData(BladeMovementDataElement newData, BladeMovementDataElement prevData, System.Boolean prevDataAreValid)
     void ProcessNewData(GlobalNamespace::BladeMovementDataElement newData, GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
     // public System.Void .ctor()
-    // Offset: 0xFC31EC
+    // Offset: 0x10822D8
     // Implemented from: HMAutoincrementedRequestId
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
     // Base method: System.Void Object::.ctor()

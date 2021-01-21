@@ -36,13 +36,13 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set static field: static public readonly System.String PRECOMP_NAME
     static void _set_PRECOMP_NAME(::Il2CppString* value);
     // static public System.Int32 GetCombSize(Org.BouncyCastle.Math.EC.ECCurve c)
-    // Offset: 0x1783BBC
+    // Offset: 0x1BBB5DC
     static int GetCombSize(Org::BouncyCastle::Math::EC::ECCurve* c);
     // static public Org.BouncyCastle.Math.EC.Multiplier.FixedPointPreCompInfo Precompute(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x1783C18
+    // Offset: 0x1BBB638
     static Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo* Precompute(Org::BouncyCastle::Math::EC::ECPoint* p);
     // static private System.Void .cctor()
-    // Offset: 0x1783DEC
+    // Offset: 0x1BBB80C
     static void _cctor();
   }; // Org.BouncyCastle.Math.EC.Multiplier.FixedPointUtilities
   #pragma pack(pop)
