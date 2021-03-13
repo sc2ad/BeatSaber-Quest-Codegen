@@ -19,26 +19,23 @@ LOCAL_PATH := $(call my-dir)
 TARGET_ARCH_ABI := $(APP_ABI)
 rwildcard=$(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
 
-# Writing prebuilt shared library: beatsaber-hook
+# Creating prebuilt for dependency: beatsaber-hook - version: 1.1.6
 include $(CLEAR_VARS)
-LOCAL_MODULE := 
-include $(CLEAR_VARS)
+LOCAL_MODULE := beatsaber-hook_1_1_6
+LOCAL_EXPORT_C_INCLUDES := extern/beatsaber-hook
+LOCAL_SRC_FILES := extern/libbeatsaber-hook_1_1_6.so
+LOCAL_CPP_FEATURES += exceptions
+include $(PREBUILT_SHARED_LIBRARY)
 # Creating prebuilt for dependency: modloader - version: 1.0.4
 include $(CLEAR_VARS)
 LOCAL_MODULE := modloader
 LOCAL_EXPORT_C_INCLUDES := extern/modloader
 LOCAL_SRC_FILES := extern/libmodloader.so
 include $(PREBUILT_SHARED_LIBRARY)
-# Creating prebuilt for dependency: beatsaber-hook - version: 1.1.6
-include $(CLEAR_VARS)
-LOCAL_MODULE := beatsaber-hook_1_1_6
-LOCAL_EXPORT_C_INCLUDES := extern/beatsaber-hook
-LOCAL_SRC_FILES := extern/libbeatsaber-hook_1_1_6.so
-include $(PREBUILT_SHARED_LIBRARY)
 
 # Writing single library: il2cpp_codegen
 include $(CLEAR_VARS)
-LOCAL_MODULE := codegen_0_7_0
+LOCAL_MODULE := il2cpp_codegen
 LOCAL_SRC_FILES := $(call rwildcard,./src,*.cpp)
 LOCAL_SHARED_LIBRARIES += beatsaber-hook_1_1_6
 LOCAL_SHARED_LIBRARIES += modloader
