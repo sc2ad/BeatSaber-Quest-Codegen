@@ -18,12 +18,12 @@ namespace GlobalNamespace {
   class FlyingScoreSpawner;
   // Forward declaring type: BeatmapObjectManager
   class BeatmapObjectManager;
-  // Forward declaring type: ScoreController
-  class ScoreController;
+  // Forward declaring type: IScoreController
+  class IScoreController;
   // Forward declaring type: NoteController
   class NoteController;
   // Forward declaring type: NoteCutInfo
-  class NoteCutInfo;
+  struct NoteCutInfo;
 }
 // Completed forward declares
 // Type namespace: 
@@ -40,35 +40,35 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingScoreSpawner* flyingScoreSpawner;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingScoreSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0xD384C4
+    // [InjectAttribute] Offset: 0xD23748
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD384D4
-    // private readonly ScoreController _scoreController
+    // [InjectAttribute] Offset: 0xD23758
+    // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::ScoreController* scoreController;
+    GlobalNamespace::IScoreController* scoreController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ScoreController*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
     // Creating value type constructor for type: NoteCutScoreSpawner
-    NoteCutScoreSpawner(GlobalNamespace::FlyingScoreSpawner* flyingScoreSpawner_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::ScoreController* scoreController_ = {}) noexcept : flyingScoreSpawner{flyingScoreSpawner_}, beatmapObjectManager{beatmapObjectManager_}, scoreController{scoreController_} {}
+    NoteCutScoreSpawner(GlobalNamespace::FlyingScoreSpawner* flyingScoreSpawner_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}) noexcept : flyingScoreSpawner{flyingScoreSpawner_}, beatmapObjectManager{beatmapObjectManager_}, scoreController{scoreController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF91320
+    // Offset: 0x10C1ED0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF913B4
+    // Offset: 0x10C1F5C
     void OnDestroy();
-    // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xF91454
-    void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
+    // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
+    // Offset: 0x10C1FF4
+    void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0xF915CC
+    // Offset: 0x10C21D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     }
   }; // NoteCutScoreSpawner
   #pragma pack(pop)
-  static check_size<sizeof(NoteCutScoreSpawner), 40 + sizeof(GlobalNamespace::ScoreController*)> __GlobalNamespace_NoteCutScoreSpawnerSizeCheck;
+  static check_size<sizeof(NoteCutScoreSpawner), 40 + sizeof(GlobalNamespace::IScoreController*)> __GlobalNamespace_NoteCutScoreSpawnerSizeCheck;
   static_assert(sizeof(NoteCutScoreSpawner) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutScoreSpawner*, "", "NoteCutScoreSpawner");

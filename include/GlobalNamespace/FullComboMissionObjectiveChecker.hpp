@@ -14,8 +14,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: ScoreController
-  class ScoreController;
+  // Forward declaring type: IScoreController
+  class IScoreController;
 }
 // Completed forward declares
 // Type namespace: 
@@ -28,28 +28,28 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    // [InjectAttribute] Offset: 0xD3A8BC
-    // private ScoreController _scoreController
+    // [InjectAttribute] Offset: 0xD25FB4
+    // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x48
-    GlobalNamespace::ScoreController* scoreController;
+    GlobalNamespace::IScoreController* scoreController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ScoreController*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
     // Creating value type constructor for type: FullComboMissionObjectiveChecker
-    FullComboMissionObjectiveChecker(GlobalNamespace::ScoreController* scoreController_ = {}) noexcept : scoreController{scoreController_} {}
+    FullComboMissionObjectiveChecker(GlobalNamespace::IScoreController* scoreController_ = {}) noexcept : scoreController{scoreController_} {}
     // protected System.Void OnDestroy()
-    // Offset: 0xF313C8
+    // Offset: 0xF3223C
     void OnDestroy();
     // private System.Void HandleComboBreakingEventHappened()
-    // Offset: 0xF3149C
+    // Offset: 0xF32334
     void HandleComboBreakingEventHappened();
     // protected override System.Void Init()
-    // Offset: 0xF312F0
+    // Offset: 0xF320AC
     // Implemented from: MissionObjectiveChecker
-    // Base method: System.Void MissionObjectiveChecker::Init()
+    // Base method: System.Void MissionObjectiveChecker::Init_NEW()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0xF314A8
+    // Offset: 0xF32340
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     }
   }; // FullComboMissionObjectiveChecker
   #pragma pack(pop)
-  static check_size<sizeof(FullComboMissionObjectiveChecker), 72 + sizeof(GlobalNamespace::ScoreController*)> __GlobalNamespace_FullComboMissionObjectiveCheckerSizeCheck;
+  static check_size<sizeof(FullComboMissionObjectiveChecker), 72 + sizeof(GlobalNamespace::IScoreController*)> __GlobalNamespace_FullComboMissionObjectiveCheckerSizeCheck;
   static_assert(sizeof(FullComboMissionObjectiveChecker) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullComboMissionObjectiveChecker*, "", "FullComboMissionObjectiveChecker");

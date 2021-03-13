@@ -53,39 +53,29 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ILightWithId() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILightWithId*>(this);
     }
+    // public System.Int32 get_lightId()
+    // Offset: 0x1CE0FDC
+    int get_lightId_NEW();
     // public System.Single get_intensity()
-    // Offset: 0x1DA0804
+    // Offset: 0x1CE0FE4
     float get_intensity();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1DA080C
+    // Offset: 0x1CE0FEC
     UnityEngine::Color get_color();
-    // public System.Int32 get_lightId()
-    // Offset: 0x1DA07FC
-    // Implemented from: ILightWithId
-    // Base method: System.Int32 ILightWithId::get_lightId()
-    int get_lightId();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x1DA0818
-    // Implemented from: ILightWithId
-    // Base method: System.Boolean ILightWithId::get_isRegistered()
-    bool get_isRegistered();
+    // Offset: 0x1CE0FF8
+    bool get_isRegistered_NEW();
     // public System.Void __SetIsRegistered()
-    // Offset: 0x1DA0820
-    // Implemented from: ILightWithId
-    // Base method: System.Void ILightWithId::__SetIsRegistered()
-    void __SetIsRegistered();
+    // Offset: 0x1CE1000
+    void __SetIsRegistered_NEW();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x1DA082C
-    // Implemented from: ILightWithId
-    // Base method: System.Void ILightWithId::__SetIsUnRegistered()
-    void __SetIsUnRegistered();
+    // Offset: 0x1CE100C
+    void __SetIsUnRegistered_NEW();
     // public System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x1DA0834
-    // Implemented from: ILightWithId
-    // Base method: System.Void ILightWithId::ColorWasSet(UnityEngine.Color newColor)
-    void ColorWasSet(UnityEngine::Color newColor);
+    // Offset: 0x1CE1014
+    void ColorWasSet_NEW(UnityEngine::Color newColor);
     // public System.Void .ctor()
-    // Offset: 0x1DA0854
+    // Offset: 0x1CE1034
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

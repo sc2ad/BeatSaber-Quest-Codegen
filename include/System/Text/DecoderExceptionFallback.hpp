@@ -29,7 +29,7 @@ namespace System::Text {
     // Creating value type constructor for type: DecoderExceptionFallback
     DecoderExceptionFallback() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x191A8DC
+    // Offset: 0x1A106F8
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Void DecoderFallback::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -39,24 +39,24 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<DecoderExceptionFallback*, creationType>()));
     }
     // public override System.Text.DecoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x191A8EC
+    // Offset: 0x1A10708
     // Implemented from: System.Text.DecoderFallback
-    // Base method: System.Text.DecoderFallbackBuffer DecoderFallback::CreateFallbackBuffer()
+    // Base method: System.Text.DecoderFallbackBuffer DecoderFallback::CreateFallbackBuffer_NEW()
     System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x191A950
+    // Offset: 0x1A1076C
     // Implemented from: System.Text.DecoderFallback
-    // Base method: System.Int32 DecoderFallback::get_MaxCharCount()
+    // Base method: System.Int32 DecoderFallback::get_MaxCharCount_NEW()
     int get_MaxCharCount();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x191A958
+    // Offset: 0x1A10774
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object value)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x191A9BC
+    // Offset: 0x1A107D8
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
   }; // System.Text.DecoderExceptionFallback
   #pragma pack(pop)

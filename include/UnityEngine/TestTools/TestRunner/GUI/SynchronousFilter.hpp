@@ -40,27 +40,19 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestFilter*>(this);
     }
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x133CF88
-    // Implemented from: NUnit.Framework.Interfaces.IXmlNodeBuilder
-    // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::ToXml(System.Boolean recursive)
-    NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
+    // Offset: 0x1355578
+    NUnit::Framework::Interfaces::TNode* ToXml_NEW(bool recursive);
     // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x133CFF0
-    // Implemented from: NUnit.Framework.Interfaces.IXmlNodeBuilder
-    // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
+    // Offset: 0x13555E0
+    NUnit::Framework::Interfaces::TNode* AddToXml_NEW(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x133D04C
-    // Implemented from: NUnit.Framework.Interfaces.ITestFilter
-    // Base method: System.Boolean ITestFilter::Pass(NUnit.Framework.Interfaces.ITest test)
-    bool Pass(NUnit::Framework::Interfaces::ITest* test);
+    // Offset: 0x135563C
+    bool Pass_NEW(NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x133D8B4
-    // Implemented from: NUnit.Framework.Interfaces.ITestFilter
-    // Base method: System.Boolean ITestFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
+    // Offset: 0x1355E94
+    bool IsExplicitMatch_NEW(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void .ctor()
-    // Offset: 0x133D8B8
+    // Offset: 0x1355168
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -18,10 +18,10 @@
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
 namespace LiteNetLib::Utils {
-  // Forward declaring type: NetDataReader
-  class NetDataReader;
   // Forward declaring type: NetDataWriter
   class NetDataWriter;
+  // Forward declaring type: NetDataReader
+  class NetDataReader;
 }
 // Completed forward declares
 // Type namespace: 
@@ -83,25 +83,18 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::PublicServerInfo>*>(this);
     }
     // public System.Void .ctor(System.String serverName, System.String code, System.Int32 currentPlayerCount, System.Int32 maxPlayerCount, System.Boolean hasPassword, GameplayServerConfiguration configuration)
-    // Offset: 0xE19534
+    // Offset: 0xDF16C4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  PublicServerInfo(::Il2CppString* serverName, ::Il2CppString* code, int currentPlayerCount, int maxPlayerCount, bool hasPassword, GlobalNamespace::GameplayServerConfiguration configuration)
-    // static public PublicServerInfo Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1C1DB94
-    static GlobalNamespace::PublicServerInfo Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xE195BC
-    // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
-    // Base method: System.Void INetImmutableSerializable_1::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // Offset: 0xDF16F8
+    void Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer);
     // public PublicServerInfo CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xE195C4
-    // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
-    // Base method: T INetImmutableSerializable_1::CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    GlobalNamespace::PublicServerInfo CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
-    // Creating proxy method: LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData
-    // Maps to method: CreateFromSerializedData
-    GlobalNamespace::PublicServerInfo LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
+    // Offset: 0xDF1700
+    GlobalNamespace::PublicServerInfo CreateFromSerializedData_NEW(LiteNetLib::Utils::NetDataReader* reader);
+    // static public PublicServerInfo Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x15C64C0
+    static GlobalNamespace::PublicServerInfo Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // PublicServerInfo
   #pragma pack(pop)
   static check_size<sizeof(PublicServerInfo), 32 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __GlobalNamespace_PublicServerInfoSizeCheck;

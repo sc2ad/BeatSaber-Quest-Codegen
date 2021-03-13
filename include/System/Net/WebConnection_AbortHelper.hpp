@@ -39,10 +39,10 @@ namespace System::Net {
       return Connection;
     }
     // public System.Void Abort(System.Object sender, System.EventArgs args)
-    // Offset: 0x143BF00
+    // Offset: 0x140AD74
     void Abort(::Il2CppObject* sender, System::EventArgs* args);
     // public System.Void .ctor()
-    // Offset: 0x14354F8
+    // Offset: 0x14049D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -53,14 +53,14 @@ namespace LiteNetLib {
   class NetPeer;
   // Forward declaring type: ConnectionRequest
   class ConnectionRequest;
-  // Forward declaring type: DisconnectReason
-  struct DisconnectReason;
   // Forward declaring type: DisconnectInfo
   struct DisconnectInfo;
   // Forward declaring type: NetPacketReader
   class NetPacketReader;
   // Forward declaring type: UnconnectedMessageType
   struct UnconnectedMessageType;
+  // Forward declaring type: DisconnectReason
+  struct DisconnectReason;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
@@ -332,63 +332,63 @@ namespace GlobalNamespace {
     int64_t lastStatisticsUpdateTime;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1BC0C
+    // [CompilerGeneratedAttribute] Offset: 0xD05A70
     // private System.Action onConnectedEvent
     // Size: 0x8
     // Offset: 0x88
     System::Action* onConnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1BC1C
+    // [CompilerGeneratedAttribute] Offset: 0xD05A80
     // private System.Action`1<DisconnectedReason> onDisconnectedEvent
     // Size: 0x8
     // Offset: 0x90
     System::Action_1<GlobalNamespace::DisconnectedReason>* onDisconnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::DisconnectedReason>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1BC2C
+    // [CompilerGeneratedAttribute] Offset: 0xD05A90
     // private System.Action`1<ConnectionFailedReason> onConnectionFailedEvent
     // Size: 0x8
     // Offset: 0x98
     System::Action_1<GlobalNamespace::ConnectionFailedReason>* onConnectionFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::ConnectionFailedReason>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1BC3C
+    // [CompilerGeneratedAttribute] Offset: 0xD05AA0
     // private System.Action`1<IConnection> onConnectionConnectedEvent
     // Size: 0x8
     // Offset: 0xA0
     System::Action_1<GlobalNamespace::IConnection*>* onConnectionConnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnection*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1BC4C
+    // [CompilerGeneratedAttribute] Offset: 0xD05AB0
     // private System.Action`2<IConnection,DisconnectedReason> onConnectionDisconnectedEvent
     // Size: 0x8
     // Offset: 0xA8
     System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* onConnectionDisconnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1BC5C
+    // [CompilerGeneratedAttribute] Offset: 0xD05AC0
     // private System.Action`2<IConnection,System.Single> onLatencyUpdatedEvent
     // Size: 0x8
     // Offset: 0xB0
     System::Action_2<GlobalNamespace::IConnection*, float>* onLatencyUpdatedEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::IConnection*, float>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1BC6C
+    // [CompilerGeneratedAttribute] Offset: 0xD05AD0
     // private System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> onReceivedDataEvent
     // Size: 0x8
     // Offset: 0xB8
     System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>* onReceivedDataEvent;
     // Field size check
     static_assert(sizeof(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1BC7C
+    // [CompilerGeneratedAttribute] Offset: 0xD05AE0
     // private System.Action`2<System.Net.IPEndPoint,LiteNetLib.Utils.NetDataReader> onReceiveUnconnectedDataEvent
     // Size: 0x8
     // Offset: 0xC0
     System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>* onReceiveUnconnectedDataEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1BC8C
+    // [CompilerGeneratedAttribute] Offset: 0xD05AF0
     // private LiteNetLibConnectionManager/StatisticsUpdated onStatisticsUpdatedEvent
     // Size: 0x8
     // Offset: 0xC8
@@ -423,238 +423,243 @@ namespace GlobalNamespace {
     static int64_t _get_kStatisticsUpdateInterval();
     // Set static field: static private System.Int64 kStatisticsUpdateInterval
     static void _set_kStatisticsUpdateInterval(int64_t value);
+    // public System.Void add_onConnectedEvent(System.Action value)
+    // Offset: 0x1214660
+    void add_onConnectedEvent_NEW(System::Action* value);
+    // public System.Void remove_onConnectedEvent(System.Action value)
+    // Offset: 0x1214704
+    void remove_onConnectedEvent_NEW(System::Action* value);
+    // public System.Void add_onDisconnectedEvent(System.Action`1<DisconnectedReason> value)
+    // Offset: 0x12147A8
+    void add_onDisconnectedEvent_NEW(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
+    // public System.Void remove_onDisconnectedEvent(System.Action`1<DisconnectedReason> value)
+    // Offset: 0x121484C
+    void remove_onDisconnectedEvent_NEW(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
+    // public System.Void add_onConnectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
+    // Offset: 0x12148F0
+    void add_onConnectionFailedEvent_NEW(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
+    // public System.Void remove_onConnectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
+    // Offset: 0x1214994
+    void remove_onConnectionFailedEvent_NEW(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
+    // public System.Void add_onConnectionConnectedEvent(System.Action`1<IConnection> value)
+    // Offset: 0x1214A38
+    void add_onConnectionConnectedEvent_NEW(System::Action_1<GlobalNamespace::IConnection*>* value);
+    // public System.Void remove_onConnectionConnectedEvent(System.Action`1<IConnection> value)
+    // Offset: 0x1214ADC
+    void remove_onConnectionConnectedEvent_NEW(System::Action_1<GlobalNamespace::IConnection*>* value);
+    // public System.Void add_onConnectionDisconnectedEvent(System.Action`2<IConnection,DisconnectedReason> value)
+    // Offset: 0x1214B80
+    void add_onConnectionDisconnectedEvent_NEW(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* value);
+    // public System.Void remove_onConnectionDisconnectedEvent(System.Action`2<IConnection,DisconnectedReason> value)
+    // Offset: 0x1214C24
+    void remove_onConnectionDisconnectedEvent_NEW(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* value);
+    // public System.Void add_onLatencyUpdatedEvent(System.Action`2<IConnection,System.Single> value)
+    // Offset: 0x1214CC8
+    void add_onLatencyUpdatedEvent_NEW(System::Action_2<GlobalNamespace::IConnection*, float>* value);
+    // public System.Void remove_onLatencyUpdatedEvent(System.Action`2<IConnection,System.Single> value)
+    // Offset: 0x1214D6C
+    void remove_onLatencyUpdatedEvent_NEW(System::Action_2<GlobalNamespace::IConnection*, float>* value);
+    // public System.Void add_onReceivedDataEvent(System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> value)
+    // Offset: 0x1214E10
+    void add_onReceivedDataEvent_NEW(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>* value);
+    // public System.Void remove_onReceivedDataEvent(System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> value)
+    // Offset: 0x1214EB4
+    void remove_onReceivedDataEvent_NEW(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>* value);
     // public System.Void add_onReceiveUnconnectedDataEvent(System.Action`2<System.Net.IPEndPoint,LiteNetLib.Utils.NetDataReader> value)
-    // Offset: 0x11D6524
+    // Offset: 0x1214F58
     void add_onReceiveUnconnectedDataEvent(System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>* value);
     // public System.Void remove_onReceiveUnconnectedDataEvent(System.Action`2<System.Net.IPEndPoint,LiteNetLib.Utils.NetDataReader> value)
-    // Offset: 0x11D65C8
+    // Offset: 0x1214FFC
     void remove_onReceiveUnconnectedDataEvent(System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>* value);
     // public System.Void add_onStatisticsUpdatedEvent(LiteNetLibConnectionManager/StatisticsUpdated value)
-    // Offset: 0x11D666C
+    // Offset: 0x12150A0
     void add_onStatisticsUpdatedEvent(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated* value);
     // public System.Void remove_onStatisticsUpdatedEvent(LiteNetLibConnectionManager/StatisticsUpdated value)
-    // Offset: 0x11D6710
+    // Offset: 0x1215144
     void remove_onStatisticsUpdatedEvent(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated* value);
+    // public System.String get_userId()
+    // Offset: 0x12151E8
+    ::Il2CppString* get_userId_NEW();
+    // public System.String get_userName()
+    // Offset: 0x12151F0
+    ::Il2CppString* get_userName_NEW();
+    // public System.Boolean get_isConnected()
+    // Offset: 0x12151F8
+    bool get_isConnected_NEW();
+    // public System.Boolean get_isConnecting()
+    // Offset: 0x1215208
+    bool get_isConnecting_NEW();
+    // public System.Boolean get_isDisconnecting()
+    // Offset: 0x1215218
+    bool get_isDisconnecting_NEW();
+    // public System.Boolean get_isConnectionOwner()
+    // Offset: 0x1215228
+    bool get_isConnectionOwner_NEW();
     // public System.Boolean get_hasConnectionOwner()
-    // Offset: 0x11D6804
+    // Offset: 0x1215238
     bool get_hasConnectionOwner();
     // public System.Boolean get_isRelay()
-    // Offset: 0x11D6910
+    // Offset: 0x121533C
     bool get_isRelay();
     // public System.Boolean get_isServer()
-    // Offset: 0x11D6920
+    // Offset: 0x121534C
     bool get_isServer();
     // public System.Boolean get_isClient()
-    // Offset: 0x11D6930
+    // Offset: 0x121535C
     bool get_isClient();
+    // public System.Boolean get_isDisposed()
+    // Offset: 0x121536C
+    bool get_isDisposed_NEW();
+    // public System.Int32 get_connectionCount()
+    // Offset: 0x121537C
+    int get_connectionCount_NEW();
     // public System.String get_secret()
-    // Offset: 0x11D69A0
+    // Offset: 0x12153CC
     ::Il2CppString* get_secret();
     // public System.Int32 get_port()
-    // Offset: 0x11D69A8
+    // Offset: 0x12153D4
     int get_port();
     // public PacketEncryptionLayer get_encryptionLayer()
-    // Offset: 0x11D69C4
+    // Offset: 0x12153F0
     GlobalNamespace::PacketEncryptionLayer* get_encryptionLayer();
+    // public System.Void SendToAll(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
+    // Offset: 0x1215554
+    void SendToAll_NEW(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod);
+    // public System.Void SendToAll(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod, IConnection excludingConnection)
+    // Offset: 0x1215570
+    void SendToAll_NEW(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod, GlobalNamespace::IConnection* excludingConnection);
     // public System.Void SendUnconnectedMessage(LiteNetLib.Utils.NetDataWriter writer, System.Net.IPEndPoint endPoint)
-    // Offset: 0x11D6C50
+    // Offset: 0x1215628
     void SendUnconnectedMessage(LiteNetLib::Utils::NetDataWriter* writer, System::Net::IPEndPoint* endPoint);
     // public System.Void SendUnconnectedMessage(System.Byte[] message, System.Int32 offset, System.Int32 length, System.Net.IPEndPoint endPoint)
-    // Offset: 0x11D6C6C
+    // Offset: 0x1215644
     void SendUnconnectedMessage(::Array<uint8_t>* message, int offset, int length, System::Net::IPEndPoint* endPoint);
+    // public System.Void PollUpdate()
+    // Offset: 0x1215660
+    void PollUpdate_NEW();
+    // public System.Boolean Init(IConnectionInitParams`1<T> initParams)
+    // Offset: 0xFFFFFFFF
+    template<class T>
+    bool Init_NEW(GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
+      static_assert(std::is_base_of_v<GlobalNamespace::IConnectionManager, std::remove_pointer_t<T>>);
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LiteNetLibConnectionManager::Init_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(initParams)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___generic__method, initParams);
+    }
     // public System.Void SetSecret(System.String secret)
-    // Offset: 0x11D701C
+    // Offset: 0x12159F4
     void SetSecret(::Il2CppString* secret);
     // public System.Void ConnectToEndPoint(System.Net.IPEndPoint remoteEndPoint, System.String remoteUserId, System.String remoteUserName, System.Boolean remoteUserIsConnectionOwner)
-    // Offset: 0x11D7024
+    // Offset: 0x12159FC
     void ConnectToEndPoint(System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* remoteUserId, ::Il2CppString* remoteUserName, bool remoteUserIsConnectionOwner);
+    // public System.Void Dispose()
+    // Offset: 0x1215C1C
+    void Dispose_NEW();
     // public System.Threading.Tasks.Task DisposeAsync()
-    // Offset: 0x11D72BC
+    // Offset: 0x1215C98
     System::Threading::Tasks::Task* DisposeAsync();
     // private System.Void DisposeInternal()
-    // Offset: 0x11D7270
+    // Offset: 0x1215C4C
     void DisposeInternal();
+    // public System.Void Disconnect(DisconnectedReason disconnectedReason)
+    // Offset: 0x1215D34
+    void Disconnect_NEW(GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void DisconnectInternal(DisconnectedReason disconnectedReason, ConnectionFailedReason connectionFailedReason)
-    // Offset: 0x11D7360
+    // Offset: 0x1215D3C
     void DisconnectInternal(GlobalNamespace::DisconnectedReason disconnectedReason, GlobalNamespace::ConnectionFailedReason connectionFailedReason);
     // private System.Boolean TryStartNetManager(System.Int32 port, System.Boolean enableBackgroundSentry)
-    // Offset: 0x11D7448
+    // Offset: 0x1215E24
     bool TryStartNetManager(int port, bool enableBackgroundSentry);
     // private System.Void StartBackgroundSentry()
-    // Offset: 0x11D7540
+    // Offset: 0x1215F1C
     void StartBackgroundSentry();
     // private System.Void CheckSentryState()
-    // Offset: 0x11D6D38
+    // Offset: 0x1215710
     void CheckSentryState();
     // private System.Void UpdateStatistics()
-    // Offset: 0x11D6D94
+    // Offset: 0x121576C
     void UpdateStatistics();
+    // public IConnection GetConnection(System.Int32 index)
+    // Offset: 0x12163D8
+    GlobalNamespace::IConnection* GetConnection_NEW(int index);
     // public System.Boolean IsConnectedToUser(System.String userId)
-    // Offset: 0x11D7A90
+    // Offset: 0x1216450
     bool IsConnectedToUser(::Il2CppString* userId);
     // public System.Boolean HasConnectionToEndPoint(System.Net.IPEndPoint endPoint)
-    // Offset: 0x11D7B44
+    // Offset: 0x1216504
     bool HasConnectionToEndPoint(System::Net::IPEndPoint* endPoint);
     // private System.Boolean HasPendingConnectionToEndPoint(System.Net.IPEndPoint endPoint)
-    // Offset: 0x11D7C00
+    // Offset: 0x12165C0
     bool HasPendingConnectionToEndPoint(System::Net::IPEndPoint* endPoint);
+    // private System.Void LiteNetLib.INetEventListener.OnPeerConnected(LiteNetLib.NetPeer peer)
+    // Offset: 0x121667C
+    void LiteNetLib_INetEventListener_OnPeerConnected_NEW(LiteNetLib::NetPeer* peer);
+    // private System.Void LiteNetLib.INetEventListener.OnNetworkError(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketError)
+    // Offset: 0x1216960
+    void LiteNetLib_INetEventListener_OnNetworkError_NEW(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketError);
+    // private System.Void LiteNetLib.INetEventListener.OnNetworkLatencyUpdate(LiteNetLib.NetPeer peer, System.Int32 latencyMs)
+    // Offset: 0x121697C
+    void LiteNetLib_INetEventListener_OnNetworkLatencyUpdate_NEW(LiteNetLib::NetPeer* peer, int latencyMs);
+    // private System.Void LiteNetLib.INetEventListener.OnConnectionRequest(LiteNetLib.ConnectionRequest request)
+    // Offset: 0x1216AEC
+    void LiteNetLib_INetEventListener_OnConnectionRequest_NEW(LiteNetLib::ConnectionRequest* request);
+    // private System.Void LiteNetLib.INetEventListener.OnPeerDisconnected(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectInfo disconnectInfo)
+    // Offset: 0x1216E5C
+    void LiteNetLib_INetEventListener_OnPeerDisconnected_NEW(LiteNetLib::NetPeer* peer, LiteNetLib::DisconnectInfo disconnectInfo);
+    // private System.Void LiteNetLib.INetEventListener.OnNetworkReceive(LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod)
+    // Offset: 0x12170C0
+    void LiteNetLib_INetEventListener_OnNetworkReceive_NEW(LiteNetLib::NetPeer* peer, LiteNetLib::NetPacketReader* reader, LiteNetLib::DeliveryMethod deliveryMethod);
+    // private System.Void LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType)
+    // Offset: 0x1217174
+    void LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected_NEW(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPacketReader* reader, LiteNetLib::UnconnectedMessageType messageType);
     // private LiteNetLibConnectionManager/NetPeerConnection GetConnection(LiteNetLib.NetPeer peer)
-    // Offset: 0x11D8054
+    // Offset: 0x1216A14
     GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* GetConnection(LiteNetLib::NetPeer* peer);
     // private System.Void AcceptAllPendingRequests()
-    // Offset: 0x11D7EDC
+    // Offset: 0x121689C
     void AcceptAllPendingRequests();
     // private System.Void TryAccept(LiteNetLib.ConnectionRequest request, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x11D8308
+    // Offset: 0x1216CA0
     void TryAccept(LiteNetLib::ConnectionRequest* request, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner);
     // private System.Void CreatePendingConnection(LiteNetLib.NetPeer peer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x11D7160
+    // Offset: 0x1215B38
     void CreatePendingConnection(LiteNetLib::NetPeer* peer, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner);
     // private System.Void RemoveConnection(LiteNetLib.NetPeer netPeer, LiteNetLib.DisconnectReason reason)
-    // Offset: 0x11D8528
+    // Offset: 0x1216EC0
     void RemoveConnection(LiteNetLib::NetPeer* netPeer, LiteNetLib::DisconnectReason reason);
     // private System.Void TryDisconnect(LiteNetLib.DisconnectReason reason)
-    // Offset: 0x11D8404
+    // Offset: 0x1216D9C
     void TryDisconnect(LiteNetLib::DisconnectReason reason);
     // private DisconnectedReason ToDisconnectedReason(LiteNetLib.DisconnectReason disconnectReason)
-    // Offset: 0x11D8970
+    // Offset: 0x12172B8
     GlobalNamespace::DisconnectedReason ToDisconnectedReason(LiteNetLib::DisconnectReason disconnectReason);
     // private ConnectionFailedReason ToConnectionFailedReason(LiteNetLib.DisconnectReason disconnectReason)
-    // Offset: 0x11D89A8
+    // Offset: 0x12172F0
     GlobalNamespace::ConnectionFailedReason ToConnectionFailedReason(LiteNetLib::DisconnectReason disconnectReason);
     // private LiteNetLib.Utils.NetDataWriter GetConnectionMessage()
-    // Offset: 0x11D70B0
+    // Offset: 0x1215A88
     LiteNetLib::Utils::NetDataWriter* GetConnectionMessage();
     // private System.Boolean ParseConnectionMessage(LiteNetLib.Utils.NetDataReader reader, out System.String secret, out System.String userId, out System.String userName, out System.Boolean isConnectionOwner)
-    // Offset: 0x11D8240
+    // Offset: 0x1216C00
     bool ParseConnectionMessage(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppString*& secret, ::Il2CppString*& userId, ::Il2CppString*& userName, bool& isConnectionOwner);
     // private System.Threading.Tasks.Task BackgroundDisconnectSentry()
-    // Offset: 0x11D89BC
+    // Offset: 0x1217304
     System::Threading::Tasks::Task* BackgroundDisconnectSentry();
     // private System.Threading.Tasks.Task BackgroundShutdownSentry()
-    // Offset: 0x11D8AE4
+    // Offset: 0x1217414
     System::Threading::Tasks::Task* BackgroundShutdownSentry();
     // private System.Void Log(System.String msg)
-    // Offset: 0x11D8C0C
+    // Offset: 0x1217524
     void Log(::Il2CppString* msg);
     // private System.Void LogError(System.String msg)
-    // Offset: 0x11D8C90
+    // Offset: 0x12175A8
     void LogError(::Il2CppString* msg);
     // private System.Void <DisposeAsync>b__97_0()
-    // Offset: 0x11D8D14
+    // Offset: 0x121762C
     void $DisposeAsync$b__97_0();
-    // public System.Void add_onConnectedEvent(System.Action value)
-    // Offset: 0x11D5C2C
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::add_onConnectedEvent(System.Action value)
-    void add_onConnectedEvent(System::Action* value);
-    // public System.Void remove_onConnectedEvent(System.Action value)
-    // Offset: 0x11D5CD0
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::remove_onConnectedEvent(System.Action value)
-    void remove_onConnectedEvent(System::Action* value);
-    // public System.Void add_onDisconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x11D5D74
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::add_onDisconnectedEvent(System.Action`1<DisconnectedReason> value)
-    void add_onDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
-    // public System.Void remove_onDisconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x11D5E18
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::remove_onDisconnectedEvent(System.Action`1<DisconnectedReason> value)
-    void remove_onDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
-    // public System.Void add_onConnectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x11D5EBC
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::add_onConnectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    void add_onConnectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
-    // public System.Void remove_onConnectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x11D5F60
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::remove_onConnectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    void remove_onConnectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
-    // public System.Void add_onConnectionConnectedEvent(System.Action`1<IConnection> value)
-    // Offset: 0x11D6004
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::add_onConnectionConnectedEvent(System.Action`1<IConnection> value)
-    void add_onConnectionConnectedEvent(System::Action_1<GlobalNamespace::IConnection*>* value);
-    // public System.Void remove_onConnectionConnectedEvent(System.Action`1<IConnection> value)
-    // Offset: 0x11D60A8
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::remove_onConnectionConnectedEvent(System.Action`1<IConnection> value)
-    void remove_onConnectionConnectedEvent(System::Action_1<GlobalNamespace::IConnection*>* value);
-    // public System.Void add_onConnectionDisconnectedEvent(System.Action`2<IConnection,DisconnectedReason> value)
-    // Offset: 0x11D614C
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::add_onConnectionDisconnectedEvent(System.Action`2<IConnection,DisconnectedReason> value)
-    void add_onConnectionDisconnectedEvent(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* value);
-    // public System.Void remove_onConnectionDisconnectedEvent(System.Action`2<IConnection,DisconnectedReason> value)
-    // Offset: 0x11D61F0
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::remove_onConnectionDisconnectedEvent(System.Action`2<IConnection,DisconnectedReason> value)
-    void remove_onConnectionDisconnectedEvent(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* value);
-    // public System.Void add_onLatencyUpdatedEvent(System.Action`2<IConnection,System.Single> value)
-    // Offset: 0x11D6294
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::add_onLatencyUpdatedEvent(System.Action`2<IConnection,System.Single> value)
-    void add_onLatencyUpdatedEvent(System::Action_2<GlobalNamespace::IConnection*, float>* value);
-    // public System.Void remove_onLatencyUpdatedEvent(System.Action`2<IConnection,System.Single> value)
-    // Offset: 0x11D6338
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::remove_onLatencyUpdatedEvent(System.Action`2<IConnection,System.Single> value)
-    void remove_onLatencyUpdatedEvent(System::Action_2<GlobalNamespace::IConnection*, float>* value);
-    // public System.Void add_onReceivedDataEvent(System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> value)
-    // Offset: 0x11D63DC
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::add_onReceivedDataEvent(System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> value)
-    void add_onReceivedDataEvent(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>* value);
-    // public System.Void remove_onReceivedDataEvent(System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> value)
-    // Offset: 0x11D6480
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::remove_onReceivedDataEvent(System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> value)
-    void remove_onReceivedDataEvent(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>* value);
-    // public System.String get_userId()
-    // Offset: 0x11D67B4
-    // Implemented from: IConnectionManager
-    // Base method: System.String IConnectionManager::get_userId()
-    ::Il2CppString* get_userId();
-    // public System.String get_userName()
-    // Offset: 0x11D67BC
-    // Implemented from: IConnectionManager
-    // Base method: System.String IConnectionManager::get_userName()
-    ::Il2CppString* get_userName();
-    // public System.Boolean get_isConnected()
-    // Offset: 0x11D67C4
-    // Implemented from: IConnectionManager
-    // Base method: System.Boolean IConnectionManager::get_isConnected()
-    bool get_isConnected();
-    // public System.Boolean get_isConnecting()
-    // Offset: 0x11D67D4
-    // Implemented from: IConnectionManager
-    // Base method: System.Boolean IConnectionManager::get_isConnecting()
-    bool get_isConnecting();
-    // public System.Boolean get_isDisconnecting()
-    // Offset: 0x11D67E4
-    // Implemented from: IConnectionManager
-    // Base method: System.Boolean IConnectionManager::get_isDisconnecting()
-    bool get_isDisconnecting();
-    // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x11D67F4
-    // Implemented from: IConnectionManager
-    // Base method: System.Boolean IConnectionManager::get_isConnectionOwner()
-    bool get_isConnectionOwner();
-    // public System.Boolean get_isDisposed()
-    // Offset: 0x11D6940
-    // Implemented from: IConnectionManager
-    // Base method: System.Boolean IConnectionManager::get_isDisposed()
-    bool get_isDisposed();
-    // public System.Int32 get_connectionCount()
-    // Offset: 0x11D6950
-    // Implemented from: IConnectionManager
-    // Base method: System.Int32 IConnectionManager::get_connectionCount()
-    int get_connectionCount();
     // public System.Void .ctor()
-    // Offset: 0x11D69CC
+    // Offset: 0x12153F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -662,86 +667,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LiteNetLibConnectionManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager*, creationType>()));
     }
-    // public System.Void SendToAll(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x11D6B7C
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::SendToAll(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    void SendToAll(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod);
-    // public System.Void SendToAll(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod, IConnection excludingConnection)
-    // Offset: 0x11D6B98
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::SendToAll(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod, IConnection excludingConnection)
-    void SendToAll(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod, GlobalNamespace::IConnection* excludingConnection);
-    // public System.Void PollUpdate()
-    // Offset: 0x11D6C88
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::PollUpdate()
-    void PollUpdate();
-    // public System.Boolean Init(IConnectionInitParams`1<T> initParams)
-    // Offset: 0xFFFFFFFF
-    // Implemented from: IConnectionManager
-    // Base method: System.Boolean IConnectionManager::Init(IConnectionInitParams`1<T> initParams)
-    template<class T>
-    bool Init(GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
-      static_assert(std::is_base_of_v<GlobalNamespace::IConnectionManager, std::remove_pointer_t<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LiteNetLibConnectionManager::Init");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(initParams)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___generic__method, initParams);
-    }
-    // public System.Void Dispose()
-    // Offset: 0x11D7240
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose();
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose();
-    // public System.Void Disconnect(DisconnectedReason disconnectedReason)
-    // Offset: 0x11D7358
-    // Implemented from: IConnectionManager
-    // Base method: System.Void IConnectionManager::Disconnect(DisconnectedReason disconnectedReason)
-    void Disconnect(GlobalNamespace::DisconnectedReason disconnectedReason);
-    // public IConnection GetConnection(System.Int32 index)
-    // Offset: 0x11D7A18
-    // Implemented from: IConnectionManager
-    // Base method: IConnection IConnectionManager::GetConnection(System.Int32 index)
-    GlobalNamespace::IConnection* GetConnection(int index);
-    // private System.Void LiteNetLib.INetEventListener.OnPeerConnected(LiteNetLib.NetPeer peer)
-    // Offset: 0x11D7CBC
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnPeerConnected(LiteNetLib.NetPeer peer)
-    void LiteNetLib_INetEventListener_OnPeerConnected(LiteNetLib::NetPeer* peer);
-    // private System.Void LiteNetLib.INetEventListener.OnNetworkError(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketError)
-    // Offset: 0x11D7FA0
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnNetworkError(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketError)
-    void LiteNetLib_INetEventListener_OnNetworkError(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketError);
-    // private System.Void LiteNetLib.INetEventListener.OnNetworkLatencyUpdate(LiteNetLib.NetPeer peer, System.Int32 latencyMs)
-    // Offset: 0x11D7FBC
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnNetworkLatencyUpdate(LiteNetLib.NetPeer peer, System.Int32 latencyMs)
-    void LiteNetLib_INetEventListener_OnNetworkLatencyUpdate(LiteNetLib::NetPeer* peer, int latencyMs);
-    // private System.Void LiteNetLib.INetEventListener.OnConnectionRequest(LiteNetLib.ConnectionRequest request)
-    // Offset: 0x11D812C
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnConnectionRequest(LiteNetLib.ConnectionRequest request)
-    void LiteNetLib_INetEventListener_OnConnectionRequest(LiteNetLib::ConnectionRequest* request);
-    // private System.Void LiteNetLib.INetEventListener.OnPeerDisconnected(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectInfo disconnectInfo)
-    // Offset: 0x11D84C4
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnPeerDisconnected(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectInfo disconnectInfo)
-    void LiteNetLib_INetEventListener_OnPeerDisconnected(LiteNetLib::NetPeer* peer, LiteNetLib::DisconnectInfo disconnectInfo);
-    // private System.Void LiteNetLib.INetEventListener.OnNetworkReceive(LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x11D8728
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnNetworkReceive(LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod)
-    void LiteNetLib_INetEventListener_OnNetworkReceive(LiteNetLib::NetPeer* peer, LiteNetLib::NetPacketReader* reader, LiteNetLib::DeliveryMethod deliveryMethod);
-    // private System.Void LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType)
-    // Offset: 0x11D87DC
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnNetworkReceiveUnconnected(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType)
-    void LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPacketReader* reader, LiteNetLib::UnconnectedMessageType messageType);
   }; // LiteNetLibConnectionManager
   #pragma pack(pop)
   static check_size<sizeof(LiteNetLibConnectionManager), 200 + sizeof(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*)> __GlobalNamespace_LiteNetLibConnectionManagerSizeCheck;

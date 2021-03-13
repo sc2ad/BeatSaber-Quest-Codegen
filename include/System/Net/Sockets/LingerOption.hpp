@@ -34,17 +34,17 @@ namespace System::Net::Sockets {
     // Creating value type constructor for type: LingerOption
     LingerOption(bool enabled_ = {}, int lingerTime_ = {}) noexcept : enabled{enabled_}, lingerTime{lingerTime_} {}
     // public System.Void .ctor(System.Boolean enable, System.Int32 seconds)
-    // Offset: 0x13610C0
+    // Offset: 0x1332F14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LingerOption* New_ctor(bool enable, int seconds) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::LingerOption::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LingerOption*, creationType>(enable, seconds)));
     }
     // public System.Void set_Enabled(System.Boolean value)
-    // Offset: 0x1361100
+    // Offset: 0x1332F54
     void set_Enabled(bool value);
     // public System.Void set_LingerTime(System.Int32 value)
-    // Offset: 0x136110C
+    // Offset: 0x1332F60
     void set_LingerTime(int value);
   }; // System.Net.Sockets.LingerOption
   #pragma pack(pop)

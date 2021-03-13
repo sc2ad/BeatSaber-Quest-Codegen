@@ -28,15 +28,10 @@ namespace System::Threading {
       return *reinterpret_cast<System::Collections::IComparer*>(this);
     }
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x17C04FC
-    // Implemented from: System.Collections.IComparer
-    // Base method: System.Int32 IComparer::Compare(System.Object x, System.Object y)
-    int Compare(::Il2CppObject* x, ::Il2CppObject* y);
-    // Creating proxy method: System_Collections_IComparer_Compare
-    // Maps to method: Compare
-    int System_Collections_IComparer_Compare(::Il2CppObject* x, ::Il2CppObject* y);
+    // Offset: 0x16E2CB8
+    int Compare_NEW(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Void .ctor()
-    // Offset: 0x17BF7B8
+    // Offset: 0x16E1FB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -8,6 +8,8 @@
 #include "Tweening/InterpolationType.hpp"
 // Including type: Tweening.EaseType
 #include "Tweening/EaseType.hpp"
+// Including type: System.Single
+#include "System/Single.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -33,21 +35,21 @@ namespace Tweening {
   // [] Offset: FFFFFFFF
   class Tween : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD457BC
+    // [CompilerGeneratedAttribute] Offset: 0xD31BA0
     // private System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD457CC
+    // [CompilerGeneratedAttribute] Offset: 0xD31BB0
     // private System.Single <duration>k__BackingField
     // Size: 0x4
     // Offset: 0x14
     float duration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD457DC
+    // [CompilerGeneratedAttribute] Offset: 0xD31BC0
     // private System.Boolean <loop>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -56,7 +58,7 @@ namespace Tweening {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: loop and: delay
     char __padding2[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD457EC
+    // [CompilerGeneratedAttribute] Offset: 0xD31BD0
     // private System.Single <delay>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
@@ -81,14 +83,14 @@ namespace Tweening {
     System::Action* onKilled;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD457FC
+    // [CompilerGeneratedAttribute] Offset: 0xD31BE0
     // private System.Boolean <isStarted>k__BackingField
     // Size: 0x1
     // Offset: 0x38
     bool isStarted;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD4580C
+    // [CompilerGeneratedAttribute] Offset: 0xD31BF0
     // private System.Boolean <isKilled>k__BackingField
     // Size: 0x1
     // Offset: 0x39
@@ -97,14 +99,14 @@ namespace Tweening {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isKilled and: interpolationType
     char __padding8[0x2] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD4581C
+    // [CompilerGeneratedAttribute] Offset: 0xD31C00
     // private Tweening.InterpolationType <interpolationType>k__BackingField
     // Size: 0x4
     // Offset: 0x3C
     Tweening::InterpolationType interpolationType;
     // Field size check
     static_assert(sizeof(Tweening::InterpolationType) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD4582C
+    // [CompilerGeneratedAttribute] Offset: 0xD31C10
     // private Tweening.EaseType <easeType>k__BackingField
     // Size: 0x4
     // Offset: 0x40
@@ -113,7 +115,7 @@ namespace Tweening {
     static_assert(sizeof(Tweening::EaseType) == 0x4);
     // Padding between fields: easeType and: animationCurve
     char __padding10[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD4583C
+    // [CompilerGeneratedAttribute] Offset: 0xD31C20
     // private UnityEngine.AnimationCurve <animationCurve>k__BackingField
     // Size: 0x8
     // Offset: 0x48
@@ -122,86 +124,92 @@ namespace Tweening {
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
     // Creating value type constructor for type: Tween
     Tween(float time_ = {}, float duration_ = {}, bool loop_ = {}, float delay_ = {}, System::Action* onStart_ = {}, System::Action* onCompleted_ = {}, System::Action* onKilled_ = {}, bool isStarted_ = {}, bool isKilled_ = {}, Tweening::InterpolationType interpolationType_ = {}, Tweening::EaseType easeType_ = {}, UnityEngine::AnimationCurve* animationCurve_ = {}) noexcept : time{time_}, duration{duration_}, loop{loop_}, delay{delay_}, onStart{onStart_}, onCompleted{onCompleted_}, onKilled{onKilled_}, isStarted{isStarted_}, isKilled{isKilled_}, interpolationType{interpolationType_}, easeType{easeType_}, animationCurve{animationCurve_} {}
+    // static field const value: static protected System.Single kEpsilon
+    static constexpr const float kEpsilon = 0.001;
+    // Get static field: static protected System.Single kEpsilon
+    static float _get_kEpsilon();
+    // Set static field: static protected System.Single kEpsilon
+    static void _set_kEpsilon(float value);
     // public System.Single get_progress()
-    // Offset: 0xF4D250
+    // Offset: 0x107EC00
     float get_progress();
     // public System.Single get_time()
-    // Offset: 0xF4D2EC
+    // Offset: 0x107EC9C
     float get_time();
     // protected System.Void set_time(System.Single value)
-    // Offset: 0xF4D2F4
+    // Offset: 0x107ECA4
     void set_time(float value);
     // public System.Single get_duration()
-    // Offset: 0xF4D2FC
+    // Offset: 0x107ECAC
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0xF4D304
+    // Offset: 0x107ECB4
     void set_duration(float value);
     // public System.Boolean get_loop()
-    // Offset: 0xF4D30C
+    // Offset: 0x107ECBC
     bool get_loop();
     // public System.Void set_loop(System.Boolean value)
-    // Offset: 0xF4D314
+    // Offset: 0x107ECC4
     void set_loop(bool value);
     // public System.Single get_delay()
-    // Offset: 0xF4D320
+    // Offset: 0x107ECD0
     float get_delay();
     // public System.Void set_delay(System.Single value)
-    // Offset: 0xF4D328
+    // Offset: 0x107ECD8
     void set_delay(float value);
     // public System.Boolean get_isStarted()
-    // Offset: 0xF4D330
+    // Offset: 0x107ECE0
     bool get_isStarted();
     // protected System.Void set_isStarted(System.Boolean value)
-    // Offset: 0xF4D338
+    // Offset: 0x107ECE8
     void set_isStarted(bool value);
     // public System.Boolean get_isActive()
-    // Offset: 0xF4D344
+    // Offset: 0x107ECF4
     bool get_isActive();
     // public System.Boolean get_isComplete()
-    // Offset: 0xF4D374
+    // Offset: 0x107ED24
     bool get_isComplete();
     // public System.Boolean get_isKilled()
-    // Offset: 0xF4D394
+    // Offset: 0x107ED44
     bool get_isKilled();
     // private System.Void set_isKilled(System.Boolean value)
-    // Offset: 0xF4D39C
+    // Offset: 0x107ED4C
     void set_isKilled(bool value);
     // public Tweening.InterpolationType get_interpolationType()
-    // Offset: 0xF4D3A8
+    // Offset: 0x107ED58
     Tweening::InterpolationType get_interpolationType();
     // protected System.Void set_interpolationType(Tweening.InterpolationType value)
-    // Offset: 0xF4D3B0
+    // Offset: 0x107ED60
     void set_interpolationType(Tweening::InterpolationType value);
     // public Tweening.EaseType get_easeType()
-    // Offset: 0xF4D3B8
+    // Offset: 0x107ED68
     Tweening::EaseType get_easeType();
     // public System.Void set_easeType(Tweening.EaseType value)
-    // Offset: 0xF4D3C0
+    // Offset: 0x107ED70
     void set_easeType(Tweening::EaseType value);
     // public UnityEngine.AnimationCurve get_animationCurve()
-    // Offset: 0xF4D3C8
+    // Offset: 0x107ED78
     UnityEngine::AnimationCurve* get_animationCurve();
     // protected System.Void set_animationCurve(UnityEngine.AnimationCurve value)
-    // Offset: 0xF4D3D0
+    // Offset: 0x107ED80
     void set_animationCurve(UnityEngine::AnimationCurve* value);
     // public System.Void Kill()
-    // Offset: 0xF4D3D8
+    // Offset: 0x107ED88
     void Kill();
     // public System.Void Restart()
-    // Offset: 0xF4D3E4
+    // Offset: 0x107ED94
     void Restart();
     // public System.Void Update(System.Single deltaTime)
     // Offset: 0xFFFFFFFF
-    void Update(float deltaTime);
+    void Update_NEW(float deltaTime);
     // public System.Void Sample(System.Single t)
     // Offset: 0xFFFFFFFF
-    void Sample(float t);
+    void Sample_NEW(float t);
     // protected System.Single Interpolate(System.Single t)
-    // Offset: 0xF4CC28
+    // Offset: 0x107E5D8
     float Interpolate(float t);
     // protected System.Void .ctor()
-    // Offset: 0xF4D3F0
+    // Offset: 0x107EDA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

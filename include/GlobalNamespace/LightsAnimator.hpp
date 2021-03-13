@@ -33,6 +33,11 @@ namespace UnityEngine {
   // Forward declaring type: Color
   struct Color;
 }
+// Forward declaring namespace: System::Collections
+namespace System::Collections {
+  // Forward declaring type: IEnumerator
+  class IEnumerator;
+}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -42,6 +47,8 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class LightsAnimator : public UnityEngine::MonoBehaviour {
     public:
+    // Nested type: GlobalNamespace::LightsAnimator::$DisableDirectionalLightsCoroutine$d__11
+    class $DisableDirectionalLightsCoroutine$d__11;
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x18
@@ -54,7 +61,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::DirectionalLight*>* directionalLights;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::DirectionalLight*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3B214
+    // [InjectAttribute] Offset: 0xD26ABC
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -72,25 +79,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x10E50D4
+    // Offset: 0x109DE78
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10E5200
+    // Offset: 0x109DF9C
     void OnDestroy();
     // public System.Void AnimateToColor(UnityEngine.Color color, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x10E5298
+    // Offset: 0x109E034
     void AnimateToColor(UnityEngine::Color color, float duration, Tweening::EaseType easeType);
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x10E53A8
+    // Offset: 0x109E144
     void SetColor(UnityEngine::Color color);
     // private System.Void SetLightsColor(UnityEngine.Color color)
-    // Offset: 0x10E540C
+    // Offset: 0x109E1A8
     void SetLightsColor(UnityEngine::Color color);
     // public System.Void SetLightsWidth(System.Single width)
-    // Offset: 0x10E5514
+    // Offset: 0x109E2B0
     void SetLightsWidth(float width);
+    // public System.Void DisableDirectionalLights(System.Single delay)
+    // Offset: 0x109E32C
+    void DisableDirectionalLights(float delay);
+    // private System.Collections.IEnumerator DisableDirectionalLightsCoroutine(System.Single delay)
+    // Offset: 0x109E36C
+    System::Collections::IEnumerator* DisableDirectionalLightsCoroutine(float delay);
     // public System.Void .ctor()
-    // Offset: 0x10E5590
+    // Offset: 0x109E418
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

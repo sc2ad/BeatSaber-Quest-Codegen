@@ -59,71 +59,39 @@ namespace System::Net {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<::Il2CppString*>*>(this);
     }
     // System.Void .ctor(System.Net.HttpListener listener)
-    // Offset: 0x14FCB28
+    // Offset: 0x1486274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerPrefixCollection* New_ctor(System::Net::HttpListener* listener) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerPrefixCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerPrefixCollection*, creationType>(listener)));
     }
-    // public System.Void CopyTo(System.String[] array, System.Int32 offset)
-    // Offset: 0x14FF8C0
-    void CopyTo(::Array<::Il2CppString*>* array, int offset);
-    // public System.Collections.Generic.IEnumerator`1<System.String> GetEnumerator()
-    // Offset: 0x14FF93C
-    System::Collections::Generic::IEnumerator_1<::Il2CppString*>* GetEnumerator();
     // public System.Int32 get_Count()
-    // Offset: 0x14FEA58
-    // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Int32 ICollection_1::get_Count()
-    int get_Count();
-    // Creating proxy method: System_Collections_Generic_ICollection_1_get_Count
-    // Maps to method: get_Count
-    int System_Collections_Generic_ICollection_1_get_Count();
+    // Offset: 0x1488030
+    int get_Count_NEW();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x14FF3B8
-    // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Boolean ICollection_1::get_IsReadOnly()
-    bool get_IsReadOnly();
-    // Creating proxy method: System_Collections_Generic_ICollection_1_get_IsReadOnly
-    // Maps to method: get_IsReadOnly
-    bool System_Collections_Generic_ICollection_1_get_IsReadOnly();
+    // Offset: 0x1488924
+    bool get_IsReadOnly_NEW();
     // public System.Void Add(System.String uriPrefix)
-    // Offset: 0x14FF3C0
-    // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Void ICollection_1::Add(System.String uriPrefix)
-    void Add(::Il2CppString* uriPrefix);
-    // Creating proxy method: System_Collections_Generic_ICollection_1_Add
-    // Maps to method: Add
-    void System_Collections_Generic_ICollection_1_Add(::Il2CppString* uriPrefix);
+    // Offset: 0x148892C
+    void Add_NEW(::Il2CppString* uriPrefix);
     // public System.Void Clear()
-    // Offset: 0x14FF7A0
-    // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Void ICollection_1::Clear()
-    void Clear();
-    // Creating proxy method: System_Collections_Generic_ICollection_1_Clear
-    // Maps to method: Clear
-    void System_Collections_Generic_ICollection_1_Clear();
+    // Offset: 0x1488D0C
+    void Clear_NEW();
     // public System.Boolean Contains(System.String uriPrefix)
-    // Offset: 0x14FF84C
-    // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Boolean ICollection_1::Contains(System.String uriPrefix)
-    bool Contains(::Il2CppString* uriPrefix);
-    // Creating proxy method: System_Collections_Generic_ICollection_1_Contains
-    // Maps to method: Contains
-    bool System_Collections_Generic_ICollection_1_Contains(::Il2CppString* uriPrefix);
+    // Offset: 0x1488DB8
+    bool Contains_NEW(::Il2CppString* uriPrefix);
+    // public System.Void CopyTo(System.String[] array, System.Int32 offset)
+    // Offset: 0x1488E2C
+    void CopyTo_NEW(::Array<::Il2CppString*>* array, int offset);
+    // public System.Collections.Generic.IEnumerator`1<System.String> GetEnumerator()
+    // Offset: 0x1488EA8
+    System::Collections::Generic::IEnumerator_1<::Il2CppString*>* GetEnumerator_NEW();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x14FF9C8
-    // Implemented from: System.Collections.IEnumerable
-    // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
-    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+    // Offset: 0x1488F34
+    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator_NEW();
     // public System.Boolean Remove(System.String uriPrefix)
-    // Offset: 0x14FFA54
-    // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Boolean ICollection_1::Remove(System.String uriPrefix)
-    bool Remove(::Il2CppString* uriPrefix);
-    // Creating proxy method: System_Collections_Generic_ICollection_1_Remove
-    // Maps to method: Remove
-    bool System_Collections_Generic_ICollection_1_Remove(::Il2CppString* uriPrefix);
+    // Offset: 0x1488FC0
+    bool Remove_NEW(::Il2CppString* uriPrefix);
   }; // System.Net.HttpListenerPrefixCollection
   #pragma pack(pop)
   static check_size<sizeof(HttpListenerPrefixCollection), 24 + sizeof(System::Net::HttpListener*)> __System_Net_HttpListenerPrefixCollectionSizeCheck;

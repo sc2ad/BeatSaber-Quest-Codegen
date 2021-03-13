@@ -20,8 +20,8 @@ namespace GlobalNamespace {
   class AudioTimeSyncController;
   // Forward declaring type: AudioPitchGainEffect
   class AudioPitchGainEffect;
-  // Forward declaring type: BeatmapObjectCallbackController
-  class BeatmapObjectCallbackController;
+  // Forward declaring type: IBeatmapObjectCallbackController
+  class IBeatmapObjectCallbackController;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -49,13 +49,13 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioPitchGainEffect* failAudioPitchGainEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioPitchGainEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3D528
-    // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // [InjectAttribute] Offset: 0xD295B4
+    // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
-    GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
+    GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
     // private System.Boolean _songDidFinish
     // Size: 0x1
     // Offset: 0x38
@@ -63,55 +63,49 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: GameSongController
-    GameSongController(GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::AudioPitchGainEffect* failAudioPitchGainEffect_ = {}, GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, bool songDidFinish_ = {}) noexcept : audioTimeSyncController{audioTimeSyncController_}, failAudioPitchGainEffect{failAudioPitchGainEffect_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, songDidFinish{songDidFinish_} {}
+    GameSongController(GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::AudioPitchGainEffect* failAudioPitchGainEffect_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, bool songDidFinish_ = {}) noexcept : audioTimeSyncController{audioTimeSyncController_}, failAudioPitchGainEffect{failAudioPitchGainEffect_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, songDidFinish{songDidFinish_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IStartSeekSongController
     operator GlobalNamespace::IStartSeekSongController() noexcept {
       return *reinterpret_cast<GlobalNamespace::IStartSeekSongController*>(this);
     }
     // public System.Single get_songLength()
-    // Offset: 0xF3A6AC
+    // Offset: 0xF3B9B0
     float get_songLength();
-    // protected System.Void LateUpdate()
-    // Offset: 0xF3A6E4
-    void LateUpdate();
-    // public System.Void FailStopSong()
-    // Offset: 0xF3A7D4
-    void FailStopSong();
-    // private System.Void <FailStopSong>b__13_0()
-    // Offset: 0xF3A8F8
-    void $FailStopSong$b__13_0();
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
-    // Offset: 0xF3A6C8
-    // Implemented from: IStartSeekSongController
-    // Base method: UnityEngine.WaitUntil IStartSeekSongController::get_waitUntilIsReadyToStartTheSong()
-    UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
+    // Offset: 0xF3B9CC
+    UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong_NEW();
+    // protected System.Void LateUpdate()
+    // Offset: 0xF3B9E8
+    void LateUpdate();
     // public System.Void StartSong(System.Single songTimeOffset)
-    // Offset: 0xF3A75C
-    // Implemented from: IStartSeekSongController
-    // Base method: System.Void IStartSeekSongController::StartSong(System.Single songTimeOffset)
-    void StartSong(float songTimeOffset);
+    // Offset: 0xF3BA60
+    void StartSong_NEW(float songTimeOffset);
+    // public System.Void FailStopSong()
+    // Offset: 0xF3BC28
+    void FailStopSong();
+    // public System.Void SeekTo(System.Single songTime)
+    // Offset: 0xF3BDEC
+    void SeekTo_NEW(float songTime);
+    // private System.Void <FailStopSong>b__13_0()
+    // Offset: 0xF3BE10
+    void $FailStopSong$b__13_0();
     // public override System.Void StopSong()
-    // Offset: 0xF3A780
+    // Offset: 0xF3BA84
     // Implemented from: SongController
-    // Base method: System.Void SongController::StopSong()
+    // Base method: System.Void SongController::StopSong_NEW()
     void StopSong();
     // public override System.Void PauseSong()
-    // Offset: 0xF3A79C
+    // Offset: 0xF3BAA0
     // Implemented from: SongController
-    // Base method: System.Void SongController::PauseSong()
+    // Base method: System.Void SongController::PauseSong_NEW()
     void PauseSong();
     // public override System.Void ResumeSong()
-    // Offset: 0xF3A7B8
+    // Offset: 0xF3BB64
     // Implemented from: SongController
-    // Base method: System.Void SongController::ResumeSong()
+    // Base method: System.Void SongController::ResumeSong_NEW()
     void ResumeSong();
-    // public System.Void SeekTo(System.Single songTime)
-    // Offset: 0xF3A8D4
-    // Implemented from: IStartSeekSongController
-    // Base method: System.Void IStartSeekSongController::SeekTo(System.Single songTime)
-    void SeekTo(float songTime);
     // public System.Void .ctor()
-    // Offset: 0xF3A8F0
+    // Offset: 0xF3BE08
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

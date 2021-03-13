@@ -80,19 +80,19 @@ namespace UnityEngine::Playables {
     // Set static field: static public readonly System.Double DefaultDuration
     static void _set_DefaultDuration(double value);
     // public System.String get_streamName()
-    // Offset: 0xE17D98
+    // Offset: 0xDFDF88
     ::Il2CppString* get_streamName();
     // public UnityEngine.Object get_sourceObject()
-    // Offset: 0xE17DA0
+    // Offset: 0xDFDF90
     UnityEngine::Object* get_sourceObject();
     // UnityEngine.Playables.PlayableOutput CreateOutput(UnityEngine.Playables.PlayableGraph graph)
-    // Offset: 0xE17DA8
+    // Offset: 0xDFDF98
     UnityEngine::Playables::PlayableOutput CreateOutput(UnityEngine::Playables::PlayableGraph graph);
     // static UnityEngine.Playables.PlayableBinding CreateInternal(System.String name, UnityEngine.Object sourceObject, System.Type sourceType, UnityEngine.Playables.PlayableBinding/CreateOutputMethod createFunction)
-    // Offset: 0x1B38398
+    // Offset: 0x1A790A8
     static UnityEngine::Playables::PlayableBinding CreateInternal(::Il2CppString* name, UnityEngine::Object* sourceObject, System::Type* sourceType, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* createFunction);
     // static private System.Void .cctor()
-    // Offset: 0x1B38430
+    // Offset: 0x1A790B4
     static void _cctor();
   }; // UnityEngine.Playables.PlayableBinding
   #pragma pack(pop)

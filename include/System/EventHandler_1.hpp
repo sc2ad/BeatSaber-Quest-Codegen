@@ -39,22 +39,22 @@ namespace System {
     }
     // public System.Void Invoke(System.Object sender, TEventArgs e)
     // Offset: 0xFFFFFFFF
-    void Invoke(::Il2CppObject* sender, TEventArgs e) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::EventHandler_1::Invoke");
+    void Invoke_NEW(::Il2CppObject* sender, TEventArgs e) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::EventHandler_1::Invoke_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(sender, e)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, sender, e);
     }
     // public System.IAsyncResult BeginInvoke(System.Object sender, TEventArgs e, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, TEventArgs e, System::AsyncCallback* callback, ::Il2CppObject* object) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::EventHandler_1::BeginInvoke");
+    System::IAsyncResult* BeginInvoke_NEW(::Il2CppObject* sender, TEventArgs e, System::AsyncCallback* callback, ::Il2CppObject* object) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::EventHandler_1::BeginInvoke_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(sender, e, callback, object)));
       return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, sender, e, callback, object);
     }
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
-    void EndInvoke(System::IAsyncResult* result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::EventHandler_1::EndInvoke");
+    void EndInvoke_NEW(System::IAsyncResult* result) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::EventHandler_1::EndInvoke_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
     }

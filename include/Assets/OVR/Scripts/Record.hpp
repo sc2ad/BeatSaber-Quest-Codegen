@@ -32,7 +32,7 @@ namespace Assets::OVR::Scripts {
     // Creating value type constructor for type: Record
     Record(::Il2CppString* category_ = {}, ::Il2CppString* message_ = {}) noexcept : category{category_}, message{message_} {}
     // public System.Void .ctor(System.String cat, System.String msg)
-    // Offset: 0x141A4FC
+    // Offset: 0x13EAA9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Record* New_ctor(::Il2CppString* cat, ::Il2CppString* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("Assets::OVR::Scripts::Record::.ctor");

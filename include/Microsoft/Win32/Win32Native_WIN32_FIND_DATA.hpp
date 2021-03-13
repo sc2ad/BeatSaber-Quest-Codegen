@@ -36,7 +36,7 @@ namespace Microsoft::Win32 {
     // Creating value type constructor for type: WIN32_FIND_DATA
     WIN32_FIND_DATA(int dwFileAttributes_ = {}, ::Il2CppString* cFileName_ = {}) noexcept : dwFileAttributes{dwFileAttributes_}, cFileName{cFileName_} {}
     // public System.Void .ctor()
-    // Offset: 0x1885174
+    // Offset: 0x18C48C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

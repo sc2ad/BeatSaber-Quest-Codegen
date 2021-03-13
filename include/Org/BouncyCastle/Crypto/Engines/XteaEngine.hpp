@@ -62,17 +62,35 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
+    // public System.String get_AlgorithmName()
+    // Offset: 0x170B15C
+    ::Il2CppString* get_AlgorithmName_NEW();
+    // public System.Boolean get_IsPartialBlockOkay()
+    // Offset: 0x170B1A4
+    bool get_IsPartialBlockOkay_NEW();
+    // public System.Int32 GetBlockSize()
+    // Offset: 0x170B1AC
+    int GetBlockSize_NEW();
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x170B1B4
+    void Init_NEW(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // public System.Int32 ProcessBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
+    // Offset: 0x170B43C
+    int ProcessBlock_NEW(::Array<uint8_t>* inBytes, int inOff, ::Array<uint8_t>* outBytes, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x170B79C
+    void Reset_NEW();
     // private System.Void setKey(System.Byte[] key)
-    // Offset: 0x17C5900
+    // Offset: 0x170B314
     void setKey(::Array<uint8_t>* key);
     // private System.Int32 encryptBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x17C5C7C
+    // Offset: 0x170B690
     int encryptBlock(::Array<uint8_t>* inBytes, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Int32 decryptBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x17C5B70
+    // Offset: 0x170B584
     int decryptBlock(::Array<uint8_t>* inBytes, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // public System.Void .ctor()
-    // Offset: 0x17C569C
+    // Offset: 0x170B0D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -80,36 +98,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::XteaEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XteaEngine*, creationType>()));
     }
-    // public System.String get_AlgorithmName()
-    // Offset: 0x17C5748
-    // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
-    // Base method: System.String IBlockCipher::get_AlgorithmName()
-    ::Il2CppString* get_AlgorithmName();
-    // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x17C5790
-    // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
-    // Base method: System.Boolean IBlockCipher::get_IsPartialBlockOkay()
-    bool get_IsPartialBlockOkay();
-    // public System.Int32 GetBlockSize()
-    // Offset: 0x17C5798
-    // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
-    // Base method: System.Int32 IBlockCipher::GetBlockSize()
-    int GetBlockSize();
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x17C57A0
-    // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
-    // Base method: System.Void IBlockCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public System.Int32 ProcessBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x17C5A28
-    // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
-    // Base method: System.Int32 IBlockCipher::ProcessBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    int ProcessBlock(::Array<uint8_t>* inBytes, int inOff, ::Array<uint8_t>* outBytes, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x17C5D88
-    // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
-    // Base method: System.Void IBlockCipher::Reset()
-    void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.XteaEngine
   #pragma pack(pop)
   static check_size<sizeof(XteaEngine), 41 + sizeof(bool)> __Org_BouncyCastle_Crypto_Engines_XteaEngineSizeCheck;

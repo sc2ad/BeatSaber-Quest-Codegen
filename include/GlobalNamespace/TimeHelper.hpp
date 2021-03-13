@@ -29,61 +29,61 @@ namespace GlobalNamespace {
     TimeHelper(float accumulator_ = {}) noexcept : accumulator{accumulator_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [CompilerGeneratedAttribute] Offset: 0xD0A068
+    // [CompilerGeneratedAttribute] Offset: 0xCF4A14
     // Get static field: static private System.Single <time>k__BackingField
     static float _get_$time$k__BackingField();
     // Set static field: static private System.Single <time>k__BackingField
     static void _set_$time$k__BackingField(float value);
-    // [CompilerGeneratedAttribute] Offset: 0xD0A078
+    // [CompilerGeneratedAttribute] Offset: 0xCF4A24
     // Get static field: static private System.Single <deltaTime>k__BackingField
     static float _get_$deltaTime$k__BackingField();
     // Set static field: static private System.Single <deltaTime>k__BackingField
     static void _set_$deltaTime$k__BackingField(float value);
-    // [CompilerGeneratedAttribute] Offset: 0xD0A088
+    // [CompilerGeneratedAttribute] Offset: 0xCF4A34
     // Get static field: static private System.Single <fixedDeltaTime>k__BackingField
     static float _get_$fixedDeltaTime$k__BackingField();
     // Set static field: static private System.Single <fixedDeltaTime>k__BackingField
     static void _set_$fixedDeltaTime$k__BackingField(float value);
-    // [CompilerGeneratedAttribute] Offset: 0xD0A098
+    // [CompilerGeneratedAttribute] Offset: 0xCF4A44
     // Get static field: static private System.Single <interpolationFactor>k__BackingField
     static float _get_$interpolationFactor$k__BackingField();
     // Set static field: static private System.Single <interpolationFactor>k__BackingField
     static void _set_$interpolationFactor$k__BackingField(float value);
     // static public System.Single get_time()
-    // Offset: 0x229D204
+    // Offset: 0x211FA34
     static float get_time();
     // static private System.Void set_time(System.Single value)
-    // Offset: 0x229D254
+    // Offset: 0x211FA84
     static void set_time(float value);
     // static public System.Single get_deltaTime()
-    // Offset: 0x229D2B0
+    // Offset: 0x211FAE0
     static float get_deltaTime();
     // static private System.Void set_deltaTime(System.Single value)
-    // Offset: 0x229D300
+    // Offset: 0x211FB30
     static void set_deltaTime(float value);
     // static public System.Single get_fixedDeltaTime()
-    // Offset: 0x229D35C
+    // Offset: 0x211FB8C
     static float get_fixedDeltaTime();
     // static private System.Void set_fixedDeltaTime(System.Single value)
-    // Offset: 0x229D3AC
+    // Offset: 0x211FBDC
     static void set_fixedDeltaTime(float value);
     // static public System.Single get_interpolationFactor()
-    // Offset: 0x229D408
+    // Offset: 0x211FC38
     static float get_interpolationFactor();
     // static private System.Void set_interpolationFactor(System.Single value)
-    // Offset: 0x229D458
+    // Offset: 0x211FC88
     static void set_interpolationFactor(float value);
     // protected System.Void Awake()
-    // Offset: 0x229D4B4
+    // Offset: 0x211FCE4
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0x229D564
+    // Offset: 0x211FD94
     void FixedUpdate();
     // protected System.Void Update()
-    // Offset: 0x229D614
+    // Offset: 0x211FE44
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x229D7C8
+    // Offset: 0x211FFF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

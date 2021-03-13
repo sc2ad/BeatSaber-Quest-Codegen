@@ -59,34 +59,22 @@ namespace GlobalNamespace {
       return latency;
     }
     // static public PacketPool`1<ConnectedPlayerManager/PlayerLatencyPacket> get_pool()
-    // Offset: 0x11CE250
+    // Offset: 0x120CFDC
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket*>* get_pool();
-    // public ConnectedPlayerManager/PlayerLatencyPacket Init(System.Single latency)
-    // Offset: 0x11CF870
-    GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket* Init(float latency);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x11D11AC
-    // Implemented from: LiteNetLib.Utils.INetSerializable
-    // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Serialize
-    // Maps to method: Serialize
-    void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // Offset: 0x120FDD8
+    void Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x11D11CC
-    // Implemented from: LiteNetLib.Utils.INetSerializable
-    // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Deserialize
-    // Maps to method: Deserialize
-    void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    // Offset: 0x120FDF8
+    void Deserialize_NEW(LiteNetLib::Utils::NetDataReader* reader);
+    // public ConnectedPlayerManager/PlayerLatencyPacket Init(System.Single latency)
+    // Offset: 0x120E5C8
+    GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket* Init(float latency);
     // public System.Void Release()
-    // Offset: 0x11D045C
-    // Implemented from: IPoolablePacket
-    // Base method: System.Void IPoolablePacket::Release()
-    void Release();
+    // Offset: 0x120F1B0
+    void Release_NEW();
     // public System.Void .ctor()
-    // Offset: 0x11D1200
+    // Offset: 0x120FE2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

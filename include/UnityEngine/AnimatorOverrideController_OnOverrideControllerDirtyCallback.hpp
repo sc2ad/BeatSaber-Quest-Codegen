@@ -33,21 +33,21 @@ namespace UnityEngine {
     // Creating value type constructor for type: OnOverrideControllerDirtyCallback
     OnOverrideControllerDirtyCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x229B280
+    // Offset: 0x214439C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorOverrideController::OnOverrideControllerDirtyCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorOverrideController::OnOverrideControllerDirtyCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x229B074
-    void Invoke();
+    // Offset: 0x2144190
+    void Invoke_NEW();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x229B294
-    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x21443AC
+    System::IAsyncResult* BeginInvoke_NEW(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x229B2C0
-    void EndInvoke(System::IAsyncResult* result);
+    // Offset: 0x21443D8
+    void EndInvoke_NEW(System::IAsyncResult* result);
   }; // UnityEngine.AnimatorOverrideController/OnOverrideControllerDirtyCallback
   #pragma pack(pop)
 }

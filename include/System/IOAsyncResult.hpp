@@ -71,29 +71,41 @@ namespace System {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // protected System.Void Init(System.AsyncCallback async_callback, System.Object async_state)
-    // Offset: 0x17A5604
+    // Offset: 0x16D5918
     void Init(System::AsyncCallback* async_callback, ::Il2CppObject* async_state);
     // protected System.Void .ctor(System.AsyncCallback async_callback, System.Object async_state)
-    // Offset: 0x17A5658
+    // Offset: 0x16D5938
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOAsyncResult* New_ctor(System::AsyncCallback* async_callback, ::Il2CppObject* async_state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IOAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOAsyncResult*, creationType>(async_callback, async_state)));
     }
     // public System.AsyncCallback get_AsyncCallback()
-    // Offset: 0x17A56A8
+    // Offset: 0x16D5970
     System::AsyncCallback* get_AsyncCallback();
+    // public System.Object get_AsyncState()
+    // Offset: 0x16D5978
+    ::Il2CppObject* get_AsyncState_NEW();
+    // public System.Threading.WaitHandle get_AsyncWaitHandle()
+    // Offset: 0x16D5980
+    System::Threading::WaitHandle* get_AsyncWaitHandle_NEW();
+    // public System.Boolean get_CompletedSynchronously()
+    // Offset: 0x16D5A68
+    bool get_CompletedSynchronously_NEW();
     // protected System.Void set_CompletedSynchronously(System.Boolean value)
-    // Offset: 0x17A57CC
+    // Offset: 0x16D5A70
     void set_CompletedSynchronously(bool value);
+    // public System.Boolean get_IsCompleted()
+    // Offset: 0x16D5A7C
+    bool get_IsCompleted_NEW();
     // protected System.Void set_IsCompleted(System.Boolean value)
-    // Offset: 0x17A57E0
+    // Offset: 0x16D5A84
     void set_IsCompleted(bool value);
     // System.Void CompleteDisposed()
     // Offset: 0xFFFFFFFF
-    void CompleteDisposed();
+    void CompleteDisposed_NEW();
     // protected System.Void .ctor()
-    // Offset: 0x17A55FC
+    // Offset: 0x16D5910
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -101,38 +113,6 @@ namespace System {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IOAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOAsyncResult*, creationType>()));
     }
-    // public System.Object get_AsyncState()
-    // Offset: 0x17A56B0
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Object IAsyncResult::get_AsyncState()
-    ::Il2CppObject* get_AsyncState();
-    // Creating proxy method: System_IAsyncResult_get_AsyncState
-    // Maps to method: get_AsyncState
-    ::Il2CppObject* System_IAsyncResult_get_AsyncState();
-    // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x17A56B8
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
-    System::Threading::WaitHandle* get_AsyncWaitHandle();
-    // Creating proxy method: System_IAsyncResult_get_AsyncWaitHandle
-    // Maps to method: get_AsyncWaitHandle
-    System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
-    // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x17A57C4
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
-    bool get_CompletedSynchronously();
-    // Creating proxy method: System_IAsyncResult_get_CompletedSynchronously
-    // Maps to method: get_CompletedSynchronously
-    bool System_IAsyncResult_get_CompletedSynchronously();
-    // public System.Boolean get_IsCompleted()
-    // Offset: 0x17A57D8
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Boolean IAsyncResult::get_IsCompleted()
-    bool get_IsCompleted();
-    // Creating proxy method: System_IAsyncResult_get_IsCompleted
-    // Maps to method: get_IsCompleted
-    bool System_IAsyncResult_get_IsCompleted();
   }; // System.IOAsyncResult
   #pragma pack(pop)
   static check_size<sizeof(IOAsyncResult), 41 + sizeof(bool)> __System_IOAsyncResultSizeCheck;

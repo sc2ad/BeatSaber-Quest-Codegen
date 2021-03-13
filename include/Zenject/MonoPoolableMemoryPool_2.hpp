@@ -81,7 +81,7 @@ namespace Zenject {
     // protected override System.Void Reinitialize(TParam1 p1, TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPool`2
-    // Base method: System.Void MemoryPool_2::Reinitialize(TParam1 p1, TValue item)
+    // Base method: System.Void MemoryPool_2::Reinitialize_NEW(TParam1 p1, TValue item)
     void Reinitialize(TParam1 p1, TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoPoolableMemoryPool_2::Reinitialize");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Reinitialize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(p1, item)));

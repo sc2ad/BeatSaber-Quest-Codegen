@@ -28,7 +28,7 @@ namespace UnityEngine::Timeline {
     IPropertyPreview() noexcept {}
     // public System.Void GatherProperties(UnityEngine.Playables.PlayableDirector director, UnityEngine.Timeline.IPropertyCollector driver)
     // Offset: 0xFFFFFFFF
-    void GatherProperties(UnityEngine::Playables::PlayableDirector* director, UnityEngine::Timeline::IPropertyCollector* driver);
+    void GatherProperties_NEW(UnityEngine::Playables::PlayableDirector* director, UnityEngine::Timeline::IPropertyCollector* driver);
   }; // UnityEngine.Timeline.IPropertyPreview
   #pragma pack(pop)
 }

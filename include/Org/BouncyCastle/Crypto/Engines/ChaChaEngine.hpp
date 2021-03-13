@@ -22,10 +22,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Creating value type constructor for type: ChaChaEngine
     ChaChaEngine() noexcept {}
     // static System.Void ChachaCore(System.Int32 rounds, System.UInt32[] input, System.UInt32[] x)
-    // Offset: 0x1C06CB0
+    // Offset: 0x1BA630C
     static void ChachaCore(int rounds, ::Array<uint>* input, ::Array<uint>* x);
     // public System.Void .ctor()
-    // Offset: 0x1C07384
+    // Offset: 0x1BA69E0
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Salsa20Engine
     // Base method: System.Void Salsa20Engine::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -35,29 +35,29 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<ChaChaEngine*, creationType>()));
     }
     // public override System.String get_AlgorithmName()
-    // Offset: 0x1C073EC
+    // Offset: 0x1BA6A48
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Salsa20Engine
-    // Base method: System.String Salsa20Engine::get_AlgorithmName()
+    // Base method: System.String Salsa20Engine::get_AlgorithmName_NEW()
     ::Il2CppString* get_AlgorithmName();
     // protected override System.Void AdvanceCounter()
-    // Offset: 0x1C0746C
+    // Offset: 0x1BA6AC8
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Salsa20Engine
-    // Base method: System.Void Salsa20Engine::AdvanceCounter()
+    // Base method: System.Void Salsa20Engine::AdvanceCounter_NEW()
     void AdvanceCounter();
     // protected override System.Void ResetCounter()
-    // Offset: 0x1C074D0
+    // Offset: 0x1BA6B2C
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Salsa20Engine
-    // Base method: System.Void Salsa20Engine::ResetCounter()
+    // Base method: System.Void Salsa20Engine::ResetCounter_NEW()
     void ResetCounter();
     // protected override System.Void SetKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x1C07508
+    // Offset: 0x1BA6B64
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Salsa20Engine
-    // Base method: System.Void Salsa20Engine::SetKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
+    // Base method: System.Void Salsa20Engine::SetKey_NEW(System.Byte[] keyBytes, System.Byte[] ivBytes)
     void SetKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
     // protected override System.Void GenerateKeyStream(System.Byte[] output)
-    // Offset: 0x1C07644
+    // Offset: 0x1BA6CA0
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Salsa20Engine
-    // Base method: System.Void Salsa20Engine::GenerateKeyStream(System.Byte[] output)
+    // Base method: System.Void Salsa20Engine::GenerateKeyStream_NEW(System.Byte[] output)
     void GenerateKeyStream(::Array<uint8_t>* output);
   }; // Org.BouncyCastle.Crypto.Engines.ChaChaEngine
   #pragma pack(pop)

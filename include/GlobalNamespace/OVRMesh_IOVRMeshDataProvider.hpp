@@ -19,7 +19,7 @@ namespace GlobalNamespace {
     IOVRMeshDataProvider() noexcept {}
     // public OVRMesh/MeshType GetMeshType()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::OVRMesh::MeshType GlobalNamespace_OVRMesh_IOVRMeshDataProvider_GetMeshType();
+    GlobalNamespace::OVRMesh::MeshType GetMeshType_NEW();
   }; // OVRMesh/IOVRMeshDataProvider
   #pragma pack(pop)
 }

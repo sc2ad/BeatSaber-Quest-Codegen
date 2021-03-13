@@ -66,53 +66,41 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<int16_t>* _get_ftable();
     // Set static field: static private readonly System.Int16[] ftable
     static void _set_ftable(::Array<int16_t>* value);
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x1C5B968
+    void Init_NEW(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // public System.String get_AlgorithmName()
+    // Offset: 0x1C5BC9C
+    ::Il2CppString* get_AlgorithmName_NEW();
+    // public System.Boolean get_IsPartialBlockOkay()
+    // Offset: 0x1C5BCE4
+    bool get_IsPartialBlockOkay_NEW();
+    // public System.Int32 GetBlockSize()
+    // Offset: 0x1C5BCEC
+    int GetBlockSize_NEW();
+    // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x1C5BCF4
+    int ProcessBlock_NEW(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x1C5BE14
+    void Reset_NEW();
     // private System.Int32 G(System.Int32 k, System.Int32 w)
-    // Offset: 0x1CD8414
+    // Offset: 0x1C5BE18
     int G(int k, int w);
     // public System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1CD8588
-    int EncryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
+    // Offset: 0x1C5BF8C
+    int EncryptBlock_NEW(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Int32 H(System.Int32 k, System.Int32 w)
-    // Offset: 0x1CD87DC
+    // Offset: 0x1C5C1E0
     int H(int k, int w);
     // public System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1CD8950
-    int DecryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
+    // Offset: 0x1C5C354
+    int DecryptBlock_NEW(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // static private System.Void .cctor()
-    // Offset: 0x1CD8BC0
+    // Offset: 0x1C5C5C4
     static void _cctor();
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1CD7F1C
-    // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
-    // Base method: System.Void IBlockCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public System.String get_AlgorithmName()
-    // Offset: 0x1CD8298
-    // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
-    // Base method: System.String IBlockCipher::get_AlgorithmName()
-    ::Il2CppString* get_AlgorithmName();
-    // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1CD82E0
-    // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
-    // Base method: System.Boolean IBlockCipher::get_IsPartialBlockOkay()
-    bool get_IsPartialBlockOkay();
-    // public System.Int32 GetBlockSize()
-    // Offset: 0x1CD82E8
-    // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
-    // Base method: System.Int32 IBlockCipher::GetBlockSize()
-    int GetBlockSize();
-    // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1CD82F0
-    // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
-    // Base method: System.Int32 IBlockCipher::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x1CD8410
-    // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
-    // Base method: System.Void IBlockCipher::Reset()
-    void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1CD8C40
+    // Offset: 0x1C5C640
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

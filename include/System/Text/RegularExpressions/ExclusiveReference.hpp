@@ -45,13 +45,13 @@ namespace System::Text::RegularExpressions {
     // Creating value type constructor for type: ExclusiveReference
     ExclusiveReference(System::Text::RegularExpressions::RegexRunner* ref_ = {}, ::Il2CppObject* obj_ = {}, int locked_ = {}) noexcept : ref{ref_}, obj{obj_}, locked{locked_} {}
     // System.Object Get()
-    // Offset: 0x17816DC
+    // Offset: 0x16B409C
     ::Il2CppObject* Get();
     // System.Void Release(System.Object obj)
-    // Offset: 0x1781740
+    // Offset: 0x16B40EC
     void Release(::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x1781864
+    // Offset: 0x16B41F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,22 +43,18 @@ namespace GlobalNamespace {
       return connectedPlayer;
     }
     // public System.Void .ctor(IConnectedPlayer connectedPlayer)
-    // Offset: 0x101CDC0
+    // Offset: 0x1041FC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerObservable* New_ctor(GlobalNamespace::IConnectedPlayer* connectedPlayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerConnectedPlayerObservable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerObservable*, creationType>(connectedPlayer)));
     }
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x101CDF4
-    // Implemented from: IMultiplayerObservable
-    // Base method: System.Single IMultiplayerObservable::get_offsetSyncTime()
-    float get_offsetSyncTime();
+    // Offset: 0x1041FF4
+    float get_offsetSyncTime_NEW();
     // public System.Boolean get_isFailed()
-    // Offset: 0x101CEA8
-    // Implemented from: IMultiplayerObservable
-    // Base method: System.Boolean IMultiplayerObservable::get_isFailed()
-    bool get_isFailed();
+    // Offset: 0x10420A8
+    bool get_isFailed_NEW();
   }; // MultiplayerConnectedPlayerObservable
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerObservable), 16 + sizeof(GlobalNamespace::IConnectedPlayer*)> __GlobalNamespace_MultiplayerConnectedPlayerObservableSizeCheck;

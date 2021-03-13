@@ -63,7 +63,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.Single time, System.Action action)
-      // Offset: 0xE19674
+      // Offset: 0xE15A9C
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  SynchronizedAction(float time, System::Action* action)
     }; // SynchronizedActionQueue/SynchronizedAction
@@ -83,16 +83,16 @@ namespace GlobalNamespace {
       return synchronizedActionQueue;
     }
     // public System.Void Clear()
-    // Offset: 0x1C13F2C
+    // Offset: 0x2160198
     void Clear();
     // public System.Void EnqueueAction(System.Single time, System.Action action)
-    // Offset: 0x1C14010
+    // Offset: 0x21601F0
     void EnqueueAction(float time, System::Action* action);
     // public System.Void Update(System.Single time)
-    // Offset: 0x1C140AC
+    // Offset: 0x2160274
     void Update(float time);
     // public System.Void .ctor()
-    // Offset: 0x1C14F40
+    // Offset: 0x216038C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

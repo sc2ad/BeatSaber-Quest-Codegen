@@ -14,9 +14,9 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: IMultiplayerConnectedPlayerOutroAnimator
     IMultiplayerConnectedPlayerOutroAnimator() noexcept {}
-    // public System.Void Animate(System.Single duration)
+    // public System.Void Animate()
     // Offset: 0xFFFFFFFF
-    void Animate(float duration);
+    void Animate_NEW();
   }; // IMultiplayerConnectedPlayerOutroAnimator
   #pragma pack(pop)
 }

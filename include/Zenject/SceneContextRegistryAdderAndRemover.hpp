@@ -53,25 +53,18 @@ namespace Zenject {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(Zenject.SceneContext sceneContext, Zenject.SceneContextRegistry registry)
-    // Offset: 0x15BE27C
+    // Offset: 0x151563C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneContextRegistryAdderAndRemover* New_ctor(Zenject::SceneContext* sceneContext, Zenject::SceneContextRegistry* registry) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SceneContextRegistryAdderAndRemover::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneContextRegistryAdderAndRemover*, creationType>(sceneContext, registry)));
     }
     // public System.Void Initialize()
-    // Offset: 0x15BE2CC
-    // Implemented from: Zenject.IInitializable
-    // Base method: System.Void IInitializable::Initialize()
-    void Initialize();
+    // Offset: 0x1515674
+    void Initialize_NEW();
     // public System.Void Dispose()
-    // Offset: 0x15BE2EC
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose();
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose();
+    // Offset: 0x1515694
+    void Dispose_NEW();
   }; // Zenject.SceneContextRegistryAdderAndRemover
   #pragma pack(pop)
   static check_size<sizeof(SceneContextRegistryAdderAndRemover), 24 + sizeof(Zenject::SceneContext*)> __Zenject_SceneContextRegistryAdderAndRemoverSizeCheck;

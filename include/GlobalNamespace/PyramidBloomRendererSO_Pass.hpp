@@ -99,6 +99,18 @@ namespace GlobalNamespace {
     static GlobalNamespace::PyramidBloomRendererSO::Pass _get_BilinearGamma();
     // Set static field: static public PyramidBloomRendererSO/Pass BilinearGamma
     static void _set_BilinearGamma(GlobalNamespace::PyramidBloomRendererSO::Pass value);
+    // static field const value: static public PyramidBloomRendererSO/Pass UpsampleTentAndReinhardToneMapping
+    static constexpr const int UpsampleTentAndReinhardToneMapping = 11;
+    // Get static field: static public PyramidBloomRendererSO/Pass UpsampleTentAndReinhardToneMapping
+    static GlobalNamespace::PyramidBloomRendererSO::Pass _get_UpsampleTentAndReinhardToneMapping();
+    // Set static field: static public PyramidBloomRendererSO/Pass UpsampleTentAndReinhardToneMapping
+    static void _set_UpsampleTentAndReinhardToneMapping(GlobalNamespace::PyramidBloomRendererSO::Pass value);
+    // static field const value: static public PyramidBloomRendererSO/Pass UpsampleTentAndACESToneMapping
+    static constexpr const int UpsampleTentAndACESToneMapping = 12;
+    // Get static field: static public PyramidBloomRendererSO/Pass UpsampleTentAndACESToneMapping
+    static GlobalNamespace::PyramidBloomRendererSO::Pass _get_UpsampleTentAndACESToneMapping();
+    // Set static field: static public PyramidBloomRendererSO/Pass UpsampleTentAndACESToneMapping
+    static void _set_UpsampleTentAndACESToneMapping(GlobalNamespace::PyramidBloomRendererSO::Pass value);
   }; // PyramidBloomRendererSO/Pass
   #pragma pack(pop)
   static check_size<sizeof(PyramidBloomRendererSO::Pass), 0 + sizeof(int)> __GlobalNamespace_PyramidBloomRendererSO_PassSizeCheck;

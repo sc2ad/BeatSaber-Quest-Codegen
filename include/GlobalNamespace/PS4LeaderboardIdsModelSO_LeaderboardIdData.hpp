@@ -36,13 +36,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LeaderboardIdData
     LeaderboardIdData(uint ps4LeaderboardId_ = {}, ::Il2CppString* leaderboardId_ = {}) noexcept : ps4LeaderboardId{ps4LeaderboardId_}, leaderboardId{leaderboardId_} {}
     // public System.UInt32 get_ps4LeaderboardId()
-    // Offset: 0xF1F0DC
+    // Offset: 0xF584E4
     uint get_ps4LeaderboardId();
     // public System.String get_leaderboardId()
-    // Offset: 0xF1F0E4
+    // Offset: 0xF584EC
     ::Il2CppString* get_leaderboardId();
     // public System.Void .ctor(System.UInt32 ps4LeaderboardId, System.String leaderboardId)
-    // Offset: 0xF1F0EC
+    // Offset: 0xF584F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LeaderboardIdsModelSO::LeaderboardIdData* New_ctor(uint ps4LeaderboardId, ::Il2CppString* leaderboardId) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::.ctor");

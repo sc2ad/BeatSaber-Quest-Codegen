@@ -48,20 +48,14 @@ namespace System::Net {
       return webProxy;
     }
     // public System.Uri GetProxy(System.Uri destination)
-    // Offset: 0x1446558
-    // Implemented from: System.Net.IWebProxy
-    // Base method: System.Uri IWebProxy::GetProxy(System.Uri destination)
-    System::Uri* GetProxy(System::Uri* destination);
+    // Offset: 0x1414D6C
+    System::Uri* GetProxy_NEW(System::Uri* destination);
     // public System.Boolean IsBypassed(System.Uri host)
-    // Offset: 0x1446570
-    // Implemented from: System.Net.IWebProxy
-    // Base method: System.Boolean IWebProxy::IsBypassed(System.Uri host)
-    bool IsBypassed(System::Uri* host);
+    // Offset: 0x1414D84
+    bool IsBypassed_NEW(System::Uri* host);
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x1446588
-    // Implemented from: System.Net.IWebProxy
-    // Base method: System.Net.ICredentials IWebProxy::get_Credentials()
-    System::Net::ICredentials* get_Credentials();
+    // Offset: 0x1414D9C
+    System::Net::ICredentials* get_Credentials_NEW();
   }; // System.Net.WebRequest/WebProxyWrapperOpaque
   #pragma pack(pop)
   static check_size<sizeof(WebRequest::WebProxyWrapperOpaque), 16 + sizeof(System::Net::WebProxy*)> __System_Net_WebRequest_WebProxyWrapperOpaqueSizeCheck;

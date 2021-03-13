@@ -63,35 +63,31 @@ namespace GlobalNamespace {
     operator GlobalNamespace::BeatmapSaveData::ITime() noexcept {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);
     }
+    // public System.Single get_time()
+    // Offset: 0xF02758
+    float get_time_NEW();
     // public System.Int32 get_lineIndex()
-    // Offset: 0xF5E240
+    // Offset: 0xF02760
     int get_lineIndex();
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0xF5E248
+    // Offset: 0xF02768
     GlobalNamespace::NoteLineLayer get_lineLayer();
     // public BeatmapSaveData/NoteType get_type()
-    // Offset: 0xF5E250
+    // Offset: 0xF02770
     GlobalNamespace::BeatmapSaveData::NoteType get_type();
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0xF5E258
+    // Offset: 0xF02778
     GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, BeatmapSaveData/NoteType type, NoteCutDirection cutDirection)
-    // Offset: 0xF5E260
+    // Offset: 0xF02780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::NoteData* New_ctor(float time, int lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::BeatmapSaveData::NoteType type, GlobalNamespace::NoteCutDirection cutDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::NoteData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::NoteData*, creationType>(time, lineIndex, lineLayer, type, cutDirection)));
     }
-    // public System.Single get_time()
-    // Offset: 0xF5E238
-    // Implemented from: BeatmapSaveData/ITime
-    // Base method: System.Single ITime::get_time()
-    float get_time();
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0xF5E2BC
-    // Implemented from: BeatmapSaveData/ITime
-    // Base method: System.Void ITime::MoveTime(System.Single offset)
-    void MoveTime(float offset);
+    // Offset: 0xF027DC
+    void MoveTime_NEW(float offset);
   }; // BeatmapSaveData/NoteData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::NoteData), 32 + sizeof(GlobalNamespace::NoteCutDirection)> __GlobalNamespace_BeatmapSaveData_NoteDataSizeCheck;

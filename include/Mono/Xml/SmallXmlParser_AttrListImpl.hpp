@@ -47,44 +47,32 @@ namespace Mono::Xml {
     operator Mono::Xml::SmallXmlParser::IAttrList() noexcept {
       return *reinterpret_cast<Mono::Xml::SmallXmlParser::IAttrList*>(this);
     }
+    // public System.Int32 get_Length()
+    // Offset: 0x18EDF10
+    int get_Length_NEW();
+    // public System.String GetName(System.Int32 i)
+    // Offset: 0x18EDF60
+    ::Il2CppString* GetName_NEW(int i);
+    // public System.String GetValue(System.Int32 i)
+    // Offset: 0x18EDFD8
+    ::Il2CppString* GetValue_NEW(int i);
+    // public System.String GetValue(System.String name)
+    // Offset: 0x18EE050
+    ::Il2CppString* GetValue_NEW(::Il2CppString* name);
+    // public System.String[] get_Names()
+    // Offset: 0x18EE124
+    ::Array<::Il2CppString*>* get_Names_NEW();
+    // public System.String[] get_Values()
+    // Offset: 0x18EE17C
+    ::Array<::Il2CppString*>* get_Values_NEW();
     // System.Void Clear()
-    // Offset: 0x1945308
+    // Offset: 0x18ED93C
     void Clear();
     // System.Void Add(System.String name, System.String value)
-    // Offset: 0x1945868
+    // Offset: 0x18EDE90
     void Add(::Il2CppString* name, ::Il2CppString* value);
-    // public System.Int32 get_Length()
-    // Offset: 0x19458E8
-    // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
-    // Base method: System.Int32 IAttrList::get_Length()
-    int get_Length();
-    // public System.String GetName(System.Int32 i)
-    // Offset: 0x1945938
-    // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
-    // Base method: System.String IAttrList::GetName(System.Int32 i)
-    ::Il2CppString* GetName(int i);
-    // public System.String GetValue(System.Int32 i)
-    // Offset: 0x19459B0
-    // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
-    // Base method: System.String IAttrList::GetValue(System.Int32 i)
-    ::Il2CppString* GetValue(int i);
-    // public System.String GetValue(System.String name)
-    // Offset: 0x1945A28
-    // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
-    // Base method: System.String IAttrList::GetValue(System.String name)
-    ::Il2CppString* GetValue(::Il2CppString* name);
-    // public System.String[] get_Names()
-    // Offset: 0x1945AFC
-    // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
-    // Base method: System.String[] IAttrList::get_Names()
-    ::Array<::Il2CppString*>* get_Names();
-    // public System.String[] get_Values()
-    // Offset: 0x1945B54
-    // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
-    // Base method: System.String[] IAttrList::get_Values()
-    ::Array<::Il2CppString*>* get_Values();
     // public System.Void .ctor()
-    // Offset: 0x1943ED0
+    // Offset: 0x18EC580
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

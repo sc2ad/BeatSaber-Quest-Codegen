@@ -16,7 +16,7 @@ namespace System::Runtime::Remoting::Channels {
     ISecurableChannel() noexcept {}
     // public System.Void set_IsSecured(System.Boolean value)
     // Offset: 0xFFFFFFFF
-    void set_IsSecured(bool value);
+    void set_IsSecured_NEW(bool value);
   }; // System.Runtime.Remoting.Channels.ISecurableChannel
   #pragma pack(pop)
 }

@@ -46,18 +46,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BloomPrePassBackgroundColorsGradient
     BloomPrePassBackgroundColorsGradient(::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>* elements_ = {}) noexcept : elements{elements_} {}
     // public BloomPrePassBackgroundColorsGradient/Element[] get_elements()
-    // Offset: 0x1D98DDC
+    // Offset: 0x1CD9434
     ::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>* get_elements();
     // private UnityEngine.Color EvaluateColor(System.Single t)
-    // Offset: 0x1D98E50
+    // Offset: 0x1CD94A8
     UnityEngine::Color EvaluateColor(float t);
     // protected override System.Void UpdatePixels(Unity.Collections.NativeArray`1<UnityEngine.Color32> pixels, System.Int32 numberOfPixels)
-    // Offset: 0x1D98DE4
+    // Offset: 0x1CD943C
     // Implemented from: BloomPrePassBackgroundTextureGradient
-    // Base method: System.Void BloomPrePassBackgroundTextureGradient::UpdatePixels(Unity.Collections.NativeArray`1<UnityEngine.Color32> pixels, System.Int32 numberOfPixels)
+    // Base method: System.Void BloomPrePassBackgroundTextureGradient::UpdatePixels_NEW(Unity.Collections.NativeArray`1<UnityEngine.Color32> pixels, System.Int32 numberOfPixels)
     void UpdatePixels(Unity::Collections::NativeArray_1<UnityEngine::Color32> pixels, int numberOfPixels);
     // public System.Void .ctor()
-    // Offset: 0x1D98FD8
+    // Offset: 0x1CD9630
     // Implemented from: BloomPrePassBackgroundTextureGradient
     // Base method: System.Void BloomPrePassBackgroundTextureGradient::.ctor()
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()

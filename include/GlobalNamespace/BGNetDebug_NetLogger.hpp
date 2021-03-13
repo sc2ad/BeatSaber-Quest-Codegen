@@ -29,19 +29,17 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::INetLogger*>(this);
     }
     // public System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    // Offset: 0x11CA224
-    // Implemented from: LiteNetLib.INetLogger
-    // Base method: System.Void INetLogger::WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x1208EE0
+    void WriteNet_NEW(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
+    void WriteNet_NEW(LiteNetLib::NetLogLevel level, ::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     template<class ...TParams>
-    void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, TParams&&... args) {
-      WriteNet(level, str, {args...});
+    void WriteNet_NEW(LiteNetLib::NetLogLevel level, ::Il2CppString* str, TParams&&... args) {
+      WriteNet_NEW(level, str, {args...});
     }
     // public System.Void .ctor()
-    // Offset: 0x11C9E0C
+    // Offset: 0x1208ACC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

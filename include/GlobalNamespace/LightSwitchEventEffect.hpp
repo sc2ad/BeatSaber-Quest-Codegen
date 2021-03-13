@@ -22,8 +22,8 @@ namespace GlobalNamespace {
   class ColorSO;
   // Forward declaring type: LightWithIdManager
   class LightWithIdManager;
-  // Forward declaring type: BeatmapObjectCallbackController
-  class BeatmapObjectCallbackController;
+  // Forward declaring type: IBeatmapObjectCallbackController
+  class IBeatmapObjectCallbackController;
   // Forward declaring type: BeatmapEventData
   class BeatmapEventData;
 }
@@ -118,20 +118,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
     // Padding between fields: colorBoostEvent and: lightManager
     char __padding12[0x4] = {};
-    // [InjectAttribute] Offset: 0xD38FC8
+    // [InjectAttribute] Offset: 0xD24680
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x70
     GlobalNamespace::LightWithIdManager* lightManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LightWithIdManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD38FD8
-    // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // [InjectAttribute] Offset: 0xD24690
+    // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x78
-    GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
+    GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
     // private System.Boolean _lightIsOn
     // Size: 0x1
     // Offset: 0x80
@@ -185,44 +185,44 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: LightSwitchEventEffect
-    LightSwitchEventEffect(GlobalNamespace::ColorSO* lightColor0_ = {}, GlobalNamespace::ColorSO* lightColor1_ = {}, GlobalNamespace::ColorSO* highlightColor0_ = {}, GlobalNamespace::ColorSO* highlightColor1_ = {}, GlobalNamespace::ColorSO* lightColor0Boost_ = {}, GlobalNamespace::ColorSO* lightColor1Boost_ = {}, GlobalNamespace::ColorSO* highlightColor0Boost_ = {}, GlobalNamespace::ColorSO* highlightColor1Boost_ = {}, float offColorIntensity_ = {}, bool lightOnStart_ = {}, int lightsID_ = {}, GlobalNamespace::BeatmapEventType event_ = {}, GlobalNamespace::BeatmapEventType colorBoostEvent_ = {}, GlobalNamespace::LightWithIdManager* lightManager_ = {}, GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, bool lightIsOn_ = {}, UnityEngine::Color offColor_ = {}, float highlightValue_ = {}, UnityEngine::Color afterHighlightColor_ = {}, UnityEngine::Color highlightColor_ = {}, bool initialized_ = {}, bool colorBoost_ = {}, int prevLightSwitchBeatmapEventDataValue_ = {}) noexcept : lightColor0{lightColor0_}, lightColor1{lightColor1_}, highlightColor0{highlightColor0_}, highlightColor1{highlightColor1_}, lightColor0Boost{lightColor0Boost_}, lightColor1Boost{lightColor1Boost_}, highlightColor0Boost{highlightColor0Boost_}, highlightColor1Boost{highlightColor1Boost_}, offColorIntensity{offColorIntensity_}, lightOnStart{lightOnStart_}, lightsID{lightsID_}, event{event_}, colorBoostEvent{colorBoostEvent_}, lightManager{lightManager_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, lightIsOn{lightIsOn_}, offColor{offColor_}, highlightValue{highlightValue_}, afterHighlightColor{afterHighlightColor_}, highlightColor{highlightColor_}, initialized{initialized_}, colorBoost{colorBoost_}, prevLightSwitchBeatmapEventDataValue{prevLightSwitchBeatmapEventDataValue_} {}
+    LightSwitchEventEffect(GlobalNamespace::ColorSO* lightColor0_ = {}, GlobalNamespace::ColorSO* lightColor1_ = {}, GlobalNamespace::ColorSO* highlightColor0_ = {}, GlobalNamespace::ColorSO* highlightColor1_ = {}, GlobalNamespace::ColorSO* lightColor0Boost_ = {}, GlobalNamespace::ColorSO* lightColor1Boost_ = {}, GlobalNamespace::ColorSO* highlightColor0Boost_ = {}, GlobalNamespace::ColorSO* highlightColor1Boost_ = {}, float offColorIntensity_ = {}, bool lightOnStart_ = {}, int lightsID_ = {}, GlobalNamespace::BeatmapEventType event_ = {}, GlobalNamespace::BeatmapEventType colorBoostEvent_ = {}, GlobalNamespace::LightWithIdManager* lightManager_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, bool lightIsOn_ = {}, UnityEngine::Color offColor_ = {}, float highlightValue_ = {}, UnityEngine::Color afterHighlightColor_ = {}, UnityEngine::Color highlightColor_ = {}, bool initialized_ = {}, bool colorBoost_ = {}, int prevLightSwitchBeatmapEventDataValue_ = {}) noexcept : lightColor0{lightColor0_}, lightColor1{lightColor1_}, highlightColor0{highlightColor0_}, highlightColor1{highlightColor1_}, lightColor0Boost{lightColor0Boost_}, lightColor1Boost{lightColor1Boost_}, highlightColor0Boost{highlightColor0Boost_}, highlightColor1Boost{highlightColor1Boost_}, offColorIntensity{offColorIntensity_}, lightOnStart{lightOnStart_}, lightsID{lightsID_}, event{event_}, colorBoostEvent{colorBoostEvent_}, lightManager{lightManager_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, lightIsOn{lightIsOn_}, offColor{offColor_}, highlightValue{highlightValue_}, afterHighlightColor{afterHighlightColor_}, highlightColor{highlightColor_}, initialized{initialized_}, colorBoost{colorBoost_}, prevLightSwitchBeatmapEventDataValue{prevLightSwitchBeatmapEventDataValue_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kFadeSpeed
-    static constexpr const float kFadeSpeed = 2;
+    static constexpr const float kFadeSpeed = 3;
     // Get static field: static private System.Single kFadeSpeed
     static float _get_kFadeSpeed();
     // Set static field: static private System.Single kFadeSpeed
     static void _set_kFadeSpeed(float value);
     // public System.Int32 get_lightsId()
-    // Offset: 0x10E4A60
+    // Offset: 0x109D780
     int get_lightsId();
     // protected System.Void Start()
-    // Offset: 0x10E4A68
+    // Offset: 0x109D788
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x10E4AFC
+    // Offset: 0x109D878
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x10E4BD8
+    // Offset: 0x109D978
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x10E4D70
+    // Offset: 0x109DB14
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void ProcessLightSwitchEvent(System.Int32 beatmapEventDataValue, System.Boolean updateColorsOnly)
-    // Offset: 0x10E4DF8
+    // Offset: 0x109DB9C
     void ProcessLightSwitchEvent(int beatmapEventDataValue, bool updateColorsOnly);
     // private UnityEngine.Color GetNormalColor(System.Int32 beatmapEventValue)
-    // Offset: 0x10E4FC4
+    // Offset: 0x109DD68
     UnityEngine::Color GetNormalColor(int beatmapEventValue);
     // private UnityEngine.Color GetHighlightColor(System.Int32 beatmapEventValue)
-    // Offset: 0x10E5020
+    // Offset: 0x109DDC4
     UnityEngine::Color GetHighlightColor(int beatmapEventValue);
     // private System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x10E4D4C
+    // Offset: 0x109DAF0
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x10E507C
+    // Offset: 0x109DE20
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

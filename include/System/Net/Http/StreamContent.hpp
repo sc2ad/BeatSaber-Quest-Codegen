@@ -73,40 +73,40 @@ namespace System::Net::Http {
     // Creating value type constructor for type: StreamContent
     StreamContent(System::IO::Stream* content_ = {}, int bufferSize_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, int64_t startPosition_ = {}, bool contentCopied_ = {}) noexcept : content{content_}, bufferSize{bufferSize_}, cancellationToken{cancellationToken_}, startPosition{startPosition_}, contentCopied{contentCopied_} {}
     // public System.Void .ctor(System.IO.Stream content)
-    // Offset: 0x1418C54
+    // Offset: 0x13E9234
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamContent* New_ctor(System::IO::Stream* content) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::StreamContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamContent*, creationType>(content)));
     }
     // public System.Void .ctor(System.IO.Stream content, System.Int32 bufferSize)
-    // Offset: 0x1418C5C
+    // Offset: 0x13E923C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamContent* New_ctor(System::IO::Stream* content, int bufferSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::StreamContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamContent*, creationType>(content, bufferSize)));
     }
     // System.Void .ctor(System.IO.Stream content, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1415AD8
+    // Offset: 0x13E62EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamContent* New_ctor(System::IO::Stream* content, System::Threading::CancellationToken cancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::StreamContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamContent*, creationType>(content, cancellationToken)));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1418D6C
+    // Offset: 0x13E933C
     // Implemented from: System.Net.Http.HttpContent
-    // Base method: System.Void HttpContent::Dispose(System.Boolean disposing)
+    // Base method: System.Void HttpContent::Dispose_NEW(System.Boolean disposing)
     void Dispose(bool disposing);
     // protected internal override System.Threading.Tasks.Task SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
-    // Offset: 0x1418DC8
+    // Offset: 0x13E9398
     // Implemented from: System.Net.Http.HttpContent
-    // Base method: System.Threading.Tasks.Task HttpContent::SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
+    // Base method: System.Threading.Tasks.Task HttpContent::SerializeToStreamAsync_NEW(System.IO.Stream stream, System.Net.TransportContext context)
     System::Threading::Tasks::Task* SerializeToStreamAsync(System::IO::Stream* stream, System::Net::TransportContext* context);
     // protected internal override System.Boolean TryComputeLength(out System.Int64 length)
-    // Offset: 0x1418EC8
+    // Offset: 0x13E9498
     // Implemented from: System.Net.Http.HttpContent
-    // Base method: System.Boolean HttpContent::TryComputeLength(out System.Int64 length)
+    // Base method: System.Boolean HttpContent::TryComputeLength_NEW(out System.Int64 length)
     bool TryComputeLength(int64_t& length);
   }; // System.Net.Http.StreamContent
   #pragma pack(pop)

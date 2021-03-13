@@ -56,7 +56,7 @@ namespace LiteNetLib::Utils {
     // public override LiteNetLib.Utils.NetSerializer/FastCall`1<T> Get()
     // Offset: 0xFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/CustomType
-    // Base method: LiteNetLib.Utils.NetSerializer/FastCall`1<T> CustomType::Get()
+    // Base method: LiteNetLib.Utils.NetSerializer/FastCall`1<T> CustomType::Get_NEW()
     template<class T>
     LiteNetLib::Utils::NetSerializer::FastCall_1<T>* Get() {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::CustomTypeClass_1::Get");

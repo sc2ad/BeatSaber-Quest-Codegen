@@ -52,68 +52,62 @@ namespace GlobalNamespace {
       constexpr operator int() const noexcept {
         return value;
       }
-      // static field const value: static public OVRControllerHelper/ControllerType GearVR
-      static constexpr const int GearVR = 0;
-      // Get static field: static public OVRControllerHelper/ControllerType GearVR
-      static GlobalNamespace::OVRControllerHelper::ControllerType _get_GearVR();
-      // Set static field: static public OVRControllerHelper/ControllerType GearVR
-      static void _set_GearVR(GlobalNamespace::OVRControllerHelper::ControllerType value);
-      // static field const value: static public OVRControllerHelper/ControllerType Go
-      static constexpr const int Go = 1;
-      // Get static field: static public OVRControllerHelper/ControllerType Go
-      static GlobalNamespace::OVRControllerHelper::ControllerType _get_Go();
-      // Set static field: static public OVRControllerHelper/ControllerType Go
-      static void _set_Go(GlobalNamespace::OVRControllerHelper::ControllerType value);
       // static field const value: static public OVRControllerHelper/ControllerType QuestAndRiftS
-      static constexpr const int QuestAndRiftS = 2;
+      static constexpr const int QuestAndRiftS = 1;
       // Get static field: static public OVRControllerHelper/ControllerType QuestAndRiftS
       static GlobalNamespace::OVRControllerHelper::ControllerType _get_QuestAndRiftS();
       // Set static field: static public OVRControllerHelper/ControllerType QuestAndRiftS
       static void _set_QuestAndRiftS(GlobalNamespace::OVRControllerHelper::ControllerType value);
       // static field const value: static public OVRControllerHelper/ControllerType Rift
-      static constexpr const int Rift = 3;
+      static constexpr const int Rift = 2;
       // Get static field: static public OVRControllerHelper/ControllerType Rift
       static GlobalNamespace::OVRControllerHelper::ControllerType _get_Rift();
       // Set static field: static public OVRControllerHelper/ControllerType Rift
       static void _set_Rift(GlobalNamespace::OVRControllerHelper::ControllerType value);
+      // static field const value: static public OVRControllerHelper/ControllerType Quest2
+      static constexpr const int Quest2 = 3;
+      // Get static field: static public OVRControllerHelper/ControllerType Quest2
+      static GlobalNamespace::OVRControllerHelper::ControllerType _get_Quest2();
+      // Set static field: static public OVRControllerHelper/ControllerType Quest2
+      static void _set_Quest2(GlobalNamespace::OVRControllerHelper::ControllerType value);
     }; // OVRControllerHelper/ControllerType
     #pragma pack(pop)
     static check_size<sizeof(OVRControllerHelper::ControllerType), 0 + sizeof(int)> __GlobalNamespace_OVRControllerHelper_ControllerTypeSizeCheck;
     static_assert(sizeof(OVRControllerHelper::ControllerType) == 0x4);
-    // public UnityEngine.GameObject m_modelGearVrController
-    // Size: 0x8
-    // Offset: 0x18
-    UnityEngine::GameObject* m_modelGearVrController;
-    // Field size check
-    static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // public UnityEngine.GameObject m_modelOculusGoController
-    // Size: 0x8
-    // Offset: 0x20
-    UnityEngine::GameObject* m_modelOculusGoController;
-    // Field size check
-    static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     // public UnityEngine.GameObject m_modelOculusTouchQuestAndRiftSLeftController
     // Size: 0x8
-    // Offset: 0x28
+    // Offset: 0x18
     UnityEngine::GameObject* m_modelOculusTouchQuestAndRiftSLeftController;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     // public UnityEngine.GameObject m_modelOculusTouchQuestAndRiftSRightController
     // Size: 0x8
-    // Offset: 0x30
+    // Offset: 0x20
     UnityEngine::GameObject* m_modelOculusTouchQuestAndRiftSRightController;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     // public UnityEngine.GameObject m_modelOculusTouchRiftLeftController
     // Size: 0x8
-    // Offset: 0x38
+    // Offset: 0x28
     UnityEngine::GameObject* m_modelOculusTouchRiftLeftController;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     // public UnityEngine.GameObject m_modelOculusTouchRiftRightController
     // Size: 0x8
-    // Offset: 0x40
+    // Offset: 0x30
     UnityEngine::GameObject* m_modelOculusTouchRiftRightController;
+    // Field size check
+    static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    // public UnityEngine.GameObject m_modelOculusTouchQuest2LeftController
+    // Size: 0x8
+    // Offset: 0x38
+    UnityEngine::GameObject* m_modelOculusTouchQuest2LeftController;
+    // Field size check
+    static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    // public UnityEngine.GameObject m_modelOculusTouchQuest2RightController
+    // Size: 0x8
+    // Offset: 0x40
+    UnityEngine::GameObject* m_modelOculusTouchQuest2RightController;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     // public OVRInput/Controller m_controller
@@ -141,17 +135,17 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: OVRControllerHelper
-    OVRControllerHelper(UnityEngine::GameObject* m_modelGearVrController_ = {}, UnityEngine::GameObject* m_modelOculusGoController_ = {}, UnityEngine::GameObject* m_modelOculusTouchQuestAndRiftSLeftController_ = {}, UnityEngine::GameObject* m_modelOculusTouchQuestAndRiftSRightController_ = {}, UnityEngine::GameObject* m_modelOculusTouchRiftLeftController_ = {}, UnityEngine::GameObject* m_modelOculusTouchRiftRightController_ = {}, GlobalNamespace::OVRInput::Controller m_controller_ = {}, GlobalNamespace::OVRControllerHelper::ControllerType activeControllerType_ = {}, bool m_prevControllerConnected_ = {}, bool m_prevControllerConnectedCached_ = {}) noexcept : m_modelGearVrController{m_modelGearVrController_}, m_modelOculusGoController{m_modelOculusGoController_}, m_modelOculusTouchQuestAndRiftSLeftController{m_modelOculusTouchQuestAndRiftSLeftController_}, m_modelOculusTouchQuestAndRiftSRightController{m_modelOculusTouchQuestAndRiftSRightController_}, m_modelOculusTouchRiftLeftController{m_modelOculusTouchRiftLeftController_}, m_modelOculusTouchRiftRightController{m_modelOculusTouchRiftRightController_}, m_controller{m_controller_}, activeControllerType{activeControllerType_}, m_prevControllerConnected{m_prevControllerConnected_}, m_prevControllerConnectedCached{m_prevControllerConnectedCached_} {}
+    OVRControllerHelper(UnityEngine::GameObject* m_modelOculusTouchQuestAndRiftSLeftController_ = {}, UnityEngine::GameObject* m_modelOculusTouchQuestAndRiftSRightController_ = {}, UnityEngine::GameObject* m_modelOculusTouchRiftLeftController_ = {}, UnityEngine::GameObject* m_modelOculusTouchRiftRightController_ = {}, UnityEngine::GameObject* m_modelOculusTouchQuest2LeftController_ = {}, UnityEngine::GameObject* m_modelOculusTouchQuest2RightController_ = {}, GlobalNamespace::OVRInput::Controller m_controller_ = {}, GlobalNamespace::OVRControllerHelper::ControllerType activeControllerType_ = {}, bool m_prevControllerConnected_ = {}, bool m_prevControllerConnectedCached_ = {}) noexcept : m_modelOculusTouchQuestAndRiftSLeftController{m_modelOculusTouchQuestAndRiftSLeftController_}, m_modelOculusTouchQuestAndRiftSRightController{m_modelOculusTouchQuestAndRiftSRightController_}, m_modelOculusTouchRiftLeftController{m_modelOculusTouchRiftLeftController_}, m_modelOculusTouchRiftRightController{m_modelOculusTouchRiftRightController_}, m_modelOculusTouchQuest2LeftController{m_modelOculusTouchQuest2LeftController_}, m_modelOculusTouchQuest2RightController{m_modelOculusTouchQuest2RightController_}, m_controller{m_controller_}, activeControllerType{activeControllerType_}, m_prevControllerConnected{m_prevControllerConnected_}, m_prevControllerConnectedCached{m_prevControllerConnectedCached_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x11A7B60
+    // Offset: 0x1137A04
     void Start();
     // private System.Void Update()
-    // Offset: 0x11A7DB4
+    // Offset: 0x1137C24
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x11A7FF8
+    // Offset: 0x1137E8C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

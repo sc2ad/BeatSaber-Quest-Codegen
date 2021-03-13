@@ -31,7 +31,7 @@ namespace Zenject {
     // protected override System.Void OnDespawned(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
-    // Base method: System.Void MemoryPoolBase_1::OnDespawned(TValue item)
+    // Base method: System.Void MemoryPoolBase_1::OnDespawned_NEW(TValue item)
     void OnDespawned(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPool_1::OnDespawned");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnDespawned", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
@@ -40,7 +40,7 @@ namespace Zenject {
     // protected override System.Void Reinitialize(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPool`1
-    // Base method: System.Void MemoryPool_1::Reinitialize(TValue item)
+    // Base method: System.Void MemoryPool_1::Reinitialize_NEW(TValue item)
     void Reinitialize(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPool_1::Reinitialize");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Reinitialize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));

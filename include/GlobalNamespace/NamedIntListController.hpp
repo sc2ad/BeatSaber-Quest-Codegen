@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: value and: valueChangedEvent
     char __padding1[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD3F330
+    // [CompilerGeneratedAttribute] Offset: 0xD2B4E4
     // private System.Action`1<System.Int32> valueChangedEvent
     // Size: 0x8
     // Offset: 0x38
@@ -62,34 +62,34 @@ namespace GlobalNamespace {
       return *reinterpret_cast<HMUI::IValueChanger_1<int>*>(this);
     }
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xF84CA8
-    void add_valueChangedEvent(System::Action_1<int>* value);
+    // Offset: 0xF20280
+    void add_valueChangedEvent_NEW(System::Action_1<int>* value);
     // public System.Void remove_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xF84D4C
-    void remove_valueChangedEvent(System::Action_1<int>* value);
+    // Offset: 0xF20324
+    void remove_valueChangedEvent_NEW(System::Action_1<int>* value);
     // public System.Void InitValues(NamedIntListController/TextValuePair[] values)
-    // Offset: 0xF84DF0
+    // Offset: 0xF203C8
     void InitValues(::Array<GlobalNamespace::NamedIntListController::TextValuePair*>* values);
     // public System.Void SetValue(System.Int32 value)
-    // Offset: 0xF84E20
+    // Offset: 0xF203D8
     void SetValue(int value);
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0xF84E30
+    // Offset: 0xF203E8
     // Implemented from: ListSettingsController
-    // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
+    // Base method: System.Boolean ListSettingsController::GetInitValues_NEW(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0xF84ECC
+    // Offset: 0xF20484
     // Implemented from: ListSettingsController
-    // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
+    // Base method: System.Void ListSettingsController::ApplyValue_NEW(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0xF84F44
+    // Offset: 0xF204FC
     // Implemented from: ListSettingsController
-    // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
+    // Base method: System.String ListSettingsController::TextForValue_NEW(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0xF84F98
+    // Offset: 0xF20550
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()

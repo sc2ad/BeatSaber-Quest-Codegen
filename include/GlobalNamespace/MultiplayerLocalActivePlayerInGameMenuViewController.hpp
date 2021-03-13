@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* resumeButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD3A15C
+    // [SpaceAttribute] Offset: 0xD25854
     // private UnityEngine.GameObject _mainBar
     // Size: 0x8
     // Offset: 0x38
@@ -98,14 +98,14 @@ namespace GlobalNamespace {
     GlobalNamespace::DisconnectPromptView* disconnectPromptView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DisconnectPromptView*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD3A1A4
+    // [SpaceAttribute] Offset: 0xD2589C
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::LevelBar* levelBar;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelBar*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD3A1DC
+    // [SpaceAttribute] Offset: 0xD258D4
     // private UnityEngine.GameObject _menuWrapperGameObject
     // Size: 0x8
     // Offset: 0x50
@@ -118,49 +118,49 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* menuControllersGameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3A224
+    // [InjectAttribute] Offset: 0xD2591C
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3A234
+    // [InjectAttribute] Offset: 0xD2592C
     // private readonly LocalPlayerInGameMenuInitData _localPlayerInGameMenuInitData
     // Size: 0x8
     // Offset: 0x68
     GlobalNamespace::LocalPlayerInGameMenuInitData* localPlayerInGameMenuInitData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalPlayerInGameMenuInitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3A244
+    // [InjectAttribute] Offset: 0xD2593C
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x70
     GlobalNamespace::VRControllersInputManager* vrControllersInputManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRControllersInputManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3A254
+    // [InjectAttribute] Offset: 0xD2594C
     // private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
     // Size: 0x8
     // Offset: 0x78
     GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* disconnectHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3A264
+    // [CompilerGeneratedAttribute] Offset: 0xD2595C
     // private System.Action didPressDisconnectButtonEvent
     // Size: 0x8
     // Offset: 0x80
     System::Action* didPressDisconnectButtonEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3A274
+    // [CompilerGeneratedAttribute] Offset: 0xD2596C
     // private System.Action didPressGiveUpButtonEvent
     // Size: 0x8
     // Offset: 0x88
     System::Action* didPressGiveUpButtonEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3A284
+    // [CompilerGeneratedAttribute] Offset: 0xD2597C
     // private System.Action didPressResumeButtonEvent
     // Size: 0x8
     // Offset: 0x90
@@ -190,58 +190,58 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDisabledInteractionDuration
     static void _set_kDisabledInteractionDuration(float value);
     // public System.Void add_didPressDisconnectButtonEvent(System.Action value)
-    // Offset: 0xFE13FC
+    // Offset: 0xF4D988
     void add_didPressDisconnectButtonEvent(System::Action* value);
     // public System.Void remove_didPressDisconnectButtonEvent(System.Action value)
-    // Offset: 0xFE18F8
+    // Offset: 0xF4DE84
     void remove_didPressDisconnectButtonEvent(System::Action* value);
     // public System.Void add_didPressGiveUpButtonEvent(System.Action value)
-    // Offset: 0xFE1544
+    // Offset: 0xF4DAD0
     void add_didPressGiveUpButtonEvent(System::Action* value);
     // public System.Void remove_didPressGiveUpButtonEvent(System.Action value)
-    // Offset: 0xFE1A40
+    // Offset: 0xF4DFCC
     void remove_didPressGiveUpButtonEvent(System::Action* value);
     // public System.Void add_didPressResumeButtonEvent(System.Action value)
-    // Offset: 0xFE14A0
+    // Offset: 0xF4DA2C
     void add_didPressResumeButtonEvent(System::Action* value);
     // public System.Void remove_didPressResumeButtonEvent(System.Action value)
-    // Offset: 0xFE199C
+    // Offset: 0xF4DF28
     void remove_didPressResumeButtonEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0xFE1E4C
+    // Offset: 0xF4E3D8
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xFE1FEC
+    // Offset: 0xF4E564
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFE2150
+    // Offset: 0xF4E6C8
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xFE21F4
+    // Offset: 0xF4E76C
     void Update();
     // public System.Void ShowMenu()
-    // Offset: 0xFE1B6C
+    // Offset: 0xF4E0F8
     void ShowMenu();
     // public System.Void HideMenu()
-    // Offset: 0xFE1BC8
+    // Offset: 0xF4E154
     void HideMenu();
     // private System.Void DisconnectButtonPressed()
-    // Offset: 0xFE22A4
+    // Offset: 0xF4E81C
     void DisconnectButtonPressed();
     // private System.Void HandleDisconnectPromptViewDidViewFinish(System.Boolean disconnect)
-    // Offset: 0xFE22E4
+    // Offset: 0xF4E85C
     void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
     // private System.Void GiveUpButtonPressed()
-    // Offset: 0xFE23B4
+    // Offset: 0xF4E92C
     void GiveUpButtonPressed();
     // private System.Void ResumeButtonPressed()
-    // Offset: 0xFE2264
+    // Offset: 0xF4E7DC
     void ResumeButtonPressed();
     // private System.Void <HandleDisconnectPromptViewDidViewFinish>b__32_0()
-    // Offset: 0xFE2410
+    // Offset: 0xF4E988
     void $HandleDisconnectPromptViewDidViewFinish$b__32_0();
     // public System.Void .ctor()
-    // Offset: 0xFE2408
+    // Offset: 0xF4E980
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -26,31 +26,31 @@ namespace Zenject {
     IMemoryPool() noexcept {}
     // public System.Int32 get_NumTotal()
     // Offset: 0xFFFFFFFF
-    int get_NumTotal();
+    int get_NumTotal_NEW();
     // public System.Int32 get_NumActive()
     // Offset: 0xFFFFFFFF
-    int get_NumActive();
+    int get_NumActive_NEW();
     // public System.Int32 get_NumInactive()
     // Offset: 0xFFFFFFFF
-    int get_NumInactive();
+    int get_NumInactive_NEW();
     // public System.Type get_ItemType()
     // Offset: 0xFFFFFFFF
-    System::Type* get_ItemType();
+    System::Type* get_ItemType_NEW();
     // public System.Void Resize(System.Int32 desiredPoolSize)
     // Offset: 0xFFFFFFFF
-    void Resize(int desiredPoolSize);
+    void Resize_NEW(int desiredPoolSize);
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
-    void Clear();
+    void Clear_NEW();
     // public System.Void ExpandBy(System.Int32 numToAdd)
     // Offset: 0xFFFFFFFF
-    void ExpandBy(int numToAdd);
+    void ExpandBy_NEW(int numToAdd);
     // public System.Void ShrinkBy(System.Int32 numToRemove)
     // Offset: 0xFFFFFFFF
-    void ShrinkBy(int numToRemove);
+    void ShrinkBy_NEW(int numToRemove);
     // public System.Void Despawn(System.Object obj)
     // Offset: 0xFFFFFFFF
-    void Zenject_IMemoryPool_Despawn(::Il2CppObject* obj);
+    void Despawn_NEW(::Il2CppObject* obj);
   }; // Zenject.IMemoryPool
   #pragma pack(pop)
 }

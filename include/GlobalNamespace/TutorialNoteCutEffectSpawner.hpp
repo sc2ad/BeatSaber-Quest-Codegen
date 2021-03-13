@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NoteController
   class NoteController;
   // Forward declaring type: NoteCutInfo
-  class NoteCutInfo;
+  struct NoteCutInfo;
 }
 // Completed forward declares
 // Type namespace: 
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingTextSpawner* failFlyingTextSpawner;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingTextSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3D7C4
+    // [InjectAttribute] Offset: 0xD29888
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
@@ -50,16 +50,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF4AFEC
+    // Offset: 0x107CAC0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF4B080
+    // Offset: 0x107CB4C
     void OnDestroy();
-    // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xF4B120
-    void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
+    // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
+    // Offset: 0x107CBE4
+    void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0xF4B2C0
+    // Offset: 0x107CD7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

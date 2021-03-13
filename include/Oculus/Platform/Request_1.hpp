@@ -58,7 +58,7 @@ namespace Oculus::Platform {
     // public override System.Void HandleMessage(Oculus.Platform.Message msg)
     // Offset: 0xFFFFFFFF
     // Implemented from: Oculus.Platform.Request
-    // Base method: System.Void Request::HandleMessage(Oculus.Platform.Message msg)
+    // Base method: System.Void Request::HandleMessage_NEW(Oculus.Platform.Message msg)
     void HandleMessage(Oculus::Platform::Message* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Request_1::HandleMessage");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "HandleMessage", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(msg)));

@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     ECMultiplier() noexcept {}
     // public Org.BouncyCastle.Math.EC.ECPoint Multiply(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECPoint* Multiply(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k);
+    Org::BouncyCastle::Math::EC::ECPoint* Multiply_NEW(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k);
   }; // Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier
   #pragma pack(pop)
 }

@@ -23,7 +23,7 @@ namespace UnityEngine::Playables {
     INotification() noexcept {}
     // public UnityEngine.PropertyName get_id()
     // Offset: 0xFFFFFFFF
-    UnityEngine::PropertyName UnityEngine_Playables_INotification_get_id();
+    UnityEngine::PropertyName get_id_NEW();
   }; // UnityEngine.Playables.INotification
   #pragma pack(pop)
 }

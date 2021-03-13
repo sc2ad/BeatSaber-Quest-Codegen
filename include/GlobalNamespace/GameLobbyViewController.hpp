@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameLobbyViewController
     GameLobbyViewController() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0xF338C8
+    // Offset: 0xF34B04
     // Implemented from: HMUI.StackedController
     // Base method: System.Void StackedController::.ctor()
     // Base method: System.Void ContainerViewController::.ctor()

@@ -39,16 +39,16 @@ namespace System::Net::NetworkInformation {
       return address;
     }
     // public System.Void .ctor(System.Net.IPAddress address)
-    // Offset: 0x1354B0C
+    // Offset: 0x1326EEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinuxUnicastIPAddressInformation* New_ctor(System::Net::IPAddress* address) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinuxUnicastIPAddressInformation*, creationType>(address)));
     }
     // public override System.Net.IPAddress get_Address()
-    // Offset: 0x1354B48
+    // Offset: 0x1326F20
     // Implemented from: System.Net.NetworkInformation.IPAddressInformation
-    // Base method: System.Net.IPAddress IPAddressInformation::get_Address()
+    // Base method: System.Net.IPAddress IPAddressInformation::get_Address_NEW()
     System::Net::IPAddress* get_Address();
   }; // System.Net.NetworkInformation.LinuxUnicastIPAddressInformation
   #pragma pack(pop)

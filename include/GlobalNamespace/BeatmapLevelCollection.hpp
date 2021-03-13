@@ -44,21 +44,19 @@ namespace GlobalNamespace {
     constexpr operator ::Array<GlobalNamespace::IPreviewBeatmapLevel*>*() const noexcept {
       return levels;
     }
+    // public IPreviewBeatmapLevel[] get_beatmapLevels()
+    // Offset: 0x10715D4
+    ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels_NEW();
     // public System.Void .ctor(IPreviewBeatmapLevel[] levels)
-    // Offset: 0x10737C8
+    // Offset: 0x10715DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelCollection* New_ctor(::Array<GlobalNamespace::IPreviewBeatmapLevel*>* levels) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelCollection*, creationType>(levels)));
     }
     // static public BeatmapLevelCollection CreateBeatmapLevelCollectionByUsingBeatmapCharacteristicFiltering(IBeatmapLevelCollection beatmapLevelCollection, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x10737FC
+    // Offset: 0x1071608
     static GlobalNamespace::BeatmapLevelCollection* CreateBeatmapLevelCollectionByUsingBeatmapCharacteristicFiltering(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
-    // public IPreviewBeatmapLevel[] get_beatmapLevels()
-    // Offset: 0x10737C0
-    // Implemented from: IBeatmapLevelCollection
-    // Base method: IPreviewBeatmapLevel[] IBeatmapLevelCollection::get_beatmapLevels()
-    ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
   }; // BeatmapLevelCollection
   #pragma pack(pop)
   static check_size<sizeof(BeatmapLevelCollection), 16 + sizeof(::Array<GlobalNamespace::IPreviewBeatmapLevel*>*)> __GlobalNamespace_BeatmapLevelCollectionSizeCheck;

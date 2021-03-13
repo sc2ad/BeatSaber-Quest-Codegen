@@ -70,12 +70,6 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_finishedLevel();
     // Set static field: static public System.String finishedLevel
     static void _set_finishedLevel(::Il2CppString* value);
-    // static field const value: static public System.String leftHanded
-    static constexpr const char* leftHanded = "left_handed";
-    // Get static field: static public System.String leftHanded
-    static ::Il2CppString* _get_leftHanded();
-    // Set static field: static public System.String leftHanded
-    static void _set_leftHanded(::Il2CppString* value);
   }; // NetworkConstants
   #pragma pack(pop)
 }

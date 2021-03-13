@@ -22,7 +22,7 @@ namespace System::Net::Http {
     // Creating value type constructor for type: HttpRequestException
     HttpRequestException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1418370
+    // Offset: 0x13E8958
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -32,7 +32,7 @@ namespace System::Net::Http {
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1417E9C
+    // Offset: 0x13E84D4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -41,7 +41,7 @@ namespace System::Net::Http {
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception inner)
-    // Offset: 0x1417298
+    // Offset: 0x13E792C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

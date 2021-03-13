@@ -30,13 +30,13 @@ namespace NUnit::Framework::Interfaces {
     ITestData() noexcept {}
     // public NUnit.Framework.Interfaces.RunState get_RunState()
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Interfaces::RunState get_RunState();
+    NUnit::Framework::Interfaces::RunState get_RunState_NEW();
     // public System.Object[] get_Arguments()
     // Offset: 0xFFFFFFFF
-    ::Array<::Il2CppObject*>* get_Arguments();
+    ::Array<::Il2CppObject*>* get_Arguments_NEW();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
+    NUnit::Framework::Interfaces::IPropertyBag* get_Properties_NEW();
   }; // NUnit.Framework.Interfaces.ITestData
   #pragma pack(pop)
 }

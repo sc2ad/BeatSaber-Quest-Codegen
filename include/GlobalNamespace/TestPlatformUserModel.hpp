@@ -16,6 +16,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: UserInfo
   class UserInfo;
+  // Forward declaring type: PlatformUserAuthTokenData
+  class PlatformUserAuthTokenData;
 }
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
@@ -53,27 +55,19 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IPlatformUserModel*>(this);
     }
     // public System.Threading.Tasks.Task`1<UserInfo> GetUserInfo()
-    // Offset: 0xF4461C
-    // Implemented from: IPlatformUserModel
-    // Base method: System.Threading.Tasks.Task`1<UserInfo> IPlatformUserModel::GetUserInfo()
-    System::Threading::Tasks::Task_1<GlobalNamespace::UserInfo*>* GetUserInfo();
+    // Offset: 0x101D990
+    System::Threading::Tasks::Task_1<GlobalNamespace::UserInfo*>* GetUserInfo_NEW();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserFriendsUserIds(System.Boolean cached)
-    // Offset: 0xF44728
-    // Implemented from: IPlatformUserModel
-    // Base method: System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> IPlatformUserModel::GetUserFriendsUserIds(System.Boolean cached)
-    System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* GetUserFriendsUserIds(bool cached);
-    // public System.Threading.Tasks.Task`1<System.String> GetUserAuthToken()
-    // Offset: 0xF44834
-    // Implemented from: IPlatformUserModel
-    // Base method: System.Threading.Tasks.Task`1<System.String> IPlatformUserModel::GetUserAuthToken()
-    System::Threading::Tasks::Task_1<::Il2CppString*>* GetUserAuthToken();
+    // Offset: 0x101DA90
+    System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* GetUserFriendsUserIds_NEW(bool cached);
+    // public System.Threading.Tasks.Task`1<PlatformUserAuthTokenData> GetUserAuthToken()
+    // Offset: 0x101DB90
+    System::Threading::Tasks::Task_1<GlobalNamespace::PlatformUserAuthTokenData*>* GetUserAuthToken_NEW();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserNamesForUserIds(System.Collections.Generic.IReadOnlyList`1<System.String> userIds)
-    // Offset: 0xF44940
-    // Implemented from: IPlatformUserModel
-    // Base method: System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> IPlatformUserModel::GetUserNamesForUserIds(System.Collections.Generic.IReadOnlyList`1<System.String> userIds)
-    System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* GetUserNamesForUserIds(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* userIds);
+    // Offset: 0x101DC90
+    System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* GetUserNamesForUserIds_NEW(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* userIds);
     // public System.Void .ctor()
-    // Offset: 0xF44A58
+    // Offset: 0x101DD90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

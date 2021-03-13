@@ -78,6 +78,27 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::_set_kCellReuseIdentifier");
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EnumTableViewDataSource_1<T>*>::get(), "kCellReuseIdentifier", value));
     }
+    // public System.Single CellSize()
+    // Offset: 0xFFFFFFFF
+    float CellSize_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::CellSize_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CellSize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<float, false>(this, ___internal__method);
+    }
+    // public System.Int32 NumberOfCells()
+    // Offset: 0xFFFFFFFF
+    int NumberOfCells_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::NumberOfCells_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "NumberOfCells", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
+    }
+    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
+    // Offset: 0xFFFFFFFF
+    HMUI::TableCell* CellForIdx_NEW(HMUI::TableView* tableView, int idx) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::CellForIdx_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CellForIdx", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(tableView, idx)));
+      return ::il2cpp_utils::RunMethodThrow<HMUI::TableCell*, false>(this, ___internal__method, tableView, idx);
+    }
     // public System.Int32 GetIdForValue(T value)
     // Offset: 0xFFFFFFFF
     int GetIdForValue(T value) {
@@ -101,37 +122,10 @@ namespace GlobalNamespace {
     }
     // public System.String GetLabelForValue(T value)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetLabelForValue(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::GetLabelForValue");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetLabelForValue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
+    ::Il2CppString* GetLabelForValue_NEW(T value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::GetLabelForValue_NEW");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetLabelForValue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method, value);
-    }
-    // public System.Single CellSize()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: HMUI.TableView/IDataSource
-    // Base method: System.Single IDataSource::CellSize()
-    float CellSize() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::CellSize");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CellSize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
-      return ::il2cpp_utils::RunMethodThrow<float, false>(this, ___internal__method);
-    }
-    // public System.Int32 NumberOfCells()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: HMUI.TableView/IDataSource
-    // Base method: System.Int32 IDataSource::NumberOfCells()
-    int NumberOfCells() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::NumberOfCells");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "NumberOfCells", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
-    }
-    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0xFFFFFFFF
-    // Implemented from: HMUI.TableView/IDataSource
-    // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::CellForIdx");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CellForIdx", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(tableView, idx)));
-      return ::il2cpp_utils::RunMethodThrow<HMUI::TableCell*, false>(this, ___internal__method, tableView, idx);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF

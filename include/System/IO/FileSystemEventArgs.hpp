@@ -44,7 +44,7 @@ namespace System::IO {
     // Creating value type constructor for type: FileSystemEventArgs
     FileSystemEventArgs(System::IO::WatcherChangeTypes changeType_ = {}, ::Il2CppString* directory_ = {}, ::Il2CppString* name_ = {}) noexcept : changeType{changeType_}, directory{directory_}, name{name_} {}
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name)
-    // Offset: 0x17A35D0
+    // Offset: 0x16D3A48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileSystemEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::Il2CppString* directory, ::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEventArgs::.ctor");

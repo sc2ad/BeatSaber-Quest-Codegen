@@ -29,19 +29,19 @@ namespace GlobalNamespace {
     IDestinationRequestManager() noexcept {}
     // public System.Void add_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
     // Offset: 0xFFFFFFFF
-    void add_didSendMenuDestinationRequestEvent(System::Action_1<GlobalNamespace::MenuDestination*>* value);
+    void add_didSendMenuDestinationRequestEvent_NEW(System::Action_1<GlobalNamespace::MenuDestination*>* value);
     // public System.Void remove_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
     // Offset: 0xFFFFFFFF
-    void remove_didSendMenuDestinationRequestEvent(System::Action_1<GlobalNamespace::MenuDestination*>* value);
+    void remove_didSendMenuDestinationRequestEvent_NEW(System::Action_1<GlobalNamespace::MenuDestination*>* value);
     // public MenuDestination get_currentMenuDestinationRequest()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();
+    GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest_NEW();
     // public System.Void set_currentMenuDestinationRequest(MenuDestination value)
     // Offset: 0xFFFFFFFF
-    void set_currentMenuDestinationRequest(GlobalNamespace::MenuDestination* value);
+    void set_currentMenuDestinationRequest_NEW(GlobalNamespace::MenuDestination* value);
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
-    void Clear();
+    void Clear_NEW();
   }; // IDestinationRequestManager
   #pragma pack(pop)
 }

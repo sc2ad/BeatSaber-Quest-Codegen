@@ -7,10 +7,10 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: SwingSaberRatingDidChangeDelegate
-  class SwingSaberRatingDidChangeDelegate;
-  // Forward declaring type: SwingSaberRatingDidFinishDelegate
-  class SwingSaberRatingDidFinishDelegate;
+  // Forward declaring type: ISaberSwingRatingCounterDidChangeReceiver
+  class ISaberSwingRatingCounterDidChangeReceiver;
+  // Forward declaring type: ISaberSwingRatingCounterDidFinishReceiver
+  class ISaberSwingRatingCounterDidFinishReceiver;
 }
 // Completed forward declares
 // Type namespace: 
@@ -23,27 +23,24 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: ISaberSwingRatingCounter
     ISaberSwingRatingCounter() noexcept {}
-    // public System.Void add_didChangeEvent(SwingSaberRatingDidChangeDelegate value)
-    // Offset: 0xFFFFFFFF
-    void add_didChangeEvent(GlobalNamespace::SwingSaberRatingDidChangeDelegate* value);
-    // public System.Void remove_didChangeEvent(SwingSaberRatingDidChangeDelegate value)
-    // Offset: 0xFFFFFFFF
-    void remove_didChangeEvent(GlobalNamespace::SwingSaberRatingDidChangeDelegate* value);
-    // public System.Void add_didFinishEvent(SwingSaberRatingDidFinishDelegate value)
-    // Offset: 0xFFFFFFFF
-    void add_didFinishEvent(GlobalNamespace::SwingSaberRatingDidFinishDelegate* value);
-    // public System.Void remove_didFinishEvent(SwingSaberRatingDidFinishDelegate value)
-    // Offset: 0xFFFFFFFF
-    void remove_didFinishEvent(GlobalNamespace::SwingSaberRatingDidFinishDelegate* value);
-    // public System.Boolean get_didFinish()
-    // Offset: 0xFFFFFFFF
-    bool get_didFinish();
     // public System.Single get_beforeCutRating()
     // Offset: 0xFFFFFFFF
-    float get_beforeCutRating();
+    float get_beforeCutRating_NEW();
     // public System.Single get_afterCutRating()
     // Offset: 0xFFFFFFFF
-    float get_afterCutRating();
+    float get_afterCutRating_NEW();
+    // public System.Void RegisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
+    // Offset: 0xFFFFFFFF
+    void RegisterDidChangeReceiver_NEW(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
+    // public System.Void RegisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
+    // Offset: 0xFFFFFFFF
+    void RegisterDidFinishReceiver_NEW(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
+    // public System.Void UnregisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
+    // Offset: 0xFFFFFFFF
+    void UnregisterDidChangeReceiver_NEW(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
+    // public System.Void UnregisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
+    // Offset: 0xFFFFFFFF
+    void UnregisterDidFinishReceiver_NEW(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
   }; // ISaberSwingRatingCounter
   #pragma pack(pop)
 }

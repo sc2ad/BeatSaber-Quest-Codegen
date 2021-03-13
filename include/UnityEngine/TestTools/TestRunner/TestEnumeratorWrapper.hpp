@@ -44,17 +44,17 @@ namespace UnityEngine::TestTools::TestRunner {
       return m_TestMethod;
     }
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
-    // Offset: 0x1337214
+    // Offset: 0x134F01C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestEnumeratorWrapper* New_ctor(NUnit::Framework::Internal::TestMethod* testMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestEnumeratorWrapper*, creationType>(testMethod)));
     }
     // public System.Collections.IEnumerator GetEnumerator(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1337248
+    // Offset: 0x134F048
     System::Collections::IEnumerator* GetEnumerator(NUnit::Framework::Internal::ITestExecutionContext* context);
     // private System.Collections.IEnumerator HandleEnumerableTest(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x133F508
+    // Offset: 0x1357160
     System::Collections::IEnumerator* HandleEnumerableTest(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestTools.TestRunner.TestEnumeratorWrapper
   #pragma pack(pop)

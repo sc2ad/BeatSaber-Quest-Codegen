@@ -108,74 +108,54 @@ namespace System::Net {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // public System.Void .ctor(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x156D7D4
+    // Offset: 0x14D5908
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpAsyncResult* New_ctor(System::AsyncCallback* callback, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpAsyncResult*, creationType>(callback, state)));
     }
+    // public System.Object get_AsyncState()
+    // Offset: 0x14D598C
+    ::Il2CppObject* get_AsyncState_NEW();
+    // public System.Threading.WaitHandle get_AsyncWaitHandle()
+    // Offset: 0x14D5994
+    System::Threading::WaitHandle* get_AsyncWaitHandle_NEW();
+    // public System.Boolean get_CompletedSynchronously()
+    // Offset: 0x14D5A7C
+    bool get_CompletedSynchronously_NEW();
+    // public System.Boolean get_IsCompleted()
+    // Offset: 0x14D5A84
+    bool get_IsCompleted_NEW();
     // System.Boolean get_GotException()
-    // Offset: 0x156DA34
+    // Offset: 0x14D5B18
     bool get_GotException();
     // System.Exception get_Exception()
-    // Offset: 0x156DA44
+    // Offset: 0x14D5B28
     System::Exception* get_Exception();
     // System.Net.FtpWebResponse get_Response()
-    // Offset: 0x156DA4C
+    // Offset: 0x14D5B30
     System::Net::FtpWebResponse* get_Response();
     // System.IO.Stream get_Stream()
-    // Offset: 0x156DA54
+    // Offset: 0x14D5B38
     System::IO::Stream* get_Stream();
     // System.Void set_Stream(System.IO.Stream value)
-    // Offset: 0x156DA5C
+    // Offset: 0x14D5B40
     void set_Stream(System::IO::Stream* value);
     // System.Boolean WaitUntilComplete(System.Int32 timeout, System.Boolean exitContext)
-    // Offset: 0x156DA64
+    // Offset: 0x14D5B48
     bool WaitUntilComplete(int timeout, bool exitContext);
     // System.Void SetCompleted(System.Boolean synch, System.Exception exc, System.Net.FtpWebResponse response)
-    // Offset: 0x156DACC
+    // Offset: 0x14D5BB0
     void SetCompleted(bool synch, System::Exception* exc, System::Net::FtpWebResponse* response);
     // System.Void SetCompleted(System.Boolean synch, System.Net.FtpWebResponse response)
-    // Offset: 0x156DC7C
+    // Offset: 0x14D5D34
     void SetCompleted(bool synch, System::Net::FtpWebResponse* response);
     // System.Void SetCompleted(System.Boolean synch, System.Exception exc)
-    // Offset: 0x156DC8C
+    // Offset: 0x14D5D44
     void SetCompleted(bool synch, System::Exception* exc);
     // System.Void DoCallback()
-    // Offset: 0x156DBB4
+    // Offset: 0x14D5C6C
     void DoCallback();
-    // public System.Object get_AsyncState()
-    // Offset: 0x156D878
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Object IAsyncResult::get_AsyncState()
-    ::Il2CppObject* get_AsyncState();
-    // Creating proxy method: System_IAsyncResult_get_AsyncState
-    // Maps to method: get_AsyncState
-    ::Il2CppObject* System_IAsyncResult_get_AsyncState();
-    // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x156D880
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
-    System::Threading::WaitHandle* get_AsyncWaitHandle();
-    // Creating proxy method: System_IAsyncResult_get_AsyncWaitHandle
-    // Maps to method: get_AsyncWaitHandle
-    System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
-    // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x156D980
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
-    bool get_CompletedSynchronously();
-    // Creating proxy method: System_IAsyncResult_get_CompletedSynchronously
-    // Maps to method: get_CompletedSynchronously
-    bool System_IAsyncResult_get_CompletedSynchronously();
-    // public System.Boolean get_IsCompleted()
-    // Offset: 0x156D988
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Boolean IAsyncResult::get_IsCompleted()
-    bool get_IsCompleted();
-    // Creating proxy method: System_IAsyncResult_get_IsCompleted
-    // Maps to method: get_IsCompleted
-    bool System_IAsyncResult_get_IsCompleted();
   }; // System.Net.FtpAsyncResult
   #pragma pack(pop)
   static check_size<sizeof(FtpAsyncResult), 72 + sizeof(::Il2CppObject*)> __System_Net_FtpAsyncResultSizeCheck;

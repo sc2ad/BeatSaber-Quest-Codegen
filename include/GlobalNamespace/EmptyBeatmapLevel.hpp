@@ -48,84 +48,84 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class EmptyBeatmapLevel : public ::Il2CppObject/*, public GlobalNamespace::IBeatmapLevel*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD351E0
+    // [CompilerGeneratedAttribute] Offset: 0xD2043C
     // private readonly System.String <levelID>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* levelID;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD351F0
+    // [CompilerGeneratedAttribute] Offset: 0xD2044C
     // private readonly System.String <songName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* songName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD35200
+    // [CompilerGeneratedAttribute] Offset: 0xD2045C
     // private readonly System.String <songSubName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::Il2CppString* songSubName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD35210
+    // [CompilerGeneratedAttribute] Offset: 0xD2046C
     // private readonly System.String <songAuthorName>k__BackingField
     // Size: 0x8
     // Offset: 0x28
     ::Il2CppString* songAuthorName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD35220
+    // [CompilerGeneratedAttribute] Offset: 0xD2047C
     // private readonly System.String <levelAuthorName>k__BackingField
     // Size: 0x8
     // Offset: 0x30
     ::Il2CppString* levelAuthorName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD35230
+    // [CompilerGeneratedAttribute] Offset: 0xD2048C
     // private readonly System.Single <beatsPerMinute>k__BackingField
     // Size: 0x4
     // Offset: 0x38
     float beatsPerMinute;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD35240
+    // [CompilerGeneratedAttribute] Offset: 0xD2049C
     // private readonly System.Single <songTimeOffset>k__BackingField
     // Size: 0x4
     // Offset: 0x3C
     float songTimeOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD35250
+    // [CompilerGeneratedAttribute] Offset: 0xD204AC
     // private readonly System.Single <shuffle>k__BackingField
     // Size: 0x4
     // Offset: 0x40
     float shuffle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD35260
+    // [CompilerGeneratedAttribute] Offset: 0xD204BC
     // private readonly System.Single <shufflePeriod>k__BackingField
     // Size: 0x4
     // Offset: 0x44
     float shufflePeriod;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD35270
+    // [CompilerGeneratedAttribute] Offset: 0xD204CC
     // private readonly System.Single <previewStartTime>k__BackingField
     // Size: 0x4
     // Offset: 0x48
     float previewStartTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD35280
+    // [CompilerGeneratedAttribute] Offset: 0xD204DC
     // private readonly System.Single <previewDuration>k__BackingField
     // Size: 0x4
     // Offset: 0x4C
     float previewDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD35290
+    // [CompilerGeneratedAttribute] Offset: 0xD204EC
     // private readonly System.Single <songDuration>k__BackingField
     // Size: 0x4
     // Offset: 0x50
@@ -134,28 +134,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songDuration and: environmentInfo
     char __padding11[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD352A0
+    // [CompilerGeneratedAttribute] Offset: 0xD204FC
     // private readonly EnvironmentInfoSO <environmentInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::EnvironmentInfoSO* environmentInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentInfoSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD352B0
+    // [CompilerGeneratedAttribute] Offset: 0xD2050C
     // private readonly EnvironmentInfoSO <allDirectionsEnvironmentInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentInfoSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD352C0
+    // [CompilerGeneratedAttribute] Offset: 0xD2051C
     // private readonly PreviewDifficultyBeatmapSet[] <previewDifficultyBeatmapSets>k__BackingField
     // Size: 0x8
     // Offset: 0x68
     ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD352D0
+    // [CompilerGeneratedAttribute] Offset: 0xD2052C
     // private readonly IBeatmapLevelData <beatmapLevelData>k__BackingField
     // Size: 0x8
     // Offset: 0x70
@@ -169,97 +169,61 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevel*>(this);
     }
     // public System.String get_levelID()
-    // Offset: 0x104F094
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: System.String IPreviewBeatmapLevel::get_levelID()
-    ::Il2CppString* get_levelID();
+    // Offset: 0xFE2C58
+    ::Il2CppString* get_levelID_NEW();
     // public System.String get_songName()
-    // Offset: 0x104F09C
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: System.String IPreviewBeatmapLevel::get_songName()
-    ::Il2CppString* get_songName();
+    // Offset: 0xFE2C60
+    ::Il2CppString* get_songName_NEW();
     // public System.String get_songSubName()
-    // Offset: 0x104F0A4
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: System.String IPreviewBeatmapLevel::get_songSubName()
-    ::Il2CppString* get_songSubName();
+    // Offset: 0xFE2C68
+    ::Il2CppString* get_songSubName_NEW();
     // public System.String get_songAuthorName()
-    // Offset: 0x104F0AC
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: System.String IPreviewBeatmapLevel::get_songAuthorName()
-    ::Il2CppString* get_songAuthorName();
+    // Offset: 0xFE2C70
+    ::Il2CppString* get_songAuthorName_NEW();
     // public System.String get_levelAuthorName()
-    // Offset: 0x104F0B4
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: System.String IPreviewBeatmapLevel::get_levelAuthorName()
-    ::Il2CppString* get_levelAuthorName();
+    // Offset: 0xFE2C78
+    ::Il2CppString* get_levelAuthorName_NEW();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x104F0BC
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: System.Single IPreviewBeatmapLevel::get_beatsPerMinute()
-    float get_beatsPerMinute();
+    // Offset: 0xFE2C80
+    float get_beatsPerMinute_NEW();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x104F0C4
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: System.Single IPreviewBeatmapLevel::get_songTimeOffset()
-    float get_songTimeOffset();
+    // Offset: 0xFE2C88
+    float get_songTimeOffset_NEW();
     // public System.Single get_shuffle()
-    // Offset: 0x104F0CC
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: System.Single IPreviewBeatmapLevel::get_shuffle()
-    float get_shuffle();
+    // Offset: 0xFE2C90
+    float get_shuffle_NEW();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x104F0D4
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: System.Single IPreviewBeatmapLevel::get_shufflePeriod()
-    float get_shufflePeriod();
+    // Offset: 0xFE2C98
+    float get_shufflePeriod_NEW();
     // public System.Single get_previewStartTime()
-    // Offset: 0x104F0DC
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: System.Single IPreviewBeatmapLevel::get_previewStartTime()
-    float get_previewStartTime();
+    // Offset: 0xFE2CA0
+    float get_previewStartTime_NEW();
     // public System.Single get_previewDuration()
-    // Offset: 0x104F0E4
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: System.Single IPreviewBeatmapLevel::get_previewDuration()
-    float get_previewDuration();
+    // Offset: 0xFE2CA8
+    float get_previewDuration_NEW();
     // public System.Single get_songDuration()
-    // Offset: 0x104F0EC
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: System.Single IPreviewBeatmapLevel::get_songDuration()
-    float get_songDuration();
+    // Offset: 0xFE2CB0
+    float get_songDuration_NEW();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x104F0F4
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: EnvironmentInfoSO IPreviewBeatmapLevel::get_environmentInfo()
-    GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
+    // Offset: 0xFE2CB8
+    GlobalNamespace::EnvironmentInfoSO* get_environmentInfo_NEW();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0x104F0FC
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: EnvironmentInfoSO IPreviewBeatmapLevel::get_allDirectionsEnvironmentInfo()
-    GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
+    // Offset: 0xFE2CC0
+    GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo_NEW();
     // public PreviewDifficultyBeatmapSet[] get_previewDifficultyBeatmapSets()
-    // Offset: 0x104F104
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: PreviewDifficultyBeatmapSet[] IPreviewBeatmapLevel::get_previewDifficultyBeatmapSets()
-    ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
+    // Offset: 0xFE2CC8
+    ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets_NEW();
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x104F10C
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: System.Threading.Tasks.Task`1<UnityEngine.AudioClip> IPreviewBeatmapLevel::GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(System::Threading::CancellationToken cancellationToken);
+    // Offset: 0xFE2CD0
+    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync_NEW(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x104F16C
-    // Implemented from: IPreviewBeatmapLevel
-    // Base method: System.Threading.Tasks.Task`1<UnityEngine.Sprite> IPreviewBeatmapLevel::GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
+    // Offset: 0xFE2D30
+    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync_NEW(System::Threading::CancellationToken cancellationToken);
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0x104F1CC
-    // Implemented from: IBeatmapLevel
-    // Base method: IBeatmapLevelData IBeatmapLevel::get_beatmapLevelData()
-    GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
+    // Offset: 0xFE2D90
+    GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData_NEW();
     // public System.Void .ctor()
-    // Offset: 0x104F1D4
+    // Offset: 0xFE2D98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

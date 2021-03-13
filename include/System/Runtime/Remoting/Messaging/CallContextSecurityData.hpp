@@ -43,18 +43,13 @@ namespace System::Runtime::Remoting::Messaging {
       return principal;
     }
     // System.Boolean get_HasInfo()
-    // Offset: 0x132173C
+    // Offset: 0x18AA284
     bool get_HasInfo();
     // public System.Object Clone()
-    // Offset: 0x132174C
-    // Implemented from: System.ICloneable
-    // Base method: System.Object ICloneable::Clone()
-    ::Il2CppObject* Clone();
-    // Creating proxy method: System_ICloneable_Clone
-    // Maps to method: Clone
-    ::Il2CppObject* System_ICloneable_Clone();
+    // Offset: 0x18AA294
+    ::Il2CppObject* Clone_NEW();
     // public System.Void .ctor()
-    // Offset: 0x13217C4
+    // Offset: 0x18AA304
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

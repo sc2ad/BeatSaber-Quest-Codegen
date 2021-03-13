@@ -36,7 +36,7 @@ namespace OnlineServices {
     // Creating value type constructor for type: LevelScoreResultsDataUploadInfo
     LevelScoreResultsDataUploadInfo(OnlineServices::LevelScoreResultsData levelScoreResultsData_ = {}, int uploadAttemptCountLeft_ = {}) noexcept : levelScoreResultsData{levelScoreResultsData_}, uploadAttemptCountLeft{uploadAttemptCountLeft_} {}
     // public System.Void .ctor()
-    // Offset: 0xF1AB9C
+    // Offset: 0x10E1F30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

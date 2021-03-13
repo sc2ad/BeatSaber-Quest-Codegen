@@ -17,19 +17,19 @@ namespace Priority_Queue {
   template<typename TPriority>
   class GenericPriorityQueueNode_1 : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD4593C
+    // [CompilerGeneratedAttribute] Offset: 0xD31D20
     // private TPriority <Priority>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     TPriority Priority;
-    // [CompilerGeneratedAttribute] Offset: 0xD4594C
+    // [CompilerGeneratedAttribute] Offset: 0xD31D30
     // private System.Int32 <QueueIndex>k__BackingField
     // Size: 0x4
     // Offset: 0x0
     int QueueIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD4595C
+    // [CompilerGeneratedAttribute] Offset: 0xD31D40
     // private System.Int64 <InsertionIndex>k__BackingField
     // Size: 0x8
     // Offset: 0x0

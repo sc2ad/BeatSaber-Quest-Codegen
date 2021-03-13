@@ -40,43 +40,38 @@ namespace System::Security::Cryptography::X509Certificates {
     }
     // public System.Boolean get_IsValid()
     // Offset: 0xFFFFFFFF
-    bool get_IsValid();
+    bool get_IsValid_NEW();
     // public System.Security.Cryptography.X509Certificates.X509ChainElementCollection get_ChainElements()
     // Offset: 0xFFFFFFFF
-    System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
+    System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements_NEW();
     // public System.Security.Cryptography.X509Certificates.X509ChainPolicy get_ChainPolicy()
     // Offset: 0xFFFFFFFF
-    System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
+    System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy_NEW();
     // public System.Void set_ChainPolicy(System.Security.Cryptography.X509Certificates.X509ChainPolicy value)
     // Offset: 0xFFFFFFFF
-    void set_ChainPolicy(System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
+    void set_ChainPolicy_NEW(System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
     // public System.Security.Cryptography.X509Certificates.X509ChainStatus[] get_ChainStatus()
     // Offset: 0xFFFFFFFF
-    ::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>* get_ChainStatus();
+    ::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>* get_ChainStatus_NEW();
     // public System.Boolean Build(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
     // Offset: 0xFFFFFFFF
-    bool Build(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
+    bool Build_NEW(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // public System.Void Reset()
     // Offset: 0xFFFFFFFF
-    void Reset();
-    // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x177AFA4
-    void Dispose(bool disposing);
+    void Reset_NEW();
     // public System.Void Dispose()
-    // Offset: 0x177A15C
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose();
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose();
+    // Offset: 0x16ACE3C
+    void Dispose_NEW();
+    // protected System.Void Dispose(System.Boolean disposing)
+    // Offset: 0x16ADC44
+    void Dispose_NEW(bool disposing);
     // protected override System.Void Finalize()
-    // Offset: 0x177AFA8
+    // Offset: 0x16ADC48
     // Implemented from: System.Object
-    // Base method: System.Void Object::Finalize()
+    // Base method: System.Void Object::Finalize_NEW()
     void Finalize();
     // protected System.Void .ctor()
-    // Offset: 0x177B01C
+    // Offset: 0x16ADCBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

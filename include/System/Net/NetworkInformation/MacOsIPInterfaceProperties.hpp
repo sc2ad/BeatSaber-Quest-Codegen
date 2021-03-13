@@ -42,19 +42,19 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: MacOsIPInterfaceProperties
     MacOsIPInterfaceProperties() noexcept {}
     // public System.Void .ctor(System.Net.NetworkInformation.MacOsNetworkInterface iface, System.Collections.Generic.List`1<System.Net.IPAddress> addresses)
-    // Offset: 0x1354B50
+    // Offset: 0x1326F28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MacOsIPInterfaceProperties* New_ctor(System::Net::NetworkInformation::MacOsNetworkInterface* iface, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::MacOsIPInterfaceProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MacOsIPInterfaceProperties*, creationType>(iface, addresses)));
     }
     // static private System.Boolean ParseRouteInfo_internal(System.String iface, out System.String[] gw_addr_list)
-    // Offset: 0x1354BCC
+    // Offset: 0x1326FA8
     static bool ParseRouteInfo_internal(::Il2CppString* iface, ::Array<::Il2CppString*>*& gw_addr_list);
     // public override System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
-    // Offset: 0x1354BD0
+    // Offset: 0x1326FAC
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
-    // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses()
+    // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses_NEW()
     System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
   }; // System.Net.NetworkInformation.MacOsIPInterfaceProperties
   #pragma pack(pop)

@@ -32,23 +32,23 @@ namespace System::Security::Cryptography::X509Certificates {
       return critical;
     }
     // public System.Void .ctor(System.String oid, System.Byte[] rawData, System.Boolean critical)
-    // Offset: 0x177F2EC
+    // Offset: 0x16B1D58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(::Il2CppString* oid, ::Array<uint8_t>* rawData, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(oid, rawData, critical)));
     }
     // public System.Boolean get_Critical()
-    // Offset: 0x177F31C
+    // Offset: 0x16B1D88
     bool get_Critical();
     // public System.Void set_Critical(System.Boolean value)
-    // Offset: 0x177F324
+    // Offset: 0x16B1D90
     void set_Critical(bool value);
     // System.String FormatUnkownData(System.Byte[] data)
-    // Offset: 0x17731A0
+    // Offset: 0x16A6064
     ::Il2CppString* FormatUnkownData(::Array<uint8_t>* data);
     // protected System.Void .ctor()
-    // Offset: 0x17726FC
+    // Offset: 0x16A55CC
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.Void AsnEncodedData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -58,9 +58,9 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>()));
     }
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x177F330
+    // Offset: 0x16B1D9C
     // Implemented from: System.Security.Cryptography.AsnEncodedData
-    // Base method: System.Void AsnEncodedData::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
+    // Base method: System.Void AsnEncodedData::CopyFrom_NEW(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
   }; // System.Security.Cryptography.X509Certificates.X509Extension
   #pragma pack(pop)

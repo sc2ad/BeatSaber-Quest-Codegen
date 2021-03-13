@@ -53,24 +53,24 @@ namespace LiteNetLib {
     // Creating value type constructor for type: BaseChannel
     BaseChannel(LiteNetLib::BaseChannel* Next_ = {}, LiteNetLib::NetPeer* Peer_ = {}, System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>* OutgoingQueue_ = {}) noexcept : Next{Next_}, Peer{Peer_}, OutgoingQueue{OutgoingQueue_} {}
     // protected System.Void .ctor(LiteNetLib.NetPeer peer)
-    // Offset: 0x1A94938
+    // Offset: 0x19E77C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseChannel* New_ctor(LiteNetLib::NetPeer* peer) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::BaseChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseChannel*, creationType>(peer)));
     }
     // public System.Int32 get_PacketsInQueue()
-    // Offset: 0x1A949D4
+    // Offset: 0x19E7850
     int get_PacketsInQueue();
     // public System.Void AddToQueue(LiteNetLib.NetPacket packet)
-    // Offset: 0x1A94A24
+    // Offset: 0x19E78A0
     void AddToQueue(LiteNetLib::NetPacket* packet);
     // public System.Void SendNextPackets()
     // Offset: 0xFFFFFFFF
-    void SendNextPackets();
+    void SendNextPackets_NEW();
     // public System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
     // Offset: 0xFFFFFFFF
-    bool ProcessPacket(LiteNetLib::NetPacket* packet);
+    bool ProcessPacket_NEW(LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.BaseChannel
   #pragma pack(pop)
   static check_size<sizeof(BaseChannel), 32 + sizeof(System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>*)> __LiteNetLib_BaseChannelSizeCheck;

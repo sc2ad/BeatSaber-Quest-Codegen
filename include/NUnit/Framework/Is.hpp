@@ -12,6 +12,10 @@ namespace NUnit::Framework::Constraints {
   class TrueConstraint;
   // Forward declaring type: EqualConstraint
   class EqualConstraint;
+  // Forward declaring type: GreaterThanOrEqualConstraint
+  class GreaterThanOrEqualConstraint;
+  // Forward declaring type: LessThanOrEqualConstraint
+  class LessThanOrEqualConstraint;
 }
 // Completed forward declares
 // Type namespace: NUnit.Framework
@@ -25,11 +29,17 @@ namespace NUnit::Framework {
     // Creating value type constructor for type: Is
     Is() noexcept {}
     // static public NUnit.Framework.Constraints.TrueConstraint get_True()
-    // Offset: 0x222D890
+    // Offset: 0x209DAF8
     static NUnit::Framework::Constraints::TrueConstraint* get_True();
     // static public NUnit.Framework.Constraints.EqualConstraint EqualTo(System.Object expected)
-    // Offset: 0x222D8EC
+    // Offset: 0x209DB54
     static NUnit::Framework::Constraints::EqualConstraint* EqualTo(::Il2CppObject* expected);
+    // static public NUnit.Framework.Constraints.GreaterThanOrEqualConstraint GreaterThanOrEqualTo(System.Object expected)
+    // Offset: 0x209DBB8
+    static NUnit::Framework::Constraints::GreaterThanOrEqualConstraint* GreaterThanOrEqualTo(::Il2CppObject* expected);
+    // static public NUnit.Framework.Constraints.LessThanOrEqualConstraint LessThanOrEqualTo(System.Object expected)
+    // Offset: 0x209DC1C
+    static NUnit::Framework::Constraints::LessThanOrEqualConstraint* LessThanOrEqualTo(::Il2CppObject* expected);
   }; // NUnit.Framework.Is
   #pragma pack(pop)
 }

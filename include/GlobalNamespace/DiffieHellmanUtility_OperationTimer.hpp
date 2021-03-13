@@ -47,23 +47,18 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // private System.Void .ctor(System.String operationName)
-    // Offset: 0x11D25A8
+    // Offset: 0x1210FBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiffieHellmanUtility::OperationTimer* New_ctor(::Il2CppString* operationName) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DiffieHellmanUtility::OperationTimer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiffieHellmanUtility::OperationTimer*, creationType>(operationName)));
     }
-    // static public DiffieHellmanUtility/OperationTimer Time(System.String operation)
-    // Offset: 0x11D1C0C
-    static GlobalNamespace::DiffieHellmanUtility::OperationTimer* Time(::Il2CppString* operation);
     // public System.Void Dispose()
-    // Offset: 0x11D264C
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose();
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose();
+    // Offset: 0x1211048
+    void Dispose_NEW();
+    // static public DiffieHellmanUtility/OperationTimer Time(System.String operation)
+    // Offset: 0x12106B4
+    static GlobalNamespace::DiffieHellmanUtility::OperationTimer* Time(::Il2CppString* operation);
   }; // DiffieHellmanUtility/OperationTimer
   #pragma pack(pop)
   static check_size<sizeof(DiffieHellmanUtility::OperationTimer), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_DiffieHellmanUtility_OperationTimerSizeCheck;

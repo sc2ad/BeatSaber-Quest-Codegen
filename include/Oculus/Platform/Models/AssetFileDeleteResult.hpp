@@ -46,7 +46,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: AssetFileDeleteResult
     AssetFileDeleteResult(uint64_t AssetFileId_ = {}, uint64_t AssetId_ = {}, ::Il2CppString* Filepath_ = {}, bool Success_ = {}) noexcept : AssetFileId{AssetFileId_}, AssetId{AssetId_}, Filepath{Filepath_}, Success{Success_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13E9778
+    // Offset: 0x1383A18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetFileDeleteResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AssetFileDeleteResult::.ctor");

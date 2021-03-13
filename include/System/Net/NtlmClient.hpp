@@ -46,8 +46,17 @@ namespace System::Net {
     constexpr operator System::Net::IAuthenticationModule*() const noexcept {
       return authObject;
     }
+    // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
+    // Offset: 0x132A6C8
+    System::Net::Authorization* Authenticate_NEW(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
+    // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
+    // Offset: 0x132A7B4
+    System::Net::Authorization* PreAuthenticate_NEW(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
+    // public System.String get_AuthenticationType()
+    // Offset: 0x132A7BC
+    ::Il2CppString* get_AuthenticationType_NEW();
     // public System.Void .ctor()
-    // Offset: 0x13583D8
+    // Offset: 0x132A65C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -55,21 +64,6 @@ namespace System::Net {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NtlmClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NtlmClient*, creationType>()));
     }
-    // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x135844C
-    // Implemented from: System.Net.IAuthenticationModule
-    // Base method: System.Net.Authorization IAuthenticationModule::Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
-    // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1358538
-    // Implemented from: System.Net.IAuthenticationModule
-    // Base method: System.Net.Authorization IAuthenticationModule::PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
-    // public System.String get_AuthenticationType()
-    // Offset: 0x1358540
-    // Implemented from: System.Net.IAuthenticationModule
-    // Base method: System.String IAuthenticationModule::get_AuthenticationType()
-    ::Il2CppString* get_AuthenticationType();
   }; // System.Net.NtlmClient
   #pragma pack(pop)
   static check_size<sizeof(NtlmClient), 16 + sizeof(System::Net::IAuthenticationModule*)> __System_Net_NtlmClientSizeCheck;

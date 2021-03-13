@@ -26,10 +26,10 @@ namespace GlobalNamespace {
     ICameraRenderCallbacks() noexcept {}
     // public System.Void OnCameraPostRender(UnityEngine.Camera camera)
     // Offset: 0xFFFFFFFF
-    void OnCameraPostRender(UnityEngine::Camera* camera);
+    void OnCameraPostRender_NEW(UnityEngine::Camera* camera);
     // public System.Void OnCameraPreRender(UnityEngine.Camera camera)
     // Offset: 0xFFFFFFFF
-    void OnCameraPreRender(UnityEngine::Camera* camera);
+    void OnCameraPreRender_NEW(UnityEngine::Camera* camera);
   }; // CameraRenderCallbacksManager/ICameraRenderCallbacks
   #pragma pack(pop)
 }

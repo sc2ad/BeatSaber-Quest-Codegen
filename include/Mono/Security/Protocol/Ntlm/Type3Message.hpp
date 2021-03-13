@@ -87,41 +87,41 @@ namespace Mono::Security::Protocol::Ntlm {
     // Creating value type constructor for type: Type3Message
     Type3Message(Mono::Security::Protocol::Ntlm::NtlmAuthLevel level_ = {}, ::Array<uint8_t>* challenge_ = {}, ::Il2CppString* host_ = {}, ::Il2CppString* domain_ = {}, ::Il2CppString* username_ = {}, ::Il2CppString* password_ = {}, Mono::Security::Protocol::Ntlm::Type2Message* type2_ = {}, ::Array<uint8_t>* lm_ = {}, ::Array<uint8_t>* nt_ = {}) noexcept : level{level_}, challenge{challenge_}, host{host_}, domain{domain_}, username{username_}, password{password_}, type2{type2_}, lm{lm_}, nt{nt_} {}
     // public System.Void .ctor(Mono.Security.Protocol.Ntlm.Type2Message type2)
-    // Offset: 0x1BF4CDC
+    // Offset: 0x1B958D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Type3Message* New_ctor(Mono::Security::Protocol::Ntlm::Type2Message* type2) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Protocol::Ntlm::Type3Message::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Type3Message*, creationType>(type2)));
     }
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x1BF4FD8
+    // Offset: 0x1B95B90
     void set_Domain(::Il2CppString* value);
     // public System.Void set_Password(System.String value)
-    // Offset: 0x1BF5068
+    // Offset: 0x1B95C18
     void set_Password(::Il2CppString* value);
     // public System.Void set_Username(System.String value)
-    // Offset: 0x1BF5070
+    // Offset: 0x1B95C20
     void set_Username(::Il2CppString* value);
     // private System.String DecodeString(System.Byte[] buffer, System.Int32 offset, System.Int32 len)
-    // Offset: 0x1BF52E8
+    // Offset: 0x1B95E50
     ::Il2CppString* DecodeString(::Array<uint8_t>* buffer, int offset, int len);
     // private System.Byte[] EncodeString(System.String text)
-    // Offset: 0x1BF534C
+    // Offset: 0x1B95EB4
     ::Array<uint8_t>* EncodeString(::Il2CppString* text);
     // protected override System.Void Finalize()
-    // Offset: 0x1BF4F24
+    // Offset: 0x1B95ADC
     // Implemented from: System.Object
-    // Base method: System.Void Object::Finalize()
+    // Base method: System.Void Object::Finalize_NEW()
     void Finalize();
     // protected override System.Void Decode(System.Byte[] message)
-    // Offset: 0x1BF5078
+    // Offset: 0x1B95C28
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
-    // Base method: System.Void MessageBase::Decode(System.Byte[] message)
+    // Base method: System.Void MessageBase::Decode_NEW(System.Byte[] message)
     void Decode(::Array<uint8_t>* message);
     // public override System.Byte[] GetBytes()
-    // Offset: 0x1BF53F0
+    // Offset: 0x1B95F58
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
-    // Base method: System.Byte[] MessageBase::GetBytes()
+    // Base method: System.Byte[] MessageBase::GetBytes_NEW()
     ::Array<uint8_t>* GetBytes();
   }; // Mono.Security.Protocol.Ntlm.Type3Message
   #pragma pack(pop)

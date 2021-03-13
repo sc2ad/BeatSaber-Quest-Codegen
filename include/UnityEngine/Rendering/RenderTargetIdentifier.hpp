@@ -90,7 +90,7 @@ namespace UnityEngine::Rendering {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::Rendering::RenderTargetIdentifier>*>(this);
     }
     // public System.Void .ctor(UnityEngine.Rendering.BuiltinRenderTextureType type)
-    // Offset: 0xE1498C
+    // Offset: 0xDFB2CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderTargetIdentifier(UnityEngine::Rendering::BuiltinRenderTextureType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
@@ -98,7 +98,7 @@ namespace UnityEngine::Rendering {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, type);
     }
     // public System.Void .ctor(System.Int32 nameID)
-    // Offset: 0xE149F4
+    // Offset: 0xDFB334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderTargetIdentifier(int nameID) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
@@ -106,30 +106,28 @@ namespace UnityEngine::Rendering {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, nameID);
     }
     // public System.Void .ctor(UnityEngine.Texture tex)
-    // Offset: 0xE14A5C
+    // Offset: 0xDFB39C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderTargetIdentifier(UnityEngine::Texture* tex) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(tex)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, tex);
     }
+    // public System.Boolean Equals(UnityEngine.Rendering.RenderTargetIdentifier rhs)
+    // Offset: 0xDFB3B4
+    bool Equals_NEW(UnityEngine::Rendering::RenderTargetIdentifier rhs);
     // public override System.String ToString()
-    // Offset: 0xE14A64
+    // Offset: 0xDFB3A4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xE14A6C
+    // Offset: 0xDFB3AC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
-    // public System.Boolean Equals(UnityEngine.Rendering.RenderTargetIdentifier rhs)
-    // Offset: 0xE14A74
-    // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Rendering.RenderTargetIdentifier rhs)
-    bool Equals(UnityEngine::Rendering::RenderTargetIdentifier rhs);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xE14AAC
+    // Offset: 0xDFB3EC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

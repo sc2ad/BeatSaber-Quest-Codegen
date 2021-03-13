@@ -29,7 +29,7 @@ namespace UnityEngine::EventSystems {
     }
     // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0xFFFFFFFF
-    void OnSubmit(UnityEngine::EventSystems::BaseEventData* eventData);
+    void OnSubmit_NEW(UnityEngine::EventSystems::BaseEventData* eventData);
   }; // UnityEngine.EventSystems.ISubmitHandler
   #pragma pack(pop)
 }

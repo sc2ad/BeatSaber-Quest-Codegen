@@ -19,10 +19,10 @@ namespace GlobalNamespace {
     IRichPresenceData() noexcept {}
     // public System.String get_apiName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_apiName();
+    ::Il2CppString* get_apiName_NEW();
     // public System.String get_localizedDescription()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_localizedDescription();
+    ::Il2CppString* get_localizedDescription_NEW();
   }; // IRichPresenceData
   #pragma pack(pop)
 }

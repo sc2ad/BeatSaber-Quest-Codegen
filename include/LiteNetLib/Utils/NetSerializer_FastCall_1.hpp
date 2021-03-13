@@ -47,36 +47,36 @@ namespace LiteNetLib::Utils {
     }
     // public System.Void Init(System.Reflection.MethodInfo getMethod, System.Reflection.MethodInfo setMethod, System.Boolean isArray)
     // Offset: 0xFFFFFFFF
-    void Init(System::Reflection::MethodInfo* getMethod, System::Reflection::MethodInfo* setMethod, bool isArray) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCall_1::Init");
+    void Init_NEW(System::Reflection::MethodInfo* getMethod, System::Reflection::MethodInfo* setMethod, bool isArray) {
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCall_1::Init_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(getMethod, setMethod, isArray)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, getMethod, setMethod, isArray);
     }
     // public System.Void Read(T inf, LiteNetLib.Utils.NetDataReader r)
     // Offset: 0xFFFFFFFF
-    void Read(T inf, LiteNetLib::Utils::NetDataReader* r) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCall_1::Read");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Read", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(inf, r)));
+    void Read_NEW(T inf, LiteNetLib::Utils::NetDataReader* r) {
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCall_1::Read_NEW");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Read", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(inf, r)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, r);
     }
     // public System.Void Write(T inf, LiteNetLib.Utils.NetDataWriter w)
     // Offset: 0xFFFFFFFF
-    void Write(T inf, LiteNetLib::Utils::NetDataWriter* w) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCall_1::Write");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Write", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(inf, w)));
+    void Write_NEW(T inf, LiteNetLib::Utils::NetDataWriter* w) {
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCall_1::Write_NEW");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Write", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(inf, w)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, w);
     }
     // public System.Void ReadArray(T inf, LiteNetLib.Utils.NetDataReader r)
     // Offset: 0xFFFFFFFF
-    void ReadArray(T inf, LiteNetLib::Utils::NetDataReader* r) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCall_1::ReadArray");
+    void ReadArray_NEW(T inf, LiteNetLib::Utils::NetDataReader* r) {
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCall_1::ReadArray_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ReadArray", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(inf, r)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, r);
     }
     // public System.Void WriteArray(T inf, LiteNetLib.Utils.NetDataWriter w)
     // Offset: 0xFFFFFFFF
-    void WriteArray(T inf, LiteNetLib::Utils::NetDataWriter* w) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCall_1::WriteArray");
+    void WriteArray_NEW(T inf, LiteNetLib::Utils::NetDataWriter* w) {
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCall_1::WriteArray_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "WriteArray", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(inf, w)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, w);
     }

@@ -33,21 +33,21 @@ namespace UnityEngine {
     // Creating value type constructor for type: DisplaysUpdatedDelegate
     DisplaysUpdatedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1A1DA98
+    // Offset: 0x19C8514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Display::DisplaysUpdatedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Display::DisplaysUpdatedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Display::DisplaysUpdatedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x1A1D758
-    void Invoke();
+    // Offset: 0x19C81F8
+    void Invoke_NEW();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1A1DAAC
-    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x19C8524
+    System::IAsyncResult* BeginInvoke_NEW(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1A1DAD8
-    void EndInvoke(System::IAsyncResult* result);
+    // Offset: 0x19C8550
+    void EndInvoke_NEW(System::IAsyncResult* result);
   }; // UnityEngine.Display/DisplaysUpdatedDelegate
   #pragma pack(pop)
 }

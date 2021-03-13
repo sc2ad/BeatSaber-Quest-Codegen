@@ -60,36 +60,21 @@ namespace System::Collections::Specialized {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // public System.Void .ctor(System.Collections.Specialized.ListDictionary list, System.Boolean isKeys)
-    // Offset: 0x1791974
+    // Offset: 0x16C27EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator* New_ctor(System::Collections::Specialized::ListDictionary* list, bool isKeys) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator*, creationType>(list, isKeys)));
     }
     // public System.Object get_Current()
-    // Offset: 0x17919E8
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Object IEnumerator::get_Current()
-    ::Il2CppObject* get_Current();
-    // Creating proxy method: System_Collections_IEnumerator_get_Current
-    // Maps to method: get_Current
-    ::Il2CppObject* System_Collections_IEnumerator_get_Current();
+    // Offset: 0x16C2848
+    ::Il2CppObject* get_Current_NEW();
     // public System.Boolean MoveNext()
-    // Offset: 0x1791A88
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Boolean IEnumerator::MoveNext()
-    bool MoveNext();
-    // Creating proxy method: System_Collections_IEnumerator_MoveNext
-    // Maps to method: MoveNext
-    bool System_Collections_IEnumerator_MoveNext();
+    // Offset: 0x16C28E8
+    bool MoveNext_NEW();
     // public System.Void Reset()
-    // Offset: 0x1791B68
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Void IEnumerator::Reset()
-    void Reset();
-    // Creating proxy method: System_Collections_IEnumerator_Reset
-    // Maps to method: Reset
-    void System_Collections_IEnumerator_Reset();
+    // Offset: 0x16C29B0
+    void Reset_NEW();
   }; // System.Collections.Specialized.ListDictionary/NodeKeyValueCollection/NodeKeyValueEnumerator
   #pragma pack(pop)
   static check_size<sizeof(ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator), 37 + sizeof(bool)> __System_Collections_Specialized_ListDictionary_NodeKeyValueCollection_NodeKeyValueEnumeratorSizeCheck;

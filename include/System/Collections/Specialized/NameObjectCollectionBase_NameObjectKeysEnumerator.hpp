@@ -48,36 +48,21 @@ namespace System::Collections::Specialized {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // System.Void .ctor(System.Collections.Specialized.NameObjectCollectionBase coll)
-    // Offset: 0x1793344
+    // Offset: 0x16C4074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase::NameObjectKeysEnumerator* New_ctor(System::Collections::Specialized::NameObjectCollectionBase* coll) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameObjectCollectionBase::NameObjectKeysEnumerator*, creationType>(coll)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1793790
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Boolean IEnumerator::MoveNext()
-    bool MoveNext();
-    // Creating proxy method: System_Collections_IEnumerator_MoveNext
-    // Maps to method: MoveNext
-    bool System_Collections_IEnumerator_MoveNext();
+    // Offset: 0x16C44A4
+    bool MoveNext_NEW();
     // public System.Void Reset()
-    // Offset: 0x1793878
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Void IEnumerator::Reset()
-    void Reset();
-    // Creating proxy method: System_Collections_IEnumerator_Reset
-    // Maps to method: Reset
-    void System_Collections_IEnumerator_Reset();
+    // Offset: 0x16C458C
+    void Reset_NEW();
     // public System.Object get_Current()
-    // Offset: 0x179391C
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Object IEnumerator::get_Current()
-    ::Il2CppObject* get_Current();
-    // Creating proxy method: System_Collections_IEnumerator_get_Current
-    // Maps to method: get_Current
-    ::Il2CppObject* System_Collections_IEnumerator_get_Current();
+    // Offset: 0x16C4630
+    ::Il2CppObject* get_Current_NEW();
   }; // System.Collections.Specialized.NameObjectCollectionBase/NameObjectKeysEnumerator
   #pragma pack(pop)
   static check_size<sizeof(NameObjectCollectionBase::NameObjectKeysEnumerator), 32 + sizeof(int)> __System_Collections_Specialized_NameObjectCollectionBase_NameObjectKeysEnumeratorSizeCheck;

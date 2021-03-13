@@ -21,10 +21,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithString
     MessageWithString() noexcept {}
     // protected System.String GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x13F093C
+    // Offset: 0x138B42C
     ::Il2CppString* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x13E7610
+    // Offset: 0x1381890
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -34,9 +34,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithString*, creationType>(c_message)));
     }
     // public override System.String GetString()
-    // Offset: 0x13F08F8
+    // Offset: 0x138B3E8
     // Implemented from: Oculus.Platform.Message
-    // Base method: System.String Message::GetString()
+    // Base method: System.String Message::GetString_NEW()
     ::Il2CppString* GetString();
   }; // Oculus.Platform.MessageWithString
 }

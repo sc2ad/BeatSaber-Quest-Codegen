@@ -35,20 +35,20 @@ namespace Polyglot {
   template<typename T>
   class LocalizedTextComponent_1 : public UnityEngine::MonoBehaviour/*, public Polyglot::ILocalize*/ {
     public:
-    // [TooltipAttribute] Offset: 0xD228CC
+    // [TooltipAttribute] Offset: 0xD0CD14
     // protected T localizedComponent
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T localizedComponent;
-    // [TooltipAttribute] Offset: 0xD22918
+    // [TooltipAttribute] Offset: 0xD0CD60
     // private System.Boolean maintainTextAlignment
     // Size: 0x1
     // Offset: 0x0
     bool maintainTextAlignment;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xD22964
-    // [LocalizationKeyAttribute] Offset: 0xD22964
+    // [TooltipAttribute] Offset: 0xD0CDAC
+    // [LocalizationKeyAttribute] Offset: 0xD0CDAC
     // private System.String key
     // Size: 0x8
     // Offset: 0x0
@@ -113,17 +113,24 @@ namespace Polyglot {
     }
     // protected System.Void SetText(T component, System.String value)
     // Offset: 0xFFFFFFFF
-    void SetText(T component, ::Il2CppString* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::LocalizedTextComponent_1::SetText");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SetText", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(component, value)));
+    void SetText_NEW(T component, ::Il2CppString* value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::LocalizedTextComponent_1::SetText_NEW");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SetText", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(component, value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, component, value);
     }
     // protected System.Void UpdateAlignment(T component, Polyglot.LanguageDirection direction)
     // Offset: 0xFFFFFFFF
-    void UpdateAlignment(T component, Polyglot::LanguageDirection direction) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::LocalizedTextComponent_1::UpdateAlignment");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "UpdateAlignment", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(component, direction)));
+    void UpdateAlignment_NEW(T component, Polyglot::LanguageDirection direction) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::LocalizedTextComponent_1::UpdateAlignment_NEW");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "UpdateAlignment", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(component, direction)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, component, direction);
+    }
+    // public System.Void OnLocalize()
+    // Offset: 0xFFFFFFFF
+    void OnLocalize_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::LocalizedTextComponent_1::OnLocalize_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnLocalize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Void ClearParameters()
     // Offset: 0xFFFFFFFF
@@ -159,15 +166,6 @@ namespace Polyglot {
       static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::LocalizedTextComponent_1::AddParameter");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AddParameter", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(parameter)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, parameter);
-    }
-    // public System.Void OnLocalize()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: Polyglot.ILocalize
-    // Base method: System.Void ILocalize::OnLocalize()
-    void OnLocalize() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::LocalizedTextComponent_1::OnLocalize");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnLocalize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF

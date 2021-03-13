@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class SteamVR_TrackedCamera::VideoStream : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xCFC614
+    // [CompilerGeneratedAttribute] Offset: 0xCE6F2C
     // private System.UInt32 <deviceIndex>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -51,29 +51,29 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: VideoStream
     VideoStream(uint deviceIndex_ = {}, uint64_t handle_ = {}, bool hasCamera_ = {}, uint64_t refCount_ = {}) noexcept : deviceIndex{deviceIndex_}, handle{handle_}, hasCamera{hasCamera_}, refCount{refCount_} {}
     // public System.Void .ctor(System.UInt32 deviceIndex)
-    // Offset: 0x15C7A3C
+    // Offset: 0x14F60C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_TrackedCamera::VideoStream* New_ctor(uint deviceIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_TrackedCamera::VideoStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_TrackedCamera::VideoStream*, creationType>(deviceIndex)));
     }
     // public System.UInt32 get_deviceIndex()
-    // Offset: 0x15C7B04
+    // Offset: 0x14F6188
     uint get_deviceIndex();
     // private System.Void set_deviceIndex(System.UInt32 value)
-    // Offset: 0x15C7B0C
+    // Offset: 0x14F6190
     void set_deviceIndex(uint value);
     // public System.UInt64 get_handle()
-    // Offset: 0x15C7B14
+    // Offset: 0x14F6198
     uint64_t get_handle();
     // public System.Boolean get_hasCamera()
-    // Offset: 0x15C7B1C
+    // Offset: 0x14F61A0
     bool get_hasCamera();
     // public System.UInt64 Acquire()
-    // Offset: 0x15C7B24
+    // Offset: 0x14F61A8
     uint64_t Acquire();
     // public System.UInt64 Release()
-    // Offset: 0x15C7BE0
+    // Offset: 0x14F6264
     uint64_t Release();
   }; // SteamVR_TrackedCamera/VideoStream
   #pragma pack(pop)

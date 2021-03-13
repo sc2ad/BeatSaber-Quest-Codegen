@@ -31,12 +31,12 @@ namespace GlobalNamespace {
     OVRCursor() noexcept {}
     // public System.Void SetCursorRay(UnityEngine.Transform ray)
     // Offset: 0xFFFFFFFF
-    void SetCursorRay(UnityEngine::Transform* ray);
+    void SetCursorRay_NEW(UnityEngine::Transform* ray);
     // public System.Void SetCursorStartDest(UnityEngine.Vector3 start, UnityEngine.Vector3 dest, UnityEngine.Vector3 normal)
     // Offset: 0xFFFFFFFF
-    void SetCursorStartDest(UnityEngine::Vector3 start, UnityEngine::Vector3 dest, UnityEngine::Vector3 normal);
+    void SetCursorStartDest_NEW(UnityEngine::Vector3 start, UnityEngine::Vector3 dest, UnityEngine::Vector3 normal);
     // protected System.Void .ctor()
-    // Offset: 0x11A90B4
+    // Offset: 0x113C27C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

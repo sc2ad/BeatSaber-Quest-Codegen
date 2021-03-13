@@ -33,21 +33,21 @@ namespace UnityEngine::Experimental::Audio {
     // Creating value type constructor for type: SampleFramesHandler
     SampleFramesHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x22BCAA4
+    // Offset: 0x216D77C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioSampleProvider::SampleFramesHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioSampleProvider::SampleFramesHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Experimental.Audio.AudioSampleProvider provider, System.UInt32 sampleFrameCount)
-    // Offset: 0x22BC65C
-    void Invoke(UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint sampleFrameCount);
+    // Offset: 0x216D354
+    void Invoke_NEW(UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint sampleFrameCount);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Experimental.Audio.AudioSampleProvider provider, System.UInt32 sampleFrameCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x22BCAB8
-    System::IAsyncResult* BeginInvoke(UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint sampleFrameCount, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x216D78C
+    System::IAsyncResult* BeginInvoke_NEW(UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint sampleFrameCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x22BCB54
-    void EndInvoke(System::IAsyncResult* result);
+    // Offset: 0x216D828
+    void EndInvoke_NEW(System::IAsyncResult* result);
   }; // UnityEngine.Experimental.Audio.AudioSampleProvider/SampleFramesHandler
   #pragma pack(pop)
 }

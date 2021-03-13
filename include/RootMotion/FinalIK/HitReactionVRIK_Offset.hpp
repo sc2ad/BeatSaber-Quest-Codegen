@@ -35,49 +35,49 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class HitReactionVRIK::Offset : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xD2CC58
+    // [TooltipAttribute] Offset: 0xD17BBC
     // public System.String name
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD2CC90
+    // [TooltipAttribute] Offset: 0xD17BF4
     // public UnityEngine.Collider collider
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::Collider* collider;
     // Field size check
     static_assert(sizeof(UnityEngine::Collider*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD2CCC8
+    // [TooltipAttribute] Offset: 0xD17C2C
     // private System.Single crossFadeTime
     // Size: 0x4
     // Offset: 0x20
     float crossFadeTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD2CD14
+    // [CompilerGeneratedAttribute] Offset: 0xD17C78
     // private System.Single <crossFader>k__BackingField
     // Size: 0x4
     // Offset: 0x24
     float crossFader;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD2CD24
+    // [CompilerGeneratedAttribute] Offset: 0xD17C88
     // private System.Single <timer>k__BackingField
     // Size: 0x4
     // Offset: 0x28
     float timer;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD2CD34
+    // [CompilerGeneratedAttribute] Offset: 0xD17C98
     // private UnityEngine.Vector3 <force>k__BackingField
     // Size: 0xC
     // Offset: 0x2C
     UnityEngine::Vector3 force;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [CompilerGeneratedAttribute] Offset: 0xD2CD44
+    // [CompilerGeneratedAttribute] Offset: 0xD17CA8
     // private UnityEngine.Vector3 <point>k__BackingField
     // Size: 0xC
     // Offset: 0x38
@@ -105,46 +105,46 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Offset
     Offset(::Il2CppString* name_ = {}, UnityEngine::Collider* collider_ = {}, float crossFadeTime_ = {}, float crossFader_ = {}, float timer_ = {}, UnityEngine::Vector3 force_ = {}, UnityEngine::Vector3 point_ = {}, float length_ = {}, float crossFadeSpeed_ = {}, float lastTime_ = {}) noexcept : name{name_}, collider{collider_}, crossFadeTime{crossFadeTime_}, crossFader{crossFader_}, timer{timer_}, force{force_}, point{point_}, length{length_}, crossFadeSpeed{crossFadeSpeed_}, lastTime{lastTime_} {}
     // protected System.Single get_crossFader()
-    // Offset: 0x1AF8B34
+    // Offset: 0x1A642A4
     float get_crossFader();
     // private System.Void set_crossFader(System.Single value)
-    // Offset: 0x1AF8B3C
+    // Offset: 0x1A642AC
     void set_crossFader(float value);
     // protected System.Single get_timer()
-    // Offset: 0x1AF8B44
+    // Offset: 0x1A642B4
     float get_timer();
     // private System.Void set_timer(System.Single value)
-    // Offset: 0x1AF8B4C
+    // Offset: 0x1A642BC
     void set_timer(float value);
     // protected UnityEngine.Vector3 get_force()
-    // Offset: 0x1AF8B54
+    // Offset: 0x1A642C4
     UnityEngine::Vector3 get_force();
     // private System.Void set_force(UnityEngine.Vector3 value)
-    // Offset: 0x1AF8B60
+    // Offset: 0x1A642D0
     void set_force(UnityEngine::Vector3 value);
     // protected UnityEngine.Vector3 get_point()
-    // Offset: 0x1AF8B6C
+    // Offset: 0x1A642DC
     UnityEngine::Vector3 get_point();
     // private System.Void set_point(UnityEngine.Vector3 value)
-    // Offset: 0x1AF8B78
+    // Offset: 0x1A642E8
     void set_point(UnityEngine::Vector3 value);
     // public System.Void Hit(UnityEngine.Vector3 force, UnityEngine.AnimationCurve[] curves, UnityEngine.Vector3 point)
-    // Offset: 0x1AF89EC
+    // Offset: 0x1A6415C
     void Hit(UnityEngine::Vector3 force, ::Array<UnityEngine::AnimationCurve*>* curves, UnityEngine::Vector3 point);
     // public System.Void Apply(RootMotion.FinalIK.VRIK ik, UnityEngine.AnimationCurve[] curves, System.Single weight)
-    // Offset: 0x1AF8650
+    // Offset: 0x1A63DC0
     void Apply(RootMotion::FinalIK::VRIK* ik, ::Array<UnityEngine::AnimationCurve*>* curves, float weight);
     // protected System.Single GetLength(UnityEngine.AnimationCurve[] curves)
     // Offset: 0xFFFFFFFF
-    float GetLength(::Array<UnityEngine::AnimationCurve*>* curves);
+    float GetLength_NEW(::Array<UnityEngine::AnimationCurve*>* curves);
     // protected System.Void CrossFadeStart()
     // Offset: 0xFFFFFFFF
-    void CrossFadeStart();
+    void CrossFadeStart_NEW();
     // protected System.Void OnApply(RootMotion.FinalIK.VRIK ik, UnityEngine.AnimationCurve[] curves, System.Single weight)
     // Offset: 0xFFFFFFFF
-    void OnApply(RootMotion::FinalIK::VRIK* ik, ::Array<UnityEngine::AnimationCurve*>* curves, float weight);
+    void OnApply_NEW(RootMotion::FinalIK::VRIK* ik, ::Array<UnityEngine::AnimationCurve*>* curves, float weight);
     // protected System.Void .ctor()
-    // Offset: 0x1AF8B84
+    // Offset: 0x1A642F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -27,14 +27,14 @@ namespace GlobalNamespace {
     ::Il2CppString* id;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xD36E40
+    // [LocalizationKeyAttribute] Offset: 0xD22154
     // private System.String _localizationKey
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* localizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [NullAllowed] Offset: 0xD36E78
+    // [NullAllowed] Offset: 0xD2218C
     // private T _partAsset
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -54,6 +54,13 @@ namespace GlobalNamespace {
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_partAsset", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
+    // public System.String get_id()
+    // Offset: 0xFFFFFFFF
+    ::Il2CppString* get_id_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartSO_1::get_id_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_id", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
+    }
     // public System.String get_localizationKey()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_localizationKey() {
@@ -61,21 +68,10 @@ namespace GlobalNamespace {
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_localizationKey", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
     }
-    // public System.String get_id()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: IAvatarPart
-    // Base method: System.String IAvatarPart::get_id()
-    ::Il2CppString* get_id() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartSO_1::get_id");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_id", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
-    }
     // public System.String get_localizedName()
     // Offset: 0xFFFFFFFF
-    // Implemented from: IAvatarPart
-    // Base method: System.String IAvatarPart::get_localizedName()
-    ::Il2CppString* get_localizedName() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartSO_1::get_localizedName");
+    ::Il2CppString* get_localizedName_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartSO_1::get_localizedName_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_localizedName", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
     }

@@ -29,28 +29,28 @@ namespace GlobalNamespace {
     ILevelGameplaySetupData() noexcept {}
     // public IPreviewBeatmapLevel get_beatmapLevel()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::IPreviewBeatmapLevel* get_beatmapLevel();
+    GlobalNamespace::IPreviewBeatmapLevel* get_beatmapLevel_NEW();
     // public System.Void set_beatmapLevel(IPreviewBeatmapLevel value)
     // Offset: 0xFFFFFFFF
-    void set_beatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
+    void set_beatmapLevel_NEW(GlobalNamespace::IPreviewBeatmapLevel* value);
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
+    GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic_NEW();
     // public System.Void set_beatmapCharacteristic(BeatmapCharacteristicSO value)
     // Offset: 0xFFFFFFFF
-    void set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    void set_beatmapCharacteristic_NEW(GlobalNamespace::BeatmapCharacteristicSO* value);
     // public BeatmapDifficulty get_beatmapDifficulty()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
+    GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty_NEW();
     // public System.Void set_beatmapDifficulty(BeatmapDifficulty value)
     // Offset: 0xFFFFFFFF
-    void set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
+    void set_beatmapDifficulty_NEW(GlobalNamespace::BeatmapDifficulty value);
     // public GameplayModifiers get_gameplayModifiers()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
+    GlobalNamespace::GameplayModifiers* get_gameplayModifiers_NEW();
     // public System.Void set_gameplayModifiers(GameplayModifiers value)
     // Offset: 0xFFFFFFFF
-    void set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
+    void set_gameplayModifiers_NEW(GlobalNamespace::GameplayModifiers* value);
   }; // ILevelGameplaySetupData
   #pragma pack(pop)
 }

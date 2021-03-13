@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ScoreScopeInfo
     ScoreScopeInfo(OnlineServices::ScoresScope scoreScope_ = {}, ::Il2CppString* localizedTitle_ = {}, UnityEngine::Sprite* icon_ = {}, int playerScorePos_ = {}) noexcept : scoreScope{scoreScope_}, localizedTitle{localizedTitle_}, icon{icon_}, playerScorePos{playerScorePos_} {}
     // public System.Void .ctor(OnlineServices.ScoresScope scoreScope, UnityEngine.Sprite icon, System.String localizedTitle)
-    // Offset: 0xF65FB8
+    // Offset: 0xF0A1A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CentralLeaderboardViewController::ScoreScopeInfo* New_ctor(OnlineServices::ScoresScope scoreScope, UnityEngine::Sprite* icon, ::Il2CppString* localizedTitle) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo::.ctor");

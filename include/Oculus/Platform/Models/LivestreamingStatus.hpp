@@ -54,7 +54,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: LivestreamingStatus
     LivestreamingStatus(bool CommentsVisible_ = {}, bool IsPaused_ = {}, bool LivestreamingEnabled_ = {}, int LivestreamingType_ = {}, bool MicEnabled_ = {}) noexcept : CommentsVisible{CommentsVisible_}, IsPaused{IsPaused_}, LivestreamingEnabled{LivestreamingEnabled_}, LivestreamingType{LivestreamingType_}, MicEnabled{MicEnabled_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13EC84C
+    // Offset: 0x138728C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LivestreamingStatus* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LivestreamingStatus::.ctor");

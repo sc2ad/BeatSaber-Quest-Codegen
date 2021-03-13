@@ -101,46 +101,46 @@ namespace System {
     // Creating value type constructor for type: TypeSpec
     TypeSpec(System::TypeIdentifier* name_ = {}, ::Il2CppString* assembly_name_ = {}, System::Collections::Generic::List_1<System::TypeIdentifier*>* nested_ = {}, System::Collections::Generic::List_1<System::TypeSpec*>* generic_params_ = {}, System::Collections::Generic::List_1<System::ModifierSpec*>* modifier_spec_ = {}, bool is_byref_ = {}, ::Il2CppString* display_fullname_ = {}) noexcept : name{name_}, assembly_name{assembly_name_}, nested{nested_}, generic_params{generic_params_}, modifier_spec{modifier_spec_}, is_byref{is_byref_}, display_fullname{display_fullname_} {}
     // System.Boolean get_HasModifiers()
-    // Offset: 0x19F39FC
+    // Offset: 0x20D5A78
     bool get_HasModifiers();
     // private System.String GetDisplayFullName(System.TypeSpec/DisplayNameFormat flags)
-    // Offset: 0x19F3A0C
+    // Offset: 0x20D5A88
     ::Il2CppString* GetDisplayFullName(System::TypeSpec::DisplayNameFormat flags);
     // private System.Text.StringBuilder GetModifierString(System.Text.StringBuilder sb)
-    // Offset: 0x19F3E58
+    // Offset: 0x20D5EE0
     System::Text::StringBuilder* GetModifierString(System::Text::StringBuilder* sb);
     // System.String get_DisplayFullName()
-    // Offset: 0x19F3E10
+    // Offset: 0x20D5EAC
     ::Il2CppString* get_DisplayFullName();
     // static System.TypeSpec Parse(System.String typeName)
-    // Offset: 0x19F2FAC
+    // Offset: 0x20D506C
     static System::TypeSpec* Parse(::Il2CppString* typeName);
     // static System.String UnescapeInternalName(System.String displayName)
-    // Offset: 0x19F25DC
+    // Offset: 0x20D4754
     static ::Il2CppString* UnescapeInternalName(::Il2CppString* displayName);
     // System.Type Resolve(System.Func`2<System.Reflection.AssemblyName,System.Reflection.Assembly> assemblyResolver, System.Func`4<System.Reflection.Assembly,System.String,System.Boolean,System.Type> typeResolver, System.Boolean throwOnError, System.Boolean ignoreCase)
-    // Offset: 0x19F3094
+    // Offset: 0x20D5154
     System::Type* Resolve(System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>* assemblyResolver, System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>* typeResolver, bool throwOnError, bool ignoreCase);
     // private System.Void AddName(System.String type_name)
-    // Offset: 0x19F4B20
+    // Offset: 0x20D6B74
     void AddName(::Il2CppString* type_name);
     // private System.Void AddModifier(System.ModifierSpec md)
-    // Offset: 0x19F4C10
+    // Offset: 0x20D6C48
     void AddModifier(System::ModifierSpec* md);
     // static private System.Void SkipSpace(System.String name, ref System.Int32 pos)
-    // Offset: 0x19F4CB4
+    // Offset: 0x20D6CE0
     static void SkipSpace(::Il2CppString* name, int& pos);
     // static private System.Void BoundCheck(System.Int32 idx, System.String s)
-    // Offset: 0x19F4D7C
+    // Offset: 0x20D6DA8
     static void BoundCheck(int idx, ::Il2CppString* s);
     // static private System.TypeIdentifier ParsedTypeIdentifier(System.String displayName)
-    // Offset: 0x19F4C0C
+    // Offset: 0x20D6C44
     static System::TypeIdentifier* ParsedTypeIdentifier(::Il2CppString* displayName);
     // static private System.TypeSpec Parse(System.String name, ref System.Int32 p, System.Boolean is_recurse, System.Boolean allow_aqn)
-    // Offset: 0x19F3FEC
+    // Offset: 0x20D6074
     static System::TypeSpec* Parse(::Il2CppString* name, int& p, bool is_recurse, bool allow_aqn);
     // public System.Void .ctor()
-    // Offset: 0x19F4E24
+    // Offset: 0x20D6E50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

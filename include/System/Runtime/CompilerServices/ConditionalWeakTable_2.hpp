@@ -58,22 +58,22 @@ namespace System::Runtime::CompilerServices {
       }
       // public TValue Invoke(TKey key)
       // Offset: 0xFFFFFFFF
-      TValue Invoke(TKey key) {
-        static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::CreateValueCallback::Invoke");
+      TValue Invoke_NEW(TKey key) {
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::CreateValueCallback::Invoke_NEW");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key)));
         return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, key);
       }
       // public System.IAsyncResult BeginInvoke(TKey key, System.AsyncCallback callback, System.Object object)
       // Offset: 0xFFFFFFFF
-      System::IAsyncResult* BeginInvoke(TKey key, System::AsyncCallback* callback, ::Il2CppObject* object) {
-        static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::CreateValueCallback::BeginInvoke");
+      System::IAsyncResult* BeginInvoke_NEW(TKey key, System::AsyncCallback* callback, ::Il2CppObject* object) {
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::CreateValueCallback::BeginInvoke_NEW");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key, callback, object)));
         return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, key, callback, object);
       }
       // public TValue EndInvoke(System.IAsyncResult result)
       // Offset: 0xFFFFFFFF
-      TValue EndInvoke(System::IAsyncResult* result) {
-        static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::CreateValueCallback::EndInvoke");
+      TValue EndInvoke_NEW(System::IAsyncResult* result) {
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::CreateValueCallback::EndInvoke_NEW");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
         return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, result);
       }
@@ -208,7 +208,7 @@ namespace System::Runtime::CompilerServices {
     // protected override System.Void Finalize()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
-    // Base method: System.Void Object::Finalize()
+    // Base method: System.Void Object::Finalize_NEW()
     void Finalize() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::Finalize");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Finalize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));

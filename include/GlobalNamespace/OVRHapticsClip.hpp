@@ -24,21 +24,21 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class OVRHapticsClip : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xCF7870
+    // [CompilerGeneratedAttribute] Offset: 0xCE1FAC
     // private System.Int32 <Count>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     int Count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCF7880
+    // [CompilerGeneratedAttribute] Offset: 0xCE1FBC
     // private System.Int32 <Capacity>k__BackingField
     // Size: 0x4
     // Offset: 0x14
     int Capacity;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCF7890
+    // [CompilerGeneratedAttribute] Offset: 0xCE1FCC
     // private System.Byte[] <Samples>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -48,62 +48,62 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRHapticsClip
     OVRHapticsClip(int Count_ = {}, int Capacity_ = {}, ::Array<uint8_t>* Samples_ = {}) noexcept : Count{Count_}, Capacity{Capacity_}, Samples{Samples_} {}
     // public System.Int32 get_Count()
-    // Offset: 0x13A6040
+    // Offset: 0x173E35C
     int get_Count();
     // private System.Void set_Count(System.Int32 value)
-    // Offset: 0x13A6048
+    // Offset: 0x173E364
     void set_Count(int value);
     // public System.Int32 get_Capacity()
-    // Offset: 0x13A6050
+    // Offset: 0x173E36C
     int get_Capacity();
     // private System.Void set_Capacity(System.Int32 value)
-    // Offset: 0x13A6058
+    // Offset: 0x173E374
     void set_Capacity(int value);
     // public System.Byte[] get_Samples()
-    // Offset: 0x13A6060
+    // Offset: 0x173E37C
     ::Array<uint8_t>* get_Samples();
     // private System.Void set_Samples(System.Byte[] value)
-    // Offset: 0x13A6068
+    // Offset: 0x173E384
     void set_Samples(::Array<uint8_t>* value);
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0x13A5DC8
+    // Offset: 0x173E0EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHapticsClip* New_ctor(int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(capacity)));
     }
     // public System.Void .ctor(System.Byte[] samples, System.Int32 samplesCount)
-    // Offset: 0x13A6070
+    // Offset: 0x173E38C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHapticsClip* New_ctor(::Array<uint8_t>* samples, int samplesCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(samples, samplesCount)));
     }
     // public System.Void .ctor(OVRHapticsClip a, OVRHapticsClip b)
-    // Offset: 0x13A616C
+    // Offset: 0x173E474
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHapticsClip* New_ctor(GlobalNamespace::OVRHapticsClip* a, GlobalNamespace::OVRHapticsClip* b) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(a, b)));
     }
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Int32 channel)
-    // Offset: 0x13A63E8
+    // Offset: 0x173E6E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHapticsClip* New_ctor(UnityEngine::AudioClip* audioClip, int channel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(audioClip, channel)));
     }
     // public System.Void WriteSample(System.Byte sample)
-    // Offset: 0x13A5EB8
+    // Offset: 0x173E1D4
     void WriteSample(uint8_t sample);
     // public System.Void Reset()
-    // Offset: 0x13A6794
+    // Offset: 0x173EA84
     void Reset();
     // private System.Void InitializeFromAudioFloatTrack(System.Single[] sourceData, System.Double sourceFrequency, System.Int32 sourceChannelCount, System.Int32 sourceChannel)
-    // Offset: 0x13A64D0
+    // Offset: 0x173E7CC
     void InitializeFromAudioFloatTrack(::Array<float>* sourceData, double sourceFrequency, int sourceChannelCount, int sourceChannel);
     // public System.Void .ctor()
-    // Offset: 0x13A5C6C
+    // Offset: 0x173DFA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,7 +43,7 @@ namespace System::Security::Cryptography::X509Certificates {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flag)
-    // Offset: 0xE0DE24
+    // Offset: 0xDF4F2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     X509ChainStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainStatus::.ctor");
@@ -51,16 +51,16 @@ namespace System::Security::Cryptography::X509Certificates {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, flag);
     }
     // public System.Security.Cryptography.X509Certificates.X509ChainStatusFlags get_Status()
-    // Offset: 0xE0DE58
+    // Offset: 0xDF4F58
     System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_Status();
     // public System.Void set_Status(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags value)
-    // Offset: 0xE0DE60
+    // Offset: 0xDF4F60
     void set_Status(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
     // public System.Void set_StatusInformation(System.String value)
-    // Offset: 0xE0DE68
+    // Offset: 0xDF4F68
     void set_StatusInformation(::Il2CppString* value);
     // static System.String GetInformation(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flags)
-    // Offset: 0x177A3A4
+    // Offset: 0x16AD06C
     static ::Il2CppString* GetInformation(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
   }; // System.Security.Cryptography.X509Certificates.X509ChainStatus
   #pragma pack(pop)

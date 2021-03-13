@@ -90,25 +90,25 @@ namespace Zenject {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public Zenject.ZenAutoInjecter/ContainerSources get_ContainerSource()
-    // Offset: 0x22A15A4
+    // Offset: 0x2147260
     Zenject::ZenAutoInjecter::ContainerSources get_ContainerSource();
     // public System.Void set_ContainerSource(Zenject.ZenAutoInjecter/ContainerSources value)
-    // Offset: 0x22A15AC
+    // Offset: 0x2147268
     void set_ContainerSource(Zenject::ZenAutoInjecter::ContainerSources value);
     // public System.Void Construct()
-    // Offset: 0x22A15B4
+    // Offset: 0x2147270
     void Construct();
     // public System.Void Awake()
-    // Offset: 0x22A1620
+    // Offset: 0x21472DC
     void Awake();
     // private Zenject.DiContainer LookupContainer()
-    // Offset: 0x22A166C
+    // Offset: 0x2147328
     Zenject::DiContainer* LookupContainer();
     // private Zenject.DiContainer GetContainerForCurrentScene()
-    // Offset: 0x22A17BC
+    // Offset: 0x2147478
     Zenject::DiContainer* GetContainerForCurrentScene();
     // public System.Void .ctor()
-    // Offset: 0x22A1858
+    // Offset: 0x2147514
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

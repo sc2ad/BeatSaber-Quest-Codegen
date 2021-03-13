@@ -42,33 +42,33 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: GenericPoser
     GenericPoser(::Array<RootMotion::FinalIK::GenericPoser::Map*>* maps_ = {}) noexcept : maps{maps_} {}
     // private System.Void StoreDefaultState()
-    // Offset: 0x1AEC420
+    // Offset: 0x1A58004
     void StoreDefaultState();
     // private UnityEngine.Transform GetTargetNamed(System.String tName, UnityEngine.Transform[] array)
-    // Offset: 0x1AEC328
+    // Offset: 0x1A57F28
     UnityEngine::Transform* GetTargetNamed(::Il2CppString* tName, ::Array<UnityEngine::Transform*>* array);
     // public override System.Void AutoMapping()
-    // Offset: 0x1AEC0D4
+    // Offset: 0x1A57CE0
     // Implemented from: RootMotion.FinalIK.Poser
-    // Base method: System.Void Poser::AutoMapping()
+    // Base method: System.Void Poser::AutoMapping_NEW()
     void AutoMapping();
     // protected override System.Void InitiatePoser()
-    // Offset: 0x1AEC488
+    // Offset: 0x1A5806C
     // Implemented from: RootMotion.FinalIK.Poser
-    // Base method: System.Void Poser::InitiatePoser()
+    // Base method: System.Void Poser::InitiatePoser_NEW()
     void InitiatePoser();
     // protected override System.Void UpdatePoser()
-    // Offset: 0x1AEC48C
+    // Offset: 0x1A58070
     // Implemented from: RootMotion.FinalIK.Poser
-    // Base method: System.Void Poser::UpdatePoser()
+    // Base method: System.Void Poser::UpdatePoser_NEW()
     void UpdatePoser();
     // protected override System.Void FixPoserTransforms()
-    // Offset: 0x1AEC734
+    // Offset: 0x1A58318
     // Implemented from: RootMotion.FinalIK.Poser
-    // Base method: System.Void Poser::FixPoserTransforms()
+    // Base method: System.Void Poser::FixPoserTransforms_NEW()
     void FixPoserTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1AEC838
+    // Offset: 0x1A5841C
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::.ctor()
     // Base method: System.Void SolverManager::.ctor()

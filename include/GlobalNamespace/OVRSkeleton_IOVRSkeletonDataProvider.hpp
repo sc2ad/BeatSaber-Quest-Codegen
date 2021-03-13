@@ -18,10 +18,10 @@ namespace GlobalNamespace {
     IOVRSkeletonDataProvider() noexcept {}
     // public OVRSkeleton/SkeletonType GetSkeletonType()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::OVRSkeleton::SkeletonType GlobalNamespace_OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonType();
+    GlobalNamespace::OVRSkeleton::SkeletonType GetSkeletonType_NEW();
     // public OVRSkeleton/SkeletonPoseData GetSkeletonPoseData()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::OVRSkeleton::SkeletonPoseData GlobalNamespace_OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseData();
+    GlobalNamespace::OVRSkeleton::SkeletonPoseData GetSkeletonPoseData_NEW();
   }; // OVRSkeleton/IOVRSkeletonDataProvider
   #pragma pack(pop)
 }

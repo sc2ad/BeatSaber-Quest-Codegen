@@ -22,13 +22,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Creating value type constructor for type: DesEdeParameters
     DesEdeParameters() noexcept {}
     // static private System.Byte[] FixKey(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
-    // Offset: 0x117EEE8
+    // Offset: 0x115EE1C
     static ::Array<uint8_t>* FixKey(::Array<uint8_t>* key, int keyOff, int keyLen);
     // static public System.Boolean IsWeakKey(System.Byte[] key, System.Int32 offset, System.Int32 length)
-    // Offset: 0x117F1F8
+    // Offset: 0x115F12C
     static bool IsWeakKey(::Array<uint8_t>* key, int offset, int length);
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
-    // Offset: 0x117F09C
+    // Offset: 0x115EFD0
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.DesParameters
     // Base method: System.Void DesParameters::.ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
@@ -38,7 +38,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return THROW_UNLESS((::il2cpp_utils::New<DesEdeParameters*, creationType>(key, keyOff, keyLen)));
     }
     // static public System.Boolean IsWeakKey(System.Byte[] key)
-    // Offset: 0x117F080
+    // Offset: 0x115EFB4
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.DesParameters
     // Base method: System.Boolean DesParameters::IsWeakKey(System.Byte[] key)
     static bool IsWeakKey(::Array<uint8_t>* key);

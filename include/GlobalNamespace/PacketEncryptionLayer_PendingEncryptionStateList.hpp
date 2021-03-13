@@ -55,33 +55,28 @@ namespace GlobalNamespace {
       return pendingStatesByPort;
     }
     // public System.Boolean get_isEmpty()
-    // Offset: 0x1C17480
+    // Offset: 0x15BFDC8
     bool get_isEmpty();
+    // public System.Void Dispose()
+    // Offset: 0x15C28A0
+    void Dispose_NEW();
     // public PacketEncryptionLayer/EncryptionState[] GetSortedEncryptionStates(System.Int32 port)
-    // Offset: 0x1C18088
+    // Offset: 0x15C08B0
     ::Array<GlobalNamespace::PacketEncryptionLayer::EncryptionState*>* GetSortedEncryptionStates(int port);
     // public System.Boolean TryGetEncryptionState(System.Int32 port, out PacketEncryptionLayer/EncryptionState encryptionState)
-    // Offset: 0x1C17D68
+    // Offset: 0x15C0600
     bool TryGetEncryptionState(int port, GlobalNamespace::PacketEncryptionLayer::EncryptionState*& encryptionState);
     // public System.Void Add(System.Int32 port, PacketEncryptionLayer/EncryptionState encryptionState)
-    // Offset: 0x1C1773C
+    // Offset: 0x15C0068
     void Add(int port, GlobalNamespace::PacketEncryptionLayer::EncryptionState* encryptionState);
     // public System.Boolean Remove(System.Int32 port)
-    // Offset: 0x1C17418
+    // Offset: 0x15BFD60
     bool Remove(int port);
     // public System.Boolean Remove(System.Int32 port, PacketEncryptionLayer/EncryptionState encryptionState)
-    // Offset: 0x1C1847C
+    // Offset: 0x15C0C8C
     bool Remove(int port, GlobalNamespace::PacketEncryptionLayer::EncryptionState* encryptionState);
-    // public System.Void Dispose()
-    // Offset: 0x1C1A180
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose();
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose();
     // public System.Void .ctor()
-    // Offset: 0x1C176C0
+    // Offset: 0x15BFFF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

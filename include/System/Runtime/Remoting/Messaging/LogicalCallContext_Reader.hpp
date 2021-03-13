@@ -39,20 +39,20 @@ namespace System::Runtime::Remoting::Messaging {
       return m_ctx;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.LogicalCallContext ctx)
-    // Offset: 0xE0865C
+    // Offset: 0xDF8DC0
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Reader(System::Runtime::Remoting::Messaging::LogicalCallContext* ctx)
     // public System.Boolean get_IsNull()
-    // Offset: 0xE08664
+    // Offset: 0xDF8DC8
     bool get_IsNull();
     // public System.Boolean get_HasInfo()
-    // Offset: 0xE08674
+    // Offset: 0xDF8DD8
     bool get_HasInfo();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext Clone()
-    // Offset: 0xE08688
+    // Offset: 0xDF8DE8
     System::Runtime::Remoting::Messaging::LogicalCallContext* Clone();
     // public System.Object GetData(System.String name)
-    // Offset: 0xE08690
+    // Offset: 0xDF8DF0
     ::Il2CppObject* GetData(::Il2CppString* name);
   }; // System.Runtime.Remoting.Messaging.LogicalCallContext/Reader
   #pragma pack(pop)

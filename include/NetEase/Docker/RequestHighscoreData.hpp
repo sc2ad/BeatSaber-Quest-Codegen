@@ -18,16 +18,16 @@ namespace NetEase::Docker {
   // [] Offset: FFFFFFFF
   struct RequestHighscoreData/*, public System::ValueType*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD244C8
-    // [DebuggerBrowsableAttribute] Offset: 0xD244C8
+    // [CompilerGeneratedAttribute] Offset: 0xD0E964
+    // [DebuggerBrowsableAttribute] Offset: 0xD0E964
     // private System.String <Track>k__BackingField
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* Track;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xD24504
-    // [CompilerGeneratedAttribute] Offset: 0xD24504
+    // [DebuggerBrowsableAttribute] Offset: 0xD0E9A0
+    // [CompilerGeneratedAttribute] Offset: 0xD0E9A0
     // private System.String <HighscoreType>k__BackingField
     // Size: 0x8
     // Offset: 0x8
@@ -41,13 +41,13 @@ namespace NetEase::Docker {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.String get_Track()
-    // Offset: 0xE32480
+    // Offset: 0xE17964
     ::Il2CppString* get_Track();
     // public System.Void set_Track(System.String value)
-    // Offset: 0xE32488
+    // Offset: 0xE1796C
     void set_Track(::Il2CppString* value);
     // public System.Void set_HighscoreType(System.String value)
-    // Offset: 0xE32490
+    // Offset: 0xE17974
     void set_HighscoreType(::Il2CppString* value);
   }; // NetEase.Docker.RequestHighscoreData
   #pragma pack(pop)

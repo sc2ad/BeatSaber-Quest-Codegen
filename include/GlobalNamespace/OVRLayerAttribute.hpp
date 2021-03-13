@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRLayerAttribute
     OVRLayerAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x13B0A28
+    // Offset: 0x17479B0
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

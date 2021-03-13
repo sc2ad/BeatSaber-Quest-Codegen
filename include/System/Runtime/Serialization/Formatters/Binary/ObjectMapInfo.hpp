@@ -51,14 +51,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: ObjectMapInfo
     ObjectMapInfo(int objectId_ = {}, int numMembers_ = {}, ::Array<::Il2CppString*>* memberNames_ = {}, ::Array<System::Type*>* memberTypes_ = {}) noexcept : objectId{objectId_}, numMembers{numMembers_}, memberNames{memberNames_}, memberTypes{memberTypes_} {}
     // System.Void .ctor(System.Int32 objectId, System.Int32 numMembers, System.String[] memberNames, System.Type[] memberTypes)
-    // Offset: 0x1544314
+    // Offset: 0x145F0A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectMapInfo* New_ctor(int objectId, int numMembers, ::Array<::Il2CppString*>* memberNames, ::Array<System::Type*>* memberTypes) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectMapInfo*, creationType>(objectId, numMembers, memberNames, memberTypes)));
     }
     // System.Boolean isCompatible(System.Int32 numMembers, System.String[] memberNames, System.Type[] memberTypes)
-    // Offset: 0x1544378
+    // Offset: 0x145F0EC
     bool isCompatible(int numMembers, ::Array<::Il2CppString*>* memberNames, ::Array<System::Type*>* memberTypes);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectMapInfo
   #pragma pack(pop)

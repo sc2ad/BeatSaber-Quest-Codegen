@@ -41,21 +41,21 @@ namespace System::Runtime::Serialization {
     // Creating value type constructor for type: MemberHolder
     MemberHolder(System::Type* memberType_ = {}, System::Runtime::Serialization::StreamingContext context_ = {}) noexcept : memberType{memberType_}, context{context_} {}
     // System.Void .ctor(System.Type type, System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x15547D4
+    // Offset: 0x14DFC7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemberHolder* New_ctor(System::Type* type, System::Runtime::Serialization::StreamingContext ctx) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::MemberHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemberHolder*, creationType>(type, ctx)));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x155482C
+    // Offset: 0x14DFCBC
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x155484C
+    // Offset: 0x14DFCDC
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object obj)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // System.Runtime.Serialization.MemberHolder
   #pragma pack(pop)

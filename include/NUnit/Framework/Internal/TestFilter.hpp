@@ -43,40 +43,32 @@ namespace NUnit::Framework::Internal {
     static NUnit::Framework::Internal::TestFilter* _get_Empty();
     // Set static field: static public readonly NUnit.Framework.Internal.TestFilter Empty
     static void _set_Empty(NUnit::Framework::Internal::TestFilter* value);
+    // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0x2095B9C
+    bool Pass_NEW(NUnit::Framework::Interfaces::ITest* test);
+    // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0x2095DBC
+    bool IsExplicitMatch_NEW(NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFF
-    bool Match(NUnit::Framework::Interfaces::ITest* test);
+    bool Match_NEW(NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean MatchParent(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2225104
+    // Offset: 0x2095BFC
     bool MatchParent(NUnit::Framework::Interfaces::ITest* test);
     // protected System.Boolean MatchDescendant(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2225314
-    bool MatchDescendant(NUnit::Framework::Interfaces::ITest* test);
-    // static private System.Void .cctor()
-    // Offset: 0x2225778
-    static void _cctor();
-    // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x22250A4
-    // Implemented from: NUnit.Framework.Interfaces.ITestFilter
-    // Base method: System.Boolean ITestFilter::Pass(NUnit.Framework.Interfaces.ITest test)
-    bool Pass(NUnit::Framework::Interfaces::ITest* test);
-    // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x22252C4
-    // Implemented from: NUnit.Framework.Interfaces.ITestFilter
-    // Base method: System.Boolean ITestFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
+    // Offset: 0x2095E0C
+    bool MatchDescendant_NEW(NUnit::Framework::Interfaces::ITest* test);
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x22256E8
-    // Implemented from: NUnit.Framework.Interfaces.IXmlNodeBuilder
-    // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::ToXml(System.Boolean recursive)
-    NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
+    // Offset: 0x20961D0
+    NUnit::Framework::Interfaces::TNode* ToXml_NEW(bool recursive);
     // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     // Offset: 0xFFFFFFFF
-    // Implemented from: NUnit.Framework.Interfaces.IXmlNodeBuilder
-    // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
+    NUnit::Framework::Interfaces::TNode* AddToXml_NEW(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
+    // static private System.Void .cctor()
+    // Offset: 0x2096258
+    static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x2225770
+    // Offset: 0x208FCFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

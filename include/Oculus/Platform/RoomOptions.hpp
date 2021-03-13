@@ -41,34 +41,34 @@ namespace Oculus::Platform {
       return Handle;
     }
     // public System.Void SetDataStore(System.String key, System.String value)
-    // Offset: 0x13F5C4C
+    // Offset: 0x21537FC
     void SetDataStore(::Il2CppString* key, ::Il2CppString* value);
     // public System.Void ClearDataStore()
-    // Offset: 0x13F5CD0
+    // Offset: 0x2153880
     void ClearDataStore();
     // public System.Void SetExcludeRecentlyMet(System.Boolean value)
-    // Offset: 0x13F5D3C
+    // Offset: 0x21538EC
     void SetExcludeRecentlyMet(bool value);
     // public System.Void SetMaxUserResults(System.UInt32 value)
-    // Offset: 0x13F5DB8
+    // Offset: 0x2153968
     void SetMaxUserResults(uint value);
     // public System.Void SetOrdering(Oculus.Platform.UserOrdering value)
-    // Offset: 0x13F5E34
+    // Offset: 0x21539E4
     void SetOrdering(Oculus::Platform::UserOrdering value);
     // public System.Void SetRecentlyMetTimeWindow(Oculus.Platform.TimeWindow value)
-    // Offset: 0x13F5EB0
+    // Offset: 0x2153A60
     void SetRecentlyMetTimeWindow(Oculus::Platform::TimeWindow value);
     // public System.Void SetRoomId(System.UInt64 value)
-    // Offset: 0x13F5F2C
+    // Offset: 0x2153ADC
     void SetRoomId(uint64_t value);
     // public System.Void SetTurnOffUpdates(System.Boolean value)
-    // Offset: 0x13F5FA8
+    // Offset: 0x2153B58
     void SetTurnOffUpdates(bool value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.RoomOptions options)
-    // Offset: 0x13F6024
+    // Offset: 0x2153BD4
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x13F5BD4
+    // Offset: 0x2153784
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -77,9 +77,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<RoomOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x13F6074
+    // Offset: 0x2153C24
     // Implemented from: System.Object
-    // Base method: System.Void Object::Finalize()
+    // Base method: System.Void Object::Finalize_NEW()
     void Finalize();
   }; // Oculus.Platform.RoomOptions
   #pragma pack(pop)

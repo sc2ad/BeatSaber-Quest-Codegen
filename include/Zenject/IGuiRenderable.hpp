@@ -16,7 +16,7 @@ namespace Zenject {
     IGuiRenderable() noexcept {}
     // public System.Void GuiRender()
     // Offset: 0xFFFFFFFF
-    void GuiRender();
+    void GuiRender_NEW();
   }; // Zenject.IGuiRenderable
   #pragma pack(pop)
 }

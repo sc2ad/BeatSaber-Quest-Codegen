@@ -46,7 +46,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: Product
     Product(::Il2CppString* Description_ = {}, ::Il2CppString* FormattedPrice_ = {}, ::Il2CppString* Name_ = {}, ::Il2CppString* Sku_ = {}) noexcept : Description{Description_}, FormattedPrice{FormattedPrice_}, Name{Name_}, Sku{Sku_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13F2840
+    // Offset: 0x138D364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Product* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Product::.ctor");

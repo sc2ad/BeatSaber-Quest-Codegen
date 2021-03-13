@@ -19,21 +19,21 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class InteractionObject::Multiplier : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xD2C3C0
+    // [TooltipAttribute] Offset: 0xD17324
     // public RootMotion.FinalIK.InteractionObject/WeightCurve/Type curve
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::InteractionObject::WeightCurve::Type curve;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::InteractionObject::WeightCurve::Type) == 0x4);
-    // [TooltipAttribute] Offset: 0xD2C3F8
+    // [TooltipAttribute] Offset: 0xD1735C
     // public System.Single multiplier
     // Size: 0x4
     // Offset: 0x14
     float multiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD2C430
+    // [TooltipAttribute] Offset: 0xD17394
     // public RootMotion.FinalIK.InteractionObject/WeightCurve/Type result
     // Size: 0x4
     // Offset: 0x18
@@ -43,10 +43,10 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Multiplier
     Multiplier(RootMotion::FinalIK::InteractionObject::WeightCurve::Type curve_ = {}, float multiplier_ = {}, RootMotion::FinalIK::InteractionObject::WeightCurve::Type result_ = {}) noexcept : curve{curve_}, multiplier{multiplier_}, result{result_} {}
     // public System.Single GetValue(RootMotion.FinalIK.InteractionObject/WeightCurve weightCurve, System.Single timer)
-    // Offset: 0x1C37114
+    // Offset: 0x1BF6C04
     float GetValue(RootMotion::FinalIK::InteractionObject::WeightCurve* weightCurve, float timer);
     // public System.Void .ctor()
-    // Offset: 0x1C375C8
+    // Offset: 0x1BF70AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

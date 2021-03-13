@@ -13,29 +13,6 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: System::Globalization
-namespace System::Globalization {
-  // Forward declaring type: CultureInfo
-  class CultureInfo;
-}
-// Forward declaring namespace: System::Resources
-namespace System::Resources {
-  // Forward declaring type: ResourceSet
-  class ResourceSet;
-}
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class Dictionary_2;
-}
-// Forward declaring namespace: System::Threading
-namespace System::Threading {
-  // Forward declaring type: StackCrawlMark
-  struct StackCrawlMark;
-}
-// Completed forward declares
 // Type namespace: System.Resources
 namespace System::Resources {
   // Size: 0x18
@@ -61,23 +38,12 @@ namespace System::Resources {
       return mediator;
     }
     // public System.Void .ctor(System.Resources.ResourceManager/ResourceManagerMediator mediator)
-    // Offset: 0x195293C
+    // Offset: 0x12F73D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBasedResourceGroveler* New_ctor(System::Resources::ResourceManager::ResourceManagerMediator* mediator) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::FileBasedResourceGroveler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileBasedResourceGroveler*, creationType>(mediator)));
     }
-    // private System.String FindResourceFile(System.Globalization.CultureInfo culture, System.String fileName)
-    // Offset: 0x1952D30
-    ::Il2CppString* FindResourceFile(System::Globalization::CultureInfo* culture, ::Il2CppString* fileName);
-    // private System.Resources.ResourceSet CreateResourceSet(System.String file)
-    // Offset: 0x1952E60
-    System::Resources::ResourceSet* CreateResourceSet(::Il2CppString* file);
-    // public System.Resources.ResourceSet GrovelForResourceSet(System.Globalization.CultureInfo culture, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> localResourceSets, System.Boolean tryParents, System.Boolean createIfNotExists, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1952970
-    // Implemented from: System.Resources.IResourceGroveler
-    // Base method: System.Resources.ResourceSet IResourceGroveler::GrovelForResourceSet(System.Globalization.CultureInfo culture, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> localResourceSets, System.Boolean tryParents, System.Boolean createIfNotExists, ref System.Threading.StackCrawlMark stackMark)
-    System::Resources::ResourceSet* GrovelForResourceSet(System::Globalization::CultureInfo* culture, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceSet*>* localResourceSets, bool tryParents, bool createIfNotExists, System::Threading::StackCrawlMark& stackMark);
   }; // System.Resources.FileBasedResourceGroveler
   #pragma pack(pop)
   static check_size<sizeof(FileBasedResourceGroveler), 16 + sizeof(System::Resources::ResourceManager::ResourceManagerMediator*)> __System_Resources_FileBasedResourceGrovelerSizeCheck;

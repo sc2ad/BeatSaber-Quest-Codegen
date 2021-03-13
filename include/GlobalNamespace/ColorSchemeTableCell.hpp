@@ -62,19 +62,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorSchemeTableCell
     ColorSchemeTableCell(TMPro::TextMeshProUGUI* text_ = {}, GlobalNamespace::ColorSchemeView* colorSchemeView_ = {}, UnityEngine::UI::Image* editIcon_ = {}) noexcept : text{text_}, colorSchemeView{colorSchemeView_}, editIcon{editIcon_} {}
     // public System.Void set_text(System.String value)
-    // Offset: 0x1040FC0
+    // Offset: 0xFD4660
     void set_text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0x1041400
+    // Offset: 0xFD4A98
     ::Il2CppString* get_text();
     // public System.Void set_showEditIcon(System.Boolean value)
-    // Offset: 0x1040FA0
+    // Offset: 0xFD4640
     void set_showEditIcon(bool value);
     // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
-    // Offset: 0x1040FDC
+    // Offset: 0xFD467C
     void SetColors(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environment0Color, UnityEngine::Color environment1Color, UnityEngine::Color obstacleColor);
     // public System.Void .ctor()
-    // Offset: 0x104141C
+    // Offset: 0xFD4AB4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

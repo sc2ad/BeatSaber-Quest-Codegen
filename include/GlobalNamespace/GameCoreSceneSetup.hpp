@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class ScreenCaptureAfterDelay;
   // Forward declaring type: MainSettingsModelSO
   class MainSettingsModelSO;
-  // Forward declaring type: GameCoreSceneSetupData
-  class GameCoreSceneSetupData;
+  // Forward declaring type: BloomFogSO
+  class BloomFogSO;
 }
 // Completed forward declares
 // Type namespace: 
@@ -42,15 +42,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD44FBC
-    // private readonly GameCoreSceneSetupData _sceneSetupData
+    // private BloomFogSO _bloomFog
     // Size: 0x8
     // Offset: 0x30
-    GlobalNamespace::GameCoreSceneSetupData* sceneSetupData;
+    GlobalNamespace::BloomFogSO* bloomFog;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::GameCoreSceneSetupData*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::BloomFogSO*) == 0x8);
     // Creating value type constructor for type: GameCoreSceneSetup
-    GameCoreSceneSetup(GlobalNamespace::ScreenCaptureAfterDelay* screenCaptureAfterDelayPrefab_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::GameCoreSceneSetupData* sceneSetupData_ = {}) noexcept : screenCaptureAfterDelayPrefab{screenCaptureAfterDelayPrefab_}, mainSettingsModel{mainSettingsModel_}, sceneSetupData{sceneSetupData_} {}
+    GameCoreSceneSetup(GlobalNamespace::ScreenCaptureAfterDelay* screenCaptureAfterDelayPrefab_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::BloomFogSO* bloomFog_ = {}) noexcept : screenCaptureAfterDelayPrefab{screenCaptureAfterDelayPrefab_}, mainSettingsModel{mainSettingsModel_}, bloomFog{bloomFog_} {}
     // static field const value: static private System.Single kPauseButtonPressDurationMultiplier
     static constexpr const float kPauseButtonPressDurationMultiplier = 0.75;
     // Get static field: static private System.Single kPauseButtonPressDurationMultiplier
@@ -58,12 +57,12 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kPauseButtonPressDurationMultiplier
     static void _set_kPauseButtonPressDurationMultiplier(float value);
     // public override System.Void InstallBindings()
-    // Offset: 0xF32114
+    // Offset: 0xF32F80
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF3253C
+    // Offset: 0xF33368
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -79,7 +78,7 @@ namespace GlobalNamespace {
     }
   }; // GameCoreSceneSetup
   #pragma pack(pop)
-  static check_size<sizeof(GameCoreSceneSetup), 48 + sizeof(GlobalNamespace::GameCoreSceneSetupData*)> __GlobalNamespace_GameCoreSceneSetupSizeCheck;
+  static check_size<sizeof(GameCoreSceneSetup), 48 + sizeof(GlobalNamespace::BloomFogSO*)> __GlobalNamespace_GameCoreSceneSetupSizeCheck;
   static_assert(sizeof(GameCoreSceneSetup) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameCoreSceneSetup*, "", "GameCoreSceneSetup");

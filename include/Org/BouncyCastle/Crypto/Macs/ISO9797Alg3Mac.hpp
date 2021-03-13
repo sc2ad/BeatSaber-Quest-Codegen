@@ -97,56 +97,44 @@ namespace Org::BouncyCastle::Crypto::Macs {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
-    // Offset: 0x17CDD34
+    // Offset: 0x1713470
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ISO9797Alg3Mac* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ISO9797Alg3Mac*, creationType>(cipher)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding)
-    // Offset: 0x17CE074
+    // Offset: 0x1713778
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ISO9797Alg3Mac* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ISO9797Alg3Mac*, creationType>(cipher, padding)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, System.Int32 macSizeInBits, Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding)
-    // Offset: 0x17CDE04
+    // Offset: 0x1713540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ISO9797Alg3Mac* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher, int macSizeInBits, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ISO9797Alg3Mac*, creationType>(cipher, macSizeInBits, padding)));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x17CE148
-    // Implemented from: Org.BouncyCastle.Crypto.IMac
-    // Base method: System.Void IMac::Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // Offset: 0x171384C
+    void Init_NEW(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetMacSize()
-    // Offset: 0x17CE61C
-    // Implemented from: Org.BouncyCastle.Crypto.IMac
-    // Base method: System.Int32 IMac::GetMacSize()
-    int GetMacSize();
+    // Offset: 0x1713CE8
+    int GetMacSize_NEW();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x17CE624
-    // Implemented from: Org.BouncyCastle.Crypto.IMac
-    // Base method: System.Void IMac::Update(System.Byte input)
-    void Update(uint8_t input);
+    // Offset: 0x1713CF0
+    void Update_NEW(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x17CE75C
-    // Implemented from: Org.BouncyCastle.Crypto.IMac
-    // Base method: System.Void IMac::BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    void BlockUpdate(::Array<uint8_t>* input, int inOff, int len);
+    // Offset: 0x1713E28
+    void BlockUpdate_NEW(::Array<uint8_t>* input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x17CEA00
-    // Implemented from: Org.BouncyCastle.Crypto.IMac
-    // Base method: System.Int32 IMac::DoFinal(System.Byte[] output, System.Int32 outOff)
-    int DoFinal(::Array<uint8_t>* output, int outOff);
+    // Offset: 0x17140CC
+    int DoFinal_NEW(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x17CE54C
-    // Implemented from: Org.BouncyCastle.Crypto.IMac
-    // Base method: System.Void IMac::Reset()
-    void Reset();
+    // Offset: 0x1713C18
+    void Reset_NEW();
   }; // Org.BouncyCastle.Crypto.Macs.ISO9797Alg3Mac
   #pragma pack(pop)
   static check_size<sizeof(ISO9797Alg3Mac), 72 + sizeof(Org::BouncyCastle::Crypto::Parameters::KeyParameter*)> __Org_BouncyCastle_Crypto_Macs_ISO9797Alg3MacSizeCheck;

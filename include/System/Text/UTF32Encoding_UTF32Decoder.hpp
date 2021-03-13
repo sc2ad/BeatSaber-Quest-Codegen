@@ -36,21 +36,21 @@ namespace System::Text {
     // Creating value type constructor for type: UTF32Decoder
     UTF32Decoder(int iChar_ = {}, int readByteCount_ = {}) noexcept : iChar{iChar_}, readByteCount{readByteCount_} {}
     // public System.Void .ctor(System.Text.UTF32Encoding encoding)
-    // Offset: 0x1A6EBFC
+    // Offset: 0x1B0E4A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF32Encoding::UTF32Decoder* New_ctor(System::Text::UTF32Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF32Encoding::UTF32Decoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF32Encoding::UTF32Decoder*, creationType>(encoding)));
     }
     // public override System.Void Reset()
-    // Offset: 0x1A6F0F4
+    // Offset: 0x1B0E994
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Void DecoderNLS::Reset()
     void Reset();
     // override System.Boolean get_HasState()
-    // Offset: 0x1A6F114
+    // Offset: 0x1B0E9B4
     // Implemented from: System.Text.DecoderNLS
-    // Base method: System.Boolean DecoderNLS::get_HasState()
+    // Base method: System.Boolean DecoderNLS::get_HasState_NEW()
     bool get_HasState();
   }; // System.Text.UTF32Encoding/UTF32Decoder
   #pragma pack(pop)

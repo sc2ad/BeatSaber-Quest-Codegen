@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     IAuthenticationTokenProvider() noexcept {}
     // public System.Threading.Tasks.Task`1<AuthenticationToken> GetAuthenticationToken()
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
+    System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* GetAuthenticationToken_NEW();
     // public System.String get_hashedUserId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_hashedUserId();
+    ::Il2CppString* get_hashedUserId_NEW();
   }; // IAuthenticationTokenProvider
   #pragma pack(pop)
 }

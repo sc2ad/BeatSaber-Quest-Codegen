@@ -72,44 +72,44 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: TestSuiteResult
     TestSuiteResult(int passCount_ = {}, int failCount_ = {}, int skipCount_ = {}, int inconclusiveCount_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>* children_ = {}) noexcept : passCount{passCount_}, failCount{failCount_}, skipCount{skipCount_}, inconclusiveCount{inconclusiveCount_}, children{children_} {}
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite)
-    // Offset: 0x222A1B0
+    // Offset: 0x209AB28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestSuiteResult* New_ctor(NUnit::Framework::Internal::TestSuite* suite) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestSuiteResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestSuiteResult*, creationType>(suite)));
     }
     // public System.Void AddResult(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x222A708
-    void AddResult(NUnit::Framework::Interfaces::ITestResult* result);
+    // Offset: 0x209B068
+    void AddResult_NEW(NUnit::Framework::Interfaces::ITestResult* result);
     // public override System.Int32 get_FailCount()
-    // Offset: 0x222A688
+    // Offset: 0x209AFE8
     // Implemented from: NUnit.Framework.Internal.TestResult
-    // Base method: System.Int32 TestResult::get_FailCount()
+    // Base method: System.Int32 TestResult::get_FailCount_NEW()
     int get_FailCount();
     // public override System.Int32 get_PassCount()
-    // Offset: 0x222A690
+    // Offset: 0x209AFF0
     // Implemented from: NUnit.Framework.Internal.TestResult
-    // Base method: System.Int32 TestResult::get_PassCount()
+    // Base method: System.Int32 TestResult::get_PassCount_NEW()
     int get_PassCount();
     // public override System.Int32 get_SkipCount()
-    // Offset: 0x222A698
+    // Offset: 0x209AFF8
     // Implemented from: NUnit.Framework.Internal.TestResult
-    // Base method: System.Int32 TestResult::get_SkipCount()
+    // Base method: System.Int32 TestResult::get_SkipCount_NEW()
     int get_SkipCount();
     // public override System.Int32 get_InconclusiveCount()
-    // Offset: 0x222A6A0
+    // Offset: 0x209B000
     // Implemented from: NUnit.Framework.Internal.TestResult
-    // Base method: System.Int32 TestResult::get_InconclusiveCount()
+    // Base method: System.Int32 TestResult::get_InconclusiveCount_NEW()
     int get_InconclusiveCount();
     // public override System.Boolean get_HasChildren()
-    // Offset: 0x222A6A8
+    // Offset: 0x209B008
     // Implemented from: NUnit.Framework.Internal.TestResult
-    // Base method: System.Boolean TestResult::get_HasChildren()
+    // Base method: System.Boolean TestResult::get_HasChildren_NEW()
     bool get_HasChildren();
     // public override System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> get_Children()
-    // Offset: 0x222A700
+    // Offset: 0x209B060
     // Implemented from: NUnit.Framework.Internal.TestResult
-    // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> TestResult::get_Children()
+    // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> TestResult::get_Children_NEW()
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestResult*>* get_Children();
   }; // NUnit.Framework.Internal.TestSuiteResult
   #pragma pack(pop)

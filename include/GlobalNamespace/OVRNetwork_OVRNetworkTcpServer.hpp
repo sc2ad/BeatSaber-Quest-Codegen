@@ -60,25 +60,25 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRNetworkTcpServer
     OVRNetworkTcpServer(System::Net::Sockets::TcpListener* tcpListener_ = {}, ::Il2CppObject* clientsLock_ = {}, System::Collections::Generic::List_1<System::Net::Sockets::TcpClient*>* clients_ = {}) noexcept : tcpListener{tcpListener_}, clientsLock{clientsLock_}, clients{clients_} {}
     // public System.Void StartListening(System.Int32 listeningPort)
-    // Offset: 0x14502EC
+    // Offset: 0x13ACC54
     void StartListening(int listeningPort);
     // public System.Void StopListening()
-    // Offset: 0x145083C
+    // Offset: 0x13AD13C
     void StopListening();
     // private System.Void DoAcceptTcpClientCallback(System.IAsyncResult ar)
-    // Offset: 0x14509B8
+    // Offset: 0x13AD290
     void DoAcceptTcpClientCallback(System::IAsyncResult* ar);
     // public System.Boolean HasConnectedClient()
-    // Offset: 0x1450EBC
+    // Offset: 0x13AD744
     bool HasConnectedClient();
     // public System.Void Broadcast(System.Int32 payloadType, System.Byte[] payload)
-    // Offset: 0x14510E4
+    // Offset: 0x13AD930
     void Broadcast(int payloadType, ::Array<uint8_t>* payload);
     // private System.Void DoWriteDataCallback(System.IAsyncResult ar)
-    // Offset: 0x145165C
+    // Offset: 0x13ADE34
     void DoWriteDataCallback(System::IAsyncResult* ar);
     // public System.Void .ctor()
-    // Offset: 0x1451754
+    // Offset: 0x13ADF2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

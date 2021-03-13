@@ -22,10 +22,10 @@ namespace Mono::Security::Cryptography {
     // Creating value type constructor for type: MD4
     MD4() noexcept {}
     // static public Mono.Security.Cryptography.MD4 Create()
-    // Offset: 0x1BEC304
+    // Offset: 0x1B8D4E0
     static Mono::Security::Cryptography::MD4* Create();
     // protected System.Void .ctor()
-    // Offset: 0x1BEC2D8
+    // Offset: 0x1B8D4B4
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()

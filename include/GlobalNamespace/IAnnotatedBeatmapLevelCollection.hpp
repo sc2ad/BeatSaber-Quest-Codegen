@@ -31,13 +31,13 @@ namespace GlobalNamespace {
     IAnnotatedBeatmapLevelCollection() noexcept {}
     // public System.String get_collectionName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_collectionName();
+    ::Il2CppString* get_collectionName_NEW();
     // public UnityEngine.Sprite get_coverImage()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Sprite* get_coverImage();
+    UnityEngine::Sprite* get_coverImage_NEW();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
+    GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection_NEW();
   }; // IAnnotatedBeatmapLevelCollection
   #pragma pack(pop)
 }

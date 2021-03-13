@@ -48,7 +48,7 @@ namespace Zenject {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(Zenject.IPoolable poolable, System.Int32 priority)
-    // Offset: 0xE08798
+    // Offset: 0xDEF47C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  PoolableInfo(Zenject::IPoolable* poolable, int priority)
   }; // Zenject.PoolableManager/PoolableInfo

@@ -22,6 +22,8 @@ namespace GlobalNamespace {
   class FormattedFloatListSettingsController;
   // Forward declaring type: NoteJumpStartBeatOffsetDropdown
   class NoteJumpStartBeatOffsetDropdown;
+  // Forward declaring type: EnvironmentEffectsFilterPresetDropdown
+  class EnvironmentEffectsFilterPresetDropdown;
   // Forward declaring type: PlayerSpecificSettings
   class PlayerSpecificSettings;
 }
@@ -62,66 +64,66 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* leftHandedToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // private UnityEngine.UI.Toggle _staticLightsToggle
-    // Size: 0x8
-    // Offset: 0x20
-    UnityEngine::UI::Toggle* staticLightsToggle;
-    // Field size check
-    static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
     // private UnityEngine.UI.Toggle _reduceDebrisToggle
     // Size: 0x8
-    // Offset: 0x28
+    // Offset: 0x20
     UnityEngine::UI::Toggle* reduceDebrisToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
     // private UnityEngine.UI.Toggle _noTextsAndHudsToggle
     // Size: 0x8
-    // Offset: 0x30
+    // Offset: 0x28
     UnityEngine::UI::Toggle* noTextsAndHudsToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
     // private UnityEngine.UI.Toggle _advanceHudToggle
     // Size: 0x8
-    // Offset: 0x38
+    // Offset: 0x30
     UnityEngine::UI::Toggle* advanceHudToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
     // private UnityEngine.UI.Toggle _autoRestartToggle
     // Size: 0x8
-    // Offset: 0x40
+    // Offset: 0x38
     UnityEngine::UI::Toggle* autoRestartToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
     // private PlayerHeightSettingsController _playerHeightSettingsController
     // Size: 0x8
-    // Offset: 0x48
+    // Offset: 0x40
     GlobalNamespace::PlayerHeightSettingsController* playerHeightSettingsController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeightSettingsController*) == 0x8);
     // private UnityEngine.UI.Toggle _automaticPlayerHeightToggle
     // Size: 0x8
-    // Offset: 0x50
+    // Offset: 0x48
     UnityEngine::UI::Toggle* automaticPlayerHeightToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
     // private FormattedFloatListSettingsController _sfxVolumeSettingsController
     // Size: 0x8
-    // Offset: 0x58
+    // Offset: 0x50
     GlobalNamespace::FormattedFloatListSettingsController* sfxVolumeSettingsController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FormattedFloatListSettingsController*) == 0x8);
     // private FormattedFloatListSettingsController _saberTrailIntensitySettingsController
     // Size: 0x8
-    // Offset: 0x60
+    // Offset: 0x58
     GlobalNamespace::FormattedFloatListSettingsController* saberTrailIntensitySettingsController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FormattedFloatListSettingsController*) == 0x8);
     // private NoteJumpStartBeatOffsetDropdown _noteJumpStartBeatOffsetDropdown
     // Size: 0x8
-    // Offset: 0x68
+    // Offset: 0x60
     GlobalNamespace::NoteJumpStartBeatOffsetDropdown* noteJumpStartBeatOffsetDropdown;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*) == 0x8);
+    // private EnvironmentEffectsFilterPresetDropdown _environmentEffectsFilterPresetDropdown
+    // Size: 0x8
+    // Offset: 0x68
+    GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* environmentEffectsFilterPresetDropdown;
+    // Field size check
+    static_assert(sizeof(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*) == 0x8);
     // private UnityEngine.UI.Toggle _hideNoteSpawnEffectToggle
     // Size: 0x8
     // Offset: 0x70
@@ -134,14 +136,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* adaptiveSfxToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD41C9C
+    // [SpaceAttribute] Offset: 0xD2E060
     // private UnityEngine.CanvasGroup _singleplayerOnlyCanvasGroup
     // Size: 0x8
     // Offset: 0x80
     UnityEngine::CanvasGroup* singleplayerOnlyCanvasGroup;
     // Field size check
     static_assert(sizeof(UnityEngine::CanvasGroup*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD41CD4
+    // [CompilerGeneratedAttribute] Offset: 0xD2E098
     // private System.Action didChangePlayerSettingsEvent
     // Size: 0x8
     // Offset: 0x88
@@ -173,7 +175,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: PlayerSettingsPanelController
-    PlayerSettingsPanelController(UnityEngine::UI::Toggle* leftHandedToggle_ = {}, UnityEngine::UI::Toggle* staticLightsToggle_ = {}, UnityEngine::UI::Toggle* reduceDebrisToggle_ = {}, UnityEngine::UI::Toggle* noTextsAndHudsToggle_ = {}, UnityEngine::UI::Toggle* advanceHudToggle_ = {}, UnityEngine::UI::Toggle* autoRestartToggle_ = {}, GlobalNamespace::PlayerHeightSettingsController* playerHeightSettingsController_ = {}, UnityEngine::UI::Toggle* automaticPlayerHeightToggle_ = {}, GlobalNamespace::FormattedFloatListSettingsController* sfxVolumeSettingsController_ = {}, GlobalNamespace::FormattedFloatListSettingsController* saberTrailIntensitySettingsController_ = {}, GlobalNamespace::NoteJumpStartBeatOffsetDropdown* noteJumpStartBeatOffsetDropdown_ = {}, UnityEngine::UI::Toggle* hideNoteSpawnEffectToggle_ = {}, UnityEngine::UI::Toggle* adaptiveSfxToggle_ = {}, UnityEngine::CanvasGroup* singleplayerOnlyCanvasGroup_ = {}, System::Action* didChangePlayerSettingsEvent_ = {}, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, bool dirty_ = {}, bool refreshed_ = {}) noexcept : leftHandedToggle{leftHandedToggle_}, staticLightsToggle{staticLightsToggle_}, reduceDebrisToggle{reduceDebrisToggle_}, noTextsAndHudsToggle{noTextsAndHudsToggle_}, advanceHudToggle{advanceHudToggle_}, autoRestartToggle{autoRestartToggle_}, playerHeightSettingsController{playerHeightSettingsController_}, automaticPlayerHeightToggle{automaticPlayerHeightToggle_}, sfxVolumeSettingsController{sfxVolumeSettingsController_}, saberTrailIntensitySettingsController{saberTrailIntensitySettingsController_}, noteJumpStartBeatOffsetDropdown{noteJumpStartBeatOffsetDropdown_}, hideNoteSpawnEffectToggle{hideNoteSpawnEffectToggle_}, adaptiveSfxToggle{adaptiveSfxToggle_}, singleplayerOnlyCanvasGroup{singleplayerOnlyCanvasGroup_}, didChangePlayerSettingsEvent{didChangePlayerSettingsEvent_}, playerSpecificSettings{playerSpecificSettings_}, toggleBinder{toggleBinder_}, dirty{dirty_}, refreshed{refreshed_} {}
+    PlayerSettingsPanelController(UnityEngine::UI::Toggle* leftHandedToggle_ = {}, UnityEngine::UI::Toggle* reduceDebrisToggle_ = {}, UnityEngine::UI::Toggle* noTextsAndHudsToggle_ = {}, UnityEngine::UI::Toggle* advanceHudToggle_ = {}, UnityEngine::UI::Toggle* autoRestartToggle_ = {}, GlobalNamespace::PlayerHeightSettingsController* playerHeightSettingsController_ = {}, UnityEngine::UI::Toggle* automaticPlayerHeightToggle_ = {}, GlobalNamespace::FormattedFloatListSettingsController* sfxVolumeSettingsController_ = {}, GlobalNamespace::FormattedFloatListSettingsController* saberTrailIntensitySettingsController_ = {}, GlobalNamespace::NoteJumpStartBeatOffsetDropdown* noteJumpStartBeatOffsetDropdown_ = {}, GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* environmentEffectsFilterPresetDropdown_ = {}, UnityEngine::UI::Toggle* hideNoteSpawnEffectToggle_ = {}, UnityEngine::UI::Toggle* adaptiveSfxToggle_ = {}, UnityEngine::CanvasGroup* singleplayerOnlyCanvasGroup_ = {}, System::Action* didChangePlayerSettingsEvent_ = {}, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, bool dirty_ = {}, bool refreshed_ = {}) noexcept : leftHandedToggle{leftHandedToggle_}, reduceDebrisToggle{reduceDebrisToggle_}, noTextsAndHudsToggle{noTextsAndHudsToggle_}, advanceHudToggle{advanceHudToggle_}, autoRestartToggle{autoRestartToggle_}, playerHeightSettingsController{playerHeightSettingsController_}, automaticPlayerHeightToggle{automaticPlayerHeightToggle_}, sfxVolumeSettingsController{sfxVolumeSettingsController_}, saberTrailIntensitySettingsController{saberTrailIntensitySettingsController_}, noteJumpStartBeatOffsetDropdown{noteJumpStartBeatOffsetDropdown_}, environmentEffectsFilterPresetDropdown{environmentEffectsFilterPresetDropdown_}, hideNoteSpawnEffectToggle{hideNoteSpawnEffectToggle_}, adaptiveSfxToggle{adaptiveSfxToggle_}, singleplayerOnlyCanvasGroup{singleplayerOnlyCanvasGroup_}, didChangePlayerSettingsEvent{didChangePlayerSettingsEvent_}, playerSpecificSettings{playerSpecificSettings_}, toggleBinder{toggleBinder_}, dirty{dirty_}, refreshed{refreshed_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IRefreshable
     operator GlobalNamespace::IRefreshable() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRefreshable*>(this);
@@ -187,81 +189,76 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDisabledSectionAlpha
     static void _set_kDisabledSectionAlpha(float value);
     // public System.Void add_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0xFBB1D4
+    // Offset: 0xF67268
     void add_didChangePlayerSettingsEvent(System::Action* value);
     // public System.Void remove_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0xFBB278
+    // Offset: 0xF6730C
     void remove_didChangePlayerSettingsEvent(System::Action* value);
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0xFBACC4
+    // Offset: 0xF66D98
     GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // public System.Void SetData(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0xFBAA08
+    // Offset: 0xF66AF8
     void SetData(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void SetLayout(PlayerSettingsPanelController/PlayerSettingsPanelLayout layout)
-    // Offset: 0xFBA9D8
+    // Offset: 0xF66AC8
     void SetLayout(GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout layout);
     // protected System.Void Awake()
-    // Offset: 0xFBB388
+    // Offset: 0xF6741C
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0xFBB798
+    // Offset: 0xF67810
     void OnDestroy();
+    // public System.Void Refresh()
+    // Offset: 0xF66B3C
+    void Refresh_NEW();
     // private System.Void HandleSFXVolumeSettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0xFBB978
+    // Offset: 0xF67A6C
     void HandleSFXVolumeSettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void HandleSaberTrailIntensitySettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0xFBB9B8
+    // Offset: 0xF67AAC
     void HandleSaberTrailIntensitySettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void HandlePlayerHeightSettingsControllerValueDidChange(System.Single value)
-    // Offset: 0xFBB9D8
+    // Offset: 0xF67ACC
     void HandlePlayerHeightSettingsControllerValueDidChange(float value);
     // private System.Void HandleNoteJumpStartBeatOffsetPositionSelected(System.Int32 idx)
-    // Offset: 0xFBB9F8
+    // Offset: 0xF67AEC
     void HandleNoteJumpStartBeatOffsetPositionSelected(int idx);
+    // private System.Void HandleLightReductionAmountSelected(System.Int32 obj)
+    // Offset: 0xF67B0C
+    void HandleLightReductionAmountSelected(int obj);
     // private System.Void HandleAdvancedHudToggleChanged(System.Boolean on)
-    // Offset: 0xFBBA18
+    // Offset: 0xF67B2C
     void HandleAdvancedHudToggleChanged(bool on);
     // private System.Void HandleNoTextsAndHudsToggleChanged(System.Boolean on)
-    // Offset: 0xFBBA70
+    // Offset: 0xF67B84
     void HandleNoTextsAndHudsToggleChanged(bool on);
     // private System.Void SetIsDirty()
-    // Offset: 0xFBB998
+    // Offset: 0xF67A8C
     void SetIsDirty();
     // private System.Void SetSection(UnityEngine.CanvasGroup sectionCanvasGroup, System.Boolean block)
-    // Offset: 0xFBB31C
+    // Offset: 0xF673B0
     void SetSection(UnityEngine::CanvasGroup* sectionCanvasGroup, bool block);
     // private System.Void <Awake>b__27_0(System.Boolean on)
-    // Offset: 0xFBBAD0
+    // Offset: 0xF67BE4
     void $Awake$b__27_0(bool on);
     // private System.Void <Awake>b__27_1(System.Boolean on)
-    // Offset: 0xFBBAF0
+    // Offset: 0xF67C04
     void $Awake$b__27_1(bool on);
     // private System.Void <Awake>b__27_2(System.Boolean on)
-    // Offset: 0xFBBB10
+    // Offset: 0xF67C24
     void $Awake$b__27_2(bool on);
     // private System.Void <Awake>b__27_3(System.Boolean on)
-    // Offset: 0xFBBB30
+    // Offset: 0xF67C44
     void $Awake$b__27_3(bool on);
     // private System.Void <Awake>b__27_4(System.Boolean on)
-    // Offset: 0xFBBB50
+    // Offset: 0xF67C64
     void $Awake$b__27_4(bool on);
     // private System.Void <Awake>b__27_5(System.Boolean on)
-    // Offset: 0xFBBB70
+    // Offset: 0xF67C84
     void $Awake$b__27_5(bool on);
-    // private System.Void <Awake>b__27_6(System.Boolean on)
-    // Offset: 0xFBBB90
-    void $Awake$b__27_6(bool on);
-    // public System.Void Refresh()
-    // Offset: 0xFBAA5C
-    // Implemented from: IRefreshable
-    // Base method: System.Void IRefreshable::Refresh()
-    void Refresh();
-    // Creating proxy method: GlobalNamespace_IRefreshable_Refresh
-    // Maps to method: Refresh
-    void GlobalNamespace_IRefreshable_Refresh();
     // public System.Void .ctor()
-    // Offset: 0xFBBAC8
+    // Offset: 0xF67BDC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

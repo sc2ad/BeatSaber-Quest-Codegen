@@ -73,22 +73,22 @@ namespace HMUI {
       }
       // public System.Void Invoke(System.Int32 idx, T item)
       // Offset: 0xFFFFFFFF
-      void Invoke(int idx, T item) {
-        static auto ___internal__logger = ::Logger::get().WithContext("HMUI::UIItemsList_1::DataCallback::Invoke");
+      void Invoke_NEW(int idx, T item) {
+        static auto ___internal__logger = ::Logger::get().WithContext("HMUI::UIItemsList_1::DataCallback::Invoke_NEW");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(idx, item)));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, idx, item);
       }
       // public System.IAsyncResult BeginInvoke(System.Int32 idx, T item, System.AsyncCallback callback, System.Object object)
       // Offset: 0xFFFFFFFF
-      System::IAsyncResult* BeginInvoke(int idx, T item, System::AsyncCallback* callback, ::Il2CppObject* object) {
-        static auto ___internal__logger = ::Logger::get().WithContext("HMUI::UIItemsList_1::DataCallback::BeginInvoke");
+      System::IAsyncResult* BeginInvoke_NEW(int idx, T item, System::AsyncCallback* callback, ::Il2CppObject* object) {
+        static auto ___internal__logger = ::Logger::get().WithContext("HMUI::UIItemsList_1::DataCallback::BeginInvoke_NEW");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(idx, item, callback, object)));
         return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, idx, item, callback, object);
       }
       // public System.Void EndInvoke(System.IAsyncResult result)
       // Offset: 0xFFFFFFFF
-      void EndInvoke(System::IAsyncResult* result) {
-        static auto ___internal__logger = ::Logger::get().WithContext("HMUI::UIItemsList_1::DataCallback::EndInvoke");
+      void EndInvoke_NEW(System::IAsyncResult* result) {
+        static auto ___internal__logger = ::Logger::get().WithContext("HMUI::UIItemsList_1::DataCallback::EndInvoke_NEW");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
       }
@@ -110,7 +110,7 @@ namespace HMUI {
     bool insertInTheBeginning;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [InjectAttribute] Offset: 0xD1A038
+    // [InjectAttribute] Offset: 0xD03D48
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0

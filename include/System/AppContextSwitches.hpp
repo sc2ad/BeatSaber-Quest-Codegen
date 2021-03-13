@@ -23,10 +23,6 @@ namespace System {
     static bool _get_SetActorAsReferenceWhenCopyingClaimsIdentity();
     // Set static field: static public readonly System.Boolean SetActorAsReferenceWhenCopyingClaimsIdentity
     static void _set_SetActorAsReferenceWhenCopyingClaimsIdentity(bool value);
-    // Get static field: static public readonly System.Boolean PreserveEventListnerObjectIdentity
-    static bool _get_PreserveEventListnerObjectIdentity();
-    // Set static field: static public readonly System.Boolean PreserveEventListnerObjectIdentity
-    static void _set_PreserveEventListnerObjectIdentity(bool value);
   }; // System.AppContextSwitches
   #pragma pack(pop)
 }

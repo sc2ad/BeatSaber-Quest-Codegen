@@ -106,45 +106,25 @@ namespace System::Net {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x1503650
+    // Offset: 0x148C8E4
     void Complete(System::Exception* e);
     // public System.Void Complete()
-    // Offset: 0x1503678
+    // Offset: 0x148C8EC
     void Complete();
     // public System.Object get_AsyncState()
-    // Offset: 0x1503770
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Object IAsyncResult::get_AsyncState()
-    ::Il2CppObject* get_AsyncState();
-    // Creating proxy method: System_IAsyncResult_get_AsyncState
-    // Maps to method: get_AsyncState
-    ::Il2CppObject* System_IAsyncResult_get_AsyncState();
+    // Offset: 0x148C9B8
+    ::Il2CppObject* get_AsyncState_NEW();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1503778
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
-    System::Threading::WaitHandle* get_AsyncWaitHandle();
-    // Creating proxy method: System_IAsyncResult_get_AsyncWaitHandle
-    // Maps to method: get_AsyncWaitHandle
-    System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
+    // Offset: 0x148C9C0
+    System::Threading::WaitHandle* get_AsyncWaitHandle_NEW();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1503880
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
-    bool get_CompletedSynchronously();
-    // Creating proxy method: System_IAsyncResult_get_CompletedSynchronously
-    // Maps to method: get_CompletedSynchronously
-    bool System_IAsyncResult_get_CompletedSynchronously();
+    // Offset: 0x148CAB0
+    bool get_CompletedSynchronously_NEW();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1503894
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Boolean IAsyncResult::get_IsCompleted()
-    bool get_IsCompleted();
-    // Creating proxy method: System_IAsyncResult_get_IsCompleted
-    // Maps to method: get_IsCompleted
-    bool System_IAsyncResult_get_IsCompleted();
+    // Offset: 0x148CAC4
+    bool get_IsCompleted_NEW();
     // public System.Void .ctor()
-    // Offset: 0x1503940
+    // Offset: 0x148CB58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

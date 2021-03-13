@@ -44,23 +44,21 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::DefaultControls::IFactoryControls* _get_Default();
     // Set static field: static public UnityEngine.UI.DefaultControls/IFactoryControls Default
     static void _set_Default(UnityEngine::UI::DefaultControls::IFactoryControls* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1304E00
-    static void _cctor();
     // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
-    // Offset: 0x1304D84
-    // Implemented from: UnityEngine.UI.DefaultControls/IFactoryControls
-    // Base method: UnityEngine.GameObject IFactoryControls::CreateGameObject(System.String name, params System.Type[] components)
-    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, ::Array<System::Type*>* components);
+    // Offset: 0x1321B40
+    UnityEngine::GameObject* CreateGameObject_NEW(::Il2CppString* name, ::Array<System::Type*>* components);
     // Creating initializer_list -> params proxy for: UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
-    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, std::initializer_list<System::Type*> components);
+    UnityEngine::GameObject* CreateGameObject_NEW(::Il2CppString* name, std::initializer_list<System::Type*> components);
     // Creating TArgs -> initializer_list proxy for: UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
     template<class ...TParams>
-    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, TParams&&... components) {
-      return CreateGameObject(name, {components...});
+    UnityEngine::GameObject* CreateGameObject_NEW(::Il2CppString* name, TParams&&... components) {
+      return CreateGameObject_NEW(name, {components...});
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1321BBC
+    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1304DF8
+    // Offset: 0x1321BB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

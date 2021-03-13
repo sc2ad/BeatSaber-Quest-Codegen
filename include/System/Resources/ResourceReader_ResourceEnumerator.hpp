@@ -61,63 +61,33 @@ namespace System::Resources {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);
     }
     // System.Void .ctor(System.Resources.ResourceReader reader)
-    // Offset: 0x1958A8C
+    // Offset: 0x12F8730
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceReader::ResourceEnumerator* New_ctor(System::Resources::ResourceReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceReader::ResourceEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceReader::ResourceEnumerator*, creationType>(reader)));
     }
-    // System.Int32 get_DataPosition()
-    // Offset: 0x195C1CC
-    int get_DataPosition();
     // public System.Boolean MoveNext()
-    // Offset: 0x195BD2C
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Boolean IEnumerator::MoveNext()
-    bool MoveNext();
-    // Creating proxy method: System_Collections_IEnumerator_MoveNext
-    // Maps to method: MoveNext
-    bool System_Collections_IEnumerator_MoveNext();
+    // Offset: 0x12FB8E4
+    bool MoveNext_NEW();
     // public System.Object get_Key()
-    // Offset: 0x195BD88
-    // Implemented from: System.Collections.IDictionaryEnumerator
-    // Base method: System.Object IDictionaryEnumerator::get_Key()
-    ::Il2CppObject* get_Key();
-    // Creating proxy method: System_Collections_IDictionaryEnumerator_get_Key
-    // Maps to method: get_Key
-    ::Il2CppObject* System_Collections_IDictionaryEnumerator_get_Key();
+    // Offset: 0x12FB940
+    ::Il2CppObject* get_Key_NEW();
     // public System.Object get_Current()
-    // Offset: 0x195BE60
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Object IEnumerator::get_Current()
-    ::Il2CppObject* get_Current();
-    // Creating proxy method: System_Collections_IEnumerator_get_Current
-    // Maps to method: get_Current
-    ::Il2CppObject* System_Collections_IEnumerator_get_Current();
+    // Offset: 0x12FBA18
+    ::Il2CppObject* get_Current_NEW();
+    // System.Int32 get_DataPosition()
+    // Offset: 0x12FBD28
+    int get_DataPosition();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x195BECC
-    // Implemented from: System.Collections.IDictionaryEnumerator
-    // Base method: System.Collections.DictionaryEntry IDictionaryEnumerator::get_Entry()
-    System::Collections::DictionaryEntry get_Entry();
-    // Creating proxy method: System_Collections_IDictionaryEnumerator_get_Entry
-    // Maps to method: get_Entry
-    System::Collections::DictionaryEntry System_Collections_IDictionaryEnumerator_get_Entry();
+    // Offset: 0x12FBA84
+    System::Collections::DictionaryEntry get_Entry_NEW();
     // public System.Object get_Value()
-    // Offset: 0x195C1D4
-    // Implemented from: System.Collections.IDictionaryEnumerator
-    // Base method: System.Object IDictionaryEnumerator::get_Value()
-    ::Il2CppObject* get_Value();
-    // Creating proxy method: System_Collections_IDictionaryEnumerator_get_Value
-    // Maps to method: get_Value
-    ::Il2CppObject* System_Collections_IDictionaryEnumerator_get_Value();
+    // Offset: 0x12FBD30
+    ::Il2CppObject* get_Value_NEW();
     // public System.Void Reset()
-    // Offset: 0x195C2A8
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Void IEnumerator::Reset()
-    void Reset();
-    // Creating proxy method: System_Collections_IEnumerator_Reset
-    // Maps to method: Reset
-    void System_Collections_IEnumerator_Reset();
+    // Offset: 0x12FBE04
+    void Reset_NEW();
   }; // System.Resources.ResourceReader/ResourceEnumerator
   #pragma pack(pop)
   static check_size<sizeof(ResourceReader::ResourceEnumerator), 32 + sizeof(int)> __System_Resources_ResourceReader_ResourceEnumeratorSizeCheck;

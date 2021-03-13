@@ -49,8 +49,20 @@ namespace Org::BouncyCastle::Utilities::Collections {
     constexpr operator System::Collections::IDictionary*() const noexcept {
       return impl;
     }
+    // public System.Void Add(System.Object o)
+    // Offset: 0x126F3D4
+    void Add_NEW(::Il2CppObject* o);
+    // public System.Void CopyTo(System.Array array, System.Int32 index)
+    // Offset: 0x126F49C
+    void CopyTo_NEW(System::Array* array, int index);
+    // public System.Int32 get_Count()
+    // Offset: 0x126F5D8
+    int get_Count_NEW();
+    // public System.Collections.IEnumerator GetEnumerator()
+    // Offset: 0x126F68C
+    System::Collections::IEnumerator* GetEnumerator_NEW();
     // public System.Void .ctor()
-    // Offset: 0x12322A0
+    // Offset: 0x126F360
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,35 +70,6 @@ namespace Org::BouncyCastle::Utilities::Collections {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Collections::HashSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HashSet*, creationType>()));
     }
-    // public System.Void Add(System.Object o)
-    // Offset: 0x1232320
-    // Implemented from: Org.BouncyCastle.Utilities.Collections.ISet
-    // Base method: System.Void ISet::Add(System.Object o)
-    void Add(::Il2CppObject* o);
-    // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x12323E8
-    // Implemented from: System.Collections.ICollection
-    // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
-    void CopyTo(System::Array* array, int index);
-    // Creating proxy method: System_Collections_ICollection_CopyTo
-    // Maps to method: CopyTo
-    void System_Collections_ICollection_CopyTo(System::Array* array, int index);
-    // public System.Int32 get_Count()
-    // Offset: 0x1232524
-    // Implemented from: System.Collections.ICollection
-    // Base method: System.Int32 ICollection::get_Count()
-    int get_Count();
-    // Creating proxy method: System_Collections_ICollection_get_Count
-    // Maps to method: get_Count
-    int System_Collections_ICollection_get_Count();
-    // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x12325D8
-    // Implemented from: System.Collections.IEnumerable
-    // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
-    System::Collections::IEnumerator* GetEnumerator();
-    // Creating proxy method: System_Collections_IEnumerable_GetEnumerator
-    // Maps to method: GetEnumerator
-    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // Org.BouncyCastle.Utilities.Collections.HashSet
   #pragma pack(pop)
   static check_size<sizeof(HashSet), 16 + sizeof(System::Collections::IDictionary*)> __Org_BouncyCastle_Utilities_Collections_HashSetSizeCheck;

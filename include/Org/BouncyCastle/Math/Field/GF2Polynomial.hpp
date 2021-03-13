@@ -36,31 +36,27 @@ namespace Org::BouncyCastle::Math::Field {
       return exponents;
     }
     // System.Void .ctor(System.Int32[] exponents)
-    // Offset: 0x1BC988C
+    // Offset: 0x1B3D40C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GF2Polynomial* New_ctor(::Array<int>* exponents) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::Field::GF2Polynomial::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GF2Polynomial*, creationType>(exponents)));
     }
     // public System.Int32 get_Degree()
-    // Offset: 0x1BC9C2C
-    // Implemented from: Org.BouncyCastle.Math.Field.IPolynomial
-    // Base method: System.Int32 IPolynomial::get_Degree()
-    int get_Degree();
+    // Offset: 0x1B3D754
+    int get_Degree_NEW();
     // public System.Int32[] GetExponentsPresent()
-    // Offset: 0x1BC9C6C
-    // Implemented from: Org.BouncyCastle.Math.Field.IPolynomial
-    // Base method: System.Int32[] IPolynomial::GetExponentsPresent()
-    ::Array<int>* GetExponentsPresent();
+    // Offset: 0x1B3D794
+    ::Array<int>* GetExponentsPresent_NEW();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1BC9CD8
+    // Offset: 0x1B3D800
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object obj)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1BC9DC0
+    // Offset: 0x1B3D8E8
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.Field.GF2Polynomial
   #pragma pack(pop)

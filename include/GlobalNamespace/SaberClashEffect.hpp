@@ -59,21 +59,21 @@ namespace GlobalNamespace {
     Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset;
     // Field size check
     static_assert(sizeof(Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD39140
+    // [InjectAttribute] Offset: 0xD247F8
     // private SaberClashChecker _saberClashChecker
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::SaberClashChecker* saberClashChecker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberClashChecker*) == 0x8);
-    // [InjectAttribute] Offset: 0xD39150
+    // [InjectAttribute] Offset: 0xD24808
     // private HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::HapticFeedbackController* hapticFeedbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HapticFeedbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD39160
+    // [InjectAttribute] Offset: 0xD24818
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
@@ -103,16 +103,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1086F78
+    // Offset: 0xFAD4C4
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x1087154
+    // Offset: 0xFAD688
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x1087164
+    // Offset: 0xFAD698
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1087268
+    // Offset: 0xFAD79C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

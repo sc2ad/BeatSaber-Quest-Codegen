@@ -34,21 +34,21 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* poseRoot;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0xD29788
+    // [RangeAttribute] Offset: 0xD146EC
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x40
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xD297A0
+    // [RangeAttribute] Offset: 0xD14704
     // public System.Single localRotationWeight
     // Size: 0x4
     // Offset: 0x44
     float localRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xD297B8
+    // [RangeAttribute] Offset: 0xD1471C
     // public System.Single localPositionWeight
     // Size: 0x4
     // Offset: 0x48
@@ -65,36 +65,36 @@ namespace RootMotion::FinalIK {
     Poser(UnityEngine::Transform* poseRoot_ = {}, float weight_ = {}, float localRotationWeight_ = {}, float localPositionWeight_ = {}, bool initiated_ = {}) noexcept : poseRoot{poseRoot_}, weight{weight_}, localRotationWeight{localRotationWeight_}, localPositionWeight{localPositionWeight_}, initiated{initiated_} {}
     // public System.Void AutoMapping()
     // Offset: 0xFFFFFFFF
-    void AutoMapping();
+    void AutoMapping_NEW();
     // public System.Void UpdateManual()
-    // Offset: 0x19635D8
+    // Offset: 0x191A7A8
     void UpdateManual();
     // protected System.Void InitiatePoser()
     // Offset: 0xFFFFFFFF
-    void InitiatePoser();
+    void InitiatePoser_NEW();
     // protected System.Void UpdatePoser()
     // Offset: 0xFFFFFFFF
-    void UpdatePoser();
+    void UpdatePoser_NEW();
     // protected System.Void FixPoserTransforms()
     // Offset: 0xFFFFFFFF
-    void FixPoserTransforms();
+    void FixPoserTransforms_NEW();
     // protected override System.Void UpdateSolver()
-    // Offset: 0x19635E4
+    // Offset: 0x191A7B4
     // Implemented from: RootMotion.SolverManager
-    // Base method: System.Void SolverManager::UpdateSolver()
+    // Base method: System.Void SolverManager::UpdateSolver_NEW()
     void UpdateSolver();
     // protected override System.Void InitiateSolver()
-    // Offset: 0x1963638
+    // Offset: 0x191A808
     // Implemented from: RootMotion.SolverManager
-    // Base method: System.Void SolverManager::InitiateSolver()
+    // Base method: System.Void SolverManager::InitiateSolver_NEW()
     void InitiateSolver();
     // protected override System.Void FixTransforms()
-    // Offset: 0x1963674
+    // Offset: 0x191A844
     // Implemented from: RootMotion.SolverManager
-    // Base method: System.Void SolverManager::FixTransforms()
+    // Base method: System.Void SolverManager::FixTransforms_NEW()
     void FixTransforms();
     // protected System.Void .ctor()
-    // Offset: 0x196368C
+    // Offset: 0x191A85C
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

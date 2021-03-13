@@ -23,13 +23,13 @@ namespace HMUI {
     ITableCellOwner() noexcept {}
     // public HMUI.TableViewSelectionType get_selectionType()
     // Offset: 0xFFFFFFFF
-    HMUI::TableViewSelectionType get_selectionType();
+    HMUI::TableViewSelectionType get_selectionType_NEW();
     // public System.Boolean get_canSelectSelectedCell()
     // Offset: 0xFFFFFFFF
-    bool get_canSelectSelectedCell();
+    bool get_canSelectSelectedCell_NEW();
     // public System.Int32 get_numberOfCells()
     // Offset: 0xFFFFFFFF
-    int get_numberOfCells();
+    int get_numberOfCells_NEW();
   }; // HMUI.ITableCellOwner
   #pragma pack(pop)
 }

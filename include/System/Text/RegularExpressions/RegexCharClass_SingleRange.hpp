@@ -34,7 +34,7 @@ namespace System::Text::RegularExpressions {
     // Creating value type constructor for type: SingleRange
     SingleRange(::Il2CppChar first_ = {}, ::Il2CppChar last_ = {}) noexcept : first{first_}, last{last_} {}
     // System.Void .ctor(System.Char first, System.Char last)
-    // Offset: 0x18B3174
+    // Offset: 0x17F723C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexCharClass::SingleRange* New_ctor(::Il2CppChar first, ::Il2CppChar last) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexCharClass::SingleRange::.ctor");

@@ -22,7 +22,7 @@ namespace System::Text {
     // Creating value type constructor for type: EncoderExceptionFallbackBuffer
     EncoderExceptionFallbackBuffer() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x191CEB4
+    // Offset: 0x1A12B68
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Void EncoderFallbackBuffer::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -32,29 +32,29 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<EncoderExceptionFallbackBuffer*, creationType>()));
     }
     // public override System.Boolean Fallback(System.Char charUnknown, System.Int32 index)
-    // Offset: 0x191CF38
+    // Offset: 0x1A12BEC
     // Implemented from: System.Text.EncoderFallbackBuffer
-    // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknown, System.Int32 index)
+    // Base method: System.Boolean EncoderFallbackBuffer::Fallback_NEW(System.Char charUnknown, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknown, int index);
     // public override System.Boolean Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
-    // Offset: 0x191D0A0
+    // Offset: 0x1A12D1C
     // Implemented from: System.Text.EncoderFallbackBuffer
-    // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
+    // Base method: System.Boolean EncoderFallbackBuffer::Fallback_NEW(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x191D6D0
+    // Offset: 0x1A130A8
     // Implemented from: System.Text.EncoderFallbackBuffer
-    // Base method: System.Char EncoderFallbackBuffer::GetNextChar()
+    // Base method: System.Char EncoderFallbackBuffer::GetNextChar_NEW()
     ::Il2CppChar GetNextChar();
     // public override System.Boolean MovePrevious()
-    // Offset: 0x191D6D8
+    // Offset: 0x1A130B0
     // Implemented from: System.Text.EncoderFallbackBuffer
-    // Base method: System.Boolean EncoderFallbackBuffer::MovePrevious()
+    // Base method: System.Boolean EncoderFallbackBuffer::MovePrevious_NEW()
     bool MovePrevious();
     // public override System.Int32 get_Remaining()
-    // Offset: 0x191D6E0
+    // Offset: 0x1A130B8
     // Implemented from: System.Text.EncoderFallbackBuffer
-    // Base method: System.Int32 EncoderFallbackBuffer::get_Remaining()
+    // Base method: System.Int32 EncoderFallbackBuffer::get_Remaining_NEW()
     int get_Remaining();
   }; // System.Text.EncoderExceptionFallbackBuffer
   #pragma pack(pop)

@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class Signal : public UnityEngine::ScriptableObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD0A648
+    // [CompilerGeneratedAttribute] Offset: 0xCF5004
     // private System.Action _event
     // Size: 0x8
     // Offset: 0x18
@@ -38,22 +38,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void add__event(System.Action value)
-    // Offset: 0x1117438
+    // Offset: 0x211DA7C
     void add__event(System::Action* value);
     // private System.Void remove__event(System.Action value)
-    // Offset: 0x11174DC
+    // Offset: 0x211DB20
     void remove__event(System::Action* value);
     // public System.Void Raise()
-    // Offset: 0x1117580
+    // Offset: 0x211DBC4
     void Raise();
     // public System.Void Subscribe(System.Action foo)
-    // Offset: 0x1117594
+    // Offset: 0x211DBD8
     void Subscribe(System::Action* foo);
     // public System.Void Unsubscribe(System.Action foo)
-    // Offset: 0x11175C0
+    // Offset: 0x211DC04
     void Unsubscribe(System::Action* foo);
     // public System.Void .ctor()
-    // Offset: 0x11175C4
+    // Offset: 0x211DC08
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

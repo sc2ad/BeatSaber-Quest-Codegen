@@ -20,8 +20,6 @@
 namespace System::Threading {
   // Forward declaring type: SynchronizationContext
   class SynchronizationContext;
-  // Forward declaring type: IAsyncLocal
-  class IAsyncLocal;
 }
 // Completed forward declares
 // Type namespace: System.Threading
@@ -50,38 +48,35 @@ namespace System::Threading {
       return m_ec;
     }
     // public System.Void .ctor(System.Threading.ExecutionContext ec)
-    // Offset: 0xE144CC
+    // Offset: 0xDF5A1C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Reader(System::Threading::ExecutionContext* ec)
     // public System.Threading.ExecutionContext DangerousGetRawExecutionContext()
-    // Offset: 0xE144D4
+    // Offset: 0xDF5A24
     System::Threading::ExecutionContext* DangerousGetRawExecutionContext();
     // public System.Boolean get_IsNull()
-    // Offset: 0xE144DC
+    // Offset: 0xDF5A2C
     bool get_IsNull();
     // public System.Boolean IsDefaultFTContext(System.Boolean ignoreSyncCtx)
-    // Offset: 0xE144EC
+    // Offset: 0xDF5A3C
     bool IsDefaultFTContext(bool ignoreSyncCtx);
     // public System.Boolean get_IsFlowSuppressed()
-    // Offset: 0xE14508
+    // Offset: 0xDF5A58
     bool get_IsFlowSuppressed();
     // public System.Threading.SynchronizationContext get_SynchronizationContext()
-    // Offset: 0xE14524
+    // Offset: 0xDF5A74
     System::Threading::SynchronizationContext* get_SynchronizationContext();
     // public System.Threading.SynchronizationContext get_SynchronizationContextNoFlow()
-    // Offset: 0xE1453C
+    // Offset: 0xDF5A8C
     System::Threading::SynchronizationContext* get_SynchronizationContextNoFlow();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext/Reader get_LogicalCallContext()
-    // Offset: 0xE14554
+    // Offset: 0xDF5AA4
     System::Runtime::Remoting::Messaging::LogicalCallContext::Reader get_LogicalCallContext();
     // public System.Runtime.Remoting.Messaging.IllogicalCallContext/Reader get_IllogicalCallContext()
-    // Offset: 0xE1455C
+    // Offset: 0xDF5AC0
     System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader get_IllogicalCallContext();
-    // public System.Object GetLocalValue(System.Threading.IAsyncLocal local)
-    // Offset: 0xE14564
-    ::Il2CppObject* GetLocalValue(System::Threading::IAsyncLocal* local);
     // public System.Boolean HasSameLocalValues(System.Threading.ExecutionContext other)
-    // Offset: 0xE1456C
+    // Offset: 0xDF5ADC
     bool HasSameLocalValues(System::Threading::ExecutionContext* other);
   }; // System.Threading.ExecutionContext/Reader
   #pragma pack(pop)

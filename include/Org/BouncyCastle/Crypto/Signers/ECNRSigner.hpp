@@ -68,22 +68,16 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDsaExt*>(this);
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x11883D4
-    // Implemented from: Org.BouncyCastle.Crypto.IDsa
-    // Base method: System.Void IDsa::Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // Offset: 0x1167D0C
+    void Init_NEW(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x1188584
-    // Implemented from: Org.BouncyCastle.Crypto.IDsaExt
-    // Base method: Org.BouncyCastle.Math.BigInteger IDsaExt::get_Order()
-    Org::BouncyCastle::Math::BigInteger* get_Order();
+    // Offset: 0x1167EA0
+    Org::BouncyCastle::Math::BigInteger* get_Order_NEW();
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0x11885AC
-    // Implemented from: Org.BouncyCastle.Crypto.IDsa
-    // Base method: Org.BouncyCastle.Math.BigInteger[] IDsa::GenerateSignature(System.Byte[] message)
-    ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature(::Array<uint8_t>* message);
+    // Offset: 0x1167EC8
+    ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature_NEW(::Array<uint8_t>* message);
     // public System.Void .ctor()
-    // Offset: 0x1188924
+    // Offset: 0x1168228
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

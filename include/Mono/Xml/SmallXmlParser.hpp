@@ -125,73 +125,73 @@ namespace Mono::Xml {
     // Creating value type constructor for type: SmallXmlParser
     SmallXmlParser(Mono::Xml::SmallXmlParser::IContentHandler* handler_ = {}, System::IO::TextReader* reader_ = {}, System::Collections::Stack* elementNames_ = {}, System::Collections::Stack* xmlSpaces_ = {}, ::Il2CppString* xmlSpace_ = {}, System::Text::StringBuilder* buffer_ = {}, ::Array<::Il2CppChar>* nameBuffer_ = {}, bool isWhitespace_ = {}, Mono::Xml::SmallXmlParser::AttrListImpl* attributes_ = {}, int line_ = {}, int column_ = {}, bool resetColumn_ = {}) noexcept : handler{handler_}, reader{reader_}, elementNames{elementNames_}, xmlSpaces{xmlSpaces_}, xmlSpace{xmlSpace_}, buffer{buffer_}, nameBuffer{nameBuffer_}, isWhitespace{isWhitespace_}, attributes{attributes_}, line{line_}, column{column_}, resetColumn{resetColumn_} {}
     // private System.Exception Error(System.String msg)
-    // Offset: 0x1943F78
+    // Offset: 0x18EC610
     System::Exception* Error(::Il2CppString* msg);
     // private System.Exception UnexpectedEndError()
-    // Offset: 0x19440B8
+    // Offset: 0x18EC750
     System::Exception* UnexpectedEndError();
     // private System.Boolean IsNameChar(System.Char c, System.Boolean start)
-    // Offset: 0x1944188
+    // Offset: 0x18EC820
     bool IsNameChar(::Il2CppChar c, bool start);
     // private System.Boolean IsWhitespace(System.Int32 c)
-    // Offset: 0x194429C
+    // Offset: 0x18EC934
     bool IsWhitespace(int c);
     // public System.Void SkipWhitespaces()
-    // Offset: 0x19442CC
+    // Offset: 0x18EC964
     void SkipWhitespaces();
     // private System.Void HandleWhitespaces()
-    // Offset: 0x1944398
+    // Offset: 0x18ECA30
     void HandleWhitespaces();
     // public System.Void SkipWhitespaces(System.Boolean expected)
-    // Offset: 0x19442D4
+    // Offset: 0x18EC96C
     void SkipWhitespaces(bool expected);
     // private System.Int32 Peek()
-    // Offset: 0x19444D0
+    // Offset: 0x18ECB68
     int Peek();
     // private System.Int32 Read()
-    // Offset: 0x194445C
+    // Offset: 0x18ECAF4
     int Read();
     // public System.Void Expect(System.Int32 c)
-    // Offset: 0x19444F0
+    // Offset: 0x18ECB88
     void Expect(int c);
     // private System.String ReadUntil(System.Char until, System.Boolean handleReferences)
-    // Offset: 0x19445D4
+    // Offset: 0x18ECC6C
     ::Il2CppString* ReadUntil(::Il2CppChar until, bool handleReferences);
     // public System.String ReadName()
-    // Offset: 0x1944860
+    // Offset: 0x18ECEF8
     ::Il2CppString* ReadName();
     // public System.Void Parse(System.IO.TextReader input, Mono.Xml.SmallXmlParser/IContentHandler handler)
-    // Offset: 0x19438D8
+    // Offset: 0x18EBFE0
     void Parse(System::IO::TextReader* input, Mono::Xml::SmallXmlParser::IContentHandler* handler);
     // private System.Void Cleanup()
-    // Offset: 0x1945260
+    // Offset: 0x18ED8BC
     void Cleanup();
     // public System.Void ReadContent()
-    // Offset: 0x1944A20
+    // Offset: 0x18ED09C
     void ReadContent();
     // private System.Void HandleBufferedContent()
-    // Offset: 0x1945110
+    // Offset: 0x18ED76C
     void HandleBufferedContent();
     // private System.Void ReadCharacters()
-    // Offset: 0x19456A0
+    // Offset: 0x18EDCC8
     void ReadCharacters();
     // private System.Void ReadReference()
-    // Offset: 0x19446D0
+    // Offset: 0x18ECD68
     void ReadReference();
     // private System.Int32 ReadCharacterReference()
-    // Offset: 0x194572C
+    // Offset: 0x18EDD54
     int ReadCharacterReference();
     // private System.Void ReadAttribute(Mono.Xml.SmallXmlParser/AttrListImpl a)
-    // Offset: 0x1945538
+    // Offset: 0x18EDB6C
     void ReadAttribute(Mono::Xml::SmallXmlParser::AttrListImpl* a);
     // private System.Void ReadCDATASection()
-    // Offset: 0x1945370
+    // Offset: 0x18ED9A4
     void ReadCDATASection();
     // private System.Void ReadComment()
-    // Offset: 0x194548C
+    // Offset: 0x18EDAC0
     void ReadComment();
     // public System.Void .ctor()
-    // Offset: 0x19437B4
+    // Offset: 0x18EBEF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

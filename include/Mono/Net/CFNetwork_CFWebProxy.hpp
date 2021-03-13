@@ -60,20 +60,29 @@ namespace Mono::Net {
     operator System::Net::IWebProxy() noexcept {
       return *reinterpret_cast<System::Net::IWebProxy*>(this);
     }
+    // public System.Net.ICredentials get_Credentials()
+    // Offset: 0x142C490
+    System::Net::ICredentials* get_Credentials_NEW();
     // static private System.Uri GetProxyUri(Mono.Net.CFProxy proxy, out System.Net.NetworkCredential credentials)
-    // Offset: 0x149F130
+    // Offset: 0x142C498
     static System::Uri* GetProxyUri(Mono::Net::CFProxy* proxy, System::Net::NetworkCredential*& credentials);
     // static private System.Uri GetProxyUriFromScript(System.IntPtr script, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x149F6BC
+    // Offset: 0x142CA04
     static System::Uri* GetProxyUriFromScript(System::IntPtr script, System::Uri* targetUri, System::Net::NetworkCredential*& credentials);
     // static private System.Uri ExecuteProxyAutoConfigurationURL(System.IntPtr proxyAutoConfigURL, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x149F828
+    // Offset: 0x142CB50
     static System::Uri* ExecuteProxyAutoConfigurationURL(System::IntPtr proxyAutoConfigURL, System::Uri* targetUri, System::Net::NetworkCredential*& credentials);
     // static private System.Uri SelectProxy(Mono.Net.CFProxy[] proxies, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x149F740
+    // Offset: 0x142CA88
     static System::Uri* SelectProxy(::Array<Mono::Net::CFProxy*>* proxies, System::Uri* targetUri, System::Net::NetworkCredential*& credentials);
+    // public System.Uri GetProxy(System.Uri targetUri)
+    // Offset: 0x142CBD4
+    System::Uri* GetProxy_NEW(System::Uri* targetUri);
+    // public System.Boolean IsBypassed(System.Uri targetUri)
+    // Offset: 0x142D098
+    bool IsBypassed_NEW(System::Uri* targetUri);
     // public System.Void .ctor()
-    // Offset: 0x149EB78
+    // Offset: 0x142BF1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -81,21 +90,6 @@ namespace Mono::Net {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFNetwork::CFWebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFNetwork::CFWebProxy*, creationType>()));
     }
-    // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x149F128
-    // Implemented from: System.Net.IWebProxy
-    // Base method: System.Net.ICredentials IWebProxy::get_Credentials()
-    System::Net::ICredentials* get_Credentials();
-    // public System.Uri GetProxy(System.Uri targetUri)
-    // Offset: 0x149F8AC
-    // Implemented from: System.Net.IWebProxy
-    // Base method: System.Uri IWebProxy::GetProxy(System.Uri targetUri)
-    System::Uri* GetProxy(System::Uri* targetUri);
-    // public System.Boolean IsBypassed(System.Uri targetUri)
-    // Offset: 0x149FD78
-    // Implemented from: System.Net.IWebProxy
-    // Base method: System.Boolean IWebProxy::IsBypassed(System.Uri targetUri)
-    bool IsBypassed(System::Uri* targetUri);
   }; // Mono.Net.CFNetwork/CFWebProxy
   #pragma pack(pop)
   static check_size<sizeof(CFNetwork::CFWebProxy), 24 + sizeof(bool)> __Mono_Net_CFNetwork_CFWebProxySizeCheck;

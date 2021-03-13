@@ -48,43 +48,38 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(System.Int32 numBytes)
-    // Offset: 0x144EDDC
+    // Offset: 0x13AB7C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRNativeBuffer* New_ctor(int numBytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRNativeBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRNativeBuffer*, creationType>(numBytes)));
     }
     // public System.Void Reset(System.Int32 numBytes)
-    // Offset: 0x144EF8C
+    // Offset: 0x13AB978
     void Reset(int numBytes);
     // public System.Int32 GetCapacity()
-    // Offset: 0x144EF90
+    // Offset: 0x13AB97C
     int GetCapacity();
     // public System.IntPtr GetPointer(System.Int32 byteOffset)
-    // Offset: 0x144EF98
+    // Offset: 0x13AB984
     System::IntPtr GetPointer(int byteOffset);
+    // public System.Void Dispose()
+    // Offset: 0x13ABA18
+    void Dispose_NEW();
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x144EF58
+    // Offset: 0x13AB944
     void Dispose(bool disposing);
     // private System.Void Reallocate(System.Int32 numBytes)
-    // Offset: 0x144EE40
+    // Offset: 0x13AB82C
     void Reallocate(int numBytes);
     // private System.Void Release()
-    // Offset: 0x144F0AC
+    // Offset: 0x13ABA98
     void Release();
     // protected override System.Void Finalize()
-    // Offset: 0x144EEDC
+    // Offset: 0x13AB8C8
     // Implemented from: System.Object
-    // Base method: System.Void Object::Finalize()
+    // Base method: System.Void Object::Finalize_NEW()
     void Finalize();
-    // public System.Void Dispose()
-    // Offset: 0x144F02C
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose();
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose();
   }; // OVRNativeBuffer
   #pragma pack(pop)
   static check_size<sizeof(OVRNativeBuffer), 24 + sizeof(System::IntPtr)> __GlobalNamespace_OVRNativeBufferSizeCheck;

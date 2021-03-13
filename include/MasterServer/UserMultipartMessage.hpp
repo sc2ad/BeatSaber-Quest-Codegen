@@ -36,15 +36,15 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IUserMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.UserMultipartMessage> get_pool()
-    // Offset: 0x111F034
+    // Offset: 0x1288EBC
     static GlobalNamespace::PacketPool_1<MasterServer::UserMultipartMessage*>* get_pool();
     // public override System.Void Release()
-    // Offset: 0x112ACB4
+    // Offset: 0x1294304
     // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Release()
+    // Base method: System.Void BaseMasterServerReliableRequest::Release_NEW()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x112AD10
+    // Offset: 0x1294360
     // Implemented from: MasterServer.BaseMasterServerMultipartMessage
     // Base method: System.Void BaseMasterServerMultipartMessage::.ctor()
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()

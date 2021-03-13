@@ -62,22 +62,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_collectionName()
-    // Offset: 0xFBD5C0
-    // Implemented from: IAnnotatedBeatmapLevelCollection
-    // Base method: System.String IAnnotatedBeatmapLevelCollection::get_collectionName()
-    ::Il2CppString* get_collectionName();
+    // Offset: 0xF9B234
+    ::Il2CppString* get_collectionName_NEW();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0xFBD5CC
-    // Implemented from: IAnnotatedBeatmapLevelCollection
-    // Base method: UnityEngine.Sprite IAnnotatedBeatmapLevelCollection::get_coverImage()
-    UnityEngine::Sprite* get_coverImage();
+    // Offset: 0xF9B240
+    UnityEngine::Sprite* get_coverImage_NEW();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0xFBD5D4
-    // Implemented from: IAnnotatedBeatmapLevelCollection
-    // Base method: IBeatmapLevelCollection IAnnotatedBeatmapLevelCollection::get_beatmapLevelCollection()
-    GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
+    // Offset: 0xF9B248
+    GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection_NEW();
     // public System.Void .ctor()
-    // Offset: 0xFBD5DC
+    // Offset: 0xF9B250
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

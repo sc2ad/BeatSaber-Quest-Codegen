@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRControllerGamepadAndroid
     OVRControllerGamepadAndroid() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x13A74B0
+    // Offset: 0x173F6A4
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -34,29 +34,29 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerGamepadAndroid*, creationType>()));
     }
     // public override System.Void ConfigureButtonMap()
-    // Offset: 0x13ACB3C
+    // Offset: 0x1744BDC
     // Implemented from: OVRInput/OVRControllerBase
-    // Base method: System.Void OVRControllerBase::ConfigureButtonMap()
+    // Base method: System.Void OVRControllerBase::ConfigureButtonMap_NEW()
     void ConfigureButtonMap();
     // public override System.Void ConfigureTouchMap()
-    // Offset: 0x13ACD4C
+    // Offset: 0x1744DEC
     // Implemented from: OVRInput/OVRControllerBase
-    // Base method: System.Void OVRControllerBase::ConfigureTouchMap()
+    // Base method: System.Void OVRControllerBase::ConfigureTouchMap_NEW()
     void ConfigureTouchMap();
     // public override System.Void ConfigureNearTouchMap()
-    // Offset: 0x13ACDFC
+    // Offset: 0x1744E9C
     // Implemented from: OVRInput/OVRControllerBase
-    // Base method: System.Void OVRControllerBase::ConfigureNearTouchMap()
+    // Base method: System.Void OVRControllerBase::ConfigureNearTouchMap_NEW()
     void ConfigureNearTouchMap();
     // public override System.Void ConfigureAxis1DMap()
-    // Offset: 0x13ACE4C
+    // Offset: 0x1744EEC
     // Implemented from: OVRInput/OVRControllerBase
-    // Base method: System.Void OVRControllerBase::ConfigureAxis1DMap()
+    // Base method: System.Void OVRControllerBase::ConfigureAxis1DMap_NEW()
     void ConfigureAxis1DMap();
     // public override System.Void ConfigureAxis2DMap()
-    // Offset: 0x13ACEA4
+    // Offset: 0x1744F44
     // Implemented from: OVRInput/OVRControllerBase
-    // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap()
+    // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap_NEW()
     void ConfigureAxis2DMap();
   }; // OVRInput/OVRControllerGamepadAndroid
   #pragma pack(pop)

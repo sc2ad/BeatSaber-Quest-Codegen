@@ -18,12 +18,14 @@
 namespace GlobalNamespace {
   // Forward declaring type: TubeBloomPrePassLight
   class TubeBloomPrePassLight;
-}
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: Action`1<T>
+  // Forward declaring type: LazyCopyHashSet`1<T>
   template<typename T>
-  class Action_1;
+  class LazyCopyHashSet_1;
+  // Forward declaring type: IBeatEffectDidFinishEvent
+  class IBeatEffectDidFinishEvent;
+  // Forward declaring type: ILazyCopyHashSet`1<T>
+  template<typename T>
+  class ILazyCopyHashSet_1;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -46,56 +48,55 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatEffect::Pool
     class Pool;
-    // [CompilerGeneratedAttribute] Offset: 0xD385B4
-    // private System.Action`1<BeatEffect> didFinishEvent
-    // Size: 0x8
-    // Offset: 0x18
-    System::Action_1<GlobalNamespace::BeatEffect*>* didFinishEvent;
-    // Field size check
-    static_assert(sizeof(System::Action_1<GlobalNamespace::BeatEffect*>*) == 0x8);
     // private UnityEngine.SpriteRenderer _spriteRenderer
     // Size: 0x8
-    // Offset: 0x20
+    // Offset: 0x18
     UnityEngine::SpriteRenderer* spriteRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::SpriteRenderer*) == 0x8);
     // private UnityEngine.Transform _spriteTransform
     // Size: 0x8
-    // Offset: 0x28
+    // Offset: 0x20
     UnityEngine::Transform* spriteTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
     // private TubeBloomPrePassLight _tubeBloomPrePassLight
     // Size: 0x8
-    // Offset: 0x30
+    // Offset: 0x28
     GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TubeBloomPrePassLight*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD385F4
+    // [SpaceAttribute] Offset: 0xD23868
     // private UnityEngine.AnimationCurve _lightIntensityCurve
     // Size: 0x8
-    // Offset: 0x38
+    // Offset: 0x30
     UnityEngine::AnimationCurve* lightIntensityCurve;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
     // private UnityEngine.AnimationCurve _spriteXScaleCurve
     // Size: 0x8
-    // Offset: 0x40
+    // Offset: 0x38
     UnityEngine::AnimationCurve* spriteXScaleCurve;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
     // private UnityEngine.AnimationCurve _spriteYScaleCurve
     // Size: 0x8
-    // Offset: 0x48
+    // Offset: 0x40
     UnityEngine::AnimationCurve* spriteYScaleCurve;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
     // private UnityEngine.AnimationCurve _transparencyCurve
     // Size: 0x8
-    // Offset: 0x50
+    // Offset: 0x48
     UnityEngine::AnimationCurve* transparencyCurve;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    // private readonly LazyCopyHashSet`1<IBeatEffectDidFinishEvent> _didFinishEvent
+    // Size: 0x8
+    // Offset: 0x50
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IBeatEffectDidFinishEvent*>* didFinishEvent;
+    // Field size check
+    static_assert(sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IBeatEffectDidFinishEvent*>*) == 0x8);
     // private System.Single _animationDuration
     // Size: 0x4
     // Offset: 0x58
@@ -115,23 +116,20 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Creating value type constructor for type: BeatEffect
-    BeatEffect(System::Action_1<GlobalNamespace::BeatEffect*>* didFinishEvent_ = {}, UnityEngine::SpriteRenderer* spriteRenderer_ = {}, UnityEngine::Transform* spriteTransform_ = {}, GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight_ = {}, UnityEngine::AnimationCurve* lightIntensityCurve_ = {}, UnityEngine::AnimationCurve* spriteXScaleCurve_ = {}, UnityEngine::AnimationCurve* spriteYScaleCurve_ = {}, UnityEngine::AnimationCurve* transparencyCurve_ = {}, float animationDuration_ = {}, float elapsedTime_ = {}, UnityEngine::Color color_ = {}) noexcept : didFinishEvent{didFinishEvent_}, spriteRenderer{spriteRenderer_}, spriteTransform{spriteTransform_}, tubeBloomPrePassLight{tubeBloomPrePassLight_}, lightIntensityCurve{lightIntensityCurve_}, spriteXScaleCurve{spriteXScaleCurve_}, spriteYScaleCurve{spriteYScaleCurve_}, transparencyCurve{transparencyCurve_}, animationDuration{animationDuration_}, elapsedTime{elapsedTime_}, color{color_} {}
+    BeatEffect(UnityEngine::SpriteRenderer* spriteRenderer_ = {}, UnityEngine::Transform* spriteTransform_ = {}, GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight_ = {}, UnityEngine::AnimationCurve* lightIntensityCurve_ = {}, UnityEngine::AnimationCurve* spriteXScaleCurve_ = {}, UnityEngine::AnimationCurve* spriteYScaleCurve_ = {}, UnityEngine::AnimationCurve* transparencyCurve_ = {}, GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IBeatEffectDidFinishEvent*>* didFinishEvent_ = {}, float animationDuration_ = {}, float elapsedTime_ = {}, UnityEngine::Color color_ = {}) noexcept : spriteRenderer{spriteRenderer_}, spriteTransform{spriteTransform_}, tubeBloomPrePassLight{tubeBloomPrePassLight_}, lightIntensityCurve{lightIntensityCurve_}, spriteXScaleCurve{spriteXScaleCurve_}, spriteYScaleCurve{spriteYScaleCurve_}, transparencyCurve{transparencyCurve_}, didFinishEvent{didFinishEvent_}, animationDuration{animationDuration_}, elapsedTime{elapsedTime_}, color{color_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // public System.Void add_didFinishEvent(System.Action`1<BeatEffect> value)
-    // Offset: 0x10672D8
-    void add_didFinishEvent(System::Action_1<GlobalNamespace::BeatEffect*>* value);
-    // public System.Void remove_didFinishEvent(System.Action`1<BeatEffect> value)
-    // Offset: 0x106737C
-    void remove_didFinishEvent(System::Action_1<GlobalNamespace::BeatEffect*>* value);
+    // public ILazyCopyHashSet`1<IBeatEffectDidFinishEvent> get_didFinishEvent()
+    // Offset: 0x1063B8C
+    GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();
     // public System.Void Init(UnityEngine.Color color, System.Single animationDuration, UnityEngine.Quaternion rotation)
-    // Offset: 0x1067420
+    // Offset: 0x1063B94
     void Init(UnityEngine::Color color, float animationDuration, UnityEngine::Quaternion rotation);
     // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0x1067518
+    // Offset: 0x1063C8C
     void ManualUpdate(float deltaTime);
     // public System.Void .ctor()
-    // Offset: 0x10676E0
+    // Offset: 0x1063F64
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

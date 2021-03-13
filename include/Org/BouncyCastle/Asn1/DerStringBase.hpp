@@ -27,8 +27,11 @@ namespace Org::BouncyCastle::Asn1 {
     operator Org::BouncyCastle::Asn1::IAsn1String() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1String*>(this);
     }
+    // public System.String GetString()
+    // Offset: 0xFFFFFFFF
+    ::Il2CppString* GetString_NEW();
     // protected System.Void .ctor()
-    // Offset: 0x160D68C
+    // Offset: 0x154C8C4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::.ctor()
     // Base method: System.Void Asn1Encodable::.ctor()
@@ -38,20 +41,15 @@ namespace Org::BouncyCastle::Asn1 {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerStringBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerStringBase*, creationType>()));
     }
-    // public System.String GetString()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: Org.BouncyCastle.Asn1.IAsn1String
-    // Base method: System.String IAsn1String::GetString()
-    ::Il2CppString* GetString();
     // public override System.String ToString()
-    // Offset: 0x1612968
+    // Offset: 0x1551A4C
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x1612974
+    // Offset: 0x1551A58
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
-    // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
+    // Base method: System.Int32 Asn1Object::Asn1GetHashCode_NEW()
     int Asn1GetHashCode();
   }; // Org.BouncyCastle.Asn1.DerStringBase
   #pragma pack(pop)

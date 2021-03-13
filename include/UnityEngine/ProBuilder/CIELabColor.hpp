@@ -50,22 +50,22 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: CIELabColor
     CIELabColor(float L_ = {}, float a_ = {}, float b_ = {}) noexcept : L{L_}, a{a_}, b{b_} {}
     // public System.Void .ctor(System.Single L, System.Single a, System.Single b)
-    // Offset: 0x1DC6CF0
+    // Offset: 0x1D863C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CIELabColor* New_ctor(float L, float a, float b) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::CIELabColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CIELabColor*, creationType>(L, a, b)));
     }
     // static public UnityEngine.ProBuilder.CIELabColor FromXYZ(UnityEngine.ProBuilder.XYZColor xyz)
-    // Offset: 0x1DC6D38
+    // Offset: 0x1D8640C
     static UnityEngine::ProBuilder::CIELabColor* FromXYZ(UnityEngine::ProBuilder::XYZColor* xyz);
     // static public UnityEngine.ProBuilder.CIELabColor FromRGB(UnityEngine.Color col)
-    // Offset: 0x1DC6F90
+    // Offset: 0x1D86664
     static UnityEngine::ProBuilder::CIELabColor* FromRGB(UnityEngine::Color col);
     // public override System.String ToString()
-    // Offset: 0x1DC7030
+    // Offset: 0x1D86704
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.CIELabColor
   #pragma pack(pop)

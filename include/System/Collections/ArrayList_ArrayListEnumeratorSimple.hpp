@@ -68,47 +68,27 @@ namespace System::Collections {
     // Set static field: static private System.Object dummyObject
     static void _set_dummyObject(::Il2CppObject* value);
     // System.Void .ctor(System.Collections.ArrayList list)
-    // Offset: 0x168B46C
+    // Offset: 0x1628C8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayList::ArrayListEnumeratorSimple* New_ctor(System::Collections::ArrayList* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ArrayList::ArrayListEnumeratorSimple::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayList::ArrayListEnumeratorSimple*, creationType>(list)));
     }
-    // static private System.Void .cctor()
-    // Offset: 0x168C530
-    static void _cctor();
     // public System.Object Clone()
-    // Offset: 0x168C14C
-    // Implemented from: System.ICloneable
-    // Base method: System.Object ICloneable::Clone()
-    ::Il2CppObject* Clone();
-    // Creating proxy method: System_ICloneable_Clone
-    // Maps to method: Clone
-    ::Il2CppObject* System_ICloneable_Clone();
+    // Offset: 0x1629938
+    ::Il2CppObject* Clone_NEW();
     // public System.Boolean MoveNext()
-    // Offset: 0x168C154
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Boolean IEnumerator::MoveNext()
-    bool MoveNext();
-    // Creating proxy method: System_Collections_IEnumerator_MoveNext
-    // Maps to method: MoveNext
-    bool System_Collections_IEnumerator_MoveNext();
+    // Offset: 0x1629940
+    bool MoveNext_NEW();
     // public System.Object get_Current()
-    // Offset: 0x168C358
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Object IEnumerator::get_Current()
-    ::Il2CppObject* get_Current();
-    // Creating proxy method: System_Collections_IEnumerator_get_Current
-    // Maps to method: get_Current
-    ::Il2CppObject* System_Collections_IEnumerator_get_Current();
+    // Offset: 0x1629B38
+    ::Il2CppObject* get_Current_NEW();
     // public System.Void Reset()
-    // Offset: 0x168C444
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Void IEnumerator::Reset()
-    void Reset();
-    // Creating proxy method: System_Collections_IEnumerator_Reset
-    // Maps to method: Reset
-    void System_Collections_IEnumerator_Reset();
+    // Offset: 0x1629C24
+    void Reset_NEW();
+    // static private System.Void .cctor()
+    // Offset: 0x1629D08
+    static void _cctor();
   }; // System.Collections.ArrayList/ArrayListEnumeratorSimple
   #pragma pack(pop)
   static check_size<sizeof(ArrayList::ArrayListEnumeratorSimple), 40 + sizeof(bool)> __System_Collections_ArrayList_ArrayListEnumeratorSimpleSizeCheck;

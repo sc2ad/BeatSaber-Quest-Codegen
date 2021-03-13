@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AchievementsData
     AchievementsData(::Array<::Il2CppString*>* unlockedAchievements_ = {}, ::Array<::Il2CppString*>* unlockedAchievementsToUpload_ = {}) noexcept : unlockedAchievements{unlockedAchievements_}, unlockedAchievementsToUpload{unlockedAchievementsToUpload_} {}
     // public System.Void .ctor()
-    // Offset: 0xFBAFAC
+    // Offset: 0xF67084
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

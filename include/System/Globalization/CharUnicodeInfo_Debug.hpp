@@ -18,7 +18,7 @@ namespace System::Globalization {
     // Creating value type constructor for type: Debug
     Debug() noexcept {}
     // static System.Void Assert(System.Boolean condition, System.String message)
-    // Offset: 0x12B5BE4
+    // Offset: 0x16526E8
     static void Assert_(bool condition, ::Il2CppString* message);
   }; // System.Globalization.CharUnicodeInfo/Debug
   #pragma pack(pop)

@@ -34,14 +34,14 @@ namespace System::Net::Http::Headers {
   // [] Offset: FFFFFFFF
   class ProductInfoHeaderValue : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD0CD28
+    // [CompilerGeneratedAttribute] Offset: 0xCF7830
     // private System.String <Comment>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* Comment;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0CD38
+    // [CompilerGeneratedAttribute] Offset: 0xCF7840
     // private System.Net.Http.Headers.ProductHeaderValue <Product>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -55,32 +55,35 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // public System.Void .ctor(System.Net.Http.Headers.ProductHeaderValue product)
-    // Offset: 0x140F320
+    // Offset: 0x13DFF84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProductInfoHeaderValue* New_ctor(System::Net::Http::Headers::ProductHeaderValue* product) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::ProductInfoHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProductInfoHeaderValue*, creationType>(product)));
     }
     // public System.String get_Comment()
-    // Offset: 0x140F3C0
+    // Offset: 0x13E001C
     ::Il2CppString* get_Comment();
     // private System.Void set_Comment(System.String value)
-    // Offset: 0x140F3C8
+    // Offset: 0x13E0024
     void set_Comment(::Il2CppString* value);
     // public System.Net.Http.Headers.ProductHeaderValue get_Product()
-    // Offset: 0x140F3D0
+    // Offset: 0x13E002C
     System::Net::Http::Headers::ProductHeaderValue* get_Product();
     // private System.Void set_Product(System.Net.Http.Headers.ProductHeaderValue value)
-    // Offset: 0x140F3D8
+    // Offset: 0x13E0034
     void set_Product(System::Net::Http::Headers::ProductHeaderValue* value);
+    // private System.Object System.ICloneable.Clone()
+    // Offset: 0x13E003C
+    ::Il2CppObject* System_ICloneable_Clone_NEW();
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.ProductInfoHeaderValue> result)
-    // Offset: 0x140F4EC
+    // Offset: 0x13E0148
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<System::Net::Http::Headers::ProductInfoHeaderValue*>*& result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.ProductInfoHeaderValue parsedValue)
-    // Offset: 0x140F650
+    // Offset: 0x13E0288
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, System::Net::Http::Headers::ProductInfoHeaderValue*& parsedValue);
     // private System.Void .ctor()
-    // Offset: 0x140F3B8
+    // Offset: 0x13E0014
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -88,25 +91,20 @@ namespace System::Net::Http::Headers {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::ProductInfoHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProductInfoHeaderValue*, creationType>()));
     }
-    // private System.Object System.ICloneable.Clone()
-    // Offset: 0x140F3E0
-    // Implemented from: System.ICloneable
-    // Base method: System.Object ICloneable::Clone()
-    ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x140F3E8
+    // Offset: 0x13E0044
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object obj)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x140F4C0
+    // Offset: 0x13E011C
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x140F894
+    // Offset: 0x13E0488
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.ProductInfoHeaderValue
   #pragma pack(pop)

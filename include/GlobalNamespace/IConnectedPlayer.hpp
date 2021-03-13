@@ -28,40 +28,40 @@ namespace GlobalNamespace {
     IConnectedPlayer() noexcept {}
     // public System.Boolean get_isMe()
     // Offset: 0xFFFFFFFF
-    bool get_isMe();
+    bool get_isMe_NEW();
     // public System.String get_userId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_userId();
+    ::Il2CppString* get_userId_NEW();
     // public System.String get_userName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_userName();
+    ::Il2CppString* get_userName_NEW();
     // public System.Single get_currentLatency()
     // Offset: 0xFFFFFFFF
-    float get_currentLatency();
+    float get_currentLatency_NEW();
     // public System.Boolean get_isConnected()
     // Offset: 0xFFFFFFFF
-    bool get_isConnected();
+    bool get_isConnected_NEW();
     // public DisconnectedReason get_disconnectedReason()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::DisconnectedReason get_disconnectedReason();
+    GlobalNamespace::DisconnectedReason get_disconnectedReason_NEW();
     // public System.Boolean get_isConnectionOwner()
     // Offset: 0xFFFFFFFF
-    bool get_isConnectionOwner();
+    bool get_isConnectionOwner_NEW();
     // public System.Single get_offsetSyncTime()
     // Offset: 0xFFFFFFFF
-    float get_offsetSyncTime();
+    float get_offsetSyncTime_NEW();
     // public System.Int32 get_sortIndex()
     // Offset: 0xFFFFFFFF
-    int get_sortIndex();
+    int get_sortIndex_NEW();
     // public System.Boolean get_isKicked()
     // Offset: 0xFFFFFFFF
-    bool get_isKicked();
+    bool get_isKicked_NEW();
     // public MultiplayerAvatarData get_multiplayerAvatarData()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData();
+    GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData_NEW();
     // public System.Boolean HasState(System.String state)
     // Offset: 0xFFFFFFFF
-    bool HasState(::Il2CppString* state);
+    bool HasState_NEW(::Il2CppString* state);
   }; // IConnectedPlayer
   #pragma pack(pop)
 }

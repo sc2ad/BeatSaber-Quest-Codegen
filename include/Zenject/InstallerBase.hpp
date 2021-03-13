@@ -26,7 +26,7 @@ namespace Zenject {
   // [] Offset: FFFFFFFF
   class InstallerBase : public ::Il2CppObject/*, public Zenject::IInstaller*/ {
     public:
-    // [InjectAttribute] Offset: 0xD066CC
+    // [InjectAttribute] Offset: 0xCF1030
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x10
@@ -44,23 +44,16 @@ namespace Zenject {
       return container;
     }
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x14F1154
+    // Offset: 0x147B254
     Zenject::DiContainer* get_Container();
     // public System.Boolean get_IsEnabled()
-    // Offset: 0x14F115C
-    // Implemented from: Zenject.IInstaller
-    // Base method: System.Boolean IInstaller::get_IsEnabled()
-    bool get_IsEnabled();
-    // Creating proxy method: Zenject_IInstaller_get_IsEnabled
-    // Maps to method: get_IsEnabled
-    bool Zenject_IInstaller_get_IsEnabled();
+    // Offset: 0x147B25C
+    bool get_IsEnabled_NEW();
     // public System.Void InstallBindings()
     // Offset: 0xFFFFFFFF
-    // Implemented from: Zenject.IInstaller
-    // Base method: System.Void IInstaller::InstallBindings()
-    void InstallBindings();
+    void InstallBindings_NEW();
     // protected System.Void .ctor()
-    // Offset: 0x14F114C
+    // Offset: 0x147B24C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

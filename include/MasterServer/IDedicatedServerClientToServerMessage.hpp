@@ -26,10 +26,10 @@ namespace MasterServer {
     }
     // public System.String get_dedicatedServerId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_dedicatedServerId();
+    ::Il2CppString* get_dedicatedServerId_NEW();
     // public System.Int64 get_dedicatedServerCreationTime()
     // Offset: 0xFFFFFFFF
-    int64_t get_dedicatedServerCreationTime();
+    int64_t get_dedicatedServerCreationTime_NEW();
   }; // MasterServer.IDedicatedServerClientToServerMessage
   #pragma pack(pop)
 }

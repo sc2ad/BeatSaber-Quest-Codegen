@@ -23,16 +23,16 @@ namespace GlobalNamespace {
     ILevelEndActions() noexcept {}
     // public System.Void add_levelFailedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_levelFailedEvent(System::Action* value);
+    void add_levelFailedEvent_NEW(System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_levelFailedEvent(System::Action* value);
+    void remove_levelFailedEvent_NEW(System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_levelFinishedEvent(System::Action* value);
+    void add_levelFinishedEvent_NEW(System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_levelFinishedEvent(System::Action* value);
+    void remove_levelFinishedEvent_NEW(System::Action* value);
   }; // ILevelEndActions
   #pragma pack(pop)
 }

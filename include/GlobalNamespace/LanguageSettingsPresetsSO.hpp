@@ -39,15 +39,15 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public LanguageSettingsPresetsSO/Preset[] get_presets()
-    // Offset: 0xFD4000
+    // Offset: 0xFF6588
     ::Array<GlobalNamespace::LanguageSettingsPresetsSO::Preset*>* get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0xFD4008
+    // Offset: 0xFF6590
     // Implemented from: NamedPresetsSO
-    // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
+    // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets_NEW()
     ::Array<GlobalNamespace::NamedPreset*>* get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0xFD4010
+    // Offset: 0xFF6598
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

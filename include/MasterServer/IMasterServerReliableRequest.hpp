@@ -22,10 +22,10 @@ namespace MasterServer {
     }
     // public System.UInt32 get_requestId()
     // Offset: 0xFFFFFFFF
-    uint get_requestId();
+    uint get_requestId_NEW();
     // public MasterServer.IMasterServerReliableRequest WithRequestId(System.UInt32 requestId)
     // Offset: 0xFFFFFFFF
-    MasterServer::IMasterServerReliableRequest* MasterServer_IMasterServerReliableRequest_WithRequestId(uint requestId);
+    MasterServer::IMasterServerReliableRequest* WithRequestId_NEW(uint requestId);
   }; // MasterServer.IMasterServerReliableRequest
   #pragma pack(pop)
 }

@@ -16,7 +16,7 @@ namespace UnityEngine::Timeline {
     ITimelineEvaluateCallback() noexcept {}
     // public System.Void Evaluate()
     // Offset: 0xFFFFFFFF
-    void Evaluate();
+    void Evaluate_NEW();
   }; // UnityEngine.Timeline.ITimelineEvaluateCallback
   #pragma pack(pop)
 }

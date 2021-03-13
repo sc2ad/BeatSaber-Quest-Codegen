@@ -22,12 +22,12 @@ namespace System::Net::Http::Headers {
   // [] Offset: FFFFFFFF
   class RetryConditionHeaderValue : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD0CD88
+    // [CompilerGeneratedAttribute] Offset: 0xCF7890
     // private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x10
     System::Nullable_1<System::DateTimeOffset> Date;
-    // [CompilerGeneratedAttribute] Offset: 0xD0CD98
+    // [CompilerGeneratedAttribute] Offset: 0xCF78A0
     // private System.Nullable`1<System.TimeSpan> <Delta>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x28
@@ -39,53 +39,51 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // public System.Void .ctor(System.DateTimeOffset date)
-    // Offset: 0x1410E58
+    // Offset: 0x13E19D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RetryConditionHeaderValue* New_ctor(System::DateTimeOffset date) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::RetryConditionHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RetryConditionHeaderValue*, creationType>(date)));
     }
     // public System.Void .ctor(System.TimeSpan delta)
-    // Offset: 0x1410EF0
+    // Offset: 0x13E1A68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RetryConditionHeaderValue* New_ctor(System::TimeSpan delta) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::RetryConditionHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RetryConditionHeaderValue*, creationType>(delta)));
     }
     // public System.Nullable`1<System.DateTimeOffset> get_Date()
-    // Offset: 0x1410FC4
+    // Offset: 0x13E1B3C
     System::Nullable_1<System::DateTimeOffset> get_Date();
     // private System.Void set_Date(System.Nullable`1<System.DateTimeOffset> value)
-    // Offset: 0x1410FD8
+    // Offset: 0x13E1B50
     void set_Date(System::Nullable_1<System::DateTimeOffset> value);
     // public System.Nullable`1<System.TimeSpan> get_Delta()
-    // Offset: 0x1410FEC
+    // Offset: 0x13E1B64
     System::Nullable_1<System::TimeSpan> get_Delta();
     // private System.Void set_Delta(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x1410FF8
+    // Offset: 0x13E1B70
     void set_Delta(System::Nullable_1<System::TimeSpan> value);
-    // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.RetryConditionHeaderValue parsedValue)
-    // Offset: 0x141120C
-    static bool TryParse(::Il2CppString* input, System::Net::Http::Headers::RetryConditionHeaderValue*& parsedValue);
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1411000
-    // Implemented from: System.ICloneable
-    // Base method: System.Object ICloneable::Clone()
-    ::Il2CppObject* System_ICloneable_Clone();
+    // Offset: 0x13E1B78
+    ::Il2CppObject* System_ICloneable_Clone_NEW();
+    // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.RetryConditionHeaderValue parsedValue)
+    // Offset: 0x13E1D84
+    static bool TryParse(::Il2CppString* input, System::Net::Http::Headers::RetryConditionHeaderValue*& parsedValue);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1411008
+    // Offset: 0x13E1B80
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object obj)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x141117C
+    // Offset: 0x13E1CF4
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x14113F8
+    // Offset: 0x13E1F44
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.RetryConditionHeaderValue
   // WARNING Not writing size check since size may be invalid!

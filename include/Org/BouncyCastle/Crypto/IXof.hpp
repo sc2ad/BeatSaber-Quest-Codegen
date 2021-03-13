@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Crypto {
     }
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff, System.Int32 outLen)
     // Offset: 0xFFFFFFFF
-    int DoFinal(::Array<uint8_t>* output, int outOff, int outLen);
+    int DoFinal_NEW(::Array<uint8_t>* output, int outOff, int outLen);
   }; // Org.BouncyCastle.Crypto.IXof
   #pragma pack(pop)
 }

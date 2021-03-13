@@ -39,10 +39,10 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class HMMainThreadDispatcher : public GlobalNamespace::PersistentSingleton_1<GlobalNamespace::HMMainThreadDispatcher*> {
     public:
-    // Nested type: GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass3_0
-    class $$c__DisplayClass3_0;
-    // Nested type: GlobalNamespace::HMMainThreadDispatcher::$ActionCoroutine$d__5
-    class $ActionCoroutine$d__5;
+    // Nested type: GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0
+    class $$c__DisplayClass2_0;
+    // Nested type: GlobalNamespace::HMMainThreadDispatcher::$ActionCoroutine$d__4
+    class $ActionCoroutine$d__4;
     // Creating value type constructor for type: HMMainThreadDispatcher
     HMMainThreadDispatcher() noexcept {}
     // Get static field: static private System.Collections.Generic.Queue`1<System.Action> _mainThreadExecutionQueue
@@ -50,24 +50,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Queue`1<System.Action> _mainThreadExecutionQueue
     static void _set__mainThreadExecutionQueue(System::Collections::Generic::Queue_1<System::Action*>* value);
     // protected System.Void Update()
-    // Offset: 0x110F034
+    // Offset: 0x1124A24
     void Update();
     // public System.Void Enqueue(System.Collections.IEnumerator action)
-    // Offset: 0x110F1AC
+    // Offset: 0x1124B8C
     void Enqueue(System::Collections::IEnumerator* action);
     // public System.Void Enqueue(System.Action action)
-    // Offset: 0x110F358
+    // Offset: 0x1124D0C
     void Enqueue(System::Action* action);
     // private System.Collections.IEnumerator ActionCoroutine(System.Action action)
-    // Offset: 0x110F380
+    // Offset: 0x1124D34
     System::Collections::IEnumerator* ActionCoroutine(System::Action* action);
-    // static protected System.Void NoDomainReloadInit()
-    // Offset: 0x110EF74
-    // Implemented from: PersistentSingleton`1
-    // Base method: System.Void PersistentSingleton_1::NoDomainReloadInit()
-    static void NoDomainReloadInit();
     // public System.Void .ctor()
-    // Offset: 0x110F428
+    // Offset: 0x1124DD0
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -81,7 +76,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HMMainThreadDispatcher*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x110F498
+    // Offset: 0x1124E40
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.cctor()
     // Base method: System.Void Object::.cctor()

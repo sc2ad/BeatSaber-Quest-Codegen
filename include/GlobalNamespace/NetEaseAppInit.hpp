@@ -51,27 +51,27 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NetEaseAppInit
     NetEaseAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO* netEaseLoginSceneTransitionSetupData_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}) noexcept : mainSystemInit{mainSystemInit_}, netEaseLoginSceneTransitionSetupData{netEaseLoginSceneTransitionSetupData_}, mainSettingsModel{mainSettingsModel_} {}
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xF856A8
+    // Offset: 0xF20C60
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
+    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup_NEW()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0xF85714
+    // Offset: 0xF20CCC
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::RepeatableSetup()
+    // Base method: System.Void AppInit::RepeatableSetup_NEW()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0xF85760
+    // Offset: 0xF20D18
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::TransitionToNextScene()
+    // Base method: System.Void AppInit::TransitionToNextScene_NEW()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0xF857AC
+    // Offset: 0xF20D64
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF85838
+    // Offset: 0xF20DF0
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()

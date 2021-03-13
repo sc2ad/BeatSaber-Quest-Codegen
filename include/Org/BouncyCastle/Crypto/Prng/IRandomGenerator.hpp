@@ -21,7 +21,7 @@ namespace Org::BouncyCastle::Crypto::Prng {
     IRandomGenerator() noexcept {}
     // public System.Void NextBytes(System.Byte[] bytes)
     // Offset: 0xFFFFFFFF
-    void NextBytes(::Array<uint8_t>* bytes);
+    void NextBytes_NEW(::Array<uint8_t>* bytes);
   }; // Org.BouncyCastle.Crypto.Prng.IRandomGenerator
   #pragma pack(pop)
 }

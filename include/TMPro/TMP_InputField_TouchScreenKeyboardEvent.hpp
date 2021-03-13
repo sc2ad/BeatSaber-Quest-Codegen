@@ -25,7 +25,7 @@ namespace TMPro {
     // Creating value type constructor for type: TouchScreenKeyboardEvent
     TouchScreenKeyboardEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0xFF221C
+    // Offset: 0xFB05C8
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

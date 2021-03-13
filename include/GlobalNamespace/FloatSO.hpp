@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FloatSO
     FloatSO() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x110A8C4
+    // Offset: 0x11205F8
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

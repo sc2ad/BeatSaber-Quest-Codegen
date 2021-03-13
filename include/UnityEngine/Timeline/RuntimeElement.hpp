@@ -26,7 +26,7 @@ namespace UnityEngine::Timeline {
   // [] Offset: FFFFFFFF
   class RuntimeElement : public ::Il2CppObject/*, public UnityEngine::Timeline::IInterval*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xCFFE9C
+    // [CompilerGeneratedAttribute] Offset: 0xCEA7B4
     // private System.Int32 <intervalBit>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -43,33 +43,29 @@ namespace UnityEngine::Timeline {
     constexpr operator int() const noexcept {
       return intervalBit;
     }
+    // public System.Int64 get_intervalStart()
+    // Offset: 0xFFFFFFFF
+    int64_t get_intervalStart_NEW();
+    // public System.Int64 get_intervalEnd()
+    // Offset: 0xFFFFFFFF
+    int64_t get_intervalEnd_NEW();
     // public System.Int32 get_intervalBit()
-    // Offset: 0x17359F4
+    // Offset: 0x1670B10
     int get_intervalBit();
     // public System.Void set_intervalBit(System.Int32 value)
-    // Offset: 0x17359FC
+    // Offset: 0x1670B18
     void set_intervalBit(int value);
     // public System.Void set_enable(System.Boolean value)
     // Offset: 0xFFFFFFFF
-    void set_enable(bool value);
+    void set_enable_NEW(bool value);
     // public System.Void EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     // Offset: 0xFFFFFFFF
-    void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
+    void EvaluateAt_NEW(double localTime, UnityEngine::Playables::FrameData frameData);
     // public System.Void Reset()
-    // Offset: 0x1735A04
-    void Reset();
-    // public System.Int64 get_intervalStart()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: UnityEngine.Timeline.IInterval
-    // Base method: System.Int64 IInterval::get_intervalStart()
-    int64_t get_intervalStart();
-    // public System.Int64 get_intervalEnd()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: UnityEngine.Timeline.IInterval
-    // Base method: System.Int64 IInterval::get_intervalEnd()
-    int64_t get_intervalEnd();
+    // Offset: 0x1670B20
+    void Reset_NEW();
     // protected System.Void .ctor()
-    // Offset: 0x1732924
+    // Offset: 0x166DB20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

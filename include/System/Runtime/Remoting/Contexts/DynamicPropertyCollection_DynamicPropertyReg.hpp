@@ -43,7 +43,7 @@ namespace System::Runtime::Remoting::Contexts {
     // Creating value type constructor for type: DynamicPropertyReg
     DynamicPropertyReg(System::Runtime::Remoting::Contexts::IDynamicProperty* Property_ = {}, System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink_ = {}) noexcept : Property{Property_}, Sink{Sink_} {}
     // public System.Void .ctor()
-    // Offset: 0x131B728
+    // Offset: 0x18A3834
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

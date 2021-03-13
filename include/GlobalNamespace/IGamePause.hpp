@@ -23,31 +23,31 @@ namespace GlobalNamespace {
     IGamePause() noexcept {}
     // public System.Void add_didPauseEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_didPauseEvent(System::Action* value);
+    void add_didPauseEvent_NEW(System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_didPauseEvent(System::Action* value);
+    void remove_didPauseEvent_NEW(System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_willResumeEvent(System::Action* value);
+    void add_willResumeEvent_NEW(System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_willResumeEvent(System::Action* value);
+    void remove_willResumeEvent_NEW(System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_didResumeEvent(System::Action* value);
+    void add_didResumeEvent_NEW(System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_didResumeEvent(System::Action* value);
+    void remove_didResumeEvent_NEW(System::Action* value);
     // public System.Void Pause()
     // Offset: 0xFFFFFFFF
-    void Pause();
+    void Pause_NEW();
     // public System.Void WillResume()
     // Offset: 0xFFFFFFFF
-    void WillResume();
+    void WillResume_NEW();
     // public System.Void Resume()
     // Offset: 0xFFFFFFFF
-    void Resume();
+    void Resume_NEW();
   }; // IGamePause
   #pragma pack(pop)
 }

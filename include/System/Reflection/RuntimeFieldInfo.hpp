@@ -51,32 +51,27 @@ namespace System::Reflection {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // System.Reflection.BindingFlags get_BindingFlags()
-    // Offset: 0x1950AD8
+    // Offset: 0x12F5380
     System::Reflection::BindingFlags get_BindingFlags();
     // System.RuntimeType GetDeclaringTypeInternal()
-    // Offset: 0x1950B04
+    // Offset: 0x12F53AC
     System::RuntimeType* GetDeclaringTypeInternal();
     // private System.RuntimeType get_ReflectedTypeInternal()
-    // Offset: 0x1950B90
+    // Offset: 0x12F5438
     System::RuntimeType* get_ReflectedTypeInternal();
     // System.Reflection.RuntimeModule GetRuntimeModule()
-    // Offset: 0x1950AE4
+    // Offset: 0x12F538C
     System::Reflection::RuntimeModule* GetRuntimeModule();
-    // public override System.Reflection.Module get_Module()
-    // Offset: 0x1950AE0
-    // Implemented from: System.Reflection.MemberInfo
-    // Base method: System.Reflection.Module MemberInfo::get_Module()
-    System::Reflection::Module* get_Module();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1950C1C
-    // Implemented from: System.Runtime.Serialization.ISerializable
-    // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
-    // Creating proxy method: System_Runtime_Serialization_ISerializable_GetObjectData
-    // Maps to method: GetObjectData
-    void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    // Offset: 0x12F54C4
+    void GetObjectData_NEW(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    // public override System.Reflection.Module get_Module()
+    // Offset: 0x12F5388
+    // Implemented from: System.Reflection.MemberInfo
+    // Base method: System.Reflection.Module MemberInfo::get_Module_NEW()
+    System::Reflection::Module* get_Module();
     // protected System.Void .ctor()
-    // Offset: 0x19503D4
+    // Offset: 0x12F5598
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Void FieldInfo::.ctor()
     // Base method: System.Void MemberInfo::.ctor()

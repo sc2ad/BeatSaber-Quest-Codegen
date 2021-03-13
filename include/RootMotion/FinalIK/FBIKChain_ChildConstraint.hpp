@@ -55,14 +55,14 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* bone2;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2ACE8
+    // [CompilerGeneratedAttribute] Offset: 0xD15C4C
     // private System.Single <nominalDistance>k__BackingField
     // Size: 0x4
     // Offset: 0x28
     float nominalDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD2ACF8
+    // [CompilerGeneratedAttribute] Offset: 0xD15C5C
     // private System.Boolean <isRigid>k__BackingField
     // Size: 0x1
     // Offset: 0x2C
@@ -98,32 +98,32 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: ChildConstraint
     ChildConstraint(float pushElasticity_ = {}, float pullElasticity_ = {}, UnityEngine::Transform* bone1_ = {}, UnityEngine::Transform* bone2_ = {}, float nominalDistance_ = {}, bool isRigid_ = {}, float crossFade_ = {}, float inverseCrossFade_ = {}, int chain1Index_ = {}, int chain2Index_ = {}) noexcept : pushElasticity{pushElasticity_}, pullElasticity{pullElasticity_}, bone1{bone1_}, bone2{bone2_}, nominalDistance{nominalDistance_}, isRigid{isRigid_}, crossFade{crossFade_}, inverseCrossFade{inverseCrossFade_}, chain1Index{chain1Index_}, chain2Index{chain2Index_} {}
     // public System.Single get_nominalDistance()
-    // Offset: 0x1B5A8A8
+    // Offset: 0x1AB6EAC
     float get_nominalDistance();
     // private System.Void set_nominalDistance(System.Single value)
-    // Offset: 0x1B5A8B0
+    // Offset: 0x1AB6EB4
     void set_nominalDistance(float value);
     // public System.Boolean get_isRigid()
-    // Offset: 0x1B5A8B8
+    // Offset: 0x1AB6EBC
     bool get_isRigid();
     // private System.Void set_isRigid(System.Boolean value)
-    // Offset: 0x1B5A8C0
+    // Offset: 0x1AB6EC4
     void set_isRigid(bool value);
     // public System.Void .ctor(UnityEngine.Transform bone1, UnityEngine.Transform bone2, System.Single pushElasticity, System.Single pullElasticity)
-    // Offset: 0x1B5A8CC
+    // Offset: 0x1AB6ED0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBIKChain::ChildConstraint* New_ctor(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, float pushElasticity, float pullElasticity) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::FBIKChain::ChildConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBIKChain::ChildConstraint*, creationType>(bone1, bone2, pushElasticity, pullElasticity)));
     }
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1B5862C
+    // Offset: 0x1AB4C30
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void OnPreSolve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1B58B6C
+    // Offset: 0x1AB5170
     void OnPreSolve(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Solve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1B5A5A4
+    // Offset: 0x1AB6BA8
     void Solve(RootMotion::FinalIK::IKSolverFullBody* solver);
   }; // RootMotion.FinalIK.FBIKChain/ChildConstraint
   #pragma pack(pop)

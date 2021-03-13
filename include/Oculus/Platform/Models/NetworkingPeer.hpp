@@ -19,14 +19,14 @@ namespace Oculus::Platform::Models {
   // [] Offset: FFFFFFFF
   class NetworkingPeer : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD21F60
+    // [CompilerGeneratedAttribute] Offset: 0xD0C388
     // private System.UInt64 <ID>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     uint64_t ID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD21F70
+    // [CompilerGeneratedAttribute] Offset: 0xD0C398
     // private Oculus.Platform.PeerConnectionState <State>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -36,23 +36,23 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: NetworkingPeer
     NetworkingPeer(uint64_t ID_ = {}, Oculus::Platform::PeerConnectionState State_ = {}) noexcept : ID{ID_}, State{State_} {}
     // public System.Void .ctor(System.UInt64 id, Oculus.Platform.PeerConnectionState state)
-    // Offset: 0x13EE330
+    // Offset: 0x1388F44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkingPeer* New_ctor(uint64_t id, Oculus::Platform::PeerConnectionState state) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::NetworkingPeer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkingPeer*, creationType>(id, state)));
     }
     // public System.UInt64 get_ID()
-    // Offset: 0x13F26CC
+    // Offset: 0x138D1F8
     uint64_t get_ID();
     // private System.Void set_ID(System.UInt64 value)
-    // Offset: 0x13F26D4
+    // Offset: 0x138D200
     void set_ID(uint64_t value);
     // public Oculus.Platform.PeerConnectionState get_State()
-    // Offset: 0x13F26DC
+    // Offset: 0x138D208
     Oculus::Platform::PeerConnectionState get_State();
     // private System.Void set_State(Oculus.Platform.PeerConnectionState value)
-    // Offset: 0x13F26E4
+    // Offset: 0x138D210
     void set_State(Oculus::Platform::PeerConnectionState value);
   }; // Oculus.Platform.Models.NetworkingPeer
   #pragma pack(pop)

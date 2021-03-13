@@ -32,7 +32,7 @@ namespace Mono::Globalization::Unicode {
     // Creating value type constructor for type: Level2Map
     Level2Map(uint8_t Source_ = {}, uint8_t Replace_ = {}) noexcept : Source{Source_}, Replace{Replace_} {}
     // public System.Void .ctor(System.Byte source, System.Byte replace)
-    // Offset: 0x1886768
+    // Offset: 0x18C5E64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Level2Map* New_ctor(uint8_t source, uint8_t replace) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::Level2Map::.ctor");

@@ -37,8 +37,11 @@ namespace System::Net {
     operator System::Net::IWebRequestCreate() noexcept {
       return *reinterpret_cast<System::Net::IWebRequestCreate*>(this);
     }
+    // public System.Net.WebRequest Create(System.Uri uri)
+    // Offset: 0x14D49E4
+    System::Net::WebRequest* Create_NEW(System::Uri* uri);
     // System.Void .ctor()
-    // Offset: 0x156C86C
+    // Offset: 0x14D49DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -46,11 +49,6 @@ namespace System::Net {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FileWebRequestCreator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileWebRequestCreator*, creationType>()));
     }
-    // public System.Net.WebRequest Create(System.Uri uri)
-    // Offset: 0x156C874
-    // Implemented from: System.Net.IWebRequestCreate
-    // Base method: System.Net.WebRequest IWebRequestCreate::Create(System.Uri uri)
-    System::Net::WebRequest* Create(System::Uri* uri);
   }; // System.Net.FileWebRequestCreator
   #pragma pack(pop)
 }

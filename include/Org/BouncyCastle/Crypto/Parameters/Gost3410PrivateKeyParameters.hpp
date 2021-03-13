@@ -40,14 +40,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Creating value type constructor for type: Gost3410PrivateKeyParameters
     Gost3410PrivateKeyParameters(Org::BouncyCastle::Math::BigInteger* x_ = {}) noexcept : x{x_} {}
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
-    // Offset: 0x1183628
+    // Offset: 0x1163264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410PrivateKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* x, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::Gost3410PrivateKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410PrivateKeyParameters*, creationType>(x, publicKeyParamSet)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_X()
-    // Offset: 0x1183718
+    // Offset: 0x1163358
     Org::BouncyCastle::Math::BigInteger* get_X();
   }; // Org.BouncyCastle.Crypto.Parameters.Gost3410PrivateKeyParameters
   #pragma pack(pop)

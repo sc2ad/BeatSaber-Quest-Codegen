@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithInstalledApplicationList
     MessageWithInstalledApplicationList() noexcept {}
     // protected Oculus.Platform.Models.InstalledApplicationList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x13EB344
+    // Offset: 0x1385DC4
     Oculus::Platform::Models::InstalledApplicationList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x13EB2A0
+    // Offset: 0x1385D20
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,9 +41,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithInstalledApplicationList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.InstalledApplicationList GetInstalledApplicationList()
-    // Offset: 0x13EB300
+    // Offset: 0x1385D80
     // Implemented from: Oculus.Platform.Message
-    // Base method: Oculus.Platform.Models.InstalledApplicationList Message::GetInstalledApplicationList()
+    // Base method: Oculus.Platform.Models.InstalledApplicationList Message::GetInstalledApplicationList_NEW()
     Oculus::Platform::Models::InstalledApplicationList* GetInstalledApplicationList();
   }; // Oculus.Platform.MessageWithInstalledApplicationList
 }

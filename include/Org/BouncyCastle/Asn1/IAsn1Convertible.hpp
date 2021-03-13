@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Asn1 {
     IAsn1Convertible() noexcept {}
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+    Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object_NEW();
   }; // Org.BouncyCastle.Asn1.IAsn1Convertible
   #pragma pack(pop)
 }

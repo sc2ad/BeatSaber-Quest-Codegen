@@ -117,49 +117,49 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD39D4C
+    // [InjectAttribute] Offset: 0xD25444
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD39D5C
+    // [InjectAttribute] Offset: 0xD25454
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD39D6C
+    // [InjectAttribute] Offset: 0xD25464
     // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0xD39D7C
+    // [InjectAttribute] Offset: 0xD25474
     // private readonly PauseController _pauseController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::PauseController* pauseController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PauseController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD39D8C
+    // [InjectAttribute] Offset: 0xD25484
     // private readonly MissionLevelGameplayManager/InitData _initData
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::MissionLevelGameplayManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionLevelGameplayManager::InitData*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD39D9C
+    // [CompilerGeneratedAttribute] Offset: 0xD25494
     // private System.Action levelFailedEvent
     // Size: 0x8
     // Offset: 0x48
     System::Action* levelFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD39DAC
+    // [CompilerGeneratedAttribute] Offset: 0xD254A4
     // private System.Action levelFinishedEvent
     // Size: 0x8
     // Offset: 0x50
@@ -180,55 +180,47 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // public System.Void add_levelFailedEvent(System.Action value)
+    // Offset: 0x1025EF4
+    void add_levelFailedEvent_NEW(System::Action* value);
+    // public System.Void remove_levelFailedEvent(System.Action value)
+    // Offset: 0x1025F98
+    void remove_levelFailedEvent_NEW(System::Action* value);
+    // public System.Void add_levelFinishedEvent(System.Action value)
+    // Offset: 0x102603C
+    void add_levelFinishedEvent_NEW(System::Action* value);
+    // public System.Void remove_levelFinishedEvent(System.Action value)
+    // Offset: 0x10260E0
+    void remove_levelFinishedEvent_NEW(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x10971B4
+    // Offset: 0x1026184
     void Awake();
     // private System.Collections.IEnumerator Start()
-    // Offset: 0x10971BC
+    // Offset: 0x102618C
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1097264
+    // Offset: 0x1026228
     void OnDestroy();
     // private System.Void HandleGameEnergyDidReach0()
-    // Offset: 0x10975BC
+    // Offset: 0x1026580
     void HandleGameEnergyDidReach0();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectiveDidFail()
-    // Offset: 0x1097608
+    // Offset: 0x10265CC
     void HandleMissionObjectiveCheckersManagerObjectiveDidFail();
     // private System.Void HandleSongDidFinish()
-    // Offset: 0x1097638
+    // Offset: 0x10265FC
     void HandleSongDidFinish();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x1097668
+    // Offset: 0x102662C
     void HandlePauseControllerCanPause(System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x10976E4
+    // Offset: 0x10266A8
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x10976FC
+    // Offset: 0x10266C0
     void HandlePauseControllerDidResume();
-    // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x1096F24
-    // Implemented from: ILevelEndActions
-    // Base method: System.Void ILevelEndActions::add_levelFailedEvent(System.Action value)
-    void add_levelFailedEvent(System::Action* value);
-    // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x1096FC8
-    // Implemented from: ILevelEndActions
-    // Base method: System.Void ILevelEndActions::remove_levelFailedEvent(System.Action value)
-    void remove_levelFailedEvent(System::Action* value);
-    // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x109706C
-    // Implemented from: ILevelEndActions
-    // Base method: System.Void ILevelEndActions::add_levelFinishedEvent(System.Action value)
-    void add_levelFinishedEvent(System::Action* value);
-    // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x1097110
-    // Implemented from: ILevelEndActions
-    // Base method: System.Void ILevelEndActions::remove_levelFinishedEvent(System.Action value)
-    void remove_levelFinishedEvent(System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1097714
+    // Offset: 0x10266D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -34,7 +34,7 @@ namespace HMUI {
     HMUI::NoTransitionsButton* button;
     // Field size check
     static_assert(sizeof(HMUI::NoTransitionsButton*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD19058
+    // [SpaceAttribute] Offset: 0xD02DC0
     // private UnityEngine.AnimationClip _normalClip
     // Size: 0x8
     // Offset: 0x20
@@ -70,22 +70,22 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x11F852C
+    // Offset: 0x121F560
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x11F85C0
+    // Offset: 0x121F5F4
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x11F86F4
+    // Offset: 0x121F728
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0x11F8710
+    // Offset: 0x121F744
     void OnDestroy();
     // private System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/SelectionState state)
-    // Offset: 0x11F85E4
+    // Offset: 0x121F618
     void HandleButtonSelectionStateDidChange(HMUI::NoTransitionsButton::SelectionState state);
     // public System.Void .ctor()
-    // Offset: 0x11F87EC
+    // Offset: 0x121F820
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

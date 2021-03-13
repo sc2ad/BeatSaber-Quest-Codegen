@@ -22,12 +22,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerMenuInstaller
     MultiplayerMenuInstaller() noexcept {}
     // public override System.Void InstallBindings()
-    // Offset: 0xFE62BC
+    // Offset: 0xF52800
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xFE6344
+    // Offset: 0xF52888
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

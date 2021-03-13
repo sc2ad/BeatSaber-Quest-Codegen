@@ -40,36 +40,21 @@ namespace UnityEngine {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // System.Void .ctor(UnityEngine.Transform outer)
-    // Offset: 0x1ABAB7C
+    // Offset: 0x19883C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Transform::Enumerator* New_ctor(UnityEngine::Transform* outer) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Transform::Enumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Transform::Enumerator*, creationType>(outer)));
     }
     // public System.Object get_Current()
-    // Offset: 0x1ABAC08
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Object IEnumerator::get_Current()
-    ::Il2CppObject* get_Current();
-    // Creating proxy method: System_Collections_IEnumerator_get_Current
-    // Maps to method: get_Current
-    ::Il2CppObject* System_Collections_IEnumerator_get_Current();
+    // Offset: 0x1988444
+    ::Il2CppObject* get_Current_NEW();
     // public System.Boolean MoveNext()
-    // Offset: 0x1ABAC60
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Boolean IEnumerator::MoveNext()
-    bool MoveNext();
-    // Creating proxy method: System_Collections_IEnumerator_MoveNext
-    // Maps to method: MoveNext
-    bool System_Collections_IEnumerator_MoveNext();
+    // Offset: 0x198849C
+    bool MoveNext_NEW();
     // public System.Void Reset()
-    // Offset: 0x1ABACCC
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Void IEnumerator::Reset()
-    void Reset();
-    // Creating proxy method: System_Collections_IEnumerator_Reset
-    // Maps to method: Reset
-    void System_Collections_IEnumerator_Reset();
+    // Offset: 0x1988508
+    void Reset_NEW();
   }; // UnityEngine.Transform/Enumerator
   #pragma pack(pop)
   static check_size<sizeof(Transform::Enumerator), 24 + sizeof(int)> __UnityEngine_Transform_EnumeratorSizeCheck;

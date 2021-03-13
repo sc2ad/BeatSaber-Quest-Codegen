@@ -16,8 +16,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: BeatmapObjectCallbackController
-  class BeatmapObjectCallbackController;
+  // Forward declaring type: IBeatmapObjectCallbackController
+  class IBeatmapObjectCallbackController;
   // Forward declaring type: BeatmapEventData
   class BeatmapEventData;
 }
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 rotationVector;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0xD38E08
+    // [SpaceAttribute] Offset: 0xD244B0
     // private System.Boolean _overrideRandomValues
     // Size: 0x1
     // Offset: 0x30
@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: startRotation and: transformL
     char __padding7[0x4] = {};
-    // [SpaceAttribute] Offset: 0xD38E70
+    // [SpaceAttribute] Offset: 0xD24518
     // private UnityEngine.Transform _transformL
     // Size: 0x8
     // Offset: 0x40
@@ -103,13 +103,13 @@ namespace GlobalNamespace {
     UnityEngine::Transform* transformR;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xD38EB8
-    // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // [InjectAttribute] Offset: 0xD24560
+    // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x50
-    GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
+    GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
     // private LightPairRotationEventEffect/RotationData _rotationDataL
     // Size: 0x8
     // Offset: 0x58
@@ -141,7 +141,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: LightPairRotationEventEffect
-    LightPairRotationEventEffect(GlobalNamespace::BeatmapEventType eventL_ = {}, GlobalNamespace::BeatmapEventType eventR_ = {}, GlobalNamespace::BeatmapEventType switchOverrideRandomValuesEvent_ = {}, UnityEngine::Vector3 rotationVector_ = {}, bool overrideRandomValues_ = {}, bool useZPositionForAngleOffset_ = {}, float zPositionAngleOffsetScale_ = {}, float startRotation_ = {}, UnityEngine::Transform* transformL_ = {}, UnityEngine::Transform* transformR_ = {}, GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::LightPairRotationEventEffect::RotationData* rotationDataL_ = {}, GlobalNamespace::LightPairRotationEventEffect::RotationData* rotationDataR_ = {}, int randomGenerationFrameNum_ = {}, float randomStartRotation_ = {}, float randomDirection_ = {}) noexcept : eventL{eventL_}, eventR{eventR_}, switchOverrideRandomValuesEvent{switchOverrideRandomValuesEvent_}, rotationVector{rotationVector_}, overrideRandomValues{overrideRandomValues_}, useZPositionForAngleOffset{useZPositionForAngleOffset_}, zPositionAngleOffsetScale{zPositionAngleOffsetScale_}, startRotation{startRotation_}, transformL{transformL_}, transformR{transformR_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, rotationDataL{rotationDataL_}, rotationDataR{rotationDataR_}, randomGenerationFrameNum{randomGenerationFrameNum_}, randomStartRotation{randomStartRotation_}, randomDirection{randomDirection_} {}
+    LightPairRotationEventEffect(GlobalNamespace::BeatmapEventType eventL_ = {}, GlobalNamespace::BeatmapEventType eventR_ = {}, GlobalNamespace::BeatmapEventType switchOverrideRandomValuesEvent_ = {}, UnityEngine::Vector3 rotationVector_ = {}, bool overrideRandomValues_ = {}, bool useZPositionForAngleOffset_ = {}, float zPositionAngleOffsetScale_ = {}, float startRotation_ = {}, UnityEngine::Transform* transformL_ = {}, UnityEngine::Transform* transformR_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::LightPairRotationEventEffect::RotationData* rotationDataL_ = {}, GlobalNamespace::LightPairRotationEventEffect::RotationData* rotationDataR_ = {}, int randomGenerationFrameNum_ = {}, float randomStartRotation_ = {}, float randomDirection_ = {}) noexcept : eventL{eventL_}, eventR{eventR_}, switchOverrideRandomValuesEvent{switchOverrideRandomValuesEvent_}, rotationVector{rotationVector_}, overrideRandomValues{overrideRandomValues_}, useZPositionForAngleOffset{useZPositionForAngleOffset_}, zPositionAngleOffsetScale{zPositionAngleOffsetScale_}, startRotation{startRotation_}, transformL{transformL_}, transformR{transformR_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, rotationDataL{rotationDataL_}, rotationDataR{rotationDataR_}, randomGenerationFrameNum{randomGenerationFrameNum_}, randomStartRotation{randomStartRotation_}, randomDirection{randomDirection_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kSpeedMultiplier
@@ -151,22 +151,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kSpeedMultiplier
     static void _set_kSpeedMultiplier(float value);
     // protected System.Void Start()
-    // Offset: 0x10E3AD4
+    // Offset: 0x109C5F8
     void Start();
     // protected System.Void Update()
-    // Offset: 0x10E3DA8
+    // Offset: 0x109C8FC
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x10E402C
+    // Offset: 0x109CBF8
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x10E4108
+    // Offset: 0x109CCF8
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void UpdateRotationData(System.Int32 beatmapEventDataValue, LightPairRotationEventEffect/RotationData rotationData, System.Single startRotationOffset, System.Single direction)
-    // Offset: 0x10E4390
+    // Offset: 0x109CF80
     void UpdateRotationData(int beatmapEventDataValue, GlobalNamespace::LightPairRotationEventEffect::RotationData* rotationData, float startRotationOffset, float direction);
     // public System.Void .ctor()
-    // Offset: 0x10E4604
+    // Offset: 0x109D1F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

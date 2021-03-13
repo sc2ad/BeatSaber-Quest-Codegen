@@ -37,18 +37,18 @@ namespace System {
   // Forward declaring type: String
   class String;
 }
+// Forward declaring namespace: HMUI
+namespace HMUI {
+  // Forward declaring type: TableCell
+  class TableCell;
+  // Forward declaring type: TableView
+  class TableView;
+}
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
-}
-// Forward declaring namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: TableView
-  class TableView;
-  // Forward declaring type: TableCell
-  class TableCell;
 }
 // Completed forward declares
 // Type namespace: 
@@ -77,14 +77,14 @@ namespace GlobalNamespace {
     GlobalNamespace::GameServerListDetailTableCell* gameServerDetailCellPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameServerListDetailTableCell*) == 0x8);
-    // [InjectAttribute] Offset: 0xD43F08
+    // [InjectAttribute] Offset: 0xD302CC
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x30
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD43F18
+    // [CompilerGeneratedAttribute] Offset: 0xD302DC
     // private System.Action`1<INetworkPlayer> joinButtonPressedEvent
     // Size: 0x8
     // Offset: 0x38
@@ -132,51 +132,43 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kDetailCellReuseIdentifier
     static void _set_kDetailCellReuseIdentifier(::Il2CppString* value);
     // public System.Void add_joinButtonPressedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0xF39E74
+    // Offset: 0xF3B1A4
     void add_joinButtonPressedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void remove_joinButtonPressedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0xF39F18
+    // Offset: 0xF3B248
     void remove_joinButtonPressedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
+    // public System.Single CellSize()
+    // Offset: 0xF3B2EC
+    float CellSize_NEW();
+    // public System.Int32 NumberOfCells()
+    // Offset: 0xF3B2F8
+    int NumberOfCells_NEW();
     // private System.Void Init()
-    // Offset: 0xF39FE4
+    // Offset: 0xF3B310
     void Init();
+    // public HMUI.TableCell CellForContent(TableViewWithDetailCell tableView, System.Int32 idx, System.Boolean detailOpened)
+    // Offset: 0xF3B420
+    HMUI::TableCell* CellForContent_NEW(GlobalNamespace::TableViewWithDetailCell* tableView, int idx, bool detailOpened);
+    // public HMUI.TableCell CellForDetail(TableViewWithDetailCell tableView, System.Int32 contentIdx)
+    // Offset: 0xF3B574
+    HMUI::TableCell* CellForDetail_NEW(GlobalNamespace::TableViewWithDetailCell* tableView, int contentIdx);
     // public System.Void SetData(System.Collections.Generic.IEnumerable`1<INetworkPlayer> servers, System.Boolean clearSelection)
-    // Offset: 0xF3A3E0
+    // Offset: 0xF3B704
     void SetData(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* servers, bool clearSelection);
     // private System.Void HandleGameServerListDetailTableCellJoinServerButtonWasPressed()
-    // Offset: 0xF3A510
+    // Offset: 0xF3B818
     void HandleGameServerListDetailTableCellJoinServerButtonWasPressed();
     // private System.Void HandleTableViewDidSelectCellWithIdx(HMUI.TableView tableView, System.Int32 id)
-    // Offset: 0xF3A578
+    // Offset: 0xF3B880
     void HandleTableViewDidSelectCellWithIdx(HMUI::TableView* tableView, int id);
     // private System.Void HandleTableViewDidDeselectCellWithIdx(TableViewWithDetailCell arg1, System.Int32 arg2)
-    // Offset: 0xF3A5B8
+    // Offset: 0xF3B8C0
     void HandleTableViewDidDeselectCellWithIdx(GlobalNamespace::TableViewWithDetailCell* arg1, int arg2);
     // protected System.Void OnDestroy()
-    // Offset: 0xF3A5C4
+    // Offset: 0xF3B8C8
     void OnDestroy();
-    // public System.Single CellSize()
-    // Offset: 0xF39FBC
-    // Implemented from: TableViewWithDetailCell/IDataSource
-    // Base method: System.Single IDataSource::CellSize()
-    float CellSize();
-    // public System.Int32 NumberOfCells()
-    // Offset: 0xF39FC8
-    // Implemented from: TableViewWithDetailCell/IDataSource
-    // Base method: System.Int32 IDataSource::NumberOfCells()
-    int NumberOfCells();
-    // public HMUI.TableCell CellForContent(TableViewWithDetailCell tableView, System.Int32 idx, System.Boolean detailOpened)
-    // Offset: 0xF3A0F4
-    // Implemented from: TableViewWithDetailCell/IDataSource
-    // Base method: HMUI.TableCell IDataSource::CellForContent(TableViewWithDetailCell tableView, System.Int32 idx, System.Boolean detailOpened)
-    HMUI::TableCell* CellForContent(GlobalNamespace::TableViewWithDetailCell* tableView, int idx, bool detailOpened);
-    // public HMUI.TableCell CellForDetail(TableViewWithDetailCell tableView, System.Int32 contentIdx)
-    // Offset: 0xF3A24C
-    // Implemented from: TableViewWithDetailCell/IDataSource
-    // Base method: HMUI.TableCell IDataSource::CellForDetail(TableViewWithDetailCell tableView, System.Int32 contentIdx)
-    HMUI::TableCell* CellForDetail(GlobalNamespace::TableViewWithDetailCell* tableView, int contentIdx);
     // public System.Void .ctor()
-    // Offset: 0xF3A6A4
+    // Offset: 0xF3B9A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -26,17 +26,17 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* unit;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0CC78
+    // [CompilerGeneratedAttribute] Offset: 0xCF7780
     // private System.Nullable`1<System.Int64> <From>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x18
     System::Nullable_1<int64_t> From;
-    // [CompilerGeneratedAttribute] Offset: 0xD0CC88
+    // [CompilerGeneratedAttribute] Offset: 0xCF7790
     // private System.Nullable`1<System.Int64> <Length>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x28
     System::Nullable_1<int64_t> Length;
-    // [CompilerGeneratedAttribute] Offset: 0xD0CC98
+    // [CompilerGeneratedAttribute] Offset: 0xCF77A0
     // private System.Nullable`1<System.Int64> <To>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x38
@@ -48,31 +48,34 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // public System.Nullable`1<System.Int64> get_From()
-    // Offset: 0x1407128
+    // Offset: 0x13D8314
     System::Nullable_1<int64_t> get_From();
     // private System.Void set_From(System.Nullable`1<System.Int64> value)
-    // Offset: 0x1407134
+    // Offset: 0x13D8320
     void set_From(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_Length()
-    // Offset: 0x140713C
+    // Offset: 0x13D8328
     System::Nullable_1<int64_t> get_Length();
     // private System.Void set_Length(System.Nullable`1<System.Int64> value)
-    // Offset: 0x1407148
+    // Offset: 0x13D8334
     void set_Length(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_To()
-    // Offset: 0x1407150
+    // Offset: 0x13D833C
     System::Nullable_1<int64_t> get_To();
     // private System.Void set_To(System.Nullable`1<System.Int64> value)
-    // Offset: 0x140715C
+    // Offset: 0x13D8348
     void set_To(System::Nullable_1<int64_t> value);
     // public System.String get_Unit()
-    // Offset: 0x1407164
+    // Offset: 0x13D8350
     ::Il2CppString* get_Unit();
+    // private System.Object System.ICloneable.Clone()
+    // Offset: 0x13D8358
+    ::Il2CppObject* System_ICloneable_Clone_NEW();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.ContentRangeHeaderValue parsedValue)
-    // Offset: 0x14073B4
+    // Offset: 0x13D85A0
     static bool TryParse(::Il2CppString* input, System::Net::Http::Headers::ContentRangeHeaderValue*& parsedValue);
     // private System.Void .ctor()
-    // Offset: 0x14070C8
+    // Offset: 0x13D82BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -80,25 +83,20 @@ namespace System::Net::Http::Headers {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::ContentRangeHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentRangeHeaderValue*, creationType>()));
     }
-    // private System.Object System.ICloneable.Clone()
-    // Offset: 0x140716C
-    // Implemented from: System.ICloneable
-    // Base method: System.Object ICloneable::Clone()
-    ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1407174
+    // Offset: 0x13D8360
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object obj)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x14072B8
+    // Offset: 0x13D84A4
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1407908
+    // Offset: 0x13D8AC4
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.ContentRangeHeaderValue
   // WARNING Not writing size check since size may be invalid!

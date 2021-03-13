@@ -53,30 +53,26 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static private readonly System.Threading.SendOrPostCallback s_sendOrPostCallbackRunAction
     static void _set_s_sendOrPostCallbackRunAction(System::Threading::SendOrPostCallback* value);
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xDF9824
+    // Offset: 0xDE4720
     bool get_IsCompleted();
+    // public System.Void OnCompleted(System.Action continuation)
+    // Offset: 0xDE4728
+    void OnCompleted_NEW(System::Action* continuation);
+    // public System.Void UnsafeOnCompleted(System.Action continuation)
+    // Offset: 0xDE472C
+    void UnsafeOnCompleted_NEW(System::Action* continuation);
     // static private System.Void QueueContinuation(System.Action continuation, System.Boolean flowContext)
-    // Offset: 0x130A4C4
+    // Offset: 0x12FFA78
     static void QueueContinuation(System::Action* continuation, bool flowContext);
     // static private System.Void RunAction(System.Object state)
-    // Offset: 0x130A800
+    // Offset: 0x12FFDB4
     static void RunAction(::Il2CppObject* state);
     // public System.Void GetResult()
-    // Offset: 0xDF9834
+    // Offset: 0xDE4730
     void GetResult();
     // static private System.Void .cctor()
-    // Offset: 0x130A870
+    // Offset: 0x12FFE24
     static void _cctor();
-    // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0xDF982C
-    // Implemented from: System.Runtime.CompilerServices.INotifyCompletion
-    // Base method: System.Void INotifyCompletion::OnCompleted(System.Action continuation)
-    void OnCompleted(System::Action* continuation);
-    // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0xDF9830
-    // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion
-    // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
-    void UnsafeOnCompleted(System::Action* continuation);
   }; // System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter
   #pragma pack(pop)
 }

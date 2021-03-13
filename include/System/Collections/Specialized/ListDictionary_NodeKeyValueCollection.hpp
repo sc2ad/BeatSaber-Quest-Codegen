@@ -57,27 +57,21 @@ namespace System::Collections::Specialized {
       return *reinterpret_cast<System::Collections::ICollection*>(this);
     }
     // public System.Void .ctor(System.Collections.Specialized.ListDictionary list, System.Boolean isKeys)
-    // Offset: 0x17912D4
+    // Offset: 0x16C218C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionary::NodeKeyValueCollection* New_ctor(System::Collections::Specialized::ListDictionary* list, bool isKeys) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::ListDictionary::NodeKeyValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionary::NodeKeyValueCollection*, creationType>(list, isKeys)));
     }
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x1791798
-    // Implemented from: System.Collections.ICollection
-    // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
-    void System_Collections_ICollection_CopyTo(System::Array* array, int index);
+    // Offset: 0x16C2610
+    void System_Collections_ICollection_CopyTo_NEW(System::Array* array, int index);
     // private System.Int32 System.Collections.ICollection.get_Count()
-    // Offset: 0x17918C8
-    // Implemented from: System.Collections.ICollection
-    // Base method: System.Int32 ICollection::get_Count()
-    int System_Collections_ICollection_get_Count();
+    // Offset: 0x16C2740
+    int System_Collections_ICollection_get_Count_NEW();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1791900
-    // Implemented from: System.Collections.IEnumerable
-    // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
-    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+    // Offset: 0x16C2778
+    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator_NEW();
   }; // System.Collections.Specialized.ListDictionary/NodeKeyValueCollection
   #pragma pack(pop)
   static check_size<sizeof(ListDictionary::NodeKeyValueCollection), 24 + sizeof(bool)> __System_Collections_Specialized_ListDictionary_NodeKeyValueCollectionSizeCheck;

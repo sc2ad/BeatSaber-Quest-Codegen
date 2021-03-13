@@ -32,17 +32,17 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: OidTokenizer
     OidTokenizer(::Il2CppString* oid_ = {}, int index_ = {}) noexcept : oid{oid_}, index{index_} {}
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x16E5408
+    // Offset: 0x1600628
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OidTokenizer* New_ctor(::Il2CppString* oid) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::OidTokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OidTokenizer*, creationType>(oid)));
     }
     // public System.Boolean get_HasMoreTokens()
-    // Offset: 0x16E543C
+    // Offset: 0x1600654
     bool get_HasMoreTokens();
     // public System.String NextToken()
-    // Offset: 0x16E544C
+    // Offset: 0x1600664
     ::Il2CppString* NextToken();
   }; // Org.BouncyCastle.Asn1.OidTokenizer
   #pragma pack(pop)

@@ -46,24 +46,24 @@ namespace UnityEngine::TestTools::TestRunner {
     // Creating value type constructor for type: UnhandledLogMessageException
     UnhandledLogMessageException(UnityEngine::TestTools::Logging::LogEvent* LogEvent_ = {}, ::Il2CppString* m_CustomStackTrace_ = {}) noexcept : LogEvent{LogEvent_}, m_CustomStackTrace{m_CustomStackTrace_} {}
     // public System.Void .ctor(UnityEngine.TestTools.Logging.LogEvent log)
-    // Offset: 0x1326E38
+    // Offset: 0x2175264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnhandledLogMessageException* New_ctor(UnityEngine::TestTools::Logging::LogEvent* log) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnhandledLogMessageException*, creationType>(log)));
     }
     // static private System.String BuildMessage(UnityEngine.TestTools.Logging.LogEvent log)
-    // Offset: 0x133F9FC
+    // Offset: 0x2175304
     static ::Il2CppString* BuildMessage(UnityEngine::TestTools::Logging::LogEvent* log);
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x133FA50
+    // Offset: 0x21755C8
     // Implemented from: NUnit.Framework.ResultStateException
-    // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
+    // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState_NEW()
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public override System.String get_StackTrace()
-    // Offset: 0x133FAB8
+    // Offset: 0x2175630
     // Implemented from: System.Exception
-    // Base method: System.String Exception::get_StackTrace()
+    // Base method: System.String Exception::get_StackTrace_NEW()
     ::Il2CppString* get_StackTrace();
   }; // UnityEngine.TestTools.TestRunner.UnhandledLogMessageException
   #pragma pack(pop)

@@ -28,10 +28,10 @@ namespace NUnit::Framework::Interfaces {
     ISuiteBuilder() noexcept {}
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Offset: 0xFFFFFFFF
-    bool CanBuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
+    bool CanBuildFrom_NEW(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Internal::TestSuite* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
+    NUnit::Framework::Internal::TestSuite* BuildFrom_NEW(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
   }; // NUnit.Framework.Interfaces.ISuiteBuilder
   #pragma pack(pop)
 }

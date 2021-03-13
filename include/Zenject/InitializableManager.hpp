@@ -62,20 +62,20 @@ namespace Zenject {
     // Creating value type constructor for type: InitializableManager
     InitializableManager(System::Collections::Generic::List_1<Zenject::InitializableManager::InitializableInfo*>* initializables_ = {}, bool hasInitialized_ = {}) noexcept : initializables{initializables_}, hasInitialized{hasInitialized_} {}
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IInitializable> initializables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0x14EEAF8
+    // Offset: 0x1478E80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializableManager* New_ctor(System::Collections::Generic::List_1<Zenject::IInitializable*>* initializables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InitializableManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InitializableManager*, creationType>(initializables, priorities)));
     }
     // public System.Void Add(Zenject.IInitializable initializable)
-    // Offset: 0x14EEE20
+    // Offset: 0x147916C
     void Add(Zenject::IInitializable* initializable);
     // public System.Void Add(Zenject.IInitializable initializable, System.Int32 priority)
-    // Offset: 0x14EEE28
+    // Offset: 0x1479174
     void Add(Zenject::IInitializable* initializable, int priority);
     // public System.Void Initialize()
-    // Offset: 0x14EEEDC
+    // Offset: 0x147921C
     void Initialize();
   }; // Zenject.InitializableManager
   #pragma pack(pop)

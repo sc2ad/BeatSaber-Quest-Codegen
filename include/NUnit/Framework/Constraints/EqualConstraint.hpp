@@ -54,7 +54,8 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::NUnitEqualityComparer* comparer;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::NUnitEqualityComparer*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD25408
+    // [DebuggerBrowsableAttribute] Offset: 0xD104C0
+    // [CompilerGeneratedAttribute] Offset: 0xD104C0
     // private System.Boolean <ClipStrings>k__BackingField
     // Size: 0x1
     // Offset: 0x48
@@ -64,26 +65,26 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: EqualConstraint
     EqualConstraint(::Il2CppObject* expected_ = {}, NUnit::Framework::Constraints::Tolerance* tolerance_ = {}, NUnit::Framework::Constraints::NUnitEqualityComparer* comparer_ = {}, bool ClipStrings_ = {}) noexcept : expected{expected_}, tolerance{tolerance_}, comparer{comparer_}, ClipStrings{ClipStrings_} {}
     // public System.Void .ctor(System.Object expected)
-    // Offset: 0x169966C
+    // Offset: 0x159E460
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EqualConstraint* New_ctor(::Il2CppObject* expected) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::EqualConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EqualConstraint*, creationType>(expected)));
     }
     // public NUnit.Framework.Constraints.Tolerance get_Tolerance()
-    // Offset: 0x1699824
+    // Offset: 0x159E5D4
     NUnit::Framework::Constraints::Tolerance* get_Tolerance();
     // public System.Boolean get_CaseInsensitive()
-    // Offset: 0x169982C
+    // Offset: 0x159E5DC
     bool get_CaseInsensitive();
     // public System.Boolean get_ClipStrings()
-    // Offset: 0x1699850
+    // Offset: 0x159E600
     bool get_ClipStrings();
     // private System.Void set_ClipStrings(System.Boolean value)
-    // Offset: 0x1699858
+    // Offset: 0x159E608
     void set_ClipStrings(bool value);
     // public System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint> get_FailurePoints()
-    // Offset: 0x1699864
+    // Offset: 0x159E614
     System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* get_FailurePoints();
     // private System.Void AdjustArgumentIfNeeded(ref T arg)
     // Offset: 0xFFFFFFFF
@@ -95,14 +96,14 @@ namespace NUnit::Framework::Constraints {
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, arg);
     }
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0x1699888
+    // Offset: 0x159E638
     // Implemented from: NUnit.Framework.Constraints.Constraint
-    // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
+    // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo_NEW(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
     // public override System.String get_Description()
-    // Offset: 0x16999FC
+    // Offset: 0x159E7A0
     // Implemented from: NUnit.Framework.Constraints.Constraint
-    // Base method: System.String Constraint::get_Description()
+    // Base method: System.String Constraint::get_Description_NEW()
     ::Il2CppString* get_Description();
   }; // NUnit.Framework.Constraints.EqualConstraint
   #pragma pack(pop)

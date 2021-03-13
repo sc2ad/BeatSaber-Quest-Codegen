@@ -58,16 +58,14 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // public System.Void LoadAllBeatmapLevelPacksAsync()
-    // Offset: 0x1078FA8
-    void LoadAllBeatmapLevelPacksAsync();
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
-    // Offset: 0x1078F78
-    // Implemented from: IBeatmapLevelPackCollection
-    // Base method: IBeatmapLevelPack[] IBeatmapLevelPackCollection::get_beatmapLevelPacks()
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks();
+    // Offset: 0x107661C
+    ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks_NEW();
+    // private System.Void LoadAllBeatmapLevelPacks()
+    // Offset: 0x107664C
+    void LoadAllBeatmapLevelPacks();
     // public System.Void .ctor()
-    // Offset: 0x1079128
+    // Offset: 0x10767A0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

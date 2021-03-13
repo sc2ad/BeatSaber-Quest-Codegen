@@ -29,11 +29,14 @@ namespace System::Collections {
     static System::Collections::LowLevelComparer* _get_Default();
     // Set static field: static readonly System.Collections.LowLevelComparer Default
     static void _set_Default(System::Collections::LowLevelComparer* value);
+    // public System.Int32 Compare(System.Object a, System.Object b)
+    // Offset: 0x1814710
+    int Compare_NEW(::Il2CppObject* a, ::Il2CppObject* b);
     // static private System.Void .cctor()
-    // Offset: 0x1899DA8
+    // Offset: 0x18148C8
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x1899BE8
+    // Offset: 0x1814708
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -41,14 +44,6 @@ namespace System::Collections {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::LowLevelComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LowLevelComparer*, creationType>()));
     }
-    // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x1899BF0
-    // Implemented from: System.Collections.IComparer
-    // Base method: System.Int32 IComparer::Compare(System.Object a, System.Object b)
-    int Compare(::Il2CppObject* a, ::Il2CppObject* b);
-    // Creating proxy method: System_Collections_IComparer_Compare
-    // Maps to method: Compare
-    int System_Collections_IComparer_Compare(::Il2CppObject* a, ::Il2CppObject* b);
   }; // System.Collections.LowLevelComparer
   #pragma pack(pop)
 }

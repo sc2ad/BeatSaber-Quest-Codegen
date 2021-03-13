@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     IBeatmapLevelPackCollection() noexcept {}
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
     // Offset: 0xFFFFFFFF
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks();
+    ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks_NEW();
   }; // IBeatmapLevelPackCollection
   #pragma pack(pop)
 }

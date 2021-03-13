@@ -34,13 +34,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapEditorSceneSetupData
     BeatmapEditorSceneSetupData(::Il2CppString* levelDirPath_ = {}, ::Il2CppString* levelAssetPath_ = {}) noexcept : levelDirPath{levelDirPath_}, levelAssetPath{levelAssetPath_} {}
     // public System.String get_levelDirPath()
-    // Offset: 0x1072DB8
+    // Offset: 0x10707D0
     ::Il2CppString* get_levelDirPath();
     // public System.String get_levelAssetPath()
-    // Offset: 0x1072DC0
+    // Offset: 0x10707D8
     ::Il2CppString* get_levelAssetPath();
     // public System.Void .ctor(System.String levelDirPath, System.String levelAssetPath)
-    // Offset: 0x1072DC8
+    // Offset: 0x10707E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEditorSceneSetupData* New_ctor(::Il2CppString* levelDirPath, ::Il2CppString* levelAssetPath) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapEditorSceneSetupData::.ctor");

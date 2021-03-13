@@ -26,7 +26,7 @@ namespace UnityEngine::TestTools::Utils {
     IAssemblyLoadProxy() noexcept {}
     // public UnityEngine.TestTools.Utils.IAssemblyWrapper Load(System.String assemblyString)
     // Offset: 0xFFFFFFFF
-    UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::Il2CppString* assemblyString);
+    UnityEngine::TestTools::Utils::IAssemblyWrapper* Load_NEW(::Il2CppString* assemblyString);
   }; // UnityEngine.TestTools.Utils.IAssemblyLoadProxy
   #pragma pack(pop)
 }

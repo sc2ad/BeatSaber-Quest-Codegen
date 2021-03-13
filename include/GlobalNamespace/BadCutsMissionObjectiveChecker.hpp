@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NoteController
   class NoteController;
   // Forward declaring type: NoteCutInfo
-  class NoteCutInfo;
+  struct NoteCutInfo;
 }
 // Completed forward declares
 // Type namespace: 
@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    // [InjectAttribute] Offset: 0xD3A88C
+    // [InjectAttribute] Offset: 0xD25F84
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x48
@@ -42,18 +42,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BadCutsMissionObjectiveChecker
     BadCutsMissionObjectiveChecker(GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}) noexcept : beatmapObjectManager{beatmapObjectManager_} {}
     // protected System.Void OnDestroy()
-    // Offset: 0x103B6DC
+    // Offset: 0x1009F7C
     void OnDestroy();
-    // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0x103B77C
-    void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
+    // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
+    // Offset: 0x100A014
+    void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
     // protected override System.Void Init()
-    // Offset: 0x103B5DC
+    // Offset: 0x1009E84
     // Implemented from: MissionObjectiveChecker
-    // Base method: System.Void MissionObjectiveChecker::Init()
+    // Base method: System.Void MissionObjectiveChecker::Init_NEW()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x103B7E4
+    // Offset: 0x100A078
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()

@@ -50,19 +50,19 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RequireComponent[] _requireComponentArray
     static void _set__requireComponentArray(::Array<UnityEngine::RequireComponent*>* value);
     // static private System.Type GetParentTypeDisallowingMultipleInclusion(System.Type type)
-    // Offset: 0x1A14B9C
+    // Offset: 0x19BF7D8
     static System::Type* GetParentTypeDisallowingMultipleInclusion(System::Type* type);
     // static private System.Type[] GetRequiredComponents(System.Type klass)
-    // Offset: 0x1A14C9C
+    // Offset: 0x19BF8D8
     static ::Array<System::Type*>* GetRequiredComponents(System::Type* klass);
     // static private System.Int32 GetExecuteMode(System.Type klass)
-    // Offset: 0x1A14FD4
+    // Offset: 0x19BFBEC
     static int GetExecuteMode(System::Type* klass);
     // static private System.Int32 CheckIsEditorScript(System.Type klass)
-    // Offset: 0x1A150E0
+    // Offset: 0x19BFCF8
     static int CheckIsEditorScript(System::Type* klass);
     // static private System.Int32 GetDefaultExecutionOrderFor(System.Type klass)
-    // Offset: 0x1A151C8
+    // Offset: 0x19BFDE0
     static int GetDefaultExecutionOrderFor(System::Type* klass);
     // static private T GetCustomAttributeOfType(System.Type klass)
     // Offset: 0xFFFFFFFF
@@ -75,7 +75,7 @@ namespace UnityEngine {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, klass);
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A1524C
+    // Offset: 0x19BFE64
     static void _cctor();
   }; // UnityEngine.AttributeHelperEngine
   #pragma pack(pop)

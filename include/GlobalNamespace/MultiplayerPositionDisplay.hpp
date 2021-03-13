@@ -79,14 +79,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fadeOutDuration and: scoreProvider
     char __padding6[0x4] = {};
-    // [InjectAttribute] Offset: 0xD3C6D4
+    // [InjectAttribute] Offset: 0xD28038
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3C6E4
+    // [InjectAttribute] Offset: 0xD28048
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x68
@@ -142,31 +142,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xFEF000
+    // Offset: 0xF15BE8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFEF104
+    // Offset: 0xF15DB8
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xFEF278
+    // Offset: 0xF15FCC
     void Update();
     // private System.Void UpdateColors()
-    // Offset: 0xFEF2CC
+    // Offset: 0xF16028
     void UpdateColors();
     // private System.Void UpdatePosition()
-    // Offset: 0xFEF36C
+    // Offset: 0xF160C8
     void UpdatePosition();
     // private System.Void HandlePlayerFailed()
-    // Offset: 0xFEF4E8
+    // Offset: 0xF16240
     void HandlePlayerFailed();
     // private System.Void HandleFirstPlayerDidChange(MultiplayerScoreProvider/RankedPlayer obj)
-    // Offset: 0xFEF500
+    // Offset: 0xF16324
     void HandleFirstPlayerDidChange(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* obj);
     // private System.Void ChangeColor(UnityEngine.Color toColor, System.Single duration)
-    // Offset: 0xFEF1F0
+    // Offset: 0xF15F44
     void ChangeColor(UnityEngine::Color toColor, float duration);
     // public System.Void .ctor()
-    // Offset: 0xFEF5B8
+    // Offset: 0xF163D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

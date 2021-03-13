@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD33458
+    // [SpaceAttribute] Offset: 0xD1E54C
     // private VRsenalLogger _vrsenalLoggerPrefab
     // Size: 0x8
     // Offset: 0x58
@@ -68,27 +68,27 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PCArcadeAppInit
     PCArcadeAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::SteamInit* steamInit_ = {}, GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::VRsenalLogger* vrsenalLoggerPrefab_ = {}) noexcept : mainSystemInit{mainSystemInit_}, steamInit{steamInit_}, defaultScenesTransitionsFromInit{defaultScenesTransitionsFromInit_}, mainSettingsModel{mainSettingsModel_}, vrsenalLoggerPrefab{vrsenalLoggerPrefab_} {}
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xF1DBBC
+    // Offset: 0xF57044
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
+    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup_NEW()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0xF1DC28
+    // Offset: 0xF570B0
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::RepeatableSetup()
+    // Base method: System.Void AppInit::RepeatableSetup_NEW()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0xF1DC74
+    // Offset: 0xF570FC
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::TransitionToNextScene()
+    // Base method: System.Void AppInit::TransitionToNextScene_NEW()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0xF1DCB0
+    // Offset: 0xF57138
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF1DD94
+    // Offset: 0xF5721C
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()

@@ -9,6 +9,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: TextureEffectSO
   class TextureEffectSO;
+  // Forward declaring type: ToneMapping
+  struct ToneMapping;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -28,19 +30,22 @@ namespace GlobalNamespace {
     IBloomPrePassParams() noexcept {}
     // public TextureEffectSO get_textureEffect()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::TextureEffectSO* get_textureEffect();
+    GlobalNamespace::TextureEffectSO* get_textureEffect_NEW();
     // public System.Int32 get_textureWidth()
     // Offset: 0xFFFFFFFF
-    int get_textureWidth();
+    int get_textureWidth_NEW();
     // public System.Int32 get_textureHeight()
     // Offset: 0xFFFFFFFF
-    int get_textureHeight();
+    int get_textureHeight_NEW();
     // public UnityEngine.Vector2 get_fov()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Vector2 get_fov();
+    UnityEngine::Vector2 get_fov_NEW();
     // public System.Single get_linesWidth()
     // Offset: 0xFFFFFFFF
-    float get_linesWidth();
+    float get_linesWidth_NEW();
+    // public ToneMapping get_toneMapping()
+    // Offset: 0xFFFFFFFF
+    GlobalNamespace::ToneMapping get_toneMapping_NEW();
   }; // IBloomPrePassParams
   #pragma pack(pop)
 }

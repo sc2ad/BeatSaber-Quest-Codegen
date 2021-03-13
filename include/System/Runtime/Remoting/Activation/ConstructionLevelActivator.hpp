@@ -35,17 +35,13 @@ namespace System::Runtime::Remoting::Activation {
       return *reinterpret_cast<System::Runtime::Remoting::Activation::IActivator*>(this);
     }
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
-    // Offset: 0x130ECC0
-    // Implemented from: System.Runtime.Remoting.Activation.IActivator
-    // Base method: System.Runtime.Remoting.Activation.IActivator IActivator::get_NextActivator()
-    System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
+    // Offset: 0x1303F74
+    System::Runtime::Remoting::Activation::IActivator* get_NextActivator_NEW();
     // public System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage msg)
-    // Offset: 0x130ECC8
-    // Implemented from: System.Runtime.Remoting.Activation.IActivator
-    // Base method: System.Runtime.Remoting.Activation.IConstructionReturnMessage IActivator::Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage msg)
-    System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
+    // Offset: 0x1303F7C
+    System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate_NEW(System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
     // public System.Void .ctor()
-    // Offset: 0x130D148
+    // Offset: 0x130251C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

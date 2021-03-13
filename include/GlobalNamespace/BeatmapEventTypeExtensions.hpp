@@ -44,26 +44,62 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapEventType _get_kBPMChangeEvent();
     // Set static field: static public BeatmapEventType kBPMChangeEvent
     static void _set_kBPMChangeEvent(GlobalNamespace::BeatmapEventType value);
+    // static field const value: static public BeatmapEventType kLights1
+    static constexpr const int kLights1 = 0;
+    // Get static field: static public BeatmapEventType kLights1
+    static GlobalNamespace::BeatmapEventType _get_kLights1();
+    // Set static field: static public BeatmapEventType kLights1
+    static void _set_kLights1(GlobalNamespace::BeatmapEventType value);
+    // static field const value: static public BeatmapEventType kLights2
+    static constexpr const int kLights2 = 1;
+    // Get static field: static public BeatmapEventType kLights2
+    static GlobalNamespace::BeatmapEventType _get_kLights2();
+    // Set static field: static public BeatmapEventType kLights2
+    static void _set_kLights2(GlobalNamespace::BeatmapEventType value);
+    // static field const value: static public BeatmapEventType kLights3
+    static constexpr const int kLights3 = 2;
+    // Get static field: static public BeatmapEventType kLights3
+    static GlobalNamespace::BeatmapEventType _get_kLights3();
+    // Set static field: static public BeatmapEventType kLights3
+    static void _set_kLights3(GlobalNamespace::BeatmapEventType value);
+    // static field const value: static public BeatmapEventType kLights4
+    static constexpr const int kLights4 = 3;
+    // Get static field: static public BeatmapEventType kLights4
+    static GlobalNamespace::BeatmapEventType _get_kLights4();
+    // Set static field: static public BeatmapEventType kLights4
+    static void _set_kLights4(GlobalNamespace::BeatmapEventType value);
+    // static field const value: static public BeatmapEventType kLights5
+    static constexpr const int kLights5 = 4;
+    // Get static field: static public BeatmapEventType kLights5
+    static GlobalNamespace::BeatmapEventType _get_kLights5();
+    // Set static field: static public BeatmapEventType kLights5
+    static void _set_kLights5(GlobalNamespace::BeatmapEventType value);
     // static public System.Collections.Generic.HashSet`1<BeatmapEventType> GetEventsValidForAllBeatmaps()
-    // Offset: 0x22C8C74
+    // Offset: 0x21787F8
     static System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>* GetEventsValidForAllBeatmaps();
     // static public System.Boolean IsBPMChangeEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x22C8DF8
+    // Offset: 0x217897C
     static bool IsBPMChangeEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x22C8E04
+    // Offset: 0x2178988
     static bool IsRotationEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
+    // static public System.Boolean IsSpecialEvent(BeatmapEventType beatmapEventType)
+    // Offset: 0x2178998
+    static bool IsSpecialEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
+    // static public System.Boolean IsLightIntensityChangeEvent(BeatmapEventType beatmapEventType)
+    // Offset: 0x21789BC
+    static bool IsLightIntensityChangeEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsEarlyRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x22C8E14
+    // Offset: 0x21789D8
     static bool IsEarlyRotationEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsLateRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x22C8E20
+    // Offset: 0x21789E4
     static bool IsLateRotationEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsEarlyEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x22C8E2C
+    // Offset: 0x21789F0
     static bool IsEarlyEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsSpawnAffectingEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x22C8E3C
+    // Offset: 0x2178A00
     static bool IsSpawnAffectingEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
   }; // BeatmapEventTypeExtensions
   #pragma pack(pop)

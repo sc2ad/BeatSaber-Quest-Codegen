@@ -16,7 +16,7 @@ namespace GlobalNamespace {
     IReturnToMenuController() noexcept {}
     // public System.Void ReturnToMenu()
     // Offset: 0xFFFFFFFF
-    void ReturnToMenu();
+    void ReturnToMenu_NEW();
   }; // IReturnToMenuController
   #pragma pack(pop)
 }

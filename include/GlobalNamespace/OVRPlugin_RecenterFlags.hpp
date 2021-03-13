@@ -39,12 +39,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::RecenterFlags _get_Default();
     // Set static field: static public OVRPlugin/RecenterFlags Default
     static void _set_Default(GlobalNamespace::OVRPlugin::RecenterFlags value);
-    // static field const value: static public OVRPlugin/RecenterFlags Controllers
-    static constexpr const int Controllers = 1073741824;
-    // Get static field: static public OVRPlugin/RecenterFlags Controllers
-    static GlobalNamespace::OVRPlugin::RecenterFlags _get_Controllers();
-    // Set static field: static public OVRPlugin/RecenterFlags Controllers
-    static void _set_Controllers(GlobalNamespace::OVRPlugin::RecenterFlags value);
     // static field const value: static public OVRPlugin/RecenterFlags IgnoreAll
     static constexpr const int IgnoreAll = -2147483648;
     // Get static field: static public OVRPlugin/RecenterFlags IgnoreAll

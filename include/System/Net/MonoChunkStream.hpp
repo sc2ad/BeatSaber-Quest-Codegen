@@ -162,63 +162,63 @@ namespace System::Net {
     // Creating value type constructor for type: MonoChunkStream
     MonoChunkStream(System::Net::WebHeaderCollection* headers_ = {}, int chunkSize_ = {}, int chunkRead_ = {}, int totalWritten_ = {}, System::Net::MonoChunkStream::State state_ = {}, System::Text::StringBuilder* saved_ = {}, bool sawCR_ = {}, bool gotit_ = {}, int trailerState_ = {}, System::Collections::ArrayList* chunks_ = {}) noexcept : headers{headers_}, chunkSize{chunkSize_}, chunkRead{chunkRead_}, totalWritten{totalWritten_}, state{state_}, saved{saved_}, sawCR{sawCR_}, gotit{gotit_}, trailerState{trailerState_}, chunks{chunks_} {}
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.WebHeaderCollection headers)
-    // Offset: 0x150DED8
+    // Offset: 0x149672C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoChunkStream* New_ctor(::Array<uint8_t>* buffer, int offset, int size, System::Net::WebHeaderCollection* headers) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::MonoChunkStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoChunkStream*, creationType>(buffer, offset, size, headers)));
     }
     // public System.Void .ctor(System.Net.WebHeaderCollection headers)
-    // Offset: 0x150DF38
+    // Offset: 0x149678C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoChunkStream* New_ctor(System::Net::WebHeaderCollection* headers) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::MonoChunkStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoChunkStream*, creationType>(headers)));
     }
     // public System.Void ResetBuffer()
-    // Offset: 0x150E030
+    // Offset: 0x1496860
     void ResetBuffer();
     // public System.Void WriteAndReadBack(System.Byte[] buffer, System.Int32 offset, System.Int32 size, ref System.Int32 read)
-    // Offset: 0x150E064
+    // Offset: 0x1496894
     void WriteAndReadBack(::Array<uint8_t>* buffer, int offset, int size, int& read);
     // public System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x150E0E4
+    // Offset: 0x1496914
     int Read(::Array<uint8_t>* buffer, int offset, int size);
     // private System.Int32 ReadFromChunks(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x150E0E8
+    // Offset: 0x1496918
     int ReadFromChunks(::Array<uint8_t>* buffer, int offset, int size);
     // public System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x150E004
+    // Offset: 0x1496834
     void Write(::Array<uint8_t>* buffer, int offset, int size);
     // private System.Void InternalWrite(System.Byte[] buffer, ref System.Int32 offset, System.Int32 size)
-    // Offset: 0x150E3B0
+    // Offset: 0x1496BE0
     void InternalWrite(::Array<uint8_t>* buffer, int& offset, int size);
     // public System.Boolean get_WantMore()
-    // Offset: 0x150ED38
+    // Offset: 0x149755C
     bool get_WantMore();
     // public System.Boolean get_DataAvailable()
-    // Offset: 0x150ED60
+    // Offset: 0x1497584
     bool get_DataAvailable();
     // public System.Int32 get_ChunkLeft()
-    // Offset: 0x150EE68
+    // Offset: 0x149768C
     int get_ChunkLeft();
     // private System.Net.MonoChunkStream/State ReadBody(System.Byte[] buffer, ref System.Int32 offset, System.Int32 size)
-    // Offset: 0x150E7E8
+    // Offset: 0x1497018
     System::Net::MonoChunkStream::State ReadBody(::Array<uint8_t>* buffer, int& offset, int size);
     // private System.Net.MonoChunkStream/State GetChunkSize(System.Byte[] buffer, ref System.Int32 offset, System.Int32 size)
-    // Offset: 0x150E4F0
+    // Offset: 0x1496D20
     System::Net::MonoChunkStream::State GetChunkSize(::Array<uint8_t>* buffer, int& offset, int size);
     // static private System.String RemoveChunkExtension(System.String input)
-    // Offset: 0x150EF1C
+    // Offset: 0x1497738
     static ::Il2CppString* RemoveChunkExtension(::Il2CppString* input);
     // private System.Net.MonoChunkStream/State ReadCRLF(System.Byte[] buffer, ref System.Int32 offset, System.Int32 size)
-    // Offset: 0x150E924
+    // Offset: 0x1497148
     System::Net::MonoChunkStream::State ReadCRLF(::Array<uint8_t>* buffer, int& offset, int size);
     // private System.Net.MonoChunkStream/State ReadTrailer(System.Byte[] buffer, ref System.Int32 offset, System.Int32 size)
-    // Offset: 0x150EA34
+    // Offset: 0x1497258
     System::Net::MonoChunkStream::State ReadTrailer(::Array<uint8_t>* buffer, int& offset, int size);
     // static private System.Void ThrowProtocolViolation(System.String message)
-    // Offset: 0x150EEA8
+    // Offset: 0x14976C4
     static void ThrowProtocolViolation(::Il2CppString* message);
   }; // System.Net.MonoChunkStream
   #pragma pack(pop)

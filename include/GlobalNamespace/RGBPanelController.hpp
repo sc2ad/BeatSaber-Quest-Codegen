@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     HMUI::ColorGradientSlider* blueSlider;
     // Field size check
     static_assert(sizeof(HMUI::ColorGradientSlider*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3EAEC
+    // [CompilerGeneratedAttribute] Offset: 0xD2ACA0
     // private System.Action`2<UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
     // Size: 0x8
     // Offset: 0x30
@@ -72,34 +72,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x107CB78
+    // Offset: 0xFA3D00
     void add_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x107CC1C
+    // Offset: 0xFA3DA4
     void remove_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x107CCC0
+    // Offset: 0xFA3E48
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x107CCCC
+    // Offset: 0xFA3E54
     void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0x107CECC
+    // Offset: 0xFA4054
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x107CFD0
+    // Offset: 0xFA4158
     void OnDestroy();
     // private System.Void HandleSliderColorDidChange(HMUI.ColorGradientSlider slider, UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x107D1A4
+    // Offset: 0xFA432C
     void HandleSliderColorDidChange(HMUI::ColorGradientSlider* slider, UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void RefreshSlidersValues()
-    // Offset: 0x107CE74
+    // Offset: 0xFA3FFC
     void RefreshSlidersValues();
     // private System.Void RefreshSlidersColors()
-    // Offset: 0x107CCF8
+    // Offset: 0xFA3E80
     void RefreshSlidersColors();
     // public System.Void .ctor()
-    // Offset: 0x107D248
+    // Offset: 0xFA43D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

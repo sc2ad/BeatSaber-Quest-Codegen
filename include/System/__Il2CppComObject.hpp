@@ -16,9 +16,9 @@ namespace System {
     // Creating value type constructor for type: __Il2CppComObject
     __Il2CppComObject() noexcept {}
     // protected override System.Void Finalize()
-    // Offset: 0x22B1FA0
+    // Offset: 0x20DF134
     // Implemented from: System.Object
-    // Base method: System.Void Object::Finalize()
+    // Base method: System.Void Object::Finalize_NEW()
     void Finalize();
   }; // System.__Il2CppComObject
   #pragma pack(pop)

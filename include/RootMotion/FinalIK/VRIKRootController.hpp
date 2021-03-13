@@ -32,7 +32,7 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class VRIKRootController : public UnityEngine::MonoBehaviour {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD2A834
+    // [CompilerGeneratedAttribute] Offset: 0xD15798
     // private UnityEngine.Vector3 <pelvisTargetRight>k__BackingField
     // Size: 0xC
     // Offset: 0x18
@@ -70,28 +70,28 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Vector3 get_pelvisTargetRight()
-    // Offset: 0x196FFC4
+    // Offset: 0x1926A70
     UnityEngine::Vector3 get_pelvisTargetRight();
     // private System.Void set_pelvisTargetRight(UnityEngine.Vector3 value)
-    // Offset: 0x196FFD0
+    // Offset: 0x1926A7C
     void set_pelvisTargetRight(UnityEngine::Vector3 value);
     // private System.Void Awake()
-    // Offset: 0x196FFDC
+    // Offset: 0x1926A88
     void Awake();
     // public System.Void Calibrate()
-    // Offset: 0x196EA68
+    // Offset: 0x19255D4
     void Calibrate();
     // public System.Void Calibrate(RootMotion.FinalIK.VRIKCalibrator/CalibrationData data)
-    // Offset: 0x196FAF0
+    // Offset: 0x19265DC
     void Calibrate(RootMotion::FinalIK::VRIKCalibrator::CalibrationData* data);
     // private System.Void OnPreUpdate()
-    // Offset: 0x19700D8
+    // Offset: 0x1926B60
     void OnPreUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x197057C
+    // Offset: 0x1927004
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1970698
+    // Offset: 0x19270FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

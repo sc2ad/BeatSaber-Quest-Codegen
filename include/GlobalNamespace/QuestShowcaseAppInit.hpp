@@ -54,21 +54,21 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuScenesTransitionSetupDataSO* menuTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD33588
+    // [SpaceAttribute] Offset: 0xD1E67C
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD335C0
+    // [InjectAttribute] Offset: 0xD1E6B4
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD335D0
+    // [InjectAttribute] Offset: 0xD1E6C4
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x60
@@ -78,27 +78,27 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: QuestShowcaseAppInit
     QuestShowcaseAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::OculusInit* oculusInit_ = {}, GlobalNamespace::MenuScenesTransitionSetupDataSO* menuTransitionSetupData_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}) noexcept : mainSystemInit{mainSystemInit_}, oculusInit{oculusInit_}, menuTransitionSetupData{menuTransitionSetupData_}, mainSettingsModel{mainSettingsModel_}, gameScenesManager{gameScenesManager_}, playerDataModel{playerDataModel_} {}
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xFC0180
+    // Offset: 0xF9E2CC
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
+    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup_NEW()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0xFC019C
+    // Offset: 0xF9E2E8
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::RepeatableSetup()
+    // Base method: System.Void AppInit::RepeatableSetup_NEW()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0xFC0328
+    // Offset: 0xF9E47C
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::TransitionToNextScene()
+    // Base method: System.Void AppInit::TransitionToNextScene_NEW()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0xFC0374
+    // Offset: 0xF9E4C8
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xFC0400
+    // Offset: 0xF9E554
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()

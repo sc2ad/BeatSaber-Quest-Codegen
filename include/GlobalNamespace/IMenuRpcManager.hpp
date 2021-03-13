@@ -47,211 +47,211 @@ namespace GlobalNamespace {
     IMenuRpcManager() noexcept {}
     // public System.Single get_syncTime()
     // Offset: 0xFFFFFFFF
-    float get_syncTime();
+    float get_syncTime_NEW();
     // public System.Void add_getIsReadyEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getIsReadyEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getIsReadyEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getIsReadyEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getIsReadyEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getIsReadyEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_setIsReadyEvent(System.Action`2<System.String,System.Boolean> value)
     // Offset: 0xFFFFFFFF
-    void add_setIsReadyEvent(System::Action_2<::Il2CppString*, bool>* value);
+    void add_setIsReadyEvent_NEW(System::Action_2<::Il2CppString*, bool>* value);
     // public System.Void remove_setIsReadyEvent(System.Action`2<System.String,System.Boolean> value)
     // Offset: 0xFFFFFFFF
-    void remove_setIsReadyEvent(System::Action_2<::Il2CppString*, bool>* value);
+    void remove_setIsReadyEvent_NEW(System::Action_2<::Il2CppString*, bool>* value);
     // public System.Void add_setStartGameTimeEvent(System.Action`2<System.String,System.Single> value)
     // Offset: 0xFFFFFFFF
-    void add_setStartGameTimeEvent(System::Action_2<::Il2CppString*, float>* value);
+    void add_setStartGameTimeEvent_NEW(System::Action_2<::Il2CppString*, float>* value);
     // public System.Void remove_setStartGameTimeEvent(System.Action`2<System.String,System.Single> value)
     // Offset: 0xFFFFFFFF
-    void remove_setStartGameTimeEvent(System::Action_2<::Il2CppString*, float>* value);
+    void remove_setStartGameTimeEvent_NEW(System::Action_2<::Il2CppString*, float>* value);
     // public System.Void add_cancelledLevelStartEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_cancelledLevelStartEvent(System::Action_1<::Il2CppString*>* value);
+    void add_cancelledLevelStartEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_cancelledLevelStartEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_cancelledLevelStartEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_cancelledLevelStartEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_selectedBeatmapEvent(System.Action`2<System.String,BeatmapIdentifierNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void add_selectedBeatmapEvent(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
+    void add_selectedBeatmapEvent_NEW(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
     // public System.Void remove_selectedBeatmapEvent(System.Action`2<System.String,BeatmapIdentifierNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void remove_selectedBeatmapEvent(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
+    void remove_selectedBeatmapEvent_NEW(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
     // public System.Void add_clearSelectedBeatmapEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_clearSelectedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
+    void add_clearSelectedBeatmapEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_clearSelectedBeatmapEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_clearSelectedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_clearSelectedBeatmapEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_getSelectedBeatmapEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getSelectedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getSelectedBeatmapEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getSelectedBeatmapEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getSelectedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getSelectedBeatmapEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_selectedGameplayModifiersEvent(System.Action`2<System.String,GameplayModifiers> value)
     // Offset: 0xFFFFFFFF
-    void add_selectedGameplayModifiersEvent(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>* value);
+    void add_selectedGameplayModifiersEvent_NEW(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_selectedGameplayModifiersEvent(System.Action`2<System.String,GameplayModifiers> value)
     // Offset: 0xFFFFFFFF
-    void remove_selectedGameplayModifiersEvent(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>* value);
+    void remove_selectedGameplayModifiersEvent_NEW(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void add_clearSelectedGameplayModifiersEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_clearSelectedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
+    void add_clearSelectedGameplayModifiersEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_clearSelectedGameplayModifiersEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_clearSelectedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_clearSelectedGameplayModifiersEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_getSelectedGameplayModifiersEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getSelectedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getSelectedGameplayModifiersEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getSelectedGameplayModifiersEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getSelectedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getSelectedGameplayModifiersEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_startedLevelEvent(System.Action`4<System.String,BeatmapIdentifierNetSerializable,GameplayModifiers,System.Single> value)
     // Offset: 0xFFFFFFFF
-    void add_startedLevelEvent(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>* value);
+    void add_startedLevelEvent_NEW(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>* value);
     // public System.Void remove_startedLevelEvent(System.Action`4<System.String,BeatmapIdentifierNetSerializable,GameplayModifiers,System.Single> value)
     // Offset: 0xFFFFFFFF
-    void remove_startedLevelEvent(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>* value);
+    void remove_startedLevelEvent_NEW(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>* value);
     // public System.Void add_getStartedLevelEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getStartedLevelEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getStartedLevelEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getStartedLevelEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getStartedLevelEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getStartedLevelEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_getMultiplayerGameStateEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getMultiplayerGameStateEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getMultiplayerGameStateEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getMultiplayerGameStateEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getMultiplayerGameStateEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getMultiplayerGameStateEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_setMultiplayerGameStateEvent(System.Action`2<System.String,MultiplayerGameState> value)
     // Offset: 0xFFFFFFFF
-    void add_setMultiplayerGameStateEvent(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>* value);
+    void add_setMultiplayerGameStateEvent_NEW(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void remove_setMultiplayerGameStateEvent(System.Action`2<System.String,MultiplayerGameState> value)
     // Offset: 0xFFFFFFFF
-    void remove_setMultiplayerGameStateEvent(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>* value);
+    void remove_setMultiplayerGameStateEvent_NEW(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void add_getIsEntitledToLevelEvent(System.Action`2<System.String,System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getIsEntitledToLevelEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
+    void add_getIsEntitledToLevelEvent_NEW(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
     // public System.Void remove_getIsEntitledToLevelEvent(System.Action`2<System.String,System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getIsEntitledToLevelEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
+    void remove_getIsEntitledToLevelEvent_NEW(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
     // public System.Void add_setIsEntitledToLevelEvent(System.Action`3<System.String,System.String,EntitlementsStatus> value)
     // Offset: 0xFFFFFFFF
-    void add_setIsEntitledToLevelEvent(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>* value);
+    void add_setIsEntitledToLevelEvent_NEW(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>* value);
     // public System.Void remove_setIsEntitledToLevelEvent(System.Action`3<System.String,System.String,EntitlementsStatus> value)
     // Offset: 0xFFFFFFFF
-    void remove_setIsEntitledToLevelEvent(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>* value);
+    void remove_setIsEntitledToLevelEvent_NEW(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>* value);
     // public System.Void add_levelEntitlementStatusesInvalidatedEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_levelEntitlementStatusesInvalidatedEvent(System::Action_1<::Il2CppString*>* value);
+    void add_levelEntitlementStatusesInvalidatedEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_levelEntitlementStatusesInvalidatedEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_levelEntitlementStatusesInvalidatedEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_levelEntitlementStatusesInvalidatedEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_getIsInLobbyEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getIsInLobbyEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getIsInLobbyEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getIsInLobbyEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getIsInLobbyEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getIsInLobbyEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_setIsInLobbyEvent(System.Action`2<System.String,System.Boolean> value)
     // Offset: 0xFFFFFFFF
-    void add_setIsInLobbyEvent(System::Action_2<::Il2CppString*, bool>* value);
+    void add_setIsInLobbyEvent_NEW(System::Action_2<::Il2CppString*, bool>* value);
     // public System.Void remove_setIsInLobbyEvent(System.Action`2<System.String,System.Boolean> value)
     // Offset: 0xFFFFFFFF
-    void remove_setIsInLobbyEvent(System::Action_2<::Il2CppString*, bool>* value);
+    void remove_setIsInLobbyEvent_NEW(System::Action_2<::Il2CppString*, bool>* value);
     // public System.Void add_cancelCountdownEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_cancelCountdownEvent(System::Action_1<::Il2CppString*>* value);
+    void add_cancelCountdownEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_cancelCountdownEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_cancelCountdownEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_cancelCountdownEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_setCountdownEndTimeEvent(System.Action`2<System.String,System.Single> value)
     // Offset: 0xFFFFFFFF
-    void add_setCountdownEndTimeEvent(System::Action_2<::Il2CppString*, float>* value);
+    void add_setCountdownEndTimeEvent_NEW(System::Action_2<::Il2CppString*, float>* value);
     // public System.Void remove_setCountdownEndTimeEvent(System.Action`2<System.String,System.Single> value)
     // Offset: 0xFFFFFFFF
-    void remove_setCountdownEndTimeEvent(System::Action_2<::Il2CppString*, float>* value);
+    void remove_setCountdownEndTimeEvent_NEW(System::Action_2<::Il2CppString*, float>* value);
     // public System.Void add_setOwnedSongPacksEvent(System.Action`2<System.String,SongPackMask> value)
     // Offset: 0xFFFFFFFF
-    void add_setOwnedSongPacksEvent(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>* value);
+    void add_setOwnedSongPacksEvent_NEW(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>* value);
     // public System.Void remove_setOwnedSongPacksEvent(System.Action`2<System.String,SongPackMask> value)
     // Offset: 0xFFFFFFFF
-    void remove_setOwnedSongPacksEvent(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>* value);
+    void remove_setOwnedSongPacksEvent_NEW(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>* value);
     // public System.Void add_getOwnedSongPacksEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getOwnedSongPacksEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getOwnedSongPacksEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getOwnedSongPacksEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getOwnedSongPacksEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getOwnedSongPacksEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void SelectBeatmap(BeatmapIdentifierNetSerializable identifier)
     // Offset: 0xFFFFFFFF
-    void SelectBeatmap(GlobalNamespace::BeatmapIdentifierNetSerializable* identifier);
+    void SelectBeatmap_NEW(GlobalNamespace::BeatmapIdentifierNetSerializable* identifier);
     // public System.Void ClearSelectedBeatmap()
     // Offset: 0xFFFFFFFF
-    void ClearSelectedBeatmap();
+    void ClearSelectedBeatmap_NEW();
     // public System.Void GetSelectedBeatmap()
     // Offset: 0xFFFFFFFF
-    void GetSelectedBeatmap();
+    void GetSelectedBeatmap_NEW();
     // public System.Void SelectGameplayModifiers(GameplayModifiers gameplayModifiers)
     // Offset: 0xFFFFFFFF
-    void SelectGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    void SelectGameplayModifiers_NEW(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void ClearSelectedGameplayModifiers()
     // Offset: 0xFFFFFFFF
-    void ClearSelectedGameplayModifiers();
+    void ClearSelectedGameplayModifiers_NEW();
     // public System.Void GetSelectedGameplayModifiers()
     // Offset: 0xFFFFFFFF
-    void GetSelectedGameplayModifiers();
+    void GetSelectedGameplayModifiers_NEW();
     // public System.Void GetIsReady()
     // Offset: 0xFFFFFFFF
-    void GetIsReady();
+    void GetIsReady_NEW();
     // public System.Void SetIsReady(System.Boolean isReady)
     // Offset: 0xFFFFFFFF
-    void SetIsReady(bool isReady);
+    void SetIsReady_NEW(bool isReady);
     // public System.Void StartLevel(BeatmapIdentifierNetSerializable beatmapId, GameplayModifiers gameplayModifiers, System.Single startTime)
     // Offset: 0xFFFFFFFF
-    void StartLevel(GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::GameplayModifiers* gameplayModifiers, float startTime);
+    void StartLevel_NEW(GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::GameplayModifiers* gameplayModifiers, float startTime);
     // public System.Void GetStartedLevel()
     // Offset: 0xFFFFFFFF
-    void GetStartedLevel();
+    void GetStartedLevel_NEW();
     // public System.Void GetMultiplayerGameState()
     // Offset: 0xFFFFFFFF
-    void GetMultiplayerGameState();
+    void GetMultiplayerGameState_NEW();
     // public System.Void SetMultiplayerGameState(MultiplayerGameState lobbyState)
     // Offset: 0xFFFFFFFF
-    void SetMultiplayerGameState(GlobalNamespace::MultiplayerGameState lobbyState);
+    void SetMultiplayerGameState_NEW(GlobalNamespace::MultiplayerGameState lobbyState);
     // public System.Void CancelLevelStart()
     // Offset: 0xFFFFFFFF
-    void CancelLevelStart();
+    void CancelLevelStart_NEW();
     // public System.Void SetStartGameTime(System.Single newTime)
     // Offset: 0xFFFFFFFF
-    void SetStartGameTime(float newTime);
+    void SetStartGameTime_NEW(float newTime);
     // public System.Void InvalidateLevelEntitlementStatuses()
     // Offset: 0xFFFFFFFF
-    void InvalidateLevelEntitlementStatuses();
+    void InvalidateLevelEntitlementStatuses_NEW();
     // public System.Void SetIsEntitledToLevel(System.String levelId, EntitlementsStatus entitlementStatus)
     // Offset: 0xFFFFFFFF
-    void SetIsEntitledToLevel(::Il2CppString* levelId, GlobalNamespace::EntitlementsStatus entitlementStatus);
+    void SetIsEntitledToLevel_NEW(::Il2CppString* levelId, GlobalNamespace::EntitlementsStatus entitlementStatus);
     // public System.Void GetIsEntitledToLevel(System.String levelId)
     // Offset: 0xFFFFFFFF
-    void GetIsEntitledToLevel(::Il2CppString* levelId);
+    void GetIsEntitledToLevel_NEW(::Il2CppString* levelId);
     // public System.Void GetIsInLobby()
     // Offset: 0xFFFFFFFF
-    void GetIsInLobby();
+    void GetIsInLobby_NEW();
     // public System.Void SetIsInLobby(System.Boolean isBack)
     // Offset: 0xFFFFFFFF
-    void SetIsInLobby(bool isBack);
+    void SetIsInLobby_NEW(bool isBack);
     // public System.Void GetCountdownEndTime()
     // Offset: 0xFFFFFFFF
-    void GetCountdownEndTime();
+    void GetCountdownEndTime_NEW();
     // public System.Void GetOwnedSongPacks()
     // Offset: 0xFFFFFFFF
-    void GetOwnedSongPacks();
+    void GetOwnedSongPacks_NEW();
     // public System.Void SetOwnedSongPacks(SongPackMask songPackMask)
     // Offset: 0xFFFFFFFF
-    void SetOwnedSongPacks(GlobalNamespace::SongPackMask songPackMask);
+    void SetOwnedSongPacks_NEW(GlobalNamespace::SongPackMask songPackMask);
   }; // IMenuRpcManager
   #pragma pack(pop)
 }

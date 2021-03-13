@@ -22,10 +22,10 @@ namespace UnityEngine::UI {
   // Forward declaring type: Image
   class Image;
 }
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Sprite
-  class Sprite;
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: GameplayModifierParamsSO
+  class GameplayModifierParamsSO;
 }
 // Completed forward declares
 // Type namespace: 
@@ -52,14 +52,11 @@ namespace GlobalNamespace {
     GameplayModifierInfoListItem(HMUI::HoverHint* hoverHint_ = {}, UnityEngine::UI::Image* iconImage_ = {}) noexcept : hoverHint{hoverHint_}, iconImage{iconImage_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // public System.Void set_modifierIcon(UnityEngine.Sprite value)
-    // Offset: 0xF37EC8
-    void set_modifierIcon(UnityEngine::Sprite* value);
-    // public System.Void set_hoverHintText(System.String value)
-    // Offset: 0xF37EE4
-    void set_hoverHintText(::Il2CppString* value);
+    // public System.Void SetModifier(GameplayModifierParamsSO modifierParam, System.Boolean showName)
+    // Offset: 0xFE51A4
+    void SetModifier(GlobalNamespace::GameplayModifierParamsSO* modifierParam, bool showName);
     // public System.Void .ctor()
-    // Offset: 0xF3BF70
+    // Offset: 0xFE540C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

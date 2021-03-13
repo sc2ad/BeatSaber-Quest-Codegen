@@ -34,7 +34,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Creating value type constructor for type: ThreefishCipher
     ThreefishCipher(::Array<uint64_t>* t_ = {}, ::Array<uint64_t>* kw_ = {}) noexcept : t{t_}, kw{kw_} {}
     // protected System.Void .ctor(System.UInt64[] kw, System.UInt64[] t)
-    // Offset: 0x1CDA30C
+    // Offset: 0x1C5DD44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreefishEngine::ThreefishCipher* New_ctor(::Array<uint64_t>* kw, ::Array<uint64_t>* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::.ctor");
@@ -42,10 +42,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     }
     // System.Void EncryptBlock(System.UInt64[] block, System.UInt64[] outWords)
     // Offset: 0xFFFFFFFF
-    void EncryptBlock(::Array<uint64_t>* block, ::Array<uint64_t>* outWords);
+    void EncryptBlock_NEW(::Array<uint64_t>* block, ::Array<uint64_t>* outWords);
     // System.Void DecryptBlock(System.UInt64[] block, System.UInt64[] outWords)
     // Offset: 0xFFFFFFFF
-    void DecryptBlock(::Array<uint64_t>* block, ::Array<uint64_t>* outWords);
+    void DecryptBlock_NEW(::Array<uint64_t>* block, ::Array<uint64_t>* outWords);
   }; // Org.BouncyCastle.Crypto.Engines.ThreefishEngine/ThreefishCipher
   #pragma pack(pop)
   static check_size<sizeof(ThreefishEngine::ThreefishCipher), 24 + sizeof(::Array<uint64_t>*)> __Org_BouncyCastle_Crypto_Engines_ThreefishEngine_ThreefishCipherSizeCheck;

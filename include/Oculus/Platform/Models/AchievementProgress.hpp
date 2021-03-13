@@ -56,7 +56,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: AchievementProgress
     AchievementProgress(::Il2CppString* Bitfield_ = {}, uint64_t Count_ = {}, bool IsUnlocked_ = {}, ::Il2CppString* Name_ = {}, System::DateTime UnlockTime_ = {}) noexcept : Bitfield{Bitfield_}, Count{Count_}, IsUnlocked{IsUnlocked_}, Name{Name_}, UnlockTime{UnlockTime_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13F1940
+    // Offset: 0x138C39C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementProgress* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AchievementProgress::.ctor");

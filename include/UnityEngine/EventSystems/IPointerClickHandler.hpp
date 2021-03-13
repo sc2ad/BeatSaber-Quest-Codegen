@@ -29,7 +29,7 @@ namespace UnityEngine::EventSystems {
     }
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     // Offset: 0xFFFFFFFF
-    void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
+    void OnPointerClick_NEW(UnityEngine::EventSystems::PointerEventData* eventData);
   }; // UnityEngine.EventSystems.IPointerClickHandler
   #pragma pack(pop)
 }

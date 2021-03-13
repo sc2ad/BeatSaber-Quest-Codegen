@@ -50,19 +50,19 @@ namespace Org::BouncyCastle::Math::EC::Endo {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
     // public Org.BouncyCastle.Math.EC.Endo.ECEndomorphism get_Endomorphism()
-    // Offset: 0x20985C8
-    Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* get_Endomorphism();
+    // Offset: 0x1F75B5C
+    Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* get_Endomorphism_NEW();
     // public System.Void set_Endomorphism(Org.BouncyCastle.Math.EC.Endo.ECEndomorphism value)
-    // Offset: 0x20985D0
-    void set_Endomorphism(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
+    // Offset: 0x1F75B64
+    void set_Endomorphism_NEW(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_MappedPoint()
-    // Offset: 0x20985D8
-    Org::BouncyCastle::Math::EC::ECPoint* get_MappedPoint();
+    // Offset: 0x1F75B6C
+    Org::BouncyCastle::Math::EC::ECPoint* get_MappedPoint_NEW();
     // public System.Void set_MappedPoint(Org.BouncyCastle.Math.EC.ECPoint value)
-    // Offset: 0x20985E0
-    void set_MappedPoint(Org::BouncyCastle::Math::EC::ECPoint* value);
+    // Offset: 0x1F75B74
+    void set_MappedPoint_NEW(Org::BouncyCastle::Math::EC::ECPoint* value);
     // public System.Void .ctor()
-    // Offset: 0x20985E8
+    // Offset: 0x1F75B7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

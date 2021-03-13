@@ -28,19 +28,19 @@ namespace UnityEngine::UI {
     ICanvasElement() noexcept {}
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate executing)
     // Offset: 0xFFFFFFFF
-    void Rebuild(UnityEngine::UI::CanvasUpdate executing);
+    void Rebuild_NEW(UnityEngine::UI::CanvasUpdate executing);
     // public UnityEngine.Transform get_transform()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
+    UnityEngine::Transform* get_transform_NEW();
     // public System.Void LayoutComplete()
     // Offset: 0xFFFFFFFF
-    void LayoutComplete();
+    void LayoutComplete_NEW();
     // public System.Void GraphicUpdateComplete()
     // Offset: 0xFFFFFFFF
-    void GraphicUpdateComplete();
+    void GraphicUpdateComplete_NEW();
     // public System.Boolean IsDestroyed()
     // Offset: 0xFFFFFFFF
-    bool IsDestroyed();
+    bool IsDestroyed_NEW();
   }; // UnityEngine.UI.ICanvasElement
   #pragma pack(pop)
 }

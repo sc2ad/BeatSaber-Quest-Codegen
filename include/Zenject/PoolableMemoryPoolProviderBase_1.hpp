@@ -43,14 +43,14 @@ namespace Zenject {
   template<typename TContract>
   class PoolableMemoryPoolProviderBase_1 : public ::Il2CppObject/*, public Zenject::IProvider*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD0694C
+    // [CompilerGeneratedAttribute] Offset: 0xCF12B0
     // private System.Guid <PoolId>k__BackingField
     // Size: 0x10
     // Offset: 0x0
     System::Guid PoolId;
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
-    // [CompilerGeneratedAttribute] Offset: 0xD0695C
+    // [CompilerGeneratedAttribute] Offset: 0xCF12C0
     // private Zenject.DiContainer <Container>k__BackingField
     // Size: 0x8
     // Offset: 0x0
@@ -69,6 +69,13 @@ namespace Zenject {
     static PoolableMemoryPoolProviderBase_1<TContract>* New_ctor(Zenject::DiContainer* container, System::Guid poolId) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPoolProviderBase_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolableMemoryPoolProviderBase_1<TContract>*, creationType>(container, poolId)));
+    }
+    // public System.Boolean get_IsCached()
+    // Offset: 0xFFFFFFFF
+    bool get_IsCached_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPoolProviderBase_1::get_IsCached_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
     // protected System.Guid get_PoolId()
     // Offset: 0xFFFFFFFF
@@ -98,40 +105,25 @@ namespace Zenject {
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "set_Container", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
-    // public System.Boolean get_IsCached()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: Zenject.IProvider
-    // Base method: System.Boolean IProvider::get_IsCached()
-    bool get_IsCached() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPoolProviderBase_1::get_IsCached");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
-    }
     // public System.Boolean get_TypeVariesBasedOnMemberType()
     // Offset: 0xFFFFFFFF
-    // Implemented from: Zenject.IProvider
-    // Base method: System.Boolean IProvider::get_TypeVariesBasedOnMemberType()
-    bool get_TypeVariesBasedOnMemberType() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPoolProviderBase_1::get_TypeVariesBasedOnMemberType");
+    bool get_TypeVariesBasedOnMemberType_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPoolProviderBase_1::get_TypeVariesBasedOnMemberType_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
     // Offset: 0xFFFFFFFF
-    // Implemented from: Zenject.IProvider
-    // Base method: System.Type IProvider::GetInstanceType(Zenject.InjectContext context)
-    System::Type* GetInstanceType(Zenject::InjectContext* context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPoolProviderBase_1::GetInstanceType");
+    System::Type* GetInstanceType_NEW(Zenject::InjectContext* context) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPoolProviderBase_1::GetInstanceType_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(context)));
       return ::il2cpp_utils::RunMethodThrow<System::Type*, false>(this, ___internal__method, context);
     }
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     // Offset: 0xFFFFFFFF
-    // Implemented from: Zenject.IProvider
-    // Base method: System.Void IProvider::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPoolProviderBase_1::GetAllInstancesWithInjectSplit");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(context, args, injectAction, buffer)));
+    void GetAllInstancesWithInjectSplit_NEW(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPoolProviderBase_1::GetAllInstancesWithInjectSplit_NEW");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(context, args, injectAction, buffer)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, context, args, injectAction, buffer);
     }
   }; // Zenject.PoolableMemoryPoolProviderBase`1

@@ -43,19 +43,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: BinaryAssembly
     BinaryAssembly(int assemId_ = {}, ::Il2CppString* assemblyString_ = {}) noexcept : assemId{assemId_}, assemblyString{assemblyString_} {}
     // System.Void Set(System.Int32 assemId, System.String assemblyString)
-    // Offset: 0x158F664
+    // Offset: 0x1458904
     void Set(int assemId, ::Il2CppString* assemblyString);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x158F674
-    void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
+    // Offset: 0x1458910
+    void Write_NEW(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x158F6C8
-    void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
+    // Offset: 0x1458964
+    void Read_NEW(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x158F718
+    // Offset: 0x14589E8
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x158F65C
+    // Offset: 0x14588FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

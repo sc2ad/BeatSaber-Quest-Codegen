@@ -71,14 +71,14 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType), 0 + sizeof(int)> __GlobalNamespace_BeatmapObjectExecutionRating_BeatmapObjectExecutionRatingTypeSizeCheck;
     static_assert(sizeof(BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD34880
+    // [CompilerGeneratedAttribute] Offset: 0xD1FA6C
     // private BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType <beatmapObjectRatingType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType beatmapObjectRatingType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD34890
+    // [CompilerGeneratedAttribute] Offset: 0xD1FA7C
     // private System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x14
@@ -88,19 +88,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapObjectExecutionRating
     BeatmapObjectExecutionRating(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType beatmapObjectRatingType_ = {}, float time_ = {}) noexcept : beatmapObjectRatingType{beatmapObjectRatingType_}, time{time_} {}
     // public BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType get_beatmapObjectRatingType()
-    // Offset: 0xF57FF8
+    // Offset: 0xEFBF04
     GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType get_beatmapObjectRatingType();
     // public System.Void set_beatmapObjectRatingType(BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType value)
-    // Offset: 0xF58000
+    // Offset: 0xEFBF0C
     void set_beatmapObjectRatingType(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType value);
     // public System.Single get_time()
-    // Offset: 0xF58008
+    // Offset: 0xEFBF14
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0xF58010
+    // Offset: 0xEFBF1C
     void set_time(float value);
     // public System.Void .ctor()
-    // Offset: 0xF58018
+    // Offset: 0xEFBF24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

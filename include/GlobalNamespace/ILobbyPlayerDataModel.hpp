@@ -22,22 +22,22 @@ namespace GlobalNamespace {
     }
     // public System.Boolean get_isActive()
     // Offset: 0xFFFFFFFF
-    bool get_isActive();
+    bool get_isActive_NEW();
     // public System.Void set_isActive(System.Boolean value)
     // Offset: 0xFFFFFFFF
-    void set_isActive(bool value);
+    void set_isActive_NEW(bool value);
     // public System.Boolean get_isReady()
     // Offset: 0xFFFFFFFF
-    bool get_isReady();
+    bool get_isReady_NEW();
     // public System.Void set_isReady(System.Boolean value)
     // Offset: 0xFFFFFFFF
-    void set_isReady(bool value);
+    void set_isReady_NEW(bool value);
     // public System.Boolean get_isInLobby()
     // Offset: 0xFFFFFFFF
-    bool get_isInLobby();
+    bool get_isInLobby_NEW();
     // public System.Void set_isInLobby(System.Boolean value)
     // Offset: 0xFFFFFFFF
-    void set_isInLobby(bool value);
+    void set_isInLobby_NEW(bool value);
   }; // ILobbyPlayerDataModel
   #pragma pack(pop)
 }

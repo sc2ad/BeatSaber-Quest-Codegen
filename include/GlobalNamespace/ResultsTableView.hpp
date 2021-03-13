@@ -8,8 +8,6 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: HMUI.TableView/IDataSource
 #include "HMUI/TableView_IDataSource.hpp"
-// Including type: MultiplayerResultsTableView
-#include "GlobalNamespace/MultiplayerResultsTableView.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -26,6 +24,8 @@ namespace HMUI {
 namespace GlobalNamespace {
   // Forward declaring type: ResultsTableCell
   class ResultsTableCell;
+  // Forward declaring type: MultiplayerPlayerResultsData
+  class MultiplayerPlayerResultsData;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
@@ -67,14 +67,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: rowHeight and: dataList
     char __padding2[0x4] = {};
-    // private System.Collections.Generic.IReadOnlyList`1<MultiplayerResultsTableView/Data> _dataList
+    // private System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _dataList
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerResultsTableView::Data*>* dataList;
+    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* dataList;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerResultsTableView::Data*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*) == 0x8);
     // Creating value type constructor for type: ResultsTableView
-    ResultsTableView(HMUI::TableView* tableView_ = {}, GlobalNamespace::ResultsTableCell* cellPrefab_ = {}, float rowHeight_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerResultsTableView::Data*>* dataList_ = {}) noexcept : tableView{tableView_}, cellPrefab{cellPrefab_}, rowHeight{rowHeight_}, dataList{dataList_} {}
+    ResultsTableView(HMUI::TableView* tableView_ = {}, GlobalNamespace::ResultsTableCell* cellPrefab_ = {}, float rowHeight_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* dataList_ = {}) noexcept : tableView{tableView_}, cellPrefab{cellPrefab_}, rowHeight{rowHeight_}, dataList{dataList_} {}
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);
@@ -87,26 +87,20 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kCellIdentifier();
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::Il2CppString* value);
-    // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerResultsTableView/Data> dataList)
-    // Offset: 0x107E808
-    void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerResultsTableView::Data*>* dataList);
     // public System.Single CellSize()
-    // Offset: 0x107E590
-    // Implemented from: HMUI.TableView/IDataSource
-    // Base method: System.Single IDataSource::CellSize()
-    float CellSize();
+    // Offset: 0xFA56DC
+    float CellSize_NEW();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x107E598
-    // Implemented from: HMUI.TableView/IDataSource
-    // Base method: System.Int32 IDataSource::NumberOfCells()
-    int NumberOfCells();
+    // Offset: 0xFA56E4
+    int NumberOfCells_NEW();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x107E648
-    // Implemented from: HMUI.TableView/IDataSource
-    // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
+    // Offset: 0xFA5794
+    HMUI::TableCell* CellForIdx_NEW(HMUI::TableView* tableView, int idx);
+    // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> dataList)
+    // Offset: 0xFA5950
+    void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
     // public System.Void .ctor()
-    // Offset: 0x107E84C
+    // Offset: 0xFA597C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -120,7 +114,7 @@ namespace GlobalNamespace {
     }
   }; // ResultsTableView
   #pragma pack(pop)
-  static check_size<sizeof(ResultsTableView), 48 + sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerResultsTableView::Data*>*)> __GlobalNamespace_ResultsTableViewSizeCheck;
+  static check_size<sizeof(ResultsTableView), 48 + sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*)> __GlobalNamespace_ResultsTableViewSizeCheck;
   static_assert(sizeof(ResultsTableView) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsTableView*, "", "ResultsTableView");

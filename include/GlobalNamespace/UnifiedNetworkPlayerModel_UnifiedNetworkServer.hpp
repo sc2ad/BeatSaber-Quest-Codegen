@@ -105,184 +105,120 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayer*>(this);
     }
     // public System.Void .ctor(UnifiedNetworkPlayerModel playerModel, System.String code)
-    // Offset: 0x1717F20
+    // Offset: 0x1084F08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnifiedNetworkPlayerModel::UnifiedNetworkServer* New_ctor(GlobalNamespace::UnifiedNetworkPlayerModel* playerModel, ::Il2CppString* code) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkServer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnifiedNetworkPlayerModel::UnifiedNetworkServer*, creationType>(playerModel, code)));
     }
     // public System.Void Update(System.String serverName, System.Boolean hasPassword, System.Int32 currentPlayerCount, System.Int32 maxPlayerCount, GameplayServerConfiguration configuration)
-    // Offset: 0x1717F70
+    // Offset: 0x1084F40
     void Update(::Il2CppString* serverName, bool hasPassword, int currentPlayerCount, int maxPlayerCount, GlobalNamespace::GameplayServerConfiguration configuration);
-    // public System.String get_code()
-    // Offset: 0x171A1BC
-    ::Il2CppString* get_code();
-    // public System.String get_serverName()
-    // Offset: 0x171A1CC
-    ::Il2CppString* get_serverName();
-    // public System.Boolean get_hasTimedOut()
-    // Offset: 0x171A228
-    bool get_hasTimedOut();
     // private System.String INetworkPlayer.get_userId()
-    // Offset: 0x171A1B4
-    // Implemented from: INetworkPlayer
-    // Base method: System.String INetworkPlayer::get_userId()
-    ::Il2CppString* GlobalNamespace_INetworkPlayer_get_userId();
+    // Offset: 0x1086EF4
+    ::Il2CppString* INetworkPlayer_get_userId_NEW();
+    // public System.String get_code()
+    // Offset: 0x1086EFC
+    ::Il2CppString* get_code();
     // private System.String INetworkPlayer.get_userName()
-    // Offset: 0x171A1C4
-    // Implemented from: INetworkPlayer
-    // Base method: System.String INetworkPlayer::get_userName()
-    ::Il2CppString* GlobalNamespace_INetworkPlayer_get_userName();
+    // Offset: 0x1086F04
+    ::Il2CppString* INetworkPlayer_get_userName_NEW();
+    // public System.String get_serverName()
+    // Offset: 0x1086F0C
+    ::Il2CppString* get_serverName();
     // public System.Boolean get_isMe()
-    // Offset: 0x171A1D4
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_isMe()
-    bool get_isMe();
+    // Offset: 0x1086F14
+    bool get_isMe_NEW();
     // public System.Int32 get_currentPartySize()
-    // Offset: 0x171A1DC
-    // Implemented from: INetworkPlayer
-    // Base method: System.Int32 INetworkPlayer::get_currentPartySize()
-    int get_currentPartySize();
+    // Offset: 0x1086F1C
+    int get_currentPartySize_NEW();
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x171A1E4
-    // Implemented from: INetworkPlayer
-    // Base method: System.Int32 INetworkPlayer::get_maxPartySize()
-    int get_maxPartySize();
+    // Offset: 0x1086F24
+    int get_maxPartySize_NEW();
     // public BeatmapDifficultyMask get_difficulties()
-    // Offset: 0x171A1EC
-    // Implemented from: INetworkPlayer
-    // Base method: BeatmapDifficultyMask INetworkPlayer::get_difficulties()
-    GlobalNamespace::BeatmapDifficultyMask get_difficulties();
+    // Offset: 0x1086F2C
+    GlobalNamespace::BeatmapDifficultyMask get_difficulties_NEW();
     // public GameplayModifierMask get_modifiers()
-    // Offset: 0x171A1F4
-    // Implemented from: INetworkPlayer
-    // Base method: GameplayModifierMask INetworkPlayer::get_modifiers()
-    GlobalNamespace::GameplayModifierMask get_modifiers();
+    // Offset: 0x1086F34
+    GlobalNamespace::GameplayModifierMask get_modifiers_NEW();
     // public SongPackMask get_songPacks()
-    // Offset: 0x171A1FC
-    // Implemented from: INetworkPlayer
-    // Base method: SongPackMask INetworkPlayer::get_songPacks()
-    GlobalNamespace::SongPackMask get_songPacks();
+    // Offset: 0x1086F3C
+    GlobalNamespace::SongPackMask get_songPacks_NEW();
     // public System.Boolean get_isMyPartyOwner()
-    // Offset: 0x171A208
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_isMyPartyOwner()
-    bool get_isMyPartyOwner();
+    // Offset: 0x1086F48
+    bool get_isMyPartyOwner_NEW();
     // public System.Boolean get_isOpenParty()
-    // Offset: 0x171A210
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_isOpenParty()
-    bool get_isOpenParty();
+    // Offset: 0x1086F50
+    bool get_isOpenParty_NEW();
     // public System.Boolean get_isConnected()
-    // Offset: 0x171A220
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_isConnected()
-    bool get_isConnected();
+    // Offset: 0x1086F60
+    bool get_isConnected_NEW();
+    // public System.Boolean get_hasTimedOut()
+    // Offset: 0x1082A5C
+    bool get_hasTimedOut();
     // public System.Boolean get_isPlayer()
-    // Offset: 0x171A25C
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_isPlayer()
-    bool get_isPlayer();
+    // Offset: 0x1086F68
+    bool get_isPlayer_NEW();
     // public System.Boolean get_isSpectating()
-    // Offset: 0x171A264
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_isSpectating()
-    bool get_isSpectating();
+    // Offset: 0x1086F70
+    bool get_isSpectating_NEW();
     // public System.Boolean get_isDedicatedServer()
-    // Offset: 0x171A26C
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_isDedicatedServer()
-    bool get_isDedicatedServer();
+    // Offset: 0x1086F78
+    bool get_isDedicatedServer_NEW();
     // public System.Boolean get_canJoin()
-    // Offset: 0x171A274
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_canJoin()
-    bool get_canJoin();
+    // Offset: 0x1086F80
+    bool get_canJoin_NEW();
     // public System.Void Join()
-    // Offset: 0x171A27C
-    // Implemented from: INetworkPlayer
-    // Base method: System.Void INetworkPlayer::Join()
-    void Join();
+    // Offset: 0x1086F88
+    void Join_NEW();
     // public System.Boolean get_requiresPassword()
-    // Offset: 0x171A2A4
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_requiresPassword()
-    bool get_requiresPassword();
+    // Offset: 0x1086FAC
+    bool get_requiresPassword_NEW();
     // public System.Void Join(System.String password)
-    // Offset: 0x171A2AC
-    // Implemented from: INetworkPlayer
-    // Base method: System.Void INetworkPlayer::Join(System.String password)
-    void Join(::Il2CppString* password);
+    // Offset: 0x1086FB4
+    void Join_NEW(::Il2CppString* password);
     // public System.Boolean get_isWaitingOnJoin()
-    // Offset: 0x171A2D4
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_isWaitingOnJoin()
-    bool get_isWaitingOnJoin();
+    // Offset: 0x1086FD8
+    bool get_isWaitingOnJoin_NEW();
     // public System.Boolean get_canInvite()
-    // Offset: 0x171A2DC
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_canInvite()
-    bool get_canInvite();
+    // Offset: 0x1086FE0
+    bool get_canInvite_NEW();
     // public System.Void Invite()
-    // Offset: 0x171A2E4
-    // Implemented from: INetworkPlayer
-    // Base method: System.Void INetworkPlayer::Invite()
-    void Invite();
+    // Offset: 0x1086FE8
+    void Invite_NEW();
     // public System.Boolean get_isWaitingOnInvite()
-    // Offset: 0x171A2E8
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_isWaitingOnInvite()
-    bool get_isWaitingOnInvite();
+    // Offset: 0x1086FEC
+    bool get_isWaitingOnInvite_NEW();
     // public System.Boolean get_canKick()
-    // Offset: 0x171A2F0
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_canKick()
-    bool get_canKick();
+    // Offset: 0x1086FF4
+    bool get_canKick_NEW();
     // public System.Void Kick()
-    // Offset: 0x171A2F8
-    // Implemented from: INetworkPlayer
-    // Base method: System.Void INetworkPlayer::Kick()
-    void Kick();
+    // Offset: 0x1086FFC
+    void Kick_NEW();
     // public System.Boolean get_canLeave()
-    // Offset: 0x171A2FC
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_canLeave()
-    bool get_canLeave();
+    // Offset: 0x1087000
+    bool get_canLeave_NEW();
     // public System.Void Leave()
-    // Offset: 0x171A304
-    // Implemented from: INetworkPlayer
-    // Base method: System.Void INetworkPlayer::Leave()
-    void Leave();
+    // Offset: 0x1087008
+    void Leave_NEW();
     // public System.Boolean get_canBlock()
-    // Offset: 0x171A308
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_canBlock()
-    bool get_canBlock();
+    // Offset: 0x108700C
+    bool get_canBlock_NEW();
     // public System.Void Block()
-    // Offset: 0x171A310
-    // Implemented from: INetworkPlayer
-    // Base method: System.Void INetworkPlayer::Block()
-    void Block();
+    // Offset: 0x1087014
+    void Block_NEW();
     // public System.Boolean get_canUnblock()
-    // Offset: 0x171A314
-    // Implemented from: INetworkPlayer
-    // Base method: System.Boolean INetworkPlayer::get_canUnblock()
-    bool get_canUnblock();
+    // Offset: 0x1087018
+    bool get_canUnblock_NEW();
     // public System.Void Unblock()
-    // Offset: 0x171A31C
-    // Implemented from: INetworkPlayer
-    // Base method: System.Void INetworkPlayer::Unblock()
-    void Unblock();
+    // Offset: 0x1087020
+    void Unblock_NEW();
     // public System.Void SendJoinResponse(System.Boolean accept)
-    // Offset: 0x171A320
-    // Implemented from: INetworkPlayer
-    // Base method: System.Void INetworkPlayer::SendJoinResponse(System.Boolean accept)
-    void SendJoinResponse(bool accept);
+    // Offset: 0x1087024
+    void SendJoinResponse_NEW(bool accept);
     // public System.Void SendInviteResponse(System.Boolean accept)
-    // Offset: 0x171A324
-    // Implemented from: INetworkPlayer
-    // Base method: System.Void INetworkPlayer::SendInviteResponse(System.Boolean accept)
-    void SendInviteResponse(bool accept);
+    // Offset: 0x1087028
+    void SendInviteResponse_NEW(bool accept);
   }; // UnifiedNetworkPlayerModel/UnifiedNetworkServer
   #pragma pack(pop)
   static check_size<sizeof(UnifiedNetworkPlayerModel::UnifiedNetworkServer), 72 + sizeof(float)> __GlobalNamespace_UnifiedNetworkPlayerModel_UnifiedNetworkServerSizeCheck;

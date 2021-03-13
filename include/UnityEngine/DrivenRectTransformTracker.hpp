@@ -33,10 +33,10 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void Add(UnityEngine.Object driver, UnityEngine.RectTransform rectTransform, UnityEngine.DrivenTransformProperties drivenProperties)
-    // Offset: 0xE12EC4
+    // Offset: 0xDFC6CC
     void Add(UnityEngine::Object* driver, UnityEngine::RectTransform* rectTransform, UnityEngine::DrivenTransformProperties drivenProperties);
     // public System.Void Clear()
-    // Offset: 0xE12EC8
+    // Offset: 0xDFC6D0
     void Clear();
   }; // UnityEngine.DrivenRectTransformTracker
   #pragma pack(pop)

@@ -40,7 +40,7 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static readonly System.Threading.Tasks.Task`1<System.Int32>[] Int32Tasks
     static void _set_Int32Tasks(::Array<System::Threading::Tasks::Task_1<int>*>* value);
     // static private System.Threading.Tasks.Task`1<System.Int32>[] CreateInt32Tasks()
-    // Offset: 0x13090B8
+    // Offset: 0x12FE798
     static ::Array<System::Threading::Tasks::Task_1<int>*>* CreateInt32Tasks();
     // static System.Threading.Tasks.Task`1<TResult> CreateCacheableTask(TResult result)
     // Offset: 0xFFFFFFFF
@@ -52,7 +52,7 @@ namespace System::Runtime::CompilerServices {
       return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, result);
     }
     // static private System.Void .cctor()
-    // Offset: 0x13091E0
+    // Offset: 0x12FE8A0
     static void _cctor();
   }; // System.Runtime.CompilerServices.AsyncTaskCache
   #pragma pack(pop)

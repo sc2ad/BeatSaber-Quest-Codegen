@@ -38,8 +38,8 @@ namespace NUnit::Compatibility {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class AdditionalTypeExtensions : public ::Il2CppObject {
     public:
-    // Nested type: NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass1
-    class $$c__DisplayClass1;
+    // Nested type: NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0
+    class $$c__DisplayClass2_0;
     // Creating value type constructor for type: AdditionalTypeExtensions
     AdditionalTypeExtensions() noexcept {}
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.Type>> convertibleValueTypes
@@ -47,13 +47,13 @@ namespace NUnit::Compatibility {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.Type>> convertibleValueTypes
     static void _set_convertibleValueTypes(System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::List_1<System::Type*>*>* value);
     // static public System.Boolean ParametersMatch(System.Reflection.ParameterInfo[] pinfos, System.Type[] ptypes)
-    // Offset: 0x1693BAC
+    // Offset: 0x1598548
     static bool ParametersMatch(::Array<System::Reflection::ParameterInfo*>* pinfos, ::Array<System::Type*>* ptypes);
     // static public System.Boolean IsCastableFrom(System.Type to, System.Type from)
-    // Offset: 0x1693CC0
+    // Offset: 0x159865C
     static bool IsCastableFrom(System::Type* to, System::Type* from);
     // static private System.Void .cctor()
-    // Offset: 0x1693F1C
+    // Offset: 0x15988A8
     static void _cctor();
   }; // NUnit.Compatibility.AdditionalTypeExtensions
   #pragma pack(pop)

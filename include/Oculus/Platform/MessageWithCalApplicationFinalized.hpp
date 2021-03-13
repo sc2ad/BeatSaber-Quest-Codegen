@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithCalApplicationFinalized
     MessageWithCalApplicationFinalized() noexcept {}
     // protected Oculus.Platform.Models.CalApplicationFinalized GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x13E9D58
+    // Offset: 0x1383FD8
     Oculus::Platform::Models::CalApplicationFinalized* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x13E6950
+    // Offset: 0x1380AB0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,9 +41,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithCalApplicationFinalized*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.CalApplicationFinalized GetCalApplicationFinalized()
-    // Offset: 0x13E9D14
+    // Offset: 0x1383F94
     // Implemented from: Oculus.Platform.Message
-    // Base method: Oculus.Platform.Models.CalApplicationFinalized Message::GetCalApplicationFinalized()
+    // Base method: Oculus.Platform.Models.CalApplicationFinalized Message::GetCalApplicationFinalized_NEW()
     Oculus::Platform::Models::CalApplicationFinalized* GetCalApplicationFinalized();
   }; // Oculus.Platform.MessageWithCalApplicationFinalized
 }

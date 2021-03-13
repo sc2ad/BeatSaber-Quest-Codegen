@@ -43,22 +43,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_logString()
-    // Offset: 0x10446F4
+    // Offset: 0xFD8020
     ::Il2CppString* get_logString();
     // public System.String get_stackTrace()
-    // Offset: 0x10446FC
+    // Offset: 0xFD8028
     ::Il2CppString* get_stackTrace();
     // public System.Void StartCatchingExceptions()
-    // Offset: 0x1044704
+    // Offset: 0xFD8030
     void StartCatchingExceptions();
     // protected System.Void OnDisable()
-    // Offset: 0x1044778
+    // Offset: 0xFD80A4
     void OnDisable();
     // private System.Void HandleLog(System.String logString, System.String stackTrace, UnityEngine.LogType type)
-    // Offset: 0x10447EC
+    // Offset: 0xFD8118
     void HandleLog(::Il2CppString* logString, ::Il2CppString* stackTrace, UnityEngine::LogType type);
     // public System.Void .ctor()
-    // Offset: 0x104488C
+    // Offset: 0xFD81BC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

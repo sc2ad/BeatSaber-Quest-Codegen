@@ -39,39 +39,23 @@ namespace System::Net {
     static ::Array<uint8_t>* _get_AsciiToLower();
     // Set static field: static readonly System.Byte[] AsciiToLower
     static void _set_AsciiToLower(::Array<uint8_t>* value);
-    // private System.Int32 FastGetHashCode(System.String myString)
-    // Offset: 0x155A748
-    int FastGetHashCode(::Il2CppString* myString);
-    // static private System.Void .cctor()
-    // Offset: 0x155A9E4
-    static void _cctor();
     // public System.Int32 GetHashCode(System.Object myObject)
-    // Offset: 0x155A4A0
-    // Implemented from: System.Collections.IEqualityComparer
-    // Base method: System.Int32 IEqualityComparer::GetHashCode(System.Object myObject)
-    int GetHashCode(::Il2CppObject* myObject);
-    // Creating proxy method: System_Collections_IEqualityComparer_GetHashCode
-    // Maps to method: GetHashCode
-    int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* myObject);
+    // Offset: 0x14C32FC
+    int GetHashCode_NEW(::Il2CppObject* myObject);
     // public System.Int32 Compare(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x155A5C4
-    // Implemented from: System.Collections.IComparer
-    // Base method: System.Int32 IComparer::Compare(System.Object firstObject, System.Object secondObject)
-    int Compare(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
-    // Creating proxy method: System_Collections_IComparer_Compare
-    // Maps to method: Compare
-    int System_Collections_IComparer_Compare(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
+    // Offset: 0x14C3420
+    int Compare_NEW(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
+    // private System.Int32 FastGetHashCode(System.String myString)
+    // Offset: 0x14C35A4
+    int FastGetHashCode(::Il2CppString* myString);
     // public System.Boolean Equals(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x155A850
-    // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object firstObject, System.Object secondObject)
-    // Base method: System.Boolean IEqualityComparer::Equals(System.Object firstObject, System.Object secondObject)
-    bool Equals(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
-    // Creating proxy method: System_Collections_IEqualityComparer_Equals
-    // Maps to method: Equals
-    bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
+    // Offset: 0x14C36AC
+    bool Equals_NEW(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
+    // static private System.Void .cctor()
+    // Offset: 0x14C3840
+    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x155A9DC
+    // Offset: 0x14C3838
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

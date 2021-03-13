@@ -18,8 +18,6 @@ namespace GlobalNamespace {
   class IMultiplayerSessionManager;
   // Forward declaring type: IGameplayRpcManager
   class IGameplayRpcManager;
-  // Forward declaring type: PlayersAtGameStartModel
-  class PlayersAtGameStartModel;
   // Forward declaring type: SongStartHandler
   class SongStartHandler;
 }
@@ -40,70 +38,69 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class SongStartSyncController : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xD36650
+    // [InjectAttribute] Offset: 0xD21934
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD36660
+    // [InjectAttribute] Offset: 0xD21944
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD36670
-    // private readonly PlayersAtGameStartModel _playersAtGameStartModel
-    // Size: 0x8
-    // Offset: 0x28
-    GlobalNamespace::PlayersAtGameStartModel* playersAtGameStartModel;
-    // Field size check
-    static_assert(sizeof(GlobalNamespace::PlayersAtGameStartModel*) == 0x8);
     // private System.Single _waitStartTime
     // Size: 0x4
-    // Offset: 0x30
+    // Offset: 0x28
     float waitStartTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // private System.Boolean _songStarted
     // Size: 0x1
-    // Offset: 0x34
+    // Offset: 0x2C
     bool songStarted;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: songStarted and: startTime
-    char __padding4[0x3] = {};
+    char __padding3[0x3] = {};
     // private System.Single _startTime
     // Size: 0x4
-    // Offset: 0x38
+    // Offset: 0x30
     float startTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Padding between fields: startTime and: songStartHandler
-    char __padding5[0x4] = {};
+    // Padding between fields: startTime and: sessionGameId
+    char __padding4[0x4] = {};
+    // private System.String _sessionGameId
+    // Size: 0x8
+    // Offset: 0x38
+    ::Il2CppString* sessionGameId;
+    // Field size check
+    static_assert(sizeof(::Il2CppString*) == 0x8);
     // private SongStartHandler _songStartHandler
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::SongStartHandler* songStartHandler;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongStartHandler*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD36680
+    // [CompilerGeneratedAttribute] Offset: 0xD21954
     // private System.Action syncStartFailedEvent
     // Size: 0x8
     // Offset: 0x48
     System::Action* syncStartFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD36690
+    // [CompilerGeneratedAttribute] Offset: 0xD21964
     // private System.Action`1<System.Single> syncStartSuccessEvent
     // Size: 0x8
     // Offset: 0x50
     System::Action_1<float>* syncStartSuccessEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD366A0
+    // [CompilerGeneratedAttribute] Offset: 0xD21974
     // private System.Action`1<System.Single> syncResumeEvent
     // Size: 0x8
     // Offset: 0x58
@@ -111,7 +108,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
     // Creating value type constructor for type: SongStartSyncController
-    SongStartSyncController(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager_ = {}, GlobalNamespace::PlayersAtGameStartModel* playersAtGameStartModel_ = {}, float waitStartTime_ = {}, bool songStarted_ = {}, float startTime_ = {}, GlobalNamespace::SongStartHandler* songStartHandler_ = {}, System::Action* syncStartFailedEvent_ = {}, System::Action_1<float>* syncStartSuccessEvent_ = {}, System::Action_1<float>* syncResumeEvent_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_}, gameplayRpcManager{gameplayRpcManager_}, playersAtGameStartModel{playersAtGameStartModel_}, waitStartTime{waitStartTime_}, songStarted{songStarted_}, startTime{startTime_}, songStartHandler{songStartHandler_}, syncStartFailedEvent{syncStartFailedEvent_}, syncStartSuccessEvent{syncStartSuccessEvent_}, syncResumeEvent{syncResumeEvent_} {}
+    SongStartSyncController(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager_ = {}, float waitStartTime_ = {}, bool songStarted_ = {}, float startTime_ = {}, ::Il2CppString* sessionGameId_ = {}, GlobalNamespace::SongStartHandler* songStartHandler_ = {}, System::Action* syncStartFailedEvent_ = {}, System::Action_1<float>* syncStartSuccessEvent_ = {}, System::Action_1<float>* syncResumeEvent_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_}, gameplayRpcManager{gameplayRpcManager_}, waitStartTime{waitStartTime_}, songStarted{songStarted_}, startTime{startTime_}, sessionGameId{sessionGameId_}, songStartHandler{songStartHandler_}, syncStartFailedEvent{syncStartFailedEvent_}, syncStartSuccessEvent{syncStartSuccessEvent_}, syncResumeEvent{syncResumeEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kAudioLoadTimeoutForceStart
@@ -127,49 +124,49 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kAudioLoadTimeout
     static void _set_kAudioLoadTimeout(float value);
     // public System.Boolean get_isSongStarted()
-    // Offset: 0xF7261C
+    // Offset: 0x100CC04
     bool get_isSongStarted();
     // public System.Single get_songStartSyncTime()
-    // Offset: 0xF72624
+    // Offset: 0x100CC0C
     float get_songStartSyncTime();
     // public System.Void add_syncStartFailedEvent(System.Action value)
-    // Offset: 0xF72640
+    // Offset: 0x100CC28
     void add_syncStartFailedEvent(System::Action* value);
     // public System.Void remove_syncStartFailedEvent(System.Action value)
-    // Offset: 0xF726E4
+    // Offset: 0x100CCCC
     void remove_syncStartFailedEvent(System::Action* value);
     // public System.Void add_syncStartSuccessEvent(System.Action`1<System.Single> value)
-    // Offset: 0xF72788
+    // Offset: 0x100CD70
     void add_syncStartSuccessEvent(System::Action_1<float>* value);
     // public System.Void remove_syncStartSuccessEvent(System.Action`1<System.Single> value)
-    // Offset: 0xF7282C
+    // Offset: 0x100CE14
     void remove_syncStartSuccessEvent(System::Action_1<float>* value);
     // public System.Void add_syncResumeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xF728D0
+    // Offset: 0x100CEB8
     void add_syncResumeEvent(System::Action_1<float>* value);
     // public System.Void remove_syncResumeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xF72974
+    // Offset: 0x100CF5C
     void remove_syncResumeEvent(System::Action_1<float>* value);
     // protected System.Void Start()
-    // Offset: 0xF72A18
+    // Offset: 0x100D000
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF72A24
+    // Offset: 0x100D00C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xF72A38
+    // Offset: 0x100D020
     void Update();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0xF72B6C
+    // Offset: 0x100D150
     void OnApplicationPause(bool pauseStatus);
-    // public System.Void StartSong()
-    // Offset: 0xF72BF8
-    void StartSong();
+    // public System.Void StartSong(System.String sessionGameId)
+    // Offset: 0x100D1DC
+    void StartSong(::Il2CppString* sessionGameId);
     // private System.Void HandleSetSongStartSyncTime(System.Single songStartSyncTime)
-    // Offset: 0xF72D50
+    // Offset: 0x100D314
     void HandleSetSongStartSyncTime(float songStartSyncTime);
     // public System.Void .ctor()
-    // Offset: 0xF72DD4
+    // Offset: 0x100D398
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -6,8 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: BeatmapObjectCallbackController
-#include "GlobalNamespace/BeatmapObjectCallbackController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -16,10 +14,14 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: BeatmapEventData
-  class BeatmapEventData;
+  // Forward declaring type: IBeatmapObjectCallbackController
+  class IBeatmapObjectCallbackController;
   // Forward declaring type: SpawnRotationProcessor
   class SpawnRotationProcessor;
+  // Forward declaring type: BeatmapEventCallbackData
+  class BeatmapEventCallbackData;
+  // Forward declaring type: BeatmapEventData
+  class BeatmapEventData;
 }
 // Completed forward declares
 // Type namespace: 
@@ -42,25 +44,25 @@ namespace GlobalNamespace {
     float smooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xD39458
-    // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // [InjectAttribute] Offset: 0xD24B50
+    // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
+    GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
     // private readonly SpawnRotationProcessor _spawnRotationProcessor
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::SpawnRotationProcessor* spawnRotationProcessor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SpawnRotationProcessor*) == 0x8);
-    // private BeatmapObjectCallbackController/BeatmapEventCallbackData _eventCallbackData
+    // private BeatmapEventCallbackData _eventCallbackData
     // Size: 0x8
     // Offset: 0x30
-    GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData* eventCallbackData;
+    GlobalNamespace::BeatmapEventCallbackData* eventCallbackData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::BeatmapEventCallbackData*) == 0x8);
     // private System.Single _currentRotation
     // Size: 0x4
     // Offset: 0x38
@@ -74,29 +76,29 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: RotateBySpawnRotation
-    RotateBySpawnRotation(float aheadTime_ = {}, float smooth_ = {}, GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::SpawnRotationProcessor* spawnRotationProcessor_ = {}, GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData* eventCallbackData_ = {}, float currentRotation_ = {}, float prevRotation_ = {}) noexcept : aheadTime{aheadTime_}, smooth{smooth_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, spawnRotationProcessor{spawnRotationProcessor_}, eventCallbackData{eventCallbackData_}, currentRotation{currentRotation_}, prevRotation{prevRotation_} {}
+    RotateBySpawnRotation(float aheadTime_ = {}, float smooth_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::SpawnRotationProcessor* spawnRotationProcessor_ = {}, GlobalNamespace::BeatmapEventCallbackData* eventCallbackData_ = {}, float currentRotation_ = {}, float prevRotation_ = {}) noexcept : aheadTime{aheadTime_}, smooth{smooth_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, spawnRotationProcessor{spawnRotationProcessor_}, eventCallbackData{eventCallbackData_}, currentRotation{currentRotation_}, prevRotation{prevRotation_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1081020
+    // Offset: 0xFA805C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1081040
+    // Offset: 0xFA807C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1081158
+    // Offset: 0xFA81F8
     void OnDestroy();
     // private System.Void BeatmapEventAtNoteSpawnCallback(BeatmapEventData beatmapEventData)
-    // Offset: 0x108117C
+    // Offset: 0xFA82B4
     void BeatmapEventAtNoteSpawnCallback(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // protected System.Void FixedUpdate()
-    // Offset: 0x108128C
+    // Offset: 0xFA83C4
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x1081368
+    // Offset: 0xFA84A0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1081498
+    // Offset: 0xFA85D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

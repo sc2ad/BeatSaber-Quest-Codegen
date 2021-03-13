@@ -39,15 +39,15 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public BloomPrePassGraphicsSettingsPresetsSO/Preset[] get_presets()
-    // Offset: 0xF60A30
+    // Offset: 0xF04E90
     ::Array<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>* get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0xF60A38
+    // Offset: 0xF04E98
     // Implemented from: NamedPresetsSO
-    // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
+    // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets_NEW()
     ::Array<GlobalNamespace::NamedPreset*>* get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0xF60A40
+    // Offset: 0xF04EA0
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

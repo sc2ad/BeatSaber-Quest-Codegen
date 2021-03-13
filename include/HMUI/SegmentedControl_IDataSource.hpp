@@ -25,10 +25,10 @@ namespace HMUI {
     IDataSource() noexcept {}
     // public System.Int32 NumberOfCells()
     // Offset: 0xFFFFFFFF
-    int NumberOfCells();
+    int NumberOfCells_NEW();
     // public HMUI.SegmentedControlCell CellForCellNumber(System.Int32 cellNumber)
     // Offset: 0xFFFFFFFF
-    HMUI::SegmentedControlCell* CellForCellNumber(int cellNumber);
+    HMUI::SegmentedControlCell* CellForCellNumber_NEW(int cellNumber);
   }; // HMUI.SegmentedControl/IDataSource
   #pragma pack(pop)
 }

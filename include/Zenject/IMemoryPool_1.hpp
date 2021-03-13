@@ -26,9 +26,9 @@ namespace Zenject {
     }
     // public TValue Spawn()
     // Offset: 0xFFFFFFFF
-    TValue Spawn() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IMemoryPool_1::Spawn");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+    TValue Spawn_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IMemoryPool_1::Spawn_NEW");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method);
     }
   }; // Zenject.IMemoryPool`1

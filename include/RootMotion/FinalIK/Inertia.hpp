@@ -28,14 +28,14 @@ namespace RootMotion::FinalIK {
     char ___base_padding[0x4] = {};
     // Nested type: RootMotion::FinalIK::Inertia::Body
     class Body;
-    // [TooltipAttribute] Offset: 0xD2A108
+    // [TooltipAttribute] Offset: 0xD1506C
     // public RootMotion.FinalIK.Inertia/Body[] bodies
     // Size: 0x8
     // Offset: 0x30
     ::Array<RootMotion::FinalIK::Inertia::Body*>* bodies;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::Inertia::Body*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD2A140
+    // [TooltipAttribute] Offset: 0xD150A4
     // public RootMotion.FinalIK.OffsetModifier/OffsetLimits[] limits
     // Size: 0x8
     // Offset: 0x38
@@ -45,15 +45,15 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Inertia
     Inertia(::Array<RootMotion::FinalIK::Inertia::Body*>* bodies_ = {}, ::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>* limits_ = {}) noexcept : bodies{bodies_}, limits{limits_} {}
     // public System.Void ResetBodies()
-    // Offset: 0x1C3246C
+    // Offset: 0x1BF2064
     void ResetBodies();
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1C325C0
+    // Offset: 0x1BF21B8
     // Implemented from: RootMotion.FinalIK.OffsetModifier
-    // Base method: System.Void OffsetModifier::OnModifyOffset()
+    // Base method: System.Void OffsetModifier::OnModifyOffset_NEW()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x1C329F4
+    // Offset: 0x1BF25EC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

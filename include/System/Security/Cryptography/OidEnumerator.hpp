@@ -45,33 +45,21 @@ namespace System::Security::Cryptography {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // System.Void .ctor(System.Security.Cryptography.OidCollection oids)
-    // Offset: 0x1770B64
+    // Offset: 0x16A3B14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OidEnumerator* New_ctor(System::Security::Cryptography::OidCollection* oids) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::OidEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OidEnumerator*, creationType>(oids)));
     }
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1770D9C
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Object IEnumerator::get_Current()
-    ::Il2CppObject* System_Collections_IEnumerator_get_Current();
+    // Offset: 0x16A3D40
+    ::Il2CppObject* System_Collections_IEnumerator_get_Current_NEW();
     // public System.Boolean MoveNext()
-    // Offset: 0x1770DBC
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Boolean IEnumerator::MoveNext()
-    bool MoveNext();
-    // Creating proxy method: System_Collections_IEnumerator_MoveNext
-    // Maps to method: MoveNext
-    bool System_Collections_IEnumerator_MoveNext();
+    // Offset: 0x16A3D60
+    bool MoveNext_NEW();
     // public System.Void Reset()
-    // Offset: 0x1770E24
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Void IEnumerator::Reset()
-    void Reset();
-    // Creating proxy method: System_Collections_IEnumerator_Reset
-    // Maps to method: Reset
-    void System_Collections_IEnumerator_Reset();
+    // Offset: 0x16A3DC8
+    void Reset_NEW();
   }; // System.Security.Cryptography.OidEnumerator
   #pragma pack(pop)
   static check_size<sizeof(OidEnumerator), 24 + sizeof(int)> __System_Security_Cryptography_OidEnumeratorSizeCheck;

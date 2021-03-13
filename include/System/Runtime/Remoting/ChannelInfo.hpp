@@ -36,14 +36,17 @@ namespace System::Runtime::Remoting {
       return channelData;
     }
     // public System.Void .ctor(System.Object remoteChannelData)
-    // Offset: 0x1310978
+    // Offset: 0x1305B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChannelInfo* New_ctor(::Il2CppObject* remoteChannelData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ChannelInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChannelInfo*, creationType>(remoteChannelData)));
     }
+    // public System.Object[] get_ChannelData()
+    // Offset: 0x1305C2C
+    ::Array<::Il2CppObject*>* get_ChannelData_NEW();
     // public System.Void .ctor()
-    // Offset: 0x1310524
+    // Offset: 0x1305744
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,11 +54,6 @@ namespace System::Runtime::Remoting {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ChannelInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChannelInfo*, creationType>()));
     }
-    // public System.Object[] get_ChannelData()
-    // Offset: 0x1310A44
-    // Implemented from: System.Runtime.Remoting.IChannelInfo
-    // Base method: System.Object[] IChannelInfo::get_ChannelData()
-    ::Array<::Il2CppObject*>* get_ChannelData();
   }; // System.Runtime.Remoting.ChannelInfo
   #pragma pack(pop)
   static check_size<sizeof(ChannelInfo), 16 + sizeof(::Array<::Il2CppObject*>*)> __System_Runtime_Remoting_ChannelInfoSizeCheck;

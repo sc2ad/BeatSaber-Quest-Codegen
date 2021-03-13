@@ -59,16 +59,16 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
       return command;
     }
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0x132B20C
+    // Offset: 0x1343658
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultTestWorkItem* New_ctor(NUnit::Framework::Internal::TestMethod* test, NUnit::Framework::Interfaces::ITestFilter* filter) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTestWorkItem*, creationType>(test, filter)));
     }
     // protected override System.Collections.IEnumerable PerformWork()
-    // Offset: 0x132B258
+    // Offset: 0x134369C
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
-    // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
+    // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork_NEW()
     System::Collections::IEnumerable* PerformWork();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.DefaultTestWorkItem
   #pragma pack(pop)

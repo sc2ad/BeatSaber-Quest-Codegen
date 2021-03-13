@@ -193,7 +193,7 @@ namespace System::IO {
     // protected override System.IO.Iterator`1<TSource> Clone()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.IO.Iterator`1
-    // Base method: System.IO.Iterator`1<TSource> Iterator_1::Clone()
+    // Base method: System.IO.Iterator`1<TSource> Iterator_1::Clone_NEW()
     System::IO::Iterator_1<TSource>* Clone() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEnumerableIterator_1::Clone");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Clone", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
@@ -202,7 +202,7 @@ namespace System::IO {
     // protected override System.Void Dispose(System.Boolean disposing)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.IO.Iterator`1
-    // Base method: System.Void Iterator_1::Dispose(System.Boolean disposing)
+    // Base method: System.Void Iterator_1::Dispose_NEW(System.Boolean disposing)
     void Dispose(bool disposing) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEnumerableIterator_1::Dispose");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(disposing)));
@@ -211,16 +211,11 @@ namespace System::IO {
     // public override System.Boolean MoveNext()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.IO.Iterator`1
-    // Base method: System.Boolean Iterator_1::MoveNext()
+    // Base method: System.Boolean Iterator_1::MoveNext_NEW()
     bool MoveNext() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEnumerableIterator_1::MoveNext");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
-    }
-    // Creating proxy method: System_Collections_IEnumerator_MoveNext
-    // Maps to method: MoveNext
-    bool System_Collections_IEnumerator_MoveNext() {
-      return MoveNext();
     }
   }; // System.IO.FileSystemEnumerableIterator`1
   // Could not write size check! Type: System.IO.FileSystemEnumerableIterator`1 is generic, or has no fields that are valid for size checks!

@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class AssetObjectListSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // [ReorderableAttribute] Offset: 0xD448A4
+    // [ReorderableAttribute] Offset: 0xD30C68
     // private UnityEngine.Object[] _objects
     // Size: 0x8
     // Offset: 0x18
@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Object[] get_objects()
-    // Offset: 0x102F538
+    // Offset: 0xFFE1A0
     ::Array<UnityEngine::Object*>* get_objects();
     // public System.Void .ctor()
-    // Offset: 0x102F540
+    // Offset: 0xFFE1A8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

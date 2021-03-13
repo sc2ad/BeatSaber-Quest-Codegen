@@ -137,89 +137,89 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static private System.Byte[] signedData
     static void _set_signedData(::Array<uint8_t>* value);
     // private System.Void .ctor(Mono.Security.X509.X509Certificate cert)
-    // Offset: 0x177627C
+    // Offset: 0x16A9070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate2ImplMono* New_ctor(Mono::Security::X509::X509Certificate* cert) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2ImplMono*, creationType>(cert)));
     }
     // private System.Void .ctor(System.Security.Cryptography.X509Certificates.X509Certificate2ImplMono other)
-    // Offset: 0x17762B0
+    // Offset: 0x16A909C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate2ImplMono* New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2ImplMono*, creationType>(other)));
     }
     // private Mono.Security.ASN1 Find(System.Byte[] oid, Mono.Security.ASN1 dn)
-    // Offset: 0x1777A30
+    // Offset: 0x16AA7B4
     Mono::Security::ASN1* Find(::Array<uint8_t>* oid, Mono::Security::ASN1* dn);
     // private System.String GetValueAsString(Mono.Security.ASN1 pair)
-    // Offset: 0x1777B40
+    // Offset: 0x16AA8C4
     ::Il2CppString* GetValueAsString(Mono::Security::ASN1* pair);
     // private Mono.Security.X509.X509Certificate ImportPkcs12(System.Byte[] rawData, System.String password)
-    // Offset: 0x1777CE8
+    // Offset: 0x16AAA6C
     Mono::Security::X509::X509Certificate* ImportPkcs12(::Array<uint8_t>* rawData, ::Il2CppString* password);
     // static private System.Void AppendBuffer(System.Text.StringBuilder sb, System.Byte[] buffer)
-    // Offset: 0x1778ED8
+    // Offset: 0x16ABBD8
     static void AppendBuffer(System::Text::StringBuilder* sb, ::Array<uint8_t>* buffer);
     // Mono.Security.X509.X509Certificate get_MonoCertificate()
-    // Offset: 0x1779138
+    // Offset: 0x16ABE44
     Mono::Security::X509::X509Certificate* get_MonoCertificate();
     // static private System.Void .cctor()
-    // Offset: 0x1779144
+    // Offset: 0x16ABE50
     static void _cctor();
     // public override System.Boolean get_IsValid()
-    // Offset: 0x177626C
+    // Offset: 0x16A9060
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
-    // Base method: System.Boolean X509CertificateImpl::get_IsValid()
+    // Base method: System.Boolean X509CertificateImpl::get_IsValid_NEW()
     bool get_IsValid();
     // public override System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone()
-    // Offset: 0x1776374
+    // Offset: 0x16A9144
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
-    // Base method: System.Security.Cryptography.X509Certificates.X509CertificateImpl X509CertificateImpl::Clone()
+    // Base method: System.Security.Cryptography.X509Certificates.X509CertificateImpl X509CertificateImpl::Clone_NEW()
     System::Security::Cryptography::X509Certificates::X509CertificateImpl* Clone();
     // public override System.String GetIssuerName(System.Boolean legacyV1Mode)
-    // Offset: 0x17763E0
+    // Offset: 0x16A91B0
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
-    // Base method: System.String X509CertificateImpl::GetIssuerName(System.Boolean legacyV1Mode)
+    // Base method: System.String X509CertificateImpl::GetIssuerName_NEW(System.Boolean legacyV1Mode)
     ::Il2CppString* GetIssuerName(bool legacyV1Mode);
     // public override System.String GetSubjectName(System.Boolean legacyV1Mode)
-    // Offset: 0x17764A4
+    // Offset: 0x16A9274
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
-    // Base method: System.String X509CertificateImpl::GetSubjectName(System.Boolean legacyV1Mode)
+    // Base method: System.String X509CertificateImpl::GetSubjectName_NEW(System.Boolean legacyV1Mode)
     ::Il2CppString* GetSubjectName(bool legacyV1Mode);
     // public override System.Byte[] GetRawCertData()
-    // Offset: 0x177656C
+    // Offset: 0x16A933C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
-    // Base method: System.Byte[] X509CertificateImpl::GetRawCertData()
+    // Base method: System.Byte[] X509CertificateImpl::GetRawCertData_NEW()
     ::Array<uint8_t>* GetRawCertData();
     // protected override System.Byte[] GetCertHash(System.Boolean lazy)
-    // Offset: 0x17765A4
+    // Offset: 0x16A9374
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
-    // Base method: System.Byte[] X509CertificateImpl::GetCertHash(System.Boolean lazy)
+    // Base method: System.Byte[] X509CertificateImpl::GetCertHash_NEW(System.Boolean lazy)
     ::Array<uint8_t>* GetCertHash(bool lazy);
     // public override System.DateTime GetValidFrom()
-    // Offset: 0x1776600
+    // Offset: 0x16A93D0
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
-    // Base method: System.DateTime X509CertificateImpl::GetValidFrom()
+    // Base method: System.DateTime X509CertificateImpl::GetValidFrom_NEW()
     System::DateTime GetValidFrom();
     // public override System.DateTime GetValidUntil()
-    // Offset: 0x177663C
+    // Offset: 0x16A940C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
-    // Base method: System.DateTime X509CertificateImpl::GetValidUntil()
+    // Base method: System.DateTime X509CertificateImpl::GetValidUntil_NEW()
     System::DateTime GetValidUntil();
     // public override System.Boolean Equals(System.Security.Cryptography.X509Certificates.X509CertificateImpl other, out System.Boolean result)
-    // Offset: 0x1776678
+    // Offset: 0x16A9448
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
-    // Base method: System.Boolean X509CertificateImpl::Equals(System.Security.Cryptography.X509Certificates.X509CertificateImpl other, out System.Boolean result)
+    // Base method: System.Boolean X509CertificateImpl::Equals_NEW(System.Security.Cryptography.X509Certificates.X509CertificateImpl other, out System.Boolean result)
     bool Equals(System::Security::Cryptography::X509Certificates::X509CertificateImpl* other, bool& result);
     // public override System.Byte[] GetSerialNumber()
-    // Offset: 0x1776684
+    // Offset: 0x16A9454
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
-    // Base method: System.Byte[] X509CertificateImpl::GetSerialNumber()
+    // Base method: System.Byte[] X509CertificateImpl::GetSerialNumber_NEW()
     ::Array<uint8_t>* GetSerialNumber();
     // public System.Void .ctor()
-    // Offset: 0x17766C0
+    // Offset: 0x16A9490
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.Void X509Certificate2Impl::.ctor()
     // Base method: System.Void X509CertificateImpl::.ctor()
@@ -230,84 +230,84 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2ImplMono*, creationType>()));
     }
     // public override System.Security.Cryptography.X509Certificates.X509ExtensionCollection get_Extensions()
-    // Offset: 0x17766F0
+    // Offset: 0x16A94B8
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
-    // Base method: System.Security.Cryptography.X509Certificates.X509ExtensionCollection X509Certificate2Impl::get_Extensions()
+    // Base method: System.Security.Cryptography.X509Certificates.X509ExtensionCollection X509Certificate2Impl::get_Extensions_NEW()
     System::Security::Cryptography::X509Certificates::X509ExtensionCollection* get_Extensions();
     // public override System.Security.Cryptography.X509Certificates.X500DistinguishedName get_IssuerName()
-    // Offset: 0x1776D88
+    // Offset: 0x16A9B28
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
-    // Base method: System.Security.Cryptography.X509Certificates.X500DistinguishedName X509Certificate2Impl::get_IssuerName()
+    // Base method: System.Security.Cryptography.X509Certificates.X500DistinguishedName X509Certificate2Impl::get_IssuerName_NEW()
     System::Security::Cryptography::X509Certificates::X500DistinguishedName* get_IssuerName();
     // public override System.Security.Cryptography.AsymmetricAlgorithm get_PrivateKey()
-    // Offset: 0x1776E90
+    // Offset: 0x16A9C24
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
-    // Base method: System.Security.Cryptography.AsymmetricAlgorithm X509Certificate2Impl::get_PrivateKey()
+    // Base method: System.Security.Cryptography.AsymmetricAlgorithm X509Certificate2Impl::get_PrivateKey_NEW()
     System::Security::Cryptography::AsymmetricAlgorithm* get_PrivateKey();
     // public override System.Void set_PrivateKey(System.Security.Cryptography.AsymmetricAlgorithm value)
-    // Offset: 0x17771C0
+    // Offset: 0x16A9F54
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
-    // Base method: System.Void X509Certificate2Impl::set_PrivateKey(System.Security.Cryptography.AsymmetricAlgorithm value)
+    // Base method: System.Void X509Certificate2Impl::set_PrivateKey_NEW(System.Security.Cryptography.AsymmetricAlgorithm value)
     void set_PrivateKey(System::Security::Cryptography::AsymmetricAlgorithm* value);
     // public override System.Security.Cryptography.X509Certificates.PublicKey get_PublicKey()
-    // Offset: 0x1777350
+    // Offset: 0x16AA0E4
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
-    // Base method: System.Security.Cryptography.X509Certificates.PublicKey X509Certificate2Impl::get_PublicKey()
+    // Base method: System.Security.Cryptography.X509Certificates.PublicKey X509Certificate2Impl::get_PublicKey_NEW()
     System::Security::Cryptography::X509Certificates::PublicKey* get_PublicKey();
     // public override System.Security.Cryptography.Oid get_SignatureAlgorithm()
-    // Offset: 0x17774F8
+    // Offset: 0x16AA280
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
-    // Base method: System.Security.Cryptography.Oid X509Certificate2Impl::get_SignatureAlgorithm()
+    // Base method: System.Security.Cryptography.Oid X509Certificate2Impl::get_SignatureAlgorithm_NEW()
     System::Security::Cryptography::Oid* get_SignatureAlgorithm();
     // public override System.Security.Cryptography.X509Certificates.X500DistinguishedName get_SubjectName()
-    // Offset: 0x1777604
+    // Offset: 0x16AA394
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
-    // Base method: System.Security.Cryptography.X509Certificates.X500DistinguishedName X509Certificate2Impl::get_SubjectName()
+    // Base method: System.Security.Cryptography.X509Certificates.X500DistinguishedName X509Certificate2Impl::get_SubjectName_NEW()
     System::Security::Cryptography::X509Certificates::X500DistinguishedName* get_SubjectName();
     // public override System.Int32 get_Version()
-    // Offset: 0x177770C
+    // Offset: 0x16AA490
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
-    // Base method: System.Int32 X509Certificate2Impl::get_Version()
+    // Base method: System.Int32 X509Certificate2Impl::get_Version_NEW()
     int get_Version();
     // public override System.String GetNameInfo(System.Security.Cryptography.X509Certificates.X509NameType nameType, System.Boolean forIssuer)
-    // Offset: 0x17777B8
+    // Offset: 0x16AA53C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
-    // Base method: System.String X509Certificate2Impl::GetNameInfo(System.Security.Cryptography.X509Certificates.X509NameType nameType, System.Boolean forIssuer)
+    // Base method: System.String X509Certificate2Impl::GetNameInfo_NEW(System.Security.Cryptography.X509Certificates.X509NameType nameType, System.Boolean forIssuer)
     ::Il2CppString* GetNameInfo(System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer);
     // public override System.Void Import(System.Byte[] rawData, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
-    // Offset: 0x17784BC
+    // Offset: 0x16AB224
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
-    // Base method: System.Void X509Certificate2Impl::Import(System.Byte[] rawData, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
+    // Base method: System.Void X509Certificate2Impl::Import_NEW(System.Byte[] rawData, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
     void Import(::Array<uint8_t>* rawData, ::Il2CppString* password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
     // public override System.Void Reset()
-    // Offset: 0x177873C
+    // Offset: 0x16AB49C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
-    // Base method: System.Void X509Certificate2Impl::Reset()
+    // Base method: System.Void X509Certificate2Impl::Reset_NEW()
     void Reset();
     // public override System.String ToString()
-    // Offset: 0x1778858
+    // Offset: 0x16AB558
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
     // public override System.String ToString(System.Boolean verbose)
-    // Offset: 0x17788CC
+    // Offset: 0x16AB5CC
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
-    // Base method: System.String X509CertificateImpl::ToString(System.Boolean verbose)
+    // Base method: System.String X509CertificateImpl::ToString_NEW(System.Boolean verbose)
     ::Il2CppString* ToString(bool verbose);
     // public override System.Boolean Verify(System.Security.Cryptography.X509Certificates.X509Certificate2 thisCertificate)
-    // Offset: 0x1778FD0
+    // Offset: 0x16ABCD0
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
-    // Base method: System.Boolean X509Certificate2Impl::Verify(System.Security.Cryptography.X509Certificates.X509Certificate2 thisCertificate)
+    // Base method: System.Boolean X509Certificate2Impl::Verify_NEW(System.Security.Cryptography.X509Certificates.X509Certificate2 thisCertificate)
     bool Verify(System::Security::Cryptography::X509Certificates::X509Certificate2* thisCertificate);
     // override System.Security.Cryptography.X509Certificates.X509CertificateImplCollection get_IntermediateCertificates()
-    // Offset: 0x1779130
+    // Offset: 0x16ABE3C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
-    // Base method: System.Security.Cryptography.X509Certificates.X509CertificateImplCollection X509Certificate2Impl::get_IntermediateCertificates()
+    // Base method: System.Security.Cryptography.X509Certificates.X509CertificateImplCollection X509Certificate2Impl::get_IntermediateCertificates_NEW()
     System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* get_IntermediateCertificates();
     // override System.Security.Cryptography.X509Certificates.X509Certificate2Impl get_FallbackImpl()
-    // Offset: 0x1779140
+    // Offset: 0x16ABE4C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
-    // Base method: System.Security.Cryptography.X509Certificates.X509Certificate2Impl X509Certificate2Impl::get_FallbackImpl()
+    // Base method: System.Security.Cryptography.X509Certificates.X509Certificate2Impl X509Certificate2Impl::get_FallbackImpl_NEW()
     System::Security::Cryptography::X509Certificates::X509Certificate2Impl* get_FallbackImpl();
   }; // System.Security.Cryptography.X509Certificates.X509Certificate2ImplMono
   #pragma pack(pop)

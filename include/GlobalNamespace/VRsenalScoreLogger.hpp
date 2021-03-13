@@ -14,8 +14,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: ScoreController
-  class ScoreController;
+  // Forward declaring type: IScoreController
+  class IScoreController;
   // Forward declaring type: IDifficultyBeatmap
   class IDifficultyBeatmap;
   // Forward declaring type: ILevelEndActions
@@ -37,21 +37,21 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::VRsenalScoreLogger::$Start$d__3
     class $Start$d__3;
-    // [InjectAttribute] Offset: 0xD32A74
-    // private ScoreController _scoreController
+    // [InjectAttribute] Offset: 0xD1DB48
+    // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::ScoreController* scoreController;
+    GlobalNamespace::IScoreController* scoreController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD32A84
+    static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
+    // [InjectAttribute] Offset: 0xD1DB58
     // private IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
-    // [InjectAttribute] Offset: 0xD32A94
+    // [InjectAttribute] Offset: 0xD1DB68
     // private ILevelEndActions _levelEndActions
     // Size: 0x8
     // Offset: 0x28
@@ -59,23 +59,23 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILevelEndActions*) == 0x8);
     // Creating value type constructor for type: VRsenalScoreLogger
-    VRsenalScoreLogger(GlobalNamespace::ScoreController* scoreController_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, GlobalNamespace::ILevelEndActions* levelEndActions_ = {}) noexcept : scoreController{scoreController_}, difficultyBeatmap{difficultyBeatmap_}, levelEndActions{levelEndActions_} {}
+    VRsenalScoreLogger(GlobalNamespace::IScoreController* scoreController_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, GlobalNamespace::ILevelEndActions* levelEndActions_ = {}) noexcept : scoreController{scoreController_}, difficultyBeatmap{difficultyBeatmap_}, levelEndActions{levelEndActions_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x1721110
+    // Offset: 0x20E18C8
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x17211B8
+    // Offset: 0x20E1964
     void OnDestroy();
     // private System.Void HandleLevelFinishedEvent()
-    // Offset: 0x17212B0
+    // Offset: 0x20E1A5C
     void HandleLevelFinishedEvent();
     // private System.Void LogScore()
-    // Offset: 0x17212B4
+    // Offset: 0x20E1A60
     void LogScore();
     // public System.Void .ctor()
-    // Offset: 0x17213B4
+    // Offset: 0x20E1B88
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

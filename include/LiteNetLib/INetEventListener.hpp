@@ -43,25 +43,25 @@ namespace LiteNetLib {
     INetEventListener() noexcept {}
     // public System.Void OnPeerConnected(LiteNetLib.NetPeer peer)
     // Offset: 0xFFFFFFFF
-    void LiteNetLib_INetEventListener_OnPeerConnected(LiteNetLib::NetPeer* peer);
+    void OnPeerConnected_NEW(LiteNetLib::NetPeer* peer);
     // public System.Void OnPeerDisconnected(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectInfo disconnectInfo)
     // Offset: 0xFFFFFFFF
-    void LiteNetLib_INetEventListener_OnPeerDisconnected(LiteNetLib::NetPeer* peer, LiteNetLib::DisconnectInfo disconnectInfo);
+    void OnPeerDisconnected_NEW(LiteNetLib::NetPeer* peer, LiteNetLib::DisconnectInfo disconnectInfo);
     // public System.Void OnNetworkError(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketError)
     // Offset: 0xFFFFFFFF
-    void LiteNetLib_INetEventListener_OnNetworkError(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketError);
+    void OnNetworkError_NEW(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketError);
     // public System.Void OnNetworkReceive(LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod)
     // Offset: 0xFFFFFFFF
-    void LiteNetLib_INetEventListener_OnNetworkReceive(LiteNetLib::NetPeer* peer, LiteNetLib::NetPacketReader* reader, LiteNetLib::DeliveryMethod deliveryMethod);
+    void OnNetworkReceive_NEW(LiteNetLib::NetPeer* peer, LiteNetLib::NetPacketReader* reader, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void OnNetworkReceiveUnconnected(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType)
     // Offset: 0xFFFFFFFF
-    void LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPacketReader* reader, LiteNetLib::UnconnectedMessageType messageType);
+    void OnNetworkReceiveUnconnected_NEW(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPacketReader* reader, LiteNetLib::UnconnectedMessageType messageType);
     // public System.Void OnNetworkLatencyUpdate(LiteNetLib.NetPeer peer, System.Int32 latency)
     // Offset: 0xFFFFFFFF
-    void LiteNetLib_INetEventListener_OnNetworkLatencyUpdate(LiteNetLib::NetPeer* peer, int latency);
+    void OnNetworkLatencyUpdate_NEW(LiteNetLib::NetPeer* peer, int latency);
     // public System.Void OnConnectionRequest(LiteNetLib.ConnectionRequest request)
     // Offset: 0xFFFFFFFF
-    void LiteNetLib_INetEventListener_OnConnectionRequest(LiteNetLib::ConnectionRequest* request);
+    void OnConnectionRequest_NEW(LiteNetLib::ConnectionRequest* request);
   }; // LiteNetLib.INetEventListener
   #pragma pack(pop)
 }

@@ -33,28 +33,28 @@ namespace UnityEngine::Timeline {
     ICurvesOwner() noexcept {}
     // public UnityEngine.AnimationClip get_curves()
     // Offset: 0xFFFFFFFF
-    UnityEngine::AnimationClip* get_curves();
+    UnityEngine::AnimationClip* get_curves_NEW();
     // public System.Boolean get_hasCurves()
     // Offset: 0xFFFFFFFF
-    bool get_hasCurves();
+    bool get_hasCurves_NEW();
     // public System.Double get_duration()
     // Offset: 0xFFFFFFFF
-    double get_duration();
+    double get_duration_NEW();
     // public System.Void CreateCurves(System.String curvesClipName)
     // Offset: 0xFFFFFFFF
-    void CreateCurves(::Il2CppString* curvesClipName);
+    void CreateCurves_NEW(::Il2CppString* curvesClipName);
     // public System.String get_defaultCurvesName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
+    ::Il2CppString* get_defaultCurvesName_NEW();
     // public UnityEngine.Object get_asset()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_get_asset();
+    UnityEngine::Object* get_asset_NEW();
     // public UnityEngine.Object get_assetOwner()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_get_assetOwner();
+    UnityEngine::Object* get_assetOwner_NEW();
     // public UnityEngine.Timeline.TrackAsset get_targetTrack()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Timeline::TrackAsset* UnityEngine_Timeline_ICurvesOwner_get_targetTrack();
+    UnityEngine::Timeline::TrackAsset* get_targetTrack_NEW();
   }; // UnityEngine.Timeline.ICurvesOwner
   #pragma pack(pop)
 }

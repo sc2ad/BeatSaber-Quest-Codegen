@@ -183,12 +183,48 @@ namespace Oculus::Platform {
     static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_NetSync_GetSessions();
     // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_GetSessions
     static void _set_NetSync_GetSessions(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
+    // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_GetVoipAttenuation
+    static constexpr const uint NetSync_GetVoipAttenuation = 288016919u;
+    // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_GetVoipAttenuation
+    static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_NetSync_GetVoipAttenuation();
+    // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_GetVoipAttenuation
+    static void _set_NetSync_GetVoipAttenuation(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
+    // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_GetVoipAttenuationDefault
+    static constexpr const uint NetSync_GetVoipAttenuationDefault = 1467721888u;
+    // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_GetVoipAttenuationDefault
+    static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_NetSync_GetVoipAttenuationDefault();
+    // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_GetVoipAttenuationDefault
+    static void _set_NetSync_GetVoipAttenuationDefault(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
+    // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipAttenuation
+    static constexpr const uint NetSync_SetVoipAttenuation = 882366454u;
+    // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipAttenuation
+    static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_NetSync_SetVoipAttenuation();
+    // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipAttenuation
+    static void _set_NetSync_SetVoipAttenuation(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
+    // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipAttenuationModel
+    static constexpr const uint NetSync_SetVoipAttenuationModel = 1788128654u;
+    // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipAttenuationModel
+    static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_NetSync_SetVoipAttenuationModel();
+    // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipAttenuationModel
+    static void _set_NetSync_SetVoipAttenuationModel(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
+    // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipChannelCfg
+    static constexpr const uint NetSync_SetVoipChannelCfg = 1553310963u;
+    // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipChannelCfg
+    static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_NetSync_SetVoipChannelCfg();
+    // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipChannelCfg
+    static void _set_NetSync_SetVoipChannelCfg(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
     // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipGroup
     static constexpr const uint NetSync_SetVoipGroup = 1477614734u;
     // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipGroup
     static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_NetSync_SetVoipGroup();
     // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipGroup
     static void _set_NetSync_SetVoipGroup(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
+    // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipListentoChannels
+    static constexpr const uint NetSync_SetVoipListentoChannels = 1590749746u;
+    // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipListentoChannels
+    static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_NetSync_SetVoipListentoChannels();
+    // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipListentoChannels
+    static void _set_NetSync_SetVoipListentoChannels(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
     // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipMicSource
     static constexpr const uint NetSync_SetVoipMicSource = 855832432u;
     // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipMicSource
@@ -201,6 +237,12 @@ namespace Oculus::Platform {
     static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_NetSync_SetVoipSessionMuted();
     // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipSessionMuted
     static void _set_NetSync_SetVoipSessionMuted(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
+    // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipSpeaktoChannels
+    static constexpr const uint NetSync_SetVoipSpeaktoChannels = 766496213u;
+    // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipSpeaktoChannels
+    static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_NetSync_SetVoipSpeaktoChannels();
+    // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipSpeaktoChannels
+    static void _set_NetSync_SetVoipSpeaktoChannels(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
     // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipStreamMode
     static constexpr const uint NetSync_SetVoipStreamMode = 1742839095u;
     // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal NetSync_SetVoipStreamMode

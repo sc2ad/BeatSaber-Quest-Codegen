@@ -29,7 +29,7 @@ namespace UnityEngine::EventSystems {
     }
     // public System.Void OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData eventData)
     // Offset: 0xFFFFFFFF
-    void OnInitializePotentialDrag(UnityEngine::EventSystems::PointerEventData* eventData);
+    void OnInitializePotentialDrag_NEW(UnityEngine::EventSystems::PointerEventData* eventData);
   }; // UnityEngine.EventSystems.IInitializePotentialDragHandler
   #pragma pack(pop)
 }

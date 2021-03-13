@@ -33,14 +33,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class ScenesTransitionSetupDataSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD0A5F8
+    // [CompilerGeneratedAttribute] Offset: 0xCF4FB4
     // private SceneInfo[] <scenes>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Array<GlobalNamespace::SceneInfo*>* scenes;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::SceneInfo*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0A608
+    // [CompilerGeneratedAttribute] Offset: 0xCF4FC4
     // private SceneSetupData[] <sceneSetupDataArray>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -52,22 +52,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public SceneInfo[] get_scenes()
-    // Offset: 0x1116874
+    // Offset: 0x112CB70
     ::Array<GlobalNamespace::SceneInfo*>* get_scenes();
     // private System.Void set_scenes(SceneInfo[] value)
-    // Offset: 0x111687C
+    // Offset: 0x112CB78
     void set_scenes(::Array<GlobalNamespace::SceneInfo*>* value);
     // public SceneSetupData[] get_sceneSetupDataArray()
-    // Offset: 0x1116884
+    // Offset: 0x112CB80
     ::Array<GlobalNamespace::SceneSetupData*>* get_sceneSetupDataArray();
     // private System.Void set_sceneSetupDataArray(SceneSetupData[] value)
-    // Offset: 0x111688C
+    // Offset: 0x112CB88
     void set_sceneSetupDataArray(::Array<GlobalNamespace::SceneSetupData*>* value);
     // protected System.Void Init(SceneInfo[] scenes, SceneSetupData[] sceneSetupData)
-    // Offset: 0x110A378
+    // Offset: 0x11200F4
     void Init(::Array<GlobalNamespace::SceneInfo*>* scenes, ::Array<GlobalNamespace::SceneSetupData*>* sceneSetupData);
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x110CF4C
+    // Offset: 0x1122B0C
     void InstallBindings(Zenject::DiContainer* container);
     // public T Get()
     // Offset: 0xFFFFFFFF
@@ -80,7 +80,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___generic__method);
     }
     // protected System.Void .ctor()
-    // Offset: 0x110A3B4
+    // Offset: 0x1120104
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

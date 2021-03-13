@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Vector2Extensions
     Vector2Extensions() noexcept {}
     // static public System.Single SignedAngleToLine(UnityEngine.Vector2 vec, UnityEngine.Vector2 line)
-    // Offset: 0x229FC74
+    // Offset: 0x2122434
     static float SignedAngleToLine(UnityEngine::Vector2 vec, UnityEngine::Vector2 line);
   }; // Vector2Extensions
   #pragma pack(pop)

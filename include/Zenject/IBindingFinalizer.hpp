@@ -25,10 +25,10 @@ namespace Zenject {
     IBindingFinalizer() noexcept {}
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
     // Offset: 0xFFFFFFFF
-    Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
+    Zenject::BindingInheritanceMethods get_BindingInheritanceMethod_NEW();
     // public System.Void FinalizeBinding(Zenject.DiContainer container)
     // Offset: 0xFFFFFFFF
-    void FinalizeBinding(Zenject::DiContainer* container);
+    void FinalizeBinding_NEW(Zenject::DiContainer* container);
   }; // Zenject.IBindingFinalizer
   #pragma pack(pop)
 }

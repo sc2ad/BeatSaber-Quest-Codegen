@@ -27,7 +27,8 @@ namespace NUnit::Framework::Internal {
     ::Il2CppObject* expectedResult;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD25378
+    // [DebuggerBrowsableAttribute] Offset: 0xD0F9BC
+    // [CompilerGeneratedAttribute] Offset: 0xD0F9BC
     // private System.Boolean <HasExpectedResult>k__BackingField
     // Size: 0x1
     // Offset: 0x40
@@ -41,13 +42,13 @@ namespace NUnit::Framework::Internal {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestCaseData*>(this);
     }
     // public System.Object get_ExpectedResult()
-    // Offset: 0x22248C4
-    ::Il2CppObject* get_ExpectedResult();
+    // Offset: 0x2095408
+    ::Il2CppObject* get_ExpectedResult_NEW();
     // public System.Boolean get_HasExpectedResult()
-    // Offset: 0x22248CC
-    bool get_HasExpectedResult();
+    // Offset: 0x2095410
+    bool get_HasExpectedResult_NEW();
     // public System.Void .ctor()
-    // Offset: 0x22247B4
+    // Offset: 0x2095308
     // Implemented from: NUnit.Framework.Internal.TestParameters
     // Base method: System.Void TestParameters::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -57,7 +58,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestCaseParameters*, creationType>()));
     }
     // public System.Void .ctor(System.Object[] args)
-    // Offset: 0x2224830
+    // Offset: 0x209537C
     // Implemented from: NUnit.Framework.Internal.TestParameters
     // Base method: System.Void TestParameters::.ctor(System.Object[] args)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

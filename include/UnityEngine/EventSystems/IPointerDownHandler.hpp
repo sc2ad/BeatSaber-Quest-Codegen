@@ -29,7 +29,7 @@ namespace UnityEngine::EventSystems {
     }
     // public System.Void OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
     // Offset: 0xFFFFFFFF
-    void OnPointerDown(UnityEngine::EventSystems::PointerEventData* eventData);
+    void OnPointerDown_NEW(UnityEngine::EventSystems::PointerEventData* eventData);
   }; // UnityEngine.EventSystems.IPointerDownHandler
   #pragma pack(pop)
 }

@@ -34,36 +34,36 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class InteractionTrigger::CameraPosition : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xD2C6A4
+    // [TooltipAttribute] Offset: 0xD17608
     // public UnityEngine.Collider lookAtTarget
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Collider* lookAtTarget;
     // Field size check
     static_assert(sizeof(UnityEngine::Collider*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD2C6DC
+    // [TooltipAttribute] Offset: 0xD17640
     // public UnityEngine.Vector3 direction
     // Size: 0xC
     // Offset: 0x18
     UnityEngine::Vector3 direction;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xD2C714
+    // [TooltipAttribute] Offset: 0xD17678
     // public System.Single maxDistance
     // Size: 0x4
     // Offset: 0x24
     float maxDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD2C74C
-    // [RangeAttribute] Offset: 0xD2C74C
+    // [TooltipAttribute] Offset: 0xD176B0
+    // [RangeAttribute] Offset: 0xD176B0
     // public System.Single maxAngle
     // Size: 0x4
     // Offset: 0x28
     float maxAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD2C7A4
+    // [TooltipAttribute] Offset: 0xD17708
     // public System.Boolean fixYAxis
     // Size: 0x1
     // Offset: 0x2C
@@ -73,13 +73,13 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: CameraPosition
     CameraPosition(UnityEngine::Collider* lookAtTarget_ = {}, UnityEngine::Vector3 direction_ = {}, float maxDistance_ = {}, float maxAngle_ = {}, bool fixYAxis_ = {}) noexcept : lookAtTarget{lookAtTarget_}, direction{direction_}, maxDistance{maxDistance_}, maxAngle{maxAngle_}, fixYAxis{fixYAxis_} {}
     // public UnityEngine.Quaternion GetRotation()
-    // Offset: 0x195FB6C
+    // Offset: 0x1916E18
     UnityEngine::Quaternion GetRotation();
     // public System.Boolean IsInRange(UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit hit, UnityEngine.Transform trigger, out System.Single error)
-    // Offset: 0x195FD14
+    // Offset: 0x1916FC0
     bool IsInRange(UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit hit, UnityEngine::Transform* trigger, float& error);
     // public System.Void .ctor()
-    // Offset: 0x195FFF4
+    // Offset: 0x19172A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

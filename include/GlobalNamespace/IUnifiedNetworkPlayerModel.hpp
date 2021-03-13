@@ -49,58 +49,58 @@ namespace GlobalNamespace {
     }
     // public DiscoveryPolicy get_discoveryPolicy()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::DiscoveryPolicy get_discoveryPolicy();
+    GlobalNamespace::DiscoveryPolicy get_discoveryPolicy_NEW();
     // public System.Void add_partyRefreshingEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_partyRefreshingEvent(System::Action* value);
+    void add_partyRefreshingEvent_NEW(System::Action* value);
     // public System.Void remove_partyRefreshingEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_partyRefreshingEvent(System::Action* value);
+    void remove_partyRefreshingEvent_NEW(System::Action* value);
     // public INetworkPlayer get_localPlayer()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::INetworkPlayer* get_localPlayer();
+    GlobalNamespace::INetworkPlayer* get_localPlayer_NEW();
     // public System.Boolean get_enableLocalNetwork()
     // Offset: 0xFFFFFFFF
-    bool get_enableLocalNetwork();
+    bool get_enableLocalNetwork_NEW();
     // public System.Void set_enableLocalNetwork(System.Boolean value)
     // Offset: 0xFFFFFFFF
-    void set_enableLocalNetwork(bool value);
+    void set_enableLocalNetwork_NEW(bool value);
     // public System.Collections.Generic.IEnumerable`1<INetworkPlayer> get_publicServers()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* get_publicServers();
+    System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* get_publicServers_NEW();
     // public System.Collections.Generic.IEnumerable`1<INetworkPlayer> get_localNetworkPlayers()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* get_localNetworkPlayers();
+    System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* get_localNetworkPlayers_NEW();
     // public GameplayServerFilter get_serverFilter()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::GameplayServerFilter get_serverFilter();
+    GlobalNamespace::GameplayServerFilter get_serverFilter_NEW();
     // public System.Void SetServerFilter(GameplayServerFilter filter)
     // Offset: 0xFFFFFFFF
-    void SetServerFilter(GlobalNamespace::GameplayServerFilter filter);
+    void SetServerFilter_NEW(GlobalNamespace::GameplayServerFilter filter);
     // public System.Void JoinMatchmaking(GameplayServerConfiguration configuration, System.String secret)
     // Offset: 0xFFFFFFFF
-    void JoinMatchmaking(GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret);
+    void JoinMatchmaking_NEW(GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret);
     // public System.Void ConnectToServerWithCode(System.String serverCode, System.String serverPassword)
     // Offset: 0xFFFFFFFF
-    void ConnectToServerWithCode(::Il2CppString* serverCode, ::Il2CppString* serverPassword);
+    void ConnectToServerWithCode_NEW(::Il2CppString* serverCode, ::Il2CppString* serverPassword);
     // public System.Void ConnectToServerWithSecret(System.String serverSecret)
     // Offset: 0xFFFFFFFF
-    void ConnectToServerWithSecret(::Il2CppString* serverSecret);
+    void ConnectToServerWithSecret_NEW(::Il2CppString* serverSecret);
     // public System.Void ResetMasterServerReachability()
     // Offset: 0xFFFFFFFF
-    void ResetMasterServerReachability();
+    void ResetMasterServerReachability_NEW();
     // public System.String get_userId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_userId();
+    ::Il2CppString* get_userId_NEW();
     // public System.String get_userName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_userName();
+    ::Il2CppString* get_userName_NEW();
     // public System.String get_secret()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_secret();
+    ::Il2CppString* get_secret_NEW();
     // public System.String get_code()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_code();
+    ::Il2CppString* get_code_NEW();
   }; // IUnifiedNetworkPlayerModel
   #pragma pack(pop)
 }

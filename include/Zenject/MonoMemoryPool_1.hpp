@@ -54,7 +54,7 @@ namespace Zenject {
     // protected override System.Void OnCreated(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
-    // Base method: System.Void MemoryPoolBase_1::OnCreated(TValue item)
+    // Base method: System.Void MemoryPoolBase_1::OnCreated_NEW(TValue item)
     void OnCreated(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoMemoryPool_1::OnCreated");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnCreated", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
@@ -63,7 +63,7 @@ namespace Zenject {
     // protected override System.Void OnDestroyed(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
-    // Base method: System.Void MemoryPoolBase_1::OnDestroyed(TValue item)
+    // Base method: System.Void MemoryPoolBase_1::OnDestroyed_NEW(TValue item)
     void OnDestroyed(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoMemoryPool_1::OnDestroyed");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnDestroyed", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
@@ -72,7 +72,7 @@ namespace Zenject {
     // protected override System.Void OnSpawned(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
-    // Base method: System.Void MemoryPoolBase_1::OnSpawned(TValue item)
+    // Base method: System.Void MemoryPoolBase_1::OnSpawned_NEW(TValue item)
     void OnSpawned(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoMemoryPool_1::OnSpawned");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnSpawned", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
@@ -81,7 +81,7 @@ namespace Zenject {
     // protected override System.Void OnDespawned(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
-    // Base method: System.Void MemoryPoolBase_1::OnDespawned(TValue item)
+    // Base method: System.Void MemoryPoolBase_1::OnDespawned_NEW(TValue item)
     void OnDespawned(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoMemoryPool_1::OnDespawned");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnDespawned", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));

@@ -44,19 +44,19 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: LinuxIPInterfaceProperties
     LinuxIPInterfaceProperties() noexcept {}
     // public System.Void .ctor(System.Net.NetworkInformation.LinuxNetworkInterface iface, System.Collections.Generic.List`1<System.Net.IPAddress> addresses)
-    // Offset: 0x1353C30
+    // Offset: 0x13260E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinuxIPInterfaceProperties* New_ctor(System::Net::NetworkInformation::LinuxNetworkInterface* iface, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::LinuxIPInterfaceProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinuxIPInterfaceProperties*, creationType>(iface, addresses)));
     }
     // private System.Net.NetworkInformation.IPAddressCollection ParseRouteInfo(System.String iface)
-    // Offset: 0x1353CFC
+    // Offset: 0x13261A0
     System::Net::NetworkInformation::IPAddressCollection* ParseRouteInfo(::Il2CppString* iface);
     // public override System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
-    // Offset: 0x13541C0
+    // Offset: 0x1326628
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
-    // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses()
+    // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses_NEW()
     System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
   }; // System.Net.NetworkInformation.LinuxIPInterfaceProperties
   #pragma pack(pop)

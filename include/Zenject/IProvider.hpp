@@ -41,16 +41,16 @@ namespace Zenject {
     IProvider() noexcept {}
     // public System.Boolean get_TypeVariesBasedOnMemberType()
     // Offset: 0xFFFFFFFF
-    bool get_TypeVariesBasedOnMemberType();
+    bool get_TypeVariesBasedOnMemberType_NEW();
     // public System.Boolean get_IsCached()
     // Offset: 0xFFFFFFFF
-    bool get_IsCached();
+    bool get_IsCached_NEW();
     // public System.Type GetInstanceType(Zenject.InjectContext context)
     // Offset: 0xFFFFFFFF
-    System::Type* GetInstanceType(Zenject::InjectContext* context);
+    System::Type* GetInstanceType_NEW(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> instances)
     // Offset: 0xFFFFFFFF
-    void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* instances);
+    void GetAllInstancesWithInjectSplit_NEW(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* instances);
   }; // Zenject.IProvider
   #pragma pack(pop)
 }

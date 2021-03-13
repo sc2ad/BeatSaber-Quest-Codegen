@@ -35,9 +35,9 @@ namespace NUnit::Framework {
     // Creating value type constructor for type: RepeatedTestCommand
     RepeatedTestCommand(int repeatCount_ = {}) noexcept : repeatCount{repeatCount_} {}
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x222D958
+    // Offset: 0x209DC88
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
-    // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
+    // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute_NEW(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.RepeatAttribute/RepeatedTestCommand
   #pragma pack(pop)

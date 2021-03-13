@@ -29,10 +29,10 @@ namespace NUnit::Framework::Interfaces {
     }
     // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFF
-    bool Pass(NUnit::Framework::Interfaces::ITest* test);
+    bool Pass_NEW(NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFF
-    bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
+    bool IsExplicitMatch_NEW(NUnit::Framework::Interfaces::ITest* test);
   }; // NUnit.Framework.Interfaces.ITestFilter
   #pragma pack(pop)
 }

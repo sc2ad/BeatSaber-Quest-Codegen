@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Panel
     Panel(::Il2CppString* title_ = {}, GlobalNamespace::IRefreshable* refreshable_ = {}, UnityEngine::GameObject* gameObject_ = {}) noexcept : title{title_}, refreshable{refreshable_}, gameObject{gameObject_} {}
     // public System.Void .ctor(System.String title, IRefreshable refreshable, UnityEngine.GameObject gameObject)
-    // Offset: 0xFC7CF8
+    // Offset: 0xFE974C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplaySetupViewController::Panel* New_ctor(::Il2CppString* title, GlobalNamespace::IRefreshable* refreshable, UnityEngine::GameObject* gameObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplaySetupViewController::Panel::.ctor");

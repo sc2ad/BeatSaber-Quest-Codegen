@@ -25,7 +25,7 @@ namespace System {
     }
     // public System.String get_DisplayName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_DisplayName();
+    ::Il2CppString* get_DisplayName_NEW();
   }; // System.TypeName
   #pragma pack(pop)
 }

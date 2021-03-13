@@ -38,35 +38,35 @@ namespace Mono::Security::Protocol::Ntlm {
     // Set static field: static private System.Byte[] header
     static void _set_header(::Array<uint8_t>* value);
     // protected System.Void .ctor(System.Int32 messageType)
-    // Offset: 0x1BF3E90
+    // Offset: 0x1B94AF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageBase* New_ctor(int messageType) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Protocol::Ntlm::MessageBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageBase*, creationType>(messageType)));
     }
     // public Mono.Security.Protocol.Ntlm.NtlmFlags get_Flags()
-    // Offset: 0x1BF3EBC
+    // Offset: 0x1B94B1C
     Mono::Security::Protocol::Ntlm::NtlmFlags get_Flags();
     // public System.Void set_Flags(Mono.Security.Protocol.Ntlm.NtlmFlags value)
-    // Offset: 0x1BF3EC4
+    // Offset: 0x1B94B24
     void set_Flags(Mono::Security::Protocol::Ntlm::NtlmFlags value);
     // public System.Int32 get_Type()
-    // Offset: 0x1BF3ECC
+    // Offset: 0x1B94B2C
     int get_Type();
     // protected System.Byte[] PrepareMessage(System.Int32 messageSize)
-    // Offset: 0x1BF3ED4
+    // Offset: 0x1B94B34
     ::Array<uint8_t>* PrepareMessage(int messageSize);
     // protected System.Void Decode(System.Byte[] message)
-    // Offset: 0x1BF3FE0
+    // Offset: 0x1B94C40
     void Decode(::Array<uint8_t>* message);
     // protected System.Boolean CheckHeader(System.Byte[] message)
-    // Offset: 0x1BF4184
+    // Offset: 0x1B94DE4
     bool CheckHeader(::Array<uint8_t>* message);
     // public System.Byte[] GetBytes()
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* GetBytes();
     // static private System.Void .cctor()
-    // Offset: 0x1BF42C0
+    // Offset: 0x1B94F20
     static void _cctor();
   }; // Mono.Security.Protocol.Ntlm.MessageBase
   #pragma pack(pop)

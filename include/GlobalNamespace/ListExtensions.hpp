@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: ListExtensions
     ListExtensions() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD44B1C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD30EB0
     // Get static field: static private readonly System.Random _random
     static System::Random* _get__random();
     // Set static field: static private readonly System.Random _random
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, list);
     }
     // static private System.Void .cctor()
-    // Offset: 0x10E573C
+    // Offset: 0x109E74C
     static void _cctor();
   }; // ListExtensions
   #pragma pack(pop)

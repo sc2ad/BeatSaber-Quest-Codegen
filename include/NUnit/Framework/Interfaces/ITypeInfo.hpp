@@ -49,67 +49,67 @@ namespace NUnit::Framework::Interfaces {
     }
     // public System.Type get_Type()
     // Offset: 0xFFFFFFFF
-    System::Type* get_Type();
+    System::Type* get_Type_NEW();
     // public NUnit.Framework.Interfaces.ITypeInfo get_BaseType()
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Interfaces::ITypeInfo* get_BaseType();
+    NUnit::Framework::Interfaces::ITypeInfo* get_BaseType_NEW();
     // public System.Boolean IsType(System.Type type)
     // Offset: 0xFFFFFFFF
-    bool IsType(System::Type* type);
+    bool IsType_NEW(System::Type* type);
     // public System.String get_FullName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_FullName();
+    ::Il2CppString* get_FullName_NEW();
     // public System.Reflection.Assembly get_Assembly()
     // Offset: 0xFFFFFFFF
-    System::Reflection::Assembly* get_Assembly();
+    System::Reflection::Assembly* get_Assembly_NEW();
     // public System.String get_Namespace()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Namespace();
+    ::Il2CppString* get_Namespace_NEW();
     // public System.Boolean get_IsAbstract()
     // Offset: 0xFFFFFFFF
-    bool get_IsAbstract();
+    bool get_IsAbstract_NEW();
     // public System.Boolean get_IsGenericType()
     // Offset: 0xFFFFFFFF
-    bool get_IsGenericType();
+    bool get_IsGenericType_NEW();
     // public System.Boolean get_ContainsGenericParameters()
     // Offset: 0xFFFFFFFF
-    bool get_ContainsGenericParameters();
+    bool get_ContainsGenericParameters_NEW();
     // public System.Boolean get_IsGenericTypeDefinition()
     // Offset: 0xFFFFFFFF
-    bool get_IsGenericTypeDefinition();
+    bool get_IsGenericTypeDefinition_NEW();
     // public System.Boolean get_IsSealed()
     // Offset: 0xFFFFFFFF
-    bool get_IsSealed();
+    bool get_IsSealed_NEW();
     // public System.Boolean get_IsStaticClass()
     // Offset: 0xFFFFFFFF
-    bool get_IsStaticClass();
+    bool get_IsStaticClass_NEW();
     // public System.String GetDisplayName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetDisplayName();
+    ::Il2CppString* GetDisplayName_NEW();
     // public System.String GetDisplayName(System.Object[] args)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetDisplayName(::Array<::Il2CppObject*>* args);
+    ::Il2CppString* GetDisplayName_NEW(::Array<::Il2CppObject*>* args);
     // public System.Type GetGenericTypeDefinition()
     // Offset: 0xFFFFFFFF
-    System::Type* GetGenericTypeDefinition();
+    System::Type* GetGenericTypeDefinition_NEW();
     // public NUnit.Framework.Interfaces.ITypeInfo MakeGenericType(System.Type[] typeArgs)
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Interfaces::ITypeInfo* MakeGenericType(::Array<System::Type*>* typeArgs);
+    NUnit::Framework::Interfaces::ITypeInfo* MakeGenericType_NEW(::Array<System::Type*>* typeArgs);
     // public System.Boolean HasMethodWithAttribute(System.Type attrType)
     // Offset: 0xFFFFFFFF
-    bool HasMethodWithAttribute(System::Type* attrType);
+    bool HasMethodWithAttribute_NEW(System::Type* attrType);
     // public NUnit.Framework.Interfaces.IMethodInfo[] GetMethods(System.Reflection.BindingFlags flags)
     // Offset: 0xFFFFFFFF
-    ::Array<NUnit::Framework::Interfaces::IMethodInfo*>* GetMethods(System::Reflection::BindingFlags flags);
+    ::Array<NUnit::Framework::Interfaces::IMethodInfo*>* GetMethods_NEW(System::Reflection::BindingFlags flags);
     // public System.Reflection.ConstructorInfo GetConstructor(System.Type[] argTypes)
     // Offset: 0xFFFFFFFF
-    System::Reflection::ConstructorInfo* GetConstructor(::Array<System::Type*>* argTypes);
+    System::Reflection::ConstructorInfo* GetConstructor_NEW(::Array<System::Type*>* argTypes);
     // public System.Boolean HasConstructor(System.Type[] argTypes)
     // Offset: 0xFFFFFFFF
-    bool HasConstructor(::Array<System::Type*>* argTypes);
+    bool HasConstructor_NEW(::Array<System::Type*>* argTypes);
     // public System.Object Construct(System.Object[] args)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* Construct(::Array<::Il2CppObject*>* args);
+    ::Il2CppObject* Construct_NEW(::Array<::Il2CppObject*>* args);
   }; // NUnit.Framework.Interfaces.ITypeInfo
   #pragma pack(pop)
 }

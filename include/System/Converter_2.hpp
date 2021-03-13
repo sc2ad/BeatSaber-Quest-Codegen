@@ -39,22 +39,22 @@ namespace System {
     }
     // public TOutput Invoke(TInput input)
     // Offset: 0xFFFFFFFF
-    TOutput Invoke(TInput input) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Converter_2::Invoke");
+    TOutput Invoke_NEW(TInput input) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Converter_2::Invoke_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(input)));
       return ::il2cpp_utils::RunMethodThrow<TOutput, false>(this, ___internal__method, input);
     }
     // public System.IAsyncResult BeginInvoke(TInput input, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke(TInput input, System::AsyncCallback* callback, ::Il2CppObject* object) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Converter_2::BeginInvoke");
+    System::IAsyncResult* BeginInvoke_NEW(TInput input, System::AsyncCallback* callback, ::Il2CppObject* object) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Converter_2::BeginInvoke_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(input, callback, object)));
       return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, input, callback, object);
     }
     // public TOutput EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
-    TOutput EndInvoke(System::IAsyncResult* result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Converter_2::EndInvoke");
+    TOutput EndInvoke_NEW(System::IAsyncResult* result) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Converter_2::EndInvoke_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
       return ::il2cpp_utils::RunMethodThrow<TOutput, false>(this, ___internal__method, result);
     }

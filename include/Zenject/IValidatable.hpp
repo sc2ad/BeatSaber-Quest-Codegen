@@ -16,7 +16,7 @@ namespace Zenject {
     IValidatable() noexcept {}
     // public System.Void Validate()
     // Offset: 0xFFFFFFFF
-    void Zenject_IValidatable_Validate();
+    void Validate_NEW();
   }; // Zenject.IValidatable
   #pragma pack(pop)
 }

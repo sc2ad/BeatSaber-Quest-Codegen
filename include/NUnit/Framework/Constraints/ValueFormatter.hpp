@@ -31,21 +31,21 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: ValueFormatter
     ValueFormatter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x169C458
+    // Offset: 0x15A0E38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueFormatter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::ValueFormatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueFormatter*, creationType>(object, method)));
     }
     // public System.String Invoke(System.Object val)
-    // Offset: 0x169C910
-    ::Il2CppString* Invoke(::Il2CppObject* val);
+    // Offset: 0x15A1300
+    ::Il2CppString* Invoke_NEW(::Il2CppObject* val);
     // public System.IAsyncResult BeginInvoke(System.Object val, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16A329C
-    System::IAsyncResult* BeginInvoke(::Il2CppObject* val, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x15A8208
+    System::IAsyncResult* BeginInvoke_NEW(::Il2CppObject* val, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.String EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16A32C0
-    ::Il2CppString* EndInvoke(System::IAsyncResult* result);
+    // Offset: 0x15A822C
+    ::Il2CppString* EndInvoke_NEW(System::IAsyncResult* result);
   }; // NUnit.Framework.Constraints.ValueFormatter
   #pragma pack(pop)
 }

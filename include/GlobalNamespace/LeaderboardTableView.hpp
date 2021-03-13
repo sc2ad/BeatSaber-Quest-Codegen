@@ -93,26 +93,20 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kCellIdentifier();
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::Il2CppString* value);
-    // public System.Void SetScores(System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> scores, System.Int32 specialScorePos)
-    // Offset: 0xFD57EC
-    void SetScores(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* scores, int specialScorePos);
     // public System.Single CellSize()
-    // Offset: 0xFD55B0
-    // Implemented from: HMUI.TableView/IDataSource
-    // Base method: System.Single IDataSource::CellSize()
-    float CellSize();
+    // Offset: 0xFF79F8
+    float CellSize_NEW();
     // public System.Int32 NumberOfCells()
-    // Offset: 0xFD55B8
-    // Implemented from: HMUI.TableView/IDataSource
-    // Base method: System.Int32 IDataSource::NumberOfCells()
-    int NumberOfCells();
+    // Offset: 0xFF7A00
+    int NumberOfCells_NEW();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0xFD560C
-    // Implemented from: HMUI.TableView/IDataSource
-    // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);
+    // Offset: 0xFF7A54
+    HMUI::TableCell* CellForIdx_NEW(HMUI::TableView* tableView, int row);
+    // public System.Void SetScores(System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> scores, System.Int32 specialScorePos)
+    // Offset: 0xFF7C30
+    void SetScores(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* scores, int specialScorePos);
     // public System.Void .ctor()
-    // Offset: 0xFD5840
+    // Offset: 0xFF7C60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -29,8 +29,11 @@ namespace System::Threading::Tasks {
     operator System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
+    // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
+    // Offset: 0x16D9D38
+    void Invoke_NEW(System::Threading::Tasks::Task* completingTask);
     // System.Void .ctor()
-    // Offset: 0x17B5920
+    // Offset: 0x16D9CC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -38,14 +41,6 @@ namespace System::Threading::Tasks {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::SetOnInvokeMres::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::SetOnInvokeMres*, creationType>()));
     }
-    // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x17B853C
-    // Implemented from: System.Threading.Tasks.ITaskCompletionAction
-    // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task completingTask)
-    void Invoke(System::Threading::Tasks::Task* completingTask);
-    // Creating proxy method: System_Threading_Tasks_ITaskCompletionAction_Invoke
-    // Maps to method: Invoke
-    void System_Threading_Tasks_ITaskCompletionAction_Invoke(System::Threading::Tasks::Task* completingTask);
   }; // System.Threading.Tasks.Task/SetOnInvokeMres
   #pragma pack(pop)
 }

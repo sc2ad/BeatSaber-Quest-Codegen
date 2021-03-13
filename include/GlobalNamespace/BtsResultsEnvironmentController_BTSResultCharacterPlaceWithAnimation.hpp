@@ -68,16 +68,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BTSResultCharacterPlaceWithAnimation
     BTSResultCharacterPlaceWithAnimation(::Il2CppString* name_ = {}, UnityEngine::Transform* placeTransform_ = {}, GlobalNamespace::BTSCharacterResultAnimationController* animationController_ = {}, UnityEngine::AnimationClip* animationClip_ = {}, GlobalNamespace::BTSCharacter* btsCharacter_ = {}) noexcept : name{name_}, placeTransform{placeTransform_}, animationController{animationController_}, animationClip{animationClip_}, btsCharacter{btsCharacter_} {}
     // public System.String get_name()
-    // Offset: 0xF63654
+    // Offset: 0xF07904
     ::Il2CppString* get_name();
     // public System.Void Clean()
-    // Offset: 0xF633C8
+    // Offset: 0xF076A0
     void Clean();
     // public System.Void SetCharacter(BTSCharacter btsCharacter, System.Boolean alternativeMaterial)
-    // Offset: 0xF63038
+    // Offset: 0xF0732C
     void SetCharacter(GlobalNamespace::BTSCharacter* btsCharacter, bool alternativeMaterial);
     // public System.Void .ctor()
-    // Offset: 0xF6365C
+    // Offset: 0xF0790C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

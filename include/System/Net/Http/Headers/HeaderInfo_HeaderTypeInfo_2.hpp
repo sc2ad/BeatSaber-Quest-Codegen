@@ -59,7 +59,7 @@ namespace System::Net::Http::Headers {
     // public override System.Void AddToCollection(System.Object collection, System.Object value)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Net.Http.Headers.HeaderInfo
-    // Base method: System.Void HeaderInfo::AddToCollection(System.Object collection, System.Object value)
+    // Base method: System.Void HeaderInfo::AddToCollection_NEW(System.Object collection, System.Object value)
     void AddToCollection(::Il2CppObject* collection, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::AddToCollection");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AddToCollection", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(collection, value)));
@@ -68,7 +68,7 @@ namespace System::Net::Http::Headers {
     // protected override System.Object CreateCollection(System.Net.Http.Headers.HttpHeaders headers, System.Net.Http.Headers.HeaderInfo headerInfo)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Net.Http.Headers.HeaderInfo
-    // Base method: System.Object HeaderInfo::CreateCollection(System.Net.Http.Headers.HttpHeaders headers, System.Net.Http.Headers.HeaderInfo headerInfo)
+    // Base method: System.Object HeaderInfo::CreateCollection_NEW(System.Net.Http.Headers.HttpHeaders headers, System.Net.Http.Headers.HeaderInfo headerInfo)
     ::Il2CppObject* CreateCollection(System::Net::Http::Headers::HttpHeaders* headers, System::Net::Http::Headers::HeaderInfo* headerInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::CreateCollection");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CreateCollection", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(headers, headerInfo)));
@@ -77,7 +77,7 @@ namespace System::Net::Http::Headers {
     // public override System.Collections.Generic.List`1<System.String> ToStringCollection(System.Object collection)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Net.Http.Headers.HeaderInfo
-    // Base method: System.Collections.Generic.List`1<System.String> HeaderInfo::ToStringCollection(System.Object collection)
+    // Base method: System.Collections.Generic.List`1<System.String> HeaderInfo::ToStringCollection_NEW(System.Object collection)
     System::Collections::Generic::List_1<::Il2CppString*>* ToStringCollection(::Il2CppObject* collection) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::ToStringCollection");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ToStringCollection", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(collection)));
@@ -86,7 +86,7 @@ namespace System::Net::Http::Headers {
     // public override System.Boolean TryParse(System.String value, out System.Object result)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Net.Http.Headers.HeaderInfo
-    // Base method: System.Boolean HeaderInfo::TryParse(System.String value, out System.Object result)
+    // Base method: System.Boolean HeaderInfo::TryParse_NEW(System.String value, out System.Object result)
     bool TryParse(::Il2CppString* value, ::Il2CppObject*& result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::TryParse");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TryParse", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value, result)));

@@ -26,12 +26,12 @@ namespace GlobalNamespace {
   class IGameplayRpcManager;
   // Forward declaring type: BeatmapObjectManager
   class BeatmapObjectManager;
-  // Forward declaring type: ScoreController
-  class ScoreController;
+  // Forward declaring type: IScoreController
+  class IScoreController;
   // Forward declaring type: NoteController
   class NoteController;
   // Forward declaring type: NoteCutInfo
-  class NoteCutInfo;
+  struct NoteCutInfo;
 }
 // Completed forward declares
 // Type namespace: 
@@ -42,91 +42,91 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerLocalActiveClient : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xD3B274
+    // [InjectAttribute] Offset: 0xD26B1C
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3B284
+    // [InjectAttribute] Offset: 0xD26B2C
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3B294
+    // [InjectAttribute] Offset: 0xD26B3C
     // private readonly IScoreSyncStateManager _scoreSyncStateManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IScoreSyncStateManager* scoreSyncStateManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreSyncStateManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3B2A4
+    // [InjectAttribute] Offset: 0xD26B4C
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3B2B4
+    // [InjectAttribute] Offset: 0xD26B5C
     // private readonly IGameplayRpcManager _rpcManager
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::IGameplayRpcManager* rpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3B2C4
+    // [InjectAttribute] Offset: 0xD26B6C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3B2D4
-    // private readonly ScoreController _scoreController
+    // [InjectAttribute] Offset: 0xD26B7C
+    // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x48
-    GlobalNamespace::ScoreController* scoreController;
+    GlobalNamespace::IScoreController* scoreController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ScoreController*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
     // Creating value type constructor for type: MultiplayerLocalActiveClient
-    MultiplayerLocalActiveClient(GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::IScoreSyncStateManager* scoreSyncStateManager_ = {}, GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager_ = {}, GlobalNamespace::IGameplayRpcManager* rpcManager_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::ScoreController* scoreController_ = {}) noexcept : playerTransforms{playerTransforms_}, audioTimeSyncController{audioTimeSyncController_}, scoreSyncStateManager{scoreSyncStateManager_}, nodePoseSyncStateManager{nodePoseSyncStateManager_}, rpcManager{rpcManager_}, beatmapObjectManager{beatmapObjectManager_}, scoreController{scoreController_} {}
+    MultiplayerLocalActiveClient(GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::IScoreSyncStateManager* scoreSyncStateManager_ = {}, GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager_ = {}, GlobalNamespace::IGameplayRpcManager* rpcManager_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}) noexcept : playerTransforms{playerTransforms_}, audioTimeSyncController{audioTimeSyncController_}, scoreSyncStateManager{scoreSyncStateManager_}, nodePoseSyncStateManager{nodePoseSyncStateManager_}, rpcManager{rpcManager_}, beatmapObjectManager{beatmapObjectManager_}, scoreController{scoreController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public BeatmapObjectManager get_beatmapObjectManager()
-    // Offset: 0xFDDCCC
+    // Offset: 0xF49BDC
     GlobalNamespace::BeatmapObjectManager* get_beatmapObjectManager();
     // protected System.Void Start()
-    // Offset: 0xFDDCD4
+    // Offset: 0xF49BE4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFDE194
+    // Offset: 0xF4A270
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0xFDE3E8
+    // Offset: 0xF4A5EC
     void LateUpdate();
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0xFDE7E8
+    // Offset: 0xF4A974
     void HandleNoteWasMissed(GlobalNamespace::NoteController* noteController);
-    // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xFDE8EC
-    void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
+    // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
+    // Offset: 0xF4AA78
+    void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
     // private System.Void ScoreControllerHandleComboDidChange(System.Int32 combo)
-    // Offset: 0xFDEA8C
+    // Offset: 0xF4AC34
     void ScoreControllerHandleComboDidChange(int combo);
     // private System.Void ScoreControllerHandleMultiplierDidChange(System.Int32 multiplier, System.Single multiplierProgress)
-    // Offset: 0xFDEB74
+    // Offset: 0xF4AD1C
     void ScoreControllerHandleMultiplierDidChange(int multiplier, float multiplierProgress);
     // private System.Void ScoreControllerHandleImmediateMaxPossibleScoreDidChange(System.Int32 immediateMaxPossibleRawScore, System.Int32 immediateMaxPossibleModifiedScore)
-    // Offset: 0xFDEC5C
+    // Offset: 0xF4AE04
     void ScoreControllerHandleImmediateMaxPossibleScoreDidChange(int immediateMaxPossibleRawScore, int immediateMaxPossibleModifiedScore);
     // private System.Void ScoreControllerHandleScoreDidChange(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0xFDED44
+    // Offset: 0xF4AEEC
     void ScoreControllerHandleScoreDidChange(int rawScore, int modifiedScore);
     // public System.Void .ctor()
-    // Offset: 0xFDEEC0
+    // Offset: 0xF4B068
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -140,7 +140,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerLocalActiveClient
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerLocalActiveClient), 72 + sizeof(GlobalNamespace::ScoreController*)> __GlobalNamespace_MultiplayerLocalActiveClientSizeCheck;
+  static check_size<sizeof(MultiplayerLocalActiveClient), 72 + sizeof(GlobalNamespace::IScoreController*)> __GlobalNamespace_MultiplayerLocalActiveClientSizeCheck;
   static_assert(sizeof(MultiplayerLocalActiveClient) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveClient*, "", "MultiplayerLocalActiveClient");

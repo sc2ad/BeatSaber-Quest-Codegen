@@ -38,29 +38,29 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: SerStack
     SerStack(::Array<::Il2CppObject*>* objects_ = {}, ::Il2CppString* stackId_ = {}, int top_ = {}) noexcept : objects{objects_}, stackId{stackId_}, top{top_} {}
     // System.Void .ctor(System.String stackId)
-    // Offset: 0x1544B18
+    // Offset: 0x145F6C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerStack* New_ctor(::Il2CppString* stackId) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerStack*, creationType>(stackId)));
     }
     // System.Void Push(System.Object obj)
-    // Offset: 0x1546C00
+    // Offset: 0x146115C
     void Push(::Il2CppObject* obj);
     // System.Object Pop()
-    // Offset: 0x1546CBC
+    // Offset: 0x1461214
     ::Il2CppObject* Pop();
     // System.Void IncreaseCapacity()
-    // Offset: 0x154E9F4
+    // Offset: 0x1466958
     void IncreaseCapacity();
     // System.Object Peek()
-    // Offset: 0x1547428
+    // Offset: 0x14618CC
     ::Il2CppObject* Peek();
     // System.Object PeekPeek()
-    // Offset: 0x154EA8C
+    // Offset: 0x14669E8
     ::Il2CppObject* PeekPeek();
     // System.Boolean IsEmpty()
-    // Offset: 0x154DB7C
+    // Offset: 0x1465D60
     bool IsEmpty();
   }; // System.Runtime.Serialization.Formatters.Binary.SerStack
   #pragma pack(pop)

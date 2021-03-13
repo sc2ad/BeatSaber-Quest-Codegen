@@ -31,7 +31,7 @@ namespace System::Text {
     // Creating value type constructor for type: DecoderUTF7Fallback
     DecoderUTF7Fallback() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1A6F4B8
+    // Offset: 0x1B0ECF0
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Void DecoderFallback::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -41,24 +41,24 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<UTF7Encoding::DecoderUTF7Fallback*, creationType>()));
     }
     // public override System.Text.DecoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x1A71638
+    // Offset: 0x1B10E58
     // Implemented from: System.Text.DecoderFallback
-    // Base method: System.Text.DecoderFallbackBuffer DecoderFallback::CreateFallbackBuffer()
+    // Base method: System.Text.DecoderFallbackBuffer DecoderFallback::CreateFallbackBuffer_NEW()
     System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x1A716AC
+    // Offset: 0x1B10ECC
     // Implemented from: System.Text.DecoderFallback
-    // Base method: System.Int32 DecoderFallback::get_MaxCharCount()
+    // Base method: System.Int32 DecoderFallback::get_MaxCharCount_NEW()
     int get_MaxCharCount();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x1A716B4
+    // Offset: 0x1B10ED4
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object value)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1A71718
+    // Offset: 0x1B10F38
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
   }; // System.Text.UTF7Encoding/DecoderUTF7Fallback
   #pragma pack(pop)

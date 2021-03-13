@@ -22,12 +22,12 @@ namespace NUnit::Compatibility {
     // Creating value type constructor for type: LongLivedMarshalByRefObject
     LongLivedMarshalByRefObject() noexcept {}
     // public override System.Object InitializeLifetimeService()
-    // Offset: 0x16949E8
+    // Offset: 0x1599370
     // Implemented from: System.MarshalByRefObject
-    // Base method: System.Object MarshalByRefObject::InitializeLifetimeService()
+    // Base method: System.Object MarshalByRefObject::InitializeLifetimeService_NEW()
     ::Il2CppObject* InitializeLifetimeService();
     // public System.Void .ctor()
-    // Offset: 0x16949F0
+    // Offset: 0x1599378
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()

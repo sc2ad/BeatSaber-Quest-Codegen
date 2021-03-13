@@ -32,8 +32,8 @@ namespace UnityEngine::TestTools {
   // [] Offset: FFFFFFFF
   class TestEnumerator : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::TestTools::TestEnumerator::$Execute$d__5
-    class $Execute$d__5;
+    // Nested type: UnityEngine::TestTools::TestEnumerator::$Execute$d__6
+    class $Execute$d__6;
     // private readonly NUnit.Framework.Internal.ITestExecutionContext m_Context
     // Size: 0x8
     // Offset: 0x10
@@ -51,14 +51,14 @@ namespace UnityEngine::TestTools {
     // Set static field: static private System.Collections.IEnumerator m_TestEnumerator
     static void _set_m_TestEnumerator(System::Collections::IEnumerator* value);
     // public System.Void .ctor(NUnit.Framework.Internal.ITestExecutionContext context, System.Collections.IEnumerator testEnumerator)
-    // Offset: 0x133778C
+    // Offset: 0x134F58C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestEnumerator* New_ctor(NUnit::Framework::Internal::ITestExecutionContext* context, System::Collections::IEnumerator* testEnumerator) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestEnumerator*, creationType>(context, testEnumerator)));
     }
     // public System.Collections.IEnumerator Execute()
-    // Offset: 0x1337810
+    // Offset: 0x134F600
     System::Collections::IEnumerator* Execute();
   }; // UnityEngine.TestTools.TestEnumerator
   #pragma pack(pop)

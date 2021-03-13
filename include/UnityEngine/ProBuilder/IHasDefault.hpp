@@ -16,7 +16,7 @@ namespace UnityEngine::ProBuilder {
     IHasDefault() noexcept {}
     // public System.Void SetDefaultValues()
     // Offset: 0xFFFFFFFF
-    void SetDefaultValues();
+    void SetDefaultValues_NEW();
   }; // UnityEngine.ProBuilder.IHasDefault
   #pragma pack(pop)
 }

@@ -23,10 +23,10 @@ namespace Org::BouncyCastle::Math::Field {
     IFiniteField() noexcept {}
     // public Org.BouncyCastle.Math.BigInteger get_Characteristic()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::BigInteger* get_Characteristic();
+    Org::BouncyCastle::Math::BigInteger* get_Characteristic_NEW();
     // public System.Int32 get_Dimension()
     // Offset: 0xFFFFFFFF
-    int get_Dimension();
+    int get_Dimension_NEW();
   }; // Org.BouncyCastle.Math.Field.IFiniteField
   #pragma pack(pop)
 }

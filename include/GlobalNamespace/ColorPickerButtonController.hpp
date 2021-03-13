@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.UI.Button get_button()
-    // Offset: 0x103FB78
+    // Offset: 0xFD3114
     UnityEngine::UI::Button* get_button();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x103FB80
+    // Offset: 0xFD311C
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x103FBA8
+    // Offset: 0xFD3144
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

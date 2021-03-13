@@ -63,7 +63,7 @@ namespace System::Linq {
     // public override System.Linq.Enumerable/Iterator`1<TSource> Clone()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.Enumerable/Iterator`1
-    // Base method: System.Linq.Enumerable/Iterator`1<TSource> Iterator_1::Clone()
+    // Base method: System.Linq.Enumerable/Iterator`1<TSource> Iterator_1::Clone_NEW()
     System::Linq::Enumerable::Iterator_1<TSource>* Clone() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereArrayIterator_1::Clone");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Clone", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
@@ -72,21 +72,16 @@ namespace System::Linq {
     // public override System.Boolean MoveNext()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.Enumerable/Iterator`1
-    // Base method: System.Boolean Iterator_1::MoveNext()
+    // Base method: System.Boolean Iterator_1::MoveNext_NEW()
     bool MoveNext() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereArrayIterator_1::MoveNext");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
-    // Creating proxy method: System_Collections_IEnumerator_MoveNext
-    // Maps to method: MoveNext
-    bool System_Collections_IEnumerator_MoveNext() {
-      return MoveNext();
-    }
     // public override System.Collections.Generic.IEnumerable`1<TResult> Select(System.Func`2<TSource,TResult> selector)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.Enumerable/Iterator`1
-    // Base method: System.Collections.Generic.IEnumerable`1<TResult> Iterator_1::Select(System.Func`2<TSource,TResult> selector)
+    // Base method: System.Collections.Generic.IEnumerable`1<TResult> Iterator_1::Select_NEW(System.Func`2<TSource,TResult> selector)
     template<class TResult>
     System::Collections::Generic::IEnumerable_1<TResult>* Select(System::Func_2<TSource, TResult>* selector) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereArrayIterator_1::Select");
@@ -97,7 +92,7 @@ namespace System::Linq {
     // public override System.Collections.Generic.IEnumerable`1<TSource> Where(System.Func`2<TSource,System.Boolean> predicate)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.Enumerable/Iterator`1
-    // Base method: System.Collections.Generic.IEnumerable`1<TSource> Iterator_1::Where(System.Func`2<TSource,System.Boolean> predicate)
+    // Base method: System.Collections.Generic.IEnumerable`1<TSource> Iterator_1::Where_NEW(System.Func`2<TSource,System.Boolean> predicate)
     System::Collections::Generic::IEnumerable_1<TSource>* Where(System::Func_2<TSource, bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereArrayIterator_1::Where");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Where", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(predicate)));

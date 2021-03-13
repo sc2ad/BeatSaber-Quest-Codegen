@@ -41,14 +41,17 @@ namespace System::Text {
       return surrogateChar;
     }
     // public System.Void .ctor(System.Text.UTF8Encoding encoding)
-    // Offset: 0x1A74EA0
+    // Offset: 0x16F0FF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF8Encoding::UTF8Encoder* New_ctor(System::Text::UTF8Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF8Encoding::UTF8Encoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF8Encoding::UTF8Encoder*, creationType>(encoding)));
     }
+    // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
+    // Offset: 0x16F1294
+    void System_Runtime_Serialization_ISerializable_GetObjectData_NEW(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1A75720
+    // Offset: 0x16F0FFC
     // Implemented from: System.Text.EncoderNLS
     // Base method: System.Void EncoderNLS::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,20 +59,15 @@ namespace System::Text {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF8Encoding::UTF8Encoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF8Encoding::UTF8Encoder*, creationType>(info, context)));
     }
-    // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1A759F8
-    // Implemented from: System.Runtime.Serialization.ISerializable
-    // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void Reset()
-    // Offset: 0x1A75B14
+    // Offset: 0x16F13B0
     // Implemented from: System.Text.EncoderNLS
     // Base method: System.Void EncoderNLS::Reset()
     void Reset();
     // override System.Boolean get_HasState()
-    // Offset: 0x1A75B34
+    // Offset: 0x16F13D0
     // Implemented from: System.Text.EncoderNLS
-    // Base method: System.Boolean EncoderNLS::get_HasState()
+    // Base method: System.Boolean EncoderNLS::get_HasState_NEW()
     bool get_HasState();
   }; // System.Text.UTF8Encoding/UTF8Encoder
   #pragma pack(pop)

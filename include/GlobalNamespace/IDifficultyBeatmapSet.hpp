@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     IDifficultyBeatmapSet() noexcept {}
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
+    GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic_NEW();
     // public IDifficultyBeatmap[] get_difficultyBeatmaps()
     // Offset: 0xFFFFFFFF
-    ::Array<GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps();
+    ::Array<GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps_NEW();
   }; // IDifficultyBeatmapSet
   #pragma pack(pop)
 }

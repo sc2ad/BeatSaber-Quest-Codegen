@@ -66,39 +66,37 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::Triangle>*>(this);
     }
     // public System.Int32 get_a()
-    // Offset: 0xE2743C
+    // Offset: 0xE0D0E8
     int get_a();
     // public System.Int32 get_b()
-    // Offset: 0xE27444
+    // Offset: 0xE0D0F0
     int get_b();
     // public System.Int32 get_c()
-    // Offset: 0xE2744C
+    // Offset: 0xE0D0F8
     int get_c();
     // public System.Collections.Generic.IEnumerable`1<System.Int32> get_indices()
-    // Offset: 0xE27454
+    // Offset: 0xE0D100
     System::Collections::Generic::IEnumerable_1<int>* get_indices();
     // public System.Void .ctor(System.Int32 a, System.Int32 b, System.Int32 c)
-    // Offset: 0xE2745C
+    // Offset: 0xE0D108
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Triangle(int a, int b, int c)
+    // public System.Boolean Equals(UnityEngine.ProBuilder.Triangle other)
+    // Offset: 0xE0D114
+    bool Equals_NEW(UnityEngine::ProBuilder::Triangle other);
     // public System.Boolean IsAdjacent(UnityEngine.ProBuilder.Triangle other)
-    // Offset: 0xE274C4
+    // Offset: 0xE0D170
     bool IsAdjacent(UnityEngine::ProBuilder::Triangle other);
     // private System.Boolean ContainsEdge(UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0xE274D0
+    // Offset: 0xE0D17C
     bool ContainsEdge(UnityEngine::ProBuilder::Edge edge);
-    // public System.Boolean Equals(UnityEngine.ProBuilder.Triangle other)
-    // Offset: 0xE27468
-    // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.ProBuilder.Triangle other)
-    bool Equals(UnityEngine::ProBuilder::Triangle other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xE2749C
+    // Offset: 0xE0D148
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xE274A4
+    // Offset: 0xE0D150
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

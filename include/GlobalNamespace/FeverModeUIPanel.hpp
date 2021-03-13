@@ -19,8 +19,8 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: ScoreController
-  class ScoreController;
+  // Forward declaring type: IScoreController
+  class IScoreController;
 }
 // Completed forward declares
 // Type namespace: 
@@ -37,13 +37,13 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* feverBGTextRectTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [InjectAttribute] Offset: 0xD398A4
-    // private ScoreController _scoreController
+    // [InjectAttribute] Offset: 0xD24F9C
+    // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::ScoreController* scoreController;
+    GlobalNamespace::IScoreController* scoreController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ScoreController*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
     // private System.Single _feverTextRectWidth
     // Size: 0x4
     // Offset: 0x28
@@ -51,32 +51,32 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: FeverModeUIPanel
-    FeverModeUIPanel(UnityEngine::RectTransform* feverBGTextRectTransform_ = {}, GlobalNamespace::ScoreController* scoreController_ = {}, float feverTextRectWidth_ = {}) noexcept : feverBGTextRectTransform{feverBGTextRectTransform_}, scoreController{scoreController_}, feverTextRectWidth{feverTextRectWidth_} {}
+    FeverModeUIPanel(UnityEngine::RectTransform* feverBGTextRectTransform_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, float feverTextRectWidth_ = {}) noexcept : feverBGTextRectTransform{feverBGTextRectTransform_}, scoreController{scoreController_}, feverTextRectWidth{feverTextRectWidth_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF2A23C
+    // Offset: 0xF2AC5C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF2A3D4
+    // Offset: 0xF2AF0C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xF2A52C
+    // Offset: 0xF2B14C
     void Update();
     // private System.Void SetProgress(System.Single progress)
-    // Offset: 0xF2A370
+    // Offset: 0xF2AEA8
     void SetProgress(float progress);
     // private System.Void HandleFeverModeDidStart()
-    // Offset: 0xF2A57C
+    // Offset: 0xF2B298
     void HandleFeverModeDidStart();
     // private System.Void HandleFeverModeDidFinish()
-    // Offset: 0xF2A584
+    // Offset: 0xF2B2A0
     void HandleFeverModeDidFinish();
     // private System.Void HandleFeverModeChargeProgressDidChange(System.Single progress)
-    // Offset: 0xF2A58C
+    // Offset: 0xF2B2A8
     void HandleFeverModeChargeProgressDidChange(float progress);
     // public System.Void .ctor()
-    // Offset: 0xF2A590
+    // Offset: 0xF2B2AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -22,6 +22,8 @@ namespace GlobalNamespace {
   class MultiplayerOffsetPositionByLocalPlayerPosition;
   // Forward declaring type: MultiplayerLayoutProvider
   class MultiplayerLayoutProvider;
+  // Forward declaring type: MultiplayerPlayerResultsData
+  class MultiplayerPlayerResultsData;
 }
 // Forward declaring namespace: HMUI
 namespace HMUI {
@@ -73,16 +75,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerResultsTableView : public UnityEngine::MonoBehaviour/*, public HMUI::TableView::IDataSource*/ {
     public:
-    // Nested type: GlobalNamespace::MultiplayerResultsTableView::Data
-    class Data;
-    // Nested type: GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass31_0
-    class $$c__DisplayClass31_0;
-    // Nested type: GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass31_1
-    class $$c__DisplayClass31_1;
-    // Nested type: GlobalNamespace::MultiplayerResultsTableView::$PlayRandomRowSlideInSound$d__32
-    class $PlayRandomRowSlideInSound$d__32;
-    // Nested type: GlobalNamespace::MultiplayerResultsTableView::$PlayAvatarSlideInSound$d__33
-    class $PlayAvatarSlideInSound$d__33;
+    // Nested type: GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_0
+    class $$c__DisplayClass30_0;
+    // Nested type: GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_1
+    class $$c__DisplayClass30_1;
+    // Nested type: GlobalNamespace::MultiplayerResultsTableView::$PlayRandomRowSlideInSound$d__31
+    class $PlayRandomRowSlideInSound$d__31;
+    // Nested type: GlobalNamespace::MultiplayerResultsTableView::$PlayAvatarSlideInSound$d__32
+    class $PlayAvatarSlideInSound$d__32;
     // private HMUI.TableView _tableView
     // Size: 0x8
     // Offset: 0x18
@@ -107,7 +107,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerResultsTableCell* cellPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsTableCell*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD44550
+    // [SpaceAttribute] Offset: 0xD30914
     // private System.Single _startRowXPosition
     // Size: 0x4
     // Offset: 0x38
@@ -158,7 +158,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*) == 0x8);
-    // [HeaderAttribute] Offset: 0xD445F8
+    // [HeaderAttribute] Offset: 0xD309BC
     // private UnityEngine.AudioSource _outroSfxAudioSource
     // Size: 0x8
     // Offset: 0x60
@@ -177,33 +177,33 @@ namespace GlobalNamespace {
     UnityEngine::AudioClip* avatarSlideAudioClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // [InjectAttribute] Offset: 0xD44664
+    // [InjectAttribute] Offset: 0xD30A28
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x78
     Tweening::TweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD44674
+    // [InjectAttribute] Offset: 0xD30A38
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x80
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xD44684
+    // [InjectAttribute] Offset: 0xD30A48
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x88
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // private System.Collections.Generic.IReadOnlyList`1<MultiplayerResultsTableView/Data> _dataList
+    // private System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _dataList
     // Size: 0x8
     // Offset: 0x90
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerResultsTableView::Data*>* dataList;
+    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* dataList;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerResultsTableView::Data*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*) == 0x8);
     // private UnityEngine.Vector3 _positionOffset
     // Size: 0xC
     // Offset: 0x98
@@ -229,7 +229,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: MultiplayerResultsTableView
-    MultiplayerResultsTableView(HMUI::TableView* tableView_ = {}, UnityEngine::RectTransform* tableViewRectTransform_ = {}, GlobalNamespace::MultiplayerResultsTableCell* winnerTableCell_ = {}, GlobalNamespace::MultiplayerResultsTableCell* cellPrefab_ = {}, float startRowXPosition_ = {}, float rowHeight_ = {}, float rowXOffset_ = {}, float animationDuration_ = {}, float animationSeparationTime_ = {}, float winnerAnimationDuration_ = {}, float duelTablePosXOffset_ = {}, GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition_ = {}, UnityEngine::AudioSource* outroSfxAudioSource_ = {}, ::Array<UnityEngine::AudioClip*>* rowSlideAudioClips_ = {}, UnityEngine::AudioClip* avatarSlideAudioClip_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}, Zenject::DiContainer* container_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerResultsTableView::Data*>* dataList_ = {}, UnityEngine::Vector3 positionOffset_ = {}, UnityEngine::Quaternion rotationOffset_ = {}, UnityEngine::Vector3 lastParentPosition_ = {}, UnityEngine::Quaternion lastParentRotation_ = {}) noexcept : tableView{tableView_}, tableViewRectTransform{tableViewRectTransform_}, winnerTableCell{winnerTableCell_}, cellPrefab{cellPrefab_}, startRowXPosition{startRowXPosition_}, rowHeight{rowHeight_}, rowXOffset{rowXOffset_}, animationDuration{animationDuration_}, animationSeparationTime{animationSeparationTime_}, winnerAnimationDuration{winnerAnimationDuration_}, duelTablePosXOffset{duelTablePosXOffset_}, multiplayerOffsetByLocalPlayerPosition{multiplayerOffsetByLocalPlayerPosition_}, outroSfxAudioSource{outroSfxAudioSource_}, rowSlideAudioClips{rowSlideAudioClips_}, avatarSlideAudioClip{avatarSlideAudioClip_}, tweeningManager{tweeningManager_}, layoutProvider{layoutProvider_}, container{container_}, dataList{dataList_}, positionOffset{positionOffset_}, rotationOffset{rotationOffset_}, lastParentPosition{lastParentPosition_}, lastParentRotation{lastParentRotation_} {}
+    MultiplayerResultsTableView(HMUI::TableView* tableView_ = {}, UnityEngine::RectTransform* tableViewRectTransform_ = {}, GlobalNamespace::MultiplayerResultsTableCell* winnerTableCell_ = {}, GlobalNamespace::MultiplayerResultsTableCell* cellPrefab_ = {}, float startRowXPosition_ = {}, float rowHeight_ = {}, float rowXOffset_ = {}, float animationDuration_ = {}, float animationSeparationTime_ = {}, float winnerAnimationDuration_ = {}, float duelTablePosXOffset_ = {}, GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition_ = {}, UnityEngine::AudioSource* outroSfxAudioSource_ = {}, ::Array<UnityEngine::AudioClip*>* rowSlideAudioClips_ = {}, UnityEngine::AudioClip* avatarSlideAudioClip_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}, Zenject::DiContainer* container_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* dataList_ = {}, UnityEngine::Vector3 positionOffset_ = {}, UnityEngine::Quaternion rotationOffset_ = {}, UnityEngine::Vector3 lastParentPosition_ = {}, UnityEngine::Quaternion lastParentRotation_ = {}) noexcept : tableView{tableView_}, tableViewRectTransform{tableViewRectTransform_}, winnerTableCell{winnerTableCell_}, cellPrefab{cellPrefab_}, startRowXPosition{startRowXPosition_}, rowHeight{rowHeight_}, rowXOffset{rowXOffset_}, animationDuration{animationDuration_}, animationSeparationTime{animationSeparationTime_}, winnerAnimationDuration{winnerAnimationDuration_}, duelTablePosXOffset{duelTablePosXOffset_}, multiplayerOffsetByLocalPlayerPosition{multiplayerOffsetByLocalPlayerPosition_}, outroSfxAudioSource{outroSfxAudioSource_}, rowSlideAudioClips{rowSlideAudioClips_}, avatarSlideAudioClip{avatarSlideAudioClip_}, tweeningManager{tweeningManager_}, layoutProvider{layoutProvider_}, container{container_}, dataList{dataList_}, positionOffset{positionOffset_}, rotationOffset{rotationOffset_}, lastParentPosition{lastParentPosition_}, lastParentRotation{lastParentRotation_} {}
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);
@@ -242,50 +242,44 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kCellIdentifier();
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::Il2CppString* value);
+    // public System.Single CellSize()
+    // Offset: 0xF195E4
+    float CellSize_NEW();
+    // public System.Int32 NumberOfCells()
+    // Offset: 0xF195EC
+    int NumberOfCells_NEW();
     // protected System.Void Awake()
-    // Offset: 0xFEFF98
+    // Offset: 0xF1965C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xFEFFF8
+    // Offset: 0xF196BC
     void OnDestroy();
-    // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerResultsTableView/Data> dataList)
-    // Offset: 0xFEC8A4
-    void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerResultsTableView::Data*>* dataList);
+    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
+    // Offset: 0xF19754
+    HMUI::TableCell* CellForIdx_NEW(HMUI::TableView* tableView, int idx);
+    // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> dataList)
+    // Offset: 0xF19B9C
+    void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
     // public System.Single StartAnimation()
-    // Offset: 0xFECB5C
+    // Offset: 0xF19E44
     float StartAnimation();
     // private System.Collections.IEnumerator PlayRandomRowSlideInSound(System.Single delay)
-    // Offset: 0xFF04DC
+    // Offset: 0xF1A6C8
     System::Collections::IEnumerator* PlayRandomRowSlideInSound(float delay);
     // private System.Collections.IEnumerator PlayAvatarSlideInSound(System.Single delay)
-    // Offset: 0xFF0568
+    // Offset: 0xF1A774
     System::Collections::IEnumerator* PlayAvatarSlideInSound(float delay);
-    // private System.Void <StartAnimation>b__31_1()
-    // Offset: 0xFF0610
-    void $StartAnimation$b__31_1();
-    // private System.Void <StartAnimation>b__31_4()
-    // Offset: 0xFF0644
-    void $StartAnimation$b__31_4();
-    // private System.Void <StartAnimation>b__31_5(System.Single val)
-    // Offset: 0xFF0678
-    void $StartAnimation$b__31_5(float val);
-    // public System.Single CellSize()
-    // Offset: 0xFEFF20
-    // Implemented from: HMUI.TableView/IDataSource
-    // Base method: System.Single IDataSource::CellSize()
-    float CellSize();
-    // public System.Int32 NumberOfCells()
-    // Offset: 0xFEFF28
-    // Implemented from: HMUI.TableView/IDataSource
-    // Base method: System.Int32 IDataSource::NumberOfCells()
-    int NumberOfCells();
-    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0xFF0090
-    // Implemented from: HMUI.TableView/IDataSource
-    // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
+    // private System.Void <StartAnimation>b__30_1()
+    // Offset: 0xF1A83C
+    void $StartAnimation$b__30_1();
+    // private System.Void <StartAnimation>b__30_4()
+    // Offset: 0xF1A870
+    void $StartAnimation$b__30_4();
+    // private System.Void <StartAnimation>b__30_5(System.Single val)
+    // Offset: 0xF1A8A4
+    void $StartAnimation$b__30_5(float val);
     // public System.Void .ctor()
-    // Offset: 0xFF05F4
+    // Offset: 0xF1A820
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

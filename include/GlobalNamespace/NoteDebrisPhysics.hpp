@@ -29,12 +29,12 @@ namespace GlobalNamespace {
     NoteDebrisPhysics() noexcept {}
     // public System.Void SetVelocity(UnityEngine.Vector3 force)
     // Offset: 0xFFFFFFFF
-    void SetVelocity(UnityEngine::Vector3 force);
+    void SetVelocity_NEW(UnityEngine::Vector3 force);
     // public System.Void SetAngularVelocity(UnityEngine.Vector3 torque)
     // Offset: 0xFFFFFFFF
-    void SetAngularVelocity(UnityEngine::Vector3 torque);
+    void SetAngularVelocity_NEW(UnityEngine::Vector3 torque);
     // protected System.Void .ctor()
-    // Offset: 0xF94130
+    // Offset: 0x10C4D2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

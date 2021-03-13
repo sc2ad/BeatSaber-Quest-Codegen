@@ -50,22 +50,15 @@ namespace System::Threading::Tasks {
     }
     // public System.Void Invoke(System.Threading.Tasks.Task ignored)
     // Offset: 0xFFFFFFFF
-    // Implemented from: System.Threading.Tasks.ITaskCompletionAction
-    // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task ignored)
-    void Invoke(System::Threading::Tasks::Task* ignored) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::WhenAllPromise_1::Invoke");
+    void Invoke_NEW(System::Threading::Tasks::Task* ignored) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::WhenAllPromise_1::Invoke_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(ignored)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, ignored);
-    }
-    // Creating proxy method: System_Threading_Tasks_ITaskCompletionAction_Invoke
-    // Maps to method: Invoke
-    void System_Threading_Tasks_ITaskCompletionAction_Invoke(System::Threading::Tasks::Task* ignored) {
-      Invoke(ignored);
     }
     // override System.Boolean get_ShouldNotifyDebuggerOfWaitCompletion()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Threading.Tasks.Task
-    // Base method: System.Boolean Task::get_ShouldNotifyDebuggerOfWaitCompletion()
+    // Base method: System.Boolean Task::get_ShouldNotifyDebuggerOfWaitCompletion_NEW()
     bool get_ShouldNotifyDebuggerOfWaitCompletion() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::WhenAllPromise_1::get_ShouldNotifyDebuggerOfWaitCompletion");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_ShouldNotifyDebuggerOfWaitCompletion", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));

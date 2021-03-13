@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithAbuseReportRecording
     MessageWithAbuseReportRecording() noexcept {}
     // protected Oculus.Platform.Models.AbuseReportRecording GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x13E8700
+    // Offset: 0x1382A60
     Oculus::Platform::Models::AbuseReportRecording* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x13E865C
+    // Offset: 0x13829BC
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,9 +41,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithAbuseReportRecording*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.AbuseReportRecording GetAbuseReportRecording()
-    // Offset: 0x13E86BC
+    // Offset: 0x1382A1C
     // Implemented from: Oculus.Platform.Message
-    // Base method: Oculus.Platform.Models.AbuseReportRecording Message::GetAbuseReportRecording()
+    // Base method: Oculus.Platform.Models.AbuseReportRecording Message::GetAbuseReportRecording_NEW()
     Oculus::Platform::Models::AbuseReportRecording* GetAbuseReportRecording();
   }; // Oculus.Platform.MessageWithAbuseReportRecording
 }

@@ -40,7 +40,7 @@ namespace System {
     // Creating value type constructor for type: MonoTypeInfo
     MonoTypeInfo(::Il2CppString* full_name_ = {}, System::Reflection::MonoCMethod* default_ctor_ = {}) noexcept : full_name{full_name_}, default_ctor{default_ctor_} {}
     // public System.Void .ctor()
-    // Offset: 0x1B188E0
+    // Offset: 0x169A7E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

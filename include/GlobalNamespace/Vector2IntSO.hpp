@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Vector2IntSO
     Vector2IntSO() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x229FD70
+    // Offset: 0x2122530
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

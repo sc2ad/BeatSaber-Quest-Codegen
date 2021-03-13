@@ -50,37 +50,37 @@ namespace Zenject {
     public:
     // Writing base type padding for base size: 0x42 to desired offset: 0x48
     char ___base_padding[0x6] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD062FC
+    // [CompilerGeneratedAttribute] Offset: 0xCF0C60
     // private System.Action PreInstall
     // Size: 0x8
     // Offset: 0x48
     System::Action* PreInstall;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0630C
+    // [CompilerGeneratedAttribute] Offset: 0xCF0C70
     // private System.Action PostInstall
     // Size: 0x8
     // Offset: 0x50
     System::Action* PostInstall;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0631C
+    // [CompilerGeneratedAttribute] Offset: 0xCF0C80
     // private System.Action PreResolve
     // Size: 0x8
     // Offset: 0x58
     System::Action* PreResolve;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0632C
+    // [CompilerGeneratedAttribute] Offset: 0xCF0C90
     // private System.Action PostResolve
     // Size: 0x8
     // Offset: 0x60
     System::Action* PostResolve;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [NullAllowed] Offset: 0xD0633C
-    // [TooltipAttribute] Offset: 0xD0633C
-    // [FormerlySerializedAsAttribute] Offset: 0xD0633C
+    // [NullAllowed] Offset: 0xCF0CA0
+    // [TooltipAttribute] Offset: 0xCF0CA0
+    // [FormerlySerializedAsAttribute] Offset: 0xCF0CA0
     // private Zenject.MonoKernel _kernel
     // Size: 0x8
     // Offset: 0x68
@@ -96,57 +96,57 @@ namespace Zenject {
     // Creating value type constructor for type: GameObjectContext
     GameObjectContext(System::Action* PreInstall_ = {}, System::Action* PostInstall_ = {}, System::Action* PreResolve_ = {}, System::Action* PostResolve_ = {}, Zenject::MonoKernel* kernel_ = {}, Zenject::DiContainer* container_ = {}) noexcept : PreInstall{PreInstall_}, PostInstall{PostInstall_}, PreResolve{PreResolve_}, PostResolve{PostResolve_}, kernel{kernel_}, container{container_} {}
     // public System.Void add_PreInstall(System.Action value)
-    // Offset: 0x14EC138
+    // Offset: 0x1476634
     void add_PreInstall(System::Action* value);
     // public System.Void remove_PreInstall(System.Action value)
-    // Offset: 0x14EC1DC
+    // Offset: 0x14766D8
     void remove_PreInstall(System::Action* value);
     // public System.Void add_PostInstall(System.Action value)
-    // Offset: 0x14EC280
+    // Offset: 0x147677C
     void add_PostInstall(System::Action* value);
     // public System.Void remove_PostInstall(System.Action value)
-    // Offset: 0x14EC324
+    // Offset: 0x1476820
     void remove_PostInstall(System::Action* value);
     // public System.Void add_PreResolve(System.Action value)
-    // Offset: 0x14EC3C8
+    // Offset: 0x14768C4
     void add_PreResolve(System::Action* value);
     // public System.Void remove_PreResolve(System.Action value)
-    // Offset: 0x14EC46C
+    // Offset: 0x1476968
     void remove_PreResolve(System::Action* value);
     // public System.Void add_PostResolve(System.Action value)
-    // Offset: 0x14EC510
+    // Offset: 0x1476A0C
     void add_PostResolve(System::Action* value);
     // public System.Void remove_PostResolve(System.Action value)
-    // Offset: 0x14EC5B4
+    // Offset: 0x1476AB0
     void remove_PostResolve(System::Action* value);
     // public System.Void Construct(Zenject.DiContainer parentContainer)
-    // Offset: 0x14EC71C
+    // Offset: 0x1476C0C
     void Construct(Zenject::DiContainer* parentContainer);
     // private System.Void InstallBindings(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> injectableMonoBehaviours)
-    // Offset: 0x14ECA8C
+    // Offset: 0x1476F10
     void InstallBindings(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* injectableMonoBehaviours);
     // public override Zenject.DiContainer get_Container()
-    // Offset: 0x14EC658
+    // Offset: 0x1476B54
     // Implemented from: Zenject.Context
-    // Base method: Zenject.DiContainer Context::get_Container()
+    // Base method: Zenject.DiContainer Context::get_Container_NEW()
     Zenject::DiContainer* get_Container();
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetRootGameObjects()
-    // Offset: 0x14EC660
+    // Offset: 0x1476B5C
     // Implemented from: Zenject.Context
-    // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> Context::GetRootGameObjects()
+    // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> Context::GetRootGameObjects_NEW()
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetRootGameObjects();
     // protected override System.Void RunInternal()
-    // Offset: 0x14EC780
+    // Offset: 0x1476C58
     // Implemented from: Zenject.RunnableContext
-    // Base method: System.Void RunnableContext::RunInternal()
+    // Base method: System.Void RunnableContext::RunInternal_NEW()
     void RunInternal();
     // protected override System.Void GetInjectableMonoBehaviours(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
-    // Offset: 0x14ECC3C
+    // Offset: 0x14770C0
     // Implemented from: Zenject.Context
-    // Base method: System.Void Context::GetInjectableMonoBehaviours(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
+    // Base method: System.Void Context::GetInjectableMonoBehaviours_NEW(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
     void GetInjectableMonoBehaviours(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* monoBehaviours);
     // public System.Void .ctor()
-    // Offset: 0x14ECE50
+    // Offset: 0x14772D4
     // Implemented from: Zenject.RunnableContext
     // Base method: System.Void RunnableContext::.ctor()
     // Base method: System.Void Context::.ctor()

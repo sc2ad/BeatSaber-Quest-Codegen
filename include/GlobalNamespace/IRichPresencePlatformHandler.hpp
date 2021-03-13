@@ -23,10 +23,10 @@ namespace GlobalNamespace {
     IRichPresencePlatformHandler() noexcept {}
     // public System.Void SetPresence(IRichPresenceData richPresenceData)
     // Offset: 0xFFFFFFFF
-    void SetPresence(GlobalNamespace::IRichPresenceData* richPresenceData);
+    void SetPresence_NEW(GlobalNamespace::IRichPresenceData* richPresenceData);
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
-    void Clear();
+    void Clear_NEW();
   }; // IRichPresencePlatformHandler
   #pragma pack(pop)
 }

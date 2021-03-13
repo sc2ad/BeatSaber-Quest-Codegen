@@ -60,19 +60,19 @@ namespace HMUI {
     static_assert(sizeof(TimeSlider::TimeType) == 0x4);
     // private HMUI.TimeSlider/TimeType _timeType
     // Size: 0x4
-    // Offset: 0x160
+    // Offset: 0x168
     HMUI::TimeSlider::TimeType timeType;
     // Field size check
     static_assert(sizeof(HMUI::TimeSlider::TimeType) == 0x4);
     // Creating value type constructor for type: TimeSlider
     TimeSlider(HMUI::TimeSlider::TimeType timeType_ = {}) noexcept : timeType{timeType_} {}
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x11C81EC
+    // Offset: 0x1205B54
     // Implemented from: HMUI.RangeValuesTextSlider
-    // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
+    // Base method: System.String RangeValuesTextSlider::TextForValue_NEW(System.Single value)
     ::Il2CppString* TextForValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x11C83A4
+    // Offset: 0x1205D0C
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()

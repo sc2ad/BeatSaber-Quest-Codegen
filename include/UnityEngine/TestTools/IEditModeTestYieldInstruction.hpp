@@ -23,7 +23,7 @@ namespace UnityEngine::TestTools {
     IEditModeTestYieldInstruction() noexcept {}
     // public System.Collections.IEnumerator Perform()
     // Offset: 0xFFFFFFFF
-    System::Collections::IEnumerator* Perform();
+    System::Collections::IEnumerator* Perform_NEW();
   }; // UnityEngine.TestTools.IEditModeTestYieldInstruction
   #pragma pack(pop)
 }

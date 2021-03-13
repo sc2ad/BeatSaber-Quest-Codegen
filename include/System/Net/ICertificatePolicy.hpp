@@ -30,7 +30,7 @@ namespace System::Net {
     ICertificatePolicy() noexcept {}
     // public System.Boolean CheckValidationResult(System.Net.ServicePoint srvPoint, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Net.WebRequest request, System.Int32 certificateProblem)
     // Offset: 0xFFFFFFFF
-    bool CheckValidationResult(System::Net::ServicePoint* srvPoint, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Net::WebRequest* request, int certificateProblem);
+    bool CheckValidationResult_NEW(System::Net::ServicePoint* srvPoint, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Net::WebRequest* request, int certificateProblem);
   }; // System.Net.ICertificatePolicy
   #pragma pack(pop)
 }

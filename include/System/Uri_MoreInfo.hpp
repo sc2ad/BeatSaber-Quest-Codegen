@@ -60,7 +60,7 @@ namespace System {
     // Creating value type constructor for type: MoreInfo
     MoreInfo(::Il2CppString* Path_ = {}, ::Il2CppString* Query_ = {}, ::Il2CppString* Fragment_ = {}, ::Il2CppString* AbsoluteUri_ = {}, int Hash_ = {}, ::Il2CppString* RemoteUrl_ = {}) noexcept : Path{Path_}, Query{Query_}, Fragment{Fragment_}, AbsoluteUri{AbsoluteUri_}, Hash{Hash_}, RemoteUrl{RemoteUrl_} {}
     // public System.Void .ctor()
-    // Offset: 0x22A27D4
+    // Offset: 0x2148464
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

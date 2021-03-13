@@ -137,25 +137,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetTextureByIndex(System.Int32 i, UnityEngine.Texture t)
-    // Offset: 0x129E260
+    // Offset: 0x12DAF34
     void SetTextureByIndex(int i, UnityEngine::Texture* t);
     // public UnityEngine.Texture GetTextureByIndex(System.Int32 i)
-    // Offset: 0x129E2CC
+    // Offset: 0x12DAF88
     UnityEngine::Texture* GetTextureByIndex(int i);
     // static public System.Void SetOverride(UnityEngine.Texture front, UnityEngine.Texture back, UnityEngine.Texture left, UnityEngine.Texture right, UnityEngine.Texture top, UnityEngine.Texture bottom)
-    // Offset: 0x12949C8
+    // Offset: 0x12D1A30
     static void SetOverride(UnityEngine::Texture* front, UnityEngine::Texture* back, UnityEngine::Texture* left, UnityEngine::Texture* right, UnityEngine::Texture* top, UnityEngine::Texture* bottom);
     // static public System.Void ClearOverride()
-    // Offset: 0x1294E3C
+    // Offset: 0x12D1E5C
     static void ClearOverride();
     // private System.Void OnEnable()
-    // Offset: 0x129E328
+    // Offset: 0x12DAFE4
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x129E33C
+    // Offset: 0x12DAFF8
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x129E340
+    // Offset: 0x12DAFFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

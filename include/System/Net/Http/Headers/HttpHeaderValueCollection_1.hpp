@@ -28,16 +28,16 @@ namespace System::Net::Http::Headers {
   // Forward declaring type: HeaderInfo
   class HeaderInfo;
 }
+// Forward declaring namespace: System::Collections
+namespace System::Collections {
+  // Forward declaring type: IEnumerator
+  class IEnumerator;
+}
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Predicate`1<T>
   template<typename T>
   class Predicate_1;
-}
-// Forward declaring namespace: System::Collections
-namespace System::Collections {
-  // Forward declaring type: IEnumerator
-  class IEnumerator;
 }
 // Completed forward declares
 // Type namespace: System.Net.Http.Headers
@@ -85,12 +85,33 @@ namespace System::Net::Http::Headers {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpHeaderValueCollection_1<T>*, creationType>(headers, headerInfo)));
     }
+    // public System.Int32 get_Count()
+    // Offset: 0xFFFFFFFF
+    int get_Count_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::get_Count_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
+    }
     // System.Collections.Generic.List`1<System.String> get_InvalidValues()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::List_1<::Il2CppString*>* get_InvalidValues() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::get_InvalidValues");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_InvalidValues", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<::Il2CppString*>*, false>(this, ___internal__method);
+    }
+    // public System.Boolean get_IsReadOnly()
+    // Offset: 0xFFFFFFFF
+    bool get_IsReadOnly_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::get_IsReadOnly_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_IsReadOnly", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
+    }
+    // public System.Void Add(T item)
+    // Offset: 0xFFFFFFFF
+    void Add_NEW(T item) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::Add_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // System.Void AddRange(System.Collections.Generic.List`1<T> values)
     // Offset: 0xFFFFFFFF
@@ -106,6 +127,48 @@ namespace System::Net::Http::Headers {
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "AddInvalidValue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(invalidValue)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, invalidValue);
     }
+    // public System.Void Clear()
+    // Offset: 0xFFFFFFFF
+    void Clear_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::Clear_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+    }
+    // public System.Boolean Contains(T item)
+    // Offset: 0xFFFFFFFF
+    bool Contains_NEW(T item) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::Contains_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Contains", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
+    }
+    // public System.Void CopyTo(T[] array, System.Int32 arrayIndex)
+    // Offset: 0xFFFFFFFF
+    void CopyTo_NEW(::Array<T>* array, int arrayIndex) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::CopyTo_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(array, arrayIndex)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, array, arrayIndex);
+    }
+    // public System.Boolean Remove(T item)
+    // Offset: 0xFFFFFFFF
+    bool Remove_NEW(T item) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::Remove_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
+    }
+    // public System.Collections.Generic.IEnumerator`1<T> GetEnumerator()
+    // Offset: 0xFFFFFFFF
+    System::Collections::Generic::IEnumerator_1<T>* GetEnumerator_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::GetEnumerator_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal__method);
+    }
+    // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
+    // Offset: 0xFFFFFFFF
+    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::System.Collections.IEnumerable.GetEnumerator_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
+    }
     // T Find(System.Predicate`1<T> predicate)
     // Offset: 0xFFFFFFFF
     T Find(System::Predicate_1<T>* predicate) {
@@ -113,135 +176,14 @@ namespace System::Net::Http::Headers {
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Find", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(predicate)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, predicate);
     }
-    // public System.Int32 get_Count()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Int32 ICollection_1::get_Count()
-    int get_Count() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::get_Count");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
-    }
-    // Creating proxy method: System_Collections_Generic_ICollection_1_get_Count
-    // Maps to method: get_Count
-    int System_Collections_Generic_ICollection_1_get_Count() {
-      return get_Count();
-    }
-    // public System.Boolean get_IsReadOnly()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Boolean ICollection_1::get_IsReadOnly()
-    bool get_IsReadOnly() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::get_IsReadOnly");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_IsReadOnly", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
-    }
-    // Creating proxy method: System_Collections_Generic_ICollection_1_get_IsReadOnly
-    // Maps to method: get_IsReadOnly
-    bool System_Collections_Generic_ICollection_1_get_IsReadOnly() {
-      return get_IsReadOnly();
-    }
-    // public System.Void Add(T item)
-    // Offset: 0xFFFFFFFF
-    // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Void ICollection_1::Add(T item)
-    void Add(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::Add");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
-    }
-    // Creating proxy method: System_Collections_Generic_ICollection_1_Add
-    // Maps to method: Add
-    void System_Collections_Generic_ICollection_1_Add(T item) {
-      Add(item);
-    }
-    // public System.Void Clear()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Void ICollection_1::Clear()
-    void Clear() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::Clear");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
-    }
-    // Creating proxy method: System_Collections_Generic_ICollection_1_Clear
-    // Maps to method: Clear
-    void System_Collections_Generic_ICollection_1_Clear() {
-      Clear();
-    }
-    // public System.Boolean Contains(T item)
-    // Offset: 0xFFFFFFFF
-    // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Boolean ICollection_1::Contains(T item)
-    bool Contains(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::Contains");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Contains", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
-    }
-    // Creating proxy method: System_Collections_Generic_ICollection_1_Contains
-    // Maps to method: Contains
-    bool System_Collections_Generic_ICollection_1_Contains(T item) {
-      return Contains(item);
-    }
-    // public System.Void CopyTo(T[] array, System.Int32 arrayIndex)
-    // Offset: 0xFFFFFFFF
-    // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Void ICollection_1::CopyTo(T[] array, System.Int32 arrayIndex)
-    void CopyTo(::Array<T>* array, int arrayIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::CopyTo");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(array, arrayIndex)));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, array, arrayIndex);
-    }
-    // Creating proxy method: System_Collections_Generic_ICollection_1_CopyTo
-    // Maps to method: CopyTo
-    void System_Collections_Generic_ICollection_1_CopyTo(::Array<T>* array, int arrayIndex) {
-      CopyTo(array, arrayIndex);
-    }
-    // public System.Boolean Remove(T item)
-    // Offset: 0xFFFFFFFF
-    // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Boolean ICollection_1::Remove(T item)
-    bool Remove(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::Remove");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
-    }
-    // Creating proxy method: System_Collections_Generic_ICollection_1_Remove
-    // Maps to method: Remove
-    bool System_Collections_Generic_ICollection_1_Remove(T item) {
-      return Remove(item);
-    }
     // public override System.String ToString()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::ToString");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ToString", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
-    }
-    // public System.Collections.Generic.IEnumerator`1<T> GetEnumerator()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: System.Collections.Generic.IEnumerable`1
-    // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
-    System::Collections::Generic::IEnumerator_1<T>* GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::GetEnumerator");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal__method);
-    }
-    // Creating proxy method: System_Collections_Generic_IEnumerable_1_GetEnumerator
-    // Maps to method: GetEnumerator
-    System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_1_GetEnumerator() {
-      return GetEnumerator();
-    }
-    // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: System.Collections.IEnumerable
-    // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
-    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::System.Collections.IEnumerable.GetEnumerator");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
     }
   }; // System.Net.Http.Headers.HttpHeaderValueCollection`1
   // Could not write size check! Type: System.Net.Http.Headers.HttpHeaderValueCollection`1 is generic, or has no fields that are valid for size checks!

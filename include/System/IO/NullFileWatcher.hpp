@@ -36,21 +36,17 @@ namespace System::IO {
     static System::IO::IFileWatcher* _get_instance();
     // Set static field: static private System.IO.IFileWatcher instance
     static void _set_instance(System::IO::IFileWatcher* value);
-    // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
-    // Offset: 0x17A3EC8
-    static bool GetInstance(System::IO::IFileWatcher*& watcher);
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x17A48D4
-    // Implemented from: System.IO.IFileWatcher
-    // Base method: System.Void IFileWatcher::StartDispatching(System.IO.FileSystemWatcher fsw)
-    void StartDispatching(System::IO::FileSystemWatcher* fsw);
+    // Offset: 0x16D4C98
+    void StartDispatching_NEW(System::IO::FileSystemWatcher* fsw);
     // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x17A48D8
-    // Implemented from: System.IO.IFileWatcher
-    // Base method: System.Void IFileWatcher::StopDispatching(System.IO.FileSystemWatcher fsw)
-    void StopDispatching(System::IO::FileSystemWatcher* fsw);
+    // Offset: 0x16D4C9C
+    void StopDispatching_NEW(System::IO::FileSystemWatcher* fsw);
+    // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
+    // Offset: 0x16D42AC
+    static bool GetInstance(System::IO::IFileWatcher*& watcher);
     // public System.Void .ctor()
-    // Offset: 0x17A48DC
+    // Offset: 0x16D4CA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

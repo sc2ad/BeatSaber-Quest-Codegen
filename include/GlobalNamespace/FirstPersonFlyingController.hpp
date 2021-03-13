@@ -112,20 +112,23 @@ namespace GlobalNamespace {
     FirstPersonFlyingController(float moveSensitivity_ = {}, UnityEngine::Camera* camera_ = {}, float cameraFov_ = {}, GlobalNamespace::VRCenterAdjust* centerAdjust_ = {}, GlobalNamespace::VRController* controller0_ = {}, GlobalNamespace::VRController* controller1_ = {}, VRUIControls::VRInputModule* vrInputModule_ = {}, ::Array<UnityEngine::GameObject*>* controllerModels_ = {}, GlobalNamespace::MouseLook* mouseLook_ = {}, UnityEngine::Transform* cameraTransform_ = {}) noexcept : moveSensitivity{moveSensitivity_}, camera{camera_}, cameraFov{cameraFov_}, centerAdjust{centerAdjust_}, controller0{controller0_}, controller1{controller1_}, vrInputModule{vrInputModule_}, controllerModels{controllerModels_}, mouseLook{mouseLook_}, cameraTransform{cameraTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // protected System.Void Awake()
+    // Offset: 0xF2E450
+    void Awake();
     // protected System.Void Start()
-    // Offset: 0xF2D51C
+    // Offset: 0xF2E45C
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xF2D744
+    // Offset: 0xF2E678
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xF2D778
+    // Offset: 0xF2E6AC
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0xF2D7A8
+    // Offset: 0xF2E6DC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xF2DBA0
+    // Offset: 0xF2EAD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

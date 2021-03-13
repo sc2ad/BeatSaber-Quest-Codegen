@@ -28,7 +28,7 @@ namespace System::Net {
     IWebRequestCreate() noexcept {}
     // public System.Net.WebRequest Create(System.Uri uri)
     // Offset: 0xFFFFFFFF
-    System::Net::WebRequest* Create(System::Uri* uri);
+    System::Net::WebRequest* Create_NEW(System::Uri* uri);
   }; // System.Net.IWebRequestCreate
   #pragma pack(pop)
 }

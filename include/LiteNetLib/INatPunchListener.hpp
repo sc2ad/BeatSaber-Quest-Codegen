@@ -31,10 +31,10 @@ namespace LiteNetLib {
     INatPunchListener() noexcept {}
     // public System.Void OnNatIntroductionRequest(System.Net.IPEndPoint localEndPoint, System.Net.IPEndPoint remoteEndPoint, System.String token)
     // Offset: 0xFFFFFFFF
-    void LiteNetLib_INatPunchListener_OnNatIntroductionRequest(System::Net::IPEndPoint* localEndPoint, System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* token);
+    void OnNatIntroductionRequest_NEW(System::Net::IPEndPoint* localEndPoint, System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* token);
     // public System.Void OnNatIntroductionSuccess(System.Net.IPEndPoint targetEndPoint, LiteNetLib.NatAddressType type, System.String token)
     // Offset: 0xFFFFFFFF
-    void LiteNetLib_INatPunchListener_OnNatIntroductionSuccess(System::Net::IPEndPoint* targetEndPoint, LiteNetLib::NatAddressType type, ::Il2CppString* token);
+    void OnNatIntroductionSuccess_NEW(System::Net::IPEndPoint* targetEndPoint, LiteNetLib::NatAddressType type, ::Il2CppString* token);
   }; // LiteNetLib.INatPunchListener
   #pragma pack(pop)
 }

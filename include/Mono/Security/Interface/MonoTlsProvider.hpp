@@ -61,36 +61,36 @@ namespace Mono::Security::Interface {
     MonoTlsProvider() noexcept {}
     // public System.Guid get_ID()
     // Offset: 0xFFFFFFFF
-    System::Guid get_ID();
+    System::Guid get_ID_NEW();
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Name();
+    ::Il2CppString* get_Name_NEW();
     // public System.Boolean get_SupportsSslStream()
     // Offset: 0xFFFFFFFF
-    bool get_SupportsSslStream();
+    bool get_SupportsSslStream_NEW();
     // public System.Boolean get_SupportsConnectionInfo()
     // Offset: 0xFFFFFFFF
-    bool get_SupportsConnectionInfo();
+    bool get_SupportsConnectionInfo_NEW();
     // public System.Boolean get_SupportsMonoExtensions()
     // Offset: 0xFFFFFFFF
-    bool get_SupportsMonoExtensions();
+    bool get_SupportsMonoExtensions_NEW();
     // public System.Security.Authentication.SslProtocols get_SupportedProtocols()
     // Offset: 0xFFFFFFFF
-    System::Security::Authentication::SslProtocols get_SupportedProtocols();
+    System::Security::Authentication::SslProtocols get_SupportedProtocols_NEW();
     // public Mono.Security.Interface.IMonoSslStream CreateSslStream(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, Mono.Security.Interface.MonoTlsSettings settings)
     // Offset: 0xFFFFFFFF
-    Mono::Security::Interface::IMonoSslStream* CreateSslStream(System::IO::Stream* innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsSettings* settings);
+    Mono::Security::Interface::IMonoSslStream* CreateSslStream_NEW(System::IO::Stream* innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsSettings* settings);
     // Mono.Security.Interface.IMonoSslStream CreateSslStreamInternal(System.Net.Security.SslStream sslStream, System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, Mono.Security.Interface.MonoTlsSettings settings)
     // Offset: 0xFFFFFFFF
-    Mono::Security::Interface::IMonoSslStream* CreateSslStreamInternal(System::Net::Security::SslStream* sslStream, System::IO::Stream* innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsSettings* settings);
+    Mono::Security::Interface::IMonoSslStream* CreateSslStreamInternal_NEW(System::Net::Security::SslStream* sslStream, System::IO::Stream* innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsSettings* settings);
     // System.Boolean ValidateCertificate(Mono.Security.Interface.ICertificateValidator2 validator, System.String targetHost, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates, System.Boolean wantsChain, ref System.Security.Cryptography.X509Certificates.X509Chain chain, ref Mono.Security.Interface.MonoSslPolicyErrors errors, ref System.Int32 status11)
     // Offset: 0xFFFFFFFF
-    bool ValidateCertificate(Mono::Security::Interface::ICertificateValidator2* validator, ::Il2CppString* targetHost, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain, System::Security::Cryptography::X509Certificates::X509Chain*& chain, Mono::Security::Interface::MonoSslPolicyErrors& errors, int& status11);
+    bool ValidateCertificate_NEW(Mono::Security::Interface::ICertificateValidator2* validator, ::Il2CppString* targetHost, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain, System::Security::Cryptography::X509Certificates::X509Chain*& chain, Mono::Security::Interface::MonoSslPolicyErrors& errors, int& status11);
     // System.Boolean get_SupportsCleanShutdown()
     // Offset: 0xFFFFFFFF
-    bool get_SupportsCleanShutdown();
+    bool get_SupportsCleanShutdown_NEW();
     // System.Void .ctor()
-    // Offset: 0x1BF0C1C
+    // Offset: 0x1B919E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

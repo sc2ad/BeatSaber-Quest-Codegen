@@ -101,23 +101,35 @@ namespace System::Runtime::Remoting::Lifetime {
     }
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
+    // public System.TimeSpan get_CurrentLeaseTime()
+    // Offset: 0x18A4B20
+    System::TimeSpan get_CurrentLeaseTime_NEW();
+    // public System.Runtime.Remoting.Lifetime.LeaseState get_CurrentState()
+    // Offset: 0x18A4B98
+    System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState_NEW();
     // public System.Void Activate()
-    // Offset: 0x131C260
+    // Offset: 0x18A4BA0
     void Activate();
+    // public System.TimeSpan get_RenewOnCallTime()
+    // Offset: 0x18A4BAC
+    System::TimeSpan get_RenewOnCallTime_NEW();
+    // public System.TimeSpan Renew(System.TimeSpan renewalTime)
+    // Offset: 0x18A4BB4
+    System::TimeSpan Renew_NEW(System::TimeSpan renewalTime);
     // public System.Void Unregister(System.Runtime.Remoting.Lifetime.ISponsor obj)
-    // Offset: 0x131C310
-    void Unregister(System::Runtime::Remoting::Lifetime::ISponsor* obj);
+    // Offset: 0x18A4C50
+    void Unregister_NEW(System::Runtime::Remoting::Lifetime::ISponsor* obj);
     // System.Void UpdateState()
-    // Offset: 0x131C450
+    // Offset: 0x18A4D60
     void UpdateState();
     // private System.Void CheckNextSponsor()
-    // Offset: 0x131C5B8
+    // Offset: 0x18A4EAC
     void CheckNextSponsor();
     // private System.Void ProcessSponsorResponse(System.Object state, System.Boolean timedOut)
-    // Offset: 0x131C860
+    // Offset: 0x18A5110
     void ProcessSponsorResponse(::Il2CppObject* state, bool timedOut);
     // public System.Void .ctor()
-    // Offset: 0x131C048
+    // Offset: 0x18A4988
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -126,26 +138,6 @@ namespace System::Runtime::Remoting::Lifetime {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Lifetime::Lease::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Lease*, creationType>()));
     }
-    // public System.TimeSpan get_CurrentLeaseTime()
-    // Offset: 0x131C1E0
-    // Implemented from: System.Runtime.Remoting.Lifetime.ILease
-    // Base method: System.TimeSpan ILease::get_CurrentLeaseTime()
-    System::TimeSpan get_CurrentLeaseTime();
-    // public System.Runtime.Remoting.Lifetime.LeaseState get_CurrentState()
-    // Offset: 0x131C258
-    // Implemented from: System.Runtime.Remoting.Lifetime.ILease
-    // Base method: System.Runtime.Remoting.Lifetime.LeaseState ILease::get_CurrentState()
-    System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState();
-    // public System.TimeSpan get_RenewOnCallTime()
-    // Offset: 0x131C26C
-    // Implemented from: System.Runtime.Remoting.Lifetime.ILease
-    // Base method: System.TimeSpan ILease::get_RenewOnCallTime()
-    System::TimeSpan get_RenewOnCallTime();
-    // public System.TimeSpan Renew(System.TimeSpan renewalTime)
-    // Offset: 0x131C274
-    // Implemented from: System.Runtime.Remoting.Lifetime.ILease
-    // Base method: System.TimeSpan ILease::Renew(System.TimeSpan renewalTime)
-    System::TimeSpan Renew(System::TimeSpan renewalTime);
   }; // System.Runtime.Remoting.Lifetime.Lease
   #pragma pack(pop)
   static check_size<sizeof(Lease), 80 + sizeof(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*)> __System_Runtime_Remoting_Lifetime_LeaseSizeCheck;

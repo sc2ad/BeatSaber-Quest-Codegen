@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     ::Il2CppString* folder;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [NullAllowed] Offset: 0xD0A298
+    // [NullAllowed] Offset: 0xCF4C44
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x20
@@ -214,28 +214,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0x1116894
+    // Offset: 0x112CB90
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1116A54
+    // Offset: 0x112CD14
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x1116B28
+    // Offset: 0x112CDE8
     void LateUpdate();
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x1116C8C
+    // Offset: 0x112CF4C
     void OnApplicationFocus(bool hasFocus);
     // private System.Void SaveCameraScreenshot()
-    // Offset: 0x1116BF8
+    // Offset: 0x112CEB8
     void SaveCameraScreenshot();
     // private System.Void SaveTextureScreenshot(UnityEngine.Texture2D tex)
-    // Offset: 0x1116DC8
+    // Offset: 0x112D088
     void SaveTextureScreenshot(UnityEngine::Texture2D* tex);
     // private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x1116CA4
+    // Offset: 0x112CF64
     UnityEngine::Texture2D* ConvertRenderTexture(UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0x1116ED8
+    // Offset: 0x112D198
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

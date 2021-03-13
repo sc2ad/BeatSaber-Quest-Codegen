@@ -33,14 +33,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class InstantMenuButtonTrigger : public ::Il2CppObject/*, public Zenject::ITickable, public GlobalNamespace::IMenuButtonTrigger*/ {
     public:
-    // [InjectAttribute] Offset: 0xD3A03C
+    // [InjectAttribute] Offset: 0xD25734
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::VRControllersInputManager* vrControllersInputManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRControllersInputManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3A04C
+    // [CompilerGeneratedAttribute] Offset: 0xD25744
     // private System.Action menuButtonTriggeredEvent
     // Size: 0x8
     // Offset: 0x18
@@ -58,22 +58,16 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IMenuButtonTrigger*>(this);
     }
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0xFD2574
-    // Implemented from: IMenuButtonTrigger
-    // Base method: System.Void IMenuButtonTrigger::add_menuButtonTriggeredEvent(System.Action value)
-    void add_menuButtonTriggeredEvent(System::Action* value);
+    // Offset: 0xFF4B18
+    void add_menuButtonTriggeredEvent_NEW(System::Action* value);
     // public System.Void remove_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0xFD2618
-    // Implemented from: IMenuButtonTrigger
-    // Base method: System.Void IMenuButtonTrigger::remove_menuButtonTriggeredEvent(System.Action value)
-    void remove_menuButtonTriggeredEvent(System::Action* value);
+    // Offset: 0xFF4BBC
+    void remove_menuButtonTriggeredEvent_NEW(System::Action* value);
     // public System.Void Tick()
-    // Offset: 0xFD26BC
-    // Implemented from: Zenject.ITickable
-    // Base method: System.Void ITickable::Tick()
-    void Tick();
+    // Offset: 0xFF4C60
+    void Tick_NEW();
     // public System.Void .ctor()
-    // Offset: 0xFD2708
+    // Offset: 0xFF4CAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

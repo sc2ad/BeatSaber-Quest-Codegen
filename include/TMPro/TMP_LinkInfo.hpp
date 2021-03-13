@@ -74,13 +74,13 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void SetLinkID(System.Char[] text, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0xDF3740
+    // Offset: 0xDDDB94
     void SetLinkID(::Array<::Il2CppChar>* text, int startIndex, int length);
     // public System.String GetLinkText()
-    // Offset: 0xDF3748
+    // Offset: 0xDDDB9C
     ::Il2CppString* GetLinkText();
     // public System.String GetLinkID()
-    // Offset: 0xDF3750
+    // Offset: 0xDDDBA4
     ::Il2CppString* GetLinkID();
   }; // TMPro.TMP_LinkInfo
   #pragma pack(pop)

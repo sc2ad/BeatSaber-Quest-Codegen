@@ -51,36 +51,30 @@ namespace Org::BouncyCastle::Math::Field {
       return *reinterpret_cast<Org::BouncyCastle::Math::Field::IPolynomialExtensionField*>(this);
     }
     // System.Void .ctor(Org.BouncyCastle.Math.Field.IFiniteField subfield, Org.BouncyCastle.Math.Field.IPolynomial polynomial)
-    // Offset: 0x1BC991C
+    // Offset: 0x1B3D494
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericPolynomialExtensionField* New_ctor(Org::BouncyCastle::Math::Field::IFiniteField* subfield, Org::BouncyCastle::Math::Field::IPolynomial* polynomial) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericPolynomialExtensionField*, creationType>(subfield, polynomial)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_Characteristic()
-    // Offset: 0x1BC9E2C
-    // Implemented from: Org.BouncyCastle.Math.Field.IFiniteField
-    // Base method: Org.BouncyCastle.Math.BigInteger IFiniteField::get_Characteristic()
-    Org::BouncyCastle::Math::BigInteger* get_Characteristic();
+    // Offset: 0x1B3D954
+    Org::BouncyCastle::Math::BigInteger* get_Characteristic_NEW();
     // public System.Int32 get_Dimension()
-    // Offset: 0x1BC9EDC
-    // Implemented from: Org.BouncyCastle.Math.Field.IFiniteField
-    // Base method: System.Int32 IFiniteField::get_Dimension()
-    int get_Dimension();
+    // Offset: 0x1B3DA04
+    int get_Dimension_NEW();
     // public Org.BouncyCastle.Math.Field.IPolynomial get_MinimalPolynomial()
-    // Offset: 0x1BCA00C
-    // Implemented from: Org.BouncyCastle.Math.Field.IPolynomialExtensionField
-    // Base method: Org.BouncyCastle.Math.Field.IPolynomial IPolynomialExtensionField::get_MinimalPolynomial()
-    Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();
+    // Offset: 0x1B3DB34
+    Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial_NEW();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1BCA014
+    // Offset: 0x1B3DB3C
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object obj)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1BCA0F8
+    // Offset: 0x1B3DC20
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.Field.GenericPolynomialExtensionField
   #pragma pack(pop)

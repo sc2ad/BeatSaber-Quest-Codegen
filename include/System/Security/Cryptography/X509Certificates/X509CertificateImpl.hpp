@@ -44,71 +44,66 @@ namespace System::Security::Cryptography::X509Certificates {
     }
     // public System.Boolean get_IsValid()
     // Offset: 0xFFFFFFFF
-    bool get_IsValid();
+    bool get_IsValid_NEW();
     // protected System.Void ThrowIfContextInvalid()
-    // Offset: 0x14CEE94
+    // Offset: 0x1970C78
     void ThrowIfContextInvalid();
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone()
     // Offset: 0xFFFFFFFF
-    System::Security::Cryptography::X509Certificates::X509CertificateImpl* Clone();
+    System::Security::Cryptography::X509Certificates::X509CertificateImpl* Clone_NEW();
     // public System.String GetIssuerName(System.Boolean legacyV1Mode)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetIssuerName(bool legacyV1Mode);
+    ::Il2CppString* GetIssuerName_NEW(bool legacyV1Mode);
     // public System.String GetSubjectName(System.Boolean legacyV1Mode)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetSubjectName(bool legacyV1Mode);
+    ::Il2CppString* GetSubjectName_NEW(bool legacyV1Mode);
     // public System.Byte[] GetRawCertData()
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* GetRawCertData();
+    ::Array<uint8_t>* GetRawCertData_NEW();
     // public System.DateTime GetValidFrom()
     // Offset: 0xFFFFFFFF
-    System::DateTime GetValidFrom();
+    System::DateTime GetValidFrom_NEW();
     // public System.DateTime GetValidUntil()
     // Offset: 0xFFFFFFFF
-    System::DateTime GetValidUntil();
+    System::DateTime GetValidUntil_NEW();
     // public System.Byte[] GetCertHash()
-    // Offset: 0x14CE54C
+    // Offset: 0x19703AC
     ::Array<uint8_t>* GetCertHash();
     // protected System.Byte[] GetCertHash(System.Boolean lazy)
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* GetCertHash(bool lazy);
+    ::Array<uint8_t>* GetCertHash_NEW(bool lazy);
     // public System.Boolean Equals(System.Security.Cryptography.X509Certificates.X509CertificateImpl other, out System.Boolean result)
     // Offset: 0xFFFFFFFF
-    bool Equals(System::Security::Cryptography::X509Certificates::X509CertificateImpl* other, bool& result);
+    bool Equals_NEW(System::Security::Cryptography::X509Certificates::X509CertificateImpl* other, bool& result);
     // public System.Byte[] GetSerialNumber()
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* GetSerialNumber();
+    ::Array<uint8_t>* GetSerialNumber_NEW();
     // public System.String ToString(System.Boolean full)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* ToString(bool full);
+    ::Il2CppString* ToString_NEW(bool full);
+    // public System.Void Dispose()
+    // Offset: 0x1970BF8
+    void Dispose_NEW();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x14CF188
-    void Dispose(bool disposing);
+    // Offset: 0x1970F58
+    void Dispose_NEW(bool disposing);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x14CEF78
+    // Offset: 0x1970D5C
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x14CEFF8
+    // Offset: 0x1970DC8
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object obj)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
     bool Equals(::Il2CppObject* obj);
-    // public System.Void Dispose()
-    // Offset: 0x14CEE14
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose();
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x14CF194
+    // Offset: 0x1970F60
     // Implemented from: System.Object
-    // Base method: System.Void Object::Finalize()
+    // Base method: System.Void Object::Finalize_NEW()
     void Finalize();
     // protected System.Void .ctor()
-    // Offset: 0x14CF20C
+    // Offset: 0x1970FD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

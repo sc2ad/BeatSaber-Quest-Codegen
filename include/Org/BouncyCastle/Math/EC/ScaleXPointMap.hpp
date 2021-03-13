@@ -45,17 +45,15 @@ namespace Org::BouncyCastle::Math::EC {
       return scale;
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECFieldElement scale)
-    // Offset: 0x1BC96C0
+    // Offset: 0x1B3D248
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScaleXPointMap* New_ctor(Org::BouncyCastle::Math::EC::ECFieldElement* scale) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ScaleXPointMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScaleXPointMap*, creationType>(scale)));
     }
     // public Org.BouncyCastle.Math.EC.ECPoint Map(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x1BC96F4
-    // Implemented from: Org.BouncyCastle.Math.EC.ECPointMap
-    // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPointMap::Map(Org.BouncyCastle.Math.EC.ECPoint p)
-    Org::BouncyCastle::Math::EC::ECPoint* Map(Org::BouncyCastle::Math::EC::ECPoint* p);
+    // Offset: 0x1B3D274
+    Org::BouncyCastle::Math::EC::ECPoint* Map_NEW(Org::BouncyCastle::Math::EC::ECPoint* p);
   }; // Org.BouncyCastle.Math.EC.ScaleXPointMap
   #pragma pack(pop)
   static check_size<sizeof(ScaleXPointMap), 16 + sizeof(Org::BouncyCastle::Math::EC::ECFieldElement*)> __Org_BouncyCastle_Math_EC_ScaleXPointMapSizeCheck;

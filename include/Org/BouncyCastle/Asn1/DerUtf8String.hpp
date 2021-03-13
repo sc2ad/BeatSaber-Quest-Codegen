@@ -40,33 +40,33 @@ namespace Org::BouncyCastle::Asn1 {
       return str;
     }
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x1601D44
+    // Offset: 0x15417F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerUtf8String* New_ctor(::Array<uint8_t>* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerUtf8String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerUtf8String*, creationType>(str)));
     }
     // public System.Void .ctor(System.String str)
-    // Offset: 0x1613528
+    // Offset: 0x1552580
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerUtf8String* New_ctor(::Il2CppString* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerUtf8String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerUtf8String*, creationType>(str)));
     }
     // public override System.String GetString()
-    // Offset: 0x16135CC
+    // Offset: 0x155261C
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
-    // Base method: System.String DerStringBase::GetString()
+    // Base method: System.String DerStringBase::GetString_NEW()
     ::Il2CppString* GetString();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x16135D4
+    // Offset: 0x1552624
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
-    // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
+    // Base method: System.Boolean Asn1Object::Asn1Equals_NEW(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1613688
+    // Offset: 0x15526D8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
-    // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
+    // Base method: System.Void Asn1Object::Encode_NEW(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
   }; // Org.BouncyCastle.Asn1.DerUtf8String
   #pragma pack(pop)

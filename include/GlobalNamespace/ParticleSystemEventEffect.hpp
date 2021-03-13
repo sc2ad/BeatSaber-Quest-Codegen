@@ -22,8 +22,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: ColorSO
   class ColorSO;
-  // Forward declaring type: BeatmapObjectCallbackController
-  class BeatmapObjectCallbackController;
+  // Forward declaring type: IBeatmapObjectCallbackController
+  class IBeatmapObjectCallbackController;
   // Forward declaring type: BeatmapEventData
   class BeatmapEventData;
 }
@@ -78,20 +78,20 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapEventType colorEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xD390C8
+    // [SpaceAttribute] Offset: 0xD24780
     // private UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x40
     UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // [InjectAttribute] Offset: 0xD39100
-    // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // [InjectAttribute] Offset: 0xD247B8
+    // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x48
-    GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
+    GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
     // private System.Boolean _lightIsOn
     // Size: 0x1
     // Offset: 0x50
@@ -161,26 +161,26 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: ParticleSystemEventEffect
-    ParticleSystemEventEffect(GlobalNamespace::ColorSO* lightColor0_ = {}, GlobalNamespace::ColorSO* lightColor1_ = {}, GlobalNamespace::ColorSO* highlightColor0_ = {}, GlobalNamespace::ColorSO* highlightColor1_ = {}, bool lightOnStart_ = {}, GlobalNamespace::BeatmapEventType colorEvent_ = {}, UnityEngine::ParticleSystem* particleSystem_ = {}, GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, bool lightIsOn_ = {}, UnityEngine::Color offColor_ = {}, float highlightValue_ = {}, UnityEngine::Color afterHighlightColor_ = {}, UnityEngine::Color highlightColor_ = {}, float kFadeSpeed_ = {}, float particleSpeedMultiplier_ = {}, UnityEngine::ParticleSystem::MainModule mainModule_ = {}, ::Array<UnityEngine::ParticleSystem::Particle>* particles_ = {}, UnityEngine::Color particleColor_ = {}, float particleSpeed_ = {}) noexcept : lightColor0{lightColor0_}, lightColor1{lightColor1_}, highlightColor0{highlightColor0_}, highlightColor1{highlightColor1_}, lightOnStart{lightOnStart_}, colorEvent{colorEvent_}, particleSystem{particleSystem_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, lightIsOn{lightIsOn_}, offColor{offColor_}, highlightValue{highlightValue_}, afterHighlightColor{afterHighlightColor_}, highlightColor{highlightColor_}, kFadeSpeed{kFadeSpeed_}, particleSpeedMultiplier{particleSpeedMultiplier_}, mainModule{mainModule_}, particles{particles_}, particleColor{particleColor_}, particleSpeed{particleSpeed_} {}
+    ParticleSystemEventEffect(GlobalNamespace::ColorSO* lightColor0_ = {}, GlobalNamespace::ColorSO* lightColor1_ = {}, GlobalNamespace::ColorSO* highlightColor0_ = {}, GlobalNamespace::ColorSO* highlightColor1_ = {}, bool lightOnStart_ = {}, GlobalNamespace::BeatmapEventType colorEvent_ = {}, UnityEngine::ParticleSystem* particleSystem_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, bool lightIsOn_ = {}, UnityEngine::Color offColor_ = {}, float highlightValue_ = {}, UnityEngine::Color afterHighlightColor_ = {}, UnityEngine::Color highlightColor_ = {}, float kFadeSpeed_ = {}, float particleSpeedMultiplier_ = {}, UnityEngine::ParticleSystem::MainModule mainModule_ = {}, ::Array<UnityEngine::ParticleSystem::Particle>* particles_ = {}, UnityEngine::Color particleColor_ = {}, float particleSpeed_ = {}) noexcept : lightColor0{lightColor0_}, lightColor1{lightColor1_}, highlightColor0{highlightColor0_}, highlightColor1{highlightColor1_}, lightOnStart{lightOnStart_}, colorEvent{colorEvent_}, particleSystem{particleSystem_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, lightIsOn{lightIsOn_}, offColor{offColor_}, highlightValue{highlightValue_}, afterHighlightColor{afterHighlightColor_}, highlightColor{highlightColor_}, kFadeSpeed{kFadeSpeed_}, particleSpeedMultiplier{particleSpeedMultiplier_}, mainModule{mainModule_}, particles{particles_}, particleColor{particleColor_}, particleSpeed{particleSpeed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF1FAD8
+    // Offset: 0xF58ECC
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0xF1FD8C
+    // Offset: 0xF591C4
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xF1FE68
+    // Offset: 0xF592C4
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xF1FF8C
+    // Offset: 0xF593E8
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void RefreshParticles()
-    // Offset: 0xF1FC50
+    // Offset: 0xF59088
     void RefreshParticles();
     // public System.Void .ctor()
-    // Offset: 0xF20174
+    // Offset: 0xF595D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

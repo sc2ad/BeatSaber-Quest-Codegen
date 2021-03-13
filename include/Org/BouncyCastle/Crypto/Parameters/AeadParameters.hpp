@@ -53,17 +53,17 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // public Org.BouncyCastle.Crypto.Parameters.KeyParameter get_Key()
-    // Offset: 0x117D230
-    Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
+    // Offset: 0x115D1C8
+    Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key_NEW();
     // public System.Int32 get_MacSize()
-    // Offset: 0x117D238
-    int get_MacSize();
+    // Offset: 0x115D1D0
+    int get_MacSize_NEW();
     // public System.Byte[] GetAssociatedText()
-    // Offset: 0x117D240
-    ::Array<uint8_t>* GetAssociatedText();
+    // Offset: 0x115D1D8
+    ::Array<uint8_t>* GetAssociatedText_NEW();
     // public System.Byte[] GetNonce()
-    // Offset: 0x117D248
-    ::Array<uint8_t>* GetNonce();
+    // Offset: 0x115D1E0
+    ::Array<uint8_t>* GetNonce_NEW();
   }; // Org.BouncyCastle.Crypto.Parameters.AeadParameters
   #pragma pack(pop)
   static check_size<sizeof(AeadParameters), 40 + sizeof(int)> __Org_BouncyCastle_Crypto_Parameters_AeadParametersSizeCheck;

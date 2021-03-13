@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRControllerLTouch
     OVRControllerLTouch() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x13A75A0
+    // Offset: 0x173F6F4
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -34,44 +34,34 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerLTouch*, creationType>()));
     }
     // public override System.Void ConfigureButtonMap()
-    // Offset: 0x13AE724
+    // Offset: 0x174677C
     // Implemented from: OVRInput/OVRControllerBase
-    // Base method: System.Void OVRControllerBase::ConfigureButtonMap()
+    // Base method: System.Void OVRControllerBase::ConfigureButtonMap_NEW()
     void ConfigureButtonMap();
     // public override System.Void ConfigureTouchMap()
-    // Offset: 0x13AE8FC
+    // Offset: 0x1746954
     // Implemented from: OVRInput/OVRControllerBase
-    // Base method: System.Void OVRControllerBase::ConfigureTouchMap()
+    // Base method: System.Void OVRControllerBase::ConfigureTouchMap_NEW()
     void ConfigureTouchMap();
     // public override System.Void ConfigureNearTouchMap()
-    // Offset: 0x13AE9C0
+    // Offset: 0x1746A18
     // Implemented from: OVRInput/OVRControllerBase
-    // Base method: System.Void OVRControllerBase::ConfigureNearTouchMap()
+    // Base method: System.Void OVRControllerBase::ConfigureNearTouchMap_NEW()
     void ConfigureNearTouchMap();
     // public override System.Void ConfigureAxis1DMap()
-    // Offset: 0x13AEA18
+    // Offset: 0x1746A70
     // Implemented from: OVRInput/OVRControllerBase
-    // Base method: System.Void OVRControllerBase::ConfigureAxis1DMap()
+    // Base method: System.Void OVRControllerBase::ConfigureAxis1DMap_NEW()
     void ConfigureAxis1DMap();
     // public override System.Void ConfigureAxis2DMap()
-    // Offset: 0x13AEA70
+    // Offset: 0x1746AC8
     // Implemented from: OVRInput/OVRControllerBase
-    // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap()
+    // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap_NEW()
     void ConfigureAxis2DMap();
-    // public override System.Boolean WasRecentered()
-    // Offset: 0x13AEAC4
-    // Implemented from: OVRInput/OVRControllerBase
-    // Base method: System.Boolean OVRControllerBase::WasRecentered()
-    bool WasRecentered();
-    // public override System.Byte GetRecenterCount()
-    // Offset: 0x13AEAD8
-    // Implemented from: OVRInput/OVRControllerBase
-    // Base method: System.Byte OVRControllerBase::GetRecenterCount()
-    uint8_t GetRecenterCount();
     // public override System.Byte GetBatteryPercentRemaining()
-    // Offset: 0x13AEAE0
+    // Offset: 0x1746B1C
     // Implemented from: OVRInput/OVRControllerBase
-    // Base method: System.Byte OVRControllerBase::GetBatteryPercentRemaining()
+    // Base method: System.Byte OVRControllerBase::GetBatteryPercentRemaining_NEW()
     uint8_t GetBatteryPercentRemaining();
   }; // OVRInput/OVRControllerLTouch
   #pragma pack(pop)

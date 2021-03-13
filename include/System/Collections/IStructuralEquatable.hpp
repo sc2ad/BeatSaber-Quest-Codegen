@@ -26,10 +26,10 @@ namespace System::Collections {
     IStructuralEquatable() noexcept {}
     // public System.Boolean Equals(System.Object other, System.Collections.IEqualityComparer comparer)
     // Offset: 0xFFFFFFFF
-    bool System_Collections_IStructuralEquatable_Equals(::Il2CppObject* other, System::Collections::IEqualityComparer* comparer);
+    bool Equals_NEW(::Il2CppObject* other, System::Collections::IEqualityComparer* comparer);
     // public System.Int32 GetHashCode(System.Collections.IEqualityComparer comparer)
     // Offset: 0xFFFFFFFF
-    int System_Collections_IStructuralEquatable_GetHashCode(System::Collections::IEqualityComparer* comparer);
+    int GetHashCode_NEW(System::Collections::IEqualityComparer* comparer);
   }; // System.Collections.IStructuralEquatable
   #pragma pack(pop)
 }

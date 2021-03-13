@@ -36,19 +36,19 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     Triangulatable() noexcept {}
     // public System.Void Prepare(UnityEngine.ProBuilder.Poly2Tri.TriangulationContext tcx)
     // Offset: 0xFFFFFFFF
-    void Prepare(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
+    void Prepare_NEW(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
     // public System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> get_Triangles()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* get_Triangles();
+    System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* get_Triangles_NEW();
     // public System.Void AddTriangle(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle t)
     // Offset: 0xFFFFFFFF
-    void AddTriangle(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
+    void AddTriangle_NEW(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
     // public System.Void AddTriangles(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> list)
     // Offset: 0xFFFFFFFF
-    void AddTriangles(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* list);
+    void AddTriangles_NEW(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* list);
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationMode get_TriangulationMode()
     // Offset: 0xFFFFFFFF
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
+    UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode_NEW();
   }; // UnityEngine.ProBuilder.Poly2Tri.Triangulatable
   #pragma pack(pop)
 }

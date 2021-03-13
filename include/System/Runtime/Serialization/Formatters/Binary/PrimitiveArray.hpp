@@ -103,17 +103,17 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: PrimitiveArray
     PrimitiveArray(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code_ = {}, ::Array<bool>* booleanA_ = {}, ::Array<::Il2CppChar>* charA_ = {}, ::Array<double>* doubleA_ = {}, ::Array<int16_t>* int16A_ = {}, ::Array<int>* int32A_ = {}, ::Array<int64_t>* int64A_ = {}, ::Array<int8_t>* sbyteA_ = {}, ::Array<float>* singleA_ = {}, ::Array<uint16_t>* uint16A_ = {}, ::Array<uint>* uint32A_ = {}, ::Array<uint64_t>* uint64A_ = {}) noexcept : code{code_}, booleanA{booleanA_}, charA{charA_}, doubleA{doubleA_}, int16A{int16A_}, int32A{int32A_}, int64A{int64A_}, sbyteA{sbyteA_}, singleA{singleA_}, uint16A{uint16A_}, uint32A{uint32A_}, uint64A{uint64A_} {}
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Array array)
-    // Offset: 0x15478C8
+    // Offset: 0x1461CB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrimitiveArray* New_ctor(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrimitiveArray*, creationType>(code, array)));
     }
     // System.Void Init(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Array array)
-    // Offset: 0x154DBE0
+    // Offset: 0x1465DC4
     void Init(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array* array);
     // System.Void SetValue(System.String value, System.Int32 index)
-    // Offset: 0x1548230
+    // Offset: 0x14625EC
     void SetValue(::Il2CppString* value, int index);
   }; // System.Runtime.Serialization.Formatters.Binary.PrimitiveArray
   #pragma pack(pop)

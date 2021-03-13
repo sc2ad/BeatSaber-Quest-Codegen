@@ -19,17 +19,17 @@
 // Forward declaring namespace: UnityEngine::TestTools
 namespace UnityEngine::TestTools {
 }
-// Forward declaring namespace: NUnit::Framework::Internal
-namespace NUnit::Framework::Internal {
-  // Forward declaring type: TestResult
-  class TestResult;
-  // Forward declaring type: ITestExecutionContext
-  class ITestExecutionContext;
-}
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
   // Forward declaring type: IEnumerable
   class IEnumerable;
+}
+// Forward declaring namespace: NUnit::Framework::Internal
+namespace NUnit::Framework::Internal {
+  // Forward declaring type: ITestExecutionContext
+  class ITestExecutionContext;
+  // Forward declaring type: TestResult
+  class TestResult;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.TestTools
@@ -55,22 +55,20 @@ namespace UnityEngine::TestTools {
       return *reinterpret_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);
     }
     // public System.Void .ctor(NUnit.Framework.RepeatAttribute/RepeatedTestCommand commandToReplace)
-    // Offset: 0x132D2EC
+    // Offset: 0x1345514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableRepeatedTestCommand* New_ctor(NUnit::Framework::RepeatAttribute::RepeatedTestCommand* commandToReplace) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::EnumerableRepeatedTestCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableRepeatedTestCommand*, creationType>(commandToReplace)));
     }
-    // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1335600
-    // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
-    // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x133566C
-    // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand
-    // Base method: System.Collections.IEnumerable IEnumerableTestMethodCommand::ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);
+    // Offset: 0x134D42C
+    System::Collections::IEnumerable* ExecuteEnumerable_NEW(NUnit::Framework::Internal::ITestExecutionContext* context);
+    // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
+    // Offset: 0x134D3C0
+    // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
+    // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute_NEW(NUnit.Framework.Internal.ITestExecutionContext context)
+    NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestTools.EnumerableRepeatedTestCommand
   #pragma pack(pop)
   static check_size<sizeof(EnumerableRepeatedTestCommand), 32 + sizeof(int)> __UnityEngine_TestTools_EnumerableRepeatedTestCommandSizeCheck;

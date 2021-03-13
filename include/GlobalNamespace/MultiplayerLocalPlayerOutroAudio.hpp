@@ -51,14 +51,14 @@ namespace GlobalNamespace {
     UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3B8F4
+    // [InjectAttribute] Offset: 0xD271DC
     // private readonly MultiplayerLocalPlayerOutroAudio/InitData _initData
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerLocalPlayerOutroAudio::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalPlayerOutroAudio::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3B904
+    // [InjectAttribute] Offset: 0xD271EC
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -88,22 +88,22 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kFadeOutDuration
     static void _set_kFadeOutDuration(float value);
     // protected System.Void OnDestroy()
-    // Offset: 0xFE5954
+    // Offset: 0xF51F54
     void OnDestroy();
     // public System.Void PlayOutroMusicSample(System.Single maxDuration, System.Single volume)
-    // Offset: 0xFE3280
+    // Offset: 0xF4F528
     void PlayOutroMusicSample(float maxDuration, float volume);
     // private System.Collections.IEnumerator PlayOutroMusicSampleCoroutine(System.Single maxDuration, System.Single volume)
-    // Offset: 0xFE59EC
+    // Offset: 0xF51FEC
     System::Collections::IEnumerator* PlayOutroMusicSampleCoroutine(float maxDuration, float volume);
     // private System.Void <PlayOutroMusicSampleCoroutine>b__9_0(System.Single val)
-    // Offset: 0xFE5AB0
+    // Offset: 0xF520A4
     void $PlayOutroMusicSampleCoroutine$b__9_0(float val);
     // private System.Void <PlayOutroMusicSampleCoroutine>b__9_1()
-    // Offset: 0xFE5ACC
+    // Offset: 0xF520C0
     void $PlayOutroMusicSampleCoroutine$b__9_1();
     // public System.Void .ctor()
-    // Offset: 0xFE5AA8
+    // Offset: 0xF5209C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

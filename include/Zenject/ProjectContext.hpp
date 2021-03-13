@@ -52,35 +52,35 @@ namespace Zenject {
   // [] Offset: FFFFFFFF
   class ProjectContext : public Zenject::Context {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD063BC
+    // [CompilerGeneratedAttribute] Offset: 0xCF0D20
     // private System.Action PreInstall
     // Size: 0x8
     // Offset: 0x40
     System::Action* PreInstall;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD063CC
+    // [CompilerGeneratedAttribute] Offset: 0xCF0D30
     // private System.Action PostInstall
     // Size: 0x8
     // Offset: 0x48
     System::Action* PostInstall;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD063DC
+    // [CompilerGeneratedAttribute] Offset: 0xCF0D40
     // private System.Action PreResolve
     // Size: 0x8
     // Offset: 0x50
     System::Action* PreResolve;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD063EC
+    // [CompilerGeneratedAttribute] Offset: 0xCF0D50
     // private System.Action PostResolve
     // Size: 0x8
     // Offset: 0x58
     System::Action* PostResolve;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD063FC
+    // [TooltipAttribute] Offset: 0xCF0D60
     // private System.Boolean _parentNewObjectsUnderContext
     // Size: 0x1
     // Offset: 0x60
@@ -133,88 +133,88 @@ namespace Zenject {
     static Zenject::ProjectContext* _get__instance();
     // Set static field: static private Zenject.ProjectContext _instance
     static void _set__instance(Zenject::ProjectContext* value);
-    // [CompilerGeneratedAttribute] Offset: 0xD06478
+    // [CompilerGeneratedAttribute] Offset: 0xCF0DDC
     // Get static field: static private System.Boolean <ValidateOnNextRun>k__BackingField
     static bool _get_$ValidateOnNextRun$k__BackingField();
     // Set static field: static private System.Boolean <ValidateOnNextRun>k__BackingField
     static void _set_$ValidateOnNextRun$k__BackingField(bool value);
     // public System.Void add_PreInstall(System.Action value)
-    // Offset: 0x15B8BD0
+    // Offset: 0x151023C
     void add_PreInstall(System::Action* value);
     // public System.Void remove_PreInstall(System.Action value)
-    // Offset: 0x15B8C74
+    // Offset: 0x15102E0
     void remove_PreInstall(System::Action* value);
     // public System.Void add_PostInstall(System.Action value)
-    // Offset: 0x15B8D18
+    // Offset: 0x1510384
     void add_PostInstall(System::Action* value);
     // public System.Void remove_PostInstall(System.Action value)
-    // Offset: 0x15B8DBC
+    // Offset: 0x1510428
     void remove_PostInstall(System::Action* value);
     // public System.Void add_PreResolve(System.Action value)
-    // Offset: 0x15B8E60
+    // Offset: 0x15104CC
     void add_PreResolve(System::Action* value);
     // public System.Void remove_PreResolve(System.Action value)
-    // Offset: 0x15B8F04
+    // Offset: 0x1510570
     void remove_PreResolve(System::Action* value);
     // public System.Void add_PostResolve(System.Action value)
-    // Offset: 0x15B8FA8
+    // Offset: 0x1510614
     void add_PostResolve(System::Action* value);
     // public System.Void remove_PostResolve(System.Action value)
-    // Offset: 0x15B904C
+    // Offset: 0x15106B8
     void remove_PostResolve(System::Action* value);
     // static public System.Boolean get_HasInstance()
-    // Offset: 0x15B90F8
+    // Offset: 0x1510764
     static bool get_HasInstance();
     // static public Zenject.ProjectContext get_Instance()
-    // Offset: 0x15B9174
+    // Offset: 0x15107E0
     static Zenject::ProjectContext* get_Instance();
     // static public System.Boolean get_ValidateOnNextRun()
-    // Offset: 0x15B9494
+    // Offset: 0x1510AE8
     static bool get_ValidateOnNextRun();
     // static public System.Void set_ValidateOnNextRun(System.Boolean value)
-    // Offset: 0x15B94E4
+    // Offset: 0x1510B38
     static void set_ValidateOnNextRun(bool value);
     // static public UnityEngine.GameObject TryGetPrefab()
-    // Offset: 0x15B95F8
+    // Offset: 0x1510C40
     static UnityEngine::GameObject* TryGetPrefab();
     // static private System.Void InstantiateAndInitialize()
-    // Offset: 0x15B921C
+    // Offset: 0x1510888
     static void InstantiateAndInitialize();
     // public System.Boolean get_ParentNewObjectsUnderContext()
-    // Offset: 0x15B9B3C
+    // Offset: 0x1511128
     bool get_ParentNewObjectsUnderContext();
     // public System.Void set_ParentNewObjectsUnderContext(System.Boolean value)
-    // Offset: 0x15B9B44
+    // Offset: 0x1511130
     void set_ParentNewObjectsUnderContext(bool value);
     // public System.Void EnsureIsInitialized()
-    // Offset: 0x15B9B50
+    // Offset: 0x151113C
     void EnsureIsInitialized();
     // public System.Void Awake()
-    // Offset: 0x15B9B54
+    // Offset: 0x1511140
     void Awake();
     // private System.Void Initialize()
-    // Offset: 0x15B9764
+    // Offset: 0x1510DAC
     void Initialize();
     // private System.Void InstallBindings(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> injectableMonoBehaviours)
-    // Offset: 0x15B9C78
+    // Offset: 0x151125C
     void InstallBindings(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* injectableMonoBehaviours);
     // public override Zenject.DiContainer get_Container()
-    // Offset: 0x15B90F0
+    // Offset: 0x151075C
     // Implemented from: Zenject.Context
-    // Base method: Zenject.DiContainer Context::get_Container()
+    // Base method: Zenject.DiContainer Context::get_Container_NEW()
     Zenject::DiContainer* get_Container();
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetRootGameObjects()
-    // Offset: 0x15B953C
+    // Offset: 0x1510B90
     // Implemented from: Zenject.Context
-    // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> Context::GetRootGameObjects()
+    // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> Context::GetRootGameObjects_NEW()
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetRootGameObjects();
     // protected override System.Void GetInjectableMonoBehaviours(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
-    // Offset: 0x15B9F48
+    // Offset: 0x1511514
     // Implemented from: Zenject.Context
-    // Base method: System.Void Context::GetInjectableMonoBehaviours(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
+    // Base method: System.Void Context::GetInjectableMonoBehaviours_NEW(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
     void GetInjectableMonoBehaviours(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* monoBehaviours);
     // public System.Void .ctor()
-    // Offset: 0x15B9FB8
+    // Offset: 0x1511584
     // Implemented from: Zenject.Context
     // Base method: System.Void Context::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

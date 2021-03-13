@@ -36,17 +36,17 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: TestIDFragment
     TestIDFragment() noexcept {}
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    // Offset: 0x2227DA8
+    // Offset: 0x209882C
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
-    // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
+    // Base method: System.String NameFragment::GetText_NEW(System.Reflection.MethodInfo method, System.Object[] args)
     ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* args);
     // public override System.String GetText(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
-    // Offset: 0x2227DF0
+    // Offset: 0x2098874
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
-    // Base method: System.String NameFragment::GetText(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
+    // Base method: System.String NameFragment::GetText_NEW(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
     ::Il2CppString* GetText(NUnit::Framework::Internal::TestMethod* testMethod, ::Array<::Il2CppObject*>* args);
     // public System.Void .ctor()
-    // Offset: 0x2226ABC
+    // Offset: 0x209753C
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
     // Base method: System.Void NameFragment::.ctor()
     // Base method: System.Void Object::.ctor()

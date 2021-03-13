@@ -69,10 +69,10 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Set static field: static private readonly Org.BouncyCastle.Math.EC.ECFieldElement[] SECP224K1_AFFINE_ZS
     static void _set_SECP224K1_AFFINE_ZS(::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1BD71D8
+    // Offset: 0x1B78CB0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1BD684C
+    // Offset: 0x1B7839C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -81,47 +81,47 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
       return THROW_UNLESS((::il2cpp_utils::New<SecP224K1Curve*, creationType>()));
     }
     // protected override Org.BouncyCastle.Math.EC.ECCurve CloneCurve()
-    // Offset: 0x1BD6A18
+    // Offset: 0x1B78528
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
-    // Base method: Org.BouncyCastle.Math.EC.ECCurve ECCurve::CloneCurve()
+    // Base method: Org.BouncyCastle.Math.EC.ECCurve ECCurve::CloneCurve_NEW()
     Org::BouncyCastle::Math::EC::ECCurve* CloneCurve();
     // public override System.Boolean SupportsCoordinateSystem(System.Int32 coord)
-    // Offset: 0x1BD6A70
+    // Offset: 0x1B78580
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
-    // Base method: System.Boolean ECCurve::SupportsCoordinateSystem(System.Int32 coord)
+    // Base method: System.Boolean ECCurve::SupportsCoordinateSystem_NEW(System.Int32 coord)
     bool SupportsCoordinateSystem(int coord);
     // public override Org.BouncyCastle.Math.EC.ECPoint get_Infinity()
-    // Offset: 0x1BD6A7C
+    // Offset: 0x1B7858C
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
-    // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::get_Infinity()
+    // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::get_Infinity_NEW()
     Org::BouncyCastle::Math::EC::ECPoint* get_Infinity();
     // public override System.Int32 get_FieldSize()
-    // Offset: 0x1BD6A84
+    // Offset: 0x1B78594
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
-    // Base method: System.Int32 ECCurve::get_FieldSize()
+    // Base method: System.Int32 ECCurve::get_FieldSize_NEW()
     int get_FieldSize();
     // public override Org.BouncyCastle.Math.EC.ECFieldElement FromBigInteger(Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x1BD6AF8
+    // Offset: 0x1B78608
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
-    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECCurve::FromBigInteger(Org.BouncyCastle.Math.BigInteger x)
+    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECCurve::FromBigInteger_NEW(Org.BouncyCastle.Math.BigInteger x)
     Org::BouncyCastle::Math::EC::ECFieldElement* FromBigInteger(Org::BouncyCastle::Math::BigInteger* x);
     // protected internal override Org.BouncyCastle.Math.EC.ECPoint CreateRawPoint(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
-    // Offset: 0x1BD6C74
+    // Offset: 0x1B7877C
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
-    // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::CreateRawPoint(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
+    // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::CreateRawPoint_NEW(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
     Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
     // protected internal override Org.BouncyCastle.Math.EC.ECPoint CreateRawPoint(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
-    // Offset: 0x1BD6DCC
+    // Offset: 0x1B788D4
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
-    // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::CreateRawPoint(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
+    // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::CreateRawPoint_NEW(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* zs, bool withCompression);
     // public override Org.BouncyCastle.Math.EC.ECLookupTable CreateCacheSafeLookupTable(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len)
-    // Offset: 0x1BD6E6C
+    // Offset: 0x1B78974
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
-    // Base method: Org.BouncyCastle.Math.EC.ECLookupTable ECCurve::CreateCacheSafeLookupTable(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len)
+    // Base method: Org.BouncyCastle.Math.EC.ECLookupTable ECCurve::CreateCacheSafeLookupTable_NEW(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len)
     Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* points, int off, int len);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement RandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r)
-    // Offset: 0x1BD7074
+    // Offset: 0x1B78B60
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractFpCurve
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement AbstractFpCurve::RandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r)
     Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(Org::BouncyCastle::Security::SecureRandom* r);

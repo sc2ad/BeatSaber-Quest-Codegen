@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class SignalOnUIButtonClick : public UnityEngine::MonoBehaviour {
     public:
-    // [SignalSenderAttribute] Offset: 0xD0A678
+    // [SignalSenderAttribute] Offset: 0xCF506C
     // private Signal _buttonClickedSignal
     // Size: 0x8
     // Offset: 0x18
@@ -49,16 +49,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OnReset()
-    // Offset: 0x111770C
+    // Offset: 0x211DD78
     void OnReset();
     // protected System.Void Start()
-    // Offset: 0x111776C
+    // Offset: 0x211DDD0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1117804
+    // Offset: 0x211DE68
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x11178E0
+    // Offset: 0x211DF44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

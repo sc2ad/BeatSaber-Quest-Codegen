@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     float endDelay;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xD3C190
+    // [SpaceAttribute] Offset: 0xD27B30
     // private MultiplayerIntroCountdown _countdownAnimator
     // Size: 0x8
     // Offset: 0x28
@@ -92,14 +92,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerScoreRingManager* scoreRingManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreRingManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3C1D8
+    // [InjectAttribute] Offset: 0xD27B78
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3C1E8
+    // [InjectAttribute] Offset: 0xD27B88
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x40
@@ -111,25 +111,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetBeforeIntroValue()
-    // Offset: 0x1021AD4
+    // Offset: 0xF3EC54
     void SetBeforeIntroValue();
     // public System.Void PlayIntroAnimation(System.Single maxDesiredIntroAnimationDuration, System.Action onCompleted)
-    // Offset: 0x101FF58
+    // Offset: 0xF3F130
     void PlayIntroAnimation(float maxDesiredIntroAnimationDuration, System::Action* onCompleted);
     // public System.Single GetFullIntroAnimationTime()
-    // Offset: 0x101FF20
+    // Offset: 0xF3F1E8
     float GetFullIntroAnimationTime();
     // private System.Collections.IEnumerator PlayIntroAnimationCoroutine(System.Single maxDesiredIntroAnimationDuration, System.Action onCompleted)
-    // Offset: 0x10233FC
+    // Offset: 0xF3F15C
     System::Collections::IEnumerator* PlayIntroAnimationCoroutine(float maxDesiredIntroAnimationDuration, System::Action* onCompleted);
     // public System.Void TransitionToAfterIntroAnimationState()
-    // Offset: 0x101FF84
+    // Offset: 0xF3F24C
     void TransitionToAfterIntroAnimationState();
     // private System.Collections.Generic.Queue`1<System.Int32> CalculatePlayerIndexSequence(System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> allActivePlayer)
-    // Offset: 0x10234D0
+    // Offset: 0xF3F73C
     System::Collections::Generic::Queue_1<int>* CalculatePlayerIndexSequence(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* allActivePlayer);
     // public System.Void .ctor()
-    // Offset: 0x1023978
+    // Offset: 0xF3FBE4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

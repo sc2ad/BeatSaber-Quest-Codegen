@@ -58,44 +58,24 @@ namespace System::Collections {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // System.Void .ctor(System.Collections.Queue q)
-    // Offset: 0x189A864
+    // Offset: 0x181535C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Queue::QueueEnumerator* New_ctor(System::Collections::Queue* q) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Queue::QueueEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Queue::QueueEnumerator*, creationType>(q)));
     }
     // public System.Object Clone()
-    // Offset: 0x189ABE4
-    // Implemented from: System.ICloneable
-    // Base method: System.Object ICloneable::Clone()
-    ::Il2CppObject* Clone();
-    // Creating proxy method: System_ICloneable_Clone
-    // Maps to method: Clone
-    ::Il2CppObject* System_ICloneable_Clone();
+    // Offset: 0x18156A4
+    ::Il2CppObject* Clone_NEW();
     // public System.Boolean MoveNext()
-    // Offset: 0x189ABEC
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Boolean IEnumerator::MoveNext()
-    bool MoveNext();
-    // Creating proxy method: System_Collections_IEnumerator_MoveNext
-    // Maps to method: MoveNext
-    bool System_Collections_IEnumerator_MoveNext();
+    // Offset: 0x18156AC
+    bool MoveNext_NEW();
     // public System.Object get_Current()
-    // Offset: 0x189ACFC
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Object IEnumerator::get_Current()
-    ::Il2CppObject* get_Current();
-    // Creating proxy method: System_Collections_IEnumerator_get_Current
-    // Maps to method: get_Current
-    ::Il2CppObject* System_Collections_IEnumerator_get_Current();
+    // Offset: 0x18157A8
+    ::Il2CppObject* get_Current_NEW();
     // public System.Void Reset()
-    // Offset: 0x189ADBC
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Void IEnumerator::Reset()
-    void Reset();
-    // Creating proxy method: System_Collections_IEnumerator_Reset
-    // Maps to method: Reset
-    void System_Collections_IEnumerator_Reset();
+    // Offset: 0x1815868
+    void Reset_NEW();
   }; // System.Collections.Queue/QueueEnumerator
   #pragma pack(pop)
   static check_size<sizeof(Queue::QueueEnumerator), 32 + sizeof(::Il2CppObject*)> __System_Collections_Queue_QueueEnumeratorSizeCheck;

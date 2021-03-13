@@ -82,26 +82,21 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kTimeoutLengthMs
     static void _set_kTimeoutLengthMs(int value);
     // public System.Void .ctor(System.Int32 port)
-    // Offset: 0x11D54F4
+    // Offset: 0x1213F4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthCheckService* New_ctor(int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HealthCheckService::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthCheckService*, creationType>(port)));
     }
+    // public System.Void Dispose()
+    // Offset: 0x121402C
+    void Dispose_NEW();
     // public System.Void PollUpdate()
-    // Offset: 0x11D56C4
+    // Offset: 0x1214104
     void PollUpdate();
     // private System.Void Run()
-    // Offset: 0x11D578C
+    // Offset: 0x12141CC
     void Run();
-    // public System.Void Dispose()
-    // Offset: 0x11D55EC
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose();
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose();
   }; // HealthCheckService
   #pragma pack(pop)
   static check_size<sizeof(HealthCheckService), 48 + sizeof(System::Net::HttpListener*)> __GlobalNamespace_HealthCheckServiceSizeCheck;

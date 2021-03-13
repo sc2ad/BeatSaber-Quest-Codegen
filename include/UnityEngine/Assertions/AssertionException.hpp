@@ -32,16 +32,16 @@ namespace UnityEngine::Assertions {
       return m_UserMessage;
     }
     // public System.Void .ctor(System.String message, System.String userMessage)
-    // Offset: 0x1A14068
+    // Offset: 0x19BED64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssertionException* New_ctor(::Il2CppString* message, ::Il2CppString* userMessage) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Assertions::AssertionException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssertionException*, creationType>(message, userMessage)));
     }
     // public override System.String get_Message()
-    // Offset: 0x1A144AC
+    // Offset: 0x19BF170
     // Implemented from: System.Exception
-    // Base method: System.String Exception::get_Message()
+    // Base method: System.String Exception::get_Message_NEW()
     ::Il2CppString* get_Message();
   }; // UnityEngine.Assertions.AssertionException
   #pragma pack(pop)

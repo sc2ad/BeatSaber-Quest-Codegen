@@ -24,8 +24,8 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: ScoreController
-  class ScoreController;
+  // Forward declaring type: IScoreController
+  class IScoreController;
 }
 // Completed forward declares
 // Type namespace: 
@@ -48,13 +48,13 @@ namespace GlobalNamespace {
     UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(UnityEngine::Animator*) == 0x8);
-    // [InjectAttribute] Offset: 0xD39824
-    // private readonly ScoreController _scoreController
+    // [InjectAttribute] Offset: 0xD24F1C
+    // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::ScoreController* scoreController;
+    GlobalNamespace::IScoreController* scoreController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ScoreController*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
     // private System.Int32 _comboLostID
     // Size: 0x4
     // Offset: 0x30
@@ -68,32 +68,32 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ComboUIController
-    ComboUIController(TMPro::TextMeshProUGUI* comboText_ = {}, UnityEngine::Animator* animator_ = {}, GlobalNamespace::ScoreController* scoreController_ = {}, int comboLostID_ = {}, bool comboLost_ = {}) noexcept : comboText{comboText_}, animator{animator_}, scoreController{scoreController_}, comboLostID{comboLostID_}, comboLost{comboLost_} {}
+    ComboUIController(TMPro::TextMeshProUGUI* comboText_ = {}, UnityEngine::Animator* animator_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, int comboLostID_ = {}, bool comboLost_ = {}) noexcept : comboText{comboText_}, animator{animator_}, scoreController{scoreController_}, comboLostID{comboLostID_}, comboLost{comboLost_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1042C3C
+    // Offset: 0xFD6354
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1042E4C
+    // Offset: 0xFD66A0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1042E50
+    // Offset: 0xFD66A4
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0x1042CB8
+    // Offset: 0xFD63D0
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0x1042E54
+    // Offset: 0xFD66A8
     void UnregisterFromEvents();
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x1042F74
+    // Offset: 0xFD6848
     void HandleComboDidChange(int combo);
     // private System.Void HandleComboBreakingEventHappened()
-    // Offset: 0x1042FB8
+    // Offset: 0xFD688C
     void HandleComboBreakingEventHappened();
     // public System.Void .ctor()
-    // Offset: 0x1042FF0
+    // Offset: 0xFD68C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

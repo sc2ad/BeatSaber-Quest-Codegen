@@ -108,22 +108,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Update()
-    // Offset: 0x13A15C0
+    // Offset: 0x1739644
     void Update();
     // public System.Void SetOVRCameraController(ref OVRCameraRig cameraController)
-    // Offset: 0x13A1828
+    // Offset: 0x17398AC
     void SetOVRCameraController(GlobalNamespace::OVRCameraRig*& cameraController);
     // private System.Void UpdateCubeGrid()
-    // Offset: 0x13A15C4
+    // Offset: 0x1739648
     void UpdateCubeGrid();
     // private System.Void CreateCubeGrid()
-    // Offset: 0x13A1834
+    // Offset: 0x17398B8
     void CreateCubeGrid();
     // private System.Void CubeGridSwitchColor(System.Boolean CubeSwitchColor)
-    // Offset: 0x13A1BF4
+    // Offset: 0x1739C64
     void CubeGridSwitchColor(bool CubeSwitchColor);
     // public System.Void .ctor()
-    // Offset: 0x13A1FA8
+    // Offset: 0x173A008
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

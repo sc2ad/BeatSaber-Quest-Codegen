@@ -121,13 +121,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EnvironmentSizeData
     EnvironmentSizeData(GlobalNamespace::EnvironmentSizeData::FloorType floorType_ = {}, GlobalNamespace::EnvironmentSizeData::CeilingType ceilingType_ = {}) noexcept : floorType{floorType_}, ceilingType{ceilingType_} {}
     // public EnvironmentSizeData/FloorType get_floorType()
-    // Offset: 0xF282FC
+    // Offset: 0xF2889C
     GlobalNamespace::EnvironmentSizeData::FloorType get_floorType();
     // public EnvironmentSizeData/CeilingType get_ceilingType()
-    // Offset: 0xF28304
+    // Offset: 0xF288A4
     GlobalNamespace::EnvironmentSizeData::CeilingType get_ceilingType();
     // public System.Void .ctor()
-    // Offset: 0xF2830C
+    // Offset: 0xF288AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

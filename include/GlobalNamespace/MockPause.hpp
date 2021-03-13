@@ -26,21 +26,21 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MockPause : public ::Il2CppObject/*, public GlobalNamespace::IGamePause*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD3A05C
+    // [CompilerGeneratedAttribute] Offset: 0xD25754
     // private System.Action didPauseEvent
     // Size: 0x8
     // Offset: 0x10
     System::Action* didPauseEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3A06C
+    // [CompilerGeneratedAttribute] Offset: 0xD25764
     // private System.Action willResumeEvent
     // Size: 0x8
     // Offset: 0x18
     System::Action* willResumeEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3A07C
+    // [CompilerGeneratedAttribute] Offset: 0xD25774
     // private System.Action didResumeEvent
     // Size: 0x8
     // Offset: 0x20
@@ -54,52 +54,34 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IGamePause*>(this);
     }
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x10A3FF4
-    // Implemented from: IGamePause
-    // Base method: System.Void IGamePause::add_didPauseEvent(System.Action value)
-    void add_didPauseEvent(System::Action* value);
+    // Offset: 0x1033554
+    void add_didPauseEvent_NEW(System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x10A4098
-    // Implemented from: IGamePause
-    // Base method: System.Void IGamePause::remove_didPauseEvent(System.Action value)
-    void remove_didPauseEvent(System::Action* value);
+    // Offset: 0x10335F8
+    void remove_didPauseEvent_NEW(System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x10A413C
-    // Implemented from: IGamePause
-    // Base method: System.Void IGamePause::add_willResumeEvent(System.Action value)
-    void add_willResumeEvent(System::Action* value);
+    // Offset: 0x103369C
+    void add_willResumeEvent_NEW(System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x10A41E0
-    // Implemented from: IGamePause
-    // Base method: System.Void IGamePause::remove_willResumeEvent(System.Action value)
-    void remove_willResumeEvent(System::Action* value);
+    // Offset: 0x1033740
+    void remove_willResumeEvent_NEW(System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x10A4284
-    // Implemented from: IGamePause
-    // Base method: System.Void IGamePause::add_didResumeEvent(System.Action value)
-    void add_didResumeEvent(System::Action* value);
+    // Offset: 0x10337E4
+    void add_didResumeEvent_NEW(System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x10A4328
-    // Implemented from: IGamePause
-    // Base method: System.Void IGamePause::remove_didResumeEvent(System.Action value)
-    void remove_didResumeEvent(System::Action* value);
+    // Offset: 0x1033888
+    void remove_didResumeEvent_NEW(System::Action* value);
     // public System.Void Pause()
-    // Offset: 0x10A43CC
-    // Implemented from: IGamePause
-    // Base method: System.Void IGamePause::Pause()
-    void Pause();
+    // Offset: 0x103392C
+    void Pause_NEW();
     // public System.Void WillResume()
-    // Offset: 0x10A442C
-    // Implemented from: IGamePause
-    // Base method: System.Void IGamePause::WillResume()
-    void WillResume();
+    // Offset: 0x103398C
+    void WillResume_NEW();
     // public System.Void Resume()
-    // Offset: 0x10A448C
-    // Implemented from: IGamePause
-    // Base method: System.Void IGamePause::Resume()
-    void Resume();
+    // Offset: 0x10339EC
+    void Resume_NEW();
     // public System.Void .ctor()
-    // Offset: 0x10A44EC
+    // Offset: 0x1033A4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

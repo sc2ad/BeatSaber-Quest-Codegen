@@ -41,19 +41,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return nullCount;
     }
     // System.Void SetNullCount(System.Int32 nullCount)
-    // Offset: 0x15444C8
+    // Offset: 0x145F23C
     void SetNullCount(int nullCount);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x15444D0
-    void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
+    // Offset: 0x145F244
+    void Write_NEW(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input, System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0x1544580
+    // Offset: 0x145F2D0
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input, System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
     // public System.Void Dump()
-    // Offset: 0x1544600
+    // Offset: 0x145F350
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x15444C0
+    // Offset: 0x145F234
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

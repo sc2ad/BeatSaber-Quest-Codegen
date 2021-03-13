@@ -52,28 +52,18 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);
     }
     // System.Void .ctor(System.Threading.Tasks.ITaskCompletionAction action, System.Threading.Tasks.Task completingTask)
-    // Offset: 0x17AF81C
+    // Offset: 0x170081C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompletionActionInvoker* New_ctor(System::Threading::Tasks::ITaskCompletionAction* action, System::Threading::Tasks::Task* completingTask) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::CompletionActionInvoker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompletionActionInvoker*, creationType>(action, completingTask)));
     }
     // public System.Void ExecuteWorkItem()
-    // Offset: 0x17AF86C
-    // Implemented from: System.Threading.IThreadPoolWorkItem
-    // Base method: System.Void IThreadPoolWorkItem::ExecuteWorkItem()
-    void ExecuteWorkItem();
-    // Creating proxy method: System_Threading_IThreadPoolWorkItem_ExecuteWorkItem
-    // Maps to method: ExecuteWorkItem
-    void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
+    // Offset: 0x1700854
+    void ExecuteWorkItem_NEW();
     // public System.Void MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x17AF924
-    // Implemented from: System.Threading.IThreadPoolWorkItem
-    // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
-    void MarkAborted(System::Threading::ThreadAbortException* tae);
-    // Creating proxy method: System_Threading_IThreadPoolWorkItem_MarkAborted
-    // Maps to method: MarkAborted
-    void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
+    // Offset: 0x170090C
+    void MarkAborted_NEW(System::Threading::ThreadAbortException* tae);
   }; // System.Threading.Tasks.CompletionActionInvoker
   #pragma pack(pop)
   static check_size<sizeof(CompletionActionInvoker), 24 + sizeof(System::Threading::Tasks::Task*)> __System_Threading_Tasks_CompletionActionInvokerSizeCheck;

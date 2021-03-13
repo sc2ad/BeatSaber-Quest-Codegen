@@ -36,21 +36,21 @@ namespace Zenject {
     // Creating value type constructor for type: ZenTypeInfoGetter
     ZenTypeInfoGetter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x22A1868
+    // Offset: 0x2147524
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenTypeInfoGetter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenTypeInfoGetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenTypeInfoGetter*, creationType>(object, method)));
     }
     // public Zenject.InjectTypeInfo Invoke()
-    // Offset: 0x22A0C54
-    Zenject::InjectTypeInfo* Invoke();
+    // Offset: 0x21469C0
+    Zenject::InjectTypeInfo* Invoke_NEW();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x22A187C
-    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x2147534
+    System::IAsyncResult* BeginInvoke_NEW(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Zenject.InjectTypeInfo EndInvoke(System.IAsyncResult result)
-    // Offset: 0x22A18A8
-    Zenject::InjectTypeInfo* EndInvoke(System::IAsyncResult* result);
+    // Offset: 0x2147560
+    Zenject::InjectTypeInfo* EndInvoke_NEW(System::IAsyncResult* result);
   }; // Zenject.ZenTypeInfoGetter
   #pragma pack(pop)
 }

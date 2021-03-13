@@ -167,28 +167,28 @@ namespace GlobalNamespace {
     UnityEngine::SkinnedMeshRenderer* skinnedMeshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::SkinnedMeshRenderer*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCF8AC8
+    // [CompilerGeneratedAttribute] Offset: 0xCE31F8
     // private System.Boolean <IsInitialized>k__BackingField
     // Size: 0x1
     // Offset: 0x50
     bool IsInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCF8AD8
+    // [CompilerGeneratedAttribute] Offset: 0xCE3208
     // private System.Boolean <IsDataValid>k__BackingField
     // Size: 0x1
     // Offset: 0x51
     bool IsDataValid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCF8AE8
+    // [CompilerGeneratedAttribute] Offset: 0xCE3218
     // private System.Boolean <IsDataHighConfidence>k__BackingField
     // Size: 0x1
     // Offset: 0x52
     bool IsDataHighConfidence;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCF8AF8
+    // [CompilerGeneratedAttribute] Offset: 0xCE3228
     // private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
     // Size: 0x1
     // Offset: 0x53
@@ -200,43 +200,43 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x144B778
+    // Offset: 0x13A8178
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0x144B780
+    // Offset: 0x13A8180
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x144B78C
+    // Offset: 0x13A818C
     bool get_IsDataValid();
     // private System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x144B794
+    // Offset: 0x13A8194
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x144B7A0
+    // Offset: 0x13A81A0
     bool get_IsDataHighConfidence();
     // private System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x144B7A8
+    // Offset: 0x13A81A8
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0x144B7B4
+    // Offset: 0x13A81B4
     bool get_ShouldUseSystemGestureMaterial();
     // private System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0x144B7BC
+    // Offset: 0x13A81BC
     void set_ShouldUseSystemGestureMaterial(bool value);
     // private System.Void Awake()
-    // Offset: 0x144B7C8
+    // Offset: 0x13A81C8
     void Awake();
     // private System.Void Start()
-    // Offset: 0x144B904
+    // Offset: 0x13A82C8
     void Start();
     // private System.Void Initialize()
-    // Offset: 0x144B998
+    // Offset: 0x13A835C
     void Initialize();
     // private System.Void Update()
-    // Offset: 0x144BE64
+    // Offset: 0x13A8840
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x144C140
+    // Offset: 0x13A8B1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

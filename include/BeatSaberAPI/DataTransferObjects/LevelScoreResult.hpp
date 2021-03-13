@@ -133,6 +133,30 @@ namespace BeatSaberAPI::DataTransferObjects {
       static BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers _get_NoFailOn0Energy();
       // Set static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers NoFailOn0Energy
       static void _set_NoFailOn0Energy(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers value);
+      // static field const value: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers SongSpeedSuperFast
+      static constexpr const uint SongSpeedSuperFast = 32768u;
+      // Get static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers SongSpeedSuperFast
+      static BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers _get_SongSpeedSuperFast();
+      // Set static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers SongSpeedSuperFast
+      static void _set_SongSpeedSuperFast(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers value);
+      // static field const value: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers ProMode
+      static constexpr const uint ProMode = 65536u;
+      // Get static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers ProMode
+      static BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers _get_ProMode();
+      // Set static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers ProMode
+      static void _set_ProMode(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers value);
+      // static field const value: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers ZenMode
+      static constexpr const uint ZenMode = 131072u;
+      // Get static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers ZenMode
+      static BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers _get_ZenMode();
+      // Set static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers ZenMode
+      static void _set_ZenMode(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers value);
+      // static field const value: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers SmallCubes
+      static constexpr const uint SmallCubes = 262144u;
+      // Get static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers SmallCubes
+      static BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers _get_SmallCubes();
+      // Set static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers SmallCubes
+      static void _set_SmallCubes(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers value);
     }; // BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers
     #pragma pack(pop)
     static check_size<sizeof(LevelScoreResult::GameplayModifiers), 0 + sizeof(uint)> __BeatSaberAPI_DataTransferObjects_LevelScoreResult_GameplayModifiersSizeCheck;
@@ -210,7 +234,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Creating value type constructor for type: LevelScoreResult
     LevelScoreResult(::Il2CppString* leaderboardId_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiers_ = {}, ::Il2CppString* deviceModel_ = {}, ::Il2CppString* extraDataBase64_ = {}) noexcept : leaderboardId{leaderboardId_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_}, deviceModel{deviceModel_}, extraDataBase64{extraDataBase64_} {}
     // public System.Void .ctor()
-    // Offset: 0x1068BBC
+    // Offset: 0x10653AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

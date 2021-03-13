@@ -56,61 +56,36 @@ namespace System {
     }
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Array::InternalEnumerator_1::Dispose");
+    void Dispose_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Array::InternalEnumerator_1::Dispose_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "Dispose", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
     }
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose() {
-      Dispose();
-    }
     // public System.Boolean MoveNext()
     // Offset: 0xFFFFFFFF
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Boolean IEnumerator::MoveNext()
-    bool MoveNext() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Array::InternalEnumerator_1::MoveNext");
+    bool MoveNext_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Array::InternalEnumerator_1::MoveNext_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
     }
-    // Creating proxy method: System_Collections_IEnumerator_MoveNext
-    // Maps to method: MoveNext
-    bool System_Collections_IEnumerator_MoveNext() {
-      return MoveNext();
-    }
     // public T get_Current()
     // Offset: 0xFFFFFFFF
-    // Implemented from: System.Collections.Generic.IEnumerator`1
-    // Base method: T IEnumerator_1::get_Current()
-    T get_Current() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Array::InternalEnumerator_1::get_Current");
+    T get_Current_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Array::InternalEnumerator_1::get_Current_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "get_Current", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method);
     }
-    // Creating proxy method: System_Collections_Generic_IEnumerator_1_get_Current
-    // Maps to method: get_Current
-    T System_Collections_Generic_IEnumerator_1_get_Current() {
-      return get_Current();
-    }
     // private System.Void System.Collections.IEnumerator.Reset()
     // Offset: 0xFFFFFFFF
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Void IEnumerator::Reset()
-    void System_Collections_IEnumerator_Reset() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Array::InternalEnumerator_1::System.Collections.IEnumerator.Reset");
+    void System_Collections_IEnumerator_Reset_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Array::InternalEnumerator_1::System.Collections.IEnumerator.Reset_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
     }
     // private System.Object System.Collections.IEnumerator.get_Current()
     // Offset: 0xFFFFFFFF
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Object IEnumerator::get_Current()
-    ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Array::InternalEnumerator_1::System.Collections.IEnumerator.get_Current");
+    ::Il2CppObject* System_Collections_IEnumerator_get_Current_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Array::InternalEnumerator_1::System.Collections.IEnumerator.get_Current_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(*this, ___internal__method);
     }

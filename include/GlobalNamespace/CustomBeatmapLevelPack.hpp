@@ -69,46 +69,34 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IBeatmapLevelPack() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelPack*>(this);
     }
+    // public System.String get_packID()
+    // Offset: 0xFD9CE0
+    ::Il2CppString* get_packID_NEW();
+    // public System.String get_packName()
+    // Offset: 0xFD9CE8
+    ::Il2CppString* get_packName_NEW();
+    // public System.String get_shortPackName()
+    // Offset: 0xFD9CF0
+    ::Il2CppString* get_shortPackName_NEW();
+    // public System.String get_collectionName()
+    // Offset: 0xFD9CF8
+    ::Il2CppString* get_collectionName_NEW();
+    // public UnityEngine.Sprite get_coverImage()
+    // Offset: 0xFD9D00
+    UnityEngine::Sprite* get_coverImage_NEW();
+    // public IBeatmapLevelCollection get_beatmapLevelCollection()
+    // Offset: 0xFD9D08
+    GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection_NEW();
     // public System.Boolean get_isPackAlwaysOwned()
-    // Offset: 0x1045FA4
+    // Offset: 0xFD9D10
     bool get_isPackAlwaysOwned();
     // public System.Void .ctor(System.String packID, System.String packName, System.String shortPackName, UnityEngine.Sprite coverImage, CustomBeatmapLevelCollection customBeatmapLevelCollection)
-    // Offset: 0x1045FAC
+    // Offset: 0xFD9D18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevelPack* New_ctor(::Il2CppString* packID, ::Il2CppString* packName, ::Il2CppString* shortPackName, UnityEngine::Sprite* coverImage, GlobalNamespace::CustomBeatmapLevelCollection* customBeatmapLevelCollection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomBeatmapLevelPack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomBeatmapLevelPack*, creationType>(packID, packName, shortPackName, coverImage, customBeatmapLevelCollection)));
     }
-    // public System.String get_packID()
-    // Offset: 0x1045F74
-    // Implemented from: IBeatmapLevelPack
-    // Base method: System.String IBeatmapLevelPack::get_packID()
-    ::Il2CppString* get_packID();
-    // public System.String get_packName()
-    // Offset: 0x1045F7C
-    // Implemented from: IBeatmapLevelPack
-    // Base method: System.String IBeatmapLevelPack::get_packName()
-    ::Il2CppString* get_packName();
-    // public System.String get_shortPackName()
-    // Offset: 0x1045F84
-    // Implemented from: IBeatmapLevelPack
-    // Base method: System.String IBeatmapLevelPack::get_shortPackName()
-    ::Il2CppString* get_shortPackName();
-    // public System.String get_collectionName()
-    // Offset: 0x1045F8C
-    // Implemented from: IAnnotatedBeatmapLevelCollection
-    // Base method: System.String IAnnotatedBeatmapLevelCollection::get_collectionName()
-    ::Il2CppString* get_collectionName();
-    // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x1045F94
-    // Implemented from: IAnnotatedBeatmapLevelCollection
-    // Base method: UnityEngine.Sprite IAnnotatedBeatmapLevelCollection::get_coverImage()
-    UnityEngine::Sprite* get_coverImage();
-    // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x1045F9C
-    // Implemented from: IAnnotatedBeatmapLevelCollection
-    // Base method: IBeatmapLevelCollection IAnnotatedBeatmapLevelCollection::get_beatmapLevelCollection()
-    GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
   }; // CustomBeatmapLevelPack
   #pragma pack(pop)
   static check_size<sizeof(CustomBeatmapLevelPack), 48 + sizeof(GlobalNamespace::CustomBeatmapLevelCollection*)> __GlobalNamespace_CustomBeatmapLevelPackSizeCheck;

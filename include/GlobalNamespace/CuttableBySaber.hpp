@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate
     class WasCutBySaberDelegate;
-    // [CompilerGeneratedAttribute] Offset: 0xD3CEA8
+    // [CompilerGeneratedAttribute] Offset: 0xD28F24
     // private CuttableBySaber/WasCutBySaberDelegate wasCutBySaberEvent
     // Size: 0x8
     // Offset: 0x18
@@ -45,28 +45,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_wasCutBySaberEvent(CuttableBySaber/WasCutBySaberDelegate value)
-    // Offset: 0x104777C
+    // Offset: 0xFDB4E0
     void add_wasCutBySaberEvent(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* value);
     // public System.Void remove_wasCutBySaberEvent(CuttableBySaber/WasCutBySaberDelegate value)
-    // Offset: 0x1047820
+    // Offset: 0xFDB584
     void remove_wasCutBySaberEvent(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* value);
     // protected System.Void CallWasCutBySaberEvent(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x10478C4
+    // Offset: 0xFDB628
     void CallWasCutBySaberEvent(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public System.Boolean get_canBeCut()
     // Offset: 0xFFFFFFFF
-    bool get_canBeCut();
+    bool get_canBeCut_NEW();
     // public System.Void set_canBeCut(System.Boolean value)
     // Offset: 0xFFFFFFFF
-    void set_canBeCut(bool value);
+    void set_canBeCut_NEW(bool value);
     // public System.Single get_radius()
     // Offset: 0xFFFFFFFF
-    float get_radius();
+    float get_radius_NEW();
     // public System.Void Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
     // Offset: 0xFFFFFFFF
-    void Cut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
+    void Cut_NEW(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // protected System.Void .ctor()
-    // Offset: 0x1047E98
+    // Offset: 0xFDBBF4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

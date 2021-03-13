@@ -37,12 +37,10 @@ namespace System::Security::Cryptography::X509Certificates {
       return *reinterpret_cast<System::Security::Cryptography::X509Certificates::INativeCertificateHelper*>(this);
     }
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(System.Security.Cryptography.X509Certificates.X509Certificate cert)
-    // Offset: 0x177FA88
-    // Implemented from: System.Security.Cryptography.X509Certificates.INativeCertificateHelper
-    // Base method: System.Security.Cryptography.X509Certificates.X509CertificateImpl INativeCertificateHelper::Import(System.Security.Cryptography.X509Certificates.X509Certificate cert)
-    System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(System::Security::Cryptography::X509Certificates::X509Certificate* cert);
+    // Offset: 0x16B24CC
+    System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import_NEW(System::Security::Cryptography::X509Certificates::X509Certificate* cert);
     // public System.Void .ctor()
-    // Offset: 0x177F9F0
+    // Offset: 0x16B2434
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

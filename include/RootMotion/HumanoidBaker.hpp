@@ -39,7 +39,7 @@ namespace RootMotion {
   // [] Offset: FFFFFFFF
   class HumanoidBaker : public RootMotion::Baker {
     public:
-    // [TooltipAttribute] Offset: 0xD271A0
+    // [TooltipAttribute] Offset: 0xD12104
     // public System.Boolean bakeHandIK
     // Size: 0x1
     // Offset: 0x74
@@ -48,16 +48,16 @@ namespace RootMotion {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bakeHandIK and: IKKeyReductionError
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0xD271D8
-    // [RangeAttribute] Offset: 0xD271D8
+    // [TooltipAttribute] Offset: 0xD1213C
+    // [RangeAttribute] Offset: 0xD1213C
     // public System.Single IKKeyReductionError
     // Size: 0x4
     // Offset: 0x78
     float IKKeyReductionError;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD27230
-    // [RangeAttribute] Offset: 0xD27230
+    // [TooltipAttribute] Offset: 0xD12194
+    // [RangeAttribute] Offset: 0xD12194
     // public System.Int32 muscleFrameRateDiv
     // Size: 0x4
     // Offset: 0x7C
@@ -145,38 +145,38 @@ namespace RootMotion {
     // Creating value type constructor for type: HumanoidBaker
     HumanoidBaker(bool bakeHandIK_ = {}, float IKKeyReductionError_ = {}, int muscleFrameRateDiv_ = {}, ::Array<RootMotion::BakerMuscle*>* bakerMuscles_ = {}, RootMotion::BakerHumanoidQT* rootQT_ = {}, RootMotion::BakerHumanoidQT* leftFootQT_ = {}, RootMotion::BakerHumanoidQT* rightFootQT_ = {}, RootMotion::BakerHumanoidQT* leftHandQT_ = {}, RootMotion::BakerHumanoidQT* rightHandQT_ = {}, ::Array<float>* muscles_ = {}, UnityEngine::HumanPose pose_ = {}, UnityEngine::HumanPoseHandler* handler_ = {}, UnityEngine::Vector3 bodyPosition_ = {}, UnityEngine::Quaternion bodyRotation_ = {}, int mN_ = {}, UnityEngine::Quaternion lastBodyRotation_ = {}) noexcept : bakeHandIK{bakeHandIK_}, IKKeyReductionError{IKKeyReductionError_}, muscleFrameRateDiv{muscleFrameRateDiv_}, bakerMuscles{bakerMuscles_}, rootQT{rootQT_}, leftFootQT{leftFootQT_}, rightFootQT{rightFootQT_}, leftHandQT{leftHandQT_}, rightHandQT{rightHandQT_}, muscles{muscles_}, pose{pose_}, handler{handler_}, bodyPosition{bodyPosition_}, bodyRotation{bodyRotation_}, mN{mN_}, lastBodyRotation{lastBodyRotation_} {}
     // private System.Void Awake()
-    // Offset: 0x1971C58
+    // Offset: 0x1928694
     void Awake();
     // private System.Void UpdateHumanPose()
-    // Offset: 0x197284C
+    // Offset: 0x19291D0
     void UpdateHumanPose();
     // protected override UnityEngine.Transform GetCharacterRoot()
-    // Offset: 0x197213C
+    // Offset: 0x1928AC0
     // Implemented from: RootMotion.Baker
-    // Base method: UnityEngine.Transform Baker::GetCharacterRoot()
+    // Base method: UnityEngine.Transform Baker::GetCharacterRoot_NEW()
     UnityEngine::Transform* GetCharacterRoot();
     // protected override System.Void OnStartBaking()
-    // Offset: 0x1972158
+    // Offset: 0x1928ADC
     // Implemented from: RootMotion.Baker
-    // Base method: System.Void Baker::OnStartBaking()
+    // Base method: System.Void Baker::OnStartBaking_NEW()
     void OnStartBaking();
     // protected override System.Void OnSetLoopFrame(System.Single time)
-    // Offset: 0x1972278
+    // Offset: 0x1928BFC
     // Implemented from: RootMotion.Baker
-    // Base method: System.Void Baker::OnSetLoopFrame(System.Single time)
+    // Base method: System.Void Baker::OnSetLoopFrame_NEW(System.Single time)
     void OnSetLoopFrame(float time);
     // protected override System.Void OnSetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x1972354
+    // Offset: 0x1928CD8
     // Implemented from: RootMotion.Baker
-    // Base method: System.Void Baker::OnSetCurves(ref UnityEngine.AnimationClip clip)
+    // Base method: System.Void Baker::OnSetCurves_NEW(ref UnityEngine.AnimationClip clip)
     void OnSetCurves(UnityEngine::AnimationClip*& clip);
     // protected override System.Void OnSetKeyframes(System.Single time, System.Boolean lastFrame)
-    // Offset: 0x1972524
+    // Offset: 0x1928EA8
     // Implemented from: RootMotion.Baker
-    // Base method: System.Void Baker::OnSetKeyframes(System.Single time, System.Boolean lastFrame)
+    // Base method: System.Void Baker::OnSetKeyframes_NEW(System.Single time, System.Boolean lastFrame)
     void OnSetKeyframes(float time, bool lastFrame);
     // public System.Void .ctor()
-    // Offset: 0x1972928
+    // Offset: 0x19292AC
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

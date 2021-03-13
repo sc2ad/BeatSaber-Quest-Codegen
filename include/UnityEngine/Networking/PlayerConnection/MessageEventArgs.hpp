@@ -34,7 +34,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Creating value type constructor for type: MessageEventArgs
     MessageEventArgs(int playerId_ = {}, ::Array<uint8_t>* data_ = {}) noexcept : playerId{playerId_}, data{data_} {}
     // public System.Void .ctor()
-    // Offset: 0x1B33E9C
+    // Offset: 0x1A74C70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

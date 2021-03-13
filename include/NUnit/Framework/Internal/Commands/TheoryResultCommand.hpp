@@ -35,7 +35,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Creating value type constructor for type: TheoryResultCommand
     TheoryResultCommand() noexcept {}
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand command)
-    // Offset: 0x16AC92C
+    // Offset: 0x15B11CC
     // Implemented from: NUnit.Framework.Internal.Commands.DelegatingTestCommand
     // Base method: System.Void DelegatingTestCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand command)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -44,9 +44,9 @@ namespace NUnit::Framework::Internal::Commands {
       return THROW_UNLESS((::il2cpp_utils::New<TheoryResultCommand*, creationType>(command)));
     }
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x16AC930
+    // Offset: 0x15B11D0
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
-    // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
+    // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute_NEW(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Internal.Commands.TheoryResultCommand
   #pragma pack(pop)

@@ -30,22 +30,22 @@ namespace Oculus::Platform {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static private System.Void ovr_UnityResetTestPlatform()
-    // Offset: 0x13DF9A0
+    // Offset: 0x13781F0
     static void ovr_UnityResetTestPlatform();
     // private System.Void Awake()
-    // Offset: 0x13DFA10
+    // Offset: 0x1378260
     void Awake();
     // private System.Void Update()
-    // Offset: 0x13DFB0C
+    // Offset: 0x137835C
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x13DFB98
+    // Offset: 0x13783E8
     void OnDestroy();
     // private System.Void OnApplicationQuit()
-    // Offset: 0x13DFB9C
+    // Offset: 0x13783EC
     void OnApplicationQuit();
     // public System.Void .ctor()
-    // Offset: 0x13DFBF8
+    // Offset: 0x1378448
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -111,22 +111,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FormattedFloatListSettingsValueController
     FormattedFloatListSettingsValueController(GlobalNamespace::FloatSO* settingsValue_ = {}, ::Array<float>* values_ = {}, ::Il2CppString* formattingString_ = {}, GlobalNamespace::FormattedFloatListSettingsValueController::ValueType valueType_ = {}, float min_ = {}, float max_ = {}) noexcept : settingsValue{settingsValue_}, values{values_}, formattingString{formattingString_}, valueType{valueType_}, min{min_}, max{max_} {}
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0xF30C50
+    // Offset: 0xF31A28
     // Implemented from: ListSettingsController
-    // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
+    // Base method: System.Boolean ListSettingsController::GetInitValues_NEW(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0xF30D78
+    // Offset: 0xF31B50
     // Implemented from: ListSettingsController
-    // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
+    // Base method: System.Void ListSettingsController::ApplyValue_NEW(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0xF30E04
+    // Offset: 0xF31BDC
     // Implemented from: ListSettingsController
-    // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
+    // Base method: System.String ListSettingsController::TextForValue_NEW(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0xF30EF0
+    // Offset: 0xF31CC8
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()

@@ -16,27 +16,16 @@
 namespace GlobalNamespace {
   // Forward declaring type: MultiplayerScoreRingManager
   class MultiplayerScoreRingManager;
-  // Forward declaring type: MultiplayerResultsTableView
-  class MultiplayerResultsTableView;
+  // Forward declaring type: MultiplayerResultsPyramidView
+  class MultiplayerResultsPyramidView;
+  // Forward declaring type: FireworksController
+  class FireworksController;
   // Forward declaring type: MultiplayerPlayersManager
   class MultiplayerPlayersManager;
   // Forward declaring type: IMultiplayerSessionManager
   class IMultiplayerSessionManager;
-  // Forward declaring type: LevelCompletionResults
-  class LevelCompletionResults;
-}
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: AudioSource
-  class AudioSource;
-  // Forward declaring type: AudioClip
-  class AudioClip;
-}
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class Dictionary_2;
+  // Forward declaring type: MultiplayerResultsData
+  class MultiplayerResultsData;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -57,10 +46,10 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerOutroAnimationController : public UnityEngine::MonoBehaviour {
     public:
-    // Nested type: GlobalNamespace::MultiplayerOutroAnimationController::$PlayOutroAnimation$d__9
-    class $PlayOutroAnimation$d__9;
-    // Nested type: GlobalNamespace::MultiplayerOutroAnimationController::$PlayBigAvatarHideSfxClip$d__10
-    class $PlayBigAvatarHideSfxClip$d__10;
+    // Nested type: GlobalNamespace::MultiplayerOutroAnimationController::$PlayOutroAnimation$d__11
+    class $PlayOutroAnimation$d__11;
+    // Nested type: GlobalNamespace::MultiplayerOutroAnimationController::$PlayBigAvatarHideSfxClip$d__12
+    class $PlayBigAvatarHideSfxClip$d__12;
     // private System.Single _startDelay
     // Size: 0x4
     // Offset: 0x18
@@ -73,40 +62,41 @@ namespace GlobalNamespace {
     float endDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xD3C4A0
+    // private System.Single _songMusicDelay
+    // Size: 0x4
+    // Offset: 0x20
+    float songMusicDelay;
+    // Field size check
+    static_assert(sizeof(float) == 0x4);
+    // Padding between fields: songMusicDelay and: multiplayerScoreRingManager
+    char __padding2[0x4] = {};
+    // [SpaceAttribute] Offset: 0xD27E60
     // private MultiplayerScoreRingManager _multiplayerScoreRingManager
     // Size: 0x8
-    // Offset: 0x20
+    // Offset: 0x28
     GlobalNamespace::MultiplayerScoreRingManager* multiplayerScoreRingManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreRingManager*) == 0x8);
-    // private MultiplayerResultsTableView _resultsTableView
-    // Size: 0x8
-    // Offset: 0x28
-    GlobalNamespace::MultiplayerResultsTableView* resultsTableView;
-    // Field size check
-    static_assert(sizeof(GlobalNamespace::MultiplayerResultsTableView*) == 0x8);
-    // private UnityEngine.AudioSource _outroSfxAudioSource
+    // private MultiplayerResultsPyramidView _multiplayerResultsPyramidView
     // Size: 0x8
     // Offset: 0x30
-    UnityEngine::AudioSource* outroSfxAudioSource;
+    GlobalNamespace::MultiplayerResultsPyramidView* multiplayerResultsPyramidView;
     // Field size check
-    static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
-    // [HeaderAttribute] Offset: 0xD3C4F8
-    // private UnityEngine.AudioClip _levelFinishedAudioClip
+    static_assert(sizeof(GlobalNamespace::MultiplayerResultsPyramidView*) == 0x8);
+    // private FireworksController _fireworksController
     // Size: 0x8
     // Offset: 0x38
-    UnityEngine::AudioClip* levelFinishedAudioClip;
+    GlobalNamespace::FireworksController* fireworksController;
     // Field size check
-    static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3C544
+    static_assert(sizeof(GlobalNamespace::FireworksController*) == 0x8);
+    // [InjectAttribute] Offset: 0xD27EB8
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3C554
+    // [InjectAttribute] Offset: 0xD27EC8
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x48
@@ -114,23 +104,32 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
     // Creating value type constructor for type: MultiplayerOutroAnimationController
-    MultiplayerOutroAnimationController(float startDelay_ = {}, float endDuration_ = {}, GlobalNamespace::MultiplayerScoreRingManager* multiplayerScoreRingManager_ = {}, GlobalNamespace::MultiplayerResultsTableView* resultsTableView_ = {}, UnityEngine::AudioSource* outroSfxAudioSource_ = {}, UnityEngine::AudioClip* levelFinishedAudioClip_ = {}, GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}) noexcept : startDelay{startDelay_}, endDuration{endDuration_}, multiplayerScoreRingManager{multiplayerScoreRingManager_}, resultsTableView{resultsTableView_}, outroSfxAudioSource{outroSfxAudioSource_}, levelFinishedAudioClip{levelFinishedAudioClip_}, multiplayerPlayersManager{multiplayerPlayersManager_}, multiplayerSessionManager{multiplayerSessionManager_} {}
+    MultiplayerOutroAnimationController(float startDelay_ = {}, float endDuration_ = {}, float songMusicDelay_ = {}, GlobalNamespace::MultiplayerScoreRingManager* multiplayerScoreRingManager_ = {}, GlobalNamespace::MultiplayerResultsPyramidView* multiplayerResultsPyramidView_ = {}, GlobalNamespace::FireworksController* fireworksController_ = {}, GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}) noexcept : startDelay{startDelay_}, endDuration{endDuration_}, songMusicDelay{songMusicDelay_}, multiplayerScoreRingManager{multiplayerScoreRingManager_}, multiplayerResultsPyramidView{multiplayerResultsPyramidView_}, fireworksController{fireworksController_}, multiplayerPlayersManager{multiplayerPlayersManager_}, multiplayerSessionManager{multiplayerSessionManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // public System.Void AnimateOutro(LevelCompletionResults localPlayerResults, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> otherPlayersResults, System.Action onCompleted)
-    // Offset: 0xFEB908
-    void AnimateOutro(GlobalNamespace::LevelCompletionResults* localPlayerResults, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* otherPlayersResults, System::Action* onCompleted);
-    // private System.Collections.IEnumerator PlayOutroAnimation(LevelCompletionResults localPlayerLevelCompletionResults, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> otherPlayersLevelCompletionResults, System.Action onCompleted)
-    // Offset: 0xFEB934
-    System::Collections::IEnumerator* PlayOutroAnimation(GlobalNamespace::LevelCompletionResults* localPlayerLevelCompletionResults, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* otherPlayersLevelCompletionResults, System::Action* onCompleted);
+    // protected System.Void Start()
+    // Offset: 0xF121F0
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0xF12360
+    void OnDestroy();
+    // public System.Void AnimateOutro(MultiplayerResultsData multiplayerResultsData, System.Action onCompleted)
+    // Offset: 0xF124D4
+    void AnimateOutro(GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, System::Action* onCompleted);
+    // private System.Collections.IEnumerator PlayOutroAnimation(MultiplayerResultsData multiplayerResultsData, System.Action onCompleted)
+    // Offset: 0xF12500
+    System::Collections::IEnumerator* PlayOutroAnimation(GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, System::Action* onCompleted);
     // private System.Collections.IEnumerator PlayBigAvatarHideSfxClip(System.Single delay)
-    // Offset: 0xFEBA28
+    // Offset: 0xF125B0
     System::Collections::IEnumerator* PlayBigAvatarHideSfxClip(float delay);
     // private System.Void PlayMusicPreview(System.Single maxDuration)
-    // Offset: 0xFEBAE0
+    // Offset: 0xF12654
     void PlayMusicPreview(float maxDuration);
+    // private System.Void HandlePlayerSpawningDidFinish()
+    // Offset: 0xF12294
+    void HandlePlayerSpawningDidFinish();
     // public System.Void .ctor()
-    // Offset: 0xFEBBB8
+    // Offset: 0xF12AA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -60,15 +60,11 @@ namespace MasterServer {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // private System.Void MoveNext()
-    // Offset: 0xDF45B8
-    // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
-    // Base method: System.Void IAsyncStateMachine::MoveNext()
-    void MoveNext();
+    // Offset: 0xDE2588
+    void MoveNext_NEW();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDF45C0
-    // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
-    // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+    // Offset: 0xDE2590
+    void SetStateMachine_NEW(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMessageHandler/<>c__DisplayClass39_0/<<GetPublicServers>b__0>d
   // WARNING Not writing size check since size may be invalid!
 }

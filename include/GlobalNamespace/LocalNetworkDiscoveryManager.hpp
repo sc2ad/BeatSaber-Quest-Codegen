@@ -149,35 +149,35 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(LocalNetworkDiscoveryManager::PacketType), 0 + sizeof(uint8_t)> __GlobalNamespace_LocalNetworkDiscoveryManager_PacketTypeSizeCheck;
     static_assert(sizeof(LocalNetworkDiscoveryManager::PacketType) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD363B0
+    // [CompilerGeneratedAttribute] Offset: 0xD216A4
     // private LocalNetworkDiscoveryManager/PeerUpdatedDelegate peerUpdatedEvent
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate* peerUpdatedEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD363C0
+    // [CompilerGeneratedAttribute] Offset: 0xD216B4
     // private LocalNetworkDiscoveryManager/JoinRequestedDelegate joinRequestedEvent
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate* joinRequestedEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD363D0
+    // [CompilerGeneratedAttribute] Offset: 0xD216C4
     // private LocalNetworkDiscoveryManager/JoinRespondedDelegate joinRespondedEvent
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate* joinRespondedEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD363E0
+    // [CompilerGeneratedAttribute] Offset: 0xD216D4
     // private LocalNetworkDiscoveryManager/InviteRequestedDelegate inviteRequestedEvent
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate* inviteRequestedEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD363F0
+    // [CompilerGeneratedAttribute] Offset: 0xD216E4
     // private LocalNetworkDiscoveryManager/InviteRespondedDelegate inviteRespondedEvent
     // Size: 0x8
     // Offset: 0x38
@@ -261,94 +261,94 @@ namespace GlobalNamespace {
     // Set static field: static private System.Byte kVersion
     static void _set_kVersion(uint8_t value);
     // public System.Void add_peerUpdatedEvent(LocalNetworkDiscoveryManager/PeerUpdatedDelegate value)
-    // Offset: 0x1054758
+    // Offset: 0x10ABCB4
     void add_peerUpdatedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate* value);
     // public System.Void remove_peerUpdatedEvent(LocalNetworkDiscoveryManager/PeerUpdatedDelegate value)
-    // Offset: 0x10547FC
+    // Offset: 0x10ABD58
     void remove_peerUpdatedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate* value);
     // public System.Void add_joinRequestedEvent(LocalNetworkDiscoveryManager/JoinRequestedDelegate value)
-    // Offset: 0x10548A0
+    // Offset: 0x10ABDFC
     void add_joinRequestedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate* value);
     // public System.Void remove_joinRequestedEvent(LocalNetworkDiscoveryManager/JoinRequestedDelegate value)
-    // Offset: 0x1054944
+    // Offset: 0x10ABEA0
     void remove_joinRequestedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate* value);
     // public System.Void add_joinRespondedEvent(LocalNetworkDiscoveryManager/JoinRespondedDelegate value)
-    // Offset: 0x10549E8
+    // Offset: 0x10ABF44
     void add_joinRespondedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate* value);
     // public System.Void remove_joinRespondedEvent(LocalNetworkDiscoveryManager/JoinRespondedDelegate value)
-    // Offset: 0x1054A8C
+    // Offset: 0x10ABFE8
     void remove_joinRespondedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate* value);
     // public System.Void add_inviteRequestedEvent(LocalNetworkDiscoveryManager/InviteRequestedDelegate value)
-    // Offset: 0x1054B30
+    // Offset: 0x10AC08C
     void add_inviteRequestedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate* value);
     // public System.Void remove_inviteRequestedEvent(LocalNetworkDiscoveryManager/InviteRequestedDelegate value)
-    // Offset: 0x1054BD4
+    // Offset: 0x10AC130
     void remove_inviteRequestedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate* value);
     // public System.Void add_inviteRespondedEvent(LocalNetworkDiscoveryManager/InviteRespondedDelegate value)
-    // Offset: 0x1054C78
+    // Offset: 0x10AC1D4
     void add_inviteRespondedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate* value);
     // public System.Void remove_inviteRespondedEvent(LocalNetworkDiscoveryManager/InviteRespondedDelegate value)
-    // Offset: 0x1054D1C
+    // Offset: 0x10AC278
     void remove_inviteRespondedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate* value);
     // public System.String get_userId()
-    // Offset: 0x1054DC0
+    // Offset: 0x10AC31C
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x1054DDC
+    // Offset: 0x10AC338
     ::Il2CppString* get_userName();
     // public System.Byte get_flags()
-    // Offset: 0x1054DF8
+    // Offset: 0x10AC354
     uint8_t get_flags();
     // public System.Void set_flags(System.Byte value)
-    // Offset: 0x1054E14
+    // Offset: 0x10AC370
     void set_flags(uint8_t value);
     // public System.Int32 get_currentPartySize()
-    // Offset: 0x1054E44
+    // Offset: 0x10AC3A0
     int get_currentPartySize();
     // public System.Void set_currentPartySize(System.Int32 value)
-    // Offset: 0x1054E60
+    // Offset: 0x10AC3BC
     void set_currentPartySize(int value);
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x1054E90
+    // Offset: 0x10AC3EC
     int get_maxPartySize();
     // public System.Void set_maxPartySize(System.Int32 value)
-    // Offset: 0x1054EAC
+    // Offset: 0x10AC408
     void set_maxPartySize(int value);
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x1054EDC
+    // Offset: 0x10AC438
     GlobalNamespace::GameplayServerConfiguration get_configuration();
     // public System.Void set_configuration(GameplayServerConfiguration value)
-    // Offset: 0x1054F04
+    // Offset: 0x10AC460
     void set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // public System.Boolean get_enableBroadcasting()
-    // Offset: 0x1054F9C
+    // Offset: 0x10AC4F8
     bool get_enableBroadcasting();
     // public System.Void set_enableBroadcasting(System.Boolean value)
-    // Offset: 0x1054FA4
+    // Offset: 0x10AC500
     void set_enableBroadcasting(bool value);
     // public System.Void Init(System.Int32 discoveryPort, System.String initUserId, System.String initUserName)
-    // Offset: 0x1054FB0
+    // Offset: 0x10AC50C
     void Init(int discoveryPort, ::Il2CppString* initUserId, ::Il2CppString* initUserName);
     // protected System.Void OnEnable()
-    // Offset: 0x105529C
+    // Offset: 0x10AC7D4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x10552B0
+    // Offset: 0x10AC7E8
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x10552C4
+    // Offset: 0x10AC7FC
     void Update();
     // public System.Void SendJoinRequest(System.Net.IPAddress ip)
-    // Offset: 0x1055384
+    // Offset: 0x10AC8BC
     void SendJoinRequest(System::Net::IPAddress* ip);
     // public System.Void SendJoinResponse(System.Net.IPAddress ip, System.String secret, System.Int32 multiplayerPort, System.Boolean blocked)
-    // Offset: 0x1055494
+    // Offset: 0x10AC9BC
     void SendJoinResponse(System::Net::IPAddress* ip, ::Il2CppString* secret, int multiplayerPort, bool blocked);
     // public System.Void SendInviteRequest(System.Net.IPAddress ip, System.String secret, System.Int32 multiplayerPort)
-    // Offset: 0x10555B4
+    // Offset: 0x10ACAC4
     void SendInviteRequest(System::Net::IPAddress* ip, ::Il2CppString* secret, int multiplayerPort);
     // public System.Void SendInviteResponse(System.Net.IPAddress ip, System.Boolean accepted, System.Boolean blocked)
-    // Offset: 0x10556F4
+    // Offset: 0x10ACBD8
     void SendInviteResponse(System::Net::IPAddress* ip, bool accepted, bool blocked);
     // private LiteNetLib.Utils.NetDataWriter WritePacket(T packet)
     // Offset: 0xFFFFFFFF
@@ -360,58 +360,44 @@ namespace GlobalNamespace {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<LiteNetLib::Utils::NetDataWriter*, false>(this, ___generic__method, packet);
     }
+    // private System.Void LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType)
+    // Offset: 0x10ACCD8
+    void LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected_NEW(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPacketReader* reader, LiteNetLib::UnconnectedMessageType messageType);
+    // private System.Void LiteNetLib.INetEventListener.OnConnectionRequest(LiteNetLib.ConnectionRequest request)
+    // Offset: 0x10ACD84
+    void LiteNetLib_INetEventListener_OnConnectionRequest_NEW(LiteNetLib::ConnectionRequest* request);
+    // private System.Void LiteNetLib.INetEventListener.OnNetworkError(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketErrorCode)
+    // Offset: 0x10ACDA0
+    void LiteNetLib_INetEventListener_OnNetworkError_NEW(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketErrorCode);
+    // private System.Void LiteNetLib.INetEventListener.OnNetworkLatencyUpdate(LiteNetLib.NetPeer peer, System.Int32 latency)
+    // Offset: 0x10ACE50
+    void LiteNetLib_INetEventListener_OnNetworkLatencyUpdate_NEW(LiteNetLib::NetPeer* peer, int latency);
+    // private System.Void LiteNetLib.INetEventListener.OnPeerConnected(LiteNetLib.NetPeer peer)
+    // Offset: 0x10ACE54
+    void LiteNetLib_INetEventListener_OnPeerConnected_NEW(LiteNetLib::NetPeer* peer);
+    // private System.Void LiteNetLib.INetEventListener.OnPeerDisconnected(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectInfo disconnectInfo)
+    // Offset: 0x10ACE58
+    void LiteNetLib_INetEventListener_OnPeerDisconnected_NEW(LiteNetLib::NetPeer* peer, LiteNetLib::DisconnectInfo disconnectInfo);
+    // private System.Void LiteNetLib.INetEventListener.OnNetworkReceive(LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod)
+    // Offset: 0x10ACE5C
+    void LiteNetLib_INetEventListener_OnNetworkReceive_NEW(LiteNetLib::NetPeer* peer, LiteNetLib::NetPacketReader* reader, LiteNetLib::DeliveryMethod deliveryMethod);
     // private System.Void <Init>b__56_0(LocalNetworkDiscoveryManager/BroadcastPacket packet, System.Net.IPEndPoint endPoint)
-    // Offset: 0x1055A7C
+    // Offset: 0x10ACF28
     void $Init$b__56_0(GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket* packet, System::Net::IPEndPoint* endPoint);
     // private System.Void <Init>b__56_1(LocalNetworkDiscoveryManager/JoinRequestPacket packet, System.Net.IPEndPoint endPoint)
-    // Offset: 0x1056148
+    // Offset: 0x10AD620
     void $Init$b__56_1(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestPacket* packet, System::Net::IPEndPoint* endPoint);
     // private System.Void <Init>b__56_2(LocalNetworkDiscoveryManager/JoinResponsePacket packet, System.Net.IPEndPoint endPoint)
-    // Offset: 0x10565D0
+    // Offset: 0x10ADA94
     void $Init$b__56_2(GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket* packet, System::Net::IPEndPoint* endPoint);
     // private System.Void <Init>b__56_3(LocalNetworkDiscoveryManager/InviteRequestPacket packet, System.Net.IPEndPoint endPoint)
-    // Offset: 0x1056A50
+    // Offset: 0x10ADEFC
     void $Init$b__56_3(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket* packet, System::Net::IPEndPoint* endPoint);
     // private System.Void <Init>b__56_4(LocalNetworkDiscoveryManager/InviteResponsePacket packet, System.Net.IPEndPoint endPoint)
-    // Offset: 0x1056F04
+    // Offset: 0x10AE3DC
     void $Init$b__56_4(GlobalNamespace::LocalNetworkDiscoveryManager::InviteResponsePacket* packet, System::Net::IPEndPoint* endPoint);
-    // private System.Void LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType)
-    // Offset: 0x10557FC
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnNetworkReceiveUnconnected(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType)
-    void LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPacketReader* reader, LiteNetLib::UnconnectedMessageType messageType);
-    // private System.Void LiteNetLib.INetEventListener.OnConnectionRequest(LiteNetLib.ConnectionRequest request)
-    // Offset: 0x10558A8
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnConnectionRequest(LiteNetLib.ConnectionRequest request)
-    void LiteNetLib_INetEventListener_OnConnectionRequest(LiteNetLib::ConnectionRequest* request);
-    // private System.Void LiteNetLib.INetEventListener.OnNetworkError(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketErrorCode)
-    // Offset: 0x10558C4
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnNetworkError(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketErrorCode)
-    void LiteNetLib_INetEventListener_OnNetworkError(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketErrorCode);
-    // private System.Void LiteNetLib.INetEventListener.OnNetworkLatencyUpdate(LiteNetLib.NetPeer peer, System.Int32 latency)
-    // Offset: 0x1055974
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnNetworkLatencyUpdate(LiteNetLib.NetPeer peer, System.Int32 latency)
-    void LiteNetLib_INetEventListener_OnNetworkLatencyUpdate(LiteNetLib::NetPeer* peer, int latency);
-    // private System.Void LiteNetLib.INetEventListener.OnPeerConnected(LiteNetLib.NetPeer peer)
-    // Offset: 0x1055978
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnPeerConnected(LiteNetLib.NetPeer peer)
-    void LiteNetLib_INetEventListener_OnPeerConnected(LiteNetLib::NetPeer* peer);
-    // private System.Void LiteNetLib.INetEventListener.OnPeerDisconnected(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectInfo disconnectInfo)
-    // Offset: 0x105597C
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnPeerDisconnected(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectInfo disconnectInfo)
-    void LiteNetLib_INetEventListener_OnPeerDisconnected(LiteNetLib::NetPeer* peer, LiteNetLib::DisconnectInfo disconnectInfo);
-    // private System.Void LiteNetLib.INetEventListener.OnNetworkReceive(LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x1055980
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnNetworkReceive(LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod)
-    void LiteNetLib_INetEventListener_OnNetworkReceive(LiteNetLib::NetPeer* peer, LiteNetLib::NetPacketReader* reader, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void .ctor()
-    // Offset: 0x1055984
+    // Offset: 0x10ACE60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

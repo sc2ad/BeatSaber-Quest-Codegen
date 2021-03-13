@@ -29,10 +29,10 @@ namespace NUnit::Framework::Interfaces {
     }
     // public System.Boolean get_IsOptional()
     // Offset: 0xFFFFFFFF
-    bool get_IsOptional();
+    bool get_IsOptional_NEW();
     // public System.Type get_ParameterType()
     // Offset: 0xFFFFFFFF
-    System::Type* get_ParameterType();
+    System::Type* get_ParameterType_NEW();
   }; // NUnit.Framework.Interfaces.IParameterInfo
   #pragma pack(pop)
 }

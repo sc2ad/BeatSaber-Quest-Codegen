@@ -54,28 +54,28 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BezierSpline
     BezierSpline(System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>* segments_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector3>* sourceDataPoints_ = {}) noexcept : segments{segments_}, sourceDataPoints{sourceDataPoints_} {}
     // public System.Collections.Generic.List`1<BezierCurve> get_segments()
-    // Offset: 0xF5E570
+    // Offset: 0xF02A70
     System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>* get_segments();
     // public System.Void AddPoint(System.Single distance, UnityEngine.Vector2 point)
-    // Offset: 0xF5D308
+    // Offset: 0xF0188C
     void AddPoint(float distance, UnityEngine::Vector2 point);
     // public System.Void SortSourceData()
-    // Offset: 0xF5E578
+    // Offset: 0xF02A78
     void SortSourceData();
     // public System.Void AddArtificialStartAndFinishPoint()
-    // Offset: 0xF5D3B4
+    // Offset: 0xF01938
     void AddArtificialStartAndFinishPoint();
     // public System.Void ComputeControlPoints()
-    // Offset: 0xF5D560
+    // Offset: 0xF01AE4
     void ComputeControlPoints();
     // public System.Void Clear()
-    // Offset: 0xF5EC6C
+    // Offset: 0xF03140
     void Clear();
     // private BezierSpline/ComputeControlPointsResults ComputeControlPoints(System.Collections.Generic.List`1<System.Single> k)
-    // Offset: 0xF5E678
+    // Offset: 0xF02B70
     GlobalNamespace::BezierSpline::ComputeControlPointsResults ComputeControlPoints(System::Collections::Generic::List_1<float>* k);
     // public System.Void .ctor()
-    // Offset: 0xF5D07C
+    // Offset: 0xF01618
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

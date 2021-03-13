@@ -28,14 +28,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerDuelConnectedPlayerGameplayAnimator : public GlobalNamespace::MultiplayerGameplayAnimator {
     public:
-    // [SpaceAttribute] Offset: 0xD3B13C
+    // [SpaceAttribute] Offset: 0xD269E4
     // private ScaleAnimator _avatarScaleAnimator
     // Size: 0x8
     // Offset: 0x68
     GlobalNamespace::ScaleAnimator* avatarScaleAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ScaleAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3B174
+    // [InjectAttribute] Offset: 0xD26A1C
     // private readonly MultiplayerConnectedPlayerLevelFailController _failController
     // Size: 0x8
     // Offset: 0x70
@@ -45,28 +45,28 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerDuelConnectedPlayerGameplayAnimator
     MultiplayerDuelConnectedPlayerGameplayAnimator(GlobalNamespace::ScaleAnimator* avatarScaleAnimator_ = {}, GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* failController_ = {}) noexcept : avatarScaleAnimator{avatarScaleAnimator_}, failController{failController_} {}
     // private System.Void TransitionIntoFailedState()
-    // Offset: 0x10224EC
+    // Offset: 0x1047280
     void TransitionIntoFailedState();
     // private System.Void HandlePlayerDidFail()
-    // Offset: 0x102283C
+    // Offset: 0x10475D4
     void HandlePlayerDidFail();
     // protected override System.Void OnDestroy()
-    // Offset: 0x1022414
+    // Offset: 0x10471A4
     // Implemented from: MultiplayerGameplayAnimator
-    // Base method: System.Void MultiplayerGameplayAnimator::OnDestroy()
+    // Base method: System.Void MultiplayerGameplayAnimator::OnDestroy_NEW()
     void OnDestroy();
     // protected override System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
-    // Offset: 0x102263C
+    // Offset: 0x10473D0
     // Implemented from: MultiplayerGameplayAnimator
-    // Base method: System.Void MultiplayerGameplayAnimator::AnimateNewLeaderSelected(System.Boolean isLeading)
+    // Base method: System.Void MultiplayerGameplayAnimator::AnimateNewLeaderSelected_NEW(System.Boolean isLeading)
     void AnimateNewLeaderSelected(bool isLeading);
     // protected override System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x102272C
+    // Offset: 0x10474C0
     // Implemented from: MultiplayerGameplayAnimator
-    // Base method: System.Void MultiplayerGameplayAnimator::HandleStateChanged(MultiplayerController/State state)
+    // Base method: System.Void MultiplayerGameplayAnimator::HandleStateChanged_NEW(MultiplayerController/State state)
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // public System.Void .ctor()
-    // Offset: 0x1022840
+    // Offset: 0x10475D8
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

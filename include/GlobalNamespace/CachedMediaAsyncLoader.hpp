@@ -84,20 +84,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ClearCache()
-    // Offset: 0x22A8FB4
+    // Offset: 0x215A3E8
     void ClearCache();
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadAudioClipAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x22A902C
-    // Implemented from: IAudioClipAsyncLoader
-    // Base method: System.Threading.Tasks.Task`1<UnityEngine.AudioClip> IAudioClipAsyncLoader::LoadAudioClipAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
+    // Offset: 0x215A460
+    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipAsync_NEW(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x22A9190
-    // Implemented from: ISpriteAsyncLoader
-    // Base method: System.Threading.Tasks.Task`1<UnityEngine.Sprite> ISpriteAsyncLoader::LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
+    // Offset: 0x215A574
+    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync_NEW(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x22A92F4
+    // Offset: 0x215A688
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

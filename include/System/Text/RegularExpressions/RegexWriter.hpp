@@ -118,49 +118,49 @@ namespace System::Text::RegularExpressions {
     // Creating value type constructor for type: RegexWriter
     RegexWriter(::Array<int>* intStack_ = {}, int depth_ = {}, ::Array<int>* emitted_ = {}, int curpos_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* stringhash_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* stringtable_ = {}, bool counting_ = {}, int count_ = {}, int trackcount_ = {}, System::Collections::Hashtable* caps_ = {}) noexcept : intStack{intStack_}, depth{depth_}, emitted{emitted_}, curpos{curpos_}, stringhash{stringhash_}, stringtable{stringtable_}, counting{counting_}, count{count_}, trackcount{trackcount_}, caps{caps_} {}
     // static System.Text.RegularExpressions.RegexCode Write(System.Text.RegularExpressions.RegexTree t)
-    // Offset: 0x18BE648
+    // Offset: 0x180221C
     static System::Text::RegularExpressions::RegexCode* Write(System::Text::RegularExpressions::RegexTree* t);
     // System.Void PushInt(System.Int32 I)
-    // Offset: 0x18BEB5C
+    // Offset: 0x18026DC
     void PushInt(int I);
     // System.Boolean EmptyStack()
-    // Offset: 0x18BEC50
+    // Offset: 0x18027BC
     bool EmptyStack();
     // System.Int32 PopInt()
-    // Offset: 0x18BEC60
+    // Offset: 0x18027CC
     int PopInt();
     // System.Int32 CurPos()
-    // Offset: 0x18BECA8
+    // Offset: 0x1802814
     int CurPos();
     // System.Void PatchJump(System.Int32 Offset, System.Int32 jumpDest)
-    // Offset: 0x18BECB0
+    // Offset: 0x180281C
     void PatchJump(int Offset, int jumpDest);
     // System.Void Emit(System.Int32 op)
-    // Offset: 0x18BECF0
+    // Offset: 0x180285C
     void Emit(int op);
     // System.Void Emit(System.Int32 op, System.Int32 opd1)
-    // Offset: 0x18BED88
+    // Offset: 0x18028F4
     void Emit(int op, int opd1);
     // System.Void Emit(System.Int32 op, System.Int32 opd1, System.Int32 opd2)
-    // Offset: 0x18BEE48
+    // Offset: 0x18029B4
     void Emit(int op, int opd1, int opd2);
     // System.Int32 StringCode(System.String str)
-    // Offset: 0x18BEF30
+    // Offset: 0x1802A9C
     int StringCode(::Il2CppString* str);
     // System.ArgumentException MakeException(System.String message)
-    // Offset: 0x18BF03C
+    // Offset: 0x1802BA8
     System::ArgumentException* MakeException(::Il2CppString* message);
     // System.Int32 MapCapnum(System.Int32 capnum)
-    // Offset: 0x18BF0A0
+    // Offset: 0x1802C0C
     int MapCapnum(int capnum);
     // System.Text.RegularExpressions.RegexCode RegexCodeFromRegexTree(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x18BE7A0
+    // Offset: 0x1802348
     System::Text::RegularExpressions::RegexCode* RegexCodeFromRegexTree(System::Text::RegularExpressions::RegexTree* tree);
     // System.Void EmitFragment(System.Int32 nodetype, System.Text.RegularExpressions.RegexNode node, System.Int32 CurIndex)
-    // Offset: 0x18BF15C
+    // Offset: 0x1802CC8
     void EmitFragment(int nodetype, System::Text::RegularExpressions::RegexNode* node, int CurIndex);
     // private System.Void .ctor()
-    // Offset: 0x18BE6B0
+    // Offset: 0x1802284
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

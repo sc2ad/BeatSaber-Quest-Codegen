@@ -28,84 +28,84 @@ namespace Org::BouncyCastle::Math::EC {
     ECFieldElement() noexcept {}
     // public Org.BouncyCastle.Math.BigInteger ToBigInteger()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::BigInteger* ToBigInteger();
+    Org::BouncyCastle::Math::BigInteger* ToBigInteger_NEW();
     // public System.Int32 get_FieldSize()
     // Offset: 0xFFFFFFFF
-    int get_FieldSize();
+    int get_FieldSize_NEW();
     // public Org.BouncyCastle.Math.EC.ECFieldElement Add(Org.BouncyCastle.Math.EC.ECFieldElement b)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECFieldElement* Add(Org::BouncyCastle::Math::EC::ECFieldElement* b);
+    Org::BouncyCastle::Math::EC::ECFieldElement* Add_NEW(Org::BouncyCastle::Math::EC::ECFieldElement* b);
     // public Org.BouncyCastle.Math.EC.ECFieldElement AddOne()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECFieldElement* AddOne();
+    Org::BouncyCastle::Math::EC::ECFieldElement* AddOne_NEW();
     // public Org.BouncyCastle.Math.EC.ECFieldElement Subtract(Org.BouncyCastle.Math.EC.ECFieldElement b)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECFieldElement* Subtract(Org::BouncyCastle::Math::EC::ECFieldElement* b);
+    Org::BouncyCastle::Math::EC::ECFieldElement* Subtract_NEW(Org::BouncyCastle::Math::EC::ECFieldElement* b);
     // public Org.BouncyCastle.Math.EC.ECFieldElement Multiply(Org.BouncyCastle.Math.EC.ECFieldElement b)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECFieldElement* Multiply(Org::BouncyCastle::Math::EC::ECFieldElement* b);
+    Org::BouncyCastle::Math::EC::ECFieldElement* Multiply_NEW(Org::BouncyCastle::Math::EC::ECFieldElement* b);
     // public Org.BouncyCastle.Math.EC.ECFieldElement Divide(Org.BouncyCastle.Math.EC.ECFieldElement b)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECFieldElement* Divide(Org::BouncyCastle::Math::EC::ECFieldElement* b);
+    Org::BouncyCastle::Math::EC::ECFieldElement* Divide_NEW(Org::BouncyCastle::Math::EC::ECFieldElement* b);
     // public Org.BouncyCastle.Math.EC.ECFieldElement Negate()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECFieldElement* Negate();
+    Org::BouncyCastle::Math::EC::ECFieldElement* Negate_NEW();
     // public Org.BouncyCastle.Math.EC.ECFieldElement Square()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECFieldElement* Square();
+    Org::BouncyCastle::Math::EC::ECFieldElement* Square_NEW();
     // public Org.BouncyCastle.Math.EC.ECFieldElement Invert()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECFieldElement* Invert();
+    Org::BouncyCastle::Math::EC::ECFieldElement* Invert_NEW();
     // public Org.BouncyCastle.Math.EC.ECFieldElement Sqrt()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECFieldElement* Sqrt();
+    Org::BouncyCastle::Math::EC::ECFieldElement* Sqrt_NEW();
     // public System.Int32 get_BitLength()
-    // Offset: 0x20968E0
-    int get_BitLength();
+    // Offset: 0x1F73F28
+    int get_BitLength_NEW();
     // public System.Boolean get_IsOne()
-    // Offset: 0x2096908
-    bool get_IsOne();
+    // Offset: 0x1F73F50
+    bool get_IsOne_NEW();
     // public System.Boolean get_IsZero()
-    // Offset: 0x2096930
-    bool get_IsZero();
+    // Offset: 0x1F73F78
+    bool get_IsZero_NEW();
     // public Org.BouncyCastle.Math.EC.ECFieldElement MultiplyMinusProduct(Org.BouncyCastle.Math.EC.ECFieldElement b, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y)
-    // Offset: 0x2096960
-    Org::BouncyCastle::Math::EC::ECFieldElement* MultiplyMinusProduct(Org::BouncyCastle::Math::EC::ECFieldElement* b, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y);
+    // Offset: 0x1F73FA8
+    Org::BouncyCastle::Math::EC::ECFieldElement* MultiplyMinusProduct_NEW(Org::BouncyCastle::Math::EC::ECFieldElement* b, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y);
     // public Org.BouncyCastle.Math.EC.ECFieldElement MultiplyPlusProduct(Org.BouncyCastle.Math.EC.ECFieldElement b, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y)
-    // Offset: 0x20969C8
-    Org::BouncyCastle::Math::EC::ECFieldElement* MultiplyPlusProduct(Org::BouncyCastle::Math::EC::ECFieldElement* b, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y);
+    // Offset: 0x1F74010
+    Org::BouncyCastle::Math::EC::ECFieldElement* MultiplyPlusProduct_NEW(Org::BouncyCastle::Math::EC::ECFieldElement* b, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y);
     // public Org.BouncyCastle.Math.EC.ECFieldElement SquarePlusProduct(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y)
-    // Offset: 0x2096A30
-    Org::BouncyCastle::Math::EC::ECFieldElement* SquarePlusProduct(Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y);
+    // Offset: 0x1F74078
+    Org::BouncyCastle::Math::EC::ECFieldElement* SquarePlusProduct_NEW(Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y);
     // public Org.BouncyCastle.Math.EC.ECFieldElement SquarePow(System.Int32 pow)
-    // Offset: 0x2096A9C
-    Org::BouncyCastle::Math::EC::ECFieldElement* SquarePow(int pow);
+    // Offset: 0x1F740E4
+    Org::BouncyCastle::Math::EC::ECFieldElement* SquarePow_NEW(int pow);
     // public System.Boolean TestBitZero()
-    // Offset: 0x2096AE4
-    bool TestBitZero();
+    // Offset: 0x1F7412C
+    bool TestBitZero_NEW();
     // public System.Boolean Equals(Org.BouncyCastle.Math.EC.ECFieldElement other)
-    // Offset: 0x2096BAC
-    bool Equals(Org::BouncyCastle::Math::EC::ECFieldElement* other);
+    // Offset: 0x1F741F4
+    bool Equals_NEW(Org::BouncyCastle::Math::EC::ECFieldElement* other);
     // public System.Byte[] GetEncoded()
-    // Offset: 0x2096C7C
-    ::Array<uint8_t>* GetEncoded();
+    // Offset: 0x1F742C4
+    ::Array<uint8_t>* GetEncoded_NEW();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2096B10
+    // Offset: 0x1F74158
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object obj)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2096C24
+    // Offset: 0x1F7426C
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2096C50
+    // Offset: 0x1F74298
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
     // protected System.Void .ctor()
-    // Offset: 0x2096CD8
+    // Offset: 0x1F74320
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

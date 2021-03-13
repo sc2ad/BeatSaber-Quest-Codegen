@@ -44,7 +44,7 @@ namespace SFB {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
-    // Offset: 0xDF3F40
+    // Offset: 0xDDDAF8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ExtensionFilter(::Il2CppString* filterName, ::Array<::Il2CppString*>* filterExtensions)
   }; // SFB.ExtensionFilter

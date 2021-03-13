@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PS4ActivePublisherSKUSettingsSO* activePublisherSKUSettingsSO;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PS4ActivePublisherSKUSettingsSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD334E0
+    // [InjectAttribute] Offset: 0xD1E5D4
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x60
@@ -76,27 +76,27 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PS4AppInit
     PS4AppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit_ = {}, GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* appInitScenesTransitionSetupDataContainer_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::PS4ActivePublisherSKUSettingsSO* activePublisherSKUSettingsSO_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}) noexcept : mainSystemInit{mainSystemInit_}, defaultScenesTransitionsFromInit{defaultScenesTransitionsFromInit_}, appInitScenesTransitionSetupDataContainer{appInitScenesTransitionSetupDataContainer_}, mainSettingsModel{mainSettingsModel_}, activePublisherSKUSettingsSO{activePublisherSKUSettingsSO_}, gameScenesManager{gameScenesManager_} {}
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xF1E160
+    // Offset: 0xF575B8
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
+    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup_NEW()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0xF1E1CC
+    // Offset: 0xF57624
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::RepeatableSetup()
+    // Base method: System.Void AppInit::RepeatableSetup_NEW()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0xF1E218
+    // Offset: 0xF57670
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::TransitionToNextScene()
+    // Base method: System.Void AppInit::TransitionToNextScene_NEW()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0xF1E254
+    // Offset: 0xF576AC
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF1E324
+    // Offset: 0xF5777C
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()

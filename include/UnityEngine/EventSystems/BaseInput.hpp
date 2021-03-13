@@ -33,55 +33,55 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: BaseInput
     BaseInput() noexcept {}
     // public System.String get_compositionString()
-    // Offset: 0x12F10E4
-    ::Il2CppString* get_compositionString();
+    // Offset: 0x130E9D0
+    ::Il2CppString* get_compositionString_NEW();
     // public UnityEngine.IMECompositionMode get_imeCompositionMode()
-    // Offset: 0x12F10EC
-    UnityEngine::IMECompositionMode get_imeCompositionMode();
+    // Offset: 0x130E9D8
+    UnityEngine::IMECompositionMode get_imeCompositionMode_NEW();
     // public System.Void set_imeCompositionMode(UnityEngine.IMECompositionMode value)
-    // Offset: 0x12F10F4
-    void set_imeCompositionMode(UnityEngine::IMECompositionMode value);
+    // Offset: 0x130E9E0
+    void set_imeCompositionMode_NEW(UnityEngine::IMECompositionMode value);
     // public UnityEngine.Vector2 get_compositionCursorPos()
-    // Offset: 0x12F1100
-    UnityEngine::Vector2 get_compositionCursorPos();
+    // Offset: 0x130E9EC
+    UnityEngine::Vector2 get_compositionCursorPos_NEW();
     // public System.Void set_compositionCursorPos(UnityEngine.Vector2 value)
-    // Offset: 0x12F1108
-    void set_compositionCursorPos(UnityEngine::Vector2 value);
+    // Offset: 0x130E9F4
+    void set_compositionCursorPos_NEW(UnityEngine::Vector2 value);
     // public System.Boolean get_mousePresent()
-    // Offset: 0x12F1110
-    bool get_mousePresent();
+    // Offset: 0x130E9FC
+    bool get_mousePresent_NEW();
     // public System.Boolean GetMouseButtonDown(System.Int32 button)
-    // Offset: 0x12F1118
-    bool GetMouseButtonDown(int button);
+    // Offset: 0x130EA04
+    bool GetMouseButtonDown_NEW(int button);
     // public System.Boolean GetMouseButtonUp(System.Int32 button)
-    // Offset: 0x12F1124
-    bool GetMouseButtonUp(int button);
+    // Offset: 0x130EA10
+    bool GetMouseButtonUp_NEW(int button);
     // public System.Boolean GetMouseButton(System.Int32 button)
-    // Offset: 0x12F1130
-    bool GetMouseButton(int button);
+    // Offset: 0x130EA1C
+    bool GetMouseButton_NEW(int button);
     // public UnityEngine.Vector2 get_mousePosition()
-    // Offset: 0x12F113C
-    UnityEngine::Vector2 get_mousePosition();
+    // Offset: 0x130EA28
+    UnityEngine::Vector2 get_mousePosition_NEW();
     // public UnityEngine.Vector2 get_mouseScrollDelta()
-    // Offset: 0x12F1144
-    UnityEngine::Vector2 get_mouseScrollDelta();
+    // Offset: 0x130EA30
+    UnityEngine::Vector2 get_mouseScrollDelta_NEW();
     // public System.Boolean get_touchSupported()
-    // Offset: 0x12F114C
-    bool get_touchSupported();
+    // Offset: 0x130EA38
+    bool get_touchSupported_NEW();
     // public System.Int32 get_touchCount()
-    // Offset: 0x12F1154
-    int get_touchCount();
+    // Offset: 0x130EA40
+    int get_touchCount_NEW();
     // public UnityEngine.Touch GetTouch(System.Int32 index)
-    // Offset: 0x12F115C
-    UnityEngine::Touch GetTouch(int index);
+    // Offset: 0x130EA48
+    UnityEngine::Touch GetTouch_NEW(int index);
     // public System.Single GetAxisRaw(System.String axisName)
-    // Offset: 0x12F1168
-    float GetAxisRaw(::Il2CppString* axisName);
+    // Offset: 0x130EA54
+    float GetAxisRaw_NEW(::Il2CppString* axisName);
     // public System.Boolean GetButtonDown(System.String buttonName)
-    // Offset: 0x12F1174
-    bool GetButtonDown(::Il2CppString* buttonName);
+    // Offset: 0x130EA60
+    bool GetButtonDown_NEW(::Il2CppString* buttonName);
     // public System.Void .ctor()
-    // Offset: 0x12F1180
+    // Offset: 0x130EA6C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

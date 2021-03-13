@@ -83,7 +83,7 @@ namespace System::Net::Sockets {
     System::Net::Sockets::SocketAsyncResult* socket_async_result;
     // Field size check
     static_assert(sizeof(System::Net::Sockets::SocketAsyncResult*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCB7CB8
+    // [CompilerGeneratedAttribute] Offset: 0xCA116C
     // private System.Net.Sockets.Socket <AcceptSocket>k__BackingField
     // Size: 0x8
     // Offset: 0x30
@@ -96,35 +96,35 @@ namespace System::Net::Sockets {
     System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* m_BufferList;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCB7CC8
+    // [CompilerGeneratedAttribute] Offset: 0xCA117C
     // private System.Int32 <BytesTransferred>k__BackingField
     // Size: 0x4
     // Offset: 0x40
     int BytesTransferred;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCB7CD8
+    // [CompilerGeneratedAttribute] Offset: 0xCA118C
     // private System.Int32 <Count>k__BackingField
     // Size: 0x4
     // Offset: 0x44
     int Count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCB7CE8
+    // [CompilerGeneratedAttribute] Offset: 0xCA119C
     // private System.Net.Sockets.SocketAsyncOperation <LastOperation>k__BackingField
     // Size: 0x4
     // Offset: 0x48
     System::Net::Sockets::SocketAsyncOperation LastOperation;
     // Field size check
     static_assert(sizeof(System::Net::Sockets::SocketAsyncOperation) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCB7CF8
+    // [CompilerGeneratedAttribute] Offset: 0xCA11AC
     // private System.Int32 <SendPacketsSendSize>k__BackingField
     // Size: 0x4
     // Offset: 0x4C
     int SendPacketsSendSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCB7D08
+    // [CompilerGeneratedAttribute] Offset: 0xCA11BC
     // private System.Net.Sockets.SocketError <SocketError>k__BackingField
     // Size: 0x4
     // Offset: 0x50
@@ -133,14 +133,14 @@ namespace System::Net::Sockets {
     static_assert(sizeof(System::Net::Sockets::SocketError) == 0x4);
     // Padding between fields: SocketError and: UserToken
     char __padding11[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xCB7D18
+    // [CompilerGeneratedAttribute] Offset: 0xCA11CC
     // private System.Object <UserToken>k__BackingField
     // Size: 0x8
     // Offset: 0x58
     ::Il2CppObject* UserToken;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCB7D28
+    // [CompilerGeneratedAttribute] Offset: 0xCA11DC
     // private System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> Completed
     // Size: 0x8
     // Offset: 0x60
@@ -154,58 +154,61 @@ namespace System::Net::Sockets {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Net.Sockets.Socket get_AcceptSocket()
-    // Offset: 0x143130C
+    // Offset: 0x1400FB8
     System::Net::Sockets::Socket* get_AcceptSocket();
     // public System.Void set_AcceptSocket(System.Net.Sockets.Socket value)
-    // Offset: 0x1431314
+    // Offset: 0x1400FC0
     void set_AcceptSocket(System::Net::Sockets::Socket* value);
     // public System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> get_BufferList()
-    // Offset: 0x143131C
+    // Offset: 0x1400FC8
     System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* get_BufferList();
     // System.Void set_BytesTransferred(System.Int32 value)
-    // Offset: 0x1431324
+    // Offset: 0x1400FD0
     void set_BytesTransferred(int value);
     // public System.Int32 get_Count()
-    // Offset: 0x143132C
+    // Offset: 0x1400FD8
     int get_Count();
     // private System.Void set_LastOperation(System.Net.Sockets.SocketAsyncOperation value)
-    // Offset: 0x1431334
+    // Offset: 0x1400FE0
     void set_LastOperation(System::Net::Sockets::SocketAsyncOperation value);
     // public System.Void set_SendPacketsSendSize(System.Int32 value)
-    // Offset: 0x143133C
+    // Offset: 0x1400FE8
     void set_SendPacketsSendSize(int value);
     // public System.Net.Sockets.SocketError get_SocketError()
-    // Offset: 0x1431344
+    // Offset: 0x1400FF0
     System::Net::Sockets::SocketError get_SocketError();
     // public System.Void set_SocketError(System.Net.Sockets.SocketError value)
-    // Offset: 0x143134C
+    // Offset: 0x1400FF8
     void set_SocketError(System::Net::Sockets::SocketError value);
     // public System.Object get_UserToken()
-    // Offset: 0x1431354
+    // Offset: 0x1401000
     ::Il2CppObject* get_UserToken();
     // public System.Void set_UserToken(System.Object value)
-    // Offset: 0x143135C
+    // Offset: 0x1401008
     void set_UserToken(::Il2CppObject* value);
     // public System.Void add_Completed(System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> value)
-    // Offset: 0x1431364
+    // Offset: 0x1401010
     void add_Completed(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>* value);
     // public System.Void remove_Completed(System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> value)
-    // Offset: 0x1431408
+    // Offset: 0x14010B4
     void remove_Completed(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>* value);
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1431564
+    // Offset: 0x1401204
     void Dispose(bool disposing);
+    // public System.Void Dispose()
+    // Offset: 0x1401218
+    void Dispose_NEW();
     // System.Void SetLastOperation(System.Net.Sockets.SocketAsyncOperation op)
-    // Offset: 0x14315EC
+    // Offset: 0x140128C
     void SetLastOperation(System::Net::Sockets::SocketAsyncOperation op);
     // System.Void Complete()
-    // Offset: 0x142F17C
+    // Offset: 0x13FF170
     void Complete();
     // protected System.Void OnCompleted(System.Net.Sockets.SocketAsyncEventArgs e)
-    // Offset: 0x14316C8
-    void OnCompleted(System::Net::Sockets::SocketAsyncEventArgs* e);
+    // Offset: 0x1401368
+    void OnCompleted_NEW(System::Net::Sockets::SocketAsyncEventArgs* e);
     // public System.Void .ctor()
-    // Offset: 0x14314AC
+    // Offset: 0x1401158
     // Implemented from: System.EventArgs
     // Base method: System.Void EventArgs::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -215,18 +218,10 @@ namespace System::Net::Sockets {
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncEventArgs*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1431554
+    // Offset: 0x14011F4
     // Implemented from: System.Object
-    // Base method: System.Void Object::Finalize()
+    // Base method: System.Void Object::Finalize_NEW()
     void Finalize();
-    // public System.Void Dispose()
-    // Offset: 0x1431578
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose();
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose();
   }; // System.Net.Sockets.SocketAsyncEventArgs
   #pragma pack(pop)
   static check_size<sizeof(SocketAsyncEventArgs), 96 + sizeof(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*)> __System_Net_Sockets_SocketAsyncEventArgsSizeCheck;

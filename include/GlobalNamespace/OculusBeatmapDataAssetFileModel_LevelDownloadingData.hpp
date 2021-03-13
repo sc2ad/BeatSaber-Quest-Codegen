@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelDownloadingData
     LevelDownloadingData(::Il2CppString* levelId_ = {}, ::Il2CppString* assetBundlePath_ = {}, System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* downloadAssetBundleFileTCS_ = {}) noexcept : levelId{levelId_}, assetBundlePath{assetBundlePath_}, downloadAssetBundleFileTCS{downloadAssetBundleFileTCS_} {}
     // public System.Void .ctor(System.String levelId, System.String assetBundlePath)
-    // Offset: 0x10F7D44
+    // Offset: 0x10CD4B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusBeatmapDataAssetFileModel::LevelDownloadingData* New_ctor(::Il2CppString* levelId, ::Il2CppString* assetBundlePath) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData::.ctor");

@@ -58,32 +58,38 @@ namespace System::Net {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x14465B4
+    // Offset: 0x1414DC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebResponse* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebResponse*, creationType>(serializationInfo, streamingContext)));
     }
+    // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
+    // Offset: 0x1414DD0
+    void System_Runtime_Serialization_ISerializable_GetObjectData_NEW(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // protected System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x14465C8
-    void GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
+    // Offset: 0x1414DDC
+    void GetObjectData_NEW(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // public System.Void Close()
-    // Offset: 0x14465CC
-    void Close();
+    // Offset: 0x1414DE0
+    void Close_NEW();
+    // public System.Void Dispose()
+    // Offset: 0x1414DE4
+    void Dispose_NEW();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x144664C
-    void Dispose(bool disposing);
+    // Offset: 0x1414E60
+    void Dispose_NEW(bool disposing);
     // public System.IO.Stream GetResponseStream()
-    // Offset: 0x1446724
-    System::IO::Stream* GetResponseStream();
+    // Offset: 0x1414F38
+    System::IO::Stream* GetResponseStream_NEW();
     // public System.Uri get_ResponseUri()
-    // Offset: 0x144676C
-    System::Uri* get_ResponseUri();
+    // Offset: 0x1414F80
+    System::Uri* get_ResponseUri_NEW();
     // public System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x14467B4
-    System::Net::WebHeaderCollection* get_Headers();
+    // Offset: 0x1414FC8
+    System::Net::WebHeaderCollection* get_Headers_NEW();
     // protected System.Void .ctor()
-    // Offset: 0x14465AC
+    // Offset: 0x1414DC0
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -92,19 +98,6 @@ namespace System::Net {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebResponse*, creationType>()));
     }
-    // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x14465BC
-    // Implemented from: System.Runtime.Serialization.ISerializable
-    // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
-    // public System.Void Dispose()
-    // Offset: 0x14465D0
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose();
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose();
   }; // System.Net.WebResponse
   #pragma pack(pop)
 }

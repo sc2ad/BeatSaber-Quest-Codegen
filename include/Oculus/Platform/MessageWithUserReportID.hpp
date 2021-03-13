@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithUserReportID
     MessageWithUserReportID() noexcept {}
     // protected Oculus.Platform.Models.UserReportID GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x13F1744
+    // Offset: 0x138C1AC
     Oculus::Platform::Models::UserReportID* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x13F16A0
+    // Offset: 0x138C108
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,9 +41,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithUserReportID*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.UserReportID GetUserReportID()
-    // Offset: 0x13F1700
+    // Offset: 0x138C168
     // Implemented from: Oculus.Platform.Message
-    // Base method: Oculus.Platform.Models.UserReportID Message::GetUserReportID()
+    // Base method: Oculus.Platform.Models.UserReportID Message::GetUserReportID_NEW()
     Oculus::Platform::Models::UserReportID* GetUserReportID();
   }; // Oculus.Platform.MessageWithUserReportID
 }

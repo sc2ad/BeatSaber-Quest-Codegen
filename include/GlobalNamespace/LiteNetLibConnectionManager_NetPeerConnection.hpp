@@ -73,53 +73,41 @@ namespace GlobalNamespace {
     operator System::IEquatable_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>*>(this);
     }
+    // public System.String get_userId()
+    // Offset: 0x1217D98
+    ::Il2CppString* get_userId_NEW();
+    // public System.String get_userName()
+    // Offset: 0x1217DA0
+    ::Il2CppString* get_userName_NEW();
+    // public System.Boolean get_isConnectionOwner()
+    // Offset: 0x1217DA8
+    bool get_isConnectionOwner_NEW();
     // public System.Void .ctor(LiteNetLib.NetPeer netPeer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x11D88F4
+    // Offset: 0x1217264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LiteNetLibConnectionManager::NetPeerConnection* New_ctor(LiteNetLib::NetPeer* netPeer, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager::NetPeerConnection*, creationType>(netPeer, userId, userName, isConnectionOwner)));
     }
-    // public System.String get_userId()
-    // Offset: 0x11D94C4
-    // Implemented from: IConnection
-    // Base method: System.String IConnection::get_userId()
-    ::Il2CppString* get_userId();
-    // public System.String get_userName()
-    // Offset: 0x11D94CC
-    // Implemented from: IConnection
-    // Base method: System.String IConnection::get_userName()
-    ::Il2CppString* get_userName();
-    // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x11D94D4
-    // Implemented from: IConnection
-    // Base method: System.Boolean IConnection::get_isConnectionOwner()
-    bool get_isConnectionOwner();
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x11D94DC
-    // Implemented from: IConnection
-    // Base method: System.Void IConnection::Send(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    void Send(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod);
+    // Offset: 0x1217DB0
+    void Send_NEW(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Boolean Equals(LiteNetLibConnectionManager/NetPeerConnection other)
-    // Offset: 0x11D94F8
-    // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable_1::Equals(LiteNetLibConnectionManager/NetPeerConnection other)
-    bool Equals(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* other);
+    // Offset: 0x1217DCC
+    bool Equals_NEW(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* other);
+    // public System.Void Disconnect()
+    // Offset: 0x1216880
+    void Disconnect_NEW();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x11D9524
+    // Offset: 0x1217DF8
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object obj)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x11D9640
+    // Offset: 0x1217F14
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
-    // public System.Void Disconnect()
-    // Offset: 0x11D7EC0
-    // Implemented from: IConnection
-    // Base method: System.Void IConnection::Disconnect()
-    void Disconnect();
   }; // LiteNetLibConnectionManager/NetPeerConnection
   #pragma pack(pop)
   static check_size<sizeof(LiteNetLibConnectionManager::NetPeerConnection), 40 + sizeof(LiteNetLib::NetPeer*)> __GlobalNamespace_LiteNetLibConnectionManager_NetPeerConnectionSizeCheck;

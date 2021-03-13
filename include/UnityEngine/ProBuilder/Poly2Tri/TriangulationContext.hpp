@@ -42,7 +42,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [] Offset: FFFFFFFF
   class TriangulationContext : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD23B3C
+    // [CompilerGeneratedAttribute] Offset: 0xD0DFEC
     // private UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext <DebugContext>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -61,7 +61,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* Points;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD23B4C
+    // [CompilerGeneratedAttribute] Offset: 0xD0DFFC
     // private UnityEngine.ProBuilder.Poly2Tri.TriangulationMode <TriangulationMode>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -70,21 +70,21 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationMode) == 0x4);
     // Padding between fields: TriangulationMode and: Triangulatable
     char __padding3[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD23B5C
+    // [CompilerGeneratedAttribute] Offset: 0xD0E00C
     // private UnityEngine.ProBuilder.Poly2Tri.Triangulatable <Triangulatable>k__BackingField
     // Size: 0x8
     // Offset: 0x30
     UnityEngine::ProBuilder::Poly2Tri::Triangulatable* Triangulatable;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD23B6C
+    // [CompilerGeneratedAttribute] Offset: 0xD0E01C
     // private System.Int32 <StepCount>k__BackingField
     // Size: 0x4
     // Offset: 0x38
     int StepCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD23B7C
+    // [CompilerGeneratedAttribute] Offset: 0xD0E02C
     // private System.Boolean <IsDebugEnabled>k__BackingField
     // Size: 0x1
     // Offset: 0x3C
@@ -94,49 +94,49 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Creating value type constructor for type: TriangulationContext
     TriangulationContext(UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* DebugContext_ = {}, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* Triangles_ = {}, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* Points_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationMode TriangulationMode_ = {}, UnityEngine::ProBuilder::Poly2Tri::Triangulatable* Triangulatable_ = {}, int StepCount_ = {}, bool IsDebugEnabled_ = {}) noexcept : DebugContext{DebugContext_}, Triangles{Triangles_}, Points{Points_}, TriangulationMode{TriangulationMode_}, Triangulatable{Triangulatable_}, StepCount{StepCount_}, IsDebugEnabled{IsDebugEnabled_} {}
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext get_DebugContext()
-    // Offset: 0x227A5C0
+    // Offset: 0x212A0A8
     UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* get_DebugContext();
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationMode get_TriangulationMode()
-    // Offset: 0x227A5C8
+    // Offset: 0x212A0B0
     UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
     // protected System.Void set_TriangulationMode(UnityEngine.ProBuilder.Poly2Tri.TriangulationMode value)
-    // Offset: 0x227A5D0
+    // Offset: 0x212A0B8
     void set_TriangulationMode(UnityEngine::ProBuilder::Poly2Tri::TriangulationMode value);
     // public UnityEngine.ProBuilder.Poly2Tri.Triangulatable get_Triangulatable()
-    // Offset: 0x227A5D8
+    // Offset: 0x212A0C0
     UnityEngine::ProBuilder::Poly2Tri::Triangulatable* get_Triangulatable();
     // private System.Void set_Triangulatable(UnityEngine.ProBuilder.Poly2Tri.Triangulatable value)
-    // Offset: 0x227A5E0
+    // Offset: 0x212A0C8
     void set_Triangulatable(UnityEngine::ProBuilder::Poly2Tri::Triangulatable* value);
     // public System.Int32 get_StepCount()
-    // Offset: 0x227A5E8
+    // Offset: 0x212A0D0
     int get_StepCount();
     // private System.Void set_StepCount(System.Int32 value)
-    // Offset: 0x227A5F0
+    // Offset: 0x212A0D8
     void set_StepCount(int value);
     // public System.Void Done()
-    // Offset: 0x2274798
+    // Offset: 0x21244AC
     void Done();
     // public System.Void PrepareTriangulation(UnityEngine.ProBuilder.Poly2Tri.Triangulatable t)
-    // Offset: 0x2278BA8
-    void PrepareTriangulation(UnityEngine::ProBuilder::Poly2Tri::Triangulatable* t);
+    // Offset: 0x2128748
+    void PrepareTriangulation_NEW(UnityEngine::ProBuilder::Poly2Tri::Triangulatable* t);
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationConstraint NewConstraint(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint a, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint b)
     // Offset: 0xFFFFFFFF
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* NewConstraint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b);
+    UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* NewConstraint_NEW(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b);
     // public System.Void Update(System.String message)
-    // Offset: 0x2274B98
+    // Offset: 0x2124898
     void Update(::Il2CppString* message);
     // public System.Void Clear()
-    // Offset: 0x22788F4
-    void Clear();
+    // Offset: 0x21284B0
+    void Clear_NEW();
     // public System.Boolean get_IsDebugEnabled()
-    // Offset: 0x227A5F8
-    bool get_IsDebugEnabled();
+    // Offset: 0x212A0E0
+    bool get_IsDebugEnabled_NEW();
     // public UnityEngine.ProBuilder.Poly2Tri.DTSweepDebugContext get_DTDebugContext()
-    // Offset: 0x22748DC
+    // Offset: 0x21245F0
     UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* get_DTDebugContext();
     // protected System.Void .ctor()
-    // Offset: 0x22786AC
+    // Offset: 0x2128280
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

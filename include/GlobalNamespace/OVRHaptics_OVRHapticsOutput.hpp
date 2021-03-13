@@ -109,26 +109,26 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRHapticsOutput
     OVRHapticsOutput(bool m_lowLatencyMode_ = {}, bool m_paddingEnabled_ = {}, int m_prevSamplesQueued_ = {}, float m_prevSamplesQueuedTime_ = {}, int m_numPredictionHits_ = {}, int m_numPredictionMisses_ = {}, int m_numUnderruns_ = {}, System::Collections::Generic::List_1<GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*>* m_pendingClips_ = {}, uint m_controller_ = {}, GlobalNamespace::OVRNativeBuffer* m_nativeBuffer_ = {}, GlobalNamespace::OVRHapticsClip* m_paddingClip_ = {}) noexcept : m_lowLatencyMode{m_lowLatencyMode_}, m_paddingEnabled{m_paddingEnabled_}, m_prevSamplesQueued{m_prevSamplesQueued_}, m_prevSamplesQueuedTime{m_prevSamplesQueuedTime_}, m_numPredictionHits{m_numPredictionHits_}, m_numPredictionMisses{m_numPredictionMisses_}, m_numUnderruns{m_numUnderruns_}, m_pendingClips{m_pendingClips_}, m_controller{m_controller_}, m_nativeBuffer{m_nativeBuffer_}, m_paddingClip{m_paddingClip_} {}
     // public System.Void .ctor(System.UInt32 controller)
-    // Offset: 0x13A4280
+    // Offset: 0x173C6E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHaptics::OVRHapticsOutput* New_ctor(uint controller) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHaptics::OVRHapticsOutput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHaptics::OVRHapticsOutput*, creationType>(controller)));
     }
     // public System.Void Process()
-    // Offset: 0x13A45D8
+    // Offset: 0x173CA18
     void Process();
     // public System.Void Preempt(OVRHapticsClip clip)
-    // Offset: 0x13A559C
+    // Offset: 0x173D900
     void Preempt(GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Queue(OVRHapticsClip clip)
-    // Offset: 0x13A5664
+    // Offset: 0x173D9BC
     void Queue(GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Mix(OVRHapticsClip clip)
-    // Offset: 0x13A5714
+    // Offset: 0x173DA60
     void Mix(GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Clear()
-    // Offset: 0x13A5C14
+    // Offset: 0x173DF48
     void Clear();
   }; // OVRHaptics/OVRHapticsOutput
   #pragma pack(pop)

@@ -84,43 +84,43 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Creating value type constructor for type: RsaPrivateKeyStructure
     RsaPrivateKeyStructure(Org::BouncyCastle::Math::BigInteger* modulus_ = {}, Org::BouncyCastle::Math::BigInteger* publicExponent_ = {}, Org::BouncyCastle::Math::BigInteger* privateExponent_ = {}, Org::BouncyCastle::Math::BigInteger* prime1_ = {}, Org::BouncyCastle::Math::BigInteger* prime2_ = {}, Org::BouncyCastle::Math::BigInteger* exponent1_ = {}, Org::BouncyCastle::Math::BigInteger* exponent2_ = {}, Org::BouncyCastle::Math::BigInteger* coefficient_ = {}) noexcept : modulus{modulus_}, publicExponent{publicExponent_}, privateExponent{privateExponent_}, prime1{prime1_}, prime2{prime2_}, exponent1{exponent1_}, exponent2{exponent2_}, coefficient{coefficient_} {}
     // static public Org.BouncyCastle.Asn1.Pkcs.RsaPrivateKeyStructure GetInstance(System.Object obj)
-    // Offset: 0x16EB650
+    // Offset: 0x1605DC4
     static Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x16EB6F4
+    // Offset: 0x1605E68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaPrivateKeyStructure* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaPrivateKeyStructure*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_Modulus()
-    // Offset: 0x16EBAD4
+    // Offset: 0x16061EC
     Org::BouncyCastle::Math::BigInteger* get_Modulus();
     // public Org.BouncyCastle.Math.BigInteger get_PublicExponent()
-    // Offset: 0x16EBADC
+    // Offset: 0x16061F4
     Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
     // public Org.BouncyCastle.Math.BigInteger get_PrivateExponent()
-    // Offset: 0x16EBAE4
+    // Offset: 0x16061FC
     Org::BouncyCastle::Math::BigInteger* get_PrivateExponent();
     // public Org.BouncyCastle.Math.BigInteger get_Prime1()
-    // Offset: 0x16EBAEC
+    // Offset: 0x1606204
     Org::BouncyCastle::Math::BigInteger* get_Prime1();
     // public Org.BouncyCastle.Math.BigInteger get_Prime2()
-    // Offset: 0x16EBAF4
+    // Offset: 0x160620C
     Org::BouncyCastle::Math::BigInteger* get_Prime2();
     // public Org.BouncyCastle.Math.BigInteger get_Exponent1()
-    // Offset: 0x16EBAFC
+    // Offset: 0x1606214
     Org::BouncyCastle::Math::BigInteger* get_Exponent1();
     // public Org.BouncyCastle.Math.BigInteger get_Exponent2()
-    // Offset: 0x16EBB04
+    // Offset: 0x160621C
     Org::BouncyCastle::Math::BigInteger* get_Exponent2();
     // public Org.BouncyCastle.Math.BigInteger get_Coefficient()
-    // Offset: 0x16EBB0C
+    // Offset: 0x1606224
     Org::BouncyCastle::Math::BigInteger* get_Coefficient();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x16EBB14
+    // Offset: 0x160622C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
-    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
+    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object_NEW()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.Pkcs.RsaPrivateKeyStructure
   #pragma pack(pop)

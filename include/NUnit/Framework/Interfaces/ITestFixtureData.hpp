@@ -33,7 +33,7 @@ namespace NUnit::Framework::Interfaces {
     }
     // public System.Type[] get_TypeArgs()
     // Offset: 0xFFFFFFFF
-    ::Array<System::Type*>* get_TypeArgs();
+    ::Array<System::Type*>* get_TypeArgs_NEW();
   }; // NUnit.Framework.Interfaces.ITestFixtureData
   #pragma pack(pop)
 }

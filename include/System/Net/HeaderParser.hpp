@@ -31,21 +31,21 @@ namespace System::Net {
     // Creating value type constructor for type: HeaderParser
     HeaderParser() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x14F8164
+    // Offset: 0x1481C44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderParser* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HeaderParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderParser*, creationType>(object, method)));
     }
     // public System.String[] Invoke(System.String value)
-    // Offset: 0x14F8268
-    ::Array<::Il2CppString*>* Invoke(::Il2CppString* value);
+    // Offset: 0x1481D44
+    ::Array<::Il2CppString*>* Invoke_NEW(::Il2CppString* value);
     // public System.IAsyncResult BeginInvoke(System.String value, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x14F8628
-    System::IAsyncResult* BeginInvoke(::Il2CppString* value, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x14820E0
+    System::IAsyncResult* BeginInvoke_NEW(::Il2CppString* value, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.String[] EndInvoke(System.IAsyncResult result)
-    // Offset: 0x14F864C
-    ::Array<::Il2CppString*>* EndInvoke(System::IAsyncResult* result);
+    // Offset: 0x1482104
+    ::Array<::Il2CppString*>* EndInvoke_NEW(System::IAsyncResult* result);
   }; // System.Net.HeaderParser
   #pragma pack(pop)
 }

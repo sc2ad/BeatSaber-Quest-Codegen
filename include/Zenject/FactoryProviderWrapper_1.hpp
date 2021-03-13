@@ -55,17 +55,10 @@ namespace Zenject {
     }
     // public TContract Create()
     // Offset: 0xFFFFFFFF
-    // Implemented from: Zenject.IFactory`1
-    // Base method: TValue IFactory_1::Create()
-    TContract Create() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryProviderWrapper_1::Create");
+    TContract Create_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryProviderWrapper_1::Create_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TContract, false>(this, ___internal__method);
-    }
-    // Creating proxy method: Zenject_IFactory_1_Create
-    // Maps to method: Create
-    TContract Zenject_IFactory_1_Create() {
-      return Create();
     }
   }; // Zenject.FactoryProviderWrapper`1
   // Could not write size check! Type: Zenject.FactoryProviderWrapper`1 is generic, or has no fields that are valid for size checks!

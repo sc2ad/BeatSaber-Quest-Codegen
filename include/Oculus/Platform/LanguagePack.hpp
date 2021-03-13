@@ -31,10 +31,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: LanguagePack
     LanguagePack() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetDetails> GetCurrent()
-    // Offset: 0x13E1CF8
+    // Offset: 0x137BC34
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* GetCurrent();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetFileDownloadResult> SetCurrent(System.String tag)
-    // Offset: 0x13E1E04
+    // Offset: 0x137BD40
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* SetCurrent(::Il2CppString* tag);
   }; // Oculus.Platform.LanguagePack
   #pragma pack(pop)

@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithLivestreamingStatus
     MessageWithLivestreamingStatus() noexcept {}
     // protected Oculus.Platform.Models.LivestreamingStatus GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x13EC7B0
+    // Offset: 0x13871F0
     Oculus::Platform::Models::LivestreamingStatus* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x13E6D70
+    // Offset: 0x1380FF0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,9 +41,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLivestreamingStatus*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.LivestreamingStatus GetLivestreamingStatus()
-    // Offset: 0x13EC76C
+    // Offset: 0x13871AC
     // Implemented from: Oculus.Platform.Message
-    // Base method: Oculus.Platform.Models.LivestreamingStatus Message::GetLivestreamingStatus()
+    // Base method: Oculus.Platform.Models.LivestreamingStatus Message::GetLivestreamingStatus_NEW()
     Oculus::Platform::Models::LivestreamingStatus* GetLivestreamingStatus();
   }; // Oculus.Platform.MessageWithLivestreamingStatus
 }

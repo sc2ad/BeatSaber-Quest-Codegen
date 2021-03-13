@@ -73,50 +73,50 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: DerExternal
     DerExternal(Org::BouncyCastle::Asn1::DerObjectIdentifier* directReference_ = {}, Org::BouncyCastle::Asn1::DerInteger* indirectReference_ = {}, Org::BouncyCastle::Asn1::Asn1Object* dataValueDescriptor_ = {}, int encoding_ = {}, Org::BouncyCastle::Asn1::Asn1Object* externalContent_ = {}) noexcept : directReference{directReference_}, indirectReference{indirectReference_}, dataValueDescriptor{dataValueDescriptor_}, encoding{encoding_}, externalContent{externalContent_} {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector vector)
-    // Offset: 0x15FF188
+    // Offset: 0x153ED4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerExternal* New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector* vector) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerExternal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerExternal*, creationType>(vector)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Object get_DataValueDescriptor()
-    // Offset: 0x160EFE4
+    // Offset: 0x154E1E0
     Org::BouncyCastle::Asn1::Asn1Object* get_DataValueDescriptor();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_DirectReference()
-    // Offset: 0x160EFEC
+    // Offset: 0x154E1E8
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DirectReference();
     // public System.Int32 get_Encoding()
-    // Offset: 0x160EFF4
+    // Offset: 0x154E1F0
     int get_Encoding();
     // public System.Void set_Encoding(System.Int32 value)
-    // Offset: 0x160EC44
+    // Offset: 0x154DE4C
     void set_Encoding(int value);
     // public Org.BouncyCastle.Asn1.Asn1Object get_ExternalContent()
-    // Offset: 0x160EFFC
+    // Offset: 0x154E1F8
     Org::BouncyCastle::Asn1::Asn1Object* get_ExternalContent();
     // public Org.BouncyCastle.Asn1.DerInteger get_IndirectReference()
-    // Offset: 0x160F004
+    // Offset: 0x154E200
     Org::BouncyCastle::Asn1::DerInteger* get_IndirectReference();
     // static private Org.BouncyCastle.Asn1.Asn1Object GetObjFromVector(Org.BouncyCastle.Asn1.Asn1EncodableVector v, System.Int32 index)
-    // Offset: 0x160EB84
+    // Offset: 0x154DD8C
     static Org::BouncyCastle::Asn1::Asn1Object* GetObjFromVector(Org::BouncyCastle::Asn1::Asn1EncodableVector* v, int index);
     // static private System.Void WriteEncodable(System.IO.MemoryStream ms, Org.BouncyCastle.Asn1.Asn1Encodable e)
-    // Offset: 0x160EE24
+    // Offset: 0x154E020
     static void WriteEncodable(System::IO::MemoryStream* ms, Org::BouncyCastle::Asn1::Asn1Encodable* e);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x160ED10
+    // Offset: 0x154DF18
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
-    // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
+    // Base method: System.Void Asn1Object::Encode_NEW(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x160EE80
+    // Offset: 0x154E07C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
-    // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
+    // Base method: System.Int32 Asn1Object::Asn1GetHashCode_NEW()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x160EEE8
+    // Offset: 0x154E0E4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
-    // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
+    // Base method: System.Boolean Asn1Object::Asn1Equals_NEW(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
   }; // Org.BouncyCastle.Asn1.DerExternal
   #pragma pack(pop)

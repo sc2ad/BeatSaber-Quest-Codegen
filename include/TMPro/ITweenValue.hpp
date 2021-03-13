@@ -16,16 +16,16 @@ namespace TMPro {
     ITweenValue() noexcept {}
     // public System.Void TweenValue(System.Single floatPercentage)
     // Offset: 0xFFFFFFFF
-    void TweenValue(float floatPercentage);
+    void TweenValue_NEW(float floatPercentage);
     // public System.Boolean get_ignoreTimeScale()
     // Offset: 0xFFFFFFFF
-    bool get_ignoreTimeScale();
+    bool get_ignoreTimeScale_NEW();
     // public System.Single get_duration()
     // Offset: 0xFFFFFFFF
-    float get_duration();
+    float get_duration_NEW();
     // public System.Boolean ValidTarget()
     // Offset: 0xFFFFFFFF
-    bool ValidTarget();
+    bool ValidTarget_NEW();
   }; // TMPro.ITweenValue
   #pragma pack(pop)
 }

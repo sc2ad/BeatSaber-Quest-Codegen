@@ -22,7 +22,7 @@ namespace System::Net::Configuration {
     // Creating value type constructor for type: NetSectionGroup
     NetSectionGroup() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x155BAE0
+    // Offset: 0x14C48B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

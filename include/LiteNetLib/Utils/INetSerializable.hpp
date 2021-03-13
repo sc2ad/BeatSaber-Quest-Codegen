@@ -25,10 +25,10 @@ namespace LiteNetLib::Utils {
     INetSerializable() noexcept {}
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF
-    void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    void Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0xFFFFFFFF
-    void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    void Deserialize_NEW(LiteNetLib::Utils::NetDataReader* reader);
   }; // LiteNetLib.Utils.INetSerializable
   #pragma pack(pop)
 }

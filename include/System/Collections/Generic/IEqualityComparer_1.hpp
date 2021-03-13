@@ -20,16 +20,16 @@ namespace System::Collections::Generic {
     IEqualityComparer_1() noexcept {}
     // public System.Boolean Equals(T x, T y)
     // Offset: 0xFFFFFFFF
-    bool Equals(T x, T y) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IEqualityComparer_1::Equals");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(x, y)));
+    bool Equals_NEW(T x, T y) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IEqualityComparer_1::Equals_NEW");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(x, y)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, x, y);
     }
     // public System.Int32 GetHashCode(T obj)
     // Offset: 0xFFFFFFFF
-    int GetHashCode(T obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IEqualityComparer_1::GetHashCode");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(obj)));
+    int GetHashCode_NEW(T obj) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IEqualityComparer_1::GetHashCode_NEW");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(obj)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, obj);
     }
   }; // System.Collections.Generic.IEqualityComparer`1

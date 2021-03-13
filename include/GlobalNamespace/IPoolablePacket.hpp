@@ -16,7 +16,7 @@ namespace GlobalNamespace {
     IPoolablePacket() noexcept {}
     // public System.Void Release()
     // Offset: 0xFFFFFFFF
-    void Release();
+    void Release_NEW();
   }; // IPoolablePacket
   #pragma pack(pop)
 }

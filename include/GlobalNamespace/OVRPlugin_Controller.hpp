@@ -87,24 +87,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Controller _get_Hands();
     // Set static field: static public OVRPlugin/Controller Hands
     static void _set_Hands(GlobalNamespace::OVRPlugin::Controller value);
-    // static field const value: static public OVRPlugin/Controller Touchpad
-    static constexpr const int Touchpad = 134217728;
-    // Get static field: static public OVRPlugin/Controller Touchpad
-    static GlobalNamespace::OVRPlugin::Controller _get_Touchpad();
-    // Set static field: static public OVRPlugin/Controller Touchpad
-    static void _set_Touchpad(GlobalNamespace::OVRPlugin::Controller value);
-    // static field const value: static public OVRPlugin/Controller LTrackedRemote
-    static constexpr const int LTrackedRemote = 16777216;
-    // Get static field: static public OVRPlugin/Controller LTrackedRemote
-    static GlobalNamespace::OVRPlugin::Controller _get_LTrackedRemote();
-    // Set static field: static public OVRPlugin/Controller LTrackedRemote
-    static void _set_LTrackedRemote(GlobalNamespace::OVRPlugin::Controller value);
-    // static field const value: static public OVRPlugin/Controller RTrackedRemote
-    static constexpr const int RTrackedRemote = 33554432;
-    // Get static field: static public OVRPlugin/Controller RTrackedRemote
-    static GlobalNamespace::OVRPlugin::Controller _get_RTrackedRemote();
-    // Set static field: static public OVRPlugin/Controller RTrackedRemote
-    static void _set_RTrackedRemote(GlobalNamespace::OVRPlugin::Controller value);
     // static field const value: static public OVRPlugin/Controller Active
     static constexpr const int Active = -2147483648;
     // Get static field: static public OVRPlugin/Controller Active

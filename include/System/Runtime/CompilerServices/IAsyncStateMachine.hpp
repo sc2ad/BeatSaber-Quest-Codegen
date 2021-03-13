@@ -16,10 +16,10 @@ namespace System::Runtime::CompilerServices {
     IAsyncStateMachine() noexcept {}
     // public System.Void MoveNext()
     // Offset: 0xFFFFFFFF
-    void MoveNext();
+    void MoveNext_NEW();
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
-    void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+    void SetStateMachine_NEW(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Runtime.CompilerServices.IAsyncStateMachine
   #pragma pack(pop)
 }

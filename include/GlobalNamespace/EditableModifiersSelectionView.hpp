@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class EditableModifiersSelectionView : public GlobalNamespace::ModifiersSelectionView {
     public:
-    // [SpaceAttribute] Offset: 0xD43DE0
+    // [SpaceAttribute] Offset: 0xD301A4
     // private UnityEngine.UI.Button _editButton
     // Size: 0x8
     // Offset: 0x30
@@ -72,24 +72,24 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EditableModifiersSelectionView
     EditableModifiersSelectionView(UnityEngine::UI::Button* editButton_ = {}, UnityEngine::UI::Button* clearButton_ = {}, bool showClearButton_ = {}, UnityEngine::CanvasGroup* modifiersListCanvasGroup_ = {}, bool interactable_ = {}) noexcept : editButton{editButton_}, clearButton{clearButton_}, showClearButton{showClearButton_}, modifiersListCanvasGroup{modifiersListCanvasGroup_}, interactable{interactable_} {}
     // public UnityEngine.UI.Button get_editButton()
-    // Offset: 0x104ED98
+    // Offset: 0xFE295C
     UnityEngine::UI::Button* get_editButton();
     // public UnityEngine.UI.Button get_clearButton()
-    // Offset: 0x104EDA0
+    // Offset: 0xFE2964
     UnityEngine::UI::Button* get_clearButton();
     // public System.Boolean get_interactable()
-    // Offset: 0x104EDA8
+    // Offset: 0xFE296C
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x103E67C
+    // Offset: 0xFD1D68
     void set_interactable(bool value);
     // public override System.Void SetGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0x104EDB0
+    // Offset: 0xFE2974
     // Implemented from: ModifiersSelectionView
-    // Base method: System.Void ModifiersSelectionView::SetGameplayModifiers(GameplayModifiers gameplayModifiers)
+    // Base method: System.Void ModifiersSelectionView::SetGameplayModifiers_NEW(GameplayModifiers gameplayModifiers)
     void SetGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void .ctor()
-    // Offset: 0x104EE20
+    // Offset: 0xFE29E4
     // Implemented from: ModifiersSelectionView
     // Base method: System.Void ModifiersSelectionView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

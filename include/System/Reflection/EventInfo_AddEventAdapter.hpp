@@ -34,21 +34,21 @@ namespace System::Reflection {
     // Creating value type constructor for type: AddEventAdapter
     AddEventAdapter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19465CC
+    // Offset: 0x1AC4204
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventInfo::AddEventAdapter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::EventInfo::AddEventAdapter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventInfo::AddEventAdapter*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object _this, System.Delegate dele)
-    // Offset: 0x19465E0
-    void Invoke(::Il2CppObject* _this, System::Delegate* dele);
+    // Offset: 0x1AC4214
+    void Invoke_NEW(::Il2CppObject* _this, System::Delegate* dele);
     // public System.IAsyncResult BeginInvoke(System.Object _this, System.Delegate dele, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19469E4
-    System::IAsyncResult* BeginInvoke(::Il2CppObject* _this, System::Delegate* dele, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x1AC45FC
+    System::IAsyncResult* BeginInvoke_NEW(::Il2CppObject* _this, System::Delegate* dele, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1946A14
-    void EndInvoke(System::IAsyncResult* result);
+    // Offset: 0x1AC462C
+    void EndInvoke_NEW(System::IAsyncResult* result);
   }; // System.Reflection.EventInfo/AddEventAdapter
   #pragma pack(pop)
 }

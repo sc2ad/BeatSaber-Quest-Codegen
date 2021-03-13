@@ -46,14 +46,14 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD1C1CC
+    // [CompilerGeneratedAttribute] Offset: 0xD060C0
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1C1DC
+    // [CompilerGeneratedAttribute] Offset: 0xD060D0
     // private System.String <userName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -131,50 +131,40 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static public PacketPool`1<MasterServer.BroadcastServerStatusRequest> get_pool()
-    // Offset: 0x11198A0
+    // Offset: 0x1283F5C
     static GlobalNamespace::PacketPool_1<MasterServer::BroadcastServerStatusRequest*>* get_pool();
+    // public System.String get_userId()
+    // Offset: 0x1283FA4
+    ::Il2CppString* get_userId_NEW();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x11198F0
+    // Offset: 0x1283FAC
     void set_userId(::Il2CppString* value);
+    // public System.String get_userName()
+    // Offset: 0x1283FB4
+    ::Il2CppString* get_userName_NEW();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x1119900
+    // Offset: 0x1283FBC
     void set_userName(::Il2CppString* value);
     // public MasterServer.BroadcastServerStatusRequest Init(System.String serverName, System.String userId, System.String userName, System.String secret, System.String password, System.Byte[] random, System.Byte[] publicKey, System.Int32 currentPlayerCount, System.Int32 maxPlayerCount, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, GameplayServerConfiguration configuration)
-    // Offset: 0x1119BD4
+    // Offset: 0x1284248
     MasterServer::BroadcastServerStatusRequest* Init(::Il2CppString* serverName, ::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret, ::Il2CppString* password, ::Array<uint8_t>* random, ::Array<uint8_t>* publicKey, int currentPlayerCount, int maxPlayerCount, GlobalNamespace::DiscoveryPolicy discoveryPolicy, GlobalNamespace::InvitePolicy invitePolicy, GlobalNamespace::GameplayServerConfiguration configuration);
-    // public System.String get_userId()
-    // Offset: 0x11198E8
-    // Implemented from: MasterServer.IUserClientToServerMessage
-    // Base method: System.String IUserClientToServerMessage::get_userId()
-    ::Il2CppString* get_userId();
-    // public System.String get_userName()
-    // Offset: 0x11198F8
-    // Implemented from: MasterServer.IUserClientToServerMessage
-    // Base method: System.String IUserClientToServerMessage::get_userName()
-    ::Il2CppString* get_userName();
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1119908
+    // Offset: 0x1283FC4
     // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Base method: System.Void BaseMasterServerReliableRequest::Serialize_NEW(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Serialize
-    // Maps to method: Serialize
-    void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x11199FC
+    // Offset: 0x12840B8
     // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize_NEW(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Deserialize
-    // Maps to method: Deserialize
-    void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x1119B58
+    // Offset: 0x12841CC
     // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Release()
+    // Base method: System.Void BaseMasterServerReliableRequest::Release_NEW()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1119CD8
+    // Offset: 0x12842D4
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

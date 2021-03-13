@@ -47,37 +47,32 @@ namespace Oculus::Platform {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(System.IntPtr packetHandle)
-    // Offset: 0x13F2EDC
+    // Offset: 0x138D994
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Packet* New_ctor(System::IntPtr packetHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Packet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Packet*, creationType>(packetHandle)));
     }
     // public System.UInt64 ReadBytes(System.Byte[] destination)
-    // Offset: 0x13F418C
+    // Offset: 0x138EC44
     uint64_t ReadBytes(::Array<uint8_t>* destination);
     // public System.UInt64 get_SenderID()
-    // Offset: 0x13F42E0
+    // Offset: 0x138ED98
     uint64_t get_SenderID();
     // public System.UInt64 get_Size()
-    // Offset: 0x13F434C
+    // Offset: 0x138EE04
     uint64_t get_Size();
     // public Oculus.Platform.SendPolicy get_Policy()
-    // Offset: 0x13F4354
+    // Offset: 0x138EE0C
     Oculus::Platform::SendPolicy get_Policy();
-    // protected override System.Void Finalize()
-    // Offset: 0x13F43C0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::Finalize()
-    void Finalize();
     // public System.Void Dispose()
-    // Offset: 0x13F4428
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose();
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose();
+    // Offset: 0x138EEE0
+    void Dispose_NEW();
+    // protected override System.Void Finalize()
+    // Offset: 0x138EE78
+    // Implemented from: System.Object
+    // Base method: System.Void Object::Finalize_NEW()
+    void Finalize();
   }; // Oculus.Platform.Packet
   #pragma pack(pop)
   static check_size<sizeof(Packet), 24 + sizeof(System::IntPtr)> __Oculus_Platform_PacketSizeCheck;

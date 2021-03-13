@@ -82,7 +82,7 @@ namespace HMUI {
     HMUI::TitleViewController* titleViewController;
     // Field size check
     static_assert(sizeof(HMUI::TitleViewController*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD18DE0
+    // [CompilerGeneratedAttribute] Offset: 0xD02B48
     // private System.Action backButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x50
@@ -108,43 +108,43 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public HMUI.TitleViewController get_titleViewController()
-    // Offset: 0x11BAE18
+    // Offset: 0x11F9F4C
     HMUI::TitleViewController* get_titleViewController();
     // public HMUI.Screen get_mainScreen()
-    // Offset: 0x11BAE20
+    // Offset: 0x11F9F54
     HMUI::Screen* get_mainScreen();
     // public HMUI.Screen get_leftScreen()
-    // Offset: 0x11BAE28
+    // Offset: 0x11F9F5C
     HMUI::Screen* get_leftScreen();
     // public HMUI.Screen get_rightScreen()
-    // Offset: 0x11BAE30
+    // Offset: 0x11F9F64
     HMUI::Screen* get_rightScreen();
     // public HMUI.Screen get_bottomScreen()
-    // Offset: 0x11BAE38
+    // Offset: 0x11F9F6C
     HMUI::Screen* get_bottomScreen();
     // public HMUI.Screen get_topScreen()
-    // Offset: 0x11BAE40
+    // Offset: 0x11F9F74
     HMUI::Screen* get_topScreen();
     // public System.Void add_backButtonWasPressedEvent(System.Action value)
-    // Offset: 0x11BAE48
+    // Offset: 0x11F9F7C
     void add_backButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_backButtonWasPressedEvent(System.Action value)
-    // Offset: 0x11BAEEC
+    // Offset: 0x11FA020
     void remove_backButtonWasPressedEvent(System::Action* value);
     // private System.Void Awake()
-    // Offset: 0x11BAF90
+    // Offset: 0x11FA0C4
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x11BB054
+    // Offset: 0x11FA174
     void OnDestroy();
     // public System.Void SetBackButton(System.Boolean visible, System.Boolean animated)
-    // Offset: 0x11BB070
+    // Offset: 0x11FA190
     void SetBackButton(bool visible, bool animated);
     // private System.Void <Awake>b__24_0()
-    // Offset: 0x11BB0B4
+    // Offset: 0x11FA1D4
     void $Awake$b__24_0();
     // public System.Void .ctor()
-    // Offset: 0x11BB0AC
+    // Offset: 0x11FA1CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

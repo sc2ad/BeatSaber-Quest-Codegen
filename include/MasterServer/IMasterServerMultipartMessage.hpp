@@ -27,19 +27,19 @@ namespace MasterServer {
     }
     // public System.UInt32 get_multipartMessageId()
     // Offset: 0xFFFFFFFF
-    uint get_multipartMessageId();
+    uint get_multipartMessageId_NEW();
     // public System.Int32 get_offset()
     // Offset: 0xFFFFFFFF
-    int get_offset();
+    int get_offset_NEW();
     // public System.Int32 get_length()
     // Offset: 0xFFFFFFFF
-    int get_length();
+    int get_length_NEW();
     // public System.Int32 get_totalLength()
     // Offset: 0xFFFFFFFF
-    int get_totalLength();
+    int get_totalLength_NEW();
     // public System.Byte[] get_data()
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* get_data();
+    ::Array<uint8_t>* get_data_NEW();
   }; // MasterServer.IMasterServerMultipartMessage
   #pragma pack(pop)
 }

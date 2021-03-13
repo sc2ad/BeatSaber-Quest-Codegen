@@ -36,14 +36,14 @@ namespace MasterServer {
   // [] Offset: FFFFFFFF
   class BroadcastServerHeartbeatRequest : public ::Il2CppObject/*, public MasterServer::IMasterServerUnreliableMessage, public MasterServer::IUserClientToServerMessage*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD1C1EC
+    // [CompilerGeneratedAttribute] Offset: 0xD060E0
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1C1FC
+    // [CompilerGeneratedAttribute] Offset: 0xD060F0
     // private System.String <userName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -73,50 +73,34 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IUserClientToServerMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.BroadcastServerHeartbeatRequest> get_pool()
-    // Offset: 0x1119384
+    // Offset: 0x1283B20
     static GlobalNamespace::PacketPool_1<MasterServer::BroadcastServerHeartbeatRequest*>* get_pool();
+    // public System.String get_userId()
+    // Offset: 0x1283B68
+    ::Il2CppString* get_userId_NEW();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x11193D4
+    // Offset: 0x1283B70
     void set_userId(::Il2CppString* value);
+    // public System.String get_userName()
+    // Offset: 0x1283B78
+    ::Il2CppString* get_userName_NEW();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x11193E4
+    // Offset: 0x1283B80
     void set_userName(::Il2CppString* value);
     // public MasterServer.BroadcastServerHeartbeatRequest Init(System.String userId, System.String userName, System.String secret, System.Int32 currentPlayerCount)
-    // Offset: 0x11193EC
+    // Offset: 0x1283B88
     MasterServer::BroadcastServerHeartbeatRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret, int currentPlayerCount);
-    // public System.String get_userId()
-    // Offset: 0x11193CC
-    // Implemented from: MasterServer.IUserClientToServerMessage
-    // Base method: System.String IUserClientToServerMessage::get_userId()
-    ::Il2CppString* get_userId();
-    // public System.String get_userName()
-    // Offset: 0x11193DC
-    // Implemented from: MasterServer.IUserClientToServerMessage
-    // Base method: System.String IUserClientToServerMessage::get_userName()
-    ::Il2CppString* get_userName();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x111944C
-    // Implemented from: LiteNetLib.Utils.INetSerializable
-    // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Serialize
-    // Maps to method: Serialize
-    void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // Offset: 0x1283B98
+    void Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x11194B0
-    // Implemented from: LiteNetLib.Utils.INetSerializable
-    // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Deserialize
-    // Maps to method: Deserialize
-    void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    // Offset: 0x1283BFC
+    void Deserialize_NEW(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x111953C
-    // Implemented from: IPoolablePacket
-    // Base method: System.Void IPoolablePacket::Release()
-    void Release();
+    // Offset: 0x1283C64
+    void Release_NEW();
     // public System.Void .ctor()
-    // Offset: 0x1119598
+    // Offset: 0x1283CC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

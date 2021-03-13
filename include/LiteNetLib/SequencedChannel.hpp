@@ -83,21 +83,21 @@ namespace LiteNetLib {
     // Creating value type constructor for type: SequencedChannel
     SequencedChannel(int localSequence_ = {}, uint16_t remoteSequence_ = {}, bool reliable_ = {}, LiteNetLib::NetPacket* lastPacket_ = {}, LiteNetLib::NetPacket* ackPacket_ = {}, bool mustSendAck_ = {}, uint8_t id_ = {}, int64_t lastPacketSendTime_ = {}) noexcept : localSequence{localSequence_}, remoteSequence{remoteSequence_}, reliable{reliable_}, lastPacket{lastPacket_}, ackPacket{ackPacket_}, mustSendAck{mustSendAck_}, id{id_}, lastPacketSendTime{lastPacketSendTime_} {}
     // public System.Void .ctor(LiteNetLib.NetPeer peer, System.Boolean reliable, System.Byte id)
-    // Offset: 0x1AA2FFC
+    // Offset: 0x19F5490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SequencedChannel* New_ctor(LiteNetLib::NetPeer* peer, bool reliable, uint8_t id) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::SequencedChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SequencedChannel*, creationType>(peer, reliable, id)));
     }
     // public override System.Void SendNextPackets()
-    // Offset: 0x1AA75CC
+    // Offset: 0x19F97E0
     // Implemented from: LiteNetLib.BaseChannel
-    // Base method: System.Void BaseChannel::SendNextPackets()
+    // Base method: System.Void BaseChannel::SendNextPackets_NEW()
     void SendNextPackets();
     // public override System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x1AA78D0
+    // Offset: 0x19F9AC0
     // Implemented from: LiteNetLib.BaseChannel
-    // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
+    // Base method: System.Boolean BaseChannel::ProcessPacket_NEW(LiteNetLib.NetPacket packet)
     bool ProcessPacket(LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.SequencedChannel
   #pragma pack(pop)

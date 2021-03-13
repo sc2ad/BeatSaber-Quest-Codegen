@@ -78,25 +78,25 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LeaderboardTableCell
     LeaderboardTableCell(TMPro::TextMeshProUGUI* rankText_ = {}, TMPro::TextMeshProUGUI* playerNameText_ = {}, TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* fullComboText_ = {}, UnityEngine::Color normalColor_ = {}, UnityEngine::Color specialScoreColor_ = {}, UnityEngine::UI::Image* separatorImage_ = {}) noexcept : rankText{rankText_}, playerNameText{playerNameText_}, scoreText{scoreText_}, fullComboText{fullComboText_}, normalColor{normalColor_}, specialScoreColor{specialScoreColor_}, separatorImage{separatorImage_} {}
     // public System.Void set_rank(System.Int32 value)
-    // Offset: 0xFD5360
+    // Offset: 0xFF77A8
     void set_rank(int value);
     // public System.Void set_playerName(System.String value)
-    // Offset: 0xFD53A4
+    // Offset: 0xFF77EC
     void set_playerName(::Il2CppString* value);
     // public System.Void set_score(System.Int32 value)
-    // Offset: 0xFD53C0
+    // Offset: 0xFF7808
     void set_score(int value);
     // public System.Void set_showSeparator(System.Boolean value)
-    // Offset: 0xFD5464
+    // Offset: 0xFF78AC
     void set_showSeparator(bool value);
     // public System.Void set_showFullCombo(System.Boolean value)
-    // Offset: 0xFD5484
+    // Offset: 0xFF78CC
     void set_showFullCombo(bool value);
     // public System.Void set_specialScore(System.Boolean value)
-    // Offset: 0xFD54A4
+    // Offset: 0xFF78EC
     void set_specialScore(bool value);
     // public System.Void .ctor()
-    // Offset: 0xFD55A8
+    // Offset: 0xFF79F0
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

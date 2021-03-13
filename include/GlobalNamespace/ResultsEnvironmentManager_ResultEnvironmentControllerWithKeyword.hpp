@@ -41,13 +41,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ResultEnvironmentControllerWithKeyword
     ResultEnvironmentControllerWithKeyword(::Il2CppString* keyword_ = {}, GlobalNamespace::BaseResultsEnvironmentController* resultsEnvironmentController_ = {}) noexcept : keyword{keyword_}, resultsEnvironmentController{resultsEnvironmentController_} {}
     // public System.String get_keyword()
-    // Offset: 0x107E1D0
+    // Offset: 0xFA539C
     ::Il2CppString* get_keyword();
     // public BaseResultsEnvironmentController get_resultsEnvironmentController()
-    // Offset: 0x107E1D8
+    // Offset: 0xFA53A4
     GlobalNamespace::BaseResultsEnvironmentController* get_resultsEnvironmentController();
     // public System.Void .ctor()
-    // Offset: 0x107E1E0
+    // Offset: 0xFA53AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

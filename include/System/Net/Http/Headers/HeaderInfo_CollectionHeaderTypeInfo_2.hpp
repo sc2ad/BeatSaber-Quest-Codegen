@@ -61,7 +61,7 @@ namespace System::Net::Http::Headers {
     // public override System.String get_Separator()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Net.Http.Headers.HeaderInfo
-    // Base method: System.String HeaderInfo::get_Separator()
+    // Base method: System.String HeaderInfo::get_Separator_NEW()
     ::Il2CppString* get_Separator() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::CollectionHeaderTypeInfo_2::get_Separator");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Separator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));

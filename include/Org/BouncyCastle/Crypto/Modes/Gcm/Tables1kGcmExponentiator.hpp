@@ -42,21 +42,17 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     constexpr operator System::Collections::IList*() const noexcept {
       return lookupPowX2;
     }
-    // private System.Void EnsureAvailable(System.Int32 bit)
-    // Offset: 0x17D9188
-    void EnsureAvailable(int bit);
     // public System.Void Init(System.Byte[] x)
-    // Offset: 0x17D8DA8
-    // Implemented from: Org.BouncyCastle.Crypto.Modes.Gcm.IGcmExponentiator
-    // Base method: System.Void IGcmExponentiator::Init(System.Byte[] x)
-    void Init(::Array<uint8_t>* x);
+    // Offset: 0x171E204
+    void Init_NEW(::Array<uint8_t>* x);
     // public System.Void ExponentiateX(System.Int64 pow, System.Byte[] output)
-    // Offset: 0x17D8FC8
-    // Implemented from: Org.BouncyCastle.Crypto.Modes.Gcm.IGcmExponentiator
-    // Base method: System.Void IGcmExponentiator::ExponentiateX(System.Int64 pow, System.Byte[] output)
-    void ExponentiateX(int64_t pow, ::Array<uint8_t>* output);
+    // Offset: 0x171E418
+    void ExponentiateX_NEW(int64_t pow, ::Array<uint8_t>* output);
+    // private System.Void EnsureAvailable(System.Int32 bit)
+    // Offset: 0x171E5D8
+    void EnsureAvailable(int bit);
     // public System.Void .ctor()
-    // Offset: 0x17D93F0
+    // Offset: 0x171E840
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

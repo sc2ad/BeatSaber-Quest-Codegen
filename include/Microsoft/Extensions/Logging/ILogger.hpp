@@ -19,13 +19,13 @@ namespace Microsoft::Extensions::Logging {
     ILogger() noexcept {}
     // public System.Void LogError(System.String message)
     // Offset: 0xFFFFFFFF
-    void LogError(::Il2CppString* message);
+    void LogError_NEW(::Il2CppString* message);
     // public System.Void LogInformation(System.String message)
     // Offset: 0xFFFFFFFF
-    void LogInformation(::Il2CppString* message);
+    void LogInformation_NEW(::Il2CppString* message);
     // public System.Void LogWarning(System.String message)
     // Offset: 0xFFFFFFFF
-    void LogWarning(::Il2CppString* message);
+    void LogWarning_NEW(::Il2CppString* message);
   }; // Microsoft.Extensions.Logging.ILogger
   #pragma pack(pop)
 }

@@ -52,51 +52,51 @@ namespace Mono::Security::X509 {
     // Creating value type constructor for type: X509Extension
     X509Extension(::Il2CppString* extnOid_ = {}, bool extnCritical_ = {}, Mono::Security::ASN1* extnValue_ = {}) noexcept : extnOid{extnOid_}, extnCritical{extnCritical_}, extnValue{extnValue_} {}
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x2293AF4
+    // Offset: 0x213DD60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(asn1)));
     }
     // public System.Void .ctor(Mono.Security.X509.X509Extension extension)
-    // Offset: 0x2293DD4
+    // Offset: 0x213E020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(Mono::Security::X509::X509Extension* extension) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(extension)));
     }
     // protected System.Void Decode()
-    // Offset: 0x2293F80
-    void Decode();
+    // Offset: 0x213E1B8
+    void Decode_NEW();
     // protected System.Void Encode()
-    // Offset: 0x2293F84
-    void Encode();
+    // Offset: 0x213E1BC
+    void Encode_NEW();
     // public System.String get_Oid()
-    // Offset: 0x2293F88
+    // Offset: 0x213E1C0
     ::Il2CppString* get_Oid();
     // public System.Boolean get_Critical()
-    // Offset: 0x2293F90
+    // Offset: 0x213E1C8
     bool get_Critical();
     // public Mono.Security.ASN1 get_Value()
-    // Offset: 0x2293F48
+    // Offset: 0x213E180
     Mono::Security::ASN1* get_Value();
     // private System.Void WriteLine(System.Text.StringBuilder sb, System.Int32 n, System.Int32 pos)
-    // Offset: 0x2294118
+    // Offset: 0x213E350
     void WriteLine(System::Text::StringBuilder* sb, int n, int pos);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2293F98
+    // Offset: 0x213E1D0
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object obj)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x22940F8
+    // Offset: 0x213E330
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2294324
+    // Offset: 0x213E55C
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
   }; // Mono.Security.X509.X509Extension
   #pragma pack(pop)

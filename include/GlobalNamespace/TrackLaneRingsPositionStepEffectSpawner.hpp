@@ -18,8 +18,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: TrackLaneRingsManager
   class TrackLaneRingsManager;
-  // Forward declaring type: BeatmapObjectCallbackController
-  class BeatmapObjectCallbackController;
+  // Forward declaring type: IBeatmapObjectCallbackController
+  class IBeatmapObjectCallbackController;
   // Forward declaring type: BeatmapEventData
   class BeatmapEventData;
 }
@@ -38,14 +38,14 @@ namespace GlobalNamespace {
     GlobalNamespace::TrackLaneRingsManager* trackLaneRingsManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TrackLaneRingsManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD395E8
+    // [SpaceAttribute] Offset: 0xD24CE0
     // private BeatmapEventType _beatmapEventType
     // Size: 0x4
     // Offset: 0x20
     GlobalNamespace::BeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xD39620
+    // [SpaceAttribute] Offset: 0xD24D18
     // private System.Single _minPositionStep
     // Size: 0x4
     // Offset: 0x24
@@ -64,13 +64,13 @@ namespace GlobalNamespace {
     float moveSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xD39678
-    // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // [InjectAttribute] Offset: 0xD24D70
+    // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
-    GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
+    GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
     // private System.Boolean _prevWasMinStep
     // Size: 0x1
     // Offset: 0x38
@@ -78,20 +78,20 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TrackLaneRingsPositionStepEffectSpawner
-    TrackLaneRingsPositionStepEffectSpawner(GlobalNamespace::TrackLaneRingsManager* trackLaneRingsManager_ = {}, GlobalNamespace::BeatmapEventType beatmapEventType_ = {}, float minPositionStep_ = {}, float maxPositionStep_ = {}, float moveSpeed_ = {}, GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, bool prevWasMinStep_ = {}) noexcept : trackLaneRingsManager{trackLaneRingsManager_}, beatmapEventType{beatmapEventType_}, minPositionStep{minPositionStep_}, maxPositionStep{maxPositionStep_}, moveSpeed{moveSpeed_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, prevWasMinStep{prevWasMinStep_} {}
+    TrackLaneRingsPositionStepEffectSpawner(GlobalNamespace::TrackLaneRingsManager* trackLaneRingsManager_ = {}, GlobalNamespace::BeatmapEventType beatmapEventType_ = {}, float minPositionStep_ = {}, float maxPositionStep_ = {}, float moveSpeed_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, bool prevWasMinStep_ = {}) noexcept : trackLaneRingsManager{trackLaneRingsManager_}, beatmapEventType{beatmapEventType_}, minPositionStep{minPositionStep_}, maxPositionStep{maxPositionStep_}, moveSpeed{moveSpeed_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, prevWasMinStep{prevWasMinStep_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF46774
+    // Offset: 0x1078044
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF46808
+    // Offset: 0x1078134
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xF468E4
+    // Offset: 0x1078234
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0xF46990
+    // Offset: 0x10782FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

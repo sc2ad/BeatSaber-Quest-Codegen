@@ -33,17 +33,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IOpenVRHaptics*>(this);
     }
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0x11180F0
-    // Implemented from: IOpenVRHaptics
-    // Base method: System.Void IOpenVRHaptics::TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    void TriggerHapticPulse(UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
+    // Offset: 0x211E48C
+    void TriggerHapticPulse_NEW(UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // public System.Void Destroy()
-    // Offset: 0x11181F8
-    // Implemented from: IOpenVRHaptics
-    // Base method: System.Void IOpenVRHaptics::Destroy()
-    void Destroy();
+    // Offset: 0x211E594
+    void Destroy_NEW();
     // public System.Void .ctor()
-    // Offset: 0x11181FC
+    // Offset: 0x211E598
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

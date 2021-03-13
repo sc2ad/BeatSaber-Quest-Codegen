@@ -23,10 +23,10 @@ namespace GlobalNamespace {
     }
     // public System.Void StartGame()
     // Offset: 0xFFFFFFFF
-    void StartGame();
+    void StartGame_NEW();
     // public System.Void CancelGame()
     // Offset: 0xFFFFFFFF
-    void CancelGame();
+    void CancelGame_NEW();
   }; // ILobbyHostGameStateController
   #pragma pack(pop)
 }

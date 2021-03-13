@@ -33,21 +33,21 @@ namespace UnityEngine {
     // Creating value type constructor for type: PCMSetPositionCallback
     PCMSetPositionCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x22BB100
+    // Offset: 0x216BC2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClip::PCMSetPositionCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AudioClip::PCMSetPositionCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClip::PCMSetPositionCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Int32 position)
-    // Offset: 0x22BAE50
-    void Invoke(int position);
+    // Offset: 0x216B98C
+    void Invoke_NEW(int position);
     // public System.IAsyncResult BeginInvoke(System.Int32 position, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x22BB114
-    System::IAsyncResult* BeginInvoke(int position, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x216BC3C
+    System::IAsyncResult* BeginInvoke_NEW(int position, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x22BB1A0
-    void EndInvoke(System::IAsyncResult* result);
+    // Offset: 0x216BCC8
+    void EndInvoke_NEW(System::IAsyncResult* result);
   }; // UnityEngine.AudioClip/PCMSetPositionCallback
   #pragma pack(pop)
 }

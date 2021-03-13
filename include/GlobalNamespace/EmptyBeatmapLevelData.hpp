@@ -31,14 +31,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class EmptyBeatmapLevelData : public ::Il2CppObject/*, public GlobalNamespace::IBeatmapLevelData*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD352E0
+    // [CompilerGeneratedAttribute] Offset: 0xD2053C
     // private readonly UnityEngine.AudioClip <audioClip>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::AudioClip* audioClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD352F0
+    // [CompilerGeneratedAttribute] Offset: 0xD2054C
     // private readonly IDifficultyBeatmapSet[] <difficultyBeatmapSets>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -52,17 +52,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelData*>(this);
     }
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x104F250
-    // Implemented from: IBeatmapLevelData
-    // Base method: UnityEngine.AudioClip IBeatmapLevelData::get_audioClip()
-    UnityEngine::AudioClip* get_audioClip();
+    // Offset: 0xFE2E0C
+    UnityEngine::AudioClip* get_audioClip_NEW();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x104F258
-    // Implemented from: IBeatmapLevelData
-    // Base method: IDifficultyBeatmapSet[] IBeatmapLevelData::get_difficultyBeatmapSets()
-    ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
+    // Offset: 0xFE2E14
+    ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets_NEW();
     // public System.Void .ctor()
-    // Offset: 0x104F248
+    // Offset: 0xFE2E04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

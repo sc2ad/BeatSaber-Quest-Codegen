@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Asn1 {
     }
     // public System.IO.Stream GetOctetStream()
     // Offset: 0xFFFFFFFF
-    System::IO::Stream* GetOctetStream();
+    System::IO::Stream* GetOctetStream_NEW();
   }; // Org.BouncyCastle.Asn1.Asn1OctetStringParser
   #pragma pack(pop)
 }

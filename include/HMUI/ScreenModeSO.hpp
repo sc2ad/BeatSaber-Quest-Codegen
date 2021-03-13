@@ -37,10 +37,10 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public HMUI.ScreenModeData get_data()
-    // Offset: 0x11BAE08
+    // Offset: 0x11F9F3C
     HMUI::ScreenModeData* get_data();
     // public System.Void .ctor()
-    // Offset: 0x11BAE10
+    // Offset: 0x11F9F44
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

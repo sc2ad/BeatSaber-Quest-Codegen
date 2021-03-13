@@ -29,7 +29,7 @@ namespace UnityEngine::EventSystems {
     }
     // public System.Void OnUpdateSelected(UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0xFFFFFFFF
-    void OnUpdateSelected(UnityEngine::EventSystems::BaseEventData* eventData);
+    void OnUpdateSelected_NEW(UnityEngine::EventSystems::BaseEventData* eventData);
   }; // UnityEngine.EventSystems.IUpdateSelectedHandler
   #pragma pack(pop)
 }

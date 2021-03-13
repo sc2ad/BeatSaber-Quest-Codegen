@@ -61,13 +61,13 @@ namespace System {
       return ::il2cpp_utils::RunMethodThrow<System::Tuple_4<T1, T2, T3, T4>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, item1, item2, item3, item4);
     }
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x19EE6D0
+    // Offset: 0x20D0B60
     static int CombineHashCodes(int h1, int h2);
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2, System.Int32 h3)
-    // Offset: 0x19EE6DC
+    // Offset: 0x20D0B6C
     static int CombineHashCodes(int h1, int h2, int h3);
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4)
-    // Offset: 0x19EE6F0
+    // Offset: 0x20D0B80
     static int CombineHashCodes(int h1, int h2, int h3, int h4);
   }; // System.Tuple
   #pragma pack(pop)

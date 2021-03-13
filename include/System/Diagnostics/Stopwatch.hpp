@@ -53,34 +53,34 @@ namespace System::Diagnostics {
     // Set static field: static public readonly System.Boolean IsHighResolution
     static void _set_IsHighResolution(bool value);
     // static public System.Int64 GetTimestamp()
-    // Offset: 0x179A750
+    // Offset: 0x16CAF34
     static int64_t GetTimestamp();
     // public System.TimeSpan get_Elapsed()
-    // Offset: 0x179A75C
+    // Offset: 0x16CAF40
     System::TimeSpan get_Elapsed();
     // public System.Int64 get_ElapsedMilliseconds()
-    // Offset: 0x179A8F8
+    // Offset: 0x16CB0DC
     int64_t get_ElapsedMilliseconds();
     // public System.Int64 get_ElapsedTicks()
-    // Offset: 0x179A878
+    // Offset: 0x16CB05C
     int64_t get_ElapsedTicks();
     // public System.Boolean get_IsRunning()
-    // Offset: 0x179AA04
+    // Offset: 0x16CB1E8
     bool get_IsRunning();
     // public System.Void Reset()
-    // Offset: 0x179AA0C
+    // Offset: 0x16CB1F0
     void Reset();
     // public System.Void Start()
-    // Offset: 0x179AA18
+    // Offset: 0x16CB1FC
     void Start();
     // public System.Void Stop()
-    // Offset: 0x179AA90
+    // Offset: 0x16CB274
     void Stop();
     // static private System.Void .cctor()
-    // Offset: 0x179AB18
+    // Offset: 0x16CB2FC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x179A754
+    // Offset: 0x16CAF38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

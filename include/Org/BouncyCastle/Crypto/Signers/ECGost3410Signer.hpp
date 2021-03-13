@@ -22,11 +22,6 @@ namespace Org::BouncyCastle::Security {
   // Forward declaring type: SecureRandom
   class SecureRandom;
 }
-// Forward declaring namespace: Org::BouncyCastle::Math::EC::Multiplier
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-  // Forward declaring type: ECMultiplier
-  class ECMultiplier;
-}
 // Forward declaring namespace: Org::BouncyCastle::Crypto
 namespace Org::BouncyCastle::Crypto {
   // Forward declaring type: ICipherParameters
@@ -36,6 +31,11 @@ namespace Org::BouncyCastle::Crypto {
 namespace Org::BouncyCastle::Math {
   // Forward declaring type: BigInteger
   class BigInteger;
+}
+// Forward declaring namespace: Org::BouncyCastle::Math::EC::Multiplier
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+  // Forward declaring type: ECMultiplier
+  class ECMultiplier;
 }
 // Completed forward declares
 // Type namespace: Org.BouncyCastle.Crypto.Signers
@@ -70,26 +70,20 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator Org::BouncyCastle::Crypto::IDsaExt() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDsaExt*>(this);
     }
-    // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0x1188370
-    Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1187C34
-    // Implemented from: Org.BouncyCastle.Crypto.IDsa
-    // Base method: System.Void IDsa::Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // Offset: 0x11675CC
+    void Init_NEW(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x1187DE4
-    // Implemented from: Org.BouncyCastle.Crypto.IDsaExt
-    // Base method: Org.BouncyCastle.Math.BigInteger IDsaExt::get_Order()
-    Org::BouncyCastle::Math::BigInteger* get_Order();
+    // Offset: 0x1167760
+    Org::BouncyCastle::Math::BigInteger* get_Order_NEW();
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0x1187E0C
-    // Implemented from: Org.BouncyCastle.Crypto.IDsa
-    // Base method: Org.BouncyCastle.Math.BigInteger[] IDsa::GenerateSignature(System.Byte[] message)
-    ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature(::Array<uint8_t>* message);
+    // Offset: 0x1167788
+    ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature_NEW(::Array<uint8_t>* message);
+    // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
+    // Offset: 0x1167CA8
+    Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier_NEW();
     // public System.Void .ctor()
-    // Offset: 0x11883CC
+    // Offset: 0x1167D04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

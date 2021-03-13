@@ -24,22 +24,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorExtensions
     ColorExtensions() noexcept {}
     // static public UnityEngine.Color SaturatedColor(UnityEngine.Color color, System.Single saturation)
-    // Offset: 0x1104FA0
+    // Offset: 0x1119FB4
     static UnityEngine::Color SaturatedColor(UnityEngine::Color color, float saturation);
     // static public UnityEngine.Color ColorWithAlpha(UnityEngine.Color color, System.Single alpha)
-    // Offset: 0x1104FF8
+    // Offset: 0x111A00C
     static UnityEngine::Color ColorWithAlpha(UnityEngine::Color color, float alpha);
     // static public UnityEngine.Color ColorWithR(UnityEngine.Color color, System.Single r)
-    // Offset: 0x1105000
+    // Offset: 0x111A014
     static UnityEngine::Color ColorWithR(UnityEngine::Color color, float r);
     // static public UnityEngine.Color ColorWithG(UnityEngine.Color color, System.Single g)
-    // Offset: 0x1105008
+    // Offset: 0x111A01C
     static UnityEngine::Color ColorWithG(UnityEngine::Color color, float g);
     // static public UnityEngine.Color ColorWithB(UnityEngine.Color color, System.Single b)
-    // Offset: 0x1105010
+    // Offset: 0x111A024
     static UnityEngine::Color ColorWithB(UnityEngine::Color color, float b);
     // static public UnityEngine.Color ColorWithValue(UnityEngine.Color color, System.Single value)
-    // Offset: 0x1105018
+    // Offset: 0x111A02C
     static UnityEngine::Color ColorWithValue(UnityEngine::Color color, float value);
   }; // ColorExtensions
   #pragma pack(pop)

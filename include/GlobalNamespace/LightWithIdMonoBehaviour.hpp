@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: ID and: lightManager
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0xD16CEC
+    // [InjectAttribute] Offset: 0xD009DC
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x20
@@ -62,45 +62,35 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // protected System.Void OnEnable()
-    // Offset: 0x1DA0340
-    void OnEnable();
-    // protected System.Void Start()
-    // Offset: 0x1DA03D8
-    void Start();
-    // protected System.Void OnDisable()
-    // Offset: 0x1DA03DC
-    void OnDisable();
-    // private System.Void RegisterLight()
-    // Offset: 0x1DA0344
-    void RegisterLight();
     // public System.Int32 get_lightId()
-    // Offset: 0x1DA031C
-    // Implemented from: ILightWithId
-    // Base method: System.Int32 ILightWithId::get_lightId()
-    int get_lightId();
+    // Offset: 0x1CE0AFC
+    int get_lightId_NEW();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x1DA0324
-    // Implemented from: ILightWithId
-    // Base method: System.Boolean ILightWithId::get_isRegistered()
-    bool get_isRegistered();
+    // Offset: 0x1CE0B04
+    bool get_isRegistered_NEW();
     // public System.Void __SetIsRegistered()
-    // Offset: 0x1DA032C
-    // Implemented from: ILightWithId
-    // Base method: System.Void ILightWithId::__SetIsRegistered()
-    void __SetIsRegistered();
+    // Offset: 0x1CE0B0C
+    void __SetIsRegistered_NEW();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x1DA0338
-    // Implemented from: ILightWithId
-    // Base method: System.Void ILightWithId::__SetIsUnRegistered()
-    void __SetIsUnRegistered();
+    // Offset: 0x1CE0B18
+    void __SetIsUnRegistered_NEW();
     // public System.Void ColorWasSet(UnityEngine.Color color)
     // Offset: 0xFFFFFFFF
-    // Implemented from: ILightWithId
-    // Base method: System.Void ILightWithId::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
+    // protected System.Void OnEnable()
+    // Offset: 0x1CE0B20
+    void OnEnable_NEW();
+    // protected System.Void Start()
+    // Offset: 0x1CE0BB8
+    void Start_NEW();
+    // protected System.Void OnDisable()
+    // Offset: 0x1CE0BBC
+    void OnDisable_NEW();
+    // private System.Void RegisterLight()
+    // Offset: 0x1CE0B24
+    void RegisterLight();
     // protected System.Void .ctor()
-    // Offset: 0x1D992A0
+    // Offset: 0x1CD98F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

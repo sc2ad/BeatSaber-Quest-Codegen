@@ -53,30 +53,30 @@ namespace System::ComponentModel {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Int32,System.String> s_ErrorMessage
     static void _set_s_ErrorMessage(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* value);
     // public System.Void .ctor(System.Int32 error)
-    // Offset: 0x17967F0
+    // Offset: 0x16C72D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Exception* New_ctor(int error) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Win32Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(error)));
     }
     // public System.Void .ctor(System.Int32 error, System.String message)
-    // Offset: 0x1796990
+    // Offset: 0x16C7478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Exception* New_ctor(int error, ::Il2CppString* message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Win32Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(error, message)));
     }
     // public System.Int32 get_NativeErrorCode()
-    // Offset: 0x1796A58
+    // Offset: 0x16C7540
     int get_NativeErrorCode();
     // static System.String GetErrorMessage(System.Int32 error)
-    // Offset: 0x1796878
+    // Offset: 0x16C7360
     static ::Il2CppString* GetErrorMessage(int error);
     // static private System.Void InitializeErrorMessages()
-    // Offset: 0x1796B2C
+    // Offset: 0x16C7614
     static void InitializeErrorMessages();
     // public System.Void .ctor()
-    // Offset: 0x1796780
+    // Offset: 0x16C7268
     // Implemented from: System.Runtime.InteropServices.ExternalException
     // Base method: System.Void ExternalException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -88,7 +88,7 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>()));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x17969C0
+    // Offset: 0x16C74A8
     // Implemented from: System.Runtime.InteropServices.ExternalException
     // Base method: System.Void ExternalException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -99,15 +99,12 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(info, context)));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1796A60
+    // Offset: 0x16C7548
     // Implemented from: System.Exception
-    // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
+    // Base method: System.Void Exception::GetObjectData_NEW(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
-    // Creating proxy method: System_Runtime_Serialization_ISerializable_GetObjectData
-    // Maps to method: GetObjectData
-    void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static private System.Void .cctor()
-    // Offset: 0x1797C70
+    // Offset: 0x16C8714
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.cctor()
     static void _cctor();

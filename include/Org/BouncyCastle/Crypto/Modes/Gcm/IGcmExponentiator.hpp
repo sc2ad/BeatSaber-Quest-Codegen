@@ -21,10 +21,10 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     IGcmExponentiator() noexcept {}
     // public System.Void Init(System.Byte[] x)
     // Offset: 0xFFFFFFFF
-    void Init(::Array<uint8_t>* x);
+    void Init_NEW(::Array<uint8_t>* x);
     // public System.Void ExponentiateX(System.Int64 pow, System.Byte[] output)
     // Offset: 0xFFFFFFFF
-    void ExponentiateX(int64_t pow, ::Array<uint8_t>* output);
+    void ExponentiateX_NEW(int64_t pow, ::Array<uint8_t>* output);
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.IGcmExponentiator
   #pragma pack(pop)
 }

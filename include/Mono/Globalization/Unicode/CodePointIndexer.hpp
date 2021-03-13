@@ -65,7 +65,7 @@ namespace Mono::Globalization::Unicode {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.Int32 start, System.Int32 end, System.Int32 indexStart)
-      // Offset: 0xE0E9E8
+      // Offset: 0xDF8EB4
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       TableRange(int start, int end, int indexStart) {
         static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::CodePointIndexer::TableRange::.ctor");
@@ -103,14 +103,14 @@ namespace Mono::Globalization::Unicode {
     // Creating value type constructor for type: CodePointIndexer
     CodePointIndexer(::Array<Mono::Globalization::Unicode::CodePointIndexer::TableRange>* ranges_ = {}, int TotalCount_ = {}, int defaultIndex_ = {}, int defaultCP_ = {}) noexcept : ranges{ranges_}, TotalCount{TotalCount_}, defaultIndex{defaultIndex_}, defaultCP{defaultCP_} {}
     // public System.Void .ctor(System.Int32[] starts, System.Int32[] ends, System.Int32 defaultIndex, System.Int32 defaultCP)
-    // Offset: 0x18863B8
+    // Offset: 0x18C5AF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CodePointIndexer* New_ctor(::Array<int>* starts, ::Array<int>* ends, int defaultIndex, int defaultCP) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::CodePointIndexer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CodePointIndexer*, creationType>(starts, ends, defaultIndex, defaultCP)));
     }
     // public System.Int32 ToIndex(System.Int32 cp)
-    // Offset: 0x1886558
+    // Offset: 0x18C5C7C
     int ToIndex(int cp);
   }; // Mono.Globalization.Unicode.CodePointIndexer
   #pragma pack(pop)

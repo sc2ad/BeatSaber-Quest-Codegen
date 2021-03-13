@@ -22,7 +22,7 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: CustomSignalEventDrawer
     CustomSignalEventDrawer() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x17309C0
+    // Offset: 0x166BBD0
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

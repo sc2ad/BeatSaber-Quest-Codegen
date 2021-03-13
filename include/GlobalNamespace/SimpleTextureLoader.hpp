@@ -37,25 +37,22 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class SimpleTextureLoader : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__3
-    class $LoadTextureCoroutine$d__3;
+    // Nested type: GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__2
+    class $LoadTextureCoroutine$d__2;
     // Creating value type constructor for type: SimpleTextureLoader
     SimpleTextureLoader() noexcept {}
     // Get static field: static private HMCache`2<System.String,UnityEngine.Texture2D> _cache
     static GlobalNamespace::HMCache_2<::Il2CppString*, UnityEngine::Texture2D*>* _get__cache();
     // Set static field: static private HMCache`2<System.String,UnityEngine.Texture2D> _cache
     static void _set__cache(GlobalNamespace::HMCache_2<::Il2CppString*, UnityEngine::Texture2D*>* value);
-    // static private System.Void NoDomainReloadInit()
-    // Offset: 0xF6D55C
-    static void NoDomainReloadInit();
     // static public System.Void LoadTexture(System.String filePath, System.Boolean useCache, System.Action`1<UnityEngine.Texture2D> finishedCallback)
-    // Offset: 0xF6D5F0
+    // Offset: 0xF75C7C
     static void LoadTexture(::Il2CppString* filePath, bool useCache, System::Action_1<UnityEngine::Texture2D*>* finishedCallback);
     // static public System.Collections.IEnumerator LoadTextureCoroutine(System.String filePath, System.Boolean useCache, System.Action`1<UnityEngine.Texture2D> finishedCallback)
-    // Offset: 0xF6D6BC
+    // Offset: 0xF75D48
     static System::Collections::IEnumerator* LoadTextureCoroutine(::Il2CppString* filePath, bool useCache, System::Action_1<UnityEngine::Texture2D*>* finishedCallback);
     // static private System.Void .cctor()
-    // Offset: 0xF6D78C
+    // Offset: 0xF75DFC
     static void _cctor();
   }; // SimpleTextureLoader
   #pragma pack(pop)

@@ -45,33 +45,27 @@ namespace System::Security::Cryptography::X509Certificates {
       return enumerator;
     }
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.X509CertificateCollection mappings)
-    // Offset: 0x1779560
+    // Offset: 0x16AC24C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateCollection::X509CertificateEnumerator* New_ctor(System::Security::Cryptography::X509Certificates::X509CertificateCollection* mappings) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateCollection::X509CertificateEnumerator*, creationType>(mappings)));
     }
     // public System.Security.Cryptography.X509Certificates.X509Certificate get_Current()
-    // Offset: 0x177965C
+    // Offset: 0x16AC340
     System::Security::Cryptography::X509Certificates::X509Certificate* get_Current();
-    // public System.Boolean MoveNext()
-    // Offset: 0x1779968
-    bool MoveNext();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1779750
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Object IEnumerator::get_Current()
-    ::Il2CppObject* System_Collections_IEnumerator_get_Current();
+    // Offset: 0x16AC434
+    ::Il2CppObject* System_Collections_IEnumerator_get_Current_NEW();
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x1779804
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Boolean IEnumerator::MoveNext()
-    bool System_Collections_IEnumerator_MoveNext();
+    // Offset: 0x16AC4E8
+    bool System_Collections_IEnumerator_MoveNext_NEW();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x17798B4
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Void IEnumerator::Reset()
-    void System_Collections_IEnumerator_Reset();
+    // Offset: 0x16AC598
+    void System_Collections_IEnumerator_Reset_NEW();
+    // public System.Boolean MoveNext()
+    // Offset: 0x16AC64C
+    bool MoveNext();
   }; // System.Security.Cryptography.X509Certificates.X509CertificateCollection/X509CertificateEnumerator
   #pragma pack(pop)
   static check_size<sizeof(X509CertificateCollection::X509CertificateEnumerator), 16 + sizeof(System::Collections::IEnumerator*)> __System_Security_Cryptography_X509Certificates_X509CertificateCollection_X509CertificateEnumeratorSizeCheck;

@@ -50,25 +50,25 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Creating value type constructor for type: EncryptedPrivateKeyInfo
     EncryptedPrivateKeyInfo(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId_ = {}, Org::BouncyCastle::Asn1::Asn1OctetString* data_ = {}) noexcept : algId{algId_}, data{data_} {}
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x16E70D4
+    // Offset: 0x16020C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncryptedPrivateKeyInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncryptedPrivateKeyInfo*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.EncryptedPrivateKeyInfo GetInstance(System.Object obj)
-    // Offset: 0x16E71E8
+    // Offset: 0x16021C4
     static Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* GetInstance(::Il2CppObject* obj);
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_EncryptionAlgorithm()
-    // Offset: 0x16E7368
+    // Offset: 0x1602344
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithm();
     // public System.Byte[] GetEncryptedData()
-    // Offset: 0x16E7370
+    // Offset: 0x160234C
     ::Array<uint8_t>* GetEncryptedData();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x16E7390
+    // Offset: 0x160236C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
-    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
+    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object_NEW()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.Pkcs.EncryptedPrivateKeyInfo
   #pragma pack(pop)

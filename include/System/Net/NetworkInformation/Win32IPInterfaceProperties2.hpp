@@ -57,24 +57,24 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: Win32IPInterfaceProperties2
     Win32IPInterfaceProperties2(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr_ = {}, System::Net::NetworkInformation::Win32_MIB_IFROW mib4_ = {}, System::Net::NetworkInformation::Win32_MIB_IFROW mib6_ = {}) noexcept : addr{addr_}, mib4{mib4_}, mib6{mib6_} {}
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr, System.Net.NetworkInformation.Win32_MIB_IFROW mib4, System.Net.NetworkInformation.Win32_MIB_IFROW mib6)
-    // Offset: 0x13579E4
+    // Offset: 0x1329CC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32IPInterfaceProperties2* New_ctor(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr, System::Net::NetworkInformation::Win32_MIB_IFROW mib4, System::Net::NetworkInformation::Win32_MIB_IFROW mib6) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::Win32IPInterfaceProperties2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32IPInterfaceProperties2*, creationType>(addr, mib4, mib6)));
     }
     // static private System.Net.NetworkInformation.UnicastIPAddressInformationCollection Win32FromUnicast(System.IntPtr ptr)
-    // Offset: 0x1357EE0
+    // Offset: 0x132A190
     static System::Net::NetworkInformation::UnicastIPAddressInformationCollection* Win32FromUnicast(System::IntPtr ptr);
     // public override System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
-    // Offset: 0x1357A74
+    // Offset: 0x1329D30
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
-    // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses()
+    // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses_NEW()
     System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
     // public override System.Net.NetworkInformation.UnicastIPAddressInformationCollection get_UnicastAddresses()
-    // Offset: 0x1357E08
+    // Offset: 0x132A0B8
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
-    // Base method: System.Net.NetworkInformation.UnicastIPAddressInformationCollection IPInterfaceProperties::get_UnicastAddresses()
+    // Base method: System.Net.NetworkInformation.UnicastIPAddressInformationCollection IPInterfaceProperties::get_UnicastAddresses_NEW()
     System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();
   }; // System.Net.NetworkInformation.Win32IPInterfaceProperties2
   #pragma pack(pop)

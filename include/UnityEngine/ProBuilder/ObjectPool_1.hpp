@@ -100,26 +100,19 @@ namespace UnityEngine::ProBuilder {
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Empty", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
+    // public System.Void Dispose()
+    // Offset: 0xFFFFFFFF
+    void Dispose_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ObjectPool_1::Dispose_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+    }
     // private System.Void Dispose(System.Boolean disposing)
     // Offset: 0xFFFFFFFF
     void Dispose(bool disposing) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ObjectPool_1::Dispose");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(disposing)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, disposing);
-    }
-    // public System.Void Dispose()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ObjectPool_1::Dispose");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
-    }
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose() {
-      Dispose();
     }
   }; // UnityEngine.ProBuilder.ObjectPool`1
   // Could not write size check! Type: UnityEngine.ProBuilder.ObjectPool`1 is generic, or has no fields that are valid for size checks!

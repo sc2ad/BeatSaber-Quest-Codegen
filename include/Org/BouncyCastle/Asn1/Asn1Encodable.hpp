@@ -33,31 +33,29 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
     }
     // public System.Byte[] GetEncoded()
-    // Offset: 0x15FD6B8
+    // Offset: 0x153D2CC
     ::Array<uint8_t>* GetEncoded();
     // public System.Byte[] GetEncoded(System.String encoding)
-    // Offset: 0x15FD778
+    // Offset: 0x153D38C
     ::Array<uint8_t>* GetEncoded(::Il2CppString* encoding);
     // public System.Byte[] GetDerEncoded()
-    // Offset: 0x15FD870
+    // Offset: 0x153D484
     ::Array<uint8_t>* GetDerEncoded();
-    // public override System.Int32 GetHashCode()
-    // Offset: 0x15FD938
-    // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
-    int GetHashCode();
-    // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x15FD970
-    // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object obj)
-    bool Equals(::Il2CppObject* obj);
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
     // Offset: 0xFFFFFFFF
-    // Implemented from: Org.BouncyCastle.Asn1.IAsn1Convertible
-    // Base method: Org.BouncyCastle.Asn1.Asn1Object IAsn1Convertible::ToAsn1Object()
-    Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+    Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object_NEW();
+    // public override System.Int32 GetHashCode()
+    // Offset: 0x153D54C
+    // Implemented from: System.Object
+    // Base method: System.Int32 Object::GetHashCode_NEW()
+    int GetHashCode();
+    // public override System.Boolean Equals(System.Object obj)
+    // Offset: 0x153D584
+    // Implemented from: System.Object
+    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
+    bool Equals(::Il2CppObject* obj);
     // protected System.Void .ctor()
-    // Offset: 0x15FDAA0
+    // Offset: 0x153D6B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

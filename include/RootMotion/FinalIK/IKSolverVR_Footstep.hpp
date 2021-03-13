@@ -73,7 +73,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isSupportLeg and: stepProgress
     char __padding5[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD2B158
+    // [CompilerGeneratedAttribute] Offset: 0xD160BC
     // private System.Single <stepProgress>k__BackingField
     // Size: 0x4
     // Offset: 0x50
@@ -125,35 +125,35 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Footstep
     Footstep(float stepSpeed_ = {}, UnityEngine::Vector3 characterSpaceOffset_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Quaternion stepToRootRot_ = {}, bool isSupportLeg_ = {}, float stepProgress_ = {}, UnityEngine::Vector3 stepFrom_ = {}, UnityEngine::Vector3 stepTo_ = {}, UnityEngine::Quaternion stepFromRot_ = {}, UnityEngine::Quaternion stepToRot_ = {}, UnityEngine::Quaternion footRelativeToRoot_ = {}, float supportLegW_ = {}, float supportLegWV_ = {}) noexcept : stepSpeed{stepSpeed_}, characterSpaceOffset{characterSpaceOffset_}, position{position_}, rotation{rotation_}, stepToRootRot{stepToRootRot_}, isSupportLeg{isSupportLeg_}, stepProgress{stepProgress_}, stepFrom{stepFrom_}, stepTo{stepTo_}, stepFromRot{stepFromRot_}, stepToRot{stepToRot_}, footRelativeToRoot{footRelativeToRoot_}, supportLegW{supportLegW_}, supportLegWV{supportLegWV_} {}
     // public System.Boolean get_isStepping()
-    // Offset: 0x1C28684
+    // Offset: 0x1BE82F8
     bool get_isStepping();
     // public System.Single get_stepProgress()
-    // Offset: 0x1C28698
+    // Offset: 0x1BE830C
     float get_stepProgress();
     // private System.Void set_stepProgress(System.Single value)
-    // Offset: 0x1C286A0
+    // Offset: 0x1BE8314
     void set_stepProgress(float value);
     // public System.Void .ctor(UnityEngine.Quaternion rootRotation, UnityEngine.Vector3 footPosition, UnityEngine.Quaternion footRotation, UnityEngine.Vector3 characterSpaceOffset)
-    // Offset: 0x1C286A8
+    // Offset: 0x1BE831C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverVR::Footstep* New_ctor(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation, UnityEngine::Vector3 characterSpaceOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverVR::Footstep::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR::Footstep*, creationType>(rootRotation, footPosition, footRotation, characterSpaceOffset)));
     }
     // public System.Void Reset(UnityEngine.Quaternion rootRotation, UnityEngine.Vector3 footPosition, UnityEngine.Quaternion footRotation)
-    // Offset: 0x1C28838
+    // Offset: 0x1BE84AC
     void Reset(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation);
     // public System.Void StepTo(UnityEngine.Vector3 p, UnityEngine.Quaternion rootRotation, System.Single stepThreshold)
-    // Offset: 0x1C28880
+    // Offset: 0x1BE84F4
     void StepTo(UnityEngine::Vector3 p, UnityEngine::Quaternion rootRotation, float stepThreshold);
     // public System.Void UpdateStepping(UnityEngine.Vector3 p, UnityEngine.Quaternion rootRotation, System.Single speed)
-    // Offset: 0x1C28A40
+    // Offset: 0x1BE86B4
     void UpdateStepping(UnityEngine::Vector3 p, UnityEngine::Quaternion rootRotation, float speed);
     // public System.Void UpdateStanding(UnityEngine.Quaternion rootRotation, System.Single minAngle, System.Single speed)
-    // Offset: 0x1C28C18
+    // Offset: 0x1BE888C
     void UpdateStanding(UnityEngine::Quaternion rootRotation, float minAngle, float speed);
     // public System.Void Update(RootMotion.InterpolationMode interpolation, UnityEngine.Events.UnityEvent onStep)
-    // Offset: 0x1C28E04
+    // Offset: 0x1BE8A78
     void Update(RootMotion::InterpolationMode interpolation, UnityEngine::Events::UnityEvent* onStep);
   }; // RootMotion.FinalIK.IKSolverVR/Footstep
   #pragma pack(pop)

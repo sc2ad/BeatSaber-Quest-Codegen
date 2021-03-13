@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EditScriptableAttribute
     EditScriptableAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1107EC0
+    // Offset: 0x111DC08
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

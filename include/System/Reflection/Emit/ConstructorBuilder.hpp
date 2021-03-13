@@ -45,64 +45,64 @@ namespace System::Reflection::Emit {
     // Creating value type constructor for type: ConstructorBuilder
     ConstructorBuilder() noexcept {}
     // public override System.Reflection.MethodAttributes get_Attributes()
-    // Offset: 0x1B2A19C
+    // Offset: 0x1AC136C
     // Implemented from: System.Reflection.MethodBase
-    // Base method: System.Reflection.MethodAttributes MethodBase::get_Attributes()
+    // Base method: System.Reflection.MethodAttributes MethodBase::get_Attributes_NEW()
     System::Reflection::MethodAttributes get_Attributes();
     // public override System.Type get_DeclaringType()
-    // Offset: 0x1B2A1F8
+    // Offset: 0x1AC13C8
     // Implemented from: System.Reflection.MemberInfo
-    // Base method: System.Type MemberInfo::get_DeclaringType()
+    // Base method: System.Type MemberInfo::get_DeclaringType_NEW()
     System::Type* get_DeclaringType();
     // public override System.String get_Name()
-    // Offset: 0x1B2A254
+    // Offset: 0x1AC1424
     // Implemented from: System.Reflection.MemberInfo
-    // Base method: System.String MemberInfo::get_Name()
+    // Base method: System.String MemberInfo::get_Name_NEW()
     ::Il2CppString* get_Name();
     // public override System.Reflection.ParameterInfo[] GetParameters()
-    // Offset: 0x1B2A2B0
+    // Offset: 0x1AC1480
     // Implemented from: System.Reflection.MethodBase
-    // Base method: System.Reflection.ParameterInfo[] MethodBase::GetParameters()
+    // Base method: System.Reflection.ParameterInfo[] MethodBase::GetParameters_NEW()
     ::Array<System::Reflection::ParameterInfo*>* GetParameters();
     // public override System.RuntimeMethodHandle get_MethodHandle()
-    // Offset: 0x1B2A30C
+    // Offset: 0x1AC14DC
     // Implemented from: System.Reflection.MethodBase
-    // Base method: System.RuntimeMethodHandle MethodBase::get_MethodHandle()
+    // Base method: System.RuntimeMethodHandle MethodBase::get_MethodHandle_NEW()
     System::RuntimeMethodHandle get_MethodHandle();
     // public override System.Type get_ReflectedType()
-    // Offset: 0x1B2A34C
+    // Offset: 0x1AC151C
     // Implemented from: System.Reflection.MemberInfo
-    // Base method: System.Type MemberInfo::get_ReflectedType()
+    // Base method: System.Type MemberInfo::get_ReflectedType_NEW()
     System::Type* get_ReflectedType();
     // public override System.Object[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0x1B2A38C
+    // Offset: 0x1AC155C
     // Implemented from: System.Reflection.MemberInfo
-    // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
+    // Base method: System.Object[] MemberInfo::GetCustomAttributes_NEW(System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1B2A3CC
+    // Offset: 0x1AC159C
     // Implemented from: System.Reflection.MemberInfo
-    // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
+    // Base method: System.Object[] MemberInfo::GetCustomAttributes_NEW(System.Type attributeType, System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Reflection.MethodImplAttributes GetMethodImplementationFlags()
-    // Offset: 0x1B2A40C
+    // Offset: 0x1AC15DC
     // Implemented from: System.Reflection.MethodBase
-    // Base method: System.Reflection.MethodImplAttributes MethodBase::GetMethodImplementationFlags()
+    // Base method: System.Reflection.MethodImplAttributes MethodBase::GetMethodImplementationFlags_NEW()
     System::Reflection::MethodImplAttributes GetMethodImplementationFlags();
     // public override System.Object Invoke(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
-    // Offset: 0x1B2A44C
+    // Offset: 0x1AC161C
     // Implemented from: System.Reflection.MethodBase
-    // Base method: System.Object MethodBase::Invoke(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
+    // Base method: System.Object MethodBase::Invoke_NEW(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
     ::Il2CppObject* Invoke(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* parameters, System::Globalization::CultureInfo* culture);
     // public override System.Object Invoke(System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
-    // Offset: 0x1B2A48C
+    // Offset: 0x1AC165C
     // Implemented from: System.Reflection.ConstructorInfo
-    // Base method: System.Object ConstructorInfo::Invoke(System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
+    // Base method: System.Object ConstructorInfo::Invoke_NEW(System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
     ::Il2CppObject* Invoke(System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* parameters, System::Globalization::CultureInfo* culture);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1B2A4CC
+    // Offset: 0x1AC169C
     // Implemented from: System.Reflection.MemberInfo
-    // Base method: System.Boolean MemberInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
+    // Base method: System.Boolean MemberInfo::IsDefined_NEW(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
   }; // System.Reflection.Emit.ConstructorBuilder
   #pragma pack(pop)

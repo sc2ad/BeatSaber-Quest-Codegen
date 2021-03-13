@@ -12,11 +12,6 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: String
-  class String;
-}
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
@@ -27,6 +22,11 @@ namespace System::Collections::Generic {
 namespace System::Reflection {
   // Forward declaring type: MemberInfo
   class MemberInfo;
+}
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: String
+  class String;
 }
 // Completed forward declares
 // Type namespace: NUnit.Framework.Internal
@@ -39,18 +39,6 @@ namespace NUnit::Framework::Internal {
     public:
     // Creating value type constructor for type: Randomizer
     Randomizer() noexcept {}
-    // static field const value: static public System.String DefaultStringChars
-    static constexpr const char* DefaultStringChars = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ0123456789_";
-    // Get static field: static public System.String DefaultStringChars
-    static ::Il2CppString* _get_DefaultStringChars();
-    // Set static field: static public System.String DefaultStringChars
-    static void _set_DefaultStringChars(::Il2CppString* value);
-    // static field const value: static private System.Int32 DefaultStringLength
-    static constexpr const int DefaultStringLength = 25;
-    // Get static field: static private System.Int32 DefaultStringLength
-    static int _get_DefaultStringLength();
-    // Set static field: static private System.Int32 DefaultStringLength
-    static void _set_DefaultStringLength(int value);
     // Get static field: static private System.Random _seedGenerator
     static System::Random* _get__seedGenerator();
     // Set static field: static private System.Random _seedGenerator
@@ -63,17 +51,29 @@ namespace NUnit::Framework::Internal {
     static System::Collections::Generic::Dictionary_2<System::Reflection::MemberInfo*, NUnit::Framework::Internal::Randomizer*>* _get_Randomizers();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Reflection.MemberInfo,NUnit.Framework.Internal.Randomizer> Randomizers
     static void _set_Randomizers(System::Collections::Generic::Dictionary_2<System::Reflection::MemberInfo*, NUnit::Framework::Internal::Randomizer*>* value);
+    // static field const value: static public System.String DefaultStringChars
+    static constexpr const char* DefaultStringChars = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ0123456789_";
+    // Get static field: static public System.String DefaultStringChars
+    static ::Il2CppString* _get_DefaultStringChars();
+    // Set static field: static public System.String DefaultStringChars
+    static void _set_DefaultStringChars(::Il2CppString* value);
+    // static field const value: static private System.Int32 DefaultStringLength
+    static constexpr const int DefaultStringLength = 25;
+    // Get static field: static private System.Int32 DefaultStringLength
+    static int _get_DefaultStringLength();
+    // Set static field: static private System.Int32 DefaultStringLength
+    static void _set_DefaultStringLength(int value);
     // static private System.Void .cctor()
-    // Offset: 0x222258C
+    // Offset: 0x2093074
     static void _cctor();
     // static public System.Void set_InitialSeed(System.Int32 value)
-    // Offset: 0x222263C
+    // Offset: 0x2093120
     static void set_InitialSeed(int value);
     // static public NUnit.Framework.Internal.Randomizer CreateRandomizer()
-    // Offset: 0x22226E8
+    // Offset: 0x20931C8
     static NUnit::Framework::Internal::Randomizer* CreateRandomizer();
     // public System.Void .ctor(System.Int32 seed)
-    // Offset: 0x2222788
+    // Offset: 0x2093268
     // Implemented from: System.Random
     // Base method: System.Void Random::.ctor(System.Int32 seed)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

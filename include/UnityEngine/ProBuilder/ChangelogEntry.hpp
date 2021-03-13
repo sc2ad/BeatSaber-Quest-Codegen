@@ -39,22 +39,22 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: ChangelogEntry
     ChangelogEntry(UnityEngine::ProBuilder::SemVer* m_VersionInfo_ = {}, ::Il2CppString* m_ReleaseNotes_ = {}) noexcept : m_VersionInfo{m_VersionInfo_}, m_ReleaseNotes{m_ReleaseNotes_} {}
     // public UnityEngine.ProBuilder.SemVer get_versionInfo()
-    // Offset: 0x1DC757C
+    // Offset: 0x1D86C28
     UnityEngine::ProBuilder::SemVer* get_versionInfo();
     // public System.String get_releaseNotes()
-    // Offset: 0x1DC7584
+    // Offset: 0x1D86C30
     ::Il2CppString* get_releaseNotes();
     // public System.Void .ctor(UnityEngine.ProBuilder.SemVer version, System.String releaseNotes)
-    // Offset: 0x1DC752C
+    // Offset: 0x1D86BF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChangelogEntry* New_ctor(UnityEngine::ProBuilder::SemVer* version, ::Il2CppString* releaseNotes) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ChangelogEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChangelogEntry*, creationType>(version, releaseNotes)));
     }
     // public override System.String ToString()
-    // Offset: 0x1DC758C
+    // Offset: 0x1D86C38
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.ChangelogEntry
   #pragma pack(pop)

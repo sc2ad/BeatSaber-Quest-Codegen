@@ -25,7 +25,7 @@ namespace System {
     }
     // public System.String get_InternalName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_InternalName();
+    ::Il2CppString* get_InternalName_NEW();
   }; // System.TypeIdentifier
   #pragma pack(pop)
 }

@@ -6,6 +6,9 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: NUnit::Framework::Internal
+namespace NUnit::Framework::Internal {
+}
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
@@ -29,35 +32,29 @@ namespace NUnit::Framework::Internal {
   // [] Offset: FFFFFFFF
   class ExceptionHelper : public ::Il2CppObject {
     public:
+    // Nested type: NUnit::Framework::Internal::ExceptionHelper::$$c
+    class $$c;
     // Creating value type constructor for type: ExceptionHelper
     ExceptionHelper() noexcept {}
     // Get static field: static private readonly System.Action`1<System.Exception> PreserveStackTrace
     static System::Action_1<System::Exception*>* _get_PreserveStackTrace();
     // Set static field: static private readonly System.Action`1<System.Exception> PreserveStackTrace
     static void _set_PreserveStackTrace(System::Action_1<System::Exception*>* value);
-    // [CompilerGeneratedAttribute] Offset: 0xD25248
-    // Get static field: static private System.Action`1<System.Exception> CS$<>9__CachedAnonymousMethodDelegate1
-    static System::Action_1<System::Exception*>* _get_CS$$$9__CachedAnonymousMethodDelegate1();
-    // Set static field: static private System.Action`1<System.Exception> CS$<>9__CachedAnonymousMethodDelegate1
-    static void _set_CS$$$9__CachedAnonymousMethodDelegate1(System::Action_1<System::Exception*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16ACD38
+    // Offset: 0x15B15BC
     static void _cctor();
     // static public System.String BuildMessage(System.Exception exception)
-    // Offset: 0x16ACF44
+    // Offset: 0x15B17B4
     static ::Il2CppString* BuildMessage(System::Exception* exception);
     // static public System.String BuildStackTrace(System.Exception exception)
-    // Offset: 0x16AD438
+    // Offset: 0x15B1C74
     static ::Il2CppString* BuildStackTrace(System::Exception* exception);
     // static public System.String GetStackTrace(System.Exception exception)
-    // Offset: 0x16AD6A4
+    // Offset: 0x15B1EE0
     static ::Il2CppString* GetStackTrace(System::Exception* exception);
     // static private System.Collections.Generic.List`1<System.Exception> FlattenExceptionHierarchy(System.Exception exception)
-    // Offset: 0x16AD364
+    // Offset: 0x15B1BA0
     static System::Collections::Generic::List_1<System::Exception*>* FlattenExceptionHierarchy(System::Exception* exception);
-    // static private System.Void <.cctor>b__0(System.Exception _)
-    // Offset: 0x16AD77C
-    static void $_cctor$b__0(System::Exception* _);
   }; // NUnit.Framework.Internal.ExceptionHelper
   #pragma pack(pop)
 }

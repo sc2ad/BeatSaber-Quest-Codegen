@@ -23,10 +23,10 @@ namespace NUnit::Framework::Interfaces {
     IXmlNodeBuilder() noexcept {}
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
+    NUnit::Framework::Interfaces::TNode* ToXml_NEW(bool recursive);
     // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
+    NUnit::Framework::Interfaces::TNode* AddToXml_NEW(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
   }; // NUnit.Framework.Interfaces.IXmlNodeBuilder
   #pragma pack(pop)
 }

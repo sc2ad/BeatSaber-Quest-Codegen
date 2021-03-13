@@ -78,7 +78,7 @@ namespace System::Linq {
     // override System.Linq.EnumerableSorter`1<TElement> GetEnumerableSorter(System.Linq.EnumerableSorter`1<TElement> next)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.OrderedEnumerable`1
-    // Base method: System.Linq.EnumerableSorter`1<TElement> OrderedEnumerable_1::GetEnumerableSorter(System.Linq.EnumerableSorter`1<TElement> next)
+    // Base method: System.Linq.EnumerableSorter`1<TElement> OrderedEnumerable_1::GetEnumerableSorter_NEW(System.Linq.EnumerableSorter`1<TElement> next)
     System::Linq::EnumerableSorter_1<TElement>* GetEnumerableSorter(System::Linq::EnumerableSorter_1<TElement>* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::OrderedEnumerable_2::GetEnumerableSorter");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetEnumerableSorter", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(next)));

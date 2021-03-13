@@ -37,18 +37,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SelectModifiersViewController
     SelectModifiersViewController(GlobalNamespace::GameplayModifiersPanelController* gameplayModifiersPanelController_ = {}) noexcept : gameplayModifiersPanelController{gameplayModifiersPanelController_} {}
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x1090070
+    // Offset: 0xF7037C
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void Setup(GameplayModifiers gameplayModifiers)
-    // Offset: 0x109008C
+    // Offset: 0xF70398
     void Setup(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10900A8
+    // Offset: 0xF703B4
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Base method: System.Void ViewController::DidActivate_NEW(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1090158
+    // Offset: 0xF70464
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

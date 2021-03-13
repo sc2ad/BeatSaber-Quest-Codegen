@@ -23,7 +23,7 @@ namespace NUnit::Framework::Interfaces {
     IApplyToContext() noexcept {}
     // public System.Void ApplyToContext(NUnit.Framework.Internal.ITestExecutionContext context)
     // Offset: 0xFFFFFFFF
-    void ApplyToContext(NUnit::Framework::Internal::ITestExecutionContext* context);
+    void ApplyToContext_NEW(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Interfaces.IApplyToContext
   #pragma pack(pop)
 }

@@ -26,14 +26,14 @@ namespace Zenject {
   // [] Offset: FFFFFFFF
   class RunnableContext : public Zenject::Context {
     public:
-    // [TooltipAttribute] Offset: 0xD06488
+    // [TooltipAttribute] Offset: 0xCF0DEC
     // private System.Boolean _autoRun
     // Size: 0x1
     // Offset: 0x40
     bool autoRun;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD064D4
+    // [CompilerGeneratedAttribute] Offset: 0xCF0E38
     // private System.Boolean <Initialized>k__BackingField
     // Size: 0x1
     // Offset: 0x41
@@ -47,16 +47,16 @@ namespace Zenject {
     // Set static field: static private System.Boolean _staticAutoRun
     static void _set__staticAutoRun(bool value);
     // public System.Boolean get_Initialized()
-    // Offset: 0x15BB730
+    // Offset: 0x1512C50
     bool get_Initialized();
     // private System.Void set_Initialized(System.Boolean value)
-    // Offset: 0x15BB738
+    // Offset: 0x1512C58
     void set_Initialized(bool value);
     // protected System.Void Initialize()
-    // Offset: 0x15BB744
+    // Offset: 0x1512C64
     void Initialize();
     // public System.Void Run()
-    // Offset: 0x15BB7F0
+    // Offset: 0x1512D10
     void Run();
     // protected System.Void RunInternal()
     // Offset: 0xFFFFFFFF
@@ -72,7 +72,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, gameObject);
     }
     // protected System.Void .ctor()
-    // Offset: 0x15BB868
+    // Offset: 0x1512D88
     // Implemented from: Zenject.Context
     // Base method: System.Void Context::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -86,7 +86,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<RunnableContext*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x15BB878
+    // Offset: 0x1512D98
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

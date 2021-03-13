@@ -52,7 +52,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: SerObjectInfoInit
     SerObjectInfoInit(System::Collections::Hashtable* seenBeforeTable_ = {}, int objectInfoIdCount_ = {}, System::Runtime::Serialization::Formatters::Binary::SerStack* oiPool_ = {}) noexcept : seenBeforeTable{seenBeforeTable_}, objectInfoIdCount{objectInfoIdCount_}, oiPool{oiPool_} {}
     // public System.Void .ctor()
-    // Offset: 0x154517C
+    // Offset: 0x145F75C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

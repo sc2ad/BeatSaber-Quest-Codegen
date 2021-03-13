@@ -130,43 +130,41 @@ namespace UnityEngine::UI {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::UI::Navigation>*>(this);
     }
     // public UnityEngine.UI.Navigation/Mode get_mode()
-    // Offset: 0xE10998
+    // Offset: 0xDF6E78
     UnityEngine::UI::Navigation::Mode get_mode();
     // public System.Void set_mode(UnityEngine.UI.Navigation/Mode value)
-    // Offset: 0xE109A0
+    // Offset: 0xDF6E80
     void set_mode(UnityEngine::UI::Navigation::Mode value);
     // public UnityEngine.UI.Selectable get_selectOnUp()
-    // Offset: 0xE109A8
+    // Offset: 0xDF6E88
     UnityEngine::UI::Selectable* get_selectOnUp();
     // public System.Void set_selectOnUp(UnityEngine.UI.Selectable value)
-    // Offset: 0xE109B0
+    // Offset: 0xDF6E90
     void set_selectOnUp(UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnDown()
-    // Offset: 0xE109B8
+    // Offset: 0xDF6E98
     UnityEngine::UI::Selectable* get_selectOnDown();
     // public System.Void set_selectOnDown(UnityEngine.UI.Selectable value)
-    // Offset: 0xE109C0
+    // Offset: 0xDF6EA0
     void set_selectOnDown(UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnLeft()
-    // Offset: 0xE109C8
+    // Offset: 0xDF6EA8
     UnityEngine::UI::Selectable* get_selectOnLeft();
     // public System.Void set_selectOnLeft(UnityEngine.UI.Selectable value)
-    // Offset: 0xE109D0
+    // Offset: 0xDF6EB0
     void set_selectOnLeft(UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnRight()
-    // Offset: 0xE109D8
+    // Offset: 0xDF6EB8
     UnityEngine::UI::Selectable* get_selectOnRight();
     // public System.Void set_selectOnRight(UnityEngine.UI.Selectable value)
-    // Offset: 0xE109E0
+    // Offset: 0xDF6EC0
     void set_selectOnRight(UnityEngine::UI::Selectable* value);
     // static public UnityEngine.UI.Navigation get_defaultNavigation()
-    // Offset: 0x18E8A3C
+    // Offset: 0x1834E9C
     static UnityEngine::UI::Navigation get_defaultNavigation();
     // public System.Boolean Equals(UnityEngine.UI.Navigation other)
-    // Offset: 0xE109E8
-    // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.UI.Navigation other)
-    bool Equals(UnityEngine::UI::Navigation other);
+    // Offset: 0xDF6EC8
+    bool Equals_NEW(UnityEngine::UI::Navigation other);
   }; // UnityEngine.UI.Navigation
   #pragma pack(pop)
   static check_size<sizeof(Navigation), 32 + sizeof(UnityEngine::UI::Selectable*)> __UnityEngine_UI_NavigationSizeCheck;

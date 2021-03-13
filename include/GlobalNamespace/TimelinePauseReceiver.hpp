@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class TimelinePauseReceiver : public UnityEngine::MonoBehaviour/*, public UnityEngine::Playables::INotificationReceiver*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD0A758
+    // [CompilerGeneratedAttribute] Offset: 0xCF5104
     // private System.Action timelinePauseEvent
     // Size: 0x8
     // Offset: 0x18
@@ -51,18 +51,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_timelinePauseEvent(System.Action value)
-    // Offset: 0x229D7E0
+    // Offset: 0x2120010
     void add_timelinePauseEvent(System::Action* value);
     // public System.Void remove_timelinePauseEvent(System.Action value)
-    // Offset: 0x229D884
+    // Offset: 0x21200B4
     void remove_timelinePauseEvent(System::Action* value);
     // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0x229D928
-    // Implemented from: UnityEngine.Playables.INotificationReceiver
-    // Base method: System.Void INotificationReceiver::OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
+    // Offset: 0x2120158
+    void OnNotify_NEW(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
     // public System.Void .ctor()
-    // Offset: 0x229D9C8
+    // Offset: 0x21201F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

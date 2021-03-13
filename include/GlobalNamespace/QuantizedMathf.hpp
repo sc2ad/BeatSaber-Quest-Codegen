@@ -4,9 +4,22 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: System.Int32
+#include "System/Int32.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Quaternion
+  struct Quaternion;
+  // Forward declaring type: Vector3
+  struct Vector3;
+  // Forward declaring type: Pose
+  struct Pose;
+}
+// Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -17,18 +30,54 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: QuantizedMathf
     QuantizedMathf() noexcept {}
-    // static field const value: static private System.Single kEpsilon
-    static constexpr const float kEpsilon = 3.051851e-05;
-    // Get static field: static private System.Single kEpsilon
-    static float _get_kEpsilon();
-    // Set static field: static private System.Single kEpsilon
-    static void _set_kEpsilon(float value);
-    // static public System.Boolean Approximately(System.Single a, System.Single b)
-    // Offset: 0x226ECF0
-    static bool Approximately(float a, float b);
-    // static public System.Boolean RoughlyApproximately(System.Single a, System.Single b)
-    // Offset: 0x226ED70
-    static bool RoughlyApproximately(float a, float b);
+    // static field const value: static public System.Int32 kQuaternionSerializableScaleFactor
+    static constexpr const int kQuaternionSerializableScaleFactor = 16383;
+    // Get static field: static public System.Int32 kQuaternionSerializableScaleFactor
+    static int _get_kQuaternionSerializableScaleFactor();
+    // Set static field: static public System.Int32 kQuaternionSerializableScaleFactor
+    static void _set_kQuaternionSerializableScaleFactor(int value);
+    // static field const value: static private System.Single kQuaternionSerializableEpsilon
+    static constexpr const float kQuaternionSerializableEpsilon = 6.103888e-05;
+    // Get static field: static private System.Single kQuaternionSerializableEpsilon
+    static float _get_kQuaternionSerializableEpsilon();
+    // Set static field: static private System.Single kQuaternionSerializableEpsilon
+    static void _set_kQuaternionSerializableEpsilon(float value);
+    // static field const value: static private System.Int32 kVectorSerializableScaleInt
+    static constexpr const int kVectorSerializableScaleInt = 1000;
+    // Get static field: static private System.Int32 kVectorSerializableScaleInt
+    static int _get_kVectorSerializableScaleInt();
+    // Set static field: static private System.Int32 kVectorSerializableScaleInt
+    static void _set_kVectorSerializableScaleInt(int value);
+    // static field const value: static public System.Single kVectorSerializableScale
+    static constexpr const float kVectorSerializableScale = 1000;
+    // Get static field: static public System.Single kVectorSerializableScale
+    static float _get_kVectorSerializableScale();
+    // Set static field: static public System.Single kVectorSerializableScale
+    static void _set_kVectorSerializableScale(float value);
+    // static field const value: static private System.Single kVectorSerializableEpsilon
+    static constexpr const float kVectorSerializableEpsilon = 0.001;
+    // Get static field: static private System.Single kVectorSerializableEpsilon
+    static float _get_kVectorSerializableEpsilon();
+    // Set static field: static private System.Single kVectorSerializableEpsilon
+    static void _set_kVectorSerializableEpsilon(float value);
+    // static public System.Boolean Approximately(UnityEngine.Quaternion a, UnityEngine.Quaternion b)
+    // Offset: 0x2109450
+    static bool Approximately(UnityEngine::Quaternion a, UnityEngine::Quaternion b);
+    // static public System.Boolean Approximately(System.Single a, System.Single b, System.Single epsilon)
+    // Offset: 0x2109608
+    static bool Approximately(float a, float b, float epsilon);
+    // static public System.Boolean Approximately(System.Int32 a, System.Int32 b, System.Int32 epsilon)
+    // Offset: 0x210968C
+    static bool Approximately(int a, int b, int epsilon);
+    // static public System.Boolean Approximately(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
+    // Offset: 0x2109710
+    static bool Approximately(UnityEngine::Vector3 a, UnityEngine::Vector3 b);
+    // static public System.Boolean Approximately(UnityEngine.Pose a, UnityEngine.Pose b)
+    // Offset: 0x2109798
+    static bool Approximately(UnityEngine::Pose a, UnityEngine::Pose b);
+    // static public System.String QuantizedVectorComponentToString(System.Int32 v)
+    // Offset: 0x21097F0
+    static ::Il2CppString* QuantizedVectorComponentToString(int v);
   }; // QuantizedMathf
   #pragma pack(pop)
 }

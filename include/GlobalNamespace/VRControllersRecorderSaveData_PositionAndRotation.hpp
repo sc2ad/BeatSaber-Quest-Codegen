@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PositionAndRotation
     PositionAndRotation(float posX_ = {}, float posY_ = {}, float posZ_ = {}, float rotX_ = {}, float rotY_ = {}, float rotZ_ = {}, float rotW_ = {}) noexcept : posX{posX_}, posY{posY_}, posZ{posZ_}, rotX{rotX_}, rotY{rotY_}, rotZ{rotZ_}, rotW{rotW_} {}
     // public System.Void .ctor()
-    // Offset: 0x171EF64
+    // Offset: 0x108B9D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

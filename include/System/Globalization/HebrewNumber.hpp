@@ -185,16 +185,16 @@ namespace System::Globalization {
     // Set static field: static private readonly System.Globalization.HebrewNumber/HS[][] NumberPasingState
     static void _set_NumberPasingState(::Array<::Array<System::Globalization::HebrewNumber::HS>*>* value);
     // static System.String ToString(System.Int32 Number)
-    // Offset: 0x19AE650
+    // Offset: 0x1893C34
     static ::Il2CppString* ToString(int Number);
     // static System.Globalization.HebrewNumberParsingState ParseByChar(System.Char ch, ref System.Globalization.HebrewNumberParsingContext context)
-    // Offset: 0x19A1608
+    // Offset: 0x1893EA0
     static System::Globalization::HebrewNumberParsingState ParseByChar(::Il2CppChar ch, System::Globalization::HebrewNumberParsingContext& context);
     // static System.Boolean IsDigit(System.Char ch)
-    // Offset: 0x19A1500
+    // Offset: 0x1894094
     static bool IsDigit(::Il2CppChar ch);
     // static private System.Void .cctor()
-    // Offset: 0x19AE8BC
+    // Offset: 0x1894194
     static void _cctor();
   }; // System.Globalization.HebrewNumber
   #pragma pack(pop)

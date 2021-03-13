@@ -36,11 +36,14 @@ namespace Org::BouncyCastle::Utilities::Collections {
     static System::Collections::IEnumerable* _get_Instance();
     // Set static field: static public readonly System.Collections.IEnumerable Instance
     static void _set_Instance(System::Collections::IEnumerable* value);
+    // public System.Collections.IEnumerator GetEnumerator()
+    // Offset: 0x126F064
+    System::Collections::IEnumerator* GetEnumerator_NEW();
     // static private System.Void .cctor()
-    // Offset: 0x1231FFC
+    // Offset: 0x126F0CC
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x1231F8C
+    // Offset: 0x126F05C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -48,14 +51,6 @@ namespace Org::BouncyCastle::Utilities::Collections {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyEnumerable*, creationType>()));
     }
-    // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1231F94
-    // Implemented from: System.Collections.IEnumerable
-    // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
-    System::Collections::IEnumerator* GetEnumerator();
-    // Creating proxy method: System_Collections_IEnumerable_GetEnumerator
-    // Maps to method: GetEnumerator
-    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // Org.BouncyCastle.Utilities.Collections.EmptyEnumerable
   #pragma pack(pop)
 }

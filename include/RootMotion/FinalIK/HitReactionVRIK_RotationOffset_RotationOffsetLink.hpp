@@ -30,15 +30,15 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class HitReactionVRIK::RotationOffset::RotationOffsetLink : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xD2DAA8
+    // [TooltipAttribute] Offset: 0xD18A0C
     // public RootMotion.FinalIK.IKSolverVR/RotationOffset rotationOffset
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::IKSolverVR::RotationOffset rotationOffset;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolverVR::RotationOffset) == 0x4);
-    // [TooltipAttribute] Offset: 0xD2DAE0
-    // [RangeAttribute] Offset: 0xD2DAE0
+    // [TooltipAttribute] Offset: 0xD18A44
+    // [RangeAttribute] Offset: 0xD18A44
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x14
@@ -60,13 +60,13 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: RotationOffsetLink
     RotationOffsetLink(RootMotion::FinalIK::IKSolverVR::RotationOffset rotationOffset_ = {}, float weight_ = {}, UnityEngine::Quaternion lastValue_ = {}, UnityEngine::Quaternion current_ = {}) noexcept : rotationOffset{rotationOffset_}, weight{weight_}, lastValue{lastValue_}, current{current_} {}
     // public System.Void Apply(RootMotion.FinalIK.VRIK ik, UnityEngine.Quaternion offset, System.Single crossFader)
-    // Offset: 0x1AF95D8
+    // Offset: 0x1A64D34
     void Apply(RootMotion::FinalIK::VRIK* ik, UnityEngine::Quaternion offset, float crossFader);
     // public System.Void CrossFadeStart()
-    // Offset: 0x1AF92AC
+    // Offset: 0x1A64A1C
     void CrossFadeStart();
     // public System.Void .ctor()
-    // Offset: 0x1AF9714
+    // Offset: 0x1A64E70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

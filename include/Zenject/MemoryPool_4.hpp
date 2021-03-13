@@ -33,28 +33,24 @@ namespace Zenject {
     operator Zenject::IFactory_4<TParam1, TParam2, TParam3, TValue>() noexcept {
       return *reinterpret_cast<Zenject::IFactory_4<TParam1, TParam2, TParam3, TValue>*>(this);
     }
-    // protected System.Void Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TValue item)
-    // Offset: 0xFFFFFFFF
-    void Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TValue item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_4::Reinitialize");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Reinitialize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(p1, p2, p3, item)));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, p1, p2, p3, item);
-    }
     // public TValue Spawn(TParam1 param1, TParam2 param2, TParam3 param3)
     // Offset: 0xFFFFFFFF
-    // Implemented from: Zenject.IMemoryPool`4
-    // Base method: TValue IMemoryPool_4::Spawn(TParam1 param1, TParam2 param2, TParam3 param3)
-    TValue Spawn(TParam1 param1, TParam2 param2, TParam3 param3) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_4::Spawn");
+    TValue Spawn_NEW(TParam1 param1, TParam2 param2, TParam3 param3) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_4::Spawn_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(param1, param2, param3)));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, param1, param2, param3);
     }
+    // protected System.Void Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TValue item)
+    // Offset: 0xFFFFFFFF
+    void Reinitialize_NEW(TParam1 p1, TParam2 p2, TParam3 p3, TValue item) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_4::Reinitialize_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Reinitialize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(p1, p2, p3, item)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, p1, p2, p3, item);
+    }
     // private TValue Zenject.IFactory<TParam1,TParam2,TParam3,TValue>.Create(TParam1 p1, TParam2 p2, TParam3 p3)
     // Offset: 0xFFFFFFFF
-    // Implemented from: Zenject.IFactory`4
-    // Base method: TValue IFactory_4::Create(TParam1 p1, TParam2 p2, TParam3 p3)
-    TValue Zenject_IFactory_4_Create(TParam1 p1, TParam2 p2, TParam3 p3) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_4::Zenject.IFactory<TParam1,TParam2,TParam3,TValue>.Create");
+    TValue Zenject_IFactory$TParam1_TParam2_TParam3_TValue$_Create_NEW(TParam1 p1, TParam2 p2, TParam3 p3) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_4::Zenject.IFactory<TParam1,TParam2,TParam3,TValue>.Create_NEW");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Zenject.IFactory<TParam1,TParam2,TParam3,TValue>.Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(p1, p2, p3))));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, p1, p2, p3);
     }

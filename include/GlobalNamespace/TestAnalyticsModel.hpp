@@ -39,22 +39,16 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IAnalyticsModel*>(this);
     }
     // public System.Boolean get_supportsOpenDataPrivacyPage()
-    // Offset: 0xF413A0
-    // Implemented from: IAnalyticsModel
-    // Base method: System.Boolean IAnalyticsModel::get_supportsOpenDataPrivacyPage()
-    bool get_supportsOpenDataPrivacyPage();
+    // Offset: 0x101A998
+    bool get_supportsOpenDataPrivacyPage_NEW();
     // public System.Void OpenDataPrivacyPage()
-    // Offset: 0xF413A8
-    // Implemented from: IAnalyticsModel
-    // Base method: System.Void IAnalyticsModel::OpenDataPrivacyPage()
-    void OpenDataPrivacyPage();
+    // Offset: 0x101A9A0
+    void OpenDataPrivacyPage_NEW();
     // public System.Void LogEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
-    // Offset: 0xF413AC
-    // Implemented from: IAnalyticsModel
-    // Base method: System.Void IAnalyticsModel::LogEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
-    void LogEvent(::Il2CppString* eventType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* eventData);
+    // Offset: 0x101A9A4
+    void LogEvent_NEW(::Il2CppString* eventType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* eventData);
     // public System.Void .ctor()
-    // Offset: 0xF41518
+    // Offset: 0x101AB08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

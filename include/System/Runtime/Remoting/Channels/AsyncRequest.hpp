@@ -41,7 +41,7 @@ namespace System::Runtime::Remoting::Channels {
     // Creating value type constructor for type: AsyncRequest
     AsyncRequest(System::Runtime::Remoting::Messaging::IMessageSink* ReplySink_ = {}, System::Runtime::Remoting::Messaging::IMessage* MsgRequest_ = {}) noexcept : ReplySink{ReplySink_}, MsgRequest{MsgRequest_} {}
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessage msgRequest, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x1310A4C
+    // Offset: 0x1305C34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncRequest* New_ctor(System::Runtime::Remoting::Messaging::IMessage* msgRequest, System::Runtime::Remoting::Messaging::IMessageSink* replySink) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Channels::AsyncRequest::.ctor");

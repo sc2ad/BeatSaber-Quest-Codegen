@@ -16,14 +16,14 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
+  // Forward declaring type: IDifficultyBeatmapSet
+  class IDifficultyBeatmapSet;
   // Forward declaring type: BeatmapLevelDataSO
   class BeatmapLevelDataSO;
   // Forward declaring type: BeatmapCharacteristicCollectionSO
   class BeatmapCharacteristicCollectionSO;
   // Forward declaring type: IBeatmapLevel
   class IBeatmapLevel;
-  // Forward declaring type: IDifficultyBeatmapSet
-  class IDifficultyBeatmapSet;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -59,23 +59,19 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IBeatmapLevelData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelData*>(this);
     }
+    // public UnityEngine.AudioClip get_audioClip()
+    // Offset: 0x10745E4
+    UnityEngine::AudioClip* get_audioClip_NEW();
+    // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
+    // Offset: 0x10745EC
+    ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets_NEW();
     // public System.Void .ctor(BeatmapLevelDataSO beatmapLevelData, BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection, IBeatmapLevel parentLevel)
-    // Offset: 0x10763C4
+    // Offset: 0x1073F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData* New_ctor(GlobalNamespace::BeatmapLevelDataSO* beatmapLevelData, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, GlobalNamespace::IBeatmapLevel* parentLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData*, creationType>(beatmapLevelData, beatmapCharacteristicCollection, parentLevel)));
     }
-    // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x1076A90
-    // Implemented from: IBeatmapLevelData
-    // Base method: UnityEngine.AudioClip IBeatmapLevelData::get_audioClip()
-    UnityEngine::AudioClip* get_audioClip();
-    // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x1076A98
-    // Implemented from: IBeatmapLevelData
-    // Base method: IDifficultyBeatmapSet[] IBeatmapLevelData::get_difficultyBeatmapSets()
-    ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
   }; // BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/BeatmapLevelData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData), 24 + sizeof(::Array<GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet*>*)> __GlobalNamespace_BeatmapLevelDataLoaderSO_BeatmapLevelFromPreview_BeatmapLevelDataSizeCheck;

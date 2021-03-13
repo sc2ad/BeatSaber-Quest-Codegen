@@ -24,8 +24,8 @@ namespace UnityEngine::Playables {
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: GameEnergyCounter
-  class GameEnergyCounter;
+  // Forward declaring type: IGameEnergyCounter
+  class IGameEnergyCounter;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
@@ -59,14 +59,14 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* playableDirector;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD398D4
+    // [SpaceAttribute] Offset: 0xD24FCC
     // private UnityEngine.UI.Image _batteryLifeSegmentPrefab
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::UI::Image* batteryLifeSegmentPrefab;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD3990C
+    // [SpaceAttribute] Offset: 0xD25004
     // private System.Single _batterySegmentSeparatorWidth
     // Size: 0x4
     // Offset: 0x30
@@ -79,13 +79,13 @@ namespace GlobalNamespace {
     float batterySegmentHorizontalPadding;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xD39954
-    // private readonly GameEnergyCounter _gameEnergyCounter
+    // [InjectAttribute] Offset: 0xD2504C
+    // private readonly IGameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x38
-    GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
+    GlobalNamespace::IGameEnergyCounter* gameEnergyCounter;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::GameEnergyCounter*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IGameEnergyCounter*) == 0x8);
     // private System.Collections.Generic.List`1<UnityEngine.UI.Image> _batteryLifeSegments
     // Size: 0x8
     // Offset: 0x40
@@ -107,32 +107,32 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
     // Creating value type constructor for type: GameEnergyUIPanel
-    GameEnergyUIPanel(UnityEngine::UI::Image* energyBar_ = {}, UnityEngine::Playables::PlayableDirector* playableDirector_ = {}, UnityEngine::UI::Image* batteryLifeSegmentPrefab_ = {}, float batterySegmentSeparatorWidth_ = {}, float batterySegmentHorizontalPadding_ = {}, GlobalNamespace::GameEnergyCounter* gameEnergyCounter_ = {}, System::Collections::Generic::List_1<UnityEngine::UI::Image*>* batteryLifeSegments_ = {}, int activeBatteryLifeSegmentsCount_ = {}, UnityEngine::RectTransform* energyBarRectTransform_ = {}) noexcept : energyBar{energyBar_}, playableDirector{playableDirector_}, batteryLifeSegmentPrefab{batteryLifeSegmentPrefab_}, batterySegmentSeparatorWidth{batterySegmentSeparatorWidth_}, batterySegmentHorizontalPadding{batterySegmentHorizontalPadding_}, gameEnergyCounter{gameEnergyCounter_}, batteryLifeSegments{batteryLifeSegments_}, activeBatteryLifeSegmentsCount{activeBatteryLifeSegmentsCount_}, energyBarRectTransform{energyBarRectTransform_} {}
+    GameEnergyUIPanel(UnityEngine::UI::Image* energyBar_ = {}, UnityEngine::Playables::PlayableDirector* playableDirector_ = {}, UnityEngine::UI::Image* batteryLifeSegmentPrefab_ = {}, float batterySegmentSeparatorWidth_ = {}, float batterySegmentHorizontalPadding_ = {}, GlobalNamespace::IGameEnergyCounter* gameEnergyCounter_ = {}, System::Collections::Generic::List_1<UnityEngine::UI::Image*>* batteryLifeSegments_ = {}, int activeBatteryLifeSegmentsCount_ = {}, UnityEngine::RectTransform* energyBarRectTransform_ = {}) noexcept : energyBar{energyBar_}, playableDirector{playableDirector_}, batteryLifeSegmentPrefab{batteryLifeSegmentPrefab_}, batterySegmentSeparatorWidth{batterySegmentSeparatorWidth_}, batterySegmentHorizontalPadding{batterySegmentHorizontalPadding_}, gameEnergyCounter{gameEnergyCounter_}, batteryLifeSegments{batteryLifeSegments_}, activeBatteryLifeSegmentsCount{activeBatteryLifeSegmentsCount_}, energyBarRectTransform{energyBarRectTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF3303C
+    // Offset: 0xF33E10
     void Start();
     // private System.Void Init()
-    // Offset: 0xF33104
+    // Offset: 0xF33F90
     void Init();
     // protected System.Void OnDestroy()
-    // Offset: 0xF33798
+    // Offset: 0xF3494C
     void OnDestroy();
     // private System.Void CreateUIForBatteryEnergyType(System.Int32 batteryLives)
-    // Offset: 0xF33260
+    // Offset: 0xF34338
     void CreateUIForBatteryEnergyType(int batteryLives);
     // private System.Void RefreshEnergyUI(System.Single energy)
-    // Offset: 0xF33560
+    // Offset: 0xF34628
     void RefreshEnergyUI(float energy);
     // private System.Void HandleGameEnergyCounterDidInit()
-    // Offset: 0xF338B0
+    // Offset: 0xF34AEC
     void HandleGameEnergyCounterDidInit();
     // private System.Void HandleGameEnergyDidChange(System.Single energy)
-    // Offset: 0xF338B4
+    // Offset: 0xF34AF0
     void HandleGameEnergyDidChange(float energy);
     // public System.Void .ctor()
-    // Offset: 0xF338B8
+    // Offset: 0xF34AF4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

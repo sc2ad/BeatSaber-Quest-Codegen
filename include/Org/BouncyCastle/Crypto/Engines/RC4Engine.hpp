@@ -60,29 +60,23 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static int _get_STATE_LENGTH();
     // Set static field: static private readonly System.Int32 STATE_LENGTH
     static void _set_STATE_LENGTH(int value);
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x1BAE980
+    void Init_NEW(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x1BAEC6C
+    void ProcessBytes_NEW(::Array<uint8_t>* input, int inOff, int length, ::Array<uint8_t>* output, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x1BAEE5C
+    void Reset_NEW();
     // private System.Void SetKey(System.Byte[] keyBytes)
-    // Offset: 0x1C0F6C0
+    // Offset: 0x1BAEAA0
     void SetKey(::Array<uint8_t>* keyBytes);
     // static private System.Void .cctor()
-    // Offset: 0x1C0FAA0
+    // Offset: 0x1BAEE64
     static void _cctor();
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1C0F590
-    // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
-    // Base method: System.Void IStreamCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1C0F8A8
-    // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
-    // Base method: System.Void IStreamCipher::ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
-    void ProcessBytes(::Array<uint8_t>* input, int inOff, int length, ::Array<uint8_t>* output, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x1C0FA98
-    // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
-    // Base method: System.Void IStreamCipher::Reset()
-    void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1C0FAF4
+    // Offset: 0x1BAEEB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

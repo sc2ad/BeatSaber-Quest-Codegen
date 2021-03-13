@@ -57,22 +57,16 @@ namespace TMPro {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xFF7E3C
-    // Implemented from: UnityEngine.EventSystems.IPointerClickHandler
-    // Base method: System.Void IPointerClickHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
+    // Offset: 0xFB5F50
+    void OnPointerClick_NEW(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSelect(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0xFF7EA8
-    // Implemented from: UnityEngine.EventSystems.ISelectHandler
-    // Base method: System.Void ISelectHandler::OnSelect(UnityEngine.EventSystems.BaseEventData eventData)
-    void OnSelect(UnityEngine::EventSystems::BaseEventData* eventData);
+    // Offset: 0xFB5FBC
+    void OnSelect_NEW(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnDeselect(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0xFF7F24
-    // Implemented from: UnityEngine.EventSystems.IDeselectHandler
-    // Base method: System.Void IDeselectHandler::OnDeselect(UnityEngine.EventSystems.BaseEventData eventData)
-    void OnDeselect(UnityEngine::EventSystems::BaseEventData* eventData);
+    // Offset: 0xFB6038
+    void OnDeselect_NEW(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0xFF7F9C
+    // Offset: 0xFB60B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

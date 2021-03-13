@@ -76,50 +76,50 @@ namespace System::Net {
     // Set static field: static System.Net.IPEndPoint IPv6Any
     static void _set_IPv6Any(System::Net::IPEndPoint* value);
     // public System.Void .ctor(System.Net.IPAddress address, System.Int32 port)
-    // Offset: 0x150B97C
+    // Offset: 0x1494418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPEndPoint* New_ctor(System::Net::IPAddress* address, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::IPEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPEndPoint*, creationType>(address, port)));
     }
     // public System.Net.IPAddress get_Address()
-    // Offset: 0x150BA84
+    // Offset: 0x1494518
     System::Net::IPAddress* get_Address();
     // public System.Int32 get_Port()
-    // Offset: 0x150BA8C
+    // Offset: 0x1494520
     int get_Port();
     // static private System.Void .cctor()
-    // Offset: 0x150C01C
+    // Offset: 0x1494AB0
     static void _cctor();
     // public override System.Net.Sockets.AddressFamily get_AddressFamily()
-    // Offset: 0x150B960
+    // Offset: 0x14943FC
     // Implemented from: System.Net.EndPoint
-    // Base method: System.Net.Sockets.AddressFamily EndPoint::get_AddressFamily()
+    // Base method: System.Net.Sockets.AddressFamily EndPoint::get_AddressFamily_NEW()
     System::Net::Sockets::AddressFamily get_AddressFamily();
     // public override System.String ToString()
-    // Offset: 0x150BA94
+    // Offset: 0x1494528
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
     // public override System.Net.SocketAddress Serialize()
-    // Offset: 0x150BB50
+    // Offset: 0x14945E4
     // Implemented from: System.Net.EndPoint
-    // Base method: System.Net.SocketAddress EndPoint::Serialize()
+    // Base method: System.Net.SocketAddress EndPoint::Serialize_NEW()
     System::Net::SocketAddress* Serialize();
     // public override System.Net.EndPoint Create(System.Net.SocketAddress socketAddress)
-    // Offset: 0x150BBC8
+    // Offset: 0x149465C
     // Implemented from: System.Net.EndPoint
-    // Base method: System.Net.EndPoint EndPoint::Create(System.Net.SocketAddress socketAddress)
+    // Base method: System.Net.EndPoint EndPoint::Create_NEW(System.Net.SocketAddress socketAddress)
     System::Net::EndPoint* Create(System::Net::SocketAddress* socketAddress);
     // public override System.Boolean Equals(System.Object comparand)
-    // Offset: 0x150BEF0
+    // Offset: 0x1494984
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object comparand)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object comparand)
     bool Equals(::Il2CppObject* comparand);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x150BFE0
+    // Offset: 0x1494A74
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
   }; // System.Net.IPEndPoint
   #pragma pack(pop)

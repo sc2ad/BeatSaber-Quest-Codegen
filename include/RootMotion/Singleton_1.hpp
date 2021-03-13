@@ -42,8 +42,8 @@ namespace RootMotion {
     }
     // protected System.Void Awake()
     // Offset: 0xFFFFFFFF
-    void Awake() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Singleton_1::Awake");
+    void Awake_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Singleton_1::Awake_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Awake", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }

@@ -19,7 +19,7 @@ namespace RootMotion {
   // [] Offset: FFFFFFFF
   class Comments : public UnityEngine::MonoBehaviour {
     public:
-    // [MultilineAttribute] Offset: 0xD27284
+    // [MultilineAttribute] Offset: 0xD121E8
     // public System.String text
     // Size: 0x8
     // Offset: 0x18
@@ -31,7 +31,7 @@ namespace RootMotion {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void .ctor()
-    // Offset: 0x1B4E670
+    // Offset: 0x1AAB11C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

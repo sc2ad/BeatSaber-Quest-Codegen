@@ -37,7 +37,7 @@ namespace RootMotion::FinalIK {
     int iterations;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [RangeAttribute] Offset: 0xD28C14
+    // [RangeAttribute] Offset: 0xD13B78
     // public System.Single rootPin
     // Size: 0x4
     // Offset: 0x5C
@@ -73,51 +73,51 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: IKSolverFABRIKRoot
     IKSolverFABRIKRoot(int iterations_ = {}, float rootPin_ = {}, ::Array<RootMotion::FinalIK::FABRIKChain*>* chains_ = {}, bool zeroWeightApplied_ = {}, ::Array<bool>* isRoot_ = {}, UnityEngine::Vector3 rootDefaultPosition_ = {}) noexcept : iterations{iterations_}, rootPin{rootPin_}, chains{chains_}, zeroWeightApplied{zeroWeightApplied_}, isRoot{isRoot_}, rootDefaultPosition{rootDefaultPosition_} {}
     // private System.Boolean IsRoot(System.Int32 index)
-    // Offset: 0x1AD8244
+    // Offset: 0x1A447A0
     bool IsRoot(int index);
     // private System.Void AddPointsToArray(ref RootMotion.FinalIK.IKSolver/Point[] array, RootMotion.FinalIK.FABRIKChain chain)
-    // Offset: 0x1AD88F8
+    // Offset: 0x1A44E54
     void AddPointsToArray(::Array<RootMotion::FinalIK::IKSolver::Point*>*& array, RootMotion::FinalIK::FABRIKChain* chain);
     // private UnityEngine.Vector3 GetCentroid()
-    // Offset: 0x1AD8514
+    // Offset: 0x1A44A70
     UnityEngine::Vector3 GetCentroid();
     // public override System.Boolean IsValid(ref System.String message)
-    // Offset: 0x1AD7624
+    // Offset: 0x1A43C9C
     // Implemented from: RootMotion.FinalIK.IKSolver
-    // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
+    // Base method: System.Boolean IKSolver::IsValid_NEW(ref System.String message)
     bool IsValid(::Il2CppString*& message);
     // public override System.Void StoreDefaultLocalState()
-    // Offset: 0x1AD7FFC
+    // Offset: 0x1A44568
     // Implemented from: RootMotion.FinalIK.IKSolver
-    // Base method: System.Void IKSolver::StoreDefaultLocalState()
+    // Base method: System.Void IKSolver::StoreDefaultLocalState_NEW()
     void StoreDefaultLocalState();
     // public override System.Void FixTransforms()
-    // Offset: 0x1AD8094
+    // Offset: 0x1A44600
     // Implemented from: RootMotion.FinalIK.IKSolver
-    // Base method: System.Void IKSolver::FixTransforms()
+    // Base method: System.Void IKSolver::FixTransforms_NEW()
     void FixTransforms();
     // protected override System.Void OnInitiate()
-    // Offset: 0x1AD8134
+    // Offset: 0x1A446A0
     // Implemented from: RootMotion.FinalIK.IKSolver
-    // Base method: System.Void IKSolver::OnInitiate()
+    // Base method: System.Void IKSolver::OnInitiate_NEW()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x1AD82E0
+    // Offset: 0x1A4483C
     // Implemented from: RootMotion.FinalIK.IKSolver
-    // Base method: System.Void IKSolver::OnUpdate()
+    // Base method: System.Void IKSolver::OnUpdate_NEW()
     void OnUpdate();
     // public override RootMotion.FinalIK.IKSolver/Point[] GetPoints()
-    // Offset: 0x1AD8848
+    // Offset: 0x1A44DA4
     // Implemented from: RootMotion.FinalIK.IKSolver
-    // Base method: RootMotion.FinalIK.IKSolver/Point[] IKSolver::GetPoints()
+    // Base method: RootMotion.FinalIK.IKSolver/Point[] IKSolver::GetPoints_NEW()
     ::Array<RootMotion::FinalIK::IKSolver::Point*>* GetPoints();
     // public override RootMotion.FinalIK.IKSolver/Point GetPoint(UnityEngine.Transform transform)
-    // Offset: 0x1AD8A60
+    // Offset: 0x1A44FA4
     // Implemented from: RootMotion.FinalIK.IKSolver
-    // Base method: RootMotion.FinalIK.IKSolver/Point IKSolver::GetPoint(UnityEngine.Transform transform)
+    // Base method: RootMotion.FinalIK.IKSolver/Point IKSolver::GetPoint_NEW(UnityEngine.Transform transform)
     RootMotion::FinalIK::IKSolver::Point* GetPoint(UnityEngine::Transform* transform);
     // public System.Void .ctor()
-    // Offset: 0x1AD8AF8
+    // Offset: 0x1A4503C
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::.ctor()
     // Base method: System.Void Object::.ctor()

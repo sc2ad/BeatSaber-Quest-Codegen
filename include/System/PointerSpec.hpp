@@ -48,26 +48,22 @@ namespace System {
       return pointer_level;
     }
     // System.Void .ctor(System.Int32 pointer_level)
-    // Offset: 0x1B24CB4
+    // Offset: 0x1ABC8F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PointerSpec* New_ctor(int pointer_level) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::PointerSpec::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PointerSpec*, creationType>(pointer_level)));
     }
     // public System.Type Resolve(System.Type type)
-    // Offset: 0x1B24CBC
-    // Implemented from: System.ModifierSpec
-    // Base method: System.Type ModifierSpec::Resolve(System.Type type)
-    System::Type* Resolve(System::Type* type);
+    // Offset: 0x1ABC8F8
+    System::Type* Resolve_NEW(System::Type* type);
     // public System.Text.StringBuilder Append(System.Text.StringBuilder sb)
-    // Offset: 0x1B24D14
-    // Implemented from: System.ModifierSpec
-    // Base method: System.Text.StringBuilder ModifierSpec::Append(System.Text.StringBuilder sb)
-    System::Text::StringBuilder* Append(System::Text::StringBuilder* sb);
+    // Offset: 0x1ABC950
+    System::Text::StringBuilder* Append_NEW(System::Text::StringBuilder* sb);
     // public override System.String ToString()
-    // Offset: 0x1B24D3C
+    // Offset: 0x1ABC978
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
   }; // System.PointerSpec
   #pragma pack(pop)

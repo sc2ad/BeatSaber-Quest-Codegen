@@ -15,8 +15,8 @@ namespace UnityEngine::TestTools::TestRunner {
 }
 // Forward declaring namespace: UnityEngine::TestTools::TestRunner::GUI
 namespace UnityEngine::TestTools::TestRunner::GUI {
-  // Forward declaring type: TestRunnerFilter
-  class TestRunnerFilter;
+  // Forward declaring type: RuntimeTestRunnerFilter
+  class RuntimeTestRunnerFilter;
 }
 // Forward declaring namespace: NUnit::Framework::Interfaces
 namespace NUnit::Framework::Interfaces {
@@ -34,12 +34,12 @@ namespace UnityEngine::TestTools::TestRunner {
     public:
     // Nested type: UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c
     class $$c;
-    // public UnityEngine.TestTools.TestRunner.GUI.TestRunnerFilter[] filters
+    // public UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter[] filters
     // Size: 0x8
     // Offset: 0x10
-    ::Array<UnityEngine::TestTools::TestRunner::GUI::TestRunnerFilter*>* filters;
+    ::Array<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>* filters;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::TestTools::TestRunner::GUI::TestRunnerFilter*>*) == 0x8);
+    static_assert(sizeof(::Array<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>*) == 0x8);
     // public System.Boolean sceneBased
     // Size: 0x1
     // Offset: 0x18
@@ -61,12 +61,12 @@ namespace UnityEngine::TestTools::TestRunner {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: PlaymodeTestsControllerSettings
-    PlaymodeTestsControllerSettings(::Array<UnityEngine::TestTools::TestRunner::GUI::TestRunnerFilter*>* filters_ = {}, bool sceneBased_ = {}, ::Il2CppString* originalScene_ = {}, ::Il2CppString* bootstrapScene_ = {}) noexcept : filters{filters_}, sceneBased{sceneBased_}, originalScene{originalScene_}, bootstrapScene{bootstrapScene_} {}
+    PlaymodeTestsControllerSettings(::Array<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>* filters_ = {}, bool sceneBased_ = {}, ::Il2CppString* originalScene_ = {}, ::Il2CppString* bootstrapScene_ = {}) noexcept : filters{filters_}, sceneBased{sceneBased_}, originalScene{originalScene_}, bootstrapScene{bootstrapScene_} {}
     // NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
-    // Offset: 0x133EF64
+    // Offset: 0x1356C08
     NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
     // public System.Void .ctor()
-    // Offset: 0x133E9C4
+    // Offset: 0x13566B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

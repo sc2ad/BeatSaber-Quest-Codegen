@@ -61,23 +61,23 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF942B8
+    // Offset: 0x10C4EB4
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0xF942FC
+    // Offset: 0x10C4EEC
     void LateUpdate();
     // public override System.Void SetVelocity(UnityEngine.Vector3 force)
-    // Offset: 0xF944F8
+    // Offset: 0x10C50E8
     // Implemented from: NoteDebrisPhysics
-    // Base method: System.Void NoteDebrisPhysics::SetVelocity(UnityEngine.Vector3 force)
+    // Base method: System.Void NoteDebrisPhysics::SetVelocity_NEW(UnityEngine.Vector3 force)
     void SetVelocity(UnityEngine::Vector3 force);
     // public override System.Void SetAngularVelocity(UnityEngine.Vector3 torque)
-    // Offset: 0xF9450C
+    // Offset: 0x10C50FC
     // Implemented from: NoteDebrisPhysics
-    // Base method: System.Void NoteDebrisPhysics::SetAngularVelocity(UnityEngine.Vector3 torque)
+    // Base method: System.Void NoteDebrisPhysics::SetAngularVelocity_NEW(UnityEngine.Vector3 torque)
     void SetAngularVelocity(UnityEngine::Vector3 torque);
     // public System.Void .ctor()
-    // Offset: 0xF945AC
+    // Offset: 0x10C519C
     // Implemented from: NoteDebrisPhysics
     // Base method: System.Void NoteDebrisPhysics::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

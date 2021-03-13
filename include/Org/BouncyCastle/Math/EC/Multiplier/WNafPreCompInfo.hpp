@@ -69,49 +69,49 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
     // System.Int32 DecrementPromotionCountdown()
-    // Offset: 0x1BBC9C8
+    // Offset: 0x1B308BC
     int DecrementPromotionCountdown();
     // System.Int32 get_PromotionCountdown()
-    // Offset: 0x1BBCA0C
+    // Offset: 0x1B30900
     int get_PromotionCountdown();
     // System.Void set_PromotionCountdown(System.Int32 value)
-    // Offset: 0x1BBCA30
+    // Offset: 0x1B30924
     void set_PromotionCountdown(int value);
     // public System.Boolean get_IsPromoted()
-    // Offset: 0x1BBCA58
-    bool get_IsPromoted();
+    // Offset: 0x1B3094C
+    bool get_IsPromoted_NEW();
     // public System.Int32 get_ConfWidth()
-    // Offset: 0x1BBCA80
-    int get_ConfWidth();
+    // Offset: 0x1B30974
+    int get_ConfWidth_NEW();
     // public System.Void set_ConfWidth(System.Int32 value)
-    // Offset: 0x1BBCA88
-    void set_ConfWidth(int value);
+    // Offset: 0x1B3097C
+    void set_ConfWidth_NEW(int value);
     // public Org.BouncyCastle.Math.EC.ECPoint[] get_PreComp()
-    // Offset: 0x1BBCA90
-    ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* get_PreComp();
+    // Offset: 0x1B30984
+    ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* get_PreComp_NEW();
     // public System.Void set_PreComp(Org.BouncyCastle.Math.EC.ECPoint[] value)
-    // Offset: 0x1BBCA98
-    void set_PreComp(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* value);
+    // Offset: 0x1B3098C
+    void set_PreComp_NEW(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* value);
     // public Org.BouncyCastle.Math.EC.ECPoint[] get_PreCompNeg()
-    // Offset: 0x1BBCAA0
-    ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* get_PreCompNeg();
+    // Offset: 0x1B30994
+    ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* get_PreCompNeg_NEW();
     // public System.Void set_PreCompNeg(Org.BouncyCastle.Math.EC.ECPoint[] value)
-    // Offset: 0x1BBCAA8
-    void set_PreCompNeg(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* value);
+    // Offset: 0x1B3099C
+    void set_PreCompNeg_NEW(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_Twice()
-    // Offset: 0x1BBCAB0
-    Org::BouncyCastle::Math::EC::ECPoint* get_Twice();
+    // Offset: 0x1B309A4
+    Org::BouncyCastle::Math::EC::ECPoint* get_Twice_NEW();
     // public System.Void set_Twice(Org.BouncyCastle.Math.EC.ECPoint value)
-    // Offset: 0x1BBCAB8
-    void set_Twice(Org::BouncyCastle::Math::EC::ECPoint* value);
+    // Offset: 0x1B309AC
+    void set_Twice_NEW(Org::BouncyCastle::Math::EC::ECPoint* value);
     // public System.Int32 get_Width()
-    // Offset: 0x1BBCAC0
-    int get_Width();
+    // Offset: 0x1B309B4
+    int get_Width_NEW();
     // public System.Void set_Width(System.Int32 value)
-    // Offset: 0x1BBCAC8
-    void set_Width(int value);
+    // Offset: 0x1B309BC
+    void set_Width_NEW(int value);
     // public System.Void .ctor()
-    // Offset: 0x1BBCAD0
+    // Offset: 0x1B309C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

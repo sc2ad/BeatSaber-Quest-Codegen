@@ -46,14 +46,20 @@ namespace System::Xml {
     static System::Xml::SecureStringHasher::HashCodeOfStringDelegate* _get_hashCodeDelegate();
     // Set static field: static private System.Xml.SecureStringHasher/HashCodeOfStringDelegate hashCodeDelegate
     static void _set_hashCodeDelegate(System::Xml::SecureStringHasher::HashCodeOfStringDelegate* value);
+    // public System.Boolean Equals(System.String x, System.String y)
+    // Offset: 0x17887C8
+    bool Equals_NEW(::Il2CppString* x, ::Il2CppString* y);
+    // public System.Int32 GetHashCode(System.String key)
+    // Offset: 0x17887E0
+    int GetHashCode_NEW(::Il2CppString* key);
     // static private System.Int32 GetHashCodeOfString(System.String key, System.Int32 sLen, System.Int64 additionalEntropy)
-    // Offset: 0x186B7BC
+    // Offset: 0x1788DE0
     static int GetHashCodeOfString(::Il2CppString* key, int sLen, int64_t additionalEntropy);
     // static private System.Xml.SecureStringHasher/HashCodeOfStringDelegate GetHashCodeDelegate()
-    // Offset: 0x186B21C
+    // Offset: 0x1788878
     static System::Xml::SecureStringHasher::HashCodeOfStringDelegate* GetHashCodeDelegate();
     // public System.Void .ctor()
-    // Offset: 0x186B130
+    // Offset: 0x1788798
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -61,16 +67,6 @@ namespace System::Xml {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::SecureStringHasher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecureStringHasher*, creationType>()));
     }
-    // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x186B160
-    // Implemented from: System.Collections.Generic.IEqualityComparer`1
-    // Base method: System.Boolean IEqualityComparer_1::Equals(System.String x, System.String y)
-    bool Equals(::Il2CppString* x, ::Il2CppString* y);
-    // public System.Int32 GetHashCode(System.String key)
-    // Offset: 0x186B178
-    // Implemented from: System.Collections.Generic.IEqualityComparer`1
-    // Base method: System.Int32 IEqualityComparer_1::GetHashCode(System.String key)
-    int GetHashCode(::Il2CppString* key);
   }; // System.Xml.SecureStringHasher
   #pragma pack(pop)
   static check_size<sizeof(SecureStringHasher), 16 + sizeof(int)> __System_Xml_SecureStringHasherSizeCheck;

@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class LevelSearchViewController::BeatmapLevelPackCollection : public ::Il2CppObject/*, public GlobalNamespace::IAnnotatedBeatmapLevelCollection*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD463A0
+    // [CompilerGeneratedAttribute] Offset: 0xD328BC
     // private IBeatmapLevelCollection <beatmapLevelCollection>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -50,31 +50,25 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::IBeatmapLevelCollection*() const noexcept {
       return beatmapLevelCollection;
     }
+    // public System.String get_collectionName()
+    // Offset: 0x109A374
+    ::Il2CppString* get_collectionName_NEW();
+    // public UnityEngine.Sprite get_coverImage()
+    // Offset: 0x109A37C
+    UnityEngine::Sprite* get_coverImage_NEW();
+    // public IBeatmapLevelCollection get_beatmapLevelCollection()
+    // Offset: 0x109A384
+    GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection_NEW();
     // private System.Void set_beatmapLevelCollection(IBeatmapLevelCollection value)
-    // Offset: 0x10E17EC
+    // Offset: 0x109A38C
     void set_beatmapLevelCollection(GlobalNamespace::IBeatmapLevelCollection* value);
     // public System.Void .ctor(IBeatmapLevelCollection beatmapLevelCollection)
-    // Offset: 0x10E1794
+    // Offset: 0x109A33C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelSearchViewController::BeatmapLevelPackCollection* New_ctor(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelSearchViewController::BeatmapLevelPackCollection*, creationType>(beatmapLevelCollection)));
     }
-    // public System.String get_collectionName()
-    // Offset: 0x10E17D4
-    // Implemented from: IAnnotatedBeatmapLevelCollection
-    // Base method: System.String IAnnotatedBeatmapLevelCollection::get_collectionName()
-    ::Il2CppString* get_collectionName();
-    // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x10E17DC
-    // Implemented from: IAnnotatedBeatmapLevelCollection
-    // Base method: UnityEngine.Sprite IAnnotatedBeatmapLevelCollection::get_coverImage()
-    UnityEngine::Sprite* get_coverImage();
-    // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x10E17E4
-    // Implemented from: IAnnotatedBeatmapLevelCollection
-    // Base method: IBeatmapLevelCollection IAnnotatedBeatmapLevelCollection::get_beatmapLevelCollection()
-    GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
   }; // LevelSearchViewController/BeatmapLevelPackCollection
   #pragma pack(pop)
   static check_size<sizeof(LevelSearchViewController::BeatmapLevelPackCollection), 16 + sizeof(GlobalNamespace::IBeatmapLevelCollection*)> __GlobalNamespace_LevelSearchViewController_BeatmapLevelPackCollectionSizeCheck;

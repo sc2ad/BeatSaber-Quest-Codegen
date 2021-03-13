@@ -49,21 +49,21 @@ namespace UnityEngine {
     static UnityEngine::RuntimePlatform _get_WindowsPlayer();
     // Set static field: static public UnityEngine.RuntimePlatform WindowsPlayer
     static void _set_WindowsPlayer(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC1714
+    // [ObsoleteAttribute] Offset: 0xCAABEC
     // static field const value: static public UnityEngine.RuntimePlatform OSXWebPlayer
     static constexpr const int OSXWebPlayer = 3;
     // Get static field: static public UnityEngine.RuntimePlatform OSXWebPlayer
     static UnityEngine::RuntimePlatform _get_OSXWebPlayer();
     // Set static field: static public UnityEngine.RuntimePlatform OSXWebPlayer
     static void _set_OSXWebPlayer(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC1750
+    // [ObsoleteAttribute] Offset: 0xCAAC28
     // static field const value: static public UnityEngine.RuntimePlatform OSXDashboardPlayer
     static constexpr const int OSXDashboardPlayer = 4;
     // Get static field: static public UnityEngine.RuntimePlatform OSXDashboardPlayer
     static UnityEngine::RuntimePlatform _get_OSXDashboardPlayer();
     // Set static field: static public UnityEngine.RuntimePlatform OSXDashboardPlayer
     static void _set_OSXDashboardPlayer(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC178C
+    // [ObsoleteAttribute] Offset: 0xCAAC64
     // static field const value: static public UnityEngine.RuntimePlatform WindowsWebPlayer
     static constexpr const int WindowsWebPlayer = 5;
     // Get static field: static public UnityEngine.RuntimePlatform WindowsWebPlayer
@@ -82,14 +82,14 @@ namespace UnityEngine {
     static UnityEngine::RuntimePlatform _get_IPhonePlayer();
     // Set static field: static public UnityEngine.RuntimePlatform IPhonePlayer
     static void _set_IPhonePlayer(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC17C8
+    // [ObsoleteAttribute] Offset: 0xCAACA0
     // static field const value: static public UnityEngine.RuntimePlatform XBOX360
     static constexpr const int XBOX360 = 10;
     // Get static field: static public UnityEngine.RuntimePlatform XBOX360
     static UnityEngine::RuntimePlatform _get_XBOX360();
     // Set static field: static public UnityEngine.RuntimePlatform XBOX360
     static void _set_XBOX360(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC1800
+    // [ObsoleteAttribute] Offset: 0xCAACD8
     // static field const value: static public UnityEngine.RuntimePlatform PS3
     static constexpr const int PS3 = 9;
     // Get static field: static public UnityEngine.RuntimePlatform PS3
@@ -102,14 +102,14 @@ namespace UnityEngine {
     static UnityEngine::RuntimePlatform _get_Android();
     // Set static field: static public UnityEngine.RuntimePlatform Android
     static void _set_Android(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC1838
+    // [ObsoleteAttribute] Offset: 0xCAAD10
     // static field const value: static public UnityEngine.RuntimePlatform NaCl
     static constexpr const int NaCl = 12;
     // Get static field: static public UnityEngine.RuntimePlatform NaCl
     static UnityEngine::RuntimePlatform _get_NaCl();
     // Set static field: static public UnityEngine.RuntimePlatform NaCl
     static void _set_NaCl(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC1870
+    // [ObsoleteAttribute] Offset: 0xCAAD48
     // static field const value: static public UnityEngine.RuntimePlatform FlashPlayer
     static constexpr const int FlashPlayer = 15;
     // Get static field: static public UnityEngine.RuntimePlatform FlashPlayer
@@ -134,7 +134,7 @@ namespace UnityEngine {
     static UnityEngine::RuntimePlatform _get_WebGLPlayer();
     // Set static field: static public UnityEngine.RuntimePlatform WebGLPlayer
     static void _set_WebGLPlayer(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC18A8
+    // [ObsoleteAttribute] Offset: 0xCAAD80
     // static field const value: static public UnityEngine.RuntimePlatform MetroPlayerX86
     static constexpr const int MetroPlayerX86 = 18;
     // Get static field: static public UnityEngine.RuntimePlatform MetroPlayerX86
@@ -147,7 +147,7 @@ namespace UnityEngine {
     static UnityEngine::RuntimePlatform _get_WSAPlayerX86();
     // Set static field: static public UnityEngine.RuntimePlatform WSAPlayerX86
     static void _set_WSAPlayerX86(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC18E0
+    // [ObsoleteAttribute] Offset: 0xCAADB8
     // static field const value: static public UnityEngine.RuntimePlatform MetroPlayerX64
     static constexpr const int MetroPlayerX64 = 19;
     // Get static field: static public UnityEngine.RuntimePlatform MetroPlayerX64
@@ -160,7 +160,7 @@ namespace UnityEngine {
     static UnityEngine::RuntimePlatform _get_WSAPlayerX64();
     // Set static field: static public UnityEngine.RuntimePlatform WSAPlayerX64
     static void _set_WSAPlayerX64(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC1918
+    // [ObsoleteAttribute] Offset: 0xCAADF0
     // static field const value: static public UnityEngine.RuntimePlatform MetroPlayerARM
     static constexpr const int MetroPlayerARM = 20;
     // Get static field: static public UnityEngine.RuntimePlatform MetroPlayerARM
@@ -173,28 +173,28 @@ namespace UnityEngine {
     static UnityEngine::RuntimePlatform _get_WSAPlayerARM();
     // Set static field: static public UnityEngine.RuntimePlatform WSAPlayerARM
     static void _set_WSAPlayerARM(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC1950
+    // [ObsoleteAttribute] Offset: 0xCAAE28
     // static field const value: static public UnityEngine.RuntimePlatform WP8Player
     static constexpr const int WP8Player = 21;
     // Get static field: static public UnityEngine.RuntimePlatform WP8Player
     static UnityEngine::RuntimePlatform _get_WP8Player();
     // Set static field: static public UnityEngine.RuntimePlatform WP8Player
     static void _set_WP8Player(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC1988
+    // [ObsoleteAttribute] Offset: 0xCAAE60
     // static field const value: static public UnityEngine.RuntimePlatform BlackBerryPlayer
     static constexpr const int BlackBerryPlayer = 22;
     // Get static field: static public UnityEngine.RuntimePlatform BlackBerryPlayer
     static UnityEngine::RuntimePlatform _get_BlackBerryPlayer();
     // Set static field: static public UnityEngine.RuntimePlatform BlackBerryPlayer
     static void _set_BlackBerryPlayer(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC19C0
+    // [ObsoleteAttribute] Offset: 0xCAAE98
     // static field const value: static public UnityEngine.RuntimePlatform TizenPlayer
     static constexpr const int TizenPlayer = 23;
     // Get static field: static public UnityEngine.RuntimePlatform TizenPlayer
     static UnityEngine::RuntimePlatform _get_TizenPlayer();
     // Set static field: static public UnityEngine.RuntimePlatform TizenPlayer
     static void _set_TizenPlayer(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC19F8
+    // [ObsoleteAttribute] Offset: 0xCAAED0
     // static field const value: static public UnityEngine.RuntimePlatform PSP2
     static constexpr const int PSP2 = 24;
     // Get static field: static public UnityEngine.RuntimePlatform PSP2
@@ -207,7 +207,7 @@ namespace UnityEngine {
     static UnityEngine::RuntimePlatform _get_PS4();
     // Set static field: static public UnityEngine.RuntimePlatform PS4
     static void _set_PS4(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC1A30
+    // [ObsoleteAttribute] Offset: 0xCAAF08
     // static field const value: static public UnityEngine.RuntimePlatform PSM
     static constexpr const int PSM = 26;
     // Get static field: static public UnityEngine.RuntimePlatform PSM
@@ -220,14 +220,14 @@ namespace UnityEngine {
     static UnityEngine::RuntimePlatform _get_XboxOne();
     // Set static field: static public UnityEngine.RuntimePlatform XboxOne
     static void _set_XboxOne(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC1A68
+    // [ObsoleteAttribute] Offset: 0xCAAF40
     // static field const value: static public UnityEngine.RuntimePlatform SamsungTVPlayer
     static constexpr const int SamsungTVPlayer = 28;
     // Get static field: static public UnityEngine.RuntimePlatform SamsungTVPlayer
     static UnityEngine::RuntimePlatform _get_SamsungTVPlayer();
     // Set static field: static public UnityEngine.RuntimePlatform SamsungTVPlayer
     static void _set_SamsungTVPlayer(UnityEngine::RuntimePlatform value);
-    // [ObsoleteAttribute] Offset: 0xCC1AA0
+    // [ObsoleteAttribute] Offset: 0xCAAF78
     // static field const value: static public UnityEngine.RuntimePlatform WiiU
     static constexpr const int WiiU = 30;
     // Get static field: static public UnityEngine.RuntimePlatform WiiU
@@ -258,6 +258,12 @@ namespace UnityEngine {
     static UnityEngine::RuntimePlatform _get_Stadia();
     // Set static field: static public UnityEngine.RuntimePlatform Stadia
     static void _set_Stadia(UnityEngine::RuntimePlatform value);
+    // static field const value: static public UnityEngine.RuntimePlatform CloudRendering
+    static constexpr const int CloudRendering = 35;
+    // Get static field: static public UnityEngine.RuntimePlatform CloudRendering
+    static UnityEngine::RuntimePlatform _get_CloudRendering();
+    // Set static field: static public UnityEngine.RuntimePlatform CloudRendering
+    static void _set_CloudRendering(UnityEngine::RuntimePlatform value);
   }; // UnityEngine.RuntimePlatform
   #pragma pack(pop)
   static check_size<sizeof(RuntimePlatform), 0 + sizeof(int)> __UnityEngine_RuntimePlatformSizeCheck;

@@ -65,20 +65,18 @@ namespace UnityEngine::Timeline {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
     }
     // public System.Void .ctor(UnityEngine.Animations.AnimationPlayableOutput output)
-    // Offset: 0x1727684
+    // Offset: 0x1662AC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationPreviewUpdateCallback* New_ctor(UnityEngine::Animations::AnimationPlayableOutput output) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::AnimationPreviewUpdateCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationPreviewUpdateCallback*, creationType>(output)));
     }
-    // private System.Void FetchPreviewComponents()
-    // Offset: 0x17278C0
-    void FetchPreviewComponents();
     // public System.Void Evaluate()
-    // Offset: 0x1727734
-    // Implemented from: UnityEngine.Timeline.ITimelineEvaluateCallback
-    // Base method: System.Void ITimelineEvaluateCallback::Evaluate()
-    void Evaluate();
+    // Offset: 0x1662B74
+    void Evaluate_NEW();
+    // private System.Void FetchPreviewComponents()
+    // Offset: 0x1662D00
+    void FetchPreviewComponents();
   }; // UnityEngine.Timeline.AnimationPreviewUpdateCallback
   #pragma pack(pop)
   static check_size<sizeof(AnimationPreviewUpdateCallback), 48 + sizeof(System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>*)> __UnityEngine_Timeline_AnimationPreviewUpdateCallbackSizeCheck;

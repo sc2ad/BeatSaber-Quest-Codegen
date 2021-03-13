@@ -46,76 +46,76 @@ namespace GlobalNamespace {
     ILobbyPlayersDataModel() noexcept {}
     // public System.Void add_didChangeEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_didChangeEvent(System::Action_1<::Il2CppString*>* value);
+    void add_didChangeEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_didChangeEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_didChangeEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_didChangeEvent_NEW(System::Action_1<::Il2CppString*>* value);
     // public System.String get_localUserId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_localUserId();
+    ::Il2CppString* get_localUserId_NEW();
     // public System.String get_hostUserId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_hostUserId();
+    ::Il2CppString* get_hostUserId_NEW();
     // public System.Collections.Generic.IReadOnlyDictionary`2<System.String,ILobbyPlayerDataModel> get_playersData()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IReadOnlyDictionary_2<::Il2CppString*, GlobalNamespace::ILobbyPlayerDataModel*>* get_playersData();
+    System::Collections::Generic::IReadOnlyDictionary_2<::Il2CppString*, GlobalNamespace::ILobbyPlayerDataModel*>* get_playersData_NEW();
     // public ILobbyPlayerDataModel GetLobbyPlayerDataModel(System.String userId)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::ILobbyPlayerDataModel* GetLobbyPlayerDataModel(::Il2CppString* userId);
+    GlobalNamespace::ILobbyPlayerDataModel* GetLobbyPlayerDataModel_NEW(::Il2CppString* userId);
     // public IPreviewBeatmapLevel GetPlayerBeatmapLevel(System.String userId)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::IPreviewBeatmapLevel* GetPlayerBeatmapLevel(::Il2CppString* userId);
+    GlobalNamespace::IPreviewBeatmapLevel* GetPlayerBeatmapLevel_NEW(::Il2CppString* userId);
     // public BeatmapDifficulty GetPlayerBeatmapDifficulty(System.String userId)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapDifficulty GetPlayerBeatmapDifficulty(::Il2CppString* userId);
+    GlobalNamespace::BeatmapDifficulty GetPlayerBeatmapDifficulty_NEW(::Il2CppString* userId);
     // public BeatmapCharacteristicSO GetPlayerBeatmapCharacteristic(System.String userId)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapCharacteristicSO* GetPlayerBeatmapCharacteristic(::Il2CppString* userId);
+    GlobalNamespace::BeatmapCharacteristicSO* GetPlayerBeatmapCharacteristic_NEW(::Il2CppString* userId);
     // public GameplayModifiers GetPlayerGameplayModifiers(System.String userId)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::GameplayModifiers* GetPlayerGameplayModifiers(::Il2CppString* userId);
+    GlobalNamespace::GameplayModifiers* GetPlayerGameplayModifiers_NEW(::Il2CppString* userId);
     // public System.Boolean GetPlayerIsActive(System.String userId)
     // Offset: 0xFFFFFFFF
-    bool GetPlayerIsActive(::Il2CppString* userId);
+    bool GetPlayerIsActive_NEW(::Il2CppString* userId);
     // public System.Boolean GetPlayerIsReady(System.String userId)
     // Offset: 0xFFFFFFFF
-    bool GetPlayerIsReady(::Il2CppString* userId);
+    bool GetPlayerIsReady_NEW(::Il2CppString* userId);
     // public System.Boolean GetPlayerIsInLobby(System.String userId)
     // Offset: 0xFFFFFFFF
-    bool GetPlayerIsInLobby(::Il2CppString* userId);
+    bool GetPlayerIsInLobby_NEW(::Il2CppString* userId);
     // public System.Void SetLocalPlayerBeatmapLevel(System.String levelId, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO characteristic)
     // Offset: 0xFFFFFFFF
-    void SetLocalPlayerBeatmapLevel(::Il2CppString* levelId, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* characteristic);
+    void SetLocalPlayerBeatmapLevel_NEW(::Il2CppString* levelId, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* characteristic);
     // public System.Void ClearLocalPlayerBeatmapLevel()
     // Offset: 0xFFFFFFFF
-    void ClearLocalPlayerBeatmapLevel();
+    void ClearLocalPlayerBeatmapLevel_NEW();
     // public System.Void SetLocalPlayerGameplayModifiers(GameplayModifiers modifiers)
     // Offset: 0xFFFFFFFF
-    void SetLocalPlayerGameplayModifiers(GlobalNamespace::GameplayModifiers* modifiers);
+    void SetLocalPlayerGameplayModifiers_NEW(GlobalNamespace::GameplayModifiers* modifiers);
     // public System.Void ClearLocalPlayerGameplayModifiers()
     // Offset: 0xFFFFFFFF
-    void ClearLocalPlayerGameplayModifiers();
+    void ClearLocalPlayerGameplayModifiers_NEW();
     // public System.Void SetLocalPlayerIsActive(System.Boolean isActive)
     // Offset: 0xFFFFFFFF
-    void SetLocalPlayerIsActive(bool isActive);
+    void SetLocalPlayerIsActive_NEW(bool isActive);
     // public System.Void SetLocalPlayerIsReady(System.Boolean isReady)
     // Offset: 0xFFFFFFFF
-    void SetLocalPlayerIsReady(bool isReady);
+    void SetLocalPlayerIsReady_NEW(bool isReady);
     // public System.Void SetLocalPlayerIsInLobby(System.Boolean isInLobby)
     // Offset: 0xFFFFFFFF
-    void SetLocalPlayerIsInLobby(bool isInLobby);
+    void SetLocalPlayerIsInLobby_NEW(bool isInLobby);
     // public System.Void ClearData()
     // Offset: 0xFFFFFFFF
-    void ClearData();
+    void ClearData_NEW();
     // public System.Void ClearRecommendations()
     // Offset: 0xFFFFFFFF
-    void ClearRecommendations();
+    void ClearRecommendations_NEW();
     // public System.Void Activate()
     // Offset: 0xFFFFFFFF
-    void Activate();
+    void Activate_NEW();
     // public System.Void Deactivate()
     // Offset: 0xFFFFFFFF
-    void Deactivate();
+    void Deactivate_NEW();
   }; // ILobbyPlayersDataModel
   #pragma pack(pop)
 }

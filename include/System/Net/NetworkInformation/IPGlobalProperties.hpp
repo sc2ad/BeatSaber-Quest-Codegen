@@ -19,25 +19,25 @@ namespace System::Net::NetworkInformation {
     public:
     // Creating value type constructor for type: IPGlobalProperties
     IPGlobalProperties() noexcept {}
-    // [CompilerGeneratedAttribute] Offset: 0xCB7D38
+    // [CompilerGeneratedAttribute] Offset: 0xCA11EC
     // Get static field: static private readonly System.Boolean <PlatformNeedsLibCWorkaround>k__BackingField
     static bool _get_$PlatformNeedsLibCWorkaround$k__BackingField();
     // Set static field: static private readonly System.Boolean <PlatformNeedsLibCWorkaround>k__BackingField
     static void _set_$PlatformNeedsLibCWorkaround$k__BackingField(bool value);
     // static private System.Boolean get_PlatformNeedsLibCWorkaround()
-    // Offset: 0x13539B0
+    // Offset: 0x1325EAC
     static bool get_PlatformNeedsLibCWorkaround();
     // static public System.Net.NetworkInformation.IPGlobalProperties GetIPGlobalProperties()
-    // Offset: 0x1353A00
+    // Offset: 0x1325EFC
     static System::Net::NetworkInformation::IPGlobalProperties* GetIPGlobalProperties();
     // static System.Net.NetworkInformation.IPGlobalProperties InternalGetIPGlobalProperties()
-    // Offset: 0x1353C14
+    // Offset: 0x13260CC
     static System::Net::NetworkInformation::IPGlobalProperties* InternalGetIPGlobalProperties();
     // public System.String get_DomainName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_DomainName();
+    ::Il2CppString* get_DomainName_NEW();
     // protected System.Void .ctor()
-    // Offset: 0x1353C18
+    // Offset: 0x13260D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

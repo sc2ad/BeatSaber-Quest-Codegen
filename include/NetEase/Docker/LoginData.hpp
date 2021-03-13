@@ -18,8 +18,8 @@ namespace NetEase::Docker {
   // [] Offset: FFFFFFFF
   struct LoginData/*, public System::ValueType*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xD24234
-    // [CompilerGeneratedAttribute] Offset: 0xD24234
+    // [DebuggerBrowsableAttribute] Offset: 0xD0E6D0
+    // [CompilerGeneratedAttribute] Offset: 0xD0E6D0
     // private System.Boolean <LoginSuccessful>k__BackingField
     // Size: 0x1
     // Offset: 0x0
@@ -28,16 +28,16 @@ namespace NetEase::Docker {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: LoginSuccessful and: LoginCode
     char __padding0[0x3] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xD24270
-    // [CompilerGeneratedAttribute] Offset: 0xD24270
+    // [DebuggerBrowsableAttribute] Offset: 0xD0E70C
+    // [CompilerGeneratedAttribute] Offset: 0xD0E70C
     // private System.Int32 <LoginCode>k__BackingField
     // Size: 0x4
     // Offset: 0x4
     int LoginCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xD242AC
-    // [CompilerGeneratedAttribute] Offset: 0xD242AC
+    // [DebuggerBrowsableAttribute] Offset: 0xD0E748
+    // [CompilerGeneratedAttribute] Offset: 0xD0E748
     // private System.String <UserName>k__BackingField
     // Size: 0x8
     // Offset: 0x8
@@ -51,19 +51,19 @@ namespace NetEase::Docker {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Boolean get_LoginSuccessful()
-    // Offset: 0xE32310
+    // Offset: 0xE17814
     bool get_LoginSuccessful();
     // public System.Void set_LoginSuccessful(System.Boolean value)
-    // Offset: 0xE32318
+    // Offset: 0xE1781C
     void set_LoginSuccessful(bool value);
     // public System.Void set_LoginCode(System.Int32 value)
-    // Offset: 0xE32324
+    // Offset: 0xE17828
     void set_LoginCode(int value);
     // public System.String get_UserName()
-    // Offset: 0xE3232C
+    // Offset: 0xE17830
     ::Il2CppString* get_UserName();
     // public System.Void set_UserName(System.String value)
-    // Offset: 0xE32334
+    // Offset: 0xE17838
     void set_UserName(::Il2CppString* value);
   }; // NetEase.Docker.LoginData
   #pragma pack(pop)

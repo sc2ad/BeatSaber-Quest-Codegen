@@ -62,28 +62,22 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IDiffieHellmanKeyPair() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDiffieHellmanKeyPair*>(this);
     }
+    // public System.Byte[] get_publicKey()
+    // Offset: 0x1210DE0
+    ::Array<uint8_t>* get_publicKey_NEW();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privateKeyParameters, System.Byte[] publicKey)
-    // Offset: 0x11D1CD0
+    // Offset: 0x1210758
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiffieHellmanUtility::ElipticalCurveKeyPair* New_ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters, ::Array<uint8_t>* publicKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiffieHellmanUtility::ElipticalCurveKeyPair*, creationType>(privateKeyParameters, publicKey)));
     }
-    // public System.Byte[] get_publicKey()
-    // Offset: 0x11D23B0
-    // Implemented from: IDiffieHellmanKeyPair
-    // Base method: System.Byte[] IDiffieHellmanKeyPair::get_publicKey()
-    ::Array<uint8_t>* get_publicKey();
     // public System.Threading.Tasks.Task`1<System.Byte[]> GetPreMasterSecretAsync(System.Byte[] clientPublicKey)
-    // Offset: 0x11D23B8
-    // Implemented from: IDiffieHellmanKeyPair
-    // Base method: System.Threading.Tasks.Task`1<System.Byte[]> IDiffieHellmanKeyPair::GetPreMasterSecretAsync(System.Byte[] clientPublicKey)
-    System::Threading::Tasks::Task_1<::Array<uint8_t>*>* GetPreMasterSecretAsync(::Array<uint8_t>* clientPublicKey);
+    // Offset: 0x1210DE8
+    System::Threading::Tasks::Task_1<::Array<uint8_t>*>* GetPreMasterSecretAsync_NEW(::Array<uint8_t>* clientPublicKey);
     // public System.Byte[] GetPreMasterSecret(System.Byte[] clientPublicKey)
-    // Offset: 0x11D24B4
-    // Implemented from: IDiffieHellmanKeyPair
-    // Base method: System.Byte[] IDiffieHellmanKeyPair::GetPreMasterSecret(System.Byte[] clientPublicKey)
-    ::Array<uint8_t>* GetPreMasterSecret(::Array<uint8_t>* clientPublicKey);
+    // Offset: 0x1210EC8
+    ::Array<uint8_t>* GetPreMasterSecret_NEW(::Array<uint8_t>* clientPublicKey);
   }; // DiffieHellmanUtility/ElipticalCurveKeyPair
   #pragma pack(pop)
   static check_size<sizeof(DiffieHellmanUtility::ElipticalCurveKeyPair), 24 + sizeof(::Array<uint8_t>*)> __GlobalNamespace_DiffieHellmanUtility_ElipticalCurveKeyPairSizeCheck;

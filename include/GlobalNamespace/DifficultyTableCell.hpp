@@ -63,26 +63,26 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DifficultyTableCell
     DifficultyTableCell(TMPro::TextMeshProUGUI* difficultyText_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* highlightImage_ = {}, GlobalNamespace::FillIndicator* fillIndicator_ = {}) noexcept : difficultyText{difficultyText_}, bgImage{bgImage_}, highlightImage{highlightImage_}, fillIndicator{fillIndicator_} {}
     // public System.Void set_difficultyText(System.String value)
-    // Offset: 0x104A100
+    // Offset: 0xFDDDF8
     void set_difficultyText(::Il2CppString* value);
     // public System.String get_difficultyText()
-    // Offset: 0x104A11C
+    // Offset: 0xFDDE14
     ::Il2CppString* get_difficultyText();
     // public System.Void set_difficultyValue(System.Int32 value)
-    // Offset: 0x104A138
+    // Offset: 0xFDDE30
     void set_difficultyValue(int value);
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x104A1D4
+    // Offset: 0xFDDECC
     // Implemented from: HMUI.SelectableCell
-    // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
+    // Base method: System.Void SelectableCell::SelectionDidChange_NEW(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x104A26C
+    // Offset: 0xFDDF64
     // Implemented from: HMUI.SelectableCell
-    // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
+    // Base method: System.Void SelectableCell::HighlightDidChange_NEW(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x104A2A8
+    // Offset: 0xFDDFA0
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

@@ -23,14 +23,11 @@ namespace Microsoft::Win32 {
     // Creating value type constructor for type: Win32Native
     Win32Native() noexcept {}
     // static public System.String GetMessage(System.Int32 hr)
-    // Offset: 0x188506C
+    // Offset: 0x18C4838
     static ::Il2CppString* GetMessage(int hr);
     // static public System.Int32 MakeHRFromErrorCode(System.Int32 errorCode)
-    // Offset: 0x18850E8
+    // Offset: 0x18C48B4
     static int MakeHRFromErrorCode(int errorCode);
-    // static System.UInt32 GetCurrentProcessId()
-    // Offset: 0x18850F4
-    static uint GetCurrentProcessId();
   }; // Microsoft.Win32.Win32Native
   #pragma pack(pop)
 }

@@ -40,14 +40,14 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD1C24C
+    // [CompilerGeneratedAttribute] Offset: 0xD06140
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1C25C
+    // [CompilerGeneratedAttribute] Offset: 0xD06150
     // private System.String <userName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -81,50 +81,40 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static public PacketPool`1<MasterServer.GetPublicServersRequest> get_pool()
-    // Offset: 0x111CA88
+    // Offset: 0x1286AF4
     static GlobalNamespace::PacketPool_1<MasterServer::GetPublicServersRequest*>* get_pool();
+    // public System.String get_userId()
+    // Offset: 0x1286B3C
+    ::Il2CppString* get_userId_NEW();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x111CAD8
+    // Offset: 0x1286B44
     void set_userId(::Il2CppString* value);
+    // public System.String get_userName()
+    // Offset: 0x1286B4C
+    ::Il2CppString* get_userName_NEW();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x111CAE8
+    // Offset: 0x1286B54
     void set_userName(::Il2CppString* value);
     // public MasterServer.GetPublicServersRequest Init(System.String userId, System.String userName, System.Int32 offset, System.Int32 count, GameplayServerFilter filter)
-    // Offset: 0x111CAF0
+    // Offset: 0x1286B5C
     MasterServer::GetPublicServersRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, int offset, int count, GlobalNamespace::GameplayServerFilter filter);
-    // public System.String get_userId()
-    // Offset: 0x111CAD0
-    // Implemented from: MasterServer.IUserClientToServerMessage
-    // Base method: System.String IUserClientToServerMessage::get_userId()
-    ::Il2CppString* get_userId();
-    // public System.String get_userName()
-    // Offset: 0x111CAE0
-    // Implemented from: MasterServer.IUserClientToServerMessage
-    // Base method: System.String IUserClientToServerMessage::get_userName()
-    ::Il2CppString* get_userName();
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x111CB68
+    // Offset: 0x1286B78
     // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Base method: System.Void BaseMasterServerReliableRequest::Serialize_NEW(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Serialize
-    // Maps to method: Serialize
-    void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x111CBE4
+    // Offset: 0x1286BF4
     // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize_NEW(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Deserialize
-    // Maps to method: Deserialize
-    void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x111CCA8
+    // Offset: 0x1286C90
     // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Release()
+    // Base method: System.Void BaseMasterServerReliableRequest::Release_NEW()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x111CD10
+    // Offset: 0x1286CF8
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

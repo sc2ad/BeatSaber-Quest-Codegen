@@ -37,14 +37,14 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD1C22C
+    // [CompilerGeneratedAttribute] Offset: 0xD06120
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1C23C
+    // [CompilerGeneratedAttribute] Offset: 0xD06130
     // private System.String <userName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -71,48 +71,38 @@ namespace MasterServer {
     }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
+    // public System.String get_userId()
+    // Offset: 0x121BA1C
+    ::Il2CppString* get_userId_NEW();
     // protected System.Void set_userId(System.String value)
-    // Offset: 0x11DD604
+    // Offset: 0x121BA24
     void set_userId(::Il2CppString* value);
+    // public System.String get_userName()
+    // Offset: 0x121BA2C
+    ::Il2CppString* get_userName_NEW();
     // protected System.Void set_userName(System.String value)
-    // Offset: 0x11DD614
+    // Offset: 0x121BA34
     void set_userName(::Il2CppString* value);
     // public MasterServer.BaseConnectToServerRequest WithEncryptionParams(System.Byte[] random, System.Byte[] publicKey)
-    // Offset: 0x11DD61C
+    // Offset: 0x121BA3C
     MasterServer::BaseConnectToServerRequest* WithEncryptionParams(::Array<uint8_t>* random, ::Array<uint8_t>* publicKey);
-    // public System.String get_userId()
-    // Offset: 0x11DD5FC
-    // Implemented from: MasterServer.IUserClientToServerMessage
-    // Base method: System.String IUserClientToServerMessage::get_userId()
-    ::Il2CppString* get_userId();
-    // public System.String get_userName()
-    // Offset: 0x11DD60C
-    // Implemented from: MasterServer.IUserClientToServerMessage
-    // Base method: System.String IUserClientToServerMessage::get_userName()
-    ::Il2CppString* get_userName();
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x11DD660
+    // Offset: 0x121BA80
     // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Base method: System.Void BaseMasterServerReliableRequest::Serialize_NEW(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Serialize
-    // Maps to method: Serialize
-    void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x11DD6D4
+    // Offset: 0x121BAF4
     // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize_NEW(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Deserialize
-    // Maps to method: Deserialize
-    void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x11DD760
+    // Offset: 0x121BB6C
     // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Release()
+    // Base method: System.Void BaseMasterServerReliableRequest::Release_NEW()
     void Release();
     // protected System.Void .ctor()
-    // Offset: 0x11DD7A4
+    // Offset: 0x121BB98
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

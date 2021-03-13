@@ -31,7 +31,7 @@ namespace Zenject {
   template<typename P1, typename T>
   class PrefabFactory_2 : public ::Il2CppObject/*, public Zenject::IFactory_3<UnityEngine::Object*, P1, T>*/ {
     public:
-    // [InjectAttribute] Offset: 0xD061DC
+    // [InjectAttribute] Offset: 0xCF0B40
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0
@@ -57,17 +57,10 @@ namespace Zenject {
     }
     // public T Create(UnityEngine.Object prefab, P1 param)
     // Offset: 0xFFFFFFFF
-    // Implemented from: Zenject.IFactory`3
-    // Base method: TValue IFactory_3::Create(UnityEngine.Object prefab, P1 param)
-    T Create(UnityEngine::Object* prefab, P1 param) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabFactory_2::Create");
+    T Create_NEW(UnityEngine::Object* prefab, P1 param) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabFactory_2::Create_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(prefab, param)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefab, param);
-    }
-    // Creating proxy method: Zenject_IFactory_3_Create
-    // Maps to method: Create
-    T Zenject_IFactory_3_Create(UnityEngine::Object* prefab, P1 param) {
-      return Create(prefab, param);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

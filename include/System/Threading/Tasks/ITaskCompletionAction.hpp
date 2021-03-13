@@ -23,7 +23,7 @@ namespace System::Threading::Tasks {
     ITaskCompletionAction() noexcept {}
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
     // Offset: 0xFFFFFFFF
-    void System_Threading_Tasks_ITaskCompletionAction_Invoke(System::Threading::Tasks::Task* completingTask);
+    void Invoke_NEW(System::Threading::Tasks::Task* completingTask);
   }; // System.Threading.Tasks.ITaskCompletionAction
   #pragma pack(pop)
 }

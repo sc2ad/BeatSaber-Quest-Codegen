@@ -28,7 +28,7 @@ namespace NUnit::Framework::Interfaces {
     IParameterDataSource() noexcept {}
     // public System.Collections.IEnumerable GetData(NUnit.Framework.Interfaces.IParameterInfo parameter)
     // Offset: 0xFFFFFFFF
-    System::Collections::IEnumerable* GetData(NUnit::Framework::Interfaces::IParameterInfo* parameter);
+    System::Collections::IEnumerable* GetData_NEW(NUnit::Framework::Interfaces::IParameterInfo* parameter);
   }; // NUnit.Framework.Interfaces.IParameterDataSource
   #pragma pack(pop)
 }

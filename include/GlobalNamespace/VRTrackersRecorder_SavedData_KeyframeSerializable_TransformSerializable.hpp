@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TransformSerializable
     TransformSerializable(float xPos_ = {}, float yPos_ = {}, float zPos_ = {}, float xRot_ = {}, float yRot_ = {}, float zRot_ = {}, float wRot_ = {}, bool valid_ = {}) noexcept : xPos{xPos_}, yPos{yPos_}, zPos{zPos_}, xRot{xRot_}, yRot{yRot_}, zRot{zRot_}, wRot{wRot_}, valid{valid_} {}
     // public System.Void .ctor()
-    // Offset: 0x1720CE8
+    // Offset: 0x20E14A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

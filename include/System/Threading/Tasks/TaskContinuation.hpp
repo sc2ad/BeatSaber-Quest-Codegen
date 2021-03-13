@@ -28,12 +28,12 @@ namespace System::Threading::Tasks {
     TaskContinuation() noexcept {}
     // System.Void Run(System.Threading.Tasks.Task completedTask, System.Boolean bCanInlineContinuationTask)
     // Offset: 0xFFFFFFFF
-    void Run(System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
+    void Run_NEW(System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
     // static protected System.Void InlineIfPossibleOrElseQueue(System.Threading.Tasks.Task task, System.Boolean needsProtection)
-    // Offset: 0x17B016C
+    // Offset: 0x16DA36C
     static void InlineIfPossibleOrElseQueue(System::Threading::Tasks::Task* task, bool needsProtection);
     // protected System.Void .ctor()
-    // Offset: 0x17AE8D4
+    // Offset: 0x16DA778
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

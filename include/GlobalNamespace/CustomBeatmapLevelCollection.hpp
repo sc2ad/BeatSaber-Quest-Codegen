@@ -44,18 +44,16 @@ namespace GlobalNamespace {
     constexpr operator ::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>*() const noexcept {
       return customPreviewBeatmapLevels;
     }
+    // public IPreviewBeatmapLevel[] get_beatmapLevels()
+    // Offset: 0xFD9CAC
+    ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels_NEW();
     // public System.Void .ctor(CustomPreviewBeatmapLevel[] customPreviewBeatmapLevels)
-    // Offset: 0x1045F40
+    // Offset: 0xFD9CB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevelCollection* New_ctor(::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>* customPreviewBeatmapLevels) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomBeatmapLevelCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomBeatmapLevelCollection*, creationType>(customPreviewBeatmapLevels)));
     }
-    // public IPreviewBeatmapLevel[] get_beatmapLevels()
-    // Offset: 0x1045F38
-    // Implemented from: IBeatmapLevelCollection
-    // Base method: IPreviewBeatmapLevel[] IBeatmapLevelCollection::get_beatmapLevels()
-    ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
   }; // CustomBeatmapLevelCollection
   #pragma pack(pop)
   static check_size<sizeof(CustomBeatmapLevelCollection), 16 + sizeof(::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>*)> __GlobalNamespace_CustomBeatmapLevelCollectionSizeCheck;

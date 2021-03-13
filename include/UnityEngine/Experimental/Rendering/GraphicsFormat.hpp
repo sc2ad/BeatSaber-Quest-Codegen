@@ -535,8 +535,8 @@ namespace UnityEngine::Experimental::Rendering {
     static UnityEngine::Experimental::Rendering::GraphicsFormat _get_A10R10G10B10_XRUNormPack32();
     // Set static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat A10R10G10B10_XRUNormPack32
     static void _set_A10R10G10B10_XRUNormPack32(UnityEngine::Experimental::Rendering::GraphicsFormat value);
-    // [EditorBrowsableAttribute] Offset: 0xCC3B74
-    // [ObsoleteAttribute] Offset: 0xCC3B74
+    // [EditorBrowsableAttribute] Offset: 0xCAD07C
+    // [ObsoleteAttribute] Offset: 0xCAD07C
     // static field const value: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_SRGB
     static constexpr const int RGB_DXT1_SRGB = 96;
     // Get static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_SRGB
@@ -549,8 +549,8 @@ namespace UnityEngine::Experimental::Rendering {
     static UnityEngine::Experimental::Rendering::GraphicsFormat _get_RGBA_DXT1_SRGB();
     // Set static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGBA_DXT1_SRGB
     static void _set_RGBA_DXT1_SRGB(UnityEngine::Experimental::Rendering::GraphicsFormat value);
-    // [ObsoleteAttribute] Offset: 0xCC3BC8
-    // [EditorBrowsableAttribute] Offset: 0xCC3BC8
+    // [EditorBrowsableAttribute] Offset: 0xCAD0D0
+    // [ObsoleteAttribute] Offset: 0xCAD0D0
     // static field const value: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_UNorm
     static constexpr const int RGB_DXT1_UNorm = 97;
     // Get static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_UNorm

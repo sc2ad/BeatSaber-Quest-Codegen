@@ -36,27 +36,19 @@ namespace Oculus::Platform {
       return senderID;
     }
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
-    // Offset: 0x22CED94
-    // Implemented from: Oculus.Platform.IVoipPCMSource
-    // Base method: System.Int32 IVoipPCMSource::GetPCM(System.Single[] dest, System.Int32 length)
-    int GetPCM(::Array<float>* dest, int length);
+    // Offset: 0x2158C2C
+    int GetPCM_NEW(::Array<float>* dest, int length);
     // public System.Void SetSenderID(System.UInt64 senderID)
-    // Offset: 0x22CEE54
-    // Implemented from: Oculus.Platform.IVoipPCMSource
-    // Base method: System.Void IVoipPCMSource::SetSenderID(System.UInt64 senderID)
-    void SetSenderID(uint64_t senderID);
+    // Offset: 0x2158CEC
+    void SetSenderID_NEW(uint64_t senderID);
     // public System.Int32 PeekSizeElements()
-    // Offset: 0x22CEE5C
-    // Implemented from: Oculus.Platform.IVoipPCMSource
-    // Base method: System.Int32 IVoipPCMSource::PeekSizeElements()
-    int PeekSizeElements();
+    // Offset: 0x2158CF4
+    int PeekSizeElements_NEW();
     // public System.Void Update()
-    // Offset: 0x22CEEFC
-    // Implemented from: Oculus.Platform.IVoipPCMSource
-    // Base method: System.Void IVoipPCMSource::Update()
-    void Update();
+    // Offset: 0x2158D94
+    void Update_NEW();
     // public System.Void .ctor()
-    // Offset: 0x22CE22C
+    // Offset: 0x2158108
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

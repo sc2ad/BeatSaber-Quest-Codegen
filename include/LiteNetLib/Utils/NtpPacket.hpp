@@ -34,14 +34,14 @@ namespace LiteNetLib::Utils {
   // [] Offset: FFFFFFFF
   class NtpPacket : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD0C088
+    // [CompilerGeneratedAttribute] Offset: 0xCF6B90
     // private System.Byte[] <Bytes>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Array<uint8_t>* Bytes;
     // Field size check
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0C098
+    // [CompilerGeneratedAttribute] Offset: 0xCF6BA0
     // private System.Nullable`1<System.DateTime> <DestinationTimestamp>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x18
@@ -53,122 +53,122 @@ namespace LiteNetLib::Utils {
     // Set static field: static private readonly System.DateTime Epoch
     static void _set_Epoch(System::DateTime value);
     // public System.Byte[] get_Bytes()
-    // Offset: 0x22C71D4
+    // Offset: 0x2176D8C
     ::Array<uint8_t>* get_Bytes();
     // private System.Void set_Bytes(System.Byte[] value)
-    // Offset: 0x22C71DC
+    // Offset: 0x2176D94
     void set_Bytes(::Array<uint8_t>* value);
     // public LiteNetLib.Utils.NtpLeapIndicator get_LeapIndicator()
-    // Offset: 0x22C71E4
+    // Offset: 0x2176D9C
     LiteNetLib::Utils::NtpLeapIndicator get_LeapIndicator();
     // public System.Int32 get_VersionNumber()
-    // Offset: 0x22C721C
+    // Offset: 0x2176DD4
     int get_VersionNumber();
     // private System.Void set_VersionNumber(System.Int32 value)
-    // Offset: 0x22C7254
+    // Offset: 0x2176E0C
     void set_VersionNumber(int value);
     // public LiteNetLib.Utils.NtpMode get_Mode()
-    // Offset: 0x22C7294
+    // Offset: 0x2176E4C
     LiteNetLib::Utils::NtpMode get_Mode();
     // private System.Void set_Mode(LiteNetLib.Utils.NtpMode value)
-    // Offset: 0x22C72CC
+    // Offset: 0x2176E84
     void set_Mode(LiteNetLib::Utils::NtpMode value);
     // public System.Int32 get_Stratum()
-    // Offset: 0x22C730C
+    // Offset: 0x2176EC4
     int get_Stratum();
     // public System.Int32 get_Poll()
-    // Offset: 0x22C7344
+    // Offset: 0x2176EFC
     int get_Poll();
     // public System.Int32 get_Precision()
-    // Offset: 0x22C737C
+    // Offset: 0x2176F34
     int get_Precision();
     // public System.TimeSpan get_RootDelay()
-    // Offset: 0x22C73B4
+    // Offset: 0x2176F6C
     System::TimeSpan get_RootDelay();
     // public System.TimeSpan get_RootDispersion()
-    // Offset: 0x22C7450
+    // Offset: 0x2177008
     System::TimeSpan get_RootDispersion();
     // public System.UInt32 get_ReferenceId()
-    // Offset: 0x22C7458
+    // Offset: 0x2177010
     uint get_ReferenceId();
     // public System.Nullable`1<System.DateTime> get_ReferenceTimestamp()
-    // Offset: 0x22C750C
+    // Offset: 0x21770C4
     System::Nullable_1<System::DateTime> get_ReferenceTimestamp();
     // public System.Nullable`1<System.DateTime> get_OriginTimestamp()
-    // Offset: 0x22C7638
+    // Offset: 0x21771F0
     System::Nullable_1<System::DateTime> get_OriginTimestamp();
     // public System.Nullable`1<System.DateTime> get_ReceiveTimestamp()
-    // Offset: 0x22C7640
+    // Offset: 0x21771F8
     System::Nullable_1<System::DateTime> get_ReceiveTimestamp();
     // public System.Nullable`1<System.DateTime> get_TransmitTimestamp()
-    // Offset: 0x22C7648
+    // Offset: 0x2177200
     System::Nullable_1<System::DateTime> get_TransmitTimestamp();
     // private System.Void set_TransmitTimestamp(System.Nullable`1<System.DateTime> value)
-    // Offset: 0x22C7650
+    // Offset: 0x2177208
     void set_TransmitTimestamp(System::Nullable_1<System::DateTime> value);
     // public System.Nullable`1<System.DateTime> get_DestinationTimestamp()
-    // Offset: 0x22C7794
+    // Offset: 0x217734C
     System::Nullable_1<System::DateTime> get_DestinationTimestamp();
     // private System.Void set_DestinationTimestamp(System.Nullable`1<System.DateTime> value)
-    // Offset: 0x22C77A0
+    // Offset: 0x2177358
     void set_DestinationTimestamp(System::Nullable_1<System::DateTime> value);
     // public System.TimeSpan get_RoundTripTime()
-    // Offset: 0x22C77A8
+    // Offset: 0x2177360
     System::TimeSpan get_RoundTripTime();
     // public System.TimeSpan get_CorrectionOffset()
-    // Offset: 0x22C7A1C
+    // Offset: 0x21775D4
     System::TimeSpan get_CorrectionOffset();
     // System.Void .ctor(System.Byte[] bytes)
-    // Offset: 0x22C7C64
+    // Offset: 0x217781C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NtpPacket* New_ctor(::Array<uint8_t>* bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NtpPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NtpPacket*, creationType>(bytes)));
     }
     // static public LiteNetLib.Utils.NtpPacket FromServerResponse(System.Byte[] bytes, System.DateTime destinationTimestamp)
-    // Offset: 0x22C7D24
+    // Offset: 0x21778D4
     static LiteNetLib::Utils::NtpPacket* FromServerResponse(::Array<uint8_t>* bytes, System::DateTime destinationTimestamp);
     // System.Void ValidateRequest()
-    // Offset: 0x22C7DC4
+    // Offset: 0x2177974
     void ValidateRequest();
     // System.Void ValidateReply()
-    // Offset: 0x22C7EA8
+    // Offset: 0x2177A58
     void ValidateReply();
     // private System.Void CheckTimestamps()
-    // Offset: 0x22C7908
+    // Offset: 0x21774C0
     void CheckTimestamps();
     // private System.Nullable`1<System.DateTime> GetDateTime64(System.Int32 offset)
-    // Offset: 0x22C7514
+    // Offset: 0x21770CC
     System::Nullable_1<System::DateTime> GetDateTime64(int offset);
     // private System.Void SetDateTime64(System.Int32 offset, System.Nullable`1<System.DateTime> value)
-    // Offset: 0x22C7660
+    // Offset: 0x2177218
     void SetDateTime64(int offset, System::Nullable_1<System::DateTime> value);
     // private System.TimeSpan GetTimeSpan32(System.Int32 offset)
-    // Offset: 0x22C73BC
+    // Offset: 0x2176F74
     System::TimeSpan GetTimeSpan32(int offset);
     // private System.UInt64 GetUInt64BE(System.Int32 offset)
-    // Offset: 0x22C801C
+    // Offset: 0x2177BCC
     uint64_t GetUInt64BE(int offset);
     // private System.Void SetUInt64BE(System.Int32 offset, System.UInt64 value)
-    // Offset: 0x22C80C8
+    // Offset: 0x2177C78
     void SetUInt64BE(int offset, uint64_t value);
     // private System.Int32 GetInt32BE(System.Int32 offset)
-    // Offset: 0x22C8154
+    // Offset: 0x2177D04
     int GetInt32BE(int offset);
     // private System.UInt32 GetUInt32BE(System.Int32 offset)
-    // Offset: 0x22C7460
+    // Offset: 0x2177018
     uint GetUInt32BE(int offset);
     // static private System.UInt32 SwapEndianness(System.UInt32 x)
-    // Offset: 0x22C81C8
+    // Offset: 0x2177D78
     static uint SwapEndianness(uint x);
     // static private System.UInt64 SwapEndianness(System.UInt64 x)
-    // Offset: 0x22C8158
+    // Offset: 0x2177D08
     static uint64_t SwapEndianness(uint64_t x);
     // static private System.Void .cctor()
-    // Offset: 0x22C81D0
+    // Offset: 0x2177D80
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x22C7B90
+    // Offset: 0x2177748
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

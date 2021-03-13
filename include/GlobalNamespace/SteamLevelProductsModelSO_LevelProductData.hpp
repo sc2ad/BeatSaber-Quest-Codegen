@@ -36,13 +36,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelProductData
     LevelProductData(uint appId_ = {}, ::Il2CppString* levelId_ = {}) noexcept : appId{appId_}, levelId{levelId_} {}
     // public System.UInt32 get_appId()
-    // Offset: 0xF7CA54
+    // Offset: 0x101683C
     uint get_appId();
     // public System.String get_levelId()
-    // Offset: 0xF7CA5C
+    // Offset: 0x1016844
     ::Il2CppString* get_levelId();
     // public System.Void .ctor()
-    // Offset: 0xF7CA64
+    // Offset: 0x101684C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

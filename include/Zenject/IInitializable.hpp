@@ -16,7 +16,7 @@ namespace Zenject {
     IInitializable() noexcept {}
     // public System.Void Initialize()
     // Offset: 0xFFFFFFFF
-    void Initialize();
+    void Initialize_NEW();
   }; // Zenject.IInitializable
   #pragma pack(pop)
 }

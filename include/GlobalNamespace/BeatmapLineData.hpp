@@ -51,28 +51,26 @@ namespace GlobalNamespace {
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>*() const noexcept {
       return beatmapObjectsData;
     }
+    // public System.Collections.Generic.IReadOnlyList`1<BeatmapObjectData> get_beatmapObjectsData()
+    // Offset: 0x2178A1C
+    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData_NEW();
     // public System.Void .ctor(System.Int32 initialCapacity)
-    // Offset: 0x22C8E60
+    // Offset: 0x2178A24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLineData* New_ctor(int initialCapacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLineData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLineData*, creationType>(initialCapacity)));
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<BeatmapObjectData> beatmapObjectData)
-    // Offset: 0x22C8EEC
+    // Offset: 0x2178AA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLineData* New_ctor(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* beatmapObjectData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLineData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLineData*, creationType>(beatmapObjectData)));
     }
     // public System.Void AddBeatmapObjectData(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x22C8F20
+    // Offset: 0x2178AD4
     void AddBeatmapObjectData(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
-    // public System.Collections.Generic.IReadOnlyList`1<BeatmapObjectData> get_beatmapObjectsData()
-    // Offset: 0x22C8E58
-    // Implemented from: IReadonlyBeatmapLineData
-    // Base method: System.Collections.Generic.IReadOnlyList`1<BeatmapObjectData> IReadonlyBeatmapLineData::get_beatmapObjectsData()
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
   }; // BeatmapLineData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapLineData), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>*)> __GlobalNamespace_BeatmapLineDataSizeCheck;

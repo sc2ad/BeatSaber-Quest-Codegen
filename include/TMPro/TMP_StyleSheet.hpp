@@ -56,31 +56,31 @@ namespace TMPro {
     // Set static field: static private TMPro.TMP_StyleSheet s_Instance
     static void _set_s_Instance(TMPro::TMP_StyleSheet* value);
     // static public TMPro.TMP_StyleSheet get_instance()
-    // Offset: 0xFFB4F8
+    // Offset: 0xFB93C0
     static TMPro::TMP_StyleSheet* get_instance();
     // static public TMPro.TMP_StyleSheet LoadDefaultStyleSheet()
-    // Offset: 0xFFB7E8
+    // Offset: 0xFB96A0
     static TMPro::TMP_StyleSheet* LoadDefaultStyleSheet();
     // static public TMPro.TMP_Style GetStyle(System.Int32 hashCode)
-    // Offset: 0xFFB7EC
+    // Offset: 0xFB96A4
     static TMPro::TMP_Style* GetStyle(int hashCode);
     // private TMPro.TMP_Style GetStyleInternal(System.Int32 hashCode)
-    // Offset: 0xFFB818
+    // Offset: 0xFB96D0
     TMPro::TMP_Style* GetStyleInternal(int hashCode);
     // public System.Void UpdateStyleDictionaryKey(System.Int32 old_key, System.Int32 new_key)
-    // Offset: 0xFFB898
+    // Offset: 0xFB9750
     void UpdateStyleDictionaryKey(int old_key, int new_key);
     // static public System.Void UpdateStyleSheet()
-    // Offset: 0xFFB974
+    // Offset: 0xFB982C
     static void UpdateStyleSheet();
     // static public System.Void RefreshStyles()
-    // Offset: 0xFFB9CC
+    // Offset: 0xFB987C
     static void RefreshStyles();
     // private System.Void LoadStyleDictionaryInternal()
-    // Offset: 0xFFB670
+    // Offset: 0xFB9528
     void LoadStyleDictionaryInternal();
     // public System.Void .ctor()
-    // Offset: 0xFFB9E8
+    // Offset: 0xFB9898
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

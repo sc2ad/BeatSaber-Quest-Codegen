@@ -45,18 +45,18 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public MainEffectSO get_mainEffect()
-    // Offset: 0x22506BC
+    // Offset: 0x20F9CF0
     GlobalNamespace::MainEffectSO* get_mainEffect();
     // public System.Void Init(MainEffectSO mainEffect)
-    // Offset: 0x2250744
+    // Offset: 0x20F9D78
     void Init(GlobalNamespace::MainEffectSO* mainEffect);
     // protected override System.Void OnEnable()
-    // Offset: 0x22506C4
+    // Offset: 0x20F9CF8
     // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::OnEnable()
+    // Base method: System.Void PersistentScriptableObject::OnEnable_NEW()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x22507D4
+    // Offset: 0x20F9DFC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

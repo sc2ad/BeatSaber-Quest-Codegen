@@ -38,7 +38,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: SliderState
     SliderState(float dragStartPos_ = {}, float dragStartValue_ = {}, bool isDragging_ = {}) noexcept : dragStartPos{dragStartPos_}, dragStartValue{dragStartValue_}, isDragging{isDragging_} {}
     // public System.Void .ctor()
-    // Offset: 0x1991AE8
+    // Offset: 0x1912450
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

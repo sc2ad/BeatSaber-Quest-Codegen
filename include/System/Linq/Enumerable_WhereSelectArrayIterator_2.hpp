@@ -92,16 +92,11 @@ namespace System::Linq {
     // public override System.Boolean MoveNext()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.Enumerable/Iterator`1
-    // Base method: System.Boolean Iterator_1::MoveNext()
+    // Base method: System.Boolean Iterator_1::MoveNext_NEW()
     bool MoveNext() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereSelectArrayIterator_2::MoveNext");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
-    }
-    // Creating proxy method: System_Collections_IEnumerator_MoveNext
-    // Maps to method: MoveNext
-    bool System_Collections_IEnumerator_MoveNext() {
-      return MoveNext();
     }
   }; // System.Linq.Enumerable/WhereSelectArrayIterator`2
   // Could not write size check! Type: System.Linq.Enumerable/WhereSelectArrayIterator`2 is generic, or has no fields that are valid for size checks!

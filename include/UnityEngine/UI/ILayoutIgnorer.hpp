@@ -16,7 +16,7 @@ namespace UnityEngine::UI {
     ILayoutIgnorer() noexcept {}
     // public System.Boolean get_ignoreLayout()
     // Offset: 0xFFFFFFFF
-    bool get_ignoreLayout();
+    bool get_ignoreLayout_NEW();
   }; // UnityEngine.UI.ILayoutIgnorer
   #pragma pack(pop)
 }

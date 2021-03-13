@@ -79,16 +79,16 @@ namespace System::Net::Sockets {
     // Set static field: static private System.Boolean THROW_ON_ABORT_RETRIES
     static void _set_THROW_ON_ABORT_RETRIES(bool value);
     // public System.Void RegisterForBlockingSyscall()
-    // Offset: 0x1363DCC
+    // Offset: 0x1335BBC
     void RegisterForBlockingSyscall();
     // public System.Void UnRegisterForBlockingSyscall()
-    // Offset: 0x1364070
+    // Offset: 0x1335DF8
     void UnRegisterForBlockingSyscall();
     // static private System.Void .cctor()
-    // Offset: 0x1364210
+    // Offset: 0x1335F90
     static void _cctor();
     // public System.Void .ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
-    // Offset: 0x13637E8
+    // Offset: 0x1335630
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Void SafeHandle::.ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -97,9 +97,9 @@ namespace System::Net::Sockets {
       return THROW_UNLESS((::il2cpp_utils::New<SafeSocketHandle*, creationType>(preexistingHandle, ownsHandle)));
     }
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x13638BC
+    // Offset: 0x13356EC
     // Implemented from: System.Runtime.InteropServices.SafeHandle
-    // Base method: System.Boolean SafeHandle::ReleaseHandle()
+    // Base method: System.Boolean SafeHandle::ReleaseHandle_NEW()
     bool ReleaseHandle();
   }; // System.Net.Sockets.SafeSocketHandle
   #pragma pack(pop)

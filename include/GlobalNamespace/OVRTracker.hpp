@@ -29,34 +29,34 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRTracker
     OVRTracker() noexcept {}
     // public System.Boolean get_isPresent()
-    // Offset: 0x223E220
+    // Offset: 0x1E545EC
     bool get_isPresent();
     // public System.Boolean get_isPositionTracked()
-    // Offset: 0x223E2BC
+    // Offset: 0x1E54688
     bool get_isPositionTracked();
     // public System.Boolean get_isEnabled()
-    // Offset: 0x223E31C
+    // Offset: 0x1E546E8
     bool get_isEnabled();
     // public System.Void set_isEnabled(System.Boolean value)
-    // Offset: 0x223E3B8
+    // Offset: 0x1E54784
     void set_isEnabled(bool value);
     // public System.Int32 get_count()
-    // Offset: 0x223E458
+    // Offset: 0x1E54824
     int get_count();
     // public OVRTracker/Frustum GetFrustum(System.Int32 tracker)
-    // Offset: 0x223E5D4
+    // Offset: 0x1E549A0
     GlobalNamespace::OVRTracker::Frustum GetFrustum(int tracker);
     // public OVRPose GetPose(System.Int32 tracker)
-    // Offset: 0x223E684
+    // Offset: 0x1E54A50
     GlobalNamespace::OVRPose GetPose(int tracker);
     // public System.Boolean GetPoseValid(System.Int32 tracker)
-    // Offset: 0x223E918
+    // Offset: 0x1E54CE4
     bool GetPoseValid(int tracker);
     // public System.Boolean GetPresent(System.Int32 tracker)
-    // Offset: 0x223E498
+    // Offset: 0x1E54864
     bool GetPresent(int tracker);
     // public System.Void .ctor()
-    // Offset: 0x223EA54
+    // Offset: 0x1E54E20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

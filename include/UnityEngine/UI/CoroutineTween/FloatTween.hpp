@@ -71,52 +71,44 @@ namespace UnityEngine::UI::CoroutineTween {
       return *reinterpret_cast<UnityEngine::UI::CoroutineTween::ITweenValue*>(this);
     }
     // public System.Single get_startValue()
-    // Offset: 0xDF92CC
+    // Offset: 0xDE4C00
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0xDF92D4
+    // Offset: 0xDE4C08
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0xDF92DC
+    // Offset: 0xDE4C10
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0xDF92E4
+    // Offset: 0xDE4C18
     void set_targetValue(float value);
+    // public System.Single get_duration()
+    // Offset: 0xDE4C20
+    float get_duration_NEW();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0xDF92F4
+    // Offset: 0xDE4C28
     void set_duration(float value);
+    // public System.Boolean get_ignoreTimeScale()
+    // Offset: 0xDE4C30
+    bool get_ignoreTimeScale_NEW();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0xDF9304
+    // Offset: 0xDE4C38
     void set_ignoreTimeScale(bool value);
+    // public System.Void TweenValue(System.Single floatPercentage)
+    // Offset: 0xDE4C44
+    void TweenValue_NEW(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0xDF9318
+    // Offset: 0xDE4C4C
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0xDF9320
+    // Offset: 0xDE4C54
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0xDF9328
+    // Offset: 0xDE4C5C
     float GetDuration();
-    // public System.Single get_duration()
-    // Offset: 0xDF92EC
-    // Implemented from: UnityEngine.UI.CoroutineTween.ITweenValue
-    // Base method: System.Single ITweenValue::get_duration()
-    float get_duration();
-    // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0xDF92FC
-    // Implemented from: UnityEngine.UI.CoroutineTween.ITweenValue
-    // Base method: System.Boolean ITweenValue::get_ignoreTimeScale()
-    bool get_ignoreTimeScale();
-    // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0xDF9310
-    // Implemented from: UnityEngine.UI.CoroutineTween.ITweenValue
-    // Base method: System.Void ITweenValue::TweenValue(System.Single floatPercentage)
-    void TweenValue(float floatPercentage);
     // public System.Boolean ValidTarget()
-    // Offset: 0xDF9330
-    // Implemented from: UnityEngine.UI.CoroutineTween.ITweenValue
-    // Base method: System.Boolean ITweenValue::ValidTarget()
-    bool ValidTarget();
+    // Offset: 0xDE4C64
+    bool ValidTarget_NEW();
   }; // UnityEngine.UI.CoroutineTween.FloatTween
   #pragma pack(pop)
   static check_size<sizeof(FloatTween), 20 + sizeof(bool)> __UnityEngine_UI_CoroutineTween_FloatTweenSizeCheck;

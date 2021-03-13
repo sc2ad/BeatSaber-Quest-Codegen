@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class TestDeeplinkManager : public ::Il2CppObject/*, public GlobalNamespace::IDeeplinkManager*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD34980
+    // [CompilerGeneratedAttribute] Offset: 0xD1FB6C
     // private System.Action`1<Deeplink> didReceiveDeeplinkEvent
     // Size: 0x8
     // Offset: 0x10
@@ -51,34 +51,28 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IDeeplinkManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDeeplinkManager*>(this);
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD34990
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD1FB7C
     // Get static field: static public TestDeeplinkManager instance
     static GlobalNamespace::TestDeeplinkManager* _get_instance();
     // Set static field: static public TestDeeplinkManager instance
     static void _set_instance(GlobalNamespace::TestDeeplinkManager* value);
+    // public System.Void add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
+    // Offset: 0x101B86C
+    void add_didReceiveDeeplinkEvent_NEW(System::Action_1<GlobalNamespace::Deeplink*>* value);
+    // public System.Void remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
+    // Offset: 0x101B910
+    void remove_didReceiveDeeplinkEvent_NEW(System::Action_1<GlobalNamespace::Deeplink*>* value);
+    // public Deeplink get_currentDeeplink()
+    // Offset: 0x101B9B4
+    GlobalNamespace::Deeplink* get_currentDeeplink_NEW();
     // public System.Void set_currentDeeplink(Deeplink value)
-    // Offset: 0xF4245C
+    // Offset: 0x101B9BC
     void set_currentDeeplink(GlobalNamespace::Deeplink* value);
     // static private System.Void .cctor()
-    // Offset: 0xF4252C
+    // Offset: 0x101BA74
     static void _cctor();
-    // public System.Void add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0xF4230C
-    // Implemented from: IDeeplinkManager
-    // Base method: System.Void IDeeplinkManager::add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    void add_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
-    // public System.Void remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0xF423B0
-    // Implemented from: IDeeplinkManager
-    // Base method: System.Void IDeeplinkManager::remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    void remove_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
-    // public Deeplink get_currentDeeplink()
-    // Offset: 0xF42454
-    // Implemented from: IDeeplinkManager
-    // Base method: Deeplink IDeeplinkManager::get_currentDeeplink()
-    GlobalNamespace::Deeplink* get_currentDeeplink();
     // public System.Void .ctor()
-    // Offset: 0xF42524
+    // Offset: 0x101BA6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

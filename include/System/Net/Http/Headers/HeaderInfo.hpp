@@ -70,7 +70,7 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* Name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0CCC8
+    // [CompilerGeneratedAttribute] Offset: 0xCF77D0
     // private System.Func`2<System.Object,System.String> <CustomToString>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -80,7 +80,7 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: HeaderInfo
     HeaderInfo(bool AllowsMany_ = {}, System::Net::Http::Headers::HttpHeaderKind HeaderKind_ = {}, ::Il2CppString* Name_ = {}, System::Func_2<::Il2CppObject*, ::Il2CppString*>* CustomToString_ = {}) noexcept : AllowsMany{AllowsMany_}, HeaderKind{HeaderKind_}, Name{Name_}, CustomToString{CustomToString_} {}
     // protected System.Void .ctor(System.String name, System.Net.Http.Headers.HttpHeaderKind headerKind)
-    // Offset: 0x1408188
+    // Offset: 0x13D92F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfo* New_ctor(::Il2CppString* name, System::Net::Http::Headers::HttpHeaderKind headerKind) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::.ctor");
@@ -105,29 +105,29 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodThrow<System::Net::Http::Headers::HeaderInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, name, elementParser, headerKind, minimalCount, separator);
     }
     // public System.Object CreateCollection(System.Net.Http.Headers.HttpHeaders headers)
-    // Offset: 0x14081D0
+    // Offset: 0x13D932C
     ::Il2CppObject* CreateCollection(System::Net::Http::Headers::HttpHeaders* headers);
     // public System.Func`2<System.Object,System.String> get_CustomToString()
-    // Offset: 0x14081E0
+    // Offset: 0x13D933C
     System::Func_2<::Il2CppObject*, ::Il2CppString*>* get_CustomToString();
     // private System.Void set_CustomToString(System.Func`2<System.Object,System.String> value)
-    // Offset: 0x14081E8
+    // Offset: 0x13D9344
     void set_CustomToString(System::Func_2<::Il2CppObject*, ::Il2CppString*>* value);
     // public System.String get_Separator()
-    // Offset: 0x14081F0
-    ::Il2CppString* get_Separator();
+    // Offset: 0x13D934C
+    ::Il2CppString* get_Separator_NEW();
     // public System.Void AddToCollection(System.Object collection, System.Object value)
     // Offset: 0xFFFFFFFF
-    void AddToCollection(::Il2CppObject* collection, ::Il2CppObject* value);
+    void AddToCollection_NEW(::Il2CppObject* collection, ::Il2CppObject* value);
     // protected System.Object CreateCollection(System.Net.Http.Headers.HttpHeaders headers, System.Net.Http.Headers.HeaderInfo headerInfo)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* CreateCollection(System::Net::Http::Headers::HttpHeaders* headers, System::Net::Http::Headers::HeaderInfo* headerInfo);
+    ::Il2CppObject* CreateCollection_NEW(System::Net::Http::Headers::HttpHeaders* headers, System::Net::Http::Headers::HeaderInfo* headerInfo);
     // public System.Collections.Generic.List`1<System.String> ToStringCollection(System.Object collection)
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::List_1<::Il2CppString*>* ToStringCollection(::Il2CppObject* collection);
+    System::Collections::Generic::List_1<::Il2CppString*>* ToStringCollection_NEW(::Il2CppObject* collection);
     // public System.Boolean TryParse(System.String value, out System.Object result)
     // Offset: 0xFFFFFFFF
-    bool TryParse(::Il2CppString* value, ::Il2CppObject*& result);
+    bool TryParse_NEW(::Il2CppString* value, ::Il2CppObject*& result);
   }; // System.Net.Http.Headers.HeaderInfo
   #pragma pack(pop)
   static check_size<sizeof(HeaderInfo), 32 + sizeof(System::Func_2<::Il2CppObject*, ::Il2CppString*>*)> __System_Net_Http_Headers_HeaderInfoSizeCheck;

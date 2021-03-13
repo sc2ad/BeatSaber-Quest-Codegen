@@ -57,7 +57,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Creating value type constructor for type: DTSweepBasin
     DTSweepBasin(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* leftNode_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* bottomNode_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* rightNode_ = {}, double width_ = {}, bool leftHighest_ = {}) noexcept : leftNode{leftNode_}, bottomNode{bottomNode_}, rightNode{rightNode_}, width{width_}, leftHighest{leftHighest_} {}
     // public System.Void .ctor()
-    // Offset: 0x2278424
+    // Offset: 0x212806C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

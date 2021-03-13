@@ -41,16 +41,16 @@ namespace NUnit::Framework::Internal {
       return maxStringLength;
     }
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x2226AE4
+    // Offset: 0x2097564
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator::ArgListFragment* New_ctor(int maxStringLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::ArgListFragment*, creationType>(maxStringLength)));
     }
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] arglist)
-    // Offset: 0x2226BAC
+    // Offset: 0x209762C
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
-    // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] arglist)
+    // Base method: System.String NameFragment::GetText_NEW(System.Reflection.MethodInfo method, System.Object[] arglist)
     ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* arglist);
   }; // NUnit.Framework.Internal.TestNameGenerator/ArgListFragment
   #pragma pack(pop)

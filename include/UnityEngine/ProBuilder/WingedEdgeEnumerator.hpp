@@ -45,49 +45,27 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::WingedEdge*>*>(this);
     }
     // public System.Void .ctor(UnityEngine.ProBuilder.WingedEdge start)
-    // Offset: 0x21D02A8
+    // Offset: 0x20A247C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WingedEdgeEnumerator* New_ctor(UnityEngine::ProBuilder::WingedEdge* start) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::WingedEdgeEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WingedEdgeEnumerator*, creationType>(start)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x21D05CC
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Boolean IEnumerator::MoveNext()
-    bool MoveNext();
-    // Creating proxy method: System_Collections_IEnumerator_MoveNext
-    // Maps to method: MoveNext
-    bool System_Collections_IEnumerator_MoveNext();
+    // Offset: 0x20A2788
+    bool MoveNext_NEW();
     // public System.Void Reset()
-    // Offset: 0x21DC818
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Void IEnumerator::Reset()
-    void Reset();
-    // Creating proxy method: System_Collections_IEnumerator_Reset
-    // Maps to method: Reset
-    void System_Collections_IEnumerator_Reset();
+    // Offset: 0x20AE6FC
+    void Reset_NEW();
     // public UnityEngine.ProBuilder.WingedEdge get_Current()
-    // Offset: 0x21D02EC
-    // Implemented from: System.Collections.Generic.IEnumerator`1
-    // Base method: T IEnumerator_1::get_Current()
-    UnityEngine::ProBuilder::WingedEdge* get_Current();
-    // Creating proxy method: System_Collections_Generic_IEnumerator_1_get_Current
-    // Maps to method: get_Current
-    UnityEngine::ProBuilder::WingedEdge* System_Collections_Generic_IEnumerator_1_get_Current();
+    // Offset: 0x20A24A8
+    UnityEngine::ProBuilder::WingedEdge* get_Current_NEW();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x21DC824
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Object IEnumerator::get_Current()
-    ::Il2CppObject* System_Collections_IEnumerator_get_Current();
+    // Offset: 0x20AE704
+    ::Il2CppObject* System_Collections_IEnumerator_get_Current_NEW();
     // public System.Void Dispose()
-    // Offset: 0x21DC868
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose();
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose();
+    // Offset: 0x20AE748
+    void Dispose_NEW();
   }; // UnityEngine.ProBuilder.WingedEdgeEnumerator
   #pragma pack(pop)
   static check_size<sizeof(WingedEdgeEnumerator), 24 + sizeof(UnityEngine::ProBuilder::WingedEdge*)> __UnityEngine_ProBuilder_WingedEdgeEnumeratorSizeCheck;

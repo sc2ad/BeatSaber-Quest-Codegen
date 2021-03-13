@@ -23,10 +23,10 @@ namespace System::IO {
     IFileWatcher() noexcept {}
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
     // Offset: 0xFFFFFFFF
-    void StartDispatching(System::IO::FileSystemWatcher* fsw);
+    void StartDispatching_NEW(System::IO::FileSystemWatcher* fsw);
     // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
     // Offset: 0xFFFFFFFF
-    void StopDispatching(System::IO::FileSystemWatcher* fsw);
+    void StopDispatching_NEW(System::IO::FileSystemWatcher* fsw);
   }; // System.IO.IFileWatcher
   #pragma pack(pop)
 }

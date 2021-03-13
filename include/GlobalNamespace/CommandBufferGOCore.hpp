@@ -64,20 +64,20 @@ namespace GlobalNamespace {
     CommandBufferGOCore(System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* cameras_ = {}, UnityEngine::Mesh* mesh_ = {}) noexcept : cameras{cameras_}, mesh{mesh_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD22D80
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD0D25C
     // Get static field: static private UnityEngine.Material _material
     static UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
     static void _set__material(UnityEngine::Material* value);
     // protected System.Void OnEnable()
-    // Offset: 0x224EAA4
+    // Offset: 0x20F8234
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x224EEF4
+    // Offset: 0x20F865C
     void OnDisable();
     // protected System.Void OnWillRenderObject()
-    // Offset: 0x224F274
-    void OnWillRenderObject();
+    // Offset: 0x20F89DC
+    void OnWillRenderObject_NEW();
     // protected UnityEngine.Rendering.CameraEvent CommandBufferCameraEvent()
     // Offset: 0xFFFFFFFF
     UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* CamerasDict();
     // protected System.Void .ctor()
-    // Offset: 0x224EA24
+    // Offset: 0x20F81B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

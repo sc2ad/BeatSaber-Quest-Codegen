@@ -48,7 +48,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: Purchase
     Purchase(System::DateTime ExpirationTime_ = {}, System::DateTime GrantTime_ = {}, uint64_t ID_ = {}, ::Il2CppString* Sku_ = {}) noexcept : ExpirationTime{ExpirationTime_}, GrantTime{GrantTime_}, ID{ID_}, Sku{Sku_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13EF6E0
+    // Offset: 0x138A240
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Purchase* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Purchase::.ctor");

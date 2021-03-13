@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return publicKey;
     }
     // public Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters get_PublicKey()
-    // Offset: 0x1183B1C
+    // Offset: 0x1163718
     Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* get_PublicKey();
   }; // Org.BouncyCastle.Crypto.Parameters.RsaBlindingParameters
   #pragma pack(pop)

@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::X509::Extension {
     // Creating value type constructor for type: X509ExtensionUtilities
     X509ExtensionUtilities() noexcept {}
     // static public Org.BouncyCastle.Asn1.Asn1Object FromExtensionValue(Org.BouncyCastle.Asn1.Asn1OctetString extensionValue)
-    // Offset: 0x1E5F170
+    // Offset: 0x1E2CF40
     static Org::BouncyCastle::Asn1::Asn1Object* FromExtensionValue(Org::BouncyCastle::Asn1::Asn1OctetString* extensionValue);
   }; // Org.BouncyCastle.X509.Extension.X509ExtensionUtilities
   #pragma pack(pop)

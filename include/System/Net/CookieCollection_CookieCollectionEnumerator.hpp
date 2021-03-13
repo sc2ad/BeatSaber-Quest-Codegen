@@ -52,27 +52,21 @@ namespace System::Net {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // System.Void .ctor(System.Net.CookieCollection cookies)
-    // Offset: 0x155F218
+    // Offset: 0x14C7D24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieCollection::CookieCollectionEnumerator* New_ctor(System::Net::CookieCollection* cookies) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieCollection::CookieCollectionEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieCollection::CookieCollectionEnumerator*, creationType>(cookies)));
     }
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x155F284
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Object IEnumerator::get_Current()
-    ::Il2CppObject* System_Collections_IEnumerator_get_Current();
+    // Offset: 0x14C7D84
+    ::Il2CppObject* System_Collections_IEnumerator_get_Current_NEW();
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x155F350
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Boolean IEnumerator::MoveNext()
-    bool System_Collections_IEnumerator_MoveNext();
+    // Offset: 0x14C7E50
+    bool System_Collections_IEnumerator_MoveNext_NEW();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x155F414
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Void IEnumerator::Reset()
-    void System_Collections_IEnumerator_Reset();
+    // Offset: 0x14C7F14
+    void System_Collections_IEnumerator_Reset_NEW();
   }; // System.Net.CookieCollection/CookieCollectionEnumerator
   #pragma pack(pop)
   static check_size<sizeof(CookieCollection::CookieCollectionEnumerator), 32 + sizeof(int)> __System_Net_CookieCollection_CookieCollectionEnumeratorSizeCheck;

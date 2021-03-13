@@ -80,48 +80,34 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IDifficultyBeatmap() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmap*>(this);
     }
+    // public IBeatmapLevel get_level()
+    // Offset: 0xFD9D6C
+    GlobalNamespace::IBeatmapLevel* get_level_NEW();
+    // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
+    // Offset: 0xFD9D74
+    GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet_NEW();
+    // public BeatmapDifficulty get_difficulty()
+    // Offset: 0xFD9D7C
+    GlobalNamespace::BeatmapDifficulty get_difficulty_NEW();
+    // public System.Int32 get_difficultyRank()
+    // Offset: 0xFD9D84
+    int get_difficultyRank_NEW();
+    // public System.Single get_noteJumpMovementSpeed()
+    // Offset: 0xFD9D8C
+    float get_noteJumpMovementSpeed_NEW();
+    // public System.Single get_noteJumpStartBeatOffset()
+    // Offset: 0xFD9D94
+    float get_noteJumpStartBeatOffset_NEW();
+    // public BeatmapData get_beatmapData()
+    // Offset: 0xFD9D9C
+    GlobalNamespace::BeatmapData* get_beatmapData_NEW();
     // public System.Void .ctor(IBeatmapLevel level, IDifficultyBeatmapSet parentDifficultyBeatmapSet, BeatmapDifficulty difficulty, System.Int32 difficultyRank, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, BeatmapData beatmapData)
-    // Offset: 0x1046078
+    // Offset: 0xFD9DA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomDifficultyBeatmap* New_ctor(GlobalNamespace::IBeatmapLevel* level, GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet, GlobalNamespace::BeatmapDifficulty difficulty, int difficultyRank, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, GlobalNamespace::BeatmapData* beatmapData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomDifficultyBeatmap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomDifficultyBeatmap*, creationType>(level, parentDifficultyBeatmapSet, difficulty, difficultyRank, noteJumpMovementSpeed, noteJumpStartBeatOffset, beatmapData)));
     }
-    // public IBeatmapLevel get_level()
-    // Offset: 0x1046040
-    // Implemented from: IDifficultyBeatmap
-    // Base method: IBeatmapLevel IDifficultyBeatmap::get_level()
-    GlobalNamespace::IBeatmapLevel* get_level();
-    // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0x1046048
-    // Implemented from: IDifficultyBeatmap
-    // Base method: IDifficultyBeatmapSet IDifficultyBeatmap::get_parentDifficultyBeatmapSet()
-    GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
-    // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x1046050
-    // Implemented from: IDifficultyBeatmap
-    // Base method: BeatmapDifficulty IDifficultyBeatmap::get_difficulty()
-    GlobalNamespace::BeatmapDifficulty get_difficulty();
-    // public System.Int32 get_difficultyRank()
-    // Offset: 0x1046058
-    // Implemented from: IDifficultyBeatmap
-    // Base method: System.Int32 IDifficultyBeatmap::get_difficultyRank()
-    int get_difficultyRank();
-    // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x1046060
-    // Implemented from: IDifficultyBeatmap
-    // Base method: System.Single IDifficultyBeatmap::get_noteJumpMovementSpeed()
-    float get_noteJumpMovementSpeed();
-    // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x1046068
-    // Implemented from: IDifficultyBeatmap
-    // Base method: System.Single IDifficultyBeatmap::get_noteJumpStartBeatOffset()
-    float get_noteJumpStartBeatOffset();
-    // public BeatmapData get_beatmapData()
-    // Offset: 0x1046070
-    // Implemented from: IDifficultyBeatmap
-    // Base method: BeatmapData IDifficultyBeatmap::get_beatmapData()
-    GlobalNamespace::BeatmapData* get_beatmapData();
   }; // CustomDifficultyBeatmap
   #pragma pack(pop)
   static check_size<sizeof(CustomDifficultyBeatmap), 48 + sizeof(GlobalNamespace::BeatmapData*)> __GlobalNamespace_CustomDifficultyBeatmapSizeCheck;

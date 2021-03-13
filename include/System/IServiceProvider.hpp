@@ -26,7 +26,7 @@ namespace System {
     IServiceProvider() noexcept {}
     // public System.Object GetService(System.Type serviceType)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* GetService(System::Type* serviceType);
+    ::Il2CppObject* GetService_NEW(System::Type* serviceType);
   }; // System.IServiceProvider
   #pragma pack(pop)
 }

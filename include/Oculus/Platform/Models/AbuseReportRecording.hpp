@@ -32,7 +32,7 @@ namespace Oculus::Platform::Models {
       return RecordingUuid;
     }
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13E879C
+    // Offset: 0x1382AFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbuseReportRecording* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AbuseReportRecording::.ctor");

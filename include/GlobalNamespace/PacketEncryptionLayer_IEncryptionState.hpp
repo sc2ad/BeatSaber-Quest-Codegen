@@ -18,7 +18,7 @@ namespace GlobalNamespace {
     IEncryptionState() noexcept {}
     // public System.Boolean get_isValid()
     // Offset: 0xFFFFFFFF
-    bool get_isValid();
+    bool get_isValid_NEW();
   }; // PacketEncryptionLayer/IEncryptionState
   #pragma pack(pop)
 }

@@ -29,12 +29,12 @@ namespace System::Net::Http::Headers {
   // [] Offset: FFFFFFFF
   class RangeConditionHeaderValue : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD0CD48
+    // [CompilerGeneratedAttribute] Offset: 0xCF7850
     // private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x10
     System::Nullable_1<System::DateTimeOffset> Date;
-    // [CompilerGeneratedAttribute] Offset: 0xD0CD58
+    // [CompilerGeneratedAttribute] Offset: 0xCF7860
     // private System.Net.Http.Headers.EntityTagHeaderValue <EntityTag>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -48,53 +48,51 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // public System.Void .ctor(System.DateTimeOffset date)
-    // Offset: 0x140F8B4
+    // Offset: 0x13E04A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeConditionHeaderValue* New_ctor(System::DateTimeOffset date) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::RangeConditionHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeConditionHeaderValue*, creationType>(date)));
     }
     // public System.Void .ctor(System.Net.Http.Headers.EntityTagHeaderValue entityTag)
-    // Offset: 0x140F94C
+    // Offset: 0x13E0540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeConditionHeaderValue* New_ctor(System::Net::Http::Headers::EntityTagHeaderValue* entityTag) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::RangeConditionHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeConditionHeaderValue*, creationType>(entityTag)));
     }
     // public System.Nullable`1<System.DateTimeOffset> get_Date()
-    // Offset: 0x140F9F0
+    // Offset: 0x13E05DC
     System::Nullable_1<System::DateTimeOffset> get_Date();
     // private System.Void set_Date(System.Nullable`1<System.DateTimeOffset> value)
-    // Offset: 0x140FA04
+    // Offset: 0x13E05F0
     void set_Date(System::Nullable_1<System::DateTimeOffset> value);
     // public System.Net.Http.Headers.EntityTagHeaderValue get_EntityTag()
-    // Offset: 0x140FA18
+    // Offset: 0x13E0604
     System::Net::Http::Headers::EntityTagHeaderValue* get_EntityTag();
     // private System.Void set_EntityTag(System.Net.Http.Headers.EntityTagHeaderValue value)
-    // Offset: 0x140FA20
+    // Offset: 0x13E060C
     void set_EntityTag(System::Net::Http::Headers::EntityTagHeaderValue* value);
-    // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.RangeConditionHeaderValue parsedValue)
-    // Offset: 0x140FBEC
-    static bool TryParse(::Il2CppString* input, System::Net::Http::Headers::RangeConditionHeaderValue*& parsedValue);
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x140FA28
-    // Implemented from: System.ICloneable
-    // Base method: System.Object ICloneable::Clone()
-    ::Il2CppObject* System_ICloneable_Clone();
+    // Offset: 0x13E0614
+    ::Il2CppObject* System_ICloneable_Clone_NEW();
+    // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.RangeConditionHeaderValue parsedValue)
+    // Offset: 0x13E07D8
+    static bool TryParse(::Il2CppString* input, System::Net::Http::Headers::RangeConditionHeaderValue*& parsedValue);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x140FA30
+    // Offset: 0x13E061C
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object obj)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x140FB60
+    // Offset: 0x13E074C
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x140FE68
+    // Offset: 0x13E0A1C
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.RangeConditionHeaderValue
   // WARNING Not writing size check since size may be invalid!

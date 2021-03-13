@@ -20,10 +20,10 @@
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
 namespace LiteNetLib::Utils {
-  // Forward declaring type: NetDataReader
-  class NetDataReader;
   // Forward declaring type: NetDataWriter
   class NetDataWriter;
+  // Forward declaring type: NetDataReader
+  class NetDataReader;
 }
 // Completed forward declares
 // Type namespace: 
@@ -35,14 +35,26 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   struct Vector3Serializable/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable, public System::IEquatable_1<GlobalNamespace::Vector3Serializable>*/ {
     public:
-    // private UnityEngine.Vector3 _v
-    // Size: 0xC
+    // private System.Int32 _x
+    // Size: 0x4
     // Offset: 0x0
-    UnityEngine::Vector3 v;
+    int x;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(int) == 0x4);
+    // private System.Int32 _y
+    // Size: 0x4
+    // Offset: 0x4
+    int y;
+    // Field size check
+    static_assert(sizeof(int) == 0x4);
+    // private System.Int32 _z
+    // Size: 0x4
+    // Offset: 0x8
+    int z;
+    // Field size check
+    static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Vector3Serializable
-    constexpr Vector3Serializable(UnityEngine::Vector3 v_ = {}) noexcept : v{v_} {}
+    constexpr Vector3Serializable(int x_ = {}, int y_ = {}, int z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -55,61 +67,61 @@ namespace GlobalNamespace {
     operator System::IEquatable_1<GlobalNamespace::Vector3Serializable>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::Vector3Serializable>*>(this);
     }
-    // Creating conversion operator: operator UnityEngine::Vector3
-    constexpr operator UnityEngine::Vector3() const noexcept {
-      return v;
-    }
+    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0xE143A8
+    void Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer);
+    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0xE143B0
+    void Deserialize_NEW(LiteNetLib::Utils::NetDataReader* reader);
+    // public System.Boolean Equals(Vector3Serializable other)
+    // Offset: 0xE143B8
+    bool Equals_NEW(GlobalNamespace::Vector3Serializable other);
+    // public System.Boolean Approximately(Vector3Serializable other)
+    // Offset: 0xE143EC
+    bool Approximately(GlobalNamespace::Vector3Serializable other);
+    // public System.Int32 GetSize()
+    // Offset: 0xE14430
+    int GetSize();
     // public System.Void .ctor(UnityEngine.Vector3 v)
-    // Offset: 0xE2EE04
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  Vector3Serializable(UnityEngine::Vector3 v)
+    // Offset: 0xE14438
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    Vector3Serializable(UnityEngine::Vector3 v) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::Vector3Serializable::.ctor");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(v)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, v);
+    }
     // public System.Void .ctor(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xE2EE10
+    // Offset: 0xE14440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Vector3Serializable(LiteNetLib::Utils::NetDataReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::Vector3Serializable::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(reader)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, reader);
     }
-    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xE2EDCC
-    // Implemented from: LiteNetLib.Utils.INetSerializable
-    // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Serialize
-    // Maps to method: Serialize
-    void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xE2EDD4
-    // Implemented from: LiteNetLib.Utils.INetSerializable
-    // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Deserialize
-    // Maps to method: Deserialize
-    void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // public System.Boolean Equals(Vector3Serializable other)
-    // Offset: 0xE2EDDC
-    // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable_1::Equals(Vector3Serializable other)
-    bool Equals(GlobalNamespace::Vector3Serializable other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xE2EDE4
+    // Offset: 0xE143F8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xE2EDEC
+    // Offset: 0xE14400
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xE2EDF8
+    // Offset: 0xE14428
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // Vector3Serializable
   #pragma pack(pop)
-  static check_size<sizeof(Vector3Serializable), 0 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_Vector3SerializableSizeCheck;
+  static check_size<sizeof(Vector3Serializable), 8 + sizeof(int)> __GlobalNamespace_Vector3SerializableSizeCheck;
   static_assert(sizeof(Vector3Serializable) == 0xC);
+  // static public Vector3Serializable op_Addition(Vector3Serializable a, Vector3Serializable b)
+  // Offset: 0x210937C
+  GlobalNamespace::Vector3Serializable operator+(const GlobalNamespace::Vector3Serializable& a, const GlobalNamespace::Vector3Serializable& b);
+  // static public Vector3Serializable op_Subtraction(Vector3Serializable a, Vector3Serializable b)
+  // Offset: 0x2109418
+  GlobalNamespace::Vector3Serializable operator-(const GlobalNamespace::Vector3Serializable& a, const GlobalNamespace::Vector3Serializable& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector3Serializable, "", "Vector3Serializable");

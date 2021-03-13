@@ -32,13 +32,13 @@ namespace Oculus::Platform {
       return Handle;
     }
     // public System.Void SetDeeplinkMessage(System.String value)
-    // Offset: 0x1E3CAEC
+    // Offset: 0x1C8AA94
     void SetDeeplinkMessage(::Il2CppString* value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.ApplicationOptions options)
-    // Offset: 0x1E3C7AC
+    // Offset: 0x1C8A754
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x1E3CA04
+    // Offset: 0x1C8A9AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,9 +47,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<ApplicationOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1E3CC10
+    // Offset: 0x1C8ABB8
     // Implemented from: System.Object
-    // Base method: System.Void Object::Finalize()
+    // Base method: System.Void Object::Finalize_NEW()
     void Finalize();
   }; // Oculus.Platform.ApplicationOptions
   #pragma pack(pop)

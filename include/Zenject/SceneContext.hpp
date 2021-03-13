@@ -64,28 +64,28 @@ namespace Zenject {
     class $$c;
     // Nested type: Zenject::SceneContext::$$c__DisplayClass50_0
     class $$c__DisplayClass50_0;
-    // [CompilerGeneratedAttribute] Offset: 0xD064E4
+    // [CompilerGeneratedAttribute] Offset: 0xCF0E48
     // private System.Action PreInstall
     // Size: 0x8
     // Offset: 0x48
     System::Action* PreInstall;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD064F4
+    // [CompilerGeneratedAttribute] Offset: 0xCF0E58
     // private System.Action PostInstall
     // Size: 0x8
     // Offset: 0x50
     System::Action* PostInstall;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD06504
+    // [CompilerGeneratedAttribute] Offset: 0xCF0E68
     // private System.Action PreResolve
     // Size: 0x8
     // Offset: 0x58
     System::Action* PreResolve;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD06514
+    // [CompilerGeneratedAttribute] Offset: 0xCF0E78
     // private System.Action PostResolve
     // Size: 0x8
     // Offset: 0x60
@@ -116,9 +116,9 @@ namespace Zenject {
     UnityEngine::Events::UnityEvent* OnPostResolve;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::UnityEvent*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD06524
-    // [FormerlySerializedAsAttribute] Offset: 0xD06524
-    // [TooltipAttribute] Offset: 0xD06524
+    // [FormerlySerializedAsAttribute] Offset: 0xCF0E88
+    // [FormerlySerializedAsAttribute] Offset: 0xCF0E88
+    // [TooltipAttribute] Offset: 0xCF0E88
     // private System.Boolean _parentNewObjectsUnderSceneContext
     // Size: 0x1
     // Offset: 0x88
@@ -127,14 +127,14 @@ namespace Zenject {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: parentNewObjectsUnderSceneContext and: contractNames
     char __padding8[0x7] = {};
-    // [TooltipAttribute] Offset: 0xD065B8
+    // [TooltipAttribute] Offset: 0xCF0F1C
     // private System.Collections.Generic.List`1<System.String> _contractNames
     // Size: 0x8
     // Offset: 0x90
     System::Collections::Generic::List_1<::Il2CppString*>* contractNames;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD06604
+    // [TooltipAttribute] Offset: 0xCF0F68
     // private System.Collections.Generic.List`1<System.String> _parentContractNames
     // Size: 0x8
     // Offset: 0x98
@@ -184,105 +184,105 @@ namespace Zenject {
     // Set static field: static public System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> ParentContainers
     static void _set_ParentContainers(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* value);
     // public System.Void add_PreInstall(System.Action value)
-    // Offset: 0x15BB8CC
+    // Offset: 0x1512DEC
     void add_PreInstall(System::Action* value);
     // public System.Void remove_PreInstall(System.Action value)
-    // Offset: 0x15BB970
+    // Offset: 0x1512E90
     void remove_PreInstall(System::Action* value);
     // public System.Void add_PostInstall(System.Action value)
-    // Offset: 0x15BBA14
+    // Offset: 0x1512F34
     void add_PostInstall(System::Action* value);
     // public System.Void remove_PostInstall(System.Action value)
-    // Offset: 0x15BBAB8
+    // Offset: 0x1512FD8
     void remove_PostInstall(System::Action* value);
     // public System.Void add_PreResolve(System.Action value)
-    // Offset: 0x15BBB5C
+    // Offset: 0x151307C
     void add_PreResolve(System::Action* value);
     // public System.Void remove_PreResolve(System.Action value)
-    // Offset: 0x15BBC00
+    // Offset: 0x1513120
     void remove_PreResolve(System::Action* value);
     // public System.Void add_PostResolve(System.Action value)
-    // Offset: 0x15BBCA4
+    // Offset: 0x15131C4
     void add_PostResolve(System::Action* value);
     // public System.Void remove_PostResolve(System.Action value)
-    // Offset: 0x15BBD48
+    // Offset: 0x1513268
     void remove_PostResolve(System::Action* value);
     // public System.Boolean get_HasResolved()
-    // Offset: 0x15BBDF4
+    // Offset: 0x1513314
     bool get_HasResolved();
     // public System.Boolean get_HasInstalled()
-    // Offset: 0x15BBDFC
+    // Offset: 0x151331C
     bool get_HasInstalled();
     // public System.Boolean get_IsValidating()
-    // Offset: 0x15BBE04
+    // Offset: 0x1513324
     bool get_IsValidating();
     // public System.Collections.Generic.IEnumerable`1<System.String> get_ContractNames()
-    // Offset: 0x15BBE34
+    // Offset: 0x1513354
     System::Collections::Generic::IEnumerable_1<::Il2CppString*>* get_ContractNames();
     // public System.Void set_ContractNames(System.Collections.Generic.IEnumerable`1<System.String> value)
-    // Offset: 0x15BBE3C
+    // Offset: 0x151335C
     void set_ContractNames(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* value);
     // public System.Collections.Generic.IEnumerable`1<System.String> get_ParentContractNames()
-    // Offset: 0x15BBEBC
+    // Offset: 0x15133DC
     System::Collections::Generic::IEnumerable_1<::Il2CppString*>* get_ParentContractNames();
     // public System.Void set_ParentContractNames(System.Collections.Generic.IEnumerable`1<System.String> value)
-    // Offset: 0x15BBF44
+    // Offset: 0x1513464
     void set_ParentContractNames(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* value);
     // public System.Boolean get_ParentNewObjectsUnderSceneContext()
-    // Offset: 0x15BBFB0
+    // Offset: 0x15134C8
     bool get_ParentNewObjectsUnderSceneContext();
     // public System.Void set_ParentNewObjectsUnderSceneContext(System.Boolean value)
-    // Offset: 0x15BBFB8
+    // Offset: 0x15134D0
     void set_ParentNewObjectsUnderSceneContext(bool value);
     // public System.Void Awake()
-    // Offset: 0x15BBFC4
+    // Offset: 0x15134DC
     void Awake();
     // public System.Void Validate()
-    // Offset: 0x15BBFC8
+    // Offset: 0x15134E0
     void Validate();
     // private System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> GetParentContainers()
-    // Offset: 0x15BC5A0
+    // Offset: 0x1513A44
     System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* GetParentContainers();
     // private System.Collections.Generic.List`1<Zenject.SceneDecoratorContext> LookupDecoratorContexts()
-    // Offset: 0x15BCB20
+    // Offset: 0x1513F84
     System::Collections::Generic::List_1<Zenject::SceneDecoratorContext*>* LookupDecoratorContexts();
     // public System.Void Install()
-    // Offset: 0x15BC000
+    // Offset: 0x1513518
     void Install();
     // public System.Void Resolve()
-    // Offset: 0x15BC4A0
+    // Offset: 0x1513944
     void Resolve();
     // private System.Void InstallBindings(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> injectableMonoBehaviours)
-    // Offset: 0x15BCF30
+    // Offset: 0x1514374
     void InstallBindings(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* injectableMonoBehaviours);
     // static public Zenject.SceneContext Create()
-    // Offset: 0x15BD6C0
+    // Offset: 0x1514A88
     static Zenject::SceneContext* Create();
     // private System.Boolean <LookupDecoratorContexts>b__49_2(Zenject.SceneDecoratorContext decoratorContext)
-    // Offset: 0x15BD864
+    // Offset: 0x1514BFC
     bool $LookupDecoratorContexts$b__49_2(Zenject::SceneDecoratorContext* decoratorContext);
     // public override Zenject.DiContainer get_Container()
-    // Offset: 0x15BBDEC
+    // Offset: 0x151330C
     // Implemented from: Zenject.Context
-    // Base method: Zenject.DiContainer Context::get_Container()
+    // Base method: Zenject.DiContainer Context::get_Container_NEW()
     Zenject::DiContainer* get_Container();
     // protected override System.Void RunInternal()
-    // Offset: 0x15BC540
+    // Offset: 0x15139E4
     // Implemented from: Zenject.RunnableContext
-    // Base method: System.Void RunnableContext::RunInternal()
+    // Base method: System.Void RunnableContext::RunInternal_NEW()
     void RunInternal();
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetRootGameObjects()
-    // Offset: 0x15BC574
+    // Offset: 0x1513A18
     // Implemented from: Zenject.Context
-    // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> Context::GetRootGameObjects()
+    // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> Context::GetRootGameObjects_NEW()
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetRootGameObjects();
     // protected override System.Void GetInjectableMonoBehaviours(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
-    // Offset: 0x15BD678
+    // Offset: 0x1514A40
     // Implemented from: Zenject.Context
-    // Base method: System.Void Context::GetInjectableMonoBehaviours(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
+    // Base method: System.Void Context::GetInjectableMonoBehaviours_NEW(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
     void GetInjectableMonoBehaviours(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* monoBehaviours);
     // public System.Void .ctor()
-    // Offset: 0x15BD754
+    // Offset: 0x1514B1C
     // Implemented from: Zenject.RunnableContext
     // Base method: System.Void RunnableContext::.ctor()
     // Base method: System.Void Context::.ctor()

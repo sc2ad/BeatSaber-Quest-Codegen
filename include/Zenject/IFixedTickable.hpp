@@ -16,7 +16,7 @@ namespace Zenject {
     IFixedTickable() noexcept {}
     // public System.Void FixedTick()
     // Offset: 0xFFFFFFFF
-    void FixedTick();
+    void FixedTick_NEW();
   }; // Zenject.IFixedTickable
   #pragma pack(pop)
 }

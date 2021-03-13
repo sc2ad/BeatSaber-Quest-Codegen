@@ -46,22 +46,22 @@ namespace System::Net::Http::Headers {
     }
     // public System.Boolean Invoke(System.Net.Http.Headers.Lexer lexer, out T parsedValue, out System.Net.Http.Headers.Token token)
     // Offset: 0xFFFFFFFF
-    bool Invoke(System::Net::Http::Headers::Lexer* lexer, T& parsedValue, System::Net::Http::Headers::Token& token) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::ElementTryParser_1::Invoke");
+    bool Invoke_NEW(System::Net::Http::Headers::Lexer* lexer, T& parsedValue, System::Net::Http::Headers::Token& token) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::ElementTryParser_1::Invoke_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(lexer, parsedValue, token)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, lexer, parsedValue, token);
     }
     // public System.IAsyncResult BeginInvoke(System.Net.Http.Headers.Lexer lexer, out T parsedValue, out System.Net.Http.Headers.Token token, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke(System::Net::Http::Headers::Lexer* lexer, T& parsedValue, System::Net::Http::Headers::Token& token, System::AsyncCallback* callback, ::Il2CppObject* object) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::ElementTryParser_1::BeginInvoke");
+    System::IAsyncResult* BeginInvoke_NEW(System::Net::Http::Headers::Lexer* lexer, T& parsedValue, System::Net::Http::Headers::Token& token, System::AsyncCallback* callback, ::Il2CppObject* object) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::ElementTryParser_1::BeginInvoke_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(lexer, parsedValue, token, callback, object)));
       return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, lexer, parsedValue, token, callback, object);
     }
     // public System.Boolean EndInvoke(out T parsedValue, out System.Net.Http.Headers.Token token, System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
-    bool EndInvoke(T& parsedValue, System::Net::Http::Headers::Token& token, System::IAsyncResult* result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::ElementTryParser_1::EndInvoke");
+    bool EndInvoke_NEW(T& parsedValue, System::Net::Http::Headers::Token& token, System::IAsyncResult* result) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::ElementTryParser_1::EndInvoke_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(parsedValue, token, result)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, parsedValue, token, result);
     }

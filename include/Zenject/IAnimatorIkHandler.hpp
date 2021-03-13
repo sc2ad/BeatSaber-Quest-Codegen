@@ -16,7 +16,7 @@ namespace Zenject {
     IAnimatorIkHandler() noexcept {}
     // public System.Void OnAnimatorIk()
     // Offset: 0xFFFFFFFF
-    void OnAnimatorIk();
+    void OnAnimatorIk_NEW();
   }; // Zenject.IAnimatorIkHandler
   #pragma pack(pop)
 }

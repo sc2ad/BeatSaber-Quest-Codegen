@@ -33,13 +33,13 @@ namespace UnityEngine::Assertions {
     public:
     // Creating value type constructor for type: _Assert
     _Assert() noexcept {}
-    // [ObsoleteAttribute] Offset: 0xCC3C1C
+    // [ObsoleteAttribute] Offset: 0xCAD124
     // Get static field: static public System.Boolean raiseExceptions
     static bool _get_raiseExceptions();
     // Set static field: static public System.Boolean raiseExceptions
     static void _set_raiseExceptions(bool value);
     // static private System.Void Fail(System.String message, System.String userMessage)
-    // Offset: 0x1A13E7C
+    // Offset: 0x19BEB78
     static void Fail(::Il2CppString* message, ::Il2CppString* userMessage);
     // static public System.Void AreEqual(T expected, T actual, System.String message)
     // Offset: 0xFFFFFFFF
@@ -60,13 +60,13 @@ namespace UnityEngine::Assertions {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, expected, actual, message, comparer);
     }
     // static public System.Void AreEqual(UnityEngine.Object expected, UnityEngine.Object actual, System.String message)
-    // Offset: 0x1A140F4
+    // Offset: 0x19BEDE8
     static void AreEqual(UnityEngine::Object* expected, UnityEngine::Object* actual, ::Il2CppString* message);
     // static public System.Void AreEqual(System.Int32 expected, System.Int32 actual)
-    // Offset: 0x1A143BC
+    // Offset: 0x19BF080
     static void AreEqual(int expected, int actual);
     // static private System.Void .cctor()
-    // Offset: 0x1A14458
+    // Offset: 0x19BF11C
     static void _cctor();
   }; // UnityEngine.Assertions.Assert
   #pragma pack(pop)

@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class BaseMasterServerResponse : public ::Il2CppObject/*, public MasterServer::IMasterServerResponse*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD1BCDC
+    // [CompilerGeneratedAttribute] Offset: 0xD05B40
     // private System.UInt32 <responseId>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -45,52 +45,32 @@ namespace GlobalNamespace {
     constexpr operator uint() const noexcept {
       return responseId;
     }
-    // private System.Void set_responseId(System.UInt32 value)
-    // Offset: 0x11CAA24
-    void set_responseId(uint value);
     // public System.UInt32 get_responseId()
-    // Offset: 0x11CAA1C
-    // Implemented from: MasterServer.IMasterServerResponse
-    // Base method: System.UInt32 IMasterServerResponse::get_responseId()
-    uint get_responseId();
+    // Offset: 0x12096D0
+    uint get_responseId_NEW();
+    // private System.Void set_responseId(System.UInt32 value)
+    // Offset: 0x12096D8
+    void set_responseId(uint value);
     // public System.Byte get_resultCode()
-    // Offset: 0x11CAA2C
-    // Implemented from: MasterServer.IMasterServerResponse
-    // Base method: System.Byte IMasterServerResponse::get_resultCode()
+    // Offset: 0x12096E0
     uint8_t get_resultCode();
     // public System.String get_resultCodeString()
-    // Offset: 0x11CAA34
-    // Implemented from: MasterServer.IMasterServerResponse
-    // Base method: System.String IMasterServerResponse::get_resultCodeString()
+    // Offset: 0x12096E8
     ::Il2CppString* get_resultCodeString();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x11CA7D4
-    // Implemented from: LiteNetLib.Utils.INetSerializable
-    // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x1209488
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Serialize
-    // Maps to method: Serialize
-    void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x11CA844
-    // Implemented from: LiteNetLib.Utils.INetSerializable
-    // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x12094F8
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Deserialize
-    // Maps to method: Deserialize
-    void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
     // Offset: 0xFFFFFFFF
-    // Implemented from: IPoolablePacket
-    // Base method: System.Void IPoolablePacket::Release()
-    void Release();
+    void Release_NEW();
     // private MasterServer.IMasterServerResponse MasterServer.IMasterServerResponse.WithResponseId(System.UInt32 responseId)
-    // Offset: 0x11CAA7C
-    // Implemented from: MasterServer.IMasterServerResponse
-    // Base method: MasterServer.IMasterServerResponse IMasterServerResponse::WithResponseId(System.UInt32 responseId)
-    MasterServer::IMasterServerResponse* MasterServer_IMasterServerResponse_WithResponseId(uint responseId);
+    // Offset: 0x1209730
+    MasterServer::IMasterServerResponse* MasterServer_IMasterServerResponse_WithResponseId_NEW(uint responseId);
     // protected System.Void .ctor()
-    // Offset: 0x11CA880
+    // Offset: 0x1209534
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

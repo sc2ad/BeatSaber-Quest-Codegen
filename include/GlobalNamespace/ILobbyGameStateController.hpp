@@ -12,9 +12,9 @@
 namespace System {
   // Forward declaring type: Action
   class Action;
-  // Forward declaring type: Action`3<T1, T2, T3>
-  template<typename T1, typename T2, typename T3>
-  class Action_3;
+  // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
+  class Action_2;
   // Forward declaring type: Action`1<T>
   template<typename T>
   class Action_1;
@@ -23,20 +23,14 @@ namespace System {
 namespace GlobalNamespace {
   // Forward declaring type: MultiplayerLevelScenesTransitionSetupDataSO
   class MultiplayerLevelScenesTransitionSetupDataSO;
-  // Forward declaring type: LevelCompletionResults
-  class LevelCompletionResults;
+  // Forward declaring type: MultiplayerResultsData
+  class MultiplayerResultsData;
   // Forward declaring type: MultiplayerLobbyState
   struct MultiplayerLobbyState;
   // Forward declaring type: MultiplayerGameType
   struct MultiplayerGameType;
   // Forward declaring type: BeatmapIdentifierNetSerializable
   class BeatmapIdentifierNetSerializable;
-}
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class Dictionary_2;
 }
 // Completed forward declares
 // Type namespace: 
@@ -51,112 +45,112 @@ namespace GlobalNamespace {
     ILobbyGameStateController() noexcept {}
     // public System.Void add_gameStartedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_gameStartedEvent(System::Action* value);
+    void add_gameStartedEvent_NEW(System::Action* value);
     // public System.Void remove_gameStartedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_gameStartedEvent(System::Action* value);
+    void remove_gameStartedEvent_NEW(System::Action* value);
     // public System.Void add_gameStartCancelledEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_gameStartCancelledEvent(System::Action* value);
+    void add_gameStartCancelledEvent_NEW(System::Action* value);
     // public System.Void remove_gameStartCancelledEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_gameStartCancelledEvent(System::Action* value);
+    void remove_gameStartCancelledEvent_NEW(System::Action* value);
     // public System.Void add_countdownStartedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_countdownStartedEvent(System::Action* value);
+    void add_countdownStartedEvent_NEW(System::Action* value);
     // public System.Void remove_countdownStartedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_countdownStartedEvent(System::Action* value);
+    void remove_countdownStartedEvent_NEW(System::Action* value);
     // public System.Void add_countdownCancelledEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_countdownCancelledEvent(System::Action* value);
+    void add_countdownCancelledEvent_NEW(System::Action* value);
     // public System.Void remove_countdownCancelledEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_countdownCancelledEvent(System::Action* value);
+    void remove_countdownCancelledEvent_NEW(System::Action* value);
     // public System.Void add_songStillDownloadingEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_songStillDownloadingEvent(System::Action* value);
+    void add_songStillDownloadingEvent_NEW(System::Action* value);
     // public System.Void remove_songStillDownloadingEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_songStillDownloadingEvent(System::Action* value);
+    void remove_songStillDownloadingEvent_NEW(System::Action* value);
     // public System.Void add_startTimeChangedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_startTimeChangedEvent(System::Action* value);
+    void add_startTimeChangedEvent_NEW(System::Action* value);
     // public System.Void remove_startTimeChangedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_startTimeChangedEvent(System::Action* value);
-    // public System.Void add_levelFinishedEvent(System.Action`3<MultiplayerLevelScenesTransitionSetupDataSO,LevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults>> value)
+    void remove_startTimeChangedEvent_NEW(System::Action* value);
+    // public System.Void add_levelFinishedEvent(System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> value)
     // Offset: 0xFFFFFFFF
-    void add_levelFinishedEvent(System::Action_3<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>*>* value);
-    // public System.Void remove_levelFinishedEvent(System.Action`3<MultiplayerLevelScenesTransitionSetupDataSO,LevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults>> value)
+    void add_levelFinishedEvent_NEW(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* value);
+    // public System.Void remove_levelFinishedEvent(System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> value)
     // Offset: 0xFFFFFFFF
-    void remove_levelFinishedEvent(System::Action_3<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>*>* value);
+    void remove_levelFinishedEvent_NEW(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* value);
     // public System.Void add_levelDidGetDisconnectedEvent(System.Action`1<DisconnectedReason> value)
     // Offset: 0xFFFFFFFF
-    void add_levelDidGetDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
+    void add_levelDidGetDisconnectedEvent_NEW(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
     // public System.Void remove_levelDidGetDisconnectedEvent(System.Action`1<DisconnectedReason> value)
     // Offset: 0xFFFFFFFF
-    void remove_levelDidGetDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
+    void remove_levelDidGetDisconnectedEvent_NEW(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
     // public System.Void add_lobbyDisconnectedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_lobbyDisconnectedEvent(System::Action* value);
+    void add_lobbyDisconnectedEvent_NEW(System::Action* value);
     // public System.Void remove_lobbyDisconnectedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_lobbyDisconnectedEvent(System::Action* value);
+    void remove_lobbyDisconnectedEvent_NEW(System::Action* value);
     // public System.Void add_beforeSceneSwitchCallback(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_beforeSceneSwitchCallback(System::Action* value);
+    void add_beforeSceneSwitchCallback_NEW(System::Action* value);
     // public System.Void remove_beforeSceneSwitchCallback(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_beforeSceneSwitchCallback(System::Action* value);
+    void remove_beforeSceneSwitchCallback_NEW(System::Action* value);
     // public MultiplayerLobbyState get_state()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::MultiplayerLobbyState get_state();
+    GlobalNamespace::MultiplayerLobbyState get_state_NEW();
     // public MultiplayerGameType get_gameType()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::MultiplayerGameType get_gameType();
+    GlobalNamespace::MultiplayerGameType get_gameType_NEW();
     // public BeatmapIdentifierNetSerializable get_startedBeatmapId()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapIdentifierNetSerializable* get_startedBeatmapId();
+    GlobalNamespace::BeatmapIdentifierNetSerializable* get_startedBeatmapId_NEW();
     // public System.Boolean get_countdownStarted()
     // Offset: 0xFFFFFFFF
-    bool get_countdownStarted();
+    bool get_countdownStarted_NEW();
     // public System.Single get_countdownEndTime()
     // Offset: 0xFFFFFFFF
-    float get_countdownEndTime();
+    float get_countdownEndTime_NEW();
     // public System.Boolean get_levelStartInitiated()
     // Offset: 0xFFFFFFFF
-    bool get_levelStartInitiated();
+    bool get_levelStartInitiated_NEW();
     // public System.Single get_startTime()
     // Offset: 0xFFFFFFFF
-    float get_startTime();
+    float get_startTime_NEW();
     // public System.Void set_startTime(System.Single value)
     // Offset: 0xFFFFFFFF
-    void set_startTime(float value);
+    void set_startTime_NEW(float value);
     // public System.Boolean get_isDisconnected()
     // Offset: 0xFFFFFFFF
-    bool get_isDisconnected();
+    bool get_isDisconnected_NEW();
     // public DisconnectedReason get_disconnectedReason()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::DisconnectedReason get_disconnectedReason();
+    GlobalNamespace::DisconnectedReason get_disconnectedReason_NEW();
     // public System.Void Activate()
     // Offset: 0xFFFFFFFF
-    void Activate();
+    void Activate_NEW();
     // public System.Void Deactivate()
     // Offset: 0xFFFFFFFF
-    void Deactivate();
+    void Deactivate_NEW();
     // public System.Void StartListeningToGameStart()
     // Offset: 0xFFFFFFFF
-    void StartListeningToGameStart();
+    void StartListeningToGameStart_NEW();
     // public System.Void GetCurrentLevelIfGameStarted()
     // Offset: 0xFFFFFFFF
-    void GetCurrentLevelIfGameStarted();
+    void GetCurrentLevelIfGameStarted_NEW();
     // public System.Void SetMultiplayerGameType(MultiplayerGameType multiplayerGameType)
     // Offset: 0xFFFFFFFF
-    void SetMultiplayerGameType(GlobalNamespace::MultiplayerGameType multiplayerGameType);
+    void SetMultiplayerGameType_NEW(GlobalNamespace::MultiplayerGameType multiplayerGameType);
     // public System.Void ClearDisconnectedState()
     // Offset: 0xFFFFFFFF
-    void ClearDisconnectedState();
+    void ClearDisconnectedState_NEW();
   }; // ILobbyGameStateController
   #pragma pack(pop)
 }

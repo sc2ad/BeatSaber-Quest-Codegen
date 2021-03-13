@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     }
     // public Org.BouncyCastle.Math.BigInteger[] DecomposeScalar(Org.BouncyCastle.Math.BigInteger k)
     // Offset: 0xFFFFFFFF
-    ::Array<Org::BouncyCastle::Math::BigInteger*>* DecomposeScalar(Org::BouncyCastle::Math::BigInteger* k);
+    ::Array<Org::BouncyCastle::Math::BigInteger*>* DecomposeScalar_NEW(Org::BouncyCastle::Math::BigInteger* k);
   }; // Org.BouncyCastle.Math.EC.Endo.GlvEndomorphism
   #pragma pack(pop)
 }

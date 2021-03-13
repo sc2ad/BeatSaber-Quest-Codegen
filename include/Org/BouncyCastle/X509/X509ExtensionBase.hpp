@@ -35,12 +35,12 @@ namespace Org::BouncyCastle::X509 {
     X509ExtensionBase() noexcept {}
     // protected Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
+    Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions_NEW();
     // public Org.BouncyCastle.Asn1.Asn1OctetString GetExtensionValue(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1E643E0
-    Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+    // Offset: 0x1E31FE0
+    Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue_NEW(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // protected System.Void .ctor()
-    // Offset: 0x1E5FABC
+    // Offset: 0x1E2D81C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -22,12 +22,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ScoreObjectiveValueFormatterSO
     ScoreObjectiveValueFormatterSO() noexcept {}
     // public override System.String FormatValue(System.Int32 value)
-    // Offset: 0x108E6A0
+    // Offset: 0xF6E7D0
     // Implemented from: ObjectiveValueFormatterSO
-    // Base method: System.String ObjectiveValueFormatterSO::FormatValue(System.Int32 value)
+    // Base method: System.String ObjectiveValueFormatterSO::FormatValue_NEW(System.Int32 value)
     ::Il2CppString* FormatValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x108E704
+    // Offset: 0xF6E834
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.Void ObjectiveValueFormatterSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

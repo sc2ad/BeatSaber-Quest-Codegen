@@ -110,8 +110,32 @@ namespace GlobalNamespace {
     static GlobalNamespace::GameplayModifierMask _get_GhostNotes();
     // Set static field: static public GameplayModifierMask GhostNotes
     static void _set_GhostNotes(GlobalNamespace::GameplayModifierMask value);
+    // static field const value: static public GameplayModifierMask SuperFastSong
+    static constexpr const uint16_t SuperFastSong = 4096u;
+    // Get static field: static public GameplayModifierMask SuperFastSong
+    static GlobalNamespace::GameplayModifierMask _get_SuperFastSong();
+    // Set static field: static public GameplayModifierMask SuperFastSong
+    static void _set_SuperFastSong(GlobalNamespace::GameplayModifierMask value);
+    // static field const value: static public GameplayModifierMask ProMode
+    static constexpr const uint16_t ProMode = 8192u;
+    // Get static field: static public GameplayModifierMask ProMode
+    static GlobalNamespace::GameplayModifierMask _get_ProMode();
+    // Set static field: static public GameplayModifierMask ProMode
+    static void _set_ProMode(GlobalNamespace::GameplayModifierMask value);
+    // static field const value: static public GameplayModifierMask ZenMode
+    static constexpr const uint16_t ZenMode = 16384u;
+    // Get static field: static public GameplayModifierMask ZenMode
+    static GlobalNamespace::GameplayModifierMask _get_ZenMode();
+    // Set static field: static public GameplayModifierMask ZenMode
+    static void _set_ZenMode(GlobalNamespace::GameplayModifierMask value);
+    // static field const value: static public GameplayModifierMask SmallCubes
+    static constexpr const uint16_t SmallCubes = 32768u;
+    // Get static field: static public GameplayModifierMask SmallCubes
+    static GlobalNamespace::GameplayModifierMask _get_SmallCubes();
+    // Set static field: static public GameplayModifierMask SmallCubes
+    static void _set_SmallCubes(GlobalNamespace::GameplayModifierMask value);
     // static field const value: static public GameplayModifierMask All
-    static constexpr const uint16_t All = 4095u;
+    static constexpr const uint16_t All = 65535u;
     // Get static field: static public GameplayModifierMask All
     static GlobalNamespace::GameplayModifierMask _get_All();
     // Set static field: static public GameplayModifierMask All

@@ -44,32 +44,26 @@ namespace UnityEngine::TestTools::Utils {
   // [] Offset: FFFFFFFF
   class CoroutineRunner : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::TestTools::Utils::CoroutineRunner::$HandleEnumerableTest$d__9
-    class $HandleEnumerableTest$d__9;
-    // Nested type: UnityEngine::TestTools::Utils::CoroutineRunner::$ExMethod$d__11
-    class $ExMethod$d__11;
-    // Nested type: UnityEngine::TestTools::Utils::CoroutineRunner::$StartTimer$d__12
-    class $StartTimer$d__12;
+    // Nested type: UnityEngine::TestTools::Utils::CoroutineRunner::$HandleEnumerableTest$d__8
+    class $HandleEnumerableTest$d__8;
+    // Nested type: UnityEngine::TestTools::Utils::CoroutineRunner::$ExMethod$d__10
+    class $ExMethod$d__10;
+    // Nested type: UnityEngine::TestTools::Utils::CoroutineRunner::$StartTimer$d__11
+    class $StartTimer$d__11;
     // private System.Boolean m_Running
     // Size: 0x1
     // Offset: 0x10
     bool m_Running;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // private System.Boolean m_TestFailed
-    // Size: 0x1
-    // Offset: 0x11
-    bool m_TestFailed;
-    // Field size check
-    static_assert(sizeof(bool) == 0x1);
     // private System.Boolean m_Timeout
     // Size: 0x1
-    // Offset: 0x12
+    // Offset: 0x11
     bool m_Timeout;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_Timeout and: m_Controller
-    char __padding2[0x5] = {};
+    char __padding1[0x6] = {};
     // private readonly UnityEngine.MonoBehaviour m_Controller
     // Size: 0x8
     // Offset: 0x18
@@ -95,32 +89,32 @@ namespace UnityEngine::TestTools::Utils {
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
     // Creating value type constructor for type: CoroutineRunner
-    CoroutineRunner(bool m_Running_ = {}, bool m_TestFailed_ = {}, bool m_Timeout_ = {}, UnityEngine::MonoBehaviour* m_Controller_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* m_Context_ = {}, UnityEngine::Coroutine* m_TimeOutCoroutine_ = {}, System::Collections::IEnumerator* m_TestCoroutine_ = {}) noexcept : m_Running{m_Running_}, m_TestFailed{m_TestFailed_}, m_Timeout{m_Timeout_}, m_Controller{m_Controller_}, m_Context{m_Context_}, m_TimeOutCoroutine{m_TimeOutCoroutine_}, m_TestCoroutine{m_TestCoroutine_} {}
+    CoroutineRunner(bool m_Running_ = {}, bool m_Timeout_ = {}, UnityEngine::MonoBehaviour* m_Controller_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* m_Context_ = {}, UnityEngine::Coroutine* m_TimeOutCoroutine_ = {}, System::Collections::IEnumerator* m_TestCoroutine_ = {}) noexcept : m_Running{m_Running_}, m_Timeout{m_Timeout_}, m_Controller{m_Controller_}, m_Context{m_Context_}, m_TimeOutCoroutine{m_TimeOutCoroutine_}, m_TestCoroutine{m_TestCoroutine_} {}
     // public System.Void .ctor(UnityEngine.MonoBehaviour playmodeTestsController, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x132AFFC
+    // Offset: 0x2175864
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoroutineRunner* New_ctor(UnityEngine::MonoBehaviour* playmodeTestsController, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::CoroutineRunner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoroutineRunner*, creationType>(playmodeTestsController, context)));
     }
     // public System.Collections.IEnumerator HandleEnumerableTest(System.Collections.IEnumerator testEnumerator)
-    // Offset: 0x132B04C
+    // Offset: 0x217589C
     System::Collections::IEnumerator* HandleEnumerableTest(System::Collections::IEnumerator* testEnumerator);
     // private System.Void StopAllRunningCoroutines()
-    // Offset: 0x133FB80
+    // Offset: 0x2175944
     void StopAllRunningCoroutines();
     // private System.Collections.IEnumerator ExMethod(System.Collections.IEnumerator e, System.Int32 timeout)
-    // Offset: 0x133FBD8
+    // Offset: 0x217599C
     System::Collections::IEnumerator* ExMethod(System::Collections::IEnumerator* e, int timeout);
     // private System.Collections.IEnumerator StartTimer(System.Collections.IEnumerator coroutineToBeKilled, System.Int32 timeout, System.Action onTimeout)
-    // Offset: 0x133FC78
+    // Offset: 0x2175A4C
     System::Collections::IEnumerator* StartTimer(System::Collections::IEnumerator* coroutineToBeKilled, int timeout, System::Action* onTimeout);
     // public System.Boolean HasFailedWithTimeout()
-    // Offset: 0x133FD34
+    // Offset: 0x2175B0C
     bool HasFailedWithTimeout();
-    // private System.Void <ExMethod>b__11_0()
-    // Offset: 0x133FD3C
-    void $ExMethod$b__11_0();
+    // private System.Void <ExMethod>b__10_0()
+    // Offset: 0x2175B14
+    void $ExMethod$b__10_0();
   }; // UnityEngine.TestTools.Utils.CoroutineRunner
   #pragma pack(pop)
   static check_size<sizeof(CoroutineRunner), 48 + sizeof(System::Collections::IEnumerator*)> __UnityEngine_TestTools_Utils_CoroutineRunnerSizeCheck;

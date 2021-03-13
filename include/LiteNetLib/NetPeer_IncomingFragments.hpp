@@ -53,7 +53,7 @@ namespace LiteNetLib {
     // Creating value type constructor for type: IncomingFragments
     IncomingFragments(::Array<LiteNetLib::NetPacket*>* Fragments_ = {}, int ReceivedCount_ = {}, int TotalSize_ = {}, uint8_t ChannelId_ = {}) noexcept : Fragments{Fragments_}, ReceivedCount{ReceivedCount_}, TotalSize{TotalSize_}, ChannelId{ChannelId_} {}
     // public System.Void .ctor()
-    // Offset: 0x1AA3EE8
+    // Offset: 0x19F6304
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

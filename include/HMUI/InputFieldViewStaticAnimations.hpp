@@ -34,7 +34,7 @@ namespace HMUI {
     HMUI::InputFieldView* inputFieldView;
     // Field size check
     static_assert(sizeof(HMUI::InputFieldView*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD19440
+    // [SpaceAttribute] Offset: 0xD031A8
     // private UnityEngine.AnimationClip _normalClip
     // Size: 0x8
     // Offset: 0x20
@@ -76,22 +76,22 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x11B64F4
+    // Offset: 0x11F55E4
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x11B6584
+    // Offset: 0x11F5674
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x11B66C0
+    // Offset: 0x11F57B0
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0x11B66DC
+    // Offset: 0x11F57CC
     void OnDestroy();
     // private System.Void HandleInputFieldViewSelectionStateDidChange(HMUI.InputFieldView/SelectionState state)
-    // Offset: 0x11B65A8
+    // Offset: 0x11F5698
     void HandleInputFieldViewSelectionStateDidChange(HMUI::InputFieldView::SelectionState state);
     // public System.Void .ctor()
-    // Offset: 0x11B67B4
+    // Offset: 0x11F58A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

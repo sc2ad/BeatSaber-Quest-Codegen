@@ -36,25 +36,25 @@ namespace NUnit::Framework::Internal {
     ITestExecutionContext() noexcept {}
     // public NUnit.Framework.Internal.TestResult get_CurrentResult()
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Internal::TestResult* get_CurrentResult();
+    NUnit::Framework::Internal::TestResult* get_CurrentResult_NEW();
     // public System.Void set_CurrentResult(NUnit.Framework.Internal.TestResult value)
     // Offset: 0xFFFFFFFF
-    void set_CurrentResult(NUnit::Framework::Internal::TestResult* value);
+    void set_CurrentResult_NEW(NUnit::Framework::Internal::TestResult* value);
     // public System.IO.TextWriter get_OutWriter()
     // Offset: 0xFFFFFFFF
-    System::IO::TextWriter* get_OutWriter();
+    System::IO::TextWriter* get_OutWriter_NEW();
     // public System.Object get_TestObject()
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* get_TestObject();
+    ::Il2CppObject* get_TestObject_NEW();
     // public System.Void set_TestObject(System.Object value)
     // Offset: 0xFFFFFFFF
-    void set_TestObject(::Il2CppObject* value);
+    void set_TestObject_NEW(::Il2CppObject* value);
     // public NUnit.Framework.Constraints.ValueFormatter get_CurrentValueFormatter()
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter();
+    NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter_NEW();
     // public System.Void IncrementAssertCount()
     // Offset: 0xFFFFFFFF
-    void IncrementAssertCount();
+    void IncrementAssertCount_NEW();
   }; // NUnit.Framework.Internal.ITestExecutionContext
   #pragma pack(pop)
 }

@@ -71,52 +71,44 @@ namespace TMPro {
       return *reinterpret_cast<TMPro::ITweenValue*>(this);
     }
     // public System.Single get_startValue()
-    // Offset: 0xDF2DC0
+    // Offset: 0xDDD3FC
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0xDF2DC8
+    // Offset: 0xDDD404
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0xDF2DD0
+    // Offset: 0xDDD40C
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0xDF2DD8
+    // Offset: 0xDDD414
     void set_targetValue(float value);
+    // public System.Single get_duration()
+    // Offset: 0xDDD41C
+    float get_duration_NEW();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0xDF2DE8
+    // Offset: 0xDDD424
     void set_duration(float value);
+    // public System.Boolean get_ignoreTimeScale()
+    // Offset: 0xDDD42C
+    bool get_ignoreTimeScale_NEW();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0xDF2DF8
+    // Offset: 0xDDD434
     void set_ignoreTimeScale(bool value);
+    // public System.Void TweenValue(System.Single floatPercentage)
+    // Offset: 0xDDD440
+    void TweenValue_NEW(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0xDF2E0C
+    // Offset: 0xDDD448
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0xDF2E14
+    // Offset: 0xDDD450
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0xDF2E1C
+    // Offset: 0xDDD458
     float GetDuration();
-    // public System.Single get_duration()
-    // Offset: 0xDF2DE0
-    // Implemented from: TMPro.ITweenValue
-    // Base method: System.Single ITweenValue::get_duration()
-    float get_duration();
-    // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0xDF2DF0
-    // Implemented from: TMPro.ITweenValue
-    // Base method: System.Boolean ITweenValue::get_ignoreTimeScale()
-    bool get_ignoreTimeScale();
-    // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0xDF2E04
-    // Implemented from: TMPro.ITweenValue
-    // Base method: System.Void ITweenValue::TweenValue(System.Single floatPercentage)
-    void TweenValue(float floatPercentage);
     // public System.Boolean ValidTarget()
-    // Offset: 0xDF2E24
-    // Implemented from: TMPro.ITweenValue
-    // Base method: System.Boolean ITweenValue::ValidTarget()
-    bool ValidTarget();
+    // Offset: 0xDDD460
+    bool ValidTarget_NEW();
   }; // TMPro.FloatTween
   #pragma pack(pop)
   static check_size<sizeof(FloatTween), 20 + sizeof(bool)> __TMPro_FloatTweenSizeCheck;

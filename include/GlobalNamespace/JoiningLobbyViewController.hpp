@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     ::Il2CppString* text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD4301C
+    // [CompilerGeneratedAttribute] Offset: 0xD2F3E0
     // private System.Action didFinishEvent
     // Size: 0x8
     // Offset: 0x88
@@ -64,27 +64,27 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: JoiningLobbyViewController
     JoiningLobbyViewController(UnityEngine::UI::Button* cancelJoiningButton_ = {}, GlobalNamespace::LoadingControl* loadingControl_ = {}, ::Il2CppString* text_ = {}, System::Action* didFinishEvent_ = {}) noexcept : cancelJoiningButton{cancelJoiningButton_}, loadingControl{loadingControl_}, text{text_}, didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0xFD3D48
+    // Offset: 0xFF62E0
     void add_didFinishEvent(System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0xFD3DEC
+    // Offset: 0xFF6384
     void remove_didFinishEvent(System::Action* value);
     // public System.Void Init(System.String text)
-    // Offset: 0xFD3E90
+    // Offset: 0xFF6428
     void Init(::Il2CppString* text);
     // public System.Void HideLoading()
-    // Offset: 0xFD3ED8
+    // Offset: 0xFF6460
     void HideLoading();
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0xFD3FEC
+    // Offset: 0xFF6574
     void $DidActivate$b__8_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xFD3F24
+    // Offset: 0xFF64AC
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Base method: System.Void ViewController::DidActivate_NEW(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xFD3FE4
+    // Offset: 0xFF656C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

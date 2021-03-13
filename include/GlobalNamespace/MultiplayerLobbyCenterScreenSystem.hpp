@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerLobbyCenterScreenSystem
     MultiplayerLobbyCenterScreenSystem() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0xFDB580
+    // Offset: 0xF474A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -23,13 +23,13 @@ namespace System::Net {
     IWebConnectionState() noexcept {}
     // public System.Net.WebConnectionGroup get_Group()
     // Offset: 0xFFFFFFFF
-    System::Net::WebConnectionGroup* get_Group();
+    System::Net::WebConnectionGroup* get_Group_NEW();
     // public System.Boolean TrySetBusy()
     // Offset: 0xFFFFFFFF
-    bool TrySetBusy();
+    bool TrySetBusy_NEW();
     // public System.Void SetIdle()
     // Offset: 0xFFFFFFFF
-    void SetIdle();
+    void SetIdle_NEW();
   }; // System.Net.IWebConnectionState
   #pragma pack(pop)
 }

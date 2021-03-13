@@ -16,10 +16,10 @@ namespace Zenject {
     IPoolable() noexcept {}
     // public System.Void OnDespawned()
     // Offset: 0xFFFFFFFF
-    void OnDespawned();
+    void OnDespawned_NEW();
     // public System.Void OnSpawned()
     // Offset: 0xFFFFFFFF
-    void OnSpawned();
+    void OnSpawned_NEW();
   }; // Zenject.IPoolable
   #pragma pack(pop)
 }

@@ -8,8 +8,6 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: IAudioTimeSource
 #include "GlobalNamespace/IAudioTimeSource.hpp"
-// Including type: BeatmapObjectCallbackController
-#include "GlobalNamespace/BeatmapObjectCallbackController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -20,6 +18,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: BeatmapObjectSpawnController
   class BeatmapObjectSpawnController;
+  // Forward declaring type: IBeatmapObjectCallbackController
+  class IBeatmapObjectCallbackController;
   // Forward declaring type: BasicSpectrogramData
   class BasicSpectrogramData;
   // Forward declaring type: SaberManager
@@ -32,6 +32,14 @@ namespace GlobalNamespace {
   class Saber;
   // Forward declaring type: BeatmapEventData
   class BeatmapEventData;
+  // Forward declaring type: BeatmapObjectCallbackData
+  class BeatmapObjectCallbackData;
+  // Forward declaring type: BeatmapObjectCallback
+  class BeatmapObjectCallback;
+  // Forward declaring type: BeatmapEventCallbackData
+  class BeatmapEventCallbackData;
+  // Forward declaring type: BeatmapEventCallback
+  class BeatmapEventCallback;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -56,42 +64,42 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class GameplayFacade : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IAudioTimeSource*/ {
     public:
-    // [InjectAttribute] Offset: 0xD3E34C
+    // [InjectAttribute] Offset: 0xD2A4E0
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3E35C
-    // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // [InjectAttribute] Offset: 0xD2A4F0
+    // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
+    GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3E36C
+    static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
+    // [InjectAttribute] Offset: 0xD2A500
     // private readonly BasicSpectrogramData _spectrogramData
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BasicSpectrogramData* spectrogramData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BasicSpectrogramData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3E37C
+    // [InjectAttribute] Offset: 0xD2A510
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3E38C
+    // [InjectAttribute] Offset: 0xD2A520
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xD3E39C
+    // [InjectOptionalAttribute] Offset: 0xD2A530
     // private readonly IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x40
@@ -99,7 +107,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
     // Creating value type constructor for type: GameplayFacade
-    GameplayFacade(GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}, GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::BasicSpectrogramData* spectrogramData_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}) noexcept : beatmapObjectSpawnController{beatmapObjectSpawnController_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, spectrogramData{spectrogramData_}, saberManager{saberManager_}, audioTimeSyncController{audioTimeSyncController_}, difficultyBeatmap{difficultyBeatmap_} {}
+    GameplayFacade(GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::BasicSpectrogramData* spectrogramData_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}) noexcept : beatmapObjectSpawnController{beatmapObjectSpawnController_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, spectrogramData{spectrogramData_}, saberManager{saberManager_}, audioTimeSyncController{audioTimeSyncController_}, difficultyBeatmap{difficultyBeatmap_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IAudioTimeSource
     operator GlobalNamespace::IAudioTimeSource() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAudioTimeSource*>(this);
@@ -107,67 +115,61 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0xF3BD84
+    // Offset: 0xFE4BAC
     GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
+    // public System.Single get_songTime()
+    // Offset: 0xFE4BB4
+    float get_songTime_NEW();
+    // public System.Single get_songEndTime()
+    // Offset: 0xFE4BD0
+    float get_songEndTime_NEW();
+    // public System.Boolean get_isReady()
+    // Offset: 0xFE4BEC
+    bool get_isReady_NEW();
     // public System.Boolean get_isInitialized()
-    // Offset: 0xF3BDE0
+    // Offset: 0xFE4C08
     bool get_isInitialized();
     // public System.Single get_moveDuration()
-    // Offset: 0xF3BDFC
+    // Offset: 0xFE4C24
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0xF3BE18
+    // Offset: 0xFE4C40
     float get_jumpDuration();
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0xF3BE34
+    // Offset: 0xFE4C5C
     void add_didInitEvent(System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0xF3BE50
+    // Offset: 0xFE4C78
     void remove_didInitEvent(System::Action* value);
     // public System.Collections.Generic.List`1<System.Single> get_ProcessedSamples()
-    // Offset: 0xF3BE6C
+    // Offset: 0xFE4C94
     System::Collections::Generic::List_1<float>* get_ProcessedSamples();
     // public Saber get_leftSaber()
-    // Offset: 0xF3BE88
+    // Offset: 0xFE4CB0
     GlobalNamespace::Saber* get_leftSaber();
     // public Saber get_rightSaber()
-    // Offset: 0xF3BEA4
+    // Offset: 0xFE4CCC
     GlobalNamespace::Saber* get_rightSaber();
     // public System.Void add_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0xF3BEC0
+    // Offset: 0xFE4CE8
     void add_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void remove_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0xF3BEDC
+    // Offset: 0xFE4DA8
     void remove_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
-    // public BeatmapObjectCallbackController/BeatmapObjectCallbackData AddBeatmapObjectCallback(BeatmapObjectCallbackController/BeatmapObjectCallback callback, System.Single aheadTime)
-    // Offset: 0xF3BEF8
-    GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData* AddBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallback* callback, float aheadTime);
-    // public System.Void RemoveBeatmapObjectCallback(BeatmapObjectCallbackController/BeatmapObjectCallbackData callbackData)
-    // Offset: 0xF3BF14
-    void RemoveBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData* callbackData);
-    // public BeatmapObjectCallbackController/BeatmapEventCallbackData AddBeatmapEventCallback(BeatmapObjectCallbackController/BeatmapEventCallback callback, System.Single aheadTime)
-    // Offset: 0xF3BF30
-    GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData* AddBeatmapEventCallback(GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallback* callback, float aheadTime);
-    // public System.Void RemoveBeatmapEventCallback(BeatmapObjectCallbackController/BeatmapEventCallbackData callbackData)
-    // Offset: 0xF3BF4C
-    void RemoveBeatmapEventCallback(GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData* callbackData);
-    // public System.Single get_songTime()
-    // Offset: 0xF3BD8C
-    // Implemented from: IAudioTimeSource
-    // Base method: System.Single IAudioTimeSource::get_songTime()
-    float get_songTime();
-    // public System.Single get_songEndTime()
-    // Offset: 0xF3BDA8
-    // Implemented from: IAudioTimeSource
-    // Base method: System.Single IAudioTimeSource::get_songEndTime()
-    float get_songEndTime();
-    // public System.Boolean get_isReady()
-    // Offset: 0xF3BDC4
-    // Implemented from: IAudioTimeSource
-    // Base method: System.Boolean IAudioTimeSource::get_isReady()
-    bool get_isReady();
+    // public BeatmapObjectCallbackData AddBeatmapObjectCallback(BeatmapObjectCallback callback, System.Single aheadTime)
+    // Offset: 0xFE4E6C
+    GlobalNamespace::BeatmapObjectCallbackData* AddBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallback* callback, float aheadTime);
+    // public System.Void RemoveBeatmapObjectCallback(BeatmapObjectCallbackData callbackData)
+    // Offset: 0xFE4F40
+    void RemoveBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallbackData* callbackData);
+    // public BeatmapEventCallbackData AddBeatmapEventCallback(BeatmapEventCallback callback, System.Single aheadTime)
+    // Offset: 0xFE5004
+    GlobalNamespace::BeatmapEventCallbackData* AddBeatmapEventCallback(GlobalNamespace::BeatmapEventCallback* callback, float aheadTime);
+    // public System.Void RemoveBeatmapEventCallback(BeatmapEventCallbackData callbackData)
+    // Offset: 0xFE50D8
+    void RemoveBeatmapEventCallback(GlobalNamespace::BeatmapEventCallbackData* callbackData);
     // public System.Void .ctor()
-    // Offset: 0xF3BF68
+    // Offset: 0xFE519C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

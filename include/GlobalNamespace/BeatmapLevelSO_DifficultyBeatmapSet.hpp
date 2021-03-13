@@ -18,10 +18,10 @@
 namespace GlobalNamespace {
   // Forward declaring type: BeatmapCharacteristicSO
   class BeatmapCharacteristicSO;
-  // Forward declaring type: IBeatmapLevel
-  class IBeatmapLevel;
   // Forward declaring type: IDifficultyBeatmap
   class IDifficultyBeatmap;
+  // Forward declaring type: IBeatmapLevel
+  class IBeatmapLevel;
 }
 // Completed forward declares
 // Type namespace: 
@@ -50,26 +50,22 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IDifficultyBeatmapSet() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmapSet*>(this);
     }
+    // public BeatmapCharacteristicSO get_beatmapCharacteristic()
+    // Offset: 0xEF76BC
+    GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic_NEW();
+    // public IDifficultyBeatmap[] get_difficultyBeatmaps()
+    // Offset: 0xEF76C4
+    ::Array<GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps_NEW();
     // public System.Void .ctor(BeatmapCharacteristicSO beatmapCharacteristic, BeatmapLevelSO/DifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0x107A6D4
+    // Offset: 0xEF76CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelSO::DifficultyBeatmapSet* New_ctor(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>* difficultyBeatmaps) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelSO::DifficultyBeatmapSet*, creationType>(beatmapCharacteristic, difficultyBeatmaps)));
     }
     // public System.Void SetParentLevel(IBeatmapLevel level)
-    // Offset: 0x10794F8
+    // Offset: 0xEF7704
     void SetParentLevel(GlobalNamespace::IBeatmapLevel* level);
-    // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x107A6C4
-    // Implemented from: IDifficultyBeatmapSet
-    // Base method: BeatmapCharacteristicSO IDifficultyBeatmapSet::get_beatmapCharacteristic()
-    GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
-    // public IDifficultyBeatmap[] get_difficultyBeatmaps()
-    // Offset: 0x107A6CC
-    // Implemented from: IDifficultyBeatmapSet
-    // Base method: IDifficultyBeatmap[] IDifficultyBeatmapSet::get_difficultyBeatmaps()
-    ::Array<GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps();
   }; // BeatmapLevelSO/DifficultyBeatmapSet
   #pragma pack(pop)
   static check_size<sizeof(BeatmapLevelSO::DifficultyBeatmapSet), 24 + sizeof(::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>*)> __GlobalNamespace_BeatmapLevelSO_DifficultyBeatmapSetSizeCheck;

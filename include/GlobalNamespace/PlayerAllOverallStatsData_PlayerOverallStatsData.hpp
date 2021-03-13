@@ -26,21 +26,21 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class PlayerAllOverallStatsData::PlayerOverallStatsData : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD46120
+    // [CompilerGeneratedAttribute] Offset: 0xD3261C
     // private System.Int32 <goodCutsCount>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     int goodCutsCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD46130
+    // [CompilerGeneratedAttribute] Offset: 0xD3262C
     // private System.Int32 <badCutsCount>k__BackingField
     // Size: 0x4
     // Offset: 0x14
     int badCutsCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD46140
+    // [CompilerGeneratedAttribute] Offset: 0xD3263C
     // private System.Int32 <missedCutsCount>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -49,56 +49,56 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: missedCutsCount and: totalScore
     char __padding2[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD46150
+    // [CompilerGeneratedAttribute] Offset: 0xD3264C
     // private System.Int64 <totalScore>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     int64_t totalScore;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD46160
+    // [CompilerGeneratedAttribute] Offset: 0xD3265C
     // private System.Int32 <playedLevelsCount>k__BackingField
     // Size: 0x4
     // Offset: 0x28
     int playedLevelsCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD46170
+    // [CompilerGeneratedAttribute] Offset: 0xD3266C
     // private System.Int32 <cleardLevelsCount>k__BackingField
     // Size: 0x4
     // Offset: 0x2C
     int cleardLevelsCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD46180
+    // [CompilerGeneratedAttribute] Offset: 0xD3267C
     // private System.Int32 <failedLevelsCount>k__BackingField
     // Size: 0x4
     // Offset: 0x30
     int failedLevelsCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD46190
+    // [CompilerGeneratedAttribute] Offset: 0xD3268C
     // private System.Int32 <fullComboCount>k__BackingField
     // Size: 0x4
     // Offset: 0x34
     int fullComboCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD461A0
+    // [CompilerGeneratedAttribute] Offset: 0xD3269C
     // private System.Single <timePlayed>k__BackingField
     // Size: 0x4
     // Offset: 0x38
     float timePlayed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD461B0
+    // [CompilerGeneratedAttribute] Offset: 0xD326AC
     // private System.Int32 <handDistanceTravelled>k__BackingField
     // Size: 0x4
     // Offset: 0x3C
     int handDistanceTravelled;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD461C0
+    // [CompilerGeneratedAttribute] Offset: 0xD326BC
     // private System.Int64 <cummulativeCutScoreWithoutMultiplier>k__BackingField
     // Size: 0x8
     // Offset: 0x40
@@ -108,86 +108,86 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlayerOverallStatsData
     PlayerOverallStatsData(int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCutsCount_ = {}, int64_t totalScore_ = {}, int playedLevelsCount_ = {}, int cleardLevelsCount_ = {}, int failedLevelsCount_ = {}, int fullComboCount_ = {}, float timePlayed_ = {}, int handDistanceTravelled_ = {}, int64_t cummulativeCutScoreWithoutMultiplier_ = {}) noexcept : goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCutsCount{missedCutsCount_}, totalScore{totalScore_}, playedLevelsCount{playedLevelsCount_}, cleardLevelsCount{cleardLevelsCount_}, failedLevelsCount{failedLevelsCount_}, fullComboCount{fullComboCount_}, timePlayed{timePlayed_}, handDistanceTravelled{handDistanceTravelled_}, cummulativeCutScoreWithoutMultiplier{cummulativeCutScoreWithoutMultiplier_} {}
     // public System.Int32 get_goodCutsCount()
-    // Offset: 0xFB48B4
+    // Offset: 0xF61448
     int get_goodCutsCount();
     // private System.Void set_goodCutsCount(System.Int32 value)
-    // Offset: 0xFB48BC
+    // Offset: 0xF61450
     void set_goodCutsCount(int value);
     // public System.Int32 get_badCutsCount()
-    // Offset: 0xFB48C4
+    // Offset: 0xF61458
     int get_badCutsCount();
     // private System.Void set_badCutsCount(System.Int32 value)
-    // Offset: 0xFB48CC
+    // Offset: 0xF61460
     void set_badCutsCount(int value);
     // public System.Int32 get_missedCutsCount()
-    // Offset: 0xFB48D4
+    // Offset: 0xF61468
     int get_missedCutsCount();
     // private System.Void set_missedCutsCount(System.Int32 value)
-    // Offset: 0xFB48DC
+    // Offset: 0xF61470
     void set_missedCutsCount(int value);
     // public System.Int64 get_totalScore()
-    // Offset: 0xFB48E4
+    // Offset: 0xF61478
     int64_t get_totalScore();
     // private System.Void set_totalScore(System.Int64 value)
-    // Offset: 0xFB48EC
+    // Offset: 0xF61480
     void set_totalScore(int64_t value);
     // public System.Int32 get_playedLevelsCount()
-    // Offset: 0xFB48F4
+    // Offset: 0xF61488
     int get_playedLevelsCount();
     // private System.Void set_playedLevelsCount(System.Int32 value)
-    // Offset: 0xFB48FC
+    // Offset: 0xF61490
     void set_playedLevelsCount(int value);
     // public System.Int32 get_cleardLevelsCount()
-    // Offset: 0xFB4904
+    // Offset: 0xF61498
     int get_cleardLevelsCount();
     // private System.Void set_cleardLevelsCount(System.Int32 value)
-    // Offset: 0xFB490C
+    // Offset: 0xF614A0
     void set_cleardLevelsCount(int value);
     // public System.Int32 get_failedLevelsCount()
-    // Offset: 0xFB4914
+    // Offset: 0xF614A8
     int get_failedLevelsCount();
     // private System.Void set_failedLevelsCount(System.Int32 value)
-    // Offset: 0xFB491C
+    // Offset: 0xF614B0
     void set_failedLevelsCount(int value);
     // public System.Int32 get_fullComboCount()
-    // Offset: 0xFB4924
+    // Offset: 0xF614B8
     int get_fullComboCount();
     // private System.Void set_fullComboCount(System.Int32 value)
-    // Offset: 0xFB492C
+    // Offset: 0xF614C0
     void set_fullComboCount(int value);
     // public System.Single get_timePlayed()
-    // Offset: 0xFB4934
+    // Offset: 0xF614C8
     float get_timePlayed();
     // private System.Void set_timePlayed(System.Single value)
-    // Offset: 0xFB493C
+    // Offset: 0xF614D0
     void set_timePlayed(float value);
     // public System.Int32 get_handDistanceTravelled()
-    // Offset: 0xFB4944
+    // Offset: 0xF614D8
     int get_handDistanceTravelled();
     // private System.Void set_handDistanceTravelled(System.Int32 value)
-    // Offset: 0xFB494C
+    // Offset: 0xF614E0
     void set_handDistanceTravelled(int value);
     // public System.Int64 get_cummulativeCutScoreWithoutMultiplier()
-    // Offset: 0xFB4954
+    // Offset: 0xF614E8
     int64_t get_cummulativeCutScoreWithoutMultiplier();
     // private System.Void set_cummulativeCutScoreWithoutMultiplier(System.Int64 value)
-    // Offset: 0xFB495C
+    // Offset: 0xF614F0
     void set_cummulativeCutScoreWithoutMultiplier(int64_t value);
     // public System.Int32 get_averageCutScore()
-    // Offset: 0xFB4964
+    // Offset: 0xF614F8
     int get_averageCutScore();
     // public System.Void .ctor(System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCutsCount, System.Int64 totalScore, System.Int32 playedLevelsCount, System.Int32 cleardLevelsCount, System.Int32 failedLevelsCount, System.Int32 fullComboCount, System.Single timePlayed, System.Int32 handDistanceTravelled, System.Int64 cummulativeCutScoreWithoutMultiplier)
-    // Offset: 0xFB4984
+    // Offset: 0xF61518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAllOverallStatsData::PlayerOverallStatsData* New_ctor(int goodCutsCount, int badCutsCount, int missedCutsCount, int64_t totalScore, int playedLevelsCount, int cleardLevelsCount, int failedLevelsCount, int fullComboCount, float timePlayed, int handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAllOverallStatsData::PlayerOverallStatsData*, creationType>(goodCutsCount, badCutsCount, missedCutsCount, totalScore, playedLevelsCount, cleardLevelsCount, failedLevelsCount, fullComboCount, timePlayed, handDistanceTravelled, cummulativeCutScoreWithoutMultiplier)));
     }
     // public System.Void UpdateWithLevelCompletionResults(LevelCompletionResults levelCompletionResults)
-    // Offset: 0xFB4668
+    // Offset: 0xF6128C
     void UpdateWithLevelCompletionResults(GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0xFB4550
+    // Offset: 0xF611A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -200,7 +200,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerAllOverallStatsData::PlayerOverallStatsData), 64 + sizeof(int64_t)> __GlobalNamespace_PlayerAllOverallStatsData_PlayerOverallStatsDataSizeCheck;
   static_assert(sizeof(PlayerAllOverallStatsData::PlayerOverallStatsData) == 0x48);
   // static public PlayerAllOverallStatsData/PlayerOverallStatsData op_Addition(PlayerAllOverallStatsData/PlayerOverallStatsData a, PlayerAllOverallStatsData/PlayerOverallStatsData b)
-  // Offset: 0xFB3F24
+  // Offset: 0xF60BA8
   GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* operator+(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* a, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*, "", "PlayerAllOverallStatsData/PlayerOverallStatsData");

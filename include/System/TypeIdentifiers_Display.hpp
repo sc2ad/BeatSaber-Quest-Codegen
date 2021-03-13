@@ -42,25 +42,23 @@ namespace System {
       return *reinterpret_cast<System::TypeIdentifier*>(this);
     }
     // System.Void .ctor(System.String displayName)
-    // Offset: 0x19F253C
+    // Offset: 0x20D46E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeIdentifiers::Display* New_ctor(::Il2CppString* displayName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TypeIdentifiers::Display::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeIdentifiers::Display*, creationType>(displayName)));
     }
+    // public System.String get_InternalName()
+    // Offset: 0x20D471C
+    ::Il2CppString* get_InternalName_NEW();
     // private System.String GetInternalName()
-    // Offset: 0x19F25D4
+    // Offset: 0x20D474C
     ::Il2CppString* GetInternalName();
     // public override System.String get_DisplayName()
-    // Offset: 0x19F2588
+    // Offset: 0x20D4714
     // Implemented from: System.TypeNames/ATypeName
-    // Base method: System.String ATypeName::get_DisplayName()
+    // Base method: System.String ATypeName::get_DisplayName_NEW()
     ::Il2CppString* get_DisplayName();
-    // public System.String get_InternalName()
-    // Offset: 0x19F2590
-    // Implemented from: System.TypeIdentifier
-    // Base method: System.String TypeIdentifier::get_InternalName()
-    ::Il2CppString* get_InternalName();
   }; // System.TypeIdentifiers/Display
   #pragma pack(pop)
   static check_size<sizeof(TypeIdentifiers::Display), 24 + sizeof(::Il2CppString*)> __System_TypeIdentifiers_DisplaySizeCheck;

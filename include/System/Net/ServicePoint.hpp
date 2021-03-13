@@ -207,95 +207,95 @@ namespace System::Net {
     // Creating value type constructor for type: ServicePoint
     ServicePoint(System::Uri* uri_ = {}, int connectionLimit_ = {}, int maxIdleTime_ = {}, int currentConnections_ = {}, System::DateTime idleSince_ = {}, System::DateTime lastDnsResolve_ = {}, System::Version* protocolVersion_ = {}, System::Net::IPHostEntry* host_ = {}, bool usesProxy_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::WebConnectionGroup*>* groups_ = {}, bool sendContinue_ = {}, bool useConnect_ = {}, ::Il2CppObject* hostE_ = {}, bool useNagle_ = {}, System::Net::BindIPEndPoint* endPointCallback_ = {}, bool tcp_keepalive_ = {}, int tcp_keepalive_time_ = {}, int tcp_keepalive_interval_ = {}, System::Threading::Timer* idleTimer_ = {}, ::Il2CppObject* m_ServerCertificateOrBytes_ = {}, ::Il2CppObject* m_ClientCertificateOrBytes_ = {}) noexcept : uri{uri_}, connectionLimit{connectionLimit_}, maxIdleTime{maxIdleTime_}, currentConnections{currentConnections_}, idleSince{idleSince_}, lastDnsResolve{lastDnsResolve_}, protocolVersion{protocolVersion_}, host{host_}, usesProxy{usesProxy_}, groups{groups_}, sendContinue{sendContinue_}, useConnect{useConnect_}, hostE{hostE_}, useNagle{useNagle_}, endPointCallback{endPointCallback_}, tcp_keepalive{tcp_keepalive_}, tcp_keepalive_time{tcp_keepalive_time_}, tcp_keepalive_interval{tcp_keepalive_interval_}, idleTimer{idleTimer_}, m_ServerCertificateOrBytes{m_ServerCertificateOrBytes_}, m_ClientCertificateOrBytes{m_ClientCertificateOrBytes_} {}
     // System.Void .ctor(System.Uri uri, System.Int32 connectionLimit, System.Int32 maxIdleTime)
-    // Offset: 0x135CCA4
+    // Offset: 0x132ED94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServicePoint* New_ctor(System::Uri* uri, int connectionLimit, int maxIdleTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServicePoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServicePoint*, creationType>(uri, connectionLimit, maxIdleTime)));
     }
     // public System.Uri get_Address()
-    // Offset: 0x135CD88
+    // Offset: 0x132EE5C
     System::Uri* get_Address();
     // public System.Int32 get_ConnectionLimit()
-    // Offset: 0x135CD90
+    // Offset: 0x132EE64
     int get_ConnectionLimit();
     // public System.Version get_ProtocolVersion()
-    // Offset: 0x135CD98
-    System::Version* get_ProtocolVersion();
+    // Offset: 0x132EE6C
+    System::Version* get_ProtocolVersion_NEW();
     // public System.Void set_Expect100Continue(System.Boolean value)
-    // Offset: 0x135CDA0
+    // Offset: 0x132EE74
     void set_Expect100Continue(bool value);
     // public System.Boolean get_UseNagleAlgorithm()
-    // Offset: 0x135CDAC
+    // Offset: 0x132EE80
     bool get_UseNagleAlgorithm();
     // public System.Void set_UseNagleAlgorithm(System.Boolean value)
-    // Offset: 0x135CDB4
+    // Offset: 0x132EE88
     void set_UseNagleAlgorithm(bool value);
     // System.Boolean get_SendContinue()
-    // Offset: 0x135CDC0
+    // Offset: 0x132EE94
     bool get_SendContinue();
     // System.Void set_SendContinue(System.Boolean value)
-    // Offset: 0x135CEBC
+    // Offset: 0x132EF90
     void set_SendContinue(bool value);
     // public System.Void SetTcpKeepAlive(System.Boolean enabled, System.Int32 keepAliveTime, System.Int32 keepAliveInterval)
-    // Offset: 0x135CEC8
+    // Offset: 0x132EF9C
     void SetTcpKeepAlive(bool enabled, int keepAliveTime, int keepAliveInterval);
     // System.Void KeepAliveSetup(System.Net.Sockets.Socket socket)
-    // Offset: 0x135CFA8
+    // Offset: 0x132F07C
     void KeepAliveSetup(System::Net::Sockets::Socket* socket);
     // static private System.Void PutBytes(System.Byte[] bytes, System.UInt32 v, System.Int32 offset)
-    // Offset: 0x135D06C
+    // Offset: 0x132F140
     static void PutBytes(::Array<uint8_t>* bytes, uint v, int offset);
     // System.Boolean get_UsesProxy()
-    // Offset: 0x135D1CC
+    // Offset: 0x132F2A0
     bool get_UsesProxy();
     // System.Void set_UsesProxy(System.Boolean value)
-    // Offset: 0x135D1D4
+    // Offset: 0x132F2A8
     void set_UsesProxy(bool value);
     // System.Boolean get_UseConnect()
-    // Offset: 0x135D1E0
+    // Offset: 0x132F2B4
     bool get_UseConnect();
     // System.Void set_UseConnect(System.Boolean value)
-    // Offset: 0x135D1E8
+    // Offset: 0x132F2BC
     void set_UseConnect(bool value);
     // private System.Net.WebConnectionGroup GetConnectionGroup(System.String name)
-    // Offset: 0x135D1F4
+    // Offset: 0x132F2C8
     System::Net::WebConnectionGroup* GetConnectionGroup(::Il2CppString* name);
     // private System.Void RemoveConnectionGroup(System.Net.WebConnectionGroup group)
-    // Offset: 0x135D354
+    // Offset: 0x132F418
     void RemoveConnectionGroup(System::Net::WebConnectionGroup* group);
     // private System.Boolean CheckAvailableForRecycling(out System.DateTime outIdleSince)
-    // Offset: 0x135D40C
+    // Offset: 0x132F4D0
     bool CheckAvailableForRecycling(System::DateTime& outIdleSince);
     // private System.Void IdleTimerCallback(System.Object obj)
-    // Offset: 0x135D98C
+    // Offset: 0x132FA68
     void IdleTimerCallback(::Il2CppObject* obj);
     // private System.Boolean get_HasTimedOut()
-    // Offset: 0x135D9B0
+    // Offset: 0x132FA8C
     bool get_HasTimedOut();
     // System.Net.IPHostEntry get_HostEntry()
-    // Offset: 0x135DAFC
+    // Offset: 0x132FBD8
     System::Net::IPHostEntry* get_HostEntry();
     // System.Void SetVersion(System.Version version)
-    // Offset: 0x135DEC0
+    // Offset: 0x132FF58
     void SetVersion(System::Version* version);
     // System.EventHandler SendRequest(System.Net.HttpWebRequest request, System.String groupName)
-    // Offset: 0x135DEC8
+    // Offset: 0x132FF60
     System::EventHandler* SendRequest(System::Net::HttpWebRequest* request, ::Il2CppString* groupName);
     // public System.Boolean CloseConnectionGroup(System.String connectionGroupName)
-    // Offset: 0x135E078
+    // Offset: 0x13300F8
     bool CloseConnectionGroup(::Il2CppString* connectionGroupName);
     // System.Void UpdateServerCertificate(System.Security.Cryptography.X509Certificates.X509Certificate certificate)
-    // Offset: 0x135E154
+    // Offset: 0x13301BC
     void UpdateServerCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* certificate);
     // System.Void UpdateClientCertificate(System.Security.Cryptography.X509Certificates.X509Certificate certificate)
-    // Offset: 0x135E19C
+    // Offset: 0x13301FC
     void UpdateClientCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* certificate);
     // System.Boolean CallEndPointDelegate(System.Net.Sockets.Socket sock, System.Net.IPEndPoint remote)
-    // Offset: 0x135E1E4
+    // Offset: 0x133023C
     bool CallEndPointDelegate(System::Net::Sockets::Socket* sock, System::Net::IPEndPoint* remote);
     // private System.Void <GetConnectionGroup>b__66_0(System.Object s, System.EventArgs e)
-    // Offset: 0x135E510
+    // Offset: 0x133055C
     void $GetConnectionGroup$b__66_0(::Il2CppObject* s, System::EventArgs* e);
   }; // System.Net.ServicePoint
   #pragma pack(pop)

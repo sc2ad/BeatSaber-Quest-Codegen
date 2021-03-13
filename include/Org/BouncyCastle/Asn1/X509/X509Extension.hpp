@@ -43,30 +43,30 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: X509Extension
     X509Extension(bool critical_ = {}, Org::BouncyCastle::Asn1::Asn1OctetString* value_ = {}) noexcept : critical{critical_}, value{value_} {}
     // public System.Void .ctor(System.Boolean critical, Org.BouncyCastle.Asn1.Asn1OctetString value)
-    // Offset: 0x1900A54
+    // Offset: 0x1868A68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(bool critical, Org::BouncyCastle::Asn1::Asn1OctetString* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(critical, value)));
     }
     // public System.Boolean get_IsCritical()
-    // Offset: 0x1900A9C
+    // Offset: 0x1868AA8
     bool get_IsCritical();
     // public Org.BouncyCastle.Asn1.Asn1OctetString get_Value()
-    // Offset: 0x1900AA4
+    // Offset: 0x1868AB0
     Org::BouncyCastle::Asn1::Asn1OctetString* get_Value();
     // static public Org.BouncyCastle.Asn1.Asn1Object ConvertValueToObject(Org.BouncyCastle.Asn1.X509.X509Extension ext)
-    // Offset: 0x18F95C8
+    // Offset: 0x1861C20
     static Org::BouncyCastle::Asn1::Asn1Object* ConvertValueToObject(Org::BouncyCastle::Asn1::X509::X509Extension* ext);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1900AAC
+    // Offset: 0x1868AB8
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1900AE8
+    // Offset: 0x1868AF4
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object obj)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // Org.BouncyCastle.Asn1.X509.X509Extension
   #pragma pack(pop)

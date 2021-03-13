@@ -38,7 +38,7 @@ namespace NUnit::Framework::Interfaces {
     ICombiningStrategy() noexcept {}
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestCaseData> GetTestCases(System.Collections.IEnumerable[] sources)
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* GetTestCases(::Array<System::Collections::IEnumerable*>* sources);
+    System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* GetTestCases_NEW(::Array<System::Collections::IEnumerable*>* sources);
   }; // NUnit.Framework.Interfaces.ICombiningStrategy
   #pragma pack(pop)
 }

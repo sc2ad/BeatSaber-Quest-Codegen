@@ -131,144 +131,144 @@ namespace UnityEngine::Rendering {
     #pragma pack(pop)
     static check_size<sizeof(SupportedRenderingFeatures::LightmapMixedBakeModes), 0 + sizeof(int)> __UnityEngine_Rendering_SupportedRenderingFeatures_LightmapMixedBakeModesSizeCheck;
     static_assert(sizeof(SupportedRenderingFeatures::LightmapMixedBakeModes) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCC36A4
-    // [DebuggerBrowsableAttribute] Offset: 0xCC36A4
+    // [CompilerGeneratedAttribute] Offset: 0xCACBAC
+    // [DebuggerBrowsableAttribute] Offset: 0xCACBAC
     // private UnityEngine.Rendering.SupportedRenderingFeatures/ReflectionProbeModes <reflectionProbeModes>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     UnityEngine::Rendering::SupportedRenderingFeatures::ReflectionProbeModes reflectionProbeModes;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::SupportedRenderingFeatures::ReflectionProbeModes) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCC36E0
-    // [DebuggerBrowsableAttribute] Offset: 0xCC36E0
+    // [DebuggerBrowsableAttribute] Offset: 0xCACBE8
+    // [CompilerGeneratedAttribute] Offset: 0xCACBE8
     // private UnityEngine.Rendering.SupportedRenderingFeatures/LightmapMixedBakeModes <defaultMixedLightingModes>k__BackingField
     // Size: 0x4
     // Offset: 0x14
     UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes defaultMixedLightingModes;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCC371C
-    // [DebuggerBrowsableAttribute] Offset: 0xCC371C
+    // [CompilerGeneratedAttribute] Offset: 0xCACC24
+    // [DebuggerBrowsableAttribute] Offset: 0xCACC24
     // private UnityEngine.Rendering.SupportedRenderingFeatures/LightmapMixedBakeModes <mixedLightingModes>k__BackingField
     // Size: 0x4
     // Offset: 0x18
     UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes mixedLightingModes;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCC3758
-    // [DebuggerBrowsableAttribute] Offset: 0xCC3758
+    // [DebuggerBrowsableAttribute] Offset: 0xCACC60
+    // [CompilerGeneratedAttribute] Offset: 0xCACC60
     // private UnityEngine.LightmapBakeType <lightmapBakeTypes>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
     UnityEngine::LightmapBakeType lightmapBakeTypes;
     // Field size check
     static_assert(sizeof(UnityEngine::LightmapBakeType) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCC3794
-    // [DebuggerBrowsableAttribute] Offset: 0xCC3794
+    // [CompilerGeneratedAttribute] Offset: 0xCACC9C
+    // [DebuggerBrowsableAttribute] Offset: 0xCACC9C
     // private UnityEngine.LightmapsMode <lightmapsModes>k__BackingField
     // Size: 0x4
     // Offset: 0x20
     UnityEngine::LightmapsMode lightmapsModes;
     // Field size check
     static_assert(sizeof(UnityEngine::LightmapsMode) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xCC37D0
-    // [CompilerGeneratedAttribute] Offset: 0xCC37D0
+    // [DebuggerBrowsableAttribute] Offset: 0xCACCD8
+    // [CompilerGeneratedAttribute] Offset: 0xCACCD8
     // private System.Boolean <enlighten>k__BackingField
     // Size: 0x1
     // Offset: 0x24
     bool enlighten;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCC380C
-    // [DebuggerBrowsableAttribute] Offset: 0xCC380C
+    // [DebuggerBrowsableAttribute] Offset: 0xCACD14
+    // [CompilerGeneratedAttribute] Offset: 0xCACD14
     // private System.Boolean <lightProbeProxyVolumes>k__BackingField
     // Size: 0x1
     // Offset: 0x25
     bool lightProbeProxyVolumes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCC3848
-    // [DebuggerBrowsableAttribute] Offset: 0xCC3848
+    // [CompilerGeneratedAttribute] Offset: 0xCACD50
+    // [DebuggerBrowsableAttribute] Offset: 0xCACD50
     // private System.Boolean <motionVectors>k__BackingField
     // Size: 0x1
     // Offset: 0x26
     bool motionVectors;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCC3884
-    // [DebuggerBrowsableAttribute] Offset: 0xCC3884
+    // [CompilerGeneratedAttribute] Offset: 0xCACD8C
+    // [DebuggerBrowsableAttribute] Offset: 0xCACD8C
     // private System.Boolean <receiveShadows>k__BackingField
     // Size: 0x1
     // Offset: 0x27
     bool receiveShadows;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DebuggerBrowsableAttribute] Offset: 0xCC38C0
-    // [CompilerGeneratedAttribute] Offset: 0xCC38C0
+    // [CompilerGeneratedAttribute] Offset: 0xCACDC8
+    // [DebuggerBrowsableAttribute] Offset: 0xCACDC8
     // private System.Boolean <reflectionProbes>k__BackingField
     // Size: 0x1
     // Offset: 0x28
     bool reflectionProbes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCC38FC
-    // [DebuggerBrowsableAttribute] Offset: 0xCC38FC
+    // [DebuggerBrowsableAttribute] Offset: 0xCACE04
+    // [CompilerGeneratedAttribute] Offset: 0xCACE04
     // private System.Boolean <rendererPriority>k__BackingField
     // Size: 0x1
     // Offset: 0x29
     bool rendererPriority;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCC3938
-    // [DebuggerBrowsableAttribute] Offset: 0xCC3938
+    // [DebuggerBrowsableAttribute] Offset: 0xCACE40
+    // [CompilerGeneratedAttribute] Offset: 0xCACE40
     // private System.Boolean <terrainDetailUnsupported>k__BackingField
     // Size: 0x1
     // Offset: 0x2A
     bool terrainDetailUnsupported;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DebuggerBrowsableAttribute] Offset: 0xCC3974
-    // [CompilerGeneratedAttribute] Offset: 0xCC3974
+    // [DebuggerBrowsableAttribute] Offset: 0xCACE7C
+    // [CompilerGeneratedAttribute] Offset: 0xCACE7C
     // private System.Boolean <overridesEnvironmentLighting>k__BackingField
     // Size: 0x1
     // Offset: 0x2B
     bool overridesEnvironmentLighting;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCC39B0
-    // [DebuggerBrowsableAttribute] Offset: 0xCC39B0
+    // [CompilerGeneratedAttribute] Offset: 0xCACEB8
+    // [DebuggerBrowsableAttribute] Offset: 0xCACEB8
     // private System.Boolean <overridesFog>k__BackingField
     // Size: 0x1
     // Offset: 0x2C
     bool overridesFog;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCC39EC
-    // [DebuggerBrowsableAttribute] Offset: 0xCC39EC
+    // [CompilerGeneratedAttribute] Offset: 0xCACEF4
+    // [DebuggerBrowsableAttribute] Offset: 0xCACEF4
     // private System.Boolean <overridesOtherLightingSettings>k__BackingField
     // Size: 0x1
     // Offset: 0x2D
     bool overridesOtherLightingSettings;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCC3A28
-    // [DebuggerBrowsableAttribute] Offset: 0xCC3A28
+    // [CompilerGeneratedAttribute] Offset: 0xCACF30
+    // [DebuggerBrowsableAttribute] Offset: 0xCACF30
     // private System.Boolean <editableMaterialRenderQueue>k__BackingField
     // Size: 0x1
     // Offset: 0x2E
     bool editableMaterialRenderQueue;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCC3A64
-    // [DebuggerBrowsableAttribute] Offset: 0xCC3A64
+    // [CompilerGeneratedAttribute] Offset: 0xCACF6C
+    // [DebuggerBrowsableAttribute] Offset: 0xCACF6C
     // private System.Boolean <overridesLODBias>k__BackingField
     // Size: 0x1
     // Offset: 0x2F
     bool overridesLODBias;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCC3AA0
-    // [DebuggerBrowsableAttribute] Offset: 0xCC3AA0
+    // [CompilerGeneratedAttribute] Offset: 0xCACFA8
+    // [DebuggerBrowsableAttribute] Offset: 0xCACFA8
     // private System.Boolean <overridesMaximumLODLevel>k__BackingField
     // Size: 0x1
     // Offset: 0x30
@@ -282,55 +282,55 @@ namespace UnityEngine::Rendering {
     // Set static field: static private UnityEngine.Rendering.SupportedRenderingFeatures s_Active
     static void _set_s_Active(UnityEngine::Rendering::SupportedRenderingFeatures* value);
     // static public UnityEngine.Rendering.SupportedRenderingFeatures get_active()
-    // Offset: 0x1AAFED8
+    // Offset: 0x197D0BC
     static UnityEngine::Rendering::SupportedRenderingFeatures* get_active();
     // static public System.Void set_active(UnityEngine.Rendering.SupportedRenderingFeatures value)
-    // Offset: 0x1AAEEE4
+    // Offset: 0x197C370
     static void set_active(UnityEngine::Rendering::SupportedRenderingFeatures* value);
     // public UnityEngine.Rendering.SupportedRenderingFeatures/LightmapMixedBakeModes get_defaultMixedLightingModes()
-    // Offset: 0x1AAFFD8
+    // Offset: 0x197D1B4
     UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes get_defaultMixedLightingModes();
     // public UnityEngine.Rendering.SupportedRenderingFeatures/LightmapMixedBakeModes get_mixedLightingModes()
-    // Offset: 0x1AAFFE0
+    // Offset: 0x197D1BC
     UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes get_mixedLightingModes();
     // public UnityEngine.LightmapBakeType get_lightmapBakeTypes()
-    // Offset: 0x1AAFFE8
+    // Offset: 0x197D1C4
     UnityEngine::LightmapBakeType get_lightmapBakeTypes();
     // public UnityEngine.LightmapsMode get_lightmapsModes()
-    // Offset: 0x1AAFFF0
+    // Offset: 0x197D1CC
     UnityEngine::LightmapsMode get_lightmapsModes();
     // public System.Boolean get_enlighten()
-    // Offset: 0x1AAFFF8
+    // Offset: 0x197D1D4
     bool get_enlighten();
     // static System.Void FallbackMixedLightingModeByRef(System.IntPtr fallbackModePtr)
-    // Offset: 0x1AB0000
+    // Offset: 0x197D1DC
     static void FallbackMixedLightingModeByRef(System::IntPtr fallbackModePtr);
     // static System.Boolean IsMixedLightingModeSupported(UnityEngine.MixedLightingMode mixedMode)
-    // Offset: 0x1AB0164
+    // Offset: 0x197D340
     static bool IsMixedLightingModeSupported(UnityEngine::MixedLightingMode mixedMode);
     // static System.Void IsMixedLightingModeSupportedByRef(UnityEngine.MixedLightingMode mixedMode, System.IntPtr isSupportedPtr)
-    // Offset: 0x1AB01E0
+    // Offset: 0x197D3BC
     static void IsMixedLightingModeSupportedByRef(UnityEngine::MixedLightingMode mixedMode, System::IntPtr isSupportedPtr);
     // static System.Boolean IsLightmapBakeTypeSupported(UnityEngine.LightmapBakeType bakeType)
-    // Offset: 0x1AB0310
+    // Offset: 0x197D4EC
     static bool IsLightmapBakeTypeSupported(UnityEngine::LightmapBakeType bakeType);
     // static System.Void IsLightmapBakeTypeSupportedByRef(UnityEngine.LightmapBakeType bakeType, System.IntPtr isSupportedPtr)
-    // Offset: 0x1AB038C
+    // Offset: 0x197D568
     static void IsLightmapBakeTypeSupportedByRef(UnityEngine::LightmapBakeType bakeType, System::IntPtr isSupportedPtr);
     // static System.Void IsLightmapsModeSupportedByRef(UnityEngine.LightmapsMode mode, System.IntPtr isSupportedPtr)
-    // Offset: 0x1AB04DC
+    // Offset: 0x197D6B8
     static void IsLightmapsModeSupportedByRef(UnityEngine::LightmapsMode mode, System::IntPtr isSupportedPtr);
     // static System.Void IsLightmapperSupportedByRef(System.Int32 lightmapper, System.IntPtr isSupportedPtr)
-    // Offset: 0x1AB0578
+    // Offset: 0x197D754
     static void IsLightmapperSupportedByRef(int lightmapper, System::IntPtr isSupportedPtr);
     // static System.Void FallbackLightmapperByRef(System.IntPtr lightmapperPtr)
-    // Offset: 0x1AB0640
+    // Offset: 0x197D81C
     static void FallbackLightmapperByRef(System::IntPtr lightmapperPtr);
     // static private System.Void .cctor()
-    // Offset: 0x1AB0660
+    // Offset: 0x197D83C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1AAEEA8
+    // Offset: 0x197C334
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

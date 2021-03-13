@@ -18,8 +18,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: BeatmapObjectCallbackController
-  class BeatmapObjectCallbackController;
+  // Forward declaring type: IBeatmapObjectCallbackController
+  class IBeatmapObjectCallbackController;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
@@ -36,13 +36,13 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class EventsTestGameplayManager : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xD39D2C
-    // private BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // [InjectAttribute] Offset: 0xD25424
+    // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
+    GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
     // private BeatmapEventType _beatmapEventType
     // Size: 0x4
     // Offset: 0x20
@@ -70,17 +70,17 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: EventsTestGameplayManager
-    EventsTestGameplayManager(GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::BeatmapEventType beatmapEventType_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, GlobalNamespace::BeatmapEventType>* beatmapEventTypeBindings_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, int>* beatmapValuesBindings_ = {}, bool rotatingLasers_ = {}) noexcept : beatmapObjectCallbackController{beatmapObjectCallbackController_}, beatmapEventType{beatmapEventType_}, beatmapEventTypeBindings{beatmapEventTypeBindings_}, beatmapValuesBindings{beatmapValuesBindings_}, rotatingLasers{rotatingLasers_} {}
+    EventsTestGameplayManager(GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::BeatmapEventType beatmapEventType_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, GlobalNamespace::BeatmapEventType>* beatmapEventTypeBindings_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, int>* beatmapValuesBindings_ = {}, bool rotatingLasers_ = {}) noexcept : beatmapObjectCallbackController{beatmapObjectCallbackController_}, beatmapEventType{beatmapEventType_}, beatmapEventTypeBindings{beatmapEventTypeBindings_}, beatmapValuesBindings{beatmapValuesBindings_}, rotatingLasers{rotatingLasers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xF28F70
+    // Offset: 0xF29594
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xF29218
+    // Offset: 0xF29828
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xF294A8
+    // Offset: 0xF29BD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

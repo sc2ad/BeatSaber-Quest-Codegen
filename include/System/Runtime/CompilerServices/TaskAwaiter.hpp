@@ -54,37 +54,33 @@ namespace System::Runtime::CompilerServices {
       return m_task;
     }
     // System.Void .ctor(System.Threading.Tasks.Task task)
-    // Offset: 0xDF97CC
+    // Offset: 0xDE46C8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  TaskAwaiter(System::Threading::Tasks::Task* task)
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xDF97D4
+    // Offset: 0xDE46D0
     bool get_IsCompleted();
+    // public System.Void OnCompleted(System.Action continuation)
+    // Offset: 0xDE46EC
+    void OnCompleted_NEW(System::Action* continuation);
+    // public System.Void UnsafeOnCompleted(System.Action continuation)
+    // Offset: 0xDE46FC
+    void UnsafeOnCompleted_NEW(System::Action* continuation);
     // public System.Void GetResult()
-    // Offset: 0xDF9810
+    // Offset: 0xDE470C
     void GetResult();
     // static System.Void ValidateEnd(System.Threading.Tasks.Task task)
-    // Offset: 0x1309A0C
+    // Offset: 0x12FF004
     static void ValidateEnd(System::Threading::Tasks::Task* task);
     // static private System.Void HandleNonSuccessAndDebuggerNotification(System.Threading.Tasks.Task task)
-    // Offset: 0x130A09C
+    // Offset: 0x12FF668
     static void HandleNonSuccessAndDebuggerNotification(System::Threading::Tasks::Task* task);
     // static private System.Void ThrowForNonSuccess(System.Threading.Tasks.Task task)
-    // Offset: 0x130A10C
+    // Offset: 0x12FF6D8
     static void ThrowForNonSuccess(System::Threading::Tasks::Task* task);
     // static System.Void OnCompletedInternal(System.Threading.Tasks.Task task, System.Action continuation, System.Boolean continueOnCapturedContext, System.Boolean flowExecutionContext)
-    // Offset: 0x1309924
+    // Offset: 0x12FEF1C
     static void OnCompletedInternal(System::Threading::Tasks::Task* task, System::Action* continuation, bool continueOnCapturedContext, bool flowExecutionContext);
-    // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0xDF97F0
-    // Implemented from: System.Runtime.CompilerServices.INotifyCompletion
-    // Base method: System.Void INotifyCompletion::OnCompleted(System.Action continuation)
-    void OnCompleted(System::Action* continuation);
-    // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0xDF9800
-    // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion
-    // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
-    void UnsafeOnCompleted(System::Action* continuation);
   }; // System.Runtime.CompilerServices.TaskAwaiter
   #pragma pack(pop)
   static check_size<sizeof(TaskAwaiter), 0 + sizeof(System::Threading::Tasks::Task*)> __System_Runtime_CompilerServices_TaskAwaiterSizeCheck;

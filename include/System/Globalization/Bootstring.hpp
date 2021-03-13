@@ -70,26 +70,26 @@ namespace System::Globalization {
     // Creating value type constructor for type: Bootstring
     Bootstring(::Il2CppChar delimiter_ = {}, int base_num_ = {}, int tmin_ = {}, int tmax_ = {}, int skew_ = {}, int damp_ = {}, int initial_bias_ = {}, int initial_n_ = {}) noexcept : delimiter{delimiter_}, base_num{base_num_}, tmin{tmin_}, tmax{tmax_}, skew{skew_}, damp{damp_}, initial_bias{initial_bias_}, initial_n{initial_n_} {}
     // public System.Void .ctor(System.Char delimiter, System.Int32 baseNum, System.Int32 tmin, System.Int32 tmax, System.Int32 skew, System.Int32 damp, System.Int32 initialBias, System.Int32 initialN)
-    // Offset: 0x12B2BB4
+    // Offset: 0x164FB94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Bootstring* New_ctor(::Il2CppChar delimiter, int baseNum, int tmin, int tmax, int skew, int damp, int initialBias, int initialN) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::Bootstring::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Bootstring*, creationType>(delimiter, baseNum, tmin, tmax, skew, damp, initialBias, initialN)));
     }
     // public System.String Encode(System.String s, System.Int32 offset)
-    // Offset: 0x12B2C2C
+    // Offset: 0x164FC0C
     ::Il2CppString* Encode(::Il2CppString* s, int offset);
     // private System.Char EncodeDigit(System.Int32 d)
-    // Offset: 0x12B2F8C
+    // Offset: 0x164FF6C
     ::Il2CppChar EncodeDigit(int d);
     // private System.Int32 DecodeDigit(System.Char c)
-    // Offset: 0x12B301C
+    // Offset: 0x164FFFC
     int DecodeDigit(::Il2CppChar c);
     // private System.Int32 Adapt(System.Int32 delta, System.Int32 numPoints, System.Boolean firstTime)
-    // Offset: 0x12B2FA4
+    // Offset: 0x164FF84
     int Adapt(int delta, int numPoints, bool firstTime);
     // public System.String Decode(System.String s, System.Int32 offset)
-    // Offset: 0x12B305C
+    // Offset: 0x165003C
     ::Il2CppString* Decode(::Il2CppString* s, int offset);
   }; // System.Globalization.Bootstring
   #pragma pack(pop)

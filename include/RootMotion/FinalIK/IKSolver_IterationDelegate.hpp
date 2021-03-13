@@ -33,21 +33,21 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: IterationDelegate
     IterationDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B025F4
+    // Offset: 0x1A6D8D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::IterationDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolver::IterationDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::IterationDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Int32 i)
-    // Offset: 0x1B02608
-    void Invoke(int i);
+    // Offset: 0x1A6D8E8
+    void Invoke_NEW(int i);
     // public System.IAsyncResult BeginInvoke(System.Int32 i, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B02874
-    System::IAsyncResult* BeginInvoke(int i, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x1A6DB48
+    System::IAsyncResult* BeginInvoke_NEW(int i, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B02900
-    void EndInvoke(System::IAsyncResult* result);
+    // Offset: 0x1A6DBD4
+    void EndInvoke_NEW(System::IAsyncResult* result);
   }; // RootMotion.FinalIK.IKSolver/IterationDelegate
   #pragma pack(pop)
 }

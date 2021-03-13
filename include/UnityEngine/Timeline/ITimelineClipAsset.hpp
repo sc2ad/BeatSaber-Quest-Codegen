@@ -23,7 +23,7 @@ namespace UnityEngine::Timeline {
     ITimelineClipAsset() noexcept {}
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Timeline::ClipCaps get_clipCaps();
+    UnityEngine::Timeline::ClipCaps get_clipCaps_NEW();
   }; // UnityEngine.Timeline.ITimelineClipAsset
   #pragma pack(pop)
 }

@@ -60,26 +60,21 @@ namespace System::Net::Http {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(System.Net.Http.HttpMessageHandler handler, System.Boolean disposeHandler)
-    // Offset: 0x14136FC
+    // Offset: 0x13E40A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpMessageInvoker* New_ctor(System::Net::Http::HttpMessageHandler* handler, bool disposeHandler) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpMessageInvoker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpMessageInvoker*, creationType>(handler, disposeHandler)));
     }
+    // public System.Void Dispose()
+    // Offset: 0x13E85DC
+    void Dispose_NEW();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x141394C
+    // Offset: 0x13E42FC
     void Dispose(bool disposing);
     // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1414304
+    // Offset: 0x13E4C30
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);
-    // public System.Void Dispose()
-    // Offset: 0x1417FA4
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose();
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose();
   }; // System.Net.Http.HttpMessageInvoker
   #pragma pack(pop)
   static check_size<sizeof(HttpMessageInvoker), 24 + sizeof(bool)> __System_Net_Http_HttpMessageInvokerSizeCheck;

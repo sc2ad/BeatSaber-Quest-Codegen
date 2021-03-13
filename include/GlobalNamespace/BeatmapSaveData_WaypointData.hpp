@@ -55,32 +55,28 @@ namespace GlobalNamespace {
     operator GlobalNamespace::BeatmapSaveData::ITime() noexcept {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);
     }
+    // public System.Single get_time()
+    // Offset: 0xF028F8
+    float get_time_NEW();
     // public System.Int32 get_lineIndex()
-    // Offset: 0xF5E400
+    // Offset: 0xF02900
     int get_lineIndex();
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0xF5E408
+    // Offset: 0xF02908
     GlobalNamespace::NoteLineLayer get_lineLayer();
     // public OffsetDirection get_offsetDirection()
-    // Offset: 0xF5E410
+    // Offset: 0xF02910
     GlobalNamespace::OffsetDirection get_offsetDirection();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, OffsetDirection offsetDirection)
-    // Offset: 0xF5E418
+    // Offset: 0xF02918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::WaypointData* New_ctor(float time, int lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::OffsetDirection offsetDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::WaypointData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::WaypointData*, creationType>(time, lineIndex, lineLayer, offsetDirection)));
     }
-    // public System.Single get_time()
-    // Offset: 0xF5E3F8
-    // Implemented from: BeatmapSaveData/ITime
-    // Base method: System.Single ITime::get_time()
-    float get_time();
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0xF5E468
-    // Implemented from: BeatmapSaveData/ITime
-    // Base method: System.Void ITime::MoveTime(System.Single offset)
-    void MoveTime(float offset);
+    // Offset: 0xF02968
+    void MoveTime_NEW(float offset);
   }; // BeatmapSaveData/WaypointData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::WaypointData), 28 + sizeof(GlobalNamespace::OffsetDirection)> __GlobalNamespace_BeatmapSaveData_WaypointDataSizeCheck;

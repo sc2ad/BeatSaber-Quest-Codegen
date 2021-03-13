@@ -97,6 +97,12 @@ namespace GlobalNamespace {
     static GlobalNamespace::ConnectionFailedReason _get_NetworkNotConnected();
     // Set static field: static public ConnectionFailedReason NetworkNotConnected
     static void _set_NetworkNotConnected(GlobalNamespace::ConnectionFailedReason value);
+    // static field const value: static public ConnectionFailedReason MasterServerCertificateValidationFailed
+    static constexpr const int MasterServerCertificateValidationFailed = 12;
+    // Get static field: static public ConnectionFailedReason MasterServerCertificateValidationFailed
+    static GlobalNamespace::ConnectionFailedReason _get_MasterServerCertificateValidationFailed();
+    // Set static field: static public ConnectionFailedReason MasterServerCertificateValidationFailed
+    static void _set_MasterServerCertificateValidationFailed(GlobalNamespace::ConnectionFailedReason value);
   }; // ConnectionFailedReason
   #pragma pack(pop)
   static check_size<sizeof(ConnectionFailedReason), 0 + sizeof(int)> __GlobalNamespace_ConnectionFailedReasonSizeCheck;

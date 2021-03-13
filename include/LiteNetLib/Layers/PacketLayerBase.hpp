@@ -37,7 +37,7 @@ namespace LiteNetLib::Layers {
       return ExtraPacketSizeForLayer;
     }
     // protected System.Void .ctor(System.Int32 extraPacketSizeForLayer)
-    // Offset: 0x1A99174
+    // Offset: 0x19EBE40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PacketLayerBase* New_ctor(int extraPacketSizeForLayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Layers::PacketLayerBase::.ctor");
@@ -45,10 +45,10 @@ namespace LiteNetLib::Layers {
     }
     // public System.Void ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     // Offset: 0xFFFFFFFF
-    void ProcessInboundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
+    void ProcessInboundPacket_NEW(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
     // public System.Void ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     // Offset: 0xFFFFFFFF
-    void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
+    void ProcessOutBoundPacket_NEW(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
   }; // LiteNetLib.Layers.PacketLayerBase
   #pragma pack(pop)
   static check_size<sizeof(PacketLayerBase), 16 + sizeof(int)> __LiteNetLib_Layers_PacketLayerBaseSizeCheck;

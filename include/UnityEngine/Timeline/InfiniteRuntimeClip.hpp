@@ -45,34 +45,34 @@ namespace UnityEngine::Timeline {
     // Set static field: static private readonly System.Int64 kIntervalEnd
     static void _set_kIntervalEnd(int64_t value);
     // public System.Void .ctor(UnityEngine.Playables.Playable playable)
-    // Offset: 0x172A6D4
+    // Offset: 0x1665A90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InfiniteRuntimeClip* New_ctor(UnityEngine::Playables::Playable playable) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::InfiniteRuntimeClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InfiniteRuntimeClip*, creationType>(playable)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1732A78
+    // Offset: 0x166DC74
     static void _cctor();
     // public override System.Int64 get_intervalStart()
-    // Offset: 0x173292C
+    // Offset: 0x166DB28
     // Implemented from: UnityEngine.Timeline.RuntimeElement
-    // Base method: System.Int64 RuntimeElement::get_intervalStart()
+    // Base method: System.Int64 RuntimeElement::get_intervalStart_NEW()
     int64_t get_intervalStart();
     // public override System.Int64 get_intervalEnd()
-    // Offset: 0x1732934
+    // Offset: 0x166DB30
     // Implemented from: UnityEngine.Timeline.RuntimeElement
-    // Base method: System.Int64 RuntimeElement::get_intervalEnd()
+    // Base method: System.Int64 RuntimeElement::get_intervalEnd_NEW()
     int64_t get_intervalEnd();
     // public override System.Void set_enable(System.Boolean value)
-    // Offset: 0x173299C
+    // Offset: 0x166DB98
     // Implemented from: UnityEngine.Timeline.RuntimeElement
-    // Base method: System.Void RuntimeElement::set_enable(System.Boolean value)
+    // Base method: System.Void RuntimeElement::set_enable_NEW(System.Boolean value)
     void set_enable(bool value);
     // public override System.Void EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x1732A18
+    // Offset: 0x166DC14
     // Implemented from: UnityEngine.Timeline.RuntimeElement
-    // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
+    // Base method: System.Void RuntimeElement::EvaluateAt_NEW(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
   }; // UnityEngine.Timeline.InfiniteRuntimeClip
   #pragma pack(pop)

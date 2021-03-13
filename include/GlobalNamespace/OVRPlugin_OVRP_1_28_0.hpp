@@ -31,22 +31,16 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/Result ovrp_GetDominantHand(out OVRPlugin/Handedness dominantHand)
-    // Offset: 0x152C3C8
+    // Offset: 0x155C77C
     static GlobalNamespace::OVRPlugin::Result ovrp_GetDominantHand(GlobalNamespace::OVRPlugin::Handedness& dominantHand);
-    // static public OVRPlugin/Result ovrp_GetReorientHMDOnControllerRecenter(out OVRPlugin/Bool recenter)
-    // Offset: 0x152C448
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetReorientHMDOnControllerRecenter(GlobalNamespace::OVRPlugin::Bool& recenter);
-    // static public OVRPlugin/Result ovrp_SetReorientHMDOnControllerRecenter(OVRPlugin/Bool recenter)
-    // Offset: 0x152C4C8
-    static GlobalNamespace::OVRPlugin::Result ovrp_SetReorientHMDOnControllerRecenter(GlobalNamespace::OVRPlugin::Bool recenter);
     // static public OVRPlugin/Result ovrp_SendEvent(System.String name, System.String param)
-    // Offset: 0x152C548
+    // Offset: 0x155C7FC
     static GlobalNamespace::OVRPlugin::Result ovrp_SendEvent(::Il2CppString* name, ::Il2CppString* param);
     // static public OVRPlugin/Result ovrp_EnqueueSetupLayer2(ref OVRPlugin/LayerDesc desc, System.Int32 compositionDepth, System.IntPtr layerId)
-    // Offset: 0x152C608
+    // Offset: 0x155C8BC
     static GlobalNamespace::OVRPlugin::Result ovrp_EnqueueSetupLayer2(GlobalNamespace::OVRPlugin::LayerDesc& desc, int compositionDepth, System::IntPtr layerId);
     // static private System.Void .cctor()
-    // Offset: 0x152C700
+    // Offset: 0x155C9A0
     static void _cctor();
   }; // OVRPlugin/OVRP_1_28_0
   #pragma pack(pop)

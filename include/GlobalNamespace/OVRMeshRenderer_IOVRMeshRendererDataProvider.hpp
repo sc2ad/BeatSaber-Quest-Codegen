@@ -19,7 +19,7 @@ namespace GlobalNamespace {
     IOVRMeshRendererDataProvider() noexcept {}
     // public OVRMeshRenderer/MeshRendererData GetMeshRendererData()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::OVRMeshRenderer::MeshRendererData GlobalNamespace_OVRMeshRenderer_IOVRMeshRendererDataProvider_GetMeshRendererData();
+    GlobalNamespace::OVRMeshRenderer::MeshRendererData GetMeshRendererData_NEW();
   }; // OVRMeshRenderer/IOVRMeshRendererDataProvider
   #pragma pack(pop)
 }

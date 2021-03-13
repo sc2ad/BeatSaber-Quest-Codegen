@@ -33,21 +33,21 @@ namespace System::IO::Compression {
     // Creating value type constructor for type: ReadMethod
     ReadMethod() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x179E2A8
+    // Offset: 0x16CE914
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeflateStream::ReadMethod* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Compression::DeflateStream::ReadMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeflateStream::ReadMethod*, creationType>(object, method)));
     }
     // public System.Int32 Invoke(System.Byte[] array, System.Int32 offset, System.Int32 count)
-    // Offset: 0x179EB50
-    int Invoke(::Array<uint8_t>* array, int offset, int count);
+    // Offset: 0x16CF1A0
+    int Invoke_NEW(::Array<uint8_t>* array, int offset, int count);
     // public System.IAsyncResult BeginInvoke(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x179E2BC
-    System::IAsyncResult* BeginInvoke(::Array<uint8_t>* array, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x16CE924
+    System::IAsyncResult* BeginInvoke_NEW(::Array<uint8_t>* array, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x179E79C
-    int EndInvoke(System::IAsyncResult* result);
+    // Offset: 0x16CEDEC
+    int EndInvoke_NEW(System::IAsyncResult* result);
   }; // System.IO.Compression.DeflateStream/ReadMethod
   #pragma pack(pop)
 }

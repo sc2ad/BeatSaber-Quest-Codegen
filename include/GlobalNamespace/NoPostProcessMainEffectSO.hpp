@@ -34,8 +34,8 @@ namespace GlobalNamespace {
     UnityEngine::Shader* fadeShader;
     // Field size check
     static_assert(sizeof(UnityEngine::Shader*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD23018
-    // [RangeAttribute] Offset: 0xD23018
+    // [SpaceAttribute] Offset: 0xD0D4F4
+    // [RangeAttribute] Offset: 0xD0D4F4
     // private System.Single _baseColorBoost
     // Size: 0x4
     // Offset: 0x20
@@ -59,33 +59,33 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDisable()
-    // Offset: 0x2252B7C
+    // Offset: 0x20FC1B4
     void OnDisable();
     // public System.Void DrawFadeQuad(System.Single alpha)
-    // Offset: 0x2252C08
+    // Offset: 0x20FC240
     void DrawFadeQuad(float alpha);
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x2252AD8
+    // Offset: 0x20FC11C
     // Implemented from: MainEffectSO
-    // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
+    // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect_NEW()
     bool get_hasPostProcessEffect();
     // protected override System.Void OnEnable()
-    // Offset: 0x2252AE0
+    // Offset: 0x20FC124
     // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::OnEnable()
+    // Base method: System.Void PersistentScriptableObject::OnEnable_NEW()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x2252B88
+    // Offset: 0x20FC1C0
     // Implemented from: MainEffectSO
-    // Base method: System.Void MainEffectSO::PreRender()
+    // Base method: System.Void MainEffectSO::PreRender_NEW()
     void PreRender();
     // public override System.Void PostRender(System.Single fade)
-    // Offset: 0x2252BFC
+    // Offset: 0x20FC234
     // Implemented from: MainEffectSO
-    // Base method: System.Void MainEffectSO::PostRender(System.Single fade)
+    // Base method: System.Void MainEffectSO::PostRender_NEW(System.Single fade)
     void PostRender(float fade);
     // public System.Void .ctor()
-    // Offset: 0x2252D1C
+    // Offset: 0x20FC354
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

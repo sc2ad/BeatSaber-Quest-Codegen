@@ -27,19 +27,12 @@ namespace NUnit::Framework {
     public:
     // Creating value type constructor for type: _Assert
     _Assert() noexcept {}
-    // static public System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
-    // Offset: 0x16967F8
-    static void IsTrue(bool condition, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
-    // Creating initializer_list -> params proxy for: System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
-    static void IsTrue(bool condition, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
-    template<class ...TParams>
-    static void IsTrue(bool condition, ::Il2CppString* message, TParams&&... args) {
-      IsTrue(condition, message, {args...});
-    }
-    // static public System.Void IsTrue(System.Boolean condition)
-    // Offset: 0x1696870
-    static void IsTrue(bool condition);
+    // static public System.Void AreEqual(System.Object expected, System.Object actual)
+    // Offset: 0x159B058
+    static void AreEqual(::Il2CppObject* expected, ::Il2CppObject* actual);
+    // static private System.Void IncrementAssertCount()
+    // Offset: 0x159B0CC
+    static void IncrementAssertCount();
     // static public System.Void That(TActual actual, NUnit.Framework.Constraints.IResolveConstraint expression, System.String message, params System.Object[] args)
     // Offset: 0xFFFFFFFF
     template<class TActual>
@@ -59,12 +52,39 @@ namespace NUnit::Framework {
     static void That(TActual actual, NUnit::Framework::Constraints::IResolveConstraint* expression, ::Il2CppString* message, TParams&&... args) {
       That(actual, expression, message, {args...});
     }
-    // static public System.Void AreEqual(System.Object expected, System.Object actual)
-    // Offset: 0x16968D8
-    static void AreEqual(::Il2CppObject* expected, ::Il2CppObject* actual);
-    // static private System.Void IncrementAssertCount()
-    // Offset: 0x169694C
-    static void IncrementAssertCount();
+    // static public System.Void GreaterOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
+    // Offset: 0x159B1A4
+    static void GreaterOrEqual(float arg1, float arg2, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Void GreaterOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
+    static void GreaterOrEqual(float arg1, float arg2, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void GreaterOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
+    template<class ...TParams>
+    static void GreaterOrEqual(float arg1, float arg2, ::Il2CppString* message, TParams&&... args) {
+      GreaterOrEqual(arg1, arg2, message, {args...});
+    }
+    // static public System.Void LessOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
+    // Offset: 0x159B23C
+    static void LessOrEqual(float arg1, float arg2, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Void LessOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
+    static void LessOrEqual(float arg1, float arg2, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void LessOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
+    template<class ...TParams>
+    static void LessOrEqual(float arg1, float arg2, ::Il2CppString* message, TParams&&... args) {
+      LessOrEqual(arg1, arg2, message, {args...});
+    }
+    // static public System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
+    // Offset: 0x159B2D4
+    static void IsTrue(bool condition, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
+    static void IsTrue(bool condition, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
+    template<class ...TParams>
+    static void IsTrue(bool condition, ::Il2CppString* message, TParams&&... args) {
+      IsTrue(condition, message, {args...});
+    }
+    // static public System.Void IsTrue(System.Boolean condition)
+    // Offset: 0x159B34C
+    static void IsTrue(bool condition);
   }; // NUnit.Framework.Assert
   #pragma pack(pop)
 }

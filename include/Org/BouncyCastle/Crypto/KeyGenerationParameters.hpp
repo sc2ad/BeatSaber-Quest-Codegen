@@ -39,17 +39,17 @@ namespace Org::BouncyCastle::Crypto {
     // Creating value type constructor for type: KeyGenerationParameters
     KeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom* random_ = {}, int strength_ = {}) noexcept : random{random_}, strength{strength_} {}
     // public System.Void .ctor(Org.BouncyCastle.Security.SecureRandom random, System.Int32 strength)
-    // Offset: 0x17C971C
+    // Offset: 0x170F03C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyGenerationParameters* New_ctor(Org::BouncyCastle::Security::SecureRandom* random, int strength) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::KeyGenerationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyGenerationParameters*, creationType>(random, strength)));
     }
     // public Org.BouncyCastle.Security.SecureRandom get_Random()
-    // Offset: 0x17C980C
+    // Offset: 0x170F120
     Org::BouncyCastle::Security::SecureRandom* get_Random();
     // public System.Int32 get_Strength()
-    // Offset: 0x17C9814
+    // Offset: 0x170F128
     int get_Strength();
   }; // Org.BouncyCastle.Crypto.KeyGenerationParameters
   #pragma pack(pop)

@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Security {
     // Creating value type constructor for type: SignatureException
     SignatureException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1224AA4
+    // Offset: 0x1261BA4
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -39,7 +39,7 @@ namespace Org::BouncyCastle::Security {
       return THROW_UNLESS((::il2cpp_utils::New<SignatureException*, creationType>()));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x1224AA8
+    // Offset: 0x1261BA8
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message, System.Exception exception)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)

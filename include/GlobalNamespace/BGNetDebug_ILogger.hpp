@@ -19,13 +19,13 @@ namespace GlobalNamespace {
     ILogger() noexcept {}
     // public System.Void LogInfo(System.String message)
     // Offset: 0xFFFFFFFF
-    void LogInfo(::Il2CppString* message);
+    void LogInfo_NEW(::Il2CppString* message);
     // public System.Void LogError(System.String message)
     // Offset: 0xFFFFFFFF
-    void LogError(::Il2CppString* message);
+    void LogError_NEW(::Il2CppString* message);
     // public System.Void LogWarning(System.String message)
     // Offset: 0xFFFFFFFF
-    void LogWarning(::Il2CppString* message);
+    void LogWarning_NEW(::Il2CppString* message);
   }; // BGNetDebug/ILogger
   #pragma pack(pop)
 }

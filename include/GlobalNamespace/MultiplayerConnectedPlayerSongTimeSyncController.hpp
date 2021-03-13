@@ -62,21 +62,21 @@ namespace GlobalNamespace {
     GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FloatSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3B10C
+    // [InjectAttribute] Offset: 0xD269B4
     // private readonly MultiplayerConnectedPlayerSongTimeSyncController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3B11C
+    // [InjectAttribute] Offset: 0xD269C4
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3B12C
+    // [CompilerGeneratedAttribute] Offset: 0xD269D4
     // private System.Single <songTime>k__BackingField
     // Size: 0x4
     // Offset: 0x40
@@ -115,41 +115,35 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // public System.Single get_songTime()
+    // Offset: 0x1043230
+    float get_songTime_NEW();
     // private System.Void set_songTime(System.Single value)
-    // Offset: 0x101DFD4
+    // Offset: 0x1043238
     void set_songTime(float value);
+    // public System.Single get_songEndTime()
+    // Offset: 0x1043240
+    float get_songEndTime_NEW();
+    // public System.Boolean get_isReady()
+    // Offset: 0x104324C
+    bool get_isReady_NEW();
     // protected System.Void Start()
-    // Offset: 0x101DFF0
+    // Offset: 0x1043254
     void Start();
     // protected System.Void Update()
-    // Offset: 0x101DFFC
+    // Offset: 0x1043260
     void Update();
     // public System.Void StartSong(System.Single songStartSyncTime)
-    // Offset: 0x1019B10
+    // Offset: 0x103EE2C
     void StartSong(float songStartSyncTime);
     // public System.Void SetConnectedPlayerSongTime(System.Single syncTime, System.Single songTime)
-    // Offset: 0x101CB58
+    // Offset: 0x1041D90
     void SetConnectedPlayerSongTime(float syncTime, float songTime);
     // public System.Void StopSong()
-    // Offset: 0x1019CB8
+    // Offset: 0x103F104
     void StopSong();
-    // public System.Single get_songTime()
-    // Offset: 0x101DFCC
-    // Implemented from: IAudioTimeSource
-    // Base method: System.Single IAudioTimeSource::get_songTime()
-    float get_songTime();
-    // public System.Single get_songEndTime()
-    // Offset: 0x101DFDC
-    // Implemented from: IAudioTimeSource
-    // Base method: System.Single IAudioTimeSource::get_songEndTime()
-    float get_songEndTime();
-    // public System.Boolean get_isReady()
-    // Offset: 0x101DFE8
-    // Implemented from: IAudioTimeSource
-    // Base method: System.Boolean IAudioTimeSource::get_isReady()
-    bool get_isReady();
     // public System.Void .ctor()
-    // Offset: 0x101E188
+    // Offset: 0x10433EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

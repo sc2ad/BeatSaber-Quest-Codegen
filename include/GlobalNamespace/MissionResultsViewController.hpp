@@ -150,35 +150,35 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* retryButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD42864
+    // [SpaceAttribute] Offset: 0xD2EC28
     // private UnityEngine.AudioClip _levelClearedAudioClip
     // Size: 0x8
     // Offset: 0xE8
     UnityEngine::AudioClip* levelClearedAudioClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // [InjectAttribute] Offset: 0xD4289C
+    // [InjectAttribute] Offset: 0xD2EC60
     // private readonly FireworksController _fireworksController
     // Size: 0x8
     // Offset: 0xF0
     GlobalNamespace::FireworksController* fireworksController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FireworksController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD428AC
+    // [InjectAttribute] Offset: 0xD2EC70
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0xF8
     GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD428BC
+    // [CompilerGeneratedAttribute] Offset: 0xD2EC80
     // private System.Action`1<MissionResultsViewController> continueButtonPressedEvent
     // Size: 0x8
     // Offset: 0x100
     System::Action_1<GlobalNamespace::MissionResultsViewController*>* continueButtonPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::MissionResultsViewController*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD428CC
+    // [CompilerGeneratedAttribute] Offset: 0xD2EC90
     // private System.Action`1<MissionResultsViewController> retryButtonPressedEvent
     // Size: 0x8
     // Offset: 0x108
@@ -206,44 +206,44 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MissionResultsViewController
     MissionResultsViewController(UnityEngine::GameObject* failedBannerGo_ = {}, UnityEngine::GameObject* clearedBannerGo_ = {}, TMPro::TextMeshProUGUI* missionNameText_ = {}, TMPro::TextMeshProUGUI* songNameText_ = {}, UnityEngine::Sprite* successIcon_ = {}, UnityEngine::Sprite* successIconGlow_ = {}, UnityEngine::Color successColor_ = {}, UnityEngine::Sprite* failIcon_ = {}, UnityEngine::Sprite* failIconGlow_ = {}, UnityEngine::Color failColor_ = {}, GlobalNamespace::ResultObjectiveListItemsList* resultObjectiveListItemList_ = {}, UnityEngine::UI::Button* continueButton_ = {}, UnityEngine::UI::Button* retryButton_ = {}, UnityEngine::AudioClip* levelClearedAudioClip_ = {}, GlobalNamespace::FireworksController* fireworksController_ = {}, GlobalNamespace::SongPreviewPlayer* songPreviewPlayer_ = {}, System::Action_1<GlobalNamespace::MissionResultsViewController*>* continueButtonPressedEvent_ = {}, System::Action_1<GlobalNamespace::MissionResultsViewController*>* retryButtonPressedEvent_ = {}, GlobalNamespace::MissionNode* missionNode_ = {}, GlobalNamespace::MissionCompletionResults* missionCompletionResults_ = {}, UnityEngine::Coroutine* startFireworksAfterDelayCoroutine_ = {}) noexcept : failedBannerGo{failedBannerGo_}, clearedBannerGo{clearedBannerGo_}, missionNameText{missionNameText_}, songNameText{songNameText_}, successIcon{successIcon_}, successIconGlow{successIconGlow_}, successColor{successColor_}, failIcon{failIcon_}, failIconGlow{failIconGlow_}, failColor{failColor_}, resultObjectiveListItemList{resultObjectiveListItemList_}, continueButton{continueButton_}, retryButton{retryButton_}, levelClearedAudioClip{levelClearedAudioClip_}, fireworksController{fireworksController_}, songPreviewPlayer{songPreviewPlayer_}, continueButtonPressedEvent{continueButtonPressedEvent_}, retryButtonPressedEvent{retryButtonPressedEvent_}, missionNode{missionNode_}, missionCompletionResults{missionCompletionResults_}, startFireworksAfterDelayCoroutine{startFireworksAfterDelayCoroutine_} {}
     // public System.Void add_continueButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x109D504
+    // Offset: 0x102BD08
     void add_continueButtonPressedEvent(System::Action_1<GlobalNamespace::MissionResultsViewController*>* value);
     // public System.Void remove_continueButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x109D5AC
+    // Offset: 0x102BDB0
     void remove_continueButtonPressedEvent(System::Action_1<GlobalNamespace::MissionResultsViewController*>* value);
     // public System.Void add_retryButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x109D654
+    // Offset: 0x102BE58
     void add_retryButtonPressedEvent(System::Action_1<GlobalNamespace::MissionResultsViewController*>* value);
     // public System.Void remove_retryButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x109D6FC
+    // Offset: 0x102BF00
     void remove_retryButtonPressedEvent(System::Action_1<GlobalNamespace::MissionResultsViewController*>* value);
     // public System.Void Init(MissionNode missionNode, MissionCompletionResults missionCompletionResults)
-    // Offset: 0x109D7A4
+    // Offset: 0x102BFA8
     void Init(GlobalNamespace::MissionNode* missionNode, GlobalNamespace::MissionCompletionResults* missionCompletionResults);
     // private System.Collections.IEnumerator StartFireworksAfterDelay(System.Single delay)
-    // Offset: 0x109DBC4
+    // Offset: 0x102C364
     System::Collections::IEnumerator* StartFireworksAfterDelay(float delay);
     // private System.Void SetDataToUI()
-    // Offset: 0x109D960
+    // Offset: 0x102C124
     void SetDataToUI();
     // private System.Void ContinueButtonPressed()
-    // Offset: 0x109DCDC
+    // Offset: 0x102C460
     void ContinueButtonPressed();
     // private System.Void RetryButtonPressed()
-    // Offset: 0x109DD40
+    // Offset: 0x102C4C4
     void RetryButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x109D7DC
+    // Offset: 0x102BFB0
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Base method: System.Void ViewController::DidActivate_NEW(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x109DC50
+    // Offset: 0x102C3E4
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Base method: System.Void ViewController::DidDeactivate_NEW(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x109DDA4
+    // Offset: 0x102C528
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

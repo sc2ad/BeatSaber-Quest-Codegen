@@ -38,21 +38,21 @@ namespace LiteNetLib {
     // Creating value type constructor for type: OnPeerConnected
     OnPeerConnected() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1A99030
+    // Offset: 0x19EBD04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBasedNetListener::OnPeerConnected* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::EventBasedNetListener::OnPeerConnected::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBasedNetListener::OnPeerConnected*, creationType>(object, method)));
     }
     // public System.Void Invoke(LiteNetLib.NetPeer peer)
-    // Offset: 0x1A96BD0
-    void Invoke(LiteNetLib::NetPeer* peer);
+    // Offset: 0x19E99B0
+    void Invoke_NEW(LiteNetLib::NetPeer* peer);
     // public System.IAsyncResult BeginInvoke(LiteNetLib.NetPeer peer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1A99044
-    System::IAsyncResult* BeginInvoke(LiteNetLib::NetPeer* peer, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x19EBD14
+    System::IAsyncResult* BeginInvoke_NEW(LiteNetLib::NetPeer* peer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1A99068
-    void EndInvoke(System::IAsyncResult* result);
+    // Offset: 0x19EBD38
+    void EndInvoke_NEW(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/OnPeerConnected
   #pragma pack(pop)
 }

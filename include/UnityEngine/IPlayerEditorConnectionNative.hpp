@@ -28,28 +28,28 @@ namespace UnityEngine {
     IPlayerEditorConnectionNative() noexcept {}
     // public System.Void Initialize()
     // Offset: 0xFFFFFFFF
-    void UnityEngine_IPlayerEditorConnectionNative_Initialize();
+    void Initialize_NEW();
     // public System.Void DisconnectAll()
     // Offset: 0xFFFFFFFF
-    void UnityEngine_IPlayerEditorConnectionNative_DisconnectAll();
+    void DisconnectAll_NEW();
     // public System.Void SendMessage(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
     // Offset: 0xFFFFFFFF
-    void UnityEngine_IPlayerEditorConnectionNative_SendMessage(System::Guid messageId, ::Array<uint8_t>* data, int playerId);
+    void SendMessage_NEW(System::Guid messageId, ::Array<uint8_t>* data, int playerId);
     // public System.Boolean TrySendMessage(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
     // Offset: 0xFFFFFFFF
-    bool UnityEngine_IPlayerEditorConnectionNative_TrySendMessage(System::Guid messageId, ::Array<uint8_t>* data, int playerId);
+    bool TrySendMessage_NEW(System::Guid messageId, ::Array<uint8_t>* data, int playerId);
     // public System.Void Poll()
     // Offset: 0xFFFFFFFF
-    void UnityEngine_IPlayerEditorConnectionNative_Poll();
+    void Poll_NEW();
     // public System.Void RegisterInternal(System.Guid messageId)
     // Offset: 0xFFFFFFFF
-    void UnityEngine_IPlayerEditorConnectionNative_RegisterInternal(System::Guid messageId);
+    void RegisterInternal_NEW(System::Guid messageId);
     // public System.Void UnregisterInternal(System.Guid messageId)
     // Offset: 0xFFFFFFFF
-    void UnityEngine_IPlayerEditorConnectionNative_UnregisterInternal(System::Guid messageId);
+    void UnregisterInternal_NEW(System::Guid messageId);
     // public System.Boolean IsConnected()
     // Offset: 0xFFFFFFFF
-    bool UnityEngine_IPlayerEditorConnectionNative_IsConnected();
+    bool IsConnected_NEW();
   }; // UnityEngine.IPlayerEditorConnectionNative
   #pragma pack(pop)
 }

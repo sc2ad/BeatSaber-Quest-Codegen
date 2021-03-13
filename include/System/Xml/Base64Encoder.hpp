@@ -41,15 +41,15 @@ namespace System::Xml {
     Base64Encoder(::Array<uint8_t>* leftOverBytes_ = {}, int leftOverBytesCount_ = {}, ::Array<::Il2CppChar>* charsLine_ = {}) noexcept : leftOverBytes{leftOverBytes_}, leftOverBytesCount{leftOverBytesCount_}, charsLine{charsLine_} {}
     // System.Void WriteChars(System.Char[] chars, System.Int32 index, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    void WriteChars(::Array<::Il2CppChar>* chars, int index, int count);
+    void WriteChars_NEW(::Array<::Il2CppChar>* chars, int index, int count);
     // System.Void Encode(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1862C0C
+    // Offset: 0x17805CC
     void Encode(::Array<uint8_t>* buffer, int index, int count);
     // System.Void Flush()
-    // Offset: 0x1862F54
+    // Offset: 0x1780900
     void Flush();
     // System.Void .ctor()
-    // Offset: 0x1862BA0
+    // Offset: 0x1780568
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

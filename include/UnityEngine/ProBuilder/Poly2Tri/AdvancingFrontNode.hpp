@@ -59,17 +59,17 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Creating value type constructor for type: AdvancingFrontNode
     AdvancingFrontNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Next_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Prev_ = {}, double Value_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Point_ = {}, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* Triangle_ = {}) noexcept : Next{Next_}, Prev{Prev_}, Value{Value_}, Point{Point_}, Triangle{Triangle_} {}
     // public System.Void .ctor(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x2273FA4
+    // Offset: 0x2123D08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AdvancingFrontNode* New_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AdvancingFrontNode*, creationType>(point)));
     }
     // public System.Boolean get_HasNext()
-    // Offset: 0x2273FEC
+    // Offset: 0x2123D44
     bool get_HasNext();
     // public System.Boolean get_HasPrev()
-    // Offset: 0x2273FFC
+    // Offset: 0x2123D54
     bool get_HasPrev();
   }; // UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode
   #pragma pack(pop)

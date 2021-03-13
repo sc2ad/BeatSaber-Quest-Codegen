@@ -30,20 +30,20 @@ namespace System::Configuration {
     // Creating value type constructor for type: ConfigurationSection
     ConfigurationSection() noexcept {}
     // protected internal System.Void DeserializeSection(System.Xml.XmlReader reader)
-    // Offset: 0x22DE5D0
-    void DeserializeSection(System::Xml::XmlReader* reader);
+    // Offset: 0x218A558
+    void DeserializeSection_NEW(System::Xml::XmlReader* reader);
     // protected internal System.String SerializeSection(System.Configuration.ConfigurationElement parentElement, System.String name, System.Configuration.ConfigurationSaveMode saveMode)
-    // Offset: 0x22DE690
-    ::Il2CppString* SerializeSection(System::Configuration::ConfigurationElement* parentElement, ::Il2CppString* name, System::Configuration::ConfigurationSaveMode saveMode);
+    // Offset: 0x218A618
+    ::Il2CppString* SerializeSection_NEW(System::Configuration::ConfigurationElement* parentElement, ::Il2CppString* name, System::Configuration::ConfigurationSaveMode saveMode);
     // protected internal override System.Boolean IsModified()
-    // Offset: 0x22DE610
+    // Offset: 0x218A598
     // Implemented from: System.Configuration.ConfigurationElement
-    // Base method: System.Boolean ConfigurationElement::IsModified()
+    // Base method: System.Boolean ConfigurationElement::IsModified_NEW()
     bool IsModified();
     // protected internal override System.Void ResetModified()
-    // Offset: 0x22DE650
+    // Offset: 0x218A5D8
     // Implemented from: System.Configuration.ConfigurationElement
-    // Base method: System.Void ConfigurationElement::ResetModified()
+    // Base method: System.Void ConfigurationElement::ResetModified_NEW()
     void ResetModified();
   }; // System.Configuration.ConfigurationSection
   #pragma pack(pop)

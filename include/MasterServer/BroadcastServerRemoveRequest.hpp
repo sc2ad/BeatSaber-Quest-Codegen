@@ -36,14 +36,14 @@ namespace MasterServer {
   // [] Offset: FFFFFFFF
   class BroadcastServerRemoveRequest : public ::Il2CppObject/*, public MasterServer::IMasterServerUnreliableMessage, public MasterServer::IUserClientToServerMessage*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD1C20C
+    // [CompilerGeneratedAttribute] Offset: 0xD06100
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1C21C
+    // [CompilerGeneratedAttribute] Offset: 0xD06110
     // private System.String <userName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -67,50 +67,34 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IUserClientToServerMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.BroadcastServerRemoveRequest> get_pool()
-    // Offset: 0x11196B0
+    // Offset: 0x1283DD8
     static GlobalNamespace::PacketPool_1<MasterServer::BroadcastServerRemoveRequest*>* get_pool();
+    // public System.String get_userId()
+    // Offset: 0x1283E20
+    ::Il2CppString* get_userId_NEW();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x1119700
+    // Offset: 0x1283E28
     void set_userId(::Il2CppString* value);
+    // public System.String get_userName()
+    // Offset: 0x1283E30
+    ::Il2CppString* get_userName_NEW();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x1119710
+    // Offset: 0x1283E38
     void set_userName(::Il2CppString* value);
     // public MasterServer.BroadcastServerRemoveRequest Init(System.String userId, System.String userName, System.String secret)
-    // Offset: 0x1119718
+    // Offset: 0x1283E40
     MasterServer::BroadcastServerRemoveRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret);
-    // public System.String get_userId()
-    // Offset: 0x11196F8
-    // Implemented from: MasterServer.IUserClientToServerMessage
-    // Base method: System.String IUserClientToServerMessage::get_userId()
-    ::Il2CppString* get_userId();
-    // public System.String get_userName()
-    // Offset: 0x1119708
-    // Implemented from: MasterServer.IUserClientToServerMessage
-    // Base method: System.String IUserClientToServerMessage::get_userName()
-    ::Il2CppString* get_userName();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1119770
-    // Implemented from: LiteNetLib.Utils.INetSerializable
-    // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Serialize
-    // Maps to method: Serialize
-    void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // Offset: 0x1283E4C
+    void Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x11197C4
-    // Implemented from: LiteNetLib.Utils.INetSerializable
-    // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // Creating proxy method: LiteNetLib_Utils_INetSerializable_Deserialize
-    // Maps to method: Deserialize
-    void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    // Offset: 0x1283EA0
+    void Deserialize_NEW(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x111983C
-    // Implemented from: IPoolablePacket
-    // Base method: System.Void IPoolablePacket::Release()
-    void Release();
+    // Offset: 0x1283EF8
+    void Release_NEW();
     // public System.Void .ctor()
-    // Offset: 0x1119898
+    // Offset: 0x1283F54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

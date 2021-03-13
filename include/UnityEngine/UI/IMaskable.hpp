@@ -16,7 +16,7 @@ namespace UnityEngine::UI {
     IMaskable() noexcept {}
     // public System.Void RecalculateMasking()
     // Offset: 0xFFFFFFFF
-    void RecalculateMasking();
+    void RecalculateMasking_NEW();
   }; // UnityEngine.UI.IMaskable
   #pragma pack(pop)
 }

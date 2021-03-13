@@ -29,14 +29,9 @@ namespace MasterServer {
     }
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void Dispose();
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose();
+    void Dispose_NEW();
     // protected System.Void .ctor()
-    // Offset: 0x1124248
+    // Offset: 0x128DDBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

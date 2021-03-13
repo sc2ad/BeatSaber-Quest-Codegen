@@ -38,8 +38,6 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class FlyingTextEffect : public GlobalNamespace::FlyingObjectEffect {
     public:
-    // Writing base type padding for base size: 0x7D to desired offset: 0x80
-    char ___base_padding[0x3] = {};
     // Nested type: GlobalNamespace::FlyingTextEffect::Pool
     class Pool;
     // private TMPro.TextMeshPro _text
@@ -63,15 +61,15 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FlyingTextEffect
     FlyingTextEffect(TMPro::TextMeshPro* text_ = {}, UnityEngine::AnimationCurve* fadeAnimationCurve_ = {}, UnityEngine::Color color_ = {}) noexcept : text{text_}, fadeAnimationCurve{fadeAnimationCurve_}, color{color_} {}
     // public System.Void InitAndPresent(System.String text, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color, System.Single fontSize, System.Boolean shake)
-    // Offset: 0xF2FDF4
+    // Offset: 0xF31024
     void InitAndPresent(::Il2CppString* text, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color, float fontSize, bool shake);
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0xF2FE68
+    // Offset: 0xF31098
     // Implemented from: FlyingObjectEffect
-    // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
+    // Base method: System.Void FlyingObjectEffect::ManualUpdate_NEW(System.Single t)
     void ManualUpdate(float t);
     // public System.Void .ctor()
-    // Offset: 0xF2FEE4
+    // Offset: 0xF31114
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

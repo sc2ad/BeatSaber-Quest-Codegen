@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* cancelStartGameButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD42EE4
+    // [SpaceAttribute] Offset: 0xD2F2A8
     // private EditableBeatmapSelectionView _beatmapSelectionView
     // Size: 0x8
     // Offset: 0x80
@@ -111,28 +111,28 @@ namespace GlobalNamespace {
     HMUI::ToggleBinder* toggleBinder;
     // Field size check
     static_assert(sizeof(HMUI::ToggleBinder*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD42F6C
+    // [CompilerGeneratedAttribute] Offset: 0xD2F330
     // private System.Action selectBeatmapEvent
     // Size: 0x8
     // Offset: 0xB8
     System::Action* selectBeatmapEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD42F7C
+    // [CompilerGeneratedAttribute] Offset: 0xD2F340
     // private System.Action selectModifiersEvent
     // Size: 0x8
     // Offset: 0xC0
     System::Action* selectModifiersEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD42F8C
+    // [CompilerGeneratedAttribute] Offset: 0xD2F350
     // private System.Action startGameEvent
     // Size: 0x8
     // Offset: 0xC8
     System::Action* startGameEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD42F9C
+    // [CompilerGeneratedAttribute] Offset: 0xD2F360
     // private System.Action cancelStartGameEvent
     // Size: 0x8
     // Offset: 0xD0
@@ -142,68 +142,68 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HostLobbySetupViewController
     HostLobbySetupViewController(UnityEngine::UI::Button* startGameButton_ = {}, UnityEngine::UI::Button* cancelStartGameButton_ = {}, GlobalNamespace::EditableBeatmapSelectionView* beatmapSelectionView_ = {}, GlobalNamespace::EditableModifiersSelectionView* modifiersSelectionView_ = {}, HMUI::HoverHint* cantStartGameHoverHint_ = {}, UnityEngine::GameObject* playerMissingLevelHoverHintWrapper_ = {}, HMUI::HoverHint* playersMissingLevelHoverHint_ = {}, UnityEngine::GameObject* spectatorWarningTextWrapper_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, System::Action* selectBeatmapEvent_ = {}, System::Action* selectModifiersEvent_ = {}, System::Action* startGameEvent_ = {}, System::Action* cancelStartGameEvent_ = {}) noexcept : startGameButton{startGameButton_}, cancelStartGameButton{cancelStartGameButton_}, beatmapSelectionView{beatmapSelectionView_}, modifiersSelectionView{modifiersSelectionView_}, cantStartGameHoverHint{cantStartGameHoverHint_}, playerMissingLevelHoverHintWrapper{playerMissingLevelHoverHintWrapper_}, playersMissingLevelHoverHint{playersMissingLevelHoverHint_}, spectatorWarningTextWrapper{spectatorWarningTextWrapper_}, toggleBinder{toggleBinder_}, selectBeatmapEvent{selectBeatmapEvent_}, selectModifiersEvent{selectModifiersEvent_}, startGameEvent{startGameEvent_}, cancelStartGameEvent{cancelStartGameEvent_} {}
     // public System.Void add_selectBeatmapEvent(System.Action value)
-    // Offset: 0xFCCA98
+    // Offset: 0xFEF0C4
     void add_selectBeatmapEvent(System::Action* value);
     // public System.Void remove_selectBeatmapEvent(System.Action value)
-    // Offset: 0xFCDE48
+    // Offset: 0xFF0488
     void remove_selectBeatmapEvent(System::Action* value);
     // public System.Void add_selectModifiersEvent(System.Action value)
-    // Offset: 0xFCCB3C
+    // Offset: 0xFEF168
     void add_selectModifiersEvent(System::Action* value);
     // public System.Void remove_selectModifiersEvent(System.Action value)
-    // Offset: 0xFCDEEC
+    // Offset: 0xFF052C
     void remove_selectModifiersEvent(System::Action* value);
     // public System.Void add_startGameEvent(System.Action value)
-    // Offset: 0xFCCBE0
+    // Offset: 0xFEF20C
     void add_startGameEvent(System::Action* value);
     // public System.Void remove_startGameEvent(System.Action value)
-    // Offset: 0xFCDF90
+    // Offset: 0xFF05D0
     void remove_startGameEvent(System::Action* value);
     // public System.Void add_cancelStartGameEvent(System.Action value)
-    // Offset: 0xFCCC84
+    // Offset: 0xFEF2B0
     void add_cancelStartGameEvent(System::Action* value);
     // public System.Void remove_cancelStartGameEvent(System.Action value)
-    // Offset: 0xFCE034
+    // Offset: 0xFF0674
     void remove_cancelStartGameEvent(System::Action* value);
     // public System.Void SetLobbyPlayerData(ILobbyPlayerDataModel lobbyPlayerDataModel)
-    // Offset: 0xFCEBF0
+    // Offset: 0xFF1284
     void SetLobbyPlayerData(GlobalNamespace::ILobbyPlayerDataModel* lobbyPlayerDataModel);
     // public System.Void SetPlayersMissingLevelText(System.String playersMissingLevelText)
-    // Offset: 0xFD14AC
+    // Offset: 0xFF28E0
     void SetPlayersMissingLevelText(::Il2CppString* playersMissingLevelText);
     // public System.Void SetPlayerActiveState(System.Boolean isActive)
-    // Offset: 0xFCFD04
+    // Offset: 0xFF2350
     void SetPlayerActiveState(bool isActive);
     // public System.Void SetStartGameEnabled(System.Boolean startGameEnabled, HostLobbySetupViewController/CannotStartGameReason cannotStartGameReason)
-    // Offset: 0xFD0130
+    // Offset: 0xFF27E4
     void SetStartGameEnabled(bool startGameEnabled, GlobalNamespace::HostLobbySetupViewController::CannotStartGameReason cannotStartGameReason);
     // public System.Void SetLobbyState(MultiplayerLobbyState lobbyState)
-    // Offset: 0xFCD4C4
+    // Offset: 0xFEFB04
     void SetLobbyState(GlobalNamespace::MultiplayerLobbyState lobbyState);
     // private System.Void <DidActivate>b__27_0()
-    // Offset: 0xFD1774
+    // Offset: 0xFF3D3C
     void $DidActivate$b__27_0();
     // private System.Void <DidActivate>b__27_1()
-    // Offset: 0xFD1788
+    // Offset: 0xFF3D50
     void $DidActivate$b__27_1();
     // private System.Void <DidActivate>b__27_2()
-    // Offset: 0xFD179C
+    // Offset: 0xFF3D64
     void $DidActivate$b__27_2();
     // private System.Void <DidActivate>b__27_3()
-    // Offset: 0xFD17B0
+    // Offset: 0xFF3D78
     void $DidActivate$b__27_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xFD1530
+    // Offset: 0xFF3B04
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Base method: System.Void ViewController::DidActivate_NEW(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0xFD16E4
+    // Offset: 0xFF3CB8
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::OnDestroy()
+    // Base method: System.Void ViewController::OnDestroy_NEW()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xFD1700
+    // Offset: 0xFF3CD4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

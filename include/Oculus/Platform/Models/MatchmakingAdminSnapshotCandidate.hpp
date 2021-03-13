@@ -54,7 +54,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: MatchmakingAdminSnapshotCandidate
     MatchmakingAdminSnapshotCandidate(bool CanMatch_ = {}, double MyTotalScore_ = {}, double TheirCurrentThreshold_ = {}, double TheirTotalScore_ = {}, ::Il2CppString* TraceId_ = {}) noexcept : CanMatch{CanMatch_}, MyTotalScore{MyTotalScore_}, TheirCurrentThreshold{TheirCurrentThreshold_}, TheirTotalScore{TheirTotalScore_}, TraceId{TraceId_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13F223C
+    // Offset: 0x138CD10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingAdminSnapshotCandidate* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingAdminSnapshotCandidate::.ctor");

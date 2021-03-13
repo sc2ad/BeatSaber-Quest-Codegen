@@ -82,35 +82,35 @@ namespace GlobalNamespace {
     GlobalNamespace::GameServerPlayerTableCell* gameServerPlayerCellPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameServerPlayerTableCell*) == 0x8);
-    // [InjectAttribute] Offset: 0xD43E68
+    // [InjectAttribute] Offset: 0xD3022C
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x28
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // [InjectAttribute] Offset: 0xD43E78
+    // [InjectAttribute] Offset: 0xD3023C
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD43E88
+    // [CompilerGeneratedAttribute] Offset: 0xD3024C
     // private System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> selectSuggestedLevelEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* selectSuggestedLevelEvent;
     // Field size check
     static_assert(sizeof(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD43E98
+    // [CompilerGeneratedAttribute] Offset: 0xD3025C
     // private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
     // Size: 0x8
     // Offset: 0x40
     System::Action_1<GlobalNamespace::GameplayModifiers*>* selectSuggestedGameplayModifiersEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::GameplayModifiers*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD43EA8
+    // [CompilerGeneratedAttribute] Offset: 0xD3026C
     // private System.Action`1<System.String> kickPlayerEvent
     // Size: 0x8
     // Offset: 0x48
@@ -164,58 +164,52 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCellId
     static void _set_kCellId(::Il2CppString* value);
     // public System.Void add_selectSuggestedLevelEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0xF38394
+    // Offset: 0xF39828
     void add_selectSuggestedLevelEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void remove_selectSuggestedLevelEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0xF38438
+    // Offset: 0xF398CC
     void remove_selectSuggestedLevelEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void add_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0xF384DC
+    // Offset: 0xF39970
     void add_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0xF38580
+    // Offset: 0xF39A14
     void remove_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void add_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0xF38624
+    // Offset: 0xF39AB8
     void add_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0xF386C8
+    // Offset: 0xF39B5C
     void remove_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
+    // public System.Single CellSize()
+    // Offset: 0xF39C00
+    float CellSize_NEW();
+    // public System.Int32 NumberOfCells()
+    // Offset: 0xF39C0C
+    int NumberOfCells_NEW();
+    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
+    // Offset: 0xF39C5C
+    HMUI::TableCell* CellForIdx_NEW(HMUI::TableView* tableView, int idx);
     // private System.Boolean TryGetLobbyPlayerData(System.Int32 idx, out IConnectedPlayer player, out ILobbyPlayerDataModel playerDataModel)
-    // Offset: 0xF38C38
+    // Offset: 0xF3A0BC
     bool TryGetLobbyPlayerData(int idx, GlobalNamespace::IConnectedPlayer*& player, GlobalNamespace::ILobbyPlayerDataModel*& playerDataModel);
     // private System.Void HandleCellUseBeatmap(System.Int32 idx)
-    // Offset: 0xF38DD8
+    // Offset: 0xF3A244
     void HandleCellUseBeatmap(int idx);
     // private System.Void HandleCellUseModifiers(System.Int32 idx)
-    // Offset: 0xF39184
+    // Offset: 0xF3A5F0
     void HandleCellUseModifiers(int idx);
     // private System.Void HandleCellKickPlayer(System.Int32 idx)
-    // Offset: 0xF39314
+    // Offset: 0xF3A780
     void HandleCellKickPlayer(int idx);
     // public System.Void SetData(System.Collections.Generic.List`1<IConnectedPlayer> sortedPlayers, ILobbyPlayersDataModel lobbyPlayersDataModel, System.Boolean isHost, System.Boolean clearSelection)
-    // Offset: 0xF39428
+    // Offset: 0xF3A894
     void SetData(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* sortedPlayers, GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel, bool isHost, bool clearSelection);
     // private System.Void Init()
-    // Offset: 0xF394B0
+    // Offset: 0xF3A900
     void Init();
-    // public System.Single CellSize()
-    // Offset: 0xF3876C
-    // Implemented from: HMUI.TableView/IDataSource
-    // Base method: System.Single IDataSource::CellSize()
-    float CellSize();
-    // public System.Int32 NumberOfCells()
-    // Offset: 0xF38778
-    // Implemented from: HMUI.TableView/IDataSource
-    // Base method: System.Int32 IDataSource::NumberOfCells()
-    int NumberOfCells();
-    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0xF387C8
-    // Implemented from: HMUI.TableView/IDataSource
-    // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0xF394E8
+    // Offset: 0xF3A938
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

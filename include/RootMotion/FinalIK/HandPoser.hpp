@@ -61,30 +61,30 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: HandPoser
     HandPoser(::Array<UnityEngine::Transform*>* children_ = {}, UnityEngine::Transform* poseRoot_ = {}, ::Array<UnityEngine::Transform*>* poseChildren_ = {}, ::Array<UnityEngine::Vector3>* defaultLocalPositions_ = {}, ::Array<UnityEngine::Quaternion>* defaultLocalRotations_ = {}) noexcept : children{children_}, poseRoot{poseRoot_}, poseChildren{poseChildren_}, defaultLocalPositions{defaultLocalPositions_}, defaultLocalRotations{defaultLocalRotations_} {}
     // protected System.Void StoreDefaultState()
-    // Offset: 0x1AF6DE0
+    // Offset: 0x1A62580
     void StoreDefaultState();
     // public override System.Void AutoMapping()
-    // Offset: 0x1AF6CB0
+    // Offset: 0x1A62470
     // Implemented from: RootMotion.FinalIK.Poser
-    // Base method: System.Void Poser::AutoMapping()
+    // Base method: System.Void Poser::AutoMapping_NEW()
     void AutoMapping();
     // protected override System.Void InitiatePoser()
-    // Offset: 0x1AF6D78
+    // Offset: 0x1A62524
     // Implemented from: RootMotion.FinalIK.Poser
-    // Base method: System.Void Poser::InitiatePoser()
+    // Base method: System.Void Poser::InitiatePoser_NEW()
     void InitiatePoser();
     // protected override System.Void FixPoserTransforms()
-    // Offset: 0x1AF6F5C
+    // Offset: 0x1A626DC
     // Implemented from: RootMotion.FinalIK.Poser
-    // Base method: System.Void Poser::FixPoserTransforms()
+    // Base method: System.Void Poser::FixPoserTransforms_NEW()
     void FixPoserTransforms();
     // protected override System.Void UpdatePoser()
-    // Offset: 0x1AF7058
+    // Offset: 0x1A627D8
     // Implemented from: RootMotion.FinalIK.Poser
-    // Base method: System.Void Poser::UpdatePoser()
+    // Base method: System.Void Poser::UpdatePoser_NEW()
     void UpdatePoser();
     // public System.Void .ctor()
-    // Offset: 0x1AF7408
+    // Offset: 0x1A62B88
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::.ctor()
     // Base method: System.Void SolverManager::.ctor()

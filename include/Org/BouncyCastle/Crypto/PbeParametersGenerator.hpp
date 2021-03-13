@@ -45,25 +45,25 @@ namespace Org::BouncyCastle::Crypto {
     // Creating value type constructor for type: PbeParametersGenerator
     PbeParametersGenerator(::Array<uint8_t>* mPassword_ = {}, ::Array<uint8_t>* mSalt_ = {}, int mIterationCount_ = {}) noexcept : mPassword{mPassword_}, mSalt{mSalt_}, mIterationCount{mIterationCount_} {}
     // public System.Void Init(System.Byte[] password, System.Byte[] salt, System.Int32 iterationCount)
-    // Offset: 0x11850C4
-    void Init(::Array<uint8_t>* password, ::Array<uint8_t>* salt, int iterationCount);
+    // Offset: 0x1164BF0
+    void Init_NEW(::Array<uint8_t>* password, ::Array<uint8_t>* salt, int iterationCount);
     // public Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::Il2CppString* algorithm, int keySize);
+    Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters_NEW(::Il2CppString* algorithm, int keySize);
     // public Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize, System.Int32 ivSize)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::Il2CppString* algorithm, int keySize, int ivSize);
+    Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters_NEW(::Il2CppString* algorithm, int keySize, int ivSize);
     // public Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedMacParameters(System.Int32 keySize)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int keySize);
+    Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters_NEW(int keySize);
     // static public System.Byte[] Pkcs5PasswordToBytes(System.Char[] password)
-    // Offset: 0x11851DC
+    // Offset: 0x1164CF0
     static ::Array<uint8_t>* Pkcs5PasswordToBytes(::Array<::Il2CppChar>* password);
     // static public System.Byte[] Pkcs12PasswordToBytes(System.Char[] password, System.Boolean wrongPkcs12Zero)
-    // Offset: 0x1185244
+    // Offset: 0x1164D58
     static ::Array<uint8_t>* Pkcs12PasswordToBytes(::Array<::Il2CppChar>* password, bool wrongPkcs12Zero);
     // protected System.Void .ctor()
-    // Offset: 0x11850BC
+    // Offset: 0x1164BE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

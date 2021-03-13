@@ -23,10 +23,10 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: Misc
     Misc() noexcept {}
     // static public System.Void Destroy(UnityEngine.Object obj)
-    // Offset: 0x18E8648
+    // Offset: 0x1834A94
     static void Destroy(UnityEngine::Object* obj);
     // static public System.Void DestroyImmediate(UnityEngine.Object obj)
-    // Offset: 0x18E875C
+    // Offset: 0x1834BA8
     static void DestroyImmediate(UnityEngine::Object* obj);
   }; // UnityEngine.UI.Misc
   #pragma pack(pop)

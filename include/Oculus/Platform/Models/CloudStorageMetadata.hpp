@@ -76,7 +76,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: CloudStorageMetadata
     CloudStorageMetadata(::Il2CppString* Bucket_ = {}, int64_t Counter_ = {}, uint DataSize_ = {}, ::Il2CppString* ExtraData_ = {}, ::Il2CppString* Key_ = {}, uint64_t SaveTime_ = {}, Oculus::Platform::CloudStorageDataStatus Status_ = {}, ::Il2CppString* VersionHandle_ = {}) noexcept : Bucket{Bucket_}, Counter{Counter_}, DataSize{DataSize_}, ExtraData{ExtraData_}, Key{Key_}, SaveTime{SaveTime_}, Status{Status_}, VersionHandle{VersionHandle_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13EAA90
+    // Offset: 0x1385588
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudStorageMetadata* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CloudStorageMetadata::.ctor");

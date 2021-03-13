@@ -58,7 +58,7 @@ namespace UnityEngine::Events {
     // public override System.Void Invoke(T arg0)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.InvokableCall`1
-    // Base method: System.Void InvokableCall_1::Invoke(T arg0)
+    // Base method: System.Void InvokableCall_1::Invoke_NEW(T arg0)
     void Invoke(T arg0) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::CachedInvokableCall_1::Invoke");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(arg0)));

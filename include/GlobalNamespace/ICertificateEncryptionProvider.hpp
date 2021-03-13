@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     }
     // public System.Byte[] SignData(System.Byte[] data, System.Int32 offset, System.Int32 length)
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* SignData(::Array<uint8_t>* data, int offset, int length);
+    ::Array<uint8_t>* SignData_NEW(::Array<uint8_t>* data, int offset, int length);
   }; // ICertificateEncryptionProvider
   #pragma pack(pop)
 }

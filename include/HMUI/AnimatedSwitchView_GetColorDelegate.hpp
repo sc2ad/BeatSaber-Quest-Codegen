@@ -38,21 +38,21 @@ namespace HMUI {
     // Creating value type constructor for type: GetColorDelegate
     GetColorDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11F7558
+    // Offset: 0x121E5C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatedSwitchView::GetColorDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::AnimatedSwitchView::GetColorDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatedSwitchView::GetColorDelegate*, creationType>(object, method)));
     }
     // public UnityEngine.Color Invoke(HMUI.AnimatedSwitchView/ColorBlock colorBlock)
-    // Offset: 0x11F7738
-    UnityEngine::Color Invoke(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
+    // Offset: 0x121E79C
+    UnityEngine::Color Invoke_NEW(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // public System.IAsyncResult BeginInvoke(HMUI.AnimatedSwitchView/ColorBlock colorBlock, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11F7DE4
-    System::IAsyncResult* BeginInvoke(HMUI::AnimatedSwitchView::ColorBlock* colorBlock, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x121EE20
+    System::IAsyncResult* BeginInvoke_NEW(HMUI::AnimatedSwitchView::ColorBlock* colorBlock, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public UnityEngine.Color EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11F7E08
-    UnityEngine::Color EndInvoke(System::IAsyncResult* result);
+    // Offset: 0x121EE44
+    UnityEngine::Color EndInvoke_NEW(System::IAsyncResult* result);
   }; // HMUI.AnimatedSwitchView/GetColorDelegate
   #pragma pack(pop)
 }

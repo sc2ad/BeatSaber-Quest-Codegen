@@ -168,14 +168,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* optionsButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0xD425CC
+    // [InjectAttribute] Offset: 0xD2E990
     // private readonly AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0xB0
     GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD425DC
+    // [CompilerGeneratedAttribute] Offset: 0xD2E9A0
     // private System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> didFinishEvent
     // Size: 0x8
     // Offset: 0xB8
@@ -185,45 +185,45 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MainMenuViewController
     MainMenuViewController(UnityEngine::UI::Button* soloButton_ = {}, UnityEngine::UI::Button* partyButton_ = {}, UnityEngine::UI::Button* campaignButton_ = {}, UnityEngine::UI::Button* quitButton_ = {}, UnityEngine::UI::Button* howToPlayButton_ = {}, UnityEngine::UI::Button* beatmapEditorButton_ = {}, UnityEngine::UI::Button* multiplayerButton_ = {}, UnityEngine::UI::Button* optionsButton_ = {}, GlobalNamespace::AppStaticSettingsSO* appStaticSettings_ = {}, System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* didFinishEvent_ = {}) noexcept : soloButton{soloButton_}, partyButton{partyButton_}, campaignButton{campaignButton_}, quitButton{quitButton_}, howToPlayButton{howToPlayButton_}, beatmapEditorButton{beatmapEditorButton_}, multiplayerButton{multiplayerButton_}, optionsButton{optionsButton_}, appStaticSettings{appStaticSettings_}, didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0x105C804
+    // Offset: 0x10B37E8
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0x105D064
+    // Offset: 0x10B3F2C
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* value);
     // private System.Void HandleMenuButton(MainMenuViewController/MenuButton menuButton)
-    // Offset: 0x105F500
+    // Offset: 0x10B5FA0
     void HandleMenuButton(GlobalNamespace::MainMenuViewController::MenuButton menuButton);
     // private System.Void <DidActivate>b__13_0()
-    // Offset: 0x105F580
+    // Offset: 0x10B6020
     void $DidActivate$b__13_0();
     // private System.Void <DidActivate>b__13_1()
-    // Offset: 0x105F588
+    // Offset: 0x10B6028
     void $DidActivate$b__13_1();
     // private System.Void <DidActivate>b__13_2()
-    // Offset: 0x105F590
+    // Offset: 0x10B6030
     void $DidActivate$b__13_2();
     // private System.Void <DidActivate>b__13_3()
-    // Offset: 0x105F598
+    // Offset: 0x10B6038
     void $DidActivate$b__13_3();
     // private System.Void <DidActivate>b__13_4()
-    // Offset: 0x105F5A0
+    // Offset: 0x10B6040
     void $DidActivate$b__13_4();
     // private System.Void <DidActivate>b__13_5()
-    // Offset: 0x105F5A8
+    // Offset: 0x10B6048
     void $DidActivate$b__13_5();
     // private System.Void <DidActivate>b__13_6()
-    // Offset: 0x105F5B0
+    // Offset: 0x10B6050
     void $DidActivate$b__13_6();
     // private System.Void <DidActivate>b__13_7()
-    // Offset: 0x105F5B8
+    // Offset: 0x10B6058
     void $DidActivate$b__13_7();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x105F21C
+    // Offset: 0x10B5CBC
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Base method: System.Void ViewController::DidActivate_NEW(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x105F578
+    // Offset: 0x10B6018
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

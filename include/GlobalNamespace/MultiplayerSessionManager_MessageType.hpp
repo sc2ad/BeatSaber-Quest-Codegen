@@ -55,6 +55,18 @@ namespace GlobalNamespace {
     static GlobalNamespace::MultiplayerSessionManager_MessageType _get_ScoreSyncState();
     // Set static field: static public MultiplayerSessionManager/MessageType ScoreSyncState
     static void _set_ScoreSyncState(GlobalNamespace::MultiplayerSessionManager_MessageType value);
+    // static field const value: static public MultiplayerSessionManager/MessageType NodePoseSyncStateDelta
+    static constexpr const uint8_t NodePoseSyncStateDelta = 4u;
+    // Get static field: static public MultiplayerSessionManager/MessageType NodePoseSyncStateDelta
+    static GlobalNamespace::MultiplayerSessionManager_MessageType _get_NodePoseSyncStateDelta();
+    // Set static field: static public MultiplayerSessionManager/MessageType NodePoseSyncStateDelta
+    static void _set_NodePoseSyncStateDelta(GlobalNamespace::MultiplayerSessionManager_MessageType value);
+    // static field const value: static public MultiplayerSessionManager/MessageType ScoreSyncStateDelta
+    static constexpr const uint8_t ScoreSyncStateDelta = 5u;
+    // Get static field: static public MultiplayerSessionManager/MessageType ScoreSyncStateDelta
+    static GlobalNamespace::MultiplayerSessionManager_MessageType _get_ScoreSyncStateDelta();
+    // Set static field: static public MultiplayerSessionManager/MessageType ScoreSyncStateDelta
+    static void _set_ScoreSyncStateDelta(GlobalNamespace::MultiplayerSessionManager_MessageType value);
   }; // MultiplayerSessionManager/MessageType
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerSessionManager_MessageType), 0 + sizeof(uint8_t)> __GlobalNamespace_MultiplayerSessionManager_MessageTypeSizeCheck;

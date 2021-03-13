@@ -29,7 +29,7 @@ namespace UnityEngine::EventSystems {
     }
     // public System.Void OnScroll(UnityEngine.EventSystems.PointerEventData eventData)
     // Offset: 0xFFFFFFFF
-    void OnScroll(UnityEngine::EventSystems::PointerEventData* eventData);
+    void OnScroll_NEW(UnityEngine::EventSystems::PointerEventData* eventData);
   }; // UnityEngine.EventSystems.IScrollHandler
   #pragma pack(pop)
 }

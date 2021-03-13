@@ -48,36 +48,24 @@ namespace System::Security::Cryptography::X509Certificates {
       return enumerator;
     }
     // System.Void .ctor(System.Collections.IEnumerable enumerable)
-    // Offset: 0x177A99C
+    // Offset: 0x16AD644
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainElementEnumerator* New_ctor(System::Collections::IEnumerable* enumerable) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainElementEnumerator*, creationType>(enumerable)));
     }
     // public System.Security.Cryptography.X509Certificates.X509ChainElement get_Current()
-    // Offset: 0x177AC98
+    // Offset: 0x16AD938
     System::Security::Cryptography::X509Certificates::X509ChainElement* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x177AD8C
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Object IEnumerator::get_Current()
-    ::Il2CppObject* System_Collections_IEnumerator_get_Current();
+    // Offset: 0x16ADA2C
+    ::Il2CppObject* System_Collections_IEnumerator_get_Current_NEW();
     // public System.Boolean MoveNext()
-    // Offset: 0x177AE40
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Boolean IEnumerator::MoveNext()
-    bool MoveNext();
-    // Creating proxy method: System_Collections_IEnumerator_MoveNext
-    // Maps to method: MoveNext
-    bool System_Collections_IEnumerator_MoveNext();
+    // Offset: 0x16ADAE0
+    bool MoveNext_NEW();
     // public System.Void Reset()
-    // Offset: 0x177AEF0
-    // Implemented from: System.Collections.IEnumerator
-    // Base method: System.Void IEnumerator::Reset()
-    void Reset();
-    // Creating proxy method: System_Collections_IEnumerator_Reset
-    // Maps to method: Reset
-    void System_Collections_IEnumerator_Reset();
+    // Offset: 0x16ADB90
+    void Reset_NEW();
   }; // System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator
   #pragma pack(pop)
   static check_size<sizeof(X509ChainElementEnumerator), 16 + sizeof(System::Collections::IEnumerator*)> __System_Security_Cryptography_X509Certificates_X509ChainElementEnumeratorSizeCheck;

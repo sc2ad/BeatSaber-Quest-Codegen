@@ -32,16 +32,16 @@ namespace GlobalNamespace {
     IMultiplayerLevelEndActionsPublisher() noexcept {}
     // public System.Void add_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
     // Offset: 0xFFFFFFFF
-    void add_playerDidFinishEvent(System::Action_1<GlobalNamespace::LevelCompletionResults*>* value);
+    void add_playerDidFinishEvent_NEW(System::Action_1<GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void remove_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
     // Offset: 0xFFFFFFFF
-    void remove_playerDidFinishEvent(System::Action_1<GlobalNamespace::LevelCompletionResults*>* value);
+    void remove_playerDidFinishEvent_NEW(System::Action_1<GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void add_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
     // Offset: 0xFFFFFFFF
-    void add_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
+    void add_playerNetworkDidFailedEvent_NEW(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void remove_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
     // Offset: 0xFFFFFFFF
-    void remove_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
+    void remove_playerNetworkDidFailedEvent_NEW(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
   }; // IMultiplayerLevelEndActionsPublisher
   #pragma pack(pop)
 }

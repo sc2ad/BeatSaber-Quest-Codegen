@@ -27,13 +27,13 @@ namespace NUnit::Framework::Interfaces {
     ITestListener() noexcept {}
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFF
-    void TestStarted(NUnit::Framework::Interfaces::ITest* test);
+    void TestStarted_NEW(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
     // Offset: 0xFFFFFFFF
-    void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
+    void TestFinished_NEW(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void TestOutput(NUnit.Framework.Interfaces.TestOutput output)
     // Offset: 0xFFFFFFFF
-    void TestOutput(NUnit::Framework::Interfaces::TestOutput* output);
+    void TestOutput_NEW(NUnit::Framework::Interfaces::TestOutput* output);
   }; // NUnit.Framework.Interfaces.ITestListener
   #pragma pack(pop)
 }

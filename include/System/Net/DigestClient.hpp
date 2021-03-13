@@ -46,31 +46,25 @@ namespace System::Net {
     // Set static field: static private readonly System.Collections.Hashtable cache
     static void _set_cache(System::Collections::Hashtable* value);
     // static private System.Collections.Hashtable get_Cache()
-    // Offset: 0x1564118
+    // Offset: 0x14CC6F4
     static System::Collections::Hashtable* get_Cache();
     // static private System.Void CheckExpired(System.Int32 count)
-    // Offset: 0x1564280
+    // Offset: 0x14CC844
     static void CheckExpired(int count);
-    // static private System.Void .cctor()
-    // Offset: 0x15654F4
-    static void _cctor();
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1564A34
-    // Implemented from: System.Net.IAuthenticationModule
-    // Base method: System.Net.Authorization IAuthenticationModule::Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
+    // Offset: 0x14CCFFC
+    System::Net::Authorization* Authenticate_NEW(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x156532C
-    // Implemented from: System.Net.IAuthenticationModule
-    // Base method: System.Net.Authorization IAuthenticationModule::PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
+    // Offset: 0x14CD8C4
+    System::Net::Authorization* PreAuthenticate_NEW(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.String get_AuthenticationType()
-    // Offset: 0x15654AC
-    // Implemented from: System.Net.IAuthenticationModule
-    // Base method: System.String IAuthenticationModule::get_AuthenticationType()
-    ::Il2CppString* get_AuthenticationType();
+    // Offset: 0x14CDA44
+    ::Il2CppString* get_AuthenticationType_NEW();
+    // static private System.Void .cctor()
+    // Offset: 0x14CDA8C
+    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1558990
+    // Offset: 0x14C1954
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

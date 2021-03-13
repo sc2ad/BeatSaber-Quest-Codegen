@@ -42,16 +42,16 @@ namespace Zenject {
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // public System.Void .ctor(System.Action`1<Zenject.DiContainer> installMethod)
-    // Offset: 0x125EDD0
+    // Offset: 0x129E69C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActionInstaller* New_ctor(System::Action_1<Zenject::DiContainer*>* installMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ActionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActionInstaller*, creationType>(installMethod)));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x125EE3C
+    // Offset: 0x129E700
     // Implemented from: Zenject.InstallerBase
-    // Base method: System.Void InstallerBase::InstallBindings()
+    // Base method: System.Void InstallerBase::InstallBindings_NEW()
     void InstallBindings();
   }; // Zenject.ActionInstaller
   // WARNING Not writing size check since size may be invalid!

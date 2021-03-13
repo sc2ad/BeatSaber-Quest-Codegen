@@ -39,13 +39,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: BinaryCrossAppDomainAssembly
     BinaryCrossAppDomainAssembly(int assemId_ = {}, int assemblyIndex_ = {}) noexcept : assemId{assemId_}, assemblyIndex{assemblyIndex_} {}
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x15909BC
-    void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
+    // Offset: 0x1459E2C
+    void Read_NEW(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x1590A04
+    // Offset: 0x1459E8C
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x15909B4
+    // Offset: 0x1459E24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

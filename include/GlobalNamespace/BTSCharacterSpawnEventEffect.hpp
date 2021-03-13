@@ -6,8 +6,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: BeatmapObjectCallbackController
-#include "GlobalNamespace/BeatmapObjectCallbackController.hpp"
+// Including type: BeatmapEventType
+#include "GlobalNamespace/BeatmapEventType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -18,14 +18,18 @@
 namespace GlobalNamespace {
   // Forward declaring type: BTSCharacterDataModel
   class BTSCharacterDataModel;
-  // Forward declaring type: BeatmapEventData
-  class BeatmapEventData;
+  // Forward declaring type: IBeatmapObjectCallbackController
+  class IBeatmapObjectCallbackController;
   // Forward declaring type: IReadonlyBeatmapData
   class IReadonlyBeatmapData;
   // Forward declaring type: IAudioTimeSource
   class IAudioTimeSource;
   // Forward declaring type: BTSCharacter
   class BTSCharacter;
+  // Forward declaring type: BeatmapEventCallbackData
+  class BeatmapEventCallbackData;
+  // Forward declaring type: BeatmapEventData
+  class BeatmapEventData;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -76,35 +80,35 @@ namespace GlobalNamespace {
     GlobalNamespace::BTSCharacterDataModel* btsCharacterDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSCharacterDataModel*) == 0x8);
-    // [NullAllowed] Offset: 0xD31F98
+    // [NullAllowed] Offset: 0xD1D08C
     // private UnityEngine.Transform _characterWrapper
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::Transform* characterWrapper;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xD31FD4
-    // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // [InjectAttribute] Offset: 0xD1D0C8
+    // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
-    GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
+    GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD31FE4
+    static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
+    // [InjectAttribute] Offset: 0xD1D0D8
     // private readonly IReadonlyBeatmapData _beatmapData
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::IReadonlyBeatmapData* beatmapData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IReadonlyBeatmapData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD31FF4
+    // [InjectAttribute] Offset: 0xD1D0E8
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD32004
+    // [CompilerGeneratedAttribute] Offset: 0xD1D0F8
     // private System.Action`1<BTSCharacter> startCharacterAnimationEvent
     // Size: 0x8
     // Offset: 0x48
@@ -137,14 +141,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitialized and: eventsCallbackData
     char __padding10[0x7] = {};
-    // private BeatmapObjectCallbackController/BeatmapEventCallbackData _eventsCallbackData
+    // private BeatmapEventCallbackData _eventsCallbackData
     // Size: 0x8
     // Offset: 0x70
-    GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData* eventsCallbackData;
+    GlobalNamespace::BeatmapEventCallbackData* eventsCallbackData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::BeatmapEventCallbackData*) == 0x8);
     // Creating value type constructor for type: BTSCharacterSpawnEventEffect
-    BTSCharacterSpawnEventEffect(float animationStartAheadTime_ = {}, GlobalNamespace::BTSCharacterDataModel* btsCharacterDataModel_ = {}, UnityEngine::Transform* characterWrapper_ = {}, GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::IReadonlyBeatmapData* beatmapData_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, System::Action_1<GlobalNamespace::BTSCharacter*>* startCharacterAnimationEvent_ = {}, System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>* idsToCharacterPrefabsDictionary_ = {}, System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>* idsToCharactersDictionary_ = {}, System::Collections::Generic::Dictionary_2<int, UnityEngine::AnimationClip*>* idsToAnimationClipsDictionary_ = {}, bool isInitialized_ = {}, GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData* eventsCallbackData_ = {}) noexcept : animationStartAheadTime{animationStartAheadTime_}, btsCharacterDataModel{btsCharacterDataModel_}, characterWrapper{characterWrapper_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, beatmapData{beatmapData_}, audioTimeSource{audioTimeSource_}, startCharacterAnimationEvent{startCharacterAnimationEvent_}, idsToCharacterPrefabsDictionary{idsToCharacterPrefabsDictionary_}, idsToCharactersDictionary{idsToCharactersDictionary_}, idsToAnimationClipsDictionary{idsToAnimationClipsDictionary_}, isInitialized{isInitialized_}, eventsCallbackData{eventsCallbackData_} {}
+    BTSCharacterSpawnEventEffect(float animationStartAheadTime_ = {}, GlobalNamespace::BTSCharacterDataModel* btsCharacterDataModel_ = {}, UnityEngine::Transform* characterWrapper_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::IReadonlyBeatmapData* beatmapData_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, System::Action_1<GlobalNamespace::BTSCharacter*>* startCharacterAnimationEvent_ = {}, System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>* idsToCharacterPrefabsDictionary_ = {}, System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>* idsToCharactersDictionary_ = {}, System::Collections::Generic::Dictionary_2<int, UnityEngine::AnimationClip*>* idsToAnimationClipsDictionary_ = {}, bool isInitialized_ = {}, GlobalNamespace::BeatmapEventCallbackData* eventsCallbackData_ = {}) noexcept : animationStartAheadTime{animationStartAheadTime_}, btsCharacterDataModel{btsCharacterDataModel_}, characterWrapper{characterWrapper_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, beatmapData{beatmapData_}, audioTimeSource{audioTimeSource_}, startCharacterAnimationEvent{startCharacterAnimationEvent_}, idsToCharacterPrefabsDictionary{idsToCharacterPrefabsDictionary_}, idsToCharactersDictionary{idsToCharactersDictionary_}, idsToAnimationClipsDictionary{idsToAnimationClipsDictionary_}, isInitialized{isInitialized_}, eventsCallbackData{eventsCallbackData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private BeatmapEventType kCharacterDisplayEventType
@@ -154,28 +158,28 @@ namespace GlobalNamespace {
     // Set static field: static private BeatmapEventType kCharacterDisplayEventType
     static void _set_kCharacterDisplayEventType(GlobalNamespace::BeatmapEventType value);
     // public System.Void add_startCharacterAnimationEvent(System.Action`1<BTSCharacter> value)
-    // Offset: 0x103972C
+    // Offset: 0x1007F30
     void add_startCharacterAnimationEvent(System::Action_1<GlobalNamespace::BTSCharacter*>* value);
     // public System.Void remove_startCharacterAnimationEvent(System.Action`1<BTSCharacter> value)
-    // Offset: 0x1039B4C
+    // Offset: 0x1008340
     void remove_startCharacterAnimationEvent(System::Action_1<GlobalNamespace::BTSCharacter*>* value);
     // public System.Boolean get_isInitialized()
-    // Offset: 0x1039FB4
+    // Offset: 0x1008788
     bool get_isInitialized();
     // protected System.Void Start()
-    // Offset: 0x1039FBC
+    // Offset: 0x1008790
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x103A678
+    // Offset: 0x1008E9C
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x103A714
+    // Offset: 0x1008F64
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // static private System.Tuple`2<BTSCharacter,UnityEngine.AnimationClip> GetCharacterWithAnimationClip(System.Collections.Generic.Dictionary`2<System.Int32,BTSCharacter> charDictionary, System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.AnimationClip> animDictionary, System.Int32 prefabId, System.Int32 animationId)
-    // Offset: 0x103A520
+    // Offset: 0x1008D44
     static System::Tuple_2<GlobalNamespace::BTSCharacter*, UnityEngine::AnimationClip*>* GetCharacterWithAnimationClip(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>* charDictionary, System::Collections::Generic::Dictionary_2<int, UnityEngine::AnimationClip*>* animDictionary, int prefabId, int animationId);
     // public System.Void .ctor()
-    // Offset: 0x103A894
+    // Offset: 0x10090E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -189,7 +193,7 @@ namespace GlobalNamespace {
     }
   }; // BTSCharacterSpawnEventEffect
   #pragma pack(pop)
-  static check_size<sizeof(BTSCharacterSpawnEventEffect), 112 + sizeof(GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData*)> __GlobalNamespace_BTSCharacterSpawnEventEffectSizeCheck;
+  static check_size<sizeof(BTSCharacterSpawnEventEffect), 112 + sizeof(GlobalNamespace::BeatmapEventCallbackData*)> __GlobalNamespace_BTSCharacterSpawnEventEffectSizeCheck;
   static_assert(sizeof(BTSCharacterSpawnEventEffect) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnEventEffect*, "", "BTSCharacterSpawnEventEffect");

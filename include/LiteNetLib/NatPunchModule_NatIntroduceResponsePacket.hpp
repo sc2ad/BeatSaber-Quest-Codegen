@@ -26,21 +26,21 @@ namespace LiteNetLib {
   // [] Offset: FFFFFFFF
   class NatPunchModule::NatIntroduceResponsePacket : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD0C0C8
+    // [CompilerGeneratedAttribute] Offset: 0xCF6BD0
     // private System.Net.IPEndPoint <Internal>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     System::Net::IPEndPoint* Internal;
     // Field size check
     static_assert(sizeof(System::Net::IPEndPoint*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0C0D8
+    // [CompilerGeneratedAttribute] Offset: 0xCF6BE0
     // private System.Net.IPEndPoint <External>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     System::Net::IPEndPoint* External;
     // Field size check
     static_assert(sizeof(System::Net::IPEndPoint*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0C0E8
+    // [CompilerGeneratedAttribute] Offset: 0xCF6BF0
     // private System.String <Token>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -50,25 +50,25 @@ namespace LiteNetLib {
     // Creating value type constructor for type: NatIntroduceResponsePacket
     NatIntroduceResponsePacket(System::Net::IPEndPoint* Internal_ = {}, System::Net::IPEndPoint* External_ = {}, ::Il2CppString* Token_ = {}) noexcept : Internal{Internal_}, External{External_}, Token{Token_} {}
     // public System.Net.IPEndPoint get_Internal()
-    // Offset: 0x1A9AFF0
+    // Offset: 0x19EDAC4
     System::Net::IPEndPoint* get_Internal();
     // public System.Void set_Internal(System.Net.IPEndPoint value)
-    // Offset: 0x1A9AFF8
+    // Offset: 0x19EDACC
     void set_Internal(System::Net::IPEndPoint* value);
     // public System.Net.IPEndPoint get_External()
-    // Offset: 0x1A9B000
+    // Offset: 0x19EDAD4
     System::Net::IPEndPoint* get_External();
     // public System.Void set_External(System.Net.IPEndPoint value)
-    // Offset: 0x1A9B008
+    // Offset: 0x19EDADC
     void set_External(System::Net::IPEndPoint* value);
     // public System.String get_Token()
-    // Offset: 0x1A9B010
+    // Offset: 0x19EDAE4
     ::Il2CppString* get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x1A9B018
+    // Offset: 0x19EDAEC
     void set_Token(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1A9A034
+    // Offset: 0x19ECC10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

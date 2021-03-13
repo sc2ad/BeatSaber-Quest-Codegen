@@ -14,8 +14,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: ScoreController
-  class ScoreController;
+  // Forward declaring type: IScoreController
+  class IScoreController;
 }
 // Completed forward declares
 // Type namespace: 
@@ -28,28 +28,28 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    // [InjectAttribute] Offset: 0xD3A98C
-    // private ScoreController _scoreController
+    // [InjectAttribute] Offset: 0xD26084
+    // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x48
-    GlobalNamespace::ScoreController* scoreController;
+    GlobalNamespace::IScoreController* scoreController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ScoreController*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
     // Creating value type constructor for type: ScoreMissionObjectiveChecker
-    ScoreMissionObjectiveChecker(GlobalNamespace::ScoreController* scoreController_ = {}) noexcept : scoreController{scoreController_} {}
+    ScoreMissionObjectiveChecker(GlobalNamespace::IScoreController* scoreController_ = {}) noexcept : scoreController{scoreController_} {}
     // protected System.Void OnDestroy()
-    // Offset: 0x108DD88
+    // Offset: 0xF6DC94
     void OnDestroy();
     // private System.Void HandleScoreDidChange(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0x108DE60
+    // Offset: 0xF6DD94
     void HandleScoreDidChange(int rawScore, int modifiedScore);
     // protected override System.Void Init()
-    // Offset: 0x108DE8C
+    // Offset: 0xF6DE6C
     // Implemented from: MissionObjectiveChecker
-    // Base method: System.Void MissionObjectiveChecker::Init()
+    // Base method: System.Void MissionObjectiveChecker::Init_NEW()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x108DF84
+    // Offset: 0xF6E02C
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     }
   }; // ScoreMissionObjectiveChecker
   #pragma pack(pop)
-  static check_size<sizeof(ScoreMissionObjectiveChecker), 72 + sizeof(GlobalNamespace::ScoreController*)> __GlobalNamespace_ScoreMissionObjectiveCheckerSizeCheck;
+  static check_size<sizeof(ScoreMissionObjectiveChecker), 72 + sizeof(GlobalNamespace::IScoreController*)> __GlobalNamespace_ScoreMissionObjectiveCheckerSizeCheck;
   static_assert(sizeof(ScoreMissionObjectiveChecker) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreMissionObjectiveChecker*, "", "ScoreMissionObjectiveChecker");

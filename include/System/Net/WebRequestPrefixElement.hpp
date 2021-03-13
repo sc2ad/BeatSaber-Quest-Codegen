@@ -50,13 +50,13 @@ namespace System::Net {
     // Creating value type constructor for type: WebRequestPrefixElement
     WebRequestPrefixElement(::Il2CppString* Prefix_ = {}, System::Net::IWebRequestCreate* creator_ = {}, System::Type* creatorType_ = {}) noexcept : Prefix{Prefix_}, creator{creator_}, creatorType{creatorType_} {}
     // public System.Net.IWebRequestCreate get_Creator()
-    // Offset: 0x1444A0C
+    // Offset: 0x14132E0
     System::Net::IWebRequestCreate* get_Creator();
     // public System.Void set_Creator(System.Net.IWebRequestCreate value)
-    // Offset: 0x14465A4
+    // Offset: 0x1414DB8
     void set_Creator(System::Net::IWebRequestCreate* value);
     // public System.Void .ctor(System.String P, System.Net.IWebRequestCreate C)
-    // Offset: 0x1444E48
+    // Offset: 0x1413714
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebRequestPrefixElement* New_ctor(::Il2CppString* P, System::Net::IWebRequestCreate* C) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebRequestPrefixElement::.ctor");

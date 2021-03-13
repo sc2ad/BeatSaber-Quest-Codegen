@@ -28,13 +28,13 @@ namespace System::Net {
     IWebProxy() noexcept {}
     // public System.Uri GetProxy(System.Uri destination)
     // Offset: 0xFFFFFFFF
-    System::Uri* GetProxy(System::Uri* destination);
+    System::Uri* GetProxy_NEW(System::Uri* destination);
     // public System.Boolean IsBypassed(System.Uri host)
     // Offset: 0xFFFFFFFF
-    bool IsBypassed(System::Uri* host);
+    bool IsBypassed_NEW(System::Uri* host);
     // public System.Net.ICredentials get_Credentials()
     // Offset: 0xFFFFFFFF
-    System::Net::ICredentials* get_Credentials();
+    System::Net::ICredentials* get_Credentials_NEW();
   }; // System.Net.IWebProxy
   #pragma pack(pop)
 }

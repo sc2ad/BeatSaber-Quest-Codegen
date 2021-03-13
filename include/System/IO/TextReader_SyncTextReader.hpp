@@ -30,46 +30,46 @@ namespace System::IO {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // System.Void .ctor(System.IO.TextReader t)
-    // Offset: 0x164D9E0
+    // Offset: 0x168E3E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextReader::SyncTextReader* New_ctor(System::IO::TextReader* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::TextReader::SyncTextReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextReader::SyncTextReader*, creationType>(t)));
     }
     // public override System.Void Close()
-    // Offset: 0x164DDDC
+    // Offset: 0x168E7C0
     // Implemented from: System.IO.TextReader
-    // Base method: System.Void TextReader::Close()
+    // Base method: System.Void TextReader::Close_NEW()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x164DDFC
+    // Offset: 0x168E7E0
     // Implemented from: System.IO.TextReader
-    // Base method: System.Void TextReader::Dispose(System.Boolean disposing)
+    // Base method: System.Void TextReader::Dispose_NEW(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Int32 Peek()
-    // Offset: 0x164DECC
+    // Offset: 0x168E8B0
     // Implemented from: System.IO.TextReader
-    // Base method: System.Int32 TextReader::Peek()
+    // Base method: System.Int32 TextReader::Peek_NEW()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x164DEEC
+    // Offset: 0x168E8D0
     // Implemented from: System.IO.TextReader
-    // Base method: System.Int32 TextReader::Read()
+    // Base method: System.Int32 TextReader::Read_NEW()
     int Read();
     // public override System.Int32 Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x164DF0C
+    // Offset: 0x168E8F0
     // Implemented from: System.IO.TextReader
-    // Base method: System.Int32 TextReader::Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
+    // Base method: System.Int32 TextReader::Read_NEW(in System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>*& buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x164DF2C
+    // Offset: 0x168E910
     // Implemented from: System.IO.TextReader
-    // Base method: System.String TextReader::ReadLine()
+    // Base method: System.String TextReader::ReadLine_NEW()
     ::Il2CppString* ReadLine();
     // public override System.String ReadToEnd()
-    // Offset: 0x164DF50
+    // Offset: 0x168E934
     // Implemented from: System.IO.TextReader
-    // Base method: System.String TextReader::ReadToEnd()
+    // Base method: System.String TextReader::ReadToEnd_NEW()
     ::Il2CppString* ReadToEnd();
   }; // System.IO.TextReader/SyncTextReader
   #pragma pack(pop)

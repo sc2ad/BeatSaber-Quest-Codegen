@@ -121,62 +121,42 @@ namespace System::Net {
     // Set static field: static private System.Threading.WaitCallback InvokeCB
     static void _set_InvokeCB(System::Threading::WaitCallback* value);
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x14FDBA0
+    // Offset: 0x1487288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListenerAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ListenerAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListenerAsyncResult*, creationType>(cb, state)));
     }
     // System.Void Complete(System.Exception exc)
-    // Offset: 0x14FD74C
+    // Offset: 0x1486E68
     void Complete(System::Exception* exc);
     // static private System.Void InvokeCallback(System.Object o)
-    // Offset: 0x150D26C
+    // Offset: 0x1495B90
     static void InvokeCallback(::Il2CppObject* o);
     // System.Void Complete(System.Net.HttpListenerContext context)
-    // Offset: 0x14FEB90
+    // Offset: 0x1488168
     void Complete(System::Net::HttpListenerContext* context);
     // System.Void Complete(System.Net.HttpListenerContext context, System.Boolean synch)
-    // Offset: 0x14FDD10
+    // Offset: 0x14873D4
     void Complete(System::Net::HttpListenerContext* context, bool synch);
     // System.Net.HttpListenerContext GetContext()
-    // Offset: 0x14FE788
+    // Offset: 0x1487D78
     System::Net::HttpListenerContext* GetContext();
-    // static private System.Void .cctor()
-    // Offset: 0x150D3E8
-    static void _cctor();
     // public System.Object get_AsyncState()
-    // Offset: 0x150D3C0
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Object IAsyncResult::get_AsyncState()
-    ::Il2CppObject* get_AsyncState();
-    // Creating proxy method: System_IAsyncResult_get_AsyncState
-    // Maps to method: get_AsyncState
-    ::Il2CppObject* System_IAsyncResult_get_AsyncState();
+    // Offset: 0x1495CE4
+    ::Il2CppObject* get_AsyncState_NEW();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x14FE66C
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
-    System::Threading::WaitHandle* get_AsyncWaitHandle();
-    // Creating proxy method: System_IAsyncResult_get_AsyncWaitHandle
-    // Maps to method: get_AsyncWaitHandle
-    System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
+    // Offset: 0x1487C74
+    System::Threading::WaitHandle* get_AsyncWaitHandle_NEW();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x150D3D4
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
-    bool get_CompletedSynchronously();
-    // Creating proxy method: System_IAsyncResult_get_CompletedSynchronously
-    // Maps to method: get_CompletedSynchronously
-    bool System_IAsyncResult_get_CompletedSynchronously();
+    // Offset: 0x1495CF8
+    bool get_CompletedSynchronously_NEW();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x14FE5A8
-    // Implemented from: System.IAsyncResult
-    // Base method: System.Boolean IAsyncResult::get_IsCompleted()
-    bool get_IsCompleted();
-    // Creating proxy method: System_IAsyncResult_get_IsCompleted
-    // Maps to method: get_IsCompleted
-    bool System_IAsyncResult_get_IsCompleted();
+    // Offset: 0x1487BC8
+    bool get_IsCompleted_NEW();
+    // static private System.Void .cctor()
+    // Offset: 0x1495D0C
+    static void _cctor();
   }; // System.Net.ListenerAsyncResult
   #pragma pack(pop)
   static check_size<sizeof(ListenerAsyncResult), 81 + sizeof(bool)> __System_Net_ListenerAsyncResultSizeCheck;

@@ -52,14 +52,14 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: ContinuationWrapper
     ContinuationWrapper(System::Action* m_continuation_ = {}, System::Action* m_invokeAction_ = {}, System::Threading::Tasks::Task* m_innerTask_ = {}) noexcept : m_continuation{m_continuation_}, m_invokeAction{m_invokeAction_}, m_innerTask{m_innerTask_} {}
     // System.Void .ctor(System.Action continuation, System.Action invokeAction, System.Threading.Tasks.Task innerTask)
-    // Offset: 0x1308CB4
+    // Offset: 0x12FE1A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncMethodBuilderCore::ContinuationWrapper* New_ctor(System::Action* continuation, System::Action* invokeAction, System::Threading::Tasks::Task* innerTask) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncMethodBuilderCore::ContinuationWrapper*, creationType>(continuation, invokeAction, innerTask)));
     }
     // System.Void Invoke()
-    // Offset: 0x1308D2C
+    // Offset: 0x12FE478
     void Invoke();
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/ContinuationWrapper
   #pragma pack(pop)

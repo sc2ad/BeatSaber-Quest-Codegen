@@ -26,42 +26,42 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class CustomNetworkConfig : public ::Il2CppObject/*, public GlobalNamespace::INetworkConfig*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD1BA7C
+    // [CompilerGeneratedAttribute] Offset: 0xD058E0
     // private System.Int32 <maxPartySize>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     int maxPartySize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD1BA8C
+    // [CompilerGeneratedAttribute] Offset: 0xD058F0
     // private System.Int32 <discoveryPort>k__BackingField
     // Size: 0x4
     // Offset: 0x14
     int discoveryPort;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD1BA9C
+    // [CompilerGeneratedAttribute] Offset: 0xD05900
     // private System.Int32 <partyPort>k__BackingField
     // Size: 0x4
     // Offset: 0x18
     int partyPort;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD1BAAC
+    // [CompilerGeneratedAttribute] Offset: 0xD05910
     // private System.Int32 <multiplayerPort>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
     int multiplayerPort;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD1BABC
+    // [CompilerGeneratedAttribute] Offset: 0xD05920
     // private MasterServerEndPoint <masterServerEndPoint>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MasterServerEndPoint* masterServerEndPoint;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerEndPoint*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1BACC
+    // [CompilerGeneratedAttribute] Offset: 0xD05930
     // private System.String <masterServerStatusUrl>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -74,61 +74,49 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INetworkConfig() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkConfig*>(this);
     }
+    // public System.Int32 get_maxPartySize()
+    // Offset: 0x1210018
+    int get_maxPartySize_NEW();
     // private System.Void set_maxPartySize(System.Int32 value)
-    // Offset: 0x11D1410
+    // Offset: 0x1210020
     void set_maxPartySize(int value);
+    // public System.Int32 get_discoveryPort()
+    // Offset: 0x1210028
+    int get_discoveryPort_NEW();
     // private System.Void set_discoveryPort(System.Int32 value)
-    // Offset: 0x11D1420
+    // Offset: 0x1210030
     void set_discoveryPort(int value);
+    // public System.Int32 get_partyPort()
+    // Offset: 0x1210038
+    int get_partyPort_NEW();
     // private System.Void set_partyPort(System.Int32 value)
-    // Offset: 0x11D1430
+    // Offset: 0x1210040
     void set_partyPort(int value);
+    // public System.Int32 get_multiplayerPort()
+    // Offset: 0x1210048
+    int get_multiplayerPort_NEW();
     // private System.Void set_multiplayerPort(System.Int32 value)
-    // Offset: 0x11D1440
+    // Offset: 0x1210050
     void set_multiplayerPort(int value);
+    // public MasterServerEndPoint get_masterServerEndPoint()
+    // Offset: 0x1210058
+    GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint_NEW();
     // private System.Void set_masterServerEndPoint(MasterServerEndPoint value)
-    // Offset: 0x11D1450
+    // Offset: 0x1210060
     void set_masterServerEndPoint(GlobalNamespace::MasterServerEndPoint* value);
+    // public System.String get_masterServerStatusUrl()
+    // Offset: 0x1210068
+    ::Il2CppString* get_masterServerStatusUrl_NEW();
     // private System.Void set_masterServerStatusUrl(System.String value)
-    // Offset: 0x11D1460
+    // Offset: 0x1210070
     void set_masterServerStatusUrl(::Il2CppString* value);
     // public System.Void .ctor(INetworkConfig fromNetworkConfig, System.String customServerHostName, System.Int32 port)
-    // Offset: 0x11D1468
+    // Offset: 0x1210078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomNetworkConfig* New_ctor(GlobalNamespace::INetworkConfig* fromNetworkConfig, ::Il2CppString* customServerHostName, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomNetworkConfig::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomNetworkConfig*, creationType>(fromNetworkConfig, customServerHostName, port)));
     }
-    // public System.Int32 get_maxPartySize()
-    // Offset: 0x11D1408
-    // Implemented from: INetworkConfig
-    // Base method: System.Int32 INetworkConfig::get_maxPartySize()
-    int get_maxPartySize();
-    // public System.Int32 get_discoveryPort()
-    // Offset: 0x11D1418
-    // Implemented from: INetworkConfig
-    // Base method: System.Int32 INetworkConfig::get_discoveryPort()
-    int get_discoveryPort();
-    // public System.Int32 get_partyPort()
-    // Offset: 0x11D1428
-    // Implemented from: INetworkConfig
-    // Base method: System.Int32 INetworkConfig::get_partyPort()
-    int get_partyPort();
-    // public System.Int32 get_multiplayerPort()
-    // Offset: 0x11D1438
-    // Implemented from: INetworkConfig
-    // Base method: System.Int32 INetworkConfig::get_multiplayerPort()
-    int get_multiplayerPort();
-    // public MasterServerEndPoint get_masterServerEndPoint()
-    // Offset: 0x11D1448
-    // Implemented from: INetworkConfig
-    // Base method: MasterServerEndPoint INetworkConfig::get_masterServerEndPoint()
-    GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint();
-    // public System.String get_masterServerStatusUrl()
-    // Offset: 0x11D1458
-    // Implemented from: INetworkConfig
-    // Base method: System.String INetworkConfig::get_masterServerStatusUrl()
-    ::Il2CppString* get_masterServerStatusUrl();
   }; // CustomNetworkConfig
   #pragma pack(pop)
   static check_size<sizeof(CustomNetworkConfig), 40 + sizeof(::Il2CppString*)> __GlobalNamespace_CustomNetworkConfigSizeCheck;

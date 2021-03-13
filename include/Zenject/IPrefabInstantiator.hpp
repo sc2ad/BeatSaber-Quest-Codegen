@@ -47,19 +47,19 @@ namespace Zenject {
     IPrefabInstantiator() noexcept {}
     // public System.Type get_ArgumentTarget()
     // Offset: 0xFFFFFFFF
-    System::Type* get_ArgumentTarget();
+    System::Type* get_ArgumentTarget_NEW();
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_ExtraArguments()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>* get_ExtraArguments();
+    System::Collections::Generic::List_1<Zenject::TypeValuePair>* get_ExtraArguments_NEW();
     // public Zenject.GameObjectCreationParameters get_GameObjectCreationParameters()
     // Offset: 0xFFFFFFFF
-    Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
+    Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters_NEW();
     // public UnityEngine.GameObject Instantiate(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction)
     // Offset: 0xFFFFFFFF
-    UnityEngine::GameObject* Instantiate(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction);
+    UnityEngine::GameObject* Instantiate_NEW(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction);
     // public UnityEngine.Object GetPrefab()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Object* GetPrefab();
+    UnityEngine::Object* GetPrefab_NEW();
   }; // Zenject.IPrefabInstantiator
   #pragma pack(pop)
 }

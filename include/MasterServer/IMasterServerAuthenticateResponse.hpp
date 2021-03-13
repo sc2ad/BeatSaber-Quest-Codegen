@@ -22,7 +22,7 @@ namespace MasterServer {
     }
     // public System.Boolean get_isAuthenticated()
     // Offset: 0xFFFFFFFF
-    bool get_isAuthenticated();
+    bool get_isAuthenticated_NEW();
   }; // MasterServer.IMasterServerAuthenticateResponse
   #pragma pack(pop)
 }

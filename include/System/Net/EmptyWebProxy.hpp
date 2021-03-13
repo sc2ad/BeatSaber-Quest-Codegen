@@ -47,8 +47,17 @@ namespace System::Net {
     constexpr operator System::Net::ICredentials*() const noexcept {
       return m_credentials;
     }
+    // public System.Uri GetProxy(System.Uri uri)
+    // Offset: 0x14CF2BC
+    System::Uri* GetProxy_NEW(System::Uri* uri);
+    // public System.Boolean IsBypassed(System.Uri uri)
+    // Offset: 0x14CF2C4
+    bool IsBypassed_NEW(System::Uri* uri);
+    // public System.Net.ICredentials get_Credentials()
+    // Offset: 0x14CF2CC
+    System::Net::ICredentials* get_Credentials_NEW();
     // public System.Void .ctor()
-    // Offset: 0x1566E14
+    // Offset: 0x14CF2B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,21 +65,6 @@ namespace System::Net {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::EmptyWebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyWebProxy*, creationType>()));
     }
-    // public System.Uri GetProxy(System.Uri uri)
-    // Offset: 0x1566E1C
-    // Implemented from: System.Net.IWebProxy
-    // Base method: System.Uri IWebProxy::GetProxy(System.Uri uri)
-    System::Uri* GetProxy(System::Uri* uri);
-    // public System.Boolean IsBypassed(System.Uri uri)
-    // Offset: 0x1566E24
-    // Implemented from: System.Net.IWebProxy
-    // Base method: System.Boolean IWebProxy::IsBypassed(System.Uri uri)
-    bool IsBypassed(System::Uri* uri);
-    // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x1566E2C
-    // Implemented from: System.Net.IWebProxy
-    // Base method: System.Net.ICredentials IWebProxy::get_Credentials()
-    System::Net::ICredentials* get_Credentials();
   }; // System.Net.EmptyWebProxy
   #pragma pack(pop)
   static check_size<sizeof(EmptyWebProxy), 16 + sizeof(System::Net::ICredentials*)> __System_Net_EmptyWebProxySizeCheck;

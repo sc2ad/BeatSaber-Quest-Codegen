@@ -14,14 +14,11 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-}
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
+  // Forward declaring type: LazyCopyHashSet`1<T>
+  template<typename T>
+  class LazyCopyHashSet_1;
   // Forward declaring type: ISaberMovementDataProcessor
   class ISaberMovementDataProcessor;
 }
@@ -44,12 +41,12 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::BladeMovementDataElement>* data;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::BladeMovementDataElement>*) == 0x8);
-    // private readonly System.Collections.Generic.List`1<ISaberMovementDataProcessor> _dataProcessors
+    // private readonly LazyCopyHashSet`1<ISaberMovementDataProcessor> _dataProcessors
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<GlobalNamespace::ISaberMovementDataProcessor*>* dataProcessors;
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberMovementDataProcessor*>* dataProcessors;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::ISaberMovementDataProcessor*>*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberMovementDataProcessor*>*) == 0x8);
     // private System.Int32 _nextAddIndex
     // Size: 0x4
     // Offset: 0x20
@@ -69,7 +66,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: SaberMovementData
-    SaberMovementData(::Array<GlobalNamespace::BladeMovementDataElement>* data_ = {}, System::Collections::Generic::List_1<GlobalNamespace::ISaberMovementDataProcessor*>* dataProcessors_ = {}, int nextAddIndex_ = {}, int validCount_ = {}, float bladeSpeed_ = {}) noexcept : data{data_}, dataProcessors{dataProcessors_}, nextAddIndex{nextAddIndex_}, validCount{validCount_}, bladeSpeed{bladeSpeed_} {}
+    SaberMovementData(::Array<GlobalNamespace::BladeMovementDataElement>* data_ = {}, GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberMovementDataProcessor*>* dataProcessors_ = {}, int nextAddIndex_ = {}, int validCount_ = {}, float bladeSpeed_ = {}) noexcept : data{data_}, dataProcessors{dataProcessors_}, nextAddIndex{nextAddIndex_}, validCount{validCount_}, bladeSpeed{bladeSpeed_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IBladeMovementData
     operator GlobalNamespace::IBladeMovementData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBladeMovementData*>(this);
@@ -92,53 +89,44 @@ namespace GlobalNamespace {
     static float _get_kSmoothDownBladeSpeedCoef();
     // Set static field: static private System.Single kSmoothDownBladeSpeedCoef
     static void _set_kSmoothDownBladeSpeedCoef(float value);
-    // public System.Void AddDataProcessor(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0x1087BE8
-    void AddDataProcessor(GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
-    // public System.Void RemoveDataProcessor(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0x1087C80
-    void RemoveDataProcessor(GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
+    // public LazyCopyHashSet`1<ISaberMovementDataProcessor> get_dataProcessors()
+    // Offset: 0xFADFF0
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberMovementDataProcessor*>* get_dataProcessors();
+    // public System.Single get_bladeSpeed()
+    // Offset: 0xFADFF8
+    float get_bladeSpeed_NEW();
+    // public BladeMovementDataElement get_lastAddedData()
+    // Offset: 0xFACFA0
+    GlobalNamespace::BladeMovementDataElement get_lastAddedData_NEW();
+    // public BladeMovementDataElement get_prevAddedData()
+    // Offset: 0xFAE000
+    GlobalNamespace::BladeMovementDataElement get_prevAddedData_NEW();
     // public System.Void RequestLastDataProcessing(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0x1087CE8
+    // Offset: 0xFAE068
     void RequestLastDataProcessing(GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
     // public System.Void AddNewData(UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, System.Single time)
-    // Offset: 0x1082540
+    // Offset: 0xFA9330
     void AddNewData(UnityEngine::Vector3 topPos, UnityEngine::Vector3 bottomPos, float time);
     // private System.Void ComputeAdditionalData(UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, System.Int32 idxOffset, out UnityEngine.Vector3 segmentNormal, out System.Single segmentAngle)
-    // Offset: 0x1087E8C
+    // Offset: 0xFAE20C
     void ComputeAdditionalData(UnityEngine::Vector3 topPos, UnityEngine::Vector3 bottomPos, int idxOffset, UnityEngine::Vector3& segmentNormal, float& segmentAngle);
     // private UnityEngine.Vector3 ComputePlaneNormal(UnityEngine.Vector3 tp0, UnityEngine.Vector3 bp0, UnityEngine.Vector3 tp1, UnityEngine.Vector3 bp1)
-    // Offset: 0x1088074
+    // Offset: 0xFAE3F4
     UnityEngine::Vector3 ComputePlaneNormal(UnityEngine::Vector3 tp0, UnityEngine::Vector3 bp0, UnityEngine::Vector3 tp1, UnityEngine::Vector3 bp1);
     // public UnityEngine.Vector3 ComputeCutPlaneNormal()
-    // Offset: 0x10881D8
+    // Offset: 0xFAE558
     UnityEngine::Vector3 ComputeCutPlaneNormal();
     // public System.Single ComputeSwingRating(System.Single overrideSegmentAngle)
-    // Offset: 0x1088284
+    // Offset: 0xFAE604
     float ComputeSwingRating(float overrideSegmentAngle);
     // public System.Single ComputeSwingRating()
-    // Offset: 0x10884B4
+    // Offset: 0xFAE824
     float ComputeSwingRating();
     // private System.Single ComputeSwingRating(System.Boolean overrideSegmenAngle, System.Single overrideValue)
-    // Offset: 0x108828C
+    // Offset: 0xFAE60C
     float ComputeSwingRating(bool overrideSegmenAngle, float overrideValue);
-    // public System.Single get_bladeSpeed()
-    // Offset: 0x1087B78
-    // Implemented from: IBladeMovementData
-    // Base method: System.Single IBladeMovementData::get_bladeSpeed()
-    float get_bladeSpeed();
-    // public BladeMovementDataElement get_lastAddedData()
-    // Offset: 0x1086A54
-    // Implemented from: IBladeMovementData
-    // Base method: BladeMovementDataElement IBladeMovementData::get_lastAddedData()
-    GlobalNamespace::BladeMovementDataElement get_lastAddedData();
-    // public BladeMovementDataElement get_prevAddedData()
-    // Offset: 0x1087B80
-    // Implemented from: IBladeMovementData
-    // Base method: BladeMovementDataElement IBladeMovementData::get_prevAddedData()
-    GlobalNamespace::BladeMovementDataElement get_prevAddedData();
     // public System.Void .ctor()
-    // Offset: 0x1083130
+    // Offset: 0xFA9908
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

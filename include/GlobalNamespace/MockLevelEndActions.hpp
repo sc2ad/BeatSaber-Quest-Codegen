@@ -26,14 +26,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MockLevelEndActions : public ::Il2CppObject/*, public GlobalNamespace::ILevelEndActions*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD39DBC
+    // [CompilerGeneratedAttribute] Offset: 0xD254B4
     // private System.Action levelFailedEvent
     // Size: 0x8
     // Offset: 0x10
     System::Action* levelFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD39DCC
+    // [CompilerGeneratedAttribute] Offset: 0xD254C4
     // private System.Action levelFinishedEvent
     // Size: 0x8
     // Offset: 0x18
@@ -47,27 +47,19 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ILevelEndActions*>(this);
     }
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x109F93C
-    // Implemented from: ILevelEndActions
-    // Base method: System.Void ILevelEndActions::add_levelFailedEvent(System.Action value)
-    void add_levelFailedEvent(System::Action* value);
+    // Offset: 0x102E048
+    void add_levelFailedEvent_NEW(System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x109F9E0
-    // Implemented from: ILevelEndActions
-    // Base method: System.Void ILevelEndActions::remove_levelFailedEvent(System.Action value)
-    void remove_levelFailedEvent(System::Action* value);
+    // Offset: 0x102E0EC
+    void remove_levelFailedEvent_NEW(System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x109FA84
-    // Implemented from: ILevelEndActions
-    // Base method: System.Void ILevelEndActions::add_levelFinishedEvent(System.Action value)
-    void add_levelFinishedEvent(System::Action* value);
+    // Offset: 0x102E190
+    void add_levelFinishedEvent_NEW(System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x109FB28
-    // Implemented from: ILevelEndActions
-    // Base method: System.Void ILevelEndActions::remove_levelFinishedEvent(System.Action value)
-    void remove_levelFinishedEvent(System::Action* value);
+    // Offset: 0x102E234
+    void remove_levelFinishedEvent_NEW(System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x109FBCC
+    // Offset: 0x102E2D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

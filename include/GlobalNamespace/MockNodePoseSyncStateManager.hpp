@@ -36,14 +36,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MockNodePoseSyncStateManager : public ::Il2CppObject/*, public GlobalNamespace::INodePoseSyncStateManager*/ {
     public:
-    // [InjectAttribute] Offset: 0xD3BAC4
+    // [InjectAttribute] Offset: 0xD273BC
     // private MultiplayerMockSettings _mockSettings
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::MultiplayerMockSettings* mockSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerMockSettings*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3BAD4
+    // [InjectAttribute] Offset: 0xD273CC
     // private IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
@@ -62,41 +62,35 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INodePoseSyncStateManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::INodePoseSyncStateManager*>(this);
     }
+    // public System.Single get_syncTime()
+    // Offset: 0x1033280
+    float get_syncTime_NEW();
+    // public System.Int32 get_connectedPlayerCount()
+    // Offset: 0x1033334
+    int get_connectedPlayerCount_NEW();
     // public LocalMultiplayerSyncState`3<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> get_localState()
-    // Offset: 0x10A3DD8
-    GlobalNamespace::LocalMultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* get_localState();
+    // Offset: 0x103333C
+    GlobalNamespace::LocalMultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* get_localState_NEW();
     // private System.Void Init()
-    // Offset: 0x10A3DE0
+    // Offset: 0x1033344
     void Init();
     // public MultiplayerSyncState`3<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> GetSyncStateForPlayer(IConnectedPlayer player)
-    // Offset: 0x10A3EF4
-    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* GetSyncStateForPlayer(GlobalNamespace::IConnectedPlayer* player);
+    // Offset: 0x1033454
+    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* GetSyncStateForPlayer_NEW(GlobalNamespace::IConnectedPlayer* player);
     // public MultiplayerSyncState`3<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> GetSyncState(System.Int32 i)
-    // Offset: 0x10A3EFC
-    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* GetSyncState(int i);
+    // Offset: 0x103345C
+    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* GetSyncState_NEW(int i);
+    // public System.Void ClearBufferedStates()
+    // Offset: 0x1033464
+    void ClearBufferedStates_NEW();
     // private PoseSerializable Interpolate(PoseSerializable prev, System.Single prevTime, PoseSerializable curr, System.Single currTime, System.Single time)
-    // Offset: 0x10A3F5C
+    // Offset: 0x10334BC
     GlobalNamespace::PoseSerializable Interpolate(GlobalNamespace::PoseSerializable prev, float prevTime, GlobalNamespace::PoseSerializable curr, float currTime, float time);
     // private PoseSerializable Smooth(PoseSerializable a, PoseSerializable b, System.Single smooth)
-    // Offset: 0x10A3FA4
+    // Offset: 0x1033504
     GlobalNamespace::PoseSerializable Smooth(GlobalNamespace::PoseSerializable a, GlobalNamespace::PoseSerializable b, float smooth);
-    // public System.Single get_syncTime()
-    // Offset: 0x10A3D1C
-    // Implemented from: INodePoseSyncStateManager`4
-    // Base method: System.Single INodePoseSyncStateManager_4::get_syncTime()
-    float get_syncTime();
-    // public System.Int32 get_connectedPlayerCount()
-    // Offset: 0x10A3DD0
-    // Implemented from: INodePoseSyncStateManager`4
-    // Base method: System.Int32 INodePoseSyncStateManager_4::get_connectedPlayerCount()
-    int get_connectedPlayerCount();
-    // public System.Void ClearBufferedStates()
-    // Offset: 0x10A3F04
-    // Implemented from: INodePoseSyncStateManager`4
-    // Base method: System.Void INodePoseSyncStateManager_4::ClearBufferedStates()
-    void ClearBufferedStates();
     // public System.Void .ctor()
-    // Offset: 0x10A3FEC
+    // Offset: 0x103354C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

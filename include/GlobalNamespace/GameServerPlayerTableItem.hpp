@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameServerPlayerTableItem
     GameServerPlayerTableItem(::Il2CppString* playerName_ = {}, ::Il2CppString* suggestedLevel_ = {}, ::Il2CppString* suggestedModifiers_ = {}, bool isReady_ = {}) noexcept : playerName{playerName_}, suggestedLevel{suggestedLevel_}, suggestedModifiers{suggestedModifiers_}, isReady{isReady_} {}
     // public System.Void .ctor(System.String playerName, System.String suggestedLevel, System.String suggestedModifiers, System.Boolean isReady)
-    // Offset: 0xF38318
+    // Offset: 0xF397D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerPlayerTableItem* New_ctor(::Il2CppString* playerName, ::Il2CppString* suggestedLevel, ::Il2CppString* suggestedModifiers, bool isReady) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameServerPlayerTableItem::.ctor");

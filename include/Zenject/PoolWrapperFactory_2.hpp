@@ -57,17 +57,10 @@ namespace Zenject {
     }
     // public TValue Create(TParam1 arg)
     // Offset: 0xFFFFFFFF
-    // Implemented from: Zenject.IFactory`2
-    // Base method: TValue IFactory_2::Create(TParam1 arg)
-    TValue Create(TParam1 arg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolWrapperFactory_2::Create");
+    TValue Create_NEW(TParam1 arg) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolWrapperFactory_2::Create_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(arg)));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, arg);
-    }
-    // Creating proxy method: Zenject_IFactory_2_Create
-    // Maps to method: Create
-    TValue Zenject_IFactory_2_Create(TParam1 arg) {
-      return Create(arg);
     }
   }; // Zenject.PoolWrapperFactory`2
   // Could not write size check! Type: Zenject.PoolWrapperFactory`2 is generic, or has no fields that are valid for size checks!

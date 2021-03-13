@@ -81,30 +81,26 @@ namespace System::Runtime::CompilerServices {
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "get_IsCompleted", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
       }
+      // public System.Void OnCompleted(System.Action continuation)
+      // Offset: 0xFFFFFFFF
+      void OnCompleted_NEW(System::Action* continuation) {
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::OnCompleted_NEW");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "OnCompleted", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(continuation)));
+        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, continuation);
+      }
+      // public System.Void UnsafeOnCompleted(System.Action continuation)
+      // Offset: 0xFFFFFFFF
+      void UnsafeOnCompleted_NEW(System::Action* continuation) {
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::UnsafeOnCompleted_NEW");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "UnsafeOnCompleted", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(continuation)));
+        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, continuation);
+      }
       // public TResult GetResult()
       // Offset: 0xFFFFFFFF
       TResult GetResult() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::GetResult");
         static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "GetResult", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
         return ::il2cpp_utils::RunMethodThrow<TResult, false>(*this, ___internal__method);
-      }
-      // public System.Void OnCompleted(System.Action continuation)
-      // Offset: 0xFFFFFFFF
-      // Implemented from: System.Runtime.CompilerServices.INotifyCompletion
-      // Base method: System.Void INotifyCompletion::OnCompleted(System.Action continuation)
-      void OnCompleted(System::Action* continuation) {
-        static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::OnCompleted");
-        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "OnCompleted", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(continuation)));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, continuation);
-      }
-      // public System.Void UnsafeOnCompleted(System.Action continuation)
-      // Offset: 0xFFFFFFFF
-      // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion
-      // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
-      void UnsafeOnCompleted(System::Action* continuation) {
-        static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::UnsafeOnCompleted");
-        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "UnsafeOnCompleted", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(continuation)));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, continuation);
       }
     }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter
     // Could not write size check! Type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter is generic, or has no fields that are valid for size checks!

@@ -29,10 +29,10 @@ namespace System::Net {
     // Creating value type constructor for type: AutoWebProxyScriptEngine
     AutoWebProxyScriptEngine() noexcept {}
     // public System.Boolean GetProxies(System.Uri destination, out System.Collections.Generic.IList`1<System.String> proxyList)
-    // Offset: 0x1559A04
+    // Offset: 0x14C28F0
     bool GetProxies(System::Uri* destination, System::Collections::Generic::IList_1<::Il2CppString*>*& proxyList);
     // public System.Boolean GetProxies(System.Uri destination, out System.Collections.Generic.IList`1<System.String> proxyList, ref System.Int32 syncStatus)
-    // Offset: 0x1559A28
+    // Offset: 0x14C28FC
     bool GetProxies(System::Uri* destination, System::Collections::Generic::IList_1<::Il2CppString*>*& proxyList, int& syncStatus);
   }; // System.Net.AutoWebProxyScriptEngine
   #pragma pack(pop)

@@ -16,10 +16,10 @@ namespace Zenject {
     IInstaller() noexcept {}
     // public System.Void InstallBindings()
     // Offset: 0xFFFFFFFF
-    void InstallBindings();
+    void InstallBindings_NEW();
     // public System.Boolean get_IsEnabled()
     // Offset: 0xFFFFFFFF
-    bool Zenject_IInstaller_get_IsEnabled();
+    bool get_IsEnabled_NEW();
   }; // Zenject.IInstaller
   #pragma pack(pop)
 }

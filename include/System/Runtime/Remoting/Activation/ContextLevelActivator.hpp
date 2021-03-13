@@ -45,22 +45,18 @@ namespace System::Runtime::Remoting::Activation {
       return m_NextActivator;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Activation.IActivator next)
-    // Offset: 0x130E20C
+    // Offset: 0x13034E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextLevelActivator* New_ctor(System::Runtime::Remoting::Activation::IActivator* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Activation::ContextLevelActivator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextLevelActivator*, creationType>(next)));
     }
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
-    // Offset: 0x130EFA0
-    // Implemented from: System.Runtime.Remoting.Activation.IActivator
-    // Base method: System.Runtime.Remoting.Activation.IActivator IActivator::get_NextActivator()
-    System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
+    // Offset: 0x1304234
+    System::Runtime::Remoting::Activation::IActivator* get_NextActivator_NEW();
     // public System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
-    // Offset: 0x130EFA8
-    // Implemented from: System.Runtime.Remoting.Activation.IActivator
-    // Base method: System.Runtime.Remoting.Activation.IConstructionReturnMessage IActivator::Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
-    System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
+    // Offset: 0x130423C
+    System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate_NEW(System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
   }; // System.Runtime.Remoting.Activation.ContextLevelActivator
   #pragma pack(pop)
   static check_size<sizeof(ContextLevelActivator), 16 + sizeof(System::Runtime::Remoting::Activation::IActivator*)> __System_Runtime_Remoting_Activation_ContextLevelActivatorSizeCheck;

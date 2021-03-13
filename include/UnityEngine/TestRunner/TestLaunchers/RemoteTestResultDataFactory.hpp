@@ -14,19 +14,19 @@
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestRunner::TestLaunchers
 namespace UnityEngine::TestRunner::TestLaunchers {
+  // Forward declaring type: RemoteTestResultDataWithTestData
+  class RemoteTestResultDataWithTestData;
   // Forward declaring type: RemoteTestData
   class RemoteTestData;
   // Forward declaring type: RemoteTestResultData
   class RemoteTestResultData;
-  // Forward declaring type: RemoteTestResultDataWithTestData
-  class RemoteTestResultDataWithTestData;
 }
 // Forward declaring namespace: NUnit::Framework::Interfaces
 namespace NUnit::Framework::Interfaces {
-  // Forward declaring type: ITest
-  class ITest;
   // Forward declaring type: ITestResult
   class ITestResult;
+  // Forward declaring type: ITest
+  class ITest;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.TestRunner.TestLaunchers
@@ -43,24 +43,20 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     operator UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory() noexcept {
       return *reinterpret_cast<UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*>(this);
     }
+    // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTestResult(NUnit.Framework.Interfaces.ITestResult result)
+    // Offset: 0x134B8E4
+    UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTestResult_NEW(NUnit::Framework::Interfaces::ITestResult* result);
+    // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTest(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0x134BD74
+    UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTest_NEW(NUnit::Framework::Interfaces::ITest* test);
     // private UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] CreateTestDataList(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1333B60
+    // Offset: 0x134BA40
     ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>* CreateTestDataList(NUnit::Framework::Interfaces::ITest* test);
     // static private UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] CreateTestResultDataList(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x1333D00
+    // Offset: 0x134BBE0
     static ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>* CreateTestResultDataList(NUnit::Framework::Interfaces::ITestResult* result);
-    // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTestResult(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x13339E8
-    // Implemented from: UnityEngine.TestRunner.TestLaunchers.IRemoteTestResultDataFactory
-    // Base method: UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData IRemoteTestResultDataFactory::CreateFromTestResult(NUnit.Framework.Interfaces.ITestResult result)
-    UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTestResult(NUnit::Framework::Interfaces::ITestResult* result);
-    // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1333E94
-    // Implemented from: UnityEngine.TestRunner.TestLaunchers.IRemoteTestResultDataFactory
-    // Base method: UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData IRemoteTestResultDataFactory::CreateFromTest(NUnit.Framework.Interfaces.ITest test)
-    UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTest(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void .ctor()
-    // Offset: 0x1333FB8
+    // Offset: 0x134BE8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

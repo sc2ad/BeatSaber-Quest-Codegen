@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::RemoteProcedureCall::TypeWrapper_1<T>
     template<typename T>
     struct TypeWrapper_1;
-    // [CompilerGeneratedAttribute] Offset: 0xD1C01C
+    // [CompilerGeneratedAttribute] Offset: 0xD05E90
     // private System.Single <syncTime>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -51,40 +51,32 @@ namespace GlobalNamespace {
     constexpr operator float() const noexcept {
       return syncTime;
     }
+    // public System.Single get_syncTime()
+    // Offset: 0x15C6588
+    float get_syncTime_NEW();
     // public System.Void set_syncTime(System.Single value)
-    // Offset: 0x1C1DCA0
+    // Offset: 0x15C6590
     void set_syncTime(float value);
     // protected System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1C1DCA8
+    // Offset: 0x15C6598
     void SerializeData(LiteNetLib::Utils::NetDataWriter* writer);
     // protected System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1C1DCAC
+    // Offset: 0x15C659C
     void DeserializeData(LiteNetLib::Utils::NetDataReader* reader);
-    // public IRemoteProcedureCall Init(System.Single syncTime)
-    // Offset: 0x1C1DE60
-    GlobalNamespace::IRemoteProcedureCall* Init(float syncTime);
-    // public System.Single get_syncTime()
-    // Offset: 0x1C1DC98
-    // Implemented from: IRemoteProcedureCall
-    // Base method: System.Single IRemoteProcedureCall::get_syncTime()
-    float get_syncTime();
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1C1DCB0
-    // Implemented from: LiteNetLib.Utils.INetSerializable
-    // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // Offset: 0x15C65A0
+    void LiteNetLib_Utils_INetSerializable_Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer);
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1C1DCF8
-    // Implemented from: LiteNetLib.Utils.INetSerializable
-    // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    // Offset: 0x15C65E8
+    void LiteNetLib_Utils_INetSerializable_Deserialize_NEW(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1C1DD40
-    // Implemented from: IPoolablePacket
-    // Base method: System.Void IPoolablePacket::Release()
-    void Release();
+    // Offset: 0x15C6630
+    void Release_NEW();
+    // public IRemoteProcedureCall Init(System.Single syncTime)
+    // Offset: 0x15C6750
+    GlobalNamespace::IRemoteProcedureCall* Init(float syncTime);
     // protected System.Void .ctor()
-    // Offset: 0x1C12144
+    // Offset: 0x15BA6BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

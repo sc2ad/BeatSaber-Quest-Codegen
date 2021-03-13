@@ -182,71 +182,69 @@ namespace System::Net {
     // Set static field: static private System.String tspecials
     static void _set_tspecials(::Il2CppString* value);
     // System.Void .ctor(System.Net.HttpListenerContext context)
-    // Offset: 0x14FEE8C
+    // Offset: 0x148842C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerResponse* New_ctor(System::Net::HttpListenerContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerResponse*, creationType>(context)));
     }
     // System.Boolean get_ForceCloseChunked()
-    // Offset: 0x150228C
+    // Offset: 0x148B5BC
     bool get_ForceCloseChunked();
     // public System.Text.Encoding get_ContentEncoding()
-    // Offset: 0x14FBBC4
+    // Offset: 0x1485400
     System::Text::Encoding* get_ContentEncoding();
     // public System.Void set_ContentLength64(System.Int64 value)
-    // Offset: 0x1502294
+    // Offset: 0x148B5C4
     void set_ContentLength64(int64_t value);
     // public System.Void set_ContentType(System.String value)
-    // Offset: 0x14FB79C
+    // Offset: 0x1484FE0
     void set_ContentType(::Il2CppString* value);
     // public System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x15023D4
+    // Offset: 0x148B704
     System::Net::WebHeaderCollection* get_Headers();
     // public System.IO.Stream get_OutputStream()
-    // Offset: 0x15023DC
+    // Offset: 0x148B70C
     System::IO::Stream* get_OutputStream();
     // public System.Boolean get_SendChunked()
-    // Offset: 0x1502430
+    // Offset: 0x148B74C
     bool get_SendChunked();
     // public System.Void set_SendChunked(System.Boolean value)
-    // Offset: 0x14F91C0
+    // Offset: 0x1482B14
     void set_SendChunked(bool value);
     // public System.Void set_StatusCode(System.Int32 value)
-    // Offset: 0x14FB654
+    // Offset: 0x1484EA0
     void set_StatusCode(int value);
+    // private System.Void System.IDisposable.Dispose()
+    // Offset: 0x148B754
+    void System_IDisposable_Dispose_NEW();
     // private System.Void Close(System.Boolean force)
-    // Offset: 0x1502440
+    // Offset: 0x148B75C
     void Close(bool force);
     // public System.Void Close()
-    // Offset: 0x1502470
+    // Offset: 0x148B78C
     void Close();
     // public System.Void Close(System.Byte[] responseEntity, System.Boolean willBlock)
-    // Offset: 0x14FBC00
+    // Offset: 0x148542C
     void Close(::Array<uint8_t>* responseEntity, bool willBlock);
     // System.Void SendHeaders(System.Boolean closing, System.IO.MemoryStream ms)
-    // Offset: 0x1502484
+    // Offset: 0x148B7A0
     void SendHeaders(bool closing, System::IO::MemoryStream* ms);
     // static private System.String FormatHeaders(System.Net.WebHeaderCollection headers)
-    // Offset: 0x1502FA4
+    // Offset: 0x148C2A0
     static ::Il2CppString* FormatHeaders(System::Net::WebHeaderCollection* headers);
     // static private System.String CookieToClientString(System.Net.Cookie cookie)
-    // Offset: 0x1502D44
+    // Offset: 0x148C040
     static ::Il2CppString* CookieToClientString(System::Net::Cookie* cookie);
     // static private System.String QuotedString(System.Net.Cookie cookie, System.String value)
-    // Offset: 0x15031F4
+    // Offset: 0x148C4F0
     static ::Il2CppString* QuotedString(System::Net::Cookie* cookie, ::Il2CppString* value);
     // static private System.Boolean IsToken(System.String value)
-    // Offset: 0x15032C8
+    // Offset: 0x148C5C4
     static bool IsToken(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x15033B0
+    // Offset: 0x148C6AC
     static void _cctor();
-    // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1502438
-    // Implemented from: System.IDisposable
-    // Base method: System.Void IDisposable::Dispose()
-    void System_IDisposable_Dispose();
   }; // System.Net.HttpListenerResponse
   #pragma pack(pop)
   static check_size<sizeof(HttpListenerResponse), 152 + sizeof(bool)> __System_Net_HttpListenerResponseSizeCheck;

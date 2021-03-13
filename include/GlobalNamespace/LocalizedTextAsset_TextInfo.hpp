@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TextInfo
     TextInfo(Polyglot::Language language_ = {}, UnityEngine::TextAsset* localizedText_ = {}) noexcept : language{language_}, localizedText{localizedText_} {}
     // public System.Void .ctor()
-    // Offset: 0x105C094
+    // Offset: 0x10B30F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

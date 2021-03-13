@@ -25,19 +25,19 @@ namespace HMUI {
     IDataSource() noexcept {}
     // public System.Single RowHeight()
     // Offset: 0xFFFFFFFF
-    float RowHeight();
+    float RowHeight_NEW();
     // public System.Int32 NumberOfSections()
     // Offset: 0xFFFFFFFF
-    int NumberOfSections();
+    int NumberOfSections_NEW();
     // public System.Int32 NumberOfRowsInSection(System.Int32 section)
     // Offset: 0xFFFFFFFF
-    int NumberOfRowsInSection(int section);
+    int NumberOfRowsInSection_NEW(int section);
     // public HMUI.TableCell CellForSectionHeader(System.Int32 section, System.Boolean unfolded)
     // Offset: 0xFFFFFFFF
-    HMUI::TableCell* CellForSectionHeader(int section, bool unfolded);
+    HMUI::TableCell* CellForSectionHeader_NEW(int section, bool unfolded);
     // public HMUI.TableCell CellForRowInSection(System.Int32 section, System.Int32 row)
     // Offset: 0xFFFFFFFF
-    HMUI::TableCell* CellForRowInSection(int section, int row);
+    HMUI::TableCell* CellForRowInSection_NEW(int section, int row);
   }; // HMUI.SectionTableView/IDataSource
   #pragma pack(pop)
 }

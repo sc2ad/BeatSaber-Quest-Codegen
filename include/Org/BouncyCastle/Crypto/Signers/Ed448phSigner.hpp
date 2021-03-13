@@ -74,32 +74,24 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
     }
     // public System.Void .ctor(System.Byte[] context)
-    // Offset: 0x1189C24
+    // Offset: 0x1169420
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed448phSigner* New_ctor(::Array<uint8_t>* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::Ed448phSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed448phSigner*, creationType>(context)));
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1189CEC
-    // Implemented from: Org.BouncyCastle.Crypto.ISigner
-    // Base method: System.Void ISigner::Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // Offset: 0x11694D4
+    void Init_NEW(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0x1189E80
-    // Implemented from: Org.BouncyCastle.Crypto.ISigner
-    // Base method: System.Void ISigner::BlockUpdate(System.Byte[] buf, System.Int32 off, System.Int32 len)
-    void BlockUpdate(::Array<uint8_t>* buf, int off, int len);
+    // Offset: 0x1169638
+    void BlockUpdate_NEW(::Array<uint8_t>* buf, int off, int len);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x1189F5C
-    // Implemented from: Org.BouncyCastle.Crypto.ISigner
-    // Base method: System.Byte[] ISigner::GenerateSignature()
-    ::Array<uint8_t>* GenerateSignature();
+    // Offset: 0x1169714
+    ::Array<uint8_t>* GenerateSignature_NEW();
     // public System.Void Reset()
-    // Offset: 0x1189DCC
-    // Implemented from: Org.BouncyCastle.Crypto.ISigner
-    // Base method: System.Void ISigner::Reset()
-    void Reset();
+    // Offset: 0x1169584
+    void Reset_NEW();
   }; // Org.BouncyCastle.Crypto.Signers.Ed448phSigner
   #pragma pack(pop)
   static check_size<sizeof(Ed448phSigner), 48 + sizeof(Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters*)> __Org_BouncyCastle_Crypto_Signers_Ed448phSignerSizeCheck;

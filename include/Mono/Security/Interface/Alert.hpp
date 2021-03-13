@@ -36,25 +36,25 @@ namespace Mono::Security::Interface {
     // Creating value type constructor for type: Alert
     Alert(Mono::Security::Interface::AlertLevel level_ = {}, Mono::Security::Interface::AlertDescription description_ = {}) noexcept : level{level_}, description{description_} {}
     // public Mono.Security.Interface.AlertLevel get_Level()
-    // Offset: 0x1BEFEF0
+    // Offset: 0x1B90CE4
     Mono::Security::Interface::AlertLevel get_Level();
     // public Mono.Security.Interface.AlertDescription get_Description()
-    // Offset: 0x1BEFEF8
+    // Offset: 0x1B90CEC
     Mono::Security::Interface::AlertDescription get_Description();
     // public System.Void .ctor(Mono.Security.Interface.AlertDescription description)
-    // Offset: 0x1BEFF00
+    // Offset: 0x1B90CF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Alert* New_ctor(Mono::Security::Interface::AlertDescription description) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::Alert::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Alert*, creationType>(description)));
     }
     // private System.Void inferAlertLevel()
-    // Offset: 0x1BEFF78
+    // Offset: 0x1B90D6C
     void inferAlertLevel();
     // public override System.String ToString()
-    // Offset: 0x1BEFFB8
+    // Offset: 0x1B90DAC
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
   }; // Mono.Security.Interface.Alert
   #pragma pack(pop)

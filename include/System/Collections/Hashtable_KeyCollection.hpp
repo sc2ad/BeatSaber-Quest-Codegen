@@ -50,36 +50,21 @@ namespace System::Collections {
       return hashtable;
     }
     // System.Void .ctor(System.Collections.Hashtable hashtable)
-    // Offset: 0x1897680
+    // Offset: 0x181236C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::KeyCollection* New_ctor(System::Collections::Hashtable* hashtable) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::KeyCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::KeyCollection*, creationType>(hashtable)));
     }
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x18976B4
-    // Implemented from: System.Collections.ICollection
-    // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 arrayIndex)
-    void CopyTo(System::Array* array, int arrayIndex);
-    // Creating proxy method: System_Collections_ICollection_CopyTo
-    // Maps to method: CopyTo
-    void System_Collections_ICollection_CopyTo(System::Array* array, int arrayIndex);
+    // Offset: 0x1812398
+    void CopyTo_NEW(System::Array* array, int arrayIndex);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x189783C
-    // Implemented from: System.Collections.IEnumerable
-    // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
-    System::Collections::IEnumerator* GetEnumerator();
-    // Creating proxy method: System_Collections_IEnumerable_GetEnumerator
-    // Maps to method: GetEnumerator
-    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+    // Offset: 0x1812520
+    System::Collections::IEnumerator* GetEnumerator_NEW();
     // public System.Int32 get_Count()
-    // Offset: 0x18978A4
-    // Implemented from: System.Collections.ICollection
-    // Base method: System.Int32 ICollection::get_Count()
-    int get_Count();
-    // Creating proxy method: System_Collections_ICollection_get_Count
-    // Maps to method: get_Count
-    int System_Collections_ICollection_get_Count();
+    // Offset: 0x1812588
+    int get_Count_NEW();
   }; // System.Collections.Hashtable/KeyCollection
   #pragma pack(pop)
   static check_size<sizeof(Hashtable::KeyCollection), 16 + sizeof(System::Collections::Hashtable*)> __System_Collections_Hashtable_KeyCollectionSizeCheck;

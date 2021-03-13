@@ -59,14 +59,14 @@ namespace GlobalNamespace {
     HMUI::ImageView* valueImage;
     // Field size check
     static_assert(sizeof(HMUI::ImageView*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3EC7C
+    // [CompilerGeneratedAttribute] Offset: 0xD2AE30
     // private System.Action decButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action* decButtonWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3EC8C
+    // [CompilerGeneratedAttribute] Offset: 0xD2AE40
     // private System.Action incButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x38
@@ -78,43 +78,43 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1041A3C
+    // Offset: 0xFD5090
     void add_decButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1041AE0
+    // Offset: 0xFD5134
     void remove_decButtonWasPressedEvent(System::Action* value);
     // public System.Void add_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1041B84
+    // Offset: 0xFD51D8
     void add_incButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1041C28
+    // Offset: 0xFD527C
     void remove_incButtonWasPressedEvent(System::Action* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x1041CCC
+    // Offset: 0xFD5320
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1041CF0
+    // Offset: 0xFD5344
     void set_color(UnityEngine::Color value);
     // public System.Void set_decButtonInteractable(System.Boolean value)
-    // Offset: 0x1041D14
+    // Offset: 0xFD5368
     void set_decButtonInteractable(bool value);
     // public System.Void set_incButtonInteractable(System.Boolean value)
-    // Offset: 0x1041D34
+    // Offset: 0xFD5388
     void set_incButtonInteractable(bool value);
     // protected System.Void OnEnable()
-    // Offset: 0x1041D54
-    void OnEnable();
+    // Offset: 0xFD53A8
+    void OnEnable_NEW();
     // protected System.Void OnDisable()
-    // Offset: 0x1041E2C
+    // Offset: 0xFD5480
     void OnDisable();
     // private System.Void IncButtonPressed()
-    // Offset: 0x1041F04
+    // Offset: 0xFD5558
     void IncButtonPressed();
     // private System.Void DecButtonPressed()
-    // Offset: 0x1041F18
+    // Offset: 0xFD556C
     void DecButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x1041F2C
+    // Offset: 0xFD5580
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

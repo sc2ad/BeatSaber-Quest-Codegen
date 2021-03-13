@@ -28,13 +28,13 @@ namespace Org::BouncyCastle::Crypto {
     IBasicAgreement() noexcept {}
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
-    void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    void Init_NEW(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetFieldSize()
     // Offset: 0xFFFFFFFF
-    int GetFieldSize();
+    int GetFieldSize_NEW();
     // public Org.BouncyCastle.Math.BigInteger CalculateAgreement(Org.BouncyCastle.Crypto.ICipherParameters pubKey)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::BigInteger* CalculateAgreement(Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
+    Org::BouncyCastle::Math::BigInteger* CalculateAgreement_NEW(Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
   }; // Org.BouncyCastle.Crypto.IBasicAgreement
   #pragma pack(pop)
 }

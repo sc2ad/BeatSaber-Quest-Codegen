@@ -57,19 +57,19 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     // Set static field: static readonly System.Collections.IDictionary names
     static void _set_names(System::Collections::IDictionary* value);
     // static private Org.BouncyCastle.Math.EC.ECPoint ConfigureBasepoint(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Math.BigInteger y)
-    // Offset: 0x16099BC
+    // Offset: 0x1548D20
     static Org::BouncyCastle::Math::EC::ECPoint* ConfigureBasepoint(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::BigInteger* x, Org::BouncyCastle::Math::BigInteger* y);
     // static private Org.BouncyCastle.Math.EC.ECCurve ConfigureCurve(Org.BouncyCastle.Math.EC.ECCurve curve)
-    // Offset: 0x1609A64
+    // Offset: 0x1548DC8
     static Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(Org::BouncyCastle::Math::EC::ECCurve* curve);
     // static private System.Void .cctor()
-    // Offset: 0x1609A68
+    // Offset: 0x1548DCC
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByOidX9(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x160B740
+    // Offset: 0x154AA80
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOidX9(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByNameX9(System.String name)
-    // Offset: 0x160B8EC
+    // Offset: 0x154AC2C
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByNameX9(::Il2CppString* name);
   }; // Org.BouncyCastle.Asn1.CryptoPro.ECGost3410NamedCurves
   #pragma pack(pop)

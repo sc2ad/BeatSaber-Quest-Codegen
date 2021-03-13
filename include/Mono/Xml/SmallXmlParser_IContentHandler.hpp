@@ -19,25 +19,25 @@ namespace Mono::Xml {
     IContentHandler() noexcept {}
     // public System.Void OnStartParsing(Mono.Xml.SmallXmlParser parser)
     // Offset: 0xFFFFFFFF
-    void OnStartParsing(Mono::Xml::SmallXmlParser* parser);
+    void OnStartParsing_NEW(Mono::Xml::SmallXmlParser* parser);
     // public System.Void OnEndParsing(Mono.Xml.SmallXmlParser parser)
     // Offset: 0xFFFFFFFF
-    void OnEndParsing(Mono::Xml::SmallXmlParser* parser);
+    void OnEndParsing_NEW(Mono::Xml::SmallXmlParser* parser);
     // public System.Void OnStartElement(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs)
     // Offset: 0xFFFFFFFF
-    void OnStartElement(::Il2CppString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
+    void OnStartElement_NEW(::Il2CppString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // public System.Void OnEndElement(System.String name)
     // Offset: 0xFFFFFFFF
-    void OnEndElement(::Il2CppString* name);
+    void OnEndElement_NEW(::Il2CppString* name);
     // public System.Void OnProcessingInstruction(System.String name, System.String text)
     // Offset: 0xFFFFFFFF
-    void OnProcessingInstruction(::Il2CppString* name, ::Il2CppString* text);
+    void OnProcessingInstruction_NEW(::Il2CppString* name, ::Il2CppString* text);
     // public System.Void OnChars(System.String text)
     // Offset: 0xFFFFFFFF
-    void OnChars(::Il2CppString* text);
+    void OnChars_NEW(::Il2CppString* text);
     // public System.Void OnIgnorableWhitespace(System.String text)
     // Offset: 0xFFFFFFFF
-    void OnIgnorableWhitespace(::Il2CppString* text);
+    void OnIgnorableWhitespace_NEW(::Il2CppString* text);
   }; // Mono.Xml.SmallXmlParser/IContentHandler
   #pragma pack(pop)
 }

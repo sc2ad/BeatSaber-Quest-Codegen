@@ -56,17 +56,17 @@ namespace Org::BouncyCastle::X509 {
     // Creating value type constructor for type: PemParser
     PemParser(::Il2CppString* header1_ = {}, ::Il2CppString* header2_ = {}, ::Il2CppString* footer1_ = {}, ::Il2CppString* footer2_ = {}) noexcept : header1{header1_}, header2{header2_}, footer1{footer1_}, footer2{footer2_} {}
     // System.Void .ctor(System.String type)
-    // Offset: 0x1E5F198
+    // Offset: 0x1E2CF68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemParser* New_ctor(::Il2CppString* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::PemParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemParser*, creationType>(type)));
     }
     // private System.String ReadLine(System.IO.Stream inStream)
-    // Offset: 0x1E5F2A4
+    // Offset: 0x1E2D048
     ::Il2CppString* ReadLine(System::IO::Stream* inStream);
     // Org.BouncyCastle.Asn1.Asn1Sequence ReadPemObject(System.IO.Stream inStream)
-    // Offset: 0x1E5F37C
+    // Offset: 0x1E2D120
     Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(System::IO::Stream* inStream);
   }; // Org.BouncyCastle.X509.PemParser
   #pragma pack(pop)

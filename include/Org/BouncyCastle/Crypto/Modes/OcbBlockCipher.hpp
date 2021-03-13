@@ -174,86 +174,72 @@ namespace Org::BouncyCastle::Crypto::Modes {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher hashCipher, Org.BouncyCastle.Crypto.IBlockCipher mainCipher)
-    // Offset: 0x17DBD70
+    // Offset: 0x1720FC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OcbBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* hashCipher, Org::BouncyCastle::Crypto::IBlockCipher* mainCipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::OcbBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OcbBlockCipher*, creationType>(hashCipher, mainCipher)));
     }
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x172138C
+    void Init_NEW(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // protected System.Int32 ProcessNonce(System.Byte[] N)
-    // Offset: 0x17DC978
-    int ProcessNonce(::Array<uint8_t>* N);
+    // Offset: 0x1721AEC
+    int ProcessNonce_NEW(::Array<uint8_t>* N);
+    // public System.Int32 GetBlockSize()
+    // Offset: 0x1721D38
+    int GetBlockSize_NEW();
+    // public System.Int32 GetOutputSize(System.Int32 len)
+    // Offset: 0x1721D40
+    int GetOutputSize_NEW(int len);
+    // public System.Int32 GetUpdateOutputSize(System.Int32 len)
+    // Offset: 0x1721D68
+    int GetUpdateOutputSize_NEW(int len);
     // public System.Void ProcessAadBytes(System.Byte[] input, System.Int32 off, System.Int32 len)
-    // Offset: 0x17DCC40
-    void ProcessAadBytes(::Array<uint8_t>* input, int off, int len);
+    // Offset: 0x1721DA0
+    void ProcessAadBytes_NEW(::Array<uint8_t>* input, int off, int len);
+    // public System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x1721E70
+    int ProcessBytes_NEW(::Array<uint8_t>* input, int inOff, int len, ::Array<uint8_t>* output, int outOff);
+    // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x1721F6C
+    int DoFinal_NEW(::Array<uint8_t>* output, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x1722440
+    void Reset_NEW();
     // protected System.Void Clear(System.Byte[] bs)
-    // Offset: 0x17DD2FC
-    void Clear(::Array<uint8_t>* bs);
+    // Offset: 0x1722454
+    void Clear_NEW(::Array<uint8_t>* bs);
     // protected System.Byte[] GetLSub(System.Int32 n)
-    // Offset: 0x17DD318
-    ::Array<uint8_t>* GetLSub(int n);
+    // Offset: 0x1722470
+    ::Array<uint8_t>* GetLSub_NEW(int n);
     // protected System.Void ProcessHashBlock()
-    // Offset: 0x17DD600
-    void ProcessHashBlock();
+    // Offset: 0x1722758
+    void ProcessHashBlock_NEW();
     // protected System.Void ProcessMainBlock(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x17DD6B0
-    void ProcessMainBlock(::Array<uint8_t>* output, int outOff);
+    // Offset: 0x1722808
+    void ProcessMainBlock_NEW(::Array<uint8_t>* output, int outOff);
     // protected System.Void Reset(System.Boolean clearMac)
-    // Offset: 0x17DD88C
-    void Reset(bool clearMac);
+    // Offset: 0x17229E4
+    void Reset_NEW(bool clearMac);
     // protected System.Void UpdateHASH(System.Byte[] LSub)
-    // Offset: 0x17DDA9C
-    void UpdateHASH(::Array<uint8_t>* LSub);
+    // Offset: 0x1722BE8
+    void UpdateHASH_NEW(::Array<uint8_t>* LSub);
     // static protected System.Byte[] OCB_double(System.Byte[] block)
-    // Offset: 0x17DC8D0
+    // Offset: 0x1721A44
     static ::Array<uint8_t>* OCB_double(::Array<uint8_t>* block);
     // static protected System.Void OCB_extend(System.Byte[] block, System.Int32 pos)
-    // Offset: 0x17DD218
+    // Offset: 0x1722370
     static void OCB_extend(::Array<uint8_t>* block, int pos);
     // static protected System.Int32 OCB_ntz(System.Int64 x)
-    // Offset: 0x17DD67C
+    // Offset: 0x17227D4
     static int OCB_ntz(int64_t x);
     // static protected System.Int32 ShiftLeft(System.Byte[] block, System.Byte[] output)
-    // Offset: 0x17DDB94
+    // Offset: 0x1722CE0
     static int ShiftLeft(::Array<uint8_t>* block, ::Array<uint8_t>* output);
     // static protected System.Void Xor(System.Byte[] block, System.Byte[] val)
-    // Offset: 0x17DD284
+    // Offset: 0x17223DC
     static void Xor(::Array<uint8_t>* block, ::Array<uint8_t>* val);
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x17DC184
-    // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
-    // Base method: System.Void IAeadCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public System.Int32 GetBlockSize()
-    // Offset: 0x17DCBD8
-    // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadBlockCipher
-    // Base method: System.Int32 IAeadBlockCipher::GetBlockSize()
-    int GetBlockSize();
-    // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x17DCBE0
-    // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
-    // Base method: System.Int32 IAeadCipher::GetOutputSize(System.Int32 len)
-    int GetOutputSize(int len);
-    // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x17DCC08
-    // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
-    // Base method: System.Int32 IAeadCipher::GetUpdateOutputSize(System.Int32 len)
-    int GetUpdateOutputSize(int len);
-    // public System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x17DCD10
-    // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
-    // Base method: System.Int32 IAeadCipher::ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    int ProcessBytes(::Array<uint8_t>* input, int inOff, int len, ::Array<uint8_t>* output, int outOff);
-    // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x17DCE0C
-    // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
-    // Base method: System.Int32 IAeadCipher::DoFinal(System.Byte[] output, System.Int32 outOff)
-    int DoFinal(::Array<uint8_t>* output, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x17DD2E8
-    // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
-    // Base method: System.Void IAeadCipher::Reset()
-    void Reset();
   }; // Org.BouncyCastle.Crypto.Modes.OcbBlockCipher
   #pragma pack(pop)
   static check_size<sizeof(OcbBlockCipher), 168 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Modes_OcbBlockCipherSizeCheck;

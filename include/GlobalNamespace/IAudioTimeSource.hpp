@@ -16,13 +16,13 @@ namespace GlobalNamespace {
     IAudioTimeSource() noexcept {}
     // public System.Single get_songTime()
     // Offset: 0xFFFFFFFF
-    float get_songTime();
+    float get_songTime_NEW();
     // public System.Single get_songEndTime()
     // Offset: 0xFFFFFFFF
-    float get_songEndTime();
+    float get_songEndTime_NEW();
     // public System.Boolean get_isReady()
     // Offset: 0xFFFFFFFF
-    bool get_isReady();
+    bool get_isReady_NEW();
   }; // IAudioTimeSource
   #pragma pack(pop)
 }

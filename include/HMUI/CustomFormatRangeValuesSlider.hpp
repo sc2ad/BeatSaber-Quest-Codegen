@@ -20,19 +20,19 @@ namespace HMUI {
     public:
     // private System.String _formatString
     // Size: 0x8
-    // Offset: 0x160
+    // Offset: 0x168
     ::Il2CppString* formatString;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: CustomFormatRangeValuesSlider
     CustomFormatRangeValuesSlider(::Il2CppString* formatString_ = {}) noexcept : formatString{formatString_} {}
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x11FC1F4
+    // Offset: 0x1223020
     // Implemented from: HMUI.RangeValuesTextSlider
-    // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
+    // Base method: System.String RangeValuesTextSlider::TextForValue_NEW(System.Single value)
     ::Il2CppString* TextForValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x11FC26C
+    // Offset: 0x1223098
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()

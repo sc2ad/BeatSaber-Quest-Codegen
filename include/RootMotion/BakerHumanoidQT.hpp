@@ -147,42 +147,42 @@ namespace RootMotion {
     // Creating value type constructor for type: BakerHumanoidQT
     BakerHumanoidQT(UnityEngine::Transform* transform_ = {}, ::Il2CppString* Qx_ = {}, ::Il2CppString* Qy_ = {}, ::Il2CppString* Qz_ = {}, ::Il2CppString* Qw_ = {}, ::Il2CppString* Tx_ = {}, ::Il2CppString* Ty_ = {}, ::Il2CppString* Tz_ = {}, UnityEngine::AnimationCurve* rotX_ = {}, UnityEngine::AnimationCurve* rotY_ = {}, UnityEngine::AnimationCurve* rotZ_ = {}, UnityEngine::AnimationCurve* rotW_ = {}, UnityEngine::AnimationCurve* posX_ = {}, UnityEngine::AnimationCurve* posY_ = {}, UnityEngine::AnimationCurve* posZ_ = {}, UnityEngine::AvatarIKGoal goal_ = {}, UnityEngine::Quaternion lastQ_ = {}, bool lastQSet_ = {}) noexcept : transform{transform_}, Qx{Qx_}, Qy{Qy_}, Qz{Qz_}, Qw{Qw_}, Tx{Tx_}, Ty{Ty_}, Tz{Tz_}, rotX{rotX_}, rotY{rotY_}, rotZ{rotZ_}, rotW{rotW_}, posX{posX_}, posY{posY_}, posZ{posZ_}, goal{goal_}, lastQ{lastQ_}, lastQSet{lastQSet_} {}
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1B448C4
+    // Offset: 0x1AA207C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerHumanoidQT* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerHumanoidQT::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerHumanoidQT*, creationType>(name)));
     }
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.AvatarIKGoal goal, System.String name)
-    // Offset: 0x1B44BBC
+    // Offset: 0x1AA22C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerHumanoidQT* New_ctor(UnityEngine::Transform* transform, UnityEngine::AvatarIKGoal goal, ::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerHumanoidQT::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerHumanoidQT*, creationType>(transform, goal, name)));
     }
     // public System.Void Reset()
-    // Offset: 0x1B44A38
+    // Offset: 0x1AA219C
     void Reset();
     // public System.Void SetIKKeyframes(System.Single time, UnityEngine.Avatar avatar, System.Single humanScale, UnityEngine.Vector3 bodyPosition, UnityEngine.Quaternion bodyRotation)
-    // Offset: 0x1B44D54
+    // Offset: 0x1AA2400
     void SetIKKeyframes(float time, UnityEngine::Avatar* avatar, float humanScale, UnityEngine::Vector3 bodyPosition, UnityEngine::Quaternion bodyRotation);
     // public System.Void SetKeyframes(System.Single time, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x1B451FC
+    // Offset: 0x1AA28A8
     void SetKeyframes(float time, UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // public System.Void MoveLastKeyframes(System.Single time)
-    // Offset: 0x1B452F8
+    // Offset: 0x1AA29A4
     void MoveLastKeyframes(float time);
     // public System.Void SetLoopFrame(System.Single time)
-    // Offset: 0x1B453F4
+    // Offset: 0x1AA2AA0
     void SetLoopFrame(float time);
     // private System.Void MoveLastKeyframe(System.Single time, UnityEngine.AnimationCurve curve)
-    // Offset: 0x1B4536C
+    // Offset: 0x1AA2A18
     void MoveLastKeyframe(float time, UnityEngine::AnimationCurve* curve);
     // public System.Void MultiplyLength(UnityEngine.AnimationCurve curve, System.Single mlp)
-    // Offset: 0x1B456B4
+    // Offset: 0x1AA2D60
     void MultiplyLength(UnityEngine::AnimationCurve* curve, float mlp);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip, System.Single maxError, System.Single lengthMlp)
-    // Offset: 0x1B45768
+    // Offset: 0x1AA2E14
     void SetCurves(UnityEngine::AnimationClip*& clip, float maxError, float lengthMlp);
   }; // RootMotion.BakerHumanoidQT
   #pragma pack(pop)

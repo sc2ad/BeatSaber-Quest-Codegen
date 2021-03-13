@@ -129,58 +129,50 @@ namespace UnityEngine::UI::CoroutineTween {
       return *reinterpret_cast<UnityEngine::UI::CoroutineTween::ITweenValue*>(this);
     }
     // public UnityEngine.Color get_startColor()
-    // Offset: 0xDF91FC
+    // Offset: 0xDE4B30
     UnityEngine::Color get_startColor();
     // public System.Void set_startColor(UnityEngine.Color value)
-    // Offset: 0xDF9208
+    // Offset: 0xDE4B3C
     void set_startColor(UnityEngine::Color value);
     // public UnityEngine.Color get_targetColor()
-    // Offset: 0xDF9214
+    // Offset: 0xDE4B48
     UnityEngine::Color get_targetColor();
     // public System.Void set_targetColor(UnityEngine.Color value)
-    // Offset: 0xDF9220
+    // Offset: 0xDE4B54
     void set_targetColor(UnityEngine::Color value);
     // public UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenMode get_tweenMode()
-    // Offset: 0xDF922C
+    // Offset: 0xDE4B60
     UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode get_tweenMode();
     // public System.Void set_tweenMode(UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenMode value)
-    // Offset: 0xDF9234
+    // Offset: 0xDE4B68
     void set_tweenMode(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode value);
+    // public System.Single get_duration()
+    // Offset: 0xDE4B70
+    float get_duration_NEW();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0xDF9244
+    // Offset: 0xDE4B78
     void set_duration(float value);
+    // public System.Boolean get_ignoreTimeScale()
+    // Offset: 0xDE4B80
+    bool get_ignoreTimeScale_NEW();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0xDF9254
+    // Offset: 0xDE4B88
     void set_ignoreTimeScale(bool value);
+    // public System.Void TweenValue(System.Single floatPercentage)
+    // Offset: 0xDE4B94
+    void TweenValue_NEW(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<UnityEngine.Color> callback)
-    // Offset: 0xDF9268
+    // Offset: 0xDE4B9C
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<UnityEngine::Color>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0xDF9270
+    // Offset: 0xDE4BA4
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0xDF9278
+    // Offset: 0xDE4BAC
     float GetDuration();
-    // public System.Single get_duration()
-    // Offset: 0xDF923C
-    // Implemented from: UnityEngine.UI.CoroutineTween.ITweenValue
-    // Base method: System.Single ITweenValue::get_duration()
-    float get_duration();
-    // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0xDF924C
-    // Implemented from: UnityEngine.UI.CoroutineTween.ITweenValue
-    // Base method: System.Boolean ITweenValue::get_ignoreTimeScale()
-    bool get_ignoreTimeScale();
-    // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0xDF9260
-    // Implemented from: UnityEngine.UI.CoroutineTween.ITweenValue
-    // Base method: System.Void ITweenValue::TweenValue(System.Single floatPercentage)
-    void TweenValue(float floatPercentage);
     // public System.Boolean ValidTarget()
-    // Offset: 0xDF9280
-    // Implemented from: UnityEngine.UI.CoroutineTween.ITweenValue
-    // Base method: System.Boolean ITweenValue::ValidTarget()
-    bool ValidTarget();
+    // Offset: 0xDE4BB4
+    bool ValidTarget_NEW();
   }; // UnityEngine.UI.CoroutineTween.ColorTween
   #pragma pack(pop)
   static check_size<sizeof(ColorTween), 48 + sizeof(bool)> __UnityEngine_UI_CoroutineTween_ColorTweenSizeCheck;

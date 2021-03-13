@@ -41,21 +41,24 @@ namespace NUnit::Framework::Constraints {
     System::Lazy_1<::Il2CppString*>* displayName;
     // Field size check
     static_assert(sizeof(System::Lazy_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD250D8
+    // [CompilerGeneratedAttribute] Offset: 0xD1040C
+    // [DebuggerBrowsableAttribute] Offset: 0xD1040C
     // private System.String <Description>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* Description;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD250E8
+    // [DebuggerBrowsableAttribute] Offset: 0xD10448
+    // [CompilerGeneratedAttribute] Offset: 0xD10448
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::Array<::Il2CppObject*>* Arguments;
     // Field size check
     static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD250F8
+    // [DebuggerBrowsableAttribute] Offset: 0xD10484
+    // [CompilerGeneratedAttribute] Offset: 0xD10484
     // private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -69,7 +72,7 @@ namespace NUnit::Framework::Constraints {
       return *reinterpret_cast<NUnit::Framework::Constraints::IConstraint*>(this);
     }
     // protected System.Void .ctor(params System.Object[] args)
-    // Offset: 0x1698C38
+    // Offset: 0x159D774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Constraint* New_ctor(::Array<::Il2CppObject*>* args) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Constraint::.ctor");
@@ -86,54 +89,46 @@ namespace NUnit::Framework::Constraints {
       return New_ctor<creationType>({args...});
     }
     // public System.String get_DisplayName()
-    // Offset: 0x1698D10
-    ::Il2CppString* get_DisplayName();
+    // Offset: 0x159DB64
+    ::Il2CppString* get_DisplayName_NEW();
+    // public System.String get_Description()
+    // Offset: 0x159DBBC
+    ::Il2CppString* get_Description();
     // protected System.Void set_Description(System.String value)
-    // Offset: 0x1698D70
-    void set_Description(::Il2CppString* value);
+    // Offset: 0x159DBC4
+    void set_Description_NEW(::Il2CppString* value);
     // public System.Object[] get_Arguments()
-    // Offset: 0x1698D78
-    ::Array<::Il2CppObject*>* get_Arguments();
+    // Offset: 0x159DBCC
+    ::Array<::Il2CppObject*>* get_Arguments_NEW();
     // private System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x1698D80
+    // Offset: 0x159DBD4
     void set_Arguments(::Array<::Il2CppObject*>* value);
     // public NUnit.Framework.Constraints.ConstraintBuilder get_Builder()
-    // Offset: 0x1698D88
-    NUnit::Framework::Constraints::ConstraintBuilder* get_Builder();
-    // protected System.String GetStringRepresentation()
-    // Offset: 0x1698E18
-    ::Il2CppString* GetStringRepresentation();
-    // static private System.String _displayable(System.Object o)
-    // Offset: 0x1698F6C
-    static ::Il2CppString* _displayable(::Il2CppObject* o);
-    // private System.String <.ctor>b__0()
-    // Offset: 0x1699180
-    ::Il2CppString* $_ctor$b__0();
-    // public System.String get_Description()
-    // Offset: 0x1698D68
-    // Implemented from: NUnit.Framework.Constraints.IConstraint
-    // Base method: System.String IConstraint::get_Description()
-    ::Il2CppString* get_Description();
+    // Offset: 0x159DBDC
+    NUnit::Framework::Constraints::ConstraintBuilder* get_Builder_NEW();
     // public System.Void set_Builder(NUnit.Framework.Constraints.ConstraintBuilder value)
-    // Offset: 0x1698D90
-    // Implemented from: NUnit.Framework.Constraints.IConstraint
-    // Base method: System.Void IConstraint::set_Builder(NUnit.Framework.Constraints.ConstraintBuilder value)
-    void set_Builder(NUnit::Framework::Constraints::ConstraintBuilder* value);
+    // Offset: 0x159DBE4
+    void set_Builder_NEW(NUnit::Framework::Constraints::ConstraintBuilder* value);
     // public NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
     // Offset: 0xFFFFFFFF
-    // Implemented from: NUnit.Framework.Constraints.IConstraint
-    // Base method: NUnit.Framework.Constraints.ConstraintResult IConstraint::ApplyTo(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
-    // public override System.String ToString()
-    // Offset: 0x1698D98
-    // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    // protected System.String GetStringRepresentation()
+    // Offset: 0x159DC6C
+    ::Il2CppString* GetStringRepresentation_NEW();
+    // static private System.String _displayable(System.Object o)
+    // Offset: 0x159DDC0
+    static ::Il2CppString* _displayable(::Il2CppObject* o);
     // private NUnit.Framework.Constraints.IConstraint NUnit.Framework.Constraints.IResolveConstraint.Resolve()
-    // Offset: 0x16990A4
-    // Implemented from: NUnit.Framework.Constraints.IResolveConstraint
-    // Base method: NUnit.Framework.Constraints.IConstraint IResolveConstraint::Resolve()
-    NUnit::Framework::Constraints::IConstraint* NUnit_Framework_Constraints_IResolveConstraint_Resolve();
+    // Offset: 0x159DEEC
+    NUnit::Framework::Constraints::IConstraint* NUnit_Framework_Constraints_IResolveConstraint_Resolve_NEW();
+    // private System.String <.ctor>b__1_0()
+    // Offset: 0x159DFC8
+    ::Il2CppString* $_ctor$b__1_0();
+    // public override System.String ToString()
+    // Offset: 0x159DBEC
+    // Implemented from: System.Object
+    // Base method: System.String Object::ToString_NEW()
+    ::Il2CppString* ToString();
   }; // NUnit.Framework.Constraints.Constraint
   #pragma pack(pop)
   static check_size<sizeof(Constraint), 40 + sizeof(NUnit::Framework::Constraints::ConstraintBuilder*)> __NUnit_Framework_Constraints_ConstraintSizeCheck;

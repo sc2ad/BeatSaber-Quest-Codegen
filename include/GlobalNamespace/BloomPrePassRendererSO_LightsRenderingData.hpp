@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LightsRenderingData
     LightsRenderingData(UnityEngine::Mesh* mesh_ = {}, ::Array<UnityEngine::Vector3>* vertices_ = {}, ::Array<UnityEngine::Color>* colors_ = {}, ::Array<UnityEngine::Vector4>* viewPos_ = {}) noexcept : mesh{mesh_}, vertices{vertices_}, colors{colors_}, viewPos{viewPos_} {}
     // public System.Void .ctor()
-    // Offset: 0x1D9A74C
+    // Offset: 0x1CDB0F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

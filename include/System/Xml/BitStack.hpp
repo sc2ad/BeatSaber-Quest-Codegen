@@ -38,22 +38,22 @@ namespace System::Xml {
     // Creating value type constructor for type: BitStack
     BitStack(::Array<uint>* bitStack_ = {}, int stackPos_ = {}, uint curr_ = {}) noexcept : bitStack{bitStack_}, stackPos{stackPos_}, curr{curr_} {}
     // public System.Void PushBit(System.Boolean bit)
-    // Offset: 0x1863308
+    // Offset: 0x1780CB4
     void PushBit(bool bit);
     // public System.Boolean PopBit()
-    // Offset: 0x1863464
+    // Offset: 0x1780DE4
     bool PopBit();
     // public System.Boolean PeekBit()
-    // Offset: 0x18634E8
+    // Offset: 0x1780E68
     bool PeekBit();
     // private System.Void PushCurr()
-    // Offset: 0x1863344
+    // Offset: 0x1780CF0
     void PushCurr();
     // private System.Void PopCurr()
-    // Offset: 0x1863498
+    // Offset: 0x1780E18
     void PopCurr();
     // public System.Void .ctor()
-    // Offset: 0x18632DC
+    // Offset: 0x1780C88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

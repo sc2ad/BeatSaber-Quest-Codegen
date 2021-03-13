@@ -143,6 +143,13 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ScriptPlayable_1(UnityEngine::Playables::PlayableHandle handle)
+    // public UnityEngine.Playables.PlayableHandle GetHandle()
+    // Offset: 0xFFFFFFFF
+    UnityEngine::Playables::PlayableHandle GetHandle_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::GetHandle_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "GetHandle", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::PlayableHandle, false>(*this, ___internal__method);
+    }
     // public T GetBehaviour()
     // Offset: 0xFFFFFFFF
     T GetBehaviour() {
@@ -150,30 +157,19 @@ namespace UnityEngine::Playables {
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "GetBehaviour", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method);
     }
+    // public System.Boolean Equals(UnityEngine.Playables.ScriptPlayable`1<T> other)
+    // Offset: 0xFFFFFFFF
+    bool Equals_NEW(UnityEngine::Playables::ScriptPlayable_1<T> other) {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::Equals_NEW");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(other)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, other);
+    }
     // static private System.Void .cctor()
     // Offset: 0xFFFFFFFF
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-    }
-    // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: UnityEngine.Playables.IPlayable
-    // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
-    UnityEngine::Playables::PlayableHandle GetHandle() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::GetHandle");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "GetHandle", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::PlayableHandle, false>(*this, ___internal__method);
-    }
-    // public System.Boolean Equals(UnityEngine.Playables.ScriptPlayable`1<T> other)
-    // Offset: 0xFFFFFFFF
-    // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Playables.ScriptPlayable`1<T> other)
-    bool Equals(UnityEngine::Playables::ScriptPlayable_1<T> other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::Equals");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(other)));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, other);
     }
   }; // UnityEngine.Playables.ScriptPlayable`1
   // Could not write size check! Type: UnityEngine.Playables.ScriptPlayable`1 is generic, or has no fields that are valid for size checks!

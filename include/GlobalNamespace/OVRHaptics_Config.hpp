@@ -17,77 +17,77 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: Config
     Config() noexcept {}
-    // [CompilerGeneratedAttribute] Offset: 0xCF922C
+    // [CompilerGeneratedAttribute] Offset: 0xCE3B24
     // Get static field: static private System.Int32 <SampleRateHz>k__BackingField
     static int _get_$SampleRateHz$k__BackingField();
     // Set static field: static private System.Int32 <SampleRateHz>k__BackingField
     static void _set_$SampleRateHz$k__BackingField(int value);
-    // [CompilerGeneratedAttribute] Offset: 0xCF923C
+    // [CompilerGeneratedAttribute] Offset: 0xCE3B34
     // Get static field: static private System.Int32 <SampleSizeInBytes>k__BackingField
     static int _get_$SampleSizeInBytes$k__BackingField();
     // Set static field: static private System.Int32 <SampleSizeInBytes>k__BackingField
     static void _set_$SampleSizeInBytes$k__BackingField(int value);
-    // [CompilerGeneratedAttribute] Offset: 0xCF924C
+    // [CompilerGeneratedAttribute] Offset: 0xCE3B44
     // Get static field: static private System.Int32 <MinimumSafeSamplesQueued>k__BackingField
     static int _get_$MinimumSafeSamplesQueued$k__BackingField();
     // Set static field: static private System.Int32 <MinimumSafeSamplesQueued>k__BackingField
     static void _set_$MinimumSafeSamplesQueued$k__BackingField(int value);
-    // [CompilerGeneratedAttribute] Offset: 0xCF925C
+    // [CompilerGeneratedAttribute] Offset: 0xCE3B54
     // Get static field: static private System.Int32 <MinimumBufferSamplesCount>k__BackingField
     static int _get_$MinimumBufferSamplesCount$k__BackingField();
     // Set static field: static private System.Int32 <MinimumBufferSamplesCount>k__BackingField
     static void _set_$MinimumBufferSamplesCount$k__BackingField(int value);
-    // [CompilerGeneratedAttribute] Offset: 0xCF926C
+    // [CompilerGeneratedAttribute] Offset: 0xCE3B64
     // Get static field: static private System.Int32 <OptimalBufferSamplesCount>k__BackingField
     static int _get_$OptimalBufferSamplesCount$k__BackingField();
     // Set static field: static private System.Int32 <OptimalBufferSamplesCount>k__BackingField
     static void _set_$OptimalBufferSamplesCount$k__BackingField(int value);
-    // [CompilerGeneratedAttribute] Offset: 0xCF927C
+    // [CompilerGeneratedAttribute] Offset: 0xCE3B74
     // Get static field: static private System.Int32 <MaximumBufferSamplesCount>k__BackingField
     static int _get_$MaximumBufferSamplesCount$k__BackingField();
     // Set static field: static private System.Int32 <MaximumBufferSamplesCount>k__BackingField
     static void _set_$MaximumBufferSamplesCount$k__BackingField(int value);
     // static public System.Int32 get_SampleRateHz()
-    // Offset: 0x13A5088
+    // Offset: 0x173D3EC
     static int get_SampleRateHz();
     // static private System.Void set_SampleRateHz(System.Int32 value)
-    // Offset: 0x13A50F0
+    // Offset: 0x173D454
     static void set_SampleRateHz(int value);
     // static public System.Int32 get_SampleSizeInBytes()
-    // Offset: 0x13A515C
+    // Offset: 0x173D4C0
     static int get_SampleSizeInBytes();
     // static private System.Void set_SampleSizeInBytes(System.Int32 value)
-    // Offset: 0x13A51C4
+    // Offset: 0x173D528
     static void set_SampleSizeInBytes(int value);
     // static public System.Int32 get_MinimumSafeSamplesQueued()
-    // Offset: 0x13A5230
+    // Offset: 0x173D594
     static int get_MinimumSafeSamplesQueued();
     // static private System.Void set_MinimumSafeSamplesQueued(System.Int32 value)
-    // Offset: 0x13A5298
+    // Offset: 0x173D5FC
     static void set_MinimumSafeSamplesQueued(int value);
     // static public System.Int32 get_MinimumBufferSamplesCount()
-    // Offset: 0x13A5304
+    // Offset: 0x173D668
     static int get_MinimumBufferSamplesCount();
     // static private System.Void set_MinimumBufferSamplesCount(System.Int32 value)
-    // Offset: 0x13A536C
+    // Offset: 0x173D6D0
     static void set_MinimumBufferSamplesCount(int value);
     // static public System.Int32 get_OptimalBufferSamplesCount()
-    // Offset: 0x13A53D8
+    // Offset: 0x173D73C
     static int get_OptimalBufferSamplesCount();
     // static private System.Void set_OptimalBufferSamplesCount(System.Int32 value)
-    // Offset: 0x13A5440
+    // Offset: 0x173D7A4
     static void set_OptimalBufferSamplesCount(int value);
     // static public System.Int32 get_MaximumBufferSamplesCount()
-    // Offset: 0x13A54AC
+    // Offset: 0x173D810
     static int get_MaximumBufferSamplesCount();
     // static private System.Void set_MaximumBufferSamplesCount(System.Int32 value)
-    // Offset: 0x13A5514
+    // Offset: 0x173D878
     static void set_MaximumBufferSamplesCount(int value);
     // static private System.Void .cctor()
-    // Offset: 0x13A5580
+    // Offset: 0x173D8E4
     static void _cctor();
     // static public System.Void Load()
-    // Offset: 0x13A4018
+    // Offset: 0x173C480
     static void Load();
   }; // OVRHaptics/Config
   #pragma pack(pop)

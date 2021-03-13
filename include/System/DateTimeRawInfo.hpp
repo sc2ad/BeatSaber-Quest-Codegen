@@ -85,13 +85,13 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void Init(System.Int32* numberBuffer)
-    // Offset: 0xE125C0
+    // Offset: 0xDFBE08
     void Init(int* numberBuffer);
     // System.Void AddNumber(System.Int32 value)
-    // Offset: 0xE125E4
+    // Offset: 0xDFBE2C
     void AddNumber(int value);
     // System.Int32 GetNumber(System.Int32 index)
-    // Offset: 0xE125FC
+    // Offset: 0xDFBE44
     int GetNumber(int index);
   }; // System.DateTimeRawInfo
   #pragma pack(pop)

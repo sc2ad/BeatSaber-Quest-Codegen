@@ -55,26 +55,26 @@ namespace Mono::Security::Authenticode {
     // Creating value type constructor for type: PrivateKey
     PrivateKey(bool encrypted_ = {}, System::Security::Cryptography::RSA* rsa_ = {}, bool weak_ = {}, int keyType_ = {}) noexcept : encrypted{encrypted_}, rsa{rsa_}, weak{weak_}, keyType{keyType_} {}
     // public System.Void .ctor(System.Byte[] data, System.String password)
-    // Offset: 0x1BE9640
+    // Offset: 0x1B8A938
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivateKey* New_ctor(::Array<uint8_t>* data, ::Il2CppString* password) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Authenticode::PrivateKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKey*, creationType>(data, password)));
     }
     // public System.Security.Cryptography.RSA get_RSA()
-    // Offset: 0x1BE9BD4
+    // Offset: 0x1B8AEA8
     System::Security::Cryptography::RSA* get_RSA();
     // private System.Byte[] DeriveKey(System.Byte[] salt, System.String password)
-    // Offset: 0x1BE9BDC
+    // Offset: 0x1B8AEB0
     ::Array<uint8_t>* DeriveKey(::Array<uint8_t>* salt, ::Il2CppString* password);
     // private System.Boolean Decode(System.Byte[] pvk, System.String password)
-    // Offset: 0x1BE9730
+    // Offset: 0x1B8AA28
     bool Decode(::Array<uint8_t>* pvk, ::Il2CppString* password);
     // static public Mono.Security.Authenticode.PrivateKey CreateFromFile(System.String filename)
-    // Offset: 0x1BE9DC4
+    // Offset: 0x1B8B098
     static Mono::Security::Authenticode::PrivateKey* CreateFromFile(::Il2CppString* filename);
     // static public Mono.Security.Authenticode.PrivateKey CreateFromFile(System.String filename, System.String password)
-    // Offset: 0x1BE9DCC
+    // Offset: 0x1B8B0A0
     static Mono::Security::Authenticode::PrivateKey* CreateFromFile(::Il2CppString* filename, ::Il2CppString* password);
   }; // Mono.Security.Authenticode.PrivateKey
   #pragma pack(pop)

@@ -29,26 +29,22 @@ namespace System {
     }
     // public System.String get_DisplayName()
     // Offset: 0xFFFFFFFF
-    // Implemented from: System.TypeName
-    // Base method: System.String TypeName::get_DisplayName()
-    ::Il2CppString* get_DisplayName();
+    ::Il2CppString* get_DisplayName_NEW();
     // public System.Boolean Equals(System.TypeName other)
-    // Offset: 0x19F387C
-    // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable_1::Equals(System.TypeName other)
-    bool Equals(System::TypeName* other);
+    // Offset: 0x20D58F8
+    bool Equals_NEW(System::TypeName* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x19F3968
+    // Offset: 0x20D59E4
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x19F3994
+    // Offset: 0x20D5A10
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object other)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object other)
     bool Equals(::Il2CppObject* other);
     // protected System.Void .ctor()
-    // Offset: 0x19F2580
+    // Offset: 0x20D470C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

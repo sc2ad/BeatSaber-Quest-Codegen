@@ -39,22 +39,22 @@ namespace UnityEngine::Events {
     }
     // public System.Void Invoke(T0 arg0, T1 arg1, T2 arg2)
     // Offset: 0xFFFFFFFF
-    void Invoke(T0 arg0, T1 arg1, T2 arg2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityAction_3::Invoke");
+    void Invoke_NEW(T0 arg0, T1 arg1, T2 arg2) {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityAction_3::Invoke_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(arg0, arg1, arg2)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, arg0, arg1, arg2);
     }
     // public System.IAsyncResult BeginInvoke(T0 arg0, T1 arg1, T2 arg2, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke(T0 arg0, T1 arg1, T2 arg2, System::AsyncCallback* callback, ::Il2CppObject* object) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityAction_3::BeginInvoke");
+    System::IAsyncResult* BeginInvoke_NEW(T0 arg0, T1 arg1, T2 arg2, System::AsyncCallback* callback, ::Il2CppObject* object) {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityAction_3::BeginInvoke_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(arg0, arg1, arg2, callback, object)));
       return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, arg0, arg1, arg2, callback, object);
     }
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
-    void EndInvoke(System::IAsyncResult* result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityAction_3::EndInvoke");
+    void EndInvoke_NEW(System::IAsyncResult* result) {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityAction_3::EndInvoke_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
     }

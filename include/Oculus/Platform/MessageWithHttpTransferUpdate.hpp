@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithHttpTransferUpdate
     MessageWithHttpTransferUpdate() noexcept {}
     // protected Oculus.Platform.Models.HttpTransferUpdate GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x13EB0B0
+    // Offset: 0x1385B3C
     Oculus::Platform::Models::HttpTransferUpdate* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x13E7970
+    // Offset: 0x1381BF0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,9 +41,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithHttpTransferUpdate*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.HttpTransferUpdate GetHttpTransferUpdate()
-    // Offset: 0x13EB06C
+    // Offset: 0x1385AF8
     // Implemented from: Oculus.Platform.Message
-    // Base method: Oculus.Platform.Models.HttpTransferUpdate Message::GetHttpTransferUpdate()
+    // Base method: Oculus.Platform.Models.HttpTransferUpdate Message::GetHttpTransferUpdate_NEW()
     Oculus::Platform::Models::HttpTransferUpdate* GetHttpTransferUpdate();
   }; // Oculus.Platform.MessageWithHttpTransferUpdate
 }

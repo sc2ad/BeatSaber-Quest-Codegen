@@ -28,10 +28,10 @@ namespace Org::BouncyCastle::Crypto {
     IDerivationFunction() noexcept {}
     // public System.Void Init(Org.BouncyCastle.Crypto.IDerivationParameters parameters)
     // Offset: 0xFFFFFFFF
-    void Init(Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
+    void Init_NEW(Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
     // public System.Int32 GenerateBytes(System.Byte[] output, System.Int32 outOff, System.Int32 length)
     // Offset: 0xFFFFFFFF
-    int GenerateBytes(::Array<uint8_t>* output, int outOff, int length);
+    int GenerateBytes_NEW(::Array<uint8_t>* output, int outOff, int length);
   }; // Org.BouncyCastle.Crypto.IDerivationFunction
   #pragma pack(pop)
 }

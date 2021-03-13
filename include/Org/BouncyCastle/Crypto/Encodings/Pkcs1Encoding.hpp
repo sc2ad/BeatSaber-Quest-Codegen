@@ -92,53 +92,45 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // Set static field: static private readonly System.Boolean[] strictLengthEnabled
     static void _set_strictLengthEnabled(::Array<bool>* value);
     // static public System.Boolean get_StrictLengthEnabled()
-    // Offset: 0x17F0050
+    // Offset: 0x1734D38
     static bool get_StrictLengthEnabled();
     // static private System.Void .cctor()
-    // Offset: 0x17F00D8
+    // Offset: 0x1734DC0
     static void _cctor();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher)
-    // Offset: 0x17F01E4
+    // Offset: 0x1734EC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Pkcs1Encoding* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pkcs1Encoding*, creationType>(cipher)));
     }
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x1734F5C
+    void Init_NEW(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // public System.Int32 GetInputBlockSize()
+    // Offset: 0x1735210
+    int GetInputBlockSize_NEW();
+    // public System.Int32 GetOutputBlockSize()
+    // Offset: 0x17352D8
+    int GetOutputBlockSize_NEW();
+    // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
+    // Offset: 0x17353A0
+    ::Array<uint8_t>* ProcessBlock_NEW(::Array<uint8_t>* input, int inOff, int length);
     // private System.Byte[] EncodeBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x17F0A2C
+    // Offset: 0x17356C4
     ::Array<uint8_t>* EncodeBlock(::Array<uint8_t>* input, int inOff, int inLen);
     // static private System.Int32 CheckPkcs1Encoding(System.Byte[] encoded, System.Int32 pLen)
-    // Offset: 0x17F0D34
+    // Offset: 0x17359CC
     static int CheckPkcs1Encoding(::Array<uint8_t>* encoded, int pLen);
     // private System.Byte[] DecodeBlockOrRandom(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x17F0DE4
+    // Offset: 0x1735A7C
     ::Array<uint8_t>* DecodeBlockOrRandom(::Array<uint8_t>* input, int inOff, int inLen);
     // private System.Byte[] DecodeBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x17F0718
+    // Offset: 0x17353B0
     ::Array<uint8_t>* DecodeBlock(::Array<uint8_t>* input, int inOff, int inLen);
     // private System.Int32 FindStart(System.Byte type, System.Byte[] block)
-    // Offset: 0x17F10E0
+    // Offset: 0x1735D78
     int FindStart(uint8_t type, ::Array<uint8_t>* block);
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x17F02A0
-    // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
-    // Base method: System.Void IAsymmetricBlockCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public System.Int32 GetInputBlockSize()
-    // Offset: 0x17F0578
-    // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
-    // Base method: System.Int32 IAsymmetricBlockCipher::GetInputBlockSize()
-    int GetInputBlockSize();
-    // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x17F0640
-    // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
-    // Base method: System.Int32 IAsymmetricBlockCipher::GetOutputBlockSize()
-    int GetOutputBlockSize();
-    // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x17F0708
-    // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
-    // Base method: System.Byte[] IAsymmetricBlockCipher::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* input, int inOff, int length);
   }; // Org.BouncyCastle.Crypto.Encodings.Pkcs1Encoding
   #pragma pack(pop)
   static check_size<sizeof(Pkcs1Encoding), 48 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Encodings_Pkcs1EncodingSizeCheck;

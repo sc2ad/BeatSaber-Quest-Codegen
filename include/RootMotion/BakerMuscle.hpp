@@ -49,29 +49,29 @@ namespace RootMotion {
     // Creating value type constructor for type: BakerMuscle
     BakerMuscle(UnityEngine::AnimationCurve* curve_ = {}, int muscleIndex_ = {}, ::Il2CppString* propertyName_ = {}) noexcept : curve{curve_}, muscleIndex{muscleIndex_}, propertyName{propertyName_} {}
     // public System.Void .ctor(System.Int32 muscleIndex)
-    // Offset: 0x1B45AA0
+    // Offset: 0x1AA314C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerMuscle* New_ctor(int muscleIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerMuscle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerMuscle*, creationType>(muscleIndex)));
     }
     // private System.String MuscleNameToPropertyName(System.String n)
-    // Offset: 0x1B45B1C
+    // Offset: 0x1AA31BC
     ::Il2CppString* MuscleNameToPropertyName(::Il2CppString* n);
     // public System.Void MultiplyLength(UnityEngine.AnimationCurve curve, System.Single mlp)
-    // Offset: 0x1B4620C
+    // Offset: 0x1AA38A4
     void MultiplyLength(UnityEngine::AnimationCurve* curve, float mlp);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip, System.Single maxError, System.Single lengthMlp)
-    // Offset: 0x1B462C0
+    // Offset: 0x1AA3958
     void SetCurves(UnityEngine::AnimationClip*& clip, float maxError, float lengthMlp);
     // public System.Void Reset()
-    // Offset: 0x1B461A4
+    // Offset: 0x1AA3844
     void Reset();
     // public System.Void SetKeyframe(System.Single time, System.Single[] muscles)
-    // Offset: 0x1B463A4
+    // Offset: 0x1AA3A3C
     void SetKeyframe(float time, ::Array<float>* muscles);
     // public System.Void SetLoopFrame(System.Single time)
-    // Offset: 0x1B463EC
+    // Offset: 0x1AA3A84
     void SetLoopFrame(float time);
   }; // RootMotion.BakerMuscle
   #pragma pack(pop)

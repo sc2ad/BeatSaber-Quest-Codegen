@@ -8,8 +8,6 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: SpawnRotationChevron
 #include "GlobalNamespace/SpawnRotationChevron.hpp"
-// Including type: BeatmapObjectCallbackController
-#include "GlobalNamespace/BeatmapObjectCallbackController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -22,8 +20,14 @@ namespace GlobalNamespace {
   class IAudioTimeSource;
   // Forward declaring type: BeatmapObjectSpawnController
   class BeatmapObjectSpawnController;
+  // Forward declaring type: IBeatmapObjectCallbackController
+  class IBeatmapObjectCallbackController;
   // Forward declaring type: SpawnRotationProcessor
   class SpawnRotationProcessor;
+  // Forward declaring type: BeatmapObjectCallbackData
+  class BeatmapObjectCallbackData;
+  // Forward declaring type: BeatmapEventCallbackData
+  class BeatmapEventCallbackData;
   // Forward declaring type: BeatmapObjectData
   class BeatmapObjectData;
   // Forward declaring type: BeatmapEventData
@@ -93,52 +97,52 @@ namespace GlobalNamespace {
     UnityEngine::AnimationCurve* fadeOutLightAmountCurve;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
-    // [InjectAttribute] Offset: 0xD394E8
+    // [InjectAttribute] Offset: 0xD24BE0
     // private readonly SpawnRotationChevron/Pool _chevronPool
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::SpawnRotationChevron::Pool* chevronPool;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SpawnRotationChevron::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0xD394F8
+    // [InjectAttribute] Offset: 0xD24BF0
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0xD39508
+    // [InjectAttribute] Offset: 0xD24C00
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD39518
-    // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // [InjectAttribute] Offset: 0xD24C10
+    // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x50
-    GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
+    GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
     // private readonly SpawnRotationProcessor _spawnRotationProcessor
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::SpawnRotationProcessor* spawnRotationProcessor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SpawnRotationProcessor*) == 0x8);
-    // private BeatmapObjectCallbackController/BeatmapObjectCallbackData _beatmapObjectCallbackData
+    // private BeatmapObjectCallbackData _beatmapObjectCallbackData
     // Size: 0x8
     // Offset: 0x60
-    GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData* beatmapObjectCallbackData;
+    GlobalNamespace::BeatmapObjectCallbackData* beatmapObjectCallbackData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData*) == 0x8);
-    // private BeatmapObjectCallbackController/BeatmapEventCallbackData _beatmapEventCallbackData
+    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackData*) == 0x8);
+    // private BeatmapEventCallbackData _beatmapEventCallbackData
     // Size: 0x8
     // Offset: 0x68
-    GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData* beatmapEventCallbackData;
+    GlobalNamespace::BeatmapEventCallbackData* beatmapEventCallbackData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::BeatmapEventCallbackData*) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.Int32,SpawnRotationChevronManager/DirectionData> _directionToDataDictionary
     // Size: 0x8
     // Offset: 0x70
@@ -170,29 +174,29 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: SpawnRotationChevronManager
-    SpawnRotationChevronManager(float fadeInTime_ = {}, float fadeOutTime_ = {}, float jumpStartOffsetTime_ = {}, float cutOffsetTime_ = {}, UnityEngine::AnimationCurve* fadeInLightAmountCurve_ = {}, UnityEngine::AnimationCurve* fadeOutLightAmountCurve_ = {}, GlobalNamespace::SpawnRotationChevron::Pool* chevronPool_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSyncController_ = {}, GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}, GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::SpawnRotationProcessor* spawnRotationProcessor_ = {}, GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData* beatmapObjectCallbackData_ = {}, GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData* beatmapEventCallbackData_ = {}, System::Collections::Generic::Dictionary_2<int, GlobalNamespace::SpawnRotationChevronManager::DirectionData*>* directionToDataDictionary_ = {}, System::Collections::Generic::HashSet_1<int>* activeDirections_ = {}, System::Collections::Generic::List_1<int>* reusableDirectionsList_ = {}, float moveDuration_ = {}, float halfJumpDuration_ = {}) noexcept : fadeInTime{fadeInTime_}, fadeOutTime{fadeOutTime_}, jumpStartOffsetTime{jumpStartOffsetTime_}, cutOffsetTime{cutOffsetTime_}, fadeInLightAmountCurve{fadeInLightAmountCurve_}, fadeOutLightAmountCurve{fadeOutLightAmountCurve_}, chevronPool{chevronPool_}, audioTimeSyncController{audioTimeSyncController_}, beatmapObjectSpawnController{beatmapObjectSpawnController_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, spawnRotationProcessor{spawnRotationProcessor_}, beatmapObjectCallbackData{beatmapObjectCallbackData_}, beatmapEventCallbackData{beatmapEventCallbackData_}, directionToDataDictionary{directionToDataDictionary_}, activeDirections{activeDirections_}, reusableDirectionsList{reusableDirectionsList_}, moveDuration{moveDuration_}, halfJumpDuration{halfJumpDuration_} {}
+    SpawnRotationChevronManager(float fadeInTime_ = {}, float fadeOutTime_ = {}, float jumpStartOffsetTime_ = {}, float cutOffsetTime_ = {}, UnityEngine::AnimationCurve* fadeInLightAmountCurve_ = {}, UnityEngine::AnimationCurve* fadeOutLightAmountCurve_ = {}, GlobalNamespace::SpawnRotationChevron::Pool* chevronPool_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSyncController_ = {}, GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::SpawnRotationProcessor* spawnRotationProcessor_ = {}, GlobalNamespace::BeatmapObjectCallbackData* beatmapObjectCallbackData_ = {}, GlobalNamespace::BeatmapEventCallbackData* beatmapEventCallbackData_ = {}, System::Collections::Generic::Dictionary_2<int, GlobalNamespace::SpawnRotationChevronManager::DirectionData*>* directionToDataDictionary_ = {}, System::Collections::Generic::HashSet_1<int>* activeDirections_ = {}, System::Collections::Generic::List_1<int>* reusableDirectionsList_ = {}, float moveDuration_ = {}, float halfJumpDuration_ = {}) noexcept : fadeInTime{fadeInTime_}, fadeOutTime{fadeOutTime_}, jumpStartOffsetTime{jumpStartOffsetTime_}, cutOffsetTime{cutOffsetTime_}, fadeInLightAmountCurve{fadeInLightAmountCurve_}, fadeOutLightAmountCurve{fadeOutLightAmountCurve_}, chevronPool{chevronPool_}, audioTimeSyncController{audioTimeSyncController_}, beatmapObjectSpawnController{beatmapObjectSpawnController_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, spawnRotationProcessor{spawnRotationProcessor_}, beatmapObjectCallbackData{beatmapObjectCallbackData_}, beatmapEventCallbackData{beatmapEventCallbackData_}, directionToDataDictionary{directionToDataDictionary_}, activeDirections{activeDirections_}, reusableDirectionsList{reusableDirectionsList_}, moveDuration{moveDuration_}, halfJumpDuration{halfJumpDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF7323C
+    // Offset: 0x100D800
     void Start();
     // protected System.Void Update()
-    // Offset: 0xF734D4
+    // Offset: 0x100DB14
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0xF73EC8
+    // Offset: 0x100E4F4
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallback(BeatmapObjectData beatmapObjectData)
-    // Offset: 0xF73FF4
+    // Offset: 0x100E6B8
     void HandleBeatmapObjectCallback(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // private System.Void HandleBeatmapEventCallback(BeatmapEventData beatmapEventData)
-    // Offset: 0xF743BC
+    // Offset: 0x100EA78
     void HandleBeatmapEventCallback(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void HandleBeatmapObjectSpawnControllerDidInit()
-    // Offset: 0xF73384
+    // Offset: 0x100D920
     void HandleBeatmapObjectSpawnControllerDidInit();
     // public System.Void .ctor()
-    // Offset: 0xF74438
+    // Offset: 0x100EAF4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

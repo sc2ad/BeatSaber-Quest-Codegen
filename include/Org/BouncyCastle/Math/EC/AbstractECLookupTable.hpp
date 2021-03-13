@@ -34,21 +34,15 @@ namespace Org::BouncyCastle::Math::EC {
     }
     // public Org.BouncyCastle.Math.EC.ECPoint Lookup(System.Int32 index)
     // Offset: 0xFFFFFFFF
-    // Implemented from: Org.BouncyCastle.Math.EC.ECLookupTable
-    // Base method: Org.BouncyCastle.Math.EC.ECPoint ECLookupTable::Lookup(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
     // public System.Int32 get_Size()
     // Offset: 0xFFFFFFFF
-    // Implemented from: Org.BouncyCastle.Math.EC.ECLookupTable
-    // Base method: System.Int32 ECLookupTable::get_Size()
     int get_Size();
     // public Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
-    // Offset: 0x1B8A51C
-    // Implemented from: Org.BouncyCastle.Math.EC.ECLookupTable
-    // Base method: Org.BouncyCastle.Math.EC.ECPoint ECLookupTable::LookupVar(System.Int32 index)
+    // Offset: 0x1B182E4
     Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
     // protected System.Void .ctor()
-    // Offset: 0x1B8A528
+    // Offset: 0x1B182F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

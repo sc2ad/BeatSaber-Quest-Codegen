@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::MeshRenderer*>* meshRenderers;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::MeshRenderer*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD39558
+    // [InjectAttribute] Offset: 0xD24C50
     // private readonly BasicSpectrogramData _spectrogramData
     // Size: 0x8
     // Offset: 0x20
@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     Spectrogram(::Array<UnityEngine::MeshRenderer*>* meshRenderers_ = {}, GlobalNamespace::BasicSpectrogramData* spectrogramData_ = {}) noexcept : meshRenderers{meshRenderers_}, spectrogramData{spectrogramData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD39568
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD24C60
     // Get static field: static private readonly System.Int32 _spectrogramDataID
     static int _get__spectrogramDataID();
     // Set static field: static private readonly System.Int32 _spectrogramDataID
@@ -59,17 +59,14 @@ namespace GlobalNamespace {
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
-    // static private System.Void NoDomainReloadInit()
-    // Offset: 0xF74588
-    static void NoDomainReloadInit();
     // protected System.Void Awake()
-    // Offset: 0xF745F4
+    // Offset: 0x100EC2C
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xF746B0
+    // Offset: 0x100ECD8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xF747D0
+    // Offset: 0x100EDF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -82,7 +79,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<Spectrogram*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0xF747D8
+    // Offset: 0x100EE00
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

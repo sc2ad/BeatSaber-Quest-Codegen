@@ -26,7 +26,7 @@ namespace Zenject {
   template<typename T>
   class PrefabResourceFactory_1 : public ::Il2CppObject/*, public Zenject::IFactory_2<::Il2CppString*, T>*/ {
     public:
-    // [InjectAttribute] Offset: 0xD0621C
+    // [InjectAttribute] Offset: 0xCF0B80
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0
@@ -52,17 +52,10 @@ namespace Zenject {
     }
     // public T Create(System.String prefabResourceName)
     // Offset: 0xFFFFFFFF
-    // Implemented from: Zenject.IFactory`2
-    // Base method: TValue IFactory_2::Create(System.String prefabResourceName)
-    T Create(::Il2CppString* prefabResourceName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabResourceFactory_1::Create");
+    T Create_NEW(::Il2CppString* prefabResourceName) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabResourceFactory_1::Create_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(prefabResourceName)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefabResourceName);
-    }
-    // Creating proxy method: Zenject_IFactory_2_Create
-    // Maps to method: Create
-    T Zenject_IFactory_2_Create(::Il2CppString* prefabResourceName) {
-      return Create(prefabResourceName);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

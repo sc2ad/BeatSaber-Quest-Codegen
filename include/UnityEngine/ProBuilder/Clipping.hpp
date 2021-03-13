@@ -28,10 +28,10 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: Clipping
     Clipping() noexcept {}
     // static private UnityEngine.ProBuilder.Clipping/OutCode ComputeOutCode(UnityEngine.Rect rect, System.Single x, System.Single y)
-    // Offset: 0x1DC75F8
+    // Offset: 0x1D86CA4
     static UnityEngine::ProBuilder::Clipping::OutCode ComputeOutCode(UnityEngine::Rect rect, float x, float y);
     // static System.Boolean RectContainsLineSegment(UnityEngine.Rect rect, System.Single x0, System.Single y0, System.Single x1, System.Single y1)
-    // Offset: 0x1DC76A0
+    // Offset: 0x1D86D4C
     static bool RectContainsLineSegment(UnityEngine::Rect rect, float x0, float y0, float x1, float y1);
   }; // UnityEngine.ProBuilder.Clipping
   #pragma pack(pop)

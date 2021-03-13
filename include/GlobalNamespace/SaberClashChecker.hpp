@@ -75,16 +75,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kIgnoredTime
     static void _set_kIgnoredTime(float value);
     // private System.Void Init(SaberManager saberManager)
-    // Offset: 0x10868A0
+    // Offset: 0xFACE0C
     void Init(GlobalNamespace::SaberManager* saberManager);
     // public System.Boolean AreSabersClashing(out UnityEngine.Vector3 clashingPoint)
-    // Offset: 0x10868E4
+    // Offset: 0xFACE30
     bool AreSabersClashing(UnityEngine::Vector3& clashingPoint);
     // private System.Single SegmentToSegmentDist(UnityEngine.Vector3 fromA, UnityEngine.Vector3 toA, UnityEngine.Vector3 fromB, UnityEngine.Vector3 toB, out UnityEngine.Vector3 inbetweenPoint)
-    // Offset: 0x1086ABC
+    // Offset: 0xFAD008
     float SegmentToSegmentDist(UnityEngine::Vector3 fromA, UnityEngine::Vector3 toA, UnityEngine::Vector3 fromB, UnityEngine::Vector3 toB, UnityEngine::Vector3& inbetweenPoint);
     // public System.Void .ctor()
-    // Offset: 0x1086F68
+    // Offset: 0xFAD4B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

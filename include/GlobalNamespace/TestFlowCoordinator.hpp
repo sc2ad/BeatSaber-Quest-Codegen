@@ -25,35 +25,35 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class TestFlowCoordinator : public HMUI::FlowCoordinator {
     public:
-    // [NullAllowed] Offset: 0xD40588
+    // [NullAllowed] Offset: 0xD2C7FC
     // private HMUI.ViewController _viewController
     // Size: 0x8
     // Offset: 0xA8
     HMUI::ViewController* viewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0xD405C0
+    // [NullAllowed] Offset: 0xD2C834
     // private HMUI.ViewController _leftViewController
     // Size: 0x8
     // Offset: 0xB0
     HMUI::ViewController* leftViewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0xD405F8
+    // [NullAllowed] Offset: 0xD2C86C
     // private HMUI.ViewController _rightViewController
     // Size: 0x8
     // Offset: 0xB8
     HMUI::ViewController* rightViewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0xD40630
+    // [NullAllowed] Offset: 0xD2C8A4
     // private HMUI.ViewController _bottomScreenViewController
     // Size: 0x8
     // Offset: 0xC0
     HMUI::ViewController* bottomScreenViewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0xD40668
+    // [NullAllowed] Offset: 0xD2C8DC
     // private HMUI.ViewController _topScreenViewController
     // Size: 0x8
     // Offset: 0xC8
@@ -63,12 +63,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TestFlowCoordinator
     TestFlowCoordinator(HMUI::ViewController* viewController_ = {}, HMUI::ViewController* leftViewController_ = {}, HMUI::ViewController* rightViewController_ = {}, HMUI::ViewController* bottomScreenViewController_ = {}, HMUI::ViewController* topScreenViewController_ = {}) noexcept : viewController{viewController_}, leftViewController{leftViewController_}, rightViewController{rightViewController_}, bottomScreenViewController{bottomScreenViewController_}, topScreenViewController{topScreenViewController_} {}
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF42594
+    // Offset: 0x101BAD8
     // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Base method: System.Void FlowCoordinator::DidActivate_NEW(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF425B0
+    // Offset: 0x101BAF4
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

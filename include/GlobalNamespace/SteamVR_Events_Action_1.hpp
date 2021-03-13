@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // public override System.Void Enable(System.Boolean enabled)
     // Offset: 0xFFFFFFFF
     // Implemented from: SteamVR_Events/Action
-    // Base method: System.Void Action::Enable(System.Boolean enabled)
+    // Base method: System.Void Action::Enable_NEW(System.Boolean enabled)
     void Enable(bool enabled) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Events::Action_1::Enable");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Enable", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(enabled)));

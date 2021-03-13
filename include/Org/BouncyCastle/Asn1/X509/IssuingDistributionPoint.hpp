@@ -89,30 +89,30 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: IssuingDistributionPoint
     IssuingDistributionPoint(Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint_ = {}, bool onlyContainsUserCerts_ = {}, bool onlyContainsCACerts_ = {}, Org::BouncyCastle::Asn1::X509::ReasonFlags* onlySomeReasons_ = {}, bool indirectCRL_ = {}, bool onlyContainsAttributeCerts_ = {}, Org::BouncyCastle::Asn1::Asn1Sequence* seq_ = {}) noexcept : distributionPoint{distributionPoint_}, onlyContainsUserCerts{onlyContainsUserCerts_}, onlyContainsCACerts{onlyContainsCACerts_}, onlySomeReasons{onlySomeReasons_}, indirectCRL{indirectCRL_}, onlyContainsAttributeCerts{onlyContainsAttributeCerts_}, seq{seq_} {}
     // static public Org.BouncyCastle.Asn1.X509.IssuingDistributionPoint GetInstance(System.Object obj)
-    // Offset: 0x18FD5B0
+    // Offset: 0x1865898
     static Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x18FD730
+    // Offset: 0x1865A18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IssuingDistributionPoint* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IssuingDistributionPoint*, creationType>(seq)));
     }
     // public System.Boolean get_IsIndirectCrl()
-    // Offset: 0x18FDA04
+    // Offset: 0x1865CC4
     bool get_IsIndirectCrl();
     // private System.Void appendObject(System.Text.StringBuilder buf, System.String sep, System.String name, System.String val)
-    // Offset: 0x18FDC4C
+    // Offset: 0x1865F0C
     void appendObject(System::Text::StringBuilder* buf, ::Il2CppString* sep, ::Il2CppString* name, ::Il2CppString* val);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x18FDA0C
+    // Offset: 0x1865CCC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
-    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
+    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object_NEW()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x18FDA14
+    // Offset: 0x1865CD4
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.X509.IssuingDistributionPoint
   #pragma pack(pop)

@@ -43,24 +43,19 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
     // System.Void .ctor(System.Threading.Tasks.Task[] tasks)
-    // Offset: 0x17B77C0
+    // Offset: 0x16D9D40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::WhenAllPromise* New_ctor(::Array<System::Threading::Tasks::Task*>* tasks) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::WhenAllPromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::WhenAllPromise*, creationType>(tasks)));
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completedTask)
-    // Offset: 0x17B8544
-    // Implemented from: System.Threading.Tasks.ITaskCompletionAction
-    // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task completedTask)
-    void Invoke(System::Threading::Tasks::Task* completedTask);
-    // Creating proxy method: System_Threading_Tasks_ITaskCompletionAction_Invoke
-    // Maps to method: Invoke
-    void System_Threading_Tasks_ITaskCompletionAction_Invoke(System::Threading::Tasks::Task* completedTask);
+    // Offset: 0x16D9ED0
+    void Invoke_NEW(System::Threading::Tasks::Task* completedTask);
     // override System.Boolean get_ShouldNotifyDebuggerOfWaitCompletion()
-    // Offset: 0x17B87DC
+    // Offset: 0x16DA1D4
     // Implemented from: System.Threading.Tasks.Task
-    // Base method: System.Boolean Task::get_ShouldNotifyDebuggerOfWaitCompletion()
+    // Base method: System.Boolean Task::get_ShouldNotifyDebuggerOfWaitCompletion_NEW()
     bool get_ShouldNotifyDebuggerOfWaitCompletion();
   }; // System.Threading.Tasks.Task/WhenAllPromise
   // WARNING Not writing size check since size may be invalid!

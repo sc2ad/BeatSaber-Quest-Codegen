@@ -48,29 +48,29 @@ namespace Mono::Security::Cryptography {
     // Creating value type constructor for type: EncryptedPrivateKeyInfo
     EncryptedPrivateKeyInfo(::Il2CppString* algorithm_ = {}, ::Array<uint8_t>* salt_ = {}, int iterations_ = {}, ::Array<uint8_t>* data_ = {}) noexcept : algorithm{algorithm_}, salt{salt_}, iterations{iterations_}, data{data_} {}
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x1BED934
+    // Offset: 0x1B8EAC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS8::EncryptedPrivateKeyInfo* New_ctor(::Array<uint8_t>* data) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS8::EncryptedPrivateKeyInfo*, creationType>(data)));
     }
     // public System.String get_Algorithm()
-    // Offset: 0x1BEDC04
+    // Offset: 0x1B8ED70
     ::Il2CppString* get_Algorithm();
     // public System.Byte[] get_EncryptedData()
-    // Offset: 0x1BEDC0C
+    // Offset: 0x1B8ED78
     ::Array<uint8_t>* get_EncryptedData();
     // public System.Byte[] get_Salt()
-    // Offset: 0x1BEDC88
+    // Offset: 0x1B8EDF4
     ::Array<uint8_t>* get_Salt();
     // public System.Int32 get_IterationCount()
-    // Offset: 0x1BEDD58
+    // Offset: 0x1B8EEB8
     int get_IterationCount();
     // private System.Void Decode(System.Byte[] data)
-    // Offset: 0x1BED964
+    // Offset: 0x1B8EAF0
     void Decode(::Array<uint8_t>* data);
     // public System.Void .ctor()
-    // Offset: 0x1BED92C
+    // Offset: 0x1B8EAB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

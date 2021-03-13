@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // public override System.Void Raise()
     // Offset: 0xFFFFFFFF
     // Implemented from: Signal
-    // Base method: System.Void Signal::Raise()
+    // Base method: System.Void Signal::Raise_NEW()
     void Raise() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GenericSignal_1::Raise");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Raise", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));

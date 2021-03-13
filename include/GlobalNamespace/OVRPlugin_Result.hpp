@@ -87,6 +87,18 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Result _get_Failure_InsufficientSize();
     // Set static field: static public OVRPlugin/Result Failure_InsufficientSize
     static void _set_Failure_InsufficientSize(GlobalNamespace::OVRPlugin::Result value);
+    // static field const value: static public OVRPlugin/Result Failure_DataIsInvalid
+    static constexpr const int Failure_DataIsInvalid = -1008;
+    // Get static field: static public OVRPlugin/Result Failure_DataIsInvalid
+    static GlobalNamespace::OVRPlugin::Result _get_Failure_DataIsInvalid();
+    // Set static field: static public OVRPlugin/Result Failure_DataIsInvalid
+    static void _set_Failure_DataIsInvalid(GlobalNamespace::OVRPlugin::Result value);
+    // static field const value: static public OVRPlugin/Result Failure_DeprecatedOperation
+    static constexpr const int Failure_DeprecatedOperation = -1009;
+    // Get static field: static public OVRPlugin/Result Failure_DeprecatedOperation
+    static GlobalNamespace::OVRPlugin::Result _get_Failure_DeprecatedOperation();
+    // Set static field: static public OVRPlugin/Result Failure_DeprecatedOperation
+    static void _set_Failure_DeprecatedOperation(GlobalNamespace::OVRPlugin::Result value);
   }; // OVRPlugin/Result
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Result), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_ResultSizeCheck;

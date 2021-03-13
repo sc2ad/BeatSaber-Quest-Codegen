@@ -41,16 +41,16 @@ namespace NUnit::Framework::Internal {
       return text;
     }
     // public System.Void .ctor(System.String text)
-    // Offset: 0x2226A80
+    // Offset: 0x2097508
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator::FixedTextFragment* New_ctor(::Il2CppString* text) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestNameGenerator::FixedTextFragment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::FixedTextFragment*, creationType>(text)));
     }
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    // Offset: 0x2227794
+    // Offset: 0x2098214
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
-    // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
+    // Base method: System.String NameFragment::GetText_NEW(System.Reflection.MethodInfo method, System.Object[] args)
     ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* args);
   }; // NUnit.Framework.Internal.TestNameGenerator/FixedTextFragment
   #pragma pack(pop)

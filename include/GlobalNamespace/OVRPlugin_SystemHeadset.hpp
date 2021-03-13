@@ -39,54 +39,48 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::SystemHeadset _get_None();
     // Set static field: static public OVRPlugin/SystemHeadset None
     static void _set_None(GlobalNamespace::OVRPlugin::SystemHeadset value);
-    // static field const value: static public OVRPlugin/SystemHeadset GearVR_R320
-    static constexpr const int GearVR_R320 = 1;
-    // Get static field: static public OVRPlugin/SystemHeadset GearVR_R320
-    static GlobalNamespace::OVRPlugin::SystemHeadset _get_GearVR_R320();
-    // Set static field: static public OVRPlugin/SystemHeadset GearVR_R320
-    static void _set_GearVR_R320(GlobalNamespace::OVRPlugin::SystemHeadset value);
-    // static field const value: static public OVRPlugin/SystemHeadset GearVR_R321
-    static constexpr const int GearVR_R321 = 2;
-    // Get static field: static public OVRPlugin/SystemHeadset GearVR_R321
-    static GlobalNamespace::OVRPlugin::SystemHeadset _get_GearVR_R321();
-    // Set static field: static public OVRPlugin/SystemHeadset GearVR_R321
-    static void _set_GearVR_R321(GlobalNamespace::OVRPlugin::SystemHeadset value);
-    // static field const value: static public OVRPlugin/SystemHeadset GearVR_R322
-    static constexpr const int GearVR_R322 = 3;
-    // Get static field: static public OVRPlugin/SystemHeadset GearVR_R322
-    static GlobalNamespace::OVRPlugin::SystemHeadset _get_GearVR_R322();
-    // Set static field: static public OVRPlugin/SystemHeadset GearVR_R322
-    static void _set_GearVR_R322(GlobalNamespace::OVRPlugin::SystemHeadset value);
-    // static field const value: static public OVRPlugin/SystemHeadset GearVR_R323
-    static constexpr const int GearVR_R323 = 4;
-    // Get static field: static public OVRPlugin/SystemHeadset GearVR_R323
-    static GlobalNamespace::OVRPlugin::SystemHeadset _get_GearVR_R323();
-    // Set static field: static public OVRPlugin/SystemHeadset GearVR_R323
-    static void _set_GearVR_R323(GlobalNamespace::OVRPlugin::SystemHeadset value);
-    // static field const value: static public OVRPlugin/SystemHeadset GearVR_R324
-    static constexpr const int GearVR_R324 = 5;
-    // Get static field: static public OVRPlugin/SystemHeadset GearVR_R324
-    static GlobalNamespace::OVRPlugin::SystemHeadset _get_GearVR_R324();
-    // Set static field: static public OVRPlugin/SystemHeadset GearVR_R324
-    static void _set_GearVR_R324(GlobalNamespace::OVRPlugin::SystemHeadset value);
-    // static field const value: static public OVRPlugin/SystemHeadset GearVR_R325
-    static constexpr const int GearVR_R325 = 6;
-    // Get static field: static public OVRPlugin/SystemHeadset GearVR_R325
-    static GlobalNamespace::OVRPlugin::SystemHeadset _get_GearVR_R325();
-    // Set static field: static public OVRPlugin/SystemHeadset GearVR_R325
-    static void _set_GearVR_R325(GlobalNamespace::OVRPlugin::SystemHeadset value);
-    // static field const value: static public OVRPlugin/SystemHeadset Oculus_Go
-    static constexpr const int Oculus_Go = 7;
-    // Get static field: static public OVRPlugin/SystemHeadset Oculus_Go
-    static GlobalNamespace::OVRPlugin::SystemHeadset _get_Oculus_Go();
-    // Set static field: static public OVRPlugin/SystemHeadset Oculus_Go
-    static void _set_Oculus_Go(GlobalNamespace::OVRPlugin::SystemHeadset value);
     // static field const value: static public OVRPlugin/SystemHeadset Oculus_Quest
     static constexpr const int Oculus_Quest = 8;
     // Get static field: static public OVRPlugin/SystemHeadset Oculus_Quest
     static GlobalNamespace::OVRPlugin::SystemHeadset _get_Oculus_Quest();
     // Set static field: static public OVRPlugin/SystemHeadset Oculus_Quest
     static void _set_Oculus_Quest(GlobalNamespace::OVRPlugin::SystemHeadset value);
+    // static field const value: static public OVRPlugin/SystemHeadset Oculus_Quest_2
+    static constexpr const int Oculus_Quest_2 = 9;
+    // Get static field: static public OVRPlugin/SystemHeadset Oculus_Quest_2
+    static GlobalNamespace::OVRPlugin::SystemHeadset _get_Oculus_Quest_2();
+    // Set static field: static public OVRPlugin/SystemHeadset Oculus_Quest_2
+    static void _set_Oculus_Quest_2(GlobalNamespace::OVRPlugin::SystemHeadset value);
+    // static field const value: static public OVRPlugin/SystemHeadset Placeholder_10
+    static constexpr const int Placeholder_10 = 10;
+    // Get static field: static public OVRPlugin/SystemHeadset Placeholder_10
+    static GlobalNamespace::OVRPlugin::SystemHeadset _get_Placeholder_10();
+    // Set static field: static public OVRPlugin/SystemHeadset Placeholder_10
+    static void _set_Placeholder_10(GlobalNamespace::OVRPlugin::SystemHeadset value);
+    // static field const value: static public OVRPlugin/SystemHeadset Placeholder_11
+    static constexpr const int Placeholder_11 = 11;
+    // Get static field: static public OVRPlugin/SystemHeadset Placeholder_11
+    static GlobalNamespace::OVRPlugin::SystemHeadset _get_Placeholder_11();
+    // Set static field: static public OVRPlugin/SystemHeadset Placeholder_11
+    static void _set_Placeholder_11(GlobalNamespace::OVRPlugin::SystemHeadset value);
+    // static field const value: static public OVRPlugin/SystemHeadset Placeholder_12
+    static constexpr const int Placeholder_12 = 12;
+    // Get static field: static public OVRPlugin/SystemHeadset Placeholder_12
+    static GlobalNamespace::OVRPlugin::SystemHeadset _get_Placeholder_12();
+    // Set static field: static public OVRPlugin/SystemHeadset Placeholder_12
+    static void _set_Placeholder_12(GlobalNamespace::OVRPlugin::SystemHeadset value);
+    // static field const value: static public OVRPlugin/SystemHeadset Placeholder_13
+    static constexpr const int Placeholder_13 = 13;
+    // Get static field: static public OVRPlugin/SystemHeadset Placeholder_13
+    static GlobalNamespace::OVRPlugin::SystemHeadset _get_Placeholder_13();
+    // Set static field: static public OVRPlugin/SystemHeadset Placeholder_13
+    static void _set_Placeholder_13(GlobalNamespace::OVRPlugin::SystemHeadset value);
+    // static field const value: static public OVRPlugin/SystemHeadset Placeholder_14
+    static constexpr const int Placeholder_14 = 14;
+    // Get static field: static public OVRPlugin/SystemHeadset Placeholder_14
+    static GlobalNamespace::OVRPlugin::SystemHeadset _get_Placeholder_14();
+    // Set static field: static public OVRPlugin/SystemHeadset Placeholder_14
+    static void _set_Placeholder_14(GlobalNamespace::OVRPlugin::SystemHeadset value);
     // static field const value: static public OVRPlugin/SystemHeadset Rift_DK1
     static constexpr const int Rift_DK1 = 4096;
     // Get static field: static public OVRPlugin/SystemHeadset Rift_DK1
@@ -117,6 +111,48 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::SystemHeadset _get_Rift_S();
     // Set static field: static public OVRPlugin/SystemHeadset Rift_S
     static void _set_Rift_S(GlobalNamespace::OVRPlugin::SystemHeadset value);
+    // static field const value: static public OVRPlugin/SystemHeadset Oculus_Link_Quest
+    static constexpr const int Oculus_Link_Quest = 4101;
+    // Get static field: static public OVRPlugin/SystemHeadset Oculus_Link_Quest
+    static GlobalNamespace::OVRPlugin::SystemHeadset _get_Oculus_Link_Quest();
+    // Set static field: static public OVRPlugin/SystemHeadset Oculus_Link_Quest
+    static void _set_Oculus_Link_Quest(GlobalNamespace::OVRPlugin::SystemHeadset value);
+    // static field const value: static public OVRPlugin/SystemHeadset PC_Placeholder_4102
+    static constexpr const int PC_Placeholder_4102 = 4102;
+    // Get static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4102
+    static GlobalNamespace::OVRPlugin::SystemHeadset _get_PC_Placeholder_4102();
+    // Set static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4102
+    static void _set_PC_Placeholder_4102(GlobalNamespace::OVRPlugin::SystemHeadset value);
+    // static field const value: static public OVRPlugin/SystemHeadset PC_Placeholder_4103
+    static constexpr const int PC_Placeholder_4103 = 4103;
+    // Get static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4103
+    static GlobalNamespace::OVRPlugin::SystemHeadset _get_PC_Placeholder_4103();
+    // Set static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4103
+    static void _set_PC_Placeholder_4103(GlobalNamespace::OVRPlugin::SystemHeadset value);
+    // static field const value: static public OVRPlugin/SystemHeadset PC_Placeholder_4104
+    static constexpr const int PC_Placeholder_4104 = 4104;
+    // Get static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4104
+    static GlobalNamespace::OVRPlugin::SystemHeadset _get_PC_Placeholder_4104();
+    // Set static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4104
+    static void _set_PC_Placeholder_4104(GlobalNamespace::OVRPlugin::SystemHeadset value);
+    // static field const value: static public OVRPlugin/SystemHeadset PC_Placeholder_4105
+    static constexpr const int PC_Placeholder_4105 = 4105;
+    // Get static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4105
+    static GlobalNamespace::OVRPlugin::SystemHeadset _get_PC_Placeholder_4105();
+    // Set static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4105
+    static void _set_PC_Placeholder_4105(GlobalNamespace::OVRPlugin::SystemHeadset value);
+    // static field const value: static public OVRPlugin/SystemHeadset PC_Placeholder_4106
+    static constexpr const int PC_Placeholder_4106 = 4106;
+    // Get static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4106
+    static GlobalNamespace::OVRPlugin::SystemHeadset _get_PC_Placeholder_4106();
+    // Set static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4106
+    static void _set_PC_Placeholder_4106(GlobalNamespace::OVRPlugin::SystemHeadset value);
+    // static field const value: static public OVRPlugin/SystemHeadset PC_Placeholder_4107
+    static constexpr const int PC_Placeholder_4107 = 4107;
+    // Get static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4107
+    static GlobalNamespace::OVRPlugin::SystemHeadset _get_PC_Placeholder_4107();
+    // Set static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4107
+    static void _set_PC_Placeholder_4107(GlobalNamespace::OVRPlugin::SystemHeadset value);
   }; // OVRPlugin/SystemHeadset
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::SystemHeadset), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_SystemHeadsetSizeCheck;

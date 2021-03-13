@@ -48,12 +48,12 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0xE0B7F8
+    // Offset: 0xDF1F24
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xE0B804
+    // Offset: 0xDF1F30
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

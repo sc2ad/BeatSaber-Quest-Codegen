@@ -20,13 +20,13 @@ namespace LiteNetLib {
     INetLogger() noexcept {}
     // public System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     // Offset: 0xFFFFFFFF
-    void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::Array<::Il2CppObject*>* args);
+    void WriteNet_NEW(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
+    void WriteNet_NEW(LiteNetLib::NetLogLevel level, ::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     template<class ...TParams>
-    void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, TParams&&... args) {
-      WriteNet(level, str, {args...});
+    void WriteNet_NEW(LiteNetLib::NetLogLevel level, ::Il2CppString* str, TParams&&... args) {
+      WriteNet_NEW(level, str, {args...});
     }
   }; // LiteNetLib.INetLogger
   #pragma pack(pop)

@@ -66,26 +66,20 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator Org::BouncyCastle::Crypto::IStreamCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IStreamCipher*>(this);
     }
-    // protected System.Void InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x17C4F14
-    void InitKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x17C4D74
-    // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
-    // Base method: System.Void IStreamCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // Offset: 0x170A830
+    void Init_NEW(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // protected System.Void InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
+    // Offset: 0x170A9AC
+    void InitKey_NEW(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x17C514C
-    // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
-    // Base method: System.Void IStreamCipher::ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    void ProcessBytes(::Array<uint8_t>* input, int inOff, int len, ::Array<uint8_t>* output, int outOff);
+    // Offset: 0x170ABD8
+    void ProcessBytes_NEW(::Array<uint8_t>* input, int inOff, int len, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x17C532C
-    // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
-    // Base method: System.Void IStreamCipher::Reset()
-    void Reset();
+    // Offset: 0x170ADB8
+    void Reset_NEW();
     // public System.Void .ctor()
-    // Offset: 0x17C533C
+    // Offset: 0x170ADC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

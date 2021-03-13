@@ -46,20 +46,20 @@ namespace GlobalNamespace {
       return poseDictionary;
     }
     // public System.Int32 GetState(StandardScoreSyncState/Score type, System.Single time)
-    // Offset: 0x101476C
+    // Offset: 0x10367A8
     int GetState(GlobalNamespace::StandardScoreSyncState_Score type, float time);
     // public System.Void SetState(StandardScoreSyncState/Score type, System.Int32 state)
-    // Offset: 0x10147EC
+    // Offset: 0x1036828
     void SetState(GlobalNamespace::StandardScoreSyncState_Score type, int state);
     // public System.Void SetMockedState(StandardScoreSyncState/Score type, System.Int32 state)
-    // Offset: 0x1014250
+    // Offset: 0x10362D0
     void SetMockedState(GlobalNamespace::StandardScoreSyncState_Score type, int state);
-    // public System.Void .ctor(IConnectedPlayer player, System.Single reliableUpdateFrequency, System.Single unreliableUpdateFrequency, System.Int32 size, StateBuffer`3/InterpolationDelegate<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> interpolator, StateBuffer`3/SmoothingDelegate<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> smoother)
-    // Offset: 0x1013E44
+    // public System.Void .ctor(IConnectedPlayer player, System.Single fullStateUpdateFrequency, System.Single deltaUpdateFrequency, System.Int32 size, StateBuffer`3/InterpolationDelegate<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> interpolator, StateBuffer`3/SmoothingDelegate<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> smoother)
+    // Offset: 0x1035ECC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MockStandardScoreSyncState* New_ctor(GlobalNamespace::IConnectedPlayer* player, float reliableUpdateFrequency, float unreliableUpdateFrequency, int size, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>::InterpolationDelegate* interpolator, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>::SmoothingDelegate* smoother) {
+    static MockStandardScoreSyncState* New_ctor(GlobalNamespace::IConnectedPlayer* player, float fullStateUpdateFrequency, float deltaUpdateFrequency, int size, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>::InterpolationDelegate* interpolator, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>::SmoothingDelegate* smoother) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockStandardScoreSyncState::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<MockStandardScoreSyncState*, creationType>(player, reliableUpdateFrequency, unreliableUpdateFrequency, size, interpolator, smoother)));
+      return THROW_UNLESS((::il2cpp_utils::New<MockStandardScoreSyncState*, creationType>(player, fullStateUpdateFrequency, deltaUpdateFrequency, size, interpolator, smoother)));
     }
   }; // MockStandardScoreSyncState
   // WARNING Not writing size check since size may be invalid!

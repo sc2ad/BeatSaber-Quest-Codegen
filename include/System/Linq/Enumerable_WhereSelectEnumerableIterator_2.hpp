@@ -93,30 +93,20 @@ namespace System::Linq {
     // public override System.Void Dispose()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.Enumerable/Iterator`1
-    // Base method: System.Void Iterator_1::Dispose()
+    // Base method: System.Void Iterator_1::Dispose_NEW()
     void Dispose() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereSelectEnumerableIterator_2::Dispose");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
-    // Creating proxy method: System_IDisposable_Dispose
-    // Maps to method: Dispose
-    void System_IDisposable_Dispose() {
-      Dispose();
-    }
     // public override System.Boolean MoveNext()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.Enumerable/Iterator`1
-    // Base method: System.Boolean Iterator_1::MoveNext()
+    // Base method: System.Boolean Iterator_1::MoveNext_NEW()
     bool MoveNext() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereSelectEnumerableIterator_2::MoveNext");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
-    }
-    // Creating proxy method: System_Collections_IEnumerator_MoveNext
-    // Maps to method: MoveNext
-    bool System_Collections_IEnumerator_MoveNext() {
-      return MoveNext();
     }
   }; // System.Linq.Enumerable/WhereSelectEnumerableIterator`2
   // Could not write size check! Type: System.Linq.Enumerable/WhereSelectEnumerableIterator`2 is generic, or has no fields that are valid for size checks!

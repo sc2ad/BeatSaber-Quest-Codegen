@@ -45,17 +45,15 @@ namespace Org::BouncyCastle::Asn1 {
       return parser;
     }
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x16009D0
+    // Offset: 0x15404E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerSetParser* New_ctor(Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerSetParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerSetParser*, creationType>(parser)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1600A04
-    // Implemented from: Org.BouncyCastle.Asn1.IAsn1Convertible
-    // Base method: Org.BouncyCastle.Asn1.Asn1Object IAsn1Convertible::ToAsn1Object()
-    Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+    // Offset: 0x154050C
+    Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object_NEW();
   }; // Org.BouncyCastle.Asn1.BerSetParser
   #pragma pack(pop)
   static check_size<sizeof(BerSetParser), 16 + sizeof(Org::BouncyCastle::Asn1::Asn1StreamParser*)> __Org_BouncyCastle_Asn1_BerSetParserSizeCheck;

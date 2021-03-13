@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ConnectToMatchmakingParams
     ConnectToMatchmakingParams(GlobalNamespace::GameplayServerConfiguration configuration_ = {}, ::Il2CppString* secret_ = {}) noexcept : configuration{configuration_}, secret{secret_} {}
     // public System.Void .ctor()
-    // Offset: 0x112D424
+    // Offset: 0x1296850
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
     // Base method: System.Void MasterServerConnectionManagerParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

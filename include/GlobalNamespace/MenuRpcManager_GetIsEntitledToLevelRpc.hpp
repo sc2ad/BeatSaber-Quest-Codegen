@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GetIsEntitledToLevelRpc
     GetIsEntitledToLevelRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1C12174
+    // Offset: 0x15BA6EC
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

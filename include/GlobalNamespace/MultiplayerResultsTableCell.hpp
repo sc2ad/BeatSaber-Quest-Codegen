@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerResultsAvatarController* multiplayerResultsAvatarController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsAvatarController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD44488
+    // [SpaceAttribute] Offset: 0xD3084C
     // private System.Single _avatarScale
     // Size: 0x4
     // Offset: 0x90
@@ -137,13 +137,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerResultsTableCell
     MultiplayerResultsTableCell(TMPro::TextMeshProUGUI* positionText_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* rankText_ = {}, ::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights_ = {}, UnityEngine::UI::Image* backgroundImage_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, GlobalNamespace::MultiplayerResultsAvatarController* multiplayerResultsAvatarController_ = {}, float avatarScale_ = {}, UnityEngine::Color normalSecondPlayerColor_ = {}, UnityEngine::Color normalLastPlayerColor_ = {}, UnityEngine::Color localPlayerColor_ = {}, UnityEngine::Color winnerColor_ = {}, UnityEngine::Color lightColor_ = {}) noexcept : positionText{positionText_}, nameText{nameText_}, scoreText{scoreText_}, rankText{rankText_}, lights{lights_}, backgroundImage{backgroundImage_}, canvasGroup{canvasGroup_}, multiplayerResultsAvatarController{multiplayerResultsAvatarController_}, avatarScale{avatarScale_}, normalSecondPlayerColor{normalSecondPlayerColor_}, normalLastPlayerColor{normalLastPlayerColor_}, localPlayerColor{localPlayerColor_}, winnerColor{winnerColor_}, lightColor{lightColor_} {}
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0xFEFABC
+    // Offset: 0xF19180
     void set_alpha(float value);
     // public System.Void SetData(IConnectedPlayer connectedPlayer, System.Int32 position, System.String playerName, LevelCompletionResults levelCompletionResults, System.Boolean isLocalPlayer, System.Int32 numberOfPlayers)
-    // Offset: 0xFEFB78
+    // Offset: 0xF1923C
     void SetData(GlobalNamespace::IConnectedPlayer* connectedPlayer, int position, ::Il2CppString* playerName, GlobalNamespace::LevelCompletionResults* levelCompletionResults, bool isLocalPlayer, int numberOfPlayers);
     // public System.Void .ctor()
-    // Offset: 0xFEFF10
+    // Offset: 0xF195D4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

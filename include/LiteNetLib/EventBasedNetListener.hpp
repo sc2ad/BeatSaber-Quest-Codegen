@@ -64,56 +64,56 @@ namespace LiteNetLib {
     class OnConnectionRequest;
     // Nested type: LiteNetLib::EventBasedNetListener::OnDeliveryEvent
     class OnDeliveryEvent;
-    // [CompilerGeneratedAttribute] Offset: 0xD0BFD8
+    // [CompilerGeneratedAttribute] Offset: 0xCF6AE0
     // private LiteNetLib.EventBasedNetListener/OnPeerConnected PeerConnectedEvent
     // Size: 0x8
     // Offset: 0x10
     LiteNetLib::EventBasedNetListener::OnPeerConnected* PeerConnectedEvent;
     // Field size check
     static_assert(sizeof(LiteNetLib::EventBasedNetListener::OnPeerConnected*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0BFE8
+    // [CompilerGeneratedAttribute] Offset: 0xCF6AF0
     // private LiteNetLib.EventBasedNetListener/OnPeerDisconnected PeerDisconnectedEvent
     // Size: 0x8
     // Offset: 0x18
     LiteNetLib::EventBasedNetListener::OnPeerDisconnected* PeerDisconnectedEvent;
     // Field size check
     static_assert(sizeof(LiteNetLib::EventBasedNetListener::OnPeerDisconnected*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0BFF8
+    // [CompilerGeneratedAttribute] Offset: 0xCF6B00
     // private LiteNetLib.EventBasedNetListener/OnNetworkError NetworkErrorEvent
     // Size: 0x8
     // Offset: 0x20
     LiteNetLib::EventBasedNetListener::OnNetworkError* NetworkErrorEvent;
     // Field size check
     static_assert(sizeof(LiteNetLib::EventBasedNetListener::OnNetworkError*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0C008
+    // [CompilerGeneratedAttribute] Offset: 0xCF6B10
     // private LiteNetLib.EventBasedNetListener/OnNetworkReceive NetworkReceiveEvent
     // Size: 0x8
     // Offset: 0x28
     LiteNetLib::EventBasedNetListener::OnNetworkReceive* NetworkReceiveEvent;
     // Field size check
     static_assert(sizeof(LiteNetLib::EventBasedNetListener::OnNetworkReceive*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0C018
+    // [CompilerGeneratedAttribute] Offset: 0xCF6B20
     // private LiteNetLib.EventBasedNetListener/OnNetworkReceiveUnconnected NetworkReceiveUnconnectedEvent
     // Size: 0x8
     // Offset: 0x30
     LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected* NetworkReceiveUnconnectedEvent;
     // Field size check
     static_assert(sizeof(LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0C028
+    // [CompilerGeneratedAttribute] Offset: 0xCF6B30
     // private LiteNetLib.EventBasedNetListener/OnNetworkLatencyUpdate NetworkLatencyUpdateEvent
     // Size: 0x8
     // Offset: 0x38
     LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate* NetworkLatencyUpdateEvent;
     // Field size check
     static_assert(sizeof(LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0C038
+    // [CompilerGeneratedAttribute] Offset: 0xCF6B40
     // private LiteNetLib.EventBasedNetListener/OnConnectionRequest ConnectionRequestEvent
     // Size: 0x8
     // Offset: 0x40
     LiteNetLib::EventBasedNetListener::OnConnectionRequest* ConnectionRequestEvent;
     // Field size check
     static_assert(sizeof(LiteNetLib::EventBasedNetListener::OnConnectionRequest*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0C048
+    // [CompilerGeneratedAttribute] Offset: 0xCF6B50
     // private LiteNetLib.EventBasedNetListener/OnDeliveryEvent DeliveryEvent
     // Size: 0x8
     // Offset: 0x48
@@ -131,119 +131,103 @@ namespace LiteNetLib {
       return *reinterpret_cast<LiteNetLib::IDeliveryEventListener*>(this);
     }
     // public System.Void add_PeerConnectedEvent(LiteNetLib.EventBasedNetListener/OnPeerConnected value)
-    // Offset: 0x1A96120
+    // Offset: 0x19E8F20
     void add_PeerConnectedEvent(LiteNetLib::EventBasedNetListener::OnPeerConnected* value);
     // public System.Void remove_PeerConnectedEvent(LiteNetLib.EventBasedNetListener/OnPeerConnected value)
-    // Offset: 0x1A961C4
+    // Offset: 0x19E8FC4
     void remove_PeerConnectedEvent(LiteNetLib::EventBasedNetListener::OnPeerConnected* value);
     // public System.Void add_PeerDisconnectedEvent(LiteNetLib.EventBasedNetListener/OnPeerDisconnected value)
-    // Offset: 0x1A96268
+    // Offset: 0x19E9068
     void add_PeerDisconnectedEvent(LiteNetLib::EventBasedNetListener::OnPeerDisconnected* value);
     // public System.Void remove_PeerDisconnectedEvent(LiteNetLib.EventBasedNetListener/OnPeerDisconnected value)
-    // Offset: 0x1A9630C
+    // Offset: 0x19E910C
     void remove_PeerDisconnectedEvent(LiteNetLib::EventBasedNetListener::OnPeerDisconnected* value);
     // public System.Void add_NetworkErrorEvent(LiteNetLib.EventBasedNetListener/OnNetworkError value)
-    // Offset: 0x1A963B0
+    // Offset: 0x19E91B0
     void add_NetworkErrorEvent(LiteNetLib::EventBasedNetListener::OnNetworkError* value);
     // public System.Void remove_NetworkErrorEvent(LiteNetLib.EventBasedNetListener/OnNetworkError value)
-    // Offset: 0x1A96454
+    // Offset: 0x19E9254
     void remove_NetworkErrorEvent(LiteNetLib::EventBasedNetListener::OnNetworkError* value);
     // public System.Void add_NetworkReceiveEvent(LiteNetLib.EventBasedNetListener/OnNetworkReceive value)
-    // Offset: 0x1A964F8
+    // Offset: 0x19E92F8
     void add_NetworkReceiveEvent(LiteNetLib::EventBasedNetListener::OnNetworkReceive* value);
     // public System.Void remove_NetworkReceiveEvent(LiteNetLib.EventBasedNetListener/OnNetworkReceive value)
-    // Offset: 0x1A9659C
+    // Offset: 0x19E939C
     void remove_NetworkReceiveEvent(LiteNetLib::EventBasedNetListener::OnNetworkReceive* value);
     // public System.Void add_NetworkReceiveUnconnectedEvent(LiteNetLib.EventBasedNetListener/OnNetworkReceiveUnconnected value)
-    // Offset: 0x1A96640
+    // Offset: 0x19E9440
     void add_NetworkReceiveUnconnectedEvent(LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected* value);
     // public System.Void remove_NetworkReceiveUnconnectedEvent(LiteNetLib.EventBasedNetListener/OnNetworkReceiveUnconnected value)
-    // Offset: 0x1A966E4
+    // Offset: 0x19E94E4
     void remove_NetworkReceiveUnconnectedEvent(LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected* value);
     // public System.Void add_NetworkLatencyUpdateEvent(LiteNetLib.EventBasedNetListener/OnNetworkLatencyUpdate value)
-    // Offset: 0x1A96788
+    // Offset: 0x19E9588
     void add_NetworkLatencyUpdateEvent(LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate* value);
     // public System.Void remove_NetworkLatencyUpdateEvent(LiteNetLib.EventBasedNetListener/OnNetworkLatencyUpdate value)
-    // Offset: 0x1A9682C
+    // Offset: 0x19E962C
     void remove_NetworkLatencyUpdateEvent(LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate* value);
     // public System.Void add_ConnectionRequestEvent(LiteNetLib.EventBasedNetListener/OnConnectionRequest value)
-    // Offset: 0x1A968D0
+    // Offset: 0x19E96D0
     void add_ConnectionRequestEvent(LiteNetLib::EventBasedNetListener::OnConnectionRequest* value);
     // public System.Void remove_ConnectionRequestEvent(LiteNetLib.EventBasedNetListener/OnConnectionRequest value)
-    // Offset: 0x1A96974
+    // Offset: 0x19E9774
     void remove_ConnectionRequestEvent(LiteNetLib::EventBasedNetListener::OnConnectionRequest* value);
     // public System.Void add_DeliveryEvent(LiteNetLib.EventBasedNetListener/OnDeliveryEvent value)
-    // Offset: 0x1A96A18
+    // Offset: 0x19E9818
     void add_DeliveryEvent(LiteNetLib::EventBasedNetListener::OnDeliveryEvent* value);
     // public System.Void remove_DeliveryEvent(LiteNetLib.EventBasedNetListener/OnDeliveryEvent value)
-    // Offset: 0x1A96ABC
+    // Offset: 0x19E98BC
     void remove_DeliveryEvent(LiteNetLib::EventBasedNetListener::OnDeliveryEvent* value);
     // public System.Void ClearPeerConnectedEvent()
-    // Offset: 0x1A96B60
+    // Offset: 0x19E9960
     void ClearPeerConnectedEvent();
     // public System.Void ClearPeerDisconnectedEvent()
-    // Offset: 0x1A96B6C
+    // Offset: 0x19E9968
     void ClearPeerDisconnectedEvent();
     // public System.Void ClearNetworkErrorEvent()
-    // Offset: 0x1A96B78
+    // Offset: 0x19E9970
     void ClearNetworkErrorEvent();
     // public System.Void ClearNetworkReceiveEvent()
-    // Offset: 0x1A96B84
+    // Offset: 0x19E9978
     void ClearNetworkReceiveEvent();
     // public System.Void ClearNetworkReceiveUnconnectedEvent()
-    // Offset: 0x1A96B90
+    // Offset: 0x19E9980
     void ClearNetworkReceiveUnconnectedEvent();
     // public System.Void ClearNetworkLatencyUpdateEvent()
-    // Offset: 0x1A96B9C
+    // Offset: 0x19E9988
     void ClearNetworkLatencyUpdateEvent();
     // public System.Void ClearConnectionRequestEvent()
-    // Offset: 0x1A96BA8
+    // Offset: 0x19E9990
     void ClearConnectionRequestEvent();
     // public System.Void ClearDeliveryEvent()
-    // Offset: 0x1A96BB4
+    // Offset: 0x19E9998
     void ClearDeliveryEvent();
     // private System.Void LiteNetLib.INetEventListener.OnPeerConnected(LiteNetLib.NetPeer peer)
-    // Offset: 0x1A96BC0
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnPeerConnected(LiteNetLib.NetPeer peer)
-    void LiteNetLib_INetEventListener_OnPeerConnected(LiteNetLib::NetPeer* peer);
+    // Offset: 0x19E99A0
+    void LiteNetLib_INetEventListener_OnPeerConnected_NEW(LiteNetLib::NetPeer* peer);
     // private System.Void LiteNetLib.INetEventListener.OnPeerDisconnected(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectInfo disconnectInfo)
-    // Offset: 0x1A96F88
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnPeerDisconnected(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectInfo disconnectInfo)
-    void LiteNetLib_INetEventListener_OnPeerDisconnected(LiteNetLib::NetPeer* peer, LiteNetLib::DisconnectInfo disconnectInfo);
+    // Offset: 0x19E9D44
+    void LiteNetLib_INetEventListener_OnPeerDisconnected_NEW(LiteNetLib::NetPeer* peer, LiteNetLib::DisconnectInfo disconnectInfo);
     // private System.Void LiteNetLib.INetEventListener.OnNetworkError(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketErrorCode)
-    // Offset: 0x1A973D8
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnNetworkError(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketErrorCode)
-    void LiteNetLib_INetEventListener_OnNetworkError(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketErrorCode);
+    // Offset: 0x19EA174
+    void LiteNetLib_INetEventListener_OnNetworkError_NEW(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketErrorCode);
     // private System.Void LiteNetLib.INetEventListener.OnNetworkReceive(LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x1A97814
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnNetworkReceive(LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod)
-    void LiteNetLib_INetEventListener_OnNetworkReceive(LiteNetLib::NetPeer* peer, LiteNetLib::NetPacketReader* reader, LiteNetLib::DeliveryMethod deliveryMethod);
+    // Offset: 0x19EA590
+    void LiteNetLib_INetEventListener_OnNetworkReceive_NEW(LiteNetLib::NetPeer* peer, LiteNetLib::NetPacketReader* reader, LiteNetLib::DeliveryMethod deliveryMethod);
     // private System.Void LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType)
-    // Offset: 0x1A97C4C
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnNetworkReceiveUnconnected(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType)
-    void LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPacketReader* reader, LiteNetLib::UnconnectedMessageType messageType);
+    // Offset: 0x19EA9B0
+    void LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected_NEW(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPacketReader* reader, LiteNetLib::UnconnectedMessageType messageType);
     // private System.Void LiteNetLib.INetEventListener.OnNetworkLatencyUpdate(LiteNetLib.NetPeer peer, System.Int32 latency)
-    // Offset: 0x1A98084
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnNetworkLatencyUpdate(LiteNetLib.NetPeer peer, System.Int32 latency)
-    void LiteNetLib_INetEventListener_OnNetworkLatencyUpdate(LiteNetLib::NetPeer* peer, int latency);
+    // Offset: 0x19EADD0
+    void LiteNetLib_INetEventListener_OnNetworkLatencyUpdate_NEW(LiteNetLib::NetPeer* peer, int latency);
     // private System.Void LiteNetLib.INetEventListener.OnConnectionRequest(LiteNetLib.ConnectionRequest request)
-    // Offset: 0x1A984C0
-    // Implemented from: LiteNetLib.INetEventListener
-    // Base method: System.Void INetEventListener::OnConnectionRequest(LiteNetLib.ConnectionRequest request)
-    void LiteNetLib_INetEventListener_OnConnectionRequest(LiteNetLib::ConnectionRequest* request);
+    // Offset: 0x19EB1EC
+    void LiteNetLib_INetEventListener_OnConnectionRequest_NEW(LiteNetLib::ConnectionRequest* request);
     // private System.Void LiteNetLib.IDeliveryEventListener.OnMessageDelivered(LiteNetLib.NetPeer peer, System.Object userData)
-    // Offset: 0x1A98888
-    // Implemented from: LiteNetLib.IDeliveryEventListener
-    // Base method: System.Void IDeliveryEventListener::OnMessageDelivered(LiteNetLib.NetPeer peer, System.Object userData)
-    void LiteNetLib_IDeliveryEventListener_OnMessageDelivered(LiteNetLib::NetPeer* peer, ::Il2CppObject* userData);
+    // Offset: 0x19EB590
+    void LiteNetLib_IDeliveryEventListener_OnMessageDelivered_NEW(LiteNetLib::NetPeer* peer, ::Il2CppObject* userData);
     // public System.Void .ctor()
-    // Offset: 0x1A98C9C
+    // Offset: 0x19EB988
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

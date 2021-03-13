@@ -21,14 +21,14 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // [] Offset: FFFFFFFF
   class RemoteTestResultSender::QueueData : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD591E4
+    // [CompilerGeneratedAttribute] Offset: 0xD45384
     // private System.Guid <id>k__BackingField
     // Size: 0x10
     // Offset: 0x10
     System::Guid id;
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
-    // [CompilerGeneratedAttribute] Offset: 0xD591F4
+    // [CompilerGeneratedAttribute] Offset: 0xD45394
     // private System.Byte[] <data>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -38,19 +38,19 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Creating value type constructor for type: QueueData
     QueueData(System::Guid id_ = {}, ::Array<uint8_t>* data_ = {}) noexcept : id{id_}, data{data_} {}
     // public System.Guid get_id()
-    // Offset: 0x133C4C8
+    // Offset: 0x1353F40
     System::Guid get_id();
     // public System.Void set_id(System.Guid value)
-    // Offset: 0x133C4D4
+    // Offset: 0x1353F4C
     void set_id(System::Guid value);
     // public System.Byte[] get_data()
-    // Offset: 0x133C4DC
+    // Offset: 0x1353F54
     ::Array<uint8_t>* get_data();
     // public System.Void set_data(System.Byte[] value)
-    // Offset: 0x133C4E4
+    // Offset: 0x1353F5C
     void set_data(::Array<uint8_t>* value);
     // public System.Void .ctor()
-    // Offset: 0x133B970
+    // Offset: 0x13534B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

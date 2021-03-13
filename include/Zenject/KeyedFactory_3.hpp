@@ -36,15 +36,15 @@ namespace Zenject {
     KeyedFactory_3() noexcept {}
     // public TBase Create(TKey key, TParam1 param1)
     // Offset: 0xFFFFFFFF
-    TBase Create(TKey key, TParam1 param1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_3::Create");
+    TBase Create_NEW(TKey key, TParam1 param1) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_3::Create_NEW");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key, param1)));
       return ::il2cpp_utils::RunMethodThrow<TBase, false>(this, ___internal__method, key, param1);
     }
     // protected override System.Collections.Generic.IEnumerable`1<System.Type> get_ProvidedTypes()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.KeyedFactoryBase`2
-    // Base method: System.Collections.Generic.IEnumerable`1<System.Type> KeyedFactoryBase_2::get_ProvidedTypes()
+    // Base method: System.Collections.Generic.IEnumerable`1<System.Type> KeyedFactoryBase_2::get_ProvidedTypes_NEW()
     System::Collections::Generic::IEnumerable_1<System::Type*>* get_ProvidedTypes() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_3::get_ProvidedTypes");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_ProvidedTypes", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));

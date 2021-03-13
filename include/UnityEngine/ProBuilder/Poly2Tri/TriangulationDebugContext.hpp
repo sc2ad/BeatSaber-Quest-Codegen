@@ -34,7 +34,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
-    void Clear();
+    void Clear_NEW();
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext
   #pragma pack(pop)
   static check_size<sizeof(TriangulationDebugContext), 16 + sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*)> __UnityEngine_ProBuilder_Poly2Tri_TriangulationDebugContextSizeCheck;

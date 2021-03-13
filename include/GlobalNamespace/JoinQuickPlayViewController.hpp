@@ -16,10 +16,12 @@
 namespace GlobalNamespace {
   // Forward declaring type: BeatmapDifficultyDropdown
   class BeatmapDifficultyDropdown;
-  // Forward declaring type: SongPacksDropdown
-  class SongPacksDropdown;
+  // Forward declaring type: QuickPlaySongPacksDropdown
+  class QuickPlaySongPacksDropdown;
   // Forward declaring type: MultiplayerModeSettings
   class MultiplayerModeSettings;
+  // Forward declaring type: MasterServerQuickPlaySetupData
+  class MasterServerQuickPlaySetupData;
 }
 // Forward declaring namespace: UnityEngine::UI
 namespace UnityEngine::UI {
@@ -47,12 +49,12 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapDifficultyDropdown* beatmapDifficultyDropdown;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficultyDropdown*) == 0x8);
-    // private SongPacksDropdown _songPacksDropdown
+    // private QuickPlaySongPacksDropdown _songPacksDropdown
     // Size: 0x8
     // Offset: 0x78
-    GlobalNamespace::SongPacksDropdown* songPacksDropdown;
+    GlobalNamespace::QuickPlaySongPacksDropdown* songPacksDropdown;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::SongPacksDropdown*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::QuickPlaySongPacksDropdown*) == 0x8);
     // private UnityEngine.UI.Button _joinButton
     // Size: 0x8
     // Offset: 0x80
@@ -65,7 +67,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* cancelJoinButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD42FEC
+    // [CompilerGeneratedAttribute] Offset: 0xD2F3B0
     // private System.Action`1<System.Boolean> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
@@ -79,35 +81,35 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerModeSettings*) == 0x8);
     // Creating value type constructor for type: JoinQuickPlayViewController
-    JoinQuickPlayViewController(GlobalNamespace::BeatmapDifficultyDropdown* beatmapDifficultyDropdown_ = {}, GlobalNamespace::SongPacksDropdown* songPacksDropdown_ = {}, UnityEngine::UI::Button* joinButton_ = {}, UnityEngine::UI::Button* cancelJoinButton_ = {}, System::Action_1<bool>* didFinishEvent_ = {}, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings_ = {}) noexcept : beatmapDifficultyDropdown{beatmapDifficultyDropdown_}, songPacksDropdown{songPacksDropdown_}, joinButton{joinButton_}, cancelJoinButton{cancelJoinButton_}, didFinishEvent{didFinishEvent_}, multiplayerModeSettings{multiplayerModeSettings_} {}
+    JoinQuickPlayViewController(GlobalNamespace::BeatmapDifficultyDropdown* beatmapDifficultyDropdown_ = {}, GlobalNamespace::QuickPlaySongPacksDropdown* songPacksDropdown_ = {}, UnityEngine::UI::Button* joinButton_ = {}, UnityEngine::UI::Button* cancelJoinButton_ = {}, System::Action_1<bool>* didFinishEvent_ = {}, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings_ = {}) noexcept : beatmapDifficultyDropdown{beatmapDifficultyDropdown_}, songPacksDropdown{songPacksDropdown_}, joinButton{joinButton_}, cancelJoinButton{cancelJoinButton_}, didFinishEvent{didFinishEvent_}, multiplayerModeSettings{multiplayerModeSettings_} {}
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xFD39B0
+    // Offset: 0xFF5F2C
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xFD3A54
+    // Offset: 0xFF5FD0
     void remove_didFinishEvent(System::Action_1<bool>* value);
     // public MultiplayerModeSettings get_multiplayerModeSettings()
-    // Offset: 0xFD3AF8
+    // Offset: 0xFF6074
     GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
-    // public System.Void Setup(MultiplayerModeSettings multiplayerModeSettings)
-    // Offset: 0xFD3B00
-    void Setup(GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
+    // public System.Void Setup(MasterServerQuickPlaySetupData masterServerQuickPlaySetupData, MultiplayerModeSettings multiplayerModeSettings)
+    // Offset: 0xFF607C
+    void Setup(GlobalNamespace::MasterServerQuickPlaySetupData* masterServerQuickPlaySetupData, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
     // private System.Void ButtonPressed(System.Boolean success)
-    // Offset: 0xFD3C80
+    // Offset: 0xFF6218
     void ButtonPressed(bool success);
     // private System.Void <DidActivate>b__11_0()
-    // Offset: 0xFD3D38
+    // Offset: 0xFF62D0
     void $DidActivate$b__11_0();
     // private System.Void <DidActivate>b__11_1()
-    // Offset: 0xFD3D40
+    // Offset: 0xFF62D8
     void $DidActivate$b__11_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xFD3B64
+    // Offset: 0xFF60FC
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Base method: System.Void ViewController::DidActivate_NEW(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xFD3D30
+    // Offset: 0xFF62C8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

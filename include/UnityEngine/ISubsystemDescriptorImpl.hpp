@@ -29,7 +29,7 @@ namespace UnityEngine {
     }
     // public System.Void set_ptr(System.IntPtr value)
     // Offset: 0xFFFFFFFF
-    void UnityEngine_ISubsystemDescriptorImpl_set_ptr(System::IntPtr value);
+    void set_ptr_NEW(System::IntPtr value);
   }; // UnityEngine.ISubsystemDescriptorImpl
   #pragma pack(pop)
 }

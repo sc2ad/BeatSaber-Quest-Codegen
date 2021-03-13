@@ -6,8 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: MasterServerAvailabilityData/UserMessage
 #include "GlobalNamespace/MasterServerAvailabilityData_UserMessage.hpp"
-// Including type: Polyglot.Language
-#include "Polyglot/Language.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -21,14 +19,12 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MasterServerAvailabilityData::UserMessage::LocalizedMessage : public ::Il2CppObject {
     public:
-    // public Polyglot.Language language
-    // Size: 0x4
+    // public System.String language
+    // Size: 0x8
     // Offset: 0x10
-    Polyglot::Language language;
+    ::Il2CppString* language;
     // Field size check
-    static_assert(sizeof(Polyglot::Language) == 0x4);
-    // Padding between fields: language and: message
-    char __padding0[0x4] = {};
+    static_assert(sizeof(::Il2CppString*) == 0x8);
     // public System.String message
     // Size: 0x8
     // Offset: 0x18
@@ -36,9 +32,9 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LocalizedMessage
-    LocalizedMessage(Polyglot::Language language_ = {}, ::Il2CppString* message_ = {}) noexcept : language{language_}, message{message_} {}
+    LocalizedMessage(::Il2CppString* language_ = {}, ::Il2CppString* message_ = {}) noexcept : language{language_}, message{message_} {}
     // public System.Void .ctor()
-    // Offset: 0x1061EC8
+    // Offset: 0x10B8A70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

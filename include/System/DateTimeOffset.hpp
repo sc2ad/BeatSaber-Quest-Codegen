@@ -103,102 +103,98 @@ namespace System {
     // Set static field: static public readonly System.DateTimeOffset MaxValue
     static void _set_MaxValue(System::DateTimeOffset value);
     // public System.Void .ctor(System.Int64 ticks, System.TimeSpan offset)
-    // Offset: 0xE1240C
+    // Offset: 0xDFBC20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTimeOffset(int64_t ticks, System::TimeSpan offset) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTimeOffset::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(ticks, offset)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ticks, offset);
     }
+    // public System.Void .ctor(System.DateTime dateTime)
+    // Offset: 0xDFBC28
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    DateTimeOffset(System::DateTime dateTime) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::DateTimeOffset::.ctor");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(dateTime)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, dateTime);
+    }
     // public System.DateTime get_UtcDateTime()
-    // Offset: 0xE12414
+    // Offset: 0xDFBC30
     System::DateTime get_UtcDateTime();
     // private System.DateTime get_ClockDateTime()
-    // Offset: 0xE1241C
+    // Offset: 0xDFBC38
     System::DateTime get_ClockDateTime();
     // public System.TimeSpan get_Offset()
-    // Offset: 0xE12424
+    // Offset: 0xDFBC40
     System::TimeSpan get_Offset();
-    // public System.Int64 get_Ticks()
-    // Offset: 0xE1245C
-    int64_t get_Ticks();
+    // private System.Int32 System.IComparable.CompareTo(System.Object obj)
+    // Offset: 0xDFBC78
+    int System_IComparable_CompareTo_NEW(::Il2CppObject* obj);
+    // public System.Int32 CompareTo(System.DateTimeOffset other)
+    // Offset: 0xDFBC80
+    int CompareTo_NEW(System::DateTimeOffset other);
+    // public System.Boolean Equals(System.DateTimeOffset other)
+    // Offset: 0xDFBC90
+    bool Equals_NEW(System::DateTimeOffset other);
+    // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
+    // Offset: 0xDFBC98
+    void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_NEW(::Il2CppObject* sender);
+    // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
+    // Offset: 0xDFBCA0
+    void System_Runtime_Serialization_ISerializable_GetObjectData_NEW(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xE124BC
+    // Offset: 0xDFBCA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTimeOffset(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTimeOffset::.ctor");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(info, context)));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, info, context);
     }
+    // public System.Int64 ToUnixTimeMilliseconds()
+    // Offset: 0xDFBCE0
+    int64_t ToUnixTimeMilliseconds();
+    // public System.String ToString(System.String format, System.IFormatProvider formatProvider)
+    // Offset: 0xDFBD44
+    ::Il2CppString* ToString_NEW(::Il2CppString* format, System::IFormatProvider* formatProvider);
     // static public System.Boolean TryParseExact(System.String input, System.String[] formats, System.IFormatProvider formatProvider, System.Globalization.DateTimeStyles styles, out System.DateTimeOffset result)
-    // Offset: 0x19FB920
+    // Offset: 0x198F2C8
     static bool TryParseExact(::Il2CppString* input, ::Array<::Il2CppString*>* formats, System::IFormatProvider* formatProvider, System::Globalization::DateTimeStyles styles, System::DateTimeOffset& result);
     // static private System.Int16 ValidateOffset(System.TimeSpan offset)
-    // Offset: 0x19FAC68
+    // Offset: 0x198E530
     static int16_t ValidateOffset(System::TimeSpan offset);
     // static private System.DateTime ValidateDate(System.DateTime dateTime, System.TimeSpan offset)
-    // Offset: 0x19FAD88
+    // Offset: 0x198E650
     static System::DateTime ValidateDate(System::DateTime dateTime, System::TimeSpan offset);
     // static private System.Globalization.DateTimeStyles ValidateStyles(System.Globalization.DateTimeStyles style, System.String parameterName)
-    // Offset: 0x19FBA68
+    // Offset: 0x198F410
     static System::Globalization::DateTimeStyles ValidateStyles(System::Globalization::DateTimeStyles style, ::Il2CppString* parameterName);
     // static private System.Void .cctor()
-    // Offset: 0x19FBDD8
+    // Offset: 0x198F780
     static void _cctor();
-    // private System.Int32 System.IComparable.CompareTo(System.Object obj)
-    // Offset: 0xE1248C
-    // Implemented from: System.IComparable
-    // Base method: System.Int32 IComparable::CompareTo(System.Object obj)
-    int System_IComparable_CompareTo(::Il2CppObject* obj);
-    // public System.Int32 CompareTo(System.DateTimeOffset other)
-    // Offset: 0xE12494
-    // Implemented from: System.IComparable`1
-    // Base method: System.Int32 IComparable_1::CompareTo(System.DateTimeOffset other)
-    int CompareTo(System::DateTimeOffset other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xE1249C
+    // Offset: 0xDFBC88
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
-    // public System.Boolean Equals(System.DateTimeOffset other)
-    // Offset: 0xE124A4
-    // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable_1::Equals(System.DateTimeOffset other)
-    bool Equals(System::DateTimeOffset other);
-    // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
-    // Offset: 0xE124AC
-    // Implemented from: System.Runtime.Serialization.IDeserializationCallback
-    // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
-    void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
-    // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xE124B4
-    // Implemented from: System.Runtime.Serialization.ISerializable
-    // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xE124C4
+    // Offset: 0xDFBCB0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xE124F4
+    // Offset: 0xDFBD3C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
-    // public System.String ToString(System.String format, System.IFormatProvider formatProvider)
-    // Offset: 0xE124FC
-    // Implemented from: System.IFormattable
-    // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider formatProvider)
-    ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* formatProvider);
   }; // System.DateTimeOffset
   #pragma pack(pop)
   static check_size<sizeof(DateTimeOffset), 8 + sizeof(int16_t)> __System_DateTimeOffsetSizeCheck;
   static_assert(sizeof(DateTimeOffset) == 0xA);
   // static public System.TimeSpan op_Subtraction(System.DateTimeOffset left, System.DateTimeOffset right)
-  // Offset: 0x19FBCB0
+  // Offset: 0x198F658
   System::TimeSpan operator-(const System::DateTimeOffset& left, const System::DateTimeOffset& right);
   // static public System.Boolean op_Equality(System.DateTimeOffset left, System.DateTimeOffset right)
-  // Offset: 0x19FBD44
+  // Offset: 0x198F6EC
   bool operator ==(const System::DateTimeOffset& left, const System::DateTimeOffset& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeOffset, "System", "DateTimeOffset");

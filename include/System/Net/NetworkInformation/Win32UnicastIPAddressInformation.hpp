@@ -50,19 +50,19 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: Win32UnicastIPAddressInformation
     Win32UnicastIPAddressInformation(System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS info_ = {}, System::Net::IPAddress* ipv4Mask_ = {}) noexcept : info{info_}, ipv4Mask{ipv4Mask_} {}
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS info)
-    // Offset: 0x1358088
+    // Offset: 0x132A338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32UnicastIPAddressInformation* New_ctor(System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS info) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::Win32UnicastIPAddressInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32UnicastIPAddressInformation*, creationType>(info)));
     }
     // static private System.Net.IPAddress PrefixLengthToSubnetMask(System.Byte prefixLength, System.Net.Sockets.AddressFamily family)
-    // Offset: 0x13582E4
+    // Offset: 0x132A568
     static System::Net::IPAddress* PrefixLengthToSubnetMask(uint8_t prefixLength, System::Net::Sockets::AddressFamily family);
     // public override System.Net.IPAddress get_Address()
-    // Offset: 0x13583D0
+    // Offset: 0x132A654
     // Implemented from: System.Net.NetworkInformation.IPAddressInformation
-    // Base method: System.Net.IPAddress IPAddressInformation::get_Address()
+    // Base method: System.Net.IPAddress IPAddressInformation::get_Address_NEW()
     System::Net::IPAddress* get_Address();
   }; // System.Net.NetworkInformation.Win32UnicastIPAddressInformation
   #pragma pack(pop)

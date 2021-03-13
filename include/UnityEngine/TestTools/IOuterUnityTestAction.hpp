@@ -28,10 +28,10 @@ namespace UnityEngine::TestTools {
     IOuterUnityTestAction() noexcept {}
     // public System.Collections.IEnumerator BeforeTest(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFF
-    System::Collections::IEnumerator* BeforeTest(NUnit::Framework::Interfaces::ITest* test);
+    System::Collections::IEnumerator* BeforeTest_NEW(NUnit::Framework::Interfaces::ITest* test);
     // public System.Collections.IEnumerator AfterTest(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFF
-    System::Collections::IEnumerator* AfterTest(NUnit::Framework::Interfaces::ITest* test);
+    System::Collections::IEnumerator* AfterTest_NEW(NUnit::Framework::Interfaces::ITest* test);
   }; // UnityEngine.TestTools.IOuterUnityTestAction
   #pragma pack(pop)
 }

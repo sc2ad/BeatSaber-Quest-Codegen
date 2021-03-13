@@ -107,32 +107,32 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NetworkPlayerTableCell
     NetworkPlayerTableCell(TMPro::TextMeshProUGUI* playerNameText_ = {}, UnityEngine::GameObject* separator_ = {}, UnityEngine::UI::Image* privateIcon_ = {}, UnityEngine::UI::Image* spectateIcon_ = {}, UnityEngine::UI::Image* partyLeaderIcon_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* highlightImage_ = {}, UnityEngine::Color textColorNormal_ = {}, UnityEngine::Color textColorMe_ = {}, UnityEngine::Color textColorSelected_ = {}, bool isMe_ = {}) noexcept : playerNameText{playerNameText_}, separator{separator_}, privateIcon{privateIcon_}, spectateIcon{spectateIcon_}, partyLeaderIcon{partyLeaderIcon_}, bgImage{bgImage_}, highlightImage{highlightImage_}, textColorNormal{textColorNormal_}, textColorMe{textColorMe_}, textColorSelected{textColorSelected_}, isMe{isMe_} {}
     // public System.Boolean get_showSeparator()
-    // Offset: 0xF8C5E0
+    // Offset: 0x10BC598
     bool get_showSeparator();
     // public System.Void set_showSeparator(System.Boolean value)
-    // Offset: 0xF8C5FC
+    // Offset: 0x10BC5B4
     void set_showSeparator(bool value);
     // public System.Void SetData(System.String userName, System.Boolean isOpenParty, System.Boolean wantsToPlayNextLevel, System.Boolean isMyPartyOwner, System.Boolean isMe)
-    // Offset: 0xF8C854
+    // Offset: 0x10BC80C
     void SetData(::Il2CppString* userName, bool isOpenParty, bool wantsToPlayNextLevel, bool isMyPartyOwner, bool isMe);
     // private System.Void RefreshVisuals()
-    // Offset: 0xF8C634
+    // Offset: 0x10BC5EC
     void RefreshVisuals();
     // private UnityEngine.Color get_activeColor()
-    // Offset: 0xF8C8FC
+    // Offset: 0x10BC8B4
     UnityEngine::Color get_activeColor();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0xF8C8F4
+    // Offset: 0x10BC8AC
     // Implemented from: HMUI.SelectableCell
-    // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
+    // Base method: System.Void SelectableCell::SelectionDidChange_NEW(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0xF8C8F8
+    // Offset: 0x10BC8B0
     // Implemented from: HMUI.SelectableCell
-    // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
+    // Base method: System.Void SelectableCell::HighlightDidChange_NEW(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0xF8C958
+    // Offset: 0x10BC910
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

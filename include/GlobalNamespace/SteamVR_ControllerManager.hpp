@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* right;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [TooltipAttribute] Offset: 0xCFC290
+    // [TooltipAttribute] Offset: 0xCE6BA8
     // public UnityEngine.GameObject[] objects
     // Size: 0x8
     // Offset: 0x28
     ::Array<UnityEngine::GameObject*>* objects;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::GameObject*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xCFC2C8
+    // [TooltipAttribute] Offset: 0xCE6BE0
     // public System.Boolean assignAllBeforeIdentified
     // Size: 0x1
     // Offset: 0x30
@@ -121,43 +121,43 @@ namespace GlobalNamespace {
     // Set static field: static private System.String[] labels
     static void _set_labels(::Array<::Il2CppString*>* value);
     // private System.Void SetUniqueObject(UnityEngine.GameObject o, System.Int32 index)
-    // Offset: 0x128C45C
+    // Offset: 0x12C97E8
     void SetUniqueObject(UnityEngine::GameObject* o, int index);
     // public System.Void UpdateTargets()
-    // Offset: 0x128C58C
+    // Offset: 0x12C98FC
     void UpdateTargets();
     // private System.Void Awake()
-    // Offset: 0x128C6E8
+    // Offset: 0x12C9A38
     void Awake();
     // private System.Void OnEnable()
-    // Offset: 0x128CA5C
+    // Offset: 0x12C9D80
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x128CFFC
+    // Offset: 0x12CA320
     void OnDisable();
     // private System.Void OnInputFocus(System.Boolean hasFocus)
-    // Offset: 0x128D060
+    // Offset: 0x12CA384
     void OnInputFocus(bool hasFocus);
     // private System.Void HideObject(UnityEngine.Transform t, System.String name)
-    // Offset: 0x128D410
+    // Offset: 0x12CA734
     void HideObject(UnityEngine::Transform* t, ::Il2CppString* name);
     // private System.Void ShowObject(UnityEngine.Transform t, System.String name)
-    // Offset: 0x128D31C
+    // Offset: 0x12CA640
     void ShowObject(UnityEngine::Transform* t, ::Il2CppString* name);
     // private System.Void SetTrackedDeviceIndex(System.Int32 objectIndex, System.UInt32 trackedDeviceIndex)
-    // Offset: 0x128D580
+    // Offset: 0x12CA8A4
     void SetTrackedDeviceIndex(int objectIndex, uint trackedDeviceIndex);
     // private System.Void OnTrackedDeviceRoleChanged(Valve.VR.VREvent_t vrEvent)
-    // Offset: 0x128D7CC
+    // Offset: 0x12CAAF0
     void OnTrackedDeviceRoleChanged(Valve::VR::VREvent_t vrEvent);
     // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
-    // Offset: 0x128CED8
+    // Offset: 0x12CA1FC
     void OnDeviceConnected(int index, bool connected);
     // public System.Void Refresh()
-    // Offset: 0x128CC3C
+    // Offset: 0x12C9F60
     void Refresh();
     // private System.Void .ctor()
-    // Offset: 0x128C6EC
+    // Offset: 0x12C9A3C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -170,7 +170,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_ControllerManager*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x128D7D0
+    // Offset: 0x12CAAF4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::LightWithIds::LightIntensityData*>* lightIntensityData;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::LightWithIds::LightIntensityData*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD16D2C
+    // [InjectAttribute] Offset: 0xD00A1C
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x28
@@ -69,28 +69,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1DA0470
+    // Offset: 0x1CE0C50
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1DA059C
+    // Offset: 0x1CE0D7C
     void OnEnable();
     // private System.Void RegisterForColorChanges()
-    // Offset: 0x1DA0474
+    // Offset: 0x1CE0C54
     void RegisterForColorChanges();
     // protected System.Void OnDisable()
-    // Offset: 0x1DA05A0
+    // Offset: 0x1CE0D80
     void OnDisable();
     // protected System.Void ColorWasSet(UnityEngine.Color color)
     // Offset: 0xFFFFFFFF
     void ColorWasSet(UnityEngine::Color color);
     // private System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
-    // Offset: 0x1DA06BC
+    // Offset: 0x1CE0E9C
     void HandleLightManagerDidChangeSomeColorsThisFrame();
     // private UnityEngine.Color GetLightColor()
-    // Offset: 0x1DA06E8
+    // Offset: 0x1CE0EC8
     UnityEngine::Color GetLightColor();
     // protected System.Void .ctor()
-    // Offset: 0x1D9C9B0
+    // Offset: 0x1CDD1EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

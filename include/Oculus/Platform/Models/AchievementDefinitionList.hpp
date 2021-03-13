@@ -30,7 +30,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: AchievementDefinitionList
     AchievementDefinitionList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x13E890C
+    // Offset: 0x1382C64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementDefinitionList* New_ctor(System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AchievementDefinitionList::.ctor");

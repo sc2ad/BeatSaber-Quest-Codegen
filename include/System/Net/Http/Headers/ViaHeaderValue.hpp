@@ -34,28 +34,28 @@ namespace System::Net::Http::Headers {
   // [] Offset: FFFFFFFF
   class ViaHeaderValue : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD0CDC8
+    // [CompilerGeneratedAttribute] Offset: 0xCF78D0
     // private System.String <Comment>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* Comment;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0CDD8
+    // [CompilerGeneratedAttribute] Offset: 0xCF78E0
     // private System.String <ProtocolName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* ProtocolName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0CDE8
+    // [CompilerGeneratedAttribute] Offset: 0xCF78F0
     // private System.String <ProtocolVersion>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::Il2CppString* ProtocolVersion;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0CDF8
+    // [CompilerGeneratedAttribute] Offset: 0xCF7900
     // private System.String <ReceivedBy>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -69,37 +69,40 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // public System.String get_Comment()
-    // Offset: 0x14124B0
+    // Offset: 0x13E2F7C
     ::Il2CppString* get_Comment();
     // private System.Void set_Comment(System.String value)
-    // Offset: 0x14124B8
+    // Offset: 0x13E2F84
     void set_Comment(::Il2CppString* value);
     // public System.String get_ProtocolName()
-    // Offset: 0x14124C0
+    // Offset: 0x13E2F8C
     ::Il2CppString* get_ProtocolName();
     // private System.Void set_ProtocolName(System.String value)
-    // Offset: 0x14124C8
+    // Offset: 0x13E2F94
     void set_ProtocolName(::Il2CppString* value);
     // public System.String get_ProtocolVersion()
-    // Offset: 0x14124D0
+    // Offset: 0x13E2F9C
     ::Il2CppString* get_ProtocolVersion();
     // private System.Void set_ProtocolVersion(System.String value)
-    // Offset: 0x14124D8
+    // Offset: 0x13E2FA4
     void set_ProtocolVersion(::Il2CppString* value);
     // public System.String get_ReceivedBy()
-    // Offset: 0x14124E0
+    // Offset: 0x13E2FAC
     ::Il2CppString* get_ReceivedBy();
     // private System.Void set_ReceivedBy(System.String value)
-    // Offset: 0x14124E8
+    // Offset: 0x13E2FB4
     void set_ReceivedBy(::Il2CppString* value);
+    // private System.Object System.ICloneable.Clone()
+    // Offset: 0x13E2FBC
+    ::Il2CppObject* System_ICloneable_Clone_NEW();
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.ViaHeaderValue> result)
-    // Offset: 0x14126C4
+    // Offset: 0x13E3190
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<System::Net::Http::Headers::ViaHeaderValue*>*& result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.ViaHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x1412764
+    // Offset: 0x13E3230
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, System::Net::Http::Headers::ViaHeaderValue*& parsedValue, System::Net::Http::Headers::Token& t);
     // private System.Void .ctor()
-    // Offset: 0x14124A8
+    // Offset: 0x13E2F74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -107,25 +110,20 @@ namespace System::Net::Http::Headers {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::ViaHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViaHeaderValue*, creationType>()));
     }
-    // private System.Object System.ICloneable.Clone()
-    // Offset: 0x14124F0
-    // Implemented from: System.ICloneable
-    // Base method: System.Object ICloneable::Clone()
-    ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x14124F8
+    // Offset: 0x13E2FC4
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object obj)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x14125F4
+    // Offset: 0x13E30C0
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1412A3C
+    // Offset: 0x13E34B0
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.ViaHeaderValue
   #pragma pack(pop)

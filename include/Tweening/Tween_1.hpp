@@ -71,15 +71,15 @@ namespace Tweening {
     }
     // public T GetValue(System.Single t)
     // Offset: 0xFFFFFFFF
-    T GetValue(float t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween_1::GetValue");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetValue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(t)));
+    T GetValue_NEW(float t) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween_1::GetValue_NEW");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetValue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(t)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, t);
     }
     // public override System.Void Update(System.Single deltaTime)
     // Offset: 0xFFFFFFFF
     // Implemented from: Tweening.Tween
-    // Base method: System.Void Tween::Update(System.Single deltaTime)
+    // Base method: System.Void Tween::Update_NEW(System.Single deltaTime)
     void Update(float deltaTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween_1::Update");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Update", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(deltaTime)));
@@ -88,7 +88,7 @@ namespace Tweening {
     // public override System.Void Sample(System.Single t)
     // Offset: 0xFFFFFFFF
     // Implemented from: Tweening.Tween
-    // Base method: System.Void Tween::Sample(System.Single t)
+    // Base method: System.Void Tween::Sample_NEW(System.Single t)
     void Sample(float t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween_1::Sample");
       static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Sample", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(t)));

@@ -36,25 +36,25 @@ namespace Microsoft::Win32 {
     IRegistryApi() noexcept {}
     // public Microsoft.Win32.RegistryKey OpenSubKey(Microsoft.Win32.RegistryKey rkey, System.String keyname, System.Boolean writtable)
     // Offset: 0xFFFFFFFF
-    Microsoft::Win32::RegistryKey* OpenSubKey(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* keyname, bool writtable);
+    Microsoft::Win32::RegistryKey* OpenSubKey_NEW(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* keyname, bool writtable);
     // public System.Void Flush(Microsoft.Win32.RegistryKey rkey)
     // Offset: 0xFFFFFFFF
-    void Flush(Microsoft::Win32::RegistryKey* rkey);
+    void Flush_NEW(Microsoft::Win32::RegistryKey* rkey);
     // public System.Void Close(Microsoft.Win32.RegistryKey rkey)
     // Offset: 0xFFFFFFFF
-    void Close(Microsoft::Win32::RegistryKey* rkey);
+    void Close_NEW(Microsoft::Win32::RegistryKey* rkey);
     // public System.Object GetValue(Microsoft.Win32.RegistryKey rkey, System.String name, System.Object default_value, Microsoft.Win32.RegistryValueOptions options)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* GetValue(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* name, ::Il2CppObject* default_value, Microsoft::Win32::RegistryValueOptions options);
+    ::Il2CppObject* GetValue_NEW(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* name, ::Il2CppObject* default_value, Microsoft::Win32::RegistryValueOptions options);
     // public System.String[] GetSubKeyNames(Microsoft.Win32.RegistryKey rkey)
     // Offset: 0xFFFFFFFF
-    ::Array<::Il2CppString*>* GetSubKeyNames(Microsoft::Win32::RegistryKey* rkey);
+    ::Array<::Il2CppString*>* GetSubKeyNames_NEW(Microsoft::Win32::RegistryKey* rkey);
     // public System.String ToString(Microsoft.Win32.RegistryKey rkey)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* ToString(Microsoft::Win32::RegistryKey* rkey);
+    ::Il2CppString* ToString_NEW(Microsoft::Win32::RegistryKey* rkey);
     // public System.IntPtr GetHandle(Microsoft.Win32.RegistryKey key)
     // Offset: 0xFFFFFFFF
-    System::IntPtr GetHandle(Microsoft::Win32::RegistryKey* key);
+    System::IntPtr GetHandle_NEW(Microsoft::Win32::RegistryKey* key);
   }; // Microsoft.Win32.IRegistryApi
   #pragma pack(pop)
 }

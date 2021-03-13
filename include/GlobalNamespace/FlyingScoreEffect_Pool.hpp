@@ -22,8 +22,11 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: Pool
     Pool() noexcept {}
+    // protected System.Void OnDespawned(FlyingScoreEffect item)
+    // Offset: 0xF305CC
+    void OnDespawned(GlobalNamespace::FlyingScoreEffect* item);
     // public System.Void .ctor()
-    // Offset: 0xF2F47C
+    // Offset: 0xF305E4
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool_1::.ctor()
     // Base method: System.Void MemoryPool_1::.ctor()

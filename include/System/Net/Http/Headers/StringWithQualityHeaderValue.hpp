@@ -35,12 +35,12 @@ namespace System::Net::Http::Headers {
   // [] Offset: FFFFFFFF
   class StringWithQualityHeaderValue : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD0CDA8
+    // [CompilerGeneratedAttribute] Offset: 0xCF78B0
     // private System.Nullable`1<System.Double> <Quality>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x10
     System::Nullable_1<double> Quality;
-    // [CompilerGeneratedAttribute] Offset: 0xD0CDB8
+    // [CompilerGeneratedAttribute] Offset: 0xCF78C0
     // private System.String <Value>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -54,25 +54,28 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // public System.Nullable`1<System.Double> get_Quality()
-    // Offset: 0x1411540
+    // Offset: 0x13E208C
     System::Nullable_1<double> get_Quality();
     // private System.Void set_Quality(System.Nullable`1<System.Double> value)
-    // Offset: 0x141154C
+    // Offset: 0x13E2098
     void set_Quality(System::Nullable_1<double> value);
     // public System.String get_Value()
-    // Offset: 0x1411554
+    // Offset: 0x13E20A0
     ::Il2CppString* get_Value();
     // private System.Void set_Value(System.String value)
-    // Offset: 0x141155C
+    // Offset: 0x13E20A8
     void set_Value(::Il2CppString* value);
+    // private System.Object System.ICloneable.Clone()
+    // Offset: 0x13E20B0
+    ::Il2CppObject* System_ICloneable_Clone_NEW();
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.StringWithQualityHeaderValue> result)
-    // Offset: 0x14116DC
+    // Offset: 0x13E2228
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<System::Net::Http::Headers::StringWithQualityHeaderValue*>*& result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.StringWithQualityHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x141177C
+    // Offset: 0x13E22C8
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, System::Net::Http::Headers::StringWithQualityHeaderValue*& parsedValue, System::Net::Http::Headers::Token& t);
     // private System.Void .ctor()
-    // Offset: 0x1411538
+    // Offset: 0x13E2084
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -80,25 +83,20 @@ namespace System::Net::Http::Headers {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::StringWithQualityHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringWithQualityHeaderValue*, creationType>()));
     }
-    // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1411564
-    // Implemented from: System.ICloneable
-    // Base method: System.Object ICloneable::Clone()
-    ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x141156C
+    // Offset: 0x13E20B8
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals(System.Object obj)
+    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1411648
+    // Offset: 0x13E2194
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode()
+    // Base method: System.Int32 Object::GetHashCode_NEW()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1411A00
+    // Offset: 0x13E2528
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
+    // Base method: System.String Object::ToString_NEW()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.StringWithQualityHeaderValue
   // WARNING Not writing size check since size may be invalid!

@@ -4,32 +4,6 @@
 #pragma once
 // Begin includes
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: System::Resources
-namespace System::Resources {
-  // Forward declaring type: ResourceSet
-  class ResourceSet;
-}
-// Forward declaring namespace: System::Globalization
-namespace System::Globalization {
-  // Forward declaring type: CultureInfo
-  class CultureInfo;
-}
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class Dictionary_2;
-}
-// Forward declaring namespace: System::Threading
-namespace System::Threading {
-  // Forward declaring type: StackCrawlMark
-  struct StackCrawlMark;
-}
-// Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: System.Resources
 namespace System::Resources {
   // Size: 0x0
@@ -40,9 +14,6 @@ namespace System::Resources {
     public:
     // Creating value type constructor for type: IResourceGroveler
     IResourceGroveler() noexcept {}
-    // public System.Resources.ResourceSet GrovelForResourceSet(System.Globalization.CultureInfo culture, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> localResourceSets, System.Boolean tryParents, System.Boolean createIfNotExists, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0xFFFFFFFF
-    System::Resources::ResourceSet* GrovelForResourceSet(System::Globalization::CultureInfo* culture, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceSet*>* localResourceSets, bool tryParents, bool createIfNotExists, System::Threading::StackCrawlMark& stackMark);
   }; // System.Resources.IResourceGroveler
   #pragma pack(pop)
 }

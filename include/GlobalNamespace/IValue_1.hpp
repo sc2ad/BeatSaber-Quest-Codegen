@@ -20,16 +20,16 @@ namespace GlobalNamespace {
     IValue_1() noexcept {}
     // public T get_value()
     // Offset: 0xFFFFFFFF
-    T get_value() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IValue_1::get_value");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_value", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+    T get_value_NEW() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IValue_1::get_value_NEW");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_value", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void set_value(T value)
     // Offset: 0xFFFFFFFF
-    void set_value(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IValue_1::set_value");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "set_value", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
+    void set_value_NEW(T value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IValue_1::set_value_NEW");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "set_value", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
   }; // IValue`1

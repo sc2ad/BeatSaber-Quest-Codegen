@@ -46,56 +46,41 @@ namespace Org::BouncyCastle::Utilities::Collections {
       return d;
     }
     // public System.Void .ctor(System.Collections.IDictionary d)
-    // Offset: 0x1E5B8E4
+    // Offset: 0x1E29738
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnmodifiableDictionaryProxy* New_ctor(System::Collections::IDictionary* d) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnmodifiableDictionaryProxy*, creationType>(d)));
     }
     // public override System.Boolean Contains(System.Object k)
-    // Offset: 0x1E5B918
+    // Offset: 0x1E29764
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
-    // Base method: System.Boolean UnmodifiableDictionary::Contains(System.Object k)
+    // Base method: System.Boolean UnmodifiableDictionary::Contains_NEW(System.Object k)
     bool Contains(::Il2CppObject* k);
-    // Creating proxy method: System_Collections_IDictionary_Contains
-    // Maps to method: Contains
-    bool System_Collections_IDictionary_Contains(::Il2CppObject* k);
     // public override System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x1E5B9DC
+    // Offset: 0x1E29828
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
-    // Base method: System.Void UnmodifiableDictionary::CopyTo(System.Array array, System.Int32 index)
+    // Base method: System.Void UnmodifiableDictionary::CopyTo_NEW(System.Array array, System.Int32 index)
     void CopyTo(System::Array* array, int index);
-    // Creating proxy method: System_Collections_ICollection_CopyTo
-    // Maps to method: CopyTo
-    void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // public override System.Int32 get_Count()
-    // Offset: 0x1E5BAA4
+    // Offset: 0x1E298F0
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
-    // Base method: System.Int32 UnmodifiableDictionary::get_Count()
+    // Base method: System.Int32 UnmodifiableDictionary::get_Count_NEW()
     int get_Count();
-    // Creating proxy method: System_Collections_ICollection_get_Count
-    // Maps to method: get_Count
-    int System_Collections_ICollection_get_Count();
     // public override System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x1E5BB58
+    // Offset: 0x1E299A4
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
-    // Base method: System.Collections.IDictionaryEnumerator UnmodifiableDictionary::GetEnumerator()
+    // Base method: System.Collections.IDictionaryEnumerator UnmodifiableDictionary::GetEnumerator_NEW()
     System::Collections::IDictionaryEnumerator* GetEnumerator();
-    // Creating proxy method: System_Collections_IDictionary_GetEnumerator
-    // Maps to method: GetEnumerator
-    System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator();
     // public override System.Collections.ICollection get_Keys()
-    // Offset: 0x1E5BC0C
+    // Offset: 0x1E29A58
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
-    // Base method: System.Collections.ICollection UnmodifiableDictionary::get_Keys()
+    // Base method: System.Collections.ICollection UnmodifiableDictionary::get_Keys_NEW()
     System::Collections::ICollection* get_Keys();
-    // Creating proxy method: System_Collections_IDictionary_get_Keys
-    // Maps to method: get_Keys
-    System::Collections::ICollection* System_Collections_IDictionary_get_Keys();
     // protected override System.Object GetValue(System.Object k)
-    // Offset: 0x1E5BCC0
+    // Offset: 0x1E29B0C
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
-    // Base method: System.Object UnmodifiableDictionary::GetValue(System.Object k)
+    // Base method: System.Object UnmodifiableDictionary::GetValue_NEW(System.Object k)
     ::Il2CppObject* GetValue(::Il2CppObject* k);
   }; // Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionaryProxy
   #pragma pack(pop)

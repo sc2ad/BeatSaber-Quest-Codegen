@@ -23,7 +23,7 @@ namespace Mono::Security::Interface {
     // Creating value type constructor for type: MonoTlsProviderFactory
     MonoTlsProviderFactory() noexcept {}
     // static public Mono.Security.Interface.MonoTlsProvider GetProvider()
-    // Offset: 0x1BF0C24
+    // Offset: 0x1B919E8
     static Mono::Security::Interface::MonoTlsProvider* GetProvider();
   }; // Mono.Security.Interface.MonoTlsProviderFactory
   #pragma pack(pop)

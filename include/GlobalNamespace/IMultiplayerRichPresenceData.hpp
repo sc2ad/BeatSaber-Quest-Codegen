@@ -25,13 +25,13 @@ namespace GlobalNamespace {
     }
     // public System.String get_multiplayerLobbyCode()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_multiplayerLobbyCode();
+    ::Il2CppString* get_multiplayerLobbyCode_NEW();
     // public System.Void set_multiplayerLobbyCode(System.String value)
     // Offset: 0xFFFFFFFF
-    void set_multiplayerLobbyCode(::Il2CppString* value);
+    void set_multiplayerLobbyCode_NEW(::Il2CppString* value);
     // public System.Boolean get_isJoinable()
     // Offset: 0xFFFFFFFF
-    bool get_isJoinable();
+    bool get_isJoinable_NEW();
   }; // IMultiplayerRichPresenceData
   #pragma pack(pop)
 }

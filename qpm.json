@@ -4,14 +4,14 @@
   "info": {
     "name": "codegen",
     "id": "codegen",
-    "version": "0.2.2",
+    "version": "0.7.0",
     "url": "https://github.com/sc2ad/BeatSaber-Quest-Codegen",
     "additionalData": {}
   },
   "dependencies": [
     {
       "id": "beatsaber-hook",
-      "versionRange": "^1.0.0",
+      "versionRange": "^1.1.6",
       "additionalData": {}
     }
   ],

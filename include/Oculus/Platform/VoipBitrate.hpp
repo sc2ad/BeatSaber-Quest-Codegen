@@ -31,49 +31,49 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xD21AC8
+    // [DescriptionAttribute] Offset: 0xD0BE80
     // static field const value: static public Oculus.Platform.VoipBitrate Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.VoipBitrate Unknown
     static Oculus::Platform::VoipBitrate _get_Unknown();
     // Set static field: static public Oculus.Platform.VoipBitrate Unknown
     static void _set_Unknown(Oculus::Platform::VoipBitrate value);
-    // [DescriptionAttribute] Offset: 0xD21B00
+    // [DescriptionAttribute] Offset: 0xD0BEB8
     // static field const value: static public Oculus.Platform.VoipBitrate B16000
     static constexpr const int B16000 = 1;
     // Get static field: static public Oculus.Platform.VoipBitrate B16000
     static Oculus::Platform::VoipBitrate _get_B16000();
     // Set static field: static public Oculus.Platform.VoipBitrate B16000
     static void _set_B16000(Oculus::Platform::VoipBitrate value);
-    // [DescriptionAttribute] Offset: 0xD21B38
+    // [DescriptionAttribute] Offset: 0xD0BEF0
     // static field const value: static public Oculus.Platform.VoipBitrate B24000
     static constexpr const int B24000 = 2;
     // Get static field: static public Oculus.Platform.VoipBitrate B24000
     static Oculus::Platform::VoipBitrate _get_B24000();
     // Set static field: static public Oculus.Platform.VoipBitrate B24000
     static void _set_B24000(Oculus::Platform::VoipBitrate value);
-    // [DescriptionAttribute] Offset: 0xD21B70
+    // [DescriptionAttribute] Offset: 0xD0BF28
     // static field const value: static public Oculus.Platform.VoipBitrate B32000
     static constexpr const int B32000 = 3;
     // Get static field: static public Oculus.Platform.VoipBitrate B32000
     static Oculus::Platform::VoipBitrate _get_B32000();
     // Set static field: static public Oculus.Platform.VoipBitrate B32000
     static void _set_B32000(Oculus::Platform::VoipBitrate value);
-    // [DescriptionAttribute] Offset: 0xD21BA8
+    // [DescriptionAttribute] Offset: 0xD0BF60
     // static field const value: static public Oculus.Platform.VoipBitrate B64000
     static constexpr const int B64000 = 4;
     // Get static field: static public Oculus.Platform.VoipBitrate B64000
     static Oculus::Platform::VoipBitrate _get_B64000();
     // Set static field: static public Oculus.Platform.VoipBitrate B64000
     static void _set_B64000(Oculus::Platform::VoipBitrate value);
-    // [DescriptionAttribute] Offset: 0xD21BE0
+    // [DescriptionAttribute] Offset: 0xD0BF98
     // static field const value: static public Oculus.Platform.VoipBitrate B96000
     static constexpr const int B96000 = 5;
     // Get static field: static public Oculus.Platform.VoipBitrate B96000
     static Oculus::Platform::VoipBitrate _get_B96000();
     // Set static field: static public Oculus.Platform.VoipBitrate B96000
     static void _set_B96000(Oculus::Platform::VoipBitrate value);
-    // [DescriptionAttribute] Offset: 0xD21C18
+    // [DescriptionAttribute] Offset: 0xD0BFD0
     // static field const value: static public Oculus.Platform.VoipBitrate B128000
     static constexpr const int B128000 = 6;
     // Get static field: static public Oculus.Platform.VoipBitrate B128000

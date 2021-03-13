@@ -31,28 +31,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xD1FFC8
+    // [DescriptionAttribute] Offset: 0xD0A380
     // static field const value: static public Oculus.Platform.LivestreamingAudience Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.LivestreamingAudience Unknown
     static Oculus::Platform::LivestreamingAudience _get_Unknown();
     // Set static field: static public Oculus.Platform.LivestreamingAudience Unknown
     static void _set_Unknown(Oculus::Platform::LivestreamingAudience value);
-    // [DescriptionAttribute] Offset: 0xD20000
+    // [DescriptionAttribute] Offset: 0xD0A3B8
     // static field const value: static public Oculus.Platform.LivestreamingAudience Public
     static constexpr const int Public = 1;
     // Get static field: static public Oculus.Platform.LivestreamingAudience Public
     static Oculus::Platform::LivestreamingAudience _get_Public();
     // Set static field: static public Oculus.Platform.LivestreamingAudience Public
     static void _set_Public(Oculus::Platform::LivestreamingAudience value);
-    // [DescriptionAttribute] Offset: 0xD20038
+    // [DescriptionAttribute] Offset: 0xD0A3F0
     // static field const value: static public Oculus.Platform.LivestreamingAudience Friends
     static constexpr const int Friends = 2;
     // Get static field: static public Oculus.Platform.LivestreamingAudience Friends
     static Oculus::Platform::LivestreamingAudience _get_Friends();
     // Set static field: static public Oculus.Platform.LivestreamingAudience Friends
     static void _set_Friends(Oculus::Platform::LivestreamingAudience value);
-    // [DescriptionAttribute] Offset: 0xD20070
+    // [DescriptionAttribute] Offset: 0xD0A428
     // static field const value: static public Oculus.Platform.LivestreamingAudience OnlyMe
     static constexpr const int OnlyMe = 3;
     // Get static field: static public Oculus.Platform.LivestreamingAudience OnlyMe

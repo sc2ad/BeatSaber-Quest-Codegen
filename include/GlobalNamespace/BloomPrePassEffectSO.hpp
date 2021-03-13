@@ -15,6 +15,13 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: ToneMapping
+  struct ToneMapping;
+}
+// Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -56,32 +63,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public TextureEffectSO get_textureEffect()
-    // Offset: 0x1D99B18
-    // Implemented from: IBloomPrePassParams
-    // Base method: TextureEffectSO IBloomPrePassParams::get_textureEffect()
-    GlobalNamespace::TextureEffectSO* get_textureEffect();
+    // Offset: 0x1CDA398
+    GlobalNamespace::TextureEffectSO* get_textureEffect_NEW();
     // public System.Int32 get_textureWidth()
-    // Offset: 0x1D99B1C
-    // Implemented from: IBloomPrePassParams
-    // Base method: System.Int32 IBloomPrePassParams::get_textureWidth()
-    int get_textureWidth();
+    // Offset: 0x1CDA39C
+    int get_textureWidth_NEW();
     // public System.Int32 get_textureHeight()
-    // Offset: 0x1D99B24
-    // Implemented from: IBloomPrePassParams
-    // Base method: System.Int32 IBloomPrePassParams::get_textureHeight()
-    int get_textureHeight();
+    // Offset: 0x1CDA3A4
+    int get_textureHeight_NEW();
     // public UnityEngine.Vector2 get_fov()
-    // Offset: 0x1D99B2C
-    // Implemented from: IBloomPrePassParams
-    // Base method: UnityEngine.Vector2 IBloomPrePassParams::get_fov()
-    UnityEngine::Vector2 get_fov();
+    // Offset: 0x1CDA3AC
+    UnityEngine::Vector2 get_fov_NEW();
     // public System.Single get_linesWidth()
-    // Offset: 0x1D99B34
-    // Implemented from: IBloomPrePassParams
-    // Base method: System.Single IBloomPrePassParams::get_linesWidth()
-    float get_linesWidth();
-    // public System.Void .ctor()
-    // Offset: 0x1D99B3C
+    // Offset: 0x1CDA3B4
+    float get_linesWidth_NEW();
+    // public ToneMapping get_toneMapping()
+    // Offset: 0x1CDA3BC
+    GlobalNamespace::ToneMapping get_toneMapping_NEW();
+    // protected System.Void .ctor()
+    // Offset: 0x1CDA3C4
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

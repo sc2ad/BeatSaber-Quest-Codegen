@@ -43,13 +43,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AnimationClipWithId
     AnimationClipWithId(int id_ = {}, UnityEngine::AnimationClip* animationClip_ = {}) noexcept : id{id_}, animationClip{animationClip_} {}
     // public System.Int32 get_id()
-    // Offset: 0x1038AF8
+    // Offset: 0x1007354
     int get_id();
     // public UnityEngine.AnimationClip get_animationClip()
-    // Offset: 0x1038B00
+    // Offset: 0x100735C
     UnityEngine::AnimationClip* get_animationClip();
     // public System.Void .ctor()
-    // Offset: 0x1038B08
+    // Offset: 0x1007364
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

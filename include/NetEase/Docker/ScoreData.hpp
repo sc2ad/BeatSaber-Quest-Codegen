@@ -19,16 +19,16 @@ namespace NetEase::Docker {
   // [] Offset: FFFFFFFF
   struct ScoreData/*, public System::ValueType*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD24414
-    // [DebuggerBrowsableAttribute] Offset: 0xD24414
+    // [CompilerGeneratedAttribute] Offset: 0xD0E8B0
+    // [DebuggerBrowsableAttribute] Offset: 0xD0E8B0
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* Name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD24450
-    // [DebuggerBrowsableAttribute] Offset: 0xD24450
+    // [CompilerGeneratedAttribute] Offset: 0xD0E8EC
+    // [DebuggerBrowsableAttribute] Offset: 0xD0E8EC
     // private System.Int32 <Score>k__BackingField
     // Size: 0x4
     // Offset: 0x8
@@ -37,8 +37,8 @@ namespace NetEase::Docker {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: Score and: TimeStamp
     char __padding1[0x4] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xD2448C
-    // [CompilerGeneratedAttribute] Offset: 0xD2448C
+    // [DebuggerBrowsableAttribute] Offset: 0xD0E928
+    // [CompilerGeneratedAttribute] Offset: 0xD0E928
     // private System.Int64 <TimeStamp>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -52,19 +52,19 @@ namespace NetEase::Docker {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.String get_Name()
-    // Offset: 0xE32544
+    // Offset: 0xE17A1C
     ::Il2CppString* get_Name();
     // public System.Void set_Name(System.String value)
-    // Offset: 0xE3254C
+    // Offset: 0xE17A24
     void set_Name(::Il2CppString* value);
     // public System.Int32 get_Score()
-    // Offset: 0xE32554
+    // Offset: 0xE17A2C
     int get_Score();
     // public System.Void set_Score(System.Int32 value)
-    // Offset: 0xE3255C
+    // Offset: 0xE17A34
     void set_Score(int value);
     // public System.Void set_TimeStamp(System.Int64 value)
-    // Offset: 0xE32564
+    // Offset: 0xE17A3C
     void set_TimeStamp(int64_t value);
   }; // NetEase.Docker.ScoreData
   #pragma pack(pop)

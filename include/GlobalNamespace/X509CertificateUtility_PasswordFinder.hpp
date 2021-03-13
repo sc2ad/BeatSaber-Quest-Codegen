@@ -38,24 +38,22 @@ namespace GlobalNamespace {
       return password;
     }
     // public System.Void .ctor(System.Byte[] password)
-    // Offset: 0x1C23658
+    // Offset: 0x2161970
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::PasswordFinder* New_ctor(::Array<uint8_t>* password) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::X509CertificateUtility::PasswordFinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::PasswordFinder*, creationType>(password)));
     }
     // public System.Void .ctor(System.String password)
-    // Offset: 0x1C220F0
+    // Offset: 0x2160480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::PasswordFinder* New_ctor(::Il2CppString* password) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::X509CertificateUtility::PasswordFinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::PasswordFinder*, creationType>(password)));
     }
     // public System.Char[] GetPassword()
-    // Offset: 0x1C23730
-    // Implemented from: Org.BouncyCastle.OpenSsl.IPasswordFinder
-    // Base method: System.Char[] IPasswordFinder::GetPassword()
-    ::Array<::Il2CppChar>* GetPassword();
+    // Offset: 0x2161A38
+    ::Array<::Il2CppChar>* GetPassword_NEW();
   }; // X509CertificateUtility/PasswordFinder
   #pragma pack(pop)
   static check_size<sizeof(X509CertificateUtility::PasswordFinder), 16 + sizeof(::Array<::Il2CppChar>*)> __GlobalNamespace_X509CertificateUtility_PasswordFinderSizeCheck;

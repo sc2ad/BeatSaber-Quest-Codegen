@@ -33,21 +33,21 @@ namespace UnityEngine {
     // Creating value type constructor for type: FontTextureRebuildCallback
     FontTextureRebuildCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x22CA69C
+    // Offset: 0x217CDB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Font::FontTextureRebuildCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Font::FontTextureRebuildCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Font::FontTextureRebuildCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x22CA3F0
-    void Invoke();
+    // Offset: 0x217CB04
+    void Invoke_NEW();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x22CA6B0
-    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x217CDC0
+    System::IAsyncResult* BeginInvoke_NEW(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x22CA6DC
-    void EndInvoke(System::IAsyncResult* result);
+    // Offset: 0x217CDEC
+    void EndInvoke_NEW(System::IAsyncResult* result);
   }; // UnityEngine.Font/FontTextureRebuildCallback
   #pragma pack(pop)
 }

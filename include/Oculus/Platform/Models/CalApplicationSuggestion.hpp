@@ -34,7 +34,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: CalApplicationSuggestion
     CalApplicationSuggestion(uint64_t ID_ = {}, ::Il2CppString* SocialContext_ = {}) noexcept : ID{ID_}, SocialContext{SocialContext_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13F1AEC
+    // Offset: 0x138C510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CalApplicationSuggestion* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CalApplicationSuggestion::.ctor");

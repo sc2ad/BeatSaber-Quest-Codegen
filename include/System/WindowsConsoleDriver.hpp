@@ -16,14 +16,14 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
+  // Forward declaring type: ConsoleKeyInfo
+  struct ConsoleKeyInfo;
   // Forward declaring type: Handles
   struct Handles;
   // Forward declaring type: ConsoleScreenBufferInfo
   struct ConsoleScreenBufferInfo;
   // Forward declaring type: InputRecord
   struct InputRecord;
-  // Forward declaring type: ConsoleKeyInfo
-  struct ConsoleKeyInfo;
 }
 // Completed forward declares
 // Type namespace: System
@@ -58,20 +58,23 @@ namespace System {
     operator System::IConsoleDriver() noexcept {
       return *reinterpret_cast<System::IConsoleDriver*>(this);
     }
+    // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
+    // Offset: 0x20DD3B8
+    System::ConsoleKeyInfo ReadKey_NEW(bool intercept);
     // static private System.Boolean IsModifierKey(System.Int16 virtualKeyCode)
-    // Offset: 0x22B0448
+    // Offset: 0x20DD620
     static bool IsModifierKey(int16_t virtualKeyCode);
     // static private System.IntPtr GetStdHandle(System.Handles handle)
-    // Offset: 0x22B00B8
+    // Offset: 0x20DD290
     static System::IntPtr GetStdHandle(System::Handles handle);
     // static private System.Boolean GetConsoleScreenBufferInfo(System.IntPtr handle, out System.ConsoleScreenBufferInfo info)
-    // Offset: 0x22B0140
+    // Offset: 0x20DD318
     static bool GetConsoleScreenBufferInfo(System::IntPtr handle, System::ConsoleScreenBufferInfo& info);
     // static private System.Boolean ReadConsoleInput(System.IntPtr handle, out System.InputRecord record, System.Int32 length, out System.Int32 nread)
-    // Offset: 0x22B0358
+    // Offset: 0x20DD530
     static bool ReadConsoleInput(System::IntPtr handle, System::InputRecord& record, int length, int& nread);
     // public System.Void .ctor()
-    // Offset: 0x22B0058
+    // Offset: 0x20DD230
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -79,11 +82,6 @@ namespace System {
       static auto ___internal__logger = ::Logger::get().WithContext("System::WindowsConsoleDriver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WindowsConsoleDriver*, creationType>()));
     }
-    // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x22B01E0
-    // Implemented from: System.IConsoleDriver
-    // Base method: System.ConsoleKeyInfo IConsoleDriver::ReadKey(System.Boolean intercept)
-    System::ConsoleKeyInfo ReadKey(bool intercept);
   }; // System.WindowsConsoleDriver
   #pragma pack(pop)
   static check_size<sizeof(WindowsConsoleDriver), 32 + sizeof(int16_t)> __System_WindowsConsoleDriverSizeCheck;

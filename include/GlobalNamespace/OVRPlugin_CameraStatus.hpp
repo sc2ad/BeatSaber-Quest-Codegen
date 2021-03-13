@@ -63,6 +63,12 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::CameraStatus _get_CameraStatus_Calibrated();
     // Set static field: static public OVRPlugin/CameraStatus CameraStatus_Calibrated
     static void _set_CameraStatus_Calibrated(GlobalNamespace::OVRPlugin::CameraStatus value);
+    // static field const value: static public OVRPlugin/CameraStatus CameraStatus_ThirdPerson
+    static constexpr const int CameraStatus_ThirdPerson = 5;
+    // Get static field: static public OVRPlugin/CameraStatus CameraStatus_ThirdPerson
+    static GlobalNamespace::OVRPlugin::CameraStatus _get_CameraStatus_ThirdPerson();
+    // Set static field: static public OVRPlugin/CameraStatus CameraStatus_ThirdPerson
+    static void _set_CameraStatus_ThirdPerson(GlobalNamespace::OVRPlugin::CameraStatus value);
     // static field const value: static public OVRPlugin/CameraStatus CameraStatus_EnumSize
     static constexpr const int CameraStatus_EnumSize = 2147483647;
     // Get static field: static public OVRPlugin/CameraStatus CameraStatus_EnumSize

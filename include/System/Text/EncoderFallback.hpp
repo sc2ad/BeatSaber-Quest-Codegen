@@ -49,22 +49,22 @@ namespace System::Text {
     // Set static field: static private System.Object s_InternalSyncObject
     static void _set_s_InternalSyncObject(::Il2CppObject* value);
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0x191D6E8
+    // Offset: 0x1A130C0
     static ::Il2CppObject* get_InternalSyncObject();
     // static public System.Text.EncoderFallback get_ReplacementFallback()
-    // Offset: 0x1917C44
+    // Offset: 0x1A0DCA0
     static System::Text::EncoderFallback* get_ReplacementFallback();
     // static public System.Text.EncoderFallback get_ExceptionFallback()
-    // Offset: 0x191D7CC
+    // Offset: 0x1A13154
     static System::Text::EncoderFallback* get_ExceptionFallback();
     // public System.Text.EncoderFallbackBuffer CreateFallbackBuffer()
     // Offset: 0xFFFFFFFF
-    System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
+    System::Text::EncoderFallbackBuffer* CreateFallbackBuffer_NEW();
     // public System.Int32 get_MaxCharCount()
     // Offset: 0xFFFFFFFF
-    int get_MaxCharCount();
+    int get_MaxCharCount_NEW();
     // protected System.Void .ctor()
-    // Offset: 0x191CE50
+    // Offset: 0x1A12B04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

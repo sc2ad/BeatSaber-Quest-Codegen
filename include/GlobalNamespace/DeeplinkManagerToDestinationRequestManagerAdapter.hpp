@@ -40,21 +40,21 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class DeeplinkManagerToDestinationRequestManagerAdapter : public ::Il2CppObject/*, public GlobalNamespace::IDestinationRequestManager*/ {
     public:
-    // [InjectAttribute] Offset: 0xD34910
+    // [InjectAttribute] Offset: 0xD1FAFC
     // private BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xD34920
+    // [InjectAttribute] Offset: 0xD1FB0C
     // private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicCollectionSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD34930
+    // [CompilerGeneratedAttribute] Offset: 0xD1FB1C
     // private System.Action`1<MenuDestination> didSendMenuDestinationRequestEvent
     // Size: 0x8
     // Offset: 0x20
@@ -73,39 +73,29 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IDestinationRequestManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDestinationRequestManager*>(this);
     }
-    // public System.Void Init(IDeeplinkManager deeplinkManager)
-    // Offset: 0x1048FA8
-    void Init(GlobalNamespace::IDeeplinkManager* deeplinkManager);
-    // protected System.Void HandleDeeplinkManagerDidReceiveDeeplink(Deeplink deeplink)
-    // Offset: 0x1049180
-    void HandleDeeplinkManagerDidReceiveDeeplink(GlobalNamespace::Deeplink* deeplink);
     // public System.Void add_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
-    // Offset: 0x1048DD4
-    // Implemented from: IDestinationRequestManager
-    // Base method: System.Void IDestinationRequestManager::add_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
-    void add_didSendMenuDestinationRequestEvent(System::Action_1<GlobalNamespace::MenuDestination*>* value);
+    // Offset: 0xFDCB24
+    void add_didSendMenuDestinationRequestEvent_NEW(System::Action_1<GlobalNamespace::MenuDestination*>* value);
     // public System.Void remove_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
-    // Offset: 0x1048E78
-    // Implemented from: IDestinationRequestManager
-    // Base method: System.Void IDestinationRequestManager::remove_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
-    void remove_didSendMenuDestinationRequestEvent(System::Action_1<GlobalNamespace::MenuDestination*>* value);
+    // Offset: 0xFDCBC8
+    void remove_didSendMenuDestinationRequestEvent_NEW(System::Action_1<GlobalNamespace::MenuDestination*>* value);
     // public MenuDestination get_currentMenuDestinationRequest()
-    // Offset: 0x1048F1C
-    // Implemented from: IDestinationRequestManager
-    // Base method: MenuDestination IDestinationRequestManager::get_currentMenuDestinationRequest()
-    GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();
+    // Offset: 0xFDCC6C
+    GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest_NEW();
     // public System.Void set_currentMenuDestinationRequest(MenuDestination value)
-    // Offset: 0x1048F24
-    // Implemented from: IDestinationRequestManager
-    // Base method: System.Void IDestinationRequestManager::set_currentMenuDestinationRequest(MenuDestination value)
-    void set_currentMenuDestinationRequest(GlobalNamespace::MenuDestination* value);
+    // Offset: 0xFDCC74
+    void set_currentMenuDestinationRequest_NEW(GlobalNamespace::MenuDestination* value);
+    // public System.Void Init(IDeeplinkManager deeplinkManager)
+    // Offset: 0xFDCCEC
+    void Init(GlobalNamespace::IDeeplinkManager* deeplinkManager);
     // public System.Void Clear()
-    // Offset: 0x1049660
-    // Implemented from: IDestinationRequestManager
-    // Base method: System.Void IDestinationRequestManager::Clear()
-    void Clear();
+    // Offset: 0xFDD37C
+    void Clear_NEW();
+    // protected System.Void HandleDeeplinkManagerDidReceiveDeeplink(Deeplink deeplink)
+    // Offset: 0xFDCEC4
+    void HandleDeeplinkManagerDidReceiveDeeplink(GlobalNamespace::Deeplink* deeplink);
     // public System.Void .ctor()
-    // Offset: 0x104966C
+    // Offset: 0xFDD384
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

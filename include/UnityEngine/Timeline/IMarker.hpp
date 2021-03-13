@@ -23,16 +23,16 @@ namespace UnityEngine::Timeline {
     IMarker() noexcept {}
     // public System.Double get_time()
     // Offset: 0xFFFFFFFF
-    double get_time();
+    double get_time_NEW();
     // public System.Void set_time(System.Double value)
     // Offset: 0xFFFFFFFF
-    void set_time(double value);
+    void set_time_NEW(double value);
     // public UnityEngine.Timeline.TrackAsset get_parent()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Timeline::TrackAsset* get_parent();
+    UnityEngine::Timeline::TrackAsset* get_parent_NEW();
     // public System.Void Initialize(UnityEngine.Timeline.TrackAsset parent)
     // Offset: 0xFFFFFFFF
-    void UnityEngine_Timeline_IMarker_Initialize(UnityEngine::Timeline::TrackAsset* parent);
+    void Initialize_NEW(UnityEngine::Timeline::TrackAsset* parent);
   }; // UnityEngine.Timeline.IMarker
   #pragma pack(pop)
 }

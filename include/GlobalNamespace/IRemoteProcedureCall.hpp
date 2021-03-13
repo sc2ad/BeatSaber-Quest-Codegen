@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     }
     // public System.Single get_syncTime()
     // Offset: 0xFFFFFFFF
-    float get_syncTime();
+    float get_syncTime_NEW();
   }; // IRemoteProcedureCall
   #pragma pack(pop)
 }

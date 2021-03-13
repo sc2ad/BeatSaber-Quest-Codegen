@@ -31,14 +31,14 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class IKExecutionOrder : public UnityEngine::MonoBehaviour {
     public:
-    // [TooltipAttribute] Offset: 0xD28204
+    // [TooltipAttribute] Offset: 0xD13168
     // public RootMotion.FinalIK.IK[] IKComponents
     // Size: 0x8
     // Offset: 0x18
     ::Array<RootMotion::FinalIK::IK*>* IKComponents;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::IK*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD2823C
+    // [TooltipAttribute] Offset: 0xD131A0
     // public UnityEngine.Animator animator
     // Size: 0x8
     // Offset: 0x20
@@ -56,25 +56,25 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x1AFCB10
+    // Offset: 0x1A68150
     bool get_animatePhysics();
     // private System.Void Start()
-    // Offset: 0x1AFCBAC
+    // Offset: 0x1A681EC
     void Start();
     // private System.Void Update()
-    // Offset: 0x1AFCC1C
+    // Offset: 0x1A6825C
     void Update();
     // private System.Void FixedUpdate()
-    // Offset: 0x1AFCCD8
+    // Offset: 0x1A68318
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x1AFCD14
+    // Offset: 0x1A68354
     void LateUpdate();
     // private System.Void FixTransforms()
-    // Offset: 0x1AFCC50
+    // Offset: 0x1A68290
     void FixTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1AFCDA0
+    // Offset: 0x1A683E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
