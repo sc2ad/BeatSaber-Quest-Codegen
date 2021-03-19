@@ -35,7 +35,7 @@ include $(PREBUILT_SHARED_LIBRARY)
 
 # Writing single library: il2cpp_codegen
 include $(CLEAR_VARS)
-LOCAL_MODULE := il2cpp_codegen
+LOCAL_MODULE := codegen_0_7_0
 LOCAL_SRC_FILES := $(call rwildcard,./src,*.cpp)
 LOCAL_SHARED_LIBRARIES += beatsaber-hook_1_2_3
 LOCAL_SHARED_LIBRARIES += modloader
